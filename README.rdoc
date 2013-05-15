@@ -1,3 +1,9 @@
 == Welcome to The Odin Project
 
 It's game on.
+
+>> Set up Postgres as dev
+
+Eventually:
+>> Turn on add-ons like newrelic and sendgrid and pgbackups
+
