@@ -98,7 +98,6 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.7)
     therubyracer (0.11.4)
       libv8 (~> 3.11.8.12)
       ref
@@ -126,7 +125,6 @@ DEPENDENCIES
   pg
   rails (= 3.2.12)
   sass-rails (~> 3.2.3)
-  sqlite3
   therubyracer
   twitter-bootstrap-rails
   uglifier (>= 1.0.3)
