@@ -1,0 +1,8 @@
+
+<!-- Hide the navbar at the top -->
+<% content_for :stylesheets do %>
+  #top-navbar{display:none}
+<% end %>
+
+<!-- Render the normal application layout template -->
+<%= render :template => 'layouts/application' %>

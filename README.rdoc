@@ -2,6 +2,10 @@
 
 It's game on.
 
+>> Add Google Analytics
+
+
+
 Eventually:
 >> Turn on add-ons like newrelic and sendgrid and pgbackups
 
