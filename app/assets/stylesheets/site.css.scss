@@ -15,6 +15,11 @@ html {
 body {
   padding-top: 60px;
   background: $background_color;
+  background-image: -webkit-radial-gradient(center 350px,circle,#fff 200px,#eee 650px,#ddd);
+  background-image: -moz-radial-gradient(center 350px,circle,rgba(255,255,255,0.95) 200px,#eee 650px,#ddd);
+  background-image: -o-radial-gradient(center 350px,circle,rgba(255,255,255,0.95) 200px,#eee 650px,#ddd);
+  background-image: -ms-radial-gradient(center 350px,circle,rgba(255,255,255,0.95) 200px,#eee 650px,#ddd);
+  background-image: radial-gradient(center 350px,circle,rgba(255,255,255,0.95) 200px,#eee 650px,#ddd);
 }
 
 footer {
