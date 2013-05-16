@@ -1,8 +1,23 @@
 @import "colors";
 
+/* Main Variables */
+$default-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$monospace-font: 'Inconsolata', monospace;
+$grotesque-font: 'Montserrat', $default-font; 
 
+
+/* Assumed: Bootstrap has done the CSS resets for us */
+
+html {
+  font-family: $default-font;
+}
 
 body {
   padding-top: 60px;
   background: $background_color;
+}
+
+footer {
+  text-align: right;
+  margin-top: 100px;
 }

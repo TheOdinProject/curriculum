@@ -1,3 +1,87 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'colors';
+
+#landing-page{
+
+  h1{
+    color: $main_blue;
+    font-size: 60px;
+    margin-left: 50px;  
+    .beta-superscript{
+      vertical-align: super;
+      font-size: 16px;
+    }
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .container-narrow{
+    margin: 30px auto;
+    max-width: 700px;
+  }
+
+  .jumbotron{
+    text-align: center;
+  }
+
+  .flush{
+    margin-left:0px;
+  }
+
+  .subheading{
+    letter-spacing: 1px;
+    margin: 10px auto;
+    width: 410px;
+    h3{
+      font-size: 18px;
+      font-weight: 200;
+      line-height: 22px;
+    }
+  }
+  #benefits{
+    h5{
+      color: $main_blue;
+      font-style: italic;
+      font-size: 18px;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+
+  .center{
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .beta-notification{
+    color: $mid_gray;
+    margin-top: 30px;
+  }
+
+  .dev-statement{
+    letter-spacing: 1px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: $font_weight;
+  }
+
+  .cta-box{
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px $light_gray;
+    border-radius: 3px;
+    margin-top: 60px;
+  }
+
+  .cta-disclaimer{
+    margin-top: 15px;
+    font-style: italic;
+    font-weight: $font_weight;
+  }
+}
