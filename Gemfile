@@ -20,6 +20,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'letter_opener'
   gem 'rspec-rails'
+  gem 'capybara'
 end
 
 group :test do
