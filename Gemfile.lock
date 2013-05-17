@@ -28,6 +28,7 @@ GEM
     activesupport (3.2.12)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    addressable (2.3.3)
     arel (3.0.2)
     better_errors (0.7.0)
       coderay (>= 1.0.0)
@@ -58,11 +59,15 @@ GEM
       jquery-rails
       railties (>= 3.1.0)
     json (1.8.0)
+    launchy (2.2.0)
+      addressable (~> 2.3)
     less (2.3.2)
       commonjs (~> 0.2.6)
     less-rails (2.3.3)
       actionpack (>= 3.1)
       less (~> 2.3.1)
+    letter_opener (1.1.0)
+      launchy (~> 2.2.0)
     libv8 (3.11.8.17)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -138,6 +143,7 @@ DEPENDENCIES
   jquery-rails
   jquery-ui-rails
   less-rails
+  letter_opener
   pg
   rails (= 3.2.12)
   sass-rails (~> 3.2.3)
