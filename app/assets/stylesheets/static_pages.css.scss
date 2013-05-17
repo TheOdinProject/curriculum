@@ -8,16 +8,26 @@
 
   h1{
     color: $main_blue;
-    font-size: 60px;
-    margin-left: 50px;  
+    font-size: 75px;
+    margin-left: 20px;
+    margin-bottom: 25px; 
+    text-shadow: 1px 1px 1px rgba(255,255,255,1), rgba(0,0,0,.2) 2px 2px 2px ;
     .beta-superscript{
+      text-shadow: none;
       vertical-align: super;
       font-size: 16px;
     }
   }
 
   h2{
-    font-size: 30px;
+    font-size: 34px;
+  }
+
+  input{
+    width: 150px;
+    height: 46px;
+    margin-top: 15px;
+    border-radius: 10px;
   }
 
   .container-narrow{
@@ -35,11 +45,11 @@
 
   .subheading{
     letter-spacing: 1px;
-    margin: 10px auto;
-    width: 410px;
+    margin: 40px auto;
+    width: 700px;
     h3{
-      font-size: 18px;
-      font-weight: 200;
+      font-size: 24px;
+      font-weight: 400;
       line-height: 22px;
     }
   }
@@ -48,9 +58,11 @@
       color: $main_blue;
       font-style: italic;
       font-size: 18px;
-      font-weight: 300;
+      font-weight: 400;
       text-align: center;
       margin-top: 20px;
+      text-shadow: 1px 1px 0px rgba(0,0,0,.1);
+      letter-spacing: 1px;
     }
   }
 
@@ -60,28 +72,87 @@
   }
 
   .beta-notification{
-    color: $mid_gray;
+    color: $main_blue;
     margin-top: 30px;
+    font-size: 30px;
+
   }
 
   .dev-statement{
     letter-spacing: 1px;
     margin-top: 60px;
+    margin-bottom: 100px;
     text-align: center;
     font-size: 16px;
     font-weight: $font_weight;
   }
 
   .cta-box{
-    border: 1px solid black;
-    box-shadow: 2px 2px 1px $light_gray;
-    border-radius: 3px;
-    margin-top: 60px;
+    /*display: inline-block;*/
+    /*border: 1px solid black;*/
+    /*box-shadow: 2px 2px 1px $light_gray;*/
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    height: 80px;
+    -webkit-box-shadow: 0 1px 8px -1px #333;
+    box-shadow: 0 1px 8px -1px #333;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+    background-image: url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0.3)),to(rgba(0,10,10,0.2))),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
+    background-image: -webkit-linear-gradient(top,rgba(255,255,255,0.3) 0,rgba(0,10,10,0.2) 100%),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
+    background-image: -moz-linear-gradient(top,rgba(255,255,255,0.3) 0,rgba(0,10,10,0.2) 100%),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
+    background-image: -o-linear-gradient(top,rgba(255,255,255,0.3) 0,rgba(0,10,10,0.2) 100%),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
+    background-image: -ms-linear-gradient(top,rgba(255,255,255,0.3) 0,rgba(0,10,10,0.2) 100%),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
+    background-image: linear-gradient(to bottom,rgba(255,255,255,0.3) 0,rgba(0,10,10,0.2) 100%),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
+
   }
 
   .cta-disclaimer{
     margin-top: 15px;
     font-style: italic;
     font-weight: $font_weight;
+    letter-spacing: 1px;
   }
+
+  .flex-container{
+    display: inline-block;
+  }
+
+  #splash_email_email{
+    height: 30px;
+    width: 360px;
+    float: left;
+    margin-left: 25px;
+    margin-top: 18px;
+    font-size: 20px;
+    padding-left: 10px;
+    text-shadow: 0 0 2px rgba(255,255,255,0.4);
+    -webkit-box-shadow: inset 0 2px 6px -1px #444;
+    box-shadow: inset 0 2px 6px -1px #444;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding-top: 8px;
+  }
+
+  #confirmation_form{
+    height: 400px;
+    width: 600px;
+    background: blue;
+    margin: 200px auto;
+  }
+
 }
+
+
+
+
+
+
+
+
+

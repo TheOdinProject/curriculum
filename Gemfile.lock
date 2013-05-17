@@ -54,6 +54,9 @@ GEM
     jquery-rails (2.2.1)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
+    jquery-ui-rails (4.0.2)
+      jquery-rails
+      railties (>= 3.1.0)
     json (1.8.0)
     less (2.3.2)
       commonjs (~> 0.2.6)
@@ -133,6 +136,7 @@ DEPENDENCIES
   binding_of_caller
   coffee-rails (~> 3.2.1)
   jquery-rails
+  jquery-ui-rails
   less-rails
   pg
   rails (= 3.2.12)
