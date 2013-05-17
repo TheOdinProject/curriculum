@@ -34,6 +34,10 @@ GEM
       erubis (>= 2.6.6)
     binding_of_caller (0.7.1)
       debug_inspector (>= 0.0.1)
+    bootstrap_helper (2.0.0.3)
+      railties (~> 3.0)
+      thor (~> 0.14)
+      will_paginate (>= 3.0.3)
     builder (3.0.4)
     coderay (1.0.9)
     coffee-rails (3.2.2)
@@ -127,6 +131,7 @@ GEM
     uglifier (2.1.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+    will_paginate (3.0.4)
 
 PLATFORMS
   ruby
@@ -134,6 +139,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
+  bootstrap_helper
   coffee-rails (~> 3.2.1)
   jquery-rails
   jquery-ui-rails
