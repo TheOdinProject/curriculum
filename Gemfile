@@ -4,7 +4,6 @@ gem 'rails', '3.2.12'
 gem 'pg'
 gem 'simple_form'
 gem 'jquery-ui-rails'
-gem 'bootstrap_helper'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
