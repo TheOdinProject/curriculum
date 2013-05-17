@@ -14,7 +14,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: db/production
+  database: theodinproject_test
   pool: 5
   username:
   password: 
