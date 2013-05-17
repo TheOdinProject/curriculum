@@ -3,6 +3,9 @@
 It's game on.
 
 >> Add Google Analytics
+>> Add mailer for when there is a new signup
+>> Add modal for wishlist data after signup
+
 
 
 
