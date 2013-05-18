@@ -22,7 +22,7 @@ describe "StaticPages" do
       end
 
       it "should create the splash_email instance" do
-        expect { click_button("commit") }.to change(SplashEmail, :count).by(2)
+        expect { click_button("commit") }.to change(SplashEmail, :count).by(1)
       end
     end
 
