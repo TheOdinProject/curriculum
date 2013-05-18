@@ -86,6 +86,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.3)
+    newrelic_rpm (3.6.2.96)
     nokogiri (1.5.6)
     pg (0.15.1)
     polyglot (0.3.3)
@@ -177,6 +178,7 @@ DEPENDENCIES
   jquery-ui-rails
   less-rails
   letter_opener
+  newrelic_rpm
   pg
   rails (= 3.2.12)
   rspec-rails

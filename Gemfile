@@ -4,12 +4,12 @@ gem 'rails', '3.2.12'
 gem 'pg'
 gem 'simple_form'
 gem 'jquery-ui-rails'
+gem 'newrelic_rpm'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-
 end
 
 group :development, :test do
