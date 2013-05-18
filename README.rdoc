@@ -2,8 +2,8 @@
 
 It's game on.
 
->> Add mailer for when there is a new signup -- for them and for me
->> Add tests for the signup page display and functionality
+>> enable sendgrid and other heroku addons
+>> Manually test the emailing
 >> Add modal for wishlist data after signup
 >> Optimize Google Analytics for best level of info detail
 >> Set up viral feedback looping like launchrock -- give each signup a unique referral code and make links between them so you see downstream who refers most.  >> Add social buttons to the splash process
