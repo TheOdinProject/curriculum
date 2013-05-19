@@ -1,0 +1,54 @@
+<%= content_for :title, "The Odin Project -- Learn to Code Together" %>
+
+<div id="landing-page">
+  <div class="container-narrow jumbotron">
+    <h1 class="headline">
+      The Odin Project <span class="beta-superscript">[Beta]</span>
+    </h1>
+
+    <h2>
+      Learn to Code Together.  Free.
+    </h2>
+    
+
+
+    <div class="row flush">
+      <div class="subheading thank-you">
+        <h2 class="thank-you">
+          Thank you!
+        </h2>
+      </div>
+    </div>
+
+    <p class="beta-notification">
+      <strong><em>What projects we should add to our menu?</em></strong>
+    </p>
+
+    <div class="row-fluid">
+      <div class="cta-box thank-you">
+        <%= render :partial => "suggestions_form" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+    $("#suggestion_form").bind("ajax:complete", function(event, xhr, status){
+      console.log($("#suggestion_form input"));
+      $("#suggestion_form input").attr("disabled","disabled").val("Submitted!");
+      $("#suggestion_form textarea").attr("disabled","disabled");
+      console.log("did it!");
+    });
+  });
+</script>
+
+
+
+
+
+
+
+
+
+

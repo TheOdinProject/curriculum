@@ -21,6 +21,10 @@
 
   h2{
     font-size: 34px;
+    &.thank-you{
+      font-size: 58px;
+      margin-bottom: 40px;
+    }
   }
 
   input{
@@ -28,6 +32,9 @@
     height: 46px;
     margin-top: 15px;
     border-radius: 10px;
+    &.thank-you{
+      margin-top: 45px;
+    }
   }
 
   .container-narrow{
@@ -51,6 +58,12 @@
       font-size: 24px;
       font-weight: 400;
       line-height: 22px;
+    }
+    &.thank-you{
+      width: 500px;
+    }
+    p {
+      margin-top: 30px;
     }
   }
   #benefits{
@@ -96,11 +109,18 @@
     margin-left: auto;
     margin-right: auto;
     width: 620px;
-    height: 80px;
     -webkit-box-shadow: 0 1px 8px -1px #333;
     box-shadow: 0 1px 8px -1px #333;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+    
+    &.splash{
+      height: 80px;
+    }
+    &.thank-you{
+      height: 140px;
+    }
+
 
     background-image: url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
     background-image: -webkit-gradient(linear,left top,left bottom,from(rgba(255,255,255,0.3)),to(rgba(0,10,10,0.2))),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
@@ -110,6 +130,37 @@
     background-image: -ms-linear-gradient(top,rgba(255,255,255,0.3) 0,rgba(0,10,10,0.2) 100%),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
     background-image: linear-gradient(to bottom,rgba(255,255,255,0.3) 0,rgba(0,10,10,0.2) 100%),url('//d1y0v6ricksqp.cloudfront.net/images/backgrounds/tiled/small_tiles.png');
 
+    input.string, textarea {
+      height: 30px;
+      width: 360px;
+      float: left;
+      margin-left: 25px;
+      margin-top: 18px;
+      font-size: 20px;
+      padding-left: 10px;
+      text-shadow: 0 0 2px rgba(255,255,255,0.4);
+      -webkit-box-shadow: inset 0 2px 6px -1px #444;
+      box-shadow: inset 0 2px 6px -1px #444;
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+      padding-top: 8px;
+    }
+
+    textarea {
+      height: 90px;
+      width: 360px;
+      float: left;
+      margin-left: 25px;
+      margin-top: 18px;
+      font-size: 20px;
+      padding-left: 10px;
+      text-shadow: 0 0 2px rgba(255,255,255,0.4);
+      -webkit-box-shadow: inset 0 2px 6px -1px #444;
+      box-shadow: inset 0 2px 6px -1px #444;
+      -webkit-border-radius: 8px;
+      border-radius: 8px;
+      padding-top: 8px;
+    }
   }
 
   .cta-disclaimer{
@@ -123,21 +174,6 @@
     display: inline-block;
   }
 
-  #splash_email_email{
-    height: 30px;
-    width: 360px;
-    float: left;
-    margin-left: 25px;
-    margin-top: 18px;
-    font-size: 20px;
-    padding-left: 10px;
-    text-shadow: 0 0 2px rgba(255,255,255,0.4);
-    -webkit-box-shadow: inset 0 2px 6px -1px #444;
-    box-shadow: inset 0 2px 6px -1px #444;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    padding-top: 8px;
-  }
 
   #confirmation_form{
     height: 400px;

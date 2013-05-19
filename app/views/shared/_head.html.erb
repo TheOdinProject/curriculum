@@ -15,6 +15,11 @@
     <!-- Pull in any custom style mods from subordinate layouts -->
     <style type="text/css"><%= yield :stylesheets %> </style>
 
+    <!-- Javascripts
+    ================================================== -->
+    <!-- SHOULD BE Placed at the end of the document so the pages load faster BUT then my page-specific JS wouldn't run -->
+    <%= javascript_include_tag "application" %>
+    
     <!-- Google Analytics Tracking Snippet -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
