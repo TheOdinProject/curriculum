@@ -2,7 +2,8 @@
 
 It's game on.
 
->> Add modal for wishlist data after signup
+>> Refactor out some html stuff
+
 >> Optimize Google Analytics for best level of info detail
 >> Set up viral feedback looping like launchrock -- give each signup a unique referral code and make links between them so you see downstream who refers most.  >> Add social buttons to the splash process
 
