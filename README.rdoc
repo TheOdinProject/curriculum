@@ -19,5 +19,5 @@ It's game on.
 
 
 Eventually:
->> Turn on add-ons like newrelic and sendgrid and pgbackups
+>> Turn on add-ons like pgbackups
 

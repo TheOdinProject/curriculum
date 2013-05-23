@@ -13,4 +13,8 @@ class StaticPagesController < ApplicationController
     end
   end
 
+  def scheduler
+
+  end
+
 end

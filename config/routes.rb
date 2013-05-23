@@ -3,6 +3,7 @@ Theodinproject::Application.routes.draw do
   root :to => 'static_pages#home'
   get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
+  get 'scheduler' => 'static_pages#scheduler'
 
   resources :splash_emails, only: [:create]
 
