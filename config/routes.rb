@@ -4,6 +4,7 @@ Theodinproject::Application.routes.draw do
   get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'
+  get 'selectable' => 'static_pages#selectable'
 
   resources :splash_emails, only: [:create]
 
