@@ -9,9 +9,11 @@ It's game on.
 
 ---- Done with splash page ----
 
->> spec out the calendar user interaction flows
->> find calendar path of least resistance to develop
->> research necessary API integration for calendar (throwaway app?)
+---- Calendar! ----
+
+>>>> Unfuck the google calendar feed!
+>>>> Test out calendar options
+>>>> Build out event creation functionality
 >> Look and feel???
 >> Start building the calendar MVP
 >> ??? Front end frameworks ???
