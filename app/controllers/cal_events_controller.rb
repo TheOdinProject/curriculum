@@ -1,5 +1,7 @@
 class CalEventsController < ApplicationController
 
+  # this endpoint should return all events that
+  # correspond to the calendar's filter settings
   def index
     events = [
       {
@@ -20,6 +22,9 @@ class CalEventsController < ApplicationController
     render :json => events
   end
 
+
+  # this endpoint should create a new calendar
+  # event and return it
   def create
     puts "\n\n\n #{params} \n\n\n"
     event = {
