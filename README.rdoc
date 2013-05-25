@@ -18,6 +18,8 @@ It's game on.
 >> Start building the calendar MVP
 >> ??? Front end frameworks ???
 
+---- Devise ----
+>> Haven't done any of the suggested config.action_mailer.default_url_options stuff or setting the precompile assets for heroku stuff.
 
 
 Eventually:
