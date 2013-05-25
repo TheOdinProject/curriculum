@@ -11,7 +11,22 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130517212611) do
+ActiveRecord::Schema.define(:version => 20130525002607) do
+
+  create_table "cal_events", :force => true do |t|
+    t.string   "summary"
+    t.datetime "start"
+    t.datetime "end"
+    t.text     "description"
+    t.string   "time_zone"
+    t.integer  "creator_id"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "cal_events", ["creator_id"], :name => "index_cal_events_on_creator_id"
+  add_index "cal_events", ["end"], :name => "index_cal_events_on_end"
+  add_index "cal_events", ["start"], :name => "index_cal_events_on_start"
 
   create_table "splash_emails", :force => true do |t|
     t.string   "email"
