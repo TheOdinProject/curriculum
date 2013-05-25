@@ -53,9 +53,9 @@
             selectable: true,
             selectHelper: true,
             select: function(start, end, allDay) {
-              var title = prompt('Event Title, Foo!');
+              var summary = prompt('Event Title, Foo!');
               var description = prompt('Enter Description, Foo!');
-              if(title) {
+              if(summary) {
                 $.ajax({
                   url: "<%= cal_events_url %>",
                   type: "POST",
@@ -63,14 +63,16 @@
                     start: start,
                     end: end,
                     allDay: allDay,
-                    title: title,
+                    summary: summary,
                     description: description
                   },
                   success: function(event){
+                    console.log("Success! Object is:");
+                    console.log(event);
                     calendar.fullCalendar(
                       'renderEvent',
                       {
-                        title: title,
+                        title: summary,
                         start: start,
                         end: end,
                         allDay: allDay
