@@ -1,5 +1,7 @@
 Theodinproject::Application.routes.draw do
 
+  devise_for :users
+
   root :to => 'static_pages#home'
   get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
