@@ -5,6 +5,8 @@ gem 'pg'
 gem 'simple_form'
 gem 'jquery-ui-rails'
 gem 'newrelic_rpm'
+gem 'google-api-client'
+gem 'devise'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

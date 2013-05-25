@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
+  before_filter :authenticate_user!, :only => :scheduler
 
   def home
     @splash_email = SplashEmail.new
@@ -11,6 +12,10 @@ class StaticPagesController < ApplicationController
     respond_to do |format|
       format.json { render json: params[:suggestion] }
     end
+  end
+
+  def scheduler
+
   end
 
 end

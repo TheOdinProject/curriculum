@@ -1,4 +1,10 @@
 <%= content_for :title, "The Odin Project -- Learn to Code Together" %>
+<!-- Hide the navbar at the top -->
+<% content_for :stylesheets do %>
+  #top-navbar{display:none}
+  #footer{display:none}
+<% end %>
+
 
 <div id="landing-page">
   <div class="container-narrow jumbotron">

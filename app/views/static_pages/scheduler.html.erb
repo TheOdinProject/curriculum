@@ -1,0 +1,193 @@
+<%= content_for :title, "The Odin Project -- Scheduler" %>
+
+<!-- Make sure to select the proper layout to include headers and footers, since this is a real user flow page in the application -->
+
+<div class="container">
+  <h1>Start Programming Together</h1>
+
+  <div class="row">
+    <div class="span4">
+      <h4>Tips and Instructions</h4>
+      <br>
+      <h5>What is this?</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <h5>How Does it Work?</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <h5>How do we Pair?</h5>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="span8">
+      <h4>When are you available?</h4>
+<!--       <iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=theodinproject.com_n24arb53k337idoue3bnedv6rk%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+      <script>
+        $(document).ready(function(){
+          var date = new Date();
+          var d = date.getDate();
+          var m = date.getMonth();
+          var y = date.getFullYear();
+
+          var calendar = $('#calendar').fullCalendar({
+            header: {
+              left: 'prev,next today',
+              center: 'title',
+              right: 'month,agendaWeek,agendaDay'
+            },
+            selectable: true,
+            selectHelper: true,
+            select: function(start, end, allDay) {
+              var summary = prompt('Event Title, Foo!');
+              var description = prompt('Enter Description, Foo!');
+              if(summary) {
+                $.ajax({
+                  url: "<%= cal_events_url %>",
+                  type: "POST",
+                  data: {
+                    start: start,
+                    end: end,
+                    allDay: allDay,
+                    summary: summary,
+                    description: description
+                  },
+                  success: function(event){
+                    console.log("Success! Object is:");
+                    console.log(event);
+                    calendar.fullCalendar(
+                      'renderEvent',
+                      {
+                        title: summary,
+                        start: start,
+                        end: end,
+                        allDay: allDay
+                      },
+                      true // make the event "stick"
+                    );
+                  },
+                  error: function(a,b,c){
+                    console.log("ERROR!!!!");
+                    console.log(a);
+                    console.log(b);
+                    console.log(c);
+                  }
+                })
+              }
+              calendar.fullCalendar('unselect');
+            },
+            editable: true,
+            eventSources: [   
+              {
+                url: "<%= cal_events_url %>"
+              }
+            ]
+          });
+
+        });
+            // events: function(start,end,callback) {
+            //   $.ajax({
+            //     url: 'http://www.google.com/calendar/feeds/usa__en%40holiday.calendar.google.com/public/basic',
+            //     dataType: 'jsonp',
+            //     data:{
+            //       start: start,
+            //       end: end
+            //     },
+            //     success: function(doc) {
+            //       // alert(doc);
+            //       $(doc).find('entry').each(function(){
+            //         events = [];
+            //         console.log($(this));
+            //         console.log($(this).attr('title'));
+            //         console.log($(this).attr('content'));
+            //         events.push({
+            //           title: $(this).attr('title'),
+            //           start: $(this).attr('content')
+            //         });
+            //       });
+            //       console.log(events);
+            //       callback(events);
+            //     }
+            //   })
+            // }
+            // [
+              // {
+              //   title: 'Just testing',
+              //   start: new Date(y,m,d, 12, 30),
+              //   allDay: false
+              // },
+              // {
+              //   title: 'Just testing',
+              //   start: new Date(y,m,d, 11, 30),
+              //   allDay: false
+              // },
+            // ]
+            // ,
+            // eventSources: [
+            //   {
+            //     url: 'http://www.google.com/calendar/feeds/usa__en%40holiday.calendar.google.com/public/basic',
+            //     error: function() {
+            //       alert("ERROR AAAAAAH");
+            //     },
+            //     success: function(data) {
+            //       alert(data);
+            //     },
+            //     crossDomain: 'true',
+            //     dataType: 'jsonp'
+            //   }
+            //   ,
+      </script>
+      <style>
+        #calendar {
+          min-width: 600px;
+          margin: 0 auto;
+        }
+      </style>
+      <div id='calendar'></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

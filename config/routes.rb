@@ -1,8 +1,15 @@
 Theodinproject::Application.routes.draw do
 
+  devise_for :users
+
   root :to => 'static_pages#home'
   get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
+  get 'scheduler' => 'static_pages#scheduler'
+  get 'selectable' => 'static_pages#selectable'
+  get 'gcal' => 'static_pages#gcal'
+
+  resources :cal_events
 
   resources :splash_emails, only: [:create]
 
