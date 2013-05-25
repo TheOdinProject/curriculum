@@ -11,12 +11,23 @@ It's game on.
 
 ---- Calendar! ----
 
->>>> Unfuck the google calendar feed!
->>>> Test out calendar options
->>>> Build out event creation functionality
+>> Build out back end -- event model
+>> link users with events (must be signed in to create or use any API endpoints)
+>> Build out event creation functionality
+>> step up index to show all events
+>> build calendar model
+>> build up index to only show calendar's events
+>> Set front end to call this endpoint correctly
+>> build up user.events endpoint to show their events
+>> bring in front end to handle the separate calls
+>> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
+
 >> Look and feel???
->> Start building the calendar MVP
 >> ??? Front end frameworks ???
+
+---- Future stuff ----
+>> Users not signed in can access scheduler but see only grayed out, no-info bars?  May just be too randomly complex for no reason.
+
 
 ---- Devise ----
 >> Haven't done any of the suggested config.action_mailer.default_url_options stuff or setting the precompile assets for heroku stuff.
