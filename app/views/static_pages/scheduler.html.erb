@@ -52,21 +52,49 @@
             selectHelper: true,
             select: function(start, end, allDay) {
               var title = prompt('Event Title, Foo!');
+              var description = prompt('Enter Description, Foo!');
               if(title) {
-                calendar.fullCalendar(
-                  'renderEvent',
-                  {
-                    title: title,
+                $.ajax({
+                  url: "<%= cal_events_url %>",
+                  type: "POST",
+                  data: {
                     start: start,
                     end: end,
-                    allDay: allDay
+                    allDay: allDay,
+                    title: title,
+                    description: description
                   },
-                  true // make the event "stick"
-                );
+                  success: function(event){
+                    calendar.fullCalendar(
+                      'renderEvent',
+                      {
+                        title: title,
+                        start: start,
+                        end: end,
+                        allDay: allDay
+                      },
+                      true // make the event "stick"
+                    );
+                  },
+                  error: function(a,b,c){
+                    console.log("ERROR!!!!");
+                    console.log(a);
+                    console.log(b);
+                    console.log(c);
+                  }
+                })
               }
               calendar.fullCalendar('unselect');
             },
             editable: true,
+            eventSources: [   
+              {
+                url: "<%= cal_events_url %>"
+              }
+            ]
+          });
+
+        });
             // events: function(start,end,callback) {
             //   $.ajax({
             //     url: 'http://www.google.com/calendar/feeds/usa__en%40holiday.calendar.google.com/public/basic',
@@ -118,15 +146,6 @@
             //     dataType: 'jsonp'
             //   }
             //   ,
-            events:  
-              {
-                url: 'http://www.google.com/calendar/feeds/usa__en%40holiday.calendar.google.com/public/basic',
-                dataType: 'jsonp'
-              }
-            // ]
-          });
-
-        });
       </script>
       <style>
         #calendar {

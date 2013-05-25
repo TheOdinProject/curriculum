@@ -7,6 +7,8 @@ Theodinproject::Application.routes.draw do
   get 'selectable' => 'static_pages#selectable'
   get 'gcal' => 'static_pages#gcal'
 
+  resources :cal_events
+
   resources :splash_emails, only: [:create]
 
   # The priority is based upon order of creation:
