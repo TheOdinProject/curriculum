@@ -70,6 +70,11 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     extlib (0.9.16)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     faraday (0.8.6)
       multipart-post (~> 1.1)
     ffi (1.4.0)
@@ -210,6 +215,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
   devise
+  factory_girl_rails
   google-api-client
   jquery-rails
   jquery-ui-rails

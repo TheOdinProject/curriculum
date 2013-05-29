@@ -82,9 +82,12 @@ describe "StaticPages" do
 
     context "after authenticating" do
 
-      let(:user) { User.new( :email => "foo@bar.com") }
+      let(:user) { FactoryGirl.create(:user) }
 
-      before { sign_in(user) }
+      before do
+        sign_in(user)
+        visit scheduler_path
+      end
 
       it { should have_selector('h1', :text => "Start Programming Together") }
       it { should have_selector("th", :text => "11am" ) }

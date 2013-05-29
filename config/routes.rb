@@ -1,6 +1,10 @@
 Theodinproject::Application.routes.draw do
 
-  devise_for :users
+  devise_for :users do
+    get '/signin' => 'devise/sessions#new'
+    get '/signout' => 'devise/sessions#destroy', :method => :delete
+  end
+    
 
   root :to => 'static_pages#home'
   get 'thank_you' => 'static_pages#thank_you'
