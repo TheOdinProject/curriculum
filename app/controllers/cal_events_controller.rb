@@ -25,14 +25,14 @@ class CalEventsController < ApplicationController
   # this AJAX endpoint should create a new calendar
   # event and return it
   def create
-    puts "\n\n\n #{params} \n\n\n"
 
     event = CalEvent.new({
-      :summary => params[:summary],
-      :start => params[:start],
-      :end => params[:end],
-      :creator_id => current_user.id 
-    })
+        :summary => params[:summary],
+        :start => params[:start],
+        :end => params[:end],
+        :creator_id => current_user.id 
+      })
+    
     if event.save
       render :json => event, :status => 201
     else

@@ -11,13 +11,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130525011325) do
+ActiveRecord::Schema.define(:version => 20130528232335) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
     t.datetime "start"
     t.datetime "end"
-    t.text     "description"
+    t.string   "description"
     t.string   "time_zone"
     t.integer  "creator_id"
     t.datetime "created_at",  :null => false

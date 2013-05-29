@@ -70,4 +70,42 @@ describe "StaticPages" do
 
   end
 
+  describe "Scheduler Page" do
+
+    before { visit scheduler_path }
+
+    context "as an unauthenticated user" do
+      
+      it { should have_selector('h2', "Sign in") }
+
+    end
+
+    context "after authenticating" do
+
+      let(:user) { User.new( :email => "foo@bar.com") }
+
+      before { sign_in(user) }
+
+      it { should have_selector('h1', :text => "Start Programming Together") }
+      it { should have_selector("th", :text => "11am" ) }
+      it { should have_selector("span", :text => "today" ) }
+
+      it "should default to week view" do
+        save_and_open_page
+        subject.should have_selector("span", :text => "week", :class => "fc-button-agenda-week")
+      end
+
+    end
+
+  end
+
+
 end
+
+
+
+
+
+
+
+

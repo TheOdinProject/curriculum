@@ -1,7 +1,5 @@
 <%= content_for :title, "The Odin Project -- Scheduler" %>
 
-<!-- Make sure to select the proper layout to include headers and footers, since this is a real user flow page in the application -->
-
 <div class="container">
   <h1>Start Programming Together</h1>
 
@@ -36,7 +34,7 @@
 
     <div class="span8">
       <h4>When are you available?</h4>
-<!--       <iframe src="https://www.google.com/calendar/embed?showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=theodinproject.com_n24arb53k337idoue3bnedv6rk%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+
       <script>
         $(document).ready(function(){
           var date = new Date();
@@ -97,59 +95,7 @@
               }
             ]
           });
-
         });
-            // events: function(start,end,callback) {
-            //   $.ajax({
-            //     url: 'http://www.google.com/calendar/feeds/usa__en%40holiday.calendar.google.com/public/basic',
-            //     dataType: 'jsonp',
-            //     data:{
-            //       start: start,
-            //       end: end
-            //     },
-            //     success: function(doc) {
-            //       // alert(doc);
-            //       $(doc).find('entry').each(function(){
-            //         events = [];
-            //         console.log($(this));
-            //         console.log($(this).attr('title'));
-            //         console.log($(this).attr('content'));
-            //         events.push({
-            //           title: $(this).attr('title'),
-            //           start: $(this).attr('content')
-            //         });
-            //       });
-            //       console.log(events);
-            //       callback(events);
-            //     }
-            //   })
-            // }
-            // [
-              // {
-              //   title: 'Just testing',
-              //   start: new Date(y,m,d, 12, 30),
-              //   allDay: false
-              // },
-              // {
-              //   title: 'Just testing',
-              //   start: new Date(y,m,d, 11, 30),
-              //   allDay: false
-              // },
-            // ]
-            // ,
-            // eventSources: [
-            //   {
-            //     url: 'http://www.google.com/calendar/feeds/usa__en%40holiday.calendar.google.com/public/basic',
-            //     error: function() {
-            //       alert("ERROR AAAAAAH");
-            //     },
-            //     success: function(data) {
-            //       alert(data);
-            //     },
-            //     crossDomain: 'true',
-            //     dataType: 'jsonp'
-            //   }
-            //   ,
       </script>
       <style>
         #calendar {

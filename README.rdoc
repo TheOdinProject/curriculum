@@ -2,8 +2,6 @@
 
 It's game on.
 
->> Refactor out some html stuff
-
 >> Optimize Google Analytics for best level of info detail
 >> Set up viral feedback looping like launchrock -- give each signup a unique referral code and make links between them so you see downstream who refers most.  >> Add social buttons to the splash process
 
@@ -11,16 +9,25 @@ It's game on.
 
 ---- Calendar! ----
 
->> Build out back end -- event model
->> link users with events (must be signed in to create or use any API endpoints)
->> Build out event creation functionality
->> step up index to show all events
->> build calendar model
->> build up index to only show calendar's events
->> Set front end to call this endpoint correctly
+>> WRITE TESTS
+>>>> basic page, calendar basic display, calendar population, event creation
+>> build front end delete functionality (start making the onclick modal)
+>> build back end event delete endpoint
+>> build front end update functionality into the modal
+>> build back end event update endpoint
+>> WRITE TESTS for delete / update!!!
+>> Make modal functionally good (but no better)
+>> build calfilterset model
+>> build up index to only show a specific calendar's events
 >> build up user.events endpoint to show their events
 >> bring in front end to handle the separate calls
+>> style my events differently from everybody else's
+
+>> Header: have a logout link! (test it)
+
+---- Issues and Gotchas ----
 >> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
+>> Currently allows you to write overlapping calendar events
 
 >> Look and feel???
 >> ??? Front end frameworks ???
