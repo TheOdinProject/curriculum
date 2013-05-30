@@ -67,8 +67,14 @@ class CalEventsController < ApplicationController
     end
 
     def objectify_event(event)
-      url = event.creator == current_user ? "#{cal_event_url(event)}" : ""
-      editable = event.creator == current_user
+      if event.creator == current_user
+        url = "#{cal_event_url(event)}"
+        editable = true
+      else
+        url = ""
+        editable = false
+        color = "#aaa"
+      end
       puts "\n\n"
 
       objectified_event = {
@@ -77,6 +83,7 @@ class CalEventsController < ApplicationController
         allDay: false,
         start: event.start,
         end: event.end,
+        color: color,
         url: url,
         editable: editable,
         description: event.description || ""

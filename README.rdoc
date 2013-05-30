@@ -9,16 +9,24 @@ It's game on.
 
 ---- Calendar! ----
 
->> WRITE TESTS
->>>> basic page, calendar basic display, calendar population, event creation
+>> WRITE JAVASCRIPT TESTS
+>>>> calendar basic display, calendar population, event creation
 
->> build front end update time functionality into the modal
->> build back end event update time endpoint
+>> Allow modal to see details but no edit of other people's events
 >> Build front end update event details modal
 >> Build back end to handle update details (prob dead simple)
 >> WRITE TESTS for delete / update!!!
->> style my events differently from everybody else's
+>> Make event creation modal so it's not just an alert
 >> Make modal functionally good (but no better)
+
+>> Add logout to the header bar!
+>> Add scheduler / home to the header bar!
+>> Add the "how can we make this better" emailer in footer
+
+>> Default event details based on user profile info?? esp username and details with their contact info
+>> Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events
+
+
 >> build calfilterset model
 >> build up index to only show a specific calendar's events
 >> build up user.events endpoint to show their events
