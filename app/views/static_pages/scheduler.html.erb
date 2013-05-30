@@ -82,6 +82,7 @@
                         start: start,
                         end: end,
                         allDay: allDay,
+                        editable: event.editable,
                         description: description
                       }
                     );
@@ -102,13 +103,14 @@
               }
             ],
             eventRender: function(event, element) {
-              element.attr('href', 'javascript:void(0);');
-              //console.log(event);
-              element.attr('onclick', 'javascript:openModal("' + 
-                event.id + '","' +
-                event.title + '","' + 
-                event.description + '","' + 
-                event.url + '"); '); 
+              if(event.editable){
+                element.attr('href', 'javascript:void(0);');
+                element.attr('onclick', 'javascript:openModal("' + 
+                  event.id + '","' +
+                  event.title + '","' + 
+                  event.description + '","' + 
+                  event.url + '"); '); 
+              }
             }
           });
         });

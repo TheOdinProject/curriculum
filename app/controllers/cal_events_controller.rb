@@ -6,10 +6,7 @@ class CalEventsController < ApplicationController
   # this AJAX endpoint should return all events that
   # correspond to the calendar's filter settings
   def index
-    events = CalEvent.all.map do |event|
-      objectify_event(event)
-    end
-    # puts "\n\n\n toJSON: #{events.to_json}! \n\n\n"
+    events = CalEvent.all.map { |event| objectify_event(event) }
     render :json => events
   end
 
@@ -53,16 +50,22 @@ class CalEventsController < ApplicationController
     end
 
     def objectify_event(event)
-      {
+      url = event.creator == current_user ? "#{cal_event_url(event)}" : ""
+      editable = event.creator == current_user
+      puts "\n\n"
+
+      objectified_event = {
         id: event.id,
         title: event.summary,
         allDay: false,
         start: event.start,
         end: event.end,
-        url: "#{cal_event_url(event)}",
-        editable: true,
-        description: event.description || "",
+        url: url,
+        editable: editable,
+        description: event.description || ""
       }
+      puts objectified_event
+      objectified_event
     end
 
 end
