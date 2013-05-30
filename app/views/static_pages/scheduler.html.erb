@@ -5,6 +5,7 @@
 
   <div class="row">
     <div class="span4">
+      <a onclick="displayEvents()">Events</a>
       <h4>Tips and Instructions</h4>
       <br>
       <h5>What is this?</h5>
@@ -55,6 +56,7 @@
             selectable: true,
             selectHelper: true,
             select: function(start, end, allDay) {
+              console.log($(this));
               var summary = prompt('Event Title, Foo!');
               var description = "test"; //prompt('Enter Description, Foo!');
               if(summary) {
@@ -81,8 +83,7 @@
                         end: end,
                         allDay: allDay,
                         description: description
-                      },
-                      true // make the event "stick"
+                      }
                     );
                   },
                   error: function(a,b,c){
@@ -129,7 +130,7 @@
             } 
           }); 
 
-          $("#deleteLink").on("click", function(el){
+          $("#deleteLink").off("click").on("click", function(el){
             console.log($(this));
             $.ajax({
               url: $(this).attr("data-url"),
@@ -137,6 +138,7 @@
               success: function(){
                 $("#eventContent").dialog('close');
                 $("#calendar").fullCalendar('refetchEvents');
+                $("#calendar").fullCalendar('rerenderEvents');
               },
               error: function(a,b,c){
                 console.log("ERROR!!!!");
@@ -147,6 +149,12 @@
             });
           });
         };
+
+        function displayEvents(){
+          $("#calendar").fullCalendar('clientEvents').forEach(function(event){
+            console.log(event); 
+          })
+        }
 
       </script>
       <style>
