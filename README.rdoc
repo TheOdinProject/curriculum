@@ -11,7 +11,11 @@ It's game on.
 
 >> WRITE TESTS
 >>>> basic page, calendar basic display, calendar population, event creation
->> build front end delete functionality (start making the onclick modal)
+
+>>>> If the event is MINE, allow delete and edit and "editable"... both front and back end protections!
+>>>> Creating a new event should set its ID and other attributes in the page without refresh!
+>>>>>>> ALMOST there... the event will appear to behave normally but won't actually follow through the closing the modal.... probably has somethign to do wit hthe other odd bug, so basically it ALSO needs to be deleted from the JS's events array as well (use a FC function for this, there's got to be one).
+>>>> Display bug: create an event, then delete a pre-existing event and the new event gets double-created for EVERY new event that was created by you.
 >> build back end event delete endpoint
 >> build front end update functionality into the modal
 >> build back end event update endpoint

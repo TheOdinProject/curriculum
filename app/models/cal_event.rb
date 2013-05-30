@@ -4,6 +4,6 @@ class CalEvent < ActiveRecord::Base
   # IGNORING TIME ZONE SUPPORT FOR NOW
   validates_presence_of [:summary, :start, :end, :creator_id]  
 
-  belongs_to :user, :foreign_key => :creator_id
+  belongs_to :creator, :foreign_key => :creator_id, :class_name => "User"
 
 end

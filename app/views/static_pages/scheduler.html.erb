@@ -48,11 +48,15 @@
               center: 'title',
               right: 'month,agendaWeek,agendaDay'
             },
+            defaultView: 'agendaWeek',
+            ignoreTimezone: false,
+            firstHour: 8,
+            editable: true,
             selectable: true,
             selectHelper: true,
             select: function(start, end, allDay) {
               var summary = prompt('Event Title, Foo!');
-              var description = prompt('Enter Description, Foo!');
+              var description = "test"; //prompt('Enter Description, Foo!');
               if(summary) {
                 $.ajax({
                   url: "<%= cal_events_url %>",
@@ -70,10 +74,13 @@
                     calendar.fullCalendar(
                       'renderEvent',
                       {
+                        id: event.id,
+                        url: event.url,
                         title: summary,
                         start: start,
                         end: end,
-                        allDay: allDay
+                        allDay: allDay,
+                        description: description
                       },
                       true // make the event "stick"
                     );
@@ -88,14 +95,59 @@
               }
               calendar.fullCalendar('unselect');
             },
-            editable: true,
             eventSources: [   
               {
                 url: "<%= cal_events_url %>"
               }
-            ]
+            ],
+            eventRender: function(event, element) {
+              element.attr('href', 'javascript:void(0);');
+              //console.log(event);
+              element.attr('onclick', 'javascript:openModal("' + 
+                event.id + '","' +
+                event.title + '","' + 
+                event.description + '","' + 
+                event.url + '"); '); 
+            }
           });
         });
+
+        function openModal(id, title, info, url) { 
+          $("#eventInfo").html(info); 
+          $("#deleteLink")
+            .attr('data-id',id)
+            .attr('data-url', url)
+
+          $("#eventContent").dialog({ 
+            modal: true, 
+            title: title,
+            buttons: {
+              "close": function(){
+                console.log($(this));
+                $(this).dialog("close");
+              }
+            } 
+          }); 
+
+          $("#deleteLink").on("click", function(el){
+            console.log($(this));
+            $.ajax({
+              url: $(this).attr("data-url"),
+              type: "DELETE",
+              success: function(){
+                $("#eventContent").dialog('close');
+                $("#calendar").fullCalendar('refetchEvents');
+              },
+              error: function(a,b,c){
+                console.log("ERROR!!!!");
+                console.log(a);
+                console.log(b);
+                console.log(c);
+              }
+            });
+          });
+        };
+
       </script>
       <style>
         #calendar {
@@ -111,6 +163,14 @@
 
 </div>
 
+<div id="eventContent" title="Event Details">
+  <div id="eventInfo">
+  </div>
+  <hr>
+  <p>
+    <a id="deleteLink" rel="nofollow">Delete</a>
+  </p>
+</div>
 
 
 
