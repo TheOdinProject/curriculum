@@ -25,7 +25,24 @@ class CalEventsController < ApplicationController
     if event.save
       render :json => objectify_event(event), :status => 201 # created
     else
-      render :json => event, :status => 400 # bad request
+      render :nothing => true, :status => 400 # bad request
+    end
+  end
+
+  # this AJAX endpoint should update the (authenticated)
+  # calendar event and return it
+  def update
+    event = CalEvent.find(params[:id])
+    puts "\n\n\n LET ME UPDATE YOUR EVENT!!! \n\n\n"
+    if event.update_attributes({
+        :summary => params[:summary],
+        :start => params[:start],
+        :end => params[:end],
+        :description => params[:description] 
+      })
+      render :json => objectify_event(event), :status => 200 # okay
+    else
+      render :nothing => true, :status => 400 # bad request
     end
   end
 

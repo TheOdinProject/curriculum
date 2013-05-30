@@ -12,15 +12,17 @@ It's game on.
 >> WRITE TESTS
 >>>> basic page, calendar basic display, calendar population, event creation
 
->> build front end update functionality into the modal
->> build back end event update endpoint
+>> build front end update time functionality into the modal
+>> build back end event update time endpoint
+>> Build front end update event details modal
+>> Build back end to handle update details (prob dead simple)
 >> WRITE TESTS for delete / update!!!
+>> style my events differently from everybody else's
 >> Make modal functionally good (but no better)
 >> build calfilterset model
 >> build up index to only show a specific calendar's events
 >> build up user.events endpoint to show their events
->> bring in front end to handle the separate calls
->> style my events differently from everybody else's
+>> bring in front end to handle the separate cals
 
 >> Header: have a logout link! (test it)
 

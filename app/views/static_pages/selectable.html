@@ -3,7 +3,10 @@
 <head>
 <link href='/assets/fullcalendar.css' rel='stylesheet' />
 <link href='/assets/fullcalendar.print.css' rel='stylesheet' media='print' />
-<script src='/assets/fullcalendar.js'></script>
+<script src='/assets/application.js'></script>
+<script src='/assets/jquery-1.9.1.min.js'></script>
+<script src='/assets/jquery-ui-1.10.2.custom.min.js'></script>
+<script src='/assets/fullcalendar.min.js'></script>
 <script>
 
 	$(document).ready(function() {
@@ -19,6 +22,7 @@
 				center: 'title',
 				right: 'month,agendaWeek,agendaDay'
 			},
+			defaultView: 'agendaWeek',
 			selectable: true,
 			selectHelper: true,
 			select: function(start, end, allDay) {
@@ -37,6 +41,7 @@
 				calendar.fullCalendar('unselect');
 			},
 			editable: true,
+			disableResizing: false,
 			events: [
 				{
 					title: 'All Day Event',

@@ -1,4 +1,5 @@
 <%= content_for :title, "The Odin Project -- Scheduler" %>
+<%= stylesheet_link_tag "fullcalendar.css", media: "all" %>
 
 <div class="container">
   <h1>Start Programming Together</h1>
@@ -111,7 +112,10 @@
                   event.description + '","' + 
                   event.url + '"); '); 
               }
-            }
+            },
+            eventDrop: updateEvent,
+            disableDragging: false,
+            eventResize: updateEvent
           });
         });
 
@@ -156,6 +160,35 @@
           $("#calendar").fullCalendar('clientEvents').forEach(function(event){
             console.log(event); 
           })
+        }
+
+        function updateEvent(event){
+          calendar = $("#calendar");
+          console.log("TRYING TO UPDATE THE EVENT!!!");
+          $.ajax({
+            url: event.url,
+            type: "PUT",
+            data: {
+              start: event.start,
+              end: event.end,
+              allDay: event.allDay,
+              summary: event.title,
+              description: event.description
+            },
+            success: function(event){
+              console.log("Success! Object is:");
+              console.log(event);
+              calendar.fullCalendar('rerenderEvents');
+            },
+            error: function(a,b,c){
+              console.log("ERROR!!!!");
+              console.log(a);
+              console.log(b);
+              console.log(c);
+              calendar.fullCalendar('refetchEvents');
+              calendar.fullCalendar('rerenderEvents');
+            }
+          });
         }
 
       </script>
