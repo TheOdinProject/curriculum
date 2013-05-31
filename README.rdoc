@@ -18,7 +18,6 @@ It's game on.
 >> Make event creation modal so it's not just an alert
 >> Make modal functionally good (but no better)
 
->> Add logout to the header bar!
 >> Add scheduler / home to the header bar!
 >> Add the "how can we make this better" emailer in footer
 

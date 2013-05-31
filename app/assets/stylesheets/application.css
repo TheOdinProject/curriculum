@@ -13,4 +13,5 @@
  *= require bootstrap_and_overrides
  *= require colors
  *= require site
+ *= require_tree .
  */
