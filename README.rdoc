@@ -12,9 +12,8 @@ It's game on.
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation
 
->> Allow modal to see details but no edit of other people's events
->> Build front end update event details modal
->> Build back end to handle update details (prob dead simple)
+>> UI: Only activate update button if edited
+>> UI: Have some feedback for when event is drag-created successfully
 >> WRITE TESTS for delete / update!!!
 >> Make event creation modal so it's not just an alert
 >> Make modal functionally good (but no better)
@@ -23,6 +22,7 @@ It's game on.
 >> Add scheduler / home to the header bar!
 >> Add the "how can we make this better" emailer in footer
 
+>> Set up user contact preferences (polymorphic)
 >> Default event details based on user profile info?? esp username and details with their contact info
 >> Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events
 

@@ -58,8 +58,9 @@
             selectHelper: true,
             select: function(start, end, allDay) {
               console.log($(this));
-              var summary = prompt('Event Title, Foo!');
-              var description = "test"; //prompt('Enter Description, Foo!');
+              var summary = "Available"; //prompt('Event Title, Foo!');
+              var description = 
+                "Preferred: foo.bar (Skype) sAlternate: foo.bar@gmail.com (Email)"; //prompt('Enter Description, Foo!');
               if(summary) {
                 $.ajax({
                   url: "<%= cal_events_url %>",
@@ -104,13 +105,17 @@
               }
             ],
             eventRender: function(event, element) {
+              element.attr('data-id', event.id);
               if(event.editable){
                 element.attr('href', 'javascript:void(0);');
-                element.attr('onclick', 'javascript:openModal("' + 
-                  event.id + '","' +
-                  event.title + '","' + 
-                  event.description + '","' + 
-                  event.url + '"); '); 
+                element.on("click", function(){
+                  openEditEventModal(event); 
+                });
+              } else {
+                element.attr('href', 'javascript:void(0);');
+                element.on('click', function(){
+                  openEventInfoModal(event); 
+                });
               }
             },
             eventDrop: updateEvent,
@@ -119,15 +124,25 @@
           });
         });
 
-        function openModal(id, title, info, url) { 
-          $("#eventInfo").html(info); 
-          $("#deleteLink")
-            .attr('data-id',id)
-            .attr('data-url', url)
 
+        // Open a modal window that displays the event's info
+        function openEventInfoModal(event) { 
+          console.log(event);
+          console.log(event.title);
+          
+          // Populate it with info
+          $(".eventInfo").html(event.description); 
+
+          // Pop up the dialog
           $("#eventContent").dialog({ 
             modal: true, 
-            title: title,
+            width: 350,
+            height: 300,
+            title: event.title,
+            position: {my: "center", at: "center", of: $("#calendar") },
+            open: function(event, ui) { 
+              $(".ui-dialog-titlebar-close").text("X"); 
+            },
             buttons: {
               "close": function(){
                 console.log($(this));
@@ -135,26 +150,69 @@
               }
             } 
           }); 
-
-          $("#deleteLink").off("click").on("click", function(el){
-            console.log($(this));
-            $.ajax({
-              url: $(this).attr("data-url"),
-              type: "DELETE",
-              success: function(){
-                $("#eventContent").dialog('close');
-                $("#calendar").fullCalendar('refetchEvents');
-                $("#calendar").fullCalendar('rerenderEvents');
-              },
-              error: function(a,b,c){
-                console.log("ERROR!!!!");
-                console.log(a);
-                console.log(b);
-                console.log(c);
-              }
-            });
-          });
         };
+
+
+        // Opens a form to input details for the newly created event
+        function openEditEventModal(event){
+          console.log(event);
+          
+          // Populate it with info
+          $("#edit-event-info").val("").val(event.description); 
+
+          // Pop up the dialog
+          $("#edit-event-dialog-form").dialog({ 
+            // autoOpen: false,
+            modal: true, 
+            width: 350,
+            height: 300,
+            position: {my: "center", at: "center", of: $("#calendar") },
+            title: event.title,
+            open: function() { 
+              $(".ui-dialog-titlebar-close").text("X"); 
+              $('<a />', {
+                'id': 'delete-link',
+                text: 'Delete',
+                href: 'javascript:void(0);'
+              })
+                .appendTo($(".ui-dialog-buttonpane"))
+                .click(function(el){
+                  console.log($(this));
+                  console.log(event);
+                  $.ajax({
+                    url: event.url,
+                    type: "DELETE",
+                    success: function(){
+                      $("#edit-event-dialog-form").dialog('close');
+                      $("#calendar").fullCalendar('refetchEvents');
+                      $("#calendar").fullCalendar('rerenderEvents');
+                    },
+                    error: function(a,b,c){
+                      console.log("ERROR!!!!");
+                      console.log(a);
+                      console.log(b);
+                      console.log(c);
+                    }
+                  });
+                });
+            },
+            buttons: {
+              "update": function(){
+                event.description = $("#edit-event-info").val();
+                updateEvent(event);
+                $(this).dialog("close");
+              },
+              "close": function(){
+                $(this).dialog("close");
+              }
+            } 
+          }).bind('dialogclose',function(){
+            $("#delete-link").remove(); // or it will show up on the other info modal!
+          }); 
+
+          $("#edit-event-info").blur();
+          $('.ui-dialog :button').focus();
+        }
 
         function displayEvents(){
           $("#calendar").fullCalendar('clientEvents').forEach(function(event){
@@ -165,6 +223,7 @@
         function updateEvent(event){
           calendar = $("#calendar");
           console.log("TRYING TO UPDATE THE EVENT!!!");
+          console.log(event);
           $.ajax({
             url: event.url,
             type: "PUT",
@@ -197,6 +256,16 @@
           min-width: 600px;
           margin: 0 auto;
         }
+        textarea#edit-event-info {
+          width: 100%;
+          height: 130px;
+          margin-top: 10px;
+        }
+        #delete-link {
+          margin-top: 10px;
+          margin-left: 8px;
+          display: inline-block;
+        }
       </style>
       <div id='calendar'></div>
 
@@ -206,15 +275,19 @@
 
 </div>
 
-<div id="eventContent" title="Event Details" style="display:none;">
-  <div id="eventInfo">
+<div id="eventContent" title="Available" style="display:none;">
+  <div class="eventInfo">
   </div>
-  <hr>
-  <p>
-    <a id="deleteLink" rel="nofollow">Delete</a>
-  </p>
 </div>
 
+
+<div id="edit-event-dialog-form" title="Create Availability" style="display: none;">
+  <form>
+  <fieldset>
+    <textarea name="description" id="edit-event-info" class="text ui-widget-content ui-corner-all"></textarea>
+  </fieldset>
+  </form>
+</div>
 
 
 
