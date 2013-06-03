@@ -10,28 +10,47 @@
       <h4>Tips and Instructions</h4>
       <br>
       <h5>What is this?</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        This is a simple tool that you can use to set up a remote pairing session with someone else who is working on the same project as you.  
+      </p>
 
       <h5>How Does it Work?</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        The calendar you are viewing now has already been filtered based on which project you're working on (!!!).  Change any of these filters in your <%= link_to "user settings page", "javascript:void(0)" %>.  How to use it:
+        <ol>
+          <li>Add when you're available to the calendar.  Just click or drag to add availability.  The new event will be auto-populated with the information specified on your <%= link_to "user settings page", "javascript:void(0)" %>.  You can edit this by clicking on it.</li>
+          <li>Gray events represent when other users are available.  Click on these to get the contact information for these users.  If you find a time when you're both available, reach out and pair up!</li>
+        </ol>
+      </p>
 
       <h5>How do we Pair?</h5>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>
+        For best pairing, we recommend using two very easy tools: Skype and Screenhero.  Skype lets you chat with other users for free. Screenhero is like Skype for screen sharing.  Both are just one-click-to-call, and will let you talk while you're working on the same code base on one person's machine.
+        <ul>
+          <li>Setting up Skype: Download the free client at <%= link_to "Skype.com", "http://www.skype.com" %>, set up your user details, and "call" your partner.</li>
+          <li>Setting up ScreenHero: Download the free client at <%= link_to "Screenhero.com", "http://www.screenhero.com" %>, set up your account, and "call" your partner to start sharing your screen.</li>
+        </ul>
+        Once you are able to talk to each other and you can both work on one of your screens, it's time to get coding!  There are a couple of approaches that work well, but they typically involve one person (the "driver") writing code while the other person (the "navigator") gives tactical guidance.
+        <ul>
+          <li>Time swapping: Spend 25 minutes as the driver, then swap roles.  Try using a <%= link_to "free online timer", "http://tomato-timer.com/" %>.</li>
+          <li>Ping Pong: If you're using a test-driven approach, one person writes the failing test then the other person makes it pass.  Swap roles for the next test or batch of tests.</li>
+        </ul>
+        When you're done with your session, either share the github repo (if you're using a git workflow... please use a git workflow...) or email out the code to the partner whose computer hasn't been used.
+      </p>
+      <p>
+        Finally, some tips:
+        <ul>
+          <li>Think out loud as much as you can -- give each other a chance to hear your thoughts.</li>
+          <li>No distractions!  Emailing, texting, etc. should all be turned off while pairing. </li>
+          <li>As navigator, wait 10 seconds before pointing out a typo... give the driver a chance to correct on their own</li>
+          <li>Check out some additional resources:
+            <ul>
+              <li><%= link_to "Slideshare about pairing", "http://www.slideshare.net/rogercafe/pair-programming-presentation" %></li>
+              <li><%= link_to "Listing of recorded online pairing sessions","http://www.youtube.com/playlist?list=PLjbL0BCR04Q1-x5p5L5V11Vm58VlTgPzw"%></li>
+            </ul>
+          </li>
+        </ul>
+      </p>
     </div>
 
     <div class="span8">

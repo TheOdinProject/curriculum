@@ -1,8 +1,10 @@
 <%= content_for :title, "The Odin Project -- Learn to Code Together" %>
-<!-- Hide the navbar at the top -->
-<% content_for :stylesheets do %>
-  #top-navbar{display:none}
-  #footer{display:none}
+<!-- Hide the navbar at the top if splash -->
+<% if @splash %>
+  <% content_for :stylesheets do %>
+    #top-navbar{display:none}
+    #footer{display:none}
+  <% end %>
 <% end %>
 
 
@@ -26,16 +28,25 @@
       </div>
     </div>
 
-    <p class="beta-notification">
-      Get early access when we launch!
-    </p>
+    
+      <p class="beta-notification">
+        <% if @splash %>
+          Get early access when we launch!
+        <% else %>
+          <em>Start learning with other students <strong>now!</strong></em>
+        <% end %>
+      </p>
 
-    <div class="row-fluid">
-      <div class="cta-box splash">
-        
+    <% if @splash %>
+
+      <div class="row-fluid">
+        <div class="cta-box splash">
+          <%= render :partial => "splash_email_form" %>
+        </div>
       </div>
-    </div>
-
+    <% else %>
+      <input type="submit" />
+    <% end %>
 
   </div> <!-- container-narrow -->
 

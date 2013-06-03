@@ -7,16 +7,24 @@ It's game on.
 
 ---- Done with splash page ----
 
+---- Major Roadmap ----
+
+> Build basic home page for signups/signins to round out user flow
+> 
+
+---- Signin and User Flow ----
+> Send signed out users to /home not root
+> if user is signed in, redirect from root to /scheduler
+
 ---- Calendar! ----
 
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation
 
 >> UI: Only activate update button if edited
->> UI: Have some feedback for when event is drag-created successfully
+>> UI: Have some feedback for when event is drag-created or updated successfully
 >> WRITE TESTS for delete / update!!!
->> Make event creation modal so it's not just an alert
->> Make modal functionally good (but no better)
+>> Make event creation modal let you edit the event immediately after drag-creating it.
 
 >> Add scheduler / home to the header bar!
 >> Add the "how can we make this better" emailer in footer
@@ -31,7 +39,8 @@ It's game on.
 >> build up user.events endpoint to show their events
 >> bring in front end to handle the separate cals
 
->> Header: have a logout link! (test it)
+>> Show users the events they have scheduled with other filters (very light colored, some sort of indicator)
+>> Show in my user settings what a sample event's information would contain by default.
 
 ---- Issues and Gotchas ----
 >> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...

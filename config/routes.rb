@@ -6,7 +6,8 @@ Theodinproject::Application.routes.draw do
   end
     
 
-  root :to => 'static_pages#home'
+  root :to => 'static_pages#splash'
+  get 'home' => 'static_pages#home'
   get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'
