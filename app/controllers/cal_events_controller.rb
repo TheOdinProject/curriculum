@@ -16,8 +16,8 @@ class CalEventsController < ApplicationController
   def create
     event = CalEvent.new({
         :summary => params[:summary],
-        :start => params[:start],
-        :end => params[:end],
+        :start => to_utc(params[:start]),
+        :end => to_utc(params[:end]),
         :creator_id => current_user.id,
         :description => params[:description] 
       })
@@ -36,8 +36,8 @@ class CalEventsController < ApplicationController
     puts "\n\n\n LET ME UPDATE YOUR EVENT!!! \n\n\n"
     if event.update_attributes({
         :summary => params[:summary],
-        :start => params[:start],
-        :end => params[:end],
+        :start => to_utc(params[:start]),
+        :end => to_utc(params[:end]),
         :description => params[:description] 
       })
       render :json => objectify_event(event), :status => 200 # okay
@@ -90,6 +90,10 @@ class CalEventsController < ApplicationController
       }
       puts objectified_event
       objectified_event
+    end
+
+    def to_utc(string)
+      string.to_datetime.getutc
     end
 
 end
