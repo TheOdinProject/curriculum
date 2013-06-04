@@ -6,8 +6,8 @@ describe CalEvent do
   
   subject(:cal_event) { CalEvent.new(   
                             :summary => "foobar", 
-                            :start => Time.new(2013,1,1,1), 
-                            :end => Time.new(2013,1,1,2), 
+                            :start => DateTime.new(2013,1,1,1), 
+                            :end => DateTime.new(2013,1,1,2), 
                             :creator_id => 1 ) }
 
   it { should respond_to(:summary) }
@@ -44,7 +44,17 @@ describe CalEvent do
     it { should_not be_valid }
   end
 
-
+  describe "time zone behavior from params" do
+    context "when params includes a GMT offset" do
+      before do
+        cal_event.start = "Mon Jun 03 2013 10:00:00 GMT-0700 (PDT)"
+        cal_event.save!
+      end
+      it "should return as valid UTC" do
+        cal_event.reload.start.should == DateTime.new(2013,6,3,17)
+      end
+    end
+  end
 
 
 end

@@ -1,13 +1,15 @@
 Theodinproject::Application.routes.draw do
 
-  devise_for :users do
-    get '/signin' => 'devise/sessions#new'
-    get '/signout' => 'devise/sessions#destroy', :method => :delete
+  devise_for :users
+  devise_scope :user do
+    get '/login' => 'devise/sessions#new'
+    get '/logout' => 'devise/sessions#destroy', :method => :delete
   end
     
 
   root :to => 'static_pages#splash'
   get 'home' => 'static_pages#home'
+  get 'user_root' => 'static_pages#home', as: :user_root
   get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'

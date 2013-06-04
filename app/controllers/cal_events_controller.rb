@@ -88,7 +88,9 @@ class CalEventsController < ApplicationController
         editable: editable,
         description: event.description || ""
       }
+      puts "\n\n Putting ObjectifiedEvent:"
       puts objectified_event
+      puts "\n\n"
       objectified_event
     end
 

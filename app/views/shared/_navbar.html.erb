@@ -10,9 +10,9 @@
           <div class="container nav-collapse">
             <ul class="nav pull-right">
               <% if user_signed_in? %>
-                <li><%= link_to "Logout", signout_path  %></li>
+                <li><%= link_to "Logout", logout_path  %></li>
               <% else %>
-                <li><%= link_to "Login", signin_path %></li>
+                <li><%= link_to "Login", login_path %></li>
               <% end %>
             </ul>
           </div><!--/.nav-collapse -->
