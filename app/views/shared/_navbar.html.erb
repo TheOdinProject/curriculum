@@ -6,10 +6,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href=<%= root_url %>>The Odin Project</a>
+          <a class="brand" href=<%= home_url %>>The Odin Project</a>
           <div class="container nav-collapse">
             <ul class="nav pull-right">
               <% if user_signed_in? %>
+                <li><%= link_to "Scheduler", scheduler_path %></li>
                 <li><%= link_to "Logout", logout_path  %></li>
               <% else %>
                 <li><%= link_to "Login", login_path %></li>

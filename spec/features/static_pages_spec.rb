@@ -105,6 +105,49 @@ describe "StaticPages" do
 
   end
 
+  describe "User authentication flow" do
+    
+    let(:user) { FactoryGirl.create(:user) }  
+    before { visit home_path }
+
+    describe "should start on the home page" do
+
+      it { should have_selector('h1', :text => "The Odin Project") }
+      it { should_not have_link "Logout" }
+
+      describe "then click through to login" do
+
+        before { click_link "Login" }
+
+        it { should have_selector('h2', :text => "Sign in") }
+
+        describe "then login to land on the scheduler page" do
+
+          before do
+            fill_in "Email", :with => user.email
+            fill_in "Password", :with => user.password
+            click_button "Sign in"
+          end
+
+          it { should have_selector('h1', :text => "Start Programming Together" ) }
+
+          describe "then click logout to sign out to home page" do
+
+            before do
+              click_link "Logout"
+            end
+
+            it { should have_selector('h1', :text => "The Odin Project") }
+
+          end
+
+        end
+
+      end
+
+    end
+
+  end
 
 end
 
