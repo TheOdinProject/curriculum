@@ -184,6 +184,39 @@
 
 }
 
+#devise-form{
+  h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+  .form-inputs{
+    label{
+      font-size: 25px;
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+    input{
+      width: 350px;
+      height: 30px;
+      font-size: 25px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  input.btn{
+    margin-right: 20px;
+    height: 60px;
+    width: 130px;
+    font-size: 25px;
+  }
+  .devise-shared-links{
+    margin-left: 185px;
+    margin-top: 32px;
+  }
+
+}
+
 
 
 

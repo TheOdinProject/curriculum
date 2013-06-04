@@ -1,15 +1,16 @@
-<h2>Sign in</h2>
+<div class="span6 offset3" id="devise-form">
+  <h2>Sign in</h2>
 
-<%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
-  <div class="form-inputs">
-    <%= f.input :email, :required => false, :autofocus => true %>
-    <%= f.input :password, :required => false %>
-    <%= f.input :remember_me, :as => :boolean if devise_mapping.rememberable? %>
-  </div>
+  <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
+    <div class="form-inputs">
+      <%= f.input :email, :required => false, :autofocus => true %>
+      <%= f.input :password, :required => false %>
+    </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, "Sign in" %>
-  </div>
-<% end %>
+    <%= f.input :remember_me, :as => :boolean, :label => false, :inline_label => true if devise_mapping.rememberable? %>
 
-<%= render "devise/shared/links" %>
+      <%= f.button :submit, "Sign in", :class => "btn-primary btn-large pull-right" %>
+  <% end %>
+
+  <%= render "devise/shared/links" %>
+</div>
