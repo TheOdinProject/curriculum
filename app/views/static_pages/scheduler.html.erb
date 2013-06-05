@@ -78,7 +78,7 @@
               console.log($(this));
               var summary = "Available"; //prompt('Event Title, Foo!');
               var description = 
-                "Preferred: foo.bar (Skype) sAlternate: foo.bar@gmail.com (Email)"; //prompt('Enter Description, Foo!');
+                "Preferred: foo.bar (Skype) \nAlternate: foo.bar@gmail.com (Email)"; //prompt('Enter Description, Foo!');
               if(summary) {
                 $.ajax({
                   url: "<%= cal_events_url %>",
@@ -178,9 +178,10 @@
           // Populate it with info
           $("#edit-event-info").val("").val(event.description); 
 
+          // Only enable the 
+
           // Pop up the dialog
           $("#edit-event-dialog-form").dialog({ 
-            // autoOpen: false,
             modal: true, 
             width: 350,
             height: 300,
@@ -227,6 +228,18 @@
           }).bind('dialogclose',function(){
             $("#delete-link").remove(); // or it will show up on the other info modal!
           }); 
+
+          // Set the update button to only highlight if changes made
+          $('button:contains("update")')
+              .prop("disabled", true)
+              .addClass("ui-state-disabled");
+
+          $('div#edit-event-dialog-form textarea').keyup(function(){
+              $('button:contains("update")')
+              .prop("disabled", false)
+              .removeClass("ui-state-disabled");
+          })
+
 
           $("#edit-event-info").blur();
           $('.ui-dialog :button').focus();

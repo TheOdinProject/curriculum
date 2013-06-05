@@ -12,8 +12,11 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 ***** Major Roadmap *****
 
-> 
-
+> Minor UX improvements on scheduler
+> Set up username field for users
+> Round out calendar UI v0.1
+> Add filtersetting to user accounts
+> Test it all!
 
 
 ---- Signin and User Flow ----
@@ -25,9 +28,9 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 >>>> calendar basic display, calendar population, event creation
 
 >> UI: Only activate update button if edited
->> UI: Have some feedback for when event is drag-created or updated successfully
+>> UI: Have some feedback for when event is drag-created or updated successfully (created or updated successfully.  If created, also say "click to edit it")
 >> WRITE TESTS for delete / update!!!
->> Make event creation modal let you edit the event immediately after drag-creating it.
+
 
 >> Add the "how can we make this better" emailer in footer
 
