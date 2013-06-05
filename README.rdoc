@@ -10,10 +10,11 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 ---- Done with splash page ----
 
----- Major Roadmap ----
+***** Major Roadmap *****
 
-> Build basic home page for signups/signins to round out user flow
 > 
+
+
 
 ---- Signin and User Flow ----
 
@@ -28,7 +29,6 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 >> WRITE TESTS for delete / update!!!
 >> Make event creation modal let you edit the event immediately after drag-creating it.
 
->> Add scheduler / home to the header bar!
 >> Add the "how can we make this better" emailer in footer
 
 >> Set up user contact preferences (polymorphic)
@@ -40,6 +40,7 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 >> build up index to only show a specific calendar's events
 >> build up user.events endpoint to show their events
 >> bring in front end to handle the separate cals
+>> Add filters to the user settings
 
 >> Show users the events they have scheduled with other filters (very light colored, some sort of indicator)
 >> Show in my user settings what a sample event's information would contain by default.

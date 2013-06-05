@@ -182,6 +182,15 @@
     margin: 200px auto;
   }
 
+  .signup-btn{
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 18px;
+  }
+
 }
 
 #devise-form{
@@ -210,6 +219,7 @@
     height: 60px;
     width: 150px;
     font-size: 25px;
+    border-radius: 15px;
   }
   .devise-shared-links{
     margin-left: 185px;

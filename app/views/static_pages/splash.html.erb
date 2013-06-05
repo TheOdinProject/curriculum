@@ -45,7 +45,8 @@
         </div>
       </div>
     <% else %>
-      <input type="submit" />
+      <a href="<%= new_user_registration_path %>"><input type="submit" class="btn btn-primary signup-btn" value="Sign Up!"  /></a>
+      <p>Or <%= link_to "login", login_path %> if you already have an account.</p>
     <% end %>
 
   </div> <!-- container-narrow -->
