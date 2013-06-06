@@ -14,7 +14,7 @@ Theodinproject::Application.routes.draw do
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'
   get 'selectable' => 'static_pages#selectable'
-  get 'gcal' => 'static_pages#gcal'
+  post 'suggestion' => 'static_pages#suggestion'
 
   resources :cal_events
 

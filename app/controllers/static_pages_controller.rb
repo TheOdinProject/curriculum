@@ -24,4 +24,16 @@ class StaticPagesController < ApplicationController
 
   end
 
+  # For the suggestion form in the footer
+  def suggestion
+    puts "\n\n\n WOO \n\n\n"
+    puts params
+    if params[:suggestion]
+      ContactMailer.suggestion_email(params[:suggestion], request.url).deliver!
+    end
+    respond_to do |format|
+      format.json { render json: params[:suggestion] }
+    end
+  end
+
 end

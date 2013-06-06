@@ -18,6 +18,16 @@ body {
 }
 
 footer {
-  text-align: right;
+  .copyright{
+    float: right;
+    margin-top: 5px;
+  }
+  form{
+    float: left;
+  }
   margin-top: 100px;
+
+  #feedback-text-box{
+    width: 400px;
+  }
 }

@@ -1,0 +1,20 @@
+<footer id="footer">
+  <hr>
+  <form id="footer-suggestion-form" class="form-inline" action="<%= suggestion_path %>" method="post" data-remote="true">
+    <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
+    <button type="submit" class="btn">Tell Us!</button>
+  </form>
+  <span class="copyright"> &copy; The Odin Project 2013</span>
+</footer>
+
+<script>
+  $(document).ready(function(){
+    $("#footer-suggestion-form").bind("ajax:complete", function(event, xhr, status){
+      console.log($("#footer-suggestion-form input"));
+      $("#footer-suggestion-form input").attr("disabled","disabled");
+      $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
+      // $("#footer-suggestion_form input").attr("disabled","disabled");
+      console.log("did it!");
+    });
+  });
+</script>
