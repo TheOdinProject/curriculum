@@ -74,6 +74,12 @@
             editable: true,
             selectable: true,
             selectHelper: true,
+            // glow events when rendered
+            eventAfterRender: function(event, element){
+              borderColor = $(element).css("border-color");
+              $(element).css('border-color', 'black');
+              $(element).animate({"border-color": borderColor}, 1000);
+            },
             select: function(start, end, allDay) {
               console.log($(this));
               var summary = "Available"; //prompt('Event Title, Foo!');
