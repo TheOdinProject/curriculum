@@ -49,7 +49,7 @@ describe "StaticPages" do
       before(:each) do
         ActionMailer::Base.deliveries = []  # Clear out other test deliveries
         # save_and_open_page
-        fill_in("suggestion", with: suggestion_body)
+        fill_in("thank_you_suggestion_box", with: suggestion_body)
       end
 
       context "after submitting the form" do
