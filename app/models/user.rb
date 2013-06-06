@@ -13,4 +13,8 @@ class User < ActiveRecord::Base
 
   has_many :cal_events, :foreign_key => :creator_id
 
+  # associates the user to the content he'd like to pair on
+  has_many :content_activations
+  has_many :content_buckets, :through => :content_activations
+
 end

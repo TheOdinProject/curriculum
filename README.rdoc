@@ -12,7 +12,6 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 ***** Major Roadmap *****
 
-> Add content Bucketing filters to users
 > Add user prefs filters as well
 > Round out calendar UI v0.1
 > Test it all!
@@ -30,7 +29,6 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 >> WRITE TESTS for delete / update!!!
 >>>> and for the form on the footer
 
->> build ContentBucket and its HM/HM join table with User
 >> build UserPrefs
 >> Create user settings page to edit account, content, and prefs
 >> Set calendar to filter other people's events based on their prefs and content

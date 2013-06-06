@@ -12,6 +12,8 @@ describe User do
   it { should respond_to(:username) }
   it { should respond_to(:email) }
   it { should respond_to(:password_digest) }
+  it { should respond_to(:content_activations) }
+  it { should respond_to(:content_buckets ) }
   it { should be_valid }
 
   context "when username is blank" do
