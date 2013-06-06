@@ -12,9 +12,9 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 ***** Major Roadmap *****
 
-> Set up username field for users
+> Add content Bucketing filters to users
+> Add user prefs filters as well
 > Round out calendar UI v0.1
-> Add filtersetting to user accounts
 > Test it all!
 
 
@@ -30,20 +30,22 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 >> WRITE TESTS for delete / update!!!
 >>>> and for the form on the footer
 
+>> build ContentBucket and its HM/HM join table with User
+>> build UserPrefs
+>> Create user settings page to edit account, content, and prefs
+>> Set calendar to filter other people's events based on their prefs and content
+>> build up user.events endpoint to show their events
+>> bring in front end to handle the separation of events? (necessary with the back end returning events properly?)
 
->> Set up user contact preferences (polymorphic)
+
 >> Default event details based on user profile info?? esp username and details with their contact info
 >> Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events
 
 
->> build calfilterset model
->> build up index to only show a specific calendar's events
->> build up user.events endpoint to show their events
->> bring in front end to handle the separate cals
->> Add filters to the user settings
 
 >> Show users the events they have scheduled with other filters (very light colored, some sort of indicator)
 >> Show in my user settings what a sample event's information would contain by default.
+
 
 ---- Issues and Gotchas ----
 >> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...

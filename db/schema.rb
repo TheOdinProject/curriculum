@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130606015455) do
+ActiveRecord::Schema.define(:version => 20130606174802) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
@@ -27,6 +27,14 @@ ActiveRecord::Schema.define(:version => 20130606015455) do
   add_index "cal_events", ["creator_id"], :name => "index_cal_events_on_creator_id"
   add_index "cal_events", ["end"], :name => "index_cal_events_on_end"
   add_index "cal_events", ["start"], :name => "index_cal_events_on_start"
+
+  create_table "content_buckets", :force => true do |t|
+    t.string   "name",       :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "content_buckets", ["name"], :name => "index_content_buckets_on_name", :unique => true
 
   create_table "splash_emails", :force => true do |t|
     t.string   "email"
