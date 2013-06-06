@@ -8,12 +8,12 @@
 </footer>
 
 <script>
+  // After form submission, gray out and disable the form
   $(document).ready(function(){
     $("#footer-suggestion-form").bind("ajax:complete", function(event, xhr, status){
       console.log($("#footer-suggestion-form input"));
       $("#footer-suggestion-form input").attr("disabled","disabled");
       $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
-      // $("#footer-suggestion_form input").attr("disabled","disabled");
       console.log("did it!");
     });
   });
