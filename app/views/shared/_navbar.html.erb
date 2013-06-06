@@ -11,8 +11,14 @@
             <ul class="nav pull-right">
               <% if user_signed_in? %>
                 <li><%= link_to "Scheduler", scheduler_path %></li>
-                <li><%= link_to "Account", edit_user_registration_path %></li>
-                <li><%= link_to "Logout", logout_path  %></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong><%= current_user.username %><b class="caret"></b></strong></a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to "Preferences", "#" %></li>
+                    <li><%= link_to "Account", edit_user_registration_path %></li>
+                    <li class="divider"></li>
+                    <li><%= link_to "Logout", logout_path  %></li>
+                  </ul>
               <% else %>
                 <li><%= link_to "Login", login_path %></li>
               <% end %>
