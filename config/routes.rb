@@ -18,6 +18,8 @@ Theodinproject::Application.routes.draw do
 
   resources :cal_events
 
+  resource :user_pref, :only => [:edit, :update]
+
   resources :splash_emails, only: [:create]
 
   # The priority is based upon order of creation:

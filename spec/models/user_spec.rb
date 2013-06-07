@@ -14,6 +14,7 @@ describe User do
   it { should respond_to(:password_digest) }
   it { should respond_to(:content_activations) }
   it { should respond_to(:content_buckets ) }
+  it { should respond_to(:user_pref) }
   it { should be_valid }
 
   context "when username is blank" do
@@ -49,6 +50,16 @@ describe User do
       User.create(:username => "barfoo", :email => "foo@bar.com", :password => "foobar")
     end
     it { should_not be_valid }
+  end
+
+  context "after saving" do
+    before do
+      subject.save!
+    end
+
+    describe "it should create a preferences association as well" do
+      its(:user_pref) { should_not be_nil }
+    end
   end
 
 

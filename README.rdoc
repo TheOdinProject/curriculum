@@ -16,16 +16,10 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 > Round out calendar UI v0.1
 > Test it all!
 
-
----- Signin and User Flow ----
-
-
----- Calendar! ----
+*************************
 
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation
-
->> UI: Have some feedback for when event is drag-created or updated successfully (created or updated successfully.  If created, also say "click to edit it")
 >> WRITE TESTS for delete / update!!!
 >>>> and for the form on the footer
 

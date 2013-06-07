@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130606180047) do
+ActiveRecord::Schema.define(:version => 20130606234405) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
@@ -52,6 +52,14 @@ ActiveRecord::Schema.define(:version => 20130606180047) do
   end
 
   add_index "splash_emails", ["email"], :name => "index_splash_emails_on_email", :unique => true
+
+  create_table "user_prefs", :force => true do |t|
+    t.integer  "user_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "user_prefs", ["user_id"], :name => "index_user_prefs_on_user_id", :unique => true
 
   create_table "users", :force => true do |t|
     t.string   "email",                  :default => "", :null => false
