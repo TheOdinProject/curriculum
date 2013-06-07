@@ -26,14 +26,16 @@ DEPLOYMENT NOTES: **************
 
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation
->> WRITE TESTS for delete / update!!!
->>>> and for the form on the footer
+POMO1: >> WRITE TESTS for index / delete / update!!!
+POMO1: >>>> and for the form on the footer
 
 
->> Set calendar to filter other people's events based on their prefs and content
+>> Show which filters are currently being deployed (at least which projects)
 >>>> Have the nil case be an "example" calendar
->> TEST calendar filtering! This is important!
->> bring in front end to handle the separation of events? (necessary with the back end returning events properly?)
+POMO2: >> TEST calendar filtering! This is important!
+>>>> new user with no prefs renders error!
+>>>> existing user should see overlapping ones but no others
+
 
 
 >> Default event details based on user profile info?? esp username and details with their contact info
@@ -63,5 +65,6 @@ DEPLOYMENT NOTES: **************
 Eventually:
 >> Turn on add-ons like pgbackups
 
+http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
 https://gist.github.com/zhengjia/428105
 
