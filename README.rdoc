@@ -4,6 +4,12 @@ It's game on.
 
 Note to self:  You can't call any custom stylesheets or heroku will shit the bed.  The assets get precompiled so NO WAY can you call custom stylesheets at runtime.
 
+DEPLOYMENT NOTES: **************
+*** MIGRATIONS
+*** USERNAME COLUMNS NOW ESSENTIAL
+*** NEED TO BUILD USER_PREF FOR EXISTING USERS
+********************************
+
 >> Optimize Google Analytics for best level of info detail
 >> Set up viral feedback looping like launchrock -- give each signup a unique referral code and make links between them so you see downstream who refers most.  
 >> Add social buttons to the splash process
@@ -26,7 +32,7 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 >> Set calendar to filter other people's events based on their prefs and content
 >>>> Have the nil case be an "example" calendar
->> build up user.events endpoint to show their events
+>> TEST calendar filtering! This is important!
 >> bring in front end to handle the separation of events? (necessary with the back end returning events properly?)
 
 

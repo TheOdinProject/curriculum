@@ -15,6 +15,7 @@ class UserPrefsController < ApplicationController
         current_user.content_activations.create(:content_bucket_id => id.to_i)
       end
     end
+    flash[:success] = "Preferences updated successfully"
     redirect_to :back
   end
 
