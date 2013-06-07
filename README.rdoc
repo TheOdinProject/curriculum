@@ -26,15 +26,12 @@ DEPLOYMENT NOTES: **************
 
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation
-POMO1: >> WRITE TESTS for create / delete / update!!!
+POMO1: >> WRITE TESTS for delete / update!!!
 POMO1: >>>> and for the form on the footer
 
 
 >> Show which filters are currently being deployed (at least which projects)
 >>>> Have the nil case be an "example" calendar
-POMO2: >> TEST calendar filtering! This is important!
->>>> new user with no prefs renders error!
->>>> existing user should see overlapping ones but no others
 
 
 

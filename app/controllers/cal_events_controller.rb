@@ -89,7 +89,6 @@ class CalEventsController < ApplicationController
         editable = false
         color = "#aaa"
       end
-      puts "\n\n"
 
       objectified_event = {
         id: event.id,
@@ -102,9 +101,9 @@ class CalEventsController < ApplicationController
         editable: editable,
         description: event.description || ""
       }
-      puts "\n\n Putting ObjectifiedEvent:"
-      puts objectified_event
-      puts "\n\n"
+      # puts "\n\n Putting ObjectifiedEvent:"
+      # puts objectified_event
+      # puts "\n\n"
       objectified_event
     end
 

@@ -6,6 +6,26 @@ describe CalEventsController do
   let(:project) { FactoryGirl.create(:content_bucket) }
   let!(:ce) { FactoryGirl.create(:cal_event, :creator => user ) }
 
+  context "before authentication" do
+    it "GET #index unauthorized" do
+      get :index
+      assert_response 401
+    end
+    it "POST #create unauthorized" do
+      post :create, FactoryGirl.attributes_for(:cal_event)
+      assert_response 401
+    end
+    it "DELETE #destroy unauthorized" do
+      delete :destroy, :id => ce.id
+      assert_response 401
+    end
+    it "PUT #update unauthorized" do
+      put :update, :id => ce.id
+      assert_response 401
+    end
+  end
+
+
   context "after authentication" do
     before do
       sign_in(user)
@@ -31,7 +51,6 @@ describe CalEventsController do
           it "populates an array with the user's event" do
             get :index
             rb = JSON.parse(response.body)
-            puts "\n rb: #{rb} ! \n"
             rb[0]["id"].should == ce.id
             rb[0]["title"].should == ce.summary
             rb[0]["start"].to_datetime.should == ce.start
@@ -50,7 +69,6 @@ describe CalEventsController do
             it "populates an array with both events" do
               get :index
               rb = JSON.parse(response.body)
-              puts "\n rb2: #{rb} ! \n"
               rb.count.should == 2
             end
           end
@@ -66,7 +84,6 @@ describe CalEventsController do
             it "only populates the user's own events" do
               get :index
               rb = JSON.parse(response.body)
-              puts "\n rb2: #{rb} ! \n"
               rb.count.should == 1
             end
           end
@@ -84,8 +101,16 @@ describe CalEventsController do
       end
 
       context "with invalid attributes" do
-        it "does not save the new event to the database"
-        it "provides a failure redirect"
+        it "does not save the new event to the database" do
+          expect{
+            post :create, FactoryGirl.attributes_for(:invalid_cal_event)
+          }.to change(CalEvent, :count).by(0)
+        end
+
+        it "provides a failure redirect" do
+          post :create, FactoryGirl.attributes_for(:invalid_cal_event)
+          assert_response 400 # bad request
+        end
       end
     end
 

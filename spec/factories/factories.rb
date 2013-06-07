@@ -17,6 +17,10 @@ FactoryGirl.define do
     association :creator
   end
 
+  factory :invalid_cal_event, :parent => :cal_event do
+    summary ""
+  end
+
   factory :content_bucket do
     sequence :name do |n| 
       "foobarContent#{n}"
