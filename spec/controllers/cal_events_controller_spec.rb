@@ -114,7 +114,30 @@ describe CalEventsController do
       end
     end
 
+    describe "PUT #update" do
+
+      it "will update an event with current ids"
+      it "will not update an event with invalid ids"
+
+    end
+
     describe "DELETE #destroy" do
+      before do
+        @ce2 = FactoryGirl.create(:cal_event, :creator => user)
+        @other_user_ce = FactoryGirl.create(:cal_event)
+      end
+
+      it "deletes the current user's cal event" do
+        expect{
+          delete :destroy, id: @ce2.id
+        }.to change(CalEvent, :count).by(-1)
+      end
+
+      it "won't delete another user's cal event" do
+        expect{
+          delete :destroy, id: @other_user_ce.id
+        }.to change(CalEvent, :count).by(0)
+      end
 
     end
 
