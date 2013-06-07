@@ -23,10 +23,9 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 >> WRITE TESTS for delete / update!!!
 >>>> and for the form on the footer
 
->> build UserPrefs, have it create the userprefs after_creating a new user (or just in the controller).
->> Reroute the associations from the User to the UserPrefs for the contentbuckets
->> Create user preferences page to edit prefs (need prefs controller and model)
+
 >> Set calendar to filter other people's events based on their prefs and content
+>>>> Have the nil case be an "example" calendar
 >> build up user.events endpoint to show their events
 >> bring in front end to handle the separation of events? (necessary with the back end returning events properly?)
 

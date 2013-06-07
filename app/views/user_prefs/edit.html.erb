@@ -1,11 +1,13 @@
-<div class="span6 offset3" id="devise=form">
+<div class="span6 offset3" id="devise-form">
 
   <h2>Preferences</h2>
 
-  <%= simple_form_for @user_pref do |f| %>
+  <%= simple_form_for(@user_pref, :html => { :class => "form-horizontal" }) do |f| %>
 
     <div class="form-inputs">
-      Stuff!
+      <%= f.fields_for @user_pref.user do |ff| %>
+        <%= ff.association :content_buckets, :collection => @content_buckets, :multiple => true, :label => "My Project(s):", :hint => "Select the project(s) you'd like to pair on!" %>
+      <% end %>
     </div>
 
     <%= f.button :submit, "Update", :class => "btn-primary btn-large pull-right" %>

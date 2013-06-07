@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
   has_one :user_pref
 
   # associates the user to the content he'd like to pair on
-  has_many :content_activations
+  has_many :content_activations, :dependent => :destroy
   has_many :content_buckets, :through => :content_activations
 
   protected
