@@ -26,7 +26,7 @@ DEPLOYMENT NOTES: **************
 
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation
-POMO1: >> WRITE TESTS for index / delete / update!!!
+POMO1: >> WRITE TESTS for create / delete / update!!!
 POMO1: >>>> and for the form on the footer
 
 

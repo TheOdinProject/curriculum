@@ -1,8 +1,12 @@
 FactoryGirl.define do
 
-  factory :user do
-    username "foobar"
-    email "foo@bar.com"
+  factory :user, :aliases => [:creator] do
+    sequence :username do |n|
+      "foobar#{n}"
+    end
+    sequence :email do |n|
+      "foo#{n}@bar.com"
+    end
     password "foobar"
   end
 
@@ -10,7 +14,13 @@ FactoryGirl.define do
     summary "Title"
     start "#{DateTime.now()}"
     self.end "#{DateTime.now()+3600}"
-    user
+    association :creator
+  end
+
+  factory :content_bucket do
+    sequence :name do |n| 
+      "foobarContent#{n}"
+    end
   end
 
 end

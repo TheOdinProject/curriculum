@@ -7,17 +7,20 @@ class CalEventsController < ApplicationController
   # correspond to the calendar's filter settings
   def index
     events = []
+
     # grabs availabilities from the current user and anyone
     # whose project list overlaps with the current user's
     unless current_user.content_buckets.empty?
       ids = current_user.content_bucket_ids
       u = User.joins(:content_buckets).where(:content_buckets => {:id => ids}).uniq.includes(:cal_events)
-      
+
       u.each do |user| 
         events += user.cal_events
       end
       events = events.map { |event| objectify_event(event) }
+
     end
+
     render :json => events
   end
 
