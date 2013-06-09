@@ -47,7 +47,7 @@ class CalEventsController < ApplicationController
   # calendar event and return it
   def update
     event = CalEvent.find(params[:id])
-    puts "\n\n\n LET ME UPDATE YOUR EVENT!!! \n\n\n"
+    # puts "\n\n\n LET ME UPDATE YOUR EVENT!!! \n\n\n"
     if event.update_attributes({
         :summary => params[:summary],
         :start => to_utc(params[:start]),

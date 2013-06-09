@@ -115,10 +115,37 @@ describe CalEventsController do
     end
 
     describe "PUT #update" do
+      context "with valid attributes" do
+        before do
+          put :update, FactoryGirl.attributes_for(:cal_event, :summary => "barfooEvent", :id => ce.id)
+        end
 
-      it "will update an event with current ids"
-      it "will not update an event with invalid ids"
+        it "will update an event with current ids" do
+          ce.reload
+          ce.summary.should == "barfooEvent"
+        end
 
+        it "renders okay" do
+          assert_response 200
+        end
+
+        it "populates an array with the user's event" do
+          rb = JSON.parse(response.body)
+          rb["id"].should == ce.id
+        end
+      end
+
+      context "with invalid attributes" do
+        before do
+          put :update, FactoryGirl.attributes_for(:invalid_cal_event, :id => ce.id)
+        end
+
+        it "will not update" do
+          pre_summary = ce.summary
+          ce.reload
+          ce.summary.should == pre_summary
+        end
+      end
     end
 
     describe "DELETE #destroy" do
