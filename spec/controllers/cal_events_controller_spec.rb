@@ -35,10 +35,22 @@ describe CalEventsController do
     describe "GET #index" do
       context "when user has created an event" do
         context "but not specified any projects" do
-          it "returns nothing" do
-            expected = [].to_json
-            get :index
-            response.body.should == expected
+          context "and another user with unspecified projects created an event" do
+
+            before do
+              user2 = FactoryGirl.create(:user)
+              ce2 = FactoryGirl.create(:cal_event, :creator => user2)
+            end
+
+            it "populates an array with just the current user's event" do
+              get :index
+              rb = JSON.parse(response.body)
+              rb[0]["id"].should == ce.id
+              rb[0]["title"].should == ce.summary
+              rb[0]["start"].to_datetime.should == ce.start
+              rb[0]["end"].to_datetime.should == ce.end
+              rb.count.should == 1
+            end
           end
         end
 
