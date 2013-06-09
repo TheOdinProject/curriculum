@@ -1,6 +1,6 @@
 <%= content_for :title, "The Odin Project -- Scheduler" %>
 
-<div class="container">
+<div class="container" id="scheduler">
   <h1>Start Programming Together</h1>
 
   <div class="row">
@@ -15,16 +15,22 @@
 
       <h5>How Does it Work?</h5>
       <p>
-        The calendar you are viewing now has already been filtered based on which project you're working on (!!!).  Change any of these filters in your <%= link_to "preferences page", edit_user_pref_path %>.  How to use it:
+        The calendar you are viewing now shows the availability of other people who are working on the same project as you are.  Select 
+        <% if current_user.content_buckets.empty? %>
+          your first project
+        <% else %>
+          new projects 
+        <% end %>
+        on your <%= link_to "preferences page", edit_user_pref_path %>.  How to use the calendar:
         <ol>
-          <li>Add when you're available to the calendar.  Just click or drag to add availability.  The new event will be auto-populated with the information specified on your <%= link_to "preferences page", edit_user_pref_path %>.  You can edit this by clicking on it.</li>
+          <li>Add when you're available to the calendar.  Just click or drag to add availability.  The new event will be auto-populated with the information specified on your <%= link_to "account page", edit_user_registration_path %>.  You can edit this by clicking on it.</li>
           <li>Gray events represent when other users are available.  Click on these to get the contact information for these users.  If you find a time when you're both available, reach out and pair up!</li>
         </ol>
       </p>
 
       <h5>How do we Pair?</h5>
       <p>
-        For best pairing, we recommend using two very easy tools: Skype and Screenhero.  Skype lets you chat with other users for free. Screenhero is like Skype for screen sharing.  Both are just one-click-to-call, and will let you talk while you're working on the same code base on one person's machine.
+        For best pairing, we recommend using two very easy tools: Skype and Screenhero.  Skype lets you chat with other users for free. Screenhero is like Skype for screen sharing.  Both tools are just one-click-to-call, and using them together will allow you to talk while you're working together on the same code on one of your computers... remotely!
         <ul>
           <li>Setting up Skype: Download the free client at <%= link_to "Skype.com", "http://www.skype.com" %>, set up your user details, and "call" your partner.</li>
           <li>Setting up ScreenHero: Download the free client at <%= link_to "Screenhero.com", "http://www.screenhero.com" %>, set up your account, and "call" your partner to start sharing your screen.</li>
@@ -54,6 +60,14 @@
 
     <div class="span8">
       <h4>When are you available?</h4>
+      <% if current_user.content_buckets.empty? %>
+        <p class="warning">Tip: <%= link_to "select a project", edit_user_pref_path %> to see the availability of other people too!</p>
+      <% else %>
+        <p class="filters">Showing availability for: <strong>
+          <%= current_user.content_buckets.map(&:name).join(", ") %></strong>
+          <sup> <%= link_to "edit", edit_user_pref_path %></sup>
+        </p>
+      <% end %>
 
       <script>
         $(document).ready(function(){

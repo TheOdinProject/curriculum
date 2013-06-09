@@ -16,7 +16,7 @@ DEPLOYMENT NOTES: **************
 
 
 ********************* Major Roadmap *************************
-> Round out calendar UI v0.1
+> DEPLOY v0.0.2
 > Build mailer button in the event profiles
 > Add user prefs filters as well
 *************************************************************
@@ -25,8 +25,6 @@ DEPLOYMENT NOTES: **************
 >>>> calendar basic display, calendar population, event creation
 
 > CALENDAR UI
->> Show which filters are currently being deployed (at least which projects)
->>>> Have the nil case be an "example" calendar?
 >> Default event details based on user profile info?? esp username and details with their contact info
 >> ?Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events?
 

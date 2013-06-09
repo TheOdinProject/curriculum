@@ -92,6 +92,29 @@ describe "StaticPages" do
       it { should have_selector('h1', :text => "Start Programming Together") }
       it { should have_css('form#footer-suggestion-form') }
 
+      context "before user chooses a project" do
+        it "should have a prompt to choose a project" do
+          subject.should have_selector("p.warning", "Tip:")
+        end
+        it "should not have a change project link" do
+          subject.should_not have_link("edit")
+        end
+      end
+      context "after user chooses a project" do
+        before do
+          cb = FactoryGirl.create(:content_bucket)
+          user.content_buckets << cb
+          user.save!
+          visit current_path
+        end
+        it "should have a change project link" do
+          subject.should have_link("edit")
+        end
+        it "should not have a prompt to choose a project" do
+          subject.should_not have_selector("p.warning", "Tip:")
+        end
+      end
+
       describe "filling in the suggestion form" do
         before(:each) do
           ActionMailer::Base.deliveries = []  # Clear out other test deliveries
