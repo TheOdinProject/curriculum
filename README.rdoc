@@ -1,4 +1,4 @@
-== Welcome to The Odin Project
+== Welcome to The Odin Project v0.0.2
 
 It's game on.
 
@@ -10,37 +10,27 @@ DEPLOYMENT NOTES: **************
 *** NEED TO BUILD USER_PREF FOR EXISTING USERS
 ********************************
 
->> Optimize Google Analytics for best level of info detail
+>> Optimize Google Analytics
 >> Set up viral feedback looping like launchrock -- give each signup a unique referral code and make links between them so you see downstream who refers most.  
 >> Add social buttons to the splash process
 
----- Done with splash page ----
 
-***** Major Roadmap *****
-
-> Add user prefs filters as well
+********************* Major Roadmap *************************
 > Round out calendar UI v0.1
-> Test it all!
-
-*************************
+> Build mailer button in the event profiles
+> Add user prefs filters as well
+*************************************************************
 
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation
-POMO1: >>>> and for the form on the footer
 
-
+> CALENDAR UI
 >> Show which filters are currently being deployed (at least which projects)
->>>> Have the nil case be an "example" calendar
-
-
-
+>>>> Have the nil case be an "example" calendar?
 >> Default event details based on user profile info?? esp username and details with their contact info
->> Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events
+>> ?Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events?
 
-
-
->> Show users the events they have scheduled with other filters (very light colored, some sort of indicator)
->> Show in my user settings what a sample event's information would contain by default.
+>> Build "contact" button in event to mail them with your contact info (and have an alert for okaying it)
 
 
 ---- Issues and Gotchas ----

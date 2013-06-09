@@ -57,9 +57,6 @@ describe "StaticPages" do
           click_button("commit")
         end
 
-        it "should disable the form" do
-          # fail.  Can't test AJAX/JS behavior easily...
-        end
         it "should send an email request with the form contents" do
           ActionMailer::Base.deliveries.first.encoded.should include suggestion_body
         end
@@ -72,11 +69,14 @@ describe "StaticPages" do
 
   describe "Scheduler Page" do
 
+    let(:suggestion_body) { "suggestionforyou" }
+
     before { visit scheduler_path }
 
     context "as an unauthenticated user" do
       
       it { should have_selector('h2', "Sign in") }
+      it { should have_css('form#footer-suggestion-form') }
 
     end
 
@@ -90,6 +90,25 @@ describe "StaticPages" do
       end
 
       it { should have_selector('h1', :text => "Start Programming Together") }
+      it { should have_css('form#footer-suggestion-form') }
+
+      describe "filling in the suggestion form" do
+        before(:each) do
+          ActionMailer::Base.deliveries = []  # Clear out other test deliveries
+          # save_and_open_page
+          fill_in("suggestion", with: suggestion_body)
+        end
+
+        context "after submitting the form" do
+          before(:each) do
+            click_button("suggestion-button")
+          end
+            
+          it "should send an email request with the form contents" do
+            ActionMailer::Base.deliveries.first.encoded.should include suggestion_body
+          end
+        end
+      end
 
       # Commenting these out because they require Javascript tests!
       # it { should have_selector("th", :text => "11am" ) }
