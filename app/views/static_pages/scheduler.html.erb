@@ -96,9 +96,8 @@
             },
             select: function(start, end, allDay) {
               console.log($(this));
-              var summary = "Available"; //prompt('Event Title, Foo!');
-              var description = 
-                "Preferred: foo.bar (Skype) \nAlternate: foo.bar@gmail.com (Email)"; //prompt('Enter Description, Foo!');
+              var summary = "<%= current_user.username %>";
+              var description = "Email: <%= current_user.email %>";
               if(summary) {
                 $.ajax({
                   url: "<%= cal_events_url %>",

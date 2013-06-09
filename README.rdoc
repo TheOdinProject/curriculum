@@ -18,6 +18,7 @@ DEPLOYMENT NOTES: **************
 ********************* Major Roadmap *************************
 > DEPLOY v0.0.2
 > Build mailer button in the event profiles
+>> Select which project too if multiple!
 > Add user prefs filters as well
 *************************************************************
 
