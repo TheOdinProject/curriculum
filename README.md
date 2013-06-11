@@ -1,4 +1,4 @@
-#The Odin Project: Curriculum
+# The Odin Project: Curriculum
 
 ### The Open and Responsive Curriculum for Learning Web Development.
 
@@ -25,12 +25,12 @@ To contribute, [submit a pull request](https://help.github.com/articles/fork-a-r
 
 If you have questions about The Odin Project itself, [contact me](mailto:erik@theodinproject.com).
 
-If you'll be linking to the curriculum, it's safest to link to the Table of Contents here since some of the subcategories are likely to change.
+If you'll be linking to the curriculum, it's safest to link to the top-level Table of Contents here since some of the subcategories are likely to change.
 
 ## Table of Contents
 
 <ol>
-  <li>Web Developer Meta</li>
+  <li><a href="becoming_a_web_developer/becoming_a_web_developer.md">Becoming a Web Developer</a></li>
   <li>Web Development Basics</li>
   <li>Installing the Technology</li>
   <li>Pair Programming and Remote Pairing</li>
