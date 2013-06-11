@@ -4,7 +4,7 @@
 
 The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
 
-It takes approximately **1000 hours** of work to go from zero to employable as a web developer and it's often a confusing and overwhelming journey.  When you ask a developer how to learn, you usually get a dozen vague resources to look at and a gentle nudge forward.  If you've got the motivation, this curriculum is designed to provide a clear path forward that utilizes existing (and free) content on the web to get you to where you'd like to be.  
+It takes approximately **1000 hours** of work to go from zero to employable as a web developer and it's often a confusing and overwhelming journey.  When you ask a developer how to learn, you usually get a dozen vague resources to look at and a gentle nudge forward.  Or you end up staring at the possibility of $80k in student debt for a CS degree which is no guarantee of employment anyway.  If you've got the motivation, this curriculum is designed to provide a clear path forward that utilizes existing (and free) content on the web to get you to where you'd like to be and at your own pace.  
 
 We focus on the skills you'd need to step onto the job and contribute but, of course, everyone has a different goal and that's okay.  Whether you're looking to join a tech company, start a startup, build your own website, retool from another language, try out a new hobby, or work as a freelancer, you'll find value in the content we've roped together.  
 
@@ -12,21 +12,21 @@ Check our our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-
 
 ### Our Philosophy
 
-Our philosophy is that you learn most effectively by building things, by working with other people as much as possible, and by having actual context for what you're learning.  
+Our philosophy is that you learn most effectively by building things, by working with other people as much as possible, and by having clear context for what you're learning.  
 
 We believe that the best way to build a strong community of aspiring developers is to provide a high quality and focused path to a professional skillset and to facilitate collaborative and paired learning wherever possible along the way.
 
-We also believe that there's more than enough high quality content out there right now... the problem usually isn't not finding enough resources, it's finding too many!  What's missing so far is easily identifying the very best path through that content to achieve your desired goal.
+We also believe that there's more than enough high quality content out there right now... the problem isn't finding too few resources, it's finding too many!  What's missing so far is easily identifying the very best path through that content to achieve your desired goal (and that's why we're here).
 
 ### What You'll Learn
 
 The curriculum takes a back-to-front approach to learning a professional Ruby on Rails workflow.  That means starting with a strong foundation in Ruby and an understanding of databases before migrating into Rails (which is a framework built using Ruby).
 
-Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It'll probably be some new tech in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
+Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It lets you put up a functioning website in hours not days or weeks.  It'll probably be some new tech in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
 
 Whereas we begin by essentially giving you the skills to make your websites function, next we move into HTML, CSS, Javascript, JQuery, and Backbone to give you the tools necessary to make them come alive by looking good, flowing well, and loading quickly.  Along the way, you'll learn git and deployment so you can build your portfolio, collaborate with others, and see your work on the web.
 
-Finally, we'll tackle more substantial project work and some topical deep dives and which will help you when you're looking for jobs.
+Finally, we'll tackle more substantial project work and learn how to deal with legacy codebases and open-source projects. We'll also do some topical deep dives and cover areas specifically intended to help you when you're looking for jobs.
 
 ### How it Works
 
@@ -36,7 +36,10 @@ The units here are meant to break down into approximately 20% pre-learning / 80%
 
 This curriculum is just a suggested path... you don't necessarily need to do things in this order but you'll probably be a bit lost later on if you're missing some key foundational knowledge.  It is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! We'll soon give you the tools necessary to work directly with other people across the globe.
 
-### Meta
+### Work In Progress!
+
+This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, here's how:
+
 To contribute, [submit a pull request](https://help.github.com/articles/fork-a-repo) (preferred) or [email us](curriculum@theodinproject.com) your suggestions directly.
 
 If you have questions about The Odin Project itself, [contact me](mailto:erik@theodinproject.com).
