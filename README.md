@@ -1,6 +1,6 @@
 # The Odin Project: Curriculum
 
-### The Open and Responsive Curriculum for Learning Web Development.
+### The Open and Responsive Curriculum for Learning Web Development
 
 The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
 
@@ -12,7 +12,7 @@ Check our our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-
 
 ### Our Philosophy
 
-Our philosophy is that you learn most effectively by building things, by working with other people as much as possible, and by having actual context for what you're learning.  
+Our philosophy is that you learn most effectively by building things, by working with other people as much as possible, and by having actual context for what you're learning.  We believe that the best way to build a strong community of aspiring developers is to provide a high quality and focused path to a professional skillset and to facilitate collaborative and paired learning wherever possible along the way.
 
 ### How it Works
 
