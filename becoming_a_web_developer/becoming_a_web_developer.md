@@ -2,7 +2,7 @@
 
 ## Intro
 
-This module is about answering the basic questions people have about the actual practice and career of web development.  Because, let's be honest, even if you've got a great feeling that you like building things and web development is the right path for you, you still probably don't have a great idea of what developers actually do... and that's where everyone starts so it's okay.
+This module is about answering the basic questions people have about the actual practice and career of web development.  Because, let's be honest, even if you've got a strong feeling that you like building things and web development is the right path for you, you still probably don't have a great idea of what developers actually do... and that's where everyone starts so it's okay.
 
 If some of the terms and explanations here seem unfamiliar to you, it may be worth checking out the next section on [web development basics](web_development_basics/web_development_basics.md) and coming back here as necessary.
 
