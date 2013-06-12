@@ -16,4 +16,7 @@ Final note to Windows users -- you can do everything you need to do but you'll f
 
 ## Test drive your setup
 
+## A Few More Things To Do
+Set up your [github](https://github.com/) account!
+
 ## Additional Resources
