@@ -30,7 +30,7 @@ Finally, we'll tackle more substantial project work and learn how to deal with l
 
 ### How it Works
 
-The units here are meant to break down into approximately 20% pre-learning / 80% building.  Each step of the way, you should be able to see your progress through the projects you've built and by how far you've progressed along the path laid out here.  We'll also do our best to answer the question "So why the heck do I need to know this anyway?".  If one piece of content has you stuck, we'll have links to additional resources to help shore up your understanding.
+The units here are meant to break down into approximately 20% pre-learning / 80% building.  Each step of the way, you should be able to see your progress through the projects you've built and by how far you've progressed along the path laid out here.  We'll also do our best to answer the question "So why the heck do I need to know this anyway?".  If one piece of content has you stuck, we'll have links to additional resources to help shore up your understanding.  Where possible, we'll try to give you the no-bullshit explanation that cuts through the industry jargon.
 
 ### Final Note
 
