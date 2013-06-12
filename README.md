@@ -22,7 +22,7 @@ We also believe that there's more than enough high quality content out there rig
 
 The curriculum takes a back-to-front approach to learning a professional Ruby on Rails workflow.  That means starting with a strong foundation in Ruby and an understanding of databases before migrating into Rails (which is a framework built using Ruby).
 
-Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It lets you put up a functioning website in hours not days or weeks.  It'll probably be some new tech in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
+Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It lets you put up a functioning website in hours not days or weeks.  The "in" tech will probably be something completely different in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
 
 Whereas we begin by essentially giving you the skills to make your websites function, next we move into HTML, CSS, Javascript, JQuery, and Backbone to give you the tools necessary to make them come alive by looking good, flowing well, and loading quickly.  Along the way, you'll learn git and deployment so you can build your portfolio, collaborate with others, and see your work on the web.
 
@@ -49,8 +49,8 @@ If you'll be linking to the curriculum, it's safest to link to the top-level Tab
 ## Table of Contents
 
 <ol>
-  <li><a href="becoming_a_web_developer/becoming_a_web_developer.md">Becoming a Web Developer</a></li>
-  <li>Web Development Basics</li>
+  <li><a href="/becoming_a_web_developer/becoming_a_web_developer.md">Becoming a Web Developer</a></li>
+  <li><a href="/web_development_basics/web_development_basics.md">Web Development Basics</a></li>
   <li>Installing the Technology</li>
   <li>Pair Programming and Remote Pairing</li>
   <li>Ruby</li>
