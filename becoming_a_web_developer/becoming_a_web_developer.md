@@ -14,7 +14,7 @@ Often, the developer is working on behalf of clients who are trying to get their
 
 A more detailed explanation, from http://degreedirectory.org/articles/What_Does_a_Web_Developer_Do.html:
 
-`
+<blockquote>
 Web Developer Job Duties
 
 Your job as a Web developer is to present your clients' products and services to a wide audience by creating attractive, functional websites. You will likely be asked to identify potential site users and design a website to appeal to these constituents. Your work may include meeting with clients to discuss their desires for a website or discuss how to keep their website functioning and up to date. You might construct the layout of a website, creating a visually interesting home page and user-friendly design. You may also write the content for the website.
@@ -27,13 +27,33 @@ Web developers may work for large corporations, small companies or as freelancer
 
 Other Skills
 You need to have a familiarity with technology and understand how computers and web servers operate. You will also need to be familiar with many software programs, Web applications and Web programming languages, such as hypertext markup language (HTML), Ruby on Rails and C++. Since this is a very client-based, project-oriented field, you must be able to communicate effectively, set goals and meet deadlines. You must also be creative and have a grasp of art and design principles.
-`
+</blockquote>
 
 ##### The key take-aways here are:
 * Developers often work on behalf of clients who are trying to get their product or service out onto the web.  
 * The work is typically very project-focused and involves working with a team of people who help coordinate the client's needs with the end product.
-* Not all devs work for external clients... The "client" could just be your tech company, organization, government etc.
+* Not all devs work for external clients... The "client" could just be your tech company, organization, government etc. who need a website or web application built
 * 
+
+##### Important Distinctions
+
+**Front End vs Back End Developers**
+
+*"Front End" typically refers to the stuff that you actually see on the website in the browser.  This covers how the content is presented including all the little user interface elements like menus and dropdowns and transitions and modals.  A front end developer will often focus heavily on understanding HTML, CSS, and Javascript since these languages live in the browser.  They aren't necessarily focused on making things look "pretty", but rather making sure that the information is presented effectively and the user's interaction with the web page is as smooth as possible.  These days we're doing more and more coding in the browser itself.
+
+*"Back End" typically refers to the guts of the application which live on the server.  The back end is more focused on making sure all the data gets sent out properly to the browser.  It's the portion of iceberg below the surface... lots of stuff needs to go right to hand off data to the front end so it can be displayed.  Google may be a relatively straightforward search engine from our point of view, but they employ thousands of engineers to make sure that all the moving parts you don't see are working properly.
+
+*"Full Stack" developers marry the two sides into one.  While each "end" involves learning a significant amount of information, a full stack developer can comfortably speak both database and browser.  These days the trend is to seek developers with a great working knowledge of both ends (which is what we're teaching here).
+
+**Web Developer vs Web Designer**
+
+*So, if we've got back end developers and front end developers, who makes the website actually look pretty?  Who pulls together the images and logos and color schemes?  That's the web designer's job.  They are typically less inclined to handle the actual coding of the page.
+
+** Wikipedia lays out the breadth of the web design profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
+
+** Check out this [semi-serious infographic](http://thumbnails.visually.netdna-cdn.com/web-designer-vs-web-developer_502919932c2d2.jpg)
+
+** And [another infographic](http://sixrevisions.com/infographics/web-designers-vs-web-developers-infographic/)...
 
 
 ## What are Web Development Careers and Jobs Like?
@@ -69,3 +89,5 @@ Hopefully you've gained a better idea of what a web developer actually does and 
 
 
 
+## TODO:
+*Lay out the [Skillcrush terms to know](http://www.skillcrush.com/terms/)
