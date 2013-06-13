@@ -84,10 +84,11 @@ TODO: Day in the life of
 You know what a developer does now but you'll also want to familiarize yourself with the basic tools of the trade:
 
 * Computer -- Okay, this one should be obvious.  But get a Unix (Mac) or Linux system to save yourself a lot of trouble.
-* Text Editor -- The text editor is where you'll spend most of your time actually writing code, so pick one you like.  If you're just starting out, they probably all seem the same but there's a big difference between, for instance, a command line editor like Vi (which doesn't let you use the mouse at all!) and a GUI-based one that feels more like what you're familiar with from school.  
+* Text Editor -- The text editor is where you'll spend most of your time actually writing code, so pick one you like.  If you're just starting out, they probably all seem the same but there's a big difference between, for instance, a command line editor like Vi (which doesn't let you use the mouse at all!) and a GUI-based one that feels more like what you're familiar with from school. 
+
     We strongly recommend beginners getting a free GUI-based text-editor like [Sublime Text](http://www.sublimetext.com/) or [Text Wrangler](http://www.barebones.com/products/textwrangler/download.html) and not getting caught up in the Vi vs Emacs wars.  Why are the GUI editors we recommend different from just using Microsoft Word or something like that?  For starters, they let you view full directories and open files in different tabs, navigate easily using keyboard shortcuts, highlight different bits of syntax in many languages (very helpful) and have efficiency-gaining code snippets you'll get more familiar with over time.  
 * [Command Line Interface (CLI)](http://www.skillcrush.com/terms/command-line.html) Shell -- For most people, this is just the Terminal (mac) or the MS-Dos Command Prompt (Windows) but sometimes people will use their own version.  The shell is your window into your operating system (which we'll talk about a bit more in the next unit) where you type in commands and navigate in a text-based way through directories on your hard drive.  Think of it as your mini command center where you'll save your files to a version-control system, deploy onto the web, test out code snippets in Ruby, and interact directly with your database.
-* [Google](http://www.google.com/) -- Really?  YES! This should probably be number one on the list... you will get stuck.  Repeatedly.  You'll get incredibly good at identifying the error message and googling the heck out of them.  Don't underestimate how often professional devs use Google... we're in an industry where you never know everything and it's constantly changing so seeking help online is an art and a science all in one.
+* [Google](http://www.google.com/) -- Really?  YES! This should probably be number one on the list... you will get stuck.  Repeatedly.  You'll get incredibly good at identifying the error message and googling the heck out of it.  Don't underestimate how often professional devs use Google... we're in an industry where you never know everything and it's constantly changing so seeking help online is an art and a science all in one.
 * [Stack Overflow](http://stackoverflow.com/) -- By extension, most Google queries lead to Stack Overflow, an online question-and-answer community that has high quality responses to thousands of the questions you'll search for.
 * [Git](http://skillcrush.com/2013/02/18/git/) -- Git is a version-control system.  [Read more about git here](http://skillcrush.com/2013/02/18/git/).  You will love it, then hate it, then praise it.  But you must know it.  Git is one of those things that non-developers either haven't heard of or don't understand and it's a dividing line between hobby hacking and using industry best-practices to keep your code base safely version-controlled and stored in the cloud.  
 * By extension, the place where your files will actually be stored is [github](http://github.com/).  **Your github account is more important than your resume.**  It holds the record of all the code you've written, which open-source projects you've contributed to and how.  Your github account is your developer's portfolio.
@@ -95,26 +96,37 @@ You know what a developer does now but you'll also want to familiarize yourself 
 
 ## Where are the Web Development Communities?
 
-Developers are passionate builders and they often enjoy taking part in various communities and events, both online and off.  As an aspiring developer, it's good for you to begin familiarizing yourself with these communities and how you can participate.
+Developers are passionate builders and they often enjoy taking part in various communities and events, both online and off.  As an aspiring developer, it's good for you to begin familiarizing yourself with these communities and how you can participate.  All of these places have a space for beginning developers to at least observe and ask questions.  Experienced devs often enjoy helping out eager learners as long as you keep your tone respectful and open-minded.
 
 ** In-Person **
-* Meetups
-* Hack Nights
-* Hackathons
-* Conferences
+* [Meetups](http://www.meetup.com) -- Check out your local Ruby, Rails, and Developer communities on Meetup.  Odds are that you've got interesting meetups happening at least every several weeks if you're located near a city.
+* Hack Nights -- Hack nights are a type of in-person meetup designed to cater to casual collaboration.  They're all run differently, but often you'll introduce yourself and what you're hoping to work on.  Then you're free to work with or ask questions of others and enjoy the pizza, beer, and maybe even foosball while getting to know your fellow techies. 
+* Hackathons -- Hackathons are more structured than hack nights and are typically structured as a team application-building contest, sometimes around a specific theme, API or dataset.  They often start with idea pitches, then teams are formed, and then you have a short period of time (say 12-36 hours) to build the thing before presenting to a panel of judges.  Fueled by caffeine and beer, some pretty awesome stuff can come out of these and they're another great way to meet local developers.
+** Some of the more widespread hackathons include [AngelHack](http://www.angelhack.com) and, in a similar vein in the startup space, [Startup Weekend](http://www.startupweekend.org/).
+* Conferences -- Conferences will tend to cluster around tech hubs but the keynotes are usually available online.  They can be fairly expensive (since often the participants get sponsored by their businesses) but good networking events if you're the social type.
 
 ** Online **
-* Hacker News
-* Github
-* Stack Overflow
-* IRC
-* 
+* [Hacker News](http://news.ycombinator.com) -- HN is the community around the Y Combinator startup accelerator and it's a link-submission board that's got some of the best quality startup- and tech-related discourse on the web.
+* [Github](http://www.github.com) -- Less an active community than a gathering place, github is the place where you can find and contribute to almost any of the open-source projects out there.
+* [Stack Overflow](http://www.stackoverflow.com) -- Stack, mentioned above, is a great community where you're encouraged to ask and answer questions about a wide variety of programming topics.
+* IRC -- There are channels on this chat protocol for just about everything.
+* Reddit's [/r/programmer](http://www.reddit.com/r/programming/) -- Link submission and commenting.
+* Blogs -- You should get familiar with the top blogs where the content interests you most, which will take a bit of time to figure out.  The best ones often have active discussion threads at the end of each post.
+
+** Specialty **
+* [RailsBridge](http://workshops.railsbridge.org/) -- An outreach for aspiring Ruby-on-Rails developers that is emphatically female and LGBTQ friendly.  Their weekend workshops are rapidly spreading.
 
 ## What Kinds of People Make the Best Web Developers?
 
+Developing is incredibly rewarding but can also be difficult and frustrating.  The strongest assets you can have as a student are a desire to build, a problem-solving mind, and persistence in the face of setbacks.  As a professional, it's important to also understand that software and websites are created for *people* and that the user or client's needs should be top of mind throughout the whole process.  Said by others:
+
+* [Quora](http://www.quora.com/What-makes-a-great-web-developer)
+* [Jared the Nerd](http://www.jaredthenerd.com/2013/05/what-makes-good-developer.html)
+* [oreanarose](http://oreanarose.com/2010/12/what-makes-a-good-web-developer/)
+
 ## Sounds Good... So How Can I Get a Job?
 
-The best thing you can do in order to get a job as a web developer is, of course, to know your stuff!  But, when compared to other careers, web development does have some wrinkles (that probably work in your favor).  Because the industry has a long history of successful developers with varying backgrounds, people tend to care more about what you've actually **built** than how you got there (e.g. which school you went to).  Interviews are typically a combination of testing your ability to think technically (with thought questions, brain teasers, coding exercises) and an examination of the work you've done previously.  They are usually looking for people with a demonstrated ability to pick things up quickly, complete projects, and work well with others.
+The best thing you can do in order to get a job as a web developer is, of course, to know your stuff!  But, when compared to other careers, web development does have some wrinkles (that probably work in your favor).  Because the industry has a long history of successful developers with varying backgrounds, people tend to care more about what you've actually **built** than how you got there (e.g. which school you went to).  Interviews are typically a combination of testing your ability to think technically (with thought questions, brain teasers, coding exercises) and an examination of the work you've done previously.  They are usually looking for people with a demonstrated ability to pick things up quickly, complete projects, and work well with others.  
 
 ## Finish
 
@@ -122,8 +134,4 @@ Hopefully you've gained a better idea of what a web developer actually does and 
 
 ## Additional Resources
 
-
-
-
-## TODO:
-*Lay out the [Skillcrush terms to know](http://www.skillcrush.com/terms/)
+Submit additional resources [here](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo) then submit a [pull request](https://help.github.com/articles/using-pull-requests).

@@ -2,7 +2,7 @@
 
 ### The Open and Responsive Curriculum for Learning Web Development
 
-The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
+The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to acquire a job-ready skillset.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
 
 It takes approximately **1000 hours** of work to go from zero to employable as a web developer and it's often a confusing and overwhelming journey.  When you ask a developer how to learn, you usually get a dozen vague resources to look at and a gentle nudge forward.  Or you end up staring at the possibility of $80k in student debt for a CS degree which is no guarantee of employment anyway.  If you've got the motivation, this curriculum is designed to provide a clear path forward that utilizes existing (and free) content on the web to get you to where you'd like to be and at your own pace.  
 
