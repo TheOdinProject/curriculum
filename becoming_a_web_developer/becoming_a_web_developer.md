@@ -55,6 +55,10 @@ So, if we've got back end developers and front end developers, who makes the web
 
 ** And [another snarky infographic](http://sixrevisions.com/infographics/web-designers-vs-web-developers-infographic/) for your entertainment...
 
+**Web Sites vs Web Applications**
+
+[Not everyone can agree](http://stackoverflow.com/questions/1959910/web-site-vs-web-application) what differentiates the two, but generally web sites are more about displaying static (unchanging) content and web applications require a "smart" server running code (that you're going to learn to write) to produce dynamic content.
+
 
 ## What are Web Development Careers and Jobs Like?
 
@@ -137,4 +141,4 @@ Hopefully you've gained a better idea of what a web developer actually does and 
 
 ## Additional Resources
 
-Submit additional resources [here](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo) then submit a [pull request](https://help.github.com/articles/using-pull-requests).
+Submit additional resources [via email](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo) then [submit a pull request](https://help.github.com/articles/using-pull-requests).
