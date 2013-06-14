@@ -162,7 +162,7 @@ With either of the languages, there are a couple of things that aren't immediate
 
 First, go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.
 
-Next, read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the (Installation Unit)[/installations] to get everything up and running or, if you'd rather wait, just try to follow along.
+Next, read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations) to get everything up and running or, if you'd rather wait, just try to follow along.
 
 Dive in a little deeper with Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
 
@@ -209,6 +209,31 @@ You thought only server-side languages could utilize frameworks?  Think again.  
 
 ### Databases
 
+#### You should know:
+* What is a database?
+* What are relational databases?
+* How are relational databases different from XML?
+* What is SQL?
+* What does CRUD stand for?
+* Why is CRUD so important for web apps?
+
+We've talked about the client-side and the server-side, but how do we keep ahold of all our user's data?  Who remembers that your login password is CatLover1985 so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.  
+
+Databases are one of those aspects of web programming that are kind of hidden in the back and so people treat them with a sort of suspicion and awe.  That's nonsense and you should get over it -- your database and you are going to become very good friends (or frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  
+
+Compared to a normal language, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on:
+
+A pretty good plain-english explanation of SQL can be found from Zed Shaw at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).
+
+Sign up for Coursera's [Intro to Databases](https://class.coursera.org/db/lecture/index) course and watch the lectures on Relational Databases and SQL (~3 hrs).  You can save the sections in between for extra credit (things get a bit technical there).
+
+Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, You can save the additional sections (relational algebra, XML, JSON) for extra credit.
+
+
+#### Additional Resources:
+
+Do you know of a good plain-english explanation of databases? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+
 ### Tying it All Together
 
 You've got an idea of what the pieces look like, now it's time to see how they all dance together in a typical Ruby on Rails application.  Read through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (listen to audio of it on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be a valuable first step towards understanding what you'll be building.  Don't worry if you don't understand what Models, Views, and Controllers are exactly doing, but start to get familiar with that terminology.
@@ -220,6 +245,10 @@ You've got an idea of what the pieces look like, now it's time to see how they a
 #### SSL
 
 #### Git
+
+#### The Cloud
+
+#### Testing
 
 
 ## How Are Websites Built?
@@ -239,6 +268,6 @@ Do you still have any beginner questions left over? [Email us](mailto:curriculum
 
 ## Finish
 
-Now you've gotten your feet wet and I hope you're getting curious to dig deeper.  You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a functioning page.  
+Now you've gotten your feet wet and I hope you're getting curious to dig deeper.  You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a functioning page.  You should be able to create a basic web page and make it do some basic things with Javascript.  You should also be able to write a simple Ruby script and describe what Rails and Backbone actually are.
 
 ## Additional Resources
