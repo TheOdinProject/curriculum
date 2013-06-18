@@ -51,7 +51,7 @@ If you'll be linking to the curriculum, it's safest to link to the top-level Tab
 <ol>
   <li><a href="/becoming_a_web_developer/becoming_a_web_developer.md">Becoming a Web Developer</a></li>
   <li><a href="/web_development_basics/web_development_basics.md">Web Development Basics</a></li>
-  <li>Installing the Technology</li>
+  <li><a href="/installations/installations.md">Installing the Technology</a></li>
   <li>Pair Programming and Remote Pairing</li>
   <li>Ruby</li>
   <li>Databases and SQL</li>
