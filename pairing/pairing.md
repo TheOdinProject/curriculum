@@ -12,11 +12,25 @@ This curriculum is designed specifically to benefit from and encourage the use o
 
 You'll end up working with a lot of different types of people, and sometimes it will go really well and other times you'll have to find patience.  But, overall, your learning experience will be greatly enriched by the chance to both learn from and teach to your peers along the way.
 
-Read about pairing on the [Extreme Programming website](http://www.extremeprogramming.org/rules/pair.html).
-
-
+Read (briefly) about pairing on the [Extreme Programming website](http://www.extremeprogramming.org/rules/pair.html).
 
 ## Why Pair?
+
+The major benefits of pairing to learn are:
+* Learn by teaching, the most effective method
+* Get through bugs faster
+* Ask questions of a real human
+* Get realtime feedback on the code you're writing
+* It forces you to focus and remove distractions
+
+Things that are difficult about pairing:
+* There's an element of personality fit between partners
+* You need to get used to thinking out loud
+
+##### Some Articles:
+* [Why Pair Programming Works](http://cafe.elharo.com/programming/why-pair-programming-works/)
+* [Pair Programming Considered Extremely Beneficial](http://techcrunch.com/2012/03/17/pair-programming-considered-extremely-beneficial/)
+* [Pair Programming: When and Why](http://www.boost.co.nz/blog/development/pair-programming-when-and-why/)
 
 ### Additional Resources
 An older [writeup on pairing](http://collaboration.csc.ncsu.edu/laurie/pair.html) from Dr. Laurie Williams of NC State University has a rich bibliography of research on pairing.
@@ -29,23 +43,24 @@ For best pairing, we recommend using two very easy tools: Skype and Screenhero. 
 Setting up Skype: Download the free client at Skype.com, set up your user details, and "call" your partner.
 Setting up ScreenHero: Download the free client at Screenhero.com, set up your account, and "call" your partner to start sharing your screen.
 Once you are able to talk to each other and you can both work on one of your screens, it's time to get coding! There are a couple of approaches that work well, but they typically involve one person (the "driver") writing code while the other person (the "navigator") gives tactical guidance.
-Time swapping: Spend 25 minutes as the driver, then swap roles. Try using a free online timer.
-Ping Pong: If you're using a test-driven approach, one person writes the failing test then the other person makes it pass. Swap roles for the next test or batch of tests.
-When you're done with your session, either share the github repo (if you're using a git workflow... please use a git workflow...) or email out the code to the partner whose computer hasn't been used.
 
 ### Techniques
-Finally, some tips:
+* **Time swapping:** Spend 25 minutes as the driver, then swap roles. Try using a free online timer.
+* **Ping Pong:** If you're using a test-driven approach, one person writes the failing test then the other person makes it pass. Swap roles for the next test or batch of tests.
 
-Think out loud as much as you can -- give each other a chance to hear your thoughts.
-No distractions! Emailing, texting, etc. should all be turned off while pairing.
-As navigator, wait 10 seconds before pointing out a typo... give the driver a chance to correct on their own
-Check out some additional resources:
-Slideshare about pairing
-Listing of recorded online pairing sessions
+When you're done with your session, either share the github repo (if you're using a git workflow... please use a git workflow...) or email out the code to the partner whose computer hasn't been used.
+
+##### Some tips:
+
+* Think out loud as much as you can -- give each other a chance to hear your thoughts.
+* No distractions! Emailing, texting, etc. should all be turned off while pairing.
+* As navigator, wait 10 seconds before pointing out a typo... give the driver a chance to correct on their own
 
 #### Additional Resources
 
-WikiHow has a solid entry explaining [how to pair program effectively](http://www.wikihow.com/Pair-Program).
+* WikiHow has a solid entry explaining [how to pair program effectively](http://www.wikihow.com/Pair-Program).
+* Check out this [Slideshare about pairing](http://www.slideshare.net/rogercafe/pair-programming-presentation)
+* To see real pairing sessions in action, check out [these recordings](http://www.youtube.com/playlist?list=PLjbL0BCR04Q1-x5p5L5V11Vm58VlTgPzw)
 
 
 ## Finish
