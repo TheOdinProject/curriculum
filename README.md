@@ -40,9 +40,9 @@ This curriculum is just a suggested path... you don't necessarily need to do thi
 
 This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, here's how:
 
-To contribute, [submit a pull request](https://help.github.com/articles/fork-a-repo) (preferred) or [email us](curriculum@theodinproject.com) your suggestions directly.
+To contribute, [submit a pull request](https://help.github.com/articles/fork-a-repo) (preferred) or [email us](mailto:curriculum@theodinproject.com) your suggestions directly.
 
-If you have questions about The Odin Project itself, [contact me](mailto:erik@theodinproject.com).
+If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 
 If you'll be linking to the curriculum, it's safest to link to the top-level Table of Contents here since some of the subcategories are likely to change.
 
