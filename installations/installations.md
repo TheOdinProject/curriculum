@@ -25,7 +25,7 @@ Git, the version-control system we've been talking about, is another tool that r
 
 ### Heroku
 
-Heroku is the cloud hosting service which we'll be using to take our web applications "live".  On the surface, it acts sort of similarly to Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your code, Heroku actually runs that code on a server for you so your application can be visited by users.  To make it work seamlessly, you'll want to make sure you've got some helpful tools installed to make your life easier.
+Heroku is the cloud hosting service which we'll be using to take our web applications "live".  On the surface, it acts sort of similarly to Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your code, Heroku actually runs that code on a server for you so your application can be visited by users.  To make it work seamlessly, you'll want to make sure you've got a couple of helpful tools installed to make your life easier.
 
 ### Sublime Text 2
 
@@ -33,7 +33,7 @@ We recommend using a text editor like [Sublime Text 2](http://www.sublimetext.co
 
 ### Ruby Gems
 
-There will be some Ruby gems (which are just prepackaged little libraries of code) to install so you've got the tools necessary to talk to your database and install other gems easily in the future.
+There will be some Ruby gems (which are just prepackaged little libraries of code) to install to give you the tools necessary to talk to your database and install other gems easily in the future.
 
 ### Rails
 
@@ -69,4 +69,4 @@ Even if you didn't use the Railsbridge installation instructions, test your inst
 
 ## Additional Resources
 
-Have any other installation instructions, tips, trick, or help sections?  [Email us](mailto:curriculum@theodinproject.com) or [fork this repo](https://help.github.com/articles/fork-a-repo), add your changes, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+Have any other installation instructions, tips, tricks, or helpful sections?  [Email us](mailto:curriculum@theodinproject.com) or [fork this repo](https://help.github.com/articles/fork-a-repo), add your changes, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
