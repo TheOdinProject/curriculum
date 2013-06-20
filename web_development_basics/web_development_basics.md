@@ -30,6 +30,8 @@ Check out [How Does the Internet Work? (video)](http://www.youtube.com/watch?v=o
 
 Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in this curriculum.
 
+TODO: a bit more on developer tools
+
 He dives further into HTTP in a [short 3-minute video (video)](http://cs50.tv/2012/fall/shorts/http/http-720p.mp4).
 
 For a more detailed (though a bit dated) text explanation, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
