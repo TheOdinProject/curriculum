@@ -104,8 +104,9 @@ If all of that seemed a bit confusing, here's a step-by-step workflow for remote
 1. Find and "call" your partner on Screenhero and share your screen
 1. Get your [pomodoro timer](http://tomato-timer.com/) fired up
 1. Come up with your battle plan for the project
+1. [If using git] Create the public Github repo for the project
 1. Code! Switch! Code! Switch! Repeat n times!
-1. Push your code to a public Github repository or email it to the partner whose computer wasn't used
+1. Push your code to the Github repository or email it to the partner whose computer wasn't used
 1. Schedule another session!
 
 TODO: video of a sample pairing session
@@ -115,5 +116,7 @@ TODO: video of a sample pairing session
 You should now have the simple tools installed to allow for remote pair programming and a good idea of how to use them.  Get excited! That's a small but important step forward... now you've got the power to pair with anyone on any project.  All that's left is to start learning and get started on some projects!
 
 ## Additional Resources
+
+Check out [this video talk about pairing professionally at Pivotal Labs](http://vimeo.com/51001103#) from [Joe Moore](http://remotepairprogramming.com/).
 
 Have any other pairing instructions, tips, tricks, or helpful sections?  Is there anything about pairing, whether remotely or not, that you've found to be difficult or surprising that we should address here? [Email us](mailto:curriculum@theodinproject.com) or [fork this repo](https://help.github.com/articles/fork-a-repo), add your changes, then [submit a pull request](https://help.github.com/articles/using-pull-requests).

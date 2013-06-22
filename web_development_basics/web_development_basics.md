@@ -26,13 +26,15 @@ We will cover a very broad swathe of knowledge here and that's intentional... it
 * What happens when you click "search" on google.com?
 
 ##### Assignment:
+For a basic and painless Internet overview, check out [Don't Fear The Internet's Simple Primer (video)](http://www.dontfeartheinternet.com/the-basics/not-tubes).
+
 Check out [How Does the Internet Work? (video)](http://www.youtube.com/watch?v=oj7A2YDgIWE) for a basic explanation of how packets work.
 
 Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in this curriculum.
 
-TODO: a bit more on developer tools
-
 He dives further into HTTP in a [short 3-minute video (video)](http://cs50.tv/2012/fall/shorts/http/http-720p.mp4).
+
+Check out [a bit more on developer tools](http://www.dontfeartheinternet.com/the-basics/dont-fear-the-browser) from Don't Fear the Internet, since getting familiar with your browser's tools will help you out quite a bit as you start poking around the web pages you or others have made.
 
 For a more detailed (though a bit dated) text explanation, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 
@@ -62,6 +64,8 @@ That black screen (or window) is the command line, where you're able to enter co
 ##### Assignment:
 To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.
 
+Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
+
 ## Terms to Know
 
 ##### Assignment:
@@ -69,7 +73,7 @@ Take a look at this [list of term definitions](http://prework.flatironschool.com
 
 ## Web Programming 101
 
-Many of the things we're about to cover will be handled in much greater depth later on in the curriculum but it's important to get a basic level understanding of what they are and how they're used so you can still see the bigger picture while you're down in the weeds learning that stuff.  Take the time to get to know each of the major building blocks of a web application, from the front end to the back end and into databases.  And just because we're covering a lot of material doesn't mean we're not learning anything well -- you'll be spending a good bit of time becoming familiar with the "101" level of each technology.
+Many of the things we're about to cover will be handled in much greater depth later on in the curriculum but it's important to get a basic level understanding of what they are and how they're used so you can still see the bigger picture while you're down in the weeds learning that stuff.  Take the time to get to know each of the major building blocks of a web application, from the front end to the back end and into databases.  And just because we're covering a lot of material doesn't mean we're not learning anything well -- you'll be spending a good bit of time becoming familiar with the "101" level of each technology (each section may take 5-10 hours to complete fully).
 
 ### Front End 101
 
@@ -97,9 +101,11 @@ As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html),
 ##### Assignment:
 Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.
 
+Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
+
 ##### Mini-Project
 
-
+TODO: Mini-Project for HTML/CSS
 
 ##### Additional Resources
 
@@ -123,13 +129,21 @@ Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/
 
 As we [saw before](http://www.skillcrush.com/terms/javascript.html), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable.  It's time to dive in a bit more and start getting your hands dirty with some code. 
 
-##### Assignment:
-Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming" and the accompanying project).  If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum.
+##### Javascript:
+Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum.
 
-What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of commonly used javascript widgets and functions that more or less has taken the internet by storm.  It's actually written in javascript so you don't have to go through the pain of writing out, for instance, a popup modal dialog box the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties.
+Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
+
+##### Assignment:
+Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) as well once you've finished the learning section.
+
+##### jQuery:
+What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of commonly used javascript widgets and functions that more or less has taken the internet by storm.  It's actually written in javascript so you don't have to go through the pain of building a popup modal dialog box, for example, the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties, whether that's hiding them, moving them, dropping down menus... it's all in your hands!
 
 ##### Assignment:
 Learn about jQuery by doing [Codecademy's jQuery Section 1](http://www.codecademy.com/tracks/jquery)("Introducing jQuery") and [Code School's try jQuery](http://try.jquery.com/).  The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
+
+Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took (whether just the section 1 or the whole thing) so we can let others know!
 
 ##### Additional Resources
 
@@ -137,15 +151,20 @@ Reading: The first several sections of the [Javascript 101 tutorial on learn.jqu
 
 Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
 
-
 ##### Mini-Project
 
+TODO: JS/jQuery mini-project
 
 ### Back End 101
 
 The three languages of the front end are fairly standardized -- HTML for presentation, CSS for markup, and Javascript for scripting.  The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on you user's browser understanding what's going on.  All the browser cares about is whether you've sent it properly formatted HTML, CSS and Javascript files (and other assets like images, videos, etc.).  That's led to a whole lot of different choices for back-end languages.  As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.
 
 That said, some languages are more popular and practical than others.  If you're running your own server, you have a ton of flexibility but plenty of headaches.  If you're deploying to the cloud (which we will be doing later), you may be restricted to those languages which your cloud provider has installed on their platform... it doesn't do you much good if the servers you're "borrowing" from them can't understand your code!  Some of the most popular are PHP, ASP.NET, Ruby, Python and Java (not to be confused with Javascript).  And just like I can say "which way to the nearest pub?" in German, French, Italian, English and Bad English, all of those languages can perform almost exactly the same functions.
+
+On difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.
+
+##### Assignment:
+To to the [Installations Unit](/installations/installations.md) and get everything installed.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
 
@@ -165,11 +184,13 @@ That said, some languages are more popular and practical than others.  If you're
 * What is a gem?
 
 
-Our focus will be on Ruby, the language designed for programmer happiness.  What takes dozens of lines of code in Java or a hundred in C could take just a couple in Ruby because it prepackages lots of sneaky functions into easy-to-use convenience methods.  It has occasionally been critisized for not running as fast as some of the other languages, but that's not so much an issue when you can just load more servers/instances running your web application.  Being able to write code faster and with less headache allow you to iterate frequently when building a website and so the end product is more likely to suit the client or the user's needs.
+Our focus will be on Ruby, the language designed for programmer happiness.  What takes dozens of lines of code in Java or a hundred in C could take just a couple in Ruby because it prepackages lots of sneaky functions into easy-to-use convenience methods.  It has occasionally been criticized for not running as fast as some of the other languages, but that's not so much an issue when you can just load more servers/instances running your web application.  Being able to write code faster and with less headache allow you to iterate frequently when building a website and so the end product is more likely to suit the client or the user's needs.
 
 It should be said that Ruby's "twin" language is Python.  In some ways, they sort of resemble romance languages -- once you've learned one, it's not terribly hard to pick up another because they tend to follow many of the same conventions, just using different "words".  Python tends to be taught more in colleges and is used a fair bit for more data-intensive applications.  But Ruby has a secret weapon that makes it the love of fast-iterating website production -- the framework Ruby on Rails (which we'll cover in the next section on Frameworks).
 
 With either of the languages, there are a couple of things that aren't immediately intuitive but become very useful when you understand them.  We'll do an introduction to Ruby here and then, in the unit on Ruby, you'll get to understand it like the back of your hand.
+
+A final note -- you'll be learning a bunch of new terminology and concepts here but don't think they're only applicable to Ruby.  Most of it (like methods, classes, objects etc.) will pop up again in Javascript and pretty much any other language you pick up.
 
 ##### Assignment:
 First, go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.
@@ -180,16 +201,48 @@ Dive in a little deeper with Chris Pine's [Learn to Program](http://pine.fm/Lear
 
 Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
 
+##### Mini-Project:
+
+TODO: Ruby Mini-project
+
 ##### Additional Resources
 
 The Railsbridge [Ruby Language](http://curriculum.railsbridge.org/curriculum/ruby_language) unit.
 
-Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to here but may help you shore up some of the concepts.
+Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet but may help you shore up some of the concepts.
+
+### Databases 101
+
+#### You should know:
+* What is a database?
+* What are relational databases?
+* How are relational databases different from XML?
+* What is SQL?
+* What does CRUD stand for?
+* Why is CRUD so important for web apps?
+
+We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is CatLover1985 so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.  
+
+Databases are one of those aspects of web programming that are kind of hidden in the back and so people treat them with a sort of suspicion and awe.  That's nonsense and you should get over it -- your database and you are going to become very good friends (or frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  
+
+Compared to a normal language, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on.
+
+##### Assignment:
+Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).
+
+Sign up for Coursera's [Intro to Databases](https://class.coursera.org/db/lecture/index) course and watch the lectures on Relational Databases and SQL (~3 hrs).  You can save the sections in between (relational algebra, XML, JSON) for extra credit (things get a bit technical there).
+
+Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
+
+#### Additional Resources:
+
+Do you know of a good plain-english explanation of databases? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
 
 ### Frameworks 101
 
 #### You'll Need to Know:
 * What is a framework?
+* What's the difference between a programming language and a framework?
 * What languages have frameworks?
 * What is open source software?
 * What is MVC?
@@ -204,6 +257,18 @@ A final thing to note is about licensing -- frameworks are typically open-source
 
 #### Ruby on Rails 101
 
+##### You should understand:
+* What is Rails?
+* What are the seven components of Rails?
+* How is a GET request different from a POST request?
+* What is REST?
+* What is the command to create a new Rails app from the command line?
+* What are gems?
+* What is the purpose of the gemfile?
+* What is a view?
+* What is a controller?
+* What is a model?
+
 You're probably here because you want to learn the Ruby on Rails framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about.  Rails uses, as you'll often hear, "convention over configuration".  That means that Rails has made a lot of decisions for you about how things should be structured and how the code should run.  You can change them, but it's best if you just go with the flow and work within their rules (especially as a noob).  
 
 Think of it like buying a suit -- you probably don't care where the thread was sourced, which hands pulled the loom, which companies shipped the fabric, how the lining is mated to the jacket, what sorts of buttons are on there... you trust the tailor to have figured all that out and you just want to be able to buy the nice looking grey one in size 42 regular.  Rails is your Ruby tailor.
@@ -215,47 +280,46 @@ Because Rails has made a lot of decisions for you, you can work incredibly fast.
 
 Rails also firmly organizes your code using an MVC pattern which you will come to know and love.
 
+The best way to understand Rails is to use it, so we'll spend a bit of time on some videos and reading but you'll mostly be building your own Rails sample app.  You may have no idea what you're doing, and that's okay, but at least you should begin to understand what you DON'T know and what you'll want to pay attention to going forward.  A good tactic is to write down all the things that confuse you and either go looking for them on your own or keep them in mind for later when we do our deep dive into Rails.
+
 ##### Assignment:
-TODO: Rails 101 video / post
+
+Watch this [basic overview of Rails](http://www.youtube.com/watch?v=b_DJdmvBStE) from Michael Hartl.  It will walk through the creation of a very basic web application.
+
+Start doing Rails right away by diving into the [Rails for Zombies](http://railsforzombies.org/) course, which lets you begin programming Rails right in your browser!  It goes pretty quickly and you'll probably need to rewatch the videos but stick with it.
+
+Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time we do our deep dive during the Rails unit later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
+
+##### Mini Project:
+
+Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
+
+**Extra Credit:** Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the section below on git (under the "Additional Topics" heading) or skip any of the `$ git ... ` commands for now, they're non-essential (it's sort of like saving your files on Dropbox).
+
+Additional Resources:
+
+An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
 
 #### Backbone.js 101
 
-You thought only server-side languages could utilize frameworks?  Think again.  More and more heavy lifting is being done in the browser these days and that means lots of repetitive and disorganized code to tidy up.  While there are many popular Javascript framworks, we'll focus on Backbone for the same reason we're focusing on Rails... it's probably the most straightforward and best documented one out there.  That doesn't mean it's the shiniest or the newest, but if you've mastered your fundamentals in Backbone you'll be more than capable of picking up a slightly more esoteric framework.  And there are a whole lot of websites out there that need to be built and maintained in Backbone (ahem, jobs).
+You thought only server-side languages could utilize frameworks?  Think again.  More and more heavy lifting is being done in the browser these days and that means lots of repetitive and disorganized code to tidy up (and Javascript can get awfully disorganized).  While there are many popular Javascript framworks, we'll focus on Backbone for similar reasons to why we're focusing on Rails... it's probably the most straightforward and best documented one out there.  That doesn't mean it's the shiniest or the newest, but if you've mastered your fundamentals in Backbone you'll be more than capable of picking up a slightly more esoteric framework.  And there are a whole lot of websites out there that need to be built and maintained in Backbone (ahem, jobs).
+
+This is probably the most "advanced" material we'll be taking a look at during this Web Development 101 unit since it relies most heavily on understanding a lot of things beforehand (like Javascript, MVC, frameworks, JQuery, APIs...) before you're really able to appreciate the need for it.  Because of this, we won't be doing any exercises or anything like that, we're just trying to get you exposed to what Backbone looks like so you can start wondering what you're going to need to use it for and how later on.
 
 ##### Assignment:
-TODO: Backbone 101 video / post
 
-### Databases 101
+Read through the [nettuts backbone explanation]().  It should be somewhat confusing but you should also notice some structural similarities to Rails, even though this is on the front end.  Again, don't worry if you're confused by what you're reading.  The point isn't to absorb everything, it's just to kind of get a feel for what's waiting.  We won't cover Backbone until fairly late in the course when you're a Jedi Javascript Master.
 
-#### You should know:
-* What is a database?
-* What are relational databases?
-* How are relational databases different from XML?
-* What is SQL?
-* What does CRUD stand for?
-* Why is CRUD so important for web apps?
+Also check out the [CodeBeerStartups Backbone guide](http://www.codebeerstartups.com/2012/12/a-complete-guide-for-learning-backbone-js/) chapters 1 and 2 for some slightly more plain-english explanations.  Again, don't panic... you'll learn this later.
 
-We've talked about the client-side and the server-side, but how do we keep ahold of all our user's data?  Who remembers that your login password is CatLover1985 so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.  
+##### Additional Resources
 
-Databases are one of those aspects of web programming that are kind of hidden in the back and so people treat them with a sort of suspicion and awe.  That's nonsense and you should get over it -- your database and you are going to become very good friends (or frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  
+* The [Backbone Documentation](http://backbonejs.org/)
 
-Compared to a normal language, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on.
-
-##### Assignment:
-Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).
-
-Sign up for Coursera's [Intro to Databases](https://class.coursera.org/db/lecture/index) course and watch the lectures on Relational Databases and SQL (~3 hrs).  You can save the sections in between (relational algebra, XML, JSON) for extra credit (things get a bit technical there).
-
-Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
-
-
-#### Additional Resources:
-
-Do you know of a good plain-english explanation of databases? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
 
 ### Tying it All Together
 
-You've got an idea of what the pieces look like, now it's time to see how they all dance together in a typical Ruby on Rails application.  Read through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (you can listen to audio of it by clicking the link on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be a valuable first step towards understanding what you'll be building.  Don't worry if you don't understand what Models, Views, and Controllers are exactly doing, but start to get familiar with the terminology.
+You've got an idea of what the pieces look like, now it's time to see how they all dance together in a typical Ruby on Rails application.  Read through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (you can listen to audio of it by clicking the link on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be a valuable first step towards understanding what you'll be building later on.
 
 ### Additional Topics:
 
