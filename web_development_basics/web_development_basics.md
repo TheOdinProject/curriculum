@@ -334,11 +334,10 @@ It sort of feels like if you were typing a text document and, every time you sav
 But wait, you say, Why not just erase the offending paragraphs and move on?  Here's where the web application stops resembling a high school essay.  Changes you make to your web application will be scattered in a dozen different files and will likely involve changing existing code at least as much as it involves actually producing new (and easily deleted) code, so having that ability to just reset the clock to a particular point in the past saves you from having to remember exactly what was changed and what it looked like beforehand.  The power of git goes well beyond this simple example, but it should help you start to see why people use it. 
 
 ##### Assignment:
-TODO:
-LEARN GIT
-LEARN GIT
-LEARN GIT
-DO GIT
+
+Read through Github's [Introduction to Git materials](http://learn.github.com/p/index.html) and watch the video there.
+
+Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
 
 #### Testing 101
 
@@ -357,40 +356,50 @@ Everyone does testing a little differently.  Some teams still rely heavily on a 
 You'll be interfacing with tests before actually writing your own... how else do you think we process code submissions?  Many exercises and projects will start with a batch of tests and have you write the code necessary to make them pass.
 
 ##### Assignment:
-TODO: RSpec Exercises
+
+* Do the [Introductory RSpec level](http://rspec.codeschool.com/levels/1) from Code School.
 
 #### The Cloud, Hosting, and Software as a Service (SAAS) 101
 
 You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.  
 
-TODO: Cloud readings
+Check out this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
 
 Not too long ago, you had to buy a machine, set it up to run your back end code, and plug it into the wall to get it onto the internet.  These days, not only can you host your personal songs and files and emails in the Cloud, but you can actually run your website from servers hosted by someone else (and maybe in another country too).  Companies (like [Heroku](http://www.heroku.com), which we will use later) make it so that all you have to do is push some code their way and they'll take care of firing up and maintaining the servers necessary to get that application "live" and online.  They will also guarantee a certain minimum level of uptime (usually well north of 99%) so you don't have to worry about whether your servers have failed.  It means that you as a developer can focus more on building cool applications and less on the nuts and bolts of getting them out there.  This curriculum assumes that you'll be taking advantage of existing cloud hosting, so we won't spend much time teaching you about how to set up your own servers.
 
-TODO: Remote Hosting readings
-
-Another major advance has been application hosting in the Cloud... the true "web applications".  Where before you had to write a piece of software that would work on a particular type of computer (e.g. Windows machines running Windows Vista) and then get that user to install the software, now many of these applications are run completely using websites.  Think about Google Spreadsheets or Evernote or TurboTax... all of these can be run completely online (though they often have accompanying downloadable applications to help you out).  
+Where before you had to write a piece of software that would work on a particular type of computer (e.g. Windows machines running Windows Vista) and then get that user to install the software, now many of these applications are run completely using websites.  Think about Google Spreadsheets or Evernote or TurboTax... all of these can be run completely online (though they often have accompanying downloadable applications to help you out).  
 
 The ability to create this "Software as a Service (SAAS)" gives you tons of great flexibility as a developer -- it means you no longer have to think about the dozens of different types of operating systems and versions that the users could be using.  You just make sure your application can be viewed properly by people using a few different web browsers.  Even better, when you inevitably want to make large-scale changes or just fix some bugs, you no longer have to convince your users to go through the painful upgrade process.  Just push the changes to your sever, and Presto!, your application is updated and good to go.  If there's a problem with the new Ford car model, they need to issue a recall and have everyone go to a mechanic to fix it.  You just push some code to fix the bug and sleep happy.
 
-TODO: SAAS Readings
+Check out this article on the [difference between SAAS and Cloud Computing](http://www.itworld.com/print/109287) if you're confused.
+
+There's also another [interesting perspective on SAAS](http://www.itworld.com/print/108695) from a few years ago.
+
+##### Additional Readings
+* An [Intro to Cloud Computing](http://www.dummies.com/how-to/content/what-is-cloud-computing.html) by Craig Dickson
+* [Cloud computing for dummies](http://www.dummies.com/how-to/content/what-is-cloud-computing.html)
 
 #### Security, SSL, and Best Practices 101
 
-TODO: SSL and Security Questions
+TODO: SSL and Security thought questions
 
-SSL stands for "Secure Socket Layer".  This isn't a major standalone topic here but it's important to start thinking about how the open and bountiful world of the Internet handles issues of security and secure connections.  Security is something that beginning developers don't spend a lot of time thinking about because they've got a lot on their minds but it will occupy more of your time as you start putting real applications onto the internet.  It's something that you need to be familiar with because sometimes simple but incorrect choices can leave your users' data exposed or your application vulnerable to attack.  Some simple best-practices and best technologies go a long way towards alleviating those issues.
+It's important to start thinking about how the open and bountiful world of the Internet handles issues of security and secure connections.  Security is something that beginning developers don't spend a lot of time thinking about because they've got a lot on their minds but it will occupy more of your time as you start putting real applications onto the internet.  It's something that you need to be familiar with because sometimes simple but incorrect choices can leave your users' data exposed or your application vulnerable to attack.  Some simple best-practices and best technologies go a long way towards alleviating those issues.
 
 There are a couple of basic areas where security is particularly important -- authenticating users, creating secure connections and securing your databases.  Luckily, the tools we'll be learning have already figured out good solutions to most of these problems.
 
-TODO: Security Readings
+Smashing Magazine showed some [common security mistakes](http://coding.smashingmagazine.com/2010/10/18/common-security-mistakes-in-web-applications/) in an article from 2010.  It references PHP code but the vulnerabilities are language agnostic.
 
-TODO: SSL Basics Readings
+To understand the basics of HTTPS and SSL, which help secure transactions on the web (like payments), check out the [HTTPs Wiki](http://www.reddit.com/r/explainlikeimfive/comments/jsq3m/eli5_what_are_online_security_certificates_ssl/) and [this article](http://www.hongkiat.com/blog/ssl-certs-guide/).  Here's a [basic explanation](http://www.reddit.com/r/explainlikeimfive/comments/jsq3m/eli5_what_are_online_security_certificates_ssl/):
+
+<blockquote>
+  You want to pass a note from you all the way across the room to Suzy. Normally, you just pass the note and say "get it to suzy" and the kids in the room will keep pushing it towards her until she gets it. The problem is, the teacher or anyone who gets the note can just open it up and read it.
+
+  SSL is a type of certificate used to make sure the contents of a packet (note) don't get read. It's like putting your note in a lockbox and you've given Suzy the key ahead of time. She's the only one who can see what's in the box, because she has the key (the SSL certificate). HTTPS is an altered version of the HTTP protocol which makes sure whoever tries to open the box has the key. If anyone tries to read the note and they don't have the key, all they'll see is garbled (encrypted) data, which will most likely just look like random characters. it's like they took the box and just tried smashing it on the floor, but it ripped the note apart in the process.
+</blockquote>
 
 #### FTP 101
 
-TODO: FTP READING
-
+FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.
 
 ## How Are Websites Built?
 >> BECOMING section instead?
@@ -405,9 +414,9 @@ TODO: tech used, who gets spoken to, where debugs are usually needed, when tests
 
 ## Principles of Good Programming
 
-TODO: Separation of concerns, be lazy, KISS, 
+There are a handful of generally accepted principles of good programming.  You'll hear them used by name more than a few times in the coming months but it's good to get familiar with them up front.  Christopher Diggins has compiled a healthy list of them in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531).
 
-## Other "Dumb" Questions Answered
+## Other "Dumb" (or frequently asked) Questions Answered
 
 Do you still have any beginner questions left over? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add them here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
 
