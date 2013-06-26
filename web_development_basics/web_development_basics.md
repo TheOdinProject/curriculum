@@ -1,4 +1,32 @@
-# Web Development Basics
+# Web Development Basics [Prep Work]
+Total estimated time: 50-80 hours
+
+## Table of Contents
+1. Intro
+2. How Does the Web Work?
+3. Step Back... How Does Your Computer Work?
+4. Terms to Know
+5. Web Programming 101
+    1. Front End Basics
+        1. HTML and CSS 101
+        2. Javascript and jQuery 101
+    2. Back End Basics
+        1. Ruby 101
+    3. Databases
+    4. Frameworks
+        1. Ruby on Rails 101
+        2. Backbone 101
+    5. Tying it All Together
+    6. Additional Topics
+        1. Git 101
+        2. Testing 101
+        3. The Cloud, Hosting, and SAAS
+        4. Security, SSL, and Best Practices
+        5. FTP
+6. How Are Websites Built?
+7. Principles of Good Programming
+8. Other "Dumb" Questions Answered
+9. Finish
 
 ## Intro
 
@@ -10,7 +38,10 @@ By the end of this unit, you should not only understand how the web works, but b
 
 We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  Each section will contain questions that you'd better be able to answer before moving on.  For the first time, some of the sections below will ask you to do exercises to help build your understanding.  Give it a shot!
 
-## How Does the Web Work?
+Final note: Please [let us know](mailto:curriculum@theodinproject.com) how long these sections take you so we can provide more accurate time estimates to future students.
+
+## How Does the Web Work? 
+Estimated Time: 1-2 hrs
 
 ##### You will need to understand:
 * What is the internet?
@@ -30,7 +61,7 @@ For a basic and painless Internet overview, check out [Don't Fear The Internet's
 
 Check out [How Does the Internet Work? (video)](http://www.youtube.com/watch?v=oj7A2YDgIWE) for a basic explanation of how packets work.
 
-Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in this curriculum.
+Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in the curriculum.
 
 He dives further into HTTP in a [short 3-minute video (video)](http://cs50.tv/2012/fall/shorts/http/http-720p.mp4).
 
@@ -38,7 +69,7 @@ Check out [a bit more on developer tools](http://www.dontfeartheinternet.com/the
 
 For a more detailed (though a bit dated) text explanation, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 
-What's the best explanation of how the web works you've seen or read?  Were any other resources you found to be helpful for answering the questions posed at the beginning of this section? [Let us know!](mailto:curriculum@theodinproject.com)
+What's the best explanation of how the web works you've seen or read?  Were any other resources you found helpful for answering the questions posed at the beginning of this section? [Let us know!](mailto:curriculum@theodinproject.com)
 
 #### Additional Resources:
 * [A packet's journey (video)](http://www.youtube.com/watch?v=WwyJGzZmBe8).
@@ -48,7 +79,8 @@ What's the best explanation of how the web works you've seen or read?  Were any 
 * A comprehensive list of web development resources lives at the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum).
 
 
-## Step Back... How Does Your Computer Work?
+## Step Back... How Does Your Computer Work? 
+Estimated Time: 2-4 hrs
 
 This isn't a course about rebuilding your hard drive but it is useful for you to understand the high level overview of what's going on to make your computer function.  That's partly because you'll see the same patterns showing up when you're telling servers what to do and partly because you're going to have to talk to your computer in a way that it understands anyway so you'd better speak a little of its language.
 
@@ -66,16 +98,19 @@ To gain a better understanding of your command line, take this [Command Line Cra
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
-## Terms to Know
+## Terms to Know 
+Estimated Time: 1-2 hrs
 
 ##### Assignment:
 Take a look at this [list of term definitions](http://prework.flatironschool.com/#terms) and make sure you have at least a competant understanding of each one (click on it to bring up the full definition).  Don't skip this and assume you know it all -- there will be at least a few that are worth nailing down.  Flashcards help.
 
-## Web Programming 101
+## Web Programming 101 
+Estimated Time: ??? hrs (>40 hrs)
 
 Many of the things we're about to cover will be handled in much greater depth later on in the curriculum but it's important to get a basic level understanding of what they are and how they're used so you can still see the bigger picture while you're down in the weeds learning that stuff.  Take the time to get to know each of the major building blocks of a web application, from the front end to the back end and into databases.  And just because we're covering a lot of material doesn't mean we're not learning anything well -- you'll be spending a good bit of time becoming familiar with the "101" level of each technology (each section may take 5-10 hours to complete fully).
 
-### Front End 101
+### Front End Basics
+Estimated Time: ??? hrs
 
 The "front end languages" live in the browser.  After you type in an address in the address bar at the top and hit Enter, your browser will receive at least an HTML file from the web server.  That file will likely tell the browser to go and also ask for a CSS file and a Javascript file as well.  Each of these languages performs a separate but very important function and they work harmoniously together to determine what the web page IS, how it LOOKS, and how it FUNCTIONS.  And keep in mind that your browser handles figuring out how to make these files into a functioning webpage (not the server).
 
@@ -83,6 +118,7 @@ The "front end languages" live in the browser.  After you type in an address in 
 Get a high level overview of how all three languages (and jQuery) work together in a web page in this brief learn.jquery.com post on the [Anatomy of a Web Page](http://learn.jquery.com/javascript-101/getting-started/).
 
 #### HTML and CSS 101
+Estimated Time: ??? hrs
 
 ##### You Will Need To Understand (at least):
 * Why do we separate HTML and CSS?
@@ -119,6 +155,7 @@ Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/
 
 
 #### Javascript and jQuery 101
+Estimated Time: ??? hrs
 
 ##### You Will Need To Understand:
 * What is a scripting language?
@@ -155,7 +192,8 @@ Interactive: Do the additional sections in the [Codeacademy Javascript Track](ht
 
 TODO: JS/jQuery mini-project
 
-### Back End 101
+### Back End Basics
+Estimated Time: ??? hrs
 
 The three languages of the front end are fairly standardized -- HTML for presentation, CSS for markup, and Javascript for scripting.  The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on you user's browser understanding what's going on.  All the browser cares about is whether you've sent it properly formatted HTML, CSS and Javascript files (and other assets like images, videos, etc.).  That's led to a whole lot of different choices for back-end languages.  As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.
 
@@ -167,6 +205,7 @@ On difference between the work you did on the front end and what you'll be doing
 To to the [Installations Unit](/installations/installations.md) and get everything installed.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
+Estimated Time: 10-15 hrs
 
 ##### You Will Need to Understand:
 * What is an "interpreted" language?
@@ -211,7 +250,8 @@ The Railsbridge [Ruby Language](http://curriculum.railsbridge.org/curriculum/rub
 
 Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet but may help you shore up some of the concepts.
 
-### Databases 101
+### Databases
+Estimated Time: ??? hrs
 
 #### You should know:
 * What is a database?
@@ -238,9 +278,10 @@ Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the
 
 Do you know of a good plain-english explanation of databases? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
 
-### Frameworks 101
+### Frameworks
+Estimated Time: ??? hrs
 
-#### You'll Need to Know:
+##### You'll Need to Know:
 * What is a framework?
 * What's the difference between a programming language and a framework?
 * What languages have frameworks?
@@ -256,6 +297,7 @@ There are often several different popular frameworks for a given language.  They
 A final thing to note is about licensing -- frameworks are typically open-source and their license allows you to use them, modify them, make money off them, sell products with them etc. all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into Open Source Software (OSS) in later units.
 
 #### Ruby on Rails 101
+Estimated Time: 4-6 hrs
 
 ##### You should understand:
 * What is Rails?
@@ -296,11 +338,12 @@ Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/proje
 
 **Extra Credit:** Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the section below on git (under the "Additional Topics" heading) or skip any of the `$ git ... ` commands for now, they're non-essential (it's sort of like saving your files on Dropbox).
 
-Additional Resources:
+##### Additional Resources:
 
 An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
 
 #### Backbone.js 101
+Estimated Time: 1 hr
 
 You thought only server-side languages could utilize frameworks?  Think again.  More and more heavy lifting is being done in the browser these days and that means lots of repetitive and disorganized code to tidy up (and Javascript can get awfully disorganized).  While there are many popular Javascript framworks, we'll focus on Backbone for similar reasons to why we're focusing on Rails... it's probably the most straightforward and best documented one out there.  That doesn't mean it's the shiniest or the newest, but if you've mastered your fundamentals in Backbone you'll be more than capable of picking up a slightly more esoteric framework.  And there are a whole lot of websites out there that need to be built and maintained in Backbone (ahem, jobs).
 
@@ -318,12 +361,14 @@ Also check out the [CodeBeerStartups Backbone guide](http://www.codebeerstartups
 
 
 ### Tying it All Together
+Estimated Time: 1 hr
 
 You've got an idea of what the pieces look like, now it's time to see how they all dance together in a typical Ruby on Rails application.  Read through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (you can listen to audio of it by clicking the link on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be a valuable first step towards understanding what you'll be building later on.
 
 ### Additional Topics:
 
-#### Git 101
+#### Git 101 
+Estimated Time: ??? hrs
 
 We mentioned git briefly in the previous unit ([Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)) but this time you'll actually start using it.  
 
@@ -340,6 +385,7 @@ Read through Github's [Introduction to Git materials](http://learn.github.com/p/
 Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
 
 #### Testing 101
+Estimated Time: ??? hrs
 
 Like git, testing is one of those things that people often don't think about when they decide to learn about web development but it's critically important to the production of professional quality applications and it will save you tons of time and headache in the end.
 
@@ -359,7 +405,8 @@ You'll be interfacing with tests before actually writing your own... how else do
 
 * Do the [Introductory RSpec level](http://rspec.codeschool.com/levels/1) from Code School.
 
-#### The Cloud, Hosting, and Software as a Service (SAAS) 101
+#### The Cloud, Hosting, and Software as a Service (SAAS)
+Estimated Time: ??? hrs
 
 You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.  
 
@@ -379,7 +426,8 @@ There's also another [interesting perspective on SAAS](http://www.itworld.com/pr
 * An [Intro to Cloud Computing](http://www.dummies.com/how-to/content/what-is-cloud-computing.html) by Craig Dickson
 * [Cloud computing for dummies](http://www.dummies.com/how-to/content/what-is-cloud-computing.html)
 
-#### Security, SSL, and Best Practices 101
+#### Security, SSL, and Best Practices
+Estimated Time: ??? hrs
 
 TODO: SSL and Security thought questions
 
@@ -397,7 +445,8 @@ To understand the basics of HTTPS and SSL, which help secure transactions on the
   SSL is a type of certificate used to make sure the contents of a packet (note) don't get read. It's like putting your note in a lockbox and you've given Suzy the key ahead of time. She's the only one who can see what's in the box, because she has the key (the SSL certificate). HTTPS is an altered version of the HTTP protocol which makes sure whoever tries to open the box has the key. If anyone tries to read the note and they don't have the key, all they'll see is garbled (encrypted) data, which will most likely just look like random characters. it's like they took the box and just tried smashing it on the floor, but it ripped the note apart in the process.
 </blockquote>
 
-#### FTP 101
+#### FTP
+Estimated Time: .5 hrs
 
 FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.
 
@@ -413,6 +462,7 @@ TODO: client team handoff, scrum, cards/stories, gogo, circle back, scrum.... de
 TODO: tech used, who gets spoken to, where debugs are usually needed, when tests are written, how deployment goes, interactions with other team members.
 
 ## Principles of Good Programming
+Estimated Time: 1 hrs
 
 There are a handful of generally accepted principles of good programming.  You'll hear them used by name more than a few times in the coming months but it's good to get familiar with them up front.  Christopher Diggins has compiled a healthy list of them in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531).
 

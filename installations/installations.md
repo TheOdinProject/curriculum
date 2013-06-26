@@ -1,4 +1,5 @@
 # Installations
+Total estimated time: 3-6 hours
 
 ## Intro
 
@@ -31,7 +32,7 @@ Heroku is the cloud hosting service which we'll be using to take our web applica
 
 We recommend using a text editor like [Sublime Text 2](http://www.sublimetext.com/2) to make sure everyone's using basically the same type of text editor and you'll all be able to pair together without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.
 
-There's a [tutorial (~2.5 hrs video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) that explains some of the awesomeness of Sublime Text 2 in depth.
+There's a [tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) that explains some of the awesomeness of Sublime Text 2 in depth.
 
 #### Ruby Gems
 

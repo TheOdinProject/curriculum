@@ -1,4 +1,5 @@
-# Pair Programming and Remote Pairing
+# Pair Programming and Remote Pairing 
+Total estimated time: 1-3 hours
 
 ## Intro
 
@@ -8,7 +9,7 @@ Pair programming is when two programmers work on the exact same code base.  Ofte
 
 In production settings, this results in better code and helps developers stay focused.  Despite tasking two developers to produce one code base, the gains in quality and speed make up for the loss of two separate builders.  But the two developers will also be constantly learning from each other, constantly thinking through problems together, and constantly staying engaged with the task at hand.  That means two developers pairing together can potentially learn many times faster and more effectively than they would on their own.  
 
-This curriculum is designed specifically to benefit from and encourage the use of pair programming as a learning tool among peers.  The projects won't be easy and a single sneaky bug can frustrate you for hours on your own.  But with a pair, you're often able to get past the issue in a fraction of the time.  Any time when you're not quite 100% confident of your knowledge but want to dive into a project anyway (which we encourage!), having a pair sitting either right next to you or 1000 miles away using a screenshare can be invaluable. 
+This curriculum is designed specifically to benefit from and encourage the use of pair programming as a learning tool among peers.  The projects won't be easy and a single sneaky bug can frustrate you for hours on your own.  But with a pair, you're often able to get past the issue in a fraction of the time.  Any time when you're not quite 100% confident of your knowledge but want to dive into a project anyway (which we encourage!), having a pair sitting either right next to you or 1,000 miles away using a screenshare can be invaluable. 
 
 You'll end up working with a lot of different types of people over the course of your learning.  Sometimes it will go really well and other times you'll have to find patience.  But, overall, your learning experience will be greatly enriched by the chance to both learn from and teach to your peers along the way.
 

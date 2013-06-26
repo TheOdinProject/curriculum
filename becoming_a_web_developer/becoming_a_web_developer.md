@@ -1,4 +1,13 @@
 # Becoming a Web Developer
+Total estimated time: 2-4 hours
+
+## Table of Contents
+1. Intro
+2. What are Web Development Careers and Jobs Like?
+3. What are the Tools of the Trade?
+4. Where are the Web Development Communities?
+5. What Kinds of People Make the Best Web Developers?
+6. Sounds Good... So How can I get a Job?
 
 ## Intro
 
@@ -84,7 +93,7 @@ TODO: Day in the life of
 * A blog post about being a [front-end dev at codecomputerlove](http://www.codecomputerlove.com/blog/2013/03/a-day-in-the-life-of-a-front-end-developer/).
 * Learn [what a web developer does all day](http://www.kitsmedia.ca/what-does-a-web-developer-do-all-day/).
 
-## What are the Tools of the Job?
+## What are the Tools of the Trade?
 
 You know what a developer does now but you'll also want to familiarize yourself with the basic tools of the trade:
 
