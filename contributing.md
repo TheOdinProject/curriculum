@@ -24,7 +24,7 @@ As you can tell, we highly value and rely on the help of the developer and stude
 
 ## How to Contribute
 
-To contribute, [submit a pull request](https://help.github.com/articles/using-pull-requests) (preferred) or [email us](mailto:curriculum@theodinproject.com) your suggestions directly.
+To contribute, [submit a pull request](https://help.github.com/articles/using-pull-requests) (preferred) or [email us](mailto:curriculum@theodinproject.com) your suggestions directly.  You can also [open up a Github issue](https://github.com/TheOdinProject/curriculum/issues) instead.
 
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 

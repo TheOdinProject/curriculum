@@ -1,5 +1,5 @@
 # Web Development Basics [Prep Work]
-Total estimated time: 50-80 hours
+Total Estimated Time: 50-80 hours
 
 ## Table of Contents
 1. Intro
@@ -8,21 +8,11 @@ Total estimated time: 50-80 hours
 4. Terms to Know
 5. Web Programming 101
     1. Front End Basics
-        1. HTML and CSS 101
-        2. Javascript and jQuery 101
     2. Back End Basics
-        1. Ruby 101
     3. Databases
     4. Frameworks
-        1. Ruby on Rails 101
-        2. Backbone 101
     5. Tying it All Together
     6. Additional Topics
-        1. Git 101
-        2. Testing 101
-        3. The Cloud, Hosting, and SAAS
-        4. Security, SSL, and Best Practices
-        5. FTP
 6. How Are Websites Built?
 7. Principles of Good Programming
 8. Other "Dumb" Questions Answered
@@ -30,7 +20,7 @@ Total estimated time: 50-80 hours
 
 ## Intro
 
-Now that you know what web developers do, it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.
+Now that you know what web developers do, it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 50-80 hours to complete.
 
 Each of the following sections represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  We will start by familiarizing you with the internet and your own computer.  You will then learn the basics of front end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray into Ruby and Ruby on Rails.  We will finish by learning about databases and topics like git workflows and software in the cloud.  
 
@@ -131,17 +121,23 @@ Estimated Time: ??? hrs
 * What are selectors?
 * What are properties?
 * What are values?
+* What is the Query String in a URL and what does it do?
 
 As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html), HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page lives inside HTML tags that tell your browser how to order the content on the page.  [CSS](http://www.skillcrush.com/terms/css.html) tells the browser if you want to display any of those tags a particular way like, for instance, turning its background blue and pushing it a little to the left.
 
 ##### Assignment:
-Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.
+Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
-##### Mini-Project
+##### Mini-Project:
 
-TODO: Mini-Project for HTML/CSS
+For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it.  The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.  Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [jsfiddle.net](jsfiddle.net)).
+
+* Step 1 (Easy): Build the [Google.com](http://www.google.com) homepage (the simple one with just a search box).  No need to be a perfectionist, but don't forget the header and the footer.  Do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
+* Step 2 (Moderate): Build the [Google.com search results page](https://www.google.com/search?q=learn+html).  You should be able to reuse much of your code from before.  Again, don't worry about links to nowhere and forms that won't submit and hard coding the search results (which you'll have to do of course), just focus on placement and order of items on the page.
+
+Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was minified ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming\))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
 ##### Additional Resources
 
@@ -172,7 +168,14 @@ Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascri
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
 ##### Assignment:
-Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) as well once you've finished the learning section.
+* Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
+* Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you just type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems.  Use the "Run" button at the top to run your Javascript.
+* Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using jsfiddle if you aren't comfortable working on your own):
+    * [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
+    * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
+    * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
+    * No one said you could turn off your brain!
+
 
 ##### jQuery:
 What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of commonly used javascript widgets and functions that more or less has taken the internet by storm.  It's actually written in javascript so you don't have to go through the pain of building a popup modal dialog box, for example, the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties, whether that's hiding them, moving them, dropping down menus... it's all in your hands!
@@ -239,6 +242,12 @@ Next, read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/p
 Dive in a little deeper with Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
 
 Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
+
+**Bonus:**
+Redo the same Project Euler problems that you previously did in Javascript but using Ruby instead (try using IRB or a .rb file that you run from the command line):
+    * [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
+    * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
+    * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
 
 ##### Mini-Project:
 
@@ -316,7 +325,7 @@ You're probably here because you want to learn the Ruby on Rails framework but y
 Think of it like buying a suit -- you probably don't care where the thread was sourced, which hands pulled the loom, which companies shipped the fabric, how the lining is mated to the jacket, what sorts of buttons are on there... you trust the tailor to have figured all that out and you just want to be able to buy the nice looking grey one in size 42 regular.  Rails is your Ruby tailor.
 
 As you saw in the introduction:
->>Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It lets you put up a functioning website in hours not days or weeks.  The "in" tech will probably be something completely different in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
+>Why Rails?  Why not.  There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things.  Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it.  It lets you put up a functioning website in hours not days or weeks.  The "in" tech will probably be something completely different in a few years, as it always is, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
 
 Because Rails has made a lot of decisions for you, you can work incredibly fast.  You can have a website up on the internet (though it won't look like much) within a couple minutes.  The very first time you generate a new project, everything is in place so you just have to fire up your local server (by typing simply `$ rails s`) and you'll already see the Rails welcome page up there.  Then it's just a matter of plugging in all the pieces you actually need to make your rich web application run.  It also means that you can start immediately making small changes and seeing how they affect your application where before you would have had to build a ton of infrastructure and write lots of code before seeing a single thing change live.  Rails makes your life a whole lot easier!
 
@@ -451,7 +460,7 @@ Estimated Time: .5 hrs
 FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.
 
 ## How Are Websites Built?
->> BECOMING section instead?
+TODO: In Becoming section instead?
 
 ### Macro Level: From Client to Developer and Back
 
@@ -464,7 +473,7 @@ TODO: tech used, who gets spoken to, where debugs are usually needed, when tests
 ## Principles of Good Programming
 Estimated Time: 1 hrs
 
-There are a handful of generally accepted principles of good programming.  You'll hear them used by name more than a few times in the coming months but it's good to get familiar with them up front.  Christopher Diggins has compiled a healthy list of them in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531).
+There are a handful of generally accepted principles of good programming.  You'll hear them used by name more than a few times in the coming months but it's good to get familiar with them up front.  Christopher Diggins has compiled a healthy list of them in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531) that you should check out.
 
 ## Other "Dumb" (or frequently asked) Questions Answered
 
