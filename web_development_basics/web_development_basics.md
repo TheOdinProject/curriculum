@@ -26,7 +26,7 @@ Each of the following sections represents essential baseline knowledge.  Even if
 
 By the end of this unit, you should not only understand how the web works, but be able to identify and differentiate each of the technologies that you will be learning in order to build web applications of your own.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
 
-We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  Each section will contain questions that you'd better be able to answer before moving on.  For the first time, some of the sections below will ask you to do exercises to help build your understanding.  Give it a shot!
+We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  Each section will contain questions that you'd better be able to answer before moving on.  For the first time, some of the sections below will ask you to do exercises and even a couple of mini projects to help build your understanding.  While most of this material should be fine to tackle on your own, the projects in particular can be useful ones to find a partner and pair up on.  Give it a shot!
 
 Final note: Please [let us know](mailto:curriculum@theodinproject.com) how long these sections take you so we can provide more accurate time estimates to future students.
 
@@ -208,7 +208,7 @@ On difference between the work you did on the front end and what you'll be doing
 To to the [Installations Unit](/installations/installations.md) and get everything installed.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
-Estimated Time: 10-15 hrs
+Estimated Time: 15-20 hrs
 
 ##### You Will Need to Understand:
 * What is an "interpreted" language?
@@ -250,8 +250,11 @@ Redo the same Project Euler problems that you previously did in Javascript but u
     * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
 
 ##### Mini-Project:
+Estimated Time: 10-15 hours
 
-TODO: Ruby Mini-project
+It's time for some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.  First, you'll probably want to skip ahead and read about testing in the section below called "Testing 101".  There's a homework assignment there but it shouldn't take long.  Or just wing it...
+
+* Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main index.html file in a browser, you'll have instructions waiting for you that describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck!
 
 ##### Additional Resources
 
@@ -306,7 +309,7 @@ There are often several different popular frameworks for a given language.  They
 A final thing to note is about licensing -- frameworks are typically open-source and their license allows you to use them, modify them, make money off them, sell products with them etc. all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into Open Source Software (OSS) in later units.
 
 #### Ruby on Rails 101
-Estimated Time: 4-6 hrs
+Estimated Time: 6-10 hrs
 
 ##### You should understand:
 * What is Rails?
@@ -457,7 +460,7 @@ To understand the basics of HTTPS and SSL, which help secure transactions on the
 #### FTP
 Estimated Time: .5 hrs
 
-FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.
+FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is regardless.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.
 
 ## How Are Websites Built?
 TODO: In Becoming section instead?
