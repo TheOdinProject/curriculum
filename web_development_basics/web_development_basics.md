@@ -1,4 +1,4 @@
-# Web Development Basics [Prep Work]
+# Web Development 101 [Prep Work]
 Total Estimated Time: 50-80 hours
 
 ## Table of Contents
@@ -6,7 +6,7 @@ Total Estimated Time: 50-80 hours
 2. How Does the Web Work?
 3. Step Back... How Does Your Computer Work?
 4. Terms to Know
-5. Web Programming 101
+5. Web Programming Basics
     1. Front End Basics
     2. Back End Basics
     3. Databases
@@ -94,7 +94,7 @@ Estimated Time: 1-2 hrs
 ##### Assignment:
 Take a look at this [list of term definitions](http://prework.flatironschool.com/#terms) and make sure you have at least a competant understanding of each one (click on it to bring up the full definition).  Don't skip this and assume you know it all -- there will be at least a few that are worth nailing down.  Flashcards help.
 
-## Web Programming 101 
+## Web Programming Basics 
 Estimated Time: ??? hrs (>40 hrs)
 
 Many of the things we're about to cover will be handled in much greater depth later on in the curriculum but it's important to get a basic level understanding of what they are and how they're used so you can still see the bigger picture while you're down in the weeds learning that stuff.  Take the time to get to know each of the major building blocks of a web application, from the front end to the back end and into databases.  And just because we're covering a lot of material doesn't mean we're not learning anything well -- you'll be spending a good bit of time becoming familiar with the "101" level of each technology (each section may take 5-10 hours to complete fully).
@@ -205,7 +205,7 @@ That said, some languages are more popular and practical than others.  If you're
 On difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.
 
 ##### Assignment:
-To to the [Installations Unit](/installations/installations.md) and get everything installed.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
+Go to the [Installations Unit](/installations/installations.md) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
 Estimated Time: 15-20 hrs
@@ -237,7 +237,7 @@ A final note -- you'll be learning a bunch of new terminology and concepts here 
 ##### Assignment:
 First, go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.
 
-Next, read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations) to get everything up and running or, if you'd rather wait, just try to follow along.
+Next, read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations), which you should have done already.
 
 Dive in a little deeper with Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
 
