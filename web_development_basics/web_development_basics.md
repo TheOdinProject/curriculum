@@ -2,21 +2,26 @@
 Total Estimated Time: 50-80 hours
 
 ## Table of Contents
-1. Intro
-2. How Does the Web Work?
-3. Step Back... How Does Your Computer Work?
-4. Terms to Know
-5. Web Programming Basics
-    1. Front End Basics
-    2. Back End Basics
-    3. Databases
-    4. Frameworks
-    5. Tying it All Together
-    6. Additional Topics
-6. How Are Websites Built?
-7. Principles of Good Programming
-8. Other "Dumb" Questions Answered
-9. Finish
+1. [Intro](#intro)
+2. [How Does the Web Work?](#how-does-the-web-work)
+3. [Step Back... How Does Your Computer Work?](#step-back-how-does-your-computer-work)
+4. [Terms to Know](#terms-to-know)
+5. [Web Programming Basics](#web-programming-basics)
+    1. [Front End Basics](#front-end-basics)
+    2. [Back End Basics](#back-end-basics)
+    3. [Databases](#databases)
+    4. [Frameworks](#frameworks)
+    5. [Tying it All Together](#tying-it-all-together)
+    6. [Additional Topics](#additional-topics)
+6. [How Are Websites Built?](#how-are-websites-built)
+7. [Principles of Good Programming](#principles-of-good-programming)
+8. [Other "Dumb" Questions Answered](#other-dumb-or-frequently-asked-questions-answered)
+9. [Finish](#finish)
+
+**Jump to Mini-Projects** (good for pairing)
+* HTML/CSS: [Google Rebuild](#htmlcss-mini-project)
+* Javascript: [TODO](#jsjquery-mini-project)
+* Ruby: [Test First Ruby](#ruby-mini-project)
 
 ## Intro
 
@@ -130,7 +135,7 @@ Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a h
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
-##### Mini-Project:
+##### HTML/CSS Mini-Project:
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it.  The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.  Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [jsfiddle.net](jsfiddle.net)).
 
@@ -191,7 +196,7 @@ Reading: The first several sections of the [Javascript 101 tutorial on learn.jqu
 
 Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
 
-##### Mini-Project
+##### JS/jQuery Mini-Project:
 
 TODO: JS/jQuery mini-project
 
@@ -249,7 +254,7 @@ Redo the same Project Euler problems that you previously did in Javascript but u
     * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
     * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
 
-##### Mini-Project:
+##### Ruby Mini-Project:
 Estimated Time: 10-15 hours
 
 It's time for some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.  First, you'll probably want to skip ahead and read about testing in the section below called "Testing 101".  There's a homework assignment there but it shouldn't take long.  Or just wing it...
