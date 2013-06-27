@@ -497,7 +497,7 @@ With what you know already, you could start putting together some basic websites
 
 **Check out the [next section on Ruby](/ruby/ruby.md)**
 
-*Go back to the [top level table of contents](/README.md).*
+*[Top level table of contents](/README.md).*
 
 ## Additional Resources
 

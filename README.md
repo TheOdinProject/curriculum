@@ -46,8 +46,8 @@ If you have questions about The Odin Project itself, [contact us here](mailto:ad
 
 If you'll be linking to the curriculum, it's safest to link to the top-level Table of Contents here since some of the subcategories are likely to change.
 
-## Table of Contents
-
+## Curriculum Table of Contents
+*Use these links to navigate to the appropriate course unit*
 <ol>
   <li><a href="/becoming_a_web_developer/becoming_a_web_developer.md">Becoming a Web Developer</a></li>
   <li><a href="/installations/installations.md">Installing the Technology</a></li>
@@ -66,3 +66,6 @@ If you'll be linking to the curriculum, it's safest to link to the top-level Tab
 </ol>
 
 <hr>
+**Help! How does this work?**
+
+Use this table of contents to navigate to whichever unit you're on.  If you're starting from scratch, start with "Becoming a Web Developer" and work your way forward from there.  The whole curriculum currently lives in these text/html files on Github.  The links will go live once the curriculum has been created for that unit.
