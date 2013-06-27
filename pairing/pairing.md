@@ -1,6 +1,17 @@
 # Pair Programming and Remote Pairing 
 Total estimated time: 1-3 hours
 
+*[Top level table of contents](/README.md).*
+
+## Table of Contents
+1. [Intro](#intro)
+2. [Why Pair?](#why-pair)
+3. [How do we Pair?](#how-do-we-pair)
+4. [A Sample Remote Pairing Session](#a-sample-remote-pairing-session)
+5. [Finish](#finish)
+6. [Additional Resources](#additional-resources)
+
+
 ## Intro
 
 Students often haven't heard of pair programming when they first start learning development.  It certainly seems to counter the image of the rainmaker developer who hacks away on his own into the wee hours of the morning.  For a long time, pairing was primarily the domain of a dedicated but minority set of programmers who followed the [Extreme Programming](http://www.extremeprogramming.org/) (XP) and the debate continues about whether and how to use pairing for production code.  More recently, however, the use of pairing as purely a learning tool has exploded and it's much harder to argue against the benefits and evidence of its effectiveness for that purpose.

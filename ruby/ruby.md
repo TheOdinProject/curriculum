@@ -1,5 +1,7 @@
 # Ruby
-Time Estimate: 100-200 hrs
+Total Estimated Time: 100-200 hrs
+
+*[Top level table of contents](/README.md).*
 
 ## Intro
 

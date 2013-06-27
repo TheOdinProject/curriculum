@@ -1,19 +1,24 @@
 # Becoming a Web Developer
 Total estimated time: 2-4 hours
 
+*[Top level table of contents](/README.md).*
+
 ## Table of Contents
-1. Intro
-2. What are Web Development Careers and Jobs Like?
-3. What are the Tools of the Trade?
-4. Where are the Web Development Communities?
-5. What Kinds of People Make the Best Web Developers?
-6. Sounds Good... So How can I get a Job?
+1. [Intro](#intro)
+2. [So What Does A Web Developer Actually Do?](#so-what-does-a-web-developer-actually-do)
+2. [What are Web Development Careers and Jobs Like?](#what-are-web-development-careers-and-jobs-like)
+3. [What are the Tools of the Trade?](#what-are-the-tools-of-the-trade)
+4. [Where are the Web Development Communities?](#where-are-the-web-development-communities)
+5. [What Kinds of People Make the Best Web Developers?](#what-kinds-of-people-make-the-best-web-developers)
+6. [Sounds Good... So How can I get a Job?](#sounds-good-so-how-can-i-get-a-job)
+7. [Finish](#finish)
+8. [Additional Resources](#additional-resources)
 
 ## Intro
 
 This short section is about answering the basic questions people have about the actual practice and career of web development.  Because, let's be honest, even if you've got a strong feeling that you like building things and web development is the right path for you, you still probably don't have a great idea of what developers actually do... and that's where everyone starts so it's okay.
 
-If some of the terms and explanations here seem unfamiliar to you, it may be worth checking out the next section on [web development basics](/web_development_basics/web_development_basics.md) and coming back here as necessary.
+If some of the terms and explanations here seem unfamiliar to you, it may be worth checking out the section on [web development 101](/web_development_basics/web_development_basics.md) and coming back here as necessary.
 
 Start with [code.org's video about "what most schools don't teach"](http://www.youtube.com/watch?v=nKIu9yen5nc) to get fired up.
 

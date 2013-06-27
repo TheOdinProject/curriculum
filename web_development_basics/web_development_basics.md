@@ -1,6 +1,8 @@
 # Web Development 101 [Prep Work]
 Total Estimated Time: 50-80 hours
 
+*[Top level table of contents](/README.md).*
+
 ## Table of Contents
 1. [Intro](#intro)
 2. [How Does the Web Work?](#how-does-the-web-work)
@@ -12,7 +14,7 @@ Total Estimated Time: 50-80 hours
     3. [Databases](#databases)
     4. [Frameworks](#frameworks)
     5. [Tying it All Together](#tying-it-all-together)
-    6. [Additional Topics](#additional-topics)
+    6. [Additional Important Topics](#additional-important-topics)
 6. [How Are Websites Built?](#how-are-websites-built)
 7. [Principles of Good Programming](#principles-of-good-programming)
 8. [Other "Dumb" Questions Answered](#other-dumb-or-frequently-asked-questions-answered)
@@ -382,7 +384,7 @@ Estimated Time: 1 hr
 
 You've got an idea of what the pieces look like, now it's time to see how they all dance together in a typical Ruby on Rails application.  Read through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (you can listen to audio of it by clicking the link on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be a valuable first step towards understanding what you'll be building later on.
 
-### Additional Topics:
+### Additional Important Topics:
 
 #### Git 101 
 Estimated Time: ??? hrs
@@ -491,7 +493,11 @@ Do you still have any beginner questions left over? [Email us](mailto:curriculum
 
 Now you've gotten your feet wet and I hope you're getting curious to dig deeper.  You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a functioning page.  You should be able to create a basic web page and make it do some basic things with Javascript.  You should also be able to write a simple Ruby script, test it, and describe what Rails and Backbone actually are.  Finally, you should have a clear understanding of how all this fits together in your future as a builder of web applications.
 
-With what you know already, you could start putting together some basic websites or further your knowledge on your own.  But we're here to help you get a lot further than that -- to the point where you can confidently build a full-featured and scalable web application, whether on your own or working as a developer in a top tier tech company.  To get there, we'll first briefly make sure you've got everything installed on your machine properly.  Then, buckle up, because we're heading straight into Ruby and we won't come out until you can confidently build a Twitter spambot and a chess game (among many other things).  The journey has just begun!
+With what you know already, you could start putting together some basic websites or further your knowledge on your own.  But we're here to help you get a lot further than that -- to the point where you can confidently build a full-featured and scalable web application, whether on your own or working as a developer in a top tier tech company.  Buckle up, because we're heading straight into Ruby and we won't come out until you can confidently build a Twitter spambot and a chess game (among many other things).  The journey has just begun!
+
+**Check out the [next section on Ruby](/ruby/ruby.md)**
+
+*Go back to the [top level table of contents](/README.md).*
 
 ## Additional Resources
 

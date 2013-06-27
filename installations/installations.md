@@ -1,6 +1,8 @@
 # Installations
 Total estimated time: 3-6 hours
 
+*[Top level table of contents](/README.md).*
+
 ## Intro
 
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.
@@ -47,6 +49,8 @@ What about Rails?  Rails is actually a Ruby gem of its own since, as we've cover
 XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  It's also got some necessary command line tools you'll be using so you're probably going to have to install it all (it's a giant package).
 
 ## Assignment: Installfest
+
+These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  It's beyond our scope here to walk you through why we're doing every single step, but it's also not super important that you know exactly what's going on or what all the commands mean.  
 
 If using a Macintosh, follow the instructions on [Moncef Belyamani's blog](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
 
