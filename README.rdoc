@@ -5,9 +5,6 @@ It's game on.
 Note to self:  You can't call any custom stylesheets or heroku will shit the bed.  The assets get precompiled so NO WAY can you call custom stylesheets at runtime.
 
 DEPLOYMENT NOTES: **************
-*** MIGRATIONS
-*** USERNAME COLUMNS NOW ESSENTIAL
-*** NEED TO BUILD USER_PREF FOR EXISTING USERS
 ********************************
 
 >> Optimize Google Analytics
@@ -16,9 +13,9 @@ DEPLOYMENT NOTES: **************
 
 
 ********************* Major Roadmap *************************
-> DEPLOY v0.0.2
 > Build mailer button in the event profiles
 >> Select which project too if multiple!
+> Fix up suggestion mailer to include username/email and proper referral link
 > Add user prefs filters as well
 *************************************************************
 
