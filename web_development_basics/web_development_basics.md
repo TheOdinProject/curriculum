@@ -133,7 +133,9 @@ Estimated Time: ??? hrs
 As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html), HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page lives inside HTML tags that tell your browser how to order the content on the page.  [CSS](http://www.skillcrush.com/terms/css.html) tells the browser if you want to display any of those tags a particular way like, for instance, turning its background blue and pushing it a little to the left.
 
 ##### Assignment:
-Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.
+* Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.
+* Build the Android logo using just HTML and CSS at an amazing website called [The Code Player](http://thecodeplayer.com/walkthrough/css3-android-logo), which is like a tutorial but it actually plays the code as the original developer created it.  Use JSFiddle to create the logo alongside this tutorial.
+    * Note: You will see border-radius, -moz-border-radius, and -webkit-border-radius all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use border-radius to achieve the desired effect.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
@@ -200,7 +202,8 @@ Interactive: Do the additional sections in the [Codeacademy Javascript Track](ht
 
 ##### JS/jQuery Mini-Project:
 
-TODO: JS/jQuery mini-project
+**Sketch Pad**
+Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with at least a 32x32 grid of square divs.  Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a trail through your grid like a pen would.  Have a button at the bottom to reset the grid to blank white.  It may be easier to make borders between grid elements while you're figuring out how to place them.
 
 ### Back End Basics
 Estimated Time: ??? hrs
@@ -497,7 +500,7 @@ With what you know already, you could start putting together some basic websites
 
 **Check out the [next section on Ruby](/ruby/ruby.md)**
 
-*[Top level table of contents](/README.md).*
+*[Top level table of contents](/README.md)*
 
 ## Additional Resources
 

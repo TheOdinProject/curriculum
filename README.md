@@ -68,4 +68,4 @@ If you'll be linking to the curriculum, it's safest to link to the top-level Tab
 <hr>
 **Help! How does this work?**
 
-Use this table of contents to navigate to whichever unit you're on.  If you're starting from scratch, start with "Becoming a Web Developer" and work your way forward from there.  The whole curriculum currently lives in these text/html files on Github.  The links will go live once the curriculum has been created for that unit.
+Use this table of contents to navigate to whichever unit you'd like to work on.  If you're starting from scratch, start with "Becoming a Web Developer" and work your way forward from there.  The whole curriculum currently lives in these text/html files on Github.  The links will go live once the curriculum is ready for that unit.
