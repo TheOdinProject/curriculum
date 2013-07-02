@@ -12,9 +12,10 @@ describe "StaticPages" do
       # save_and_open_page
       subject.source.should have_selector('title', text: "Odin") 
     end
-    
+
     it { should have_selector('h1', text: "Become") }
-    it { should have_link '...Or sign up for our private alpha offering HERE', href: splash_email_path }
+    it { should have_link "", href: "http://www.github.com/TheOdinProject/curriculum" }
+    it { should have_link '...Or sign up for our private alpha offering HERE', :href => splash_email_path }
   end
 
   describe "Splash Email Page" do
