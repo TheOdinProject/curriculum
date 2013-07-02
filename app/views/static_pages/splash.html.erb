@@ -1,4 +1,14 @@
-<%= content_for :title, "The Odin Project -- Learn to Code Together" %>
+<%= content_for :title, "The Odin Project -- Become a Web Developer" %>
+<style>
+  html{
+    background-color: black;
+  }
+  body{
+    background: url("assets/splash_background.png") no-repeat top center;
+    background-size: 100%;
+    height: 680px;
+  }
+</style>
 <!-- Hide the navbar at the top if splash -->
 <% if @splash %>
   <% content_for :stylesheets do %>
@@ -9,13 +19,13 @@
 
 
 <div id="landing-page">
-  <div class="container-narrow jumbotron">
+  <div class="container jumbotron">
     <h1 class="headline">
-      The Odin Project <span class="beta-superscript">[Alpha]</span>
+      Become a Web Developer
     </h1>
 
     <h2>
-      Learn to Code Together.  Free.
+      With Other Students, From Anywhere in the World
     </h2>
     
 
@@ -23,70 +33,28 @@
     <div class="row flush">
       <div class="subheading">
         <h3>
-          Work directly with other students who are learning exactly the same thing as you... without having to change out of your pajamas.
+          It takes at least 1,000 hours to become a "hireable" web developer and it is a confusing and lonely journey.
         </h3>
+        <br>
+        <h2>
+          Let Us Be Your Guide.
+        </h2>
+        <br>
+        <h4>
+          Our open source, project-based curriculum will take you along a laser-focused path from complete beginner to job-ready.  You will work directly with other students as you build a community of virtual classmates to help you along the way.
+        </h4>
+        <h4>
+          <strong>No more uncertainty, no more going it alone.</strong>
+        </h4>
       </div>
     </div>
 
-    
-      <p class="beta-notification">
-        <% if @splash %>
-          Get early access when we launch!
-        <% else %>
-          <em>Start learning with other students <strong>now!</strong></em>
-        <% end %>
-      </p>
-
-    <% if @splash %>
-
-      <div class="row-fluid">
-        <div class="cta-box splash">
-          <%= render :partial => "splash_email_form" %>
-        </div>
-      </div>
-    <% else %>
-      <a href="<%= new_user_registration_path %>"><input type="submit" class="btn btn-primary signup-btn" value="Sign Up!"  /></a>
-      <p>Or <%= link_to "login", login_path %> if you already have an account.</p>
-    <% end %>
+    <input type="submit" class="btn btn-warning btn-large btn-view-curriculum" value="View the Curriculum on Github" />
+    <br>
+    <%= link_to "...Or sign up for our private alpha offering here", splash_email_path %>
 
   </div> <!-- container-narrow -->
 
-  <div class="container">
-    <div class="row-fluid">
-      <div class="span10 offset1" id="benefits">
-        <div class="span4">
-          <h5>
-            Stop battling frustrating error messages on your own
-          </h5>
-        </div>
-        <div class="span4">
-          <h5>
-            Bring the <strong>fun</strong> back to coding
-          </h5>
-        </div>
-        <div class="span4">
-          <h5>
-            Collaborate just like professional developers do
-          </h5>
-        </div>
-      </div> <!-- span -->
-    </div> <!-- row-fluid -->
-
-    <div class="row-fluid">
-      <div class="span6 offset3">
-        <div class="dev-statement">
-          The Odin Project was created for aspiring coders by developers who were just really tired of learning alone and who discovered how much more effectively you can learn by working directly with someone else.
-        </div>
-      </div>
-    </div>
-
-
-  </div> <!-- container -->
-
-<!--   <div id="confirmation_form">
-    d
-  </div> -->
-  
 </div>
 
 

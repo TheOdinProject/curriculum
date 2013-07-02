@@ -7,20 +7,16 @@
 #landing-page{
 
   h1{
-    color: $main_blue;
-    font-size: 75px;
-    margin-left: 20px;
+    color: white;
+    font-size: 65px;
     margin-bottom: 25px; 
-    text-shadow: 1px 1px 1px rgba(255,255,255,1), rgba(0,0,0,.2) 2px 2px 2px ;
-    .beta-superscript{
-      text-shadow: none;
-      vertical-align: super;
-      font-size: 16px;
-    }
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
   }
 
   h2{
-    font-size: 34px;
+    font-size: 28px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
     &.thank-you{
       font-size: 58px;
       margin-bottom: 40px;
@@ -35,6 +31,19 @@
     &.thank-you{
       margin-top: 45px;
     }
+  }
+
+  input.btn-view-curriculum{
+    width: 400px;
+    height: 70px;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(255,255,255,1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,1);
   }
 
   .container-narrow{
@@ -52,12 +61,20 @@
 
   .subheading{
     letter-spacing: 1px;
-    margin: 40px auto;
-    width: 700px;
+    margin: 20px auto;
+    width: 500px;
     h3{
-      font-size: 24px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 500px;
+      color: white;
+      font-size: 20px;
       font-weight: 400;
       line-height: 22px;
+    }
+    h4{
+      font-size: 16px;
+      font-weight: 400;
     }
     &.thank-you{
       width: 500px;

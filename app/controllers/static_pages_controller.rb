@@ -6,6 +6,10 @@ class StaticPagesController < ApplicationController
     @splash = true
   end
 
+  def splash_email
+    @splash_email = SplashEmail.new
+  end
+
   def home
     @splash = false
     render "splash"
