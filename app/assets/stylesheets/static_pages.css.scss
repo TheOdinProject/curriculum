@@ -6,20 +6,25 @@
 
 #landing-page{
 
+  font-family: Oxygen, sans-serif;
+
   h1{
     color: white;
-    font-size: 65px;
+    font-size: 75px;
+    font-weight: 500;
+    margin-top: 60px;
     margin-bottom: 25px; 
     text-shadow: 1px 1px 1px rgba(0,0,0,1);
   }
 
   h2{
     font-size: 28px;
+    font-weight: 400;
     color: white;
     text-shadow: 1px 1px 1px rgba(0,0,0,1);
     &.thank-you{
       font-size: 58px;
-      margin-bottom: 40px;
+      margin-bottom: 45px;
     }
   }
 
@@ -37,7 +42,7 @@
     width: 400px;
     height: 70px;
     font-size: 24px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     border-radius: 15px;
     border: 2px solid black;
@@ -66,10 +71,11 @@
     h3{
       margin-left: auto;
       margin-right: auto;
+      margin-top: 35px;
       width: 500px;
       color: white;
-      font-size: 20px;
-      font-weight: 400;
+      font-size: 18px;
+      font-weight: 300;
       line-height: 22px;
     }
     h4{
@@ -191,6 +197,24 @@
     display: inline-block;
   }
 
+  #top-navbar-splash{
+    background-color: rgba(0,0,0,.15);
+    background-image: none;
+    border: 1px solid rgba(0,0,0,.1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 200%;
+  }
+
+  #logo{
+    color: $light_gray;
+    float: left;
+    display: block;
+    padding: 10px 20px 10px;
+    font-size: 20px;
+    font-weight: 200;
+  }
 
   #confirmation_form{
     height: 400px;
