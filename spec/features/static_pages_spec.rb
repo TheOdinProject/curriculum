@@ -13,7 +13,6 @@ describe "StaticPages" do
       subject.source.should have_selector('title', text: "Odin") 
     end
     it "should hide the navbar" do
-      save_and_open_page
       page.should have_css('#top-navbar', :visible => false)
     end
 
