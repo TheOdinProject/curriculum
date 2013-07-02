@@ -5,8 +5,8 @@
   }
   body{
     background: url("assets/splash_background.png") no-repeat top center;
-    background-size: 100%;
-    height: 680px;
+    background-size: cover;
+    height: 800px;
   }
 </style>
 <!-- Hide the navbar at the top if splash -->
@@ -60,9 +60,9 @@
       </div>
     </div>
 
-    <input type="submit" class="btn btn-warning btn-large btn-view-curriculum" value="View the Curriculum on Github" />
+    <a href="http://www.github.com/TheOdinProject/curriculum" target="_blank"><input type="submit" class="btn btn-warning btn-large btn-view-curriculum" value="View the Curriculum on Github" /></a>
     <br>
-    <%= link_to "...Or sign up for our private alpha offering Here", splash_email_path %>
+    <%= link_to "...Or sign up for our private alpha offering HERE", splash_email_path %>
 
   </div> <!-- container-narrow -->
 

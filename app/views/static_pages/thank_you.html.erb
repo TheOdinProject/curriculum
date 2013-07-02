@@ -1,59 +1,46 @@
-<%= content_for :title, "The Odin Project -- Learn to Code Together" %>
-<!-- Hide the navbar at the top -->
+<%= content_for :title, "The Odin Project -- Become a Web Developer" %>
+<style>
+  html{
+    background-color: black;
+  }
+  body{
+    background: url("assets/splash_background.png") no-repeat top center;
+    background-size: cover;
+    height: 800px;
+  }
+</style>
+<!-- Hide the navbar at the top if splash -->
 <% content_for :stylesheets do %>
   #top-navbar{display:none}
   #footer{display:none}
 <% end %>
 
+
 <div id="landing-page">
-  <div class="container-narrow jumbotron">
-    <h1 class="headline">
-      The Odin Project <span class="beta-superscript">[Alpha]</span>
-    </h1>
-
-    <h2>
-      Learn to Code Together.  Free.
-    </h2>
-    
-
-
-    <div class="row flush">
-      <div class="subheading thank-you">
-        <h2 class="thank-you">
-          Thank you!
-        </h2>
+      <!-- <div class="navbar-inner"> -->
+  <div class="navbar navbar-top">
+    <div id="top-navbar-splash">
+      <div class="container">
+        <div id="logo">
+          The Odin Project
+        </div>
       </div>
     </div>
+  </div>
 
-    <p class="beta-notification">
-      <strong><em>What projects we should add to our menu?</em></strong>
-    </p>
-
-    <div class="row-fluid">
-      <div class="cta-box thank-you">
-        <%= render :partial => "suggestions_form" %>
+  <div class="container jumbotron">
+    <div class="cta-box">
+      <div class="email-cta thank-you-text">
+        <h3>
+          Thanks!
+        </h3>
+        <h4>
+          We'll let you know when we're ready to go.
+        </h4>
+        <a href="http://www.github.com/TheOdinProject/curriculum">
+          Until then, check out the curriculum on Github 
+        </a>
       </div>
     </div>
   </div>
 </div>
-
-<script>
-  $(document).ready(function(){
-    $("#suggestion_form").bind("ajax:complete", function(event, xhr, status){
-      console.log($("#suggestion_form input"));
-      $("#suggestion_form input").attr("disabled","disabled").val("Submitted!");
-      $("#suggestion_form textarea").attr("disabled","disabled");
-      console.log("did it!");
-    });
-  });
-</script>
-
-
-
-
-
-
-
-
-
-

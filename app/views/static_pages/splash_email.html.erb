@@ -1,5 +1,44 @@
-      <div class="row-fluid">
-        <div class="cta-box splash">
-          <%= render :partial => "splash_email_form" %>
+<%= content_for :title, "The Odin Project -- Become a Web Developer" %>
+<style>
+  html{
+    background-color: black;
+  }
+  body{
+    background: url("assets/splash_background.png") no-repeat top center;
+    background-size: cover;
+    height: 800px;
+  }
+</style>
+<!-- Hide the navbar at the top if splash -->
+<% content_for :stylesheets do %>
+  #top-navbar{display:none}
+  #footer{display:none}
+<% end %>
+
+
+<div id="landing-page">
+      <!-- <div class="navbar-inner"> -->
+  <div class="navbar navbar-top">
+    <div id="top-navbar-splash">
+      <div class="container">
+        <div id="logo">
+          The Odin Project
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="container jumbotron">
+
+
+      <div class="cta-box splash">
+        <div class="email-cta">
+          <h3>
+            Sign up to be notified when we launch:
+          </h3>
+        </div>
+        <%= render :partial => "splash_email_form" %>
+      </div>
+
+  </div>
+</div>
