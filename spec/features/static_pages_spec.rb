@@ -13,8 +13,14 @@ describe "StaticPages" do
       # save_and_open_page
       subject.source.should have_selector('title', text: "Odin") 
     end
+    it { should have_selector('h1', text: "Become") }
+    it { should have_link '...Or sign up for our private alpha offering HERE', href: splash_email_path }
+    
+  end
 
-    it { should have_selector('h1', text: "Odin") }
+  describe "Splash Email Page" do
+
+    before { visit splash_email_path }
 
     describe "filling in the email form" do
       before(:each) do
@@ -31,39 +37,18 @@ describe "StaticPages" do
         end
 
         it "should redirect to the thank_you page" do
-          subject.should have_selector('h2', text: "Thank you!")
+          subject.should have_selector('h3', text: "Thanks!")
         end
       end
     end
 
   end
 
-  describe "Thank You Page" do
+  describe "Splash Thank You Page" do
 
     before { visit thank_you_path }
-    let(:suggestion_body){"testing123 123"}
 
-    it { should have_selector('h2', text: "Thank you!") }
-
-    describe "filling in the suggestion form" do
-      before(:each) do
-        ActionMailer::Base.deliveries = []  # Clear out other test deliveries
-        # save_and_open_page
-        fill_in("thank_you_suggestion_box", with: suggestion_body)
-      end
-
-      context "after submitting the form" do
-        before(:each) do
-          click_button("commit")
-        end
-
-        it "should send an email request with the form contents" do
-          ActionMailer::Base.deliveries.first.encoded.should include suggestion_body
-        end
-      end
-
-    end
-
+    it { should have_selector('h3', text: "Thanks!") }
 
   end
 
