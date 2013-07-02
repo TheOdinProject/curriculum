@@ -1,7 +1,7 @@
 # Installations
 Total estimated time: 3-6 hours
 
-*[Top level table of contents](/README.md).*
+*[Top level table of contents](/README.md)*
 
 ## Intro
 

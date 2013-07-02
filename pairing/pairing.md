@@ -1,7 +1,7 @@
 # Pair Programming and Remote Pairing 
 Total estimated time: 1-3 hours
 
-*[Top level table of contents](/README.md).*
+*[Top level table of contents](/README.md)*
 
 ## Table of Contents
 1. [Intro](#intro)

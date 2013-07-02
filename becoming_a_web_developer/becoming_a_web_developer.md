@@ -1,7 +1,7 @@
 # Becoming a Web Developer
 Total estimated time: 2-4 hours
 
-*[Top level table of contents](/README.md).*
+*[Top level table of contents](/README.md)*
 
 ## Table of Contents
 1. [Intro](#intro)

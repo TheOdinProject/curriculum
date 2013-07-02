@@ -1,7 +1,7 @@
 # Web Development 101 [Prep Work]
 Total Estimated Time: 50-80 hours
 
-*[Top level table of contents](/README.md).*
+*[Top level table of contents](/README.md)*
 
 ## Table of Contents
 1. [Intro](#intro)
@@ -22,7 +22,7 @@ Total Estimated Time: 50-80 hours
 
 **Jump to Mini-Projects** (good for pairing)
 * HTML/CSS: [Google Rebuild](#htmlcss-mini-project)
-* Javascript: [TODO](#jsjquery-mini-project)
+* Javascript: [Sketch Pad](#jsjquery-mini-project)
 * Ruby: [Test First Ruby](#ruby-mini-project)
 
 ## Intro
