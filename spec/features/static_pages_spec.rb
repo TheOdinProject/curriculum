@@ -8,14 +8,13 @@ describe "StaticPages" do
 
     before { visit root_path }
 
-
     it "should have a title" do
       # save_and_open_page
       subject.source.should have_selector('title', text: "Odin") 
     end
+    
     it { should have_selector('h1', text: "Become") }
     it { should have_link '...Or sign up for our private alpha offering HERE', href: splash_email_path }
-    
   end
 
   describe "Splash Email Page" do
@@ -41,7 +40,6 @@ describe "StaticPages" do
         end
       end
     end
-
   end
 
   describe "Splash Thank You Page" do
