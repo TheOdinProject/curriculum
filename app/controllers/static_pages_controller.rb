@@ -2,8 +2,6 @@ class StaticPagesController < ApplicationController
   before_filter :authenticate_user!, :only => :scheduler
 
   def splash
-    @splash_email = SplashEmail.new
-    @splash = true
   end
 
   def splash_email

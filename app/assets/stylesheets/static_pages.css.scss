@@ -28,8 +28,27 @@
     }
   }
 
+  #top-navbar-splash{
+    background-color: rgba(0,0,0,.15);
+    background-image: none;
+    border: 1px solid rgba(0,0,0,.1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
 
-  input.btn-view-curriculum{
+  #logo{
+    color: $light_gray;
+    float: left;
+    display: block;
+    padding: 10px 20px 10px;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  /* Button to go to the curriculum on github*/
+  .btn-view-curriculum{
     width: 400px;
     height: 70px;
     font-size: 24px;
@@ -82,38 +101,10 @@
       margin-top: 30px;
     }
   }
-  #benefits{
-    h5{
-      color: $main_blue;
-      font-style: italic;
-      font-size: 18px;
-      font-weight: 400;
-      text-align: center;
-      margin-top: 20px;
-      text-shadow: 1px 1px 0px rgba(0,0,0,.1);
-      letter-spacing: 1px;
-    }
-  }
 
   .center{
     margin-left:auto;
     margin-right: auto;
-  }
-
-  .beta-notification{
-    color: $main_blue;
-    margin-top: 30px;
-    font-size: 30px;
-
-  }
-
-  .dev-statement{
-    letter-spacing: 1px;
-    margin-top: 60px;
-    margin-bottom: 100px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: $font_weight;
   }
 
   .splash-box{
@@ -128,6 +119,7 @@
     /*background-color: rgba(0,0,0,.2);*/
   }
 
+  /* Container for all text on splash email and thank you pages*/
   .cta-box{
     text-align: left;
     width: 610px;
@@ -182,13 +174,6 @@
     }
   }
 
-  .cta-disclaimer{
-    margin-top: 15px;
-    font-style: italic;
-    font-weight: $font_weight;
-    letter-spacing: 1px;
-  }
-
   .email-cta{
     color: white;
     h3{
@@ -211,7 +196,6 @@
         margin-bottom: 35px;
         margin-top: 15px  ;
       }
-
     }
   }
 
@@ -227,42 +211,8 @@
     display: inline-block;
   }
 
-  #top-navbar-splash{
-    background-color: rgba(0,0,0,.15);
-    background-image: none;
-    border: 1px solid rgba(0,0,0,.1);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-  }
+} /************* End of Landing Pages **************/
 
-  #logo{
-    color: $light_gray;
-    float: left;
-    display: block;
-    padding: 10px 20px 10px;
-    font-size: 20px;
-    font-weight: 200;
-  }
-
-  #confirmation_form{
-    height: 400px;
-    width: 600px;
-    background: blue;
-    margin: 200px auto;
-  }
-
-  .signup-btn{
-    width: 200px;
-    height: 75px;
-    font-size: 30px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    border-radius: 18px;
-  }
-
-}
 
 #devise-form{
   h2{

@@ -9,17 +9,15 @@
     height: 800px;
   }
 </style>
-<!-- Hide the navbar at the top if splash -->
-<% if @splash %>
-  <% content_for :stylesheets do %>
-    #top-navbar{display:none}
-    #footer{display:none}
-  <% end %>
+
+<!-- Hide the navbar at the top -->
+<% content_for :stylesheets do %>
+  #top-navbar{display:none}
+  #footer{display:none}
 <% end %>
 
 
 <div id="landing-page">
-      <!-- <div class="navbar-inner"> -->
   <div class="navbar navbar-top">
     <div id="top-navbar-splash">
       <div class="container">
@@ -49,12 +47,6 @@
         <h2>
           Let Us Be Your Guide.
         </h2>
-<!--         <h4>
-          Our open source, project-based curriculum will take you along a laser-focused path from complete beginner to job-ready.  You will work directly with other students as you build a community of virtual classmates to help you along the way.
-        </h4>
-        <h4>
-          <strong>No more uncertainty, no more going it alone.</strong>
-        </h4> -->
       </div>
     </div>
 
@@ -64,7 +56,7 @@
 
   </div> <!-- container-narrow -->
 
-</div>
+</div> <!-- landing-page -->
 
 
 
