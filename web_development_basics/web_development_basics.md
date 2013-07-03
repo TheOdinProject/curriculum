@@ -165,6 +165,7 @@ Estimated Time: ??? hrs
 ##### You Will Need To Understand:
 * What is a scripting language?
 * What is a variable?
+* What is a string? An array? A boolean?
 * What is the DOM?
 * How can you interact with the DOM?
 * What are events?
@@ -203,7 +204,8 @@ Interactive: Do the additional sections in the [Codeacademy Javascript Track](ht
 ##### JS/jQuery Mini-Project:
 
 **Sketch Pad**
-Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with at least a 32x32 grid of square divs.  Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a trail through your grid like a pen would.  Have a button at the bottom to reset the grid to blank white.  It may be easier to make borders between grid elements while you're figuring out how to place them.
+* Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with at least a 32x32 grid of square divs.  Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a trail through your grid like a pen would.  Have a button at the bottom to reset the grid to blank white.  It may be easier to make borders between grid elements while you're figuring out how to place them.  
+* Then try cranking up the granularity of the grid (say, a 128x128 grid of the same total size).  Hopefully you've utilized a loop to create your grid and this should be a simple matter of changing a few inputs.
 
 ### Back End Basics
 Estimated Time: ??? hrs
@@ -218,7 +220,7 @@ On difference between the work you did on the front end and what you'll be doing
 Go to the [Installations Unit](/installations/installations.md) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
-Estimated Time: 15-20 hrs
+Estimated Time: 25-35 hrs
 
 ##### You Will Need to Understand:
 * What is an "interpreted" language?
@@ -238,9 +240,9 @@ Estimated Time: 15-20 hrs
 
 Our focus will be on Ruby, the language designed for programmer happiness.  What takes dozens of lines of code in Java or a hundred in C could take just a couple in Ruby because it prepackages lots of sneaky functions into easy-to-use convenience methods.  It has occasionally been criticized for not running as fast as some of the other languages, but that's not so much an issue when you can just load more servers/instances running your web application.  Being able to write code faster and with less headache allow you to iterate frequently when building a website and so the end product is more likely to suit the client or the user's needs.
 
-It should be said that Ruby's "twin" language is Python.  In some ways, they sort of resemble romance languages -- once you've learned one, it's not terribly hard to pick up another because they tend to follow many of the same conventions, just using different "words".  Python tends to be taught more in colleges and is used a fair bit for more data-intensive applications.  But Ruby has a secret weapon that makes it the love of fast-iterating website production -- the framework Ruby on Rails (which we'll cover in the next section on Frameworks).
+It should be said that Ruby's "twin" language is Python.  In some ways, they sort of resemble romance languages -- once you've learned one, it's not terribly hard to pick up another because they tend to follow many of the same conventions, just using different "words".  Python tends to be taught more in colleges and is used a fair bit for more data-intensive applications.  But Ruby has a secret weapon that makes it the love of fast-iterating website producers -- the framework Ruby on Rails (which we'll cover in the next section on Frameworks).
 
-With either of the languages, there are a couple of things that aren't immediately intuitive but become very useful when you understand them.  We'll do an introduction to Ruby here and then, in the unit on Ruby, you'll get to understand it like the back of your hand.
+With either of the languages, there are a couple of things that aren't immediately intuitive but become very useful when you understand them.  We'll do a healthy introduction to Ruby here and then, in the unit on Ruby, you'll get to understand it like the back of your hand.
 
 A final note -- you'll be learning a bunch of new terminology and concepts here but don't think they're only applicable to Ruby.  Most of it (like methods, classes, objects etc.) will pop up again in Javascript and pretty much any other language you pick up.
 
@@ -265,6 +267,9 @@ Estimated Time: 10-15 hours
 It's time for some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.  First, you'll probably want to skip ahead and read about testing in the section below called "Testing 101".  There's a homework assignment there but it shouldn't take long.  Or just wing it...
 
 * Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main index.html file in a browser, you'll have instructions waiting for you that describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck!
+* If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live).
+
+**How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
 ##### Additional Resources
 

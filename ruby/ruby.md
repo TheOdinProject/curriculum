@@ -22,45 +22,80 @@ In this unit you will learn Ruby, the language designed specifically with progra
 
 As you may gather, this is also where the real project work begins.  Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce understanding.  As we get further along and into some of the more advanced topics, we'll be learning less and doing more... just the way it should be.   Buckle up, strap in, and let's get learning!
 
-Our free resources:
-A staple book: http://ruby.learncodethehardway.org/book/
-For the crazies: http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html
-If there's anything you need to brush up on still: http://www.rubyist.net/~slagell/ruby/
+**Our free resources:**
+The goal here is to provide as much of this curriculum as possible using free resources.  If you've 
+* The staple book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.
+* For the crazies: Why's [Poignant Guide to Programming](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html) (check it out... if it jives with your learning style, you may have found the match you never thought you'd find)
+* If there's anything you need to brush up on still: [The Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/) has sections on many topics you might want to dive back into for a deeper look.
+
+**Other good resources:**
+* Peter Cooper's [Beginning Ruby](http://beginningruby.org/) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it.
+* Brian Marick's [Everyday Scripting with Ruby](http://pragprog.com/book/bmsft/everyday-scripting-with-ruby) takes a pragmatic approach to learning Ruby to help with the kinds of problems you might face in a variety of different real-world work scenarios.
 
 ## Basic Ruby
 
 ### Intro
 
-#### What is Ruby?
-
-#### Why Should I Learn Ruby to be a Web Developer?
+Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.
 
 Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it.  And what happens when you want to stretch your wings and do something just a bit beyond the vanilla tutorials show you how to do?  The amount of time you'd spend googling your error messages and staring blankly at help docs was better spent learning Ruby.
 
-#### A Bit of History
-
-#### How Ruby Is Put Together (the Basics)
-
-#### Installation
-
-#### Gems and Source Files
-
-#### Debugging
-
+In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  How you learn isn't as important as making sure you're comfortable with your understanding of everything from primitive data types like numbers, strings, arrays, and hashes to flow control, iteration
 
 ### Primitive Data Types
 
-Primitive data types are the basic building blocks of computer programs.  Understanding them and what you can do with them is like knowing your ABC's.  In the sections below, you'll get acquainted with Numbers, Strings, Arrays, Hashes, Enumerable methods, Objects, Ranges, and Dates/Times.  You're populating your developer's toolkit.
+Primitive data types are the basic building blocks of computer programs.  Understanding them and what you can do with them is like knowing your ABC's.  Get well acquainted with Numbers, Strings, Arrays, Hashes, Enumerable methods, Objects, Ranges, and Dates/Times.  You're populating your developer's toolkit.
 
 The exercises should help you hone in on what things you understand well and which ones you need to dig deeper on.  The larger exercises towards the end will round things out a bit more wholistically.
 
 #### Numbers and Expressions
+* know:
+* reading/vids
+* digest
+* thought questions
+* exercises
 
 #### Strings
+* know:
+* reading/vids
+* digest
+* thought questions
+* exercises
 
 #### Arrays
+* know:
+* reading/vids
+
+* Creating an Array
+* Accessing items (index and range)
+* Changing items
+* Adding and Removing items (push and pop and shift and unshift and shovel)
+* Helper methods (size, count)
+* Arrays to strings
+* Include?
+* Sort
+* Shuffle
+* First, Last
+* Sample
+* Pluralize Names
+* Best practices with arrays: One thing only
+** EXERCISES **
+* thought questions
+* Test-first exercises
 
 #### Hashes
+* know:
+* reading
+* digest
+* thought questions
+* exercises
+
+#### Numbers, Strings and Arrays and Hashes Exercises (Paired)
+* sort
+* reverse
+* 
+* towers of hanoi
+* 
 
 #### Enumerable
 
@@ -74,7 +109,13 @@ The exercises should help you hone in on what things you understand well and whi
 
 #### Tutorial
 
-#### Exercises
+#### Exercises (Paired) >> PUT LATER AFTER METHODS / BLOCKS!
+* Rewrite the following methods from Enumerable.  You may not use the real method... which should be obvious.  You MAY use #each in the following methods once you've created it yourself the first time:
+    * #each
+    * #each_with_index
+    * #map
+    * #select
+    * 
 
 ### Conditionals and Flow Control
 
@@ -112,8 +153,12 @@ Symbols, hashes, options hashes, default values
 
 One of the most confusing parts of learning basic Ruby is understanding what blocks are and how they work.  It shouldn't be, because they're actually pretty simple.
 
+[Procs, Lambdas and Closures in Ruby by Peter Cooper (video)](http://www.youtube.com/watch?v=VBC-G6hahWA)
+
 http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas 
 > Blocks vs procs vs lambdas free screencast.  Need to know call though.
+
+Blocks explained by Alex Chaffee (video) (http://codelikethis.com/lessons/ruby_blocks/blocks)
 
 #### Blocks are Very Ruby-ish
 
