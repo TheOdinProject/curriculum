@@ -1,13 +1,31 @@
 # Ruby
 Total Estimated Time: 100-200 hrs
 
+## !! This section is incomplete !!
+
 *[Top level table of contents](/README.md)*
+
+## Table of Contents
+1. Intro
+2. Intermediate Ruby
+3. Ruby and the Web
+4. File I/O and Serialization
+5. Testing Ruby with RSpec
+6. Basic Data Structures
+7. Basic Algorithms
+8. Final Projects
+9. Finish
 
 ## Intro
 
 In this unit you will learn Ruby, the language designed specifically with programmer happiness in mind.  It's a healthy chunk of learning but, by the end of it all, you'll have built some pretty sweet games including Tic Tac Toe, Minesweeper, Checkers, and Chess.  You'll be able to put together a Twitter spambot (that really spams!), save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems.  Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.
 
 As you may gather, this is also where the real project work begins.  Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce understanding.  As we get further along and into some of the more advanced topics, we'll be learning less and doing more... just the way it should be.   Buckle up, strap in, and let's get learning!
+
+Our free resources:
+A staple book: http://ruby.learncodethehardway.org/book/
+For the crazies: http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html
+If there's anything you need to brush up on still: http://www.rubyist.net/~slagell/ruby/
 
 ## Basic Ruby
 
@@ -17,7 +35,7 @@ As you may gather, this is also where the real project work begins.  Some of the
 
 #### Why Should I Learn Ruby to be a Web Developer?
 
-Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it.  And what happens when you want to stretch your wings and do something just a bit beyond the vanilla tutorials show you how to do?  The amount of time you'd spend googling your error messages and staring blankly at help docs is better spent learning Ruby.
+Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it.  And what happens when you want to stretch your wings and do something just a bit beyond the vanilla tutorials show you how to do?  The amount of time you'd spend googling your error messages and staring blankly at help docs was better spent learning Ruby.
 
 #### A Bit of History
 
@@ -94,6 +112,9 @@ Symbols, hashes, options hashes, default values
 
 One of the most confusing parts of learning basic Ruby is understanding what blocks are and how they work.  It shouldn't be, because they're actually pretty simple.
 
+http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas 
+> Blocks vs procs vs lambdas free screencast.  Need to know call though.
+
 #### Blocks are Very Ruby-ish
 
 #### Ways to declare a Block
@@ -132,6 +153,8 @@ Classes, inheritance, OO design, refactoring, naming, recursion, scope, regex, M
 ## Basic Algorithms
 
 ## Final Projects
+
+## Finish
 
 
 

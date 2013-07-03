@@ -350,6 +350,8 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 
 Watch this [basic overview of Rails](http://www.youtube.com/watch?v=b_DJdmvBStE) from Michael Hartl.  It will walk through the creation of a very basic web application.
 
+Read Daniel Kehoe's excellent [What is Ruby on Rails?](http://railsapps.github.io/what-is-ruby-rails.html) introduction to get a good grasp on what we're working with.
+
 Start doing Rails right away by diving into the [Rails for Zombies](http://railsforzombies.org/) course, which lets you begin programming Rails right in your browser!  It goes pretty quickly and you'll probably need to rewatch the videos but stick with it.
 
 Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time we do our deep dive during the Rails unit later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.

@@ -10,3 +10,7 @@ http://learn.jquery.com/
 http://learn.appendto.com/lesson/javascript-101
 
 http://thecodeplayer.com/
+
+Screencasts:
+http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/
+$$http://www.backbonerails.com/
