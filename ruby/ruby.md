@@ -20,10 +20,17 @@ Total Estimated Time: 100-200 hrs
 
 In this unit you will learn Ruby, the language designed specifically with programmer happiness in mind.  It's a healthy chunk of learning but, by the end of it all, you'll have built some pretty sweet games including Tic Tac Toe, Minesweeper, Checkers, and Chess.  You'll be able to put together a Twitter spambot (that really spams!), save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems.  Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.
 
+Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it.  And what happens when you want to stretch your wings and do something just a bit beyond what the vanilla tutorials show you how to do?  The amount of time you'd spend googling your error messages and staring blankly at help docs was better spent learning Ruby.
+
 As you may gather, this is also where the real project work begins.  Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce understanding.  As we get further along and into some of the more advanced topics, we'll be learning less and doing more... just the way it should be.   Buckle up, strap in, and let's get learning!
 
+**How this will work:**
+
+Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "digest" of the material but it's not a replacement for actually doing the reading.  At the end of each section or group of sections will be programming exercises which are best done in pairs.
+
 **Our free resources:**
-The goal here is to provide as much of this curriculum as possible using free resources.  If you've 
+
+The goal here is to provide as much of this curriculum as possible using free resources.  If you've done the prep work from Web Development 101 then you should have a good handle on the basics but these resources are important to help you really understand the material.
 * The staple book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.
 * For the crazies: Why's [Poignant Guide to Programming](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html) (check it out... if it jives with your learning style, you may have found the match you never thought you'd find)
 * If there's anything you need to brush up on still: [The Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/) has sections on many topics you might want to dive back into for a deeper look.
@@ -36,11 +43,9 @@ The goal here is to provide as much of this curriculum as possible using free re
 
 ### Intro
 
-Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.
+Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.  It's expected that you have a pretty good handle on the basics of the Ruby language and an understanding of what you're still shakey on.
 
-Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it.  And what happens when you want to stretch your wings and do something just a bit beyond the vanilla tutorials show you how to do?  The amount of time you'd spend googling your error messages and staring blankly at help docs was better spent learning Ruby.
-
-In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  How you learn isn't as important as making sure you're comfortable with your understanding of everything from primitive data types like numbers, strings, arrays, and hashes to flow control, iteration
+In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.
 
 ### Primitive Data Types
 
@@ -49,13 +54,88 @@ Primitive data types are the basic building blocks of computer programs.  Unders
 The exercises should help you hone in on what things you understand well and which ones you need to dig deeper on.  The larger exercises towards the end will round things out a bit more wholistically.
 
 #### Numbers and Expressions
-* know:
-* reading/vids
-* digest
-* thought questions
-* exercises
+##### Goals
+This is pretty straightforward stuff.  The goal here is to familiarize yourself with all basic data types and how they interact in arithmetic expressions
+
+##### Questions
+* What's the difference between `=`, `==`, and `===`?
+
+##### Do These First
+* Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html)
+* Read [Learn to Program Chapter 1](http://pine.fm/LearnToProgram/?Chapter=01) (You should already have completed this)
+
+##### Digest
+
+When doing mathematical operations, Ruby expects the result to be the same type as the inputs, so dividing two integers by each other will produce an integer... whether you want to or not:
+
+    > 5 / 3
+    => 1  
+
+To fix this, you need to make one of the inputs a different data type that can handle decimals, like a *floating point* number (float): 
+
+    > 5.0 / 3 
+    => 1.6666666666666667
+
+Because Ruby is so flexible, it lets you do some quirky things like multiplying completely different data types together in a way that you sort of think you *should* be able to but never expected to actually be able to do:
+
+    > "hi" * 3
+    => "hihihihi"
+
+These types of operations work the same way with variables:
+
+    > my_word = "howdy"
+    => "howdy"
+    > my_word * 3
+    => "howdyhowdyhowdy"
+
+For equality:
+* `=` is for assignment, so it assigns a value to a variable as in `> name = "Erik"`
+* `==` is for checking that two things are equal but don't have to be identical.  You'll use this in most cases, especially when working with conditional statements.  `> 1 + 1 == 2` returns '=> true'
+* `===` can actually mean some different things (you can overwrite it easily). You will probably be sticking with `==` in most situations, but it's good to understand `===` as well.  `===` typically asks whether the thing on the right is a member or a part or a type of the thing on the left.  If the thing on the left is the range `(1..4)` and we want to know if 3 is inside there:
+    > (1..4) === 3
+    => true
+This also works for checking whether some object is an instance of a class:
+    > Integer === 3
+    => true
+See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby](http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby) for a more detailed explanation.
+
+##### Exercises
+* Play around in IRB and just try multiplying and dividing things by each other
+
+#### Objects and Methods
+##### Intro and Goals
+"Everything in Ruby is an Object" is something you'll hear rather frequently and it's pretty much true.  "Pretty much everything else is a method" could also be said.  The goal here is for you to see the Matrix... that everything in Ruby is an Object and has cool methods associated with it that let you do all kinds of wonderful things.  Being incredibly object-oriented give Ruby lots of power. 
+
+Hopefully you've already picked most of this up from the prep-work.
+
+##### Questions
+* What is an object?
+* What is a method?
+* Why are the two related?
+
+##### Do These First
+* 
+
+##### Digest
+
+Think of every "thing" in Ruby as a having more than meets the eye. The number `12` is more than just an Integer... Ruby lets you do all kinds of interesting things to it like adding and multiplying and asking it questions like `> 12.class` or `> 12+3`.
+
+Ruby gives all objects a bunch of neat methods.  If you ever want to know what an object's methods are, just use the `.methods` method!  Asking `> 12345.methods` in IRB will return a whole bunch of methods that you can try out on the number 12345.  You'll also see that the basic operators like `+` and `-` and `/` are all methods too (they're included in that list).  You can call them using the dot `> 1.+2` like any other method or, luckily for you, Ruby made some special shortcuts for them so you can just use them as you have been: `> 1+2`.
+
+Some methods ask true/false questions, and are usually named with a question mark at the end like `.is_a?`, which asks whether an object is a type of something else, e.g. `1.is_a?Integer` returns `true` while `"hihi".is_a?Integer` returns `false`.  You'll get used to that naming convention.  Methods like `.is_a?`, which tell you something about the object itself, are called **Reflection Methods** (as in, "the object quietly reflected on its nature and told me that it is indeed an Integer").  `.class` was another one we saw, where the object will tell you what class it is.
+
+
+
+
+##### Exercises
+##### Additional Resources
 
 #### Strings
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 * know:
 * reading/vids
 * digest
@@ -63,6 +143,11 @@ The exercises should help you hone in on what things you understand well and whi
 * exercises
 
 #### Arrays
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 * know:
 * reading/vids
 
@@ -84,11 +169,11 @@ The exercises should help you hone in on what things you understand well and whi
 * Test-first exercises
 
 #### Hashes
-* know:
-* reading
-* digest
-* thought questions
-* exercises
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 
 #### Numbers, Strings and Arrays and Hashes Exercises (Paired)
 * sort
@@ -98,14 +183,39 @@ The exercises should help you hone in on what things you understand well and whi
 * 
 
 #### Enumerable
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 
-#### Object
+#### Objects
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 
 #### Ranges
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 
 #### Dates and Times
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 
 #### Advanced Issues
+##### Intro and Goals
+##### Questions
+##### Check these out First
+##### Digest
+##### Exercises
 
 #### Tutorial
 
@@ -135,7 +245,7 @@ So now you've got an understanding of what tools you can use and it's time to st
 
 You have the power to assemble the building blocks and control how your program steps through them.  You may have been told that "everything in Ruby is a method."  So what are methods anyways?
 
-#### Everything is a Method
+#### Everything is an Object
 
 #### Inputs
 
@@ -185,7 +295,7 @@ You can assemble code, tell the program which parts of it to execute, and wrap i
 
 ## Intermediate Ruby
 
-Classes, inheritance, OO design, refactoring, naming, recursion, scope, regex, Modules, metaprogramming (reflection?)
+Classes, inheritance (use .methods), OO design, refactoring, naming, recursion, scope, regex, Modules, metaprogramming (reflection?)
 
 ## Ruby and the Web
 
