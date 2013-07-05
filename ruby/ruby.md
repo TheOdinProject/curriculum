@@ -26,7 +26,7 @@ As you may gather, this is also where the real project work begins.  Some of the
 
 **How this will work:**
 
-Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "digest" of the material but it's not a replacement for actually doing the reading.  At the end of each section or group of sections will be programming exercises which are best done in pairs.
+Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "A Brief Summary" of the material but it's not a replacement for actually doing the reading.  At the end of each section or group of sections will be programming exercises which are best done in pairs.
 
 **Our free resources:**
 
@@ -57,7 +57,7 @@ The exercises should help you hone in on what things you understand well and whi
 ##### Goals
 This is pretty straightforward stuff.  The goal here is to familiarize yourself with all basic data types and how they interact in arithmetic expressions
 
-##### Questions
+##### Thought Questions
 * What's the difference between `=`, `==`, and `===`?
 * How do you do exponents in Ruby?
 
@@ -66,7 +66,7 @@ This is pretty straightforward stuff.  The goal here is to familiarize yourself 
 * Read [Learn to Program Chapter 1](http://pine.fm/LearnToProgram/?Chapter=01) (You should already have completed this)
 * Read [http://rubylearning.com/satishtalim/numbers_in_ruby.html](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
 
-##### Digest
+##### A Brief Summary
 
 When doing mathematical operations, Ruby expects the result to be the same type as the inputs, so dividing two integers by each other will produce an integer... whether you want to or not:
 
@@ -114,7 +114,7 @@ See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-rub
 
 Hopefully you've already picked most of this up from the prep-work.
 
-##### Questions
+##### Thought Questions
 * What is an object?
 * What is a class?
 * What is a method?
@@ -131,7 +131,7 @@ Hopefully you've already picked most of this up from the prep-work.
 ##### Do These First
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
 
-##### Digest
+##### A Brief Summary
   
 Think of every "thing" in Ruby as a having more than meets the eye. The number `12` is more than just a number... It's an **object*** and Ruby lets you do all kinds of interesting things to it like adding and multiplying and asking it questions like `> 12.class` or `> 12+3`.
 
@@ -161,26 +161,114 @@ An interesting exercise to try in Ruby is to use the method `.superclass` to ask
 
 #### Strings
 ##### Intro and Goals
-##### Questions
+##### Thought Questions
+* What's the difference between single and double quotes?
+* What is string interpolation?
+* What are escape characters?
+* What are line breaks?
+* How do you make other things into strings?
+* How do you concatenate strings?
+* How do you access a specific character or substring?
+* What is %Q or %q?
+* How do you split up strings into arrays?
+* How are strings an arrays similar?
+* What does it mean that strings are "mutable" and why care?
 * What is a symbol?
 * How is a symbol different from a string?
+
 ##### Check these out First
-##### Digest
+* [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
+* A list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby
+
+##### A Brief Summary
+Strings are just made up of individual characters and denoted with quotes.  `I confuse Ruby and probably throw an error` but `"I do not because I have quotes"`.  
+
+**Double Quotes** are often interchangeable with **Single Quotes**... there's almost no difference and you're free to use either.  Two cases make the distinction important:
+
+A) When you want to show quotes inside a string:
+
+    > my_long_string = "And she said, 'Cool program!'"
+    => "And she said, 'Cool program!'"
+
+Note that you can accomplish the same type of thing by escaping the quote characters (see below).
+
+B) When you want to use string interpolation and when you want to show quotes within a string.
+
+**String Interpolation** occurs when you want to plug something else into a string, like a variable.  You'll find yourself using this a lot, for instance, when you make websites with dynamic text content that needs to change depending on who is logged in.  Simply use the pound symbol and curly braces `#{}` to do so, and the output of whatever is within those curly braces will be converted to a string and, presto! You've got a new string:
+
+    > my_name = "Tiny Tim"
+    => "Tiny Tim"
+    > my_string = "My name is #{my_name}!"
+    => "My name is Tiny Tim!"
+
+The key point here, though, is that interpolation *only works inside DOUBLE quotes*.  Keep the interpolated stuff brief or your code won't be very legible.  Single quotes will simply escape every special character in the string and treat it like a normal letter (so the pound-curly-braces has no special meaning):
+
+    > my_name = "Neo"
+    => "Neo"
+    > my_string = 'My name is #{my_name}!'
+    => "My name is \#{my_name}!"  # Hey! That's not what we wanted!
+
+**Escaping** characters just means telling the output program to not treat them specially at all (like the pound symbol, which has special meaning before the curly braces).  You do so with a back slash `\` before whatever you want to escape.  Sometimes you'll see what looks like a strange jumble of characters in your output, with lots of those '\' floating around, and you'll know that you've got some escaping going on.
+
+    > now = "RIGHT NOW"
+    => "RIGHT NOW"
+    > puts "interpolating #{now} but not \#{now}"
+    "interpolating RIGHT NOW but not #{now}"
+    => nil            # Remember, puts returns nil!
+
+IRB shows you the backslashes, but they'll be hidden in your `puts` output.
+
+As you can imagine, this could get pretty tedious if you're trying to output a blog post or some other long batch of text that contains lots of mixed characters and don't want to manually or programmatically replace special characters, so later we'll see some simple convenience methods to use to take care of those issues for you.
+
+There are some special characters that are actually denoted using the backslash and you'll want to know the key ones, which will probably pop up again and again:  
+* `\n` will output a new line
+* `\t` will output a tab
+
+    > puts "let's put a bunch of newlines between this\n\n\nand this."
+
+
+
+    and this.
+    => nil
+
+**`to_s`** is a method that will try to convert anything into a string.  
+
+    > 12345.to_s
+    => "12345"
+
+This method gets called a LOT behind the scenes later on... basically anytime Ruby or especially Rails is outputting or rendering something (like a variable), it will call `to_s` on it to make it a nice friendly string first.  
+
+Fun fact: If you've created your own object, you may need to write your own `to_s` method for it to display properly in some settings (e.g. looking ahead, if you've got a Person object and want to display its first name only whenever you tried to `puts` it, you'd want to write the `to_s` method to do so).
+
+**Combining Strings** without using interpolation can be done using "concatenation", or basically just adding them together:
+
+    > my_name = "Billy Bob"
+    > "hello" + " world" + ", say I, the great " + my_name + "!"
+    # => "hello world, say I, the great Billy Bob!"
+
+Instead of adding them with a plus `+`, you can also use the friendly shovel operator `<<` to append to a string (just like with arrays...):
+
+    > "howdy " << "fella!"
+    => "howdy fella!"
+
+Fun fact: Strings made with the backtick characters `` ` `` (usually on the same key as the tilde `~`) are actually interpolated and run by your operating system, so in IRB if you type ``> puts `ls` `` on a mac, it will actually output your directory contents!
+
 ##### Exercises
 * know:
 * reading/vids
-* digest
+* A Brief Summary
 * thought questions
 * exercises
 
 #### Arrays
 ##### Intro and Goals
-##### Questions
+##### Thought Questions
 ##### Check these out First
-##### Digest
+##### A Brief Summary
 ##### Exercises
 * know:
 * reading/vids
+* CODECADEMY http://www.codecademy.com/tracks/ruby
 
 * Creating an Array
 * Accessing items (index and range)
@@ -201,9 +289,10 @@ An interesting exercise to try in Ruby is to use the method `.superclass` to ask
 
 #### Hashes
 ##### Intro and Goals
-##### Questions
+##### Thought Questions
 ##### Check these out First
-##### Digest
+CODECADEMY http://www.codecademy.com/tracks/ruby
+##### A Brief Summary
 ##### Exercises
 
 #### Numbers, Strings and Arrays and Hashes Exercises (Paired)
@@ -215,30 +304,23 @@ An interesting exercise to try in Ruby is to use the method `.superclass` to ask
 
 #### Enumerable
 ##### Intro and Goals
-##### Questions
+##### Thought Questions
 ##### Check these out First
-##### Digest
-##### Exercises
-
-#### Objects
-##### Intro and Goals
-##### Questions
-##### Check these out First
-##### Digest
+##### A Brief Summary
 ##### Exercises
 
 #### Ranges
 ##### Intro and Goals
-##### Questions
+##### Thought Questions
 ##### Check these out First
-##### Digest
+##### A Brief Summary
 ##### Exercises
 
 #### Dates and Times
 ##### Intro and Goals
-##### Questions
+##### Thought Questions
 ##### Check these out First
-##### Digest
+##### A Brief Summary
 ##### Exercises
 
 #### Advanced Issues
@@ -246,9 +328,9 @@ An interesting exercise to try in Ruby is to use the method `.superclass` to ask
 Puts vs p
 .to_s
 .inspect
-##### Questions
+##### Thought Questions
 ##### Check these out First
-##### Digest
+##### A Brief Summary
 ##### Exercises
 
 #### Tutorial
@@ -264,6 +346,8 @@ Puts vs p
 ### Conditionals and Flow Control
 
 So now you've got an understanding of what tools you can use and it's time to start thinking about how the program moves through your code.
+
+CODECADEMY http://www.codecademy.com/tracks/ruby
 
 #### If/Else
 
@@ -302,7 +386,11 @@ One of the most confusing parts of learning basic Ruby is understanding what blo
 http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas 
 > Blocks vs procs vs lambdas free screencast.  Need to know call though.
 
+http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/
+
 Blocks explained by Alex Chaffee (video) (http://codelikethis.com/lessons/ruby_blocks/blocks)
+
+CODECADEMY http://www.codecademy.com/tracks/ruby
 
 #### Blocks are Very Ruby-ish
 
@@ -322,14 +410,19 @@ Blocks explained by Alex Chaffee (video) (http://codelikethis.com/lessons/ruby_b
 
 ### Iteration
 
+CODECADEMY http://www.codecademy.com/tracks/ruby
+
 You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
 
 ### Projects
 
+### Style
+https://github.com/bbatsov/ruby-style-guide
 
 ## Intermediate Ruby
 
 Classes, inheritance (use .methods), OO design, refactoring, naming, recursion, scope, regex, Modules, metaprogramming (reflection?)
+http://www.codecademy.com/tracks/ruby for oop
 
 ## Ruby and the Web
 
