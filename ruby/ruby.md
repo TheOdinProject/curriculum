@@ -145,6 +145,19 @@ Methods can take **inputs** too, which are included in parentheses to the right 
 
 That example also shows **Method Chaining**, which is when you stick a bunch of methods onto each other.  It behaves like you'd expect -- evaluate the thing on the left first, pass whatever it returns to the method on the right and keep going.  So `> 1+2==3` first evaluates `1+2` to be `3` and then evaluates `3==3` which is `true`.  This is great because it lets you take what would normally be many lines of code and combine them into one elegant expression.
 
+**Bang Methods** are finished with an exclamation point `!` like `.sort!`, and they actually modify the original object.  Remember, when you run a normal method in IRB, it will output whatever the method returns but it will preserve the original object.  Bang methods save over the original object:
+
+    > my_numbers = [1,5,3,2]
+    => [1, 5, 3, 2]
+    > my_numbers.sort
+    => [1, 2, 3, 5]
+    > my_numbers
+    => [1, 5, 3, 2]          # still unsorted
+    > my_numbers.sort!
+    => [1, 2, 3, 5]
+    > my_numbers
+    => [1, 2, 3, 5]          # overwrote the original my_numbers object!
+
 Let's answer the question, "Where did all those methods come from?" **Classes** are like umbrellas that let us give an object general behaviors just based on what it is.  An object is an instance of a class -- you (yes, you) are an instance of the `Person` class.  There are lots of behaviors (methods) that you can do just by virtue of being a `Person`... `.laugh`, `.jump`, `.speak("hello")`.  This is really useful in programming because you often need to create lots of instances of something and it's silly to have to rewrite all the methods you want all of them to have anyway, so you write them at the class level and all the instances get to use them.
 
 Instances of a class get to **inherit** the behaviors of that class.  Inheritance works for classes too!  Your class `Person` has lots of methods but many of them are inherited just by virtue of you also being a `Mammal` or even just a `LivingThing`.  You get to use all the methods of your ancestor classes
@@ -155,6 +168,10 @@ An interesting exercise to try in Ruby is to use the method `.superclass` to ask
     => BasicObject
     > BasicObject.methods
     => # giant list of methods
+
+Random Note: Running the `.methods` method on a class only returns the class methods, whereas `.instance_methods` will return all methods available to any instance of that class (so `String.methods` will return a list of class methods, while `"hello".methods` will return a longer list that is the same as `String.instance_methods`).
+
+Other Random Note: Use `.object_id` to see an object's id, and this can be useful if you're running into odd errors where you thought you were modifying and object but it's not changing.  If you debug and look at the id's along the way, you may find that you're actually only modifying a COPY of that object.
 
 ##### Exercises
 ##### Additional Resources
@@ -169,16 +186,19 @@ An interesting exercise to try in Ruby is to use the method `.superclass` to ask
 * How do you make other things into strings?
 * How do you concatenate strings?
 * How do you access a specific character or substring?
-* What is %Q or %q?
 * How do you split up strings into arrays?
 * How are strings an arrays similar?
+* How do you get and clean up user input on the command line?
 * What does it mean that strings are "mutable" and why care?
 * What is a symbol?
 * How is a symbol different from a string?
+* What is a Regular Expression (RegEx)?
 
 ##### Check these out First
 * [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
 * A list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby
+* Read through (and watch the video) for this [Regular Expressions in Ruby](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-regular-expressions/) explanation.
+* A great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
 
 ##### A Brief Summary
 Strings are just made up of individual characters and denoted with quotes.  `I confuse Ruby and probably throw an error` but `"I do not because I have quotes"`.  
@@ -222,6 +242,7 @@ As you can imagine, this could get pretty tedious if you're trying to output a b
 
 There are some special characters that are actually denoted using the backslash and you'll want to know the key ones, which will probably pop up again and again:  
 * `\n` will output a new line
+* `\r` is a newline too (carriage return)
 * `\t` will output a tab
 
     > puts "let's put a bunch of newlines between this\n\n\nand this."
@@ -251,7 +272,84 @@ Instead of adding them with a plus `+`, you can also use the friendly shovel ope
     > "howdy " << "fella!"
     => "howdy fella!"
 
-Fun fact: Strings made with the backtick characters `` ` `` (usually on the same key as the tilde `~`) are actually interpolated and run by your operating system, so in IRB if you type ``> puts `ls` `` on a mac, it will actually output your directory contents!
+To **Access a Specific Character or Substring** of a string, just treat it like an array!  A string acts like a zero-indexed array that ends at -1, so use `[0]` to access the first letter, `[-1]` to access the last letter, and `[n..m]` to pluck a substring:
+
+    > s = "hello"
+    => "hello"
+    > s[0]
+    => "h"
+    > s[-1]
+    => "o"
+    > s[-2]
+    => "l"
+    > s[2..4]
+    => "llo"
+    > s[1..-2]
+    => "ell"
+
+**Break a String into Pieces** using `.split`, which creates an array of substrings that are broken up based on whatever character you passed in:
+
+    > list = "eggs, milk, cheese and crackers"
+    => "eggs, milk, cheese and crackers"
+    > list.split(", ")
+    => ["eggs", "milk", "cheese and crackers"]
+    > list.split(" ")
+    => ["eggs,", "milk,", "cheese", "and", "crackers"]
+
+You can also split based on individual characters by passing either a blank string or a blank regular expression (denoted by `//`):
+
+    > list.split("")      # or also list.split(//)
+    => ["e", "g", "g", "s", ",", " ", "m", "i", "l", "k", ",", " ", "c", "h", "e", "e", "s", "e", " ", "a", "n", "d", " ", "c", "r", "a", "c", "k", "e", "r", "s"] 
+
+When you write your Ruby programs, you'll probably want to ask for **User Input**... which is easy with `gets`, which then waits for the user to type something.  You'll want to store whatever the user types into a variable and be sure to trim off the extra line break (from when the user hit the `enter` key) using `.chomp`:
+
+    > player1 = gets    
+    Erik                # this was typed in manually
+    => "Erik\n"         # woah, let's get rid of that \n
+    > player1 = gets.chomp
+    Erik
+    => "Erik"           # better.
+
+`.chomp` will cut off a space or newline at the END of the string (and can take an optional input so you can specify what exactly to chomp off). `.strip` will remove ALL spaces and newlines from both the beginning and end of the string:
+
+    > " dude \n".chomp
+    => " dude "         # still have the extra spaces
+    > " dude \n".strip
+    => "dude"           # clean as a whistle.
+
+Of course, it's up to you to figure out if your user has entered something illegal or harmful, but at least you have an easy job removing extraneous spaces and returns.
+
+**Other Helpful String Methods** include:
+* `.length` to get the length of the string
+* `.downcase` to convert `"ALL THIS"`` to `"all this"`
+* `.upcase` to convert `"all this"` back to `"ALL THIS"`
+* `.reverse` to convert `"hello"` to `"olleh"`
+
+Fun fact: Strings made with the backtick characters `` ` `` (which is usually located on the same key as the tilde `~`) are actually interpolated and run by your operating system, so in IRB if you type ``> puts `ls` `` on a mac, it will actually output your directory contents!
+
+What about all the times you may want to **Search For or Replace Within Strings**?  For that, you need to begin understanding **Regular Expressions**, or "RegEx"'s.  There's a handy method for strings called `.gsub(pattern, replace_with_this)`, which finds any occurrances of that pattern and replaces it with whatever you want:
+
+    > "hello".gsub("l","r")
+    => "herro"
+
+But what if you want to go looking for more advanced patterns than just simple letters?  Pretty much anytime you've got a function that needs to go mucking through a string looking for patterns, you can employ a Regular Expression.  
+
+Regular Expressions are really just a special syntax that is used to find things (and not just in Ruby, they're used all over the place).  It's beyond the scope of this summary for sure, but I hope you've tried them out at [RegexOne](http://regexone.com/).  Once you know how to match stuff, you'll feel ready to take on any big dictionary files or big batches of questionable user input that needs to be standardized.  But be careful, it can be too tempting to go hog-wild with your expressions. It's something you should at least know the basics of but probably will not be applying all that often "in the wild".  
+
+The last thing to cover is **Symbols**, which start creeping up all over the place when you get into Rails and even Hashes.  Symbols are denoted with the colon before the name, e.g. `:my_symbol` instead of `"my_string"`.  A symbol is basically like a string without any depth... string lite, if you will.  A string is **Mutable**, meaning it can be added to, reversed, and generally messed with in a hundred different ways.  Whenever you have text that you want to play around with or use as, well, text, just stick with strings.
+
+But sometimes all you want is a name, like when you're using a hash key.  In that case, it makes sense to use symbols.  Symbols are immutable, so they don't change.  They are also only stored in memory in one place, wherease strings have a new place in memory each time you declare one:
+
+    > "hello".object_id
+    => 70196107337380
+    > "hello".object_id
+    => 70196107320960       # different
+    > :hello.object_id
+    => 461128
+    > :hello.object_id
+    => 461128               # same!
+
+While you're learning, just stick with strings until you see the examples using symbols, which will mostly be with hash keys.
 
 ##### Exercises
 * know:
