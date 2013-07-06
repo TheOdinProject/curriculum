@@ -540,29 +540,7 @@ Remember how we could create a new array and fill it up with stuff using `Array.
     > Array.new(5){|item_index| item_index ** 2}
     => [0, 1, 4, 9, 16]    # It squared each index to populate the array!
 
-
-
 ##### Exercises
-* know:
-* reading/vids
-* CODECADEMY http://www.codecademy.com/tracks/ruby
-
-* Creating an Array
-* Accessing items (index and range)
-* Changing items
-* Adding and Removing items (push and pop and shift and unshift and shovel)
-* Helper methods (size, count)
-* Arrays to strings
-* Include?
-* Sort
-* Shuffle
-* First, Last
-* Sample
-* Pluralize Names
-* Best practices with arrays: One thing only
-** EXERCISES **
-* thought questions
-* Test-first exercises
 
 #### Hashes
 ##### Intro and Goals
