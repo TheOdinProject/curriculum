@@ -1,10 +1,11 @@
-== Welcome to The Odin Project v0.0.2
+== Welcome to The Odin Project v0.0.3
 
 It's game on.
 
 Note to self:  You can't call any custom stylesheets or heroku will shit the bed.  The assets get precompiled so NO WAY can you call custom stylesheets at runtime.
 
 DEPLOYMENT NOTES: **************
+<< None >>
 ********************************
 
 >> Optimize Google Analytics
@@ -13,6 +14,25 @@ DEPLOYMENT NOTES: **************
 
 
 ********************* Major Roadmap *************************
+0.0.3:  Referral Links
+*** Smooth referral linking
+ >> create stub names for content_bucket's for link clarity
+ >> If logged in
+ >>> if no prior content buckets, put that one in
+ >>> if priors, go to prefs and highlight current + new ones w/ message asking to save
+ >> If not logged in or signed up, log in or sign up then do the above
+*** Privacy notification
+*** Test coverage for the above
+
+0.0.4:  Private Launch
+*** Launch to private meetup users with privacy notifications
+
+0.0.5:  Profile Links from Scheduler
+0.0.6:  Anonymize email reach-outs
+0.0.?:  Anonymize scheduler results
+0.0.?:  Scheduling back-end
+0.0.?:  Feedback mechanism
+
 > Build mailer button in the event profiles
 >> Select which project too if multiple!
 > Fix up suggestion mailer to include username/email and proper referral link
