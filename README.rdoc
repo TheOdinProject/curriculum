@@ -4,19 +4,20 @@ It's game on.
 
 Note to self:  You can't call any custom stylesheets or heroku will shit the bed.  The assets get precompiled so NO WAY can you call custom stylesheets at runtime.
 
-DEPLOYMENT NOTES: **************
+**************************  DEPLOYMENT NOTES: **********************
 << None >>
-********************************
+********************************************************************
 
 >> Optimize Google Analytics
 >> Set up viral feedback looping like launchrock -- give each signup a unique referral code and make links between them so you see downstream who refers most.  
 >> Add social buttons to the splash process
 
 
-********************* Major Roadmap *************************
+**************************  Major Roadmap  **************************
+
 0.0.3:  Referral Links
 *** Smooth referral linking
- >> create stub names for content_bucket's for link clarity
+ XXXX NO. create stub names for content_bucket's for link clarity
  >> If logged in
  >>> if no prior content buckets, put that one in
  >>> if priors, go to prefs and highlight current + new ones w/ message asking to save
@@ -37,7 +38,19 @@ DEPLOYMENT NOTES: **************
 >> Select which project too if multiple!
 > Fix up suggestion mailer to include username/email and proper referral link
 > Add user prefs filters as well
-*************************************************************
+
+**********************  Current Version Sandbox  ********************
+
+* Create a URL catcher that plants a cookie in the browser for ?cb= anything (and can be expanded into others) 1 day cookie
+* Check the cookie when the Scheduler page is reached, then do whatever comes next
+* for starters, just do a popup or something
+
+test:
+cookie expiration
+
+
+
+**********************  General Sandbox  ****************************
 
 >> WRITE JAVASCRIPT TESTS
 >>>> calendar basic display, calendar population, event creation

@@ -23,7 +23,7 @@ class StaticPagesController < ApplicationController
   end
 
   def scheduler
-
+    puts "\n\n\n\n cookies are: #{cookies["cb"].inspect}! \n\n\n\n"
   end
 
   # For the suggestion form in the footer

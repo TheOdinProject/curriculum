@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+  before_filter :catch_referral_codes
 
   include BootstrapFlashHelper
 
@@ -11,6 +12,20 @@ class ApplicationController < ActionController::Base
   # Customize Devise to send newly signed in users to the scheduler first
   def after_sign_in_path_for(resource_or_scope)
     scheduler_path
+  end
+
+  protected
+
+  def catch_referral_codes
+    ref_codes = ["cb"]  # add any referral codes later here
+    used_codes = ref_codes & params.keys
+
+    return unless used_codes.size > 0
+    used_codes.each do |code|
+      cookies[code] = {   :value => params[code], 
+                          :expires => 1.day.from_now  }
+    end
+
   end
 
 end
