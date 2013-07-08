@@ -372,6 +372,7 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 * How do you modify the items in an array?
 * How do you combine arrays? 
 * How do you find the values in one array that aren't in another?
+* How do you find values in both arrays?
 * What is the difference between `push`/`pop` and `shift`/`unshift`?
 * What is the shovel operator?
 * How is `> arr.pop` different from `> arr[-1]`?
@@ -452,6 +453,11 @@ And remember, you can store pretty much anything in there, even other arrays:
     => [3,4]              # it killed ALL the 2's
 
 You'll find yourself adding arrays a lot more frequently than subtracting them but it's good to know both.
+
+If you want to find values in **Both** arrays, check their union using the ampersand `&`:
+
+    > [1,2,3]&[2,4,5]
+    => [2]
 
 What if you only want to add or subtract one single value?  That's a very common operation with arrays, and Ruby has provided four handy methods that let you either pluck away or add onto the front or back of the array.  First, the more common is to add or remove stuff from the END of the array, using **`.push` or `.pop`**:
 
