@@ -1,4 +1,23 @@
 <div class="span6 offset3" id="devise-form">
+
+  <div class="alpha-alert">
+    <h3>Alpha Release Warning</h3>
+    <p>
+      Thanks for your interest in The Odin Project and we're excited to have you in on the ground floor! Just so you know, this is currently an alpha-level product, which means a couple of things:
+    </p>
+    <ol>
+      <li>
+        <strong>It's Rough Around the Edges</strong><br> This is a private pre-release, so don't expect anything near to perfection.  It's very much a work in progress that responds to your needs and we'll be expanding the features based on the feedback we receive.
+      </li>
+      <li>
+        <strong>We Need Your Help!</strong><br> If you see something that looks odd, isn't very intuitive, or throws an error message, let us know!  Use the suggestion box at the bottom of the screen or email us at feedback@theodinproject.com, preferably with a screenshot and as much information as you can about what happened.  Same goes if you want to see some new features... we're all building this project together!
+      </li>
+      <li>
+        <strong>Your Email Is Currently Visible To Others</strong><br>    Don't worry, this doesn't mean we're going to be giving your email away or anything like that, but you should know that right now the scheduling tool isn't set up to hide your contact information when you put your availability on there, so it could be visible to anyone else signed up for the site.  More privacy settings will be implemented in the future.
+      </li>
+    </ol>
+  </div>
+
   <h2>Sign up</h2>
 
   <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
