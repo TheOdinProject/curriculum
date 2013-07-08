@@ -4,10 +4,15 @@ class UserPrefsController < ApplicationController
   def edit
     @user_pref = current_user.user_pref
     @content_buckets = ContentBucket.all
+
+    # Hang onto the last page we visited so 
+    # we can return to it upon successful form submission
+    session["ref_edit_pref"] = request.referer || edit_user_pref_path
   end
 
   # replaces all old projects with the new batch
   def update
+        # puts "\n\\n\n\n\n\n\n\n\n\n\n ref: #{request.referer}! \n\n\n\n\n\n\n\n\n\n"
     current_user.content_activations.delete_all
     params[:user_pref][:user][:content_bucket_ids].each do |id|
       next if id.blank?
@@ -16,7 +21,12 @@ class UserPrefsController < ApplicationController
       end
     end
     flash[:success] = "Preferences updated successfully"
-    redirect_to :back
+    unless session["ref_edit_pref"].blank?
+      redirect_to session["ref_edit_pref"]
+      session["ref_edit_pref"] = nil
+    else
+      redirect_to :back
+    end
   end
 
   protected
@@ -28,3 +38,4 @@ class UserPrefsController < ApplicationController
     end
 
 end
+# ENV["HTTP_REFERER"]

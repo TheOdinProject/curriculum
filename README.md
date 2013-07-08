@@ -57,6 +57,7 @@ cookie can only be valid content bucket
 will add new content bucket if alone
 will add new content bucket with message only if it doesn't already exist
 won't accept a nil content bucket
+session will return user after form submit if referred
 
 
 
