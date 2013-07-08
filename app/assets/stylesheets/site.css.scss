@@ -2,6 +2,7 @@
 
 /* Main Variables */
 $default-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$logo-font: "Palatino Linotype", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $monospace-font: 'Inconsolata', monospace;
 $grotesque-font: 'Montserrat', $default-font; 
 
@@ -30,4 +31,8 @@ footer {
   #feedback-text-box{
     width: 400px;
   }
+}
+
+#logo {
+  font-family: $logo-font;
 }
