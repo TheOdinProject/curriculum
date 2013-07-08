@@ -43,14 +43,20 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 DONE * Create a URL catcher that plants a cookie in the browser for ?cb= anything (and can be expanded into others) 1 day cookie
 DONE * Check the cookie when the Scheduler page is reached, then do whatever comes next
+DONE If no prev events, park on scheduler page with that content bucket already set, kill cookie
+DONE If prev events, go to preferences page and add a new-but-unsaved event (just a select?), kill cookie either way, put message saying what's up
 
-* If no prev events, park on scheduler page with that content bucket already set, kill cookie
-* If prev events, go to preferences page and add a new-but-unsaved event (just a select?), kill cookie either way, put message saying what's up
-* Have submit button go back to scheduler page.  Need to set up a referrer query string for this.
+* Have "Update" button go back to scheduler page.  Need to set up a referrer query string for this... can we autopopulate it or do we manually need to figure it out?  
+* Improve spacing of the box to handle bigger project names
+* Alpha privacy disclaimer (your info will be public for a while)
 
 test:
 cookie expiration
+cookie clearing after operations
 cookie can only be valid content bucket
+will add new content bucket if alone
+will add new content bucket with message only if it doesn't already exist
+won't accept a nil content bucket
 
 
 

@@ -19,11 +19,17 @@ class ApplicationController < ActionController::Base
   def catch_referral_codes
     ref_codes = ["cb"]  # add any referral codes later here
     used_codes = ref_codes & params.keys
-
     return unless used_codes.size > 0
+    
     used_codes.each do |code|
-      cookies[code] = {   :value => params[code], 
-                          :expires => 1.day.from_now  }
+
+      # validate particular cases
+      if code == "cb"
+        next if ContentBucket.find_by_id(params["cb"]).nil?
+        cookies["cb"] = {   :value => params["cb"], 
+                            :expires => 1.day.from_now  }
+      end
+
     end
 
   end
