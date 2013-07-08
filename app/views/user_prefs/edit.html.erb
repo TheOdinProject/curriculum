@@ -1,4 +1,4 @@
-<div class="span6 offset3" id="devise-form">
+<div class="span8 offset2" id="devise-form">
 
   <h2>Preferences</h2>
 
@@ -6,7 +6,12 @@
 
     <div class="form-inputs">
       <%= f.fields_for @user_pref.user do |ff| %>
-        <%= ff.association :content_buckets, :collection => @content_buckets, :multiple => true, :label => "My Project(s):", :hint => "Select the project(s) you'd like to pair on!" %>
+        <%= ff.association :content_buckets, 
+              :collection => @content_buckets, 
+              :multiple => true, 
+              :label => "My Project(s):", 
+              :hint => "Select the project(s) you'd like to pair on!",
+              :html => { :class => "wide" } %>
       <% end %>
     </div>
 

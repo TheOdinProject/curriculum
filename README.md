@@ -45,10 +45,11 @@ DONE * Create a URL catcher that plants a cookie in the browser for ?cb= anythin
 DONE * Check the cookie when the Scheduler page is reached, then do whatever comes next
 DONE If no prev events, park on scheduler page with that content bucket already set, kill cookie
 DONE If prev events, go to preferences page and add a new-but-unsaved event (just a select?), kill cookie either way, put message saying what's up
+DONE Have "Update" button go back to scheduler page.  Need to set up a referrer query string for this... can we autopopulate it or do we manually need to figure it out?
 
-* Have "Update" button go back to scheduler page.  Need to set up a referrer query string for this... can we autopopulate it or do we manually need to figure it out?  
 * Improve spacing of the box to handle bigger project names
 * Alpha privacy disclaimer (your info will be public for a while)
+* slightly reduce width of schedule bars?
 
 test:
 cookie expiration
