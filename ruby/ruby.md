@@ -546,8 +546,7 @@ Remember how we could create a new array and fill it up with stuff using `Array.
 #### Hashes
 ##### Intro and Goals
 
-Hashes may be a bit intimidating at first but they're actually pretty similar to arrays.  They're basically just containers for data, like arrays, but instead of storing data based on a numeric indices, you use "keys" which can be strings or symbols.  This makes hashes more appropriate for storing data with a bit more depth to it.  
-
+Hashes may be a bit intimidating at first but they're actually pretty similar to arrays.  They're basically just containers for data, like arrays, but instead of storing data based on a numeric indices, you use "keys" which can be strings or symbols.  This makes hashes more appropriate for storing data with a bit more depth to it.
 
 ##### Thought Questions
 * What is a hash?
@@ -565,6 +564,7 @@ Hashes may be a bit intimidating at first but they're actually pretty similar to
 
 
 ##### Check these out First
+* [Treehouse's intro to Hashes video](http://www.youtube.com/watch?v=NvXeDtKkXq8), and don't worry about the awesome_print gem, it's not required.
 * [Codecademy's section on Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/1/1) for the basics.
 * [Codecademy's hashes and symbols section](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw) to bring together what we talked about in the strings section.
 * Go back and do [Ruby Monk's Hashes section](http://rubymonk.com/learning/books/1/chapters/10-hashes-in-ruby/lessons/46-introduction-to-ruby-hashes) if you didn't do it during the Web Dev 101 section.  Shame on you for not doing it before >:o
