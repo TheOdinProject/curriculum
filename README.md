@@ -1,4 +1,4 @@
-== Welcome to The Odin Project v0.0.3
+== Welcome to The Odin Project v0.0.4
 
 It's game on.
 
@@ -15,19 +15,7 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **************************  Major Roadmap  **************************
 
-0.0.3:  Referral Links
-*** Smooth referral linking
- XXXX NO. create stub names for content_bucket's for link clarity
- >> If logged in
- >>> if no prior content buckets, put that one in
- >>> if priors, go to prefs and highlight current + new ones w/ message asking to save
- >> If not logged in or signed up, log in or sign up then do the above
-*** Privacy notification
-*** Test coverage for the above
-
-0.0.4:  Private Launch
-*** Launch to private meetup users with privacy notifications
-
+0.0.4:  Mobile Friendly Splash
 0.0.5:  Profile Links from Scheduler
 0.0.6:  Anonymize email reach-outs
 0.0.?:  Anonymize scheduler results
@@ -40,26 +28,13 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 > Add user prefs filters as well
 
 **********************  Current Version Sandbox  ********************
-v0.0.3: Referral Links
-DONE * Create a URL catcher that plants a cookie in the browser for ?cb= anything (and can be expanded into others) 1 day cookie
-DONE * Check the cookie when the Scheduler page is reached, then do whatever comes next
-DONE If no prev events, park on scheduler page with that content bucket already set, kill cookie
-DONE If prev events, go to preferences page and add a new-but-unsaved event (just a select?), kill cookie either way, put message saying what's up
-DONE Have "Update" button go back to scheduler page.  Need to set up a referrer query string for this... can we autopopulate it or do we manually need to figure it out?
-DONE Improve spacing of the box to handle bigger project names
-DONE Alpha privacy disclaimer (your info will be public for a while)
-DONE Link the pairing instructions to the github curriculum
-DONE signed in user goes to scheduler by default not splash
-* test:
-FAIL cookie setting >> testing cookies is murderously painful.
-FAIL cookie expiration >> IBID
-FAIL cookie clearing after operations >> IBID
-FAIL cookie can only be valid content bucket >> IBID
-DONE will add new content bucket if alone
-PENDING/FAIL will add new content bucket with message only if it doesn't already exist >> since signin redirects to scheduler prematurely currently
-DONE won't accept an invalid content bucket
-DONE signed in user goes to sched by default
-DONE session will return user after form submit if referred
+
+0.0.4:  Mobile Friendly Splash
+DONE Reduce image size
+DONE hard size background
+DENIED Media query stylesheet
+PARTIAL ems not px for splash fonts
+DONE kill the signed-in-successfully flash message
 
 
 **********************  General Sandbox  ****************************
@@ -95,3 +70,25 @@ Eventually:
 http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
 https://gist.github.com/zhengjia/428105
 
+
+***********************  Version Archive  **************************
+v0.0.3: Referral Links
+DONE * Create a URL catcher that plants a cookie in the browser for ?cb= anything (and can be expanded into others) 1 day cookie
+DONE * Check the cookie when the Scheduler page is reached, then do whatever comes next
+DONE If no prev events, park on scheduler page with that content bucket already set, kill cookie
+DONE If prev events, go to preferences page and add a new-but-unsaved event (just a select?), kill cookie either way, put message saying what's up
+DONE Have "Update" button go back to scheduler page.  Need to set up a referrer query string for this... can we autopopulate it or do we manually need to figure it out?
+DONE Improve spacing of the box to handle bigger project names
+DONE Alpha privacy disclaimer (your info will be public for a while)
+DONE Link the pairing instructions to the github curriculum
+DONE signed in user goes to scheduler by default not splash
+* test:
+FAIL cookie setting >> testing cookies is murderously painful.
+FAIL cookie expiration >> IBID
+FAIL cookie clearing after operations >> IBID
+FAIL cookie can only be valid content bucket >> IBID
+DONE will add new content bucket if alone
+PENDING/FAIL will add new content bucket with message only if it doesn't already exist >> since signin redirects to scheduler prematurely currently
+DONE won't accept an invalid content bucket
+DONE signed in user goes to sched by default
+DONE session will return user after form submit if referred

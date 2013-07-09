@@ -10,7 +10,7 @@
 
   h1{
     color: white;
-    font-size: 75px;
+    font-size: 5em;
     font-weight: 500;
     margin-top: 60px;
     margin-bottom: 25px; 
@@ -18,7 +18,7 @@
   }
 
   h2{
-    font-size: 28px;
+    font-size: 2em;
     font-weight: 400;
     color: white;
     text-shadow: 1px 1px 1px rgba(0,0,0,1);
@@ -35,7 +35,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 100%;
+    width: 1280px;
   }
 
   #logo{
@@ -81,9 +81,9 @@
     width: 500px;
     h3{
       color: white;
-      font-size: 18px;
+      font-size: 1.2em;
       font-weight: 200;
-      line-height: 22px;
+      line-height: 1.4em;
       text-shadow: 1px 1px 1px black;
       margin: 35px auto 20px auto;
     }
