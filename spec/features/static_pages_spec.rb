@@ -265,6 +265,22 @@ describe "StaticPages" do
       end
     end
   end
+
+  describe "user preferences" do
+    let(:user){ FactoryGirl.create(:user) }
+
+    before do
+      sign_in(user)
+      visit scheduler_path
+      click_link "Preferences"
+    end
+
+    it "sends user back to referring URL" do
+      click_button "Update"
+      current_path.should == scheduler_path
+    end
+
+  end
 end
 
 

@@ -59,8 +59,7 @@ DONE will add new content bucket if alone
 PENDING/FAIL will add new content bucket with message only if it doesn't already exist >> since signin redirects to scheduler prematurely currently
 DONE won't accept an invalid content bucket
 DONE signed in user goes to sched by default
-
-session will return user after form submit if referred
+DONE session will return user after form submit if referred
 
 
 **********************  General Sandbox  ****************************
