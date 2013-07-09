@@ -12,7 +12,6 @@ class UserPrefsController < ApplicationController
 
   # replaces all old projects with the new batch
   def update
-        # puts "\n\\n\n\n\n\n\n\n\n\n\n ref: #{request.referer}! \n\n\n\n\n\n\n\n\n\n"
     current_user.content_activations.delete_all
     params[:user_pref][:user][:content_bucket_ids].each do |id|
       next if id.blank?

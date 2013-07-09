@@ -2,6 +2,9 @@ class StaticPagesController < ApplicationController
   before_filter :authenticate_user!, :only => :scheduler
 
   def splash
+    if user_signed_in?
+      redirect_to :scheduler
+    end
   end
 
   def splash_email
@@ -23,7 +26,6 @@ class StaticPagesController < ApplicationController
   end
 
   def scheduler
-    puts "\n\n\n\n cookies are: #{cookies["cb"].inspect}! \n\n\n\n"
 
     unless cookies["cb"].blank?
       cb = ContentBucket.find_by_id(cookies["cb"])

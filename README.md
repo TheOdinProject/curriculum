@@ -40,26 +40,27 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 > Add user prefs filters as well
 
 **********************  Current Version Sandbox  ********************
-
+v0.0.3: Referral Links
 DONE * Create a URL catcher that plants a cookie in the browser for ?cb= anything (and can be expanded into others) 1 day cookie
 DONE * Check the cookie when the Scheduler page is reached, then do whatever comes next
 DONE If no prev events, park on scheduler page with that content bucket already set, kill cookie
 DONE If prev events, go to preferences page and add a new-but-unsaved event (just a select?), kill cookie either way, put message saying what's up
 DONE Have "Update" button go back to scheduler page.  Need to set up a referrer query string for this... can we autopopulate it or do we manually need to figure it out?
 DONE Improve spacing of the box to handle bigger project names
+DONE Alpha privacy disclaimer (your info will be public for a while)
+DONE Link the pairing instructions to the github curriculum
+DONE signed in user goes to scheduler by default not splash
+* test:
+FAIL cookie setting >> testing cookies is murderously painful.
+FAIL cookie expiration >> IBID
+FAIL cookie clearing after operations >> IBID
+FAIL cookie can only be valid content bucket >> IBID
+DONE will add new content bucket if alone
+PENDING/FAIL will add new content bucket with message only if it doesn't already exist >> since signin redirects to scheduler prematurely currently
+DONE won't accept an invalid content bucket
+DONE signed in user goes to sched by default
 
-* Alpha privacy disclaimer (your info will be public for a while)
-* slightly reduce width of schedule bars?
-
-test:
-cookie expiration
-cookie clearing after operations
-cookie can only be valid content bucket
-will add new content bucket if alone
-will add new content bucket with message only if it doesn't already exist
-won't accept a nil content bucket
 session will return user after form submit if referred
-
 
 
 **********************  General Sandbox  ****************************
