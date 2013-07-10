@@ -11,9 +11,10 @@
   h1{
     color: white;
     font-size: 5em;
+    line-height: 1em;
     font-weight: 500;
     margin-top: 60px;
-    margin-bottom: 25px; 
+    margin-bottom: 0px; 
     text-shadow: 1px 1px 1px rgba(0,0,0,1);
   }
 
@@ -35,7 +36,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 1280px;
+    width: 100%;
+    /*min-width: 960px;*/
   }
 
   #logo{
@@ -49,7 +51,8 @@
 
   /* Button to go to the curriculum on github*/
   .btn-view-curriculum{
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: 70px;
     font-size: 24px;
     margin-top: 20px;
@@ -78,7 +81,7 @@
   .subheading{
     letter-spacing: 1px;
     margin: 50px auto 0px auto;
-    width: 500px;
+    max-width: 500px;
     h3{
       color: white;
       font-size: 1.2em;
@@ -109,7 +112,7 @@
 
   .splash-box{
     text-align: center;
-    width: 1024px;
+    /*min-width: 960px;*/
     padding: 10px 10px 50px 10px;
     margin-top: 50px;
     margin-left: auto;

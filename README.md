@@ -15,7 +15,6 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **************************  Major Roadmap  **************************
 
-0.0.4:  Mobile Friendly Splash
 0.0.5:  Profile Links from Scheduler
 0.0.6:  Anonymize email reach-outs
 0.0.?:  Anonymize scheduler results
@@ -29,12 +28,6 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **********************  Current Version Sandbox  ********************
 
-0.0.4:  Mobile Friendly Splash
-DONE Reduce image size
-DONE hard size background
-DENIED Media query stylesheet
-PARTIAL ems not px for splash fonts
-DONE kill the signed-in-successfully flash message
 
 
 **********************  General Sandbox  ****************************
@@ -72,6 +65,15 @@ https://gist.github.com/zhengjia/428105
 
 
 ***********************  Version Archive  **************************
+
+**********
+v0.0.4:  Mobile Friendly Splash
+DONE Reduce image size
+DONE hard size background
+DENIED Media query stylesheet
+PARTIAL ems not px for splash fonts
+DONE kill the signed-in-successfully flash message
+**********
 v0.0.3: Referral Links
 DONE * Create a URL catcher that plants a cookie in the browser for ?cb= anything (and can be expanded into others) 1 day cookie
 DONE * Check the cookie when the Scheduler page is reached, then do whatever comes next
