@@ -92,6 +92,9 @@ To gain a better understanding of your command line, take this [Command Line Cra
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
+##### Additional Resources:
+* See common commands on the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html)
+
 ## Terms to Know 
 Estimated Time: 1-2 hrs
 
@@ -289,9 +292,9 @@ It's time for some Test-First Ruby! That means you'll be downloading a bunch of 
 
 ##### Additional Resources
 
-The Railsbridge [Ruby Language](http://curriculum.railsbridge.org/curriculum/ruby_language) unit.
-
-Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet but may help you shore up some of the concepts.
+* The Railsbridge [Ruby Language](http://curriculum.railsbridge.org/curriculum/ruby_language) unit.
+* Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet but may help you shore up some of the concepts.
+* See the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) for a condensed list of common commands and concepts.
 
 ### Databases
 Estimated Time: ??? hrs

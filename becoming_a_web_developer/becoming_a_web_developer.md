@@ -129,7 +129,7 @@ Developers are passionate builders and they often enjoy taking part in various c
 * [Hacker News](http://news.ycombinator.com) -- HN is the community around the Y Combinator startup accelerator and it's a link-submission board that's got some of the best quality startup- and tech-related discourse on the web.
 * [Github](http://www.github.com) -- Less an active community than a gathering place, github is the place where you can find and contribute to almost any of the open-source projects out there.
 * [Stack Overflow](http://www.stackoverflow.com) -- Stack, mentioned above, is a great community where you're encouraged to ask and answer questions about a wide variety of programming topics.
-* IRC -- There are channels on this chat protocol for just about everything.
+* IRC -- There are channels on this chat protocol for just about everything... it's like AOL Instant Messager or GChat for programmers.  Learn more about it at [IRCHelp.org's Help page](http://www.irchelp.org/irchelp/new2irc.html).
 * [Reddit's /r/programmer](http://www.reddit.com/r/programming/) -- Link submission and commenting.
 * Blogs -- You should get familiar with the top blogs where the content interests you most, which will take a bit of time to figure out.  The best ones often have active discussion threads at the end of each post.
 
@@ -151,7 +151,7 @@ The best thing you can do in order to get a job as a web developer is, of course
 
 ## Finish
 
-Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a full- or part-time career.  See below if you'd like to learn more before moving forward to the next section, where we actually begin digging a bit deeper into how computers and the web work.
+Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a full- or part-time career.  See below if you'd like to learn more before moving forward to the next sections, where we install the necessary software and actually begin digging a bit deeper into how computers and the web work.
 
 ## Additional Resources
 
