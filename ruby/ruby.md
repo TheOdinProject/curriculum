@@ -778,7 +778,7 @@ http://www.codecademy.com/tracks/ruby for oop
 ## File I/O and Serialization
 
 ## Testing with RSpec and Test Driven Development
-
+http://guides.rubyonrails.org/testing.html
 ## Basic Data Structures
 
 ## Basic Algorithms
