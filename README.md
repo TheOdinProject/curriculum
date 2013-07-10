@@ -28,6 +28,10 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **********************  Current Version Sandbox  ********************
 
+v0.0.5: Profile Links from Scheduler
+* Set up the event modal dialogs to show which project(s) that person wants to pair on when clicked.
+* Set up user profile page that includes github and best ways to contact
+* Link from modal to user profile page (and pull info from it for quick reference)
 
 
 **********************  General Sandbox  ****************************
