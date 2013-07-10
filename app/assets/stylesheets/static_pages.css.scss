@@ -98,7 +98,8 @@
       font-weight: 400;
     }
     &.thank-you{
-      width: 500px;
+      max-width: 500px;
+      width: 100%;
     }
     p {
       margin-top: 30px;
@@ -125,9 +126,9 @@
   /* Container for all text on splash email and thank you pages*/
   .cta-box{
     text-align: left;
-    width: 610px;
-    height: 170px;
-    padding: 20px 50px;
+    max-width: 610px;
+    min-height: 170px;
+    padding: 20px 75px;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -137,9 +138,10 @@
 
     input.string, textarea {
       height: 30px;
-      width: 360px;
+      width: 100%;
+      max-width: 400px;
       float: left;
-      margin-left: 25px;
+      margin-left: 0px;
       margin-top: 18px;
       font-size: 20px;
       padding-left: 10px;
@@ -182,7 +184,7 @@
     h3{
       font-size: 2em;
       font-weight: 300;
-      margin: 30px auto 10px 25px;
+      margin: 30px auto 10px 0px;
       line-height: 1.2em;
     }
     &.thank-you-text{
@@ -196,6 +198,7 @@
       h4{
         font-weight: 300;
         font-size: 2em;
+        line-height: 1em;
         margin-bottom: 35px;
         margin-top: 15px  ;
       }
