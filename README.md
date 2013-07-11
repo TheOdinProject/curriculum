@@ -33,6 +33,9 @@ v0.0.5: Profile Links from Scheduler
 * Set up user profile page that includes github and best ways to contact
 * Link from modal to user profile page (and pull info from it for quick reference)
 
+BUG LIST:
+* Creating multiple all-day events then deleting one will result in the others being turned into 12-1am events. Very odd.
+
 
 **********************  General Sandbox  ****************************
 
