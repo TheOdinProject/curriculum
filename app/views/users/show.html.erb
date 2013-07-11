@@ -1,0 +1,48 @@
+<div class="container">
+
+  <div class="row">
+
+    <div class="span3 offset1">
+
+      <div class="profile-photo-container">
+        <img src="<%= @gravatar_url %>?s=270">
+      </div>
+
+      <div class="profile-contact-links">
+        <ul>
+          <li><%= @user.email %></li>
+          <li>Github: <%= @user.github %></li>
+          <li>Facebook: <%= @user.facebook %></li>
+          <li>Twitter: <%= @user.twitter %></li>
+          <li>LinkedIn: <%= @user.linkedin %></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="span6">
+
+      <h2 class="profile-headline"><%= @user.username %></h2>
+      <% if @user == current_user %>
+        <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium btn-primary'>Edit</button></a>
+      <% end %>
+
+      <h3>About Me</h3>
+      <p>
+        <%= @user.about %>
+      </p>
+      <div class="profile-projects">
+        <h3>What I'm Currently Scheduling to Work On:</h3>
+        <ul>
+          <% @user.content_buckets.each do |project| %>
+            <li><%= project.name %></li>
+          <% end %>
+        </ul>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</div>

@@ -36,3 +36,26 @@ footer {
 #logo {
   font-family: $logo-font;
 }
+
+/* ********* User Pages ************* */
+
+.profile-photo-container{
+  max-width: 270px;
+  max-height: 270px;
+  height: 270px;
+}
+
+.profile-contact-links{
+  margin-top: 25px;
+  ul{
+    list-style-type: none;
+  }
+}
+
+h2.profile-headline{
+  display: inline-block;
+}
+button.edit-profile{
+  display: inline-block;
+  margin: 0px 0px 15px 25px;
+}

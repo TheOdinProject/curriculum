@@ -21,6 +21,8 @@ Theodinproject::Application.routes.draw do
 
   resource :user_pref, :only => [:edit, :update]
 
+  resources :users, :only => [:show, :index, :edit, :update]
+
   resources :splash_emails, only: [:create]
 
   # The priority is based upon order of creation:

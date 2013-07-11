@@ -35,15 +35,21 @@ DONE Set up the event modal dialogs to show which project(s) that person wants t
 DONE Create Login link on splash page but hide signup
 DONE Hide login from navbar if on login pages... so just hide it always!
 DONE Change event title returned to be creator's username
-* Fix link to user root after account update
+DONE Fix link to user root after account update
 * Set up user profile page that includes github and best ways to contact
 * Link from modal to user profile page (and pull info from it for quick reference)
+* Set up users index page to list all users and their projects, last login
 
 BUG LIST:
 
 TESTS:
 * Events also have an event project list sent
 * signup is hidden from splash page
+* Fix tests for cal_events and login links
+* That profile page actually shows up
+* profile page displays at least one link, an about, and a project
+* profile page edit button only for logged in user
+* only logged in user can get to edit link
 
 **********************  General Sandbox  ****************************
 
@@ -53,6 +59,10 @@ TESTS:
 > CALENDAR UI
 >> Default event details based on user profile info?? esp username and details with their contact info
 >> ?Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events?
+
+> USERS
+>> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
+>> Make the gravatar default image the odin logo
 
 >> Build "contact" button in event to mail them with your contact info (and have an alert for okaying it)
 
