@@ -202,6 +202,9 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
     * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
     * No one said you could turn off your brain!
 
+**Additional Resources:**
+* More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)... parts 2-7 could be quite helpful.
+
 
 ##### jQuery:
 What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of commonly used javascript widgets and functions that more or less has taken the internet by storm.  It's actually written in javascript so you don't have to go through the pain of building a popup modal dialog box, for example, the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties, whether that's hiding them, moving them, dropping down menus... it's all in your hands!
