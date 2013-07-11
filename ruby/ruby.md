@@ -40,17 +40,19 @@ The goal here is to provide as much of this curriculum as possible using free re
 * Peter Cooper's [Beginning Ruby](http://beginningruby.org/) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it.
 * Brian Marick's [Everyday Scripting with Ruby](http://pragprog.com/book/bmsft/everyday-scripting-with-ruby) takes a pragmatic approach to learning Ruby to help with the kinds of problems you might face in a variety of different real-world work scenarios.
 
+**TODO: Walkthrough of a real Ruby program**
+
 ## Basic Ruby
 
 ### Intro
 
-Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.  It's expected that you have a pretty good handle on the basics of the Ruby language and an idea of what you're still shakey on.
+Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.  It's expected that you have a pretty good handle on the basics of the Ruby language and an idea of what you're still shaky on.
 
 In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.
 
-### Primitive Data Types
+### Primitive Data Types and Other Basic Stuff
 
-Primitive data types are the basic building blocks of computer programs.  Understanding them and what you can do with them is like knowing your ABC's.  Get well acquainted with Numbers, Strings, Arrays, Hashes, Enumerable methods, Objects, Ranges, and Dates/Times.  You're populating your developer's toolkit.
+Primitive data types are the basic building blocks of computer programs.  Understanding them and what you can do with them is like knowing your ABC's.  Get well acquainted with Numbers, Strings, Arrays, Hashes, Objects, Methods, and Dates/Times.  You're populating your developer's toolkit.
 
 The exercises should help you hone in on what things you understand well and which ones you need to dig deeper on.  The larger exercises towards the end will round things out a bit more wholistically.
 
@@ -59,8 +61,14 @@ The exercises should help you hone in on what things you understand well and whi
 This is pretty straightforward stuff.  The goal here is to familiarize yourself with all basic data types and how they interact in arithmetic expressions
 
 ##### Thought Questions
+* What's the difference between an `Integer` and a `Float?`
+* Why should you be careful when converting back and forth between integers and floats?
 * What's the difference between `=`, `==`, and `===`?
 * How do you do exponents in Ruby?
+* What is a `range`?
+* How do you create a range?
+* What's the difference between `(1..3)` and `(1...3)`?
+* What are three ways to create a range?
 
 ##### Do These First
 * Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html)
@@ -76,8 +84,15 @@ When doing mathematical operations, Ruby expects the result to be the same type 
 
 To fix this, you need to make one of the inputs a different data type that can handle decimals, like a *floating point* number (float): 
 
-    > 5.0 / 3 
-    => 1.6666666666666667
+    > 5.0 / 3               # as long as one of them is a float...
+    => 1.6666666666666667   # ... the result is a float
+
+Converting between integers and floats is easy -- just use `.to_i` and `.to_f` respectively:
+
+    > 5.0234.to_i
+    => 5
+    > 5.to_f
+    => 5.0
 
 Because Ruby is so flexible, it lets you do some quirky things like multiplying completely different data types together in a way that you sort of think you *should* be able to but never expected to actually be able to do:
 
@@ -91,10 +106,12 @@ These types of operations work the same way with variables:
     > my_word * 3
     => "howdyhowdyhowdy"
 
+A **Range** is just a continuous sequence and we represent it in a shorthand way.  If we want to say `3,4,5,6,7,8,9,10,11`, it's much easier to just write it the short way `(3..11)`, meaning "all the integers beween 3 and 11, including both 3 and 11".  If we wrote it `(3...11)`, it would actually exclude `11`.  You can also create a range using `Range.new(start, finish)`, though the shorthand notation is more conventional.
+
 For equality:
-* `=` is for assignment, so it assigns a value to a variable as in `> name = "Erik"`
-* `==` is for checking that two things are equal but don't have to be identical instances.  You'll use this in most cases, especially when working with conditional statements.  `> 1 + 1 == 2` returns '=> true'.  When you start creating your own classes (like an "Animal" class), you'll need to tell Ruby how to compare two animal instances by writing your own version of this method (it's easy).
-* `===` can actually mean some different things (you can overwrite it easily). You will probably be sticking with `==` in most situations, but it's good to understand `===` as well.  `===` typically asks whether the thing on the right is a member or a part or a type of the thing on the left.  If the thing on the left is the range `(1..4)` and we want to know if 3 is inside there:
+* **`=`** is for assignment, so it assigns a value to a variable as in `> name = "Erik"`
+* **`==`** is for checking that two things are equal but don't have to be identical instances.  You'll use this in most cases, especially when working with conditional statements.  `> 1 + 1 == 2` returns '=> true'.  When you start creating your own classes (like an "Animal" class), you'll need to tell Ruby how to compare two animal instances by writing your own version of this method (it's easy).
+* **`===`** can actually mean some different things (you can overwrite it easily). You will probably be sticking with `==` in most situations, but it's good to understand `===` as well.  `===` typically asks whether the thing on the right is a member or a part or a type of the thing on the left.  If the thing on the left is the range `(1..4)` and we want to know if 3 is inside there:
 
     > (1..4) === 3
     => true
@@ -264,7 +281,7 @@ There are some special characters that are actually denoted using the backslash 
 
 This method gets called a LOT behind the scenes later on... basically anytime Ruby or especially Rails is outputting or rendering something (like a variable), it will call `to_s` on it to make it a nice friendly string first.  
 
-Fun fact: If you've created your own object, you may need to write your own `to_s` method for it to display properly in some settings (e.g. looking ahead, if you've got a Person object and want to display its first name only whenever you tried to `puts` it, you'd want to write the `to_s` method to do so).
+Fun fact: If you've created your own object, you may need to (or GET to!) write your own `to_s` method for it to display properly in some settings.  For example (looking ahead), if you've got a Person object and want to display its first name whenever you tried to `puts` it, you'd want to write the `to_s` method to do so.
 
 **Combining Strings** without using interpolation can be done using "concatenation", or basically just adding them together:
 
@@ -357,6 +374,8 @@ But sometimes all you want is a name, like when you're using a hash key.  In tha
 While you're learning, just stick with strings until you see the examples using symbols, which will mostly be with hash keys.
 
 ##### Exercises
+* TODO: IRB reversing, shouting stuff, find the ith letter...
+
 See Below
 
 #### Arrays
@@ -381,6 +400,10 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 * Why should you be careful deleting items in an array?
 * How can you convert arrays to strings?
 * How can you figure out if an array contains a particular value?
+* How do you find the biggest item in an array?
+* How do you find the smallest item in an array?
+* How to you find out how big an array is?
+* How do you put an array in order?
 * What are the naming conventions for arrays?
 * What should you store in arrays?
 
@@ -524,15 +547,18 @@ To find WHERE a specific item lives in the array, use `.index` but note that it 
     => nil                # Not an error, just nil
 
 **A few useful and commonly used methods:**
-* `.shuffle` will mess up your whole array
-* `.sort` will clean it up again for you.  Though `.sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
+* `.max` to find the **biggest value** of an array
+* `.min` to find the **smallest value** of an array
+* `.size` to find out **how big the array is**
+* `.shuffle` will mess up your whole array by putting it in random order
+* `.sort` will clean it up again for you by putting your array **in order**.  Though `.sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
 * `.sample` picks out a totally random value from the array... good for gambling games!
 * `.first` gives you the first item (but doesn't remove it, so it's same as `[0]`) but can be more descriptive of your code's intent.
 * `.last` is same as `[-1]`
 
 Do as I say and not as I do: name your arrays with the plural form (because it has a bunch of things in it, like `colorful_bugs` instead of `colorful_bug`) and be descriptive.  No one likes to try and figure out what `array1` or `a` contains... stick with `colorful_bugs`.  I just kept them short here because they're tiny examples.  Someone should rename them all.
 
-Strings are a lot like arrays... but how do we **Convert an Array into a String**? Just use `.join` and tell it what, if anything, you want in between each element (the "separator"):
+Strings are a lot like arrays... so much so that we can even **Convert an Array into a String**! Just use `.join` and tell it what, if anything, you want in between each element (the "separator"):
 
     > ["he", "llo"].join
     => "hello"
@@ -541,8 +567,8 @@ Strings are a lot like arrays... but how do we **Convert an Array into a String*
     > "I found a #{colorful_bugs.join(' and a ')} in the yard!"
     => "I found a caterpillar and a butterfly and a ladybug in the yard!" 
 
-Advanced stuff:
-Remember how we could create a new array and fill it up with stuff using `Array.new(5, "thing")`?  `Array.new` also takes an optional argument that is a block and it will run it every time it needs to populate a new element.  Woah! We got a bit ahead of ourselves, but it's a cool feature to have floating in the back of your head.
+Advanced stuff (you don't need to know this right now):
+Remember how we could create a new array and fill it up with stuff using `Array.new(5, "thing")`?  `Array.new` also takes an optional argument that is a block and it will run that block every time it needs to populate a new element.  Woah! We got a bit ahead of ourselves, but it's a cool feature to have floating in the back of your head.
 
     > Array.new(5){|item_index| item_index ** 2}
     => [0, 1, 4, 9, 16]    # It squared each index to populate the array!
@@ -649,33 +675,141 @@ A simpler kind of hash is called a **Set**, and it's just a hash where all the v
 
 #### Enumerable
 ##### Intro and Goals
+You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
+
+"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash`. That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
+
+In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you'll use again and again so our goal with this section is to get well acquainted with them.  You'll need to start becoming familiar with code blocks as well, which are used by all these methods.
+
 ##### Thought Questions
+* What is a module?
+* Why are modules useful?
+* What are blocks?
+* What does a block return?
+* What does `each` do? 
+* What does `each` return?
+* What does `map` do?
+* What does `map` return?
+* What does `select` do?
+* What does `select` return?
+
+
 ##### Check these out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
-##### A Brief Summary
-##### Exercises
 
-#### Ranges
-##### Intro and Goals
-##### Thought Questions
-* How is two periods `(1..5)` different from three `(1...5)`?
-##### Check these out First
 ##### A Brief Summary
+`Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
+
+What if I want to keep only the even numbers that are in an array?  The traditional way would be to build some sort of loop that goes through the array, checks whether each element is even, and starts populating a temporary array that we will return at the end.  We haven't covered iterators yet, but it might look something like:
+
+    my_array = [1,2,3,4,5,6,7,8,100]
+    # 
+
+    TOO ADVANCED?  PUT IN LATER SECTION??
+
 ##### Exercises
 
 #### Dates and Times
 ##### Intro and Goals
+When you're building a website, you'll inevitably come into contact with dates and times.  When was that submitted?  Show only posts created after this time.  How long has that user been registered?
+
+All languages have conventions for how they keep track of dates and times and, of course, Ruby is no different... just a bit easier than the rest.  In general, computers keep track of time in terms of seconds since a specified point in time.  Someone decided a long time ago that Time shall begin at midnight on January 1st, 1970, and so that's typically the "0th" second.
+
+Ruby uses the `Time` class to let you work with dates and times, giving you some handy methods to find out about specific parts (like what day of the week it is) and to allow you to display them in a user-friendly fashion.  You probably won't need to dive too deeply into this stuff until you start working with Rails but you do need to understand the basics (as laid out below).
+
 ##### Thought Questions
+* How do you get the current date and time?
+* How do you find just the Year?  Month? Hour? Second? Weekday?
+* How do you create a `Time` specifically for 12/25/2013?  
+* How do you find how many days have passed between two `Time`'s?
+* What's the difference between UTC and GMT and Local times?
+* How would you find out the time that was 100 seconds ago? 10 days ago?
+* TODO: Datetime
+
 ##### Check these out First
+* The [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
+
 ##### A Brief Summary
-##### Exercises
+To **Get Current Time** you just create a new `Time` object with no parameters or use `Time.now`, which is the same thing:
+
+    > Time.new
+    => 2013-07-10 17:04:10 -0700
+    > Time.now
+    =>2013-07-10 17:04:11 -0700
+
+`Time` gives you some handy methods to ask it questions.  Almost all of them are very intuitive, so the general rule is "if you think the method should exist, it probably does":
+
+    > my_time = Time.now
+    => 2013-07-10 17:04:10 -0700
+    > my_time.year
+    => 2013
+    > my_time.month
+    => 7
+    > my_time.day
+    => 10
+    > my_time.wday
+    => 0                # the day of the week, starting Sunday
+    > my_time.hour
+    => 17
+    > my_time.min
+    => 4
+    > my_time.sec
+    => 10
+
+`Time` also takes inputs if you want to create a specific time, from year to time zone:
+
+`Time.new(year, month, day, hour, min, sec, time_zone_offset_from_utc)`
+
+    > Time.new(2012,2,14)
+    => 2012-02-14 00:00:00 -0800
+
+You can add and subtract times just like they were numbers (because, remember, they basically are... just the number of seconds since 1970):
+
+    > vday = Time.new(2012,2,14)    # Valentine's Day!
+    => 2012-02-14 00:00:00 -0800
+    > vday+3600                     # 1 hour's worth of seconds
+    => 2012-02-14 01:00:00 -0800
+    > xmas = Time.new(2013,12,25)
+    => 2013-12-25 00:00:00 -0700    # Xmas!
+    > ( xmas - Time.now )/60/60/24.to_i
+    => 167                          # That's too long...
+
+What if you want to display a date in a pretty way, like on your website or for your user's benefit?  There are a couple of baked in methods and then a "build-your-own-adventure" way to specify:
+
+    > nownow = Time.now
+    => 2013-07-10 17:37:27 -0700
+    > nownow.ctime                  # a standard display type
+    => "Wed Jul 10 17:38:10 2013"
+    > nownow.UTC                    # Remove the time zone
+    => 2013-07-11 00:38:10 UTC
+    > nownow.strftime("%Y-%m-%d %H:%M:%S")
+    => "2013-07-11 00:38:10" 
+
+Wait, what were all those `%Y` characters?  They just tell the `.strftime` method what components of the `Time` to output and how you'd like them formatted.  There's a long list of them back at [the TutorialsPoint site](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  You don't need to remember them since you can just google for them when you decide to output a string, but know that they give you the flexibility to output a date or time in pretty much any way you could imagine.
+
+**Extra Stuff: Time Zones and Local Time**
+What's that trailing `-0800` in `2012-02-14 00:00:00 -0800`?  It's because that time was created on my local system, which is many hours "earlier" in the day from the Coordinated Universal Time (called UTC... no, it doesn't match up but [here's why](http://geography.about.com/od/timeandtimezones/a/gmtutc.htm)) which is used by computers around the world as the standard benchmark time (so two computers communicating about times will always be talking about the same exact one and not have to worry about time zones).  
+
+I prefer to think of UTC as "Universal Time Code" because reasons.  UTC is the new GMT... Greenwich Mean Time.  You'll start thinking of things in terms of "how many hours away am I from England?" when you run into time zone bugs somewhere down the road.  
+
+Back to the point, the `-0800` above says that we created a new time for midnight on Valentine's Day but only from the perspective of someone on the West Coast of the USA... it was really 8am in Greenwich, England and according to every other computer in the world.  You'll forget this stuff until you need it and that's fine.
+
+Use `.localtime` to display the `Time` object in whatever your local system time is (if it was created in UTC it will be different).
+
+
+##### Exercises (in IRB)
+* How many days until your birthday?
+* How many days, hours, minutes, and seconds until Christmas?
+* Display `"January 10, 2001 10:00AM"`
+
 
 #### Advanced Issues
 ##### Intro and Goals
 Puts vs p
-.to_s
+.to_s, .to_a
 .inspect
-falsy values, nil
+truthy and falsy values, nil
+
 
 ##### Thought Questions
 ##### Check these out First
@@ -779,6 +913,9 @@ http://www.codecademy.com/tracks/ruby for oop
 
 ## Testing with RSpec and Test Driven Development
 http://guides.rubyonrails.org/testing.html
+https://www.relishapp.com
+http://betterspecs.org
+
 ## Basic Data Structures
 
 ## Basic Algorithms
