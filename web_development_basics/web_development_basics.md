@@ -145,6 +145,8 @@ As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html),
     * Note: You will see border-radius, -moz-border-radius, and -webkit-border-radius all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use border-radius to achieve the desired effect.
 * Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=KGzsRiAXVbA).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.
 
+TODO: HTML/CSS code walkthrough video
+
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took and how we can make it more complete so we can let others know!
 
 ##### HTML/CSS Mini-Project:
@@ -216,6 +218,8 @@ jQuery will let you take your javascript knowledge and start really diving into 
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took (whether just the section 1 or the whole thing) so we can let others know!
 
+TODO: Javascript/jQuery walkthrough video
+
 ##### Additional Resources
 
 * Reading: The first several sections of the [Javascript 101 tutorial on learn.jquery.com](http://learn.jquery.com/javascript-101/).
@@ -282,6 +286,8 @@ Redo the same Project Euler problems that you previously did in Javascript but u
     * [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
     * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
     * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
+
+TODO: Ruby walkthrough video
 
 ##### Ruby Mini-Project:
 Estimated Time: 10-15 hrs
