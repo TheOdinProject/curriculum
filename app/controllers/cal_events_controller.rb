@@ -94,7 +94,7 @@ class CalEventsController < ApplicationController
 
       objectified_event = {
         id: event.id,
-        title: event.summary,
+        title: event.creator.username, # event.summary,
         allDay: false,
         start: event.start,
         end: event.end,

@@ -32,8 +32,9 @@ v0.0.5: Profile Links from Scheduler
 DONE set calendar display to start on today's weekday and to not show the allday option.
 AVOIDED BUG: Creating multiple all-day events then deleting one will result in the others being turned into 12-1am events. Very odd.
 DONE Set up the event modal dialogs to show which project(s) that person wants to pair on when clicked.
-* Create Login link on splash page  
-* Change event title returned to be creator's username
+DONE Create Login link on splash page but hide signup
+DONE Hide login from navbar if on login pages... so just hide it always!
+DONE Change event title returned to be creator's username
 * Fix link to user root after account update
 * Set up user profile page that includes github and best ways to contact
 * Link from modal to user profile page (and pull info from it for quick reference)
@@ -42,6 +43,7 @@ BUG LIST:
 
 TESTS:
 * Events also have an event project list sent
+* signup is hidden from splash page
 
 **********************  General Sandbox  ****************************
 
