@@ -399,6 +399,7 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 * How do you delete items in an array?
 * Why should you be careful deleting items in an array?
 * How can you convert arrays to strings?
+* How can you convert from other data types to arrays?
 * How can you figure out if an array contains a particular value?
 * How do you find the biggest item in an array?
 * How do you find the smallest item in an array?
@@ -566,6 +567,11 @@ Strings are a lot like arrays... so much so that we can even **Convert an Array 
     => ["caterpillar", "butterfly", "ladybug"]
     > "I found a #{colorful_bugs.join(' and a ')} in the yard!"
     => "I found a caterpillar and a butterfly and a ladybug in the yard!" 
+
+Want to know a cool way to make an array?  Create it from a `Range`(which you learned in the first section) and just **Convert it to an Array**:
+
+    > my_awesome_array = (1..6).to_a
+    => [1,2,3,4,5,6]
 
 Advanced stuff (you don't need to know this right now):
 Remember how we could create a new array and fill it up with stuff using `Array.new(5, "thing")`?  `Array.new` also takes an optional argument that is a block and it will run that block every time it needs to populate a new element.  Woah! We got a bit ahead of ourselves, but it's a cool feature to have floating in the back of your head.
@@ -796,12 +802,10 @@ Back to the point, the `-0800` above says that we created a new time for midnigh
 
 Use `.localtime` to display the `Time` object in whatever your local system time is (if it was created in UTC it will be different).
 
-
 ##### Exercises (in IRB)
 * How many days until your birthday?
 * How many days, hours, minutes, and seconds until Christmas?
 * Display `"January 10, 2001 10:00AM"`
-
 
 #### Advanced Issues
 ##### Intro and Goals
@@ -809,7 +813,6 @@ Puts vs p
 .to_s, .to_a
 .inspect
 truthy and falsy values, nil
-
 
 ##### Thought Questions
 ##### Check these out First
