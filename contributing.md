@@ -6,7 +6,7 @@ This project is very much a work-in-progress and benefits heavily from the contr
 
 #### 1. Content
 
-Almost all the content is sourced from free pre-existing videos, blogs and tutorials.  If we're trying to teach something and you know there's a better resource out there, put it in the "Additional Resources" section.  Same goes for alternate but useful explanations of the material.  If you've got high quality material on your own blog or website, feel free to do the same.
+Almost all the content is sourced from free pre-existing videos, blogs and tutorials.  If we're trying to teach something and you know there's a better resource out there, put it in the "Additional Resources" section.  Same goes for alternate but useful explanations of the material.  If you've got high quality material on your own blog or website, feel free to do the same.  Content with an obvious commercial angle (like marketing videos) should only be used if there is no reasonable substitute.
 
 #### 2. Exercises and Projects
 
