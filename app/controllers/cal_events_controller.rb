@@ -101,7 +101,8 @@ class CalEventsController < ApplicationController
         color: color,
         url: url,
         editable: editable,
-        description: event.description || ""
+        description: event.description || "",
+        projects: event.creator.content_buckets.map(&:name)
       }
       # puts "\n\n Putting ObjectifiedEvent:"
       # puts objectified_event

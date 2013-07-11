@@ -148,6 +148,16 @@
           // Populate it with info
           $(".eventInfo").html(event.description); 
 
+          // Populate the listing of projects
+          proj_display = "<ul>";
+          event.projects.forEach(function(proj){
+            proj_display += "<li>" + proj + "</li>";
+          });
+          proj_display += "</ul>"
+          $(".projectList")
+              .html("Wants to work on:")
+              .append(proj_display);
+
           // Pop up the dialog
           $("#eventContent").dialog({ 
             modal: true, 
@@ -305,6 +315,9 @@
 
 <div id="eventContent" title="Available" style="display:none;">
   <div class="eventInfo">
+  </div>
+  <br>
+  <div class="projectList">
   </div>
 </div>
 

@@ -9,7 +9,7 @@ Theodinproject::Application.routes.draw do
 
   root :to => 'static_pages#splash'
   get 'home' => 'static_pages#home'
-  get 'user_root' => 'static_pages#home', as: :user_root
+  get 'user_root' => 'static_pages#scheduler', as: :user_root
   get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'

@@ -1,4 +1,4 @@
-== Welcome to The Odin Project v0.0.4
+== Welcome to The Odin Project v0.0.5
 
 It's game on.
 
@@ -29,13 +29,19 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 **********************  Current Version Sandbox  ********************
 
 v0.0.5: Profile Links from Scheduler
-* Set up the event modal dialogs to show which project(s) that person wants to pair on when clicked.
+DONE set calendar display to start on today's weekday and to not show the allday option.
+AVOIDED BUG: Creating multiple all-day events then deleting one will result in the others being turned into 12-1am events. Very odd.
+DONE Set up the event modal dialogs to show which project(s) that person wants to pair on when clicked.
+* Create Login link on splash page  
+* Change event title returned to be creator's username
+* Fix link to user root after account update
 * Set up user profile page that includes github and best ways to contact
 * Link from modal to user profile page (and pull info from it for quick reference)
 
 BUG LIST:
-* Creating multiple all-day events then deleting one will result in the others being turned into 12-1am events. Very odd.
 
+TESTS:
+* Events also have an event project list sent
 
 **********************  General Sandbox  ****************************
 
