@@ -203,7 +203,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
     * No one said you could turn off your brain!
 
 **Additional Resources:**
-* More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)... parts 2-7 could be quite helpful.
+* More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
 
 
 ##### jQuery:
