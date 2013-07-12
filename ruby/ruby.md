@@ -343,7 +343,7 @@ Of course, it's up to you to figure out if your user has entered something illeg
 
 **Other Helpful String Methods** include:
 * `.length` to get the length of the string
-* `.downcase` to convert `"ALL THIS"`` to `"all this"`
+* `.downcase` to convert `"ALL THIS"` to `"all this"`
 * `.upcase` to convert `"all this"` back to `"ALL THIS"`
 * `.reverse` to convert `"hello"` to `"olleh"`
 
