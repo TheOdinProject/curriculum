@@ -47,7 +47,7 @@ DONE Add links to G+ and Skype and Screenhero
 DONE Link from modal to user profile page (and pull info from it for quick reference)
 DONE Set up users index page to list all users and their projects, last login
 DONE Set up students link on navbar
-* Redo hiding signup stuff so option is required to show it
+DONE Redo hiding signup stuff so option is required to show it
 
 BUG LIST:
 
@@ -64,6 +64,11 @@ TESTS:
 * edit page shows editable options
 * Update method works for user profile page
 * navbar has profile link
+* navbar has index link
+* users index shows users
+* each indexed user has a username and photo
+* students link on navbar
+* 
 
 **********************  General Sandbox  ****************************
 
