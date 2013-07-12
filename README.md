@@ -40,6 +40,9 @@ DONE Change event title returned to be creator's username
 DONE Fix link to user root after account update
 DONE Set up user profile page that includes github and best ways to contact
 DONE Set up user profile page editing functions
+DONE Add link to profile page on navbar
+DONE Add cancel link to edit page
+DONE Add edit picture on Gravatar link
 * Link from modal to user profile page (and pull info from it for quick reference)
 * Set up users index page to list all users and their projects, last login
 
@@ -57,7 +60,7 @@ TESTS:
 * only current user can access edit page
 * edit page shows editable options
 * Update method works for user profile page
-* 
+* navbar has profile link
 
 **********************  General Sandbox  ****************************
 

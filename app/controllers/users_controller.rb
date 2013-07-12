@@ -19,12 +19,12 @@ class UsersController < ApplicationController
     if @user
       gravatar_hash = Digest::MD5.digest(@user.email.strip.downcase)
       @gravatar_url = "http://www.gravatar.com/avatar/#{gravatar_hash}"
+      @edit = true
+      render :show
     else
       flash[:error] = "There was no user by that name"
       redirect_to :back
     end
-    @edit = true
-    render :show
   end
 
   def update

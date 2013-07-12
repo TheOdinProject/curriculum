@@ -1,6 +1,6 @@
 <div class="container">
 
-  <% if @user == current_user && @edit %>
+  <% if @edit %>
     <form accept-charset="UTF-8" id="edit-user" method="post" action="/users/<%= @user.id %>">
       <input name="_method" type="hidden" value="put">
       <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>">
@@ -11,6 +11,9 @@
     <div class="span3 offset1">
       <div class="profile-photo-container">
         <img src="<%= @gravatar_url %>?s=270">
+        <% if @edit %>
+          <%= link_to "Edit your Gravatar image", "https://en.gravatar.com/site/login", :class => "edit-gravatar", :title => "Go to Gravatar.com to edit your profile image.  Gravatar lets you change your profile photo in just one place (their site) and then it's available to any other site that links to it (which is a lot of them). That way, when you want to change your photo later, you don't need to track it down on a dozen different websites. Cool!" %>
+        <% end %>
       </div>
     </div>
 
@@ -19,14 +22,15 @@
       <% if @user == current_user %>
         <% if @edit %>
           <input type="submit" class="btn btn-medium btn-primary edit-profile" value="Update" >
+          <%= link_to "Cancel", @user, :class => "edit-profile" %>
         <% else %>
-          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium btn-primary'>Edit</button></a>
+          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium'>Edit</button></a>
         <% end %>
       <% end %>
 
       <h3>About Me</h3>
       <div class="profile-about">
-        <% if @user == current_user && @edit %>
+        <% if @edit %>
           <textarea id="user_about" name="user[about]" cols="70" rows="8" placeholder="Tell us about yourself!"><%= @user.about %></textarea>
         <% else %>
           <p>
@@ -41,7 +45,7 @@
     <div class="span3 offset1">
       <h3 class="contact-me">Contact Me</h3>
       <div class="profile-contact-links">
-        <% if @user == current_user && @edit %>
+        <% if @edit %>
           <ul>
             <li><input type="text" id="user_email" name="user[email]" size="50" placeholder="email" value="<%= @user.email %>"></li>
             <li><input type="text" id="user_github" name="user[github]" size="50" placeholder="URL for your Github..." value="<%= @user.github %>"></li>
@@ -52,11 +56,11 @@
 
         <% else %>
           <ul>
-            <li><%= @user.email %></li>
-            <li>Github: <%= @user.github %></li>
-            <li>Facebook: <%= @user.facebook %></li>
-            <li>Twitter: <%= @user.twitter %></li>
-            <li>LinkedIn: <%= @user.linkedin %></li>
+            <li><a href="mailto:<%= @user.email %>"><%= @user.email %></a></li>
+            <li>Github: <a href="<%= @user.github %>"><%= @user.github %></a></li>
+            <li>Facebook: <a href="<%= @user.facebook %>"><%= @user.facebook %></a></li>
+            <li>Twitter: <a href="<%= @user.twitter %>"><%= @user.twitter %></a></li>
+            <li>LinkedIn: <a href="<%= @user.linkedin %>"><%= @user.linkedin %></a></li>
           </ul>
         <% end %>
       </div>
@@ -73,7 +77,7 @@
       </div>
     </div>
 
-    <% if @user == current_user && @edit %>   
+    <% if @edit %>   
       </form>
     <% end %>
 

@@ -43,6 +43,7 @@ footer {
   max-width: 270px;
   max-height: 270px;
   height: 270px;
+  text-align: right;
 }
 
 .profile-contact-links{
@@ -63,6 +64,11 @@ h3.contact-me{
   display: inline-block;
   margin: 0px 0px 15px 25px;
 }
+
+.edit-gravatar{
+  position: relative;
+}
+
 .profile-about{
   height: 130px;
   margin-bottom: 20px;
