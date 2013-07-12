@@ -154,7 +154,7 @@ Estimated Time: 2-4 hrs
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it.  The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.  For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
-Use the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [jsfiddle.net](jsfiddle.net)).
+Use the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [http://www.jsfiddle.net](jsfiddle.net)).
 
 * Easy Version: Build the [Google.com](http://www.google.com) homepage (the simple one with just a search box).  
     1. Tips:
@@ -197,7 +197,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 * Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum.
     * Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 * Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
-* Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you just type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems.  Use the "Run" button at the top to run your Javascript.
+* Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems.  Use the "Run" button at the top to run your Javascript.
 * Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using jsfiddle if you aren't comfortable working on your own):
     * [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
     * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
@@ -206,10 +206,11 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 
 **Additional Resources:**
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
-
+* Reading: The first several sections of the [Javascript 101 tutorial on learn.jquery.com](http://learn.jquery.com/javascript-101/).
+* Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
 
 ##### jQuery:
-What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of commonly used javascript widgets and functions that more or less has taken the internet by storm.  It's actually written in javascript so you don't have to go through the pain of building a popup modal dialog box, for example, the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties, whether that's hiding them, moving them, dropping down menus... it's all in your hands!
+What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of commonly used javascript widgets and functions that has more or less taken the internet by storm.  It's written in javascript and it means that you don't have to go through the pain of building a popup modal dialog box or a dropdown menu, for example, the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties, whether that's hiding them, moving them, changing their contents... it's all in your hands!
 
 jQuery will let you take your javascript knowledge and start really diving into your webpages and messing with the elements.  
 
@@ -221,9 +222,7 @@ Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that cour
 TODO: Javascript/jQuery walkthrough video
 
 ##### Additional Resources
-
-* Reading: The first several sections of the [Javascript 101 tutorial on learn.jquery.com](http://learn.jquery.com/javascript-101/).
-* Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
+* Suggest some!
 
 ##### JS/jQuery Mini-Project:
 Estimated Time: 3-6 hrs
@@ -234,13 +233,13 @@ Estimated Time: 3-6 hrs
 * If you've got a cool solution, send it (or at least a screenshot) to [curriculum@theodinproject.com](mailto:curriculum@theodinproject.com) so we can show it as an example!
 
 ### Back End Basics
-Estimated Time: 25-35 hrs
+Total Estimated Time: 25-35 hrs
 
-The three languages of the front end are fairly standardized -- HTML for presentation, CSS for markup, and Javascript for scripting.  The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on you user's browser understanding what's going on.  All the browser cares about is whether you've sent it properly formatted HTML, CSS and Javascript files (and other assets like images, videos, etc.).  That's led to a whole lot of different choices for back-end languages.  As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.
+The three languages of the front end are fairly standardized -- HTML for presentation, CSS for markup, and Javascript for scripting.  The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on you user's browser understanding what's going on.  All the browser cares about is whether you've sent it properly formatted HTML, CSS and Javascript files (and other assets like images).  That's led to a whole lot of different choices for back-end languages.  As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.
 
-That said, some languages are more popular and practical than others.  If you're running your own server, you have a ton of flexibility but plenty of headaches.  If you're deploying to the cloud (which we will be doing later), you may be restricted to those languages which your cloud provider has installed on their platform... it doesn't do you much good if the servers you're "borrowing" from them can't understand your code!  Some of the most popular are PHP, ASP.NET, Ruby, Python and Java (not to be confused with Javascript).  And just like I can say "which way to the nearest pub?" in German, French, Italian, English and Bad English, all of those languages can perform almost exactly the same functions.
+That said, some languages are more popular and practical than others.  If you're running your own server, you have a ton of flexibility but plenty of headaches.  If you're deploying to the cloud (which we will be doing later), you may be restricted to those languages which your cloud provider has installed on their platform... it doesn't do you much good if the servers you're "borrowing" from them can't understand your code!  Some of the most popular are PHP, ASP.NET, Ruby, Python and Java (not to be confused with Javascript).  And just like I can say "which way to the nearest pub?" in Swedish, French, Italian, English and Bad English, all of those languages can perform almost exactly the same functions.
 
-On difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.
+One difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.
 
 ##### Assignment:
 Go to the [Installations Unit](/installations/installations.md) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
