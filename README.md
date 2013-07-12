@@ -5,7 +5,9 @@ It's game on.
 Note to self:  You can't call any custom stylesheets or heroku will shit the bed.  The assets get precompiled so NO WAY can you call custom stylesheets at runtime.
 
 **************************  DEPLOYMENT NOTES: **********************
-<< None >>
+*** MIGRATION! Added columns to User for profile.
+
+
 ********************************************************************
 
 >> Optimize Google Analytics
@@ -36,7 +38,8 @@ DONE Create Login link on splash page but hide signup
 DONE Hide login from navbar if on login pages... so just hide it always!
 DONE Change event title returned to be creator's username
 DONE Fix link to user root after account update
-* Set up user profile page that includes github and best ways to contact
+DONE Set up user profile page that includes github and best ways to contact
+DONE Set up user profile page editing functions
 * Link from modal to user profile page (and pull info from it for quick reference)
 * Set up users index page to list all users and their projects, last login
 
@@ -52,6 +55,9 @@ TESTS:
 * only logged in user can get to edit link
 * Only logged in user can access profile or edit pages
 * only current user can access edit page
+* edit page shows editable options
+* Update method works for user profile page
+* 
 
 **********************  General Sandbox  ****************************
 

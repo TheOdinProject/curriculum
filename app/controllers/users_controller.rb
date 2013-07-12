@@ -5,26 +5,35 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by_id(params[:id])
-    if @user.nil?
-      flash[:error] = "There was no user by that name"
-      redirect_to :back
-    else
+    if @user
       gravatar_hash = Digest::MD5.digest(@user.email.strip.downcase)
       @gravatar_url = "http://www.gravatar.com/avatar/#{gravatar_hash}"
+    else
+      flash[:error] = "There was no user by that name"
+      redirect_to :back
     end
   end
 
   def edit
     @user = User.find_by_id(params[:id])
-    if @user.nil?
-      flash[:error] = "There was no user by that name"
-      redirect_to :back
-    else
+    if @user
       gravatar_hash = Digest::MD5.digest(@user.email.strip.downcase)
       @gravatar_url = "http://www.gravatar.com/avatar/#{gravatar_hash}"
+    else
+      flash[:error] = "There was no user by that name"
+      redirect_to :back
     end
     @edit = true
     render :show
+  end
+
+  def update
+    @user = User.find_by_id(params[:id])
+    if @user
+      @user.update_attributes(params[:user])
+      flash[:success] = "Your profile was updated successfully"
+      redirect_to @user
+    end
   end
 
   protected
