@@ -5,5 +5,8 @@ class AddProfileFieldsToUser < ActiveRecord::Migration
     add_column :users, :twitter, :string
     add_column :users, :facebook, :string
     add_column :users, :linkedin, :string
+    add_column :users, :google_plus, :string
+    add_column :users, :skype, :string
+    add_column :users, :screenhero, :string
   end
 end

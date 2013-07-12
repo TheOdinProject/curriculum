@@ -80,6 +80,9 @@ ActiveRecord::Schema.define(:version => 20130711222431) do
     t.string   "twitter"
     t.string   "facebook"
     t.string   "linkedin"
+    t.string   "google_plus"
+    t.string   "skype"
+    t.string   "screenhero"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
