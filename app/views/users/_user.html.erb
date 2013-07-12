@@ -1,6 +1,8 @@
 <div class="row student">
   <div class="student-pic">
-    <img src="<%= gravatar_url(user, 170) %>">
+    <a href="<%= user_path(user) %>">
+      <img src="<%= gravatar_url(user, 100) %>">
+    </a>
   </div>
   <div class="span8 student-info">
     <h3><%= link_to "#{user.username}", user %></h3>
