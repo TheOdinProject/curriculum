@@ -158,12 +158,25 @@
               .html("Wants to work on:")
               .append(proj_display);
 
+          // BUG PATCH from http://stackoverflow.com/questions/14488774/using-html-in-a-dialogs-title-in-jquery-ui-1-10
+          // To allow html to not be escaped when inserted in a
+          // dialog's title
+          $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
+            _title: function(title) {
+              if (!this.options.title ) {
+                title.html("&#160;");
+              } else {
+                title.html(this.options.title);
+              }
+            }
+          }));
+
           // Pop up the dialog
           $("#eventContent").dialog({ 
             modal: true, 
             width: 350,
             height: 300,
-            title: event.title,
+            title: "<a href='" + event.creator_profile_url+"'>" + event.title + "</a>" ,
             position: {my: "center", at: "center", of: $("#calendar") },
             open: function(event, ui) { 
               $(".ui-dialog-titlebar-close").text("X"); 

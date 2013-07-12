@@ -44,7 +44,7 @@ DONE Add link to profile page on navbar
 DONE Add cancel link to edit page
 DONE Add edit picture on Gravatar link
 DONE Add links to G+ and Skype and Screenhero
-* Link from modal to user profile page (and pull info from it for quick reference)
+DONE Link from modal to user profile page (and pull info from it for quick reference)
 * Set up users index page to list all users and their projects, last login
 
 BUG LIST:
