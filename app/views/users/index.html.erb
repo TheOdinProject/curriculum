@@ -1,0 +1,12 @@
+<%= content_for :title, "The Odin Project -- Students" %>
+
+<div class="container">
+  <div class="row">
+    <div class="span10 offset1">
+      <h2>Students</h2>
+      <% @users.each do |user| %>
+        <%= render user %>
+      <% end %>
+    </div>
+  </div>
+</div>

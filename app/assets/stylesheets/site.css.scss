@@ -84,3 +84,27 @@ form#edit-user{
     height: 100%;
   }
 }
+
+.student{
+  margin-bottom: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(200,200,200,.1);
+  h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .student-pic{
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    margin-left: 30px;
+  }
+  .student-info{
+    margin-left: 30px;
+    width: 770px;
+    float: left;
+    max-height: 100px;
+    overflow: scroll;
+  }
+}

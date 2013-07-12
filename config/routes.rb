@@ -16,6 +16,7 @@ Theodinproject::Application.routes.draw do
   get 'selectable' => 'static_pages#selectable'
   get 'splash_email' => 'static_pages#splash_email'
   post 'suggestion' => 'static_pages#suggestion'
+  get 'students' => 'users#index'
 
   resources :cal_events
 

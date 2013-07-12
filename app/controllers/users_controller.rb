@@ -17,8 +17,6 @@ class UsersController < ApplicationController
   def edit
     @user = User.find_by_id(params[:id])
     if @user
-      gravatar_hash = Digest::MD5.digest(@user.email.strip.downcase)
-      @gravatar_url = "http://www.gravatar.com/avatar/#{gravatar_hash}"
       @edit = true
       render :show
     else
@@ -36,6 +34,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def index
+    @users = User.all
+  end
+  
   protected
 
   def check_current_user

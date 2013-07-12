@@ -1,0 +1,15 @@
+<div class="row student">
+  <div class="student-pic">
+    <img src="<%= gravatar_url(user, 170) %>">
+  </div>
+  <div class="span8 student-info">
+    <h3><%= link_to "#{user.username}", user %></h3>
+    <% if user.github %>
+      <%= link_to "#{user.github}", user.github %>
+    <% else %>
+      Github account unavailable
+    <% end %>
+    <br>
+    Current Projects: <%= user.content_buckets.map(&:name).join(", ") %>
+  </div>
+</div>
