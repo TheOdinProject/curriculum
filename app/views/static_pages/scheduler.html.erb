@@ -75,7 +75,7 @@
             select: function(start, end, allDay) {
               console.log($(this));
               var summary = "<%= current_user.username %>";
-              var description = "Email: <%= current_user.email %>";
+              var description = "";
               if(summary) {
                 $.ajax({
                   url: "<%= cal_events_url %>",
@@ -144,9 +144,13 @@
         function openEventInfoModal(event) { 
           console.log(event);
           console.log(event.title);
+
+          // Populate the contact info section
+          $(".contactInfo").html("Reach out via email: <a href='mailto:" + event.creator_email + "'>" + event.creator_email + "</a>")
           
-          // Populate it with info
+          // Populate the description with info
           $(".eventInfo").html(event.description); 
+          // "<a href='" + event.creator_profile_url +"'>Go to " + event.creator_name + "'s Profile</a><br>" + 
 
           // Populate the listing of projects
           proj_display = "<ul>";
@@ -155,12 +159,12 @@
           });
           proj_display += "</ul>"
           $(".projectList")
-              .html("Wants to work on:")
+              .html(event.creator_name + " wants to work on:")
               .append(proj_display);
 
           // BUG PATCH from http://stackoverflow.com/questions/14488774/using-html-in-a-dialogs-title-in-jquery-ui-1-10
           // To allow html to not be escaped when inserted in a
-          // dialog's title
+          // dialog's title, is it is below.
           $.widget("ui.dialog", $.extend({}, $.ui.dialog.prototype, {
             _title: function(title) {
               if (!this.options.title ) {
@@ -176,7 +180,7 @@
             modal: true, 
             width: 350,
             height: 300,
-            title: "<a href='" + event.creator_profile_url+"'>" + event.title + "</a>" ,
+            title: "<a href='" + event.creator_profile_url+"'>" + event.title + "  --  <span class='view-profile-link'>click to view profile</span></a>" ,
             position: {my: "center", at: "center", of: $("#calendar") },
             open: function(event, ui) { 
               $(".ui-dialog-titlebar-close").text("X"); 
@@ -327,9 +331,10 @@
 </div>
 
 <div id="eventContent" title="Available" style="display:none;">
+  <div class="contactInfo">
+  </div>
   <div class="eventInfo">
   </div>
-  <br>
   <div class="projectList">
   </div>
 </div>
@@ -338,6 +343,7 @@
 <div id="edit-event-dialog-form" title="Create Availability" style="display: none;">
   <form>
   <fieldset>
+    Enter your own description:<br>
     <textarea name="description" id="edit-event-info" class="text ui-widget-content ui-corner-all"></textarea>
   </fieldset>
   </form>
