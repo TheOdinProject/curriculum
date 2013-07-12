@@ -25,11 +25,6 @@ Total Estimated Time: 60-90 hrs
 * Javascript: [Sketch Pad](#jsjquery-mini-project)
 * Ruby: [Test First Ruby](#ruby-mini-project)
 * Rails: [Blogger Tutorial](#rails-mini-project)
-<style>
-    .entry-content{
-        width: 500px;
-    }
-</style>
 
 ## Intro
 
