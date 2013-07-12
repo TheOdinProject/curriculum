@@ -55,13 +55,13 @@ Estimated Time: 1-2 hrs
 * What happens when you click "search" on google.com?
 
 ##### Assignment:
-* For a basic and painless Internet overview, check out [Don't Fear The Internet's Simple Primer (video)](http://www.dontfeartheinternet.com/the-basics/not-tubes).
-* Check out [How Does the Internet Work? (video)](http://www.youtube.com/watch?v=oj7A2YDgIWE) for a basic explanation of how packets work.
-* Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in the curriculum.
-* He dives further into HTTP in a [short 3-minute video (video)](http://cs50.tv/2012/fall/shorts/http/http-720p.mp4).
-* Check out [a bit more on developer tools](http://www.dontfeartheinternet.com/the-basics/dont-fear-the-browser) from Don't Fear the Internet, since getting familiar with your browser's tools will help you out quite a bit as you start poking around the web pages you or others have made.
-* If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](http://www.youtube.com/watch?v=z1TkfcC53G0) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
-* For a more detailed (though a bit dated) text explanation, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
+1. For a basic and painless Internet overview, check out [Don't Fear The Internet's Simple Primer (video)](http://www.dontfeartheinternet.com/the-basics/not-tubes).
+2. Check out [How Does the Internet Work? (video)](http://www.youtube.com/watch?v=oj7A2YDgIWE) for a basic explanation of how packets work.
+3. Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in the curriculum.
+4. He dives further into HTTP in a [short 3-minute video (video)](http://cs50.tv/2012/fall/shorts/http/http-720p.mp4).
+5. Check out [a bit more on developer tools](http://www.dontfeartheinternet.com/the-basics/dont-fear-the-browser) from Don't Fear the Internet, since getting familiar with your browser's tools will help you out quite a bit as you start poking around the web pages you or others have made.
+6. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](http://www.youtube.com/watch?v=z1TkfcC53G0) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
+7. (Optional) For a more detailed (though a bit dated) text explanation, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 
 What's the best explanation of how the web works you've seen or read?  Were any other resources you found helpful for answering the questions posed at the beginning of this section? [Let us know!](mailto:curriculum@theodinproject.com)
 
@@ -79,7 +79,7 @@ Estimated Time: 2-4 hrs
 This isn't a course about rebuilding your hard drive but it is useful for you to understand the high level overview of what's going on to make your computer function.  That's partly because you'll see the same patterns showing up when you're telling servers what to do and partly because you're going to have to talk to your computer in a way that it understands anyway so you'd better speak a little of its language.
 
 ##### Assignment:
-Spare 15 minutes to [learn how computers work](http://www.youtube.com/watch?v=WIDzNyfVVg0).
+1. Spare 15 minutes to [learn how computers work](http://www.youtube.com/watch?v=WIDzNyfVVg0).
 
 ### The Command Line
 
@@ -88,7 +88,7 @@ Raise your hand if you're scared of the command line.  Yes, we have this image o
 That black screen (or window) is the command line, where you're able to enter commands that your computer will run for you.  And while that image of a programmer is a bit overdone, the command line really is sort of like our base of operations, from which we'll launch other programs to do our "real developing" in.  It has a syntax of its own which is different but not all that difficult to pick up.  You'll be entering the same commands dozens of times anyway, so you'll get pretty good at it in a short period of time.
 
 ##### Assignment:
-To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.
+1. To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
@@ -99,7 +99,7 @@ Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that cour
 Estimated Time: 1-2 hrs
 
 ##### Assignment:
-Take a look at this [list of term definitions](http://prework.flatironschool.com/#terms) and make sure you have at least a competant understanding of each one (click on it to bring up the full definition).  Don't skip this and assume you know it all -- there will be at least a few that are worth nailing down.  Flashcards help.
+1. Take a look at this [list of term definitions](http://prework.flatironschool.com/#terms) and make sure you have at least a competant understanding of each one (click on it to bring up the full definition).  Don't skip this and assume you know it all -- there will be at least a few that are worth nailing down.  Flashcards help.
 
 ## Web Programming Basics 
 Estimated Time: 40-60 hrs
@@ -112,8 +112,8 @@ Estimated Time: 20-30 hrs
 The "front end languages" live in the browser.  After you type in an address in the address bar at the top and hit Enter, your browser will receive at least an HTML file from the web server.  That file will likely tell the browser to go and also ask for a CSS file and a Javascript file as well.  Each of these languages performs a separate but very important function and they work harmoniously together to determine what the web page IS, how it LOOKS, and how it FUNCTIONS.  And keep in mind that your browser handles figuring out how to make these files into a functioning webpage (not the server).
 
 ##### Assignment:
-* Get a high level overview of how all three languages (and jQuery) work together in a web page in this brief learn.jquery.com post on the [Anatomy of a Web Page](http://learn.jquery.com/javascript-101/getting-started/).
-* If you didn't the first time, check out the [this 10-minute video on your browser's developer tools](http://www.youtube.com/watch?v=z1TkfcC53G0), which should make a bit more sense to you anyway now.
+1. Get a high level overview of how all three languages (and jQuery) work together in a web page in this brief learn.jquery.com post on the [Anatomy of a Web Page](http://learn.jquery.com/javascript-101/getting-started/).
+2. If you didn't the first time, check out the [this 10-minute video on your browser's developer tools](http://www.youtube.com/watch?v=z1TkfcC53G0), which should make a bit more sense to you anyway now.
 
 #### HTML and CSS 101
 Estimated Time: 6-10 hrs
@@ -140,17 +140,26 @@ Estimated Time: 6-10 hrs
 As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html), HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page lives inside HTML tags that tell your browser how to order the content on the page.  [CSS](http://www.skillcrush.com/terms/css.html) tells the browser if you want to display any of those tags a particular way like, for instance, turning its background blue and pushing it a little to the left.
 
 ##### Assignment:
-* Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.
-* Build the Android logo using just HTML and CSS at an amazing website called [The Code Player](http://thecodeplayer.com/walkthrough/css3-android-logo), which is like a tutorial but it actually plays the code as the original developer created it.  Use JSFiddle to create the logo alongside this tutorial.
+1. Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.
+2. Build the Android logo using just HTML and CSS by watching [this video](http://thecodeplayer.com/walkthrough/css3-android-logo) from at an amazing website called [The Code Player](http://thecodeplayer.com/walkthrough/css3-android-logo), which is like a tutorial but it actually plays the code as the original developer created it.  Use JSFiddle or your own text editor to create the logo alongside the tutorial.
     * Note: You will see border-radius, -moz-border-radius, and -webkit-border-radius all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use border-radius to achieve the desired effect.
-* Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=KGzsRiAXVbA).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.
-
-TODO: HTML/CSS code walkthrough video
+3. Learn about basic forms from [this Treehouse video](http://teamtreehouse.com/library/websites/html/forms/inputs) and use [this w3 page](http://www.w3schools.com/html/html_forms.asp) as a reference.
+4. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=KGzsRiAXVbA).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took and how we can make it more complete so we can let others know!
 
 ##### HTML/CSS Mini-Project:
 Estimated Time: 2-4 hrs
+
+**Know (and try) these before starting**
+* Two ways to move a div around on the page
+* How to stick a div onto the bottom or top of the page
+* How to see what color the background of something is on an existing webpage
+* How to grab the URL for an image from an existing webpage
+* How to center an element horizontally
+* Three ways you can include your CSS styles in a page
+* How to use classes and ids to target CSS at specific elements on the page
+* How to build a very basic form (even if it doesn't "go" anywhere)
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it.  The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.  For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
@@ -194,15 +203,15 @@ As we [saw before](http://www.skillcrush.com/terms/javascript.html), Javascript 
 This is also the first time you'll get to do some actual programming (HTML/CSS just kind of sit there).  The jQuery section will focus a bit more on applying your knowledge to real webpages.
 
 ##### Assignment:
-* Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum.
+1. Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum.
     * Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
-* Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
-* Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems.  Use the "Run" button at the top to run your Javascript.
-* Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using jsfiddle if you aren't comfortable working on your own):
-    * [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
-    * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
-    * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
-    * No one said you could turn off your brain!
+2. Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
+3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems.  Use the "Run" button at the top to run your Javascript.
+4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using jsfiddle if you aren't comfortable working on your own):
+    1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
+    2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
+    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
+    4. No one said you could turn off your brain!
 
 **Additional Resources:**
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
@@ -215,7 +224,7 @@ What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of
 jQuery will let you take your javascript knowledge and start really diving into your webpages and messing with the elements.  
 
 ##### Assignment:
-* Learn about jQuery by doing [Codecademy's jQuery Section 1](http://www.codecademy.com/tracks/jquery)("Introducing jQuery") and [Code School's try jQuery](http://try.jquery.com/).  The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
+1. Learn about jQuery by doing [Codecademy's jQuery Section 1](http://www.codecademy.com/tracks/jquery)("Introducing jQuery") and [Code School's try jQuery](http://try.jquery.com/).  The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took (whether just the section 1 or the whole thing) so we can let others know!
 
@@ -233,7 +242,7 @@ Estimated Time: 3-6 hrs
 * If you've got a cool solution, send it (or at least a screenshot) to [curriculum@theodinproject.com](mailto:curriculum@theodinproject.com) so we can show it as an example!
 
 ### Back End Basics
-Total Estimated Time: 25-35 hrs
+Total Estimated Time: 20-30 hrs
 
 The three languages of the front end are fairly standardized -- HTML for presentation, CSS for markup, and Javascript for scripting.  The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on you user's browser understanding what's going on.  All the browser cares about is whether you've sent it properly formatted HTML, CSS and Javascript files (and other assets like images).  That's led to a whole lot of different choices for back-end languages.  As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.
 
@@ -242,10 +251,10 @@ That said, some languages are more popular and practical than others.  If you're
 One difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.
 
 ##### Assignment:
-Go to the [Installations Unit](/installations/installations.md) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
+1. Go to the [Installations Unit](/installations/installations.md) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
-Estimated Time: 25-35 hrs 
+Estimated Time: 20-30 hrs 
 
 ##### You Will Need to Understand:
 * What is an "interpreted" language?
@@ -272,35 +281,42 @@ With either of the languages, there are a couple of things that aren't immediate
 A final note -- you'll be learning a bunch of new terminology and concepts here but don't think they're only applicable to Ruby.  Most of it (like methods, classes, objects etc.) will pop up again in Javascript and pretty much any other language you pick up.
 
 ##### Assignment:
-First, go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.
-
-Next, read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations), which you should have done already.
-
-Dive in a little deeper with Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
-
-Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
+1. Go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.
+2. Read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations), which you should have done already.
+3. Dive in a little deeper with Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
+4. Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
 
 **Bonus:**
 Redo the same Project Euler problems that you previously did in Javascript but using Ruby instead (try using IRB or a .rb file that you run from the command line):
-    * [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
-    * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
-    * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
+    1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
+    2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
+    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
 
 TODO: Ruby walkthrough video
 
 ##### Ruby Mini-Project:
-Estimated Time: 10-15 hrs
+Estimated Time: 4-6 hrs
 
 It's time for some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.  First, you'll probably want to skip ahead and read about testing in the section below called "Testing 101".  There's a homework assignment there but it shouldn't take long.  Or just wing it...
 
-* Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main index.html file in a browser, you'll have instructions waiting for you that describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck!
-* If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live).
+This exercise will involve a lot of figuring things out.  There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass.  You need to look at those tests, figure out what they want, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
+
+1. Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main index.html file in a browser, you'll have instructions waiting for you that describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck!
+2. If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live).
+3. Do the following exercises.  You'll know you're done when all the tests pass!
+    1. 00_hello
+    2. 01_temperature
+    3. 02_calculator
+    4. 03_simon_says
+    5. 04_pig_latin 
+    6. 08_book_titles
+    6. 09_timer
 
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
 ##### Additional Resources
 
-* The Railsbridge [Ruby Language](http://curriculum.railsbridge.org/curriculum/ruby_language) unit.
+* The Railsbridge [Ruby curriculum](http://curriculum.railsbridge.org/ruby/).
 * Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet but may help you shore up some of the concepts.
 * See the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) for a condensed list of common commands and concepts.
 
@@ -322,11 +338,9 @@ Databases are one of those aspects of web programming that are kind of hidden in
 Compared to a normal language, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on.
 
 ##### Assignment:
-Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).
-
-Sign up for Coursera's [Intro to Databases](https://class.coursera.org/db/lecture/index) course and watch the lectures on Relational Databases and SQL (~3 hrs).  You can save the sections in between (relational algebra, XML, JSON) for extra credit (things get a bit technical there).
-
-Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
+1. Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).
+2. Sign up for Coursera's [Intro to Databases](https://class.coursera.org/db/lecture/index) course and watch the lectures on Relational Databases and SQL (~3 hrs).  You can save the sections in between (relational algebra, XML, JSON) for extra credit (things get a bit technical there).
+3. Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
 
 #### Additional Resources:
 
@@ -380,10 +394,10 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 
 ##### Assignment:
 
-* Watch this [basic overview of Rails](http://www.youtube.com/watch?v=b_DJdmvBStE) from Michael Hartl.  It will walk through the creation of a very basic web application.
-* Read Daniel Kehoe's excellent [What is Ruby on Rails?](http://railsapps.github.io/what-is-ruby-rails.html) introduction to get a good grasp on what we're working with.
-* Start doing Rails right away by diving into the [Rails for Zombies](http://railsforzombies.org/) course, which lets you begin programming Rails right in your browser!  It goes pretty quickly and you'll probably need to rewatch the videos but stick with it.
-* Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time we do our deep dive during the Rails unit later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
+1. Watch this [basic overview of Rails](http://www.youtube.com/watch?v=b_DJdmvBStE) from Michael Hartl.  It will walk through the creation of a very basic web application.
+2. Read Daniel Kehoe's excellent [What is Ruby on Rails?](http://railsapps.github.io/what-is-ruby-rails.html) introduction to get a good grasp on what we're working with.
+3. Start doing Rails right away by diving into the [Rails for Zombies](http://railsforzombies.org/) course, which lets you begin programming Rails right in your browser!  It goes pretty quickly and you'll probably need to rewatch the videos but stick with it.
+4. Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time we do our deep dive during the Rails unit later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
 
 ##### Rails Mini Project:
 Estimated Time: 3-5 hrs
@@ -405,8 +419,8 @@ This is probably the most "advanced" material we'll be taking a look at during t
 
 ##### Assignment:
 
-* Read through the [nettuts backbone explanation]().  It should be somewhat confusing but you should also notice some structural similarities to Rails, even though this is on the front end.  Again, don't worry if you're confused by what you're reading.  The point isn't to absorb everything, it's just to kind of get a feel for what's waiting.  We won't cover Backbone until fairly late in the course when you're a Jedi Javascript Master.
-* Also check out the [CodeBeerStartups Backbone guide](http://www.codebeerstartups.com/2012/12/a-complete-guide-for-learning-backbone-js/) chapters 1 and 2 for some slightly more plain-english explanations.  Again, don't panic... you'll learn this later.
+1. Read through the [nettuts backbone explanation]().  It should be somewhat confusing but you should also notice some structural similarities to Rails, even though this is on the front end.  Again, don't worry if you're confused by what you're reading.  The point isn't to absorb everything, it's just to kind of get a feel for what's waiting.  We won't cover Backbone until fairly late in the course when you're a Jedi Javascript Master.
+2. Also check out the [CodeBeerStartups Backbone guide](http://www.codebeerstartups.com/2012/12/a-complete-guide-for-learning-backbone-js/) chapters 1 and 2 for some slightly more plain-english explanations.  Again, don't panic... you'll learn this later.
 
 ##### Additional Resources
 
@@ -432,9 +446,8 @@ But wait, you say, Why not just erase the offending paragraphs and move on?  Her
 
 ##### Assignment:
 
-Read through Github's [Introduction to Git materials](http://learn.github.com/p/index.html) and watch the video there.
-
-Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
+1. Read through Github's [Introduction to Git materials](http://learn.github.com/p/index.html) and watch the video there.
+2. Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
 
 #### Testing 101
 Estimated Time: ??? hrs
@@ -455,7 +468,7 @@ You'll be interfacing with tests before actually writing your own... how else do
 
 ##### Assignment:
 
-* Do the [Introductory RSpec level](http://rspec.codeschool.com/levels/1) from Code School.
+1. Do the [Introductory RSpec level](http://rspec.codeschool.com/levels/1) from Code School.
 
 #### The Cloud, Hosting, and Software as a Service (SAAS)
 Estimated Time: ??? hrs

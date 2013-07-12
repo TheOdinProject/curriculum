@@ -16,3 +16,5 @@ http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/
 $$http://www.backbonerails.com/
 
 https://github.com/hybridgroup/betterfrontend
+
+Codeplayer game for snake: http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery
