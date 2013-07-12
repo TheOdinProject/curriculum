@@ -24,7 +24,7 @@
           <input type="submit" class="btn btn-medium btn-primary edit-profile" value="Update" >
           <%= link_to "Cancel", @user, :class => "edit-profile" %>
         <% else %>
-          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium'>Edit</button></a>
+          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium'>Edit Profile</button></a>
         <% end %>
       <% end %>
 
@@ -48,6 +48,10 @@
         <% if @edit %>
           <ul>
             <li><input type="text" id="user_email" name="user[email]" size="50" placeholder="email" value="<%= @user.email %>"></li>
+            <li><input type="text" id="user_skype" name="user[skype]" size="50" placeholder="URL for your Skype..." value="<%= @user.skype %>"></li>
+            <li><input type="text" id="user_screenhero" name="user[screenhero]" size="50" placeholder="URL for your ScreenHero..." value="<%= @user.screenhero %>"></li>
+            <li><input type="text" id="user_google_plus" name="user[google_plus]" size="50" placeholder="URL for your Google Plus..." value="<%= @user.google_plus %>"></li>
+            <li><hr></li>
             <li><input type="text" id="user_github" name="user[github]" size="50" placeholder="URL for your Github..." value="<%= @user.github %>"></li>
             <li><input type="text" id="user_facebook" name="user[facebook]" size="50" placeholder="URL for your Facebook..." value="<%= @user.facebook %>"></li>
             <li><input type="text" id="user_twitter" name="user[twitter]" size="50" placeholder="URL for your Twitter..." value="<%= @user.twitter %>"></li>
@@ -56,7 +60,11 @@
 
         <% else %>
           <ul>
-            <li><a href="mailto:<%= @user.email %>"><%= @user.email %></a></li>
+            <li>Email: <a href="mailto:<%= @user.email %>"><%= @user.email %></a></li>
+            <li>Skype: <a href="<%= @user.skype %>"><%= @user.skype %></a></li>
+            <li>ScreenHero: <a href="<%= @user.screenhero %>"><%= @user.screenhero %></a></li>
+            <li>Google Plus: <a href="<%= @user.google_plus %>"><%= @user.google_plus %></a></li>
+            <li><hr></li>
             <li>Github: <a href="<%= @user.github %>"><%= @user.github %></a></li>
             <li>Facebook: <a href="<%= @user.facebook %>"><%= @user.facebook %></a></li>
             <li>Twitter: <a href="<%= @user.twitter %>"><%= @user.twitter %></a></li>
@@ -68,12 +76,15 @@
 
     <div class="span6">
       <div class="profile-projects">
-        <h3>What I Want to Work On</h3>
+        <h3>What I Want to Pair On</h3>
         <ul>
           <% @user.content_buckets.each do |project| %>
             <li><%= project.name %></li>
           <% end %>
         </ul>
+          <% if @user == current_user %>
+            <a href="<%= edit_user_pref_path %>" class="edit-projects">Edit Projects</a>
+          <% end %>
       </div>
     </div>
 
