@@ -50,6 +50,8 @@ TESTS:
 * profile page displays at least one link, an about, and a project
 * profile page edit button only for logged in user
 * only logged in user can get to edit link
+* Only logged in user can access profile or edit pages
+* only current user can access edit page
 
 **********************  General Sandbox  ****************************
 

@@ -14,6 +14,12 @@ class ApplicationController < ActionController::Base
     scheduler_path
   end
 
+  # redirects to error pages
+  def bad_request
+    #redirect_to "#{Rails.root}/public/400.html"
+    raise ActionController::RoutingError.new('Bad Request')
+  end
+
   protected
 
   def catch_referral_codes

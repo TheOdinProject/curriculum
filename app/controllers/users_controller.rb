@@ -30,7 +30,14 @@ class UsersController < ApplicationController
   protected
 
   def check_current_user
-    redirect_to :back unless current_user == User.find(params[:id])
+    user = User.find_by_id(params[:id]) || bad_request
+    if user
+      unless current_user == User.find(params[:id])
+        redirect_to User.find(params[:id]) 
+      end
+    else
+      render "/400.html", :status => 400 # bad request
+    end
   end
 
 end

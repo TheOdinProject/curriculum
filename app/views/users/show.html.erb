@@ -1,47 +1,81 @@
 <div class="container">
 
+  <% if @user == current_user && @edit %>
+    <form accept-charset="UTF-8" id="edit-user" method="post" action="/users/<%= @user.id %>">
+      <input name="_method" type="hidden" value="put">
+      <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>">
+  <% end %>
+
   <div class="row">
 
     <div class="span3 offset1">
-
       <div class="profile-photo-container">
         <img src="<%= @gravatar_url %>?s=270">
       </div>
-
-      <div class="profile-contact-links">
-        <ul>
-          <li><%= @user.email %></li>
-          <li>Github: <%= @user.github %></li>
-          <li>Facebook: <%= @user.facebook %></li>
-          <li>Twitter: <%= @user.twitter %></li>
-          <li>LinkedIn: <%= @user.linkedin %></li>
-        </ul>
-      </div>
-
     </div>
 
     <div class="span6">
-
       <h2 class="profile-headline"><%= @user.username %></h2>
       <% if @user == current_user %>
-        <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium btn-primary'>Edit</button></a>
+        <% if @edit %>
+          <input type="submit" class="btn btn-medium btn-primary edit-profile" value="Update" >
+        <% else %>
+          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium btn-primary'>Edit</button></a>
+        <% end %>
       <% end %>
 
       <h3>About Me</h3>
-      <p>
-        <%= @user.about %>
-      </p>
+      <div class="profile-about">
+        <% if @user == current_user && @edit %>
+          <textarea id="user_about" name="user[about]" cols="70" rows="8" placeholder="Tell us about yourself!"><%= @user.about %></textarea>
+        <% else %>
+          <p>
+            <%= @user.about %>
+          </p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span3 offset1">
+      <h3 class="contact-me">Contact Me</h3>
+      <div class="profile-contact-links">
+        <% if @user == current_user && @edit %>
+          <ul>
+            <li><input type="text" id="user_email" name="user[email]" size="50" placeholder="email" value="<%= @user.email %>"></li>
+            <li><input type="text" id="user_github" name="user[github]" size="50" placeholder="URL for your Github..." value="<%= @user.github %>"></li>
+            <li><input type="text" id="user_facebook" name="user[facebook]" size="50" placeholder="URL for your Facebook..." value="<%= @user.facebook %>"></li>
+            <li><input type="text" id="user_twitter" name="user[twitter]" size="50" placeholder="URL for your Twitter..." value="<%= @user.twitter %>"></li>
+            <li><input type="text" id="user_linkedin" name="user[linkedin]" size="50" placeholder="URL for your LinkedIn..." value="<%= @user.linkedin %>"></li>
+          </ul>
+
+        <% else %>
+          <ul>
+            <li><%= @user.email %></li>
+            <li>Github: <%= @user.github %></li>
+            <li>Facebook: <%= @user.facebook %></li>
+            <li>Twitter: <%= @user.twitter %></li>
+            <li>LinkedIn: <%= @user.linkedin %></li>
+          </ul>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="span6">
       <div class="profile-projects">
-        <h3>What I'm Currently Scheduling to Work On:</h3>
+        <h3>What I Want to Work On</h3>
         <ul>
           <% @user.content_buckets.each do |project| %>
             <li><%= project.name %></li>
           <% end %>
         </ul>
       </div>
-
-
     </div>
+
+    <% if @user == current_user && @edit %>   
+      </form>
+    <% end %>
 
   </div>
 
