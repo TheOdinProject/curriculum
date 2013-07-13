@@ -4,9 +4,9 @@ describe "Users" do
 
   subject { page }
 
-  let(:user){ FactoryGirl.create(:user, :github => "http://www.github.com/foobar", :about => "I rock") }
-  let(:other_user) { FactoryGirl.create(:user) }
-  let(:project) { FactoryGirl.create(:content_bucket) }
+  let!(:user){ FactoryGirl.create(:user, :github => "http://www.github.com/foobar", :about => "I rock") }
+  let!(:other_user) { FactoryGirl.create(:user) }
+  let!(:project) { FactoryGirl.create(:content_bucket) }
   
   describe "Profile Page (#show)" do
 
@@ -97,7 +97,33 @@ describe "Users" do
         end
       end
     end
-
   end
 
+  describe "Users index page" do
+
+    context "after signing in" do
+      before do
+        sign_in(user)
+        visit users_path
+      end
+
+      it { should have_selector("h2", "Students") }
+      it { should have_link(user.username, :href=>user_path(user)) }
+      it { should have_selector("img")}
+
+    end
+
+  end
 end
+
+
+
+
+
+
+
+
+
+
+
+

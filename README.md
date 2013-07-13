@@ -49,7 +49,6 @@ DONE Set up users index page to list all users and their projects, last login
 DONE Set up students link on navbar
 DONE Redo hiding signup stuff so option is required to show it
 DONE Bundle update gems
-* ? HTML safe my inputs?
 
 BUG LIST:
 
@@ -68,8 +67,8 @@ DONE edit page shows editable options
 DONE Update method works for user profile page
 DONE navbar has profile link
 DONE navbar has students (index) link
-* users index shows users
-* each indexed user has a username and photo
+DONE users index shows users
+DONE each indexed user has a username
 
 **********************  General Sandbox  ****************************
 
@@ -83,6 +82,7 @@ DONE navbar has students (index) link
 > USERS
 >> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
 >> Make the gravatar default image the odin logo
+* ? HTML safe my inputs?
 
 >> Build "contact" button in event to mail them with your contact info (and have an alert for okaying it)
 

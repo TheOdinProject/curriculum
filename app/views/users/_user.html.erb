@@ -1,7 +1,7 @@
 <div class="row student">
   <div class="student-pic">
     <a href="<%= user_path(user) %>">
-      <img src="<%= gravatar_url(user, 100) %>">
+      <img src="<%= gravatar_url(user, 100) %>" title="<%= user.username %>">
     </a>
   </div>
   <div class="span8 student-info">

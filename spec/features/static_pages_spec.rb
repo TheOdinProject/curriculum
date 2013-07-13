@@ -84,7 +84,7 @@ describe "StaticPages" do
         it { should have_link('Students', :href => "#{students_path}") }
         it { should have_link('Profile', :href => "#{user_path(user)}") }
         it { should have_link('Scheduler', :href => scheduler_path) }
-        it { should have_link('Account'), :href => edit_user_registration_path(user) }
+        it { should have_link('Account', :href => edit_user_registration_path) }
         it { should have_link('Logout', :href => logout_path ) }
       end
 
