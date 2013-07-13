@@ -46,9 +46,12 @@ describe CalEventsController do
               get :index
               rb = JSON.parse(response.body)
               rb[0]["id"].should == ce.id
-              rb[0]["title"].should == ce.summary
+              rb[0]["title"].should == ce.creator.username
               rb[0]["start"].to_datetime.should == ce.start
               rb[0]["end"].to_datetime.should == ce.end
+              rb[0]["creator_name"].should == ce.creator.username
+              rb[0]["creator_profile_url"].should == user_path(ce.creator)
+              rb[0]["creator_email"].should == ce.creator.email
               rb.count.should == 1
             end
           end
@@ -64,11 +67,16 @@ describe CalEventsController do
             get :index
             rb = JSON.parse(response.body)
             rb[0]["id"].should == ce.id
-            rb[0]["title"].should == ce.summary
+            rb[0]["title"].should == ce.creator.username
             rb[0]["start"].to_datetime.should == ce.start
             rb[0]["end"].to_datetime.should == ce.end
           end
 
+          it "populates an array with the user's projects" do
+            get :index
+            rb = JSON.parse(response.body)
+            rb[0]["projects"].should == [project.name]
+          end
 
           context "when other similarly-filtered events exist" do
             before do

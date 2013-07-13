@@ -6,7 +6,7 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **************************  DEPLOYMENT NOTES: **********************
 *** MIGRATION! Added columns to User for profile.
-
+*** BUNDLE UPDATE AGAIN!
 
 ********************************************************************
 
@@ -48,16 +48,19 @@ DONE Link from modal to user profile page (and pull info from it for quick refer
 DONE Set up users index page to list all users and their projects, last login
 DONE Set up students link on navbar
 DONE Redo hiding signup stuff so option is required to show it
+DONE Bundle update gems
+* ? HTML safe my inputs?
 
 BUG LIST:
 
 TESTS:
-* Events also have an event project list sent
-* signup is hidden from splash page
-* Fix tests for cal_events and login links
-* That profile page actually shows up
-* profile page displays at least one link, an about, and a project
-* profile page edit button only for logged in user
+DONE Fix tests for cal_events and login links
+DONE User unit tests
+DONE Events also have an event creator project list sent
+DONE signup is hidden from splash page
+DONE That profile page actually shows up
+DONE profile page displays at least one link, an about, and a project
+DONE profile page edit button only for logged in user
 * only logged in user can get to edit link
 * Only logged in user can access profile or edit pages
 * only current user can access edit page
@@ -68,7 +71,6 @@ TESTS:
 * users index shows users
 * each indexed user has a username and photo
 * students link on navbar
-* 
 
 **********************  General Sandbox  ****************************
 

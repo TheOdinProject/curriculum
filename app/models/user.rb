@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
   after_create :build_preferences
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus
 
   validates_uniqueness_of :email, :username
   validates :username, :length => { :in => 4..20 }

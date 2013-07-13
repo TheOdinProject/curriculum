@@ -15,7 +15,30 @@ describe User do
   it { should respond_to(:content_activations) }
   it { should respond_to(:content_buckets ) }
   it { should respond_to(:user_pref) }
+  it { should respond_to(:github) }
+  it { should respond_to(:twitter) }
+  it { should respond_to(:linkedin) }
+  it { should respond_to(:facebook) }
+  it { should respond_to(:about) }
+  it { should respond_to(:skype) }
+  it { should respond_to(:screenhero) }
+  it { should respond_to(:google_plus) }
   it { should be_valid }
+
+  context "with all fields filled in" do
+    before do
+      subject.github = "github"
+      subject.twitter = "twitter"
+      subject.linkedin = "linkedin"
+      subject.facebook = "facebook"
+      subject.about = "about"
+      subject.skype = "skype"
+      subject.screenhero = "screenhero"
+      subject.google_plus = "google_plus"
+    end
+
+    it { should be_valid }
+  end
 
   context "when username is blank" do
     before do

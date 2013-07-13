@@ -134,38 +134,64 @@ describe "StaticPages" do
   end
 
   describe "User authentication flow" do
-    
+
     let(:user) { FactoryGirl.create(:user) }  
-    before { visit home_path }
 
-    describe "should start on the home page" do
+    context "from the splash page" do
 
-      it { should have_selector('h1', :text => "Become a Web Developer") }
-      it { should_not have_link "Logout" }
+      before { visit root_path }
 
-      describe "then click through to login" do
+      it { should have_link "login" }
 
-        before { click_link "Login" }
+      context "after clicking login" do
 
-        it { should have_selector('h2', :text => "Sign in") }
+        before { click_link "login" }
 
-        describe "then login to land on the scheduler page" do
+        it { should_not have_link "Sign up" }
 
-          before do
-            fill_in "Email", :with => user.email
-            fill_in "Password", :with => user.password
-            click_button "Sign in"
-          end
+      end
+    end
 
-          it { should have_selector('h1', :text => "Start Programming Together" ) }
+    context "from the scheduler page" do
+      before do
+        visit scheduler_path
+      end
+      it { should have_link "Sign up" }
+    end
 
-          describe "then click logout to sign out to home page" do
+    context "from the home page" do
+    
+      before { visit home_path }
+
+      describe "should start on the home page" do
+
+        it { should have_selector('h1', :text => "Become a Web Developer") }
+        it { should_not have_link "Logout" }
+
+        describe "then click through to login" do
+
+          before { click_link "login" }
+
+          it { should have_selector('h2', :text => "Sign in") }
+
+          describe "then login to land on the scheduler page" do
 
             before do
-              click_link "Logout"
+              fill_in "Email", :with => user.email
+              fill_in "Password", :with => user.password
+              click_button "Sign in"
             end
 
-            it { should have_selector('h1', :text => "Become a Web Developer") }
+            it { should have_selector('h1', :text => "Start Programming Together" ) }
+
+            describe "then click logout to sign out to home page" do
+
+              before do
+                click_link "Logout"
+              end
+
+              it { should have_selector('h1', :text => "Become a Web Developer") }
+            end
           end
         end
       end
