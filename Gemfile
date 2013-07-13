@@ -23,7 +23,7 @@ group :development do
   gem 'binding_of_caller'
   gem 'letter_opener'
   gem 'rspec-rails'
-  gem 'capybara'
+  gem 'capybara', '<= 2.0.2'
 end
 
 group :test do
