@@ -80,6 +80,14 @@ describe "StaticPages" do
       it { should have_selector('h1', :text => "Start Programming Together") }
       it { should have_css('form#footer-suggestion-form') }
 
+      describe "navbar" do
+        it "link" do
+          # save_and_open_page
+          should have_link('Students', :href => "#{students_path}") 
+        end
+        it { should have_link('Profile', :href => "#{user_path(user)}") }
+      end
+
       context "before user chooses a project" do
         it "should have a prompt to choose a project" do
           subject.should have_selector("p.warning", "Tip:")

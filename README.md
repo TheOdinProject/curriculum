@@ -61,16 +61,15 @@ DONE signup is hidden from splash page
 DONE That profile page actually shows up
 DONE profile page displays at least one link, an about, and a project
 DONE profile page edit button only for logged in user
-* only logged in user can get to edit link
-* Only logged in user can access profile or edit pages
-* only current user can access edit page
-* edit page shows editable options
-* Update method works for user profile page
-* navbar has profile link
-* navbar has index link
+DONE only logged in user can get to edit link
+DONE Only logged in user can access profile or edit pages
+DONE only current user can access edit page
+DONE edit page shows editable options
+DONE Update method works for user profile page
+DONE navbar has profile link
+DONE navbar has students (index) link
 * users index shows users
 * each indexed user has a username and photo
-* students link on navbar
 
 **********************  General Sandbox  ****************************
 

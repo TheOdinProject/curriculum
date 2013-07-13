@@ -43,8 +43,8 @@ class UsersController < ApplicationController
   def check_current_user
     user = User.find_by_id(params[:id]) || bad_request
     if user
-      unless current_user == User.find(params[:id])
-        redirect_to User.find(params[:id]) 
+      unless current_user == user
+        redirect_to user
       end
     else
       render "/400.html", :status => 400 # bad request
