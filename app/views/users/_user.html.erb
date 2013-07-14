@@ -6,6 +6,6 @@
   </div>
   <div class="student-info">
     <h3><%= link_to "#{user.username}", user %></h3>
-    Current Projects: <%= user.content_buckets.map(&:name).join(", ") %>
+    <strong>Current Projects:</strong> <%= user.content_buckets.map(&:name).join(", ") %>
   </div>
 </div>
