@@ -35,7 +35,7 @@ DONE Remove the "github account unavailable" thing from index
 DONE Make gravatar containers fixed size on index page
 DONE Fix display of students index page to not collapse so quickly on resize
 DONE Fix navbar upon narrow window to not get pushed lower due to body top padding (media query)
-* Set up default Gravatar
+DONE Set up default Gravatar
 
 
 **********************  General Sandbox  ****************************

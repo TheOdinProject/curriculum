@@ -6,8 +6,6 @@ class UsersController < ApplicationController
   def show
     @user = User.find_by_id(params[:id])
     if @user
-      gravatar_hash = Digest::MD5.digest(@user.email.strip.downcase)
-      @gravatar_url = "http://www.gravatar.com/avatar/#{gravatar_hash}"
     else
       flash[:error] = "There was no user by that name"
       redirect_to :back

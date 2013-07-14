@@ -68,7 +68,7 @@
             <li>Google Plus: <%= @user.google_plus %></li>
             <li><hr></li>
             <li>Github: <a href="http://www.github.com/<%= @user.github %>"><%= @user.github %></a></li>
-            <li>Twitter: <a href="http://www.twitter.com/<%= @user.twitter %>"><%= @user.twitter[0] == "@" ? @user.twitter[1..-1] : @user.twitter %></a></li>
+            <li>Twitter: <a href="<%= twitter_url(@user)%>"><%= @user.twitter %></a></li>
             <li>Facebook: <a href="<%= @user.facebook %>"><%= @user.facebook %></a></li>
             <li>LinkedIn: <a href="<%= @user.linkedin %>"><%= @user.linkedin %></a></li>
           </ul>
