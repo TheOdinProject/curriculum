@@ -32,7 +32,7 @@ v0.0.6: Bug Fixes
 DONE Fix linkages to profiles to actually how the correct URL links to that program and their account on it.
 DONE Fix language for editing contact info -- not always a URL!
 DONE Remove the "github account unavailable" thing from index
-* Make gravatar containers fixed size on index page
+DONE Make gravatar containers fixed size on index page
 * Fix display of students index page to not collapse so quickly on resize
 * Set up default Gravatar
 
