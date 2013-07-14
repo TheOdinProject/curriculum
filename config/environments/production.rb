@@ -1,6 +1,9 @@
 Theodinproject::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
+  # ERIK: Adding this line to make the logs very descriptive to debug an issue with redirecting
+  config.logger = Logger.new(STDOUT)
+
   # Code is not reloaded between requests
   config.cache_classes = true
 

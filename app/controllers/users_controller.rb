@@ -44,6 +44,8 @@ class UsersController < ApplicationController
     user = User.find_by_id(params[:id]) || bad_request
     if user
       unless current_user == user
+        puts "**** redirecting because you aren't this user! ****"
+        logger.warn "**** redirecting because you (#{current_user.username}) aren't this user! ****"
         redirect_to user
       end
     else

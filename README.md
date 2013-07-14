@@ -29,6 +29,7 @@ v0.0.6:  Anonymize email reach-outs
 
 v0.0.6: Anonymize email reach-outs
 * Fix display of students index page to not collapse so quickly on resize
+* Fix language for editing contact info -- not always a URL!
 * 
 
 
