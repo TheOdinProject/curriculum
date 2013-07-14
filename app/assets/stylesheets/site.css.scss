@@ -86,12 +86,12 @@ form#edit-user{
 }
 
 .student{
-  margin-bottom: 10px;
-  padding-top: 25px;
+  margin-bottom: 15px;
+  /*padding-top: 25px;
   padding-bottom: 25px;
-  background-color: rgba(200,200,200,.1);
+  background-color: rgba(100,100,255,.05);*/
   h3{
-    margin-top: 5px;
+    margin-top: 0px;
     margin-bottom: 5px;
   }
   .student-pic{
@@ -101,8 +101,8 @@ form#edit-user{
     margin-left: 30px;
   }
   .student-info{
-    margin-left: 30px;
-    width: 770px;
+    margin-left: 20px;
+    width: 60%;
     float: left;
     max-height: 100px;
     overflow: scroll;
@@ -112,4 +112,12 @@ form#edit-user{
 .student-mini-pic{
   width: 100px;
   height: 100px;
+}
+
+
+/* ****************** MEDIA QUERIES ********************** */
+@media (max-width: 979px){
+  body {
+    padding-top: 0px;
+  }
 }

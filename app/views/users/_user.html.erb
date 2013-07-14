@@ -4,14 +4,8 @@
       <img src="<%= gravatar_url(user, 100) %>" title="<%= user.username %>" class="student-mini-pic">
     </a>
   </div>
-  <div class="span8 student-info">
+  <div class="student-info">
     <h3><%= link_to "#{user.username}", user %></h3>
-    <% if user.github %>
-      <%= link_to "#{user.github}", user.github %>
-    <% else %>
-      &nbsp;
-    <% end %>
-    <br>
     Current Projects: <%= user.content_buckets.map(&:name).join(", ") %>
   </div>
 </div>

@@ -33,7 +33,8 @@ DONE Fix linkages to profiles to actually how the correct URL links to that prog
 DONE Fix language for editing contact info -- not always a URL!
 DONE Remove the "github account unavailable" thing from index
 DONE Make gravatar containers fixed size on index page
-* Fix display of students index page to not collapse so quickly on resize
+DONE Fix display of students index page to not collapse so quickly on resize
+DONE Fix navbar upon narrow window to not get pushed lower due to body top padding (media query)
 * Set up default Gravatar
 
 
