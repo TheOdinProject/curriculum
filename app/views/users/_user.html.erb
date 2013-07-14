@@ -9,7 +9,7 @@
     <% if user.github %>
       <%= link_to "#{user.github}", user.github %>
     <% else %>
-      Github account unavailable
+      &nbsp;
     <% end %>
     <br>
     Current Projects: <%= user.content_buckets.map(&:name).join(", ") %>

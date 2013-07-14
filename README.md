@@ -15,7 +15,8 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **************************  Major Roadmap  **************************
 
-v0.0.6:  Anonymize email reach-outs
+v0.0.6:  Bug fixes
+v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
 0.0.?:  Anonymize scheduler results
 0.0.?:  Scheduling back-end
 0.0.?:  Feedback mechanism
@@ -27,10 +28,13 @@ v0.0.6:  Anonymize email reach-outs
 
 **********************  Current Version Sandbox  ********************
 
-v0.0.6: Anonymize email reach-outs
+v0.0.6: Bug Fixes
+DONE Fix linkages to profiles to actually how the correct URL links to that program and their account on it.
+DONE Fix language for editing contact info -- not always a URL!
+DONE Remove the "github account unavailable" thing from index
+* Make gravatar containers fixed size on index page
 * Fix display of students index page to not collapse so quickly on resize
-* Fix language for editing contact info -- not always a URL!
-* 
+* Set up default Gravatar
 
 
 **********************  General Sandbox  ****************************
