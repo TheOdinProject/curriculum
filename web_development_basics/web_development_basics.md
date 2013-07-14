@@ -61,7 +61,7 @@ Estimated Time: 1-2 hrs
 4. He dives further into HTTP in a [short 3-minute video (video)](http://cs50.tv/2012/fall/shorts/http/http-720p.mp4).
 5. Check out [a bit more on developer tools](http://www.dontfeartheinternet.com/the-basics/dont-fear-the-browser) from Don't Fear the Internet, since getting familiar with your browser's tools will help you out quite a bit as you start poking around the web pages you or others have made.
 6. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](http://www.youtube.com/watch?v=z1TkfcC53G0) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
-7. (Optional) For a more detailed (though a bit dated) text explanation, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
+7. (Optional) For a more detailed (though a bit dated) text explanation of http, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 
 What's the best explanation of how the web works you've seen or read?  Were any other resources you found helpful for answering the questions posed at the beginning of this section? [Let us know!](mailto:curriculum@theodinproject.com)
 

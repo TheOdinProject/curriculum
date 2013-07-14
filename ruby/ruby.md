@@ -711,7 +711,7 @@ What if I want to keep only the even numbers that are in an array?  The traditio
     my_array = [1,2,3,4,5,6,7,8,100]
     # 
 
-    TOO ADVANCED?  PUT IN LATER SECTION??
+    TOO ADVANCED?  PUT IN LATER SECTION???
 
 ##### Exercises
 
