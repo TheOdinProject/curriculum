@@ -1,13 +1,11 @@
-== Welcome to The Odin Project v0.0.5
+== Welcome to The Odin Project v0.0.6
 
 It's game on.
 
 Note to self:  You can't call any custom stylesheets or heroku will shit the bed.  The assets get precompiled so NO WAY can you call custom stylesheets at runtime.
 
 **************************  DEPLOYMENT NOTES: **********************
-*** MIGRATION! Added columns to User for profile.
-*** BUNDLE UPDATE AGAIN!
-
+< none >
 ********************************************************************
 
 >> Optimize Google Analytics
@@ -17,8 +15,7 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **************************  Major Roadmap  **************************
 
-0.0.5:  Profile Links from Scheduler
-0.0.6:  Anonymize email reach-outs
+v0.0.6:  Anonymize email reach-outs
 0.0.?:  Anonymize scheduler results
 0.0.?:  Scheduling back-end
 0.0.?:  Feedback mechanism
@@ -30,45 +27,10 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **********************  Current Version Sandbox  ********************
 
-v0.0.5: Profile Links from Scheduler
-DONE set calendar display to start on today's weekday and to not show the allday option.
-AVOIDED BUG: Creating multiple all-day events then deleting one will result in the others being turned into 12-1am events. Very odd.
-DONE Set up the event modal dialogs to show which project(s) that person wants to pair on when clicked.
-DONE Create Login link on splash page but hide signup
-DONE Hide login from navbar if on login pages... so just hide it always!
-DONE Change event title returned to be creator's username
-DONE Fix link to user root after account update
-DONE Set up user profile page that includes github and best ways to contact
-DONE Set up user profile page editing functions
-DONE Add link to profile page on navbar
-DONE Add cancel link to edit page
-DONE Add edit picture on Gravatar link
-DONE Add links to G+ and Skype and Screenhero
-DONE Link from modal to user profile page (and pull info from it for quick reference)
-DONE Set up users index page to list all users and their projects, last login
-DONE Set up students link on navbar
-DONE Redo hiding signup stuff so option is required to show it
-DONE Bundle update gems
+v0.0.6: Anonymize email reach-outs
+* Fix display of students index page to not collapse so quickly on resize
+* 
 
-BUG LIST:
-
-TESTS:
-DONE Fix tests for cal_events and login links
-DONE User unit tests
-DONE Events also have an event creator project list sent
-DONE signup is hidden from splash page
-DONE That profile page actually shows up
-DONE profile page displays at least one link, an about, and a project
-DONE profile page edit button only for logged in user
-DONE only logged in user can get to edit link
-DONE Only logged in user can access profile or edit pages
-DONE only current user can access edit page
-DONE edit page shows editable options
-DONE Update method works for user profile page
-DONE navbar has profile link
-DONE navbar has students (index) link
-DONE users index shows users
-DONE each indexed user has a username
 
 **********************  General Sandbox  ****************************
 
@@ -110,6 +72,61 @@ https://gist.github.com/zhengjia/428105
 
 
 ***********************  Version Archive  **************************
+
+**********
+v0.0.5: Profile Links from Scheduler
+DONE set calendar display to start on today's weekday and to not show the allday option.
+AVOIDED BUG: Creating multiple all-day events then deleting one will result in the others being turned into 12-1am events. Very odd.
+DONE Set up the event modal dialogs to show which project(s) that person wants to pair on when clicked.
+DONE Create Login link on splash page but hide signup
+DONE Hide login from navbar if on login pages... so just hide it always!
+DONE Change event title returned to be creator's username
+DONE Fix link to user root after account update
+DONE Set up user profile page that includes github and best ways to contact
+DONE Set up user profile page editing functions
+DONE Add link to profile page on navbar
+DONE Add cancel link to edit page
+DONE Add edit picture on Gravatar link
+DONE Add links to G+ and Skype and Screenhero
+DONE Link from modal to user profile page (and pull info from it for quick reference)
+DONE Set up users index page to list all users and their projects, last login
+DONE Set up students link on navbar
+DONE Redo hiding signup stuff so option is required to show it
+DONE Bundle update gems
+
+BUG LIST:
+
+TESTS:
+DONE Fix tests for cal_events and login links
+DONE User unit tests
+DONE Events also have an event creator project list sent
+DONE signup is hidden from splash page
+DONE That profile page actually shows up
+DONE profile page displays at least one link, an about, and a project
+DONE profile page edit button only for logged in user
+DONE only logged in user can get to edit link
+DONE Only logged in user can access profile or edit pages
+DONE only current user can access edit page
+DONE edit page shows editable options
+DONE Update method works for user profile page
+DONE navbar has profile link
+DONE navbar has students (index) link
+DONE users index shows users
+DONE each indexed user has a username
+
+DEPLOYMENT NOTES:
+*** MIGRATION! Added columns to User for profile.
+*** BUNDLE UPDATE AGAIN!
+Fail! missing "fontawesome.less"
+Attempts to fix:
+* run $ bundle exec rake assets:precompile
+* Fail! same error. hmm.
+* Removed the public/assets folder that created.
+* Downgrading the bootstrap gem to v 2.2.6 from 2.2.7
+* bundle install, try again
+* It worked! ...why...? How can I use this correctly in the future.
+* Ran the migration, success.
+* 
 
 **********
 v0.0.4:  Mobile Friendly Splash
