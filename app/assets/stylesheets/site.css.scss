@@ -33,8 +33,46 @@ footer {
   }
 }
 
-#logo {
+.brand-box {
   font-family: $logo-font;
+  float: left;
+  display: block;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  font-weight: 200;
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .logo-text{
+  }
+  .logo-img{
+    width: 30px;
+    height: 30px;
+    margin-top: -8px;
+    margin-bottom: -5px;
+  }
+  .splash {
+    margin-left: 20px;
+    a{
+      color: #b0b0b0;
+      text-shadow: none;
+    }    
+  }
+}
+
+.nav-links {
+  .top-link{
+    font-size: 16px;
+  }
+  strong{
+    font-size: 120%;
+  }
 }
 
 /* ********* User Pages ************* */

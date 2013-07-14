@@ -6,12 +6,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href=<%= home_url %>>The Odin Project</a>
+          <%= render "shared/logo_text" %>
           <div class="container nav-collapse">
-            <ul class="nav pull-right">
+            <ul class="nav pull-right nav-links">
               <% if user_signed_in? %>
-                <li><%= link_to "Students", students_path %></li>
-                <li><%= link_to "Scheduler", scheduler_path %></li>
+                <li class="top-link"><%= link_to "Students", students_path %></li>
+                <li class="top-link"><%= link_to "Scheduler", scheduler_path %></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong><%= current_user.username %> <b class="caret"></b></strong></a>
                   <ul class="dropdown-menu">
