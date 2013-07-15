@@ -50,9 +50,9 @@ Ruby shouldn't be anything new to you by now... you should have completed the pr
 
 In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.
 
-### Primitive Data Types and Other Basic Stuff
+### Basic Data Types and Other Basic Stuff
 
-Primitive data types are the basic building blocks of computer programs.  Understanding them and what you can do with them is like knowing your ABC's.  Get well acquainted with Numbers, Strings, Arrays, Hashes, Objects, Methods, and Dates/Times.  You're populating your developer's toolkit.
+Basic data types are the building blocks of computer programs. Understanding the basic data types and what you can do with them is like knowing your ABC's.  Get well acquainted with Numbers, Strings, Arrays, Hashes, Objects, Methods, and Dates/Times.  You're populating your developer's toolkit.
 
 The exercises should help you hone in on what things you understand well and which ones you need to dig deeper on.  The larger exercises towards the end will round things out a bit more wholistically.
 
@@ -627,11 +627,11 @@ You store data in a hash by matching a key with a value.  Use the **Hash Rocket*
 
 **Change Data** in a hash just like an array, by indexing into it and assigning a new value.  Unlike an array, to create a new data item, just pretend it already exists and assign it a value:
 
-    > favorite_colors["eyes"] = "green"
+    > favorite_colors["eyes"] = "green"       # Changing an item
     => "green"
     > favorite_colors
     => {"eyes"=>"green", "hair"=>"blonde"}
-    > favorite_colors["skin"] = "suburned"
+    > favorite_colors["skin"] = "suburned"    # Adding a new item
     => "sunburned"
     > favorite_colors
     => {"eyes"=>"blue", "hair"=>"blonde", "skin"=>"sunburned"}
@@ -679,41 +679,7 @@ A simpler kind of hash is called a **Set**, and it's just a hash where all the v
 * towers of hanoi
 * 
 
-#### Enumerable
-##### Intro and Goals
-You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
 
-"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash`. That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
-
-In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you'll use again and again so our goal with this section is to get well acquainted with them.  You'll need to start becoming familiar with code blocks as well, which are used by all these methods.
-
-##### Thought Questions
-* What is a module?
-* Why are modules useful?
-* What are blocks?
-* What does a block return?
-* What does `each` do? 
-* What does `each` return?
-* What does `map` do?
-* What does `map` return?
-* What does `select` do?
-* What does `select` return?
-
-
-##### Check these out First
-* [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
-
-##### A Brief Summary
-`Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
-
-What if I want to keep only the even numbers that are in an array?  The traditional way would be to build some sort of loop that goes through the array, checks whether each element is even, and starts populating a temporary array that we will return at the end.  We haven't covered iterators yet, but it might look something like:
-
-    my_array = [1,2,3,4,5,6,7,8,100]
-    # 
-
-    TOO ADVANCED?  PUT IN LATER SECTION???
-
-##### Exercises
 
 #### Dates and Times
 ##### Intro and Goals
@@ -807,16 +773,47 @@ Use `.localtime` to display the `Time` object in whatever your local system time
 * How many days, hours, minutes, and seconds until Christmas?
 * Display `"January 10, 2001 10:00AM"` in IRB
 
-#### Advanced Issues
+#### Miscellaneous Issues
 ##### Intro and Goals
-Puts vs p
-.to_s, .to_a
-.inspect
-truthy and falsy values, nil
+There are some things that don't really fit nicely into another section but are necessary to learn.
 
 ##### Thought Questions
+* What is `nil`?
+* How do you check if something is `nil`?
+* What's the difference between `nil` and `blank` and `empty`?
+* Are the following `nil`, `blank`, or `empty` (check using IRB)?
+    * `" "`, `""`, `[]`, `[""]`, `{}`, 
+* What's the difference between `puts` and `p` and `print`?
+* What does `.inspect` do?
+
 ##### Check these out First
+* http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails
+* 
+
 ##### A Brief Summary
+So what is `nil`? It represents nothing... literally.  Before you assign a value to something, it starts as `nil`, for instance an item in an array or a variable:
+    
+    > my_arr = []
+    => []
+    > my_arr[3]
+    => nil          # hasn't been assigned yet
+
+Sometimes you want to know if a value or variable is `nil` before doing something (because otherwise you know the operation would throw a bunch of errors at you) so you can use the method `.nil?` to ask whether it's nil or not.
+
+    > [].nil?
+    => false        # Waitasecond....
+
+Why is `[]` not nil?  The array itself isn't nil because it exists, it's just empty.  If we asked for the first value of that array using `[][0].nil?`, that would be `true`.
+
+If you try to run a method on something that is `nil`, which you will inevitably do many many times by accident, you'll get the familiar `NoMethodError`:
+
+    > user_i_looked_up_but_was_not_found_so_is_nil.empty?
+    => NoMethodError: undefined method `empty?' for nil:NilClass
+
+`.blank?` and `.empty?` are similar -- both basically check if the object has nothing in it -- but `.blank?` will also ignore any whitespace characters.  Note that `.blank?` *is only implemented in Rails, not Ruby*.
+
+
+
 ##### Exercises
 
 #### Tutorial
@@ -835,7 +832,23 @@ So now you've got an understanding of what tools you can use and it's time to st
 
 CODECADEMY http://www.codecademy.com/tracks/ruby
 
-#### If/Else
+#### Intro and Goals
+You'll need to understand which types of things Ruby considers "true" and which ones it considers "false".
+
+#### Thought Questions
+* What are "truthy" values?
+* Are `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1` considered true or false?
+
+
+##### Check these out First
+* Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
+##### A Brief Summary
+##### Exercises
+
+
+#### Simple Conditional Statements (If/Else)
+
+##### Truthiness
 
 ##### The Ternary Operator
 
@@ -899,6 +912,43 @@ CODECADEMY http://www.codecademy.com/tracks/ruby
 CODECADEMY http://www.codecademy.com/tracks/ruby
 
 You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
+
+
+### Enumerable
+#### Intro and Goals
+You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
+
+"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash`. That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
+
+In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you'll use again and again so our goal with this section is to get well acquainted with them.  You'll need to start becoming familiar with code blocks as well, which are used by all these methods.
+
+#### Thought Questions
+* What is a module?
+* Why are modules useful?
+* What are blocks?
+* What does a block return?
+* What does `each` do? 
+* What does `each` return?
+* What does `map` do?
+* What does `map` return?
+* What does `select` do?
+* What does `select` return?
+
+
+#### Check these out First
+* [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
+
+#### A Brief Summary
+`Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
+
+What if I want to keep only the even numbers that are in an array?  The traditional way would be to build some sort of loop that goes through the array, checks whether each element is even, and starts populating a temporary array that we will return at the end.  We haven't covered iterators yet, but it might look something like:
+
+    my_array = [1,2,3,4,5,6,7,8,100]
+    # 
+
+    TOO ADVANCED?  PUT IN LATER SECTION???
+
+##### Exercises
 
 ### Projects
 
