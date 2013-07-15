@@ -805,7 +805,7 @@ Use `.localtime` to display the `Time` object in whatever your local system time
 ##### Exercises (in IRB)
 * How many days until your birthday?
 * How many days, hours, minutes, and seconds until Christmas?
-* Display `"January 10, 2001 10:00AM"`
+* Display `"January 10, 2001 10:00AM"` in IRB
 
 #### Advanced Issues
 ##### Intro and Goals
