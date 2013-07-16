@@ -46,6 +46,8 @@ footer {
     text-decoration: none;
     font-size: 20px;
     font-weight: 200;
+    font-variant: small-caps;
+    letter-spacing: 1px;
     color: #777777;
     text-shadow: 0 1px 0 #ffffff;
   }
@@ -54,8 +56,9 @@ footer {
   .logo-img{
     width: 30px;
     height: 30px;
-    margin-top: -8px;
-    margin-bottom: -5px;
+    margin-top: -9px;
+    margin-bottom: -4px;
+    margin-right: 3px;
   }
   .splash {
     margin-left: 20px;

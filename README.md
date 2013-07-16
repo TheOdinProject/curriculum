@@ -37,7 +37,8 @@ DONE Fix display of students index page to not collapse so quickly on resize
 DONE Fix navbar upon narrow window to not get pushed lower due to body top padding (media query)
 DONE Set up default Gravatar
 DONE Put logo image into logo text
-* Put logo image into favicon
+DONE Put logo image into favicon
+* Check timezone compatability
 
 
 **********************  General Sandbox  ****************************
