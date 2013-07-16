@@ -48,7 +48,7 @@ The goal here is to provide as much of this curriculum as possible using free re
 
 Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.  It's expected that you have a pretty good handle on the basics of the Ruby language and an idea of what you're still shaky on.
 
-In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.
+In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  It's a lot of stuff... this section is going to have the most to absorb right off the bat.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.  
 
 ### Basic Data Types and Other Basic Stuff
 
@@ -244,7 +244,7 @@ This section should give you an appreciation for the ways you can mess with stri
 * How is a symbol different from a string?
 * What is a Regular Expression (RegEx)?
 
-##### Check these out First
+##### Check These Out First
 * [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
 * A list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby
 * Read through (and watch the video) for this [Regular Expressions in Ruby](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-regular-expressions/) explanation.
@@ -436,7 +436,7 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 * What are the naming conventions for arrays?
 * What should you store in arrays?
 
-##### Check these out First
+##### Check These Out First
 * Do [Codecademy's section on arrays](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1) for some practice with them
 
 
@@ -630,7 +630,7 @@ Hashes may be a bit intimidating at first but they're actually pretty similar to
 * How do you see if the hash contains a key or value?
 * What is a set?
 
-##### Check these out First
+##### Check These Out First
 * [Treehouse's intro to Hashes video](http://www.youtube.com/watch?v=NvXeDtKkXq8), and don't worry about the awesome_print gem, it's not required.
 * [Codecademy's section on Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/1/1) for the basics.
 * [Codecademy's hashes and symbols section](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw) to bring together what we talked about in the strings section.
@@ -736,7 +736,7 @@ Ruby uses the `Time` class to let you work with dates and times, giving you some
 * How would you find out the time that was 100 seconds ago? 10 days ago?
 * TODO: Datetime
 
-##### Check these out First
+##### Check These Out First
 * The [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
 
 ##### A Brief Summary
@@ -827,7 +827,7 @@ Here are some useful things that don't really fit nicely into another section.
 * What is parallel assignment?
 * What's the easiest way to swap two variables?
 
-##### Check these out First
+##### Check These Out First
 * [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
 * [p vs puts in Ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
 
@@ -923,7 +923,7 @@ Now you've got an understanding of what tools you can use and it's time to start
 * When should you use a `case` statement?
 
 
-##### Check these out First
+##### Check These Out First
 * Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
 * Do the [Codecademy Control Flow Course (all sections)](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
@@ -1100,7 +1100,7 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 * What does `select` return?
 
 
-#### Check these out First
+#### Check These Out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
 
 #### A Brief Summary
@@ -1115,11 +1115,20 @@ What if I want to keep only the even numbers that are in an array?  The traditio
 
 ##### Exercises
 
-### Projects
-* Running Ruby scripts from the command line
+### Writing Your Own Methods
+
+#### Intro and Goals
+#### Check These Out First
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
 
 ### Style
 https://github.com/bbatsov/ruby-style-guide
+
+### Projects
+* Running Ruby scripts from the command line
+
 
 ## Intermediate Ruby
 
