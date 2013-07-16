@@ -775,44 +775,46 @@ Use `.localtime` to display the `Time` object in whatever your local system time
 
 #### Miscellaneous Issues
 ##### Intro and Goals
-There are some things that don't really fit nicely into another section but are necessary to learn.
+Here are some useful things that don't really fit nicely into another section.
 
 ##### Thought Questions
 * What is `nil`?
 * How do you check if something is `nil`?
 * What's the difference between `nil` and `blank` and `empty`?
-* Are the following `nil`, `blank`, or `empty` (check using IRB)?
+* Are the following `nil` or `empty`?
     * `" "`, `""`, `[]`, `[""]`, `{}`, 
 * What's the difference between `puts` and `p` and `print`?
 * What does `.inspect` do?
 
 ##### Check these out First
-* http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails
-* 
+* [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
+* [p vs puts in Ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
 
 ##### A Brief Summary
-So what is `nil`? It represents nothing... literally.  Before you assign a value to something, it starts as `nil`, for instance an item in an array or a variable:
+So **What is `nil`?** It represents nothing... literally.  Before you assign a value to something, it starts as `nil`, for instance an item in an array or a variable:
     
     > my_arr = []
     => []
     > my_arr[3]
     => nil          # hasn't been assigned yet
 
-Sometimes you want to know if a value or variable is `nil` before doing something (because otherwise you know the operation would throw a bunch of errors at you) so you can use the method `.nil?` to ask whether it's nil or not.
+Sometimes you want to know if a value or variable is `nil` before doing something (because otherwise the operation would throw a bunch of errors at you).  Use the method `.nil?` to ask whether it's nil or not beforehand.
 
+    > nil.nil?
+    => true
     > [].nil?
     => false        # Waitasecond....
 
-Why is `[]` not nil?  The array itself isn't nil because it exists, it's just empty.  If we asked for the first value of that array using `[][0].nil?`, that would be `true`.
+Why is `[]` not nil?  The array itself exists so it isn't nil... it just happens to contain no values yet so it's empty.  If we asked for the first value of that array using `[][0].nil?`, that would be `true`.
 
 If you try to run a method on something that is `nil`, which you will inevitably do many many times by accident, you'll get the familiar `NoMethodError`:
 
     > user_i_looked_up_but_was_not_found_so_is_nil.empty?
     => NoMethodError: undefined method `empty?' for nil:NilClass
 
-`.blank?` and `.empty?` are similar -- both basically check if the object has nothing in it -- but `.blank?` will also ignore any whitespace characters.  Note that `.blank?` *is only implemented in Rails, not Ruby*.
+**`.blank?` and `.empty?`** are similar -- both basically check if the object has nothing in it -- but `.blank?` will also ignore any whitespace characters.  *Note that `.blank?` is a method provided by Rails and is not available in Ruby*.
 
-
+We've seen lots of `puts` so far but you've probably also run across `p`.  **What's the Difference?**  `p` will give you some more information because it runs the `.inspect` method on the object while `puts` runs the `.to_s` method.  **`.inspect`** is meant to be informative where `puts` is "pretty".  The difference may not be readily apparent while you're only working with simple objects like strings and arrays, but you'll notice it when you start creating your own objects and you want to see what's inside (without typing out `puts my_object.inspect`).
 
 ##### Exercises
 
@@ -828,21 +830,24 @@ If you try to run a method on something that is `nil`, which you will inevitably
 
 ### Conditionals and Flow Control
 
-So now you've got an understanding of what tools you can use and it's time to start thinking about how the program moves through your code.
-
-CODECADEMY http://www.codecademy.com/tracks/ruby
 
 #### Intro and Goals
-You'll need to understand which types of things Ruby considers "true" and which ones it considers "false".
+Now you've got an understanding of what tools you can use and it's time to start thinking about how the Ruby interpreter moves through your code. Sometimes you want to execute a certain chunk of code, other times you don't.  In this section, you'll see the different ways of controlling the flow of your program.
 
 #### Thought Questions
+* What is a "boolean"?
 * What are "truthy" values?
 * Are `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1` considered true or false?
 
 
 ##### Check these out First
 * Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
+* Do the [Codecademy Control Flow Course (all sections)](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
+
 ##### A Brief Summary
+
+You'll need to understand which types of things Ruby considers "true" and which ones it considers "false".  **"Truthiness" and "Falsiness"** are ways of saying "what evaluates to true?"" and "what evaluates to false"?  
+
 ##### Exercises
 
 
@@ -951,6 +956,7 @@ What if I want to keep only the even numbers that are in an array?  The traditio
 ##### Exercises
 
 ### Projects
+* Running Ruby scripts from the command line
 
 ### Style
 https://github.com/bbatsov/ruby-style-guide
