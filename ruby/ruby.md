@@ -145,6 +145,10 @@ Hopefully you've already picked most of this up from the prep-work.
 * How do methods take inputs?
 * Do all methods have outputs?
 * What is Method Chaining and how does it work?
+* What's the syntax for writing your own methods?
+* What is returned by a method?
+* What is an implicit return?
+* What are default inputs?
 
 ##### Do These First
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
@@ -190,6 +194,30 @@ An interesting exercise to try in Ruby is to use the method `.superclass` to ask
 Random Note: Running the `.methods` method on a class only returns the class methods, whereas `.instance_methods` will return all methods available to any instance of that class (so `String.methods` will return a list of class methods, while `"hello".methods` will return a longer list that is the same as `String.instance_methods`).
 
 Other Random Note: Use `.object_id` to see an object's id, and this can be useful if you're running into odd errors where you thought you were modifying and object but it's not changing.  If you debug and look at the id's along the way, you may find that you're actually only modifying a COPY of that object.
+
+To **Write Your Own Methods**, just use the syntax `def methodname(argument1, argument2)`, though the parentheses around the arguments are optional.  The method will return ("spit out") either whatever follows the `return` statement or the result of the last piece of code that was evaluated (an **Implicit Return** statement).  You call the inputs by whatever name you defined them at the top.
+
+You can write methods in IRB... it will let you use multiple lines if it detects that you have unfinished business (a `def` without an `end` or unclosed parentheses):
+
+    > def speak(words)
+    >    puts words
+    >    return true
+    > end
+    => nil              # ignore this
+    > speak("hello!")
+    hello!
+    => true
+
+What if you want to assume that the input to a method is a particular value if there hasn't been any supplied?  That's easy, just specify the **Default Input** by assigning it to something where it's listed as an input:
+
+    > def speak(words="shhhhh")
+    >     puts words
+    > end              # implicitly returns what puts returns... nil!
+    => nil             # ignore this
+    > speak            # no input
+    shhhhh
+    => nil
+
 
 ##### Exercises
 ##### Additional Resources
@@ -595,11 +623,12 @@ Hashes may be a bit intimidating at first but they're actually pretty similar to
 * What is the hash rocket?
 * How do you access data in a hash?
 * How do you change data in a hash?
+* What are options hashes?
+* How do you delete data from a hash?
 * How do you add hashes together?
 * How do you list out all the keys or values?
 * How do you see if the hash contains a key or value?
 * What is a set?
-
 
 ##### Check these out First
 * [Treehouse's intro to Hashes video](http://www.youtube.com/watch?v=NvXeDtKkXq8), and don't worry about the awesome_print gem, it's not required.
@@ -636,7 +665,16 @@ You store data in a hash by matching a key with a value.  Use the **Hash Rocket*
     > favorite_colors
     => {"eyes"=>"blue", "hair"=>"blonde", "skin"=>"sunburned"}
 
-Hashes are useful for lots of reasons behind the scenes, but it should be immediately obvious that you can handle more nuanced data than you can with arrays.  How about a dictionary of words?  Just store the words as keys and the meanings as values, if you so choose.  You see hashes all the time in Rails, including as a way of passing options to a method (since they can store all kinds of different things and be variable sized).
+Hashes are useful for lots of reasons behind the scenes, but it should be immediately obvious that you can handle more nuanced data than you can with arrays.  How about a dictionary of words?  Just store the words as keys and the meanings as values, if you so choose.  
+You see hashes all the time in Rails, including as a way of passing options or parameters to a method (since they can store all kinds of different things and be variably sized), and these are often called **Options Hashes**.  Methods are often defined along the lines of `def method_name arg1, arg2, arg3, options_hash`, allowing the user to specify any number of different parameters for that method.  
+
+Note that, when calling a method, if a hash is the last argument you are entering, *you can skip the squiggly braces*.  It's convenient, but can be a real head-scratcher for beginners who are trying to read code and wondering why there are methods being called with strangely mixed inputs and no braces:
+
+    > some_object.some_method argument1, argument2, :param1 => value1, :param2 => value2
+
+Or, for a real version in Rails that creates a link on the webpage and can optionally assign it an ID (among other things):
+
+    > link_to "click here!", "http://www.example.com", :id => "my-special-link"
 
 If you recall our discussion from Strings, we use symbols as keys for hashes more often than not.
 
@@ -992,18 +1030,23 @@ You can nest `if` statements inside one another but sometimes it gets a little c
     * true/false
     * actual returns
 
-### Methods
+### Iteration
 
-You have the power to assemble the building blocks and control how your program steps through them.  You may have been told that "everything in Ruby is a method."  So what are methods anyways?
+#### Intro and Goals
 
-#### Everything is an Object
+You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
 
-#### Inputs
+#### Do This First
+CODECADEMY http://www.codecademy.com/tracks/ruby
 
-Symbols, hashes, options hashes, default values
+#### A Brief Summary
+
+#### Additional Resources
+
+#### Exercises
 
 
-### Blocks... Huh?
+### Blocks, Procs, and Lambdas
 
 One of the most confusing parts of learning basic Ruby is understanding what blocks are and how they work.  It shouldn't be, because they're actually pretty simple.
 
@@ -1034,11 +1077,6 @@ CODECADEMY http://www.codecademy.com/tracks/ruby
 
 #### Exercises
 
-### Iteration
-
-CODECADEMY http://www.codecademy.com/tracks/ruby
-
-You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
 
 
 ### Enumerable
