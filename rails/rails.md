@@ -20,3 +20,6 @@ http://stackoverflow.com/questions/10144543/what-is-the-use-case-for-rubys-q-q-q
 
 Form Authenticity Tokens:
 http://stackoverflow.com/questions/941594/understand-rails-authenticity-token
+
+How Heroku works:
+https://devcenter.heroku.com/articles/how-heroku-works
