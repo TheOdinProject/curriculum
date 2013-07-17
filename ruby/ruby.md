@@ -1,7 +1,7 @@
 # Ruby
 Total Estimated Time: 100-200 hrs
 
-## !! This section is incomplete !!
+## !! This section is in the "Collecting Resources" phase !!
 
 *[Top level table of contents](/README.md)*
 
@@ -219,7 +219,13 @@ What if you want to assume that the input to a method is a particular value if t
     shhhhh
     => nil
 
-TODO: self
+What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (i.e. the "caller").  So if I called `current_user.jump`, inside the definition of the `jump` method, `self` would refer to the current_user.  
+
+That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called the method so we can do stuff to it.  You may see something like this:
+
+    > def full_name
+    >   "#{self.first_name} #{self.last_name}"
+    > end   # Remember, this implicitly returns the string "firstname"
 
 ##### Exercises
 ##### Additional Resources
@@ -1038,7 +1044,7 @@ You can nest `if` statements inside one another but sometimes it gets a little c
 
 You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again manually.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
 
-You should understand the basic iterators `for` and `while` and understand how to use `.each` and `.times`.  We'll talk more about blocks in the next section, so it should be more obvious how `.each` and `.times` work after reading that.
+You should understand the basic iterators `for` and `while` and understand how to use `.each` and `.times`.  We'll talk more about blocks and the other Ruby iterators like `.map` and `.select` in the next sections, so it should be more obvious how `.each` and `.times` work after reading that.
 
 #### Do This First
 * [Codecademy's loops track](http://www.codecademy.com/courses/ruby-beginner-en-XYcN1)
@@ -1123,28 +1129,35 @@ Because you may want some additional control over your loops, use these statemen
 * NOTE: Do NOT use `return` to exit a loop, since that will exit the whole method that contains it as well!
 
 #### Additional Resources
-* A lecture by Avi Flombaum on [iteration in Ruby](http://flatironschool.s3.amazonaws.com/lectures/iteration.study.mov) that shows you the nuts and bolts of it (esp. starting minute 16), including some of Khan Academy's new visualizations.
+* A lecture by Avi Flombaum on [iteration in Ruby](http://flatironschool.s3.amazonaws.com/lectures/iteration.study.mov) that shows you the nuts and bolts of it (esp. starting minute 16), including some of Khan Academy's new visualizations.  Solid stuff.
 
 #### Exercises
 
+### Writing your Own Methods
+* call
+* self
+* scripts
+* running scripts on the command line
 
 ### Blocks, Procs, and Lambdas
 
-One of the most confusing parts of learning basic Ruby is understanding what blocks are and how they work.  It shouldn't be, because they're actually pretty simple.
+#### Intro and Goals
+One of the most confusing parts of learning basic Ruby is understanding what blocks are and how they work, mostly because it's something you probably haven't ever seen before.  It shouldn't be, because they're actually pretty simple.  You've already seen them before, whether it's using them yourself during the prep work or most recently in the section on iteration, where they came up as inputs to some of the iterators.  
+
+Here, you'll learn more about blocks and also about their lessor known cousins, procs and lamdas.  By the end, you should be comfortable working with blocks and writing your own methods that take them.
+
+#### Do These First
+* [Codecademy's Methods and Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU)
+* [Codecademy's deeper dive into Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI)
+
+#### Thought Questions
+* How is a block like a function?
+* How is a block different from a function?
+* 
+
+#### A Brief Summary
 
 yield stuff, pass the argument in
-
-[Procs, Lambdas and Closures in Ruby by Peter Cooper (video)](http://www.youtube.com/watch?v=VBC-G6hahWA)
-
-http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas 
-> Blocks vs procs vs lambdas free screencast.  Need to know call though.
-
-http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/
-
-Blocks explained by Alex Chaffee (video) (http://codelikethis.com/lessons/ruby_blocks/blocks)
-
-CODECADEMY http://www.codecademy.com/tracks/ruby
-
 #### Blocks are Very Ruby-ish
 
 #### Ways to declare a Block
@@ -1157,7 +1170,14 @@ CODECADEMY http://www.codecademy.com/tracks/ruby
 
 #### Procs
 
-#### Examples
+
+#### Additional Resources 
+* [Procs, Lambdas and Closures in Ruby by Peter Cooper (video)](http://www.youtube.com/watch?v=VBC-G6hahWA)
+* [Blocks vs procs vs lambdas free screencast](http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas)
+* [Understanding Blocks Procs and Lambdas](http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
+* [Blocks explained by Alex Chaffee (video)](http://codelikethis.com/lessons/ruby_blocks/blocks)
+
+Which of these resources were most helpful to getting you that "aha!" moment?
 
 #### Exercises
 
