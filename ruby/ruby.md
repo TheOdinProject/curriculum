@@ -1153,9 +1153,52 @@ Here, you'll learn more about blocks and also about their lessor known cousins, 
 #### Thought Questions
 * How is a block like a function?
 * How is a block different from a function?
-* 
+* What are the two ways to declare a block?
+* How do you return data from a block?
+* What happens if you include a `return` statement in a block?
+* Why would you use a block instead of just creating a method?
+* What does `yield` do?
+* How do you pass arguments to a block from within a method?
+* What is a proc?
+* What is a lambda?
 
 #### A Brief Summary
+Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called anonymous functions because they have no name but behave just like functions.  They're like helper functions... you don't find blocks just hanging around without some method (like `.each`) using them.  
+
+You **declare a block** using squiggly braces `{}` if it's on one line or `do ... end` if it's on multiple lines (by convention... you can use either one if you really want):
+
+    > [1,2,3].each { |num| print "#{num}! " }
+    1! 2! 3! =>[1,2,3]
+    > [1,2,3].each do |num|
+    >    print "#{num}!"
+    > end
+    1! 2! 3! =>[1,2,3]         # Identical to the first case.
+
+Just like methods, some blocks take inputs, others do not.  Some return important information, others do not.  Blocks let you use the implicit return (whatever's on the last line) but NOT `return`, since that will actually return you from whatever method actually called the block.
+
+Blocks are used as arguments to other functions (like `.each`), just like the normal arguments that you see between the parentheses... they just happen to always be listed last and on their own because they tend to take up multiple lines.  Don't think of them as anything too special.  The `.each` function is built to accept a block as an argument.
+
+How does `.each` take a block then?  Through the magic of the `yield` keyword, which basically says "run the block right here".  When you write your own methods, you don't even need to specially declare that you'd like to accept a block.  It will just be there waiting for you when you call `yield` inside your method.  `yield` can pass in parameters to your block as well.  See this version of the `.each` method to get an idea of what's happening under the hood:
+
+    def my_each
+        i = 0
+        while i < self.size
+            yield(self[i])        
+        end
+        self
+    end
+
+As you can see, we iterate over the array that our `my_each` method was called on (which can be grabbed using `self`).  Then we call the block that got passed to `my_each` and pipe in whatever member of the original array we are currently on.  Last, we just return the original array because that's what `each` does.  We would run it just the same way as `each`:
+
+    > [1,2,3].my_each { |num| print "#{num}!" }
+    1! 2! 3! => [1,2,3]
+
+which operates just like:  PASTE CODE
+
+
+
+
+You've seen them used as inputs to `.each`
 
 yield stuff, pass the argument in
 #### Blocks are Very Ruby-ish
