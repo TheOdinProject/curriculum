@@ -1,6 +1,6 @@
 # Git
 
-## !! This section is incomplete !!
+## !! This section is in the "Collecting Resources" phase !!
 
 TODO: How a real developer uses Git (2)
 

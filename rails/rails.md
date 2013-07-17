@@ -1,6 +1,6 @@
 # Ruby on Rails
 
-## !! This section is incomplete !!
+## !! This section is in the "Collecting Resources" phase !!
 
 http://tutorials.jumpstartlab.com/
 railsapps

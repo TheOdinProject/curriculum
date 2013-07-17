@@ -1,3 +1,3 @@
-# Additional Resources
+# Tying it All Together
 
 ## !! This section is in the "Collecting Resources" phase !!
