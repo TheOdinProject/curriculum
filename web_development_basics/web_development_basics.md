@@ -243,7 +243,10 @@ Estimated Time: 3-6 hrs
 **Sketch Pad**
 * Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with at least a 32x32 grid of square divs.  Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a trail through your grid like a pen would.  Have a button at the bottom to reset the grid to blank white.  It may be easier to make borders between grid elements while you're figuring out how to place them.  
 * Then try cranking up the granularity of the grid (say, a 128x128 grid of the same total size).  Hopefully you've utilized a loop to create your grid and this should be a simple matter of changing a few inputs.
-* If you've got a cool solution, send it (or at least a screenshot) to [curriculum@theodinproject.com](mailto:curriculum@theodinproject.com) so we can show it as an example!
+
+**Student Solutions**
+* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+* 
 
 ### Back End Basics
 Total Estimated Time: 20-30 hrs
@@ -298,6 +301,8 @@ Redo the same Project Euler problems that you previously did in Javascript but u
 
 TODO: Ruby walkthrough video
 
+
+
 ##### Ruby Mini-Project:
 Estimated Time: 4-6 hrs
 
@@ -317,6 +322,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     6. 09_timer
 
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
+
+**Student Solutions**
+* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+* 
 
 ##### Additional Resources
 
@@ -409,6 +418,10 @@ Estimated Time: 3-5 hrs
 * Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
 
 **Extra Credit:** Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the section below on git (under the "Additional Topics" heading) or skip any of the `$ git ... ` commands for now, they're non-essential (it's sort of like saving your files on Dropbox).
+
+**Student Solutions**
+* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+* 
 
 ##### Additional Resources:
 
@@ -537,7 +550,8 @@ There are a handful of generally accepted principles of good programming.  You'l
 
 ## Other "Dumb" (or frequently asked) Questions Answered
 
-Do you still have any beginner questions left over? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add them here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+* Do you still have any beginner questions left over? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add them here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+* 
 
 ## Finish
 
