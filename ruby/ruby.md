@@ -1136,13 +1136,17 @@ You've been using methods since square one and writing your own as well so we'll
 * What does `self` mean?
 * What do you need to do to create your own Ruby script file?
 * How would you run a Ruby script from the command line?
+* What does `require` do?
+* What does `include` do?
+* What is the difference between `require` and `include`?
+* Why would you want to use `include` in IRB?
 * What does `send` do?
 * When would `send` be used that's different from just running the method on an object 'normally'?
 
 #### Do These First
 
 #### A Brief Summary
-What should you put into methods?  Pretty much everything should be in a method, but each method should only do ONE thing.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.
+What should you put into methods?  Pretty much everything should be in a method, but **each method should only do ONE thing**.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.
 
 Methods help organize your code by keeping you from repeating yourself.  Anything that you find yourself doing repetetively should probably go in its own method.
 
@@ -1164,15 +1168,26 @@ The `game_over?` method probably needs to check if the human player has won or h
 
 Methods should be SHORT! If they're >10 lines, you're probably doing too much.  When you look at the open-source projects on Github, their methods are often incredibly short.  Good code doesn't look long, it looks brief but descriptive.
 
+When **naming methods** the goal is to be descriptive but short.  Name based on what it will return or what the major intended side effect will be.  You won't be missing anything because the method should only do one thing anyway.  If you can't tell what the method will return based on the name, you probably need a better name.  If your method name seems insanely long, your method may be trying to do more than one thing.  End with a question mark `?` if it will return true/false.  
 
+What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (i.e. the "caller").  So if I called `current_user.jump`, `current_user` is the caller of that method.  Inside the definition of the `jump` method, `self` would refer to the current_user.  
 
-What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (i.e. the "caller").  So if I called `current_user.jump`, inside the definition of the `jump` method, `self` would refer to the current_user.  
+That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called it.  You may see something like this, which I could call on a hypothetical `User` object in my web application:
 
-That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called the method so we can do stuff to it.  You may see something like this:
+    def full_name
+      "#{self.first_name} #{self.last_name}"
+    end   # Remember, this implicitly returns the string "firstname"
 
-    > def full_name
-    >   "#{self.first_name} #{self.last_name}"
-    > end   # Remember, this implicitly returns the string "firstname"
+You're probably tired of running your methods in IRB (if that's what you're still doing) so it's time to learn how to break them out into a **separate script file** which you can then run in its entirety from the command line.  It's easy -- just create a file with the extension `.rb`, navigate to that file's directory from the command line, and run it using `./filename.rb`.  You'll be able to `gets` and `puts` to the command line.  
+
+Access Denied?  Sometimes you'll get an error message when you try to run a script file from the command line like that because you don't have permission to do so.
+
+TODO chmod
+TODO require
+TODO include
+TODO require/include in IRB
+
+One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call ............ TODO
 
 #### Additional Resources
 * 
@@ -1340,13 +1355,11 @@ You've learned about `Array` and `Hash` but only got half the story... they each
 
 "Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash`. That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
 
-In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you'll use again and again so our goal with this section is to get well acquainted with them.  You'll need to start becoming familiar with code blocks as well, which are used by all these methods.
+In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you've seen before and you'll use again and again so our goal with this section is to get well acquainted with them.
 
 #### Thought Questions
 * What is a module?
 * Why are modules useful?
-* What are blocks?
-* What does a block return?
 * What does `each` do? 
 * What does `each` return?
 * What does `map` do?
@@ -1354,7 +1367,7 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 * What is the difference between `map` and `collect`?
 * What does `select` do?
 * What does `select` return?
-
+* What is the difference between `each` `map` and `select`?
 
 #### Check These Out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
@@ -1362,10 +1375,60 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 #### A Brief Summary
 `Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
 
-What if I want to keep only the even numbers that are in an array?  The traditional way would be to build some sort of loop that goes through the array, checks whether each element is even, and starts populating a temporary array that we will return at the end.  We haven't covered iterators yet, but it might look something like:
+`.each` is an iterator method you've seen plenty of times before now and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original object that it was called on:
 
-    my_array = [1,2,3,4,5,6,7,8,100]
-    # 
+    > [1,2,3].each { |num| print "#{num}! " }
+    1! 2! 3! => [1,2,3]
+
+Sometimes you also want to know what position in the array you are... so just use `each_with_index`, which will pass that into the block as well:
+
+    > ["Cool", "chicken!", "beans!", "beef!"].each_with_index do |item, index|
+    >   print "#{item} " if index%2==0
+    > end
+    Cool beans! => ["Cool", "chicken!", "beans!", "beef!"]
+
+What if I want to keep only the even numbers that are in an array?  The traditional way would be to build some sort of loop that goes through the array, checks whether each element is even, and starts populating a temporary array that we will return at the end.  It might look something like:
+
+    class Array
+      def keep_evens
+        result_array = []
+        for num in self
+          result_array << num if num % 2 == 0
+        end
+        return result_array
+      end
+    end
+
+    > my_array = [1,2,3,4,5,6,7,8,100]
+    > my_array.keep_evens
+    => [2,4,6,8,100]
+
+That's too much code and too much hassle.  When all you're doing is pulling out, or *selecting*, certain items based on some criteria, you'd be better served using **`select`** instead.  It will run the block on every item of your object and return a new object that contains only those items for which the original block returned `true`:
+
+    > my_array.select{|item| item%2==0 }
+    => [2,4,6,8,100]      # wow, that was easy.
+
+You win this round, Ruby.  What if instead of selecting only a few items we want to keep all items but modify them somehow?  That sounds a lot like we're doing something and `collect`ing the results, doesn't it?  `collect` will run your block and give you an object filled with whatever your block returned each time.  Ruby says:
+
+    > my_array.collect{|num| num**2 }
+    => [4,16,36,64,10000]
+
+You've heard of **`map`**?  It's the EXACT same method as collect, just called something different.  Some people visualize it in their heads as doing something and collecting the results, other people see it as re-mapping your original object through some sort of transformation.  It's more conventional to use `map` but both work the same way.  
+
+Here's a theoretical example more like what you might see when you've got your own website built using Rails, where we may want to send only an array filled with our users' emails out to your view:
+
+    u = User.all
+    @user_emails = u.map { |user| user.email }
+
+
+
+
+**Iterators Cheat Sheet**
+* `each` returns the original object it was called on because it's really used for its side effects and not what it returns
+    * `each_with_index` passes not just the current item but whatever position in the array it was located in.
+* `select` returns a new object (e.g. array) filled with only those original items where the block you gave it returned `true`.
+* `map` returns a new object (e.g. array) filled with whatever gets returned by the block each time it runs. 
+
 
     TOO ADVANCED?  PUT IN LATER SECTION???
 
