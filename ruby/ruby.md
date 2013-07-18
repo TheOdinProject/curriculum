@@ -1128,17 +1128,44 @@ Because you may want some additional control over your loops, use these statemen
 ### Writing your Own Methods
 
 #### Intro and Goals
+You've been using methods since square one and writing your own as well so we'll focus on the essentials and the slightly more advanced stuff in this section, including how you actually run your code without needing to use IRB and some more stylistic issues that come up frequently.
 
 #### Thought Questions
-* What does `call` do?
-* When would `call` be used that's different from just running the method on an object 'normally'?
+* How many things should a method do?
+* What should you name a method?
 * What does `self` mean?
 * What do you need to do to create your own Ruby script file?
 * How would you run a Ruby script from the command line?
+* What does `send` do?
+* When would `send` be used that's different from just running the method on an object 'normally'?
 
 #### Do These First
 
 #### A Brief Summary
+What should you put into methods?  Pretty much everything should be in a method, but each method should only do ONE thing.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.
+
+Methods help organize your code by keeping you from repeating yourself.  Anything that you find yourself doing repetetively should probably go in its own method.
+
+Methods also make your code much easier to read and debug, a fact that you'll appreciate when you write some horrendously complicated spaghetti code and it takes you longer to figure out what it is doing than how to debug the error message you're getting.  
+
+Let's say you're building a game that uses an `until` loop to keep taking turns until someone has won.  But figuring out if someone has won takes several lines of code.  You really can't say `until ( 8 lines of code determining if anyone has one)`.  Better to write a method called `game_over?` that does the work, then you can simply and legibly write `until game_over?` and it's obvious what your code does.  
+
+The `game_over?` method probably needs to check if the human player has won or has lost, so maybe your `game_over?` method just contains calls to two other methods, `victory?` and `loss?`.  If you were debugging, it'd be very easy for you to go and find where the problem is if the player just can't seem to lose:
+
+    def game_over?
+      victory? || loss?
+    end
+    def victory?
+      # check for victory, return true/false
+    end
+    def loss?
+      # check for loss, return true/false
+    end
+
+Methods should be SHORT! If they're >10 lines, you're probably doing too much.  When you look at the open-source projects on Github, their methods are often incredibly short.  Good code doesn't look long, it looks brief but descriptive.
+
+
+
 What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (i.e. the "caller").  So if I called `current_user.jump`, inside the definition of the `jump` method, `self` would refer to the current_user.  
 
 That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called the method so we can do stuff to it.  You may see something like this:
