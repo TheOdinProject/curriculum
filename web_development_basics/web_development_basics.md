@@ -113,7 +113,7 @@ The "front end languages" live in the browser.  After you type in an address in 
 
 ##### Assignment:
 1. Get a high level overview of how all three languages (and jQuery) work together in a web page in this brief learn.jquery.com post on the [Anatomy of a Web Page](http://learn.jquery.com/javascript-101/getting-started/).
-2. If you didn't the first time, check out the [this 10-minute video on your browser's developer tools](http://www.youtube.com/watch?v=z1TkfcC53G0), which should make a bit more sense to you anyway now.
+2. If you didn't the first time, check out [this 10-minute video on your browser's developer tools](http://www.youtube.com/watch?v=z1TkfcC53G0), which should make a bit more sense to you anyway now.
 
 #### HTML and CSS 101
 Estimated Time: 6-10 hrs
@@ -177,6 +177,10 @@ Use the browser's developer tools (right clicking something on the page and clic
 
 Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming\))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
+**Student Solutions**
+* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+* 
+
 ##### Additional Resources
 
 * Watch all the [free HTML videos](http://teamtreehouse.com/library/websites/html/introduction) from Treehouse and take the quiz. 
@@ -203,7 +207,7 @@ As we [saw before](http://www.skillcrush.com/terms/javascript.html), Javascript 
 This is also the first time you'll get to do some actual programming (HTML/CSS just kind of sit there).  The jQuery section will focus a bit more on applying your knowledge to real webpages.
 
 ##### Assignment:
-1. Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum.
+1. Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum. [2-4 hrs]
     * Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 2. Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
 3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems.  Use the "Run" button at the top to run your Javascript.
