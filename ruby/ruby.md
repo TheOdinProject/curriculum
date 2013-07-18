@@ -23,20 +23,20 @@ In this unit you will learn Ruby, the language designed specifically with progra
 
 Some people believe you can just dive right into Rails and start firing out websites.  Rails is a framework built using Ruby and every piece of code in it is Ruby.  When (not *if*) something in your project breaks, you'd better be able to debug it.  And what happens when you want to stretch your wings and do something just a bit beyond what the vanilla tutorials show you how to do?  The amount of time you'd spend googling your error messages and staring blankly at help docs was better spent learning Ruby.
 
-As you may gather, this is also where the real project work begins.  Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce understanding.  As we get further along and into some of the more advanced topics, we'll be learning less and doing more... just the way it should be.   Buckle up, strap in, and let's get learning!
+As you may gather, this is also where the real project work begins.  Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce understanding.  We'll learn using some Codecademy modules at first but the goal is for you to get a much deeper and more practical understanding of the material than that.  As we get further along and into some of the more advanced topics, we'll be learning less and doing more... just the way it should be.   Buckle up, strap in, and let's get learning!
 
 **How this will work:**
 
-Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "A Brief Summary" of the material but it's not a replacement for actually doing the reading.  At the end of each section or group of sections will be programming exercises which are best done in pairs.
+Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "A Brief Summary" of the material but it's not a replacement for actually doing the reading/pre-work.  At the end of each section or group of sections will be programming exercises which are best done in pairs.
 
 **Our free resources:**
 
 The goal here is to provide as much of this curriculum as possible using free resources.  If you've done the prep work from Web Development 101 then you should have a good handle on the basics but these resources are important to help you really understand the material.
-* The staple book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.
+* The staple online book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.
 * For the crazies: Why's [Poignant Guide to Programming](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html) (check it out... if it jives with your learning style, you may have found the match you never thought you'd find)
 * If there's anything you need to brush up on still: [The Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/) has sections on many topics you might want to dive back into for a deeper look.
 
-**Other good resources:**
+**Other great resources that aren't free:**
 * Peter Cooper's [Beginning Ruby](http://beginningruby.org/) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it.
 * Brian Marick's [Everyday Scripting with Ruby](http://pragprog.com/book/bmsft/everyday-scripting-with-ruby) takes a pragmatic approach to learning Ruby to help with the kinds of problems you might face in a variety of different real-world work scenarios.
 
@@ -218,14 +218,6 @@ What if you want to assume that the input to a method is a particular value if t
     > speak            # no input
     shhhhh
     => nil
-
-What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (i.e. the "caller").  So if I called `current_user.jump`, inside the definition of the `jump` method, `self` would refer to the current_user.  
-
-That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called the method so we can do stuff to it.  You may see something like this:
-
-    > def full_name
-    >   "#{self.first_name} #{self.last_name}"
-    > end   # Remember, this implicitly returns the string "firstname"
 
 ##### Exercises
 ##### Additional Resources
@@ -1134,21 +1126,42 @@ Because you may want some additional control over your loops, use these statemen
 #### Exercises
 
 ### Writing your Own Methods
-* call
-* self
-* scripts
-* running scripts on the command line
+
+#### Intro and Goals
+
+#### Thought Questions
+* What does `call` do?
+* When would `call` be used that's different from just running the method on an object 'normally'?
+* What does `self` mean?
+* What do you need to do to create your own Ruby script file?
+* How would you run a Ruby script from the command line?
+
+#### Do These First
+
+#### A Brief Summary
+What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (i.e. the "caller").  So if I called `current_user.jump`, inside the definition of the `jump` method, `self` would refer to the current_user.  
+
+That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called the method so we can do stuff to it.  You may see something like this:
+
+    > def full_name
+    >   "#{self.first_name} #{self.last_name}"
+    > end   # Remember, this implicitly returns the string "firstname"
+
+#### Additional Resources
+* 
+
 
 ### Blocks, Procs, and Lambdas
 
 #### Intro and Goals
-One of the most confusing parts of learning basic Ruby is understanding what blocks are and how they work, mostly because it's something you probably haven't ever seen before.  It shouldn't be, because they're actually pretty simple.  You've already seen them before, whether it's using them yourself during the prep work or most recently in the section on iteration, where they came up as inputs to some of the iterators.  
+One of the most confusing parts of learning basic Ruby (until your AHA! moment) is understanding what blocks are and how they work, mostly because it's something you probably haven't ever seen before.  It shouldn't be, because they're actually pretty simple.  You've already seen them before, whether it's using them yourself during the prep work or most recently in the section on iteration, where they came up as inputs to some of the iterators.  
 
-Here, you'll learn more about blocks and also about their lessor known cousins, procs and lamdas.  By the end, you should be comfortable working with blocks and writing your own methods that take them.
+Here, you'll learn more about blocks and also about their lessor known cousins, Procs, lambdas and Methods.  By the end, you should be comfortable working with blocks and writing your own methods that take them.  You should understand when you may need to use a Proc instead and the basics of why the other two -- lambdas and Methods -- .
 
 #### Do These First
 * [Codecademy's Methods and Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU)
 * [Codecademy's deeper dive into Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI)
+* [Understanding Blocks Procs and Lambdas](http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 
 #### Thought Questions
 * How is a block like a function?
@@ -1160,10 +1173,16 @@ Here, you'll learn more about blocks and also about their lessor known cousins, 
 * What does `yield` do?
 * How do you pass arguments to a block from within a method?
 * What is a proc?
+* What's the difference between a proc and a block?
+* When would you use a proc instead of a block?
+* What is a closure?
 * What is a lambda?
+* What's different between a lambda and a proc?
+* What is a Method (capital "M")?
+* What do Methods basically allow you to do that could probably be pretty interesting when you're writing some more advanced programs later on?
 
 #### A Brief Summary
-Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called anonymous functions because they have no name but behave just like functions.  They're like helper functions... you don't find blocks just hanging around without some method (like `.each`) using them.  
+Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called anonymous functions because they have no name but behave much like functions.  They're like little helper functions... you don't find blocks just hanging around without some method (like `.each`) using them.  
 
 You **declare a block** using squiggly braces `{}` if it's on one line or `do ... end` if it's on multiple lines (by convention... you can use either one if you really want):
 
@@ -1174,18 +1193,21 @@ You **declare a block** using squiggly braces `{}` if it's on one line or `do ..
     > end
     1! 2! 3! =>[1,2,3]         # Identical to the first case.
 
-Just like methods, some blocks take inputs, others do not.  Some return important information, others do not.  Blocks let you use the implicit return (whatever's on the last line) but NOT `return`, since that will actually return you from whatever method actually called the block.
+Just like methods, some blocks take inputs, others do not.  Some return important information, others do not.  Blocks let you use the implicit **return** (whatever's on the last line) but NOT `return`, since that will actually return you from whatever method actually called the block.
 
-Blocks are used as arguments to other functions (like `.each`), just like the normal arguments that you see between the parentheses... they just happen to always be listed last and on their own because they tend to take up multiple lines.  Don't think of them as anything too special.  The `.each` function is built to accept a block as an argument.
+Blocks are used as arguments to other functions (like `.each`), just like the normal arguments that you see between the parentheses... they just happen to always be listed last and on their own because they tend to take up multiple lines.  Don't think of them as anything too special.  The `.each` method isn't special either, it's just built to accept a block as an argument.
 
-How does `.each` take a block then?  Through the magic of the `yield` keyword, which basically says "run the block right here".  When you write your own methods, you don't even need to specially declare that you'd like to accept a block.  It will just be there waiting for you when you call `yield` inside your method.  `yield` can pass in parameters to your block as well.  See this version of the `.each` method to get an idea of what's happening under the hood:
+How does `.each` take a block then?  Through the magic of **the `yield` statement**, which basically says "run the block right here".  When you write your own methods, you don't even need to specially declare that you'd like to accept a block.  It will just be there waiting for you when you call `yield` inside your method.  `yield` can **pass parameters to your block** as well.  See this made-up version of the `.each` method to get an idea of what's happening under the hood.  We'll put this method into the Array class so you can call it directly on an array (like `[1,2,3].my_each`) instead of having to take the array as an argument like `my_each([1,2,3])`:
 
-    def my_each
+    class Array 
+      def my_each
         i = 0
         while i < self.size
-            yield(self[i])        
+            yield(self[i])  
+            i+=1      
         end
         self
+      end
     end
 
 As you can see, we iterate over the array that our `my_each` method was called on (which can be grabbed using `self`).  Then we call the block that got passed to `my_each` and pipe in whatever member of the original array we are currently on.  Last, we just return the original array because that's what `each` does.  We would run it just the same way as `each`:
@@ -1193,37 +1215,96 @@ As you can see, we iterate over the array that our `my_each` method was called o
     > [1,2,3].my_each { |num| print "#{num}!" }
     1! 2! 3! => [1,2,3]
 
-which operates just like:  PASTE CODE
+Which operates in that case just like:
 
+    class Array
+      def my_each
+        i = 0
+        while i < self.size
+            print "#{self[i]}!"   # Our block got "subbed in" here
+            i+=1
+        end
+        self
+      end
+    end
 
+So one reason blocks are great is because you can write a sort of generic method like `each` which wraps your block in code that says what to do with it.  Another use case is when creating methods where you want to optionally be able to override how they "work" internally by supplying your own block -- `.sort` lets you supply your own block to determine how to actually order the items of the array if you want to!
 
+A lot of beginners just blindly take it on faith that `each` and `map` and `select` etc. all work the way they do.  You're more skeptical than that, which is good.  They're really quite simple and you'll get a chance to build your own soon enough.
 
-You've seen them used as inputs to `.each`
+What if you want to pass TWO blocks to your function?  What if you want to save your block to a variable so you can use it again later?  That's a job for **Procs**, aka Procedures!  Actually, a block *is* a Proc (which is the class name for a block) and they rhyme just to confuse you.  The block is sort of like a stripped-down and temporary version of a Proc that Ruby included just to make it really easy to use things like those `each` iterators.  A Proc is just a block that you save to a variable, thereby giving it a bit more permanence:
 
-yield stuff, pass the argument in
-#### Blocks are Very Ruby-ish
+    > my_proc = Proc.new { |arg1| print "#{arg1}! " }
 
-#### Ways to declare a Block
+Use that block of code (now called a Proc) as an input to a function by prepending it with an apersand `&`:
 
-#### Block Return Statements
+    > [1,2,3].each(&my_proc)
+    1! 2! 3! =>[1,2,3]
 
-#### Where Blocks are Used
+It's the same as passing the block like you did before!  
 
-#### Examples
+When you create your own function to accept procs, the guts need to change a little bit because you'll need to use **`call`** instead of `yield` inside (because which proc would `yield` run if you had more than one?).  `call` literally just runs the Proc that is called on.  You can give it arguments as well to pass on to the Proc:
 
-#### Procs
+    > my_proc.call("howdy! ")
+    howdy! => nil
+
+Most of the time, using a block is more than sufficient, especially in your early projects.  Once you start seeing the need for using a Proc (like passing multiple arguments or saving it for later as a callback), you'll have Procs there waiting for you.  
+
+Blocks and Procs are both a type of `closure`.  A closure is basically a formal, computer-science-y way of saying "a chunk of code that you can pass around but which hangs onto the variables that you gave it when you first called it".  It's the blanket term used to refer to blocks and Procs and...
+
+There are two other similar closure to be aware of but about which you don't need to be an expert because they're used in less typical applications.  The first of these is a **lambda**.  If Procs are sort of a more-fleshed-out version of blocks, then lambdas are sort of a more-fleshed-out version of Procs.  They are one step closer to being actual methods themselves, but still technically count as anonymous functions.  If you're coming from Javascript, anonymous functions shouldn't be anything new to you.
+
+Just to focus on the differences between lambdas and Procs, a lambda acts more like a real method.  What does that mean? 
+* A lambda can return multiple things easily because you can safely use the explicit `return` statement inside of one (it will only return from the lambda and not the enclosing method, which is what happens if you use `return` inside a block or Proc).  
+* Lambdas are also much stricter than Procs about you passing them the correct number of arguments.
+
+Here's a simple example to show you the syntax of a lambda (btw, there's nothing special to lambdas about placing the `.call` after the `end`, if you hadn't seen that done before, it's just like method chaining):
+
+    > lambda do |word| 
+    >   puts word
+    >   return word            # you can do this in lambdas not Procs
+    > end.call("howdy! ")
+    howdy! => "howdy! "        # not nil because we gave it a return
+
+The second additional closure is called a **Method** because, well, it's the closest of the four (blocks, Procs, lambdas, and Methods) to an actual method.  Which it is.  "Method"'s (capitalized because they're actually a class of their own) are really just a convenient way to pass a normal method to another normal method by wrapping the symbol of its name in the word `method()`.  So what? To use the same example as we have been so far:
+
+    class Array
+      def my_each(some_method)
+        i = 0
+        while i < self.size
+          some_method.call(self[i])
+          i+=1
+        end
+      end
+      self
+    end
+
+    def print_stuff(word)
+      print "#{word}! "
+    end
+
+    > [1,2,3].each(method(:print_stuff))    # symbolize the name!
+    1! 2! 3! => nil
+
+TADA! We've now gotten our worthless array (and a "howdy") printed out 4 different ways, each seemingly less useful than the last!  Fear not.  Learn your blocks cold and have a good handle on Procs (which should be easy since they're basically the same thing) but just keep lambdas and Methods in the back of your head for much later.
+
+So...
+* **Blocks** are unnamed little code chunks you can drop into other methods.  Used all the time.
+* **Procs** are identical to blocks but you can store them in variables, which lets you pass them into functions as explicit arguments and save them for later.
+* **Lambdas** are really full methods that just haven't been named
+* **Methods** are a way of taking actual named methods and passing them around as arguments to or returns from other methods in your code.
+* **Closure** is just the umbrella term for all four of those things, which all somehow involve passing around chunks of code.
 
 
 #### Additional Resources 
 * [Procs, Lambdas and Closures in Ruby by Peter Cooper (video)](http://www.youtube.com/watch?v=VBC-G6hahWA)
 * [Blocks vs procs vs lambdas free screencast](http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas)
-* [Understanding Blocks Procs and Lambdas](http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 * [Blocks explained by Alex Chaffee (video)](http://codelikethis.com/lessons/ruby_blocks/blocks)
 
-Which of these resources were most helpful to getting you that "aha!" moment?
+Which of the resources were most helpful to getting you that "aha!" moment?
 
 #### Exercises
-
+* TODO: use blocks and procs
 
 
 ### Enumerable
