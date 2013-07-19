@@ -1368,6 +1368,11 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 * What does `select` do?
 * What does `select` return?
 * What is the difference between `each` `map` and `select`?
+* What does `inject` do?
+* When might you use `inject`?
+* How do you check if every item in a hash fulfills a certain criteria?
+* What about if none of the elements fulfill that criteria?
+* 
 
 #### Check These Out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
@@ -1415,12 +1420,24 @@ You win this round, Ruby.  What if instead of selecting only a few items we want
 
 You've heard of **`map`**?  It's the EXACT same method as collect, just called something different.  Some people visualize it in their heads as doing something and collecting the results, other people see it as re-mapping your original object through some sort of transformation.  It's more conventional to use `map` but both work the same way.  
 
-Here's a theoretical example more like what you might see when you've got your own website built using Rails, where we may want to send only an array filled with our users' emails out to your view:
+Here's a theoretical example more like what you might see when you've got your own website built using Rails, where we may want to send only an array filled with our users' emails out to the webpage:
 
     u = User.all
     @user_emails = u.map { |user| user.email }
 
+Up until now, all the methods we've seen run essentially independent operations on each element of our array or hash.  What if we want to do something that keeps track of the result as we iterate?  Like, say, summing up the elements of an array?  For that we need to use `inject` (aka `reduce`), which passes not just the element but the return of the previous iteration into the block.  You can specify the initial value or it will just default to the first item of the array.  It ultimately returns whatever the result of the last iteration is.  Here's a way to sum an array:
 
+    > my_array.inject(0){|running_total, item| running_total + item }
+    => 120
+
+**Some Other Handy Methods**
+Enumerable is a large bunch of methods and you'll only use a half-dozen of them regularly but there are some others that you should be familiar with as well.  The full list is available [in the docs here](http://ruby-doc.org/core-2.0/Enumerable.html).
+* **`.any?`** returns true/false (see the question mark?) and answers the question, "do ANY of the elements in this object pass the test in my block?".  If your block returns true on any time it runs, `.any?` will return true.
+* **`.all?`** returns true/false and answers the question, "do ALL the elements of this object pass the test in my block?".  Every time the block runs it must return true for this method to return true.
+* **`.none?`** returns true only if NONE of the elements in the object return true when the block is run.
+
+
+Some technicalities -- .include? is enumerable and .sort too and .count
 
 
 **Iterators Cheat Sheet**
@@ -1429,10 +1446,9 @@ Here's a theoretical example more like what you might see when you've got your o
 * `select` returns a new object (e.g. array) filled with only those original items where the block you gave it returned `true`.
 * `map` returns a new object (e.g. array) filled with whatever gets returned by the block each time it runs. 
 
-
-    TOO ADVANCED?  PUT IN LATER SECTION???
-
 ##### Exercises
+* Write code to find the total of each element of an array multiplied together
+* 
 
 ### Writing Your Own Methods
 
@@ -1451,7 +1467,7 @@ https://github.com/bbatsov/ruby-style-guide
 
 ## Intermediate Ruby
 
-Classes, inheritance (use .methods), OO design, refactoring, naming, recursion, scope, regex, Modules, metaprogramming (reflection?)
+Classes, inheritance (use .methods), OO design, refactoring, naming, recursion, scope, regex, Modules, metaprogramming (reflection?), shortcut syntax for map etc.
 http://www.codecademy.com/tracks/ruby for oop
 
 ## Ruby and the Web
