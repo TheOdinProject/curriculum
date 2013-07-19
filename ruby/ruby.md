@@ -183,7 +183,7 @@ That example also shows **Method Chaining**, which is when you stick a bunch of 
 
 Methods ending with a question mark `?` return true or false.
 
-Let's answer the question, "Where did all those methods come from?" **Classes** are like umbrellas that let us give an object general behaviors just based on what it is.  An object is an instance of a class -- you (yes, you) are an instance of the `Person` class.  There are lots of behaviors (methods) that you can do just by virtue of being a `Person`.. `laugh`, `jump`, `speak("hello")`  This is really useful in programming because you often need to create lots of instances of something and it's silly to have to rewrite all the methods you want all of them to have anyway, so you write them at the class level and all the instances get to use them.
+Let's answer the question, "Where did all those methods come from?" **Classes** are like umbrellas that let us give an object general behaviors just based on what it is.  An object is an instance of a class -- you (yes, you) are an instance of the `Person` class.  There are lots of behaviors (methods) that you can do just by virtue of being a `Person`... `laugh`, `jump`, `speak("hello")`  This is really useful in programming because you often need to create lots of instances of something and it's silly to have to rewrite all the methods you want all of them to have anyway, so you write them at the class level and all the instances get to use them.
 
 Instances of a class get to **inherit** the behaviors of that class.  Inheritance works for classes too!  Your class `Person` has lots of methods but many of them are inherited just by virtue of you also being a `Mammal` or even just a `LivingThing`  You get to use all the methods of your ancestor classes
 
@@ -1469,20 +1469,94 @@ Finally, some of the methods you've already seen and use are part of Enumerable 
 * Write code to find the total of each element of an array multiplied together
 * 
 
-
-
-
 ### Projects
 * Running Ruby scripts from the command line
 
 
 ## Intermediate Ruby
 
-Classes, inheritance (use .methods), OO design, refactoring, naming, recursion, scope, regex, Modules, metaprogramming (reflection?), shortcut syntax for map etc.
-http://www.codecademy.com/tracks/ruby for oop
-
 ### Style
-https://github.com/bbatsov/ruby-style-guide
+#### Intro and Goals
+#### Thought Questions
+#### Do These First
+* https://github.com/bbatsov/ruby-style-guide
+
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
+
+### Classes, Modules and Inheritance
+#### Intro and Goals
+#### Thought Questions
+* How does inheritance work?
+* What is a class method?
+* How is a class method different from a "regular" method?
+* What is a module?
+* What is a private method?
+* What is a protected method?
+* How are private and protected methods different?
+
+#### Do These First
+* Codecademy's [Object-Oriented Programming learning module](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6)
+* Codecademy's [OOP Project](http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1)
+* Codecademy's [OOP II section](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o)
+* Codecademy's [OOP II Project](http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1)
+
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
+
+### Designing Good Code
+#### Intro and Goals
+#### Thought Questions
+#### Do These First
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
+
+### Debugging your Code
+#### Intro and Goals
+#### Thought Questions
+#### Do These First
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
+
+### Refactoring your Code
+#### Intro and Goals
+#### Thought Questions
+#### Do These First
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
+
+### Scope of Variables
+#### Intro and Goals
+#### Thought Questions
+#### Do These First
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
+
+### Recursion
+#### Intro and Goals
+#### Thought Questions
+#### Do These First
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
+
+### Additional Topics
+#### Intro and Goals
+#### Thought Questions
+* metaprogramming
+* Reflection
+* shortcut syntaxes for things like `map`
+
+#### Do These First
+#### A Brief Summary
+#### Additional Resources
+#### Exercises
 
 ## Ruby and the Web
 
