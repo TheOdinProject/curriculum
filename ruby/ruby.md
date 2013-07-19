@@ -87,7 +87,7 @@ To fix this, you need to make one of the inputs a different data type that can h
     > 5.0 / 3               # as long as one of them is a float...
     => 1.6666666666666667   # ... the result is a float
 
-Converting between integers and floats is easy -- just use `.to_i` and `.to_f` respectively:
+Converting between integers and floats is easy -- just use `to_i` and `to_f` respectively:
 
     > 5.0234.to_i
     => 5
@@ -106,7 +106,7 @@ These types of operations work the same way with variables:
     > my_word * 3
     => "howdyhowdyhowdy"
 
-A **Range** is just a continuous sequence and we represent it in a shorthand way.  If we want to say `3,4,5,6,7,8,9,10,11`, it's much easier to just write it the short way `(3..11)`, meaning "all the integers beween 3 and 11, including both 3 and 11".  If we wrote it `(3...11)`, it would actually exclude `11`.  You can also create a range using `Range.new(start, finish)`, though the shorthand notation is more conventional.
+A **Range** is just a continuous sequence and we represent it in a shorthand way.  If we want to say `3,4,5,6,7,8,9,10,11`, it's much easier to just write it the short way `(3..11)`, meaning "all the integers beween 3 and 11, including both 3 and 11".  If we wrote it `(3...11)`, it would actually exclude `11`  You can also create a range using `Range.new(start, finish)`, though the shorthand notation is more conventional.
 
 For equality:
 * **`=`** is for assignment, so it assigns a value to a variable as in `> name = "Erik"`
@@ -156,19 +156,19 @@ Hopefully you've already picked most of this up from the prep-work.
 
 ##### A Brief Summary
   
-Think of every "thing" in Ruby as a having more than meets the eye. The number `12` is more than just a number... It's an **object*** and Ruby lets you do all kinds of interesting things to it like adding and multiplying and asking it questions like `> 12.class` or `> 12+3`.
+Think of every "thing" in Ruby as a having more than meets the eye. The number `12` is more than just a number... It's an **object*** and Ruby lets you do all kinds of interesting things to it like adding and multiplying and asking it questions like `> 12.class` or `> 12+3`
 
-Ruby gives all objects a bunch of neat **methods**.  If you ever want to know what an object's methods are, just use the `.methods` method!  Asking `> 12345.methods` in IRB will return a whole bunch of methods that you can try out on the number 12345.  You'll also see that the basic operators like `+` and `-` and `/` are all methods too (they're included in that list).  You can call them using the dot `> 1.+2` like any other method or, luckily for you, Ruby made some special shortcuts for them so you can just use them as you have been: `> 1+2`.
+Ruby gives all objects a bunch of neat **methods**.  If you ever want to know what an object's methods are, just use the `methods` method!  Asking `> 12345.methods` in IRB will return a whole bunch of methods that you can try out on the number 12345.  You'll also see that the basic operators like `+` and `-` and `/` are all methods too (they're included in that list).  You can call them using the dot `> 1.+2` like any other method or, luckily for you, Ruby made some special shortcuts for them so you can just use them as you have been: `> 1+2`
 
-Some methods ask true/false questions, and are usually named with a question mark at the end like `.is_a?`, which asks whether an object is a type of something else, e.g. `1.is_a?Integer` returns `true` while `"hihi".is_a?Integer` returns `false`.  You'll get used to that naming convention.  Methods like `.is_a?`, which tell you something about the object itself, are called **Reflection Methods** (as in, "the object quietly reflected on its nature and told me that it is indeed an Integer").  `.class` was another one we saw, where the object will tell you what class it is.
+Some methods ask true/false questions, and are usually named with a question mark at the end like `is_a?`, which asks whether an object is a type of something else, e.g. `1.is_a?Integer` returns `true` while `"hihi".is_a?Integer` returns `false`  You'll get used to that naming convention.  Methods like `is_a?`, which tell you something about the object itself, are called **Reflection Methods** (as in, "the object quietly reflected on its nature and told me that it is indeed an Integer").  `class` was another one we saw, where the object will tell you what class it is.
 
-What is a method? A method is just a function or a black box.  You put the thing on the left in, and it spits something out on the right.  *Every method returns something*, even if it's just `nil`.  Some methods are more useful for their **Side Effects** than the thing they actually return, like `puts`.  That's why when you say `> puts "hi"` in IRB, you'll see a little `=> nil` down below... the method prints out your string as a "side effect" and then returns `nil` after it's done.  When you write your own methods, if you forget to think about the return statement, sometimes you'll get some wierd behavior so always think about what's going in and what's coming out of a method.
+What is a method? A method is just a function or a black box.  You put the thing on the left in, and it spits something out on the right.  *Every method returns something*, even if it's just `nil`  Some methods are more useful for their **Side Effects** than the thing they actually return, like `puts`  That's why when you say `> puts "hi"` in IRB, you'll see a little `=> nil` down below... the method prints out your string as a "side effect" and then returns `nil` after it's done.  When you write your own methods, if you forget to think about the return statement, sometimes you'll get some wierd behavior so always think about what's going in and what's coming out of a method.
 
-Methods can take **inputs** too, which are included in parentheses to the right of the method name (though they can be omitted, as you do with `> puts("hi")` becoming `> puts "hi"`... it's okay to be lazy, as long as you know what you're doing).  Going back to the addition example, `> 1+2==3` is asking whether 1+2 will equal 3 (it returns `=> true`), but it can more explicitly be written `> 1.+(2).==(3)`.  So, in this case, you can see there's more going on than meets the eye at first.  
+Methods can take **inputs** too, which are included in parentheses to the right of the method name (though they can be omitted, as you do with `> puts("hi")` becoming `> puts "hi"`.. it's okay to be lazy, as long as you know what you're doing).  Going back to the addition example, `> 1+2==3` is asking whether 1+2 will equal 3 (it returns `=> true`), but it can more explicitly be written `> 1.+(2).==(3)`  So, in this case, you can see there's more going on than meets the eye at first.  
 
-That example also shows **Method Chaining**, which is when you stick a bunch of methods onto each other.  It behaves like you'd expect -- evaluate the thing on the left first, pass whatever it returns to the method on the right and keep going.  So `> 1+2==3` first evaluates `1+2` to be `3` and then evaluates `3==3` which is `true`.  This is great because it lets you take what would normally be many lines of code and combine them into one elegant expression.
+That example also shows **Method Chaining**, which is when you stick a bunch of methods onto each other.  It behaves like you'd expect -- evaluate the thing on the left first, pass whatever it returns to the method on the right and keep going.  So `> 1+2==3` first evaluates `1+2` to be `3` and then evaluates `3==3` which is `true`  This is great because it lets you take what would normally be many lines of code and combine them into one elegant expression.
 
-**Bang Methods** are finished with an exclamation point `!` like `.sort!`, and they actually modify the original object.  Remember, when you run a normal method in IRB, it will output whatever the method returns but it will preserve the original object.  Bang methods save over the original object:
+**Bang Methods** are finished with an exclamation point `!` like `sort!`, and they actually modify the original object.  The exclamation point lets you know you're in dangerous territory.  Remember, when you run a normal method in IRB, it will output whatever the method returns but it will preserve the original object.  Bang methods save over the original object (they are "destructive"):
 
     > my_numbers = [1,5,3,2]
     => [1, 5, 3, 2]
@@ -181,20 +181,22 @@ That example also shows **Method Chaining**, which is when you stick a bunch of 
     > my_numbers
     => [1, 2, 3, 5]          # overwrote the original my_numbers object!
 
-Let's answer the question, "Where did all those methods come from?" **Classes** are like umbrellas that let us give an object general behaviors just based on what it is.  An object is an instance of a class -- you (yes, you) are an instance of the `Person` class.  There are lots of behaviors (methods) that you can do just by virtue of being a `Person`... `.laugh`, `.jump`, `.speak("hello")`.  This is really useful in programming because you often need to create lots of instances of something and it's silly to have to rewrite all the methods you want all of them to have anyway, so you write them at the class level and all the instances get to use them.
+Methods ending with a question mark `?` return true or false.
 
-Instances of a class get to **inherit** the behaviors of that class.  Inheritance works for classes too!  Your class `Person` has lots of methods but many of them are inherited just by virtue of you also being a `Mammal` or even just a `LivingThing`.  You get to use all the methods of your ancestor classes
+Let's answer the question, "Where did all those methods come from?" **Classes** are like umbrellas that let us give an object general behaviors just based on what it is.  An object is an instance of a class -- you (yes, you) are an instance of the `Person` class.  There are lots of behaviors (methods) that you can do just by virtue of being a `Person`.. `laugh`, `jump`, `speak("hello")`  This is really useful in programming because you often need to create lots of instances of something and it's silly to have to rewrite all the methods you want all of them to have anyway, so you write them at the class level and all the instances get to use them.
 
-An interesting exercise to try in Ruby is to use the method `.superclass` to ask a class what its parent is.  If you just keep on going and going, you'll see that everything eventually inherits from `BasicObject`, which originates most of the methods you have access to in the original object:
+Instances of a class get to **inherit** the behaviors of that class.  Inheritance works for classes too!  Your class `Person` has lots of methods but many of them are inherited just by virtue of you also being a `Mammal` or even just a `LivingThing`  You get to use all the methods of your ancestor classes
+
+An interesting exercise to try in Ruby is to use the method `superclass` to ask a class what its parent is.  If you just keep on going and going, you'll see that everything eventually inherits from `BasicObject`, which originates most of the methods you have access to in the original object:
 
     > 1.class.superclass.superclass.superclass
     => BasicObject
     > BasicObject.methods
     => # giant list of methods
 
-Random Note: Running the `.methods` method on a class only returns the class methods, whereas `.instance_methods` will return all methods available to any instance of that class (so `String.methods` will return a list of class methods, while `"hello".methods` will return a longer list that is the same as `String.instance_methods`).
+Random Note: Running the `methods` method on a class only returns the class methods, whereas `instance_methods` will return all methods available to any instance of that class (so `String.methods` will return a list of class methods, while `"hello".methods` will return a longer list that is the same as `String.instance_methods`).
 
-Other Random Note: Use `.object_id` to see an object's id, and this can be useful if you're running into odd errors where you thought you were modifying and object but it's not changing.  If you debug and look at the id's along the way, you may find that you're actually only modifying a COPY of that object.
+Other Random Note: Use `object_id` to see an object's id, and this can be useful if you're running into odd errors where you thought you were modifying and object but it's not changing.  If you debug and look at the id's along the way, you may find that you're actually only modifying a COPY of that object.
 
 To **Write Your Own Methods**, just use the syntax `def methodname(argument1, argument2)`, though the parentheses around the arguments are optional.  The method will return ("spit out") either whatever follows the `return` statement or the result of the last piece of code that was evaluated (an **Implicit Return** statement).  You call the inputs by whatever name you defined them at the top.
 
@@ -251,7 +253,7 @@ This section should give you an appreciation for the ways you can mess with stri
 * A great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
 
 ##### A Brief Summary
-Strings are just made up of individual characters and denoted with quotes.  `> I confuse Ruby and probably throw an error` but `> "I do not because I have quotes"`.  
+Strings are just made up of individual characters and denoted with quotes.  `> I confuse Ruby and probably throw an error` but `> "I do not because I have quotes"`  
 
 **Double Quotes** are often interchangeable with **Single Quotes**... there's almost no difference and you're free to use either.  Two cases make the distinction important:
 
@@ -337,7 +339,7 @@ To **Access a Specific Character or Substring** of a string, just treat it like 
     > s[1..-2]
     => "ell"
 
-**Break a String into Pieces** using `.split`, which creates an array of substrings that are broken up based on whatever character you passed in:
+**Break a String into Pieces** using `split`, which creates an array of substrings that are broken up based on whatever character you passed in:
 
     > list = "eggs, milk, cheese and crackers"
     => "eggs, milk, cheese and crackers"
@@ -351,7 +353,7 @@ You can also split based on individual characters by passing either a blank stri
     > list.split("")      # or also list.split(//)
     => ["e", "g", "g", "s", ",", " ", "m", "i", "l", "k", ",", " ", "c", "h", "e", "e", "s", "e", " ", "a", "n", "d", " ", "c", "r", "a", "c", "k", "e", "r", "s"] 
 
-When you write your Ruby programs, you'll probably want to ask for **User Input**... which is easy with `gets`, which then waits for the user to type something.  You'll want to store whatever the user types into a variable and be sure to trim off the extra line break (from when the user hit the `enter` key) using `.chomp`:
+When you write your Ruby programs, you'll probably want to ask for **User Input**... which is easy with `gets`, which then waits for the user to type something.  You'll want to store whatever the user types into a variable and be sure to trim off the extra line break (from when the user hit the `enter` key) using `chomp`:
 
     > player1 = gets    
     Erik                # this was typed in manually
@@ -360,7 +362,7 @@ When you write your Ruby programs, you'll probably want to ask for **User Input*
     Erik
     => "Erik"           # better.
 
-`.chomp` will cut off a space or newline at the END of the string (and can take an optional input so you can specify what exactly to chomp off). `.strip` will remove ALL spaces and newlines from both the beginning and end of the string:
+`chomp` will cut off a space or newline at the END of the string (and can take an optional input so you can specify what exactly to chomp off). `strip` will remove ALL spaces and newlines from both the beginning and end of the string:
 
     > " dude \n".chomp
     => " dude "         # still have the extra spaces
@@ -370,14 +372,14 @@ When you write your Ruby programs, you'll probably want to ask for **User Input*
 Of course, it's up to you to figure out if your user has entered something illegal or harmful, but at least you have an easy job removing extraneous spaces and returns.
 
 **Other Helpful String Methods** include:
-* `.length` to get the length of the string
-* `.downcase` to convert `"ALL THIS"` to `"all this"`
-* `.upcase` to convert `"all this"` back to `"ALL THIS"`
-* `.reverse` to convert `"hello"` to `"olleh"`
+* `length` to get the length of the string
+* `downcase` to convert `"ALL THIS"` to `"all this"`
+* `upcase` to convert `"all this"` back to `"ALL THIS"`
+* `reverse` to convert `"hello"` to `"olleh"`
 
 Fun fact: Strings made with the backtick characters `` ` `` (which is usually located on the same key as the tilde `~`) are actually interpolated and run by your operating system, so in IRB if you type ``> puts `ls` `` on a mac, it will actually output your directory contents!
 
-What about all the times you may want to **Search For or Replace Within Strings**?  For that, you need to begin understanding **Regular Expressions**, or "RegEx"'s.  There's a handy method for strings called `.gsub(pattern, replace_with_this)`, which finds any occurrances of that pattern and replaces it with whatever you want:
+What about all the times you may want to **Search For or Replace Within Strings**?  For that, you need to begin understanding **Regular Expressions**, or "RegEx"'s.  There's a handy method for strings called `gsub(pattern, replace_with_this)`, which finds any occurrances of that pattern and replaces it with whatever you want:
 
     > "hello".gsub("l","r")
     => "herro"
@@ -386,7 +388,7 @@ But what if you want to go looking for more advanced patterns than just simple l
 
 Regular Expressions are really just a special syntax that is used to find things (and not just in Ruby, they're used all over the place).  It's beyond the scope of this summary for sure, but I hope you've tried them out at [RegexOne](http://regexone.com/).  Once you know how to match stuff, you'll feel ready to take on any big dictionary files or big batches of questionable user input that needs to be standardized.  But be careful, it can be too tempting to go hog-wild with your expressions. It's something you should at least know the basics of but probably will not be applying all that often "in the wild".  
 
-The last thing to cover is **Symbols**, which start creeping up all over the place when you get into Rails and even Hashes.  Symbols are denoted with the colon before the name, e.g. `:my_symbol` instead of `"my_string"`.  A symbol is basically like a string without any depth... string lite, if you will.  A string is **Mutable**, meaning it can be added to, reversed, and generally messed with in a hundred different ways.  Whenever you have text that you want to play around with or use as, well, text, just stick with strings.
+The last thing to cover is **Symbols**, which start creeping up all over the place when you get into Rails and even Hashes.  Symbols are denoted with the colon before the name, e.g. `:my_symbol` instead of `"my_string"`  A symbol is basically like a string without any depth... string lite, if you will.  A string is **Mutable**, meaning it can be added to, reversed, and generally messed with in a hundred different ways.  Whenever you have text that you want to play around with or use as, well, text, just stick with strings.
 
 But sometimes all you want is a name, like when you're using a hash key.  In that case, it makes sense to use symbols.  Symbols are immutable, so they don't change.  They are also only stored in memory in one place, wherease strings have a new place in memory each time you declare one:
 
@@ -511,7 +513,7 @@ If you want to find values in **Both** arrays, check their union using the amper
     > [1,2,3]&[2,4,5]
     => [2]
 
-What if you only want to add or subtract one single value?  That's a very common operation with arrays, and Ruby has provided four handy methods that let you either pluck away or add onto the front or back of the array.  First, the more common is to add or remove stuff from the END of the array, using **`.push` or `.pop`**:
+What if you only want to add or subtract one single value?  That's a very common operation with arrays, and Ruby has provided four handy methods that let you either pluck away or add onto the front or back of the array.  First, the more common is to add or remove stuff from the END of the array, using **`push` or `pop`**:
 
     > my_arr = [1,2,3]
     => [1,2,3]
@@ -526,7 +528,7 @@ What if you only want to add or subtract one single value?  That's a very common
     > my_arr
     => [1, 2]          # warning: pop also modified my_arr
 
-What if you want to take the item off the FRONT of the array?  This is less common.  For that, use the similar `.shift` and `.unshift` methods:
+What if you want to take the item off the FRONT of the array?  This is less common.  For that, use the similar `shift` and `unshift` methods:
 
     > my_arr = [1,2,3]
     => [1,2,3]
@@ -539,7 +541,7 @@ What if you want to take the item off the FRONT of the array?  This is less comm
     > my_arr
     => [999, 2, 3]    # warning: unshift... yep, modified my_arr.
 
-So the `push`/`pop`/`shift`/`unshift` methods should take you wherever you realistically need to go.  Although there's another handy method you should be aware of, the **Shovel Operator**, aka `<<`.  This method is *almost* identical to push, since it just jams whatever's to its right into the array:
+So the `push`/`pop`/`shift`/`unshift` methods should take you wherever you realistically need to go.  Although there's another handy method you should be aware of, the **Shovel Operator**, aka `<<`  This method is *almost* identical to push, since it just jams whatever's to its right into the array:
 
     > my_arr = [1,2,3]
     => [1,2,3]
@@ -550,7 +552,7 @@ So the `push`/`pop`/`shift`/`unshift` methods should take you wherever you reali
 
 For now, just think of it as the cool way of pushing onto an array.  But note that `<<` is often overridden (like in Rails), and so it pays to be mindful of exactly what flavor of `push`ing you're doing.
 
-**Deleting Items** from an array should be done carefully because, if you're deleting items inside a loop or something like that, it will change the index of the other items and you'll need to anticipate this or live to regret it.  Delete an item at a specific index using `.delete_at`, which is sort of like `pop`ing but from anywhere you want:
+**Deleting Items** from an array should be done carefully because, if you're deleting items inside a loop or something like that, it will change the index of the other items and you'll need to anticipate this or live to regret it.  Delete an item at a specific index using `delete_at`, which is sort of like `pop`ing but from anywhere you want:
 
     > my_arr = [1,2,3]
     => [1, 2, 3]
@@ -559,14 +561,14 @@ For now, just think of it as the cool way of pushing onto an array.  But note th
     > my_arr
     => [1,3]
 
-See if an array **includes an item** AT ALL by using `.include?`, which, as you should see from the `?` at the end, returns true or false:
+See if an array **includes an item** AT ALL by using `include?`, which, as you should see from the `?` at the end, returns true or false:
 
     > my_arr.include?(3)
     => true
     > my_arr.include?(132)
     => false
 
-To find WHERE a specific item lives in the array, use `.index` but note that it only returns the FIRST instance of this (and then gives up. Lazy method.):
+To find WHERE a specific item lives in the array, use `index` but note that it only returns the FIRST instance of this (and then gives up. Lazy method.):
 
     > my_arr.index(3)
     => 2
@@ -576,18 +578,18 @@ To find WHERE a specific item lives in the array, use `.index` but note that it 
     => nil                # Not an error, just nil
 
 **A few useful and commonly used methods:**
-* `.max` to find the **biggest value** of an array
-* `.min` to find the **smallest value** of an array
-* `.size` to find out **how big the array is**
-* `.shuffle` will mess up your whole array by putting it in random order
-* `.sort` will clean it up again for you by putting your array **in order**.  Though `.sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
-* `.sample` picks out a totally random value from the array... good for gambling games!
-* `.first` gives you the first item (but doesn't remove it, so it's same as `[0]`) but can be more descriptive of your code's intent.
-* `.last` is same as `[-1]`
+* `max` to find the **biggest value** of an array
+* `min` to find the **smallest value** of an array
+* `size` to find out **how big the array is**
+* `shuffle` will mess up your whole array by putting it in random order
+* `sort` will clean it up again for you by putting your array **in order**.  Though `sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
+* `sample` picks out a totally random value from the array... good for gambling games!
+* `first` gives you the first item (but doesn't remove it, so it's same as `[0]`) but can be more descriptive of your code's intent.
+* `last` is same as `[-1]`
 
-Do as I say and not as I do: name your arrays with the plural form (because it has a bunch of things in it, like `colorful_bugs` instead of `colorful_bug`) and be descriptive.  No one likes to try and figure out what `array1` or `a` contains... stick with `colorful_bugs`.  I just kept them short here because they're tiny examples.  Someone should rename them all.
+Do as I say and not as I do: name your arrays with the plural form (because it has a bunch of things in it, like `colorful_bugs` instead of `colorful_bug`) and be descriptive.  No one likes to try and figure out what `array1` or `a` contains... stick with `colorful_bugs`  I just kept them short here because they're tiny examples.  Someone should rename them all.
 
-Strings are a lot like arrays... so much so that we can even **Convert an Array into a String**! Just use `.join` and tell it what, if anything, you want in between each element (the "separator"):
+Strings are a lot like arrays... so much so that we can even **Convert an Array into a String**! Just use `join` and tell it what, if anything, you want in between each element (the "separator"):
 
     > ["he", "llo"].join
     => "hello"
@@ -638,7 +640,7 @@ Hashes may be a bit intimidating at first but they're actually pretty similar to
 
 ##### A Brief Summary
 
-A *Hash* is just a container for data where each piece of data is mapped to a *Key*.  The data is called the *Value*.  Keys can be either strings or symbols. Values can be anything, just like with arrays.  A hash looks almost like an array, but with squiggly braces `{}` instead of hard ones `[]`.  There's no order to a hash (unlike an array)... you're accessing your data using strings anyway so it doesn't matter which order they're in.
+A *Hash* is just a container for data where each piece of data is mapped to a *Key*.  The data is called the *Value*.  Keys can be either strings or symbols. Values can be anything, just like with arrays.  A hash looks almost like an array, but with squiggly braces `{}` instead of hard ones `[]`  There's no order to a hash (unlike an array)... you're accessing your data using strings anyway so it doesn't matter which order they're in.
 
 Make a new hash using several methods:
 
@@ -647,7 +649,7 @@ Make a new hash using several methods:
     > my_hash = {}        # easier way
     => {}
 
-You store data in a hash by matching a key with a value.  Use the **Hash Rocket** `=>` (not to be confused with the same symbol in our IRB examples which denotes the IRB output) if you're creating the hash, or just index into it like an array using hard brackets `[]`.
+You store data in a hash by matching a key with a value.  Use the **Hash Rocket** `=>` (not to be confused with the same symbol in our IRB examples which denotes the IRB output) if you're creating the hash, or just index into it like an array using hard brackets `[]`
 
     > favorite_colors = { "eyes" => "blue", "hair" => "blonde"}
     => {"eyes"=>"blue", "hair"=>"blonde"}
@@ -681,7 +683,7 @@ If you recall our discussion from Strings, we use symbols as keys for hashes mor
     > favorite_smells = { :flower => "daffodile", :cooking => "bacon" }
     => { :flower => "daffodile", :cooking => "bacon" }
 
-**Delete** from a hash by just setting the value to `nil` or by calling the `.delete` method:
+**Delete** from a hash by just setting the value to `nil` or by calling the `delete` method:
 
     > favorite_smells[:flower] = nil
     => nil
@@ -692,14 +694,14 @@ If you recall our discussion from Strings, we use symbols as keys for hashes mor
     > favorite_smells
     => {}                                 # ...and the other.
 
-That's all pretty straightforward.  What if we want to **add two hashes together**?  Just use `.merge`.  If there are any conflicts, the incoming hash (on the right) overrides the hash actually calling the method.
+That's all pretty straightforward.  What if we want to **add two hashes together**?  Just use `merge`  If there are any conflicts, the incoming hash (on the right) overrides the hash actually calling the method.
 
     > favorite_beers = { :pilsner => "Peroni" }
     => { :pilsner => "Peroni" }
     > favorite_colors.merge(favorite_beers)
     => {"eyes"=>"blue", "hair"=>"blonde", "skin"=>"sunburned", :pilsner => "Peroni"}       # okay, that's getting silly now...
 
-If you want to know what **All the Keys** are (more common) or **All the Values*** are (less common) in a hash, just use the aptly named `.keys` and `.values` methods to spit them out as an array:
+If you want to know what **All the Keys** are (more common) or **All the Values*** are (less common) in a hash, just use the aptly named `keys` and `values` methods to spit them out as an array:
 
     > favorite_colors.keys
     => ["eyes", "hair", "skin", :pilsner]  
@@ -795,7 +797,7 @@ What if you want to display a date in a pretty way, like on your website or for 
     > nownow.strftime("%Y-%m-%d %H:%M:%S")
     => "2013-07-11 00:38:10" 
 
-Wait, what were all those `%Y` characters?  They just tell the `.strftime` method what components of the `Time` to output and how you'd like them formatted.  There's a long list of them back at [the TutorialsPoint site](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  You don't need to remember them since you can just google for them when you decide to output a string, but know that they give you the flexibility to output a date or time in pretty much any way you could imagine.
+Wait, what were all those `%Y` characters?  They just tell the `strftime` method what components of the `Time` to output and how you'd like them formatted.  There's a long list of them back at [the TutorialsPoint site](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  You don't need to remember them since you can just google for them when you decide to output a string, but know that they give you the flexibility to output a date or time in pretty much any way you could imagine.
 
 **Extra Stuff: Time Zones and Local Time**
 What's that trailing `-0800` in `2012-02-14 00:00:00 -0800`?  It's because that time was created on my local system, which is many hours "earlier" in the day from the Coordinated Universal Time (called UTC... no, it doesn't match up but [here's why](http://geography.about.com/od/timeandtimezones/a/gmtutc.htm)) which is used by computers around the world as the standard benchmark time (so two computers communicating about times will always be talking about the same exact one and not have to worry about time zones).  
@@ -804,7 +806,7 @@ I prefer to think of UTC as "Universal Time Code" because reasons.  UTC is the n
 
 Back to the point, the `-0800` above says that we created a new time for midnight on Valentine's Day but only from the perspective of someone on the West Coast of the USA... it was really 8am in Greenwich, England and according to every other computer in the world.  You'll forget this stuff until you need it and that's fine.
 
-Use `.localtime` to display the `Time` object in whatever your local system time is (if it was created in UTC it will be different).
+Use `localtime` to display the `Time` object in whatever your local system time is (if it was created in UTC it will be different).
 
 ##### Exercises (in IRB)
 * How many days until your birthday?
@@ -822,7 +824,7 @@ Here are some useful things that don't really fit nicely into another section.
 * Are the following `nil` or `empty`?
     * `" "`, `""`, `[]`, `[""]`, `{}` 
 * What's the difference between `puts` and `p` and `print`?
-* What does `.inspect` do?
+* What does `inspect` do?
 * What do `+=`, `-=`, `*=` and `/=` do?
 * What is parallel assignment?
 * What's the easiest way to swap two variables?
@@ -839,23 +841,23 @@ So **What is `nil`?** It represents nothing... literally.  Before you assign a v
     > my_arr[3]
     => nil          # hasn't been assigned yet
 
-Sometimes you want to know if a value or variable is `nil` before doing something (because otherwise the operation would throw a bunch of errors at you).  Use the method `.nil?` to ask whether it's nil or not beforehand.
+Sometimes you want to know if a value or variable is `nil` before doing something (because otherwise the operation would throw a bunch of errors at you).  Use the method `nil?` to ask whether it's nil or not beforehand.
 
     > nil.nil?
     => true
     > [].nil?
     => false        # Waitasecond....
 
-Why is `[]` not nil?  The array itself exists so it isn't nil... it just happens to contain no values yet so it's empty.  If we asked for the first value of that array using `[][0].nil?`, that would be `true`.
+Why is `[]` not nil?  The array itself exists so it isn't nil... it just happens to contain no values yet so it's empty.  If we asked for the first value of that array using `[][0].nil?`, that would be `true`
 
 If you try to run a method on something that is `nil`, which you will inevitably do many many times by accident, you'll get the familiar `NoMethodError`:
 
     > user_i_looked_up_but_was_not_found_so_is_nil.empty?
     => NoMethodError: undefined method `empty?' for nil:NilClass
 
-**`.blank?` and `.empty?`** are similar -- both basically check if the object has nothing in it -- but `.blank?` will also ignore any whitespace characters.  *Note that `.blank?` is a method provided by Rails and is not available in Ruby*.
+**`blank?` and `empty?`** are similar -- both basically check if the object has nothing in it -- but `blank?` will also ignore any whitespace characters.  *Note that `blank?` is a method provided by Rails and is not available in Ruby*.
 
-We've seen lots of `puts` so far but you've probably also run across `p`.  **What's the Difference?**  `p` will give you some more information because it runs the `.inspect` method on the object while `puts` runs the `.to_s` method.  **`.inspect`** is meant to be informative where `puts` is "pretty".  The difference may not be readily apparent while you're only working with simple objects like strings and arrays, but you'll notice it when you start creating your own objects and you want to see what's inside (without typing out `puts my_object.inspect`).
+We've seen lots of `puts` so far but you've probably also run across `p`  **What's the Difference?**  `p` will give you some more information because it runs the `inspect` method on the object while `puts` runs the `to_s` method.  **`inspect`** is meant to be informative where `puts` is "pretty".  The difference may not be readily apparent while you're only working with simple objects like strings and arrays, but you'll notice it when you start creating your own objects and you want to see what's inside (without typing out `puts my_object.inspect`).
 
 `=` is an **Assignment Operator** but there are a few others that are interesting and common shorthands as well:
 * `a += b` is the same as `a = a + b`
@@ -940,7 +942,7 @@ An `if` statement is pretty straightforward too.  Supply a condition and, if it'
         # this code will not run unless the variable is NOT a String
     end
 
-**`unless`** is the opposite of `if` (which should make sense from the english of it).  So it will jump into the included code... UNLESS the statement is `true`.  You can also have an `else` clause, though it's less common because then you need to scratch your head to think about it so your code gets a bit less readable. 
+**`unless`** is the opposite of `if` (which should make sense from the english of it).  So it will jump into the included code... UNLESS the statement is `true`  You can also have an `else` clause, though it's less common because then you need to scratch your head to think about it so your code gets a bit less readable. 
 
     unless home_team.won_the_super_bowl?
         puts "I need to drown my sorrows in ice cream"
@@ -954,7 +956,7 @@ Want some more Ruby awesomeness?  Put your `if` and `unless` statements in a sin
 
     dispatch_vampire_hunters if current_user.is_a?(Vampire)
 
-Use **Comparison Operators** as the building blocks to construct your conditional statements.  There are some simple ones that you should already be familiar with: `==, <, >, >=, and <= `.  `!=` is "not equal".
+Use **Comparison Operators** as the building blocks to construct your conditional statements.  There are some simple ones that you should already be familiar with: `==, <, >, >=, and <= `  `!=` is "not equal".
 
 The **Spaceship Operator** `<=>` is a special one that comes up because it actually gives three different possible outputs depending on whether the left side is greater than, less than, or equal to the right side.  
 
@@ -978,7 +980,7 @@ The Spaceship can be useful because, like basically everything else, it's actual
 * `||` (the pipe symbol, usually on the same key as the backslash) aka `or`, meaning that if EITHER of the two sides is true, the expression is true (else false)
 * `!` aka `not`, which reverses the expression from true to false or false to true
 
-"In the wild" you'll probably see some complex or odd looking `if` statements.  The trick is to start breaking everything that looks like a conditional piece into what is evaluates to... either `true` or `false`.  So what do you evaluate first?  Ruby logical expressions use a similar order of operations to normal math: left to right unless there are parentheses.
+"In the wild" you'll probably see some complex or odd looking `if` statements.  The trick is to start breaking everything that looks like a conditional piece into what is evaluates to... either `true` or `false`  So what do you evaluate first?  Ruby logical expressions use a similar order of operations to normal math: left to right unless there are parentheses.
 
     > ( false || true ) && !(true && true ) 
     => false
@@ -995,9 +997,9 @@ That's important because we can actually use methods as part of our logical chai
 
 What happened?  Ruby knows that it only needs one side of the `&&` to be false for the whole thing to be false, and since `puts` on the left already returned `nil` which is falsey, Ruby stopped evaluating the expression and the really important message never got displayed.
 
-It returned `nil` instead of `false` because `&&` and `||` and the like don't just return `true` or `false`... they return the result of the last expression to get evaluated, which was the `nil` from the `puts`.  For another example, `7 || nil` returns `7` (which behaves truthy) instead of `true` and `7 && nil` returns `nil` (which behaves falsey) instead of `false`.  If this seems a bit much to swallow right off the bat, keep it in the back of your mind until you first see it in action then it will click.
+It returned `nil` instead of `false` because `&&` and `||` and the like don't just return `true` or `false`.. they return the result of the last expression to get evaluated, which was the `nil` from the `puts`  For another example, `7 || nil` returns `7` (which behaves truthy) instead of `true` and `7 && nil` returns `nil` (which behaves falsey) instead of `false`  If this seems a bit much to swallow right off the bat, keep it in the back of your mind until you first see it in action then it will click.
 
-**`||=`** is a sneaky expression that takes advantage of Ruby's natural laziness -- it basically expands to `thing_a || thing_a = thing_b`.  So if `thing_a` hasn't yet been assigned to anything, it is `nil` so the Ruby checks the right side of the || to see if that might be true.becomes `thing_b`.  If it has already been assigned a value, it just keeps that value like normal.  This is another sneaky trick used by programmers in situations like when you want to  , you should be able to see that 
+**`||=`** is a sneaky expression that takes advantage of Ruby's natural laziness -- it basically expands to `thing_a || thing_a = thing_b`  So if `thing_a` hasn't yet been assigned to anything, it is `nil` so the Ruby checks the right side of the || to see if that might be true.becomes `thing_b`  If it has already been assigned a value, it just keeps that value like normal.  This is another sneaky trick used by programmers in situations like when you want to  , you should be able to see that 
 
 You may have seen some oddly compact and strange looking statements that appeared to be `if` statements under the hood.  That's probably because they use the **Ternary Operator**, which is a shorthand notation for a simple `if` that separates the different parts using the `?` and `:` like:
 
@@ -1036,7 +1038,7 @@ You can nest `if` statements inside one another but sometimes it gets a little c
 
 You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again manually.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
 
-You should understand the basic iterators `for` and `while` and understand how to use `.each` and `.times`.  We'll talk more about blocks and the other Ruby iterators like `.map` and `.select` in the next sections, so it should be more obvious how `.each` and `.times` work after reading that.
+You should understand the basic iterators `for` and `while` and understand how to use `each` and `times`  We'll talk more about blocks and the other Ruby iterators like `map` and `select` in the next sections, so it should be more obvious how `each` and `times` work after reading that.
 
 #### Do This First
 * [Codecademy's loops track](http://www.codecademy.com/courses/ruby-beginner-en-XYcN1)
@@ -1050,8 +1052,8 @@ You should understand the basic iterators `for` and `while` and understand how t
     * `loop`?
     * `while`?
     * `for`?
-    * `.each`?
-    * `.times`?
+    * `each`?
+    * `times`?
 * What's the difference between `while` and `until`?
 * How do you stop a loop?
 * How to you skip to the next iteration of a loop?
@@ -1074,7 +1076,7 @@ You should understand the basic iterators `for` and `while` and understand how t
     > end
     1 2 3 4 5 6 7 8 9 10 => nil
 
-**`while`** performs a similar function but in a much more compact way, by allowing you to specify the condition that must be true to keep looping, and you'll find yourself using it much more in your own code.  It doesn't actually take a formal block of code, just runs everything until it reaches its `end`.  Just remember to declare the variable(s) you'll be using (or they'll get reset with each iteration) and to increment at some point (or you'll get stuck in an infinite loop [use ctrl+c to break in Terminal]):
+**`while`** performs a similar function but in a much more compact way, by allowing you to specify the condition that must be true to keep looping, and you'll find yourself using it much more in your own code.  It doesn't actually take a formal block of code, just runs everything until it reaches its `end`  Just remember to declare the variable(s) you'll be using (or they'll get reset with each iteration) and to increment at some point (or you'll get stuck in an infinite loop [use ctrl+c to break in Terminal]):
 
     > i=1
     > while i < 5
@@ -1083,7 +1085,7 @@ You should understand the basic iterators `for` and `while` and understand how t
     > end
     1 2 3 4 => nil
 
-**`until`** is almost identical to `while` but, instead of running as long as the specified condition is `true`, it runs as long as the condition is `false`.
+**`until`** is almost identical to `while` but, instead of running as long as the specified condition is `true`, it runs as long as the condition is `false`
 
 **`for`** is a looping mechanism present in lots of other languages but it gets de-emphasized in Ruby and you don't see it used much.  A common use is to loop over every number in a range.  Whatever you name the first variable is how you call that number inside the loop:
 
@@ -1092,7 +1094,7 @@ You should understand the basic iterators `for` and `while` and understand how t
     > end
     1 2 3 => 1..3
 
-Things get more interesting when you realize that most of your loops will probably involve looping over each element in either an array or a hash of items.  Ruby knows this and made it super easy for you by specifying the `.each` method that you call directly on that array or hash.  It will automatically pass whichever item it is currently on into your code block.  That item will be named whatever name you specify inside the pipes `| name_goes_here |`:
+Things get more interesting when you realize that most of your loops will probably involve looping over each element in either an array or a hash of items.  Ruby knows this and made it super easy for you by specifying the `each` method that you call directly on that array or hash.  It will automatically pass whichever item it is currently on into your code block.  That item will be named whatever name you specify inside the pipes `| name_goes_here |`:
 
     > guys = ["Bob", "Billy", "Joe"]
     > guys.each do |current_name|    # better to call it just "name"
@@ -1100,7 +1102,7 @@ Things get more interesting when you realize that most of your loops will probab
     > end
     Bob! Billy! Joe! => ["Bob", "Billy", "Joe"]  # returns original array
 
-Many other loops are just you trying to do something a certain number of times (which was the case in our `for` loop example).  In that case, Ruby has the simplest possible method for you, `.times`.  If you pipe in an argument, it will be the current iteration starting from zero:
+Many other loops are just you trying to do something a certain number of times (which was the case in our `for` loop example).  In that case, Ruby has the simplest possible method for you, `times`  If you pipe in an argument, it will be the current iteration starting from zero:
 
     > 5.times do |jump_num|
     >     print "Jump #{jump_num}!"
@@ -1108,8 +1110,8 @@ Many other loops are just you trying to do something a certain number of times (
     Jump 1!Jump 2!Jump 3!Jump 4!Jump 5!=> 5
 
 A couple other methods with similar purposes to `times` that you see less frequently:
-* `.upto`, as in `1.upto(4) { |current_number| ...some code... }`, just like `.times` but you choose the starting and ending point instead of always starting at zero.
-* `.downto`, similar to `upto` but... down... to....
+* `upto`, as in `1.upto(4) { |current_number| ...some code... }`, just like `times` but you choose the starting and ending point instead of always starting at zero.
+* `downto`, similar to `upto` but... down... to....
 
 Your best friends early on will be `while` for anything that needs to run until a certain condition is reached (like winning the game), `each` for any time you want to do stuff with every item in an array or hash, and `times` for the simple cases when you just want to do something a fixed number of times.  
 
@@ -1152,9 +1154,9 @@ Methods help organize your code by keeping you from repeating yourself.  Anythin
 
 Methods also make your code much easier to read and debug, a fact that you'll appreciate when you write some horrendously complicated spaghetti code and it takes you longer to figure out what it is doing than how to debug the error message you're getting.  
 
-Let's say you're building a game that uses an `until` loop to keep taking turns until someone has won.  But figuring out if someone has won takes several lines of code.  You really can't say `until ( 8 lines of code determining if anyone has one)`.  Better to write a method called `game_over?` that does the work, then you can simply and legibly write `until game_over?` and it's obvious what your code does.  
+Let's say you're building a game that uses an `until` loop to keep taking turns until someone has won.  But figuring out if someone has won takes several lines of code.  You really can't say `until ( 8 lines of code determining if anyone has one)`  Better to write a method called `game_over?` that does the work, then you can simply and legibly write `until game_over?` and it's obvious what your code does.  
 
-The `game_over?` method probably needs to check if the human player has won or has lost, so maybe your `game_over?` method just contains calls to two other methods, `victory?` and `loss?`.  If you were debugging, it'd be very easy for you to go and find where the problem is if the player just can't seem to lose:
+The `game_over?` method probably needs to check if the human player has won or has lost, so maybe your `game_over?` method just contains calls to two other methods, `victory?` and `loss?`  If you were debugging, it'd be very easy for you to go and find where the problem is if the player just can't seem to lose:
 
     def game_over?
       victory? || loss?
@@ -1178,7 +1180,7 @@ That is incredibly useful because we create methods that could be called by any 
       "#{self.first_name} #{self.last_name}"
     end   # Remember, this implicitly returns the string "firstname"
 
-You're probably tired of running your methods in IRB (if that's what you're still doing) so it's time to learn how to break them out into a **separate script file** which you can then run in its entirety from the command line.  It's easy -- just create a file with the extension `.rb`, navigate to that file's directory from the command line, and run it using `./filename.rb`.  You'll be able to `gets` and `puts` to the command line.  
+You're probably tired of running your methods in IRB (if that's what you're still doing) so it's time to learn how to break them out into a **separate script file** which you can then run in its entirety from the command line.  It's easy -- just create a file with the extension `rb`, navigate to that file's directory from the command line, and run it using `/filename.rb`  You'll be able to `gets` and `puts` to the command line.  
 
 Access Denied?  Sometimes you'll get an error message when you try to run a script file from the command line like that because you don't have permission to do so.
 
@@ -1224,7 +1226,7 @@ Here, you'll learn more about blocks and also about their lessor known cousins, 
 * What do Methods basically allow you to do that could probably be pretty interesting when you're writing some more advanced programs later on?
 
 #### A Brief Summary
-Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called anonymous functions because they have no name but behave much like functions.  They're like little helper functions... you don't find blocks just hanging around without some method (like `.each`) using them.  
+Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called anonymous functions because they have no name but behave much like functions.  They're like little helper functions... you don't find blocks just hanging around without some method (like `each`) using them.  
 
 You **declare a block** using squiggly braces `{}` if it's on one line or `do ... end` if it's on multiple lines (by convention... you can use either one if you really want):
 
@@ -1237,9 +1239,9 @@ You **declare a block** using squiggly braces `{}` if it's on one line or `do ..
 
 Just like methods, some blocks take inputs, others do not.  Some return important information, others do not.  Blocks let you use the implicit **return** (whatever's on the last line) but NOT `return`, since that will actually return you from whatever method actually called the block.
 
-Blocks are used as arguments to other functions (like `.each`), just like the normal arguments that you see between the parentheses... they just happen to always be listed last and on their own because they tend to take up multiple lines.  Don't think of them as anything too special.  The `.each` method isn't special either, it's just built to accept a block as an argument.
+Blocks are used as arguments to other functions (like `each`), just like the normal arguments that you see between the parentheses... they just happen to always be listed last and on their own because they tend to take up multiple lines.  Don't think of them as anything too special.  The `each` method isn't special either, it's just built to accept a block as an argument.
 
-How does `.each` take a block then?  Through the magic of **the `yield` statement**, which basically says "run the block right here".  When you write your own methods, you don't even need to specially declare that you'd like to accept a block.  It will just be there waiting for you when you call `yield` inside your method.  `yield` can **pass parameters to your block** as well.  See this made-up version of the `.each` method to get an idea of what's happening under the hood.  We'll put this method into the Array class so you can call it directly on an array (like `[1,2,3].my_each`) instead of having to take the array as an argument like `my_each([1,2,3])`:
+How does `each` take a block then?  Through the magic of **the `yield` statement**, which basically says "run the block right here".  When you write your own methods, you don't even need to specially declare that you'd like to accept a block.  It will just be there waiting for you when you call `yield` inside your method.  `yield` can **pass parameters to your block** as well.  See this made-up version of the `each` method to get an idea of what's happening under the hood.  We'll put this method into the Array class so you can call it directly on an array (like `[1,2,3].my_each`) instead of having to take the array as an argument like `my_each([1,2,3])`:
 
     class Array 
       def my_each
@@ -1270,7 +1272,7 @@ Which operates in that case just like:
       end
     end
 
-So one reason blocks are great is because you can write a sort of generic method like `each` which wraps your block in code that says what to do with it.  Another use case is when creating methods where you want to optionally be able to override how they "work" internally by supplying your own block -- `.sort` lets you supply your own block to determine how to actually order the items of the array if you want to!
+So one reason blocks are great is because you can write a sort of generic method like `each` which wraps your block in code that says what to do with it.  Another use case is when creating methods where you want to optionally be able to override how they "work" internally by supplying your own block -- `sort` lets you supply your own block to determine how to actually order the items of the array if you want to!
 
 A lot of beginners just blindly take it on faith that `each` and `map` and `select` etc. all work the way they do.  You're more skeptical than that, which is good.  They're really quite simple and you'll get a chance to build your own soon enough.
 
@@ -1292,7 +1294,7 @@ When you create your own function to accept procs, the guts need to change a lit
 
 Most of the time, using a block is more than sufficient, especially in your early projects.  Once you start seeing the need for using a Proc (like passing multiple arguments or saving it for later as a callback), you'll have Procs there waiting for you.  
 
-Blocks and Procs are both a type of `closure`.  A closure is basically a formal, computer-science-y way of saying "a chunk of code that you can pass around but which hangs onto the variables that you gave it when you first called it".  It's the blanket term used to refer to blocks and Procs and...
+Blocks and Procs are both a type of `closure`  A closure is basically a formal, computer-science-y way of saying "a chunk of code that you can pass around but which hangs onto the variables that you gave it when you first called it".  It's the blanket term used to refer to blocks and Procs and...
 
 There are two other similar closure to be aware of but about which you don't need to be an expert because they're used in less typical applications.  The first of these is a **lambda**.  If Procs are sort of a more-fleshed-out version of blocks, then lambdas are sort of a more-fleshed-out version of Procs.  They are one step closer to being actual methods themselves, but still technically count as anonymous functions.  If you're coming from Javascript, anonymous functions shouldn't be anything new to you.
 
@@ -1300,7 +1302,7 @@ Just to focus on the differences between lambdas and Procs, a lambda acts more l
 * A lambda can return multiple things easily because you can safely use the explicit `return` statement inside of one (it will only return from the lambda and not the enclosing method, which is what happens if you use `return` inside a block or Proc).  
 * Lambdas are also much stricter than Procs about you passing them the correct number of arguments.
 
-Here's a simple example to show you the syntax of a lambda (btw, there's nothing special to lambdas about placing the `.call` after the `end`, if you hadn't seen that done before, it's just like method chaining):
+Here's a simple example to show you the syntax of a lambda (btw, there's nothing special to lambdas about placing the `call` after the `end`, if you hadn't seen that done before, it's just like method chaining):
 
     > lambda do |word| 
     >   puts word
@@ -1308,7 +1310,7 @@ Here's a simple example to show you the syntax of a lambda (btw, there's nothing
     > end.call("howdy! ")
     howdy! => "howdy! "        # not nil because we gave it a return
 
-The second additional closure is called a **Method** because, well, it's the closest of the four (blocks, Procs, lambdas, and Methods) to an actual method.  Which it is.  "Method"'s (capitalized because they're actually a class of their own) are really just a convenient way to pass a normal method to another normal method by wrapping the symbol of its name in the word `method()`.  So what? To use the same example as we have been so far:
+The second additional closure is called a **Method** because, well, it's the closest of the four (blocks, Procs, lambdas, and Methods) to an actual method.  Which it is.  "Method"'s (capitalized because they're actually a class of their own) are really just a convenient way to pass a normal method to another normal method by wrapping the symbol of its name in the word `method()`  So what? To use the same example as we have been so far:
 
     class Array
       def my_each(some_method)
@@ -1353,7 +1355,7 @@ Which of the resources were most helpful to getting you that "aha!" moment?
 #### Intro and Goals
 You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
 
-"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash`. That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
+"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash` That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
 
 In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you've seen before and you'll use again and again so our goal with this section is to get well acquainted with them.
 
@@ -1372,7 +1374,6 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 * When might you use `inject`?
 * How do you check if every item in a hash fulfills a certain criteria?
 * What about if none of the elements fulfill that criteria?
-* 
 
 #### Check These Out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
@@ -1380,7 +1381,7 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 #### A Brief Summary
 `Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
 
-`.each` is an iterator method you've seen plenty of times before now and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original object that it was called on:
+`each` is an iterator method you've seen plenty of times before now and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original object that it was called on:
 
     > [1,2,3].each { |num| print "#{num}! " }
     1! 2! 3! => [1,2,3]
@@ -1408,7 +1409,7 @@ What if I want to keep only the even numbers that are in an array?  The traditio
     > my_array.keep_evens
     => [2,4,6,8,100]
 
-That's too much code and too much hassle.  When all you're doing is pulling out, or *selecting*, certain items based on some criteria, you'd be better served using **`select`** instead.  It will run the block on every item of your object and return a new object that contains only those items for which the original block returned `true`:
+That's too much code and too much hassle.  When all you're doing is pulling out, or *selecting*, certain items based on some criteria, you'd be better served using **`select`** instead.  It will run the block on every item of your object (whether array or hash or whatever) and return a new object that contains only those items for which the original block returned `true`:
 
     > my_array.select{|item| item%2==0 }
     => [2,4,6,8,100]      # wow, that was easy.
@@ -1425,41 +1426,51 @@ Here's a theoretical example more like what you might see when you've got your o
     u = User.all
     @user_emails = u.map { |user| user.email }
 
-Up until now, all the methods we've seen run essentially independent operations on each element of our array or hash.  What if we want to do something that keeps track of the result as we iterate?  Like, say, summing up the elements of an array?  For that we need to use `inject` (aka `reduce`), which passes not just the element but the return of the previous iteration into the block.  You can specify the initial value or it will just default to the first item of the array.  It ultimately returns whatever the result of the last iteration is.  Here's a way to sum an array:
+You can also use these methods on hashes as well, just remember that now you have two inputs to work with for your block:
+
+    > my_hash = {"Joe" => "male", "Jim" => "male", "Patty" => "female"}
+    > my_hash.select{|name, gender| gender == "male" }
+    => {"Joe" => "male", "Jim" => "male"}
+
+**Enumerable Iterators Cheat Sheet**
+* **`each`** returns the original object it was called on because it's really used for its side effects and not what it returns
+    * **`each_with_index`** passes not just the current item but whatever position in the array it was located in.
+* **`select`** returns a new object (e.g. array) filled with only those original items where the block you gave it returned `true`
+* **`map`** returns a new array filled with whatever gets returned by the block each time it runs. 
+
+Up until now, all the methods we've seen run essentially independent operations on each element of our array or hash.  What if we want to do something that keeps track of the result as we iterate?  Like, say, summing up the elements of an array?  For that we need to use **`inject`** (aka `reduce`), which passes not just the element but the return of the previous iteration into the block.  You can specify the initial value or it will just default to the first item of the array.  It ultimately returns whatever the result of the last iteration is.  Here's a way to sum an array:
 
     > my_array.inject(0){|running_total, item| running_total + item }
     => 120
 
 **Some Other Handy Methods**
 Enumerable is a large bunch of methods and you'll only use a half-dozen of them regularly but there are some others that you should be familiar with as well.  The full list is available [in the docs here](http://ruby-doc.org/core-2.0/Enumerable.html).
-* **`.any?`** returns true/false (see the question mark?) and answers the question, "do ANY of the elements in this object pass the test in my block?".  If your block returns true on any time it runs, `.any?` will return true.
-* **`.all?`** returns true/false and answers the question, "do ALL the elements of this object pass the test in my block?".  Every time the block runs it must return true for this method to return true.
-* **`.none?`** returns true only if NONE of the elements in the object return true when the block is run.
+* **`any?`** returns true/false (see the question mark?) and answers the question, "do ANY of the elements in this object pass the test in my block?".  If your block returns true on any time it runs, `any?` will return true.
+* **`all?`** returns true/false and answers the question, "do ALL the elements of this object pass the test in my block?".  Every time the block runs it must return true for this method to return true.
+* **`none?`** returns true only if NONE of the elements in the object return true when the block is run.
+* **`find`** returns the first item in your object for which the block returns true.
 
+**Awesome but less common methods**
+* **`group_by`** will run your block and return a hash that groups all the different types of returns from that block.  For example:
+    
+    > names = ["James", "Bob", "Joe", "Mark", "Jim"]
+    > names.group_by{|name| name.length}
+    => {5=>["James"], 3=>["Bob", "Joe", "Jim"], 4=>["Mark"]} 
 
-Some technicalities -- .include? is enumerable and .sort too and .count
+* **`grep`** returns an array with those items that actualy match the specified criteria (RegEx) (using a `===` match)
 
+    > names.grep(/J/)
+    => ["James", "Joe", "Jim"]
 
-**Iterators Cheat Sheet**
-* `each` returns the original object it was called on because it's really used for its side effects and not what it returns
-    * `each_with_index` passes not just the current item but whatever position in the array it was located in.
-* `select` returns a new object (e.g. array) filled with only those original items where the block you gave it returned `true`.
-* `map` returns a new object (e.g. array) filled with whatever gets returned by the block each time it runs. 
+Finally, some of the methods you've already seen and use are part of Enumerable too -- `include?`, `sort`, `count`..
+
 
 ##### Exercises
 * Write code to find the total of each element of an array multiplied together
 * 
 
-### Writing Your Own Methods
 
-#### Intro and Goals
-#### Check These Out First
-#### A Brief Summary
-#### Additional Resources
-#### Exercises
 
-### Style
-https://github.com/bbatsov/ruby-style-guide
 
 ### Projects
 * Running Ruby scripts from the command line
@@ -1469,6 +1480,9 @@ https://github.com/bbatsov/ruby-style-guide
 
 Classes, inheritance (use .methods), OO design, refactoring, naming, recursion, scope, regex, Modules, metaprogramming (reflection?), shortcut syntax for map etc.
 http://www.codecademy.com/tracks/ruby for oop
+
+### Style
+https://github.com/bbatsov/ruby-style-guide
 
 ## Ruby and the Web
 
