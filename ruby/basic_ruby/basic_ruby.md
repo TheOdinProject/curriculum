@@ -1,4 +1,4 @@
-## Basic Ruby
+# Basic Ruby
 
 *[Top level table of contents](/README.md)*
 
@@ -6,8 +6,8 @@
 
 ## Table of Contents
 1. [Intro](#intro)
-2. [Basic Data Types and Other Basic Stuff](#basic-data-types-and-other-basic-stuff)
-3. [Objects and Methods](#objects-and-methods)
+2. [Numbers and Operators and Expressions](#numbers-and-operators-and-expressions)
+3. [Objects and Methods](objects-and-methods.md)
 4. [Strings](#strings)
 5. [Arrays](#arrays)
 6. [Hashes](#hashes)
@@ -19,23 +19,19 @@
 12. [Blocks, Procs, and other Closures](#blocks-procs-and-other-closures)
 13. [Enumerable](#enumerable)
 
-### Intro
+## Intro
 
-Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.  It's expected that you have a pretty good handle on the basics of the Ruby language and an idea of what you're still shaky on.
+Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.  It's expected that you have a pretty good handle on the basics of the Ruby language and an idea of what you're still shaky on. 
 
-In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  It's a lot of stuff... this section is going to have the most to absorb right off the bat.  If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.  
+In this section on Basic Ruby, we're going to make sure you really do understand all the building blocks of the language and of programming in general.  It's a lot of stuff... this section is going to have the most to absorb right off the bat.  That's because you first need to populate your developer's toolkit before we can build things.  Luckily, much of it will expand on familiar territory.  We'll start with basic data types and journey through flow control, iteration, blocks and enumerable methods.  
 
-### Basic Data Types and Other Basic Stuff
+If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.  
 
-Basic data types are the building blocks of computer programs. Understanding the basic data types and what you can do with them is like knowing your ABC's.  Get well acquainted with Numbers, Strings, Arrays, Hashes, Objects, Methods, and Dates/Times.  You're populating your developer's toolkit.
-
-The exercises should help you hone in on what things you understand well and which ones you need to dig deeper on.  The larger exercises towards the end will round things out a bit more wholistically.
-
-#### Numbers and Operators and Expressions
-##### Intro and Goals
+## Numbers and Operators and Expressions
+### Intro and Goals
 This is pretty straightforward stuff.  The goal here is to familiarize yourself with all basic data types and how they interact in arithmetic expressions
 
-##### Thought Questions
+### Thought Questions
 * What's the difference between an `Integer` and a `Float?`
 * Why should you be careful when converting back and forth between integers and floats?
 * What's the difference between `=`, `==`, and `===`?
@@ -45,12 +41,12 @@ This is pretty straightforward stuff.  The goal here is to familiarize yourself 
 * What's the difference between `(1..3)` and `(1...3)`?
 * What are three ways to create a range?
 
-##### Do These First
+### Check These Out First
 * Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html)
 * Read [Learn to Program Chapter 1](http://pine.fm/LearnToProgram/?Chapter=01) (You should already have completed this)
 * Read [http://rubylearning.com/satishtalim/numbers_in_ruby.html](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
 
-##### A Brief Summary
+### A Brief Summary
 
 When doing mathematical operations, Ruby expects the result to be the same type as the inputs, so dividing two integers by each other will produce an integer... whether you want to or not:
 
@@ -99,22 +95,23 @@ This also works for checking whether some object is an instance of a class:
 See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby](http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby) for a more detailed explanation.
 
 
-##### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* Play around in IRB and just try multiplying and dividing and equating and comparing things to each other.  Be creative until you have a good handle on things.
-* 
+1. Play around in IRB and just try multiplying and dividing and equating and comparing things to each other.  Be creative until you have a good handle on things.
+2. TODO
 
-##### Additional Resources
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-#### Objects and Methods
-##### Intro and Goals
+* Add Here!
+
+## Objects and Methods
+### Intro and Goals
 "Everything in Ruby is an Object" is something you'll hear rather frequently.  "Pretty much everything else is a method" could also be said.  The goal here is for you to see the Matrix... that everything in Ruby is an Object, every object has a class, and being a part of that class gives the object lots of cool methods that it can use to ask questions or do things.  Being incredibly object-oriented gives Ruby lots of power and makes your life easier.
 
 Hopefully you've already picked most of this up from the prep-work.
 
-##### Thought Questions
+### Thought Questions
 * What is an object?
 * What is a class?
 * What is a method?
@@ -133,10 +130,10 @@ Hopefully you've already picked most of this up from the prep-work.
 * What are default inputs?
 * What does `self` mean?
 
-##### Do These First
+### Check These Out First
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
 
-##### A Brief Summary
+### A Brief Summary
   
 Think of every "thing" in Ruby as a having more than meets the eye. The number `12` is more than just a number... It's an **object*** and Ruby lets you do all kinds of interesting things to it like adding and multiplying and asking it questions like `> 12.class` or `> 12+3`
 
@@ -203,21 +200,23 @@ What if you want to assume that the input to a method is a particular value if t
     shhhhh
     => nil
 
-##### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-##### Additional Resources
+1. TODO
+
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-#### Strings
-##### Intro and Goals
+* Add Here!
+
+## Strings
+### Intro and Goals
 Strings are a huge part of web programming and you'll run into them everywhere from variable names to user input to giant gobs of HTML text to handling big dictionary files.  They're actually pretty simple at the core but, for being just a jumble of characters, strings have some pretty cool properties in Ruby and you can do a whole lot to manipulate them.  
 
 This section should give you an appreciation for the ways you can mess with strings and some of the handy methods that Ruby gives you along the way to make your life easier.
 
-##### Thought Questions
+### Thought Questions
 * What's the difference between single and double quotes?
 * What is string interpolation?
 * What are escape characters?
@@ -233,13 +232,13 @@ This section should give you an appreciation for the ways you can mess with stri
 * How is a symbol different from a string?
 * What is a Regular Expression (RegEx)?
 
-##### Check These Out First
+### Check These Out First
 * [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
 * A list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby
 * Read through (and watch the video) for this [Regular Expressions in Ruby](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-regular-expressions/) explanation.
 * A great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
 
-##### A Brief Summary
+### A Brief Summary
 Strings are just made up of individual characters and denoted with quotes.  `> I confuse Ruby and probably throw an error` but `> "I do not because I have quotes"`  
 
 **Double Quotes** are often interchangeable with **Single Quotes**... there's almost no difference and you're free to use either.  Two cases make the distinction important:
@@ -390,21 +389,23 @@ But sometimes all you want is a name, like when you're using a hash key.  In tha
 
 While you're learning, just stick with strings until you see the examples using symbols, which will mostly be with hash keys.
 
-##### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* TODO: IRB reversing, shouting stuff, find the ith letter...
 
-##### Additional Resources
+1. TODO: IRB reversing, shouting stuff, find the ith letter...
+
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-#### Arrays
-##### Intro and Goals
+* Add Here!
+
+## Arrays
+### Intro and Goals
 We saw how strings are a lot like arrays... so it's probably a good time to dive into what arrays are and how flexible they are in Ruby.  Arrays are almost as ubiquitous as strings.  You'll be working with them all the time to help store data for you, everything from the names of all your users to coordinates on a game board.  An array is an all-purpose bucket into which you can put pretty much anything.
 
 Here, you'll learn the basics of creating arrays, how to manipulate them in a dozen different ways, and some best practices for working with arrays.  Note that we'll be learning even more about how to dig around inside of arrays in the future section on iterators, so if you're excitedly waiting to better understand .each, .map and others like them, we're almost there!  If not... you will be.
 
-##### Thought Questions
+### Thought Questions
 * What are three ways to create an array?
 * How do you prepopulate the array with default data?
 * How do you access items in an array?
@@ -428,11 +429,11 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 * What are the naming conventions for arrays?
 * What should you store in arrays?
 
-##### Check These Out First
+### Check These Out First
 * Do [Codecademy's section on arrays](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1) for some practice with them
 
 
-##### A Brief Summary
+### A Brief Summary
 
 Arrays begin life as empty containers waiting to be filled with objects or data.  As items are added, they stay in whatever spot you put them, which is good because then you know exactly where to find them later.  You can put anything in an array!  Numbers, strings, objects, symbols, haikus...
 
@@ -599,20 +600,22 @@ Remember how we could create a new array and fill it up with stuff using `Array.
     > Array.new(5){|item_index| item_index ** 2}
     => [0, 1, 4, 9, 16]    # It squared each index to populate the array!
 
-##### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-##### Additional Resources
+1. TODO
+
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-#### Hashes
-##### Intro and Goals
+* Add Here!
+
+## Hashes
+### Intro and Goals
 
 Hashes may be a bit intimidating at first but they're actually pretty similar to arrays.  They're basically just containers for data, like arrays, but instead of storing data based on a numeric indices, you use "keys" which can be strings or symbols.  This makes hashes more appropriate for storing data with a bit more depth to it.
 
-##### Thought Questions
+### Thought Questions
 * What is a hash?
 * What are keys and values?
 * How is a hash similar to an Array?
@@ -628,13 +631,13 @@ Hashes may be a bit intimidating at first but they're actually pretty similar to
 * How do you see if the hash contains a key or value?
 * What is a set?
 
-##### Check These Out First
+### Check These Out First
 * [Treehouse's intro to Hashes video](http://www.youtube.com/watch?v=NvXeDtKkXq8), and don't worry about the awesome_print gem, it's not required.
 * [Codecademy's section on Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/1/1) for the basics.
 * [Codecademy's hashes and symbols section](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw) to bring together what we talked about in the strings section.
 * Go back and do [Ruby Monk's Hashes section](http://rubymonk.com/learning/books/1/chapters/10-hashes-in-ruby/lessons/46-introduction-to-ruby-hashes) if you didn't do it during the Web Dev 101 section.  Shame on you for not doing it before >:o
 
-##### A Brief Summary
+### A Brief Summary
 
 A *Hash* is just a container for data where each piece of data is mapped to a *Key*.  The data is called the *Value*.  Keys can be either strings or symbols. Values can be anything, just like with arrays.  A hash looks almost like an array, but with squiggly braces `{}` instead of hard ones `[]`  There's no order to a hash (unlike an array)... you're accessing your data using strings anyway so it doesn't matter which order they're in.
 
@@ -706,17 +709,17 @@ If you want to know what **All the Keys** are (more common) or **All the Values*
 
 A simpler kind of hash is called a **Set**, and it's just a hash where all the values are either True or False.  It's useful because your computer can search more quickly through this than an array trying to store the same information due to the way it's set up behind the scenes.  You'll encounter them in some of the exercises later.
 
-##### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-##### Additional Resources
+1. TODO
+
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
+* Add Here!
 
-
-#### Numbers, Strings and Arrays and Hashes Exercises (Paired)
+## Numbers, Strings and Arrays and Hashes Exercises (Paired)
 * sort
 * reverse
 * 
@@ -725,15 +728,15 @@ A simpler kind of hash is called a **Set**, and it's just a hash where all the v
 
 
 
-#### Dates and Times
-##### Intro and Goals
+## Dates and Times
+### Intro and Goals
 When you're building a website, you'll inevitably come into contact with dates and times.  When was that submitted?  Show only posts created after this time.  How long has that user been registered?
 
 All languages have conventions for how they keep track of dates and times and, of course, Ruby is no different... just a bit easier than the rest.  In general, computers keep track of time in terms of seconds since a specified point in time.  Someone decided a long time ago that Time shall begin at midnight on January 1st, 1970, and so that's typically the "0th" second.
 
 Ruby uses the `Time` class to let you work with dates and times, giving you some handy methods to find out about specific parts (like what day of the week it is) and to allow you to display them in a user-friendly fashion.  You probably won't need to dive too deeply into this stuff until you start working with Rails but you do need to understand the basics (as laid out below).
 
-##### Thought Questions
+### Thought Questions
 * How do you get the current date and time?
 * How do you find just the Year?  Month? Hour? Second? Weekday?
 * How do you create a `Time` specifically for 12/25/2013?  
@@ -742,10 +745,10 @@ Ruby uses the `Time` class to let you work with dates and times, giving you some
 * How would you find out the time that was 100 seconds ago? 10 days ago?
 * TODO: Datetime
 
-##### Check These Out First
+### Check These Out First
 * The [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
 
-##### A Brief Summary
+### A Brief Summary
 To **Get Current Time** you just create a new `Time` object with no parameters or use `Time.now`, which is the same thing:
 
     > Time.new
@@ -812,21 +815,23 @@ Back to the point, the `-0800` above says that we created a new time for midnigh
 
 Use `localtime` to display the `Time` object in whatever your local system time is (if it was created in UTC it will be different).
 
-##### Exercises (in IRB)
+### Exercises (in IRB)
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* How many days until your birthday?
-* How many days, hours, minutes, and seconds until Christmas?
-* Display `"January 10, 2001 10:00AM"` in IRB
+1. How many days until your birthday?
+2. How many days, hours, minutes, and seconds until Christmas?
+3. Display `"January 10, 2001 10:00AM"` in IRB
+4. TODO
 
-##### Additional Resources
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-#### Miscellaneous Issues
-##### Intro and Goals
+* Add Here!
+
+## Miscellaneous Issues
+### Intro and Goals
 Here are some useful things that don't really fit nicely into another section.
 
-##### Thought Questions
+### Thought Questions
 * What is `nil`?
 * How do you check if something is `nil`?
 * What's the difference between `nil` and `blank` and `empty`?
@@ -838,11 +843,11 @@ Here are some useful things that don't really fit nicely into another section.
 * What is parallel assignment?
 * What's the easiest way to swap two variables?
 
-##### Check These Out First
+### Check These Out First
 * [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
 * [p vs puts in Ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
 
-##### A Brief Summary
+### A Brief Summary
 So **What is `nil`?** It represents nothing... literally.  Before you assign a value to something, it starts as `nil`, for instance an item in an array or a variable:
     
     > my_arr = []
@@ -901,18 +906,20 @@ It's also a great way to **Swap Two Variables**:
     > b
     => 10
 
-##### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-##### Additional Resources
+1. TODO 
+
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-#### Tutorial
+* Add Here!
+
+## Tutorial
 TODO
 
-#### Exercises (Paired) >> PUT LATER AFTER METHODS / BLOCKS!
+## Exercises (Paired) >> PUT LATER AFTER METHODS / BLOCKS!
 * Rewrite the following methods from Enumerable.  You may not use the real method... which should be obvious.  You MAY use #each in the following methods once you've created it yourself the first time:
     * #each
     * #each_with_index
@@ -920,11 +927,11 @@ TODO
     * #select
 TODO
 
-### Conditionals and Flow Control
-#### Intro and Goals
+## Conditionals and Flow Control
+### Intro and Goals
 Now you've got an understanding of what tools you can use and it's time to start thinking about how the Ruby interpreter moves through your code. Sometimes you want to execute a certain chunk of code, other times you don't.  In this section, you'll see the different ways of controlling the flow of your program.
 
-#### Thought Questions
+### Thought Questions
 * What is a "boolean"?
 * What are "truthy" values?
 * Are `nil`, `0`, `"0"`, `""`, `1`, `[]`, `{}` and `-1` considered true or false?
@@ -939,12 +946,12 @@ Now you've got an understanding of what tools you can use and it's time to start
 * When should you use a `case` statement?
 
 
-##### Check These Out First
+#### Check These Out First
 * Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
 * Do the [Codecademy Control Flow Course (all sections)](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 
-##### A Brief Summary
+#### A Brief Summary
 
 You'll need to understand which types of things Ruby considers "true" and which ones it considers "false".  **"Truthiness" and "Falsiness"** are ways of saying "what evaluates to true?"" and "what evaluates to false"?  In many languages, there is some nuance to that question.  In Ruby, it's simple: `nil` and `false` are false and that's it.  Everything else is "truthy".
 
@@ -1037,31 +1044,33 @@ You can nest `if` statements inside one another but sometimes it gets a little c
     else
         puts "You're only supposed to have energy of 1,2 or 3..."
 
-##### Additional Resources
+#### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* [||= on Stack Overflow](http://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
-* 
 
-##### Exercises
+* Add Here!
+* [||= on Stack Overflow](http://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
+
+#### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
+
 1. TODO: What will these return? (check using IRB)
     * true/false
     * actual returns
 
-### Iteration
+## Iteration
 
-#### Intro and Goals
+### Intro and Goals
 
 You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again manually.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
 
 You should understand the basic iterators `for` and `while` and understand how to use `each` and `times`  We'll talk more about blocks and the other Ruby iterators like `map` and `select` in the next sections, so it should be more obvious how `each` and `times` work after reading that.
 
-#### Do This First
+### Do This First
 * [Codecademy's loops track](http://www.codecademy.com/courses/ruby-beginner-en-XYcN1)
 * [Codecademy's loops 'project'](http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6/0/1)
 * If you want a bit more, check out [Skork's entry on Ruby looping and iterators](http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/)
 
-#### Thought Questions
+### Thought Questions
 * What does `loop` do?
 * What are the two ways to denote a block of code?
 * How do you print out each item of a simple array `[1,3,5,7]` with:
@@ -1076,7 +1085,7 @@ You should understand the basic iterators `for` and `while` and understand how t
 * How would you start the loop over again?
 * What are the (basic) differences between situations when you would use `while` vs `times` vs `each`?
 
-#### A Brief Summary
+### A Brief Summary
 **`loop`** is the most basic way to loop in Ruby and it's not used all that much because the other ways to loop are much sexier.  `loop` takes a block of code, denoted by either `{ ... }` or `do ... end` (if it's over multiple lines).  It will keep looping until you tell it to stop using a `break` statement:
 
     > loop { puts "this will not stop until you press CTRL+c" }
@@ -1138,21 +1147,23 @@ Because you may want some additional control over your loops, use these statemen
 * `retry` works on most loops (not `while` or `until`) similarly to `redo` but it *will* re-evaluate the condition before running through the loop again (hence *try* instead of *do*).
 * NOTE: Do NOT use `return` to exit a loop, since that will exit the whole method that contains it as well!
 
-#### Additional Resources
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
+
 * A lecture by Avi Flombaum on [iteration in Ruby](http://flatironschool.s3.amazonaws.com/lectures/iteration.study.mov) that shows you the nuts and bolts of it (esp. starting minute 16), including some of Khan Academy's new visualizations.  Solid stuff.
-* 
+* Add Here!
 
-#### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-### Writing your Own Methods
+1. TODO
 
-#### Intro and Goals
+## Writing your Own Methods
+
+### Intro and Goals
 You've been using methods since square one and writing your own as well so we'll focus on the essentials and the slightly more advanced stuff in this section, including how you actually run your code without needing to use IRB and some more stylistic issues that come up frequently.
 
-#### Thought Questions
+### Thought Questions
 * How many things should a method do?
 * What should you name a method?
 * What does `self` mean?
@@ -1165,9 +1176,10 @@ You've been using methods since square one and writing your own as well so we'll
 * What does `send` do?
 * When would `send` be used that's different from just running the method on an object 'normally'?
 
-#### Do These First
+### Check These Out First
+* TODO
 
-#### A Brief Summary
+### A Brief Summary
 What should you put into methods?  Pretty much everything should be in a method, but **each method should only do ONE thing**.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.
 
 Methods help organize your code by keeping you from repeating yourself.  Anything that you find yourself doing repetetively should probably go in its own method.
@@ -1211,24 +1223,30 @@ TODO require/include in IRB
 
 One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call ............ TODO
 
-#### Additional Resources
+### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
+
+* Add Here!
+
+### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
 
 
-### Blocks, Procs, and Other Closures
+1. TODO  
 
-#### Intro and Goals
+## Blocks, Procs, and Other Closures
+
+### Intro and Goals
 One of the most confusing parts of learning basic Ruby (until your AHA! moment) is understanding what blocks are and how they work, mostly because it's something you probably haven't ever seen before.  It shouldn't be, because they're actually pretty simple.  You've already seen them before, whether it's using them yourself during the prep work or most recently in the section on iteration, where they came up as inputs to some of the iterators.  
 
 Here, you'll learn more about blocks and also about their lessor known cousins, Procs, lambdas and Methods.  By the end, you should be comfortable working with blocks and writing your own methods that take them.  You should understand when you may need to use a Proc instead and the basics of why the other two -- lambdas and Methods -- .
 
-#### Do These First
+### Check These Out First
 * [Codecademy's Methods and Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU)
 * [Codecademy's deeper dive into Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI)
 * [Understanding Blocks Procs and Lambdas](http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 
-#### Thought Questions
+### Thought Questions
 * How is a block like a function?
 * How is a block different from a function?
 * What are the two ways to declare a block?
@@ -1246,7 +1264,7 @@ Here, you'll learn more about blocks and also about their lessor known cousins, 
 * What is a Method (capital "M")?
 * What do Methods basically allow you to do that could probably be pretty interesting when you're writing some more advanced programs later on?
 
-#### A Brief Summary
+### A Brief Summary
 Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called anonymous functions because they have no name but behave much like functions.  They're like little helper functions... you don't find blocks just hanging around without some method (like `each`) using them.  
 
 You **declare a block** using squiggly braces `{}` if it's on one line or `do ... end` if it's on multiple lines (by convention... you can use either one if you really want):
@@ -1361,28 +1379,31 @@ So...
 * **Closure** is just the umbrella term for all four of those things, which all somehow involve passing around chunks of code.
 
 
-#### Additional Resources 
+### Additional Resources 
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
+
 * [Procs, Lambdas and Closures in Ruby by Peter Cooper (video)](http://www.youtube.com/watch?v=VBC-G6hahWA)
 * [Blocks vs procs vs lambdas free screencast](http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas)
 * [Blocks explained by Alex Chaffee (video)](http://codelikethis.com/lessons/ruby_blocks/blocks)
+* Add Here!
 
 Which of the resources were most helpful to getting you that "aha!" moment?
 
-#### Exercises
+### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* TODO: use blocks and procs
+
+1. TODO: use blocks and procs
 
 
-### Enumerable
-#### Intro and Goals
+## Enumerable
+### Intro and Goals
 You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
 
 "Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash` That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
 
 In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you've seen before and you'll use again and again so our goal with this section is to get well acquainted with them.
 
-#### Thought Questions
+### Thought Questions
 * What is a module?
 * Why are modules useful?
 * What does `each` do? 
@@ -1398,10 +1419,10 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 * How do you check if every item in a hash fulfills a certain criteria?
 * What about if none of the elements fulfill that criteria?
 
-#### Check These Out First
+### Check These Out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
 
-#### A Brief Summary
+### A Brief Summary
 `Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
 
 `each` is an iterator method you've seen plenty of times before now and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original object that it was called on:
@@ -1488,15 +1509,16 @@ Enumerable is a large bunch of methods and you'll only use a half-dozen of them 
 Finally, some of the methods you've already seen and use are part of Enumerable too -- `include?`, `sort`, `count`..
 
 
-##### Exercises
+#### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-* Write code to find the total of each element of an array multiplied together
-* 
+1. Write code to find the total of each element of an array multiplied together
+2. TODO 
 
-##### Additional Resources
+#### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
-* 
 
-### Projects
+* Add Here!
+
+## Projects
 * Running Ruby scripts from the command line
 * TODO
