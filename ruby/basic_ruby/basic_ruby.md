@@ -17,7 +17,7 @@ If there's something that you still just don't quite understand, track it down v
 
 ## Part 1: Data Types
 2. [Numbers and Operators and Expressions](numbers_operators_expressions.md)
-3. [Objects and Methods](objects-and-methods.md)
+3. [Objects and Methods](objects_and_methods.md)
 4. [Strings](strings.md)
 5. [Arrays](arrays.md)
 6. [Hashes](hashes.md)
