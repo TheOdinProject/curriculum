@@ -42,7 +42,12 @@ The goal here is to provide as much of this curriculum as possible using free re
 6. Basic Data Structures
 7. Basic Algorithms
 8. Final Projects
-9. Finish
+
+## Finish
+
+## Additional Resources
+
+* [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
 
 ********************* WORK IN PROGRESS SECTION *******************
 
@@ -146,11 +151,6 @@ http://betterspecs.org
 
 ## Final Projects
 
-## Finish
-
-## Additional Resources
-
-* [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
 
 
 
