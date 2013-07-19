@@ -123,6 +123,10 @@ This also works for checking whether some object is an instance of a class:
 
 See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby](http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby) for a more detailed explanation.
 
+##### Additional Resources
+* Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md)
+* 
+
 ##### Exercises
 * Play around in IRB and just try multiplying and dividing and equating and comparing things to each other.  Be creative until you have a good handle on things.
 
