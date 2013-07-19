@@ -1,5 +1,24 @@
 ## Basic Ruby
 
+*[Top level table of contents](/README.md)*
+
+*[Ruby table of contents](/ruby/ruby.md#table-of-contents)*
+
+## Table of Contents
+1. [Intro](#intro)
+2. [Basic Data Types and Other Basic Stuff](#basic-data-types-and-other-basic-stuff)
+3. [Objects and Methods](#objects-and-methods)
+4. [Strings](#strings)
+5. [Arrays](#arrays)
+6. [Hashes](#hashes)
+7. [Dates and Times](#dates-and-times)
+8. [Miscellaneous Issues](#miscellaneous-issues)
+9. [Conditionals and Flow Control](#conditionals-and-flow-control)
+10. [Iteration](#iteration)
+11. [Writing your own Methods](#writing-your-own-methods)
+12. [Blocks, Procs, and other Closures](#blocks-procs-and-other-closures)
+13. [Enumerable](#enumerable)
+
 ### Intro
 
 Ruby shouldn't be anything new to you by now... you should have completed the preparatory readings, Ruby Monk, and the test-first exercises as part of the [Ruby 101 section of the Web Development 101 Unit](/web_development_basics/web_development_basics.md#ruby-101) that you completed prior to jumping into this.  If you haven't, go back and work on that before getting started here.  It's expected that you have a pretty good handle on the basics of the Ruby language and an idea of what you're still shaky on.
@@ -13,7 +32,7 @@ Basic data types are the building blocks of computer programs. Understanding the
 The exercises should help you hone in on what things you understand well and which ones you need to dig deeper on.  The larger exercises towards the end will round things out a bit more wholistically.
 
 #### Numbers and Operators and Expressions
-##### Goals
+##### Intro and Goals
 This is pretty straightforward stuff.  The goal here is to familiarize yourself with all basic data types and how they interact in arithmetic expressions
 
 ##### Thought Questions
@@ -1197,7 +1216,7 @@ One nifty command that you probably haven't had a chance to run into yet is **`s
 * 
 
 
-### Blocks, Procs, and Lambdas
+### Blocks, Procs, and Other Closures
 
 #### Intro and Goals
 One of the most confusing parts of learning basic Ruby (until your AHA! moment) is understanding what blocks are and how they work, mostly because it's something you probably haven't ever seen before.  It shouldn't be, because they're actually pretty simple.  You've already seen them before, whether it's using them yourself during the prep work or most recently in the section on iteration, where they came up as inputs to some of the iterators.  
