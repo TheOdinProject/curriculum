@@ -1,6 +1,6 @@
 # The Odin Project: Curriculum
 
-### The Open and Responsive Curriculum for Learning Web Development
+### The Open Curriculum for Learning Web Development
 
 The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to acquire a job-ready skillset.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
 
