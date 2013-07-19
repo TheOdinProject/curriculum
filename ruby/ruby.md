@@ -125,10 +125,12 @@ See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-rub
 
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * Play around in IRB and just try multiplying and dividing and equating and comparing things to each other.  Be creative until you have a good handle on things.
+* 
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 #### Objects and Methods
@@ -227,9 +229,11 @@ What if you want to assume that the input to a method is a particular value if t
     => nil
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 #### Strings
@@ -412,10 +416,11 @@ But sometimes all you want is a name, like when you're using a hash key.  In tha
 While you're learning, just stick with strings until you see the examples using symbols, which will mostly be with hash keys.
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * TODO: IRB reversing, shouting stuff, find the ith letter...
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 #### Arrays
@@ -620,9 +625,11 @@ Remember how we could create a new array and fill it up with stuff using `Array.
     => [0, 1, 4, 9, 16]    # It squared each index to populate the array!
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 #### Hashes
@@ -725,9 +732,11 @@ If you want to know what **All the Keys** are (more common) or **All the Values*
 A simpler kind of hash is called a **Set**, and it's just a hash where all the values are either True or False.  It's useful because your computer can search more quickly through this than an array trying to store the same information due to the way it's set up behind the scenes.  You'll encounter them in some of the exercises later.
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 
@@ -829,12 +838,13 @@ Back to the point, the `-0800` above says that we created a new time for midnigh
 Use `localtime` to display the `Time` object in whatever your local system time is (if it was created in UTC it will be different).
 
 ##### Exercises (in IRB)
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * How many days until your birthday?
 * How many days, hours, minutes, and seconds until Christmas?
 * Display `"January 10, 2001 10:00AM"` in IRB
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 #### Miscellaneous Issues
@@ -917,9 +927,11 @@ It's also a great way to **Swap Two Variables**:
     => 10
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 #### Tutorial
@@ -1051,11 +1063,12 @@ You can nest `if` statements inside one another but sometimes it gets a little c
         puts "You're only supposed to have energy of 1,2 or 3..."
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * [||= on Stack Overflow](http://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
 * 
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
 1. TODO: What will these return? (check using IRB)
     * true/false
     * actual returns
@@ -1151,11 +1164,13 @@ Because you may want some additional control over your loops, use these statemen
 * NOTE: Do NOT use `return` to exit a loop, since that will exit the whole method that contains it as well!
 
 #### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * A lecture by Avi Flombaum on [iteration in Ruby](http://flatironschool.s3.amazonaws.com/lectures/iteration.study.mov) that shows you the nuts and bolts of it (esp. starting minute 16), including some of Khan Academy's new visualizations.  Solid stuff.
 * 
 
 #### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 ### Writing your Own Methods
 
@@ -1222,7 +1237,7 @@ TODO require/include in IRB
 One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call ............ TODO
 
 #### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 
@@ -1372,7 +1387,7 @@ So...
 
 
 #### Additional Resources 
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * [Procs, Lambdas and Closures in Ruby by Peter Cooper (video)](http://www.youtube.com/watch?v=VBC-G6hahWA)
 * [Blocks vs procs vs lambdas free screencast](http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas)
 * [Blocks explained by Alex Chaffee (video)](http://codelikethis.com/lessons/ruby_blocks/blocks)
@@ -1380,6 +1395,7 @@ So...
 Which of the resources were most helpful to getting you that "aha!" moment?
 
 #### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * TODO: use blocks and procs
 
 
@@ -1498,11 +1514,12 @@ Finally, some of the methods you've already seen and use are part of Enumerable 
 
 
 ##### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * Write code to find the total of each element of an array multiplied together
 * 
 
 ##### Additional Resources
-* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+*Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 ### Projects
