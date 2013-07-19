@@ -123,12 +123,13 @@ This also works for checking whether some object is an instance of a class:
 
 See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby](http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby) for a more detailed explanation.
 
-##### Additional Resources
-* Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md)
-* 
 
 ##### Exercises
 * Play around in IRB and just try multiplying and dividing and equating and comparing things to each other.  Be creative until you have a good handle on things.
+
+##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 #### Objects and Methods
 ##### Intro and Goals
@@ -226,7 +227,10 @@ What if you want to assume that the input to a method is a particular value if t
     => nil
 
 ##### Exercises
+
 ##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 #### Strings
 ##### Intro and Goals
@@ -410,7 +414,9 @@ While you're learning, just stick with strings until you see the examples using 
 ##### Exercises
 * TODO: IRB reversing, shouting stuff, find the ith letter...
 
-See Below
+##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
 
 #### Arrays
 ##### Intro and Goals
@@ -615,6 +621,10 @@ Remember how we could create a new array and fill it up with stuff using `Array.
 
 ##### Exercises
 
+##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
+
 #### Hashes
 ##### Intro and Goals
 
@@ -716,12 +726,18 @@ A simpler kind of hash is called a **Set**, and it's just a hash where all the v
 
 ##### Exercises
 
+##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
+
+
+
 #### Numbers, Strings and Arrays and Hashes Exercises (Paired)
 * sort
 * reverse
 * 
 * towers of hanoi
-* 
+* TODO
 
 
 
@@ -817,6 +833,10 @@ Use `localtime` to display the `Time` object in whatever your local system time 
 * How many days, hours, minutes, and seconds until Christmas?
 * Display `"January 10, 2001 10:00AM"` in IRB
 
+##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
+
 #### Miscellaneous Issues
 ##### Intro and Goals
 Here are some useful things that don't really fit nicely into another section.
@@ -898,7 +918,12 @@ It's also a great way to **Swap Two Variables**:
 
 ##### Exercises
 
+##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
+
 #### Tutorial
+TODO
 
 #### Exercises (Paired) >> PUT LATER AFTER METHODS / BLOCKS!
 * Rewrite the following methods from Enumerable.  You may not use the real method... which should be obvious.  You MAY use #each in the following methods once you've created it yourself the first time:
@@ -906,11 +931,9 @@ It's also a great way to **Swap Two Variables**:
     * #each_with_index
     * #map
     * #select
-    * 
+TODO
 
 ### Conditionals and Flow Control
-
-
 #### Intro and Goals
 Now you've got an understanding of what tools you can use and it's time to start thinking about how the Ruby interpreter moves through your code. Sometimes you want to execute a certain chunk of code, other times you don't.  In this section, you'll see the different ways of controlling the flow of your program.
 
@@ -1028,6 +1051,7 @@ You can nest `if` statements inside one another but sometimes it gets a little c
         puts "You're only supposed to have energy of 1,2 or 3..."
 
 ##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * [||= on Stack Overflow](http://stackoverflow.com/questions/995593/what-does-or-equals-mean-in-ruby)
 * 
 
@@ -1127,7 +1151,9 @@ Because you may want some additional control over your loops, use these statemen
 * NOTE: Do NOT use `return` to exit a loop, since that will exit the whole method that contains it as well!
 
 #### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * A lecture by Avi Flombaum on [iteration in Ruby](http://flatironschool.s3.amazonaws.com/lectures/iteration.study.mov) that shows you the nuts and bolts of it (esp. starting minute 16), including some of Khan Academy's new visualizations.  Solid stuff.
+* 
 
 #### Exercises
 
@@ -1196,6 +1222,7 @@ TODO require/include in IRB
 One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call ............ TODO
 
 #### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * 
 
 
@@ -1345,6 +1372,7 @@ So...
 
 
 #### Additional Resources 
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
 * [Procs, Lambdas and Closures in Ruby by Peter Cooper (video)](http://www.youtube.com/watch?v=VBC-G6hahWA)
 * [Blocks vs procs vs lambdas free screencast](http://www.rubytapas.com/episodes/36-Blocks-Procs-and-Lambdas)
 * [Blocks explained by Alex Chaffee (video)](http://codelikethis.com/lessons/ruby_blocks/blocks)
@@ -1473,8 +1501,13 @@ Finally, some of the methods you've already seen and use are part of Enumerable 
 * Write code to find the total of each element of an array multiplied together
 * 
 
+##### Additional Resources
+* *Have you run across anything that's really helpful for learning this?  Add it here!  You can see how in our [section on How to Contribute](/contributing.md).*
+* 
+
 ### Projects
 * Running Ruby scripts from the command line
+* TODO
 
 
 ## Intermediate Ruby
@@ -1486,8 +1519,8 @@ Finally, some of the methods you've already seen and use are part of Enumerable 
 * https://github.com/bbatsov/ruby-style-guide
 
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ### Classes, Modules and Inheritance
 #### Intro and Goals
@@ -1507,48 +1540,48 @@ Finally, some of the methods you've already seen and use are part of Enumerable 
 * Codecademy's [OOP II Project](http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1)
 
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ### Designing Good Code
 #### Intro and Goals
 #### Thought Questions
 #### Do These First
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ### Debugging your Code
 #### Intro and Goals
 #### Thought Questions
 #### Do These First
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ### Refactoring your Code
 #### Intro and Goals
 #### Thought Questions
 #### Do These First
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ### Scope of Variables
 #### Intro and Goals
 #### Thought Questions
 #### Do These First
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ### Recursion
 #### Intro and Goals
 #### Thought Questions
 #### Do These First
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ### Additional Topics
 #### Intro and Goals
@@ -1559,8 +1592,8 @@ Finally, some of the methods you've already seen and use are part of Enumerable 
 
 #### Do These First
 #### A Brief Summary
-#### Additional Resources
 #### Exercises
+#### Additional Resources
 
 ## Ruby and the Web
 
