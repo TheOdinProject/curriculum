@@ -143,6 +143,12 @@ So...
 * **Closure** is just the umbrella term for all four of those things, which all somehow involve passing around chunks of code.
 
 
+### Exercises
+*Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
+
+1. TODO: use blocks and procs
+
+
 ### Additional Resources 
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
@@ -152,9 +158,3 @@ So...
 * Add Here!
 
 Which of the resources were most helpful to getting you that "aha!" moment?
-
-### Exercises
-*Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
-
-1. TODO: use blocks and procs
-
