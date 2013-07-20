@@ -228,11 +228,13 @@ What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of
 jQuery will let you take your javascript knowledge and start really diving into your webpages and messing with the elements.  
 
 ##### Assignment:
-1. Learn about jQuery by doing [Codecademy's jQuery Section 1](http://www.codecademy.com/tracks/jquery)("Introducing jQuery") and [Code School's try jQuery](http://try.jquery.com/).  The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
+1. Learn about jQuery by doing [Codecademy's jQuery Section 1](http://www.codecademy.com/tracks/jquery)("Introducing jQuery")
+2. ... and [Code School's try jQuery](http://try.jquery.com/).  
+2. The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took (whether just the section 1 or the whole thing) so we can let others know!
 
-TODO: Javascript/jQuery walkthrough video
+TODO: A video where a dev walks through some existing Javascript/jQuery code and explains how it works and why it's set up the way it is.
 
 ##### Additional Resources
 * Suggest some!
