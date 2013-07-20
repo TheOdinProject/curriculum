@@ -38,7 +38,9 @@ DONE Fix navbar upon narrow window to not get pushed lower due to body top paddi
 DONE Set up default Gravatar
 DONE Put logo image into logo text
 DONE Put logo image into favicon
+DONE Display timezone that calendar is currently in!
 * Check timezone compatability
+* Loading icon.
 
 
 **********************  General Sandbox  ****************************

@@ -137,7 +137,13 @@
             disableDragging: false,
             eventResize: updateEvent
           });
+
+          // Add the time zone to the calendar
+          var currentTZ = jstz.determine().name();
+          var currentOffset = new Date().getTimezoneOffset()/60*(-1);
+          $("td.fc-header-right").append("<div id='time_zone'>" + currentTZ + " ( GMT" + currentOffset + " )</div>" );
         });
+
 
 
         // Open a modal window that displays the event's info
