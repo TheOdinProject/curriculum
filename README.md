@@ -39,8 +39,8 @@ DONE Set up default Gravatar
 DONE Put logo image into logo text
 DONE Put logo image into favicon
 DONE Display timezone that calendar is currently in!
-* Check timezone compatability
-* Loading icon.
+DONE Check timezone compatability
+DONE AJAX Loading icon
 
 
 **********************  General Sandbox  ****************************

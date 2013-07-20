@@ -141,7 +141,14 @@
           // Add the time zone to the calendar
           var currentTZ = jstz.determine().name();
           var currentOffset = new Date().getTimezoneOffset()/60*(-1);
-          $("td.fc-header-right").append("<div id='time_zone'>" + currentTZ + " ( GMT" + currentOffset + " )</div>" );
+          $("td.fc-header-right").append("<div id='time-zone'>" + currentTZ + " ( GMT" + currentOffset + " )</div>" );
+
+          // Listen for AJAX events and show loading icon
+          $(document).ajaxStart(function () { 
+            $("#ajax-load").fadeIn() 
+          }).ajaxStop(function () { 
+            $("#ajax-load").hide(); 
+          });
         });
 
 
@@ -354,6 +361,8 @@
   </fieldset>
   </form>
 </div>
+
+<div id="ajax-load">Loading...</div>
 
 
 

@@ -276,13 +276,21 @@
   p.filters{
     font-size: 110%;
   }
-  #time_zone{
+  #time-zone{
     font-size: 10px;
     line-height: 0px;
     margin-bottom: 10px;
     color: gray;
     font-style: italic;
   }
+}
+#ajax-load{
+  color: #0d0;
+  background-color: $background_color;
+  position: fixed;
+  top: 45px;
+  left: 20px;
+  display: none;
 }
 .eventInfo{
   /*font-size: 75%;*/
