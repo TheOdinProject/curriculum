@@ -8,9 +8,6 @@ This guide assumes you are using **Windows** and the command prompt shortcut pro
 
 (or something similar...depending on your installation directory). **Because we are using this special command prompt shortcut, other solutions you might find online for how to open Sublime Text via command line might not work.** Those solutions don't account for our shortcut's special target. We're special -just as our respective mother's foretold.
 
-Steps:
-[linked list of steps here]
-
 ##Step 0 - Complete Railsbridge installfest
 [blah blah blah]
 
@@ -31,3 +28,8 @@ I honestly don't know exactly what is going on here. I just Google'd around and 
 
 ##Step 3 - Edit Sublime Text 2 settings
 [instructions for preventing Sublime Text from annoyingly opening a new window every time a file is opened via cmd line]
+
+##Step 4 - Feel the Power
+You can now type "subl [filename]" in the command line to begin editing files in Sublime Text. Without this power, your workflow consists of navigating files in Windows Explorer, editing files in Sublime Text, and interacting with Git/Github/Heroku in command prompt. Now that you have completed this guide, you can just stick with the command prompt and Sublime Text. Your new workflow now has a bit less alt-tabbing. Hallelujah.
+
+Note: If you skipped step 2, then you must type "sublime_text [filename]" in the command line.
