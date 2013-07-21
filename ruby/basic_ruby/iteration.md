@@ -14,6 +14,7 @@ You should understand the basic iterators `for` and `while` and understand how t
 ### Thought Questions
 * What does `loop` do?
 * What are the two ways to denote a block of code?
+* What is an index variable?
 * How do you print out each item of a simple array `[1,3,5,7]` with:
     * `loop`?
     * `while`?
@@ -25,8 +26,11 @@ You should understand the basic iterators `for` and `while` and understand how t
 * How to you skip to the next iteration of a loop?
 * How would you start the loop over again?
 * What are the (basic) differences between situations when you would use `while` vs `times` vs `each`?
+* What does nesting loops mean and when would you use it?
 
 ### A Brief Summary
+A loop is just code that will run a number of times until some condition is met.  A variable is typically used to keep track of which iteration you are on or to otherwise increment until the condition is reached.  This is called the **index variable**.
+
 **`loop`** is the most basic way to loop in Ruby and it's not used all that much because the other ways to loop are much sexier.  `loop` takes a block of code, denoted by either `{ ... }` or `do ... end` (if it's over multiple lines).  It will keep looping until you tell it to stop using a `break` statement:
 
     > loop { puts "this will not stop until you press CTRL+c" }
@@ -34,7 +38,7 @@ You should understand the basic iterators `for` and `while` and understand how t
     this will not stop until you press CTRL+c
     ... and so on
 
-    > i=0
+    > i=0                   # Our index variable
     > loop do
     >   i+=1
     >   print "#{i} "
@@ -87,6 +91,23 @@ Because you may want some additional control over your loops, use these statemen
 * `redo` will let you restart the loop (without evaluating the condition on the first go-through), again usually with some condition
 * `retry` works on most loops (not `while` or `until`) similarly to `redo` but it *will* re-evaluate the condition before running through the loop again (hence *try* instead of *do*).
 * NOTE: Do NOT use `return` to exit a loop, since that will exit the whole method that contains it as well!
+
+**Nesting** loops occurs when one goes inside another, so you execute the entire inner loop for each iteration of the outer loop.  You'll see those for "two-dimensional" problems, like searching through arrays within arrays, but if you find yourself nesting too often or too deeply, you probably need to reexamine how you've structured your solution overall.  
+
+Here's an example that goes through the comments in a hypothetical blog and captures a preview from each of them.  It uses some Rails methods to get the posts and comments then loops to tease out the previews:
+
+    def comment_previews
+      comment_previews = []
+      posts = Post.all              # array of all blog posts
+      posts.each do |post|
+        comments = post.comments    # array of that post's comments
+        comments.each do |comment|
+          comment_previews << comment[0..80] 
+        end
+      end
+      comment_previews
+    end
+
 
 ### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
