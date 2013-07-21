@@ -5,13 +5,7 @@
 This guide assumes you are using **Windows** and the command prompt shortcut provided by the Railsbridge installfest. The shortcut should have a target of "C:\Windows\System32\cmd.exe /E:ON /K C:\RailsInstaller\Ruby1.9.3\setup_environment.bat C:\RailsInstaller" (or something similar...depending on your installation directory). Because we are using this special command prompt shortcut, other solutions you might find online for how to open Sublime Text via command line might not work. Those solutions don't account for our shortcut's special target. We're special -just as our mother's foretold.
 
 Steps:
-0. Complete Railsbridge installfest
-
-1. Edit setup_environment.bat
-
-2. Create symbolic link (optional)
-
-3. Edit Sublime Text 2 settings
+[linked list of steps here]
 
 ## Step 0 - Complete Railsbridge installfest
 [blah blah blah]
