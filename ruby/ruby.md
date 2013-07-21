@@ -33,7 +33,6 @@ The goal here is to provide as much of this curriculum as possible using free re
 
 
 ## Table of Contents
-1. [Intro](#intro)
 2. [Basic Ruby](basic_ruby/basic_ruby.md)
 2. Intermediate Ruby
 3. Ruby and the Web
