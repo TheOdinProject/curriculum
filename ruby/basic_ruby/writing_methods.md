@@ -5,6 +5,8 @@ You've been using methods since square one and writing your own as well so we'll
 
 ### Thought Questions
 * How many things should a method do?
+* What types of things should a method modify?
+* What does "pass by reference" mean?
 * What should you name a method?
 * What does `self` mean?
 * What do you need to do to create your own Ruby script file?
@@ -20,7 +22,8 @@ You've been using methods since square one and writing your own as well so we'll
 * TODO
 
 ### A Brief Summary
-What should you put into methods?  Pretty much everything should be in a method, but **each method should only do ONE thing**.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.
+What should you put into methods?  Pretty much everything should be in a method, but **each method should only do ONE thing**.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.  
+
 
 Methods help organize your code by keeping you from repeating yourself.  Anything that you find yourself doing repetetively should probably go in its own method.
 
@@ -41,6 +44,10 @@ The `game_over?` method probably needs to check if the human player has won or h
     end
 
 Methods should be SHORT! If they're >10 lines, you're probably doing too much.  When you look at the open-source projects on Github, their methods are often incredibly short.  Good code doesn't look long, it looks brief but descriptive.
+
+A method should be self-contained and only use those variables that have been passed in.  Don't modify global variables or otherwise have side effects for your methods.  By the same token, don't destructively modify the arguments or the object your method was called on (unless it's explicitly a bang! method).  
+
+TODO: Pass By Reference
 
 When **naming methods** the goal is to be descriptive but short.  Name based on what it will return or what the major intended side effect will be.  You won't be missing anything because the method should only do one thing anyway.  If you can't tell what the method will return based on the name, you probably need a better name.  If your method name seems insanely long, your method may be trying to do more than one thing.  End with a question mark `?` if it will return true/false.  
 
