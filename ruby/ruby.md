@@ -34,7 +34,7 @@ The goal here is to provide as much of this curriculum as possible using free re
 
 ## Table of Contents
 2. [Basic Ruby](basic_ruby/basic_ruby.md)
-2. Intermediate Ruby
+2. Level II Ruby
 3. Ruby and the Web
 4. File I/O and Serialization
 5. Testing Ruby with RSpec
@@ -47,114 +47,4 @@ The goal here is to provide as much of this curriculum as possible using free re
 ## Additional Resources
 
 * [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
-
-********************* WORK IN PROGRESS SECTION *******************
-
-## Intermediate Ruby
-
-### Style
-#### Intro and Goals
-#### Thought Questions
-#### Do These First
-* https://github.com/bbatsov/ruby-style-guide
-
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-### Classes, Modules and Inheritance
-#### Intro and Goals
-#### Thought Questions
-* How does inheritance work?
-* What is a class method?
-* How is a class method different from a "regular" method?
-* What is a module?
-* What is a private method?
-* What is a protected method?
-* How are private and protected methods different?
-
-#### Do These First
-* Codecademy's [Object-Oriented Programming learning module](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6)
-* Codecademy's [OOP Project](http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1)
-* Codecademy's [OOP II section](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o)
-* Codecademy's [OOP II Project](http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1)
-
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-### Designing Good Code
-#### Intro and Goals
-#### Thought Questions
-Shallow and deep clones?
-#### Do These First
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-### Debugging your Code
-#### Intro and Goals
-#### Thought Questions
-#### Do These First
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-### Refactoring your Code
-#### Intro and Goals
-#### Thought Questions
-#### Do These First
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-### Scope of Variables
-#### Intro and Goals
-#### Thought Questions
-* Pass-by-reference
-
-#### Do These First
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-### Recursion
-#### Intro and Goals
-#### Thought Questions
-#### Do These First
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-### Additional Topics
-#### Intro and Goals
-#### Thought Questions
-* metaprogramming
-* Reflection
-* shortcut syntaxes for things like `map`
-
-#### Do These First
-#### A Brief Summary
-#### Exercises
-#### Additional Resources
-
-## Ruby and the Web
-
-## File I/O and Serialization
-
-## Testing with RSpec and Test Driven Development
-http://guides.rubyonrails.org/testing.html
-https://www.relishapp.com
-http://betterspecs.org
-
-## Basic Data Structures
-
-## Basic Algorithms
-
-## Final Projects
-
-
-
-
-
 
