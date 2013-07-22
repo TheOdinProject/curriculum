@@ -16,7 +16,7 @@ As you may gather, this is also where the real project work begins.  Some of the
 
 **How this will work:**
 
-Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "A Brief Summary" of the material but it's not a replacement for actually doing the reading/pre-work.  At the end of each section or group of sections will be programming exercises which are best done in pairs.
+Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "A Brief Summary" of the material but it's not a replacement for actually doing the reading/pre-work.  At the end of each section there will be exercises to help you solidify your knowledge of the material and after each group of sections will be larger projects which are best done in pairs.
 
 **Our free resources:**
 
