@@ -32,7 +32,7 @@ I honestly don't know exactly what is going on here. I just Google'd around and 
 ##Step 2 - Create symbolic link (optional)
 At this point, it's already possible to open Sublime Text via command line, but you have to type out "sublime_text" as the command. My typing speed is stellar, but like a true engineer, I'm lazy. I want to type a shorter command --don't you? To do that, we must create a "symbolic link." What's that? I don't really know, but I saw it in the comment section of [this blog post](https://coderwall.com/p/9p4etg).
 
-The symbolic link is created via command line with admin rights. Run the command prompt as administrator. If you pinned the command prompt shortcut to your taskbar as suggested by the Installfest, then right click on it, then right click on the first option provided by the context menu. Confused? Check the image below:
+The symbolic link is created via command line with admin rights. Run the command prompt as administrator. If you pinned the command prompt shortcut to your taskbar as suggested by the Installfest, right-click it, then right-click the first option provided by the context menu. Now click on the "Run as administrator" option. Confused? Check the image below:
 
 ![Run as admin](images/ss_run cmd as admin.png)
 
