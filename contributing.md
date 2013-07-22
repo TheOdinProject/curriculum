@@ -28,6 +28,8 @@ To contribute, [fork the repository](https://help.github.com/articles/fork-a-rep
 
 If you're adding a solution to one of the projects, first save it in your own repository and then just make a link to it in the appropriate project's section.  Be sure to give your partner appropriate acknowledgement if they want it.
 
+If you're unfamiliar with the Markdown (.md) syntax that's used in these files, it's really straightforward and there's a great guide for it from [Daring Fireball here](http://daringfireball.net/projects/markdown/syntax).
+
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 
 ## Thank you for your help and support!
