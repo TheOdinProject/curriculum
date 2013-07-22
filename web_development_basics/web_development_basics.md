@@ -217,6 +217,10 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
     3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)... just solve for numbers smaller than 100,000 (otherwise it'll take too long with your brute force solution).
     4. No one said you could turn off your brain!
 
+**Student Solutions**
+* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+* 
+
 **Additional Resources:**
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
 * Reading: The first several sections of the [Javascript 101 tutorial on learn.jquery.com](http://learn.jquery.com/javascript-101/).
@@ -240,10 +244,10 @@ TODO: A video where a dev walks through some existing Javascript/jQuery code and
 * Suggest some!
 
 ##### JS/jQuery Mini-Project:
-Estimated Time: 3-6 hrs
+Estimated Time: 2-4 hrs
 
 **Sketch Pad**
-* Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with at least a 32x32 grid of square divs.  Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a trail through your grid like a pen would.  Have a button at the bottom to reset the grid to blank white.  It may be easier to make borders between grid elements while you're figuring out how to place them.  
+* Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.  Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a trail through your grid like a pen would.  Have a button at the bottom to reset the grid to blank white.  It may be easier to make borders between grid elements while you're figuring out how to place them.  
 * Then try cranking up the granularity of the grid (say, a 128x128 grid of the same total size).  Hopefully you've utilized a loop to create your grid and this should be a simple matter of changing a few inputs.
 
 **Student Solutions**
