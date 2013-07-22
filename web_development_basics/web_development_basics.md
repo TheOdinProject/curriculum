@@ -214,7 +214,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using [jsfiddle.net](http://jsfiddle.net/) or [Codecademy Labs](http://labs.codecademy.com/) if you aren't comfortable working on your own files):
     1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
     2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
-    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
+    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)... just solve for numbers smaller than 100,000 (otherwise it'll take too long with your brute force solution).
     4. No one said you could turn off your brain!
 
 **Additional Resources:**
