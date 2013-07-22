@@ -3,13 +3,13 @@
 #How to open Sublime Text via command line
 
 ##Overview
-This guide assumes you are using **Windows** and the command prompt shortcut provided by the Railsbridge installfest [insert link]. The shortcut should have a target of
->"C:\Windows\System32\cmd.exe /E:ON /K C:\RailsInstaller\Ruby1.9.3\setup_environment.bat C:\RailsInstaller"
-
-(or something similar...depending on your installation directory). **Because we are using this special command prompt shortcut, other solutions you might find online for how to open Sublime Text via command line might not work.** Those solutions don't account for our shortcut's special target. We're special -just as our respective mother's foretold.
+This guide assumes you are using **Windows** and the command prompt shortcut provided by the [Railsbridge installfest](http://installfest.railsbridge.org/installfest/). **Because we are using this special command prompt shortcut, other solutions you might find online for how to open Sublime Text via command line might not work.** Those solutions don't account for our shortcut's special target. We're special -just as our respective mother's foretold.
 
 ##Step 0 - Complete Railsbridge installfest
-[blah blah blah]
+Before we get started, make sure you've completed the Railsbridge installfest. This guide pertains to those who have sweated out the installfest, and are now using the shortcut shown in [step 5](http://installfest.railsbridge.org/installfest/windows) of the installfest for windows. The shortcut should have a target of
+>"C:\Windows\System32\cmd.exe /E:ON /K C:\RailsInstaller\Ruby1.9.3\setup_environment.bat C:\RailsInstaller"
+
+(or something similar --depending on your installation directory).
 
 ##Step 1 - Edit setup_environment.bat
 Open the setup_environment.bat file in Sublime Text. You should be able to find the .bat file in your RailsInstaller directory. The target of your Ruby on Rails command prompt shortcut reveals the location of the .bat file. For me, the file path is:
