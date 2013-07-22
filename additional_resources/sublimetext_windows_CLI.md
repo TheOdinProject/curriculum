@@ -56,4 +56,4 @@ Open Sublime Text any way you want. At the top of the window, click on Preferenc
 ##Step 4 - Feel the Power
 You can now type "subl [filename]" in the command line to begin editing files in Sublime Text. Without this power, your workflow consists of navigating files in Windows Explorer, editing files in Sublime Text, and interacting with Git/Github/Heroku in command prompt. Now that you have completed this guide, you can just stick with the command prompt and Sublime Text. Your new workflow now has a bit less alt-tabbing. Hallelujah.
 
-Note: If you skipped step 2, then you must type "sublime_text [filename]" in the command line. How barbaric.
+Note: If you skipped step 2, then you must type "sublime_text [filename]" in the command line, you monster.
