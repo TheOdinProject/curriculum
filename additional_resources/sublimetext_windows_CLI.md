@@ -27,7 +27,7 @@ Right below that line, you need to insert some code that discloses the location 
 **SET PATH=C:\Program Files\Sublime Text 2;%PATH%**
 ```
 
-I honestly don't know exactly what is going on here. I just Google'd around and read about some variable called "PATH" that must be modified. This code adds the Sublime Text directory to the list of directories already stored in PATH. The key is that all this is happening in setup_environment.bat (so instructions on modifying the PATH variable weren't working for me because those instructions did not account for this .bat file).
+I honestly don't know exactly what is going on here. I just Google'd around and read about some variable called "PATH" that must be modified. This code adds the Sublime Text directory to the list of directories already stored in PATH. The key is that all this is happening in setup_environment.bat (so instructions on modifying the PATH variable weren't working for me because those instructions did not account for the effects of this .bat file).
 
 ##Step 2 - Create symbolic link (optional)
 At this point, it's already possible to open Sublime Text via command line, but you have to type out "sublime_text" as the command. My typing speed is stellar, but like a true engineer, I'm lazy. I want to type a shorter command, don't you? To do that, we must create a "symbolic link." What's that? I don't really know, but I saw it in the comment section of [this blog post](https://coderwall.com/p/9p4etg).
