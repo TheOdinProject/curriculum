@@ -86,6 +86,7 @@ The goal here is to provide as much of this curriculum as possible using free re
 ### Designing Good Code
 #### Intro and Goals
 #### Thought Questions
+Shallow and deep clones?
 #### Do These First
 #### A Brief Summary
 #### Exercises
