@@ -20,6 +20,7 @@ This section should give you an appreciation for the ways you can mess with stri
 * What is a symbol?
 * How is a symbol different from a string?
 * What is a Regular Expression (RegEx)?
+* How can you center or justify a string?
 
 ### Check These Out First
 * [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
@@ -177,6 +178,11 @@ But sometimes all you want is a name, like when you're using a hash key.  In tha
     => 461128               # same!
 
 While you're learning, just stick with strings until you see the examples using symbols, which will mostly be with hash keys.
+
+**Other Helpful Methods** 
+* **`ljust`** will let you pad your string with extra spaces (or any other character you choose) up until a specified total amount of characters, so `"hi".ljust(4) => "hi  "` and `"hi".ljust(6,"*") => "hi****"`.  It can be handy for prettying up some of your command line outputs.
+* **`rjust`** does the same thing but pushes your string to the right, e.g. `"hi".rjust(6) => "    hi"`
+* **`center`** is the same idea but it centers your string: `"hi".center(6,"!") => "!!hi!!"`
 
 ### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
