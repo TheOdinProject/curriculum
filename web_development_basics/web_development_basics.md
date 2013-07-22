@@ -178,8 +178,10 @@ Use the browser's developer tools (right clicking something on the page and clic
 Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming\))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
 **Student Solutions**
-* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
+
 * See [RebootJeff's Solution Here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
+* *Your solution here...*
 
 ##### Additional Resources
 
@@ -199,6 +201,7 @@ Estimated Time: 15-20 hrs
 * What is the DOM?
 * How can you interact with the DOM?
 * What are events?
+* How can you add elements to the DOM?
 
 
 ##### Javascript:
@@ -210,16 +213,19 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 1. Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum. [2-4 hrs]
     * Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 2. Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
-3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript. You can also try the Javascript section of [Codecademy Labs](http://labs.codecademy.com/) -- it doesn't support HTML and CSS, but it does provide a console.
-4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using [jsfiddle.net](http://jsfiddle.net/) or [Codecademy Labs](http://labs.codecademy.com/) if you aren't comfortable working on your own files):
+3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript. 
+    1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/).
+    2. You can also try the Javascript section of [Codecademy Labs](http://labs.codecademy.com/) -- it doesn't support HTML and CSS, but it does provide you with a helpful javascript console.
+4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using [jsfiddle.net](http://jsfiddle.net/) or [Codecademy Labs](http://labs.codecademy.com/) if you aren't comfortable working with your own files):
     1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
     2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
     3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)... just solve for numbers smaller than 100,000 (otherwise it'll take too long with your brute force solution).
     4. No one said you could turn off your brain!
 
 **Student Solutions**
-* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
-* 
+*Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+
+* *Your solution here...*
 
 **Additional Resources:**
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
@@ -232,11 +238,11 @@ What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of
 jQuery will let you take your javascript knowledge and start really diving into your webpages and messing with the elements.  
 
 ##### Assignment:
-1. Learn about jQuery by doing [Codecademy's jQuery Section 1](http://www.codecademy.com/tracks/jquery)("Introducing jQuery")
-2. ... and [Code School's try jQuery](http://try.jquery.com/).  
+1. Learn about jQuery by doing [Codecademy's jQuery Track sections 1-3](http://www.codecademy.com/tracks/jquery)("Introducing jQuery", jQuery Functions", and "Dynamic HTML").
+2. If you can't get enough, also give [Code School's try jQuery](http://try.jquery.com/) a shot (let us know which is better!).
 2. The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
 
-Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took (whether just the section 1 or the whole thing) so we can let others know!
+Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long those courses took and if you liked one much better than the other so we can let others know! 
 
 TODO: A video where a dev walks through some existing Javascript/jQuery code and explains how it works and why it's set up the way it is.
 
@@ -246,13 +252,34 @@ TODO: A video where a dev walks through some existing Javascript/jQuery code and
 ##### JS/jQuery Mini-Project:
 Estimated Time: 2-4 hrs
 
+This should not be trivially easy for you.  You'll probably have to Google often to get the right jQuery methods or CSS to use and that's the point.
+
 **Sketch Pad**
-* Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.  Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a trail through your grid like a pen would.  Have a button at the bottom to reset the grid to blank white.  It may be easier to make borders between grid elements while you're figuring out how to place them.  
-* Then try cranking up the granularity of the grid (say, a 128x128 grid of the same total size).  Hopefully you've utilized a loop to create your grid and this should be a simple matter of changing a few inputs.
+1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.  
+    1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
+    2. Best to put your grid squares inside another "container" div.
+    1. There are several different ways to make the divs appear as a grid (versus just one on each line) -- `float`/`clear`, using a `table`, and `inline-block` displays.  Play with each of them.
+    2. Careful with your border or margins... they'll add size to the squares!
+    3. "OMFG, Why isn't my grid being created???" 
+        1. Open your browser's developer tools 
+        2. Check if there are any errors in the Javascript console
+        3. Check your "elements" pane to see if the elements have actually shown up but are somehow hidden.
+        4. Go willy-nilly and add  `console.log` statements in your javascript to see if it's actually being loaded.
+2. Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a (pixelated) trail through your grid like a pen would.  
+    1. What happens when you hover?  Well, you're *hover*ing, you need to *enter* the div with your mouse and you need to *leave* the div.  Any of those events should be a useful place to start.
+    1. There are again several ways to change the color -- adding a new class (`addClass()`), changing that div's background color individually, etc.
+    2. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_install.asp), you can grab it directly in your HTML by adding `<script src="jquery-1.10.1.min.js"></script>` inside your `<head>` tag above any other JS files.
+3. Add a button to the top of the screen which will clear the current grid and send the user a popup asking for how many squares per side to make the new grid.  Once entered, the new grid should be generated *in the same total space as before* (e.g. 960px wide) and now you've got a new sketch pad.
+    1. Research `button` tags in HTML and how you can make a javascript function run when one is clicked.
+    2. You'll also want to check out `prompt`s.
+    3. You should be able to enter `64` and have a new 64x64 grid pop up in front of you without changing the total amount of pixels used.
+    4. Why is it so slow?? Remember that when you call a jQuery selector like `$(".square")`, it actually returns you ALL the elements that fit the description.  So if you're doing those types of operations hundreds of times inside a loop, it can get very time consuming... try pulling those outside your loops.
+4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
 
 **Student Solutions**
-* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
-* 
+*Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+
+* *Your solution here...* 
 
 ### Back End Basics
 Total Estimated Time: 20-30 hrs
@@ -303,7 +330,7 @@ A final note -- you'll be learning a bunch of new terminology and concepts here 
 Redo the same Project Euler problems that you previously did in Javascript but using Ruby instead (try using IRB or a .rb file that you run from the command line):
     1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
     2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
-    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)
+    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3) (remember, don't bother for anything over 100,000 doing the brute force solution or you'll need a few days to calculate...)
 
 TODO: Ruby walkthrough video
 
@@ -330,8 +357,9 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
 **Student Solutions**
-* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
-* 
+*Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+
+* *Your solution here...*
 
 ##### Additional Resources
 
@@ -426,8 +454,9 @@ Estimated Time: 3-5 hrs
 **Extra Credit:** Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the section below on git (under the "Additional Topics" heading) or skip any of the `$ git ... ` commands for now, they're non-essential (it's sort of like saving your files on Dropbox).
 
 **Student Solutions**
-* *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
-* 
+*Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
+
+* *Your solution here...*
 
 ##### Additional Resources:
 
