@@ -23,7 +23,7 @@ If there's something that you still just don't quite understand, track it down v
 6. [Hashes](hashes.md)
 7. [Dates and Times](dates_and_times.md)
 8. [Miscellaneous Issues](miscellaneous.md)
-9. [PROJECT: TODO](#part-1-pair-project)(~4 hours)
+9. [PROJECT: TODO](#part-1-pair-project)(~2 hours)
 
 ## Part 2: Making Code Move
 9. [Conditionals and Flow Control](flow_control.md)
@@ -48,24 +48,3 @@ The Intermediate Ruby section (next!) will dive more into those types of issues 
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
 * Add Here
-
-
-*
-
-********************* RANDOM STUFF **********************
-##### Numbers, Strings and Arrays and Hashes Exercises (Paired)
-* sort
-* reverse
-* 
-* towers of hanoi
-* TODO
-
-##### Exercises (Paired)
-* Rewrite the following methods from Enumerable.  You may not use the real method... which should be obvious.  You MAY use #each in the following methods once you've created it yourself the first time:
-    * #each
-    * #each_with_index
-    * #map
-    * #select
-TODO
-* Running Ruby scripts from the command line
-
