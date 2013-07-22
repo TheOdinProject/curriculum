@@ -110,6 +110,8 @@ The goal here is to provide as much of this curriculum as possible using free re
 ### Scope of Variables
 #### Intro and Goals
 #### Thought Questions
+* Pass-by-reference
+
 #### Do These First
 #### A Brief Summary
 #### Exercises
