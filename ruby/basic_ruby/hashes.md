@@ -1,7 +1,7 @@
 ## Hashes
 ### Intro and Goals
 
-Hashes may be a bit intimidating at first but they're actually pretty similar to arrays.  They're basically just containers for data, like arrays, but instead of storing data based on a numeric indices, you use "keys" which can be strings or symbols.  This makes hashes more appropriate for storing data with a bit more depth to it.
+Hashes may be a bit intimidating at first but they're actually pretty similar to arrays.  They're basically just containers for data, like arrays, but instead of storing data based on numeric indices, you use "keys" which can be strings or symbols.  This makes hashes more appropriate for storing data with a bit more depth to it.
 
 ### Thought Questions
 * What is a hash?
@@ -100,7 +100,12 @@ A simpler kind of hash is called a **Set**, and it's just a hash where all the v
 ### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
 
-1. TODO
+1. Write a method that takes in a string and returns a hash with the count of each letter in that string:
+        
+    > letter_count("my balloon")
+    => { "a" => 1, "b" => 1, "l"=> 2, "m" => 1, "n" => 1, "o" => 2, "y" => 1 }
+
+2. TODO
 
 ### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
