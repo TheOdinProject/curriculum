@@ -8,7 +8,7 @@ This guide assumes you are using **Windows** and the command prompt shortcut pro
 This guide was originally created by [Jeff Lee](https://github.com/RebootJeff) (me) for [Erik Trautman's "Odin Project" curriculum](https://github.com/TheOdinProject/curriculum). When figuring out how to do all this stuff, I was using Windows 8. I have yet to try these steps on my WIndows 7 machine. I have no intention of trying these steps in Windows XP nor Vista.
 
 ##Step 0 - Complete Railsbridge Installfest
-Before we get started, make sure you've completed the Railsbridge Installfest. This guide pertains to those who have sweated out the Installfest, and are now using the shortcut shown in [step 5](http://installfest.railsbridge.org/installfest/windows) of the instructions for Windows. The shortcut should have a target of
+Before we get started, make sure you've completed the Railsbridge Installfest. This guide pertains to my fellow students who have sweated out the Installfest, and are now using the shortcut shown in [step 5](http://installfest.railsbridge.org/installfest/windows) of the instructions for Windows. The shortcut should have a target of
 >"C:\Windows\System32\cmd.exe /E:ON /K C:\RailsInstaller\Ruby1.9.3\setup_environment.bat C:\RailsInstaller"
 
 (or something similar --depending on your installation directory).
