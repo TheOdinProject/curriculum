@@ -5,7 +5,7 @@ This guide assumes you are using **Windows** and the command prompt shortcut pro
 
 **If you are not this guide's intended audience**, then I suggest checking out [this blog post](https://coderwall.com/p/9p4etg). Read the whole thing AND the few comments because the comments point out a key mistake.
 
-This guide was originally created by [Jeff Lee](https://github.com/RebootJeff) (me) for [Erik Trautman's "Odin Project" curriculum](https://github.com/TheOdinProject/curriculum). When figuring out how to do all this stuff, I was using Windows 8. I have yet to try these steps on my WIndows 7 machine. I have no intention of trying these steps in Windows XP nor Vista.
+This guide was originally created by [Jeff Lee](https://github.com/RebootJeff) (me) for ["The Odin Project" curriculum](https://github.com/TheOdinProject/curriculum). When figuring out how to do all this stuff, I was using Windows 8. I have successfully run through these steps on my WIndows 7 machine as well. I have no intention of trying these steps in Windows XP nor Vista.
 
 ##Step 0 - Complete Railsbridge Installfest
 Before we get started, make sure you've completed the Railsbridge Installfest. This guide pertains to my fellow students who have sweated out the Installfest, and are now using the shortcut shown in [step 5](http://installfest.railsbridge.org/installfest/windows) of the instructions for Windows. The shortcut should have a target of
@@ -22,7 +22,7 @@ On line 26, you should see some code that looks like:
 IF EXIST %ROOT_DIR%\Git\cmd SET PATH=%ROOT_DIR%\Git\cmd;%PATH%
 ```
 
-Right below that line, you need to insert some code that discloses the location of sublime_text.exe on your computer. For me, I used the following code:
+Right below that line, you need to insert some code that discloses the location of sublime_text.exe on your computer. I used the following code:
 ```bat
 **SET PATH=C:\Program Files\Sublime Text 2;%PATH%**
 ```
@@ -32,7 +32,7 @@ I honestly don't know exactly what is going on here. I just Google'd around and 
 ##Step 2 - Create symbolic link (optional)
 At this point, it's already possible to open Sublime Text via command line, but you have to type out "sublime_text" as the command. My typing speed is stellar, but like a true engineer, I'm lazy. I want to type a shorter command --don't you? To do that, we must create a "symbolic link." What's that? I don't really know, but I saw it in the comment section of [this blog post](https://coderwall.com/p/9p4etg).
 
-The symbolic link is created via command line with admin rights. Run the command prompt as administrator. If you pinned the command prompt shortcut to your taskbar as suggested by the Installfest, right-click it, then right-click the first option provided by the context menu. Now click on the "Run as administrator" option. Confused? Check the image below:
+The symbolic link is created via command line with admin rights. Run the command prompt as administrator. If you pinned the command prompt shortcut to your taskbar as suggested by the Installfest, right-click it, then right-click the first option provided by the context menu. Now left-click the "Run as administrator" option. Confused? Check the image below:
 
 ![Run as admin](images/ss_run cmd as admin.png)
 
@@ -42,7 +42,7 @@ cd C:\Program Files\Sublime Text 2\
 mklink "subl.exe" "sublime_text.exe"
 ```
 
-Now if you look at your Sublime Text directory in Windows Explorer, you should see a new file similar to what's seen in the image below:
+Now if you look at your Sublime Text directory in Windows Explorer, you should see a new file similar to what's shown in the image below:
 
 ![Symbolic link next to its target](images/ss_subl exe.png)
 
@@ -52,6 +52,10 @@ If you open a file with Sublime Text via command line, you will notice that Subl
 Open Sublime Text any way you want. At the top of the window, click on Preferences. From here, you can click on "Settings - Default" or "Settings - User" depending on whether you want to adjust settings for all users on your PC or just for yourself. If you go with the former option, find the **"open_files_in_new_window"** setting and change it to _false_. If you go with the latter option, type in the setting and give it a value of false as shown below:
 
 ![User Setting](images/ss_sublime preferences.png)
+
+If you already have some settings in your "Settings - User" file, then you may need to add a comma at the end of the new addition (e.g., "...false,").
+
+I'm not sure why this step works. There is a comment in the "Settings - Default" file that says this particular setting only affects Mac users, but I tried toggling it to _false_ on my Windows machines anyway ...and it worked beautifully.
 
 ##Step 4 - Feel the Power
 You can now type "subl [filename]" in the command line to begin editing files in Sublime Text. Without this power, your workflow consists of navigating files in Windows Explorer, editing files in Sublime Text, and interacting with Git/Github/Heroku in command prompt. Now that you have completed this guide, you can just stick with the command prompt and Sublime Text. Your new workflow now has a bit less alt-tabbing. Hallelujah.
