@@ -48,22 +48,21 @@ If you'll be linking to the curriculum, it's safest to link to the top-level Tab
 
 ## Curriculum Table of Contents
 *Use these links to navigate to the appropriate course unit*
-<ol>
-  <li><a href="/becoming_a_web_developer/becoming_a_web_developer.md">Becoming a Web Developer</a></li>
-  <li><a href="/installations/installations.md">Installing the Technology</a></li>
-  <li><a href="/pairing/pairing.md">Pair Programming and Remote Pairing</a></li>
-  <li><a href="/web_development_basics/web_development_basics.md">Web Development 101</a></li>
-  <li>Ruby</li>
-  <li>Databases and SQL</li>
-  <li>Git</li>
-  <li>HTML and CSS</li>
-  <li>Ruby on Rails</li>
-  <li>Javascript</li>
-  <li>Tying it all Together</li>
-  <li>Advanced Developer Topics</li>
-  <li>Jobs Jobs Jobs</li>
-  <li>Additional Resources</li>
-</ol>
+
+  * [Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)
+  * [Installing the Technology](/installations/installations.md)
+  * [Pair Programming and Remote Pairing](/pairing/pairing.md)
+  * [Web Development 101](/web_development_basics/web_development_basics.md)
+  * [Ruby (in development)](/ruby/ruby.md)
+  * Databases and SQL
+  * Git
+  * HTML and CSS
+  * Ruby on Rails
+  * Javascript
+  * Tying it all Together
+  * Advanced Developer Topics
+  * Jobs Jobs Jobs
+  * Additional Resources
 
 <hr>
 **Help! How does this work?**
