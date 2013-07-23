@@ -24,6 +24,7 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 
 ### Check These Out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
+* TODO
 
 ### A Brief Summary
 `Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
