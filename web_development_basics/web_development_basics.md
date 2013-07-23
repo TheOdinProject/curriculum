@@ -568,7 +568,6 @@ Estimated Time: .5 hrs
 FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is regardless.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.
 
 ## How Are Websites Built?
-TODO: In Becoming section instead?
 
 ### Macro Level: From Client to Developer and Back
 
@@ -578,6 +577,8 @@ TODO: client team handoff, scrum, cards/stories, gogo, circle back, scrum.... de
 
 TODO: tech used, who gets spoken to, where debugs are usually needed, when tests are written, how deployment goes, interactions with other team members.
 
+*Are you an experienced developer?  We'd love to find out what exactly the life cycle of a project looks like.  Please [email us](mailto:curriculum@theodinproject.com) if we can do a quick interview about it and post it here!  If you know of a good interview on the web that does the same thing, please let us know about that as well.*
+
 ## Principles of Good Programming
 Estimated Time: 1 hrs
 
@@ -585,8 +586,8 @@ There are a handful of generally accepted principles of good programming.  You'l
 
 ## Other "Dumb" (or frequently asked) Questions Answered
 
-* Do you still have any beginner questions left over? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add them here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
-* 
+*Do you still have any beginner questions left over? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add them here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).*
+* *Your question here...*
 
 ## Finish
 
@@ -600,4 +601,5 @@ With what you know already, you could start putting together some basic websites
 
 ## Additional Resources
 
-If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+*If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).*
+* *Additional Resources Here...*
