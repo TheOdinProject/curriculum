@@ -18,12 +18,13 @@ You've been using methods since square one and writing your own as well so we'll
 * When would `send` be used that's different from just running the method on an object 'normally'?
 
 ### Check These Out First
+* [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
+* A quick guide from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
 * [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
 * TODO
 
 ### A Brief Summary
 What should you put into methods?  Pretty much everything should be in a method, but **each method should only do ONE thing**.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.  
-
 
 Methods help organize your code by keeping you from repeating yourself.  Anything that you find yourself doing repetetively should probably go in its own method.
 
