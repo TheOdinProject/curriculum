@@ -99,11 +99,15 @@ A few other special constants you can access from within your script:
 * **`$0`** is the main or original file that was run (which could be different from your script if your script had just been `require`d by that original file).
 * **`$`** (aka **`$LOAD_PATH`**) is an array that contains the "load path", or all the directories the interpreter searches through when it needs to find a file.
 
-A trick you can sometimes use to check whether your script is being run from the command line or as part of a larger program, say if you want to `puts` some stuff only if it's called from the CL (to debug it maybe), is to check whether `$0` is the same as `__FILE__`:
+A trick you can sometimes use to check whether your script is being run from the command line or as part of a larger program, for instance if you want to `puts` some stuff only if it's called from the CL (to debug it maybe), is to check whether `$0` is the same as `__FILE__`:
 
-    puts "I'm a command line script now!" if $0 == __FILE__
+    if $0 == __FILE__
+      puts "I'm a command line script now!"
+    else
+      puts "Someone else is running me (I feel so violated...)"
+    end
 
-One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call it on whatever object you'd normally run the method on.  Adapted from [the docs](http://ruby-doc.org/core-2.0/Object.html#method-i-send):
+Stepping away from scripts for a minute, one nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call it on whatever object you'd normally run the method on.  Adapted from [the docs](http://ruby-doc.org/core-2.0/Object.html#method-i-send):
 
     class Klass
       def hello(string)
