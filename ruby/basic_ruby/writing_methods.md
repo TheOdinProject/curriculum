@@ -10,14 +10,15 @@ You've been using methods since square one and writing your own as well so we'll
 * What does `self` mean?
 * What do you need to do to create your own Ruby script file?
 * How would you run a Ruby script from the command line?
+* What is a shebang line?
 * What does `require` do?
-* What does `include` do?
-* What is the difference between `require` and `include`?
-* Why would you want to use `include` in IRB?
+* What does `load` do?
+* What is the difference between `require` and `load`?
 * What does `send` do?
 * When would `send` be used that's different from just running the method on an object 'normally'?
 
 ### Check These Out First
+* [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
 * TODO
 
 ### A Brief Summary
@@ -56,16 +57,37 @@ That is incredibly useful because we create methods that could be called by any 
       "#{self.first_name} #{self.last_name}"
     end   # Remember, this implicitly returns the string "firstname"
 
-You're probably tired of running your methods in IRB (if that's what you're still doing) so it's time to learn how to break them out into a **separate script file** which you can then run in its entirety from the command line.  It's easy -- just create a file with the extension `rb`, navigate to that file's directory from the command line, and run it using `/filename.rb`  You'll be able to `gets` and `puts` to the command line.  
+You're probably tired of running your methods in IRB (if that's what you're still doing) so it's time to learn how to break them out into a **separate script file** which you can then run in its entirety from the command line.  It's easy -- just create a file with the extension `.rb`, navigate to that file's directory from the command line, and run it using `$ ruby filename.rb` (the dollar sign is just the command prompt).  You'll be able to `gets` from and `puts` to the command line now!  
 
-Access Denied?  Sometimes you'll get an error message when you try to run a script file from the command line like that because you don't have permission to do so.
+If you get tired of typing `ruby` in front of the file, you can tell your computer that the file is an executable one by using the `chmod` command. Just type `$ chmod +x your_filename.rb` once and you'll be able to execute it, but you now need to let the computer know that it should use the Ruby interpreter when running the file.  That requires you to include, at the very top the file (before any spaces or lines), a **Shebang Line** that points to your Ruby executable:
 
-TODO chmod
-TODO require
-TODO include
-TODO require/include in IRB
+    #!/usr/bin/ruby
 
-One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call ............ TODO
+or wherever it's located.
+
+If you want to include a gem file (a library of methods, for instance) in your IRB session, you'll need to use **`require`** to bring it in.  The default directory for `require` accesses any gems you may have downloaded from the internet.  
+
+You can do the same thing with your new script file, though you have to explicitly provide the path to it.  If it's in your current directory, that's easy, it's just `./filename.rb`:
+
+    > require './your_script.rb'
+    => true
+
+Now you can run methods and access variables from that file in IRB.  If you were to change and save your script file, to get those changes in IRB you can either reload IRB entirely or use **`load`** instead of `require`.  `require` will only load the file once, a feature designed to save you headache normally.  `load` will load it for you regardless.
+
+    > load `./your_script.rb`
+    => true
+
+One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call it on whatever object you'd normally run the method on.  Adapted from [the docs](http://ruby-doc.org/core-2.0/Object.html#method-i-send):
+
+    class Klass
+      def hello(string)
+        "Hello #{string}"
+      end
+    end
+    k = Klass.new
+    k.send :hello, "gentle readers"   #=> "Hello gentle readers"
+
+So simple, why should you care?  Ruby lets you define new methods in runtime and this lets you call them dynamically (since the method name is no longer hardcoded).  Keep that in your back pocket... you won't need it yet but it's great to know.
 
 ### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
