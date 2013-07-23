@@ -180,7 +180,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 **Student Solutions**
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* See [RebootJeff's Solution Here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
+* See [RebootJeff's solution here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
 * *Your solution here...*
 
 ##### Additional Resources
@@ -224,7 +224,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 
 **Student Solutions**
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
-
+* [RebootJeff's solutions](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
 * *Your solution here...*
 
 **Additional Resources:**
