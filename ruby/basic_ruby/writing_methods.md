@@ -10,10 +10,12 @@ You've been using methods since square one and writing your own as well so we'll
 * What does `self` mean?
 * What do you need to do to create your own Ruby script file?
 * How would you run a Ruby script from the command line?
+* How can you check whether your script was being run from the command line?
 * What is a shebang line?
 * What does `require` do?
 * What does `load` do?
 * What is the difference between `require` and `load`?
+* How do you access any parameters that were passed to your script file from the command line?
 * What does `send` do?
 * When would `send` be used that's different from just running the method on an object 'normally'?
 
@@ -21,7 +23,7 @@ You've been using methods since square one and writing your own as well so we'll
 * [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
 * A quick guide from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
 * [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
-* TODO
+* [LRTHW chapters 13-14](http://ruby.learncodethehardway.org/book/)
 
 ### A Brief Summary
 What should you put into methods?  Pretty much everything should be in a method, but **each method should only do ONE thing**.  If it's doing two, it's time for another method.  If it's doing a dozen, you probably need to start thinking about having a separate class.  
@@ -48,9 +50,9 @@ Methods should be SHORT! If they're >10 lines, you're probably doing too much.  
 
 A method should be self-contained and only use those variables that have been passed in.  Don't modify global variables or otherwise have side effects for your methods.  By the same token, don't destructively modify the arguments or the object your method was called on (unless it's explicitly a bang! method).  
 
-When **naming methods** the goal is to be descriptive but short.  Name based on what it will return or what the major intended side effect will be.  You won't be missing anything because the method should only do one thing anyway.  If you can't tell what the method will return based on the name, you probably need a better name.  If your method name seems insanely long, your method may be trying to do more than one thing.  End with a question mark `?` if it will return true/false.  
+When **naming methods** the goal is to be descriptive but short.  Name based on what it will return or what the major intended side effect will be.  You shouldn't be missing any parts from the name because the method should only do one thing anyway.  If you can't tell what the method will return based on the name, you probably need a better name.  If your method name seems insanely long, your method may be trying to do more than one thing.  End with a question mark `?` if it will return true/false.  
 
-What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (i.e. the "caller").  So if I called `current_user.jump`, `current_user` is the caller of that method.  Inside the definition of the `jump` method, `self` would refer to the current_user.  
+What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (the "caller").  So if I called `current_user.jump`, `current_user` is the caller of that method.  Inside the definition of the `jump` method, `self` would refer to the current_user.  
 
 That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called it.  You may see something like this, which I could call on a hypothetical `User` object in my web application:
 
@@ -64,11 +66,11 @@ If you get tired of typing `ruby` in front of the file, you can tell your comput
 
     #!/usr/bin/ruby
 
-or wherever it's located.
+...or wherever it's located.
 
 If you want to include a gem file (a library of methods, for instance) in your IRB session, you'll need to use **`require`** to bring it in.  The default directory for `require` accesses any gems you may have downloaded from the internet.  
 
-You can do the same thing with your new script file, though you have to explicitly provide the path to it.  If it's in your current directory, that's easy, it's just `./filename.rb`:
+You can do almost the same thing to bring your new script file into IRB (if you want to access its methods, for instance), though you have to explicitly provide the path to it.  If it's in your current directory, that's easy, it's just `./filename.rb`:
 
     > require './your_script.rb'
     => true
@@ -77,6 +79,29 @@ Now you can run methods and access variables from that file in IRB.  If you were
 
     > load `./your_script.rb`
     => true
+
+Another thing that you'll probably want to do at some point is to **access the variables that were passed to your script** from the command line.  For instance, if you ran `$ ruby ./string_printer_script "howdy" "everyone"`, you've passed in "howdy" and "everyone".  You access it by digging into a special constant (a variable you shouldn't try to change) called `ARGV`, which is an array that contains all those arguments:
+
+    # In our string_printer_script.rb file:
+    inputted_strings = ARGV
+    puts "You inputted: "
+    inputted_strings.each do |str|
+      puts "str"
+    end
+
+    $ ruby ./string_printer_script.rb "howdy" "everyone"
+    You inputted:
+    howdy
+    everyone
+
+A few other special constants you can access from within your script:
+* **`__FILE__`** is the name of the current file.
+* **`$0`** is the main or original file that was run (which could be different from your script if your script had just been `require`d by that original file).
+* **`$`** (aka **`$LOAD_PATH`**) is an array that contains the "load path", or all the directories the interpreter searches through when it needs to find a file.
+
+A trick you can sometimes use to check whether your script is being run from the command line or as part of a larger program, say if you want to `puts` some stuff only if it's called from the CL (to debug it maybe), is to check whether `$0` is the same as `__FILE__`:
+
+    puts "I'm a command line script now!" if $0 == __FILE__
 
 One nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call it on whatever object you'd normally run the method on.  Adapted from [the docs](http://ruby-doc.org/core-2.0/Object.html#method-i-send):
 
