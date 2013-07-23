@@ -23,3 +23,7 @@ http://stackoverflow.com/questions/941594/understand-rails-authenticity-token
 
 How Heroku works:
 https://devcenter.heroku.com/articles/how-heroku-works
+
+Webinar on using Heroku for production:
+https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku
+
