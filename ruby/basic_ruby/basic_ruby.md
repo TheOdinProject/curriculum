@@ -23,7 +23,7 @@ If there's something that you still just don't quite understand, track it down v
 6. [Hashes](hashes.md)
 7. [Dates and Times](dates_and_times.md)
 8. [Miscellaneous Issues](miscellaneous.md)
-9. [PROJECT](#part-1-pair-project)(~2 hours)
+9. [PROJECT](basic_ruby_project_1.md)(~2 hours)
 
 ## Part 2: Making Code Move
 9. [Conditionals and Flow Control](flow_control.md)
@@ -31,7 +31,7 @@ If there's something that you still just don't quite understand, track it down v
 11. [Writing your own Methods and Scripts](writing_methods.md)
 12. [Blocks, Procs, and other Closures](closures.md)
 13. [Enumerable](enumerable.md)
-1. [PROJECT](#part-2-pair-project)(~4 hours)
+1. [PROJECT](basic_ruby_project_2.md)(~4 hours)
 
 ## Finish
 You should already feel pretty good about your ability to use Ruby to solve problems and create small methods to do things.  And we've barely scratched the surface!  You're still probably a bit shakey on how to organize your code and what exactly is going on at a higher level.  
