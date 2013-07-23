@@ -80,6 +80,7 @@ Shallow and deep clones?
 * metaprogramming
 * Reflection
 * shortcut syntaxes for things like `map`
+* __file__ == $PROGRAM_NAME trick
 
 ### Do These First
 ### A Brief Summary

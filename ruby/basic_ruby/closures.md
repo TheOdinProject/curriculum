@@ -19,6 +19,7 @@ Here, you'll learn more about blocks and also about their lessor known cousins, 
 * Why would you use a block instead of just creating a method?
 * What does `yield` do?
 * How do you pass arguments to a block from within a method?
+* How do you check whether a block was actually passed in?
 * What is a proc?
 * What's the difference between a proc and a block?
 * When would you use a proc instead of a block?
@@ -62,7 +63,7 @@ As you can see, we iterate over the array that our `my_each` method was called o
     > [1,2,3].my_each { |num| print "#{num}!" }
     1! 2! 3! => [1,2,3]
 
-Which operates in that case just like:
+Which operates in that case just like all these lines:
 
     class Array
       def my_each
@@ -76,6 +77,8 @@ Which operates in that case just like:
     end
 
 So one reason blocks are great is because you can write a sort of generic method like `each` which wraps your block in code that says what to do with it.  Another use case is when creating methods where you want to optionally be able to override how they "work" internally by supplying your own block -- `sort` lets you supply your own block to determine how to actually order the items of the array if you want to!
+
+If you want to **ask whether a block was passed** at all (to only yield in that case), use `block_given?`, or rather: `yield if block_given?`
 
 A lot of beginners just blindly take it on faith that `each` and `map` and `select` etc. all work the way they do.  You're more skeptical than that, which is good.  They're really quite simple and you'll get a chance to build your own soon enough.
 
