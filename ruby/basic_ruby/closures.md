@@ -7,6 +7,7 @@ Here, you'll learn more about blocks and also about their lessor known cousins, 
 
 ### Check These Out First
 * [Codecademy's Methods and Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU)
+* [Codecademy's Methods and Blocks Project](http://www.codecademy.com/courses/ruby-beginner-en-nOho7/0/1)
 * [Codecademy's deeper dive into Blocks path](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI)
 * [Understanding Blocks Procs and Lambdas](http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 

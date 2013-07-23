@@ -1,5 +1,14 @@
 # Level 2 Ruby
 
+*[Top level table of contents](/README.md)*
+
+*[Ruby table of contents](/ruby/ruby.md#table-of-contents)*
+
+## Intro
+
+## Warmup
+1. Work through [Codecademy's Movie Project tutorial](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1)
+2. 
 ## Style
 ### Intro and Goals
 ### Thought Questions
@@ -36,6 +45,7 @@
 ### Thought Questions
 Shallow and deep clones?
 ### Do These First
+[Codecademy's Zen of Ruby course](http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb)
 ### A Brief Summary
 ### Exercises
 ### Additional Resources
@@ -52,6 +62,10 @@ Shallow and deep clones?
 ### Intro and Goals
 ### Thought Questions
 ### Do These First
+* [Codecademy's Refactoring Section](http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb)
+* [Codecademy's Refactoring Project](http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y/0/1)
+* 
+
 ### A Brief Summary
 ### Exercises
 ### Additional Resources

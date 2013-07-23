@@ -1,4 +1,4 @@
-## Writing your Own Methods
+## Writing your Own Methods and Scripts
 
 ### Intro and Goals
 You've been using methods since square one and writing your own as well so we'll focus on the essentials and the slightly more advanced stuff in this section, including how you actually run your code without needing to use IRB and some more stylistic issues that come up frequently.

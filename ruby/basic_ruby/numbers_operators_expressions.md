@@ -16,6 +16,7 @@ This is pretty straightforward stuff.  The goal here is to familiarize yourself 
 * Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html)
 * Read [Learn to Program Chapter 1](http://pine.fm/LearnToProgram/?Chapter=01) (You should already have completed this)
 * Read [http://rubylearning.com/satishtalim/numbers_in_ruby.html](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
+* If you prefer video, Treehouse has a [free video on numbers](http://teamtreehouse.com/library/programming/ruby-foundations/numbers/creating-numbers)
 
 ### A Brief Summary
 

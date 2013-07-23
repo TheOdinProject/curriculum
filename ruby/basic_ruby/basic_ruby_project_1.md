@@ -5,6 +5,10 @@ By now you should feel pretty good working with strings, arrays and hashes.  We'
 
 You can do these in IRB or create a separate script file to run from the command line if you know how to do that (we'll cover it in the next few sections).
 
+## Warmup
+
+Build the simple [User Input Word Counter tutorial from Codecademy](http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1).
+
 ## 1. Caesar Cipher
 
 From Wikipedia:
