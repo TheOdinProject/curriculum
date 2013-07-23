@@ -2,12 +2,14 @@
 
 ## !! This section is in the "Collecting Resources" phase !!
 
+See longer Rails tutorials at Jumpstart:
 http://tutorials.jumpstartlab.com/
-railsapps
+
+Daniel Kehoe's Railsapps
 railsapps list of resources:
 https://tutorials.railsapps.org/rails-tutorial
 
-Rails tutorial
+Rails tutorial by Michael Hartl
 
 UT rails course:
 http://schneems.com/ut-rails
