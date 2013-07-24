@@ -5,4 +5,6 @@
 Projects: 
 Build Facebook's profile page
 
-Rebuild Bootstrap
+Rebuild Bootstrap/foundation
+* responsive grid
+* 

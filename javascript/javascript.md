@@ -21,3 +21,5 @@ Codeplayer game for snake: http://thecodeplayer.com/walkthrough/html5-game-tutor
 
 Tutorials @ Jumpstart for JS and JQ:
 http://tutorials.jumpstartlab.com/
+
+Rebuild interactive features like a dropdown... start by building the tools, then use them, then abstract further.
