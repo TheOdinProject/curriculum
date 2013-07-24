@@ -1,4 +1,4 @@
-# Level 2 Ruby
+# Solving Problems with Ruby
 
 *[Top level table of contents](/README.md)*
 
@@ -6,101 +6,32 @@
 
 ## Intro
 
-## Warmup
-1. Work through [Codecademy's Movie Project tutorial](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1/0/1)
-2. 
-## Style
-### Intro and Goals
-### Thought Questions
-### Do These First
-* https://github.com/bbatsov/ruby-style-guide
+You've mastered the very basics of Ruby and had the chance to write script files filled with methods.  It didn't even take that long! You can already do plenty of useful things with just that knowledge but, in order to create scripts to solve more complex problems, you'll need to take the next step forward and learn some additional stuff.
 
-### A Brief Summary
-### Exercises
-### Additional Resources
+If you have a bigger problem to solve, how do you figure out what to put into your methods? When should you use classes instead?  How should you organize your code and make it not look completely amateurish?  What is the best way to first tackle that new problem and start writing Ruby to solve it?  What's the most efficient way to debug errors?
 
-## Classes, Modules and Inheritance
-### Intro and Goals
-### Thought Questions
-* How does inheritance work?
-* What is a class method?
-* How is a class method different from a "regular" method?
-* What is a module?
-* What is a private method?
-* What is a protected method?
-* How are private and protected methods different?
-
-### Do These First
-* Codecademy's [Object-Oriented Programming learning module](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6)
-* Codecademy's [OOP Project](http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1)
-* Codecademy's [OOP II section](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o)
-* Codecademy's [OOP II Project](http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1)
-
-### A Brief Summary
-### Exercises
-### Additional Resources
-
-## Designing Good Code
-### Intro and Goals
-### Thought Questions
-Shallow and deep clones?
-### Do These First
-[Codecademy's Zen of Ruby course](http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb)
-### A Brief Summary
-### Exercises
-### Additional Resources
-
-## Debugging your Code
-### Intro and Goals
-### Thought Questions
-### Do These First
-### A Brief Summary
-### Exercises
-### Additional Resources
-
-## Refactoring your Code
-### Intro and Goals
-### Thought Questions
-### Do These First
-* [Codecademy's Refactoring Section](http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb)
-* [Codecademy's Refactoring Project](http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y/0/1)
-* 
-
-### A Brief Summary
-### Exercises
-### Additional Resources
-
-## Scope of Variables
-### Intro and Goals
-### Thought Questions
-* Pass-by-reference
-
-### Do These First
-### A Brief Summary
-### Exercises
-### Additional Resources
-
-## Recursion
-### Intro and Goals
-### Thought Questions
-### Do These First
-### A Brief Summary
-### Exercises
-### Additional Resources
-
-## Additional Topics
-### Intro and Goals
-### Thought Questions
-* metaprogramming
-* Reflection
-* shortcut syntaxes for things like `map`
-* __file__ == $PROGRAM_NAME trick
-
-### Do These First
-### A Brief Summary
-### Exercises
-### Additional Resources
+This section will answer those questions and more.  You'll start working on some more interesting coding projects as well (games!).  By the end, you should feel much more comfortable taking a new challenge and converting it into elegant, useful Ruby.  Your methods should start to feel cleaner, simpler, and better organized.  You'll still probably scratch your head and wonder if your code is really any good but it will get better with every new project you do.
 
 
+## Roadmap
+2. [Classes, Modules, and Inheritance](classes.md)
+7. [Scope of Variables](scope.md)
+4. [Designing Good Code](design.md)
+3. [Good Style](style.md)
+5. [Debugging Your Code](debugging.md)
+6. [Refactoring your Code](refactoring.md)
+8. [Recursion](recursion.md)
+9. [Additional Topics](additional-topics.md)
+9. [PROJECT](basic_ruby_project_1.md)(~6 hours)
 
+
+## Finish
+
+You've built actual games that you can play with your friends (albeit from the command line) and we're barely getting into this stuff.  In the following sections, we'll get into some of the more formal Computer Science ways of solving complex problems before venturing out into the World Wide Web to let you unleash your Ruby powers on the unsuspecting Internet.  
+
+
+## Additional Resources
+*Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
+
+* Add Here
 
