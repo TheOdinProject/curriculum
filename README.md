@@ -46,23 +46,23 @@ If you have questions about The Odin Project itself, [contact us here](mailto:ad
 
 If you'll be linking to the curriculum, it's safest to link to the top-level Table of Contents here since some of the subcategories are likely to change.
 
-## Curriculum Table of Contents
+## Curriculum Roadmap
 *Use these links to navigate to the appropriate course unit*
 
-  * [Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)
-  * [Installing the Technology](/installations/installations.md)
-  * [Pair Programming and Remote Pairing](/pairing/pairing.md)
-  * [Web Development 101](/web_development_basics/web_development_basics.md)
-  * [Ruby (in development)](/ruby/ruby.md)
-  * Databases and SQL
-  * Git
-  * HTML and CSS
-  * Ruby on Rails
-  * Javascript
-  * Tying it all Together
-  * Advanced Developer Topics
-  * Jobs Jobs Jobs
-  * Additional Resources
+  1. [Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)
+  1. [Installing the Technology](/installations/installations.md)
+  1. [Pair Programming and Remote Pairing](/pairing/pairing.md)
+  1. [Web Development 101](/web_development_basics/web_development_basics.md)
+  1. [Ruby (in development)](/ruby/ruby.md)
+  1. Databases and SQL
+  1. Git
+  1. HTML and CSS
+  1. Ruby on Rails
+  1. Javascript
+  1. Tying it all Together
+  1. Advanced Developer Topics
+  1. Jobs Jobs Jobs
+  1. Additional Resources
 
 <hr>
 **Help! How does this work?**
