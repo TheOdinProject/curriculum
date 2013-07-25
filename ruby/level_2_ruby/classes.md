@@ -22,6 +22,9 @@ We've got a fair bit of stuff crammed into this section but it gives you superpo
 * What is a class method?
 * How is a class method different from an instance method?
 * How are methods you already know like `count` or `sort` etc instance methods?
+* What are "getter" and "setter" methods used for?
+* What is the difference between a "getter" and a "setter" method?
+* How do you make instance variables readable outside your class?  Writeable? Both at the same time?
 * What's the difference between how you declare a class method vs an instance method?
 * What's the difference between how you call a class method vs an instance method?
 * What is an instance variable?
@@ -132,7 +135,28 @@ That was easy!  What if you decide that you want to set that variable yourself? 
         @health = new_health
     end
 
-Well, you can imagine that you probably would be writing a whole log of those methods, so Ruby gives you a helper method called **`attr_accessor`**, which will create those for you.  Just pass it the symbols for whatever variables you want to make accessible
+Well, you can imagine that you'll probably be writing a whole lot of those methods, so Ruby gives you a helper method called **`attr_accessor`**, which will create those getters and setters for you.  Just pass it the symbols for whatever variables you want to make accessible and POOF! those methods will now exist for you to use:
+
+    class Viking
+        attr_accessor :name, :age, :health, :strength
+        # codecodecode
+    end
+
+`attr_accessor` isn't magical, it just uses Ruby's ability to create methods from within your script (part of "metaprogramming") to set up `name` and `name=(new_name)` and `age` and `age=(new_age)` etc.
+
+You shouldn't make anything readable and certainly not writeable without a good reason.  If you only want one or the other, Ruby gives you the similar **`attr_reader`** and **`attr_writer`** methods.  They should be pretty self explanatory.
+
+Because of your getters and setters, there are two different ways to access an instance variable from inside your class, either calling it normally using `@age` or calling the method on the instance using `self`, which we learned about previously.  Before, we said it represented whatever object called a particular method.  Now, if we're using it inside another method, it's just the instance that houses them both.  An example is clearer:
+
+    class Viking
+        ...
+        def take_damage(damage)
+            self.health -= damage
+            # OR we could have said @health -= damage
+        end
+        ...
+    end
+
 
 ### Exercises
 ### Additional Resources
