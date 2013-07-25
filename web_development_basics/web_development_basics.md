@@ -330,9 +330,9 @@ A final note -- you'll be learning a bunch of new terminology and concepts here 
 **Bonus:**
 
 Redo the same Project Euler problems that you previously did in Javascript but using Ruby instead (try using IRB or a .rb file that you run from the command line):
-    1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
-    2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
-    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3) (remember, don't bother for anything over 100,000 doing the brute force solution or you'll need a few days to calculate...)
+1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
+2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
+3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3) (remember, don't bother for anything over 100,000 doing the brute force solution or you'll need a few days to calculate...)
 
 TODO: Ruby walkthrough video
 
