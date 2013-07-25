@@ -46,6 +46,7 @@ TODO: Break out into the Scope section instead.
 2. Codecademy's [OOP Project](http://www.codecademy.com/courses/ruby-beginner-en-X5wcR/0/1)
 3. Codecademy's [OOP II section](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o)
 4. Codecademy's [OOP II Project](http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1)
+5. Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/), though only go until they start talking about Inheritance (about 3/4 of the way down).
 
 ### A Brief Summary
 ### Exercises
