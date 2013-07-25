@@ -328,6 +328,7 @@ A final note -- you'll be learning a bunch of new terminology and concepts here 
 4. Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
 
 **Bonus:**
+
 Redo the same Project Euler problems that you previously did in Javascript but using Ruby instead (try using IRB or a .rb file that you run from the command line):
     1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
     2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
