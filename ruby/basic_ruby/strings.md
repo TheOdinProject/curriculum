@@ -194,4 +194,5 @@ While you're learning, just stick with strings until you see the examples using 
 
 * [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
 * [Learn Code The Hard Way on Strings](http://ruby.learncodethehardway.org/book/ex6.html)
+* [Zetcode's section on Regular Expressions](http://zetcode.com/lang/rubytutorial/regex/) is a solid walk through them if you want to stretch your RegEx wings.
 * Add Here!

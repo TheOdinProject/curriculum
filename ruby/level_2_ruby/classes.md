@@ -47,6 +47,7 @@ TODO: Break out into the Scope section instead.
 3. Codecademy's [OOP II section](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o)
 4. Codecademy's [OOP II Project](http://www.codecademy.com/courses/ruby-beginner-en-32cN3/0/1)
 5. Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/), though only go until they start talking about Inheritance (about 3/4 of the way down).
+6. Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down)
 
 ### A Brief Summary
 ### Exercises
