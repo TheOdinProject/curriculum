@@ -30,6 +30,7 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 
 ### Check These Out First
 * Do [Codecademy's section on arrays](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1) for some practice with them
+* TODO
 
 
 ### A Brief Summary

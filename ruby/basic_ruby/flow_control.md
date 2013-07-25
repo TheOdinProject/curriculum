@@ -19,7 +19,8 @@ Now you've got an understanding of what tools you can use and it's time to start
 
 #### Check These Out First
 * Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
-* Do the [Codecademy Control Flow Course (all sections)](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
+* Do the [Codecademy Control Flow Course](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
+* Do the [Codecademy Control Flow Project](http://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1)
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 
 #### A Brief Summary

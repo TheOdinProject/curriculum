@@ -192,4 +192,5 @@ While you're learning, just stick with strings until you see the examples using 
 ### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
+* [Learn Code The Hard Way on Strings](http://ruby.learncodethehardway.org/book/ex6.html)
 * Add Here!

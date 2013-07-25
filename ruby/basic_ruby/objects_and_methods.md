@@ -25,6 +25,7 @@ Hopefully you've already picked most of this up from the prep-work.
 
 ### Check These Out First
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
+* TODO: Basic Methods and Objects, railsbridge?
 
 ### A Brief Summary
   

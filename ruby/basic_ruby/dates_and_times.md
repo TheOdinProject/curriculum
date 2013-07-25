@@ -17,6 +17,7 @@ Ruby uses the `Time` class to let you work with dates and times, giving you some
 
 ### Check These Out First
 * The [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
+* TODO
 
 ### A Brief Summary
 To **Get Current Time** you just create a new `Time` object with no parameters or use `Time.now`, which is the same thing:

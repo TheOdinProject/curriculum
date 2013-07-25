@@ -12,6 +12,7 @@ Hashes may be a bit intimidating at first but they're actually pretty similar to
 * What is the hash rocket?
 * How do you access data in a hash?
 * How do you change data in a hash?
+* What types of data are good to store in a hash?
 * What are options hashes?
 * How do you delete data from a hash?
 * How do you add hashes together?
@@ -54,16 +55,27 @@ You store data in a hash by matching a key with a value.  Use the **Hash Rocket*
     > favorite_colors
     => {"eyes"=>"blue", "hair"=>"blonde", "skin"=>"sunburned"}
 
-Hashes are useful for lots of reasons behind the scenes, but it should be immediately obvious that you can handle more nuanced data than you can with arrays.  How about a dictionary of words?  Just store the words as keys and the meanings as values, if you so choose.  
+**When might you use a hash**?  Hashes are useful for lots of reasons behind the scenes, but it should be immediately obvious that you can handle more nuanced data than you can with arrays.  How about a dictionary of words?  Just store the words as keys and the meanings as values, if you so choose.
+
+When you're writing a program that needs to keep track of an object that has several different attributes but isn't terribly complex, a hash can be a perfect solution to avoid using a bunch of different variables to store the same data:
+
+    player_health = 100
+    player_name = "Player1"
+    player_speed = 7
+
+or, better:
+
+    player = { "health" => 100, "name" => "Player1", "speed" => 7}
+
 You see hashes all the time in Rails, including as a way of passing options or parameters to a method (since they can store all kinds of different things and be variably sized), and these are often called **Options Hashes**.  Methods are often defined along the lines of `def method_name arg1, arg2, arg3, options_hash`, allowing the user to specify any number of different parameters for that method.  
 
 Note that, when calling a method, if a hash is the last argument you are entering, *you can skip the squiggly braces*.  It's convenient, but can be a real head-scratcher for beginners who are trying to read code and wondering why there are methods being called with strangely mixed inputs and no braces:
 
     > some_object.some_method argument1, argument2, :param1 => value1, :param2 => value2
 
-Or, for a real version in Rails that creates a link on the webpage and can optionally assign it an ID (among other things):
+Or, how about a real version in Rails?  The `link_to` helper creates a link on the webpage and you can optionally assign it an ID and class (among other things like class and title attributes) by passing that in to the options hash:
 
-    > link_to "click here!", "http://www.example.com", :id => "my-special-link"
+    > link_to "click here!", "http://www.example.com", :id => "my-special-link", :class => "clickable_link"
 
 If you recall our discussion from Strings, we use symbols as keys for hashes more often than not.
 

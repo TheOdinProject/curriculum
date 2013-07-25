@@ -255,7 +255,8 @@ Estimated Time: 2-4 hrs
 This should not be trivially easy for you.  You'll probably have to Google often to get the right jQuery methods or CSS to use and that's the point.
 
 **Sketch Pad**
-1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.  
+
+1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
     2. Best to put your grid squares inside another "container" div.
     1. There are several different ways to make the divs appear as a grid (versus just one on each line) -- `float`/`clear`, using a `table`, and `inline-block` displays.  Play with each of them.
@@ -321,16 +322,18 @@ With either of the languages, there are a couple of things that aren't immediate
 A final note -- you'll be learning a bunch of new terminology and concepts here but don't think they're only applicable to Ruby.  Most of it (like methods, classes, objects etc.) will pop up again in Javascript and pretty much any other language you pick up.
 
 ##### Assignment:
-1. Go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.
+1. Go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.  Don't worry about the stuff where they're reading from a file, that's getting deeper than you need to right now.
 2. Read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations), which you should have done already.
-3. Dive in a little deeper with Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
+3. Dive in a little deeper by reading chapters 1-10 of Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
 4. Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
 
 **Bonus:**
+
 Redo the same Project Euler problems that you previously did in Javascript but using Ruby instead (try using IRB or a .rb file that you run from the command line):
-    1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
-    2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
-    3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3) (remember, don't bother for anything over 100,000 doing the brute force solution or you'll need a few days to calculate...)
+
+1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
+2. [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
+3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3) (remember, don't bother for anything over 100,000 doing the brute force solution or you'll need a few days to calculate...)
 
 TODO: Ruby walkthrough video
 
@@ -568,7 +571,6 @@ Estimated Time: .5 hrs
 FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is regardless.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.
 
 ## How Are Websites Built?
-TODO: In Becoming section instead?
 
 ### Macro Level: From Client to Developer and Back
 
@@ -578,6 +580,8 @@ TODO: client team handoff, scrum, cards/stories, gogo, circle back, scrum.... de
 
 TODO: tech used, who gets spoken to, where debugs are usually needed, when tests are written, how deployment goes, interactions with other team members.
 
+*Are you an experienced developer?  We'd love to find out what exactly the life cycle of a project looks like.  Please [email us](mailto:curriculum@theodinproject.com) if we can do a quick interview about it and post it here!  If you know of a good interview on the web that does the same thing, please let us know about that as well.*
+
 ## Principles of Good Programming
 Estimated Time: 1 hrs
 
@@ -585,8 +589,8 @@ There are a handful of generally accepted principles of good programming.  You'l
 
 ## Other "Dumb" (or frequently asked) Questions Answered
 
-* Do you still have any beginner questions left over? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add them here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
-* 
+*Do you still have any beginner questions left over? [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add them here, then [submit a pull request](https://help.github.com/articles/using-pull-requests).*
+* *Your question here...*
 
 ## Finish
 
@@ -600,4 +604,10 @@ With what you know already, you could start putting together some basic websites
 
 ## Additional Resources
 
+<<<<<<< HEAD
 If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+=======
+*If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).*
+* *Additional Resources Here...*
+
+>>>>>>> upstream/master

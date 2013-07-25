@@ -18,3 +18,8 @@ $$http://www.backbonerails.com/
 https://github.com/hybridgroup/betterfrontend
 
 Codeplayer game for snake: http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery
+
+Tutorials @ Jumpstart for JS and JQ:
+http://tutorials.jumpstartlab.com/
+
+Rebuild interactive features like a dropdown... start by building the tools, then use them, then abstract further.
