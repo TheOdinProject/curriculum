@@ -15,6 +15,7 @@ We've got a fair bit of stuff crammed into this section but it gives you superpo
 * When should you use a class?
 * How do you write a class in your script file?
 * What is an instance of a class?
+* What is the difference between the CamelCase and snake_case styles of naming?
 * How do you instantiate a class?
 * How do you run some code whenever you make a new instance?
 * What should be done in the `initialize` method?
@@ -37,6 +38,7 @@ TODO: Break out into the Scope section instead.
 * How does inheritance work?
 * What is a module?
 * When should you use a module?
+* What's the difference between a class and a module? (instantiation!)
 * What is a private method?
 * What is a protected method?
 * How are private and protected methods different?
@@ -50,7 +52,104 @@ TODO: Break out into the Scope section instead.
 6. Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down)
 
 ### A Brief Summary
+
+We've been over storing data in hashes, but what happens when you want to treat that data like a real object and make it move?  Or if you want to handle 10,000 different instances of it? When you just store your `Viking`'s `name`, `age`, `health`, and `strength`, it just kind of sits there.  What about when you want to make an army of `Viking`s who can do stuff like `eat`, `travel`, `sleep` and, of course, `attack`?  For that, you need a slightly more complex structure to make your `Viking` out of, so you give it its own `Viking` class:
+
+    class Viking
+        # put your methods and variables here
+    end
+
+We've been dealing with classes since the very beginning, when it became clear that everything in Ruby is an object, whether strings, hashes, arrays or numbers, and these objects are instances of some type of class.  
+
+    > 1.class
+    => Integer
+    > [].class
+    => Array
+
+Just like being a part of `Array` gives `[1,2,3]` the `each` method, you can create your own classes that have access to shared methods as well.  
+
+To be able to amass a horde of 100 `Viking`s, you need a way to create new ones.  Each time you do that, it's called **Instantiating** a new `Viking`.  You use a special `new` method to do that.  You've done it many times for the `Array` class already:
+
+    > my_arr = Array.new
+    => []
+
+`new` is a **Class Method**, which means that you call it on the class (`Array` here) and not the specific instance of that class (which would be `my_arr` here).  When you call that method, it creates a new instance of that class and then runs a special method in the class called `initialize`, which will set up that class to be ready for use.  If you pass variables to your class when you create it with the `new` method, they will be available to the `initialize` method.  Your `Viking` class would start by looking like:
+
+    class Viking
+        def initialize(name, age, health, strength)
+            # set up your new viking however you want to
+        end
+    end
+
+Classes share their methods, but what about variables?  You don't want all your Vikings to have the same strength, so we use **instance variables** to take care of that.  You designate an instance variable using the `@variable_name` notation, and you'll be able to use it the same *way* for every instance of Viking but it will have a unique *value* for each.  When your instance is destroyed, you lose access to its instance variables as well.  You'd usually set them up in your `initialize` method:
+
+    class Viking
+        def initialize(name, age, health, strength)
+            @name = name
+            @age = age
+            @health = health
+            @strength = strength
+        end
+    end
+
+    > oleg = Viking.new("Oleg", 19, 100, 8)
+    => #<Viking:0x007ffc0597bae0>
+
+Note that the class name is always capitalized and multiple words use **CamelCase** (capitalized with no spaces) not the **snake_case** (lowercase with spaces as underscores) you've typically seen for variables.
+
+What was that random string in `#<Viking:0x007ffc0597bae0>`?  That's the position in the computer's memory that the viking object is stored (don't worry about it).
+
+If you want to give your viking some actions it can do, give it some methods.  Since these methods get called on an individual instance of the Viking class, they're called **Instance Methods**, just the same as all your old friends like `each` and `sort` and `max` etc.  We just usually don't call them "instance" methods so maybe it wasn't obvious.
+
+    class Viking
+        def initialize(name, age, health, strength)
+            # codecodecode
+        end
+        def attack(enemy)
+            # code to fight
+        end
+    end
+
+Now, if I had two Vikings, `oleg` and `lars`, I could say `> lars.attack(oleg)` and it would run that method. 
+
+So now you want to know what `oleg`'s health is:
+
+    > oleg.health
+    NoMethodError: undefined method 'health' for #<Viking:0x007ffc0597bae0>
+
+Woah! The instance variables are a part of `oleg` but you can't access them from outside him because it's really nobody's business but his.  So you have to create a method specifically to get that variable, called a **getter** method, and just name it the same thing as the variable you want:
+
+    def health
+        @health
+    end
+
+    > oleg.health
+    => 87
+
+That was easy!  What if you decide that you want to set that variable yourself?  You need to create a **setter** method, which is similar syntax to the getter but with an equals sign and taking an argument:
+
+    def health=(new_health)
+        @health = new_health
+    end
+
+Well, you can imagine that you probably would be writing a whole log of those methods, so Ruby gives you a helper method called **`attr_accessor`**, which will create those for you.  Just pass it the symbols for whatever variables you want to make accessible
+
 ### Exercises
 ### Additional Resources
 * [Zetcode on Objects](http://zetcode.com/lang/rubytutorial/objects/)
-* 
+* [TutorialsPoint on Classes](http://www.tutorialspoint.com/ruby/ruby_classes.htm) is a basic walkthrough of classes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
