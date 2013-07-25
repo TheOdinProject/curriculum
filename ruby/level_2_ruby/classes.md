@@ -50,3 +50,5 @@ TODO: Break out into the Scope section instead.
 ### A Brief Summary
 ### Exercises
 ### Additional Resources
+* [Zetcode on Objects](http://zetcode.com/lang/rubytutorial/objects/)
+* 

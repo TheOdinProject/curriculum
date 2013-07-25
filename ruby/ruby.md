@@ -22,7 +22,7 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 
 The goal here is to provide as much of this curriculum as possible using free resources.  If you've done the prep work from Web Development 101 then you should have a good handle on the basics but these resources are important to help you really understand the material.
 * The staple online book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.
-* Another good online resource is [Zetcode's Ruby Tutorial](http://zetcode.com/lang/rubytutorial/).
+* Another good online resource is [Zetcode's Ruby Tutorial](http://zetcode.com/lang/rubytutorial/).  It can get a bit technical at times but bear with it.
 * For the crazies: Why's [Poignant Guide to Programming](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html) (check it out... if it jives with your learning style, you may have found the match you never thought you'd find)
 * If there's anything you need to brush up on still: [The Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/) has sections on many topics you might want to dive back into for a deeper look.
 
