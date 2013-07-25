@@ -13,9 +13,8 @@ This is pretty straightforward stuff.  The goal here is to familiarize yourself 
 * What are three ways to create a range?
 
 ### Check These Out First
-* Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html)
-* Read [Learn to Program Chapter 1](http://pine.fm/LearnToProgram/?Chapter=01) (You should already have completed this)
-* Read [http://rubylearning.com/satishtalim/numbers_in_ruby.html](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
+* Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html) for a basic treatment of numbers.
+* Read [Zetcode's Data Types section](http://zetcode.com/lang/rubytutorial/datatypes/) for a bit more depth on the subject.
 * If you prefer video, Treehouse has a [free video on numbers](http://teamtreehouse.com/library/programming/ruby-foundations/numbers/creating-numbers)
 
 ### A Brief Summary
@@ -75,4 +74,6 @@ See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-rub
 ### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
+* Read [Learn to Program Chapter 1](http://pine.fm/LearnToProgram/?Chapter=01) (You should already have completed this)
+* Read [http://rubylearning.com/satishtalim/numbers_in_ruby.html](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
 * Add Here!
