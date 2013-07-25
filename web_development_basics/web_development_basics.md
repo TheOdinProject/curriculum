@@ -322,7 +322,7 @@ With either of the languages, there are a couple of things that aren't immediate
 A final note -- you'll be learning a bunch of new terminology and concepts here but don't think they're only applicable to Ruby.  Most of it (like methods, classes, objects etc.) will pop up again in Javascript and pretty much any other language you pick up.
 
 ##### Assignment:
-1. Go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.
+1. Go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.  Don't worry about the stuff where they're reading from a file, that's getting deeper than you need to right now.
 2. Read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations), which you should have done already.
 3. Dive in a little deeper by reading chapters 1-10 of Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
 4. Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
