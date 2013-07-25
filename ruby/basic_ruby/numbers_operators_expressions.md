@@ -75,5 +75,6 @@ See [http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-rub
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
 * Read [Learn to Program Chapter 1](http://pine.fm/LearnToProgram/?Chapter=01) (You should already have completed this)
+* [Zetcode's Expressions Section](http://zetcode.com/lang/rubytutorial/expressions/) gets into real depth about expressions and operators.
 * Read [http://rubylearning.com/satishtalim/numbers_in_ruby.html](http://rubylearning.com/satishtalim/numbers_in_ruby.html)
 * Add Here!
