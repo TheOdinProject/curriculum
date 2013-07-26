@@ -1,4 +1,4 @@
-## Scope of Variables
+## Scope and Inheritance
 ### Intro and Goals
 ### Thought Questions
 * Pass-by-reference
