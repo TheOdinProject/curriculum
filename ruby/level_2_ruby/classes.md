@@ -36,6 +36,7 @@ We've got a fair bit of stuff crammed into this section but it gives you superpo
 * Why would you use `attr_accessor`?
 * What are two ways of getting an instance variable from an instance of a class?
 * Can a class call its own class methods?
+* What's the difference between when would you use a class variable and when you would use a constant?
 
 TODO: Break out into the Scope section instead.
 * How does inheritance work?
@@ -84,7 +85,7 @@ To be able to amass a horde of 100 `Viking`s, you need a way to create new ones.
         end
     end
 
-Classes share their methods, but what about variables?  You don't want all your Vikings to have the same strength, so we use **instance variables** to take care of that.  You designate an instance variable using the `@variable_name` notation, and you'll be able to use it the same *way* for every instance of Viking but it will have a unique *value* for each.  When your instance is destroyed, you lose access to its instance variables as well.  You'd usually set them up in your `initialize` method:
+Classes share their methods, but what about variables?  You don't want all your Vikings to have the same strength, so we use **instance variables** to take care of that.  You designate an instance variable using the `@variable_name` notation, and you'll be able to use it the same *way* for every instance of Viking but it will have a unique *value* for each.  These instance variables are part of setting up your object's *state*.  When your instance is destroyed, you lose access to its instance variables as well.  You'd usually set them up in your `initialize` method:
 
     class Viking
         def initialize(name, age, health, strength)
@@ -146,16 +147,67 @@ Well, you can imagine that you'll probably be writing a whole lot of those metho
 
 You shouldn't make anything readable and certainly not writeable without a good reason.  If you only want one or the other, Ruby gives you the similar **`attr_reader`** and **`attr_writer`** methods.  They should be pretty self explanatory.
 
-Because of your getters and setters, there are two different ways to access an instance variable from inside your class, either calling it normally using `@age` or calling the method on the instance using `self`, which we learned about previously.  Before, we said it represented whatever object called a particular method.  Now, if we're using it inside another method, it's just the instance that houses them both.  An example is clearer:
+Because of your getters and setters, there are two different ways to access an instance variable from inside your class, either calling it normally using `@age` or calling the method on the instance using `self`, which we learned about previously.  Before, we said it represented whatever object called a particular method.  Since the original method (below it's `take_damage`) is being called on an instance of the class, that instance becomes `self`.  An example is clearer:
 
     class Viking
         ...
         def take_damage(damage)
             self.health -= damage
             # OR we could have said @health -= damage
+            self.shout("OUCH!")
+        end
+        def shout(str)
+            puts str
         end
         ...
     end
+
+You can also call methods from within other methods, as we saw with `shout` above.  In that case, the `self` is actually optional because Ruby assumes if you just type `shout("OUCH!")` that you're trying to run the method `shout` and Ruby will see if the method exists.  That works 90% of the time, unless you've done something that overrides Ruby's assumption that you're trying to run a method, like using the `=` assignment operator:
+
+    ...
+        def sleep
+            health += 1 unless health >= 99   # ! FAIL !
+        end
+    ...
+
+Here, Ruby assumes you're trying to set up a new `health` variable using `health=` instead of accessing the one that currently exists as `@health`.  Just an edge case to watch out for if you start eliminating your `self`'s.
+
+Let's zoom away from the instance level and back to the class level for a second.  Just like you've got instance variables and instance methods, you also get **class variables** and class methods.  Class variables, denoted with TWO `@@`'s, are owned by the class itself so there is only one of them overall instead of one per instance.  
+
+In this example, we assume that all Vikings start with the same health, so we don't make it a parameter you can pass in:
+
+    class Viking
+        @@starting_health
+        def initialize(name, age, strength)
+            @health = @@starting_health
+            # ...other stuff
+        end
+    end
+
+What about class methods?  You define a class method by preceding its name with `self` (which should make sense after our discussion of `self`... you'll be calling the methods using `ClassName.class_method_name` so `self` will be the class itself).
+
+There are two good times to use class methods: when you're building new instances of a class that have a bunch of known or "preset" features, and when you have some sort of utility method that should be identical across all instances and won't need to directly access instance variables.  
+
+The first case is called a **factory method**, and is designed to save you from having to keep passing a bunch of parameters manually to your `initialize` function:
+
+    class Viking
+        def initialize(name, health, age, strength)
+            #... set variables
+        end
+        def self.create_child(name)
+            age = rand * 18   # remember, rand gives a random 0 to 1
+            health = age * 5
+            strength = age / 2
+            Viking.new(name, health, age, strength)  # returned
+        end
+    end
+
+    > olga = Viking.create_child("olga")
+    => #<Viking:0x007ffc0402f348 @age=13.453281957963075, @name="olga", @health=67.26640978981537, @strength=6.726640978981537> 
+
+It's pretty handy of IRB to list out the instance variables for you.  It's almost identical to the output if you were to type `olga.inspect` (only the strings show up a bit differently).
+
+
 
 
 ### Exercises
