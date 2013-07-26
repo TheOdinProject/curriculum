@@ -1,37 +1,22 @@
-# inputs = ARGV
-# inputs.each_with_index do |input, i|
-#   puts "Input at #{i} is #{input}!"
-# end
-# puts "ARGV splatted is: #{ARGV.inspect}"
-# puts "FILE is #{__FILE__}!"
-# puts "$0 is #{$0}!"
-# puts "$: is #{$:}!"
-# puts "$LOAD_PATH is #{$LOAD_PATH}!"
-# puts "I'm a command line script now!" if $0 == __FILE__
 
-module My_enum
 
-  def printer
-    puts "PRINTER"
+class Viking
+
+  def initialize(name, health, age, strength)
+    @age = age
+    @name = name
+    @health = health
+    @strength = strength
   end
 
+        def self.create_warrior(name)
+            age = rand * 20 + 15   # remember, rand gives a random 0 to 1
+            health = [age * 5, 120].min
+            strength = [age / 2, 10].min
+            Viking.new(name, health, age, strength)  # returned
+        end
 end
 
-class Array
-  include My_enum
-
-  def self.boom
-    puts "BOOM! CLASS METHOD!"
-  end
-
-  def random
-    puts "RANDOM"
-  end
-
-
-end
-
-
-[].random
-Array.boom
-[].printer
+oleg = Viking.new("Oleg", 19, 100, 8)
+olga = Viking.create_child("olga")
+puts "WOOO"

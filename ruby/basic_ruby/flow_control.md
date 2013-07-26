@@ -22,6 +22,7 @@ Now you've got an understanding of what tools you can use and it's time to start
 * Do the [Codecademy Control Flow Course](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
 * Do the [Codecademy Control Flow Project](http://www.codecademy.com/courses/ruby-beginner-en-JdNDe/0/1)
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
+* Read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/) for more depth on flow control.
 
 #### A Brief Summary
 

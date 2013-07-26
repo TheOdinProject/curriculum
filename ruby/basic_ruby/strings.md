@@ -14,7 +14,7 @@ This section should give you an appreciation for the ways you can mess with stri
 * How do you concatenate strings?
 * How do you access a specific character or substring?
 * How do you split up strings into arrays?
-* How are strings an arrays similar?
+* How are strings and arrays similar?
 * How do you get and clean up user input on the command line?
 * What does it mean that strings are "mutable" and why care?
 * What is a symbol?
@@ -23,10 +23,10 @@ This section should give you an appreciation for the ways you can mess with stri
 * How can you center or justify a string?
 
 ### Check These Out First
-* [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
-* A list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby
+* Read [Zetcode's Strings section](http://zetcode.com/lang/rubytutorial/strings/) for an in-depth look at strings.
 * Read through (and watch the video) for this [Regular Expressions in Ruby](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-regular-expressions/) explanation.
-* A great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
+* Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
+* Check out this list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby for reference.
 
 ### A Brief Summary
 Strings are just made up of individual characters and denoted with quotes.  `> I confuse Ruby and probably throw an error` but `> "I do not because I have quotes"`  
@@ -192,5 +192,7 @@ While you're learning, just stick with strings until you see the examples using 
 ### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
+* [Chris Pine on Strings](http://pine.fm/LearnToProgram/?Chapter=02) (was part of the prep work)
 * [Learn Code The Hard Way on Strings](http://ruby.learncodethehardway.org/book/ex6.html)
+* [Zetcode's section on Regular Expressions](http://zetcode.com/lang/rubytutorial/regex/) is a solid walk through them if you want to stretch your RegEx wings.
 * Add Here!

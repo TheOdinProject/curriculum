@@ -369,6 +369,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * The Railsbridge [Ruby curriculum](http://curriculum.railsbridge.org/ruby/).
 * Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet but may help you shore up some of the concepts.
 * See the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) for a condensed list of common commands and concepts.
+* Read [Smashing Magazine's Intro to Ruby article](http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
 
 ### Databases
 Estimated Time: ??? hrs
@@ -564,6 +565,8 @@ To understand the basics of HTTPS and SSL, which help secure transactions on the
 
   SSL is a type of certificate used to make sure the contents of a packet (note) don't get read. It's like putting your note in a lockbox and you've given Suzy the key ahead of time. She's the only one who can see what's in the box, because she has the key (the SSL certificate). HTTPS is an altered version of the HTTP protocol which makes sure whoever tries to open the box has the key. If anyone tries to read the note and they don't have the key, all they'll see is garbled (encrypted) data, which will most likely just look like random characters. it's like they took the box and just tried smashing it on the floor, but it ripped the note apart in the process.
 </blockquote>
+
+If you're curious about how HTTPS secures connections, check out [this article from Hartley Brody](http://blog.hartleybrody.com/https-certificates/).
 
 #### FTP
 Estimated Time: .5 hrs
