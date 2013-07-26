@@ -225,7 +225,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 **Student Solutions**
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 * [RebootJeff's solutions](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
-* *Your solution here...*
+* *Your solutions here...*
 
 **Additional Resources:**
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
@@ -279,7 +279,7 @@ This should not be trivially easy for you.  You'll probably have to Google often
 
 **Student Solutions**
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
-
+* See RebootJeff's solution here: [source code](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
 * *Your solution here...* 
 
 ### Back End Basics
