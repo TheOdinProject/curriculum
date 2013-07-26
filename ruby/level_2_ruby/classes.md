@@ -29,12 +29,6 @@ We've got a fair bit of stuff crammed into this section but it gives you superpo
 * What's the difference between how you call a class method vs an instance method?
 * What is an instance variable?
 * What's the difference between an instance variable and a 'regular' variable?
-* What is a "setter" method?
-* How do you write your own setters?
-* What is a "getter" method and how do you write one?
-* What does `attr_accessor` do?
-* Why would you use `attr_accessor`?
-* What are two ways of getting an instance variable from an instance of a class?
 * Can a class call its own class methods?
 * What's the difference between when would you use a class variable and when you would use a constant?
 
@@ -99,7 +93,7 @@ Classes share their methods, but what about variables?  You don't want all your 
     > oleg = Viking.new("Oleg", 19, 100, 8)
     => #<Viking:0x007ffc0597bae0>
 
-Note that the class name is always capitalized and multiple words use **CamelCase** (capitalized with no spaces) not the **snake_case** (lowercase with spaces as underscores) you've typically seen for variables.
+Note that the class name is always capitalized and, for multiple words, uses **CamelCase** (capitalized with no spaces) not the **snake_case** (lowercase with spaces as underscores) you've typically seen for variables.
 
 What was that random string in `#<Viking:0x007ffc0597bae0>`?  That's the position in the computer's memory that the viking object is stored (don't worry about it).
 
@@ -184,7 +178,7 @@ In this example, we assume that all Vikings start with the same health, so we do
         end
     end
 
-What about class methods?  You define a class method by preceding its name with `self` (which should make sense after our discussion of `self`... you'll be calling the methods using `ClassName.class_method_name` so `self` will be the class itself).
+What about class methods?  You define a class method by preceding its name with `self` (e.g. `def self.class_method`) or, identically, just the name of the class (e.g. `def Viking.class_method`).  There's a less common method that puts the line `class << self` ahead of your method definitions (which won't use `self` anymore).
 
 There are two good times to use class methods: when you're building new instances of a class that have a bunch of known or "preset" features, and when you have some sort of utility method that should be identical across all instances and won't need to directly access instance variables.  
 
@@ -194,23 +188,49 @@ The first case is called a **factory method**, and is designed to save you from 
         def initialize(name, health, age, strength)
             #... set variables
         end
-        def self.create_child(name)
-            age = rand * 18   # remember, rand gives a random 0 to 1
-            health = age * 5
-            strength = age / 2
+        def self.create_warrior(name)
+            age = rand * 20 + 15   # remember, rand gives a random 0 to 1
+            health = [age * 5, 120].min
+            strength = [age / 2, 10].min
             Viking.new(name, health, age, strength)  # returned
         end
     end
 
-    > olga = Viking.create_child("olga")
-    => #<Viking:0x007ffc0402f348 @age=13.453281957963075, @name="olga", @health=67.26640978981537, @strength=6.726640978981537> 
+    > sten = Viking.create_warrior("Sten")
+    => #<Viking:0x007ffc05a79848 @age=21.388120526202737, @name="Sten", @health=106.94060263101369, @strength=10>
 
 It's pretty handy of IRB to list out the instance variables for you.  It's almost identical to the output if you were to type `olga.inspect` (only the strings show up a bit differently).
 
+The second case above is more mundane.  Often, there are things you need all Vikings to "know" or be able to do:
 
+    class Viking
+        ...
+        def self.random_name      # useful for making new warriors!
+            ["Erik","Lars","Leif"].sample
+        end
+        def self.silver_to_gold(silver_pieces)
+            silver_pieces / 10
+        end
+        class << self           # The less common way
+            def gold_to_silver(gold_pieces)
+                gold_pieces * 10
+            end
+        end
+    end
 
+    > warrior1 = Viking.create_warrior(Viking.random_name)
+    => #<Viking:0x007ffc05a745c8 @age=22.369775138257097, @name="Lars", @health=111.84887569128549, @strength=10>
+
+**Quick Basics** 
+* Classes are useful to use when you want to give methods to your data or have multiple instances of your data
+* Class methods have access to other class methods and class variables but don't have access to instance methods or instance variables
+* Instance methods can call other instance methods, instance variables, class methods, or class variables
+
+If you're thinking that class variables seem pretty similar to constants, they are only similar in that all instances have access to them.  If you've got something that will never, CAN never change, use a constant.  If you might ever change it, stick with a class variable.  At the very least, it makes your code much more legible.
 
 ### Exercises
+
+
 ### Additional Resources
 * [Zetcode on Objects](http://zetcode.com/lang/rubytutorial/objects/)
 * [TutorialsPoint on Classes](http://www.tutorialspoint.com/ruby/ruby_classes.htm) is a basic walkthrough of classes.
