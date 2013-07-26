@@ -142,7 +142,7 @@ As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html),
 ##### Assignment:
 1. Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.
 2. Build the Android logo using just HTML and CSS by watching [this video](http://thecodeplayer.com/walkthrough/css3-android-logo) from an amazing website called [The Code Player](http://thecodeplayer.com/walkthrough/css3-android-logo), which is like a tutorial but it actually plays the code as the original developer created it.  Use JSFiddle or your own text editor to create the logo alongside the tutorial.
-    * Note: You will see border-radius, -moz-border-radius, and -webkit-border-radius all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use border-radius to achieve the desired effect.
+    * Note: You will see `border-radius`, `-moz-border-radius`, and `-webkit-border-radius` all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use `border-radius` to achieve the desired effect.
 3. Learn about basic forms from [this Treehouse video](http://teamtreehouse.com/library/websites/html/forms/inputs) and use [this w3 page](http://www.w3schools.com/html/html_forms.asp) as a reference.
 4. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=KGzsRiAXVbA).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.
 
@@ -178,6 +178,7 @@ Use the browser's developer tools (right clicking something on the page and clic
 Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming\))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
 **Student Solutions**
+
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * See [RebootJeff's solution here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
@@ -223,6 +224,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
     4. No one said you could turn off your brain!
 
 **Student Solutions**
+
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 * [RebootJeff's solutions](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
 * *Your solution here...*
@@ -278,6 +280,7 @@ This should not be trivially easy for you.  You'll probably have to Google often
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
 
 **Student Solutions**
+
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * *Your solution here...* 
@@ -360,6 +363,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
 **Student Solutions**
+
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * *Your solution here...*
@@ -458,6 +462,7 @@ Estimated Time: 3-5 hrs
 **Extra Credit:** Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the section below on git (under the "Additional Topics" heading) or skip any of the `$ git ... ` commands for now, they're non-essential (it's sort of like saving your files on Dropbox).
 
 **Student Solutions**
+
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * *Your solution here...*
