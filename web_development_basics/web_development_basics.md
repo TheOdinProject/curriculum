@@ -607,10 +607,5 @@ With what you know already, you could start putting together some basic websites
 
 ## Additional Resources
 
-<<<<<<< HEAD
-If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
-=======
 *If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).*
 * *Additional Resources Here...*
-
->>>>>>> upstream/master
