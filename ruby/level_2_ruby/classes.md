@@ -13,11 +13,11 @@ We've got a fair bit of stuff crammed into this section but it gives you superpo
 ### Thought Questions
 * What is a class?
 * When should you use a class?
-* How do you write a class in your script file?
+* How do you create a class in your script file?
 * What is an instance of a class?
 * What is the difference between the CamelCase and snake_case styles of naming?
 * How do you instantiate a class?
-* How do you run some code whenever you make a new instance?
+* How do you set the state of your new instance?
 * What should be done in the `initialize` method?
 * What is a class method?
 * How is a class method different from an instance method?
@@ -31,6 +31,8 @@ We've got a fair bit of stuff crammed into this section but it gives you superpo
 * What's the difference between an instance variable and a 'regular' variable?
 * Can a class call its own class methods?
 * What's the difference between when would you use a class variable and when you would use a constant?
+* What's the difference between a class and a module?
+* When would you use a class but not a module?
 
 TODO: Break out into the Scope section instead.
 * How does inheritance work?
@@ -227,6 +229,12 @@ The second case above is more mundane.  Often, there are things you need all Vik
 * Instance methods can call other instance methods, instance variables, class methods, or class variables
 
 If you're thinking that class variables seem pretty similar to constants, they are only similar in that all instances have access to them.  If you've got something that will never, CAN never change, use a constant.  If you might ever change it, stick with a class variable.  At the very least, it makes your code much more legible.
+
+We've previously learned about modules, the nice packages of methods that you can mix into classes.  But if you often create a class so it can use methods, what's the difference? Basically, a class can be instantiated but a module cannot.  A module will never be anything other than a library of methods.  A class can be so much more -- it can hold its state (by keeping track of instance variables) and be duplicated as many times as you want.  It's all about *objects*.  If you need to instantiate something or otherwise have it exist over time, that's when you need to use a class instead of a module.  
+
+Important thought question:
+
+If a hash (good data storage) and a module (good methods) had a love child, would it be a class (object with methods)?
 
 ### Exercises
 
