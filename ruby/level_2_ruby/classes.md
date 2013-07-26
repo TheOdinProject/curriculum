@@ -33,15 +33,10 @@ We've got a fair bit of stuff crammed into this section but it gives you superpo
 * What's the difference between when would you use a class variable and when you would use a constant?
 * What's the difference between a class and a module?
 * When would you use a class but not a module?
-
-TODO: Break out into the Scope section instead.
 * How does inheritance work?
-* What is a module?
-* When should you use a module?
-* What's the difference between a class and a module? (instantiation!)
-* What is a private method?
-* What is a protected method?
-* How are private and protected methods different?
+* Why is inheritance really useful?
+* How do you extend a class?  What does that mean?
+* What does `super` do?  Why use it?
 
 ### Do These First
 1. Codecademy's [Object-Oriented Programming section](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6)
@@ -235,6 +230,70 @@ We've previously learned about modules, the nice packages of methods that you ca
 Important thought question:
 
 If a hash (good data storage) and a module (good methods) had a love child, would it be a class (object with methods)?
+
+**Inheritance** is the ability of one class to be a child of another class and therefore inherit all its characteristics, including methods and variables.  We saw that early on with the demonstration of using the `superclass` method to see what a particular class inherits from, for instance the number `1` is a class `FixNum` which inherits from `Integer` which inherits from `Numeric` which inherits from `Object` which inherits from `BasicObject`.
+
+    > 1.class.superclass.superclass.superclass.superclass
+    => BasicObject
+
+Why do all this inheritance?  To keep our code as DRY as possible.  It lets us not have to repeat a bunch of methods (say, `to_s`, which is implemented in the `Object` class) for every different subclass.
+
+In Ruby, a class inherits from another class using the `<` notation.  Unlike some other languages, a class can only have ONE parent.
+
+    class Viking < Person
+
+Now  `Viking` has access to all of `Person`'s methods.  You say that `Viking` **Extends** `Person`.
+
+You've previously seen us add methods to another existing class, like we did several times with `Array` when you built your own implementation of `each` and `map`.  You can use the same tecnhique to *overwrite* existing methods.  It would cause all kinds of problems here, but we could do:
+
+    class Array
+        def each
+            puts "HAHA no each here!"
+        end
+    end
+
+    > [1,2,3].each {|item| puts item }
+    HAHA no each here!
+    => nil
+
+If `Viking` extends `Person`, you similarly have the option to overwrite any of `Person`'s methods.  Maybe Vikings `heal` twice as fast as normal people.  You could write:
+
+    class Person
+        MAX_HEALTH = 120
+        ...
+        def heal
+            self.health += 1 unless self.health + 1 > MAX_HEALTH
+        end
+    end
+
+    class Viking < Person
+        ...
+        def heal
+            self.health = [self.health + 2, MAX_HEALTH].min
+            puts "Ready for battle!"
+        end
+    end
+
+That's one way... but we could also do it by calling the parent's `heal` method directly a couple of times using the special `super` method.  `super` lets you call the superclass's version of your current method.  
+
+    class Viking < Person
+        ...
+        def heal
+            2.times { super }
+            puts "Ready for battle!"
+        end
+    end
+
+You will often use that in your `initialize` method when you want to use the parent's `initialize` but just add a tweak or two of your own. You can pass in parameters as needed:
+
+    class Viking < Person
+        def initialize(name, health, age, strength, weapon)
+            super(name, health, age, strength)
+            @weapon = weapon
+        end
+    end
+
+Again, it saves you the trouble of having to rewrite (and overwrite!) all those lines of code that were already taken care of by your parent class.
 
 ### Exercises
 
