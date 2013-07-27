@@ -211,7 +211,7 @@ As we [saw before](http://www.skillcrush.com/terms/javascript.html), Javascript 
 This is also the first time you'll get to do some actual programming (HTML/CSS just kind of sits there).  The jQuery section will focus a bit more on applying your knowledge to real webpages.
 
 ##### Assignment:
-1. Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum. [2-4 hrs]
+1. Do [Codecademy's Javascript Sections 1-5](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming" to "Control Flow"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum. [2-4 hrs]
     * Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 2. Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
 3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript. 
