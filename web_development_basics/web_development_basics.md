@@ -30,7 +30,7 @@ Total Estimated Time: 60-90 hrs
 
 Now that you know [what web developers do](/becoming_a_web_developer/becoming_a_web_developer.md), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.
 
-Each of the following sections represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  We will start by familiarizing you with the internet and your own computer.  You will then learn the basics of front end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray into Ruby and Ruby on Rails.  We will finish by learning about databases and topics like git workflows and software in the cloud.  
+Each of the following sections represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  We will start by familiarizing you with the internet and your own computer.  You will then learn the basics of front end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray into Ruby and Ruby on Rails.  We will finish by learning about databases and topics like git workflows and software in the cloud.
 
 By the end of this unit, you should not only understand how the web works, but be able to identify and differentiate each of the technologies that you will be learning in order to build web applications of your own.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
 
@@ -38,7 +38,7 @@ We will cover a very broad swathe of knowledge here and that's intentional... it
 
 Final note: Please [let us know](mailto:curriculum@theodinproject.com) how long these sections take you so we can provide more accurate time estimates to future students.
 
-## How Does the Web Work? 
+## How Does the Web Work?
 Estimated Time: 1-2 hrs
 
 ##### You will need to understand:
@@ -73,7 +73,7 @@ What's the best explanation of how the web works you've seen or read?  Were any 
 * A comprehensive list of web development resources lives at the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum).
 
 
-## Step Back... How Does Your Computer Work? 
+## Step Back... How Does Your Computer Work?
 Estimated Time: 2-4 hrs
 
 This isn't a course about rebuilding your hard drive but it is useful for you to understand the high level overview of what's going on to make your computer function.  That's partly because you'll see the same patterns showing up when you're telling servers what to do and partly because you're going to have to talk to your computer in a way that it understands anyway so you'd better speak a little of its language.
@@ -83,7 +83,7 @@ This isn't a course about rebuilding your hard drive but it is useful for you to
 
 ### The Command Line
 
-Raise your hand if you're scared of the command line.  Yes, we have this image of developers staring at a black screen with white or green text flashing across while they wildly enter incomprehensible commands and hack into the corporate mainframe (spilling soda and wiping cheetos off their keyboard no doubt as well).  
+Raise your hand if you're scared of the command line.  Yes, we have this image of developers staring at a black screen with white or green text flashing across while they wildly enter incomprehensible commands and hack into the corporate mainframe (spilling soda and wiping cheetos off their keyboard no doubt as well).
 
 That black screen (or window) is the command line, where you're able to enter commands that your computer will run for you.  And while that image of a programmer is a bit overdone, the command line really is sort of like our base of operations, from which we'll launch other programs to do our "real developing" in.  It has a syntax of its own which is different but not all that difficult to pick up.  You'll be entering the same commands dozens of times anyway, so you'll get pretty good at it in a short period of time.
 
@@ -95,13 +95,13 @@ Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that cour
 ##### Additional Resources:
 * See common commands on the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html)
 
-## Terms to Know 
+## Terms to Know
 Estimated Time: 1-2 hrs
 
 ##### Assignment:
 1. Take a look at this [list of term definitions](http://prework.flatironschool.com/#terms) and make sure you have at least a competant understanding of each one (click on it to bring up the full definition).  Don't skip this and assume you know it all -- there will be at least a few that are worth nailing down.  Flashcards help.
 
-## Web Programming Basics 
+## Web Programming Basics
 Estimated Time: 40-60 hrs
 
 Many of the things we're about to cover will be handled in much greater depth later on in the curriculum but it's important to get a basic level understanding of what they are and how they're used so you can still see the bigger picture while you're down in the weeds learning that stuff.  Take the time to get to know each of the major building blocks of a web application, from the front end to the back end and into databases.  And just because we're covering a lot of material doesn't mean we're not learning anything well -- you'll be spending a good bit of time becoming familiar with the "101" level of each technology (each section may take 5-10 hrs to complete fully).
@@ -165,13 +165,13 @@ For this mini-project, you'll deconstruct an existing web page and rebuild it.  
 
 Use the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [jsfiddle.net](http://www.jsfiddle.net)).
 
-* Easy Version: Build the [Google.com](http://www.google.com) homepage (the simple one with just a search box).  
+* Easy Version: Build the [Google.com](http://www.google.com) homepage (the simple one with just a search box).
     1. Tips:
         * DONT BE A PERFECTIONIST!  You're just trying to make it *look* like google.com, not actually function like it and it doesn't have to be spaced exactly the same way.  Any dropdown menus or form submissions or hover-highlighting should be ignored.
         * USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google for how to do it!
     2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally.  You can either download the Google logo or link directly to its URL on the web in your <img> tag.
     3. Next do the navbar across the top, first building the content and then trying to position it.  Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
-    4. Finally, put in the footer, which should be very similar to the top navbar.  
+    4. Finally, put in the footer, which should be very similar to the top navbar.
     5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
 * Difficult Version: Build the [Google.com search results page](https://www.google.com/search?q=learn+html).  You should be able to reuse much of your code from before if you started with that project.  Again, don't worry about links to nowhere and forms that won't submit and hard coding the search results (which you'll have to do of course), just focus on placement and order of items on the page.
 
@@ -186,7 +186,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 ##### Additional Resources
 
-* Watch all the [free HTML videos](http://teamtreehouse.com/library/websites/html/introduction) from Treehouse and take the quiz. 
+* Watch all the [free HTML videos](http://teamtreehouse.com/library/websites/html/introduction) from Treehouse and take the quiz.
 * Check out the [quickie CSS introduction](http://teamtreehouse.com/library/websites/build-a-simple-website/website-basics/introduction-to-css) from the same people as well.
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
@@ -214,7 +214,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 1. Do [Codecademy's Javascript Sections 1-5](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming" to "Control Flow"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum. [??? hrs]
     * Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 2. Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
-3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript. 
+3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
     1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/).
     2. You can also try the Javascript section of [Codecademy Labs](http://labs.codecademy.com/) -- it doesn't support HTML and CSS, but it does provide you with a helpful javascript console.
 4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just do a couple of simpler ones here.  Solve these problems (try using [jsfiddle.net](http://jsfiddle.net/) or [Codecademy Labs](http://labs.codecademy.com/) if you aren't comfortable working with your own files):
@@ -237,14 +237,14 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 ##### jQuery:
 What about [jQuery](http://skillcrush.com/2012/07/23/jquery/)? It's a library of commonly used javascript widgets and functions that has more or less taken the internet by storm.  It's written in javascript and it means that you don't have to go through the pain of building a popup modal dialog box or a dropdown menu, for example, the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties, whether that's hiding them, moving them, changing their contents... it's all in your hands!
 
-jQuery will let you take your javascript knowledge and start really diving into your webpages and messing with the elements.  
+jQuery will let you take your javascript knowledge and start really diving into your webpages and messing with the elements.
 
 ##### Assignment:
 1. Learn about jQuery by doing [Codecademy's jQuery Track sections 1-3](http://www.codecademy.com/tracks/jquery)("Introducing jQuery", jQuery Functions", and "Dynamic HTML").
 2. If you can't get enough, also give [Code School's try jQuery](http://try.jquery.com/) a shot (let us know which is better!).
 2. The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
 
-Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long those courses took and if you liked one much better than the other so we can let others know! 
+Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long those courses took and if you liked one much better than the other so we can let others know!
 
 TODO: A video where a dev walks through some existing Javascript/jQuery code and explains how it works and why it's set up the way it is.
 
@@ -263,12 +263,12 @@ This should not be trivially easy for you.  You'll probably have to Google often
     2. Best to put your grid squares inside another "container" div.
     1. There are several different ways to make the divs appear as a grid (versus just one on each line) -- `float`/`clear`, using a `table`, and `inline-block` displays.  Play with each of them.
     2. Careful with your border or margins... they'll add size to the squares!
-    3. "OMFG, Why isn't my grid being created???" 
-        1. Open your browser's developer tools 
+    3. "OMFG, Why isn't my grid being created???"
+        1. Open your browser's developer tools
         2. Check if there are any errors in the Javascript console
         3. Check your "elements" pane to see if the elements have actually shown up but are somehow hidden.
         4. Go willy-nilly and add  `console.log` statements in your javascript to see if it's actually being loaded.
-2. Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a (pixelated) trail through your grid like a pen would.  
+2. Set up a hover effect so it changes the color of the square when your mouse passes over it, leaving a (pixelated) trail through your grid like a pen would.
     1. What happens when you hover?  Well, you're *hover*ing, you need to *enter* the div with your mouse and you need to *leave* the div.  Any of those events should be a useful place to start.
     1. There are again several ways to change the color -- adding a new class (`addClass()`), changing that div's background color individually, etc.
     2. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_install.asp), you can grab it directly in your HTML by adding `<script src="jquery-1.10.1.min.js"></script>` inside your `<head>` tag above any other JS files.
@@ -283,7 +283,7 @@ This should not be trivially easy for you.  You'll probably have to Google often
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
-* *Your solution here...* 
+* *Your solution here...*
 
 ### Back End Basics
 Total Estimated Time: 20-30 hrs
@@ -298,7 +298,7 @@ One difference between the work you did on the front end and what you'll be doin
 1. Go to the [Installations Unit](/installations/installations.md) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
-Estimated Time: 20-30 hrs 
+Estimated Time: 20-30 hrs
 
 ##### You Will Need to Understand:
 * What is an "interpreted" language?
@@ -356,7 +356,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     2. 01_temperature
     3. 02_calculator
     4. 03_simon_says
-    5. 04_pig_latin 
+    5. 04_pig_latin
     6. 08_book_titles
     6. 09_timer
 
@@ -366,6 +366,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
+* DucPhan's [ProjectEuler solutions](https://github.com/phanducsjsu/ProjectEuler)
 * *Your solution here...*
 
 ##### Additional Resources
@@ -386,9 +387,9 @@ Estimated Time: ??? hrs
 * What does CRUD stand for?
 * Why is CRUD so important for web apps?
 
-We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is CatLover1985 so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.  
+We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is CatLover1985 so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.
 
-Databases are one of those aspects of web programming that are kind of hidden in the back and so people treat them with a sort of suspicion and awe.  That's nonsense and you should get over it -- your database and you are going to become very good friends (or frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).  
+Databases are one of those aspects of web programming that are kind of hidden in the back and so people treat them with a sort of suspicion and awe.  That's nonsense and you should get over it -- your database and you are going to become very good friends (or frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).
 
 Compared to a normal language, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on.
 
@@ -434,7 +435,7 @@ Estimated Time: 8-12 hrs
 * What is a controller?
 * What is a model?
 
-You're probably here because you want to learn the Ruby on Rails framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about.  Rails uses, as you'll often hear, "convention over configuration".  That means that Rails has made a lot of decisions for you about how things should be structured and how the code should run.  You can change them, but it's best if you just go with the flow and work within their rules (especially as a noob).  
+You're probably here because you want to learn the Ruby on Rails framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about.  Rails uses, as you'll often hear, "convention over configuration".  That means that Rails has made a lot of decisions for you about how things should be structured and how the code should run.  You can change them, but it's best if you just go with the flow and work within their rules (especially as a noob).
 
 Think of it like buying a suit -- you probably don't care where the thread was sourced, which hands pulled the loom, which companies shipped the fabric, how the lining is mated to the jacket, what sorts of buttons are on there... you trust the tailor to have figured all that out and you just want to be able to buy the nice looking grey one in size 42 regular.  Rails is your Ruby tailor.
 
@@ -494,16 +495,16 @@ You've got an idea of what the pieces look like, now it's time to see how they a
 
 ### Additional Important Topics:
 
-#### Git 101 
+#### Git 101
 Estimated Time: ??? hrs
 
-We mentioned git briefly in the previous unit ([Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)) but this time you'll actually start using it.  
+We mentioned git briefly in the previous unit ([Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)) but this time you'll actually start using it.
 
-If you recall, git is the version control system used by developers.  It means that you can revert to a previous (working) version of the application if you really screwed something up and it means that you have a standardized way of managing a project with contributions from multiple developers.  It's even useful if it's just you and you're working on a project on your own with a few half-baked ideas that you're trying to code at the same time but want to keep separated until they've matured sufficiently.  
+If you recall, git is the version control system used by developers.  It means that you can revert to a previous (working) version of the application if you really screwed something up and it means that you have a standardized way of managing a project with contributions from multiple developers.  It's even useful if it's just you and you're working on a project on your own with a few half-baked ideas that you're trying to code at the same time but want to keep separated until they've matured sufficiently.
 
-It sort of feels like if you were typing a text document and, every time you saved it, you entered a summary message like "just finished paragraph on how git works".  Then, if you realize at the end of the day that all your changes are awful and ruin the flow of the document, you could go back to the last save of yesterday and bring the document back to the way it was.  
+It sort of feels like if you were typing a text document and, every time you saved it, you entered a summary message like "just finished paragraph on how git works".  Then, if you realize at the end of the day that all your changes are awful and ruin the flow of the document, you could go back to the last save of yesterday and bring the document back to the way it was.
 
-But wait, you say, Why not just erase the offending paragraphs and move on?  Here's where the web application stops resembling a high school essay.  Changes you make to your web application will be scattered in a dozen different files and will likely involve changing existing code at least as much as it involves actually producing new (and easily deleted) code, so having that ability to just reset the clock to a particular point in the past saves you from having to remember exactly what was changed and what it looked like beforehand.  The power of git goes well beyond this simple example, but it should help you start to see why people use it. 
+But wait, you say, Why not just erase the offending paragraphs and move on?  Here's where the web application stops resembling a high school essay.  Changes you make to your web application will be scattered in a dozen different files and will likely involve changing existing code at least as much as it involves actually producing new (and easily deleted) code, so having that ability to just reset the clock to a particular point in the past saves you from having to remember exactly what was changed and what it looked like beforehand.  The power of git goes well beyond this simple example, but it should help you start to see why people use it.
 
 ##### Assignment:
 
@@ -515,7 +516,7 @@ Estimated Time: ??? hrs
 
 Like git, testing is one of those things that people often don't think about when they decide to learn about web development but it's critically important to the production of professional quality applications and it will save you tons of time and headache in the end.
 
-Let's say you're building a simple website and you've got a couple of pages linked together with a simple navigation bar at the top.  You make some changes to the code and want to know if the website still works.  So you open up your local version of the webpage and click through each of the buttons on the navigation bar to make sure they each still lead to the right location.  Not too difficult, is it?  It doesn't take too long, and it doesn't seem like such a bad way of doing things.  
+Let's say you're building a simple website and you've got a couple of pages linked together with a simple navigation bar at the top.  You make some changes to the code and want to know if the website still works.  So you open up your local version of the webpage and click through each of the buttons on the navigation bar to make sure they each still lead to the right location.  Not too difficult, is it?  It doesn't take too long, and it doesn't seem like such a bad way of doing things.
 
 But now imagine that you've got a dozen pages with a login system and content that's meant to look different depending on which type of user you are logged in as.  You could come up with a checklist of all the buttons you'd have to manually click on and all the times you'd have to login as a different user but think about how many steps it would take before you were satisfied that your changes didn't accidentally blow up some obscure but necessary function of your website?  Situations like that should yell "automate me!" in your head, and that's exactly what testing does.
 
@@ -523,7 +524,7 @@ On the back end, you will learn RSpec, a language that is written in Ruby and on
 
 On the front end, we'll use a language called Jasmine to do a similar sort of thing.
 
-Everyone does testing a little differently.  Some teams still rely heavily on a Quality Assurance (QA) department with people manually executing checklists like we described in the example above.  Some people use an approach called Test Driven Development (TDD) in which they write the (failing) test first and only then do they actually write the code necessary to make it pass, and thus very deliberately build the application out with 100% test coverage.  Others prefer to keep their test suites fairly light and will only write tests for the major interactions on their pages and any bugs that they have to fix along the way (to make sure they don't come back).  Regardless, testing is highly important and you'll be quite familiar with it by the end of this curriculum.  
+Everyone does testing a little differently.  Some teams still rely heavily on a Quality Assurance (QA) department with people manually executing checklists like we described in the example above.  Some people use an approach called Test Driven Development (TDD) in which they write the (failing) test first and only then do they actually write the code necessary to make it pass, and thus very deliberately build the application out with 100% test coverage.  Others prefer to keep their test suites fairly light and will only write tests for the major interactions on their pages and any bugs that they have to fix along the way (to make sure they don't come back).  Regardless, testing is highly important and you'll be quite familiar with it by the end of this curriculum.
 
 You'll be interfacing with tests before actually writing your own... how else do you think we process code submissions?  Many exercises and projects will start with a batch of tests and have you write the code necessary to make them pass.
 
@@ -534,13 +535,13 @@ You'll be interfacing with tests before actually writing your own... how else do
 #### The Cloud, Hosting, and Software as a Service (SAAS)
 Estimated Time: ??? hrs
 
-You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.  
+You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.
 
 Check out this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
 
 Not too long ago, you had to buy a machine, set it up to run your back end code, and plug it into the wall to get it onto the internet.  These days, not only can you host your personal songs and files and emails in the Cloud, but you can actually run your website from servers hosted by someone else (and maybe in another country too).  Companies (like [Heroku](http://www.heroku.com), which we will use later) make it so that all you have to do is push some code their way and they'll take care of firing up and maintaining the servers necessary to get that application "live" and online.  They will also guarantee a certain minimum level of uptime (usually well north of 99%) so you don't have to worry about whether your servers have failed.  It means that you as a developer can focus more on building cool applications and less on the nuts and bolts of getting them out there.  This curriculum assumes that you'll be taking advantage of existing cloud hosting, so we won't spend much time teaching you about how to set up your own servers.
 
-Where before you had to write a piece of software that would work on a particular type of computer (e.g. Windows machines running Windows Vista) and then get that user to install the software, now many of these applications are run completely using websites.  Think about Google Spreadsheets or Evernote or TurboTax... all of these can be run completely online (though they often have accompanying downloadable applications to help you out).  
+Where before you had to write a piece of software that would work on a particular type of computer (e.g. Windows machines running Windows Vista) and then get that user to install the software, now many of these applications are run completely using websites.  Think about Google Spreadsheets or Evernote or TurboTax... all of these can be run completely online (though they often have accompanying downloadable applications to help you out).
 
 The ability to create this "Software as a Service (SAAS)" gives you tons of great flexibility as a developer -- it means you no longer have to think about the dozens of different types of operating systems and versions that the users could be using.  You just make sure your application can be viewed properly by people using a few different web browsers.  Even better, when you inevitably want to make large-scale changes or just fix some bugs, you no longer have to convince your users to go through the painful upgrade process.  Just push the changes to your sever, and Presto!, your application is updated and good to go.  If there's a problem with the new Ford car model, they need to issue a recall and have everyone go to a mechanic to fix it.  You just push some code to fix the bug and sleep happy.
 
