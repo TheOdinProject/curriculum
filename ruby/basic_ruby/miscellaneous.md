@@ -13,6 +13,7 @@ Here are some useful things that don't really fit nicely into another section.
 * What do `+=`, `-=`, `*=` and `/=` do?
 * What is parallel assignment?
 * What's the easiest way to swap two variables?
+* TODO: Boolean variables getting a ? method.
 
 ### Check These Out First
 * [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)

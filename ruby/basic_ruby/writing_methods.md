@@ -21,7 +21,7 @@ You've been using methods since square one and writing your own as well so we'll
 
 ### Check These Out First
 * [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
-* A quick guide from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
+* A quick guide on writing methods from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
 * [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
 * [LRTHW chapters 13-14](http://ruby.learncodethehardway.org/book/)
 

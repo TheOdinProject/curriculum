@@ -16,12 +16,13 @@ As you may gather, this is also where the real project work begins.  Some of the
 
 **How this will work:**
 
-Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "A Brief Summary" of the material but it's not a replacement for actually doing the reading/pre-work.  At the end of each section there will be exercises to help you solidify your knowledge of the material and after each group of sections will be larger projects which are best done in pairs.
+Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  In each section, you'll first be asked to do readings, watch videos, or otherwise view content.  We'll provide a "A Brief Summary" of the material but it's not a replacement for actually doing the reading/pre-work.  Consider the summary more like if you come home from school and ask your older brother to explain some tricky points from your math class to you in layman's terms.  At the end of each section there will be exercises to help you solidify your knowledge of the material and after each group of sections will be larger projects which are best done in pairs.
 
 **Our free resources:**
 
 The goal here is to provide as much of this curriculum as possible using free resources.  If you've done the prep work from Web Development 101 then you should have a good handle on the basics but these resources are important to help you really understand the material.
 * The staple online book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.
+* Another good online resource is [Zetcode's Ruby Tutorial](http://zetcode.com/lang/rubytutorial/).  It can get a bit technical at times but bear with it.
 * For the crazies: Why's [Poignant Guide to Programming](http://mislav.uniqpath.com/poignant-guide/book/chapter-1.html) (check it out... if it jives with your learning style, you may have found the match you never thought you'd find)
 * If there's anything you need to brush up on still: [The Ruby User's Guide](http://www.rubyist.net/~slagell/ruby/) has sections on many topics you might want to dive back into for a deeper look.
 
@@ -32,17 +33,18 @@ The goal here is to provide as much of this curriculum as possible using free re
 **TODO: Walkthrough of a real Ruby program**
 
 
-## Table of Contents
+## Roadmap
 2. [Basic Ruby](basic_ruby/basic_ruby.md)
-2. Level II Ruby
-3. Ruby and the Web
+2. [Solving Problems with Ruby](level_2_ruby/level_2_ruby.md)
 4. File I/O and Serialization
-5. Testing Ruby with RSpec
 6. Basic Data Structures
 7. Basic Algorithms
+3. Ruby and the Web
+5. Testing Ruby with RSpec
 8. Final Projects
 
 ## Finish
+TODO
 
 ## Additional Resources
 

@@ -71,7 +71,13 @@ So, if we've got back end developers and front end developers, who makes the web
 
 **Web Sites vs Web Applications**
 
-[Not everyone can agree](http://stackoverflow.com/questions/1959910/web-site-vs-web-application) what differentiates the two, but generally web sites are more about displaying static (unchanging) content and web applications require a "smart" server running code (that you're going to learn to write) to produce dynamic content.
+[Not everyone can agree](http://stackoverflow.com/questions/1959910/web-site-vs-web-application) what differentiates the two, but generally web sites are more about displaying static (unchanging) content and web applications require a "smart" server running code (that you're going to learn to write) to produce dynamic content.  
+
+For a more concrete example, think of a going to a regular web site as just opening a document (say, an e-book) from your hard drive. Your computer will locate it, open it, and display it for you.  
+
+Going to a site run by a web application is the same principle but the e-book is no longer just sitting there waiting to be opened. Your request for the e-book is caught by a sneaky little application which checks what you're asking for and then dynamically generates your e-book for you, fully customized (okay, maybe it just has an extra line that says "this e-book was opened on" and then today's date).  
+
+That's more or less the difference between a server just serving up a static HTML file and dynamically generating one by using a bit of Ruby on Rails code.
 
 
 ## What are Web Development Careers and Jobs Like?

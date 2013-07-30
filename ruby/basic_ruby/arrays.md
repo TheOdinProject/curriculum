@@ -1,13 +1,16 @@
 ## Arrays
 ### Intro and Goals
-We saw how strings are a lot like arrays... so it's probably a good time to dive into what arrays are and how flexible they are in Ruby.  Arrays are almost as ubiquitous as strings.  You'll be working with them all the time to help store data for you, everything from the names of all your users to coordinates on a game board.  An array is an all-purpose bucket into which you can put pretty much anything.
+We saw how strings are a lot like arrays... so it's probably a good time to dive into what arrays are and how flexible they are in Ruby.  Arrays are almost as ubiquitous as strings.  You'll be working with them all the time to help store data for you, everything from the names of all your users to coordinates on a game board.  An array is an all-purpose bucket into which you can put pretty much anything.  
 
-Here, you'll learn the basics of creating arrays, how to manipulate them in a dozen different ways, and some best practices for working with arrays.  Note that we'll be learning even more about how to dig around inside of arrays in the future section on iterators, so if you're excitedly waiting to better understand .each, .map and others like them, we're almost there!  If not... you will be.
+Here, you'll learn the basics of creating arrays, how to manipulate them in a dozen different ways, and some best practices for working with arrays.  Note that we'll be learning even more about how to dig around inside of arrays in the future section on iterators, so if you're excitedly waiting to better understand `each`, `map` and others like them, we're almost there!  If not... you will be.
+
+There are tons of methods designed to help you poke around in or otherwise manipulate arrays and you'll be seeing plenty of them here. Don't worry if it starts to feel like you're having to remember too much stuff.  It can be helpful to make a cheat sheet for yourself to help remember but you'll end up using the same dozen or so methods again and again so you'll get them hammered in there pretty well.  As with many things in Ruby, if you forget the method name but think it should exist, just make a guess and try it and you'll probably be right.
 
 ### Thought Questions
 * What are three ways to create an array?
 * How do you prepopulate the array with default data?
 * How do you access items in an array?
+* How can you access a specific group of items in an array?
 * How do you modify the items in an array?
 * How do you combine arrays? 
 * How do you find the values in one array that aren't in another?
@@ -23,6 +26,7 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 * How can you figure out if an array contains a particular value?
 * How do you find the biggest item in an array?
 * How do you find the smallest item in an array?
+* How do you remove any duplicates from your array?
 * How to you find out how big an array is?
 * How do you put an array in order?
 * What are the naming conventions for arrays?
@@ -30,7 +34,7 @@ Here, you'll learn the basics of creating arrays, how to manipulate them in a do
 
 ### Check These Out First
 * Do [Codecademy's section on arrays](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/0/1) for some practice with them
-
+* Read the [zetcode Arrays chapter](http://zetcode.com/lang/rubytutorial/arrays/) for some more in-depth knowledge.  Don't worry too much where they talk about blocks or the `select`, `collect` and `map` methods, we'll cover that in a later section.
 
 ### A Brief Summary
 
@@ -44,6 +48,8 @@ Arrays begin life as empty containers waiting to be filled with objects or data.
     => []               # still empty
     > c = Array[]       
     => []
+    > d = %w{ I am not a crook }  # converts the string (no quotes) to an array
+    => [ "I", "am", "not", "a", "crook" ]
     > empty_a = Array.new(5)
     => [nil, nil, nil, nil, nil]
     > full_a = Array.new(3, "hi")
@@ -56,7 +62,7 @@ And remember, you can store pretty much anything in there, even other arrays:
 
 ... *but don't do that!*  It's best to keep only ONE type of thing in your arrays or you'll have many headaches down the road because you'll almost always assume that there's only one type of thing in there.  Forget that you ever learned that arrays can hold different values.
 
-**Accessing Items** is super easy, just start from `0` like you did with strings.  Just like with strings, you can start from the end of the array using negative numbers from `-1` and you can even grab ranges of values (which are themselves arrays!):
+**Accessing Items** is super easy, just start from `0` like you did with strings.  Just like with strings, you can start from the end of the array using negative numbers from `-1` and you can even grab ranges of values at a time:
 
     > arr = [1, 3, 5, 7, 2]   # favorite way to declare an array
     => [1, 3 ,5 ,7 ,2]
@@ -66,6 +72,8 @@ And remember, you can store pretty much anything in there, even other arrays:
     => 2
     > arr[1..3]
     => [3, 5, 7]          # this returned an array!
+    > arr.slice(1..3)
+    => [3, 5, 7]          # same as using [1..3]
     > arr[1..200000]      
     => [3, 5, 7, 2]       # no error... silently cuts off at the end
 
@@ -89,7 +97,7 @@ And remember, you can store pretty much anything in there, even other arrays:
     > combined = first + second
     => [1,2,300,7,8,9]      # this is a NEW array
 
-**Subtracting Arrays** is a bit different... think of the minus sign as saying "take away any and all values that are in the right array from the left array". The only values remaining will be those from the left that were not included in the right side at all:
+**Subtracting Arrays** is a bit different... think of the minus sign as saying "take away any and all values that are duplicated in the right array from the left array". The only values remaining will be those from the left that were not included in the right side at all:
 
     > [1,2,3] - [2,3,4]
     => [1]                # the 4 did nothing
@@ -151,6 +159,17 @@ For now, just think of it as the cool way of pushing onto an array.  But note th
     > my_arr
     => [1,3]
 
+If you want to clear out the whole array, you can use `clear` or, more easily, just set it equal to []:
+
+    > my_arr = [1,3,5]
+    => [1,3,5]
+    > my_arr.clear
+    => []
+    > my_arr = [1,3,5]
+    => [1,3,5]
+    > my_arr = []           # better
+    => []                   
+
 See if an array **includes an item** AT ALL by using `include?`, which, as you should see from the `?` at the end, returns true or false:
 
     > my_arr.include?(3)
@@ -170,6 +189,7 @@ To find WHERE a specific item lives in the array, use `index` but note that it o
 **A few useful and commonly used methods:**
 * `max` to find the **biggest value** of an array
 * `min` to find the **smallest value** of an array
+* `uniq` to **remove all duplicates** from your array
 * `size` to find out **how big the array is**
 * `shuffle` will mess up your whole array by putting it in random order
 * `sort` will clean it up again for you by putting your array **in order**.  Though `sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
@@ -207,4 +227,5 @@ Remember how we could create a new array and fill it up with stuff using `Array.
 ### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
+* Read [Chris Pine's Arrays Chapter](http://pine.fm/LearnToProgram/?Chapter=07) if you didn't already (you should have...)
 * Add Here!

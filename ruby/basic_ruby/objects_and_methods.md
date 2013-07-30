@@ -24,7 +24,9 @@ Hopefully you've already picked most of this up from the prep-work.
 * What does `self` mean?
 
 ### Check These Out First
+* [Alex Chaffee's brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects)
 * [Ruby Inheritance](http://rubylearning.com/satishtalim/ruby_inheritance.html)
+* TODO: Need another Basic Methods and Objects resource!
 
 ### A Brief Summary
   

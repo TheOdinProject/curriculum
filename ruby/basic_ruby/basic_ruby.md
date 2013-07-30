@@ -15,7 +15,8 @@ At the end of each section there will be exercises that you should do on your ow
 
 If there's something that you still just don't quite understand, track it down via the Additional Resources section or Google for it on your own.  *How* you learn isn't as important as making sure you're comfortable with your understanding of everything that will be covered here.  
 
-## Part 1: Data Types
+## Roadmap
+### Part 1: Data Types
 2. [Numbers and Operators and Expressions](numbers_operators_expressions.md)
 3. [Objects and Methods](objects_and_methods.md)
 4. [Strings](strings.md)
@@ -25,7 +26,7 @@ If there's something that you still just don't quite understand, track it down v
 8. [Miscellaneous Issues](miscellaneous.md)
 9. [PROJECT](basic_ruby_project_1.md)(~2 hours)
 
-## Part 2: Making Code Move
+### Part 2: Making Code Move
 9. [Conditionals and Flow Control](flow_control.md)
 10. [Iteration](iteration.md)
 11. [Writing your own Methods and Scripts](writing_methods.md)

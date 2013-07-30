@@ -1,8 +1,8 @@
 ## Enumerable
 ### Intro and Goals
-You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
+You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data and they both implement their own version of the `each` method to iterate over their items but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
 
-"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash` That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  
+"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash` That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  As long as the class that wants to include Enumerable has its own `each` function that Enumerable can use, it can get access to all the magic and joy of using the Enumerable methods by simply mixing it in.
 
 In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you've seen before and you'll use again and again so our goal with this section is to get well acquainted with them.
 
@@ -21,19 +21,21 @@ In this case, `Enumerable` contains really useful methods like `map` and `each` 
 * When might you use `inject`?
 * How do you check if every item in a hash fulfills a certain criteria?
 * What about if none of the elements fulfill that criteria?
+* What (basically) is an `enumerator`?
 
 ### Check These Out First
 * [Codecademy's section on iterating over Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB/2/1)
+* TODO: Need a good primary reading resource for enumerable!
 
 ### A Brief Summary
-`Enumerable` gives you lots of useful ways of doing something to every element of an array or hash, which is a very common type of need when you're building programs.
+`Enumerable` gives you lots of useful ways of doing something to every element of a collection object (an array or hash, for instance), which is a very common thing to do when you're building programs and websites.
 
-`each` is an iterator method you've seen plenty of times before now and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original object that it was called on:
+`each` is an iterator method you've seen plenty of times before now that comes pre-packaged with the Array and Hash and Range classes and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original collection that it was called on:
 
     > [1,2,3].each { |num| print "#{num}! " }
     1! 2! 3! => [1,2,3]
 
-Sometimes you also want to know what position in the array you are... so just use `each_with_index`, which will pass that into the block as well:
+Sometimes you also want to know what position in the array you are... so that sounds like a good chance to use Enumerable's `each_with_index`, which will pass that into the block as well:
 
     > ["Cool", "chicken!", "beans!", "beef!"].each_with_index do |item, index|
     >   print "#{item} " if index%2==0
@@ -56,7 +58,7 @@ What if I want to keep only the even numbers that are in an array?  The traditio
     > my_array.keep_evens
     => [2,4,6,8,100]
 
-That's too much code and too much hassle.  When all you're doing is pulling out, or *selecting*, certain items based on some criteria, you'd be better served using **`select`** instead.  It will run the block on every item of your object (whether array or hash or whatever) and return a new object that contains only those items for which the original block returned `true`:
+That's too much code and too much hassle.  When all you're doing is pulling out, or *selecting*, certain items based on some criteria, you'd be better served using Enumerable's **`select`** instead.  It will run the block on every item of your object (whether array or hash or whatever) and return a new object that contains only those items for which the original block returned `true`:
 
     > my_array.select{|item| item%2==0 }
     => [2,4,6,8,100]      # wow, that was easy.
@@ -109,15 +111,23 @@ Enumerable is a large bunch of methods and you'll only use a half-dozen of them 
     > names.grep(/J/)
     => ["James", "Joe", "Jim"]
 
-Finally, some of the methods you've already seen and use are part of Enumerable too -- `include?`, `sort`, `count`..
+Some of the methods you've already seen and use are part of Enumerable too -- `include?`, `sort`, `count` etc.
+
+When you use the Enumerable methods, you'll sometimes see what's called an **`enumerator`** object pop up, usually if you forget to give them a parameter that they want like a block.  What the heck is that?  Consider it an implementation detail of Enumerator.  As we said before, the methods that are part of Enumerable rely on the underlying collections' `each` method to work.  `enumerable` is basically a go-between for the original collection and Enumerator.
+It's not really something you'll be using right off the bat but it's useful for gaining a better understanding of Enumerable.
 
 
 #### Exercises
 *Have you found any useful exercises that helped you get this stuff?  Add them here!  See our section on [How to Contribute](/contributing.md).*
 1. Write code to find the total of each element of an array multiplied together
-2. TODO 
+2. TODO
 
 #### Additional Resources
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
-* Add Here!
+* A video talk from [LA Ruby on Enumerable](https://www.youtube.com/watch?v=8xN6vzJQ6nA) moves pretty quickly and gets advanced but can help you fill in gaps or expand your knowledge.
+* A [Slideshare from Mike Bowler on Enumerable](http://www.slideshare.net/mbowler/inside-enumerable) moves quickly through it.
+* A [quick reference cheat sheet from queirozf.com](http://queirozf.com/reminders/ruby-map-each-collect-inject-reject-select-quick-reference)
+* For the more advanced, Julio Terra provides a [Detailed Enumerator explanation](http://julioterra.com/journal/2011/10/learning-ruby-enumerator-enumerable-objects/).
+* For the more advanced, there's a [Wikibooks entry on Enumerator](http://en.wikibooks.org/wiki/Ruby_Programming/Reference/Objects/Enumerable)
+* *Add Here!*
