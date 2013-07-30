@@ -34,7 +34,8 @@ _my_module.scss_
     }
 
 _my_scss.scss_
-
+    @import '_my_module.scss';
+    
     div.a_box {
         background-color: $color;
         @include box-sizing(border-box);
