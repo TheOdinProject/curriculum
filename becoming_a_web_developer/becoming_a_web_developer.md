@@ -2,6 +2,7 @@
 Total estimated time: 2-4 hours
 
 *[Top level table of contents](/README.md)*
+
 *[Jump straight to Web Development 101!](/web_development_basics/web_development_basics.md)*
 
 ## Table of Contents
