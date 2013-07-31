@@ -171,4 +171,6 @@ Hopefully you've gained a better idea of what a web developer actually does and 
 
 ## Additional Resources
 
-Submit additional resources [via email](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo) then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+*Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
+
+* Add Here!
