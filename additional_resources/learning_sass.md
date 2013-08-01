@@ -86,6 +86,7 @@ Ruby is a dynamic, general-purpose object-orientend programming language. Sass r
 __Sass Installation__
 
 Once Ruby is installed (just follow the instructions on one of the links, above), open up your CLI and type this:
+
     gem install sass
 
 That's it! You've now got Sass and Ruby installed on your computer!
