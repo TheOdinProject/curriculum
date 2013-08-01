@@ -35,7 +35,7 @@ _my_module.scss_
 
 _my_scss.scss_
 
-    @import '_my_module.scss';
+    @import 'my_module.scss';
     
     div.a_box {
         background-color: $color;
@@ -63,7 +63,7 @@ __Just the 'bear' necessities, ooh the bear necessities...__
 _How's that for a flashback?_
 
 You will need:
-- A text editor (I highly recommend Sublime Text 2[LINK])
+- A text editor (I highly recommend [Sublime Text 2](http://www.sublimetext.com/))
 - A CLI (Command Line Interface), like Terminal or Command Prompt
 
 We will be installing:
