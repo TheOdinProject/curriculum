@@ -14,6 +14,9 @@ Rails tutorial by Michael Hartl
 UT rails course:
 http://schneems.com/ut-rails
 
+Free online webinars:
+http://www.buildingwebapps.com/
+
 Cheat Sheet:
 http://pragtob.github.io/rails-beginner-cheatsheet/index.html
 

@@ -3,6 +3,8 @@ Total estimated time: 2-4 hours
 
 *[Top level table of contents](/README.md)*
 
+*[Jump straight to Web Development 101!](/web_development_basics/web_development_basics.md)*
+
 ## Table of Contents
 1. [Intro](#intro)
 2. [So What Does A Web Developer Actually Do?](#so-what-does-a-web-developer-actually-do)
@@ -18,7 +20,7 @@ Total estimated time: 2-4 hours
 
 This short section is about answering the basic questions people have about the actual practice and career of web development.  Because, let's be honest, even if you've got a strong feeling that you like building things and web development is the right path for you, you still probably don't have a great idea of what developers actually do... and that's where everyone starts so it's okay.
 
-If some of the terms and explanations here seem unfamiliar to you, it may be worth checking out the section on [web development 101](/web_development_basics/web_development_basics.md) and coming back here as necessary.
+If some of the terms and explanations here seem unfamiliar to you, it may be worth checking out the section on [web development 101](/web_development_basics/web_development_basics.md) and coming back here as necessary.  Hopefully, you'll be interested enough in this stuff to go check it out afterward!
 
 Start with [code.org's video about "what most schools don't teach"](http://www.youtube.com/watch?v=nKIu9yen5nc) to get fired up.
 
@@ -128,7 +130,7 @@ You know what a developer does now but you'll also want to familiarize yourself 
 Developers are passionate builders and they often enjoy taking part in various communities and events, both online and off.  As an aspiring developer, it's good for you to begin familiarizing yourself with these communities and how you can participate.  All of these places have a space for beginning developers to at least observe and ask questions.  Experienced devs often enjoy helping out eager learners as long as you keep you are respectful and open-minded.
 
 **In-Person**
-* [Meetups](http://www.meetup.com) -- Check out your local Ruby, Rails, and Developer communities on Meetup.  Odds are that you've got interesting meetups happening at least every several weeks if you're located near a city.
+* [Meetups](http://www.meetup.com) -- Check out your local Ruby, Rails, and Developer communities on Meetup.  Odds are that you've got interesting meetups happening at least every several weeks if you're located near a city... like [ours in San Francisco!](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/)
 * Hack Nights -- Hack nights are a type of in-person meetup designed to cater to casual collaboration.  They're all run differently, but often you'll introduce yourself and what you're hoping to work on.  Then you're free to work with or ask questions of others and enjoy the pizza, beer, and maybe even foosball while getting to know your fellow techies. 
 * Hackathons -- Hackathons are more structured than hack nights and are typically set up as a team application-building contest, sometimes around a specific theme, API or dataset.  They often start with idea pitches, then teams are formed, and then you have a short period of time (say 12-36 hours) to build the thing before presenting to a panel of judges.  Fueled by caffeine and beer, some pretty awesome stuff can come out of these and they're another great way to meet local developers.  
 ** Some of the more widespread hackathons include [AngelHack](http://www.angelhack.com) and, in a similar vein in the startup space, [Startup Weekend](http://www.startupweekend.org/).
@@ -163,6 +165,12 @@ The best thing you can do in order to get a job as a web developer is, of course
 
 Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a full- or part-time career.  See below if you'd like to learn more before moving forward to the next sections, where we install the necessary software and actually begin digging a bit deeper into how computers and the web work.
 
+#### Jump to the:
+* [Installations](/installations/installations.md)
+* [Web Development 101](/web_development_basics/web_development_basics.md)
+
 ## Additional Resources
 
-Submit additional resources [via email](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo) then [submit a pull request](https://help.github.com/articles/using-pull-requests).
+*Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
+
+* Add Here!
