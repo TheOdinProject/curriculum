@@ -24,19 +24,13 @@ As you can tell, we highly value and rely on the help of the developer and stude
 
 ## How to Contribute
 
-There are three main ways to contribute:
+There are three main ways to contribute, in order of preference:
 
-1. Pull Request
+1. **Pull Request:**  To contribute, [fork the repository](https://help.github.com/articles/fork-a-repo), make your changes or additions, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
 
-    To contribute, [fork the repository](https://help.github.com/articles/fork-a-repo), make your changes or additions, then [submit a pull request](https://help.github.com/articles/using-pull-requests) (preferred)  
+2. **Github Issue:** You can also [open up a Github issue](https://github.com/TheOdinProject/curriculum/issues) instead and we'll take care of it.
 
-2. Github Issue
-
-    You can also [open up a Github issue](https://github.com/TheOdinProject/curriculum/issues) instead and we'll take care of it.
-
-3. Email Us
-
-     [Email us](mailto:curriculum@theodinproject.com) your suggestions directly.  If you have questions about The Odin Project itself, [contact us here](mailto:curriculum@theodinproject.com).
+3. **Email:** [Email us](mailto:curriculum@theodinproject.com) your suggestions directly.  If you have questions about The Odin Project itself, [contact us here](mailto:curriculum@theodinproject.com).
 
 If you're adding a solution to one of the projects, first save it in your own repository and then just make a link to it in the appropriate project's section.  Be sure to give your partner appropriate acknowledgement if they want it.
 
