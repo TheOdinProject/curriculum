@@ -75,3 +75,5 @@ Use this table of contents to navigate to whichever unit you'd like to work on. 
 
 <hr>
 [**Why Odin?**](/odin.md)
+<hr>
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/theodinproject/curriculum/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
