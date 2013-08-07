@@ -29,5 +29,12 @@ You can set up a referral link so that someone can click on it and get taken dir
 
 Using IDs is obviously not ideal but it's the best we've got right now.  If you're wondering which project goes with which ID, your best bet right now is to guess-and-check by following those links... there aren't too many projects so it shouldn't be too tough.
 
+## Future Development
+
+The file [dev_roadmap.md](dev_roadmap.md) will be more specific but there are some overall goals for the short term development of this project:
+* Create a real home page... right now it's just a splash page to collect email addresses and, now that this whole thing is open and rearing to go, we need a nice welcoming home page that links out to everything nicely.  That's the first goal.
+* Improve the documentation of the existing code base so people can more easily navigate through it.  This means in-line commenting and also creating a higher level github wiki page that explains how the project works and the best ways to navigate it.
+* Improve user privacy... right now user emails are visible so students can reach out to each other directly.  Ideally, we'd be able to mask the emails so users can protect their privacy until they'd like to reveal themselves to each other.
+
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
