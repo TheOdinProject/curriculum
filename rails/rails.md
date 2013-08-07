@@ -32,3 +32,6 @@ https://devcenter.heroku.com/articles/how-heroku-works
 Webinar on using Heroku for production:
 https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku
 
+Security: Don't do production with your secret token!
+http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/
+
