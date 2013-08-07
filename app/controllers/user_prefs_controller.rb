@@ -3,7 +3,7 @@ class UserPrefsController < ApplicationController
 
   def edit
     @user_pref = current_user.user_pref
-    @content_buckets = ContentBucket.all
+    @content_buckets = ContentBucket.order(:name)
 
     # Hang onto the last page we visited so 
     # we can return to it upon successful form submission
