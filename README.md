@@ -75,4 +75,4 @@ If you'll be linking to the curriculum, it's safest to link to the top-level Tab
 [**Why Odin?**](/odin.md)
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/theodinproject/curriculum/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/064d7d735ff05b93677c33385e100a03 "githalytics.com")](http://githalytics.com/TheOdinProject/curriculum)
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/65f907c02affdd589bd4a4c15b04df6c "githalytics.com")](http://githalytics.com/TheOdinProject/curriculum)
