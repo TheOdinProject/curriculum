@@ -14,5 +14,20 @@ For minor fixes, either submit a github issue or a pull request.  Please coordin
 
 Contact us directly at [project@theodinproject.com](mailto:project@theodinproject.com)
 
+## Features
+
+Much of the good stuff is yet to come, but the major accomplishment so far has been the scheduling tool, which allows users to sign up and show when they're available to pair up on projects.  
+
+### Referral Link
+You can set up a referral link so that someone can click on it and get taken directly to the scheduler with that project already added to their list.  To do so, just use the format:
+
+`http://www.theodinproject.com/?cb=[id of project]`
+
+...where `[id of project]` should be the ID of the project (called a "content_bucket" in the schema) you'd like them to work on directly.  If I wanted to have someone work with me on the edX SAAS homework assignment #4, I would use the link:
+
+`http://www.theodinproject.com/?cb=6`
+
+Using IDs is obviously not ideal but it's the best we've got right now.  If you're wondering which project goes with which ID, your best bet right now is to guess-and-check by following those links... there aren't too many projects so it shouldn't be too tough.
+
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
