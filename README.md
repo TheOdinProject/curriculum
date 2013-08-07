@@ -12,5 +12,7 @@ Thus far, the code has been more or less hacked together so don't use it as a st
 
 For minor fixes, either submit a github issue or a pull request.  Please coordinate with the project maintainers if you're interested in working on some of the larger features in order to avoid traffic jams.
 
+Contact us directly at [project@theodinproject.com](mailto:project@theodinproject.com)
+
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
