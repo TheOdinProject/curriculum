@@ -60,7 +60,7 @@ GEM
     coffee-script-source (1.6.3)
     commonjs (0.2.6)
     debug_inspector (0.0.2)
-    devise (2.2.4)
+    devise (2.2.5)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (~> 3.1)
@@ -75,8 +75,8 @@ GEM
     factory_girl_rails (4.2.1)
       factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
-    faraday (0.8.7)
-      multipart-post (~> 1.1)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
     ffi (1.9.0)
     google-api-client (0.6.4)
       addressable (>= 2.3.2)
@@ -94,7 +94,7 @@ GEM
     jquery-rails (3.0.4)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
-    jquery-ui-rails (4.0.3)
+    jquery-ui-rails (4.0.4)
       jquery-rails
       railties (>= 3.1.0)
     json (1.8.0)
@@ -116,7 +116,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     mini_portile (0.5.1)
-    multi_json (1.7.7)
+    multi_json (1.7.8)
     multipart-post (1.2.0)
     newrelic_rpm (3.6.5.130)
     nokogiri (1.6.0)
@@ -150,10 +150,10 @@ GEM
     rdoc (3.12.2)
       json (~> 1.4)
     ref (1.0.5)
-    rspec-core (2.14.2)
+    rspec-core (2.14.4)
     rspec-expectations (2.14.0)
       diff-lcs (>= 1.1.3, < 2.0)
-    rspec-mocks (2.14.1)
+    rspec-mocks (2.14.2)
     rspec-rails (2.14.0)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
@@ -162,12 +162,12 @@ GEM
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
     rubyzip (0.9.9)
-    sass (3.2.9)
+    sass (3.2.10)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
-    selenium-webdriver (2.33.0)
+    selenium-webdriver (2.34.0)
       childprocess (>= 0.2.5)
       multi_json (~> 1.0)
       rubyzip
@@ -198,11 +198,11 @@ GEM
       execjs
       railties (>= 3.1)
     tzinfo (0.3.37)
-    uglifier (2.1.1)
+    uglifier (2.1.2)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
     uuidtools (2.1.4)
-    warden (1.2.2)
+    warden (1.2.3)
       rack (>= 1.0)
     websocket (1.0.7)
     xpath (1.0.0)
@@ -216,19 +216,19 @@ DEPENDENCIES
   binding_of_caller
   capybara (<= 2.0.2)
   coffee-rails (~> 3.2.1)
-  devise
+  devise (~> 2.2.4)
   factory_girl_rails
-  google-api-client
-  jquery-rails
-  jquery-ui-rails
-  less-rails
+  google-api-client (~> 0.6.4)
+  jquery-rails (~> 3.0.4)
+  jquery-ui-rails (~> 4.0.3)
+  less-rails (~> 2.3.3)
   letter_opener
-  newrelic_rpm
-  pg
+  newrelic_rpm (~> 3.6.5.130)
+  pg (~> 0.15.1)
   rails (= 3.2.12)
   rspec-rails
   sass-rails (~> 3.2.3)
-  simple_form
-  therubyracer
+  simple_form (~> 2.1.0)
+  therubyracer (~> 0.11.4)
   twitter-bootstrap-rails (= 2.2.6)
   uglifier (>= 1.0.3)
