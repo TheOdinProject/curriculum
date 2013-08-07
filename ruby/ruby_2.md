@@ -45,18 +45,16 @@ Some things you just won't pick up right away or their coverage by main resource
 
 
 ## Roadmap
-2. [Basic Ruby](basic_ruby/basic_ruby.md)
-2. [Solving Problems with Ruby](level_2_ruby/level_2_ruby.md)
-4. File I/O and Serialization
-6. Basic Data Structures
-7. Basic Algorithms
-3. Ruby and the Web
-5. Testing Ruby with RSpec
-8. Final Projects
+2. [Basic Ruby](#basic-ruby)
+2. [Solving Problems with Ruby](#intermediate-ruby)
+4. [Ruby on the Web](#ruby-on-the-web)
+6. [Basic Recursion, Algorithms, and Data Structures](#basic-recursion-algorithms-and-data-structures)
+5. [Testing Ruby with RSpec](#testing-ruby-with-rspec)
+8. [Ruby Final Project](#pair-project-ruby-final-project)
 
 ## Basic Ruby
 
-### Building Blocks
+### 1. Building Blocks
 *Variables, Data Types, Strings, Methods*
 
 #### Intro
@@ -68,47 +66,132 @@ This should start as a quick refresher of what you've already learned...  And no
 1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 section to start with.
 2. Do the full [Codecademy Introduction to Ruby](http://www.codecademy.com/tracks/ruby) section if you haven't already.
 3. Complete the [Codecademy Introduction to Ruby](http://www.codecademy.com/tracks/ruby) project ("Putting the Form in Formatter")
+4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`
+5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 31-50 (only the section on Numbers and Expressions and the section on Text and Strings)
 
 #### Exercises
 
 #### Additional Resources
 
-### Basic Ruby Project 1
+### PAIR PROJECT: Building Blocks
 Estimated time: 2 hours
 
 Do the [Basic Ruby Project 1](basic_ruby_project_1.md) with a partner
 
-### Advanced Building Blocks
+### 2. Advanced Building Blocks
 *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*
 
 #### Intro
 
-This section gets more into the topics you may have been shakey on before.  It's definitely got some more meat to it than the previous one.
+This section gets more into the topics you may have been shakey on before.  It's definitely got some more meat to it than the previous one.  The Codecademy exercises are good for doing on your own because they give you all kinds of help with them.  
 
 #### Homework Assignment
 
 1. Do the [Codecademy Ruby sections 2-6](http://www.codecademy.com/tracks/ruby), including:
 
-        1. [Control Flow in Ruby](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
-        2. [Project: Thith Meanth War!](http://www.codecademy.com/courses/ruby-beginner-en-JdNDe?curriculum_id=5059f8619189a5000201fbcb)
-        2. [Looping with Ruby](http://www.codecademy.com/courses/ruby-beginner-en-XYcN1?curriculum_id=5059f8619189a5000201fbcb)
-        3. [Project: Redacted!](http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6?curriculum_id=5059f8619189a5000201fbcb)
-        3. [Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb)
-        5. [Project: Create a Histogram](http://www.codecademy.com/courses/ruby-beginner-en-693PD?curriculum_id=5059f8619189a5000201fbcb)
-        4. [Blocks and Sorting](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU?curriculum_id=5059f8619189a5000201fbcb)
-        4. [Project: Ordering your Library](http://www.codecademy.com/courses/ruby-beginner-en-nOho7?curriculum_id=5059f8619189a5000201fbcb)
-        5. [Hashes and Symbols](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw?curriculum_id=5059f8619189a5000201fbcb)
-        6. [Project: A Night at the Movies](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb)
+    1. [Control Flow in Ruby](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
+    2. [Project: Thith Meanth War!](http://www.codecademy.com/courses/ruby-beginner-en-JdNDe?curriculum_id=5059f8619189a5000201fbcb)
+    2. [Looping with Ruby](http://www.codecademy.com/courses/ruby-beginner-en-XYcN1?curriculum_id=5059f8619189a5000201fbcb)
+    3. [Project: Redacted!](http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6?curriculum_id=5059f8619189a5000201fbcb)
+    3. [Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb)
+    5. [Project: Create a Histogram](http://www.codecademy.com/courses/ruby-beginner-en-693PD?curriculum_id=5059f8619189a5000201fbcb)
+    4. [Blocks and Sorting](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU?curriculum_id=5059f8619189a5000201fbcb)
+    4. [Project: Ordering your Library](http://www.codecademy.com/courses/ruby-beginner-en-nOho7?curriculum_id=5059f8619189a5000201fbcb)
+    5. [Hashes and Symbols](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw?curriculum_id=5059f8619189a5000201fbcb)
+    6. [Project: A Night at the Movies](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb)
+    7. [Blocks, Procs, and Lambdas](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb)
+        
+2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
 
-### Basic Ruby Project 2
+#### Exercises
+
+#### Additional Resources
+
+### PAIR PROJECT: Advanced Building Blocks
 Estimated Time: ~4 hrs
 
 Get a partner and do the [Basic Ruby Project 2](basic_ruby_project_2.md), which should be more challenging than the first one.
 
+## Intermediate Ruby
 
+### 1. Working with Files and Saving Data
+#### Intro
+#### Homework Assignment
+
+1. Read [Beginning Ruby](http://beginningruby.org/) Chapter 4: `Developing Your First Ruby Application` and follow along with the tutorial.
+2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 9: `Files and Databases`
+
+#### Exercises
+#### Additional Resources
+### PAIR PROJECT: Working with Files and Saving Data
+
+### 2. Good Programming with OOP
+#### Intro
+#### Homework Assignment
+
+1. Do [Codecademy Ruby sections 7, 9, and 10](http://www.codecademy.com/tracks/ruby):
+  
+    1. [Refactoring](http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb?curriculum_id=5059f8619189a5000201fbcb)
+    2. [Project: The Refactor Factory](http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y?curriculum_id=5059f8619189a5000201fbcb)
+    3. [Object-Oriented Programming, Part I](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6?curriculum_id=5059f8619189a5000201fbcb)
+    4. [Project: Virtual Computer](http://www.codecademy.com/courses/ruby-beginner-en-X5wcR?curriculum_id=5059f8619189a5000201fbcb)
+    5. [Object-Oriented Programming, Part II](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o?curriculum_id=5059f8619189a5000201fbcb)
+    6. [Project: Banking on Ruby](http://www.codecademy.com/courses/ruby-beginner-en-32cN3?curriculum_id=5059f8619189a5000201fbcb)
+
+2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
+3. Read [Beginning Ruby](http://beginningruby.org/) Chapter 6: `Classes, Objects, and Modules`
+4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 7: `Projects and Libraries`
+5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
+
+scope and style linkouts
+#### Exercises
+#### Additional Resources
+### PAIR PROJECT: Good Programming with OOP
+
+
+## Ruby on the Web
+#### Intro
+#### Homework Assignment
+#### Exercises
+#### Additional Resources
+### PAIR PROJECT: Ruby on the Web
+
+## Basic Recursion, Algorithms and Data Structures
+and recursion
+### 1. Recursion
+#### Intro
+#### Homework Assignment
+#### Exercises
+#### Additional Resources
+### PAIR PROJECT: Recursion
+
+### 2. Algorithms
+#### Intro
+#### Homework Assignment
+#### Exercises
+#### Additional Resources
+### PAIR PROJECT: Algorithms
+
+### 3. Data Structures
+#### Intro
+#### Homework Assignment
+#### Exercises
+#### Additional Resources
+### PAIR PROJECT: Data Structures
+
+## Testing Ruby with RSpec
+#### Intro
+#### Homework Assignment
+#### Exercises
+#### Additional Resources
+### PAIR PROJECT: Testing with RSpec
+build exercises for earlier sections!
+
+## PAIR PROJECT: Ruby Final Project!
+mini-rails
 
 ## Finish
-TODO
+TODO!
 
 ## Additional Resources
 
