@@ -151,6 +151,8 @@ Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that cour
 ##### HTML/CSS Mini-Project:
 Estimated Time: 2-4 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=3" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 **Know (and try) these before starting**
 * Two ways to move a div around on the page
 * How to stick a div onto the bottom or top of the page
@@ -164,6 +166,8 @@ Estimated Time: 2-4 hrs
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it.  The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.  For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
 Use the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [jsfiddle.net](http://www.jsfiddle.net)).
+
+<a href="http://www.theodinproject.com/scheduler?cb=3" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 * Easy Version: Build the [Google.com](http://www.google.com) homepage (the simple one with just a search box).
     1. Tips:
@@ -254,6 +258,8 @@ TODO: A video where a dev walks through some existing Javascript/jQuery code and
 ##### JS/jQuery Mini-Project:
 Estimated Time: 2-4 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 This should not be trivially easy for you.  You'll probably have to Google often to get the right jQuery methods or CSS to use and that's the point.
 
 **Sketch Pad**
@@ -278,6 +284,8 @@ This should not be trivially easy for you.  You'll probably have to Google often
     3. You should be able to enter `64` and have a new 64x64 grid pop up in front of you without changing the total amount of pixels used.
     4. Why is it so slow?? Remember that when you call a jQuery selector like `$(".square")`, it actually returns you ALL the elements that fit the description.  So if you're doing those types of operations hundreds of times inside a loop, it can get very time consuming... try pulling those outside your loops.
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
+
+<a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 **Student Solutions**
 
@@ -344,6 +352,8 @@ TODO: Ruby walkthrough video
 ##### Ruby Mini-Project:
 Estimated Time: 4-6 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=4" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 It's time for some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.  First, you'll probably want to skip ahead and read about testing in the section below called "Testing 101".  There's a homework assignment there but it shouldn't take long.  Or just wing it...
 
 This exercise will involve a lot of figuring things out.  There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass.  You need to look at those tests, figure out what they want, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
@@ -358,6 +368,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     5. 04_pig_latin
     6. 08_book_titles
     6. 09_timer
+
+<a href="http://www.theodinproject.com/scheduler?cb=4" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
@@ -457,9 +469,13 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 ##### Rails Mini Project:
 Estimated Time: 3-5 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 * Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
 
 **Extra Credit:** Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the section below on git (under the "Additional Topics" heading) or skip any of the `$ git ... ` commands for now, they're non-essential (it's sort of like saving your files on Dropbox).
+
+<a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 **Student Solutions**
 

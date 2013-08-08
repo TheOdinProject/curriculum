@@ -60,7 +60,7 @@ Navigate through the curriculum using the roadmap listed above.  The links will 
 
 ## Final Note
 
-This curriculum is just a suggested path... you don't necessarily need to do things in this order.  Actually, we'll try to lay out a couple different options because everyone has different goals.  That said, you'll probably be a bit lost later on if you're missing some key foundational knowledge.  This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! We'll soon give you the tools necessary to work directly with other people across the globe.
+This curriculum is just a suggested path... you don't necessarily need to do things in this order.  Actually, we'll try to lay out a couple different options because everyone has different goals.  That said, you'll probably be a bit lost later on if you're missing some key foundational knowledge.  This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! You can work  with other students across the globe using the open-source [scheduler tool](http://www.theodinproject.com/scheduler) to set up times to pair remotely on curriculum projects.
 
 ### Work In Progress!
 
