@@ -12,8 +12,8 @@ class StaticPagesController < ApplicationController
   end
 
   def home
-    @splash = false
-    render "splash"
+    # @splash = false
+    # render "splash"
   end
 
   def send_feedback

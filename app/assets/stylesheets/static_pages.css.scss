@@ -4,6 +4,7 @@
 
 @import 'colors';
 
+/*Namespacing all the landing page styles*/
 #landing-page{
 
   font-family: Oxygen, sans-serif;
@@ -225,6 +226,56 @@
   }
 
 } /************* End of Landing Pages **************/
+
+/*Namespacing all the home page styles*/
+#home-page{
+
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  h2{
+    font-size: 40px;
+    font-weight: 300;
+  }
+  h3{
+    font-weight: 300;
+  }
+  h4{
+    font-weight: 300;
+  }
+
+  .narrow{
+    max-width: 800px;
+  }
+
+  .headline{
+    text-align: center;
+    h1{
+      font-size: 60px;
+      line-height: 100%;
+      font-weight: 100;
+    }
+  }
+
+  .subheading{
+    text-align: center;
+    h2{
+      font-weight: 100;
+      font-size: 30px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+
 
 
 #devise-form{
