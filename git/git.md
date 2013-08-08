@@ -4,6 +4,9 @@
 
 TODO: How a real developer uses Git (2)
 
+Atlassian's tutorial:
+https://www.atlassian.com/git/tutorial
+
 http://sixrevisions.com/resources/git-tutorials-beginners/
 
 http://pcottle.github.io/
