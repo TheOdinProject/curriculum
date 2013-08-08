@@ -235,19 +235,39 @@
   h2{
     font-size: 40px;
     font-weight: 300;
+    line-height: 125%;
   }
   h3{
+    font-size: 24px;
     font-weight: 300;
+    line-height: 125%;
   }
   h4{
+    font-size: 20px;
     font-weight: 300;
+    line-height: 125%;
   }
 
   .narrow{
     max-width: 800px;
   }
 
+  .content{
+    padding: 30px 0px;
+  }
+
+  .dark{
+    background-color: #aaa;
+    margin-left: -100%;
+    margin-right: -100%;
+  }
+
+  .top-box{
+    padding: 40px 0px;
+  }
+
   .headline{
+    padding: 40px 0px 10px 0px;
     text-align: center;
     h1{
       font-size: 60px;
@@ -257,14 +277,30 @@
   }
 
   .subheading{
+    padding: 20px 0px;
+    /*font-style: italic;*/
     text-align: center;
     h2{
       font-weight: 100;
-      font-size: 30px;
+      font-size: 26px;
+    }
+    .emphasis{
+      color: #f60;
+      padding: 20px 0px;
+      font-size: 150%;
+      font-weight: 500;
     }
   }
 
-
+  .sub-item{
+    width: 24%;
+    display: inline-block;
+    padding: 15px 0px;
+    text-align: center;
+    h3{
+      font-weight: 300;
+    }
+  }
 
 
 
