@@ -1,5 +1,5 @@
 # The Odin Project 
-v0.0.6
+v0.0.6 http://www.theodinproject.com/scheduler
 
 ## Empowering Aspiring Developers to Learn Together
 

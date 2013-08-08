@@ -29,6 +29,11 @@ v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
 **********************  Current Version Sandbox  ********************
 
 v0.0.6: Bug Fixes
+
+* Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
+* 
+
+
 DONE Fix linkages to profiles to actually how the correct URL links to that program and their account on it.
 DONE Fix language for editing contact info -- not always a URL!
 DONE Remove the "github account unavailable" thing from index
