@@ -263,7 +263,30 @@
   }
 
   .top-box{
-    padding: 40px 0px;
+    padding: 0px 0px 0px 0px;
+
+    .social{
+      /*width:300px;*/
+      padding: 40px 0px 0px 0px;
+      text-align: center;
+      display: inline-block;
+      .social-button{
+        width: 115px;
+        height: 25px;
+        display:inline-block;
+        padding: 5px 0px;
+      }
+      .facebook{
+        /*padding-top:10px;*/
+        padding-right: 10px;
+      }
+      .twitter{
+        /*padding-top: 10px;*/
+      }
+      .google-plus{
+        /*padding-top: 10px;*/
+      }
+    }
   }
 
   .headline{
