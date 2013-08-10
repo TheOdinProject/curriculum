@@ -4,11 +4,11 @@
 
 The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to get you on the path towards acquiring a job-ready skillset.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
 
-It takes approximately **1000 hours** of work to go from zero to employable as a web developer and it's often a confusing and overwhelming journey.  When you first ask how to get started, you usually get a dozen vague resources to look at and a gentle nudge forward.  Or you end up staring at the possibility of massive student debt for a CS degree which is no guarantee of employment anyway.  If you've got the motivation, this curriculum is designed to provide a clear path forward that utilizes existing (and mostly free) content on the web to get you to where you'd like to be and at your own pace.  
+It takes approximately **1000 hours** of work to go from zero to employable as a web developer and it's often a confusing and overwhelming journey.  When you first ask how to get started, you usually get a dozen vague resources to look at and a gentle nudge forward.  Or you end up staring at the possibility of massive student debt for a CS degree which is no guarantee of employment anyway.  If you've got the motivation, this curriculum is designed to provide a clear path forward that utilizes existing (and mostly free) content to get you to where you'd like to be and at your own pace.  
 
 Everyone has a different goal and that's okay.  Whether you're looking to join a tech company, start a startup, build your own website, retool from another language, try out a new hobby, or work as a freelancer, you'll find value in the content we've roped together.  
 
-Check our our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) if you'd like to follow the development of The Odin Project and participate in our in-person pairing meetups.  We will shortly be introducing a way to find each other to pair online as well.
+Check our our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) if you'd like to follow the development of The Odin Project and participate in our in-person pairing meetups.  Check our website at [theodinproject.com](http://www.theodinproject.com) and join up to connect with other people across the world!
 
 ## Curriculum Roadmap
 *Use these links to navigate to the appropriate course unit*
