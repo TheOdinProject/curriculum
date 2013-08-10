@@ -7,14 +7,14 @@ Theodinproject::Application.routes.draw do
   end
     
 
-  root :to => 'static_pages#splash'
+  root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
   get 'scheduler' => 'static_pages#scheduler', as: :user_root
-  get 'thank_you' => 'static_pages#thank_you'
+  # get 'thank_you' => 'static_pages#thank_you'
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'
   get 'selectable' => 'static_pages#selectable'
-  get 'splash_email' => 'static_pages#splash_email'
+  # get 'splash_email' => 'static_pages#splash_email'
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
 
