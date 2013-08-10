@@ -12,48 +12,14 @@ describe "StaticPages" do
       # save_and_open_page
       subject.source.should have_selector('title', text: "Odin") 
     end
-    it "should hide the navbar" do
-      page.should have_css('#top-navbar', :visible => false)
-    end
 
-    it { should have_selector('h1', text: "Become") }
-    it { should_not have_link "Scheduler" }
-    it { should have_link "", href: "http://www.github.com/TheOdinProject/curriculum" }
-    it { should have_link '...Or sign up for our private alpha offering HERE', :href => splash_email_path }
+    it { should have_selector('h1', text: "Empowering Aspiring Developers To Learn Together") }
+    it { should_not have_link :href => scheduler_path } # worthless test? It may need the link text too.
+    it { should have_link "VIEW the Curriculum on Github", :href => "http://www.github.com/theodinproject/curriculum" }
+    it { should have_link 'Login', :href => login_path }
   end
 
-  describe "Splash Email Page" do
 
-    before { visit splash_email_path }
-
-    describe "filling in the email form" do
-      before(:each) do
-        fill_in("splash_email_email", with: "foo@bar.com")
-      end
-
-      it "should create the splash_email instance" do
-        expect { click_button("commit") }.to change(SplashEmail, :count).by(1)
-      end
-
-      describe "after form submission" do
-        before(:each) do
-          click_button("commit")
-        end
-
-        it "should redirect to the thank_you page" do
-          subject.should have_selector('h3', text: "Thanks!")
-        end
-      end
-    end
-  end
-
-  describe "Splash Thank You Page" do
-
-    before { visit thank_you_path }
-
-    it { should have_selector('h3', text: "Thanks!") }
-
-  end
 
   describe "Scheduler Page" do
 
@@ -149,13 +115,13 @@ describe "StaticPages" do
 
       before { visit root_path }
 
-      it { should have_link "login" }
+      it { should have_link "Login" }
 
       context "after clicking login" do
 
-        before { click_link "login" }
+        before { click_link "Login" }
 
-        it { should_not have_link "Sign up" }
+        it { should have_link "Sign up" }
 
       end
     end
@@ -173,12 +139,12 @@ describe "StaticPages" do
 
       describe "should start on the home page" do
 
-        it { should have_selector('h1', :text => "Become a Web Developer") }
+        it { should have_selector('h1', :text => "Empowering Aspiring Developers To Learn Together") }
         it { should_not have_link "Logout" }
 
         describe "then click through to login" do
 
-          before { click_link "login" }
+          before { click_link :href=>login_path }
 
           it { should have_selector('h2', :text => "Sign in") }
 
@@ -198,7 +164,7 @@ describe "StaticPages" do
                 click_link "Logout"
               end
 
-              it { should have_selector('h1', :text => "Become a Web Developer") }
+              it { should have_selector('h1', :text => "Empowering Aspiring Developers To Learn Together") }
             end
           end
         end
