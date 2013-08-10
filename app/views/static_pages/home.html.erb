@@ -6,7 +6,7 @@
     <div class="top-box">
       <div class="headline">
 
-        <%= image_tag "odin_big_silhouette.gif", :width => "200px" %>
+        <%= image_tag "odin_big_silhouette.gif", :width => "180px" %>
 
         <h1>
           Empowering Aspiring Developers <br> To Learn Together
@@ -17,34 +17,12 @@
       <div class="subheading">
 
         <h2>
-          <div class="emphasis">It sucks to learn web development on your own.</div> 
+          <div class="emphasis">It sucks to learn web development on your own</div> 
           That's why The Odin Project offers free and open-source tools to get you started and working directly with other students.
         </h2>
 
-        <div class="social">
+        <%= render "social" %>
 
-          <div class="facebook social-button">
-            <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.theodinproject.com&amp;width=75&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:21px;" allowTransparency="true" id="fb-like"></iframe>
-          </div>
-
-          <div class="twitter social-button">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out http://www.TheOdinProject.com, an open-source site built to empower aspiring developers to learn together! @theodinproject">Tweet</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          </div>
-
-          <div class="google-plus social-button">
-            <!-- Place this tag where you want the +1 button to render. -->
-            <div class="g-plusone" data-href="http://www.theodinproject.com"></div>
-
-            <!-- Place this tag after the last +1 button tag. -->
-            <script type="text/javascript">
-              (function() {
-                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                po.src = 'https://apis.google.com/js/plusone.js';
-                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-              })();
-            </script>
-          </div>
         </div>
       </div>
     </div>
@@ -58,66 +36,11 @@
         We've put together an open-source curriculum that uses existing resources and interesting projects to take you from absolutely zero experience and set you on the path towards serious web development.
       </h4>
 
-      <!-- <div class="sub-item">
-        <%= image_tag "icons/web.png", :width=>"80px" %>
-        <h3>What a Web Developer Actually Does</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/git.png", :width=>"80px" %>
-        <h3>How to Work Together</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/application.png", :width=>"80px" %>
-        <h3>Web Development Basics</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/ruby.png", :width=>"80px" %>
-        <h3>Ruby</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/postgres.png", :width=>"80px" %>
-        <h3>Relational Databases</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/rails.png", :width=>"80px" %>
-        <h3>Ruby on Rails</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/heroku.png", :width=>"80px" %>
-        <h3>Deploying your Application</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/html5.png", :width=>"80px" %>
-        <h3>HTML5</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/css3.png", :width=>"80px" %>
-        <h3>CSS3</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/javascript.png", :width=>"80px" %>
-        <h3>Javascript</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/jquery.png", :width=>"80px" %>
-        <h3>jQuery</h3>
-      </div>
-
-      <div class="sub-item">
-        <%= image_tag "icons/backbone.png", :width=>"80px" %>
-        <h3>Backbone.js</h3>
-      </div>
-  -->
+      <button class="button">
+        <a href="http://www.github.com/theodinproject/curriculum" title="The Odin Project Curriculum" target="_blank">
+          VIEW the Curriculum on Github
+        </a>
+      </button>
     </div>
     
     <hr>
@@ -128,7 +51,11 @@
       <h4>
         Building projects is awesome.  Working alone sucks.  Whether it's a homework assignment from an online course or one of the projects from our own curriculum, our scheduler tool lets you find other people who are working on the same stuff and set up a time to pair together on it.
       </h4>
-    
+      
+      <button class="button">
+        <%= link_to "SIGN UP to use the Scheduler", new_user_registration_path %>
+      </button>
+
     </div>
 
     <hr>
@@ -139,6 +66,12 @@
         The source code for everything on this website, from the tools to the curriculum to this very page, is available on Github.  The best way to learn is to actually build stuff... so help actually build the tools you use by contributing!
       </h4>
 
+      <button class="button">
+        <a href="http://www.github.com/theodinproject/theodinproject" title="The Odin Project Curriculum" target="_blank">
+          HELP OUT by Contributing
+        </a>
+      </button>
+
     </div>
 
     <hr>
@@ -148,6 +81,11 @@
       <h4>
         This is about more than just pairing people together on projects, it's meant to help you really connect with other students along the way.  Host an in-person meetup like <a href="http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/" title="San Francisco Meetup Group">ours in San Francisco</a> or help us build out the functionality for people to gather together online.
       </h4>
+
+      <button class="button">
+        <%= link_to "JOIN the Community", new_user_registration_path %>
+      </button>
+
     </div>
 
   </div>

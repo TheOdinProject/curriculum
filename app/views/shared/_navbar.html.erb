@@ -9,6 +9,8 @@
           <%= render "shared/logo_text" %>
           <div class="container nav-collapse">
             <ul class="nav pull-right nav-links">
+              <li class="top-link"><a href="http://1000hours.io">Blog</a></li>
+              <li class="top-link"><a href="http://www.github.com/theodinproject/curriculum" target="_blank">Curriculum</a></li>
               <% if user_signed_in? %>
                 <li class="top-link"><%= link_to "Students", students_path %></li>
                 <li class="top-link"><%= link_to "Scheduler", scheduler_path %></li>
@@ -21,8 +23,8 @@
                     <li class="divider"></li>
                     <li><%= link_to "Logout", logout_path  %></li>
                   </ul>
-              <% elsif false # disabled for alpha offering%>
-                <li><%= link_to "Login", login_path, :id=>"login-link" %></li>
+              <% else %>
+                <li><%= link_to "Login", login_path, :class=>"top-link", :id=>"login-link" %></li>
               <% end %>
             </ul>
           </div><!--/.nav-collapse -->

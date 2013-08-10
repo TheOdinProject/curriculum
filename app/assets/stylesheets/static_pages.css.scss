@@ -267,7 +267,7 @@
 
     .social{
       /*width:300px;*/
-      padding: 40px 0px 0px 0px;
+      padding: 20px 0px 0px 0px;
       text-align: center;
       display: inline-block;
       .social-button{
@@ -293,19 +293,56 @@
     padding: 40px 0px 10px 0px;
     text-align: center;
     h1{
-      font-size: 60px;
+      font-size: 55px;
       line-height: 100%;
       font-weight: 100;
     }
   }
 
+  .button{
+    width: 350px;
+    height: 60px;
+    line-height: 125%;
+    font-size: 26px;
+    text-shadow: 1px 1px #999;
+    letter-spacing: 1px;
+    color: $background-color;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 30px auto 20px auto;
+    padding: 0px 20px;
+    display: block;
+    border: 1px solid #999;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    background-color: #bbf;
+    &:hover{
+      background-color: #99f;
+    }
+    &:focus{
+      background-color: #88f;
+    }
+    &:active{
+      background-color: #88f;
+    }
+    a{
+      color: white;
+      &:hover{
+        text-decoration: none;
+      }
+      &:clicked{
+        color: #ddd;
+      }
+    }
+  }
+
   .subheading{
-    padding: 20px 0px;
+    padding: 10px 0px;
     /*font-style: italic;*/
     text-align: center;
     h2{
       font-weight: 100;
-      font-size: 26px;
+      font-size: 20px;
     }
     .emphasis{
       color: #f60;
@@ -314,23 +351,6 @@
       font-weight: 500;
     }
   }
-
-  .sub-item{
-    width: 24%;
-    display: inline-block;
-    padding: 15px 0px;
-    text-align: center;
-    h3{
-      font-weight: 300;
-    }
-  }
-
-
-
-
-
-
-
 
 }
 

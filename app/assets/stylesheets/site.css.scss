@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  padding-top: 60px;
+  padding-top: 51px;
   background: $background_color;
 }
 
@@ -148,7 +148,7 @@ form#edit-user{
     width: 60%;
     float: left;
     max-height: 100px;
-    overflow: scroll;
+    overflow: auto;
   }
 }
 
