@@ -191,6 +191,10 @@ Then do their [Practical Object Oriented Design Quiz](http://www.codequizzes.com
 * If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330) from Sandi Metz.
 
 ### PAIR PROJECT: Good Programming with OOP
+Estimated Time: 6-8 hours
+
+Get a partner and do the [OOP Programming Project](oop_project.md).
+
 
 
 ## Ruby on the Web
