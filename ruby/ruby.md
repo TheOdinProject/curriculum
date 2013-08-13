@@ -52,6 +52,8 @@ Some things you just won't pick up right away or their coverage by main resource
 5. [Testing Ruby with RSpec](#testing-ruby-with-rspec)
 8. [Ruby Final Project](#pair-project-ruby-final-project)
 
+
+
 ## Basic Ruby
 
 ### 1. Building Blocks
@@ -69,7 +71,9 @@ This should start as a quick refresher of what you've already learned...  And no
 4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`
 5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 31-50 (only the section on Numbers and Expressions and the section on Text and Strings)
 
-#### Exercises
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/topics/24/quizzes/75) from [Code Quizzes](http://www.codequizzes.com/).
 
 #### Additional Resources
 
@@ -77,6 +81,8 @@ This should start as a quick refresher of what you've already learned...  And no
 Estimated time: 2 hours
 
 Do the [Basic Ruby Project 1](basic_ruby_project_1.md) with a partner
+
+
 
 ### 2. Advanced Building Blocks
 *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*
@@ -103,7 +109,9 @@ This section gets more into the topics you may have been shakey on before.  It's
         
 2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
 
-#### Exercises
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #2](http://www.codequizzes.com/topics/24/quizzes/76), [Quiz #3](http://www.codequizzes.com/topics/24/quizzes/77), [Quiz #4](http://www.codequizzes.com/topics/24/quizzes/78), and [Quiz #6](http://www.codequizzes.com/topics/24/quizzes/80) from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
 
 #### Additional Resources
 
@@ -134,8 +142,10 @@ In this section, you'll get a good handle on these fundamental but important con
 1. Read [Beginning Ruby](http://beginningruby.org/) Chapter 4: `Developing Your First Ruby Application` and follow along with the tutorial.
 2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 9: `Files and Databases`
 
-#### Exercises
-#### Additional Resources
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
+sources
 ### PAIR PROJECT: Working with Files and Saving Data
 Estimated Time: ~4-6 hrs
 
@@ -144,7 +154,15 @@ Get a partner and do the [Files and Serialization Project](file_io_project.md).
 
 
 ### 2. Good Programming with OOP
+
 #### Intro
+
+You've got the building blocks of Ruby out of the way, great! Now it's time to get into the fun stuff... how do we combine those building blocks in the most efficient and elegant ways to produce the programs we'd like to write?
+
+The concepts you'll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language.  That's because the fundamental concepts are just that... fundamental.  Don't repeat yourself.  Modularize your code.  Have your classes and methods only do one thing.  Show as little of your interfaces to the world as you can.  Don't make methods or classes heavily dependent on each other.  Be lazy.  These will take some time and practice to implement effectively, but you'll already be taking a big step towards creating high quality code just by finishing up this section.
+
+There's a lot to do here but stick with it!  The Codecademy lessons are interspersed with their projects.  The Beginning Ruby book will help you understand the material a bit deeper, which will be important to understand for creating your own projects.
+
 #### Homework Assignment
 
 1. Do [Codecademy Ruby sections 7, 9, and 10](http://www.codecademy.com/tracks/ruby):
@@ -157,21 +175,31 @@ Get a partner and do the [Files and Serialization Project](file_io_project.md).
     6. [Project: Banking on Ruby](http://www.codecademy.com/courses/ruby-beginner-en-32cN3?curriculum_id=5059f8619189a5000201fbcb)
 
 2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
-3. Read [Beginning Ruby](http://beginningruby.org/) Chapter 6: `Classes, Objects, and Modules`
+3. Read [Beginning Ruby](http://beginningruby.org/) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
 4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 7: `Projects and Libraries`
 5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
 
 scope and style linkouts
-#### Exercises
+#### Test Yourself
+
+Make sure you can do [Quiz #5](http://www.codequizzes.com/topics/24/quizzes/79) and [Quiz #7](http://www.codequizzes.com/topics/24/quizzes/81) from [Code Quizzes](http://www.codequizzes.com).  
+
+Then do their [Practical Object Oriented Design Quiz](http://www.codequizzes.com/topics/1/quizzes/40), which will delve deeper into design principles.  There are some new concepts here to pick up as well.
+
 #### Additional Resources
+
+* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330) from Sandi Metz.
+
 ### PAIR PROJECT: Good Programming with OOP
 
 
 ## Ruby on the Web
 #### Intro
 #### Homework Assignment
-#### Exercises
-#### Additional Resources
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
+sources
 ### PAIR PROJECT: Ruby on the Web
 
 ## Basic Recursion, Algorithms and Data Structures
@@ -179,29 +207,37 @@ and recursion
 ### 1. Recursion
 #### Intro
 #### Homework Assignment
-#### Exercises
-#### Additional Resources
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
+sources
 ### PAIR PROJECT: Recursion
 
 ### 2. Algorithms
 #### Intro
 #### Homework Assignment
-#### Exercises
-#### Additional Resources
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
+sources
 ### PAIR PROJECT: Algorithms
 
 ### 3. Data Structures
 #### Intro
 #### Homework Assignment
-#### Exercises
-#### Additional Resources
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
+sources
 ### PAIR PROJECT: Data Structures
 
 ## Testing Ruby with RSpec
 #### Intro
 #### Homework Assignment
-#### Exercises
-#### Additional Resources
+#### Test Yourself
+
+Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
+sources
 ### PAIR PROJECT: Testing with RSpec
 build exercises for earlier sections!
 
