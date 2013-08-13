@@ -1,7 +1,8 @@
 # Pair Project: Serialization and Working with Files
 
+*[Return to Ruby](ruby.md)*
 
-## 1. Event Manager
+## Warmup: Event Manager
 
 In your Ruby days to come, you'll inevitably run into times when you'll be working with CSV files and imperfect data.  Seriously... there is no such thing as a perfect dataset.  Any time you find what looks like the perfect batch of data on something interesting, whether you're trying to plot airline flight delays on a map, tease out the nuggets from a master list of nonprofits, or scrape 10,000 emails to mercilessly SPAM with your latest get-rich-quick scheme, it will be full of mistakes, omissions, and misspellings.  Working with and cleaning up data go hand in hand.
 
@@ -10,7 +11,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 1. [This tutorial from Jumpstart Lab](http://tutorials.jumpstartlab.com/projects/eventmanager.html) walks you through just that sort of operation. Give it a shot.
 
 
-## 2. Hangman
+## Project: Hangman
 
 Files are a great way to save and reload a game, so we'll give it a shot here.
 
