@@ -88,7 +88,7 @@ Raise your hand if you're scared of the command line.  Yes, we have this image o
 That black screen (or window) is the command line, where you're able to enter commands that your computer will run for you.  And while that image of a programmer is a bit overdone, the command line really is sort of like our base of operations, from which we'll launch other programs to do our "real developing" in.  It has a syntax of its own which is different but not all that difficult to pick up.  You'll be entering the same commands dozens of times anyway, so you'll get pretty good at it in a short period of time.
 
 ##### Assignment:
-1. To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.
+1. To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.  It can be a bit rough at times because the explanations are a bit sparse, so don't worry if you don't absorb it all the first time.  You'll get quite familiar with the few commands that you end up using every day over the course of the next few weeks anyway.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
