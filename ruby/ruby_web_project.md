@@ -19,6 +19,14 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 1. [This project/tutorial from Jumpstart Lab](http://tutorials.jumpstartlab.com/projects/microblogger.html) takes you through how to authenticate with Twitter and start tweeting.  Don't worry about the last part on Klout.
 
 
+**Student Solutions**
+
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+
+* *Your Solution Here!*
+* 
+
+
 ## Project 2: A Real Web Server and Browser (from the command line)
 
 Part of the reason for getting into how Ruby interacts with the web is because it's directly relevant to what you'll be doing later on with Rails.  Rails is just Ruby code neatly packaged and highly opinionated.  Anything Rails does, you can reproduce on your own (given the time) with some Ruby knowledge.
