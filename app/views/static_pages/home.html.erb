@@ -36,11 +36,11 @@
         We've put together an open-source curriculum that uses existing resources and interesting projects to take you from absolutely zero experience and set you on the path towards serious web development.
       </h4>
 
-      <button class="button">
-        <a href="http://www.github.com/theodinproject/curriculum" title="The Odin Project Curriculum" target="_blank">
+      <a href="http://www.github.com/theodinproject/curriculum" title="The Odin Project Curriculum" target="_blank" class="button-link">
+        <button class="button">
           VIEW the Curriculum on Github
-        </a>
-      </button>
+        </button>
+      </a>
     </div>
     
     <hr>
@@ -52,9 +52,11 @@
         Building projects is awesome.  Working alone sucks.  Whether it's a homework assignment from an online course or one of the projects from our own curriculum, our scheduler tool lets you find other people who are working on the same stuff and set up a time to pair together on it.
       </h4>
       
-      <button class="button">
-        <%= link_to "SIGN UP to use the Scheduler", new_user_registration_path %>
-      </button>
+      <a href=<%= "#{new_user_registration_path}" %> title="Sign Up" class="button-link">
+        <button class="button">
+          SIGN UP to use the Scheduler
+        </button>
+      </a>
 
     </div>
 
@@ -66,11 +68,11 @@
         The source code for everything on this website, from the tools to the curriculum to this very page, is available on Github.  The best way to learn is to actually build stuff... so help actually build the tools you use by contributing!
       </h4>
 
-      <button class="button">
-        <a href="http://www.github.com/theodinproject/theodinproject" title="The Odin Project Curriculum" target="_blank">
+      <a href="http://www.github.com/theodinproject/theodinproject" title="The Odin Project Curriculum" target="_blank" class="button-link">
+        <button class="button">
           HELP OUT by Contributing
-        </a>
-      </button>
+        </button>
+      </a>
 
     </div>
 
@@ -82,11 +84,12 @@
         This is about more than just pairing people together on projects, it's meant to help you really connect with other students along the way.  Host an in-person meetup like <a href="http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/" title="San Francisco Meetup Group">ours in San Francisco</a> or help us build out the functionality for people to gather together online.
       </h4>
 
-      <button class="button">
-        <%= link_to "JOIN the Community", new_user_registration_path %>
-      </button>
+      <a href=<%="new_user_registration_path" %> class="button-link">
+        <button class="button">
+          JOIN the Community
+        </button>
+      </a>
 
     </div>
-
   </div>
 </div>

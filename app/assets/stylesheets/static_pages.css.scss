@@ -104,14 +104,15 @@
     &:active{
       background-color: #88f;
     }
-    a{
-      color: white;
-      &:hover{
-        text-decoration: none;
-      }
-      &:clicked{
-        color: #ddd;
-      }
+  }
+
+  a.button-link{
+    color: white;
+    &:hover{
+      text-decoration: none;
+    }
+    &:clicked{
+      color: #ddd;
     }
   }
 
