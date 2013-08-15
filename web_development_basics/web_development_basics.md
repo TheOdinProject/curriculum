@@ -378,6 +378,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * DucPhan's [ProjectEuler solutions](https://github.com/phanducsjsu/ProjectEuler)
+* ErikHP's [Solution (WIP)](http://www.google.com)
 * *Your solution here...*
 
 ##### Additional Resources
