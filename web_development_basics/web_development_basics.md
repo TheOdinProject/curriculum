@@ -88,7 +88,7 @@ Raise your hand if you're scared of the command line.  Yes, we have this image o
 That black screen (or window) is the command line, where you're able to enter commands that your computer will run for you.  And while that image of a programmer is a bit overdone, the command line really is sort of like our base of operations, from which we'll launch other programs to do our "real developing" in.  It has a syntax of its own which is different but not all that difficult to pick up.  You'll be entering the same commands dozens of times anyway, so you'll get pretty good at it in a short period of time.
 
 ##### Assignment:
-1. To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.
+1. To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.  It can be a bit rough at times because the explanations are a bit sparse, so don't worry if you don't absorb it all the first time.  You'll get quite familiar with the few commands that you end up using every day over the course of the next few weeks anyway.
 
 Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 
@@ -151,6 +151,8 @@ Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that cour
 ##### HTML/CSS Mini-Project:
 Estimated Time: 2-4 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=3" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 **Know (and try) these before starting**
 * Two ways to move a div around on the page
 * How to stick a div onto the bottom or top of the page
@@ -164,6 +166,8 @@ Estimated Time: 2-4 hrs
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it.  The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.  For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
 Use the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [jsfiddle.net](http://www.jsfiddle.net)).
+
+<a href="http://www.theodinproject.com/scheduler?cb=3" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 * Easy Version: Build the [Google.com](http://www.google.com) homepage (the simple one with just a search box).
     1. Tips:
@@ -211,7 +215,7 @@ As we [saw before](http://www.skillcrush.com/terms/javascript.html), Javascript 
 This is also the first time you'll get to do some actual programming (HTML/CSS just kind of sits there).  The jQuery section will focus a bit more on applying your knowledge to real webpages.
 
 ##### Assignment:
-1. Do [Codecademy's Javascript Section 1](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum. [2-4 hrs]
+1. Do [Codecademy's Javascript Sections 1-5](http://www.codecademy.com/tracks/javascript)("Getting Started with Programming" to "Control Flow"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum. [??? hrs]
     * Want to help? [Tell us](mailto:curriculum@theodinproject.com) how long that course took so we can let others know!
 2. Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
 3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
@@ -227,7 +231,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 * [RebootJeff's solutions](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
-* *Your solution here...*
+* *Your solutions here...*
 
 **Additional Resources:**
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
@@ -254,6 +258,8 @@ TODO: A video where a dev walks through some existing Javascript/jQuery code and
 ##### JS/jQuery Mini-Project:
 Estimated Time: 2-4 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 This should not be trivially easy for you.  You'll probably have to Google often to get the right jQuery methods or CSS to use and that's the point.
 
 **Sketch Pad**
@@ -279,11 +285,14 @@ This should not be trivially easy for you.  You'll probably have to Google often
     4. Why is it so slow?? Remember that when you call a jQuery selector like `$(".square")`, it actually returns you ALL the elements that fit the description.  So if you're doing those types of operations hundreds of times inside a loop, it can get very time consuming... try pulling those outside your loops.
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
 
+<a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 **Student Solutions**
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
-* *Your solution here...*
+* See RebootJeff's solution here: [source code](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
+* *Your solution here...* 
 
 ### Back End Basics
 Total Estimated Time: 20-30 hrs
@@ -310,8 +319,6 @@ Estimated Time: 20-30 hrs
 * What is an Array?
 * What is an Iterator?
 * What are hashes?
-* What is a lambda?
-* What is a proc?
 * What is a library?
 * What is a gem?
 
@@ -328,7 +335,7 @@ A final note -- you'll be learning a bunch of new terminology and concepts here 
 1. Go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.  Don't worry about the stuff where they're reading from a file, that's getting deeper than you need to right now.
 2. Read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Labs.  If you can't get IRB running, check out the [Installation Unit](/installations), which you should have done already.
 3. Dive in a little deeper by reading chapters 1-10 of Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.
-4. Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Procs, Lambdas, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
+4. Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  If you're shaky on Hashes, Blocks, Modules, and I/O... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
 
 **Bonus:**
 
@@ -345,6 +352,8 @@ TODO: Ruby walkthrough video
 ##### Ruby Mini-Project:
 Estimated Time: 4-6 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=4" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 It's time for some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.  First, you'll probably want to skip ahead and read about testing in the section below called "Testing 101".  There's a homework assignment there but it shouldn't take long.  Or just wing it...
 
 This exercise will involve a lot of figuring things out.  There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass.  You need to look at those tests, figure out what they want, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
@@ -360,12 +369,16 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     6. 08_book_titles
     6. 09_timer
 
+<a href="http://www.theodinproject.com/scheduler?cb=4" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
 **Student Solutions**
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
+* DucPhan's [ProjectEuler solutions](https://github.com/phanducsjsu/ProjectEuler)
+* ErikHP's [Ruby Mini Project (WIP)](https://github.com/ErikHP/test-first-ruby)
 * DucPhan's [ProjectEuler solutions](https://github.com/phanducsjsu/ProjectEuler) and [Ruby Mini Project (WIP)](https://github.com/phanducsjsu/Test-First-Ruby)
 * *Your solution here...*
 
@@ -458,9 +471,13 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 ##### Rails Mini Project:
 Estimated Time: 3-5 hrs
 
+<a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
 * Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
 
 **Extra Credit:** Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the section below on git (under the "Additional Topics" heading) or skip any of the `$ git ... ` commands for now, they're non-essential (it's sort of like saving your files on Dropbox).
+
+<a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 **Student Solutions**
 
@@ -504,7 +521,7 @@ If you recall, git is the version control system used by developers.  It means t
 
 It sort of feels like if you were typing a text document and, every time you saved it, you entered a summary message like "just finished paragraph on how git works".  Then, if you realize at the end of the day that all your changes are awful and ruin the flow of the document, you could go back to the last save of yesterday and bring the document back to the way it was.
 
-But wait, you say, Why not just erase the offending paragraphs and move on?  Here's where the web application stops resembling a high school essay.  Changes you make to your web application will be scattered in a dozen different files and will likely involve changing existing code at least as much as it involves actually producing new (and easily deleted) code, so having that ability to just reset the clock to a particular point in the past saves you from having to remember exactly what was changed and what it looked like beforehand.  The power of git goes well beyond this simple example, but it should help you start to see why people use it.
+But wait, you say, Why not just erase the offending paragraphs and move on?  Here's where the web application stops resembling a high school essay.  Changes you make to your web application to build some new feature will be scattered in a dozen different files and will likely involve changing existing code at least as much as it involves actually producing new (and easily deleted) code, so having that ability to just reset the clock to a particular point in the past saves you from having to remember exactly what was changed and what it looked like beforehand.  The power of git goes well beyond this simple example, but it should help you start to see why people use it.
 
 ##### Assignment:
 
@@ -538,6 +555,8 @@ Estimated Time: ??? hrs
 You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.
 
 Check out this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
+
+Next, watch the [David Patterson's explanation of Cloud Computing (12:23 to 30:00)](https://www.youtube.com/watch?v=SeBAj4P2FWA&list=PLjbL0BCR04Q3uDPD3GVZJqV3UnJkOic-o) from the Berkeley SAAS course on edX.
 
 Not too long ago, you had to buy a machine, set it up to run your back end code, and plug it into the wall to get it onto the internet.  These days, not only can you host your personal songs and files and emails in the Cloud, but you can actually run your website from servers hosted by someone else (and maybe in another country too).  Companies (like [Heroku](http://www.heroku.com), which we will use later) make it so that all you have to do is push some code their way and they'll take care of firing up and maintaining the servers necessary to get that application "live" and online.  They will also guarantee a certain minimum level of uptime (usually well north of 99%) so you don't have to worry about whether your servers have failed.  It means that you as a developer can focus more on building cool applications and less on the nuts and bolts of getting them out there.  This curriculum assumes that you'll be taking advantage of existing cloud hosting, so we won't spend much time teaching you about how to set up your own servers.
 
@@ -615,4 +634,3 @@ With what you know already, you could start putting together some basic websites
 
 *If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).*
 * *Additional Resources Here...*
-

@@ -5,6 +5,9 @@
 * Codecademy's Javascript (from the Web Dev 101)
 http://javascriptissexy.com/how-to-learn-javascript-properly/
 
+Books:
+http://cwebbdesign.tumblr.com/post/22508060129/4-best-javascript-books
+
 http://learn.jquery.com/
 
 http://learn.appendto.com/lesson/javascript-101

@@ -14,8 +14,8 @@ This section will answer those questions and more.  You'll start working on some
 
 
 ## Roadmap
-2. [Classes, Modules, and Inheritance](classes.md)
-7. [Scope of Variables](scope.md)
+2. [Classes and Modules](classes.md)
+7. [Scope and Inheritance](scope.md)
 4. [Designing Good Code](design.md)
 3. [Good Style](style.md)
 5. [Debugging Your Code](debugging.md)
