@@ -152,6 +152,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
 * *Your Solution Here!*
 * 
 
@@ -159,5 +160,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *How long did these projects take you?  [Let us know!](mailto:curriculum@theodinproject.com)*
 
 
-
+## Additional Resources:
+* [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
+* 
 
