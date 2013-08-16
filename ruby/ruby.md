@@ -221,27 +221,44 @@ This section won't be nearly as long as the previous one, and should have you bu
 
 
 ### PAIR PROJECT: Ruby on the Web
+Estimated Time: 6-10 hours
 
 Get a partner and do the [Ruby on the Web Pair Project](/ruby/ruby_web_project.md).  
 
 ## Basic Recursion, Algorithms and Data Structures
-and recursion
+
+You've learned how to build some cool stuff already and, frankly, you'd make a pretty effective programmer with what you already know (but don't get a big head or anything).  However, just because you can write English at a grade school level doesn't mean you don't have a lot of room to improve.  
+
+In the world of programming, there's a difference between solving a problem and solving a problem WELL.  We touched on the first layer of this when we covered basic object-oriented programming and how you should break apart your code into well-organized chunks.  If that was all about learning how to write good code, these next few sections are going to be about training yourself to figure out the best code to write -- the most elegant solution to the problem at hand.  
+
+We're taking a little detour through some more Computer Science-y concepts here because they are fundamental for a reason.  This curriculum is meant to prepare you for life beyond the web page.  If you're interested in applying for a job, you'll be asked questions that directly touch on some of this stuff.  It's going to require you to put on your thinking cap, but you can do it.
+
 ### 1. Recursion
 #### Intro
+
+Recursion is the idea that a function calls itself.  Pretty simple, right?  It's used to take a big problem and start breaking it down into smaller and smaller pieces and continuing to feed those back into the original function until some sort of answer is achieved and the whole chain unwinds.  
+
+There's also a right and wrong way to use recursion.  The fact is, any problem you can solve recursively you can also solve using the iterators that you know and love.  If you find yourself saying "why didn't I just use a `while` loop here?" then you probably should have.  You won't often end up using a recursive solution to a problem, but you should be aware of when it's probably a good idea.
+
 #### Homework Assignment
+
+1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen
+2. Watch this [Video on Recursion](http://vimeo.com/24716767) by Joshua Cheek but only until minute 17:45!  (don't want to give away the project...)
+
 #### Test Yourself
 
-Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
-sources
+
 ### PAIR PROJECT: Recursion
+Estimated Time: 3-4 hours
+
+Find a partner and work on the [Recursion Project](recursion_project.md) together.
 
 ### 2. Algorithms
 #### Intro
 #### Homework Assignment
 #### Test Yourself
 
-Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
-sources
+
 ### PAIR PROJECT: Algorithms
 
 ### 3. Data Structures
@@ -249,8 +266,6 @@ sources
 #### Homework Assignment
 #### Test Yourself
 
-Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
-sources
 ### PAIR PROJECT: Data Structures
 
 ## Testing Ruby with RSpec
