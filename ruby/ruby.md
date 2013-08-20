@@ -227,18 +227,20 @@ Get a partner and do the [Ruby on the Web Pair Project](/ruby/ruby_web_project.m
 
 ## Basic Recursion, Algorithms and Data Structures
 
-You've learned how to build some cool stuff already and, frankly, you'd make a pretty effective programmer with what you already know (but don't get a big head or anything).  However, just because you can write English at a grade school level doesn't mean you don't have a lot of room to improve.  
+You've learned how to build some cool stuff already and, frankly, you could probably make some decent websites without a crazy amount of additional formal education.  However, just because you can write English at a grade school level doesn't mean you will be editing the New York Times anytime soon.
 
-In the world of programming, there's a difference between solving a problem and solving a problem WELL.  We touched on the first layer of this when we covered basic object-oriented programming and how you should break apart your code into well-organized chunks.  If that was all about learning how to write good code, these next few sections are going to be about training yourself to figure out the best code to write -- the most elegant solution to the problem at hand.  
+In the world of programming, there's a difference between solving a problem the brute force way and solving a problem WELL.  We touched on the first layer of this when we covered basic object-oriented programming and how you should break apart your code into well-organized chunks.  If that was all about learning how to write good code, these next few sections are going to be about training yourself to figure out the best code to write -- the most elegant solution to the problem at hand.  It becomes particularly important whenever you start working with large data sets, like when your website becomes highly successful.
 
-We're taking a little detour through some more Computer Science-y concepts here because they are fundamental for a reason.  This curriculum is meant to prepare you for life beyond the web page.  If you're interested in applying for a job, you'll be asked questions that directly touch on some of this stuff.  It's going to require you to put on your thinking cap, but you can do it.
+We're taking a little detour through some more Computer Science-y concepts here because they are fundamental for a reason.  Some problems require you to use tools beyond just arrays and iterators.  You're going to build chess and it's not fundamentally difficult (it's just a rules-based game after all) but there are some tricks that you'll want to use to help you solve it.  
+
+If that doesn't sway you, this curriculum is meant to prepare you for life beyond the web page.  If you're interested in applying for a job, you'll be asked questions that directly touch on some of this stuff.  It's going to require you to put on your thinking cap (sorry, it had to happen sometime), but you can do it.
 
 ### 1. Recursion
 #### Intro
 
 Recursion is the idea that a function calls itself.  Pretty simple, right?  It's used to take a big problem and start breaking it down into smaller and smaller pieces and continuing to feed those back into the original function until some sort of answer is achieved and the whole chain unwinds.  
 
-There's also a right and wrong way to use recursion.  The fact is, any problem you can solve recursively you can also solve using the iterators that you know and love.  If you find yourself saying "why didn't I just use a `while` loop here?" then you probably should have.  You won't often end up using a recursive solution to a problem, but you should be aware of when it's probably a good idea.
+There's also a right and wrong way to use recursion.  The fact is, any problem you can solve recursively you can also solve using the iterators that you know and love.  If you find yourself saying "why didn't I just use a `while` loop here?" then you probably should have.  You won't often end up using a recursive solution to a problem, but you should get a feel for when it might be a good idea.
 
 #### Homework Assignment
 
@@ -253,20 +255,49 @@ Estimated Time: 3-4 hours
 
 Find a partner and work on the [Recursion Project](recursion_project.md) together.
 
-### 2. Algorithms
+
+### 2. Basic Data Structures and Data Types
 #### Intro
+
+The basic idea of a data structure is to store data in a way that meets the needs of your particular application.  You can usually store data in one giant array, but it can be very time consuming to locate a particular value.  Depending on the application, there are a batch of other basic data structures that you can use to meet your needs.  Often, you end up making trade-offs between various attributes like how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory.
+
+We'll get more into the specifics of data structures later in the curriculum, but this introduction should again expand your toolbox slightly so you're much better able to identify and solve certain problems where Arrays, Hashes and Sets don't quite cut it.  This is particularly relevant when you're trying to search through a bunch of data for a particular value or plan out a strategy several moves in advance.
+
+arrays, graphs, trees, linked lists, stacks, queues, 
 #### Homework Assignment
+
+1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
+2. Learn about Queues and Stacks by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI)
+2. Learn about binary search trees by watching [this video](http://cs50.tv/2012/fall/shorts/binary_search/binary_search-720p.mp4) from Harvard's CS50x on edX.
+
+#### Test Yourself
+
+### PAIR PROJECT: Data Structures
+
+Build a binary search tree, then build a tree crawler that uses DFS and BFS, then include insertion.
+
+Chess!
+
+### 3. Basic Algorithms
+#### Intro
+
+There are some problems, like traversing a tree looking for a certain element, that have been solved many times in the past.  Understanding how they are solved will give you some great tools to apply to other (similar) problems as well.
+
+BFS DFS traversal, brute force and greedy algos
+
+#### Homework Assignment
+
+1. Read [this Quora question about the importance of algorithms in web development](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development) to get some context for why we're going over this stuff.
+1. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).  
+2. Read the [Gentle Introduction to Algorithms for Web Developers](http://www.giocc.com/a-gentle-introduction-to-algorithms-for-web-developers.html) for another basic look at what algorithms are.
+
+
 #### Test Yourself
 
 
 ### PAIR PROJECT: Algorithms
 
-### 3. Data Structures
-#### Intro
-#### Homework Assignment
-#### Test Yourself
 
-### PAIR PROJECT: Data Structures
 
 ## Testing Ruby with RSpec
 #### Intro
