@@ -31,7 +31,7 @@
     </div>
 
 
-      <%= f.button :submit, "Sign up", :class => "btn-primary btn-large pull-right" %>
+      <%= f.button :submit, "Sign up", :class => "btn-primary btn-large pull-right", :input_html => { :onClick => "_gaq.push(['_trackEvent', 'signup_buttons', 'sign_up', 'main_signup_button']);"} %>
 
   <% end %>
 
