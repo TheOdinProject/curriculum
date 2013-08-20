@@ -18,7 +18,7 @@ Theodinproject::Application.configure do
   config.assets.compress = true
 
   # Set up the default url to send from for Devise's Recoverable module
-  config.action_mailer.default_url_options = { :host => 'localhost' }
+  config.action_mailer.default_url_options = { :host => 'http://www.theodinproject.com' }
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   # *** Erik: see http://stackoverflow.com/questions/7275636/rails-3-1-0-actionviewtemplateerror-application-css-isnt-precompiled/7278355#7278355, but this sets up live compiling of your assets
