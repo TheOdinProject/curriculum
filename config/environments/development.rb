@@ -17,6 +17,9 @@ Theodinproject::Application.configure do
   config.action_mailer.raise_delivery_errors = true # false by default!
   config.action_mailer.delivery_method = :letter_opener
 
+  # Set up the default url to send from for Devise's Recoverable module
+  config.action_mailer.default_url_options = { :host => 'localhost' }
+
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
 
