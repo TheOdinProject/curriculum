@@ -1,4 +1,4 @@
-# Pair Project: Ruby on the Web
+# Pair Project: Recursion
 
 *[Return to Ruby](ruby.md)*
 
