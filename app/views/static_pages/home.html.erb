@@ -36,7 +36,7 @@
         We've put together an open-source curriculum that uses existing resources and interesting projects to take you from absolutely zero experience and set you on the path towards serious web development.
       </h4>
 
-      <a href="http://www.github.com/theodinproject/curriculum" title="The Odin Project Curriculum" target="_blank" class="button-link">
+      <a href="http://www.github.com/theodinproject/curriculum" title="The Odin Project Curriculum" target="_blank" class="button-link" onClick="_gaq.push(['_trackEvent', 'cta_buttons', 'view_curriculum', 'home_body']);">
         <button class="button">
           VIEW the Curriculum on Github
         </button>
@@ -52,7 +52,7 @@
         Building projects is awesome.  Working alone sucks.  Whether it's a homework assignment from an online course or one of the projects from our own curriculum, our scheduler tool lets you find other people who are working on the same stuff and set up a time to pair together on it.
       </h4>
       
-      <a href=<%= "#{new_user_registration_path}" %> title="Sign Up" class="button-link">
+      <a href=<%= "#{new_user_registration_path}" %> title="Sign Up" class="button-link" onClick="_gaq.push(['_trackEvent', 'cta_buttons', 'sign_up', 'home_body']);">
         <button class="button">
           SIGN UP to use the Scheduler
         </button>
@@ -68,7 +68,7 @@
         The source code for everything on this website, from the tools to the curriculum to this very page, is available on Github.  The best way to learn is to actually build stuff... so help actually build the tools you use by contributing!
       </h4>
 
-      <a href="http://www.github.com/theodinproject/theodinproject" title="The Odin Project Curriculum" target="_blank" class="button-link">
+      <a href="http://www.github.com/theodinproject/theodinproject" title="The Odin Project Curriculum" target="_blank" class="button-link" onClick="_gaq.push(['_trackEvent', 'cta_buttons', 'view_source_on_github', 'home_body']);">
         <button class="button">
           HELP OUT by Contributing
         </button>
@@ -84,7 +84,7 @@
         This is about more than just pairing people together on projects, it's meant to help you really connect with other students along the way.  Host an in-person meetup like <a href="http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/" title="San Francisco Meetup Group">ours in San Francisco</a> or help us build out the functionality for people to gather together online.
       </h4>
 
-      <a href=<%="new_user_registration_path" %> class="button-link">
+      <a href=<%="new_user_registration_path" %> class="button-link" onClick="_gaq.push(['_trackEvent', 'cta_buttons', 'join_community', 'home_body']);">
         <button class="button">
           JOIN the Community
         </button>
