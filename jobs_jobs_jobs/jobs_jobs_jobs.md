@@ -2,6 +2,9 @@
 
 ## !! This section is in the "Collecting Resources" phase !!
 
+Post on the interview:
+http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/
+
 _Perfect is the enemy of good - Voltaire._
 
 The following content will prompt you to think more critically about your job search as a software engineer. It also will help you better understand what employers are looking for, and how to better prepare yourself for interviews.  This section is broken into the following topics:
