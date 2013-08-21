@@ -540,9 +540,10 @@ On the back end, you will learn RSpec, a language that is written in Ruby and on
 
 On the front end, we'll use a language called Jasmine to do a similar sort of thing.
 
-Everyone does testing a little differently.  Some teams still rely heavily on a Quality Assurance (QA) department with people manually executing checklists like we described in the example above.  Some people use an approach called Test Driven Development (TDD) in which they write the (failing) test first and only then do they actually write the code necessary to make it pass, and thus very deliberately build the application out with 100% test coverage.  Others prefer to keep their test suites fairly light and will only write tests for the major interactions on their pages and any bugs that they have to fix along the way (to make sure they don't come back).  Regardless, testing is highly important and you'll be quite familiar with it by the end of this curriculum.
+Everyone does testing a little differently.  Some teams still rely heavily on a Quality Assurance (QA) department with people manually executing checklists like we described in the example above.  Some people use an approach called Test Driven Development (TDD) in which they write the (failing) test first and only then do they actually write the code necessary to make it pass, and thus very deliberately build the application out with 100% test coverage.  Others prefer to keep their test suites fairly light and will only write tests for the major interactions on their pages and any bugs that they have to fix along the way (to make sure they don't come back).  
 
-You'll be interfacing with tests before actually writing your own... how else do you think we process code submissions?  Many exercises and projects will start with a batch of tests and have you write the code necessary to make them pass.
+Regardless, testing is highly important and you'll be quite familiar with it by the end of this curriculum.
+
 
 ##### Assignment:
 
