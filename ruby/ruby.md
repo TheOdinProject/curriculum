@@ -287,13 +287,16 @@ Find a partner and work on the [Data Structures and Algorithms Project](data_str
 ## Testing Ruby with RSpec
 #### Intro
 
-Factory girl as a partial
+By now you've had some experience writing actual programs using Ruby.  Presumably, you've been making sure they work by manually entering certain things in the command line over and over again.  This was probably especially frustrating with some of the more complex exercises during the Algorithms and Data Structures section.  
+
+As you should recall from the Web Development 101 section, testing with RSpec lets you automate most of these activities.  It also allows you to make sure some of the more hidden pieces of your program (like specific classes and methods) are functioning properly behind the scenes.  
+
+We will cover testing in more depth in the section on Rails, but you'll want to get a good base built in testing "plain old" Ruby first.  It will also help you with the final project since you might otherwise find yourself endlessly entering data into the command line and using the debugger.
 
 #### Homework Assignment
 #### Test Yourself
 
-Make sure you can do the [Beginner Ruby Quiz #1](#### Additional Re
-sources
+
 ### PAIR PROJECT: Testing with RSpec
 build exercises for earlier sections!
 
