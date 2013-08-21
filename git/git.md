@@ -15,3 +15,6 @@ Setting your username
 
 Understanding Git Conceptually:
 http://www.sbf5.com/~cduan/technical/git/
+
+Github's official training site:
+http://teach.github.com/
