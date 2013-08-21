@@ -35,3 +35,8 @@ https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku
 Security: Don't do production with your secret token!
 http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/
 
+Testing:
+How I Test by Ryan Bates
+http://railscasts.com/episodes/275-how-i-test
+
+
