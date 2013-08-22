@@ -36,7 +36,9 @@ Security: Don't do production with your secret token!
 http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/
 
 Testing:
-How I Test by Ryan Bates
+How I Test by Ryan Bates:
 http://railscasts.com/episodes/275-how-i-test
+Testing series on TDD and intermediate stuff:
+http://www.rubyfocus.biz/class_video/2010/07/19/rails_tdd_class_1.html
 
 
