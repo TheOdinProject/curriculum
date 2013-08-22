@@ -280,6 +280,7 @@ Some problems, like traversing a tree looking for a certain element, are relativ
 * Depth first search is best used when you want to find any path to a solution but find it fast.
 
 ### PAIR PROJECT: Data Structures and Algorithms
+Estimated Time: 5-7 hours
 
 Find a partner and work on the [Data Structures and Algorithms Project](data_structures_algorithms_project.md) together.
 
@@ -305,12 +306,14 @@ We will cover testing in more depth in the section on Rails, but you'll want to 
 
 
 ### PAIR PROJECT: Testing with RSpec
+Estimated Time: 4-6 hours
 
 Find a partner and do the [RSpec Pair Project](testing_project.md).
 
 
 
 ## PAIR PROJECT: Ruby Final Project!
+Estimated Time: 12-18 hours
 
 You've almost finished Ruby!  Now we've just got one tiny little last step for you...
 Find a partner and do the [Ruby Final Project](ruby_final_project.md).
