@@ -313,7 +313,9 @@ Find a partner and do the [RSpec Pair Project](testing_project.md).
 
 
 ## PAIR PROJECT: Ruby Final Project!
-mini-rails
+
+You've almost finished Ruby!  Now we've just got one tiny little last step for you...
+Find a partner and do the [Ruby Final Project](ruby_final_project.md).
 
 ## Finish
 TODO!
