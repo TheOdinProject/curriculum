@@ -4,6 +4,16 @@ Total Estimated Time: 100-200 hrs
 *[Top level table of contents](/README.md)*
 
 
+
+## Roadmap
+2. [Basic Ruby](#basic-ruby)
+2. [Solving Problems with Ruby](#intermediate-ruby)
+4. [Ruby on the Web](#ruby-on-the-web)
+6. [Basic Recursion, Algorithms, and Data Structures](#basic-recursion-algorithms-and-data-structures)
+5. [Testing Ruby with RSpec](#a-taste-of-testing-ruby-with-rspec)
+8. [Ruby Final Project](#pair-project-ruby-final-project)
+
+
 ## Intro
 
 In this unit you will learn Ruby, the language designed specifically with programmer happiness in mind.  It's a healthy chunk of learning but, by the end of it all, you'll have built some pretty sweet games including Tic Tac Toe, Minesweeper, Checkers, and Chess.  You'll be able to put together a Twitter spambot (that really spams!), save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems.  Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.
@@ -40,16 +50,6 @@ Some things you just won't pick up right away or their coverage by main resource
 2. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](http://it-ebooks.info/book/59/)
 
 **TODO: Walkthrough of a real Ruby program**
-
-
-## Roadmap
-2. [Basic Ruby](#basic-ruby)
-2. [Solving Problems with Ruby](#intermediate-ruby)
-4. [Ruby on the Web](#ruby-on-the-web)
-6. [Basic Recursion, Algorithms, and Data Structures](#basic-recursion-algorithms-and-data-structures)
-5. [Testing Ruby with RSpec](#testing-ruby-with-rspec)
-8. [Ruby Final Project](#pair-project-ruby-final-project)
-
 
 
 ## Basic Ruby
