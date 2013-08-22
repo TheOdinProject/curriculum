@@ -221,7 +221,7 @@ This section won't be nearly as long as the previous one, and should have you bu
 ### PAIR PROJECT: Ruby on the Web
 Estimated Time: 6-10 hours
 
-Get a partner and do the [Ruby on the Web Pair Project](/ruby/ruby_web_project.md).  
+Get a partner and do the [Ruby on the Web Pair Project](ruby_web_project.md).  
 
 ## Basic Recursion, Algorithms and Data Structures
 
