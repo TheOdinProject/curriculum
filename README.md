@@ -17,9 +17,9 @@ Check our our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-
   1. [Installing the Technology](/installations/installations.md)
   1. [Pair Programming and Remote Pairing](/pairing/pairing.md)
   1. [Web Development 101](/web_development_basics/web_development_basics.md)
-  1. [Ruby (in development)](/ruby/ruby.md)
-  1. Databases and SQL \*
+  1. [Ruby](/ruby/ruby.md)
   1. Git \*
+  1. Databases and SQL \*
   1. HTML and CSS \*
   1. Ruby on Rails \*
   1. Javascript \*
