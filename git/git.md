@@ -46,5 +46,6 @@ In this section, we'll dive deeper than just the `$ git pull` and `$ git add .` 
 ## Finale
 
 ## Additional Resources
-
+* Atlassian has a series of [beginner guides with visualizations](https://www.atlassian.com/git/tutorial) for git.
+* 
 
