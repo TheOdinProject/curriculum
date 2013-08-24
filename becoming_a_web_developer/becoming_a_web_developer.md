@@ -173,4 +173,5 @@ Hopefully you've gained a better idea of what a web developer actually does and 
 
 *Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/contributing.md).*
 
+* Read [this Quora answer](http://www.quora.com/Product-Management/What-does-a-great-product-manager-at-a-tech-startup-do-day-to-day-e-g-wireframe-feature-flow-etc) if you also want to know what a Product Manager does.
 * Add Here!
