@@ -309,7 +309,9 @@ Estimated Time: 4-6 hours
 
 Find a partner and do the [RSpec Pair Project](testing_project.md).
 
-
+### Additional Resources
+* [Better Specs](http://betterspecs.org) shows tons of examples of what you should and shouldn't do with RSpec.
+* The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
 
 ## PAIR PROJECT: Ruby Final Project!
 Estimated Time: 12-18 hours
