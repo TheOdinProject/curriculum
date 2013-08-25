@@ -633,4 +633,5 @@ With what you know already, you could start putting together some basic websites
 ## Additional Resources
 
 *If there's anything we should have covered better (or at all), [Email us](mailto:curriculum@theodinproject.com) or [fork](https://help.github.com/articles/fork-a-repo), add it, then [submit a pull request](https://help.github.com/articles/using-pull-requests).*
+* [List of freely available textbooks in any language](http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926#392926)
 * *Additional Resources Here...*
