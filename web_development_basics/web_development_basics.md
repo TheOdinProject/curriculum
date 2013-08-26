@@ -554,7 +554,9 @@ Estimated Time: ??? hrs
 
 You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.
 
-Check out this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
+Check out this [explanation of cloud computing](http://mashable.com/2013/08/26/what-is-the-cloud/) from Mashable.
+
+If you want another go at it, take a look at this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
 
 Next, watch the [David Patterson's explanation of Cloud Computing (12:23 to 30:00)](https://www.youtube.com/watch?v=SeBAj4P2FWA&list=PLjbL0BCR04Q3uDPD3GVZJqV3UnJkOic-o) from the Berkeley SAAS course on edX.
 
