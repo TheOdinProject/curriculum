@@ -29,3 +29,6 @@ Rebuild interactive features like a dropdown... start by building the tools, the
 
 Backbone:
 http://backbonetutorials.com/
+
+Node:
+http://blog.modulus.io/absolute-beginners-guide-to-nodejs
