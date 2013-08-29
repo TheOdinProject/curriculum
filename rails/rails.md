@@ -41,4 +41,6 @@ http://railscasts.com/episodes/275-how-i-test
 Testing series on TDD and intermediate stuff:
 http://www.rubyfocus.biz/class_video/2010/07/19/rails_tdd_class_1.html
 
+Simple CMS in Sinatra:
+http://www.sitepoint.com/a-simple-content-management-system-in-sinatra/
 

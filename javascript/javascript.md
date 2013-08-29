@@ -30,6 +30,11 @@ Rebuild interactive features like a dropdown... start by building the tools, the
 Backbone:
 http://backbonetutorials.com/
 http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/
+http://javascriptissexy.com/learn-backbone-js-completely/
 
 Node:
 http://blog.modulus.io/absolute-beginners-guide-to-nodejs
+
+Blogs:
+http://superherojs.com/
+http://javascriptissexy.com/
