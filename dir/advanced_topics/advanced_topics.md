@@ -1,8 +1,0 @@
-# Advanced Topics
-
-## !! This section is in the "Collecting Resources" phase !!
-
-
-Algorithms:
-Udacity https://www.udacity.com/course/viewer#!/c-cs215/l-48747095/m-48691609 (async)
-Coursera https://www.coursera.org/course/algo (semi-sync)

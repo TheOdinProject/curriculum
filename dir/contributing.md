@@ -1,3 +1,6 @@
+---
+layout: 'content'
+---
 # Contributing
 
 ## Work In Progress!

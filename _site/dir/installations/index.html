@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Theodinproject.github.io : Curriculum" />
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css"> -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <title>The Odin Project Curriculum</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+      <a id="forkme_banner" href="https://github.com/theodinproject/curriculum">View on GitHub</a>
+
+      <h1 id="project_title">Curriculum</h1>
+      <h2 id="project_tagline"></h2>
+
+    </header>
+</div>
+      <div class="row">
+        <div class="col-md-8" id="content">
+          <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner">
+              <h1>Installations</h1>
+
+<p>Total estimated time: 3-6 hours</p>
+
+<p><em><a href="/README.md">Top level table of contents</a></em></p>
+
+<h2>Intro</h2>
+
+<p>One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.</p>
+
+<p>One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's a wholly incomplete approach.  What happens when you want to actually build something on your own?</p>
+
+<p>If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.</p>
+
+<p>If you're interested in being at least a half-serious web developer you'll need to get this stuff up and running on your machine at some point and it's best to get it done early.  This brief unit is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.</p>
+
+<p>A final note to Windows users -- you can install everything you need to but you'll feel at times like you're swimming against the current.  Many examples throughout the learning process will assume you're working on a mac and you'll have to get good at translating certain steps into your own workflow.  Suffering builds character.  And this is payback for the 90's when it took another six months to come out with a Mac version of any half-decent game.</p>
+
+<h2>What You'll Be Installing</h2>
+
+<p>Luckily, it's all free.  A brief word about each item:</p>
+
+<h4>Ruby</h4>
+
+<p>The Ruby interpreter is a program like any other and so you'll need to make sure it's installed on your computer and you've got the right version (there are some big differences between, say, version 1.8.7 and 1.9.3 or 2.x).</p>
+
+<h4>Git</h4>
+
+<p>Git, the version-control system we've been talking about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.</p>
+
+<h4>Heroku</h4>
+
+<p>Heroku is the cloud hosting service which we'll be using to take our web applications "live".  On the surface, it acts sort of similarly to Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your code, Heroku actually runs that code on a server for you so your application can be visited by users.  You'll want to make sure you've got a couple of helpful tools installed to make your life easier.</p>
+
+<h4>Text Editor</h4>
+
+<p>We recommend using a text editor like <a href="http://www.sublimetext.com/2">Sublime Text 2</a> to make sure everyone's using basically the same type of text editor and you'll all be able to pair together without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.</p>
+
+<p>There's a <a href="https://tutsplus.com/course/improve-workflow-in-sublime-text-2/">tutorial (~2.5 hrs of video) from NetTuts</a> that explains some of the awesomeness of Sublime Text 2 in depth.</p>
+
+<h4>Ruby Gems</h4>
+
+<p>There will be some Ruby gems (which are just prepackaged little libraries of code) to install to give you the tools necessary to talk to your database and install other gems easily in the future.</p>
+
+<h4>Rails</h4>
+
+<p>What about Rails?  Rails is actually a Ruby gem of its own since, as we've covered before, it's just a bunch of Ruby code prepackaged for you.</p>
+
+<h4>Mac: XCode</h4>
+
+<p>XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  It's also got some necessary command line tools you'll be using so you're probably going to have to install it all (it's a giant package).</p>
+
+<h2>Assignment: Installfest</h2>
+
+<p>These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  It's beyond our scope here to walk you through why we're doing every single step, but it's also not super important that you know exactly what's going on or what all the commands mean.</p>
+
+<p>If using a Macintosh, follow the instructions on <a href="http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/">Moncef Belyamani's blog</a>.</p>
+
+<p>Otherwise, do the <a href="http://installfest.railsbridge.org/installfest/">Railsbridge Installfest</a>.</p>
+
+<h2>Assignment: Test Drive Your Setup</h2>
+
+<p>Even if you didn't use the Railsbridge installation instructions, test your installation by following their instructions for <a href="http://installfest.railsbridge.org/installfest/create_and_deploy_a_rails_app">creating and deploying a sample Rails app</a>.</p>
+
+<h2>Additional Resources</h2>
+
+<p>If you've run into issues with your installation and are desperately looking for something else to try, take a deep breath first and go back over the instructions step-by-step to make sure you've followed them properly.  You can run into some odd issues if you start trying to mix together different installation recommendations, because some of them use auto-installers and have you install things in slightly different places so you may end up with a couple copies of key components.  It may work fine on the surface, but some day it'll probably come back and frustrate you again.  But, if you must, here are some other people's installation recommendations:</p>
+
+<ul>
+<li>Michael Hartl describes the installation in his <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec-up_and_running">Rails Tutorial, Chapter 1</a>, and the chapter also guides you through making and deploying your first bare-bones Rails app just to make sure everything's working properly.</li>
+<li>Treehouse has short videos describing Rails installation for various environments in their <a href="http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails">Getting Started with Rails</a> unit.</li>
+<li><a href="http://rubyonrails.org/download">Rubyonrails.org</a> installation section.</li>
+<li><a href="/additional_resources/sublimetext_windows_CLI.md">Guide</a> for opening Sublime Text via command line in Windows.</li>
+</ul>
+
+
+<h2>Checklist</h2>
+
+<h5>Before moving on, you should have:</h5>
+
+<ul>
+<li>Set up your <a href="http://github.com/">github</a> account</li>
+<li>Set up your <a href="http://www.heroku.com/">heroku</a> account</li>
+<li>Created and deployed a sample rails application</li>
+<li>Patted yourself on the back for accomplishing a task that has turned back many brave warriors.</li>
+</ul>
+
+
+<h2>Additional Resources</h2>
+
+<p>Have any other installation instructions, tips, tricks, or helpful sections?  <a href="mailto:curriculum@theodinproject.com">Email us</a> or <a href="https://help.github.com/articles/fork-a-repo">fork this repo</a>, add your changes, then <a href="https://help.github.com/articles/using-pull-requests">submit a pull request</a>.</p>
+
+          </div>
+        </div>
+        <div class="col-md-4" id="sidebar">
+          <h1> I AM A SIDE BAR, HEAR ME NAVIGATIONALLY ROAR </h1>
+        </div>
+      </div>
+
+          <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    </div>
+
+  </body>
+
+</html>

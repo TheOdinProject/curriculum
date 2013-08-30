@@ -1,4 +1,7 @@
-#How to Open Sublime Text via Command Line
+---
+layout: 'content'
+---
+# How to Open Sublime Text via Command Line
 
 ##Overview
 This guide assumes you are using **Windows** and the command prompt shortcut provided by the [Railsbridge installfest](http://installfest.railsbridge.org/installfest/). Because we are using this special command prompt shortcut, other **solutions you might find for how to open Sublime Text via command line might not work.** Those solutions don't account for our shortcut's special target. We're special --just as our respective mother's foretold.

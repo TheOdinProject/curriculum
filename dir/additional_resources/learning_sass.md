@@ -1,4 +1,7 @@
-Getting Started with Sass
+---
+layout: 'content'
+---
+# Getting Started with Sass
 =========================
 
 __Statement of Goals__

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Theodinproject.github.io : Curriculum" />
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css"> -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+    <title>The Odin Project Curriculum</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+      <a id="forkme_banner" href="https://github.com/theodinproject/curriculum">View on GitHub</a>
+
+      <h1 id="project_title">Curriculum</h1>
+      <h2 id="project_tagline"></h2>
+
+    </header>
+</div>
+      <div class="row">
+        <div class="col-md-8" id="content">
+          <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner">
+              <h1>Getting Started with Sass</h1>
+
+<p>=========================</p>
+
+<p><strong>Statement of Goals</strong></p>
+
+<p>The goals of this particular document are to familiarize beginning developers with the CSS preprocessor <a href="http://sass-lang.com">Sass</a>.</p>
+
+<p><strong>So, h-what <em>is</em> a preprocessor, anyway?</strong></p>
+
+<p>A CSS preprocessor is simply a scripting language that extends CSS and then gets compiled into regular CSS syntax.</p>
+
+<p><strong>Alright. Why should I use one?</strong></p>
+
+<p>Using a preprocessor like Sass enables you to build your CSS like it <em>should</em> be built, with functions and mixins and variables, which helps streamline and speed up the development cycle. It also gives you, the developer, a lot more power when writing your code. Everybody likes power, right? Here are a few more benefits of using Sass:</p>
+
+<ul>
+<li>Cleaner code with reusable pieces (DRY principle: <strong>D</strong>on't <strong>R</strong>epeat <strong>Y</strong>ourself!)</li>
+<li>Flexibility to create, include, exclude, and modify things on the fly</li>
+<li>Use a library of commonly used modules, instead of .css file after .css file</li>
+<li>Build and expand on those modules, or create your own</li>
+<li>Mathmatical formulas, mixins, functions (<em>if</em> statements!), variables, and more!</li>
+<li>Painless, automatic minification of your code when you're ready to move it to production.</li>
+<li>and so much more...</li>
+</ul>
+
+
+<p><strong>Sass allows you to do things like this:</strong></p>
+
+<p><em>my_module.scss</em></p>
+
+<pre><code>$color: blue;
+@mixin box-sizing($value) {
+    -webkit-box-sizing: $value;
+    -moz-box-sizing: $value;
+    -ms-box-sizing: $value;
+    box-sizing: $value;
+}
+</code></pre>
+
+<p><em>my_scss.scss</em></p>
+
+<pre><code>@import 'my_module.scss';
+
+div.a_box {
+    background-color: $color;
+    @include box-sizing(border-box);
+}
+</code></pre>
+
+<p><em>which outputs to:</em></p>
+
+<pre><code>div.a_box {
+    background-color: blue;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+</code></pre>
+
+<p>Now, all we need to do for future projects is include our module file, and we can use that really short mixin to produce <em>four</em> lines of code!</p>
+
+<h1>I'm hooked. Let's install it!</h1>
+
+<p>Good choice! I was excited when I first started using Sass, and I'm learning more each day. I hope I can help you take advantage of this powerful tool - it will change your life! (No, really. You'll love me. Please?)</p>
+
+<p><strong>Just the 'bear' necessities, ooh the bear necessities...</strong>
+<em>How's that for a flashback?</em></p>
+
+<p>You will need:
+- A text editor (I highly recommend <a href="http://www.sublimetext.com/">Sublime Text 2</a>)
+- A CLI (Command Line Interface), like Terminal or Command Prompt</p>
+
+<p>We will be installing:
+- Ruby
+- Sass</p>
+
+<h1>The Breakdown</h1>
+
+<p><strong>Ruby Installation</strong></p>
+
+<p>Ruby is a dynamic, general-purpose object-orientend programming language. Sass runs off of Ruby, so we'll start with this.</p>
+
+<p><a href="http://www.ruby-lang.org/en/downloads/">Ruby-lang.org download page</a></p>
+
+<ul>
+<li>If you're on Windows, I recommend using <a href="http://rubyinstaller.org/">RubyInstaller</a>.</li>
+<li>If you're on a UNIX-based OS (Mac, Linux <em>[Ubuntu, Debian, Linux Mint, etc.]</em>), I recommend <a href="https://rvm.io/rvm/install#explained">installing RVM instead</a>. It allows you to manage multiple installations of Ruby, which <em>will</em> come in handy if you decide to learn the language.</li>
+</ul>
+
+
+<p><strong>Sass Installation</strong></p>
+
+<p>Once Ruby is installed (just follow the instructions on one of the links, above), open up your CLI and type this:</p>
+
+<pre><code>gem install sass
+</code></pre>
+
+<p>That's it! You've now got Sass and Ruby installed on your computer!</p>
+
+<h1>Additional resources</h1>
+
+<ul>
+<li><a href="http://sass-lang.com">sass-lang.com</a>: Learn more about Sass (contains tutorial, reference)</li>
+</ul>
+
+
+<h1>To-do</h1>
+
+<ul>
+<li>Add a tutorial using Sass</li>
+<li>Add Compass information</li>
+</ul>
+
+
+          </div>
+        </div>
+        <div class="col-md-4" id="sidebar">
+          <h1> I AM A SIDE BAR, HEAR ME NAVIGATIONALLY ROAR </h1>
+        </div>
+      </div>
+
+          <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    </div>
+
+  </body>
+
+</html>
