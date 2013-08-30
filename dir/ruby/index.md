@@ -1,3 +1,8 @@
+---
+layout: 'content'
+title: 'ruby'
+---
+
 # Ruby
 Total Estimated Time: 100-200 hours
 

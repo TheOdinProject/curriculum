@@ -1,0 +1,439 @@
+<h1 id='ruby'>Ruby</h1>
+
+<p>Total Estimated Time: 100-200 hours</p>
+
+<p><em><a href='/README.md'>Top level table of contents</a></em></p>
+
+<h2 id='roadmap'>Roadmap</h2>
+
+<ol>
+<li><a href='#basic-ruby'>Basic Ruby</a></li>
+
+<li><a href='#intermediate-ruby'>Solving Problems with Ruby</a></li>
+
+<li><a href='#ruby-on-the-web'>Ruby on the Web</a></li>
+
+<li><a href='#basic-recursion-algorithms-and-data-structures'>Basic Recursion, Algorithms, and Data Structures</a></li>
+
+<li><a href='#a-taste-of-testing-ruby-with-rspec'>Testing Ruby with RSpec</a></li>
+
+<li><a href='#pair-project-ruby-final-project'>Ruby Final Project</a></li>
+</ol>
+
+<h2 id='intro'>Intro</h2>
+
+<p>In this unit you will learn Ruby, the language designed specifically with programmer happiness in mind. It&#8217;s a healthy chunk of learning but, by the end of it all, you&#8217;ll have built some pretty sweet projects including Tic Tac Toe, Hangman, a real web server, and even Chess. You&#8217;ll be able to put together a Twitter spambot (that really spams!), save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems. Basically, you&#8217;re going to start feeling a whole lot more like a real programmer and that feeling will be justified.</p>
+
+<p>Some people believe you can just dive right into Rails and start firing out websites. Rails is a framework built using Ruby and every piece of code in it is Ruby. When (not <em>if</em>) something in your project breaks, you&#8217;d better be able to debug it. And what happens when you want to stretch your wings and do something just a bit beyond what the vanilla tutorials show you how to do? The amount of time you&#8217;d spend googling your error messages and staring blankly at help docs was better spent learning Ruby.</p>
+
+<p>As you may gather, this is also where the real project work begins. Some of the early material will be fairly straightforward and will rely on simple exercises to help reinforce understanding. We&#8217;ll learn using some Codecademy modules at first but the goal is for you to get a much deeper and more practical understanding of the material than that. As we get further along and into some of the more advanced topics, we&#8217;ll be learning less and doing more&#8230; just the way it should be. Buckle up, strap in, and let&#8217;s get learning!</p>
+
+<h4 id='how_this_will_work'>How this will work:</h4>
+
+<p>Ruby&#8217;s a big language so it&#8217;s been broken up into smaller chunks to make it more digesible. In each section, you&#8217;ll first be asked to do readings, watch videos, or otherwise view content. At the end of each section there will be exercises to help you solidify your knowledge of the material and after each group of sections will be larger projects which are best done in pairs.</p>
+
+<h4 id='two_paths_forward'>Two Paths Forward:</h4>
+
+<p>Everyone is coming into this with a different goal in mind, so to accomodate that, here&#8217;s two options for your path forward:</p>
+
+<ol>
+<li>If you&#8217;re just trying to race ahead and put up some Rails sites as fast as possible and worry about learning the fundamentals later, then your best bet is to complete the Basic Ruby section, which uses primarily Codecademy as a resource, and move onto the Rails unit.</li>
+
+<li>If you&#8217;re really looking for a solid, sustainable base of knowledge, just stick to the normal roadmap and we&#8217;ll get you there.</li>
+</ol>
+
+<h5 id='our_primary_textbooks'>Our Primary &#8220;Textbooks&#8221;:</h5>
+
+<ol>
+<li><a href='http://www.codecademy.com/tracks/ruby'>Codecademy.com</a> has a lot of great introductory content to get you ramped into the Ruby language. You&#8217;ve already read <a href='http://pine.fm/LearnToProgram/'>Chris Pine&#8217;s Learn to Program</a> in the Web Development 101 section for a good introduction, and the Codecademy stuff will overlap a bit and carry forward from there.</li>
+
+<li>Peter Cooper&#8217;s <a href='http://beginningruby.org/'>Beginning Ruby</a> is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it. It&#8217;s a bit outdated but Ruby hasn&#8217;t changed a whole lot since then. The goal of this project is to move BEYOND Codecademy and other simple, free resources and get you building stuff on your own. This book will start covering some of the more intermediate/useful stuff that you&#8217;ll need to know to do that.</li>
+</ol>
+
+<p>It is not free &#8211; usually somewhere around $30-40, but, as <a href='http://beginningruby.org/'>Peter said himself</a>:</p>
+
+<blockquote>
+<p>Now, of course, I can’t actively participate in pirating my book but, heck, it’s around on plenty of “free e-book” sites and on RapidShare. There are even links on Twitter to torrents like <a href='http://www.torrentdownloads.net/torrent/1650632409/Apress+Beginning+Ruby+From+Novice+to+Professional+2nd+Edition+Jul+2009+eBook-BBL'>this</a>. I am happy for you to pirate my book, but.. I’m NOT A LAWYER, and I can’t guarantee what Apress would do about it – so you’d be doing it off your own back! So, uhm, don’t pirate it? ;-) The only condition, of course, if you do is that if you like the book and you think a print copy would be swell to own, please buy one – even if it’s just for someone you know who wants to learn to program!</p>
+</blockquote>
+
+<h5 id='the_free_backup_textbooks'>The (Free) Backup &#8220;Textbooks&#8221;:</h5>
+
+<p>Some things you just won&#8217;t pick up right away or their coverage by main resources will fall short of your expectations. Luckily there are lots of options for places to shore up your understanding:</p>
+
+<ol>
+<li>The staple online book: Zed Shaw&#8217;s <a href='http://ruby.learncodethehardway.org/book/'>Learn Code the Hard Way</a>, an extension of his wildly popular Learn Python the Hard Way into Ruby.</li>
+
+<li>The other good book, available in the older edition online for free: <a href='http://it-ebooks.info/book/59/'>The &#8220;Pickaxe&#8221;, or Programming Ruby 3rd Edition</a></li>
+</ol>
+
+<p><strong>TODO: Walkthrough of a real Ruby program</strong></p>
+
+<h2 id='basic_ruby'>Basic Ruby</h2>
+
+<h3 id='1_building_blocks'>1. Building Blocks</h3>
+
+<p><em>Variables, Data Types, Strings, Methods</em></p>
+
+<h4 id='intro'>Intro</h4>
+
+<p>This should start as a quick refresher of what you&#8217;ve already learned&#8230; And now you get to build stuff!</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>You should have already completed <a href='http://pine.fm/LearnToProgram/'>Learn to Program</a> in the Web Development 101 section to start with.</li>
+
+<li>Do the full <a href='http://www.codecademy.com/tracks/ruby'>Codecademy Introduction to Ruby</a> section if you haven&#8217;t already.</li>
+
+<li>Complete the <a href='http://www.codecademy.com/tracks/ruby'>Codecademy Introduction to Ruby</a> project (&#8220;Putting the Form in Formatter&#8221;)</li>
+
+<li>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 2: <code>Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation</code></li>
+
+<li>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 3: <code>Ruby&#39;s Building Blocks: Data, Expressions, and Flow Control</code> pages 31-50 (only the section on Numbers and Expressions and the section on Text and Strings)</li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<p>Make sure you can do the <a href='http://www.codequizzes.com/topics/24/quizzes/75'>Beginner Ruby Quiz #1</a> from <a href='http://www.codequizzes.com/'>Code Quizzes</a>.</p>
+
+<h4 id='additional_resources'>Additional Resources</h4>
+
+<h3 id='pair_project_building_blocks'>PAIR PROJECT: Building Blocks</h3>
+
+<p>Estimated time: 2 hours</p>
+
+<p>Do the <a href='basic_ruby_project_1.md'>Basic Ruby Project 1</a> with a partner</p>
+
+<h3 id='2_advanced_building_blocks'>2. Advanced Building Blocks</h3>
+
+<p><em>Control Flow, Looping, Arrays, Hashes, Blocks, Sorting</em></p>
+
+<h4 id='intro'>Intro</h4>
+
+<p>This section gets more into the topics you may have been shakey on before. It&#8217;s definitely got some more meat to it than the previous one. The Codecademy exercises are good for doing on your own because they give you all kinds of help with them.</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>
+<p>Do the <a href='http://www.codecademy.com/tracks/ruby'>Codecademy Ruby sections 2-6</a>, including:</p>
+
+<ol>
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7'>Control Flow in Ruby</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-JdNDe?curriculum_id=5059f8619189a5000201fbcb'>Project: Thith Meanth War!</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-XYcN1?curriculum_id=5059f8619189a5000201fbcb'>Looping with Ruby</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6?curriculum_id=5059f8619189a5000201fbcb'>Project: Redacted!</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb'>Arrays and Hashes</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-693PD?curriculum_id=5059f8619189a5000201fbcb'>Project: Create a Histogram</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-ET4bU?curriculum_id=5059f8619189a5000201fbcb'>Blocks and Sorting</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-nOho7?curriculum_id=5059f8619189a5000201fbcb'>Project: Ordering your Library</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw?curriculum_id=5059f8619189a5000201fbcb'>Hashes and Symbols</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb'>Project: A Night at the Movies</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb'>Blocks, Procs, and Lambdas</a></li>
+</ol>
+</li>
+
+<li>
+<p>Finish <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 3: <code>Ruby&#39;s Building Blocks: Data, Expressions, and Flow Control</code> (pages 50-76)</p>
+</li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<p>Make sure you can do the <a href='http://www.codequizzes.com/topics/24/quizzes/76'>Beginner Ruby Quiz #2</a>, <a href='http://www.codequizzes.com/topics/24/quizzes/77'>Quiz #3</a>, <a href='http://www.codequizzes.com/topics/24/quizzes/78'>Quiz #4</a>, and <a href='http://www.codequizzes.com/topics/24/quizzes/80'>Quiz #6</a> from <a href='http://www.codequizzes.com/'>Code Quizzes</a>. They&#8217;re pretty quick and should give you an idea of what you still need to brush up on.</p>
+
+<h4 id='additional_resources'>Additional Resources</h4>
+
+<h3 id='pair_project_advanced_building_blocks'>PAIR PROJECT: Advanced Building Blocks</h3>
+
+<p>Estimated Time: ~4 hrs</p>
+
+<p>Get a partner and do the <a href='basic_ruby_project_2.md'>Basic Ruby Project 2</a>, which should be more challenging than the first one.</p>
+
+<h2 id='intermediate_ruby'>Intermediate Ruby</h2>
+
+<h3 id='1_working_with_files_and_serializing_data'>1. Working with Files and Serializing Data</h3>
+
+<h4 id='intro'>Intro</h4>
+
+<p>Until now you&#8217;ve mostly been working with self-contained command line programs. It&#8217;s time to start branching out and interacting with files. Files are basically just collections of bits and bytes that you&#8217;ll somehow need to open, read into your program, modify, and save. Even though many files (like images) look like a giant jumble of data when you open them up in a text editor, it can be helpful to think of all files as one really long string, or stream, of bytes. Your script will read them in from top to bottom, performing whatever operations you specify along the way.</p>
+
+<p>Lucky for you, Ruby makes your life pretty easy with regards to dealing with files. It has the tools necessary to read those long streams of bytes into your program and then allow you to work with them using the objects you&#8217;re familiar with. As long as you remember that the files are just a long stream of words/characters/bytes being read in from top to bottom, it should be fairly intuitive. If you want to do more detailed stuff like write to a specific point in a file, you&#8217;ll need to figure out what position you&#8217;re at first, since you may be in the middle of it somewhere.</p>
+
+<p>Working with files gets you into the idea of serialization, which basically just means converting your data into a storable format like a string. That&#8217;s very useful whether you&#8217;re thinking of saving your objects and classes (say, when you&#8217;re in the middle of a game) to a file or when you&#8217;re transmitting those same types of objects to the web browser (since the only way for information to travel via HTTP is as a string).</p>
+
+<p>Luckily, Ruby again makes things pretty easy for you. There are some generally accepted formats for serializing data and Ruby gives you the tools you&#8217;ll need to work with all of them. The two you&#8217;ll run into again and again are YAML and JSON. You often see YAML used to save configuration files in Ruby on Rails because it&#8217;s very lightweight and straightforward. You can read it easily in a text editor. JSON is ubiquitous across the web, and is the format of choice to deliver complex or deeply nested data (like objects) from some website to your program via an API (like if you want to interface with Google Maps).</p>
+
+<p>In this section, you&#8217;ll get a good handle on these fundamental but important concepts, as well as a chance to flex your muscles and build something that uses each of them.</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>Refresh yourself on <a href='http://rubymonk.com/learning/books/1/chapters/42-introduction-to-i-o/lessons/90-using-the-io-class'>Ruby Monk&#8217;s section on the <code>File</code> class</a> (it was part of the prep work!)</li>
+
+<li>Read through <a href='http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing'>Ruby Monk&#8217;s section on Serializing</a></li>
+
+<li>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 4: <code>Developing Your First Ruby Application</code> and follow along with the tutorial.</li>
+
+<li>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 9: <code>Files and Databases</code></li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<h3 id='pair_project_working_with_files_and_saving_data'>PAIR PROJECT: Working with Files and Saving Data</h3>
+
+<p>Estimated Time: ~4-6 hrs</p>
+
+<p>Get a partner and do the <a href='file_io_project.md'>Files and Serialization Project</a>.</p>
+
+<h3 id='2_good_programming_with_oop'>2. Good Programming with OOP</h3>
+
+<h4 id='intro'>Intro</h4>
+
+<p>You&#8217;ve got the building blocks of Ruby out of the way, great! Now it&#8217;s time to get into the fun stuff&#8230; how do we combine those building blocks in the most efficient and elegant ways to produce the programs we&#8217;d like to write?</p>
+
+<p>The concepts you&#8217;ll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language. That&#8217;s because the fundamental concepts are just that&#8230; fundamental. Don&#8217;t repeat yourself. Modularize your code. Have your classes and methods only do one thing. Show as little of your interfaces to the world as you can. Don&#8217;t make methods or classes heavily dependent on each other. Be lazy. These will take some time and practice to implement effectively, but you&#8217;ll already be taking a big step towards creating high quality code just by finishing up this section.</p>
+
+<p>There&#8217;s a lot to do here but stick with it! The Codecademy lessons are interspersed with their projects. The Beginning Ruby book will help you understand the material a bit deeper, which will be important to understand for creating your own projects.</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>
+<p>Do <a href='http://www.codecademy.com/tracks/ruby'>Codecademy Ruby sections 7, 9, and 10</a>:</p>
+
+<ol>
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb?curriculum_id=5059f8619189a5000201fbcb'>Refactoring</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y?curriculum_id=5059f8619189a5000201fbcb'>Project: The Refactor Factory</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6?curriculum_id=5059f8619189a5000201fbcb'>Object-Oriented Programming, Part I</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-X5wcR?curriculum_id=5059f8619189a5000201fbcb'>Project: Virtual Computer</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-zfe3o?curriculum_id=5059f8619189a5000201fbcb'>Object-Oriented Programming, Part II</a></li>
+
+<li><a href='http://www.codecademy.com/courses/ruby-beginner-en-32cN3?curriculum_id=5059f8619189a5000201fbcb'>Project: Banking on Ruby</a></li>
+</ol>
+</li>
+
+<li>
+<p>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 5: <code>The Ruby Ecosystem</code> for a brief break from code to learn more about the world of Ruby.</p>
+</li>
+
+<li>
+<p>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 6: <code>Classes, Objects, and Modules</code>. It will extend your knowledge deeper than Codecademy alone.</p>
+</li>
+
+<li>
+<p>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 7: <code>Projects and Libraries</code></p>
+</li>
+
+<li>
+<p>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 8: <code>Documentation and Error Handling</code> but skip the stuff on Testing (pgs 190-196)</p>
+</li>
+
+<li>
+<p>Glance over the <a href='https://github.com/bbatsov/ruby-style-guide'>Ruby Style Guide</a> so you have an idea of how to make your code look more professional.</p>
+</li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<p>Make sure you can do <a href='http://www.codequizzes.com/topics/24/quizzes/79'>Quiz #5</a> and <a href='http://www.codequizzes.com/topics/24/quizzes/81'>Quiz #7</a> from <a href='http://www.codequizzes.com'>Code Quizzes</a>.</p>
+
+<p>Then do their <a href='http://www.codequizzes.com/topics/1/quizzes/40'>Practical Object Oriented Design Quiz</a>, which will delve deeper into design principles. There are some new concepts here to pick up as well.</p>
+
+<h4 id='additional_resources'>Additional Resources</h4>
+
+<ul>
+<li>If you&#8217;d still like to learn more about how to really design more concise, effective, purposeful classes, check out <a href='http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330'>Practical Object-Oriented Design in Ruby</a> from Sandi Metz.</li>
+</ul>
+
+<h3 id='pair_project_good_programming_with_oop'>PAIR PROJECT: Good Programming with OOP</h3>
+
+<p>Estimated Time: 6-8 hours</p>
+
+<p>Get a partner and do the <a href='oop_project.md'>OOP Programming Project</a>.</p>
+
+<h2 id='ruby_on_the_web'>Ruby on the Web</h2>
+
+<h4 id='intro'>Intro</h4>
+
+<p>You know how to write scripts and games using Ruby but so far that&#8217;s all confined within the boundaries of your local system. In this section, you&#8217;ll learn how to break free and start mucking around on the Internet.</p>
+
+<p>You (should have) learned about how the web works in the <a href='/web_development_basics/web_development_basics.md'>Web Development 101</a> section, but it might be worth heading back for a refresher if you&#8217;ve got any lingering questions. You&#8217;ll be working with HTTP requests and responses quite a bit in this section so it&#8217;s important to at least understand what&#8217;s going on there.</p>
+
+<p>Ruby (or a gem that you&#8217;ve downloaded) will give you the power to send HTTP requests, whether GET or POST or PUT or DELETE, and then wait for a response. You&#8217;ll find yourself needing to take apart that response to get to the good stuff, whether that&#8217;s the HTML of a web page you&#8217;re trying to scrape or a JSON object returned by some website&#8217;s API that you&#8217;ve queried. Every gem has a slightly different way of doing it, but the principles remain the same. On the flip side, Ruby gives you the tools to listen for requests and deliver responses&#8230; as a web server yourself!</p>
+
+<p>We&#8217;re learning this stuff for two reasons. First, it&#8217;s important to understand the underlying fundamentals of how web requests and responses work if you want to actually build web pages. Ruby on Rails will take care of lots of this nitty gritty stuff for you if that&#8217;s your goal, but having worked with your bare hands before will give you a giant leg up when using it and it doesn&#8217;t take long to figure out. Second, there&#8217;s a big world outside of Rails, and you should have the tools to build some nifty Ruby programs that can play around on the web. Because it&#8217;s a whole lot more fun!</p>
+
+<p>This section won&#8217;t be nearly as long as the previous one, and should have you building stuff pretty early on. Actually, the project section is really where you&#8217;ll be spending all your time. Let the spamming begin.</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>Go into your terminal and type <code>$ curl http://www.google.com</code> and observe the massive chunk of text that gets returned. That&#8217;s Google&#8217;s homepage and should give you an idea of some of the responses you can get from these types of requests.</li>
+
+<li>Read <a href='http://beginningruby.org/'>Beginning Ruby</a> Chapter 14, pages 413-432 for a look at taking on the Internet with Ruby. It dives into the guts of things pretty quickly, so breathe deep and forge on&#8230;</li>
+
+<li>Read this extremely simple <a href='http://rest.elkstein.org/2008/02/using-rest-in-ruby.html'>REST tutorial in Ruby</a>, which is basically just to show you how dead simple it is to issue HTTP requests using Ruby and then grab the response.</li>
+
+<li>Read this <a href='http://www.jmarshall.com/easy/http/#whatis'>explanation of how HTTP works</a> down through where it talks about the POST method (about halfway down). You can stop before the HTTP Proxies section.</li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<h3 id='pair_project_ruby_on_the_web'>PAIR PROJECT: Ruby on the Web</h3>
+
+<p>Estimated Time: 6-10 hours</p>
+
+<p>Get a partner and do the <a href='ruby_web_project.md'>Ruby on the Web Pair Project</a>.</p>
+
+<h2 id='basic_recursion_algorithms_and_data_structures'>Basic Recursion, Algorithms and Data Structures</h2>
+
+<p>You&#8217;ve learned how to build some cool stuff already and, frankly, you could probably make some decent websites without a crazy amount of additional formal education. However, just because you can write English at a grade school level doesn&#8217;t mean you will be editing the New York Times anytime soon.</p>
+
+<p>In the world of programming, there&#8217;s a difference between solving a problem the brute force way and solving a problem WELL. We touched on the first layer of this when we covered basic object-oriented programming and how you should break apart your code into well-organized chunks. If that was all about learning how to write good code, these next few sections are going to be about training yourself to figure out the best code to write &#8211; the most elegant solution to the problem at hand. It becomes particularly important whenever you start working with large data sets, like when your website becomes highly successful.</p>
+
+<p>We&#8217;re taking a little detour through some more Computer Science-y concepts here because they are fundamental for a reason. Some problems require you to use tools beyond just arrays and iterators. You&#8217;re going to build chess and it&#8217;s not fundamentally difficult (it&#8217;s just a rules-based game after all) but there are some tricks that you&#8217;ll want to use to help you solve it.</p>
+
+<p>If that doesn&#8217;t sway you, this curriculum is meant to prepare you for life beyond the web page. If you&#8217;re interested in applying for a job, you&#8217;ll be asked questions that directly touch on some of this stuff. It&#8217;s going to require you to put on your thinking cap (sorry, it had to happen sometime), but you can do it.</p>
+
+<h3 id='1_recursion'>1. Recursion</h3>
+
+<h4 id='intro'>Intro</h4>
+
+<p>Recursion is the idea that a function calls itself. Pretty simple, right? It&#8217;s used to take a big problem and start breaking it down into smaller and smaller pieces and continuing to feed those back into the original function until some sort of answer is achieved and the whole chain unwinds.</p>
+
+<p>There&#8217;s also a right and wrong way to use recursion. The fact is, any problem you can solve recursively you can also solve using the iterators that you know and love. If you find yourself saying &#8220;why didn&#8217;t I just use a <code>while</code> loop here?&#8221; then you probably should have. You won&#8217;t often end up using a recursive solution to a problem, but you should get a feel for when it might be a good idea.</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>Read the <a href='http://ruby.bastardsbook.com/chapters/recursion/'>Chapter on Recursion</a> in the Bastards Book of Ruby by Dan Nguyen</li>
+
+<li>Watch this <a href='http://vimeo.com/24716767'>Video on Recursion</a> by Joshua Cheek but only until minute 17:45! (don&#8217;t want to give away the project&#8230;)</li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<ol>
+<li>Complete the <a href='http://www.codequizzes.com/topics/5/quizzes/7'>Code Quiz</a> on Recursion.</li>
+</ol>
+
+<h3 id='pair_project_recursion'>PAIR PROJECT: Recursion</h3>
+
+<p>Estimated Time: 3-4 hours</p>
+
+<p>Find a partner and work on the <a href='recursion_project.md'>Recursion Project</a> together.</p>
+
+<h3 id='2_basic_data_structures_and_algorithms'>2. Basic Data Structures and Algorithms</h3>
+
+<h4 id='intro'>Intro</h4>
+
+<p>The basic idea of a data structure is to store data in a way that meets the needs of your particular application. You can usually store data in one giant array, but it can be very time consuming to locate a particular value. Depending on the application, there are a batch of other basic data structures that you can use to meet your needs. Often, you end up making trade-offs between various attributes like how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory.</p>
+
+<p>We&#8217;ll get more into the specifics of data structures later in the curriculum, but this introduction should again expand your toolbox slightly so you&#8217;re much better able to identify and solve certain problems where Arrays, Hashes and Sets don&#8217;t quite cut it. This is particularly relevant when you&#8217;re trying to search through a bunch of data for a particular value or plan out a strategy several moves in advance.</p>
+
+<p>Some problems, like traversing a tree looking for a certain element, are relatively common in data intensive applications and have been solved many times in the past. Understanding how they are solved will give you some great tools to apply to other (similar) problems as well. Algorithms are really just ways of solving problems (like this) systematically. You&#8217;ll learn about some of the common algorithms like breadth-first-search and depth-first-search.</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>Glance over the <a href='http://en.wikipedia.org/wiki/Data_structure'>Wikipedia entry on Data Structures</a> for a high level overview of things.</li>
+
+<li>Learn about Queues and Stacks by watching <a href='https://www.youtube.com/watch?v=6QS_Cup1YoI'>this video</a></li>
+
+<li>Learn about binary search trees by watching <a href='http://cs50.tv/2012/fall/shorts/binary_search/binary_search-720p.mp4'>this video</a> from Harvard&#8217;s CS50x on edX.</li>
+
+<li>Read <a href='http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development'>this Quora question about the importance of algorithms in web development</a> to get some context for why we&#8217;re going over this stuff.</li>
+
+<li>Learn about basic algorithms from Coursera&#8217;s Algorithms course in <a href='http://www.youtube.com/watch?v=u2TwK3fED8A'>this video</a>. The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you&#8217;re so inclined).</li>
+
+<li>Read the <a href='http://www.giocc.com/a-gentle-introduction-to-algorithms-for-web-developers.html'>Gentle Introduction to Algorithms for Web Developers</a> for another basic look at what algorithms are.</li>
+
+<li>Finally, learn about Depth First Search and Breadth First Search from <a href='http://www.youtube.com/watch?v=zLZhSSXAwxI'>this video on YouTube</a>.</li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<ul>
+<li>Breadth First Search is best used when you want to find the <strong>shortest</strong> path to something but it can take a very long time</li>
+
+<li>Depth first search is best used when you want to find any path to a solution but find it fast.</li>
+</ul>
+
+<h3 id='pair_project_data_structures_and_algorithms'>PAIR PROJECT: Data Structures and Algorithms</h3>
+
+<p>Estimated Time: 5-7 hours</p>
+
+<p>Find a partner and work on the <a href='data_structures_algorithms_project.md'>Data Structures and Algorithms Project</a> together.</p>
+
+<h2 id='a_taste_of_testing_ruby_with_rspec'>A Taste of Testing Ruby with RSpec</h2>
+
+<h4 id='intro'>Intro</h4>
+
+<p>By now you&#8217;ve had some experience writing actual programs using Ruby. Presumably, you&#8217;ve been making sure they work by manually entering certain things in the command line over and over again. This was probably especially frustrating with some of the more complex exercises during the Algorithms and Data Structures section.</p>
+
+<p>As you should recall from the Web Development 101 section, testing with RSpec lets you automate most of these activities. It also allows you to make sure your program&#8217;s interfaces with the public are functioning properly. It allows you to have confidence in your code and not to worry about changing things that may break stuff because you&#8217;ll know immediately what broke and can much more easily determine why. If you end up contributing to an open-source project, they&#8217;ll want you to include specs to test whatever features you&#8217;ve created.</p>
+
+<p>At the most basic level, RSpec is a &#8220;Domain Specific Language&#8221; (DSL, meaning it just does a very specific thing) written in Ruby that is designed to help you test your Ruby code. You use it by including the <code>rspec</code> gem, which is really just a package containing 3 other gems &#8211; <code>rspec-core</code>, <code>rspec-expectations</code> and <code>rspec-mocks</code>. It&#8217;s configured so that, once you&#8217;ve got the gem included, if you&#8217;ve laid out your project folders in the right places, you can just execute the specs directly from the command line. If you did the Test-First project in the Web Development 101 section, you should already be quite familiar with it.</p>
+
+<p>We will cover testing in more depth in the section on Rails, but you&#8217;ll want to get a good base built in testing &#8220;plain old&#8221; Ruby first. It will also help you with the final project since you might otherwise find yourself endlessly entering data into the command line and using the debugger.</p>
+
+<h4 id='homework_assignment'>Homework Assignment</h4>
+
+<ol>
+<li>Go back to the Web Development 101 section and do the RSpec section if you haven&#8217;t aready.</li>
+
+<li>Read the <a href='http://en.wikipedia.org/wiki/Test-driven_development'>Wikipedia Page on Test Driven Development</a>.</li>
+
+<li>Watch <a href='http://www.youtube.com/watch?v=JhR9Ib1Ylb8&amp;feature=relmfu'>this video walkthrough</a> of writing some RSpec tests for a small bit of sample code in the Test-Driven Development (TDD) fashion.</li>
+
+<li>Take a glance at the <a href='https://www.relishapp.com/rspec/rspec-core/v/2-4/docs'>Relish RSpec official documentation</a>. It will be a good resource for when you&#8217;re scratching your head later.</li>
+</ol>
+
+<h4 id='test_yourself'>Test Yourself</h4>
+
+<h3 id='pair_project_testing_with_rspec'>PAIR PROJECT: Testing with RSpec</h3>
+
+<p>Estimated Time: 4-6 hours</p>
+
+<p>Find a partner and do the <a href='testing_project.md'>RSpec Pair Project</a>.</p>
+
+<h3 id='additional_resources'>Additional Resources</h3>
+
+<ul>
+<li><a href='http://betterspecs.org'>Better Specs</a> shows tons of examples of what you should and shouldn&#8217;t do with RSpec.</li>
+
+<li>The <a href='http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf'>RSpec Cheat Sheet</a> should help you avoid Googling every new bit of syntax.</li>
+</ul>
+
+<h2 id='pair_project_ruby_final_project'>PAIR PROJECT: Ruby Final Project!</h2>
+
+<p>Estimated Time: 12-18 hours</p>
+
+<p>You&#8217;ve almost finished Ruby! Now we&#8217;ve just got one tiny little last step for you&#8230; Find a partner and do the <a href='ruby_final_project.md'>Ruby Final Project</a>.</p>
+
+<h2 id='finish'>Finish</h2>
+
+<p>You did it! Ruby is conquered. You&#8217;re now a ninja&#8230;. okay, that&#8217;s a bit hyperbolic but the fact is that you now know more than enough Ruby to take on Rails like a Boss. And, actually, the real secret is that the hard part is over. Getting to this point is the most difficult part of the learning curve.</p>
+
+<p>Sure, you&#8217;ve still got plenty to learn, but the real conceptual leaps have already been made. You can think like a programmer now and should be able to figure out how to appropriately Google for pretty much anything you don&#8217;t already know. If you know Ruby, the world is sort of opened up for you. Want to learn Python? That would be a whole lot easier now. Nervous about Rails? Don&#8217;t be. Rails is just Ruby that&#8217;s been packaged up to do lots of stuff for you. With what you know, you&#8217;ll have a much easier time &#8220;seeing the matrix&#8221; and understanding what Rails is trying to do for you. Even Javascript should make a whole lot more sense to you once we get back to it.</p>
+
+<h2 id='additional_resources'>Additional Resources</h2>
+
+<ul>
+<li><a href='http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1'>Why Ruby and Python are different</a></li>
+</ul>
