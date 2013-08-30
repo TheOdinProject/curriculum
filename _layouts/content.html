@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <div class="container">
+
+      {% include header.html %}
+      <div class="row">
+        <div class="span6 offset2" id="content">
+          <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+        <aside class="span3 offset1" id="sidebar">
+          {% include sidebar.html %}
+        </aside>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>
