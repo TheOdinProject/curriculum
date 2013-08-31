@@ -1,3 +1,6 @@
+---
+layout: content
+---
 # Pair Project: Ruby on the Web
 
 *[Return to Ruby](ruby.md)*

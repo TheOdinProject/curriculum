@@ -1,3 +1,6 @@
+---
+layout: content
+---
 # Pair Project: Basic Data Structures and Algorithms
 
 *[Return to Ruby](ruby.md)*

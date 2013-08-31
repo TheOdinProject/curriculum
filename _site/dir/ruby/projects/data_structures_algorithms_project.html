@@ -31,63 +31,86 @@
         <div class="col-md-8" id="content">
           <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-              <h1>Git</h1>
+              <h1>Pair Project: Basic Data Structures and Algorithms</h1>
 
-<p>Total Estimated Time: 8-12 hours</p>
+<p><em><a href="ruby.md">Return to Ruby</a></em></p>
 
-<p><em><a href="/README.md">Top level table of contents</a></em></p>
+<h2>1. Searching Binary Trees</h2>
 
-<h2>!! This section is Under Construction !!</h2>
+<p>You learned about <a href="http://en.wikipedia.org/wiki/Binary_search_tree">binary search trees</a> -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".</p>
 
-<p>TODO: How a real developer uses Git (2)</p>
+<h3>Your Task</h3>
 
-<p>Atlassian's tutorial:
-https://www.atlassian.com/git/tutorial</p>
-
-<p>http://sixrevisions.com/resources/git-tutorials-beginners/</p>
-
-<p>http://pcottle.github.io/</p>
-
-<p>Setting your username</p>
-
-<p>Understanding Git Conceptually:
-http://www.sbf5.com/~cduan/technical/git/</p>
-
-<p>Github's official training site:
-http://teach.github.com/</p>
-
-<h2>Intro</h2>
-
-<p>Hopefully you've been using the basic Git commands to create repositories and push your code up to Github.  If not, you've got a bit of catching up to do but don't worry.</p>
-
-<p>In any case, Git is a crucial skill to have whether you're a professional web developer or just a hobbyist who needs to back up the code base.  It's the "save" button on steroids for code and it allows giant teams of developers to collaborate.  There really aren't all that many commands for you to learn, either, but sometimes the real difficulty of it comes from visualizing in your head what it's actually doing.</p>
-
-<p>In this section, we'll dive deeper than just the <code>$ git pull</code> and <code>$ git add .</code> commands you've been using.  Maybe you've had the dubious pleasure of getting a merge conflict when you tried to pull or push changes.  Maybe you're just curious how multiple developers can work on a single code base at the same time.  Either way, this section should help you take the first steps towards expanding your git toolkit and understanding what's actually going on under the hood with git.</p>
-
-<h2>Assignment</h2>
+<p>You'll build a simple binary tree data structure from some arbitrary input and the crawler that will locate data inside of it.</p>
 
 <ol>
-<li><p>Watch the following Pro Git videos to get warmed up:</p>
+<li>Build a class <code>Node</code> that has a stored value and then possible links to its parent and children (if they exist).  Build getters and setters for the parent node, left node, and child node.</li>
+<li>Write a method <code>build_tree</code> which takes an array of data (e.g. [1,7,4,23,8,9,4,3,5,7,9,67,6345,324]) and turns it into a binary tree full of <code>Node</code> objects appropriately placed.  Start by assuming the array you get is sorted.</li>
+<li>Now refactor your <code>build_tree</code> to handle data that isn't presorted and cannot be easily sorted prior to building the tree.  You'll need to figure out how to add a node for each of the possible cases (e.g. if it's a leaf versus in the middle somewhere).</li>
+<li>Write a simple script that runs <code>build_tree</code> so you can test it out.</li>
+<li>Build a method <code>breadth_first_search</code> which takes a target value and returns the node at which it is located using the breadth first search technique.  You will want to use an array acting as a queue to keep track of all the child nodes (as you saw in the <a href="http://www.youtube.com/watch?v=zLZhSSXAwxI">video</a>) that you have yet to search and to add new ones to the list.  If the target node value is not located, return <code>nil</code>.</li>
+<li>Build a method <code>depth_first_search</code> which returns the node at which the target value is located using the depth first search technique.  Use an array acting as a stack to do this.</li>
+<li><p>Next, build a new method <code>dfs_rec</code> which runs a depth first search as before but this time, instead of using a stack, make this method recursive.</p>
 
 <ol>
-<li><a href="http://git-scm.com/video/what-is-version-control">What is Version Control?</a></li>
-<li><a href="http://git-scm.com/video/what-is-git">What is Git?</a></li>
-<li><a href="http://git-scm.com/video/get-going">Get Going</a></li>
+<li>You can think of the <code>dfs_rec</code> method as a little robot that crawls down the tree, checking if a node is the correct node and spawning other little robots to keep searching the tree.  No robot is allowed to turn on, though, until all the robots to its left have finished their task.</li>
+<li>The method will need to take in both the target value and the current node to compare against.</li>
 </ol>
 </li>
-<li><p>Read <a href="http://git-scm.com/book">Pro Git</a> chapters 1-3</p></li>
-<li>Supplement your understanding with the first six videos from <a href="http://teach.github.com/articles/training-screencasts/">Github's training screencasts</a> (up to and including pull requests)</li>
 </ol>
 
 
-<h2>PAIR PROJECT: Git Calisthenics</h2>
+<p><strong>Student Solutions</strong></p>
 
-<h2>Finale</h2>
-
-<h2>Additional Resources</h2>
+<p><em>Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the <a href="/contributing.md">contributing page</a>.  Please include your partner's github handle somewhere in the description if they would like attribution.</em></p>
 
 <ul>
-<li>Atlassian has a series of <a href="https://www.atlassian.com/git/tutorial">beginner guides with visualizations</a> for git.</li>
+<li><em>Your Solution Here!</em></li>
+</ul>
+
+
+<h2>2. Knight's Travails</h2>
+
+<p>Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a real problem.</p>
+
+<p>A knight in chess can move to any square on the standard 8x8 chess board from any other square on the board, given enough turns.  Its basic move is two steps forward and one step to the side.  It can face any direction.</p>
+
+<p>All the possible places you can end up after one move look like this:</p>
+
+<p><img src="dance_squares.jpg" /></p>
+
+<h3>Your Task</h3>
+
+<p>Your task is to build a function <code>knight_moves</code> that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.</p>
+
+<p>You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:</p>
+
+<ul>
+<li><code>knight_moves([0,0],[1,2]) == [[0,0],[1,2]]</code></li>
+<li><code>knight_moves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]</code></li>
+<li><p><code>knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]</code></p></li>
+<li><p>Put together a script that creates a game board and a knight.</p></li>
+<li>Treat all the possible moves the knight could make as children in a tree.  Don't allow any moves to go off the board.</li>
+<li>Decide which search algorithm is best to use for this case.  Hint: one of them could be potentially infinite</li>
+<li>Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like.</li>
+</ul>
+
+
+<p><strong>Student Solutions</strong></p>
+
+<p><em>Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the <a href="/contributing.md">contributing page</a>.  Please include your partner's github handle somewhere in the description if they would like attribution.</em></p>
+
+<ul>
+<li><em>Your Solution Here!</em></li>
+</ul>
+
+
+<p><em>How long did these projects take you?  <a href="mailto:curriculum@theodinproject.com">Let us know!</a></em></p>
+
+<h2>Additional Resources:</h2>
+
+<ul>
+<li>More on <a href="https://www.youtube.com/watch?v=sy6dGzYY308">Binary Search Trees from Coursera</a>... it gets a bit technical.</li>
 <li></li>
 </ul>
 

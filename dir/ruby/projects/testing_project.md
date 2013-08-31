@@ -1,3 +1,6 @@
+---
+layout: content
+---
 # Pair Project: Testing Ruby with RSpec
 
 *[Return to Ruby](ruby.md)*

@@ -1,1 +1,21 @@
-<h1> I AM A SIDE BAR, HEAR ME NAVIGATIONALLY ROAR </h1>
+<h1>Roadmap</h1>
+<ol>
+  <li>
+    MY URL IS: {{ site.url }}
+  </li> 
+  {% for dir in site.nav %}
+    {% for subdir in dir %}
+      {% if subdir == dir[0] %} <!-- Get top level heading -->
+        <li>
+          <a href="{{ site.url }}{{ subdir[1] }}">{{ subdir[0] }}</a>
+        </li>
+        <ul>
+      {% else %} <!-- Get other headings -->
+        <li>
+          <a href="{{ site.url }}{{ subdir[1] }}">{{ subdir[0] }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul> 
+  {% endfor %}
+</ol>

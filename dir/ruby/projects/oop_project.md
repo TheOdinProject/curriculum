@@ -1,3 +1,6 @@
+---
+layout: content
+---
 # Pair Project: OOP with Ruby
 
 *[Return to Ruby](ruby.md)*

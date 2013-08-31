@@ -1,3 +1,6 @@
+---
+layout: content
+---
 # Pair Project: Recursion
 
 *[Return to Ruby](ruby.md)*

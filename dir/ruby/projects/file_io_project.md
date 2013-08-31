@@ -1,3 +1,6 @@
+---
+layout: content
+---
 # Pair Project: Serialization and Working with Files
 
 *[Return to Ruby](ruby.md)*

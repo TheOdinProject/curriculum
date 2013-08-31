@@ -1,3 +1,6 @@
+---
+layout: content
+---
 # Pair Project: Strings, Arrays and Hashes
 *[Return to Basic Ruby](basic_ruby.md)*
 

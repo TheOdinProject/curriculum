@@ -4,4 +4,78 @@ lsi: false
 pygments: true
 markdown: rdiscount
 # url: "http://theodinproject.github.io/curriculum" # FOR PRODUCTION
-url: "localhost:4000" # FOR LOCAL TESTING
+url: "http://localhost:4000" # FOR LOCAL TESTING
+nav:
+  - # Introduction
+    -
+      - "Introduction"
+      - "/"
+  - # Becoming A Web Developer
+    - 
+      - "About Web Developers"
+      - "/dir/becoming_a_web_developer/"
+  - # Web Development 101
+    -
+      - "Web Development 101"
+      - "/dir/web_development_basics"
+  -  # Ruby
+    - 
+      - Ruby
+      - "/dir/ruby/"
+    - 
+      - Basic Ruby Project 1
+      - "/dir/ruby/projects/basic_ruby_project_1.html"
+    - 
+      - Basic Ruby Project 2
+      - "/dir/ruby/projects/basic_ruby_project_2.html"
+    -
+      - "File I/O Project"
+      - "/dir/ruby/projects/file_io_project.html"
+    -
+      - "OOP Project"
+      - "/dir/ruby/projects/oop_project.html"
+    -
+      - "Recursion Project"
+      - "/dir/ruby/projects/recursion_project.html"
+    - 
+      - "Data Structures and Algorithms Project"
+      - "/dir/ruby/projects/data_structures_algorithms_project.html"
+    -
+      - "Testing Project"
+      - "/dir/ruby/projects/testing_project.html"
+    -
+      - "Ruby on the Web Project"
+      - "/dir/ruby/projects/ruby_web_project.html"
+    -
+      - "Ruby Final Project"
+      - "/dir/ruby/projects/ruby_final_project.html"
+  - # Git
+    - 
+      - Git
+      - "/dir/git/"
+    -
+      - project1
+      - "/dir/project1something"
+    -
+      - Git Project 2
+      - "/dir/somsaraseras"
+  - # Databases
+    - 
+      - Databases
+      - "/dir/databases/"
+  - # Ruby on Rails
+    -
+      - "Ruby on Rails"
+      - "/dir/rails/"
+  - # HTML / CSS
+    -
+      - "HTML / CSS (Coming Soon!)"
+      - "#"
+  - # Javascript
+    -
+      - "Javascript (Coming Soon!)"
+      - "#"
+  - # Tying It All Together
+    -
+      - "Tying it All Together (Coming Soon!)"
+      - "#"
