@@ -10,6 +10,9 @@ Total Estimated Time: 8-12 hours
 
 TODO: How a real developer uses Git (2)
 
+edX SAAS:
+Merge conflicts: Minute 30ish of https://www.youtube.com/watch?v=ieoHg0Vb-xo&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA 
+
 Atlassian's tutorial:
 https://www.atlassian.com/git/tutorial
 
