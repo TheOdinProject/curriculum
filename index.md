@@ -1,3 +1,6 @@
+---
+template: content
+---
 # The Odin Project: Curriculum
 
 ### The Open Curriculum for Learning Web Development
