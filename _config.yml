@@ -59,17 +59,11 @@ nav:
       - "/dir/ruby/projects/ruby_final_project.html"
   - # Git
     - 
-      - Git
+      - "Git (Coming Soon!)"
       - "/dir/git/"
-    -
-      - project1
-      - "/dir/project1something"
-    -
-      - Git Project 2
-      - "/dir/somsaraseras"
   - # Databases
     - 
-      - Databases
+      - "Databases (Coming Soon!)"
       - "/dir/databases/"
   - # Ruby on Rails
     -
