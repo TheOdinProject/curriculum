@@ -1,5 +1,5 @@
 ---
-template: content
+layout: content
 ---
 # The Odin Project: Curriculum
 
