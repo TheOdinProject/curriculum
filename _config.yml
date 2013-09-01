@@ -14,6 +14,14 @@ nav:
     - 
       - "About Web Developers"
       - "/dir/becoming_a_web_developer/"
+  - # Installations
+    - 
+      - Installations
+      - "/dir/installations/"
+  - # Pairing
+    - 
+      - Pair Programming
+      - "/dir/pairing/"      
   - # Web Development 101
     -
       - "Web Development 101"
@@ -65,17 +73,17 @@ nav:
       - "/dir/databases/"
   - # Ruby on Rails
     -
-      - "Ruby on Rails"
+      - "Ruby on Rails (Coming Soon!)"
       - "/dir/rails/"
   - # HTML / CSS
     -
       - "HTML / CSS (Coming Soon!)"
-      - "#"
+      - "/dir/html_css/"
   - # Javascript
     -
       - "Javascript (Coming Soon!)"
-      - "#"
+      - "/dir/javascript/"
   - # Tying It All Together
     -
       - "Tying it All Together (Coming Soon!)"
-      - "#"
+      - "/dir/tying_it_all_together/"

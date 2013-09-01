@@ -6,6 +6,7 @@ layout: content
 ### The Open Curriculum for Learning Web Development
 
 ### NOTE: Labor Day Weekend this will be published to the website so lots of the links and folders will be out of whack while that's occuring.  Check the "dir" folder to manually locate the resources you're looking for.  Sorry for the inconvenience!
+### To always see the latest version of the page, go to theodinproject.github.io/curriculum
 
 The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to get you on the path towards acquiring a job-ready skillset.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
 
