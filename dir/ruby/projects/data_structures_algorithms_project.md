@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: 'content'
 ---
 # Pair Project: Basic Data Structures and Algorithms
 

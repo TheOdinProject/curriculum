@@ -1,3 +1,7 @@
+---
+layout: 'content'
+---
+
 # Web Development 101
 Total Estimated Time: 60-90 hrs
 

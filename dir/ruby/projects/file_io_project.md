@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: 'content'
 ---
 # Pair Project: Serialization and Working with Files
 

@@ -1,5 +1,5 @@
 ---
-layout: content
+layout: 'content'
 ---
 # Pair Project: Flow Control, Iteration, Closures and Enumerable
 
