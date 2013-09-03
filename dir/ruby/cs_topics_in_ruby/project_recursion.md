@@ -2,8 +2,7 @@
 layout: 'content'
 ---
 # Pair Project: Recursion
-
-*[Return to Ruby](ruby.md)*
+Estimated Time: 3-4 hours
 
 ## Warmup: Fibonnacci
 

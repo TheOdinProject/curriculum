@@ -2,8 +2,7 @@
 layout: 'content'
 ---
 # Pair Project: Basic Data Structures and Algorithms
-
-*[Return to Ruby](ruby.md)*
+Estimated Time: 5-7 hours
 
 ## 1. Searching Binary Trees
 

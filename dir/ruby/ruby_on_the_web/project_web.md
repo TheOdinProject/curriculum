@@ -2,8 +2,7 @@
 layout: 'content'
 ---
 # Pair Project: Ruby on the Web
-
-*[Return to Ruby](ruby.md)*
+Estimated Time: 6-10 hours
 
 ## Project 1: Twitter Spambot
 

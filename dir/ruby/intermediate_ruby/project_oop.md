@@ -2,8 +2,7 @@
 layout: 'content'
 ---
 # Pair Project: OOP with Ruby
-
-*[Return to Ruby](ruby.md)*
+Estimated Time: 6-8 hours
 
 ## 1. Tic Tac Toe
 

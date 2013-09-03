@@ -2,7 +2,7 @@
 layout: 'content'
 ---
 # Pair Project: Flow Control, Iteration, Closures and Enumerable
-
+Estimated Time: 4 hours
 
 ## 1. Bubble Sort
 

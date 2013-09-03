@@ -2,6 +2,7 @@
 layout: 'content'
 ---
 # Pair Project: Serialization and Working with Files
+Estimated Time: 4-6 hours
 
 *[Return to Ruby](ruby.md)*
 

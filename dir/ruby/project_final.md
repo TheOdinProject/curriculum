@@ -2,8 +2,7 @@
 layout: 'content'
 ---
 # Pair Project: Testing Ruby with RSpec
-
-*[Return to Ruby](ruby.md)*
+Estimated Time: 12-18 hours
 
 ## Final Project: Chess
 
