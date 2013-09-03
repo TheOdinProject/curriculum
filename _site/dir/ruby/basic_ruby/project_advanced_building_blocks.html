@@ -31,47 +31,65 @@
         <div class="col-md-8" id="content">
           <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-              <h1>Pair Project: Testing Ruby with RSpec</h1>
+              <h1>Pair Project: Flow Control, Iteration, Closures and Enumerable</h1>
 
-<p><em><a href="ruby.md">Return to Ruby</a></em></p>
+<p>Estimated Time: 4 hours</p>
 
-<h2>Final Project: Chess</h2>
+<h2>1. Bubble Sort</h2>
 
-<p>You've come a long way.  Now it's time to prove how much you know.</p>
+<p>Sorting algorithms are some of the earliest that you typically get exposed to in Computer Science.  It may not be immediately obvious how important they are, but it shouldn't be hard to think of some examples where your computer needs to sort some massive datasets during everyday operations.</p>
 
-<p>Chess is a classic game that appears very complicated at first but can be broken down into logical steps that make it a great Ruby capstone project.  If you've never played, be sure to read up on the rules (see the <a href="http://en.wikipedia.org/wiki/Chess">Wikipedia Page</a>) first.</p>
+<p>One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is <strong>bubble sort</strong>, where each element is compared to the one next to it and they are swapped if the one on the right is larger than the one on the left.  This continues until the array is eventually sorted.</p>
 
-<p>The problem specification is deliberately sparse for this -- it's up to you to attack the problem with very little prior information or structure... it's good practice for real world programming challenges.</p>
+<p>Check out <a href="http://cs50.tv/2012/fall/shorts/bubble_sort/bubble_sort-720p.mp4">this video from Harvard's CS50x on Bubble Sort</a>.</p>
+
+<p>There's also <a href="http://en.wikipedia.org/wiki/Bubble_sort">an entry on Bubble Sort on Wikipedia</a> that's worth taking a look at.</p>
+
+<p><img src="images/Bubble-sort-example-300px.gif" alt="Bubble Sort" /></p>
 
 <h3>Your Task</h3>
 
 <ol>
-<li>Build a command line Chess game where two players can play against each other.</li>
-<li>Write tests for the important parts.  You don't need to TDD it (unless you want to), but be sure to use RSpec tests for anything that you find yourself typing into the command line repeatedly.</li>
-<li>Do your best to keep your classes modular and clean and your methods doing only one thing each.  This is the largest program that you've written, so you'll definitely start to see the benefits of good organization (and testing) when you start running into bugs.</li>
-<li>Have fun!  Check out the <a href="http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode">unicode characters</a> for a little spice for your gameboard.</li>
+<li><p>Build a method <code>bubble_sort</code> that takes an array and returns a sorted array.  It must use the bubble sort methodology (using <code>sort</code> would be pretty pointless, wouldn't it?).</p>
+
+<pre><code> &gt; bubble_sort([4,3,78,2,0,2])
+ =&gt; [0,2,2,3,4,78]
+</code></pre></li>
+<li><p>Now create a similar method called <code>bubble_sort_by</code> which sorts an array but accepts a block.  The block should take two arguments which represent the two elements currently being compared.  Expect that the block's return will be similar to the spaceship operator you learned about before -- if the result of the block is negative, the element on the left is "smaller" than the element on the right.  <code>0</code> means they are equal.  A positive result means the right element is greater.  Use this to sort your array.</p>
+
+<pre><code> &gt; bubble_sort_by(["hi","hello","hey"]) do |left,right|
+ &gt;   right.length - left.length
+ &gt; end
+ =&gt; ["hi", "hey", "hello"]
+</code></pre></li>
 </ol>
 
 
-<p><strong>Student Solutions</strong></p>
+<h2>2. Enumerable Methods</h2>
 
-<p><em>Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the <a href="/contributing.md">contributing page</a>.  Please include your partner's github handle somewhere in the description if they would like attribution.</em></p>
+<p>You learned about the Enumerable module that get mixed in to the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.</p>
 
-<ul>
-<li><em>Your Solution Here!</em></li>
-<li></li>
-</ul>
+<h3>Your Task</h3>
+
+<ol>
+<li>Create a script file to house your methods and run it in IRB to test them later.</li>
+<li>Create <code>my_each</code>, a method that is identical to <code>each</code> but (obviously) does not use <code>each</code>.  Make sure it returns the same thing as well.</li>
+<li>Create <code>my_each_with_index</code> in the same way.</li>
+<li>Create <code>my_select</code> in the same way, though you may use <code>my_each</code> in your definition.</li>
+<li>Create <code>my_all?</code> (continue as above)</li>
+<li>Create <code>my_any?</code></li>
+<li>Create <code>my_none?</code></li>
+<li>Create <code>my_count</code></li>
+<li>Create <code>my_map</code></li>
+<li>Create <code>my_inject</code></li>
+<li>Test your <code>my_inject</code> by creating a method called <code>multiply_els</code> which multiplies all the elements of the array together by using <code>my_inject</code>, e.g. <code>multiply_els([2,4,5]) #=&gt; 40</code></li>
+<li>Modify your <code>my_map</code> method to take a proc instead.</li>
+<li>Modify your <code>my_map</code> method to take either a proc or a block, executing the block only if both are supplied.</li>
+</ol>
 
 
-<p><em>How long did these projects take you?  <a href="mailto:curriculum@theodinproject.com">Let us know!</a></em></p>
-
-<h2>Additional Resources:</h2>
-
-<ul>
-<li></li>
-<li></li>
-</ul>
-
+<p><strong>Quick Tips:</strong>
+* Remember your <code>yield</code> and <code>call</code> methods.</p>
 
           </div>
         </div>
@@ -80,7 +98,7 @@
 
 <ol>
   <li>
-    <a href="http://theodinproject.github.io/curriculum/">
+    <a href="http://theodinproject.github.io/curriculum/dir/">
       Introduction
     </a>
   </li>
@@ -224,7 +242,7 @@
       </li>
       <li>
         <a href="http://theodinproject.github.io/curriculum/dir/web_development_basics/finish.html">
-          Finish2
+          Finish
         </a>
       </li>
     </ol>
@@ -233,6 +251,123 @@
     <a href="http://theodinproject.github.io/curriculum/dir/ruby">
       Ruby
     </a>
+    <ol>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/">
+          Basic Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/building_blocks.html">
+              Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/project_building_blocks.html">
+              Project: Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/advanced_building_blocks.html">
+              Advanced Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/project_advanced_building_blocks.html">
+              Project: Advanced Building Blocks
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/">
+          Intermediate Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/oop.html">
+              Object Oriented Programming
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/project_oop.html">
+              Project: OOP
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/serialization.html">
+              File I/O and Serialization
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/project_file_io.html">
+              Project: File I/O and Serialization
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/ruby_on_the_web/">
+          Ruby on the Web
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/ruby_on_the_web/project_web.html">
+              Project: Ruby on the Web
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/">
+          Computer Science-y Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/recursion.html">
+              Recursion
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/project_recursion.html">
+              Project: Recursion
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/data_structures_algorithms.html">
+              Data Structures and Algorithms
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/project_data_structures_algorithms.html">
+              Project: Data Structures and Algorithms
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/testing_ruby/">
+          Testing Ruby with RSpec
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/testing_ruby/project_testing.html">
+              Project: Testing Ruby
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/project_final.html">
+          Ruby Final Project
+        </a>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/finish.html">
+          Finale
+        </a>
+      </li>
+    </ol>
   </li>
   <li>
     <a href="http://theodinproject.github.io/curriculum/dir/git/">

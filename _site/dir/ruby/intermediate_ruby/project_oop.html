@@ -31,63 +31,65 @@
         <div class="col-md-8" id="content">
           <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-              <h1>Pair Project: Flow Control, Iteration, Closures and Enumerable</h1>
+              <h1>Pair Project: OOP with Ruby</h1>
 
-<h2>1. Bubble Sort</h2>
+<p>Estimated Time: 6-8 hours</p>
 
-<p>Sorting algorithms are some of the earliest that you typically get exposed to in Computer Science.  It may not be immediately obvious how important they are, but it shouldn't be hard to think of some examples where your computer needs to sort some massive datasets during everyday operations.</p>
+<h2>1. Tic Tac Toe</h2>
 
-<p>One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is <strong>bubble sort</strong>, where each element is compared to the one next to it and they are swapped if the one on the right is larger than the one on the left.  This continues until the array is eventually sorted.</p>
+<p>Remember Tic Tac Toe (see <a href="http://en.wikipedia.org/wiki/Tic-tac-toe">Wikipedia</a> if you haven't)?  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!</p>
 
-<p>Check out <a href="http://cs50.tv/2012/fall/shorts/bubble_sort/bubble_sort-720p.mp4">this video from Harvard's CS50x on Bubble Sort</a>.</p>
+<h3>Your Task:</h3>
 
-<p>There's also <a href="http://en.wikipedia.org/wiki/Bubble_sort">an entry on Bubble Sort on Wikipedia</a> that's worth taking a look at.</p>
-
-<p><img src="images/Bubble-sort-example-300px.gif" alt="Bubble Sort" /></p>
-
-<h3>Your Task</h3>
+<p>Build a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns.</p>
 
 <ol>
-<li><p>Build a method <code>bubble_sort</code> that takes an array and returns a sorted array.  It must use the bubble sort methodology (using <code>sort</code> would be pretty pointless, wouldn't it?).</p>
-
-<pre><code> &gt; bubble_sort([4,3,78,2,0,2])
- =&gt; [0,2,2,3,4,78]
-</code></pre></li>
-<li><p>Now create a similar method called <code>bubble_sort_by</code> which sorts an array but accepts a block.  The block should take two arguments which represent the two elements currently being compared.  Expect that the block's return will be similar to the spaceship operator you learned about before -- if the result of the block is negative, the element on the left is "smaller" than the element on the right.  <code>0</code> means they are equal.  A positive result means the right element is greater.  Use this to sort your array.</p>
-
-<pre><code> &gt; bubble_sort_by(["hi","hello","hey"]) do |left,right|
- &gt;   right.length - left.length
- &gt; end
- =&gt; ["hi", "hey", "hello"]
-</code></pre></li>
+<li>Think about how you would set up the different elements within the game... What should be a class? Instance variable?  Method? A few minutes of thought can save you from wasting an hour of coding.</li>
+<li>Build your game, taking care to not share information between classes any more than you have to.</li>
+<li>Post your solution below, then check out the example solution provided.</li>
 </ol>
 
 
-<h2>2. Enumerable Methods</h2>
+<p><strong>Student Solutions</strong></p>
 
-<p>You learned about the Enumerable module that get mixed in to the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.</p>
+<p><em>Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the <a href="/contributing.md">contributing page</a>.  Please include your partner's github handle somewhere in the description if they would like attribution.</em></p>
+
+<ul>
+<li>An <a href="http://rosettacode.org/wiki/Tic-tac-toe#Ruby">example solution on RosettaCode.org</a></li>
+<li><em>Your Solution Here!</em></li>
+<li></li>
+</ul>
+
+
+<h2>2. Mastermind</h2>
+
+<p>If you've never played Mastermind, a game where you have to guess your opponent's secret code within a certain number of turns (like hangman with colored pegs), check it out on <a href="http://en.wikipedia.org/wiki/Mastermind_(board_game)">Wikipedia</a>.  Each turn you get some feedback about how good your guess was -- whether it was exactly correct or just the correct color but in the wrong space.</p>
 
 <h3>Your Task</h3>
 
+<p>Build a Mastermind game from the command line where you have 12 turns to guess the secret code, starting with you guessing the computer's random code.</p>
+
 <ol>
-<li>Create a script file to house your methods and run it in IRB to test them later.</li>
-<li>Create <code>my_each</code>, a method that is identical to <code>each</code> but (obviously) does not use <code>each</code>.  Make sure it returns the same thing as well.</li>
-<li>Create <code>my_each_with_index</code> in the same way.</li>
-<li>Create <code>my_select</code> in the same way, though you may use <code>my_each</code> in your definition.</li>
-<li>Create <code>my_all?</code> (continue as above)</li>
-<li>Create <code>my_any?</code></li>
-<li>Create <code>my_none?</code></li>
-<li>Create <code>my_count</code></li>
-<li>Create <code>my_map</code></li>
-<li>Create <code>my_inject</code></li>
-<li>Test your <code>my_inject</code> by creating a method called <code>multiply_els</code> which multiplies all the elements of the array together by using <code>my_inject</code>, e.g. <code>multiply_els([2,4,5]) #=&gt; 40</code></li>
-<li>Modify your <code>my_map</code> method to take a proc instead.</li>
-<li>Modify your <code>my_map</code> method to take either a proc or a block, executing the block only if both are supplied.</li>
+<li>Think about how you would set this problem up!</li>
+<li>Build the game assuming the computer randomly selects the secret colors and the human player must guess them.  Remember that you need to give the proper feedback on how good the guess was each turn!</li>
+<li>Now refactor your code to allow the human player to choose whether she wants to be the creator of the secret code or the guesser.</li>
+<li>Build it out so that the computer will guess if you decide to choose your own secret colors.  Start by having the computer guess randomly (but keeping the ones that match exactly).</li>
+<li>Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.</li>
+<li>Post your solution below!</li>
 </ol>
 
 
-<p><strong>Quick Tips:</strong>
-* Remember your <code>yield</code> and <code>call</code> methods.</p>
+<p><strong>Student Solutions</strong></p>
+
+<p><em>Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the <a href="/contributing.md">contributing page</a>.  Please include your partner's github handle somewhere in the description if they would like attribution.</em></p>
+
+<ul>
+<li><em>Your Solution Here!</em></li>
+<li></li>
+</ul>
+
+
+<p><em>How long did these projects take you?  <a href="mailto:curriculum@theodinproject.com">Let us know!</a></em></p>
 
           </div>
         </div>
@@ -96,7 +98,7 @@
 
 <ol>
   <li>
-    <a href="http://theodinproject.github.io/curriculum/">
+    <a href="http://theodinproject.github.io/curriculum/dir/">
       Introduction
     </a>
   </li>
@@ -240,7 +242,7 @@
       </li>
       <li>
         <a href="http://theodinproject.github.io/curriculum/dir/web_development_basics/finish.html">
-          Finish2
+          Finish
         </a>
       </li>
     </ol>
@@ -249,6 +251,123 @@
     <a href="http://theodinproject.github.io/curriculum/dir/ruby">
       Ruby
     </a>
+    <ol>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/">
+          Basic Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/building_blocks.html">
+              Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/project_building_blocks.html">
+              Project: Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/advanced_building_blocks.html">
+              Advanced Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/basic_ruby/project_advanced_building_blocks.html">
+              Project: Advanced Building Blocks
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/">
+          Intermediate Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/oop.html">
+              Object Oriented Programming
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/project_oop.html">
+              Project: OOP
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/serialization.html">
+              File I/O and Serialization
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/intermediate_ruby/project_file_io.html">
+              Project: File I/O and Serialization
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/ruby_on_the_web/">
+          Ruby on the Web
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/ruby_on_the_web/project_web.html">
+              Project: Ruby on the Web
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/">
+          Computer Science-y Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/recursion.html">
+              Recursion
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/project_recursion.html">
+              Project: Recursion
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/data_structures_algorithms.html">
+              Data Structures and Algorithms
+            </a>
+          </li>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/cs_topics_in_ruby/project_data_structures_algorithms.html">
+              Project: Data Structures and Algorithms
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/testing_ruby/">
+          Testing Ruby with RSpec
+        </a>
+        <ol>
+          <li>
+            <a href="http://theodinproject.github.io/curriculum/dir/ruby/testing_ruby/project_testing.html">
+              Project: Testing Ruby
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/project_final.html">
+          Ruby Final Project
+        </a>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/ruby/finish.html">
+          Finale
+        </a>
+      </li>
+    </ol>
   </li>
   <li>
     <a href="http://theodinproject.github.io/curriculum/dir/git/">
