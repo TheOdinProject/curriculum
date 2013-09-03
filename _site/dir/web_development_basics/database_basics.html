@@ -31,75 +31,40 @@
         <div class="col-md-8" id="content">
           <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-              <h1>Web Development 101</h1>
+              <h3>Databases</h3>
 
-<p>Total Estimated Time: 60-90 hrs</p>
+<p>Estimated Time: ??? hrs</p>
 
-<p><em><a href="/README.md">Top level table of contents</a></em></p>
+<h4>You should know:</h4>
 
-<h2>Table of Contents</h2>
+<ul>
+<li>What is a database?</li>
+<li>What are relational databases?</li>
+<li>How are relational databases different from XML?</li>
+<li>What is SQL?</li>
+<li>What does CRUD stand for?</li>
+<li>Why is CRUD so important for web apps?</li>
+</ul>
 
-<ol>
-<li><a href="#intro">Intro</a></li>
-<li><a href="#how-does-the-web-work">How Does the Web Work?</a></li>
-<li><a href="#step-back-how-does-your-computer-work">Step Back... How Does Your Computer Work?</a></li>
-<li><a href="#terms-to-know">Terms to Know</a></li>
-<li><a href="#web-programming-basics">Web Programming Basics</a>
 
-<ol>
-<li><a href="#front-end-basics">Front End Basics</a>
+<p>We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is CatLover1985 so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.</p>
 
-<ol>
-<li>HTML/CSS</li>
-<li>Project: HTML/CSS</li>
-<li>Javascript and jQuery</li>
-<li>Project: JS/jQuery</li>
-</ol>
-</li>
-<li><a href="#back-end-basics">Back End Basics</a>
+<p>Databases are one of those aspects of web programming that are kind of hidden in the back and so people treat them with a sort of suspicion and awe.  That's nonsense and you should get over it -- your database and you are going to become very good friends (or frenemies).  By the end of this curriculum, you're going to understand what's going on with your databases and be able to interact with them like a pro (and probably better than some people you'll work with).</p>
+
+<p>Compared to a normal language, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on.</p>
+
+<h5>Assignment:</h5>
 
 <ol>
-<li>Ruby</li>
-<li>Project: Ruby</li>
-</ol>
-</li>
-<li><a href="#databases">Databases</a></li>
-<li><a href="#frameworks">Frameworks</a>
-
-<ol>
-<li>Ruby on Rails</li>
-<li>Project: Rails</li>
-<li>Backbone.js</li>
-</ol>
-</li>
-<li><a href="#tying-it-all-together">Tying it All Together</a></li>
-<li><a href="#additional-important-topics">Additional Important Topics</a></li>
-</ol>
-</li>
-<li><a href="#how-are-websites-built">How Are Websites Built?</a></li>
-<li><a href="#principles-of-good-programming">Principles of Good Programming</a></li>
-<li><a href="#other-dumb-or-frequently-asked-questions-answered">Other "Dumb" Questions Answered</a></li>
-<li><a href="#finish">Finish</a></li>
+<li>Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at <a href="http://sql.learncodethehardway.org/book/introduction.html">Learn SQL The Hard Way</a>.</li>
+<li>Sign up for Coursera's <a href="https://class.coursera.org/db/lecture/index">Intro to Databases</a> course and watch the lectures on Relational Databases and SQL (~3 hrs).  You can save the sections in between (relational algebra, XML, JSON) for extra credit (things get a bit technical there).</li>
+<li>Do the <a href="https://class.coursera.org/db/quiz/index">Automated Assignments</a> for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.</li>
 </ol>
 
 
-<p><strong>Jump to Mini-Projects</strong> (good for pairing)
-* HTML/CSS: <a href="#htmlcss-mini-project">Google Rebuild</a>
-* Javascript: <a href="#jsjquery-mini-project">Sketch Pad</a>
-* Ruby: <a href="#ruby-mini-project">Test First Ruby</a>
-* Rails: <a href="#rails-mini-project">Blogger Tutorial</a></p>
+<h4>Additional Resources:</h4>
 
-<h2>Intro</h2>
-
-<p>Now that you know <a href="/becoming_a_web_developer/becoming_a_web_developer.md">what web developers do</a>, it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.</p>
-
-<p>Each of the following sections represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  We will start by familiarizing you with the internet and your own computer.  You will then learn the basics of front end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray into Ruby and Ruby on Rails.  We will finish by learning about databases and topics like git workflows and software in the cloud.</p>
-
-<p>By the end of this unit, you should not only understand how the web works, but be able to identify and differentiate each of the technologies that you will be learning in order to build web applications of your own.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.</p>
-
-<p>We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  Each section will contain questions that you'd better be able to answer before moving on.  For the first time, some of the sections below will ask you to do exercises and even a couple of mini projects to help build your understanding.  While most of this material should be fine to tackle on your own, the projects in particular can be useful ones to find a partner and pair up on.  Give it a shot!</p>
-
-<p>Final note: Please <a href="mailto:curriculum@theodinproject.com">let us know</a> how long these sections take you so we can provide more accurate time estimates to future students.</p>
+<p>Do you know of a good plain-english explanation of databases? <a href="mailto:curriculum@theodinproject.com">Email us</a> or <a href="https://help.github.com/articles/fork-a-repo">fork</a>, add it here, then <a href="https://help.github.com/articles/using-pull-requests">submit a pull request</a>.</p>
 
           </div>
         </div>

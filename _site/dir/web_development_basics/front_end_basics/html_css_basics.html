@@ -31,75 +31,51 @@
         <div class="col-md-8" id="content">
           <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-              <h1>Web Development 101</h1>
+              <h4>HTML and CSS 101</h4>
 
-<p>Total Estimated Time: 60-90 hrs</p>
+<p>Estimated Time: 6-10 hrs</p>
 
-<p><em><a href="/README.md">Top level table of contents</a></em></p>
+<h5>You Will Need To Understand (at least):</h5>
 
-<h2>Table of Contents</h2>
+<ul>
+<li>Why do we separate HTML and CSS?</li>
+<li>What are classes and IDs (and how are they different)?</li>
+<li>What are elements?</li>
+<li>What are tags?</li>
+<li>What are attributes?</li>
+<li>What are forms?</li>
+<li>What is a div?</li>
+<li>What are selectors?</li>
+<li>What are properties?</li>
+<li>What are values?</li>
+<li>What is the Query String in a URL and what does it do?</li>
+<li>What is the difference between pixels and ems?</li>
+<li>How do CSS styles for a particular element get inherited?  ie. how does an element get its "default" styles?</li>
+<li>What are two CSS attributes you can change to push a tag around on the page?</li>
+<li>What are the three different ways to include CSS in your project or use CSS to style a particular element?</li>
+<li>What is the default stylesheet?</li>
+<li>Why use a CSS reset file?</li>
+</ul>
+
+
+<p>As you've hopefully <a href="http://www.skillcrush.com/terms/html.html">learned before</a>, HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page lives inside HTML tags that tell your browser how to order the content on the page.  <a href="http://www.skillcrush.com/terms/css.html">CSS</a> tells the browser if you want to display any of those tags a particular way like, for instance, turning its background blue and pushing it a little to the left.</p>
+
+<h5>Assignment:</h5>
 
 <ol>
-<li><a href="#intro">Intro</a></li>
-<li><a href="#how-does-the-web-work">How Does the Web Work?</a></li>
-<li><a href="#step-back-how-does-your-computer-work">Step Back... How Does Your Computer Work?</a></li>
-<li><a href="#terms-to-know">Terms to Know</a></li>
-<li><a href="#web-programming-basics">Web Programming Basics</a>
+<li>Do the <a href="http://www.codecademy.com/tracks/web">Codecademy HTML/CSS track</a> for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.</li>
+<li>Build the Android logo using just HTML and CSS by watching <a href="http://thecodeplayer.com/walkthrough/css3-android-logo">this video</a> from an amazing website called <a href="http://thecodeplayer.com/walkthrough/css3-android-logo">The Code Player</a>, which is like a tutorial but it actually plays the code as the original developer created it.  Use JSFiddle or your own text editor to create the logo alongside the tutorial.
 
-<ol>
-<li><a href="#front-end-basics">Front End Basics</a>
-
-<ol>
-<li>HTML/CSS</li>
-<li>Project: HTML/CSS</li>
-<li>Javascript and jQuery</li>
-<li>Project: JS/jQuery</li>
-</ol>
+<ul>
+<li>Note: You will see <code>border-radius</code>, <code>-moz-border-radius</code>, and <code>-webkit-border-radius</code> all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use <code>border-radius</code> to achieve the desired effect.</li>
+</ul>
 </li>
-<li><a href="#back-end-basics">Back End Basics</a>
-
-<ol>
-<li>Ruby</li>
-<li>Project: Ruby</li>
-</ol>
-</li>
-<li><a href="#databases">Databases</a></li>
-<li><a href="#frameworks">Frameworks</a>
-
-<ol>
-<li>Ruby on Rails</li>
-<li>Project: Rails</li>
-<li>Backbone.js</li>
-</ol>
-</li>
-<li><a href="#tying-it-all-together">Tying it All Together</a></li>
-<li><a href="#additional-important-topics">Additional Important Topics</a></li>
-</ol>
-</li>
-<li><a href="#how-are-websites-built">How Are Websites Built?</a></li>
-<li><a href="#principles-of-good-programming">Principles of Good Programming</a></li>
-<li><a href="#other-dumb-or-frequently-asked-questions-answered">Other "Dumb" Questions Answered</a></li>
-<li><a href="#finish">Finish</a></li>
+<li>Learn about basic forms from <a href="http://teamtreehouse.com/library/websites/html/forms/inputs">this Treehouse video</a> and use <a href="http://www.w3schools.com/html/html_forms.asp">this w3 page</a> as a reference.</li>
+<li>Optional: Learn about your browser's default stylesheet and CSS resets <a href="http://www.youtube.com/watch?v=KGzsRiAXVbA">in this video</a>.  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.</li>
 </ol>
 
 
-<p><strong>Jump to Mini-Projects</strong> (good for pairing)
-* HTML/CSS: <a href="#htmlcss-mini-project">Google Rebuild</a>
-* Javascript: <a href="#jsjquery-mini-project">Sketch Pad</a>
-* Ruby: <a href="#ruby-mini-project">Test First Ruby</a>
-* Rails: <a href="#rails-mini-project">Blogger Tutorial</a></p>
-
-<h2>Intro</h2>
-
-<p>Now that you know <a href="/becoming_a_web_developer/becoming_a_web_developer.md">what web developers do</a>, it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.</p>
-
-<p>Each of the following sections represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  We will start by familiarizing you with the internet and your own computer.  You will then learn the basics of front end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray into Ruby and Ruby on Rails.  We will finish by learning about databases and topics like git workflows and software in the cloud.</p>
-
-<p>By the end of this unit, you should not only understand how the web works, but be able to identify and differentiate each of the technologies that you will be learning in order to build web applications of your own.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.</p>
-
-<p>We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  Each section will contain questions that you'd better be able to answer before moving on.  For the first time, some of the sections below will ask you to do exercises and even a couple of mini projects to help build your understanding.  While most of this material should be fine to tackle on your own, the projects in particular can be useful ones to find a partner and pair up on.  Give it a shot!</p>
-
-<p>Final note: Please <a href="mailto:curriculum@theodinproject.com">let us know</a> how long these sections take you so we can provide more accurate time estimates to future students.</p>
+<p>Want to help? <a href="mailto:curriculum@theodinproject.com">Tell us</a> how long that course took and how we can make it more complete so we can let others know!</p>
 
           </div>
         </div>

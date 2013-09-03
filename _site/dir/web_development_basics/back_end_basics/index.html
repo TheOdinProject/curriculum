@@ -31,75 +31,32 @@
         <div class="col-md-8" id="content">
           <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-              <h1>Web Development 101</h1>
+              <h3>Back End Basics</h3>
 
-<p>Total Estimated Time: 60-90 hrs</p>
+<p>Total Estimated Time: 20-30 hrs</p>
 
-<p><em><a href="/README.md">Top level table of contents</a></em></p>
+<p>The three languages of the front end are fairly standardized -- HTML for presentation, CSS for markup, and Javascript for scripting.  The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on you user's browser understanding what's going on.  All the browser cares about is whether you've sent it properly formatted HTML, CSS and Javascript files (and other assets like images).  That's led to a whole lot of different choices for back-end languages.  As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.</p>
 
-<h2>Table of Contents</h2>
+<p>That said, some languages are more popular and practical than others.  If you're running your own server, you have a ton of flexibility but plenty of headaches.  If you're deploying to the cloud (which we will be doing later), you may be restricted to those languages which your cloud provider has installed on their platform... it doesn't do you much good if the servers you're "borrowing" from them can't understand your code!  Some of the most popular are PHP, ASP.NET, Ruby, Python and Java (not to be confused with Javascript).  And just like I can say "which way to the nearest pub?" in Swedish, French, Italian, English and Bad English, all of those languages can perform almost exactly the same functions.</p>
 
-<ol>
-<li><a href="#intro">Intro</a></li>
-<li><a href="#how-does-the-web-work">How Does the Web Work?</a></li>
-<li><a href="#step-back-how-does-your-computer-work">Step Back... How Does Your Computer Work?</a></li>
-<li><a href="#terms-to-know">Terms to Know</a></li>
-<li><a href="#web-programming-basics">Web Programming Basics</a>
+<p>One difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.</p>
+
+<h5>Assignment:</h5>
 
 <ol>
-<li><a href="#front-end-basics">Front End Basics</a>
-
-<ol>
-<li>HTML/CSS</li>
-<li>Project: HTML/CSS</li>
-<li>Javascript and jQuery</li>
-<li>Project: JS/jQuery</li>
-</ol>
-</li>
-<li><a href="#back-end-basics">Back End Basics</a>
-
-<ol>
-<li>Ruby</li>
-<li>Project: Ruby</li>
-</ol>
-</li>
-<li><a href="#databases">Databases</a></li>
-<li><a href="#frameworks">Frameworks</a>
-
-<ol>
-<li>Ruby on Rails</li>
-<li>Project: Rails</li>
-<li>Backbone.js</li>
-</ol>
-</li>
-<li><a href="#tying-it-all-together">Tying it All Together</a></li>
-<li><a href="#additional-important-topics">Additional Important Topics</a></li>
-</ol>
-</li>
-<li><a href="#how-are-websites-built">How Are Websites Built?</a></li>
-<li><a href="#principles-of-good-programming">Principles of Good Programming</a></li>
-<li><a href="#other-dumb-or-frequently-asked-questions-answered">Other "Dumb" Questions Answered</a></li>
-<li><a href="#finish">Finish</a></li>
+<li>Go to the <a href="/installations/installations.md">Installations Unit</a> and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.</li>
 </ol>
 
 
-<p><strong>Jump to Mini-Projects</strong> (good for pairing)
-* HTML/CSS: <a href="#htmlcss-mini-project">Google Rebuild</a>
-* Javascript: <a href="#jsjquery-mini-project">Sketch Pad</a>
-* Ruby: <a href="#ruby-mini-project">Test First Ruby</a>
-* Rails: <a href="#rails-mini-project">Blogger Tutorial</a></p>
+<h5>Additional Resources</h5>
 
-<h2>Intro</h2>
+<ul>
+<li>The Railsbridge <a href="http://curriculum.railsbridge.org/ruby/">Ruby curriculum</a>.</li>
+<li>Textbook: Peter Cooper's <a href="http://www.amazon.com/books/dp/1590597664">Beginning Ruby</a> chapters 1-8 will cover the material in greater depth than you really need to just yet but may help you shore up some of the concepts.</li>
+<li>See the <a href="http://pragtob.github.io/rails-beginner-cheatsheet/index.html">Rails Beginner Cheat Sheet</a> for a condensed list of common commands and concepts.</li>
+<li>Read <a href="http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/">Smashing Magazine's Intro to Ruby article</a> for another good beginner-level treatment of the language as a whole.</li>
+</ul>
 
-<p>Now that you know <a href="/becoming_a_web_developer/becoming_a_web_developer.md">what web developers do</a>, it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.</p>
-
-<p>Each of the following sections represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  We will start by familiarizing you with the internet and your own computer.  You will then learn the basics of front end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray into Ruby and Ruby on Rails.  We will finish by learning about databases and topics like git workflows and software in the cloud.</p>
-
-<p>By the end of this unit, you should not only understand how the web works, but be able to identify and differentiate each of the technologies that you will be learning in order to build web applications of your own.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.</p>
-
-<p>We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  Each section will contain questions that you'd better be able to answer before moving on.  For the first time, some of the sections below will ask you to do exercises and even a couple of mini projects to help build your understanding.  While most of this material should be fine to tackle on your own, the projects in particular can be useful ones to find a partner and pair up on.  Give it a shot!</p>
-
-<p>Final note: Please <a href="mailto:curriculum@theodinproject.com">let us know</a> how long these sections take you so we can provide more accurate time estimates to future students.</p>
 
           </div>
         </div>
