@@ -26,6 +26,21 @@ nav:
     -
       - "Web Development 101"
       - "/dir/web_development_basics"
+    -
+      - "How Does the Web Work?"
+      - "/dir/web_development_basics/how_does_the_web_work.html"
+    -
+      - "How Does Your Computer Work?"
+      - "/dir/web_development_basics/how_does_your_computer_work.html"
+    -
+      - "Terms To Know"
+      - "dir/web_development_basics/terms_to_know.html"
+    -
+      - "Web Programming Basics"
+      - "dir/web_development_basics/web_programming_basics.html"
+    -
+      - "And so on.............."
+      - " "
   -  # Ruby
     - 
       - Ruby

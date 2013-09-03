@@ -1,0 +1,104 @@
+<h1>Roadmap</h1>
+<ol>
+  <li>
+    MY URL IS: {{ site.url }}
+  </li> 
+  {% for dir in site.nav %}
+    {% for subdir in dir %}
+      {% if subdir == dir[0] %} <!-- Get top level heading -->
+        <li>
+          <a href="{{ site.url }}{{ subdir[1] }}">{{ subdir[0] }}</a>
+        </li>
+        <ul>
+      {% else %} <!-- Get other headings -->
+        <li>
+          <a href="{{ site.url }}{{ subdir[1] }}">{{ subdir[0] }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul> 
+  {% endfor %}
+</ol>
+<br>
+<br>
+NEW DIRECTORY STARTS HERE:
+<br>
+<br>
+<ol>
+  <li>
+    <a href="/">
+      Introduction
+    </a>
+  </li>
+  <li>
+    <a href="/dir/becoming_a_web_developer/">
+      About Web Developers
+    </a>
+  </li>
+  <li>
+    <a href="/dir/installations/">
+      Installations
+    </a>
+  </li>
+  <li>
+    <a href="/dir/pairing/">
+      Pair Programming
+    </a>
+  </li>
+  <li>
+    <a href="/dir/web_development_basics/">
+      Web Development 101
+    </a>
+  </li>
+  <li>
+    <a href="/dir/ruby">
+      Ruby
+    </a>
+  </li>
+  <li>
+    <a href="/dir/git/">
+      Git (Coming Soon!)
+    </a>
+  </li>
+  <li>
+    <a href="/dir/databases/">
+      Databases (Coming Soon!)
+    </a>
+  </li>
+  <li>
+    <a href="/dir/rails/">
+      Ruby on Rails
+    </a>
+  </li>
+  <li>
+    <a href="/dir/html_css/">
+      HTML and CSS
+    </a>
+  </li>
+  <li>
+    <a href="/dir/javascript/">
+      Javascript
+    </a>
+  </li>
+  <li>
+    <a href="/dir/tying_it_all_together/">
+      Tying It All Together
+    </a>
+  </li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
