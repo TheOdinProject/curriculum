@@ -1,10 +1,10 @@
 ---
 layout: 'content'
 ---
-# Pair Project: Basic Data Structures and Algorithms
+# Projects: Basic Data Structures and Algorithms
 Estimated Time: 5-7 hours
 
-## 1. Searching Binary Trees
+## Project 1: Searching Binary Trees
 
 You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".
 
@@ -23,13 +23,13 @@ You'll build a simple binary tree data structure from some arbitrary input and t
     1. You can think of the `dfs_rec` method as a little robot that crawls down the tree, checking if a node is the correct node and spawning other little robots to keep searching the tree.  No robot is allowed to turn on, though, until all the robots to its left have finished their task.
     2. The method will need to take in both the target value and the current node to compare against.
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 
-## 2. Knight's Travails
+## Project 2: Knight's Travails
 
 Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a real problem.
 
@@ -55,7 +55,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 3. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like.
 
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

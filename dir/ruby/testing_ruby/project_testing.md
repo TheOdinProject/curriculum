@@ -1,7 +1,7 @@
 ---
 layout: 'content'
 ---
-# Pair Project: Testing Ruby with RSpec
+# Project: Testing Ruby with RSpec
 Estimated Time: 4-6 hours
 
 ## Warmup: Time Traveling
@@ -10,7 +10,7 @@ A good way to get familiar with and begin contributing to a new project is to wr
 
 ### Your Task
 
-1. Go back to the [Second Pair Project](basic_ruby_project_2.md) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.  
+1. Go back to the [Second Project](basic_ruby_project_2.md) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.  
 2. Write tests for your Tic Tac Toe project.  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  
     
     1. Start by writing tests to make sure a player wins when he or she should, e.g. when the board reads X X X across the top row, your game-over should be triggered.

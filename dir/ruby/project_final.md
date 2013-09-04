@@ -1,7 +1,8 @@
 ---
 layout: 'content'
 ---
-# Pair Project: Testing Ruby with RSpec
+
+# Project: Testing Ruby with RSpec
 Estimated Time: 12-18 hours
 
 ## Final Project: Chess

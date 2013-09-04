@@ -2,14 +2,12 @@
 layout: 'content'
 ---
 
-### 2. Advanced Building Blocks
+# Advanced Building Blocks
 *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*
-
-#### Intro
 
 This section gets more into the topics you may have been shakey on before.  It's definitely got some more meat to it than the previous one.  The Codecademy exercises are good for doing on your own because they give you all kinds of help with them.  
 
-#### Homework Assignment
+## Homework Assignment
 
 1. Do the [Codecademy Ruby sections 2-6](http://www.codecademy.com/tracks/ruby), including:
 
@@ -27,8 +25,8 @@ This section gets more into the topics you may have been shakey on before.  It's
         
 2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
 
-#### Test Yourself
+## Test Yourself
 
 Make sure you can do the [Beginner Ruby Quiz #2](http://www.codequizzes.com/topics/24/quizzes/76), [Quiz #3](http://www.codequizzes.com/topics/24/quizzes/77), [Quiz #4](http://www.codequizzes.com/topics/24/quizzes/78), and [Quiz #6](http://www.codequizzes.com/topics/24/quizzes/80) from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
 
-#### Additional Resources
+## Additional Resources

@@ -1,10 +1,10 @@
 ---
 layout: 'content'
 ---
-# Pair Project: Flow Control, Iteration, Closures and Enumerable
+# Projects: Flow Control, Iteration, Closures and Enumerable
 Estimated Time: 4 hours
 
-## 1. Bubble Sort
+## Project 1: Bubble Sort
 
 Sorting algorithms are some of the earliest that you typically get exposed to in Computer Science.  It may not be immediately obvious how important they are, but it shouldn't be hard to think of some examples where your computer needs to sort some massive datasets during everyday operations.
 
@@ -29,7 +29,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
         > end
         => ["hi", "hey", "hello"]
 
-## 2. Enumerable Methods
+## Project 2: Enumerable Methods
 
 You learned about the Enumerable module that get mixed in to the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
 

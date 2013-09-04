@@ -1,10 +1,8 @@
 ---
 layout: 'content'
 ---
-# Pair Project: Serialization and Working with Files
+# Project: Serialization and Working with Files
 Estimated Time: 4-6 hours
-
-*[Return to Ruby](ruby.md)*
 
 ## Warmup: Event Manager
 
@@ -13,6 +11,14 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 ### Your Task
 
 1. [This tutorial from Jumpstart Lab](http://tutorials.jumpstartlab.com/projects/eventmanager.html) walks you through just that sort of operation. Give it a shot.
+
+### Student Solutions
+
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+
+* *Your Solution Here!*
+* 
+
 
 
 ## Project: Hangman
@@ -31,7 +37,7 @@ You will be building a simple command line Hangman game where one player plays a
 4. When the program first loads, add in an option that allows you to open one of your saved games, which should jump you exactly back to where you were when you saved.  Play on!
 
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

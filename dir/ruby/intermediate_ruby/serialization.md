@@ -2,8 +2,7 @@
 layout: 'content'
 ---
 
-### 1. Working with Files and Serializing Data
-#### Intro
+# Working with Files and Serializing Data
 
 Until now you've mostly been working with self-contained command line programs.  It's time to start branching out and interacting with files.  Files are basically just collections of bits and bytes that you'll somehow need to open, read into your program, modify, and save.  Even though many files (like images) look like a giant jumble of data when you open them up in a text editor, it can be helpful to think of all files as one really long string, or stream, of bytes.  Your script will read them in from top to bottom, performing whatever operations you specify along the way.
 
@@ -15,12 +14,12 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 In this section, you'll get a good handle on these fundamental but important concepts, as well as a chance to flex your muscles and build something that uses each of them.
 
-#### Homework Assignment
+## Homework Assignment
 
 1. Refresh yourself on [Ruby Monk's section on the `File` class](http://rubymonk.com/learning/books/1/chapters/42-introduction-to-i-o/lessons/90-using-the-io-class) (it was part of the prep work!)
 2. Read through [Ruby Monk's section on Serializing](http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
 1. Read [Beginning Ruby](http://beginningruby.org/) Chapter 4: `Developing Your First Ruby Application` and follow along with the tutorial.
 2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 9: `Files and Databases`
 
-#### Test Yourself
+## Test Yourself
 TODO

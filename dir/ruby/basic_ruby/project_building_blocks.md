@@ -1,7 +1,7 @@
 ---
 layout: 'content'
 ---
-# Pair Project: Strings, Arrays and Hashes
+# Projects: Strings, Arrays and Hashes
 Estimated Time: 2 hours
 
 By now you should feel pretty good working with strings, arrays and hashes.  We'll do a couple of classic "intro to programming" problems here to help solidify your knowledge and get warmed up to working on small projects.  You'll need to rely on some of your basic knowledge of conditionals and flow control from the prep work but you shouldn't need to do anything you haven't seen before.
@@ -12,7 +12,7 @@ You can do these in IRB or create a separate script file to run from the command
 
 Build the simple [User Input Word Counter tutorial from Codecademy](http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1).
 
-## 1. Caesar Cipher
+## Project 1: Caesar Cipher
 
 From Wikipedia:
 
@@ -38,7 +38,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * Your Solution Here
 
 
-## 2. Stock Picker
+## Project 2: Stock Picker
 
 ### Your Task
 
@@ -57,7 +57,7 @@ Implement a method `stock_picker` that takes in an array of stock prices, one fo
 * Your Solution Here
 
 
-## 3. Substrings
+## Project 3: Substrings
 
 ### Your Task
 

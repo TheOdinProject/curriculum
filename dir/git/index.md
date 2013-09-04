@@ -47,7 +47,7 @@ In this section, we'll dive deeper than just the `$ git pull` and `$ git add .` 
 1. Read [Pro Git](http://git-scm.com/book) chapters 1-3
 2. Supplement your understanding with the first six videos from [Github's training screencasts](http://teach.github.com/articles/training-screencasts/) (up to and including pull requests)
 
-## PAIR PROJECT: Git Calisthenics
+## Project: Git Calisthenics
 
 ## Finale
 

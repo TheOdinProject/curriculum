@@ -1,10 +1,10 @@
 ---
 layout: 'content'
 ---
-# Pair Project: OOP with Ruby
+# Project: OOP with Ruby
 Estimated Time: 6-8 hours
 
-## 1. Tic Tac Toe
+## Project 1: Tic Tac Toe
 
 Remember Tic Tac Toe (see [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you haven't)?  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!
 
@@ -16,7 +16,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 2. Build your game, taking care to not share information between classes any more than you have to.
 3. Post your solution below, then check out the example solution provided.
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -25,7 +25,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * 
 
 
-## 2. Mastermind
+## Project 2: Mastermind
 
 If you've never played Mastermind, a game where you have to guess your opponent's secret code within a certain number of turns (like hangman with colored pegs), check it out on [Wikipedia](http://en.wikipedia.org/wiki/Mastermind_(board_game\)).  Each turn you get some feedback about how good your guess was -- whether it was exactly correct or just the correct color but in the wrong space.
 
@@ -40,7 +40,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 5. Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.
 5. Post your solution below!
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
