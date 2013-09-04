@@ -7,8 +7,17 @@ body{
 }
 
 p{
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+  line-height: 1.5em;
+}
+
+h1{
+  margin-bottom: 1em;
+}
+
+h2, h3, h4, h5{
+  margin-top: 1.5em;
 }
 
 #header_wrap h1{
@@ -23,7 +32,7 @@ p{
 }
 
 #sidebar{
-  font-family: courier, monospace;
+  font-size: 90%;
 }
 
 #forkme_banner {
