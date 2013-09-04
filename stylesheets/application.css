@@ -2,6 +2,13 @@
 
 body{
   background-color: #f9faf7;
+  font-size: 175%;
+  /*font-family: courier;*/
+}
+
+p{
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #header_wrap h1{

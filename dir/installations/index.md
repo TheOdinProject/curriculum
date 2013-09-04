@@ -22,34 +22,34 @@ A final note to Windows users -- you can install everything you need to but you'
 
 Luckily, it's all free.  A brief word about each item:
 
-#### Ruby
+### Ruby
 
 The Ruby interpreter is a program like any other and so you'll need to make sure it's installed on your computer and you've got the right version (there are some big differences between, say, version 1.8.7 and 1.9.3 or 2.x).
 
 
-#### Git
+### Git
 
 Git, the version-control system we've been talking about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.
 
-#### Heroku
+### Heroku
 
 Heroku is the cloud hosting service which we'll be using to take our web applications "live".  On the surface, it acts sort of similarly to Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your code, Heroku actually runs that code on a server for you so your application can be visited by users.  You'll want to make sure you've got a couple of helpful tools installed to make your life easier.
 
-#### Text Editor
+### Text Editor
 
 We recommend using a text editor like [Sublime Text 2](http://www.sublimetext.com/2) to make sure everyone's using basically the same type of text editor and you'll all be able to pair together without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.
 
 There's a [tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) that explains some of the awesomeness of Sublime Text 2 in depth.
 
-#### Ruby Gems
+### Ruby Gems
 
 There will be some Ruby gems (which are just prepackaged little libraries of code) to install to give you the tools necessary to talk to your database and install other gems easily in the future.
 
-#### Rails
+### Rails
 
 What about Rails?  Rails is actually a Ruby gem of its own since, as we've covered before, it's just a bunch of Ruby code prepackaged for you.
 
-#### Mac: XCode
+### Mac: XCode
 
 XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  It's also got some necessary command line tools you'll be using so you're probably going to have to install it all (it's a giant package).
 

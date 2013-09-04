@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Theodinproject.github.io : Curriculum" />
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/stylesheet.css"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/application.css">
+
+
+
+    <title>The Odin Project Curriculum</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+      <a id="forkme_banner" href="https://github.com/theodinproject/curriculum">View on GitHub</a>
+
+      <h1 id="project_title">Curriculum</h1>
+      <h2 id="project_tagline">The Open Curriculum for Learning Web Development</h2>
+
+    </header>
+    <hr>
+</div>
+      <div class="row">
+        <div class="col-md-8" id="content">
+          <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner">
+              <h1>So What Does a Web Developer Actually Do?</h1>
+
+<p>The short answer... they build and maintain websites.  But what exactly that looks like varies widely depending on the type of job the developer works at. The good part is that web developers are in high demand and so, though they work very hard, they're generally able to command comfortable salaries and healthy work/life balances.  It's a profession that rewards people who are natural problem solvers and who enjoy building things.</p>
+
+<p>A more detailed explanation, from <a href="http://degreedirectory.org/articles/What_Does_a_Web_Developer_Do.html">degreedictionary</a>:</p>
+
+<blockquote><p>Web Developer Job Duties</p>
+
+<p>Your job as a Web developer is to present your clients' products and services to a wide audience by creating attractive, functional websites. You will likely be asked to identify potential site users and design a website to appeal to these constituents. Your work may include meeting with clients to discuss their desires for a website or discuss how to keep their website functioning and up to date. You might construct the layout of a website, creating a visually interesting home page and user-friendly design. You may also write the content for the website.</p>
+
+<p>After a website is up and running, you'll make sure that the site is functional on all Web browsers, periodically testing and updating it as needed. A client may also need you to include interactive capabilities on their site using Visual Basic or Java programming languages.</p>
+
+<p>Where You Work</p>
+
+<p>Web developers may work for large corporations, small companies or as freelancers. Most positions will have you working 40 hours a week, while others - especially freelance positions - enjoy flexible schedules. Occasionally, you may be required to work during the weekend or other non-standard business hours in order to perform website maintenance or in the case of an emergency.</p>
+
+<p>Other Skills</p>
+
+<p>You need to have a familiarity with technology and understand how computers and web servers operate. You will also need to be familiar with many software programs, Web applications and Web programming languages, such as hypertext markup language (HTML), Ruby on Rails and C++. Since this is a very client-based, project-oriented field, you must be able to communicate effectively, set goals and meet deadlines. You must also be creative and have a grasp of art and design principles.</p></blockquote>
+
+<h3>The key take-aways here are:</h3>
+
+<ul>
+<li>Developers often work on behalf of clients who are trying to get their product or service out onto the web.</li>
+<li>The work is typically very project-focused and involves collaborating with a team of people who help coordinate the client's needs with the end product.</li>
+<li>Not all devs work for external clients... The "client" could just be your tech company, organization, government etc. who needs a website or web application built</li>
+<li>It's a lot of fun, you actually get to build things that people use, and you get to play with lots of new toys.  What's not to love?</li>
+</ul>
+
+
+<h2>Important Distinctions</h2>
+
+<h3>Front End vs Back End Developers</h3>
+
+<p>*"Front End" typically refers to the stuff that you actually see on the website in the browser.  This covers how the content is presented including all the little user interface elements like menus and dropdowns and transitions and modals.  A front end developer will often focus heavily on understanding HTML, CSS, and Javascript since these languages live in the browser.  They aren't necessarily focused on making things look "pretty", but rather making sure that the information is presented effectively and the user's interaction with the web page is as smooth as possible.  These days we're executing more and more code in the browser itself.</p>
+
+<p>*"Back End" typically refers to the guts of the application which live on the server.  The back end is more focused on making sure all the right data gets sent out to the browser.  It's the portion of iceberg below the surface... lots of stuff needs to go correctly to hand off data to the front end so it can be displayed.  Google may be a relatively straightforward search engine from our point of view, but they employ thousands of engineers to make sure that all the moving parts you don't see are working properly.</p>
+
+<p>*"Full Stack" developers marry the two sides into one.  While each "end" involves learning a significant amount of information, a full stack developer can comfortably speak both database and browser.  These days the trend is to seek developers with a great working knowledge of both ends (which is what we're teaching here).</p>
+
+<h3>Web Developer vs Web Designer</h3>
+
+<p>So, if we've got back end developers and front end developers, who makes the website actually look pretty?  Who pulls together the images and logos and color schemes?  That's the web designer's job.  While they have historically been less inclined to handle the actual coding of the page, these days even designers are expected to roll up their sleeves and code a bit.</p>
+
+<p>** Wikipedia lays out the breadth of the web design profession in their <a href="https://en.wikipedia.org/wiki/Web_design">entry on web design</a>.</p>
+
+<p>** Check out this <a href="http://thumbnails.visually.netdna-cdn.com/web-designer-vs-web-developer_502919932c2d2.jpg">semi-serious infographic</a> about the differences between web developers and designers.</p>
+
+<p>** And <a href="http://sixrevisions.com/infographics/web-designers-vs-web-developers-infographic/">another snarky infographic</a> for your entertainment...</p>
+
+<h3>Web Sites vs Web Applications</h3>
+
+<p><a href="http://stackoverflow.com/questions/1959910/web-site-vs-web-application">Not everyone can agree</a> what differentiates the two, but generally web sites are more about displaying static (unchanging) content and web applications require a "smart" server running code (that you're going to learn to write) to produce dynamic content.</p>
+
+<p>For a more concrete example, think of a going to a regular web site as just opening a document (say, an e-book) from your hard drive. Your computer will locate it, open it, and display it for you.</p>
+
+<p>Going to a site run by a web application is the same principle but the e-book is no longer just sitting there waiting to be opened. Your request for the e-book is caught by a sneaky little application which checks what you're asking for and then dynamically generates your e-book for you, fully customized (okay, maybe it just has an extra line that says "this e-book was opened on" and then today's date).</p>
+
+<p>That's more or less the difference between a server just serving up a static HTML file and dynamically generating one by using a bit of Ruby on Rails code.</p>
+
+          </div>
+        </div>
+        <div class="col-md-4" id="sidebar">
+          <h1>Roadmap</h1>
+
+<ol id="navigation-list">
+  <li>
+    <a href="http://localhost:4000/dir/">
+      Introduction
+    </a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/becoming_a_web_developer/">
+      About Web Developers
+    </a>
+    <ol>
+      <li>
+        <a href="http://localhost:4000/dir/becoming_a_web_developer/what_does_a_web_dev_do.html">
+          What A Web Developer Does
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/becoming_a_web_developer/web_dev_jobs.html">
+          Web Development Jobs and Careers
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/becoming_a_web_developer/tools_of_the_trade.html">
+          Tools of the Trade
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/becoming_a_web_developer/web_dev_communities.html">
+          Web Development Communities
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/becoming_a_web_developer/the_best_web_devs.html">
+          The Best Web Developers
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/becoming_a_web_developer/getting_a_job.html">
+          Getting Hired as a Web Developer
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/becoming_a_web_developer/finish.html">
+          Finale
+        </a>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/installations/">
+      Installations
+    </a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/pairing/">
+      Pair Programming
+    </a>
+    <ol>
+      <li>
+        <a href="http://localhost:4000/dir/pairing/why_pair.html">
+          Why We Pair
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/pairing/how_to_pair.html">
+          How To Pair
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/pairing/sample_pairing_session.html">
+          A Sample Pairing Session
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/pairing/finish.html">
+          Finale
+        </a>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/web_development_basics/">
+      Web Development 101
+    </a>
+    <ol id="web-dev-101-submenu">
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/how_does_the_web_work.html">
+          How Does the Web Work?
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/how_does_your_computer_work.html">
+          How Does Your Computer Work?
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/terms_to_know.html">
+          Terms to Know
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/">
+          Web Programming Basics
+        </a>
+        <ol>
+          <li>
+            <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/front_end_basics/">
+              Front End Basics
+            </a>
+            <ol>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/front_end_basics/html_css_basics.html">
+                  HTML and CSS Basics
+                </a>
+              </li>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/front_end_basics/project_html_css.html">
+                  Project: HTML / CSS
+                </a>
+              </li>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.html">
+                  Javascript and jQuery Basics
+                </a>
+              </li>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/front_end_basics/project_js_jquery.html">
+                  Project: JS and jQuery
+                </a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/back_end_basics/">
+              Back End Basics
+            </a>
+            <ol>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/back_end_basics/ruby_basics.html">
+                  Ruby Basics
+                </a>
+              </li>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/back_end_basics/project_ruby.html">
+                  Project: Ruby
+                </a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/database_basics.html">
+              Databases
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/framework_basics/">
+              Web Development Frameworks
+            </a>
+            <ol>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/framework_basics/rails_basics.html">
+                  Ruby on Rails
+                </a>
+              </li>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/framework_basics/project_rails.html">
+                  Project: Ruby on Rails
+                </a>
+              </li>
+              <li>
+                <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/framework_basics/backbone_basics.html">
+                  Backbone.js
+                </a>
+              </li>
+            </ol>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/tying_it_all_together.html">
+              Tying It All Together
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/web_development_basics/web_programming_basics/additional_topics.html">
+              Additional Important Topics
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/how_are_websites_built.html">
+          How are Websites Built?
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/principles_of_good_programming.html">
+          Principles of Good Programming
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/faq.html">
+          Other "Dumb" Questions Answered
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/web_development_basics/finish.html">
+          Finish
+        </a>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/ruby/">
+      Ruby
+    </a>
+    <ol>
+      <li>
+        <a href="http://localhost:4000/dir/ruby/basic_ruby/">
+          Basic Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/basic_ruby/building_blocks.html">
+              Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/basic_ruby/project_building_blocks.html">
+              Project: Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/basic_ruby/advanced_building_blocks.html">
+              Advanced Building Blocks
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/basic_ruby/project_advanced_building_blocks.html">
+              Project: Advanced Building Blocks
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/ruby/intermediate_ruby/">
+          Intermediate Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/intermediate_ruby/oop.html">
+              Object Oriented Programming
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/intermediate_ruby/project_oop.html">
+              Project: OOP
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/intermediate_ruby/serialization.html">
+              File I/O and Serialization
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/intermediate_ruby/project_file_io.html">
+              Project: File I/O and Serialization
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/ruby/ruby_on_the_web/">
+          Ruby on the Web
+        </a>
+        <ol>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/ruby_on_the_web/project_web.html">
+              Project: Ruby on the Web
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/ruby/cs_topics_in_ruby/">
+          Computer Science-y Ruby
+        </a>
+        <ol>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/cs_topics_in_ruby/recursion.html">
+              Recursion
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/cs_topics_in_ruby/project_recursion.html">
+              Project: Recursion
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/cs_topics_in_ruby/data_structures_algorithms.html">
+              Data Structures and Algorithms
+            </a>
+          </li>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/cs_topics_in_ruby/project_data_structures_algorithms.html">
+              Project: Data Structures and Algorithms
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/ruby/testing_ruby/">
+          Testing Ruby with RSpec
+        </a>
+        <ol>
+          <li>
+            <a href="http://localhost:4000/dir/ruby/testing_ruby/project_testing.html">
+              Project: Testing Ruby
+            </a>
+          </li>
+        </ol>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/ruby/project_final.html">
+          Ruby Final Project
+        </a>
+      </li>
+      <li>
+        <a href="http://localhost:4000/dir/ruby/finish.html">
+          Finale
+        </a>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/git/">
+      Git (Coming Soon!)
+    </a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/databases/">
+      Databases (Coming Soon!)
+    </a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/rails/">
+      Ruby on Rails
+    </a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/html_css/">
+      HTML and CSS
+    </a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/javascript/">
+      Javascript
+    </a>
+  </li>
+  <li>
+    <a href="http://localhost:4000/dir/tying_it_all_together/">
+      Tying It All Together
+    </a>
+  </li>
+</ol>
+
+
+<script>
+
+  $(function(){
+
+    // hide all anchor tags in the nav using JS
+    // meant so people without JS can still see the full list
+    $('#navigation-list').find("ol").addClass("hidden");
+
+    // find the exact anchor element we are currently "at" in the
+    // navigation tree, e.g. the "Web Development 101" link.
+    var anchorMatch = $("#navigation-list")
+      .find("a")
+      .filter(function(){
+        console.log(window.location.pathname);
+        var regex = window.location.pathname + "$";
+        // The following was for when /dir/ and / were the "same"
+        // if(regex == "/$"){
+        //   regex = "^/$";
+        // }
+        return this.href.match(regex);
+      });
+
+    // show parent directories for the currently selected directory
+    anchorMatch
+      .parents("ol")
+      .removeClass("hidden");
+
+    // show the immediate child directory
+    anchorMatch
+      .siblings("ol")
+      .removeClass("hidden");
+
+    // highlight the current directory
+    anchorMatch
+      .addClass("active");
+
+  });
+
+
+
+</script>
+<style>
+  .hidden{
+    display: hidden;
+  }
+  .active{
+    background-color: yellow;
+  }
+  #navigation-list{
+    padding-left: 0px;
+  }
+  #navigation-list li{
+    list-style: none;
+  }
+  #navigation-list ol{
+    padding-left: 25px;
+  }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+          <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <hr>
+      <footer class="inner">
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    </div>
+
+  </body>
+
+</html>
