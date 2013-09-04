@@ -34,71 +34,6 @@
     <hr>
 </div>
       <div class="row">
-        <div class="col-md-8" id="content">
-          <div id="main_content_wrap" class="outer">
-            <section id="main_content" class="inner">
-              <h1>Projects: Flow Control, Iteration, Closures and Enumerable</h1>
-
-<p>Estimated Time: 4 hours</p>
-
-<h2>Project 1: Bubble Sort</h2>
-
-<p>Sorting algorithms are some of the earliest that you typically get exposed to in Computer Science.  It may not be immediately obvious how important they are, but it shouldn't be hard to think of some examples where your computer needs to sort some massive datasets during everyday operations.</p>
-
-<p>One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is <strong>bubble sort</strong>, where each element is compared to the one next to it and they are swapped if the one on the right is larger than the one on the left.  This continues until the array is eventually sorted.</p>
-
-<p>Check out <a href="http://cs50.tv/2012/fall/shorts/bubble_sort/bubble_sort-720p.mp4">this video from Harvard's CS50x on Bubble Sort</a>.</p>
-
-<p>There's also <a href="http://en.wikipedia.org/wiki/Bubble_sort">an entry on Bubble Sort on Wikipedia</a> that's worth taking a look at.</p>
-
-<p><img src="images/Bubble-sort-example-300px.gif" alt="Bubble Sort" /></p>
-
-<h3>Your Task</h3>
-
-<ol>
-<li><p>Build a method <code>bubble_sort</code> that takes an array and returns a sorted array.  It must use the bubble sort methodology (using <code>sort</code> would be pretty pointless, wouldn't it?).</p>
-
-<pre><code> &gt; bubble_sort([4,3,78,2,0,2])
- =&gt; [0,2,2,3,4,78]
-</code></pre></li>
-<li><p>Now create a similar method called <code>bubble_sort_by</code> which sorts an array but accepts a block.  The block should take two arguments which represent the two elements currently being compared.  Expect that the block's return will be similar to the spaceship operator you learned about before -- if the result of the block is negative, the element on the left is "smaller" than the element on the right.  <code>0</code> means they are equal.  A positive result means the right element is greater.  Use this to sort your array.</p>
-
-<pre><code> &gt; bubble_sort_by(["hi","hello","hey"]) do |left,right|
- &gt;   right.length - left.length
- &gt; end
- =&gt; ["hi", "hey", "hello"]
-</code></pre></li>
-</ol>
-
-
-<h2>Project 2: Enumerable Methods</h2>
-
-<p>You learned about the Enumerable module that get mixed in to the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.</p>
-
-<h3>Your Task</h3>
-
-<ol>
-<li>Create a script file to house your methods and run it in IRB to test them later.</li>
-<li>Create <code>my_each</code>, a method that is identical to <code>each</code> but (obviously) does not use <code>each</code>.  Make sure it returns the same thing as well.</li>
-<li>Create <code>my_each_with_index</code> in the same way.</li>
-<li>Create <code>my_select</code> in the same way, though you may use <code>my_each</code> in your definition.</li>
-<li>Create <code>my_all?</code> (continue as above)</li>
-<li>Create <code>my_any?</code></li>
-<li>Create <code>my_none?</code></li>
-<li>Create <code>my_count</code></li>
-<li>Create <code>my_map</code></li>
-<li>Create <code>my_inject</code></li>
-<li>Test your <code>my_inject</code> by creating a method called <code>multiply_els</code> which multiplies all the elements of the array together by using <code>my_inject</code>, e.g. <code>multiply_els([2,4,5]) #=&gt; 40</code></li>
-<li>Modify your <code>my_map</code> method to take a proc instead.</li>
-<li>Modify your <code>my_map</code> method to take either a proc or a block, executing the block only if both are supplied.</li>
-</ol>
-
-
-<p><strong>Quick Tips:</strong>
-* Remember your <code>yield</code> and <code>call</code> methods.</p>
-
-          </div>
-        </div>
         <div class="col-md-4" id="sidebar">
           <h1>Roadmap</h1>
 
@@ -539,6 +474,71 @@
 
 
 
+        </div>
+        <div class="col-md-8" id="content">
+          <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner">
+              <h1>Projects: Flow Control, Iteration, Closures and Enumerable</h1>
+
+<p>Estimated Time: 4 hours</p>
+
+<h2>Project 1: Bubble Sort</h2>
+
+<p>Sorting algorithms are some of the earliest that you typically get exposed to in Computer Science.  It may not be immediately obvious how important they are, but it shouldn't be hard to think of some examples where your computer needs to sort some massive datasets during everyday operations.</p>
+
+<p>One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is <strong>bubble sort</strong>, where each element is compared to the one next to it and they are swapped if the one on the right is larger than the one on the left.  This continues until the array is eventually sorted.</p>
+
+<p>Check out <a href="http://cs50.tv/2012/fall/shorts/bubble_sort/bubble_sort-720p.mp4">this video from Harvard's CS50x on Bubble Sort</a>.</p>
+
+<p>There's also <a href="http://en.wikipedia.org/wiki/Bubble_sort">an entry on Bubble Sort on Wikipedia</a> that's worth taking a look at.</p>
+
+<p><img src="images/Bubble-sort-example-300px.gif" alt="Bubble Sort" /></p>
+
+<h3>Your Task</h3>
+
+<ol>
+<li><p>Build a method <code>bubble_sort</code> that takes an array and returns a sorted array.  It must use the bubble sort methodology (using <code>sort</code> would be pretty pointless, wouldn't it?).</p>
+
+<pre><code> &gt; bubble_sort([4,3,78,2,0,2])
+ =&gt; [0,2,2,3,4,78]
+</code></pre></li>
+<li><p>Now create a similar method called <code>bubble_sort_by</code> which sorts an array but accepts a block.  The block should take two arguments which represent the two elements currently being compared.  Expect that the block's return will be similar to the spaceship operator you learned about before -- if the result of the block is negative, the element on the left is "smaller" than the element on the right.  <code>0</code> means they are equal.  A positive result means the right element is greater.  Use this to sort your array.</p>
+
+<pre><code> &gt; bubble_sort_by(["hi","hello","hey"]) do |left,right|
+ &gt;   right.length - left.length
+ &gt; end
+ =&gt; ["hi", "hey", "hello"]
+</code></pre></li>
+</ol>
+
+
+<h2>Project 2: Enumerable Methods</h2>
+
+<p>You learned about the Enumerable module that get mixed in to the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.</p>
+
+<h3>Your Task</h3>
+
+<ol>
+<li>Create a script file to house your methods and run it in IRB to test them later.</li>
+<li>Create <code>my_each</code>, a method that is identical to <code>each</code> but (obviously) does not use <code>each</code>.  Make sure it returns the same thing as well.</li>
+<li>Create <code>my_each_with_index</code> in the same way.</li>
+<li>Create <code>my_select</code> in the same way, though you may use <code>my_each</code> in your definition.</li>
+<li>Create <code>my_all?</code> (continue as above)</li>
+<li>Create <code>my_any?</code></li>
+<li>Create <code>my_none?</code></li>
+<li>Create <code>my_count</code></li>
+<li>Create <code>my_map</code></li>
+<li>Create <code>my_inject</code></li>
+<li>Test your <code>my_inject</code> by creating a method called <code>multiply_els</code> which multiplies all the elements of the array together by using <code>my_inject</code>, e.g. <code>multiply_els([2,4,5]) #=&gt; 40</code></li>
+<li>Modify your <code>my_map</code> method to take a proc instead.</li>
+<li>Modify your <code>my_map</code> method to take either a proc or a block, executing the block only if both are supplied.</li>
+</ol>
+
+
+<p><strong>Quick Tips:</strong>
+* Remember your <code>yield</code> and <code>call</code> methods.</p>
+
+          </div>
         </div>
       </div>
 
