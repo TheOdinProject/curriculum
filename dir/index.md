@@ -1,7 +1,7 @@
 ---
 layout: 'content'
 ---
-# Introduction
+# Welcome!
 
 The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to get you on the path towards acquiring a job-ready skillset.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
 
@@ -39,10 +39,6 @@ Each step of the way, you should be able to see your progress through the projec
 
 Navigate through the curriculum using the roadmap listed above.  The links will take you to the appropriate files inside the repository for each unit. The whole curriculum currently lives in these text/html files on Github.  The links will go live once the curriculum is ready for that unit.
 
-## Final Note
-
-This curriculum is just a suggested path... you don't necessarily need to do things in this order.  Actually, we'll try to lay out a couple different options because everyone has different goals.  That said, you'll probably be a bit lost later on if you're missing some key foundational knowledge.  This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! You can work  with other students across the globe using the open-source [scheduler tool](http://www.theodinproject.com/scheduler) to set up times to pair remotely on curriculum projects.
-
 ### Work In Progress!
 
 This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page](/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
@@ -50,6 +46,11 @@ This project is very much a work-in-progress and benefits heavily from the contr
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 
 If you'll be linking to the curriculum, it's safest to link to the top-level Table of Contents here since some of the subcategories are likely to change along the way.
+
+## Final Note
+
+This curriculum is just a suggested path... you don't necessarily need to do things in this order.  Actually, we'll try to lay out a couple different options because everyone has different goals.  That said, you'll probably be a bit lost later on if you're missing some key foundational knowledge.  This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! You can work  with other students across the globe using the open-source [scheduler tool](http://www.theodinproject.com/scheduler) to set up times to pair remotely on curriculum projects.
+
 
 <br>
 <hr>

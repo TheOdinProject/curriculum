@@ -29,12 +29,13 @@
       <h2 id="project_tagline">The Open Curriculum for Learning Web Development</h2>
 
     </header>
+    <hr>
 </div>
       <div class="row">
         <div class="col-md-8" id="content">
           <div id="main_content_wrap" class="outer">
             <section id="main_content" class="inner">
-              <h1>Introduction</h1>
+              <h1>Welcome!</h1>
 
 <p>The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to get you on the path towards acquiring a job-ready skillset.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.</p>
 
@@ -416,10 +417,12 @@
     var anchorMatch = $("#navigation-list")
       .find("a")
       .filter(function(){
+        console.log(window.location.pathname);
         var regex = window.location.pathname + "$";
-        if(regex == "/$"){
-          regex = "nevermind";
-        }
+        // The following was for when /dir/ and / were the "same"
+        // if(regex == "/$"){
+        //   regex = "^/$";
+        // }
         return this.href.match(regex);
       });
 

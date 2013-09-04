@@ -319,10 +319,12 @@
     var anchorMatch = $("#navigation-list")
       .find("a")
       .filter(function(){
+        console.log(window.location.pathname);
         var regex = window.location.pathname + "$";
-        if(regex == "/$"){
-          regex = "nevermind";
-        }
+        // The following was for when /dir/ and / were the "same"
+        // if(regex == "/$"){
+        //   regex = "^/$";
+        // }
         return this.href.match(regex);
       });
 

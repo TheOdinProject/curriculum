@@ -4,9 +4,18 @@ body{
   background-color: #f9faf7;
 }
 
-#main_content{
-
+#header_wrap h1{
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
+#header_wrap h2{
+  font-size: 25px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+
 
 #forkme_banner {
   display: block;
@@ -21,4 +30,9 @@ body{
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+}
+
+
+#main_content{
+
 }

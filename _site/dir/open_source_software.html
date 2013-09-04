@@ -29,6 +29,7 @@
       <h2 id="project_tagline">The Open Curriculum for Learning Web Development</h2>
 
     </header>
+    <hr>
 </div>
       <div class="row">
         <div class="col-md-8" id="content">
@@ -367,10 +368,12 @@ The highest level of contributor, reviewers are commanders who also have directi
     var anchorMatch = $("#navigation-list")
       .find("a")
       .filter(function(){
+        console.log(window.location.pathname);
         var regex = window.location.pathname + "$";
-        if(regex == "/$"){
-          regex = "nevermind";
-        }
+        // The following was for when /dir/ and / were the "same"
+        // if(regex == "/$"){
+        //   regex = "^/$";
+        // }
         return this.href.match(regex);
       });
 
