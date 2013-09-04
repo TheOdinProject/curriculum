@@ -2,9 +2,9 @@
 layout: 'content'
 ---
 
-### Additional Important Topics:
+# Additional Important Topics:
 
-#### Git 101
+## Git 101
 Estimated Time: ??? hrs
 
 We mentioned git briefly in the previous unit ([Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)) but this time you'll actually start using it.
@@ -15,13 +15,13 @@ It sort of feels like if you were typing a text document and, every time you sav
 
 But wait, you say, Why not just erase the offending paragraphs and move on?  Here's where the web application stops resembling a high school essay.  Changes you make to your web application to build some new feature will be scattered in a dozen different files and will likely involve changing existing code at least as much as it involves actually producing new (and easily deleted) code, so having that ability to just reset the clock to a particular point in the past saves you from having to remember exactly what was changed and what it looked like beforehand.  The power of git goes well beyond this simple example, but it should help you start to see why people use it.
 
-##### Assignment:
+### Assignment:
 
 1. Read through Github's [Introduction to Git materials](http://learn.github.com/p/index.html) and watch the video there.
 2. Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
 
 
-#### Testing 101
+## Testing 101
 Estimated Time: ??? hrs
 
 Like git, testing is one of those things that people often don't think about when they decide to learn about web development but it's critically important to the production of professional quality applications and it will save you tons of time and headache in the end.
@@ -39,11 +39,11 @@ Everyone does testing a little differently.  Some teams still rely heavily on a 
 Regardless, testing is highly important and you'll be quite familiar with it by the end of this curriculum.
 
 
-##### Assignment:
+### Assignment:
 
 1. Do the [Introductory RSpec level](http://rspec.codeschool.com/levels/1) from Code School.
 
-#### The Cloud, Hosting, and Software as a Service (SAAS)
+## The Cloud, Hosting, and Software as a Service (SAAS)
 Estimated Time: ??? hrs
 
 You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.
@@ -64,11 +64,11 @@ Check out this article on the [difference between SAAS and Cloud Computing](http
 
 There's also another [interesting perspective on SAAS](http://www.itworld.com/print/108695) from a few years ago.
 
-##### Additional Readings
+### Additional Readings
 * An [Intro to Cloud Computing](http://www.dummies.com/how-to/content/what-is-cloud-computing.html) by Craig Dickson
 * [Cloud computing for dummies](http://www.dummies.com/how-to/content/what-is-cloud-computing.html)
 
-#### Security, SSL, and Best Practices
+## Security, SSL, and Best Practices
 Estimated Time: ??? hrs
 
 TODO: SSL and Security thought questions
@@ -89,7 +89,7 @@ To understand the basics of HTTPS and SSL, which help secure transactions on the
 
 If you're curious about how HTTPS secures connections, check out [this article from Hartley Brody](http://blog.hartleybrody.com/https-certificates/).
 
-#### FTP
+## FTP
 Estimated Time: .5 hrs
 
 FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is regardless.  It is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey.

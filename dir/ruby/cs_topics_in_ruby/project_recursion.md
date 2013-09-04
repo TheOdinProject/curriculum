@@ -14,7 +14,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 2. Now write another method `fibs_rec` which solves the same problem recursively.  This can be done in just 3 lines (or 1 if you're crazy).
 
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -34,7 +34,7 @@ We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's t
 
 1. Build a method `merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.  Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

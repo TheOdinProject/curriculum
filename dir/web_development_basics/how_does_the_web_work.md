@@ -2,10 +2,10 @@
 layout: 'content'
 ---
 
-## How Does the Web Work?
+# How Does the Web Work?
 Estimated Time: 1-2 hrs
 
-##### You will need to understand:
+## You will need to understand:
 * What is the internet?
 * How is information broken down and sent?
 * What are packets?
@@ -18,7 +18,7 @@ Estimated Time: 1-2 hrs
 * What's the difference between static and dynamic web pages?
 * What happens when you click "search" on google.com?
 
-##### Assignment:
+## Assignment:
 1. For a basic and painless Internet overview, check out [Don't Fear The Internet's Simple Primer (video)](http://www.dontfeartheinternet.com/the-basics/not-tubes).
 2. Check out [How Does the Internet Work? (video)](http://www.youtube.com/watch?v=oj7A2YDgIWE) for a basic explanation of how packets work.
 3. Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in the curriculum.
@@ -29,7 +29,7 @@ Estimated Time: 1-2 hrs
 
 What's the best explanation of how the web works you've seen or read?  Were any other resources you found helpful for answering the questions posed at the beginning of this section? [Let us know!](mailto:curriculum@theodinproject.com)
 
-#### Additional Resources:
+## Additional Resources:
 * [A packet's journey (video)](http://www.youtube.com/watch?v=WwyJGzZmBe8).
 * An [entertaining TED talk](http://www.ted.com/talks/jonathan_zittrain_the_web_is_a_random_act_of_kindness.html) about how the Internet works.
 * How the web works... [a cartoon](http://landofthefreeish.com/pics/how-the-internet-works/).

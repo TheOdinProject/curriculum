@@ -39,7 +39,7 @@ Each step of the way, you should be able to see your progress through the projec
 
 Navigate through the curriculum using the roadmap listed above.  The links will take you to the appropriate files inside the repository for each unit. The whole curriculum currently lives in these text/html files on Github.  The links will go live once the curriculum is ready for that unit.
 
-### Work In Progress!
+## Work In Progress!
 
 This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page](/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
 

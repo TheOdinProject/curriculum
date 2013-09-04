@@ -20,7 +20,7 @@ The problem specification is deliberately sparse for this -- it's up to you to a
 3. Do your best to keep your classes modular and clean and your methods doing only one thing each.  This is the largest program that you've written, so you'll definitely start to see the benefits of good organization (and testing) when you start running into bugs.
 4. Have fun!  Check out the [unicode characters](http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode) for a little spice for your gameboard.
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

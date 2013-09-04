@@ -2,20 +2,8 @@
 layout: 'content'
 ---
 
-#### Ruby on Rails 101
+# Ruby on Rails 101
 Estimated Time: 8-12 hrs
-
-##### You should understand:
-* What is Rails?
-* What are the seven components of Rails?
-* How is a GET request different from a POST request?
-* What is REST?
-* What is the command to create a new Rails app from the command line?
-* What are gems?
-* What is the purpose of the gemfile?
-* What is a view?
-* What is a controller?
-* What is a model?
 
 You're probably here because you want to learn the Ruby on Rails framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about.  Rails uses, as you'll often hear, "convention over configuration".  That means that Rails has made a lot of decisions for you about how things should be structured and how the code should run.  You can change them, but it's best if you just go with the flow and work within their rules (especially as a noob).
 
@@ -30,7 +18,19 @@ Rails also firmly organizes your code using an MVC pattern which you will come t
 
 The best way to understand Rails is to use it, so we'll spend a bit of time on some videos and reading but you'll mostly be building your own Rails sample app.  You may have no idea what you're doing, and that's okay, but at least you should begin to understand what you DON'T know and what you'll want to pay attention to going forward.  A good tactic is to write down all the things that confuse you and either go looking for them on your own or keep them in mind for later when we do our deep dive into Rails.
 
-##### Assignment:
+## You should understand:
+* What is Rails?
+* What are the seven components of Rails?
+* How is a GET request different from a POST request?
+* What is REST?
+* What is the command to create a new Rails app from the command line?
+* What are gems?
+* What is the purpose of the gemfile?
+* What is a view?
+* What is a controller?
+* What is a model?
+
+## Assignment:
 
 1. Watch this [basic overview of Rails](http://www.youtube.com/watch?v=b_DJdmvBStE) from Michael Hartl.  It will walk through the creation of a very basic web application.
 2. Read Daniel Kehoe's excellent [What is Ruby on Rails?](http://railsapps.github.io/what-is-ruby-rails.html) introduction to get a good grasp on what we're working with.

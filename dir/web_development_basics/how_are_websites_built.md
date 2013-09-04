@@ -2,13 +2,13 @@
 layout: 'content'
 ---
 
-## How Are Websites Built?
+# How Are Websites Built?
 
-### Macro Level: From Client to Developer and Back
+## Macro Level: From Client to Developer and Back
 
 TODO: client team handoff, scrum, cards/stories, gogo, circle back, scrum.... debrief.
 
-### Micro Level: What You Do as the Developer
+## Micro Level: What You Do as the Developer
 
 TODO: tech used, who gets spoken to, where debugs are usually needed, when tests are written, how deployment goes, interactions with other team members.
 

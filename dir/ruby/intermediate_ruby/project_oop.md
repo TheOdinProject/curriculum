@@ -16,7 +16,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 2. Build your game, taking care to not share information between classes any more than you have to.
 3. Post your solution below, then check out the example solution provided.
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -40,7 +40,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 5. Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.
 5. Post your solution below!
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

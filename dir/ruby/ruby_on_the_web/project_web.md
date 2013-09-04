@@ -21,7 +21,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 1. [This project/tutorial from Jumpstart Lab](http://tutorials.jumpstartlab.com/projects/microblogger.html) takes you through how to authenticate with Twitter and start tweeting.  Don't worry about the last part on Klout.
 
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -150,7 +150,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 
 
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

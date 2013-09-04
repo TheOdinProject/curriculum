@@ -2,14 +2,14 @@
 layout: 'content'
 ---
 
-##### JS/jQuery Mini-Project:
+# JS/jQuery Mini-Project:
 Estimated Time: 2-4 hrs
 
 <a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 This should not be trivially easy for you.  You'll probably have to Google often to get the right jQuery methods or CSS to use and that's the point.
 
-**Sketch Pad**
+## Sketch Pad
 
 1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
@@ -34,7 +34,7 @@ This should not be trivially easy for you.  You'll probably have to Google often
 
 <a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
-**Student Solutions**
+## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 

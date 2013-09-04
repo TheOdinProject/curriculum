@@ -18,7 +18,7 @@ A good way to get familiar with and begin contributing to a new project is to wr
     3. Try using mocks/doubles to isolate methods and make sure that they're sending you back the right outputs.
 
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -40,7 +40,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 
 1. Build Connect Four!  Just be sure to keep it TDD.
 
-**Student Solutions**
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

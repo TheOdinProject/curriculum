@@ -2,7 +2,7 @@
 layout: 'content'
 ---
 
-##### Ruby Mini-Project:
+# Ruby Mini-Project:
 Estimated Time: 4-6 hrs
 
 <a href="http://www.theodinproject.com/scheduler?cb=4" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
@@ -26,7 +26,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
-**Student Solutions**
+## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 

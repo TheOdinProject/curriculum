@@ -187,7 +187,7 @@ Use the browser's developer tools (right clicking something on the page and clic
 
 Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming\))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
-**Student Solutions**
+## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -233,7 +233,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS j
     3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3)... just solve for numbers smaller than 100,000 (otherwise it'll take too long with your brute force solution).
     4. No one said you could turn off your brain!
 
-**Student Solutions**
+## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 * [RebootJeff's solutions](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
@@ -293,7 +293,7 @@ This should not be trivially easy for you.  You'll probably have to Google often
 
 <a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
-**Student Solutions**
+## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
@@ -379,7 +379,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 **How was this?** It should be difficult but do-able.  How long did it take?  Please [shoot us a quick email](mailto:curriculum@theodinproject.com) to let us know.
 
-**Student Solutions**
+## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
@@ -484,7 +484,7 @@ Estimated Time: 3-5 hrs
 
 <a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
-**Student Solutions**
+## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 

@@ -2,7 +2,7 @@
 layout: 'content'
 ---
 
-## Intro
+# Web Development Basics
 
 Now that you know [what web developers do](/becoming_a_web_developer/becoming_a_web_developer.md), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.
 
