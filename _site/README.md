@@ -17,10 +17,10 @@ Check our our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-
 ## Curriculum Roadmap
 *Use these links to navigate to the appropriate course unit*
 
-  1. [Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)
-  1. [Installing the Technology](/installations/installations.md)
-  1. [Pair Programming and Remote Pairing](/pairing/pairing.md)
-  1. [Web Development 101](/web_development_basics/web_development_basics.md)
+  1. [Becoming a Web Developer]({{ site.url }}/dir/becoming_a_web_developer/)
+  1. [Installing the Technology]({{site.url}}/dir/installations/)
+  1. [Pair Programming and Remote Pairing]({{site.url}}/dir/pairing/)
+  1. [Web Development 101]({{site.url}}/dir/web_development_basics/)
   1. [Ruby](/ruby/ruby.md)
   1. [Git (under construction)](/git/git.md)
   1. Databases and SQL \*
@@ -44,7 +44,7 @@ We also believe that there's plenty of high quality content out there right now.
 
 ## What You'll Learn
 
-We assume that you're at square one, so we start out by going over [what exactly a web developer does](/becoming_a_web_developer/becoming_a_web_developer.md), [how to install the necessary software](/installations/installations.md) on your machine, and how to [pair up with other students](/pairing/pairing.md) on projects.  The [Web Development 101 section](/web_development_basics/web_development_basics.md) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
+We assume that you're at square one, so we start out by going over [what exactly a web developer does]({{ site.url }}/dir/becoming_a_web_developer/), [how to install the necessary software]({{site.url}}/dir/installations/) on your machine, and how to [pair up with other students]({{site.url}}/dir/pairing/) on projects.  The [Web Development 101 section]({{site.url}}/dir/web_development_basics/) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
 
 The curriculum takes a back-to-front approach to learning a Ruby on Rails workflow.  That means starting with a strong foundation in Ruby and an understanding of databases before migrating into Rails (which is a framework built using Ruby).
 
@@ -68,7 +68,7 @@ This curriculum is just a suggested path... you don't necessarily need to do thi
 
 ### Work In Progress!
 
-This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page](/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
+This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page]({{site.url}}/dir/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
 
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 

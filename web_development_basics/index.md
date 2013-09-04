@@ -34,7 +34,7 @@ Total Estimated Time: 60-90 hrs
 
 ## Intro
 
-Now that you know [what web developers do](/becoming_a_web_developer/becoming_a_web_developer.md), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.
+Now that you know [what web developers do]({{ site.url }}/dir/becoming_a_web_developer/), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.
 
 Each of the following sections represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  We will start by familiarizing you with the internet and your own computer.  You will then learn the basics of front end technologies like HTML, CSS, and Javascript before stepping into the back end with a brief foray into Ruby and Ruby on Rails.  We will finish by learning about databases and topics like git workflows and software in the cloud.
 
@@ -310,7 +310,7 @@ That said, some languages are more popular and practical than others.  If you're
 One difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.
 
 ##### Assignment:
-1. Go to the [Installations Unit](/installations/installations.md) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
+1. Go to the [Installations Unit]({{site.url}}/dir/installations/) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 #### Ruby 101
 Estimated Time: 20-30 hrs
@@ -520,7 +520,7 @@ You've got an idea of what the pieces look like, now it's time to see how they a
 #### Git 101
 Estimated Time: ??? hrs
 
-We mentioned git briefly in the previous unit ([Becoming a Web Developer](/becoming_a_web_developer/becoming_a_web_developer.md)) but this time you'll actually start using it.
+We mentioned git briefly in the previous unit ([Becoming a Web Developer]({{ site.url }}/dir/becoming_a_web_developer/)) but this time you'll actually start using it.
 
 If you recall, git is the version control system used by developers.  It means that you can revert to a previous (working) version of the application if you really screwed something up and it means that you have a standardized way of managing a project with contributions from multiple developers.  It's even useful if it's just you and you're working on a project on your own with a few half-baked ideas that you're trying to code at the same time but want to keep separated until they've matured sufficiently.
 
