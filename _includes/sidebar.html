@@ -320,6 +320,9 @@
       .find("a")
       .filter(function(){
         var regex = window.location.pathname + "$";
+        if(regex == "/$"){
+          regex = "nevermind";
+        }
         return this.href.match(regex);
       });
 

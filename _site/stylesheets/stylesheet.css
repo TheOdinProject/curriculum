@@ -55,6 +55,11 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #212121;
+  background: -moz-linear-gradient(top, #373737 0%, #212121 200px);
+  background: -webkit-linear-gradient(top, #373737 0%, #212121 200px);
+  background: -ms-linear-gradient(top, #373737 0%, #212121 200px);
+  background: -o-linear-gradient(top, #373737 0%, #212121 200px);
+  background: linear-gradient(top, #373737 0%, #212121 200px);
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
