@@ -22,7 +22,9 @@ p{
   margin-top: 15px;
 }
 
-
+#sidebar{
+  font-family: courier, monospace;
+}
 
 #forkme_banner {
   display: block;
