@@ -68,7 +68,7 @@ This curriculum is just a suggested path... you don't necessarily need to do thi
 
 ### Work In Progress!
 
-This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page]({{site.url}}/dir/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
+This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page]({{site.url}}/dir/contributing.html).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
 
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 

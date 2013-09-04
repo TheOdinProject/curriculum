@@ -4,7 +4,7 @@ layout: 'content'
 # Installations
 Total estimated time: 3-6 hours
 
-*[Top level table of contents](/README.md)*
+ 
 
 ## Intro
 
@@ -72,7 +72,7 @@ If you've run into issues with your installation and are desperately looking for
 * Michael Hartl describes the installation in his [Rails Tutorial, Chapter 1](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec-up_and_running), and the chapter also guides you through making and deploying your first bare-bones Rails app just to make sure everything's working properly.
 * Treehouse has short videos describing Rails installation for various environments in their [Getting Started with Rails](http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails) unit.
 * [Rubyonrails.org](http://rubyonrails.org/download) installation section.
-* [Guide](/additional_resources/sublimetext_windows_CLI.md) for opening Sublime Text via command line in Windows.
+* [Guide]({{site.url}}/dir/additional_resources/sublimetext_windows_CLI.html) for opening Sublime Text via command line in Windows.
 
 
 ## Checklist

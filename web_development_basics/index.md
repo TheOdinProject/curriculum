@@ -7,7 +7,7 @@ Total Estimated Time: 60-90 hrs
 
 ### NOTE: Labor Day weekend I am moving this up to theodinproject.github.io/curriculum so your links to this file will eventually need to be replaced!!!!
 
-*[Top level table of contents](/README.md)*
+ 
 
 ## Table of Contents
 1. [Intro](#intro)
@@ -636,7 +636,7 @@ With what you know already, you could start putting together some basic websites
 
 **Check out the [next section on Ruby](/ruby/ruby.md)**
 
-*[Top level table of contents](/README.md)*
+ 
 
 ## Additional Resources
 
