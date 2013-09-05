@@ -29,4 +29,20 @@
     <%= render "shared/ga" %>
 
 
+    <!-- Include the moot.it forums code if we're on the forums page -->
+    <% if @is_forum %>
+        <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- (1) force latest IE rendering engine: http://goo.gl/tf4JH -->
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+      <!-- (1) Moot look and feel -->
+      <link rel="stylesheet" href="https://cdn.moot.it/1/moot.css">
+
+      <!-- (1) Moot client application -->
+      <script src="https://cdn.moot.it/1/moot.min.js"></script>
+
+    <% end %>
+
   </head>
