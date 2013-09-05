@@ -4,6 +4,8 @@ body{
   background-color: #f9faf7;
   font-size: 175%;
   /*font-family: courier;*/
+  margin-top: 60px;
+  font-weight: 300;
 }
 
 p{
@@ -31,6 +33,13 @@ h2, h3, h4, h5{
   margin-top: 15px;
 }
 
+#contribute-notice{
+  font-size: 80%;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 1px;
+}
+
 #sidebar{
   font-size: 90%;
 }
@@ -38,7 +47,7 @@ h2, h3, h4, h5{
 #forkme_banner {
   display: block;
   position: absolute;
-  top:0;
+  top:60px;
   right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;

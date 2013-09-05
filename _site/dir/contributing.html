@@ -20,6 +20,90 @@
   </head>
 
   <body>
+
+    <div class="navbar navbar-fixed-top" id="top-navbar">
+  <div class="container">
+    <div class="brand-box">
+  <a href="http://theodinproject.com">
+    <img src="http://localhost:4000/images/odin_head_silhouette_2_circle_simple_transparent_darker.gif" class="logo-img" >
+    <span class="logo-text">
+      The Odin Project
+    </span>
+  </a>
+</div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav pull-right navbar-nav nav-links">
+        <li class="top-link"><a href="http://1000hours.io">Blog</a></li>
+        <li class="top-link"><a href="http://curriculum.theodinproject.com" target="_blank">Curriculum</a></li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</div>
+
+<style>
+  #top-navbar{
+    background-color: #fafafa;
+    background-image: linear-gradient(to bottom, #fff, #f2f2f2);
+    border-bottom-width: 1px;
+    border-bottom-color: #d4d4d4;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 10px 0px;
+    height: 40px;
+  }
+  .nav>li>a{
+    float: none;
+    padding: 10px 15px 10px;
+    color: #777777;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .navbar-collapse{
+    height: 40px !important;
+  }
+  .nav-links .top-link {
+    font-size: 16px;
+  }
+  .nav-links strong{
+      font-size: 120%;
+  }
+
+  .brand-box {
+    font-family: $logo-font;
+    float: left;
+    display: block;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: 200;
+  }
+  .brand-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .logo-text{
+  }
+  .logo-img{
+    width: 30px;
+    height: 30px;
+    margin-top: -9px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+  }
+  .splash {
+    margin-left: 20px;
+  }
+  .splash a{
+    color: #b0b0b0;
+    text-shadow: none;
+  }    
+
+</style>
+
     <div class="container">
 
       <!-- HEADER -->
@@ -491,23 +575,25 @@
             <section id="main_content" class="inner">
               <h1>Contributing</h1>
 
-<h2>Work In Progress!</h2>
-
 <p>This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  We welcome contributions in three main areas:</p>
 
-<h4>1. Content</h4>
+<h3>1. Content</h3>
 
 <p>Almost all the content is sourced from free pre-existing videos, blogs and tutorials.  If we're trying to teach something and you know there's a better resource out there, put it in the "Additional Resources" section.  Same goes for alternate but useful explanations of the material.  If you've got high quality material on your own blog or website, feel free to do the same.  Content with an obvious commercial angle (like marketing videos) should only be used if there is no reasonable substitute.</p>
 
-<h4>2. Exercises and Projects</h4>
+<h3>2. Exercises and Projects</h3>
 
 <p>This is a project-driven curriculum so having useful and interesting projects that break down to address specific content modules is crucial.  We rely heavily on others to give us project ideas and to begin breaking them down into a checklist of deliverables.  Ultimately, we'd also like to have specs created for each project as well.  If you can help on any of those levels, please contribute!</p>
 
 <p>We will also be instituting quizzes at the beginning and end of various sections.  If you know of or have created any interesting problems that address a particular area of content (especially if they come with specs), please send them our way!</p>
 
-<h4>3. Curriculum</h4>
+<h3>3. Curriculum</h3>
 
 <p>This curriculum is built to pave the way between new students and industry.  If you're a developer and have a strong opinion about something you believe jr devs are lacking these days and should be included in the curriculum, <a href="mailto:feeback@theodinproject.com">let us know!</a>  If you're a student and have gone through a unit and still don't feel like you understand something well enough, tell us so we can beef up that section!</p>
+
+<h3>Also...</h3>
+
+<p><a href="http://theodinproject.com">The Odin Project's main website</a> is fully open-sourced as well and we'd love to hear from you if you'd be interested in helping out with building those tools.</p>
 
 <h2>Attribution</h2>
 
@@ -532,12 +618,18 @@
 
               <br>
 <hr>
-<p>
-  <em>
-    This is your curriculum so please make it better! Do you know a better link to high quality content or a better way to explain something?  Would you like to write some exercises or projects to help students learn the material?  How long did this section take you?
-  </em>
-</p>
-
+<div id="contribute-notice">
+  <p>
+    <em>
+      This is your curriculum so please make it better! Do you know a better link to high quality content or a better way to explain something?  Would you like to write some exercises or projects to help students learn the material?  How long did this section take you?
+    </em>
+  </p>
+  <p>
+    <em>
+      Learn <a href="http://localhost:4000/dir/contributing.html">how to contribute here</a>.  Thanks!
+    </em>
+  </p>
+</div>
             </section>
           </div>
         </div>
@@ -547,9 +639,15 @@
     <div id="footer_wrap" class="outer">
       <hr>
       <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p>&lt; code happy &gt;</p>
       </footer>
     </div>
+    <style>
+      footer{
+        font-family: courier, monospace;
+        text-align: center;
+      }
+    </style>
 
     </div>
 

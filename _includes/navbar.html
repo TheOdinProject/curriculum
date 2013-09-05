@@ -1,0 +1,75 @@
+<div class="navbar navbar-fixed-top" id="top-navbar">
+  <div class="container">
+    {% include logo_text.html %}
+    <div class="navbar-collapse collapse">
+      <ul class="nav pull-right navbar-nav nav-links">
+        <li class="top-link"><a href="http://1000hours.io">Blog</a></li>
+        <li class="top-link"><a href="http://curriculum.theodinproject.com" target="_blank">Curriculum</a></li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</div>
+
+<style>
+  #top-navbar{
+    background-color: #fafafa;
+    background-image: linear-gradient(to bottom, #fff, #f2f2f2);
+    border-bottom-width: 1px;
+    border-bottom-color: #d4d4d4;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 10px 0px;
+    height: 40px;
+  }
+  .nav>li>a{
+    float: none;
+    padding: 10px 15px 10px;
+    color: #777777;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .navbar-collapse{
+    height: 40px !important;
+  }
+  .nav-links .top-link {
+    font-size: 16px;
+  }
+  .nav-links strong{
+      font-size: 120%;
+  }
+
+  .brand-box {
+    font-family: $logo-font;
+    float: left;
+    display: block;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: 200;
+  }
+  .brand-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .logo-text{
+  }
+  .logo-img{
+    width: 30px;
+    height: 30px;
+    margin-top: -9px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+  }
+  .splash {
+    margin-left: 20px;
+  }
+  .splash a{
+    color: #b0b0b0;
+    text-shadow: none;
+  }    
+
+</style>

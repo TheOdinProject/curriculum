@@ -20,6 +20,90 @@
   </head>
 
   <body>
+
+    <div class="navbar navbar-fixed-top" id="top-navbar">
+  <div class="container">
+    <div class="brand-box">
+  <a href="http://theodinproject.com">
+    <img src="http://localhost:4000/images/odin_head_silhouette_2_circle_simple_transparent_darker.gif" class="logo-img" >
+    <span class="logo-text">
+      The Odin Project
+    </span>
+  </a>
+</div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav pull-right navbar-nav nav-links">
+        <li class="top-link"><a href="http://1000hours.io">Blog</a></li>
+        <li class="top-link"><a href="http://curriculum.theodinproject.com" target="_blank">Curriculum</a></li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
+</div>
+
+<style>
+  #top-navbar{
+    background-color: #fafafa;
+    background-image: linear-gradient(to bottom, #fff, #f2f2f2);
+    border-bottom-width: 1px;
+    border-bottom-color: #d4d4d4;
+    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 1px 10px 0px;
+    height: 40px;
+  }
+  .nav>li>a{
+    float: none;
+    padding: 10px 15px 10px;
+    color: #777777;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .navbar-collapse{
+    height: 40px !important;
+  }
+  .nav-links .top-link {
+    font-size: 16px;
+  }
+  .nav-links strong{
+      font-size: 120%;
+  }
+
+  .brand-box {
+    font-family: $logo-font;
+    float: left;
+    display: block;
+    margin-left: -20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: 200;
+  }
+  .brand-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .logo-text{
+  }
+  .logo-img{
+    width: 30px;
+    height: 30px;
+    margin-top: -9px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+  }
+  .splash {
+    margin-left: 20px;
+  }
+  .splash a{
+    color: #b0b0b0;
+    text-shadow: none;
+  }    
+
+</style>
+
     <div class="container">
 
       <!-- HEADER -->
@@ -499,12 +583,18 @@ Coursera https://www.coursera.org/course/algo (semi-sync)</p>
 
               <br>
 <hr>
-<p>
-  <em>
-    This is your curriculum so please make it better! Do you know a better link to high quality content or a better way to explain something?  Would you like to write some exercises or projects to help students learn the material?  How long did this section take you?
-  </em>
-</p>
-
+<div id="contribute-notice">
+  <p>
+    <em>
+      This is your curriculum so please make it better! Do you know a better link to high quality content or a better way to explain something?  Would you like to write some exercises or projects to help students learn the material?  How long did this section take you?
+    </em>
+  </p>
+  <p>
+    <em>
+      Learn <a href="http://localhost:4000/dir/contributing.html">how to contribute here</a>.  Thanks!
+    </em>
+  </p>
+</div>
             </section>
           </div>
         </div>
@@ -514,9 +604,15 @@ Coursera https://www.coursera.org/course/algo (semi-sync)</p>
     <div id="footer_wrap" class="outer">
       <hr>
       <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+        <p>&lt; code happy &gt;</p>
       </footer>
     </div>
+    <style>
+      footer{
+        font-family: courier, monospace;
+        text-align: center;
+      }
+    </style>
 
     </div>
 
