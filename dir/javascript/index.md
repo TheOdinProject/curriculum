@@ -15,6 +15,12 @@ iTunes U from Stanford Javascript
 Books:
 http://cwebbdesign.tumblr.com/post/22508060129/4-best-javascript-books
 
+angular:
+egghead.io
+
+Everything:
+Bitcast.io
+
 http://learn.jquery.com/
 
 http://learn.appendto.com/lesson/javascript-101
