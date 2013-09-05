@@ -16,6 +16,8 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 **************************  Major Roadmap  **************************
 
 v0.0.6:  Bug fixes
+> Add google forums for community communication
+> Add OSS contribution and tracking tools like a mailing list
 v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
 0.0.?:  Anonymize scheduler results
 0.0.?:  Scheduling back-end
