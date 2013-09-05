@@ -19,6 +19,7 @@ https://www.atlassian.com/git/tutorial
 http://sixrevisions.com/resources/git-tutorials-beginners/
 
 http://pcottle.github.io/
+http://pcottle.github.io/learnGitBranching/
 
 Setting your username
 

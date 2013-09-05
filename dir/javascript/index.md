@@ -10,6 +10,8 @@ http://javascriptissexy.com/how-to-learn-javascript-properly/
 Javascript for Ruby Programmers:
 https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA
 
+iTunes U from Stanford Javascript
+
 Books:
 http://cwebbdesign.tumblr.com/post/22508060129/4-best-javascript-books
 
