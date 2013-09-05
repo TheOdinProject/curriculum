@@ -1,5 +1,5 @@
 ---
-layout: 'content'
+layout: 'project'
 ---
 
 # JS/jQuery Mini-Project:

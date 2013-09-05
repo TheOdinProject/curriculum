@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include navbar.html %}
+
+    <div class="container">
+
+      {% include header.html %}
+      <div class="row">
+        <div class="col-md-4" id="sidebar">
+          {% include sidebar.html %}
+        </div>
+        <div class="col-md-7" id="content">
+          <div id="main_content_wrap" class="outer">
+            <section id="main_content" class="inner project-content">
+              {{ content }}
+              {% include contribute.html %}
+            </section>
+          </div>
+        </div>
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+  </body>
+
+</html>

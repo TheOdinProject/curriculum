@@ -1,5 +1,5 @@
 ---
-layout: 'content'
+layout: 'project'
 ---
 
 # HTML/CSS Mini-Project:

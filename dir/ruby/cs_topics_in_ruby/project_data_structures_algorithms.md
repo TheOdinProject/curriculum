@@ -1,5 +1,5 @@
 ---
-layout: 'content'
+layout: 'project'
 ---
 # Projects: Basic Data Structures and Algorithms
 Estimated Time: 5-7 hours

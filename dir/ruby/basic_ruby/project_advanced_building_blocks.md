@@ -1,5 +1,5 @@
 ---
-layout: 'content'
+layout: 'project'
 ---
 # Projects: Flow Control, Iteration, Closures and Enumerable
 Estimated Time: 4 hours

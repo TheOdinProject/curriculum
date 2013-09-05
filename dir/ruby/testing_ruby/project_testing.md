@@ -1,5 +1,5 @@
 ---
-layout: 'content'
+layout: 'project'
 ---
 # Project: Testing Ruby with RSpec
 Estimated Time: 4-6 hours

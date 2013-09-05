@@ -1,5 +1,5 @@
 ---
-layout: 'content'
+layout: 'project'
 ---
 # Project: Recursion
 Estimated Time: 3-4 hours

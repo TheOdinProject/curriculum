@@ -1,5 +1,5 @@
 ---
-layout: 'content'
+layout: 'project'
 ---
 # Projects: Ruby on the Web
 Estimated Time: 6-10 hours

@@ -22,6 +22,10 @@ h2, h3, h4, h5{
   margin-top: 1.5em;
 }
 
+.project-content h1, .project-content h2{
+  color: #f60;
+}
+
 #header_wrap h1{
   font-size: 45px;
   font-weight: bold;
@@ -59,7 +63,12 @@ h2, h3, h4, h5{
   border-bottom-right-radius: 2px;
 }
 
-
+.coming-soon{
+  color: gray;
+}
+.project-link{
+  color: #f60;
+}
 #main_content{
 
 }
