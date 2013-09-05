@@ -16,7 +16,7 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 **************************  Major Roadmap  **************************
 
 v0.0.6:  Forums
-DONE Add Moot.it forums
+DONE Add Moot.it
 * Add moot single signin feature
 * 
 
