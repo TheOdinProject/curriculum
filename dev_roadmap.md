@@ -24,6 +24,8 @@ v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
 > Add google forums for community communication
 > Add OSS contribution and tracking tools like a mailing list
 v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
+0.0.?:  Make user logins carry over to the curriculum as well, which allows integration of commenting as well with each of the curriculum subsections.
+
 0.0.?:  Anonymize scheduler results
 0.0.?:  Scheduling back-end
 0.0.?:  Feedback mechanism

@@ -1,9 +1,22 @@
 <%= content_for :title, title %>
 
-<div id="forum">
+<div id="moot-forum">
   <!-- <h1>ENV["test_var"] = <%= ENV["test_var"] %></h1> -->
 
   <!-- (2) Placeholder for the forum. The forum will be rendered inside this element -->
-  <a class="moot" href="https://moot.it/i/theodinproject">theodinproject forums</a>
+<!--   <a class="moot" id="moot-forum" href="https://moot.it/i/theodinproject">theodinproject forums</a> -->
 
 </div>
+
+<script>
+$("#moot-forum").moot({
+  url: "https://moot.it/i/theodinproject",
+  title: "The Odin Project",
+  sso: {
+    key: "<%= @moot_hash[:api_key] %>",
+    signature: "<%= @moot_hash[:signature] %>",
+    message: "<%= @moot_hash[:message] %>",
+    timestamp: "<%= @moot_hash[:timestamp] %>"
+    }
+})
+</script>
