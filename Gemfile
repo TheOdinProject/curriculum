@@ -8,7 +8,8 @@ gem 'jquery-rails',       '~> 3.0.4'
 gem 'jquery-ui-rails',    '~> 4.0.3'
 gem 'newrelic_rpm',       '~> 3.6.5.130'
 gem 'google-api-client',  '~> 0.6.4'
-gem 'devise',             '~> 2.2.4'
+gem 'devise',             '~> 2.2.4' # For managing authentication
+gem 'figaro'                         # Managing environment variables
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
