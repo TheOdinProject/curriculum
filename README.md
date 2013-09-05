@@ -2,9 +2,13 @@
 
 ### The Open Curriculum for Learning Web Development
 
-### The curriculum can now be found at [http://curriculum.theodinproject.com](http://curriculum.theodinproject.com)... so go check it out!
+### The curriculum can now be found at:
 
-#### If you're looking to make a contribution, fork this repo and look for the curriculum files in the "dir" folder.
+#### [http://curriculum.theodinproject.com](http://curriculum.theodinproject.com)
+
+### ... so go check it out!
+
+*If you're looking to make a contribution, fork this repo and look for the curriculum files in the "dir" folder.**
 
 
 &lt; code happy &gt;
