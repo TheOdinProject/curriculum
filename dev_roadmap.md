@@ -17,7 +17,7 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 v0.0.6:  Forums
 DONE Add Moot.it
-* Add moot single signin feature
+DONE Add moot single signin feature
 * 
 
 v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
