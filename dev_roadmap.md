@@ -1,4 +1,4 @@
-== Welcome to The Odin Project v0.0.6
+== Welcome to The Odin Project v0.0.7
 
 It's game on.
 
@@ -15,15 +15,11 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **************************  Major Roadmap  **************************
 
-v0.0.6:  Forums
-DONE Add Moot.it
-DONE Add moot single signin feature
-* 
-
 v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
-> Add google forums for community communication
+
 > Add OSS contribution and tracking tools like a mailing list
 v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
+
 0.0.?:  Make user logins carry over to the curriculum as well, which allows integration of commenting as well with each of the curriculum subsections.
 
 0.0.?:  Anonymize scheduler results
@@ -37,24 +33,8 @@ v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
 
 **********************  Current Version Sandbox  ********************
 
-v0.0.6: Bug Fixes
-
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 * 
-
-
-DONE Fix linkages to profiles to actually how the correct URL links to that program and their account on it.
-DONE Fix language for editing contact info -- not always a URL!
-DONE Remove the "github account unavailable" thing from index
-DONE Make gravatar containers fixed size on index page
-DONE Fix display of students index page to not collapse so quickly on resize
-DONE Fix navbar upon narrow window to not get pushed lower due to body top padding (media query)
-DONE Set up default Gravatar
-DONE Put logo image into logo text
-DONE Put logo image into favicon
-DONE Display timezone that calendar is currently in!
-DONE Check timezone compatability
-DONE AJAX Loading icon
 
 
 **********************  General Sandbox  ****************************
@@ -97,6 +77,25 @@ https://gist.github.com/zhengjia/428105
 
 
 ***********************  Version Archive  **************************
+
+************
+v0.0.6: Forums and Bug Fixes
+
+DONE Add Moot.it
+DONE Add moot single signin feature
+
+DONE Fix linkages to profiles to actually how the correct URL links to that program and their account on it.
+DONE Fix language for editing contact info -- not always a URL!
+DONE Remove the "github account unavailable" thing from index
+DONE Make gravatar containers fixed size on index page
+DONE Fix display of students index page to not collapse so quickly on resize
+DONE Fix navbar upon narrow window to not get pushed lower due to body top padding (media query)
+DONE Set up default Gravatar
+DONE Put logo image into logo text
+DONE Put logo image into favicon
+DONE Display timezone that calendar is currently in!
+DONE Check timezone compatability
+DONE AJAX Loading icon
 
 **********
 v0.0.5: Profile Links from Scheduler
