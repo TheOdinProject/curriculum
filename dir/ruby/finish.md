@@ -11,3 +11,4 @@ Sure, you've still got plenty to learn, but the real conceptual leaps have alrea
 ## Additional Resources
 
 * [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
+* [Ruby Best Practices book by Gregory Brown](http://majesticseacreature.com/rbp-book/pdfs/rbp_1-0.pdf), which uses open-source projects as examples of good coding (2009).
