@@ -3,7 +3,7 @@ layout: 'content'
 ---
 # Advanced Topics
 
-## !! This section is in the "Collecting Resources" phase !!
+## This section is collecting resources right now
 
 
 Algorithms:

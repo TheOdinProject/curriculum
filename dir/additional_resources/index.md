@@ -3,7 +3,7 @@ layout: 'content'
 ---
 # Additional Resources
 
-## !! This section is in the "Collecting Resources" phase !!
+## This section is collecting resources right now
 
 #### Open Courseware Sites
 * [The Open Courseware Consortium](http://www.ocwconsortium.org/en/courses/ocwsites)

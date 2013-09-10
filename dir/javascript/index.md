@@ -3,7 +3,7 @@ layout: 'content'
 ---
 # Javascript
 
-## !! This section is in the "Collecting Resources" phase !!
+## This section is collecting resources right now
 
 * Codecademy's Javascript (from the Web Dev 101)
 http://javascriptissexy.com/how-to-learn-javascript-properly/

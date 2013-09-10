@@ -3,7 +3,7 @@ layout: 'content'
 ---
 # Jobs! Jobs! Jobs!
 
-## !! This section is in the "Collecting Resources" phase !!
+## This section is collecting resources right now
 
 Post on the interview:
 http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/

@@ -3,4 +3,4 @@ layout: 'content'
 ---
 # Databases and SQL
 
-## !! This section is in the "Collecting Resources" phase !!
+## This section is collecting resources right now
