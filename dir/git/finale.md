@@ -24,4 +24,6 @@ Git after it!  (Okay, pun fail.)
 * Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 * Need more still?  See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
 * For more info about dealing with merge conflicts, check out [around minute 30 of this video from edX's SAAS course](https://www.youtube.com/watch?v=ieoHg0Vb-xo&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
+* TODO: Git cheatsheet
+* TODO: Creating a git shortcut command
 
