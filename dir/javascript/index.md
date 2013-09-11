@@ -5,49 +5,43 @@ layout: 'content'
 
 ## This section is collecting resources right now
 
-* Codecademy's Javascript (from the Web Dev 101)
-http://javascriptissexy.com/how-to-learn-javascript-properly/
-Javascript for Ruby Programmers:
-https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA
+### Learning Resources and Tutorials
+* [Codecademy's Javascript track](http://www.codecademy.com/tracks/javascript)
+* [Javascript is Sexy](http://javascriptissexy.com/how-to-learn-javascript-properly/)
+* [Javascript for Ruby Programmers Video](https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
+* Stanford's iTunes U Javascript course ([link to find it here](http://itunes.stanford.edu/content/quickstart.html))
+* Watch people code cool stuff with [The Code Player](http://thecodeplayer.com/)
+* [Tutorials for Javascript and jQuery from Jumpstart Lab](http://tutorials.jumpstartlab.com/)
+* [Superhero JS listing of great specific resources](http://superherojs.com/)
 
-iTunes U from Stanford Javascript
+### Books and Blogs
+* [Best Javascript Books](http://cwebbdesign.tumblr.com/post/22508060129/4-best-javascript-books)
+* [JavascriptIsSexy blog](http://javascriptissexy.com)
 
-Books:
-http://cwebbdesign.tumblr.com/post/22508060129/4-best-javascript-books
+### Libraries
+* [Learn jQuery](http://learn.jquery.com/)
+* [TheCodePlayer's Snake game with HTML5 canvas and jQuery](http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery)
 
-angular:
-egghead.io
+### Frameworks
+* [Learn Backbone.js from JavascriptIsSexy](http://javascriptissexy.com/learn-backbone-js-completely/)
+* [Backbone.js on Ruby on Rails screencasts and example apps](http://www.backbonerails.com/)
+* [Backbone.js tutorials](http://backbonetutorials.com/)
+* [Building a Wine Cellar with Backbone.js](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
+* [Angular.js video training resources](http://www.egghead.io)
+* [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
 
-Everything:
-Bitcast.io
+### Screencasts
+* [PAID training webcasts on pretty much anything](https://www.bitcast.io/)
+* [Giant meta-list of screencasts by Avdi Grimm](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)
 
-http://learn.jquery.com/
+### Projects
+* Rebuild interactive features like a dropdown... start by building the tools, then use them, then abstract further.
 
-http://learn.appendto.com/lesson/javascript-101
+### Additional Resources
+* [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
+* [Front End Programming best practices from betterfrontend](http://betterfrontend.com/)
 
-http://thecodeplayer.com/
 
-Screencasts:
-http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/
-$$http://www.backbonerails.com/
 
-https://github.com/hybridgroup/betterfrontend
 
-Codeplayer game for snake: http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery
 
-Tutorials @ Jumpstart for JS and JQ:
-http://tutorials.jumpstartlab.com/
-
-Rebuild interactive features like a dropdown... start by building the tools, then use them, then abstract further.
-
-Backbone:
-http://backbonetutorials.com/
-http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/
-http://javascriptissexy.com/learn-backbone-js-completely/
-
-Node:
-http://blog.modulus.io/absolute-beginners-guide-to-nodejs
-
-Blogs:
-http://superherojs.com/
-http://javascriptissexy.com/
