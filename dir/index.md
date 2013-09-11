@@ -37,7 +37,7 @@ The units here are meant to break down into approximately 20% pre-learning / 80%
 
 Each step of the way, you should be able to see your progress through the projects you've built and by how far you've progressed along the path laid out here.  We'll also do our best to answer the question "So why the heck do I need to know this anyway?".  If one piece of content has you stuck, we'll have links to additional resources to help shore up your understanding.
 
-Navigate through the curriculum using the roadmap listed above.  The links will take you to the appropriate files inside the repository for each unit. The whole curriculum currently lives in these text/html files on Github.  The links will go live once the curriculum is ready for that unit.
+Navigate through the curriculum using the roadmap in the sidebar.  The links will take you to the appropriate files inside the repository for each unit. You're viewing this online but the whole curriculum really lives in a bunch of markdown files on Github that you can [contribute to]({{site.url}}/dir/contributing.html).
 
 ## Work In Progress!
 
@@ -45,11 +45,13 @@ This project is very much a work-in-progress and benefits heavily from the contr
 
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 
-If you'll be linking to the curriculum, it's safest to link to the top-level Table of Contents here since some of the subcategories are likely to change along the way.
+If you'll be linking to the curriculum, it's safest to link to curriculum.theodinproject.com since some of the subcategories are likely to change along the way.
 
 ## Final Note
 
-This curriculum is just a suggested path... you don't necessarily need to do things in this order.  Actually, we'll try to lay out a couple different options because everyone has different goals.  That said, you'll probably be a bit lost later on if you're missing some key foundational knowledge.  This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! You can work  with other students across the globe using the open-source [scheduler tool](http://www.theodinproject.com/scheduler) to set up times to pair remotely on curriculum projects.
+This curriculum is just a suggested path... you don't necessarily need to do things in this order.  Actually, we'll try to lay out a couple different options because everyone has different goals.  That said, you'll probably be a bit lost later on if you're missing some key foundational knowledge.  
+
+This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! You can work  with other students across the globe using the open-source [scheduler tool](http://www.theodinproject.com/scheduler) to set up times to pair remotely on curriculum projects.
 
 
 <br>
