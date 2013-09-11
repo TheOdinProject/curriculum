@@ -1,4 +1,4 @@
-== Welcome to The Odin Project v0.0.7
+== Welcome to The Odin Project v0.0.6
 
 It's game on.
 
@@ -15,13 +15,10 @@ Note to self:  You can't call any custom stylesheets or heroku will shit the bed
 
 **************************  Major Roadmap  **************************
 
-v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
-
-> Add OSS contribution and tracking tools like a mailing list
-v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
 
 0.0.?:  Make user logins carry over to the curriculum as well, which allows integration of commenting as well with each of the curriculum subsections.
 
+v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 0.0.?:  Anonymize scheduler results
 0.0.?:  Scheduling back-end
 0.0.?:  Feedback mechanism
@@ -33,6 +30,13 @@ v0.0.7:  Anonymize email reach-outs, add mailer conf to accounts
 
 **********************  Current Version Sandbox  ********************
 
+v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
+
+* add notification for users to login to post to the forum
+* change shading of navbar
+> Add OSS contribution and tracking tools like a mailing list
+
+BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 * 
 
