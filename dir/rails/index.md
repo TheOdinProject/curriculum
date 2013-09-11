@@ -38,6 +38,24 @@ layout: 'content'
 * [Why use the `%Q` methods?](http://stackoverflow.com/questions/10144543/what-is-the-use-case-for-rubys-q-q-quoting-methods)
 
 
+### Roadmap
+
+1. Get your hands dirty (blogger tutorial?) with a rails overview
+2. Back to the basics -- refresher on HTTP, MVC, REST, APIs
+3. Basic ActiveRecord -- validations
+3. Routing -- resources
+4. Controllers
+5. Views -- ERB, templates, partials
+6. Basic forms -- build from scratch, then helpers, then with validations, cover mass assignment
+7. Activerecord -- associations
+7. Advanced forms -- nested, associations,
+3. Learning the Intermediates -- cookies, sessions
+4. Authentication -- rolling your own
+5. Authentication -- Devise
+6. APIs -- Building your own, using Oauth(2) for externals
+7. Mailers
+8. Advanced topics -- nested routing, design patterns,
+8. Final Projects -- rebuilding
 
 
 
