@@ -5,7 +5,7 @@ layout: 'content'
 
 This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  
 
-## What to Contribute To
+## What to Contribute
 
 ### 1. Content
 
@@ -25,9 +25,6 @@ This curriculum is built to pave the way between new students and industry.  If 
 
 [The Odin Project's main website](http://theodinproject.com) is fully open-sourced as well and we'd love to hear from you if you'd be interested in helping out with building the tools there.
 
-## Attribution
-
-As you can tell, we highly value and rely on the help of the developer and student communities.  We'd like to do as much as we can to identify our top contributers and the providers of high quality content.  While the curriculum resides on Github, we'll maintain a top contributers list in addition to the commit histories.  Should it migrate to an independent platform, we'll still do our best to attribute both the content and submission source for their contributions to the project.  Contributers taking a more active role in the project may be invited to join the core team as well.
 
 ## How to Contribute
 
@@ -42,6 +39,10 @@ There are three main ways to contribute, in order of preference:
 If you're adding a solution to one of the projects, first save it in your own repository and then just make a link to it in the appropriate project's section.  Be sure to give your partner appropriate acknowledgement if you have one and they want it.
 
 If you're unfamiliar with the Markdown (.md) syntax that's used in these files, it's really straightforward and there's a great guide for it from [Daring Fireball here](http://daringfireball.net/projects/markdown/syntax).
+
+### Attribution
+
+As you can tell, we highly value and rely on the help of the developer and student communities.  We'd like to do as much as we can to identify our top contributers and the providers of high quality content.  While the curriculum resides on Github, we'll maintain a top contributers list in addition to the commit histories.  Should it migrate to an independent platform, we'll still do our best to attribute both the content and submission source for their contributions to the project.  Contributers taking a more active role in the project may be invited to join the core team as well.
 
 ## How this Curriculum Actually Gets Deployed and Served
 
