@@ -1,5 +1,11 @@
 <%= content_for :title, title %>
 
+<% unless user_signed_in? %>
+  <div id="moot-login-reminder">
+    Welcome to the community forum! Please <%= link_to "sign in",login_path %> to post or reply.
+  </div>
+<% end %>
+
 <div id="moot-forum">
   <!-- <h1>ENV["test_var"] = <%= ENV["test_var"] %></h1> -->
 
