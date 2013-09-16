@@ -15,12 +15,16 @@ Theodinproject::Application.routes.draw do
   get 'selectable' => 'static_pages#selectable'
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
+  # get 'contact_user' => 'contact#new'
+  # post 'contact_user' => 'contact#create'
 
   resources :cal_events
 
   resource :user_pref, :only => [:edit, :update]
 
-  resources :users, :only => [:show, :index, :edit, :update]
+  resources :users, :only => [:show, :index, :edit, :update] do
+    resource :contact, :only => [:new, :create]
+  end
 
   resources :splash_emails, :only => [:create]
 
