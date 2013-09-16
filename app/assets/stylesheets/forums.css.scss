@@ -2,9 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#moot-login-reminder{
+#moot-forum-reminder{
   font-style: italic;
   background-color: #ffc;  // light yellow
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+#moot-forum-notification{
+  // font-style: italic;
+  background-color: #dfd;  // light green
   margin-bottom: 10px;
   padding: 5px 10px;
 }
