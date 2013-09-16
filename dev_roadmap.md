@@ -2,16 +2,11 @@
 
 It's game on.
 
-Note to self:  You can't call any custom stylesheets or heroku will shit the bed.  The assets get precompiled so NO WAY can you call custom stylesheets at runtime.
-
 **************************  DEPLOYMENT NOTES: **********************
 < none >
 ********************************************************************
 
 >> Optimize Google Analytics
->> Set up viral feedback looping like launchrock -- give each signup a unique referral code and make links between them so you see downstream who refers most.  
->> Add social buttons to the splash process
-
 
 **************************  Major Roadmap  **************************
 
