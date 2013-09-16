@@ -22,9 +22,10 @@ group :development, :test do
 end
 
 group :development do
-  gem 'better_errors'
-  gem 'binding_of_caller'
-  gem 'letter_opener'
+  gem 'better_errors' # gives much better error messages for debug
+  gem 'quiet_assets'  # shortens up the server log output
+  gem 'binding_of_caller' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
+  gem 'letter_opener' # shows outgoing emails in your browser instead
   gem 'rspec-rails'
   gem 'capybara',                   '<= 2.0.2'
 end
