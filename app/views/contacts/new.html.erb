@@ -1,0 +1,22 @@
+
+<div id="contact-user" class="span6">
+  <h1>Contact <%= @user.username %></h1>
+
+  <%= form_tag(user_contact_path(@user), :method => "post") do %> 
+    <%= csrf_meta_tag %>
+
+    <div class="subject">
+      Subject: <br>
+      <span class="default-subject"><%= @subject %></span>
+    </div>
+
+    <div class="body">
+      Your Message:
+      <textarea name="body" placeholder="Type your message here!"></textarea>
+    </div>
+
+    <input type="submit" class="btn btn-primary pull-right" value="Send Message">
+
+  <% end %>
+
+</div>

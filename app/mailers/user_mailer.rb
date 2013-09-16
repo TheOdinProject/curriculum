@@ -4,5 +4,7 @@ class UserMailer < ActionMailer::Base
   def send_mail_to_user(user_id)
 
   end
-  
+
+
+
 end
