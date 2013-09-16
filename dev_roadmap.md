@@ -33,6 +33,7 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
 
 * add notification for users to login to post to the forum
+* remove email addresses from profiles
 * change shading of navbar
 > Add OSS contribution and tracking tools like a mailing list
 

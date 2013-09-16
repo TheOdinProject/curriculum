@@ -49,7 +49,7 @@
       <div class="profile-contact-links">
         <% if @edit %>
           <ul>
-            <li><input type="text" id="user_email" name="user[email]" size="50" placeholder="email" value="<%= @user.email %>"></li>
+<!--             <li><input type="text" id="user_email" name="user[email]" size="50" placeholder="email" value="<%= @user.email %>"></li> -->
             <li><input type="text" id="user_skype" name="user[skype]" size="50" placeholder="Skype username..." value="<%= @user.skype %>"></li>
             <li><input type="text" id="user_screenhero" name="user[screenhero]" size="50" placeholder="ScreenHero username..." value="<%= @user.screenhero %>"></li>
             <li><input type="text" id="user_google_plus" name="user[google_plus]" size="50" placeholder="Google Plus username..." value="<%= @user.google_plus %>"></li>
@@ -62,7 +62,7 @@
 
         <% else %>
           <ul>
-            <li>Email: <a href="mailto:<%= @user.email %>"><%= @user.email %></a></li>
+<!--             <li>Email: <a href="mailto:<%= @user.email %>"><%= @user.email %></a></li> -->
             <li>Skype: <%= @user.skype %></li>
             <li>ScreenHero: <%= @user.screenhero %></li>
             <li>Google Plus: <%= @user.google_plus %></li>
