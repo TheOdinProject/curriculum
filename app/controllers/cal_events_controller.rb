@@ -105,7 +105,8 @@ class CalEventsController < ApplicationController
         projects: event.creator.content_buckets.map(&:name),
         creator_name: event.creator.username,
         creator_email: event.creator.email,
-        creator_profile_url: user_path(event.creator)
+        creator_profile_url: user_path(event.creator),
+        creator_contact_url: new_user_contact_path(event.creator),
       }
       # puts "\n\n Putting ObjectifiedEvent:"
       # puts objectified_event

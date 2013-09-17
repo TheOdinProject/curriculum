@@ -84,7 +84,7 @@
               $(element).animate({"border-color": borderColor}, 1000);
             },
             select: function(start, end, allDay) {
-              console.log($(this));
+              // console.log($(this));
               var summary = "<%= current_user.username %>";
               var description = "";
               if(summary) {
@@ -99,8 +99,8 @@
                     description: description
                   },
                   success: function(event){
-                    console.log("Success! Object is:");
-                    console.log(event);
+                    // console.log("Success! Object is:");
+                    // console.log(event);
                     calendar.fullCalendar(
                       'renderEvent',
                       {
@@ -166,15 +166,14 @@
 
         // Open a modal window that displays the event's info
         function openEventInfoModal(event) { 
-          console.log(event);
-          console.log(event.title);
+          // console.log(event);
+          // console.log(event.title);
 
           // Populate the contact info section
-          $(".contactInfo").html("Reach out via email: <a href='mailto:" + event.creator_email + "'>" + event.creator_email + "</a>")
+          $(".contactInfo").html("<a href='" + event.creator_contact_url + "'> Email " + event.creator_name + "</a>")
           
           // Populate the description with info
           $(".eventInfo").html(event.description); 
-          // "<a href='" + event.creator_profile_url +"'>Go to " + event.creator_name + "'s Profile</a><br>" + 
 
           // Populate the listing of projects
           proj_display = "<ul>";
@@ -211,7 +210,7 @@
             },
             buttons: {
               "close": function(){
-                console.log($(this));
+                // console.log($(this));
                 $(this).dialog("close");
               }
             } 
@@ -221,7 +220,7 @@
 
         // Opens a form to input details for the newly created event
         function openEditEventModal(event){
-          console.log(event);
+          // console.log(event);
           
           // Populate it with info
           $("#edit-event-info").val("").val(event.description); 
@@ -244,8 +243,8 @@
               })
                 .appendTo($(".ui-dialog-buttonpane"))
                 .click(function(el){
-                  console.log($(this));
-                  console.log(event);
+                  // console.log($(this));
+                  // console.log(event);
                   $.ajax({
                     url: event.url,
                     type: "DELETE",
@@ -295,14 +294,14 @@
 
         function displayEvents(){
           $("#calendar").fullCalendar('clientEvents').forEach(function(event){
-            console.log(event); 
+            // console.log(event); 
           })
         }
 
         function updateEvent(event){
           calendar = $("#calendar");
-          console.log("TRYING TO UPDATE THE EVENT!!!");
-          console.log(event);
+          // console.log("TRYING TO UPDATE THE EVENT!!!");
+          // console.log(event);
           $.ajax({
             url: event.url,
             type: "PUT",
@@ -314,8 +313,8 @@
               description: event.description
             },
             success: function(event){
-              console.log("Success! Object is:");
-              console.log(event);
+              // console.log("Success! Object is:");
+              // console.log(event);
               calendar.fullCalendar('rerenderEvents');
             },
             error: function(a,b,c){
