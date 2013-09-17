@@ -18,8 +18,6 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 0.0.?:  Scheduling back-end
 0.0.?:  Feedback mechanism
 
-> Build mailer button in the event profiles
->> Select which project too if multiple!
 > Fix up suggestion mailer to include username/email and proper referral link
 > Add user prefs filters as well
 
@@ -27,10 +25,11 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 
 v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
 
-* add notification for users to login to post to the forum
-* remove email addresses from profiles
 * change shading of navbar
-> Add OSS contribution and tracking tools like a mailing list
+* Add OSS contribution and tracking tools like a mailing list
+DONE Build mailer button in the event profiles
+DONE remove email addresses from profiles
+DONE add notification for users to login to post to the forum
 
 BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
