@@ -12,7 +12,22 @@ class ContactsController < ApplicationController
   end
 
   def create
-    # TODO
+    @user = User.find_by_id(params[:user_id])
+    @message = Message.new({
+        :body => params[:body],
+        :subject => default_subject,
+        :recipient => @user.email,
+        :sender => current_user
+      })
+    if @message.valid?
+      UserMailer.send_mail_to_user(@message).deliver
+      flash[:success] = "Your message to #{@user.username} has been sent!"
+      redirect_to(user_path(@user))
+    else
+      flash.now[:error] = "Please fill out the message form"
+      render :new
+    end
+
   end
 
   def default_subject
