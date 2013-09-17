@@ -9,9 +9,9 @@ class ApplicationController < ActionController::Base
     home_path
   end
 
-  # Customize Devise to send newly signed in users to the scheduler first
+  # Customize Devise to send newly signed in users to the home page
   def after_sign_in_path_for(resource_or_scope)
-    scheduler_path
+    home_path
   end
 
   # redirects to error pages
