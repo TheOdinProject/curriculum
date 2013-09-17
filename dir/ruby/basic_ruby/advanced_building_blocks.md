@@ -5,7 +5,7 @@ layout: 'content'
 # Advanced Building Blocks
 *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*
 
-This section gets more into the topics you may have been shakey on before.  It's definitely got some more meat to it than the previous one.  The Codecademy exercises are good for doing on your own because they give you all kinds of help with them.  
+This section gets more into the topics you may have been shakey on before.  It's definitely got some more meat to it than the previous one.  The projects below are good for doing on your own because Codecademy gives you all kinds of help with them.  
 
 ## Homework Assignment
 

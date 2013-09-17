@@ -4,6 +4,8 @@ layout: 'project'
 # Projects: Ruby on the Web
 Estimated Time: 6-10 hours
 
+*Don't forget to use Git to save your projects!*
+
 ## Project 1: Twitter Spambot
 
 You've briefly learned about how to use Ruby to send requests to the web and parse responses.  When you're building real web applications, you'll often want to interface with other applications over the web via their API.  

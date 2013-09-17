@@ -21,6 +21,7 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 ## Two Paths Forward:
 
 Everyone is coming into this with a different goal in mind, so to accomodate that, here's two options for your path forward:  
+
 1. If you're just trying to race ahead and put up some Rails sites as fast as possible and worry about learning the fundamentals later, then your best bet is to complete the Basic Ruby section, which uses primarily Codecademy as a resource, and move onto the Rails unit.
 2. If you're really looking for a solid, sustainable base of knowledge, just stick to the normal roadmap and we'll get you there.
 
@@ -43,6 +44,8 @@ Some things you just won't pick up right away or their coverage by main resource
 
 **TODO: Walkthrough of a real Ruby program**
 
+## Let's get started! 
 
+Use the Roadmap on the left (at the top) to navigate your way through the curriculum.
 
 

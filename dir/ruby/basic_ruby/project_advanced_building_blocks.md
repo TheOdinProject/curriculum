@@ -4,6 +4,8 @@ layout: 'project'
 # Projects: Flow Control, Iteration, Closures and Enumerable
 Estimated Time: 4 hours
 
+*Don't forget to use Git to save your projects!*
+
 ## Project 1: Bubble Sort
 
 Sorting algorithms are some of the earliest that you typically get exposed to in Computer Science.  It may not be immediately obvious how important they are, but it shouldn't be hard to think of some examples where your computer needs to sort some massive datasets during everyday operations.
@@ -14,7 +16,7 @@ Check out [this video from Harvard's CS50x on Bubble Sort](http://cs50.tv/2012/f
 
 There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki/Bubble_sort) that's worth taking a look at.
 
-![Bubble Sort](images/Bubble-sort-example-300px.gif)
+![Bubble Sort](http://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
 
 ### Your Task
 1. Build a method `bubble_sort` that takes an array and returns a sorted array.  It must use the bubble sort methodology (using `sort` would be pretty pointless, wouldn't it?).

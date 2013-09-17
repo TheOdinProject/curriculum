@@ -4,6 +4,8 @@ layout: 'project'
 # Projects: Basic Data Structures and Algorithms
 Estimated Time: 5-7 hours
 
+*Don't forget to use Git to save your projects!*
+
 ## Project 1: Searching Binary Trees
 
 You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".

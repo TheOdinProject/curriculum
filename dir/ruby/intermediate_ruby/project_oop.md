@@ -4,6 +4,8 @@ layout: 'project'
 # Project: OOP with Ruby
 Estimated Time: 6-8 hours
 
+*Don't forget to use Git to save your projects!*
+
 ## Project 1: Tic Tac Toe
 
 Remember Tic Tac Toe (see [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you haven't)?  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!

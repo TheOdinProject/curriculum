@@ -4,6 +4,8 @@ layout: 'project'
 # Project: Testing Ruby with RSpec
 Estimated Time: 4-6 hours
 
+*Don't forget to use Git to save your projects!*
+
 ## Warmup: Time Traveling
 
 A good way to get familiar with and begin contributing to a new project is to write tests for it.  After the readings for this section, your head may be spinning a bit, so let's go back in time and write tests for some of the code you've already done.  
