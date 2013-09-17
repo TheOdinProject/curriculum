@@ -6,10 +6,19 @@
 
   margin-top: 20px;
 
+  .instructions{
+    font-size: 17px;
+    line-height: 125%;
+    color: #88c;    
+    font-weight: 200;
+    margin: 20px;
+    font-style: italic;
+  }
+
   .subject{
     width: 100%;
     margin: 20px 0px;
-    padding: 8px 5px;
+    padding: 8px 0px;
     color: #666;
     font-size: 20px;
     .default-subject{

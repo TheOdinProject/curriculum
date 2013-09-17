@@ -1,14 +1,17 @@
 
 <div id="contact-user" class="span6">
   <h1>Contact <%= @user.username %></h1>
+  <p class="instructions">
+    Use this form to send <%= @user.username %> an email.  <%= @user.username %> will be able to see your email address and respond to you directly.
+  </p>
 
   <%= form_tag(user_contact_path(@user), :method => "post") do %> 
     <%= csrf_meta_tag %>
 
-    <div class="subject">
+<!--     <div class="subject">
       Subject: <br>
       <span class="default-subject"><%= @subject %></span>
-    </div>
+    </div> -->
 
     <div class="body">
       Your Message:
