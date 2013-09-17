@@ -14,9 +14,9 @@ class ContactsController < ApplicationController
   def create
     @user = User.find_by_id(params[:user_id])
     @message = Message.new({
-        :body => params[:body],
+        :body => params[:body].html_safe,
         :subject => default_subject,
-        :recipient => @user.email,
+        :recipient => @user,
         :sender => current_user
       })
     if @message.valid?
