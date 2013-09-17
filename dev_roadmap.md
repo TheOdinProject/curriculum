@@ -25,8 +25,8 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 
 v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
 
-* change shading of navbar
 * Add OSS contribution and tracking tools like a mailing list
+DONE change shading of navbar to flatten it out (remove shadow)
 DONE Build mailer button in the event profiles
 DONE remove email addresses from profiles
 DONE add notification for users to login to post to the forum
