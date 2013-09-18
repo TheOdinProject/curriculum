@@ -60,6 +60,8 @@ code{
   position: absolute;
   top:60px;
   right: 10px;
+  height: 45px;
+  width: 200px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -68,6 +70,33 @@ code{
   box-shadow: 0 0 10px rgba(0,0,0,.5);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
+}
+
+.social{
+  position: absolute;
+  top: 105px;
+  right: 10px;
+  width: 200px;
+  padding: 15px 0px 0px 0px;
+  text-align: right;
+  display: inline-block;
+}
+.social-button{
+  width: 115px;
+  height: 25px;
+  display:inline-block;
+  padding: 5px 0px;
+}
+
+.facebook{
+  /*padding-top:10px;*/
+  padding-right: 32px;
+}
+.twitter{
+  /*padding-top: 10px;*/
+}
+.google-plus{
+  /*padding-top: 10px;*/
 }
 
 .coming-soon{
