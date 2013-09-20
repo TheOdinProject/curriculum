@@ -29,6 +29,7 @@ layout: 'content'
 * [Building a Wine Cellar with Backbone.js](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
 * [Angular.js video training resources](http://www.egghead.io)
 * [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
+* [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
 
 ### Screencasts
 * [PAID training webcasts on pretty much anything](https://www.bitcast.io/)

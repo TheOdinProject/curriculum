@@ -156,6 +156,11 @@
     </a>
   </li>
   <li>
+    <a href="http://theodinproject.github.io/curriculum/dir/getting_started.html">
+      Getting Started
+    </a>
+  </li>
+  <li>
     <a href="http://theodinproject.github.io/curriculum/dir/becoming_a_web_developer/">
       About Web Developers  &raquo;
     </a>
@@ -475,6 +480,18 @@
     <a href="http://theodinproject.github.io/curriculum/dir/databases/" class="coming-soon">
       Databases <em>-- Coming Soon!</em>
     </a>
+    <ol>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/databases/types_of_databases.html" class="project-link">
+          Types of Databases
+        </a>
+      </li>
+      <li>
+        <a href="http://theodinproject.github.io/curriculum/dir/databases/project_databases.html">
+          Project: SQL Zoo
+        </a>
+      </li>
+    </ol>
   </li>
   <li>
     <a href="http://theodinproject.github.io/curriculum/dir/rails/" class="coming-soon">
@@ -629,12 +646,27 @@
 
 <h2>This section is collecting resources right now</h2>
 
+<h2>Intro</h2>
+
+<p>You've already taken a brief dip into databases as part of the <a href="http://theodinproject.github.io/curriculum/dir/web_development_basics/web_programming_basics/database_basics.html">Web Development 101</a> section, hopefully learning why we use databases and some basics about how they are structured.  In this section, we'll dive a bit deeper into relational databases and SQL in particular.</p>
+
+<p>It's a bit difficult to predict how much knowledge of SQL is the right amount... if you're building a very straightforward web application, you'll likely only need to understand the basics of Create/Read/Update/Destroy operations, how to join tables together, and how to filter and order results.</p>
+
+<p>These are things that Rails actually makes fairly easy for you, so your knowledge of SQL only really needs to be enough to conceptualize what Rails is doing.  In that limited case, you might skim this section and treat it as reference for later, or even skip it altogether.</p>
+
+<p>At some point, though, you'll probably find yourself having to pull a more nuanced or complicated dataset from your database, like "Only those applicants who applied to the New York program and scored above a 7 on their first coding test, grouped by month and sorted reverse chronologically" (this was a real one).  A lot of the time, it's for internal tools that you use to track what users are doing with your application (e.g. building a simple analytics dashboard).</p>
+
+<p>If you're doing a lot of externally facing queries, you'll probably need to not just understand SQL well enough to set up the problem but also get the data you want using as few queries as possible.  Every new query is more time the user is impatiently waiting for the page to load.  SQL is a very fast language, you just need to understand how to put all the information you're trying to retrieve into an appropriately structured query.</p>
+
+<p>So if your goal is to understand this stuff well enough to build some really high quality applications, dive in here!  The project will give you plenty of practice and will probably push you to the edges of your understanding.  Even if you forget it afterwards, you'll be able to come back for a refresher when you hit that one particularly mind-boggling query.</p>
+
 <h2>Roadmap:</h2>
 
 <ul>
 <li>Overview of databases (should be review from 101 section)</li>
 <li>SQL online resources</li>
 <li>Advanced: the whole coursera course on databases</li>
+<li>Easy quiz: http://www.w3schools.com/quiztest/quiztest.asp?qtest=SQL</li>
 <li>Project: SQL Zoo</li>
 </ul>
 
