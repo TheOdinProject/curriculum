@@ -12,4 +12,4 @@ By the end of this unit, you should not only understand how the web works, but b
 
 We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  Each section will contain questions that you'd better be able to answer before moving on.  For the first time, some of the sections below will ask you to do exercises and even a couple of mini projects to help build your understanding.  While most of this material should be fine to tackle on your own, the projects in particular can be useful ones to find a partner and pair up on.  Give it a shot!
 
-Final note: Please [let us know](mailto:curriculum@theodinproject.com) how long these sections take you so we can provide more accurate time estimates to future students.
+Final note: Please [let us know](mailto:curriculum@theodinproject.com) how long these sections take you so we can provide more accurate time estimates to future students. 
