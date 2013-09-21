@@ -2,7 +2,7 @@
 layout: 'content'
 ---
 
-# Web Development Basics
+# Web Development 101
 
 Now that you know [what web developers do]({{ site.url }}/dir/becoming_a_web_developer/), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  You can consider this the "Prep Work" section of this curriculum but it will also serve as a reference for later.  This unit will probably take between 60-90 hrs to complete.
 

@@ -16,6 +16,7 @@ Estimated Time: 1-2 hrs
 * What is HTML and how is it used?
 * What is CSS and how is it used?
 * What's the difference between static and dynamic web pages?
+* What is your browser's Web Inspector (aka Developer Tools) and how can you use it to poke around in a page's HTML?
 * What happens when you click "search" on google.com?
 
 ## Assignment:
@@ -24,6 +25,7 @@ Estimated Time: 1-2 hrs
 3. Harvard's David Malan explains internet basics starting at 52:15 in [this lecture](http://cs50.tv/2012/fall/lectures/7/week7m-720p.mp4) from his popular Intro to Computer Programming course.  Note the "developer tools" section of the browser that he talks about around minute 58... you'll use that a lot.  We'll get heavily into HTML later in the curriculum.
 4. He dives further into HTTP in a [short 3-minute video (video)](http://cs50.tv/2012/fall/shorts/http/http-720p.mp4).
 5. Check out [a bit more on developer tools](http://www.dontfeartheinternet.com/the-basics/dont-fear-the-browser) from Don't Fear the Internet, since getting familiar with your browser's tools will help you out quite a bit as you start poking around the web pages you or others have made.
+6. Why are we spending so much time looking at developer tools for the browser?  Because they are your gateway to seeing the inner workings of websites and will help you figure out what's wrong with your own.  You can also use them to scrape data from other people's websites, which you will learn about by reading Dan Nguyen's [Intro to Web Scraping](http://ruby.bastardsbook.com/chapters/web-scraping/) and then the following chapter on [Meeting your Web Inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).  Take a few minutes to go mucking around on your favorite websites and seeing how they're organized.
 6. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](http://www.youtube.com/watch?v=z1TkfcC53G0) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
 7. (Optional) For a more detailed (though a bit dated) text explanation of http, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 
