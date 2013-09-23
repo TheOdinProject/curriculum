@@ -1,9 +1,18 @@
 <footer id="footer">
   <hr>
+
   <form id="footer-suggestion-form" class="form-inline" action="<%= suggestion_path %>" method="post" data-remote="true">
+
+    <input type="hidden" name="pathname" value="" id="suggestion-pathname">
+
     <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
-    <button type="submit" class="btn" id="suggestion-button">Tell Us!</button>
+
+    <button type="submit" class="btn" id="suggestion-button">
+      Tell Us!
+    </button>
+
   </form>
+
   <span class="copyright">
     <a href="http://theodinproject.github.io/curriculum/dir/odin.html" title="Why Odin?">
       Why Odin?
@@ -20,5 +29,21 @@
       $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
       console.log("did it!");
     });
+    $("#suggestion-pathname").val(location.pathname);
   });
 </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

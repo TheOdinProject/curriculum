@@ -5,9 +5,10 @@ class ContactMailer < ActionMailer::Base
   ODIN_URL = "http://www.theodinproject.com"
 
 
-  def suggestion_email(suggestion_text, url)
+  def suggestion_email(suggestion_text, url="", user_email="")
     @url = url
     @suggestion_text = suggestion_text
+    @user_email = user_email
     mail( { :to => FEEDBACK_EMAIL,
             :subject => "Site FEEDBACK" } )
   end

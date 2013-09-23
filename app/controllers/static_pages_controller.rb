@@ -16,15 +16,6 @@ class StaticPagesController < ApplicationController
     # render "splash"
   end
 
-  def send_feedback
-    if params[:suggestion]
-      SplashMailer.splash_suggestion_email(params[:suggestion]).deliver!
-    end
-    respond_to do |format|
-      format.json { render json: params[:suggestion] }
-    end
-  end
-
   def scheduler
 
     unless cookies["cb"].blank?
@@ -43,8 +34,14 @@ class StaticPagesController < ApplicationController
 
   # For the suggestion form in the footer
   def suggestion
+    if user_signed_in?
+      user = current_user.email
+    else
+      user = "< not logged in >"
+    end
+
     if params[:suggestion]
-      ContactMailer.suggestion_email(params[:suggestion], request.url).deliver!
+      ContactMailer.suggestion_email(params[:suggestion], params[:pathname], user).deliver!
     end
     respond_to do |format|
       format.json { render json: params[:suggestion] }

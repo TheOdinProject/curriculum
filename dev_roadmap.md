@@ -25,6 +25,7 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 
 v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
 
+* Fix suggestions form to include current URL
 * Add OSS contribution and tracking tools like a mailing list
 DONE change shading of navbar to flatten it out (remove shadow)
 DONE Build mailer button in the event profiles
