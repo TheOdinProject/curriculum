@@ -28,6 +28,7 @@ group :development do
   gem 'letter_opener' # shows outgoing emails in your browser instead
   gem 'rspec-rails'
   gem 'capybara',                   '<= 2.0.2'
+  gem 'localtunnel'
 end
 
 group :test do

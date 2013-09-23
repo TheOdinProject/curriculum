@@ -113,6 +113,10 @@ GEM
     letter_opener (1.1.2)
       launchy (~> 2.2)
     libv8 (3.11.8.17)
+    localtunnel (0.3)
+      json (>= 1.2.4)
+      net-ssh (>= 2.0.22)
+      net-ssh-gateway (>= 1.0.1)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -121,6 +125,9 @@ GEM
     mini_portile (0.5.1)
     multi_json (1.7.8)
     multipart-post (1.2.0)
+    net-ssh (2.7.0)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
     newrelic_rpm (3.6.5.130)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
@@ -229,6 +236,7 @@ DEPENDENCIES
   jquery-ui-rails (~> 4.0.3)
   less-rails (~> 2.3.3)
   letter_opener
+  localtunnel
   newrelic_rpm (~> 3.6.5.130)
   pg (~> 0.15.1)
   quiet_assets
