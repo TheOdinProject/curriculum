@@ -3,8 +3,6 @@ layout: 'content'
 ---
 # Databases and SQL
 
-## This section is collecting resources right now
-
 ## Intro
 
 You've already taken a brief dip into databases as part of the [Web Development 101]({{site.url}}/dir/web_development_basics/web_programming_basics/database_basics.html) section, hopefully learning why we use databases and some basics about how they are structured.  In this section, we'll dive a bit deeper into relational databases and SQL in particular.  
@@ -18,12 +16,3 @@ At some point, though, you'll probably find yourself having to pull a more nuanc
 If you're doing a lot of externally facing queries, you'll probably need to not just understand SQL well enough to set up the problem but also get the data you want using as few queries as possible.  Every new query is more time the user is impatiently waiting for the page to load.  SQL is a very fast language, you just need to understand how to put all the information you're trying to retrieve into an appropriately structured query.
 
 So if your goal is to understand this stuff well enough to build some really high quality applications, dive in here!  The project will give you plenty of practice and will probably push you to the edges of your understanding.  Even if you forget it afterwards, you'll be able to come back for a refresher when you hit that one particularly mind-boggling query.
-
-
-## Roadmap:
-
-* Overview of databases (should be review from 101 section)
-* SQL online resources
-* Advanced: the whole coursera course on databases
-* Easy quiz: http://www.w3schools.com/quiztest/quiztest.asp?qtest=SQL
-* Project: SQL Zoo
