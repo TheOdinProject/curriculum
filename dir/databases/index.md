@@ -16,3 +16,11 @@ At some point, though, you'll probably find yourself having to pull a more nuanc
 If you're doing a lot of externally facing queries, you'll probably need to not just understand SQL well enough to set up the problem but also get the data you want using as few queries as possible.  Every new query is more time the user is impatiently waiting for the page to load.  SQL is a very fast language, you just need to understand how to put all the information you're trying to retrieve into an appropriately structured query.
 
 So if your goal is to understand this stuff well enough to build some really high quality applications, dive in here!  The project will give you plenty of practice and will probably push you to the edges of your understanding.  Even if you forget it afterwards, you'll be able to come back for a refresher when you hit that one particularly mind-boggling query.
+
+## Assignment
+
+* Watch the [SQL Tutorial for Beginners on YouTube Part 1](https://www.youtube.com/watch?v=cYmQr8yeALA)
+* Watch [Part 2](https://www.youtube.com/watch?v=1sMR2ApQVvw)
+* Watch [Part 3](https://www.youtube.com/watch?v=deegPjmasq8)
+* Watch [Part 4](https://www.youtube.com/watch?v=vHE-EeLaYsI)
+* Find better free videos and tell us about them :)
