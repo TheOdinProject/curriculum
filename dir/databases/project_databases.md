@@ -10,6 +10,8 @@ It's tough to read a bunch of stuff and then "know" how to build good queries.  
 
 This quiz shouldn't take long at all, but if you didn't score better than a 17/20, you should consider rereading some of the material.
 
+[Take the quiz here](http://www.w3schools.com/sql/sql_quiz.asp)
+
 ## Project: SQL Zoo
 
 ## Your Task
