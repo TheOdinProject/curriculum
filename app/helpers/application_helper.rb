@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def title
-    "The Odin Project -- Empowering Aspiring Developers to Learn Together"
+    "The Odin Project -- The Open Curriculum for Learning Web Development"
   end
 
 end
