@@ -1,7 +1,7 @@
 # The Odin Project 
 v0.0.6 http://www.theodinproject.com/scheduler
 
-## Empowering Aspiring Developers to Learn Together
+## The Open Curriculum for Learning Web Development
 
 
 This site provides the main user experience for The Odin Project, including the home page and all user functions.  It is meant to be a shell around [The Odin Project Curriculum](https://curriculum.theodinproject.com) and to include the tools that help students to pair together and get to know others who are working on the curriculum.  
@@ -13,6 +13,12 @@ Thus far, the code has been more or less hacked together so don't use it as a st
 For minor fixes, either submit a github issue or a pull request.  Please coordinate with the project maintainers if you're interested in working on some of the larger features in order to avoid traffic jams.
 
 Contact us directly at [project@theodinproject.com](mailto:project@theodinproject.com)
+
+## Future Development
+
+The file [dev_roadmap.md](dev_roadmap.md) will be more specific but there are some overall goals for the short term development of this project:
+* Bring the curriculum repo under the umbrella of this one (it's currently being served using Jekyll via Github Pages under the subdomain curriculum.theodinproject.com) to begin rolling out progress tracking and realtime collaboration tools.
+* Improve the documentation of the existing code base so people can more easily navigate through it.  This means in-line commenting and also creating a higher level github wiki page that explains how the project works and the best ways to navigate it.
 
 ## Features
 
@@ -28,13 +34,6 @@ You can set up a referral link so that someone can click on it and get taken dir
 `http://www.theodinproject.com/?cb=6`
 
 Using IDs is obviously not ideal but it's the best we've got right now.  If you're wondering which project goes with which ID, your best bet right now is to guess-and-check by following those links... there aren't too many projects so it shouldn't be too tough.
-
-## Future Development
-
-The file [dev_roadmap.md](dev_roadmap.md) will be more specific but there are some overall goals for the short term development of this project:
-* Create a real home page... right now it's just a splash page to collect email addresses and, now that this whole thing is open and rearing to go, we need a nice welcoming home page that links out to everything nicely.  That's the first goal.
-* Improve the documentation of the existing code base so people can more easily navigate through it.  This means in-line commenting and also creating a higher level github wiki page that explains how the project works and the best ways to navigate it.
-* Improve user privacy... right now user emails are visible so students can reach out to each other directly.  Ideally, we'd be able to mask the emails so users can protect their privacy until they'd like to reveal themselves to each other.
 
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
