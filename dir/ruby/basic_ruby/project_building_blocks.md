@@ -39,6 +39,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 
 * Your Solution Here
 
+[Solution from oafridi](https://github.com/oafridi/ruby_dev/blob/master/caesar_cipher.rb)
 
 ## Project 2: Stock Picker
 
