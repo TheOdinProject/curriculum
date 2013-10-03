@@ -23,8 +23,17 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 
 **********************  Current Version Sandbox  ********************
 
-v0.0.7: Bug fixes, tweaks, and Open Source contribution tools
+v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution tools
 
+* Use Github API to pull in curriculum dynamically
+* ** set up simple API call
+* ** Set up dynamic api call to handle directory structure
+* ** Set up error handling for calls (see docs) 
+* ** Set up markdown rendering
+* ** Set up view templates
+* ** Design navigation
+* ** Set up navigation
+* ** Set up github authentication to avoid early rate limiting issues
 * Fix suggestions form to include current URL
 * Add OSS contribution and tracking tools like a mailing list
 DONE change shading of navbar to flatten it out (remove shadow)
