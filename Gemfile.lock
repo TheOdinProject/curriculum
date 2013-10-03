@@ -81,6 +81,13 @@ GEM
     figaro (0.7.0)
       bundler (~> 1.0)
       rails (>= 3, < 5)
+    github_api (0.10.2)
+      addressable
+      faraday (~> 0.8.7)
+      hashie (>= 1.2)
+      multi_json (~> 1.4)
+      nokogiri (~> 1.6.0)
+      oauth2
     google-api-client (0.6.4)
       addressable (>= 2.3.2)
       autoparse (>= 0.3.3)
@@ -91,7 +98,9 @@ GEM
       multi_json (>= 1.0.0)
       signet (~> 0.4.5)
       uuidtools (>= 2.1.0)
+    hashie (2.0.5)
     hike (1.2.3)
+    httpauth (0.2.0)
     i18n (0.6.4)
     journey (1.0.4)
     jquery-rails (3.0.4)
@@ -124,6 +133,7 @@ GEM
     mime-types (1.23)
     mini_portile (0.5.1)
     multi_json (1.7.8)
+    multi_xml (0.5.5)
     multipart-post (1.2.0)
     net-ssh (2.7.0)
     net-ssh-gateway (1.2.0)
@@ -131,6 +141,13 @@ GEM
     newrelic_rpm (3.6.5.130)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    oauth2 (0.9.2)
+      faraday (~> 0.8)
+      httpauth (~> 0.2)
+      jwt (~> 0.1.4)
+      multi_json (~> 1.0)
+      multi_xml (~> 0.5)
+      rack (~> 1.2)
     orm_adapter (0.4.0)
     pg (0.15.1)
     polyglot (0.3.3)
@@ -231,6 +248,7 @@ DEPENDENCIES
   devise (~> 2.2.4)
   factory_girl_rails
   figaro
+  github_api
   google-api-client (~> 0.6.4)
   jquery-rails (~> 3.0.4)
   jquery-ui-rails (~> 4.0.3)
