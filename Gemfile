@@ -11,6 +11,7 @@ gem 'google-api-client',  '~> 0.6.4'
 gem 'devise',             '~> 2.2.4' # For managing authentication
 gem 'figaro'                         # Managing environment variables
 gem 'github_api'  # to pull in the curriculum files
+gem 'thin'  # to use the "thin" webserver instead of webrick
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

@@ -59,6 +59,7 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     commonjs (0.2.6)
+    daemons (1.1.9)
     debug_inspector (0.0.2)
     devise (2.2.5)
       bcrypt-ruby (~> 3.0)
@@ -67,6 +68,7 @@ GEM
       warden (~> 1.2.1)
     diff-lcs (1.2.4)
     erubis (2.7.0)
+    eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
     extlib (0.9.16)
@@ -217,6 +219,10 @@ GEM
     therubyracer (0.11.4)
       libv8 (~> 3.11.8.12)
       ref
+    thin (1.5.1)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
     thor (0.18.1)
     tilt (1.4.1)
     treetop (1.4.14)
@@ -263,5 +269,6 @@ DEPENDENCIES
   sass-rails (~> 3.2.3)
   simple_form (~> 2.1.0)
   therubyracer (~> 0.11.4)
+  thin
   twitter-bootstrap-rails (= 2.2.6)
   uglifier (>= 1.0.3)
