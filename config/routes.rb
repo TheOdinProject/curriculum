@@ -16,7 +16,7 @@ Theodinproject::Application.routes.draw do
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
   get 'curriculum', :to => redirect('http://curriculum.theodinproject.com')
-  get 'devcurriculum' => 'curriculum#index'
+  get 'devcurriculum(/*dir(.:format))' => 'curriculum#index'
   # get 'contact_user' => 'contact#new'
   # post 'contact_user' => 'contact#create'
 

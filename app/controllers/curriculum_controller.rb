@@ -9,7 +9,8 @@ class CurriculumController < ApplicationController
     github = Github::Repos.new :user => "theodinproject", :repo => "curriculum"
     # response = github.commits.all 'eriktrautman', 'modernwanderlust'
     # response = github.repos.contents "theodinproject", "curriculum"
-    response = github.contents.get :path => "README.md"
+    puts "\n\n\n\n DIR is #{params[:dir]}! \n\n\n\n"
+    response = github.contents.get :path => "#{params[:dir]}"
     puts "\n\n\n\n\n RESPONSE IS : #{response.inspect} ! \n\n\n\n\n"
     @response = Base64.decode64(response["content"])
 

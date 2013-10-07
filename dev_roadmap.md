@@ -25,16 +25,19 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 
 v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution tools
 
+* docs: how to set it up locally (pg)
 * Use Github API to pull in curriculum dynamically
-* ** set up simple API call
+XXXX set up simple API call
 * ** Set up dynamic api call to handle directory structure
 * ** Set up error handling for calls (see docs) 
+* ** Set up smart handling to look for index.html/.md if not specified
 * ** Set up markdown rendering
 * ** Set up view templates
 * ** Design navigation
 * ** Set up navigation
 * ** Set up github authentication to avoid early rate limiting issues
 * Fix suggestions form to include current URL
+* Fix gravatar bug with changing it
 * Add OSS contribution and tracking tools like a mailing list
 DONE change shading of navbar to flatten it out (remove shadow)
 DONE Build mailer button in the event profiles
