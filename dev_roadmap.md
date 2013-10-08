@@ -26,7 +26,7 @@ v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution to
 
 * ** Design navigation
 * ** Set up navigation
-* ** Load social buttons last so they don't trainwreck the page!
+DONE Load social buttons last so they don't trainwreck the page!
 * ** Deploy!
 * Fix gravatar bug with changing profile photo
 * docs: how to set it up locally (pg)

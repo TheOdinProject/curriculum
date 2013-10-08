@@ -1,7 +1,23 @@
 <div class="social">
 
   <div class="facebook social-button">
-    <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.theodinproject.com&amp;width=75&amp;height=21&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;send=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:75px; height:21px;" allowTransparency="true" id="fb-like"></iframe>
+    <!-- asynchronously load the fb button because it can train wreck
+    the whole page otherwise. -->
+    <script>
+      $(function(){
+        var iframe = document.createElement('iframe');
+        iframe.src = "//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.theodinproject.com&width=75&amp;height=21&colorscheme=light&layout=button_count&action=like&show_faces=false&send=false";
+        iframe.scrolling = "no";
+        iframe.frameborder= "0";
+        iframe.style.border = "none"; 
+        iframe.style.overflow = "hidden";
+        iframe.style.width = "75px"; 
+        iframe.style.height = "21px";
+        iframe.allowTransparency = "true";
+        iframe.id = "fb-like";
+        $(".facebook").append(iframe);
+      });
+    </script>
   </div>
 
   <div class="twitter social-button">
