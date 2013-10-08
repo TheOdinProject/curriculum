@@ -24,8 +24,6 @@ It's game on.
 
 v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution tools
 
-* ** Set up github authentication to avoid early rate limiting issues
-* ** Set up warning to gh-pages about obsolete-ness (use header)
 * ** Design navigation
 * ** Set up navigation
 * ** Load social buttons last so they don't trainwreck the page!
@@ -33,6 +31,8 @@ v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution to
 * Fix gravatar bug with changing profile photo
 * docs: how to set it up locally (pg)
 * Add OSS contribution and tracking tools like a mailing list
+DONE Set up warning to gh-pages about obsolete-ness (use header)
+DONE Set up github authentication to avoid early rate limiting issues
 DONE Set up same-as-before view templates
 DONE Import images (like odin logo, octocat)
 DONE Set up new tree heirarchy (on master branch of curriculum!)
