@@ -5,7 +5,7 @@ Odin is a figure from Norse mythology, the allfather of the gods.  He is powerfu
 Learning development is not an easy task and the tools laid out here are merely the path; you must walk it yourself.  Should you possess a thirst for knowledge and persistence of spirit akin to that storied in Odin's mythos, you will surely find success on your journey.
 
 <center>
-  <img src="<%= root_path %>/additional_resources/images/odin_logo_circle_black.gif" alt="Odin" width="64px" style="margin-left:auto; margin-right:auto;">
+  <img src="/curriculum/additional_resources/images/odin_logo_circle_black.gif" alt="Odin" width="64px" style="margin-left:auto; margin-right:auto;">
 </center>
 
 [Wikipedia](http://en.wikipedia.org/wiki/Odin)

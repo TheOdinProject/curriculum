@@ -19,7 +19,7 @@ A good way to get familiar with and begin contributing to a new project is to wr
 
 ## Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](<%= root_path %>/contributing.html).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 * 
@@ -41,7 +41,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 
 ## Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](<%= root_path %>/contributing.html).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 * 

@@ -32,7 +32,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * Don't forget to keep the same case.
 
 ### Student Solutions
-*[Submit a link](/curriculum/contributing.html) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*[Submit a link](/curriculum/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Your Solution Here
 
@@ -51,7 +51,7 @@ Implement a method `stock_picker` that takes in an array of stock prices, one fo
 * Pay attention to edge cases like when the lowest day is the last day or the highest day is the first day.
 
 ### Student Solutions
-*[Submit a link](<%= root_path %>/contributing.html) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*[Submit a link](/curriculum/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Your Solution Here
 
@@ -78,6 +78,6 @@ Next, make sure your method can handle multiple words:
 * Recall how to turn strings into arrays and arrays into strings.
 
 ### Student Solutions
-*[Submit a link](<%= root_path %>/contributing.html) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*[Submit a link](/curriculum/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Your Solution Here

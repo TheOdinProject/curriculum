@@ -20,7 +20,7 @@ We also believe that there's plenty of high quality content out there right now.
 
 ## What You'll Learn
 
-We assume that you're at square one, so we start out by going over [what exactly a web developer does]({{ site.url }}/becoming_a_web_developer/), [how to install the necessary software](<%= root_path %>/installations/) on your machine, and how to [pair up with other students](<%= root_path %>/pairing/) on projects.  The [Web Development 101 section](<%= root_path %>/web_development_basics/) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
+We assume that you're at square one, so we start out by going over [what exactly a web developer does]({{ site.url }}/becoming_a_web_developer/), [how to install the necessary software](/curriculum/installations/) on your machine, and how to [pair up with other students](/curriculum/pairing/) on projects.  The [Web Development 101 section](/curriculum/web_development_basics/) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
 
 The curriculum takes a back-to-front approach to learning a Ruby on Rails workflow.  That means starting with a strong foundation in Ruby and an understanding of databases before migrating into Rails (which is a framework built using Ruby).
 
@@ -36,11 +36,11 @@ The units here are meant to break down into approximately 20% pre-learning / 80%
 
 Each step of the way, you should be able to see your progress through the projects you've built and by how far you've progressed along the path laid out here.  We'll also do our best to answer the question "So why the heck do I need to know this anyway?".  If one piece of content has you stuck, we'll have links to additional resources to help shore up your understanding.
 
-Navigate through the curriculum using the roadmap in the sidebar.  The links will take you to the appropriate files inside the repository for each unit. You're viewing this online but the whole curriculum really lives in a bunch of markdown files on Github that you can [contribute to](<%= root_path %>/contributing.html).
+Navigate through the curriculum using the roadmap in the sidebar.  The links will take you to the appropriate files inside the repository for each unit. You're viewing this online but the whole curriculum really lives in a bunch of markdown files on Github that you can [contribute to](/curriculum/contributing.md).
 
 ## Work In Progress!
 
-This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page](<%= root_path %>/contributing.html).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
+This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page](/curriculum/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
 
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 
@@ -55,4 +55,4 @@ This is also a path best navigated with help from friends (one or many).  If you
 
 <br>
 <hr>
-[**Why Odin?**](<%= root_path %>/odin.html)
+[**Why Odin?**](/curriculum/odin.md)
