@@ -41,27 +41,6 @@ If you're unfamiliar with the Markdown (.md) syntax that's used in these files, 
 
 As you can tell, we highly value and rely on the help of the developer and student communities.  We'd like to do as much as we can to identify our top contributers and the providers of high quality content.  While the curriculum resides on Github, we'll maintain a top contributers list in addition to the commit histories.  Should it migrate to an independent platform, we'll still do our best to attribute both the content and submission source for their contributions to the project.  Contributers taking a more active role in the project may be invited to join the core team as well.
 
-## How this Curriculum Actually Gets Deployed and Served
-
-### Github Pages 
-
-The curriculum is served by [Github Pages](http://pages.github.com/), which basically means that Github takes all the markdown and template files that it's made up of and then renders them as HTML which is viewable on theodinproject.github.com/curriculum (which is probably where you're looking at them right now).
-
-Github lets you serve these "Github Pages" for any project or organization account so they have you put the files you want rendered in a branch that must be named `gh-pages` and they use [Jekyll](http://jekyllrb.com/) to render them.  For many projects, the `gh-pages` branch will be completely different than the main project and the maintainers treat it as sort of a project-within-a-project (since the actual code for the project likely lives at the `master` branch and will be very different from the webpage served by the `gh-pages` branch to promote or provide a guide to that project).  
-### Contributing Workflow
-
-In the case of this curriculum, the `master` and `gh-pages` branches don't need to be treated separately because the curriculum IS what should get served by Github Pages... you'll find the two branches to be usually identical to within a few commits of each other (with `master` ahead).  The `master` branch tends to record work while I'm building and then those changes get pushed/merged to the `gh-pages` branch when it's time to deploy them (I'll often just do a `$ git push origin master:gh-pages` to push directly from my local master to the remote `gh-pages` branch).  
-
-If you want to contribute with a pull request, fork the `master` branch, make your changes (you'll find the curriculum files inside of the `dir` folder), and submit the pull request.  
-
-If you want to see them deployed in a test environment first (probably a good idea), you'll need to:
-
-1. Do a `$ bundle install` from within the project folder to get the jekyll gem on your machine
-2. There's a manual hack to get the links to show up properly, so you'll need to go into the `_config.yml` file and switch the `url` from `http://theodinproject.com/curriculum` to `http://localhost:4000` (usually this just means uncommenting one line and recommenting the other).  Yeah, it's ugly.
-2. Run `$ jekyll build` to build the project, which basically renders everything in your top level directory and puts it as HTML files into the `_site` directory (don't manually edit any files in the `_site` directory, they get blown away each time you run `$ jekyll build` anyway).  
-3. Run `$ jekyll serve` to fire up a localhost server (usually port 4000, e.g. `http://localhost:4000`) and view the rendered page.
-4. You should be good to go.  Please only include the top level file that was changed in the pull request... the extra `_site` and `_config.yml` changes are just clutter.
-
 ## Thank you for your help and support!
 
 
