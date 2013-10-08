@@ -426,15 +426,15 @@
 
     // find the exact anchor element we are currently "at" in the
     // navigation tree, e.g. the "Web Development 101" link.
+    var path = window.location.pathname;
+    if(path.indexOf(".md") == -1 && path.indexOf(".html") == -1 && path.slice(-1) != "/"){
+      regex = path + "/$";
+    }else{
+      regex = path + "$";
+    }
     var anchorMatch = $("#navigation-list")
       .find("a")
       .filter(function(){
-        console.log(window.location.pathname);
-        var regex = (window.location.pathname) + "$";
-        // The following was for when / and / were the "same"
-        // if(regex == "/$"){
-        //   regex = "^/$";
-        // }
         return this.href.match(regex);
       });
 
