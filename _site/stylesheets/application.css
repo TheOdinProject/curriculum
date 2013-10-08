@@ -33,6 +33,18 @@ code{
   color: #f60;
 }
 
+#warning-note{
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+  font-size: 1em;
+  padding: .5em;
+}
+#warning-note p{
+  line-height: 1.25em;
+  margin: 0px;
+}
+
 #header_wrap h1{
   font-size: 45px;
   font-weight: bold;
