@@ -31,5 +31,6 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * DucPhan's [ProjectEuler solutions](https://github.com/phanducsjsu/ProjectEuler) and [Ruby Mini Project (WIP)](https://github.com/phanducsjsu/Test-First-Ruby)
+* "Official" [Test First Ruby Solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * ErikHP's [Ruby Mini Project (WIP)](https://github.com/ErikHP/test-first-ruby)
 * *Your solution here...*
