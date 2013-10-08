@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Odin
 
 Odin is a figure from Norse mythology, the allfather of the gods.  He is powerful and fickle (as they often are) but also wise and cunning.  His search for knowledge is a thing of legends -- [he gave his eye for the wisdom of ages](http://norse-mythology.org/tales/why-odin-is-one-eyed/) and [hung from the world tree, pierced by his own spear, for nine days and nights to gain the knowledge of runes](http://norse-mythology.org/tales/odins-discovery-of-the-runes/).

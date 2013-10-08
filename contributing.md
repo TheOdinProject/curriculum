@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Contributing
 
 This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  

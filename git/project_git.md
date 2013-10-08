@@ -1,6 +1,3 @@
----
-layout: 'project'
----
 # Project: Git Calisthenics
 Total Estimated Time: TODO
 

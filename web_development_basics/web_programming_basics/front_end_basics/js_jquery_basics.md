@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Javascript and jQuery 101
 Estimated Time: 15-20 hrs
 

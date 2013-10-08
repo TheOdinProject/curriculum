@@ -1,8 +1,3 @@
----
-layout: 'content'
----
-
-
 # Databases
 Estimated Time: ??? hrs
 

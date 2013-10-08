@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Ruby on Rails 101
 Estimated Time: 8-12 hrs
 

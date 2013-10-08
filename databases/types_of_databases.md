@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Different Databases
 
 In this section, we'll take a brief look at different types of databases.

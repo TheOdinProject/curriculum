@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Finale
 
 At this point, you should have a comfortable grounding in the nuts and bolts of how databases basically work and how to write SQL queries to manipulate them.  That understanding will be helpful when we begin our dive into ActiveRecord, which is the part of Rails that actually talks to the database for you.  With ActiveRecord, you still construct the same sorts of SQL queries, but using the Ruby syntax instead.

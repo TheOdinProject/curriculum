@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # How Are Websites Built?
 
 ## Macro Level: From Client to Developer and Back

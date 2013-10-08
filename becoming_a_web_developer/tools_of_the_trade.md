@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # What are the Tools of the Trade?
 
 You know what a developer does now but you'll also want to familiarize yourself with the basic tools of the trade:

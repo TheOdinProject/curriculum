@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Git
 Total Estimated Time: 8-12 hours
 

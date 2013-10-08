@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Databases and SQL
 
 ## Intro

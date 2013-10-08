@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Installations
 Total estimated time: 3-6 hours
 

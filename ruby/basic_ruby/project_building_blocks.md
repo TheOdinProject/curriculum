@@ -1,6 +1,3 @@
----
-layout: 'project'
----
 # Projects: Strings, Arrays and Hashes
 Estimated Time: 2 hours
 

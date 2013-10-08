@@ -1,7 +1,3 @@
----
-layout: 'project'
----
-
 # JS/jQuery Mini-Project:
 Estimated Time: 2-4 hrs
 

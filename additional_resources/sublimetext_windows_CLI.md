@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # How to Open Sublime Text via Command Line
 
 ##Overview

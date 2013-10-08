@@ -1,7 +1,3 @@
----
-layout: 'project'
----
-
 # HTML/CSS Mini-Project:
 Estimated Time: 2-4 hrs
 

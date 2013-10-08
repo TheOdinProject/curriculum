@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Welcome!
 
 **If you're looking to learn web development then you've come to the right place!**

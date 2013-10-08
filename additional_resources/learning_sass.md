@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Getting Started with Sass
 =========================
 

@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Ruby on Rails
 
 ## This section is collecting resources right now

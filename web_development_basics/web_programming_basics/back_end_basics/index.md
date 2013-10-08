@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Back End Basics
 Total Estimated Time: 20-30 hrs
 

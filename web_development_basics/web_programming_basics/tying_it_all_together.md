@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Tying it All Together
 Estimated Time: 1 hr
 

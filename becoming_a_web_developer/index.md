@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Becoming a Web Developer
 Total estimated time: 2-4 hours
 

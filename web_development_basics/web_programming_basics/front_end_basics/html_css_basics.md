@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # HTML and CSS 101
 Estimated Time: 6-10 hrs
 

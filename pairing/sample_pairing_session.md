@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # A Sample Remote Pairing Session
 
 If all of that seemed a bit confusing, here's a step-by-step workflow for remote pairing.

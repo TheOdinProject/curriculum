@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Additional Resources
 
 ## This section is collecting resources right now

@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # HTML and CSS
 
 ## This section is collecting resources right now

@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Frameworks
 Estimated Time: 10-15 hrs
 

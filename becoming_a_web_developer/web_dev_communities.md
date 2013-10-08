@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Where are the Web Development Communities?
 
 Developers are passionate builders and they often enjoy taking part in various communities and events, both online and off.  As an aspiring developer, it's good for you to begin familiarizing yourself with these communities and how you can participate.  All of these places have a space for beginning developers to at least observe and ask questions.  Experienced devs often enjoy helping out eager learners as long as you keep you are respectful and open-minded.

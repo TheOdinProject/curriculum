@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Advanced Building Blocks
 *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*
 

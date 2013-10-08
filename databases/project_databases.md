@@ -1,6 +1,3 @@
----
-layout: 'project'
----
 # Project: Databases and SQL
 Estimated Time: 4-8 Hours
 

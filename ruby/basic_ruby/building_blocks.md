@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Ruby Building Blocks
 *Variables, Data Types, Strings, Methods*
 

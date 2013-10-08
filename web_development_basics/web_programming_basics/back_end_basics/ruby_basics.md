@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Ruby 101
 Estimated Time: 20-30 hrs
 

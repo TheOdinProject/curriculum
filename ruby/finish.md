@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Finish
 
 You did it! Ruby is conquered.  You're now a ninja.... okay, that's a bit hyperbolic but the fact is that you now know more than enough Ruby to take on Rails like a Boss.  And, actually, the real secret is that the hard part is over.  Getting to this point is the most difficult part of the learning curve.

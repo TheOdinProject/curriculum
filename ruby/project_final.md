@@ -1,7 +1,3 @@
----
-layout: 'project'
----
-
 # Project: Testing Ruby with RSpec
 Estimated Time: 12-18 hours
 

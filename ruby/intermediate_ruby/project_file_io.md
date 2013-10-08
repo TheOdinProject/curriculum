@@ -1,6 +1,3 @@
----
-layout: 'project'
----
 # Project: Serialization and Working with Files
 Estimated Time: 4-6 hours
 

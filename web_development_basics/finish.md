@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Finish
 
 Now you've gotten your feet wet and I hope you're getting curious to dig deeper.  You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a functioning page.  You should be able to create a basic web page and make it do some basic things with Javascript.  You should also be able to write a simple Ruby script, test it, and describe what Rails and Backbone actually are.  Finally, you should have a clear understanding of how all this fits together in your future as a builder of web applications.

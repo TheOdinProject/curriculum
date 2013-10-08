@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Web Programming Basics
 Estimated Time: 40-60 hrs
 

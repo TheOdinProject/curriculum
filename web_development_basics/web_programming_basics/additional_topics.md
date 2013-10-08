@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Additional Important Topics:
 
 ## Git 101

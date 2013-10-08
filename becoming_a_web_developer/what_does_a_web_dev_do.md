@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # So What Does a Web Developer Actually Do?
 
 The short answer... they build and maintain websites.  But what exactly that looks like varies widely depending on the type of job the developer works at. The good part is that web developers are in high demand and so, though they work very hard, they're generally able to command comfortable salaries and healthy work/life balances.  It's a profession that rewards people who are natural problem solvers and who enjoy building things.

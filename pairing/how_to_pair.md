@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # How do we Pair?
 
 ## Tools

@@ -1,7 +1,3 @@
----
-layout: 'project'
----
-
 # Ruby Mini-Project:
 Estimated Time: 4-6 hrs
 

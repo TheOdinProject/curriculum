@@ -1,7 +1,3 @@
----
-layout: 'project'
----
-
 # Rails Mini Project:
 Estimated Time: 3-5 hrs
 

@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # What are Web Development Careers and Jobs Like?
 
 Hopefully by now you've got at least a vague idea what a web developer is supposed to do but examples speak louder than explanations when it comes to the question of "What is it like to actually **be** a developer?".

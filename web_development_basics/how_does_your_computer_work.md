@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Step Back... How Does Your Computer Work?
 Estimated Time: 2-4 hrs
 

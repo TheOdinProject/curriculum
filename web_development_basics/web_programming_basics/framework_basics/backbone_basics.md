@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Backbone.js 101
 Estimated Time: 1 hr
 

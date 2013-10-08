@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Basic Data Structures and Algorithms
 
 The basic idea of a data structure is to store data in a way that meets the needs of your particular application.  You can usually store data in one giant array, but it can be very time consuming to locate a particular value.  Depending on the application, there are a batch of other basic data structures that you can use to meet your needs.  Often, you end up making trade-offs between various attributes like how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory.

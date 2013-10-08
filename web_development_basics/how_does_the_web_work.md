@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # How Does the Web Work?
 Estimated Time: 1-2 hrs
 

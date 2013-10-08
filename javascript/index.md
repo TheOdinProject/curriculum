@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Javascript
 
 ## This section is collecting resources right now

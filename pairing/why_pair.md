@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Why Pair?
 
 ## The major benefits of pairing to learn are:

@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Mobile
 
 ## This section is collecting resources for iOS and Android Development

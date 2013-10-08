@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Good Programming with OOP
 
 You've got the building blocks of Ruby out of the way, great! Now it's time to get into the fun stuff... how do we combine those building blocks in the most efficient and elegant ways to produce the programs we'd like to write?

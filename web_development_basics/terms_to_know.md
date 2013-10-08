@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Terms to Know
 Estimated Time: 1-2 hrs
 

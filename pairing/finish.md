@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Finish
 
 You should now have the simple tools installed to allow for remote pair programming and a good idea of how to use them.  Get excited! That's a small but important step forward... now you've got the power to pair with anyone on any project.  All that's left is to start learning and get started on some projects!

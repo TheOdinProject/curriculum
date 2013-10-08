@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Front End Basics
 Estimated Time: 20-30 hrs
 

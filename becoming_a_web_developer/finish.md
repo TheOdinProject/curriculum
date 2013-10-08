@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Finish
 
 Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a full- or part-time career.  See below if you'd like to learn more before moving forward to the next sections, where we install the necessary software and actually begin digging a bit deeper into how computers and the web work.

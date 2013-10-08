@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Pair Programming and Remote Pairing 
 Total estimated time: 1-3 hours
 

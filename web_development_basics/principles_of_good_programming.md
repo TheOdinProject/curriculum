@@ -1,7 +1,3 @@
----
-layout: 'content'
----
-
 # Principles of Good Programming
 Estimated Time: 1 hrs
 

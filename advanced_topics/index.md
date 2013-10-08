@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Advanced Topics
 
 ## This section is collecting resources right now

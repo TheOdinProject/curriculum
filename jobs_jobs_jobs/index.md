@@ -1,6 +1,3 @@
----
-layout: 'content'
----
 # Jobs! Jobs! Jobs!
 
 ## This section is collecting resources right now
