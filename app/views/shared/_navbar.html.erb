@@ -10,7 +10,7 @@
           <div class="container nav-collapse">
             <ul class="nav pull-right nav-links">
               <li class="top-link"><a href="http://1000hours.io">Blog</a></li>
-              <li class="top-link"><a href="http://curriculum.theodinproject.com">Curriculum</a></li>
+              <li class="top-link"><a href="<%= curriculum_path %>">Curriculum</a></li>
               <li class="top-link"><%= link_to "Community", forum_path %></li>
               <% if user_signed_in? %>
                 <li class="top-link"><%= link_to "Students", students_path %></li>

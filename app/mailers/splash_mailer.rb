@@ -3,7 +3,7 @@ class SplashMailer < ActionMailer::Base
   FEEDBACK_EMAIL = "feedback@theodinproject.com"
   CONTACT_EMAIL = "contact@theodinproject.com"
   ODIN_URL = "http://www.theodinproject.com"
-  CURRICULUM_URL = "http://www.curriculum.theodinproject.com"
+  CURRICULUM_URL = "http://www.theodinproject.com/curriculum"
 
   def splash_signup_confirmation_email(splash_email)
     @feedback_email = FEEDBACK_EMAIL

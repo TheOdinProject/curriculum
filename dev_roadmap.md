@@ -28,8 +28,12 @@ v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution to
 * docs: how to set it up locally (pg)
 * ** Set up view templates
 * ** Design navigation
+* ** Set up new tree heirarchy (on master branch)
+* ** Clean up templating
 * ** Set up navigation
 * ** Set up github authentication to avoid early rate limiting issues
+* ** Set up warning to gh-pages about obsolete-ness (use header)
+* ** Deploy!
 * Fix gravatar bug with changing profile photo
 * Add OSS contribution and tracking tools like a mailing list
 Done Use Github API to pull in curriculum dynamically

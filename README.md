@@ -4,7 +4,7 @@ v0.0.6 http://www.theodinproject.com/scheduler
 ## The Open Curriculum for Learning Web Development
 
 
-This site provides the main user experience for The Odin Project, including the home page and all user functions.  It is meant to be a shell around [The Odin Project Curriculum](https://curriculum.theodinproject.com) and to include the tools that help students to pair together and get to know others who are working on the curriculum.  
+This site provides the main user experience for The Odin Project, including the home page and all user functions.  It is meant to be a shell around [The Odin Project Curriculum](https://theodinproject.com/curriculum) and to include the tools that help students to pair together and get to know others who are working on the curriculum.  
 
 It has been open-sourced to provide both a learning resource for students who want to see how the tools they're using are built and to give students the opportunity to stretch their wings and contribute to a real open-sourced project... while building the tools they themselves will be using.
 
@@ -17,7 +17,7 @@ Contact us directly at [project@theodinproject.com](mailto:project@theodinprojec
 ## Future Development
 
 The file [dev_roadmap.md](dev_roadmap.md) will be more specific but there are some overall goals for the short term development of this project:
-* Bring the curriculum repo under the umbrella of this one (it's currently being served using Jekyll via Github Pages under the subdomain curriculum.theodinproject.com) to begin rolling out progress tracking and realtime collaboration tools.
+* Bring the curriculum repo under the umbrella of this one (it's currently being served using Jekyll via Github Pages under the subdomain theodinproject.com/curriculum) to begin rolling out progress tracking and realtime collaboration tools.
 * Improve the documentation of the existing code base so people can more easily navigate through it.  This means in-line commenting and also creating a higher level github wiki page that explains how the project works and the best ways to navigate it.
 
 ## Features

@@ -15,7 +15,7 @@ describe "StaticPages" do
 
     it { should have_selector('h1', text: "Empowering Aspiring Developers To Learn Together") }
     it { should_not have_link :href => scheduler_path } # worthless test? It may need the link text too.
-    it { should have_link "VIEW the Curriculum on Github", :href => "http://www.curriculum.theodinproject.com" }
+    it { should have_link "VIEW the Curriculum on Github", :href => "http://www.theodinproject.com/curriculum" }
     it { should have_link 'Login', :href => login_path }
   end
 

@@ -7,10 +7,11 @@ class CurriculumController < ApplicationController
     #   /curriculum/contents/dir/contributing.md
 
     github = Github::Repos.new :user => "theodinproject", :repo => "curriculum"
+    dir = params[:dir] || "index.md"
 
     begin
 
-      response = github.contents.get :path => "#{params[:dir]}"
+      response = github.contents.get :path => "#{dir}"
 
       # If we've been returned a directory instead of a file
       # (e.g. for /ruby as opposed to /ruby/index.md)
