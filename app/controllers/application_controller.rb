@@ -3,6 +3,7 @@ class ApplicationController < ActionController::Base
   before_filter :catch_referral_codes
 
   include BootstrapFlashHelper
+  include ApplicationHelper
 
   # Customize Devise to send signed out users to the home page not root
   def after_sign_out_path_for(resource_or_scope)

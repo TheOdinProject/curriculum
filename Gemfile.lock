@@ -180,6 +180,7 @@ GEM
     rake (10.1.0)
     rdoc (3.12.2)
       json (~> 1.4)
+    redcarpet (2.2.2)
     ref (1.0.5)
     rspec-core (2.14.4)
     rspec-expectations (2.14.0)
@@ -265,6 +266,7 @@ DEPENDENCIES
   pg (~> 0.15.1)
   quiet_assets
   rails (= 3.2.12)
+  redcarpet
   rspec-rails
   sass-rails (~> 3.2.3)
   simple_form (~> 2.1.0)

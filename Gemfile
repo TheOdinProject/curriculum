@@ -12,6 +12,7 @@ gem 'devise',             '~> 2.2.4' # For managing authentication
 gem 'figaro'                         # Managing environment variables
 gem 'github_api'  # to pull in the curriculum files
 gem 'thin'  # to use the "thin" webserver instead of webrick
+gem 'redcarpet' # to render the curriculum's .md files as html
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
