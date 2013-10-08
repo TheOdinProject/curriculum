@@ -1,1 +1,37 @@
-<%= @file %>
+<div id="curriculum">
+  <!-- HEADER -->
+  <div id="header_wrap" class="outer">
+      <header class="inner">
+        <a id="forkme_banner" href="https://github.com/theodinproject/curriculum">View on GitHub</a>
+        
+
+        <!-- SOCIAL -->
+        <%= render "social" %>
+
+        <h1 id="project_title">Curriculum</h1>
+        <h2 id="project_tagline">The Open Curriculum for Learning Web Development</h2>
+
+      </header>
+      <hr>
+  </div>
+
+
+  <div class="row">
+    <div class="span4" id="sidebar">
+
+      <%= render "sidebar" %>
+
+    </div>
+    <div class="span7" id="content">
+      <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+          
+          <%= @file %>
+
+          <%= render "contribute" %>
+
+        </section>
+      </div>
+    </div>
+  </div>
+</div>

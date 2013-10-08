@@ -33,6 +33,8 @@ class CurriculumController < ApplicationController
       raise ActionController::RoutingError.new('Not Found')
     end
 
+    render :index # defaults to use the layouts/curriculum template
+
   end
 
   private

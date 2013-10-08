@@ -26,10 +26,11 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution tools
 
 * docs: how to set it up locally (pg)
-* ** Set up view templates
+* ** Set up same-as-before view templates
 * ** Design navigation
-* ** Set up new tree heirarchy (on master branch)
-* ** Clean up templating
+* **** Import images (like odin logo, octocat)
+* ** Set up new tree heirarchy (on master branch of curriculum!)
+* ** Clean up templating leftovers... or handle them??
 * ** Set up navigation
 * ** Set up github authentication to avoid early rate limiting issues
 * ** Set up warning to gh-pages about obsolete-ness (use header)
