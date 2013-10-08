@@ -6,7 +6,7 @@ class CurriculumController < ApplicationController
     # https://api.github.com/repos/theodinproject
     #   /curriculum/contents/contributing.md
 
-    github = Github::Repos.new :user => "theodinproject", :repo => "curriculum"
+    github = Github::Repos.new :user => "theodinproject", :repo => "curriculum", :oauth_token => "#{ENV['GITHUB_API_TOKEN']}"
     dir = params[:dir] || "index.md"
 
     begin
