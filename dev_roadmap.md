@@ -26,11 +26,10 @@ v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution to
 
 * ** Design navigation
 * ** Set up navigation
-DONE Load social buttons last so they don't trainwreck the page!
-* ** Deploy!
 * Fix gravatar bug with changing profile photo
 * docs: how to set it up locally (pg)
 * Add OSS contribution and tracking tools like a mailing list
+DONE Load social buttons last so they don't trainwreck the page!
 DONE Set up warning to gh-pages about obsolete-ness (use header)
 DONE Set up github authentication to avoid early rate limiting issues
 DONE Set up same-as-before view templates
