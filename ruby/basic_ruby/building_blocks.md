@@ -3,7 +3,7 @@
 
 ## Intro
 
-This should start as a quick refresher of what [you've already learned]({{site.url}}/dir/web_development_basics/web_programming_basics/back_end_basics/)...  And now you get to build stuff!
+This should start as a quick refresher of what [you've already learned](<%= root_path %>/web_development_basics/web_programming_basics/back_end_basics/)...  And now you get to build stuff!
 
 ## Homework Assignment
 

@@ -2,7 +2,7 @@
 
 ## Intro
 
-You've already taken a brief dip into databases as part of the [Web Development 101]({{site.url}}/dir/web_development_basics/web_programming_basics/database_basics.html) section, hopefully learning why we use databases and some basics about how they are structured.  In this section, we'll dive a bit deeper into relational databases and SQL in particular.  
+You've already taken a brief dip into databases as part of the [Web Development 101](<%= root_path %>/web_development_basics/web_programming_basics/database_basics.html) section, hopefully learning why we use databases and some basics about how they are structured.  In this section, we'll dive a bit deeper into relational databases and SQL in particular.  
 
 It's a bit difficult to predict how much knowledge of SQL is the right amount... if you're building a very straightforward web application, you'll likely only need to understand the basics of Create/Read/Update/Destroy operations, how to join tables together, and how to filter and order results.  
 

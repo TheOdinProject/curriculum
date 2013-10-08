@@ -8,7 +8,7 @@ That said, some languages are more popular and practical than others.  If you're
 One difference between the work you did on the front end and what you'll be doing on the back end is that you'll need to make sure you have some things installed prior to actually building these projects in the back end.  Your browser automatically knows how to run HTML, CSS, and Javascript for you but your computer probably doesn't have Rails installed.
 
 ## Assignment:
-1. Go to the [Installations Unit]({{site.url}}/dir/installations/) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
+1. Go to the [Installations Unit](<%= root_path %>/installations/) and get everything installed if you haven't already.  It can sometimes be a frustrating process but you'll need to get it done eventually so don't wait.  That includes setting up git and your Github account, even if you're not quite sure yet what they are.
 
 
 
