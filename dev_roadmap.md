@@ -11,12 +11,11 @@ It's game on.
 **************************  Major Roadmap  **************************
 
 
-0.0.?:  Make user logins carry over to the curriculum as well, which allows integration of commenting as well with each of the curriculum subsections.
+0.0.7:  Make user logins carry over to the curriculum as well, which allows integration of commenting as well with each of the curriculum subsections.
 
-v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
-0.0.?:  Anonymize scheduler results
-0.0.?:  Scheduling back-end
-0.0.?:  Feedback mechanism
+0.0.?: Feedback mechanism
+0.0.?: Progress tracking
+0.0.?: Realtime broadcast and collaboration prompting
 
 > Fix up suggestion mailer to include username/email and proper referral link
 > Add user prefs filters as well
@@ -25,18 +24,19 @@ v0.0.?:  Anonymize email reach-outs, add mailer conf to accounts
 
 v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution tools
 
-* docs: how to set it up locally (pg)
-* ** Set up same-as-before view templates
-* ** Design navigation
-* **** Import images (like odin logo, octocat)
-* ** Set up new tree heirarchy (on master branch of curriculum!)
-* ** Clean up templating leftovers... or handle them??
-* ** Set up navigation
 * ** Set up github authentication to avoid early rate limiting issues
 * ** Set up warning to gh-pages about obsolete-ness (use header)
+* ** Design navigation
+* ** Set up navigation
+* ** Load social buttons last so they don't trainwreck the page!
 * ** Deploy!
 * Fix gravatar bug with changing profile photo
+* docs: how to set it up locally (pg)
 * Add OSS contribution and tracking tools like a mailing list
+DONE Set up same-as-before view templates
+DONE Import images (like odin logo, octocat)
+DONE Set up new tree heirarchy (on master branch of curriculum!)
+DONE Clean up templating leftovers... or handle them??
 Done Use Github API to pull in curriculum dynamically
 DONE set up simple API call
 DONE Set up dynamic api call to handle directory structure

@@ -4,7 +4,7 @@ class CurriculumController < ApplicationController
     # URLs for the github API take the direct path form
     # and not the explicit URL-at-the-browser-bar form...
     # https://api.github.com/repos/theodinproject
-    #   /curriculum/contents/dir/contributing.md
+    #   /curriculum/contents/contributing.md
 
     github = Github::Repos.new :user => "theodinproject", :repo => "curriculum"
     dir = params[:dir] || "index.md"
