@@ -21,16 +21,25 @@ It's game on.
 0.0.?: Feedback mechanism
 0.0.?: Progress tracking
 0.0.?: Realtime broadcast and collaboration prompting
+* Allow flash messages to go out to all users on the curriculum
+* Allow users to see when other users are at the same section and have the collaborate / chat popup occur
+* Allow users to see when other users are nearby to them for the same functionality
+* Allow users to see when other users have scheduled availability for a project ahead of time (e.g. I'm on Ruby Project 1 and get a notification that User 2 will be available to work on it together on Thursday)
 
 *********************************************************************
 *********************  Current Dev Version Sandbox  *****************
 *********************************************************************
 
 v0.0.8: Bug fixes, 
+DONE Remove "private" from alpha release warning
+* Create nice looking signup confirmation email w/ bcc
 * Paginate students
+* Update failing tests
+* Write basic tests for curriculum section
 
 
 BUGS:
+* TESTS: 
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 * 
 

@@ -22,6 +22,8 @@ The file [dev_roadmap.md](dev_roadmap.md) will be more specific but there are so
 * Improve test coverage, particularly for the curriculum and the scheduling tool (which is all javascript).
 * Improve the documentation of the existing code base so people can more easily navigate through it.  This means in-line commenting and also creating a higher level github wiki page that explains how the project works and the best ways to navigate it.
 
+If you'd like to help out (even as a relative newbie), please [get in touch](mailto:contact@theodinproject.com) and we'd be happy to point you in the right direction.
+
 ### Hacking on the Site Yourself
 
 1. This site runs on Ruby 1.9.3 and Rails 3.2.12.
