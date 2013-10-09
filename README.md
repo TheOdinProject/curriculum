@@ -1,5 +1,5 @@
 # [The Odin Project](http://theodinproject.com)
-*[http://theodinproject.com/](http://theodinproject.com)* [version 0.0.6]
+*[http://theodinproject.com/](http://theodinproject.com)* [version 0.0.7]
 
 ### The Open Curriculum for Learning Web Development
 

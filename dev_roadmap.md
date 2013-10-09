@@ -1,29 +1,70 @@
-== Welcome to The Odin Project v0.0.6
+== Welcome to The Odin Project v0.0.7
 
 It's game on.
 
-**************************  DEPLOYMENT NOTES: **********************
+*********************************************************************
+**************************  DEPLOYMENT NOTES: ***********************
+*********************************************************************
+
 < none >
-****************************  OTHER NOTES: *************************
+
+*********************************************************************
+****************************  OTHER NOTES: **************************
+*********************************************************************
 < none >
+
+*********************************************************************
 **************************  Major Roadmap  **************************
+*********************************************************************
 
-
-0.0.7:  Make user logins carry over to the curriculum as well, which allows integration of commenting as well with each of the curriculum subsections.
-
+0.0.?: Curriculum navigation redesign
 0.0.?: Feedback mechanism
 0.0.?: Progress tracking
 0.0.?: Realtime broadcast and collaboration prompting
 
-> Fix up suggestion mailer to include username/email and proper referral link
-> Add user prefs filters as well
+*********************************************************************
+*********************  Current Dev Version Sandbox  *****************
+*********************************************************************
 
-**********************  Current Version Sandbox  ********************
+v0.0.8: Bug fixes, 
+* Paginate students
 
+
+BUGS:
+* Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
+* 
+
+
+
+*********************************************************************
+**********************  General Sandbox  ****************************
+*********************************************************************
+
+>> WRITE JAVASCRIPT TESTS
+>>>> calendar basic display, calendar population, event creation
+
+> USERS
+>> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
+
+
+---- Issues and Gotchas ----
+>> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
+>> Currently allows you to write overlapping calendar events
+
+---- Future stuff ----
+
+
+http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
+https://gist.github.com/zhengjia/428105
+
+
+********************************************************************
+***********************  Version Archive  **************************
+********************************************************************
+
+************
 v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution tools
 
-* ** Design navigation
-* ** Set up navigation
 DONE Fix gravatar bug with changing profile photo
 DONE docs: how to set it up locally (pg)
 DONE Clean up README to allow easier OSS contributions
@@ -46,51 +87,6 @@ DONE Build mailer button in the event profiles
 DONE remove email addresses from profiles
 DONE add notification for users to login to post to the forum
 
-BUGS:
-* Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
-* 
-
-
-**********************  General Sandbox  ****************************
-
->> WRITE JAVASCRIPT TESTS
->>>> calendar basic display, calendar population, event creation
-
-> CALENDAR UI
->> Default event details based on user profile info?? esp username and details with their contact info
->> ?Make the click action bring up the "you need to update your profile" box if that's the case before allowing addition of new events?
-
-> USERS
->> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
->> Make the gravatar default image the odin logo
-* ? HTML safe my inputs?
-
->> Build "contact" button in event to mail them with your contact info (and have an alert for okaying it)
-
-
----- Issues and Gotchas ----
->> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
->> Currently allows you to write overlapping calendar events
-
->> Look and feel???
->> ??? Front end frameworks ???
-
----- Future stuff ----
->> Users not signed in can access scheduler but see only grayed out, no-info bars?  May just be too randomly complex for no reason.
-
-
----- Devise ----
->> Haven't done any of the suggested config.action_mailer.default_url_options stuff or setting the precompile assets for heroku stuff.
-
-
-Eventually:
->> Turn on add-ons like pgbackups
-
-http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
-https://gist.github.com/zhengjia/428105
-
-
-***********************  Version Archive  **************************
 
 ************
 v0.0.6: Forums and Bug Fixes
