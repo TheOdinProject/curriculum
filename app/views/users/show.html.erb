@@ -14,7 +14,7 @@
       <div class="profile-photo-container">
         <img src="<%= gravatar_url(@user, 270) %>">
         <% if @edit %>
-          <%= link_to "Edit your Gravatar image", "https://en.gravatar.com/site/login", :class => "edit-gravatar", :title => "Go to Gravatar.com to edit your profile image.  Gravatar lets you change your profile photo in just one place (their site) and then it's available to any other site that links to it (which is a lot of them). That way, when you want to change your photo later, you don't need to track it down on a dozen different websites. Cool!" %>
+          <%= link_to "Edit your Gravatar image", "https://en.gravatar.com/site/login", :class => "edit-gravatar", :target => "_blank", :title => "Go to Gravatar.com to edit your profile image.  Gravatar lets you change your profile photo in just one place (their site) and then it's available to any other site that links to it (which is a lot of them). That way, when you want to change your photo later, you don't need to track it down on a dozen different websites. Cool!" %>
         <% end %>
       </div>
     </div>
