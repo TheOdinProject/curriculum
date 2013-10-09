@@ -27,7 +27,7 @@ It's game on.
 * Allow users to see when other users have scheduled availability for a project ahead of time (e.g. I'm on Ruby Project 1 and get a notification that User 2 will be available to work on it together on Thursday)
 
 *********************************************************************
-*********************  Current Dev Version Sandbox  *****************
+**********************  Current Dev Version TODOs *******************
 *********************************************************************
 
 v0.0.8: Bug fixes, 
@@ -40,7 +40,7 @@ DONE Remove "private" from alpha release warning
 
 
 BUGS:
-* TESTS: 
+* TESTS: Why do some tests only fail intermittantly???
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 * 
 
