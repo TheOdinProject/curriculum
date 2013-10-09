@@ -20,26 +20,26 @@ This curriculum is built to pave the way between new students and industry.  If 
 
 ### Also...
 
-[The Odin Project's main website](http://theodinproject.com) is fully open-sourced as well and we'd love to hear from you if you'd be interested in helping out with building the tools there.
+This whole website is open source (the source code for the website itself is [on Github HERE](http://github.com/theodinproject/theodinproject)) and there's plenty that you can do to help, even if it's just squashing bugs and writing tests.  Check out the [README](https://github.com/theodinproject/theodinproject) for more info and the [Development Roadmap](https://github.com/TheOdinProject/theodinproject/blob/master/dev_roadmap.md) for an idea of what's being worked on now and what's coming up soon.
 
 
 ## How to Contribute
 
-There are three main ways to contribute, in order of preference:
+There are three main ways to contribute to the curriculum (see the [main website's repo](https://github.com/theodinproject/theodinproject) for how to contribute there), in order of preference:
 
 1. **Pull Request:**  To contribute, [fork the curriculum repository](https://help.github.com/articles/fork-a-repo), make your changes or additions, then [submit a pull request](https://help.github.com/articles/using-pull-requests).
 
-2. **Github Issue:** You can also [open up a Github issue](https://github.com/TheOdinProject/curriculum/issues) instead and we'll take care of it.
+2. **Github Issue:** You can also [open up a Github issue](https://github.com/theodinproject/curriculum/issues) instead and we'll take care of it.  *[About Github Issues](https://github.com/TheOdinProject/curriculum/issues)*
 
 3. **Email:** [Email us](mailto:curriculum@theodinproject.com) your suggestions directly.  If you have questions about The Odin Project itself, [contact us here](mailto:curriculum@theodinproject.com).
 
-If you're adding a solution to one of the projects, first save it in your own repository and then just make a link to it in the appropriate project's section.  Be sure to give your partner appropriate acknowledgement if you have one and they want it.
+If you're adding a solution to one of the projects, first save it in your own repository and then just make a link to it in the appropriate project's section.  Be sure to give your partner acknowledgement if you have one and they want it.
 
 If you're unfamiliar with the Markdown (.md) syntax that's used in these files, it's really straightforward and there's a great guide for it from [Daring Fireball here](http://daringfireball.net/projects/markdown/syntax).
 
 ### Attribution
 
-As you can tell, we highly value and rely on the help of the developer and student communities.  We'd like to do as much as we can to identify our top contributers and the providers of high quality content.  While the curriculum resides on Github, we'll maintain a top contributers list in addition to the commit histories.  Should it migrate to an independent platform, we'll still do our best to attribute both the content and submission source for their contributions to the project.  Contributers taking a more active role in the project may be invited to join the core team as well.
+As you can tell, we highly value and rely on the help of the developer and student communities.  We'd like to do as much as we can to identify our top contributers and the providers of high quality content.  We'll be maintaining a top contributers list in addition to the commit histories.  Contributers taking a more active role in the project may be invited to join the core team as well.
 
 ## Thank you for your help and support!
 
