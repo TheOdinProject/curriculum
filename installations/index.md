@@ -42,6 +42,12 @@ There's a [tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/cours
 
 There will be some Ruby gems (which are just prepackaged little libraries of code) to install to give you the tools necessary to talk to your database and install other gems easily in the future.
 
+### RVM
+
+RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other one.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
+
+This is very useful because you'll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on projects using the newer version (2.0.0).  Since you obviously don't want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use and PRESTO! your problems are solved.
+
 ### Rails
 
 What about Rails?  Rails is actually a Ruby gem of its own since, as we've covered before, it's just a bunch of Ruby code prepackaged for you.
@@ -57,6 +63,10 @@ These installfests will take you through the steps to install everything on your
 If using a Macintosh, follow the instructions on [Moncef Belyamani's blog](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
 
 Otherwise, do the [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/).
+
+## Oh no! Total Failure!!!
+
+If all else fails, the best web-based development environment to use is [Nitrous.io](http://nitrous.io).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  I've often found this to me much easier for Windows users than trying to navigate the regular installations process.
 
 ## Assignment: Test Drive Your Setup
 
