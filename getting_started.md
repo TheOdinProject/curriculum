@@ -2,11 +2,17 @@
 
 ## About The Odin Project
 
-The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to get you on the path towards acquiring a job-ready skillset.  To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.
+*The Odin Project supports students of all ages and backgrounds who aspire to become web developers by providing an open curriculum focused on collaborative and project-based learning to get you on the path towards acquiring a job-ready skillset.*
 
-It takes approximately **1000 hours** of work to go from zero to employable as a web developer and it's often a confusing and overwhelming journey.  When you first ask how to get started, you usually get a dozen vague resources to look at and a gentle nudge forward.  Or you end up staring at the possibility of massive student debt for a CS degree which is no guarantee of employment anyway.  If you've got the motivation, this curriculum is designed to provide a clear path forward that utilizes existing (and mostly free) content to get you to where you'd like to be and at your own pace.  All while colearning with other beginners from around the world.
+*To keep the curriculum responsive to your needs, we highly encourage participation and contribution from both students of the project and the professional developers who will one day seek to hire them.*
 
-Everyone has a different goal and that's okay.  Whether you're looking to join a tech company, start a startup, build your own website, retool from another language, try out a new hobby, or work as a freelancer, you'll find value in the content we've roped together.  We know that not everyone wants a job as a web developer... some just want to make a cool website as soon as possible, and we've tried to identify points where someone like that might benefit from moving on instead of diving too deeply into certain material.
+It takes approximately **1000 hours** of work to go from zero to employable as a web developer and it's often a confusing and overwhelming journey.  When you first ask how to get started, you usually get a dozen vague resources to look at and a gentle nudge forward.  Or you end up staring at the possibility of massive student debt for a CS degree which is no guarantee of employment anyway.  
+
+If you've got the motivation, this curriculum is designed to provide a clear path forward that utilizes existing (and mostly free) content to get you to where you'd like to be and at your own pace.  All while colearning with other beginners from around the world.
+
+Everyone has a different goal and that's okay.  Whether you're looking to join a tech company, start a startup, build your own website, retool from another language, try out a new hobby, or work as a freelancer, you'll find value in the content we've roped together.  
+
+We know that not everyone wants a job as a web developer... some just want to make a cool website as soon as possible, and we've tried to identify points where someone like that might benefit from moving on instead of diving too deeply into certain material.
 
 Check our our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) if you'd like to follow the development of The Odin Project and participate in our in-person pairing meetups.  Check our website at [theodinproject.com](http://www.theodinproject.com) and join up to connect with other people across the world!
 
@@ -20,7 +26,7 @@ We also believe that there's plenty of high quality content out there right now.
 
 ## What You'll Learn
 
-We assume that you're at square one, so we start out by going over [what exactly a web developer does]({{ site.url }}/becoming_a_web_developer/), [how to install the necessary software](/curriculum/installations/) on your machine, and how to [pair up with other students](/curriculum/pairing/) on projects.  The [Web Development 101 section](/curriculum/web_development_basics/) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
+We assume that you're at square one, so we start out by going over [what exactly a web developer does](/curriculum/becoming_a_web_developer/), [how to install the necessary software](/curriculum/installations/) on your machine, and how to [pair up with other students](/curriculum/pairing/) on projects.  The [Web Development 101 section](/curriculum/web_development_basics/) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
 
 The curriculum takes a back-to-front approach to learning a Ruby on Rails workflow.  That means starting with a strong foundation in Ruby and an understanding of databases before migrating into Rails (which is a framework built using Ruby).
 

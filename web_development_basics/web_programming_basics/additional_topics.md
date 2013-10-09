@@ -3,7 +3,7 @@
 ## Git 101
 Estimated Time: ??? hrs
 
-We mentioned git briefly in the previous unit ([Becoming a Web Developer]({{ site.url }}/becoming_a_web_developer/)) but this time you'll actually start using it.
+We mentioned git briefly in the previous unit ([Becoming a Web Developer](/curriculum/becoming_a_web_developer/)) but this time you'll actually start using it.
 
 If you recall, git is the version control system used by developers.  It means that you can revert to a previous (working) version of the application if you really screwed something up and it means that you have a standardized way of managing a project with contributions from multiple developers.  It's even useful if it's just you and you're working on a project on your own with a few half-baked ideas that you're trying to code at the same time but want to keep separated until they've matured sufficiently.
 
