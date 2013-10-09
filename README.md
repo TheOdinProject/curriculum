@@ -13,4 +13,5 @@ Students, educators, and developers are encouraged to make contributions to the 
 
 **Happy Coding!**
 
-~ Erik
+<hr>
+Created by [Erik Trautman](http://www.github.com/eriktrautman)
