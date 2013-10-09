@@ -3,7 +3,9 @@
 
 ## Intro
 
-This should start as a quick refresher of what [you've already learned](/curriculum/web_development_basics/web_programming_basics/back_end_basics/)...  And now you get to build stuff!
+Welcome to Ruby Basics!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Section](/curriculum/web_development_basics/web_programming_basics/back_end_basics/ruby_basics.md) (if not, go do that first!), this should start as a quick refresher of what you've already learned.  
+
+Get stretched out and warmed up, it's time to dive in!
 
 ## Homework Assignment
 
