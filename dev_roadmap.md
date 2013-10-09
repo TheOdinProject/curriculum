@@ -31,11 +31,12 @@ It's game on.
 *********************************************************************
 
 v0.0.8: Bug fixes, 
-DONE Remove "private" from alpha release warning
+* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
 * Create nice looking signup confirmation email w/ bcc
 * Paginate students
 * Update failing tests
 * Write basic tests for curriculum section
+DONE Remove "private" from alpha release warning
 
 
 BUGS:
