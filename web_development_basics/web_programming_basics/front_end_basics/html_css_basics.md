@@ -24,6 +24,7 @@ As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html),
 
 ### Assignment:
 1. Do the [Codecademy HTML/CSS track](http://www.codecademy.com/tracks/web) for a healthy baseline understanding of HTML and CSS.  It can be helpful to take notes or make flashcards to keep track of the most commonly used elements.
+2. Roll through the [HTML Dog](http://www.htmldog.com/guides/html/beginner/) tutorial (which should be quick for you) to make sure you've seen it all.
 2. Build the Android logo using just HTML and CSS by watching [this video](http://thecodeplayer.com/walkthrough/css3-android-logo) from an amazing website called [The Code Player](http://thecodeplayer.com/walkthrough/css3-android-logo), which is like a tutorial but it actually plays the code as the original developer created it.  Use JSFiddle or your own text editor to create the logo alongside the tutorial.
     * Note: You will see `border-radius`, `-moz-border-radius`, and `-webkit-border-radius` all used identically.  This is in order to overcome some of the differences between browsers.  You probably only need to use `border-radius` to achieve the desired effect.
 3. Learn about basic forms from [this Treehouse video](http://teamtreehouse.com/library/websites/html/forms/inputs) and use [this w3 page](http://www.w3schools.com/html/html_forms.asp) as a reference.
