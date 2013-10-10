@@ -37,8 +37,8 @@
 
 ### Roadmap
 
-1. Intro with throwback to web dev 101 including making sure they did the instantiation of a basic rails project.  Prerequisites.
-    1. Project: Get your hands dirty (blogger tutorial?) with a rails overview
+1. Prerequisites: Intro with throwback to web dev 101 including making sure they did the instantiation of a basic rails project.
+    1. Project: Get your hands dirty (blogger tutorial?) with a rails overview (from web dev 101)
 2. Brief back-to-the-basics -- refresher on HTTP, MVC, REST, APIs, rails overview from before
     1. Project: Make some web requests from the command line using bare bones CLI and restclient
 1. Cookies and Sessions and Authentication and Authorization and tokens

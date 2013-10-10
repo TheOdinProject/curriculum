@@ -35,3 +35,5 @@ Finally, we'll cover additional useful topics like how to send emails from your 
 * Complete the full [Basic Ruby](/curriculum/ruby/basic_ruby/) section (all readings and projects) to have a solid grounding in Ruby basics.
 
 ## Additional Resources
+
+* 
