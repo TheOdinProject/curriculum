@@ -1,9 +1,8 @@
 # Ruby on Rails
 
-1. Intro with throwback to web dev 101 including making sure they did the instantiation of a basic rails project.  Prerequisites.
-    1. Project: Get your hands dirty (blogger tutorial?) with a rails overview
-2. Brief back-to-the-basics -- refresher on HTTP, MVC, REST, APIs, rails overview from before
-    1. Project: Make some web requests from the command line using bare bones CLI and restclient
+## Note: This part of the curriculum is still under construction!
+
+See [Rails Resources](/curriculum/rails/resources.md) for a listing of resources you can tackle right away.
 
 ## Introduction
 
