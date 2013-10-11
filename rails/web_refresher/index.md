@@ -87,3 +87,43 @@ Not all APIs are web-based.  Plenty of them use the same HTTP format but are rea
 You'll actually get a chance to build your own API a little later on, and Rails makes it really easy for you.  There's nothing magical about it -- you just tell your controller that you want to respond to requests made by other servers instead of (or in addition to) normal web requests and then specify what exactly you'd like returned (since it probably won't be an HTML view).
 
 But we get ahead of ourselves a bit here... the main point is that you'll see "API" come up plenty of times and it's totally harmless and just means the way that two applications talk to each other.
+
+## Cookies
+
+You've heard about cookies.  Cookies are basically a way for websites to remember who you are from one request to another.  Remember -- every HTTP request is totally independent of each other one.  Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.  
+
+...Unless they've given you some cookies (which they almost certainly have).  Cookies are little bits of data that your browser sends to the website every time you make a request to it.  From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests.  It preseves the *state* of your session.
+
+*Check out [allaboutcookies.org](http://www.allaboutcookies.org/) and read the first three sections for some more info about cookies.*
+
+*The [Wikipedia article on cookies](http://en.wikipedia.org/wiki/HTTP_cookie) may also be helpful reading.*
+
+Go to a website you normally frequent, open up your developer tools, and find the cookies.  In Chrome, it's by clicking on "Resources" then "cookies".  You'll see them as name-value pairs.  Often there will be something like a "user_session" or "token" variable that is some unintelligible string of characters.  
+
+
+## Sessions
+
+Cookies are important because they enable you to have a single continuous "session" while you're interacting with a website. It means you only have to log in once instead of for every single request (which you probably experienced from a broken website at some point in the late 90's).
+
+Your browser includes all the cookies that a particular website has set along with its normal request and the server uses those strings to figure out which user you are and whether you are logged in, what your settings are (like if you've set up viewing preferences) and things like that.  It's also why, when you clear cookies from your browser history, everything seems to get wiped out and go back to the default.  
+
+It's also how some ads seem to follow you from one website to another -- another name for them is "tracking cookies".
+
+
+
+## Authentication
+
+On the server side, you'll interact with cookies and session variables quite a bit.  As mentioned above, one of the main uses of these is to determine who the user is, or "authentication".  You'll basically retrieve the cookie that the user sends you, use it to find that user in your database, and (if the user exists) then you can display the customized web page for that user.
+
+It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily the nice folks at [Platformatec](http://plataformatec.com.br/) created a very handy gem called "Devise" which takes care of all this stuff for you.  In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
+
+## Authorization
+
+Authorization is the partner concept to Authentication... Auth lets you determine WHO the user is, but the idea behind authorization is that you might limit what the person can see based on their permission level.  The most common case of this is actually the distinction between a random not-logged-in user and one who is logged in.  Another common case of this is the difference between regular users of a website and the admin users who have special privileges.  
+
+On the server side, you will end up writing (or using) methods which restrict access to certain types of actions based on who the current user is (or whether the requester is logged in at all).  Again, Devise will help you with this by providing some of these helper methods (like for checking whether any user is logged in or who the current user is) for you.
+
+## Conclusion
+
+We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before about how requests are made because it brings a couple extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.  
+
