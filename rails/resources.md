@@ -42,7 +42,7 @@
 2. Brief back-to-the-basics -- refresher on HTTP, MVC, REST, APIs, rails overview from before
     1. Project: Make some web requests from the command line using bare bones CLI and restclient
 1. Cookies and Sessions and Authentication and Authorization and tokens
-3. Basic ActiveRecord -- validations, associations, queries, validation errors / is_valid?... thinking data-first??? The important skill is knowing data structure of a problem first, then worrying about the rest.
+3. Basic ActiveRecord -- validations (uniqueness), associations, queries, validation errors / is_valid?... thinking data-first??? The important skill is knowing data structure of a problem first, then worrying about the rest.
     1. Project: CLI apps -- 1. simple database query that uses simple associations, 2. moderate database querying that uses validations
 1. Hartl Tutorial -- space out chapters with the material
 3. Routing -- resources, helpers, REST mapping, rake routes, :only and :except, :root, :id and wildcards
@@ -54,6 +54,7 @@
     1. Read rails guide, build basic form from scratch and submit, then build using rails helpers
 3. Learning the Intermediates -- cookies, sessions in rails, flashes (state) and errors, escaping html, asset pipeline and asset helpers, 
 7. More Activerecord: Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, callbacks, transactions
+    1. http://guides.rubyonrails.org/active_record_callbacks.html
     1. Project: 
 7. Advanced forms -- nested, associations, pre-populating objects, inverse_of??, 
     1. Project: some sort of crazy nested form submission, starting simple but expanding into nesting then validating that nesting (inverse)
@@ -70,7 +71,8 @@
     3. Integration
     4. Factories
     5. etc.
-
+1. Beyond -- reread all sections of the Rails Guides, including the wones you skipped.
+2. 
 
 
 
