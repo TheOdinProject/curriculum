@@ -26,6 +26,18 @@ Even more impressive, it doesn't really matter which type of database you're usi
 
 That's a step ahead of ourselves, though, because first it makes sense to think about what the relationship is between Rails and a database anyway.  It's actually pretty straightforward -- you want to store information about your users, so you create a database table called `users`.  You want to be able to access that data from your application, so you create a model called `User`, which is really just a Ruby file which inherits from Active Record and thus gets to use all the handy methods I was alluding to earlier like `all` and `find` and `create`.  One table == one model which inherits from Active Record.
 
+### 30 Seconds About Working With Models
+
+Very briefly, Active Record lets you create a Ruby object that represents a row in one of your database tables, like a `User`.  To create a new User is a two-step process: First, you'll need to do a `User.new` and might pass it a hash full of its attributes like 
+
+`u = User.new({:name => "Sven", :email => "sven@theodinproject.com"})`
+
+If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, simply call `u.save`.  You can run both steps at once using the `#create` method:
+
+`u = User.create({:name => "Sven", :email => "sven@theodinproject.com"})`
+
+This saves you time, but, as you'll see later, you'll sometimes want to separate them in your application.
+
 ## Your Assignment
 
 That was really just a teaser about what Active Record can do.  In the reading below, you'll learn about how to specifically interact with Active Record in your models.  
@@ -85,14 +97,52 @@ Start with the [Databases section of Web Development 101](/curriculum/web_develo
 
 ## Basic Validations
 
-Imagine you've got your database up and running and want to make sure that the data people are sending to your database is good data...
+Imagine you've got your database up and running and want to make sure that the data people are sending to your database is good data.  For instance, to create an account on your site, a user needs to enter both a username and an email address.  How do you enforce this? 
 
-http://guides.rubyonrails.org/active_record_validations.html
+There are three levels of validations that you can enforce, each more strict and secure than the previous.  At the topmost level, you can write code using Javascript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on.  We will learn more about that in the Javascript curriculum.  The advantage here is that it is almost immediate so has great user experience.  The problem with this is that Javascript is easy to circumvent and the user could easily submit a malicious or faulty request.
+
+The second layer of enforcement for your validations of user data (which you should never trust) is to do so at the server level.  This means writing code in your Rails application (specifically in the model that you are trying to save and instance of, e.g. User) that examines user inputs, checks them versus the constraints you set up, and returns errors if there are any.  
+
+This is more secure than javascript but has the disadvantage of taking a full round-trip HTTP request to your application in order to check it.  Model validations are generally pretty effective and will usually get the job done.  In most cases, you'll use model-level validations to get the job done and that's what we'll focus on here.  
+
+The problem occurs when your application has scaled up to the point where you are running multiple instances of it on multiple servers that all talk to the same central database.  Let's say you want to make sure a username is unique... what happens if two users almost simultaneously submit the same username and it is received by two separate concurrent instances of your application?  When each instance of your application checks with the database to see if the username is unique, both times it looks okay so they both go ahead and save the model... oops!  That may not sound plausible, but how about in rapidly occurring automated transactions?  These "race conditions" are very real.
+
+So the only way to truly enforce constraints is on the database level, since your single database is the sole arbiter of what is unique and valid in this world.  You can use extra parameters passed to some of the now-familiar migration methods like `add_index` to say `add_index :users, :username, :unique => true`, which enforces in the most secure way that the column is unique.  Again, though, most of your validations can be implemented in your Rails application's models.
+
+## Your Assignment
+
+1. Read the [Rails Guides Validations chapter](http://guides.rubyonrails.org/active_record_validations.html)
+
+    * Section 2 on helpers can be skimmed -- these help you get more specific with your validations and you'll run into them later
+    * You can skim section 6 about custom validators
+    * Section 8 will likely only be interesting if you've seen ERB in rails views before... we'll get there.
 
 ## Basic Associations
 
-Imagine you've got a simple data model like a User but now you want that User to relate to other things like maybe his Profile or every Post he has authored on your blog.
+In the databases sections, you learned about how a relational database like sqlite3 or PostgreSQL lets you link two tables together using their primary keys (called a foreign key in the specific table that is referencing another one).  It's the real power of relational databases that they let you leverage these, well, relationships.  Active Record takes that feature and lets you use it in all kinds of useful ways.  Do you want to get all of your first user's blog posts? `User.first.posts`, as simple as that.
 
-http://guides.rubyonrails.org/association_basics.html
+That functionality doesn't come out of the box -- you need to tell Rails that posts actually belong to a user.  On the database table level, this means that every row in the posts table will have column for "user_id" that tells you which user "owns" that post.  The users table doesn't need to acknowledge the posts at all... after all, a single user can have an infinite number of posts.  If we're interested in a user's posts, we just have to query the posts table for all posts that link back to that user's ID.  Rails makes these relationships very easy to specify.  What we just talked about is aptly named a "has_many / belongs_to" association (a User has_many Post objects associated with it and a Post belongs_to a single User).
+
+Step one with understanding this stuff is just to think about which different types of relationships are possible.  Remember, half the battle of setting up your application is understanding what your data relationships will look like, so give this some thought and keep at it when it gets confusing.  If your mind is a bit fried right now, start back in the real world and don't think about it on a database level -- remember, all this stuff is our attempt to reflect the kinds of relationships that can occur in the real world.
+
+The has_many / belongs_to, or a "one-to-many", relationship is pretty common, and usually easiest to think of in terms of actual objects... a Child can have many Marble objects, each of which belongs to that child.  But it also applies in slightly less intuitive cases, like where a single object belongs_to multiple other objects.  An example would be a FranchiseLocation for a McDonalds, which belongs_to the Corporation mcdonalds but might also belongs_to the City san_francisco.  
+
+It's clear that it should belong to its corporate parent, but why does it belong to a City too?  It's often easier to think of it from the opposite perspective -- a City can certainly have many FranchiseLocation objects.  As long as a FranchiseLocation can only be in a single city, it effectively "belongs_to" that city in the way that Rails describes it.  
+
+Another common relationship is the many-to-many relationship, which used to also be called "has_and_belongs_to_many" in Rails terms but that long one was thankfully deprecated.  This often comes up in actual relationships -- a Human can have many favorite Dog objects, and each Dog object can have many favorite Human objects.  In this case, how would you specify which dog objects are your favorites?  It actually requires you to create another table (a join table, or "through" table) that specifically keeps track of all those relationships.  It's a bit wonky to understand when you're learning but it becomes second nature once you've been at it for a short while.
+
+Pretty soon you'll start thinking of the world around you in terms of these relationships (if you don't take enough breaks).  The real power of them comes when you actually need to use them -- when you want to retrieve data about all the objects that are associated with another.  Do you want to see a list of all your Twitter followers?  Do you want to count up all the classmates you had from high school who are living in the same city as you now?  Do you want to see all the comments one of your users left on another user's timelines?  All of these things are relatively simple and intuitive once you've actually set up the appropriate data relationships.  So focus on understanding these relationships.
+
+### Your Assignment:
+
+If you're a normal human, you're probably somewhere between "huh?" and "I hate you, stop teaching me stuff".  Stick with it, the point here is to get you thinking of how to model relationships and give you exposure to them.  The project will give you an opportunity to actually build what you've been learning and it should be a lot better once you've had that chance.
+
+1. Read the beginning of the [Rails Guides Associations Chapter](http://guides.rubyonrails.org/association_basics.html), just up until section 2.7.  Everything after that we can save for later... the important thing is that you've seen the relationships and how they're set up.
 
 ## Basic Data Design
+
+TODO: Stepping back and approaching a project that could be complex, with examples of good model structures.
+
+## Finale
+
+TODO: AR is awesome but conceptually can be a strain!
