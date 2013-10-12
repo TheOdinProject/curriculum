@@ -36,6 +36,7 @@ The Tutorial (aka the Hartl Tutorial, after its author) is another open source r
 
 **If you haven't completed these, be sure to do so before getting started:**
 
+* Your software should be installed, as listed in the [Installfest section](/curriculum/installations/).
 * You should really have gone through the full [Web Development 101](/curriculum/web_development_basics/) section, but the most important parts are listed below.
 * Read the full [Back End Basics](http://www.theodinproject.com/curriculum/web_development_basics/web_programming_basics/back_end_basics/) portion of the Web Development 101 section for an introduction to Ruby.
 * Read the [Rails portion of the Web Development 101](/curriculum/web_development_basics/web_programming_basics/framework_basics/rails_basics.md) section for an overview of Rails.  
