@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def title
-    "The Odin Project -- The Open Curriculum for Learning Web Development"
+    "The Odin Project -- The Free Curriculum for Learning Web Development with Ruby on Rails"
   end
 
   # uses the redcarpet gem to render the markdown as html
