@@ -34,7 +34,15 @@ You learned about the Enumerable module that get mixed in to the Array and Hash 
 
 ### Your Task
 1. Create a script file to house your methods and run it in IRB to test them later.
-1. Create `my_each`, a method that is identical to `each` but (obviously) does not use `each`.  Make sure it returns the same thing as well.
+2. Add your new methods onto the existing Enumerable module.  Ruby makes this easy for you because any class or module can be added to without trouble ... just do something like:
+        
+        module Enumerable
+          def my_each
+            # your code here
+          end
+        end
+
+1. Create `my_each`, a method that is identical to `each` but (obviously) does not use `each`.  You'll need to remember the `yield` statement.  Make sure it returns the same thing as `each` as well.
 2. Create `my_each_with_index` in the same way.
 3. Create `my_select` in the same way, though you may use `my_each` in your definition.
 4. Create `my_all?` (continue as above)
