@@ -16,7 +16,7 @@ Lots of training courses and tutorials kind of gloss over routes, and they seem 
 
 The most important (and simplest) route in your file is the root url... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
 
-    root => "kittens#index"  #kittens controller, index action (method)
+    root :to => "kittens#index"  #kittens controller, index action (method)
 
 *Remember, when we say "action" we really mean "the method inside the controller that is called that", e.g. the `index` action is just the `index` method that's defined in the KittensController*
 
@@ -79,9 +79,13 @@ There are a lot of situations where you want to be able to retrieve the URL for 
 
 We're jumping a little bit ahead, but in this case, the second argument is supposed to be a path or a URL, so we use the path helper method to generate that.  `edit_post_path(3)` will generate the path `/posts/3/edit`.
 
-Rails automatically generates helper methods for you which correspond to the names of all your routes.  These methods are `path` and `url`.  `path`, as in `edit_post_path(3)`, will generate just the path portion of the URL, which is sufficient for most applications.  `url` will generate the full URL.
+Rails automatically generates helper methods for you which correspond to the names of all your routes.  These methods end with `_path` and `_url`.  `path`, as in `edit_post_path(3)`, will generate just the path portion of the URL, which is sufficient for most applications.  `url` will generate the full URL.
 
-Any routes which require you to specify an ID or other parameters will need you to supply those to the helper methods as well (like we did above for edit).
+Any routes which require you to specify an ID or other parameters will need you to supply those to the helper methods as well (like we did above for edit).  You can also put in a query string by adding an additional parameter:
+
+    post_path(3, :referral_link => "/some/path/or/something")
+
+Now the `:referral_link` parameter would be available in your `params` hash in your controller in addition to the normal set of parameters.
 
 ### Routes go to Controller Actions!
 
