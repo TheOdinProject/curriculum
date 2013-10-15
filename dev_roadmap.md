@@ -18,8 +18,10 @@ It's game on.
 *********************************************************************
 
 0.0.?: Curriculum navigation redesign
+* Improve the visual heirarchy
 0.0.?: Feedback mechanism
 0.0.?: Progress tracking
+* Signup current/next design
 0.0.?: Realtime broadcast and collaboration prompting
 * Allow flash messages to go out to all users on the curriculum
 * Allow users to see when other users are at the same section and have the collaborate / chat popup occur
@@ -32,8 +34,15 @@ It's game on.
 
 v0.0.8: Bug fixes, 
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
+* Set up cookie to send user back to last viewed curriculum spot
+* Fix code inside `pre` blocks to not display formatted
+* Make home page more signup-oriented
 * Create nice looking signup confirmation email w/ bcc
+* Make more obvious that you can select multiple projects on prefs
+* Make more obvious the loading icon when waiting for scheduler data
 * Paginate students
+* Set up welcome page for students post-signup
+* Link GA goal to that page.
 * Update failing tests
 * Write basic tests for curriculum section
 DONE Remove "private" from alpha release warning

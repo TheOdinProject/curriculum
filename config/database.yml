@@ -1,8 +1,6 @@
-# SQLite version 3.x
-#   gem install sqlite3
-#
-#   Ensure the SQLite 3 gem is defined in your Gemfile
-#   gem 'sqlite3'
+# You may need to provide a username, in which case you'd use
+# your computer's user account (on a mac type $ echo $USER to
+# get it).
 development:
   adapter: postgresql
   database: theodinproject
