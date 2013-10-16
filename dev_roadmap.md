@@ -32,15 +32,17 @@ It's game on.
 **********************  Current Dev Version TODOs *******************
 *********************************************************************
 
-v0.0.8: Bug fixes, 
+v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
-* Set up cookie to send user back to last viewed curriculum spot
+* Remove annoying in-content CTAs to contribute.
+* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
 * Fix code inside `pre` blocks to not display formatted
 * Make home page more signup-oriented
 * Create nice looking signup confirmation email w/ bcc
 * Make more obvious that you can select multiple projects on prefs
 * Make more obvious the loading icon when waiting for scheduler data
 * Paginate students
+* Make links in curriculum point externally
 * Set up welcome page for students post-signup
 * Link GA goal to that page.
 * Update failing tests
