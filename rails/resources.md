@@ -45,8 +45,9 @@
 3. Basic ActiveRecord -- validations (uniqueness), associations, queries, validation errors / is_valid?... thinking data-first??? The important skill is knowing data structure of a problem first, then worrying about the rest.
     1. Project: CLI apps -- 1. simple database query that uses simple associations, 2. moderate database querying that uses validations
 1. Hartl Tutorial -- space out chapters with the material
-3. Routing -- resources, helpers, REST mapping, rake routes, :only and :except, :root, :id and wildcards
+3. Routing -- resources, helpers, REST mapping, rake routes, :only and :except, :root, :id 
     1. Read rails guides, do Hartl chapter(s)
+
 4. Controllers -- Actions are methods, params, rendering, deleted, 
     1. Read rails guides, build simple error-reading-walkthrough of creating a simple rails app, do Hartl chapter(s)
 5. Views -- ERB, templates, partials, helper files, basic layouts
@@ -63,7 +64,7 @@
     1. Project: 1. build a simple api interaction, 2. Do an oauth authenticated app interaction, 3. build your own simple API
 7. Mailers, scheduled tasks
     1. User login welcome emails on an existing project?
-8. Advanced topics -- nested and collections routing, design patterns, metaprogramming, advanced layouts,
+8. Advanced topics -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
 8. Final Projects -- rebuilding
 9. ??? Testing with Rails???
     1. Models
