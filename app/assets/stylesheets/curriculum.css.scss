@@ -117,7 +117,14 @@
   .project-link{
     color: #f60;
   }
-  #main_content ol>li{
+  #main_content{
+    li > ol, li > ul{
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    li{
+
+    }
     
   }
   #main_content{
