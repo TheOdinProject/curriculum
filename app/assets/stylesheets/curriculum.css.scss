@@ -54,6 +54,16 @@
 
   #sidebar{
     font-size: 90%;
+    ol{
+      padding: 0;
+    }
+    .top-level{
+      font-weight: bold;
+      font-size: 100%;
+    }
+    .parent-level{
+      font-weight: bold;
+    }
   }
 
   #forkme_banner {
