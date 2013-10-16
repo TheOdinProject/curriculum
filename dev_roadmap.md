@@ -34,8 +34,10 @@ It's game on.
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
+DONE Add Alpha tag to front page
 * Remove annoying in-content CTAs to contribute.
 * Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
+* Add Alpha signup code field to signup form
 * Fix code inside `pre` blocks to not display formatted
 * Make home page more signup-oriented
 * Create nice looking signup confirmation email w/ bcc
