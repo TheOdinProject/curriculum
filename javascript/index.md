@@ -10,6 +10,7 @@
 * Watch people code cool stuff with [The Code Player](http://thecodeplayer.com/)
 * [Tutorials for Javascript and jQuery from Jumpstart Lab](http://tutorials.jumpstartlab.com/)
 * [Superhero JS listing of great specific resources](http://superherojs.com/)
+* [jQuery for Designers](http://jqueryfordesigners.com/)
 
 ### Books and Blogs
 * [Best Javascript Books](http://cwebbdesign.tumblr.com/post/22508060129/4-best-javascript-books)
