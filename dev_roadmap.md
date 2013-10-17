@@ -33,8 +33,14 @@ It's game on.
 *********************************************************************
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
+
+* Set up new curriculum data models
+* Set up associations
+* Populate data
+* Write basic views
+* Rewrite controller method for github api calls
+
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
-DONE Add Alpha tag to front page
 * Remove annoying in-content CTAs to contribute.
 * Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
 * Add Alpha signup code field to signup form
@@ -49,6 +55,7 @@ DONE Add Alpha tag to front page
 * Link GA goal to that page.
 * Update failing tests
 * Write basic tests for curriculum section
+DONE Add Alpha tag to front page
 DONE Remove "private" from alpha release warning
 
 

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130711222431) do
+ActiveRecord::Schema.define(:version => 20131017220155) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
@@ -44,6 +44,44 @@ ActiveRecord::Schema.define(:version => 20130711222431) do
   end
 
   add_index "content_buckets", ["name"], :name => "index_content_buckets_on_name", :unique => true
+
+  create_table "courses", :force => true do |t|
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
+
+  add_index "courses", ["title"], :name => "index_courses_on_title", :unique => true
+
+  create_table "lessons", :force => true do |t|
+    t.string   "title"
+    t.string   "url"
+    t.integer  "position",                       :null => false
+    t.text     "description"
+    t.boolean  "is_project",  :default => false
+    t.integer  "section_id",                     :null => false
+    t.integer  "course_id",                      :null => false
+    t.datetime "created_at",                     :null => false
+    t.datetime "updated_at",                     :null => false
+  end
+
+  add_index "lessons", ["course_id"], :name => "index_lessons_on_course_id"
+  add_index "lessons", ["position"], :name => "index_lessons_on_position", :unique => true
+  add_index "lessons", ["section_id"], :name => "index_lessons_on_section_id"
+  add_index "lessons", ["title"], :name => "index_lessons_on_title", :unique => true
+
+  create_table "sections", :force => true do |t|
+    t.string   "title"
+    t.integer  "position",   :null => false
+    t.integer  "course_id",  :null => false
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "sections", ["course_id"], :name => "index_sections_on_course_id"
+  add_index "sections", ["position"], :name => "index_sections_on_position"
+  add_index "sections", ["title"], :name => "index_sections_on_title", :unique => true
 
   create_table "splash_emails", :force => true do |t|
     t.string   "email"
