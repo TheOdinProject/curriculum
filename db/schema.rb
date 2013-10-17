@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131017222347) do
+ActiveRecord::Schema.define(:version => 20131017224328) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
@@ -61,12 +61,10 @@ ActiveRecord::Schema.define(:version => 20131017222347) do
     t.text     "description"
     t.boolean  "is_project",  :default => false
     t.integer  "section_id",                     :null => false
-    t.integer  "course_id",                      :null => false
     t.datetime "created_at",                     :null => false
     t.datetime "updated_at",                     :null => false
   end
 
-  add_index "lessons", ["course_id"], :name => "index_lessons_on_course_id"
   add_index "lessons", ["position"], :name => "index_lessons_on_position", :unique => true
   add_index "lessons", ["section_id"], :name => "index_lessons_on_section_id"
 
