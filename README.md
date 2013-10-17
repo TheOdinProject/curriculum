@@ -4,7 +4,7 @@
 ### The Open Curriculum for Learning Web Development
 
 
-This site provides the main user experience for The Odin Project, including the home page and all user functions.  It is meant to be a shell around [The Odin Project Curriculum](https://theodinproject.com/curriculum) and to include the tools that help students to pair together and get to know others who are working on the curriculum.  
+This site provides the main user experience for The Odin Project, including the home page and all user functions.  It is meant to be a shell around [The Odin Project Curriculum](http://theodinproject.com/curriculum) and to include the tools that help students to pair together and get to know others who are working on the curriculum.  
 
 It has been open-sourced to provide both a learning resource for students who want to see how the tools they're using are built and to give students the opportunity to stretch their wings and contribute to a real open-sourced project... while building the tools they themselves will be using.
 
