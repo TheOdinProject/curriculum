@@ -34,11 +34,11 @@ It's game on.
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 
-* Populate sample data
 * Write basic views
 * Rewrite controller method for github api calls
 * deploy
 * populate real data
+DONE Populate sample data
 DONE Set up new curriculum data models
 DONE Set up associations
 
