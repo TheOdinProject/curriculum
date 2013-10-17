@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131017220155) do
+ActiveRecord::Schema.define(:version => 20131017222347) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
@@ -69,7 +69,6 @@ ActiveRecord::Schema.define(:version => 20131017220155) do
   add_index "lessons", ["course_id"], :name => "index_lessons_on_course_id"
   add_index "lessons", ["position"], :name => "index_lessons_on_position", :unique => true
   add_index "lessons", ["section_id"], :name => "index_lessons_on_section_id"
-  add_index "lessons", ["title"], :name => "index_lessons_on_title", :unique => true
 
   create_table "sections", :force => true do |t|
     t.string   "title"
@@ -81,7 +80,6 @@ ActiveRecord::Schema.define(:version => 20131017220155) do
 
   add_index "sections", ["course_id"], :name => "index_sections_on_course_id"
   add_index "sections", ["position"], :name => "index_sections_on_position"
-  add_index "sections", ["title"], :name => "index_sections_on_title", :unique => true
 
   create_table "splash_emails", :force => true do |t|
     t.string   "email"
