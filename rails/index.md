@@ -32,6 +32,14 @@ The Guides and comprehensive, basically a completely open-source textbook and re
 
 The Tutorial (aka the Hartl Tutorial, after its author) is another open source resource which builds (over several hundred pages) a full featured web application (Twitter clone), including introducing you to testing your code using Rails along the way.
 
+My typical workflow for a long time went sort of like this:
+
+1. I know I want to implement a feature... Google search to see if anyone implemented the same feature.  Land on a Stack Overflow post that describes how to implement a similar feature.
+2. The SO post shows me the right direction to take, so I Google for the specific method it mentioned that I don't understand.  I end up on the Rails Guides page that talks about it.
+3. I pull up my completed version of the Rails Tutorial to make sure I've got the syntax correct and possibly to help write tests while I implement the feature.
+
+As you can see, I frequently relied on the main resources you'll be learning from and you'll find them to be helpful long after you've completed this course, so it makes sense to get familiar with them!
+
 ## Prerequisites
 
 **If you haven't completed these, be sure to do so before getting started:**
