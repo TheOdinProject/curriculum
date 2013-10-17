@@ -34,11 +34,13 @@ It's game on.
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 
-* Set up new curriculum data models
-* Set up associations
-* Populate data
+* Populate sample data
 * Write basic views
 * Rewrite controller method for github api calls
+* deploy
+* populate real data
+DONE Set up new curriculum data models
+DONE Set up associations
 
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
 * Remove annoying in-content CTAs to contribute.
