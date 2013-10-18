@@ -1,69 +1,76 @@
 <div class="CoursesController IndexAction">
   <div class="container">
-    <h1>Make me a Web Developer</h1>
-    <div class="subheading">
-      <p>
-        The Odin Project is here to take you on a journey to becoming a web developer.  Maybe you have a creative spark that needs to get out, maybe you love the idea of having an in-demand skillset and maybe you just want to be able to build your startup yourself.  Regardless of why you're here, we've laid out a path that will guide you on your way to becoming a web developer.  We find the best resources out there so you don't have to waste time doing it yourself, and we give you projects to build as well so you can really learn the material and boost your portfolio.
-      </p>
+    <div class="heading-box">
+      <div class="heading">
+        <h1>Make Me a Web Developer!</h1>
+      </div>
+      <div class="subheading">
+        <p>
+          Regardless of why you're here, we've laid out a path that will guide you on your way to becoming a web developer.  We found the best free resources out there and grouped them into the courses below so you don't have to waste time doing it yourself, and we've given you projects to build as well so you can really learn the material and boost your portfolio as well.  Best of all, it's free!
+        </p>
+      </div>
     </div>
 
-    <% @courses.each do |course| %>
-      <div class="course">
+    <div class="courses-list">
+      <!-- <h2>Courses:</h2> -->
+      <% @courses.each_with_index do |course, i| %>
+        <div class="course">
 
-        <div class="course-title">
-          <h2>
-            <%= course.title %>
-          </h2>
+          <div class="course-title">
+            <h2>
+              <%= i+1 %>: <%= course.title %>
+            </h2>
+          </div>
+
+          <div class="teaser">
+            <h3>
+              <%= course.teaser %>
+            </h3>
+          </div>
+
+          <div class="course-content">
+
+            <div class="description">
+              <p>
+                <%= course.description %>
+              </p>
+            </div>
+
+            <div class="what-youll-learn facts">
+              <h4>
+                You Will Learn
+              </h4>
+              <ul>
+                <% course.you_learn.each do |fact| %>
+                  <li>
+                    <%= fact %>
+                  </li>
+                <% end %>
+              </ul>
+              <div class="see-more">
+                <%= link_to "See more", course_path(course.title_url) %>
+              </div>
+            </div>
+
+            <div class="what-youll-build facts">
+              <h4>
+                You Will Build
+              </h4>
+              <ul>
+                <% course.you_build.each do |project| %>
+                  <li>
+                    <%= project %>
+                  </li>
+                <% end %>
+              </ul>
+              <div class="see-more">
+                <%= link_to "See more", course_path(course.title_url) %>
+              </div>
+            </div>
+          </div>
+
         </div>
-
-        <div class="teaser">
-          <h3>
-            <%= course.teaser %>
-          </h3>
-        </div>
-
-        <div class="description">
-          <p>
-            <%= course.description %>
-          </p>
-        </div>
-
-        <div class="what-youll-learn">
-          <h4>
-            What You'll Learn:
-          </h4>
-          <ul>
-            <% course.you_learn.each do |fact| %>
-              <li>
-                <%= fact %>
-              </li>
-            <% end %>
-          </ul>
-            <%= link_to "See more", course_path(course.title_url) %>
-        </div>
-
-        <div class="what-youll-build">
-          <h3>
-            What You'll Build:
-          </h3>
-          <ul>
-            <% course.you_build.each do |project| %>
-              <li>
-                <%= project %>
-              </li>
-            <% end %>
-          </ul>
-        </div>
-
-      </div>
-    <% end %>
-
-    <ul>
-      <% @courses.each do |course| %>
-        <%= link_to lessons_path(course.title_url) do %>
-          <li><%= course.title %></li>
-        <% end %>
       <% end %>
-    </ul>
+    </div>
   </div>
 </div>

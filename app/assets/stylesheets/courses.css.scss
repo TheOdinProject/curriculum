@@ -1,6 +1,7 @@
 // Place all the styles related to the Courses controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'colors';
 
 .CoursesController{
 
@@ -35,20 +36,94 @@
   }
 
   .container{
-    width: 45em;
-    
-    .subheading{
-      p{
-        font-size: 1em;
-        line-height: 1.25em;
+    width: 46em;
+
+    .heading-box{
+
+      margin: 1em 0 3em 0;
+
+      .heading{
+        h1{
+          text-align: center;
+          margin: .35em 0;  
+          font-weight: 500;
+        }
+      }
+      
+      .subheading{
+        margin: 1.5em auto;
+        width: 90%;
+        p{
+          font-size: 1.15em;
+          line-height: 1.25em;
+          color: $mid_gray;
+          font-weight: 300;
+        }
       }
     }
 
+    .courses-list{
+      h2{
+
+      }
+      .course{
+
+        margin: 2em 0;
+        border-top: 1px solid $vlight_gray;
 
 
+        .course-title{
+          margin-left: -1em;
+          h2{
+            font-size: 2.25em;
+            line-height: 1.5em;
+          }
+        }
 
+        .teaser{
+          display: inline-block;
+          float: left;
+          width: 10em;
+          color: $highlight_orange;
+          h3{
+            font-size: 1.5em;
+            line-height: 1em;
+            margin: 0;
+          }
+        }
+        .course-content{
+          width: 36em;
+          display: inline-block;
+          .description{
+            margin: 0;  
+            p{
+              font-size: 1em; 
+              line-height: 1.25em;
+              font-weight: 300;
+              color: $mid_gray; 
+            }
+          }
+          .facts{
+            width: 50%;
+            margin: 0;
+            float: left;
+            h4{
+              font-size: 1.25em;
+              line-height: 1.25em;
+              // text-align: center;
+              text-decoration: underline;
+              margin: .25em 0em .25em 1em;
+            }
+            li{
+              color: $mid_gray;
+              font-style: italic;
+            }
+            .see-more{
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
   }
-
-
-
 }
