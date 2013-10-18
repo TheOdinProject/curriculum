@@ -1,97 +1,145 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
 
-c = Course.create!(:title => "Web Dev 101", :description => "This is a rad course about web development!", :title_url => "Web Dev 101".parameterize, :position => 1)
+# Populate a handful of courses to include on the main page
+courses = [
+  {
+    :title => "Introduction to Web Development", 
+    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
+    :teaser => "Start Here!",
+    :you_learn => ["What a web developer really does", "The tools of the trade","How to get hired as a web developer"],
+    :you_build => ["Hold on, you'll be building soon!"],
+  },
+  {
+    :title => "Web Development 101", 
+    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
+    :teaser => "A Healthy Dose of Everything",
+    :you_learn => ["How the web really works", "Basic HTML, CSS and Javascript","Basic Ruby, Rails, Databases and Git"],
+    :you_build => ["Google's homepage in HTML/CSS", "A dynamic sketchpad with JS/jQuery", "A series of test-first Ruby challenges"]
+  },
+  {
+    :title => "Ruby", 
+    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
+    :teaser => "Become a True Rubyist",
+    :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
+    :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
+  },
+  {
+    :title => "Ruby on Rails", 
+    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
+    :teaser => "Build Real Websites",
+    :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
+    :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
+  },
+  {
+    :title => "Javascript and jQuery", 
+    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
+    :teaser => "Make Your Websites Really Dance",
+    :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
+    :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
+  },
+].each_with_index do |course, i|
+  Course.create!(
+    :title => course[:title],
+    :title_url => course[:title].parameterize,
+    :description => course[:description],
+    :teaser => course[:teaser],
+    :position => i+1,
+    :you_learn => course[:you_learn],
+    :you_build => course[:you_build]
+    )
+end
 
+# Set up the sections for our sample course, web dev 101
+wd101_id = Course.where(:title => "Web Development 101").first.id
 sections = []
 [ "The Basics", 
   "The Front End", 
   "The Back End", 
   "The Other Stuff"
 ].each_with_index do |title, i|
-  sections << Section.create!(:title => title, :title_url => title.parameterize, :course_id => c.id, :position => i+1)
+  sections << Section.create!(:title => title, :title_url => title.parameterize, :course_id => wd101_id, :position => i+1)
 end
 
+# Populate lessons for our sample course, web dev 101
 lessons = [
-            { :title => "How the Web Works",
-              :is_project => false,
-              :url => "web_development_basics/how_does_the_web_work.md"
-            },
-            {
-              :title => "How Your Computer Works",
-              :is_project => false,
-              :url => "web_development_basics/how_does_your_computer_work.md"
-            },
-            {
-              :title => "Terms to Know",
-              :is_project => false,
-              :url => "web_development_basics/terms_to_know.md"
-            },
-            {
-              :title => "Introduction to the Front End",
-              :is_project => false,
-              :url => "web_development_basics/web_programming_basics/front_end_basics/index.md"
-            },
-            {
-              :title => "HTML and CSS Basics",
-              :is_project => false,
-              :url => "web_development_basics/web_programming_basics/front_end_basics/html_css_basics.md"
-            },
-            {
-              :title => "HTML/CSS",
-              :is_project => true,
-              :url => "web_development_basics/web_programming_basics/front_end_basics/project_html_css.md"
-            },
-            {
-              :title => "Javascript Basics",
-              :is_project => false,
-              :url => "web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
-            },
-            {
-              :title => "jQuery Basics",
-              :is_project => false,
-              :url => "web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
-            },
-            { 
-              :title => "Javascript and jQuery",
-              :is_project => true,
-              :url => "web_development_basics/web_programming_basics/front_end_basics/project_js_jquery.md"
-            },
-            {
-              :title => "Ruby Basics",
-              :is_project => false,
-              :url => "web_development_basics/web_programming_basics/back_end_basics/ruby_basics.md"
-            },
-            {
-              :title => "Ruby",
-              :is_project => true,
-              :url => "web_development_basics/web_programming_basics/back_end_basics/project_ruby.md"
-            },
-            {
-              :title => "Database Basics",
-              :is_project => false,
-              :url => "web_development_basics/web_programming_basics/database_basics.md"
-            },
-            { :title => "Finale",
-              :is_project => false,
-              :url => "web_development_basics/finish.md"
-            },
-          ]
+    { :title => "How the Web Works",
+      :is_project => false,
+      :url => "web_development_basics/how_does_the_web_work.md",
+      :you_learn => ["What a web developer really does", "The tools of the trade","How to get hired as a web developer"],
+      :you_build => ["Hold on, you'll be building soon!"]
+    },
+    {
+      :title => "How Your Computer Works",
+      :is_project => false,
+      :url => "web_development_basics/how_does_your_computer_work.md"
+    },
+    {
+      :title => "Terms to Know",
+      :is_project => false,
+      :url => "web_development_basics/terms_to_know.md"
+    },
+    {
+      :title => "Introduction to the Front End",
+      :is_project => false,
+      :url => "web_development_basics/web_programming_basics/front_end_basics/index.md"
+    },
+    {
+      :title => "HTML and CSS Basics",
+      :is_project => false,
+      :url => "web_development_basics/web_programming_basics/front_end_basics/html_css_basics.md"
+    },
+    {
+      :title => "HTML/CSS",
+      :is_project => true,
+      :url => "web_development_basics/web_programming_basics/front_end_basics/project_html_css.md"
+    },
+    {
+      :title => "Javascript Basics",
+      :is_project => false,
+      :url => "web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
+    },
+    {
+      :title => "jQuery Basics",
+      :is_project => false,
+      :url => "web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
+    },
+    { 
+      :title => "Javascript and jQuery",
+      :is_project => true,
+      :url => "web_development_basics/web_programming_basics/front_end_basics/project_js_jquery.md"
+    },
+    {
+      :title => "Ruby Basics",
+      :is_project => false,
+      :url => "web_development_basics/web_programming_basics/back_end_basics/ruby_basics.md"
+    },
+    {
+      :title => "Ruby",
+      :is_project => true,
+      :url => "web_development_basics/web_programming_basics/back_end_basics/project_ruby.md"
+    },
+    {
+      :title => "Database Basics",
+      :is_project => false,
+      :url => "web_development_basics/web_programming_basics/database_basics.md"
+    },
+    { :title => "Finale",
+      :is_project => false,
+      :url => "web_development_basics/finish.md"
+    },
+  ]
 
 # Set up our sample lessons
 lessons.each_with_index do |lesson, i|
-  Lesson.create!(   :title => lesson[:title], 
-                    :title_url => lesson[:title].parameterize,
-                    :description => "You will learn #{lesson[:title]}!", 
-                    :position => i+1, 
-                    :section_id => sections[(i.to_f / lessons.size * 3.0).round(0)].id, 
-                    :is_project => lesson[:is_project], 
-                    :url => lesson[:url])
+  Lesson.create!(   
+    :title => lesson[:title], 
+    :title_url => lesson[:title].parameterize,
+    :description => "You will learn #{lesson[:title]}!", 
+    :position => i+1, 
+    :section_id => sections[(i.to_f / lessons.size * 3.0).round(0)].id, 
+    :is_project => lesson[:is_project], 
+    :url => lesson[:url])
 end
 
 
