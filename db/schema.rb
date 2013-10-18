@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131017224328) do
+ActiveRecord::Schema.define(:version => 20131018003317) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
@@ -50,9 +50,11 @@ ActiveRecord::Schema.define(:version => 20131017224328) do
     t.text     "description"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.string   "title_url"
   end
 
   add_index "courses", ["title"], :name => "index_courses_on_title", :unique => true
+  add_index "courses", ["title_url"], :name => "index_courses_on_title_url"
 
   create_table "lessons", :force => true do |t|
     t.string   "title"
@@ -63,10 +65,12 @@ ActiveRecord::Schema.define(:version => 20131017224328) do
     t.integer  "section_id",                     :null => false
     t.datetime "created_at",                     :null => false
     t.datetime "updated_at",                     :null => false
+    t.string   "title_url"
   end
 
   add_index "lessons", ["position"], :name => "index_lessons_on_position", :unique => true
   add_index "lessons", ["section_id"], :name => "index_lessons_on_section_id"
+  add_index "lessons", ["title_url"], :name => "index_lessons_on_title_url"
 
   create_table "sections", :force => true do |t|
     t.string   "title"
@@ -74,10 +78,12 @@ ActiveRecord::Schema.define(:version => 20131017224328) do
     t.integer  "course_id",  :null => false
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+    t.string   "title_url"
   end
 
   add_index "sections", ["course_id"], :name => "index_sections_on_course_id"
   add_index "sections", ["position"], :name => "index_sections_on_position"
+  add_index "sections", ["title_url"], :name => "index_sections_on_title_url"
 
   create_table "splash_emails", :force => true do |t|
     t.string   "email"
