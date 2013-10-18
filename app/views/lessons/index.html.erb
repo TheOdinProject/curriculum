@@ -2,6 +2,8 @@
 
 <ul>
   <% @lessons.each do |lesson| %>
-    <li><%= lesson.title %></li>
+    <%= link_to lesson_path(lesson.course.title_url, lesson.title_url) do %>
+      <li><%= lesson.title %></li>
+    <% end %>
   <% end %>
 </ul>

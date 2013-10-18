@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-c = Course.create!(:title => "Web Dev 101", :description => "This is a rad course about web development!", :title_url => "Web Dev 101".parameterize)
+c = Course.create!(:title => "Web Dev 101", :description => "This is a rad course about web development!", :title_url => "Web Dev 101".parameterize, :position => 1)
 
 sections = []
 [ "The Basics", 

@@ -1,5 +1,5 @@
 class Course < ActiveRecord::Base
-  attr_accessible :description, :title, :title_url
+  attr_accessible :description, :title, :title_url, :position
 
   has_many :sections
   has_many :lessons, :through => :sections
