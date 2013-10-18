@@ -6,7 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-c = Course.create!(:title => "Web Dev 101", :description => "This is a rad course about web development!")
+c = Course.create!(:title => "Web Dev 101", :description => "This is a rad course about web development!", :title_url => "Web Dev 101".parameterize)
 
 sections = []
 [ "The Basics", 
@@ -14,7 +14,7 @@ sections = []
   "The Back End", 
   "The Other Stuff"
 ].each_with_index do |title, i|
-  sections << Section.create!(:title => title, :course_id => c.id, :position => i+1)
+  sections << Section.create!(:title => title, :title_url => title.parameterize, :course_id => c.id, :position => i+1)
 end
 
 lessons = [
@@ -85,7 +85,13 @@ lessons = [
 
 # Set up our sample lessons
 lessons.each_with_index do |lesson, i|
-  Lesson.create!(:title => lesson[:title], :description => "You will learn #{lesson[:title]}!", :position => i+1, :section_id => sections[(i.to_f / lessons.size * 3.0).round(0)].id, :is_project => lesson[:is_project], :url => lesson[:url])
+  Lesson.create!(   :title => lesson[:title], 
+                    :title_url => lesson[:title].parameterize,
+                    :description => "You will learn #{lesson[:title]}!", 
+                    :position => i+1, 
+                    :section_id => sections[(i.to_f / lessons.size * 3.0).round(0)].id, 
+                    :is_project => lesson[:is_project], 
+                    :url => lesson[:url])
 end
 
 
