@@ -19,6 +19,7 @@ Theodinproject::Application.routes.draw do
   get 'curriculum(/*dir(.:format))' => 'curriculum#index', :as => "curriculum"
 
   get 'courses' => 'courses#index'
+  get 'courses/:course_name' => redirect('/courses/%{course_name}/lessons')
   get 'courses/:course_name/lessons' => 'lessons#index', :as => "lessons"
   get 'courses/:course_name/lessons/:lesson_name' => 'lessons#show', :as => "lesson"
 

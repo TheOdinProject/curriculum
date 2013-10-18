@@ -34,12 +34,16 @@ It's game on.
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 
-* Write basic views
-* Set up actual data heirarchy!
+
+* Courses index view
+* Lessons Index view
+* Lesson view
 * Set up linkages between lessons
+* Revisit and tighten up copy and message (a journey!)
 * deploy
 * populate real data
 * ??? Change /curriculum index to redirect to courses index
+DONE Set up actual data heirarchy!
 DONE Rewrite controller method for github api calls into model method
 DONE Routing: /courses/:course_name/lessons/:lesson_name
 DONE Populate sample data
