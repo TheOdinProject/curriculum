@@ -15,9 +15,13 @@ Theodinproject::Application.routes.draw do
   get 'selectable' => 'static_pages#selectable'
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
+
   get 'curriculum(/*dir(.:format))' => 'curriculum#index', :as => "curriculum"
-  # get 'contact_user' => 'contact#new'
-  # post 'contact_user' => 'contact#create'
+
+  get 'courses' => 'courses#index'
+  get 'courses/:course_name' => 'courses#show', :as => "course"
+  get 'courses/:course_name/lessons' => 'lessons#index', :as => "lessons"
+  get 'courses/:course_name/lessons/:lesson_name' => 'lessons#show', :as => "lesson"
 
   resources :cal_events
 

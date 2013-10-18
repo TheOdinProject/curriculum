@@ -1,0 +1,9 @@
+<h1>Courses Index</h1>
+
+<ul>
+  <% @courses.each do |course| %>
+    <%= link_to course_path(course.title) do %>
+      <li><%= course.title %></li>
+    <% end %>
+  <% end %>
+</ul>

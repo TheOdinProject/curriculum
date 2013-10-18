@@ -35,9 +35,11 @@ It's game on.
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 
 * Write basic views
+* Routing: /courses/:course_name/lessons/:lesson_name
 * Rewrite controller method for github api calls
 * deploy
 * populate real data
+* ??? Change /curriculum index to redirect to courses index
 DONE Populate sample data
 DONE Set up new curriculum data models
 DONE Set up associations
