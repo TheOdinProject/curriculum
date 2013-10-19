@@ -42,6 +42,7 @@ courses = [
     :title => course[:title],
     :title_url => course[:title].parameterize,
     :description => generic_medium_description,
+    :brief_desc => generic_short_description,
     :teaser => course[:teaser],
     :position => i+1,
     :you_learn => course[:you_learn],
