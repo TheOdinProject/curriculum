@@ -34,16 +34,20 @@ It's game on.
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 
-
-* Courses index view
-* Lessons Index view
-* Lesson view
-* Set up linkages between lessons
+* Link the main courses page better!
+* Set up divs to link to for sections
+* Create some sort of nav / header in lesson show
 * Revisit and tighten up copy and message (a journey!)
+* Revisit the UX flows and overall design consistency
 * Serve the fonts myself... waiting for google fonts sucks.
-* deploy
-* populate real data
+* Rebuild and remap the curriculum directory and lesson structure
+* setup seeds to populate real data
+* deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
+DONE basicc Courses index view
+DONE Basic Lessons Index view
+DONE Basic Lesson view
+DONE Set up linkages between lessons
 DONE Set up actual data heirarchy!
 DONE Rewrite controller method for github api calls into model method
 DONE Routing: /courses/:course_name/lessons/:lesson_name

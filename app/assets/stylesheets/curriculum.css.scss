@@ -3,6 +3,18 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "colors";
 
+#lesson-nav{
+  height: 1.75em;
+  width: 100%;
+  display: inline-block;
+  font-size: .75em;
+  margin: -8px 2em 0 2em;
+  padding-top: 8px;
+  position: fixed;
+  background-color: $background_color; //rgba(255,255,255,1);
+  box-shadow: 3px 6px 9px $background_color; //rgba(255,255,255,1);
+}
+
 .individual-lesson{
   /* User styles */
   font-size: 1.25em;
@@ -32,7 +44,7 @@
   ul, ol, li{
     line-height: 1.5em;
   }
-  li{
+  ol>li{
     margin: .35em 0;
   }
   li > ol, li > ul{
@@ -137,7 +149,7 @@
         height: 4em;
         font-size: 1.25em;
         line-height: 1.25em;
-        background-color: $dark_blue;
+        background-color: $link_color_visited;
         color: white;
         border-radius: .5em;
         -webkit-border-radius: .5em;
@@ -151,7 +163,7 @@
           }
         }
         &:hover{
-          background-color: $accent_blue;
+          background-color: $link_color_hover;
         }
       }
     }

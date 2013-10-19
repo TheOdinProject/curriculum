@@ -155,25 +155,27 @@
     display: inline-block;
   }
   .lesson:hover{
-    opacity: .5;
+    opacity: .65;
     // color: red!important;
   }
   .lesson-header{
   }
   .lesson-number{
     position: absolute;
-    width: 10.5em;
+    width: 7em;
     top: 0;
     left: 0;
     h3{
       color: $light_gray;
+      // color: $link_color_visited;
       text-align: right;
       font-weight: 500;
     }
   }
   .lesson-title{
     h3{
-      color: $dark_gray;
+      // color: $dark_gray;
+      color: $link_color_visited;
       font-weight: 600;
     }
   }
@@ -184,7 +186,7 @@
   }
   .lesson-content{
     // display: inline-block;
-    width: 35em;
+    width: 38em;
     margin: 0 0 0 auto;  
   }
   .description{
@@ -198,5 +200,10 @@
 
   .lesson-content{
 
+  }
+
+  .back-link{
+    text-align: center;
+    margin: 1em 0 ;
   }
 }

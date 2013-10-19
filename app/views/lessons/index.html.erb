@@ -11,10 +11,11 @@
       </div>
     </div>
 
+    
     <div class="sections-list">
       <% @sections.each do |section| %>
 
-        <div class="section">
+        <div class="section" id="section-<%= section.title_url %>">
           <div class="section-title">
             <h2>
               <%= section.title %>
@@ -35,7 +36,7 @@
                 <div class="lesson <%= lesson.is_project ? 'project' :''%>">
                   <div class="lesson-number">
                     <h3>
-                      <%= lesson.is_project ? "Project" : "Lesson #{lesson_num}"%>: &nbsp;
+                      <%= lesson.is_project ? "Project" : "Step #{lesson_num}"%>: &nbsp;
                     </h3>
                   </div>
 
@@ -59,6 +60,9 @@
 
         </div>
       <% end %>
+    <div class="back-link">
+      <%= link_to "Back to Courses List", courses_path %>
+    </div>
     </div>
   </div>
 </div>

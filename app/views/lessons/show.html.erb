@@ -1,4 +1,10 @@
 
+<div id="lesson-nav">
+  <%= link_to "Course List", courses_path %> >> 
+  <%= link_to "#{@lesson.course.title}", lessons_path(@lesson.course.title_url) %> >> 
+  <%= link_to "#{@lesson.section.title}", lessons_path(@lesson.course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >> 
+  <%= @lesson.title %>
+</div>
 <div class="individual-lesson">
   <div class="container">
     <%= @content %>
@@ -39,14 +45,17 @@
         </div>
       <% end %>
 
-      <div class="nav-link">
-        <%= link_to "Back to #{@course.title}", lessons_path(@course.title_url) %>
-      </div>
       <% if @prev_lesson %>
         <div class="nav-link">
           <%= link_to "Previous lesson: #{@prev_lesson.title}", lesson_path(@course.title_url, @prev_lesson.title_url) %>
         </div>
       <% end %>
+      <div class="nav-link">
+        <%= link_to "Back to #{@course.title}", lessons_path(@course.title_url) %>
+      </div>
+      <div class="nav-link">
+        <%= link_to "Back to Courses List", courses_path %>
+      </div>
     </div>
   </div>
 </div>
