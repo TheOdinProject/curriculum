@@ -32,8 +32,9 @@ It's game on.
 **********************  Current Dev Version TODOs *******************
 *********************************************************************
 
-v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
+v0.1.0: Bug fixes, Curriculum UI / Navigation improvements, Alpha Signup Flow
 
+Curriculum Redesign:
 * Revisit and tighten up copy and message (a journey!)
 * Revisit the UX flows and overall design consistency -- Fonts!
 * Rebuild and remap the curriculum directory and lesson structure
@@ -58,19 +59,22 @@ DONE Populate sample data
 DONE Set up new curriculum data models
 DONE Set up associations
 
-* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
-* Remove annoying in-content CTAs to contribute.
-* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
-* Add Alpha signup code field to signup form
-* Fix code inside `pre` blocks to not display formatted
+Alpha Signup Flow:
 * Make home page more signup-oriented
+* Add Alpha signup code field to signup form
 * Create nice looking signup confirmation email w/ bcc
-* Make more obvious that you can select multiple projects on prefs
-* Make more obvious the loading icon when waiting for scheduler data
-* Paginate students
-* Make links in curriculum point externally
 * Set up welcome page for students post-signup... or just have a query string.
 * Link GA goal to that page.
+
+Bugs and Miscellanea
+* Make links in curriculum point externally
+* Remove annoying in-content CTAs to contribute.
+* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
+* Paginate students
+* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
+* Fix code inside `pre` blocks to not display formatted
+* Make more obvious that you can select multiple projects on prefs
+* Make more obvious the loading icon when waiting for scheduler data
 * KILL BOOTSTRAP!?!
 * Update failing tests
 * Write basic tests for curriculum section
