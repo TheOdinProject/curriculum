@@ -12,14 +12,15 @@
     </div>
 
     <div class="courses-list">
-      <!-- <h2>Courses:</h2> -->
       <% @courses.each_with_index do |course, i| %>
         <div class="course">
 
           <div class="course-title">
-            <h2>
-              <%= i+1 %>: <%= course.title %>
-            </h2>
+            <a href="<%=lessons_path(course.title_url)%>">
+              <h2>
+                <%= i+1 %>: <%= course.title %>
+              </h2>
+            </a>
           </div>
 
           <div class="teaser">

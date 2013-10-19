@@ -12,6 +12,10 @@ class LessonsController < ApplicationController
     @content = md(@lesson.content)
     @next_lesson = @lesson.next_lesson
     @prev_lesson = @lesson.prev_lesson
+    @num_lessons = @lesson.section.lessons.where(:is_project => false).count
+    @num_projects = @lesson.section.lessons.where(:is_project => true).count
+    # the position of the lesson not including projects
+    @lesson_position_in_section = @lesson.section.lessons.where("is_project = ? AND position <= ?", false, @lesson.position).count
   end
   
 end

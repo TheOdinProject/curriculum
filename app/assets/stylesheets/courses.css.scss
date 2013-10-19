@@ -70,14 +70,20 @@
     .course{
 
       margin: 2em 0;
-      border-top: 1px solid $vlight_gray;
-
+      // border-top: 1px solid $vlight_gray;
 
       .course-title{
+        a:hover{
+          text-decoration: none;
+          h2{
+            color: $link_color;
+          }
+        }
         margin-left: -1em;
         h2{
           font-size: 2.25em;
           line-height: 1.5em;
+          color: $link_color_visited;
         }
       }
 

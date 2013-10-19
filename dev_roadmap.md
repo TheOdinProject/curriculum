@@ -34,16 +34,18 @@ It's game on.
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 
-* Link the main courses page better!
-* Set up divs to link to for sections
-* Create some sort of nav / header in lesson show
+* Fix breakpoints for nav to not get in the way of the main navbar
 * Revisit and tighten up copy and message (a journey!)
 * Revisit the UX flows and overall design consistency
 * Serve the fonts myself... waiting for google fonts sucks.
 * Rebuild and remap the curriculum directory and lesson structure
+* Write copy for curriculum pieces
 * setup seeds to populate real data
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
+DONE Link the main courses page better!
+DONE Set up divs to link to for sections
+DONE Create some sort of nav / header in lesson show
 DONE basicc Courses index view
 DONE Basic Lessons Index view
 DONE Basic Lesson view
@@ -68,6 +70,7 @@ DONE Set up associations
 * Make links in curriculum point externally
 * Set up welcome page for students post-signup
 * Link GA goal to that page.
+* KILL BOOTSTRAP!?!
 * Update failing tests
 * Write basic tests for curriculum section
 DONE Add Alpha tag to front page

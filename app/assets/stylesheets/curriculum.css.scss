@@ -5,6 +5,7 @@
 
 #lesson-nav{
   height: 1.75em;
+  z-index: 100;
   width: 100%;
   display: inline-block;
   font-size: .75em;
@@ -13,6 +14,13 @@
   position: fixed;
   background-color: $background_color; //rgba(255,255,255,1);
   box-shadow: 3px 6px 9px $background_color; //rgba(255,255,255,1);
+  &:hover > .inner-nav{
+    opacity: 1;
+  }
+  .inner-nav{
+    display: inline-block;
+    opacity: .5;
+  }
 }
 
 .individual-lesson{
