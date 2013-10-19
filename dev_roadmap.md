@@ -34,15 +34,16 @@ It's game on.
 
 v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
 
-* Fix breakpoints for nav to not get in the way of the main navbar
 * Revisit and tighten up copy and message (a journey!)
-* Revisit the UX flows and overall design consistency
-* Serve the fonts myself... waiting for google fonts sucks.
+* Revisit the UX flows and overall design consistency -- Fonts!
 * Rebuild and remap the curriculum directory and lesson structure
 * Write copy for curriculum pieces
 * setup seeds to populate real data
+* GITHUB API KEYS
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
+DONE Fix breakpoints for nav to not get in the way of the main navbar
+DONE Serve the fonts myself... waiting for google fonts sucks. NO: just reduced the total download payload.  Serving myself may not be a better solution here.  Each font weight/style is like 200kb!
 DONE Link the main courses page better!
 DONE Set up divs to link to for sections
 DONE Create some sort of nav / header in lesson show
@@ -68,7 +69,7 @@ DONE Set up associations
 * Make more obvious the loading icon when waiting for scheduler data
 * Paginate students
 * Make links in curriculum point externally
-* Set up welcome page for students post-signup
+* Set up welcome page for students post-signup... or just have a query string.
 * Link GA goal to that page.
 * KILL BOOTSTRAP!?!
 * Update failing tests
