@@ -1,10 +1,17 @@
 // Place all the styles related to the Curriculum controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "colors";
 
-#lesson{
+.individual-lesson{
   /* User styles */
   font-size: 1.25em;
+  margin: 2em auto;
+  input, button{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
 
   p{
     margin-bottom: 1.2em;
@@ -19,8 +26,18 @@
   h2, h3, h4, h5{
     margin-top: 1.5em;
   }
+  ul,ol{
+    margin-left: 1.5em;
+  }
   ul, ol, li{
     line-height: 1.5em;
+  }
+  li{
+    margin: .35em 0;
+  }
+  li > ol, li > ul{
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
 
   code{
@@ -28,6 +45,9 @@
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     font-size: 80%;
+  }
+  .container{
+    width: 32em;
   }
 
   .project-content h1, .project-content h2{
@@ -50,20 +70,6 @@
     font-weight: 300;
     color: #888;
     letter-spacing: 1px;
-  }
-
-  #sidebar{
-    font-size: 90%;
-    ol{
-      padding: 0;
-    }
-    .top-level{
-      font-weight: bold;
-      font-size: 100%;
-    }
-    .parent-level{
-      font-weight: bold;
-    }
   }
 
   #forkme_banner {
@@ -100,14 +106,7 @@
   }
 
   .facebook{
-    /*padding-top:10px;*/
     padding-right: 32px;
-  }
-  .twitter{
-    /*padding-top: 10px;*/
-  }
-  .google-plus{
-    /*padding-top: 10px;*/
   }
 
   .coming-soon{
@@ -117,17 +116,48 @@
   .project-link{
     color: #f60;
   }
-  #main_content{
-    li > ol, li > ul{
-      margin-top: 1em;
-      margin-bottom: 1em;
-    }
-    li{
-
-    }
     
-  }
-  #main_content{
+  .action-box{
+    text-align: center;
+    border-top: 1px solid $light_gray;
+    padding: 1.5em 2em 2.5em 2em;
+    margin: 3em -2em;
 
+    h1{
+      margin: 1em 0 .5em 0;
+    }
+    h3{
+      margin: 1em 0;
+    }
+
+    .forward-button{
+      margin: 1.5em 0;
+      button{
+        width: 15em;
+        height: 4em;
+        font-size: 1.25em;
+        line-height: 1.25em;
+        background-color: $dark_blue;
+        color: white;
+        border-radius: .5em;
+        -webkit-border-radius: .5em;
+        -moz-border-radius: .5em;
+        -o-border-radius: .5em;
+        border: 0;
+        &.project-button{
+          background-color: $highlight_orange;
+          &:hover{
+            background-color: $dark_orange;
+          }
+        }
+        &:hover{
+          background-color: $accent_blue;
+        }
+      }
+    }
+    .nav-link{
+      margin: .5em 0;
+      font-size: .85em;
+    }
   }
 }

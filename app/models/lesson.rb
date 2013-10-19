@@ -4,6 +4,24 @@ class Lesson < ActiveRecord::Base
   belongs_to :section
   has_one :course, :through => :section
 
+  def next_lesson
+    lessons = self.course.lessons.order("position asc")
+    if self.position >= lessons.size
+      return nil
+    else
+      return lessons[self.position]
+    end
+  end
+
+  def prev_lesson
+    lessons = self.course.lessons.order("position asc")
+    if self.position <= 1
+      return nil
+    else
+      return lessons[self.position-2]
+    end
+  end
+
   def content
     github = Github::Repos.new :user => "theodinproject", :repo => "curriculum", :oauth_token => "#{ENV['GITHUB_API_TOKEN']}"
     begin

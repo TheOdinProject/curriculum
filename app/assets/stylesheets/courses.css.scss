@@ -6,16 +6,16 @@
 .CoursesController{
 
   p{
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 1.5em;
   }
   h5{
-    font-size: 1.25em;
+    font-size: 1.5em;
     line-height: 1.5em;
     font-weight: bold;
   }
   h4{
-    font-size: 1.5em;
+    font-size: 1.75em;
     line-height: 1.5em;
     font-weight: bold;
   }
@@ -194,5 +194,9 @@
       font-weight: 300;
       color: $mid_gray; 
     }
+  }
+
+  .lesson-content{
+
   }
 }
