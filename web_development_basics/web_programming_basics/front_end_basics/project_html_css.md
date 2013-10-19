@@ -42,6 +42,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * See [RebootJeff's solution here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
+
+* See [Max Pleaner's solution here](https://github.com/macsplean/odin1_google_part1) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/macsplean/odin1_google_part1/blob/master/index.html).
 * *Your solution here...*
 
 ## Additional Resources
