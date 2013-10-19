@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131018220618) do
+ActiveRecord::Schema.define(:version => 20131018235429) do
 
   create_table "cal_events", :force => true do |t|
     t.string   "summary"
@@ -78,11 +78,12 @@ ActiveRecord::Schema.define(:version => 20131018220618) do
 
   create_table "sections", :force => true do |t|
     t.string   "title"
-    t.integer  "position",   :null => false
-    t.integer  "course_id",  :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "position",    :null => false
+    t.integer  "course_id",   :null => false
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
     t.string   "title_url"
+    t.text     "description"
   end
 
   add_index "sections", ["course_id"], :name => "index_sections_on_course_id"

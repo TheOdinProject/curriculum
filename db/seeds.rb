@@ -1,39 +1,38 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 
+generic_medium_description = "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+generic_short_description = "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
 # Populate a handful of courses to include on the main page
 courses = [
   {
     :title => "Introduction to Web Development", 
-    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
     :teaser => "Start Here!",
     :you_learn => ["What a web developer really does", "The tools of the trade","How to get hired as a web developer"],
     :you_build => ["Hold on, you'll be building soon!"],
   },
   {
     :title => "Web Development 101", 
-    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
     :teaser => "A Healthy Dose of Everything",
     :you_learn => ["How the web really works", "Basic HTML, CSS and Javascript","Basic Ruby, Rails, Databases and Git"],
     :you_build => ["Google's homepage in HTML/CSS", "A dynamic sketchpad with JS/jQuery", "A series of test-first Ruby challenges"]
   },
   {
     :title => "Ruby", 
-    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
     :teaser => "Become a True Rubyist",
     :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
     :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
   },
   {
     :title => "Ruby on Rails", 
-    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
     :teaser => "Build Real Websites",
     :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
     :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
   },
   {
     :title => "Javascript and jQuery", 
-    :description => "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.", 
     :teaser => "Make Your Websites Really Dance",
     :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
     :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
@@ -42,7 +41,7 @@ courses = [
   Course.create!(
     :title => course[:title],
     :title_url => course[:title].parameterize,
-    :description => course[:description],
+    :description => generic_medium_description,
     :teaser => course[:teaser],
     :position => i+1,
     :you_learn => course[:you_learn],
@@ -52,13 +51,24 @@ end
 
 # Set up the sections for our sample course, web dev 101
 wd101_id = Course.where(:title => "Web Development 101").first.id
-sections = []
-[ "The Basics", 
-  "The Front End", 
-  "The Back End", 
-  "The Other Stuff"
-].each_with_index do |title, i|
-  sections << Section.create!(:title => title, :title_url => title.parameterize, :course_id => wd101_id, :position => i+1)
+sections_array = []
+sections = [
+  { 
+    :title => "The Basics", 
+  },
+  {
+    :title => "The Front End",
+  },
+  {
+    :title => "The Back End",
+  },
+  {
+    :title => "The Other Stuff",
+  }
+]
+
+sections.each_with_index do |section, i|
+  sections_array << Section.create!(:title => section[:title], :title_url => section[:title].parameterize, :course_id => wd101_id, :position => i+1)
 end
 
 # Populate lessons for our sample course, web dev 101
@@ -135,9 +145,9 @@ lessons.each_with_index do |lesson, i|
   Lesson.create!(   
     :title => lesson[:title], 
     :title_url => lesson[:title].parameterize,
-    :description => "You will learn #{lesson[:title]}!", 
+    :description => generic_short_description, 
     :position => i+1, 
-    :section_id => sections[(i.to_f / lessons.size * 3.0).round(0)].id, 
+    :section_id => sections_array[(i.to_f / lessons.size * 3.0).round(0)].id, 
     :is_project => lesson[:is_project], 
     :url => lesson[:url])
 end
