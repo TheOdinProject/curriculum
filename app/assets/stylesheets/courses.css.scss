@@ -41,7 +41,7 @@
 
   .heading-box{
 
-    margin: 1em 0 2em 0;
+    margin: 2em 0 2em 0;
 
     .heading{
       h1{
@@ -52,7 +52,7 @@
     }
     
     .subheading{
-      margin: 1.5em auto;
+      margin: 2em auto;
       width: 90%;
       p{
         font-size: 1.15em;
@@ -71,19 +71,22 @@
 
       margin: 2em 0;
       // border-top: 1px solid $vlight_gray;
+      &:hover{
+        // opacity: .85;
+      }
 
       .course-title{
         a:hover{
           text-decoration: none;
           h2{
-            color: $link_color;
+            color: $link_color_visited;
           }
         }
         margin-left: -1em;
         h2{
           font-size: 2.25em;
           line-height: 1.5em;
-          color: $link_color_visited;
+          color: $dark_gray;
         }
       }
 
