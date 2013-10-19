@@ -40,6 +40,7 @@ v0.0.8: Bug fixes, Curriculum UI / Navigation improvements,
 * Lesson view
 * Set up linkages between lessons
 * Revisit and tighten up copy and message (a journey!)
+* Serve the fonts myself... waiting for google fonts sucks.
 * deploy
 * populate real data
 * ??? Change /curriculum index to redirect to courses index
