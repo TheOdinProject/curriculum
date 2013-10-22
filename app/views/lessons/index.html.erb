@@ -36,7 +36,7 @@
           <div class="lessons-list">
             <!-- <h2>lessons:</h2> -->
             <% lesson_num = 0 %>
-            <% section.lessons.each do |lesson| %>
+            <% section.lessons.order("position asc").each do |lesson| %>
               <% lesson_num += 1 unless lesson.is_project %>
               <%= link_to lesson_path(lesson.course.title_url, lesson.title_url) do %>
                 <div class="lesson <%= lesson.is_project ? 'project' :''%>">

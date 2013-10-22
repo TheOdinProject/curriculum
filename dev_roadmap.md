@@ -43,6 +43,7 @@ Curriculum Redesign:
 * GITHUB API KEYS
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
+DONE Fix bug with display order of sections
 DONE Fix breakpoints for nav to not get in the way of the main navbar
 DONE Serve the fonts myself... waiting for google fonts sucks. NO: just reduced the total download payload.  Serving myself may not be a better solution here.  Each font weight/style is like 200kb!
 DONE Link the main courses page better!
