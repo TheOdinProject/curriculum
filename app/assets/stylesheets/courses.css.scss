@@ -134,6 +134,20 @@
         }
       }
     }
+    .inactive{
+      opacity: .35;
+    }
+    .coming-soon{
+      font-size: .5em;
+      line-height: 0;
+      display: inline-block;
+      position: relative;
+      bottom: .1em;
+      left: .25em;
+      padding-bottom: .25em;
+      font-weight: 200;
+      font-style: italic;
+    }
   }
   .sections-list{
 

@@ -15,14 +15,21 @@
 
     <div class="courses-list">
       <% @courses.each_with_index do |course, i| %>
-        <div class="course">
+        <div class="course <%= course.is_active ? '' : 'inactive'%>">
 
           <div class="course-title">
-            <a href="<%=lessons_path(course.title_url)%>">
+            <% if course.is_active %>
+              <a href="<%=lessons_path(course.title_url)%>">
+            <% end %>
               <h2>
                 <%= i+1 %>: <%= course.title %>
+                <% unless course.is_active %>
+                  <span class="coming-soon"> ...Coming Soon!</span>
+                <% end %>
               </h2>
-            </a>
+            <% if course.is_active %>
+              </a>
+            <% end %>
           </div>
 
           <div class="teaser">
@@ -50,9 +57,13 @@
                   </li>
                 <% end %>
               </ul>
-              <div class="see-more">
-                <%= link_to "See more", course_path(course.title_url) %>
-              </div>
+
+              <% if course.is_active %>
+                <div class="see-more">
+                  <%= link_to "See more", course_path(course.title_url) %>
+                </div>
+              <% end %>
+
             </div>
 
             <div class="what-youll-build facts">
@@ -66,9 +77,13 @@
                   </li>
                 <% end %>
               </ul>
-              <div class="see-more">
-                <%= link_to "See more", course_path(course.title_url) %>
-              </div>
+
+              <% if course.is_active %>
+                <div class="see-more">
+                  <%= link_to "See more", course_path(course.title_url) %>
+                </div>
+              <% end %>
+
             </div>
           </div>
 
