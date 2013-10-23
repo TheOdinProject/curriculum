@@ -40,7 +40,7 @@ Curriculum Redesign:
 * Rebuild and remap the curriculum directory and lesson structure
 * Write copy for curriculum pieces
 * setup seeds to populate real data
-* GITHUB API KEYS
+* GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
 DONE Fix bug with display order of sections
