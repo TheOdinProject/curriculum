@@ -40,6 +40,7 @@
 ### Additional Resources
 * [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
 * [Front End Programming best practices from betterfrontend](http://betterfrontend.com/)
+* [D3 and other visualization tool examples](http://tributary.io)
 
 
 
