@@ -1,9 +1,7 @@
-# Project: Testing Ruby with RSpec
+# Final Project: Chess
 Estimated Time: 12-18 hours
 
 *Don't forget to use Git to save your projects!*
-
-## Final Project: Chess
 
 You've come a long way.  Now it's time to prove how much you know.  
 
