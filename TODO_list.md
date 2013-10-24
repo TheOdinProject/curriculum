@@ -11,3 +11,4 @@ This list contains all the elements of the curriculum that need to be improved, 
 ### Tools of the Trade
 ### Web Development Communities
 ### The Best Web Developers
+### Getting Hired as a Web Developer
