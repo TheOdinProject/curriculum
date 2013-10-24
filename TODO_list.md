@@ -19,4 +19,5 @@ This list contains all the elements of the curriculum that need to be improved, 
 ### How Does Your Computer Work
 ### Terms to Know
 ### Introduction to the Front End
+### HTML and CSS 101
 ### 
