@@ -1,5 +1,9 @@
 # How Does the Web Work?
-Estimated Time: 1-2 hrs
+*Estimated Time: 1-2 hrs*
+
+Before you can understand how to *program* the web, you need to understand the web itself on a more granular level than you probably do now.  Some of this stuff is necessary just to have a more wholistic understanding of the ecosystem in which you will be working (and to not sound like a total newbie when talking to other developers about it), but other aspects (like HTTP) will come up again and again when you start programming.  
+
+We'll also cover a few tips and tools that will be useful to you again and again going forward.
 
 ## You will need to understand:
 * What is the internet?
@@ -23,13 +27,12 @@ Estimated Time: 1-2 hrs
 5. Check out [a bit more on developer tools](http://www.dontfeartheinternet.com/the-basics/dont-fear-the-browser) from Don't Fear the Internet, since getting familiar with your browser's tools will help you out quite a bit as you start poking around the web pages you or others have made.
 6. Why are we spending so much time looking at developer tools for the browser?  Because they are your gateway to seeing the inner workings of websites and will help you figure out what's wrong with your own.  You can also use them to scrape data from other people's websites, which you will learn about by reading Dan Nguyen's [Intro to Web Scraping](http://ruby.bastardsbook.com/chapters/web-scraping/) and then the following chapter on [Meeting your Web Inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).  Take a few minutes to go mucking around on your favorite websites and seeing how they're organized.
 6. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](http://www.youtube.com/watch?v=z1TkfcC53G0) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
-7. (Optional) For a more detailed (though a bit dated) text explanation of http, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 
-What's the best explanation of how the web works you've seen or read?  Were any other resources you found helpful for answering the questions posed at the beginning of this section? [Let us know!](mailto:curriculum@theodinproject.com)
 
 ## Additional Resources:
 * [A packet's journey (video)](http://www.youtube.com/watch?v=WwyJGzZmBe8).
 * An [entertaining TED talk](http://www.ted.com/talks/jonathan_zittrain_the_web_is_a_random_act_of_kindness.html) about how the Internet works.
+7. For a more detailed (though a bit dated) text explanation of http, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 * How the web works... [a cartoon](http://landofthefreeish.com/pics/how-the-internet-works/).
 * Udacity has a quick explanation of [web basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/e-48230539/m-48742046) and [HTML basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/m-48724340) (these will require login/signup but it's free).
 * A comprehensive list of web development resources lives at the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum).

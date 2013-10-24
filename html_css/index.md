@@ -11,6 +11,9 @@
 
 * [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)
 
+### Design
+* [Videos from an Adobe Dev Evangelist](http://designupdate.com/) that describe various aspects of design.
+
 ### Projects
 
 * Build Facebook's profile page

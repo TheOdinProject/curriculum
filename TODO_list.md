@@ -15,3 +15,5 @@ This list contains all the elements of the curriculum that need to be improved, 
 
 ## Web Development 101
 ### How This Course Will Work
+### How Does The Web Work
+### 
