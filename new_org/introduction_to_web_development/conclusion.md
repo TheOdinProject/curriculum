@@ -1,12 +1,20 @@
-# Finish
+# Conclusion
 
-Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a full- or part-time career.  See below if you'd like to learn more before moving forward to the next sections, where we install the necessary software and actually begin digging a bit deeper into how computers and the web work.
+Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career.  This has really just been a teaser into the world of web development.  See the "Additional Resources" section below if you'd like to learn more before moving forward to the next courses.
+
+In the next course, "Web Development 101", you'll take a journey through the entire spectrum of topics that you will eventually need to know.  That will give you a great base from which to begin, though it's got a lot more meat to it than your typical "101", so watch out! 
+
+After that, each course will be a deep dive into a particular topic, from the back end to the front.  You will build dozens of scripts, projects, and websites by the time this journey is complete and will have the skills necessary to step into fulltime development.  
+
+It's going to be challenging.
+
+It's going to be fun.
+
+*What are you waiting for!?!*
 
 
 
 ## Additional Resources
-
-*Have you run across anything that's really helpful for learning this?  Add it here!  See our section on [How to Contribute](/curriculum/contributing.md).*
-
 * Read [this Quora answer](http://www.quora.com/Product-Management/What-does-a-great-product-manager-at-a-tech-startup-do-day-to-day-e-g-wireframe-feature-flow-etc) if you also want to know what a Product Manager does.
-* Add Here!
+* [How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25) on Quora.
+* [Should I Become a Web Programmer?](http://webdesign.about.com/od/jobs/p/should_I_become_a_web_programmer.htm) from Ask.com.

@@ -6,9 +6,12 @@ This list contains all the elements of the curriculum that need to be improved, 
 ### What a Web Developer Does
 ### Web Development Jobs and Careers
 #### Nice to Have
-* "A Day in the Life Of" interviews, blogs, or videos
-
+> "A Day in the Life Of" interviews, blogs, or videos
 ### Tools of the Trade
 ### Web Development Communities
 ### The Best Web Developers
 ### Getting Hired as a Web Developer
+### Conclusion
+
+## Web Development 101
+### How This Course Will Work
