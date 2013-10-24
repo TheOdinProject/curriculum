@@ -1,5 +1,5 @@
-# Javascript and jQuery 101
-Estimated Time: 15-20 hrs
+# jQuery 101
+*Estimated Time: 15-20 hrs*
 
 ## You Will Need To Understand:
 * What is a scripting language?
