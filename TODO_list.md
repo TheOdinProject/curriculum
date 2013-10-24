@@ -10,5 +10,5 @@ This list contains all the elements of the curriculum that need to be improved, 
 
 
 #### Nice to Have
-* 
+* "A Day in the Life Of" interviews, blogs, or videos
 *
