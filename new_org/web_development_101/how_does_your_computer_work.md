@@ -23,7 +23,9 @@ That black screen (or window) is the command line, where you're able to enter co
 ## Assignment:
 
 1. Spare 15 minutes to [learn how computers work](http://www.youtube.com/watch?v=WIDzNyfVVg0).
-1. To gain a better understanding of your command line, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.  It can be a bit rough at times because the explanations are a bit sparse, so don't worry if you don't absorb it all the first time.  You'll get quite familiar with the few commands that you end up using every day over the course of the next few weeks anyway.
+2. Dip your toe into the command line with this [basic overview from Treehouse](http://blog.teamtreehouse.com/command-line-basics)
+1. To gain a better understanding of your command line, start with this [simple walkthrough by Avi of the Flatiron School](https://gist.github.com/aviflombaum/9d6f7448119bae3a24ee).
+2. To dig a little deeper, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.  It can be a bit rough at times because the explanations are a bit sparse, so don't worry if you don't absorb it all the first time.  You'll get quite familiar with the few commands that you end up using every day over the course of the next few weeks anyway.
 
 
 ## Additional Resources:
