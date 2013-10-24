@@ -5,7 +5,8 @@ As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html),
 
 [CSS](http://www.skillcrush.com/terms/css.html) tells the browser if you want to display any of those tags a particular way like, for instance, turning its background blue and pushing it a little to the left.  In your developer tools, you can see the css styles in another panel, usually showing which specific properties were inherited from which lines of CSS.
 
-## You Will Need To Understand (at least):
+## You Will Need To Understand:
+
 * Why do we separate HTML and CSS?
 * What are classes and IDs (and how are they different)?
 * What are elements?
