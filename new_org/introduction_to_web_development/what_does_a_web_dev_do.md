@@ -1,6 +1,8 @@
 # So What Does a Web Developer Actually Do?
 
-The short answer... they build and maintain websites.  But what exactly that looks like varies widely depending on the type of job the developer works at. The good part is that web developers are in high demand and so, though they work very hard, they're generally able to command comfortable salaries and healthy work/life balances.  It's a profession that rewards people who are natural problem solvers and who enjoy building things.
+The short answer: They build and maintain websites.  
+
+But what exactly that looks like varies widely depending on the type of job the developer works at. The good part is that web developers are in high demand and so, though they work very hard, they're generally able to command comfortable salaries and healthy work/life balances.  It's a profession that rewards people who are natural problem solvers and who enjoy building things.
 
 A more detailed explanation, from [degreedictionary](http://degreedirectory.org/articles/What_Does_a_Web_Developer_Do.html):
 
@@ -27,23 +29,33 @@ A more detailed explanation, from [degreedictionary](http://degreedirectory.org/
 
 ## Important Distinctions
 
-### Front End vs Back End Developers
+### "Front End" vs "Back End" Developers
 
-*"Front End" typically refers to the stuff that you actually see on the website in the browser.  This covers how the content is presented including all the little user interface elements like menus and dropdowns and transitions and modals.  A front end developer will often focus heavily on understanding HTML, CSS, and Javascript since these languages live in the browser.  They aren't necessarily focused on making things look "pretty", but rather making sure that the information is presented effectively and the user's interaction with the web page is as smooth as possible.  These days we're executing more and more code in the browser itself.
+#### Front End:
 
-*"Back End" typically refers to the guts of the application which live on the server.  The back end is more focused on making sure all the right data gets sent out to the browser.  It's the portion of iceberg below the surface... lots of stuff needs to go correctly to hand off data to the front end so it can be displayed.  Google may be a relatively straightforward search engine from our point of view, but they employ thousands of engineers to make sure that all the moving parts you don't see are working properly.
+"Front End" typically refers to the stuff that you actually see on the website in the browser.  This covers how the content is presented including all the little user interface elements like menus and dropdowns and transitions and modals.  
 
-*"Full Stack" developers marry the two sides into one.  While each "end" involves learning a significant amount of information, a full stack developer can comfortably speak both database and browser.  These days the trend is to seek developers with a great working knowledge of both ends (which is what we're teaching here).
+A front end developer will often focus heavily on understanding HTML, CSS, and Javascript since these languages live in the browser.  They aren't necessarily focused on making things look "pretty", but rather making sure that the information is presented effectively and the user's interaction with the web page is as smooth as possible.  These days we're executing more and more code in the browser itself.
+
+#### Back End:
+
+"Back End" typically refers to the guts of the application which live on the server.  The back end is more focused on making sure all the right data gets sent out to the browser.  It's the portion of iceberg below the surface... lots of stuff needs to go correctly to hand off data to the front end so it can be displayed.  
+
+Google may be a relatively straightforward search engine from our point of view, but they employ an army of engineers to make sure that all the moving parts you don't see are working properly.
+
+#### Full Stack:
+
+"Full Stack" developers marry the two sides into one.  While each "end" involves learning a significant amount of information, a full stack developer can comfortably speak both database and browser.  These days the trend is to seek developers with a great working knowledge of both ends (which is what we're teaching here).
 
 ### Web Developer vs Web Designer
 
 So, if we've got back end developers and front end developers, who makes the website actually look pretty?  Who pulls together the images and logos and color schemes?  That's the web designer's job.  While they have historically been less inclined to handle the actual coding of the page, these days even designers are expected to roll up their sleeves and code a bit.
 
-** Wikipedia lays out the breadth of the web design profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
+#### Optional Readings
 
-** Check out this [semi-serious infographic](http://thumbnails.visually.netdna-cdn.com/web-designer-vs-web-developer_502919932c2d2.jpg) about the differences between web developers and designers.
-
-** And [another snarky infographic](http://sixrevisions.com/infographics/web-designers-vs-web-developers-infographic/) for your entertainment...
+* Wikipedia lays out the breadth of the web design profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
+* Check out this [semi-serious infographic](http://thumbnails.visually.netdna-cdn.com/web-designer-vs-web-developer_502919932c2d2.jpg) about the differences between web developers and designers.
+* And [another snarky infographic](http://sixrevisions.com/infographics/web-designers-vs-web-developers-infographic/) for your entertainment...
 
 ### Web Sites vs Web Applications
 
