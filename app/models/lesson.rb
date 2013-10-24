@@ -11,7 +11,7 @@ class Lesson < ActiveRecord::Base
     if self.position >= lessons.size
       return nil
     else
-      return lessons[self.position]
+      return lessons.find_by_position(self.position + 1)
     end
   end
 
@@ -20,7 +20,7 @@ class Lesson < ActiveRecord::Base
     if self.position <= 1
       return nil
     else
-      return lessons[self.position-2]
+      return lessons.find_by_position(self.position - 1)
     end
   end
 

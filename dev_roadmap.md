@@ -41,6 +41,7 @@ Curriculum Redesign:
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
 * Design: Cool down and flatten out
+DONE Fix bug with next / prev courses
 SORTA Revisit and tighten up copy and message (a journey!)
 SORTA Revisit the UX flows and overall design consistency -- Fonts!
 DONE Rebuild and remap the curriculum directory and lesson structure
