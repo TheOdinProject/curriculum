@@ -25,7 +25,7 @@ So, at its core, server-side installs with Ruby are just you installing the Ruby
 
 A final note to Windows users -- you can install everything you need to but you'll feel at times like you're swimming against the current.  Many examples throughout the learning process will assume you're working on a mac and you'll have to get good at translating certain steps into your own workflow.  Suffering builds character.  And this is payback for the 90's when it took another six months to come out with a Mac version of any half-decent game.
 
-Your best bet may be to try using Linux (admit it, you've been curious...) or to use a hosted environment like Nitrous.io.
+Your best bet may be to try using Linux (admit it, you've been curious...) or to use a hosted environment like Nitrous.io.  Not a requirement, just a friendly tip.
 
 ## What You'll Be Installing
 
@@ -38,11 +38,11 @@ Ruby is the back end language we'll be using to write our server code.  The Ruby
 
 ### Git
 
-Git, the version-control system we've been talking about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.
+Git, the version-control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
 
 ### Heroku
 
-Heroku is the cloud hosting service which we'll be using to take our web applications "live".  On the surface, it acts sort of similarly to Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your code, Heroku actually runs that code on a server for you so your application can be visited by users.  You'll want to make sure you've got a couple of helpful tools installed to make your life easier.
+Heroku is the cloud hosting service which we'll be using to take our web applications "live".  In some ways it acts sort of like Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your source code, Heroku actually runs that code on a server for you so your application can be visited by users.  Heroku requires a couple of helpful tools to be installed to make your life easier during the deployment process.
 
 ### HTML, CSS and Javascript
 
@@ -62,34 +62,32 @@ There will be some Ruby gems (which are just prepackaged little libraries of cod
 
 RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other one.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
 
-This is very useful because you'll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on other projects using the newer version (2.0.0).  Since you obviously don't want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use and PRESTO! your problems are solved.
+This is very useful because you'll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on other projects using the newer version (2.0.0).  Since you obviously don't want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use for a given project and PRESTO! your problems are solved.
 
 ### Rails
 
-What about Rails?  Rails is actually a Ruby gem of its own since, as we've covered before, it's really just a bunch of Ruby code prepackaged for you.
+What about Rails?  Rails is actually a Ruby gem of its own since it's really just a bunch of Ruby code prepackaged for you.  You "install" it by downloading the `rails` gem.
 
 ### Mac: XCode
 
-XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  It's also got some necessary command line tools you'll be using so you're probably going to have to install it all (it's a giant package).
+XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  Even though we won't be using it for that purpose, it's also got some command line tools that you'll be using so you're probably going to have to install it all (it's a giant package).
 
 ## Assignment: Installfest
 
-These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  It's beyond our scope here to walk you through why we're doing every single step, but it's also not super important that you know exactly what's going on or what all the commands mean.  
+These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
-1. If using a Macintosh, follow the instructions on [Moncef Belyamani's blog](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
-2. Otherwise, do the [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/).
+1. If you are using a Macintosh, follow the instructions on [Moncef Belyamani's blog](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
+2. Otherwise, do the [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
+3. Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://installfest.railsbridge.org/installfest/create_and_deploy_a_rails_app). 
+4. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.0.0` or a similar number.  `$ rails -v` should give you something like `4.0.0`.
 
 ## Oh no! Total Failure!!!
 
 If all else fails, the best web-based development environment to use for coding the back end is [Nitrous.io](http://nitrous.io).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  
 
-I've often found this to be much easier for Windows users than trying to navigate the regular installations process.  It relies on having an internet connection, but it gives you a command line, text editor, and previewing capability right out of the box.
+I've often found this to be much easier for Windows users than trying to navigate the regular installations process.  It relies on having an internet connection, but it gives you a command line, a text editor, and the ability to run a local server right out of the box.
 
 So your alternate path is to go to [Nitrous.io](http://nitrous.io) and set up your account.  You'll be given enough free "credits" to keep a virtual development environment running full time.  The instructions on the website are fairly co
-
-## Assignment: Test Drive Your Setup
-
-Even if you didn't use the Railsbridge installation instructions, test your installation by following their instructions for [creating and deploying a sample Rails app](http://installfest.railsbridge.org/installfest/create_and_deploy_a_rails_app).
 
 ## Additional Resources
 
@@ -99,8 +97,9 @@ If you've run into issues with your installation and are desperately looking for
 * Treehouse has short videos describing Rails installation for various environments in their [Getting Started with Rails](http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails) unit.
 * [Rubyonrails.org](http://rubyonrails.org/download) installation section.
 * [Guide](/curriculum/additional_resources/sublimetext_windows_CLI.html) for opening Sublime Text via command line in Windows.
+* [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
 
-
+  
 ## Checklist
 
 ##### Before moving on, you should have:
