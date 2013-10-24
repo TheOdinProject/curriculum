@@ -24,6 +24,3 @@ As we covered back in the [Installations Project](/curriculum/web_development_10
 ## Additional Resources
 
 * The Railsbridge [Ruby curriculum](http://curriculum.railsbridge.org/ruby/).
-* Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet (we'll read it in the later Ruby course) but may help you shore up some of the concepts.
-* See the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) for a condensed list of common commands and concepts.
-* Read [Smashing Magazine's Intro to Ruby article](http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
