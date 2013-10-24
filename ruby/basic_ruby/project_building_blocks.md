@@ -80,4 +80,6 @@ Next, make sure your method can handle multiple words:
 ### Student Solutions
 *[Submit a link](/curriculum/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* See Afshinator's solution here: [source code](https://github.com/afshinator/playground/tree/master/Ruby-BuildingBlocks)
+
 * Your Solution Here
