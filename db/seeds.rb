@@ -243,13 +243,23 @@ Lesson.create!(
   )
 lesson_counter += 1
 Lesson.create!(   
-    :title => "Javascript and jQuery Basics", 
-    :title_url => "Javascript and jQuery Basics".parameterize,
-    :description => "You'll learn how to actually make things on your webpage move and the magic of jQuery", 
+    :title => "Javascript Basics", 
+    :title_url => "Javascript Basics".parameterize,
+    :description => "You'll get a chance to start picking up the programming fundamentals you need to make your webpages dynamic", 
     :position => lesson_counter, 
     :section_id => c2_s2_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/js_jquery_basics.md"
+    :url => "web_development_101/javascript_basics.md"
+  )
+lesson_counter += 1
+Lesson.create!(   
+    :title => "jQuery Basics", 
+    :title_url => "jQuery Basics".parameterize,
+    :description => "You'll learn how to take your Javascript knowledge and seamlessly integrate it with webpages using the magic of jQuery", 
+    :position => lesson_counter, 
+    :section_id => c2_s2_of_6.id, 
+    :is_project => false, 
+    :url => "web_development_101/jquery_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
