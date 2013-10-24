@@ -21,5 +21,7 @@ This list contains all the elements of the curriculum that need to be improved, 
 ### Introduction to the Front End
 ### HTML and CSS 101
 ### Project: HTML/CSS
-### JS and jQuery 101
+### Javascript 101
+### jQuery 101
+
 
