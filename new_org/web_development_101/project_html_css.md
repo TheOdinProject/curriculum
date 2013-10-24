@@ -1,37 +1,39 @@
 # HTML/CSS Mini-Project:
-Estimated Time: 2-4 hrs
+*Estimated Time: 2-4 hrs*
 
 <a href="http://www.theodinproject.com/scheduler?cb=3" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
-
-## Know (and try) these before starting
-* Two ways to move a div around on the page
-* How to stick a div onto the bottom or top of the page
-* How to see what color the background of something is on an existing webpage
-* How to grab the URL for an image from an existing webpage
-* How to center an element horizontally
-* Three ways you can include your CSS styles in a page
-* How to use classes and ids to target CSS at specific elements on the page
-* How to build a very basic form (even if it doesn't "go" anywhere)
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it.  The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned.  For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
-Use the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [jsfiddle.net](http://www.jsfiddle.net)).
+Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [CodePen](http://codepen.io/pen/) or [jsfiddle.net](http://www.jsfiddle.net)).
 
-<a href="http://www.theodinproject.com/scheduler?cb=3" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+
+## Try These Before Starting
+
+These skills will be helpful for you when you start building.  Either try them yourself or at least make sure you know how to do it:
+
+1. Two ways to move a div around on the page
+1. Stick a div onto the bottom or top of the page
+1. Identify the background color of an existing webpage
+1. Grab the URL for an image from an existing webpage
+1. Center an element horizontally
+1. Identify three ways you can include your CSS styles in a page
+1. Understand how to use classes and ids to target CSS at specific elements on the page
+1. Build a very basic form (even if it doesn't "go" anywhere)
 
 ## Easy Version: Build the [Google.com](http://www.google.com) homepage 
 (the simple one with just a search box).
 
   1. Tips:
       * DONT BE A PERFECTIONIST!  You're just trying to make it *look* like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel.  Any dropdown menus or form submissions or hover-highlighting should be ignored.
-      * USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google for how to do it!
+      * USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google it!
       * If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the css property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
-  2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally.  You can either download the Google logo or link directly to its URL on the web in your <img> tag.
+  2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally.  You can either download the Google logo or link directly to its URL on the web in your `<img>` tag.
   3. Next do the navbar across the top, first building the content and then trying to position it.  Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
   4. Finally, put in the footer, which should be very similar to the top navbar.
   5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
 
-## Difficult Version: Build the [Google.com search results page](https://www.google.com/search?q=learn+html).  
+## Difficult Version: Build the [Google.com search results page](https://www.google.com/search?q=learn+html)
 
 You should be able to reuse much of your code from before if you started with that project.  Again, don't worry about links to nowhere and forms that won't submit and hard coding the search results (which you'll have to do of course), just focus on placement and order of items on the page.
 
@@ -39,7 +41,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 ## Student Solutions
 
-*Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](/curriculum/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * See [RebootJeff's solution here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
 
@@ -47,6 +49,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * *Your solution here...*
 
 ## Additional Resources
+
+If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
 
 * Watch all the [free HTML videos](http://teamtreehouse.com/library/websites/html/introduction) from Treehouse and take the quiz.
 * Check out the [quickie CSS introduction](http://teamtreehouse.com/library/websites/build-a-simple-website/website-basics/introduction-to-css) from the same people as well.

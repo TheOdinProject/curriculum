@@ -20,4 +20,6 @@ This list contains all the elements of the curriculum that need to be improved, 
 ### Terms to Know
 ### Introduction to the Front End
 ### HTML and CSS 101
-### 
+### Project: HTML/CSS
+### JS and jQuery 101
+
