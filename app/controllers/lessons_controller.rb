@@ -2,12 +2,14 @@ class LessonsController < ApplicationController
 
   def index
     @course = Course.find_by_title_url!(params[:course_name])
+    raise ActionController::RoutingError.new('Not Found') unless @course.is_active
     @lessons = @course.lessons.order("position asc")
     @sections = @course.sections.includes(:lessons)
   end
 
   def show
     @course = Course.find_by_title_url!(params[:course_name])
+    raise ActionController::RoutingError.new('Not Found') unless @course.is_active
     @lesson = @course.lessons.find_by_title_url!(params[:lesson_name])
     @content = md(@lesson.content)
     @next_lesson = @lesson.next_lesson
