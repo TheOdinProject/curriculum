@@ -35,14 +35,17 @@ It's game on.
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements, Alpha Signup Flow
 
 Curriculum Redesign:
-* Revisit and tighten up copy and message (a journey!)
-* Revisit the UX flows and overall design consistency -- Fonts!
-* Rebuild and remap the curriculum directory and lesson structure
-* Write copy for curriculum pieces
-* setup seeds to populate real data
+* Fix formatting of p's inside li's (less margin)
+* Put quotes around next button text and links
 * GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
+* Design: Cool down and flatten out
+SORTA Revisit and tighten up copy and message (a journey!)
+SORTA Revisit the UX flows and overall design consistency -- Fonts!
+DONE Rebuild and remap the curriculum directory and lesson structure
+DONE setup seeds to populate real data
+DONE Write copy for curriculum pieces
 DONE Fix bug with display order of sections
 DONE Fix breakpoints for nav to not get in the way of the main navbar
 DONE Serve the fonts myself... waiting for google fonts sucks. NO: just reduced the total download payload.  Serving myself may not be a better solution here.  Each font weight/style is like 200kb!

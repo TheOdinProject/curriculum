@@ -54,7 +54,7 @@ lesson_counter += 1
 Lesson.create!(   
     :title => "Tools of the Trade", 
     :title_url => "Tools of the Trade".parameterize,
-    :description => "An overview of the different tools that web devlopers use to get their work done", 
+    :description => "An overview of the different tools that web developers use to get their work done", 
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
@@ -64,7 +64,7 @@ lesson_counter += 1
 Lesson.create!(   
     :title => "Web Development Communities", 
     :title_url => "Web Development Communities".parameterize,
-    :description => "Developer communities about both in-person and online", 
+    :description => "Developers are a surprisingly social group, and here's how to find them both online and in-person", 
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
@@ -84,7 +84,7 @@ lesson_counter += 1
 Lesson.create!(   
     :title => "Getting Hired as a Web Developer", 
     :title_url => "Getting Hired as a Web Developer".parameterize,
-    :description => "Briefly demystifying what employers are actually looking for in a web developer", 
+    :description => "Briefly demystifying what employers are actually looking for in a web developer and what the process might look like for you to get hired", 
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
@@ -94,7 +94,7 @@ lesson_counter += 1
 Lesson.create!(   
     :title => "Conclusion", 
     :title_url => "Conclusion".parameterize,
-    :description => "A look ahead to your upcoming journey", 
+    :description => "A look ahead at your upcoming journey down the web development rabbit hole", 
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
@@ -110,8 +110,8 @@ c2 = Course.create!(
   :title => "Web Development 101",
   :title_url => "Web Development 101".parameterize,
   :teaser => "A Healthy Dose of Everything",
-  :brief_desc => "This course is for anyone starting from scratch or who has had a chance to only explore a few aspects of web development so far.  You'll learn all the major technologies involved with web development from Front End to Back End and beyond.  By the end of this comprehensive course, you'll be well prepared to take the next step and take on our deep dive courses.",
-  :description => "Now that you know what web developers do, it's time to start thinking about how they actually do it. In this course, we'll learn about how the Web works and start thinking about the basics of computer and web programming.  By the end, you will be able to build a simple webpage, style it, and add elements of interactivity while working comfortably from the command line.  We will cover a lot of knowledge and you'll be able to get your hands dirty with all the topics that we're going to learn in the deep-dive courses that follow.",
+  :brief_desc => "This course is for anyone who is either starting from scratch or who isn't entirely comfortable with their understanding of the command line, HTML, CSS, Javascript, Ruby, web frameworks, Git, or other foundational technologies of web development.  We cover a LOT of ground -- by the end of this comprehensive course, you'll be well prepared to take on our deep dive courses or explore further on your own.",
+  :description => "Now that you know what web developers do, it's time to start thinking about how they actually do it. In this course, you'll learn the foundational concepts of computer and web programming. By the end, you will be able to build a simple webpage, style it, and add elements of interactivity while working comfortably from the command line.  You will be comfortable with basic scripting in Ruby and Javascript as well as more unfamiliar things like Git and databases.  We will cover a lot of knowledge and you'll be able to get your hands dirty with all the topics that we're going to learn in the deep-dive courses that follow.",
   :position => course_position,
   :you_learn => ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databses and Git"],
   :you_build => ["Google's homepage in HTML/CSS","A dynamic sketchpad with JS/jQuery","A series of test-first Ruby challenges"],
