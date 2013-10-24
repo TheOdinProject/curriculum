@@ -17,4 +17,3 @@ Web technology land is full of strange terms and an alphabet soup of acronyms an
 * [Smashing's glossary-of-glossaries](http://www.smashingmagazine.com/2009/05/29/useful-glossaries-for-web-designers-and-developers/), or "where to find any jargon you can imagine".
 * [W3 Schools Web Glossary](http://www.w3schools.com/web/web_glossary.asp)
 * [About's Web Design Glossary](http://webdesign.about.com/od/webdesignhtmlatoz/a/blglossary.htm)
-* 
