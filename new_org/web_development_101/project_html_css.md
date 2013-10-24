@@ -1,4 +1,4 @@
-# HTML/CSS Mini-Project:
+# Project: HTML/CSS
 *Estimated Time: 2-4 hrs*
 
 <a href="http://www.theodinproject.com/scheduler?cb=3" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>

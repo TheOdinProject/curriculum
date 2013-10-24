@@ -23,5 +23,10 @@ This list contains all the elements of the curriculum that need to be improved, 
 ### Project: HTML/CSS
 ### Javascript 101
 ### jQuery 101
+### Project: JS and jQuery
+### Introduction to the Back End
+### Ruby 101
+> Video walkthrough of someone coding Ruby
+### Project: Ruby
 
 

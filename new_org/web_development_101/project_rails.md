@@ -1,4 +1,4 @@
-# Rails Mini Project:
+# Project: Rails
 Estimated Time: 3-5 hrs
 
 <a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>

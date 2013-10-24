@@ -1,4 +1,4 @@
-# JS/jQuery Mini-Project:
+# Project: Javascript/jQuery
 
 *Estimated Time: 2-4 hrs*
 

@@ -1,5 +1,5 @@
-# Ruby Mini-Project:
-Estimated Time: 4-6 hrs
+# Project: Ruby
+*Estimated Time: 4-6 hrs*
 
 <a href="http://www.theodinproject.com/scheduler?cb=4" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
