@@ -12,7 +12,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 1. Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
 2. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
 3. If you're feeling ambitious, add in authentication in section I5.
-4. If you're feeling very ambitious, 
+4. If you're feeling very ambitious, try doing the final Extras section I6.
 
 ## Extra Credit:
 
