@@ -23,6 +23,25 @@ You'll probably want to fork someone else's repository and clone it onto your ha
 
 It won't be until you start hacking on more full-featured applications that you're likely to run into some of the more gnarly features of Git.  For now, sit back and learn the basics.  You'll have the chance to dig deeper in a later course.
 
+## You Will Need To Understand:
+* What is Git?
+* What is SCM?
+* What is a VCS?
+* Why is Git useful for a developer?
+* Why is Git useful for a team of developers?
+* How do you create a new Git repository for a project locally?
+* How do you create it on Github?
+* How do you commit changes?
+* What is the difference between staging and committing changes?
+* What is the difference between committing your changes and pushing them to Github?
+* How do you check the status of your current repo in git?
+* How do you see the history of your previous commits (from the command line)?
+* How can you look through your historical commits on the Github website?
+* What is a "Merge"?
+* What is a "Pull Request"?
+* What is "Forking" a repo?
+* What is "Cloning" a repo?
+
 ## Assignment:
 
 1. Watch the following videos from [Github's Youtube Channel](http://www.youtube.com/GitHubGuides):
