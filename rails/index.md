@@ -53,4 +53,4 @@ As you can see, I frequently relied on the main resources you'll be learning fro
 
 ## Additional Resources
 
-* 
+* [StackOverflow: Summary of Ruby on Rails Fundamental Concepts](http://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
