@@ -13,6 +13,7 @@
 
 ### Design
 * [Videos from an Adobe Dev Evangelist](http://designupdate.com/) that describe various aspects of design.
+* [Part 1 of TutsPlus.com's 15-part Web Design series](http://webdesign.tutsplus.com/articles/design-theory/understanding-visual-hierarchy-in-web-design/) (with links to the others)
 
 ### Projects
 
