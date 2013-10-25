@@ -1,7 +1,12 @@
-# FTP
-Estimated Time: .5 hrs
+# FTP Basics
+*Estimated Time: .25 hrs*
 
-FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is regardless.  
+FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is.
+
+## You Will Need To Understand:
+* What is FTP?
+* When is FTP used?
+* How is FTP used?
 
 ## Assignment
 
@@ -9,4 +14,4 @@ FTP stands for File Transfer Protocol and is basically a way of transferring fil
 
 ## Additional Resources
 
-*
+* [Wiki article on FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol)
