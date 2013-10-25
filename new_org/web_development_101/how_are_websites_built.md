@@ -1,13 +1,33 @@
-# How Are Websites Built?
+# How Are Websites Actually Built?
+*Estimated Time: 2-4 hrs*
 
-You've got an idea of what the pieces look like, now it's time to see how they all dance together in a typical Ruby on Rails application.  Read through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (you can listen to audio of it by clicking the link on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be a valuable first step towards understanding what you'll be building later on.
+You've spent a lot of time learning all the component pieces of a web application.  In the Rails project, you were (hopefully) able to actually build one.  This lesson is a step back so you can get a chance to breathe and see the forest instead of being lost in the trees.  
 
-## Macro Level: From Client to Developer and Back
+You will be building applications either for yourself or someone else, and in either case that application will be part of a greater project with some sort of user-focused goal, i.e. what does it enable the user to do?  So it should be pretty obvious that the application is just a part of a larger whole, and in the real world you'll be interacting with multiple people during the process of its creation.
 
-TODO: client team handoff, scrum, cards/stories, gogo, circle back, scrum.... debrief.
+We've mentioned that Rails lets you develop applications very quickly and have thrown around the term "Agile Development", but now you'll get a chance to take a deeper look at that term and what it means.  You'll also zoom out even more
 
-## Micro Level: What You Do as the Developer
+## You Will Need To Understand:
+* What are the major components of a Rails application?
+* What is Waterfall Development?
+* What is Waterfall good for?
+* What is Agile Development?
+* What is Agile good for?
+* Why does testing fit well into an Agile methodology?
+* What does DRY mean?
+* What is a user "Role"?
+* What is a "User Story"?
+* What's the difference between a "Feature" and a story?
+* At what stage of a startup should you start building your web app?
+* What members of a team typically work together to produce a web application?
 
-TODO: tech used, who gets spoken to, where debugs are usually needed, when tests are written, how deployment goes, interactions with other team members.
+## Your Assignment: 
+1. Start by refreshing your understanding the web application itself by reading through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (you can listen to audio of it by clicking the link on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be valuable for understanding what you'll be building later on.
+2. Zoom out a bit to get a bigger picture of software development methodologies by starting at [minute 36 of this Berkeley SAAS course video lecture](http://www.youtube.com/watch?v=Fr-B4xHZRzY&list=PLuCVssMJ_UI1DneCzaU7BpAy94CvQQgGq&index=1).  You'll also get a perspective of how and why Rails fits well into Agile methodologies.
+1. Read Lee Edwards' answer to the Quora question ["What's an Efficient Web App Development Process"](http://www.quora.com/Ruby-on-Rails/Whats-an-efficient-web-app-development-process) to get better acquainted with the actual flow of app production.  He is a developer at Pivotal Labs, which uses Agile Development methodologies.
+2. Zoom out even more and think a bit more about the startups building web applications by reading through the [ThoughtBot Playbook](http://playbook.thoughtbot.com/), an online playbook for how to build a product (and work with ThoughtBot, of course).
 
-*Are you an experienced developer?  We'd love to find out what exactly the life cycle of a project looks like.  Please [email us](mailto:curriculum@theodinproject.com) if we can do a quick interview about it and post it here!  If you know of a good interview on the web that does the same thing, please let us know about that as well.*
+
+## Additional Resources
+* [RailsApps' brief guide to Startup Project Management](http://railsapps.github.io/rails-project-management.html) contains helpful tools, links, and terminology
+* Get a more general sense of Agile Development from the [About.com Agile Development entry](http://ruby.about.com/od/rubyonrails/a/agile.htm).

@@ -29,4 +29,7 @@ This list contains all the elements of the curriculum that need to be improved, 
 > Video walkthrough of someone coding Ruby
 ### Project: Ruby
 
+### How are Websites Built
+TODO: client team handoff, scrum, cards/stories, gogo, circle back, scrum.... debrief.
+TODO: tech used, who gets spoken to, where debugs are usually needed, when tests are written, how deployment goes, interactions with other team members.
 
