@@ -7,6 +7,13 @@ While there are many popular Javascript framworks, we'll focus on Backbone for s
 
 This is probably the most "advanced" material we'll be taking a look at during this Web Development 101 unit since it relies most heavily on understanding a lot of things beforehand (like Javascript, MVC, frameworks, JQuery, APIs...) before you're really able to appreciate the need for it.  Because of this, we won't be doing any exercises or anything like that, we're just trying to get you exposed to what Backbone looks like so you can start wondering what you're going to need to use it for and how later on.
 
+## You Will Need To Understand:
+* What are the major differences between a front end and back end framework?
+* What language is Backbone written in?
+* What are the advantages to using Backbone over just normal javascript?
+* What elements of Backbone are nearly identical to Rails?
+* What elements of Backbone are very different from Rails?
+
 ## Assignment:
 
 1. Read through the [nettuts backbone explanation]().  It should be somewhat confusing but you should also notice some structural similarities to Rails, even though this is on the front end.  Again, don't worry if you're confused by what you're reading.  The point isn't to absorb everything, it's just to kind of get a feel for what's waiting.  We won't cover Backbone until fairly late in the course when you're a Jedi Javascript Master.
