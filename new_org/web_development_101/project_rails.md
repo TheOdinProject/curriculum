@@ -1,15 +1,17 @@
 # Project: Rails
-Estimated Time: 3-5 hrs
+*Estimated Time: 3-5 hrs*
 
 <a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
-## Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
+In this project, you'll get the opportunity to actually build a rails project.  It's not a trivially simple one either -- it's got some wrinkles and things that you're probably not going to understand.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.
 
-### Extra Credit:
+1. Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
+2. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
 
-Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  If you aren't comfortable with git, either do the [introductory section on git](/curriculum/curriculum/web_development_basics/web_programming_basics/additional_topics.md) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
+## Extra Credit:
 
-<a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
+1. Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  
+2. If you aren't comfortable with git, either skip ahead a few lessons to the [introductory section on git](/curriculum/web-development-101/git_basics.md) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
 
 ## Student Solutions
 
@@ -19,4 +21,4 @@ Michael Hartl guides you through [creating a sample app using scaffolding](http:
 
 ## Additional Resources:
 
-An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
+* An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
