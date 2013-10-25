@@ -297,7 +297,7 @@ Lesson.create!(
     :title_url => "Testing Basics".parameterize,
     :description => "A brief introduction to testing in general and RSpec, Ruby's testing language.", 
     :position => lesson_counter, 
-    :section_id => c2_s5_of_6.id, 
+    :section_id => c2_s3_of_6.id, 
     :is_project => false, 
     :url => "web_development_101/testing_basics.md"
   )
