@@ -1,7 +1,9 @@
-# Backbone.js 101
-Estimated Time: 1 hr
+# Backbone.js 001
+*Estimated Time: 1 hr*
 
-You thought only server-side languages could utilize frameworks?  Think again.  More and more heavy lifting is being done in the browser these days and that means lots of repetitive and disorganized code to tidy up (and Javascript can get awfully disorganized).  While there are many popular Javascript framworks, we'll focus on Backbone for similar reasons to why we're focusing on Rails... it's probably the most straightforward and best documented one out there.  That doesn't mean it's the shiniest or the newest, but if you've mastered your fundamentals in Backbone you'll be more than capable of picking up a slightly more esoteric framework.  And there are a whole lot of websites out there that need to be built and maintained in Backbone (ahem, jobs).
+You thought only server-side languages could utilize frameworks?  Think again.  More and more heavy lifting is being done in the browser these days and that means lots of repetitive and disorganized code to tidy up (and Javascript can get awfully disorganized).  
+
+While there are many popular Javascript framworks, we'll focus on Backbone for similar reasons to why we're focusing on Rails... it's probably the most straightforward and best documented one out there.  That doesn't mean it's the shiniest or the newest, but if you've mastered your fundamentals in Backbone you'll be more than capable of picking up a slightly more esoteric framework.  And there are a whole lot of websites out there that need to be built and maintained in Backbone (ahem, jobs).
 
 This is probably the most "advanced" material we'll be taking a look at during this Web Development 101 unit since it relies most heavily on understanding a lot of things beforehand (like Javascript, MVC, frameworks, JQuery, APIs...) before you're really able to appreciate the need for it.  Because of this, we won't be doing any exercises or anything like that, we're just trying to get you exposed to what Backbone looks like so you can start wondering what you're going to need to use it for and how later on.
 
