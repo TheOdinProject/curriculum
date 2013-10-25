@@ -293,6 +293,16 @@ Lesson.create!(
   )
 lesson_counter += 1
 Lesson.create!(   
+    :title => "Testing Basics", 
+    :title_url => "Testing Basics".parameterize,
+    :description => "A brief introduction to testing in general and RSpec, Ruby's testing language.", 
+    :position => lesson_counter, 
+    :section_id => c2_s5_of_6.id, 
+    :is_project => false, 
+    :url => "web_development_101/testing_basics.md"
+  )
+lesson_counter += 1
+Lesson.create!(   
     :title => "Ruby", 
     :title_url => "Ruby".parameterize,
     :description => "Time to apply what you've learned about Ruby by making the tests pass on a number of exercises that range from goofy to challenging", 
@@ -360,16 +370,6 @@ Lesson.create!(
     :section_id => c2_s5_of_6.id, 
     :is_project => false, 
     :url => "web_development_101/git_basics.md"
-  )
-lesson_counter += 1
-Lesson.create!(   
-    :title => "Testing Basics", 
-    :title_url => "Testing Basics".parameterize,
-    :description => "A brief introduction to testing in general and RSpec, Ruby's testing language.", 
-    :position => lesson_counter, 
-    :section_id => c2_s5_of_6.id, 
-    :is_project => false, 
-    :url => "web_development_101/testing_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
