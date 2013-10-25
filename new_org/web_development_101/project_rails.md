@@ -1,12 +1,16 @@
 # Project: Rails
-*Estimated Time: 3-5 hrs*
+*Estimated Time: 6-8 hrs*
 
 <a href="http://www.theodinproject.com/scheduler?cb=5" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
-In this project, you'll get the opportunity to actually build a rails project.  It's not a trivially simple one either -- it's got some wrinkles and things that you're probably not going to understand.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.
+In this project, you'll get the opportunity to actually build a real rails application.  It's not a trivially simple one either -- it's got a lot of wrinkles and things that you're not going to understand.  To be honest, you're kind of going into the deep end so don't worry if you don't understand it.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  If you're able to get to the end of this project, you can consider yourself remarkably persistent and resilient. 
 
-1. Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
+Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.  
+
+1. Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
 2. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
+3. If you're feeling ambitious, add in authentication in section I5.
+4. If you're feeling very ambitious, 
 
 ## Extra Credit:
 
