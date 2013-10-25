@@ -8,7 +8,7 @@ class Lesson < ActiveRecord::Base
 
   def next_lesson
     lessons = self.course.lessons.order("position asc")
-    if self.position >= lessons.size
+    if self.position >= lessons.first.position + lessons.size - 1
       return nil
     else
       return lessons.find_by_position(self.position + 1)
