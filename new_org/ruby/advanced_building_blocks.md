@@ -565,7 +565,7 @@ A method should be self-contained and only use those variables that have been pa
 
 When **naming methods** the goal is to be descriptive but short.  Name based on what it will return or what the major intended side effect will be.  You shouldn't be missing any parts from the name because the method should only do one thing anyway.  If you can't tell what the method will return based on the name, you probably need a better name.  If your method name seems insanely long, your method may be trying to do more than one thing.  End with a question mark `?` if it will return true/false.  
 
-What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (the "caller").  So if I called `current_user.jump`, `current_user` is the caller of that method.  Inside the definition of the `#jump` method, `self` would refer to the current_user.  
+What is `self`?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (the "caller").  So if I called `current_user.jump`, `current_user` is the caller of that method.  Inside the definition of the `#jump` method, `self` would refer to the current_user.  
 
 That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called it.  You may see something like this, which I could call on a hypothetical `User` object in my web application:
 
@@ -581,7 +581,7 @@ If you get tired of typing `ruby` in front of the file, you can tell your comput
 
 ...or wherever it's located.
 
-If you want to include a gem file (a library of methods, for instance) in your IRB session, you'll need to use **`require`** to bring it in.  The default directory for `require` accesses any gems you may have downloaded from the internet.  
+If you want to include a gem file (a library of methods, for instance) in your IRB session, you'll need to use `require` to bring it in.  The default directory for `require` accesses any gems you may have downloaded from the internet.  
 
 You can do almost the same thing to bring your new script file into IRB (if you want to access its methods, for instance), though you have to explicitly provide the path to it.  If it's in your current directory, that's easy, it's just `./filename.rb`:
 
@@ -593,7 +593,11 @@ Now you can run methods and access variables from that file in IRB.  If you were
     > load `./your_script.rb`
     => true
 
-Another thing that you'll probably want to do at some point is to **access the variables that were passed to your script** from the command line.  For instance, if you ran `$ ruby ./string_printer_script "howdy" "everyone"`, you've passed in "howdy" and "everyone".  You access it by digging into a special constant (a variable you shouldn't try to change) called `ARGV`, which is an array that contains all those arguments:
+Another thing that you'll probably want to do at some point is to **access the variables that were passed to your script** from the command line.  For instance, if you ran:
+
+    $ ruby ./string_printer_script "howdy" "everyone"
+
+You've passed in "howdy" and "everyone".  You access it by digging into a special constant (a variable you shouldn't try to change) called `ARGV`, which is an array that contains all those arguments:
 
     # In our string_printer_script.rb file:
     inputted_strings = ARGV
@@ -632,6 +636,10 @@ Stepping away from scripts for a minute, one nifty command that you probably hav
     k.send :hello, "gentle readers"   #=> "Hello gentle readers"
 
 So simple, why should you care?  Ruby lets you define new methods in runtime and this lets you call them dynamically (since the method name is no longer hardcoded).  Keep that in your back pocket... you won't need it yet but it's great to know.
+
+### That's it!
+
+Another long summary section packed with information.  Don't worry if it doesn't all stick right away... You will learn by building stuff and having that strange feeling that you should know a method to make your life easier.  When that happens, you'll be back here to remind yourself what you've forgotten.
 
 ## Test Yourself
 
