@@ -57,6 +57,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 8. Modify your `#my_map` method to take either a proc or a block, executing the block only if both are supplied.
 
 **Quick Tips:**
+
 * Remember `yield` and the `#call` method.
 
 ## Additional Resources
