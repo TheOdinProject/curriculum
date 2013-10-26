@@ -1,7 +1,7 @@
 # Ruby Building Blocks
 *Variables, Data Types, Strings, Methods*
 
-*Estimated Time: 2-4 hrs*
+*Estimated Time: 3-5 hrs*
 
 Welcome to Ruby Basics!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](/curriculum/web_development_101/ruby_basics.md) (if not, go do that first!), this should start as a healthy refresher of what you've already learned.  
 
@@ -14,7 +14,7 @@ So... Get stretched out and warmed up, it's time to dive in!
 
 *If there's something that just didn't get covered at all in the material, use the "What can we do to improve this site?" text box in the footer of his screen to let us know!*
 
-* Numbers, Operators and Expressions:
+* **Numbers, Operators and Expressions:**
 
     * What's the difference between an `Integer` and a `Float?`
     * Why should you be careful when converting back and forth between integers and floats?
@@ -25,7 +25,7 @@ So... Get stretched out and warmed up, it's time to dive in!
     * What's the difference between `(1..3)` and `(1...3)`?
     * What are three ways to create a range?
 
-* Strings:
+* **Strings:**
 
     * What's the difference between single and double quotes?
     * What is string interpolation?
@@ -43,7 +43,7 @@ So... Get stretched out and warmed up, it's time to dive in!
     * What is a Regular Expression (RegEx)?
     * How can you center or right-justify a string?
 
-* Arrays:
+* **Arrays:**
   
     * What are three ways to create an array?
     * How do you prepopulate the array with default data?
@@ -52,7 +52,7 @@ So... Get stretched out and warmed up, it's time to dive in!
     * How do you modify the items in an array?
     * How do you combine arrays? 
 
-* Hashes:
+* **Hashes:**
 
     * What is a hash?
     * What are keys and values?
@@ -69,7 +69,7 @@ So... Get stretched out and warmed up, it's time to dive in!
     * How do you list out all the keys or values?
     * How do you see if the hash contains a key or value?
 
-* Dates and Times:
+* **Dates and Times:**
 
     * How do you get the current date and time?
     * How do you find just the Year?  Month? Hour? Second? Weekday?
