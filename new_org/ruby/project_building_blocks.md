@@ -1,5 +1,5 @@
 # Projects: Ruby Building Blocks
-*Estimated Time: 2-3 hrs*
+*Estimated Time: 3-4 hrs*
 
 *Don't forget to use Git to save your projects!*
 
