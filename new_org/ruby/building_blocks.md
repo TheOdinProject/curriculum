@@ -5,11 +5,14 @@
 
 Welcome to Ruby Basics!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](/curriculum/web_development_101/ruby_basics.md) (if not, go do that first!), this should start as a healthy refresher of what you've already learned.  
 
-This lesson has a very long list of things you need to understand by the end.  We recommend you read through the list, do the assignment, and then test yourself by seeing if you can answer all those questions.  You may need to reach out and do a little additional research for some of them.  If there's something that just didn't get covered at all in the material, use the "What can we do to improve this site?" text box in the footer of his screen to let us know!
 
 So... Get stretched out and warmed up, it's time to dive in!
 
 ## You Will Need To Understand: 
+
+**Note:** This lesson has a very long list of things you need to understand by the end.  We recommend you read through the list, do the assignment, and then test yourself by seeing if you can answer all those questions.  You may need to reach out and do a little additional research for some of them.  
+
+*If there's something that just didn't get covered at all in the material, use the "What can we do to improve this site?" text box in the footer of his screen to let us know!*
 
 * Numbers, Operators and Expressions:
 
@@ -38,7 +41,7 @@ So... Get stretched out and warmed up, it's time to dive in!
     * What is a symbol?
     * How is a symbol different from a string?
     * What is a Regular Expression (RegEx)?
-    * How can you center or justify a string?
+    * How can you center or right-justify a string?
 
 * Arrays:
   
