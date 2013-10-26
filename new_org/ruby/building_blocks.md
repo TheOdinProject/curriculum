@@ -78,7 +78,7 @@ So... Get stretched out and warmed up, it's time to dive in!
     * What's the difference between UTC and GMT and Local times?
     * How would you find out the time that was 100 seconds ago? 10 days ago?
 
-## Homework Assignment:
+## Your Assignment:
 
 1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
 2. Do the full [Codecademy Introduction to Ruby](http://www.codecademy.com/tracks/ruby) section.
