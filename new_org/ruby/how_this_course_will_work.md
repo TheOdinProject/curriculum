@@ -13,7 +13,7 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 ### In each lesson:
 
 1. We'll introduce the topic briefly and provide you with a list of things you should pay attention to.
-1. You'll be asked to do readings, watch videos, or otherwise view content to help learn the material.
+1. You'll be asked to do readings, watch videos, do online courses or otherwise consume content to initially learn the material.
 2. At the end of most lessons will be exercises to help you solidify your knowledge of the material.
 3. Every few lessons you will be asked to build a larger project.  These are best done in pairs.
 2. Finally, we'll include additional helpful resources and other potentially useful tidbits at the end of each lesson.
