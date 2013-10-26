@@ -4,7 +4,7 @@
 
 This lesson gets more into the topics you may have been shakey on before like *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*.  It's definitely got some more meat to it than the previous one.  The projects in the Assignment section are good for doing on your own because Codecademy gives you all kinds of help with them.  
 
-Just like the Building Blocks lesson, this one will contain a "Special Summary" section to make sure you've been able to get everything covered. Sometimes the resources available just don't manage to hit it all properly.
+Just like the Building Blocks lesson, this one will contain a healthy "Special Summary" section to make sure you've been able to get everything covered.
 
 ## You Will Need To Understand:
 
@@ -132,7 +132,7 @@ An `if` statement is pretty straightforward too.  Supply a condition and, if it'
         # this code will not run unless the variable is NOT a String
     end
 
-**`unless`** is the opposite of `if` (which should make sense from the english of it).  So it will jump into the included code... UNLESS the statement is `true`  You can also have an `else` clause, though it's less common because then you need to scratch your head to think about it so your code gets a bit less readable. 
+`unless` is the opposite of `if` (which should make sense from the english of it).  So it will jump into the included code... UNLESS the statement is `true`  You can also have an `else` clause, though it's less common because then you need to scratch your head to think about it so your code gets a bit less readable. 
 
     unless home_team.won_the_super_bowl?
         puts "I need to drown my sorrows in ice cream"
@@ -157,7 +157,7 @@ The **Spaceship Operator** `<=>` is a special one that comes up because it actua
     > 1 <=> -1000
     => 1
 
-The Spaceship can be useful because, like basically everything else, it's actually a method and you can override it in your own classes.  It's most commonly used in sorting methods.  Imagine that you created a `Person` class and you wanted to sort an array of `Person` objects.  You first have to teach Ruby how to compare two `Person`s by defining the `<=>` method for the `Person` class:
+The Spaceship can be useful because, like basically everything else, it's actually a method and you can override it in your own classes.  It's most commonly used in sorting methods.  Imagine that you created a `Person` class and you wanted to sort an array of `Person` objects.  You first have to teach Ruby how to compare two `Person`s by defining the `#<=>` method for the `Person` class:
 
     def Person
       def <=> (other_person)  # to compare two people, use last names
@@ -166,6 +166,7 @@ The Spaceship can be useful because, like basically everything else, it's actual
     end                 # now we can run people_array.sort, woohoo!
 
 **Logical Operators** go one step beyond simple comparisons and let you start chaining together several comparisons into a single statement.  That lets you build more interesting and complex `if` statements.  The most common are:
+
 * `&&` aka `and`, meaning both sides must be true for the full expression to evaluate to true
 * `||` (the pipe symbol, usually on the same key as the backslash) aka `or`, meaning that if EITHER of the two sides is true, the expression is true (else false)
 * `!` aka `not`, which reverses the expression from true to false or false to true
@@ -176,6 +177,7 @@ The Spaceship can be useful because, like basically everything else, it's actual
     => false
 
 **Ruby is Lazy** which means two things here: 
+
 1. It will only evaluate far enough to determine that the expression is definitively true or false.  
 2. It will return whatever is returned by the last part of the expression to get evaluated (instead of just a simple `true` or `false` it relies on that returned thing being truthy or falsey).  
  
@@ -187,9 +189,11 @@ That's important because we can actually use methods as part of our logical chai
 
 What happened?  Ruby knows that it only needs one side of the `&&` to be false for the whole thing to be false, and since `puts` on the left already returned `nil` which is falsey, Ruby stopped evaluating the expression and the really important message never got displayed.
 
-It returned `nil` instead of `false` because `&&` and `||` and the like don't just return `true` or `false`.. they return the result of the last expression to get evaluated, which was the `nil` from the `puts`  For another example, `7 || nil` returns `7` (which behaves truthy) instead of `true` and `7 && nil` returns `nil` (which behaves falsey) instead of `false`  If this seems a bit much to swallow right off the bat, keep it in the back of your mind until you first see it in action then it will click.
+It returned `nil` instead of `false` because `&&` and `||` and the like don't just return `true` or `false`.. they return the result of the last expression to get evaluated, which was the `nil` from the `puts`.  For another example, `7 || nil` returns `7` (which behaves truthy) instead of `true` and `7 && nil` returns `nil` (which behaves falsey) instead of `false`  If this seems a bit much to swallow right off the bat, keep it in the back of your mind until you first see it in action then it will click.
 
-**`||=`** is a sneaky expression that takes advantage of Ruby's natural laziness -- it basically expands to `thing_a || thing_a = thing_b`  So if `thing_a` hasn't yet been assigned to anything, it is `nil` so the Ruby checks the right side of the || to see if that might be true.becomes `thing_b`  If it has already been assigned a value, it just keeps that value like normal.  This is another sneaky trick used by programmers in situations like when you want to  , you should be able to see that 
+`||=` is a sneaky expression that takes advantage of Ruby's natural laziness -- it basically expands to `thing_a || thing_a = thing_b`.  So if `thing_a` hasn't been set to anything, it becomes `thing_b`, otherwise it keeps its original value.  It's a bit complex and you don't need to know exactly why it works, but we'll go over it for completeness:
+
+If `thing_a` hasn't yet been assigned to anything, it is `nil` and Ruby then checks the right side of the `||` to see if that might be true, which involves running the expression to set `thing_a` = `thing_b`.   If it has already been assigned a value, it just keeps that value like normal.  This is another sneaky trick used by programmers in situations like when you don't want to override whatever's already been set, but you want something to be there (like which url originally referred the user to your site)
 
 You may have seen some oddly compact and strange looking statements that appeared to be `if` statements under the hood.  That's probably because they use the **Ternary Operator**, which is a shorthand notation for a simple `if` that separates the different parts using the `?` and `:` like:
 
@@ -201,7 +205,7 @@ So:
     "I like truth"
     => nil
 
-You can nest `if` statements inside one another but sometimes it gets a little crazy and you find yourself 6 levels deep (and probably needing to rethink your strategy).  For those situations where you're really just checking to see if something equals any one of a number of clear but different options, a **`case`** statement can be a good substitute.  It basically lets you construct a chain of logic that says "if `x` equals `option_a`, do this, if it equals `option_b`, do this, if it equals `option_c`, do this... and otherwise do this."
+You can also nest `if` statements inside one another.  Sometimes it gets a little crazy and you find yourself 6 levels deep (and probably needing to rethink your strategy).  For those situations where you're really just checking to see if something equals any one of a number of clear but different options, a **`case`** statement can be a good substitute.  It basically lets you construct a chain of logic that says "if `x` equals `option_a`, do this, if it equals `option_b`, do this, if it equals `option_c`, do this... and otherwise do this."
 
     case current_user.energy   # Assume it's an value 1-3
     when 3
@@ -217,11 +221,11 @@ You can nest `if` statements inside one another but sometimes it gets a little c
 
 You can assemble code, tell the program which parts of it to execute, and wrap it all up in a method.  There's still something missing... what if you want to make something happen a whole bunch of times?  You certainly don't just run the method again and again manually.  Luckily we've got several standard ways of iterating through a piece of code until we tell the program to stop.
 
-You should understand the basic iterators `for` and `while` and understand how to use `each` and `times`  We'll talk more about blocks and the other Ruby iterators like `map` and `select` in the next sections, so it should be more obvious how `each` and `times` work after reading that.
+You should understand the basic iterators `for` and `while` and understand how to use `#each` and `#times`.  We'll talk more about blocks and the other Ruby iterators like `#map` and `#select` in the next sections, so it should be more obvious how `#each` and `#times` work after reading that.
 
 A loop is really just code that will run a number of times until some condition is met.  A variable is typically used to keep track of which iteration you are on or to otherwise increment until the condition is reached.  This is called the **index variable**.
 
-**`loop`** is the most basic way to loop in Ruby and it's not used all that much because the other ways to loop are much sexier.  `loop` takes a block of code, denoted by either `{ ... }` or `do ... end` (if it's over multiple lines).  It will keep looping until you tell it to stop using a `break` statement:
+`loop` is the most basic way to loop in Ruby and it's not used all that much because the other ways to loop are much sexier.  `loop` takes a block of code, denoted by either `{ ... }` or `do ... end` (if it's over multiple lines).  It will keep looping until you tell it to stop using a `break` statement:
 
     > loop { puts "this will not stop until you press CTRL+c" }
     this will not stop until you press CTRL+c
@@ -236,7 +240,9 @@ A loop is really just code that will run a number of times until some condition 
     > end
     1 2 3 4 5 6 7 8 9 10 => nil
 
-**`while`** performs a similar function but in a much more compact way, by allowing you to specify the condition that must be true to keep looping, and you'll find yourself using it much more in your own code.  It doesn't actually take a formal block of code, just runs everything until it reaches its `end`  Just remember to declare the variable(s) you'll be using (or they'll get reset with each iteration) and to increment at some point (or you'll get stuck in an infinite loop [use ctrl+c to break in Terminal]):
+`while` performs a similar function but in a much more compact way, by allowing you to specify the condition that must be true to keep looping, and you'll find yourself using it much more in your own code.  It doesn't actually take a formal block of code, just runs everything until it reaches its `end`.  
+
+Just remember to declare the variable(s) you'll be using (or they'll get reset with each iteration) and to increment at some point (or you'll get stuck in an infinite loop... use ctrl+c to break in Terminal):
 
     > i=1
     > while i < 5
@@ -245,37 +251,39 @@ A loop is really just code that will run a number of times until some condition 
     > end
     1 2 3 4 => nil
 
-**`until`** is almost identical to `while` but, instead of running as long as the specified condition is `true`, it runs as long as the condition is `false`
+`until` is almost identical to `while` but, instead of running as long as the specified condition is `true`, it runs as long as the condition is `false`
 
-**`for`** is a looping mechanism present in lots of other languages but it gets de-emphasized in Ruby and you don't see it used much.  A common use is to loop over every number in a range.  Whatever you name the first variable is how you call that number inside the loop:
+**`for`** is a looping mechanism present in lots of other languages but it gets de-emphasized in Ruby and you don't see it used much.  A common use is to loop over every number in a range.  You name the variable that holds the current number at the top and can then access it from inside the loop:
 
     > for a_number in (1..3)
     >   print "#{a_number} "
     > end
     1 2 3 => 1..3
 
-Things get more interesting when you realize that most of your loops will probably involve looping over each element in either an array or a hash of items.  Ruby knows this and made it super easy for you by specifying the `each` method that you call directly on that array or hash.  It will automatically pass whichever item it is currently on into your code block.  That item will be named whatever name you specify inside the pipes `| name_goes_here |`:
+Things get more interesting when you realize that most of your loops will probably involve looping over each element in either an array or a hash of items.  Ruby knows this and made it super easy for you by specifying the `#each` method that you call directly on that array or hash.  `#each` will automatically pass whichever item it is currently on into your code block.  That item will be named whatever name you specify inside the pipes `| name_goes_here |`:
 
     > guys = ["Bob", "Billy", "Joe"]
-    > guys.each do |current_name|    # better to call it just "name"
+    > guys.each do |current_name|    # better to call it just "name" in your code
     >   print "#{current_name}! "
     > end
     Bob! Billy! Joe! => ["Bob", "Billy", "Joe"]  # returns original array
 
-Many other loops are just you trying to do something a certain number of times (which was the case in our `for` loop example).  In that case, Ruby has the simplest possible method for you, `times`  If you pipe in an argument, it will be the current iteration starting from zero:
+Many other loops are just you trying to do something a certain number of times (which was the case in our `for` loop example).  In that case, Ruby has the simplest possible method for you: `#times`.  If you pipe in an argument, it will take the value of the current iteration (starting from zero):
 
     > 5.times do |jump_num|
     >     print "Jump #{jump_num}!"
     > end
     Jump 1!Jump 2!Jump 3!Jump 4!Jump 5!=> 5
 
-A couple other methods with similar purposes to `times` that you see less frequently:
-* `upto`, as in `1.upto(4) { |current_number| ...some code... }`, just like `times` but you choose the starting and ending point instead of always starting at zero.
-* `downto`, similar to `upto` but... down... to....
+A couple other methods with similar purposes to `#times` that you see less frequently:
 
-Your best friends early on will be `while` for anything that needs to run until a certain condition is reached (like winning the game), `each` for any time you want to do stuff with every item in an array or hash, and `times` for the simple cases when you just want to do something a fixed number of times.  
+* `#upto`, as in `1.upto(4) { |current_number| ...some code... }`, just like `#times` but you choose the starting and ending point instead of always starting at zero.
+* `#downto`, similar to `#upto` but... down... to....
+
+Your best friends early on will be `while` for anything that needs to run until a certain condition is reached (like winning the game), `#each` for any time you want to do stuff with every item in an array or hash, and `#times` for the simple cases when you just want to do something a fixed number of times.  
 
 Because you may want some additional control over your loops, use these statements to jump in and out of them for certain abnormal conditions:
+
 * `break` will **stop the current loop**.  Often used with an `if` to specify under what conditions to do that.
 * `next` will **jump to the next iteration**.  Also usually used with an `if` statement.
 * `redo` will let you restart the loop (without evaluating the condition on the first go-through), again usually with some condition
@@ -298,13 +306,13 @@ Here's an example that goes through the comments in a hypothetical blog and capt
       comment_previews
     end
 
-### Closures (Blocks, Procs, and Lambdas)
+### Closures (Blocks, Procs, Lambdas, and Methods)
 
 One of the most confusing parts of learning basic Ruby (until your AHA! moment) is understanding what blocks are and how they work, mostly because it's something you probably haven't ever seen before.  It shouldn't be, because they're actually pretty simple.  You've already seen them before, whether it's using them yourself during the prep work or most recently in the section on iteration, where they came up as inputs to some of the iterators.  
 
-Here, you'll learn more about blocks and also about their lessor known cousins, Procs, lambdas and Methods.  By the end, you should be comfortable working with blocks and writing your own methods that take them.  You should understand when you may need to use a Proc instead and the basics of why the other two -- lambdas and Methods -- .
+Here, you'll learn more about blocks and also about their lessor known cousins, Procs, lambdas and Methods.  By the end, you should be comfortable working with blocks and writing your own methods that take them.  You should understand when you may need to use a Proc instead and the basics of the other two options -- lambdas and Methods -- .
 
-Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called anonymous functions because they have no name but behave much like functions.  They're like little helper functions... you don't find blocks just hanging around without some method (like `each`) using them.  
+Blocks are just chunks of code that you can pick up and drop into another method as an input.  They're often called "anonymous functions" because they have no name but behave much like functions.  They're like little helper functions... you don't find blocks just hanging around without some method (like `#each`) using them.  
 
 You **declare a block** using squiggly braces `{}` if it's on one line or `do ... end` if it's on multiple lines (by convention... you can use either one if you really want):
 
@@ -315,11 +323,13 @@ You **declare a block** using squiggly braces `{}` if it's on one line or `do ..
     > end
     1! 2! 3! =>[1,2,3]         # Identical to the first case.
 
-Just like methods, some blocks take inputs, others do not.  Some return important information, others do not.  Blocks let you use the implicit **return** (whatever's on the last line) but NOT `return`, since that will actually return you from whatever method actually called the block.
+Just like methods, some blocks take inputs, others do not.  Some return important information, others do not.  Blocks let you use the implicit **return** (whatever's on the last line) but NOT `return`, since that will return you from whatever method actually called the block.
 
-Blocks are used as arguments to other functions (like `each`), just like the normal arguments that you see between the parentheses... they just happen to always be listed last and on their own because they tend to take up multiple lines.  Don't think of them as anything too special.  The `each` method isn't special either, it's just built to accept a block as an argument.
+Blocks are used as arguments to other methods (like `#each`), just like the normal arguments that you see between the parentheses... they just happen to always be listed last and on their own because they tend to take up multiple lines.  Don't think of them as anything too special.  The `#each` method isn't special either, it's just built to accept a block as an argument.
 
-How does `each` take a block then?  Through the magic of **the `yield` statement**, which basically says "run the block right here".  When you write your own methods, you don't even need to specially declare that you'd like to accept a block.  It will just be there waiting for you when you call `yield` inside your method.  `yield` can **pass parameters to your block** as well.  See this made-up version of the `each` method to get an idea of what's happening under the hood.  We'll put this method into the Array class so you can call it directly on an array (like `[1,2,3].my_each`) instead of having to take the array as an argument like `my_each([1,2,3])`:
+How does `#each` take a block then?  Through the magic of **the `yield` statement**, which basically says "run the block right here".  When you write your own methods, you don't even need to specially declare that you'd like to accept a block.  It will just be there waiting for you when you call `yield` inside your method.  
+
+`yield` can **pass parameters to your block** as well.  See this made-up version of the `#each` method to get an idea of what's happening under the hood.  We'll put this method into the Array class so you can call it directly on an array (like `[1,2,3].my_each`) instead of having to take the array as an argument like `my_each([1,2,3])`:
 
     class Array 
       def my_each
@@ -332,7 +342,7 @@ How does `each` take a block then?  Through the magic of **the `yield` statement
       end
     end
 
-As you can see, we iterate over the array that our `my_each` method was called on (which can be grabbed using `self`).  Then we call the block that got passed to `my_each` and pipe in whatever member of the original array we are currently on.  Last, we just return the original array because that's what `each` does.  We would run it just the same way as `each`:
+As you can see, we iterate over the array that our `#my_each` method was called on (which can be grabbed using `self`).  Then we call the block that got passed to `#my_each` and pipe in whatever member of the original array we are currently on.  Last, we just return the original array because that's what `#each` does.  We would run it just the same way as `#each`:
 
     > [1,2,3].my_each { |num| print "#{num}!" }
     1! 2! 3! => [1,2,3]
@@ -350,13 +360,13 @@ Which operates in that case just like all these lines:
       end
     end
 
-So one reason blocks are great is because you can write a sort of generic method like `each` which wraps your block in code that says what to do with it.  Another use case is when creating methods where you want to optionally be able to override how they "work" internally by supplying your own block -- `sort` lets you supply your own block to determine how to actually order the items of the array if you want to!
+So one reason blocks are great is because you can write a sort of generic method like `#each` which wraps your block in code that says what to do with it.  Another use case is when creating methods where you want to optionally be able to override how they "work" internally by supplying your own block -- `#sort` lets you supply your own block to determine how to actually order the items of the array if you want to!
 
-If you want to **ask whether a block was passed** at all (to only yield in that case), use `block_given?`, or rather: `yield if block_given?`
+If you want to **ask whether a block was passed** at all (to only yield in that case), use `#block_given?`, or rather: `yield if block_given?`
 
-A lot of beginners just blindly take it on faith that `each` and `map` and `select` etc. all work the way they do.  You're more skeptical than that, which is good.  They're really quite simple and you'll get a chance to build your own soon enough.
+A lot of beginners just blindly take it on faith that `#each` and `#map` and `#select` etc. all work the way they do.  You're more skeptical than that, which is good.  They're really quite simple and you'll get a chance to build your own soon enough.
 
-What if you want to pass TWO blocks to your function?  What if you want to save your block to a variable so you can use it again later?  That's a job for **Procs**, aka Procedures!  Actually, a block *is* a Proc (which is the class name for a block) and they rhyme just to confuse you.  The block is sort of like a stripped-down and temporary version of a Proc that Ruby included just to make it really easy to use things like those `each` iterators.  A Proc is just a block that you save to a variable, thereby giving it a bit more permanence:
+What if you want to pass TWO blocks to your function?  What if you want to save your block to a variable so you can use it again later?  That's a job for **Procs**, aka Procedures!  Actually, a block *is* a Proc (which is the class name for a block) and they rhyme just to confuse you.  The block is sort of like a stripped-down and temporary version of a Proc that Ruby included just to make it really easy to use things like those `#each` iterators.  A Proc is just a block that you save to a variable, thereby giving it a bit more permanence:
 
     > my_proc = Proc.new { |arg1| print "#{arg1}! " }
 
@@ -367,22 +377,23 @@ Use that block of code (now called a Proc) as an input to a function by prependi
 
 It's the same as passing the block like you did before!  
 
-When you create your own function to accept procs, the guts need to change a little bit because you'll need to use **`call`** instead of `yield` inside (because which proc would `yield` run if you had more than one?).  `call` literally just runs the Proc that is called on.  You can give it arguments as well to pass on to the Proc:
+When you create your own function to accept procs, the guts need to change a little bit because you'll need to use `#call` instead of `yield` inside (because which proc would `yield` run if you had more than one?).  `#call` literally just runs the Proc that is called on.  You can give it arguments as well to pass on to the Proc:
 
     > my_proc.call("howdy! ")
     howdy! => nil
 
 Most of the time, using a block is more than sufficient, especially in your early projects.  Once you start seeing the need for using a Proc (like passing multiple arguments or saving it for later as a callback), you'll have Procs there waiting for you.  
 
-Blocks and Procs are both a type of `closure`  A closure is basically a formal, computer-science-y way of saying "a chunk of code that you can pass around but which hangs onto the variables that you gave it when you first called it".  It's the blanket term used to refer to blocks and Procs and...
+Blocks and Procs are both a type of "closure".  A closure is basically a formal, computer-science-y way of saying "a chunk of code that you can pass around but which hangs onto the variables that you gave it when you first called it".  It's the blanket term used to refer to blocks and Procs and...
 
-There are two other similar closure to be aware of but about which you don't need to be an expert because they're used in less typical applications.  The first of these is a **lambda**.  If Procs are sort of a more-fleshed-out version of blocks, then lambdas are sort of a more-fleshed-out version of Procs.  They are one step closer to being actual methods themselves, but still technically count as anonymous functions.  If you're coming from Javascript, anonymous functions shouldn't be anything new to you.
+There are two other similar closure to be aware of but about which you certainly don't need to be an expert because they're used in less typical applications.  The first of these is a **lambda**.  If Procs are sort of a more-fleshed-out version of blocks, then lambdas are sort of a more-fleshed-out version of Procs.  They are one step closer to being actual methods themselves, but still technically count as anonymous functions.  If you're coming from Javascript, anonymous functions shouldn't be anything new to you.
 
 Just to focus on the differences between lambdas and Procs, a lambda acts more like a real method.  What does that mean? 
+
 * A lambda can return multiple things easily because you can safely use the explicit `return` statement inside of one (it will only return from the lambda and not the enclosing method, which is what happens if you use `return` inside a block or Proc).  
 * Lambdas are also much stricter than Procs about you passing them the correct number of arguments.
 
-Here's a simple example to show you the syntax of a lambda (btw, there's nothing special to lambdas about placing the `call` after the `end`, if you hadn't seen that done before, it's just like method chaining):
+Here's a simple example to show you the syntax of a lambda (btw, there's nothing special to lambdas about placing the `#call` after the `end`, if you hadn't seen that done before, it's just like method chaining):
 
     > lambda do |word| 
     >   puts word
@@ -413,28 +424,29 @@ The second additional closure is called a **Method** because, well, it's the clo
 TADA! We've now gotten our worthless array (and a "howdy") printed out 4 different ways, each seemingly less useful than the last!  Fear not.  Learn your blocks cold and have a good handle on Procs (which should be easy since they're basically the same thing) but just keep lambdas and Methods in the back of your head for much later.
 
 So...
+
 * **Blocks** are unnamed little code chunks you can drop into other methods.  Used all the time.
-* **Procs** are identical to blocks but you can store them in variables, which lets you pass them into functions as explicit arguments and save them for later.
-* **Lambdas** are really full methods that just haven't been named
-* **Methods** are a way of taking actual named methods and passing them around as arguments to or returns from other methods in your code.
+* **Procs** are identical to blocks but you can store them in variables, which lets you pass them into functions as explicit arguments and save them for later. Used explicitly sometimes.
+* **Lambdas** are really full methods that just haven't been named.  Used rarely.
+* **Methods** are a way of taking actual named methods and passing them around as arguments to or returns from other methods in your code.  Used rarely.
 * **Closure** is just the umbrella term for all four of those things, which all somehow involve passing around chunks of code.
 
 ### Enumerable Methods
 
-You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data and they both implement their own version of the `each` method to iterate over their items but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
+You've learned about `Array` and `Hash` but only got half the story... they each have their own methods for adding and deleting and accessing data and they both implement their own version of the `#each` method to iterate over their items but what makes them really powerful in Ruby is the ability to use `Enumerable` methods as well as the basic ones you've just learned.  
 
-"Enumerable" is actually a `module`, which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash` That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  As long as the class that wants to include Enumerable has its own `each` function that Enumerable can use, it can get access to all the magic and joy of using the Enumerable methods by simply mixing it in.
+"Enumerable" is actually a "module", which means it is just a bunch of methods packaged together that can (and do) get "mixed in", or included, with other classes (like `Array` and `Hash`. That means that Ruby programmers don't have to write all those methods many different times - they just write them once, package them up as `Enumerable`, and tell `Array` and `Hash` to include them.  As long as the class that wants to include `Enumerable` has its own `#each` method that `Enumerable` can use, it can get access to all the magic and joy of using the `Enumerable` methods by simply mixing it in.
 
-In this case, `Enumerable` contains really useful methods like `map` and `each` and `select` that you've seen before and you'll use again and again so our goal with this section is to get well acquainted with them.
+In this case, `Enumerable` contains really useful methods like `#map` and `#each` and `#select` that you've seen before and you'll use again and again so our goal with this section is to get well acquainted with them.
 
 `Enumerable` gives you lots of useful ways of doing something to every element of a collection object (an array or hash, for instance), which is a very common thing to do when you're building programs and websites.
 
-`each` is an iterator method you've seen plenty of times before now that comes pre-packaged with the Array and Hash and Range classes and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original collection that it was called on:
+`#each` is an iterator method you've seen plenty of times before now that comes pre-packaged with the Array and Hash and Range classes and it basically just goes through each item in the object you called it on and passes it to the block that you specified.  It will return the original collection that it was called on:
 
     > [1,2,3].each { |num| print "#{num}! " }
     1! 2! 3! => [1,2,3]
 
-Sometimes you also want to know what position in the array you are... so that sounds like a good chance to use Enumerable's `each_with_index`, which will pass that into the block as well:
+Sometimes you also want to know what position in the array you are... so that sounds like a good chance to use Enumerable's `#each_with_index`, which will pass that position into the block as well:
 
     > ["Cool", "chicken!", "beans!", "beef!"].each_with_index do |item, index|
     >   print "#{item} " if index%2==0
@@ -457,17 +469,17 @@ What if I want to keep only the even numbers that are in an array?  The traditio
     > my_array.keep_evens
     => [2,4,6,8,100]
 
-That's too much code and too much hassle.  When all you're doing is pulling out, or *selecting*, certain items based on some criteria, you'd be better served using Enumerable's **`select`** instead.  It will run the block on every item of your object (whether array or hash or whatever) and return a new object that contains only those items for which the original block returned `true`:
+That's too much code and too much hassle.  When all you're doing is pulling out, or *selecting*, certain items based on some criteria, you'd be better served using Enumerable's `#select` instead.  It will run the block on every item of your object (whether array or hash or whatever) and return a new object that contains only those items for which the original block returned `true`:
 
     > my_array.select{|item| item%2==0 }
     => [2,4,6,8,100]      # wow, that was easy.
 
-You win this round, Ruby.  What if instead of selecting only a few items we want to keep all items but modify them somehow?  That sounds a lot like we're doing something and `collect`ing the results, doesn't it?  `collect` will run your block and give you an object filled with whatever your block returned each time.  Ruby says:
+You win this round, Ruby.  What if instead of selecting only a few items we want to keep all items but modify them somehow?  That sounds a lot like we're doing something and **collect**ing the results, doesn't it?  `#collect` will run your block and give you an object filled with whatever your block returned each time.  Ruby says:
 
     > my_array.collect{|num| num**2 }
     => [4,16,36,64,10000]
 
-You've heard of **`map`**?  It's the EXACT same method as collect, just called something different.  Some people visualize it in their heads as doing something and collecting the results, other people see it as re-mapping your original object through some sort of transformation.  It's more conventional to use `map` but both work the same way.  
+You've heard of `#map`?  It's the EXACT same method as collect, just called something different.  Some people visualize it in their heads as doing something and collecting the results, other people see it as re-mapping your original object through some sort of transformation.  It's more conventional to use `#map` but both work the same way.  
 
 Here's a theoretical example more like what you might see when you've got your own website built using Rails, where we may want to send only an array filled with our users' emails out to the webpage:
 
@@ -481,38 +493,46 @@ You can also use these methods on hashes as well, just remember that now you hav
     => {"Joe" => "male", "Jim" => "male"}
 
 **Enumerable Iterators Cheat Sheet**
-* **`each`** returns the original object it was called on because it's really used for its side effects and not what it returns
-    * **`each_with_index`** passes not just the current item but whatever position in the array it was located in.
-* **`select`** returns a new object (e.g. array) filled with only those original items where the block you gave it returned `true`
-* **`map`** returns a new array filled with whatever gets returned by the block each time it runs. 
 
-Up until now, all the methods we've seen run essentially independent operations on each element of our array or hash.  What if we want to do something that keeps track of the result as we iterate?  Like, say, summing up the elements of an array?  For that we need to use **`inject`** (aka `reduce`), which passes not just the element but the return of the previous iteration into the block.  You can specify the initial value or it will just default to the first item of the array.  It ultimately returns whatever the result of the last iteration is.  Here's a way to sum an array:
+* `#each` returns the original object it was called on because it's really used for its side effects and not what it returns
+* `#each_with_index` passes not just the current item but whatever position in the array it was located in.
+* `#select` returns a new object (e.g. array) filled with only those original items where the block you gave it returned `true`
+* `#map` returns a new array filled with whatever gets returned by the block each time it runs. 
+
+Up until now, all the methods we've seen run essentially independent operations on each element of our array or hash.  What if we want to do something that keeps track of the result as we iterate?  Like, say, summing up the elements of an array?  
+
+For that we need to use `#inject` (aka `#reduce`), which passes not just the element but whatever was returned by the previous iteration into the block.  You can either specify the initial value or it will just default to the first item of the array.  It ultimately returns whatever the result of the last iteration is.  Here's a way to sum an array:
 
     > my_array.inject(0){|running_total, item| running_total + item }
     => 120
 
 **Some Other Handy Methods**
+
 Enumerable is a large bunch of methods and you'll only use a half-dozen of them regularly but there are some others that you should be familiar with as well.  The full list is available [in the docs here](http://ruby-doc.org/core-2.0/Enumerable.html).
-* **`any?`** returns true/false (see the question mark?) and answers the question, "do ANY of the elements in this object pass the test in my block?".  If your block returns true on any time it runs, `any?` will return true.
-* **`all?`** returns true/false and answers the question, "do ALL the elements of this object pass the test in my block?".  Every time the block runs it must return true for this method to return true.
-* **`none?`** returns true only if NONE of the elements in the object return true when the block is run.
-* **`find`** returns the first item in your object for which the block returns true.
+
+* `#any?` returns true/false (see the question mark?) and answers the question, "do ANY of the elements in this object pass the test in my block?".  If your block returns true on any time it runs, `any?` will return true.
+* `#all?` returns true/false and answers the question, "do ALL the elements of this object pass the test in my block?".  Every time the block runs it must return true for this method to return true.
+* `#none?` returns true only if NONE of the elements in the object return true when the block is run.
+* `#find` returns the first item in your object for which the block returns true.
 
 **Awesome but less common methods**
-* **`group_by`** will run your block and return a hash that groups all the different types of returns from that block.  For example:
+
+* `#group_by` will run your block and return a hash that groups all the different types of returns from that block.  For example:
     
-    > names = ["James", "Bob", "Joe", "Mark", "Jim"]
-    > names.group_by{|name| name.length}
-    => {5=>["James"], 3=>["Bob", "Joe", "Jim"], 4=>["Mark"]} 
+        > names = ["James", "Bob", "Joe", "Mark", "Jim"]
+        > names.group_by{|name| name.length}
+        => {5=>["James"], 3=>["Bob", "Joe", "Jim"], 4=>["Mark"]} 
 
-* **`grep`** returns an array with those items that actualy match the specified criteria (RegEx) (using a `===` match)
+* `#grep` returns an array with those items that actualy match the specified criteria (RegEx) (using a `===` match)
 
-    > names.grep(/J/)
-    => ["James", "Joe", "Jim"]
+        > names.grep(/J/)
+        => ["James", "Joe", "Jim"]
 
-Some of the methods you've already seen and use are part of Enumerable too -- `include?`, `sort`, `count` etc.
+Some of the methods you've already seen and use are part of Enumerable too -- `#include?`, `#sort`, `#count` etc.
 
-When you use the Enumerable methods, you'll sometimes see what's called an **`enumerator`** object pop up, usually if you forget to give them a parameter that they want like a block.  What the heck is that?  Consider it an implementation detail of Enumerator.  As we said before, the methods that are part of Enumerable rely on the underlying collections' `each` method to work.  `enumerable` is basically a go-between for the original collection and Enumerator.
+When you use the Enumerable methods, you'll sometimes see what's called an `enumerator` object pop up, usually if you forget to give them a parameter that they want like a block.  What the heck is that?
+
+Consider it an implementation detail of Enumerator.  As we said before, the methods that are part of Enumerable rely on the underlying collections' `#each` method to work.  `enumerable` is basically a go-between for the original collection and Enumerator.
 It's not really something you'll be using right off the bat but it's useful for gaining a better understanding of Enumerable.
 
 ### Writing Methods
@@ -525,9 +545,9 @@ Methods help organize your code by keeping you from repeating yourself.  Anythin
 
 Methods also make your code much easier to read and debug, a fact that you'll appreciate when you write some horrendously complicated spaghetti code and it takes you longer to figure out what it is doing than how to debug the error message you're getting.  
 
-Let's say you're building a game that uses an `until` loop to keep taking turns until someone has won.  But figuring out if someone has won takes several lines of code.  You really can't say `until ( 8 lines of code determining if anyone has one)`  Better to write a method called `game_over?` that does the work, then you can simply and legibly write `until game_over?` and it's obvious what your code does.  
+Let's say you're building a game that uses an `until` loop to keep taking turns until someone has won.  But figuring out if someone has won takes several lines of code.  You really can't say `until ( 8 lines of code determining if anyone has one)`  Better to write a method called `#game_over?` that does the work, then you can simply and legibly write `until game_over?` and it's obvious what your code does.  
 
-The `game_over?` method probably needs to check if the human player has won or has lost, so maybe your `game_over?` method just contains calls to two other methods, `victory?` and `loss?`  If you were debugging, it'd be very easy for you to go and find where the problem is if the player just can't seem to lose:
+The `#game_over?` method probably needs to check if the human player has won or has lost, so maybe your `#game_over?` method just contains calls to two other methods, `#victory?` and `#loss?`  If you were debugging, it'd be very easy for you to go and find where the problem is if the player just can't seem to lose:
 
     def game_over?
       victory? || loss?
@@ -545,7 +565,7 @@ A method should be self-contained and only use those variables that have been pa
 
 When **naming methods** the goal is to be descriptive but short.  Name based on what it will return or what the major intended side effect will be.  You shouldn't be missing any parts from the name because the method should only do one thing anyway.  If you can't tell what the method will return based on the name, you probably need a better name.  If your method name seems insanely long, your method may be trying to do more than one thing.  End with a question mark `?` if it will return true/false.  
 
-What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (the "caller").  So if I called `current_user.jump`, `current_user` is the caller of that method.  Inside the definition of the `jump` method, `self` would refer to the current_user.  
+What is **`self`**?  It's a word that you see a whole lot in Ruby and it's actually pretty simple... it refers to whatever object the current method was called on (the "caller").  So if I called `current_user.jump`, `current_user` is the caller of that method.  Inside the definition of the `#jump` method, `self` would refer to the current_user.  
 
 That is incredibly useful because we create methods that could be called by any number of different objects so we need a way inside of that method to dynamically refer to whatever object called it.  You may see something like this, which I could call on a hypothetical `User` object in my web application:
 
@@ -588,6 +608,7 @@ Another thing that you'll probably want to do at some point is to **access the v
     everyone
 
 A few other special constants you can access from within your script:
+
 * **`__FILE__`** is the name of the current file.
 * **`$0`** is the main or original file that was run (which could be different from your script if your script had just been `require`d by that original file).
 * **`$`** (aka **`$LOAD_PATH`**) is an array that contains the "load path", or all the directories the interpreter searches through when it needs to find a file.
@@ -600,7 +621,7 @@ A trick you can sometimes use to check whether your script is being run from the
       puts "Someone else is running me (I feel so violated...)"
     end
 
-Stepping away from scripts for a minute, one nifty command that you probably haven't had a chance to run into yet is **`send`**, which will let you run a method.  Simple.  Just call it on whatever object you'd normally run the method on.  Adapted from [the docs](http://ruby-doc.org/core-2.0/Object.html#method-i-send):
+Stepping away from scripts for a minute, one nifty command that you probably haven't had a chance to run into yet is **`#send`**, which will let you run a method.  Simple.  Just call it on whatever object you'd normally run the method on.  Adapted from [the docs](http://ruby-doc.org/core-2.0/Object.html#method-i-send):
 
     class Klass
       def hello(string)
@@ -614,7 +635,12 @@ So simple, why should you care?  Ruby lets you define new methods in runtime and
 
 ## Test Yourself
 
-Make sure you can do the [Beginner Ruby Quiz #2](http://www.codequizzes.com/topics/24/quizzes/76), [Quiz #3](http://www.codequizzes.com/topics/24/quizzes/77), [Quiz #4](http://www.codequizzes.com/topics/24/quizzes/78), and [Quiz #6](http://www.codequizzes.com/topics/24/quizzes/80) from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
+Make sure you can do the following quizzes from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
+
+2. [Beginner Ruby Quiz #2](http://www.codequizzes.com/topics/24/quizzes/76)
+3. [Quiz #3](http://www.codequizzes.com/topics/24/quizzes/77)
+4. [Quiz #4](http://www.codequizzes.com/topics/24/quizzes/78)
+5. [Quiz #6](http://www.codequizzes.com/topics/24/quizzes/80) 
 
 ## Additional Resources
 
