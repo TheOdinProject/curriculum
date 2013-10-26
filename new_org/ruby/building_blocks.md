@@ -130,12 +130,14 @@ A **Range** is just a continuous sequence and we represent it in a shorthand way
 
 For equality:
 
-* **`=`** is for assignment, so it assigns a value to a variable as in `> name = "Erik"`
-* **`==`** is for checking that two things are equal but don't have to be identical instances.  You'll use this in most cases, especially when working with conditional statements.  `> 1 + 1 == 2` returns '=> true'.  When you start creating your own classes (like an "Animal" class), you'll need to tell Ruby how to compare two animal instances by writing your own version of this method (it's easy).
-* **`===`** can actually mean some different things (you can overwrite it easily). You will probably be sticking with `==` in most situations, but it's good to understand `===` as well.  `===` typically asks whether the thing on the right is a member or a part or a type of the thing on the left.  If the thing on the left is the range `(1..4)` and we want to know if 3 is inside there:
+* `=` is for assignment, so it assigns a value to a variable as in `> name = "Erik"`
+* `==` is for checking that two things are equal but don't have to be identical instances.  You'll use this in most cases, especially when working with conditional statements.  `> 1 + 1 == 2` returns '=> true'.  When you start creating your own classes (like an "Animal" class), you'll need to tell Ruby how to compare two animal instances by writing your own version of this method (it's easy).
+* `===` can actually mean some different things (you can overwrite it easily). You will probably be sticking with `==` in most situations, but it's good to understand `===` as well.  `===` typically asks whether the thing on the right is a member or a part or a type of the thing on the left.  If the thing on the left is the range `(1..4)` and we want to know if 3 is inside there:
 
-    > (1..4) === 3
-    => true
+
+        > (1..4) === 3
+        => true
+
 
 This also works for checking whether some object is an instance of a class:
 
@@ -186,18 +188,19 @@ IRB shows you the backslashes, but they'll be hidden in your `puts` output.
 As you can imagine, this could get pretty tedious if you're trying to output a blog post or some other long batch of text that contains lots of mixed characters and don't want to manually or programmatically replace special characters, so later we'll see some simple convenience methods to use to take care of those issues for you.
 
 There are some special characters that are actually denoted using the backslash and you'll want to know the key ones, which will probably pop up again and again:  
+
 * `\n` will output a new line
 * `\r` is a newline too (carriage return)
 * `\t` will output a tab
 
-    > puts "let's put a bunch of newlines between this\n\n\nand this."
+        > puts "let's put a bunch of newlines between this\n\n\nand this."
 
 
 
-    and this.
-    => nil
+        and this.
+        => nil
 
-**`to_s`** is a method that will try to convert anything into a string.  
+**`#to_s`** is a method that will try to convert anything into a string.  Note that we put a `#` in front of method names by convention (you don't use that symbol when you're actually calling the method).
 
     > 12345.to_s
     => "12345"
