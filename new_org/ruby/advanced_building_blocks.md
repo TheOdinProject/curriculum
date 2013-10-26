@@ -34,13 +34,13 @@ Just like the Building Blocks lesson, this one will contain a healthy "Special S
         * `loop`?
         * `while`?
         * `for`?
-        * `each`?
-        * `times`?
+        * `#each`?
+        * `#times`?
     * What's the difference between `while` and `until`?
     * How do you stop a loop?
     * How to you skip to the next iteration of a loop?
     * How would you start the loop over again?
-    * What are the (basic) differences between situations when you would use `while` vs `times` vs `each`?
+    * What are the (basic) differences between situations when you would use `while` vs `#times` vs `#each`?
     * What does nesting loops mean and when would you use it?
 
 * Blocks, Procs, and Lambdas:
@@ -67,16 +67,16 @@ Just like the Building Blocks lesson, this one will contain a healthy "Special S
 
     * What is a module?
     * Why are modules useful?
-    * What does `each` do? 
-    * What does `each` return?
-    * What does `map` do?
-    * What does `map` return?
-    * What is the difference between `map` and `collect`?
-    * What does `select` do?
-    * What does `select` return?
-    * What is the difference between `each` `map` and `select`?
-    * What does `inject` do?
-    * When might you use `inject`?
+    * What does `#each` do? 
+    * What does `#each` return?
+    * What does `#map` do?
+    * What does `#map` return?
+    * What is the difference between `#map` and `#collect`?
+    * What does `#select` do?
+    * What does `#select` return?
+    * What is the difference between `#each` `#map` and `#select`?
+    * What does `#inject` do?
+    * When might you use `#inject`?
     * How do you check if every item in a hash fulfills a certain criteria?
     * What about if none of the elements fulfill that criteria?
     * What (basically) is an `enumerator`?
@@ -95,8 +95,8 @@ Just like the Building Blocks lesson, this one will contain a healthy "Special S
     * What does `load` do?
     * What is the difference between `require` and `load`?
     * How do you access any parameters that were passed to your script file from the command line?
-    * What does `send` do?
-    * When would `send` be used that's different from just running the method on an object 'normally'?
+    * What does `#send` do?
+    * When would `#send` be used that's different from just running the method on an object 'normally'?
 
 ## Your Assignment
 
