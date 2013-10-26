@@ -95,6 +95,19 @@ So... Get stretched out and warmed up, it's time to dive in!
     * What's the difference between UTC and GMT and Local times?
     * How would you find out the time that was 100 seconds ago? 10 days ago?
 
+* **Other Random Stuff:**
+
+  * What is `nil`?
+  * How do you check if something is `nil`?
+  * What's the difference between `nil` and `blank` and `empty`?
+  * Are the following `nil` or `empty`?
+      * `" "`, `""`, `[]`, `[""]`, `{}` 
+  * What's the difference between `puts` and `p` and `print`?
+  * What does `inspect` do?
+  * What do `+=`, `-=`, `*=` and `/=` do?
+  * What is parallel assignment?
+  * What's the easiest way to swap two variables?
+
 ## Your Assignment:
 
 1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
@@ -671,6 +684,66 @@ If you want to know what **All the Keys** are (more common) or **All the Values*
 
 A simpler kind of hash is called a **Set**, and it's just a hash where all the values are either True or False.  It's useful because your computer can search more quickly through this than an array trying to store the same information due to the way it's set up behind the scenes.  You'll encounter them in some of the exercises later.
 
+### Other Random Stuff
+
+So **What is `nil`?** It represents nothing... literally.  Before you assign a value to something, it starts as `nil`, for instance an item in an array or a variable:
+    
+    > my_arr = []
+    => []
+    > my_arr[3]
+    => nil          # hasn't been assigned yet
+
+Sometimes you want to know if a value or variable is `nil` before doing something (because otherwise the operation would throw a bunch of errors at you).  Use the method `nil?` to ask whether it's nil or not beforehand.
+
+    > nil.nil?
+    => true
+    > [].nil?
+    => false        # Waitasecond....
+
+Why is `[]` not nil?  The array itself exists so it isn't nil... it just happens to contain no values yet so it's empty.  If we asked for the first value of that array using `[][0].nil?`, that would be `true`
+
+If you try to run a method on something that is `nil`, which you will inevitably do many many times by accident, you'll get the familiar `NoMethodError`:
+
+    > user_i_looked_up_but_was_not_found_so_is_nil.empty?
+    => NoMethodError: undefined method `empty?' for nil:NilClass
+
+**`#blank?` and `#empty?`** are similar -- both basically check if the object has nothing in it -- but `#blank?` will also ignore any whitespace characters.  *Note that `#blank?` is a method provided by Rails and is not available in Ruby*.
+
+We've seen lots of `#puts` so far but you've probably also run across `p`  **What's the Difference?**  `p` will give you some more information because it runs the `#inspect` method on the object while `#puts` runs the `#to_s` method.  **`#inspect`** is meant to be informative where `#puts` is "pretty".  The difference may not be readily apparent while you're only working with simple objects like strings and arrays, but you'll notice it when you start creating your own objects and you want to see what's inside (without typing out `puts my_object.inspect`).
+
+`=` is an **Assignment Operator** but there are a few others that are interesting and common shorthands as well:
+* `a += b` is the same as `a = a + b`
+* `a -= b` is the same as `a = a - b`
+* `a *= b` is the same as `a = a * b`
+* `a /= b` is the same as `a = a / b`
+* `a %= b` is the same as `a = a % b`
+* `a **= b` is the same as `a = a ** b`
+
+**Parallel Assignment** is when you assign the values of more than one variable at a time (though it works for arrays as well!):
+
+    > a, b = 1, "hi"
+    => [1, "hi"]      # ignore this output
+    > a
+    => 1
+    > b
+    => "hi"
+    > my_array = [1,2,3,4]
+    => [1,2,3,4]
+    > my_array[1], my_array[3] = 100, 200
+    => [100,200]      # ignore
+    > my_array
+    => [1,100,3,200]
+
+It's also a great way to **Swap Two Variables**:
+
+    > a = 10
+    > b = 20
+    > a,b = b,a
+    > a
+    => 20
+    > b
+    => 10
+
 ### That's it!
 
 I know it was a long section, but you probably learned all kinds of things and you'll probably even remember some of it!
@@ -692,3 +765,5 @@ I know it was a long section, but you probably learned all kinds of things and y
 * Read through (and watch the video) for this [Regular Expressions in Ruby](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-regular-expressions/) explanation.
 * Read the [zetcode Arrays chapter](http://zetcode.com/lang/rubytutorial/arrays/) for some more in-depth knowledge.  Don't worry too much where they talk about blocks or the `select`, `collect` and `map` methods, we'll cover that in a later section.
 * Read [Zetcode's Hashes section](http://zetcode.com/lang/rubytutorial/hashes/) for some more depth on hashes.  Again, don't worry too much about `map` and other block-taking functions.
+* [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
+* [p vs puts in Ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
