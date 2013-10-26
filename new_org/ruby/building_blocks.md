@@ -486,15 +486,15 @@ To find WHERE a specific item lives in the array, use `#index` but note that it 
 * `#min` to find the **smallest value** of an array
 * `#uniq` to **remove all duplicates** from your array
 * `#size` to find out **how big the array is**
-* `#shuffle` will mess up your whole array by putting it in random order
-* `#sort` will clean it up again for you by putting your array **in order**.  Though `sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
+* `#shuffle` will mess up your whole array by putting it in **random order**
+* `#sort` will clean it up again for you by putting your array **in order**.  Though `#sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
 * `#sample` picks out a totally random value from the array... good for gambling games!
 * `#first` gives you the first item (but doesn't remove it, so it's same as `[0]`) but can be more descriptive of your code's intent.
 * `#last` is same as `[-1]`
 
 Do as I say and not as I do: name your arrays with the plural form (because it has a bunch of things in it, like `colorful_bugs` instead of `colorful_bug`) and be descriptive.  No one likes to try and figure out what `array1` or `a` contains... stick with `colorful_bugs`  I just kept them short here because they're tiny examples.  Someone should rename them all.
 
-Strings are a lot like arrays... so much so that we can even **Convert an Array into a String**! Just use `join` and tell it what, if anything, you want in between each element (the "separator"):
+Strings are a lot like arrays... so much so that we can even **Convert an Array into a String**! Just use `#join` and tell it what, if anything, you want in between each element (the "separator"):
 
     > ["he", "llo"].join
     => "hello"
@@ -503,12 +503,13 @@ Strings are a lot like arrays... so much so that we can even **Convert an Array 
     > "I found a #{colorful_bugs.join(' and a ')} in the yard!"
     => "I found a caterpillar and a butterfly and a ladybug in the yard!" 
 
-Want to know a cool way to make an array?  Create it from a `Range`(which you learned in the first section) and just **Convert it to an Array**:
+Want to know a cool way to make an array?  Create it from a `Range` and just **Convert it to an Array**:
 
     > my_awesome_array = (1..6).to_a
     => [1,2,3,4,5,6]
 
-Advanced stuff (you don't need to know this right now):
+**Advanced stuff** (you don't need to know this right now):
+
 Remember how we could create a new array and fill it up with stuff using `Array.new(5, "thing")`?  `Array.new` also takes an optional argument that is a block and it will run that block every time it needs to populate a new element.  Woah! We got a bit ahead of ourselves, but it's a cool feature to have floating in the back of your head.
 
     > Array.new(5){|item_index| item_index ** 2}
@@ -527,7 +528,7 @@ Make a new hash using several methods:
     > my_hash = {}        # easier way
     => {}
 
-You store data in a hash by matching a key with a value.  Use the **Hash Rocket** `=>` (not to be confused with the same symbol in our IRB examples which denotes the IRB output) if you're creating the hash, or just index into it like an array using hard brackets `[]`
+You store data in a hash by matching a key with a value.  Use the **Hash Rocket** `=>` (not to be confused with the same symbol in our IRB examples which denotes the IRB output) if you're creating the hash, or just index into it like an array using hard brackets `[]`:
 
     > favorite_colors = { "eyes" => "blue", "hair" => "blonde"}
     => {"eyes"=>"blue", "hair"=>"blonde"}
@@ -572,7 +573,7 @@ If you recall our discussion from Strings, we use symbols as keys for hashes mor
     > favorite_smells = { :flower => "daffodile", :cooking => "bacon" }
     => { :flower => "daffodile", :cooking => "bacon" }
 
-**Delete** from a hash by just setting the value to `nil` or by calling the `delete` method:
+**Delete** from a hash by just setting the value to `nil` or by calling the `#delete` method:
 
     > favorite_smells[:flower] = nil
     => nil
@@ -583,14 +584,14 @@ If you recall our discussion from Strings, we use symbols as keys for hashes mor
     > favorite_smells
     => {}                                 # ...and the other.
 
-That's all pretty straightforward.  What if we want to **add two hashes together**?  Just use `merge`  If there are any conflicts, the incoming hash (on the right) overrides the hash actually calling the method.
+That's all pretty straightforward.  What if we want to **add two hashes together**?  Just use `#merge`.  If there are any conflicts, the incoming hash (on the right) overrides the hash actually calling the method.
 
     > favorite_beers = { :pilsner => "Peroni" }
     => { :pilsner => "Peroni" }
     > favorite_colors.merge(favorite_beers)
     => {"eyes"=>"blue", "hair"=>"blonde", "skin"=>"sunburned", :pilsner => "Peroni"}       # okay, that's getting silly now...
 
-If you want to know what **All the Keys** are (more common) or **All the Values*** are (less common) in a hash, just use the aptly named `keys` and `values` methods to spit them out as an array:
+If you want to know what **All the Keys** are (more common) or **All the Values** are (less common) in a hash, just use the aptly named `#keys` and `#values` methods to spit them out as an array:
 
     > favorite_colors.keys
     => ["eyes", "hair", "skin", :pilsner]  
@@ -599,10 +600,14 @@ If you want to know what **All the Keys** are (more common) or **All the Values*
 
 A simpler kind of hash is called a **Set**, and it's just a hash where all the values are either True or False.  It's useful because your computer can search more quickly through this than an array trying to store the same information due to the way it's set up behind the scenes.  You'll encounter them in some of the exercises later.
 
+### That's it!
+
+I know it was a long section, but you probably learned all kinds of things and you'll probably even remember some of it!
+
 ## Test Yourself
 
 1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/topics/24/quizzes/75) from [Code Quizzes](http://www.codequizzes.com/).
-2. Make sure you go back up and look at all the questions from the "You Will Need To Understand" section.
+2. Make sure you go back up and look at all the questions from the "You Will Need To Understand" section.  See if you can do most of them without looking back through the text.
 
 ## Additional Resources
 
