@@ -609,9 +609,9 @@ Another thing that you'll probably want to do at some point is to **access the v
 
 A few other special constants you can access from within your script:
 
-* **`__FILE__`** is the name of the current file.
-* **`$0`** is the main or original file that was run (which could be different from your script if your script had just been `require`d by that original file).
-* **`$`** (aka **`$LOAD_PATH`**) is an array that contains the "load path", or all the directories the interpreter searches through when it needs to find a file.
+* `__FILE__` is the name of the current file.
+* `$0` is the main or original file that was run (which could be different from your script if your script had just been `require`d by that original file).
+* `$` (aka **`$LOAD_PATH`**) is an array that contains the "load path", or all the directories the interpreter searches through when it needs to find a file.
 
 A trick you can sometimes use to check whether your script is being run from the command line or as part of a larger program, for instance if you want to `puts` some stuff only if it's called from the CL (to debug it maybe), is to check whether `$0` is the same as `__FILE__`:
 
