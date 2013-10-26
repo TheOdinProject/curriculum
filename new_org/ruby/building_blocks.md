@@ -49,6 +49,24 @@ So... Get stretched out and warmed up, it's time to dive in!
     * How can you access a specific group of items in an array?
     * How do you modify the items in an array?
     * How do you combine arrays? 
+    * How do you find the values in one array that aren't in another?
+    * How do you find values in both arrays?
+    * What is the difference between `push`/`pop` and `shift`/`unshift`?
+    * What is the shovel operator?
+    * How is `> arr.pop` different from `> arr[-1]`?
+    * How is `push`ing or `<<`ing another array into your array different from just adding them together?
+    * How do you delete items in an array?
+    * Why should you be careful deleting items in an array?
+    * How can you convert arrays to strings?
+    * How can you convert from other data types to arrays?
+    * How can you figure out if an array contains a particular value?
+    * How do you find the biggest item in an array?
+    * How do you find the smallest item in an array?
+    * How do you remove any duplicates from your array?
+    * How to you find out how big an array is?
+    * How do you put an array in order?
+    * What are the naming conventions for arrays?
+    * What should you store in arrays?
 
 * **Hashes:**
 
@@ -200,14 +218,14 @@ There are some special characters that are actually denoted using the backslash 
         and this.
         => nil
 
-**`#to_s`** is a method that will try to convert anything into a string.  Note that we put a `#` in front of method names by convention (you don't use that symbol when you're actually calling the method).
+`#to_s` is a method that will try to convert anything into a string.  Note that we put a `#` in front of method names by convention (you don't use that symbol when you're actually calling the method).
 
     > 12345.to_s
     => "12345"
 
 This method gets called a LOT behind the scenes later on... basically anytime Ruby or especially Rails is outputting or rendering something (like a variable), it will call `to_s` on it to make it a nice friendly string first.  
 
-Fun fact: If you've created your own object, you may need to (or GET to!) write your own `to_s` method for it to display properly in some settings.  For example (looking ahead), if you've got a Person object and want to display its first name whenever you tried to `puts` it, you'd want to write the `to_s` method to do so.
+Fun fact: If you've created your own object, you may need to (or GET to!) write your own `#to_s` method for it to display properly in some settings.  For example (looking ahead), if you've got a Person object and want to display its first name whenever you tried to `puts` it, you'd want to write the `#to_s` method to do so.
 
 **Combining Strings** without using interpolation can be done using "concatenation", or basically just adding them together:
 
@@ -235,7 +253,7 @@ To **Access a Specific Character or Substring** of a string, just treat it like 
     > s[1..-2]
     => "ell"
 
-**Break a String into Pieces** using `split`, which creates an array of substrings that are broken up based on whatever character you passed in:
+**Break a String into Pieces** using `#split`, which creates an array of substrings that are broken up based on whatever character you passed in:
 
     > list = "eggs, milk, cheese and crackers"
     => "eggs, milk, cheese and crackers"
@@ -249,7 +267,7 @@ You can also split based on individual characters by passing either a blank stri
     > list.split("")      # or also list.split(//)
     => ["e", "g", "g", "s", ",", " ", "m", "i", "l", "k", ",", " ", "c", "h", "e", "e", "s", "e", " ", "a", "n", "d", " ", "c", "r", "a", "c", "k", "e", "r", "s"] 
 
-When you write your Ruby programs, you'll probably want to ask for **User Input**... which is easy with `gets`, which then waits for the user to type something.  You'll want to store whatever the user types into a variable and be sure to trim off the extra line break (from when the user hit the `enter` key) using `chomp`:
+When you write your Ruby programs, you'll probably want to ask for **User Input**... which is easy with `#gets`, which then waits for the user to type something.  You'll want to store whatever the user types into a variable and be sure to trim off the extra line break (from when the user hit the `enter` key) using `#chomp`:
 
     > player1 = gets    
     Erik                # this was typed in manually
@@ -258,7 +276,7 @@ When you write your Ruby programs, you'll probably want to ask for **User Input*
     Erik
     => "Erik"           # better.
 
-`chomp` will cut off a space or newline at the END of the string (and can take an optional input so you can specify what exactly to chomp off). `strip` will remove ALL spaces and newlines from both the beginning and end of the string:
+`#chomp` will cut off a space or newline at the END of the string (and can take an optional input so you can specify what exactly to chomp off). `#strip` will remove ALL spaces and newlines from both the beginning and end of the string:
 
     > " dude \n".chomp
     => " dude "         # still have the extra spaces
@@ -268,14 +286,15 @@ When you write your Ruby programs, you'll probably want to ask for **User Input*
 Of course, it's up to you to figure out if your user has entered something illegal or harmful, but at least you have an easy job removing extraneous spaces and returns.
 
 **Other Helpful String Methods** include:
-* `length` to get the length of the string
-* `downcase` to convert `"ALL THIS"` to `"all this"`
-* `upcase` to convert `"all this"` back to `"ALL THIS"`
-* `reverse` to convert `"hello"` to `"olleh"`
+
+* `#length` to get the length of the string
+* `#downcase` to convert `"ALL THIS"` to `"all this"`
+* `#upcase` to convert `"all this"` back to `"ALL THIS"`
+* `#reverse` to convert `"hello"` to `"olleh"`
 
 Fun fact: Strings made with the backtick characters `` ` `` (which is usually located on the same key as the tilde `~`) are actually interpolated and run by your operating system, so in IRB if you type ``> puts `ls` `` on a mac, it will actually output your directory contents!
 
-What about all the times you may want to **Search For or Replace Within Strings**?  For that, you need to begin understanding **Regular Expressions**, or "RegEx"'s.  There's a handy method for strings called `gsub(pattern, replace_with_this)`, which finds any occurrances of that pattern and replaces it with whatever you want:
+What about all the times you may want to **Search For or Replace Within Strings**?  For that, you need to begin understanding **Regular Expressions**, or "RegEx"'s.  There's a handy method for strings called `#gsub(pattern, replace_with_this)`, which finds any occurrances of that pattern and replaces it with whatever you want:
 
     > "hello".gsub("l","r")
     => "herro"
@@ -300,19 +319,20 @@ But sometimes all you want is a name, like when you're using a hash key.  In tha
 While you're learning, just stick with strings until you see the examples using symbols, which will mostly be with hash keys.
 
 **Other Helpful Methods** 
-* **`ljust`** will let you pad your string with extra spaces (or any other character you choose) up until a specified total amount of characters, so `"hi".ljust(4) => "hi  "` and `"hi".ljust(6,"*") => "hi****"`.  It can be handy for prettying up some of your command line outputs.
-* **`rjust`** does the same thing but pushes your string to the right, e.g. `"hi".rjust(6) => "    hi"`
-* **`center`** is the same idea but it centers your string: `"hi".center(6,"!") => "!!hi!!"`
+
+* `#ljust` will let you pad your string with extra spaces (or any other character you choose) up until a specified total amount of characters, so `"hi".ljust(4) => "hi  "` and `"hi".ljust(6,"*") => "hi****"`.  It can be handy for prettying up some of your command line outputs.
+* `#rjust` does the same thing but pushes your string to the right, e.g. `"hi".rjust(6) => "    hi"`
+* `#center` is the same idea but it centers your string: `"hi".center(6,"!") => "!!hi!!"`
 
 ### Arrays
 
-Arrays are almost as ubiquitous as strings.  You'll be working with them all the time to help store data for you, everything from the names of all your users to coordinates on a game board.  An array is an all-purpose bucket into which you can put pretty much anything.  
+Arrays are almost as ubiquitous as strings.  You'll be working with them all the time to help store data, everything from the names of all your users to coordinates on a game board.  An array is an all-purpose bucket into which you can put pretty much anything.  
 
-Here, you'll learn the basics of creating arrays, how to manipulate them in a dozen different ways, and some best practices for working with arrays.  Note that we'll be learning even more about how to dig around inside of arrays in the future section on iterators, so if you're excitedly waiting to better understand `each`, `map` and others like them, we're almost there!  If not... you will be.
+Here, you'll learn the basics of creating arrays, how to manipulate them in a dozen different ways, and some best practices for working with arrays.  Note that we'll be learning even more about how to dig around inside of arrays in a future lesson, so if you're excitedly waiting to better understand `#each`, `#map` and others like them, we're almost there!  If not... you will be.
 
 There are tons of methods designed to help you poke around in or otherwise manipulate arrays and you'll be seeing plenty of them here. Don't worry if it starts to feel like you're having to remember too much stuff.  It can be helpful to make a cheat sheet for yourself to help remember but you'll end up using the same dozen or so methods again and again so you'll get them hammered in there pretty well.  As with many things in Ruby, if you forget the method name but think it should exist, just make a guess and try it and you'll probably be right.
 
-Arrays begin life as empty containers waiting to be filled with objects or data.  As items are added, they stay in whatever spot you put them, which is good because then you know exactly where to find them later.  You can put anything in an array!  Numbers, strings, objects, symbols, haikus...
+**Arrays** begin life as empty containers waiting to be filled with objects or data.  As items are added, they stay in whatever spot you put them, which is good because then you know exactly where to find them later.  You can put anything in an array!  Numbers, strings, objects, symbols, haikus...
 
 **Creating an Array** can happen in many different ways.  You can either create it empty, specify how many spaces it should have (still empty), or even **fill it with default values**:
 
@@ -385,7 +405,7 @@ If you want to find values in **Both** arrays, check their union using the amper
     > [1,2,3]&[2,4,5]
     => [2]
 
-What if you only want to add or subtract one single value?  That's a very common operation with arrays, and Ruby has provided four handy methods that let you either pluck away or add onto the front or back of the array.  First, the more common is to add or remove stuff from the END of the array, using **`push` or `pop`**:
+What if you only want to add or subtract one single value?  That's a very common operation with arrays, and Ruby has provided four handy methods that let you either pluck away or add onto the front or back of the array.  First, the more common is to add or remove stuff from the END of the array, using `#push` or `#pop`:
 
     > my_arr = [1,2,3]
     => [1,2,3]
@@ -400,7 +420,7 @@ What if you only want to add or subtract one single value?  That's a very common
     > my_arr
     => [1, 2]          # warning: pop also modified my_arr
 
-What if you want to take the item off the FRONT of the array?  This is less common.  For that, use the similar `shift` and `unshift` methods:
+What if you want to take the item off the FRONT of the array?  This is less common.  For that, use the similar `#shift` and `#unshift` methods:
 
     > my_arr = [1,2,3]
     => [1,2,3]
@@ -413,7 +433,7 @@ What if you want to take the item off the FRONT of the array?  This is less comm
     > my_arr
     => [999, 2, 3]    # warning: unshift... yep, modified my_arr.
 
-So the `push`/`pop`/`shift`/`unshift` methods should take you wherever you realistically need to go.  Although there's another handy method you should be aware of, the **Shovel Operator**, aka `<<`  This method is *almost* identical to push, since it just jams whatever's to its right into the array:
+So the `#push`/`#pop`/`#shift`/`#unshift` methods should take you wherever you realistically need to go.  Although there's another handy method you should be aware of, the **Shovel Operator**, aka `<<`.  This method is *almost* identical to push, since it just jams whatever's to its right into the array:
 
     > my_arr = [1,2,3]
     => [1,2,3]
@@ -424,7 +444,7 @@ So the `push`/`pop`/`shift`/`unshift` methods should take you wherever you reali
 
 For now, just think of it as the cool way of pushing onto an array.  But note that `<<` is often overridden (like in Rails), and so it pays to be mindful of exactly what flavor of `push`ing you're doing.
 
-**Deleting Items** from an array should be done carefully because, if you're deleting items inside a loop or something like that, it will change the index of the other items and you'll need to anticipate this or live to regret it.  Delete an item at a specific index using `delete_at`, which is sort of like `pop`ing but from anywhere you want:
+**Deleting Items** from an array should be done carefully because, if you're deleting items inside a loop or something like that, it will change the index of the other items and you'll need to anticipate this or live to regret it.  Delete an item at a specific index using `#delete_at`, which is sort of like `pop`ing but from anywhere you want:
 
     > my_arr = [1,2,3]
     => [1, 2, 3]
@@ -433,7 +453,7 @@ For now, just think of it as the cool way of pushing onto an array.  But note th
     > my_arr
     => [1,3]
 
-If you want to clear out the whole array, you can use `clear` or, more easily, just set it equal to []:
+If you want to clear out the whole array, you can use `#clear` or, more easily, just set it equal to []:
 
     > my_arr = [1,3,5]
     => [1,3,5]
@@ -444,14 +464,14 @@ If you want to clear out the whole array, you can use `clear` or, more easily, j
     > my_arr = []           # better
     => []                   
 
-See if an array **includes an item** AT ALL by using `include?`, which, as you should see from the `?` at the end, returns true or false:
+See if an array **includes an item** AT ALL by using `#include?`, which, as you should see from the `?` at the end, returns true or false:
 
     > my_arr.include?(3)
     => true
     > my_arr.include?(132)
     => false
 
-To find WHERE a specific item lives in the array, use `index` but note that it only returns the FIRST instance of this (and then gives up. Lazy method.):
+To find WHERE a specific item lives in the array, use `#index` but note that it only returns the FIRST instance of this (and then gives up. Lazy method.):
 
     > my_arr.index(3)
     => 2
@@ -461,15 +481,16 @@ To find WHERE a specific item lives in the array, use `index` but note that it o
     => nil                # Not an error, just nil
 
 **A few useful and commonly used methods:**
-* `max` to find the **biggest value** of an array
-* `min` to find the **smallest value** of an array
-* `uniq` to **remove all duplicates** from your array
-* `size` to find out **how big the array is**
-* `shuffle` will mess up your whole array by putting it in random order
-* `sort` will clean it up again for you by putting your array **in order**.  Though `sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
-* `sample` picks out a totally random value from the array... good for gambling games!
-* `first` gives you the first item (but doesn't remove it, so it's same as `[0]`) but can be more descriptive of your code's intent.
-* `last` is same as `[-1]`
+
+* `#max` to find the **biggest value** of an array
+* `#min` to find the **smallest value** of an array
+* `#uniq` to **remove all duplicates** from your array
+* `#size` to find out **how big the array is**
+* `#shuffle` will mess up your whole array by putting it in random order
+* `#sort` will clean it up again for you by putting your array **in order**.  Though `sort` is pretty self-explanatory in the simple case, it can actually take parameters to let you decide if you want to sort things using a different (or reverse) methodology.
+* `#sample` picks out a totally random value from the array... good for gambling games!
+* `#first` gives you the first item (but doesn't remove it, so it's same as `[0]`) but can be more descriptive of your code's intent.
+* `#last` is same as `[-1]`
 
 Do as I say and not as I do: name your arrays with the plural form (because it has a bunch of things in it, like `colorful_bugs` instead of `colorful_bug`) and be descriptive.  No one likes to try and figure out what `array1` or `a` contains... stick with `colorful_bugs`  I just kept them short here because they're tiny examples.  Someone should rename them all.
 
