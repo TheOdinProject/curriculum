@@ -1,9 +1,8 @@
 # Ruby Building Blocks
-*Variables, Data Types, Strings, Methods*
 
 *Estimated Time: 6-8 hrs*
 
-Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](/curriculum/web_development_101/ruby_basics.md) (if not, go do that first!), this should start as a healthy refresher of what you've already learned.  But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.
+Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](/curriculum/web_development_101/ruby_basics.md) (if not, go do that first!), this should start as a healthy refresher of what you've already learned with *Variables, Data Types, Strings, and Methods*.  But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.
 
 To make sure you are really grounded on all the material here, we've included a special section below the assignment where we summarize key concepts.  This won't be available in all lessons, but you should find it quite helpful.
 
@@ -81,8 +80,8 @@ So... Get stretched out and warmed up, it's time to dive in!
 ## Your Assignment:
 
 1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
-2. Do the full [Codecademy Introduction to Ruby](http://www.codecademy.com/tracks/ruby) section.
-3. Complete the [Codecademy Introduction to Ruby](http://www.codecademy.com/tracks/ruby) project ("Putting the Form in Formatter")
+2. Do the full [Codecademy Introduction to Ruby section](w.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1) from their [Ruby Track](http://www.codecademy.com/tracks/ruby).
+3. Complete the [Codecademy Introduction to Ruby](http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1) project ("Putting the Form in Formatter")
 4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`
 5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 31-50 (only the section on Numbers and Expressions and the section on Text and Strings)
 6. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
@@ -92,7 +91,9 @@ So... Get stretched out and warmed up, it's time to dive in!
 
 ## A Special Summary
 
-This section includes a more detail about each of the concepts you've covered in the assignment, and should be helpful for answering the questions posed in the "You Will Need To Understand" section above.
+This section includes more detail about each of the concepts you've covered in the assignment, and should be helpful for answering the questions posed in the "You Will Need To Understand" section above.  
+
+If you don't understand a particular part, open up an IRB session and play around!  Most of the code below is shown using IRB's syntax (with the `>` prompt) anyway.
 
 ### Numbers, Operators, and Expressions
 
@@ -128,6 +129,7 @@ These types of operations work the same way with variables:
 A **Range** is just a continuous sequence and we represent it in a shorthand way.  If we want to say `3,4,5,6,7,8,9,10,11`, it's much easier to just write it the short way `(3..11)`, meaning "all the integers beween 3 and 11, including both 3 and 11".  If we wrote it `(3...11)`, it would actually exclude `11`  You can also create a range using `Range.new(start, finish)`, though the shorthand notation is more conventional.
 
 For equality:
+
 * **`=`** is for assignment, so it assigns a value to a variable as in `> name = "Erik"`
 * **`==`** is for checking that two things are equal but don't have to be identical instances.  You'll use this in most cases, especially when working with conditional statements.  `> 1 + 1 == 2` returns '=> true'.  When you start creating your own classes (like an "Animal" class), you'll need to tell Ruby how to compare two animal instances by writing your own version of this method (it's easy).
 * **`===`** can actually mean some different things (you can overwrite it easily). You will probably be sticking with `==` in most situations, but it's good to understand `===` as well.  `===` typically asks whether the thing on the right is a member or a part or a type of the thing on the left.  If the thing on the left is the range `(1..4)` and we want to know if 3 is inside there:
