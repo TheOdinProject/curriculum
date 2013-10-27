@@ -13,9 +13,11 @@ Luckily for you, these problems have all been solved many times in the past.  Un
 
 * What is a data structure?
 * What is a stack?
-* What is a stack useful for?
 * What is a queue?
+* What's the difference between a stack and a queue?
+* What is a stack useful for?
 * What is a queue useful for?
+* What's the best way to implement stacks and queues in Ruby (hint: think simple)?
 * Why bother having many different search algorithms?
 * What is breadth-first-search (BFS)?
 * What is depth-first-search (DFS)?
