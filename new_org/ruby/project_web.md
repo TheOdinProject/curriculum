@@ -1,5 +1,5 @@
 # Projects: Ruby on the Web
-Estimated Time: 6-10 hours
+*Estimated Time: 6-10 hours*
 
 *Don't forget to use Git to save your projects!*
 
@@ -41,33 +41,35 @@ There are a lot of steps here, and you'll need to draw on some of your previous 
 From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The-Ruby-1-9-x-Web-Servers-Booklet):
 
 >  Web Server Primer
->   At its core any web server is simply a never ending loop that attempts to accept connections on a listening socket. Here is a very simple TCP server
+
+>   At its core any web server is simply a never ending loop that attempts to accept connections on a listening socket. Here is a very simple TCP server:
 
     require 'socket'
 
     # IP address is 0.0.0.0 and it's on port 8080:
     server = TCPServer.new("0.0.0.0", 8080) 
     loop do
-      connection = server.accept
-      inputline = connection.gets
-      ...
-      connection.puts outputline
-      connection.close
+        connection = server.accept
+        inputline = connection.gets
+        ...
+        connection.puts outputline
+        connection.close
     end
 
 >  The servers differ in how they construct this loop and how they process incoming connections. The above sample is for a blocking server. Which means that it can only process one request at a time and that other requests will be waiting for the current one to finish. A long running request might make the server unreachable for a while. A group of those will quickly render the server unusable. There are several strategies to overcome this shortcoming. We will discuss those strategies and look at how they are utilized by the different servers. 
+
 > For a server to be called a web (HTTP) server it must speak the HTTP protocol. Hence it needs a way to parse the incoming HTTP requests. Each of the servers presented here attempts to solve this problem in its own way. But we will soon find that most of them rely on some clone of Mongrel's parser. If we modify our first server to include HTTP support it could like this:
 
     require 'socket'
     server = TCPServer.new("0.0.0.0", 8080)
     loop do
-      connection = server.accept
-      request = HTTP.parse(connection.gets) # an imaginary HTTP parser
-      ...
-      connection.puts status
-      connection.puts headers
-      connection.puts body
-      connection.close
+        connection = server.accept
+        request = HTTP.parse(connection.gets) # an imaginary HTTP parser
+        ...
+        connection.puts status
+        connection.puts headers
+        connection.puts body
+        connection.close
     end 
 
 So `socket` is a library available to Ruby without needing any special downloads (it's part of the standard library, you just need to remind Ruby to `require` it).  It lets you open and close connections to other machines or servers, just like you did when you were learning how to work with files! 
