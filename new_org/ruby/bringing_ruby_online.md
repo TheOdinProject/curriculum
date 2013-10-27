@@ -1,4 +1,5 @@
 # Ruby on the Web
+*Estimated Time: 2 hrs*
 
 You know how to write scripts and games using Ruby but so far that's all confined within the boundaries of your local system.  In this section, you'll learn how to break free and start mucking around on the Internet.
 
@@ -8,7 +9,14 @@ Ruby (or a gem that you've downloaded) will give you the power to send HTTP requ
 
 We're learning this stuff for two reasons.  First, it's important to understand the underlying fundamentals of how web requests and responses work if you want to actually build web pages.  Ruby on Rails will take care of lots of this nitty gritty stuff for you if that's your goal, but having worked with your bare hands before will give you a giant leg up when using it and it doesn't take long to figure out.  Second, there's a big world outside of Rails, and you should have the tools to build some nifty Ruby programs that can play around on the web.  Because it's a whole lot more fun!
 
-This section won't be nearly as long as the previous one, and should have you building stuff pretty early on.  Actually, the project section is really where you'll be spending all your time.  Let the spamming begin.
+This lesson won't be nearly as long as the previous few, and should have you building stuff pretty early on.  Actually, the project section is really where you'll be spending all your time.  Let the spamming begin.
+
+## You Will Need To Understand:
+
+* How do you issues an HTTP request in Ruby?
+* How do you parse the response to get to the body content?
+* What is REST?
+* What's the difference between a GET and a POST request? (seem familiar?)
 
 ## Homework Assignment
 
@@ -17,5 +25,5 @@ This section won't be nearly as long as the previous one, and should have you bu
 2. Read this extremely simple [REST tutorial in Ruby](http://rest.elkstein.org/2008/02/using-rest-in-ruby.html), which is basically just to show you how dead simple it is to issue HTTP requests using Ruby and then grab the response.
 3. Read this [explanation of how HTTP works](http://www.jmarshall.com/easy/http/#whatis) down through where it talks about the POST method (about halfway down).  You can stop before the HTTP Proxies section.
 
-## Test Yourself
-TODO
+## Additional Resources
+* *Add some of your own!*

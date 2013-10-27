@@ -42,4 +42,7 @@ Same
 Same
 ### Serialization
 TODO: Link to some exercises
+### Web Ruby
+TODO: Link to some exercises
+
 
