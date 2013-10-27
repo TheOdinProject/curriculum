@@ -127,3 +127,6 @@ On the server side, you will end up writing (or using) methods which restrict ac
 
 We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before about how requests are made because it brings a couple extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.  
 
+## Additional Resources:
+
+* [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)

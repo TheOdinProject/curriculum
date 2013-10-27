@@ -66,5 +66,5 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 ## Additional Resources:
 * More on [Binary Search Trees from Coursera](https://www.youtube.com/watch?v=sy6dGzYY308)... it gets a bit technical.
-* 
+* [Merge Sort -- How it Works part 1](http://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube for a look at a common and interesting sorting algorithm.
 

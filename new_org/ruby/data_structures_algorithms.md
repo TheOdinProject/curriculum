@@ -20,3 +20,6 @@ Some problems, like traversing a tree looking for a certain element, are relativ
 ## Test Yourself
 * Breadth First Search is best used when you want to find the **shortest** path to something but it can take a very long time
 * Depth first search is best used when you want to find any path to a solution but find it fast.
+
+## Additional Resources
+
