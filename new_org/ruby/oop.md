@@ -69,6 +69,7 @@ Yet again, the "Special Summary" section at the bottom should help you out.  Hop
 3. Read [Beginning Ruby](http://beginningruby.org/) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
 4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 7: `Projects and Libraries`
 5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
+6. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
 6. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional.
 7. Take a look back through the "You Will Need To Understand" list above.
 

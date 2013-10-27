@@ -20,4 +20,5 @@ So if your goal is to understand this stuff well enough to build some really hig
 * Watch [Part 2](https://www.youtube.com/watch?v=1sMR2ApQVvw)
 * Watch [Part 3](https://www.youtube.com/watch?v=deegPjmasq8)
 * Watch [Part 4](https://www.youtube.com/watch?v=vHE-EeLaYsI)
+* Read the [Bastard's Chapter on SQL](http://ruby.bastardsbook.com/chapters/sql/).  Some of the setup is dated, but skip to the concepts.  He gets into the more advanced SQL topics you may be unfamiliar with towards the middle.
 * Find better free videos and tell us about them :)

@@ -755,6 +755,7 @@ I know it was a long section, but you probably learned all kinds of things and y
 
 ## Additional Resources
 
+* If you still don't understand certain topics or don't like my summary, look them up in the [Bastard's Book](http://ruby.bastardsbook.com/chapters/)
 * Don't forget about the [Ruby Monk](http://rubymonk.com/) exercises from back in Web Development 101!
 * Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html) for a basic treatment of numbers.
 * Read [Zetcode's Data Types section](http://zetcode.com/lang/rubytutorial/datatypes/) for a bit more depth on the subject.

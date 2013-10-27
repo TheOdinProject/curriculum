@@ -652,6 +652,7 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 
 ## Additional Resources
 
+* Still unsure about Enumerable?  Check out the [Enumerable Chapter of the Bastard's Book](http://ruby.bastardsbook.com/chapters/enumerables/)
 * Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 * Read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/) for more depth on flow control.

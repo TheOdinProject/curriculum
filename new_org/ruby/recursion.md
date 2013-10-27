@@ -8,6 +8,7 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen
 2. Watch this [Video on Recursion](http://vimeo.com/24716767) by Joshua Cheek but only until minute 17:45!  (don't want to give away the project...)
+3. Read the [Bastard's Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/).
 
 ## Test Yourself
 
