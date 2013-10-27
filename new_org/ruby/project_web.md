@@ -90,9 +90,9 @@ Cool!
 1. Read this brief [tutorial on Ruby socket programming](http://www.tutorialspoint.com/ruby/ruby_socket_programming.htm) from TutorialsPoint.  Don't worry about the Multi-Client server stuff too much, but keep reading past it.
 2. In one file, implement their "A Simple Server".  It's easy to copy/paste code, but make sure you conceptually understand what each line is doing.
 
-      1. Ready to get your mind blown?  When you call `TCPServer.open`, the `open` class method is the EXACT same method that you use to call `File.open` because `TCPServer` inherits (several levels up) from the same `IO` class that `File` does! Another way working with servers is like working with files.
+      1. Ready to get your mind blown?  When you call `TCPServer.open`, the `::open` class method is the EXACT same method that you use to call `File.open` because `TCPServer` inherits (several levels up) from the same `IO` class that `File` does! Another way working with servers is like working with files.
       2. `#accept` is just an instance method of the `TCPServer` class.  It waits around for a connection, and when it gets a connection, it returns the `TCPSocket` representing that connection (see [the docs](http://www.ruby-doc.org/stdlib-1.9.3/libdoc/socket/rdoc/TCPServer.html)).
-      3. Now when you `puts` to that socket, it gets picked up on the other side by your client.  Not magic at all, just a stream of bytes like typing into the `STDIN` from the command line using `gets` or to `STDOUT` using `puts`.
+      3. Now when you `#puts` to that socket, it gets picked up on the other side by your client.  Not magic at all, just a stream of bytes like typing into the `STDIN` from the command line using `#gets` or to `STDOUT` using `#puts`.
 
 3. In another file, implement their "A Simple Client".  This should *really* look a lot like working with files.  `localhost` just represents the address of your current computer (as opposed to, say `http://www.google.com`).  Whenever you're building web applications and need to test them locally before deploying, you'll run a local server whose address will be `localhost` and some port number (often 3000, but that's arbitrary).  So get familiar with it!
 4. In one tab of your terminal, run your server.  Press `CTRL + c` to break from the infinite loop when you want to stop it.
@@ -109,7 +109,7 @@ Cool!
 
 8. Now comes the fun part.  Modify your simple server to take the HTTP request from the browser and, if it is a `GET` request that points to `/index.html`, send back the contents of `index.html`.  
 
-    1. You'll need to parse the incoming request yourself to determine which verb is being used, which file it wants, and other similar information that's contained in a standard HTTP request.  Again, check [the examples here](http://www.jmarshall.com/easy/http/#whatis) for what HTTP requests look like as a reference.
+    1. You'll need to parse the incoming request yourself to determine which verb is being used, which file it wants, and other similar information that's contained in a standard HTTP request.  Again, check [the examples here](http://www.jmarshall.com/easy/http/#whatis) for what HTTP requests look like as a reference. The easiest way may be to use a Regular Expression.
     2. Send your own properly formatted HTTP response, including a status code of `200` if the file is found, and then the actual contents of the requested file.  Don't forget to include the size (in characters) of the outgoing file (this is a normal part of every HTTP response) to help you display it using your mini-browser.
     2. If it asks for another file that doesn't exist, send back an error code (like `404`) and an appropriate (or inappropriate) error message.
 
