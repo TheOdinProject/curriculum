@@ -74,6 +74,8 @@ Yet again, the "Special Summary" section at the bottom should help you out.  Hop
 
 ## A Special Summary (again)
 
+This section should again make sure you've got all you need from the above texts and mini-courses.
+
 ### Classes
 
 When you start solving larger problems organization is key.  You don't want 100 different methods and variables that do overlapping things.  If you're trying to keep track of data (like a bunch of bad guys in a game you're building), you want to do so in the most organized way possible so you can recycle methods and only need to update that data in one place at a time.
@@ -102,7 +104,7 @@ To be able to amass a horde of 100 `Viking`s, you need a way to create new ones.
     > my_arr = Array.new
     => []
 
-`::new` is a **Class Method**, which means that you call it on the class (`Array` here) and not the specific instance of that class (which would be `my_arr` here).  When you call that method, it creates a new instance of that class and then runs a special method in the class called `#initialize`, which will set up that class to be ready for use.  If you pass variables to your class when you create it with the `::new` method, they will be available to the `#initialize` method.  Your `Viking` class would start by looking like:
+`::new` is a **Class Method**, which means that you call it on the class (`Array` here) and not the specific instance of that class (which would be `my_arr` here).  It's also why we designate it with the two colons `::` when talking about it here.  When you call that method, it creates a new instance of that class and then runs a special method in the class called `#initialize`, which will set up that class to be ready for use.  If you pass variables to your class when you create it with the `::new` method, they will be available to the `#initialize` method.  Your `Viking` class would start by looking like:
 
     class Viking
         def initialize(name, age, health, strength)
@@ -187,7 +189,7 @@ Because of your getters and setters, there are two different ways to access an i
         ...
     end
 
-You can also call methods from within other methods, as we saw with `shout` above.  In that case, the `self` is actually optional because Ruby assumes if you just type `shout("OUCH!")` that you're trying to run the method `#shout` and Ruby will see if the method exists.  That works 90% of the time, unless you've done something that overrides Ruby's assumption that you're trying to run a method, like using the `=` assignment operator:
+You can also call methods from within other methods, as we saw with `#shout` above.  In that case, the `self` is actually optional because Ruby assumes if you just type `shout("OUCH!")` that you're trying to run the method `#shout` and Ruby will see if the method exists.  That works 90% of the time, unless you've done something that overrides Ruby's assumption that you're trying to run a method, like using the `=` assignment operator:
 
     ...
         def sleep
@@ -386,10 +388,11 @@ But what if we've got a really sensitive method like `#die` that we don't want a
 
 If you create methods that should only be accessible by other methods within your class, make them `private`.  This is the default setting for instance variables unless you expose them using the afore-mentioned `attr_accessor`.  
 
-You should change the default thought in your head from "everything is accessible, what do I need to hide?" to "everything should be hidden, what do I absolutely need to make externally available?"   That principle will take you far, especially when designing things like APIs that will be used by other programs.  The more you make available to people, the harder it will be later on to hide it again.  
-How do we put this to good use?  In our above example, there's really no reason for us to be able to directly call `#take_damage` on our Viking instance either... it's an implementation detail (why would a user ever need to say `oleg.take_damage(10)` directly?  So we should probably rearrange things a bit to provide an even more high-level method to abstract `#take_damage` away from our user.  
+You should change the default thought in your head from "everything is accessible, what do I need to hide?" to "everything should be hidden, what do I absolutely need to make externally available?"   That principle will take you far, especially when designing things like APIs that will be used by other programs.  The more you make available to people, the harder it will be later on to hide it again.
 
-If we create an `#attack` method for one instance to `#attack` another, then we can have that method deal with the damage stuff on its own so the user is none-the-wiser.  But we can't make our `#take_damage` method `private` because otherwise we could only call it on the specific viking who is DOING the attacking.  We want to call it on the RECIPIENT of the attack (remember, `private` methods can only be called from within the same instance).  
+How do we put this to good use?  In our above example, there's really no reason for us to be able to directly call `#take_damage` on our Viking instance either... it's an implementation detail (why would a user ever need to say `oleg.take_damage(10)` directly?  So we should probably rearrange things a bit to provide an even more high-level method to abstract `#take_damage` away from our user.
+
+If we create an `#attack` method for one instance to `#attack` another, then we can have that method deal with the damage stuff on its own so the user is none-the-wiser.  But we can't make our `#take_damage` method `private` because otherwise we could only call it on the specific viking who is DOING the attacking.  We want to call it on the RECIPIENT of the attack (remember, `private` methods can only be called from within the same instance).
 
 Since we don't want `#take_damage` to be visible to anyone on the command line but we DO want it to be visible to the methods inside other instances of `Viking`, we call that **`protected`**.  `protected` provides most of the privacy of `private` but lets the methods inside other instances of the same class or its descendents also access it:
 
@@ -440,6 +443,9 @@ Since we don't want `#take_damage` to be visible to anyone on the command line b
 So that's privacy for you, and it can be summed up by saying *"don't let anything access any methods or variables that it doesn't need to.  It's on a 'need-to-know' basis, and it doesn't need to know."*  It's not as big an issue while you're building toy projects, but becomes more important when you're interfacing with the real world and you want to zip up your classes tightly to prevent any malicious or unintended shenanigans from occurring.
 
 Another similar principle is that a method should not reach outside its scope to modify variables unless that is the stated intention of the method.  A method should take inputs and provide a return without needing to modify anything else.  It could easily be called the *"look but don't touch"* principle... you can use variables from outside your method but don't modify them unless you must!
+
+### That's it!
+
 
 ## Test Yourself
 
