@@ -33,3 +33,13 @@ This list contains all the elements of the curriculum that need to be improved, 
 TODO: client team handoff, scrum, cards/stories, gogo, circle back, scrum.... debrief.
 TODO: tech used, who gets spoken to, where debugs are usually needed, when tests are written, how deployment goes, interactions with other team members.
 
+## Ruby
+### Building Blocks
+A massively long clusterfuck... how to deliver the content without such length?  My blog?
+### Adv BB
+Same
+### OOP
+Same
+### Serialization
+TODO: Link to some exercises
+

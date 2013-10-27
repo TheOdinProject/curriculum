@@ -1,4 +1,5 @@
 # Working with Files and Serializing Data
+* Estimated time: 2-4 hrs*
 
 Until now you've mostly been working with self-contained command line programs.  It's time to start branching out and interacting with files.  Files are basically just collections of bits and bytes that you'll somehow need to open, read into your program, modify, and save.  Even though many files (like images) look like a giant jumble of data when you open them up in a text editor, it can be helpful to think of all files as one really long string, or stream, of bytes.  Your script will read them in from top to bottom, performing whatever operations you specify along the way.
 
@@ -8,14 +9,25 @@ Working with files gets you into the idea of serialization, which basically just
 
 Luckily, Ruby again makes things pretty easy for you. There are some generally accepted formats for serializing data and Ruby gives you the tools you'll need to work with all of them.  The two you'll run into again and again are YAML and JSON.  You often see YAML used to save configuration files in Ruby on Rails because it's very lightweight and straightforward.  You can read it easily in a text editor.  JSON is ubiquitous across the web, and is the format of choice to deliver complex or deeply nested data (like objects) from some website to your program via an API (like if you want to interface with Google Maps).
 
-In this section, you'll get a good handle on these fundamental but important concepts, as well as a chance to flex your muscles and build something that uses each of them.
+Finally, files and serialization overlaps in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
+
+## You Will Need To Understand:
+
+* What are two ways to store a file from your hard drive into a string or array in your Ruby script?
+* What are three things made possible or much easier by serialization?
+* What is JSON?
+* What is YAML?
+* How do you turn a Ruby object into JSON?
+* How do you turn JSON into a Ruby object?
+* 
 
 ## Homework Assignment
 
-1. Refresh yourself on [Ruby Monk's section on the `File` class](http://rubymonk.com/learning/books/1/chapters/42-introduction-to-i-o/lessons/90-using-the-io-class) (it was part of the prep work!)
+1. Refresh yourself on [Ruby Monk's section on the `File` class](http://rubymonk.com/learning/books/1/chapters/42-introduction-to-i-o/lessons/90-using-the-io-class) (this may be review for you)
 2. Read through [Ruby Monk's section on Serializing](http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
 1. Read [Beginning Ruby](http://beginningruby.org/) Chapter 4: `Developing Your First Ruby Application` and follow along with the tutorial.
-2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 9: `Files and Databases`
+2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 9: `Files and Databases`.  Much of the databases stuff will be review from the Web Development 101 course and at first you won't often use the connection methods yourself (often an ORM like ActiveRecord for Rails will have that code already written for you), so feel free to skim over it but do try to see what Ruby is capable of.
 
-## Test Yourself
-TODO
+## Additional Resources
+
+* [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
