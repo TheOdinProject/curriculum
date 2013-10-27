@@ -19,7 +19,6 @@ Finally, files and serialization overlaps in a lot of ways with the idea and pur
 * What is YAML?
 * How do you turn a Ruby object into JSON?
 * How do you turn JSON into a Ruby object?
-* 
 
 ## Homework Assignment
 

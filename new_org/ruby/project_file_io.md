@@ -1,5 +1,5 @@
 # Project: Serialization and Working with Files
-Estimated Time: 4-6 hours
+*Estimated Time: 4-6 hours*
 
 *Don't forget to use Git to save your projects!*
 
@@ -44,7 +44,9 @@ You will be building a simple command line Hangman game where one player plays a
 * 
 
 
-*How long did these projects take you?  [Let us know!](mailto:curriculum@theodinproject.com)*
+## Additional Resources
+
+* Found something helpful?  Add it here!
 
 
 
