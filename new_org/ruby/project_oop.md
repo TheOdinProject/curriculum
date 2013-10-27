@@ -1,11 +1,11 @@
 # Project: OOP with Ruby
-Estimated Time: 6-8 hours
+*Estimated Time: 6-8 hours*
 
 *Don't forget to use Git to save your projects!*
 
 ## Project 1: Tic Tac Toe
 
-Remember Tic Tac Toe (see [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you haven't)?  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!
+Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you haven't.  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!
 
 ### Your Task:
 
@@ -46,5 +46,6 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * *Your Solution Here!*
 * 
 
+## Additional Resources
 
-*How long did these projects take you?  [Let us know!](mailto:curriculum@theodinproject.com)*
+* Not directly helpful, but some [Ruby game libraries](https://www.ruby-toolbox.com/categories/game_libraries) for fun.
