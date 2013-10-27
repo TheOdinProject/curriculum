@@ -16,7 +16,7 @@ We will cover testing in more depth in the section on Rails, but you'll want to 
 3. Take a glance at the [Relish RSpec official documentation](https://www.relishapp.com/rspec/rspec-core/v/2-4/docs).  It will be a good resource for when you're scratching your head later.
 
 ## Test Yourself (heh, heh.)
-TODO
+1. Do the [Code Quiz on RSpec](http://www.codequizzes.com/topics/7/quizzes/22)
 
 ## Additional Resources
 * [Better Specs](http://betterspecs.org) shows tons of examples of what you should and shouldn't do with RSpec.
