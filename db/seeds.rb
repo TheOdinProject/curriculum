@@ -607,7 +607,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s3_of_7.id, 
     :is_project => false, 
-    :url => "new_org/ruby/bringing_ruby_online.md"
+    :url => "ruby/bringing_ruby_online.md"
   )
 lesson_counter += 1
 Lesson.create!(   

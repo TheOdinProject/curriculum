@@ -36,6 +36,7 @@ v0.1.0: Bug fixes, Curriculum UI / Navigation improvements, Alpha Signup Flow
 
 Curriculum Redesign:
 * Fix formatting of p's inside li's (less margin)
+* Code inside pre tags shouldn't have borders
 * Put quotes around next button text and links
 * Apply styling to project pages based on a `project` class.
 * GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
