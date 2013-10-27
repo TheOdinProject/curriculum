@@ -7,6 +7,8 @@ Estimated Time: 5-7 hours
 
 You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".
 
+You also learned about tree search algorithms like breadth-first-search and depth-first-search.  You learned that BFS is best used to find the optimum solution but can take a very long time (impractically long for broad and deep data sets) while DFS is often much faster but will give you the FIRST solution, not necessarily the best.  Here you'll get a chance to implement both.
+
 ### Your Task
 
 You'll build a simple binary tree data structure from some arbitrary input and the crawler that will locate data inside of it.
