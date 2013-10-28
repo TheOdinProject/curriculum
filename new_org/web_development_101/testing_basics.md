@@ -17,7 +17,7 @@ Everyone does testing a little differently.  Some teams still rely heavily on a 
 
 Regardless of how exactly it's done, testing is highly important and you'll be required to do it whatever your job is.  Beginning developers are often tasked to write tests and fix bugs to become familiar with a given code base.  Luckily, we'll cover testing more in the Ruby and Rails and Javascript courses later in the curriculum.
 
-## You Should Understand:
+## You Will Need To Understand:
 
 * What exactly does "testing" mean for web applications?
 * Why is testing important?
