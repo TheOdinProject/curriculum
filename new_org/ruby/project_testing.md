@@ -1,19 +1,22 @@
 # Project: Testing Ruby with RSpec
-Estimated Time: 4-6 hours
+*Estimated Time: 6-10 hours*
 
 *Don't forget to use Git to save your projects!*
 
 ## Warmup: Time Traveling
 
-A good way to get familiar with and begin contributing to a new project is to write tests for it.  After the readings for this section, your head may be spinning a bit, so let's go back in time and write tests for some of the code you've already done.  
+A good way to get familiar with and begin contributing to a new project is to write tests for it.  It's also the best way to become familiar with a new codebase, something you'll have to do when you start working.  It's pretty common for test code to ultimately take up twice as many lines of code as the actual project code!
+
+You still may feel shakey on RSpec at this point (which is totally natural), so let's go back in time and write tests for some of the code you've already done to build up a bit of muscle memory.  If you've written a good batch, submit them below and we'll include them as part of the original project description to help future students!
 
 ### Your Task
 
-1. Go back to the [Second Project](basic_ruby_project_2.md) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.  
-2. Write tests for your Tic Tac Toe project.  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  
+1. Go back to the [Building Blocks Project](project_building_blocks.md) and write tests for your "Caesar's Cipher" code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.  Do you remember how to make your tests run using `$ rake`?
+1. Go back to the [Advanced Building Blocks Project](project_advanced_building_blocks.md) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.
+2. Write tests for your [Tic Tac Toe project](project_oop.md).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make the tests determine victory or loss conditions are correctly assessed.
     
-    1. Start by writing tests to make sure a player wins when he or she should, e.g. when the board reads X X X across the top row, your game-over should be triggered.
-    2. Test each of your main methods to make sure they function properly and handle edge cases.  
+    1. Start by writing tests to make sure a player wins when he or she should, e.g. when the board reads X X X across the top row, your `#game-over` method (or its equivalent) should be triggered.
+    2. Test each of your critical methods to make sure they function properly and handle edge cases.  
     3. Try using mocks/doubles to isolate methods and make sure that they're sending you back the right outputs.
 
 
@@ -51,6 +54,6 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 
 
 ## Additional Resources:
-* 
+* [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
 * 
 

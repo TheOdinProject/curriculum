@@ -9,16 +9,33 @@ At the most basic level, RSpec is a "Domain Specific Language" (DSL, meaning it 
 
 We will cover testing in more depth in the Rails course, but you'll want to get a good base built in testing "plain old" Ruby first.  It will also help you with the final project since you might otherwise find yourself endlessly entering data into the command line and using the debugger.
 
+It's difficult to find good resources to teach RSpec for free.  There are some decent paid resources (listed in the "Additional Resources" section below) but the free ones are very dispersed.  The way you'll likely learn it is by knowing you want to do something and then Googling around for how to test it, or going through a tutorial where someone is using it.
+
+## You Will Need To Understand:
+
+* How do you run an RSpec test suite?
+* How do you write a basic RSpec test?
+* What aspects of your methods should you test?
+* What is a stub?
+* What is a mock?
+* What is a double?
+* How are they different?
+* When would you use them?
+
 ## Homework Assignment
 
-1. Go back to the Web Development 101 course and do the RSpec section if you haven't aready.
-2. Read the [Wikipedia Page on Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development).
+1. Go back to the Web Development 101 course and do the [RSpec section](/curriculum/web_development_101/testing_basics.md) if you haven't aready.
 2. Watch [this video walkthrough](http://www.youtube.com/watch?v=JhR9Ib1Ylb8&feature=relmfu) of writing some RSpec tests for a small bit of sample code in the Test-Driven Development (TDD) fashion. 
+3. Read [this blog entry introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse for a slightly more formal grounding in the basics.
 3. Take a glance at the [Relish RSpec official documentation](https://www.relishapp.com/rspec/rspec-core/v/2-4/docs).  It will be a good resource for when you're scratching your head later.
+3. Glance through [Better Specs](http://betterspecs.org), which shows tons of examples of what you should and shouldn't do with RSpec.
+4. (Optional) [This RSpec Tutorial from TutsPlus](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-testing-with-rspec/) will give you another example walkthrough of tests being written.
 
 ## Test Yourself (heh, heh.)
 1. Do the [Code Quiz on RSpec](http://www.codequizzes.com/topics/7/quizzes/22)
 
 ## Additional Resources
-* [Better Specs](http://betterspecs.org) shows tons of examples of what you should and shouldn't do with RSpec.
+* [Peep Code's RSpec Lessons](https://peepcode.com/products/rspec-i) are not free but are a good place to take a step forward into better understanding.
+* [The RSpec Book](http://www.amazon.com/The-RSpec-Book-Behaviour-Development/dp/1934356379) is THE book on RSpec.
 * The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
+* Read the [Wikipedia Page on Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) for context on TDD if you're still feeling unfamiliar.
