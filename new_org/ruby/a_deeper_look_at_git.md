@@ -1,15 +1,15 @@
-# Git
-Total Estimated Time: 3-4 hours
-
-## Intro
+# A Deeper Look At Git
+*Estimated Time: 3-4 hours*
 
 Hopefully you've been using the basic Git commands to create repositories and push your code up to Github.  If not, you've got a bit of catching up to do but don't worry.
  
 In any case, Git is a crucial skill to have whether you're a professional web developer or just a hobbyist who needs to back up the code base.  It's the "save" button on steroids for code and it allows giant teams of developers to collaborate.  There really aren't all that many commands for you to learn, either, but sometimes the real difficulty of it comes from visualizing in your head what it's actually doing.
 
-In this lesson, we'll dive deeper than just the `$ git pull` and `$ git add .` commands you've mostly been using.  Maybe you've had the dubious pleasure of getting a merge conflict when you tried to pull or push changes.  Maybe you're just curious how multiple developers can work on a single code base at the same time.  Either way, this section should help you take the first steps towards expanding your git toolkit and understanding what's actually going on under the hood with git.
+In this lesson, we'll dive deeper than just the `$ git add .` and `$ git commit` and `$ git push` commands you've mostly been using.  Maybe you've had the dubious pleasure of getting a merge conflict when you tried to pull or push changes.  Maybe you're just curious how multiple developers can work on a single code base at the same time.  Either way, this section should help you take the first steps towards expanding your Git toolkit and understanding what's actually going on under the hood with Git.
 
-We'll begin with some things that are probably review from [Web Development 101](/curriculum/web_development_101/git_basics.md) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
+It's important to take a look at this stuff before getting any deeper into things because the project work is becoming more and more complex so using a disciplined Git workflow is no longer optional.  The axiom used to be "save early and often" and now it's "commit early and often".  Hopefully, after you've finished this lesson you will feel much more comfortable with the basics and like you at least know what to Google if you'd like to do more.
+
+We'll begin by reading some things that are probably review from [Web Development 101](/curriculum/web_development_101/git_basics.md) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
 
 ## You Will Need To Understand:
 
