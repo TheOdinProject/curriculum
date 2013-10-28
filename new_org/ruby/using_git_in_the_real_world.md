@@ -1,4 +1,5 @@
-# Finale
+# Using Git in the Real World
+*Estimated Time: 1hr*
 
 Git basics are very simple but it feels like a bottomless pit sometimes when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around looking for it.
 
@@ -12,19 +13,29 @@ Again, it's all designed to keep your workflow modular and the commits independe
 
 The thing about git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new git tactic in the process.  
 
-To help you out, come back and refer to this section again when you're in trouble. The Additional Resources section below should also help you find high quality resources for when you need them.
+To help you out, come back and refer to this lesson again when you're in trouble. The Additional Resources section below should also help you find high quality resources for when you need them.
 
 Git after it!  (Okay, pun fail.)
 
+## You Will Need To Understand
+
+* How often should you commit?
+* How large should your commits be?
+* What should your commit messages say?
+* Can you commit unfinished features?
+* Which workflow should you use? (e.g. Merge? Topic Branches? Git-Flow? Rebase?)  Hint: There's no right answer.
+
+## Your Assignment:
+
+1. Read [Version Control Best Practices](http://www.git-tower.com/learn/version-control-best-practices.html) from Tower.
+1. Skim Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/).  Don't worry too much about the commands you haven't seen yet... just work on the high level concepts.
 
 ## Additional Resources
 
-* Atlassian has a series of [beginner guides with visualizations](https://www.atlassian.com/git/tutorial) for git.
+* [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
+* [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
 * Github's [official training site](http://teach.github.com/)
 * [Understand Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
 * Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 * Need more still?  See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
 * For more info about dealing with merge conflicts, check out [around minute 30 of this video from edX's SAAS course](https://www.youtube.com/watch?v=ieoHg0Vb-xo&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
-* TODO: Git cheatsheet
-* TODO: Creating a git shortcut command
-
