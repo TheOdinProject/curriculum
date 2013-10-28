@@ -44,5 +44,9 @@ Same
 TODO: Link to some exercises
 ### Web Ruby
 TODO: Link to some exercises
+### Testing Ruby
+TODO: Better walkthrough, answering the "what should I test" question all beginners have
+### Git
+TODO: Get a real developer to walk through his flow
 
 

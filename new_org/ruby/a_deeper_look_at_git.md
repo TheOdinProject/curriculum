@@ -1,5 +1,5 @@
 # Git
-Total Estimated Time: 8-12 hours
+Total Estimated Time: 3-4 hours
 
 ## Intro
 
@@ -7,17 +7,38 @@ Hopefully you've been using the basic Git commands to create repositories and pu
  
 In any case, Git is a crucial skill to have whether you're a professional web developer or just a hobbyist who needs to back up the code base.  It's the "save" button on steroids for code and it allows giant teams of developers to collaborate.  There really aren't all that many commands for you to learn, either, but sometimes the real difficulty of it comes from visualizing in your head what it's actually doing.
 
-In this section, we'll dive deeper than just the `$ git pull` and `$ git add .` commands you've been using.  Maybe you've had the dubious pleasure of getting a merge conflict when you tried to pull or push changes.  Maybe you're just curious how multiple developers can work on a single code base at the same time.  Either way, this section should help you take the first steps towards expanding your git toolkit and understanding what's actually going on under the hood with git.
+In this lesson, we'll dive deeper than just the `$ git pull` and `$ git add .` commands you've mostly been using.  Maybe you've had the dubious pleasure of getting a merge conflict when you tried to pull or push changes.  Maybe you're just curious how multiple developers can work on a single code base at the same time.  Either way, this section should help you take the first steps towards expanding your git toolkit and understanding what's actually going on under the hood with git.
+
+We'll begin with some things that are probably review from [Web Development 101](/curriculum/web_development_101/git_basics.md) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
+
+## You Will Need To Understand:
+
+* How do you amend a commit message that you just messed up?
+* How do you view the history of your most recent commits?
+* What are two different uses for `$ git checkout`?
+* How do you undo a recent commit?
+* What are branches?
+* How do you create a new branch to work on? 
+* How do you push that (non-master) branch up to Github?
+* How do you merge the changes from your new branch into the master branch again?
+* Why is working with feature branches useful?
+* What is the difference between using `$ git merge` and `$ git rebase`? (hint: history)
+* What is the difference between a "remote" and your local repo?
+* How do you add your Github repo as the remote?
 
 ## Assignment
 
-1. Watch the following Pro Git videos to get warmed up:
+**Note:** *Subversion* (SVN) was the widely used version control system prior to Git (and is still widely used in larger corporations) and that's why many of the readings below will reference it.  Just read the very top two sections of [this chapter from git-scm](http://git-scm.com/book/en/Git-and-Other-Systems-Git-and-Subversion) if you'd like a slightly better explanation.
 
-    1. [What is Version Control?](http://git-scm.com/video/what-is-version-control)
-    2. [What is Git?](http://git-scm.com/video/what-is-git)
-    3. [Get Going](http://git-scm.com/video/get-going)
+1. If you haven't had the chance to do so, go through the [Web Development 101 Git Basics section](/curriculum/web_development_101/git_basics.md).
+2. If you're still feeling a bit shaky, look at [Git Basics](https://www.atlassian.com/git/tutorial/git-basics) from Atlassian.
+3. Read the section on [Undoing Changes](https://www.atlassian.com/git/tutorial/undoing-changes) from the same site.
+2. Read about [Using Feature Branches](https://www.atlassian.com/git/tutorial/git-branches) and then look at how it fits into a real workflow in [this section](/curriculum/web_development_101/git_basics.md).
+3. Take a look at [Rewriting Git History](https://www.atlassian.com/git/tutorial/rewriting-git-history) to understand how Rebasing works.  There's a lot of debate out there about whether it's best to use a "Merge" or "Rebase" based workflow.  We'll stick with merge because it's a bit more straightforward and the errors can be a bit easy to get over, but you should be aware of rebasing as an alternative type of flow.
+4. Read about working with [Remote Repositories](https://www.atlassian.com/git/tutorial/remote-repositories), which should mostly be familiar to you by now.
+1. Layer onto your knowledge a bit deeper by reading [Pro Git](http://git-scm.com/book) chapters 2 and 3.
 
-1. Read [Pro Git](http://git-scm.com/book) chapters 1-3
-2. Supplement your understanding with the first six videos from [Github's training screencasts](http://teach.github.com/articles/training-screencasts/) (up to and including pull requests)
 
-TODO: How a real developer uses Git (2)
+## Additional Resources
+
+* Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.
