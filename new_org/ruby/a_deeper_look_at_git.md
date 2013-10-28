@@ -36,7 +36,7 @@ We'll begin by reading some things that are probably review from [Web Developmen
 2. Read about [Using Feature Branches](https://www.atlassian.com/git/tutorial/git-branches) and then look at how it fits into a real workflow in [this section](/curriculum/web_development_101/git_basics.md).
 3. Take a look at [Rewriting Git History](https://www.atlassian.com/git/tutorial/rewriting-git-history) to understand how Rebasing works.  There's a lot of debate out there about whether it's best to use a "Merge" or "Rebase" based workflow.  We'll stick with merge because it's a bit more straightforward and the errors can be a bit easy to get over, but you should be aware of rebasing as an alternative type of flow.
 4. Read about working with [Remote Repositories](https://www.atlassian.com/git/tutorial/remote-repositories), which should mostly be familiar to you by now.
-1. Layer onto your knowledge a bit deeper by reading [Pro Git](http://git-scm.com/book) chapters 2 and 3.
+1. Layer onto your knowledge a bit deeper by reading [Pro Git chapters 2 and 3](http://git-scm.com/book).
 
 
 ## Additional Resources
