@@ -113,9 +113,10 @@ This lesson gets more into the topics you may have been shaky on before like *Co
     7. [Blocks, Procs, and Lambdas](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb)
         
 2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
-3. For a look at underserved concepts, check out these posts by Erik Trautman:
+3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
 
     1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
+    2. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
     2. [Ruby Explained: Iteration](http://www.eriktrautman.com/posts/ruby-explained-iteration)
     3. [Ruby Explained: Blocks, Procs, and Lambdas, aka "Closures"](http://www.eriktrautman.com/posts/ruby-explained-blocks-procs-and-lambdas-aka-closures)
     5. [Ruby Explained: Map, Select, and Other Enumerable Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
