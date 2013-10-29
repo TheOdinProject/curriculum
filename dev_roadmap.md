@@ -55,14 +55,14 @@ BUGS:
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements,
 
 Curriculum Redesign:
-* Add :content text column to lessons to store the md files
-* Set up the controller to run from the db instead of hitting github
-* populate using a rake task that runs through all lessons and grabs their content if anything is returned
 * Add this rake-to-update-curriculum feature to the docs
 * Add the new seed-to-populate curriculum workflow to docs as well
 
 
 
+DONE Set up the controller to run from the db instead of hitting github (note: just removed the Lesson.rb method, else it wasn't any change because the method was called `content`!)
+DONE populate using a rake task that runs through all lessons and grabs their content if anything is returned
+DONE Add :content text column to lessons to store the md files
 DONE Initial deploy
 IGNORED deploy backwards compatible with old structure
 DONE Set up routing for /curriculum to redirect to /courses
