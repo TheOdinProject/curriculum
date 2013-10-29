@@ -17,7 +17,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 ## Extra Credit:
 
 1. Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  
-2. If you aren't comfortable with git, either skip ahead a few lessons to the [introductory section on git](/courses/web-development-101/git_basics.md) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
+2. If you aren't comfortable with git, either skip ahead a few lessons to the [introductory section on git](/courses/web-development-101/git-basics.md) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
 
 ## Student Solutions
 
