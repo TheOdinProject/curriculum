@@ -4,7 +4,7 @@ class LessonsController < ApplicationController
     @course = Course.find_by_title_url!(params[:course_name])
     raise ActionController::RoutingError.new('Not Found') unless @course.is_active
     @lessons = @course.lessons.order("position asc")
-    @sections = @course.sections.includes(:lessons)
+    @sections = @course.sections.order("position asc").includes(:lessons)
   end
 
   def show

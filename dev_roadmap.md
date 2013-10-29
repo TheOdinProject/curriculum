@@ -6,10 +6,6 @@ It's game on.
 **************************  DEPLOYMENT NOTES: ***********************
 *********************************************************************
 
-1. Migrations
-2. seeds
-2. DONE Root URL for courses
-3. 
 
 *********************************************************************
 ****************************  OTHER NOTES: **************************
@@ -21,8 +17,27 @@ It's game on.
 *********************************************************************
 
 0.1.0: Curriculum navigation redesign
-* Improve the visual heirarchy
 0.1.1:  Alpha Signup Flow
+* Make home page more signup-oriented
+* Add Alpha signup code field to signup form
+* Create nice looking signup confirmation email w/ bcc
+* Set up welcome page for students post-signup... or just have a query string.
+* Link GA goal to that page.
+
+Bugs and Miscellanea
+* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
+* Paginate students
+* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
+* Make more obvious that you can select multiple projects on prefs
+* Make more obvious the loading icon when waiting for scheduler data
+* KILL BOOTSTRAP!?!
+* Update failing tests
+* Write basic tests for curriculum section
+
+BUGS:
+* TESTS: Why do some tests only fail intermittantly???
+* Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
+
 0.1.?: Feedback mechanism
 0.1.?: Progress tracking
 * Signup current/next design
@@ -40,10 +55,10 @@ v0.1.0: Bug fixes, Curriculum UI / Navigation improvements,
 
 Curriculum Redesign:
 * GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
-* deploy backwards compatible with old structure
-* ??? Change /curriculum index to redirect to courses index
-* Design: Cool down and flatten out
 
+
+DONE Initial deploy
+IGNORED deploy backwards compatible with old structure
 DONE Set up routing for /curriculum to redirect to /courses
 DONE Make sure all external links open in a new tab
 DONE Apply styling to project pages based on a `project` class.
@@ -72,34 +87,10 @@ DONE Routing: /courses/:course_name/lessons/:lesson_name
 DONE Populate sample data
 DONE Set up new curriculum data models
 DONE Set up associations
-
-Alpha Signup Flow:
-* Make home page more signup-oriented
-* Add Alpha signup code field to signup form
-* Create nice looking signup confirmation email w/ bcc
-* Set up welcome page for students post-signup... or just have a query string.
-* Link GA goal to that page.
-
-Bugs and Miscellanea
-* Make links in curriculum point externally
-* Remove annoying in-content CTAs to contribute.
-* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
-* Paginate students
-* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
-* Fix code inside `pre` blocks to not display formatted
-* Make more obvious that you can select multiple projects on prefs
-* Make more obvious the loading icon when waiting for scheduler data
-* KILL BOOTSTRAP!?!
-* Update failing tests
-* Write basic tests for curriculum section
 DONE Add Alpha tag to front page
 DONE Remove "private" from alpha release warning
 
 
-BUGS:
-* TESTS: Why do some tests only fail intermittantly???
-* Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
-* 
 
 
 
