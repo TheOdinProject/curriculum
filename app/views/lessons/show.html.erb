@@ -12,7 +12,7 @@
     <%= @lesson.title %>
   </div>
 </div>
-<div class="individual-lesson">
+<div class="individual-lesson <%= @lesson.is_project ? 'project-lesson' : ''%>">
   <div class="container">
     <%= @content %>
 
