@@ -6,6 +6,7 @@ It's game on.
 **************************  DEPLOYMENT NOTES: ***********************
 *********************************************************************
 
+MIGRATION for content
 
 *********************************************************************
 ****************************  OTHER NOTES: **************************
@@ -54,7 +55,12 @@ BUGS:
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements,
 
 Curriculum Redesign:
-* GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
+* Add :content text column to lessons to store the md files
+* Set up the controller to run from the db instead of hitting github
+* populate using a rake task that runs through all lessons and grabs their content if anything is returned
+* Add this rake-to-update-curriculum feature to the docs
+* Add the new seed-to-populate curriculum workflow to docs as well
+
 
 
 DONE Initial deploy
