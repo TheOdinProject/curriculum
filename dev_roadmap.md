@@ -35,7 +35,6 @@ It's game on.
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements, Alpha Signup Flow
 
 Curriculum Redesign:
-* Put quotes around next button text and links
 * Apply styling to project pages based on a `project` class.
 * Add extra congrats for completing a section
 * Make sure all external links open in a new tab
@@ -44,6 +43,7 @@ Curriculum Redesign:
 * ??? Change /curriculum index to redirect to courses index
 * Design: Cool down and flatten out
 
+DONE Put quotes around next button text and links
 DONE Fix formatting of p's inside li's (less margin)
 DONE Code inside pre tags shouldn't have borders
 DONE Fix bug with next / prev courses

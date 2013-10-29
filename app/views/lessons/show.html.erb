@@ -30,7 +30,7 @@
           <%= link_to lesson_path(@course.title_url, @next_lesson.title_url) do %>
             <% if @next_lesson.is_project %>
               <button class="project-button">
-                <%= "Go to the #{@next_lesson.title} Project".html_safe %>
+                <%= "Go to the \"#{@next_lesson.title}\" Project".html_safe %>
               </button>
             <% else %>
               <button>
@@ -54,7 +54,7 @@
 
       <% if @prev_lesson %>
         <div class="nav-link">
-          <%= link_to "Previous lesson: #{@prev_lesson.title}", lesson_path(@course.title_url, @prev_lesson.title_url) %>
+          <%= link_to "Previous lesson: \"#{@prev_lesson.title}\"", lesson_path(@course.title_url, @prev_lesson.title_url) %>
         </div>
       <% end %>
       <div class="nav-link">
