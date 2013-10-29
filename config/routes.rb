@@ -16,7 +16,7 @@ Theodinproject::Application.routes.draw do
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
 
-  get 'curriculum(/*dir(.:format))' => 'curriculum#index', :as => "curriculum"
+  get 'curriculum(/*dir(.:format))' => 'courses#index', :as => "curriculum"
 
   get 'courses' => 'courses#index'
   get 'courses/:course_name' => redirect('/courses/%{course_name}/lessons'), :as => "course"

@@ -1,5 +1,5 @@
 class Lesson < ActiveRecord::Base
-  CURRICULUM_ROOT = "new_org/"
+  CURRICULUM_ROOT = "/"
 
   attr_accessible :course_id, :description, :is_project, :position, :section_id, :title, :url, :title_url
 
