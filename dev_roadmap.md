@@ -35,14 +35,17 @@ It's game on.
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements, Alpha Signup Flow
 
 Curriculum Redesign:
-* Fix formatting of p's inside li's (less margin)
-* Code inside pre tags shouldn't have borders
 * Put quotes around next button text and links
 * Apply styling to project pages based on a `project` class.
+* Add extra congrats for completing a section
+* Make sure all external links open in a new tab
 * GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
 * Design: Cool down and flatten out
+
+DONE Fix formatting of p's inside li's (less margin)
+DONE Code inside pre tags shouldn't have borders
 DONE Fix bug with next / prev courses
 SORTA Revisit and tighten up copy and message (a journey!)
 SORTA Revisit the UX flows and overall design consistency -- Fonts!
