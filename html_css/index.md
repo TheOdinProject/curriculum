@@ -6,6 +6,7 @@
 * [Codecademy's HTML/CSS track](http://www.codecademy.com/tracks/web)
 * [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
 * [Treehouse's HTLM/CSS learning adventure (PAID)](http://teamtreehouse.com/learning-adventures/learn-html-and-css)
+* [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
 
 ### Tutorials
 
