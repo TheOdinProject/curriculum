@@ -27,7 +27,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 
@@ -66,7 +66,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 

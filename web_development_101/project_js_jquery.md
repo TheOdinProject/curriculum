@@ -36,7 +36,7 @@ This should not be trivially easy for you.  You'll probably have to Google often
 
 ## Student Solutions
 
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](/curriculum/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * See RebootJeff's solution here: [source code](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
 * See Max Pleaner's solution here: [source code](https://github.com/macsplean/odin2_boxmaker/blob/master/index.html) or [view it in browser](http://htmlpreview.github.io/?https://github.com/macsplean/odin2_boxmaker/blob/master/index.html)

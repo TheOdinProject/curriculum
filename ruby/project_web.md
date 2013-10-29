@@ -1,3 +1,4 @@
+
 # Projects: Ruby on the Web
 *Estimated Time: 6-10 hours*
 
@@ -22,7 +23,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 ## Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 
@@ -150,7 +151,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 
 ## Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
 * *Your Solution Here!*

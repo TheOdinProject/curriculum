@@ -15,7 +15,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 
@@ -43,7 +43,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](/curriculum/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
 
