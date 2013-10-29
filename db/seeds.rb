@@ -38,7 +38,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
-    :url => "introduction_to_web_development/what_does_a_web_dev_do.md"
+    :url => "/introduction_to_web_development/what_does_a_web_dev_do.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -48,7 +48,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
-    :url => "introduction_to_web_development/web_dev_jobs.md"
+    :url => "/introduction_to_web_development/web_dev_jobs.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -58,7 +58,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
-    :url => "introduction_to_web_development/tools_of_the_trade.md"
+    :url => "/introduction_to_web_development/tools_of_the_trade.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -68,7 +68,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
-    :url => "introduction_to_web_development/web_dev_communities.md"
+    :url => "/introduction_to_web_development/web_dev_communities.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -78,7 +78,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
-    :url => "introduction_to_web_development/the_best_web_devs.md"
+    :url => "/introduction_to_web_development/the_best_web_devs.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -88,7 +88,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
-    :url => "introduction_to_web_development/getting_hired_as_a_web_dev.md"
+    :url => "/introduction_to_web_development/getting_hired_as_a_web_dev.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -98,7 +98,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c1_s1_of_1.id, 
     :is_project => false, 
-    :url => "introduction_to_web_development/conclusion.md"
+    :url => "/introduction_to_web_development/conclusion.md"
   )
 
 
@@ -169,7 +169,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s1_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/how_this_course_will_work.md"
+    :url => "/web_development_101/how_this_course_will_work.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -179,7 +179,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s1_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/how_does_the_web_work.md"
+    :url => "/web_development_101/how_does_the_web_work.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -189,7 +189,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s1_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/how_does_your_computer_work.md"
+    :url => "/web_development_101/how_does_your_computer_work.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -199,7 +199,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s1_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/terms_to_know.md"
+    :url => "/web_development_101/terms_to_know.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -209,7 +209,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s1_of_6.id, 
     :is_project => true, 
-    :url => "web_development_101/project_installations.md"
+    :url => "/web_development_101/project_installations.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -219,7 +219,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s2_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/introduction_to_the_front_end.md"
+    :url => "/web_development_101/introduction_to_the_front_end.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -229,7 +229,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s2_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/html_css_basics.md"
+    :url => "/web_development_101/html_css_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -239,7 +239,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s2_of_6.id, 
     :is_project => true, 
-    :url => "web_development_101/project_html_css.md"
+    :url => "/web_development_101/project_html_css.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -249,7 +249,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s2_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/javascript_basics.md"
+    :url => "/web_development_101/javascript_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -259,7 +259,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s2_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/jquery_basics.md"
+    :url => "/web_development_101/jquery_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -269,7 +269,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s2_of_6.id, 
     :is_project => true, 
-    :url => "web_development_101/project_js_jquery.md"
+    :url => "/web_development_101/project_js_jquery.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -279,7 +279,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s3_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/introduction_to_the_back_end.md"
+    :url => "/web_development_101/introduction_to_the_back_end.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -289,7 +289,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s3_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/ruby_basics.md"
+    :url => "/web_development_101/ruby_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -299,7 +299,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s3_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/testing_basics.md"
+    :url => "/web_development_101/testing_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -309,7 +309,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s3_of_6.id, 
     :is_project => true, 
-    :url => "web_development_101/project_ruby.md"
+    :url => "/web_development_101/project_ruby.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -319,7 +319,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s3_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/database_basics.md"
+    :url => "/web_development_101/database_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -329,7 +329,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s4_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/introduction_to_frameworks.md"
+    :url => "/web_development_101/introduction_to_frameworks.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -339,7 +339,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s4_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/rails_basics.md"
+    :url => "/web_development_101/rails_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -349,7 +349,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s4_of_6.id, 
     :is_project => true, 
-    :url => "web_development_101/project_rails.md"
+    :url => "/web_development_101/project_rails.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -359,7 +359,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s4_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/backbone_basics.md"
+    :url => "/web_development_101/backbone_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -369,7 +369,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s5_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/git_basics.md"
+    :url => "/web_development_101/git_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -379,7 +379,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s5_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/the_cloud_hosting_and_saas.md"
+    :url => "/web_development_101/the_cloud_hosting_and_saas.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -389,7 +389,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s5_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/security_ssl_and_best_practices.md"
+    :url => "/web_development_101/security_ssl_and_best_practices.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -399,7 +399,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s5_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/ftp_basics.md"
+    :url => "/web_development_101/ftp_basics.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -409,7 +409,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s6_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/how_are_websites_built.md"
+    :url => "/web_development_101/how_are_websites_built.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -419,7 +419,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s6_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/principles_of_good_programming.md"
+    :url => "/web_development_101/principles_of_good_programming.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -429,7 +429,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c2_s6_of_6.id, 
     :is_project => false, 
-    :url => "web_development_101/conclusion.md"
+    :url => "/web_development_101/conclusion.md"
   )
 
 # ************************************************
@@ -517,7 +517,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s1_of_7.id, 
     :is_project => false, 
-    :url => "ruby/how_this_course_will_work.md"
+    :url => "/ruby/how_this_course_will_work.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -527,7 +527,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s1_of_7.id, 
     :is_project => false, 
-    :url => "ruby/building_blocks.md"
+    :url => "/ruby/building_blocks.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -537,7 +537,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s1_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_building_blocks.md"
+    :url => "/ruby/project_building_blocks.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -547,7 +547,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s1_of_7.id, 
     :is_project => false, 
-    :url => "ruby/advanced_building_blocks.md"
+    :url => "/ruby/advanced_building_blocks.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -557,7 +557,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s1_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_advanced_building_blocks.md"
+    :url => "/ruby/project_advanced_building_blocks.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -567,7 +567,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s2_of_7.id, 
     :is_project => false, 
-    :url => "ruby/oop.md"
+    :url => "/ruby/oop.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -577,7 +577,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s2_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_oop.md"
+    :url => "/ruby/project_oop.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -587,7 +587,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s2_of_7.id, 
     :is_project => false, 
-    :url => "ruby/serialization.md"
+    :url => "/ruby/serialization.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -597,7 +597,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s2_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_file_io.md"
+    :url => "/ruby/project_file_io.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -607,7 +607,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s3_of_7.id, 
     :is_project => false, 
-    :url => "ruby/bringing_ruby_online.md"
+    :url => "/ruby/bringing_ruby_online.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -617,7 +617,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s3_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_web.md"
+    :url => "/ruby/project_web.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -627,7 +627,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s4_of_7.id, 
     :is_project => false, 
-    :url => "ruby/a_very_brief_intro_to_cs.md"
+    :url => "/ruby/a_very_brief_intro_to_cs.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -637,7 +637,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s4_of_7.id, 
     :is_project => false, 
-    :url => "ruby/recursion.md"
+    :url => "/ruby/recursion.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -647,7 +647,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s4_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_recursion.md"
+    :url => "/ruby/project_recursion.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -657,7 +657,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s4_of_7.id, 
     :is_project => false, 
-    :url => "ruby/data_structures_algorithms.md"
+    :url => "/ruby/data_structures_algorithms.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -667,7 +667,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s4_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_data_structures_algorithms.md"
+    :url => "/ruby/project_data_structures_algorithms.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -677,7 +677,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s5_of_7.id, 
     :is_project => false, 
-    :url => "ruby/introduction_to_rspec.md"
+    :url => "/ruby/introduction_to_rspec.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -687,7 +687,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s5_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_testing.md"
+    :url => "/ruby/project_testing.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -697,7 +697,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s6_of_7.id, 
     :is_project => false, 
-    :url => "ruby/a_deeper_look_at_git.md"
+    :url => "/ruby/a_deeper_look_at_git.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -707,7 +707,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s6_of_7.id, 
     :is_project => false, 
-    :url => "ruby/using_git_in_the_real_world.md"
+    :url => "/ruby/using_git_in_the_real_world.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -717,7 +717,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s7_of_7.id, 
     :is_project => true, 
-    :url => "ruby/project_final.md"
+    :url => "/ruby/project_final.md"
   )
 lesson_counter += 1
 Lesson.create!(   
@@ -727,7 +727,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c3_s7_of_7.id, 
     :is_project => false, 
-    :url => "ruby/conclusion.md"
+    :url => "/ruby/conclusion.md"
   )
 
 # ************************************************
@@ -802,7 +802,7 @@ c5 = Course.create!(
 #     :position => lesson_counter, 
 #     :section_id => c3_s1_of_7.id, 
 #     :is_project => false, 
-#     :url => ""
+#     :url => "/"
 #   )
 # c2_s1_of_6 = Section.create!(
 #     :title => "", 
@@ -890,78 +890,78 @@ c5 = Course.create!(
 #     { :title => "How the Web Works",
 #       :is_project => false,
 #       :section_id_adder => 0,
-#       :url => "web_development_basics/how_does_the_web_work.md",
+#       :url => "/web_development_basics/how_does_the_web_work.md",
 #     },
 #     {
 #       :title => "How Your Computer Works",
 #       :is_project => false,
 #       :section_id_adder => 0,
-#       :url => "web_development_basics/how_does_your_computer_work.md"
+#       :url => "/web_development_basics/how_does_your_computer_work.md"
 #     },
 #     {
 #       :title => "Terms to Know",
 #       :is_project => false,
 #       :section_id_adder => 0,
-#       :url => "web_development_basics/terms_to_know.md"
+#       :url => "/web_development_basics/terms_to_know.md"
 #     },
 #     {
 #       :title => "Introduction to the Front End",
 #       :is_project => false,
 #       :section_id_adder => 1,
-#       :url => "web_development_basics/web_programming_basics/front_end_basics/index.md"
+#       :url => "/web_development_basics/web_programming_basics/front_end_basics/index.md"
 #     },
 #     {
 #       :title => "HTML and CSS Basics",
 #       :is_project => false,
 #       :section_id_adder => 1,
-#       :url => "web_development_basics/web_programming_basics/front_end_basics/html_css_basics.md"
+#       :url => "/web_development_basics/web_programming_basics/front_end_basics/html_css_basics.md"
 #     },
 #     {
 #       :title => "HTML/CSS",
 #       :is_project => true,
 #       :section_id_adder => 1,
-#       :url => "web_development_basics/web_programming_basics/front_end_basics/project_html_css.md"
+#       :url => "/web_development_basics/web_programming_basics/front_end_basics/project_html_css.md"
 #     },
 #     {
 #       :title => "Javascript Basics",
 #       :is_project => false,
 #       :section_id_adder => 1,
-#       :url => "web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
+#       :url => "/web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
 #     },
 #     {
 #       :title => "jQuery Basics",
 #       :is_project => false,
 #       :section_id_adder => 1,
-#       :url => "web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
+#       :url => "/web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
 #     },
 #     { 
 #       :title => "Javascript and jQuery",
 #       :is_project => true,
 #       :section_id_adder => 1,
-#       :url => "web_development_basics/web_programming_basics/front_end_basics/project_js_jquery.md"
+#       :url => "/web_development_basics/web_programming_basics/front_end_basics/project_js_jquery.md"
 #     },
 #     {
 #       :title => "Ruby Basics",
 #       :is_project => false,
 #       :section_id_adder => 2,
-#       :url => "web_development_basics/web_programming_basics/back_end_basics/ruby_basics.md"
+#       :url => "/web_development_basics/web_programming_basics/back_end_basics/ruby_basics.md"
 #     },
 #     {
 #       :title => "Ruby",
 #       :is_project => true,
 #       :section_id_adder => 2,
-#       :url => "web_development_basics/web_programming_basics/back_end_basics/project_ruby.md"
+#       :url => "/web_development_basics/web_programming_basics/back_end_basics/project_ruby.md"
 #     },
 #     {
 #       :title => "Database Basics",
 #       :is_project => false,
 #       :section_id_adder => 2,
-#       :url => "web_development_basics/web_programming_basics/database_basics.md"
+#       :url => "/web_development_basics/web_programming_basics/database_basics.md"
 #     },
 #     { :title => "Finale",
 #       :is_project => false,
 #       :section_id_adder => 3,
-#       :url => "web_development_basics/finish.md"
+#       :url => "/web_development_basics/finish.md"
 #     },
 #   ]
 

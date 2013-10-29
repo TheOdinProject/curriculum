@@ -1,5 +1,4 @@
 class Lesson < ActiveRecord::Base
-  CURRICULUM_ROOT = "/"
 
   attr_accessible :course_id, :description, :is_project, :position, :section_id, :title, :url, :title_url
 
@@ -27,7 +26,7 @@ class Lesson < ActiveRecord::Base
   def content
     github = Github::Repos.new :user => "theodinproject", :repo => "curriculum", :oauth_token => "#{ENV['GITHUB_API_TOKEN']}"
     begin
-      response = github.contents.get :path => CURRICULUM_ROOT + self.url
+      response = github.contents.get :path => self.url
       # Decode the gibberish into a real file and render to html
       decoded_file = Base64.decode64(response["content"])
     # serve all errors as 404: Not Found
