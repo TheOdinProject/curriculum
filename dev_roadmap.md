@@ -35,13 +35,13 @@ It's game on.
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements, Alpha Signup Flow
 
 Curriculum Redesign:
-* Add extra congrats for completing a section
-* Make sure all external links open in a new tab
+* Set up routing for /curriculum to redirect to /courses
 * GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
 * deploy backwards compatible with old structure
 * ??? Change /curriculum index to redirect to courses index
 * Design: Cool down and flatten out
 
+DONE Make sure all external links open in a new tab
 DONE Apply styling to project pages based on a `project` class.
 DONE Put quotes around next button text and links
 DONE Fix formatting of p's inside li's (less margin)
