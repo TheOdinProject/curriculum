@@ -33,10 +33,10 @@ It's game on.
 
 **v0.1.1:  Alpha Signup Flow**
 
-* Fix "How do we Pair link on Scheduler Page"
 * Make home page more signup-oriented
 * Add Alpha signup code field to signup form
 * Create nice looking signup confirmation email w/ bcc
+* Add About and Why Odin pages
 * Set up welcome page for students post-signup... or just have a query string.
 * Link GA goal to that page.
 
@@ -55,6 +55,7 @@ BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DONE Fix "How do we Pair link on Scheduler Page"
 
 
 
