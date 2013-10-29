@@ -7,7 +7,7 @@ We'll get more into the specifics of data structures later in the curriculum, bu
 Some problems, like traversing a tree looking for a certain element, are relatively common in data intensive applications and have been solved many times in the past.  Understanding how they are solved will give you some great tools to apply to other (similar) problems as well.  Algorithms are really just ways of solving problems (like this) systematically.  You'll learn about some of the common algorithms like breadth-first-search and depth-first-search.
 
 
-## Homework Assignment
+## Your Assignment
 
 1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
 2. Learn about Queues and Stacks by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI)

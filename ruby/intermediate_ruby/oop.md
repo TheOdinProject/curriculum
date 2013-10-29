@@ -6,7 +6,7 @@ The concepts you'll learn here are often less specific to Ruby itself and more w
 
 There's a lot to do here but stick with it!  The Codecademy lessons are interspersed with their projects.  The Beginning Ruby book will help you understand the material a bit deeper, which will be important when you are creating your own projects.
 
-## Homework Assignment
+## Your Assignment
 
 1. Do [Codecademy Ruby sections 7, 9, and 10](http://www.codecademy.com/tracks/ruby):
   

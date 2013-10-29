@@ -8,7 +8,7 @@ At the most basic level, RSpec is a "Domain Specific Language" (DSL, meaning it 
 
 We will cover testing in more depth in the section on Rails, but you'll want to get a good base built in testing "plain old" Ruby first.  It will also help you with the final project since you might otherwise find yourself endlessly entering data into the command line and using the debugger.
 
-## Homework Assignment
+## Your Assignment
 
 1. Go back to the Web Development 101 section and do the RSpec section if you haven't aready.
 2. Read the [Wikipedia Page on Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development).

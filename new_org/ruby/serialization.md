@@ -20,7 +20,7 @@ Finally, files and serialization overlaps in a lot of ways with the idea and pur
 * How do you turn a Ruby object into JSON?
 * How do you turn JSON into a Ruby object?
 
-## Homework Assignment
+## Your Assignment
 
 1. Refresh yourself on [Ruby Monk's section on the `File` class](http://rubymonk.com/learning/books/1/chapters/42-introduction-to-i-o/lessons/90-using-the-io-class) (this may be review for you)
 2. Read through [Ruby Monk's section on Serializing](http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)

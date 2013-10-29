@@ -3,7 +3,7 @@
 
 This section gets more into the topics you may have been shakey on before.  It's definitely got some more meat to it than the previous one.  The projects below are good for doing on your own because Codecademy gives you all kinds of help with them.  
 
-## Homework Assignment
+## Your Assignment
 
 1. Do the [Codecademy Ruby sections 2-6](http://www.codecademy.com/tracks/ruby), including:
 

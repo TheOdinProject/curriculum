@@ -10,7 +10,7 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 In this section, you'll get a good handle on these fundamental but important concepts, as well as a chance to flex your muscles and build something that uses each of them.
 
-## Homework Assignment
+## Your Assignment
 
 1. Refresh yourself on [Ruby Monk's section on the `File` class](http://rubymonk.com/learning/books/1/chapters/42-introduction-to-i-o/lessons/90-using-the-io-class) (it was part of the prep work!)
 2. Read through [Ruby Monk's section on Serializing](http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)

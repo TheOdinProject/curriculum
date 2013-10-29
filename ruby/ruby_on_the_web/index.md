@@ -10,7 +10,7 @@ We're learning this stuff for two reasons.  First, it's important to understand 
 
 This section won't be nearly as long as the previous one, and should have you building stuff pretty early on.  Actually, the project section is really where you'll be spending all your time.  Let the spamming begin.
 
-## Homework Assignment
+## Your Assignment
 
 1. Go into your terminal and type `$ curl http://www.google.com` and observe the massive chunk of text that gets returned.  That's Google's homepage and should give you an idea of some of the responses you can get from these types of requests.
 1. Read [Beginning Ruby](http://beginningruby.org/) Chapter 14, pages 413-432 for a look at taking on the Internet with Ruby.  It dives into the guts of things pretty quickly, so breathe deep and forge on...

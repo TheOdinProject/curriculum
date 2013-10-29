@@ -20,7 +20,7 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 * What is a "stack overflow" (the concept, not the website)?
 * Why is that relevent to a recursive problem?
 
-## Homework Assignment
+## Your Assignment
 
 1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen
 2. Watch this [Video on Recursion](http://vimeo.com/24716767) by Joshua Cheek but only until minute 17:45!  (don't want to give away the project...)

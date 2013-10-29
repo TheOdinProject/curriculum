@@ -25,7 +25,7 @@ Luckily for you, these problems have all been solved many times in the past.  Un
 * What situations would you want to use DFS instead?
 * When would BFS be impractical?
 
-## Homework Assignment
+## Your Assignment
 
 1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
 2. Learn about Queues and Stacks by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI)

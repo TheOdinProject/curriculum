@@ -7,7 +7,7 @@ Welcome to Ruby Basics!  Since you've already done a decent chunk of Ruby in the
 
 Get stretched out and warmed up, it's time to dive in!
 
-## Homework Assignment
+## Your Assignment
 
 1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 section to start with.
 2. Do the full [Codecademy Introduction to Ruby](http://www.codecademy.com/tracks/ruby) section if you haven't already.
