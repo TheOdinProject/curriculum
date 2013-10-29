@@ -6,7 +6,7 @@ It's game on.
 **************************  DEPLOYMENT NOTES: ***********************
 *********************************************************************
 
-MIGRATION for content
+< none >
 
 *********************************************************************
 ****************************  OTHER NOTES: **************************
@@ -17,8 +17,23 @@ MIGRATION for content
 **************************  Major Roadmap  **************************
 *********************************************************************
 
-0.1.0: Curriculum navigation redesign
-0.1.1:  Alpha Signup Flow
+(current dev version) 0.1.1:  Alpha Signup Flow
+0.1.?: Feedback mechanism
+0.1.?: Progress tracking
+* Signup current/next design
+0.1.?: Realtime broadcast and collaboration prompting
+* Allow flash messages to go out to all users on the curriculum
+* Allow users to see when other users are at the same section and have the collaborate / chat popup occur
+* Allow users to see when other users are nearby to them for the same functionality
+* Allow users to see when other users have scheduled availability for a project ahead of time (e.g. I'm on Ruby Project 1 and get a notification that User 2 will be available to work on it together on Thursday)
+
+*********************************************************************
+**********************  Current Dev Version TODOs *******************
+*********************************************************************
+
+**v0.1.1:  Alpha Signup Flow**
+
+* Fix "How do we Pair link on Scheduler Page"
 * Make home page more signup-oriented
 * Add Alpha signup code field to signup form
 * Create nice looking signup confirmation email w/ bcc
@@ -39,27 +54,42 @@ BUGS:
 * TESTS: Why do some tests only fail intermittantly???
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
-0.1.?: Feedback mechanism
-0.1.?: Progress tracking
-* Signup current/next design
-0.1.?: Realtime broadcast and collaboration prompting
-* Allow flash messages to go out to all users on the curriculum
-* Allow users to see when other users are at the same section and have the collaborate / chat popup occur
-* Allow users to see when other users are nearby to them for the same functionality
-* Allow users to see when other users have scheduled availability for a project ahead of time (e.g. I'm on Ruby Project 1 and get a notification that User 2 will be available to work on it together on Thursday)
+
+
+
 
 *********************************************************************
-**********************  Current Dev Version TODOs *******************
+**********************  General Sandbox  ****************************
 *********************************************************************
 
+>> WRITE JAVASCRIPT TESTS
+>>>> calendar basic display, calendar population, event creation
+
+> USERS
+>> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
+
+
+---- Issues and Gotchas ----
+>> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
+>> Currently allows you to write overlapping calendar events
+
+---- Future stuff ----
+
+
+http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
+https://gist.github.com/zhengjia/428105
+
+
+********************************************************************
+***********************  Version Archive  **************************
+********************************************************************
+
+************
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements,
 
 Curriculum Redesign:
-* Add this rake-to-update-curriculum feature to the docs
-* Add the new seed-to-populate curriculum workflow to docs as well
-
-
-
+DONE Add this rake-to-update-curriculum feature to the docs
+DONE Add the new seed-to-populate curriculum workflow to docs as well
 DONE Set up the controller to run from the db instead of hitting github (note: just removed the Lesson.rb method, else it wasn't any change because the method was called `content`!)
 DONE populate using a rake task that runs through all lessons and grabs their content if anything is returned
 DONE Add :content text column to lessons to store the md files
@@ -97,34 +127,6 @@ DONE Add Alpha tag to front page
 DONE Remove "private" from alpha release warning
 
 
-
-
-
-*********************************************************************
-**********************  General Sandbox  ****************************
-*********************************************************************
-
->> WRITE JAVASCRIPT TESTS
->>>> calendar basic display, calendar population, event creation
-
-> USERS
->> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
-
-
----- Issues and Gotchas ----
->> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
->> Currently allows you to write overlapping calendar events
-
----- Future stuff ----
-
-
-http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
-https://gist.github.com/zhengjia/428105
-
-
-********************************************************************
-***********************  Version Archive  **************************
-********************************************************************
 
 ************
 v0.0.7: Curriculum inclusion, Bug fixes, tweaks, and Open Source contribution tools
