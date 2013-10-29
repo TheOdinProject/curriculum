@@ -1,5 +1,5 @@
 # [The Odin Project](http://theodinproject.com)
-*[http://theodinproject.com/](http://theodinproject.com)* [version 0.0.7]
+*[http://theodinproject.com/](http://theodinproject.com)* [version 0.1.0]
 
 ### The Open Curriculum for Learning Web Development
 
@@ -16,8 +16,9 @@ Contact us directly at [project@theodinproject.com](mailto:project@theodinprojec
 
 ## Future Development
 
-The file [dev_roadmap.md](dev_roadmap.md) will be more specific but there are some overall goals for the short term development of this project:
+The file [dev_roadmap.md](dev_roadmap.md) will be more specific (it's the working document) but there are some overall goals for the short term development of this project:
 
+* Improve the overall user experience while using the curriculum
 * Start rolling out realtime collaboration features and progress tracking for students who are using the curriculum.
 * Improve test coverage, particularly for the curriculum and the scheduling tool (which is all javascript).
 * Improve the documentation of the existing code base so people can more easily navigate through it.  This means in-line commenting and also creating a higher level github wiki page that explains how the project works and the best ways to navigate it.
@@ -30,8 +31,9 @@ If you'd like to help out (even as a relative newbie), please [get in touch](mai
 1. Download the repo to your local machine by doing a `git clone git@github.com:TheOdinProject/theodinproject.git`
 2. Run a `$ bundle install` of all the gems
 1. Note: Both local and production databases are [Postgres](http://www.postgresql.org/docs/), so if you're used to just using Rails' default SQLite database you'll need to get Postgres fired up on your local machine.  You can probably get away with just typing `$ rake db:create` but may need to download a client for it and create a `theodinproject` database that the application can connect to.  The major difference is that Postgres operates almost like a server.  Ryan Bates has a [RailsCast](http://railscasts.com/episodes/342-migrating-to-postgresql) episode about migrating to Postgres that may be helpful if you're a newbie.  If you're deployed on Heroku (which we are), you need to use PG anyway.
-2. Once you've got postgres installed and have created the empty database, run a `$ rake db:migrate` to run all the migrations that will set up the schema properly.  I haven't yet created any seed data you can prepopulate the database with (like users).  Make a pull request if you've put together a useful `db/seeds.rb` file!
-3. The Moot forums and Github API calls rely on private environment variables that you won't find in the repo. I upload them directly to the server myself using the `figaro` gem and a corresponding file called `application.yml` that's located in the `config/` directory but not checked into git (no, you can't have my passwords).  Check out the [Figaro Documentation](https://github.com/laserlemon/figaro) for a very easy-to-understand explanation of how the gem works.  You basically just need to run `$ rails generate figaro:install` and populate the missing variables to `application.yml`.  An example, as of this writing:
+2. Once you've got postgres installed and have created the empty database, run a `$ rake db:migrate` to run all the migrations that will set up the schema properly.  The `db/seeds.rb` file is used to populate all the course and lesson meta-data.  It is identical to the data you'll see presented on the production site (this is used to populate it).  You can run it as many times as you'd like... it basically deletes all metadata and repopulates it with each run.  The seeds file only creates curriculum data, it doesn't create any users. 
+3. One thing the seeds file will not populate is the content for each lesson.  This needs to be retrieved from the curriculum repository on github by running the rake task (`$ rake curriculum:update_content`).  But there's a catch... it uses my Github Api key from the below-mentioned Figaro gem in order to avoid rate limits (Github only allows you something like 50 API calls per hour if you haven't registered for an API key with them and used it to authenticate your requests).  As of this writing, there are 56 lessons so you would be rate limited before even finishing populating them with the rake task if you don't get an API key yourself.
+3. The Moot forums and Github API calls rely on private environment variables (to store their API secret keys) that you won't find in the repo. I upload them directly to the server myself using the `figaro` gem and a corresponding file called `application.yml` that's located in my `config/` directory but not checked into git (no, you can't have my passwords).  Check out the [Figaro Documentation](https://github.com/laserlemon/figaro) for a very easy-to-understand explanation of how the gem works.  You basically just need to run `$ rails generate figaro:install` and populate the missing variables to `application.yml`.  An example, as of this writing:
 
         # config/application.yml
         moot_api_key: UjI8SKQv6J
@@ -45,7 +47,7 @@ You can create your own "personal access token" [HERE](https://github.com/settin
 
 *I haven't had to clone and start from scratch yet so please let me know what I've missed here!*
 
-## Features
+## Nifty Features
 
 The scheduling tool allows users to sign up and show when they're available to pair up on projects.  
 
