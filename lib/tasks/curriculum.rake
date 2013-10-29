@@ -7,9 +7,11 @@ namespace :curriculum do
     puts "Creating Github link..."
     github = Github::Repos.new :user => "theodinproject", :repo => "curriculum", :oauth_token => "#{ENV['GITHUB_API_TOKEN']}"
 
-    puts "Cycling through lessons...\n\n\n"
-    Lesson.all.each do |lesson|
-      puts "Lesson: #{lesson.title}"
+    lessons = Lesson.all
+    count = lessons.count
+    puts "Cycling through #{count} lessons...\n\n\n"
+    lessons.each_with_index do |lesson,i|
+      puts "Lesson #{i+1}/#{count}: #{lesson.title}"
       # begin
         response = github.contents.get :path => lesson.url
         # Decode the gibberish into a real file and render to html
@@ -28,7 +30,7 @@ namespace :curriculum do
       end
     end
 
-    puts "ALL DONE! Updated the curriculum."
+    puts "\n\n\nALL DONE! Updated the curriculum."
   end
 
 

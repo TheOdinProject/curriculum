@@ -19,7 +19,9 @@ Theodinproject::Application.routes.draw do
   # Note: This will block any additional URL paths! Good for a while
   # while people are rediscovering /curriculum but then will need
   # to be removed to throw the usual 404 if they try /curriculum/xyz
-  get 'curriculum(/*dir(.:format))' => 'courses#index', :as => "curriculum"
+  # get 'curriculum(/*dir(.:format))' => 'courses#index', :as => "curriculum"
+  get 'curriculum' => redirect('/courses/')
+  # get 'curriculum(/*extra_path)' => redirect('/courses/%{extra_path}')
 
   get 'courses' => 'courses#index'
   get 'courses/:course_name' => redirect('/courses/%{course_name}/lessons'), :as => "course"
