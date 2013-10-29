@@ -9,6 +9,14 @@ if defined?(Bundler)
   # Bundler.require(:default, :assets, Rails.env)
 end
 
+# Uncomment this when you can test it -- it will stop generating
+# # all those annoying test files every time you build a controller
+# config.generators do |g|
+#     g.test_framework  :rspec, :fixture => false
+#     g.view_specs      false
+#     g.helper_specs    false
+# end
+
 module Theodinproject
   class Application < Rails::Application
 

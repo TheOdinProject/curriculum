@@ -1,4 +1,4 @@
-== Welcome to The Odin Project v0.0.7
+== Welcome to The Odin Project v0.1.0
 
 It's game on.
 
@@ -6,7 +6,10 @@ It's game on.
 **************************  DEPLOYMENT NOTES: ***********************
 *********************************************************************
 
-< none >
+1. Migrations
+2. seeds
+2. DONE Root URL for courses
+3. 
 
 *********************************************************************
 ****************************  OTHER NOTES: **************************
@@ -17,12 +20,13 @@ It's game on.
 **************************  Major Roadmap  **************************
 *********************************************************************
 
-0.0.?: Curriculum navigation redesign
+0.1.0: Curriculum navigation redesign
 * Improve the visual heirarchy
-0.0.?: Feedback mechanism
-0.0.?: Progress tracking
+0.1.1:  Alpha Signup Flow
+0.1.?: Feedback mechanism
+0.1.?: Progress tracking
 * Signup current/next design
-0.0.?: Realtime broadcast and collaboration prompting
+0.1.?: Realtime broadcast and collaboration prompting
 * Allow flash messages to go out to all users on the curriculum
 * Allow users to see when other users are at the same section and have the collaborate / chat popup occur
 * Allow users to see when other users are nearby to them for the same functionality
@@ -32,23 +36,63 @@ It's game on.
 **********************  Current Dev Version TODOs *******************
 *********************************************************************
 
-v0.0.8: Bug fixes, Curriculum UI / Navigation improvements, 
-* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
-DONE Add Alpha tag to front page
-* Remove annoying in-content CTAs to contribute.
-* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
-* Add Alpha signup code field to signup form
-* Fix code inside `pre` blocks to not display formatted
+v0.1.0: Bug fixes, Curriculum UI / Navigation improvements,
+
+Curriculum Redesign:
+* GITHUB API KEYS -- set up rake task to pull in curriculum files so no crazy API calls being made
+* deploy backwards compatible with old structure
+* ??? Change /curriculum index to redirect to courses index
+* Design: Cool down and flatten out
+
+DONE Set up routing for /curriculum to redirect to /courses
+DONE Make sure all external links open in a new tab
+DONE Apply styling to project pages based on a `project` class.
+DONE Put quotes around next button text and links
+DONE Fix formatting of p's inside li's (less margin)
+DONE Code inside pre tags shouldn't have borders
+DONE Fix bug with next / prev courses
+SORTA Revisit and tighten up copy and message (a journey!)
+SORTA Revisit the UX flows and overall design consistency -- Fonts!
+DONE Rebuild and remap the curriculum directory and lesson structure
+DONE setup seeds to populate real data
+DONE Write copy for curriculum pieces
+DONE Fix bug with display order of sections
+DONE Fix breakpoints for nav to not get in the way of the main navbar
+DONE Serve the fonts myself... waiting for google fonts sucks. NO: just reduced the total download payload.  Serving myself may not be a better solution here.  Each font weight/style is like 200kb!
+DONE Link the main courses page better!
+DONE Set up divs to link to for sections
+DONE Create some sort of nav / header in lesson show
+DONE basicc Courses index view
+DONE Basic Lessons Index view
+DONE Basic Lesson view
+DONE Set up linkages between lessons
+DONE Set up actual data heirarchy!
+DONE Rewrite controller method for github api calls into model method
+DONE Routing: /courses/:course_name/lessons/:lesson_name
+DONE Populate sample data
+DONE Set up new curriculum data models
+DONE Set up associations
+
+Alpha Signup Flow:
 * Make home page more signup-oriented
+* Add Alpha signup code field to signup form
 * Create nice looking signup confirmation email w/ bcc
+* Set up welcome page for students post-signup... or just have a query string.
+* Link GA goal to that page.
+
+Bugs and Miscellanea
+* Make links in curriculum point externally
+* Remove annoying in-content CTAs to contribute.
+* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
+* Paginate students
+* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
+* Fix code inside `pre` blocks to not display formatted
 * Make more obvious that you can select multiple projects on prefs
 * Make more obvious the loading icon when waiting for scheduler data
-* Paginate students
-* Make links in curriculum point externally
-* Set up welcome page for students post-signup
-* Link GA goal to that page.
+* KILL BOOTSTRAP!?!
 * Update failing tests
 * Write basic tests for curriculum section
+DONE Add Alpha tag to front page
 DONE Remove "private" from alpha release warning
 
 

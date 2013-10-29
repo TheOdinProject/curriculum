@@ -1,21 +1,17 @@
 @import "colors";
-
-/* Main Variables */
-$default-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$logo-font: "Palatino Linotype", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$monospace-font: 'Inconsolata', monospace;
-$grotesque-font: 'Montserrat', $default-font; 
+@import "fonts";
 
 
 /* Assumed: Bootstrap has done the CSS resets for us */
 
 html {
-  font-family: $default-font;
+  font-family: $body-fonts;
 }
 
 body {
   padding-top: 51px;
   background: $background_color;
+  font-size: 100%; // 16px
 }
 
 footer {
@@ -34,10 +30,11 @@ footer {
 }
 
 .brand-box {
-  font-family: $logo-font;
+  font-family: $logo-fonts;
   float: left;
   display: block;
   margin-left: -20px;
+  margin-top: -4px;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 8px;
