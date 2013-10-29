@@ -35,10 +35,14 @@ It's game on.
 
 * Make home page more signup-oriented
 * Add Alpha signup code field to signup form
-* Create nice looking signup confirmation email w/ bcc
 * Add About and Why Odin pages
+* Move scheduler and community and students links under dropdown
+* Change links as necessary on blog
+* Create footer with Blog and About and Why Odin links
+* Create nice looking signup confirmation email w/ bcc
 * Set up welcome page for students post-signup... or just have a query string.
 * Link GA goal to that page.
+* Figure out the status of the collaboration arc -- should links be removed from projects until critical mass has been achieved to ensure focus?
 
 Bugs and Miscellanea
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
