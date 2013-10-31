@@ -33,7 +33,6 @@ It's game on.
 
 **v0.1.1:  Alpha Signup Flow**
 
-* Review intended user flows and objectives
 * Review mockups
 * Add static pages like About and Why Odin and FAQ
 * Create footer with Blog and About and Why Odin links
@@ -62,7 +61,8 @@ BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
-DONE Fix "How do we Pair link on Scheduler Page"
+DONE Review intended user flows and objectives
+DONE Fix "How do we Pair" link on Scheduler Page
 
 
 

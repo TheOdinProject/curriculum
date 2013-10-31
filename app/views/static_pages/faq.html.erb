@@ -2,81 +2,55 @@
   <div class="container">
     
     <h1>Frequently Asked Questions</h1>
-  
+
+
+
+    <h2 class="faq-question">Who Is This For?</h2>
     <p>
-      Learning to code on your own sucks.  It's time consuming, difficult to stay motivated, and lonely.  To top it all off, you usually don't even know if you're learning the right stuff, whether the goal is to build the website you want, start a startup, or get a job as a web developer.
+      This course is geared to absolute beginners and people who have maybe tried out different resources along the way but never really found anything worth sticking with long enough to become an expert in it.  Whether your ultimate goal is to work as a web developer, do freelancing, build a startup, or just hack together a homepage for yourself, you'll have the tools you need here.  
+    </p>
+    <p>
+      We've built the curriculum with the most difficult of these cases in mind so it goes into a lot of depth.  This is on purpose -- a lot of existing "complete" resources actually only get you 10% of the way there and that's a problem.  They just aren't thorough.  That said, anyone who doesn't want to get quite so deep will have no problem skimming through lessons to pick up what they need to.
+    </p>
+
+
+
+    <h2 class="faq-question">What's the Goal of the Project?</h2>
+    <p>
+      The goal is to provide a complete path for students to go from zero to employed as web developers while working with other students along the way.  
+    </p>
+
+
+    <h2 class="faq-question">How Long Does it Take?</h2>
+    <p>
+      We won't have any of this "Learn it all in two days!" BS.  You can't start from scratch and learn true web development in such a short period of time and you know it.  It's *highly* unlikely that you'll be employable after a weekend workshop or a one-month part-time course.  
+    </p>
+    <p>
+      On the other hand, you don't necessarily need to put in 4 years getting a CS degree.  80% of what they cover won't be used during a typical web developer's early career and it's not necessary to know it to get hired.  So why not learn the 20% and learn the rest while you're getting paid on the job?
+    </p>
+    <p> 
+      We've essentially distilled down what you most need to learn to hit that employable level, but it's still a healthy dose of learning.  Depending how fast you are, it will still take roughly 1000 hours of work to hit that sweet spot.  If you're doing it 40 hours a week, that's 6 months.  If you're super intense, you can do it in 3.  If you're part-timing or less, you'll need to space it out over about a year.  That's just the reality of it.
+    </p>
+
+
+
+    <h2 class="faq-question">What Are You Actually Teaching?</h2>
+
+    <p>
+      We assume that you're at square one, so we start out by going over what exactly a web developer does, how to install the necessary software on your machine, and how to pair up with other students on projects in <%= link_to "Introduction to Web Development", course_path("introduction-to-web-development") %>.
     </p>
 
     <p>
-      The Odin Project is one of those "What I wish I had when I was learning" resources.  Not everyone has access to a computer science education or the funds to attend an intensive coding school and neither of those is right for everyone anyway.  This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.
+      The <%= link_to "Web Development 101 course", course_path("web-development-101") %> will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff. It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more. We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
     </p>
 
     <p>
-      Because it's hard! It takes about 1,000 hours of work to go from zero to employable as a web developer.  The project aims to solve the biggest issues -- knowing what to learn and build and finding other students to learn with.  
+      The curriculum takes a back-to-front approach to learning a Ruby on Rails workflow. That means starting with a <%= link_to "strong foundation in Ruby", course_path("ruby-programming") %> and an understanding of databases before migrating into Ruby on Rails (which is a framework built using Ruby).
     </p>
 
-    <h2>We Believe</h2>
-
-    <ol>
-      <li>
-        <span class="belief-heading">You learn best by actually building things on your own computer</span> 
-        <p>
-          You can't just follow a bunch of online tutorials and expect to be a developer.  That's why we have a project-based curriculum that leaves you with a real portfolio of work on Github.
-        </p>
-      </li>
-      <li>
-        <span class="belief-heading">Education should be free and accessible to everyone</span> 
-        <p>
-          This curriculum itself is free and we tried to link to resources that are themselves free so anyone in the world can use them.
-        </p>
-      </li>
-      <li>
-        <span class="belief-heading">The best way to stay motivated is by working with other people</span>  
-        <p>
-          We're committed to connecting students together so they can stay motivated and learn faster.
-        </p>
-      </li>
-      <li>
-        <span class="belief-heading">Open source is best</span>
-        <p>
-          Our curriculum is available on Github and so is the source code for this website.  We encourage students and developers to contribute to both in an effort to make this even better.
-        </p>
-      </li>
-    </ol>
-
-    <h2>How it All Started</h2>
 
     <p>
-      Erik decided it was time to learn to code in mid-2012 and immediately dove in with the fervor of an overmotivated geek with a new challenge.  He soon found that, though he was learning a lot of things very quickly, it didn't feel like he was getting much closer to his goal of becoming a functional web developer.  He thought there was a whole lot missing from the experience of learning online, especially in terms of knowing which resources to use and being able to work with other people along the way.
-    </p>
-
-    <p>
-      So he enrolled at a 9 week intensive coding bootcamp and got the chance to build projects with other students all day long.  He liked the experience so much that he decided to help them grow and improve their business for a while, but he quickly saw the sheer number of people who weren't able to take that same route and who were still out there struggling on their own.</p>
-
-    <p>
-      He decided that maybe it was possible to fix both problems -- give people access to a free resource for learning to code AND help them find other beginners along the way.  Thus was born the Odin Project.
-    </p>
-
-    <h2>What We're Actually Teaching</h2>
-
-    <p>
-      We assume that you're at square one, so we start out by going over what exactly a web developer does, how to install the necessary software on your machine, and how to pair up with other students on projects.
-    </p>
-
-    <p>
-      The Web Development 101 section will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff. It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more. We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
-    </p>
-
-    <p>
-      The curriculum takes a back-to-front approach to learning a Ruby on Rails workflow. That means starting with a strong foundation in Ruby and an understanding of databases before migrating into Rails (which is a framework built using Ruby).
-    </p>
-
-    <p>
-      Why Rails? Why not. There are dozens of possible technologies out there to choose from and, frankly, they do pretty much the same things. Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it. It lets you put up a functioning website in hours not days or weeks. The "in" tech will probably be something completely different in a few years, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
-    </p>
-
-    <p>
-      After the high level overview of Web Dev 101, we begin by showing you the path to make your websites function using Ruby, Rails and databases. Next we move into HTML, CSS, Javascript, JQuery, and Backbone to give you the tools necessary to make them come alive by looking good, flowing well, and loading quickly. Along the way, you'll learn git and deployment so you can build your portfolio, collaborate with others, and see your work on the web.
+      Next we move into in-depth understanding of HTML and CSS, Javascript, JQuery, and Backbone to give you the tools necessary to make them come alive by looking good, flowing well, and loading quickly. Along the way, you'll learn Git and deployment so you can build your portfolio, collaborate with others, and see your work on the web.
     </p>
 
     <p>
@@ -84,7 +58,42 @@
     </p>
 
 
-    <h2>Contact</h2>
+
+    <h2 class="faq-question">Why Ruby on Rails?</h2>
+    <p>
+      Why not? There are dozens of possible frameworks and technology stacks out there to choose from and, frankly, they do pretty much the same things. Rails is attractive because it's a relatively straightforward and very well documented framework that's used by tons of great startups and tech companies today and it has a very strong community of developers and students who support it. 
+    </p>
+    <p>
+      Rails lets you put up a functioning website in hours not days or weeks. The "in" tech will probably be something completely different in a few years, but Rails presents a great platform on which to build the skills you need to carry you to that next phase.
+    </p>
+
+
+
+    <h2 class="faq-question">What's with the "Coming Soon" Stuff?</h2>
+    <p>
+      This project is still a work in progress.  If you want it to go faster, please contribute! 
+    </p>
+    <p>
+      We've got a path laid out, but still need to finish filling in the curriculum.  Improving the student collaboration tools is also high on the list of upcoming projects.
+    </p>
+
+
+
+    <h2 class="faq-question">How is the Project Funded?</h2>
+    <p>
+      Goodwill and infinite patience.  Seriously, if you want to help, please <a href="contact@theodinproject.com">reach out.</a>
+    </p>
+
+    <h2 class="faq-question">But How Will You Become Sustainable?</h2>
+    <p>
+      Down the road, we want to keep our business model totally aligned with the ideal of educating lots of students.  We're most interested in a recruiting model and one where students can participate in a mentoring platform because, if these are successful, it will have validated the quality of the student experience here.
+    </p>
+    <p>
+      For a more detailed look at our business model, please watch <a href="http://www.youtube.com/watch?v=tO5sxLapAts">this video</a>.
+    </p>
+
+
+    <h2 class="faq-question">How Can I Get In Touch?</h2>
 
     <p>
       If you have questions about The Odin Project itself, contact us <a href="mailto: contact@theodinproject.com">here.</a>

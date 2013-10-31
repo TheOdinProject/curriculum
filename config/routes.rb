@@ -16,6 +16,7 @@ Theodinproject::Application.routes.draw do
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
   get 'about' => "static_pages#about"
+  get 'faq' => "static_pages#faq"
 
   # Note: This will block any additional URL paths! Good for a while
   # while people are rediscovering /curriculum but then will need
