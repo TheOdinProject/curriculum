@@ -33,14 +33,17 @@ It's game on.
 
 **v0.1.1:  Alpha Signup Flow**
 
-* Make home page more signup-oriented
-* Add Alpha signup code field to signup form
-* Add About and Why Odin pages
+* Review intended user flows and objectives
+* Review mockups
+* Add static pages like About and Why Odin and FAQ
+* Create footer with Blog and About and Why Odin links
 * Move scheduler and community and students links under dropdown
 * Change links as necessary on blog
-* Create footer with Blog and About and Why Odin links
+* Add Alpha signup code field to signup form
 * Create nice looking signup confirmation email w/ bcc
 * Set up welcome page for students post-signup... or just have a query string.
+* update curriculum viewing restrictions for not-signed-in users 
+* Once all peripheral flows are figured out, update home page more signup-oriented
 * Link GA goal to that page.
 * Figure out the status of the collaboration arc -- should links be removed from projects until critical mass has been achieved to ensure focus?
 

@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import 'colors';
-
+@import 'lessons';
 
 
 /*Namespacing all the home page styles*/
@@ -225,6 +225,13 @@
 }
 
 
-
+.StaticPagesController{
+  
+  @extend .individual-lesson;
+  .belief-heading{
+    color: $highlight_orange;
+    font-weight: bold;
+  }
+}
 
 

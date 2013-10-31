@@ -32,6 +32,10 @@ class StaticPagesController < ApplicationController
     end
   end
 
+  def about
+
+  end
+
   # For the suggestion form in the footer
   def suggestion
     if user_signed_in?

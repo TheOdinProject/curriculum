@@ -11,13 +11,14 @@
             <ul class="nav pull-right nav-links">
               <li class="top-link"><a href="http://1000hours.io">Blog</a></li>
               <li class="top-link"><a href="<%= curriculum_path %>">Curriculum</a></li>
-              <li class="top-link"><%= link_to "Community", forum_path %></li>
               <% if user_signed_in? %>
-                <li class="top-link"><%= link_to "Students", students_path %></li>
-                <li class="top-link"><%= link_to "Scheduler", scheduler_path %></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong><%= current_user.username %> <b class="caret"></b></strong></a>
                   <ul class="dropdown-menu">
+                    <li><%= link_to "Community", forum_path %></li>
+                    <li><%= link_to "Students", students_path %></li>
+                    <li><%= link_to "Scheduler", scheduler_path %></li>
+                    <li class="divider"></li>
                     <li><%= link_to "Profile", current_user %></li>
                     <li><%= link_to "Preferences", edit_user_pref_path %></li>
                     <li><%= link_to "Account", edit_user_registration_path %></li>
