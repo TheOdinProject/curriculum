@@ -17,7 +17,7 @@ It's game on.
 **************************  Major Roadmap  **************************
 *********************************************************************
 
-(current dev version) 0.1.1:  Alpha Signup Flow
+(current dev version) 0.1.1:  Homepage Redesign 3.0
 0.1.?: Feedback mechanism
 0.1.?: Progress tracking
 * Signup current/next design
@@ -31,12 +31,9 @@ It's game on.
 **********************  Current Dev Version TODOs *******************
 *********************************************************************
 
-**v0.1.1:  Alpha Signup Flow**
+**v0.1.1:  Home Page Redesign 3.0**
 
 * Review mockups
-* Add static pages like About and Why Odin and FAQ
-* Create footer with Blog and About and Why Odin links
-* Move scheduler and community and students links under dropdown
 * Change links as necessary on blog
 * Add Alpha signup code field to signup form
 * Create nice looking signup confirmation email w/ bcc
@@ -61,6 +58,9 @@ BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DON Add static pages like About and Why Odin and FAQ
+DONE Create footer with Blog and About and Why Odin links
+DONE Move scheduler and community and students links under dropdown
 DONE Review intended user flows and objectives
 DONE Fix "How do we Pair" link on Scheduler Page
 
