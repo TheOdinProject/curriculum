@@ -15,17 +15,29 @@ body {
 }
 
 footer {
+
+  border-top: 1px solid $vlight_gray;
+  padding: 2em 1em;
+  text-align: center;
+  font-size: .8em;
+
   .copyright{
-    float: right;
+    // float: right;
     margin-top: 5px;
   }
   form{
-    float: left;
+    // float: left;
   }
   margin-top: 100px;
 
   #feedback-text-box{
-    width: 400px;
+    width: 35em;
+  }
+  .footer-links{
+    a{
+      display: inline-block;
+      margin: 0 2em;
+    }
   }
 }
 

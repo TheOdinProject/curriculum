@@ -1,21 +1,29 @@
 <footer id="footer">
-  <hr>
 
-  <form id="footer-suggestion-form" class="form-inline" action="<%= suggestion_path %>" method="post" data-remote="true">
+  <div class="footer-form">
+    <form id="footer-suggestion-form" class="form-inline" action="<%= suggestion_path %>" method="post" data-remote="true">
 
-    <input type="hidden" name="pathname" value="" id="suggestion-pathname">
+      <input type="hidden" name="pathname" value="" id="suggestion-pathname">
 
-    <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
+      <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
 
-    <button type="submit" class="btn" id="suggestion-button">
-      Tell Us!
-    </button>
+      <button type="submit" class="btn" id="suggestion-button">
+        Tell Us!
+      </button>
 
-  </form>
+    </form>
+  </div>
 
-  <span class="copyright">
-    <%= link_to "Why Odin?", "#{curriculum_path}/odin.md", :title => "Why Odin?" %>
-    &nbsp;&nbsp; | &nbsp;&nbsp; Brainchild of <a href="http://www.github.com/eriktrautman" title="Erik's github">Erik</a></span>
+  <div class="footer-links">
+    <%= link_to "Blog", "http://1000hours.io" %>
+    |
+    <%= link_to "About", about_path %>
+    |
+    <%= link_to "FAQ", faq_path %>
+    |
+    <a href="http://www.github.com/eriktrautman" title="Erik's github">Erik</a>
+    </span>
+  </div>
 </footer>
 
 <script>
