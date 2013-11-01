@@ -4,27 +4,48 @@
 
 @import 'colors';
 @import 'lessons';
-
+@import 'mixins';
 
 /*Namespacing all the home page styles*/
 #home-page{
 
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 
+  h1,h2,h3,h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  h1{
+    font-size: 3.5em;
+    font-weight: normal;
+  }
   h2{
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 300;
     line-height: 125%;
+    font-weight: bold;
+    color: $dark_gray;
+    margin-top: 1em;
+    margin-bottom: 1em;
   }
   h3{
-    font-size: 24px;
+    font-size: 2em;
     font-weight: 300;
     line-height: 125%;
+    color: $dark_gray;
   }
   h4{
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 300;
     line-height: 125%;
+    color: $mid_gray;
+  }
+  p{
+    font-weight: 300; 
+    color: $mid_gray;
+  }
+
+  .img-wrapper{
+    border: 1px solid $vlight_gray;
   }
 
   .narrow{
@@ -35,37 +56,52 @@
     padding: 30px 0px;
   }
 
+  .section{
+    margin: 80px auto;
+  }
+
   .dark{
     background-color: #aaa;
     margin-left: -100%;
     margin-right: -100%;
   }
 
-  $panel-color: rgba(0,0,0,0.2);
+
   .above-the-fold{
-    height: 500px;  
-    background-color: $vlight_gray;
+    height: 600px;  
+    width: 100%;
+    background: $vlight_gray url("home_background.jpg") no-repeat center center; // fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .navbar{
+    background-color: $nav-color;
+    padding: 0 20px;
+    // @include black-links;
     .menu-wrapper{
+      padding-top: 8px;
+      padding-right: 10px;
       float: right;
+      font-size: .75em;
     }
   }
 
   .top-box{
     padding: 1em;
     margin: 30px auto 0 auto;
-    width: 600px;
+    width: 650px;
     background-color: $panel_color;
     .headline{
       padding: 10px 0px 10px 0px;
       text-align: center;
       h1{
-        font-size: 3em;
+        color: white;
         margin: 0;
         padding: 0;
-        font-weight: bold;
+        // font-weight: bold;
       }
     }
     .subheading{
@@ -73,25 +109,39 @@
       text-align: center;
       h2{
         color: #f60;
-        font-size: 2em;
+        font-size: 1.5em;
+        margin: 0;
         font-weight: normal;
+        // font-weight: bold;
       }
     }
   }
 
   .cta-box-top-wrapper{
-    margin-top: 50px;
+    margin-top: 100px;
     .cta-box-top{
-      padding: 0;
-      margin: 0;
+      padding: 20px;
+      margin: 0 0 0 30px;
       background-color: $panel_color;
       text-align: center;
-      width: 350px;
+      width: 340px;
 
       button{
-        width: 250px;
-        height: 40px;
+        width: 300px;
+        height: 50px;
         margin: 0 auto;
+        font-size: 1em;
+        line-height: 1.25em;
+        font-family: "Open Sans", sans-serif;
+        @include border-radius(10px);
+      }
+      p{
+        // text-align: left;
+        font-size: .75em;
+        font-weight: 300;
+        // padding-left: 20px;
+        color: white;
+        margin-top: 20px;
       }
     }
   }
@@ -121,13 +171,17 @@
     }
   }
 
+
+
   .what-its-about{
-    padding: 30px 0;
     clear: both;
+    h4{
+      margin-top: 1em;
+    }
     
     .about-panels{
       width: 750px;
-      margin: 0 auto;
+      margin: 30px auto;
 
       .about-panel{
         float: left;
@@ -144,20 +198,28 @@
           color: $highlight_orange;
         }
         p{
-
+          font-weight: 300;
+          font-size: .75em;
         }
       }
     }
   }
 
+
+
   .what-youll-learn{
     clear: both;
-    padding: 30px 0;
+    @include black-links;
 
     .course-panels{
+      margin: 30px auto;
       .course-panel{
-        width: 400px;
+        width: 450px;
         height: 100px;
+        padding: 10px;
+        &:hover{
+          background-color: #eee;
+        }
 
         .img-wrapper{
           width: 80px;
@@ -166,15 +228,31 @@
           margin-right: 15px;
         }
         .copy-wrapper{
+          p{
+            font-weight: 300;
+            color: $light-gray;
+          }
+        }
+      }
+
+      // set the cascading left paddings for the panels
+      @for $i from 1 through 7 {
+        .p#{ $i }{
+          margin-left: #{percentage($i * 6)/100};
+        }
+      }
+      @media(max-width: 700px){
+        .course-panel{
+          margin-left: 0;
         }
       }
     }
   }
 
 
+
   .how-it-works{
     clear: both;
-    padding: 30px 0;
     h3{
       font-size: 2em;
       color: $highlight_orange;
@@ -182,10 +260,12 @@
 
     .panel-wrapper{
       max-width: 800px; 
+      // margin: 30px auto;
       .panel{
         float: left;
         width: 350px;
         padding: 0 25px;
+        margin: 15px 0;
         text-align: center;
 
         .img-wrapper{
@@ -211,12 +291,14 @@
     }
   }
 
+
+
   .why-awesome{
     clear: both;
-    padding: 30px 0;
     
     .panel-wrapper{
       max-width: 750px;
+      margin: 30px auto;
 
       .panel{
         float: left;
@@ -226,19 +308,29 @@
         .img-wrapper{
           width: 150px;
           height: 150px;
-          margin: 0 auto;
+          margin: 10px auto;
+        }
+
+        p{
+          color: $mid_gray;
+          font-size: .75em;
+        }
+        a{
+          font-size: .75em;
         }
 
       }
     }
   }
 
+
+
   .clear-div{
     clear: both;
   }
 
   .cta-bottom{
-    padding: 30px 0;
+    margin: 50px 0;
     text-align: center;
 
     button{
@@ -247,31 +339,11 @@
       line-height: 125%;
       font-size: 26px;
       padding: 0 20px;
+      margin: 20px;
       border: 1px solid #999;
       border-radius: 15px;
       -webkit-border-radius: 15px;
       -moz-border-radius: 15px;
-    }
-  }
-
-  .button{
-    text-shadow: 1px 1px #999;
-    letter-spacing: 1px;
-    color: $background-color;
-    font-family: 'Open Sans Condensed', sans-serif;
-    margin: 30px auto 20px auto;
-    padding: 0px 20px;
-    display: block;
-    background-color: #bbf;
-  }
-
-  a.button-link{
-    color: white;
-    &:hover{
-      text-decoration: none;
-    }
-    &:clicked{
-      color: #ddd;
     }
   }
 

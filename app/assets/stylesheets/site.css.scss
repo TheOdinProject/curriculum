@@ -1,8 +1,10 @@
 @import "colors";
 @import "fonts";
-
+@import "mixins";
 
 /* Assumed: Bootstrap has done the CSS resets for us */
+
+
 
 html {
   font-family: $body-fonts;
@@ -20,6 +22,7 @@ footer {
   padding: 2em 1em;
   text-align: center;
   font-size: .8em;
+  margin-top: 50px;
 
   .copyright{
     // float: right;
@@ -28,7 +31,6 @@ footer {
   form{
     // float: left;
   }
-  margin-top: 100px;
 
   #feedback-text-box{
     width: 35em;
