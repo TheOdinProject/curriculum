@@ -33,10 +33,13 @@ It's game on.
 
 **v0.1.1:  Home Page Redesign 3.0**
 
-* Review mockups
-* Add Alpha signup code field to signup form
+* Fine tune spacings
+* Add headline images
+* Add in graphics
+* Fix body top padding issue
 * Create nice looking signup confirmation email w/ bcc
 * Set up welcome page for students post-signup... or just have a query string.
+* Add content_for titles to the lesson pages
 * update curriculum viewing restrictions for not-signed-in users 
 * Once all peripheral flows are figured out, update home page more signup-oriented
 * Link GA goal to that page.
@@ -57,6 +60,10 @@ BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DONE Review mockups
+DONE Build out structure
+DONE Fill in spacings and copy
+DENIED Add Alpha signup code field to signup form
 DONE Add static pages like About and Why Odin and FAQ
 DONE Change links as necessary on blog
 DONE Create footer with Blog and About and Why Odin links

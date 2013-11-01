@@ -12,8 +12,8 @@ class StaticPagesController < ApplicationController
   end
 
   def home
-    # @splash = false
-    # render "splash"
+    @navbar = false
+    render 'home2'
   end
 
   def scheduler

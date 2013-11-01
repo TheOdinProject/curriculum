@@ -3,7 +3,9 @@
   <%= render "shared/head" %>
   <body>
 
-    <%= render "shared/navbar" %>
+    <% unless @navbar == false %>
+      <%= render "shared/navbar" %>
+    <% end %>
 
     <div class="container">
         <div class="row">
