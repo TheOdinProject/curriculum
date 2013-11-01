@@ -5,16 +5,16 @@
 
     <% unless @navbar == false %>
       <%= render "shared/navbar" %>
+      <div class="nav-spacer"></div>
     <% end %>
 
     <div class="container">
-        <div class="row">
-          <%= bootstrap_flash %>
-          <%= yield %>
-        </div><!--/row-->
-
-      
-        <%= render "shared/footer" %>
+      <div class="row">
+        <%= bootstrap_flash %>
+        <%= yield %>
+      </div><!--/row-->
+    
+      <%= render "shared/footer" %>
 
     </div> <!-- /container -->
 
