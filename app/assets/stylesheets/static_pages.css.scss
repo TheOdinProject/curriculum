@@ -7,6 +7,7 @@
 @import 'mixins';
 
 /*Namespacing all the home page styles*/
+
 #home-page{
 
   font-family: 'Open Sans', sans-serif;
@@ -78,8 +79,8 @@
   }
 
   .navbar{
-    background-color: $nav-color;
-    padding: 0 20px;
+    // background-color: $nav-color;
+    padding: 4px 50px 0 50px;
     // @include black-links;
     .menu-wrapper{
       padding-top: 8px;
@@ -91,7 +92,7 @@
 
   .top-box{
     padding: 1em;
-    margin: 30px auto 0 auto;
+    margin: 0px auto 0 auto;
     width: 650px;
     background-color: $panel_color;
     .headline{
@@ -150,10 +151,12 @@
   
   .social-buttons{
     text-align: center;
+    height: 100px;
+    // background-color: $light_gray;
   }
 
   .social{
-    padding: 20px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
     text-align: center;
     display: inline-block;
     .social-button{

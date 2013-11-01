@@ -3,20 +3,26 @@
   <%= render "shared/head" %>
   <body>
 
-    <% unless @navbar == false %>
+    <% if @navbar == false %>
+      <%= bootstrap_flash %>
+      <%= yield %>
+    <% else %>
+
       <%= render "shared/navbar" %>
       <div class="nav-spacer"></div>
+
+      <div class="container">
+        <div class="row">
+          <%= bootstrap_flash %>
+          <%= yield %>
+        </div><!--/row-->
+      
+
+      </div> <!-- /container -->
+
     <% end %>
-
-    <div class="container">
-      <div class="row">
-        <%= bootstrap_flash %>
-        <%= yield %>
-      </div><!--/row-->
     
-      <%= render "shared/footer" %>
-
-    </div> <!-- /container -->
+    <%= render "shared/footer" %> 
 
   </body>
 </html>
