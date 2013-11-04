@@ -77,7 +77,7 @@ What's the best explanation of how the web works you've seen or read?  Were any 
 * How the web works... [a cartoon](http://landofthefreeish.com/pics/how-the-internet-works/).
 * Udacity has a quick explanation of [web basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/e-48230539/m-48742046) and [HTML basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/m-48724340) (these will require login/signup but it's free).
 * A comprehensive list of web development resources lives at the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum).
-
+* [HTTP Succintly](http://net.tutsplus.com/sessions/http-succinctly/)
 
 ## Step Back... How Does Your Computer Work?
 Estimated Time: 2-4 hrs
