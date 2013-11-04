@@ -46,6 +46,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [RebootJeff's solution here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
 
 * See [Max Pleaner's solution here](https://github.com/macsplean/odin1_google_part1) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/macsplean/odin1_google_part1/blob/master/index.html).
+* See [JesseNeal's solution here](https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html)
 * *Your solution here...*
 
 ## Additional Resources
