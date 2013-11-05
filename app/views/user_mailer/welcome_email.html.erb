@@ -1,9 +1,15 @@
-
 <html>
 <body>
 <div id="message">
   <div class="logo-bar">
-    <%= render :partial => "shared/logo_text" %>
+    <div class="brand-box">
+      <a href="<%= home_url %>">
+        <img src="#" class="logo">
+        <span class="logo-text">
+          The Odin Project
+        </span>
+      </a>
+    </div>
     <!-- <div class="brand-box">
       <%= image_tag "odin_head_silhouette_2_777_216px.gif" %>
       The Odin Project
@@ -21,11 +27,11 @@
 
   <div class="content-container">
     <div class="welcome-header">
-      Welcome <%= @user.fname %>!
+      Welcome to The Odin Project!
     </div>
 
     <div class="welcome-msg">
-      It's great to have you with us while you learn web development!  It can be a bit overwhelming at first, so to get you started we've put together a few tips:
+      It's great to have you with us while you learn web development!  It can be a bit overwhelming at first, so to get you started here are a few tips:
     </div>
 
     <div class="tip-wrapper">
@@ -38,7 +44,7 @@
             Plan out your strategy
           </h2>
           <p>
-            Browse through the <%= link_to "roadmap of courses", curriculum_url %> and figure out how much time each week you'll be able to devote to learning so you can start to figure out your path forward.
+            Figure out how much time each week you'll be able to devote to learning then browse through our <%= link_to "roadmap of courses", curriculum_url %> and plan your strategy.
           </p>
         </div>
       </div>
@@ -52,7 +58,7 @@
             Dive into your first course
           </h2>
           <p>
-            If you're brand spanking new to all this, start with <%= link_to "Introduction to Web Development", lesson_url(@starting_lesson) %>.  Otherwise, <%= link_to "Web Development 101", courses_url("web-development-101") %> is your best bet.
+            Get started! If you're brand spanking new to all this, start with <%= link_to @starting_lesson.title, lesson_url(@starting_lesson.course.title_url, @starting_lesson.title_url) %>.  Otherwise, <%= link_to "Web Development 101", course_url("web-development-101") %> is probably your best bet.
           </p>
         </div>
       </div>
@@ -80,7 +86,7 @@
             Tell your friends!
           </h2>
           <p>
-            If you find the project helpful, please tell your friends about it so they can learn too!  It's always more fun to learn with friends.
+            If you find the project helpful, please spread the word.  It's always more fun to learn with friends :)
           </p>
         </div>
       </div>
@@ -121,26 +127,35 @@
 </div>
 
 <style>
-  @import "colors";
-  @import "site";
 
   body{
     font-size: 100%;
     color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   h1,h2,h3,h4{
     color: black;
   }
+  a{
+    color: #77f;
+  }
+  a:hover{
+    color: #99f;
+  }
   #message{
-    width: 600px;
+    width: 620px;
     border: 1px solid #666;
   }
   .content-container{
     padding: 2em;
   }
+  .logo-bar{
+    height: 41px;
+  }
   .login-link{
     font-size: .85em;
     margin-right: 1em;
+    margin-top: 10px;
     display: inline-block;
     float: right;
   }
@@ -151,7 +166,8 @@
     text-align: center;
     color: white;
     font-size: 2em;
-    padding: 2em 0;
+    padding: 2.5em 0;
+    margin: 0;
   }
   .welcome-header{
     font-weight: bold;
@@ -169,28 +185,32 @@
   .tip{
     position: relative;
     margin: 2em 0;
+    padding-left: 10px;
   }
   .tip-number{
     font-size: 2em;
-    font-style: bold;
+    color: white;
+    font-weight: bold;
     float: left;
     text-align: center;
-    width: 1em;
-    height: 1.2em;
-    background-color: $highlight_orange;
-    border: 1px solid black;
+    width: 1.25em;
+    height: 1.5em;
+    padding-top: .25em;
+    background-color: #f60;
+    /*border: 1px solid black;*/
   }
   .tip-content{
-    margin-left: 3em;
+    margin-left: 3.5em;
+    width: 460px;
     /*margin-top: 1em;*/
-    padding-top: .5em;
+    padding-top: .85em;
   }
   .tip-content h2{
     margin-top: 0;
   }
   .tip-content p{
     font-size: 1.1em;
-    color: $mid_gray;
+    color: #666;
   }
   .additional-questions{
     margin: 3em 0 2em 0;
@@ -201,10 +221,38 @@
   }
   .founder{
     margin-top: -1em;
-    color: $mid_gray;
+    color: #666;
 
   }
-
+  .brand-box {
+    font-family: "Palatino Linotype", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    display: block;
+    margin-left: -10px;
+    margin-top: -4px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: 200;
+  }
+  .brand-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .logo-text{
+  }
+  .logo-img{
+    width: 30px;
+    height: 30px;
+    margin-top: -9px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+  }
 
 
 </style>
