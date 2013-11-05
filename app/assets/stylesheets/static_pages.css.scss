@@ -226,14 +226,21 @@
 
         .img-wrapper{
           width: 80px;
-          height: 80px;
+          height: 90px;
           float: left;
           margin-right: 15px;
+          border: none;
         }
         .copy-wrapper{
+          height: 90px;
+          h3{
+            margin-top: -.25em;
+            margin-bottom: .25em;
+          }
           p{
-            font-weight: 300;
-            color: $light-gray;
+          font-weight: 300;
+          color: $light-gray;
+          margin-left: 7em;
           }
         }
       }
