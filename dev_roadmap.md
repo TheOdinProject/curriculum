@@ -44,6 +44,8 @@ It's game on.
 * Once all peripheral flows are figured out, update home page more signup-oriented
 * Link GA goal to that page.
 * Figure out the status of the collaboration arc -- should links be removed from projects until critical mass has been achieved to ensure focus?
+* Create Sitemap for SEO and submit to Google and Bing
+* Look into Rich Snippets for content
 
 Bugs and Miscellanea
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
