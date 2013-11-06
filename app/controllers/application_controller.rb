@@ -12,7 +12,7 @@ class ApplicationController < ActionController::Base
 
   # Customize Devise to send newly signed in users to the home page
   def after_sign_in_path_for(resource_or_scope)
-    curriculum_path(:ref => "login")
+    courses_path(:ref => "login")
   end
 
   # redirects to error pages
