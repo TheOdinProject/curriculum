@@ -33,11 +33,11 @@ It's game on.
 
 **v0.1.1:  Home Page Redesign 3.0**
 
-* Fine tune spacings
-* Add headline images
-* Add in graphics
-* Fix body top padding issue
-* Create nice looking signup confirmation email w/ bcc
+DONE Fine tune spacings
+DONE Add headline images
+DONE Add in graphics
+DONE Fix body top padding issue
+DONE Create nice looking signup confirmation email w/ bcc
 * Set up welcome page for students post-signup... or just have a query string.
 * Add content_for titles to the lesson pages
 * update curriculum viewing restrictions for not-signed-in users 
