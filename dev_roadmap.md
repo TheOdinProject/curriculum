@@ -36,6 +36,7 @@ It's game on.
 * Fix basic specs to run (need to create courses/sections etc or remove welcome email somehow from them)
 * Add some real specs for basic display stuff
 * Clean up old homepage so it's out of the way and not a redirect to homepage2 or whatever
+* space out buttons a bit better on main topbox
 * Link GA goal to that page.
 * Create Sitemap for SEO and submit to Google and Bing
 * Look into Rich Snippets for content
@@ -50,12 +51,11 @@ Bugs and Miscellanea
 * KILL BOOTSTRAP!?!
 * Update failing tests
 * Write basic tests for curriculum section
-
-BUGS:
 * TESTS: Why do some tests only fail intermittantly???
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DONE Fix navbar on home page for already-logged-in-users to show logout link
 DONE Set up redirect for students post-signup for GA to hook onto.
 DONE Fix devise forms to deal with footer sizing
 DONE Add content_for titles to the lesson pages
