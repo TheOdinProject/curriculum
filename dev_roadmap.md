@@ -34,7 +34,6 @@ It's game on.
 **v0.1.1:  Home Page Redesign 3.0**
 
 * Set up welcome page for students post-signup... or just have a query string for GA to hook onto.
-* Add content_for titles to the lesson pages
 * Link GA goal to that page.
 * Create Sitemap for SEO and submit to Google and Bing
 * Look into Rich Snippets for content
@@ -55,6 +54,7 @@ BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DONE Add content_for titles to the lesson pages
 DONE Fine tune spacings
 DONE Add headline images
 DONE Add in graphics

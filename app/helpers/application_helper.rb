@@ -1,7 +1,15 @@
 module ApplicationHelper
 
-  def title
-    "The Odin Project -- The Free Curriculum for Learning Web Development with Ruby on Rails"
+  def title(input = nil, lesson = false)
+    if input
+      if lesson == true
+        "#{input}"
+      else
+        "The Odin Project -- #{input}"
+      end
+    else
+      "The Odin Project -- The Free Curriculum for Learning Web Development with Ruby on Rails"
+    end
   end
 
   # uses the redcarpet gem to render the markdown as html
