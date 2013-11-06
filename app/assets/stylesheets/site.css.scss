@@ -95,6 +95,9 @@ footer {
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
+  background-image: none !important;
+  background-color: $background-color !important;
+  border-bottom: 1px solid #eee !important;
 }
 
 /* ********* User Pages ************* */

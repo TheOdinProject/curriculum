@@ -87,6 +87,10 @@
   .navbar{
     padding: 4px 50px 4px 50px;
     background-color: white;
+    .nav-narrow{
+      max-width: 1170px;
+      margin: 0px auto;
+    }
     .menu-wrapper{
       padding-top: 10px;
       padding-right: 10px;
