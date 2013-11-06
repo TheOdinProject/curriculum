@@ -34,4 +34,7 @@ Theodinproject::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  # ERIK Apparently this is still necessary in test too!
+  config.action_mailer.default_url_options = { :host => 'localhost' }
 end
