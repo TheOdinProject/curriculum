@@ -13,7 +13,6 @@ class StaticPagesController < ApplicationController
 
   def home
     @navbar = false
-    render 'home2'
   end
 
   def scheduler
