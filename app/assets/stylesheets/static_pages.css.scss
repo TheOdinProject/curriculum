@@ -25,7 +25,7 @@
     line-height: 125%;
     font-weight: bold;
     color: $dark_gray;
-    margin-top: 1em;
+    margin-top: 0;
     margin-bottom: 1em;
   }
   h3{
@@ -58,18 +58,16 @@
   }
 
   .section{
-    margin: 80px auto;
+    padding: 3.5em 0;
+    margin: 0px auto;
   }
 
   .dark{
-    background-color: #aaa;
-    margin-left: -100%;
-    margin-right: -100%;
+    background-color: $off_white;
   }
 
 
   .above-the-fold{
-    // height: 600px;  
     width: 100%;
     background: $vlight_gray url("home_background_blur.jpg") no-repeat center center; // fixed; 
     -webkit-background-size: cover;
@@ -79,10 +77,7 @@
   }
 
   .navbar{
-    // background-color: $nav-color;
     padding: 4px 50px 0 50px;
-    // border-bottom: 1px solid rgba(0,0,0,.15);
-    // @include black-links;
     .menu-wrapper{
       padding-top: 8px;
       padding-right: 10px;
@@ -94,10 +89,9 @@
   .top-box{
     padding: 1em;
     margin: 1em auto 0 auto;
-    max-width: 650px;
     background-color: $panel_color;
     @include border-radius(.25em);
-    border: 1px solid #444;
+    border: 1px solid rgba(255,255,255,.15);
     .headline{
       padding: 10px 0px 10px 0px;
       text-align: center;
@@ -106,7 +100,6 @@
         color: white;
         margin: 0;
         padding: 0;
-        // font-weight: bold;
       }
     }
     .subheading{
@@ -117,7 +110,6 @@
         font-size: 1.5em;
         margin: 0;
         font-weight: normal;
-        // font-weight: bold;
       }
     }
   }
@@ -126,10 +118,10 @@
     margin-top: 70px;
     margin-bottom: 70px;
     .cta-box-top{
-      border: 1px solid #444;
+      border: 1px solid rgba(255,255,255,.15);
       @include border-radius(.25em);
       padding: 20px;
-      margin: 0 0 0 0;
+      margin: 0 auto;
       background-color: $panel_color;
       text-align: center;
       width: 360px;
@@ -144,10 +136,8 @@
         @include border-radius(10px);
       }
       p{
-        // text-align: left;
         font-size: .75em;
         font-weight: 300;
-        // padding-left: 20px;
         color: white;
         margin-top: 20px;
       }
@@ -158,8 +148,8 @@
   
   .social-buttons{
     text-align: center;
-    height: 100px;
-    // background-color: $light_gray;
+    height: 50px;
+    background-color: white;
   }
 
   .social{
@@ -185,6 +175,7 @@
 
   .what-its-about{
     clear: both;
+
     h4{
       margin-top: 1em;
     }
@@ -198,7 +189,6 @@
         width: 200px;
         margin: 0 25px;
         text-align: center;
-        // text-overflow: wrap;
         .img-wrapper{
           width: 100px;
           height: 100px;
@@ -223,13 +213,14 @@
     @include black-links;
 
     .course-panels{
-      margin: 30px auto;
+      margin: 0px auto;
+
       .course-panel{
         width: 450px;
         height: 100px;
         padding: 10px;
         &:hover{
-          background-color: #eee;
+          background-color: rgba(0,0,0,.05);
         }
 
         .img-wrapper{
@@ -272,13 +263,13 @@
   .how-it-works{
     clear: both;
     h3{
-      font-size: 2em;
+      font-size: 3em;
       color: $highlight_orange;
     }
 
     .panel-wrapper{
       max-width: 800px; 
-      // margin: 30px auto;
+
       .panel{
         float: left;
         width: 350px;
@@ -296,6 +287,7 @@
     .work-together{
       text-align: center;
       clear: both;
+      padding-top: 2em;
 
       .img-wrapper{
         width: 500px;
@@ -320,7 +312,8 @@
 
       .panel{
         float: left;
-        width: 250px;
+        width: 220px;
+        padding: 0 15px;
         text-align: center;
 
         .img-wrapper{
@@ -349,7 +342,6 @@
   }
 
   .cta-bottom{
-    margin: 50px 0;
     text-align: center;
 
     button{
@@ -360,9 +352,11 @@
       padding: 0 20px;
       margin: 20px;
       border: 1px solid #999;
-      border-radius: 15px;
-      -webkit-border-radius: 15px;
-      -moz-border-radius: 15px;
+      @include border-radius(.5em);
+      font-family: "Open Sans Condensed", sans-serif;
+    }
+    p{
+      color: $light_gray;
     }
   }
 

@@ -33,19 +33,12 @@ It's game on.
 
 **v0.1.1:  Home Page Redesign 3.0**
 
-DONE Fine tune spacings
-DONE Add headline images
-DONE Add in graphics
-DONE Fix body top padding issue
-DONE Create nice looking signup confirmation email w/ bcc
-* Set up welcome page for students post-signup... or just have a query string.
+* Set up welcome page for students post-signup... or just have a query string for GA to hook onto.
 * Add content_for titles to the lesson pages
-* update curriculum viewing restrictions for not-signed-in users 
-* Once all peripheral flows are figured out, update home page more signup-oriented
 * Link GA goal to that page.
-* Figure out the status of the collaboration arc -- should links be removed from projects until critical mass has been achieved to ensure focus?
 * Create Sitemap for SEO and submit to Google and Bing
 * Look into Rich Snippets for content
+* Build "next"-style buttons next to the headers on the courses page
 
 Bugs and Miscellanea
 * Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
@@ -62,6 +55,11 @@ BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DONE Fine tune spacings
+DONE Add headline images
+DONE Add in graphics
+DONE Fix body top padding issue
+DONE Create nice looking signup confirmation email w/ bcc
 DONE Review mockups
 DONE Build out structure
 DONE Fill in spacings and copy

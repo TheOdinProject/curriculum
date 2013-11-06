@@ -27,7 +27,7 @@
           </div>
           <div class="subheading">
             <h2>
-              Stop wasting time.&nbsp;  Here's what you need to know. 
+              Stop wasting time...&nbsp;  Here's what you need to know. 
             </h2>
           </div>
         </div>
@@ -38,7 +38,7 @@
           <p>
             <!-- Learn -->
           </p>
-          <%= link_to lesson_path("introduction-to-web-development" ,"what-a-web-developer-does") do %>
+          <%= link_to lesson_path("introduction-to-web-development" ,"what-a-web-developer-does", :ref => "home") do %>
             <button class="btn btn-success">
               Learn what a web developer does
             </button>
@@ -46,7 +46,7 @@
           <p>
             <!-- Explore -->
           </p>  
-          <%= link_to courses_path do %>
+          <%= link_to courses_path(:ref => "home") do %>
             <button class="btn btn-success">
               Explore the curriculum
             </button>
@@ -59,17 +59,20 @@
 
     </div>
   </div>
-  <div class="container narrow">
+  
 
-    <div class="social-buttons">
+  <div class="social-buttons">
+    <div class="container narrow">
       <%= render "shared/social" %>
     </div>
+  </div>
 
-    <div class="what-its-about">
+  <div class="what-its-about section">
+    <div class="container narrow">
 
       <h2>Okay, what's this all about?</h2>
       <h4>
-        Basically, this is the resource we wish we'd had when we were learning on our own.  So we stitched together a curriculum from the best resources we could find online and here it is. This project is about:
+        Basically, this is the website we wish we'd had when we were learning on our own.  So we stitched together a curriculum from the best resources we could find online and here it is. This project is about:
       </h4>
 
       <div class="about-panels">
@@ -114,9 +117,12 @@
 
       </div>
     </div>
+  </div>
 
 
-    <div class="what-youll-learn section">
+  <div class="what-youll-learn section dark">
+    <div class="container narrow">
+
       <h2>
         What You'll Learn
       </h2>
@@ -126,7 +132,7 @@
         <a href="<%= course_path('introduction-to-web-development') %>">
           <div class="course-panel p1">
             <div class="img-wrapper">
-              <%= image_tag "icons/start_here.jpg", :width => "80px", :title => "Introduction to Web Development" %>
+              <%= image_tag "icons/play.ico", :width => "80px", :title => "Introduction to Web Development" %>
             </div>
 
             <div class="copy-wrapper">
@@ -174,7 +180,7 @@
           </div>
         </a>
 
-        <!-- <a href="<%= course_path('ruby-on-rails') %>"> -->
+        <a href="<%= courses_path(:cl => "ror") %>">
           <div class="course-panel p4">
             <div class="img-wrapper">
               <%= image_tag "icons/rails.png", :width => "80px", :title => "Ruby on Rails" %>
@@ -189,9 +195,9 @@
               </p>
             </div>
           </div>
-        <!-- </a> -->
+        </a>
 
-        <!-- <a href="<%= course_path('html5-and-css3') %>"> -->
+        <a href="<%= courses_path(:cl => "html5") %>">
           <div class="course-panel p5">
             <div class="img-wrapper">
               <%= image_tag "icons/html5.png", :width => "80px", :title => "HTML5 and CSS3" %>
@@ -206,9 +212,9 @@
               </p>
             </div>
           </div>
-        <!-- </a> -->
+        </a>
 
-        <!-- <a href="<%= course_path('javascript-and-jquery') %>"> -->
+        <a href="<%= courses_path(:cl => "js") %>">
           <div class="course-panel p6">
             <div class="img-wrapper">
               <%= image_tag "icons/javascript2.png", :width => "80px", :title => "Javascript and jQuery" %>
@@ -223,12 +229,12 @@
               </p>
             </div>
           </div>
-        <!-- </a> -->
+        </a>
 
-        <!-- <a href="<%= course_path('getting-hired') %>"> -->
+        <a href="<%= courses_path(:cl => "job") %>">
           <div class="course-panel p7">
             <div class="img-wrapper">
-              <%= image_tag "icons/job_button.jpg", :width => "80px", :title => "Getting Hired" %>
+              <%= image_tag "icons/job_button2.png", :width => "80px", :title => "Getting Hired" %>
             </div>
 
             <div class="copy-wrapper">
@@ -240,12 +246,14 @@
               </p>
             </div>
           </div>
-        <!-- </a> -->
+        </a>
         <div class="clearfix"></div>
       </div>
     </div>
+  </div>
 
-    <div class="how-it-works section">
+  <div class="how-it-works section">
+    <div class="container narrow">
       <h2>How it Works</h2>
       <div class="clearfix"></div>
       <div class="panel-wrapper">
@@ -257,7 +265,7 @@
             Learn
           </h3>
           <p>
-            We'll point out the best videos, tutorials, blog posts, and courses on the web for learning each subject.
+            We'll guide you through the best videos, tutorials, blog posts, and courses on the web for learning each subject.
           </p>
         </div>
 
@@ -269,7 +277,7 @@
             Build
           </h3>
           <p>
-            You will build dozens of projects, from simple scripts to full programs and websites
+            You will build dozens of projects along the way, from simple scripts to full programs and deployed websites
           </p>
         </div>
 
@@ -284,14 +292,16 @@
             Work with Other Students
           </h3>
           <p>
-            Learning on your own sucks.  We've been there.  So we're building tools to help you connect with other students along the way so you can pair up on the projects or just work through those annoying bugs with someone else.
+            Learning on your own sucks (we've been there).  We're building tools to connect you with other students along the way so you can pair up on the projects or just work through those annoying bugs with someone else across the world.
           </p>
         </div>
       </div>
       <div class="clearfix"></div>
     </div>
+  </div>
 
-    <div class="why-awesome section">
+  <div class="why-awesome section dark">
+    <div class="container narrow">
       <h2>
         Why This is Project Rocks
       </h2>
@@ -304,14 +314,14 @@
             The Curriculum Lives
           </h3>
           <p>
-            The curriculum is really flexible -- when a better way to learn something comes along we just use that instead!
+            The curriculum is really flexible -- when a better way to learn something comes along we can just use that instead!
           </p>
           <a href="https://github.com/TheOdinProject/curriculum">See it on Github >></a>
         </div>
 
         <div class="panel">
           <div class="img-wrapper">
-            <%= image_tag "icons/open_source.gif", :width => "150px", :title => "Open Source" %>
+            <%= image_tag "icons/open_source2.svg", :width => "150px", :title => "Open Source" %>
           </div>
           <h3>
             Open Source is Best
@@ -329,26 +339,27 @@
             Build Your Own Tools
           </h3>
           <p>
-            We actually encourage students to contribute to both the curriculum and the main website... so they build what they use.
+            We encourage students to contribute to both the curriculum and the main website... so they build what they use.
           </p>
           <%= link_to "Learn how to contribute >>", contributing_path %>
         </div>
       </div>
       <div class="clearfix"></div>
     </div>
+  </div>
     
     <div class="clear-div"></div>
 
-    <div class="cta-bottom section">
+  <div class="cta-bottom section">
+    <div class="container narrow">
+      <p>
+        Are you curious yet?
+      </p>
       <%= link_to curriculum_path do %>
         <button class="btn btn-success">
-          Check out the Curriculum
+          Check out the curriculum!
         </button>
       <% end %>
-      <h4>
-        You're at the bottom... nothing to see here...
-      </h4>
     </div>
-
   </div>
 </div>
