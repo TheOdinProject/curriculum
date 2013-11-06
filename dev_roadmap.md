@@ -35,6 +35,7 @@ It's game on.
 
 * Set up welcome page for students post-signup... or just have a query string for GA to hook onto.
 * Link GA goal to that page.
+* Fix devise forms to deal with footer sizing
 * Create Sitemap for SEO and submit to Google and Bing
 * Look into Rich Snippets for content
 * Build "next"-style buttons next to the headers on the courses page
