@@ -33,6 +33,9 @@ It's game on.
 
 **v0.1.1:  Home Page Redesign 3.0**
 
+* Fix basic specs to run (need to create courses/sections etc or remove welcome email somehow from them)
+* Add some real specs for basic display stuff
+* Clean up old homepage so it's out of the way and not a redirect to homepage2 or whatever
 * Link GA goal to that page.
 * Create Sitemap for SEO and submit to Google and Bing
 * Look into Rich Snippets for content
