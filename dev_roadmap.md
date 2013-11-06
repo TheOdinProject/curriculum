@@ -33,9 +33,7 @@ It's game on.
 
 **v0.1.1:  Home Page Redesign 3.0**
 
-* Set up welcome page for students post-signup... or just have a query string for GA to hook onto.
 * Link GA goal to that page.
-* Fix devise forms to deal with footer sizing
 * Create Sitemap for SEO and submit to Google and Bing
 * Look into Rich Snippets for content
 * Build "next"-style buttons next to the headers on the courses page
@@ -55,6 +53,8 @@ BUGS:
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DONE Set up redirect for students post-signup for GA to hook onto.
+DONE Fix devise forms to deal with footer sizing
 DONE Add content_for titles to the lesson pages
 DONE Fine tune spacings
 DONE Add headline images
