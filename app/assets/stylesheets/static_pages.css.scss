@@ -10,6 +10,7 @@
 
 #home-page{
 
+  background-color: white;
   font-family: 'Open Sans', sans-serif;
 
   h1,h2,h3,h4{
@@ -20,7 +21,7 @@
     font-weight: normal;
   }
   h2{
-    font-size: 2.5em;
+    font-size: 2.75em;
     font-weight: 300;
     line-height: 125%;
     font-weight: bold;
@@ -46,7 +47,7 @@
   }
 
   .img-wrapper{
-    border: 1px solid $vlight_gray;
+    border: 1px solid #fcfcfc;
   }
 
   .narrow{
@@ -60,16 +61,23 @@
   .section{
     padding: 3.5em 0;
     margin: 0px auto;
+    // border-bottom: 1px solid $vlight_gray;
   }
 
   .dark{
-    background-color: $off_white;
+    // background-color: $off_white;
+  }
+  .shield{
+    background-color: rgba(0,0,0,.65);
+  }
+  .shield2{
+    background-color: rgba(255,255,255,.05);
   }
 
 
   .above-the-fold{
     width: 100%;
-    background: $vlight_gray url("home_background_blur.jpg") no-repeat center center; // fixed; 
+    background: url("home_background_blur.jpg") no-repeat center center; // fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,9 +85,10 @@
   }
 
   .navbar{
-    padding: 4px 50px 0 50px;
+    padding: 4px 50px 4px 50px;
+    background-color: white;
     .menu-wrapper{
-      padding-top: 8px;
+      padding-top: 10px;
       padding-right: 10px;
       float: right;
       font-size: .75em;
@@ -89,9 +98,9 @@
   .top-box{
     padding: 1em;
     margin: 1em auto 0 auto;
-    background-color: $panel_color;
+    background-color: none;
     @include border-radius(.25em);
-    border: 1px solid rgba(255,255,255,.15);
+    // border: 1px solid rgba(255,255,255,.15);
     .headline{
       padding: 10px 0px 10px 0px;
       text-align: center;
@@ -106,7 +115,7 @@
       margin: 0.5em 0 1em 0;
       text-align: center;
       h2{
-        color: #f60;
+        color: #f90;
         font-size: 1.5em;
         margin: 0;
         font-weight: normal;
@@ -118,11 +127,11 @@
     margin-top: 70px;
     margin-bottom: 70px;
     .cta-box-top{
-      border: 1px solid rgba(255,255,255,.15);
+      // border: 1px solid rgba(255,255,255,.15);
       @include border-radius(.25em);
       padding: 20px;
       margin: 0 auto;
-      background-color: $panel_color;
+      background-color: none;
       text-align: center;
       width: 360px;
 
@@ -148,12 +157,13 @@
   
   .social-buttons{
     text-align: center;
-    height: 50px;
-    background-color: white;
+    height: 60px;
+    background: url("patterns/cream.png");
+    border-bottom: 1px solid #efefef;
   }
 
   .social{
-    padding: 30px 0px 0px 0px;
+    padding: 12px 0px 0px 0px;
     text-align: center;
     display: inline-block;
     .social-button{
@@ -211,50 +221,61 @@
   .what-youll-learn{
     clear: both;
     @include black-links;
+    background: url("patterns/tiny_black_checker.gif");
+    // background: url("patterns/subtle_dark_vertical.png");
+    h2{
+      color: #eee;
+    }
+    .container{
+      // background: url("patterns/tiny_black_checker.gif");
+    }
 
     .course-panels{
       margin: 0px auto;
 
       .course-panel{
-        width: 450px;
+        width: 500px;
         height: 100px;
-        padding: 10px;
+        padding: 20px 40px;
+        // margin-left: 1em;
+        margin: 0 auto;
         &:hover{
-          background-color: rgba(0,0,0,.05);
+          background-color: rgba(255,255,255,.05);
         }
 
         .img-wrapper{
           width: 80px;
           height: 90px;
           float: left;
-          margin-right: 15px;
+          margin-right: 1.75em;
           border: none;
         }
         .copy-wrapper{
           height: 90px;
           h3{
-            margin-top: -.25em;
+            margin-top: -.1em;
             margin-bottom: .25em;
+            color: #cfcfcf;
           }
           p{
-          font-weight: 300;
-          color: $light-gray;
-          margin-left: 7em;
+            font-weight: 300;
+            color: #9f9f9f;
+            margin-left: 7.75em;
           }
         }
       }
 
       // set the cascading left paddings for the panels
-      @for $i from 1 through 7 {
-        .p#{ $i }{
-          margin-left: #{percentage($i * 6)/100};
-        }
-      }
-      @media(max-width: 700px){
-        .course-panel{
-          margin-left: 0;
-        }
-      }
+      // @for $i from 1 through 7 {
+      //   .p#{ $i }{
+      //     margin-left: #{percentage($i * 6)/100};
+      //   }
+      // }
+      // @media(max-width: 700px){
+      //   .course-panel{
+      //     margin-left: 0;
+      //   }
+      // }
     }
   }
 
@@ -262,8 +283,10 @@
 
   .how-it-works{
     clear: both;
+    // background: url("patterns/cream.png");
     h3{
-      font-size: 3em;
+      font-size: 2em;
+      // font-weight: bold;
       color: $highlight_orange;
     }
 
@@ -305,6 +328,10 @@
 
   .why-awesome{
     clear: both;
+    background: url("patterns/fabric.png");
+    h2{
+      color: #333;
+    }
     
     .panel-wrapper{
       max-width: 750px;

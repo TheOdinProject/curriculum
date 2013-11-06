@@ -3,60 +3,62 @@
 <div id="home-page">
 
   <div class="above-the-fold">
-    <div class="navbar">
-      <!-- <div class="container narrow"> -->
-        <div class="logo-wrapper">
-          <%= render :partial => "shared/logo_text" %>
-        </div>
-        <div class="menu-wrapper">
-          <%= link_to "Curriculum", curriculum_path %> |
-          <%= link_to "Login", login_path %>
-        </div>
-        <div class="clearfix"></div>
-      <!-- </div> -->
-    </div>
-    <div class="container narrow">
-      
-
-      <div class="top-box-wrapper">
-        <div class="top-box">
-          <div class="headline">
-            <h1>
-              Learn Web Development for Free
-            </h1>
+    <div class="shield">
+      <div class="navbar">
+        <!-- <div class="container narrow"> -->
+          <div class="logo-wrapper">
+            <%= render :partial => "shared/logo_text" %>
           </div>
-          <div class="subheading">
-            <h2>
-              Stop wasting time...&nbsp;  Here's what you need to know. 
-            </h2>
+          <div class="menu-wrapper">
+            <%= link_to "Curriculum", curriculum_path %> |
+            <%= link_to "Login", login_path %>
+          </div>
+          <div class="clearfix"></div>
+        <!-- </div> -->
+      </div>
+      <div class="container narrow">
+        
+
+        <div class="top-box-wrapper">
+          <div class="top-box">
+            <div class="headline">
+              <h1>
+                Learn Web Development for Free
+              </h1>
+            </div>
+            <div class="subheading">
+              <h2>
+                Stop wasting time...&nbsp;  Here's what you need to know. 
+              </h2>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cta-box-top-wrapper">
-        <div class="cta-box-top">
-          <p>
-            <!-- Learn -->
-          </p>
-          <%= link_to lesson_path("introduction-to-web-development" ,"what-a-web-developer-does", :ref => "home") do %>
-            <button class="btn btn-success">
-              Learn what a web developer does
-            </button>
-          <% end %>
-          <p>
-            <!-- Explore -->
-          </p>  
-          <%= link_to courses_path(:ref => "home") do %>
-            <button class="btn btn-success">
-              Explore the curriculum
-            </button>
-          <% end %>
-          <p>
-            ...or scroll down to learn more
-          </p>
+        <div class="cta-box-top-wrapper">
+          <div class="cta-box-top">
+            <p>
+              <!-- Learn -->
+            </p>
+            <%= link_to lesson_path("introduction-to-web-development" ,"what-a-web-developer-does", :ref => "home") do %>
+              <button class="btn btn-success">
+                Learn what a web developer does
+              </button>
+            <% end %>
+            <p>
+              <!-- Explore -->
+            </p>  
+            <%= link_to courses_path(:ref => "home") do %>
+              <button class="btn btn-success">
+                Explore the curriculum
+              </button>
+            <% end %>
+            <p>
+              ...or scroll down to learn more
+            </p>
+          </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
   
@@ -120,134 +122,137 @@
   </div>
 
 
-  <div class="what-youll-learn section dark">
-    <div class="container narrow">
+  <div class="what-youll-learn dark">
+    <div class="section">
 
-      <h2>
-        What You'll Learn
-      </h2>
+      <div class="container narrow">
 
-      <div class="course-panels">
+        <h2>
+          What You'll Learn
+        </h2>
 
-        <a href="<%= course_path('introduction-to-web-development') %>">
-          <div class="course-panel p1">
-            <div class="img-wrapper">
-              <%= image_tag "icons/play.ico", :width => "80px", :title => "Introduction to Web Development" %>
+        <div class="course-panels">
+
+          <a href="<%= course_path('introduction-to-web-development') %>">
+            <div class="course-panel p1">
+              <div class="img-wrapper">
+                <%= image_tag "icons/play.ico", :width => "80px", :title => "Introduction to Web Development" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Introduction to Web Development
+                </h3>
+                <p>
+                  A brief introduction to the practice and career of web development
+                </p>
+              </div>
             </div>
+          </a>
 
-            <div class="copy-wrapper">
-              <h3>
-                Introduction to Web Development
-              </h3>
-              <p>
-                A brief introduction to the practice and career of web development
-              </p>
-            </div>
-          </div>
-        </a>
+          <a href="<%= course_path('web-development-101') %>">
+            <div class="course-panel p2">
+              <div class="img-wrapper">
+                <%= image_tag "icons/web_development.png", :width => "80px", :title => "Web Development" %>
+              </div>
 
-        <a href="<%= course_path('web-development-101') %>">
-          <div class="course-panel p2">
-            <div class="img-wrapper">
-              <%= image_tag "icons/web_development.png", :width => "80px", :title => "Web Development" %>
+              <div class="copy-wrapper">
+                <h3>
+                  Web Development 101
+                </h3>
+                <p>
+                  Learn the basics of all the technologies you need to build websites
+                </p>
+              </div>
             </div>
+          </a>
 
-            <div class="copy-wrapper">
-              <h3>
-                Web Development 101
-              </h3>
-              <p>
-                Learn the basics of all the technologies you need to build websites
-              </p>
-            </div>
-          </div>
-        </a>
+          <a href="<%= course_path('ruby-programming') %>">
+            <div class="course-panel p3">
+              <div class="img-wrapper">
+                <%= image_tag "icons/ruby.png", :width => "65px", :title => "Ruby Programming" %>
+              </div>
 
-        <a href="<%= course_path('ruby-programming') %>">
-          <div class="course-panel p3">
-            <div class="img-wrapper">
-              <%= image_tag "icons/ruby.png", :width => "65px", :title => "Ruby Programming" %>
+              <div class="copy-wrapper">
+                <h3>
+                  Ruby Programming
+                </h3>
+                <p>
+                  Learn programming fundamentals in Ruby, the language built for programmer happiness
+                </p>
+              </div>
             </div>
+          </a>
 
-            <div class="copy-wrapper">
-              <h3>
-                Ruby Programming
-              </h3>
-              <p>
-                Learn programming fundamentals in Ruby, the language built for programmer happiness
-              </p>
-            </div>
-          </div>
-        </a>
+          <a href="<%= courses_path(:cl => "ror") %>">
+            <div class="course-panel p4">
+              <div class="img-wrapper">
+                <%= image_tag "icons/rails.png", :width => "80px", :title => "Ruby on Rails" %>
+              </div>
 
-        <a href="<%= courses_path(:cl => "ror") %>">
-          <div class="course-panel p4">
-            <div class="img-wrapper">
-              <%= image_tag "icons/rails.png", :width => "80px", :title => "Ruby on Rails" %>
+              <div class="copy-wrapper">
+                <h3>
+                  Ruby on Rails
+                </h3>
+                <p>
+                  Learn to rapidly develop and deploy websites using Ruby on Rails
+                </p>
+              </div>
             </div>
+          </a>
 
-            <div class="copy-wrapper">
-              <h3>
-                Ruby on Rails
-              </h3>
-              <p>
-                Learn to rapidly develop and deploy websites using Ruby on Rails
-              </p>
-            </div>
-          </div>
-        </a>
+          <a href="<%= courses_path(:cl => "html5") %>">
+            <div class="course-panel p5">
+              <div class="img-wrapper">
+                <%= image_tag "icons/html5.png", :width => "80px", :title => "HTML5 and CSS3" %>
+              </div>
 
-        <a href="<%= courses_path(:cl => "html5") %>">
-          <div class="course-panel p5">
-            <div class="img-wrapper">
-              <%= image_tag "icons/html5.png", :width => "80px", :title => "HTML5 and CSS3" %>
+              <div class="copy-wrapper">
+                <h3>
+                  HTML5 and CSS3
+                </h3>
+                <p>
+                  Dive deeper and understand how to really make your websites look good
+                </p>
+              </div>
             </div>
+          </a>
 
-            <div class="copy-wrapper">
-              <h3>
-                HTML5 and CSS3
-              </h3>
-              <p>
-                Dive deeper and understand how to really make your websites look good
-              </p>
-            </div>
-          </div>
-        </a>
+          <a href="<%= courses_path(:cl => "js") %>">
+            <div class="course-panel p6">
+              <div class="img-wrapper">
+                <%= image_tag "icons/javascript2.png", :width => "80px", :title => "Javascript and jQuery" %>
+              </div>
 
-        <a href="<%= courses_path(:cl => "js") %>">
-          <div class="course-panel p6">
-            <div class="img-wrapper">
-              <%= image_tag "icons/javascript2.png", :width => "80px", :title => "Javascript and jQuery" %>
+              <div class="copy-wrapper">
+                <h3>
+                  Javascript and jQuery
+                </h3>
+                <p>
+                  Make your websites dynamic and smooth with Javascript and jQuery
+                </p>
+              </div>
             </div>
+          </a>
 
-            <div class="copy-wrapper">
-              <h3>
-                Javascript and jQuery
-              </h3>
-              <p>
-                Make your websites dynamic and smooth with Javascript and jQuery
-              </p>
-            </div>
-          </div>
-        </a>
+          <a href="<%= courses_path(:cl => "job") %>">
+            <div class="course-panel p7">
+              <div class="img-wrapper">
+                <%= image_tag "icons/job_button2.png", :width => "80px", :title => "Getting Hired" %>
+              </div>
 
-        <a href="<%= courses_path(:cl => "job") %>">
-          <div class="course-panel p7">
-            <div class="img-wrapper">
-              <%= image_tag "icons/job_button2.png", :width => "80px", :title => "Getting Hired" %>
+              <div class="copy-wrapper">
+                <h3>
+                  Getting Hired
+                </h3>
+                <p>
+                  You've got the skills and the portfolio, now how do you get the job?
+                </p>
+              </div>
             </div>
-
-            <div class="copy-wrapper">
-              <h3>
-                Getting Hired
-              </h3>
-              <p>
-                You've got the skills and the portfolio, now how do you get the job?
-              </p>
-            </div>
-          </div>
-        </a>
-        <div class="clearfix"></div>
+          </a>
+          <div class="clearfix"></div>
+        </div>
       </div>
     </div>
   </div>
