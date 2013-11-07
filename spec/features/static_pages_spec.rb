@@ -30,7 +30,7 @@ describe "StaticPages" do
 
     context "as an unauthenticated user" do
       
-      it { should have_selector('h2', "Sign in") }
+      it { should have_selector('h2', :text => "Sign in") }
       it { should have_css('form#footer-suggestion-form') }
 
     end
@@ -57,7 +57,7 @@ describe "StaticPages" do
 
       context "before user chooses a project" do
         it "should have a prompt to choose a project" do
-          subject.should have_selector("p.warning", "Tip:")
+          subject.should have_selector("p.warning", :text => "Tip:")
         end
         it "should not have a change project link" do
           subject.should_not have_link("edit")
@@ -74,7 +74,7 @@ describe "StaticPages" do
           subject.should have_link("edit")
         end
         it "should not have a prompt to choose a project" do
-          subject.should_not have_selector("p.warning", "Tip:")
+          subject.should_not have_selector("p.warning", :text => "Tip:")
         end
       end
 

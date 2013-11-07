@@ -27,10 +27,10 @@ describe "Users" do
         page.source.should have_link(user.github)
       end
       it "should show the about text" do
-        page.source.should have_selector("p",user.about)
+        page.source.should have_selector("p", :text => user.about)
       end
       it "should list the projects the user is working on" do
-        page.source.should have_selector("li",project.name)
+        page.source.should have_selector("li", :text => project.name)
       end
       it "should show the edit button" do
         page.source.should have_selector("button", :text => "Edit")
@@ -93,7 +93,7 @@ describe "Users" do
           page.source.should have_link("facebook")
         end
         it "should show about changes" do
-          page.source.should have_selector("p","New about me")
+          page.source.should have_selector("p", :text => "New about me")
         end
       end
     end
@@ -107,7 +107,7 @@ describe "Users" do
         visit users_path
       end
 
-      it { should have_selector("h2", "Students") }
+      it { should have_selector("h2", :text => "Students") }
       it { should have_link(user.username, :href=>user_path(user)) }
       it { should have_selector("img")}
 

@@ -28,7 +28,7 @@ describe "Sign Up" do
 
       it "should deposit user into courses page" do
         # save_and_open_page
-        subject.should have_selector("h1", "This is Your Path to Learning Web Development")
+        subject.should have_selector("h1", :text => "This is Your Path to Learning Web Development")
       end
       
       it "Should send a welcome email to the user" do
