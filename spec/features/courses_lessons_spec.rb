@@ -133,15 +133,33 @@ describe "Courses and Lessons Pages" do
     end
 
     it "should show something in the lesson body container" do
-      save_and_open_page
       subject.find(:xpath,"//*[@class='individual-lesson ']//*[@class='container']").text.should_not be_empty
     end
 
     context "for projects" do
-      it "should have a special project class"
+
+      let(:project1) { course1.lessons.where(:is_project => :true).first }
+      before do
+        visit lesson_path(course1.title_url, project1.title_url)
+      end
+
+      it "should have a special project class" do
+        xpath = "//*[@class='individual-lesson project-lesson']"
+        subject.should have_xpath(xpath)
+      end
     end
+
     context "for regular lessons" do
-      it "should not have a special project class"
+      
+      let(:non_project1) { course1.lessons.where(:is_project => :false).first }
+      before do
+        visit lesson_path(course1.title_url, non_project1.title_url)
+      end
+
+      it "should not have a special project class" do
+        xpath = "//*[@class='individual-lesson project-lesson']"
+        subject.should_not have_xpath(xpath)
+      end
     end
 
     describe "navigation buttons and links" do
