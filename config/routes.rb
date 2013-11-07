@@ -4,6 +4,7 @@ Theodinproject::Application.routes.draw do
   devise_scope :user do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy', :method => :delete
+    get 'sign_up' => 'devise/registrations#new'
   end
     
 

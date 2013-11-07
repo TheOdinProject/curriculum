@@ -37,6 +37,7 @@ FactoryGirl.define do
     sequence :position do |n| 
       n
     end
+    title_url { title.parameterize }
     association :section
   end
 
@@ -44,6 +45,7 @@ FactoryGirl.define do
     sequence :title do |n|
       "test_section#{n}"
     end
+    title_url { title.parameterize }
     sequence :position do |n| 
       n
     end
@@ -54,6 +56,7 @@ FactoryGirl.define do
     sequence :title do |n|
       "test_course#{n}"
     end
+    title_url { title.parameterize }
     sequence :position do |n| 
       n
     end
