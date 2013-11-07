@@ -1,9 +1,8 @@
 FactoryGirl.define do
 
   factory :user, :aliases => [:creator] do
-    # puts "\n\n\n\nAAAAAAHHHHH\n\n\n"
-    before(:create) do 
-      FactoryGirl.create :lesson
+    before(:create) do |user|
+      user.stub(:send_welcome_email)
     end
     sequence :username do |n|
       "foobar#{n}"
@@ -12,8 +11,6 @@ FactoryGirl.define do
       "foo#{n}@bar.com"
     end
     password "foobar"
-    # puts "\n\n CREATED USER!"
-    # puts "Lessons are: #{Lesson.all.inspect}!"
   end
 
   factory :cal_event do
