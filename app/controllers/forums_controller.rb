@@ -3,7 +3,7 @@ class ForumsController < ApplicationController
   def show
     @is_forum = true;
     @moot_hash = generate_moot_hash
-    puts "\n\n\n @moot_hash is #{@moot_hash}!! \n\n\n"
+    # puts "\n\n\n @moot_hash is #{@moot_hash}!! \n\n\n"
   end
 
   private
