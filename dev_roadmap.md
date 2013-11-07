@@ -34,7 +34,6 @@ It's game on.
 **v0.1.1:  Home Page Redesign 3.0**
 
 * space out buttons a bit better on main topbox
-* Fix basic specs to run (need to create courses/sections etc or remove welcome email somehow from them)
 * Add some real specs for basic display stuff
 * Link GA goal to that page.
 * Create Sitemap for SEO and submit to Google and Bing
@@ -42,7 +41,6 @@ It's game on.
 * Build "next"-style buttons next to the headers on the courses page
 
 Bugs and Miscellanea
-* Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
 * Paginate students
 * Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
 * Make more obvious that you can select multiple projects on prefs
@@ -50,10 +48,12 @@ Bugs and Miscellanea
 * KILL BOOTSTRAP!?!
 * Update failing tests
 * Write basic tests for curriculum section
-* TESTS: Why do some tests only fail intermittantly???
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+SOMEHOW WENT AWAY Why do some tests only fail intermittantly???
+SORTA DONE Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
+DONE Fix basic specs to run (need to create courses/sections etc or remove welcome email somehow from them)
 DONE Clean up old homepage so it's out of the way and not a redirect to homepage2 or whatever
 DONE Fix navbar on home page for already-logged-in-users to show logout link
 DONE Set up redirect for students post-signup for GA to hook onto.
