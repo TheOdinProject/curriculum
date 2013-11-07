@@ -19,6 +19,8 @@ describe Section do
   it { should respond_to(:course) }
   it { should respond_to(:lessons) }
 
+  it { should be_valid }
+
   it "shouldn't allow duplicate positions" do
     s2 = Section.new(attrs)
     s2.course_id = course.id

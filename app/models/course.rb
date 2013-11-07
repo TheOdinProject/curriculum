@@ -7,4 +7,6 @@ class Course < ActiveRecord::Base
   has_many :sections
   has_many :lessons, :through => :sections
 
+  validates_uniqueness_of :position
+
 end

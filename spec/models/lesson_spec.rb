@@ -23,12 +23,12 @@ describe Lesson do
   it { should respond_to(:course) }
   it { should respond_to(:section) }
 
+  it { should be_valid }
+
   it "shouldn't allow duplicate positions" do
     l2 = Lesson.new(attrs)
     l2.section_id = section.id
     l2.save
-    puts l2.inspect
-    puts subject.inspect
     subject.should_not be_valid
   end
 
