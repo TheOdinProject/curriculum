@@ -3,6 +3,7 @@ require 'spec_helper'
 describe "StaticPages" do
 
   subject { page }
+  let(:home_h1) { "Learn Web Development for Free"}
 
   describe "Splash Page" do
 
@@ -13,9 +14,9 @@ describe "StaticPages" do
       subject.source.should have_selector('title', text: "Odin") 
     end
 
-    it { should have_selector('h1', text: "Empowering Aspiring Developers To Learn Together") }
+    it { should have_selector('h1', text: home_h1) }
     it { should_not have_link :href => scheduler_path } # worthless test? It may need the link text too.
-    it { should have_link "VIEW the Curriculum on Github", :href => "http://www.theodinproject.com/curriculum" }
+    it { should have_button "Explore the curriculum" }
     it { should have_link 'Login', :href => login_path }
   end
 
@@ -116,6 +117,7 @@ describe "StaticPages" do
       before { visit root_path }
 
       it { should have_link "Login" }
+      it { should_not have_link "Logout" }
 
       context "after clicking login" do
 
@@ -139,7 +141,7 @@ describe "StaticPages" do
 
       describe "should start on the home page" do
 
-        it { should have_selector('h1', :text => "Empowering Aspiring Developers To Learn Together") }
+        it { should have_selector('h1', :text => home_h1) }
         it { should_not have_link "Logout" }
 
         describe "then click through to login" do
@@ -148,7 +150,7 @@ describe "StaticPages" do
 
           it { should have_selector('h2', :text => "Sign in") }
 
-          describe "then login to land on the scheduler page" do
+          describe "then login to land on the courses page" do
 
             before do
               fill_in "Email", :with => user.email
@@ -156,7 +158,7 @@ describe "StaticPages" do
               click_button "Sign in"
             end
 
-            it { should have_selector('h1', :text => "Start Programming Together" ) }
+            it { should have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
 
             describe "then click logout to sign out to home page" do
 
@@ -164,7 +166,7 @@ describe "StaticPages" do
                 click_link "Logout"
               end
 
-              it { should have_selector('h1', :text => "Empowering Aspiring Developers To Learn Together") }
+              it { should have_selector('h1', :text => home_h1) }
             end
           end
         end
