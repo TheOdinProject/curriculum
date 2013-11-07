@@ -5,6 +5,8 @@ class Lesson < ActiveRecord::Base
   belongs_to :section
   has_one :course, :through => :section
 
+  validates_uniqueness_of :position
+
   def next_lesson
     lessons = self.course.lessons.order("position asc")
     if self.position >= lessons.first.position + lessons.size - 1
