@@ -3,11 +3,15 @@ require 'spec_helper'
 # currently allows overlapping events!!
 
 describe User do
+
   
   subject(:user) { User.new(   
                             :username => "foobar", 
                             :email => "foo@bar.com", 
                             :password => "foobar" ) }
+  before(:each) do
+    subject.stub(:send_welcome_email)
+  end
 
   it { should respond_to(:username) }
   it { should respond_to(:email) }
@@ -63,16 +67,34 @@ describe User do
 
   context "when username is a duplicate" do
     before do
-      User.create(:username => "foobar", :email => "bar@foo.com", :password => "foobar")
+      u = User.new(:username => "foobar", :email => "bar@foo.com", :password => "foobar")
+      u.stub(:send_welcome_email)
+      u.save
     end
     it { should_not be_valid }
   end
 
   context "when email is a duplicate" do
     before do
-      User.create(:username => "barfoo", :email => "foo@bar.com", :password => "foobar")
+      u = User.new(:username => "barfoo", :email => "foo@bar.com", :password => "foobar")
+      u.stub(:send_welcome_email)
+      u.save
     end
     it { should_not be_valid }
+  end
+
+  describe "when saving" do
+
+    it "should call to build preferences" do
+      subject.should_receive(:build_preferences)
+      subject.save
+    end
+
+    it "should call to send a welcome email" do
+      subject.stub(:send_welcome_email)
+      subject.should_receive(:send_welcome_email)
+      subject.save
+    end
   end
 
   context "after saving" do
@@ -83,6 +105,7 @@ describe User do
     describe "it should create a preferences association as well" do
       its(:user_pref) { should_not be_nil }
     end
+
   end
 
 
