@@ -32,7 +32,7 @@ FactoryGirl.define do
 
   factory :lesson do
     sequence :title do |n|
-      "test_lesson#{n}"
+      "test lesson#{n}"
     end
     sequence :position do |n| 
       n
@@ -43,7 +43,7 @@ FactoryGirl.define do
 
   factory :section do
     sequence :title do |n|
-      "test_section#{n}"
+      "test section#{n}"
     end
     title_url { title.parameterize }
     sequence :position do |n| 
@@ -54,7 +54,7 @@ FactoryGirl.define do
 
   factory :course do
     sequence :title do |n|
-      "test_course#{n}"
+      "test course#{n}"
     end
     title_url { title.parameterize }
     sequence :position do |n| 
