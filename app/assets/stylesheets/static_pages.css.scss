@@ -59,7 +59,7 @@
   }
 
   .section{
-    padding: 3.5em 0;
+    padding: 4em 0;
     margin: 0px auto;
     // border-bottom: 1px solid $vlight_gray;
   }
@@ -86,7 +86,7 @@
 
   .navbar{
     padding: 4px 50px 4px 50px;
-    background-color: white;
+    background-color: $vdark_gray;
     .nav-narrow{
       max-width: 1170px;
       margin: 0px auto;
@@ -96,6 +96,7 @@
       padding-right: 10px;
       float: right;
       font-size: .75em;
+      color: $light_gray;
     }
   }
 
@@ -162,7 +163,7 @@
   .social-buttons{
     text-align: center;
     height: 60px;
-    background: url("patterns/cream.png");
+    background: url("patterns/subtle_dark_vertical.png");
     border-bottom: 1px solid #efefef;
   }
 
@@ -225,8 +226,8 @@
   .what-youll-learn{
     clear: both;
     @include black-links;
-    background: url("patterns/tiny_black_checker.gif");
-    // background: url("patterns/subtle_dark_vertical.png");
+    // background: url("patterns/tiny_black_checker.gif");
+    background: url("patterns/subtle_dark_vertical.png");
     h2{
       color: #eee;
     }
@@ -332,9 +333,12 @@
 
   .why-awesome{
     clear: both;
-    background: url("patterns/fabric.png");
+    background: url("patterns/subtle_dark_vertical.png");
     h2{
-      color: #333;
+      color: #eee;
+    }
+    h3{
+      color: #cfcfcf;
     }
     
     .panel-wrapper{
@@ -355,8 +359,9 @@
         }
 
         p{
-          color: $mid_gray;
+          color: #9f9f9f;
           font-size: .75em;
+          font-weight: 400;
         }
         a{
           font-size: .75em;
