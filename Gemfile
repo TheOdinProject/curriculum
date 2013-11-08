@@ -13,6 +13,7 @@ gem 'figaro'                         # Managing environment variables
 gem 'github_api'  # to pull in the curriculum files
 gem 'thin'  # to use the "thin" webserver instead of webrick
 gem 'redcarpet' # to render the curriculum's .md files as html
+gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
