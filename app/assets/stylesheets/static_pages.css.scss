@@ -85,14 +85,15 @@
   }
 
   .navbar{
-    padding: 4px 50px 4px 50px;
+    padding: 0px 50px 0px 50px;
     background-color: $vdark_gray;
+    height: 50px;
     .nav-narrow{
       max-width: 1170px;
       margin: 0px auto;
     }
     .menu-wrapper{
-      padding-top: 10px;
+      padding-top: 15px;
       padding-right: 10px;
       float: right;
       font-size: .75em;
@@ -163,7 +164,7 @@
   .social-buttons{
     text-align: center;
     height: 60px;
-    background: url("patterns/subtle_dark_vertical.png");
+    // background: url("patterns/subtle_dark_vertical.png");
     border-bottom: 1px solid #efefef;
   }
 

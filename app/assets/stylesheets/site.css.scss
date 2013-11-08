@@ -52,7 +52,7 @@ footer {
   float: left;
   display: block;
   margin-left: -20px;
-  margin-top: -4px;
+  // margin-top: -4px;
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 8px;
@@ -83,8 +83,15 @@ footer {
   }
 }
 
+.navbar-inner{
+  // height: 50px!important;
+  // padding-top: 4px;
+  // height: 
+}
 .nav > li > a {
   color: #aaa !important;
+  padding-top: 15px!important;
+  height: 25px!important;
   text-shadow: none !important;
   &:hover{
     color: #ddd !important;
