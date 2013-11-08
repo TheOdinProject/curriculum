@@ -34,14 +34,7 @@ describe "Courses and Lessons Pages" do
           subject.should have_selector("h2", :text => course.title)
         end
       end
-
-      describe "in order" do
-
-        it "by default"
-
-        it "even when positions are swapped"
-
-      end
+      # make it a controller test for the orderings
     end
     context "for inactive courses" do
       it "should say 'coming soon'" do
@@ -89,9 +82,6 @@ describe "Courses and Lessons Pages" do
       subject.should_not have_selector("h3", :text => not_included_section.title)
     end
 
-    it "should be in order"
-    it "should be in order even when positions are swapped" # controller test instead?
-
     context "for projects" do
 
       let(:project1) { course1.lessons.where(:is_project => :true).first }
@@ -123,6 +113,8 @@ describe "Courses and Lessons Pages" do
 
     let!(:course1) { Course.first }
     let!(:lesson1) { course1.lessons.where(:is_project => false).first }
+    let!(:project1) { course1.lessons.where(:is_project => :true).first }
+    let!(:non_project1) { course1.lessons.where(:is_project => :false).first }
 
     before do
       visit lesson_path(course1.title_url, lesson1.title_url)
@@ -137,8 +129,6 @@ describe "Courses and Lessons Pages" do
     end
 
     context "for projects" do
-
-      let(:project1) { course1.lessons.where(:is_project => :true).first }
       before do
         visit lesson_path(course1.title_url, project1.title_url)
       end
@@ -150,8 +140,6 @@ describe "Courses and Lessons Pages" do
     end
 
     context "for regular lessons" do
-      
-      let(:non_project1) { course1.lessons.where(:is_project => :false).first }
       before do
         visit lesson_path(course1.title_url, non_project1.title_url)
       end
@@ -164,22 +152,67 @@ describe "Courses and Lessons Pages" do
 
     describe "navigation buttons and links" do
       
-      it "should have a backlink to the lessons list"
+      # use the second section so we don't overlap with the 
+      # whole curriculum tests
+      let(:second_section) { Section.all[1] }
+      let(:first_sec_lesson){ second_section.lessons.order("position asc").first }
+      let(:second_sec_lesson){ second_section.lessons.order("position asc")[1] }
+      let(:last_sec_lesson){ second_section.lessons.order("position asc").last }
+      let(:next_last_sec_lesson){ second_section.lessons.order("position asc")[-1] }
+      let(:next_sec_first_lesson) { Section.all[2].lessons.order("position asc").first}
+
+      # very first lesson of a course
+      let(:first_lesson){ Lesson.order("position asc").first }
+      # very last lesson of a course
+      let(:last_lesson){ first_lesson.course.lessons.order("position asc").last }
+
+      it "should be a valid section size" do
+        second_section.lessons.count.should >= 4
+      end
+
+      it "should have a backlink to the lessons list" do
+        subject.should have_xpath("//*[@href = \'#{lessons_path(course1.title_url)}\']")
+      end
       
       context "in the middle of a section" do
-        it "should show a next button for the next course"
+        before do
+          visit lesson_path(first_sec_lesson.course.title_url, first_sec_lesson.title_url)
+        end
+        it "should show a next button for the next course" do
+          # save_and_open_page
+          subject.should have_xpath("//*[@href = \'#{lesson_path(second_sec_lesson.course.title_url, second_sec_lesson.title_url)}\']")
+        end
+        it "should have backlinks to the courses directory" do
+          subject.should have_link("Course List", :href => courses_path)
+        end
       end
+
       context "at the end of a section" do
-        it "should show a next button to next section's first course"
+        before do
+          visit lesson_path(last_sec_lesson.course.title_url, last_sec_lesson.title_url)
+        end
+        it "should show a next button to next section's first course" do
+          subject.should have_xpath("//*[@href = \'#{lesson_path(next_sec_first_lesson.course.title_url, next_sec_first_lesson.title_url)}\']")
+        end
       end
+
       context "at the beginning of a course" do
-        it "should not show a backlink to the previous lesson"
+        before do
+          visit lesson_path(first_lesson.course.title_url, first_lesson.title_url)
+        end
+        it "should not show a backlink to the previous lesson" do 
+          subject.should_not have_link("Previous")
+        end
       end
-      context "in the middle of a course" do
-        it "should have backlinks to the courses directory"
-      end
+
       context "at the end of a course" do
-        it "should show the modified next button"
+        before do
+          visit lesson_path(last_lesson.course.title_url, last_lesson.title_url)
+        end
+
+        it "should show the modified next button" do
+          subject.should have_selector("button", :text => "View the Courses Index")
+        end
       end
     end
   end
