@@ -88,7 +88,9 @@
         h2{
           font-size: 2.25em;
           line-height: 1.5em;
-          color: $dark_gray;
+        }
+        a h2{
+          color: $link_color_bootstrap;
         }
       }
 

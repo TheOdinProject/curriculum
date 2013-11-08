@@ -33,15 +33,13 @@ It's game on.
 
 **v0.1.1:  Home Page Redesign 3.0**
 
-* space out buttons a bit better on main topbox
 * Link GA goal to the signup success page.
 * Create Sitemap for SEO and submit to Google and Bing
 * Look into Rich Snippets for content
-* Build "next"-style buttons next to the headers on the courses page
 
 Bugs and Miscellanea
 * Paginate students
-* Set up cookie to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
+* Set up cookie and link to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
 * Make more obvious that you can select multiple projects on prefs
 * Make more obvious the loading icon when waiting for scheduler data
 * KILL BOOTSTRAP!?!
@@ -49,6 +47,8 @@ Bugs and Miscellanea
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DECLINED Build "next"-style buttons next to the headers on the courses page
+DONE space out buttons a bit better on main topbox
 DONE Add some real specs for basic display stuff
 DONE Write basic tests for curriculum section
 SOMEHOW WENT AWAY Why do some tests only fail intermittantly???
