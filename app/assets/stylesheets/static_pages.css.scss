@@ -17,7 +17,7 @@
     font-family: 'Open Sans Condensed', sans-serif;
   }
   h1{
-    font-size: 3.5em;
+    font-size: 4em;
     font-weight: normal;
   }
   h2{
@@ -116,11 +116,11 @@
       }
     }
     .subheading{
-      margin: 0.5em 0 1em 0;
+      margin: 0.65em 0 1em 0;
       text-align: center;
       h2{
         color: #f90;
-        font-size: 1.5em;
+        font-size: 1.75em;
         margin: 0;
         font-weight: normal;
       }
@@ -128,8 +128,8 @@
   }
 
   .cta-box-top-wrapper{
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     .cta-box-top{
       // border: 1px solid rgba(255,255,255,.15);
       @include border-radius(.25em);
@@ -137,26 +137,26 @@
       margin: 0 auto;
       background-color: none;
       text-align: center;
-      width: 360px;
+      width: 400px;
 
-      button{
-        width: 300px;
-        height: 50px;
-        margin: 0 auto;
-        font-size: 1.35em;
-        line-height: 1.25em;
-        font-family: "Open Sans Condensed", sans-serif;
-        @include border-radius(10px);
-      }
       p{
         font-size: .75em;
         font-weight: 300;
         color: white;
-        margin-top: 20px;
+        margin-top: 15px;
       }
     }
   }
 
+  button.cta-button{
+    font-size: 1.75em;
+    line-height: 1.25em;
+    width: 14em;
+    height: 2.5em;
+    margin: .5em auto;
+    font-family: "Open Sans Condensed", sans-serif;
+    @include border-radius(20px);
+  }
 
   
   .social-buttons{
@@ -375,17 +375,17 @@
   .cta-bottom{
     text-align: center;
 
-    button{
-      width: 350px;
-      height: 60px;
-      line-height: 125%;
-      font-size: 26px;
-      padding: 0 20px;
-      margin: 20px;
-      border: 1px solid #999;
-      @include border-radius(.5em);
-      font-family: "Open Sans Condensed", sans-serif;
-    }
+    // button{
+    //   width: 350px;
+    //   height: 60px;
+    //   line-height: 125%;
+    //   font-size: 26px;
+    //   padding: 0 20px;
+    //   margin: 20px;
+    //   border: 1px solid #999;
+    //   @include border-radius(.5em);
+    //   font-family: "Open Sans Condensed", sans-serif;
+    // }
     p{
       color: $light_gray;
     }

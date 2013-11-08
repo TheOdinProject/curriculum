@@ -40,20 +40,14 @@
 
         <div class="cta-box-top-wrapper">
           <div class="cta-box-top">
-            <p>
-              <!-- Learn -->
-            </p>
             <%= link_to lesson_path("introduction-to-web-development" ,"what-a-web-developer-does", :ref => "home") do %>
-              <button class="btn btn-success">
+              <button class="btn btn-success cta-button">
                 Learn what a web developer does
               </button>
             <% end %>
-            <p>
-              <!-- Explore -->
-            </p>  
             <%= link_to courses_path(:ref => "home") do %>
-              <button class="btn btn-success">
-                Explore the curriculum
+              <button class="btn btn-success cta-button">
+                Explore the full curriculum
               </button>
             <% end %>
             <p>
@@ -365,7 +359,7 @@
         Are you curious yet?
       </p>
       <%= link_to curriculum_path do %>
-        <button class="btn btn-success">
+        <button class="btn btn-success cta-button">
           Check out the curriculum!
         </button>
       <% end %>

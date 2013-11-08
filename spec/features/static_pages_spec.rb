@@ -16,7 +16,7 @@ describe "StaticPages" do
 
     it { should have_selector('h1', text: home_h1) }
     it { should_not have_link :href => scheduler_path } # worthless test? It may need the link text too.
-    it { should have_button "Explore the curriculum" }
+    it { should have_button "Explore the full curriculum" }
     it { should have_link 'Login', :href => login_path }
   end
 
