@@ -46,11 +46,11 @@ Bugs and Miscellanea
 * Make more obvious that you can select multiple projects on prefs
 * Make more obvious the loading icon when waiting for scheduler data
 * KILL BOOTSTRAP!?!
-* Update failing tests
-* Write basic tests for curriculum section
+* Someday finish the controller testing for LessonsController and CoursesController with the non-restful routes.
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
 
+DONE Write basic tests for curriculum section
 SOMEHOW WENT AWAY Why do some tests only fail intermittantly???
 SORTA DONE Refactor to Remove all legacy splash stuff (mailers, views, controller actions, routes...)
 DONE Fix basic specs to run (need to create courses/sections etc or remove welcome email somehow from them)
