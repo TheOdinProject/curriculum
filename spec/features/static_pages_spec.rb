@@ -44,7 +44,7 @@ describe "StaticPages" do
         visit scheduler_path
       end
 
-      it { should have_selector('h1', :text => "Start Programming Together") }
+      it { should have_selector('h1', :text => "When Are You Free to Pair?") }
       it { should have_css('form#footer-suggestion-form') }
 
       describe "navbar" do

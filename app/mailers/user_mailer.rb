@@ -18,7 +18,7 @@ class UserMailer < ActionMailer::Base
     begin
       attachments.inline['logo.gif'] = File.read(view_context.asset_path('odin_head_silhouette_2_circle_simple_transparent_darker.gif'))
     rescue
-      puts "Couldn't find the logo image"
+      puts "Couldn't find the logo image for the welcome email"
     end
       return mail(
         :subject => "Getting started with The Odin Project",
