@@ -17,6 +17,11 @@ body {
 .nav-spacer{
   padding-top: 51px;
 }
+@media (max-width: 979px){
+  .nav-spacer{
+    display:none;
+  }
+}
 
 footer {
 
@@ -36,7 +41,9 @@ footer {
   }
 
   #feedback-text-box{
-    width: 35em;
+    width: 100%;
+    max-width: 35em;
+    margin: .5em 0;
   }
   .footer-links{
     color: $light_gray;

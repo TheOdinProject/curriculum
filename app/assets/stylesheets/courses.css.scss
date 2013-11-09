@@ -36,7 +36,8 @@
   }
 
   .container{
-    width: 46em;
+    max-width: 46em;
+    padding: 1em;
   }
 
   .heading-box{
@@ -137,6 +138,14 @@
           }
         }
       }
+      @media (max-width: 979px){
+        .teaser{
+          width: 100%;
+        }
+        .course-content{
+          width: 100%;
+        }
+      }
     }
     .inactive{
       opacity: .35;
@@ -233,5 +242,22 @@
   .back-link{
     text-align: center;
     margin: 1em 0 ;
+  }
+  @media (max-width: 979px){
+    .lesson{
+      width: 100%;
+      max-width: 46em;
+    }
+    .lesson-content{
+      max-width: 38em;
+      width: 100%;
+    }
+    .lesson-number{
+      position: relative;
+      width: 100%;
+      h3{
+        text-align: left;
+      }
+    }
   }
 }

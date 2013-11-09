@@ -64,7 +64,7 @@
     line-height: 1.5em;
   }
   .container{
-    width: 32em;
+    max-width: 32em;
   }
 
   .project-content h1, .project-content h2{
@@ -181,7 +181,6 @@
 
 #lesson-nav{
   height: 1.75em;
-  z-index: 100;
   width: 100%;
   display: inline-block;
   font-size: .75em;
@@ -202,6 +201,7 @@
 @media (max-width: 979px) { 
   #lesson-nav{
     position: absolute;
+    z-index: -100;
   }
 }
 
