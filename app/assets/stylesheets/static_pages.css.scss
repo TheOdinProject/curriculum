@@ -139,7 +139,7 @@
       margin: 0 auto;
       background-color: none;
       text-align: center;
-      width: 400px;
+      // width: 400px;
 
       p{
         font-size: .75em;
@@ -153,8 +153,9 @@
   button.cta-button{
     font-size: 1.75em;
     line-height: 1.25em;
-    width: 14em;
-    height: 2.5em;
+    width: 100%;
+    max-width: 14em;
+    min-height: 2.5em;
     margin: .5em auto;
     font-family: "Open Sans Condensed", sans-serif;
     @include border-radius(20px);
@@ -197,7 +198,7 @@
     }
     
     .about-panels{
-      width: 750px;
+      max-width: 750px;
       margin: 30px auto;
 
       .about-panel{
@@ -240,8 +241,10 @@
       margin: 0px auto;
 
       .course-panel{
-        width: 500px;
-        height: 100px;
+        // float: center;
+        width: 100%;
+        max-width: 500px;
+        min-height: 100px;
         padding: 20px 40px;
         // margin-left: 1em;
         margin: 0 auto;
@@ -252,12 +255,16 @@
         .img-wrapper{
           width: 80px;
           height: 90px;
+          padding-right: 20px;
           float: left;
-          margin-right: 1.75em;
+          // margin-right: 1.75em;
           border: none;
         }
         .copy-wrapper{
           height: 90px;
+          width: 100%;
+          max-width: 400px;
+          float: right;
           h3{
             margin-top: -.1em;
             margin-bottom: .25em;
@@ -266,8 +273,14 @@
           p{
             font-weight: 300;
             color: #9f9f9f;
-            margin-left: 7.75em;
+            // margin-left: 7.75em;
           }
+        }
+      }
+      @media (max-width: 979px){
+        .course-panel{
+          padding-left: 0;
+          padding-right: 0;
         }
       }
 
@@ -301,13 +314,13 @@
 
       .panel{
         float: left;
-        width: 350px;
+        max-width: 350px;
         padding: 0 25px;
         margin: 15px 0;
         text-align: center;
 
         .img-wrapper{
-          width: 300px;
+          max-width: 300px;
           height: 150px;
           margin: 0 auto;
         }
@@ -319,12 +332,12 @@
       padding-top: 2em;
 
       .img-wrapper{
-        width: 500px;
+        max-width: 500px;
         height: 200px;
         margin: 0 auto;
       }
       .copy-wrapper{
-        width: 450px;
+        max-width: 450px;
         margin: 0 auto;
       }
     }
