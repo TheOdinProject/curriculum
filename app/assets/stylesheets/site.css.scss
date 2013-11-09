@@ -27,7 +27,7 @@ footer {
 
   background-color: $vdark_gray;
   border-top: 1px solid $vlight_gray;
-  padding: 2em 1em;
+  padding: 1.5em 1em;
   text-align: center;
   font-size: .8em;
   // margin-top: 50px;
@@ -38,6 +38,7 @@ footer {
   }
   form{
     // float: left;
+    margin: 0 auto;
   }
 
   #feedback-text-box{
@@ -49,7 +50,7 @@ footer {
     color: $light_gray;
     a{
       display: inline-block;
-      margin: 0 2.5em;
+      margin: 0 2.5em .5em;
     }
   }
 }

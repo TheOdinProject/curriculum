@@ -1,5 +1,13 @@
 <footer id="footer">
 
+  <div class="footer-links">
+    <%= link_to "Blog", "http://1000hours.io" %>
+    <%= link_to "About", about_path %>
+    <%= link_to "FAQ", faq_path %>
+    <%= link_to "Contact", contact_path %>
+    <%= link_to "Contributing", contributing_path %>
+    </span>
+  </div>
   <div class="footer-form">
     <form id="footer-suggestion-form" class="form-inline" action="<%= suggestion_path %>" method="post" data-remote="true">
 
@@ -14,14 +22,6 @@
     </form>
   </div>
 
-  <div class="footer-links">
-    <%= link_to "Blog", "http://1000hours.io" %>
-    <%= link_to "About", about_path %>
-    <%= link_to "FAQ", faq_path %>
-    <%= link_to "Contact", contact_path %>
-    <%= link_to "Contributing", contributing_path %>
-    </span>
-  </div>
 </footer>
 
 <script>
