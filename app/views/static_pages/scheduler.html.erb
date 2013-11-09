@@ -1,10 +1,11 @@
 <%= content_for :title, "The Odin Project -- Scheduler" %>
 
 <div class="container" id="scheduler">
-  <h1>Start Programming Together</h1>
+  <h1>When Are You Free to Pair?</h1>
+  <a id="instructions-link">>> Show Instructions</a>
 
   <div class="row">
-    <div class="span4">
+    <div class="span4 instructions-sidebar">
       <!-- <a onclick="displayEvents()">Events</a> -->
       <h4>Tips and Instructions</h4>
       <br>
@@ -35,18 +36,11 @@
 
       <h5>What's next?</h5>
       <p>
-        This tool is under active development so we're hoping to roll out some new features in the next several weeks, all based on the feedback we receive from users!  It's <a href="http://github.com/TheOdinProject/theodinproject" target="_blank">open sourced on Github</a> if you're curious.  Right now the plan is:
+        This tool is under development! Want to help?
       </p>
-      <ol>
-        <li> Improve the overall site UX </li>
-        <li> Focus on improving user privacy by letting the tool handle most of the user scheduling stuff (whereas right now you're meant to reach out directly to the other person via email).</li>
-        <li> Integrate with students' normal calendar workflow (e.g. their Google Calendar)</li>
-        <li> <a href="mailto:project@theodinproject.com">Suggest something!</a></li>
-      </ol>
     </div>
 
-    <div class="span8">
-      <h4>When are you available?</h4>
+    <div id="calendar-container" class="span12">
       <% if current_user.content_buckets.empty? %>
         <p class="warning">Tip: <%= link_to "select a project", edit_user_pref_path %> to see the availability of other people too!</p>
       <% else %>
@@ -69,6 +63,7 @@
               center: 'title',
               right: 'month,agendaWeek,agendaDay'
             },
+            height: 500,
             defaultView: 'agendaWeek',
             ignoreTimezone: false,
             firstHour: 8,
@@ -160,6 +155,35 @@
           }).ajaxStop(function () { 
             $("#ajax-load").hide(); 
           });
+
+          // Listen for instructions clicks to slide it out
+          $("#instructions-link").click(function(e){
+            console.log("clicked");
+            sidebar = $(".instructions-sidebar");
+            link = $(e.target);
+
+            if(link.data("shown") == 'true'){
+              sidebar.hide("slide", { direction: "left" }, 1000);
+              link.text(">> Show Instructions");
+              link.data("shown",'false');
+              $("#calendar-container").removeClass("span8");
+              $("#calendar-container").addClass("span12");
+              $("#calendar").fullCalendar('render');
+            }
+            else{
+              sidebar.show("slide", { direction: "left" }, 1000)
+              link.text("<< Hide Instructions");
+              link.data("shown", 'true');
+              $("#calendar-container").removeClass("span12");
+              setTimeout(
+                function() 
+                {
+                  $("#calendar-container").addClass("span8");
+                  $("#calendar").fullCalendar('render');
+                  //do something special
+                }, 1000);
+            }
+          })
         });
 
 
@@ -329,22 +353,7 @@
         }
 
       </script>
-      <style>
-        #calendar {
-          min-width: 600px;
-          margin: 0 auto;
-        }
-        textarea#edit-event-info {
-          width: 100%;
-          height: 130px;
-          margin-top: 10px;
-        }
-        #delete-link {
-          margin-top: 10px;
-          margin-left: 8px;
-          display: inline-block;
-        }
-      </style>
+
       <div id='calendar'></div>
 
     </div>
