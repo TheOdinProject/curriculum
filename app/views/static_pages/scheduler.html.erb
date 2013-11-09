@@ -50,8 +50,8 @@
       <% if current_user.content_buckets.empty? %>
         <p class="warning">Tip: <%= link_to "select a project", edit_user_pref_path %> to see the availability of other people too!</p>
       <% else %>
-        <p class="filters">Showing availability for: <strong>
-          <%= current_user.content_buckets.map(&:name).join(", ") %></strong>
+        <p class="filters">Showing availability for: <span class="filter-items">
+          <%= current_user.content_buckets.map(&:name).join(", ") %></span>
           <sup> <%= link_to "edit", edit_user_pref_path %></sup>
         </p>
       <% end %>

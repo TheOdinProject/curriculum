@@ -36,11 +36,11 @@ It's game on.
 
 Bugs and Miscellanea
 * Set up cookie and link to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
-* Make more obvious the loading icon when waiting for scheduler data
 * KILL BOOTSTRAP!?!
 * Someday finish the controller testing for LessonsController and CoursesController with the non-restful routes.
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
 
+DONE Make more obvious the loading icon when waiting for scheduler data
 DONE Make more obvious that you can select multiple projects on prefs
 DONE Make the site better on small screens
 DONE Darken navbar and footer and resize bars appropriately

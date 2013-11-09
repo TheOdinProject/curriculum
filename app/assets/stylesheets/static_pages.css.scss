@@ -452,7 +452,11 @@
     background-color: #Fbb;
   }
   p.filters{
-    font-size: 110%;
+    font-size: 1rem;
+    line-height: 1.25em;
+  }
+  .filter-items{
+    color: $light_gray;
   }
   #time-zone{
     font-size: 10px;
@@ -463,12 +467,16 @@
   }
 }
 #ajax-load{
+  font-size: 1.5em;
+  line-height: 1em;
   color: #0d0;
-  background-color: $background_color;
+  // text-shadow: 1px 1px 1px gray;
+  // background-color: $background_color;
   position: fixed;
-  top: 45px;
-  left: 20px;
-  display: none;
+  top: 10px;
+  left: 45%;
+  z-index: 100000;
+  // display: none;
 }
 .eventInfo{
   /*font-size: 75%;*/
