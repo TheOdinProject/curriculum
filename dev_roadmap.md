@@ -1,4 +1,4 @@
-== Welcome to The Odin Project v0.1.0
+== Welcome to The Odin Project v0.1.1
 
 It's game on.
 
@@ -17,7 +17,7 @@ It's game on.
 **************************  Major Roadmap  **************************
 *********************************************************************
 
-(current dev version) 0.1.1:  Homepage Redesign 3.0
+(current dev version) 0.1.2:  ???
 0.1.?: Feedback mechanism
 0.1.?: Progress tracking
 * Signup current/next design
@@ -31,8 +31,7 @@ It's game on.
 **********************  Current Dev Version TODOs *******************
 *********************************************************************
 
-**v0.1.1:  Home Page Redesign 3.0**
-
+**v0.1.2: Bug Fixes**
 
 Bugs and Miscellanea
 * Set up cookie and link to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
@@ -40,6 +39,38 @@ Bugs and Miscellanea
 * Figure out why the logo image can't be found for attachment to the welcome email
 * Someday finish the controller testing for LessonsController and CoursesController with the non-restful routes.
 * Bug: when getting referred directly to /scheduler?cb=12345 (e.g. http://www.theodinproject.com/scheduler?cb=3), then immediately clicking into Preferences and removing that project, the redirect from Preferences takes you back to the same referral URL so the project is immediately added back on ... an infinite process.  Need to clear the query string or something to prevent this.
+
+
+
+
+*********************************************************************
+**********************  General Sandbox  ****************************
+*********************************************************************
+
+>> WRITE JAVASCRIPT TESTS
+>>>> calendar basic display, calendar population, event creation
+
+> USERS
+>> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
+
+
+---- Issues and Gotchas ----
+>> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
+>> Currently allows you to write overlapping calendar events
+
+---- Future stuff ----
+
+
+http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
+https://gist.github.com/zhengjia/428105
+
+
+********************************************************************
+***********************  Version Archive  **************************
+********************************************************************
+
+************
+v0.1.1:  Home Page Redesign 3.0, bug fixes
 
 DONE Make more obvious the loading icon when waiting for scheduler data
 DONE Make more obvious that you can select multiple projects on prefs
@@ -73,34 +104,6 @@ DONE Create footer with Blog and About and Why Odin links
 DONE Move scheduler and community and students links under dropdown
 DONE Review intended user flows and objectives
 DONE Fix "How do we Pair" link on Scheduler Page
-
-
-
-*********************************************************************
-**********************  General Sandbox  ****************************
-*********************************************************************
-
->> WRITE JAVASCRIPT TESTS
->>>> calendar basic display, calendar population, event creation
-
-> USERS
->> Make a dynamic route matcher to show the user profiles so you can just go to the /users/foobar link instead of /users/1 (hide the IDs)
-
-
----- Issues and Gotchas ----
->> handle all-day events (midnight to midnight-1)?  But what about min-time constraints?  erb... sensing bug that will come up if someone wants to book 1 hour from an all dayer @ 11pm...
->> Currently allows you to write overlapping calendar events
-
----- Future stuff ----
-
-
-http://everydayrails.com/2012/04/07/testing-series-rspec-controllers.html
-https://gist.github.com/zhengjia/428105
-
-
-********************************************************************
-***********************  Version Archive  **************************
-********************************************************************
 
 ************
 v0.1.0: Bug fixes, Curriculum UI / Navigation improvements,
