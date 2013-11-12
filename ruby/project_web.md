@@ -18,7 +18,8 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 ### Your Task
 
-1. [This project/tutorial from Jumpstart Lab](http://tutorials.jumpstartlab.com/projects/microblogger.html) takes you through how to authenticate with Twitter and start tweeting.  Don't worry about the last part on Klout.
+1. [Do this project/tutorial from Jumpstart Lab](http://tutorials.jumpstartlab.com/projects/microblogger.html).  It will take you through how to authenticate with Twitter and start tweeting.  
+2. Don't worry about the last part on Klout.
 
 
 ## Student Solutions
