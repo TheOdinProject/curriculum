@@ -33,6 +33,9 @@ It's game on.
 
 **v0.1.2: Bug Fixes**
 
+* Unfix the navbar and/or collapse it into a slim and awesome fixed nav that follows you down the screen.
+DONE Add sitemap
+
 Bugs and Miscellanea
 * Set up cookie and link to send user back to last viewed curriculum spot... note that there will be annoying redirect loop issues if not careful.
 * KILL BOOTSTRAP!?!  Only needed for: Navbar dropdown, button styles...

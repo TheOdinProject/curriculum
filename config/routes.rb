@@ -5,6 +5,7 @@ Theodinproject::Application.routes.draw do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy', :method => :delete
     get 'sign_up' => 'devise/registrations#new'
+    get 'signup' => 'devise/registrations#new'
   end
     
 
@@ -44,5 +45,7 @@ Theodinproject::Application.routes.draw do
   resources :splash_emails, :only => [:create]
 
   resource :forum, :only => [:show]
+
+  get "sitemap.xml" => "sitemap#index", :as => "sitemap", :defaults => { :format => "xml" }
 
 end
