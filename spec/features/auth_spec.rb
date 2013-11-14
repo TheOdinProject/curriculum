@@ -43,7 +43,7 @@ describe "Authentication" do
 
         describe "then click through to login" do
 
-          before { click_link :href=>login_path }
+          before { click_link "Login" }
 
           it { should have_selector('h2', :text => "Sign in") }
 
