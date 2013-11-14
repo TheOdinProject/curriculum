@@ -10,11 +10,11 @@
             <%= render :partial => "shared/logo_text" %>
           </div>
           <div class="menu-wrapper">
-            <%= link_to "Curriculum", curriculum_path %> |
+            <%= link_to "Curriculum", curriculum_path(:ref => "homenav") %> |
             <% if current_user %>
-              <%= link_to "Logout", logout_path %>
+              <%= link_to "Logout", logout_path(:ref => "homenav") %>
             <% else %>
-              <%= link_to "Login", login_path %>
+              <%= link_to "Login", login_path(:ref => "homenav") %>
             <% end %>
           </div>
           <div class="clearfix"></div>
