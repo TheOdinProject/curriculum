@@ -29,12 +29,12 @@ xml.urlset(
 
   # Main courses index
   xml.url do
-    xml.loc "#{courses_path}"
+    xml.loc "#{courses_url}"
     xml.changefreq("monthly")
     xml.priority(1.00)
   end
   xml.url do
-    xml.loc "#{curriculum_path}"
+    xml.loc "#{curriculum_url}"
     xml.changefreq("monthly")
     xml.priority(0.80)
   end
