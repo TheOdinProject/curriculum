@@ -49,8 +49,9 @@
     1. Read rails guides, do Hartl chapter(s)
 4. Controllers -- Actions are methods, params, rendering, deleted, 
     1. Read rails guides, build simple error-reading-walkthrough of creating a simple rails app, do Hartl chapter(s)
-     
 5. Views -- ERB, templates, partials, helper files, basic layouts
+    6. read rails guides, do the Hartl chapter(s)
+
 6. Basic forms -- recall your html, input types (incl hidden) and names and labels, build from scratch, then helpers, then with validations, cover mass assignment, structure of params and nesting params, making PUT/PATCH and DELETE requests, 
     1. Read rails guide, build basic form from scratch and submit, then build using rails helpers
 3. Learning the Intermediates -- cookies, controller filters, sessions in rails, flashes (state) and errors, escaping html, asset pipeline and asset helpers, multiple render errors.
@@ -73,7 +74,7 @@
     4. Factories
     5. etc.
 1. Beyond -- reread all sections of the Rails Guides, including the wones you skipped.
-2. 
+2. Security http://guides.rubyonrails.org/security.html
 
 
 
