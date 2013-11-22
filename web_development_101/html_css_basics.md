@@ -36,3 +36,4 @@ As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html),
 ## Additional Resources
 * If you're rearing to get more in-depth, check out [TutsPlus' free 30 Days To Learn HTML and CSS Course](http://freecourses.tutsplus.com/30-days-to-learn-html-and-css/)
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
+* [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.

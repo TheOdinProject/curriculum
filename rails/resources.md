@@ -47,9 +47,9 @@
 1. Hartl Tutorial -- space out chapters with the material
 3. Routing -- resources, helpers, REST mapping, rake routes, :only and :except, :root, :id 
     1. Read rails guides, do Hartl chapter(s)
-
 4. Controllers -- Actions are methods, params, rendering, deleted, 
     1. Read rails guides, build simple error-reading-walkthrough of creating a simple rails app, do Hartl chapter(s)
+     
 5. Views -- ERB, templates, partials, helper files, basic layouts
 6. Basic forms -- recall your html, input types (incl hidden) and names and labels, build from scratch, then helpers, then with validations, cover mass assignment, structure of params and nesting params, making PUT/PATCH and DELETE requests, 
     1. Read rails guide, build basic form from scratch and submit, then build using rails helpers

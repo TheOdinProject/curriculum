@@ -85,7 +85,7 @@ Migrations don't involve writing SQL, but you do need to understand enough about
 
 These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases.  
 
-Start with the [Databases section of Web Development 101](/curriculum/web_development_basics/web_programming_basics/database_basics.md).  If you get the itch to keep going, do the [Databases section of the curriculum](/curriculum/databases/), which you should have already done before getting here anyway.
+If that's the case, start with the [Databases section of Web Development 101](/curriculum/web_development_basics/web_programming_basics/database_basics.md).  If you get the itch to keep going, do the [Databases section of the curriculum](/curriculum/databases/), which you should have already done before getting here anyway.
 
 ### Your Assignment
 
