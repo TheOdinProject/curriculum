@@ -51,9 +51,9 @@
     1. Read rails guides, build simple error-reading-walkthrough of creating a simple rails app, do Hartl chapter(s)
 5. Views -- ERB, templates, partials, helper files, basic layouts
     6. read rails guides, do the Hartl chapter(s)
-
 6. Basic forms -- recall your html, input types (incl hidden) and names and labels, build from scratch, then helpers, then with validations, cover mass assignment, structure of params and nesting params, making PUT/PATCH and DELETE requests, 
     1. Read rails guide, build basic form from scratch and submit, then build using rails helpers
+
 3. Learning the Intermediates -- cookies, controller filters, sessions in rails, flashes (state) and errors, escaping html, asset pipeline and asset helpers, multiple render errors.
 7. More Activerecord: Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, callbacks, transactions
     1. http://guides.rubyonrails.org/active_record_callbacks.html
