@@ -60,7 +60,7 @@ In the above code, if we had accidentally used `<%=` in the loop line, e.g. `<%=
 
 ### How Do Preprocessors Work?
 
-The important thing to note about the above code execution is that it is all done on the server BEFORE the final HTML file is shipped over to the browser.  That's because, when you render your template in Rails, it first runs "preprocessors" like ERB.  It knows you want to preprocess the file because it has the extension `.html.erb`.  
+The important thing to note about the above code execution is that it is all done on the server BEFORE the final HTML file is shipped over to the browser (part of the Asset Pipeline, covered in the next lesson).  That's because, when you render your template in Rails, it first runs "preprocessors" like ERB.  It knows you want to preprocess the file because it has the extension `.html.erb`.  
 
 Rails starts from the outside in with extra extensions.  So it first processes the file using ERB, then treats it as regular HTML.  That's fine because ERB by definition outputs good clean HTML, like we saw above.  
 

@@ -1,10 +1,8 @@
-# Intermediate Rails Topics
+# The Asset Pipeline
 
 ## Introduction
 
-You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about several topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
-
-We'll get into how Rails handles the Asset Pipeline and other misfit topics like how to run code before or after a controller action, how to display errors to the user nicely, and how to escape HTML text.
+You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about the Asset Pipeline and a few other topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
 
 ## The Asset Pipeline
 
@@ -108,27 +106,38 @@ The asset pipeline functions a bit differently in development mode.  If you look
 
 For images, the asset pipeline keeps them in the `/assets` directory unless you've made your own subdirectories.  Use `image_tag`'s to avoid confusion, e.g. `<%= image_tag "fuzzy_slippers.jpg" %>`.
 
-## Controller Filters
+### Preprocessors
 
+Remember the preprocessors we talked about in the previous lesson on Views?  Filetypes like ERB and SASS and HAML and Coffeescript all get preprocessed as part of the pipeline.
 
+## Un-Escaping HTML
 
-## Flashes and Errors
+Let's say you're building a blog and you want to be able to write posts that include HTML code.  If you just write something like `this is the <strong>BODY</strong> of my post` and then try to display it in a view later, the `<strong>`tags will just be regular text... they will literally say '<strong\>'.  That's called "escaping" the characters.
 
+To get your views to actually render HTML as HTML, you need to let Rails know that the code is safe to run.  Otherwise, it's easy for a malicious attacker to inject code like `<script>` tags that cause major issues when you try to render them.  
 
+To tell Rails a string is safe, just use the method `raw` in your view template, for example:
 
-## Escaping HTML
+    <%= raw "<p>hello world!</p>" %>   <!-- this will create real <p> tags -->
 
+If you don't want to rely on Rails' native behavior and would like to make absolutely sure the HTML does not get run, use the `CGI` class's `escapeHTML` method, e.g.
 
+    CGI::escapeHTML('usage: foo "bar" <baz>')
+    # => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
 
-## Rendering Multiple Times
+## Your Assignment
 
+Some necessary and straightforward reading on the Asset Pipeline:
+
+1. Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
 
 
 ## Conclusion
 
-
+The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.  
 
 ## Additional Resources
 
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
+* [Stack Overflow on Escaping HTML in Rails](http://stackoverflow.com/questions/692921/rails-how-to-html-encode-escape-a-string-is-there-a-built-in)
 
