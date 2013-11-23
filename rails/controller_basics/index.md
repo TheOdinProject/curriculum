@@ -66,6 +66,22 @@ So the thing to pay attention to is that, if we successfully are able to save ou
 
 The error condition in the `#create` action above is going to render the same form that we rendered in the `#new` action, though this time @post will be the post object that we tried and failed to save, so it will also have some errors attached to it which can be used to highlight in red which form fields were the culprits.  
 
+### Multiple Render/Redirects
+
+It's important to note that `render` and `redirect_to` do NOT immediately stop your controller action like a `return` statement would.  So you have to be really careful that your logic doesn't result in you running more than one of those statements.  If you do, you'll get hit with an error.  They're usually pretty straightforward to debug.
+
+If you write something like:
+
+    def show
+      @user = User.find(params[:id])
+      if @user.is_male?
+        render "show-boy"
+      end
+      render "show-girl"
+    end
+
+In any case where the user is male, you'll get hit with a multiple render error because you've told Rails to render both "show-boy" and "show-girl".
+
 ## Params and Strong Parameters
 
 In the example above, we saw `... code here to set up a new @post based on form info ...`.  Okay, how do we grab that info?  We keep saying that the router packages up all the parameters that were sent with the original HTTP request, but how do we access them?
