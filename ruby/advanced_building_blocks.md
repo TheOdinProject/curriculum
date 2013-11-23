@@ -116,11 +116,10 @@ This lesson gets more into the topics you may have been shaky on before like *Co
 3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
 
     1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
-    2. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
     2. [Ruby Explained: Iteration](http://www.eriktrautman.com/posts/ruby-explained-iteration)
     3. [Ruby Explained: Blocks, Procs, and Lambdas, aka "Closures"](http://www.eriktrautman.com/posts/ruby-explained-blocks-procs-and-lambdas-aka-closures)
     5. [Ruby Explained: Map, Select, and Other Enumerable Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
-    6. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
+    2. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
 
 ## Test Yourself
 
