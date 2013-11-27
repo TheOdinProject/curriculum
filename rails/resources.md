@@ -54,13 +54,13 @@
 6. Basic forms -- recall your html, input types (incl hidden) and names and labels, build from scratch, then helpers, then with validations, cover mass assignment, structure of params and nesting params, making PUT/PATCH and DELETE requests, 
     1. Read rails guide, build basic form from scratch and submit, then build using rails helpers
 3. The Asset Pipeline: escaping html, asset pipeline and asset helpers
-7. Activerecord Queries: Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, 
+7. Activerecord Active Record Queries: Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, 
     http://guides.rubyonrails.org/active_record_querying.html)
     Project: 
-
-4. Sessions, cookies, and Authentication -- controller filters (e.g. before), flashes refresher (covered in controllers), rolling your own with bcrypt and sessions and logging in, current_user, requiring login, Devise   
+4. Sessions, cookies, and Authentication -- controller filters (e.g. before), flashes refresher (covered in controllers), rolling your own with bcrypt and sessions and logging in, current_user, requiring login, Devise Overview
         http://guides.rubyonrails.org/action_controller_overview.html#filters
-1. Advanced ActiveRecord Associations
+
+1. Advanced Active Record Associations
   1. 2.8 through 3.  Skim 4 to see the methods available. http://guides.rubyonrails.org/association_basics.html
 1. ActiveRecord Callbacks: Callbacks and transactions
     1. http://guides.rubyonrails.org/active_record_callbacks.html
@@ -68,7 +68,7 @@
 7. Advanced forms -- nested, associations, pre-populating objects, inverse_of??, 
     1. Project: some sort of crazy nested form submission, starting simple but expanding into nesting then validating that nesting (inverse)
 5. Deployment -- heroku, asset precompilation, common errors, 
-6. APIs -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON,
+6. APIs -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
     1. Project: 1. build a simple api interaction, 2. Do an oauth authenticated app interaction, 3. build your own simple API
 7. Mailers, scheduled tasks
     1. User login welcome emails on an existing project?
