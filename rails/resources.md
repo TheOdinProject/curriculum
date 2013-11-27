@@ -55,7 +55,12 @@
     1. Read rails guide, build basic form from scratch and submit, then build using rails helpers
 3. The Asset Pipeline: escaping html, asset pipeline and asset helpers
 
-7. More Activerecord: Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, callbacks, transactions
+7. Activerecord Queries: Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, 
+    http://guides.rubyonrails.org/active_record_querying.html)
+    Project: 
+1. ActiveRecord Advanced Associations
+  1. 2.8 through 3.  Skim 4 to see the methods available. http://guides.rubyonrails.org/association_basics.html
+1. ActiveRecord Callbacks: Callbacks and transactions
     1. http://guides.rubyonrails.org/active_record_callbacks.html
     1. Project: 
 7. Advanced forms -- nested, associations, pre-populating objects, inverse_of??, 

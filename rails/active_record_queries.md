@@ -1,4 +1,4 @@
-# Advanced Active Record
+# Active Record Queries
 
 ## Introduction
 
@@ -8,7 +8,9 @@ Active Record is much more powerful than just simple CRUD actions on individual 
 
 All this is done at the database level, which is much faster than loading up a whole table of stuff into Ruby objects before parsing and chopping and calculating with it.
 
-In this lesson, we'll get into the more interesting and useful areas of Active Record.  You'll better understand what Active Record actually returns and how to manipulate the returned values at will.
+In this lesson, we'll get into the more interesting and useful areas of Active Record queries.  You'll better understand what Active Record actually returns and how to manipulate the returned values at will.  You'll also learn how to make your queries more efficient along the way.
+
+There's a lot of material to read and cover, but it basically follows the idea "anything you can do in SQL, you can do in Active Record".  They mostly use the same terminology as well.  Active Record just extends that functionality by giving you a suite of versatile methods (and concepts like Relations) to make it much more user-friendly along the way.
 
 ## You Should Understand
 
@@ -190,28 +192,14 @@ Perhaps more useful is the `#pluck` method, which is covered in the same chapter
 
 This is another way to help speed up your application if you've found pain points.  Start by getting rid of N+1 queries, though.
 
-## Callbacks
-
-
-
-## Transactions
-
-## Additional Stuff
-chaps 7-11 http://guides.rubyonrails.org/active_record_querying.html
-
-Find or build chap 16 http://guides.rubyonrails.org/active_record_querying.html
-Existance chap 18 http://guides.rubyonrails.org/active_record_querying.html
-Counting and calculations chap 19 http://guides.rubyonrails.org/active_record_querying.html
-Chap 20 explaining http://guides.rubyonrails.org/active_record_querying.html
-
 ## Your Assignment
 
 1. Read chapter 14 in the [Rails Guide on Querying](http://guides.rubyonrails.org/active_record_querying.html) for a look at Scopes.  Again, you don't necessarily need to memorize all the details of scopes, but understand the concept and when it might be useful.
 * Read Chapter 17 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
 
-## Advanced Associations
-2.8 through 3.  Skim 4 to see the methods available. http://guides.rubyonrails.org/association_basics.html
 ## Conclusion
+
+This was a lot of material, but you should have a healthy appreciation for the breadth of things that you can do with Active Record.  At the most basic level, though, you can do pretty much anything you can in SQL by using Active Record query methods.  You'll get a chance to use some of these newfound query methods in future projects and others will come up when you're building things on your own.
 
 ## Additional Resources
 * [SO post on Using Scopes vs Class Methods](http://stackoverflow.com/questions/5899765/activerecord-rails-3-scope-vs-class-method)
