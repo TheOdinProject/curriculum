@@ -59,9 +59,9 @@
     Project: 
 4. Sessions, cookies, and Authentication -- controller filters (e.g. before), flashes refresher (covered in controllers), rolling your own with bcrypt and sessions and logging in, current_user, requiring login, Devise Overview
         http://guides.rubyonrails.org/action_controller_overview.html#filters
-
-1. Advanced Active Record Associations
+1. Advanced Active Record Associations -- foreign_key, class_name, source, methods
   1. 2.8 through 3.  Skim 4 to see the methods available. http://guides.rubyonrails.org/association_basics.html
+
 1. ActiveRecord Callbacks: Callbacks and transactions
     1. http://guides.rubyonrails.org/active_record_callbacks.html
     1. Project: 
