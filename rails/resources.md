@@ -66,8 +66,9 @@
     1. Project: 
 7. Advanced forms -- nested, associations, pre-populating objects, inverse_of??, 
     1. Project: some sort of crazy nested form submission, starting simple but expanding into nesting then validating that nesting (inverse)
- 
 5. Deployment -- heroku, asset precompilation, common errors, 
+    1. project: Hartl deployment chapter
+ 
 6. APIs -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
     1. Project: 1. build a simple api interaction, 2. Do an oauth authenticated app interaction, 3. build your own simple API
 7. Mailers, scheduled tasks
@@ -80,7 +81,7 @@
     3. Integration
     4. Factories
     5. etc.
-1. Beyond -- reread all sections of the Rails Guides, including the ones you skipped.
+1. Beyond -- reread all sections of the Rails Guides, including the ones you skipped.  Additional reading (recommended books).
 2. Security http://guides.rubyonrails.org/security.html
 
 
