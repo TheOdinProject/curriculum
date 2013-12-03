@@ -61,12 +61,12 @@
         http://guides.rubyonrails.org/action_controller_overview.html#filters
 1. Advanced Active Record Associations -- foreign_key, class_name, source, methods
   1. 2.8 through 3.  Skim 4 to see the methods available. http://guides.rubyonrails.org/association_basics.html
-
 1. ActiveRecord Callbacks: Callbacks and transactions
     1. http://guides.rubyonrails.org/active_record_callbacks.html
     1. Project: 
 7. Advanced forms -- nested, associations, pre-populating objects, inverse_of??, 
     1. Project: some sort of crazy nested form submission, starting simple but expanding into nesting then validating that nesting (inverse)
+ 
 5. Deployment -- heroku, asset precompilation, common errors, 
 6. APIs -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
     1. Project: 1. build a simple api interaction, 2. Do an oauth authenticated app interaction, 3. build your own simple API

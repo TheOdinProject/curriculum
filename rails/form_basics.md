@@ -56,7 +56,7 @@ So, if you want to create your own form that gets handled by Rails, you need to 
 
 What about the other form inputs, the ones we actually care about?
 
-Each one of these inputs is structured slightly differently, but there are some commonalities.  One important thing to note is the `name` attribute that you can give an input tag.  In Rails, that's very important.  The `name` attribute tells Rails what it should call the stuff you entered in that input field when it creates the `params` hash.  For instance,
+Each one of these inputs is structured slightly differently, but there are some commonalities.  One important thing to note is the `name` attribute that you can give to an input tag.  In Rails, that's very important.  The `name` attribute tells Rails what it should call the stuff you entered in that input field when it creates the `params` hash.  For instance,
 
     ...
     <input type="text" name="description">
@@ -142,7 +142,7 @@ The best part about `form_for` is that if you just pass it a model object like `
 
 ## Forms and Validations
 
-What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some Javascript validations to be your first line of defense and they should have caught that... but we'll get into that later on.  In any case, hopefully your controller is set up to re-render the current form.  
+What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some Javascript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.  
 
 You'll probably want to display the errors so the user knows what went wrong.  Recall that when Rails tries to validate an object and fails, it attaches a new set of fields to the object called `errors`.  You can see those errors by accessing `object_name.errors`.  Those errors have a couple of handy helpers you can use to display them nicely in the browser -- `#count` and `#full_messages`.  See the code below:
 
