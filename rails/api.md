@@ -213,6 +213,35 @@ In addition to or instead of API access, many companies provide SDKs (software d
 
 We won't cover SDKs explicitly in this course but they should be well within reach to pick up by reading the documentation.
 
+## Service Oriented Architecture (SOA)
+
+This is a good time to introduce an architectural concept called "Service Oriented Architecture".  The basic idea is that your application will likely have many different services within it, for instance the payments processing, user registration, recommendation engine, etc.  Instead of building all of these under the same master application, you break them out into fully independent pieces and have them talk to each other using internally facing APIs.  
+
+This is good for many reasons.  Because each piece of your application doesn't care the other pieces work and it only knows how to ask for data via their APIs, it allows you to make major changes to the code within a service and the rest of your application works just the same.  You can compeletely substitute one service for another and, as long as it communicates using the same API methods, it's easy.  You can use an external API for a part of your app (like payments) instead of an internal one.  You can have a PHP app talking to a Python app talking to a Rails app and no one cares since they're all communicating using APIs
+
+It's usually a good idea to strive to keep independent pieces of your application as independent as possible anyway.  Formalizing this under the umbrella of SOA forces you to think in terms of exactly which methods you want to expose to the other parts of your application and it will make your code better along the way.  An added benefit is that, when you assume that each major component of your application is independent, you can also isolate issues much easier and will be forced to handle errors in a reasonable way.  They would have happened anyway, but this architectural decision cleans things up markedly.
+
+
+Using an SOA architecure for your whole application is sort of like breaking up a giant and complicated Ruby script into nice neat classes and methods, just on a broader scale. 
+
+One of the best known cases of switching to a service-oriented architecture was Amazon.com.  Sometime in 2002, Jeff Bezos basically dictated that every group would switch to SOA or be fired.  An [infamous blog post](https://plus.google.com/+RipRowan/posts/eVeouesvaVX) from a Google Employee, accidentally released to the public instead of staying internal to the company, talked about Amazon's strength with SOA.  It's a great read so check it out, but the basics of Bezos' email are, as quoted from the post:
+
+    1) All teams will henceforth expose their data and functionality through service interfaces.
+
+    2) Teams must communicate with each other through these interfaces.
+
+    3) There will be no other form of interprocess communication allowed: no direct linking, no direct reads of another team's data store, no shared-memory model, no back-doors whatsoever. The only communication allowed is via service interface calls over the network.
+
+    4) It doesn't matter what technology they use. HTTP, Corba, Pubsub, custom protocols -- doesn't matter. Bezos doesn't care.
+
+    5) All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+
+    6) Anyone who doesn't do this will be fired.
+
+SOA is a big deal.  There are certainly a lot of issues that crop up when you're using it -- see [this post on Amazon's "lessons learned"](http://apievangelist.com/2012/01/12/the-secret-to-amazons-success-internal-apis/) -- but it ultimately has a lot of benefit.
+
+You probably won't be worrying too much about SOA while building "toy" applications for yourself but it will certainly come up if you find yourself working at a tech company and it's a good principle to become familiar with.
+
 ## Your Assignment
 
 1. Read the [Rails Guide on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) section 7 to learn about rendering JSON and XML.
