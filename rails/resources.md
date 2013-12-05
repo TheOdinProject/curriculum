@@ -68,11 +68,11 @@
     1. Project: some sort of crazy nested form submission, starting simple but expanding into nesting then validating that nesting (inverse)
 5. Deployment -- heroku, asset precompilation, common errors, 
     1. project: Hartl deployment chapter
- 
 6. APIs -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
     1. Project: 1. build a simple api interaction with RestClient, 2. Do an oauth authenticated app interaction, 3. build your own simple API
 7. Mailers, scheduled tasks
     1. User login welcome emails on an existing project?
+ 
 8. Advanced topics -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
 8. Final Projects -- rebuilding
 9. ??? Testing with Rails???
@@ -81,6 +81,7 @@
     3. Integration
     4. Factories
     5. etc.
+    6. http://guides.rubyonrails.org/testing.html (TestUnit)
 1. Beyond -- reread all sections of the Rails Guides, including the ones you skipped.  Additional reading (recommended books).
 2. Security http://guides.rubyonrails.org/security.html
 
