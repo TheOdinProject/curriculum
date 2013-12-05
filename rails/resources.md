@@ -70,7 +70,7 @@
     1. project: Hartl deployment chapter
  
 6. APIs -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
-    1. Project: 1. build a simple api interaction, 2. Do an oauth authenticated app interaction, 3. build your own simple API
+    1. Project: 1. build a simple api interaction with RestClient, 2. Do an oauth authenticated app interaction, 3. build your own simple API
 7. Mailers, scheduled tasks
     1. User login welcome emails on an existing project?
 8. Advanced topics -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
