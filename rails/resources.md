@@ -72,8 +72,8 @@
     1. Project: 1. build a simple api interaction with RestClient, 2. Do an oauth authenticated app interaction, 3. build your own simple API
 7. Mailers, scheduled tasks
     1. User login welcome emails on an existing project?
- 
 8. Advanced topics -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
+ 
 8. Final Projects -- rebuilding
 9. ??? Testing with Rails???
     1. Models
