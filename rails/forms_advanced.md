@@ -164,3 +164,5 @@ The best part?  This is more or less the most complicated conceptual stuff with 
 * [accepts_nested_attributes_for documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
 * [Another example of a nested form on SO](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
 * [Using inverse_of to make accepts_nested_attributes_for work for has_many :through relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
+* [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
+* [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)

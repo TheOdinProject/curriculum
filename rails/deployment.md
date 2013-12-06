@@ -127,6 +127,7 @@ Dialing things back to the local environment, here are a few useful things to kn
 We won't have too much reading here because many of the links are interspersed with the sections above.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
 
 1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails4) for a step-by-step guide to deploying.
+2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
 
 ## Conclusion
 
@@ -138,3 +139,4 @@ Best of all, you're officially free to go into the world and build applications 
 
 * [Heroku Custom Domains](https://devcenter.heroku.com/articles/custom-domains) help file
 * [Converting from PostgreSQL to SQLite3](http://manuel.manuelles.nl/blog/2012/01/18/convert-postgresql-to-sqlite/)
+* [Webinar on Using Heroku in Production](https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku)
