@@ -1,4 +1,4 @@
-# Advanced Active Record: Callbacks
+# Active Record Callbacks
 
 ## Introduction
 
