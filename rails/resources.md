@@ -1,55 +1,113 @@
 # Ruby on Rails Roadmap
 
-1. `introduction.md` Intro with throwback to web dev 101 including making sure they did the instantiation of a basic rails project.
-    1. Project: Get your hands dirty (blogger tutorial?) with a rails overview (from web dev 101)
+>>>> Section: Introduction 
 
-2. `web_refresher.md` -- HTTP, MVC, REST, APIs, rails overview from before, Cookies and Sessions and Authentication and Authorization and tokens
-    1. Project: Make some web requests from the command line using bare bones CLI and restclient
+1. `introduction.md` -- Intro with throwback to web dev 101 including making sure they did the instantiation of a basic rails project.
 
-3. `active_record_basics.md` -- validations (uniqueness), associations, queries, validation errors / is_valid?, thinking data first)
-    1. `project_ar_basics.md` -- CLI apps -- 1. simple database query that uses simple associations, 2. moderate database querying that uses validations
+***Project: `project_feet_wet.md`
+  1. Hartl chapter 2 (Scaffold App)
 
-3. `routing.md` -- resources, helpers, REST mapping, rake routes, :only and :except, :root, :id 
-    1. Read rails guides, do Hartl chapter(s)
+2. `web_refresher.md` -- HTTP, MVC, REST, APIs, rails overview from before, Cookies and Sessions and Authentication and Authorization and tokens.
 
-4. `controller_basics.md` -- Actions are methods, params, rendering, deleted, 
-    1. Read rails guides, build simple error-reading-walkthrough of creating a simple rails app, do Hartl chapter(s)
+3. `deployment.md` -- heroku, asset precompilation, common errors, 
 
-5. `views.md` -- ERB, templates, partials, helper files, basic layouts
-    6. read rails guides, do the Hartl chapter(s)
+***Project: `project_intro.md`
+  1. Hartl chapter 3 (Static Pages and Testing Intro) 
+  2. Hartl chapter 4 (Ruby overview). Link back to Ruby testing resources, give good intro.  
 
-6. `form_basics.md` -- recall your html, input types (incl hidden) and names and labels, build from scratch, then helpers, then with validations, cover mass assignment, structure of params and nesting params, making PUT/PATCH and DELETE requests, 
-    1. Read rails guide, build basic form from scratch and submit, then build using rails helpers
+>>>> Section: Views, Controllers and Assets
 
-3. `asset_pipeline.md` -- escaping html, asset pipeline and asset helpers
+1. `routing.md` -- resources, helpers, REST mapping, rake routes, :only and :except, :root, :id 
 
-7. `active_record_queries.md` -- Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, 
-    Project: 
+2. `controller_basics.md` -- Actions are methods, params, rendering, deleted, 
 
-4. `sessions_cookies_authentication.md` -- controller filters (e.g. before), flashes refresher (covered in controllers), rolling your own with bcrypt and sessions and logging in, current_user, requiring login, Devise Overview
+3. `views.md` -- ERB, templates, partials, helper files, basic layouts
 
-1. `active_record_associations.md` -- foreign_key, class_name, source, methods
+4. `asset_pipeline.md` -- escaping html, asset pipeline and asset helpers
 
-1. `active_record_callbacks.md` -- Callbacks and transactions
-    1. Project: 
+***Project: `project_basic_mvc.md`
+  1. Send over some params manually with RestClient
+  1. Hartl chapter 5 (Asset pipeline and layouts)
 
-7. `forms_advanced.md` -- nested, associations, pre-populating objects, inverse_of??, 
-    1. Project: some sort of crazy nested form submission, starting simple but expanding into nesting then validating that nesting (inverse)
+>>>> Section: Databases and ActiveRecord
 
-5. `deployment.md` -- heroku, asset precompilation, common errors, 
-    1. project: Hartl deployment chapter
+1. `databases.md` -- Databases, SQL setup, SQL naming, SQL querying, see ref, (http://sql.learncodethehardway.org/book/), indexes
 
-6. `api.md` -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
-    1. Project: 1. build a simple api interaction with RestClient, 2. Do an oauth authenticated app interaction, 3. build your own simple API
+***Project: `project_databases.md`
+  1. Set up mySQL locally -- done via LCTHW?
+  1. SQL Zoo
+  1. Interaction with databases directly and structuring advanced queries on existing data.
 
-7. `mailers.md` -- Mailers
-    1. User login welcome emails on an existing project?
+2. `active_record_basics.md` -- validations (uniqueness), associations, queries, validation errors / is_valid?, thinking data first)
 
-8. `advanced_topics.md` -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
+***Project: `project_ar_basics.md`
+  1. Data first thought exercises
+  2. Hartl Chapter 6 (Models, Migrations, Validations).
+  3. simple Rails-Console-UI database query app that uses simple associations and validations.  Perhaps reddit?
 
-1. `conclusion.md` -- reread all sections of the Rails Guides, including the ones you skipped.  Additional reading (recommended books).  Security.  Caching. Rake tasks.
+>>>> Section: Forms and Authentication
+
+1. `form_basics.md` -- recall your html, input types (incl hidden) and names and labels, build from scratch, then helpers, then with validations, cover mass assignment, structure of params and nesting params, making PUT/PATCH and DELETE requests, 
+
+***Project: `project_forms.md`
+  1. build basic form (new app) from scratch and submit, 
+  2. then build using rails helpers, 
+  3. Hartl chapter 7 (Form basics and form_for)
+
+2. `sessions_cookies_authentication.md` -- controller filters (e.g. before), flashes refresher (covered in controllers), rolling your own with bcrypt and sessions and logging in, current_user, requiring login, Devise Overview
+
+***Project: `project_auth.md`
+  1. Hartl chapter 9 (using auth, pagination, refactoring).
+  1. Roll your own auth app (clubhouse?)
+
+>>>> Section: Advanced Forms and ActiveRecord
+
+1. `active_record_queries.md` -- Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, 
+
+***Project: `project_queries.md`
+  1. Turning advanced database queries (refer to databases project) into ActiveRecord advanced queries.  Seeded database project?
+
+2. `active_record_associations.md` -- foreign_key, class_name, source, methods
+
+***Project: `project_associations.md`
+  1. Add associations to the previous project.
+  1. Hartl chapter 10 (Associations) -- recall and refresh earlier AR knowledge.
+
+3. `active_record_callbacks.md` -- Callbacks and transactions
+
+***Project: `project_associations_2.md`
+  1. Hartl Chapter 11 (Advanced associations)
+  2. Build an association heavy app from scratch... Eventbrite backend?
+
+4. `forms_advanced.md` -- nested, associations, pre-populating objects, inverse_of??, 
+
+***Project: `project_forms_advanced.md`
+  1. some sort of crazy nested form submission, starting simple but expanding into nesting then validating that nesting (inverse)... kayak? Checkout?
+
+>>>> Section: APIs, Mailers and Advanced Topics
+
+1. `api.md` -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
+
+***Project: `project_api.md`
+  1. Ping around with an existing API with the CLI or a browser plugin
+  1. build a simple api interaction with RestClient 
+  2. Do an oauth authenticated app interaction
+  3. build your own simple API
+
+2. `mailers.md` -- Mailers
+
+***Project: `project_mailers.md`
+  1. Add user login welcome emails to an existing project (Facebook?)?  Ping those mails from the console.
+
+3. `advanced_topics.md` -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
+
+4. `conclusion.md` -- reread all sections of the Rails Guides, including the ones you skipped.  Additional reading (recommended books).  Security.  Caching. Rake tasks.
  
-8. Final Projects -- rebuilding
+***Project: `project_final.md`
+  1. rebuilding AR and Rails?  Facebook?
+
+******************************************************************************
+
 9. ??? Testing with Rails???
     1. Models
     2. Controllers
@@ -58,6 +116,26 @@
     5. etc.
     6. http://guides.rubyonrails.org/testing.html (TestUnit)
 
-TODO: Scheduled Tasks
+TODO: 
+* Scheduled Tasks
+* Deployment rejigger to tie into earlier position
+* 
+
+
+****************
+Hartl:
+1 Setup
+2 Demo App
+3 Static Pages and Testing intro
+4 Ruby refresher
+5 Asset pipeline, layouts
+6 Models, Migrations, Validations
+7 Form basics and form_for. Deployment.
+8 Sessions and Sign in
+9 Using the authorization, Pagination, Refactoring
+10 Associations
+11 more advanced associations
+****************
+
 
 
