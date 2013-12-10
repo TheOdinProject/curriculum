@@ -57,6 +57,7 @@
 2. `sessions_cookies_authentication.md` -- controller filters (e.g. before), flashes refresher (covered in controllers), rolling your own with bcrypt and sessions and logging in, current_user, requiring login, Devise Overview
 
 ***Project: `project_auth.md`
+  1. Hartl chapter 8 (sessions and sign in).
   1. Hartl chapter 9 (using auth, pagination, refactoring).
   1. Roll your own auth app (clubhouse?)
 
