@@ -1,4 +1,7 @@
 # Projects: Active Record Basics
+*Estimated Time: X hrs*
+
+*Don't forget to use Git to save your projects!*
 
 In this project, you'll get to spend some quality time with models.  The tutorial will give you a chance to apply some of what you've learned in a structured environment and then the additional project will give you the chance to do it on your own.
 

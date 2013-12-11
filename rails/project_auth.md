@@ -1,4 +1,7 @@
 # Projects: Authentication
+*Estimated Time: X hrs*
+
+*Don't forget to use Git to save your projects!*
 
 In these projects, you'll be working to implement authentication systems so users can only access areas of a site they are authorized to.  
 

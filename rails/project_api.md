@@ -1,4 +1,7 @@
 # Projects: Building and Using APIs
+*Estimated Time: 3-4 hrs*
+
+*Don't forget to use Git to save your projects!*
 
 ## Warmup: Working With APIs
 

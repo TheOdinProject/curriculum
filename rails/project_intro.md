@@ -1,6 +1,7 @@
 # Project: Web Refresher
+*Estimated Time: X hrs*
 
-Estimated Time: 1 hour
+*Don't forget to use Git to save your projects!*
 
 ## Warmup: RestClient
 
@@ -15,7 +16,6 @@ You may find yourself using Rest Client down the road if you need to communicate
 3. `require 'rest-client'`
 4. Now you're able to play with the gem.  Read its documentation over in the Github repo [HERE](https://github.com/rest-client/rest-client).  You'll end up doing this a whole lot -- using a new gem and going to its repo to check out the documentation, so get familiar with the process early!
 5. Use RestClient to do a Google search and examine the results (you can find the parameters that Google wants in the URL after you make a search in a browser.  Ignore everything after `q=`.  Okay, you just need the `q=searchterm` parameter).
-6. TODO: POST to a form
 
 ### Student Solutions
 
