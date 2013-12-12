@@ -1,23 +1,15 @@
 ## Project: SQL and Databases
-*Estimated Time: X hrs*
+*Estimated Time: 5-10 hrs*
 
 *Don't forget to use Git to save your projects!*
-
-## Warmup: Set Up SQL Locally
-
-To practice with SQL, you'll want to get it set up locally.
-
-### Your Task
 
 ## Project: SQL Zoo
 
 SQL Zoo is one of the few resources online that actually lets you build and run queries against existing tables.  Each tutorial will show you a table and then have you run queries against it to answer specific questions.  Some of the queries, particularly at first, are quite simple.  They definitely get more challenging towards the end and can be real head scratchers.
 
-Note that 
-
 ### Your Task
 
-1. Go to [SQL Zoo](http://sqlzoo.net/wiki/Main_Page) and do all 10 tutorials listed under the "Tutorial Section" and the quizzes listed at the end of each.  The first is the ["Select" tutorial](http://sqlzoo.net/wiki/SELECT_basics).
+1. Go to [SQL Zoo](http://sqlzoo.net/wiki/Main_Page) and do all 10 tutorials listed under the "Tutorial Section" and the quizzes listed at the end of each.  The first is the ["Select" tutorial](http://sqlzoo.net/wiki/SELECT_basics).  Make sure the dropdown on the left of the main page for "Engine" says "MySQL" (the default).  Large results will be cut off and not all rows or columns shown, so the "answers" may not look 100% correct.
 
 ### Student Solutions
 
