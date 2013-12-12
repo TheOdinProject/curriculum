@@ -13,6 +13,8 @@ To practice with SQL, you'll want to get it set up locally.
 
 SQL Zoo is one of the few resources online that actually lets you build and run queries against existing tables.  Each tutorial will show you a table and then have you run queries against it to answer specific questions.  Some of the queries, particularly at first, are quite simple.  They definitely get more challenging towards the end and can be real head scratchers.
 
+Note that 
+
 ### Your Task
 
 1. Go to [SQL Zoo](http://sqlzoo.net/wiki/Main_Page) and do all 10 tutorials listed under the "Tutorial Section" and the quizzes listed at the end of each.  The first is the ["Select" tutorial](http://sqlzoo.net/wiki/SELECT_basics).
