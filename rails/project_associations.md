@@ -25,6 +25,16 @@ As with the previous chapter, just make sure you're writing the test specs in th
 * Do the [Ruby on Rails Tutorial Chapter 10](http://ruby.railstutorial.org/chapters/user-microposts#top), "User microposts".
 
 ## Project 2: Adding Associations
+**************************************************************************
+Two separate projects, one after validations and one after associations.
+
+1. Project: CLI apps -- 
+    
+    1. Simple database setup and query, seeds file
+    2. Database validations
+2. Rails apps
+    2. set up simple associations and validate and query them, seeds file
+    2. Set up complex associations, validations, and  uses validations
 
 TODO
 

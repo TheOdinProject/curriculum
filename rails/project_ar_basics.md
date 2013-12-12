@@ -69,17 +69,6 @@ This chapter of the tutorial will give you a chance to start working with the da
 
 Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of it called `micro-reddit`.  In this project, you'll build the data structures necessary to support link submissions and commenting.  We won't build a front end for it because we don't need to... you can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
 
-**************************************************************************
-Two separate projects, one after validations and one after associations.
-
-1. Project: CLI apps -- 
-    
-    1. Simple database setup and query, seeds file
-    2. Database validations
-2. Rails apps
-    2. set up simple associations and validate and query them, seeds file
-    2. Set up complex associations, validations, and  uses validations
-
 ### Your Task
 
 #### Get Started
