@@ -1,7 +1,5 @@
 # Active Record
 
-validations, associations, queries, validation errors / is_valid?... thinking data-first??? The important skill is knowing data structure of a problem first, then worrying about the rest.
-
 ## Introduction
 
 Presumably you're here to learn web development (otherwise... you may be in the wrong place...).  Whether your goal is to be able to produce your own website or to begin a career as a developer, the most important skillset to take away from all this is the ability to think logically and to break down a problem into its component pieces.  Then you can address those pieces one at a time.  It's the essence of engineering.
@@ -45,7 +43,7 @@ That was really just a teaser about what Active Record can do.  In the reading b
 1. I'm assuming that you've already read and followed along with the example application that was created in the [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html) intro section of the Rails Guides.  If you haven't, do that first!
 2. Read the [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html) section of the Rails Guides.  
 
-    * We'll go more into Migrations and Validations in the next section and Callbacks later in the course.
+    * We'll go more into Migrations and Validations in the next section and in the lesson on Callbacks later in the course.
     * Model files in Rails live in the `app/models` folder and are just normal .rb files.  The key points are that the file is named after the table in your database, the class name is the same (but singular), and that class inherits from ActiveRecord::Base to get its super powers.
 
 ## Migrations
@@ -145,6 +143,8 @@ If you're a normal human, you're probably somewhere between "huh?" and "I hate y
 
 TODO: Stepping back and approaching a project that could be complex, with examples of good model structures.
 
-## Finale
+## Conclusion
 
 TODO: AR is awesome but conceptually can be a strain!
+
+## Additional Resources

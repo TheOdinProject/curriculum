@@ -120,7 +120,7 @@
 TODO: 
 * Scheduled Tasks
 * Deployment rejigger to tie into earlier position
-* 
+* AR Basics conclusion and data tips
 
 
 ****************
