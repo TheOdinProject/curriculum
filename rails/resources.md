@@ -71,14 +71,14 @@
 2. `active_record_associations.md` -- foreign_key, class_name, source, methods
 
 ***Project: `project_associations.md`
-  1. Add associations to the previous project.
+  1. Event planner
   1. Hartl chapter 10 (Associations) -- recall and refresh earlier AR knowledge.
 
 3. `active_record_callbacks.md` -- Callbacks and transactions
 
 ***Project: `project_associations_2.md`
   1. Hartl Chapter 11 (Advanced associations)
-  2. Build an association heavy app from scratch... Eventbrite backend?
+  2. FUTURE: Build an association heavy app from scratch... Eventbrite backend?
 
 4. `forms_advanced.md` -- nested, associations, pre-populating objects, inverse_of??, 
 
@@ -105,7 +105,7 @@
 4. `conclusion.md` -- reread all sections of the Rails Guides, including the ones you skipped.  Additional reading (recommended books).  Security.  Caching. Rake tasks.
  
 ***Project: `project_final.md`
-  1. rebuilding AR and Rails?  Facebook?
+  1. Facebook
 
 ******************************************************************************
 
