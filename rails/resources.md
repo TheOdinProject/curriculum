@@ -59,7 +59,7 @@
 ***Project: `project_auth.md`
   1. Hartl chapter 8 (sessions and sign in).
   1. Hartl chapter 9 (using auth, pagination, refactoring).
-  1. Roll your own auth app (clubhouse?)
+  1. Roll your own auth app (Members Only Secrets)
 
 >>>> Section: Advanced Forms and ActiveRecord
 
