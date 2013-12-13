@@ -98,7 +98,7 @@
 2. `mailers.md` -- Mailers
 
 ***Project: `project_mailers.md`
-  1. Add user login welcome emails to an existing project (Facebook?)?  Ping those mails from the console.
+  1. Add user login welcome emails to an existing project (flight booker).  Ping those mails from the console.
 
 3. `advanced_topics.md` -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
 

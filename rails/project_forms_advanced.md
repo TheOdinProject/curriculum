@@ -20,10 +20,6 @@ Step 4 would be done via integration of something like [Paypal](http://coding.sm
 
 We'll be creating a one-way flight booker.  You'll get lots of practice populating and building dropdown menus, radio buttons, and nested submissions.  Let the fun begin!
 
-You'll need to create some Airport objects for the user to choose between and a bunch of Flight objects of varying from/to airports and times.  
-
-For the first screen, you'll need a dropdown that lists a possible "From" airport and a possible "To" airport. just assume all flights fly between SFO and NYC.  You'll need to set up a dropdown menu that contains all eligible flights.
-
 This project will require you to seed your database, so use your `app/db/seeds.rb` file to write the code necessary to populate Airports and Flights.  One trick for toy apps like this (don't do it for production!) is to make your seeds file `::delete_all` items in your database and then completely repopulate them.  That way, when you create a new model or change how you want your sample data set up, you can just update the `seeds.rb` file and rerun `$ rake db:seed`.
 
 #### Setup
@@ -34,7 +30,9 @@ This project will require you to seed your database, so use your `app/db/seeds.r
 
 #### Screen 1: Search
 
-This is relatively vanilla displaying of forms prepopulated with collections of data.  Working with dates will cover a bit of new ground.
+For the first screen, you'll need a dropdown that lists a possible "From" airport and a possible "To" airport. just assume all flights fly between SFO and NYC.  You'll need to set up a dropdown menu that contains all eligible flights.
+
+This requires relatively vanilla forms that happen to be prepopulated with collections of data.  Working with dates will cover a bit of new ground for you.
 
 3. Create an Airport model (just an airport code like "SFO" or "NYC") and use the `db/seeds.rb` file to create several of them.
 4. Create a Flight model (with the start and finish airports, start datetime, and flight duration).
@@ -70,9 +68,11 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 ### Student Solutions
 
-*If you've been keeping track of the SQL Zoo solutions, put them here! Some that we found online are provided in the "Additional Resources" section below but are incomplete.  Submit a link to your solutions below by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* *Your Solution Here!*
 * 
+
 
 ## Additional Resources
 
