@@ -5,7 +5,11 @@
 
 ## Project: From Database to ActiveRecord
 
+  1. Turning advanced database queries (refer to databases project) into ActiveRecord advanced queries.  Seeded database project?
+
 ### Your Task
+
+CANCELLED!
 
 ### Student Solutions
 

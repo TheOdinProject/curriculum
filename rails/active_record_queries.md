@@ -119,11 +119,11 @@ But if you're running queries on the full data table, like in the Post-Tag group
 ### Your Assignment
 
 1. Read the first 5 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions.  Don't worry too much about batching and `#find_each`.
-2. Read chapter 18 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a brief look at using `exists?` `any?` and `many?`.
-2. Read chapters 6, 7, and 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for an understanding of aggregate functions and the calculations you can run on them.
-3. Skim chapters 8-11 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html).  
-4. Read chapter 12 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) to see how Rails lets you play with joining tables together.
-5. Read chapter 16 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a quick look at the helpful `find_or_create_by` methods.
+2. Read section 18 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a brief look at using `exists?` `any?` and `many?`.
+2. Read sections 6, 7, and 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for an understanding of aggregate functions and the calculations you can run on them.
+3. Skim sections 8-11 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html).  
+4. Read section 12 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) to see how Rails lets you play with joining tables together.
+5. Read section 16 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a quick look at the helpful `find_or_create_by` methods.
 
 ## N + 1 Queries and Eager Loading
 

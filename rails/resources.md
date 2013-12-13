@@ -65,7 +65,7 @@
 
 1. `active_record_queries.md` -- Relations, lazy evaluation, N+1 reduction, Includes and Joins, Scopes, Aggregations and bare-metal SQL, 
 
-***Project: `project_queries.md`
+***CANCELLED Project: `project_queries.md`
   1. Turning advanced database queries (refer to databases project) into ActiveRecord advanced queries.  Seeded database project?
 
 2. `active_record_associations.md` -- foreign_key, class_name, source, methods
