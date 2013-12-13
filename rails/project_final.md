@@ -36,7 +36,9 @@ Keep the following requirements in mind:
 5. The User Show page contains their Profile information, photo, and Posts.
 6. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
 7. Sign in should use [Omniauth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
-8. Deploy your App to Heroku.
+8. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up.  Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
+8. Deploy your App to Heroku.  
+9. Set up the [SendGrid add-on](https://devcenter.heroku.com/articles/sendgrid) and start sending real emails.  It's free for low usage tiers.
 
 *Extra Credit:*
 
