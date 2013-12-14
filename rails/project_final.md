@@ -64,4 +64,4 @@ Keep the following requirements in mind:
 
 ## Additional Resources
 
-* 
+* For another take on this, here's a [gem-laden Facebook clone](http://vysakh.quora.com/Making-a-Facebook-clone-using-Rails-in-minimum-time) via Quora.
