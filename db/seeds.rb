@@ -760,7 +760,7 @@ c4 = Course.create!(
 
 section_course_id = c4.id
 
-section_position = 1
+section_position += 1
 c4_s1_of_6 = Section.create!(
     :title => "Introduction to Rails", 
     :title_url => "Introduction to Rails".parameterize, 
