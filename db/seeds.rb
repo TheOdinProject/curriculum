@@ -1130,7 +1130,7 @@ Lesson.create!(
 lesson_counter += 1
 Lesson.create!(   
     :title => "Sending Confirmation Emails", 
-    :title_url => "Mailers".parameterize,
+    :title_url => "Sending Confirmation Emails".parameterize,
     :description => "Add email functionality to an existing project.  Just don't SPAM, it's frowned upon.", 
     :position => lesson_counter, 
     :section_id => c4_s6_of_6.id, 
