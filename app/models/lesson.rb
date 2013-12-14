@@ -5,7 +5,7 @@ class Lesson < ActiveRecord::Base
   belongs_to :section
   has_one :course, :through => :section
 
-  validates_uniqueness_of :position
+  validates_uniqueness_of :position, :message => "Lesson position has already been taken"
 
   def next_lesson
     lessons = self.course.lessons.order("position asc")

@@ -7,6 +7,6 @@ class Course < ActiveRecord::Base
   has_many :sections
   has_many :lessons, :through => :sections
 
-  validates_uniqueness_of :position
+  validates_uniqueness_of :position, :message => "Course position has already been taken"
 
 end
