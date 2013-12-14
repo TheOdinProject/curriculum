@@ -860,7 +860,7 @@ Lesson.create!(
     :position => lesson_counter, 
     :section_id => c4_s1_of_6.id, 
     :is_project => true, 
-    :url => "/rails/project_intro.md"
+    :url => "/rails/project_lets_build.md"
   )
 
 lesson_counter += 1
@@ -931,8 +931,8 @@ Lesson.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "Databases and SQL", 
-    :title_url => "Databases and SQL".parameterize,
+    :title => "SQL", 
+    :title_url => "SQL".parameterize,
     :description => "The best way to learn is by practice, so this project will give you plenty of opportunity to apply your new SQL powers (for good).", 
     :position => lesson_counter, 
     :section_id => c4_s3_of_6.id, 
@@ -953,12 +953,12 @@ Lesson.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "Active Record Basics", 
-    :title_url => "Active Record Basics".parameterize,
+    :title => "Building With Active Record", 
+    :title_url => "Building With Active Record".parameterize,
     :description => "You'll start getting practice thinking data first before building something that acts a lot like Reddit.", 
     :position => lesson_counter, 
     :section_id => c4_s3_of_6.id, 
-    :is_project => false, 
+    :is_project => true, 
     :url => "/rails/project_ar_basics.md"
   )
 
@@ -1074,8 +1074,8 @@ Lesson.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "Advanced Forms", 
-    :title_url => "Advanced Forms".parameterize,
+    :title => "Building Advanced Forms", 
+    :title_url => "Building Advanced Forms".parameterize,
     :description => "Build an airline flight signup system, which is a nest of interesting complexities", 
     :position => lesson_counter, 
     :section_id => c4_s5_of_6.id, 
@@ -1129,7 +1129,7 @@ Lesson.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "Mailers", 
+    :title => "Sending Confirmation Emails", 
     :title_url => "Mailers".parameterize,
     :description => "Add email functionality to an existing project.  Just don't SPAM, it's frowned upon.", 
     :position => lesson_counter, 
@@ -1164,7 +1164,7 @@ lesson_counter += 1
 Lesson.create!(   
     :title => "Conclusion", 
     :title_url => "Conclusion".parameterize,
-    :description => "Holy cow, you've gotten to the end of the road!  Sort of.", 
+    :description => "Holy cow, you've gotten to the end of the road!  ...Sort of.", 
     :position => lesson_counter, 
     :section_id => c4_s6_of_6.id, 
     :is_project => false, 
