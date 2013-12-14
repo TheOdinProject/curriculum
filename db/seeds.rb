@@ -147,8 +147,8 @@ c2_s4_of_6 = Section.create!(
     :description => "You've probably heard about 'Ruby on Rails' and 'Backbone.js' and other sleek-sounding development frameworks.  In this section, you'll learn what a framework is, why we use them, and get acquainted with the ones we'll be covering in future courses."
   )
 c2_s5_of_6 = Section.create!(
-    :title => "Additional Imporant Topics", 
-    :title_url => "Additional Imporant Topics".parameterize, 
+    :title => "Additional Important Topics", 
+    :title_url => "Additional Important Topics".parameterize, 
     :course_id => c2.id, 
     :position => 5, 
     :description => "This section has a bunch of short lessons that will introduce you to a variety of essential supporting technologies for your journey into web development."
