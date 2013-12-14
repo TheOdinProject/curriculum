@@ -1,4 +1,4 @@
-# Project: Databases and SQL
+# Project: Databases and SQL 
 Estimated Time: 4-8 Hours
 
 It's tough to read a bunch of stuff and then "know" how to build good queries.  In the end, it comes down to a conceptual understanding of how the pieces fit together -- can you visualize what's happening when two tables are joined?  The best way to acquire this is practice.  Break out a pen and paper and write down what you think is going on.
