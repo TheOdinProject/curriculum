@@ -1,12 +1,6 @@
-# Ruby on Rails
+# How This Course Will Work
 
-## Note: This part of the curriculum is still under construction!
-
-See [Rails Resources](/curriculum/rails/resources.md) for a listing of resources you can tackle right away.
-
-## Introduction
-
-Welcome to Rails! Maybe you've skipped right here because you just want to start building websites or maybe you made it through the Ruby portion of the curriculum and have a great base to work from.  Either way, we're about to have some fun.
+Welcome to Rails! Maybe you've skipped right here because you just want to start building websites or maybe you made it through the Ruby course and have a great base to work from.  Either way, we're about to have some fun.
 
 You should already have a good idea of what Rails is all about after covering it in previous sections (see Prerequisites below for links).  At this point, it's time to take that theoretical knowledge and start building websites.  This portion of the curriculum will be the most build-heavy so far.  You will still be asked to read docs, check out blog posts, and watch videos before building, of course, but projects will be the major focus.
 

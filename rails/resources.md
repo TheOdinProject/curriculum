@@ -11,7 +11,7 @@
 
 3. `deployment.md` -- heroku, asset precompilation, common errors, 
 
-***Project: `project_intro.md`
+***Project: `project_lets_build.md`
   1. Hartl chapter 3 (Static Pages and Testing Intro) 
   2. Hartl chapter 4 (Ruby overview). Link back to Ruby testing resources, give good intro.  
 
@@ -25,7 +25,7 @@
 
 4. `asset_pipeline.md` -- escaping html, asset pipeline and asset helpers
 
-***Project: `project_basic_mvc.md`
+***Project: `project_basic_rvc.md`
   1. Send over some params manually with RestClient
   1. Hartl chapter 5 (Asset pipeline and layouts)
 
@@ -87,9 +87,11 @@
 
 >>>> Section: APIs, Mailers and Advanced Topics
 
-1. `api.md` -- Building your own, using Oauth(2) for externals (refresh auth), nokogiri, rendering JSON, (controller guide chap 7)
+1. `api_basics.md` -- Building your own, rendering JSON, (controller guide chap 7)
 
-***Project: `project_api.md`
+1. `api_interfacing.md` -- External APIs, using Oauth(2) for externals (refresh auth)
+
+***Project: `project_apis.md`
   1. Ping around with an existing API with the CLI or a browser plugin
   1. build a simple api interaction with RestClient 
   2. Do an oauth authenticated app interaction
@@ -102,10 +104,11 @@
 
 3. `advanced_topics.md` -- nested and collections routing, design patterns, metaprogramming, advanced layouts, wildcard routes,
 
-4. `conclusion.md` -- reread all sections of the Rails Guides, including the ones you skipped.  Additional reading (recommended books).  Security.  Caching. Rake tasks.
- 
 ***Project: `project_final.md`
   1. Facebook
+
+4. `conclusion.md` -- reread all sections of the Rails Guides, including the ones you skipped.  Additional reading (recommended books).  Security.  Caching. Rake tasks.
+ 
 
 ******************************************************************************
 

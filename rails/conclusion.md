@@ -4,7 +4,7 @@
 
 You've reached the end of the scope of this course and should feel pretty good about your Rails skills.  That doesn't mean you need to understand everything, but you should be able to build a Rails application with useful functionality.  It probably won't look too pretty, but that will come in the next few courses.
 
-This isn't the last course in the curriculum and you've got quite a way to go before hitting that "full stack" point, but it's as far as we'll get with Rails.  It's up to you to keep building stuff, asking questions, and digging deeper into both Rails and best practices of software engineering in general.
+This isn't the last course in the curriculum and you've got quite a way to go before hitting that "full stack" point, but it's as far as we'll get with Rails and it's pretty darn far.  Despite how far you've come, it's up to you to keep building stuff, asking questions, and digging deeper into both Rails and best practices of software engineering in general.
 
 At this point, you've got the Rails building blocks but the learning is never finished.  Your first six months on the job as a Rails dev will involve learning at least as much information as you just did.  The point of this course has been to get you to a place where you can start thinking about actually getting that first job.  
 
