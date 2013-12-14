@@ -24,13 +24,13 @@ The most important (and simplest) route in your file is the root url... where sh
 
 If you recall our earlier discussion about REST, there are basically seven main types of actions that you can (and should) do to a "resource", or an object like a blog post or user... something with its own database model.  From that discussion, they are:
 
-    1. GET all the posts (aka **"index"** the posts)
-    2. GET just one specific post (aka **"show"** that post)
-    3. GET the page that lets you create a new post (aka view the **"new"** post page)
-    5. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
-    4. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
-    5. PUT the data you just filled out to edit the post back to the server so it can actually perform the update (aka **"update"** the post)
-    6. DELETE one specific post by sending a delete request to the server (aka **"delete"** the post)
+1. GET all the posts (aka **"index"** the posts)
+2. GET just one specific post (aka **"show"** that post)
+3. GET the page that lets you create a new post (aka view the **"new"** post page)
+5. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
+4. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
+5. PUT the data you just filled out to edit the post back to the server so it can actually perform the update (aka **"update"** the post)
+6. DELETE one specific post by sending a delete request to the server (aka **"delete"** the post)
 
     *The highlighted words correspond to standard Rails controller actions!*
 

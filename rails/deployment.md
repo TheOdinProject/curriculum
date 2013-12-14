@@ -24,7 +24,7 @@ Heroku lets you do your application management either from the command line (usi
 
 ### Domains and Naming
 
-Heroku will give you a random application name when you first deploy, something zen like "afternoon-falls-4209".  If you want to visit the app, you can either type `$ heroku open` on the command line or just go directly to `http://afternoon-falls-4209.herokuapp.com`.  You can change that name to whatever you want, e.g. "my_cool_app", which becomes `http://my_cool_app.herokuapp.com`.  
+Heroku will give you a random application name when you first deploy, something zen like "afternoon-falls-4209".  If you want to visit the app, you can either type `$ heroku open` on the command line or just go directly to `http://afternoon-falls-4209.herokuapp.com`.  You can change that name to whatever you want, e.g. "my\_cool_app", which becomes `http://my_cool_app.herokuapp.com`.  
 
 *Note: If you change your app's name on Heroku, you'll probably need to manually update your Git remote so Git knows where to send your local application when you deploy to Heroku.*
 

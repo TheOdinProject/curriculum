@@ -63,12 +63,13 @@ The point of MVC is that the functions of a web application can be broken down i
 ### The Path Through MVC
 
 Once a request from a browser comes into your application, at the most basic level:
+
 1. The router figures out which controller to send it to (e.g. the BlogPosts controller).  
 2. That controller asks the model (e.g. Post model) for data and any other tough questions it has.  
 3. Then that controller passes off whatever data it needs to the views (e.g. index.html.erb), which are basically just HTML templates that are waiting for those variables.
 4. Once the proper view has been pumped full of the data it needs (like the current user's name), it gets sent back to the client that made the original request.  Presto!
 
-*Check out a more detailed version of MVC on [BetterExplained HERE](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)*
+*Check out a more detailed version of MVC on [betterexplained.com HERE](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)*
 
 To characterize the three (badly), the model is the supersmart geek in the back room, the controller is the social middleman that talks to everyone but doesn't really do anything too intensive (it asks the model in those cases), and the view just looks pretty and waits to get its outfit from the controller.
 
