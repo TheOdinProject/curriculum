@@ -22,11 +22,12 @@ c1 = Course.create!(
   :is_active => true,
   )
 
+section_position = 1
 c1_s1_of_1 = Section.create!(
     :title => "About Web Developers", 
     :title_url => "About Web Developers".parameterize, 
     :course_id => c1.id, 
-    :position => 1, 
+    :position => section_position, 
     :description => "Start from the beginning and learn about what a web developer really does and what the field of web development is really like."
   )
 
@@ -113,51 +114,62 @@ c2 = Course.create!(
   :brief_desc => "This course is for anyone who is either starting from scratch or who isn't entirely comfortable with their understanding of the command line, HTML, CSS, Javascript, Ruby, web frameworks, Git, or other foundational technologies of web development.  We cover a LOT of ground -- by the end of this comprehensive course, you'll be well prepared to take on our deep dive courses or explore further on your own.",
   :description => "Now that you know what web developers do, it's time to start thinking about how they actually do it. In this course, you'll learn the foundational concepts of web programming. By the end, you will be able to build a simple webpage, style it, and add elements of interactivity while working comfortably from the command line.  You will be comfortable with basic scripting in Ruby and Javascript as well as more unfamiliar things like Git and databases.  We will cover a lot of knowledge and you'll be able to get your hands dirty with all the topics that we're going to learn in the deep-dive courses that follow.",
   :position => course_position,
-  :you_learn => ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databses and Git"],
+  :you_learn => ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databases and Git"],
   :you_build => ["Google's homepage in HTML/CSS","A dynamic sketchpad with JS/jQuery","A series of test-first Ruby challenges"],
   :is_active => true,
   )
 
+section_position += 1
 c2_s1_of_6 = Section.create!(
     :title => "The Basics", 
     :title_url => "The Basics".parameterize, 
     :course_id => c2.id, 
-    :position => 1, 
+    :position => section_position, 
     :description => "This section will cover the baseline knowledge you need before getting into the more 'programming' aspects of web development.  You'll also get a chance to install the necessary software on your computer."
   )
+
+section_position += 1
 c2_s2_of_6 = Section.create!(
     :title => "The Front End", 
     :title_url => "The Front End".parameterize, 
     :course_id => c2.id, 
-    :position => 2, 
+    :position => section_position, 
     :description => "In this section you'll spend a good deal of time getting familiar with the major client-side (browser-based) languages like HTML, CSS, and Javascript.  You'll get to build a webpage with HTML/CSS and learn some programming fundamentals with Javascript."
   )
+
+section_position += 1
 c2_s3_of_6 = Section.create!(
     :title => "The Back End", 
     :title_url => "The Back End".parameterize, 
     :course_id => c2.id, 
-    :position => 3, 
+    :position => section_position, 
     :description => "Here you'll learn about the back end, where we'll demystify what goes on behind the scenes on a web server.  You'll get to take a crack at Ruby, the sublimely awesome language that runs Ruby on Rails."
   )
+
+section_position += 1
 c2_s4_of_6 = Section.create!(
     :title => "Web Development Frameworks", 
     :title_url => "Web Development Frameworks".parameterize, 
     :course_id => c2.id, 
-    :position => 4, 
+    :position => section_position, 
     :description => "You've probably heard about 'Ruby on Rails' and 'Backbone.js' and other sleek-sounding development frameworks.  In this section, you'll learn what a framework is, why we use them, and get acquainted with the ones we'll be covering in future courses."
   )
+
+section_position += 1
 c2_s5_of_6 = Section.create!(
     :title => "Additional Important Topics", 
     :title_url => "Additional Important Topics".parameterize, 
     :course_id => c2.id, 
-    :position => 5, 
+    :position => section_position, 
     :description => "This section has a bunch of short lessons that will introduce you to a variety of essential supporting technologies for your journey into web development."
   )
+
+section_position += 1
 c2_s6_of_6 = Section.create!(
     :title => "Tying it All Together", 
     :title_url => "Tying it All Together".parameterize, 
     :course_id => c2.id, 
-    :position => 6, 
+    :position => section_position, 
     :description => "Now that you've had a healthy taste of all the major components in a web application, we'll take a step back and remember where they all fit into the bigger picture."
   )
 
@@ -450,7 +462,7 @@ c3 = Course.create!(
 
 section_course_id = c3.id
 
-section_position = 1
+section_position += 1
 c3_s1_of_7 = Section.create!(
     :title => "Basic Ruby", 
     :title_url => "Basic Ruby".parameterize, 
