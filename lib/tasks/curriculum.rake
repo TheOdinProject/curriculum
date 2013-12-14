@@ -11,7 +11,8 @@ namespace :curriculum do
     count = lessons.count
     puts "Cycling through #{count} lessons...\n\n\n"
     lessons.each_with_index do |lesson,i|
-      puts "Lesson #{i+1}/#{count}: #{lesson.title}"
+      # return if i > 5 # for debugging
+      puts "Retrieving Lesson #{i+1}/#{count}: #{lesson.title}"
       # begin
         response = github.contents.get :path => lesson.url
         # Decode the gibberish into a real file and render to html
@@ -22,9 +23,13 @@ namespace :curriculum do
       #   raise ActionController::RoutingError.new('Not Found')
       # end
       if decoded_file 
+        snippet_end = decoded_file.index("\n")-1 || 03
+        puts "    Adding content: \"#{decoded_file[0..snippet_end]}\""
         lesson.content = decoded_file
         lesson.save!
         # puts "Added content to the lesson..."
+      elsif decoded_file.nil?
+        puts "\n\n\n\nThis should never actually display.  Why are some of the lessons coming in nil????????????\n\n\n\n"
       else
         puts "\n\n\n FAILED TO ADD CONTENT TO THE LESSON!!!\n\n\n"
       end
