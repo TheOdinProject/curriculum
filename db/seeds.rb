@@ -1,5 +1,5 @@
 # This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).  THIS IS DESTRUCTIVE!  Meaning, if you look directly below this, it will first remove all existing Lesson, Section and Course data before repopulating from this file.  Just so you're aware.  It's done this way to make this file the official master setup instructions for the courses/lessons layout so any changes to this can just be db:seed'ed right into production.
 
 
 # RESET ALL CURRICULUM-RELATED TABLES
@@ -738,13 +738,427 @@ c4 = Course.create!(
   :title => "Ruby on Rails",
   :title_url => "Ruby on Rails".parameterize,
   :teaser => "Build Real Websites",
-  :brief_desc => "Now that you've got a good grounding in Ruby, it's time to put that to work by learning how to rapidly develop websites using Ruby on Rails.  By the end of this course, you'll be able to build and deploy a real website with confidence.  In fact, you'll do it over a dozen times.",
+  :brief_desc => "Now that you've got a good grounding in Ruby, it's time to put that to work by learning how to rapidly develop websites using Ruby on Rails.  By the end of this course, you'll be able to build and deploy a real website with confidence.  In fact, you'll do it many times.",
   :description => "In this course, you'll be doing a whole lot of building, each project a bit more advanced than the previous one.  You'll build about a dozen Rails projects from scratch, including one full-featured tutorial that we'll be following along with as we go and a full scale web application of your own.  More importantly, you'll learn how to deconstruct a website into its underlying data architecture and then build an application around that. By the end of it all, you'll have the confidence to put up a simple website in under an hour.",
   :position => course_position,
   :you_learn => ["How to build and deploy a web application from scratch","MVC like the back of your hand","Setting up the data architecture of a new site"],
-  :you_build => ["A full featured Twitter clone", "A Github gist application that saves in real time", "A dozen others, from simple CRUD apps to AJAX APIs"],
-  :is_active => false,
+  :you_build => ["A full featured Twitter clone", "A flight booking application", "A dozen others, from simple CRUD apps to APIs and Facebook"],
+  :is_active => true,
   )
+
+section_course_id = c4.id
+
+section_position = 1
+c4_s1_of_6 = Section.create!(
+    :title => "Introduction to Rails", 
+    :title_url => "Introduction to Rails".parameterize, 
+    :course_id => section_course_id, 
+    :position => section_position, 
+    :description => "In this section, we'll dive right into Rails and get you building from the start so you have an idea of what (and how) you'll learn going forward.  We'll get your feet planted in the right spot and your head pointed the right direction."
+  )
+section_position += 1
+c4_s2_of_6 = Section.create!(
+    :title => "Routes, Views, Controllers and Assets", 
+    :title_url => "Routes, Views, Controllers and Assets".parameterize, 
+    :course_id => section_course_id, 
+    :position => section_position, 
+    :description => "Now that you've gotten your feet wet, it's time to start looking carefully into the foundational pieces of the Rails framework.  We'll cover the path of an HTTP request from entering your application to returning as an HTML page to the browser."
+  )
+section_position += 1
+c4_s3_of_6 = Section.create!(
+    :title => "Databases and Active Record", 
+    :title_url => "Databases and Active Record".parameterize, 
+    :course_id => section_course_id, 
+    :position => section_position, 
+    :description => "This section covers the back end of Rails, which is the most important part of the framework.  You'll learn about databases and go deep into SQL before applying that knowledge to Rails' fantastic Active Record gem."
+  )
+section_position += 1
+c4_s4_of_6 = Section.create!(
+    :title => "Forms and Authentication", 
+    :title_url => "Forms and Authentication".parameterize, 
+    :course_id => section_course_id, 
+    :position => section_position, 
+    :description => "This section gets into some of the areas of web apps that are less glamorous than they are important.  Forms are your user's window to interact with your application. Authentication is critical for many applications, and you'll build a couple of auth systems from the ground up."
+  )
+section_position += 1
+c4_s5_of_6 = Section.create!(
+    :title => "Advanced Forms and Active Record", 
+    :title_url => "Advanced Forms and Active Record".parameterize, 
+    :course_id => section_course_id, 
+    :position => section_position, 
+    :description => "Now it's starting to get fun!  Learn how to do more than just find and show your users... you'll learn how to use relationships between models to greatly expand your abilities and how to build web forms with sufficient firepower to achieve your most ambitious goals."
+  )
+section_position += 1
+c4_s6_of_6 = Section.create!(
+    :title => "APIs, Mailers and Advanced Topics", 
+    :title_url => "APIs, Mailers and Advanced Topics".parameterize, 
+    :course_id => section_course_id, 
+    :position => section_position, 
+    :description => "This final section will take you into some of the more interesting sides of the Rails ecosystem which will help you reach beyond your own app and into the lives of your users via email or harness the powers of other apps via their APIs."
+  )
+lesson_counter += 1
+Lesson.create!(   
+    :title => "How this Course Will Work", 
+    :title_url => "How this Course Will Work".parameterize,
+    :description => "Let's get acquainted with what this will look like from here on out.", 
+    :position => lesson_counter, 
+    :section_id => c4_s1_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/introduction.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Getting Your Feet Wet", 
+    :title_url => "Getting Your Feet Wet".parameterize,
+    :description => "This will give you the chance to build a full Rails app using some of the special tools Rails provides.", 
+    :position => lesson_counter, 
+    :section_id => c4_s1_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_feet_wet.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "A Railsy Web Refresher", 
+    :title_url => "A Railsy Web Refresher".parameterize,
+    :description => "We're not just using the Web, we're living it.  This lesson will get you up to speed on how.", 
+    :position => lesson_counter, 
+    :section_id => c4_s1_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/web_refresher.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Deployment", 
+    :title_url => "Deployment".parameterize,
+    :description => "There's nothing quite like seeing your application on a real website.  We'll show you how it's done.", 
+    :position => lesson_counter, 
+    :section_id => c4_s1_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/deployment.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Let's Get Building", 
+    :title_url => "Let's Get Building".parameterize,
+    :description => "In this project, you'll get started with the core tutorial we'll be following throughout this course.", 
+    :position => lesson_counter, 
+    :section_id => c4_s1_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_intro.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Routing", 
+    :title_url => "Routing".parameterize,
+    :description => "The router is the switchboard of your app, telling requests which controller action they're supposed to run. ", 
+    :position => lesson_counter, 
+    :section_id => c4_s2_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/routing.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Controllers", 
+    :title_url => "Controllers".parameterize,
+    :description => "Controllers are the middle managers of the whole process -- they tell everyone else what to do and take all the credit.", 
+    :position => lesson_counter, 
+    :section_id => c4_s2_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/controller_basics.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Views", 
+    :title_url => "Views".parameterize,
+    :description => "When the controller has figured out which data needs to be displayed, it's the View's job to turn that into some half-decent HTML.", 
+    :position => lesson_counter, 
+    :section_id => c4_s2_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/views.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "The Asset Pipeline", 
+    :title_url => "The Asset Pipeline".parameterize,
+    :description => "This lesson explains how Rails handles all the behind-the-scenes stuff to get your CSS, Javascript and Image files served quickly and efficiently and how you can use that process.", 
+    :position => lesson_counter, 
+    :section_id => c4_s2_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/asset_pipeline.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Basic Routes, Views and Controllers", 
+    :title_url => "Basic Routes, Views and Controllers".parameterize,
+    :description => "You'll get to play with routing and build what you've learned in this section so far.", 
+    :position => lesson_counter, 
+    :section_id => c4_s2_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_basic_rvc.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Databases and SQL", 
+    :title_url => "Databases and SQL".parameterize,
+    :description => "Data is the core of every major web app and here you'll learn how to speak SQL.", 
+    :position => lesson_counter, 
+    :section_id => c4_s3_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/databases.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Databases and SQL", 
+    :title_url => "Databases and SQL".parameterize,
+    :description => "The best way to learn is by practice, so this project will give you plenty of opportunity to apply your new SQL powers (for good).", 
+    :position => lesson_counter, 
+    :section_id => c4_s3_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_databases.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Active Record Basics", 
+    :title_url => "Active Record Basics".parameterize,
+    :description => "Active Record is the crown jewel of Rails because it turns all the bare metal database queries (like SQL) into nice clean Ruby methods.", 
+    :position => lesson_counter, 
+    :section_id => c4_s3_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/active_record_basics.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Active Record Basics", 
+    :title_url => "Active Record Basics".parameterize,
+    :description => "You'll start getting practice thinking data first before building something that acts a lot like Reddit.", 
+    :position => lesson_counter, 
+    :section_id => c4_s3_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/project_ar_basics.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Form Basics", 
+    :title_url => "Form Basics".parameterize,
+    :description => "Half refresher, half expanding your mind, this will bridge the gap between the lowly web form and your server side logic.", 
+    :position => lesson_counter, 
+    :section_id => c4_s4_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/form_basics.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Forms", 
+    :title_url => "Forms".parameterize,
+    :description => "To understand the form, you must start from the beginning.  We'll start with HTML and then learn how Rails can really help you out.", 
+    :position => lesson_counter, 
+    :section_id => c4_s4_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_forms.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Sessions, Cookies, and Authentication", 
+    :title_url => "Sessions, Cookies, and Authentication".parameterize,
+    :description => "Learn how to store data in the user's browser and how that is used to sign in the user and keep them signed in across requests.", 
+    :position => lesson_counter, 
+    :section_id => c4_s4_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/sessions_cookies_authentication.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Authentication", 
+    :title_url => "Authentication".parameterize,
+    :description => "You'll build a closed community for sharing embarrassing gossip with the world.", 
+    :position => lesson_counter, 
+    :section_id => c4_s4_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_auth.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Active Record Queries", 
+    :title_url => "Active Record Queries".parameterize,
+    :description => "Learn how to take some of those advanced querying concepts you used in SQL and have Rails do them for you mathemagically.", 
+    :position => lesson_counter, 
+    :section_id => c4_s5_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/active_record_queries.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Active Record Associations", 
+    :title_url => "Active Record Associations".parameterize,
+    :description => "Dive into some of the more interesting features of associations like special methods and polymorphism.", 
+    :position => lesson_counter, 
+    :section_id => c4_s5_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/active_record_associations.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Associations", 
+    :title_url => "Associations".parameterize,
+    :description => "Build a system to manage signups for you and your friends' special events.", 
+    :position => lesson_counter, 
+    :section_id => c4_s5_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_associations.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Active Record Callbacks", 
+    :title_url => "Active Record Callbacks".parameterize,
+    :description => "A brief look at the life-cycle of an Active Record object, from birth to destruction, and how you can hook into that for profit.", 
+    :position => lesson_counter, 
+    :section_id => c4_s5_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/active_record_callbacks.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Advanced Associations", 
+    :title_url => "Advanced Associations".parameterize,
+    :description => "Exercise those association muscles to finish up the tutorial like a pro.", 
+    :position => lesson_counter, 
+    :section_id => c4_s5_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_associations_2.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Advanced Forms", 
+    :title_url => "Advanced Forms".parameterize,
+    :description => "Take what you know about forms and put rocket boosters on it.  Don't be afraid to make a form for anything.", 
+    :position => lesson_counter, 
+    :section_id => c4_s5_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/forms_advanced.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Advanced Forms", 
+    :title_url => "Advanced Forms".parameterize,
+    :description => "Build an airline flight signup system, which is a nest of interesting complexities", 
+    :position => lesson_counter, 
+    :section_id => c4_s5_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_forms_advanced.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "APIs and Building Your Own", 
+    :title_url => "APIs and Building Your Own".parameterize,
+    :description => "Rails is really just an API itself... learn about APIs and how to turn your app into one", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/api_basics.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Working With External APIs", 
+    :title_url => "Working With External APIs".parameterize,
+    :description => "Lots of the power of APIs comes from interfacing with third-party applications, which we'll cover in this lesson.", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/api_interfacing.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "APIs", 
+    :title_url => "APIs".parameterize,
+    :description => "In this project, you'll both build your own API and work with a third-party API.", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_apis.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Mailers", 
+    :title_url => "Mailers".parameterize,
+    :description => "You don't often think about where your email comes from.  Here you'll learn how to send it from your app.", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/mailers.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Mailers", 
+    :title_url => "Mailers".parameterize,
+    :description => "Add email functionality to an existing project.  Just don't SPAM, it's frowned upon.", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_mailers.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Advanced Topics", 
+    :title_url => "Advanced Topics".parameterize,
+    :description => "A mash-up of orphan topics like advanced routing, layouts, metaprogramming and design patterns.", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/advanced_topics.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Final Project", 
+    :title_url => "Final Project".parameterize,
+    :description => "There's a pretty popular social networking app you should build.  They may have made a movie about it.", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => true, 
+    :url => "/rails/project_final.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Conclusion", 
+    :title_url => "Conclusion".parameterize,
+    :description => "Holy cow, you've gotten to the end of the road!  Sort of.", 
+    :position => lesson_counter, 
+    :section_id => c4_s6_of_6.id, 
+    :is_project => false, 
+    :url => "/rails/conclusion.md"
+  )
+
 
 # ************************************************
 # CREATE HTML5/CSS3 COURSE
@@ -794,188 +1208,6 @@ c5 = Course.create!(
   :is_active => false,
   )
 
-# lesson_counter += 1
-# Lesson.create!(   
-#     :title => "", 
-#     :title_url => "".parameterize,
-#     :description => "", 
-#     :position => lesson_counter, 
-#     :section_id => c3_s1_of_7.id, 
-#     :is_project => false, 
-#     :url => "/"
-#   )
-# c2_s1_of_6 = Section.create!(
-#     :title => "", 
-#     :title_url => "".parameterize, 
-#     :course_id => c1.id, 
-#     :position => 1, 
-#     :description => ""
-#   )
-
-# generic_long_description = "The Odin Project is here to take you on a journey to becoming a web developer.  Maybe you have a creative spark that needs to get out, maybe you love the idea of having an in-demand skillset and maybe you just want to be able to build your startup yourself.  Regardless of why you're here, we've laid out a path that will guide you on your way to becoming a web developer.  We find the best resources out there so you don't have to waste time doing it yourself, and we give you projects to build as well so you can really learn the material and boost your portfolio."
-
-# generic_medium_description = "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-
-# generic_short_description = "This section takes you through lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-# # Populate a handful of courses to include on the main page
-# courses = [
-#   {
-#     :title => "Intro to Web Development", 
-#     :teaser => "Start Here!",
-#     :you_learn => ["What a web developer really does", "The tools of the trade","How to get hired as a web developer"],
-#     :you_build => ["Hold on, you'll be building soon!"],
-#   },
-#   {
-#     :title => "Web Development 101", 
-#     :teaser => "A Healthy Dose of Everything",
-#     :you_learn => ["How the web really works", "Basic HTML, CSS and Javascript","Basic Ruby, Rails, Databases and Git"],
-#     :you_build => ["Google's homepage in HTML/CSS", "A dynamic sketchpad with JS/jQuery", "A series of test-first Ruby challenges"]
-#   },
-#   {
-#     :title => "Ruby", 
-#     :teaser => "Become a True Rubyist",
-#     :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
-#     :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
-#   },
-#   {
-#     :title => "Ruby on Rails", 
-#     :teaser => "Build Real Websites",
-#     :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
-#     :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
-#   },
-#   {
-#     :title => "Javascript and jQuery", 
-#     :teaser => "Make Your Websites Really Dance",
-#     :you_learn => ["Organizing your code properly", "Working with files and scripts","Basic algorithms and data structures"],
-#     :you_build => ["TicTacToe, Mastermind and Hangman","A command line server and browser", "Chess!"]
-#   },
-# ].each_with_index do |course, i|
-#   Course.create!(
-#     :title => course[:title],
-#     :title_url => course[:title].parameterize,
-#     :description => generic_medium_description,
-#     :brief_desc => generic_short_description,
-#     :teaser => course[:teaser],
-#     :position => i+1,
-#     :you_learn => course[:you_learn],
-#     :you_build => course[:you_build]
-#     )
-# end
-
-# # Set up the sections for our sample course, web dev 101
-# wd101_id = Course.where(:title => "Web Development 101").first.id
-# sections_array = []
-# sections = [
-#   { 
-#     :title => "The Basics", 
-#   },
-#   {
-#     :title => "The Front End",
-#   },
-#   {
-#     :title => "The Back End",
-#   },
-#   {
-#     :title => "The Other Stuff",
-#   }
-# ]
-
-# sections.each_with_index do |section, i|
-#   sections_array << Section.create!(:title => section[:title], :title_url => section[:title].parameterize, :course_id => wd101_id, :position => i+1, :description => generic_short_description)
-# end
-
-# # Populate lessons for our sample course, web dev 101
-# lessons = [
-#     { :title => "How the Web Works",
-#       :is_project => false,
-#       :section_id_adder => 0,
-#       :url => "/web_development_basics/how_does_the_web_work.md",
-#     },
-#     {
-#       :title => "How Your Computer Works",
-#       :is_project => false,
-#       :section_id_adder => 0,
-#       :url => "/web_development_basics/how_does_your_computer_work.md"
-#     },
-#     {
-#       :title => "Terms to Know",
-#       :is_project => false,
-#       :section_id_adder => 0,
-#       :url => "/web_development_basics/terms_to_know.md"
-#     },
-#     {
-#       :title => "Introduction to the Front End",
-#       :is_project => false,
-#       :section_id_adder => 1,
-#       :url => "/web_development_basics/web_programming_basics/front_end_basics/index.md"
-#     },
-#     {
-#       :title => "HTML and CSS Basics",
-#       :is_project => false,
-#       :section_id_adder => 1,
-#       :url => "/web_development_basics/web_programming_basics/front_end_basics/html_css_basics.md"
-#     },
-#     {
-#       :title => "HTML/CSS",
-#       :is_project => true,
-#       :section_id_adder => 1,
-#       :url => "/web_development_basics/web_programming_basics/front_end_basics/project_html_css.md"
-#     },
-#     {
-#       :title => "Javascript Basics",
-#       :is_project => false,
-#       :section_id_adder => 1,
-#       :url => "/web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
-#     },
-#     {
-#       :title => "jQuery Basics",
-#       :is_project => false,
-#       :section_id_adder => 1,
-#       :url => "/web_development_basics/web_programming_basics/front_end_basics/js_jquery_basics.md"
-#     },
-#     { 
-#       :title => "Javascript and jQuery",
-#       :is_project => true,
-#       :section_id_adder => 1,
-#       :url => "/web_development_basics/web_programming_basics/front_end_basics/project_js_jquery.md"
-#     },
-#     {
-#       :title => "Ruby Basics",
-#       :is_project => false,
-#       :section_id_adder => 2,
-#       :url => "/web_development_basics/web_programming_basics/back_end_basics/ruby_basics.md"
-#     },
-#     {
-#       :title => "Ruby",
-#       :is_project => true,
-#       :section_id_adder => 2,
-#       :url => "/web_development_basics/web_programming_basics/back_end_basics/project_ruby.md"
-#     },
-#     {
-#       :title => "Database Basics",
-#       :is_project => false,
-#       :section_id_adder => 2,
-#       :url => "/web_development_basics/web_programming_basics/database_basics.md"
-#     },
-#     { :title => "Finale",
-#       :is_project => false,
-#       :section_id_adder => 3,
-#       :url => "/web_development_basics/finish.md"
-#     },
-#   ]
-
-# # Set up our sample lessons
-# lessons.each_with_index do |lesson, i|
-#   Lesson.create!(   
-#     :title => lesson[:title], 
-#     :title_url => lesson[:title].parameterize,
-#     :description => generic_short_description, 
-#     :position => i+1, 
-#     :section_id => sections_array.first.id + lesson[:section_id_adder], 
-#     :is_project => lesson[:is_project], 
-#     :url => lesson[:url])
-# end
 
 
 
