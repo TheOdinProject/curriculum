@@ -28,7 +28,7 @@ If you'd like to help out (even as a relative newbie), please [get in touch](mai
 ### Hacking on the Site Yourself
 
 1. This site runs on Ruby 1.9.3 and Rails 3.2.12.
-1. Download the repo to your local machine by doing a `git clone git@github.com:TheOdinProject/theodinproject.git`
+1. Fork the repo by clicking the Fork button at the top right and then download your copy of the repo to your local machine by doing a `git clone git@github.com:YOUR_USERNAME/theodinproject.git`
 2. Run a `$ bundle install` of all the gems
 1. Note: Both local and production databases are [Postgres](http://www.postgresql.org/docs/), so if you're used to just using Rails' default SQLite database you'll need to get Postgres fired up on your local machine.  You can probably get away with just typing `$ rake db:create` but may need to download a client for it and create a `theodinproject` database that the application can connect to.  The major difference is that Postgres operates almost like a server.  Ryan Bates has a [RailsCast](http://railscasts.com/episodes/342-migrating-to-postgresql) episode about migrating to Postgres that may be helpful if you're a newbie.  If you're deployed on Heroku (which we are), you need to use PG anyway.
 2. Once you've got postgres installed and have created the empty database, run a `$ rake db:migrate` to run all the migrations that will set up the schema properly.  The `db/seeds.rb` file is used to populate all the course and lesson meta-data.  It is identical to the data you'll see presented on the production site (this is used to populate it).  You can run it as many times as you'd like... it basically deletes all metadata and repopulates it with each run.  The seeds file only creates curriculum data, it doesn't create any users. 
