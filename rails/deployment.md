@@ -2,15 +2,15 @@
 
 ## Introduction
 
-Up until now, you've built all your Rails apps in the local environment, accessing them in your browser via `http://localhost:3000` or something similar.  That's not nearly as fun as seeing the application live on the Internet, so in this lesson we'll cover that final push to deploy your apps to Heroku.  It can be a frustrating process because errors can be a pain to diagnose and fix, but there are a lot of Stack Overflow posts out there which will help you find your way if you get stuck.
+You've had a good overview of how your browser will be interacting with your web application but how do you actually get your application onto the web?  Up until now, you've built everything in the local environment, perhaps accessing the application server in your browser via `http://localhost:3000` or something similar.  That's not nearly as fun as seeing the application live on the Internet, so in this lesson we'll cover that final push to deploy your apps to [Heroku](http://heroku.com).  Deployment can sometimes be a frustrating process because the errors can be a pain to diagnose and fix, but there are a lot of Stack Overflow posts out there which will help you find your way if you get stuck.
 
-We won't be digging into the advanced issues of deployment... that's well outside the scope of this course.  The point here is to familiarize you with the deployment process and help you get your apps online in the first place.  Adding bells and whistles or speed optimizing your application will be left to your own curiosity.  
+We won't be digging into the advanced issues of deployment in this lesson... that's well outside the scope of this course.  The point here is to familiarize you with the basic deployment process and help you get your apps online in the first place.  Adding bells and whistles or speed optimizing your application will be left to your own curiosity.  You'll likely read through this now, get a sense for what's coming in the future, and then refer back to it when it's time to actually deploy some of your apps later on.
 
 ## Heroku Overview
 
 It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2 (as covered in the [Startup Engineering course from Coursera](https://class.coursera.org/startup-001/lecture/index)).
 
-Heroku is great for beginners because it's a free and "simple" push-to-deploy system.  Their system is actually built on EC2 as well but saves you a lot of hassle.  Because of this, when you DO get to the paid tiers, it will be more expensive than EC2 but should be worth it for a while.  The best part is that you get free high quality hosting for any number of new apps.
+Heroku is great for beginners because it's a free and "simple" push-to-deploy system.  Their system is actually built on EC2 but it saves you a lot of hassle.  Because of this, when you DO get to the paid tiers, it will be more expensive than EC2 but should be worth it for a while.  The best part is that you get free high quality hosting for any number of new apps.
 
 ### Instances and Traffic
 
@@ -30,7 +30,7 @@ Heroku will give you a random application name when you first deploy, something 
 
 That domain name will always be yours on Heroku.  Obviously, in the real world, you want to link it to a custom domain of your own, e.g. `http://my_cool_domain.com`.  First you'll obviously need to purchase the domain from a registrar like GoDaddy or IWantMyName.  Try using [Domainr](http://domai.nr) to find new domains, it's great.  
 
-Once you have your own domain, you will need to go in and point it to your `herokuapp.com` subdomain by changing the appropriate entry in your CNAME file.  That file, which lives at your Registrar, basically defines where incoming requests should go.  Where does `mail.yourapp.com` or `www.yourapp.com` or `calendar.yourapp.com` go?  These settings are relatively easy to change but take several hours to take effect.  
+Once you have your own domain, you will need to go in and point it to your `herokuapp.com` subdomain by changing the appropriate entry in your CNAME file.  Where does `mail.yourapp.com` or `www.yourapp.com` or `calendar.yourapp.com` go? That file, which lives at your Registrar, basically defines where incoming requests should go.  These settings are relatively easy to change but take several hours to take effect.  
 
 You'll also need to tell Heroku that you'd like to point your app to a custom domain.  See the [Heroku Custom Domains Help File](https://devcenter.heroku.com/articles/custom-domains) for detailed instructions.
 
@@ -42,7 +42,7 @@ Another great feature of Heroku is add-ons.  These are third party applications 
 
 Some of the most useful ones to you will be:
 
-1. [New Relic](https://devcenter.heroku.com/articles/newrelic) -- It is an application monitoring and analytics service, so you know when your application has gone down or where your bottlenecks are.  They have a free plan which is useful just for the analytics but also has the added bonus of letting your set up pinging for your application (which prevents it shutting down).  See [This Article on Coderwall](https://coderwall.com/p/u0x3nw) for a brief description of how to set up New Relic pinging to avoid Heroku idling.
+1. [New Relic](https://devcenter.heroku.com/articles/newrelic) -- It is an application monitoring and analytics service, so you know when your application has gone down or where your bottlenecks are.  They have a free plan which is useful just for the analytics but also has the added bonus of allowing you to set up "pinging" for your application (which prevents it shutting down).  See [This Article on Coderwall](https://coderwall.com/p/u0x3nw) for a brief description of how to set up New Relic pinging to avoid Heroku idling.
 2. [PGBackups](https://devcenter.heroku.com/articles/pgbackups) -- this add-on lets you make backups of your database.  There's nothing worse than losing data, and so this app will make your life a lot easier.  The free tier lets you manually download backups or set up Rake tasks to do the same.
 3. [SendGrid](https://devcenter.heroku.com/articles/sendgrid) is an email service, which we'll cover more later.  You can't send email without help and it's actually incredibly complex behind the scenes.  This add-on makes your life a lot easier by doing most of it for you.
 4. Visit [Heroku Addons Center](https://addons.heroku.com/) for more information on available addons.
@@ -50,6 +50,8 @@ Some of the most useful ones to you will be:
 Note that you'll probably be prompted for your billing information when installing add-ons (or possibly before) because they need to be able to charge for overages.
 
 ## Deploying to Heroku
+
+If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later.
 
 The details of deployment will be left to Michael Hartl in the project, but we'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 4" guide](https://devcenter.heroku.com/articles/getting-started-with-rails4).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rake db:migrate` and using the console is `$ heroku run console`.
 
@@ -66,7 +68,7 @@ There's no magic here... When you created the new Heroku app, you also automatic
 
 From there, Heroku more or less does what you do for your own localhost.  First it will take the "slug" of code and files that you uploaded, identify your Ruby version, and run a `$ bundle install`.  It sets up your database connection and then runs the asset pipeline.  
 
-Recall that in development, Rails only partially executes the asset pipeline -- it runs all the preprocessors but serves asset files like stylesheets and javascripts individually (check your local server logs to see it serving dozens of individual files).  In production, Heroku will finish the job by not only running the preprocessors but also mashing your assets into those single files with the timestamp names (check out the source code of this page for an example -- as I type the stylesheet is called `assets/application-1fc71ddbb281c144b2ee4af31cf0e308.js`.  
+We'll cover the Asset Pipeline in a future lesson and don't worry about this if you aren't familiar with it yet.  If you are... In development, Rails only partially executes the asset pipeline -- it runs all the preprocessors but serves asset files like stylesheets and javascripts individually (check your local server logs to see it serving dozens of individual files).  In production, Heroku will finish the job by not only running the preprocessors but also mashing your assets into those single files with the timestamp names (check out the source code of this page for an example -- as I type the stylesheet is called `assets/application-1fc71ddbb281c144b2ee4af31cf0e308.js`.  
 
 So it doesn't have to run this part of the asset pipeline (which won't actually change at all from one visit to the next) every single time a new HTTP request is served, Heroku will "precompile" the assets up front and serve them from the cache.
 
@@ -124,7 +126,7 @@ Dialing things back to the local environment, here are a few useful things to kn
 
 ## Your Assignment
 
-We won't have too much reading here because many of the links are interspersed with the sections above.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
+We won't have too much reading here because many of the links are interspersed with the sections above and, **if you're a complete beginner, you can safely skip this until later**.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
 
 1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails4) for a step-by-step guide to deploying.
 2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
@@ -133,7 +135,7 @@ We won't have too much reading here because many of the links are interspersed w
 
 Deployment is one of the most satisfying parts of building an application... once you get it actually working!  Now you can show your friends what you've built or get your business online.  Pretty cool stuff.  You just need to accept that you'll probably run into various errors during the process and you're not the first person to do so.
 
-Best of all, you're officially free to go into the world and build applications of your own now.  Following lessons will cover plenty of useful topics but you've got what you need to actually build stuff already.  Congratulations!
+Best of all, once you can deploy an app to the interwebs, you're officially free to go into the world and build applications of your own.
 
 ## Additional Resources
 
