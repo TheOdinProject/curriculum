@@ -10,6 +10,7 @@
 * [Learning CSS Layouts](http://learnlayout.com/)
 * [LearnStreet](http://learnstreet.com)
 * [Responsive Web Tutorial](http://www.lingulo.com/tutorials/css/how-to-build-a-html5-website-from-scratch)
+* [CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/)
 
 ### Tutorials
 
