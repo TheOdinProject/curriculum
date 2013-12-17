@@ -10,15 +10,31 @@ So the `Posts` controller running the `#index` action will implicitly render the
 
 To use an instance variable from your controller, just call it the same way you would in the controller: `@user.first_name` or `@posts` or `@some_other_variable`.
 
-As always, in this lesson we'll cover the high level stuff then have you read the RailsGuides for a more detailed understanding of how things work.
+As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
+
+## You Will Need To Understand
+
+* What is a layout?
+* What's the difference between a "view template" and a "layout"?
+* What is a "Preprocessor"?
+* Why are preprocessors useful?
+* How do you make sure a preprocessor runs on your file?
+* What's the outputted filetype of a preprocessed `*.html.erb` file?  What about a `*.css.scss` file?
+* What is the difference between the `<%=` and `<%` tags?
+* What is a view partial?
+* How do you insert a partial into your view?
+* How can you tell that a view file is a partial?
+* How do you pass a local variable to a partial?
+* What's the magical Rails shortcut for rendering a User?  A bunch of Users?
+* What are asset tags and why are they used?
 
 ## Layouts
 
 The first thing to note is that the named view template we render from the controller is actually not the entire webpage.  It doesn't contain the `<head>` tags or the `DOCTYPE` declaration or some of the other basic structure that's present in all pages.  Precisely because those things are present in all of your pages, the Rails creators were smart enough to turn that code into its own file called a "layout".  Layouts live in the directory `app/views/layouts`.
 
-For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the javascript and css files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is things like navbars and footers and snippets of code for displaying flash messages.
+For a brand new Rails application, the `application.html.erb` layout is pretty basic.  It's got the basic tags you need in all webpages (e.g. `<html>` and `<body>`) and a couple snippets of code that load up the javascript and css files your webpage will need.  You'll want to put anything that's needed across all your webpages into the layout.  Usually this is stuff like navbars and footers and snippets of code for displaying flash messages.
 
-So if a layout is basically just a shell around the individual page, how does the page get inserted?  That brings us back to the magic of the `yield` function, which you saw when you learned about blocks.  The view template at `app/views/posts/index.html.erb` gets inserted where the yield statement is.  When you get more advanced, you'll be able to play around a bit with that statement but for now it's just that simple.
+So if a layout is basically just a shell around the individual page, how does the page get inserted?  That brings us back to the magic of the `#yield` method, which you saw when you [learned about blocks](/courses/ruby-programming/lessons/advanced-ruby-building-blocks).  The view template at `app/views/posts/index.html.erb` gets inserted where the yield statement is.  When you get more advanced, you'll be able to play around a bit with that statement but for now it's just that simple.
 
 ## Preprocessors
 
@@ -95,7 +111,7 @@ To use the variable in your partial file, you drop the `@` and call it like a no
 
 ### Implicit Partials
 
-As usual, there are some things you would end up doing so many times that Rails has given you a short cut.  One of these is the act of rendering a model object like a User or a Post.  You could write out the HTML and ERB code for displaying a single user's first name, last name, email etc... many times directly in your `app/views/users/index.html.erb` file when you want a list of all your users.  Or you could keep that code in some sort of `each` loop.  
+As usual, there are some things you would end up doing so many times that Rails has given you a short cut.  One of these is the act of rendering a model object like a User or a Post.  If you want a list of all your users, you could write out the HTML and ERB code for displaying a single user's first name, last name, email etc many times directly in your `app/views/users/index.html.erb` file or you could keep that code in some sort of `each` loop.  
 
 But it's usually best to make the User into its own partial called `_user.html.erb` so you can re-use it in other cases as well.  The basic way of calling this might be something just like we saw above, which looks like:
 
@@ -140,7 +156,7 @@ In that situation, Rails not only finds the `_user.html.erb` file and passes it 
 
 `render`ing partials isn't the only method you can call from within a view.  Rails has a bunch of really handy helper methods that are available for you to use in the view.  A few of the most common:
 
-### `link_to` 
+### `#link_to` 
 
 `link_to' creates an anchor tag URL.  Instead of writing:
 
@@ -154,7 +170,7 @@ It's the Rails way.  And recall that `users_path` generates a relative URL like 
 
 ### Asset Tags
 
-As you saw in the application layout file, Rails gives you helper methods that output HTML tags to grab CSS or Javscript files.  You can also grab images.  These are called Asset Tags.  We'll get into the "Asset Pipeline" a bit later, but basically these tags locate those files for you based on their name and render the proper HTML tag.
+As you may have seen in the application layout file we talked about above, Rails gives you helper methods that output HTML tags to grab CSS or Javscript files.  You can also grab images.  These are called Asset Tags.  We'll get into the "Asset Pipeline" a bit later, but basically these tags locate those files for you based on their name and render the proper HTML tag.
 
     <%= stylesheet_link_tag "your_stylesheet" %>
     <%= javascript_include_tag "your_javascript" %>
@@ -170,13 +186,13 @@ Will render something like:
 
 ### Forms
 
-Rails offers several different helpers that help you create forms, and we'll go over those in depth in the next lesson.
+Rails offers several different helpers that help you create forms, and we'll go over those in depth in upcoming lessons.
 
 ## Your Assignment
 
-Now that you've got a taste of the high level stuff, read through the Rails Guides for a more detailed look at things.  The reading here will actually start back in the controller, where you need to let it know WHICH view file you want to render.  The second half gets more into the view side of things.
+Now that you've got a taste of the high level stuff, read through the Rails Guides for a more detailed look at things.  The chapter below will actually start in the controller, where you need to let it know WHICH view file you want to render.  The second half of the chapter gets more into the view side of things.
 
-1. Read the [Rails Guide on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
+1. Read the [Rails Guide chapter on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
 
 ## Conclusion
 
