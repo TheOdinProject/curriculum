@@ -4,6 +4,14 @@
 
 You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about the Asset Pipeline and a few other topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
 
+## You Will Need To Understand
+
+* What is the "Asset Pipeline"?
+* What are "Manifest Files"?
+* Why would you namespace your stylesheets?
+* What does it mean to "Escape" HTML?
+* 
+
 ## The Asset Pipeline
 
 Assets in your application are additional files that get called by the browser after your initial gob of HTML is received.  They include things like CSS stylesheets, Javascript files, images, videos etc... basically anything that requires an additional request to grab it.
@@ -12,7 +20,7 @@ Often times, it's easiest to organize your code for development purposes into ma
 
 A similar organizational issue has to do with storing things like images.  It's easier to keep them separate and separated in your directory but you want them to be really simple to link to so your image tags are robust.  
 
-Rails' solution to these problems is to flatten everything out and mash all your asset files together into one big one for each filetype (called "concatenation").  The process used to do this is called the Asset Pipeline.  For your CSS files, this means that Rails will take all the individual `.css` files and just stack them on top of each other in one giant asset file.  It will then run an "uglifier" or "minifier" program on the file to remove extraneous spaces and make everything nice and small for shipping to the browser.
+Rails' solution to these problems is to flatten everything out and mash all your asset files together into one big one for each filetype (called "concatenation").  The process used to do this is the Asset Pipeline.  For your CSS files, this means that Rails will take all the individual `.css` files and just stack them on top of each other in one giant asset file.  It will then run an "uglifier" or "minifier" program on the file to remove extraneous spaces and make everything nice and small for shipping to the browser.
 
 Javascript files are the same -- all of them get smooshed together and then uglified before being shipped to the browser as one single file.  It's better to have one slightly larger file than to make several full HTTP requests.
 
@@ -112,7 +120,7 @@ Remember the preprocessors we talked about in the previous lesson on Views?  Fil
 
 ## Un-Escaping HTML
 
-Let's say you're building a blog and you want to be able to write posts that include HTML code.  If you just write something like `this is the <strong>BODY</strong> of my post` and then try to display it in a view later, the `<strong>`tags will just be regular text... they will literally say '<strong\>'.  That's called "escaping" the characters.
+Let's say you're building a blog and you want to be able to write posts that include HTML code.  If you just write something like `this is the <strong>BODY</strong> of my post` and then try to display it in a view later, the `<strong>`tags will just be regular text... they will literally say '\<strong\>'.  That's called "escaping" the characters.
 
 To get your views to actually render HTML as HTML, you need to let Rails know that the code is safe to run.  Otherwise, it's easy for a malicious attacker to inject code like `<script>` tags that cause major issues when you try to render them.  
 
