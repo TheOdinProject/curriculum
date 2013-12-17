@@ -18,14 +18,20 @@ It's game on.
 *********************************************************************
 
 (current dev version) 0.1.2:  ???
-0.1.?: Feedback mechanism
-0.1.?: Progress tracking
-* Signup current/next design
-0.1.?: Realtime broadcast and collaboration prompting
-* Allow flash messages to go out to all users on the curriculum
-* Allow users to see when other users are at the same section and have the collaborate / chat popup occur
-* Allow users to see when other users are nearby to them for the same functionality
+
+## User Stories
+
+* As a site owner, I want to send a flash message to site users so I can notify them of important events like office hours. (with selectivity and click to close)
+* As a user, I want to know if other users are working on the same material as I am now so I can reach out to work with them
+* As a user, I want to be able to reach out to other users so we can work together on the material
+* As a user, I want to track my progress through the curriculum so I can see how far I've come and how far I still need to go.
+* As a user who might collaborate with another user, I want to know if that user is good to work with so I can decide whether to collaborate with him/her.
 * Allow users to see when other users have scheduled availability for a project ahead of time (e.g. I'm on Ruby Project 1 and get a notification that User 2 will be available to work on it together on Thursday)
+
+## Design Issues
+
+* Signup current/next design
+* Change the top navbar from being fixed to collapsing into a sleek progress bar (right now it takes up too much real estate when the user is scrolling through a lesson)
 
 *********************************************************************
 **********************  Current Dev Version TODOs *******************
