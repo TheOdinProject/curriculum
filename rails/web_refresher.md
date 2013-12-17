@@ -16,21 +16,21 @@ The other key component is that each request uses one of four main "verbs" -- GE
 
 ## REST
 
-REST is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog post model that you've set up:
+REST is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog Post model that you've set up:
 
 1. GET all the posts (aka **"index"** the posts)
 2. GET just one specific post (aka **"show"** that post)
 3. GET the page that lets you create a new post (aka view the **"new"** post page)
 5. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
 4. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
-5. PUT the data you just filled out to edit the post back to the server so it can actually perform the update (aka **"update"** the post)
+5. PUT (or PATCH) the data you just filled out for editing the post back to the server so it can actually perform the update (aka **"update"** the post)
 6. DELETE one specific post by sending a delete request to the server (aka **"delete"** the post)
 
 *The highlighted words correspond to standard Rails controller actions!*
 
 Why is this important?  Because it gives you a very organized way of thinking about your resources.  This is the way to model your requests and should be the ONLY way that those requests are done (e.g. you shouldn't be actually submitting the data for editing a post using a GET request... that should be a POST) If you have a hard time thinking of how those seven scenarios (or at least a subset of them) would apply to a resource you want to create in your database, you may need to rethink how your data is being set up.  
 
-It's also important because Rails is structured to follow these conventions in a very straightforward way.  As long as you're performing those actions, life is very easy for you and the request that you get from the browser can be easily routed through Rails's guts.  
+It's also important because Rails is structured to follow these conventions in a very straightforward way.  As long as you're performing those actions, life is very easy for you and the request that you get from the browser can be easily routed through Rails' guts.  
 
 It may seem simplistic to you up front to think of things this way, but once you've got a bit of complexity in your data model, you'll find that falling back on RESTful thinking can help untangle things for you.
 
@@ -38,15 +38,15 @@ It may seem simplistic to you up front to think of things this way, but once you
 
 You may think you know what's in a URL, but which part is the host? protocol (aka scheme)? parameters? path?
 
-*Check out [this article by Matt Cutts](http://www.mattcutts.com/blog/seo-glossary-url-definitions/) on how Googlers pick apart URL components.  
+*Check out [this article by Matt Cutts](http://www.mattcutts.com/blog/seo-glossary-url-definitions/) on how Googlers pick apart URL components.*
 
 **Quick Quiz:**
 The URL is: https://www.google.com/search?q=what+is+a+url
 
-1. What is the Path?
-2. What is the Parameter portion?
-3. What is the Top Level domain?
-4. What is the Protocol?
+1. What is the "Path"?
+2. What is the "Parameter" portion?
+3. What is the "Top Level Domain"?
+4. What is the "Protocol"?
 
 Once you understand what these components are, you can easily use Ruby's libraries to help you build your own and send a requests.  You also run into specific pieces like the "path" and "parameters" again and again when using Rails.
 
@@ -56,7 +56,7 @@ Once you understand what these components are, you can easily use Ruby's librari
 
 You've heard about it again and again, but do you really know what MVC is?  Errrrmmmmm, ummm.... 
 
-MVC is all about organization and Rails is all about MVC.  When you build a new Rails project, you get that giant mass of folders and files created.  Though there are many inside your `app` directory, they are highly organized and specifically meant to separate the Model, View, and Controller.
+MVC is all about organization and Rails is all about MVC.  When you build a new Rails project, you get that giant mass of folders and files created.  Though it seems like there are an overwhelming number of files inside your `app` directory, they are highly organized and specifically meant to separate the Model, View, and Controller.
 
 The point of MVC is that the functions of a web application can be broken down into more or less distinct parts.  Each part gets its own Ruby class.  That's great for you the developer because, when you want to tweak a specific part of the code base or fix a bug, you know exactly which file to modify and where it is.
 
@@ -64,9 +64,9 @@ The point of MVC is that the functions of a web application can be broken down i
 
 Once a request from a browser comes into your application, at the most basic level:
 
-1. The router figures out which controller to send it to (e.g. the BlogPosts controller).  
+1. The router figures out which controller to send it to (e.g. for your blog, the Posts controller).  
 2. That controller asks the model (e.g. Post model) for data and any other tough questions it has.  
-3. Then that controller passes off whatever data it needs to the views (e.g. index.html.erb), which are basically just HTML templates that are waiting for those variables.
+3. Then that controller passes off whatever data it needs to the views (e.g. `index.html.erb`), which are basically just HTML templates that are waiting for those variables.
 4. Once the proper view has been pumped full of the data it needs (like the current user's name), it gets sent back to the client that made the original request.  Presto!
 
 *Check out a more detailed version of MVC on [betterexplained.com HERE](http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/)*
@@ -116,11 +116,11 @@ It's also how some ads seem to follow you from one website to another -- another
 
 On the server side, you'll interact with cookies and session variables quite a bit.  As mentioned above, one of the main uses of these is to determine who the user is, or "authentication".  You'll basically retrieve the cookie that the user sends you, use it to find that user in your database, and (if the user exists) then you can display the customized web page for that user.
 
-It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily the nice folks at [Platformatec](http://plataformatec.com.br/) created a very handy gem called "Devise" which takes care of all this stuff for you.  In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
+It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily the nice folks at [Platformatec](http://plataformatec.com.br/) created a very handy gem called ["Devise"](https://github.com/plataformatec/devise) which takes care of all this stuff for you.  In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
 
 ## Authorization
 
-Authorization is the partner concept to Authentication... Auth lets you determine WHO the user is, but the idea behind authorization is that you might limit what the person can see based on their permission level.  The most common case of this is actually the distinction between a random not-logged-in user and one who is logged in.  Another common case of this is the difference between regular users of a website and the admin users who have special privileges.  
+Authorization is the partner concept to Authentication... Authentication lets you determine WHO the user is, but the idea behind authorization is that you might limit what the person can see based on their permission level.  The most common case of this is actually the distinction between a random not-logged-in user and one who is logged in.  Another common case of this is the difference between regular users of a website and the admin users who have special privileges.  
 
 On the server side, you will end up writing (or using) methods which restrict access to certain types of actions based on who the current user is (or whether the requester is logged in at all).  Again, Devise will help you with this by providing some of these helper methods (like for checking whether any user is logged in or who the current user is) for you.
 
