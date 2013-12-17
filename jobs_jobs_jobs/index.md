@@ -47,6 +47,11 @@ Testing:
 * http://projecteuler.net/
 * 
 
+Algorithms:
+* Udacity https://www.udacity.com/course/viewer#!/c-cs215/l-48747095/m-48691609 (async)
+* Coursera https://www.coursera.org/course/algo (semi-sync)
+
+
 Incidentally, you may be considering attending a full-time coding bootcamp to find a job. The majority of people shelling out money to attend a full-time coding bootcamp seeks to enhance their career prospects. Yes, there is a component of genuine interest and learning, but a clear expectation is that the programming courses offer an entry into a programming career. Some companies advertise 100% placement rate and six figure offers. How credible are these claims? Are such points relevant for your overall career search process?
 
 If you're looking to be better informed about a full-time coding bootcamp and whether it might be useful to you, read this guide to help make your decision: [Choosing a Full-Time Coding Bootcamp](leanpub.com/choosing-programming-course)
