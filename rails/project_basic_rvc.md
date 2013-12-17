@@ -15,7 +15,7 @@ There's a lot of steps but it's actually quite straightforward.
 
 First you need to create a simple Rails app:
 
-1. Create a new Rails application.  Call it whatever you want... "rest-tester"?.  Remember `$ rails new`??  Go (`cd`) into the application folder and open it up in a text editor.
+1. Create a new Rails application "rest-tester" (remember the `$ rails new` command?).  Go (`cd`) into the application folder and open it up in a text editor.
 2. Let's start from the top -- creating the routes necessary to serve up our users.  Go to `app/config/routes.rb` and add the users resources with `resources :users`.
 3. Quiz: Which routes were just created (there are 7 of them)?  More specifically, try to name the 7 actions and what they do.  Now try to match these routes to the appropriate HTTP verbs and URLs (remember, some are created by using the same URL but a different HTTP verb).
 4. Verify by using `$ rake routes`
@@ -65,15 +65,15 @@ Next create a simple script file which will run RestClient and allow you to star
 #### Non-GET Requests
 
 4. Now create the `#create` action in your controller, which would be accessed using a POST request.  Update your script to make a simple POST `#post` request sending no data, e.g. `RestClient.post(url,"")`.  See the [RestClient Docs](https://github.com/rest-client/rest-client) for info on how to structure the non-GET requests.
-5. Error!  Back to the server: `ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):`.  Aha! Rails doesn't like it when you try to make POST requests to your application using the command line since they typically represent the submission of form data which may be sensitive.  The same is true for DELETE and PATCH requests.
+5. Error!  Back to the server: `ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):`.  Aha! Rails doesn't like it when you try to make POST requests to your application using the command line since POST requests typically represent the submission of form data which may be sensitive.  The same is true for DELETE and PATCH requests.
 
-    We'll get more into this in the lesson on forms, but basically Rails will send a special code when it renders a form in the webpage and only accepts the response if the form sends back that token.  Since you are operating directly from the command line and never got that token, Rails won't accept your request.  Food for thought.
+We'll get more into this in the lesson on forms, but basically Rails will send a special token code when it renders a form in the webpage and then it only accepts the response if the form sends back that token with the submission.  Since you are operating directly from the command line and never got that original token, Rails won't accept your request.  Food for thought.
 
 Hopefully this has been a useful adventure into the request cycle of a Rails app and given you a chance to get a bit familar with basic app creation and setup and routing.  Feel free to send feedback.
 
 ## Project: Ruby on Rails Tutorial
 
-In this chapter you will build out the look and feel of the application using Twitter's Bootstrap CSS framework.  If you're feeling shaky on CSS, check out the [CSS Lesson in the Web Development 101 course](http://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics).  
+In this chapter of the tutorial you will build out the look and feel of the application using Twitter's Bootstrap CSS framework.  If you're feeling shaky on CSS, check out the [CSS Lesson in the Web Development 101 course](/courses/web-development-101/lessons/html-and-css-basics).  
 
 Bootstrap will do a lot of the heavy lifting for you -- instead of having to figure out how to make your navbar stick to the top of the screen, you just have to put the correct class onto some `<div>` tags and Bootstrap's style files will take over for you.  It's a good way to quickly get something half decent up and running.  In the course on HTML and CSS, you'll get the chance to design your own CSS framework, but for now Bootstrap is a good weapon of choice.
 
