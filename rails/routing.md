@@ -6,11 +6,20 @@ The router is the doorman of your application.  When an HTTP request arrives fro
 
 The Router is basically just a matching service.  It looks at the HTTP verb (GET, POST, PUT, DELETE) and the URL that it being requested and matches it with the appropriate controller action to run.  It's a pretty simple function but an essential one.  If it can't find a route that matches the request, your application will throw an error.
 
-If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a huge blob of comments that do a pretty good job of explaining how it works, so you're never in much danger of losing your way.
-
 The other handy thing that goes on when a request enters your application is that Rails grabs all the parameters that came with it and makes them available for you in a special hash called `params` that you can later use in your controller.  That's good for things like form submissions so that you later can use that form data to create or modify objects.
 
+If you open the routes file in your Rails app (located in `config/routes.rb`), you'll see a huge blob of comments that do a pretty good job of explaining how it works, so you're never in much danger of losing your way.
+
 Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rake routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
+
+## You Will Need To Understand
+
+* What is the "Root" route?
+* What are the seven RESTful routes for a resource?
+* Which RESTful routes share the same URL but use different verbs?
+* How do you specify an ID or other variable in a route?
+* How can you easily write all seven RESTful routes in Rails?
+* What is the Rails helper method that creates the HTML for links?
 
 ## Root
 
@@ -32,7 +41,7 @@ If you recall our earlier discussion about REST, there are basically seven main 
 5. PUT the data you just filled out to edit the post back to the server so it can actually perform the update (aka **"update"** the post)
 6. DELETE one specific post by sending a delete request to the server (aka **"delete"** the post)
 
-    *The highlighted words correspond to standard Rails controller actions!*
+*The highlighted words correspond to standard Rails controller actions!*
 
 Each of these represents a "RESTful" route, and so it makes sense that you'll need a way to write these in your Router file so the requests they represent are actually routed to the proper action of your controller (in this case, the "Posts" controller).  One way to write them out would be the long way:
 
