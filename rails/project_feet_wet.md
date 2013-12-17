@@ -5,7 +5,7 @@
 
 ## Warmup: Installations and Blogger
 
-To do this course, you've got to have Rails and the rest of things properly installed on your computer.  That will be the first task if you haven't already.
+To do this course, you've got to have Rails and several other technologies [properly installed on your computer](/courses/web-development-101/lessons/installations).  That will be the first task if you haven't already.
 
 Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) (which was assigned way back in the Web Development 101 course).  The Blogger tutorial is actually more challenging than the project below, and was assigned to give you a chance to get in over your head a bit so you'd pay attention along the way :)
 
