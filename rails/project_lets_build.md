@@ -7,15 +7,15 @@
 
 This is really a warmup -- you'll get a chance to poke around HTTP requests from the command line (IRB actually) and also to play around with a new gem called `rest-client`.  This is a useful (and powerful) gem which helps you make HTTP requests.  You can use it to do the basic stuff we're doing here or much more complicated authentication requests.  
 
-You may find yourself using Rest Client down the road if you need to communicate with another web service that doesn't have an API library already written out for you (which is pretty rare these days).  Or if for some odd reason you get the inclination to test your own API from the command line.
+You may find yourself using Rest Client down the road if you need to communicate with another web service that doesn't have an API library already written out for you (which is pretty rare these days).  Or if you get the inclination to test your own API from the command line later.
 
 ### Your Task
 
-1. Make sure that you've got Rest Client installed, do a $ gem install rest-client`
+1. Make sure that you've got Rest Client installed, do a `$ gem install rest-client`
 2. Head into IRB (`$ irb`)
 3. `require 'rest-client'`
 4. Now you're able to play with the gem.  Read its documentation over in the Github repo [HERE](https://github.com/rest-client/rest-client).  You'll end up doing this a whole lot -- using a new gem and going to its repo to check out the documentation, so get familiar with the process early!
-5. Use RestClient to do a Google search and examine the results (you can find the parameters that Google wants in the URL after you make a search in a browser.  Ignore everything after `q=`.  Okay, you just need the `q=searchterm` parameter).
+5. Use RestClient to do a Google search and examine the results (you can find the parameters that Google wants in the URL by simply making a search in a normal browser.  Pay attention to the `q=` parameter).
 
 ### Student Solutions
 
@@ -31,13 +31,15 @@ In this project, you'll dive right into the tutorial by building the site's stat
 
 One aspect of the Ruby on Rails tutorial which we haven't covered deeply is testing.  You got a brief look at it in the [Web Development 101 course](http://www.theodinproject.com/courses/web-development-101/lessons/testing-basics) and a good taste of it in the [Ruby course](http://www.theodinproject.com/courses/ruby-programming/lessons#section-testing-ruby-with-rspec) but there are some more moving parts when it becomes applied to Rails.
 
-Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of RSpec is relatively straightforward.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).  If you haven't or if you don't feel comfortable with testing Ruby yet, it can feel like you're learning two languages at once.  Don't be discouraged if you end up scratching your head a bit... it takes some getting used to.  Luckily RSpec only uses about a dozen different methods again and again and again, the trick is just knowing which order to put them in.
+Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of RSpec is relatively straightforward.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).  
 
-The tutorial covers more specifically the practice of "Test Driven Development", where you actually write the tests FIRST and THEN write the code to make them pass.  That's helpful for many reasons, not least of which is that you get to make sure you test actually fails if the code doesn't work.  It also keeps you honest by making you only write just enough code to make your tests pass (so your code base stays lean and clean).  It can take some getting used to but is a software development practice that is becoming more and more common these days.
+If you don't feel comfortable with testing Ruby yet, it can feel like you're learning two languages at once.  Don't be discouraged if you end up scratching your head a bit... it takes some getting used to.  Luckily RSpec only uses about a dozen different methods again and again and again, the trick is just knowing which order to put them in.
+
+The tutorial covers more specifically the practice of "Test Driven Development", where you actually write the tests FIRST and THEN write the code to make them pass.  That's helpful for many reasons, not least of which is that you get to make sure your test actually fails if the code doesn't work.  It also keeps you honest by making you only write just enough code to make your tests pass (so your code base stays lean and clean).  It can take some getting used to but is a software development practice that is becoming more and more common these days.
 
 90% of you will need to learn Rails testing and this is the best way to do it.  That 90% covers everyone who will be seeking a job as a web developer or who is looking to put together any websites more complicated than simple registration pages.  For the other 10%, you should be okay skipping past the testing but I encourage everyone to give it a shot.  Otherwise you've got no way of knowing if your application is working properly or not.
 
-#### Test Example
+#### A Simple Test Example
 
 This is an example (listing 3.14) from the tutorial:
 
@@ -79,7 +81,9 @@ First of all, this file is just Ruby code (see the `.rb`).  It uses some new met
 
 When you run the spec file, RSpec stores each `#it` block as a separate test and then runs them in a random order (which is important to make sure you haven't accidentally caused one test to influence another).  So all the stuff inside the `#it` block is what's actually passing or failing if you run the test.  
 
-The `#describe` blocks just help break up the specs and bucket related ones together.  Note that `#describe` is the same as the `#context` method you may see at some point... people just use whichever one sounds like better English.This bucketing of tests is important because you'll often need to go through some order of things before doing a specific test, e.g. "go to the home page", "click login", "fill out login form", "click submit".  By nesting the specs inside `describe` or `context` blocks, you avoid having to repeat all those instructions for each individual spec.
+The `#describe` blocks just help break up the specs and bucket related ones together.  Note that `#describe` is the same as the `#context` method you may see at some point... people just use whichever one sounds like better English.
+
+This bucketing of tests is important because you'll often need to go through some order of things before doing a specific test, e.g. "go to the home page", "click login", "fill out login form", "click submit".  By nesting the specs inside `describe` or `context` blocks, you avoid having to repeat all those instructions for each individual spec.
 
 You don't see it here, but you'll also work with the `#before` method.  This lets you perform some logic before actually running the test, like setting variables (with the `#let` method) or creating model objects.
 
@@ -98,6 +102,7 @@ If you're already scratching your head, don't worry (like I said, better explana
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
 2. Do [Chapter 3](http://ruby.railstutorial.org/chapters/static-pages#top) of the Ruby on Rails Tutorial to get started building the application.
 3. Do [Chapter 4](http://ruby.railstutorial.org/chapters/rails-flavored-ruby#top) of the tutorial to see how Ruby will be used in Rails.
+4. Glance back at the [Deployment Lesson](http://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment) if you've got lingering questions or issues about the process of deployment.
 
 ## Additional Resources
 
