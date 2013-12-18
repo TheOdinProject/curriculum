@@ -12,13 +12,13 @@ You will start with the questions like the ones above and then have to figure ou
 
 This lesson assumes you've already completed the [Databases intro in the Web Development 101 course](http://www.theodinproject.com/courses/web-development-101/lessons/databases).  We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries (this one is used whenever you ask Rails for the first user with `User.first`) and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
-All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails.  This is why we're going over databases before learning Active Record.  We'll do the same thing with forms -- you'll learn how to build them in HTML and then how to use Rails to make them for you.  
+All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails.  This is why we're going over databases before learning Active Record.  We'll do the same thing with forms -- you'll learn how to build them in HTML and *then* how to use Rails to make them for you.  
 
 ### A Note on Resources
 
 SQL is one of those topics that's been stored away in dusty old technical manuals and 90's style websites.  Even the best books out there can make it seem oddly complicated because they tend to write for the database engineer who actually does need to know all the nitty gritty details.  
 
-Though now the prevalence of web applications has grown the demand among new users to understand the *concepts* of SQL, the learning tools haven't really caught up. We'll do our best to impart those concepts using the tools available.
+Though the prevalence of web applications these days has grown the demand among new users to focus on understanding the *concepts* of SQL, the learning tools haven't really caught up. We'll do our best to impart those concepts using the tools available.
 
 ## You Will Need To Understand
 
@@ -90,9 +90,9 @@ SQL likes semicolons at the end of lines and using single quotes (') instead of 
 
 Once your database is set up and you've got empty tables to work with, you use SQL's statements to start populating it.  The main actions you want to do are CRUD (which we've seen before) -- Create, Read, Update, and Destroy.  Most of the commands you run will fall under the "Read" category, since you'll spend lots of time asking questions of your data and trying to display it.
 
-Every CRUDdy command in SQL contains a few parts -- the action ("statement"), the table it should run on, and the conditions ("clauses").  If you just do an action on a table, it will apply to the whole database and you'll probably break something.  
+Every CRUDdy command in SQL contains a few parts -- the action ("statement"), the table it should run on, and the conditions ("clauses").  If you just do an action on a table without specifying conditions, it will apply to the whole database and you'll probably break something.  
 
-For "Destroy" queries, the classic mistake is typing `DELETE * FROM users`, which removes all your users table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g. `DELETE * FROM users WHERE users.id = 1`.  You can do all kinds of common sense things like using `>`, `<`, `<=` etc. comparison operators to specify groups of rows to run commands on or logical operators like `AND`, `OR`, `NOT` etc to chain multiple clauses together, e.g. `DELETE * FROM users WHERE id > 12 AND name = 'foo'`.
+For "Destroy" queries, the classic mistake is typing `DELETE * FROM users` without a `WHERE` clause, which removes all your users from the table.  You probably needed to delete just one user, who you would specify based on some (hopefully unique) attribute like "name" or "id" as part of your condition clause, e.g. `DELETE * FROM users WHERE users.id = 1`.  You can do all kinds of common sense things like using `>`, `<`, `<=` etc. comparison operators to specify groups of rows to run commands on or logical operators like `AND`, `OR`, `NOT` etc to chain multiple clauses together, e.g. `DELETE * FROM users WHERE id > 12 AND name = 'foo'`.
 
 "Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into and then which values to put in those columns, which looks something like `INSERT INTO Users (name, email) VALUES ('foobar','foo@bar.com');`.  This is one of the few queries that you don't need to be careful about which rows you've selected since you're actually just adding new ones into the table.
 
@@ -102,7 +102,7 @@ For "Destroy" queries, the classic mistake is typing `DELETE * FROM users`, whic
     SET name='barfoo', email='bar@foo.com' 
     WHERE email='foo@bar.com';`
 
-"Read" queries, which use `SELECT` are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name.  You can get away with just the column name for simple queries but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
+"Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name.  You can get away with just the column name for simple queries but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
 
 A close cousin of `SELECT`, for if you only want unique values of a column, is `SELECT DISTINCT`.  Say you want a list of all the different names of your users without any duplicates... try `SELECT DISTINCT users.name FROM users`.
 
@@ -110,7 +110,7 @@ A close cousin of `SELECT`, for if you only want unique values of a column, is `
 
 If you want to get all the posts created by a given user, you need to tell SQL which columns it should use to zip the tables together with the `ON` clause. Perform the "zipping" with the `JOIN` command.  But wait, if you mash two tables together where the data doesn't perfectly match up (e.g. there are multiple posts for one user), which rows do you actually keep?  There are four different possibilities:
 
-*Note: the "left" table is the original table the `FROM` clause was `ON`, e.g. "users" below.*
+*Note: the "left" table is the original table (the one that the `FROM` clause was `ON`), e.g. "users" in examples below.*
 
 *See ["A visual explanation of sql joins"](http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html) by Jeff Atwood for good visuals.*
 
@@ -125,11 +125,11 @@ Read through [W3 Schools' Joins lesson](http://www.w3schools.com/sql/sql_join.as
 
 ### Using Functions to Aggregate Your Data
 
-When you run a vanilla SQL query, you often get back a bunch of rows.  Sometimes you want to just return a single relevant value that aggregates a column, like the `COUNT` of posts a user has written.  In this case, just use one of the functions offered by SQL (most of which you'd expect to be there, like `SUM` and `MIN` and `MAX` etc).  You include the function as a part of the `SELECT` statement, like `SELECT MAX(users.age) FROM users`.  The function will operate on just a single column unless you specify `*`, which only works for some functions like `COUNT` (because how would you `MAX` a column for "name"?).
+When you run a vanilla SQL query, you often get back a bunch of rows.  Sometimes you want to just return a single relevant value that aggregates a column, like the `COUNT` of posts a user has written.  In this case, just use one of the helpful "aggregate" functions offered by SQL (most of which you'd expect to be there -- functions like `SUM` and `MIN` and `MAX` etc).  You include the function as a part of the `SELECT` statement, like `SELECT MAX(users.age) FROM users`.  The function will operate on just a single column unless you specify `*`, which only works for some functions like `COUNT` (because how would you `MAX` a column for "name"?).
 
 You often see aliases (`AS`) used to rename columns or aggregate functions so you can call them by that alias later, e.g. `SELECT MAX(users.age) AS highest_age FROM users` will return a column called `highest_age` with the maximum age in it.
 
-Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you just want to use them on specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
+Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you want to use them on very specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
 
     SELECT users.name, COUNT(posts.*) AS posts_written
     FROM users
@@ -152,7 +152,7 @@ You probably got lost somewhere in the above explanation and that's just fine...
 
 ## SQL is faster than Ruby!
 
-Learning this stuff is particularly relevant because it's MUCH faster for you to build queries that use SQL intelligently than to just grab a whole bunch of data out of your database and then use Ruby to process it.  For instance, if you want all the unique names of your users, you COULD just grab the whole list from your database using SQL like `SELECT users.name FROM users` (which Active Record will do for you with `User.select(:name)`) then narrow down the users by name using Ruby's `#uniq` method, e.g. `User.select(:name).uniq`... but that requires you to pull all that data out of your database and then put it into memory and then iterate through it using Ruby.  Use `SELECT DISTINCT users.name FROM users` instead to have SQL do it all in one step.
+Learning this stuff is particularly relevant because it's MUCH faster for you to build queries that use SQL intelligently than to just grab a whole bunch of data out of your database and then use Ruby to process it.  For instance, if you want all the unique names of your users, you COULD just grab the whole list from your database using SQL like `SELECT users.name FROM users` (which Active Record will do for you with `User.select(:name)`) then remove duplicates using Ruby's `#uniq` method, e.g. `User.select(:name).uniq`... but that requires you to pull all that data out of your database and then put it into memory and then iterate through it using Ruby.  Use `SELECT DISTINCT users.name FROM users` instead to have SQL do it all in one step.
 
 SQL is built to be fast.  It has a special query optimizer which takes a look at the whole query you're about to run and it figures out exactly which tables it needs to join together and how it can most quickly execute the query.  The difference between using `SELECT` and `SELECT DISTINCT` is negligible compared to the time cost of doing it in Ruby.  Learning your SQL will help you write Active Record queries that can do more which will make you app much faster.  
 
