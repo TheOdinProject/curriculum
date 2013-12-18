@@ -3,8 +3,10 @@
 # get it).
 development:
   adapter: postgresql
-  database: theodinproject
+  database: odin
   host: localhost
+  username: joseph
+  password: sh4butie
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -12,15 +14,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: theodinproject_test
+  database: odin
   pool: 5
-  username:
-  password: 
+  username: joseph
+  password: sh4butie
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: db/production
+  database: odin
   pool: 5
-  username:
-  password: 
+  username: joseph
+  password: sh4butie
