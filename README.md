@@ -16,14 +16,16 @@ Contact us directly at [project@theodinproject.com](mailto:project@theodinprojec
 
 ## Future Development
 
-The file [dev_roadmap.md](dev_roadmap.md) will be more specific (it's the working document) but there are some overall goals for the short term development of this project:
+**Update (12/18/13)!** The new development roadmap will be managed using [this Pivotal Tracker project](https://www.pivotaltracker.com/s/projects/979092).  The file [dev_roadmap.md](dev_roadmap.md) will contain historical release notes but not an up-to-date list of features in projgress.
+
+There are some overall goals for the short term development of this project:
 
 * Improve the overall user experience while using the curriculum
 * Start rolling out realtime collaboration features and progress tracking for students who are using the curriculum.
 * Improve test coverage, particularly for the curriculum and the scheduling tool (which is all javascript).
 * Improve the documentation of the existing code base so people can more easily navigate through it.  This means in-line commenting and also creating a higher level github wiki page that explains how the project works and the best ways to navigate it.
 
-If you'd like to help out (even as a relative newbie), please [get in touch](mailto:contact@theodinproject.com) and we'd be happy to point you in the right direction.
+If you'd like to help out (even as a relative newbie), please [get in touch](mailto:contact@theodinproject.com) and we'd be happy to point you in the right direction.  Check out the [Pivotal Tracker project](https://www.pivotaltracker.com/s/projects/979092) for the features and our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/) for online weekly development meetings.
 
 ### Hacking on the Site Yourself
 
