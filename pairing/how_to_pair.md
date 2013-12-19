@@ -1,42 +1,53 @@
 # How do we Pair?
 
 ## Tools
-For best pairing, we recommend using a tool called [Screenhero](http://www.screenhero.com). Screenhero is like Skype for screen sharing and lets you interact remotely with the other person's computer for free. It includes both screen sharing and voice.  It's just one-click-to-call, allowing you to talk while you're working together on the same code on one of your computers... remotely!
+For best pairing between two people, we recommend using a tool called [Screenhero](http://www.screenhero.com). Screenhero is like Skype for screen sharing and lets you interact remotely with the other person's computer for free. It includes both screen sharing and voice.  It's just one-click-to-call, allowing you to talk while you're working together on the same code on one of your computers... remotely!
 
 Combining being able to talk with someone and being able to see and interact with the same computer is what makes pairing work.  
 
-You could do it using just chat but it's not close to the same experience.  It's probably not necessary (and a waste of bandwidth) to have a video feed going at the same time either.
+You could do it using just chat but it's not close to the same experience.  It's probably not necessary (and a waste of bandwidth) to have a separate video feed going at the same time either.
 
 ### Setting up ScreenHero
+
 Setting up ScreenHero: Download the free client at [Screenhero.com](http://www.screenhero.com), set up your account, and "call" your partner to start sharing your screen and allowing your partner to interact with it.  You'll see two mice and you'll both be able to use your keyboards to interact with the shared computer.  Cool!
 
 There is a button that allows you to activate the voice portion of the call.  If that doesn't work well, try using Skype for voice instead.
 
 Once you are able to talk to each other and you can both work on one of your screens, it's time to get coding!
 
-### Setting up Skype
-Download the free client at [Skype.com](http://www.skype.com), set up your user details, and "call" your partner.
 
-### Alternative Technologies (experimental)
+### Google Hangouts
 
-Sometimes a program just won't work properly so you need to go to Plan B.  In our case, we usually recommend [Google Hangouts](http://www.google.com/+/learnmore/hangouts/) because it has both audio and screensharing/remoting tools baked into one.  The bandwidth usage isn't quite as efficient as Screenhero (or Skype and Screenhero) but should work fine for your purpose.  You'll need to sign up for Google Plus and add the extension to the Chrome browser to get it to work.
+Sometimes a program just won't work properly so you need to go to Plan B.  In our case, we usually recommend [Google Hangouts](http://www.google.com/+/learnmore/hangouts/) because it has both audio and screensharing/remoting tools baked into one.  The bandwidth usage isn't quite as efficient as Screenhero (Screenhero) but should work fine for your purpose.  You'll need to sign up for Google Plus and add the extension to the Chrome browser to get it to work.
 
 [This tutorial](http://www.techrepublic.com/blog/google-in-the-enterprise/quick-tip-set-up-a-google-hangout-for-web-conferencing/2064) describes setting up a hangout session, though they don't get into the actual remote pairing side of things.  **Basically, just click [this link](https://plus.google.com/hangouts/_/) to open a new hangout once you've got the plugin installed.**
 
-We'll be using the feature called Remote Desktop, which lets your partner use your computer like maybe you've experienced before with tech support.  You'll usually have to activate that feature once you're inside the hangout by clicking on it on the lefthand sidebar.  
-If it's not there, you may need to click on the three-dots icon on that same sidebar and then click "Add Apps" and find Remote Desktop yourself.
+The easy way is to just screenshare the code, which means one person will be the driver by default and the other will be the navigator (since it's a one-way screen share not a remote desktop).  When it's time to switch, push your code up to Github and have the other partner pull it down from that repository.
+
+A slightly more interactive way is by using the Hangouts feature called Remote Desktop, which lets your partner use your computer like maybe you've experienced before with tech support.  You'll usually have to activate that feature once you're inside the hangout by clicking on it on the lefthand sidebar.  If it's not there, you may need to click on the three-dots icon on that same sidebar and then click "Add Apps" and find Remote Desktop yourself.
 
 The downside is that you can't really do a good fullscreen session with Google.
 
-Another alternative, as described in [this blog post](http://remotepairprogramming.com/post/43644506226/remote-pair-programming-technology), is Apple's native Screen Sharing app (combined with Skype).
+#### Additional Google Hangout Resources
 
-### Resources
+Here's a [Google Hangout tutorial (video)](http://www.youtube.com/watch?v=Tt_86-SrBX0) and another on [using Hangouts to screen share](http://www.youtube.com/watch?v=mvpFsmcfz1k).  
 
-Here's a [Google Hangout tutorial (video)](http://www.youtube.com/watch?v=Tt_86-SrBX0) and another on [using Hangouts to screen share](http://www.youtube.com/watch?v=mvpFsmcfz1k).  We will be using Remote Desktop Sharing so [check out this how-to video](http://www.youtube.com/watch?v=3XeCQrPZQ6Y) to familiarize yourself with it.
+Check out [this how-to video](http://www.youtube.com/watch?v=3XeCQrPZQ6Y) to familiarize yourself with Remote Desktop.
 
 Here's an older video on [How To Use Google Hangouts](http://www.youtube.com/watch?v=7K06lHu4gDk).
 
-*Do you have a favorite screensharing or remote pairing technology?  [Contribute it to the curriculum!](/curriculum/contributing.md)*
+### Nitrous.io
+
+We've already mentioned [Nitrous](http://nitrous.io) as a development environment, but it also works great for collaboration.  You'll probably want to run a Google Hangout simultaneously so you can chat and look at one person's screen, but what's cool about using Nitrous is that you can both be logged into their web-based IDE and looking at the same code base.
+
+That means you can both type and explore and run it at the same time.  You can invite as many people as you want to collaborate as well.
+
+See [this support article](http://help.nitrous.io/collab/) to learn more about collaborating with Nitrous.
+
+### Apple Screensharing
+
+Another alternative, as described in [this blog post](http://remotepairprogramming.com/post/43644506226/remote-pair-programming-technology), is Apple's native Screen Sharing app (combined with Skype).
+
 
 
 ## Techniques
