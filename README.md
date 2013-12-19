@@ -16,7 +16,7 @@ Contact us directly at [project@theodinproject.com](mailto:project@theodinprojec
 
 ## Future Development
 
-**Update (12/18/13)!** The new development roadmap will be managed using [this Pivotal Tracker project](https://www.pivotaltracker.com/s/projects/979092).  The file [dev_roadmap.md](dev_roadmap.md) will contain historical release notes but not an up-to-date list of features in projgress.
+**Update (12/18/13)!** The new development roadmap will be managed using [this Pivotal Tracker project](https://www.pivotaltracker.com/s/projects/979092).  The file [dev_roadmap.md](dev_roadmap.md) will contain historical release notes but not an up-to-date list of features in progress.
 
 There are some overall goals for the short term development of this project:
 
