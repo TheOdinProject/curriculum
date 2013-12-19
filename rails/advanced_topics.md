@@ -10,7 +10,7 @@ You should be quite familiar by now with the bread and butter of routing -- conv
 
 ### Singular Resources
 
-You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `app/config/routes.rb` file, you represent these simply with a single line like `resources :users`.
+You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these simply with a single line like `resources :users`.
 
 Sometimes there are also resources where it actually only makes sense for there to be one.  An example would be a User dashboard which displays interesting facts based on whichever user is logged in.  There is only one dashboard template, it just happens to be smart enough to display things that are relevant for the user who is currently logged in.
 
@@ -39,7 +39,7 @@ The `$ rake routes` for a singular resource would only contain 6 routes (since w
 
 Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file via something like:
 
-    # app/config/routes.rb
+    # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
         resources :lessons
@@ -58,7 +58,7 @@ View helpers are also automatically generated in a logical way (as you can see i
 
 Don't nest routes too deeply! If you're more than a layer or two deep, something should be different.  In fact, oftentimes you'll see only some of the controller actions nested -- only the ones that actually *need* the parent's ID to uniquely specify it.  For instance, you can grab a specific Lesson by knowing only its ID.  But to get all the lessons that are listed beneath a specific Course, you need the Course ID so it will have to be nested.  Same is true for creating lessons, since they will need a parent specified:
 
-    # app/config/routes.rb
+    # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
         resources :lessons, :only => [:index,]
@@ -71,7 +71,7 @@ If this seems a bit confusing at first, you'll pick it up quickly when you actua
 
 Sometimes you want to add another non-RESTful route to a resource.  If you'd like to add a route to just a single member of that resource, use the `#member` method:
 
-    # app/config/routes.rb
+    # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
         member do
@@ -84,7 +84,7 @@ That route would map to the `courses#preview` action.  You can add as many as yo
 
 If you'd like to add a non-RESTful route to the whole collection (so you don't need to specify the `:id` attribute, like with the `index` action), you instead use the `#collection` method:
 
-    # app/config/routes.rb
+    # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
         member do
@@ -104,7 +104,7 @@ If any of this seems confusing, just play around with them and run `$ rake route
 
 You might want to provide a URL out of convenience but map it directly to another one.  Use a redirect:
 
-    # app/config/routes.rb
+    # config/routes.rb
     TestApp::Application.routes.draw do
       get 'courses/:course_name' => redirect('/courses/%{course_name}/lessons'), :as => "course"
     end
@@ -155,7 +155,7 @@ This trick is useful for more than just passing stylesheet information... any ti
 
 What is "Metaprogramming"?  It's a great and useful concept that's used all over Rails and you can put it to work yourself too.  It's basically the idea that your application or script actually creates functions or methods or classes on the fly while it's running and can dynamically call them as well.  It's one of the great parts of using an interpreted language like Ruby... it's sort of baked into the language.  We'll just skim the surface here but you should definitely look into it more on your own once you feel comfortable with the nuts and bolts of Rails.
 
-An example of metaprogramming in action in Rails is with the route helpers.  When your Rails application fires up for the first time, it loads the `app/config/routes.rb` file, which might contain the line `get "home" => "static_pages#home"` so your users can type `http://www.yoursite.com/home` to get back to the home page.  Rails then creates a couple method for you, including the `home_path` and `home_url` helpers.  That's one part of metaprogramming!
+An example of metaprogramming in action in Rails is with the route helpers.  When your Rails application fires up for the first time, it loads the `config/routes.rb` file, which might contain the line `get "home" => "static_pages#home"` so your users can type `http://www.yoursite.com/home` to get back to the home page.  Rails then creates a couple method for you, including the `home_path` and `home_url` helpers.  That's one part of metaprogramming!
 
 The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `home_path` or `home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?
 

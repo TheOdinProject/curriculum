@@ -16,7 +16,7 @@ There's a lot of steps but it's actually quite straightforward.
 First you need to create a simple Rails app:
 
 1. Create a new Rails application "rest-tester" (remember the `$ rails new` command?).  Go (`cd`) into the application folder and open it up in a text editor.
-2. Let's start from the top -- creating the routes necessary to serve up our users.  Go to `app/config/routes.rb` and add the users resources with `resources :users`.
+2. Let's start from the top -- creating the routes necessary to serve up our users.  Go to `config/routes.rb` and add the users resources with `resources :users`.
 3. Quiz: Which routes were just created (there are 7 of them)?  More specifically, try to name the 7 actions and what they do.  Now try to match these routes to the appropriate HTTP verbs and URLs (remember, some are created by using the same URL but a different HTTP verb).
 4. Verify by using `$ rake routes`
 
