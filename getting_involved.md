@@ -63,7 +63,7 @@ Post the videos of your sessions to the [Google Community](https://plus.google.c
 
 ### Project Management
 
-We have a [Pivotal Tracker account](https://www.pivotaltracker.com/s/projects/979092) set up, which is publically available.  If you want to contribute, you'll need to ask to be added to the account (to be able to make changes) or you can email [contact@theodinproject.com](mailto:contact@theodinproject.com) to be added (use subject line "Please add me to the Pivotal Tracker").
+We have a [Pivotal Tracker account](https://www.pivotaltracker.com/s/projects/979092) set up, which is publically available.  If you want to contribute, you'll need to ask to be added to the account (to be able to make changes) by visiting [the project overview page](https://www.pivotaltracker.com/projects/979092/overview) and clicking "Join This Project" under the "Actions" section.  Or you can email [contact@theodinproject.com](mailto:contact@theodinproject.com) to be added (use subject line "Please add me to the Pivotal Tracker").
 
 To become familiar with the tracker, check out [their "Getting Started" page](https://www.pivotaltracker.com/help/gettingstarted).  
 
