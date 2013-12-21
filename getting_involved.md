@@ -6,6 +6,10 @@ It's awesome that you're interested in getting involved with the project! The pr
 
 This document is the official "on-boarding" for new contributors and it will lay our how we're managing the contributions going forward, the tools we're using, and how to get started.
 
+### Prerequisites
+
+You're more than welcome to observe at any level and contribute if/when you feel ready.  Actually, contribute just before you feel ready... you'll never feel ready.  But you probably should have completed the [Rails course](http://www.theodinproject.com/courses/ruby-on-rails/lessons) or, at the very least, the [Ruby on Rails Tutorial](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book) by Michael Hartl.
+
 ## Our Approach
 
 ### Overview and Philosophy 
@@ -139,9 +143,10 @@ Ready to start collaborating or at least taking the next step?
 1. Join the [Google Community](https://plus.google.com/u/0/communities/100013596437379837846).
 2. Sign up for the [Pivotal Tracker](https://www.pivotaltracker.com/s/projects/979092).  It'll say "60 day free trial" but don't worry, you won't have to pay.  It's like Github... as long as you're working on open-source stuff and not private repos, it's free.
 3. Say hi at the weekly meeting and on the Community page.  You'll want to familiarize yourself with what feature(s) we're working on and how the development backlog looks.
-4. Fork the [Odin Project repository](https://github.com/TheOdinProject/theodinproject) and get it working on your local machine.  We've got evolving instructions for how to do that on the [README page](https://github.com/TheOdinProject/theodinproject/blob/master/README.md).  It can take a few tries.
 5. Set up or join a pairing session via the Community.
-6. Have fun! Code! 
+4. If you're hosting a pairing session, make sure you have the [Odin Project repository](https://github.com/TheOdinProject/theodinproject) set up on your computer (or Nitrous box if that's the workflow you're using).  We've got evolving instructions for how to do that on the [README page](https://github.com/TheOdinProject/theodinproject/blob/master/README.md).  It can take a few tries to get the server running and the lessons populated properly so bear with it!
+5. Follow the Git workflow listed below but, basically, get the latest copy of the feature branch you're working on, write some sweet tests and code, and then have the feature owner push it back up (you'll need to be in touch with a feature owner who has push access).
+6. Have fun! Tell your friends how much of an open source badass you now are.  In a humble brag sort of way.
 
 ### Working on a Feature / User Story
 
@@ -149,20 +154,31 @@ Ready to start collaborating or at least taking the next step?
 
 We'll flesh this section out as we get a bit more experience working on features, but basically we'll all be sharing feature development until the feature is complete.  This *should* work because we'll be doing TDD.  If it doesn't, we'll adapt.
 
+#### For an Existing Feature
+
 1. Post or join a new pairing session via the Community.  If possible, also include the feature or part of the feature you'll be working on.
 1. Consult the [Pivotal Tracker](https://www.pivotaltracker.com/s/projects/979092) for the current feature and take a look at which step(s) have been completed already.  Familiarize yourself with the work that was most recently completed by the last pairing session (which should be available in their video / event).
-3. Don't forget to start recording if you're not using a Hangout on Air.
+3. Don't forget to start recording if you're not using a Hangout on Air.  To set up a Hangout on Air, you actually need to schedule the HoA *in advance*, which will automatically create a Google Event which links to the HoA.  The other way to do it is to schedule the Google Event and then, just ahead of time, create a HoA and link it to the Google Event by digging in to the Event's options and looking for the "YouTube Link" field. See [this post](https://plus.google.com/+NatalieVillalobos/posts/a1sgtv91skA) for details of that method.
 4. Get the most recent copy of the repository and start building TDD-style.  See below for Git workflow notes.
 3. When you're done with the session (which should be after making your last test pass... don't leave failing tests), make sure all tests still pass and then push to Github.
 4. When a feature is completed (and fully tested), merge with the (latest) master branch then submit a pull request to the main Odin repo.
 
+#### Starting a New Feature
+
+1. Attend one of the weekly meetings listed on the [Google Community](https://plus.google.com/communities/100013596437379837846) site or the [Meetup](meetup.com/Learn-Web-Development-Paired-Programming-in-SF/).  That's where we'll kick off new features for the coming week (right now we're not really moving fast enough to complete multiple features in a week...)
+2. We usually follow that up with a separate brainstorming / pseudocoding session to break down the feature and agree on a path forward before actually diving into the feature.
+3. Now that the feature is established, see the steps above...
+4. Once the feature is completed and pushed, we'll do a code review before accepting it.  You'll need to show a complete test coverage and that the feature is in line with the story specifications before it will be accepted.
+5. Pull request accepted.  Party like it's 1999.
+
 #### Git Workflow Notes
 
-We're still trying to figure out the best workflow to use.  It doesn't make sense (and can be dangerous) to give everyone push access to the main repo so we'll have to use a workflow where everyone forks.  The downside of that is that if people are sharing development of a single feature, there's no centralized place to always get the "latest" version of the repo and you'll have to get it from the last person who worked on it (by grabbing it from their fork).  That's not very straightforward so there's got to be a better way.
+We're still trying to figure out the best workflow to use.  We'll be handing off half-completed features between different pairs/mobs of programmers so there needs to be a canonical repository where the latest version of the code is located.  It's not ideal, but for now feature owners will get push access to the main repository.  They will not touch the `master` branch (repeat 3 times, please) and will work always in a feature branch until it comes time to do a pull request back into `master`.
+
+Other notes:
 
 * Use merges (`$ git merge origin/my_feature_branch`) instead of rebases (`$ git rebase my_feature_branch`).  If you don't know what a rebase is, don't worry about it.  When a rebase goes wrong, you can get yourself in all kinds of strange places.
-*  Make sure you're working on a [feature branch](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging) (see the [article on a feature-branch workflow](https://www.atlassian.com/git/workflows#!workflow-feature-branch) from Atlassian as well).
-* 
+*  Again, make sure you're working on a [feature branch](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging) (see the [article on a feature-branch workflow](https://www.atlassian.com/git/workflows#!workflow-feature-branch) from Atlassian as well) and NOT the `master` branch.
 
 ## Additional Resources
 

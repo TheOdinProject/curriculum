@@ -1,4 +1,5 @@
 # [The Odin Project](http://theodinproject.com)
+
 *[http://theodinproject.com/](http://theodinproject.com)* [version 0.1.1]
 
 ### The Open Curriculum for Learning Web Development
@@ -14,11 +15,13 @@ For minor fixes, either submit a github issue or a pull request.  Please coordin
 
 Contact us directly at [project@theodinproject.com](mailto:project@theodinproject.com)
 
-## Future Development
+## Future Development and Contributing
 
-**Update (12/18/13)!** The new development roadmap will be managed using [this Pivotal Tracker project](https://www.pivotaltracker.com/s/projects/979092).  The file [dev_roadmap.md](dev_roadmap.md) will contain historical release notes but not an up-to-date list of features in progress.
+**Update (12/18/13)!** The new development roadmap will be managed using [this Pivotal Tracker project](https://www.pivotaltracker.com/s/projects/979092).  The file [dev_roadmap.md](dev_roadmap.md), which was previously used to track feature production, will contain historical release notes but not an up-to-date list of features in-progress.
 
-There are some overall goals for the short term development of this project:
+We have students who have gotten through the Rails course contributing now!  **See the [Getting Involved document](https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md) for details of contributing to the website or just observing us while we build.**
+
+There are some overall goals for the future development of this project:
 
 * Improve the overall user experience while using the curriculum
 * Start rolling out realtime collaboration features and progress tracking for students who are using the curriculum.
@@ -28,6 +31,8 @@ There are some overall goals for the short term development of this project:
 If you'd like to help out (even as a relative newbie), please [get in touch](mailto:contact@theodinproject.com) and we'd be happy to point you in the right direction.  Check out the [Pivotal Tracker project](https://www.pivotaltracker.com/s/projects/979092) for the features and our [meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/) for online weekly development meetings.
 
 ### Hacking on the Site Yourself
+
+See the [Getting Involved document](https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md) for details of contributing to the website.
 
 1. This site runs on Ruby 1.9.3 and Rails 3.2.12.
     * Follow along with [this gist](https://gist.github.com/afshinator/8035821) if your environment is Nitrous.io.
