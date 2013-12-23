@@ -49,4 +49,8 @@ TODO: Better walkthrough, answering the "what should I test" question all beginn
 ### Git
 TODO: Get a real developer to walk through his flow
 
+## Rails
+### AR basics
+TODO: Basic data design -- breaking down a project after approaching it
+
 
