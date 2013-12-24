@@ -30,12 +30,13 @@ group :development do
   gem 'quiet_assets'  # shortens up the server log output
   gem 'binding_of_caller' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
   gem 'letter_opener' # shows outgoing emails in your browser instead
-  gem 'rspec-rails'
+
   gem 'capybara',                   '<= 2.0.2'
   gem 'localtunnel'
 end
 
 group :test do
+    gem 'rspec-rails'
 end
 
 # Gems used only for assets and not required
