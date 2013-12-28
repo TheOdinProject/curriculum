@@ -4,11 +4,11 @@
 
 Up until now, we've covered the bread and butter you need to build basic queries using Active Record.  After building a handful of projects and working through the tutorial, you should be comfortable making these queries.
 
-Active Record is much more powerful than just simple CRUD actions on individual records.  It gives you a Ruby-ish interface to do almost anything you can do with bare-metal SQL statements.  You can cherrypick individual groups of records based on specific criteria and order them however you want.  You can join tables manually or query using associations set up by Rails.  You can return lists of records or perform basic math like counts and averages.
+Active Record is much more powerful than just simple CRUD actions on individual records.  It gives you a Ruby-ish interface to do almost anything you can do with bare-metal SQL statements.  You can cherry-pick individual groups of records based on specific criteria and order them however you want.  You can join tables manually or query using associations set up by Rails.  You can return lists of records or perform basic math like counts and averages.
 
 All this is done at the database level, which is much faster than loading up a whole table of stuff into Ruby objects before parsing and chopping and calculating with it.
 
-In this lesson, we'll get into the more interesting and useful areas of Active Record queries.  You'll better understand what Active Record actually returns and how to manipulate the returned values at will.  You'll also learn how to make your queries more efficient along the way.
+In this lesson, we'll get into the more interesting and useful areas of Active Record queries.  You'll learn what Active Record actually returns and how to manipulate the returned values at will.  You'll also learn how to make your queries more efficient along the way.
 
 There's a lot of material to read and cover, but it basically follows the idea "anything you can do in SQL, you can do in Active Record".  They mostly use the same terminology as well.  Active Record just extends that functionality by giving you a suite of versatile methods (and concepts like Relations) to make it much more user-friendly along the way.
 
@@ -53,15 +53,19 @@ This is the sort of behavior that you just sort of expect to work, and Relations
 
 You should care that ActiveRecord queries usually return Relations because you'll run into them often when coding and debugging.  The knowledge should make you comfortable chaining query methods together to construct elaborate queries.
 
-If you end up working with a Relation when you really want it to act like an Array, you can sometimes run `#to_a` on it to force it to evaluate the query.  Common methods which do NOT return Relations and can force evaluation of a relatoin,are `#all` (returns an array of objects) and `#find` (returns a single object).
+If you end up working with a Relation when you really want it to act like an Array, you can sometimes run `#to_a` on it to force it to evaluate the query. 
+
+A couple of common methods which do NOT return Relations and can force evaluation of a relation, are `#all` (returns an array of objects) and `#find` (returns a single object).
 
 ## Beyond Basic Querying
 
 You should be pretty comfortable now with simple queries like finding objects.  The reading you do for this section will cover the basics and then dive in a bit further than before.  There are a couple of new concepts worth mentioning.
 
-### Checking for Existance
+### Checking for Existence
 
-The simplest new concept is how to check whether an object actually exists yet or not.  `#exists?` will return true/false.  `#any?` will be true if any records match the specified criteria and `#many?` will be true if multiple records match the specified criteria.  You can run each of these either on a model directly, a Relation, an association, or a scope (which we'll cover later).  Basically, anywhere you might think of using them, they're likely to work:
+The simplest new concept is how to check whether an object actually exists yet or not, which you may want to do before running a method which depends on the object actually having been saved already.  
+
+`#exists?` will return true/false.  `#any?` will be true if any records match the specified criteria and `#many?` will be true if multiple records match the specified criteria.  You can run each of these either on a model directly, a Relation, an association, or a scope (which we'll cover later).  Basically, anywhere you might think of using them, they're likely to work:
 
     # From the Guide:
     # via a model
@@ -86,15 +90,15 @@ There are multiple ways to submit arguments for most Rails query methods.  You c
 4. `User.where("email = ?", "foo@bar.com")`
 5. `User.where("users.email" => "foo@bar.com")`
 
-### More Queries
+### More Assorted Querying Knowledge
 
-`#find_each` and batching of queries is used for very large queries so they don't eat up tons of performance resources. The basic principle is that these methods chunk the query into pieces, loading up the first piece and evaluating it before moving onto the next one.  This will be helpful for you when optimizing queries but isn't really something to worry too much about up front.
+Very large queries can actually be batched into lots of subqueries so they don't eat up tons of performance resources. `#find_each` does the trick. The basic principle is that it chunks the query into pieces, loading up the first piece and evaluating it before moving onto the next one.  This will be helpful for you when optimizing queries but isn't really something to worry too much about up front.
 
 `#where` queries give you a fair bit of flexibility -- they let you specify an exact value to find, a range of values to find, or several values to find.  If you know what type of query you're looking for, you can almost guess the proper syntax for executing it.  
 
 The key thing to note is that `#find` returns the actual record while `#where` returns an `ActiveRecord::Relation` which basically acts like an array.  So if you're using `#where` to find a single record, you still need to remember to go into that "array" and grab the first record, e.g. `User.where(:email => "foo@bar.com")[0]` or `User.where(:email => "foo@bar.com").first`.
 
-`#find_by` is a really neat method that basically lets you build your own finder method.  It's an alternative to using `#where` (to which you'd have to add another method like `#take` or `#first` to pull the result out of the returned array.  If you want to find by a user's email, write `User.find_by(:email => 'foo@bar.com')`.
+`#find_by` is a really neat method that basically lets you build your own finder method.  It's an alternative to using `#where` (to which you'd have to add another method like `#take` or `#first` to pull the result out of the returned array).  If you want to find by a user's email, write `User.find_by(:email => 'foo@bar.com')`.
 
 `#select` should be pretty obvious to a SQL ninja like you -- it lets you choose which columns to select from the table(s), just like in SQL.  To select just the ID column for all users, it's as simple as `User.select(:id)`.  You can also use aliases like in SQL but should use quotes instead of symbols, e.g. `@users = User.select("users.id AS user_id")` will create a new attribute called `user_id`, e.g. allowing you to access `@users.first.user_id`.
 
@@ -111,7 +115,7 @@ Just like with SQL, you often want to group fields together (or "roll up" the va
 
 When working with multiple tables, you'll often want to join them together.  Rails associations often do the heavy lifting of setting up the joins for you if you're working with instances of an object, so you may not need to explicitly use a `#join` right away.  
 
-But if you're running queries on the full data table, like in the Post-Tag grouping example used above, you'll need to use joins to bring together the appropriate tables.  You need to be more careful with how you select data when using joins -- if you are looking for the `:id` column, which table's ID are we asking for?  You'll find yourself using more explicit strings when joining, e.g. in the example above (copied below) where we specify the `name` attribute of the `tags` table:
+But if you're running queries like in the Post-Tag-count grouping example used above, you'll need to use joins to bring together the appropriate tables.  You need to be more careful with how you select data when using joins -- if you are looking for the `:id` column, which table's ID are we asking for?  You'll find yourself using more explicit strings when joining, e.g. in the example above (copied below) where we specify the `name` attribute of the `tags` table:
 
     Post.joins(:tags).group("tags.name").count
     # => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
@@ -131,7 +135,7 @@ If you want your application to run with any kind of efficiency at all, you shou
 
 It's okay to grab the SAME information multiple times... Rails caches the first result anyway so it doesn't result in a performance hit.  But there are situations where you force the `ActiveRecord::Relation` that is returned by a query to execute itself immediately and then you try to run queries on each member of the collection.  That's a whole lot of queries and can quickly slow your application down to a snail's pace.
 
-The N + 1 query problem is the classic case of this -- you grab all the records for something, say all your users (`User.all`), then loop through each user and call on an association it has, like the city the user lives in (`user.city`).  For this example we're assuming an association exists between User and City, where User `belongs_to` a City.  This might look like:
+The N + 1 query problem is the classic case of this -- you grab all the records for your users (`User.all`) then loop through each user and call an association it has, like the city the user lives in (`user.city`).  For this example we're assuming an association exists between User and City, where User `belongs_to` a City.  This might look like:
 
     User.all.each do |user|
       puts user.city
@@ -139,11 +143,20 @@ The N + 1 query problem is the classic case of this -- you grab all the records 
 
 This is going to result in one query to get all the users, then another query for each user to find its city through the association... so N additional queries, where N is the total number of users.  Hence "N+1" problems.  Note that it's totally fine to just grab a regular attribute of User like `user.name`... it's because you're reaching through the association with City that we've got to run another full query.
 
-Rails is well aware of your distress and has provided as simple solution -- "eager loading".  When you first grab the list of all users, you can tell Rails to also grab the cities at the same time (with just one additional query) and store them in memory until you'd like to call upon them.  Then `user.city` gets treated the same way as `user.name`... it doesn't run another query.  The trick is the `#includes` method.
+If the best way to make an application run faster is to reduce database calls, we've just messed up badly by causing a potentially huge number of them.
 
-`#includes` basically takes the name of one or more associations that you'd like to load at the same time as your main object and brings them into memory.  You can chain it onto other methods like `#where` or `#order` clauses.
+Rails is well aware of your distress and has provided a simple solution -- "eager loading".  When you first grab the list of all users, you can tell Rails to also grab the cities at the same time (with just one additional query) and store them in memory until you'd like to call upon them.  Then `user.city` gets treated the same way as `user.name`... it doesn't run another query.  The trick is the `#includes` method.
 
-One thing which can be a bit annoying from a development standpoint is that I haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+`#includes` basically takes the name of one or more associations that you'd like to load at the same time as your original object and brings them into memory.  You can chain it onto other methods like `#where` or `#order` clauses.
+
+Note: One thing which can be a bit annoying from a development standpoint is that I haven't found an easy way to "see" your eager-loaded fields by looking at the output from your Rails server.  So don't be alarmed if they don't show up in the server output.
+
+Almost as useful is the `#pluck` method, which is covered in the Rails Guide.  `#pluck` lets you skip several steps in the process of pulling up a bunch of records, storing them in memory, then grabbing a specific column and placing it into an array.  `#pluck` just gives you the resulting array right away:
+
+    User.pluck(:name)
+    # => ["Foo", "Bar", "Baz", "Jimmy-Bob"]
+
+This is another way to help speed up your application if you've found pain points.  Start by getting rid of N+1 queries, though.
 
 ## Scopes
 
@@ -179,18 +192,12 @@ You might be thinking, Why use a scope when you can write a class method to do t
 
 See the Additional Resources section for links to some posts that dig a bit deeper into the use cases for these two.
 
-How much do you need to understand or care about scopes?  In the early going, you probably won't run into them or see the use.  Keep them in the back of your mind for when you start working on some slightly more complicated projects that might need them.
+How much do you need to understand or care about scopes?  In the early going, you probably won't run into them or see why to use them.  Keep them in the back of your mind for when you start working on some slightly more complicated projects that might need them.
 
 ## Bare-Metal SQL
 
 Sometimes, you just can't get ActiveRecord to do what you want it to.  In that case, it gives you an interface to the bare metal SQL so you can just type in your query as desired.  This should really be a last resort -- it's basically hard-coding your application code.  Use the `#find_by_sql` method for this.
 
-Perhaps more useful is the `#pluck` method, which is covered in the same chapter of the Rails Guide.  `#pluck` lets you skip several steps in the process of pulling up a bunch of records, storing them in memory, then grabbing a specific column and placing it into an array.  `#pluck` just gives you the resulting array right away:
-
-    User.pluck(:name)
-    # => ["Foo", "Bar", "Baz", "Jimmy-Bob"]
-
-This is another way to help speed up your application if you've found pain points.  Start by getting rid of N+1 queries, though.
 
 ## Your Assignment
 
