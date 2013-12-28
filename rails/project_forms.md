@@ -7,10 +7,7 @@ These projects will give you a chance to actually build some forms, both using n
 
 ## Project 1: Bare Metal Forms and Helpers
 
-In this project, you'll build a form the old fashioned way and then the Rails way.  
-* Build a basic form from scratch (can be same app, different controllers or something)
-* Build a rails helper form
-* Build rails helper form with validations
+In this project, you'll build a form the old fashioned way and then the Rails way. 
 
 ### Your Task
 
@@ -18,9 +15,9 @@ In this project, you'll build a form the old fashioned way and then the Rails wa
 
 You'll get good at setting up apps quickly in the coming lessons by using more or less this same series of steps (though we'll help you less and less each time):
 
-1. Build a new rails app ("re-former").
+1. Build a new rails app (called "re-former").
 2. Go into the folder and create a new git repo there.  Check in and commit the initial stuff.  
-3. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum.  Find it at http://www.theodinproject.com"
+3. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum.  Find it at [http://www.theodinproject.com](http://www.theodinproject.com)"
 2. Create and migrate a User model with `:username`, `:email` and `:password`.
 3. Add validations for presence to each field in the model.
 5. Create the `:users` resource in your routes file so requests actually have somewhere to go.  Use the `:only` option to specify just the `:new` and `:create` actions.  
@@ -32,7 +29,7 @@ You'll get good at setting up apps quickly in the coming lessons by using more o
 
 #### HTML Form
 
-The first form you build will be mostly HTML (remember that stuff at all?).  Build it in your New view at `app/views/users/new.html.erb`.
+The first form you build will be mostly HTML (remember that stuff at all?).  Build it in your New view at `app/views/users/new.html.erb`.  The goal is to build a form that is almost identical to what you'd get by using a Rails helper so you can see how it's done behind the scenes.
 
 1. Build a form for creating a new user.  See the [w3 docs for forms](http://www.w3schools.com/tags/tag_form.asp) if you've totally forgotten how they work.  Specify the `method` and the `action` attributes in your `<form>` tag (use `$ rake routes` to see which HTTP method and path are being expected based on the resource you created).  Include the attribute `accept-charset="UTF-8"` as well, which Rails naturally adds to its forms to specify Unicode character encoding.
 2. Create the proper input tags for your user's fields (email, username and password).  Use the proper password input for "password".  Be sure to specify the `name` attribute for these inputs.  Make label tags which correspond to each field.
@@ -47,7 +44,7 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
 5. Submit the form again.  Great! Success!  We got a `Template is missing` error instead and that's A-OK because it means that we've successfully gotten through our blank `#create` action in the controller (and didn't specify what should happen next, which is why Rails is looking for a `app/views/users/create.html.erb` view by default).  Look at the server output above the error's stack trace.  It should include the parameters that were submitted, looking something like:
 
         Started POST "/users" for 127.0.0.1 at 2013-12-12 13:04:19 -0800
-Processing by UsersController#create as HTML
+        Processing by UsersController#create as HTML
         Parameters: {"authenticity_token"=>"WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "username"=>"foobar", "email"=>"foo@bar.com", "password"=>"[FILTERED]"}
 
     That looks a whole lot like what you normally see when Rails does it, right?
@@ -71,24 +68,24 @@ Processing by UsersController#create as HTML
         Parameters: {"authenticity_token"=>"WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "user" => {"username"=>"foobar", "email"=>"foo@bar.com", "password"=>"[FILTERED]"}}
 
 4. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.  
-5. Go into your controller and comment out the line in your `#create` method where you instantiated a `#new` User (we'll use it later).  
+5. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).  
 6. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](TODO) for a refresher).  
-7. Add a new `#new` User line which makes use of that new whitelisting params method.
+7. Add a new `::new` User line which makes use of that new whitelisting params method.
 5. Submit your form now.  It should work marvelously (once you debug your typos)!
 
-#### Railsy Forms with `form_tag`
+#### Railsy Forms with `#form_tag`
 
 Now we'll start morphing our form into a full Rails form using the `#form_tag` and `#*_tag` helpers.  There's actually very little additional help that's going on and you'll find that you're mostly just renaming HTML tags into Rails tags.
 
 1. Comment out your entire HTML form.  It may be helpful to save it for later on if you get stuck.
-1. Convert your `<form>` tag into a `#form_tag` and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically.
+1. Convert your `<form>` tag to use a `#form_tag` helper and all of your inputs into the proper helper tags via `#*_tag` methods.  The good thing is that you no longer need the authentication token because Rails will insert that for you automatically.
 2. See the [Form Tag API Documentation](http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag) for a list and usage of all the input methods you can use with `#form_tag`.
 3. Test out your form.  You'll need to change your `#create` method in the controller to once again accept normal top level User attributes, so uncomment the old `User.new` line and comment out the newer one.
 3. You've just finished the first step.
 
-#### Railsy-er Forms with `form_for`
+#### Railsy-er Forms with `#form_for`
 
-`#form_tag` probably didn't feel that useful -- it's about the same amount of work as using `<form>`, though it does take care of the authenticity stuff for you.  Now we'll convert that into `#form_for`, which will make use of our model objects to build the form.
+`#form_tag` probably didn't feel that useful -- it's about the same amount of work as using `<form>`, though it does take care of the authenticity token stuff for you.  Now we'll convert that into `#form_for`, which will make use of our model objects to build the form.
 
 1. Modify your `#new` action in the controller to instantiate a blank User object and store it in an instance variable called `@user`.
 2. Comment out your `#form_tag` form in the `app/views/users/new.html.erb` view (so now you should have TWO commented out form examples).
@@ -99,10 +96,10 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 #### Editing
 
 1. Update your routes and controller to handle editing an existing user.  You'll need your controller to find a user based on the submitted `params` ID.
-2. Create the edit view at `app/views/users/edit.html.erb` and copy/paste your form from the New view.  Your HTML and `#form_tag` forms (which should still be commented out) will not work -- they will submit the form as a POST request when you need it to be a PATCH (PUT) request (remember your `$ rake routes`?).  It's an easy fix, which you should be able to see if you attempt to edit a user with the `#form_for` form (which is smart enough to know if you're trying to edit a user or creating a new one).  
+2. Create the Edit view at `app/views/users/edit.html.erb` and copy/paste your form from the New view.  Your HTML and `#form_tag` forms (which should still be commented out) will not work -- they will submit the form as a POST request when you need it to be a PATCH (PUT) request (remember your `$ rake routes`?).  It's an easy fix, which you should be able to see if you attempt to edit a user with the `#form_for` form (which is smart enough to know if you're trying to edit a user or creating a new one).  
 3. Do a "view source" on the form generated by `#form_for` in your Edit view, paying particular attention to the hidden fields at the top nested inside the `<div>`.  See it?
 4. Try submitting an edit that you know will fail your validations. `#form_for` also automatically wraps your form in some formatting (e.g. a red border on the input field) if it detects errors with a given field.
-5. Save this project to git and upload to Github.
+5. Save this project to Git and upload to Github.
 
 #### Extra Credit
 
