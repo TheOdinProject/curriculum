@@ -19,7 +19,7 @@ You'll implement signin and signout functionality for the user, which opens the 
 
 ## Project 2: Members Only!
 
-In this project, you'll be building an exclusive clubhouse where your members can tell embarassing stories about non-members.  Inside the clubhouse, members can see who the author of a story is but, outside, they can only see the story and wonder who wrote it.
+In this project, you'll be building an exclusive clubhouse where your members can write embarassing posts about non-members.  Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
 This will be a chance for you to "roll your own" authentication system, very similar to how you did in the tutorial.  As usual, we will be focusing on data and function, not style.  If you want to add your own stylistic flourishes, consider it extra credit.  
 
@@ -36,11 +36,11 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 #### Basic Setup
 
 1. Think about and spec out how to set up your data models for this application.  You'll need users with the usual simple identification attributes like name and email and password but also some sort of indicator of their member status.  They'll need to create posts as well.  Given what you know about passwords, you'll be using a `:password_digest` field instead of a `:password` field.
-2. Create your new `members-only` Rails app and Github repo.
+2. Create your new `members-only` Rails app and Github repo.  Update your README.
 3. Start by migrating and setting up your basic User model (no membership attributes yet).
 4. Include the `bcrypt-ruby` gem in your Gemfile.  `$ bundle install` it.
 4. Add the `#has_secure_password` method to your User file.
-5. Add validation to make sure we've got a password_confirmation field that matches our password field (see [Chapter 6](http://ruby.railstutorial.org/chapters/modeling-users#sec-adding_a_secure_password) again for a refresher).
+5. Add validation to make sure we've got a `password_confirmation` field that matches our `password` field (see [Chapter 6](http://ruby.railstutorial.org/chapters/modeling-users#sec-adding_a_secure_password) again for a refresher).
 6. Go into your Rails console and create a sample user to make sure it works properly. It probably looks something like: `User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")`
 7. Test the `#authenticate` command which is now available on your User model (thanks to `#has_secure_password`) on the command line -- does it return the user if you give it the correct password?
 
@@ -54,20 +54,20 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 
 Now let's make sure our users can sign in.
 
-1. Create a `sessions_controller` and the corresponding routes.  Make "sign in" links in the layout as necessary.
+1. Create a `sessions_controller.rb` and the corresponding routes.  Make "sign in" links in the layout as necessary.
 2. Fill in the `#new` action to create a blank session and send it to the view.
 2. Build a simple form with `#form_for` to sign in the user at `app/views/sessions/new.html.erb`.  Verify that you can see the form.
 4. We want to remember that our user is signed in, so you'll need to create a new string column for your User table called something like `:remember_token` which will store that user's special token.
-5. When you create a new user, you'll want to give that user a brand new token.  Use a `before_create` callback on your User model to: 
+5. When you create a new user, you'll want to give that user a brand new token.  Use a `#before_create` callback on your User model to: 
 
-    1. Create a remember token (using `SecureRandom.urlsafe_base64` to generate a random string)
-    2. Encrypt that token (with the `Digest::SHA1.hexdigest` method on the `#to_s` version of your token)
+    1. Create a remember token (use `SecureRandom.urlsafe_base64` to generate a random string)
+    2. Encrypt that token (with the `Digest::SHA1.hexdigest` method on the stringified (`#to_s`) version of your token)
     3. Save it for your user.
 
 1. Create a couple of users to populate your app with.  We won't be building a sign up form, so you'll need to create new users via the command line.  Your `#before_create` should now properly give each newly created user a special token.
 3. Now fill in the `#create` action of your SessionsController to actually create the user's session.  The first step is to find the user based on their email address and then compare the hash of the password they submitted in the params to the hashed password stored in the database (using `#authenticate`).  See [Chapter 8](http://ruby.railstutorial.org/chapters/sign-in-sign-out#sec-reviewing_form_submission) with questions but try not to immediately copy verbatim -- you're doing this to learn.
 4. Once you've verified that the user has submitted the proper password, sign that user in.  
-5. Create a new method in your ApplicationController which does this.  Give the user a new remember token (so they don't get stolen or stale).  Store the remember token in the user's browser using a cookie so whenever they visit a new page, we can check whether they are signed in or not.  Use the `cookies.permanent` "hash" to do this.  
+5. Create a new method in your ApplicationController which performs this sign in for you.  Give the user a new remember token (so they don't get stolen or stale).  Store the remember token in the user's browser using a cookie so whenever they visit a new page, we can check whether they are signed in or not.  Use the `cookies.permanent` "hash" to do this.  
 7. Create two other helpful methods in your ApplicationController -- one to retrieve your current user (`#current_user`) and another to set it (`#current_user=(user)`).  Retrieving your current user should use the `||=` operator -- if the current user is already set, you should return that user, otherwise you'll need to pull out the remember token from the cookie and search for it in your database to pull up the corresponding user.  If you can't find a current_user, return `nil`.
 7. Set your current user whenever a user signs in.
 8. Build sign out functionality in your `SessionsController#delete` action which removes the current user and deletes the remember token from the cookie.  It's best if you make a call to a method (e.g. `#sign_out`) in your ApplicationController instead of just writing all the functionality inside the SessionsController.
@@ -78,7 +78,7 @@ Now let's make sure our users can sign in.
 Let's build those secrets!  We'll need to make sure only signed in users can see the author of each post.  We're not going to worry about editing or deleting posts.
 
 1. Create a Post model and a Posts controller and a corresponding resource in your Routes file which allows the `[:new, :create, :index]` methods.
-3. Atop your Posts Controller, use a `before_filter` to restrict access to the `#new` and `#create` methods to only users who are signed in. Create the necessary helper methods in your ApplicationController.
+3. Atop your Posts Controller, use a `#before_filter` to restrict access to the `#new` and `#create` methods to only users who are signed in. Create the necessary helper methods in your ApplicationController.
 3. For your Posts Controller, prepare your `#new` action.
 4. Write a very simple form in the `app/views/posts/new.html.erb` view which will create a new Post.
 5. Make your corresponding `#create` action build a post where the foreign key for the author (e.g. `user_id`) is automatically populated based on whichever user is signed in.  Redirect to the Index view if successful.
@@ -87,7 +87,7 @@ Let's build those secrets!  We'll need to make sure only signed in users can see
 8. Sign in and create a few secret posts.
 8. Test it out -- sign out and go to the index page.  You should see a list of the posts but no author names.  Sign in and the author names should appear.  Your secrets are safe!
 
-This is obviously a somewhat incomplete solution... We currently need to create new users from the Rails console
+This is obviously a somewhat incomplete solution... We currently need to create new users from the Rails console.  But it should give you some practice figuring out authentication.  Feel free to improve it... maybe you'll be the next SnapChat.  
 
 ### Student Solutions
 
