@@ -2,11 +2,11 @@
 
 ## Introduction
 
-You should be familiar with forms, both as a normal Internet user and as an HTML programmer who has done the Introduction to Web Development course.  But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
+You should be familiar with forms, both as a normal Internet user and as an HTML programmer who has done the [Introduction to Web Development course](/courses/web-development-101/lessons).  But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
 
-Up until now, we've been thinking about Models in rails on sort of a one-off basis.  The User model.  The Post model.  Sometimes we've had the models relate to each other via associations, like that a Post can `has_many` Comment objects.  Usually, though, we tend to silo our thoughts to only deal with one at a time.
+Up until now, we've been thinking about Models in Rails on sort of a one-off basis.  The User model.  The Post model.  Sometimes we've had the models relate to each other via associations, like that a Post can `has_many` Comment objects.  Usually, though, we tend to silo our thoughts to only deal with one at a time.
 
-Now think about a web form to buy an airline ticket.  You probably need to enter your name, address, phone number, email, the airline, the flight number , the flight date, your credit card number, your credit card security number, your card expiration date, your card's zipcode, and a bunch of checkboxes for additional things like trip insurance.  That's a whole lot of different models embedded in one form!  But you still submit it with a single button.  Holy macaroni!
+Now think about a web form to buy an airline ticket.  You probably need to enter your name, address, phone number, email, the airline, the flight number, the flight date, your credit card number, your credit card security number, your card expiration date, your card's zipcode, and a bunch of checkboxes for additional things like trip insurance.  That's a whole lot of different models embedded in one form!  But you still submit it with a single button.  Holy macaroni!
 
 Most forms won't be that long or complicated for you, but it's useful to appreciate all the things you can (and one day will) do with them.  It's incredibly easy to make a basic form so the first thing we'll do is make sure you've got an intimate understanding of how forms are created in HTML and then how Rails offers you some helpers to make your life easier.  We'll cover the way data is structured and sent to the controller until you feel pretty comfortable with that.  Then a later lesson will deal with how to take that basic understanding and make forms handle some more firepower. 
 
@@ -62,9 +62,9 @@ Each one of these inputs is structured slightly differently, but there are some 
     <input type="text" name="description">
     ...
 
-Will result in your `params` hash containing a key called `description` that you can access as normal, e.g. `params[:description]`, inside your controller.  That's also why some inputs like radio buttons (where `type=radio`) use the `name` attribute to know which radio buttons should be grouped together such that clicking one of them will unclick the others.  The `name` attribute is surprisingly important!
+Will result in your `params` hash containing a key called `description` that you can access as normal, e.g. `params[:description]`, inside your controller.  That's also why some inputs like radio buttons (where `type="radio"`) use the `name` attribute to know which radio buttons should be grouped together such that clicking one of them will unclick the others.  The `name` attribute is surprisingly important!
 
-Now another thing we talked about in the controller section was nesting data.  You'll often want to tuck submitted data neatly into a hash instead of keeping them all at the top level.  This can be useful because, as we saw with controllers, it lets you do a one-line `user.create(params[:user])`.  The `params[:user]` is actually a hash containing all the user's attributes, for instance `{:first_name => "foo", :last_name => "bar", :email=>"foo@bar.com"}`.  How do you get your forms to submit parameters like this?  It's easy!
+Now another thing we talked about in the controller section was nesting data.  You'll often want to tuck submitted data neatly into a hash instead of keeping them all at the top level.  This can be useful because, as we saw with controllers, it lets you do a one-line `#create` (once you've whitelisted the parameters with `#require` and `#permit`).  When you access `params[:user]`, it's actually a hash containing all the user's attributes, for instance `{:first_name => "foo", :last_name => "bar", :email=>"foo@bar.com"}`.  How do you get your forms to submit parameters like this?  It's easy!
 
 It all comes back to the `name` attribute of your form inputs. Just use hard brackets to nest data like so:
 
@@ -78,7 +78,9 @@ Those inputs will now get transformed into a nested hash under the `:user` key. 
 
     Parameters: {"utf8"=>"✓", "authenticity_token"=>"jJa87aK1OpXfjojryBk2Db6thv0K3bSZeYTuW8hF4Ns=", "user"=>{"first_name"=>"foo","last_name"=>"bar","email"=>"foo@bar.com"}, "commit"=>"Submit Form"}
 
-And `params` is accessed like `params[:user][:email]`.  Just don't forget that you have to whitelist the params now in your controller using `require` and `permit` because they are a hash instead of just a flat string.  So you may not actually directly access them like this... see the Controller section below for a refresher on the controller side of things.
+Specific parameters of the `params` hash are accessed like any other nested hash `params[:user][:email]`.  
+
+Don't forget that you have to whitelist the params now in your controller using `require` and `permit` because they are a hash instead of just a flat string.  See the Controller section below for a refresher on the controller side of things.
 
 This is cool stuff that you'll get a chance to play with in the project.
 
@@ -110,7 +112,7 @@ There are tag helpers for all the major tags and the options they accept are all
 
 No one wants to remember to specify which URL the form should submit to or write out a whole bunch of `*_tag` methods, so Rails gives you a shortcut in the form of the slightly more abstracted `form_for` method.  It's a whole lot like `form_tag` but does a bit more work for you.  
 
-Just pass `form_for` a model object, and it will make the form submit to the URL for that object, e.g. `@user` will submit to correct URL for creating a User.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you get to use that object!
+Just pass `form_for` a model object, and it will make the form submit to the URL for that object, e.g. `@user` will submit to correct URL for creating a User.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_for` forms!
 
 Where `form_tag` accepted a block without any arguments and the individual inputs had to be specified with `something_tag` syntax, `form_for` actually passes the block a form object and then you create the form fields based off that object.  It's conventional to call the argument simply `f`. 
 
@@ -136,15 +138,15 @@ And the generated HTML is:
       <input name="commit" type="submit" value="Create" />
     </form>
 
-Note that this helper also starts to nest the Article attributes (the hard brackets in the `name` attribute should be the dead giveaway).
+Note that this helper nests the Article's attributes (the hard brackets in the `name` attribute should be the dead giveaway).
 
-The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're **edit**ing an existing object, it will send the object to your `#update` action instead.  Automatically!
+The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're **edit**ing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
 ## Forms and Validations
 
 What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some Javascript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.  
 
-You'll probably want to display the errors so the user knows what went wrong.  Recall that when Rails tries to validate an object and fails, it attaches a new set of fields to the object called `errors`.  You can see those errors by accessing `object_name.errors`.  Those errors have a couple of handy helpers you can use to display them nicely in the browser -- `#count` and `#full_messages`.  See the code below:
+You'll probably want to display the errors so the user knows what went wrong.  Recall that when Rails tries to validate an object and fails, it attaches a new set of fields to the object called `errors`.  You can see those errors by accessing `your_object_name.errors`.  Those errors have a couple of handy helpers you can use to display them nicely in the browser -- `#count` and `#full_messages`.  See the code below:
 
     <% if @post.errors.any? %>
       <div id="error_explanation">
@@ -181,7 +183,7 @@ Just as a refresher, here's a very basic controller setup for handling `#new` ac
     end
 
     def create
-      @user = user.new(user_params)
+      @user = User.new(user_params)
       if @user.save
         redirect_to @user
       else
@@ -196,7 +198,7 @@ Just as a refresher, here's a very basic controller setup for handling `#new` ac
 
 I wanted to show this again so you could remind yourself what's going on in the form's lifecycle.  The user presumably went to the path for the `#new` action, likely `http://www.yourapp.com/users/new`.  That ran the `#new` action, which created a new user object in memory (but not yet saved to the database) and rendered the `new.html.erb` view.  The view probably used `form_for` on `@user` to make things nice and easy for the developer.
 
-Once the form gets submitted, the `#create` action will build another new User object with the parameters we explicitly tell it are okay.  Recall that `#user_params` will return the `params[:user]` hash for us, which lets `user.new` build us a complete new instance.  If that instance can be saved to the database, we're all good and we go to that user's `show.html.erb` page.
+Once the form gets submitted, the `#create` action will build another new User object with the parameters we explicitly tell it are okay.  Recall that our custom `#user_params` method will return the `params[:user]` hash for us, which lets `User.new` build us a complete new instance.  If that instance can be saved to the database, we're all good and we go to that user's `show.html.erb` page.
 
 If the `@user` cannot be saved, like because the `first_name` contains numbers, we will jump straight back to rendering the `new.html.erb` view, this time using the `@user` instance that will still have errors attached to it.  Our form should gracefully handle those errors by telling the user where he/she screwed up.
 
