@@ -4,9 +4,21 @@
 
 You've already had some familiarity with associations, especially the basic `has_one`, `has_many`, and `belongs_to` variety.  Thus far, you've probably mostly used these associations to grab collections of objects like a user's posts (`user.posts`).  There are a lot of other handy things that Rails lets you do with associations too.  This brief section will highlight some of the more useful methods that come along with associations.
 
+## You Will Need To Understand
+
+* How does Rails normally know which table and foreign key to use when you have an association (e.g. `User.first.posts`)?
+* When would you need to specify the `:class_name` option in an association?
+* What about the `:foreign_key`?
+* What about the `:scope`? 
+* What is a polymorphic association and when would you use one?
+* What are two ways to use the association to create a new object instead of just calling `YourObject.new`?  Why is this useful? Which method is preferred?
+* How do you automatically destroy all a User's Post objects if that user is deleted?
+* How do you set up a self-association, like with Users following Users?
+* 
+
 ## Basic Stuff
 
-If you're still shakey on basic associations, go back and check out the Associations section of the Basic Active Record lesson first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
+If you're still shakey on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](courses/ruby-on-rails/lessons/active-record-basics) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
 ### Foreign Keys and Class Names
 
@@ -38,7 +50,7 @@ In this case, Rails will automatically look for the foreign key named after the 
 
 If you called the association something which didn't correspond exactly to what you'd named the foreign key in your table, you need to tell Rails that as well.  This should be obvious if you think of this relationship from the side of the User.  The User will have some posts for which she is an author and others for which she is an editor.  You'll need to rename the association on the User's side as well to keep things crystal clear, for instance splitting up `authored_posts` from `edited_posts`.  
 
-But now Rails doesn't have the foggiest idea where to look and what to look for.  By default, if you ask for `User.first.authored_posts` it will go looking in the `authored_posts` table for a foreign key called `user_id`.  To get it pointing at the right table, we again need to specify the `:class_name` and to get it using the correct foreign key, we need to specify the right `:foreign_key`.  For instance:
+But now Rails doesn't have the foggiest idea where to look and what to look for.  By default, if you ask for `User.first.authored_posts` it will go looking in the `authored_posts` table for a foreign key called `user_id` (neither of which exist).  To get it pointing at the right table, we again need to specify the `:class_name` and to get it using the correct foreign key, we need to specify the right `:foreign_key`.  For instance:
 
     # app/models/user.rb
     class User < ActiveRecord::Base
@@ -74,26 +86,31 @@ For example, perhaps we change the example above so a Post actually can have mul
       belongs_to :authored_post, :class_name => "Post"
     end
 
-The major thing to note here is that with has-many-through associations, Rails uses the name of the association in the through table to determine which foreign key and table name to reach out to.  If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go.  You can think of `:source` as being just like `:class_name` but for the associations in the "through table".  
+The major thing to note here is that with has-many-through associations, Rails uses *the name of the association in the through table* to determine which foreign key and table name to reach out to.  If it's named anything irregular, you'll use the `:source` option to specify which association actually points where we'd like to go.  You can think of `:source` as being just like `:class_name` but for the associations in the "through table".  
 
-In the example above, if you ask for `Post.first.authors`, Rails sort of "thinks" like this:
+It may be helpful to illustrate what Rails is doing.  In the example above, if you ask for `Post.first.authors`, Rails sort of "thinks" like this:
 
 1. You just called for the "authors" association on the Post model
 2. To get "authors", we first need to go through the `post_authorings` association to get there.
 2. Once we're at the `PostAuthoring` model, to get to the `author`, we'll need to use the `:belongs_to` association and it'll be called `post_author`. We know this because we used the `:source` option.  If we hadn't used the `:source` option in the original has-many-through association, we would have been looking for `belongs_to :author` instead.
 3. Now we've got all the information we need to structure our SQL joins and grab the list of authors for the post.
 
-It sounds a bit wonky but it's just the same logic as before -- if Rails can't tell based on its assumptions which associations or class names or foreign keys you're supposed to use, you need to specify them yourself using `:source` or `:foreign_key` or `:class_name`.  It takes some practice but you'll get it.  Usually you know something's up if you get error messages of the flavor `ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column`.  Once you do get things figured out, it can be helpful to look in your Rails server output to see which joins are being done to build the SQL query.  That's a great window into what associations are doing behind the scenese (because in the end, it's all about figuring out the correct SQL query to run).
+It sounds a bit wonky but it's just the same logic as before -- if Rails can't tell based on its assumptions which associations or class names or foreign keys you're supposed to use, you need to specify them yourself using `:source` or `:foreign_key` or `:class_name`.  It takes some practice but you'll get it.  Usually you know something's up if you get error messages of the flavor `ActiveRecord::StatementInvalid: SQLite3::SQLException: no such column`.  
+
+Once you do get things figured out, it can still be helpful to look in your Rails server output to see which joins are being done to build the SQL query.  That's a great window into what your associations are doing behind the scenes (because in the end, it's all about figuring out the correct SQL query to run).
 
 ## Polymorphic Associations
 
-Polymorphic associations can be a bit of a head scratcher at first and aren't terribly common, but are well suited for their use case. They use a big word to describe a pretty straightforward concept -- what if you have a single model that can belong to a bunch of different types of models?  For example, let's say you're building a service like Facebook where users can comment on any of the different types of things other users post (like text, pictures, images).  How do you make it okay to comment on all these different types of objects using just a single Comment model?
+We'll cover polymorphism here but, if your head is really spinning from the other concepts, feel free to just skim it.  Consider this an "additional topic" instead of a core topic like foreign keys, class names and scopes.
 
-In a plain vanilla situation, the comment would belongs_to a Post or a Picture or a Video (or whatever you're commenting on).  You would have a foreign key called something like `post_id` in your Comments table.  Now if we want to be able to comment on multiple types of things, we need to figure out a different way of dealing with the foreign key because a single foreign key could be referencing a post, an image, a video etc and we don't know which one... it's ambigous.
+Polymorphic associations can be a bit of a head scratcher at first and aren't terribly common, but are well suited for their use case. They use a big word to describe a pretty straightforward concept -- what if you have a single model that can belong to a bunch of different types of models?  For example, let's say you're building a service like Facebook where users can comment on any of the different types of things posted by other users (like text, pictures, images).  How do you make it okay to comment on all these different types of objects using just a single Comment model?
 
-We solve this by storing not just the foreign key **id**, but also a reference to which **type** of model it corresponds to.  That way, whenever you want to retrieve a comment, by specifying which type of thing it belongs to it is no longer ambiguous what you're asking for.  Note that Rails does this for you in the background.
 
-We have to call that foreign key something a bit different, since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to describe the association.  So in this case we're commenting on things and can thus call the foreign key `commentable`.  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
+In a plain vanilla situation, the comment would `belongs_to` a Post or a Picture or a Video (or whatever you're commenting on).  You would have a foreign key called something like `post_id` in your Comments table.  Now if we want to be able to comment on multiple types of things, we need to figure out a different way of dealing with the foreign key because a single foreign key could be referencing a post, an image, a video etc and we don't know which one... it's ambiguous.  You could just make a different column for each one, e.g. `post_id`, `image_id`, `video_id`, but that is terribly inelegant and hardcoded (imagine if there were 100 different types of posts we want to be able to comment on!).  We need to stick with a single foreign key column.  
+
+We solve this by storing not just the foreign key **id**, but also a reference to which **type** of model it corresponds to.  That way, whenever you want to retrieve a comment, by specifying which type of thing it belongs to it is no longer ambiguous what you're asking for.  Note that Rails does this for you in the background as long as it knows you're working with a polymorphic association.
+
+We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to name the association.  So in this case we're commenting on things and can thus call the foreign key `"commentable".  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
 
     class CreateComments < ActiveRecord::Migration
       def change
@@ -107,14 +124,14 @@ We have to call that foreign key something a bit different, since it's ambiguous
       end
     end
 
-"Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a type column when using it.  This is done simply:
+"Commentable" will be used to refer to the associations as well.  You'll need to tell your Comment model that it is actually polymorphic so Rails knows to also check for a `commentable_type` column when using it.  This is done simply:
 
     # app/models/comments.rb
     class Comment < ActiveRecord::Base
       belongs_to :commentable, :polymorphic => true
     end
 
-On the other side of the association, you just treat your comment like any other association.  You just need to specify the association on every model that `has_many` of it.  The only wrinkle is that, because it's using the "commentable" name, you need to specify it in an alias just like you would if any other association had a nonstandard name:
+On the other side of the association, you just treat your comment like any other association (which happens to have a nonstandard name).  You just need to specify the association on every model that `has_many` of it.  The only wrinkle is that, because it's using the "commentable" name, you need to specify it in an alias just like you would if any other association had a nonstandard name:
 
     # app/models/post.rb
     class Post < ActiveRecord::Base
@@ -130,7 +147,7 @@ Rails does the rest of the work for you.  Any time you ask a Picture for all its
 
 ## Self Joins
 
-Often times you have relationships between the same type of model, for instance users who can follow other users.  In this case, you need to specify both associations in your User model but name them differently.  You will need to specify in your has_many association what the name of the foreign_key will be:
+Often times you have relationships between the same type of model, for instance users who can follow other users.  In this case, you need to specify both associations in your User model but name them differently.  You will need to specify in your `has_many` association what the name of the `foreign_key` will be:
 
     class Employee < ActiveRecord::Base
       has_many :subordinates, class_name: "Employee",
@@ -146,7 +163,7 @@ As mentioned in the intro, associations give you access to some nifty tricks tha
 
 ### Creating Association Objects
 
-There's a couple of shortcuts for creating new association objects.  The first is to call `::new` or `::create` on the association to automatically populate the foreign key.  For instance, if a User `has_many` Posts and Post `belongs_to` a User:
+There's a couple of shortcuts for creating new association objects.  The first is to call `#new` or `#create` on the association to automatically populate the foreign key.  For instance, if a User `has_many` Posts and Post `belongs_to` a User:
 
     # Long version:
     > user = User.first
@@ -156,7 +173,7 @@ There's a couple of shortcuts for creating new association objects.  The first i
     > user = User.first
     > user.posts.create(:title => "sample")
 
-Rails also gives you a couple of methods to explicitly build or create new association objects, e.g. `create_post` and `build_post`.  They are dynamically created when you first declare your association.  These are actually preferred over using, for instance, `user.posts.create()` above:
+Rails also gives you a couple of methods to explicitly build or create new association objects, e.g. `create_post` and `build_post`.  They are dynamically created when you first declare your association.  **These are actually preferred** over using, for instance, `user.posts.create()` above:
 
     # Another shorter version:
     > user = User.first
@@ -194,7 +211,7 @@ If your user has created a bunch of posts and then decides to delete her account
       has_many :posts, :dependent => :destroy
     end
 
-This is just the most common option to specify for `:dependent`.  It will run the `destroy` method on all objects that belong to that user when the user is destroyed.
+This is just the most common among several options to specify for `:dependent`.  It will run the `destroy` method on all objects that belong to that user when the user is destroyed.
 
 
 ## Your Assignment
@@ -205,7 +222,7 @@ This is just the most common option to specify for `:dependent`.  It will run th
 
 ## Conclusion
 
-In this lesson we covered some of the more advanced associations material.  Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to.  As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble.  Practice makes perfect.
+In this lesson we covered some of the more advanced associations material.  Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to.  As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble.  Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
 
 ## Additional Resources
 
