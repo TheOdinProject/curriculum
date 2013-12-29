@@ -6,12 +6,20 @@ Callbacks are a common way for you to execute code at specific times in the life
 
 This is a brief section on a useful topic.  The Rails Guide reading provides good coverage of it, so my summary will be necessarily brief.
 
+## You Will Need To Understand
+
+* What is a callback used for?
+* What are the major lifecycle stages of an Active Record object?
+* How do you build an "around" callback?
+* How do you specify a particular action to run a callback for?
+* 
+
 ## The Life Cycle of an Active Record Object
 
 Callbacks provide hooks into specific points (either before, after, or sometimes "around") in the life cycle of an object.  Those life cycle moments are:
 
 * **Initialization** -- When the object is first built OR whenever it is reloaded from the database and into memory (so any time you find it in a query).
-* **Validation** -- whenever Rails checks if the object is valid.  That could be when you're trying to save it or if you've manually run the `valid?` method.
+* **Validation** -- whenever Rails checks if the object is valid.  That could be when you're trying to save it or if you've manually run the `#valid?` method.
 * **Saving** -- The actual act of saving an already-built object to the database.  This is triggered any time the object is saved, not just the first time it is created.
 * **Creating** -- The creation and saving of a new object.
 * **Updating** -- The updating of an existing object.
@@ -59,7 +67,7 @@ You can also use conditional logic options `:if` and `:unless` to try a method b
 
 Sometimes your Rails app will need to interact with an external application (which is inherantly imperfect) as a part of the save process.  Other times your save will involve juggling several balls at once and, if one fails, they all need to be rolled back.  Typically these cases will involve wrapping your database save operation in a "transaction", which means that either all the steps work or they all fail and are rolled back.
 
-The `commit`ting of a transaction and its potential `rollback` if it fails are both lifecycle events that you can latch onto with callbacks, e.g. `after_commit` and `before_rollback`.  You likely won't be involved with these in the early going, so it's another one of those "just remember that it's an option" type things.
+The `commit`ting of a transaction and its potential `rollback` if it fails are both lifecycle events that you can latch onto with callbacks, e.g. `after_commit` and `before_rollback`.  This is uncommon, so consider it another one of those "just remember that it's an option" type things.
 
 ## Your Assignment
 
