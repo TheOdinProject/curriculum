@@ -4,7 +4,7 @@
 
 It's pretty easy to turn your application into an API, but what about grabbing data from other APIs across the internet?  That's where things usually get a bit more challenging because they're all different and you've got to authenticate yourself.
 
-Most popular services offer APIs so developers can interface with them (and thereby spread their brand of course).  Facebook, Twitter, Instagram, Flickr, Dropbox, AirBnB... They've all got APIs.  Just Google "companyX API docs" and you'll get to their developers section.
+Most popular services offer APIs so developers can interface with them (they lovei t if you can get more people using their platform).  Facebook, Twitter, Instagram, Flickr, Dropbox, AirBnB... They've all got APIs.  Just Google "companyX API docs" and you'll get to their developers section.
 
 If you go to the documentation for an API, it can sometimes be a bit overwhelming because much of the material sort of assumes that you know what you're doing, but some are definitely better than others.  There are also elements that are common across almost all of them.  The more you work with APIs (and get the hang of the authentication flow), the easier they get.  You'll be making mashups in no time.
 
@@ -96,7 +96,9 @@ We won't cover SDKs explicitly in this course but they should be well within rea
 
 ## Conclusion
 
-Working with external APIs can be incredibly rewarding -- because you're able to leverage functionality that others have spent a lot of time perfecting -- but als oincredibly frustrating -- because they're all different and you've got to rely on gems which are doing things behind the scenes that you're not entirely sure of.  Over time, you'll start to see a lot of similarities between APIs and the procedure for working with them will feel more and more comfortable.  To help get you there, the next project will have you working with an API and your final project will have you implementing signin via API as well.  
+APIs are fundamental to making rich web applications and they're also a lot of fun -- it makes your app feel a lot more "real" when you're able to let your users log in using Facebook or if you can display information from different sources across the web.  
+
+Working with external APIs can be incredibly rewarding -- because you're able to leverage functionality that others have spent a lot of time perfecting -- but also incredibly frustrating -- because they're all different and you have to rely on gems which are doing things behind the scenes that you're not entirely sure of.  Over time, you'll start to see a lot of similarities between APIs and the procedure for working with them will feel more and more comfortable.  To help get you there, the next project will have you working with an API and your final project will have you implementing signin via API as well.  
 
 ## Additional Resources
 
