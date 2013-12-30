@@ -5,18 +5,21 @@
 
 ## Project: Sending Welcome Emails
 
-Mailers are relatively straightforward tasks. It's very similar to building a new controller and views.  Once you've made a couple, it should come naturally.
+Setting up a mailer is a relatively straightforward task. It's very similar to building a new controller and views.  Once you've made a couple, it should come naturally.
 
 ### Your Task
 
-1. Dust off your Flight Booker project (or one of the other projects that has users registering) and have it send out a "You have booked your ticket" email to all Passengers when they are created as part of the booking process.
+You'll be dusting off your [Flight Booker project](/courses/ruby-on-rails/lessons/building-advanced-forms) (or one of the other projects that has users registering) and having it send out a "You have booked your ticket" email to all Passengers when they are created as part of the booking process.
+
+1. Locate and load up the project file.  
+2. Do some pushups and jumping jacks.  You've been spending a bit too much time at the computer lately.
 2. Generate your new mailer with `$ rails generate mailer PassengerMailer`
 3. Install the [`letter_opener` gem (see docs here)](https://github.com/ryanb/letter_opener) to open your emails in the browser instead of sending them in the development environment.
-3. Follow through the steps listed in the [Rails Guide](http://guides.rubyonrails.org/action_mailer_basics.html) to create the action to send the thank you email.
+3. Follow through the steps listed in the [Rails Guide](http://guides.rubyonrails.org/action_mailer_basics.html) to create the action to send the "thank you" email.
 4. Build both a `.html.erb` and `.text.erb` version of your thank you ticket email.
 5. Test that the email sends by creating a new flight booking (`letter_opener` should open it in the browser for you if you've set it up properly)
 6. Try out one other trick -- call the mailer directly from the Rails Console using something like `> PassengerMailer.thank_you_email(Passenger.first).deliver!`.
-7. If you deploy to Heroku, there will be a bit of additional setup to get the [SendGrid add-on (see docs)](https://devcenter.heroku.com/articles/sendgrid) and make sure your configuration is set up properly.  The docs describe how to get that up and going.
+7. Extra Credit: Deploy it to Heroku and try it out.  If you deploy to Heroku, there will be a bit of additional setup to get the [SendGrid add-on (see docs)](https://devcenter.heroku.com/articles/sendgrid) and make sure your configuration is set up properly.  The docs describe how to get that up and going.
 
 ### Student Solutions
 

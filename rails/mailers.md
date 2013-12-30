@@ -18,7 +18,6 @@ The actual production of the email is what we'll cover here... i.e. how do you m
 * What is the `letter_opener` gem good for?
 * Why can't you use `*_path` link helpers in mailer views?
 * How do you style up a pretty looking HTML email?
-* 
 
 ## Brief Overview
 
