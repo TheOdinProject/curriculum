@@ -1,8 +1,6 @@
-# Next Steps
+# Conclusion and Next Steps
 
-## Introduction
-
-You've reached the end of the scope of this course and should feel pretty good about your Rails skills.  That doesn't mean you need to understand everything, but you should be able to build a Rails application with useful functionality.  It probably won't look too pretty, but that will come in the next few courses.
+You've reached the end of the scope of this course and should feel pretty good about your Rails skills.  That doesn't mean you should feel like you understand everything, but you should be able to build a Rails application with the kind of functionality which is actually useful in the real world.  It probably won't look too pretty, but that will come in the next few courses.
 
 This isn't the last course in the curriculum and you've got quite a way to go before hitting that "full stack" point, but it's as far as we'll get with Rails and it's pretty darn far.  Despite how far you've come, it's up to you to keep building stuff, asking questions, and digging deeper into both Rails and best practices of software engineering in general.
 
@@ -42,9 +40,15 @@ Here are a few books that will take you a bit deeper as well:
 * The [RailsApps Project](https://tutorials.railsapps.org/) provides lots of great tutorials that walk you through building real-life scenarios like integrating Devise and CanCan with your app or building a payments backend.
 * [RubyFlow community blog](http://www.rubyflow.com/) will have some interesting stuff pop up from time to time.
 
+## Contributing
+
+You know more than you think.  Remember when we just said that you should keep building stuff?  This website is completely open source and needs your help to improve.  We have a dedicated group of current and former students who help add features and proofread the curriculum.  The best part is that it's completely public and free so you can watch or participate at whatever level you're comfortable.
+
+It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.  So check out our [Google Community](https://plus.google.com/communities/100013596437379837846) and our [Meetup Group](meetup.com/Learn-Web-Development-Paired-Programming-in-SF/) to see what we're up to.  We'd love to have you get involved!
+
 ## Conclusion
 
-I want to emphasize again that the learning never really stops but also that you've come a long way.  Stick around for the next few courses and you'll take a good core and build some very interesting things.  In the HTML/CSS, you'll learn to make your Rails applications look like actual websites instead of text dumps.  In Javascript, you'll learn how to take everyday web apps and make them much faster and more dynamic in the browser.  
+I want to emphasize again that the learning never really stops but also that you've come a long way.  Stick around for the next few courses and you'll take a good core and build some very interesting things.  In the HTML/CSS course, you'll learn to make your Rails applications look like actual websites instead of text dumps.  In the Javascript course, you'll learn how to take everyday web apps and make them much faster and more dynamic in the browser.  
 
 So there's a lot left to go but it gets better and better.  Stick with it!
 
