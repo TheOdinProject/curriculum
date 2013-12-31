@@ -4,6 +4,28 @@
 
 There are some topics that we just haven't had a chance to get into yet but will prove useful for you to know.  In this section we'll cover advanced routing, layouts, and a brief introduction to metaprogramming.
 
+## You Will Need To Understand
+
+* When do you need to use a singular Resource vs a pural Resources in your router?
+* What is the "missing" route when using a singular Resource? (there are only 6 when you `$ rake routes`)  What else is missing from many of the other routes?
+* Why would you use nested routes?
+* What order do you specify their respective IDs? What are they called in `params`?
+* Why might you use a "member" route?
+* How are "member" and "collection" routes incredibly similar?  Slightly different?
+* How do you set up a redirect route that also passes along any parameters?
+* How do you name a route using an alias?
+* Why might you want to use nested or multiple layouts?
+* How would you (roughly) go about implementing this?
+* How can you pass variables between your layouts?
+* How do you `#yield` to `#content_for` content?
+* What is metaprogramming?
+* How do you use the `#send` method to run a method?
+* How do you create a new method on the fly?
+* When does Ruby call the `#method_missing` method?
+* How can you use `#method_missing` to your advantage?
+* What are Design Patterns?
+* What are the SOLID principles?
+
 ## Advanced Routing
 
 You should be quite familiar by now with the bread and butter of routing -- converting RESTful requests using the familiar HTTP verbs into mappings for specific controller actions (whether using the `#resources` method or explicitly specifying them using the `get` method.  That's 90% of what you'll use your routes file for... but that other 10% gives you some pretty neat options like redirecting directly from the routes file, nesting routes inside each other, or parsing parameters from the incoming request.
@@ -37,7 +59,7 @@ The `$ rake routes` for a singular resource would only contain 6 routes (since w
 
 ### Nested Routes
 
-Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file via something like:
+Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:
 
     # config/routes.rb
     TestApp::Application.routes.draw do
@@ -82,16 +104,16 @@ Sometimes you want to add another non-RESTful route to a resource.  If you'd lik
 
 That route would map to the `courses#preview` action.  You can add as many as you'd like.
 
-If you'd like to add a non-RESTful route to the whole collection (so you don't need to specify the `:id` attribute, like with the `index` action), you instead use the `#collection` method:
+If you'd like to add a non-RESTful route to the whole collection of your resource (so you don't need to specify the `:id` attribute, like with the `index` action), you instead use the `#collection` method:
 
     # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
         member do
-          get "preview"  # Preview a single course
+          get "preview"  # Preview a single course (requires ID)
         end
         collection do
-          get "upcoming"  # Show a list of all upcoming courses
+          get "upcoming"  # Show a list of *all* upcoming courses (no ID needed)
         end
       end
     end
@@ -102,7 +124,7 @@ If any of this seems confusing, just play around with them and run `$ rake route
 
 ### Redirects and Wildcard Routes
 
-You might want to provide a URL out of convenience but map it directly to another one.  Use a redirect:
+You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:
 
     # config/routes.rb
     TestApp::Application.routes.draw do
@@ -115,9 +137,11 @@ In the example above, we've also renamed the route for convenience by using an a
 
 ## Advanced Layouts: Nesting Layouts and Passing Information
 
-We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but rememebr that Rails' Asset Pipeline jams all your stylesheets together anyway.  
+We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway.  
 
-A better way of doing things is to tell your layout to do some stuff and then render *another* layout using the `render :template => "your_layout.html.erb"` method.  You can also pass information from the first layout to the on it renders by using the `#content_for` method.  This lets you create logic in your main layout that is dependent on what is passed by your individual layout files... the possibilities are endless.
+A better way of doing things is to tell your layout to do some stuff (whatever you might normally have your layout do) and then render *another* layout using the `render :template => "your_layout.html.erb"` method. You are sort of using your layouts like a view might use a view partial. 
+
+You can also pass information from the first layout to the one it renders by using the `#content_for` method.  This lets you create logic in your main layout that is dependent on what is passed by your individual layout files... the possibilities are endless.
 
 For instance, you might have a specific layout file for your static pages called `app/views/layouts/static_pages.html.erb`.  This file will be rendered by default (if it exists) for views generated from your StaticPagesController (which is a Rails default).  Let's say, though, that you want your static pages to look almost identical to the rest of the site but you don't want the navbar to appear across the top.  
 
@@ -138,6 +162,8 @@ Then your `application.html.erb` layout needs to be set up to catch that content
       <style><%= yield :stylesheets %></style>
     </head>
     ...
+    render :template => "static_pages.html.erb"
+    ...
 
 When you `#yield` to a particular content block, in this case `:stylesheets`, it will essentially drop the code from inside of that `content_for`'s block to where the `#yield` method was.  So in the above example, we effectively added some CSS styling to the application layout by first rendering a special `static_pages.html.erb` layout and then passing the styles to the main `application.html.erb` layout using `#content_for`.  The result would look like:
 
@@ -157,7 +183,7 @@ What is "Metaprogramming"?  It's a great and useful concept that's used all over
 
 An example of metaprogramming in action in Rails is with the route helpers.  When your Rails application fires up for the first time, it loads the `config/routes.rb` file, which might contain the line `get "home" => "static_pages#home"` so your users can type `http://www.yoursite.com/home` to get back to the home page.  Rails then creates a couple method for you, including the `home_path` and `home_url` helpers.  That's one part of metaprogramming!
 
-The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `home_path` or `home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?
+The routes example almost isn't fair, though, because you wrote your `routes.rb` file and probably hard coded a bunch of `#home_path` or `#home_url` method calls based on what you knew would be in there.  What about more dynamic situations where you don't know ahead of time what the method is going to be called?
 
 Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want.  A simple example you can do on your command line is `1+2`:
 
@@ -168,7 +194,7 @@ Ruby provides the `#send` method to save the day.  If you want to run a method o
 
 In an ordinary situation, there's no reason to use the `#send` method but if you don't know which method you're going to need to call, it's a lifesaver.  Just pass it the symbolized name of the method you want to run on that object and Ruby will go looking for it.
 
-But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block represending the method itself.  The following examples were taken from [this metaprogramming guide from ruby-metaprogramming.rubylearning.com](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
+But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself.  The following examples were taken from [this metaprogramming guide from ruby-metaprogramming.rubylearning.com](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
 
     class Rubyist
       define_method :hello do |my_arg|
@@ -221,7 +247,7 @@ The [Wikipedia article on SOLID](http://en.wikipedia.org/wiki/SOLID_(object-orie
 
 Luckily, Rails has done a pretty good job of following these, so you should have absorbed some good habits just through using it. But you'll want to take a minute and read up on each of them (including the odd-sounding ones) because they're fairly central to all software engineering (and a ripe interview question).
 
-If you're particularly interesting in pursuing design patterns, check out the "Gang of Four" (GoF) Patterns laid out in [this blog post from blackwasp.co.uk](http://www.blackwasp.co.uk/GofPatterns.aspx).
+If you're particularly interested in pursuing design patterns, check out the "Gang of Four" (GoF) Patterns laid out in [this blog post from blackwasp.co.uk](http://www.blackwasp.co.uk/GofPatterns.aspx).
 
 There's a useful book written on anti-patterns, which can help you clean up your code by identifying bad smells, called [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814/) by Tammer Saleh and Chad Pytel.
 
@@ -229,7 +255,7 @@ There's a useful book written on anti-patterns, which can help you clean up your
 ## Your Assignment
 
 1. Skim the [Rails Guide on Routing](http://guides.rubyonrails.org/routing.html) section 2.6 about namespacing.
-2. Read the same guide sections 2.7-3.7 to learn about nested, member and collection routes as well as 
+2. Read the same guide sections 2.7-3.7 to learn about nested, member and collection routes and more.
 3. Read the same guide, sections 3.8-3.15 for a variety of different advanced routing topics including constraining the inputs to your routes and redirection.
 4. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
 5. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
