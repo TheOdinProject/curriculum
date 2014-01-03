@@ -13,6 +13,7 @@
 * [CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/)
 * [CSS Animated Loading Icons](http://tobiasahlin.com/spinkit/)
 * [CSS Grids Lessons](https://hackdesign.org/lessons/32)
+* [Using Photoshop to Design Interfaces](http://nathanbarry.com/how-to-use-photoshop-to-design-interfaces/)
 
 ### Tutorials
 
