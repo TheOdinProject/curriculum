@@ -12,6 +12,7 @@
 * [Responsive Web Tutorial](http://www.lingulo.com/tutorials/css/how-to-build-a-html5-website-from-scratch)
 * [CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/)
 * [CSS Animated Loading Icons](http://tobiasahlin.com/spinkit/)
+* [CSS Grids Lessons](https://hackdesign.org/lessons/32)
 
 ### Tutorials
 
