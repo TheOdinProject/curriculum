@@ -36,6 +36,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * [Solution from oafridi](https://github.com/oafridi/ruby_dev/blob/master/caesar_cipher.rb)
+* [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/caesar_cipher.rb)
 * Your Solution Here
 
 
@@ -56,6 +57,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/stock_picker.rb)
 * Your Solution Here
 
 
@@ -74,7 +76,7 @@ Implement a method `#substrings` that takes a word as the first argument and the
 Next, make sure your method can handle multiple words:
 
     > substrings("Howdy partner, sit down! How's it going?", dictionary)
-    => {"down"=>1, "how"=>2, "howdy"=>1,"go"=>1, "going"=>1, "it"=>1, "own"=>1,"part"=>1,"partner"=>1,"sit"=>1}
+    => {"down"=>1, "how"=>2, "howdy"=>1,"go"=>1, "going"=>1, "it"=>2, "i"=> 3, "own"=>1,"part"=>1,"partner"=>1,"sit"=>1}
     
 
 **Quick Tips:**
@@ -84,4 +86,5 @@ Next, make sure your method can handle multiple words:
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/substrings.rb)
 * Your Solution Here
