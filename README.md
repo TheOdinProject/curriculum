@@ -54,6 +54,10 @@ You can create your own "personal access token" [HERE](https://github.com/settin
 1. Run a `$ rails server` and see if that lets you check out the app at `http://localhost:3000`.
 1. That... should... be... it...?
 
+### Nitrous.io Notes
+
+* Don't forget to populate your test database with `$ rake db:test:prepare`
+
 *I haven't had to clone and start from scratch yet so please let me know what I've missed here!*
 
 ## Nifty Features
