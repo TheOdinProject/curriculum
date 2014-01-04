@@ -53,6 +53,10 @@ Algorithms:
 
 Coding Test Questions:
 * [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/)
+* [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/)
+
+Architecture:
+* [Teaching Software Architecture with Github](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
 Incidentally, you may be considering attending a full-time coding bootcamp to find a job. The majority of people shelling out money to attend a full-time coding bootcamp seeks to enhance their career prospects. Yes, there is a component of genuine interest and learning, but a clear expectation is that the programming courses offer an entry into a programming career. Some companies advertise 100% placement rate and six figure offers. How credible are these claims? Are such points relevant for your overall career search process?
 
