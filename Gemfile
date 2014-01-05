@@ -20,6 +20,8 @@ gem 'protected_attributes'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
+  gem 'pg'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
