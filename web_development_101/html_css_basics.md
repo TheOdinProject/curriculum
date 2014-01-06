@@ -1,9 +1,9 @@
 # HTML and CSS 101
 *Estimated Time: 6-10 hrs*
 
-As you've hopefully [learned before](http://www.skillcrush.com/terms/html.html), HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page you're reading right now lives inside HTML tags that tell your browser how to order the content on the page.  Go on, right click any element on the page and choose "Inspect Element" to open up your browser's Developer Tools and it will show you the structure of the page.
+As you've hopefully [learned before](http://skillcrush.com/2012/06/24/html-2/), HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page you're reading right now lives inside HTML tags that tell your browser how to order the content on the page.  Go on, right click any element on the page and choose "Inspect Element" to open up your browser's Developer Tools and it will show you the structure of the page.
 
-[CSS](http://www.skillcrush.com/terms/css.html) tells the browser if you want to display any of those tags a particular way like, for instance, turning its background blue and pushing it a little to the left.  In your developer tools, you can see the css styles in another panel, usually showing which specific properties were inherited from which lines of CSS.
+[CSS](http://skillcrush.com/2012/04/03/css/) tells the browser if you want to display any of those tags a particular way like, for instance, turning its background blue and pushing it a little to the left.  In your developer tools, you can see the css styles in another panel, usually showing which specific properties were inherited from which lines of CSS.
 
 ## You Will Need To Understand:
 
