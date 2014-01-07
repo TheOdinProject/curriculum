@@ -14,12 +14,12 @@ gem 'thin'  # to use the "thin" webserver instead of webrick
 gem 'redcarpet' # to render the curriculum's .md files as html
 gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 gem 'protected_attributes'
+gem 'pg'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
 

@@ -7,6 +7,13 @@ Theodinproject::Application.configure do
   config.cache_classes = false
   Rails.application.routes.default_url_options[:host] = 'localhost:3000'
 
+
+  #letter opener (hopefully will send email?)
+  config.action_mailer.delivery_method = :letter_opener
+
+   # Erik make it so letter_opener can actually display images
+  config.action_mailer.asset_host = "http://localhost:3000"
+
   # Do not eager load code on boot.
   config.eager_load = false
 
@@ -14,8 +21,8 @@ Theodinproject::Application.configure do
   config.consider_all_requests_local       = true
   config.action_controller.perform_caching = false
 
-  # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  #Default is false (changed this)
+  config.action_mailer.raise_delivery_errors = true
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
