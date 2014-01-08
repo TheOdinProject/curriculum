@@ -87,7 +87,7 @@ describe "StaticPages" do
 
         context "after submitting the form" do
           before(:each) do
-            click_button("suggestion-button")
+            click_button "suggestion-button"
           end
             
           it "should send an email request with the form contents" do

@@ -3,7 +3,7 @@
 # get it).
 development:
   adapter: postgresql
-  database: odin
+  database: odin_development
   host: localhost
   username: joseph
   password: sh4butie
@@ -14,7 +14,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: odin
+  database: odin_test
   pool: 5
   username: joseph
   password: sh4butie
@@ -22,7 +22,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: odin
+  database: db/production
   pool: 5
-  username: joseph
-  password: sh4butie
+  username:
+  password: 
