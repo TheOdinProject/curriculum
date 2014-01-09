@@ -2,8 +2,9 @@
 
 *[http://theodinproject.com/](http://theodinproject.com)* [version 0.1.1]
 
-### The Open Curriculum for Learning Web Development
+*Jump to [Getting Involved](https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md) if you'd like to learn more about how to help out or what we're doing to develop this project*
 
+### The Open Curriculum for Learning Web Development
 
 This site provides the main user experience for The Odin Project, including the home page and all user functions.  It is meant to be a shell around [The Odin Project Curriculum](http://theodinproject.com/curriculum) and to include the tools that help students to pair together and get to know others who are working on the curriculum.  
 
