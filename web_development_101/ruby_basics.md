@@ -1,5 +1,5 @@
 # Ruby 101
-*Estimated Time: 8-12 hrs*
+*Estimated Time: 12-20 hrs*
 
 Our back end focus will be on Ruby, the language designed for programmer happiness.  What takes dozens of lines of code in Java or a hundred in C could take just a couple in Ruby because it prepackages lots of sneaky functions into easy-to-use convenience methods.  
 
@@ -43,5 +43,5 @@ Redo the same Project Euler problems that you previously did in Javascript but u
 ## Additional Resources
 * See the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) for a condensed list of common commands and concepts.
 * Read [Smashing Magazine's Intro to Ruby article](http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
-* Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet (we'll read it in the later Ruby course) but may help you shore up some of the concepts.
+* Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet (we'll read it in the later [Ruby course](/courses/ruby-programming/lessons)) but may help you shore up some of the concepts.
 * [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.
