@@ -49,3 +49,4 @@ As you can see, I frequently relied on the main resources you'll be learning fro
 ## Additional Resources
 
 * [StackOverflow: Summary of Ruby on Rails Fundamental Concepts](http://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
+* If you want to dive right into a full on interactive Rails course in the browser, give [Code Learn](http://www.codelearn.org/ruby-on-rails-tutorial) a shot (and let us know what you think)
