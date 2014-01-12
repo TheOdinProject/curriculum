@@ -7,7 +7,7 @@ class ApplicationController < ActionController::Base
   include ApplicationHelper
 
   def admin_flash_messages
-    @flash_messages = AdminFlash.where("expires >= ?", Time.now).order("expires ASC")
+    @flash_messages = AdminFlash.where("expires >= ?", Time.now).order("created_at desc")
   end
   
   
