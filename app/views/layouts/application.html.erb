@@ -15,12 +15,17 @@
       <div class="nav-spacer"></div>
 
       <div class="container">
-        
-      <% @flash_messages.each do |m|  %>
-        <div class="flash-message">
-          <%= m.message %>
-        </div>
-      <% end %>
+      
+     <div id="flash-message">
+       <% if @flash_messages.any? %>
+        <% @flash_messages.each do |m|  %>
+          <div class="alert alert-warning alert-dismissable">
+            <p><button type="button" class="close" aria-hidden="true" data-dismiss="alert">&times;</button></p>
+            <%= md(m.message) %>
+          </div>
+        <% end %>
+       <% end %>
+     </div>
         
         <div class="row">
           <%= bootstrap_flash %>
@@ -35,4 +40,5 @@
     <%= render "shared/footer" %> 
 
   </body>
+  <script src="js/bootstrap.min.js"></script>
 </html>

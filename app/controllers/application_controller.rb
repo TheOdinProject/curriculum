@@ -7,8 +7,9 @@ class ApplicationController < ActionController::Base
   include ApplicationHelper
 
   def admin_flash_messages
-    @flash_messages = AdminFlash.all
+    @flash_messages = AdminFlash.where("expires >= ?", Time.now).order("expires ASC")
   end
+  
   
   # Customize Devise to send signed out users to the home page not root
   def after_sign_out_path_for(resource_or_scope)
