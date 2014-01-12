@@ -8,10 +8,20 @@
       <%= yield %>
     <% else %>
 
+      
+      
+      
       <%= render "shared/navbar" %>
       <div class="nav-spacer"></div>
 
       <div class="container">
+        
+      <% @flash_messages.each do |m|  %>
+        <div class="flash-message">
+          <%= m.message %>
+        </div>
+      <% end %>
+        
         <div class="row">
           <%= bootstrap_flash %>
           <%= yield %>

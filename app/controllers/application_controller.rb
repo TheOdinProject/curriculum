@@ -1,10 +1,15 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :catch_referral_codes
-
+  before_filter :admin_flash_messages
+  
   include BootstrapFlashHelper
   include ApplicationHelper
 
+  def admin_flash_messages
+    @flash_messages = AdminFlash.all
+  end
+  
   # Customize Devise to send signed out users to the home page not root
   def after_sign_out_path_for(resource_or_scope)
     home_path(:ref => "logout")
