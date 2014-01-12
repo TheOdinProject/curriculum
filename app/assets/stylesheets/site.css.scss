@@ -4,7 +4,15 @@
 
 /* Assumed: Bootstrap has done the CSS resets for us */
 
+#flash-message {
+  margin-top: 20px; 
+  text-align: center;
+}
 
+.close {
+  float: left;
+  vertical-align: text-bottom;
+}
 
 html {
   font-family: $body-fonts;
