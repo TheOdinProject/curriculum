@@ -1,0 +1,11 @@
+
+<% if @flash_messages.any? %>
+  <% @flash_messages.each do |m|  %>
+    <div class="alert alert-warning alert-dismissable admin-flash-message">
+      <p><button type="button" class="close" aria-hidden="true" data-dismiss="alert">&times;</button></p>
+      <div class="admin-flash-text">
+      <%= md(m.message) %>
+      </div>  
+    </div>
+  <% end %>
+<% end %>

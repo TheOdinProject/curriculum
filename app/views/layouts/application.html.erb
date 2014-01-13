@@ -8,26 +8,12 @@
       <%= yield %>
     <% else %>
 
-      
-      
-      
       <%= render "shared/navbar" %>
       <div class="nav-spacer"></div>
-
+       <%= render "shared/admin_flash" %>
       <div class="container">
-      
-     <div id="flash-message">
-       <% if @flash_messages.any? %>
-        <% @flash_messages.each do |m|  %>
-          <div class="alert alert-warning alert-dismissable">
-            <p><button type="button" class="close" aria-hidden="true" data-dismiss="alert">&times;</button></p>
-            <%= md(m.message) %>
-          </div>
-        <% end %>
-       <% end %>
-     </div>
-        
-        <div class="row">
+        <!--  flash message was here -->
+
           <%= bootstrap_flash %>
           <%= yield %>
         </div><!--/row-->

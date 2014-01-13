@@ -4,14 +4,30 @@
 
 /* Assumed: Bootstrap has done the CSS resets for us */
 
-#flash-message {
-  margin-top: 20px; 
+.admin-flash-text {
+  padding-left: 50px;
   text-align: center;
 }
+
+.admin-flash-message {
+  margin-left: 40px;
+  margin: 0px;
+  // padding: 4px 10px 4px 50px;
+}
+
+
 
 .close {
   float: left;
   vertical-align: text-bottom;
+}
+
+/* thinning out admin flash messages */
+.container-fluid:after {
+  clear: both;
+}
+p {
+  margin: 0px;
 }
 
 html {
