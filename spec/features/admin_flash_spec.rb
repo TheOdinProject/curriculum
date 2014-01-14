@@ -1,18 +1,18 @@
 require 'spec_helper'
 
 describe "Admin Flash" do
-  let!(:admin_flash) { AdminFlash.create(message: "Some Message", expires: 2.days.from_now) }
+  let!(:admin_flash) { FactoryGirl.create(:admin_flash) }
   
   context "on the courses page" do    
     before { visit courses_path }
     it { expect(page).to have_content(admin_flash.message) }
     
     context "shouldn't display expired message(s)" do 
-      let!(:expired_flash) { AdminFlash.create(message: "Expired message", expires: 1.day.ago) }
+      let!(:expired_flash) { FactoryGirl.create(:expired_admin_flash) }
       before { visit courses_path }
       it { expect(page).to_not have_content(expired_flash.message) }
     end
-  end   
+  end
 
   context "on the home page" do
     before { visit root_path }
