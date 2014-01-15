@@ -7,6 +7,8 @@ Theodinproject::Application.configure do
   config.cache_classes = false
   Rails.application.routes.default_url_options[:host] = 'localhost:3000'
 
+  #a fix for the ever failing spec?
+  config.action_dispatch.best_standards_support = :builtin
 
   #letter opener (hopefully will send email?)
   config.action_mailer.delivery_method = :letter_opener

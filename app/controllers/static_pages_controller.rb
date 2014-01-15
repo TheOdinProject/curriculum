@@ -22,7 +22,6 @@ class StaticPagesController < ApplicationController
   end
 
   def about
-
   end
 
   # For the suggestion form in the footer
@@ -40,5 +39,4 @@ class StaticPagesController < ApplicationController
       format.json { render json: params[:suggestion] }
     end
   end
-
 end

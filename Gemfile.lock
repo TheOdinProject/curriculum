@@ -46,6 +46,9 @@ GEM
       rack-test (>= 0.5.4)
       selenium-webdriver (~> 2.0)
       xpath (~> 1.0.0)
+    capybara-webkit (1.1.1)
+      capybara (>= 2.0.2, < 2.2.0)
+      json
     childprocess (0.3.9)
       ffi (~> 1.0, >= 1.0.11)
     coderay (1.1.0)
@@ -58,6 +61,7 @@ GEM
     coffee-script-source (1.6.3)
     commonjs (0.2.7)
     daemons (1.1.9)
+    database_cleaner (1.2.0)
     debug_inspector (0.0.2)
     descendants_tracker (0.0.3)
     devise (3.2.2)
@@ -256,7 +260,9 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   capybara (<= 2.0.2)
+  capybara-webkit
   coffee-rails
+  database_cleaner
   devise
   factory_girl_rails
   figaro
