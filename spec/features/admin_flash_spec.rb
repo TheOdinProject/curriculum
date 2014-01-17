@@ -12,6 +12,18 @@ describe "Admin Flash" do
       before { visit courses_path }
       it { expect(page).to_not have_content(expired_flash.message) }
     end
+    
+    # DONT show if there is a cookie with the same id as the message
+    context "shouldn't display message-cookie with matching ids" do
+      before do
+        visit courses_path
+        click_button(admin_flash.id)
+        visit courses_path
+      end
+        it { expect(page).to_not have_content(admin_flash.message) }
+        
+    end
+    
   end
 
   context "on the home page" do
@@ -35,6 +47,7 @@ describe "Admin Flash" do
     end    
     
   end
+  
   
   
     

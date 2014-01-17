@@ -76,6 +76,5 @@ FactoryGirl.define do
     message "Some Expired Message"
   end
 
-# i got booted off the hangout! -josh
 
 end
