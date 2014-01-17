@@ -2,7 +2,8 @@ require 'spec_helper'
 
 describe AdminFlash do
   let(:admin_flash) { AdminFlash.new(:message => "Lorem ipstum", :expires => 2.days.from_now) } 
-  let(:expired_admin_flash) { AdminFlash.new(:message => "Lorem ipstum", :expires => 2.days_ago) }
+  let(:admin_flash_2) { AdminFlash.new(:message => "Lorem ipstum_2", :expires => 3.days.from_now) } 
+  let(:expired_admin_flash) { AdminFlash.create(:message => "Lorem ipstum", :expires => 2.days.ago) }
  
     
   subject { admin_flash }
@@ -26,12 +27,23 @@ describe AdminFlash do
   #end 
   
   describe "#active_messages" do
+    before do
+      admin_flash_2.save
+      admin_flash.save
+    end
     # tests to make sure it only grabs active flash messages
     it "returns unexpired messages" do
-      active_messages.should include( admin_flash )
+      AdminFlash.active_messages.should include( admin_flash )
     end  
     
-    it "does not return expired messages"
+    it "sorts the flashes in descending created_at order" do
+      AdminFlash.active_messages.should eq( [admin_flash, admin_flash_2] )
+    end
+    
+    it "does not return expired messages" do
+      AdminFlash.active_messages.should_not include(expired_admin_flash)
+    end
+    
     
     
   end

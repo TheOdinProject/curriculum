@@ -6,6 +6,7 @@ class ApplicationController < ActionController::Base
   include BootstrapFlashHelper
   include ApplicationHelper
 
+  # this method is moving to AdminFlash model
   def admin_flash_messages
     @flash_messages = AdminFlash.where("expires >= ?", Time.now).order("created_at desc")
   end
