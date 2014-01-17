@@ -2,7 +2,8 @@
 <% if @flash_messages.any? %>
   <% @flash_messages.each do |m|  %>
     <div class="alert alert-warning alert-dismissable admin-flash-message">
-      <p><button type="button" class="close" aria-hidden="true" data-dismiss="alert">&times;</button></p>
+      <!-- Took the enclosing <p> tag on the <button> out.  Now dismiss button works. -->
+      <button type="button" class="close" aria-hidden="true" data-dismiss="alert">&times;</button>
       <div class="admin-flash-text">
       <%= md(m.message) %>
       </div>  

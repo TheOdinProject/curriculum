@@ -34,6 +34,8 @@ class UsersController < ApplicationController
 
   def index
     @users = User.paginate(:page => params[:page], :per_page => 15)
+    # I think this will do the trick so most recently active users at top of list.
+    # @users = User.order(last_sign_in_at: :desc).paginate(:page => params[:page], :per_page => 15)
   end
   
   protected
