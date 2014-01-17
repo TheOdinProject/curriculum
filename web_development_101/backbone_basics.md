@@ -16,7 +16,7 @@ This is probably the most "advanced" material we'll be taking a look at during t
 
 ## Assignment:
 
-1. Read through the [nettuts backbone explanation]().  It should be somewhat confusing but you should also notice some structural similarities to Rails, even though this is on the front end.  Again, don't worry if you're confused by what you're reading.  The point isn't to absorb everything, it's just to kind of get a feel for what's waiting.  We won't cover Backbone until fairly late in the course when you're a Jedi Javascript Master.
+1. Read through the [nettuts backbone explanation](http://net.tutsplus.com/tutorials/javascript-ajax/getting-started-with-backbone-js/).  It should be somewhat confusing but you should also notice some structural similarities to Rails, even though this is on the front end.  Again, don't worry if you're confused by what you're reading.  The point isn't to absorb everything, it's just to kind of get a feel for what's waiting.  We won't cover Backbone until fairly late in the course when you're a Jedi Javascript Master.
 2. Also check out the [CodeBeerStartups Backbone guide](http://www.codebeerstartups.com/2012/12/a-complete-guide-for-learning-backbone-js/) chapters 1 and 2 for some slightly more plain-english explanations.  Again, don't panic... you'll learn this later.
 
 ## Additional Resources
