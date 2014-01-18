@@ -5,7 +5,7 @@ describe "Users" do
   subject { page }
 
   let!(:user){ FactoryGirl.create(:user, :github => "http://www.github.com/foobar", :about => "I rock") }
-  let!(:other_user) { FactoryGirl.create(:user) }
+  let!(:other_user) { FactoryGirl.create(:user, email: "other_user@example.com") }
   let!(:project) { FactoryGirl.create(:content_bucket) }
   
   describe "Profile Page (#show)" do
@@ -112,7 +112,29 @@ describe "Users" do
       it { should have_selector("img")}
 
     end
-
+      
+    context "list users" do
+      before do
+        sign_in(user)        
+        visit users_path
+      end
+      
+      # Check to see if we get any listing at all
+      it { should have_selector('div.student-info') }
+    end
+    
+    context "list users by most recently active to least" do
+        before do 
+          sign_in(user)
+          @users = User.order("last_sign_in_at desc")
+        end
+      
+       #itt { @users.each { |user| puts user.id, user.username, user.last_sign_in_at } }
+       #it { puts "---->  #{@users.first.id}" } 
+      # It seems that the .order() call above is putting users with nothing in their
+      # last_sign_in_at field before others.
+        it { expect(@users.first.id).to eq user.id }
+    end
   end
 end
 
