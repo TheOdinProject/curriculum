@@ -124,17 +124,24 @@ describe "Users" do
     end
     
     context "list users by most recently active to least" do
+        # factory users were assigned a last sign-in time of x weeks by default, in factories.rb
         before do 
-          sign_in(user)
-          @users = User.order("last_sign_in_at desc")
+        sign_in(user)      # this user should now be the one most recently logged in
+        
+        # Get all users, in order of most recently logged in, going back
+        @users = User.find(:all, :order => "last_sign_in_at DESC")
         end
-      
-       it { @users.each { |user| puts user.id, user.username, user.last_sign_in_at } }
-      it { puts "---->  count: #{@users.count}, firsts.id#{@users.first.id}, user.id#{user.id} ----" } 
-      # It seems that the .order() call above is putting users with nothing in their
-      # last_sign_in_at field before others.
-        it { expect(@users.first.id).to eq user.id }
+        
+        # it { @users.each { |user| puts user.id, user.username, user.last_sign_in_at } }
+        # it { puts "---->  count: #{@users.count}, firsts.id#{@users.first.id}, user.id#{user.id} ----" } 
+        
+        # the first user in the list should be the same user just logged in
+        it "Should show most recently signed in user at top of list of recently active" do 
+            expect(@users.first.id).to eq user.id 
+        end 
     end
+    
+    
   end
 end
 
