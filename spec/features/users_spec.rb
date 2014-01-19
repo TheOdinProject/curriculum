@@ -129,8 +129,8 @@ describe "Users" do
           @users = User.order("last_sign_in_at desc")
         end
       
-       #itt { @users.each { |user| puts user.id, user.username, user.last_sign_in_at } }
-       #it { puts "---->  #{@users.first.id}" } 
+       it { @users.each { |user| puts user.id, user.username, user.last_sign_in_at } }
+      it { puts "---->  count: #{@users.count}, firsts.id#{@users.first.id}, user.id#{user.id} ----" } 
       # It seems that the .order() call above is putting users with nothing in their
       # last_sign_in_at field before others.
         it { expect(@users.first.id).to eq user.id }

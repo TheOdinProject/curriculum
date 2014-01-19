@@ -10,7 +10,13 @@ FactoryGirl.define do
     sequence :email do |n|
       "foo#{n}@bar.com"
     end
+    
     password "foobar"
+    
+    sequence :last_sign_in_at do |n|
+      n.weeks.ago
+    end
+    
   end
 
   factory :cal_event do
