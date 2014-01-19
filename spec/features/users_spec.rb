@@ -110,7 +110,27 @@ describe "Users" do
       it { should have_selector("h2", :text => "Students") }
       it { should have_link(user.username, :href=>user_path(user)) }
       it { should have_selector("img")}
-
+    
+      context "after signing in another user" do
+        
+        before do
+          sign_out(user)
+          sign_in(other_user)
+          visit users_path
+        end
+        
+        it "should show most recently signed in user at top of list" do 
+          users = page.all("div#students-list div.student-info")
+          users[0].should have_content(other_user.username)
+          users[1].should have_content(user.username)
+        end 
+        
+        it "should NOT show most recently signed in user NOT at top of list" do 
+          users = page.all("div#students-list div.student-info")
+          users[1].should_not have_content(other_user.username)
+          users[0].should_not have_content(user.username)
+        end 
+      end
     end
       
     context "list users" do
@@ -121,27 +141,8 @@ describe "Users" do
       
       # Check to see if we get any listing at all
       it { should have_selector('div.student-info') }
-    end
-    
-    context "list users by most recently active to least" do
-        # factory users were assigned a last sign-in time of x weeks by default, in factories.rb
-        before do 
-        sign_in(user)      # this user should now be the one most recently logged in
-        
-        # Get all users, in order of most recently logged in, going back
-        @users = User.find(:all, :order => "last_sign_in_at DESC")
-        end
-        
-        # it { @users.each { |user| puts user.id, user.username, user.last_sign_in_at } }
-        # it { puts "---->  count: #{@users.count}, firsts.id#{@users.first.id}, user.id#{user.id} ----" } 
-        
-        # the first user in the list should be the same user just logged in
-        it "Should show most recently signed in user at top of list of recently active" do 
-            expect(@users.first.id).to eq user.id 
-        end 
-    end
-    
-    
+      
+    end    
   end
 end
 

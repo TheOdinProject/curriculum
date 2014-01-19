@@ -33,8 +33,7 @@ class UsersController < ApplicationController
   end
 
   def index
-    @users = User.paginate(:page => params[:page], :per_page => 15)   
-    # @users = User.order("last_sign_in_at desc").paginate(:page => params[:page], :per_page => 15)
+    @users = User.order("last_sign_in_at desc").paginate(:page => params[:page], :per_page => 15)
   end
   
   protected
