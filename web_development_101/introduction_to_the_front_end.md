@@ -23,4 +23,5 @@ In the following lessons, you'll get a healthy understanding of each of the thre
 2. If you didn't the first time, check out [this 10-minute video on your browser's developer tools](http://www.youtube.com/watch?v=z1TkfcC53G0), which should make a bit more sense to you anyway now.
 
 ## Additional Resources
+* [A longer course digging deeply into your browser's developer tools from Code School](http://discover-devtools.codeschool.com/)
 * [Skills of a Successful Front-end Web developer](https://drupal.org/node/1245650) from Drupal (a CMS based on PHP).
