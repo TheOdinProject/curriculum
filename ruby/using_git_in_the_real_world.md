@@ -17,7 +17,10 @@ To help you out, come back and refer to this lesson again when you're in trouble
 
 Git after it!  (Okay, pun fail.)
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How often should you commit?
 * How large should your commits be?

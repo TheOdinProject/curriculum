@@ -11,7 +11,10 @@ We're learning this stuff for two reasons.  First, it's important to understand 
 
 This lesson won't be nearly as long as the previous few, and should have you building stuff pretty early on.  Actually, the project section is really where you'll be spending all your time.  Let the spamming begin.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How do you issues an HTTP request in Ruby?
 * How do you parse the response to get to the body content?

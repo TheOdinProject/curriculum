@@ -4,7 +4,10 @@
 
 This lesson gets more into the topics you may have been shaky on before like *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*.  It's definitely got some more meat to it than the previous one.  The projects in the Assignment section are good for doing on your own because Codecademy gives you all kinds of help with them.  
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 **Note:** This is again a long list of things to understand!  Read through the list, breathe deep, do the assignment, and then come back to them.
 

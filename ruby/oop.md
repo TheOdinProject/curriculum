@@ -8,7 +8,10 @@ The concepts you'll learn here are often less specific to Ruby itself and more w
 There's a lot to do here but stick with it!  We'll start with some refactoring work which should be a quick refresher of some concepts we covered in the last lesson before moving into some of the OOP principles.  The Codecademy lessons are interspersed with their projects so you'll get a chance to apply what you're learning.  The Beginning Ruby book will help you understand the material a bit deeper, which will be important when you are creating your own projects next.
 
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 **Note:** This is again a long list of things to understand!  Read through the list, breathe deep, do the assignment, and then come back to them.
 

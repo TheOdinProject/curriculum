@@ -11,7 +11,10 @@ We will cover testing in more depth in the Rails course, but you'll want to get 
 
 It's difficult to find good resources to teach RSpec for free.  There are some decent paid resources (listed in the "Additional Resources" section below) but the free ones are very dispersed.  The way you'll likely learn it is by knowing you want to do something and then Googling around for how to test it, or going through a tutorial where someone is using it.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How do you run an RSpec test suite?
 * How do you write a basic RSpec test?

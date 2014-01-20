@@ -11,7 +11,10 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 Finally, files and serialization overlaps in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What are two ways to store a file from your hard drive into a string or array in your Ruby script?
 * What are three things made possible or much easier by serialization?

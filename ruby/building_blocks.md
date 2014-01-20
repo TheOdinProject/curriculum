@@ -6,9 +6,12 @@ Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ru
 
 But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!
 
-## You Will Need To Understand: 
+## Points to Ponder
 
-**Note:** This lesson has a very long list of things you need to understand by the end.  We recommend you read through the list, do the assignment, and then test yourself by seeing if you can answer all these questions.
+*Look through these now and then use them to test yourself after doing the assignment*
+ 
+
+**Note:** This is long list of things you need to understand by the end but many of .  We recommend you read through the list, do the assignment, and then test yourself by seeing if you can answer all these questions.
 
 * **Numbers, Operators and Expressions:**
 
