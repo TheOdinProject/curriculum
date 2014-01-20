@@ -12,3 +12,4 @@ http://railscasts.com/episodes/158-factories-not-fixtures
 Great rails testing resources:
 http://everydayrails.com/2012/03/12/testing-series-intro.html
 http://everydayrails.com/2012/03/19/testing-series-rspec-models-factory-girl.html
+http://robots.thoughtbot.com/how-we-test-rails-applications
