@@ -13,7 +13,10 @@ In this lesson we'll do a healthy introduction to Ruby and then, later on in the
 
 A final note -- you'll be learning a bunch of new terminology and concepts here but don't think they're only applicable to Ruby.  Most of it (like methods, classes, objects etc.) will pop up again in pretty much any other language you ever pick up.
 
-## You Will Need to Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What is an "interpreted" language?
 * What is IRB?
 * What are Objects?

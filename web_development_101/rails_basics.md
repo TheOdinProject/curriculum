@@ -18,7 +18,10 @@ Rails also firmly organizes your code using an MVC pattern which you will come t
 
 The best way to understand Rails is to use it, so we'll spend a bit of time on some videos and reading but you'll mostly be building your own Rails sample app.  You may have no idea what you're doing, and that's okay, but at least you should begin to understand what you DON'T know and what you'll want to pay attention to going forward.  A good tactic is to write down all the things that confuse you and either go looking for them on your own or keep them in mind for later when we do our deep dive into Rails.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What is Rails?
 * What language is Rails written in?
 * Refresher: What are gems?

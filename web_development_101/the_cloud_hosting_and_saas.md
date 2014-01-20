@@ -17,7 +17,10 @@ The ability to create this "Software as a Service (SAAS)" gives you tons of grea
 
 Even better, when you inevitably want to make large-scale changes or just fix some bugs, you no longer have to convince your users to go through the painful upgrade process.  Just push the changes to your sever, and Presto!, your application is updated and good to go.  If there's a problem with the new Ford car model, they need to issue a recall and have everyone go to a mechanic to fix it.  You just push some code to fix the bug and sleep happy.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What is SAAS?
 * What is Cloud Computing?
 * What does it mean to host your application in the cloud?

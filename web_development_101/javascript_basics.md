@@ -7,7 +7,10 @@ This is also the first time you'll get to do some actual programming (HTML/CSS d
 
 This lesson will tend to focus on understanding the programming side of Javascript and the next lesson on jQuery will build on your knowledge here to actually allow you to interact with the elements on your webpage.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What is a scripting language?
 * What is a variable?
 * What is a string? An array? A boolean?

@@ -23,7 +23,10 @@ You'll probably want to fork someone else's repository and clone it onto your ha
 
 It won't be until you start hacking on more full-featured applications that you're likely to run into some of the more gnarly features of Git.  For now, sit back and learn the basics.  You'll have the chance to dig deeper in a later course.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What is Git?
 * What is SCM?
 * What is a VCS?

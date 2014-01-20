@@ -5,7 +5,10 @@ Before you can understand how to *program* the web, you need to understand the w
 
 We'll also cover a few tips and tools that will be useful to you again and again going forward.
 
-## You will need to understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What is the internet?
 * How is information broken down and sent?
 * What are packets?

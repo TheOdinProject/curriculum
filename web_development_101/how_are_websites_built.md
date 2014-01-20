@@ -9,7 +9,10 @@ We've mentioned that Rails lets you develop applications very quickly and have t
 
 Maybe that's directly relevant to the startup you're hoping to build or maybe it will be representative of the client you serve while you're building up your skillsets.  Either way, understanding why you're building what you're building is an important piece of context that can't be understated.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What are the major components of a Rails application?
 * What is Waterfall Development?
 * What is Waterfall good for?

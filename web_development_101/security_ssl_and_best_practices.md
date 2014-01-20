@@ -17,7 +17,10 @@ Here's a [basic explanation of security certificates from Reddit](http://www.red
 
 You'll do some brief reading/viewing here but the main takeaway should be that Security is an important issue, even if it's often obscured from you.  You'll run into use of certificates when you deploy to Heroku and possibly also when you're setting up your Github account (though that depends which method for pushing you've enabled).
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * Why is security for an application important?
 * What are the major areas where a web application is vulnerable?
 * How is HTTPS different from HTTP?

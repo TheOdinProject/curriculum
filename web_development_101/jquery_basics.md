@@ -5,7 +5,10 @@
 
 jQuery will let you take your javascript knowledge and start really diving into your webpages and messing with (ahem, improving) the elements.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What is the DOM?
 * How can you interact with the DOM?
 * How can you add elements to the DOM?

@@ -5,7 +5,10 @@ There are a handful of generally accepted principles of good programming.  Commo
 
 If you stick with them, they'll keep you out of trouble.  Print the list from the first post below if you need to.  This is a great resource to check back with once you're writing code more consistently.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 * What does DRY stand for and why is it relevant to you?
 * What does KISS stand for and why do engineers love it?
 * How does MVC follow Separation of Concerns?

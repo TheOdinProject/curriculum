@@ -3,7 +3,10 @@
 
 Web technology land is full of strange terms and an alphabet soup of acronyms and it can be a bit overwhelming.  You won't need to know them all out of the gate, but there are some that you will need to be familiar with before getting started.
 
-## You Will Need To Understand:
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How to define each of the terms in the Flatiron list below.
 * The basics of each term on the list from Smashing Magazine below.

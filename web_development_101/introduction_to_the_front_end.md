@@ -11,7 +11,10 @@ On the front end, you will need to be highly conscious of who your user is and h
 
 In the following lessons, you'll get a healthy understanding of each of the three frontend languages (and jQuery, the most popular Javascript library).  To get warmed up, we'll just start at the high level.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is the role of HTML in a web page?
 * What is the role of CSS in a web page?
