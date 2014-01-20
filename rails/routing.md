@@ -12,7 +12,10 @@ If you open the routes file in your Rails app (located in `config/routes.rb`), y
 
 Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rake routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is the "Root" route?
 * What are the seven RESTful routes for a resource?

@@ -10,7 +10,10 @@ If you go to the documentation for an API, it can sometimes be a bit overwhelmin
 
 This lesson will cover some general steps that are common across APIs and will do high level overviews of some of the methods for authenticating with APIs like Omniauth.  Try to gain as much conceptual understanding as you can here and use the documentation each gem or API provides to help with the implementation.  If you find great free learning resources that explain APIs, please let us know (try using the suggestion box at the bottom of the page)!
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What's the best way to locate an API's docs?
 * What are the steps you'll almost always have to go through when setting up your app to use an API?

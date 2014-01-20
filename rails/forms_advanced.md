@@ -6,7 +6,10 @@ You learned about the basics of building forms in HTML and Rails in previous les
 
 In this section, we'll take a look at some of the options you have to make a form handle multiple model objects at once.  You'll also learn how to prepopulate a dropdown menu with objects.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How do you prepopulate a dropdown menu with data?
 * What is the difference between the `#select_tag` helper and the `#select` helper?

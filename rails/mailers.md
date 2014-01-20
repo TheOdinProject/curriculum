@@ -6,7 +6,10 @@ Email is underappreciated in its complexity on many levels.  I certainly didn't 
 
 The actual production of the email is what we'll cover here... i.e. how do you make that special "thanks for signing up, userX" email.  Creating and sending email is actually conceptually similar to rendering views and shipping them to the web browser, at least from your point of view as a Rails dev.  In this lesson we'll cover that process and you'll get a chance to send your own emails in the projects.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is a mailer?
 * How do you set up a new mailer from the command line?

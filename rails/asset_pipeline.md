@@ -4,7 +4,10 @@
 
 You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about the Asset Pipeline and a few other topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is the "Asset Pipeline"?
 * What are "Manifest Files"?

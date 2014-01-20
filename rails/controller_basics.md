@@ -20,7 +20,10 @@ The controller's `#index` action would actually look as simple as:
 
 In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * Why is it important what you name your models, controllers, and views?
 * Where is the view file located that's rendered by default for a given controller?

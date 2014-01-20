@@ -12,7 +12,10 @@ To use an instance variable from your controller, just call it the same way you 
 
 As always, in this lesson we'll cover the high level stuff then have you read the Rails Guide for a more detailed understanding of how things work.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is a layout?
 * What's the difference between a "view template" and a "layout"?

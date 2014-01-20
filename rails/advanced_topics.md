@@ -4,7 +4,10 @@
 
 There are some topics that we just haven't had a chance to get into yet but will prove useful for you to know.  In this section we'll cover advanced routing, layouts, and a brief introduction to metaprogramming.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * When do you need to use a singular Resource vs a pural Resources in your router?
 * What is the "missing" route when using a singular Resource? (there are only 6 when you `$ rake routes`)  What else is missing from many of the other routes?

@@ -10,7 +10,10 @@ Now think about a web form to buy an airline ticket.  You probably need to enter
 
 Most forms won't be that long or complicated for you, but it's useful to appreciate all the things you can (and one day will) do with them.  It's incredibly easy to make a basic form so the first thing we'll do is make sure you've got an intimate understanding of how forms are created in HTML and then how Rails offers you some helpers to make your life easier.  We'll cover the way data is structured and sent to the controller until you feel pretty comfortable with that.  Then a later lesson will deal with how to take that basic understanding and make forms handle some more firepower. 
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How can you view what was submitted by a form?
 * What is a CSRF Token and why is it necessary?

@@ -6,7 +6,10 @@
 
 In this lesson you'll learn about sessions, browser cookies, and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is a session?
 * How is the `session` "hash" different from the `cookies` "hash"?

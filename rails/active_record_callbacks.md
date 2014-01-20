@@ -6,7 +6,10 @@ Callbacks are a common way for you to execute code at specific times in the life
 
 This is a brief section on a useful topic.  The Rails Guide reading provides good coverage of it, so my summary will be necessarily brief.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is a callback used for?
 * What are the major lifecycle stages of an Active Record object?

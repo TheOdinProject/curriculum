@@ -10,7 +10,10 @@ If data is the most important piece of a web application, then how Rails handles
 
 Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building simple associations between them.  As usual, this explanation is meant to be a high level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * What is an ORM?
 * Why is Active Record more useful than just using SQL?

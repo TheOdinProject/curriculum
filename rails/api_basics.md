@@ -12,7 +12,10 @@ When you build applications that have more dynamic front-end functionality (as c
 
 In this lesson, we'll cover how to build your own API.  In the following lesson, we'll cover how to interface with the APIs of other applications.  The lessons are meant to give you a good onramp to learning this stuff but couldn't possibly cover all the cases.  Much of working with APIs is learning to read their documentation and figure out what they want.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How Rails knows which type of file you are expecting back when you make an HTTP request.
 * What is the purpose of the `#respond_to` method?

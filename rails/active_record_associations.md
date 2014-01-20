@@ -4,7 +4,10 @@
 
 You've already had some familiarity with associations, especially the basic `has_one`, `has_many`, and `belongs_to` variety.  Thus far, you've probably mostly used these associations to grab collections of objects like a user's posts (`user.posts`).  There are a lot of other handy things that Rails lets you do with associations too.  This brief section will highlight some of the more useful methods that come along with associations.
 
-## You Will Need To Understand
+## Points to Ponder
+
+*Look through these now and then use them to test yourself after doing the assignment*
+
 
 * How does Rails normally know which table and foreign key to use when you have an association (e.g. `User.first.posts`)?
 * When would you need to specify the `:class_name` option in an association?
