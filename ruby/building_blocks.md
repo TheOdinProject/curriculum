@@ -11,7 +11,7 @@ But this lesson will take you much deeper and further than you went before, so d
 *Look through these now and then use them to test yourself after doing the assignment*
  
 
-**Note:** This is long list of things you need to understand by the end but many of .  We recommend you read through the list, do the assignment, and then test yourself by seeing if you can answer all these questions.
+**Note:** We recommend you read through the list, do the assignment, and then test yourself by seeing if you can answer all these questions.
 
 * **Numbers, Operators and Expressions:**
 
@@ -133,7 +133,7 @@ But this lesson will take you much deeper and further than you went before, so d
 ## Test Yourself
 
 1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/topics/24/quizzes/75) from [Code Quizzes](http://www.codequizzes.com/).
-2. Make sure you go back up and look at all the questions from the "You Will Need To Understand" section.  See if you can do most of them without looking back through the text.
+2. Make sure you go back up and look at all the questions from the "Points to Ponder" section.  See if you can do most of them without looking back through the text.
 
 ## Additional Resources
 
