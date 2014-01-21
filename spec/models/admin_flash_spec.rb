@@ -4,7 +4,6 @@ describe AdminFlash do
   let(:admin_flash) { AdminFlash.new(:message => "Lorem ipstum", :expires => 2.days.from_now) } 
   let(:admin_flash_2) { AdminFlash.new(:message => "Lorem ipstum_2", :expires => 3.days.from_now) } 
   let(:expired_admin_flash) { AdminFlash.create(:message => "Lorem ipstum", :expires => 2.days.ago) }
- 
     
   subject { admin_flash }
   
@@ -19,38 +18,35 @@ describe AdminFlash do
     it { should_not be_valid }
   end
   
-  #describe "when AdminFlash is valid"
-  
-  #describe "when 'AdminFlash' message is created" do
-  #  before { @admin_flash = AdminFlash.create(message: "Lorem ipsum", expires: 2.days.from_now) }
-  #  it { expect(AdminFlash).to change(AdminFlash, :count).by(1) }
-  #end 
-  
-  describe "#active_messages" do
+  describe "#unexpired_messages" do
     before do
       admin_flash_2.save
       admin_flash.save
     end
     # tests to make sure it only grabs active flash messages
     it "returns unexpired messages" do
-      AdminFlash.active_messages.should include( admin_flash )
+      AdminFlash.unexpired_messages.should include( admin_flash )
     end  
     
     it "sorts the flashes in descending created_at order" do
-      AdminFlash.active_messages.should eq( [admin_flash, admin_flash_2] )
+      AdminFlash.unexpired_messages.should eq( [admin_flash, admin_flash_2] )
     end
     
     it "does not return expired messages" do
-      AdminFlash.active_messages.should_not include(expired_admin_flash)
+      AdminFlash.unexpired_messages.should_not include(expired_admin_flash)
     end
     
     
     
-  end
+  end 
   
-#  describe "#cancelled_messages"
-  
-  describe "#showable_messages"  #should return the messages that are left
+  describe "#showable_messages" do
+    it 'returns array of messages without cookies' do
+      disabled_flash_message = AdminFlash.create(message: "disabled in cookie", expires: 2.days.from_now) 
+      AdminFlash.showable_messages([disabled_flash_message.id]).should_not include(disabled_flash_message)
+    end
+    
+  end  
   
   
   describe "when 'AdminFlash' message is created" do

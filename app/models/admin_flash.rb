@@ -9,8 +9,11 @@ class AdminFlash < ActiveRecord::Base
 #    :after => :now,
 #    :after_message => "Event cannot start in the past"
 
-  def self.active_messages
+  def self.unexpired_messages
     self.order("created_at desc").where("expires >= ?", Time.now)
   end
 
+  def self.showable_messages disabled_flash_ids
+    unexpired_messages.select{ |msg| !disabled_flash_ids.include?(msg.id) }
+  end
 end
