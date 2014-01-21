@@ -1,16 +1,9 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :catch_referral_codes
-  before_filter :admin_flash_messages
   
   include BootstrapFlashHelper
   include ApplicationHelper
-
-  # this method is moving to AdminFlash model
-  def admin_flash_messages
-    @flash_messages = AdminFlash.where("expires >= ?", Time.now).order("created_at desc")
-  end
-  
   
   # Customize Devise to send signed out users to the home page not root
   def after_sign_out_path_for(resource_or_scope)

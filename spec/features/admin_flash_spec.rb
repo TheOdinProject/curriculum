@@ -14,13 +14,16 @@ describe "Admin Flash" do
     end
     
     # DONT show if there is a cookie with the same id as the message
-    context "shouldn't display message-cookie with matching ids" do
+    # THIS TEST FAILS ON NITROUS!  Someone tell us if it fails on a normal machine (which has a web browser)
+    context "visiting courses page, clicking close admin flash, and reloading page NOTE: Does this pass on a non-nitrous machine???" do
       before do
         visit courses_path
-        click_button(admin_flash.id)
+        click_button("close_admin_flash_#{admin_flash.id}")
         visit courses_path
       end
-        it { expect(page).to_not have_content(admin_flash.message) }
+      it "shouldn't display previously closed message", :js => true do
+        expect(page).to_not have_content(admin_flash.message)
+      end
         
     end
     
