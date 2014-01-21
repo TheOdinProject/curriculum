@@ -35,6 +35,9 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * ["What is Ruby Recursion and How Does It Work?"](http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work) on Stack Overflow
 * [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
 * [Natashatherobot's blog post on Recusion in Ruby](http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)

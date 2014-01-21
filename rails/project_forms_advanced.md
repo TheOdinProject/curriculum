@@ -76,5 +76,8 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Rails API for nested attributes](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
 * 

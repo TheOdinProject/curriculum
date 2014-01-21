@@ -31,6 +31,9 @@ That black screen (or window) is the command line, where you're able to enter co
 2. To dig a little deeper, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.  It can be a bit rough at times because the explanations are a bit sparse, so don't worry if you don't absorb it all the first time.  You'll get quite familiar with the few commands that you end up using every day over the course of the next few weeks anyway.
 
 
-## Additional Resources:
+## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * See common commands on the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html)
 * If you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check, [ExplainShell.com](http://explainshell.com/) is your solution.

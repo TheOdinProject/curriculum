@@ -17,6 +17,9 @@ Web technology land is full of strange terms and an alphabet soup of acronyms an
 2. Browse through this [great (though design-focused) list of terms from Smashing Magazine](http://www.smashingmagazine.com/2009/05/21/web-design-industry-jargon-glossary-and-resources/).  It's not essential that you know all the unfamiliar ones down cold, but you'll keep seeing this stuff again and again so it's good to have a working knowledge of what they are.  The article also contains lots of great links to dig deeper into anything you don't understand.
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [Smashing's glossary-of-glossaries](http://www.smashingmagazine.com/2009/05/29/useful-glossaries-for-web-designers-and-developers/), or "where to find any jargon you can imagine".
 * [W3 Schools Web Glossary](http://www.w3schools.com/web/web_glossary.asp)
 * [About's Web Design Glossary](http://webdesign.about.com/od/webdesignhtmlatoz/a/blglossary.htm)

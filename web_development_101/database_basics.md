@@ -30,7 +30,10 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 2. Sign up for Coursera's [Intro to Databases](https://class.coursera.org/db/lecture/index) course and watch the lectures on Relational Databases and SQL (~3 hrs).  You can save the sections in between (relational algebra, XML, JSON) for extra credit (things get a bit technical there).
 3. Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
 
-## Additional Resources:
+## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)

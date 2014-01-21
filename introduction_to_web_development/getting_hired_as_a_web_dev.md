@@ -11,4 +11,7 @@ Once you've honed your skills and found the right job posting, you'll be invited
 Take a look at [this comprehensive blog post from Happy Bear Software](http://happybearsoftware.com/how-to-get-a-programmer-job.html) on the journey to getting hired.  You don't need to get too caught up in the details just yet -- use it as an introduction to what you'll be doing after you've got your "sea legs" and motivation to pay attention along the way.
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [Salary Information](http://www.indeed.com/salary/Web-Developer.html), though take it with a grain of salt because it's highly dependent on location and skills/seniority.  Developers in tech hubs like San Francisco earn significantly more than average.

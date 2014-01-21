@@ -25,6 +25,9 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 * *Your solution here...*
 
-## Additional Resources:
+## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 
 * An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.

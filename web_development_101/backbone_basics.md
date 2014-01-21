@@ -24,4 +24,7 @@ This is probably the most "advanced" material we'll be taking a look at during t
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * The [Backbone Documentation](http://backbonejs.org/)

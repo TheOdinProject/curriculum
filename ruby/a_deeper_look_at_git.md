@@ -44,4 +44,7 @@ We'll begin by reading some things that are probably review from [Web Developmen
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.

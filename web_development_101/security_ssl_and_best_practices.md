@@ -36,5 +36,8 @@ You'll do some brief reading/viewing here but the main takeaway should be that S
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * If you're curious about how HTTPS secures connections, check out [this article from Hartley Brody](http://blog.hartleybrody.com/https-certificates/).
 * Browse through the [HTTPs Wiki](http://en.wikipedia.org/wiki/HTTP_Secure) and ignore the jargon.

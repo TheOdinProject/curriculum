@@ -171,4 +171,7 @@ You should have a good sense of what's going on in the routes file by now but pr
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * 

@@ -37,6 +37,9 @@ As you've hopefully [learned before](http://skillcrush.com/2012/06/24/html-2/), 
 4. Optional: Learn about your browser's default stylesheet and CSS resets [in this video](http://www.youtube.com/watch?v=14Vb6tZCjEY)(reset starting the 2:00 mark).  This is why there are some spaces that show up in your layout even if you haven't specified CSS.  Real developers almost always use a CSS reset to blow away the default stylesheet and let them work from scratch.  If you're still curious, here's a [longer video](http://www.youtube.com/watch?v=HqRFPLP7Ffs) on resets.
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * If you're rearing to get more in-depth, check out [TutsPlus' free 30 Days To Learn HTML and CSS Course](http://freecourses.tutsplus.com/30-days-to-learn-html-and-css/)
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
 * [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.

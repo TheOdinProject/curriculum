@@ -157,6 +157,9 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * *Your Solution Here!*
 
 
-## Additional Resources:
+## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
 

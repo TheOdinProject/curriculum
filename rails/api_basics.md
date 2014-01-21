@@ -188,6 +188,9 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
 * Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
 * Watch [this free Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)

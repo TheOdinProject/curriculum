@@ -22,6 +22,9 @@ The journey has just begun!
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 *If there's anything we should have covered better (or at all), [Email us!](mailto:curriculum@theodinproject.com)*
 
 * [List of freely available textbooks in any language](http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926#392926)

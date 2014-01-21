@@ -229,5 +229,8 @@ In this lesson we covered some of the more advanced associations material.  Asso
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [An example of polymorphic associations](http://terenceponce.github.io/blog/2012/03/02/polymorphic-associations-in-rails-32/)
 * [RailsCast on Polymorphic Associations](http://railscasts.com/episodes/154-polymorphic-association-revised)

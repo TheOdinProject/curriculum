@@ -205,4 +205,7 @@ That's really just a taste of the Rails controller, but you should have a pretty
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 *

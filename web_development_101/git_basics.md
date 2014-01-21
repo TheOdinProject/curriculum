@@ -56,7 +56,10 @@ It won't be until you start hacking on more full-featured applications that you'
 
 2. Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
 
-## Additional Resources:
+## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 
 * [Git Basics #4: Quick Wins with Git](http://www.youtube.com/watch?v=7w5Z7LmyLgI) will get a bit more into some of the features of Git.  A bit abstract, but should give you some conceptual tips.
 *[For the very technical, this site helps you learn Git by building Git (not in Ruby)](http://kushagragour.in/blog/2014/01/build-git-learn-git/)

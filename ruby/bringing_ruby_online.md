@@ -29,4 +29,7 @@ This lesson won't be nearly as long as the previous few, and should have you bui
 3. Read this [explanation of how HTTP works](http://www.jmarshall.com/easy/http/#whatis) down through where it talks about the POST method (about halfway down).  You can stop before the HTTP Proxies section.
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * *Add some of your own!*

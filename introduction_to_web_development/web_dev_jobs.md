@@ -28,6 +28,9 @@ Developers at web consultancies like Pivotal Labs, Thoughtbot, and ThoughtWorks 
 *Do you work at one of these companies or know someone who does?  We'd love to find out what is "A Day in the Life Of...".  Please [email us](mailto:curriculum@theodinproject.com) if we can do a quick interview about it and post it here!*
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [A day in the life of a Web Developer: Improvise](http://blogs.lt.vt.edu/compass/a-day-in-the-life-of-a-web-developer-improvise/)
 * [Your career in GIFs](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
 * [A look at the new "Developer Evangelist" roles](http://thenextweb.com/dd/2012/06/03/a-day-in-the-life-of-a-developer-evangelist/)

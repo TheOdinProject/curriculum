@@ -25,4 +25,7 @@ jQuery will let you take your javascript knowledge and start really diving into 
     3. [Part 3: User Controls](http://www.youtube.com/watch?v=XlYsjMPCgfI)
 
 ### Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * The [jQuery Documentation](http://api.jquery.com/) has a comprehensive list of all the functions you can use.

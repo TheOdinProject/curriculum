@@ -56,7 +56,10 @@ The `$ rake routes` for a singular resource would only contain 6 routes (since w
 
     new_post  GET /posts/:id/new(.:format)  posts#new    
 
-#### Additional Resources about Singular Resources
+#### Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+ about Singular Resources
 
 * [Stack Overflow question on the topic](http://stackoverflow.com/questions/6629142/having-problem-understanding-singular-resource-in-rails)
 
@@ -274,6 +277,9 @@ The more general principles like SOLID design and metaprogramming will be useful
 With all that completed, there's not much else to go... it's time to get started on your final project!
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 
 * See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
 * [Ruby Metaprogramming](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)

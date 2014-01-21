@@ -19,4 +19,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [SQL Zoo solutions](https://djamler.wordpress.com/category/databases/sqlzoo/) for 4-9: "Select within select", "Joins", "More Joins", "Null", "Sum and Count", and "Self Join"

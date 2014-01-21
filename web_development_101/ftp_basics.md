@@ -17,4 +17,7 @@ FTP stands for File Transfer Protocol and is basically a way of transferring fil
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Wiki article on FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol)

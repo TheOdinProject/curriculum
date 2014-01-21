@@ -88,6 +88,9 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330) from Sandi Metz.
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/)
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/)

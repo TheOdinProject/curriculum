@@ -106,6 +106,9 @@ If you're already scratching your head, don't worry (like I said, better explana
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) video from RailsConf2012 on YouTube.
 * [Code School's RSpec Introduction Course](https://www.codeschool.com/courses/testing-with-rspec)
 

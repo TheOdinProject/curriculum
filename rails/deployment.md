@@ -139,6 +139,9 @@ Best of all, once you can deploy an app to the interwebs, you're officially free
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Heroku Custom Domains](https://devcenter.heroku.com/articles/custom-domains) help file
 * [Converting from PostgreSQL to SQLite3](http://manuel.manuelles.nl/blog/2012/01/18/convert-postgresql-to-sqlite/)
 * [Webinar on Using Heroku in Production](https://blog.heroku.com/archives/2013/7/11/running-production-apps-on-heroku)

@@ -10,5 +10,8 @@ So that's it, you're more than ready to to go ahead and take on Rails.  **Congra
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Ruby Best Practices book by Gregory Brown](http://majesticseacreature.com/rbp-book/pdfs/rbp_1-0.pdf), which uses open-source projects as examples of good coding (2009).
 * [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)

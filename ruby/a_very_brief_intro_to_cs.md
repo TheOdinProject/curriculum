@@ -27,6 +27,9 @@ If that doesn't get you interested, remember that this curriculum is meant to pr
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
 * [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
 

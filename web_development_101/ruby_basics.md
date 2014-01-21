@@ -44,6 +44,9 @@ Redo the same Project Euler problems that you previously did in Javascript but u
 3. [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3) (remember, don't bother for anything over 100,000 doing the brute force solution or you'll need a few days to calculate...)
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * See the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) for a condensed list of common commands and concepts.
 * Read [Smashing Magazine's Intro to Ruby article](http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
 * Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet (we'll read it in the later [Ruby course](/courses/ruby-programming/lessons)) but may help you shore up some of the concepts.

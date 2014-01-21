@@ -30,4 +30,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [BetterSpecs.org](http://betterspecs.org/) contains detailed best practices for writing your own tests.  Overkill for this assignment, but potentially interesting for the future.

@@ -38,6 +38,9 @@ Even better, when you inevitably want to make large-scale changes or just fix so
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * There's also another [interesting perspective on SAAS](http://www.itworld.com/print/108695) from a few years ago.
 * An [Intro to Cloud Computing](http://www.dummies.com/how-to/content/what-is-cloud-computing.html) by Craig Dickson
 * [Cloud computing for dummies](http://www.dummies.com/how-to/content/what-is-cloud-computing.html)

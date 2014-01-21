@@ -203,4 +203,7 @@ Views in general make up the user-facing side of your app.  It can be a bit tric
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * 

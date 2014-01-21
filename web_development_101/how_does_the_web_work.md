@@ -32,7 +32,10 @@ We'll also cover a few tips and tools that will be useful to you again and again
 6. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](http://www.youtube.com/watch?v=z1TkfcC53G0) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
 
 
-## Additional Resources:
+## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [A packet's journey (video)](http://www.youtube.com/watch?v=WwyJGzZmBe8).
 * An [entertaining TED talk](http://www.ted.com/talks/jonathan_zittrain_the_web_is_a_random_act_of_kindness.html) about how the Internet works.
 7. For a more detailed (though a bit dated) text explanation of http, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).

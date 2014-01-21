@@ -39,5 +39,8 @@ Luckily for you, these problems have all been solved many times in the past.  Un
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Free course on algorithms from Coursera](https://www.coursera.org/course/algo)
 * [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
