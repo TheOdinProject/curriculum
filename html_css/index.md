@@ -2,11 +2,11 @@
 
 Though this course is currently under construction, there are tons of great resources out there for learning HTML and CSS.  The first place to start is definitely in the [Web Development 101 lesson on HTML and CSS](/courses/web-development-101/lessons/html-and-css-basics), which covers a lot of ground to get you up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.  
 
-This course will be designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.
+This course will be designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.  Luckily for you, there are an enormous amount of resources available on the web to learn front end development, so if you ever get stuck, Google is your friend.
 
-## A Possible Path
+## The Path Forward
 
-Here are a list of things you'll want to make sure to understand to get a good handle on HTML5 and CSS3.
+Here are a list of things you'll want to understand to get a good handle on HTML5 and CSS3.
 
 ### HTML (mostly)
 
@@ -39,6 +39,8 @@ The difference between internal links (/somepage) and external links (http://www
 Common attributes of image tags.  Saving page load times by using appropriately sized images.  Storage of images externally.  Types of image files and how they are different.
 
 * [Shay Howe on Images and Media (includes CSS)](http://learn.shayhowe.com/html-css/images-audio-video)
+* [Differences between image types (see first answer) from SO](http://stackoverflow.com/questions/2336522/png-vs-gif-vs-jpeg-when-best-to-use)
+* [Another look at differences between image types](http://www.practicalecommerce.com/articles/1821-Image-Formats-What-s-the-Difference-Between-JPG-GIF-PNG-)
 * [YouTube video about adding video to your page](https://www.youtube.com/watch?v=4I1WgJz_lmA)
 
 #### Tables
@@ -46,22 +48,25 @@ Common attributes of image tags.  Saving page load times by using appropriately 
 When to use tables (hint: sparingly).  Structure of a table.
 
 * [Shay Howe on Tables](http://learn.shayhowe.com/html-css/organizing-data-tables)
+* [HTML Docs on Tables](http://www.w3schools.com/html/html_tables.asp)
+* [An older tutorial on Tables from HTML Goodies](http://www.htmlgoodies.com/tutorials/tables/article.php/3479851)
 
 #### Forms
 
 Why forms are probably the most important part of your site (hint: user friction).  Form construction and basic layout.  Element types.  When to actually use each element.  Linking linked elements together with names.  The relationship between names and what your back end receives.
 
 * [Shay Howe on Forms](http://learn.shayhowe.com/html-css/building-forms)
+* [Form Basics from MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form)
+* [HTML Form Walkthrough](http://docs.webplatform.org/wiki/guides/html_forms_basics)
+* [HTML Forms Docs](http://www.w3schools.com/html/html_forms.asp)
 
 #### New Stuff in HTML5
 
 Semantic tags, canvas elements, more granular media elements with control features, local storage, data attributes, compatibility, remembering not to go too crazy with things.
 
-[What's new in HTML5 from W3 schools](http://www.w3schools.com/html/html5_new_elements.asp)
-
-[What's new in HTML5 from About](http://webdesign.about.com/od/html5/a/html_5_whats_new.htm)
-
-[25 must-know HTML5 tips and techniques from tutsplus](http://net.tutsplus.com/tutorials/html-css-techniques/25-html5-features-tips-and-techniques-you-must-know/)
+* [What's new in HTML5 from W3 schools](http://www.w3schools.com/html/html5_new_elements.asp)
+* [What's new in HTML5 from About](http://webdesign.about.com/od/html5/a/html_5_whats_new.htm)
+* [25 must-know HTML5 tips and techniques from tutsplus](http://net.tutsplus.com/tutorials/html-css-techniques/25-html5-features-tips-and-techniques-you-must-know/)
 
 ### CSS3 
 
@@ -87,6 +92,7 @@ Deconstructing the float.  Clearing floats.  Positioning normal vs relative vs a
 * [CSS Floats 101 from A List Apart](http://alistapart.com/article/css-floats-101)
 * [CSS Positioning 101 from A List Apart](http://alistapart.com/article/css-positioning-101)
 * [Positioning Tutorial / Widget from BarelyFitz Designs](http://www.barelyfitz.com/screencast/html-training/css/positioning/)
+* [Absolute Horizontal and Vertical Positioning in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css/)
 * [CSS Float docs](http://www.w3schools.com/css/css_float.asp)
 * [CSS Position docs](http://www.w3schools.com/css/css_positioning.asp)
 
@@ -136,6 +142,7 @@ Why grids, types of grids, building a grid of your own
 * [Fluid Grids from A List Apart](http://alistapart.com/article/fluidgrids)
 * [Supplemental reading on the history of grids and why they're awesome](http://www.subtraction.com/pics/0703/grids_are_good.pdf)
 * [CSS Grids Lessons](https://hackdesign.org/lessons/32)
+* [Getting images to display fluidly in fluid grids, from A List Apart](http://alistapart.com/article/fluid-images)
 
 #### Responsive Design
 
@@ -145,13 +152,27 @@ What responsive really means, Media Queries
 * [Responsive Web Tutorial from Lingulo](http://www.lingulo.com/tutorials/css/how-to-build-a-html5-website-from-scratch)
 * [Responsive Grids Tutorial from TutsPlus](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-basic-responsive-grid-plus-handy-css3-media-query-reporter/)
 * [Responsive Navigation Patterns from Brad Frost](http://bradfrostweb.com/blog/web/responsive-nav-patterns/)
+* [Techniques for Gracefully Degrading Media Queries](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/)
+
+#### CSS Frameworks
+
+Why frameworks, how they work, Bootstrap, Foundation, others
+
+* [From A List Apart, Building Twitter Bootstrap](http://alistapart.com/article/building-twitter-bootstrap)
+* [If you're used to using Bootstrap 2, here's what changed in version 3](http://stackoverflow.com/questions/17952571/how-has-twitter-bootstrap-3-changed-over-version-2-3-2)
+* [Getting Started with Foundation](http://foundation.zurb.com/docs/)
+* [Choosing Bootstrap or Foundation](https://medium.com/frontend-and-beyond/8b3812c7007c)
+* [Bootstrap Docs](http://getbootstrap.com/)
+* [Foundation Docs](http://foundation.zurb.com/)
 
 #### Neat tweaks, animations and cross-browser compatibility
 
-Rounding corners. Shadows. Animations. Compatibility across browsers.
+Rounding corners. Shadows. Animations. Compatibility across browsers. Pseudo-elements.
 
+* [CSS Transitions from A List Apart](http://alistapart.com/article/understanding-css3-transitions)
 * [CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/)
 * [CSS Animated Loading Icons](http://tobiasahlin.com/spinkit/)
+* [Learning To Use The `:before` and `:after` Pseudo-Elements in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2011/07/13/learning-to-use-the-before-and-after-pseudo-elements-in-css/)
 
 #### Preprocessors
 
@@ -184,4 +205,6 @@ Build tools to help improve your workflow.
 * [Treehouse's HTML/CSS learning adventure (PAID)](http://teamtreehouse.com/learning-adventures/learn-html-and-css)
 * [LearnStreet](http://learnstreet.com)
 * [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)
-
+* [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
+* [Equal Height Columns in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2010/11/08/equal-height-columns-using-borders-and-negative-margins-with-css/)
+* [HTML tutorials and help docs](http://www.webplatform.org/)
