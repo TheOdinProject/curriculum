@@ -43,6 +43,7 @@ describe AdminFlash do
   describe "#showable_messages" do
     it 'returns array of messages without cookies' do
       disabled_flash_message = AdminFlash.create(message: "disabled in cookie", expires: 2.days.from_now) 
+      AdminFlash.stub(:unexpired_messages).and_return([disabled_flash_message])
       AdminFlash.showable_messages([disabled_flash_message.id]).should_not include(disabled_flash_message)
     end
     
