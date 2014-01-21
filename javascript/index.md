@@ -14,6 +14,7 @@
 * [AirBnB's Javascript Style Guide](https://github.com/airbnb/javascript)
 * [An Introduction to DOM Events](http://coding.smashingmagazine.com/2013/11/12/an-introduction-to-dom-events/)
 * [An Introduction to Full Stack Javascript](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/)
+* [Thinking Inside the Box with Vanilla Javascript from Smashing Magazine](http://coding.smashingmagazine.com/2013/10/06/inside-the-box-with-vanilla-javascript/)
 
 ### Books and Blogs
 * [Best Javascript Books](http://cwebbdesign.tumblr.com/post/22508060129/4-best-javascript-books)
@@ -32,6 +33,8 @@
 * [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
 * [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
 * [Node.js Explained](http://kunkle.org/nodejs-explained-pres/)
+* [Introduction to Full Stack Javascript from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/)
+* [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 
 ### Screencasts
 * [PAID training webcasts on pretty much anything](https://www.bitcast.io/)
