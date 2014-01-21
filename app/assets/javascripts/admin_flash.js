@@ -16,7 +16,7 @@ function setCookie(name, value, date) {
   var day = parts[2].split(' ');
   var jsDate = new Date(parts[0], parts[1]-1, day[0]);
   var cookieDate = jsDate.toUTCString();
-  document.cookie = name+"="+value+"; "+cookieDate+"; path=/";
+  document.cookie = "admin_flash_"+name+"="+value+"; "+cookieDate+"; path=/";
   
 }
 // Wed, 22 Jan 2014 08:00:00 GMT
