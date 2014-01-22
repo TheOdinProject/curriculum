@@ -2,8 +2,6 @@
 
 *Estimated Time: 2-4 hrs*
 
-<a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
-
 In this project, you'll get a chance to actually build a pretty nifty tool to flex your Javascript and jQuery muscles.  Up until now, you've had your hand held quite a bit by Codecademy.  Now it's time to do it on your own.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 This should NOT be trivially easy for you.  You'll probably have to Google frequently to get the right jQuery methods or CSS to use.  In fact, that's the point!  You CAN build this, and the resources are out there.  We'll walk through the basic steps but it'll be up to you to find out how to actually implement them.  For instance, where does a `hover` effect come from?  
@@ -35,8 +33,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
     4. Why is it so slow?? Remember that when you call a jQuery selector like `$(".square")`, it actually returns you ALL the elements that fit the description.  So if you're doing those types of operations hundreds of times inside a loop, it can get very time consuming... try pulling those outside your loops.
     5. See how many grid squares you can get before it becomes unusably slow.  
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
-
-<a href="http://www.theodinproject.com/scheduler?cb=2" target="_blank" title="Pair using the Scheduler">Pair on this project!</a>
 
 ## Student Solutions
 
