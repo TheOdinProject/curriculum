@@ -1,6 +1,6 @@
 # HTML and CSS Resources
 
-Though this course is currently under construction, there are tons of great resources out there for learning HTML and CSS.  The first place to start is definitely in the [Web Development 101 lesson on HTML and CSS](/courses/web-development-101/lessons/html-and-css-basics), which covers a lot of ground to get you up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.  
+Though this course is currently under construction, there are tons of great resources out there for learning HTML and CSS and we've started laying them out for you below.  The first place to start is definitely in the [Web Development 101 lesson on HTML and CSS](/courses/web-development-101/lessons/html-and-css-basics), which covers a lot of ground to get you up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.  
 
 This course will be designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.  Luckily for you, there are an enormous amount of resources available on the web to learn front end development, so if you ever get stuck, Google is your friend.
 
@@ -8,7 +8,7 @@ This course will be designed to follow that introductory material with more dept
 
 Here are a list of things you'll want to understand to get a good handle on HTML5 and CSS3.
 
-### HTML (mostly)
+### HTML5
 
 #### Basics
     
@@ -120,7 +120,7 @@ Background colors, gradients (linear and radial) and images.
 
 #### A Lightening Intro to Design Principles
 
-Visual hierarchy, CRAP (Context, Repetition, Alignment, Proximity), Typography basics and font selection.  The design rabbit hole.
+Visual hierarchy, CRAP (Context, Repetition, Alignment, Proximity), The design rabbit hole.
 
 * [A very simple overview of Visual Hierarchy from 52weeksofUX](http://52weeksofux.com/post/443828775/visual-hierarchy)
 * [Introduction to Visual Hierarchy from Formed Function](http://blog.formedfunction.com/post/3029763425/on-visual-hierarchy)
