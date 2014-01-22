@@ -112,13 +112,13 @@ But this lesson will take you much deeper and further than you went before, so d
 ## Your Assignment:
 
 1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
-2. Do the full [Codecademy Introduction to Ruby section](w.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1) from their [Ruby Track](http://www.codecademy.com/tracks/ruby).
+2. Do the full [Codecademy Introduction to Ruby section](http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1) from their [Ruby Track](http://www.codecademy.com/tracks/ruby).
 3. Complete the [Codecademy Introduction to Ruby](http://www.codecademy.com/courses/ruby-beginner-en-MxXx5/0/1) project ("Putting the Form in Formatter")
 4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`
 5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 31-50 (only the section on Numbers and Expressions and the section on Text and Strings)
 6. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
 7. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
-8. Check out this list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby for reference.
+8. Glance over this list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
 9. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
 
     1. [Ruby Explained: Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
