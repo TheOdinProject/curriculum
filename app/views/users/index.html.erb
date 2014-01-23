@@ -4,9 +4,11 @@
   <div class="row">
     <div class="span8 offset2">
       <h2>Students</h2>
-      <% @users.each do |user| %>
-        <%= render user %>
-      <% end %>
+      <div id="students-list">
+        <% @users.each do |user| %>
+          <%= render user %>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

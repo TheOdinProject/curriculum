@@ -5,7 +5,7 @@ describe "Users" do
   subject { page }
 
   let!(:user){ FactoryGirl.create(:user, :github => "http://www.github.com/foobar", :about => "I rock") }
-  let!(:other_user) { FactoryGirl.create(:user) }
+  let!(:other_user) { FactoryGirl.create(:user, email: "other_user@example.com") }
   let!(:project) { FactoryGirl.create(:content_bucket) }
   
   describe "Profile Page (#show)" do
@@ -110,9 +110,39 @@ describe "Users" do
       it { should have_selector("h2", :text => "Students") }
       it { should have_link(user.username, :href=>user_path(user)) }
       it { should have_selector("img")}
-
+    
+      context "after signing in another user" do
+        
+        before do
+          sign_out(user)
+          sign_in(other_user)
+          visit users_path
+        end
+        
+        it "should show most recently signed in user at top of list" do 
+          users = page.all("div#students-list div.student-info")
+          users[0].should have_content(other_user.username)
+          users[1].should have_content(user.username)
+        end 
+        
+        it "should NOT show most recently signed in user NOT at top of list" do 
+          users = page.all("div#students-list div.student-info")
+          users[1].should_not have_content(other_user.username)
+          users[0].should_not have_content(user.username)
+        end 
+      end
     end
-
+      
+    context "list users" do
+      before do
+        sign_in(user)        
+        visit users_path
+      end
+      
+      # Check to see if we get any listing at all
+      it { should have_selector('div.student-info') }
+      
+    end    
   end
 end
 
