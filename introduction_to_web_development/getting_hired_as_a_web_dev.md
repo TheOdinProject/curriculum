@@ -2,7 +2,7 @@
 
 The best thing you can do in order to get a job as a web developer is, of course, to know your stuff!  But, when compared to other careers, web development does have some wrinkles (that probably work in your favor).  Because the industry has a long history of successful developers with varying backgrounds, people tend to care more about what you've actually **built** than how you got there (e.g. which school you went to).  
 
-*So build!*  Build and build and build and keep on building.  Build projects that try out new technologies and put up websites for you and your friends.  Hack on open source projects once you feel comfortable tackling some of the bug reports.  Not only do you get better at developing by practicing it, not only is it fun, but it will also help you decide which parts of web development you really find the most interesting.  You may surprise yourself.  
+*So build!*  Build and build and build and keep on building.  Build projects that try out new technologies and put up websites for you and your friends.  Hack on open source projects ([Like The Odin Project!](http://theodinproject.com/contributing)) once you feel comfortable tackling some of the bug reports.  Not only do you get better at developing by practicing it, not only is it fun, but it will also help you decide which parts of web development you really find the most interesting.  You may surprise yourself.  
 
 This curriculum will give you plenty of opportunity to build but it's up to you to stick with it and to keep that creative spark going once you're done.  Luckily, that's usually not terribly difficult, especially when you first learn how to put up real websites -- building stuff can get pretty addictive.
 
