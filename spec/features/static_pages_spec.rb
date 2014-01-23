@@ -87,13 +87,12 @@ describe "StaticPages" do
           fill_in("suggestion", with: suggestion_body)
         end
 
-        context "after submitting the form", :js => true do
-          before(:each) do
-            wait_for_ajax
+        context "after submitting the form" do
+          before do
             click_button "suggestion-button"
           end
             
-          it "should send an email request with the form contents", :js => true do
+          it "should send an email request with the form contents" do
             ActionMailer::Base.deliveries.first.encoded.should include suggestion_body
           end
         end
