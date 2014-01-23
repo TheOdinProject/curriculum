@@ -84,12 +84,12 @@ in an organized way (spreadsheet?) and your connection to them.  Direct is bette
 
 ### The Best Places to Look
 
-[Authentic Jobs](http://www.authenticjobs.com)
-[StackOverflow Jobs](http://careers.stackoverflow.com)
-[Hacker Jobs UK](http://hackerjobs.co.uk)
-[CWJobs](http://cwjobs.co.uk)
-[Github Jobs](https://jobs.github.com/)
-[White Truffle -- the Match.com of jobs. Weighted towards startups right now](http://www.whitetruffle.com)
+* [Authentic Jobs](http://www.authenticjobs.com)
+* [StackOverflow Jobs](http://careers.stackoverflow.com)
+* [Hacker Jobs UK](http://hackerjobs.co.uk)
+* [CWJobs](http://cwjobs.co.uk)
+* [Github Jobs](https://jobs.github.com/)
+* [White Truffle -- the Match.com of jobs. Weighted towards startups right now](http://www.whitetruffle.com)
 
 ### On Recruiters
 
@@ -143,6 +143,11 @@ Phone Screen, tech interview, tech challenge, fit, offer, negotiation, acceptanc
 
 ### The Phone Screen
 
+Fit and minimum bar hurdle -- are you authentic?
+
+### Preparing for the Phone Screen
+
+Ask yourself the tough questions (like we did above)
 
 ### The Tech Interview
 
@@ -153,25 +158,23 @@ Be curious, be honest, be open minded
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
 * [Post on The Interview](http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
 
-Coding Test Questions:
+#### Coding Test Questions:
+
 * [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/)
 * [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/)
 
-Testing:
+#### Testing:
 
 * [Coding Bat](http://codingbat.com/)
 * [Project Euler](http://projecteuler.net/)
-* 
 
-Algorithms:
+#### Algorithms:
+
 * [Udacity course on Algorithms](https://www.udacity.com/course/viewer#!/c-cs215/l-48747095/m-48691609) (asynchronous)
 * [Coursera course on Algorithms](https://www.coursera.org/course/algo) (semi-synchronous)
 
-Coding Test Questions:
-* [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/)
-* [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/)
+#### Architecture:
 
-Architecture:
 * [Teaching Software Architecture with Github](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
 ### The tech challenge
