@@ -185,9 +185,11 @@ Examples of take-home tech challenges
 
 Fit is actually the most important thing (for better or worse)
 
-### Handling an offer -- comp, negotiate, and get THREE
+### Handling an Offer
 
-Companies will drag their feet because they can.  You will drag your feet when you have multiple offer letters.  Don't take it personally but do what you can to fight it off.
+Compensation?  Negotiate.  Get THREE.
+
+Companies will drag their feet because they can.  You will drag your feet too when you have multiple offer letters.  Don't take it personally but do what you can to fight it off when they do it.
 
 
 ## Alternate Paths
@@ -202,10 +204,12 @@ Incidentally, you may be considering attending a full-time coding bootcamp to fi
 
 If you're looking to be better informed about a full-time coding bootcamp and whether it might be useful to you, read this guide to help make your decision: [Choosing a Full-Time Coding Bootcamp](leanpub.com/choosing-programming-course)
 
+One bootcamp we support (the founder here went through their program) is App Academy, which requires no tuition until you've found a dev job.  [If you use this link to apply, they've offered to help support The Odin Project!](http://www.appacademy.io/?referer=The+Odin+Project)  You should always make an informed decision, but that's our bias :)
+
 
 ## Contributing to The Odin Project
 
-You've gotten this far and we need your help.
+You've gotten this far and we need your help!  Join Team Odin!
 
 
 ## Additional Resources
