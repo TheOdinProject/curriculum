@@ -1,11 +1,4 @@
-<% disabled_flash_ids = []
-  cookies.each do |name,value| 
-    match = name.match(/admin_flash_(\d*)/)
-    if match 
-      disabled_flash_ids << match[1].to_i
-    end  
-  end
-  AdminFlash.showable_messages(disabled_flash_ids).each do |m|  %>
+<% AdminFlash.showable_messages(disabled_flash_ids_from_cookies).each do |m|  %>
   <div class="alert alert-warning alert-dismissable admin-flash-message">
     <p>
       <button type="button" id="close_admin_flash_<%= m.id %>" data-exp="<%= m.expires %>" data-id="<%= m.id %>" class="close" aria-hidden="true" >&times;</button>
