@@ -1,5 +1,13 @@
 # Getting Involved with The Odin Project
 
+1. Intro
+2. Our Approach
+3. The Tools We're Using
+4. Schedule Going Forward
+5. How to Get Started
+6. Workflows for Features and Stories
+6. Additional Resources
+
 ## Intro
 
 It's awesome that you're interested in getting involved with the project! The project needs the help of contributors and it should be good experience for you to build software as part of a team.  In December 2013 we created the structure necessary to bring in collaborators who are new to both the project and perhaps software development in general.
@@ -114,6 +122,7 @@ The main workflows we've tried are listed below.  The ideal workflow allows ulim
 1. **[Google Hangouts on Air](https://plus.google.com/hangouts) + [Nitrous.io](http://nitrous.io)**:  Nitrous is a free cloud-hosted Rails development environment that lets you run your own terminal window, local filesystem etc... it's like tunneling into a new Macbook.  It also has collaboration features baked in, so multiple people can work on the same code base simultaneously.  The Hangout on Air is necessary to give the navigator(s) the opportunity to talk to the driver and so we can record the session easily.
     * **Pros:** Easy recording, unlimited watchers, easy driver switching (one code base used), standardizes environments for collaborators
     * **Cons:** Have to use an IDE (which no one is 100% familiar with), totally web-based, Google can be frustrating to figure out
+    * To set up a Hangout on Air, you actually need to schedule the HoA *in advance*, which will automatically create a Google Event which links to the HoA.  The other way to do it is to schedule the Google Event and then, just ahead of time, create a HoA and link it to the Google Event by digging in to the Event's options and looking for the "YouTube Link" field. See [this post](https://plus.google.com/+NatalieVillalobos/posts/a1sgtv91skA) for details of that method.
 2. **[Screenhero](http://screenhero.com/) + your text editor**:  This allows both people to control the action with their own mouse, so you can alternate who is coding and who is navigating.  Best if only 2 people are driving/navigating.
     * **Pros:** Intuitive, only need to use one person's code base.
     * **Cons:** Recording needs to be done with another program, only 2 people can participate (unless external screen sharing like a Hangout-On-Air is also used).
@@ -133,7 +142,7 @@ As for individual recordings (e.g. of sessions recorded on your own computer), s
 
 We're still looking for the best program to record 
 
-* Google Hangouts on Air is still the easiest... Maybe you can host a hangout even if no one is watching?
+* Google Hangouts on Air is still the easiest
 * ???
 
 #### The Bad List
@@ -144,11 +153,9 @@ We've had some bad experiences... It doesn't mean bad tools, but once bitten twi
 
 ## Schedule Going Forward
 
-We'll manage the project in 1-week increments.  That means we'll have weekly check-in meetings to see how it's gone for everyone and what's on the agenda for the next week.  It will be a chance to ask group questions about stories or code, find partners, and schedule the coming week's pairing sessions.  We may also make code review a part of this meeting as well.  Think of this as sort of like a daily SCRUM meeting might normally be but with a bit more meat.
+We manage the project in 1-week increments, typically holding weekly check-in "SCRUM" meetings on *Wednesdays from 6:00-7:30pm PST* to see how it's gone for everyone and what's on the agenda for the next week.  It will be a chance to ask group questions about stories or code, find partners, and schedule the coming week's pairing sessions.  We may also make code review a part of this meeting as well.  Think of this as sort of like a daily SCRUM meeting might normally be at an agile shop but with a bit more meat.
 
 The weekly meetings will be posted to the [Google Community](https://plus.google.com/u/0/communities/100013596437379837846) and the [Meetup Group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/).
-
-Otherwise, post a new Event (as a Hangout on Air) when you'd like to pair on the Community.
 
 ## How to Get Started
 
@@ -161,55 +168,112 @@ You're welcome to observe for as long as you'd like.  That's part of why everyth
 1. Join the [Google Community](https://plus.google.com/u/0/communities/100013596437379837846).
 2. Check out the [Pivotal Tracker](https://www.pivotaltracker.com/s/projects/979092)
 3. Say hi! You can do that at the weekly meeting and/or on the google group.  We'd love to hear 30 seconds about what brought you here and where you'd like to go.
-4.  Feel free to observe any of the published pairing sessions or weekly meetings via the community events or check out the historical ones we post on YouTube (still trying to figure out exactly how that will work, stay tuned).
+4.  Feel free to observe any of the published pairing sessions or weekly meetings via the community events or check out [the historical ones we post on YouTube](http://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ).
 5. Start collaborating!  You're ready...
 
 ### As a Collaborator
 
 Ready to start collaborating or at least taking the next step? 
 
-1. Join the [Google Community](https://plus.google.com/u/0/communities/100013596437379837846).
-2. Sign up for the [Pivotal Tracker](https://www.pivotaltracker.com/s/projects/979092).  It'll say "60 day free trial" but don't worry, you won't have to pay.  It's like Github... as long as you're working on open-source stuff and not private repos, it's free.
+1. [Join the Google Community](https://plus.google.com/u/0/communities/100013596437379837846).
+2. [Sign up for the Pivotal Tracker](https://www.pivotaltracker.com/projects/979092/memberships).  It'll say "60 day free trial" but don't worry, you won't have to pay.  It's like Github... as long as you're working on open-source stuff and not private repos, it's free.
 3. Say hi at the weekly SCRUM meeting and on the Community page.  You'll want to familiarize yourself with what story(s) we're working on and how the development backlog looks.  If any of the stories that we're working on in the Tracker interest you, click the link in that story to "Follow this Story" to receive updates when new specs or comments are posted.
-5. Set up or join a pairing session via the Community.
+5. Set up or join a pairing session via the Community.  To start your own, ["Schedule a Hangout on Air"](https://plus.google.com/hangouts) and invite our Team Odin community to it.  That creates a new Event on our Community page so people can join you.  You'll need to post the link to the actual hangout window in the comments for the Event (otherwise people can only observe).
 4. If you're hosting a pairing session, make sure you have the [Odin Project repository](https://github.com/TheOdinProject/theodinproject) set up on your computer (or Nitrous box if that's the workflow you're using).  We've got evolving instructions for how to do that on the [README page](https://github.com/TheOdinProject/theodinproject/blob/master/README.md).  It can take a few tries to get the server running and the lessons populated properly so bear with it!
 5. Follow the Git workflow listed below but, basically, get the latest copy of the feature branch you're working on, write some sweet tests and code, and then have the story owner push it back up (you'll need to be in touch with a story owner who has push access).
 6. Have fun! Tell your friends how much of an open source badass you now are.  In a humble brag sort of way.
 
-### Working on a Feature / User Story
+## Workflows for Features and Stories
 
-#### This section is under development as we figure out the best workflow
+There are two main types of stories listed on our tracker -- one-offs (like bug reports, chores, and simple-to-implement features) and stories that are part of a larger feature and linked together using an "Epic".  All stories use tags to categorize them (e.g. "admin-tools" and "progress-tracking").  Tags in green are just used for categorization.  Tags in purple are linked to epics (click to see).  
 
-We'll flesh this section out as we get a bit more experience working on stories, but basically we'll all be sharing story development until the feature is complete.  This *should* work because we'll be doing TDD.  If it doesn't, we'll adapt.
-
-#### For an Existing Story
-
-1. Check in at the weekly SCRUM meeting to get on the same page as everyone else.
-1. Post or join a new pairing session via the Community.  If possible, also include the feature or part of the feature you'll be working on.
-1. Consult the [Pivotal Tracker](https://www.pivotaltracker.com/s/projects/979092) for the current story and take a look at which step(s) have been completed already.  Familiarize yourself with the work that was most recently completed by the last pairing session (which should be available in their video / event).
-3. Don't forget to start recording if you're not using a Hangout on Air.  To set up a Hangout on Air, you actually need to schedule the HoA *in advance*, which will automatically create a Google Event which links to the HoA.  The other way to do it is to schedule the Google Event and then, just ahead of time, create a HoA and link it to the Google Event by digging in to the Event's options and looking for the "YouTube Link" field. See [this post](https://plus.google.com/+NatalieVillalobos/posts/a1sgtv91skA) for details of that method.
-4. Get the most recent copy of the repository and start building TDD-style.  See below for Git workflow notes.
-3. When you're done with the session (which should be after making your last test pass... don't leave failing tests), make sure all tests still pass and then push to Github.
-4. When a story is completed (and fully tested), merge with the (latest) master branch then submit a pull request to the main Odin repo.
-
-#### Starting a New Story
+### For One-Off Stories
 
 *Note: If you want to "cowboy" a story on your own, make sure it's in the current sprint or backlog (NOT the icebox), it's got 1 or 0 points (save the bigger ones for everyone to work on), and you let us know you'll be working on it (to avoid conflicts) via the Community.*
 
-1. Attend one of the weekly meetings listed on the [Google Community](https://plus.google.com/communities/100013596437379837846) site or the [Meetup](meetup.com/Learn-Web-Development-Paired-Programming-in-SF/).  That's where we'll kick off new stories for the coming week (right now we're not really moving fast enough to complete multiple stories in a week...)
-2. We usually follow that up with a separate brainstorming / pseudocoding session to break down the story and agree on a path forward before actually diving into the story.
-3. Now that the story is established, see the steps above...
-4. Once the story is completed and pushed, we'll do a code review before accepting it.  You'll need to show a complete test coverage and that the story is in line with the story specifications before it will be accepted.
-5. Pull request accepted.  Party like it's 1999.
+If you'd like to tackle a story on your own, feel free to dive on any of the one-off "cowboy" stories that aren't linked to an epic.  Please set yourself as the owner (by clicking "Start") so no one else conflicts with you on it.  Make a note to the group on the Community or check in at the weekly SCRUM to see if anyone wants to help.  
 
-#### Git Workflow Notes
+Each story in the Tracker will be made up of Tasks, which are its Acceptance Criteria.  You'll know you're finished if you can check off all the tasks and the story looks like it does in the mockup (if there is one).  Many stories have no mockups because they are self-explanatory or non-visual.
 
-We're still trying to figure out the best workflow to use.  We'll be handing off half-completed stories between different pairs/mobs of programmers so there needs to be a canonical repository where the latest version of the code is located.  It's not ideal, but for now story owners will get push access to the main repository.  They will not touch the `master` branch (repeat 3 times, please) and will work always in a feature branch until it comes time to do a pull request back into `master`.
+Your workflow will look like the following:
 
-Other notes:
+1. [Tracker] Identify a story not attached to an epic
+2. [Tracker] Click "Start" to take ownership of it
+3. [Tracker / Google Docs] Create a Google Doc and share it.  Add a link to it in the comments at the bottom of the story. Use this document to track your approach, to-do's, and log progress from one session to the next, especially if you're working with others.
+3. [Github] [Grab the latest version of the repository from Github.](https://github.com/TheOdinProject/theodinproject)
+4. [Github] Make a feature branch with a title similar to the story you are working on (e.g. "close-admin-flash")
+5. [Community] Post hangouts for when you're working on it to get help.  If you end up working with others, they should work out of the story owner's code base (e.g. using Nitrous).  *You own the story, you own the code.*
+6. [Code] Write tests first, then make them pass with code.  Stories without tests will not be accepted.
+7. [Git] Commit frequently and with descriptive commit messages!  Don't commit unnecessary files or make changes to files you aren't using, that just clutters the commits.
+8. [Git / Google Doc] When you stop for the day, be sure to commit your changes.  Record in the Google Doc where you are in your workflow so everyone who does the story the following day (especially if you can't make it) has a clear plan of action.
+8. [Git] When you're done and all specs pass, pull down the latest version of the main repo, since it's probably changed since you started.
+9. [Git] Merge your feature branch into your local version of the `master` branch.  You may need to resolve some merge conflicts due to changes in the main repo since you started.
+10. [Tracker] Mark the story "Finished".
+9. [Git] Submit a pull request for your work.  Someone will do a code review for you, possibly at the weekly SCRUM meeting.  You'll receive comments on your work in the pull request (and probably will need to fix or clean up stuff)
+11. [Tracker] When the story has passed code review, it will be marked "Delivered".
+12. [SCRUM] Definitely make the next SCRUM meeting, where the story will be covered and marked "Accepted" in the Tracker (unless there are last minute issues) and the Pull request will be merged. You're officially contributing.
+13. [Blog -- Encouraged but Optional] Write a brief blog post summarizing what you did and what you've learned.  We'll post it on [1000hours.io](http://1000hours.io).
+12. [Beer] Have a beer.
+13. [Beer] Have another beer, you've worked hard.
 
+
+### For Stories As Part of Epics
+
+Stories that are part of epics are subject to a modified workflow because they have to fit in with other stories in the epic.  The tracker has another column called "Epics" where you can see the major Epics.  The comments section of the epic will contain links to the large-scale feature spec (which covers the whole epic, not just one story) and any mockups that are associated with it. 
+
+Because they are larger scale, stories that are part of epics need to be coordinated with the group.  We'll do that at our weekly SCRUM meeting
+
+#### Before You Even Start
+
+Before you start coding, a few things have to happen:
+
+1. The Product Manager creates the Epic and attaches the specification and mockups to it.
+2. Everyone attends a special "Inception" meeting where we strategize how to tackle the epic on a high level and in what order the stories need to be done.  We'll try to find any snags we can at this point in the process, before anyone has started coding.
+3. The Epic Owner (probably the Product Manager) will create a new feature branch in the main repository for everyone to work off of for this epic.
+3. We'll divvy up the stories and get cracking!
+
+#### Working on an Individual Story in an Epic
+
+Just like in the One-off story workflow, the story owner is also the owner of the code for that story.  Everyone else will work off that person's code base (probably on Nitrous).
+
+Specifications and mockups are stored attached to the Epic, though each individual story might have clarifying comments.
+
+Each story in the Tracker will be made up of Tasks, which are its Acceptance Criteria.  You'll know you're finished if you can check off all the tasks and the story looks like the relevant mockup in the Epic.
+
+2. [Tracker] Click "Start" to take ownership of your story.
+3. [Tracker / Google Docs] Create a Google Doc and share it.  Add a link to it in the comments at the bottom of the story. Use this document to track your approach, to-do's, and log progress from one session to the next.  When you get started on the story, the first coding session is usually a mini-"Inception" meeting where you determine your strategy.
+1. [Git] Start by loading the latest copy of the main repo.  Switch to the epic's feature branch.
+2. [Git] Make another feature branch (off of the epic's feature branch) for this individual story, with a title similar to the story you are working on (e.g. "close-admin-flash").
+
+The following steps are almost identical to the One-off story workflow:
+
+5. [Community] Post hangouts for when you're working on your story to get help.  If you end up working with others, they should work out of the story owner's code base (e.g. using Nitrous).  *You own the story, you own the code.*
+6. [Code] Write tests first, then make them pass with code.  Stories without tests will not be accepted.
+7. [Git] Commit frequently and with descriptive commit messages!  Don't commit unnecessary files or make changes to files you aren't using, that just clutters the commits.
+8. [Git / Google Doc] When you stop for the day, be sure to commit your changes.  Record in the Google Doc where you are in your workflow so everyone who does the story the following day (especially if you can't make it) has a clear plan of action.
+8. [Git] When you're done and all specs pass, pull down the latest version of the main repo, since it's probably changed since you started.
+9. [Git] Merge your feature branch into your local version **of the main epic branch** (e.g. NOT master).  You may need to resolve some merge conflicts due to changes from people working on other stories in the epic since you started.
+10. [Tracker] Mark the story "Finished".
+9. [Git] Submit a pull request for your work.  Someone will do a code review for you, possibly at the weekly SCRUM meeting.  You'll receive comments on your work in the pull request (and probably will need to fix or clean up stuff)
+11. [Tracker] When the story has passed code review, it will be marked "Delivered".
+12. [SCRUM] Definitely make the next SCRUM meeting, where the story will be covered and marked "Accepted" in the Tracker (unless there are last minute issues) and the Pull request will be merged. You're officially contributing.
+12. [Beer] Have a beer.
+13. [Beer] Have another beer, you've worked hard.
+
+Story owners should be present at the SCRUM meetings to talk about their progress and ask questions.
+
+Once the full epic is completed, we will do a full debriefing at the next SCRUM meeting.  We'll also have someone (or a couple people) write a blog post about it, which will utilize the existing specs and mockups, covering what was done and what was learned.
+
+13. [Blog] Write a brief blog post summarizing what you did to complete the epic and what you've learned.  We'll post it on [1000hours.io](http://1000hours.io).
+
+
+## Git Workflow Notes
+
+* Everyone will be working in feature branches.  **No one touches `master`**, and any changes to be included in `master` will be made via pull request.
+* Epics will have their own feature branches.  Stories within epics will be done on feature branches off of the main epic branch.
+* **The story owner is the code owner.**  That person's Nitrous box will contain the latest version of the code (so they will need to fire it up themselves whenever someone is working on it).  If you want to hand off code between boxes, you'll need to do so with a separate Git flow.
 * Use merges (`$ git merge origin/my_feature_branch`) instead of rebases (`$ git rebase my_feature_branch`).  If you don't know what a rebase is, don't worry about it.  When a rebase goes wrong, you can get yourself in all kinds of strange places.
-*  Again, make sure you're working on a [feature branch](http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging) (see the [article on a feature-branch workflow](https://www.atlassian.com/git/workflows#!workflow-feature-branch) from Atlassian as well) and NOT the `master` branch.
+*  Again, **make sure you're working on a [feature branch]**(http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging) (see the [article on a feature-branch workflow](https://www.atlassian.com/git/workflows#!workflow-feature-branch) from Atlassian as well) and NOT the `master` branch.
 
 ## Additional Resources
 
