@@ -67,10 +67,6 @@ FactoryGirl.define do
     expires 2.days.from_now
   end
 
-#  factory :invalid_admin_flash do
-#    expires 1.day.ago
-#  end  
-
   factory :expired_admin_flash, :parent => :admin_flash do
     expires "#{1.day.ago}"
     message "Some Expired Message"
