@@ -39,7 +39,7 @@ describe "Admin Flash" do
     
     let(:user) { FactoryGirl.create(:user) }
     before do
-      sign_in_user(user)
+      sign_in(user)
       visit courses_path
     end
     it "should display messages" do
