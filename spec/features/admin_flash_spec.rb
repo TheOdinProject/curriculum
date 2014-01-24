@@ -50,8 +50,5 @@ describe "Admin Flash" do
     end    
     
   end
-  
-  
-  
-    
+
 end  
