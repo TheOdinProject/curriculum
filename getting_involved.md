@@ -6,6 +6,7 @@
 4. Schedule Going Forward
 5. How to Get Started
 6. Workflows for Features and Stories
+7. Git Workflow Notes
 6. Additional Resources
 
 ## Intro
