@@ -10,7 +10,16 @@ FactoryGirl.define do
     sequence :email do |n|
       "foo#{n}@bar.com"
     end
+    
     password "foobar"
+    
+    # For testing ordering of most recently visited student.
+    # Without this, users were created with nothing in this field, with the side effect
+    # that User.order("last_sign_in_at desc") was putting those users as before any others.
+    sequence :last_sign_in_at do |n|
+      n.weeks.ago
+    end
+    
   end
 
   factory :cal_event do
