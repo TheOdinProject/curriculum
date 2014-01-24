@@ -176,24 +176,38 @@ You don't need a personal website right off the bat but it's good to have and it
 
 * [Why Every Job Seeker Should Have a Personal Website](http://www.forbes.com/sites/jacquelynsmith/2013/04/26/why-every-job-seeker-should-have-a-personal-website-and-what-it-should-include/)
 
-### Get Out in the Community
+### Get Out in the Community and Collect Information
 
-Find and meet other developers.  That doesn't mean "power networking" but it does mean genuine human connection.  Your network of people DOES matter in a BIG way.  For now, it's probably just for answering questions and harvesting advice but your next job will probably be found through the people you know and some who you meet while you're harvesting advice.  People like giving advice and like investing themselves emotionally in growth curves.
+Find and meet other developers.  That doesn't mean "power networking" but it does mean genuine human connection.  Your network of people DOES matter in a BIG way.  For now, it's probably just for answering questions and harvesting advice but your next job will probably be found through the people you know and some who you meet while you're gathering this advice.  People like giving advice and like investing themselves emotionally in other people with growth curves.
 
-That's best in person, where you can ask your dumb questions, but there are plenty of online communities as well.  Be a part of them.  Don't be afraid to ask questions.  That's how you build relationships.
+That's best to do in person, where you can ask your dumb questions, but there are plenty of online communities as well, e.g. Meetups, Stack Overflow, Quora, local user groups...  Be a part of them and don't be afraid to ask questions.  That's a great way to build relationships.
+
+You'll probably have a million questions but the relevant ones here are about understanding what exactly different jobs *are* and what they're looking for. The easiest way to find out is ask developers what they do.  It's much faster than trolling through blog posts trying to figure out the process.  Buy lunches and coffees if you must.  Set a goal of talking to 5 real human beings about your job search.
+
+Another way to get this information is to check out a whole bunch of job postings.  You'll quickly start seeing similarities between them.  Yeah, it's shit work, but it must be done.  
 
 Another facet of this is related to your web presence -- don't be afraid to produce content like blogging or answering questions on Quora.  They don't need to be explicitly technical, but should showcase your ability to think critically and write well.  Both of these play well with future employers.  
-
-### Collect Information
-
-You'll need to understand what the jobs are and what they're looking for. Start collecting postings and you'll start seeing similarities between them.  Yeah, it's shit work, but it must be done.  Ask people questions, it's faster than trolling through blog posts trying to figure out the process.  Buy lunches and coffees.  Get 5 people at least, set a goal for that.
 
 
 ## Collect Leads 
 
+You've moved beyond the preparation and knowledge gathering phase.  Now it's time to hit the pavement and approach the actual jobs.  
+
+Organization is key here and a spreadsheet is highly recommended.  Keep track of not just the jobs themselves, but also their websites, any connections you have to the company, and a log of your activity.  Have a separate column for each "Must Have" criteria you identified in the earlier section (use a binary `true`/`false`) and each of the top 5 "Nice To Have" criteria (use a 3- or 5-point system) so you can quickly check off where the jobs rank.
+
+
 in an organized way (spreadsheet?) and your connection to them.  Direct is better than monster.  SPAM FB friends.
 
 ### The Best Places to Look
+
+Start with your network, even if it's small.  Reach out to your Facebook friends and friends-of-friends to see if anyone's hiring.  You should start your search with the highest probability / highest quality sources first:
+
+1. Your network (including people you've met in the community)
+2. Direct postings that go to a human (like when non-recruiters send emails out to the local Ruby list).  It's important to have another human being on the other end of the emails.
+2. Direct postings (like on a company website for a specific position).  These will also usually go to a specific human being.
+3. Job boards (pretty much awful, you're in the herd now)
+
+Try checking out these links for job boards.  The more technically-focused, the better:
 
 * [Authentic Jobs](http://www.authenticjobs.com)
 * [StackOverflow Jobs](http://careers.stackoverflow.com)
@@ -318,9 +332,11 @@ If you're looking to be better informed about a full-time coding bootcamp and wh
 One bootcamp we support (the founder here went through their program) is App Academy, which requires no tuition until you've found a dev job.  [If you use this link to apply, they've offered to help support The Odin Project!](http://www.appacademy.io/?referer=The+Odin+Project)  You should always make an informed decision, but that's our bias :)
 
 
-## Contributing to The Odin Project
+## Contributing to The Odin Project and Other Open Source
 
-You've gotten this far and we need your help!  Join Team Odin!
+We've talked a lot about how important it is to have a good portfolio of work and experience.  We've also talked about how helpful open source contributions are for this purpose.  Luckily for you, there's a growing movement to make open source projects more accessible for beginners and it starts with The Odin Project!  We run a team of volunteer developers using agile methodologies to work on our (open source) website.  [See our Getting Involved page for more information](https://github.com/TheOdinProject/theodinproject/blob/admin-flash/getting_involved.md).
+
+Sam Joseph of HPU has also been facilitating a listing of more beginner friendly open source projects, particularly for non-profits.  You should be able to find other interesting projects to work on there.  More information about that project can be found at [AgileVentures.org](http://agileventures.org).
 
 
 ## Additional Resources
