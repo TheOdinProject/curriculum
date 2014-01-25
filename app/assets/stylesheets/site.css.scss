@@ -35,6 +35,8 @@ body {
 .admin-flash-message {
   margin-left: 40px;
   margin: 0px;
+  position: relative;
+  z-index: 10;
 }
 /* end of Admin Flash CSS */
 
