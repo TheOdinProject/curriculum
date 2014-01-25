@@ -13,15 +13,21 @@ describe "Admin Flash" do
       it { expect(page).to_not have_content(expired_flash.message) }
     end
     
-    # DONT show if there is a cookie with the same id as the message
-    # THIS TEST FAILS ON NITROUS!  Someone tell us if it fails on a normal machine (which has a web browser)
-    context "visiting courses page, clicking close admin flash, and reloading page NOTE: Does this pass on a non-nitrous machine???" do
+    # This is a very tricky test because Selenium opens the browser
+    # in a different thread so it doesn't have access to any of the
+    # database stuff we've done, since RSpec wraps all database
+    # operations in transactions which are rolled back after the
+    # test is complete.  In this case, any database work is invisible
+    # to the selenium test (selenium is used from :js => true).
+    # For those new to selenium, it actually opens a firefox browser.
+    context "after clicking the flash 'close' button and reloading page" do
+      
       before do
-        visit courses_path
         click_button("close_admin_flash_#{admin_flash.id}")
         visit courses_path
       end
-      it "shouldn't display previously closed message", :js => true do
+        
+      it "won't display previously closed message !!!NOTE: FAILS if there is no Firefox installed!!!", :js => true do
         expect(page).to_not have_content(admin_flash.message)
       end
         

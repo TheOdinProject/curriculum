@@ -60,6 +60,7 @@ GEM
     coffee-script-source (1.6.3)
     commonjs (0.2.6)
     daemons (1.1.9)
+    database_cleaner (0.8.0)
     debug_inspector (0.0.2)
     devise (2.2.5)
       bcrypt-ruby (~> 3.0)
@@ -253,6 +254,7 @@ DEPENDENCIES
   binding_of_caller
   capybara (<= 2.0.2)
   coffee-rails (~> 3.2.1)
+  database_cleaner
   devise (~> 2.2.4)
   factory_girl_rails
   figaro
