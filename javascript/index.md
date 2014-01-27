@@ -42,6 +42,7 @@
 
 ### Projects
 * Rebuild interactive features like a dropdown... start by building the tools, then use them, then abstract further.
+* Build a slideshow then make it continuous
 
 ### Additional Resources
 * [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
