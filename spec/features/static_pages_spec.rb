@@ -87,7 +87,7 @@ describe "StaticPages" do
           fill_in("suggestion", with: suggestion_body)
         end
 
-        context "after submitting the form" do
+        context "after submitting the form", :js => true do
           before do
             click_button "suggestion-button"
           end

@@ -3,8 +3,7 @@ ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
-DEFAULT_HOST = "localhost"
-DEFAULT_PORT = 3001 
+DEFAULT_HOST = "localhost" 
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
@@ -21,11 +20,9 @@ end
 
 RSpec.configure do |config|
   config.include Capybara::DSL  
-  Capybara.javascript_driver = :webkit
+  Capybara.javascript_driver = :webkit_debug
   Capybara.always_include_port = true
   Capybara.default_host = "http://#{DEFAULT_HOST}"
-  Capybara.server_port = DEFAULT_PORT
-  Capybara.app_host = "http://#{DEFAULT_HOST}:#{Capybara.server_port}"
   #fixes issues with capybara not detecting db changes made during tests
   config.use_transactional_fixtures = false
 
