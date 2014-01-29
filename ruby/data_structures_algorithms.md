@@ -1,13 +1,15 @@
 # Basic Data Structures and Algorithms
 *Estimated Time: 1-2 hrs*
 
-The basic idea of a data structure is to store data in a way that meets the needs of your particular application.  You can usually store data in one giant array, but it can be very time consuming to locate a particular value.  Depending on the application, there are a batch of other basic data structures that you can use to meet your needs.  Often, you end up making trade-offs between various attributes like how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory.
+The basic idea of a **data structure** is to store data in a way that meets the needs of your particular application.  You can usually store data in one giant array, but it can be very time consuming to locate a particular value.  
 
-We'll save the specifics of data structures for more computer-science-oriented courses, but this introduction should again expand your toolbox slightly so you're much better able to identify and solve certain problems where Arrays, Hashes and Sets don't quite cut it.  This is particularly relevant when you're trying to search through a bunch of data for a particular value or plan out a strategy several moves in advance.
+Depending on the application, there are a batch of other basic data structures available to help you out.  The differences between them typically have to do with trade-offs between how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory.
 
-You've already had a chance to be introduced to algorithms and even write your own Merge Sort.  Sorting algorithms are a classic bunch of them.  Another major area for algorithms is in search -- where milliseconds count and you're searching through giant troves of data, the quality of your search algorithm matters a lot.  Traversing a data tree looking for a certain element is another related problem that's common in data intensive applications.
+We'll save the specifics of data structures for more computer-science-oriented courses, but this introduction should again expand your toolbox slightly so you can identify and solve certain problems where plain old Arrays, Hashes and Sets don't quite cut it.  New structures and strategies will be particularly relevant, for instance, when you're trying to search through a large batch of data for a particular value or plan out a strategy several moves in advance.
 
-Luckily for you, these problems have all been solved many times in the past.  Understanding how they are solved will give you some great tools to apply to other (similar) problems on your own.  Algorithms are really just ways of solving problems (like this) systematically.  We'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
+You've already had a brief introduction to **algorithms** over some of the other lessons and you even got to write your own Merge Sort algorithm in the last project.  You'll find that sorting algorithms are quite common.  Another major area for algorithms is in search, where milliseconds count.  When you're searching through enormous troves of data, the quality of your search algorithm is incredibly important.  Traversing a data tree looking for a particular element is a related problem that's common in data intensive applications.
+
+Luckily for you, these complex algorithmic problems have all been solved many times in the past.  Understanding *how* they are solved will give you some great tools to apply to other (similar) problems on your own.  Algorithms are really just ways of solving problems (like this) systematically.  In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
 ## Points to Ponder
 
