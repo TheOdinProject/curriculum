@@ -1,12 +1,16 @@
-# Jobs! Jobs! Jobs! Resources
+# Getting Hired Resources
 
-You've been figuring out this web development stuff and building apps for a long time now and it's finally time to get paid to keep learning by working for someone else.  You're absolutely capable of getting a job but it's certainly not easy to find one.  You'll have to be honest with your self about what you want and what you can offer and tackle the challenge with the same rigor and structure that has gotten you this far.  It's not a given -- this is as much an odds game as anything is, especially for first-time employees who haven't been "proven" by past experience.
+You've been figuring out this web development stuff and building apps for a long time now and it's finally time to get paid to keep learning by working for someone else.  
+
+You're absolutely capable of getting a job but it's certainly not easy to find one.  You'll have to be honest with your self about what you want and what you can offer and tackle the challenge with the same rigor and structure that has gotten you this far.  
+
+Though you're capable of getting a job, it's not a given -- this is as much an odds game as anything is, especially for first-time employees who haven't been "proven" by past experience.
 
 ## Strategy
 
 The first step is to have a strategy.  You've come this far with a deliberate and strategic approach to learning, why abandon it at the most important phase?  Getting a job can itself be a full-time job so use your time wisely and plan ahead.  There are some things you can and should do ahead of time, which we talked about a bit in the [lesson on Getting Hired in the Introduction to Web Development course](/courses/introduction-to-web-development/lessons/getting-hired-as-a-web-developer) but will cover in greater depth below.
 
-The path to working takes the following form, which we'll cover in the sections below:
+The path to working takes the following form:
 
 1. Figure out your needs and skills
 2. Figure out what companies need and offer
@@ -18,33 +22,24 @@ The path to working takes the following form, which we'll cover in the sections 
 8. Handle the offer(s)
 9. Profit??
 
-You'll notice that it's quite structured.  Some things are more optional than others, but you've got to have a plan or you'll find yourself spamming your resume out to every job post on every job board and wondering why you haven't had any success. We'll also cover some alternate paths you can take like finishing up your education at a coding bootcamp and how you can contribute to open source projects (like this one) to boost your "real world" experience.
+You'll notice that it's quite structured.  Some things are more optional than others, but you've got to have a plan or you'll find yourself spamming your resume out to every job post on every job board and wondering why you haven't had any success. Or maybe you'll end up going through a long and painful process and realizing you never wanted that job anyway -- a total waste of time.
 
-A fantastic place to start is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](http://happybearsoftware.com/how-to-get-a-programmer-job.html)** (which was also a part of the Intro to Web Dev course).
+We'll also cover some alternate paths you can take like finishing up your education at a coding bootcamp and how you can contribute to open source projects (like this one) to boost your "real world" experience.
 
-So get your head out of the clouds, stop dreaming about how you'll get hired, and actually do it.  
+A fantastic place to start your "getting hired" journey is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](http://happybearsoftware.com/how-to-get-a-programmer-job.html)** (which was also a part of the Intro to Web Dev course).
+
+So get your head out of the clouds, stop dreaming about how you'll get hired, and actually do it!
 
 ## It Starts with YOU
 
 ### Where You Are Now
 
-Without defining what your own needs are, you will have no way of determining the right path forward so hunker down until you've got an idea of what your key needs are right now from a job.  The questions below should help you think about what is actually essential for you versus nice-to-have.  Ask yourself:
+Without defining what your own needs are, you will have no way of determining the right path forward so hunker down until you've got an idea of what your key needs are right now (from a job).  The questions below should help you think about what is actually essential for you versus nice-to-have.  Ask yourself:
 
 * Why do I *need* a job?
 * What kind of salary level do I need to sustain myself and my family?
 * What kind of job security level do I need to sustain myself and my family?
 * How desperate am I to get a job *right now*?
-
-* Do I prefer working in a team environment or remotely?
-* Do I like working long hours or 9-6?
-* Is the work more important than the people?
-* Do I have to care about the product I'm building?
-* Do I have to care about the technologies I'm using?
-* Do I prefer an "easy" work environment or one where I'm constantly pushed?
-* Do I want "creature comfort" incentives like free food and beer at the office?
-* Do I have to enjoy my work or can I power through a crappy job?
-
-
 
 ### Where You Want To Be
 
@@ -52,11 +47,19 @@ Once you've been honest with yourself about your needs, it's time to figure out 
 
 * Why do I *want* a job in web development?
 * What kind of career path do I want to have?
-* What are the
+* Do I want to work in a developer-led organization (vs sales- or business-led)?
+* Do I prefer working in a team environment or remotely?
+* Do I like working long hours / weekends or 9-6?
+* Is the work more important than the people?
+* Do I have to care about the product I'm building?
+* Do I have to care about the technologies I'm using?
+* Do I prefer an "easy" work environment or one where I'm constantly pushed?
+* Do I want "creature comfort" incentives like free food and beer at the office?
+* Do I have to enjoy my work or can I power through a crappy job?
 
 ### Prioritizing Needs and Wants
 
-You should have at least an informal list of the things that matter to you.  Now ruthlessly rank them.  What are your non-negotiables and what are your nice-to-haves?  Every company and opportunity will fall somewhere on the spectrum defined by those questions and they are the criteria you will later use to evaluate them.  This will help you stay focused when approaching opportunities and not spread yourself too thin chasing things that you wouldn't really choose anyway.
+You should have at least an informal list of the things that matter to you.  Now ruthlessly rank them.  What are your non-negotiables and what are your nice-to-haves?  Every company and opportunity will fall somewhere on the spectrum defined by those questions and they are the criteria you will later use to evaluate them.  This will help you stay focused when considering opportunities and not spread yourself too thin chasing things that you wouldn't really choose anyway.
 
 Make sure you know every one of your "must-haves" and your top 5 priorities for "nice-to-haves" in a job.  
 
@@ -82,21 +85,21 @@ Some questions to ask (which you'll probably hear again in your early interviews
 9. Do I lean in to challenges or avoid them?
 10. What are some really difficult problems I've solved before?
 
-Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before.
+Applying without much experience means you need to fill in your weak spots and emphasize your strengths.  For almost everyone, your biggest strength will be hunger and ability to learn.  But companies have heard that story before, so you'll have to tie in other strengths that you can to make your story compelling.
 
-Just remember that there's a difference between hunger for opportunity and desperation.
+A quick note -- there is a difference between hunger for opportunity and desperation.  Hunger is about seeking reward (which you can do when you're in a comfortable situation and optimizing opportunities) and desperation is about avoiding failure (which occurs when you absolutely MUST have that job).  Do whatever it takes to not sound desperate, even if you are.
 
 ## What Companies Want 
 
-You can't get hired by just thinking about why *you* need or deserve the job.  You have to think about life from the perspective of the company and why they're interested in hiring your and what that makes them look for.
+You can't get hired by just thinking about why *you* need or deserve the job.  You have to think about life from the perspective of the company.  Why are they interested in hiring you?  What, therefore, will they look for?
 
 ### Life Behind the Curtain
 
-Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
+Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
 
 The second characteristic, growth, is something you shouldn't have much trouble selling if you've come this far and learned web development on your own.  The key is to present yourself as a growth curve, not just a static line (i.e. you'll continue learning and improving very rapidly and not stop).  You have real career goals and you've learned incredibly fast so far to get to where you are (right?).
 
-The first part, adding value immediately, is more difficult -- that's where they want to see that you've had relevant experience before and can meet their technical bar.  There's a bit of a catch-22 with getting hired -- the easiest way to show you are employable is to have been employed before.  It's a check mark next to you.  So to cater to this, do whatever you can to show that other people have believed in you enough to use your work and skills.
+The first part, adding value immediately, is more difficult -- that's where they want to see that you've had relevant experience before and can meet their technical bar.  There's a bit of a catch-22 with getting hired -- the easiest way to show you are employable is to have been employed before.  It's a check mark next to you.  So to cater to this; do whatever you can to show that other people have believed in you enough to use your work and skills.
 
 Aside from those two characteristics, there is another major factor -- fit.  The hiring manager wants someone they and their team can work well with.  All the other stuff represents minimum hurdles for being considered.  But you often make or break your chances by being someone the team members want to know better and work with all day long.  Almost all hiring processes ask the full team to evaluate a late-stage candidate.
 
@@ -115,7 +118,9 @@ You can learn a bit about the perspective of hiring managers by reading blog pos
 
 ### Internships
 
-A good way to start getting experience and show others that you're employable is to get an internship.  Just make sure it's a paid internship because no one values things they get for free.  You want the people you work with to value your contributions and feel like they have a stake in helping your succeed.  The good part is that internships tend to focus more on your growth potential than what you've done before, so you can start to avoid that chicken-and-egg problem described above.
+A good way to start getting experience and show others that you're employable is to get an internship.  Just make sure it's a paid internship because no one values things they get for free.  You want the people you work with to value your contributions and feel like they have a stake in helping you succeed.  The good part is that internships tend to focus more on your growth potential than what you've done before, so you can start to avoid that chicken-and-egg problem described above.
+
+The hiring process for internships is usually similar to but not quite as rigorous as full-time positions.  Internships are basically just long interviews by that company to see if they want to bring you on full-time.
 
 These should be useful links for you:
 
@@ -133,7 +138,7 @@ Navigating this process can be a beast but don't let it distract you from buildi
 
 ### Craft a Narrative
 
-You may be uncomfortable "selling yourself" but that's exactly what you'll have to do.  Luckily, it's more subtle than you think -- it really means crafting a story about who you are, how you got to where you are, and why you'll keep growing.  Everyone can tell a story.  So put some effort into crafting a compelling narrative that stitches together your background (especially if you come from a non-traditional background) into a compelling an unavoidable wave of capability and drive.
+You may be uncomfortable "selling yourself" but that's exactly what you'll have to do.  Luckily, that doesn't mean acting like a used car salesman; it's more subtle than you think.  It really means crafting a story about who you are, how you got to where you are, and why you'll keep growing.  Everyone can tell a story.  So put some effort into crafting a compelling narrative that stitches together your background (especially if you come from a non-traditional background) into a compelling an unavoidable wave of capability and drive.
 
 * [How to Explain Your Career Transition by Dorie Clark](http://dorieclark.com/how-to-explain-your-career-transition/)
 
@@ -149,18 +154,13 @@ Your portfolio as a developer is Github.  You may have a personal website but Gi
 * [The Power of a Programming Portfolio by GrokCode](http://grokcode.com/58/the-power-of-a-programming-portfolio/)
 * [Your Github Portfolio by Forbes](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/)
 
-### Prepare your Portfolio
-
-build a port, clean up your github etc, 
-schedule and strategize your time btw hiring and assets.  NETWORK WITH DEVS!!!
-
 ### Clean up your Web Presence (and Have One)
 
 Google yourself in an incognito window (to avoid Google's smart algorithm).  What comes up? Do the links fit into your personal narrative?  Whoever is looking to hire you will certainly Google you.  Make sure that what they find matches what you want them to find.  If you've got a ridiculously common name, you may have a harder time building your web presence but it's also harder to have the *wrong* web presence.
 
 The most important part of your web presence to fix up is your Github profile.  Make sure your projects are organized and their README files contain a description and a link to where it is live so anyone looking at the project can quickly see your brilliance.
 
-Next, try to be discoverable.  If I'm trying to get in touch with your or find your work on the web, can I?  Do you have a personal website?  Are you on Twitter? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
+Next, try to be discoverable.  If I'm trying to get in touch with you or find your work on the web, can I?  Do you have a personal website?  Are you on Twitter? You don't need to go crazy with social media, but sometimes just having enough of a profile to be a "real" person and give people the opportunity to get in touch with you can go a long way.  
 
 Use LinkedIn if you're not allergic to it.  Again, this is about getting your personal narrative out there in the way YOU choose and not relying on Google to get it right.  LinkedIn is fast replacing the resume anyway.  
 
@@ -180,7 +180,7 @@ You don't need a personal website right off the bat but it's good to have and it
 
 Find and meet other developers.  That doesn't mean "power networking" but it does mean genuine human connection.  Your network of people DOES matter in a BIG way.  For now, it's probably just for answering questions and harvesting advice but your next job will probably be found through the people you know and some who you meet while you're gathering this advice.  People like giving advice and like investing themselves emotionally in other people with growth curves.
 
-That's best to do in person, where you can ask your dumb questions, but there are plenty of online communities as well, e.g. Meetups, Stack Overflow, Quora, local user groups...  Be a part of them and don't be afraid to ask questions.  That's a great way to build relationships.
+That's best to do in person 1-on-1, where you can ask your dumb questions, but there are plenty of communities as well, e.g. Meetups, Stack Overflow, Quora, local user groups...  Be a part of them and don't be afraid to ask questions.  That's a great way to build relationships.
 
 You'll probably have a million questions but the relevant ones here are about understanding what exactly different jobs *are* and what they're looking for. The easiest way to find out is ask developers what they do.  It's much faster than trolling through blog posts trying to figure out the process.  Buy lunches and coffees if you must.  Set a goal of talking to 5 real human beings about your job search.
 
@@ -188,6 +188,7 @@ Another way to get this information is to check out a whole bunch of job posting
 
 Another facet of this is related to your web presence -- don't be afraid to produce content like blogging or answering questions on Quora.  They don't need to be explicitly technical, but should showcase your ability to think critically and write well.  Both of these play well with future employers.  
 
+* [How to Win Friends and Influence People](http://erudition.mohit.tripod.com/_Influence_People.pdf) is an essential classic that relates to business and networking but is applicable to all facets of the social world around you.  It's a must-read for everyone (and it's an easy read).
 
 ## Collect Leads 
 
@@ -202,7 +203,7 @@ Put any job opening you find into your spreadsheet.
 Start with your network, even if it's small.  Reach out to your Facebook friends and friends-of-friends to see if anyone's hiring.  You should start your search with the highest probability / highest quality sources first:
 
 1. Your network (including people you've met in the community)
-2. Direct postings that go to a human (like when non-recruiters send emails out to the local Ruby list).  It's important to have another human being on the other end of the emails.
+2. Direct postings that go to a human (like when developers [not recruiters] send emails about job opening at their company to the local Ruby list).  It's important to have another human being on the other end of the emails.
 2. Direct postings (like on a company website for a specific position).  These will also usually go to a specific human being.
 3. Job boards (pretty much awful, you're in the herd now)
 
@@ -228,7 +229,7 @@ As you become more senior and your work is more unique, recruiters can add a lot
 
 You should have the criteria that you use to evaluate a job already figured out and it should already be in your spreadsheet.  Look through each lead on your spreadsheet and cross off the ones that fail your "must-have" criteria, then rank them based on your "nice-to-have" criteria.  You should be able to easily come up with a weighting system that lets you sort the jobs in order of preference.  Simpler is better, so no need to go overboard.
 
-Next, make a column for the percentage likelihood of getting the job with a reasonable effort.  Multiply this with the value of the job based on the previous step and you should have an indication of which jobs are most worth your time.  At this point, all the leads   Expected value weight everything if you can and rate it based on your criteria, including the non-negotiables.  Simpler is better.
+Next, make a column for the percentage likelihood of getting the job with a reasonable effort.  Multiply this with the value of the job based on the previous step, sort by this new "expected value", and you should have an indication of which jobs are most worth your time.
 
 Part of the reason for qualifying the leads is to make sure you don't get sucked into a process and waste a bunch of time applying to jobs that you wouldn't actually take anyway.  That's surprisingly easy.  You'll still be able to send out "practice" applications, but at least now you know which companies are worth sending those out to.
 
@@ -238,7 +239,7 @@ Some other criteria to think about in the "nice-to-have" column:
 * Is there access to mentors and teaching?
 * How good are my peers who I can learn from?
 * How much would I like going into work each day?
-* What are the job-security risks of the job? Corporations aren't lock-tight just because they're big... they go through restructuring phases and lay off people with little good reason
+* What are the job-security risks of the job? Corporations aren't lock-tight just because they're big... they go through restructuring phases and lay off people with little good reason.
 * Does it pay well enough to support me?
 * Does its location fit the needs of me and my family?
 * How long do I want this (first) job for?
@@ -246,9 +247,9 @@ Some other criteria to think about in the "nice-to-have" column:
 
 ## Project: Build your Resume
 
-The goal of a resume is to get them interested enough to start a conversation.  From there, it's on you to speak intelligently about the things you've done. So don't treat the resume as the catch-all repository of your whole life -- it's more of a marketing tool designed to make you seem interesting and worthwhile to take another look at.
+The goal of a resume is to get them interested enough to start a conversation.  From there, it's on you to speak intelligently about the things you've done. So don't treat the resume as the catch-all repository of your whole life -- it's more of a focused marketing tool designed to make you seem worth taking another look at.
 
-A developer's resume is an interesting thing because so much of your value is demonstrated from your projects, which live in your Github and are hopefully also deployed somewhere online.  That doesn't mean you should ignore previous work experience or education, though, because that's still important to show the social proof that other people have worked with you before.  
+A developer's resume is an interesting thing because so much of your value is demonstrated from your projects, which live in your Github (and are hopefully also deployed somewhere online).  Despite this focus on projects, you can't ignore previous work experience or education.  They are both important for showing the social proof that other people have worked with you before and you've met their standards for applying.  
 
 It's difficult to come up with (or find on the internet) a standard resume type for a junior developer.  Most of the ones out there aren't particularly inspiring.  The keys to remember are the perspective of the hiring manager we talked about before -- that person wants to hire a developer who is highly capable and can get shit done (and will add value ASAP).  
 
@@ -256,14 +257,17 @@ The hiring manager will determine these criteria in less than 10 seconds at firs
 
 Knowing that perspective, how can you play to it?  It's difficult if you're breaking into a new industry so you'll need to emphasize relevant education, work experience and projects in a way that crafts a story of drive and capability.  What have you done that shows you're highly capable (e.g. your technical chops, any recognition you've received, leadership of teams)? And can get shit done (e.g. interesting projects, open source contributions)?
 
+Remember: ONE PAGE.
+
 * [Formatting could use some work, but here's an example resume from CareerCup.com](http://www.careercup.com/resume)
-* 
 
 ## Reaching Out and Applying
 
 The next step is to actually apply.  Don't send all your applications out at once! You'll get totally overwhelmed if you start hearing back from people and need to complete tasks all at once.  Treat it like an iterative process where you'll send out several applications each day, learn from any mistakes you can identify based on feedback from the process, and try again the next day.  
 
-Over time, work your way through your excel list.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
+Note: This is NOT an excuse to procrastinate or only send out one application a day.  You should have a definite goal for number of applications per day.  3? 5? 10?
+
+Over time, you will work your way through your excel list.  It's usually good to start at the bottom with the companies that you would barely work at.  Once you feel comfortable with your application-sending and hopefully interviewing abilities, you can start tackling the companies at the top that you *really* want to work for.
 
 ### Go in the Side Door
 
@@ -291,9 +295,13 @@ If you're applying to several different types of positions, tailor your resume f
 
 Some positions require you to also submit cover letters.  In my own experience, I've rarely actually seen the cover letter that an applicant has submitted for a job posting.  They have a magical way of getting lost or ignored.  If someone's spending < 10 seconds looking at your resume at first, why are they going to read a long cover letter?  
 
-That's the unfortunate reality of the first-look but, if your resume looks interesting, the cover letter has a way of becoming important.  You (as a hiring manager) want to make sure the story you crafted in your head is even more awesome in reality when hearing it from the applicant's own words.  So it's important to not to use meaningless buzz words and platitudes in your cover letter but instead focus on providing a concise but descriptive (and specific) letter answering the key questions we've talked about before (are you capable and driven?).
+Though they may not look at your cover letter during the first pass, if your resume looks interesting then the cover letter has a way of becoming more important.  The hiring manager wants to make sure the story he crafted in his head is even more awesome in reality when hearing it from the applicant's own words.  So it's important to not to use meaningless buzz words and platitudes in your cover letter but instead focus on providing a concise but descriptive (and specific) letter answering the key questions we've talked about before (are you capable and driven?).
 
 It also needs to answer a new question that the resume doesn't really address directly: "Why does this person actually want to work at MY company?".  That's actually very important if it's a startup or other strongly cultural organization -- they're looking for people who have a very strong reason for wanting to work there so they know you'll stick around and grow with the company.
+
+#### Email Cover Letters
+
+Every piece of communication you have with a company is relevant.  The most important is the one where you first reach out via email.  You probably want to treat that as a condensed version of a cover letter -- express your brilliance and fit in just a few powerful sentences.
 
 
 ### Applying
@@ -304,7 +312,7 @@ Track every application you send out in your spreadsheet by the date you sent it
 
 Follow up on all applications you care about.  Follow up once in the first few days and again after a week or two if you haven't heard anything.  This obviously works best if you've identified an individual at the company before, but the point is that perseverance matters and it can help you display the kind of drive you're trying to show in your resume anyway.
 
-This actually applies to the whole process, not just applications.  Follow up your interviews (with a thank you to your interviewer on day 1 too).  Follow up your tech screens.  The goal here isn't to be naggy and annoying/desperate, and it's certainly not to be a robot sending autogenerated emails all the time.  Just be human and honest and simple in your language.
+This actually applies to the whole process, not just applications.  Follow up your interviews (with a thank you to your interviewer on day 1 too).  Follow up your tech screens.  The goal here isn't to be naggy and annoying/desperate, and it's certainly not to be a robot sending auto-generated emails all the time.  Just be human and honest and simple in your language.
 
 
 ## Interviewing and Preparing to Interview
@@ -312,6 +320,8 @@ This actually applies to the whole process, not just applications.  Follow up yo
 Interviewing is right up there with public speaking in the hierarchy of fears for most people.  Not only are you performing for someone else but they're actively judging you the whole time... yikes!  
 
 Far be it from us to try and get you over that psychological hurdle but it's definitely best if you can actually treat the interviews as a chance to show off the cool stuff you've built and the interesting new skills you've learned.  The best interviews are enthusiastic conversations with technical depth.
+
+The first step before everything is to prepare.  You'll want to figure out the questions you might expect to be asked (and the general responses you'll have for each which demonstrate your brilliance) and you'll want to research the company too.  Your knowledge of the company will help you tailor your pitch to their needs and also allow you to ask intelligent questions about their product and technology when the time comes.  Again, refer to the [Happy Bear article](http://happybearsoftware.com/how-to-get-a-programmer-job.html) for some great tips.
 
 ### How the process works once you're in the funnel
 
@@ -349,18 +359,18 @@ It's also totally okay to use a brute force (inefficient) solution to a coding p
 
 And if you don't know something, it's better to say so and work with your interviewer to figure it out.  Trust me, they want you to succeed as much as you do because there's nothing tougher as an interviewer than seeing someone silently crashing on a problem and getting more and more frustrated but not asking for help or providing any window into their thoughts.  
 
-You'll need to read up on a variety of things that weren't totally focused on in the previous few courses, including data structures and algorithms.
+You'll need to read up on a variety of things that weren't focused on in the previous few courses, including data structures and algorithms, just because they're favorite targets of interviewers.  They may not be great indicators of coding skill, but the world is stuck in its ways and you'll be asked those more "Computer Science-y" questions.
 
 #### Links
 
-* [Cracking the Coding Interview](http://www.valleytalk.org/wp-content/uploads/2012/10/CrackCode.pdf) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of this course and touches on other subjects that are good to know and will probably come up.  Spend the time to get familiar with as much as you can here.
+* [Cracking the Coding Interview](http://www.valleytalk.org/wp-content/uploads/2012/10/CrackCode.pdf) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
 * [Post on The Interview](http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
 
 #### Coding Test Questions:
 
-* [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/)
-* [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/)
+* [8 Queens](http://jetheis.com/blog/2013/12/01/programming-interview-question-eight-queens/) is a classic problem.
+* [Coding for Interviews: Know Thy Standard Libraries](http://blog.codingforinterviews.com/reading-code-standard-libraries/) may be a bit of overkill for a junior, but never hurts if you've got the time.
 * [Project Euler](http://projecteuler.net/) has more generic and challenging problems that must be solved efficiently (they can be very computationally intensive).
 * [Coding Bat](http://codingbat.com/) has practice questions in Java and Python.
 
@@ -401,7 +411,7 @@ DO NOT ACCEPT RIGHT AWAY! This is doubly true if you don't think it's a good off
 
 One big factor is compensation.  The person making the offer usually has discretion to bump it up a bit (maybe $5k in Silicon Valley, probably less elsewhere) without asking their manager, so it's often a good idea to negotiate the first offer.  Maybe you're negotiating salary, vacation, relocation bonuses, or personal project status.  It doesn't matter, your position is a whole lot better while you're holding that offer.
 
-What's the best thing you can do?  GET ANOTHER OFFER!  There's nothing nearly as good when negotiating as another offer from another company which gives you the ability to walk away.  Take advantage of this! 
+What's the best thing you can do?  GET ANOTHER OFFER!  There's nothing nearly as good when negotiating as another offer from another company which gives you the ability to walk away.  You shouldn't be shamelessly callous and capitalistic about it (the goal isn't to piss off everyone who gave you offers), but do take advantage of this! 
 
 Not only that, but remember all those companies that dragged their feet and you hadn't heard back from?  Send every one of them (who you are realistically interested in) an email explaining that you have an offer and need to make a decision relatively quickly.  See if that doesn't help them speed you along in the process and maybe get you that other offer.  As soon as you have an offer to work with, you suddenly have all that social proof you never had before since you haven't worked anywhere else.  Use it.  
 
@@ -421,17 +431,17 @@ We've covered a whole lot about job search, evaluation, and acquisition.  Do you
 
 _Perfect is the enemy of good - Voltaire._
 
-Incidentally, you may be considering attending a full-time coding bootcamp to find a job. The majority of people shelling out money to attend a full-time coding bootcamp seeks to enhance their career prospects. Yes, there is a component of genuine interest and learning, but a clear expectation is that the programming courses offer an entry into a programming career. Some companies advertise 100% placement rate and six figure offers. How credible are these claims? Are such points relevant for your overall career search process?
+You may be considering attending a full-time coding bootcamp because they tend to provide their own pipelines to finding jobs. The majority of people shelling out money to attend full-time coding bootcamps seek to enhance their career prospects. Yes, there is a component of genuine interest and learning, but a clear expectation is that the programming courses offer an entry into a programming career. Some companies advertise 100% placement rate and six figure offers. How credible are these claims? Are such points relevant for your overall career search process?
 
 If you're looking to be better informed about a full-time coding bootcamp and whether it might be useful to you, read this guide to help make your decision: [Choosing a Full-Time Coding Bootcamp](leanpub.com/choosing-programming-course)
 
-One bootcamp we support (the founder here went through their program) is App Academy, which requires no tuition until you've found a dev job.  [If you use this link to apply, they've offered to help support The Odin Project!](http://www.appacademy.io/?referer=The+Odin+Project)  You should always make an informed decision, but that's our bias :)
+It's important to be well informed, so don't skimp on the research before applying.  When I did admissions at [App Academy](http://www.appacademy.io), a surprisingly large number of applicants had never even researched other bootcamps, which was astonishing.  That said, I can say that I had a great experience going through the App Academy program and will wholeheartedly admit my bias towards it.  They require no tuition until you've found a dev job, which is a pretty good risk/reward situation.  [If you use this link to apply, they've offered to help support The Odin Project!](http://www.appacademy.io/?referer=The+Odin+Project)  You should always make an informed decision, but that's our bias :)
 
 ### Contributing to The Odin Project and Other Open Source
 
-We've talked a lot about how important it is to have a good portfolio of work and experience.  We've also talked about how helpful open source contributions are for this purpose.  Luckily for you, there's a growing movement to make open source projects more accessible for beginners and it starts with The Odin Project!  We run a team of volunteer developers using agile methodologies to work on our (open source) website.  [See our Getting Involved page for more information](https://github.com/TheOdinProject/theodinproject/blob/admin-flash/getting_involved.md).
+We've talked a lot about how important it is to have a good portfolio of work and experience.  We've also talked about how helpful open source contributions are for this purpose.  Luckily for you, there's a growing movement to make open source projects more accessible for beginners and it starts with The Odin Project!  We run a team of volunteer developers using agile methodologies to work on this very website (which is open source).  [See our Getting Involved page for more information](https://github.com/TheOdinProject/theodinproject/blob/admin-flash/getting_involved.md).
 
-Sam Joseph of HPU has also been facilitating a listing of more beginner friendly open source projects, particularly for non-profits.  You should be able to find other interesting projects to work on there.  More information about that project can be found at [AgileVentures.org](http://agileventures.org).
+Sam Joseph of HPU has also been facilitating a listing of other beginner-friendly open source projects, particularly for non-profits.  You should be able to find other interesting projects to work on there.  More information about that project can be found at [AgileVentures.org](http://agileventures.org).
 
 ### Volunteering
 
@@ -440,6 +450,8 @@ There are always more projects than developers.  Related to the open source side
 ## Conclusion
 
 I hope you're reading this from your new office.  If you got a job after doing the Odin Project, [drop us a line!](/contact) We'd love to hear how everything went.  The whole reason for putting this project out there is to try and onboard more people into the web development profession and tech in general.  Hopefully your success will inspire even more people to give it a shot.
+
+So build some kick ass software, learn as much as you can, and pay it forward when you're able.  
 
 ## Additional Resources
 
