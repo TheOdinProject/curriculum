@@ -159,10 +159,12 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 
 #### Links
 
+* [Dive into HTML5](http://diveintohtml5.info) is a website and book on the cool stuff about HTML5.
 * [What's new in HTML5 from W3 schools](http://www.w3schools.com/html/html5_new_elements.asp)
 * [What's new in HTML5 from About](http://webdesign.about.com/od/html5/a/html_5_whats_new.htm)
 * [25 must-know HTML5 tips and techniques from tutsplus](http://net.tutsplus.com/tutorials/html-css-techniques/25-html5-features-tips-and-techniques-you-must-know/)
 * [How HTML5 and CSS3 Will Change Web Design from Virtuosimedia.com](http://www.virtuosimedia.com/dev/html/how-html5-and-css3-will-change-web-design) is a nice 2011 article looking forward to the coming changes.
+* [Testing compliance of various tags in HTML5 with CanIUse?](http://caniuse.com)
 
 ## CSS3 
 
@@ -523,3 +525,4 @@ Speaking of better and brighter things, you are probably chomping at the bit for
 * [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
 * [Equal Height Columns in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2010/11/08/equal-height-columns-using-borders-and-negative-margins-with-css/)
 * [HTML tutorials and help docs](http://www.webplatform.org/)
+* PS.. "tags" don't really exist, they're always technically called "elements"

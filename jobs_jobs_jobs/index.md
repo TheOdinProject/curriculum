@@ -215,6 +215,8 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [CWJobs](http://cwjobs.co.uk)
 * [Github Jobs](https://jobs.github.com/)
 * [White Truffle -- the Match.com of jobs. Weighted towards startups right now](http://www.whitetruffle.com)
+* [Dice.com](http://www.dice.com)
+* [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
 
 ### On Recruiters
 
