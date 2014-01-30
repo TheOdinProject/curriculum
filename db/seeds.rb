@@ -1181,7 +1181,7 @@ c5 = Course.create!(
   :title_url => "HTML5 and CSS3".parameterize,
   :teaser => "Make Your Sites Actually Look Good",
   :brief_desc => "Now that you're a pro in building website back ends, it's time to take a good hard look at the front end so your sites will stop looking like ugly ducklings and you can really begin to understand the DOM.  This shorter course will give you the tools to stop fighting with your CSS and start building more logically designed sites.",
-  :description => "In this unit, you'll get over your fear of CSS and begin to understand some of the more fundamental tenets of good site design.  This isn't a full course on front end design, but it should give you the tools you need to deeply understand CSS frameworks and how to put a half-decent facade on your genius backside.  Note: This course is under construction but we'll be providing the resources below in the meantime to get you started.",
+  :description => "In this unit, you'll get over your fear of CSS and begin to understand some of the more fundamental tenets of good site design.  This isn't a full course on front end design, but it should give you the tools you need to deeply understand CSS frameworks and to put a good looking facade on your genius back end.",
   :position => course_position,
   :you_learn => ["All about styling with CSS", "How to effectively use a front end framework like Bootstrap", "Basic principles of site layout and design"],
   :you_build => ["Several popular website visual front ends", "Your own front end framework", "A goodybag of CSS tricks and tactics"],
@@ -1196,7 +1196,7 @@ c5_s1_of_1 = Section.create!(
     :title_url => "Resources".parameterize, 
     :course_id => c5.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources here."
+    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources and a path through them."
   )
 
 
@@ -1220,7 +1220,7 @@ c6 = Course.create!(
   :title_url => "Javascript and jQuery".parameterize,
   :teaser => "Make Your Websites Really Dance",
   :brief_desc => "The last component in your web development arsenal is the ability to make your front ends dynamically react to the user.  In this course you'll learn how to use Javascript and jQuery to interact with the DOM and make things like dropdown menus, parallax scroll effects, single page applications, and even games.  It will tie together everything you've learned already into one awesome package.",
-  :description => "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  Note: This course is under construction but we'll be providing the resources below in the meantime to get you started.",
+  :description => "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.",
   :position => course_position,
   :you_learn => ["How to build interactive games using HTML5 canvas","How to use a full range of jQuery effects on the DOM", "How to organize your JS into modular pieces"],
   :you_build => ["Javascript front ends for your Rails back ends", "A Javascript framework of your own","Snake, Missile Command and More"],
@@ -1235,7 +1235,7 @@ c6_s1_of_1 = Section.create!(
     :title_url => "Resources".parameterize, 
     :course_id => c6.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources here."
+    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources and a path through them."
   )
 
 
@@ -1259,11 +1259,11 @@ c7 = Course.create!(
   :title_url => "Getting Hired".parameterize,
   :teaser => "Get Paid to Keep Learning",
   :brief_desc => "You've come extremely far and are now a capable web developer, but, as you've probably realized, the journey of discovery has only just begun.  Luckily, you're now useful enough that others will pay you to keep building and learning. . . and in this short course, we'll show you how to make that happen.",
-  :description => "You've still got a whole lot more to learn (it's really a lifetime journey) but now the best way to do that is by surrounding yourself with other great developers.  This course is all about that next step -- what else you'll need to know, where to find jobs, how to interview, and how to ultimately get that offer in hand.  Note: This course is under construction but we'll be providing the resources below in the meantime to get you started.",
+  :description => "You've still got a whole lot more to learn (it's really a lifetime journey) but now the best way to do that is by surrounding yourself with other great developers.  This course is all about that next step -- what else you'll need to know, where to find jobs, how to interview, and how to ultimately get that offer in hand.",
   :position => course_position,
   :you_learn => ["Where to find the appropriate job postings","How to market yourself effectively to employers", "How to ace the technical interview"],
   :you_build => ["Your personal portfolio website","A base of knowledge in more complex problem solving skills", "A clear strategy for getting hired"],
-  :is_active => false,
+  :is_active => true,
   )
   # :description => "Learning on your own is a long hard road and you've come incredibly far.  Good work!  With that same level of focus and dedication, you should be able to polish off your skillsets, address your weak points, and get hired as a web developer.  Because you've still got a whole lot more to learn (it's really a lifetime journey) but now the best way to do that is by surrounding yourself with other great developers.  This course is all about that next step -- what else you'll need to know, where to find jobs, how to interview, and how to ultimately get that offer in hand.  It won't be easy, but you can do it!",
 
@@ -1275,7 +1275,7 @@ c7_s1_of_1 = Section.create!(
     :title_url => "Resources".parameterize, 
     :course_id => c7.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources here."
+    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources and a path through them."
   )
 
 
