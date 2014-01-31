@@ -9,15 +9,6 @@ DEFAULT_HOST = "localhost"
 # in spec/support/ and its subdirectories.
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
-def wait_for_ajax
-  Timeout.timeout(Capybara.default_wait_time) do
-    loop do
-      active = page.evaluate_script('jQuery.active')
-      break if active == 0
-    end
-  end
-end
-
 RSpec.configure do |config|
   config.include Capybara::DSL  
   Capybara.javascript_driver = :webkit_debug
@@ -40,8 +31,6 @@ RSpec.configure do |config|
   end
 
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
-
-  config.use_transactional_fixtures = true
 
   config.infer_base_class_for_anonymous_controllers = false
 
