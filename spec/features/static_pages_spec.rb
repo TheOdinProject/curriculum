@@ -82,7 +82,7 @@ describe "StaticPages" do
 
       describe "filling in the suggestion form" do
         before(:each) do
-          ActionMailer::Base.deliveries  # Clear out other test deliveries
+          ActionMailer::Base.deliveries = []# Clear out other test deliveries
           # save_and_open_page
           fill_in("suggestion", with: suggestion_body)
         end
@@ -93,6 +93,7 @@ describe "StaticPages" do
           end
             
           it "should send an email request with the form contents" do
+            sleep 1
             suggestion = ActionMailer::Base.deliveries
             suggestion.should_not be_empty
           end
