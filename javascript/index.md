@@ -9,15 +9,50 @@ You've already learned Ruby, so many comparisons will be made with that.  If you
 Reverse path??? Go to browser ASAP THEN work on fundies?  Probably best to do basic JS, then basic canvas, then deeper dive, then more advanced canvas?  lots of chicken-and-egg problems.
 
 TODO:
-* Audit content for high-level completeness
 * Points to Ponder for each section
 * Links to resources for each section
 * Intro for each section with high level coverage
 * Overall intro and conclusion
 * Check and deploy
 
+******************************************************************************
+# SECTION: The Basics and the Browser
+
 ## Basic Javascript
-  You've already done most of this...  Why you should care about JS.
+  You've already done most of this...  Why you should care about JS.  Searching in strings, getting lengths of strings
+
+## Project: Javascript Basics
+  Drill-style bite-sized challenges
+
+## jQuery Basics
+  Overview, Selectors review, $, Document ready, selecting elements and implicit iteration of that, what's returned by DOM searches, creating elements, DOM traversal, getters and setters for attributes, chaining methods, using data attributes, 
+
+  * [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com) 
+  * [jQuery docs](http://api.jquery.com) will be your savior again and again.  You'll probably find them via Google most of the time, but get used to the format they present information in because you'll be seeing a lot of it.
+  * [jQuery Reference Guide from Oscar Otero](http://oscarotero.com/jquery/)
+
+## Project: Messing with the DOM
+  Grab and change DOM elements dynamically and automatically alter text the user enters... generate a full page using just Javascript/jQuery (so just `<body>` tags and a `<div>` container to start with)
+
+## Working with Events and Effects
+  events binding, namespacing events, bubbling, (stopping) default actions, browser effects like fade(), using good CSS selectors and attributes,  delegating events for the DOM to listen to instead (for new element creation), building a model in your head of the order of operations for the browser loading and doing stuff, unbinding events
+
+  * [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
+
+## Project: jQuery and the DOM
+
+  Build a game that shuffles the DOM all over the place...  SNAKE!!!!  Remember that grid you created in Web dev 101...?
+
+## Building Widgets
+  jQuery is fun... here's why! Tooltips, modals, image sliders
+
+## Project: Widgets
+  jQuery image carousel / slider with previews on hover, a tabbed website interface
+
+
+******************************************************************************
+# SECTION: Deeper into Javascript
+  You can do a lot with just basic JS and jQuery and a hacker mindset.  But this section will take you deeper into how Javascript is actually doing things and will give you the tools to produce more advanced functionality for your sites.
 
 ## Comparing Javascript and Ruby: Going Functional
   Blocks are like anonymous functions, functions can be saved to variables (like Methods) and passed around, functions as "unchained" from their spot in Ruby.  Event-driven high level ideas.
@@ -29,12 +64,9 @@ TODO:
   With all these functions going around, we've got to keep track of scope!  setting `this` and replacing `self` from Ruby, use `that` and `bind`. Getting variables to helper functions that don't take them with implicit scoping.  Be careful of referencing variables outside your scope!  A function should ideally return the same thing all the time... but not in JS.  _privateVars that are not really private.  Another foreshadowing of event_driven/callbacks.  WHEN you call the function (method style or function style) matters for This.
   * [SO on "How do Javascript Closures Work?"](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 
-## Project: Basic Javascript
+## Project: Javascript Scopes and Closures
   Redo the Ruby basic projects using Javascript.  Review running JS code (jsfiddle).  A basic OOP project that makes people define classes and prototypes. Build a simple game (with `prompt` for `gets`).  Note the run environment can't really be browser for a run loop.
 
-## Living in an Event-Driven World
-  JS as asynchronous in the browser, the importance of scope, Callbacks using Closures, ability to setTimeouts and why it's actually useful vs Ruby and async, why callbacks are more important than returns, 
-  * [Understanding Callback Functions in Javascript by Recurial](http://recurial.com/programming/understanding-callback-functions-in-javascript/)
 
 ## Deep Dive into Functions
   Method-style vs function-style vs apply vs call vs constructors, arguments not required or overflowing, more inheritance and surrogates, 
@@ -45,8 +77,15 @@ TODO:
 ## Random Stuff: Functional Programming
   function args via currying
 
+**************************************************************************
+# SECTION: Advanced Browser Work
+
 ## Taking Javascript to the Browser
   Loading it in, playing nice with jQuery, blocking the browser or going async
+
+## Living in an Event-Driven World
+  JS as asynchronous in the browser, the importance of scope, Callbacks using Closures, ability to setTimeouts and why it's actually useful vs Ruby and async, why callbacks are more important than returns, 
+  * [Understanding Callback Functions in Javascript by Recurial](http://recurial.com/programming/understanding-callback-functions-in-javascript/)
 
 ## Project: Browser-Based Gaming Intro
   Use callbacks and prompts instead of game loops
@@ -58,27 +97,28 @@ TODO:
 ## Project: Browser Games with Canvas
   Bring back one of the classics.  Find a tutorial ideally.
 
-## jQuery Basics
-  Overview, Selectors review, $, Document ready, selecting elements and implicit iteration of that, what's returned by DOM searches, creating elements, DOM traversal, getters and setters for attributes, chaining methods, using data attributes, 
+**************************************************************************
+# SECTION: Linking the Browser to your Back End
 
-  * [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com) 
-  * [jQuery docs](http://api.jquery.com) will be your savior again and again.  You'll probably find them via Google most of the time, but get used to the format they present information in because you'll be seeing a lot of it.
-  * [jQuery Reference Guide from Oscar Otero](http://oscarotero.com/jquery/)
+## Front End Forms
+working with forms (esp inputs), selecting elements, determining if elements are checked, validations, focusing, disabling, remembering security, styling error messages, 
 
-## Working with Events and Effects and AJAX
-  events binding, namespacing events, bubbling, default actions, browser effects like fade(), using good CSS selectors and attributes,  delegating events for the DOM to listen to instead (for new element creation), building a model in your head of the order of operations for the browser loading and doing stuff
-
-  * [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
-
-## Project: jQuery and the DOM
-
-  Build a game that shuffles the DOM all over the place...  SNAKE!!!!  Remember that grid you created in Web dev 101...?
+## Project: Front End Forms
 
 ## AJAX and Forms
-  AJAX, Async and JSON, convenience methods, working with forms (esp inputs), maybe-Async functions,
+  AJAX, Async and JSON, convenience methods, maybe-Async functions, formatting and receiving formatted data from the server, handling errors, digging into JSON objects, 
+
+## Project: AJAX and Forms
+  Warmup: AJAX loading icon, work with a form-heavy project passing data back to... a Rails backend? hmm...  Form validations.  The OMDB API maybe?
+
+## Working with Javascript APIs
+  Flickr and Google Maps APIs
+
+## Project: Putting Google Maps Onto Your Site
+  Follow a tutorial to do so? GoMap?
 
 ## Additional Helpful Stuff
-  The Underscore library to make JS more Ruby-like, the jQuery methods that operate similarly, Rails' CSRF token grabbing, templating using underscore (ERB!)
+  The Underscore library to make JS more Ruby-like, the jQuery methods that operate similarly, Rails' CSRF token grabbing, templating using underscore (ERB!), best practices: don't make a bunch of DOM calls (save to vars), basic Regex usage, Fast loading JS, 
   * [Underscore.js Documentation](http://underscorejs.org)
 
 ## Passing Data to the DOM
@@ -86,24 +126,34 @@ TODO:
 
   *[Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view)
 
-## Project: AJAX and Forms
-  work with a form-heavy project passing data back to... a Rails backend? hmm...
-
-## Node.js and Server-Side Javascript
 
 ## Working with a Rails Backend and API
+  Reread Rails lesson on building an API!
 
 ## Project: Working with Rails
   Build a simple Rails API to pass data to your app.  Something like that photo tagging app we did way back.
 
+******************************************************************************
+# SECTION: Single Page Apps and Server Side Javascript
+
+## Node.js and Server-Side Javascript
+
+
+
 ## Javascript MVC Frameworks
-  The basics of JS MVC's, should we even bother with Backbone or Angular?? Probably not, that's a crazy amount of additional scope.
+  The basics of JS MVC's.  Too much additional scope to teach a framework, but we can go high level and follow a tutorial
+
+## Project: Angular.js
+  Do an established Angular tutorial (backup: Backbone)
 
 ## Final Project
-  It's big, whatever it is.
+  It's big.
 
 ## Conclusion
+  We can't teach you every single trick or tip for designing neat UI elements or scalable Javascript architectures, but at this point you should have a great base and you should be able to figure out how to do pretty much anything but Googling, looking at docs, and cruising through Stack Overflow posts.  
+  Going from here: jQuery mobile, 
 
+******************************************
 
 ### Learning Resources and Tutorials
 * [Codecademy's Javascript track](http://www.codecademy.com/tracks/javascript)
@@ -126,6 +176,7 @@ TODO:
 * [JavascriptIsSexy blog](http://javascriptissexy.com) has some great ongoing content.
 * [Effective Javascript by David Herman](http://effectivejs.com/) is a concise but in-depth look at the concepts and patterns of Javascript.  It's got some great challenge problems as well.
 * [JSNinja by John Resig](http://jsninja.com) covers advanced concepts aimed at the intermediate JS developer
+* [Javascript and jQuery: The Missing Manual](http://mirror7.meh.or.id/Programming/JavaScript.and.jQuery.The.Missing.Manual.2nd.Edition.pdf)
 
 ### Style Guides
 * [AirBnB's JS Style Guide](https://github.com/airbnb/javascript) is very readable and helpful
