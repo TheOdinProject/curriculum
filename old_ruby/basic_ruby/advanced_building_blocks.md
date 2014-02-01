@@ -23,6 +23,8 @@ This section gets more into the topics you may have been shakey on before.  It's
 
 ## Test Yourself
 
-Make sure you can do the [Beginner Ruby Quiz #2](http://www.codequizzes.com/topics/24/quizzes/76), [Quiz #3](http://www.codequizzes.com/topics/24/quizzes/77), [Quiz #4](http://www.codequizzes.com/topics/24/quizzes/78), and [Quiz #6](http://www.codequizzes.com/topics/24/quizzes/80) from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
+Make sure you can do the [Beginner Ruby Quiz
+#2](http://www.codequizzes.com/learn-ruby/arrays-conditionals-loops),
+[Quiz #3](http://www.codequizzes.com/learn-ruby/variable-scope-methods), [Quiz #4](http://www.codequizzes.com/learn-ruby/symbols-array-methods-hashes), and [Quiz #6](http://www.codequizzes.com/learn-ruby/iteration-nested-data-structures) from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
 
 ## Additional Resources

@@ -25,9 +25,9 @@ There's a lot to do here but stick with it!  The Codecademy lessons are interspe
 
 ## Test Yourself
 
-Make sure you can do [Quiz #5](http://www.codequizzes.com/topics/24/quizzes/79) and [Quiz #7](http://www.codequizzes.com/topics/24/quizzes/81) from [Code Quizzes](http://www.codequizzes.com).  
+Make sure you can do [Quiz #5](http://www.codequizzes.com/learn-ruby/intro-object-oriented-programming) and [Quiz #7](http://www.codequizzes.com/learn-ruby/modules-classes-inheritance) from [Code Quizzes](http://www.codequizzes.com).  
 
-Then do their [Practical Object Oriented Design Quiz](http://www.codequizzes.com/topics/1/quizzes/40), which will delve deeper into design principles.  There are some new concepts here to pick up as well.
+Then do their [Practical Object Oriented Design Quiz](http://www.codequizzes.com/ruby/practical-object-oriented-design), which will delve deeper into design principles.  There are some new concepts here to pick up as well.
 
 ## Additional Resources
 
