@@ -18,19 +18,14 @@ describe 'curriculum task' do
   # Tried changing the response["content"] to be nil, and the task throws an error which is good
   # Tried changing the decoded_file to nil, error thrown
   # Tried changing the decoded_file to "", error thrown
-  # HAVE NOT TRIED: intentionally saving one of the lesson.url's to an invalid URL so github returns
-  #     a "file not found" type message.  Maybe somehow that lets a `nil` or "" sneak by our checks??????? doubtful.
+  # Tried: intentionally saving one of the lesson.url's to an invalid URL so github returns
+  #     a "file not found" type message.  
   # ... it seems that no matter how we tweak the inputs, we can't get the task to save "" or nil to the database
   # SO.. now the scope of this story is changed: no longer is it about fixing a bug, it's just about writing
   # normal happy path / sad path tests for the rake task.  The cases above should be good guides for what to test.
-  
-  # Ideal code:
-  # Runs the rake task, as soon as it hits a `nil` or "" trying to enter the DB, it'll blow up 
-  # and give a status-so-far update
-  # If it's successful, it should provide a happy status after finishing with details.
-  # Right now, the code is basically doing that (though not as verbose as it could be, so spruce up the PUTS statements!)
 
   # Useful development tidbits (keep these around for later people who want to test out this stuff):
+  # **************************************************************************************************
   # Base64 content line: "IyBSdWJ5IEJ1aWxkaW5nIEJsb2NrcwoKKkVzdGltYXRlZCBUaW1lOiA2LTgg"
   # Test github API line to curl (so you can see the response): 
   # $ curl https://api.github.com/repos/TheOdinProject/Curriculum/contents/ruby/building_blocks.md 
@@ -38,32 +33,44 @@ describe 'curriculum task' do
   # running the task (in production): $ heroku run --app theodinproject rake curriculum:update_content
   # running the task (in dev): # $ rake curriculum:update_content
   
+  # Test to make sure that the task will actually save the lesson down.
   context 'for good response' do 
-    let(:lesson_without_content) = FactoryGirl.create(:lesson, :url => "/test_lesson", :content => nil)
+    # add a lesson with a github URL and `nil` content
+    let!(:lesson_without_content) { FactoryGirl.create(:lesson, :url => "/test_lesson", :content => nil) }
+    
     before :each do
-      # add a lesson with a github URL and `nil` content
+      # Set up a fake Github endpoint.  The Regex is needed so the URL is matched regardless of the API key used in the query string
+      FakeWeb.register_uri( :get, %r|https://api.github.com/repos/theodinproject/curriculum/contents/test_lesson*|, 
+        :body => {:content => "IyBSdWJ5IEJ1aWxkaW5nIEJsb2NrcwoKKkVzdGltYXRlZCBUaW1lOiA2LTgg"}.to_json,
+        :parameters => :any)
+      # We actually have to re-enable the task before running it because otherwise it only runs once (for some reason)
+      Rake::Task["curriculum:update_content"].reenable
+      Rake.application.invoke_task "curriculum:update_content"
+      lesson_without_content.reload
     end
     
     it 'should add lesson content to the DB' do 
-      pending 
-      # run the rake task
-      # give it fake happy lesson content back from fake Github
-      # API call returns: { content: "IyBSdWJ5IEJ1aWxkaW5nIEJsb2NrcwoKKkVzdGltYXRlZCBUaW1lOiA2LTgg"}
-      # should be happy
+      expect(lesson_without_content.content).not_to be_nil
     end
   end
   
   context 'for empty lessons' do 
-    let(:lesson_with_content) = FactoryGirl.create(:lesson, :url => "/test_lesson", :content => "some content")
+    let!(:lesson_with_content) { FactoryGirl.create(:lesson, :url => "/test_lesson", :content => "some content") }
     before :each do
-      # add a lesson with a github URL and actual content
+      # Set up a fake Github endpoint.  The Regex is needed so the URL is matched regardless of the API key used in the query string
+      FakeWeb.register_uri( :get, %r|https://api.github.com/repos/theodinproject/curriculum/contents/test_lesson*|, 
+        :body => {:content => ""}.to_json,
+        :parameters => :any)
+      # We actually have to re-enable the task before running it because otherwise it only runs once (for some reason)
+      Rake::Task["curriculum:update_content"].reenable
+      #Rake.application.invoke_task "curriculum:update_content"
+      #lesson_with_content.reload
     end
     it 'should throw an exception' do 
-      pending
-      # run the rake task
-      # give it fake empty lesson content back from fake Github
-      # API call returns: { content: ""}
-      # should be sad
+      # Why we need to wrap the task in a lambda is beyond me.  It actually doesn't even work like in the example
+      # at https://www.relishapp.com/rspec/rspec-expectations/v/2-6/docs/built-in-matchers/raise-error-matcher
+      # where you're supposed to be able to say expect { raise StandardError }.to raise_error
+      expect(lambda{ Rake.application.invoke_task "curriculum:update_content" }).to raise_error
     end
   end
   
