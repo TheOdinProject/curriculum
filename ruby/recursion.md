@@ -31,7 +31,7 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 
 ## Test Yourself
 
-1. Complete the [Code Quiz](http://www.codequizzes.com/topics/5/quizzes/7) on Recursion.
+1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/recursion) on Recursion.
 
 ## Additional Resources
 

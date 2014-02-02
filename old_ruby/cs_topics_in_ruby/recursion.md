@@ -11,4 +11,4 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 ## Test Yourself
 
-1. Complete the [Code Quiz](http://www.codequizzes.com/topics/5/quizzes/7) on Recursion.
+1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/recursion) on Recursion.
