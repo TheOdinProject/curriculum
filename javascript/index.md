@@ -10,12 +10,12 @@ This isn't a full course and you're not meant to follow every link! It's a sugge
 
 Reverse path??? Go to browser ASAP THEN work on fundies?  Probably best to do basic JS, then basic canvas, then deeper dive, then more advanced canvas?  lots of chicken-and-egg problems.
 
-TODO:
-* Points to Ponder for each section
-* Intro for each section with high level coverage
-* Smashing and AListApart magazines audit for resources
-* Overall intro and conclusion
-* Check and deploy
+TODO: (? 12 hrs?)
+* Points to Ponder for each section (6 hrs?)
+* Intro for each section with high level coverage (3hrs?)
+* Smashing and AListApart magazines audit for resources (2 hrs?)
+* Overall intro and conclusion (1 hr?)
+* Check and deploy (0 hrs)
 
 ******************************************************************************
 # SECTION: The Basics and the Browser
@@ -30,16 +30,47 @@ You should already have completed the [Web Development 101 Javascript lesson](/c
 
 ### Points to Ponder
 
-* 
-You've already done most of this...  Why you should care about JS.  Searching in strings, getting lengths of strings
+* How do you include a Javascript file in your HTML file?
+* How do you include Javascript directly in your HTML code?
+* How do you create a new object using the "Constructor" method?
+* How do you create a new object using the "Literal" method?
+* What does JS return if you try to access an object's attribute that doesn't exist?
+* How do you add items to or remove items from an array?
+* What is the difference between `=`, `==`, and `===`?
+* Are these "truthy" or "falsy" in JS: `"0"`,`NaN`,`null`,`"words"`,`""`,`[]`, `undefined`,`{}`, 1, 0?
+* How do you get the length of a string?
+* How do you find a value within a string?
+* How does a "switch" statement work?
+* How can you use objects to accomplish the same task?
+* How do you set up a `for` loop?  A `for...in` loop?
+* How do you set up a `while` loop?  
+* How do you break out of a loop or skip to the next iteration?
+* What are "reserved words"?
+* How do you concatenate two arrays together?
+* How do you sort arrays?  Reverse them?
+* How do you use the `#forEach` method to print each item in an array?
+* How are Javascript objects similar to hashes in Ruby?
+* How are functions declared (two ways)?
+* What are "anonymous functions"?  How are they similar to blocks in Ruby?
+* How can you pass a function arguments?
+* What does a function return?
+* What are "immediately invoked function expressions (IIFE)"?
+* If a function has been saved to a variable `some_var`, what's the difference between how you would pass the function itself around instead of running it immediately when called? (hint: parentheses)
+* How do you test what the Type of an object is? (e.g. string, number, function, undefined...)
+* What is `this` set to in Javascript?  
+* How is `this` similar to and different from Ruby's `self`?
+* How to you make a variable in the global scope?  The local scope?
+* Why are closures useful?
+* How would you use a closure to "close" a value within a function?
+* How does `#bind` make your life simpler when thinking about closures and scopes?
 
 ### Links
 
-(Everything after Codecademy is supplemental)
+*Everything after Codecademy is supplemental*
 
 * [The entire Codecademy Javascript track](http://www.codecademy.com/tracks/javascript) (you already did up to lesson 5).
 * [Javascript is Super Sexy](http://javascriptissexy.com/javascript-is-super-sexy/) is a good post for getting fired up to learn Javascript.
-* [Javascript 101 from learn.jquery.com](http://learn.jquery.com/javascript-101/)
+* [Javascript 101 from learn.jquery.com](http://learn.jquery.com/javascript-101/) will fill in gaps in the Codecademy course.  The stuff on scopes and closures will be covered in the later section in more depth.
 * [Javascript is Sexy](http://javascriptissexy.com/how-to-learn-javascript-properly/) is a blog that covers great technical depth on fundamental JS concepts.  We will use it often in the coming lessons.
 * [Javascript and jQuery: The Missing Manual](http://mirror7.meh.or.id/Programming/JavaScript.and.jQuery.The.Missing.Manual.2nd.Edition.pdf) is a great book about JS.
 * [Best Javascript Books](http://www.tripwiremagazine.com/2012/11/best-javascript-jquery-books.html)
@@ -49,7 +80,8 @@ You've already done most of this...  Why you should care about JS.  Searching in
 * [SuperheroJS, A great collection of advanced links](http://superherojs.com/)
 
 ## Project: Javascript Basics
-  Drill-style bite-sized challenges
+  
+Drill-style bite-sized challenges, TBD.
 
 * [Tutorials for Javascript and jQuery from Jumpstart Lab](http://tutorials.jumpstartlab.com/)
 
@@ -101,17 +133,20 @@ jQuery image carousel / slider with previews on hover, a tabbed website interfac
 
 ******************************************************************************
 # SECTION: Deeper into Javascript
-  You can do a lot with just basic JS and jQuery and a hacker mindset.  But this section will take you deeper into how Javascript is actually doing things and will give you the tools to produce more advanced functionality for your sites.
+
+You can do a lot with just basic JS and jQuery and a hacker mindset.  But this section will take you deeper into how Javascript is actually doing things and will give you the tools to produce more advanced functionality for your sites.
 
 ## Comparing Javascript and Ruby: Going Functional
-  Blocks are like anonymous functions, functions can be saved to variables (like Methods) and passed around, functions as "unchained" from their spot in Ruby.  Event-driven high level ideas.
+
+Blocks are like anonymous functions, functions can be saved to variables (like Methods) and passed around, functions as "unchained" from their spot in Ruby.  Event-driven high level ideas.
 
 ### Links
 
 * [Javascript for Ruby Programmers Video](https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
 
 ## Javascript Objects and "Classes" and Prototypes
-  Similar to Ruby objects, functions can be variables in objects! Classes use ConstructorFunctions, using prototypes to share class methods and inherit and DRY up code, climbing the chain of prototypes until `null`
+
+Similar to Ruby objects, functions can be variables in objects! Classes use ConstructorFunctions, using prototypes to share class methods and inherit and DRY up code, climbing the chain of prototypes until `null`
 
 * [Understanding Objects in JS from JSIS](http://javascriptissexy.com/javascript-objects-in-detail/)
 * [OOP in Javascript from JSIS](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
@@ -119,11 +154,13 @@ jQuery image carousel / slider with previews on hover, a tabbed website interfac
 * [Prototypes in Javascript from MSDN](http://msdn.microsoft.com/en-us/magazine/ff852808.aspx)
 
 ## Javascript Scopes and Closures
-  With all these functions going around, we've got to keep track of scope!  setting `this` and replacing `self` from Ruby, use `that` and `bind`. Getting variables to helper functions that don't take them with implicit scoping.  Be careful of referencing variables outside your scope!  A function should ideally return the same thing all the time... but not in JS.  _privateVars that are not really private.  Another foreshadowing of event_driven/callbacks.  WHEN you call the function (method style or function style) matters for This.
 
-  * [SO on "How do Javascript Closures Work?"](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
-  * [Understanding Javascript's `this` keyword from JSIS](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-  * [Javascript's `apply` `call` and `bind` methods](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
+With all these functions going around, we've got to keep track of scope!  setting `this` and replacing `self` from Ruby, use `that` and `bind`. Getting variables to helper functions that don't take them with implicit scoping.  Be careful of referencing variables outside your scope!  A function should ideally return the same thing all the time... but not in JS.  _privateVars that are not really private.  Another foreshadowing of event_driven/callbacks.  WHEN you call the function (method style or function style) matters for This.
+
+* [Javascript Closures from learn.jquery.com](http://learn.jquery.com/javascript-101/closures/)
+* [SO on "How do Javascript Closures Work?"](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
+* [Understanding Javascript's `this` keyword from JSIS](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+* [Javascript's `apply` `call` and `bind` methods](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
 
 ## Project: Javascript Scopes and Closures
   Redo the Ruby basic projects using Javascript.  Review running JS code (jsfiddle).  A basic OOP project that makes people define classes and prototypes. Build a simple game (with `prompt` for `gets`).  Note the run environment can't really be browser for a run loop.
