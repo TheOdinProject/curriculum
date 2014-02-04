@@ -89,10 +89,34 @@ Drill-style bite-sized challenges, TBD.
 
 You should already have completed the [Web Deveploment 101 jQuery lesson](/courses/web-development-101/lessons/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).
 
-  Overview, Selectors review, $, Document ready, selecting elements and implicit iteration of that, what's returned by DOM searches, creating elements, DOM traversal, getters and setters for attributes, chaining methods, using data attributes, 
+### Points to Ponder
 
-* [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com) 
-* [Learning jQuery from jquery.com](http://learn.jquery.com/)
+* What is a selector?
+* What does the `$` symbol mean?
+* Why is it often important to wait for the Document (DOM) to finish loading?
+* How can you select a particular element on the page?
+* How can you select only the `<li>` elements inside of `<div>` elements with class `test-div`?
+* How are selectors actually pretty similar to the way CSS operates?
+* What does a jQuery selector return?
+* How can you manipulate the values (e.g. html, width, height...) of a selected element or elements?
+* What does it mean that selected elements are "implicitly iterated over"? (Think if you used `$("div")` what would happen)
+* How can you create new elements?
+* How can you insert new elements into the DOM?
+* How can you chain jQuery selectors?
+* What happens to the elements you've already selected (e.g. with `$("li")`) if another qualifying element (e.g. a `<li>`gets added to the DOM later?
+* What does "traversing the DOM" mean?
+* How can you add CSS to a selected element?
+* How do you add or remove data attributes from an element?
+* What new iterators (including some familiar Ruby ones) does jQuery give you?
+* How would you add the class `some-class` to every `<li>` on the page?
+* How would you use `#map` to return an array listing the contents of a particular list?
+* How is jQuery's `#map` almost identical to Ruby's?
+* Where can you look up any selectors you need?
+
+### Links
+
+* [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com) is a great primary resource.
+* [Learning jQuery from jquery.com](http://learn.jquery.com/) will fill in any gaps you have and provide alternate explanations.
 * [jQuery docs](http://api.jquery.com) will be your savior again and again.  You'll probably find them via Google most of the time, but get used to the format they present information in because you'll be seeing a lot of it.
 * [jQuery Reference Guide from Oscar Otero](http://oscarotero.com/jquery/)
 * Watch people code cool stuff with [The Code Player](http://thecodeplayer.com/)
@@ -100,35 +124,78 @@ You should already have completed the [Web Deveploment 101 jQuery lesson](/cours
 * [jQuery FAQ from learn.jquery.com](http://learn.jquery.com/using-jquery-core/faq/)
 
 ## Project: Messing with the DOM
-  Grab and change DOM elements dynamically and automatically alter text the user enters... generate a full page using just Javascript/jQuery (so just `<body>` tags and a `<div>` container to start with)
+
+Generate a full page using just Javascript and jQuery (so your HTML should just be `<html>` and `<body>` tags to begin with).  Work from the browser's developer tools Javascript console to play with grabbing and changing DOM elements dynamically.  
+
+Make it a 1-page site which can actually display either page A or page B depending which tab the user selects across the top.  [Look at #7 on this hongkiat post](http://www.hongkiat.com/blog/50-nice-clean-css-tab-based-navigation-scripts/) for visual inspiration.  Keep it simple -- when you click the next tab, your javascript should automatically replace version A with version B in the content area (no page refresh required).
+
+### Additional Resources
 
 * [How Browsers Work from HTML5Rocks](http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 ## Working with Events and Effects
+
+Events are at the heart of Javascript -- they are how you turn user interaction with your website into responsive actions.  The key to working with events is just building a model in your head for how the browser "listens" for events by default and how you can use that to your advantage.
+
+Effects are more minor -- they represent the neat transitions (like fades or slides) that you can easily apply to elements.
+
   events binding, namespacing events, bubbling, (stopping) default actions, browser effects like fade(), using good CSS selectors and attributes,  delegating events for the DOM to listen to instead (for new element creation), building a model in your head of the order of operations for the browser loading and doing stuff, unbinding events
 
-  * [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
-  * [An Introduction to DOM Events](http://coding.smashingmagazine.com/2013/11/12/an-introduction-to-dom-events/)
-  * [Events from learn.jquery.com](http://learn.jquery.com/events/)
-  * [Effects from learn.jquery.com](http://learn.jquery.com/effects/)
+### Points to Ponder
+
+* What are Events?
+* How do you bind an event to an element?
+* How do events "bubble" through the DOM?
+* How do you stop the default thing an event would do?
+* How do you set up an event so it will also apply to elements created after you created the event listener? (hint: delegate)
+* How do you unbind events from an element?
+* How would you listen for a keyboard key being pressed?
+* How do you make an element fade in or out?
+* How do you change the amount of time it takes for an element to fade in or out?
+* What happens if you trigger a whole bunch of effects on the same element at the same time (e.g. 12 slide-outs)?
+
+### Links
+
+* [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
+* [An Introduction to DOM Events](http://coding.smashingmagazine.com/2013/11/12/an-introduction-to-dom-events/)
+* [Events from learn.jquery.com](http://learn.jquery.com/events/)
+* [Effects from learn.jquery.com](http://learn.jquery.com/effects/)
 
 ## Project: jQuery and the DOM
 
-Build a game that shuffles the DOM all over the place...  SNAKE!!!!  Remember that grid you created in Web dev 101...?
+Let's build a game that shuffles the DOM all over the place and listens for events -- Snake!  Remember that grid you created in the [Web Dev 101 jQuery project](http://www.theodinproject.com/courses/web-development-101/lessons/javascript-and-jquery)...?
+
+### Additional Resources
 
 * [TheCodePlayer's Snake game with HTML5 canvas and jQuery](http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery)
 
 ## Building Widgets
 
-jQuery is fun... here's why! Tooltips, modals, image sliders
+Working with jQuery is a whole lot of fun... here's why!  It basically drives all the nifty tooltips, modals, lightboxes, sliders, and other widgets you see on a webpage.  Just about everything you've ever seen on the web can be done with a combination of the Javascript and jQuery you now know.  Let's take a look at some of them in greater depth.
+
+### Points to Ponder
+
+* What is jQuery UI and why is it particularly useful for you?
+* How do you use jQuery UI?
 
 * [jQuery UI from learn.jquery.com](http://learn.jquery.com/jquery-ui/)
+* [jQuery UI demos let you see all of the effects in action](http://jqueryui.com/demos/) and include the source code.  Think of what you can build!
+* [Check out this list of 50 jQuery plugins from tutorialzine](http://tutorialzine.com/2013/04/50-amazing-jquery-plugins/) for inspiration for what you can build (or to just use their plugins for yourself).
+
+### Additional Resources
+
 * [jQuery for Designers from Web Designer Wall](http://www.webdesignerwall.com/demo/jquery/)
 * [jQuery for Designers -- broken link?](http://jqueryfordesigners.com/)
 
 ## Project: Widgets
 
-jQuery image carousel / slider with previews on hover, a tabbed website interface
+Build a simple website that contains an image carousel / slider like the one seen at [jssor.com](http://www.jssor.com/) (but don't use theirs exactly).  It should contain arrows on each side to advance the image forward or backwards.  It should automatically move forward every 5 seconds.  It should contain the little navigation circles at the bottom that indicate which slide you are on (and they should be clickable to advance to that particular slide).  
+
+Don't spend too much time worrying about getting your images to display at the correct size -- it's more important to get the slider sliding.
+  
+Advanced additions:  When you hover on the "next" or "previous" arrows, it should actually pop up a little tiny picture preview of the next slide's picture.  Make the slider continuous -- when it gets to the last slide, it should keep going forward to the first slide (without jumping all the way back to it... it should look like the "first" slide is just another "next" slide in the order).  Same is true if you go backwards past the first slide -- it should seamlessly transition to the last slide and back through the order.
+
+This is a nifty functionality to have on your personal website!
 
 
 ******************************************************************************
