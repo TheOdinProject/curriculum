@@ -452,16 +452,56 @@ The best part of AJAX is that it doesn't actually require a full page refresh li
 
 ## Project: AJAX and Forms
   
-Warmup: Use AJAX to grab picture data from the Flickr API (without authentication or any of that) and create a loading icon.  
+Work with [an existing free and open API called OMDB](http://www.omdbapi.com/)) to implement a form submission (with some validations too!) for a new movie.  
 
-Next, work with an existing open API (OMDB?) to implement a form submission (with some validations too!).  Then create an infinite scroll that keeps loading content as you scroll down.  
+Create a "loading..." status while AJAX is processing.
+
+Finally, create an infinite scroll that keeps loading movies using AJAX as you scroll down.  
 
 ## Working with Javascript APIs
 
-Flickr and Google Maps APIs
+There are a whole lot of external APIs that you can access using simple Javascript, adding rich content or interesting functionality to your webpages. A few examples include embedding Google Maps in your page or downloading Flickr images.  You'll usually need to register your application with the API provider (and get an API key to identify yourself with when making a request) but most access is totally free.
+
+### Links
+
+* [Learn to use APIs with Javascript from Codecademy](http://www.codecademy.com/tracks/youtube) to access YouTube.
+* [Google Maps API Tutorial from W3 Schools](http://www.w3schools.com/googleAPI/default.asp)
+
+### Additional Resources
+
+* [Codecademy's API Track](http://www.codecademy.com/tracks/apis)
+* [Using Apigee as a back end for your website](http://www.codecademy.com/tracks/apigee)
+* [Embed Google Maps in your site using this jQuery plugin called GoMap](http://www.pittss.lv/jquery/gomap/).  The site has lots of links to example code for implementing different functionality.
 
 ## Project: Putting Google Maps Onto Your Site
-  Follow a tutorial to do so? GoMap?
+
+Create a site that has a Google map on it and forms where the user can place markers based on latitude and longitude entered to the form.  Play around with the different options the Maps API gives you -- you can customize almost everything on a map, from the way the thumbtacks drop down to the colors of each element.
+
+## Working with a Rails Backend and API
+
+It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
+
+At this point, you've got all the tools you need, so it's time to practice allowing your front end Javascript to talk to your Rails backend using AJAX.  We'll cover some best practices for how to pass data from one to another, but otherwise it's just putting together those final pieces of the web development puzzle.
+
+### Points to Ponder
+
+* Refresher -- how do you set up a basic Rails app?
+* Refresher -- how to you load custom Javascript in a given Rails view page?
+* How does "unobtrusive Javascript" work?
+* How can you pass data from your Rails app to your Javascript?
+* Why would you want to use AJAX to load large batches of data 
+
+### Links
+
+* [Check out "Using Javascript in your Rails App" from Daniel Kehoe](http://railsapps.github.io/rails-javascript-include-external.html).  It is long and covers a lot of ground, but it's got great content.  Some of the stuff on dependencies can be skimmed, but pay attention to the `content_for` stuff at the bottom.
+* [Refresh yourself on Rails AJAX from RailsGuides](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html) (just skim the top few sections)
+*[Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view)
+
+## Project: Where's Waldo (a Photo Tagging App)
+
+Build a [Where's Waldo?](http://en.wikipedia.org/wiki/Where's_Wally%3F) game in the browser with a Rails backend.  You'll need to load up a game board image and then allow your user to click inside it.  When the user clicks, a dropdown menu should pop up which lets you select which character you've just identified.  
+
+Once you select the character, use AJAX to validate that the selected location is within an acceptable distance of the "correct" location for that picture (which should be saved in your database by default).  If so, provide a "congratulations, you've found XYZ" message.  If not, highlight the selection box red and provide a useful error message.  Once the user has found all characters, give her a high five.
 
 ## Additional Helpful Stuff
 
@@ -477,18 +517,6 @@ The Underscore library to make JS more Ruby-like, the jQuery methods that operat
 * [Google's JS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
 * [Github's JS Style Guide](https://github.com/styleguide/javascript)
 * [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
-
-## Passing Data to the DOM
-  Saving page loads using Async data AJAX-style
-
-  *[Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view)
-
-
-## Working with a Rails Backend and API
-  Reread Rails lesson on building an API!
-
-## Project: Working with Rails
-  Build a simple Rails API to pass data to your app.  Something like that photo tagging app we did way back.
 
 ******************************************************************************
 # SECTION: Single Page Apps and Server Side Javascript
