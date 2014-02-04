@@ -32,6 +32,7 @@ You should already have completed the [Web Development 101 Javascript lesson](/c
 
 * How do you include a Javascript file in your HTML file?
 * How do you include Javascript directly in your HTML code?
+* How can you write and run your Javascript code using programs like [jsfiddle](http://jsfiddle.net/)?
 * How do you create a new object using the "Constructor" method?
 * How do you create a new object using the "Literal" method?
 * What does JS return if you try to access an object's attribute that doesn't exist?
@@ -201,19 +202,22 @@ This is a nifty functionality to have on your personal website!
 ******************************************************************************
 # SECTION: Deeper into Javascript
 
-You can do a lot with just basic JS and jQuery and a hacker mindset.  But this section will take you deeper into how Javascript is actually doing things and will give you the tools to produce more advanced functionality for your sites.
-
-## Comparing Javascript and Ruby: Going Functional
-
-Blocks are like anonymous functions, functions can be saved to variables (like Methods) and passed around, functions as "unchained" from their spot in Ruby.  Event-driven high level ideas.
-
-### Links
-
-* [Javascript for Ruby Programmers Video](https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
+You can do a lot with just basic JS and jQuery and a hacker mindset, as you saw in the last lesson on widgets.  But this section will take you deeper into how Javascript is actually doing things and will give you the tools to produce more advanced functionality for your sites.  The last project on the jQuery image slider probably tested your understanding of how Javascript works and showed you that there's still a lot to understand.
 
 ## Javascript Objects and "Classes" and Prototypes
 
-Similar to Ruby objects, functions can be variables in objects! Classes use ConstructorFunctions, using prototypes to share class methods and inherit and DRY up code, climbing the chain of prototypes until `null`
+Javascript doesn't really have "classes", per se, instead they use "prototypes" to DRY up code.
+
+### Points to Ponder
+
+* How are JS objects similar to Ruby objects?
+* Can JS functions be defined inside of objects?
+* What is a `ConstructorFunction`?
+* What is a prototype?
+* How do prototypes allow you to inherit and DRY up code?
+* What happens if you take the prototype of the prototype of the prototype etc. of an object?
+
+### Links
 
 * [Understanding Objects in JS from JSIS](http://javascriptissexy.com/javascript-objects-in-detail/)
 * [OOP in Javascript from JSIS](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
@@ -222,7 +226,19 @@ Similar to Ruby objects, functions can be variables in objects! Classes use Cons
 
 ## Javascript Scopes and Closures
 
-With all these functions going around, we've got to keep track of scope!  setting `this` and replacing `self` from Ruby, use `that` and `bind`. Getting variables to helper functions that don't take them with implicit scoping.  Be careful of referencing variables outside your scope!  A function should ideally return the same thing all the time... but not in JS.  _privateVars that are not really private.  Another foreshadowing of event_driven/callbacks.  WHEN you call the function (method style or function style) matters for This.
+With all these functions going around, we've got to keep track of scope!  Which variables got set where?  What is this mysterious `this` variable which seems to embody everything strange and complicated seeming about Javascript scope? 
+
+All this scoping (and using closures) makes a lot of sense when you remember that functions in Javascript can get called at different times and from different places in the code, especially if they are related to events (as callbacks, which are covered in the next lesson).
+
+### Points to Ponder
+
+* What is `this` equal to? 
+* How do you `bind` variables to a scope?
+* Why would you define a `that` variable?
+* Why is id naughty to modify or reference variables from outside your scope?
+* Why aren't private variables actually private?
+* Functions should always return the same thing... or..?
+* How does the way you call a function (e.g. function style, method style...) affect its scope (and `this`)?
 
 * [Javascript Closures from learn.jquery.com](http://learn.jquery.com/javascript-101/closures/)
 * [SO on "How do Javascript Closures Work?"](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
@@ -230,44 +246,104 @@ With all these functions going around, we've got to keep track of scope!  settin
 * [Javascript's `apply` `call` and `bind` methods](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
 
 ## Project: Javascript Scopes and Closures
-  Redo the Ruby basic projects using Javascript.  Review running JS code (jsfiddle).  A basic OOP project that makes people define classes and prototypes. Build a simple game (with `prompt` for `gets`).  Note the run environment can't really be browser for a run loop.
+
+Redo the [Ruby OOP Projects](http://www.theodinproject.com/courses/ruby-programming/lessons/oop), though now make them run in the browser.  You can't use a run loop anymore, though, so you'll have to rely on events!
 
 * [Understanding JS Closures Completely from JSIS](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [Understanding JS Variable Scope and Hoisting from JSIS](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
 
+## Comparing Javascript and Ruby: Going Functional
+
+A brief look at the similarities and differences between Ruby and Javascript.  Basically, Javascript uses functions eeeeeeverywhere and it has to wait a lot for things to happen.
+
+### Points to Ponder
+
+* How are Ruby blocks are like JS anonymous functions?
+* How can JS functions be saved to variables (like Ruby Methods) and passed around?
+* Where would Ruby's single-threaded nature really hurt it in the browser?
+* Think event-driven!
+* How are JS objects like Ruby objects?
+* How is `this` like `self` in Ruby?  How is it different?
+
+### Links
+
+* [Javascript for Ruby Programmers Video](https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
+
 ## Deep Dive into Functions
-  Method-style vs function-style vs apply vs call vs constructors, arguments not required or overflowing, more inheritance and surrogates, 
+
+We keep coming back to how Javascript loves functions.  Let's dig a little deeper.
+
+### Points to Ponder
+
+* How do you call a function "method-style"?
+* How do you call a function "function-style"?
+* What do `#apply` and `#call` do?
+* When should you use a constructor?
+* When are arguments for a function required?
+* How can a function take another function as an argument?
+* How can a function return another function?  How do you then run that returned function?
+* How do you indicate an argument isn't required?
+* How might you access overflowing (extra) arguments?
+* What are surrogates and why are they used?
+* What does it mean to "namespace" your code?
+* How do you namespace your code using modules? 
 
 * [Namespacing and using Modules in JS](http://www.codethinked.com/preparing-yourself-for-modern-javascript-development)
 * [Another post on module patterns](http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth)
 * [Common Javascript "Gotchas" from jbotus.com](http://www.jblotus.com/2013/01/13/common-javascript-gotchas/) is useful review of some of the things we've already covered.
 
 ## Project: Not-So-Basic Javscript
-  More games and OOP projects that require fun callbacks
-
-## Random Stuff: Functional Programming
-  function args via currying
+  
+Build an even more awesome browser game.
 
 **************************************************************************
 # SECTION: Advanced Browser Work
 
 ## Taking Javascript to the Browser
-  Loading it in, playing nice with jQuery, blocking the browser or going async
+
+A *very* brief look back into the idea that browser loading matters (maybe).
+
+### Points to Ponder
+
+* Why is it important which order you load scripts?
+* What does it mean if something "blocks the browser"?
+* How can you use Asynchronous loading to reduce user wait times?
+
+### Links
+
+* [SO post on non-blocking Javascript in modern browsers](http://stackoverflow.com/questions/8197072/non-blocking-javascript-and-css-in-modern-browsers-is-it-still-needed)
+
+### Additional Resources
+
+* [Advanced Javascript Loading in the Browser from HTML5Rocks](http://www.html5rocks.com/en/tutorials/speed/script-loading/) is deeper than you need to go now, but a useful reference.
 
 ## Living in an Event-Driven World
-  JS as asynchronous in the browser, the importance of scope, Callbacks using Closures, ability to setTimeouts and why it's actually useful vs Ruby and async, why callbacks are more important than returns, 
+
+We've already looked at scopes and functions quite a bit and you've had a chance to play with callbacks already, but here we'll dig deeper.  Events are everywhere in Javascript.
+
+### Points to Ponder
+
+* What is a callback?
+* What is the scope inside a callback?
+* What is `this` in a callback?
+* When is a callback called?
+* What is `#setTimeout` useful for?
+* Why are the return values of event listeners much less important than the callback(s) inside?
+
+### Links
   
-  * [Understanding Callback Functions in Javascript by Recurial](http://recurial.com/programming/understanding-callback-functions-in-javascript/)
-  * [Understanding Callback Functions in JS from JSIS](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
-  * [Callbacks, Listeners and Promises](http://sporto.github.com/blog/2012/12/09/callbacks-listeners-promises/)
-  * [Using Deferred Functions and Promises (Video)](http://www.youtube.com/watch?v=juRtEEsHI9E)
+* [Understanding Callback Functions in Javascript by Recurial](http://recurial.com/programming/understanding-callback-functions-in-javascript/)
+* [Understanding Callback Functions in JS from JSIS](http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/)
+* [Callbacks, Listeners and Promises](http://sporto.github.com/blog/2012/12/09/callbacks-listeners-promises/)
+* [Using Deferred Functions and Promises (Video)](http://www.youtube.com/watch?v=juRtEEsHI9E)
 
 ## Organizing Your Code
 
 * [Organizing your Code from learn.jquery.com](http://learn.jquery.com/code-organization/)
 
-## Project: Browser-Based Gaming Intro
-  Use callbacks and prompts instead of game loops
+## Project: Callback Madness
+
+Build a crazy callback application.
 
 ## Using Canvas to Draw and More
 
@@ -385,6 +461,13 @@ Do an established Angular tutorial (backup: Backbone)
 ## Conclusion
   We can't teach you every single trick or tip for designing neat UI elements or scalable Javascript architectures, but at this point you should have a great base and you should be able to figure out how to do pretty much anything but Googling, looking at docs, and cruising through Stack Overflow posts.  
   Going from here: jQuery mobile for mobile, D3 for data vis, frameworks for performance, node for full stack, 
+
+## Random Stuff: Functional Programming
+
+Don't consider this essential right off the bat -- check it out and come back when you feel more comfortable with JS.
+
+* [Functional Programming in Javascript from Eloquent Javascript](http://eloquentjavascript.net/chapter6.html)
+* [Currying in Javascript from Kristina Brainwave via Medium](https://medium.com/p/ce6da2d324fe)
 
 ## Additional Resources
 
