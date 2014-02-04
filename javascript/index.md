@@ -168,7 +168,7 @@ Let's build a game that shuffles the DOM all over the place and listens for even
 
 ### Additional Resources
 
-* [TheCodePlayer's Snake game with HTML5 canvas and jQuery](http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery)
+
 
 ## Building Widgets
 
@@ -347,34 +347,118 @@ Build a crazy callback application.
 
 ## Using Canvas to Draw and More
 
-Canvas in the browser, Drawing with shapes, Using other canvas functionality
+Canvas is a great tool in HTML5 -- it basically provides a panel in which you can use Javascript and math to draw pretty much anything.  It's useful for everything from gaming to image optimization.
+
+### Points to Ponder
+
+* What is Canvas?
+* How do you set up a Canvas element?
+* How do you draw a black square with a red outline?
+* How can you use refreshes to animate things?
+* What happens if you refresh too many calculations or too rapidly?
+
+### Links
 
 *[Canvas Deep Dive book](http://joshondesign.com/p/books/canvasdeepdive/toc.html) is the best explanation I've seen.  Do chapters 1-6.
-* [Canvas Deep Dive book](http://joshondesign.com/p/books/canvasdeepdive/toc.html) chapters 7-14 get deep into how you can use Canvas as a sweet graphics and gaming tool.  Out of scope for this course, but could be fun if that's your thing.
 
-## Project: Browser Games with Canvas
-  Bring back one of the classics.  Find a tutorial ideally.
+### Additional Resources
+
+* [Canvas Deep Dive book](http://joshondesign.com/p/books/canvasdeepdive/toc.html) chapters 7-14 get deep into how you can use Canvas as a sweet graphics and gaming tool.  Out of scope for this course, but could be fun if that's your thing.
+* [No Tears Guide to HTML5 Games from html5rocks.com](http://www.html5rocks.com/en/tutorials/canvas/notearsgame/)
+
+## Project: Browser Arcade Games with Canvas
+  
+Bring back one of the classics -- [Missile Command](http://en.wikipedia.org/wiki/Missile_Command).
+
+* [Canvas game tutorial posts from Michal Budzynski](http://michalbe.blogspot.com/2010/09/simple-game-with-html5-canvas-part-1.html)
+* [TheCodePlayer's Snake game with HTML5 canvas and jQuery](http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery)
 
 
 **************************************************************************
 # SECTION: Linking the Browser to your Back End
 
+A real web app needs a back end in order to persist its data and do sensitive operations.  That's not to say you can't outsource the functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/), but you've already got the skills yourself! You can link to the back ends you created in the course on Ruby on Rails.  
+
 ## Front End Forms
-working with forms (esp inputs), selecting elements, determining if elements are checked, validations, focusing, disabling, remembering security, styling error messages, 
+
+Forms are the user's window into your back end.  You've learned a whole lot about them in previous lessons, but here we'll focus on using jQuery to interact with your forms and in the next lesson we'll look at actually submitting them asynchronously with AJAX.  
+
+You've already got all the tools you need to build the validations, you probably just haven't used them in this way.  This lesson is more focused on *what* you should build than *how* to build it, though we'll introduce you to some helpful tutorials and plugins along the way.
+
+### Points to Ponder
+
+* How do you select a particular form input with jQuery?
+* How do you select the currently active (focused) form input?
+* How do you activate the next form input?
+* How do you determine whether a checkbox or radio button is checked using jQuery?
+* How do you run validations on the user's form input in real time?
+* Why is front-end form validation not sufficient to protect against malicious users?
+* How do you disable a form element?
+* How do you cause the erroneous form input to be highlighted and red?
+* How do you add an error message directly above the input field that's wrong?
+* What is the jQuery Validate plugin and how do you include it in your projec?
+
+### Links
+
+* [Smashing Magazine on Web Form Validation Best Practices and Tutorials](http://www.smashingmagazine.com/2009/07/07/web-form-validation-best-practices-and-tutorials/) contains just about everything you need to know here.
+* [Documentation for the jQuery Validation Plugin](http://jqueryvalidation.org/documentation/) will get you up and running with it, saving lots of time and effort.
+* [An approach to form validation using jQuery from Scratch](http://www.techliance.com/blog/form-validation-with-jquery-from-scratch/)
+
+### Additional Resources
+
+* [Smashing Magazine on an approach to Form Field Validation Errors](http://uxdesign.smashingmagazine.com/2012/06/27/form-field-validation-errors-only-approach/)
+* [SO Answer on How to Improve a Form Validation Script](http://stackoverflow.com/questions/15060292/a-simple-jquery-form-validation-script) (see answers)
+* [10 Useful jQuery Form Validation Techniques from speckyboy](http://speckyboy.com/2009/12/17/10-useful-jquery-form-validation-techniques-and-tutorials-2/) (some broken links)
+* [An Extensive Guide to Web Form Usability from Smashing Magazine](http://uxdesign.smashingmagazine.com/2011/11/08/extensive-guide-web-form-usability/)
 
 ## Project: Front End Forms
 
-## AJAX
-  AJAX, Async and JSON, convenience methods, maybe-Async functions, formatting and receiving formatted data from the server, handling errors, digging into JSON objects, 
+Build a browser form that collects name and address information and uses live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.  It doesn't need to actually submit, but you should give an error message if the button is pushed with any active errors or unfilled required fields.  If all is well and the form is "submitted", give the user a high five.  
+
+Do all this using jQuery's Validate plugin but then try it without any plugins to challenge yourself.  See some of the readings for examples of setting up your own validators.
+
+## Using AJAX to Talk to Your Server
+
+Callbacks are very useful for things like browser events but they're essential when using AJAX (Asynchronous JSON and XML), which sends data (or a request for data) to your server backend without blocking the browser from doing other activities while you wait for a response.  You pass the AJAX function a callback and, when the server response is received, you will activate the callback with whatever has been returned and continue on your way.  
+
+The best part of AJAX is that it doesn't actually require a full page refresh like clicking a hyperlink or a normal form submission would.  The response you get back from the server is simply a JSON data package and not a full HTML document, so you will be able to process it inside your existing page.  That gives you all kinds of power to build apps that only require a single page (which changes content based on where you "navigate" and what data gets returned) and to hide slow network operations from your user by loading the page in pieces.
+
+### Points to Ponder
+
+* What is AJAX?
+* What is JSON?
+* What does a JSON response actually look like?
+* How do you use the basic Javascript AJAX method?
+* How do you use jQuery's AJAX method(s)?
+* What are the AJAX "convenience" methods good for (e.g. `$.post`)?
+* How do you format data to be sent to the server?
+* What is the `#serialize` method?
+* How do you process data that is sent back from the server?
+* How do you handle errors generated during the process?
+* How can you use events to "listen" for AJAX operations, for instance if you wanted to create a "loading..." notification that disappears when you're done loading?
+
+### Links
 
 * [AJAX from learn.jquery.com](http://learn.jquery.com/ajax)
+* [jQuery's AJAX methods](http://learn.jquery.com/ajax/jquery-ajax-methods/)
+* [Submitting a Form as an AJAX Request using jQuery by Matt Lunn](http://www.mattlunn.me.uk/blog/2012/10/submitting-a-form-as-an-ajax-request-using-jquery/)
+* [jQuery's Global AJAX Event Handlers docs](http://api.jquery.com/category/ajax/global-ajax-event-handlers/)
 
+### Additional Resources
+
+* [AJAX Loading Icons](http://www.ajaxload.info/) (for fun)
+* [HTML5's FormData Object by Matt Lunn](http://www.mattlunn.me.uk/blog/2012/05/sending-formdata-with-jquery-ajax/)
+* [Easier AJAX With the HTML5 FormData Interface by Craig Buckler](http://www.sitepoint.com/easier-ajax-html5-formdata-interface/)
 
 ## Project: AJAX and Forms
-  Warmup: AJAX loading icon, work with a form-heavy project passing data back to... a Rails backend? hmm...  Form validations.  The OMDB API maybe?
+  
+Warmup: Use AJAX to grab picture data from the Flickr API (without authentication or any of that) and create a loading icon.  
+
+Next, work with an existing open API (OMDB?) to implement a form submission (with some validations too!).  Then create an infinite scroll that keeps loading content as you scroll down.  
 
 ## Working with Javascript APIs
-  Flickr and Google Maps APIs
+
+Flickr and Google Maps APIs
 
 ## Project: Putting Google Maps Onto Your Site
   Follow a tutorial to do so? GoMap?
@@ -430,6 +514,7 @@ The Underscore library to make JS more Ruby-like, the jQuery methods that operat
 * [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
 * [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
 * [Node.js Explained](http://kunkle.org/nodejs-explained-pres/)
+* [Getting out of Callback Hell in Node.js](http://strongloop.com/strongblog/node-js-callback-hell-promises-generators/)
 * [Introduction to Full Stack Javascript from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/)
 * [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 
@@ -477,7 +562,7 @@ Don't consider this essential right off the bat -- check it out and come back wh
 * [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
 * [Front End Programming best practices from betterfrontend](http://betterfrontend.com/)
 * [D3 and other visualization tool examples](http://tributary.io)
-
+* [Tips for using AWS](http://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
 
 
 
