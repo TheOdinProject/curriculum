@@ -34,9 +34,6 @@ It's difficult to find good resources to teach RSpec for free.  There are some d
 3. Glance through [Better Specs](http://betterspecs.org), which shows tons of examples of what you should and shouldn't do with RSpec.
 4. (Optional) [This RSpec Tutorial from TutsPlus](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-testing-with-rspec/) will give you another example walkthrough of tests being written.
 
-## Test Yourself (heh, heh.)
-1. Do the [Code Quiz on RSpec](http://www.codequizzes.com/topics/7/quizzes/22)
-
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

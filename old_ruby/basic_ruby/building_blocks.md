@@ -17,6 +17,6 @@ Get stretched out and warmed up, it's time to dive in!
 
 ## Test Yourself
 
-Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/topics/24/quizzes/75) from [Code Quizzes](http://www.codequizzes.com/).
+Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/learn-ruby/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
 
 ## Additional Resources
