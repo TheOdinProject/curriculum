@@ -144,6 +144,7 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 * Read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/) for more depth on flow control.
 * If you want a bit more, check out [Skork's entry on Ruby looping and iterators](http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/)
 * [Understanding Blocks Procs and Lambdas](http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
+* [Why can you either `yield` to blocks or make them explicit?  Who cares? (from SO)](http://stackoverflow.com/questions/1410160/ruby-proccall-vs-yield)
 * [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
 * A quick guide on writing methods from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
 * [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
