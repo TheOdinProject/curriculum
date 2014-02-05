@@ -569,6 +569,7 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 
 ### Additional Resources
 
+* [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
 * [Node.js vs Ruby on Rails by Will Nathan](http://willnathan.com/nodejs-vs-ruby-on-rails)
 * [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
 * [Node.js Explained](http://kunkle.org/nodejs-explained-pres/)
@@ -580,51 +581,142 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 
 [Fire up a Node server and try out some file I/O and a web server.](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
 
-## Javascript Templating and MVC Frameworks
-  The basics of JS MVC's.  Too much additional scope to teach a framework, but we can go high level and follow a tutorial
+## Javascript Templating
+
+Before we get into frameworks, it's useful to learn about templating tools.  Basically, these will let you set up a template (like a Rails layout/view) and insert basic dynamic elements (like loops) to it with minimal effort and without the need to build out a sophisticated back end to handle it.  You'll find that most templates feel a whole lot like ERB did in Rails views -- a way of passing snippets of dynamic code and variables into your HTML.
+
+Some of the more common templating languages include [Mustache](http://mustache.github.io/) and [Handlebars](http://handlebarsjs.com/) (so named because they typically use curly braces {{to surround}} inserted code).
+
+### Points to Ponder
+
+* What is a client-side template?
+* How is this similar to ERB you used in Rails?
+* How do you include Mustache.js in your project?
+* How do you use Mustache to display a group of `<div>`'s?
+
+### Links
+
+* [Smashing Magazine on Client Side Templating](http://coding.smashingmagazine.com/2012/12/05/client-side-templating/) starts from scratch and gives lots of examples
+* [An overview of JS templates from Creative Bloq](http://www.creativebloq.com/web-design/templating-engines-9134396) gives more examples.
+* [Introduction to Javascript Templating with Mustache](http://iviewsource.com/codingtutorials/introduction-to-javascript-templating-with-mustache-js/)
+* [Learning about Handlebars Templating from JSIS](http://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/)
+
+### Additional Resources
+
+* [Why LinkedIn chose Dust.js for Templating](http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more) (includes a breakdown of the other popular choices)
+
+## Javascript MV* Frameworks
+
+Javascript frameworks take the ideas of templating, e.g. moving logic from your server to the client, to the next level.  With these frameworks, you can run your entire web application without ever reloading the page.  The frameworks are all different, but they typically combine templating tools with client-side models that use AJAX to stay current with your back end.
+
+JS Frameworks can be blazing fast in terms of user experience (though they can take longer to load at first because there's a lot more going on than with a simple page).
+
+You should be able to pick up a Javascript framework in a relatively short period of time since you'll be able to build a good mental model for how it works based on your understanding of Rails, but it's not technically required knowledge (yet) for being hired.  That said, being able to work comfortably with Backbone or Angular can make you a much more attractive candidate.
+
+In this lesson, we've laid out resources for learning several different frameworks.  Backbone.js is typically the best for beginners because it's got the best documentation and has been around longest (so more support).  Angular is another well documented framework that's coming on strong.  As with the Ruby/Python Rails/Django conversations, what you should do is pick one and learn it well, and then you'll be able to pick up another much easier.
+
+### Points to Ponder
+
+* What is a Javascript framework good for?
+* How do frameworks provide similar functionality to Rails' MVC architecture from the front end?
+* How do models stay up do date with your database?
+* How does clicking a link to another "page" in a single-page web app actually render a different "page" without making an HTTP request to the server?
+
+### Links
+
+* [An Introduction to Full Stack Javascript](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/) will give you context for using Javascript all the way through the stack.
+* [Seven Frameworks of JS from Steven Anderson](http://blog.stevensanderson.com/2012/08/01/rich-javascript-applications-the-seven-frameworks-throne-of-js-2012/)
+
+#### Backbone.js
 
 * [Learn Backbone Completely from JSIS](http://javascriptissexy.com/learn-backbone-js-completely/)
-* [Learning about Handlebars Templating from JSIS](http://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/)
-* [Client-side Templating from Smashing Magazine](http://coding.smashingmagazine.com/2012/12/05/client-side-templating/)
-* [Angular Learning Checklist](http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs)
-* [An Introduction to Full Stack Javascript](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/)
-* [Seven Frameworks of JS from Steven Anderson](http://blog.stevensanderson.com/2012/08/01/rich-javascript-applications-the-seven-frameworks-throne-of-js-2012/)
 * [Backbone.js on Ruby on Rails screencasts and example apps](http://www.backbonerails.com/)
 * [Backbone.js tutorials](http://backbonetutorials.com/)
 * [Building a Wine Cellar with Backbone.js](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
-* [Angular.js video training resources](http://www.egghead.io)
-* [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
-* [Introduction to Full Stack Javascript from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/)
-* [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 
-## Project: Angular.js
-
-Do an established Angular tutorial (backup: Backbone)
+#### Angular.js
 
 * [Angular Learning Checklist](http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs)
+* [Angular.js video training resources](http://www.egghead.io)
 
-## Javascript Build Tools and Dependencies
+#### Ember.js
 
-* [http://javascriptissexy.com/learn-intermediate-and-advanced-javascript/)
+* [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
+
+## Project: Backbone.js or Angular.js
+
+[Do the beginner and intermediate tutorials here](http://backbonetutorials.com/) to learn Backbone and get a great overview of Javascript frameworks.
+
+If you'd prefer to try Angular instead, first glance over the beginner tutorial from the link above to get a feel for how these frameworks operate, then [do this Angular.js tutorial which has you build a real web app](http://docs.angularjs.org/tutorial).
+
+
+## Javascript Workflow Tools, Tech Stacks and Dependency Management
+
+Very briefly, managing dependencies is something we've had to deal with many times in the past so far -- for example, you can't load jQuery UI before jQuery since it depends on jQuery being there first.  The same applies to packages in Node.  People have built tools to help you get it right.  
+
+You've probably already got all kinds of kinks in your workflow so people have also designed tools to streamline the process.  They allow you to include all the preprocessors, packages, libraries etc. that you need with less manual labor.
+
+You may need these things now, you may not.  At least learn what they are so you'll know where to dig deeper when the time comes.
+
+### Points to Ponder
+
+* What is a dependency?
+* What is a build tool?
+* Why would you use a package manager?
+* What is Grunt?
+* What is Yeoman?
+* What is Bower?
+
+### Links
+
+* [Overwhelmed by Javascript Dependencies? from Startifact.com](http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html)
+* [Grunt.js task runner](http://gruntjs.com/)
+* [Yeoman builds on Grunt](http://yeoman.io/)
+* [Bower is a front-end package manager](http://bower.io/)
 * ["Can you help me understand the benefit of `require.js`?"](https://gist.github.com/desandro/4686136)
+* ["How to manage client-side Javascript dependencies?" from SO](http://stackoverflow.com/questions/12893046/how-to-manage-client-side-javascript-dependencies)
+
+### Additional Resources
+
+* [SO on Javascript Dependency Management](http://stackoverflow.com/questions/3202606/javascript-dependency-management)
 
 ## Javascript Testing
 
-* [Test-first javascript for testing](http://test-first.org)
+We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something important in your app or, as importantly, when exactly it actually stopped working.
+
+### Points to Ponder
+
+* Why should I test my Javascript?
+* What tools are out there to test Javascript with?
+* What is Jasmine?
+
+### Links
+
+* [Introduction to Javascript Unit Testing from Smashing Magazine](http://coding.smashingmagazine.com/2012/06/27/introduction-to-javascript-unit-testing/) guides you through building your own tests and using the QUnit framework.
+* [Testing Javascript using the Jasmine Framework from  HTMLGoodies](http://www.htmlgoodies.com/beyond/javascript/testing-javascript-using-the-jasmine-framework.html) is a high level overview.
+* [Testing your Javascript with Jasmine from TutsPlus](http://net.tutsplus.com/tutorials/javascript-ajax/testing-your-javascript-with-jasmine/) gets a bit more into things.
+* [Jasmine Documentation on Github](https://github.com/pivotal/jasmine)
+* [Test-first javascript for testing](http://testfirst.org)(go to the Javascript link on the left after reading about it)
+
+### Additional Resources
+
 * [Writing Testable Frontend JS -- Anti-patterns from Shane Tomlinson](https://shanetomlinson.com/2013/testing-javascript-frontend-part-1-anti-patterns-and-fixes/)
 * [Writing Testable JS from Ben Cherry](http://www.adequatelygood.com/2010/7/Writing-Testable-JavaScript)
 * [Make Tests Read like a Book from Wolfram Kriesing](http://uxebu.com/blog/2013/01/08/make-tests-read-like-a-book/)
-* [(Video) Javascript Testing: The Holy Grail](http://www.youtube.com/watch?v=YdFQ29oK50M
-* )
+* [(Video) Javascript Testing: The Holy Grail](http://www.youtube.com/watch?v=YdFQ29oK50M)
 
 ## Final Project
-  It's big.
 
-* [(Video) Development Workflow of 2013 by Paul Irish](http://www.youtube.com/watch?v=f7AU2Ozu8eo)
+Copy your favorite website as well as you can.  Seriously -- Pinterest, Facebook, Twitter... Just make sure it's got lots of interesting functionality.  You'll be integrating your full array of Rails and Javascript skills into this one.  You've got all the tools you need to build a website just like the ones you use every day.  You can't copy every single feature and a lot of the user interface will be a bit clunkier, but you can get yourself 80% of the way there.  
+
+Try testing the very high level Javascript and Rails functionality.
+
 
 ## Conclusion
-  We can't teach you every single trick or tip for designing neat UI elements or scalable Javascript architectures, but at this point you should have a great base and you should be able to figure out how to do pretty much anything but Googling, looking at docs, and cruising through Stack Overflow posts.  
-  Going from here: jQuery mobile for mobile, D3 for data vis, frameworks for performance, node for full stack, 
+
+We can't teach you every single trick or tip for designing neat UI elements or scalable Javascript architectures, but at this point you should have a great base and you should be able to figure out how to do pretty much anything but Googling, looking at docs, and cruising through Stack Overflow posts.  
+
+Going from here: jQuery mobile for mobile, D3 for data vis, frameworks for performance, node for full stack, 
 
 ## Random Stuff: Functional Programming
 
@@ -642,6 +734,7 @@ Don't consider this essential right off the bat -- check it out and come back wh
 * [Front End Programming best practices from betterfrontend](http://betterfrontend.com/)
 * [D3 and other visualization tool examples](http://tributary.io)
 * [Tips for using AWS](http://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
+* [(Video) Development Workflow of 2013 by Paul Irish](http://www.youtube.com/watch?v=f7AU2Ozu8eo)
 
 
 
