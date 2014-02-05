@@ -38,7 +38,7 @@ As you can see, I frequently relied on the main resources you'll be learning fro
 
 **If you haven't completed these, be sure to do so before getting started:**
 
-* Your software should be installed, as listed in the [Installfest section](/curriculum/installations/).
+* Your software should be installed, as listed in the [Installfest section](/courses/web-development-101/lessons/installations).
 * You should really have gone through the full [Web Development 101](/courses/web_development_101/) section, but the most important parts are listed below.
 
     * Read the full [Back End section](/courses/web-development-101/lessons#section-the-back-end) of the Web Development 101 section for an introduction to Ruby.
@@ -49,7 +49,6 @@ As you can see, I frequently relied on the main resources you'll be learning fro
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * [StackOverflow: Summary of Ruby on Rails Fundamental Concepts](http://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
 * If you want to dive right into a full on interactive Rails course in the browser, give [Code Learn](http://www.codelearn.org/ruby-on-rails-tutorial) a shot (and let us know what you think)
