@@ -13,7 +13,7 @@ Web technology land is full of strange terms and an alphabet soup of acronyms an
 
 ## Assignment:
 
-1. Take a look at this [list of term definitions](http://prework.flatironschool.com/#terms) and make sure you have at least a competant understanding of each one (click on it to bring up the full definition).  Don't skip this and assume you know it all -- there will be at least a few that are worth nailing down.  Flashcards help.
+1. Take a look at this [list of term definitions](http://prework.flatironschool.com/web-development/#tocAnchor-1-5-1) and make sure you have at least a competent understanding of each one (click on it to bring up the full definition).  Don't skip this and assume you know it all -- there will be at least a few that are worth nailing down.  Flashcards help.
 2. Browse through this [great (though design-focused) list of terms from Smashing Magazine](http://www.smashingmagazine.com/2009/05/21/web-design-industry-jargon-glossary-and-resources/).  It's not essential that you know all the unfamiliar ones down cold, but you'll keep seeing this stuff again and again so it's good to have a working knowledge of what they are.  The article also contains lots of great links to dig deeper into anything you don't understand.
 
 ## Additional Resources
