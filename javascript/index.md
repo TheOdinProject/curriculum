@@ -497,6 +497,11 @@ At this point, you've got all the tools you need, so it's time to practice allow
 * [Refresh yourself on Rails AJAX from RailsGuides](http://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html) (just skim the top few sections)
 *[Bootstrapping JSON data into a Rails View](http://jfire.io/blog/2012/04/30/how-to-securely-bootstrap-json-in-a-rails-view)
 
+### Additional Resources
+
+* [Grabbing your Rails form CSRF token with Javascript so Rails doesn't yell at you with "Warning, can't verify CSRF token authenticity", via SO](http://stackoverflow.com/questions/7203304/warning-cant-verify-csrf-token-authenticity-rails)
+* [... and another SO post on the CSRF token](http://stackoverflow.com/questions/8503447/rails-how-to-add-csrf-protection-to-forms-created-in-javascript)
+
 ## Project: Where's Waldo (a Photo Tagging App)
 
 Build a [Where's Waldo?](http://en.wikipedia.org/wiki/Where's_Wally%3F) game in the browser with a Rails backend.  You'll need to load up a game board image and then allow your user to click inside it.  When the user clicks, a dropdown menu should pop up which lets you select which character you've just identified.  
@@ -505,11 +510,27 @@ Once you select the character, use AJAX to validate that the selected location i
 
 ## Additional Helpful Stuff
 
-The Underscore library to make JS more Ruby-like, the jQuery methods that operate similarly, Rails' CSRF token grabbing, templating using underscore (ERB!), best practices: don't make a bunch of DOM calls (save to vars), basic Regex usage, Fast loading JS, Security
+This is a catch-all section for helpful resources.
+
+### Points to Ponder
+
+* What is the Underscore library and how does it make Javascript much more Ruby-like?
+* How can you make sure not to make repeated and excessive jQuery calls to the DOM (e.g. constantly using `$("body")` or the like)? Hint: Use variables.
+* How do you search through a text string with a Regular Expression in Javascript?
+* How do you make your Javascript load faster to improve page load times?
+* What basic security principles do you need to know?
 
 * [Underscore.js Documentation](http://underscorejs.org)
 * ["Thinking Inside the Box with Vanilla Javascript" from Smashing Magazine](http://coding.smashingmagazine.com/2013/10/06/inside-the-box-with-vanilla-javascript/) provides a few helpful JS functions
+* [Working with Regular Expressions in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+* [Speeding up Page Load Times in Rails by Jarmo Pertman](http://itreallymatters.net/post/45763483826/speeding-up-page-load-time-in-rails#.UvGCG0JdWUA)
+* [Speed up your Rails App page load by Bibliographic Wilderness](http://bibwild.wordpress.com/2012/11/21/speed-up-your-rails-apps-page-load/) talks about async loading (toward the end).
 * [(Video) Principles of Security by Douglas Crockford](http://www.youtube.com/watch?v=zKuFu19LgZA)
+
+### Additional Resources
+
+* [Test your regular expressions in JS with RegexPal](http://regexpal.com/)
+* [Why Doesn't Rails Include Javascripts at the Bottom of the Page by Default from SO](http://stackoverflow.com/questions/7584717/why-rails-doesnt-include-the-javascript-files-at-the-bottom-of-the-html-page-by)
 
 ### Style Guides
 
@@ -519,12 +540,45 @@ The Underscore library to make JS more Ruby-like, the jQuery methods that operat
 * [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
 
 ******************************************************************************
-# SECTION: Single Page Apps and Server Side Javascript
+# SECTION: Server Side Javascript and Single Page Apps
+
+This is the section where we go beyond using Javascript as a facilitator of great looking and great running pages and into using Javascript as the main tool for creating those pages in the first place.  We'll talk about using Javascript to run your server (instead of Ruby) with Node.js and about the many Javascript MV* Frameworks out there which let you build a full website as a single page run by Javascript for blazing fast user experiences.
 
 ## Node.js and Server-Side Javascript
 
+Understanding server-side Javascript is not a requirement for getting hired as a full stack junior developer because your Ruby and Rails skills are more than up to the task and in demand.  If you're short on time, consider this section supplemental.  That said, it's really interesting and useful stuff because Node gives you some advantages that Rails doesn't.  It's worth your time to at least browse through the resources and get an idea of what Node is and what the fuss is about.
+
+If you really love Javascript more than Ruby, you may be about to find your new home.  It's still quite rough around the edges, but Node has a lot going for it.  
+
+As a bonus, your Heroku know-how transfers to Node because they accept Node apps as well.
+
+### Points to Ponder
+
+* What is Node.js?
+* How do you download Node?
+* How do you get a Node server running?
+* How does Node manage its packages similarly to Ruby?
+* What are advantages of Node vs Rails? 
+* What are the downsides of Node vs Rails?
+
+### Links
+
+* [Pick up the basics of Node in this quick tutorial from NetTuts](http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/)
+* [Why I Chose Node.js Over Ruby on Rails by Sagi Isha](https://medium.com/what-i-learned-building/905b0d7d15c3)
 * [Learn Node.js Completely from JSIS](http://javascriptissexy.com/learn-node-js-completely-and-with-confidence/)
 
+### Additional Resources
+
+* [Node.js vs Ruby on Rails by Will Nathan](http://willnathan.com/nodejs-vs-ruby-on-rails)
+* [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
+* [Node.js Explained](http://kunkle.org/nodejs-explained-pres/)
+* [Getting out of Callback Hell in Node.js](http://strongloop.com/strongblog/node-js-callback-hell-promises-generators/)
+* [Node for Rails Developers with Compound.js by Sagi Isha](https://medium.com/what-i-learned-building/e490fb9c0c73)
+* [HowToNode.org has lots of more advanced articles and tips](http://howtonode.org/)
+
+## Project: Node.js
+
+[Fire up a Node server and try out some file I/O and a web server.](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
 
 ## Javascript Templating and MVC Frameworks
   The basics of JS MVC's.  Too much additional scope to teach a framework, but we can go high level and follow a tutorial
@@ -540,9 +594,6 @@ The Underscore library to make JS more Ruby-like, the jQuery methods that operat
 * [Building a Wine Cellar with Backbone.js](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
 * [Angular.js video training resources](http://www.egghead.io)
 * [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
-* [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
-* [Node.js Explained](http://kunkle.org/nodejs-explained-pres/)
-* [Getting out of Callback Hell in Node.js](http://strongloop.com/strongblog/node-js-callback-hell-promises-generators/)
 * [Introduction to Full Stack Javascript from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/)
 * [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
 
