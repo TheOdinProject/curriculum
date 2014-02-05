@@ -93,8 +93,9 @@ describe "StaticPages" do
           end
             
           it "should send an email request with the form contents" do
-            sleep 1
+            wait_for_ajax
             suggestion = ActionMailer::Base.deliveries
+            puts suggestion
             suggestion.should_not be_empty
           end
         end
