@@ -80,28 +80,6 @@ These installfests will take you through the steps to install everything on your
 2. Otherwise, do the [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
 3. Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://installfest.railsbridge.org/installfest/create_and_deploy_a_rails_app). 
 4. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.0.0` or a similar number.  `$ rails -v` should give you something like `4.0.0`.
-
-## Oh no! Total Failure!!!
-
-If all else fails, the best web-based development environment to use for coding the back end is [Nitrous.io](http://nitrous.io).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  
-
-I've often found this to be much easier for Windows users than trying to navigate the regular installations process.  It relies on having an internet connection, but it gives you a command line, a text editor, and the ability to run a local server right out of the box.
-
-So your alternate path is to go to [Nitrous.io](http://nitrous.io) and set up your account.  You'll be given enough free "credits" to keep a virtual development environment running full time.  The instructions on the website are fairly co
-
-## Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-
-If you've run into issues with your installation and are desperately looking for something else to try, take a deep breath first and go back over the instructions step-by-step to make sure you've followed them properly.  You can run into some odd issues if you start trying to mix together different installation recommendations, because some of them use auto-installers and have you install things in slightly different places so you may end up with a couple copies of key components.  It may work fine on the surface, but some day it'll probably come back and frustrate you again.  But, if you must, here are some other people's installation recommendations:
-
-* Michael Hartl describes the installation in his [Rails Tutorial, Chapter 1](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec-up_and_running), and the chapter also guides you through making and deploying your first bare-bones Rails app just to make sure everything's working properly.
-* Treehouse has short videos describing Rails installation for various environments in their [Getting Started with Rails](http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails) unit.
-* [Rubyonrails.org](http://rubyonrails.org/download) installation section.
-* [Guide](/courses/additional_resources/sublimetext_windows_CLI.html) for opening Sublime Text via command line in Windows.
-* [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
-
   
 ## Checklist
 
@@ -111,8 +89,23 @@ If you've run into issues with your installation and are desperately looking for
 * Created and deployed a sample rails application
 * Patted yourself on the back for accomplishing a task that has turned back many brave warriors.
 
+## Oh no! Total Failure!!!
+
+If all else fails, the best web-based development environment to use for coding the back end is [Nitrous.io](http://nitrous.io).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  
+
+I've often found this to be much easier for Windows users than trying to navigate the regular installations process.  It relies on having an internet connection, but it gives you a command line, a text editor, and the ability to run a local server right out of the box.
+
+So your alternate path is to go to [Nitrous.io](http://nitrous.io) and set up your account.  You'll be given enough free "credits" to keep a virtual development environment running full time.  The instructions on the website are fairly straightforward.  You can get your text editor and terminal up and running in a couple minutes.  Plus, it works with Git!
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+If you've run into issues with your installation and are desperately looking for something else to try, take a deep breath first and go back over the instructions step-by-step to make sure you've followed them properly.  You can run into some odd issues if you start trying to mix together different installation recommendations, because some of them use auto-installers and have you install things in slightly different places so you may end up with a couple copies of key components.  It may work fine on the surface, but some day it'll probably come back and frustrate you again.  But, if you must, here are some other people's installation recommendations:
+
+* Michael Hartl describes the installation in his [Rails Tutorial, Chapter 1](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec-up_and_running), and the chapter also guides you through making and deploying your first bare-bones Rails app just to make sure everything's working properly.
+* Treehouse has short videos describing Rails installation for various environments in their [Getting Started with Rails](http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails) unit.
+* [Rubyonrails.org](http://rubyonrails.org/download) installation section.
+* [Guide](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) for opening Sublime Text via command line in Windows.
+* [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
 * Google Google Google
