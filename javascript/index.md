@@ -26,12 +26,11 @@ Good luck!
 
 ******************************************************************************
 TODO: (? 6 hrs?)
-* Smashing and AListApart magazines audit for resources (2 hrs?)
 * Overall intro and conclusion (1 hr?)
 * Check and deploy (1 hr)
 
 ******************************************************************************
-# SECTION: The Basics and the Browser
+# SECTION 1: The Basics and the Browser
 
 You've already completed the [Web Development 101 course](/courses/web-development-101/lessons#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
 
@@ -99,6 +98,8 @@ You should already have completed the [Web Development 101 Javascript lesson](/c
 * [JSNinja by John Resig](http://jsninja.com) covers advanced concepts aimed at the intermediate JS developer
 * Stanford's iTunes U Javascript course ([link to find it here](http://itunes.stanford.edu/content/quickstart.html))
 * [SuperheroJS, A great collection of advanced links](http://superherojs.com/)
+* [Javascript-to-Ruby Syntax Comparison Cheat Sheet from AgentCooper](http://agentcooper.github.io/js-ruby-comparison/)
+* ["How I Work: Yahoo!'s Doug Crockford On Javascript" by Jacob Cook via Smashing Magazine](http://coding.smashingmagazine.com/2012/04/27/yahoos-doug-crockford-on-javascript/) provides a soft high level look at some industry questions.
 
 ## Project: Javascript Basics
   
@@ -185,6 +186,7 @@ Effects are like window-dressing for your user experience.  They represent the n
 ### Additional Resources
 
 * [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
+* [A Look at using Javascript Events without jQuery from Smashing Magazine](http://coding.smashingmagazine.com/2012/08/17/javascript-events-responding-user/)
 
 ## Project: jQuery and the DOM
 
@@ -217,7 +219,8 @@ We covered a [section on design in the HTML/CSS Course](/courses/html5-and-css3/
 ### Additional Resources
 
 * [jQuery for Designers from Web Designer Wall](http://www.webdesignerwall.com/demo/jquery/)
-* [jQuery for Designers -- broken link?](http://jqueryfordesigners.com/)
+* [(2009) A list of jQuery widgets and tutorials that can still make you drool from Smashing Magazine](http://coding.smashingmagazine.com/2009/01/15/45-new-jquery-techniques-for-a-good-user-experience/) (thought some of them use AJAX, which we cover later, and others are a bit dated).
+* [jQuery for Designers](http://jqueryfordesigners.com/)
 
 ## Project: Widgets
 
@@ -231,7 +234,7 @@ Advanced additions:  When you hover on the "next" or "previous" arrows, it shoul
 
 
 ******************************************************************************
-# SECTION: Deeper into Javascript
+# SECTION 2: Deeper into Javascript
 
 You can do a lot with just basic JS and jQuery and a hacker mindset, as you saw in the last lesson on widgets.  But this section will take you deeper into how Javascript is actually doing things and will give you the tools to produce more advanced functionality for your sites.  The Snake game and the last project on the jQuery image slider probably tested your understanding of how Javascript works and showed you that there's still a lot to understand.
 
@@ -257,6 +260,7 @@ Javascript doesn't really have "classes", per se, like Ruby -- instead they use 
 ### Additional Resources
 
 * [Prototypes in Javascript from MSDN](http://msdn.microsoft.com/en-us/magazine/ff852808.aspx)
+* [Seven Things I Wish I Knew Much Earlier in My Career (about Javascript) from Smashing Magazine](http://coding.smashingmagazine.com/2010/04/20/seven-javascript-things-i-wish-i-knew-much-earlier-in-my-career/)
 
 ## Javascript Scopes and Closures
 
@@ -276,10 +280,12 @@ All this scoping (and using closures) makes a lot of sense when you remember tha
 
 ### Links
 
+* [What you Need To Know About Javascript Scope from Smashing Magazine](http://coding.smashingmagazine.com/2009/08/01/what-you-need-to-know-about-javascript-scope/)
 * [Javascript Closures from learn.jquery.com](http://learn.jquery.com/javascript-101/closures/)
 * [SO on "How do Javascript Closures Work?"](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 * [Understanding Javascript's `this` keyword from JSIS](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 * [Javascript's `apply` `call` and `bind` methods](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
+* [Understanding Javascript Function.Prototype.Bind from Smashing Magazine](http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/) will talk about binding in greater depth.  It may be one you need to come back to a bit later.
 
 ### Additional Resources
 
@@ -308,10 +314,12 @@ A very brief look at the similarities and differences between Ruby and Javascrip
 ### Links
 
 * [Javascript for Ruby Programmers Video](https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
+* [Javascript-to-Ruby Syntax Comparison Cheat Sheet from AgentCooper](http://agentcooper.github.io/js-ruby-comparison/)
+* [Ruby vs Javascript Functions, Procs, Blocks, and Lambdas by Skilldrick](http://skilldrick.co.uk/2011/01/ruby-vs-javascript-functions-procs-blocks-and-lambdas/)
 
 ## Deep Dive into Functions
 
-We keep coming back to how Javascript loves functions.  Let's dig a little deeper.
+We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you u
 
 ### Points to Ponder
 
@@ -332,6 +340,7 @@ We keep coming back to how Javascript loves functions.  Let's dig a little deepe
 
 * [Namespacing and using Modules in JS](http://www.codethinked.com/preparing-yourself-for-modern-javascript-development)
 * [Another post on module patterns](http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth)
+* [The Design Of Code: Organizing Javascript from Alistapart](http://alistapart.com/article/the-design-of-code-organizing-javascript)
 
 ### Additional Resources
 
@@ -342,7 +351,7 @@ We keep coming back to how Javascript loves functions.  Let's dig a little deepe
 Build an even more awesome browser game (ideally one that requires lots of passing functions around).
 
 **************************************************************************
-# SECTION: Advanced Browser Work
+# SECTION 3: Advanced Browser Work
 
 There's a whole lot more to using Javascript in the browser than just manipulating simple DOM elements with jQuery.  If you want to grab data from external sites or your own back end, submit forms, or handle more complicated games, you'll need to dig deeper into how Javascript handles callbacks.  
 
@@ -423,6 +432,7 @@ Canvas is a great tool in HTML5 -- it basically provides a panel in which you ca
 * [No Tears Guide to HTML5 Games from html5rocks.com](http://www.html5rocks.com/en/tutorials/canvas/notearsgame/)
 * [Canvas game tutorial posts from Michal Budzynski](http://michalbe.blogspot.com/2010/09/simple-game-with-html5-canvas-part-1.html)
 * [TheCodePlayer's Snake game with HTML5 canvas and jQuery](http://thecodeplayer.com/walkthrough/html5-game-tutorial-make-a-snake-game-using-html5-canvas-jquery)
+* [Game Development Using Javascript](http://www.codeproject.com/Articles/563425/Game-Development-Using-JavaScript)
 
 ## Project: Browser Arcade Games with Canvas
   
@@ -430,7 +440,7 @@ Bring back one of the classics -- [Missile Command](http://en.wikipedia.org/wiki
 
 
 **************************************************************************
-# SECTION: Linking the Browser to your Back End
+# SECTION 4: Linking the Browser to your Back End
 
 A real web app needs a back end in order to persist its data and do sensitive operations.  That's not to say you can't outsource the functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/), but you've already got the skills yourself! You can link to the back ends you created in the course on Ruby on Rails.  
 
@@ -501,6 +511,7 @@ The best part of AJAX is that it doesn't actually require a full page refresh li
 * [AJAX from learn.jquery.com](http://learn.jquery.com/ajax)
 * [jQuery's AJAX methods](http://learn.jquery.com/ajax/jquery-ajax-methods/)
 * [Submitting a Form as an AJAX Request using jQuery by Matt Lunn](http://www.mattlunn.me.uk/blog/2012/10/submitting-a-form-as-an-ajax-request-using-jquery/)
+* [Some Things You Should Know About AJAX (2010) from Smashing Magazine](http://coding.smashingmagazine.com/2010/02/10/some-things-you-should-know-about-ajax/) goes into both the code and the principles of using AJAX.
 * [jQuery's Global AJAX Event Handlers docs](http://api.jquery.com/category/ajax/global-ajax-event-handlers/)
 
 ### Additional Resources
@@ -531,10 +542,15 @@ There are a whole lot of external APIs that you can access using simple Javascri
 * [Codecademy's API Track](http://www.codecademy.com/tracks/apis)
 * [Using Apigee as a back end for your website](http://www.codecademy.com/tracks/apigee)
 * [Embed Google Maps in your site using this jQuery plugin called GoMap](http://www.pittss.lv/jquery/gomap/).  The site has lots of links to example code for implementing different functionality.
+* [Designing Better Javascript APIs from Smashing Magazine](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/) is great if you're considering creating your own Javascript APIs and Tools, or if you just want to see life from the perspective of the creators of great tools like jQuery.
 
 ## Project: Putting Google Maps Onto Your Site
 
 Create a site that has a Google map on it and forms where the user can place markers based on latitude and longitude entered to the form.  Play around with the different options the Maps API gives you -- you can customize almost everything on a map, from the way the thumbtacks drop down to the colors of each element.
+
+### Additional Resources
+
+* [Entering the Wonderful World of Geo Location from Smashing Magazine](http://coding.smashingmagazine.com/2010/03/08/entering-the-wonderful-world-of-geo-location/)
 
 ## Working with a Rails Backend and API
 
@@ -569,7 +585,7 @@ Once you select the character, use AJAX to validate that the selected location i
 
 ## Additional Helpful Stuff
 
-This is a catch-all section for helpful resources.
+This is a catch-all section for helpful resources like libraries, regular expressions, page loading, Local Storage in the browser and security.
 
 ### Points to Ponder
 
@@ -578,6 +594,9 @@ This is a catch-all section for helpful resources.
 * How do you search through a text string with a Regular Expression in Javascript?
 * How do you make your Javascript load faster to improve page load times?
 * What basic security principles do you need to know?
+* What is "LocalStorage" on your browser?
+* How do you access this awesome feature?
+* What are the limitations of using LocalStorage?
 
 ### Links
 
@@ -587,6 +606,7 @@ This is a catch-all section for helpful resources.
 * [Speeding up Page Load Times in Rails by Jarmo Pertman](http://itreallymatters.net/post/45763483826/speeding-up-page-load-time-in-rails#.UvGCG0JdWUA)
 * [Speed up your Rails App page load by Bibliographic Wilderness](http://bibwild.wordpress.com/2012/11/21/speed-up-your-rails-apps-page-load/) talks about async loading (toward the end).
 * [(Video) Principles of Security by Douglas Crockford](http://www.youtube.com/watch?v=zKuFu19LgZA)
+* [Local Storage and How to Use It On Websites from Smashing Magazine](http://coding.smashingmagazine.com/2010/10/11/local-storage-and-how-to-use-it/)
 
 ### Additional Resources
 
@@ -601,7 +621,7 @@ This is a catch-all section for helpful resources.
 * [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
 
 ******************************************************************************
-# SECTION: Server Side Javascript and Single Page Apps
+# SECTION 5: Server Side Javascript and Single Page Apps
 
 This is the section where we go beyond using Javascript as a facilitator of great looking and great running pages and into using Javascript as the main tool for creating those pages in the first place.  We'll talk about using Javascript to run your server (instead of Ruby) with Node.js and about the many Javascript MV* Frameworks out there which let you build a full website as a single page run by Javascript for blazing fast user experiences.
 
@@ -633,6 +653,7 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 ### Additional Resources
 
 * [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
+* ["Useful Node.js Tools, Tutorials and Resources" by Luca Degasperi via Smashing Magazine](http://coding.smashingmagazine.com/2011/09/16/useful-node-js-tools-tutorials-and-resources/)
 * [Node.js vs Ruby on Rails by Will Nathan](http://willnathan.com/nodejs-vs-ruby-on-rails)
 * [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
 * [Node.js Explained](http://kunkle.org/nodejs-explained-pres/)
@@ -687,6 +708,7 @@ In this lesson, we've laid out resources for learning several different framewor
 
 ### Links
 
+* [A Journey through the Javascript MVC Jungle from Smashing Magazine](http://coding.smashingmagazine.com/2012/07/27/journey-through-the-javascript-mvc-jungle/) provides a good introduction to frameworks.  Don't get lost in the list of all the frameworks -- just understand the high level concepts of a framework and how you might want to make a decision about which one to choose.
 * [An Introduction to Full Stack Javascript](http://coding.smashingmagazine.com/2013/11/21/introduction-to-full-stack-javascript/) will give you context for using Javascript all the way through the stack.
 * [Seven Frameworks of JS from Steven Anderson](http://blog.stevensanderson.com/2012/08/01/rich-javascript-applications-the-seven-frameworks-throne-of-js-2012/)
 
@@ -694,6 +716,7 @@ In this lesson, we've laid out resources for learning several different framewor
 
 * [Learn Backbone Completely from JSIS](http://javascriptissexy.com/learn-backbone-js-completely/)
 * [Backbone.js on Ruby on Rails screencasts and example apps](http://www.backbonerails.com/)
+* [Backbone.js Tips and Patterns from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/backbone-js-tips-patterns/)
 * [Backbone.js tutorials](http://backbonetutorials.com/)
 * [Building a Wine Cellar with Backbone.js](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
 
@@ -734,6 +757,7 @@ You may need these things now, you may not.  At least learn what they are so you
 
 * [Overwhelmed by Javascript Dependencies? from Startifact.com](http://blog.startifact.com/posts/overwhelmed-by-javascript-dependencies.html)
 * [Grunt.js task runner](http://gruntjs.com/)
+* ["Get Up and Running With Grunt" by Mike Cunsolo via Smashing Magazine](http://coding.smashingmagazine.com/2013/10/29/get-up-running-grunt/)
 * [Yeoman builds on Grunt](http://yeoman.io/)
 * [Bower is a front-end package manager](http://bower.io/)
 * ["Can you help me understand the benefit of `require.js`?"](https://gist.github.com/desandro/4686136)
@@ -758,6 +782,7 @@ We won't get deep into Javascript testing but, suffice it to say, it performs a 
 * [Introduction to Javascript Unit Testing from Smashing Magazine](http://coding.smashingmagazine.com/2012/06/27/introduction-to-javascript-unit-testing/) guides you through building your own tests and using the QUnit framework.
 * [Testing Javascript using the Jasmine Framework from  HTMLGoodies](http://www.htmlgoodies.com/beyond/javascript/testing-javascript-using-the-jasmine-framework.html) is a high level overview.
 * [Testing your Javascript with Jasmine from TutsPlus](http://net.tutsplus.com/tutorials/javascript-ajax/testing-your-javascript-with-jasmine/) gets a bit more into things.
+* [Writing Testable Javascript from Alistapart](http://alistapart.com/article/writing-testable-javascript) will help you use testing to make better code design decisions.
 * [Jasmine Documentation on Github](https://github.com/pivotal/jasmine)
 * [Test-first javascript for testing](http://testfirst.org)(go to the Javascript link on the left after reading about it)
 
@@ -798,8 +823,9 @@ Don't consider this essential right off the bat -- check it out and come back wh
 * [D3 and other visualization tool examples](http://tributary.io)
 * [Tips for using AWS](http://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/)
 * [(Video) Development Workflow of 2013 by Paul Irish](http://www.youtube.com/watch?v=f7AU2Ozu8eo)
-
-
+* [How To Keep Your Coding Workflow Organized from Smashing Magazine](http://coding.smashingmagazine.com/2011/01/19/cleaning-up-the-mess-how-to-keep-your-coding-workflow-organized/)
+* ["My (Simple) Workflow To Design And Develop A Portfolio Website" by Adham Dannaway via Smashing Magazine](http://www.smashingmagazine.com/2013/06/25/workflow-design-develop-modern-portfolio-website/)
+* ["Powerful Workflow Tips, Tools And Tricks For Web Designers" by Melanie Lang via Smashing Magazine](http://www.smashingmagazine.com/2013/10/02/powerful-workflow-tips-tools-and-tricks-for-web-designers/)
 
 
 
