@@ -1204,7 +1204,7 @@ lesson_counter += 1
 Lesson.create!(   
     :title => "The Best Resources for Learning HTML and CSS", 
     :title_url => "HTML and CSS Resources".parameterize,
-    :description => "A high level overview of how you might tackle the problem of learning HTML and CSS", 
+    :description => "A listing of the best free resources out there for learning HTML and CSS and a disciplined approach to working your way through them", 
     :position => lesson_counter, 
     :section_id => c5_s1_of_1.id, 
     :is_project => false, 
@@ -1243,7 +1243,7 @@ lesson_counter += 1
 Lesson.create!(   
     :title => "The Best Resources for Learning Javascript and jQuery", 
     :title_url => "Javascript and jQuery Resources".parameterize,
-    :description => "A high level overview of how you might tackle the problem of learning Javascript and jQuery", 
+    :description => "A listing of the best free resources out there for learning Javascript and jQuery and a disciplined approach to working your way through them", 
     :position => lesson_counter, 
     :section_id => c6_s1_of_1.id, 
     :is_project => false, 
@@ -1281,9 +1281,9 @@ c7_s1_of_1 = Section.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "The Best Resources for Getting Hired", 
+    :title => "The Best Resources for Getting Hired as a Web Developer", 
     :title_url => "Getting Hired Resources".parameterize,
-    :description => "A high level overview of how you might tackle the problem of getting hired as a web developer", 
+    :description => "A listing of the best free resources out there for getting hired as a web developer and a disciplined approach to working your way through them", 
     :position => lesson_counter, 
     :section_id => c7_s1_of_1.id, 
     :is_project => false, 
