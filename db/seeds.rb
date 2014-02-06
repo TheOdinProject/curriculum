@@ -1202,7 +1202,7 @@ c5_s1_of_1 = Section.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "The Best Resources for Learning HTML and CSS", 
+    :title => "The Best Free Resources for Learning HTML and CSS", 
     :title_url => "HTML and CSS Resources".parameterize,
     :description => "A listing of the best free resources out there for learning HTML and CSS and a disciplined approach to working your way through them", 
     :position => lesson_counter, 
@@ -1241,7 +1241,7 @@ c6_s1_of_1 = Section.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "The Best Resources for Learning Javascript and jQuery", 
+    :title => "The Best Free Resources for Learning Javascript and jQuery", 
     :title_url => "Javascript and jQuery Resources".parameterize,
     :description => "A listing of the best free resources out there for learning Javascript and jQuery and a disciplined approach to working your way through them", 
     :position => lesson_counter, 
@@ -1281,7 +1281,7 @@ c7_s1_of_1 = Section.create!(
 
 lesson_counter += 1
 Lesson.create!(   
-    :title => "The Best Resources for Getting Hired as a Web Developer", 
+    :title => "The Best Free Resources for Getting Hired as a Web Developer", 
     :title_url => "Getting Hired Resources".parameterize,
     :description => "A listing of the best free resources out there for getting hired as a web developer and a disciplined approach to working your way through them", 
     :position => lesson_counter, 
