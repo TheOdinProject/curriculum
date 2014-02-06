@@ -1,4 +1,4 @@
-# The Best Resources for Learning Javascript
+# The Best Free Resources for Learning Javascript
 
 ## The Path Ahead
 
@@ -10,24 +10,19 @@ After we've finished going over the basics of Javascript and jQuery, we'll dive 
 
 We'll port that newfound knowledge into working with some more complicated games in the browser using the new HTML5 Canvas element.  If you were playing games in the late 80's and 90's, you may get deja vu.
 
-The following sections *will* require you to have completed the Ruby on Rails course, because you'll be integrating your front ends build with HTML, CSS and Javascript with the back end of your applications built on Rails.  This is the part where it all comes together and you'll find yourself looking at real full stack web applications.  If you're allergic to Rails, you can substitute these back ends for a third-party Backend-as-a-Service (BaaS) providers like Firebase or Apigee.  
+The sections following that *will* require you to have completed the Ruby on Rails course, because you'll be integrating your front ends built with HTML, CSS and Javascript with the back end of your applications built on Rails.  This is the part where it all comes together and you'll find yourself looking at real full stack web applications.  If you're allergic to Rails, you can substitute these back ends for a third-party Backend-as-a-Service (BaaS) providers like [Firebase](http://firebase.com) or [Apigee](http://apigee.com). 
 
-We'll wrap up by diving into using Javascript to run your server with Node.js and porting most of your application logic to the front end by using front-end frameworks like Backbone.js, Angular.js and Ember.js.  
+We'll wrap up by diving into using Javascript (instead of Ruby) to run your server with Node.js and how to port most of your application logic to the front end by using front-end frameworks like Backbone.js, Angular.js and Ember.js.  
 
 The last thing you'll do is a final project which integrates everything you've learned in all the courses of this curriculum.  This is the kind of project that you'll be telling employers all about and a great chance to prove that you're now, officially, a serious web developer.  
 
 ### This is Just an Outline!
 
-Again, note that this isn't a full course and you're not meant to follow absolutely every link, since we haven't narrowed it all down yet. It's a suggested roadmap of content and then groupings of resources that can help you get there.  That said, it's still probably the best grouping of resources for learning Javascript that you'll find anywhere on the web, to it will be useful to you no matter what.
+Again, note that this isn't a full course and you're not meant to follow absolutely every link, since we haven't narrowed it all down yet. It's a suggested roadmap of content and the resources that will help you get there.  That said, it's still probably the best and most complete grouping of resources for learning Javascript that you'll find anywhere on the web, so it will be useful to you despite being incomplete.
 
 Because of this, if you do find a resource that is particularly helpful or unhelpful, let us know! We'll be sure to weight it in the final course accordingly.  
 
 Good luck!
-
-******************************************************************************
-TODO: (? 6 hrs?)
-* Overall intro and conclusion (1 hr?)
-* Check and deploy (1 hr)
 
 ******************************************************************************
 # SECTION 1: The Basics and the Browser
@@ -799,19 +794,18 @@ Copy your favorite website as well as you can.  Seriously -- Pinterest, Facebook
 
 Try testing the very high level Javascript and Rails functionality with Jasmine and RSpec respectively.
 
-
 ## Conclusion
 
-We can't teach you every single trick or tip for designing neat UI elements or scalable Javascript architectures, but at this point you should have a great base and you should be able to figure out how to do pretty much anything but Googling, looking at docs, and cruising through Stack Overflow posts.  
+This is the end! At this point you should have a deep and nuanced understanding of not just how Javascript works but how you can use it with all the other knowledge you've gained so far to build exceptional web applications. That means great information architectures, smooth-running Rails backends and delightfully useful front-ends.  
 
-Going from here: jQuery mobile for mobile, D3 for data vis, frameworks for performance, node for full stack, 
+If you find something you don't know or aren't quite sure about, you should be a pro by now at Googling your way to an answer, looking at docs, and cruising through Stack Overflow posts.  You've got all the tools you need to be a developer.  And, really, the big secret is that you've been a web developer for a long time already.
 
-## Random Stuff: Functional Programming
+So where do you go from here?  BUILD!  Build and build and build and build (see a theme in this curriculum yet?).  Use what you've learned to create great projects.  Get a job so someone else pays you to build.  But focus on creating interesting software and using that to drive your education.  
 
-Don't consider this essential right off the bat -- check it out and come back when you feel more comfortable with JS.
+There's a whole world of additional things you can learn -- jQuery mobile to build mobile apps, D3 for data visualization, other full-stack frameworks or single-page MVC front-end frameworks... all that stuff is best learned when you've got something you want to build that requires "the perfect tool for the job."
 
-* [Functional Programming in Javascript from Eloquent Javascript](http://eloquentjavascript.net/chapter6.html)
-* [Currying in Javascript from Kristina Brainwave via Medium](https://medium.com/p/ce6da2d324fe)
+And speaking of jobs, if you've made it this far then you've displayed the kind of capability and drive that employers are looking for.  The final step is to show that to the world and get them to pay you to keep learning.  Which just happens to be the subject of the next course...
+
 
 ## Additional Resources
 
@@ -826,6 +820,8 @@ Don't consider this essential right off the bat -- check it out and come back wh
 * [How To Keep Your Coding Workflow Organized from Smashing Magazine](http://coding.smashingmagazine.com/2011/01/19/cleaning-up-the-mess-how-to-keep-your-coding-workflow-organized/)
 * ["My (Simple) Workflow To Design And Develop A Portfolio Website" by Adham Dannaway via Smashing Magazine](http://www.smashingmagazine.com/2013/06/25/workflow-design-develop-modern-portfolio-website/)
 * ["Powerful Workflow Tips, Tools And Tricks For Web Designers" by Melanie Lang via Smashing Magazine](http://www.smashingmagazine.com/2013/10/02/powerful-workflow-tips-tools-and-tricks-for-web-designers/)
+* [Functional Programming in Javascript from Eloquent Javascript](http://eloquentjavascript.net/chapter6.html)
+* [Currying in Javascript from Kristina Brainwave via Medium](https://medium.com/p/ce6da2d324fe)
 
 
 

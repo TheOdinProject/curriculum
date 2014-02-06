@@ -1,4 +1,4 @@
-# Getting Hired Resources
+# The Best Free Resources for Getting Hired as a Web Developer
 
 You've been figuring out this web development stuff and building apps for a long time now and it's finally time to get paid to keep learning by working for someone else.  
 
