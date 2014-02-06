@@ -26,6 +26,7 @@ RSpec.configure do |config|
   #fixes issues with capybara not detecting db changes made during tests
   config.use_transactional_fixtures = false
 
+
   config.before :each do
     if Capybara.current_driver == :rack_test
       DatabaseCleaner.strategy = :transaction
@@ -40,6 +41,16 @@ RSpec.configure do |config|
   end
 
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
+
+  # If you're not using ActiveRecord, or you'd prefer not to run each of your
+  # examples within a transaction, remove the following line or assign false
+  # instead of true.
+  # NOTE: Changed this from `true` to `false` so that selenium
+  # tests which rely on javascript can actually access the database
+  # operations, which otherwise would occur in a separate thread
+  # as a transaction (to be rolled back after each test and not persisted).  This is slower but allows those specs to actually run.
+  # See http://stackoverflow.com/questions/5433690/capybaraselemium-how-to-initialize-database-in-an-integration-test-code-and-ma
+  config.use_transactional_fixtures = false
 
   config.infer_base_class_for_anonymous_controllers = false
 

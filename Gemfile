@@ -25,6 +25,8 @@ end
 
 group :development, :test do
   gem 'factory_girl_rails', '~> 4.3.0'
+  gem 'rspec-rails', '~> 2.14.1'
+  gem 'database_cleaner', '~> 1.2.0'
 end
 
 group :development do
@@ -32,14 +34,9 @@ group :development do
   gem 'quiet_assets', '~> 1.0.2'  # shortens up the server log output
   gem 'binding_of_caller', '~> 0.7.2' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
   gem 'letter_opener', '~> 1.2.0' # shows outgoing emails in your browser instead
-  gem 'rspec-rails', '~> 2.14.1'
   gem 'capybara',                   '<= 2.0.2'
   gem 'capybara-webkit', '~> 1.1.1'
-  gem 'database_cleaner', '~> 1.2.0'
   gem 'localtunnel', '~> 0.3'
-end
-
-group :test do
 end
 
 # update: rails 4 deprecated use of :assets group in gemfile

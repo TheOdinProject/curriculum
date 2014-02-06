@@ -1,4 +1,8 @@
-== Welcome to The Odin Project v0.1.1
+# Obsolete Dev Roadmap
+
+Our [Pivotal Tracker](https://www.pivotaltracker.com/s/projects/979092) will contain all updated feature queues.
+
+Release notes will (for now) continue to be provided below.
 
 It's game on.
 
@@ -9,17 +13,10 @@ It's game on.
 < none >
 
 *********************************************************************
-****************************  OTHER NOTES: **************************
-*********************************************************************
-< none >
-
-*********************************************************************
 **************************  Major Roadmap  **************************
 *********************************************************************
 
-(current dev version) 0.1.2:  ???
-
-## User Stories
+## User Stories (Obsolete!)
 
 * As a site owner, I want to send a flash message to site users so I can notify them of important events like office hours. (with selectivity and click to close)
 * As a user, I want to know if other users are working on the same material as I am now so I can reach out to work with them

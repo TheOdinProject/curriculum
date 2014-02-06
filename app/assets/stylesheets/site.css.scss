@@ -4,7 +4,9 @@
 
 /* Assumed: Bootstrap has done the CSS resets for us */
 
-
+p {
+  margin: 0px;
+}
 
 html {
   font-family: $body-fonts;
@@ -22,6 +24,21 @@ body {
     display:none;
   }
 }
+
+
+/* Admin Flash CSS */
+.admin-flash-text {
+  padding-left: 50px;
+  text-align: center;
+}
+
+.admin-flash-message {
+  margin-left: 40px;
+  margin: 0px;
+  position: relative;
+  z-index: 10;
+}
+/* end of Admin Flash CSS */
 
 footer {
 

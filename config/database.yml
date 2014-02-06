@@ -14,7 +14,7 @@ test:
   encoding: unicode
   database: theodinproject_test
   pool: 5
-  username:
+  username: 
   password: 
 
 production:
