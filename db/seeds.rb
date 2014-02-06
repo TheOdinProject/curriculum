@@ -1196,7 +1196,7 @@ c5_s1_of_1 = Section.create!(
     :title_url => "Resources".parameterize, 
     :course_id => c5.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources and a path through them."
+    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of the best resources out there and a clear path through them."
   )
 
 
@@ -1235,7 +1235,7 @@ c6_s1_of_1 = Section.create!(
     :title_url => "Resources".parameterize, 
     :course_id => c6.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources and a path through them."
+    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of the best resources out there and a clear path through them."
   )
 
 
@@ -1275,7 +1275,7 @@ c7_s1_of_1 = Section.create!(
     :title_url => "Resources".parameterize, 
     :course_id => c7.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources and a path through them."
+    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of the best resources out there and a clear path through them."
   )
 
 
