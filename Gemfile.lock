@@ -257,34 +257,34 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  better_errors
-  binding_of_caller
+  better_errors (~> 1.1.0)
+  binding_of_caller (~> 0.7.2)
   capybara (<= 2.0.2)
-  capybara-webkit
-  coffee-rails
-  database_cleaner
-  devise
-  factory_girl_rails
-  figaro
-  github_api
+  capybara-webkit (~> 1.1.1)
+  coffee-rails (~> 4.0.1)
+  database_cleaner (~> 1.2.0)
+  devise (~> 3.2.2)
+  factory_girl_rails (~> 4.3.0)
+  figaro (~> 0.7.0)
+  github_api (~> 0.11.1)
   google-api-client (~> 0.6.4)
   jquery-rails (~> 3.0.4)
   jquery-ui-rails (~> 4.0.3)
   less-rails (~> 2.3.3)
-  letter_opener
-  localtunnel
+  letter_opener (~> 1.2.0)
+  localtunnel (~> 0.3)
   newrelic_rpm (~> 3.6.5.130)
-  pg
-  protected_attributes
-  quiet_assets
+  pg (~> 0.17.1)
+  protected_attributes (~> 1.0.5)
+  quiet_assets (~> 1.0.2)
   rails (= 4.0.2)
-  rails_12factor
-  redcarpet
-  rspec-rails
-  sass-rails
-  simple_form
+  rails_12factor (~> 0.0.2)
+  redcarpet (~> 3.0.0)
+  rspec-rails (~> 2.14.1)
+  sass-rails (~> 4.0.1)
+  simple_form (~> 3.0.1)
   therubyracer (~> 0.11.4)
-  thin
+  thin (~> 1.6.1)
   twitter-bootstrap-rails (= 2.2.6)
   uglifier (>= 1.0.3)
   will_paginate (~> 3.0.5)

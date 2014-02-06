@@ -2,49 +2,49 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 gem 'rails',              '4.0.2'
-gem 'simple_form'        
+gem 'simple_form',         '~> 3.0.1'
 gem 'jquery-rails',       '~> 3.0.4'
 gem 'jquery-ui-rails',    '~> 4.0.3'
 gem 'newrelic_rpm',       '~> 3.6.5.130'
 gem 'google-api-client',  '~> 0.6.4'
-gem 'devise'              # For managing authentication
-gem 'figaro'                         # Managing environment variables
-gem 'github_api'  # to pull in the curriculum files
-gem 'thin'  # to use the "thin" webserver instead of webrick
-gem 'redcarpet' # to render the curriculum's .md files as html
+gem 'devise',    '~> 3.2.2'          # For managing authentication
+gem 'figaro',     '~> 0.7.0'                    # Managing environment variables
+gem 'github_api', '~> 0.11.1' # to pull in the curriculum files
+gem 'thin', '~> 1.6.1' # to use the "thin" webserver instead of webrick
+gem 'redcarpet', '~> 3.0.0' # to render the curriculum's .md files as html
 gem 'will_paginate', '~> 3.0.5' # to paginate student lists
-gem 'protected_attributes'
-gem 'pg'
+gem 'protected_attributes', '~> 1.0.5'
+gem 'pg', '~> 0.17.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-  gem 'rails_12factor'
+  gem 'rails_12factor', '~> 0.0.2'
 end
 
 group :development, :test do
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '~> 4.3.0'
 end
 
 group :development do
-  gem 'better_errors' # gives much better error messages for debug
-  gem 'quiet_assets'  # shortens up the server log output
-  gem 'binding_of_caller' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
-  gem 'letter_opener' # shows outgoing emails in your browser instead
-  gem 'rspec-rails'
+  gem 'better_errors', '~> 1.1.0' # gives much better error messages for debug
+  gem 'quiet_assets', '~> 1.0.2'  # shortens up the server log output
+  gem 'binding_of_caller', '~> 0.7.2' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
+  gem 'letter_opener', '~> 1.2.0' # shows outgoing emails in your browser instead
+  gem 'rspec-rails', '~> 2.14.1'
   gem 'capybara',                   '<= 2.0.2'
-  gem 'capybara-webkit'
-  gem 'database_cleaner'
-  gem 'localtunnel'
+  gem 'capybara-webkit', '~> 1.1.1'
+  gem 'database_cleaner', '~> 1.2.0'
+  gem 'localtunnel', '~> 0.3'
 end
 
 group :test do
 end
 
 # update: rails 4 deprecated use of :assets group in gemfile
-  gem 'sass-rails'                 
-  gem 'coffee-rails'               
+  gem 'sass-rails', '~> 4.0.1'                
+  gem 'coffee-rails', '~> 4.0.1'             
   gem 'twitter-bootstrap-rails',    '2.2.6'
   gem 'therubyracer',               '~> 0.11.4'
   gem 'less-rails',                 '~> 2.3.3'
