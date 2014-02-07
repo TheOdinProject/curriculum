@@ -35,6 +35,7 @@ To reflect some of the software development best practices from the industry tod
 
 Before diving in, it's important to have an idea of what Agile is.  There are certainly better links out there, so please suggest them!
 
+1. Watch this [video on Engineering Software as a Service](http://www.youtube.com/watch?v=d0uKY2kLKmk) from Armando Fox and David Patterson of Berkeley.  It covers the whole process of building SAAS from beginning to end.
 1. Watch this [video intro to SCRUM].  We won't be using all these practices in this exact same way, but it's a great intro.  We'll use Pivotal's "Points" system.
 2. Read through this [explanation of SCRUM and XP](http://www.serena.com/docs/repository/solutions/intro-to-agile-devel.pdf).  Don't get too caught up in the flow charts and details, we'll be doing our own thing.
 
@@ -69,6 +70,8 @@ You'll be developing features by working on their component stories!  We have a 
 For many of you, writing tests may be the biggest challenge off the bat.  For a project this big and distributed, it's absolutely essential that every new feature achieves as close to 100% test coverage as possible and the way to do that is with TDD.  You may remember the [Test First lessons](http://testfirst.org/learn_ruby) from back in [Web Development 101](http://www.theodinproject.com/courses/web-development-101/lessons).  The difference is that this time *you'll* be writing the tests.  
 
 If you're not sure where to start, check out the [Lesson on RSpec](http://www.theodinproject.com/courses/ruby-programming/lessons/introduction-to-rspec) in the Ruby Course.  The basic principle is to start with a failing test, make it pass with the least code possible, then refactor as necessary and repeat the process until the story is finished.  Since you've only written the least amount of code necessary to make the tests pass, you should have full coverage.
+
+Once you've finished that, we're putting together a more Rails-focused testing document at [https://github.com/TheOdinProject/curriculum/blob/master/rails/testing.md](https://github.com/TheOdinProject/curriculum/blob/master/rails/testing.md) which should help you take the next step.
 
 #### Pairing / Group / Mob Programming
 
