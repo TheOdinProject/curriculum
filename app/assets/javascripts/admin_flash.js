@@ -8,7 +8,7 @@ $(function () {
     
     setAdminFlashCookie(message_id, 'disabled', message_exp);
     
-    // Fire a Google Analytics custom event to identify when people are tracking 
+    // Fire a Google Analytics custom event to identify when people close the flash message 
     _gaq.push(['_trackEvent','admin_flash','close_message','admin_flash',Date.now()]);
   });
   
