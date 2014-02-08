@@ -128,6 +128,12 @@ describe "Courses and Lessons Pages" do
       subject.find(:xpath,"//*[@class='individual-lesson ']//*[@class='container']").text.should_not be_empty
     end
 
+    it "should have contributions links div" do
+      subject.should have_selector(".contribution-links")
+    end      
+      
+      
+      
     context "for projects" do
       before do
         visit lesson_path(course1.title_url, project1.title_url)
