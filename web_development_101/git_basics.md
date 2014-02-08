@@ -1,7 +1,7 @@
 # Git 101
 *Estimated Time: 2 hrs*
 
-We mentioned Git briefly in the previous course [Introduction to Web Development](/courses/introduction-to-web-development/lessons/tools-of-the-trade.md) and you've had a chance to use it during the [Rails project](/courses/web-development-101/lessons/project-rails.md) but now it's time to actually dig in a bit more and understand what Git really is.
+We mentioned Git briefly in the previous course [Introduction to Web Development](/courses/introduction-to-web-development/lessons/tools-of-the-trade) and you've had a chance to use it during the [Rails project](/courses/web-development-101/lessons/project-rails) but now it's time to actually dig in a bit more and understand what Git really is.
 
 Git is an essential professional tool.  Github is where just about every developer out there stores his or her portfolio and it's where your next job is likely to host their code as well.  Git will be a part of your everyday life as a developer and there's no avoiding it.  It can also be incredibly helpful to you as you slowly become aware of its more useful features.  Learning it can be a bit tough because it's not always conceptually linear, so don't fret if you still feel like you don't have a great handle on it by the end of this unit.  You really learn Git by needing to use it in a situation and being forced to learn your way out (the hard way, unfortunately).
 
