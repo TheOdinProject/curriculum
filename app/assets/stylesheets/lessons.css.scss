@@ -218,6 +218,11 @@
             transform: rotate(-10deg);
   }
 
+
+  @media only screen and (max-width : 420px) {
+    .popover { max-width: 176px; }
+  }
+
 }
 
 #lesson-nav{
@@ -254,7 +259,6 @@
   h2{
   }
 }
-
 
 
 
