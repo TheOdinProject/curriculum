@@ -131,7 +131,10 @@ describe "Courses and Lessons Pages" do
     it "should have contributions links div" do
       subject.should have_selector(".contribution-links")
     end      
-      
+
+    it "should have Octocat image" do
+      subject.should have_css('img', "octocat.png")
+    end    
       
       
     context "for projects" do
