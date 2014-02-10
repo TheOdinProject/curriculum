@@ -94,6 +94,7 @@ TODO: Your text description should only describe exactly what's being set up or 
 * ["Guard" by Ryan Bates via Railscasts](http://railscasts.com/episodes/264-guard) covers Guard, a gem that helps automate automated testing.
 * ["Factories not Fixtures" by Ryan Bates via Railscasts](http://railscasts.com/episodes/158-factories-not-fixtures)
 * [**RSpec Cheat Sheet**](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf)
+* [**RSpec Capybara Cheat Sheet**](https://gist.github.com/them0nk/2166525)
 * ["An Example using RSpec double, mock and stub"](http://blog.firsthand.ca/2011/12/example-using-rspec-double-mock-and.html)
 * [Documentation for RSpec Mocks](https://github.com/rspec/rspec-mocks
 )
