@@ -18,18 +18,29 @@
 
     <div class="action-box">
       <div class="completion-wrapper">
+        
+       
         <% if user_signed_in? %>
-          <%= link_to "#", :class => "action-complete-lesson" do %> 
+          <div class="checkbox-container">
+            <%= link_to "#", :class => "action-complete-lesson" do %> 
+              <div class="lc-checkbox"></div>
+              <h3>
+                Mark Lesson Completed
+              </h3>
+              <div style="clear:both"></div>
+            <% end %>
+          </div>
+        <% else %>
+          <div class="checkbox-container">
+            <div class="lc-logged-out-checkbox"></div>
             <h3>
               Mark Lesson Completed
             </h3>
-          <% end %>
-        <% else %>
-          <h3>
-            Mark Lesson Completed
-          </h3>
-          <%= link_to "Sign in to track your progress", login_path %> 
+            <div style="clear:both"></div>
+          </div>
+            <%= link_to "Sign in to track your progress", login_path %> 
         <% end %>
+        
       </div>  
       <h1>
         Congratulations!

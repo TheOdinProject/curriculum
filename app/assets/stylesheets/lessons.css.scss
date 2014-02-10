@@ -214,7 +214,40 @@
   }
 }
 
+.checkbox-container {
+  border: 2px dashed #999999;
+  border-radius: 10px;
+  margin: 0 auto 20px auto;
+  padding: 15px;
+  width: 400px; 
+  
+  h3 {
+    padding: 0;
+    margin: 5px 0 0 0!important;
+  }
+
+}
 
 
 
+.lc-checkbox {
+  float: left;
+  height: 55px;
+  width: 55px;
+  background: url("icons/lc_unchecked.png") 0 0 no-repeat;  
+}
 
+.lc-checkbox:hover {
+  float: left;
+  height: 55px;
+  width: 55px;
+  background: url("icons/lc_hover.png") 0 0 no-repeat;  
+}
+
+.lc-logged-out-checkbox {
+  float: left;
+  height: 55px;
+  width: 55px;
+  background: url("icons/lc_logged_out.png") 0 0 no-repeat;
+}
+  
