@@ -225,24 +225,39 @@ describe "Courses and Lessons Pages" do
     context "for logged in students" do
       
       let!(:signed_in_student){ FactoryGirl.create(:user) }
+
       before do
         sign_in(signed_in_student)
         visit lesson_path(course1.title_url, lesson1.title_url)
       end
       
       describe "End-of-lesson checkbox section" do
+        
+        let!(:completion_wrapper_div){ ".completion-wrapper" }
+        
         it "shouldn't have a link to sign in" do
-          within(".completion-wrapper") do
+          within(completion_wrapper_div) do
             expect(page).to_not have_link("", :href => login_path)
           end
+        end
+        it "should have text for marking lesson completed" do
+          within(completion_wrapper_div) do
+            expect(page).to have_text("Mark Lesson Completed")
+          end
+        end
+        it "should have a link (the checkbox) to mark a lesson completed" do
+          
         end
       end
     end
     context "for not logged in visitors" do
       
       describe "End-of-lesson checkbox section" do
+        
+        let!(:completion_wrapper_div){ ".completion-wrapper" }        
+        
         it "should contain a link to sign in" do
-          within(".completion-wrapper") do
+          within(completion_wrapper_div) do
             expect(page).to have_link("", :href => login_path)
           end
         end
