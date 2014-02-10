@@ -223,8 +223,19 @@ describe "Courses and Lessons Pages" do
     end
 
     context "for logged in students" do
+      
+      let!(:signed_in_student){ FactoryGirl.create(:user) }
+      before do
+        sign_in(signed_in_student)
+        visit lesson_path(course1.title_url, lesson1.title_url)
+      end
+      
       describe "End-of-lesson checkbox section" do
-        
+        it "shouldn't have a link to sign in" do
+          within(".completion-wrapper") do
+            expect(page).to_not have_link("", :href => login_path)
+          end
+        end
       end
     end
     context "for not logged in visitors" do
