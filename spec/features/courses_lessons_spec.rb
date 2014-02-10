@@ -215,5 +215,22 @@ describe "Courses and Lessons Pages" do
         end
       end
     end
+
+    describe "End-of-lesson checkbox" do
+      it "should be there" do
+        expect(page).to have_css(".completion-wrapper")
+      end
+    end
+
+    context "for logged in students" do
+      describe "End-of-lesson checkbox" do
+        
+      end
+    end
+    context "for not logged in visitors" do
+      describe "End-of-lesson checkbox" do
+        
+      end
+    end
   end
 end
