@@ -216,20 +216,23 @@ describe "Courses and Lessons Pages" do
       end
     end
 
-    describe "End-of-lesson checkbox" do
+    describe "End-of-lesson checkbox section" do
       it "should be there" do
         expect(page).to have_css(".completion-wrapper")
       end
     end
 
     context "for logged in students" do
-      describe "End-of-lesson checkbox" do
+      describe "End-of-lesson checkbox section" do
         
       end
     end
     context "for not logged in visitors" do
-      describe "End-of-lesson checkbox" do
-        
+      
+      describe "End-of-lesson checkbox section" do
+        it "should contain a link to sign in" do
+          expect(page).to have_css(".completion-wrapper a[href=#{login_path}]")
+        end
       end
     end
   end
