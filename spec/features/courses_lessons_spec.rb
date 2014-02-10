@@ -254,6 +254,24 @@ describe "Courses and Lessons Pages" do
               expect(page).to have_css("a.action-complete-lesson")
             end
           end
+          
+          context "after clicking the complete lesson box" do
+            # 
+            before do
+              
+            end
+            # 1. model creates a lesson_completion JAVASCRIPT!!!!
+            it "should create a lesson_completion instance", :js => true do
+              expect {
+                find(".action-complete-lesson").click
+                }.to change(LessonCompletion, :count).by(1)
+            end
+            
+            # 2. front end changes the class of the form to .action-uncomplete-lesson JAVASCRIPT!!!!
+            it "should change the form's class to reflect completion" do
+              fail
+            end
+          end
         end
       end
     end
