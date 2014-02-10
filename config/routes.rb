@@ -45,6 +45,8 @@ Theodinproject::Application.routes.draw do
   resources :splash_emails, :only => [:create]
 
   resource :forum, :only => [:show]
+  
+  resources :lesson_completions, :only => [:create]
 
   get "sitemap.xml" => "sitemap#index", :as => "sitemap", :defaults => { :format => "xml" }
 
