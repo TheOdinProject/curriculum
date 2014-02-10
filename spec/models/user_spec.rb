@@ -16,9 +16,7 @@ describe User do
   it { should respond_to(:username) }
   it { should respond_to(:email) }
   it { should respond_to(:password_digest) }
-  it { should respond_to(:content_activations) }
-  it { should respond_to(:content_buckets ) }
-  it { should respond_to(:user_pref) }
+
   it { should respond_to(:github) }
   it { should respond_to(:twitter) }
   it { should respond_to(:linkedin) }
@@ -27,7 +25,14 @@ describe User do
   it { should respond_to(:skype) }
   it { should respond_to(:screenhero) }
   it { should respond_to(:google_plus) }
-  it { should respond_to(:lessons_completed) }
+  
+  # Associations
+  it { should respond_to(:content_activations) }
+  it { should respond_to(:content_buckets ) }
+  it { should respond_to(:user_pref) }  
+  it { should respond_to(:lesson_completions) }
+  it { should respond_to(:completed_lessons) }
+  
   it { should be_valid }
 
   context "with all fields filled in" do
@@ -82,6 +87,10 @@ describe User do
       u.save
     end
     it { should_not be_valid }
+  end
+  
+  it "shouldn't yet have any completed lessons" do
+    expect(subject.completed_lessons).to be_empty
   end
 
   describe "when saving" do
