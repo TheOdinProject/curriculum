@@ -231,7 +231,9 @@ describe "Courses and Lessons Pages" do
       
       describe "End-of-lesson checkbox section" do
         it "should contain a link to sign in" do
-          expect(page).to have_css(".completion-wrapper a[href=#{login_path}]")
+          within(".completion-wrapper") do
+            expect(page).to have_link("", :href => login_path)
+          end
         end
       end
     end
