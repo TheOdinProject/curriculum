@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131224032949) do
+ActiveRecord::Schema.define(:version => 20140210201517) do
 
   create_table "admin_flashes", :force => true do |t|
     t.datetime "created_at", :null => false
@@ -68,6 +68,15 @@ ActiveRecord::Schema.define(:version => 20131224032949) do
 
   add_index "courses", ["title"], :name => "index_courses_on_title", :unique => true
   add_index "courses", ["title_url"], :name => "index_courses_on_title_url"
+
+  create_table "lesson_completions", :force => true do |t|
+    t.integer  "lesson_id"
+    t.integer  "student_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  add_index "lesson_completions", ["lesson_id", "student_id"], :name => "index_lesson_completions_on_lesson_id_and_student_id", :unique => true
 
   create_table "lessons", :force => true do |t|
     t.string   "title"

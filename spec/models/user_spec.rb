@@ -27,6 +27,7 @@ describe User do
   it { should respond_to(:skype) }
   it { should respond_to(:screenhero) }
   it { should respond_to(:google_plus) }
+  it { should respond_to(:lessons_completed) }
   it { should be_valid }
 
   context "with all fields filled in" do

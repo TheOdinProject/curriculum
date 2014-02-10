@@ -18,6 +18,7 @@ describe Lesson do
   it { should respond_to(:position) }
   it { should respond_to(:content) }
   it { should respond_to(:section_id) }
+  it { should respond_to(:completing_users) }
 
   # Associations
   it { should respond_to(:course) }
