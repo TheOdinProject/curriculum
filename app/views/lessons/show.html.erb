@@ -18,7 +18,9 @@
 
     <div class="action-box">
       <div class="completion-wrapper">
-        <%= link_to "Sign in to track your progress", login_path %> 
+        <% unless user_signed_in? %>
+          <%= link_to "Sign in to track your progress", login_path %> 
+        <% end %>
       </div>  
       <h1>
         Congratulations!
