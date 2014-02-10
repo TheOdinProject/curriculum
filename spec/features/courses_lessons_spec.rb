@@ -240,13 +240,20 @@ describe "Courses and Lessons Pages" do
             expect(page).to_not have_link("", :href => login_path)
           end
         end
-        it "should have text for marking lesson completed" do
-          within(completion_wrapper_div) do
-            expect(page).to have_text("Mark Lesson Completed")
-          end
-        end
-        it "should have a link (the checkbox) to mark a lesson completed" do
+        
+        context "if user hasn't yet completed the lesson" do
+          # (default state)
           
+          it "should have text for marking lesson completed" do
+            within(completion_wrapper_div) do
+              expect(page).to have_text("Mark Lesson Completed")
+            end
+          end
+          it "should have a link (the checkbox) to mark a lesson completed" do
+            within(completion_wrapper_div) do
+              expect(page).to have_css("a.action-complete-lesson")
+            end
+          end
         end
       end
     end
@@ -259,6 +266,12 @@ describe "Courses and Lessons Pages" do
         it "should contain a link to sign in" do
           within(completion_wrapper_div) do
             expect(page).to have_link("", :href => login_path)
+          end
+        end
+        
+        it "should NOT have a link (the checkbox) to mark a lesson completed" do
+          within(completion_wrapper_div) do
+            expect(page).to_not have_css("a.action-complete-lesson")
           end
         end
       end
