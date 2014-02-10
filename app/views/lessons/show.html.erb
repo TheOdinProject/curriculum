@@ -18,9 +18,11 @@
 
     <div class="action-box">
       <div class="completion-wrapper">
-        <h3>
-          Mark Lesson Completed
-        </h3>
+        <%= link_to "#", :class => "action-complete-lesson" do %> 
+          <h3>
+            Mark Lesson Completed
+          </h3>
+        <% end %>
         <% unless user_signed_in? %>
           <%= link_to "Sign in to track your progress", login_path %> 
         <% end %>
