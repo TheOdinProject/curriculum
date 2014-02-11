@@ -22,18 +22,16 @@ checkbox).
 
     <% else %>
 
-      <%= link_to "#" do %>
+      <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
 
-        <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
-          <div class="checkbox-container lc-unchecked">
+          <a href="#" class="checkbox-container lc-unchecked">
             <%= hidden_field_tag(:lesson_id, @lesson.id) %>
             <%= hidden_field_tag(:student_id, current_user.id) %>
             <h3>
               Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
             </h3>
-          </div>
-        <% end %>
-
+  
+        </a>
       <% end %>
 
     <% end %>
