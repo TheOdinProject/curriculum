@@ -256,20 +256,20 @@ describe "Courses and Lessons Pages" do
           end
           
           context "after clicking the complete lesson box" do
-            # 
-            before do
-              
-            end
-            # 1. model creates a lesson_completion JAVASCRIPT!!!!
-            it "should create a lesson_completion instance", :js => true do
+            
+            # model creates a lesson_completion instance
+            it "should create a lesson_completion instance (JS test)", :js => true do
               expect {
                 find(".action-complete-lesson").click
                 }.to change(LessonCompletion, :count).by(1)
             end
             
-            # 2. front end changes the class of the form to .action-uncomplete-lesson JAVASCRIPT!!!!
-            it "should change the form's class to reflect completion" do
-              fail
+            # After the AJAX returns, it should re-render just the checkbox area to reflect
+            # the completed checkbox and add a link to un-complete the lesson
+            # Note: this test was created in Nitrous.io so it couldn't be run!
+            it "should change the form's class to reflect completion (JS test)", :js => true do
+              find(".action-complete-lesson").click
+              expect(page).to have_css("a.lc-uncomplete-link") 
             end
           end
         end
