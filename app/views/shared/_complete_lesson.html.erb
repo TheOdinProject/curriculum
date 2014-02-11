@@ -2,7 +2,8 @@
 This partial displays the section at the bottom of the page where a user can mark
 a lesson completed or not completed.  It will also be rendered with the unobtrusive
 javscript that is used with the AJAX form which allows the user to do the checking
-and unchecking action (so once on initial page load and again any time the user clicks the
+and unchecking 
+(so once on initial page load and again any time the user clicks the
 checkbox).
 -->
   
@@ -17,11 +18,11 @@ checkbox).
           <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
         </h3>
       </div>  
-    <%= link_to "Change #{@lesson.is_project ? 'project' : 'lesson'} to not completed", "#", :class => "action-lesson lc-uncomplete-link" %>
+    <%= link_to "Change #{@lesson.is_project ? 'project' : 'lesson'} to not completed", "#", :class => "lc-uncomplete-link" %>
 
     <% else %>
 
-      <%= link_to "#", :class => "action-complete-lesson action-lesson" do %>
+      <%= link_to "#" do %>
 
         <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
           <div class="checkbox-container lc-unchecked">

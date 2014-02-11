@@ -214,6 +214,8 @@
   }
 }
 
+/* Covers the section at the bottom of each lesson where the
+user can mark it completed or not completed */
 .completion-wrapper{
   a:hover{
     text-decoration: none;
@@ -224,11 +226,6 @@
   a.lc-signin-link{
     font-size: 1.25em;
     font-style: italic;
-  }
-
-  // This is the generic class around lesson completion anchor links
-  // which will submit the form
-  .action-lesson{
   }
 
   .checkbox-container {
@@ -249,6 +246,9 @@
       margin: 0;
     }
   }
+
+  /*  This is like a function (it's from SASS) so we don't
+      have to repeat ourselves all the time below */
   @mixin checkbox-bg($path){
     background: url($path) 25px 20px no-repeat;
   }
