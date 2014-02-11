@@ -19,17 +19,36 @@
     <div class="action-box">
       <div class="completion-wrapper">
         
+        
        
         <% if user_signed_in? %>
           <div class="checkbox-container">
-            <%= link_to "#", :class => "action-complete-lesson" do %> 
-              <div class="lc-checkbox"></div>
-              <h3>
-                Mark Lesson Completed
-              </h3>
-              <div style="clear:both"></div>
+            <%= form_for LessonCompletion.new, :remote => true do |f| %>
+              <%= hidden_field_tag(:lesson_id, @lesson.id) %>
+              <%= hidden_field_tag(:student_id, current_user.id) %>
+            
+              <%= link_to "#", :class => "action-complete-lesson action-lesson" do %> 
+                <div class="lc-checkbox"></div>
+                <h3>
+                  Mark Lesson Completed
+                </h3>
+                <div style="clear:both"></div>
+              <% end %>
             <% end %>
           </div>
+        <script>
+          $(function(){
+            $(".action-lesson").on("click", function(e){
+              e.preventDefault();
+              console.log(e);
+              $(e.target).parents("form").submit();
+            });
+            //function(e){
+            //;
+            //})
+          })
+        </script>
+        
         <% else %>
           <div class="checkbox-container">
             <div class="lc-logged-out-checkbox"></div>
