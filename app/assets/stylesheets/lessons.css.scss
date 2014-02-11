@@ -265,8 +265,8 @@ user can mark it completed or not completed */
     @include checkbox-bg("icons/lc_checked.svg");
   }
   .lc-waiting{
-    @include checkbox-bg("icons/ajax-loader.gif");
-    background-size: 47px 43px !important;
+    background: url("icons/ajax-loader.gif") 47px 43px no-repeat;
+    background-size: 32px 32px !important;
   }
   .lc-disabled{
     color: $vlight_gray;
