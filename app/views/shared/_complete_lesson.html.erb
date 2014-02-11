@@ -9,35 +9,71 @@ checkbox).
   <% if user_signed_in? %>
   
     <% if current_user.completed_lessons.include?(@lesson) %>
-      <%= render  :partial => "lessons/completion_form", 
-                  :locals => {  :lesson => @lesson, 
-                                :form_class => "action-uncomplete-lesson", 
-                                :method => "DELETE",
-                                :form_text => "Mark Lesson Uncompleted" } %>
+      <div class="checkbox-container lc-checked">
+        <%= hidden_field_tag(:lesson_id, @lesson.id) %>
+        <%= hidden_field_tag(:student_id, current_user.id) %>
+        
+        <h3>
+          Lesson Completed
+        </h3>
+      </div>  
+      <%= link_to "Change lesson to not completed", "#", :class => "action-lesson lc-uncomplete-link" %>
 
     <% else %>
-      <%= render  :partial => "lessons/completion_form", 
-                  :locals => {  :lesson => @lesson, 
-                                :form_class => "action-complete-lesson", 
-                                :method => "POST",
-                                :form_text => "Mark Lesson Completed" } %>
-    <% end %>
 
+      <%= link_to "#", :class => "action-complete-lesson action-lesson" do %>
+        <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
+          <div class="checkbox-container lc-unchecked">
+            <%= hidden_field_tag(:lesson_id, @lesson.id) %>
+            <%= hidden_field_tag(:student_id, current_user.id) %>
+            
+            <h3>
+              Mark Lesson Completed
+            </h3>
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+  
+  <% else %>
+
+      <div class="checkbox-container lc-disabled">            
+          <h3>
+            Mark Lesson Completed
+          </h3>
+      </div>
+
+    <%= link_to "Sign in to track your progress", login_path, :class => "lc-signin-link" %> 
+  <% end %>
+<div class="lc-waiting"></div>
   <script>
     $(function(){
-      $(".action-lesson").on("click", function(e){
+      $(".checkbox-container").on("click", function(e){
         e.preventDefault();
         console.log(e);
-        $(e.target).parents("form").submit();
+        checkboxContainer = $(".checkbox-container");
+        
+        // Switch to AJAX waiting state, since it will be overwritten by the
+        // refresh from the unobtrusive javascript
+        if(!checkboxContainer.hasClass("lc-disabled")){       
+          checkboxContainer.addClass("lc-waiting");
+          // submit form
+          $(e.target).parents("form").submit();
+        };
       });
+      
+      // Set up hover listener to add hover state
+      $(".checkbox-container").on("mouseenter",function(e){
+        if(!$(".checkbox-container").hasClass("lc-disabled")){  
+          console.log(e);
+          $(".checkbox-container").addClass("lc-hover");
+        }
+      });
+      
+      $(".checkbox-container").on("mouseleave",function(e){
+         console.log(e);
+        $(".checkbox-container").removeClass("lc-hover");
+      });                                            
     })
   </script>
   
-  <% else %>
-    <div class="disabledcheckbox-container">
-      <h3>
-        Mark Lesson Completed
-      </h3>
-    </div>
-    <%= link_to "Sign in to track your progress", login_path %> 
-  <% end %>

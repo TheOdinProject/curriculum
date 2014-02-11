@@ -214,40 +214,61 @@
   }
 }
 
-.checkbox-container {
-  border: 2px dashed #999999;
-  border-radius: 10px;
-  margin: 0 auto 20px auto;
-  padding: 15px;
-  width: 400px; 
-  
-  h3 {
-    padding: 0;
-    margin: 5px 0 0 0!important;
+.completion-wrapper{
+  a:hover{
+    text-decoration: none;
+  }
+  a.lc-uncomplete-link{
+    font-size: .75em;
+  }
+  a.lc-signin-link{
+    font-size: 1.25em;
+    font-style: italic;
   }
 
+  // This is the generic class around lesson completion anchor links
+  // which will submit the form
+  .action-lesson{
+  }
+
+  .checkbox-container {
+    border: 2px dashed $vlight_gray;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    text-align: left;
+    width: 350px; 
+    background-size: 86px 86px !important;
+    
+    h3 {
+      padding: 0;
+      margin: 5px 0 10px 115px!important;
+      font-size: 1.75em;
+    }
+    form {
+      margin: 0;
+    }
+  }
+  @mixin checkbox-bg($path){
+    background: url($path) 25px 20px no-repeat;
+  }
+
+  .lc-unchecked{
+    @include checkbox-bg("icons/lc_unchecked.svg");
+  }
+  .lc-hover{
+    @include checkbox-bg("icons/lc_hover.svg");
+  }
+  .lc-checked{
+    @include checkbox-bg("icons/lc_checked.svg");
+  }
+  .lc-waiting{
+    @include checkbox-bg("icons/ajax-loader.gif");
+    background-size: 47px 43px !important;
+  }
+  .lc-disabled{
+    color: $vlight_gray;
+    @include checkbox-bg("icons/lc_logged_out_3.svg");
+  }
 }
 
-
-
-.lc-checkbox {
-  float: left;
-  height: 55px;
-  width: 55px;
-  background: url("icons/lc_unchecked.png") 0 0 no-repeat;  
-}
-
-.lc-checkbox:hover {
-  float: left;
-  height: 55px;
-  width: 55px;
-  background: url("icons/lc_hover.png") 0 0 no-repeat;  
-}
-
-.lc-logged-out-checkbox {
-  float: left;
-  height: 55px;
-  width: 55px;
-  background: url("icons/lc_logged_out.png") 0 0 no-repeat;
-}
-  
