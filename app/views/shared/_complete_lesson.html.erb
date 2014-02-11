@@ -1,0 +1,43 @@
+<!--
+This partial displays the section at the bottom of the page where a user can mark
+a lesson completed or not completed.  It will also be rendered with the unobtrusive
+javscript that is used with the AJAX form which allows the user to do the checking
+and unchecking action (so once on page load and again any time the user clicks the
+checkbox).
+-->
+  
+  <% if user_signed_in? %>
+  
+    <% if current_user.completed_lessons.include?(@lesson) %>
+      <%= render  :partial => "lessons/completion_form", 
+                  :locals => {  :lesson => @lesson, 
+                                :form_class => "action-uncomplete-lesson", 
+                                :method => "DELETE",
+                                :form_text => "Mark Lesson Uncompleted" } %>
+
+    <% else %>
+      <%= render  :partial => "lessons/completion_form", 
+                  :locals => {  :lesson => @lesson, 
+                                :form_class => "action-complete-lesson", 
+                                :method => "POST",
+                                :form_text => "Mark Lesson Completed" } %>
+    <% end %>
+
+  <script>
+    $(function(){
+      $(".action-lesson").on("click", function(e){
+        e.preventDefault();
+        console.log(e);
+        $(e.target).parents("form").submit();
+      });
+    })
+  </script>
+  
+  <% else %>
+    <div class="disabledcheckbox-container">
+      <h3>
+        Mark Lesson Completed
+      </h3>
+    </div>
+    <%= link_to "Sign in to track your progress", login_path %> 
+  <% end %>
