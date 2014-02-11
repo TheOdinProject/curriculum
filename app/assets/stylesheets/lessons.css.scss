@@ -214,7 +214,63 @@
   }
 }
 
+/* Covers the section at the bottom of each lesson where the
+user can mark it completed or not completed */
+.completion-wrapper{
+  a:hover{
+    text-decoration: none;
+  }
+  a.lc-uncomplete-link{
+    font-size: .75em;
+  }
+  a.lc-signin-link{
+    font-size: 1.25em;
+    font-style: italic;
+  }
 
+  /* Note: that this can be either a div or an anchor tag */
+  .checkbox-container {
+    display: block;
+    border: 2px dashed $vlight_gray;
+    border-radius: 10px;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    text-align: left;
+    width: 350px; 
+    background-size: 86px 86px !important;
+    
+    h3 {
+      padding: 0;
+      margin: 5px 0 10px 115px!important;
+      font-size: 1.75em;
+    }
+    form {
+      margin: 0;
+    }
+  }
 
+  /*  This is like a function (it's from SASS) so we don't
+      have to repeat ourselves all the time below */
+  @mixin checkbox-bg($path){
+    background: url($path) 25px 20px no-repeat;
+  }
 
+  .lc-unchecked{
+    @include checkbox-bg("icons/lc_unchecked.svg");
+  }
+  .lc-hover{
+    @include checkbox-bg("icons/lc_hover.svg");
+  }
+  .lc-checked{
+    @include checkbox-bg("icons/lc_checked.svg");
+  }
+  .lc-waiting{
+    background: url("icons/ajax-loader.gif") 47px 43px no-repeat;
+    background-size: 32px 32px !important;
+  }
+  .lc-disabled{
+    color: $vlight_gray;
+    @include checkbox-bg("icons/lc_logged_out_3.svg");
+  }
+}
 

@@ -1,0 +1,46 @@
+require 'spec_helper'
+
+describe LessonCompletionsController do
+
+  let!(:student) { FactoryGirl.create(:user) }
+  let!(:lesson) { FactoryGirl.create(:lesson) }
+  #let!(:lc) { LessonCompletions.create(:lesson_id => lesson.id, :student_id => student.id) }
+  let!(:lc_attrs) {{ :lesson_id => lesson.id, :student_id => student.id }}
+  let!(:lc_invalid_attrs) { { :lesson_id => lesson.id+1, :student_id => student.id+1 } }
+
+  context "before authentication" do
+    it "POST #create unauthorized" do
+      post :create, lc_attrs
+      assert_response 401
+    end
+  end
+  
+  context "after authentication" do
+    before do
+      sign_in(student)
+    end
+
+    describe "POST #create" do
+      context "with valid attributes" do
+        it "saves the new event to the database" do
+          expect{
+            post :create, lc_attrs
+          }.to change(LessonCompletion, :count).by(1)
+        end
+      end
+
+      context "with invalid attributes" do
+        it "does not save the new event to the database" do
+          expect{
+            post :create, lc_invalid_attrs
+          }.to change(LessonCompletion, :count).by(0)
+        end
+
+        it "provides a failure redirect" do
+          post :create, lc_invalid_attrs
+          assert_response 400 # bad request
+        end
+      end
+    end
+  end
+end

@@ -215,5 +215,90 @@ describe "Courses and Lessons Pages" do
         end
       end
     end
+
+    describe "End-of-lesson checkbox section" do
+      it "should be there" do
+        expect(page).to have_css(".completion-wrapper")
+      end
+    end
+
+    context "for logged in students" do
+      
+      let!(:signed_in_student){ FactoryGirl.create(:user) }
+
+      before do
+        sign_in(signed_in_student)
+        visit lesson_path(course1.title_url, lesson1.title_url)
+      end
+      
+      describe "End-of-lesson checkbox section" do
+        
+        let!(:completion_wrapper_div){ ".completion-wrapper" }
+        
+        it "shouldn't have a link to sign in" do
+          within(completion_wrapper_div) do
+            expect(page).to_not have_link("", :href => login_path)
+          end
+        end
+        
+        context "if user hasn't yet completed the lesson" do
+          # (default state)
+          
+          it "should have text for marking lesson completed" do
+            within(completion_wrapper_div) do
+              expect(page).to have_text("Mark Lesson Completed")
+            end
+          end
+          it "should have a link (the checkbox) to mark a lesson completed" do
+            within(completion_wrapper_div) do
+              expect(page).to have_css("a.action-complete-lesson")
+            end
+          end
+          
+          context "after clicking the complete lesson box" do
+            
+            # model creates a lesson_completion instance
+            it "should create a lesson_completion instance (JS test)", :js => true do
+              expect {
+                find(".action-complete-lesson").click
+                }.to change(LessonCompletion, :count).by(1)
+            end
+            
+            # After the AJAX returns, it should re-render just the checkbox area to reflect
+            # the completed checkbox and add a link to un-complete the lesson
+            # Note: this test was created in Nitrous.io so it couldn't be run!
+            it "should change the form's class to reflect completion (JS test)", :js => true do
+              find(".action-complete-lesson").click
+              expect(page).to have_css("a.lc-uncomplete-link") 
+            end
+          end
+        end
+      end
+    end
+    context "for not logged in visitors" do
+      
+      describe "End-of-lesson checkbox section" do
+        
+        let!(:completion_wrapper_div){ ".completion-wrapper" }        
+        
+        it "should contain a link to sign in" do
+          within(completion_wrapper_div) do
+            expect(page).to have_link("", :href => login_path)
+          end
+        end
+        
+        it "should have text for marking lesson completed" do
+          within(completion_wrapper_div) do
+            expect(page).to have_text("Mark Lesson Completed")
+          end
+        end
+        
+        it "should NOT have a link (the checkbox) to mark a lesson completed" do
+          within(completion_wrapper_div) do
+            expect(page).to_not have_css("a.action-complete-lesson")
+          end
+        end
+      end
+    end
   end
 end
