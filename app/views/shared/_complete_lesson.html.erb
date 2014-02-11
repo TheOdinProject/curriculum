@@ -2,78 +2,50 @@
 This partial displays the section at the bottom of the page where a user can mark
 a lesson completed or not completed.  It will also be rendered with the unobtrusive
 javscript that is used with the AJAX form which allows the user to do the checking
-and unchecking action (so once on page load and again any time the user clicks the
+and unchecking action (so once on initial page load and again any time the user clicks the
 checkbox).
 -->
   
   <% if user_signed_in? %>
   
     <% if current_user.completed_lessons.include?(@lesson) %>
+
       <div class="checkbox-container lc-checked">
         <%= hidden_field_tag(:lesson_id, @lesson.id) %>
         <%= hidden_field_tag(:student_id, current_user.id) %>
-        
         <h3>
-          Lesson Completed
+          <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
         </h3>
       </div>  
-      <%= link_to "Change lesson to not completed", "#", :class => "action-lesson lc-uncomplete-link" %>
+    <%= link_to "Change #{@lesson.is_project ? 'project' : 'lesson'} to not completed", "#", :class => "action-lesson lc-uncomplete-link" %>
 
     <% else %>
 
       <%= link_to "#", :class => "action-complete-lesson action-lesson" do %>
+
         <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
           <div class="checkbox-container lc-unchecked">
             <%= hidden_field_tag(:lesson_id, @lesson.id) %>
             <%= hidden_field_tag(:student_id, current_user.id) %>
-            
             <h3>
-              Mark Lesson Completed
+              Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
             </h3>
           </div>
         <% end %>
+
       <% end %>
+
     <% end %>
   
   <% else %>
 
       <div class="checkbox-container lc-disabled">            
           <h3>
-            Mark Lesson Completed
+            Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
           </h3>
       </div>
 
     <%= link_to "Sign in to track your progress", login_path, :class => "lc-signin-link" %> 
   <% end %>
+<div class="lc-hover"></div>
 <div class="lc-waiting"></div>
-  <script>
-    $(function(){
-      $(".checkbox-container").on("click", function(e){
-        e.preventDefault();
-        console.log(e);
-        checkboxContainer = $(".checkbox-container");
-        
-        // Switch to AJAX waiting state, since it will be overwritten by the
-        // refresh from the unobtrusive javascript
-        if(!checkboxContainer.hasClass("lc-disabled")){       
-          checkboxContainer.addClass("lc-waiting");
-          // submit form
-          $(e.target).parents("form").submit();
-        };
-      });
-      
-      // Set up hover listener to add hover state
-      $(".checkbox-container").on("mouseenter",function(e){
-        if(!$(".checkbox-container").hasClass("lc-disabled")){  
-          console.log(e);
-          $(".checkbox-container").addClass("lc-hover");
-        }
-      });
-      
-      $(".checkbox-container").on("mouseleave",function(e){
-         console.log(e);
-        $(".checkbox-container").removeClass("lc-hover");
-      });                                            
-    })
-  </script>
-  
