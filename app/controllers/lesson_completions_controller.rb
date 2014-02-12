@@ -20,7 +20,22 @@ class LessonCompletionsController < ApplicationController
   end
   
   def destroy
-    
+    # Validate that the id's do in fact correspond to real students and lessons
+    @lesson = Lesson.where(:id => params[:lesson_id]).first
+    student = current_user
+
+    if @lesson.nil?
+      render :nothing => true, :status => 400 # bad request
+    else   
+      lc = LessonCompletion.where(:student_id => student.id, :lesson_id => @lesson.id).first
+      if lc.nil? 
+        render :nothing => true, :status => 400 # bad request
+      elsif lc.delete
+        render "create", :formats => [:js] 
+      else
+        render :nothing => true, :status => 400 # bad request
+      end
+    end
   end
 
   private

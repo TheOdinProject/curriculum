@@ -15,7 +15,7 @@ describe LessonCompletionsController do
     end
     
     it "DELETE #destroy unauthorized" do
-      delete :destroy, :id => lc_attrs[:lesson_id]
+      delete :destroy, :lesson_id => lc_attrs[:lesson_id]
       assert_response 401
     end
   end
@@ -41,6 +41,7 @@ describe LessonCompletionsController do
           }.to change(LessonCompletion, :count).by(0)
         end
 
+        
         it "provides a failure redirect" do
           post :create, lc_invalid_attrs
           assert_response 400 # bad request
@@ -49,7 +50,23 @@ describe LessonCompletionsController do
     end
     
     describe "DELETE #destroy" do
+      context "without an existing lesson_completions object" do
+        it "returns a bad request status" do
+          delete :destroy, :lesson_id => lc_attrs[:lesson_id]
+          assert_response 400 # bad request
+        end
+      end
       
+      context "with an existing lesson_completions object and valid request attributes" do  
+        
+        let!(:lc){ LessonCompletion.create(lc_attrs)}
+        
+        it "destroys the existing object" do
+          expect{
+            delete :destroy, :lesson_id => lc.lesson_id
+          }.to change(LessonCompletion, :count).by(-1)
+        end
+      end
     end
   end
 end
