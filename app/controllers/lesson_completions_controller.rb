@@ -10,15 +10,11 @@ class LessonCompletionsController < ApplicationController
     if @lesson.nil? || student.nil?
       render :nothing => true, :status => 400 # bad request
     else   
-      if student == current_user 
-        lc = LessonCompletion.new(:student_id => student.id, :lesson_id => @lesson.id)
-        if lc.save
-          render "create", :formats => [:js] #:json => lc, :status => 201 # created
-        else
-          render :nothing => true, :status => 400 # bad request
-        end
+      lc = LessonCompletion.new(:student_id => student.id, :lesson_id => @lesson.id)
+      if lc.save
+        render "create", :formats => [:js] #:json => lc, :status => 201 # created
       else
-        render :nothing => true, :status => 401 # unauthorized
+        render :nothing => true, :status => 400 # bad request
       end
     end
   end
