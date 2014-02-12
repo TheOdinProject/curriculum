@@ -5,9 +5,11 @@
 // a lesson page.  Crazy?  Maybe.  But you like that, don't you?
 
 $(function(){
-  // Add listeners as long as it's NOT in the disabled state
-  if(!$(".checkbox-container").hasClass("lc-disabled")){        
-    $(".checkbox-container").on("click", function(e){
+  
+  // Delegate listeners to the wrapper so they stick around when new forms
+  // and checkboxes are created.  This is an example of "event delegation".
+  $(".completion-wrapper").on("click", ".checkbox-container", function(e){
+    if(!$(".checkbox-container").hasClass("lc-disabled")){        
       e.preventDefault();
       checkboxContainer = $(".checkbox-container");
       
@@ -17,15 +19,27 @@ $(function(){
       
       // submit the form
       $(e.target).parents("form").submit();
-    });
+    }
+  });
     
-    // Set up hover listener (separate mouseenter and mouseleave)
-    // Don't enable if it's a disabled class
-    $(".checkbox-container").on("mouseenter",function(e){
+  // Delegate a hover listener (separate mouseenter and mouseleave) to completion wrapper
+  // Don't enable if it's a disabled class
+  $(".completion-wrapper").on("mouseenter", ".checkbox-container",function(e){
+    if(!$(".checkbox-container").hasClass("lc-disabled")){  
       $(".checkbox-container").addClass("lc-hover");
-    });
-    $(".checkbox-container").on("mouseleave",function(e){
+    }
+  });
+  $(".completion-wrapper").on("mouseleave", ".checkbox-container",function(e){
+    if(!$(".checkbox-container").hasClass("lc-disabled")){  
       $(".checkbox-container").removeClass("lc-hover");
-    });                                            
-  }
+    }
+  });                                            
+  
+  // Delegate an event listener to the completion wrapper for if the user clicks
+  // the "mark this lesson NOT completed" link
+  $(".completion-wrapper").on("click", ".lc-uncomplete-link", function(e){
+    e.preventDefault();
+    // submit the form
+    $(e.target).parents("form").submit();
+  });
 })

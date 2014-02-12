@@ -46,7 +46,8 @@ Theodinproject::Application.routes.draw do
 
   resource :forum, :only => [:show]
   
-  resources :lesson_completions, :only => [:create]
+  post 'lesson_completions' => 'lesson_completions#create'
+  delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => "lesson_completion"
 
   get "sitemap.xml" => "sitemap#index", :as => "sitemap", :defaults => { :format => "xml" }
 

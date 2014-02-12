@@ -1,5 +1,10 @@
 require 'spec_helper'
 
+# This spec combines both the courses and the lessons into one since they're so tightly intertwined
+# Particularly because you need to create a course to create a section to create a lesson
+# At some point we should probably refactor this out into separate specs and build a factory script
+# that, if you want to create a Lesson, will automatically create a Section and Course for you.
+
 describe "Courses and Lessons Pages" do
 
   subject {page}
@@ -251,7 +256,7 @@ describe "Courses and Lessons Pages" do
           end
           it "should have a link (the checkbox) to mark a lesson completed" do
             within(completion_wrapper_div) do
-              expect(page).to have_css("a.action-complete-lesson")
+              expect(page).to have_css("a.lc-unchecked")
             end
           end
           
@@ -260,7 +265,7 @@ describe "Courses and Lessons Pages" do
             # model creates a lesson_completion instance
             it "should create a lesson_completion instance (JS test)", :js => true do
               expect {
-                find(".action-complete-lesson").click
+                find("a.lc-unchecked").click
                 }.to change(LessonCompletion, :count).by(1)
             end
             
@@ -270,6 +275,32 @@ describe "Courses and Lessons Pages" do
             it "should change the form's class to reflect completion (JS test)", :js => true do
               find(".action-complete-lesson").click
               expect(page).to have_css("a.lc-uncomplete-link") 
+            end
+          end
+        end
+        
+        context "if the user has already completed the lesson" do
+          
+          before do
+            @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
+            puts signed_in_student.inspect
+            puts "LESSON ID #{lesson1.id}!"
+            puts "LC itself is #{@lc}!"
+            puts "LC ID #{@lc.inspect}!"
+            visit lesson_path(course1.title_url, lesson1.title_url)
+          end
+          
+          it "should have a link for marking lesson NOT completed" do
+            #puts page.html
+            expect(page).to have_css(".lc-uncomplete-link")
+          end
+          
+          context "after clicking the 'mark lesson not completed' link" do
+            # model destroys the lesson_completion instance
+            it "should destroy the lesson_completion instance (JS test)", :js => true do
+              expect {
+                find(".lc-uncomplete-link").click
+                }.to change(LessonCompletion, :count).by(-1)
             end
           end
         end
