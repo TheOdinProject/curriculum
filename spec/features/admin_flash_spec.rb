@@ -27,7 +27,7 @@ describe "Admin Flash" do
         visit courses_path
       end
         
-      it "won't display previously closed message !!!NOTE: FAILS if there is no Firefox installed!!!", :js => true do
+      it "won't display previously closed message (JS test)", :js => true do
         expect(page).to_not have_content(admin_flash.message)
       end
         
