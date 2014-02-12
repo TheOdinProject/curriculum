@@ -12,25 +12,23 @@ checkbox).
     <% if current_user.completed_lessons.include?(@lesson) %>
 
       <div class="checkbox-container lc-checked">
-        <%= hidden_field_tag(:lesson_id, @lesson.id) %>
-        <%= hidden_field_tag(:student_id, current_user.id) %>
+
         <h3>
           <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
         </h3>
       </div>  
-    <%= link_to "Change #{@lesson.is_project ? 'project' : 'lesson'} to not completed", "#", :class => "lc-uncomplete-link" %>
-
+      <%= form_tag lesson_completion_path(:lesson_id => @lesson.id), :method => "DELETE", :remote => true do %>
+        <%= link_to "Change #{@lesson.is_project ? 'project' : 'lesson'} to not completed", "#", :class => "lc-uncomplete-link" %>
+      <% end %>
     <% else %>
 
       <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
-
-          <a href="#" class="checkbox-container lc-unchecked">
-            <%= hidden_field_tag(:lesson_id, @lesson.id) %>
-            <%= hidden_field_tag(:student_id, current_user.id) %>
-            <h3>
-              Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
-            </h3>
-  
+        <a href="#" class="checkbox-container lc-unchecked">
+          <%= hidden_field_tag(:lesson_id, @lesson.id) %>
+          <%= hidden_field_tag(:student_id, current_user.id) %>
+          <h3>
+            Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
+          </h3>
         </a>
       <% end %>
 
