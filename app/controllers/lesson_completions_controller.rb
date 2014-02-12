@@ -1,5 +1,7 @@
 class LessonCompletionsController < ApplicationController
   
+  before_filter :authenticate_request
+  
   def create
     # Validate that the id's do in fact correspond to real students and lessons
     @lesson = Lesson.where(:id => params[:lesson_id]).first
@@ -20,4 +22,15 @@ class LessonCompletionsController < ApplicationController
       end
     end
   end
+  
+  def destroy
+    
+  end
+
+  private
+    def authenticate_request
+      unless user_signed_in?
+        render :nothing => true, :status => 401 # unauthorized
+      end
+    end
 end

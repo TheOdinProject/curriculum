@@ -5,12 +5,17 @@ describe LessonCompletionsController do
   let!(:student) { FactoryGirl.create(:user) }
   let!(:lesson) { FactoryGirl.create(:lesson) }
   #let!(:lc) { LessonCompletions.create(:lesson_id => lesson.id, :student_id => student.id) }
-  let!(:lc_attrs) {{ :lesson_id => lesson.id, :student_id => student.id }}
+  let!(:lc_attrs) { { :lesson_id => lesson.id, :student_id => student.id } }
   let!(:lc_invalid_attrs) { { :lesson_id => lesson.id+1, :student_id => student.id+1 } }
 
   context "before authentication" do
     it "POST #create unauthorized" do
       post :create, lc_attrs
+      assert_response 401
+    end
+    
+    it "DELETE #destroy unauthorized" do
+      delete :destroy, :id => lc_attrs[:lesson_id]
       assert_response 401
     end
   end
@@ -41,6 +46,10 @@ describe LessonCompletionsController do
           assert_response 400 # bad request
         end
       end
+    end
+    
+    describe "DELETE #destroy" do
+      
     end
   end
 end
