@@ -4,13 +4,15 @@ describe LessonCompletionsController do
 
   let!(:student) { FactoryGirl.create(:user) }
   let!(:lesson) { FactoryGirl.create(:lesson) }
-  #let!(:lc) { LessonCompletions.create(:lesson_id => lesson.id, :student_id => student.id) }
   let!(:lc_attrs) { { :lesson_id => lesson.id, :student_id => student.id } }
   let!(:lc_invalid_attrs) { { :lesson_id => lesson.id+1, :student_id => student.id+1 } }
 
   context "before authentication" do
     it "POST #create unauthorized" do
-      post :create, lc_attrs
+      # note: the :student_id attribute of lc_attrs is redundant when making requests
+      #       because it's taken care of by the current_student in the controller.
+      #       It is, however, necessary when creating a lesson_completion directly (w/ #create)
+      post :create, lc_attrs 
       assert_response 401
     end
     
