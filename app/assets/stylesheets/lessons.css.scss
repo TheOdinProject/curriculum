@@ -270,7 +270,7 @@ user can mark it completed or not completed */
   }
   .lc-disabled{
     color: $vlight_gray;
-    @include checkbox-bg("icons/lc_logged_out_3.svg");
+    @include checkbox-bg("icons/lc_logged_out.svg");
   }
 }
 
