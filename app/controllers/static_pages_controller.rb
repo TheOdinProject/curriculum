@@ -25,6 +25,10 @@ class StaticPagesController < ApplicationController
   def about
 
   end
+  
+  def studygroup
+
+  end
 
   # For the suggestion form in the footer
   def suggestion
