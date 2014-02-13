@@ -46,6 +46,7 @@ FactoryGirl.define do
     sequence :position do |n| 
       n
     end
+    url "http://www.bogus.com/subpage/whatever.git" # need url to be non-nil for lesson contribution links feature
     title_url { title.parameterize }
     association :section
   end
