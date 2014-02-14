@@ -222,4 +222,21 @@ describe "StaticPages" do
     end
 
   end
+
+  describe "study group page" do
+  
+    before { visit root_path }    
+    context "should be linked to from the site footer" do  
+      it { expect(page).to have_link("Study Group", :href => studygroup_path) }   
+    end
+    before { click_link "Study Group" }
+    context "should load when link is clicked" do  
+      it { current_path.should == studygroup_path }   
+    end
+    before { visit studygroup_path } 
+    context "should contain an h1 title" do  
+      it {expect(page).to have_selector("h1", :text => "Odin Study Group")}
+    end  
+  end
+
 end
