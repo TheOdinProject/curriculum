@@ -539,4 +539,38 @@
   }
 }
 
+#studygroup {
+  
+  margin: 0 auto;
+  max-width: 960px;
+  
+  h1, h2, h3 {
+   margin: 0; 
+  }
 
+  h1 {
+    font-size: 25px;
+  }
+
+  p {
+    margin: 0 0 10px 0;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  #side, #content {
+    float: left;
+  }
+  #side {
+    width: 325px;
+    margin: 0 50px 50px 0;
+  }
+  #content {
+    width: 525px;
+  }
+
+}
