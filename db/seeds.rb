@@ -1249,6 +1249,29 @@ Lesson.create!(
     :is_project => false, 
     :url => "/javascript/index.md"
   )
+  # :description => "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  In this section, you'll connect the Rails back ends you're an expert at building to dynamic front ends, completing the cycle to becoming a full stack web developer.  You'll learn some really nifty tricks and build some fun games along the way, too.",
+
+
+section_position += 1
+c6_s1_of_1 = Section.create!(
+    :title => "Resources", 
+    :title_url => "Resources".parameterize, 
+    :course_id => c6.id, 
+    :position => section_position, 
+    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of useful resources and a path through them."
+  )
+
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Javascript and jQuery Resources", 
+    :title_url => "Javascript and jQuery Resources".parameterize,
+    :description => "A high level overview of how you might tackle the problem of learning Javascript and jQuery", 
+    :position => lesson_counter, 
+    :section_id => c6_s1_of_1.id, 
+    :is_project => false, 
+    :url => "/javascript/index.md"
+  )
 
 # ************************************************
 # CREATE GETTING HIRED COURSE
@@ -1284,6 +1307,17 @@ Lesson.create!(
     :title => "The Best Free Resources for Getting Hired as a Web Developer", 
     :title_url => "Getting Hired Resources".parameterize,
     :description => "A listing of the best free resources out there for getting hired as a web developer and a disciplined approach to working your way through them", 
+    :position => lesson_counter, 
+    :section_id => c7_s1_of_1.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/index.md"
+  )
+
+lesson_counter += 1
+Lesson.create!(   
+    :title => "Getting Hired Resources", 
+    :title_url => "Getting Hired Resources".parameterize,
+    :description => "A high level overview of how you might tackle the problem of getting hired as a web developer", 
     :position => lesson_counter, 
     :section_id => c7_s1_of_1.id, 
     :is_project => false, 

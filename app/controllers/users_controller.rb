@@ -50,5 +50,4 @@ class UsersController < ApplicationController
       render "/400.html", :status => 400 # bad request
     end
   end
-
 end

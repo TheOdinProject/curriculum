@@ -1,6 +1,5 @@
 Theodinproject::Application.routes.draw do
-
-  devise_for :users, :controllers => { :registrations => "registrations" }
+devise_for :users, :controllers => { :registrations => "registrations" }
   devise_scope :user do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy', :method => :delete
@@ -11,7 +10,7 @@ Theodinproject::Application.routes.draw do
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
-  get 'scheduler' => 'static_pages#scheduler', as: :user_root
+  get 'scheduler' => 'static_pages#scheduler'
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'
   get 'selectable' => 'static_pages#selectable'

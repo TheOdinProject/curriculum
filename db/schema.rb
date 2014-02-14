@@ -9,126 +9,129 @@
 # from scratch. The latter is a flawed and unsustainable approach (the more migrations
 # you'll amass, the slower it'll run and the greater likelihood for issues).
 #
-# It's strongly recommended to check this file into your version control system.
+# It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131224032949) do
+ActiveRecord::Schema.define(version: 20131224032949) do
 
-  create_table "admin_flashes", :force => true do |t|
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "admin_flashes", force: true do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.string   "message"
     t.datetime "expires"
   end
 
-  create_table "cal_events", :force => true do |t|
+  create_table "cal_events", force: true do |t|
     t.string   "summary"
     t.datetime "start"
     t.datetime "end"
     t.string   "description"
     t.string   "time_zone"
     t.integer  "creator_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
-  add_index "cal_events", ["creator_id"], :name => "index_cal_events_on_creator_id"
-  add_index "cal_events", ["end"], :name => "index_cal_events_on_end"
-  add_index "cal_events", ["start"], :name => "index_cal_events_on_start"
+  add_index "cal_events", ["creator_id"], name: "index_cal_events_on_creator_id", using: :btree
+  add_index "cal_events", ["end"], name: "index_cal_events_on_end", using: :btree
+  add_index "cal_events", ["start"], name: "index_cal_events_on_start", using: :btree
 
-  create_table "content_activations", :force => true do |t|
-    t.integer  "user_id",           :null => false
-    t.integer  "content_bucket_id", :null => false
-    t.datetime "created_at",        :null => false
-    t.datetime "updated_at",        :null => false
+  create_table "content_activations", force: true do |t|
+    t.integer  "user_id",           null: false
+    t.integer  "content_bucket_id", null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
   end
 
-  add_index "content_activations", ["user_id", "content_bucket_id"], :name => "index_content_activations_on_user_id_and_content_bucket_id", :unique => true
+  add_index "content_activations", ["user_id", "content_bucket_id"], name: "index_content_activations_on_user_id_and_content_bucket_id", unique: true, using: :btree
 
-  create_table "content_buckets", :force => true do |t|
-    t.string   "name",       :null => false
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+  create_table "content_buckets", force: true do |t|
+    t.string   "name",       null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  add_index "content_buckets", ["name"], :name => "index_content_buckets_on_name", :unique => true
+  add_index "content_buckets", ["name"], name: "index_content_buckets_on_name", unique: true, using: :btree
 
-  create_table "courses", :force => true do |t|
+  create_table "courses", force: true do |t|
     t.string   "title"
     t.text     "description"
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
     t.string   "title_url"
-    t.integer  "position",                       :null => false
+    t.integer  "position",                    null: false
     t.string   "you_learn"
     t.string   "you_build"
     t.string   "teaser"
     t.text     "brief_desc"
-    t.boolean  "is_active",   :default => false
+    t.boolean  "is_active",   default: false
   end
 
-  add_index "courses", ["title"], :name => "index_courses_on_title", :unique => true
-  add_index "courses", ["title_url"], :name => "index_courses_on_title_url"
+  add_index "courses", ["title"], name: "index_courses_on_title", unique: true, using: :btree
+  add_index "courses", ["title_url"], name: "index_courses_on_title_url", using: :btree
 
-  create_table "lessons", :force => true do |t|
+  create_table "lessons", force: true do |t|
     t.string   "title"
     t.string   "url"
-    t.integer  "position",                       :null => false
+    t.integer  "position",                    null: false
     t.text     "description"
-    t.boolean  "is_project",  :default => false
-    t.integer  "section_id",                     :null => false
-    t.datetime "created_at",                     :null => false
-    t.datetime "updated_at",                     :null => false
+    t.boolean  "is_project",  default: false
+    t.integer  "section_id",                  null: false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
     t.string   "title_url"
     t.text     "content"
   end
 
-  add_index "lessons", ["position"], :name => "index_lessons_on_position", :unique => true
-  add_index "lessons", ["section_id"], :name => "index_lessons_on_section_id"
-  add_index "lessons", ["title_url"], :name => "index_lessons_on_title_url"
+  add_index "lessons", ["position"], name: "index_lessons_on_position", unique: true, using: :btree
+  add_index "lessons", ["section_id"], name: "index_lessons_on_section_id", using: :btree
+  add_index "lessons", ["title_url"], name: "index_lessons_on_title_url", using: :btree
 
-  create_table "sections", :force => true do |t|
+  create_table "sections", force: true do |t|
     t.string   "title"
-    t.integer  "position",    :null => false
-    t.integer  "course_id",   :null => false
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.integer  "position",    null: false
+    t.integer  "course_id",   null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.string   "title_url"
     t.text     "description"
   end
 
-  add_index "sections", ["course_id"], :name => "index_sections_on_course_id"
-  add_index "sections", ["position"], :name => "index_sections_on_position"
-  add_index "sections", ["title_url"], :name => "index_sections_on_title_url"
+  add_index "sections", ["course_id"], name: "index_sections_on_course_id", using: :btree
+  add_index "sections", ["position"], name: "index_sections_on_position", using: :btree
+  add_index "sections", ["title_url"], name: "index_sections_on_title_url", using: :btree
 
-  create_table "splash_emails", :force => true do |t|
+  create_table "splash_emails", force: true do |t|
     t.string   "email"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  add_index "splash_emails", ["email"], :name => "index_splash_emails_on_email", :unique => true
+  add_index "splash_emails", ["email"], name: "index_splash_emails_on_email", unique: true, using: :btree
 
-  create_table "user_prefs", :force => true do |t|
+  create_table "user_prefs", force: true do |t|
     t.integer  "user_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
-  add_index "user_prefs", ["user_id"], :name => "index_user_prefs_on_user_id", :unique => true
+  add_index "user_prefs", ["user_id"], name: "index_user_prefs_on_user_id", unique: true, using: :btree
 
-  create_table "users", :force => true do |t|
-    t.string   "email",                  :default => "", :null => false
-    t.string   "encrypted_password",     :default => "", :null => false
+  create_table "users", force: true do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          :default => 0
+    t.integer  "sign_in_count",          default: 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at",                             :null => false
-    t.datetime "updated_at",                             :null => false
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
     t.string   "username"
     t.text     "about"
     t.string   "github"
@@ -140,8 +143,8 @@ ActiveRecord::Schema.define(:version => 20131224032949) do
     t.string   "screenhero"
   end
 
-  add_index "users", ["email"], :name => "index_users_on_email", :unique => true
-  add_index "users", ["reset_password_token"], :name => "index_users_on_reset_password_token", :unique => true
-  add_index "users", ["username"], :name => "index_users_on_username", :unique => true
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+  add_index "users", ["username"], name: "index_users_on_username", unique: true, using: :btree
 
 end
