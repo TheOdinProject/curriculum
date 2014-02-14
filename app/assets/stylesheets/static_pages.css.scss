@@ -77,7 +77,7 @@
 
   .above-the-fold{
     width: 100%;
-    background: url("home_background_blur.jpg") no-repeat center center; // fixed; 
+    background: image-url("home_background_blur.jpg") no-repeat center center; // fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -165,7 +165,7 @@
   .social-buttons{
     text-align: center;
     height: 60px;
-    // background: url("patterns/subtle_dark_vertical.png");
+    // background: image-url("patterns/subtle_dark_vertical.png");
     border-bottom: 1px solid #efefef;
   }
 
@@ -228,13 +228,13 @@
   .what-youll-learn{
     clear: both;
     @include black-links;
-    // background: url("patterns/tiny_black_checker.gif");
-    background: url("patterns/subtle_dark_vertical.png");
+    // background: image-url("patterns/tiny_black_checker.gif");
+    background: image-url("patterns/subtle_dark_vertical.png");
     h2{
       color: #eee;
     }
     .container{
-      // background: url("patterns/tiny_black_checker.gif");
+      // background: image-url("patterns/tiny_black_checker.gif");
     }
 
     .course-panels{
@@ -302,7 +302,7 @@
 
   .how-it-works{
     clear: both;
-    // background: url("patterns/cream.png");
+    // background: image-url("patterns/cream.png");
     h3{
       font-size: 2em;
       // font-weight: bold;
@@ -347,7 +347,7 @@
 
   .why-awesome{
     clear: both;
-    background: url("patterns/subtle_dark_vertical.png");
+    background: image-url("patterns/subtle_dark_vertical.png");
     h2{
       color: #eee;
     }

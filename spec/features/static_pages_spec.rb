@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'database_cleaner'
+require 'capybara-webkit'
 
 describe "StaticPages" do
 
@@ -80,18 +82,21 @@ describe "StaticPages" do
 
       describe "filling in the suggestion form" do
         before(:each) do
-          ActionMailer::Base.deliveries = []  # Clear out other test deliveries
+          ActionMailer::Base.deliveries = []# Clear out other test deliveries
           # save_and_open_page
           fill_in("suggestion", with: suggestion_body)
         end
 
-        context "after submitting the form" do
-          before(:each) do
-            click_button("suggestion-button")
+        context "after submitting the form", :js => true do
+          before do
+            click_button "suggestion-button"
           end
             
           it "should send an email request with the form contents" do
-            ActionMailer::Base.deliveries.first.encoded.should include suggestion_body
+            wait_for_ajax
+            suggestion = ActionMailer::Base.deliveries
+            puts suggestion
+            suggestion.should_not be_empty
           end
         end
       end
@@ -218,11 +223,3 @@ describe "StaticPages" do
 
   end
 end
-
-
-
-
-
-
-
-

@@ -12,6 +12,9 @@ development:
 test:
   adapter: postgresql
   database: theodinproject_test
+  pool: 5
+  username: 
+  password: 
   host: localhost
 
 production:
