@@ -233,78 +233,149 @@ describe "Courses and Lessons Pages" do
 
       before do
         sign_in(signed_in_student)
-        visit lesson_path(course1.title_url, lesson1.title_url)
       end
       
-      describe "End-of-lesson checkbox section" do
+      context "after visiting an individual lesson" do
         
-        let!(:completion_wrapper_div){ ".completion-wrapper" }
-        
-        it "shouldn't have a link to sign in" do
-          within(completion_wrapper_div) do
-            expect(page).to_not have_link("", :href => login_path)
-          end
+        before do
+          visit lesson_path(course1.title_url, lesson1.title_url)
         end
         
-        context "if user hasn't yet completed the lesson" do
-          # (default state)
+        describe "End-of-lesson checkbox section" do
           
-          it "should have text for marking lesson completed" do
+          let!(:completion_wrapper_div){ ".completion-wrapper" }
+          
+          it "shouldn't have a link to sign in" do
             within(completion_wrapper_div) do
-              expect(page).to have_text("Mark Lesson Completed")
-            end
-          end
-          it "should have a link (the checkbox) to mark a lesson completed" do
-            within(completion_wrapper_div) do
-              expect(page).to have_css("a.lc-unchecked")
+              expect(page).to_not have_link("", :href => login_path)
             end
           end
           
-          context "after clicking the complete lesson box" do
+          context "if user hasn't yet completed the lesson" do
+            # (default state)
             
-            # model creates a lesson_completion instance
-            it "should create a lesson_completion instance (JS test)", :js => true do
-              expect {
-                find("a.lc-unchecked").click
-                }.to change(LessonCompletion, :count).by(1)
+            it "should have text for marking lesson completed" do
+              within(completion_wrapper_div) do
+                expect(page).to have_text("Mark Lesson Completed")
+              end
+            end
+            it "should have a link (the checkbox) to mark a lesson completed" do
+              within(completion_wrapper_div) do
+                expect(page).to have_css("a.lc-unchecked")
+              end
             end
             
-            # After the AJAX returns, it should re-render just the checkbox area to reflect
-            # the completed checkbox and add a link to un-complete the lesson
-            # Note: this test was created in Nitrous.io so it couldn't be run!
-            it "should change the form's class to reflect completion (JS test)", :js => true do
-              find(".action-complete-lesson").click
-              expect(page).to have_css("a.lc-uncomplete-link") 
+            context "after clicking the complete lesson box" do
+              
+              # model creates a lesson_completion instance
+              it "should create a lesson_completion instance (JS test)", :js => true do
+                expect {
+                  find("a.lc-unchecked").click
+                  }.to change(LessonCompletion, :count).by(1)
+              end
+              
+              # After the AJAX returns, it should re-render just the checkbox area to reflect
+              # the completed checkbox and add a link to un-complete the lesson
+              # Note: this test was created in Nitrous.io so it couldn't be run!
+              it "should change the form's class to reflect completion (JS test)", :js => true do
+                find(".action-complete-lesson").click
+                expect(page).to have_css("a.lc-uncomplete-link") 
+              end
             end
           end
-        end
-        
-        context "if the user has already completed the lesson" do
           
-          before do
-            @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
-            puts signed_in_student.inspect
-            puts "LESSON ID #{lesson1.id}!"
-            puts "LC itself is #{@lc}!"
-            puts "LC ID #{@lc.inspect}!"
-            visit lesson_path(course1.title_url, lesson1.title_url)
-          end
-          
-          it "should have a link for marking lesson NOT completed" do
-            #puts page.html
-            expect(page).to have_css(".lc-uncomplete-link")
-          end
-          
-          context "after clicking the 'mark lesson not completed' link" do
-            # model destroys the lesson_completion instance
-            it "should destroy the lesson_completion instance (JS test)", :js => true do
-              expect {
-                find(".lc-uncomplete-link").click
-                }.to change(LessonCompletion, :count).by(-1)
+          context "if the user has already completed the lesson" do
+            
+            before do
+              @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
+              puts signed_in_student.inspect
+              puts "LESSON ID #{lesson1.id}!"
+              puts "LC itself is #{@lc}!"
+              puts "LC ID #{@lc.inspect}!"
+              visit lesson_path(course1.title_url, lesson1.title_url)
+            end
+            
+            it "should have a link for marking lesson NOT completed" do
+              #puts page.html
+              expect(page).to have_css(".lc-uncomplete-link")
+            end
+            
+            context "after clicking the 'mark lesson not completed' link" do
+              # model destroys the lesson_completion instance
+              it "should destroy the lesson_completion instance (JS test)", :js => true do
+                expect {
+                  find(".lc-uncomplete-link").click
+                  }.to change(LessonCompletion, :count).by(-1)
+              end
             end
           end
         end
       end
+      context "after visiting the lessons index page (a course page)" do
+        
+        before do
+          visit lesson_path(course1.title_url, lesson1.title_url)
+        end
+
+        it "should have a checkbox for the lesson" do
+          
+          expect(page).to have_css("#lc-id-#{lesson1.id}")
+          
+        end
+        
+        
+        context "when user has not already completed the lesson" do
+          
+          context "when there are two lessons on the page" do
+            
+            # checking one doesn't check both
+            
+          end
+          
+          it "the lesson's checkbox should appear unchecked" do
+            
+            #within("") do
+            #  expect(page).to have_css(".some-lesson.lc-unchecked")
+            #end
+            
+          end
+          
+          context "after clicking the checkbox" do
+            
+            it "should update the database with a new lesson_completion" do
+              
+            end
+            
+            it "should change the checkbox to unchecked" do
+              
+            end
+            
+          end
+          
+        end
+        
+        context "and user HAS already completed the lesson" do
+          
+          it "should show a checked box for that lesson" do
+            
+          end
+          
+          context "after clicking that checked box" do
+            
+            it "should remove the lesson_completion from the database" do
+              
+            end
+            
+            it "should change the checkbox to its unchecked state" do
+              
+            end
+            
+          end
+          
+        end
+        
+      end
+        
     end
     context "for not logged in visitors" do
       
