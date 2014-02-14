@@ -8,7 +8,7 @@ As you may gather, this is also where the real project work begins.  Some of the
 
 ## Format
 
-Ruby's a big language so it's been broken up into smaller chunks to make it more digesible.  The format should feel quite familiar to you since it's essentially the same as we used in Web Development 101.
+Ruby's a big language so it's been broken up into smaller chunks to make it more digestible.  The format should feel quite familiar to you since it's essentially the same as we used in Web Development 101.
 
 ### In each lesson:
 
@@ -21,10 +21,10 @@ Ruby's a big language so it's been broken up into smaller chunks to make it more
 
 ## Two Paths Forward
 
-Everyone is coming into this with a different goal in mind, so to accomodate that, here's two options for your path forward:  
+Everyone is coming into this with a different goal in mind, so to accommodate that, here's two options for your path forward:  
 
 1. **If you're just trying to race ahead and put up some Rails sites as fast as possible** (and worry about learning the fundamentals later), then your best bet is to first complete the Basic Ruby section, which uses primarily Codecademy as a resource, and then skip to the Rails course.  Your knowledge won't be complete but you'll be in a pretty good spot to start from if you're in a hurry.
-2. **If you're really looking for a solid, sustainable base of knowledge**, just stick to the normal roadmap.  What we cover will give you a problem solving ability that you won't othewise have.  The projects, especially the final one, are worthy feathers in your cap that you can show off to any employer.  We'll get you there and there really aren't any shortcuts in the long term.
+2. **If you're really looking for a solid, sustainable base of knowledge**, just stick to the normal roadmap.  What we cover will give you a problem solving ability that you won't otherwise have.  The projects, especially the final one, are worthy feathers in your cap that you can show off to any employer.  We'll get you there and there really aren't any shortcuts in the long term.
 
 ## Our Primary "Textbooks":
 
@@ -33,7 +33,7 @@ Everyone is coming into this with a different goal in mind, so to accomodate tha
 
 It is not free -- usually somewhere around $30-40, but, as [Peter said himself](http://beginningruby.org/):
 
-> Now, of course, I can’t actively participate in pirating my book but, heck, it’s around on plenty of “free e-book” sites and on RapidShare. There are even links on Twitter to torrents like [this](http://www.torrentdownloads.net/torrent/1650632409/Apress+Beginning+Ruby+From+Novice+to+Professional+2nd+Edition+Jul+2009+eBook-BBL). I am happy for you to pirate my book, but.. I’m NOT A LAWYER, and I can’t guarantee what Apress would do about it – so you’d be doing it off your own back! So, uhm, don’t pirate it? ;-) The only condition, of course, if you do is that if you like the book and you think a print copy would be swell to own, please buy one – even if it’s just for someone you know who wants to learn to program!
+> Now, of course, I can’t actively participate in pirating my book but, heck, it’s around on plenty of “free e-book” sites and on RapidShare. There are even links on Twitter to torrents like [link removed]. I am happy for you to pirate my book, but.. I’m NOT A LAWYER, and I can’t guarantee what Apress would do about it – so you’d be doing it off your own back! So, uhm, don’t pirate it? ;-) The only condition, of course, if you do is that if you like the book and you think a print copy would be swell to own, please buy one – even if it’s just for someone you know who wants to learn to program!
 
 
 ## The (Free) Backup "Textbooks":
