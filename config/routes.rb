@@ -10,7 +10,7 @@ devise_for :users, :controllers => { :registrations => "registrations" }
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
-  get 'scheduler' => 'static_pages#scheduler', as: :user_root
+  get 'scheduler' => 'static_pages#scheduler'
   post 'thank_you' => 'static_pages#send_feedback'
   get 'scheduler' => 'static_pages#scheduler'
   get 'selectable' => 'static_pages#selectable'
