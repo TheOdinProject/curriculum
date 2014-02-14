@@ -74,6 +74,14 @@ TODO: Your text description should only describe exactly what's being set up or 
 * What should you write for the description of your `#describe` and `#it` blocks?
 * What is a "seam"?
 
+## Capybara
+jQuery!
+`#within` -- Do something within that specific area of the page, e.g. 
+
+    within(".completion-wrapper") do
+      expect(page).to have_link("", :href => login_path)
+    end
+
 ## Your Assignment
 
 * Watch [this video from Berkeley's SAAS course by Armando Fox](http://www.youtube.com/watch?v=T4OxVwMFfKo&list=PLjbL0BCR04Q3uDPD3GVZJqV3UnJkOic-o&feature=c4-overview-vl) for a look at how they use TDD in the course.  You don't need to worry about using Cucumber and BDD.  Note that the `#should` syntax is deprecated -- we use the `#expect` syntax instead.
@@ -93,11 +101,16 @@ TODO: Your text description should only describe exactly what's being set up or 
 * We're trying to avoid paid resources, but [Agile Web Development with Rails 4 covers testing](http://pragprog.com/book/rails4/agile-web-development-with-rails)
 * ["Guard" by Ryan Bates via Railscasts](http://railscasts.com/episodes/264-guard) covers Guard, a gem that helps automate automated testing.
 * ["Factories not Fixtures" by Ryan Bates via Railscasts](http://railscasts.com/episodes/158-factories-not-fixtures)
-* [**RSpec Cheat Sheet**](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf)
-* [**RSpec Capybara Cheat Sheet**](https://gist.github.com/them0nk/2166525)
 * ["An Example using RSpec double, mock and stub"](http://blog.firsthand.ca/2011/12/example-using-rspec-double-mock-and.html)
 * [Documentation for RSpec Mocks](https://github.com/rspec/rspec-mocks
 )
+
+### Cheat Sheets
+
+* [**RSpec Cheat Sheet** from anchor.com](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf)
+* [**RSpec Capybara Cheat Sheet** from them0nk](https://gist.github.com/them0nk/2166525)
+* [RSpec and Capybara cheat sheet from Steve Clarke](https://gist.github.com/steveclarke/2353100)
+* 
 
 ### Random Final Stuff
 
