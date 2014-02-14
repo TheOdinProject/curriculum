@@ -34,17 +34,25 @@ If you'd like to help out (even as a relative newbie), please [get in touch](mai
 
 See the [Getting Involved document](https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md) for details of contributing to the website.
 
-1. This site runs on Ruby 1.9.3 and Rails 3.2.12.
-    * Follow along with [this gist](https://gist.github.com/afshinator/8035821) if your environment is Nitrous.io.
+1. This site runs on Ruby 2.0.0-p353 and Rails 4.0.0 (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)
+    * **We STRONGLY recommend windows users and newbies having trouble setting up their environments just use [nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral)** 
+    * If you're using Nitrous, follow along with [this gist](https://gist.github.com/afshinator/8035821) to do the setup.
     * You're (hopefully) using RVM to manage your Ruby gems, so create a new gemset for this project, specify the proper Ruby version, then install the proper Rails version.  For help with RVM, check out [this blog post](http://stjhimy.com/posts/04-using-rvm-gemsets-to-manage-multiple-rails-installations-in-the-same-ruby-version).
 
-1. Fork the repo by clicking the Fork button at the top right and then download your copy of the repo to your local machine by doing a `git clone git@github.com:YOUR_USERNAME/theodinproject.git`
-2. Run a `$ bundle install` of all the gems
-<<<<<<< HEAD
+1. Start by forking this repository by clicking the Fork button at the top right of this Github repo and then download your copy of the repo to your local machine by doing a `$ git clone git@github.com:YOUR_USERNAME/theodinproject.git` from the command line (the $ stands for your command prompt)
+2. Hopefully you've got RVM set up on your machine (if not, check out the [Installations Project](http://www.theodinproject.com/courses/web-development-101/lessons/installations).  You'll need to make sure you have Ruby 2.0.0p-353 installed (see installed rubies with `$ rvm list`).  If you don't have it, get it using `$ rvm get stable` then `rvm install 2.0.0-p357`.
+2. You'll want to create a project-specific gemset to keep track of all the gems we use in one place.  The repo has a (hidden) file called `.ruby-gemset` which specifies the gemset for you every time you enter the project's directory.  It should be called `theodinproject` to match up.  You can create it by running `$ rvm gemset create theodinproject`.  
+2. `cd` into the directory, probably using `$ cd theodinproject`
+2. Run a `$ bundle install` to install all the gems used by the project.
 1. Note: Both local and production databases are [Postgres](http://www.postgresql.org/docs/), so if you're used to just using Rails' default SQLite database you'll need to get Postgres fired up on your local machine.  You can probably get away with just typing `$ rake db:create` but may need to download a client for it and create a `theodinproject` database that the application can connect to.  The major difference is that Postgres operates almost like a server.  Ryan Bates has a [RailsCast](http://railscasts.com/episodes/342-migrating-to-postgresql) episode about migrating to Postgres that may be helpful if you're a newbie.  If you're deployed on Heroku (which we are), you need to use PG anyway.
 2. Once you've got postgres installed and have created the empty database, run a `$ rake db:migrate` to run all the migrations that will set up the schema properly.  
 3. The `db/seeds.rb` file is used to populate all the course and lesson meta-data.  Use the command `$ rake db:seed` to populate all the meta-data for courses and lessons so you can run the rake task in the next step.  `db/seeds.rb` is identical to the data you'll see presented on the production site (this is used to populate it).  You can run it as many times as you'd like... it basically deletes all metadata and repopulates it with each run.  The seeds file only creates curriculum data, it doesn't create any users. 
 3. One thing the seeds file will not populate is the actual content for each lesson.  This needs to be retrieved from the curriculum repository on github (which is at [http://www.github.com/theodinproject/curriculum](http://www.github.com/theodinproject/curriculum)) by running the rake task (`$ rake curriculum:update_content`).  But there's a catch... it uses my Github Api key from the below-mentioned Figaro gem in order to avoid rate limits (Github only allows you something like 50 API calls per hour if you haven't registered for an API key with them and used it to authenticate your requests).  As of this writing, there are over 90 lessons so you would be rate limited before even finishing populating them with the rake task if you don't get an API key yourself.  So go get an API key from github (at [https://github.com/settings/applications](https://github.com/settings/applications)) and use Figaro (as described below) to pass that key to the application so you can happily download all the curriculum files into your build.
+
+This is basically all you need to get yourself set up with the repo and you should be able to run a server with `$ rails s`.  Of course, nothing ever goes according to plan when installing things but hopefully your "Googling the error message" skills are up to the task.
+
+#### Some additional steps to help you out further
+
 3. The Moot forums and Github API calls rely on private environment variables (to store their API secret keys) that you won't find in the repo. I upload them directly to the server myself using the `figaro` gem and a corresponding file called `application.yml` that's located in my `config/` directory but not checked into git (no, you can't have my passwords).  Check out the [Figaro Documentation](https://github.com/laserlemon/figaro) for a very easy-to-understand explanation of how the gem works.  You basically just need to run `$ rails generate figaro:install` and populate the missing variables to `application.yml`.  An example, as of this writing:
 
 To install Postgres (linux):
