@@ -294,21 +294,20 @@ user can mark it completed or not completed */
       margin: 0;
     }
   }
-
   /*  This is like a function (it's from SASS) so we don't
       have to repeat ourselves all the time below */
-  @mixin checkbox-bg($path){
+  @mixin lc-checkbox-bg-large($path){
     background: url($path) 25px 20px no-repeat;
   }
-
+  
   .lc-unchecked{
-    @include checkbox-bg("icons/lc_unchecked.svg");
+    @include lc-checkbox-bg-large("icons/lc_unchecked.svg");
   }
   .lc-hover{
-    @include checkbox-bg("icons/lc_hover.svg");
+    @include lc-checkbox-bg-large("icons/lc_hover.svg");
   }
   .lc-checked{
-    @include checkbox-bg("icons/lc_checked.svg");
+    @include lc-checkbox-bg-large("icons/lc_checked.svg");
   }
   .lc-waiting{
     background: url("icons/ajax-loader.gif") 47px 43px no-repeat;
@@ -316,6 +315,7 @@ user can mark it completed or not completed */
   }
   .lc-disabled{
     color: $vlight_gray;
-    @include checkbox-bg("icons/lc_logged_out.svg");
+    @include lc-checkbox-bg-large("icons/lc_logged_out.svg");
   }
 }
+ 

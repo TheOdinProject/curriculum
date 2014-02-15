@@ -39,29 +39,39 @@
             <% lesson_num = 0 %>
             <% section.lessons.order("position asc").each do |lesson| %>
               <% lesson_num += 1 unless lesson.is_project %>
-              <%= link_to lesson_path(lesson.course.title_url, lesson.title_url) do %>
-                <div class="lesson <%= lesson.is_project ? 'project' :''%>">
-                  <div class="lesson-number">
-                    <h3>
-                      <%= lesson.is_project ? "Project" : "Step #{lesson_num}"%>: &nbsp;
-                    </h3>
-                  </div>
 
-                  <div class="lesson-content">
-                    <div class="lesson-title">
+                <div class="lesson <%= lesson.is_project ? 'project' :''%>">
+                  
+                  <div class="lc-checkbox-wrapper">                                                                                                           
+                    <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>                                                           
+                      <a href="#" id="lc-id-<%= lesson.id %>" class="lc-checkbox lc-unchecked">                                                               
+                        <%= hidden_field_tag(:lesson_id, lesson.id) %>                                                                                        
+                      </a>                                                                                                                                    
+                    <% end %>                                                                                                                                 
+                  </div>
+                  
+                  <a href="<%= lesson_path(lesson.course.title_url, lesson.title_url) %>" class="lesson-link">
+                    <div class="lesson-number">
                       <h3>
-                        <%= lesson.title %>
+                        <%= lesson.is_project ? "Project" : "Step #{lesson_num}"%>: &nbsp;
                       </h3>
                     </div>
-                    <div class="description">
-                      <p>
-                        <%= lesson.description %>
-                      </p>
+  
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          <%= lesson.title %>
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          <%= lesson.description %>
+                        </p>
+                      </div>
                     </div>
-                  </div>
-
+                  </a>
                 </div>
-              <% end %>
+
             <% end %>
           </div>
 

@@ -58,6 +58,7 @@ describe "Courses and Lessons Pages" do
   context "on the lessons index page" do
 
     let(:course1) { Course.first }
+    let(:lesson1) { course1.lessons.first }
 
     before do
       visit course_path(course1.title_url)
@@ -112,6 +113,63 @@ describe "Courses and Lessons Pages" do
         subject.should_not have_xpath(xpath)
       end
     end
+      
+    it "should have a checkbox for the lesson" do
+      
+      expect(page).to have_css("#lc-id-#{lesson1.id}")
+      
+    end
+    
+    context "when user has not already completed the lesson" do
+      
+      context "when there are two lessons on the page" do
+        
+        # checking one doesn't check both
+        
+      end
+      
+      it "the lesson's checkbox should appear unchecked" do
+        
+        within("#lc-id-#{lesson1.id}") do
+          expect(page).to have_css(".lc-unchecked")
+        end
+        
+      end
+      
+      context "after clicking the checkbox" do
+        
+        it "should update the database with a new lesson_completion" do
+          
+        end
+        
+        it "should change the checkbox to unchecked" do
+          
+        end
+        
+      end
+      
+    end
+    
+    context "and user HAS already completed the lesson" do
+      
+      it "should show a checked box for that lesson" do
+        
+      end
+      
+      context "after clicking that checked box" do
+        
+        it "should remove the lesson_completion from the database" do
+          
+        end
+        
+        it "should change the checkbox to its unchecked state" do
+          
+        end
+        
+      end
+      
+    end
+
   end
 
   context "in the individual lesson page" do
@@ -310,10 +368,6 @@ describe "Courses and Lessons Pages" do
             
             before do
               @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
-              puts signed_in_student.inspect
-              puts "LESSON ID #{lesson1.id}!"
-              puts "LC itself is #{@lc}!"
-              puts "LC ID #{@lc.inspect}!"
               visit lesson_path(course1.title_url, lesson1.title_url)
             end
             
@@ -333,70 +387,7 @@ describe "Courses and Lessons Pages" do
           end
         end
       end
-      context "after visiting the lessons index page (a course page)" do
-        
-        before do
-          visit lesson_path(course1.title_url, lesson1.title_url)
-        end
 
-        it "should have a checkbox for the lesson" do
-          
-          expect(page).to have_css("#lc-id-#{lesson1.id}")
-          
-        end
-        
-        
-        context "when user has not already completed the lesson" do
-          
-          context "when there are two lessons on the page" do
-            
-            # checking one doesn't check both
-            
-          end
-          
-          it "the lesson's checkbox should appear unchecked" do
-            
-            #within("") do
-            #  expect(page).to have_css(".some-lesson.lc-unchecked")
-            #end
-            
-          end
-          
-          context "after clicking the checkbox" do
-            
-            it "should update the database with a new lesson_completion" do
-              
-            end
-            
-            it "should change the checkbox to unchecked" do
-              
-            end
-            
-          end
-          
-        end
-        
-        context "and user HAS already completed the lesson" do
-          
-          it "should show a checked box for that lesson" do
-            
-          end
-          
-          context "after clicking that checked box" do
-            
-            it "should remove the lesson_completion from the database" do
-              
-            end
-            
-            it "should change the checkbox to its unchecked state" do
-              
-            end
-            
-          end
-          
-        end
-        
-      end
         
     end
     context "for not logged in visitors" do

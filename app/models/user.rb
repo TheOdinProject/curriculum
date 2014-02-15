@@ -34,6 +34,7 @@ class User < ActiveRecord::Base
       begin
         UserMailer.send_welcome_email_to(self).deliver!
       rescue
+        # Do something useful here! TODO!
       end
     end
 end
