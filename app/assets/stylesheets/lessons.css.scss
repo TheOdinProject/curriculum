@@ -177,6 +177,52 @@
       font-size: .85em;
     }
   }
+
+
+  .contribution-links {
+    cursor: pointer;
+    position: relative;   
+  }
+
+  .octocat {
+    opacity: .4;
+  }
+
+  .popover {
+    background: #ddd;
+  }
+
+  .popover-content {
+    font-size: .7em;
+  }
+  
+  .popover-title {
+    border-radius: 5px;
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+
+  .tilt {
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  }
+   
+  .tilt:hover {
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+
+
+  @media only screen and (max-width : 420px) {
+    .popover { max-width: 176px; }
+  }
+
 }
 
 #lesson-nav{
@@ -273,4 +319,3 @@ user can mark it completed or not completed */
     @include checkbox-bg("icons/lc_logged_out.svg");
   }
 }
-
