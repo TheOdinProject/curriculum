@@ -15,8 +15,6 @@ describe User do
 
   it { should respond_to(:username) }
   it { should respond_to(:email) }
-  it { should respond_to(:password_digest) }
-
   it { should respond_to(:github) }
   it { should respond_to(:twitter) }
   it { should respond_to(:linkedin) }

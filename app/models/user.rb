@@ -31,7 +31,9 @@ class User < ActiveRecord::Base
     end
 
     def send_welcome_email
-      UserMailer.send_welcome_email_to(self).deliver!
+      begin
+        UserMailer.send_welcome_email_to(self).deliver!
+      rescue
+      end
     end
-
 end

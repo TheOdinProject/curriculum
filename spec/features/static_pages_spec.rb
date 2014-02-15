@@ -1,4 +1,6 @@
 require 'spec_helper'
+require 'database_cleaner'
+require 'capybara-webkit'
 
 describe "StaticPages" do
 
@@ -80,18 +82,21 @@ describe "StaticPages" do
 
       describe "filling in the suggestion form" do
         before(:each) do
-          ActionMailer::Base.deliveries = []  # Clear out other test deliveries
+          ActionMailer::Base.deliveries = []# Clear out other test deliveries
           # save_and_open_page
           fill_in("suggestion", with: suggestion_body)
         end
 
-        context "after submitting the form" do
-          before(:each) do
-            click_button("suggestion-button")
+        context "after submitting the form", :js => true do
+          before do
+            click_button "suggestion-button"
           end
             
           it "should send an email request with the form contents" do
-            ActionMailer::Base.deliveries.first.encoded.should include suggestion_body
+            wait_for_ajax
+            suggestion = ActionMailer::Base.deliveries
+            puts suggestion
+            suggestion.should_not be_empty
           end
         end
       end
@@ -217,12 +222,21 @@ describe "StaticPages" do
     end
 
   end
+
+  describe "study group page" do
+  
+    before { visit root_path }    
+    context "should be linked to from the site footer" do  
+      it { expect(page).to have_link("Study Group", :href => studygroup_path) }   
+    end
+    before { click_link "Study Group" }
+    context "should load when link is clicked" do  
+      it { current_path.should == studygroup_path }   
+    end
+    before { visit studygroup_path } 
+    context "should contain an h1 title" do  
+      it {expect(page).to have_selector("h1", :text => "Odin Study Group")}
+    end  
+  end
+
 end
-
-
-
-
-
-
-
-

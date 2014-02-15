@@ -15,7 +15,7 @@
 <div class="individual-lesson <%= @lesson.is_project ? 'project-lesson' : ''%>">
   <div class="container">
     <%= @content %>
-
+    <%= render 'lessons/contribution_links' %>
     <div class="action-box">
       <div class="completion-wrapper">
         <%= render "shared/complete_lesson" %>

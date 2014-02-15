@@ -1249,6 +1249,7 @@ Lesson.create!(
     :is_project => false, 
     :url => "/javascript/index.md"
   )
+  # :description => "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  In this section, you'll connect the Rails back ends you're an expert at building to dynamic front ends, completing the cycle to becoming a full stack web developer.  You'll learn some really nifty tricks and build some fun games along the way, too.",
 
 # ************************************************
 # CREATE GETTING HIRED COURSE
@@ -1289,6 +1290,7 @@ Lesson.create!(
     :is_project => false, 
     :url => "/jobs_jobs_jobs/index.md"
   )
+
 
 
 

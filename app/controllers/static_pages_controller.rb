@@ -23,6 +23,9 @@ class StaticPagesController < ApplicationController
   end
 
   def about
+  end
+  
+  def studygroup
 
   end
 
@@ -41,5 +44,4 @@ class StaticPagesController < ApplicationController
       format.json { render json: params[:suggestion] }
     end
   end
-
 end
