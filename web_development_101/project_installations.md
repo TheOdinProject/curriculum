@@ -5,7 +5,7 @@ One step which can be unnecessarily frustrating is making sure everything is ins
 
 It may be a challenge, but if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
 
-One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like Nitrous) and no environment, do what it takes to get you going.  We'll give some alternatives below.
+One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral)) and no environment, do what it takes to get you going.  We'll give some alternatives below.
 
 If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
 
@@ -25,7 +25,7 @@ So, at its core, server-side installs with Ruby are just you installing the Ruby
 
 A final note to Windows users -- you can install everything you need to but you'll feel at times like you're swimming against the current.  Many examples throughout the learning process will assume you're working on a mac and you'll have to get good at translating certain steps into your own workflow.  Suffering builds character.  And this is payback for the 90's when it took another six months to come out with a Mac version of any half-decent game.
 
-Your best bet may be to try using Linux (admit it, you've been curious...) or to use a hosted environment like Nitrous.io.  Not a requirement, just a friendly tip.
+Your best bet may be to try using Linux (admit it, you've been curious...) or to use a hosted environment like [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral).  Not a requirement, just a friendly tip.
 
 ## What You'll Be Installing
 
@@ -91,11 +91,11 @@ These installfests will take you through the steps to install everything on your
 
 ## Oh no! Total Failure!!!
 
-If all else fails, the best web-based development environment to use for coding the back end is [Nitrous.io](http://nitrous.io).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  
+If all else fails, the best web-based development environment to use for coding the back end is [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  
 
 I've often found this to be much easier for Windows users than trying to navigate the regular installations process.  It relies on having an internet connection, but it gives you a command line, a text editor, and the ability to run a local server right out of the box.
 
-So your alternate path is to go to [Nitrous.io](http://nitrous.io) and set up your account.  You'll be given enough free "credits" to keep a virtual development environment running full time.  The instructions on the website are fairly straightforward.  You can get your text editor and terminal up and running in a couple minutes.  Plus, it works with Git!
+So your alternate path is to go to [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral) and set up your account.  You'll be given enough free "credits" to keep a virtual development environment running full time.  The instructions on the website are fairly straightforward.  You can get your text editor and terminal up and running in a couple minutes.  Plus, it works with Git!
 
 ## Additional Resources
 
