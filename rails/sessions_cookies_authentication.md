@@ -23,32 +23,53 @@ In this lesson you'll learn about sessions, browser cookies, and how authenticat
 * What additional steps (on a high level) are needed to actually "remember" a user after they've closed the browser?
 * What is the Devise gem and why is it useful?
 
-## Sessions and Cookies
+## Cookies, Sessions, and Flashes
 
-The most common use for sessions is to manage logins.  You don't want a user to have to login on every page!  So you need some way to test whether the user who made the latest request is actually logged in or not.  If this seems a bit abstract, it will fall into place when you actually implement some authentication of your own.
+Cookies, Sessions and Flashes are three special objects that Rails 4 gives you which each behave a lot like hashes. They are uses to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
 
-A "Session" represents all the stuff your user does while you've chosen to "remember" him.  So every page he visits while you choose to remember him (e.g. until the browser is closed) will be part of the same session.  The key question is, if HTTP requests are stateless, how do you match a given request to a specific user?  Rails commonly uses a cookie to help achieve this.
+### Cookies
 
-Cookies are key-value data pairs that are stored in the user's browser.  They can be used for pretty much anything... you could store shopping cart information, user preferences, even passwords for verification.  The only problem is that all of these are terrible ideas.  You shouldn't store anything in the browser that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate cookies.  But they are commonly used to identify your session.
+Cookies are key-value data pairs that are stored in the user's browser until they reach their specified expiration date.  They can be used for pretty much anything, most commonly to "bookmark" the user's place in a web page if she gets disconnected or to store simple site display preferences.  You could also store shopping cart information or even passwords but that would be a bad idea -- you shouldn't store anything in regular browser cookies that needs to either be secure or persisted across browser sessions.  It's too easy for users to clear their cache and/or steal/manipulate unsecured cookies.
 
-Rails will store a unique cookie value on the user's browser that represents their session token.  Whenever the user makes a request to your application, that request will also automatically include their session token.  Your application checks that token against an internal database of tokens to match the request up with your user.  Now you know it's Admin Andy trying to make the request and not Hacker Hugo so you can set permissions accordingly.
+To work with cookies, Rails gives you access to a special hash called `cookies`, where each key-value pair is stored as a separate cookie on the user's browser.  If you were to save `cookies[:hair-color] = "blonde"`, you'd be able to pull up your browser's developer tools and see a cookie on the user's browser that has a key of `hair-color` and a value of `blonde`.  Delete it using `cookies.delete(:hair-color)`.  
 
-Rails gives you access to both a `session` hash and a `cookies` hash.  These are similar but not the same.  `session` is a hash that gets kept on the **server** side by Rails (behind the scenes), sort of like a free database table for you to use that's unique to a given user/session.  You can store all kinds of stuff in session, and Rails will do the work of matching that stored data with the request's user.  Sessions don't need to come from users who are actually "signed up" for your service... anyone who visits your site will be given the special session token and you'll be able to store things for them until they clear their cookies or close the browser.  
+With each new request to your server, the browser will send along all the cookies and you can access them in your controllers and views like a normal hash.  You can also set their expiration dates, for example using syntax like `cookies[:name] = { :value => "cookies YUM", :expires => Time.now + 3600}`.  
 
-Access the `session` variable in your views or controllers like a hash:
+### Sessions
+
+Think about how websites keep track of how a user is logged in when the page reloads.  HTTP requests are stateless so how can you tell that a given request actually came from that particular user who is logged in?  This is why cookies are important -- they allow you to keep track of your user from one request to another until the cookie expires.
+
+A special case is when you want to keep track of data in the user's "session", which represents all the stuff your user does while you've chosen to "remember" her, typically until the browser window is closed.  In that case, every page she visits until the browser is closed will be part of the same session.
+
+To identify a user's session information, Rails stores a special secure and tamper-proof cookie on the user's browser that contains their entire session hash (it's called `jsonrpc.session` if you're looking in your developer tools) and it expires when the browser is closed.  Whenever the user makes a request to your application, that request will also automatically include that session cookie (along with the other cookies) and you can use it to keep track of her logged-in state. This may all seem abstract now, but you'll get a chance to see it in action shortly.
+
+Rails gives you access to the `session` hash in an almost identical way to the above-mentioned `cookies` hash.  Use the `session` variable in your views or controllers like so:
 
     # app/controllers/users_controller.rb
     ...
+    # Set a session value
     session[:current_user_id] = user.id
+
+    # Access a session value
+    some_other_variable_value = session[:other_variable_key]
+
+    # Reset a session key
+    session[:key_to_be_reset] = nil
+
+    # Reset the entire session
+    reset_session
     ...
 
-You can now access that variable in any other controller actions that user might trigger as if it were a normal hash, by doing `session[:current_user_id]`.  Reset a single session key by setting the key to `nil` or reset the whole session for that user with `reset_session`.  
+Why would you need both cookies and sessions?  They are similar but not the same.  `session` is an entire hash that gets put in the secure session cookie that expires when the user closes the browser.  If you look in your developer tools, the "expiration" of that cookie is "session".  Each value in the `cookies` hash gets stored as an individual cookie.
 
-`cookies` are a **client side** store of information.  You use `cookies` the same way as the `session` variable, but know that it's much less secure because the entire batch of cookie data is being sent from the browser by the user (instead of sessions, which only rely on a single encrypted token being sent by the client). To repeat -- every cookie your website has dropped onto the user's browser gets sent back to your server with every request.
+So cookies and sessions are sort of like temporary free database tables for you to use that are unique to a given user and will last until you either manually delete them, they have reached their expiration date, or the session is ended (depending what you specified).  
 
-Note that you are size-limited in terms of how much you can store inside a session hash or browser cookie.  It is sufficient for any "normal" usage, but don't go pretending either of these are substitues for a database.
+**A Few Additional Notes on Sessions and Cookies**
 
-### Flash
+* `session` and `cookies` aren't really hashes, Rails just pretends they are so it's easy for you to work with them.  You can still consider them as hashes just because they act very similarly to hashes.
+* You are size-limited in terms of how much you can store inside a session hash or browser cookie (~4kb).  It is sufficient for any "normal" usage, but don't go pretending either of these are actually substitutes for a database.
+
+### Flashes
 
 You've already seen and used the `flash` hash by now, but we'll cover it again from the perspective of understanding sessions.  `flash` is a special hash (okay, a method that acts like a hash) that persists only from one request to the next.  You can think of it as a `session` hash that self destructs after it's opened.  It's commonly used to send messages from the controller to the view so the user can see success and failure messages after submitting forms.  
 
