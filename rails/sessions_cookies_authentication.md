@@ -41,7 +41,7 @@ Think about how websites keep track of how a user is logged in when the page rel
 
 A special case is when you want to keep track of data in the user's "session", which represents all the stuff your user does while you've chosen to "remember" her, typically until the browser window is closed.  In that case, every page she visits until the browser is closed will be part of the same session.
 
-To identify a user's session information, Rails stores a special secure and tamper-proof cookie on the user's browser that contains their entire session hash (it's called `jsonrpc.session` if you're looking in your developer tools) and it expires when the browser is closed.  Whenever the user makes a request to your application, that request will also automatically include that session cookie (along with the other cookies) and you can use it to keep track of her logged-in state. This may all seem abstract now, but you'll get a chance to see it in action shortly.
+To identify a user's session information, Rails stores a special secure and tamper-proof cookie on the user's browser that contains their entire session hash (look for it in your developer tools, usually under the "Resources" section) and it expires when the browser is closed.  Whenever the user makes a request to your application, that request will also automatically include that session cookie (along with the other cookies) and you can use it to keep track of her logged-in state. This may all seem abstract now, but you'll get a chance to see it in action shortly.
 
 Rails gives you access to the `session` hash in an almost identical way to the above-mentioned `cookies` hash.  Use the `session` variable in your views or controllers like so:
 
@@ -189,4 +189,5 @@ This lesson should have given you some appreciation for how complicated login sy
 
 
 * Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
-* 
+* [Cookies and Sessions in Rails 4 from pothibo.com](http://pothibo.com/2013/09/sessions-and-cookies-in-ruby-on-rails/)
+* [All About Cookies (.org)](http://www.allaboutcookies.org/)
