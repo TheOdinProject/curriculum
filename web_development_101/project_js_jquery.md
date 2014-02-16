@@ -10,8 +10,7 @@ The key is to break it down into little manageable steps and then figure out how
 
 If you get totally stuck, solutions from other students are listed below.  I'd encourage you to struggle for a bit on your own before checking them out.
 
-## Sketch Pad
-
+1. Follow the instructions atop the [Google Homepage project](/project_html_css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
     2. Best to put your grid squares inside another "container" div.
@@ -33,6 +32,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
     4. Why is it so slow?? Remember that when you call a jQuery selector like `$(".square")`, it actually returns you ALL the elements that fit the description.  So if you're doing those types of operations hundreds of times inside a loop, it can get very time consuming... try pulling those outside your loops.
     5. See how many grid squares you can get before it becomes unusably slow.  
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
+5. Push your project to Github
 
 ## Student Solutions
 

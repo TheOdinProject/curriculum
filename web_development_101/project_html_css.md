@@ -19,8 +19,35 @@ These skills will be helpful for you when you start building.  Either try them y
 1. Understand how to use classes and ids to target CSS at specific elements on the page
 1. Build a very basic form (even if it doesn't "go" anywhere)
 
+## Setting Up Your Project's Github Repository (optional)
+
+You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/courses/web-development-101/lessons/installations), so here we're going to put it to use.
+
+1. If you haven't already, create a folder on your computer called `The Odin Project` which will house all your projects .
+2. Go to your Github.com account and log in.  
+3. Create a new repo for this project [by following the instructions on Github.](https://help.github.com/articles/create-a-repo ) and call it `google-homepage` (instead of `Hello-World`).  Make your repository "Public" instead of "Private".
+4. Go to your new repository on Github (`http://github.com/YOUR_USERNAME/google-homepage`) and take a look at it.  If you scroll down, you'll see that the `README` file you just created is what is displayed by default.
+5. Open the `README` file on your local computer and change its text to include the title of the project and a link to this project on theodinproject.com.
+6. Commit the updated `README` to your Github repository using the commands below on your command prompt:
+
+        # adds all files that are in your current directory and which you've
+        # recently changed to the "staging area" (ie. they're "ready to commit")
+        $ git add -A  
+
+        # commits all the "staged" files into your local repository
+        $ git commit -m "update README"
+
+        # pushes your local repository up to your remote one on Github
+        $ git push origin master
+
+When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push`.
+
+Note: All Git commands need to be run from inside your project's folder (the one where you typed `$ git init`) or you'll get an error!
+
 ## Easy Version: Build the [Google.com](http://www.google.com) homepage 
 (the simple one with just a search box).
+
+Inside your project folder, create your index.html file
 
   1. Tips:
       * DONT BE A PERFECTIONIST!  You're just trying to make it *look* like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel.  Any dropdown menus or form submissions or hover-highlighting should be ignored.
@@ -30,6 +57,7 @@ These skills will be helpful for you when you start building.  Either try them y
   3. Next do the navbar across the top, first building the content and then trying to position it.  Check out [how to build a horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp) if you're lost.
   4. Finally, put in the footer, which should be very similar to the top navbar.
   5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
+  6. Push your project to Github using the instructions above!
 
 ## Difficult Version (optional): Build the [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
 
@@ -51,7 +79,6 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
 
