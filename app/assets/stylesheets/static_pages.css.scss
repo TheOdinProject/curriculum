@@ -542,7 +542,7 @@
 #studygroup {
   
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 920px;
   
   h1, h2, h3 {
    margin: 0; 
@@ -566,11 +566,15 @@
     float: left;
   }
   #side {
-    width: 325px;
+    width: 300px;
     margin: 0 50px 50px 0;
   }
   #content {
     width: 525px;
+  }
+  .rule {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
   }
 
 }

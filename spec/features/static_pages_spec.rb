@@ -235,7 +235,7 @@ describe "StaticPages" do
     end
     before { visit studygroup_path } 
     context "should contain an h1 title" do  
-      it {expect(page).to have_selector("h1", :text => "Odin Study Group")}
+      it {expect(page).to have_selector("h1", :text => "Web Development Study Group")}
     end  
   end
 
