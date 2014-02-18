@@ -1,1 +1,2 @@
 $(".completion-wrapper").html("<%= escape_javascript(render("shared/complete_lesson.html.erb"))%>");
+$("#lc-id-<%= @lesson.id %>").html("<%= escape_javascript(render("shared/lc_index.html.erb"))%>");

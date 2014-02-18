@@ -6,15 +6,32 @@ AJAX form which allows the user to do the checking and unchecking
 checkbox).
 -->
 
+<% lesson ||= @lesson %>
 
-<div class="lc-checkbox-wrapper">     
-  <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
-    <a href="#" id="lc-id-<%= lesson.id %>" class="lc-checkbox lc-unchecked">
-      <%= hidden_field_tag(:lesson_id, lesson.id) %>
-      <%= hidden_field_tag(:index, true) %>
-    </a>
-  <% end %>                       
+<div class="lc-checkbox-wrapper">   
+  <% if current_user.completed_lessons.include?(lesson) %>
+  
+    <%= form_tag lesson_completion_path(:lesson_id => lesson.id, :index => true), :method => "DELETE", :remote => true do %>
+      <a href="#" class="lc-checkbox lc-checked">
+      </a>
+    <% end %> 
+  
+  <% else %>
+  
+    <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
+      <a href="#" class="lc-checkbox lc-unchecked">
+        <%= hidden_field_tag(:lesson_id, lesson.id) %>
+        <%= hidden_field_tag(:index, true) %>
+      </a>
+    <% end %> 
+  
+  <% end %>
 </div>
+
+<!-- Preload the assets to avoid flickering when first used -->
+<!-- NOTE: This shouldn't be done with every partial... move this! -->
+<div class="lc-hover"></div>
+<div class="lc-waiting"></div>
 
 <!--
     <% @lesson = lesson %>
@@ -54,6 +71,5 @@ checkbox).
 
     <%= link_to "Sign in to track your progress", login_path, :class => "lc-signin-link" %> 
   <% end %>
-<div class="lc-hover"></div>
-<div class="lc-waiting"></div>
+
 -->

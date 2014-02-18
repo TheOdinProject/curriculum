@@ -43,7 +43,7 @@
                 <div class="lesson <%= lesson.is_project ? 'project' :''%>">
                   
                   <% if user_signed_in? %>
-                      <div class="completion-wrapper">
+                      <div id="lc-id-<%= lesson.id %>">
                         <%= render :partial => "shared/lc_index", :locals => { :lesson => lesson } %>
                       </div>
                   

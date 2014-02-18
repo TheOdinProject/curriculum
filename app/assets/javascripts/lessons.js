@@ -18,6 +18,8 @@ $(function(){
     
       // Switch to AJAX waiting state, since it will be overwritten by the
       // refresh from the unobtrusive javascript   
+      checkbox.removeClass("lc-unchecked");
+      checkbox.removeClass("lc-checked");
       checkbox.addClass("lc-waiting");
     
       // submit the form
