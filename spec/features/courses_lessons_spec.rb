@@ -139,13 +139,7 @@ describe "Courses and Lessons Pages" do
         
         context "after clicking the checkbox" do
           
-          it "should update the database with a new lesson_completion (JS test)", :js => true do
-            expect {
-              find("#lc-id-#{lesson1.id} a.lc-checkbox").click
-              }.to change(LessonCompletion, :count).by(1)
-          end
-          
-          # After the AJAX returns, it should re-render just the checkbox area to reflect
+          # After the AJAX successfully returns, it should re-render just the checkbox area to reflect
           # the completed checkbox
           # Note: this test was created in Nitrous.io so it couldn't be run!
           it "should change the checkbox to checked (JS test)", :js => true do
@@ -180,17 +174,14 @@ describe "Courses and Lessons Pages" do
           expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")
         end
         
-        context "after clicking that checked box" do
-          
-          it "should remove the lesson_completion from the database (JS test)", :js => true do
-            expect {
-              find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
-              }.to change(LessonCompletion, :count).by(-1)
-          end
+        context "after clicking that pre-checked box" do
           
           it "should change the checkbox to its unchecked state (JS test)", :js => true do
-            find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
-            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")            
+            within("#lc-id-#{lesson1.id}") do
+              find("a.lc-checkbox").click
+              expect(page).to have_css(".lc-unchecked")  
+              expect(page).to_not have_css(".lc-checked")          
+            end
           end
           
         end
@@ -376,18 +367,11 @@ describe "Courses and Lessons Pages" do
             
             context "after clicking the complete lesson box" do
               
-              # model creates a lesson_completion instance
-              it "should create a lesson_completion instance (JS test)", :js => true do
-                expect {
-                  find("a.lc-unchecked").click
-                  }.to change(LessonCompletion, :count).by(1)
-              end
-              
               # After the AJAX returns, it should re-render just the checkbox area to reflect
               # the completed checkbox and add a link to un-complete the lesson
               # Note: this test was created in Nitrous.io so it couldn't be run!
               it "should change the form's class to reflect completion (JS test)", :js => true do
-                find(".action-complete-lesson").click
+                find("a.lc-unchecked").click
                 expect(page).to have_css("a.lc-uncomplete-link") 
               end
             end
@@ -406,11 +390,9 @@ describe "Courses and Lessons Pages" do
             end
             
             context "after clicking the 'mark lesson not completed' link" do
-              # model destroys the lesson_completion instance
-              it "should destroy the lesson_completion instance (JS test)", :js => true do
-                expect {
-                  find(".lc-uncomplete-link").click
-                  }.to change(LessonCompletion, :count).by(-1)
+              it "should change the form's class to reflect completion (JS test)", :js => true do
+                find("a.lc-uncomplete-link").click
+                expect(page).to have_css("a.lc-unchecked") 
               end
             end
           end
