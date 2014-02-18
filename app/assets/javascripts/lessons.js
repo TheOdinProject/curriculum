@@ -51,7 +51,9 @@ $(function(){
   // Delegate listeners to the wrapper so they stick around when new forms
   // and checkboxes are created.  This is an example of "event delegation".
   $(".completion-wrapper").on("click", ".checkbox-container", function(e){
-    if(!$(".checkbox-container").hasClass("lc-disabled")){        
+    if( !$(".checkbox-container").hasClass("lc-disabled") &&
+        !$(".checkbox-container").hasClass("lc-checked")
+      ){        
       e.preventDefault();
       checkboxContainer = $(".checkbox-container");
       
@@ -81,6 +83,11 @@ $(function(){
   // the "mark this lesson NOT completed" link
   $(".completion-wrapper").on("click", ".lc-uncomplete-link", function(e){
     e.preventDefault();
+
+    // Switch to AJAX waiting state, since it will be overwritten by the
+    // refresh from the unobtrusive javascript   
+    $(".checkbox-container").addClass("lc-waiting");
+    
     // submit the form
     $(e.target).parents("form").submit();
   });
