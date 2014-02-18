@@ -95,13 +95,8 @@ describe "Courses and Lessons Pages" do
       it "should have a special project class" do
         project1.title.should_not be_blank
         url = lesson_path(course1.title_url, project1.title_url)
-        # save_and_open_page
-        xpath = "//a[@href=\'#{url}\']//*[@class='lesson project']"
         selector = ".lesson.project a[href=\'#{url}\']"
-        puts page.html
-        #subject.should have_xpath(xpath)
         expect(subject).to have_css(selector)
-        # subject.find(:xpath, xpath).text.should == "Project:"
       end
     end
 
@@ -137,31 +132,37 @@ describe "Courses and Lessons Pages" do
       end
       
       context "when user has not already completed the lesson" do
-        
-        context "when there are two lessons on the page" do
-          
-          # checking one doesn't check both
-          
-        end
-        #*********************************************************************************************************
+
         it "the lesson's checkbox should appear unchecked" do
-          expect(page).to have_css("#lc-id-#{lesson1.id} .lc-unchecked") # both selectors required
+          expect(page).to have_css("#lc-id-#{lesson1.id} .lc-unchecked")
         end
         
         context "after clicking the checkbox" do
           
           it "should update the database with a new lesson_completion (JS test)", :js => true do
             expect {
-              find("a#lc-id-#{lesson1.id}").click
+              find("#lc-id-#{lesson1.id} a.lc-checkbox").click
               }.to change(LessonCompletion, :count).by(1)
           end
           
           # After the AJAX returns, it should re-render just the checkbox area to reflect
-          # the completed checkbox and add a link to un-complete the lesson
+          # the completed checkbox
           # Note: this test was created in Nitrous.io so it couldn't be run!
-          it "should change the checkbox to unchecked (JS test)", :js => true do
-            #find("a#lc-id-#{lesson1.id}").click
-            #OLD! expect(page).to have_css("a.lc-uncomplete-link") 
+          it "should change the checkbox to checked (JS test)", :js => true do
+            find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
+            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
+          end
+          
+        end
+        
+        context "when there are two previously unchecked lessons on the page" do
+          
+          let(:lesson2) { course1.lessons[1] }
+         
+          it "clicking one does not result in both being checked (JS test)", :js => true do
+            find("#lc-id-#{lesson1.id} a.lc-checkbox").click
+            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
+            expect(page).to_not have_css("#lc-id-#{lesson2.id} .lc-checked") 
           end
           
         end
@@ -172,23 +173,24 @@ describe "Courses and Lessons Pages" do
         
         before do
           @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
-          visit lesson_path(course1.title_url, lesson1.title_url)
+          visit course_path(course1.title_url)
         end
         
         it "should show a checked box for that lesson" do
-          
+          expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")
         end
         
         context "after clicking that checked box" do
           
           it "should remove the lesson_completion from the database (JS test)", :js => true do
             expect {
-              find("a#lc-id-#{lesson1.id}").click
+              find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
               }.to change(LessonCompletion, :count).by(-1)
           end
           
-          it "should change the checkbox to its unchecked state" do
-            
+          it "should change the checkbox to its unchecked state (JS test)", :js => true do
+            find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
+            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")            
           end
           
         end
