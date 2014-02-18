@@ -97,7 +97,10 @@ describe "Courses and Lessons Pages" do
         url = lesson_path(course1.title_url, project1.title_url)
         # save_and_open_page
         xpath = "//a[@href=\'#{url}\']//*[@class='lesson project']"
-        subject.should have_xpath(xpath)
+        selector = ".lesson.project a[href=\'#{url}\']"
+        puts page.html
+        #subject.should have_xpath(xpath)
+        expect(subject).to have_css(selector)
         # subject.find(:xpath, xpath).text.should == "Project:"
       end
     end
@@ -113,56 +116,81 @@ describe "Courses and Lessons Pages" do
         subject.should_not have_xpath(xpath)
       end
     end
-      
-    it "should have a checkbox for the lesson" do
-      
-      expect(page).to have_css("#lc-id-#{lesson1.id}")
-      
-    end
     
-    context "when user has not already completed the lesson" do
-      
-      context "when there are two lessons on the page" do
-        
-        # checking one doesn't check both
-        
-      end
-      
-      it "the lesson's checkbox should appear unchecked" do
-        
-        within("#lc-id-#{lesson1.id}") do
-          expect(page).to have_css(".lc-unchecked")
-        end
-        
-      end
-      
-      context "after clicking the checkbox" do
-        
-        it "should update the database with a new lesson_completion" do
-          
-        end
-        
-        it "should change the checkbox to unchecked" do
-          
-        end
-        
-      end
-      
+    it "should NOT have a checkbox for the lesson" do    
+      expect(page).to_not have_css("#lc-id-#{course1.lessons.first.id}")
     end
-    
-    context "and user HAS already completed the lesson" do
       
-      it "should show a checked box for that lesson" do
+    context "for a signed-in user" do
+      
+      let!(:signed_in_student){ FactoryGirl.create(:user) }
+
+      before do
+        sign_in(signed_in_student)
+        visit course_path(course1.title_url)
+      end
+        
+      it "should have a checkbox for the lesson" do
+        
+        expect(page).to have_css("#lc-id-#{lesson1.id}")
         
       end
       
-      context "after clicking that checked box" do
+      context "when user has not already completed the lesson" do
         
-        it "should remove the lesson_completion from the database" do
+        context "when there are two lessons on the page" do
+          
+          # checking one doesn't check both
+          
+        end
+        #*********************************************************************************************************
+        it "the lesson's checkbox should appear unchecked" do
+          #puts page.html
+          expect(page).to have_css("#lc-id-#{lesson1.id}.lc-unchecked") # both selectors required
+        end
+        
+        context "after clicking the checkbox" do
+          
+          it "should update the database with a new lesson_completion (JS test)", :js => true do
+            expect {
+              find("a#lc-id-#{lesson1.id}").click
+              }.to change(LessonCompletion, :count).by(1)
+          end
+          
+          # After the AJAX returns, it should re-render just the checkbox area to reflect
+          # the completed checkbox and add a link to un-complete the lesson
+          # Note: this test was created in Nitrous.io so it couldn't be run!
+          it "should change the checkbox to unchecked (JS test)", :js => true do
+            #find("a#lc-id-#{lesson1.id}").click
+            #OLD! expect(page).to have_css("a.lc-uncomplete-link") 
+          end
           
         end
         
-        it "should change the checkbox to its unchecked state" do
+      end
+      
+      context "and user HAS already completed the lesson" do
+        
+        before do
+          @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
+          visit lesson_path(course1.title_url, lesson1.title_url)
+        end
+        
+        it "should show a checked box for that lesson" do
+          
+        end
+        
+        context "after clicking that checked box" do
+          
+          it "should remove the lesson_completion from the database (JS test)", :js => true do
+            expect {
+              find("a#lc-id-#{lesson1.id}").click
+              }.to change(LessonCompletion, :count).by(-1)
+          end
+          
+          it "should change the checkbox to its unchecked state" do
+            
+          end
           
         end
         
