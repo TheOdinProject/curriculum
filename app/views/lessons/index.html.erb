@@ -42,13 +42,15 @@
 
                 <div class="lesson <%= lesson.is_project ? 'project' :''%>">
                   
-                  <div class="lc-checkbox-wrapper">                                                                                                           
-                    <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>                                                           
-                      <a href="#" id="lc-id-<%= lesson.id %>" class="lc-checkbox lc-unchecked">                                                               
-                        <%= hidden_field_tag(:lesson_id, lesson.id) %>                                                                                        
-                      </a>                                                                                                                                    
-                    <% end %>                                                                                                                                 
-                  </div>
+                  <% if user_signed_in? %>
+                    <div class="lc-checkbox-wrapper">                                                                                                           
+                      <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>                                                           
+                        <a href="#" id="lc-id-<%= lesson.id %>" class="lc-checkbox lc-unchecked">                                                               
+                          <%= hidden_field_tag(:lesson_id, lesson.id) %>                                                                                        
+                        </a>                                                                                                                                    
+                      <% end %>                                                                                                                                 
+                    </div>
+                  <% end %>
                   
                   <a href="<%= lesson_path(lesson.course.title_url, lesson.title_url) %>" class="lesson-link">
                     <div class="lesson-number">
