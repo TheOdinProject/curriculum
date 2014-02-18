@@ -278,7 +278,8 @@
         @include lc-checkbox-bg-small("icons/lc_hover.svg");
       }
       &.lc-checked{
-        @include lc-checkbox-bg-small("icons/lc_unchecked.svg");
+        //@include lc-checkbox-bg-small("icons/lc_unchecked.svg");
+        opacity: .5;
       }
     }
     .lc-checked{

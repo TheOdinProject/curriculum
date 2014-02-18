@@ -1,2 +1,5 @@
+// If it's an individual lesson page, this will run
 $(".completion-wrapper").html("<%= escape_javascript(render("shared/complete_lesson.html.erb"))%>");
+
+// If it's the lessons index page, this will run
 $("#lc-id-<%= @lesson.id %>").html("<%= escape_javascript(render("shared/lc_index.html.erb"))%>");

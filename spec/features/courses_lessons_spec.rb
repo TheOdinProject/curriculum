@@ -145,8 +145,7 @@ describe "Courses and Lessons Pages" do
         end
         #*********************************************************************************************************
         it "the lesson's checkbox should appear unchecked" do
-          #puts page.html
-          expect(page).to have_css("#lc-id-#{lesson1.id}.lc-unchecked") # both selectors required
+          expect(page).to have_css("#lc-id-#{lesson1.id} .lc-unchecked") # both selectors required
         end
         
         context "after clicking the checkbox" do
