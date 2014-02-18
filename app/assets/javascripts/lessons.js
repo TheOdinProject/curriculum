@@ -6,6 +6,46 @@
 
 $(function(){
   
+  // LESSONS INDEX PAGES
+  
+  // Delegate listeners to the lesson so they stick around when new forms
+  // and checkboxes are created.  This is an example of "event delegation".
+  // This code will work for both checked and unchecked boxes
+  $(".lesson").on("click", ".lc-checkbox", function(e){
+    //if(!$(".checkbox-container").hasClass("lc-disabled")){        
+      e.preventDefault();
+      checkbox = $(e.target).parents(".lesson").find(".lc-checkbox");
+    
+      // Switch to AJAX waiting state, since it will be overwritten by the
+      // refresh from the unobtrusive javascript   
+      checkbox.addClass("lc-waiting");
+    
+      // submit the form
+      checkbox.parents("form").submit();
+    //}
+  });
+  
+  // Delegate a hover listener (separate mouseenter and mouseleave) to completion wrapper
+  // Don't enable if it's a disabled class
+  $(".lesson").on("mouseenter", ".lc-checkbox",function(e){
+    console.log(e.target);
+    checkbox = $(e.target).parents(".lesson").find(".lc-checkbox");
+    
+    if(!checkbox.hasClass("lc-disabled")){  
+      checkbox.addClass("lc-hover");
+    }
+  });
+  $(".lesson").on("mouseleave", ".lc-checkbox",function(e){
+    checkbox = $(e.target).parents(".lesson").find(".lc-checkbox");
+    
+    if(!checkbox.hasClass("lc-disabled")){  
+      checkbox.removeClass("lc-hover");
+    }
+  });                                            
+  
+  
+  // INDIVIDUAL LESSON SHOW PAGES
+  
   // Delegate listeners to the wrapper so they stick around when new forms
   // and checkboxes are created.  This is an example of "event delegation".
   $(".completion-wrapper").on("click", ".checkbox-container", function(e){
@@ -44,13 +84,14 @@ $(function(){
   });
 })
 
+
+
 /*
  * Handlers for Octocat and the contributions links;
  *    Clicking Octocat triggers a bootstrap popover with links to the lessons page in the Github repo, 
  *    and a link to the live site's Contributing page.
  *    See also the lessons show.html.erb file and the partial _contribution_links.html.erb.
  */
-
 $(function () {
     
     // Cache jquery reference to the cat, since its referenced everytime there is a click anywhere on the page.
