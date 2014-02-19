@@ -9,7 +9,7 @@ checkbox).
   
   <% if user_signed_in? %>
   
-    <% if current_user.completed_lessons.include?(@lesson) %>
+    <% if current_user.completed_lesson?(@lesson) %>
 
       <div class="checkbox-container lc-checked">
 
