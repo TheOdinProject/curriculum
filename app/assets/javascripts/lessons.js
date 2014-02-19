@@ -50,7 +50,7 @@ $(function(){
   
   // Delegate listeners to the wrapper so they stick around when new forms
   // and checkboxes are created.  This is an example of "event delegation".
-  $(".completion-wrapper").on("click", ".checkbox-container", function(e){
+  $(".lc-end-wrapper").on("click", ".checkbox-container", function(e){
     if( !$(".checkbox-container").hasClass("lc-disabled") &&
         !$(".checkbox-container").hasClass("lc-checked")
       ){        
@@ -68,12 +68,12 @@ $(function(){
     
   // Delegate a hover listener (separate mouseenter and mouseleave) to completion wrapper
   // Don't enable if it's a disabled class
-  $(".completion-wrapper").on("mouseenter", ".checkbox-container",function(e){
+  $(".lc-end-wrapper").on("mouseenter", ".checkbox-container",function(e){
     if(!$(".checkbox-container").hasClass("lc-disabled")){  
       $(".checkbox-container").addClass("lc-hover");
     }
   });
-  $(".completion-wrapper").on("mouseleave", ".checkbox-container",function(e){
+  $(".lc-end-wrapper").on("mouseleave", ".checkbox-container",function(e){
     if(!$(".checkbox-container").hasClass("lc-disabled")){  
       $(".checkbox-container").removeClass("lc-hover");
     }
@@ -81,7 +81,7 @@ $(function(){
   
   // Delegate an event listener to the completion wrapper for if the user clicks
   // the "mark this lesson NOT completed" link
-  $(".completion-wrapper").on("click", ".lc-uncomplete-link", function(e){
+  $(".lc-end-wrapper").on("click", ".lc-uncomplete-link", function(e){
     e.preventDefault();
 
     // Switch to AJAX waiting state, since it will be overwritten by the

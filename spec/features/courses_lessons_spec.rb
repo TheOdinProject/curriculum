@@ -323,7 +323,7 @@ describe "Courses and Lessons Pages" do
 
     describe "End-of-lesson checkbox section" do
       it "should be there" do
-        expect(page).to have_css(".completion-wrapper")
+        expect(page).to have_css(".lc-end-wrapper")
       end
     end
 
@@ -343,7 +343,7 @@ describe "Courses and Lessons Pages" do
         
         describe "End-of-lesson checkbox section" do
           
-          let!(:completion_wrapper_div){ ".completion-wrapper" }
+          let!(:completion_wrapper_div){ ".lc-end-wrapper" }
           
           it "shouldn't have a link to sign in" do
             within(completion_wrapper_div) do
@@ -405,7 +405,7 @@ describe "Courses and Lessons Pages" do
       
       describe "End-of-lesson checkbox section" do
         
-        let!(:completion_wrapper_div){ ".completion-wrapper" }        
+        let!(:completion_wrapper_div){ ".lc-end-wrapper" }        
         
         it "should contain a link to sign in" do
           within(completion_wrapper_div) do
