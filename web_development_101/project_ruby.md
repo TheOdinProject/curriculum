@@ -27,6 +27,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * "Official" [Test First Ruby Solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * ErikHP's [Ruby Mini Project (WIP)](https://github.com/ErikHP/test-first-ruby)
 * Afshinator's [Test First Ruby Solutions](https://github.com/afshinator/playground/tree/master/TestFirstRubyExercises)
+* Paul Dariye's [Test First Ruby Solutions](https://github.com/pauldd91/theodinproject/tree/master/learn_ruby)
 * *Your solution here...*
 
 ## Additional Resources
