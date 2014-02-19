@@ -75,6 +75,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [JesseNeal's solution here](https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html)
 * See [Neil Gehani's solution here](https://github.com/ngehani/htmlcss/blob/master/googlelogo) or [view it in the browser here](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo/index.html).
 * See [Neil Gehani's bootstrap solution here](https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html) or [view it in the browser here](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html).
+* See [Paul Dariye's solution here](https://github.com/pauldd91/theodinproject/tree/master/google_homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/pauldd91/theodinproject/master/google_homepage/index.html).
 * *Your solution here...*
 
 ## Additional Resources
