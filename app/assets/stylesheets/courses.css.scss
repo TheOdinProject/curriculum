@@ -262,12 +262,12 @@
     /* Note: that this can be either a div or an anchor tag */
       display: block;
       position: absolute;
-      margin: 15px 0 0 -100px;
+      margin: 17px 0 0 -52px;
       padding: 0px;
       text-align: left;
-      width: 60px; 
-      height: 60px;
-      background-size: 60px 60px !important;
+      width: 40px; 
+      height: 40px;
+      background-size: 40px 40px !important;
   
     }
   
@@ -287,7 +287,7 @@
       @include lc-checkbox-bg-small("icons/lc_checked.svg");
     }
     .lc-waiting{
-      background: url("icons/ajax-loader.gif") 15px 15px no-repeat;
+      background: url("icons/ajax-loader.gif") 4px 4px no-repeat;
       background-size: 32px 32px !important;
     }
     .lc-disabled{
