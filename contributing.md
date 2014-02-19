@@ -43,9 +43,12 @@ If you're adding a solution to one of the projects, first save it in your own re
 
 If you're unfamiliar with the Markdown (.md) syntax that's used in these files, it's really straightforward and there's a great guide for it from [Daring Fireball here](http://daringfireball.net/projects/markdown/syntax).
 
-### Attribution
+### Licensing and Attribution
 
 As you can tell, we highly value and rely on the help of the developer and student communities.  We'd like to do as much as we can to identify our top contributers and the providers of high quality content.  We'll be maintaining a top contributers list in addition to the commit histories.  Contributers taking a more active role in the project may be invited to join the core team as well.
+
+This curriculum is licensed under a Creative Commons license.  For more information, check out the [License.md](https://github.com/TheOdinProject/curriculum/blob/master/license.md) page.
+
 
 ## Thank you for your help and support!
 
