@@ -105,7 +105,7 @@ describe User do
     end
   end
 
-  context "after saving" do
+  context "after saving user" do
     before do
       subject.save!
     end
@@ -113,8 +113,34 @@ describe User do
     describe "it should create a preferences association as well" do
       its(:user_pref) { should_not be_nil }
     end
+    
+    describe "#completed_lesson?" do
+
+      context "for a lesson that has been completed" do
+
+        it "should return true" do
+          completed_lesson = double("Lesson")
+          allow(user).to receive(:completed_lessons).and_return([completed_lesson])
+          expect(user.completed_lesson?(completed_lesson)).to be_true
+        end
+
+      end
+
+      context "for a lesson that has not been completed" do
+
+        it "should return false" do
+          uncompleted_lesson = double("Lesson")
+          completed_lesson = double("Lesson")
+          allow(user).to receive(:completed_lessons).and_return([completed_lesson])
+          expect(user.completed_lesson?(uncompleted_lesson)).to be_false
+        end
+
+      end
+
+    end
 
   end
+
 
 
 end

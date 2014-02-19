@@ -24,6 +24,10 @@ class User < ActiveRecord::Base
   has_many :lesson_completions, :foreign_key => :student_id
   has_many :completed_lessons, :through => :lesson_completions, :source => :lesson
 
+  def completed_lesson?(lesson)
+    self.completed_lessons.include?(lesson)
+  end
+
   protected
 
     def build_preferences
@@ -37,4 +41,5 @@ class User < ActiveRecord::Base
         # Do something useful here! TODO!
       end
     end
+
 end
