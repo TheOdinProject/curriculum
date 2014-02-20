@@ -21,7 +21,7 @@ This project is emphatically beginner-friendly so, if you're interested in poten
 
 ### Hacking on the Site Yourself: Getting Set Up
 
-*This site runs on **Ruby 2.0.0-p353** and **Rails 4.0.0** (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)*
+This site runs on **Ruby 2.0.0-p353** and **Rails 4.0.0** (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)
 
 #### Nitrous.io Setup
 
