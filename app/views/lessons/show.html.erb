@@ -14,8 +14,15 @@
 </div>
 <div class="individual-lesson <%= @lesson.is_project ? 'project-lesson' : ''%>">
   <div class="container">
+    
     <%= @content %>
-    <%= render 'lessons/contribution_links' %>
+
+    <div id="info-box">
+      <%= render 'lessons/contribution_links' %>
+      <%= render 'lessons/license' %>
+      <div class="clearfix"></div>
+    </div>
+
     <div class="action-box">
       <h1>
         Congratulations!
