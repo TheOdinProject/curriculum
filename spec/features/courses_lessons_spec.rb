@@ -404,6 +404,15 @@ describe "Courses and Lessons Pages" do
                 find("a.lc-unchecked").click
                 expect(page).to have_css("a.lc-uncomplete-link") 
               end
+
+              it "should show the lesson completed check (JS test)", :js => true do
+                find("a.lc-unchecked").click
+                expect(page).to have_css(".lc-completion-indicator") 
+              end
+              it "should not hide the lesson completed check (JS test)", :js => true do
+                find("a.lc-unchecked").click
+                expect(page).to_not have_css(".lc-completion-indicator.hidden") 
+              end
             end
           end
           
@@ -423,6 +432,10 @@ describe "Courses and Lessons Pages" do
               it "should change the form's class to reflect completion (JS test)", :js => true do
                 find("a.lc-uncomplete-link").click
                 expect(page).to have_css("a.lc-unchecked") 
+              end
+              it "should hide the completion check (JS test)", :js => true do
+                find("a.lc-uncomplete-link").click
+                expect(page).to have_css(".lc-completion-indicator.hidden") 
               end
             end
           end
