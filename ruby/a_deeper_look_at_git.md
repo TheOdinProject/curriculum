@@ -11,6 +11,7 @@ It's important to take a look at this stuff before getting any deeper into thing
 
 We'll begin by reading some things that are probably review from [Web Development 101](/courses/web-development-101/lessons/git-basics.md) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
 
+
 ## Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
