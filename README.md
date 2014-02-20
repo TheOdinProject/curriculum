@@ -61,6 +61,8 @@ This is basically all you need to get yourself set up with the repo and you shou
 
 #### Installing Postgres on Linux
 
+If you're running Linux, this should be helpful.  If not... carry on, nothing to see here.
+
 1. Open your terminal and type ```sudo apt-get install postgresql
     
 2. After installing postgres, you might like to install pgAdmin III. It is a nice GUI to have, especially for beginners. To do this, in terminal type ```sudo apt-get install pgadmin3
@@ -103,9 +105,7 @@ and click "OK".
 
 *Please let me know what I've missed here!*
 
-## Now that you're up and running...
-
-[Come and help out! It'll be fun and there may or may not be cake.](http://theodinproject.com/contributing)
+## Now that you're up and running... [Come Help Out!](http://theodinproject.com/contributing)
 
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
