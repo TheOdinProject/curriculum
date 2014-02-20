@@ -12,7 +12,7 @@ Students, educators, and developers are encouraged to make contributions to the 
 
 *For more information about contributing to The Odin Project, go to [theodinproject.com/contributing](http://www.theodinproject.com/contributing)*
 
-*For the source code to the main website (which pulls in this curriculum), check out the [github repo here](http://github.com/theodinproject/theodinproject).*
+*For the source code to The Odin Project's main website (which pulls in this curriculum), check out the [github repo here](http://github.com/theodinproject/theodinproject).*
 
 **Happy Coding!**
 
