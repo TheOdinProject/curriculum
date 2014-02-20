@@ -16,7 +16,7 @@
   <div class="container">
 
     <% if user_signed_in? %>
-      <h3 class="lc-completion-indicator <%= current_user.completed_lesson?(@lesson) ? '' : 'hidden' %>">
+      <h3 class="lc-completion-indicator <%= current_user.completed_lesson?(@lesson) ? '' : 'hidden' %>" title="You've completed this lesson!">
         &#10004;
       </h3>
     <% end %>
