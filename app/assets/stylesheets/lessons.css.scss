@@ -223,6 +223,14 @@
     .popover { max-width: 176px; }
   }
 
+  .lc-completion-indicator{
+    // text-align: center;
+    position: absolute;
+    color: #0d0;
+    font-size: 3em;
+    margin: .1em 0 1em -1.15em;
+  }
+
   /* Covers the section at the bottom of each lesson where the
   user can mark it completed or not completed */
   .lc-end-wrapper{

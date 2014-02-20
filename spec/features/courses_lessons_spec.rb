@@ -327,6 +327,12 @@ describe "Courses and Lessons Pages" do
       end
     end
 
+    describe "Completed text" do
+      it "should not be present since user isn't signed in" do
+        expect(page).to_not have_css(".lc-completion-indicator")
+      end
+    end
+
     context "for logged in students" do
       
       let!(:signed_in_student){ FactoryGirl.create(:user) }
@@ -340,7 +346,31 @@ describe "Courses and Lessons Pages" do
         before do
           visit lesson_path(course1.title_url, lesson1.title_url)
         end
-        
+          
+        describe "Top-of-lesson success section" do
+          context "if user hasn't yet completed the lesson" do
+            # (default state)
+            it "should hide text indicating it was completed" do
+              expect(page).to have_css(".lc-completion-indicator.hidden")
+            end
+          end
+
+          context "if user HAS completed the lesson" do
+            before do
+              @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
+              visit lesson_path(course1.title_url, lesson1.title_url)
+            end
+
+            it "should have text indicating it was completed" do
+              expect(page).to have_css(".lc-completion-indicator")
+            end
+            it "should not hide text indicating it was completed" do
+              expect(page).to_not have_css(".lc-completion-indicator.hidden")
+            end
+          end
+
+        end
+          
         describe "End-of-lesson checkbox section" do
           
           let!(:completion_wrapper_div){ ".lc-end-wrapper" }
