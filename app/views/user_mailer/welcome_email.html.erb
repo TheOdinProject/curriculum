@@ -4,7 +4,7 @@
   <div class="logo-bar">
     <div class="brand-box">
       <a href="<%= home_url %>">
-        <img src="#" class="logo">
+        <%= image_tag attachments['logo.gif'].url, :class => "logo-img" %>
         <span class="logo-text">
           The Odin Project
         </span>
@@ -153,12 +153,12 @@
     padding: 2em;
   }
   .logo-bar{
-    height: 41px;
+    height: 43px;
   }
   .login-link{
     font-size: .85em;
     margin-right: 1em;
-    margin-top: 10px;
+    margin-top: 14px;
     display: inline-block;
     float: right;
   }
@@ -250,11 +250,9 @@
   .logo-text{
   }
   .logo-img{
-    width: 30px;
     height: 30px;
-    margin-top: -9px;
-    margin-bottom: -4px;
-    margin-right: 3px;
+    width: 30px;
+    margin: 0px 4 -8px 0;
   }
 
 
