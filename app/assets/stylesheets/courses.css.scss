@@ -44,6 +44,12 @@
 
     margin: 3em 0 2em 0;
 
+    .lc-percent-completion{
+      text-align: center;
+      color: $vlight_gray;
+      font-size: 2em;
+    }
+
     .heading{
       h1{
         text-align: center;

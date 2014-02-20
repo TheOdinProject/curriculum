@@ -7,7 +7,17 @@
 </div>
 <div class="CoursesController">
   <div class="container">
+
+
+
     <div class="heading-box">
+
+      <% if user_signed_in? %>
+        <div class="lc-percent-completion">
+          <%= @course.percent_completed_by(current_user).to_i %>% Completed
+        </div>
+      <% end %>
+
       <div class="heading">
         <h1><%= @course.title %></h1>
       </div>

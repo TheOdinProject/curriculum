@@ -115,6 +115,10 @@ describe "Courses and Lessons Pages" do
     it "should NOT have a checkbox for the lesson" do    
       expect(page).to_not have_css("#lc-id-#{course1.lessons.first.id}")
     end
+
+    it "should NOT have a percent-completed indicator" do
+      expect(page).to_not have_css(".lc-percent-completion")
+    end
       
     context "for a signed-in user" do
       
@@ -125,6 +129,10 @@ describe "Courses and Lessons Pages" do
         visit course_path(course1.title_url)
       end
         
+      it "should have a percent-completed indicator" do
+        expect(page).to have_css(".lc-percent-completion")
+      end
+
       it "should have a checkbox for the lesson" do
         
         expect(page).to have_css("#lc-id-#{lesson1.id}")
