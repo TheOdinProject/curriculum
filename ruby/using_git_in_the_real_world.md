@@ -71,7 +71,6 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* TODO: Clean merges up, dirty merges down.
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
 * [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
 * Github's [official training site](http://teach.github.com/)
