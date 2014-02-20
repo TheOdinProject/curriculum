@@ -30,7 +30,9 @@ class User < ActiveRecord::Base
     def send_welcome_email
       begin
         UserMailer.send_welcome_email_to(self).deliver!
-      rescue
+      rescue Exception => e
+        puts "Error sending welcome email!"
+        puts e.message
       end
     end
 end
