@@ -202,6 +202,21 @@ describe "Courses and Lessons Pages" do
         end
         
       end
+
+      context "when the user has completed ALL lessons" do
+        before do
+          Lesson.all.each do |l|
+            LessonCompletion.create(:lesson_id => l.id, :student_id => signed_in_student.id)
+          end
+          visit course_path(course1.title_url)
+        end
+        
+        it "should show a checked box for that lesson" do
+          within(".lc-percent-completion") do
+            expect(page).to have_css(".lc-finished")
+          end
+        end
+      end
       
     end
 

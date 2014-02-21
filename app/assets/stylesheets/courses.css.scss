@@ -43,11 +43,19 @@
   .heading-box{
 
     margin: 3em 0 2em 0;
+    position: relative;
 
     .lc-percent-completion{
+      position: absolute;
+      width: 100%;
+      margin-top: -1.1em;
       text-align: center;
       color: $vlight_gray;
       font-size: 2em;
+      .lc-finished{
+        color: #0d0;
+        font-weight: bold;
+      }
     }
 
     .heading{
