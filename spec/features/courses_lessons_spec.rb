@@ -357,8 +357,8 @@ describe "Courses and Lessons Pages" do
             visit lesson_path(last_lesson.course.title_url, last_lesson.title_url)
           end
 
-          it "should activate the 'view course' button" do
-            expect(page).to have_css(".lnav-index.lnav-active")
+          it "should include the 'view course' button" do
+            expect(page).to have_css(".lnav-index")
           end
 
           it "should disable the 'next course' button" do
@@ -494,7 +494,7 @@ describe "Courses and Lessons Pages" do
             end
 
             it "should highlight the next lesson" do
-              expect(page).to have_css(".lnav-next.lnav-active")
+              expect(page).to have_css(".lnav-next .lnav-active")
             end
           end
         end

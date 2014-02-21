@@ -6,12 +6,12 @@ class LessonCompletionsController < ApplicationController
     # Validate that the id does in fact correspond to a real lesson
     # Note that the authentication before_filter makes sure we've got a current_user
     @lesson = Lesson.where(:id => params[:lesson_id]).first
-    @course = @lesson.course
-    @next_lesson = @lesson.next_lesson
 
     if @lesson.nil?
       render :nothing => true, :status => 400 # bad request
     else   
+      @course = @lesson.course
+      @next_lesson = @lesson.next_lesson
       lc = LessonCompletion.new(:student_id => current_user.id, :lesson_id => @lesson.id)
       if lc.save
         render "create", :formats => [:js]
@@ -25,12 +25,12 @@ class LessonCompletionsController < ApplicationController
     # Validate that the id does in fact correspond to a real lessons
     # Note that the authentication before_filter makes sure we've got a current_user
     @lesson = Lesson.where(:id => params[:lesson_id]).first
-    @course = @lesson.course
-    @next_lesson = @lesson.next_lesson
 
     if @lesson.nil?
       render :nothing => true, :status => 400 # bad request
     else   
+      @course = @lesson.course
+      @next_lesson = @lesson.next_lesson
       lc = LessonCompletion.where(:student_id => current_user.id, :lesson_id => @lesson.id).first
       if lc.nil? 
         render :nothing => true, :status => 400 # bad request
