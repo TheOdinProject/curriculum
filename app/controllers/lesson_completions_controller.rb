@@ -7,6 +7,7 @@ class LessonCompletionsController < ApplicationController
     # Note that the authentication before_filter makes sure we've got a current_user
     @lesson = Lesson.where(:id => params[:lesson_id]).first
     @course = @lesson.course
+    @next_lesson = @lesson.next_lesson
 
     if @lesson.nil?
       render :nothing => true, :status => 400 # bad request
@@ -25,6 +26,7 @@ class LessonCompletionsController < ApplicationController
     # Note that the authentication before_filter makes sure we've got a current_user
     @lesson = Lesson.where(:id => params[:lesson_id]).first
     @course = @lesson.course
+    @next_lesson = @lesson.next_lesson
 
     if @lesson.nil?
       render :nothing => true, :status => 400 # bad request

@@ -8,6 +8,19 @@ if(<%= current_user.completed_lesson?(@lesson) %>){
   $(".lc-completion-indicator").addClass("hidden");
 }
 
+// update end-of-lesson nav states
+if(<%= current_user.completed_lesson?(@lesson) %>){
+  $(".lnav-next-icon").addClass("lnav-active");
+  if(<%= @next_lesson.nil? %>){
+    $(".lnav-course-icon").addClass("lnav-active");
+  }
+}else{
+  $(".lnav-next-icon").removeClass("lnav-active");
+  if(<%= @next_lesson.nil? %>){
+    $(".lnav-course-icon").removeClass("lnav-active");
+  }
+}
+
 // update percent completion indicator on lessons index page
 $(".lc-percent-completion").html("<%= escape_javascript(render("shared/completion_percent.html.erb"))%>");
 

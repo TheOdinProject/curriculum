@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "colors";
+@import "mixins";
 
 .individual-lesson{
   /* User styles */
@@ -234,6 +235,8 @@
   /* Covers the section at the bottom of each lesson where the
   user can mark it completed or not completed */
   .lc-end-wrapper{
+    position: relative;
+
     a:hover{
       text-decoration: none;
     }
@@ -249,11 +252,11 @@
     .checkbox-container {
       display: block;
       border: 2px dashed $vlight_gray;
-      border-radius: 10px;
-      margin: 0 auto 20px auto;
+      @include border-radius(10px);
+      margin: 15px auto 30px auto;
       padding: 15px;
       text-align: left;
-      width: 350px; 
+      max-width: 350px; 
       background-size: 86px 86px !important;
       
       h3 {
@@ -264,6 +267,11 @@
       form {
         margin: 0;
       }
+    }
+    form.lc-link-form {
+      position: absolute;
+      width: 100%;
+      margin: -20px auto 0 auto;
     }
     /*  This is like a function (it's from SASS) so we don't
         have to repeat ourselves all the time below */
@@ -293,6 +301,13 @@
   // Styles for the lower lesson navigation (e.g. "next", "prev")
   .lnav{
 
+    padding: 20px 15px 15px 15px;
+    max-width: 350px;
+    margin: auto;
+    // background-color: #f8f8f8;
+    // border: 1px solid $vlight_gray;
+    // @include border-radius(10px);
+
     p{
       margin: 0;
       font-size: .75em;
@@ -305,7 +320,7 @@
       display: inline-block;
       margin: .75em .5em;
       text-align: center;
-      opacity: .5;
+      opacity: .65;
       &:hover{
         opacity: 1;
       }
@@ -319,6 +334,14 @@
       opacity: .2;
       &:hover{
         opacity: .2;
+      }
+      .lnav-course-icon{
+        background: url("icons/notebook.svg") 0px 0px no-repeat!important;
+        background-size: 80px 80px!important;
+      }
+      .lnav-next-icon{
+        background: url("icons/arrow_in_circle.svg") 8px 8px no-repeat!important;
+        background-size: 64px 64px!important;
       }
     }
 
@@ -335,6 +358,9 @@
     .lnav-course-icon{
       background: url("icons/notebook.svg") 0px 0px no-repeat;
       background-size: 80px 80px!important;
+      &.lnav-active{
+        background: url("icons/notebook_green.svg") 0px 0px no-repeat;
+      }
     }
 
     .lnav-next-icon{
@@ -344,7 +370,7 @@
           -ms-transform:rotate(180deg); /* IE 9 */
       -webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
       &.lnav-active{
-        background: url("icons/arrow_in_circle_green.svg") 4px 4px no-repeat;
+        background: url("icons/arrow_in_circle_green.svg") 8px 8px no-repeat;
       }
     }
 
