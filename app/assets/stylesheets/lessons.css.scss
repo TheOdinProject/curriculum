@@ -303,7 +303,7 @@
 
     .lnav-wrap{
       display: inline-block;
-      margin: 1em;
+      margin: .75em .5em;
       text-align: center;
       opacity: .5;
       &:hover{
@@ -327,11 +327,32 @@
       background-color: #0c0;
     }
 
+    .lnav-prev-icon{
+      background: url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
+      background-size: 64px 64px!important;
+    }
+
+    .lnav-course-icon{
+      background: url("icons/notebook.svg") 0px 0px no-repeat;
+      background-size: 80px 80px!important;
+    }
+
+    .lnav-next-icon{
+      background: url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
+      background-size: 64px 64px!important;
+              transform:rotate(180deg);
+          -ms-transform:rotate(180deg); /* IE 9 */
+      -webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
+      &.lnav-active{
+        background: url("icons/arrow_in_circle_green.svg") 4px 4px no-repeat;
+      }
+    }
+
     .icon{
       margin: auto;
-      height: 64px;
-      width: 64px;
-      background-color: $light_gray;
+      height: 80px;
+      width: 80px;
+      // background-color: $light_gray;
     }
   }
 

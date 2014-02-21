@@ -311,13 +311,13 @@ describe "Courses and Lessons Pages" do
 
       describe "in the top breadcrumb area" do
         it "should have backlinks to the courses directory" do
-          within ".lesson-nav" do
+          within "#lesson-nav" do
             expect(page).to have_link("", :href => courses_path)
           end
         end
         it "should have backlinks to the lessons index (aka course page)" do
-          within ".lesson-nav" do
-            expect(page).to have_link("", :href => lesson_path(course1.title_url))
+          within "#lesson-nav" do
+            expect(page).to have_link("", :href => lessons_path(lesson1.course.title_url, :anchor => "section-#{lesson1.section.title_url}"))
           end
         end
       end
