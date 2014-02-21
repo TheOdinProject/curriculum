@@ -1,25 +1,204 @@
 <div class="StaticPagesController">
   <div class="container">
-    
-    <h1>Contributing to the Project</h1>
 
-    <p> 
-      You can contribute either to the curriculum content directly or the main website.  In either case, you get a free hug.  Both repos are on Github at the links below.  If you'd like to help out in other ways, please <%= link_to "contact us directly", contact_path %>.
-    </p>
+    <h1>How to Contribute</h1>
 
-    <h2>The Main Website</h2>
-    <p>
-      Students are currently using Agile techniques and group coding sessions to build this very website... learn how by visiting our <%= link_to "Getting Involved document", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md" %> on Github.  
-    </p>
-    <p>
-      Check out our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %> for discussions and events around those efforts, as well as additional links for learning more about this living and growing adventure we call The Odin Project.
-    </p>
+      <p>
+        <strong>The Odin project</strong> is crowdsourced and built by people learning to code,
+        <em>just like you</em>. You can contribute too, in fact we hope you do! Even if you
+        don't feel ready, you can still get involved and observe until you're comfortable. Still
+        not sure? Here are some <a id="reasonsToggle" href="#reasonsModal" data-toggle = "modal">reasons to get
+        involved!</a>
+      </p>
 
-    <h2>The Curriculum</h2>
-    <p>
-      To contribute to the curriculum, see our <%= link_to "Contributing to the Curriculum document", "https://github.com/TheOdinProject/curriculum/blob/master/contributing.md" %> in its repository on Github.
-    </p>
+            <div id="reasonsModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="reasonsModalLabel" aria-hidden="true">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <h3 id="reasonsModalLabel">Contributing</h3>
+              </div>
+
+              <div class="modal-body" style="background: #666;color: white;font-size: .75em">
+                <p >The Odin Project is designed around a simple idea- make it easy for you to
+                    get started coding! We want to make it easy for newcomers to get into an
+                    <em>actual</em> real-world coding environment so you can get the experience
+                    you need. <strong>Here's the benefits to you:</strong>
+                </p>
+                <ul>
+                  <li>Flexibility! You can work on your own time. It's not 9 to 5 so you can
+                      get involved when it's convenient for you.</li>
+                  <li>Exposure! Contributors to The Odin Project will be listed on the page
+                      and on github, where you can show people your work!</li>
+                  <li>Relevant Training! This is the development that is in demand and
+                      happening today.</li>
+                  <li>Job Focus! No matter why you are learning to code, the right skills matter.
+                      You'll learn good habits and discipline that will put you at the top.</li>
+                  <li>Community! Meet like-minded people and start building your network now.
+                      Find others that can work in your schedule and interests.</li>
+                </ul>
+              </div>
+
+              <div class="modal-footer">
+                <h3>But mostly... it's fun!</h3>
+              </div>
+            </div>
+
+    <h2>Where do I start?</h2>
+
+      <p><em>If you have a completed project you'd like to add, go <a href="#">here.</a>
+             Otherwise, start by choosing your skill level:</em></p>
+
+        <div class="container">
+          <div class="row-fluid">
+            <div class="span2">
+              <%=image_tag "icons/star1.png", title: "Beginner"%>
+            </div>
+            <div class="span10" style="padding-top: 0;">
+              <h2 style="margin-top:.75em;">Total Newbie</h2>
+
+                <p>
+                  If you're just learning to program, this is where to start. Click below to see
+                  your paths, and check out the Contributor's Hall of Fame at the bottom of the
+                  page- that's your goal!
+                </p>
+            </div>
+            <div style="text-align:center;">
+              <span id="moreButton" style="color:#f90; cursor: pointer;" data-toggle="collapse" data-target="#newbie-path">More</span>
+            </div>
+          </div>
+            <div id="newbie-path" class="row-fluid collapse">
+              <div class="span6">
+                <h3>The Courses</h3>
+                <div style="font-size:.75em; height:400px; background:#666; color:white; padding:5px">
+                  <p>
+                    You should begin by working through the curriculum from the start. It will
+                    take some time, but it is worth the effort. Don't cut corners. There is a
+                    steep learning curve at first, you will get better. Stick with it, work with
+                    others, and set goals. The study groups are a great place to get involved!
+                  </p>
+                  <ul>
+                    <li>Complete the 'On-Boarding' section on this page</li>
+                    <li>
+                      Set up a <%= link_to "Github account", "http://github.com"%>
+                    </li>
+                    <li>
+                      Check out the <%= link_to "study group", studygroup_path %>
+                    </li>
+                    <li>
+                      Start on the <%= link_to "courses", curriculum_path %>
+                    </li>
+                    <li>
+                      Write a lot of code!
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="span6">
+                <h3>Observer/Bug Sniper</h3>
+                <div style="font-size:.75em; height:400px; background:#666; color:white; padding:5px">
+                  <p>
+                    You can begin to get involved with the project by observing and even bug sniping!
+                    Watch our pair programming events (many are recorded) and see how the developers
+                    are building code. You can also work by pairing with other students going through
+                    the course!
+                  </p>
+                  <ul>
+                    <li>Complete the 'On-Boarding' section on this page</li>
+                    <li>
+                      Set up a <%= link_to "Github account", "http://github.com"%>
+                    </li>
+                    <li>
+                      Fork the main and dev branches from the <%= link_to "Repo", "https://github.com/TheOdinProject/theodinproject" %>
+                    </li>
+                    <li>
+                      Set up an account on <%= link_to "Pivotal Tracker", "http://pivotaltracker.com" %>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+        </div>
+
+		<div class="container">
+		  <div class="row-fluid" style="padding-top:30px">
+		    <div class="span2">
+		      <%=image_tag "icons/star2.png", title: "Advanced Beginner"%>
+		    </div>
+		    <div class="span10" style="padding-top:;">
+		      <h3 style="margin-top:0;">Advanced Beginner</h3>
+		      <p>
+		        It's probably best to start by working through the curriculum. Much of
+		        it may be familiar, but most people report filling in large gaps they
+		        didn't even know they had. If you feel ready (and even if you don't), 
+		        it's time to consider getting involved with the project.
+		      </p>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="container">
+		  <div class="row-fluid">
+		    <div class="span2">
+		      <%=image_tag "icons/star3.png", title: "Experienced Engineer"%>
+		    </div>
+		    <div class="span10" style="padding-top: 0;">
+		      <h3 style="margin-top:0;">Experienced Engineer</h3>
+		      <p>
+		            Proficient coders are a welcome group. 
+		            Your abilities will help drive the project
+		            and guide others in pairing.
+		      </p>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="container">
+		  <div class="row-fluid">
+		    <div class="span2 text-center">
+		      <%=image_tag "icons/arrow-right-icon.png", title: "Beginner"%>
+		    </div>
+		    <div class="span10" style="padding-top: 0;">
+		      <h3 style="margin-top:0;">Non-Technical</h3>
+		      <p>
+		            Designer, Project Manager, Customer Advocate, UX
+		      </p>
+		    </div>
+		  </div>
+		</div>
 
 
+		<div id="onboarding">
+		  <h2>On-Boarding</h2>
+		  <p>
+		    The purpose of on-boarding is for you to get up to speed on the project and how it is
+		    managed, as well as familiarize yourself with several of the tools and websites
+		    used by the team. You should read the following pages as well as sign up at a few
+		    necessary sites, as listed here:
+		  </p>
+		  <ul>
+		    <li>
+		      First, read the <a href="https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md">"Getting Involved"</a> document for a detailed overview and instructions on how to proceed.
+		    </li>
+		    <li>
+		      Set up a <a href="http://github.com">Github Account</a> if you haven't yet
+		    </li>
+		    <li>
+		      Set up an account on <a href="http://pivotaltracker.com">Pivotal Tracker</a> 
+		    </li>
+		    <li>
+		      Many people working in open source software work on Macs or linux. On Windows, a vm running Linux is probably best.
+		    </li>
+		    <li>
+		      Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %>
+		    </li>
+
+		  </ul>
+		</div>
+
+
+		  <h2>CONTACT</h2>
+		  <p>
+		    Check out our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %> for discussions and events around those efforts, as well as additional links for learning more about this living and growing adventure we call The Odin Project.
+		  </p>
   </div>
 </div>

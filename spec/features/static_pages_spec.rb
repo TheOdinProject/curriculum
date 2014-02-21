@@ -231,7 +231,7 @@ describe "StaticPages" do
     end
     before { click_link "Study Group" }
     context "should load when link is clicked" do  
-      it { current_path.should == studygroup_path }   
+      it { current_path.should == studygroup_path } 
     end
     before { visit studygroup_path } 
     context "should contain an h1 title" do  
@@ -239,4 +239,33 @@ describe "StaticPages" do
     end  
   end
 
+  describe "contributing page" do
+    before { visit contributing_path }
+    
+    it "should have title Contributing to the Project" do
+      expect(page).to have_selector("h1", text: "How to Contribute")
+    end
+
+    context "clicking the reasons link" do
+      before do
+        click_link "reasons to get involved!"
+      end
+
+      it "shows modal with title 'Contributing'" do
+        #wait_for_ajax
+        expect(page).to have_selector("h3", text: "Contributing")
+      end
+    end
+
+    context "clicking the 'more' link should show paths" do
+      before do
+        click_link "moreButton"
+
+        it "should have title 'The Courses'" do
+          expect(page).to have_selector("h3", text: "The Courses")
+        end
+      end
+    end
+  end
 end
+
