@@ -290,6 +290,51 @@
     }
   }
 
+  // Styles for the lower lesson navigation (e.g. "next", "prev")
+  .lnav{
+
+    p{
+      margin: 0;
+      font-size: .75em;
+    }
+    a{
+      text-decoration: none;
+    }
+
+    .lnav-wrap{
+      display: inline-block;
+      margin: 1em;
+      text-align: center;
+      opacity: .5;
+      &:hover{
+        opacity: 1;
+      }
+    }
+
+    .lnav-text{
+      margin: .5em;
+    }
+
+    .lnav-disabled{
+      opacity: .2;
+      &:hover{
+        opacity: .2;
+      }
+    }
+
+    .lnav-active{
+      color: #0c0;
+      background-color: #0c0;
+    }
+
+    .icon{
+      margin: auto;
+      height: 64px;
+      width: 64px;
+      background-color: $light_gray;
+    }
+  }
+
 }
 
 #lesson-nav{
