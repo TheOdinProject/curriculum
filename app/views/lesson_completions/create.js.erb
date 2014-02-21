@@ -1,14 +1,15 @@
 // If it's an individual lesson page, this will run
 $(".lc-end-wrapper").html("<%= escape_javascript(render("shared/complete_lesson.html.erb"))%>");
 
-// update checkmarks
-// if lesson is completed, remove hidden class
-// if lesson is uncompleted, add hidden class to check mark
+// update checkmarks on individual lesson pages
 if(<%= current_user.completed_lesson?(@lesson) %>){
   $(".lc-completion-indicator").removeClass("hidden");
 }else{
   $(".lc-completion-indicator").addClass("hidden");
 }
+
+// update percent completion indicator on lessons index page
+$(".lc-percent-completion").html("<%= escape_javascript(render("shared/completion_percent.html.erb"))%>");
 
 // If it's the lessons index page, this will run
 $("#lc-id-<%= @lesson.id %>").html("<%= escape_javascript(render("shared/lc_index.html.erb"))%>");

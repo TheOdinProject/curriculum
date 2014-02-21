@@ -43,7 +43,9 @@ $(function(){
     if(!checkbox.hasClass("lc-disabled")){  
       checkbox.removeClass("lc-hover");
     }
-  });                                            
+  });   
+
+
   
   
   // INDIVIDUAL LESSON SHOW PAGES

@@ -144,17 +144,24 @@ describe "Courses and Lessons Pages" do
         it "the lesson's checkbox should appear unchecked" do
           expect(page).to have_css("#lc-id-#{lesson1.id} .lc-unchecked")
         end
+
+        describe "the percent completion indicator" do
+          it "should register 0%" do
+            within(".lc-percent-completion") do
+              expect(page).to have_text("0%")
+            end
+          end
+        end
         
         context "after clicking the checkbox" do
           
           # After the AJAX successfully returns, it should re-render just the checkbox area to reflect
           # the completed checkbox
-          # Note: this test was created in Nitrous.io so it couldn't be run!
           it "should change the checkbox to checked (JS test)", :js => true do
             find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
             expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
           end
-          
+            
         end
         
         context "when there are two previously unchecked lessons on the page" do
@@ -407,7 +414,6 @@ describe "Courses and Lessons Pages" do
               
               # After the AJAX returns, it should re-render just the checkbox area to reflect
               # the completed checkbox and add a link to un-complete the lesson
-              # Note: this test was created in Nitrous.io so it couldn't be run!
               it "should change the form's class to reflect completion (JS test)", :js => true do
                 find("a.lc-unchecked").click
                 expect(page).to have_css("a.lc-uncomplete-link") 
@@ -432,7 +438,6 @@ describe "Courses and Lessons Pages" do
             end
             
             it "should have a link for marking lesson NOT completed" do
-              #puts page.html
               expect(page).to have_css(".lc-uncomplete-link")
             end
             

@@ -14,7 +14,7 @@
 
       <% if user_signed_in? %>
         <div class="lc-percent-completion">
-          <%= @course.percent_completed_by(current_user).to_i %>% Completed
+          <%= render "shared/completion_percent" %>
         </div>
       <% end %>
 
