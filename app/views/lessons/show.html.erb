@@ -71,54 +71,6 @@
             </div>
           <% end %>
         </div>
-
-      </div>
-      
-      <h1>
-        Congratulations!
-      </h1> 
-
-      <% if @next_lesson %>
-        <h3>
-          You're ready to move on to the next <%= @next_lesson.is_project ? "project" : "lesson" %>
-        </h3>
-
-        <div class="forward-button">
-          <%= link_to lesson_path(@course.title_url, @next_lesson.title_url) do %>
-            <% if @next_lesson.is_project %>
-              <button class="project-button">
-                <%= "Go to the \"#{@next_lesson.title}\" Project".html_safe %>
-              </button>
-            <% else %>
-              <button>
-                <%= "Go to the Next Lesson: <br>\"#{@next_lesson.title}\"".html_safe %>
-              </button>
-            <% end %>
-          <% end %>
-        </div>
-      <% else %>
-        <h3>
-          You've completed <%= @course.title %>!  <br>That's pretty darn impressive.
-        </h3>
-        <div class="forward-button">
-          <%= link_to courses_path do %>
-            <button>
-              <%= "View the Courses Index" %>
-            </button>
-          <% end %>
-        </div>
-      <% end %>
-
-      <% if @prev_lesson %>
-        <div class="nav-link">
-          <%= link_to "Previous lesson: \"#{@prev_lesson.title}\"", lesson_path(@course.title_url, @prev_lesson.title_url) %>
-        </div>
-      <% end %>
-      <div class="nav-link">
-        <%= link_to "Back to #{@course.title}", lessons_path(@course.title_url) %>
-      </div>
-      <div class="nav-link">
-        <%= link_to "Back to Courses List", courses_path %>
       </div>
     </div>
   </div>

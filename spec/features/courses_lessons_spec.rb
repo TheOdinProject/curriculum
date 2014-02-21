@@ -241,7 +241,6 @@ describe "Courses and Lessons Pages" do
       subject.find(:xpath,"//*[@class='individual-lesson ']//*[@class='container']").text.should_not be_empty
     end
 
-    ### Feature: Each lessons link to contributing
     it "should have contributions links div" do
       subject.should have_selector(".contribution-links")
     end      
@@ -258,10 +257,7 @@ describe "Courses and Lessons Pages" do
       it "should display the contributing modal", :js => true do
         expect(page).to have_css(".popover")
       end      
-      
-      
     end  
-    ###
     
     context "for projects" do
       before do
@@ -285,6 +281,7 @@ describe "Courses and Lessons Pages" do
       end
     end
 
+
     describe "navigation buttons and links" do
       
       # use the second section so we don't overlap with the 
@@ -301,52 +298,72 @@ describe "Courses and Lessons Pages" do
       # very last lesson of a course
       let(:last_lesson){ first_lesson.course.lessons.order("position asc").last }
 
-      it "should be a valid section size" do
-        second_section.lessons.count.should >= 4
+      describe "set up our test properly" do
+        # Make sure our test properly populated things...
+        it "should be a valid section size" do
+          second_section.lessons.count.should >= 4
+        end
+
+        it "should have a backlink to the lessons list" do
+          subject.should have_xpath("//*[@href = \'#{lessons_path(course1.title_url)}\']")
+        end
       end
 
-      it "should have a backlink to the lessons list" do
-        subject.should have_xpath("//*[@href = \'#{lessons_path(course1.title_url)}\']")
-      end
-      
-      context "in the middle of a section" do
-        before do
-          visit lesson_path(first_sec_lesson.course.title_url, first_sec_lesson.title_url)
-        end
-        it "should show a next button for the next course" do
-          # save_and_open_page
-          subject.should have_xpath("//*[@href = \'#{lesson_path(second_sec_lesson.course.title_url, second_sec_lesson.title_url)}\']")
-        end
+      describe "in the top breadcrumb area" do
         it "should have backlinks to the courses directory" do
-          subject.should have_link("Course List", :href => courses_path)
+          within ".lesson-nav" do
+            expect(page).to have_link("", :href => courses_path)
+          end
+        end
+        it "should have backlinks to the lessons index (aka course page)" do
+          within ".lesson-nav" do
+            expect(page).to have_link("", :href => lesson_path(course1.title_url))
+          end
         end
       end
 
-      context "at the end of a section" do
-        before do
-          visit lesson_path(last_sec_lesson.course.title_url, last_sec_lesson.title_url)
-        end
-        it "should show a next button to next section's first course" do
-          subject.should have_xpath("//*[@href = \'#{lesson_path(next_sec_first_lesson.course.title_url, next_sec_first_lesson.title_url)}\']")
-        end
-      end
-
-      context "at the beginning of a course" do
-        before do
-          visit lesson_path(first_lesson.course.title_url, first_lesson.title_url)
-        end
-        it "should not show a backlink to the previous lesson" do 
-          subject.should_not have_link("Previous")
-        end
-      end
-
-      context "at the end of a course" do
-        before do
-          visit lesson_path(last_lesson.course.title_url, last_lesson.title_url)
+      describe "in the end-of-lesson area" do
+      
+        # Note: this isn't really testing anything new...
+        context "in the middle of a section" do
+          before do
+            visit lesson_path(first_sec_lesson.course.title_url, first_sec_lesson.title_url)
+          end
+          it "should show a next button for the next lesson" do
+            subject.should have_xpath("//*[@href = \'#{lesson_path(second_sec_lesson.course.title_url, second_sec_lesson.title_url)}\']")
+          end
         end
 
-        it "should show the modified next button" do
-          subject.should have_selector("button", :text => "View the Courses Index")
+        context "at the end of a section" do
+          before do
+            visit lesson_path(last_sec_lesson.course.title_url, last_sec_lesson.title_url)
+          end
+          it "should show a next button to next section's first lesson" do
+            subject.should have_xpath("//*[@href = \'#{lesson_path(next_sec_first_lesson.course.title_url, next_sec_first_lesson.title_url)}\']")
+          end
+        end
+
+        context "at the beginning of a course" do
+          before do
+            visit lesson_path(first_lesson.course.title_url, first_lesson.title_url)
+          end
+          it "should disable the previous button" do
+            expect(page).to have_css(".lnav-prev.lnav-disabled")
+          end
+        end
+
+        context "at the end of a course" do
+          before do
+            visit lesson_path(last_lesson.course.title_url, last_lesson.title_url)
+          end
+
+          it "should activate the 'view course' button" do
+            expect(page).to have_css(".lnav-index.lnav-active")
+          end
+
+          it "should disable the 'next course' button" do
+            expect(page).to have_css(".lnav-next.lnav-disabled")
+          end
         end
       end
     end
@@ -371,7 +388,7 @@ describe "Courses and Lessons Pages" do
         sign_in(signed_in_student)
       end
       
-      context "after visiting an individual lesson" do
+      context "after visiting the first individual lesson" do
         
         before do
           visit lesson_path(course1.title_url, lesson1.title_url)
@@ -468,10 +485,22 @@ describe "Courses and Lessons Pages" do
             end
           end
         end
-      end
 
-        
+        describe "end-of-lesson navigation " do
+          context "if the user has already completed the lesson" do
+            before do
+              @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
+              visit lesson_path(course1.title_url, lesson1.title_url)
+            end
+
+            it "should highlight the next lesson" do
+              expect(page).to have_css(".lnav-next.lnav-active")
+            end
+          end
+        end
+      end
     end
+
     context "for not logged in visitors" do
       
       describe "End-of-lesson checkbox section" do
@@ -494,6 +523,12 @@ describe "Courses and Lessons Pages" do
           within(completion_wrapper_div) do
             expect(page).to_not have_css("a.action-complete-lesson")
           end
+        end
+      end
+
+      describe "end-of-lesson navigation " do
+        it "should not have any active lesson navs" do
+          expect(page).not_to have_css(".lnav-active")
         end
       end
     end
