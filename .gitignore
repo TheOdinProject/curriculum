@@ -41,12 +41,9 @@
 # secret token
 .secret
 config/secrets.yml
-config/initializers/secret_token.rb
 
 # additional
 .project
-database.yml
-doc/
 *~
 
 # from Github Rails.gitignore
