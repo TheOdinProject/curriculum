@@ -241,7 +241,7 @@ describe "StaticPages" do
 
   describe "contributing page" do
     before { visit contributing_path }
-    
+
     it "should have title Contributing to the Project" do
       expect(page).to have_selector("h1", text: "How to Contribute")
     end
@@ -257,14 +257,19 @@ describe "StaticPages" do
       end
     end
 
-    context "clicking the 'more' link should show paths" do
-      before do
-        click_link "moreButton"
+    context "clicking the 'more' link should show paths", :js => true do
+      before { find("#newbie-path-link").click }
 
-        it "should have title 'The Courses'" do
-          expect(page).to have_selector("h3", text: "The Courses")
-        end
+      it "should have title 'The Courses'" do
+        expect(page).to have_selector("h3", text: "The Courses")
       end
+
+      before { find("#adv-beginner-path-link").click }
+
+      it "should have title 'The Courses'" do
+        expect(page).to have_selector("h3", text: "Story Owner")
+      end
+
     end
   end
 end

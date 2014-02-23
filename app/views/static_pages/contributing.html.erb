@@ -1,59 +1,29 @@
-<div class="StaticPagesController">
+<div class="contributing">
   <div class="container">
-
     <h1>How to Contribute</h1>
 
       <p>
         <strong>The Odin project</strong> is crowdsourced and built by people learning to code,
         <em>just like you</em>. You can contribute too, in fact we hope you do! Even if you
         don't feel ready, you can still get involved and observe until you're comfortable. Still
-        not sure? Here are some <a id="reasonsToggle" href="#reasonsModal" data-toggle = "modal">reasons to get
+        not sure? Here are some <a id="reasonsToggle" href="#" data-toggle = "modal">reasons to get
         involved!</a>
       </p>
 
-            <div id="reasonsModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="reasonsModalLabel" aria-hidden="true">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-                <h3 id="reasonsModalLabel">Contributing</h3>
-              </div>
-
-              <div class="modal-body" style="background: #666;color: white;font-size: .75em">
-                <p >The Odin Project is designed around a simple idea- make it easy for you to
-                    get started coding! We want to make it easy for newcomers to get into an
-                    <em>actual</em> real-world coding environment so you can get the experience
-                    you need. <strong>Here's the benefits to you:</strong>
-                </p>
-                <ul>
-                  <li>Flexibility! You can work on your own time. It's not 9 to 5 so you can
-                      get involved when it's convenient for you.</li>
-                  <li>Exposure! Contributors to The Odin Project will be listed on the page
-                      and on github, where you can show people your work!</li>
-                  <li>Relevant Training! This is the development that is in demand and
-                      happening today.</li>
-                  <li>Job Focus! No matter why you are learning to code, the right skills matter.
-                      You'll learn good habits and discipline that will put you at the top.</li>
-                  <li>Community! Meet like-minded people and start building your network now.
-                      Find others that can work in your schedule and interests.</li>
-                </ul>
-              </div>
-
-              <div class="modal-footer">
-                <h3>But mostly... it's fun!</h3>
-              </div>
-            </div>
+    <p><em>
+        Instructions for including your course project are
+        <a href="https://github.com/TheOdinProject/curriculum/blob/master/contributing.md">here.</a>
+      </em></p>
 
     <h2>Where do I start?</h2>
 
-      <p><em>If you have a completed project you'd like to add, go <a href="#">here.</a>
-             Otherwise, start by choosing your skill level:</em></p>
-
-        <div class="container">
-          <div class="row-fluid">
+    <div class="container">
+          <div class="row-fluid skill-header">
             <div class="span2">
               <%=image_tag "icons/star1.png", title: "Beginner"%>
             </div>
-            <div class="span10" style="padding-top: 0;">
-              <h2 style="margin-top:.75em;">Total Newbie</h2>
+            <div class="span10">
+              <h2>Total Newbie</h2>
 
                 <p>
                   If you're just learning to program, this is where to start. Click below to see
@@ -61,24 +31,23 @@
                   page- that's your goal!
                 </p>
             </div>
-            <div style="text-align:center;">
-              <span id="moreButton" style="color:#f90; cursor: pointer;" data-toggle="collapse" data-target="#newbie-path">More</span>
+            <div class="text-center">
+              <a id='newbie-path-link' class="more-button" data-toggle="collapse" data-target="#newbie-path">More</a>
             </div>
           </div>
             <div id="newbie-path" class="row-fluid collapse">
               <div class="span6">
                 <h3>The Courses</h3>
-                <div style="font-size:.75em; height:400px; background:#666; color:white; padding:5px">
+                <div class="charcoal paths">
                   <p>
                     You should begin by working through the curriculum from the start. It will
-                    take some time, but it is worth the effort. Don't cut corners. There is a
-                    steep learning curve at first, you will get better. Stick with it, work with
-                    others, and set goals. The study groups are a great place to get involved!
+                    take some time, but it is worth the effort. The learning curve can be steep
+                    at first- <strong>don't cut corners.</strong> Stick with it, work with
+                    others, and have fun!
                   </p>
                   <ul>
-                    <li>Complete the 'On-Boarding' section on this page</li>
                     <li>
-                      Set up a <%= link_to "Github account", "http://github.com"%>
+                      Complete part 1 of the <%= link_to "On-Boarding", "#onboarding" %> section
                     </li>
                     <li>
                       Check out the <%= link_to "study group", studygroup_path %>
@@ -89,30 +58,35 @@
                     <li>
                       Write a lot of code!
                     </li>
+                    <li>
+                      <span>Next:</span> Observer/Bug Sniper!
+                    </li>
                   </ul>
                 </div>
               </div>
               <div class="span6">
                 <h3>Observer/Bug Sniper</h3>
-                <div style="font-size:.75em; height:400px; background:#666; color:white; padding:5px">
+                <div class="charcoal paths">
                   <p>
-                    You can begin to get involved with the project by observing and even bug sniping!
-                    Watch our pair programming events (many are recorded) and see how the developers
-                    are building code. You can also work by pairing with other students going through
-                    the course!
+                    Get involved with the project by observing and catching bugs.
                   </p>
                   <ul>
-                    <li>Complete the 'On-Boarding' section on this page</li>
                     <li>
-                      Set up a <%= link_to "Github account", "http://github.com"%>
+                      Complete part 1 and 2 of the <%= link_to "On-Boarding", "#onboarding" %> section
                     </li>
                     <li>
-                      Fork the main and dev branches from the <%= link_to "Repo", "https://github.com/TheOdinProject/theodinproject" %>
+                      Sit in on pairing sessions or watch the videos.
                     </li>
                     <li>
-                      Set up an account on <%= link_to "Pivotal Tracker", "http://pivotaltracker.com" %>
+                      Catch bugs as you navigate the site. Try to figure out what is wrong.
+                      Post it (with your solution if you have one) in the <%= link_to "community.", "https://plus.google.com/communities/100013596437379837846" %>
                     </li>
-
+                    <li>
+                      Complete the <%= link_to "courses", curriculum_path %> before moving on.
+                    </li>
+                    <li>
+                      <span>Graduate!</span> Go to Advanced Beginner Skill Level!
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -120,79 +94,267 @@
         </div>
 
 		<div class="container">
-		  <div class="row-fluid" style="padding-top:30px">
+		  <div class="row-fluid skill-header">
 		    <div class="span2">
 		      <%=image_tag "icons/star2.png", title: "Advanced Beginner"%>
 		    </div>
-		    <div class="span10" style="padding-top:;">
-		      <h3 style="margin-top:0;">Advanced Beginner</h3>
+		    <div class="span10">
+		      <h2>Advanced Beginner</h2>
 		      <p>
-		        It's probably best to start by working through the curriculum. Much of
-		        it may be familiar, but most people report filling in large gaps they
-		        didn't even know they had. If you feel ready (and even if you don't), 
-		        it's time to consider getting involved with the project.
+            Advanced beginners have some experience and probably a few classes,
+            books, and tutorials under their belt. You have gaps in your knowledge
+            but you know the fundamentals. You should complete the courses you're
+            unfamiliar with, and it's time to consider taking an active role in the
+            project.
 		      </p>
 		    </div>
-		  </div>
+        <div class="text-center">
+          <a id = "adv-beginner-path-link" class="more-button" data-toggle="collapse" data-target="#adv-beginner-path">More</a>
+        </div>
+      </div>
+      <div id="adv-beginner-path" class="row-fluid collapse">
+        <div class="span4">
+          <h3>Contributor</h3>
+          <div class="charcoal paths">
+            <p>
+              Start here! Join the team and start pairing and contributing code.
+              You may not feel ready, but do it anyways!
+            </p>
+            <ul>
+              <li>
+                Complete the <%= link_to "courses", curriculum_path %> as needed
+              </li>
+              <li>
+                Complete the <%= link_to "On-Boarding", "#onboarding" %> section if you haven't yet
+              </li>
+              <li>
+                Attend the scrums and start pair programming on actual stories, writing
+                code for the site with other team members.
+              </li>
+              <li>
+                <span>Next: </span> Story Owner!
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <h3>Story Owner</h3>
+          <div class="charcoal paths">
+            <p>
+              Take ownership of a story in Pivotal Tracker! It's up to you to see it through,
+              present it to the team, and get it accepted!
+            </p>
+            <ul>
+              <li>
+                Complete the <%= link_to "On-Boarding", "#onboarding" %> section if you haven't yet.
+              </li>
+              <li>
+                Attend a scrum and volunteer for a story you'd like to complete
+              </li>
+              <li>
+                Push the 'Start' button and get going!
+              </li>
+              <li>
+                <span>Next:</span> Project Manager!
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <h3>Project Manager</h3>
+          <div class="charcoal paths">
+            <p>
+              By now you should be thoroughly familiar with the project. Your mission:
+              lead a team to complete an epic.
+            </p>
+            <ul>
+              <li>
+                Check out these unknown PM resources
+              </li>
+              <li>
+                Strengthen your understanding of software engineering. Consider taking the
+                169.x courses on <%= link_to "Edx.", "https://www.edx.org/course-list/allschools/computer-science/allcourses" %>
+              </li>
+              <li>
+                <span>Graduate!</span> Go to Experienced Engineer skill level!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 		</div>
 
 		<div class="container">
-		  <div class="row-fluid">
+		  <div class="row-fluid skill-header">
 		    <div class="span2">
 		      <%=image_tag "icons/star3.png", title: "Experienced Engineer"%>
 		    </div>
-		    <div class="span10" style="padding-top: 0;">
-		      <h3 style="margin-top:0;">Experienced Engineer</h3>
+		    <div class="span10">
+		      <h2>Experienced Engineer</h2>
 		      <p>
-		            Proficient coders are a welcome group. 
-		            Your abilities will help drive the project
-		            and guide others in pairing.
+		        Proficient coders are a welcome group. Your abilities will help drive
+            the project and guide others as they learn. It's a great place to give back
+            to the community.
 		      </p>
 		    </div>
-		  </div>
+        <div class="text-center">
+          <a id = "engineer-path-link" class="more-button" data-toggle="collapse" data-target="#engineer-path">More</a>
+        </div>
+      </div>
+      <div id="engineer-path" class="row-fluid collapse">
+        <div class="span4">
+          <h3>Mentor</h3>
+          <div class="charcoal paths">
+            <p>
+              Be mentorin' some noobs, yo! Bring your skills to bear on the team.
+            </p>
+            <ul>
+              <li>
+                Complete the <%= link_to "On-Boarding", "#onboarding" %> section if you haven't yet.
+              </li>
+              <li>
+                Help guide others in pair programming and refactoring.
+              </li>
+              <li>
+                Help others establish best practices and better understanding of coding and tools.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <h3>Code Ninja</h3>
+          <div class="charcoal paths">
+            <p>
+              Be thunder-punching some code, yo! Help make it better, faster, stronger.
+            </p>
+            <ul>
+              <li>
+                Take the lead on harder stories with the help of other team members.
+              </li>
+              <li>
+                Suggest tools and methods you're familiar with that might be of use.
+              </li>
+              <li>
+                Help others to prioritize their skillsets, based on your experience.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <h3>Refactorer</h3>
+          <div class="charcoal paths">
+            <p>
+              Be the janitor, yo! We need to keep this codebase looking good!
+            </p>
+            <ul>
+              <li>
+                Help identify code smells and brittle code that needs refactoring
+              </li>
+              <li>
+                Create stories with suggestions that less experienced members can
+                tackle and finish.
+              </li>
+              <li>
+                Show others how to refactor their code in pairing and scrums
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 		</div>
 
 		<div class="container">
-		  <div class="row-fluid">
+		  <div class="row-fluid skill-header">
 		    <div class="span2 text-center">
 		      <%=image_tag "icons/arrow-right-icon.png", title: "Beginner"%>
 		    </div>
-		    <div class="span10" style="padding-top: 0;">
-		      <h3 style="margin-top:0;">Non-Technical</h3>
+		    <div class="span10">
+		      <h2>Non-Technical</h2>
 		      <p>
-		            Designer, Project Manager, Customer Advocate, UX
+            Web and SaaS development have ever growing needs for web designers who can
+            assist in typically more creative roles, such as User Experience (UX),
+            User Interface (UI), graphic design, and layout. While certain technical
+            aspects are still required, there is a definite emphasis on creativity,
+            intuitiveness, and imagination.
 		      </p>
 		    </div>
-		  </div>
+        <div class="text-center">
+          <a id = "nontechnical-path-link" class="more-button" data-toggle="collapse" data-target="#nontechnical-path">More</a>
+        </div>
+      </div>
+      <div id="nontechnical-path" class="row-fluid collapse">
+        <div class="span4">
+          <h3>UX</h3>
+          <div class="charcoal paths">
+            <p>
+              User Experience is about how site design increases the user's productivity.
+            </p>
+            <ul>
+              <li>
+                Complete part 1 of the <%= link_to "On-Boarding", "#onboarding" %> section if you haven't yet.
+              </li>
+              <li>
+                Attend the scrums and get involved in the community to see where you can contribute
+              </li>
+              <li>
+                Provide critical feedback on the site and suggestions for improvement
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <h3>UI and Layout</h3>
+          <div class="charcoal paths">
+            <p>
+              Use your creativity to maximize functionality and simplicity
+            </p>
+            <ul>
+              <li>
+                Complete part 1 of the <%= link_to "On-Boarding", "#onboarding" %> section if you haven't yet.
+              </li>
+              <li>
+                Attend the scrums and get involved in the community to see where you can contribute
+              </li>
+              <li>
+                Provide solutions to improve the business value of the site. Use mockups for examples.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span4">
+          <h3>Graphic Design</h3>
+          <div class="charcoal paths">
+            <p>
+              Original artwork and graphics will be the style of the
+              website to make it identifiable and increase recognition.
+            </p>
+            <ul>
+              <li>
+                Develop original images, icons, and other graphics that
+                can be used by The Odin Project website.
+              </li>
+              <li>
+                Create custom icons needed for development of stories
+                and features of the site.
+              </li>
+              <li>
+                Help others to develop their design skills!
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 		</div>
-
 
 		<div id="onboarding">
 		  <h2>On-Boarding</h2>
 		  <p>
-		    The purpose of on-boarding is for you to get up to speed on the project and how it is
-		    managed, as well as familiarize yourself with several of the tools and websites
-		    used by the team. You should read the following pages as well as sign up at a few
-		    necessary sites, as listed here:
+		    Coming next PR
 		  </p>
-		  <ul>
-		    <li>
-		      First, read the <a href="https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md">"Getting Involved"</a> document for a detailed overview and instructions on how to proceed.
-		    </li>
-		    <li>
-		      Set up a <a href="http://github.com">Github Account</a> if you haven't yet
-		    </li>
-		    <li>
-		      Set up an account on <a href="http://pivotaltracker.com">Pivotal Tracker</a> 
-		    </li>
-		    <li>
-		      Many people working in open source software work on Macs or linux. On Windows, a vm running Linux is probably best.
-		    </li>
-		    <li>
-		      Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %>
-		    </li>
+      <h3>PART 1</h3>
 
-		  </ul>
+      <h3>PART 2</h3>
+
 		</div>
 
 

@@ -539,6 +539,43 @@
   }
 }
 
+
+.contributing{
+
+  @extend .individual-lesson;
+
+  .charcoal{
+    font-size:.75em;
+    background: $mid_gray;
+    color:white;
+    padding:8px;
+
+    a{
+    color: $link_color;
+    }
+    span{
+      color:$highlight_orange;
+      font-weight: bold;
+    }
+  }
+  .paths{
+    height: 400px;
+
+  }
+  .skill-header{
+    margin-top: 20px;
+
+    h2{
+      margin-top: 24px;
+    }
+  }
+  .more-button{
+    color: $highlight_orange;
+    cursor: pointer;
+  }
+}
+
+
 #studygroup {
   
   margin: 0 auto;
