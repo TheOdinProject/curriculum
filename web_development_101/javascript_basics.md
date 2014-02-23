@@ -33,6 +33,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * [RebootJeff's Euler solutions](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
+* [mattphoto's Euler solutions](https://github.com/mattphoto/ProjectEuler)
 * *Your solutions here...*
 
 ## Additional Resources
