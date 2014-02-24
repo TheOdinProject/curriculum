@@ -77,6 +77,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Neil Gehani's bootstrap solution here](https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html) or [view it in the browser here](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html).
 * See [Paul Dariye's solution here](https://github.com/pauldd91/theodinproject/tree/master/google_homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/pauldd91/theodinproject/master/google_homepage/index.html).
 * See [Joshua Gorchov's solution here](https://github.com/gorchov/odin/tree/master/01_02_HTML_CSS) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/gorchov/odin/blob/master/01_02_HTML_CSS/index.html).
+* See [Afshin Mokhtari's implementation of the 'difficult' version](https://github.com/afshinator/OdinProject-GoogleSearchClone) with instructions on getting an API key to make it run.
+* See [Bill Walker's solution here](https://github.com/mach1010/odin/tree/master/html_css) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/mach1010/odin/blob/master/html_css/google.html).
 * *Your solution here...*
 
 ## Additional Resources
