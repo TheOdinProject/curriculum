@@ -322,6 +322,28 @@ describe "Courses and Lessons Pages" do
         end
       end
 
+      describe "the top progress-tracking bar" do
+
+        context "for not logged-in visitors" do
+          it "should NOT be present" do
+            expect(page).to_not have_css("#lc-progress-bar")
+          end
+        end
+
+        context "for logged-in students" do
+          let!(:signed_in_student){ FactoryGirl.create(:user) }
+
+          before do
+            sign_in(signed_in_student)
+            visit lesson_path(course1.title_url, lesson1.title_url)
+          end
+
+          it "should be present" do
+            expect(page).to have_css("#lc-progress-bar")
+          end
+        end
+      end
+
       describe "in the end-of-lesson area" do
       
         # Note: this isn't really testing anything new...

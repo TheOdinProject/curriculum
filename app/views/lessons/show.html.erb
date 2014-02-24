@@ -12,6 +12,44 @@
     <%= @lesson.title %>
   </div>
 </div>
+
+<!-- progress-tracking bar -->
+
+<% if user_signed_in? %>
+  <% lessons = @lesson.course.lessons.order(:position => :asc) %>
+  <% pct = (100.0 / (lessons.count - 1.0)).to_f %>
+
+  <div id="lc-progress-bar">
+    <% lessons.each_with_index do |l,i| %>
+      <% if l == @lesson %>
+        <% classes = "lc-active-circle" %>
+        <% classes = "lc-active-circle lc-project" if l.is_project %>
+        <% course_pct = @lesson.course.percent_completed_by(current_user).to_i %>
+        <%= link_to "#" do %>
+          <div  class="<%= classes %>" 
+                title="You've completed <%= course_pct %>% of this course"
+                style="left:<%= i*pct %>%">
+            <span class="lc-pct"><%= course_pct %>%</span>
+          </div>
+        <% end %>
+      <% else %>
+        <% classes =  "lc-circle" %>
+        <% classes <<  ( current_user.completed_lesson?(l) ? ' lc-complete' : ' lc-pending' ) %>
+        <% classes << ( l.is_project ? ' lc-project' : ' lc-lesson' ) %>
+        <%= link_to lesson_path(l.course.title_url, l.title_url) do %>
+          <div  class="<%= classes %>" 
+                title="<%= l.is_project ? "Project:" : "" %> <%= l.title %>"
+                style="left:<%= i*pct %>%">
+          </div>
+        <% end %>
+      <% end %>
+    <% end %>
+  </div>
+
+<% end %>
+
+<!-- END progress-tracking bar -->
+
 <div class="individual-lesson <%= @lesson.is_project ? 'project-lesson' : ''%>">
   <div class="container">
 

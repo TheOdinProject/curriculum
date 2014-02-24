@@ -378,10 +378,87 @@
       margin: auto;
       height: 80px;
       width: 80px;
-      // background-color: $light_gray;
     }
   }
 
+}
+
+#lc-progress-bar{
+  height: 40px;
+  // background-color: $vlight_gray;
+  margin-top:50px;
+  position: relative;
+
+  .lc-circle{
+    margin-top: 9px;
+    height: 16px;
+    width: 16px;
+    @include border-radius(9px);
+    position: absolute;
+    border-width: 2px;
+    border-style: solid;
+    &.lc-lesson{
+      border-color: #00a;
+      &.lc-complete{
+        background-color: #66f;
+      }
+      &:hover{
+        background-color: #aaf;
+        border-width: 3px;
+        margin-top: 8px;
+        margin-left: -1px;
+        @include border-radius(10px);
+      }
+    }
+    &.lc-project{
+      border-color: $highlight_orange;
+      &.lc-complete{
+        background-color: $faded_orange;
+      }
+      &:hover{
+        background-color: $very_faded_orange;
+        border-width: 3px;
+        margin-top: 8px;
+        margin-left: -1px;
+        @include border-radius(10px);
+      }
+    }
+
+
+
+  }
+  .lc-active-circle{
+    position: absolute;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $light_gray;//#00a;
+    height: 38px;
+    width: 38px;
+    @include border-radius(19px);
+    margin-top: 0;
+    margin-left: -9px;
+    text-align: center;
+    font-size: 14px;
+    color: $text_gray;
+    &.lc-project{
+      // border-color: $highlight_orange;
+    }
+    &:hover{
+      background-color: none!important;
+      border-width: 3px;
+      @include border-radius(20px);
+      font-weight: bold;
+      margin-top: -1px;
+      margin-left: -10px;
+    }
+    .lc-pct{
+      display: block;
+      margin-top: 8px;
+    }
+  }
+  // .lc-pending{
+  //   background-color: #00d;
+  // }
 }
 
 #lesson-nav{
