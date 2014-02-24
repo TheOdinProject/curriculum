@@ -545,10 +545,11 @@
   @extend .individual-lesson;
 
   .charcoal{
-    font-size:.75em;
+    font-size:.7em;
     background: $mid_gray;
     color:white;
-    padding:8px;
+    padding:15px;
+    font-weight: 300;
 
     a{
     color: $link_color;
@@ -560,7 +561,7 @@
   }
   .paths{
     height: 400px;
-
+    margin-top: 0;
   }
   .skill-header{
     margin-top: 20px;
