@@ -18,18 +18,37 @@
 <% if user_signed_in? %>
   <% lessons = @lesson.course.lessons.order(:position => :asc) %>
   <% pct = (100.0 / (lessons.count - 1.0)).to_f %>
+  <% course_pct = @lesson.course.percent_completed_by(current_user) %>
 
   <div id="lc-progress-bar">
+    <!-- <div class="lc-left-line"></div>
+    <div class="lc-right-line"></div> -->
+    <!-- <div class="lc-first-circle"></div> -->
+
+    <%= link_to "#" do %>
+      <div  class="lc-end-circle lc-left-end" 
+            title="You've completed <%= course_pct.to_i %>% of this course"
+            style="0%">
+
+      </div>
+    <% end %>
+    <%= link_to "#" do %>
+      <div  class="lc-end-circle lc-right-end" 
+            title="You've completed <%= course_pct.to_i %>% of this course"
+            style="0%">
+
+      </div>
+    <% end %>
+
     <% lessons.each_with_index do |l,i| %>
       <% if l == @lesson %>
-        <% classes = "lc-active-circle" %>
-        <% classes = "lc-active-circle lc-project" if l.is_project %>
-        <% course_pct = @lesson.course.percent_completed_by(current_user).to_i %>
+        <div class="pending-line"></div>
+        <div class="completed-line" style="width: <%= i * pct %>%"></div>
         <%= link_to "#" do %>
-          <div  class="<%= classes %>" 
-                title="You've completed <%= course_pct %>% of this course"
+          <div  class="lc-active-circle" 
+                title="You've completed <%= course_pct.to_i %>% of this course"
                 style="left:<%= i*pct %>%">
-            <span class="lc-pct"><%= course_pct %>%</span>
+            <span class="lc-pct"><%= course_pct.to_i %>%</span>
           </div>
         <% end %>
       <% else %>

@@ -383,30 +383,76 @@
 
 }
 
+@mixin lc-circle-size($diameter, $border-width){
+  $height: $diameter - $border-width;
+  height: $height;
+  width: $height;
+  margin-top: (40 - $height - $border-width*2)/2;
+  border-width: $border-width;
+  margin-left: -($diameter+$border-width)/2;
+}
+
 #lc-progress-bar{
   height: 40px;
-  // background-color: $vlight_gray;
-  margin-top:50px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top:30px;
   position: relative;
 
+  .lc-end-circle{
+    @include lc-circle-size(30px,4px);
+    @include border-radius(20px);
+    // background-color: $vlight_gray;
+    background-color: white;
+    position: absolute;
+    border-style: solid;
+    border-color: $light_gray;//#00a;
+    text-align: center;
+    font-size: 10px;
+    color: $mid_gray;
+    z-index: 100;
+    &:hover{
+      background-color: white!important;
+      border-width: 6px;
+      @include border-radius(21px);
+      @include lc-circle-size(32px, 6px);
+      color: $text_gray;
+      font-weight: bold;
+      .lc-pct{
+        // margin-top: 5px;
+        
+      }
+    }
+    .lc-pct{
+      display: block;
+      margin-top: 3px;
+      &:hover{
+      }
+    }
+  }
+
+  .lc-right-end{
+    left: 100%;
+  }
+
   .lc-circle{
-    margin-top: 9px;
-    height: 16px;
-    width: 16px;
+    $lc-circle-size: 12px;
     @include border-radius(9px);
     position: absolute;
-    border-width: 2px;
     border-style: solid;
+    background-color: white;
     &.lc-lesson{
       border-color: #00a;
       &.lc-complete{
+        @include lc-circle-size($lc-circle-size, 1px);
         background-color: #66f;
       }
+      &.lc-pending{
+        @include lc-circle-size($lc-circle-size, 1px);
+      }
       &:hover{
-        background-color: #aaf;
-        border-width: 3px;
-        margin-top: 8px;
-        margin-left: -1px;
+        background-color: #ccf;
+        @include lc-circle-size($lc-circle-size+4, 2px);
         @include border-radius(10px);
       }
     }
@@ -414,51 +460,89 @@
       border-color: $highlight_orange;
       &.lc-complete{
         background-color: $faded_orange;
+        @include lc-circle-size($lc-circle-size, 1px);
+      }
+      &.lc-pending{
+        @include lc-circle-size($lc-circle-size, 1px);
       }
       &:hover{
         background-color: $very_faded_orange;
-        border-width: 3px;
-        margin-top: 8px;
-        margin-left: -1px;
+        @include lc-circle-size($lc-circle-size+4, 2px);
         @include border-radius(10px);
       }
     }
-
-
-
   }
   .lc-active-circle{
+    @include lc-circle-size(30px, 4px);
+    @include border-radius(20px);
     position: absolute;
-    border-width: 2px;
     border-style: solid;
     border-color: $light_gray;//#00a;
-    height: 38px;
-    width: 38px;
-    @include border-radius(19px);
-    margin-top: 0;
-    margin-left: -9px;
     text-align: center;
-    font-size: 14px;
-    color: $text_gray;
-    &.lc-project{
-      // border-color: $highlight_orange;
-    }
+    font-size: 10px;
+    color: $mid_gray;
+    background-color: white;
+    z-index: 100;
     &:hover{
-      background-color: none!important;
-      border-width: 3px;
-      @include border-radius(20px);
+      background-color: white!important;
+      border-width: 6px;
+      @include border-radius(21px);
+      @include lc-circle-size(32px, 6px);
+      color: $text_gray;
       font-weight: bold;
-      margin-top: -1px;
-      margin-left: -10px;
+      .lc-pct{
+        // margin-top: 5px;
+        
+      }
     }
     .lc-pct{
       display: block;
-      margin-top: 8px;
+      margin-top: 3px;
+      &:hover{
+      }
     }
   }
-  // .lc-pending{
-  //   background-color: #00d;
-  // }
+
+  .completed-line{
+    position: absolute;
+    margin-top: 20px;
+    z-index: -100;
+    height: 0px;
+    border-bottom: 2px solid $light_gray;
+  }
+  .pending-line{
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+    z-index: -100;
+    height: 0px;
+    border-bottom: 2px dotted $vlight_gray; 
+  }
+  .lc-left-line{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 0px;
+    margin-left: -86px;
+    margin-top: -15px;
+    @include rotate(45deg);
+    border-bottom: 2px solid $light_gray;
+  }
+  .lc-right-line{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    right: 0px;
+    margin-right: -86px;
+    margin-top: -15px;
+    @include rotate(135deg);
+    border-bottom: 2px dotted $vlight_gray;
+  }
+}
+@media (max-width: 700px) { 
+  #lc-progress-bar{
+    display: none;
+  }
 }
 
 #lesson-nav{
