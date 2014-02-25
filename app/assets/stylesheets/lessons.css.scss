@@ -387,21 +387,34 @@
   $height: $diameter - $border-width;
   height: $height;
   width: $height;
-  margin-top: (40 - $height - $border-width*2)/2;
+  margin-top: (50 - $height - $border-width*2)/2;
   border-width: $border-width;
   margin-left: -($diameter+$border-width)/2;
 }
 
 #lc-progress-bar{
-  height: 40px;
-  width: 80%;
-  margin-left: 10%;
+
   margin-top:30px;
-  position: relative;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  @include border-radius(30px);
+  border: 1px solid #ddd;
+
+  .lc-progress-wrapper{
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+
 
   .lc-end-circle{
-    @include lc-circle-size(30px,4px);
+    @include lc-circle-size(22px,4px);
     @include border-radius(20px);
+    border-left: none;
+    border-right: none;
     // background-color: $vlight_gray;
     background-color: white;
     position: absolute;
@@ -415,19 +428,12 @@
       background-color: white!important;
       border-width: 6px;
       @include border-radius(21px);
-      @include lc-circle-size(32px, 6px);
+      @include lc-circle-size(24px, 6px);
       color: $text_gray;
       font-weight: bold;
-      .lc-pct{
-        // margin-top: 5px;
-        
-      }
     }
-    .lc-pct{
-      display: block;
-      margin-top: 3px;
-      &:hover{
-      }
+    &.lc-completed{
+      background-color: #0b0;
     }
   }
 
@@ -445,7 +451,7 @@
       border-color: #00a;
       &.lc-complete{
         @include lc-circle-size($lc-circle-size, 1px);
-        background-color: #66f;
+        background-color: #99f;
       }
       &.lc-pending{
         @include lc-circle-size($lc-circle-size, 1px);
@@ -505,14 +511,14 @@
 
   .completed-line{
     position: absolute;
-    margin-top: 20px;
+    margin-top: 24px;
     z-index: -100;
     height: 0px;
-    border-bottom: 2px solid $light_gray;
+    border-bottom: 3px solid $light_gray;
   }
   .pending-line{
     position: absolute;
-    margin-top: 20px;
+    margin-top: 25px;
     width: 100%;
     z-index: -100;
     height: 0px;
