@@ -49,5 +49,10 @@ $(function(){
     _gaq.push(['_trackEvent','lesson_completion','mark_not_completed','lesson_page',1]);
   });
 
+  // Fire an event whenever a user tries to mark a lesson uncompleted on the individual lesson page by clicking the checkbox icon (which isn't a link)
+  $(".lc-end-wrapper").on("click", ".checkbox-container.lc-checked", function(e){
+    _gaq.push(['_trackEvent','lesson_completion','click_not_linked_checkbox','lesson_page',1]);
+  });
+
 });
 
