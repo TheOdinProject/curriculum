@@ -323,6 +323,9 @@ describe "Courses and Lessons Pages" do
       end
 
       describe "the top progress-tracking bar" do
+        
+        # since we will need to test for its presence
+        let(:lesson2) { course1.lessons[1] }
 
         context "for not logged-in visitors" do
           it "should NOT be present" do
@@ -340,6 +343,25 @@ describe "Courses and Lessons Pages" do
 
           it "should be present" do
             expect(page).to have_css("#lc-progress-bar")
+          end
+
+          it "should have a link to the second lesson in the course" do
+            within("#lc-progress-bar") do
+                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url))
+            end
+          end
+
+          it "should have links to every lesson in the course except the current one" do
+            course1.lessons.each do |l|
+              next if l == lesson1
+              within("#lc-progress-bar") do
+                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url))
+              end
+            end
+          end
+
+          it "should have a current lesson circle" do
+            expect(page).to have_css(".lc-active-circle")
           end
         end
       end
