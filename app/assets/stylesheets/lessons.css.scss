@@ -383,6 +383,7 @@
 
 }
 
+// Used for making the progress tracking bar circles
 @mixin lc-circle-size($diameter, $border-width){
   $height: $diameter - $border-width;
   height: $height;
@@ -408,18 +409,15 @@
     position: relative;
   }
 
-
-
   .lc-end-circle{
     @include lc-circle-size(22px,4px);
     @include border-radius(20px);
     border-left: none;
     border-right: none;
-    // background-color: $vlight_gray;
     background-color: white;
     position: absolute;
     border-style: solid;
-    border-color: $light_gray;//#00a;
+    border-color: $light_gray;
     text-align: center;
     font-size: 10px;
     color: $mid_gray;
@@ -478,6 +476,7 @@
       }
     }
   }
+
   .lc-active-circle{
     @include lc-circle-size(30px, 4px);
     @include border-radius(20px);
@@ -496,10 +495,6 @@
       @include lc-circle-size(32px, 6px);
       color: $text_gray;
       font-weight: bold;
-      .lc-pct{
-        // margin-top: 5px;
-        
-      }
     }
     .lc-pct{
       display: block;
@@ -545,6 +540,9 @@
     border-bottom: 2px dotted $vlight_gray;
   }
 }
+
+// The progress bar is too mashed together for 
+// narrow screen sizes on long courses
 @media (max-width: 700px) { 
   #lc-progress-bar{
     display: none;

@@ -23,7 +23,7 @@
   <div id="lc-progress-bar">
     <div class="lc-progress-wrapper">
       <%= link_to lessons_path(@lesson.course.title_url) do %>
-        <div  class="lc-end-circle lc-left-end <%= course_pct == 100 ? 'lc-completed' : '' %>" 
+        <div  class="lc-end-circle <%= course_pct == 100 ? 'lc-completed' : '' %>" 
               title="Go back to <%= @lesson.course.title %>"
               style="0%">
         </div>
