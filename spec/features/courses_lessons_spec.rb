@@ -374,7 +374,7 @@ describe "Courses and Lessons Pages" do
             visit lesson_path(first_sec_lesson.course.title_url, first_sec_lesson.title_url)
           end
           it "should show a next button for the next lesson" do
-            subject.should have_xpath("//*[@href = \'#{lesson_path(second_sec_lesson.course.title_url, second_sec_lesson.title_url)}\']")
+            subject.should have_xpath("//*[@href = \'#{lesson_path(second_sec_lesson.course.title_url, second_sec_lesson.title_url, :ref => "lnav")}\']")
           end
         end
 
@@ -383,7 +383,7 @@ describe "Courses and Lessons Pages" do
             visit lesson_path(last_sec_lesson.course.title_url, last_sec_lesson.title_url)
           end
           it "should show a next button to next section's first lesson" do
-            subject.should have_xpath("//*[@href = \'#{lesson_path(next_sec_first_lesson.course.title_url, next_sec_first_lesson.title_url)}\']")
+            subject.should have_xpath("//*[@href = \'#{lesson_path(next_sec_first_lesson.course.title_url, next_sec_first_lesson.title_url, :ref => "lnav")}\']")
           end
         end
 
