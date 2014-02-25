@@ -347,7 +347,7 @@ describe "Courses and Lessons Pages" do
 
           it "should have a link to the second lesson in the course" do
             within("#lc-progress-bar") do
-                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url))
+                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url, :ref => "lc-pb"))
             end
           end
 
@@ -355,7 +355,7 @@ describe "Courses and Lessons Pages" do
             course1.lessons.each do |l|
               next if l == lesson1
               within("#lc-progress-bar") do
-                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url))
+                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url, :ref => "lc-pb"))
               end
             end
           end
