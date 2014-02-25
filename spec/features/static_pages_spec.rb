@@ -95,7 +95,7 @@ describe "StaticPages" do
           it "should send an email request with the form contents" do
             wait_for_ajax
             suggestion = ActionMailer::Base.deliveries
-            puts suggestion
+            # puts suggestion
             suggestion.should_not be_empty
           end
         end
@@ -237,6 +237,29 @@ describe "StaticPages" do
     context "should contain an h1 title" do  
       it {expect(page).to have_selector("h1", :text => "Web Development Study Group")}
     end  
+  end
+
+  describe "legal page" do
+    
+    context "on the home page" do
+      before { visit root_path }
+
+      it "should have a link in the footer for legal" do
+        within("#footer") do
+          expect(page).to have_link("Legal",:href => legal_path)
+        end
+      end
+    end
+
+    context "on the legal page" do
+      before { visit legal_path }
+
+      it "should have a relevant h1" do
+
+
+      end
+    end
+
   end
 
 end
