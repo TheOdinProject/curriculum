@@ -9,19 +9,22 @@
 
   <div id="lc-progress-bar">
     <div class="lc-progress-wrapper">
-      <%= link_to lessons_path(lesson.course.title_url) do %>
+
+      <!-- Beginning and end cap circles (clickable!) -->
+      <%= link_to lessons_path(lesson.course.title_url, :ref => "lc-pb") do %>
         <div  class="lc-end-circle <%= course_pct == 100 ? 'lc-completed' : '' %>" 
               title="Go back to <%= lesson.course.title %>"
               style="0%">
         </div>
       <% end %>
-      <%= link_to lessons_path(lesson.course.title_url) do %>
+      <%= link_to lessons_path(lesson.course.title_url, :ref => "lc-pb") do %>
         <div  class="lc-end-circle lc-right-end <%= course_pct == 100 ? 'lc-completed' : '' %>" 
               title="Go back to <%= lesson.course.title %>"
               style="0%">
         </div>
       <% end %>
 
+      <!-- Individual lesson circles (clickable!) -->
       <% lessons.each_with_index do |l,i| %>
         <% if l == lesson %>
           <div class="pending-line"></div>
@@ -37,7 +40,7 @@
           <% classes =  "lc-circle" %>
           <% classes <<  ( current_user.completed_lesson?(l) ? ' lc-complete' : ' lc-pending' ) %>
           <% classes << ( l.is_project ? ' lc-project' : ' lc-lesson' ) %>
-          <%= link_to lesson_path(l.course.title_url, l.title_url) do %>
+          <%= link_to lesson_path(l.course.title_url, l.title_url, :ref => "lc-pb") do %>
             <div  class="<%= classes %>" 
                   title="<%= l.is_project ? "Project:" : "" %> <%= l.title %>"
                   style="left:<%= (i+1)*pct %>%">
