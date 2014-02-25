@@ -40,7 +40,7 @@
 
         <div class="lnav-prev lnav-wrap <%= 'lnav-disabled' unless @prev_lesson %> ">
           <% if @prev_lesson %>
-            <%= link_to lesson_path(@course.title_url, @prev_lesson.title_url), :title => "Go back to \"#{@prev_lesson.title}\""  do %>
+            <%= link_to lesson_path(@course.title_url, @prev_lesson.title_url, :ref => "lnav"), :title => "Go back to \"#{@prev_lesson.title}\""  do %>
               <div class="lnav-prev-icon icon"></div>
               <div class="lnav-text">
                 <p>Prev</p><p>Lesson</p>
@@ -55,7 +55,7 @@
         </div>
 
         <div class="lnav-index lnav-wrap">
-          <%= link_to lessons_path(@course.title_url), :title => "Go back to \"#{@course.title}\""  do %>
+          <%= link_to lessons_path(@course.title_url, :ref => "lnav"), :title => "Go back to \"#{@course.title}\""  do %>
             <div class="lnav-course-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && @next_lesson.nil? %>"></div>
             <div class="lnav-text">
               <p>View</p><p>Course</p>
@@ -65,7 +65,7 @@
 
         <div class="lnav-next lnav-wrap <%= 'lnav-disabled' unless @next_lesson %>">
           <% if @next_lesson %>
-            <%= link_to lesson_path(@course.title_url, @next_lesson.title_url), :title => "Move on to \"#{@next_lesson.title}\"" do %>
+            <%= link_to lesson_path(@course.title_url, @next_lesson.title_url, :ref => "lnav"), :title => "Move on to \"#{@next_lesson.title}\"" do %>
               <div class="lnav-next-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && !@next_lesson.nil? %>"></div>
               <div class="lnav-text">
                 <p>Next</p><p>Lesson</p>
