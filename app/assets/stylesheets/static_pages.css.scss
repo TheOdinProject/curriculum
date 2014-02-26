@@ -415,6 +415,12 @@
     margin-left: 0px;
     font-size: 3rem;
   }
+  p.explanation{
+    margin: 2em 0;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: $light_gray;
+  }
   .form-inputs{
     label{
       font-size: 25px;
@@ -437,7 +443,7 @@
   input.btn{
     margin-right: 20px;
     height: 60px;
-    width: 150px;
+    min-width: 150px;
     font-size: 25px;
     border-radius: 15px;
   }
