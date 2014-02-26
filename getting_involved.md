@@ -163,7 +163,9 @@ The weekly meetings will be posted to the [Google Community](https://plus.google
 
 ## How to Get Started
 
-Ready to get invovled?  Here's how.
+Ready to get involved?  Here's how.
+
+If you'll be participating, you can set up the project by following the setup instructions [in the README of the main repository](https://github.com/TheOdinProject/theodinproject).
 
 ### As an Observer
 
@@ -204,7 +206,7 @@ Your workflow will look like the following:
 1. [Tracker] Identify a story not attached to an epic
 2. [Tracker] Click "Start" to take ownership of it
 3. [Tracker / Google Docs] Create a Google Doc and share it.  Add a link to it in the comments at the bottom of the story. Use this document to track your approach, to-do's, and log progress from one session to the next, especially if you're working with others.
-3. [Github] [Grab the latest version of the repository from Github.](https://github.com/TheOdinProject/theodinproject)
+3. [Github] [Grab the latest version of the repository from Github.](https://github.com/TheOdinProject/theodinproject) Follow the instructions in the README.
 4. [Github] Make a feature branch with a title similar to the story you are working on (e.g. "close-admin-flash")
 5. [Community] Post hangouts for when you're working on it to get help.  If you end up working with others, they should work out of the story owner's code base (e.g. using Nitrous).  *You own the story, you own the code.*
 6. [Code] Write tests first, then make them pass with code.  Stories without tests will not be accepted.
