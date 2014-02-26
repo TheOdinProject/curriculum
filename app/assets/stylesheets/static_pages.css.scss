@@ -550,6 +550,7 @@
     color:white;
     padding:15px;
     font-weight: 300;
+    border-radius: 10px;
 
     a{
     color: $link_color;
@@ -557,6 +558,10 @@
     span{
       color:$highlight_orange;
       font-weight: bold;
+    }
+    p{
+      margin: 0;
+      padding: 0;
     }
   }
   .paths{
