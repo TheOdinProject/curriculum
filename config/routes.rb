@@ -21,6 +21,8 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'contributing' => "static_pages#contributing"
   get 'studygroup' => "static_pages#studygroup"
   get 'legal' => "static_pages#legal"
+  get 'cla' => "static_pages#cla"
+  get 'tou' => "static_pages#tou"
 
   # Note: This will block any additional URL paths! Good for a while
   # while people are rediscovering /curriculum but then will need

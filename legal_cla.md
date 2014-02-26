@@ -1,6 +1,4 @@
-<h2>Contributor Licensing Agreement</h2>
-
-<a href="#">Back to top</a>
+# Contributor Licensing Agreement
 
 *Last Modified 2/25/14*
 

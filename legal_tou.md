@@ -1,6 +1,4 @@
-## Terms of Use
-
-<a href="#">Back to top</a>
+# Terms of Use
 
 *Last Modified: 2/25/14*
 

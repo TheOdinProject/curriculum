@@ -3,30 +3,22 @@
     
     <h1>Legal Stuff</h1>
 
-    <h2>Covered Below:</h2>
-    <a href="#tou">
-      <p>Terms of Use</p>
-    </a>
-    <a href="#cla">
-      <p>CLA</p>
-    </a>
+    <p>...Because otherwise what would we do with all the lawyers?!?</p>
 
-    <h2>Overview</h2>
+    <%= link_to tou_path do %>
+      <h2>Terms of Use</h2>
+    <% end %>
     <p>
-      Here are our legal documents:
+      These Terms of Use govern your use of the website.
     </p>
 
-    <div id="tou">
-      <% f = File.open("legal_tou.md", "rb") %>
-      <%= md(f.read) %>
-      <% f.close %>
-    </div>
 
-    <div id="cla">
-      <% f = File.open("legal_cla.md", "rb") %>
-      <%= md(f.read) %>
-      <% f.close %>
-    </div>
+    <%= link_to cla_path do %>
+      <h2>Contributor Licensing Agreement</h2>
+    <% end %>
+    <p>
+      This agreement applies when you make contributions to this website.  For details about contributions to the Curriculum, refer to the <%= link_to "Contributing section", contributing_path %>.
+    </p>
 
   </div>
 </div>
