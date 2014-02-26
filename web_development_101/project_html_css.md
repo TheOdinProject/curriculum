@@ -24,7 +24,7 @@ These skills will be helpful for you when you start building.  Either try them y
 You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/courses/web-development-101/lessons/installations), so here we're going to put it to use.
 
 1. If you haven't already, create a folder on your computer called `The Odin Project` which will house all your projects .
-2. Go to your Github.com account and log in.  
+2. Go to your Github.com account and log in.
 3. Create a new repo for this project [by following the instructions on Github.](https://help.github.com/articles/create-a-repo ) and call it `google-homepage` (instead of `Hello-World`).  Make your repository "Public" instead of "Private".
 4. Go to your new repository on Github (`http://github.com/YOUR_USERNAME/google-homepage`) and take a look at it.  If you scroll down, you'll see that the `README` file you just created is what is displayed by default.
 5. Open the `README` file on your local computer and change its text to include the title of the project and a link to this project on theodinproject.com.
@@ -32,7 +32,7 @@ You'll want to organize all your projects as you go through the course, and the 
 
         # adds all files that are in your current directory and which you've
         # recently changed to the "staging area" (ie. they're "ready to commit")
-        $ git add -A  
+        $ git add -A
 
         # commits all the "staged" files into your local repository
         $ git commit -m "update README"
@@ -44,7 +44,7 @@ When you're building your project, you will probably end up doing several `git a
 
 Note: All Git commands need to be run from inside your project's folder (the one where you typed `$ git init`) or you'll get an error!
 
-## Easy Version: Build the [Google.com](http://www.google.com) homepage 
+## Easy Version: Build the [Google.com](http://www.google.com) homepage
 (the simple one with just a search box).
 
 Inside your project folder, create your index.html file
@@ -80,6 +80,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Afshin Mokhtari's implementation of the 'difficult' version](https://github.com/afshinator/OdinProject-GoogleSearchClone) with instructions on getting an API key to make it run.
 * See [Bill Walker's solution here](https://github.com/mach1010/odin/tree/master/html_css) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/mach1010/odin/blob/master/html_css/google.html).
 * See [Lamberto Diwa's solution here](https://github.com/LambertoD/odin_curricullum/tree/master/html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/LambertoD/odin_curricullum/blob/master/html/odin_google_page_project.html).
+* See [Marina Drigo's solution here](https://github.com/mousterian/OdinProject/blob/master/html_css/google-homepage/google-page.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/mousterian/OdinProject/blob/master/html_css/google-homepage/google-page.html).
 * *Your solution here...*
 
 ## Additional Resources
