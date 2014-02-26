@@ -5,28 +5,28 @@
 
     <h2>Covered Below:</h2>
     <a href="#tou">
-      <h3>Terms of Use</h3>
-    </a>
-    <a href="#pp">
-      <h3>Privacy Policy</h3>
+      <p>Terms of Use</p>
     </a>
     <a href="#cla">
-      <h3>CLA</h3>
+      <p>CLA</p>
     </a>
 
     <h2>Overview</h2>
     <p>
-      The Odin Project!
+      Here are our legal documents:
     </p>
 
-    <h2 id="tou">Terms of Use</h2>
+    <div id="tou">
+      <% f = File.open("legal_tou.md", "rb") %>
+      <%= md(f.read) %>
+      <% f.close %>
+    </div>
 
-
-    <h2 id="pp">Privacy Policy</h2>
-
-
-    <h2 id="cla">Contributor Licensing Agreement</h2>
-
+    <div id="cla">
+      <% f = File.open("legal_cla.md", "rb") %>
+      <%= md(f.read) %>
+      <% f.close %>
+    </div>
 
   </div>
 </div>
