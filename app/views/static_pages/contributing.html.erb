@@ -128,11 +128,12 @@
 		    <div class="span10">
 		      <h2>Advanced Beginner</h2>
 		      <p>
-            Advanced beginners have some experience and probably a few classes,
-            books, and tutorials under their belt. You have gaps in your knowledge
-            but you know the fundamentals. You should complete the courses you're
-            unfamiliar with, and it's time to consider taking an active role in the
-            project.
+            As an Advanced Beginner, you have some experience -- probably a few classes,
+            books, and tutorials under your belt. You have gaps in your knowledge
+            but you know the fundamentals. You should keep working on completing the courses you're
+            unfamiliar with (especially <%= link_to "Rails", lessons_path("ruby-on-rails") %>, 
+            but it's time to consider taking an active role in the project to really start applying
+            what you've learned.
 		      </p>
 		    </div>
         <div class="text-center">
@@ -144,33 +145,46 @@
           <h3>Contributor</h3>
           <div class="charcoal paths">
             <p>
-              Start here! Join the team and start pairing and contributing code.
-              You may not feel ready, but do it anyways!
+              Start here! Join the team and start collaborating on existing stories during our 
+              group coding sessions.  We coordinate everything through our regular SCRUM meetings
+              (posted to the <%= link_to "Community", "https://plus.google.com/communities/100013596437379837846" %>)
+              so be sure to swing by and see what you can work on.
+              You may not feel ready, but give it a shot! We're easy to work with.
             </p>
             <h4>How to Get Started</h4>
             <ol>
               <li>
-                Complete the <%= link_to "courses", curriculum_path %> as needed
+                Keep working through the <%= link_to "curriculum", courses_path %> as needed to get your skills up.
               </li>
               <li>
-                Complete the <%= link_to "On-Boarding", "#onboarding" %> section if you haven't yet
+                Complete the <%= link_to "On-Boarding", "#onboarding" %> section below if you haven't already.
               </li>
               <li>
-                Attend the scrums and start pair programming on actual stories, writing
-                code for the site with other team members.
-              </li>
-              <li>
-                <span>Next: </span> Story Owner!
-              </li>
+                Attend the SCRUM meetings and start pair- or group-programming on actual stories with other
+                team members.
+              </li>                  
             </ol>
+            <h4>The Next Step</h4>
+            <ul>
+              <li>
+                Earn your <span class="c-badge">Contributor</span> badge by making a meaningful contribution
+                to a story.  Earn your <span class="c-badge">Committer</span> badge by have a pull request 
+                accepted for a small individual story.
+              </li>
+              <li>
+                Graduate to the <span class="role-name">Story Owner Role</span> once you've contributed to
+                three stories or earned your <span class="c-badge">Committer</span> badge.
+              </li>
+            </ul>
           </div>
         </div>
         <div class="span4">
           <h3>Story Owner</h3>
           <div class="charcoal paths">
             <p>
-              Take ownership of a story in Pivotal Tracker! It's up to you to see it through,
-              present it to the team, and get it accepted!
+              The Story Owner takes ownership of a story in Pivotal Tracker! It's up to you to see it through,
+              present it to the team, and get it accepted!  You'll also need to set up the story/feature branch(es)
+              and coordinate any group coding sessions around the story.
             </p>
             <h4>How to Get Started</h4>
             <ol>
@@ -178,15 +192,32 @@
                 Complete the <%= link_to "On-Boarding", "#onboarding" %> section if you haven't yet.
               </li>
               <li>
-                Attend a scrum and volunteer for a story you'd like to complete
+                Attend a SCRUM meeting and volunteer for a story you'd like to complete.
               </li>
               <li>
-                Push the 'Start' button and get going!
+                Push the 'Start' button in <%= link_to "Pivotal Tracker", "https://www.pivotaltracker.com/s/projects/979092" %>
+                and get going!
+              </li>           
+              <li>
+                Coordinate group coding sessions with other contributors via the 
+                <%= link_to "Community", "https://plus.google.com/communities/100013596437379837846" %>.
               </li>
               <li>
-                <span>Next:</span> Project Manager!
+                When you've completed the story, submit a pull request and present it through at the next SCRUM!
               </li>
             </ol>
+            <h4>The Next Step</h4>
+            <ul>
+              <li>
+                Earn your <span class="c-badge">Story Owner</span> badge by having pull requests
+                accepted for three stories.  Earn your <span class="c-badge">Feature Owner</span> 
+                badge by have a pull request accepted for a feature involving multiple individual stories.
+              </li>
+              <li>
+                Graduate to the <span class="role-name">Project Manager Role</span> once you've earned both
+                your <span class="c-badge">Story Owner</span> and <span class="c-badge">Feature Owner</span> badges.
+              </li>
+            </ul>
           </div>
         </div>
         <div class="span4">
@@ -194,21 +225,40 @@
           <div class="charcoal paths">
             <p>
               By now you should be thoroughly familiar with the project. Your mission:
-              lead a team to complete an epic.
+              lead a team to complete an epic or series of stories and features.  This could mean
+              organizing coding sessions, finding knowledge team members need to move on, or
+              rolling your sleeves up and coding... basically anything it takes to get the story delivered!
             </p>
             <h4>How to Get Started</h4>
             <ol>
-              <li>
-                Check out these unknown PM resources
-              </li>
               <li>
                 Strengthen your understanding of software engineering. Consider taking the
                 169.x courses on <%= link_to "Edx.", "https://www.edx.org/course-list/allschools/computer-science/allcourses" %>
               </li>
               <li>
+                Learn more about Project Management and SCRUM Mastering from these (TBA) resources.
+              </li>
+              <li>
+                Take on responsibility for delivering an Epic (see <%= link_to "Pivotal Tracker", "https://www.pivotaltracker.com/s/projects/979092" %>).
+              </li>
+              <li>
+                Lead daily or weekly SCRUM meetings organizing project development.
+              </li>
+              <li>
                 <span>Graduate!</span> Go to Experienced Engineer skill level!
               </li>
             </ol>
+            <h4>The Next Step</h4>
+            <ul>
+              <li>
+                Earn your <span class="c-badge">Project Manager</span> badge by delivering your epic / featureset
+                or working continuously with the project in a PM role for 6 weeks.
+              </li>
+              <li>
+                Graduate to the <span class="role-name">Project Manager Role</span> once you've earned both
+                your <span class="c-badge">Story Owner</span> and <span class="c-badge">Feature Owner</span> badges.
+              </li>
+            </ul>
           </div>
         </div>
         <div class="text-center">
