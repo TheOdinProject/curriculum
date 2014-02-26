@@ -4,17 +4,23 @@
 
 /* Assumed: Bootstrap has done the CSS resets for us */
 
+$footer_height: 80px;
+$footer_padding: 20px;
+
 p {
   margin: 0px;
 }
 
 html {
   font-family: $body-fonts;
+  height: 100%;
 }
 
 body {
   background: $background_color;
   font-size: 100%; // 16px
+  min-height: 100%;
+  position: relative;
 }
 .nav-spacer{
   padding-top: 51px;
@@ -23,6 +29,10 @@ body {
   .nav-spacer{
     display:none;
   }
+}
+
+#global-content-wrapper{
+  padding-bottom: $footer_height+$footer_padding*2;
 }
 
 
@@ -44,9 +54,15 @@ footer {
 
   background-color: $vdark_gray;
   border-top: 1px solid $vlight_gray;
-  padding: 1.5em 1em;
+  padding: $footer_padding 0;
   text-align: center;
   font-size: .8em;
+  min-height: $footer_height;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  // margin-bottom: -140px;
+
   // margin-top: 50px;
 
   .copyright{
@@ -64,11 +80,18 @@ footer {
     margin: .5em 0;
   }
   .footer-links{
+    margin: 0 10px;
     color: $light_gray;
     a{
       display: inline-block;
       margin: 0 2.5em .5em;
     }
+  }
+}
+
+@media(max-width: 600px){
+  .footer-form{
+    display:none;
   }
 }
 
