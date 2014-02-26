@@ -34,6 +34,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 
 * [RebootJeff's Euler solutions](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
 * [mattphoto's Euler solutions](https://github.com/mattphoto/ProjectEuler)
+* [Neil Gehani's Euler solutions](https://github.com/ngehani/htmlcss/tree/master/js)
 * *Your solutions here...*
 
 ## Additional Resources
