@@ -570,13 +570,23 @@
       color:$highlight_orange;
       font-weight: bold;
     }
+
     p{
       margin: 0;
       padding: 0;
+
+    span.role-name{
+      color: white;
+      font-weight: bold;
+    }
+    span.c-badge{
+      font-weight: bold;
+
     }
   }
   .paths{
-    height: 400px;
+    height: 550px;
+    overflow-y: scroll;
     margin-top: 0;
   }
   .skill-header{
