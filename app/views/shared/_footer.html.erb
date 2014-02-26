@@ -7,6 +7,7 @@
     <%= link_to "Contact", contact_path %>
     <%= link_to "Study Group", studygroup_path %>
     <%= link_to "Contributing", contributing_path %>
+    <%= link_to "Legal", legal_path %>
     </span>
   </div>
   <div class="footer-form">
@@ -29,10 +30,10 @@
   // After form submission, gray out and disable the form
   $(document).ready(function(){
     $("#footer-suggestion-form").bind("ajax:complete", function(event, xhr, status){
-      console.log($("#footer-suggestion-form input"));
+      //console.log($("#footer-suggestion-form input"));
       $("#footer-suggestion-form input").attr("disabled","disabled");
       $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
-      console.log("did it!");
+      //console.log("did it!");
     });
     $("#suggestion-pathname").val(location.pathname);
   });

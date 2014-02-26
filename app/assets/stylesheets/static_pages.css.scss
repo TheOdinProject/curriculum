@@ -405,12 +405,21 @@
 
 
 #devise-form{
-  margin-bottom: 8em;
+
+  margin: 4em auto 12em;
+  max-width: 600px;
+
   h2{
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-top: 1em;
+    margin-bottom: 1em;
     margin-left: 0px;
-    font-size: 40px;
+    font-size: 3rem;
+  }
+  p.explanation{
+    margin: 2em 0;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: $light_gray;
   }
   .form-inputs{
     label{
@@ -434,7 +443,7 @@
   input.btn{
     margin-right: 20px;
     height: 60px;
-    width: 150px;
+    min-width: 150px;
     font-size: 25px;
     border-radius: 15px;
   }
@@ -493,16 +502,12 @@
   font-size: 1.5em;
   line-height: 1em;
   color: #0d0;
-  // text-shadow: 1px 1px 1px gray;
-  // background-color: $background_color;
   position: fixed;
   top: 10px;
   left: 45%;
   z-index: 100000;
-  // display: none;
 }
 .eventInfo{
-  /*font-size: 75%;*/
   color: #aaa;
   padding: 5px;
   margin: 5px 0px;
@@ -514,12 +519,18 @@
 }
 
 .alpha-alert{
+  margin: 1.5em 1em 3em;
+
   h3{
     color: red;
   }
   ol{
+    margin-top: 1em;
     font-size: 75%;
     color: #333;
+    li{
+      margin-top: .5em;
+    }
   }
 }
 
