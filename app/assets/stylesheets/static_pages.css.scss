@@ -555,6 +555,9 @@
 
   @extend .individual-lesson;
 
+  .role-description{
+    border: 1px solid $vlight_gray;
+  }
   .charcoal{
     font-size:.7em;
     background: $mid_gray;
@@ -574,7 +577,7 @@
     p{
       margin: 0;
       padding: 0;
-
+    }
     span.role-name{
       color: white;
       font-weight: bold;
@@ -586,7 +589,7 @@
   }
   .paths{
     height: 550px;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin-top: 0;
   }
   .skill-header{
