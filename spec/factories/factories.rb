@@ -10,8 +10,9 @@ FactoryGirl.define do
     sequence :email do |n|
       "foo#{n}@bar.com"
     end
-    
+
     password "foobar"
+    legal_agreement true
     
     # For testing ordering of most recently visited student.
     # Without this, users were created with nothing in this field, with the side effect

@@ -70,6 +70,31 @@ describe "Authentication" do
       end
     end
   end
+
+  describe "authentication pages" do
+
+    describe "sign up page" do
+      before do
+        visit signup_path
+      end
+
+      it "should have a field for username" do
+        expect(page).to have_selector("#user_username")
+      end
+      it "should have a field for email" do
+        expect(page).to have_selector("#user_username")
+      end
+      it "should have a field for password" do
+        expect(page).to have_selector("#user_password")
+      end
+      it "should have a field for password confirmation" do
+        expect(page).to have_selector("#user_password_confirmation")
+      end
+      it "should have a field for legal agreement" do
+        expect(page).to have_selector("#user_legal_agreement")
+      end
+    end
+  end
 end
 
 
