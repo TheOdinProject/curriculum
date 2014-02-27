@@ -5,7 +5,7 @@ __Statement of Goals__
 
 The goals of this particular document are to familiarize beginning developers with the CSS preprocessor [Sass](http://sass-lang.com).
 
-__So, h-what _is_ a preprocessor, anyway?__
+__So, what _is_ a preprocessor, anyway?__
 
 A CSS preprocessor is simply a scripting language that extends CSS and then gets compiled into regular CSS syntax.
 
@@ -59,8 +59,7 @@ I'm hooked. Let's install it!
 =============================
 Good choice! I was excited when I first started using Sass, and I'm learning more each day. I hope I can help you take advantage of this powerful tool - it will change your life! (No, really. You'll love me. Please?)
 
-__Just the 'bear' necessities, ooh the bear necessities...__
-_How's that for a flashback?_
+__Necessities___
 
 You will need:
 - A text editor (I highly recommend [Sublime Text 2](http://www.sublimetext.com/))
@@ -96,6 +95,10 @@ Additional resources
 ====================
 
 - [sass-lang.com](http://sass-lang.com): Learn more about Sass (contains tutorial, reference)
+
+About the Author
+================
+Ben Denhartog works as a web developer in northern California, USA. [Get in touch](https://github.com/bddenhartog).
 
 To-do
 =====
