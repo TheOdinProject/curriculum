@@ -31,6 +31,8 @@ The Odin Project's main website (which is the primary way that people access thi
 
 There are three main ways to contribute to the curriculum (see the [main website's repo](https://github.com/theodinproject/theodinproject) for how to contribute there), in order of preference:
 
+1. **Edit on Github** For small changes like adding links to student solutions or fixing typos, it's easiest to just edit the file directly on Github, which [I show how to do in this YouTube video](https://www.youtube.com/watch?v=V74l_zS1x8E).
+
 1. **Pull Request:**  To contribute, [fork the curriculum repository](https://help.github.com/articles/fork-a-repo), make your changes or additions to the appropriate file, then [submit a pull request](https://help.github.com/articles/using-pull-requests).  This is best for small contributions like project solutions.  You can also edit the file directly on Github (for instance if you're just submitting a link that can be easier) by using the "edit" option at the top of a particular file.  That will automatically create a fork and pull request for you.
 
 2. **Github Issue:** You can also [open up a Github issue](https://github.com/theodinproject/curriculum/issues) instead and we'll take care of it.  *[About Github Issues](https://github.com/TheOdinProject/curriculum/issues)*
@@ -52,7 +54,10 @@ This curriculum is licensed under a Creative Commons license.  For more informat
 
 ## Thank you for your help and support!
 
+## Additional Resources:
 
+* [The easiest way to contribute to Open Source](https://www.youtube.com/watch?v=V74l_zS1x8E)
+* [A more in-depth look at contributing to open source](https://www.youtube.com/watch?v=IeW1Irw45hQ)
 
 
 
