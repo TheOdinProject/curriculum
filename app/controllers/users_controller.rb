@@ -50,4 +50,8 @@ class UsersController < ApplicationController
       render "/400.html", :status => 400 # bad request
     end
   end
+
+  def user_params
+    params.require(:user).permit(:email, :username, :password, :password_confirmation, :legal_agreement)
+  end
 end

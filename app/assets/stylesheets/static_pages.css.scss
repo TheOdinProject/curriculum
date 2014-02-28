@@ -283,18 +283,6 @@
           padding-right: 0;
         }
       }
-
-      // set the cascading left paddings for the panels
-      // @for $i from 1 through 7 {
-      //   .p#{ $i }{
-      //     margin-left: #{percentage($i * 6)/100};
-      //   }
-      // }
-      // @media(max-width: 700px){
-      //   .course-panel{
-      //     margin-left: 0;
-      //   }
-      // }
     }
   }
 
@@ -440,6 +428,36 @@
       font-size: 25px;
     }
   }
+  .legal-wrapper{
+      margin: -10px 0 20px 180px;
+      max-width: 350px;
+    .help-inline{
+      color: #b94a48;
+    }
+    .legal-checkbox{
+      padding: 5px;
+      &.error{
+        padding: 10px;
+        border: 1px solid #b94a48;
+        @include border-radius(4px);
+        abbr{
+          color: #b94a48;
+        }
+      }
+      
+      abbr{
+        font-size: 20px;
+      }
+      .legal-text{
+      }
+      input{
+        height: 20px;
+        width: 20px;
+        padding: 10px;
+        margin: 0 5px 0 0;
+      }
+    }
+  }
   input.btn{
     margin-right: 20px;
     height: 60px;
@@ -454,6 +472,16 @@
 
 }
 
+@media (max-width: 500px){
+  #devise-form{
+    .legal-wrapper{
+      margin-left: 0px;
+    }
+    .devise-shared-links{
+      margin-left: 0px;
+    }
+  }
+}
 #scheduler{
   p.warning{
     font-size: 120%;
