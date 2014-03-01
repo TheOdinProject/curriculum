@@ -123,7 +123,7 @@ We've experimented with several different pairing workflows and haven't settled 
 
 The main workflows we've tried are listed below.  The ideal workflow allows ulimited people to participate, easy switching between driver/navigator, and easy recording.  None have come out the clear winner, though the first is currently favored:
 
-1. **[Google Hangouts on Air](https://plus.google.com/hangouts) + [Nitrous.io](http://nitrous.io)**:  Nitrous is a free cloud-hosted Rails development environment that lets you run your own terminal window, local filesystem etc... it's like tunneling into a new Macbook.  It also has collaboration features baked in, so multiple people can work on the same code base simultaneously.  The Hangout on Air is necessary to give the navigator(s) the opportunity to talk to the driver and so we can record the session easily.
+1. **[Google Hangouts on Air](https://plus.google.com/hangouts) + [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral)**:  Nitrous is a free cloud-hosted Rails development environment that lets you run your own terminal window, local filesystem etc... it's like tunneling into a new Macbook.  It also has collaboration features baked in, so multiple people can work on the same code base simultaneously.  The Hangout on Air is necessary to give the navigator(s) the opportunity to talk to the driver and so we can record the session easily.
     * **Pros:** Easy recording, unlimited watchers, easy driver switching (one code base used), standardizes environments for collaborators
     * **Cons:** Have to use an IDE (which no one is 100% familiar with), totally web-based, Google can be frustrating to figure out
     * To set up a Hangout on Air, you actually need to schedule the HoA *in advance*, which will automatically create a Google Event which links to the HoA.  The other way to do it is to schedule the Google Event and then, just ahead of time, create a HoA and link it to the Google Event by digging in to the Event's options and looking for the "YouTube Link" field. See [this post](https://plus.google.com/+NatalieVillalobos/posts/a1sgtv91skA) for details of that method.
@@ -163,7 +163,9 @@ The weekly meetings will be posted to the [Google Community](https://plus.google
 
 ## How to Get Started
 
-Ready to get invovled?  Here's how.
+Ready to get involved?  Here's how.
+
+If you'll be participating, you can set up the project by following the setup instructions [in the README of the main repository](https://github.com/TheOdinProject/theodinproject).
 
 ### As an Observer
 
@@ -204,7 +206,7 @@ Your workflow will look like the following:
 1. [Tracker] Identify a story not attached to an epic
 2. [Tracker] Click "Start" to take ownership of it
 3. [Tracker / Google Docs] Create a Google Doc and share it.  Add a link to it in the comments at the bottom of the story. Use this document to track your approach, to-do's, and log progress from one session to the next, especially if you're working with others.
-3. [Github] [Grab the latest version of the repository from Github.](https://github.com/TheOdinProject/theodinproject)
+3. [Github] [Grab the latest version of the repository from Github.](https://github.com/TheOdinProject/theodinproject) Follow the instructions in the README.
 4. [Github] Make a feature branch with a title similar to the story you are working on (e.g. "close-admin-flash")
 5. [Community] Post hangouts for when you're working on it to get help.  If you end up working with others, they should work out of the story owner's code base (e.g. using Nitrous).  *You own the story, you own the code.*
 6. [Code] Write tests first, then make them pass with code.  Stories without tests will not be accepted.

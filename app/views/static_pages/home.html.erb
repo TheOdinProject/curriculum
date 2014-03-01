@@ -10,7 +10,7 @@
             <%= render :partial => "shared/logo_text" %>
           </div>
           <div class="menu-wrapper">
-            <%= link_to "Curriculum", curriculum_path(:ref => "homenav") %> |
+            <%= link_to "Curriculum", courses_path(:ref => "homenav") %> |
             <% if current_user %>
               <%= link_to "Logout", logout_path(:ref => "homenav") %>
             <% else %>
@@ -365,7 +365,7 @@
       <p>
         Are you curious yet?
       </p>
-      <%= link_to curriculum_path do %>
+      <%= link_to courses_path(:ref => "home_b") do %>
         <button class="btn btn-success cta-button">
           Check out the curriculum!
         </button>

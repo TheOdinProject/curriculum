@@ -12,7 +12,6 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'home' => 'static_pages#home'
   get 'scheduler' => 'static_pages#scheduler'
   post 'thank_you' => 'static_pages#send_feedback'
-  get 'scheduler' => 'static_pages#scheduler'
   get 'selectable' => 'static_pages#selectable'
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
@@ -21,6 +20,9 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'contact' => "static_pages#contact"
   get 'contributing' => "static_pages#contributing"
   get 'studygroup' => "static_pages#studygroup"
+  get 'legal' => "static_pages#legal"
+  get 'cla' => "static_pages#cla"
+  get 'tou' => "static_pages#tou"
 
   # Note: This will block any additional URL paths! Good for a while
   # while people are rediscovering /curriculum but then will need

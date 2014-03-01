@@ -139,7 +139,7 @@
     text-align: center;
     border-top: 1px solid $light_gray;
     padding: 1.5em 2em 2.5em 2em;
-    margin: 3em -2em 0em -2em;
+    margin: 1em -2em 0em -2em;
 
     h1{
       margin: 1em 0 .5em 0;
@@ -180,48 +180,60 @@
   }
 
 
-  .contribution-links {
-    cursor: pointer;
-    position: relative;   
-  }
+  // The information section at the end of each lesson
+  // Includes the license and the link to that lesson's Github
+  #info-box{
 
-  .octocat {
-    opacity: .4;
-  }
+    margin: 2em 0 1em 0;
 
-  .popover {
-    background: #ddd;
-  }
-
-  .popover-content {
-    font-size: .7em;
-  }
-  
-  .popover-title {
-    border-radius: 5px;
-    font-size: 1.1em;
-    line-height: 1.2em;
-  }
-
-  .tilt {
-    -webkit-transition: all 0.5s ease;
-       -moz-transition: all 0.5s ease;
-         -o-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-            transition: all 0.5s ease;
-  }
-   
-  .tilt:hover {
-    -webkit-transform: rotate(-10deg);
-       -moz-transform: rotate(-10deg);
-         -o-transform: rotate(-10deg);
-        -ms-transform: rotate(-10deg);
-            transform: rotate(-10deg);
-  }
-
-
-  @media only screen and (max-width : 420px) {
-    .popover { max-width: 176px; }
+    .content_license{
+      display: inline-block;
+      opacity: .2;
+      margin-right: 12px;
+      margin-left: 12px;
+      margin-top: 7px;
+      &:hover{
+        opacity: .5;
+      }
+    }
+    .contribution-links {
+      cursor: pointer;
+      position: relative; 
+      .octocat {
+        opacity: .2;
+        &:hover{
+          opacity: .5;
+        }
+      }
+    }
+    .popover {
+      background: #ddd;
+    }
+    .popover-content {
+      font-size: .7em;
+    }
+    .popover-title {
+      border-radius: 5px;
+      font-size: 1.1em;
+      line-height: 1.2em;
+    }
+    @media only screen and (max-width : 420px) {
+      .popover { max-width: 176px; }
+    }
+    .tilt {
+      -webkit-transition: all 0.5s ease;
+         -moz-transition: all 0.5s ease;
+           -o-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+    }
+    .tilt:hover {
+      -webkit-transform: rotate(-10deg);
+         -moz-transform: rotate(-10deg);
+           -o-transform: rotate(-10deg);
+          -ms-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
   }
 
   .lc-completion-indicator{

@@ -26,7 +26,15 @@ class StaticPagesController < ApplicationController
   end
   
   def studygroup
+  end
 
+  def legal
+  end
+
+  def tou
+  end
+
+  def cla
   end
 
   # For the suggestion form in the footer

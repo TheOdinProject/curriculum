@@ -27,10 +27,15 @@
         &#10004;
       </h3>
     <% end %>
-
+    
     <%= @content %>
 
-    <%= render 'lessons/contribution_links' %>
+    <div id="info-box">
+      <%= render 'lessons/contribution_links' %>
+      <%= render 'lessons/license' %>
+      <div class="clearfix"></div>
+    </div>
+
     <div class="action-box">
       <div class="lc-end-wrapper">
         <%= render "shared/complete_lesson" %>

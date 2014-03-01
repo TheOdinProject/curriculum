@@ -11,14 +11,11 @@ class UserMailer < ActionMailer::Base
   def send_welcome_email_to(user)
     @user = user
     @starting_lesson = Lesson.order("position asc").first
-    # NOTE: this doesn't work in development! Letter_opener can't
-    # find the attachment path for some unknown reason -- it keeps
-    # wanting to use the local directory structure.  Must test in...
-    # prod.  yuck.
     begin
-      attachments.inline['logo.gif'] = File.read(view_context.asset_path('odin_head_silhouette_2_circle_simple_transparent_darker.gif'))
-    rescue
+      attachments.inline['logo.gif'] = File.read(Rails.root.join('app/assets/images/odin_head_silhouette_2_circle_simple_transparent_darker.gif'))
+    rescue Exception => e
       puts "Couldn't find the logo image for the welcome email"
+      puts e.message
     end
       return mail(
         :subject => "Getting started with The Odin Project",
