@@ -304,9 +304,6 @@
     padding: 20px 15px 15px 15px;
     max-width: 350px;
     margin: auto;
-    // background-color: #f8f8f8;
-    // border: 1px solid $vlight_gray;
-    // @include border-radius(10px);
 
     p{
       margin: 0;
@@ -482,7 +479,7 @@
     @include border-radius(20px);
     position: absolute;
     border-style: solid;
-    border-color: $light_gray;//#00a;
+    border-color: $light_gray;
     text-align: center;
     font-size: 10px;
     color: $mid_gray;

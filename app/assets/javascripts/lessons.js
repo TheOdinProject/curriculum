@@ -11,26 +11,24 @@ $(function(){
   // Delegate listeners to the lesson so they stick around when new forms
   // and checkboxes are created.  This is an example of "event delegation".
   // This code will work for both checked and unchecked boxes
-  $(".lesson").on("click", ".lc-checkbox", function(e){
-    //if(!$(".checkbox-container").hasClass("lc-disabled")){        
+  $(".lesson").on("click", ".lc-checkbox", function(e){     
       e.preventDefault();
       checkbox = $(e.target).parents(".lesson").find(".lc-checkbox");
     
-      // Switch to AJAX waiting state, since it will be overwritten by the
-      // refresh from the unobtrusive javascript   
+      // Switch to AJAX waiting state regardless of prior state
+      // since it will be overwritten anyway
+      // by the refresh from the unobtrusive javascript   
       checkbox.removeClass("lc-unchecked");
       checkbox.removeClass("lc-checked");
       checkbox.addClass("lc-waiting");
     
       // submit the form
       checkbox.parents("form").submit();
-    //}
   });
   
-  // Delegate a hover listener (separate mouseenter and mouseleave) to completion wrapper
-  // Don't enable if it's a disabled class
+  // Delegate a hover listener (separate mouseenter and mouseleave) 
+  // to completion wrapper and don't enable if it's a disabled class
   $(".lesson").on("mouseenter", ".lc-checkbox",function(e){
-    console.log(e.target);
     checkbox = $(e.target).parents(".lesson").find(".lc-checkbox");
     
     if(!checkbox.hasClass("lc-disabled")){  
@@ -54,13 +52,13 @@ $(function(){
   // and checkboxes are created.  This is an example of "event delegation".
   $(".lc-end-wrapper").on("click", ".checkbox-container", function(e){
     if( !$(".checkbox-container").hasClass("lc-disabled") &&
-        !$(".checkbox-container").hasClass("lc-checked")
-      ){        
+        !$(".checkbox-container").hasClass("lc-checked") ){        
       e.preventDefault();
       checkboxContainer = $(".checkbox-container");
       
-      // Switch to AJAX waiting state, since it will be overwritten by the
-      // refresh from the unobtrusive javascript   
+      // Switch to AJAX waiting state regardless of prior state
+      // since it will be overwritten anyway
+      // by the refresh from the unobtrusive javascript  
       checkboxContainer.addClass("lc-waiting");
       
       // submit the form
