@@ -36,6 +36,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [mattphoto's Euler solutions](https://github.com/mattphoto/ProjectEuler)
 * [Neil Gehani's Euler solutions](https://github.com/ngehani/htmlcss/tree/master/js)
 * [Marina Drigo's Euler solutions](https://github.com/mousterian/OdinProject/tree/master/euler_problems)
+* [Lamberto Diwa's solution here](https://github.com/LambertoD/odin_curricullum/tree/master/javascript/js) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/LambertoD/odin_curricullum/blob/master/javascript/index.html).
 * *Your solutions here...*
 
 ## Additional Resources
