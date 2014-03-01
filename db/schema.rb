@@ -17,8 +17,8 @@ ActiveRecord::Schema.define(version: 20140210201517) do
   enable_extension "plpgsql"
 
   create_table "admin_flashes", force: true do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "message"
     t.datetime "expires"
   end
@@ -30,8 +30,8 @@ ActiveRecord::Schema.define(version: 20140210201517) do
     t.string   "description"
     t.string   "time_zone"
     t.integer  "creator_id"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "cal_events", ["creator_id"], name: "index_cal_events_on_creator_id", using: :btree
@@ -41,16 +41,16 @@ ActiveRecord::Schema.define(version: 20140210201517) do
   create_table "content_activations", force: true do |t|
     t.integer  "user_id",           null: false
     t.integer  "content_bucket_id", null: false
-    t.datetime "created_at",        null: false
-    t.datetime "updated_at",        null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "content_activations", ["user_id", "content_bucket_id"], name: "index_content_activations_on_user_id_and_content_bucket_id", unique: true, using: :btree
 
   create_table "content_buckets", force: true do |t|
     t.string   "name",       null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "content_buckets", ["name"], name: "index_content_buckets_on_name", unique: true, using: :btree
@@ -58,8 +58,8 @@ ActiveRecord::Schema.define(version: 20140210201517) do
   create_table "courses", force: true do |t|
     t.string   "title"
     t.text     "description"
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "title_url"
     t.integer  "position",                    null: false
     t.string   "you_learn"
@@ -75,30 +75,21 @@ ActiveRecord::Schema.define(version: 20140210201517) do
   create_table "lesson_completions", force: true do |t|
     t.integer  "lesson_id"
     t.integer  "student_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "lesson_completions", ["lesson_id", "student_id"], name: "index_lesson_completions_on_lesson_id_and_student_id", unique: true, using: :btree
 
-  create_table "lesson_completions", :force => true do |t|
-    t.integer  "lesson_id"
-    t.integer  "student_id"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-  end
-
-  add_index "lesson_completions", ["lesson_id", "student_id"], :name => "index_lesson_completions_on_lesson_id_and_student_id", :unique => true
-
-  create_table "lessons", :force => true do |t|
+  create_table "lessons", force: true do |t|
     t.string   "title"
     t.string   "url"
     t.integer  "position",                    null: false
     t.text     "description"
     t.boolean  "is_project",  default: false
     t.integer  "section_id",                  null: false
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "title_url"
     t.text     "content"
   end
@@ -111,8 +102,8 @@ ActiveRecord::Schema.define(version: 20140210201517) do
     t.string   "title"
     t.integer  "position",    null: false
     t.integer  "course_id",   null: false
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "title_url"
     t.text     "description"
   end
@@ -123,16 +114,16 @@ ActiveRecord::Schema.define(version: 20140210201517) do
 
   create_table "splash_emails", force: true do |t|
     t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "splash_emails", ["email"], name: "index_splash_emails_on_email", unique: true, using: :btree
 
   create_table "user_prefs", force: true do |t|
     t.integer  "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "user_prefs", ["user_id"], name: "index_user_prefs_on_user_id", unique: true, using: :btree
@@ -148,8 +139,8 @@ ActiveRecord::Schema.define(version: 20140210201517) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
-    t.datetime "created_at",                          null: false
-    t.datetime "updated_at",                          null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "username"
     t.text     "about"
     t.string   "github"
