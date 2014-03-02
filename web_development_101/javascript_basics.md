@@ -38,6 +38,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Marina Drigo's Euler solutions](https://github.com/mousterian/OdinProject/tree/master/euler_problems)
 * [Lamberto Diwa's solution here](https://github.com/LambertoD/odin_curricullum/tree/master/javascript/js) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/LambertoD/odin_curricullum/blob/master/javascript/index.html).
 * [Jeffery Garza's Euler solutions](https://github.com/jgarza/odin-project-studies/tree/master/javascript/project_euler)
+* [Afshin Mokhtari's Euler solutions](https://github.com/afshinator/playground/tree/master/EulerProjectSolutions)
 * *Your solutions here...*
 
 ## Additional Resources
