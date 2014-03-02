@@ -261,7 +261,7 @@
   }
 
   @mixin lc-checkbox-bg-small($path){
-    background: url($path) 0px 0px no-repeat;
+    background: image-url($path) 0px 0px no-repeat;
   }
 
 
@@ -301,7 +301,7 @@
       @include lc-checkbox-bg-small("icons/lc_checked.svg");
     }
     .lc-waiting{
-      background: url("icons/ajax-loader.gif") 4px 4px no-repeat;
+      background: image-url("icons/ajax-loader.gif") 4px 4px no-repeat;
       background-size: 32px 32px !important;
     }
     .lc-disabled{

@@ -100,7 +100,7 @@
     z-index: 10;
     padding: 10px 50px 10px 10px;
     color: #fff;
-    background: url("blacktocat.png") #0090ff no-repeat 95% 50%;
+    background: image-url("blacktocat.png") #0090ff no-repeat 95% 50%;
     font-weight: 700;
     box-shadow: 0 0 10px rgba(0,0,0,.5);
     border-bottom-left-radius: 2px;
@@ -288,7 +288,7 @@
     /*  This is like a function (it's from SASS) so we don't
         have to repeat ourselves all the time below */
     @mixin lc-checkbox-bg-large($path){
-      background: url($path) 25px 20px no-repeat;
+      background: image-url($path) 25px 20px no-repeat;
     }
     
     .lc-unchecked{
@@ -301,7 +301,7 @@
       @include lc-checkbox-bg-large("icons/lc_checked.svg");
     }
     .lc-waiting{
-      background: url("icons/ajax-loader.gif") 47px 43px no-repeat;
+      background: image-url("icons/ajax-loader.gif") 47px 43px no-repeat;
       background-size: 32px 32px !important;
     }
     .lc-disabled{
@@ -345,11 +345,11 @@
         opacity: .2;
       }
       .lnav-course-icon{
-        background: url("icons/notebook.svg") 0px 0px no-repeat!important;
+        background: image-url("icons/notebook.svg") 0px 0px no-repeat!important;
         background-size: 80px 80px!important;
       }
       .lnav-next-icon{
-        background: url("icons/arrow_in_circle.svg") 8px 8px no-repeat!important;
+        background: image-url("icons/arrow_in_circle.svg") 8px 8px no-repeat!important;
         background-size: 64px 64px!important;
       }
     }
@@ -360,26 +360,26 @@
     }
 
     .lnav-prev-icon{
-      background: url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
+      background: image-url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
       background-size: 64px 64px!important;
     }
 
     .lnav-course-icon{
-      background: url("icons/notebook.svg") 0px 0px no-repeat;
+      background: image-url("icons/notebook.svg") 0px 0px no-repeat;
       background-size: 80px 80px!important;
       &.lnav-active{
-        background: url("icons/notebook_green.svg") 0px 0px no-repeat;
+        background: image-url("icons/notebook_green.svg") 0px 0px no-repeat;
       }
     }
 
     .lnav-next-icon{
-      background: url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
+      background: image-url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
       background-size: 64px 64px!important;
               transform:rotate(180deg);
           -ms-transform:rotate(180deg); /* IE 9 */
       -webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
       &.lnav-active{
-        background: url("icons/arrow_in_circle_green.svg") 8px 8px no-repeat;
+        background: image-url("icons/arrow_in_circle_green.svg") 8px 8px no-repeat;
       }
     }
 
