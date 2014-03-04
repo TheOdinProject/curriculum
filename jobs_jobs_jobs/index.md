@@ -461,4 +461,5 @@ So build some kick ass software, learn as much as you can, and pay it forward wh
 ## Additional Resources
 
 * [Getting your first IT job from InformationWeek](http://www.informationweek.com/global-cio/careers/how-to-land-your-first-it-job/240161457)
+* [Engineer's Guide to US Visas](http://blog.sourcing.io/visa-guide)
 
