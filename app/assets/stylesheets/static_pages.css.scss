@@ -551,7 +551,6 @@
 }
 
 #studygroup {
-  
   margin: 0 auto;
   max-width: 920px;
   
@@ -559,30 +558,37 @@
    margin: 0; 
   }
 
-  h1 {
-    font-size: 25px;
-  }
 
   p {
     margin: 0 0 10px 0;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-  p {
     font-size: 14px;
   }
-  #side, #content {
-    float: left;
-  }
-  #side {
+
+
+  .studygroup-side {
     width: 300px;
-    margin: 0 50px 50px 0;
+    margin: 0 50px 50px 0;  
   }
-  #content {
-    width: 525px;
+
+  .studygroup-content {
+    width: 525px;  
+  }  
+
+  #track1 .studygroup-content{
+    background: url(http://res.cloudinary.com/techblogpics/image/upload/v1393804779/web-dev-fade_ianp6i.png) top right no-repeat;
   }
+
+  #track2 .studygroup-content{
+    background: url(http://res.cloudinary.com/techblogpics/image/upload/v1393811171/rubyonrails-fade3_lv4xao.png) top right no-repeat;
+  }
+
+
+  li {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.25em;
+  }
+
   .rule {
     border-top: 1px solid #ccc;
     margin: 20px 0;
