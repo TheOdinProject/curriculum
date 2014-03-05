@@ -70,7 +70,6 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * See [RebootJeff's solution here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
-
 * See [Max Pleaner's solution here](https://github.com/macsplean/odin1_google_part1) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/macsplean/odin1_google_part1/blob/master/index.html).
 * See [JesseNeal's solution here](https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html)
 * See [Neil Gehani's solution here](https://github.com/ngehani/htmlcss/blob/master/googlelogo) or [view it in the browser here](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo/index.html).
@@ -83,7 +82,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Marina Drigo's solution here](https://github.com/mousterian/OdinProject/blob/master/html_css/google-homepage/google-page.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/mousterian/OdinProject/blob/master/html_css/google-homepage/google-page.html).
 * See [Jeffery Garza's solution here](https://github.com/jgarza/odin-project-studies/tree/master/html_css/google_project1) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jgarza/odin-project-studies/blob/master/html_css/google_project1/index.html).
 * See [Jeffery Garza's 'difficult' solution here](https://github.com/jgarza/odin-project-studies/tree/master/html_css/google_project2) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jgarza/odin-project-studies/blob/master/html_css/google_project2/index.html).
-* See [Ricky Walker's solution here] (https://github.com/Rwalk45/google-homepage) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/Rwalk45/google-homepage/blob/master/index.html).
+* See [Ricky Walker's solution here](https://github.com/Rwalk45/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Rwalk45/google-homepage/blob/master/index.html).
+* *Your solution here...*
 
 ## Additional Resources
 
