@@ -555,48 +555,18 @@
 
   @extend .individual-lesson;
 
-  .role-description{
-    border: 1px solid $vlight_gray;
-  }
-  .charcoal{
-    font-size:.7em;
-    background: $mid_gray;
-    color:white;
-    padding:15px;
-    font-weight: 300;
-    border-radius: 10px;
-
-    a{
-    color: $link_color;
-    }
-    span{
-      color:$highlight_orange;
-      font-weight: bold;
-    }
-
-    p{
-      margin: 0;
-      padding: 0;
-      span.role-name{
-        color: white;
-        font-weight: bold;
-      }
-      span.c-badge{
-        font-weight: bold;
-      }
-    }
-    span.role-name{
-      color: white;
-      font-weight: bold;
-    }
-    span.c-badge{
-      font-weight: bold;
-    }
-  }
   .paths{
-    height: 550px;
-    overflow-y: auto;
-    margin-top: 0;
+    border: 1px solid $vlight_gray;
+    box-shadow: 3px 3px 3px #efefef;
+    padding:5px 15px;
+    margin:10px 50px;
+    font-size:.7em;
+    font-weight:300;
+    border-radius:10px;
+
+    h2, h3, h4, h5{
+      margin-top:0px;
+    }
   }
   .skill-header{
     margin-top: 20px;
@@ -609,8 +579,11 @@
     color: $highlight_orange;
     cursor: pointer;
   }
+  span.highlight{
+    color:$highlight_orange;
+    font-weight:normal;
+  }
 }
-
 
 #studygroup {
   
