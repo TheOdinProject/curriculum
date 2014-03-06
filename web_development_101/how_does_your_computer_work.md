@@ -1,5 +1,5 @@
 # Step Back... How Does Your Computer Work?
-*Estimated Time: 2-4 hrs*
+*Estimated Time: 3-6 hrs*
 
 This isn't a course about rebuilding your hard drive but it is useful for you to understand the high level overview of what's going on to make your computer function.  That's partly because you'll see the same patterns showing up when you're telling servers what to do and partly because you're going to have to talk to your computer in a way that it understands anyway so you'd better speak a little of its language.
 
@@ -35,5 +35,6 @@ That black screen (or window) is the command line, where you're able to enter co
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* [Conquering the Command Line](http://conqueringthecommandline.com/book/basics) is a comprehensive book about the command line written very recently.  This links to chapter 1, which will be the most helpful to you.
 * See common commands on the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html)
 * If you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check, [ExplainShell.com](http://explainshell.com/) is your solution.
