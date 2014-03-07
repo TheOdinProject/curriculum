@@ -35,7 +35,7 @@ To reflect some of the software development best practices from the industry tod
 
 Before diving in, it's important to have an idea of what Agile is.  There are certainly better links out there, so please suggest them!
 
-1. Watch this [video on Engineering Software as a Service](http://www.youtube.com/watch?v=d0uKY2kLKmk) from Armando Fox and David Patterson of Berkeley.  It covers the whole process of building SAAS from beginning to end.
+1. Watch this [video on Engineering Software as a Service](http://youtu.be/d0uKY2kLKmk?t=6m8s) from Armando Fox and David Patterson of Berkeley.  It covers the whole process of building SAAS from beginning to end.
 1. Watch this [video intro to SCRUM].  We won't be using all these practices in this exact same way, but it's a great intro.  We'll use Pivotal's "Points" system.
 2. Read through this [explanation of SCRUM and XP](http://www.serena.com/docs/repository/solutions/intro-to-agile-devel.pdf).  Don't get too caught up in the flow charts and details, we'll be doing our own thing.
 
