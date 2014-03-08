@@ -40,7 +40,6 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jeffery Garza's Euler solutions](https://github.com/jgarza/odin-project-studies/tree/master/javascript/project_euler)
 * [Afshin Mokhtari's Euler solutions](https://github.com/afshinator/playground/tree/master/EulerProjectSolutions)
 * [Joshua Gorchov's Euler solutions](https://github.com/gorchov/odin/tree/master/projectEuler)
-
 * *Your solutions here...*
 
 ## Additional Resources
