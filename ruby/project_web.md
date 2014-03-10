@@ -100,12 +100,11 @@ Cool!
 6. Now let's crank it up a little bit.  Build the "A Tiny Web Browser" from the same TutorialsPoint article (the first version) and test it out against some existing webpages.  That's basically just the same thing you built before but pointing at the web instead of your `localhost`.
 7. Create an HTML file and save it as `index.html`.  It should look like:
 
-        ```<!DOCTYPE html>
         <html>
           <body>
             <h1>Welcome to the Viking Home Page</h1>
           </body>
-        </html>```
+        </html>
 
 8. Now comes the fun part.  Modify your simple server to take the HTTP request from the browser and, if it is a `GET` request that points to `/index.html`, send back the contents of `index.html`.  
 
