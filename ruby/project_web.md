@@ -115,7 +115,6 @@ Cool!
 9. Modify your simple web browser to send the appropriate GET request to your web server, just like you did earlier with the really simple client/server combo.  Test it out... you should be able to ask for and retrieve the `index.html` file (and `puts` it into the terminal)!  This will require you to remember some of the commands you used to open files.  You should also set it up to identify when you've got back an error code and display the error message.
 8. Build another HTML file called `thanks.html`.  It should look like:
 
-        <!DOCTYPE html>
         <html>
           <body>
             <h1>Thanks for Posting!</h1>
