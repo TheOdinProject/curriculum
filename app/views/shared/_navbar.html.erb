@@ -17,10 +17,10 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong><%= current_user.username %> <b class="caret"></b></strong></a>
                   <ul class="dropdown-menu">
                     <li><%= link_to "Forum", forum_path %></li>
+                    <li><%= link_to "Study Groups", studygroup_path %></li>
                     <li><%= link_to "Students", students_path %></li>
                     <li class="divider"></li>
                     <li><%= link_to "Profile", current_user %></li>
-                    <li><%= link_to "Preferences", edit_user_pref_path %></li>
                     <li><%= link_to "Account", edit_user_registration_path %></li>
                     <li class="divider"></li>
                     <li><%= link_to "Logout", logout_path  %></li>
