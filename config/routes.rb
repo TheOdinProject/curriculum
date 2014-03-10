@@ -38,7 +38,9 @@ devise_for :users, :controllers => { :registrations => "registrations" }
 
   resources :cal_events
 
-  resource :user_pref, :only => [:edit, :update]
+  # This is being hidden until needed (it was needed by the scheduler
+  # but that got killed but will still be useful later)
+  # resource :user_pref, :only => [:edit, :update]
 
   resources :users, :only => [:show, :index, :edit, :update] do
     resource :contact, :only => [:new, :create]
