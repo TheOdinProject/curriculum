@@ -1,5 +1,4 @@
 class StaticPagesController < ApplicationController
-  before_filter :authenticate_user!, :only => :scheduler
 
   def home
     @navbar = false
