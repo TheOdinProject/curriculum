@@ -42,4 +42,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Max Pleaner's solution here: [source code](https://github.com/macsplean/odin2_boxmaker/blob/master/index.html) or [view it in browser](http://htmlpreview.github.io/?https://github.com/macsplean/odin2_boxmaker/blob/master/index.html)
 * See Afshinator's solution here: [source code](https://github.com/afshinator/playground/tree/master/SketchPad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/SketchPad/index.html) 
 * See Paul Dariye's solution here: [source code](https://github.com/pauldd91/theodinproject/tree/master/sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/pauldd91/theodinproject/master/sketch_pad/index.html)
+* See Lamberto Diwa's solution here: [source code](https://github.com/LambertoD/odin_curricullum/blob/master/javascript/js/etch_project.js) or [view it in browser](http://htmlpreview.github.io/?https://github.com/LambertoD/odin_curricullum/blob/master/javascript/index_etch_project.html)
 * *Your solution here...*
