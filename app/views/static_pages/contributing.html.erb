@@ -8,10 +8,39 @@
         <em>just like you</em>. Regardless of your experience, you can contribute... in fact,
         we hope you do! Even if you
         don't feel ready, you can still get involved and observe until you're comfortable. Still
-        not sure? Here are some <a id="reasonsToggle" href="#" data-toggle = "modal">reasons to get
+        not sure? Here are some <a id="reasonsToggle" href="#reasonsModal" data-toggle = "modal">reasons to get
         involved!</a>
       </p>
+      <div id="reasonsModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="reasonsModalLabel" aria-hidden="true">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+          <h3 id="reasonsModalLabel">Contributing</h3>
+        </div>
 
+        <div class="modal-body">
+          <p >The Odin Project is designed around a simple idea- make it easy for you to
+            get started coding! We want to make it easy for newcomers to get into an
+            <em>actual</em> real-world coding environment so you can get the experience
+            you need. <strong>Here's the benefits to you:</strong>
+          </p>
+          <ul>
+            <li><span class='highlight'>Flexibility!</span> You can work on your own time. It's not 9 to 5 so you can
+              get involved when it's convenient for you.</li>
+            <li><span class="highlight">Exposure!</span> Contributors to The Odin Project will be listed on the page
+              and on github, where you can show people your work!</li>
+            <li><span class="highlight">Relevant Training!</span> This is the development that is in demand and
+              happening today.</li>
+            <li><span class="highlight">Job Focus!</span> No matter why you are learning to code, the right skills matter.
+              You'll learn good habits and discipline that will put you at the top.</li>
+            <li><span class="highlight">Community!</span> Meet like-minded people and start building your network now.
+              Find others that can work in your schedule and interests.</li>
+          </ul>
+        </div>
+
+        <div class="modal-footer">
+          <h3>But mostly... it's fun!</h3>
+        </div>
+      </div>
       <p><em>
         This guide will help you get started contributing to the Odin Project website (which you're on now!).
         If you're looking to contribute to the curriculum (for instance to add your solution to one of the projects),
@@ -134,7 +163,7 @@
             As an Advanced Beginner, you have some experience -- probably a few classes,
             books, and tutorials under your belt. You have gaps in your knowledge
             but you know the fundamentals. You should keep working on completing the courses you're
-            unfamiliar with (especially <%= link_to "Rails", lessons_path("ruby-on-rails") %>,
+            unfamiliar with (especially <%= link_to "Rails", lessons_path("ruby-on-rails") %>),
             but it's time to consider taking an active role in the project to really start applying
             what you've learned.
           </p>
@@ -144,7 +173,7 @@
         </div>
       </div>
 
-      <div id="adv-beginner-path" class="role-description collapse">
+      <div id="adv-beginner-path" class="row-fluid collapse">
         <div id="adv-beginner-path-1" class="paths">
           <h3>Contributor</h3>
           <p>
@@ -529,16 +558,74 @@
       </div>
 		</div>
 
-		<div id="onboarding">
-		  <h2>On-Boarding</h2>
-		  <p>
-		    Coming next PR
-		  </p>
-      <h3>PART 1</h3>
+    <div id="onboarding">
+      <h2>On-Boarding</h2>
+      <p>
+        The purpose of on-boarding is for you to get up to speed on the project and how it is
+        managed, as well as familiarize yourself with several of the tools and websites
+        used by the team. You should read the following pages as well as sign up at a few
+        necessary sites, as listed here:
+      </p>
+      <h3 class="center">Part 1</h3>
+      <div id="part-1" class="paths">
+        <p>
+          <span class="highlight">The Basics</span>
+        </p>
+        <ul>
+          <li>
+            First, read the <%= link_to "Getting Involved", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md"%> document for a detailed overview and instructions on how to proceed. Don't worry if it doesn't all make sense just yet-
+            it's enough for now to get some exposure.
+          </li>
+          <li>
+            Set up a <%= link_to "Github", "http://github.com"%> account if you haven't yet
+          </li>
+          <li>
+            Set up an account on <%= link_to "Pivotal Tracker", "http://pivotaltracker.com"%> and check out <%= link_to "The Odin Project", "https://www.pivotaltracker.com/s/projects/979092" %>
+          </li>
+          <li>
+            There are a growing number of online development environments (called an IDE for <em>integrated development environment</em>) that are very easy to use to get started. The Odin project often uses <%= link_to "Nitrous.io", "https://www.nitrous.io/"%>. Create an account here and try it out!
+          </li>
+          <li>
+            Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %>
+          </li>
+        </ul>
+      </div>
 
-      <h3>PART 2</h3>
+      <h3 class="center">Part 2</h3>
+      <div id="part-2" class="paths">
+        <p>
+          <span class="highlight">The Advanced</span>
+        </p>
+        <ul>
+          <li>
+            Completely go through the <%= link_to "Getting Involved", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md"%> document and make sure you have a firm grasp of the contents. Ask questions in the scrums or in the community if you are unclear on
+            anything.
+          </li>
+          <li>
+            Fork the Odin Project <%= link_to "Repo", "https://github.com/TheOdinProject/theodinproject" %> to
+            your own github account and then clone it locally from there to your local machine (or nitrous box).
+          </li>
+          <li>
+            If working on your own story in Pivotal, fork a branch off your local repo to work on. Give it a
+            relevant name and pair with a partner if you can. You can create a matching branch on your github
+            repo and push up to it from your local branch so your partner can work on it. If you own the story,
+            this is where the code will stay until you have a working feature. See more in the <%= link_to "Getting Involved", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md"%> document.
+          </li>
+          <li>
+            Many people working in open source software work on Macs or linux. On Windows, a VM (virtual
+            machine) running Linux is probably best. Setting up a VM running Linux and learning some basic
+            BASH command line skills will prove very useful. You can follow the instructions for setting up
+            a VM running Ubuntu at the book site for the Berkeley 169.x course <%= link_to "here", "http://beta.saasbook.info/bookware-vm-instructions"%>. (The course is highly recommended once you have
+            gotten up to speed, see 'Advanced Beginner' section above).
+          </li>
+          <li>
+            Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %> and start contributing!
+          </li>
+        </ul>
+      </div>
 
-		</div>
+      </div>
+    </div>
 
 
 		  <h2>CONTACT</h2>

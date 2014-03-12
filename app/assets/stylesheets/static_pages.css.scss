@@ -583,7 +583,27 @@
     color:$highlight_orange;
     font-weight:normal;
   }
+  .center{
+    margin: auto;
+    text-align: center;
+  }
+
+  #reasonsModal {
+    .modal-header .modal-footer {
+      height: 55px;
+      padding: 5px 20px;
+      background-color: #a1a1a1;
+    }
+    .modal-body {
+      padding:5px 15px;
+      margin:10px 20px;
+      font-size:.75em;
+      font-weight:300;
+    }
+  }
 }
+
+
 
 #studygroup {
   
