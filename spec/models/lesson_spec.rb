@@ -22,7 +22,9 @@ describe Lesson do
   # Associations
   it { should respond_to(:course) }
   it { should respond_to(:section) }
-
+  it { should respond_to(:completing_users) }
+  it { should respond_to(:lesson_completions) }
+  
   it { should be_valid }
 
   it "shouldn't allow duplicate positions" do
@@ -30,6 +32,10 @@ describe Lesson do
     l2.section_id = section.id
     l2.save
     subject.should_not be_valid
+  end
+  
+  it "should have no completing users yet" do
+    expect(subject.completing_users).to be_empty
   end
 
 end

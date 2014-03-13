@@ -25,13 +25,6 @@ describe "Authentication" do
       end
     end
 
-    context "from the scheduler page" do
-      before do
-        visit scheduler_path
-      end
-      it { should have_link "Sign up" }
-    end
-
     context "from the home page" do
     
       before { visit home_path }

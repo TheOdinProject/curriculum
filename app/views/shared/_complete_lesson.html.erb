@@ -1,0 +1,47 @@
+<!--
+This partial displays the section at the bottom of the page where a user can mark
+a lesson completed or not completed.  It will also be rendered with the unobtrusive
+javscript that is used with the AJAX form which allows the user to do the checking
+and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+  
+  <% if user_signed_in? %>
+  
+    <% if current_user.completed_lesson?(@lesson) %>
+
+      <div class="checkbox-container lc-checked">
+
+        <h3>
+          <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
+        </h3>
+      </div>  
+      <%= form_tag lesson_completion_path(:lesson_id => @lesson.id), :method => "DELETE", :remote => true, :class => "lc-link-form" do %>
+        <%= link_to "Change #{@lesson.is_project ? 'project' : 'lesson'} to not completed", "#", :class => "lc-uncomplete-link" %>
+      <% end %>
+    <% else %>
+
+      <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
+        <a href="#" class="checkbox-container lc-unchecked">
+          <%= hidden_field_tag(:lesson_id, @lesson.id) %>
+          <h3>
+            Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
+          </h3>
+        </a>
+      <% end %>
+
+    <% end %>
+  
+  <% else %>
+
+      <div class="checkbox-container lc-disabled">            
+          <h3>
+            Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
+          </h3>
+      </div>
+
+    <%= link_to "Sign in to track your progress", login_path, :class => "lc-signin-link" %> 
+  <% end %>
+<div class="lc-hover"></div>
+<div class="lc-waiting"></div>
