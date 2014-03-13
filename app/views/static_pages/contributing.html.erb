@@ -14,7 +14,7 @@
       <div id="reasonsModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="reasonsModalLabel" aria-hidden="true">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-          <h3 id="reasonsModalLabel">Contributing</h3>
+          <h3 id="reasonsModalLabel">Reasons to get involved</h3>
         </div>
 
         <div class="modal-body">
@@ -24,15 +24,15 @@
             you need. <strong>Here's the benefits to you:</strong>
           </p>
           <ul>
-            <li><span class='highlight'>Flexibility!</span> You can work on your own time. It's not 9 to 5 so you can
+            <li><span class='highlight'>Flexibility--</span> You can work on your own time. It's not 9 to 5 so you can
               get involved when it's convenient for you.</li>
-            <li><span class="highlight">Exposure!</span> Contributors to The Odin Project will be listed on the page
-              and on github, where you can show people your work!</li>
-            <li><span class="highlight">Relevant Training!</span> This is the development that is in demand and
+            <li><span class="highlight">Exposure--</span> Contributors to The Odin Project will be listed on the page
+              and on Github, where you can show people your work!</li>
+            <li><span class="highlight">Relevant Training--</span> This is the development that is in demand and
               happening today.</li>
-            <li><span class="highlight">Job Focus!</span> No matter why you are learning to code, the right skills matter.
+            <li><span class="highlight">Job Focus--</span> No matter why you are learning to code, the right skills matter.
               You'll learn good habits and discipline that will put you at the top.</li>
-            <li><span class="highlight">Community!</span> Meet like-minded people and start building your network now.
+            <li><span class="highlight">Community--</span> Meet like-minded people and start building your network now.
               Find others that can work in your schedule and interests.</li>
           </ul>
         </div>
@@ -41,9 +41,9 @@
           <h3>But mostly... it's fun!</h3>
         </div>
       </div>
-      <p><em>
+      <p class="light-emphasis"><em>
         This guide will help you get started contributing to the Odin Project website (which you're on now!).
-        If you're looking to contribute to the curriculum (for instance to add your solution to one of the projects),
+        If you're looking to contribute to the <strong>**curriculum**</strong> (for instance to add your solution to one of the projects),
         <a href="https://github.com/TheOdinProject/curriculum/blob/master/contributing.md">check out the
         instructions posted here</a> instead.
       </em></p>
@@ -57,7 +57,7 @@
 
     <div id="newbie" class="container">
       <div class="row-fluid skill-header">
-        <div class="span2">
+        <div class="span2 star">
           <%=image_tag "icons/star_newbie_sm.png", title: "Advanced Beginner"%>
         </div>
         <div class="span10">
@@ -73,7 +73,7 @@
         </div>
       </div>
 
-      <div id="newbie-path" class="role-description collapse">
+      <div id="newbie-path" class="row-fluid collapse">
         <div id="newbie-path-1" class="paths">
           <h3>Student/Observer</h3>
           <p>
@@ -130,7 +130,7 @@
               and say hi in one of our regular SCRUM meetings.
             </li>
             <li>
-              Sit in on pairing sessions or watch the videos to identify areas that need help.
+              Sit in on pairing sessions or <%= link_to "watch the videos", "https://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ"%> to identify areas that need help.
             </li>
             <li>
               Keep working through the <%= link_to "curriculum", curriculum_path %>!
@@ -154,7 +154,7 @@
 
 		<div id="advanced-beginner" class="container">
 		  <div class="row-fluid skill-header">
-		    <div class="span2">
+		    <div class="span2 star">
 		      <%=image_tag "icons/star_adv_beginner_sm.png", title: "Advanced Beginner"%>
 		    </div>
 		    <div class="span10">
@@ -234,7 +234,7 @@
               <%= link_to "Community", "https://plus.google.com/communities/100013596437379837846" %>.
             </li>
             <li>
-              When you've completed the story, submit a pull request and present it through at the next SCRUM!
+              When you've completed the story, submit a pull request and present it at the next SCRUM!
             </li>
           </ol>
           <h4>The Next Step</h4>
@@ -285,8 +285,9 @@
               or working continuously with the project in a PM role for 6 weeks.
             </li>
             <li>
-              Graduate to the <span class="highlight">Project Manager Role</span> once you've earned both
-              your <span class="highlight">Story Owner</span> and <span class="highlight">Feature Owner</span> badges.
+              You can continue to gain experience working in the <span class="highlight">Project Manager Role</span>. Start
+              looking into the <span class="highlight">Experienced Engineer</span> paths for your next challenge when you
+              feel ready.
             </li>
           </ul>
         </div>
@@ -295,7 +296,7 @@
 
 		<div id="experienced-engineer" class="container">
 		  <div class="row-fluid skill-header">
-		    <div class="span2">
+		    <div class="span2 star">
 		      <%=image_tag "icons/star_engineer_sm.png", title: "Experienced Engineer"%>
 		    </div>
 		    <div class="span10">
@@ -327,13 +328,13 @@
             <li>
               Help guide other coders during group coding sessions (
               <%= link_to "see the Community", "https://plus.google.com/communities/100013596437379837846" %>
-              for details).
+              and attend any regular SCRUM session for details).
             </li>
             <li>
               Perform code reviews for pull requests -- which is extremely helpful for beginners!
             </li>
             <li>
-              Take on any of the above-mentioned roles to demonstrate best practices by doing.
+              Demonstrate best practices by taking on any of the roles in the Advanced Beginner section above.
             </li>
           </ol>
           <h4>The Next Step</h4>
@@ -429,7 +430,7 @@
 
 		<div id="nontechnical" class="container">
 		  <div class="row-fluid skill-header">
-		    <div class="span2 text-center">
+		    <div class="span2 star">
 		      <%=image_tag "icons/star_non_technical_sm.png", title: "Beginner"%>
 		    </div>
 		    <div class="span10">
@@ -465,7 +466,7 @@
               section if you haven't yet.
             </li>
             <li>
-              Attend the SCRUM meetings and get involved in the community
+              Attend the SCRUM meetings and get involved in the <%= link_to "community", "https://plus.google.com/communities/100013596437379837846" %>
               to see where you can contribute.
             </li>
             <li>
@@ -505,7 +506,7 @@
             </li>
             <li>
               Attend the regular SCRUM meetings and get involved
-              in the community to see where you can contribute.
+              in the <%= link_to "community", "https://plus.google.com/communities/100013596437379837846" %> to see where you can contribute.
             </li>
             <li>
               Spread the word about the project and advise
@@ -561,15 +562,14 @@
     <div id="onboarding">
       <h2>On-Boarding</h2>
       <p>
-        The purpose of on-boarding is for you to get up to speed on the project and how it is
-        managed, as well as familiarize yourself with several of the tools and websites
-        used by the team. You should read the following pages as well as sign up at a few
-        necessary sites, as listed here:
+        The purpose of on-boarding is to get you up to speed on the project and how it is
+        managed. You will need to familiarize yourself with the tools and websites
+        used by the team. The following instructions will guide you through part 1 and part 2 of the setup:
       </p>
-      <h3 class="center">Part 1</h3>
+      <h3 class="center">Part 1: The Basics</h3>
       <div id="part-1" class="paths">
         <p>
-          <span class="highlight">The Basics</span>
+          <span class="highlight">Basic Setup</span>
         </p>
         <ul>
           <li>
@@ -583,7 +583,7 @@
             Set up an account on <%= link_to "Pivotal Tracker", "http://pivotaltracker.com"%> and check out <%= link_to "The Odin Project", "https://www.pivotaltracker.com/s/projects/979092" %>
           </li>
           <li>
-            There are a growing number of online development environments (called an IDE for <em>integrated development environment</em>) that are very easy to use to get started. The Odin project often uses <%= link_to "Nitrous.io", "https://www.nitrous.io/"%>. Create an account here and try it out!
+            There are a growing number of online development environments (called an IDE for <em>integrated development environment</em>) that are very easy to use to get started. The Odin project often uses <%= link_to "Nitrous.io", "https://www.nitrous.io/join/Nex2i3R7Vyc?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral"%>. Create an account here and try it out!
           </li>
           <li>
             Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %>
@@ -591,39 +591,41 @@
         </ul>
       </div>
 
-      <h3 class="center">Part 2</h3>
+      <h3 class="center">Part 2: The Details</h3>
       <div id="part-2" class="paths">
         <p>
-          <span class="highlight">The Advanced</span>
+          <span class="highlight">Advanced Setup</span>
         </p>
         <ul>
           <li>
-            Completely go through the <%= link_to "Getting Involved", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md"%> document and make sure you have a firm grasp of the contents. Ask questions in the scrums or in the community if you are unclear on
+            Completely go through the <%= link_to "Getting Involved", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md"%> document and make sure you have a firm grasp of the contents. Ask questions in the SCRUMs or in the community if you are unclear on
             anything.
           </li>
           <li>
             Fork the Odin Project <%= link_to "Repo", "https://github.com/TheOdinProject/theodinproject" %> to
-            your own github account and then clone it locally from there to your local machine (or nitrous box).
+            your own Github account and then clone it from there to your local machine (or Nitrous box).
           </li>
           <li>
-            If working on your own story in Pivotal, fork a branch off your local repo to work on. Give it a
-            relevant name and pair with a partner if you can. You can create a matching branch on your github
+            If working on your own story in <%= link_to "Pivotal Tracker", "http://pivotaltracker.com"%>, fork a branch
+            off your local repo to work on. Give it a
+            relevant name and pair with a partner if you can. You can create a matching branch on your Github
             repo and push up to it from your local branch so your partner can work on it. If you own the story,
-            this is where the code will stay until you have a working feature. See more in the <%= link_to "Getting Involved", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md"%> document.
+            this is where the code will stay until you have a working feature. The <%= link_to "Getting Involved", "https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md"%> document contains detailed instructions.
           </li>
           <li>
-            Many people working in open source software work on Macs or linux. On Windows, a VM (virtual
+            Many people working in open source software work on Mac or linux. On Windows, a VM (virtual
             machine) running Linux is probably best. Setting up a VM running Linux and learning some basic
             BASH command line skills will prove very useful. You can follow the instructions for setting up
             a VM running Ubuntu at the book site for the Berkeley 169.x course <%= link_to "here", "http://beta.saasbook.info/bookware-vm-instructions"%>. (The course is highly recommended once you have
             gotten up to speed, see 'Advanced Beginner' section above).
           </li>
           <li>
+            For detailed instructions on setting up various environments, you can also see the <%= link_to "project readme", "https://github.com/TheOdinProject/theodinproject/blob/master/README.md" %>.
+          </li>
+          <li>
             Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %> and start contributing!
           </li>
         </ul>
-      </div>
-
       </div>
     </div>
 

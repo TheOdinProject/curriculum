@@ -555,11 +555,14 @@
 
   @extend .individual-lesson;
 
+  .star{
+    padding:15px;
+  }
   .paths{
     border: 1px solid $vlight_gray;
     box-shadow: 3px 3px 3px #efefef;
-    padding:5px 15px;
-    margin:10px 50px;
+    padding:30px 30px;
+    margin:10px 50px 30px;
     font-size:.7em;
     font-weight:300;
     border-radius:10px;
@@ -581,11 +584,14 @@
   }
   span.highlight{
     color:$highlight_orange;
-    font-weight:normal;
+    font-weight: normal;
   }
   .center{
     margin: auto;
     text-align: center;
+  }
+  .light-emphasis{
+    color: #aaa;
   }
 
   #reasonsModal {

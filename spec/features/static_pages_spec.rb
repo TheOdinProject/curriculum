@@ -251,9 +251,9 @@ describe "StaticPages" do
         click_link "reasons to get involved!"
       end
 
-      it "shows modal with title 'Contributing'" do
+      it "shows modal with title 'Reasons to get involved'" do
         #wait_for_ajax
-        expect(page).to have_selector("h3", text: "Contributing")
+        expect(page).to have_selector("h3", text: "Reasons to get involved")
       end
     end
 
