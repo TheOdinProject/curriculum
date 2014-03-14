@@ -27,5 +27,5 @@ The journey has just begun!
 
 *If there's anything we should have covered better (or at all), [Email us!](mailto:curriculum@theodinproject.com)*
 
-* [List of freely available textbooks in any language](http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926#392926)
+* [List of freely available textbooks in any language](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
 * *Your resource here...*
