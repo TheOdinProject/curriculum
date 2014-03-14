@@ -30,13 +30,59 @@ describe "StaticPages" do
     end
     before { click_link "Study Group" }
     context "should load when link is clicked" do  
-      it { current_path.should == studygroup_path }   
+      it { current_path.should == studygroup_path } 
     end
     before { visit studygroup_path } 
     context "should contain an h1 title" do  
       it {expect(page).to have_selector("h1", :text => "Web Development Study Group")}
     end  
   end
+
+  describe "contributing page" do
+    before { visit contributing_path }
+
+    it "should have title Contributing to the Project" do
+      expect(page).to have_selector("h1", text: "How to Contribute")
+    end
+
+    context "clicking the reasons link" do
+      before do
+        click_link "reasons to get involved!"
+      end
+
+      it "shows modal with title 'Reasons to get involved'" do
+        #wait_for_ajax
+        expect(page).to have_selector("h3", text: "Reasons to get involved")
+      end
+    end
+
+    context "clicking the 'more' link should show paths", :js => true do
+      before { find("#newbie-path-link").click }
+
+      it "should have title 'The Courses'" do
+        expect(page).to have_selector("h3", text: "Student/Observer")
+      end
+
+      before { find("#adv-beginner-path-link").click }
+
+      it "should have title 'The Courses'" do
+        expect(page).to have_selector("h3", text: "Story Owner")
+      end
+
+      before { find("#engineer-path-link").click }
+
+      it "should have title 'Mentor'" do
+        expect(page).to have_selector("h3", text: "Mentor")
+      end
+
+      before { find("#nontechnical-path-link").click }
+
+      it "should have title 'Designer/UX'" do
+        expect(page).to have_selector("h3", text: "Designer/UX")
+      end
+    end
+  end
+
 
   describe "legal pages" do
     
@@ -91,3 +137,4 @@ describe "StaticPages" do
     end
   end
 end
+

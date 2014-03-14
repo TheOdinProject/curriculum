@@ -486,6 +486,67 @@
   }
 }
 
+
+.contributing{
+
+  @extend .individual-lesson;
+
+  .star{
+    padding:15px;
+  }
+  .paths{
+    border: 1px solid $vlight_gray;
+    box-shadow: 3px 3px 3px #efefef;
+    padding:30px 30px;
+    margin:10px 50px 30px;
+    font-size:.7em;
+    font-weight:300;
+    border-radius:10px;
+
+    h2, h3, h4, h5{
+      margin-top:0px;
+    }
+  }
+  .skill-header{
+    margin-top: 20px;
+
+    h2{
+      margin-top: 24px;
+    }
+  }
+  .more-button{
+    color: $highlight_orange;
+    cursor: pointer;
+  }
+  span.highlight{
+    color:$highlight_orange;
+    font-weight: normal;
+  }
+  .center{
+    margin: auto;
+    text-align: center;
+  }
+  .light-emphasis{
+    color: #aaa;
+  }
+
+  #reasonsModal {
+    .modal-header .modal-footer {
+      height: 55px;
+      padding: 5px 20px;
+      background-color: #a1a1a1;
+    }
+    .modal-body {
+      padding:5px 15px;
+      margin:10px 20px;
+      font-size:.75em;
+      font-weight:300;
+    }
+  }
+}
+
+
+
 #studygroup {
   margin: 0 auto;
   max-width: 920px;
