@@ -286,6 +286,10 @@ Backgrounds are usually ignored until they become a problem and then you're left
 * [Shay Howe on Backgrounds & Gradients](http://learn.shayhowe.com/html-css/backgrounds-gradients)
 * [HTML Goodies' brief guide to backgrounds and gradients](http://www.htmlgoodies.com/tutorials/getting_started/article.php/3866901)
 
+#### Additional Resources
+
+* [Background Patterns and Designs from Awwwards](http://www.awwwards.com/background-patterns-designs-and-resources-for-websites.html)
+
 ### A Lightening Intro to Design and UX Principles
 
 You can't code the front end and ignore design and user experience (UX).  Not everyone is cut out to be an artist and you don't have to be.  But you do have to actually use your design brain a little bit if you want a site your users actually care about visiting.  That doesn't mean just having beautiful graphics, which is a common misconception about design.
