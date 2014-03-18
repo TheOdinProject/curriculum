@@ -1,11 +1,5 @@
 # This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).  THIS IS DESTRUCTIVE!  Meaning, if you look directly below this, it will first remove all existing Lesson, Section and Course data before repopulating from this file.  Just so you're aware.  It's done this way to make this file the official master setup instructions for the courses/lessons layout so any changes to this can just be db:seed'ed right into production.
-
-
-# RESET ALL CURRICULUM-RELATED TABLES
-Lesson.destroy_all
-Section.destroy_all
-Course.destroy_all
+# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup). 
 
 
 # CREATE INTRO TO WEB DEVELOPMENT COURSE
