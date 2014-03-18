@@ -51,3 +51,4 @@ Redo the same Project Euler problems that you previously did in Javascript but u
 * Read [Smashing Magazine's Intro to Ruby article](http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
 * Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet (we'll read it in the later [Ruby course](/courses/ruby-programming/lessons)) but may help you shore up some of the concepts.
 * [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.
+* [Ruby on Rails tutor has free videos that include Ruby](http://rubyonrailstutor.github.io/)

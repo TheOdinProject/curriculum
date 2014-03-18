@@ -69,3 +69,4 @@ So there's a lot left to go but it gets better and better.  Stick with it!
 * [How I Test by Ryan Bates](http://railscasts.com/episodes/275-how-i-test)
 * [Testing series on TDD and intermediate stuff](http://www.rubyfocus.biz/class_video/2010/07/19/rails_tdd_class_1.html)
 * [Why use the `%Q` methods?](http://stackoverflow.com/questions/10144543/what-is-the-use-case-for-rubys-q-q-quoting-methods)
+* [Ruby on Rails Tutor](http://rubyonrailstutor.github.io/) has free videos that highlight specific sections of Rails.
