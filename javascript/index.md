@@ -91,7 +91,7 @@ You should already have completed the [Web Development 101 Javascript lesson](/c
 * [Best Javascript Books](http://www.tripwiremagazine.com/2012/11/best-javascript-jquery-books.html)
 * [Effective Javascript by David Herman](http://effectivejs.com/) is a concise but in-depth look at the concepts and patterns of Javascript.  It's got some great challenge problems as well.
 * [JSNinja by John Resig](http://jsninja.com) covers advanced concepts aimed at the intermediate JS developer
-* Stanford's iTunes U Javascript course ([link to find it here](http://itunes.stanford.edu/content/quickstart.html))
+* Stanford's iTunes U Javascript course ([link to find it here](https://itunes.apple.com/us/itunes-u/advanced-topics-in-web-development/id454017618?mt=10), you'll need iTunes to run it)
 * [SuperheroJS, A great collection of advanced links](http://superherojs.com/)
 * [Javascript-to-Ruby Syntax Comparison Cheat Sheet from AgentCooper](http://agentcooper.github.io/js-ruby-comparison/)
 * ["How I Work: Yahoo!'s Doug Crockford On Javascript" by Jacob Cook via Smashing Magazine](http://coding.smashingmagazine.com/2012/04/27/yahoos-doug-crockford-on-javascript/) provides a soft high level look at some industry questions.
