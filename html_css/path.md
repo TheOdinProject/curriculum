@@ -3,10 +3,15 @@
 1. How This Course Will Work
     introduction.md
 2. HTML5 Basics
+    html5_basics.md
 3. Ordered and Unordered Lists
-4. Links
+    lists.md
+4. Linking
+    links.md
 5. Working with Images, Videos and Other Media
+    images.md
 6. PROJECT: YouTube
+    project_media.md
 6. Tables
 7. Submit Data with Forms
 8. What's New in HTML5
