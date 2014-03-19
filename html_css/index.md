@@ -529,4 +529,5 @@ Speaking of better and brighter things, you are probably chomping at the bit for
 * [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
 * [Equal Height Columns in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2010/11/08/equal-height-columns-using-borders-and-negative-margins-with-css/)
 * [HTML tutorials and help docs](http://www.webplatform.org/)
+* [Awwwards is a great place to go for design inspiration](http://www.awwwards.com/)
 * PS.. "tags" don't really exist, they're always technically called "elements"
