@@ -18,12 +18,17 @@ namespace :curriculum do
       
       if decoded_file 
         snippet_end = decoded_file.index("\n")-1 || 03
-        puts "    Adding content: \"#{decoded_file[0..snippet_end]}\""
-        lesson.content = decoded_file
-        lesson.save!
-        # puts "Added content to the lesson..."
+        if lesson.content == decoded_file
+          puts "    ...No new content."
+        else
+          puts "    Adding content: \"#{decoded_file[0..snippet_end]}\""
+          lesson.content = decoded_file
+          lesson.save!
+          # puts "Added content to the lesson..."
+        end
+        puts
       else
-        puts "\n\n\n FAILED TO ADD CONTENT TO THE LESSON!!!\n\n\n"
+        puts "\n\n\n\n\n\n FAILED TO ADD CONTENT TO THE LESSON!!!\n\n\n\n\n\n"
         raise "Failed to add content to the lesson (tried to add `nil`)!"
       end
     end
