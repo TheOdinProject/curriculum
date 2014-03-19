@@ -12,10 +12,12 @@
     images.md
 6. PROJECT: YouTube
     project_media.md
-6. Tables
+6. Tables in HTML
+    tables.md
 7. Submit Data with Forms
-8. What's New in HTML5
+    html_forms.md
 9. PROJECT: Mint Signup
+8. What's New in HTML5
 
 ## CSS3
 1. CSS3 Basics
@@ -43,4 +45,6 @@
 3. Automatic Build Tools
 4. Conclusion
 
-
+# TODO:
+1. Fix up the add'l resources copy to include the disclaimer
+2. 

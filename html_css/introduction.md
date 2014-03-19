@@ -6,6 +6,8 @@ If you haven't completed it already, the first place to start is the [Web Develo
 
 This course is designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.  Luckily for you, there are an enormous amount of resources available on the web to learn front end development, so if you ever get stuck, Google is your friend.
 
+If you've completed the Ruby on Rails course already, you can safely skip to the CSS3 section.
+
 ## This is a Work In Progress!
 
 This course is currently under construction, which means that the explanations may not be as rich as you're used to from the other courses and some stuff may still be marked "TO-DO".  That said, we teach mostly by showing you the best places to learn a given subject on the internet anyway, and luckily there are tons of great resources out there for learning HTML and CSS.  If you find anything out there which should be included, let us know!

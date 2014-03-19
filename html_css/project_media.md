@@ -1,4 +1,4 @@
-# Project: YouTube
+# Project: Images and Video with YouTube
 
 *Don't forget to use Git to save your projects!*
 
