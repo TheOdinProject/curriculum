@@ -12,7 +12,7 @@ This course is currently under construction, which means that the explanations m
 
 ## Format
 
-There's a lot to cover but it's been broken up into bite-sized lessons and their accompanying projects.  The projects will give you a chance to apply what you've learned and to show what you're capable of.  After a few of them, you'll really start getting the hang of things.
+There's a lot to cover but it's been broken up into bite-sized lessons and their accompanying projects.  The projects will give you a chance to apply what you've learned and to show what you're capable of.  After a few of them, you'll really start getting the hang of things.  If you've already completed the courses for Ruby and Ruby on Rails, you'll find that these lessons go much quicker.
 
 ### In each lesson:
 

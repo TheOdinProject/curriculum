@@ -1,6 +1,7 @@
 
 ## HTML5
 1. How This Course Will Work
+    introduction.md
 2. HTML5 Basics
 3. Ordered and Unordered Lists
 4. Links
