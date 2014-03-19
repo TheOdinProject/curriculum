@@ -199,12 +199,14 @@
     }
   }
   .lessons-list{
+    margin-left: 3em;
+    margin-top: .5em;
   }
 
 
 
   .lesson{
-    width: 46em;
+    width: 43em;
     position: relative;
     display: inline-block;
     h3{
@@ -248,7 +250,7 @@
   }
   .lesson-content{
     // display: inline-block;
-    width: 38em;
+    width: 35em;
     margin: 0 0 0 auto;  
   }
   .description{
