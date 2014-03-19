@@ -57,12 +57,16 @@
 ## Advanced CSS3
 1. CSS Frameworks like Bootstrap and Foundation
     /css_frameworks.md
-2. PROJECT: Design your own Grid-Based Framework
-    /project_css_frameworks.md
+2. PROJECT: Using Bootstrap
+    /project_bootstrap.md
+3. Tweaks, Animations and Compatability
+    /stylings.md
 2. Save Time with Preprocessors
     /preprocessors.md
 3. Automatic Build Tools
     /build_tools.md
+2. PROJECT: Design your own Grid-Based Framework
+    /project_css_frameworks.md
 4. Conclusion
     /conclusion.md
 
