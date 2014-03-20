@@ -14,7 +14,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
     2. Best to put your grid squares inside another "container" div.
-    2. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_install.asp), you can grab it directly in your HTML by adding `<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>` inside your `<head>` tag above any other JS files.
+    2. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_install.asp), you can grab it directly in your HTML by adding `<script src="<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>"></script>` inside your `<head>` tag above any other JS files.
     1. There are several different ways to make the divs appear as a grid (versus just one on each line) -- `float`/`clear`, using a `table`, and `inline-block` displays.  Play with each of them.
     2. Careful with your border or margins... they'll add size to the squares!
     3. "OMFG, Why isn't my grid being created???"
@@ -44,4 +44,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Paul Dariye's solution here: [source code](https://github.com/pauldd91/theodinproject/tree/master/sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/pauldd91/theodinproject/master/sketch_pad/index.html)
 * See Lamberto Diwa's solution here: [source code](https://github.com/LambertoD/odin_curricullum/blob/master/javascript/js/etch_project.js) or [view it in browser](http://htmlpreview.github.io/?https://github.com/LambertoD/odin_curricullum/blob/master/javascript/index_etch_project.html)
 * See Marina Drigo's solution here: [source code](https://github.com/mousterian/OdinProject/tree/master/Project1_2_javascript_jquery) or [view it in browser](http://htmlpreview.github.io/?https://github.com/mousterian/OdinProject/blob/master/Project1_2_javascript_jquery/index.html)
+* See Aniruddh Agarwal's solution here: [source code](https://github.com/aniruddhagarwal/odin-projects/tree/master/js-project) or [view it in browser](http://htmlpreview.github.io/?https://github.com/aniruddhagarwal/odin-projects/blob/master/js-project/index.html)
 * *Your solution here...*
