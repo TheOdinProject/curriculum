@@ -5,16 +5,15 @@
 # You will have problems if you try to change the titles of courses/sections/lessons, since that's currently what's used to uniquely identify them!
 # *********************
 
-# Necessary Seeds changes:
-# 2. Do update the position attributes of courses if one is added to the mix
-# 3. So basically, set up the lesson's attributes hash, add that to the global listing of lessons, cycle through after all are added and search for the lesson, if it exists (in that course's lessons!) then do an update attributes, if not do a create.
-# TESTING: lesson complete every single one, then run the migration, then double check them in TEST.
+
 
 # Just throw all the positions into the stratosphere to avoid the annoyance of having to not duplicate them when updating lessons
 incrementer = 1000
 Course.all.each { |c| c.update_attribute(:position, c.position + incrementer)}
 Section.all.each { |s| s.update_attribute(:position, s.position + incrementer)}
 Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
+
+
 
 def create_or_update_course(course_attrs)
   course = Course.where(:title => course_attrs[:title]).first 
@@ -28,7 +27,6 @@ def create_or_update_course(course_attrs)
   return course
 end
 
-# FIX ME: I need to be course-specific
 def create_or_update_section(section_attrs)
   section = Section.where(:title => section_attrs[:title], :course_id => section_attrs[:course_id]).first 
   if section.nil?
@@ -41,16 +39,8 @@ def create_or_update_section(section_attrs)
   return section
 end
 
-# FIX ME: I need to be section-specific
 def create_or_update_lesson(lesson_attrs)
   lesson = Lesson.where(:title => lesson_attrs[:title], :section_id => lesson_attrs[:section_id]).first 
-
-  # If there's a different lesson with a conflicting position, bump it
-  # conflicting_lesson = Lesson.where(:position => lesson_attrs[:position]).first
-  # if conflicting_lesson != nil && conflicting_lesson != lesson
-  #   puts "There's a lesson with a conflicting position..."
-  #   increment_position(conflicting_lesson, target_pos + 1)
-  # end
 
   # Need to create a new lesson!
   if lesson.nil?
@@ -64,23 +54,6 @@ def create_or_update_lesson(lesson_attrs)
   end
   return lesson
 end
-
-# recursively increments the positions of any objects that would conflict with the position of the current object we're trying to save (since there is a no duplication constraint)
-# def increment_position(some_obj, target_pos)
-#   conflicting_obj = some_obj.class.where(:position => target_pos).first
-
-#   # Base case: No conflict so we can increment our position
-#   unless conflicting_obj.nil?
-#     puts "going deeper..."
-#     increment_position(conflicting_obj,target_pos + 1)
-#   end
-#   some_obj.update_attribute(:position, target_pos)
-#   puts "Updated #{some_obj.title} pos to #{target_pos}!"
-# end
-
-
-
-
 
 
 
