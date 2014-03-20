@@ -23,6 +23,7 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'legal' => "static_pages#legal"
   get 'cla' => "static_pages#cla"
   get 'tou' => "static_pages#tou"
+  get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
 
   # Note: This will block any additional URL paths! Good for a while
   # while people are rediscovering /curriculum but then will need
