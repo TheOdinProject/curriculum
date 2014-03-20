@@ -83,7 +83,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Jeffery Garza's solution here](https://github.com/jgarza/odin-project-studies/tree/master/html_css/google_project1) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jgarza/odin-project-studies/blob/master/html_css/google_project1/index.html).
 * See [Jeffery Garza's 'difficult' solution here](https://github.com/jgarza/odin-project-studies/tree/master/html_css/google_project2) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jgarza/odin-project-studies/blob/master/html_css/google_project2/index.html).
 * See [Ricky Walker's solution here](https://github.com/Rwalk45/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Rwalk45/google-homepage/blob/master/index.html).
-* See [Aniruddh Agarwal's solution here](https://github.com/aniruddhagarwal/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/aniruddhagarwal/google-homepage/blob/master/index.html).
+* See [Aniruddh Agarwal's solution here](https://github.com/aniruddhagarwal/odin-projects/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/aniruddhagarwal/odin-projects/blob/master/google-homepage/index.html).
 * *Your solution here...*
 
 ## Additional Resources
