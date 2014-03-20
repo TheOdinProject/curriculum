@@ -10,8 +10,11 @@
 # 3. So basically, set up the lesson's attributes hash, add that to the global listing of lessons, cycle through after all are added and search for the lesson, if it exists (in that course's lessons!) then do an update attributes, if not do a create.
 # TESTING: lesson complete every single one, then run the migration, then double check them in TEST.
 
-
-
+# Just throw all the positions into the stratosphere to avoid the annoyance of having to not duplicate them when updating lessons
+incrementer = 1000
+Course.all.each { |c| c.update_attribute(:position, c.position + incrementer)}
+Section.all.each { |s| s.update_attribute(:position, s.position + incrementer)}
+Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
 
 def create_or_update_course(course_attrs)
   course = Course.where(:title => course_attrs[:title]).first 
@@ -41,15 +44,39 @@ end
 # FIX ME: I need to be section-specific
 def create_or_update_lesson(lesson_attrs)
   lesson = Lesson.where(:title => lesson_attrs[:title], :section_id => lesson_attrs[:section_id]).first 
+
+  # If there's a different lesson with a conflicting position, bump it
+  # conflicting_lesson = Lesson.where(:position => lesson_attrs[:position]).first
+  # if conflicting_lesson != nil && conflicting_lesson != lesson
+  #   puts "There's a lesson with a conflicting position..."
+  #   increment_position(conflicting_lesson, target_pos + 1)
+  # end
+
+  # Need to create a new lesson!
   if lesson.nil?
     lesson = Lesson.create!(lesson_attrs)
     puts ">>>> Created new lesson: #{lesson_attrs[:title]}!"
+
+  # Just need to update our lesson's attributes
   else
     lesson.update_attributes(lesson_attrs)
     puts "Updated existing lesson: #{lesson_attrs[:title]}"
   end
   return lesson
 end
+
+# recursively increments the positions of any objects that would conflict with the position of the current object we're trying to save (since there is a no duplication constraint)
+# def increment_position(some_obj, target_pos)
+#   conflicting_obj = some_obj.class.where(:position => target_pos).first
+
+#   # Base case: No conflict so we can increment our position
+#   unless conflicting_obj.nil?
+#     puts "going deeper..."
+#     increment_position(conflicting_obj,target_pos + 1)
+#   end
+#   some_obj.update_attribute(:position, target_pos)
+#   puts "Updated #{some_obj.title} pos to #{target_pos}!"
+# end
 
 
 
@@ -283,7 +310,7 @@ create_or_update_lesson(
     :title_url => "Introduction to the Front End".parameterize,
     :description => "An overview of what exactly the 'Front End' is", 
     :position => lesson_counter, 
-    :section_id => course.id, 
+    :section_id => section.id, 
     :is_project => false, 
     :url => "/web_development_101/introduction_to_the_front_end.md"
   )
@@ -293,7 +320,7 @@ create_or_update_lesson(
     :title_url => "HTML and CSS Basics".parameterize,
     :description => "You'll learn all about how to build and style webpages with HTML and CSS", 
     :position => lesson_counter, 
-    :section_id => course.id, 
+    :section_id => section.id, 
     :is_project => false, 
     :url => "/web_development_101/html_css_basics.md"
   )
@@ -303,7 +330,7 @@ create_or_update_lesson(
     :title_url => "HTML/CSS".parameterize,
     :description => "It's time to put your knowledge to work in the Wild.  Go forth and build!", 
     :position => lesson_counter, 
-    :section_id => course.id, 
+    :section_id => section.id, 
     :is_project => true, 
     :url => "/web_development_101/project_html_css.md"
   )
@@ -313,7 +340,7 @@ create_or_update_lesson(
     :title_url => "Javascript Basics".parameterize,
     :description => "You'll get a chance to start picking up the programming fundamentals you need to make your webpages dynamic", 
     :position => lesson_counter, 
-    :section_id => course.id, 
+    :section_id => section.id, 
     :is_project => false, 
     :url => "/web_development_101/javascript_basics.md"
   )
@@ -323,7 +350,7 @@ create_or_update_lesson(
     :title_url => "jQuery Basics".parameterize,
     :description => "You'll learn how to take your Javascript knowledge and seamlessly integrate it with webpages using the magic of jQuery", 
     :position => lesson_counter, 
-    :section_id => course.id, 
+    :section_id => section.id, 
     :is_project => false, 
     :url => "/web_development_101/jquery_basics.md"
   )
@@ -333,7 +360,7 @@ create_or_update_lesson(
     :title_url => "Javascript and jQuery".parameterize,
     :description => "Think 'Etch-a-Sketch' with a bit of Funk.", 
     :position => lesson_counter, 
-    :section_id => course.id, 
+    :section_id => section.id, 
     :is_project => true, 
     :url => "/web_development_101/project_js_jquery.md"
   )
@@ -1386,7 +1413,7 @@ puts "\n\n***** STARTING COURSE: HTML/CSS *****"
 
 course_position += 1
 course = create_or_update_course(
-  :title => "HTML5 and CSS3 Resources",
+  :title => "HTML5 and CSS3",
   :title_url => "HTML5 and CSS3".parameterize,
   :teaser => "Make Your Sites Actually Look Good",
   :brief_desc => "Now that you're a pro in building website back ends, it's time to take a good hard look at the front end so your sites will stop looking like ugly ducklings and you can really begin to understand the DOM.  This shorter course will give you the tools to stop fighting with your CSS and start building more logically designed sites.",
@@ -1406,23 +1433,360 @@ course = create_or_update_course(
 
 section_position += 1
 section = create_or_update_section(
-    :title => "Suggested Path", 
-    :title_url => "Resources".parameterize, 
+    :title => "HTML5", 
+    :title_url => "HTML5".parameterize, 
     :course_id => course.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of the best resources out there and a clear path through them."
+    :description => "In this section, we'll cover the whole range of HTML5 so you'll be completely comfortable with putting the right elements in the right places on a page."
   )
 
 
 lesson_counter += 1
 create_or_update_lesson(   
-    :title => "The Best Free Resources for Learning HTML and CSS", 
-    :title_url => "HTML and CSS Resources".parameterize,
-    :description => "A listing of the best free resources out there for learning HTML and CSS and a disciplined approach to working your way through them", 
+    :title => "How This Course Will Work", 
+    :title_url => "How This Course Will Work".parameterize,
+    :description => "", 
     :position => lesson_counter, 
     :section_id => section.id, 
     :is_project => false, 
-    :url => "/html_css/index.md"
+    :url => "/html_css/introduction.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "HTML5 Basics", 
+    :title_url => "HTML5 Basics".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/html5_basics.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Ordered and Unordered Lists", 
+    :title_url => "Ordered and Unordered Lists".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/lists.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Linking Internal and External Pages", 
+    :title_url => "Linking Internal and External Pages".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/links.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Working with Images, Video and Other Media", 
+    :title_url => "Working with Images, Video and Other Media".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/images.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Embedding Images and Video", 
+    :title_url => "Embedding Images and Video".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_media.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Tables in HTML", 
+    :title_url => "Tables in HTML".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/tables.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Forms for Collecting Data", 
+    :title_url => "Forms for Collecting Data".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/html_forms.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "HTML Forms", 
+    :title_url => "HTML Forms".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_html_forms.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "What's New in HTML5", 
+    :title_url => "What's New in HTML5".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/new_html5.md"
+  )
+
+
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+    :title => "CSS3", 
+    :title_url => "CSS3".parameterize, 
+    :course_id => course.id, 
+    :position => section_position, 
+    :description => "Here we'll cover each of the foundational CSS concepts in greater depth than you probably have before."
+  )
+
+
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "CSS3 Basics", 
+    :title_url => "CSS3 Basics".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/css3_basics.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "The Box Model", 
+    :title_url => "The Box Model".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/box_model.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Floats and Positioning", 
+    :title_url => "Floats and Positioning".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/floats_positioning.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Positioning and Floating Elements", 
+    :title_url => "Positioning and Floating Elements".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_positioning.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Best Practices", 
+    :title_url => "Best Practices".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/best_practices.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Backgrounds and Gradients", 
+    :title_url => "Backgrounds and Gradients".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/backgrounds.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Building with Backgrounds and Gradients", 
+    :title_url => "Building with Backgrounds and Gradients".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_backgrounds.md"
+  )
+
+
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+    :title => "Design and UX", 
+    :title_url => "Design and UX".parameterize, 
+    :course_id => course.id, 
+    :position => section_position, 
+    :description => "If you want to make your websites stop looking like they came from the 1990's, you'll need to gain an understanding for at least the best practices of design and User Experience (UX)."
+  )
+
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Introduction to Design and UX", 
+    :title_url => "Introduction to Design and UX".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/design_ux.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Fonts and Typography", 
+    :title_url => "Fonts and Typography".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/typography.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "CSS Grids", 
+    :title_url => "CSS Grids".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/css_grids.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Design Teardown", 
+    :title_url => "Design Teardown".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_design.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Responsive Design", 
+    :title_url => "Responsive Design".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/responsive_design.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Building with Responsive Design", 
+    :title_url => "Building with Responsive Design".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_responsive.md"
+  )
+
+
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+    :title => "Advanced CSS3", 
+    :title_url => "Advanced CSS3".parameterize, 
+    :course_id => course.id, 
+    :position => section_position, 
+    :description => "We'll take you beyond the basics of CSS and into the tools which will make your life much easier when you're building websites, including the use of frameworks like Twitter Bootstrap and preprocessors like SASS to save time and reduce repetition in your code."
+  )
+
+
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "CSS Frameworks like Bootstrap and Foundation", 
+    :title_url => "CSS Frameworks like Bootstrap and Foundation".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/css_frameworks.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Using Bootstrap", 
+    :title_url => "Using Bootstrap".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_bootstrap.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Animations, Subtle Effects and Compatibility", 
+    :title_url => "Animations, Subtle Effects and Compatibility".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/stylings.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Using CSS Preprocessors to Save Time", 
+    :title_url => "Using CSS Preprocessors to Save Time".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/preprocessors.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Automatic Build Tools like Grunt", 
+    :title_url => "Automatic Build Tools like Grunt".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/build_tools.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Design Your Own Grid-Based Framework", 
+    :title_url => "Design Your Own Grid-Based Framework".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/html_css/project_css_frameworks.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Conclusion", 
+    :title_url => "Conclusion".parameterize,
+    :description => "", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/html_css/conclusion.md"
   )
 
 
@@ -1496,7 +1860,6 @@ create_or_update_lesson(
 
 
 
-
 # ************************************************
 # CREATE GETTING HIRED COURSE
 # ************************************************
@@ -1547,3 +1910,11 @@ create_or_update_lesson(
 
 
 
+
+
+
+
+
+
+puts "\n\n\n#{course_position} courses, #{section_position} sections and #{lesson_counter} lessons dealt with here."
+puts"#{Course.count} courses, #{Section.count} sections and #{Lesson.count} lessons in the database.\n\n\n"
