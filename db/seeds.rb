@@ -1,174 +1,23 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup). 
 
+# ******* NOTE ********
+# You will have problems if you try to change the titles of courses/sections/lessons, since that's currently what's used to uniquely identify them!
+# *********************
+
 # Necessary Seeds changes:
-# 1. Don't create a new course if it already exists
 # 2. Do update the position attributes of courses if one is added to the mix
 # 3. So basically, set up the lesson's attributes hash, add that to the global listing of lessons, cycle through after all are added and search for the lesson, if it exists (in that course's lessons!) then do an update attributes, if not do a create.
 # TESTING: lesson complete every single one, then run the migration, then double check them in TEST.
 
 
-# sections = []
-# lessons = []
 
-# # Will cycle through all courses here and, if they exist, will
-# # modify their attributes with the current listing, otherwise 
-# # will create a new course
-# def create_or_modify_courses
-#   courses.each do |course_attrs|
-#     existing_course = Course.where(:title => course_attrs[:title]).first
-#     if existing_course
-#       existing_course.update_attributes(course_attrs)
-#       puts "Updated course #{course_attrs[:title]}"
-#     else
-#       Course.create(course)
-#       puts "Created new course #{course_attrs[:title]}"
-#     end
-#   end
-# end
-
-# # Returns an array containing a hash of attributes for each course
-# # NOTE: Does not include the necessary position attribute
-# def courses
-#   courses = []
-
-#   # Introduction to Web Development
-#   courses << {
-#     :attrs => {
-#       :title => "Introduction to Web Development",
-#       :title_url => "Introduction to Web Development".parameterize,
-#       :teaser => "Start Here!",
-#       :brief_desc => "This course will start from zero, answering the basic questions people have about the actual practice and career of web development.  You'll gain a much better understanding of what you're about to get into!",
-#       :description => "This short course is about answering the basic questions people have about the actual practice and career of web development. Because, let's be honest, even if you've got a strong feeling that you like building things and web development is the right path for you, you still probably don't have a great idea of what developers actually do... and that's where everyone starts so it's okay.",
-#       :you_learn => ["What a web developer really does", "The tools of the trade", "How to get hired as a web developer"],
-#       :you_build => ["Hold on, you'll be building soon!"],
-#       :is_active => true,
-#     },
-#     :sections => {
-
-#     }
-
-#   # Web Development 101
-#   courses << {
-#     :title => "Web Development 101",
-#     :title_url => "Web Development 101".parameterize,
-#     :teaser => "A Healthy Dose of Everything",
-#     :brief_desc => "This course is for anyone who is either starting from scratch or who isn't entirely comfortable with their understanding of the command line, HTML, CSS, Javascript, Ruby, web frameworks, Git, or other foundational technologies of web development.  We cover a LOT of ground -- by the end of this comprehensive course, you'll be well prepared to take on our deep dive courses or explore further on your own.",
-#     :description => "Now that you know what web developers do, it's time to start thinking about how they actually do it. In this course, you'll learn the foundational concepts of web programming. By the end, you will be able to build a simple webpage, style it, and add elements of interactivity while working comfortably from the command line.  You will be comfortable with basic scripting in Ruby and Javascript as well as more unfamiliar things like Git and databases.  We will cover a lot of knowledge and you'll be able to get your hands dirty with all the topics that we're going to learn in the deep-dive courses that follow.",
-#     :you_learn => ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databases and Git"],
-#     :you_build => ["Google's homepage in HTML/CSS","A dynamic sketchpad with JS/jQuery","A series of test-first Ruby challenges"],
-#     :is_active => true,
-#   }
-
-#   # Ruby Programming
-#   course_position += 1
-#   courses << {
-#     :title => "Ruby Programming",
-#     :title_url => "Ruby Programming".parameterize,
-#     :teaser => "Become a True Rubyist",
-#     :brief_desc => "Once you've completed Web Development 101, this course will take you deep into the wonderful world of Ruby.  You'll learn a combination of programming fundamentals and best practices and you will get the chance to build a variety of different projects along the way.",
-#     :description => "In this course you will learn Ruby, the language designed specifically with programmer happiness in mind. By the end of it all, you'll have built some pretty sweet projects including Tic Tac Toe, Hangman, a real web server, and even Chess. You'll be able to put together a Twitter spambot (that really spams!), save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems. Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.",
-#     :position => course_position,
-#     :you_learn => ["How to write clean, effective, modular code","Working with files and scripts", "Basic algorithms and data structures"],
-#     :you_build => ["TicTacToe, Mastermind, and Hangman", "A command line server and browser","Chess (seriously)"],
-#     :is_active => true,
-#   }
-
-#   # Ruby on Rails
-#   course_position += 1
-#   courses << {
-#     :title => "Ruby on Rails",
-#     :title_url => "Ruby on Rails".parameterize,
-#     :teaser => "Build Real Websites",
-#     :brief_desc => "Now that you've got a good grounding in Ruby, it's time to put that to work by learning how to rapidly develop websites using Ruby on Rails.  By the end of this course, you'll be able to build and deploy a real website with confidence.  In fact, you'll do it many times.",
-#     :description => "In this course, you'll be doing a whole lot of building, each project a bit more advanced than the previous one.  You'll build about a dozen Rails projects from scratch, including one full-featured tutorial that we'll be following along with as we go and a full scale web application of your own.  More importantly, you'll learn how to deconstruct a website into its underlying data architecture and then build an application around that. By the end of it all, you'll have the confidence to put up a simple website in under an hour.",
-#     :position => course_position,
-#     :you_learn => ["How to build and deploy a web application from scratch","MVC like the back of your hand","Setting up the data architecture of a new site"],
-#     :you_build => ["A full featured Twitter clone", "A flight booking application", "A dozen others, from simple CRUD apps to APIs and Facebook"],
-#     :is_active => true,
-#   }
-
-#   # HTML5 and CSS3
-#   course_position += 1
-#   c5 = Course.create!(
-#     :title => "HTML5 and CSS3 Resources",
-#     :title_url => "HTML5 and CSS3".parameterize,
-#     :teaser => "Make Your Sites Actually Look Good",
-#     :brief_desc => "Now that you're a pro in building website back ends, it's time to take a good hard look at the front end so your sites will stop looking like ugly ducklings and you can really begin to understand the DOM.  This shorter course will give you the tools to stop fighting with your CSS and start building more logically designed sites.",
-#     :description => "In this unit, you'll get over your fear of CSS and begin to understand some of the more fundamental tenets of good site design.  This isn't a full course on front end design, but it should give you the tools you need to deeply understand CSS frameworks and to put a good looking facade on your genius back end.",
-#     :position => course_position,
-#     :you_learn => ["All about styling with CSS", "How to effectively use a front end framework like Bootstrap", "Basic principles of site layout and design"],
-#     :you_build => ["Several popular website visual front ends", "Your own front end framework", "A goodybag of CSS tricks and tactics"],
-#     :is_active => true,
-#   }
-
-#   # Javascript and jQuery
-#   course_position += 1
-#   courses << {
-#     :title => "Javascript and jQuery Resources",
-#     :title_url => "Javascript and jQuery".parameterize,
-#     :teaser => "Make Your Websites Really Dance",
-#     :brief_desc => "The last component in your web development arsenal is the ability to make your front ends dynamically react to the user.  In this course you'll learn how to use Javascript and jQuery to interact with the DOM and make things like dropdown menus, parallax scroll effects, single page applications, and even games.  It will tie together everything you've learned already into one awesome package.",
-#     :description => "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.",
-#     :position => course_position,
-#     :you_learn => ["How to build interactive games using HTML5 canvas","How to use a full range of jQuery effects on the DOM", "How to organize your JS into modular pieces"],
-#     :you_build => ["Javascript front ends for your Rails back ends", "A Javascript framework of your own","Snake, Missile Command and More"],
-#     :is_active => true,
-#   }
-
-#   # Getting Hired
-#   course_position += 1
-#   courses << {
-#     :title => "Getting Hired Resources",
-#     :title_url => "Getting Hired".parameterize,
-#     :teaser => "Get Paid to Keep Learning",
-#     :brief_desc => "You've come extremely far and are now a capable web developer, but, as you've probably realized, the journey of discovery has only just begun.  Luckily, you're now useful enough that others will pay you to keep building and learning. . . and in this short course, we'll show you how to make that happen.",
-#     :description => "You've still got a whole lot more to learn (it's really a lifetime journey) but now the best way to do that is by surrounding yourself with other great developers.  This course is all about that next step -- what else you'll need to know, where to find jobs, how to interview, and how to ultimately get that offer in hand.",
-#     :position => course_position,
-#     :you_learn => ["Where to find the appropriate job postings","How to market yourself effectively to employers", "How to ace the technical interview"],
-#     :you_build => ["Your personal portfolio website","A base of knowledge in more complex problem solving skills", "A clear strategy for getting hired"],
-#     :is_active => true,
-#   }
-#   return courses
-# end
-
-# # returns an array containing hashes of attributes for each section
-# def sections
-
-#   sections = []
-#   section_position = 1
-
-#   c1 = Course.where(:title => courses[0][:title]).first || 
-#         raise "Can't find course for #{courses[0][:title]}"
-#   c2 = Course.where(:title => courses[1][:title]).first || 
-#         raise "Can't find course for #{courses[1][:title]}"
-#   c3 = Course.where(:title => courses[2][:title]).first || 
-#         raise "Can't find course for #{courses[2][:title]}"
-#   c4 = Course.where(:title => courses[3][:title]).first || 
-#         raise "Can't find course for #{courses[3][:title]}"
-#   c5 = Course.where(:title => courses[4][:title]).first || 
-#         raise "Can't find course for #{courses[4][:title]}"
-#   c6 = Course.where(:title => courses[5][:title]).first || 
-#         raise "Can't find course for #{courses[5][:title]}"
-#   c7 = Course.where(:title => courses[6][:title]).first || 
-#         raise "Can't find course for #{courses[6][:title]}"
-
-
-#   c1_s1_of_1 = Section.create!(
-#     :title => "About Web Developers", 
-#     :title_url => "About Web Developers".parameterize, 
-#     :course_id => c1.id, 
-#     :position => section_position, 
-#     :description => "Start from the beginning and learn about what a web developer really does and what the field of web development is really like."
-#   )
-
-# end
 
 def create_or_update_course(course_attrs)
   course = Course.where(:title => course_attrs[:title]).first 
   if course.nil?
-    course = Course.create(course_attrs)
-    puts "Created new course: #{course_attrs[:title]}!"
+    course = Course.create!(course_attrs)
+    puts ">>>> Created new course: #{course_attrs[:title]}!"
   else
     course.update_attributes(course_attrs)
     puts "Updated existing course: #{course_attrs[:title]}"
@@ -176,29 +25,35 @@ def create_or_update_course(course_attrs)
   return course
 end
 
+# FIX ME: I need to be course-specific
 def create_or_update_section(section_attrs)
-  section = Section.where(:title => section_attrs[:title]).first 
+  section = Section.where(:title => section_attrs[:title], :course_id => section_attrs[:course_id]).first 
   if section.nil?
-    section = Section.create(section_attrs)
-    puts "Created new section: #{section_attrs[:title]}!"
+    section = Section.create!(section_attrs)
+    puts ">>>> Created new SECTION: #{section_attrs[:title]}!"
   else
     section.update_attributes(section_attrs)
-    puts "Updated existing section: #{section_attrs[:title]}"
+    puts "Updated existing SECTION: #{section_attrs[:title]}"
   end
   return section
 end
 
+# FIX ME: I need to be section-specific
 def create_or_update_lesson(lesson_attrs)
-  lesson = Lesson.where(:title => lesson_attrs[:title]).first 
+  lesson = Lesson.where(:title => lesson_attrs[:title], :section_id => lesson_attrs[:section_id]).first 
   if lesson.nil?
-    lesson = Lesson.create(lesson_attrs)
-    puts "Created new lesson: #{lesson_attrs[:title]}!"
+    lesson = Lesson.create!(lesson_attrs)
+    puts ">>>> Created new lesson: #{lesson_attrs[:title]}!"
   else
     lesson.update_attributes(lesson_attrs)
     puts "Updated existing lesson: #{lesson_attrs[:title]}"
   end
   return lesson
 end
+
+
+
+
 
 
 
@@ -216,6 +71,7 @@ lesson_counter = 0
 # ************************************************
 # CREATE INTRO TO WEB DEVELOPMENT COURSE
 # ************************************************
+puts "\n\n***** STARTING COURSE: Introduction to Web Development *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -327,6 +183,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE WEB DEVELOPMENT 101 COURSE
 # ************************************************
+puts "\n\n***** STARTING COURSE: Web Development 101 *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -709,6 +566,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE RUBY COURSE
 # ************************************************
+puts "\n\n***** STARTING COURSE: Ruby Programming *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -722,8 +580,6 @@ course = create_or_update_course(
   :you_build => ["TicTacToe, Mastermind, and Hangman", "A command line server and browser","Chess (seriously)"],
   :is_active => true,
   )
-
-course.id = c3.id
 
 
 # +++++++++++
@@ -1054,7 +910,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE RAILS COURSE
 # ************************************************
-
+puts "\n\n***** STARTING COURSE: Ruby on Rails *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -1526,6 +1382,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE HTML5/CSS3 COURSE
 # ************************************************
+puts "\n\n***** STARTING COURSE: HTML/CSS *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -1583,6 +1440,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE JAVASCRIPT/JQUERY COURSE
 # ************************************************
+puts "\n\n***** STARTING COURSE: Javascript *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -1642,6 +1500,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE GETTING HIRED COURSE
 # ************************************************
+puts "\n\n***** STARTING COURSE: Getting Hired *****"
 
 course_position += 1
 course = create_or_update_course(
