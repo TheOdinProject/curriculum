@@ -571,6 +571,16 @@
     width: 525px;  
   }  
 
+  .sg-logistics {
+    p{
+      margin: 0em 0;
+      color: $mid_gray;
+    }
+    strong{
+      color: $dark_gray;
+    }
+  }
+
   #track1 .studygroup-content{
     background: url(http://res.cloudinary.com/techblogpics/image/upload/v1393804779/web-dev-fade_ianp6i.png) top right no-repeat;
   }
