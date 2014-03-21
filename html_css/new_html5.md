@@ -23,6 +23,8 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [What's new in HTML5 from W3 schools](http://www.w3schools.com/html/html5_new_elements.asp)
 * [25 must-know HTML5 tips and techniques from tutsplus](http://net.tutsplus.com/tutorials/html-css-techniques/25-html5-features-tips-and-techniques-you-must-know/)
 * [How HTML5 and CSS3 Will Change Web Design from Virtuosimedia.com](http://www.virtuosimedia.com/dev/html/how-html5-and-css3-will-change-web-design) is a nice 2011 article looking forward to the coming changes.

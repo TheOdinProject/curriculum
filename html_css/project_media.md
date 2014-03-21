@@ -1,4 +1,4 @@
-# Project: Images and Video with YouTube
+# Project: Embedding Images and Video (with YouTube)
 
 *Don't forget to use Git to save your projects!*
 

@@ -25,4 +25,6 @@ Do what you can to get at least a familiarity with the high level decisions invo
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [Importing your own fonts](http://www.html5rocks.com/en/tutorials/webfonts/quick/)

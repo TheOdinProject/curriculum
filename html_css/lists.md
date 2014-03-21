@@ -1,6 +1,6 @@
 # Ordered and Unordered Lists
 
-Ordered and unordered lists are heavily used in most websites.  It's not just for bullet-points and numbers... they are also used in creating horizontal navbars and long collections of objects (like a list of pictures of items for sale).
+Ordered and unordered lists are heavily used in most websites.  It's not just for bullet-points and numbers... they are also used in creating horizontal navbars and long collections of objects (like a list of pictures of items for sale).  They often take the place of tables as the method of choice for displaying structured content.
 
 ## Points to Ponder
 
@@ -14,5 +14,7 @@ Ordered and unordered lists are heavily used in most websites.  It's not just fo
 3. Glance over the [HTML docs on lists](http://www.w3schools.com/html/html_lists.asp)... you'll probably see them again when you're Googling for a problem!
 
 ## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * *Add Some!*

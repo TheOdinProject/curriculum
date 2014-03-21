@@ -20,6 +20,8 @@ In this section, you'll get a look at how to use CSS to lay out the elements of 
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [Supplemental reading on the history of grids and why they're awesome](http://www.subtraction.com/pics/0703/grids_are_good.pdf) *Note: May be unavailable*
 * [Getting images to display fluidly in fluid grids, from A List Apart](http://alistapart.com/article/fluid-images)
 * [CSS Grids Lessons](https://hackdesign.org/lessons/32)

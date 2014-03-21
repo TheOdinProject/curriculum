@@ -8,6 +8,8 @@ Luckily, that's the next course!  Onwaaaaaaard!!!
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [HTML5 Rocks knowledge base](http://www.html5rocks.com/en/)... tons of links to articles specific to your goals.
 * [Codecademy's HTML/CSS track](http://www.codecademy.com/tracks/web)
 * [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
