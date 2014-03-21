@@ -132,8 +132,8 @@ You should already have completed the [Web Deveploment 101 jQuery lesson](/cours
 
 ### Links
 
-* [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com) is a great primary resource.
-* [Learning jQuery from jquery.com](http://learn.jquery.com/) will fill in any gaps you have and provide alternate explanations.
+* Read through [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
+* Browse [Learning jQuery from jquery.com](http://learn.jquery.com/)(see the "Chapters" below) to fill in any gaps you have and provide alternate explanations for things you're not quite sure on.
 
 ### Additional Resources 
 

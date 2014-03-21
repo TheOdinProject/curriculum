@@ -1,8 +1,10 @@
-## jQuery Basics
+# jQuery Basics
 
-You should already have completed the [Web Deveploment 101 jQuery lesson](/courses/web-development-101/lessons/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).  jQuery, of course, provides a very easy-to-use model for manipulating the elements on your page.  It also contains lots of helper functions and special libraries for doing things like building widgets or even mobile apps.  You get to benefit from all the lazy programmers before you who build these tools to make their lives easier.  Enjoy!
+You should already have completed the [Web Deveploment 101 jQuery lesson](/courses/web-development-101/lessons/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby). 
 
-### Points to Ponder
+jQuery, of course, provides a very easy-to-use model for manipulating the elements on your page.  It also contains lots of helper functions and special libraries for doing things like building widgets or even mobile apps.  You get to benefit from all the lazy programmers before you who build these tools to make their lives easier.  Enjoy!
+
+## Points to Ponder
 
 * What is a selector?
 * What does the `$` symbol mean?
@@ -26,15 +28,14 @@ You should already have completed the [Web Deveploment 101 jQuery lesson](/cours
 * How is jQuery's `#map` almost identical to Ruby's?
 * Where can you look up any selectors you need?
 
-### Links
+## Your Assignment
 
-* [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com) is a great primary resource.
-* [Learning jQuery from jquery.com](http://learn.jquery.com/) will fill in any gaps you have and provide alternate explanations.
+1. Read through [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
+2. Browse [Learning jQuery from jquery.com](http://learn.jquery.com/)(see the "Chapters" below) to fill in any gaps you have and provide alternate explanations for things you're not quite sure on.
 
-### Additional Resources 
+## Additional Resources 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * [jQuery docs](http://api.jquery.com) will be your savior again and again.  You'll probably find them via Google most of the time, but get used to the format they present information in because you'll be seeing a lot of it.
 * [jQuery Reference Guide from Oscar Otero](http://oscarotero.com/jquery/)
