@@ -18,6 +18,9 @@ We covered a [section on design in the HTML/CSS Course](/courses/html5-and-css3/
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [jQuery for Designers from Web Designer Wall](http://www.webdesignerwall.com/demo/jquery/)
 * [(2009) A list of jQuery widgets and tutorials that can still make you drool from Smashing Magazine](http://coding.smashingmagazine.com/2009/01/15/45-new-jquery-techniques-for-a-good-user-experience/) (thought some of them use AJAX, which we cover later, and others are a bit dated).
 * [jQuery for Designers](http://jqueryfordesigners.com/)

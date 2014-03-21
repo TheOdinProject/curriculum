@@ -26,6 +26,9 @@ This is a catch-all section for helpful resources like libraries, regular expres
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Test your regular expressions in JS with RegexPal](http://regexpal.com/)
 * [Why Doesn't Rails Include Javascripts at the Bottom of the Page by Default from SO](http://stackoverflow.com/questions/7584717/why-rails-doesnt-include-the-javascript-files-at-the-bottom-of-the-html-page-by)
 

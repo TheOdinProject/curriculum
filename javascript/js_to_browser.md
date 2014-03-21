@@ -14,4 +14,7 @@ A *very* brief look back into the idea that browser loading matters (maybe).
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Advanced Javascript Loading in the Browser from HTML5Rocks](http://www.html5rocks.com/en/tutorials/speed/script-loading/) is deeper than you need to go now, but a useful reference.

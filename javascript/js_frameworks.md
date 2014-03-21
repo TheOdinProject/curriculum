@@ -38,3 +38,9 @@ In this lesson, we've laid out resources for learning several different framewor
 #### Ember.js
 
 * [In-Depth Introduction to Ember.js from Smashing Magazine](http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
+
+### Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+* *Add some!*

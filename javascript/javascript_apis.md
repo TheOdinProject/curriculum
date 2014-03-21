@@ -10,6 +10,9 @@ There are a whole lot of external APIs that you can access using simple Javascri
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Codecademy's API Track](http://www.codecademy.com/tracks/apis)
 * [Using Apigee as a back end for your website](http://www.codecademy.com/tracks/apigee)
 * [Embed Google Maps in your site using this jQuery plugin called GoMap](http://www.pittss.lv/jquery/gomap/).  The site has lots of links to example code for implementing different functionality.

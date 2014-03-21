@@ -25,5 +25,8 @@ Effects are like window-dressing for your user experience.  They represent the n
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
 * [A Look at using Javascript Events without jQuery from Smashing Magazine](http://coding.smashingmagazine.com/2012/08/17/javascript-events-responding-user/)

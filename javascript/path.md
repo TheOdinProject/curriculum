@@ -21,7 +21,7 @@ This is also where things get really fun, since you get to immediately see every
 
 1. How This Course Will Work
     /introduction.md
-2. Basic Javascript
+2. Javascript Basics
     /js_basics.md
 3. PROJECT: Javascript Basics
     /project_js_basics.md

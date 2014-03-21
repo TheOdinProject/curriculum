@@ -25,6 +25,9 @@ You've already got all the tools you need to build the validations, you probably
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Smashing Magazine on an approach to Form Field Validation Errors](http://uxdesign.smashingmagazine.com/2012/06/27/form-field-validation-errors-only-approach/)
 * [SO Answer on How to Improve a Form Validation Script](http://stackoverflow.com/questions/15060292/a-simple-jquery-form-validation-script) (see answers)
 * [10 Useful jQuery Form Validation Techniques from speckyboy](http://speckyboy.com/2009/12/17/10-useful-jquery-form-validation-techniques-and-tutorials-2/) (some broken links)

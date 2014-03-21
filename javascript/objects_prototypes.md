@@ -19,5 +19,8 @@ Javascript doesn't really have "classes", per se, like Ruby -- instead they use 
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Prototypes in Javascript from MSDN](http://msdn.microsoft.com/en-us/magazine/ff852808.aspx)
 * [Seven Things I Wish I Knew Much Earlier in My Career (about Javascript) from Smashing Magazine](http://coding.smashingmagazine.com/2010/04/20/seven-javascript-things-i-wish-i-knew-much-earlier-in-my-career/)

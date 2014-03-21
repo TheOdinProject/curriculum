@@ -33,6 +33,9 @@ You should already have completed the [Web Deveploment 101 jQuery lesson](/cours
 
 ### Additional Resources 
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [jQuery docs](http://api.jquery.com) will be your savior again and again.  You'll probably find them via Google most of the time, but get used to the format they present information in because you'll be seeing a lot of it.
 * [jQuery Reference Guide from Oscar Otero](http://oscarotero.com/jquery/)
 * Watch people code cool stuff with [The Code Player](http://thecodeplayer.com/)

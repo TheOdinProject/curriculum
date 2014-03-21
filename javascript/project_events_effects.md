@@ -7,5 +7,8 @@ Not a Snake fan?  Try building [Minesweeper](http://en.wikipedia.org/wiki/Minesw
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Play an example Minesweeper game like the old Windows one here](http://www.chezpoor.com/minesweeper/minesweeper.html)
 * 

@@ -19,6 +19,9 @@ We won't get deep into Javascript testing but, suffice it to say, it performs a 
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Writing Testable Frontend JS -- Anti-patterns from Shane Tomlinson](https://shanetomlinson.com/2013/testing-javascript-frontend-part-1-anti-patterns-and-fixes/)
 * [Writing Testable JS from Ben Cherry](http://www.adequatelygood.com/2010/7/Writing-Testable-JavaScript)
 * [Make Tests Read like a Book from Wolfram Kriesing](http://uxebu.com/blog/2013/01/08/make-tests-read-like-a-book/)

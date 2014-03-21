@@ -19,6 +19,9 @@ Canvas is a great tool in HTML5 -- it basically provides a panel in which you ca
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [Canvas Deep Dive book](http://joshondesign.com/p/books/canvasdeepdive/toc.html) chapters 7-14 get deep into how you can use Canvas as a sweet graphics and gaming tool.  Out of scope for this course, but could be fun if that's your thing.
 * [No Tears Guide to HTML5 Games from html5rocks.com](http://www.html5rocks.com/en/tutorials/canvas/notearsgame/)
 * [Canvas game tutorial posts from Michal Budzynski](http://michalbe.blogspot.com/2010/09/simple-game-with-html5-canvas-part-1.html)

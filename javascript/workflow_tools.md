@@ -27,4 +27,7 @@ You may need these things now, you may not.  At least learn what they are so you
 
 ### Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * [SO on Javascript Dependency Management](http://stackoverflow.com/questions/3202606/javascript-dependency-management)
