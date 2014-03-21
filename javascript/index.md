@@ -547,7 +547,7 @@ Create a site that has a Google map on it and forms where the user can place mar
 
 * [Entering the Wonderful World of Geo Location from Smashing Magazine](http://coding.smashingmagazine.com/2010/03/08/entering-the-wonderful-world-of-geo-location/)
 
-## Working with a Rails Backend and API
+## Working with a Rails Back End and API
 
 It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
 
@@ -684,7 +684,7 @@ Some of the more common templating languages include [Mustache](http://mustache.
 
 * [Why LinkedIn chose Dust.js for Templating](http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more) (includes a breakdown of the other popular choices)
 
-## Javascript MV* Frameworks
+## Javascript MV* Frameworks Like Angular.js
 
 Javascript frameworks take the ideas of templating, e.g. moving logic from your server to the client, to the next level.  With these frameworks, you can run your entire web application without ever reloading the page.  The frameworks are all different, but they typically combine templating tools with client-side models that use AJAX to stay current with your back end.
 
@@ -762,7 +762,7 @@ You may need these things now, you may not.  At least learn what they are so you
 
 * [SO on Javascript Dependency Management](http://stackoverflow.com/questions/3202606/javascript-dependency-management)
 
-## Javascript Testing
+## Javascript Testing with Jasmine
 
 We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something important in your app or, as importantly, when exactly it actually stopped working.
 
