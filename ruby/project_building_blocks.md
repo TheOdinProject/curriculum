@@ -41,6 +41,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/caesar_cipher.rb)
 * [Solution from bartliolio](http://github.com/bartliolio/odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
 * [Solution from ThusStyles](https://github.com/ThusStyles/cipher/blob/master/cipher.rb)
+* [Solution from Sessl](https://github.com/Sessl/ruby_work/blob/master/cipher.rb)
 * Your Solution Here
 
 
