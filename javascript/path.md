@@ -8,6 +8,7 @@ TODO:
 6. SEO up the titles
 6. Fill in projects
 7. Finalize ordering
+8. P2P on javascript APIs
 8. Add to seeds
 
 
@@ -111,7 +112,7 @@ It'll also be helpful to understand how to integrate an external API with your f
 This is the section where we go beyond using Javascript as a facilitator of great looking and great running pages and into using Javascript as the main tool for creating those pages in the first place.  We'll talk about using Javascript to run your server (instead of Ruby) with Node.js and about the many Javascript MV* Frameworks out there which let you build a full website as a single page run by Javascript for blazing fast user experiences.
 
 Much of the content in this section can be considered "supplemental" to the core needs of getting hired, but also incredibly interesting and helpful if you *do* know it.
-
+<<<<<<<<<<<<<<<<<<<< STOPPED HERE!!!!!!!!!
 1. Node.js and Server-Side Javascript
     /server_side_js.md
 2. PROJECT: Node.js

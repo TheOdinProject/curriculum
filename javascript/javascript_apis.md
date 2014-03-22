@@ -1,17 +1,15 @@
-
-## Working with Javascript APIs
+# Working with Javascript APIs
 
 There are a whole lot of external APIs that you can access using simple Javascript, adding rich content or interesting functionality to your webpages. A few examples include embedding Google Maps in your page or downloading Flickr images.  You'll usually need to register your application with the API provider (and get an API key to identify yourself with when making a request) but most access is totally free.
 
-### Links
+## Your Assignment
 
-* [Learn to use APIs with Javascript from Codecademy](http://www.codecademy.com/tracks/youtube) to access YouTube.
-* [Google Maps API Tutorial from W3 Schools](http://www.w3schools.com/googleAPI/default.asp)
+1. Do the Codecademy track about [learning to use APIs with Javascript for accessing YouTube](http://www.codecademy.com/tracks/youtube).
+2. Look at the [Google Maps API Tutorial from W3 Schools](http://www.w3schools.com/googleAPI/default.asp), though consider implementing it optional.
 
-### Additional Resources
+## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * [Codecademy's API Track](http://www.codecademy.com/tracks/apis)
 * [Using Apigee as a back end for your website](http://www.codecademy.com/tracks/apigee)
