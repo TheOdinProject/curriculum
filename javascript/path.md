@@ -2,8 +2,8 @@
 TODO:
 1. DONE make lessons into files
 2. DONE Update file URLs
-3. Massage lessons into real lessons
-4. Rework the ordering to create more sections
+3. DONE Massage lessons into real lessons
+4. DONE Rework the ordering to create more sections
 5. Fill in lesson descriptions
 6. SEO up the titles
 6. Fill in projects
@@ -11,15 +11,11 @@ TODO:
 8. P2P on javascript APIs
 8. Add to seeds
 
-
-### Lessons
-
 ## The Basics and the Browser
 
 ### Description
-You've already completed the [Web Development 101 course](/courses/web-development-101/lessons#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
 
-This is also where things get really fun, since you get to immediately see everything you're building in the browser.  You'll create everything from games to browser widgets along the way.  By the end of this section, you'll know everything you need to build fun and interesting front-ends.  But, of course, it's really just the beginning.  The real trick is building *well* and, ultimately, integrating your front-ends with your back ends.  Gogogo!
+We'll zoom through the basics of Javascript and how it's used in the browser with jQuery.  This where things get really fun, since you get to immediately see everything you're building in the browser.  By the end of this section, you'll actually know everything you need to build fun and interesting front-ends but, of course, it's really just the beginning.
 
 1. How This Course Will Work
     /introduction.md
@@ -31,6 +27,15 @@ This is also where things get really fun, since you get to immediately see every
     /jq_basics.md
 5. PROJECT: Messing with the DOM
     /project_jq_basics.md
+9. Additional Helpful Stuff
+    /additional_stuff.md
+
+
+## Events and Effects
+
+### Description
+Events drive just about everything you'll do with Javascript in the browser. We'll take a closer look at how they work and the kinds of things that they allow you to do.
+
 6. Working with Events and Effects
     /events_effects.md
 7. PROJECT: jQuery and the DOM
@@ -43,7 +48,7 @@ This is also where things get really fun, since you get to immediately see every
 ## Deeper into Javascript
 
 ### Description
-You can do a lot with just basic JS and jQuery and a hacker mindset, as you saw in the last lesson on widgets.  But this section will take you deeper into how Javascript is actually doing things and will give you the tools to produce more advanced functionality for your sites.  The Snake game and the last project on the jQuery image slider probably tested your understanding of how Javascript works and showed you that there's still a lot to understand.
+You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But this section will take you deeper into how Javascript is actually doing things and it will give you the tools to produce more advanced functionality for your sites.  Some of the previous projects have probably tested the boundaries of your understanding of Javascript, and here we'll fix that.
 
 1. Objects, "Classes", and Prototypes
     /objects_prototypes.md
@@ -61,9 +66,7 @@ You can do a lot with just basic JS and jQuery and a hacker mindset, as you saw 
 ## Advanced Browser Work
 
 ### Description
-There's a whole lot more to using Javascript in the browser than just manipulating simple DOM elements with jQuery.  If you want to grab data from external sites or your own back end, submit forms, or handle more complicated games, you'll need to dig deeper into how Javascript handles callbacks.  
-
-We'll also cover how to build games using HTML5's `<canvas>` element, which let you use Javascript logic to draw shapes.  Once you can do that, you're only limited by your creativity (and maybe your geometry skills if you're building complex ballistics games).
+There's a whole lot more to using Javascript in the browser than just manipulating simple DOM elements with jQuery.  If you want to grab data from external sites or your own back end, submit forms, or handle more complicated games, you'll need to dig deeper into how Javascript handles things like callbacks.  Here we'll also cover how to build games using HTML5's `<canvas>` element, which let you use Javascript logic to draw shapes.  
 
 1. Taking Javascript to the Browser
     /js_to_browser.md
@@ -75,17 +78,15 @@ We'll also cover how to build games using HTML5's `<canvas>` element, which let 
     /project_callbacks.md
 5. Using Canvas to Draw and More
     /canvas.md
+    Once you can use canvas, you're only limited by your creativity (and maybe your geometry skills).
 6. PROJECT: Arcade Games with Canvas
     /project_canvas.md
 
-## Linking the Browser to You Back End
+## Submitting Data with AJAX
 
 ### Description
-A real web app needs a back end in order to persist its data and do sensitive operations.  That's not to say you can't outsource the functionality to a Backend-as-a-Service (BaaS) company like [Firebase](https://www.firebase.com/) or [Apigee](http://apigee.com/), but you've already got the skills yourself! You can link to the back ends you created in the course on Ruby on Rails.  
+In this section you'll learn about AJAX, the technology which allows you to send data from the browser to your web application without needing to refresh the page.  It's commonly used with forms, but really represents a whole world of possibility for crafting performant user experiences.
 
-In order to do this, you'll need to learn more about using forms. That will take us into AJAX, which allows you to submit forms without needing to refresh the page.  You'll end up relying on it more and more as you optimize your front ends for performance.
-
-It'll also be helpful to understand how to integrate an external API with your front-end page, like adding a small Google Map to show where your business is located, so we'll cover that as well.
 
 1. Front End Forms and jQuery
     /jquery_forms.md
@@ -95,23 +96,26 @@ It'll also be helpful to understand how to integrate an external API with your f
     /ajax.md
 4. PROJECT: AJAX and Forms
     /project_ajax_forms.md
-5. Working with Javascript APIs
+
+## Linking to APIs and Your Rails Back End
+
+### Description
+A real web app needs a back end in order to persist its data and do sensitive operations.  Here you'll learn how to handle use AJAX to send data requests to your Rails backend.  You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future.
+
+1. Working with Javascript APIs
     /javascript_apis.md
-6. PROJECT: Putting Google Maps Onto Your Site
+2. PROJECT: Putting Google Maps Onto Your Site
     /project_apis.md
-7. Working with a Rails Back End and API
+    Just about every business has a contact page with a map pointing to their location.  Build one with the Google Maps API.
+3. Working with a Rails Back End and API
     /rails_backend.md
-8. PROJECT: Where's Waldo (A Photo Tagging App)
+4. PROJECT: Where's Waldo (A Photo Tagging App)
     /project_rails_backend.md
-9. Additional Helpful Stuff
-    /additional_stuff.md
 
 ## Server Side Javascript and Single Page Apps (Optional)
 
 ### Description
-This is an optional section where we will go beyond using Javascript as a facilitator of great looking and great running pages and into using Javascript as the main tool for creating those pages in the first place.  We'll talk about using Javascript to run your server (instead of Ruby) with Node.js and about the many Javascript MV* Frameworks out there which let you build a full website as a single page run by Javascript for blazing fast user experiences.
-
-Much of the content in this section can be considered "supplemental" to the core needs of getting hired, but also incredibly interesting and helpful if you *do* know it.
+This is an optional section where you will learn about using Javascript to run your server (instead of Ruby) and also about Javascript frameworks which let you build a full website as a single page run by Javascript to create blazing fast user experiences.
 
 1. Node.js and Server-Side Javascript (Optional)
     /server_side_js.md

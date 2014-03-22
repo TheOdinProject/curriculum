@@ -2,6 +2,8 @@
 
 Javascript is the future of the web.  More and more of the logic is making its way to the client side in order to facilitate lightening fast user experiences.  Javascript is even moving to the server side with Node.js.  That's why in this course we'll be diving deep into it to make sure you come out with a good understanding of how it works.
 
+You've already completed the [Web Development 101 course](/courses/web-development-101/lessons#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
+
 ## The Path 
 
 So how is this course set up? It starts with a deeper look at the basics, just like the [Ruby Programming course](/courses/ruby-programming/lessons) did with Ruby.  You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/courses/ruby-on-rails/lessons) to understand these basics but we won't be focusing deeply on the really basic coding items so it'll move quickly.  You should, however, already have completed the [Web Development 101 course](/courses/web-development-101/lessons), specifically the [Front End Section](/courses/web-development-101/lessons#section-the-front-end) before starting this course.  
@@ -18,7 +20,7 @@ The last thing you'll do is a final project which integrates everything you've l
 
 ### This is a Work in Progress!
 
-Again, note that this course is a work in progress.  Because of this, don't be alarmed if there are a few things marked TODO and if you do find a resource that is particularly helpful or unhelpful, please let us know! 
+Again, note that this course is a work in progress.  Because of this, don't be alarmed if there are a few things marked TODO.  If you do find a resource that is particularly helpful or unhelpful, please let us know! 
 
 ## Format
 
