@@ -106,25 +106,32 @@ It'll also be helpful to understand how to integrate an external API with your f
 9. Additional Helpful Stuff
     /additional_stuff.md
 
-## Server Side Javascript and Single Page Apps
+## Server Side Javascript and Single Page Apps (Optional)
 
 ### Description
-This is the section where we go beyond using Javascript as a facilitator of great looking and great running pages and into using Javascript as the main tool for creating those pages in the first place.  We'll talk about using Javascript to run your server (instead of Ruby) with Node.js and about the many Javascript MV* Frameworks out there which let you build a full website as a single page run by Javascript for blazing fast user experiences.
+This is an optional section where we will go beyond using Javascript as a facilitator of great looking and great running pages and into using Javascript as the main tool for creating those pages in the first place.  We'll talk about using Javascript to run your server (instead of Ruby) with Node.js and about the many Javascript MV* Frameworks out there which let you build a full website as a single page run by Javascript for blazing fast user experiences.
 
 Much of the content in this section can be considered "supplemental" to the core needs of getting hired, but also incredibly interesting and helpful if you *do* know it.
-<<<<<<<<<<<<<<<<<<<< STOPPED HERE!!!!!!!!!
-1. Node.js and Server-Side Javascript
+
+1. Node.js and Server-Side Javascript (Optional)
     /server_side_js.md
 2. PROJECT: Node.js
     /project_node.md
-3. Javascript Templating
+3. Javascript Templating (Optional)
     /templating.md
-4. Javascript MV* Frameworks Like Angular.js
+4. Javascript MV* Frameworks Like Angular.js (Optional)
     /js_frameworks.md
 5. PROJECT: Backbone.js or Angular.js
     /project_js_frameworks.md
-6. Javascript Workflow Tools, Tech Stacks and Dependency Management
+6. Workflow Tools, Tech Stacks and Dependency Management (Optional)
     /workflow_tools.md
+
+
+## Finishing Up with Javascript
+
+### Description
+You've learned everything you need and all that remains to do is apply that knowledge to a worthy task.  In this section, we'll briefly cover how to test Javascript using Jasmine and then get you started with your capstone project so you can show off your range of skills.
+
 7. Javascript Testing with Jasmine
     /js_testing.md
 8. PROJECT: Final Project

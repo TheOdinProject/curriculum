@@ -1,5 +1,4 @@
-
-## Conclusion
+# Conclusion
 
 This is the end! At this point you should have a deep and nuanced understanding of not just how Javascript works but how you can use it with all the other knowledge you've gained so far to build exceptional web applications. That means great information architectures, smooth-running Rails backends and delightfully useful front-ends.  
 
@@ -16,8 +15,8 @@ And speaking of jobs, if you've made it this far then you've displayed the kind 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
 * [jQuery Mobile from learn.jquery.com](http://learn.jquery.com/jquery-mobile/)
+* [An Android development tutorial from CodeLearn](www.codelearn.org/android-tutorial)
 * [PAID training webcasts on pretty much anything](https://www.bitcast.io/)
 * [Giant meta-list of screencasts by Avdi Grimm](http://devblog.avdi.org/2013/06/21/a-list-of-programming-screencast-series/)
 * [appendTo's Javascript track (incomplete)](http://learn.appendto.com/lesson/javascript-101)
