@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+ 
 describe "Syntax-highlights" do 
   subject { page } 
   context "on a lesson with properly fenced and identified ruby code" do
