@@ -1,5 +1,5 @@
 FactoryGirl.define do
-
+ 
   factory :user, :aliases => [:creator] do
     before(:create) do |user|
       user.stub(:send_welcome_email)
@@ -21,13 +21,13 @@ FactoryGirl.define do
     end
     
   end
-
+ 
   factory :content_bucket do
     sequence :name do |n| 
       "foobarContent#{n}"
     end
   end
-
+ 
   factory :lesson do
     sequence :title do |n|
       "test lesson#{n}"
@@ -39,7 +39,7 @@ FactoryGirl.define do
     title_url { title.parameterize }
     association :section
   end
-
+ 
   factory :section do
     sequence :title do |n|
       "test section#{n}"
@@ -50,11 +50,12 @@ FactoryGirl.define do
     end
     association :course
   end
-
+ 
   factory :course do
     sequence :title do |n|
       "test course#{n}"
     end
+    is_active true
     title_url { title.parameterize }
     sequence :position do |n| 
       n
@@ -65,11 +66,11 @@ FactoryGirl.define do
     message "Some Message"
     expires 2.days.from_now
   end
-
+ 
   factory :expired_admin_flash, :parent => :admin_flash do
     expires "#{1.day.ago}"
     message "Some Expired Message"
   end
-
-
+ 
+ 
 end

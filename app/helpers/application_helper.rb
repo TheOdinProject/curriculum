@@ -14,7 +14,7 @@ module ApplicationHelper
 
   # uses the redcarpet gem to render the markdown as html
   def md(markdown_in)
-    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {:fenced_code_blocks => true})
     markdown.render(markdown_in).html_safe
   end
 
