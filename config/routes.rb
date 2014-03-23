@@ -12,7 +12,6 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'home' => 'static_pages#home'
   get 'scheduler' => redirect('/courses')
   post 'thank_you' => 'static_pages#send_feedback'
-  get 'selectable' => 'static_pages#selectable'
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
   get 'about' => "static_pages#about"
