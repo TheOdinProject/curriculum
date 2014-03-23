@@ -43,8 +43,8 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   post 'lesson_completions' => 'lesson_completions#create'
   delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => "lesson_completion"
 
-  get "sitemap.xml" => "sitemap#index", :as => "sitemap", :defaults => { :format => "xml" }
-
+  # Sitemap
+  get "sitemap" => "sitemap#index", :defaults => { :format => "xml" }
   
   # ***** COURSES AND LESSONS ROUTES *****
 
