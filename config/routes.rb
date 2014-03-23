@@ -24,17 +24,6 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'tou' => "static_pages#tou"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
 
-  # Note: This will block any additional URL paths! Good for a while
-  # while people are rediscovering /curriculum but then will need
-  # to be removed to throw the usual 404 if they try /curriculum/xyz
-  # get 'curriculum(/*dir(.:format))' => 'courses#index', :as => "curriculum"
-  get 'curriculum' => redirect('/courses')
-  # get 'curriculum(/*extra_path)' => redirect('/courses/%{extra_path}')
-
-  get 'courses' => 'courses#index'
-  get 'courses/:course_name' => redirect('/courses/%{course_name}/lessons'), :as => "course"
-  get 'courses/:course_name/lessons' => 'lessons#index', :as => "lessons"
-  get 'courses/:course_name/lessons/:lesson_name' => 'lessons#show', :as => "lesson"
 
 
   resources :cal_events
@@ -56,10 +45,21 @@ devise_for :users, :controllers => { :registrations => "registrations" }
 
   get "sitemap.xml" => "sitemap#index", :as => "sitemap", :defaults => { :format => "xml" }
 
+  
+  # ***** COURSES AND LESSONS ROUTES *****
 
-  # Catch all other routes as courses and lessons
-  get ':course_name' => 'lessons#index'
-  get ':course_name/:lesson_name' => 'lessons#show'
+  get 'curriculum' => redirect('/courses')
+  get 'courses' => 'courses#index'
+
+  # Explicitly redirect deprecated routes (301)
+  get 'courses/:course_name' => redirect('/%{course_name}')
+  get 'courses/:course_name/lessons' => redirect('/%{course_name}')
+  get 'courses/:course_name/lessons/:lesson_name' => redirect('/%{course_name}/%{lesson_name}')
+
+  # Match all undefined routes as courses and/or lessons
+  get ':course_name' => 'lessons#index', :as => "course"
+  get ':course_name' => 'lessons#index', :as => "lessons"
+  get ':course_name/:lesson_name' => 'lessons#show', :as => "lesson"
 
 
 end
