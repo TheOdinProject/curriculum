@@ -1,6 +1,6 @@
 <%= content_for :title, "The Odin Project -- Profile" %>
 
-<div class="container">
+<div id="profile-page" class="container">
 
   <% if @edit %>
     <form accept-charset="UTF-8" id="edit-user" method="post" action="/users/<%= @user.id %>">
@@ -84,15 +84,12 @@
 
     <div class="span6">
       <div class="profile-projects">
-        <h3>Current Projects</h3>
+        <h3>Completed Lessons</h3>
         <ul>
-          <% @user.content_buckets.each do |project| %>
-            <li><%= project.name %></li>
+          <% @user.completed_lessons.each do |lesson| %>
+            <li><%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url)) %></li>
           <% end %>
         </ul>
-          <% if @user == current_user %>
-            <a href="<%= edit_user_pref_path %>" class="edit-projects">Edit Projects</a>
-          <% end %>
       </div>
     </div>
 

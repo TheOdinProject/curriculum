@@ -472,80 +472,6 @@
 
 }
 
-@media (max-width: 500px){
-  #devise-form{
-    .legal-wrapper{
-      margin-left: 0px;
-    }
-    .devise-shared-links{
-      margin-left: 0px;
-    }
-  }
-}
-#scheduler{
-  p.warning{
-    font-size: 120%;
-    padding: 4px;
-    background-color: #Fbb;
-  }
-  p.filters{
-    font-size: 1rem;
-    line-height: 1.25em;
-  }
-  .filter-items{
-    color: $light_gray;
-  }
-  #time-zone{
-    font-size: 10px;
-    line-height: 0px;
-    margin-bottom: 10px;
-    color: gray;
-    font-style: italic;
-  }
-  #instructions-link{
-    &:hover{
-      cursor: pointer;
-    }
-  }
-  .instructions-sidebar{
-    display:none;
-  }
-
-  #calendar {
-    min-width: 600px;
-    margin: 0 auto 50px;
-  }
-  textarea#edit-event-info {
-    width: 100%;
-    height: 130px;
-    margin-top: 10px;
-  }
-  #delete-link {
-    margin-top: 10px;
-    margin-left: 8px;
-    display: inline-block;
-  }
-}
-#ajax-load{
-  font-size: 1.5em;
-  line-height: 1em;
-  color: #0d0;
-  position: fixed;
-  top: 10px;
-  left: 45%;
-  z-index: 100000;
-}
-.eventInfo{
-  color: #aaa;
-  padding: 5px;
-  margin: 5px 0px;
-}
-.view-profile-link{
-  font-weight: normal;
-  font-style: italic;
-  color: #08c;
-}
-
 .alpha-alert{
   margin: 1.5em 1em 3em;
 
@@ -578,8 +504,68 @@
   }
 }
 
+
+.contributing{
+
+  @extend .individual-lesson;
+
+  .star{
+    padding:15px;
+  }
+  .paths{
+    border: 1px solid $vlight_gray;
+    box-shadow: 3px 3px 3px #efefef;
+    padding:30px 30px;
+    margin:10px 50px 30px;
+    font-size:.7em;
+    font-weight:300;
+    border-radius:10px;
+
+    h2, h3, h4, h5{
+      margin-top:0px;
+    }
+  }
+  .skill-header{
+    margin-top: 20px;
+
+    h2{
+      margin-top: 24px;
+    }
+  }
+  .more-button{
+    color: $highlight_orange;
+    cursor: pointer;
+  }
+  span.highlight{
+    color:$highlight_orange;
+    font-weight: normal;
+  }
+  .center{
+    margin: auto;
+    text-align: center;
+  }
+  .light-emphasis{
+    color: #aaa;
+  }
+
+  #reasonsModal {
+    .modal-header .modal-footer {
+      height: 55px;
+      padding: 5px 20px;
+      background-color: #a1a1a1;
+    }
+    .modal-body {
+      padding:5px 15px;
+      margin:10px 20px;
+      font-size:.75em;
+      font-weight:300;
+    }
+  }
+}
+
+
+
 #studygroup {
-  
   margin: 0 auto;
   max-width: 920px;
   
@@ -587,33 +573,56 @@
    margin: 0; 
   }
 
-  h1 {
-    font-size: 25px;
-  }
 
   p {
     margin: 0 0 10px 0;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-  p {
     font-size: 14px;
   }
-  #side, #content {
-    float: left;
-  }
-  #side {
+
+
+  .studygroup-side {
     width: 300px;
-    margin: 0 50px 50px 0;
+    margin: 0 50px 50px 0;  
   }
-  #content {
-    width: 525px;
+
+  .studygroup-content {
+    width: 525px;  
+  }  
+
+  .sg-logistics {
+    p{
+      margin: 0em 0;
+      color: $mid_gray;
+    }
+    strong{
+      color: $dark_gray;
+    }
   }
+
+  #track1 .studygroup-content{
+    background: url(http://res.cloudinary.com/techblogpics/image/upload/v1393804779/web-dev-fade_ianp6i.png) top right no-repeat;
+  }
+
+  #track2 .studygroup-content{
+    background: url(http://res.cloudinary.com/techblogpics/image/upload/v1393811171/rubyonrails-fade3_lv4xao.png) top right no-repeat;
+  }
+
+  #studygroup-tabs{
+    li {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.25em;
+    }
+  }
+
+  li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25em;
+  }
+
   .rule {
     border-top: 1px solid #ccc;
     margin: 20px 0;
   }
-
 }

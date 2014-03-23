@@ -29,8 +29,8 @@ describe "Users" do
       it "should show the about text" do
         page.source.should have_selector("p", :text => user.about)
       end
-      it "should list the projects the user is working on" do
-        page.source.should have_selector("li", :text => project.name)
+      it "should list the lessons the user has completed" do
+        page.source.should have_selector("h3", :text => "Completed Lessons")
       end
       it "should show the edit button" do
         page.source.should have_selector("button", :text => "Edit")
@@ -110,27 +110,32 @@ describe "Users" do
       it { should have_selector("h2", :text => "Students") }
       it { should have_link(user.username, :href=>user_path(user)) }
       it { should have_selector("img")}
-    
-      context "after signing in another user" do
+
+      # Obsolete after changing the algorithm to favor instead
+      # students who have most recently completed a lesson
+      # Create these specs!
+      it "should show the student with the most recently completed lesson first"    
+      # context "after signing in another user" do
         
-        before do
-          sign_out(user)
-          sign_in(other_user)
-          visit users_path
-        end
+      #   before do
+      #     sign_out(user)
+      #     sign_in(other_user)
+      #     visit users_path
+      #   end
         
-        it "should show most recently signed in user at top of list" do 
-          users = page.all("div#students-list div.student-info")
-          users[0].should have_content(other_user.username)
-          users[1].should have_content(user.username)
-        end 
+      #   it "should show most recently signed in user at top of list" do 
+      #     users = page.all("div#students-list div.student-info")
+      #     users[0].should have_content(other_user.username)
+      #     users[1].should have_content(user.username)
+      #   end 
         
-        it "should NOT show most recently signed in user NOT at top of list" do 
-          users = page.all("div#students-list div.student-info")
-          users[1].should_not have_content(other_user.username)
-          users[0].should_not have_content(user.username)
-        end 
-      end
+      #   it "should NOT show most recently signed in user NOT at top of list" do 
+      #     users = page.all("div#students-list div.student-info")
+      #     users[1].should_not have_content(other_user.username)
+      #     users[0].should_not have_content(user.username)
+      #   end 
+      # end
+
     end
       
     context "list users" do

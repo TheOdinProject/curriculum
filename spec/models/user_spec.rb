@@ -17,9 +17,6 @@ describe User do
 
   it { should respond_to(:username) }
   it { should respond_to(:email) }
-  it { should respond_to(:content_activations) }
-  it { should respond_to(:content_buckets ) }
-  it { should respond_to(:user_pref) }
   it { should respond_to(:github) }
   it { should respond_to(:twitter) }
   it { should respond_to(:linkedin) }
@@ -30,6 +27,14 @@ describe User do
   it { should respond_to(:google_plus) }
   it { should respond_to(:legal_agreement) }
   it { should respond_to(:legal_agree_date) }
+  
+  # Associations
+  it { should respond_to(:content_activations) }
+  it { should respond_to(:content_buckets ) }
+  it { should respond_to(:user_pref) }  
+  it { should respond_to(:lesson_completions) }
+  it { should respond_to(:completed_lessons) }
+  
   it { should be_valid }
 
   context "with all fields filled in" do
@@ -85,6 +90,10 @@ describe User do
     end
     it { should_not be_valid }
   end
+  
+  it "shouldn't yet have any completed lessons" do
+    expect(subject.completed_lessons).to be_empty
+  end
 
   context "when legal_agreement is blank" do
     before do
@@ -107,7 +116,7 @@ describe User do
     end
   end
 
-  context "after saving" do
+  context "after saving user" do
     before do
       subject.save!
     end
@@ -115,8 +124,55 @@ describe User do
     describe "it should create a preferences association as well" do
       its(:user_pref) { should_not be_nil }
     end
+    
+    describe "#completed_lesson?" do
+
+      context "for a lesson that has been completed" do
+
+        it "should return true" do
+          completed_lesson = double("Lesson")
+          allow(user).to receive(:completed_lessons).and_return([completed_lesson])
+          expect(user.completed_lesson?(completed_lesson)).to be_true
+        end
+
+      end
+
+      context "for a lesson that has not been completed" do
+
+        it "should return false" do
+          uncompleted_lesson = double("Lesson")
+          completed_lesson = double("Lesson")
+          allow(user).to receive(:completed_lessons).and_return([completed_lesson])
+          expect(user.completed_lesson?(uncompleted_lesson)).to be_false
+        end
+
+      end
+
+    end
+
+    describe "#latest_completed_lesson" do
+
+      context "for a user with two completed lessons" do
+
+        it "should return the latest lesson" do
+          # ??? Is there a good way to actually test this method???
+
+          # completed_lesson_early = double("Lesson")
+          # completed_lesson_late = double("Lesson")
+          # completed_time = Time.now
+          # allow(completed_lesson_early).to receive(:created_at).and_return(completed_time)
+          # allow(completed_lesson_late).to receive(:created_at).and_return(completed_time + 1.minute)
+          # allow(user).to receive(:completed_lessons).and_return([completed_lesson_early, completed_lesson_late])
+          # puts user.completed_lessons
+          # expect(user.latest_completed_lesson).to be(completed_lesson_early)
+
+        end
+      end
+
+    end
 
   end
+
 
 
 end

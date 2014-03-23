@@ -7,7 +7,17 @@
 </div>
 <div class="CoursesController">
   <div class="container">
+
+
+
     <div class="heading-box">
+
+      <% if user_signed_in? %>
+        <div class="lc-percent-completion">
+          <%= render "shared/completion_percent" %>
+        </div>
+      <% end %>
+
       <div class="heading">
         <h1><%= @course.title %></h1>
       </div>
@@ -39,37 +49,51 @@
             <% lesson_num = 0 %>
             <% section.lessons.order("position asc").each do |lesson| %>
               <% lesson_num += 1 unless lesson.is_project %>
-              <%= link_to lesson_path(lesson.course.title_url, lesson.title_url) do %>
-                <div class="lesson <%= lesson.is_project ? 'project' :''%>">
-                  <div class="lesson-number">
-                    <h3>
-                      <%= lesson.is_project ? "Project" : "Step #{lesson_num}"%>: &nbsp;
-                    </h3>
-                  </div>
 
-                  <div class="lesson-content">
-                    <div class="lesson-title">
+                <div class="lesson <%= lesson.is_project ? 'project' :''%>">
+                  
+                  <% if user_signed_in? %>
+                      <div id="lc-id-<%= lesson.id %>" class="lc-checkbox-wrapper">
+                        <%= render :partial => "shared/lc_index", :locals => { :lesson => lesson } %>
+                      </div>
+                  <% end %>
+                  
+                  <a href="<%= lesson_path(lesson.course.title_url, lesson.title_url) %>" class="lesson-link">
+                    <div class="lesson-number">
                       <h3>
-                        <%= lesson.title %>
+                        <%= lesson.is_project ? "Project" : "Step #{lesson_num}"%>: &nbsp;
                       </h3>
                     </div>
-                    <div class="description">
-                      <p>
-                        <%= lesson.description %>
-                      </p>
+  
+                    <div class="lesson-content">
+                      <div class="lesson-title">
+                        <h3>
+                          <%= lesson.title %>
+                        </h3>
+                      </div>
+                      <div class="description">
+                        <p>
+                          <%= lesson.description %>
+                        </p>
+                      </div>
                     </div>
-                  </div>
-
+                  </a>
                 </div>
-              <% end %>
+
             <% end %>
           </div>
 
         </div>
       <% end %>
+    </div>
     <div class="back-link">
       <%= link_to "Back to Courses List", courses_path %>
     </div>
+        
+    <!-- Preload the assets to avoid flickering when first used -->
+    <div class="lc-checkbox-wrapper">
+      <div class="lc-hover"></div>
+      <div class="lc-waiting"></div>
     </div>
   </div>
 </div>

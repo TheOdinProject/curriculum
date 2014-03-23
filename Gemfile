@@ -4,7 +4,6 @@ ruby '2.0.0'
 gem 'rails',              '4.0.2'
 gem 'simple_form',         '~> 3.0.1'
 gem 'jquery-rails',       '~> 3.0.4'
-gem 'jquery-ui-rails',    '~> 4.0.3'
 gem 'newrelic_rpm',       '~> 3.6.5.130'
 gem 'google-api-client',  '~> 0.6.4'
 gem 'devise',    '~> 3.2.2'          # For managing authentication
@@ -15,6 +14,7 @@ gem 'redcarpet', '~> 3.0.0' # to render the curriculum's .md files as html
 gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 gem 'protected_attributes', '~> 1.0.5'
 gem 'pg', '~> 0.17.1'
+gem 'premailer-rails'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

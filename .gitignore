@@ -11,6 +11,10 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 
+# Ignore any assets that may have been precompiled locally
+# e.g. to test run the production environment locally
+/public/assets
+
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp

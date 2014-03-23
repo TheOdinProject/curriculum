@@ -10,7 +10,7 @@ devise_for :users, :controllers => { :registrations => "registrations" }
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
-  get 'scheduler' => 'static_pages#scheduler'
+  get 'scheduler' => redirect('/courses')
   post 'thank_you' => 'static_pages#send_feedback'
   get 'selectable' => 'static_pages#selectable'
   post 'suggestion' => 'static_pages#suggestion'
@@ -23,6 +23,7 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'legal' => "static_pages#legal"
   get 'cla' => "static_pages#cla"
   get 'tou' => "static_pages#tou"
+  get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
 
   # Note: This will block any additional URL paths! Good for a while
   # while people are rediscovering /curriculum but then will need
@@ -38,7 +39,9 @@ devise_for :users, :controllers => { :registrations => "registrations" }
 
   resources :cal_events
 
-  resource :user_pref, :only => [:edit, :update]
+  # This is being hidden until needed (it was needed by the scheduler
+  # but that got killed but will still be useful later)
+  # resource :user_pref, :only => [:edit, :update]
 
   resources :users, :only => [:show, :index, :edit, :update] do
     resource :contact, :only => [:new, :create]
@@ -47,6 +50,9 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   resources :splash_emails, :only => [:create]
 
   resource :forum, :only => [:show]
+  
+  post 'lesson_completions' => 'lesson_completions#create'
+  delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => "lesson_completion"
 
   get "sitemap.xml" => "sitemap#index", :as => "sitemap", :defaults => { :format => "xml" }
 
