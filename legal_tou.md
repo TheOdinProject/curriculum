@@ -1,6 +1,6 @@
-# Terms of Use -- DRAFT
+# Terms of Use
 
-*Last Modified: 2/25/14*
+*Last Modified: 3/22/14*
 
 ### Preamble
 
@@ -16,8 +16,7 @@ Please read these Terms of Use very carefully. If you do not agree to any of the
 
 ### Changes to Terms of Use
 
-We reserve the right to change, alter, replace or otherwise modify these Terms of Use at any time. The date of last modification is stated at the end of these Terms of Use. It is your responsibility to check this page from time to time for updates.
-When we make any updates to these Terms of Use, we will highlight this fact on the Website. In addition, if you register an account and these Terms of Use are subsequently changed in any material respect (for example, for security, legal, or regulatory reasons), we will notify you in advance by sending a message to your Odin Project account and/or an email to the email address that you have provided to us, and the revised Terms of Use will become effective six (6) weeks after such notification. You will have no obligation to continue using the Platform following any such notification, but if you do not terminate your account as described in the Termination section below during such six (6) week period, your continued use of the Platform after the end of that six (6) week period will constitute your acceptance of the revised Terms of Use.
+We reserve the right to change, alter, replace or otherwise modify these Terms of Use at any time. We recommend that you periodically check this Site for changes.
 
 ### Description of the Platform
 
@@ -51,7 +50,7 @@ In addition, if you register to use the Platform, and subject to your strict com
 
 (iii) use other Services provided as part of the Platform strictly as permitted in accordance with these Terms of Use and any other terms applicable to those Services from time to time.
 
-The above licenses are conditional upon your strict compliance with these Terms of, including, without limitation, the following:
+The above licenses are conditional upon your strict compliance with these Terms, including, without limitation, the following:
 
  (i) You must not adapt, copy, republish, make available or otherwise communicate to the public, display, perform, transfer, share, distribute or otherwise use or exploit any Content on or from the Platform, except (i) where such Content is Your Content, or (ii) as permitted under these Terms of Use, and within the parameters displayed alongside that Content (for example, under the terms of Creative Commons licenses).
 
