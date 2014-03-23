@@ -37,6 +37,10 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'courses/:course_name/lessons' => 'lessons#index', :as => "lessons"
   get 'courses/:course_name/lessons/:lesson_name' => 'lessons#show', :as => "lesson"
 
+  # Clean up routing structure
+  get ':course_name' => 'lessons#index'
+  get ':course_name/:lesson_name' => 'lessons#show'
+
   resources :cal_events
 
   # This is being hidden until needed (it was needed by the scheduler
