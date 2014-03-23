@@ -37,9 +37,6 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'courses/:course_name/lessons' => 'lessons#index', :as => "lessons"
   get 'courses/:course_name/lessons/:lesson_name' => 'lessons#show', :as => "lesson"
 
-  # Clean up routing structure
-  get ':course_name' => 'lessons#index'
-  get ':course_name/:lesson_name' => 'lessons#show'
 
   resources :cal_events
 
@@ -60,4 +57,11 @@ devise_for :users, :controllers => { :registrations => "registrations" }
 
   get "sitemap.xml" => "sitemap#index", :as => "sitemap", :defaults => { :format => "xml" }
 
+
+  # Catch all other routes as courses and lessons
+  get ':course_name' => 'lessons#index'
+  get ':course_name/:lesson_name' => 'lessons#show'
+
+
 end
+
