@@ -20,10 +20,9 @@ This is a catch-all section for helpful resources like Style Guides (so your cod
 
 Javascript lets you do so many different things that it's easy to feel like you have no organizational structure.  Check out these style guides from industry leading companies to improve your stylistic instincts.
 
-* [AirBnB's JS Style Guide](https://github.com/airbnb/javascript) is very readable and helpful
-* [Google's JS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml)
-* [Github's JS Style Guide](https://github.com/styleguide/javascript)
-* [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
+1. Read [Organizing your Code from learn.jquery.com](http://learn.jquery.com/code-organization/)
+2. Browse through [AirBnB's JS Style Guide](https://github.com/airbnb/javascript) is very readable and helpful
+3. If you want some more examples of style guides, check out [Google's JS Style Guide](http://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml), [Github's JS Style Guide](https://github.com/styleguide/javascript), and the [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
 
 ### Other Helpful Stuff
 

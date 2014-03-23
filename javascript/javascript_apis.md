@@ -1,6 +1,8 @@
 # Working with Javascript APIs
 
-There are a whole lot of external APIs that you can access using simple Javascript, adding rich content or interesting functionality to your webpages. A few examples include embedding Google Maps in your page or downloading Flickr images.  You'll usually need to register your application with the API provider (and get an API key to identify yourself with when making a request) but most access is totally free.
+There are a whole lot of external APIs that you can access using simple Javascript, adding rich content or interesting functionality to your webpages. A few examples include embedding Google Maps in your page or downloading Flickr images.  
+
+To work with an API, you will usually need to register your application with the API provider (and get an API key to identify yourself with when making a request).  After that initial setup, most access is often free.
 
 ## Your Assignment
 
