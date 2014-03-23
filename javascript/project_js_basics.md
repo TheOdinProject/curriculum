@@ -1,11 +1,39 @@
-## Project: Javascript Basics
+# Project: Javascript Basics
   
-Drill-style bite-sized challenges, TBD.
+In this project, you'll be building many simple exercises to drill in your understanding of the language.  You can write them in a script file in your text editor and then run them by copy-pasting into [JS Fiddle](http://jsfiddle.net).  You can run your functions (e.g. `my_max()` below) by console logging their output with something like `console.log(my_max([1,56,2,3,-1,0]))` (which would output 56).
 
-* [Tutorials for Javascript and jQuery from Jumpstart Lab](http://tutorials.jumpstartlab.com/)
+Save your solutions to Github and submit them for inclusion here when you're finished!
+
+## Warmup
+
+1. Build a function `my_max()` which takes an array and returns the maximum number.
+2. Build a function `vowel_count()` which takes a string and returns the number of vowels (AEIOUY).
+3. Build a function `reverse()` which takes a string and returns all the characters in the opposite position, e.g. `reverse("this is a string") // "gnirts a si siht"`
+
+## Calculator
+
+It's time to build an on-screen calculator
+
+1. Build a function `add()` which takes two numbers and adds them together.
+2. Build `multiply`, `divide` and `subtract` functions in a similar fashion.
+3. Build a grid of `<div>`s in the browser that are labeled with the numbers 0-9.
+4. Set up a listener so when the user clicks on one of these squares, it displays that number in the console log.  This can be done by assigning a function to the `onClick()` property of the div (use this if you haven't been introduced to jQuery listeners before).  It's okay to hard-code them in for now (e.g. `onClick(function(){ console.log "1" })`)
+5. Now add "buttons" (more divs) to your calculator which represent "+", "-", "*", "/", "=" and "clear".
+6. Make your calculator work!  This means that you'll need to "save" the first number that is pressed (to a variable or array) and you'll also need to "save" which operation has been chosen (e.g. addition).  Once the equals sign is pressed, it should run a function which evaluates the expression by calling the simple functions you created earlier and outputting the result to the command line.  It may take some practice to be able to pass the values from your "buttons" to your main calculator function.  It's a bit tricky, but you can do it.
+7. Pressing "=" or "clear" should clear any saved variables or operations so you can start over.
+8. Extra credit: If you're comfortable with jQuery, create a "screen" for your calculator -- another `<div>` which displays the numbers and the results like a normal calculator would.
+
+
+## Student Solutions
+
+*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+
+* *Your solution here!*
+
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* [Tutorials for Javascript and jQuery from Jumpstart Lab](http://tutorials.jumpstartlab.com/)
 * *Add some!*
