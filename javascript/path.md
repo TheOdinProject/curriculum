@@ -26,13 +26,13 @@ We'll zoom through the basics of Javascript and how it's used in the browser wit
     A deep dive back into the basics to make sure you've got the proper foundation for what's coming next.
 3. PROJECT: Javascript Basics
     /project_js_basics.md
-
+    Get warmed up with some JS calisthenics and by building an on-screen calculator.
 4. jQuery Basics
     /jq_basics.md
     Another deep dive into the basics, this time focusing on using jQuery to manipulate elements on the page.
 5. PROJECT: Messing with the DOM
     /project_jq_basics.md
-
+    Create a single-page restaurant app completely using Javascript and jQuery.
 9. Additional Helpful Stuff
     /additional_stuff.md
     Here we'll cover everything from using best practices for organizing your code to helpful libraries and security.
@@ -48,7 +48,7 @@ Events drive just about everything you'll do with Javascript in the browser. We'
     Learn how to use events to drive your user experience.
 7. PROJECT: jQuery and the DOM
     /project_events_effects.md
-
+    Build a Snake game, just like you probably played in 2-color on your first cell phone.
 8. Building Widgets
     /widgets.md
     See the fun side of jQuery by checking out some of the nifty widgets you can build with it.
