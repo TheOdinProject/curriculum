@@ -32,7 +32,7 @@
           <abbr title="required">*</abbr>
           <%= check_box_tag "user[legal_agreement]", true, false %>
           <span class="legal-text">
-            I agree to the <%= link_to "Terms of Use and CLA", legal_path, :target => :blank %>
+            I agree to the <%= link_to "Terms of Use", tou_path, :target => :blank %> and <%= link_to "CLA", cla_path, :target => :blank %>
           </span>
         </div>
         <% if legal_errors %>
