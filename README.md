@@ -1,5 +1,4 @@
-# The Odin Project
-## [Learn Web Development for Free](http://theodinproject.com)  
+# The Odin Project: [Learn Web Development for Free](http://theodinproject.com)  
 
 v0.1.1
 
