@@ -1,5 +1,4 @@
-# [The Odin Project](http://theodinproject.com)
-## The Free Way to Learn Web Development with Ruby on Rails
+# [Learn Web Development Free with The Odin Project](http://theodinproject.com)
 
 v0.1.1
 
