@@ -1,4 +1,4 @@
-# Project: Javascript Basics
+# Project: Building An On Screen Calculator Using Javascript
   
 You've done a lot of Codecademy lately and so it's time to wean yourself off their super-friendly environment and create some Javascript on your own computer.
 

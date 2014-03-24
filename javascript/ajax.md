@@ -1,4 +1,4 @@
-# Submitting a Form Without Refreshing Using AJAX
+# Submitting a Form Without Reloading by Using AJAX
 
 Callbacks, with which you should be pretty familiar by now, are very useful for things like browser events but they're essential when using AJAX (Asynchronous JSON and XML).  AJAX sends data (or a request for data) to your server backend without blocking the browser from doing other activities while you wait for a response.  You pass the AJAX function a callback and, when the server response is finally received, you will activate the callback with whatever has been returned and continue on your way.  
 

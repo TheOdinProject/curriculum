@@ -1,4 +1,4 @@
-# Organizing Your Code and More
+# Organizing Your Javascript Code and More
 
 This is a catch-all section for helpful resources like Style Guides (so your code follows established conventions), libraries, regular expressions, page loading, Local Storage in the browser and security.
 

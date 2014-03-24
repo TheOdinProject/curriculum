@@ -25,17 +25,17 @@ We'll zoom through the basics of Javascript and how it's used in the browser wit
 2. Javascript Basics
     /js_basics.md
     A deep dive back into the basics to make sure you've got the proper foundation for what's coming next.
-3. PROJECT: Javascript Basics
+3. PROJECT: On Screen Calculator
     /project_js_basics.md
     Get warmed up with some JS calisthenics and by building an on-screen calculator.
 4. jQuery Basics
     /jq_basics.md
     Another deep dive into the basics, this time focusing on using jQuery to manipulate elements on the page.
-5. PROJECT: jQuery and the DOM
+5. PROJECT: Manipulating the DOM with jQuery
     /project_jq_basics.md
     Create a single-page restaurant app completely using Javascript and jQuery.
 9. Organizing Your Code and More
-    /additional_stuff.md
+    /organizing_code.md
     Here we'll cover everything from using best practices for organizing your code to helpful libraries and security.
 
 
@@ -55,19 +55,19 @@ Events drive just about everything you'll do with Javascript in the browser. We'
     See the fun side of jQuery by checking out some of the nifty widgets you can build with it.
 9. PROJECT: Creating an Image Carousel/Slider
     /project_widgets.md
-    Get some practice building widgets of your own by creating an image carousel similar to what you find on many websites in the wild.
+    Get some practice building widgets of your own by creating an image carousel just like what you find on many websites in the wild.
 
 ## Deeper into Javascript
 
 ### Description
 You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But this section will take you deeper into how Javascript is actually doing things and it will give you the tools to produce more advanced functionality for your sites.  Some of the previous projects have probably tested the boundaries of your understanding of Javascript, and here we'll fix that.
 
-1. Objects, "Classes", and Prototypes
+1. Objects, 'Classes', and Prototypes
     /objects_prototypes.md
     Learn how to effectively use Javascript objects and DRY up your code with Prototypes.
 2. Scope and Closures
     /scope_closures.md
-    Scopes get a bit tricky in Javascript because functions are being passed around and called in many different contexts.
+    Scope gets a bit tricky in Javascript because functions are being passed around and called in many different contexts.
 3. PROJECT: Tic Tac Toe
     /project_scopes_closures.md
     Let's bring the classic Tic Tac Toe game to the browser.
@@ -79,7 +79,7 @@ You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But t
     Functions are first class citizens in Javascript, and here you'll see why.
 6. PROJECT: Minesweeper
     /project_functions.md
-    It's time to get a bit more complex by bringing back minesweeper, the only decent game that used to ship with Windows back in the day.
+    It's time to get a bit more complex by bringing back minesweeper, the only decent game that used to come with Windows back in the day.
 
 ## Advanced Browser Work
 
@@ -113,7 +113,7 @@ In this section you'll learn about AJAX, the technology which allows you to send
 2. PROJECT: Validating a Form with jQuery
     /project_forms.md
     A chance to use jQuery's Validate plugin and then roll your own form validation.
-3. Submitting a Form Without Refreshing Using AJAX
+3. Submitting a Form Without Reloading by Using AJAX
     /ajax.md
     AJAX is the missing link between a seamless client-side experience and your server-side code.
 4. PROJECT: Infinite Scroll and Submitting a Form with AJAX
@@ -123,7 +123,7 @@ In this section you'll learn about AJAX, the technology which allows you to send
 ## Linking to APIs and Your Rails Back End
 
 ### Description
-A real web app needs a back end in order to persist its data and do sensitive operations.  Here you'll learn how to handle use AJAX to send data requests to your Rails backend.  You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future.
+A real web app needs a back end in order to persist its data and do sensitive operations.  Here you'll learn how to handle use AJAX to send data requests to your Rails back end.  You'll also get a chance to work with external APIs like Google Maps, which is something you'll probably find yourself doing quite frequently as you build your own projects in the future.
 
 1. Working with Javascript APIs
     /javascript_apis.md
@@ -136,29 +136,29 @@ A real web app needs a back end in order to persist its data and do sensitive op
     You've got experience working with APIs, now it's time to treat your Rails app like one.
 4. PROJECT: Where's Waldo (A Photo Tagging App)
     /project_rails_backend.md
-    Pull together everything you've learned so far to create a "Where's Waldo" game.
+    Pull together everything you've learned so far to create a \"Where's Waldo?\" game.
 
-## Server Side Javascript and Single Page Apps (Optional)
+## Server Side Javascript and Javascript Frameworks
 
 ### Description
-This is an optional section where you will learn about using Javascript to run your server (instead of Ruby) and also about Javascript frameworks which let you build a full website as a single page run by Javascript to create blazing fast user experiences.
+This is an **OPTIONAL** section where you will learn about using Javascript to run your server (instead of Ruby) and also about Javascript frameworks which let you build a full website as a single page run by Javascript to create blazing fast user experiences.
 
-1. Node.js and Server-Side Javascript (Optional)
+1. Node.js and Server-Side Javascript
     /server_side_js.md
     These days you never have to leave your beloved Javascript behind because now it can run on the server side too with Node.
 2. PROJECT: Node.js
     /project_node.md
     Fire up a Node server and play around with it, because that's how we learn.
-3. Using Templates (Optional)
+3. Using Templates
     /templating.md
     Templating brings the magical re-usability of layouts to the client side.
-4. Javascript MV* Frameworks Like Angular.js and Backbone.js (Optional)
+4. Javascript MV* Frameworks Like Angular.js and Backbone.js
     /js_frameworks.md
-    The new crop of Javascript frameworks will help organize your tangled mess of AJAX calls, templates, and jQuery updates and will turbocharge your ability to produce excellent front ends.
+    The new crop of Javascript frameworks will help organize your tangled mess of AJAX calls, templates, and jQuery updates and will turbo charge your ability to produce excellent front ends.
 5. PROJECT: Building Single Page Websites with Angular.js and Backbone.js
     /project_js_frameworks.md
     Take a framework of your choice for a test drive with these established tutorials.
-6. Workflow Tools, Tech Stacks and Dependency Management (Optional)
+6. Workflow Tools, Tech Stacks and Dependency Management
     /workflow_tools.md
     A few tools that are meant to clean up your worfklows.
 
