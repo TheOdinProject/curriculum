@@ -6,7 +6,7 @@ You're absolutely capable of getting a job but it's rarely easy to find one.  Yo
 
 This is as much an odds game as anything is, especially for first-time employees who haven't been "proven" by past experience.  That means you'll get your fair share of rejection along the way but everyone does.  You just need to keep building your skills and portfolio to make yourself a stronger candidate while continuing to send applications and get yourself out there every day.  
 
-This course will lay out a structured path to follow which should help you avoid some of the pitfalls of just diving into the process without a plan.  Good luck and get after it!
+This course will lay out a structured path to follow which should help you avoid some of the pitfalls of just diving into the process without a plan.  **Read through this course completely once then use it step-by-step along the way as you go through the process**.  Good luck and get after it!
 
 ## This is a Work In Progress!
 
