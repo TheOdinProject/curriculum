@@ -106,5 +106,14 @@ and click "OK".
 
 ## Now that you're up and running... [Come Help Out!](http://theodinproject.com/contributing)
 
+## Significant Contributors
+
+* [Erik Trautman](https://github.com/eriktrautman)
+* [Afshin Moktari](https://github.com/afshinator)
+* [Josh Gorchov](https://github.com/gorchov)
+* [Joe Sawyer](https://github.com/zkay)
+* [Bill Walker](https://github.com/mach1010)
+* [Neil Gehani](https://github.com/ngehani)
+
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
