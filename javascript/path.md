@@ -5,8 +5,8 @@ TODO:
 3. DONE Massage lessons into real lessons
 4. DONE Rework the ordering to create more sections
 5. DONE Fill in lesson descriptions
-6. Fill in projects
-7. Fill in Project descriptions
+6. DONE Fill in projects
+7. DONE Fill in Project descriptions
 6. SEO up the titles
 7. Finalize ordering
 8. P2P on javascript APIs
@@ -148,7 +148,7 @@ This is an optional section where you will learn about using Javascript to run y
     These days you never have to leave your beloved Javascript behind because now it can run on the server side too with Node.
 2. PROJECT: Node.js
     /project_node.md
-
+    Fire up a Node server and play around with it, because that's how we learn.
 3. Javascript Templating (Optional)
     /templating.md
     Templating brings the magic of layouts to the client side.
@@ -157,7 +157,7 @@ This is an optional section where you will learn about using Javascript to run y
     The new crop of Javascript frameworks will help organize your tangled mess of AJAX calls, templates, and jQuery updates and will turbocharge your ability to produce excellent front ends.
 5. PROJECT: Backbone.js or Angular.js
     /project_js_frameworks.md
-
+    Take a framework of your choice for a test drive with these established tutorials.
 6. Workflow Tools, Tech Stacks and Dependency Management (Optional)
     /workflow_tools.md
     A few tools that are meant to clean up your worfklows.
@@ -172,7 +172,7 @@ You've learned everything you need and all that remains to do is apply that know
     ...because if you can't test it, you won't know when you've broken it.
 8. PROJECT: Final Project
     /project_final_js.md
-
+    Tie everything you've learned from every course so far into one project where you'll build your favorite website from scratch.
 9. Conclusion
     /conclusion.md
     Well, that was easy, right?
