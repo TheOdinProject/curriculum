@@ -18,6 +18,14 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 4. Test out all possible cases.
 5. Push your solution to Github and submit it below.
 
+
+## Student Solutions
+
+*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+
+* *Your solution here!*
+
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

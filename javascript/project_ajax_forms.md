@@ -1,11 +1,35 @@
-
-## Project: AJAX and Forms
+# Project: AJAX for Form Submissions and Infinite Scroll
   
-Work with [an existing free and open API called OMDB](http://www.omdbapi.com/)) to implement a form submission (with some validations too!) for a new movie.  
+Because we haven't yet linked your front end projects to your back end Rails APIs, in this project you'll get a chance to set up a front end form but submit to an existing API on the internet called the [Open Movie Database (OMDB)](http://www.omdbapi.com/))(modeled after [IMDB](http://imdb)). Read through the OMDB documentation before getting started so you have an idea of how you might submit a new movie entry.
 
-Create a "loading..." status while AJAX is processing.
 
-Finally, create an infinite scroll that keeps loading movies using AJAX as you scroll down.  
+## Your Task
+
+Create a form which will submit a new movie to the database.  You should validate that the title and other required attributes are not blank.
+
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a blank HTML document
+1. Think about how you will need to set up the form and then how that form will submit to the OMDB API.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
+2. Write the simple form elements.  Don't worry about styling them.
+3. Build the validation logic.
+4. Make the form actually submit a movie to the database.
+4. Create a "loading..." status while AJAX is processing and which disappears after the AJAX call has finished.
+5. Play around with this form
+
+## Part II: Infinite Scroll
+
+5. Once you have successfully submitted a new movie to the database, let's grab a whole bunch of movies and display them.  Remove the form from the page with jQuery and then make another AJAX call to the database to retrieve and display 10 movies on your page. 
+6. Create an infinite scroll that loads another 10 movies and adds them to the bottom every time you scroll down to the bottom of the page.  Your "loading..." icon should come into play here too while waiting for the next batch of movies to be added.
+7. Play around with this new scroll.  What breaks it?
+8. Push your solution to Github and include it below.
+
+
+## Student Solutions
+
+*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+
+* *Your solution here!*
+
 
 ## Additional Resources
 

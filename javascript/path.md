@@ -116,9 +116,9 @@ In this section you'll learn about AJAX, the technology which allows you to send
 3. Using AJAX to Talk to Your Server
     /ajax.md
     AJAX is the missing link between a seamless client-side experience and your server-side code.
-4. PROJECT: AJAX and Forms
+4. PROJECT: AJAX for Forms and Infinite Scroll
     /project_ajax_forms.md
-
+    We'll play with using AJAX calls to an open API called the OMDB, creating a simple submission form and a movies display that never stops giving you movies when you scroll down.
 
 ## Linking to APIs and Your Rails Back End
 
