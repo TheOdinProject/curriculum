@@ -1,4 +1,4 @@
-# Deep Dive into Functions
+# Really Understanding Javascript Functions
 
 We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you 
 

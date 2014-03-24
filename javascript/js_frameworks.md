@@ -1,4 +1,4 @@
-# Javascript MV* Frameworks Like Angular.js (Optional)
+# Javascript MV* Frameworks Like Angular.js and Backbone.js (Optional)
 
 Javascript frameworks take the ideas of templating, e.g. moving logic from your server to the client, to the next level.  With these frameworks, you can run your entire web application without ever reloading the page.  The frameworks are all different, but they typically combine templating tools with client-side models that use AJAX to stay current with your back end.
 

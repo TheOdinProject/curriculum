@@ -7,9 +7,9 @@ TODO:
 5. DONE Fill in lesson descriptions
 6. DONE Fill in projects
 7. DONE Fill in Project descriptions
-6. SEO up the titles
-7. Finalize ordering
-8. P2P on javascript APIs
+6. DONE SEO up the titles
+7. DONE Finalize ordering
+8. ??? P2P on javascript APIs
 8. Add to seeds and Deploy
 9. Flesh out incomplete projects
 
@@ -31,15 +31,15 @@ We'll zoom through the basics of Javascript and how it's used in the browser wit
 4. jQuery Basics
     /jq_basics.md
     Another deep dive into the basics, this time focusing on using jQuery to manipulate elements on the page.
-5. PROJECT: Messing with the DOM
+5. PROJECT: jQuery and the DOM
     /project_jq_basics.md
     Create a single-page restaurant app completely using Javascript and jQuery.
-9. Additional Helpful Stuff
+9. Organizing Your Code and More
     /additional_stuff.md
     Here we'll cover everything from using best practices for organizing your code to helpful libraries and security.
 
 
-## Events and Effects
+## Events, Effects and Widgets
 
 ### Description
 Events drive just about everything you'll do with Javascript in the browser. We'll take a closer look at how they work and the kinds of things that they allow you to do.
@@ -50,10 +50,10 @@ Events drive just about everything you'll do with Javascript in the browser. We'
 7. PROJECT: jQuery and the DOM
     /project_events_effects.md
     Build a Snake game, just like you probably played in 2-color on your first cell phone.
-8. Building Widgets
+8. Using jQuery UI to Build Widgets
     /widgets.md
     See the fun side of jQuery by checking out some of the nifty widgets you can build with it.
-9. PROJECT: Widgets
+9. PROJECT: Creating an Image Carousel/Slider
     /project_widgets.md
     Get some practice building widgets of your own by creating an image carousel similar to what you find on many websites in the wild.
 
@@ -65,19 +65,19 @@ You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But t
 1. Objects, "Classes", and Prototypes
     /objects_prototypes.md
     Learn how to effectively use Javascript objects and DRY up your code with Prototypes.
-2. Javascript Scopes and Closures
-    /scopes_closures.md
+2. Scope and Closures
+    /scope_closures.md
     Scopes get a bit tricky in Javascript because functions are being passed around and called in many different contexts.
-3. PROJECT: Javascript Scopes and Closures
+3. PROJECT: Tic Tac Toe
     /project_scopes_closures.md
     Let's bring the classic Tic Tac Toe game to the browser.
 4. Comparing Javascript and Ruby: Going Functional
     /comparing_to_ruby.md
     A brief primer for translating your Ruby knowledge into Javascript 
-5. Deep Dive into Functions
+5. Really Understanding Functions in Javascript
     /deep_dive_functions.md
     Functions are first class citizens in Javascript, and here you'll see why.
-6. PROJECT: Not-So-Basic Javascript
+6. PROJECT: Minesweeper
     /project_functions.md
     It's time to get a bit more complex by bringing back minesweeper, the only decent game that used to ship with Windows back in the day.
 
@@ -86,37 +86,37 @@ You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But t
 ### Description
 There's a whole lot more to using Javascript in the browser than just manipulating simple DOM elements with jQuery.  If you want to grab data from external sites or your own back end, submit forms, or handle more complicated games, you'll need to dig deeper into how Javascript handles things like callbacks.  Here we'll also cover how to build games using HTML5's `<canvas>` element, which lets you use Javascript logic to draw shapes.  
 
-1. Taking Javascript to the Browser
+1. Loading Javascript in the Browser
     /js_to_browser.md
     A very quick look at how and when to load Javascript.
-2. Living in an Event-Driven World
+2. Callbacks: Living in an Event-Driven World
     /event_driven.md
     This will connect what you know about events with a standard pattern for hooking into those events -- the callback.
-4. PROJECT: Callback Madness
+4. PROJECT: Callbacks
     /project_callbacks.md
     A chance to apply what you've learned about callbacks by building another in-browser app.
 5. Using Canvas to Draw and More
     /canvas.md
     Once you can use canvas, you're only limited by your creativity (and maybe your geometry skills).
-6. PROJECT: Arcade Games with Canvas
+6. PROJECT: Building Games with Canvas
     /project_canvas.md
     You'll see how much fun it can be to build with canvas as we bring back the classics with Missile Command!
 
-## Submitting Data with AJAX
+## Better Forms with jQuery and AJAX
 
 ### Description
 In this section you'll learn about AJAX, the technology which allows you to send data from the browser to your web application without needing to refresh the page.  It's commonly used with forms, but really represents a whole world of possibility for crafting performant user experiences.
 
-1. Front End Forms and jQuery
+1. Validating Form Inputs Using jQuery
     /jquery_forms.md
     You're an expert in forms by now, but here we'll focus on using jQuery to hook into them.
-2. PROJECT: Front End Forms
+2. PROJECT: Validating a Form with jQuery
     /project_forms.md
     A chance to use jQuery's Validate plugin and then roll your own form validation.
-3. Using AJAX to Talk to Your Server
+3. Submitting a Form Without Refreshing Using AJAX
     /ajax.md
     AJAX is the missing link between a seamless client-side experience and your server-side code.
-4. PROJECT: AJAX for Forms and Infinite Scroll
+4. PROJECT: Infinite Scroll and Submitting a Form with AJAX
     /project_ajax_forms.md
     We'll play with using AJAX calls to an open API called the OMDB, creating a simple submission form and a movies display that never stops giving you movies when you scroll down.
 
@@ -131,7 +131,7 @@ A real web app needs a back end in order to persist its data and do sensitive op
 2. PROJECT: Putting Google Maps Onto Your Site
     /project_apis.md
     Just about every business has a contact page with a map pointing to their location.  Build one with the Google Maps API.
-3. Working with a Rails Back End and API
+3. Using Ruby on Rails For Your Back End
     /rails_backend.md
     You've got experience working with APIs, now it's time to treat your Rails app like one.
 4. PROJECT: Where's Waldo (A Photo Tagging App)
@@ -149,13 +149,13 @@ This is an optional section where you will learn about using Javascript to run y
 2. PROJECT: Node.js
     /project_node.md
     Fire up a Node server and play around with it, because that's how we learn.
-3. Javascript Templating (Optional)
+3. Using Templates (Optional)
     /templating.md
-    Templating brings the magic of layouts to the client side.
-4. Javascript MV* Frameworks Like Angular.js (Optional)
+    Templating brings the magical re-usability of layouts to the client side.
+4. Javascript MV* Frameworks Like Angular.js and Backbone.js (Optional)
     /js_frameworks.md
     The new crop of Javascript frameworks will help organize your tangled mess of AJAX calls, templates, and jQuery updates and will turbocharge your ability to produce excellent front ends.
-5. PROJECT: Backbone.js or Angular.js
+5. PROJECT: Building Single Page Websites with Angular.js and Backbone.js
     /project_js_frameworks.md
     Take a framework of your choice for a test drive with these established tutorials.
 6. Workflow Tools, Tech Stacks and Dependency Management (Optional)

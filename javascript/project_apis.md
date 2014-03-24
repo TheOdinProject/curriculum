@@ -1,4 +1,4 @@
-# Project: Putting Google Maps Onto Your Site
+# Project: Putting Google Maps Onto Your Site with Javascript
 
 In this simple project, you'll interact with one of the most ubiquitous APIs out there: Google Maps.  It has TONS of really cool functionality (you can basically make a map that does anything you want) but here we'll just get some more experience with placing an API object on a page.  You'll get some practice with reading API documentation, because we won't tell you how to do what you need to do here.
 

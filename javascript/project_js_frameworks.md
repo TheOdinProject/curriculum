@@ -1,4 +1,4 @@
-# Project: Backbone.js or Angular.js
+# Project: Building Single Page Websites using Angular.js and Backbone.js
 
 This project has two possibilities -- you can use Backbone.js if you'd like something that's a bit more explicit and well documented or Angular.js if you'd like to try something a bit more cutting edge.  Just pick one, don't try both (focus!).
 

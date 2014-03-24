@@ -1,4 +1,4 @@
-# Working with a Rails Back End and API
+# Using Ruby on Rails for your Back End
 
 It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
 

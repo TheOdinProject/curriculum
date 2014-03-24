@@ -1,4 +1,4 @@
-# Project: Messing with the DOM
+# Project: jQuery and the DOM
 
 Now that you've gotten your hands dirty and learned some real jQuery, it's time to apply it by generating an entire webpage using just Javascript and jQuery.  The webpage will be a simple restaurant home page but the principle of using Javascript to dynamically (re)render the page should stick with you.
 

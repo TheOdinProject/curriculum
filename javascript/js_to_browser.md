@@ -1,4 +1,4 @@
-# Taking Javascript to the Browser
+# Loading Javascript in the Browser
 
 A *very* brief look back into the idea that browser loading matters (maybe).
 

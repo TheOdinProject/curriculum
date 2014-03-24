@@ -1,4 +1,4 @@
-# Project: Browser Arcade Games with Canvas
+# Project: Using Canvas to Build Games in the Browser
   
 Canvas takes a bit of getting used to because you probably aren't familiar with the steps involved in rendering specific shapes, but once you get the hang of it the sky's the limit on what you can produce.  You'll see in this project, where we bring back one of the classics -- [Missile Command](http://en.wikipedia.org/wiki/Missile_Command).  You can (and should) [play it here](http://my.ign.com/atari/missile-command) to get a feel for the game.
 

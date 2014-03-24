@@ -1,4 +1,4 @@
-# Front End Forms
+# Validating Form Inputs Using jQuery
 
 Forms are the user's window into your back end.  You've learned a whole lot about them in previous lessons, but here we'll focus on using jQuery to interact with your forms and in the next lesson we'll look at actually submitting them asynchronously with AJAX.  
 

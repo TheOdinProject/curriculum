@@ -1,4 +1,4 @@
-# Workflow Tools, Tech Stacks and Dependency Management (Optional)
+# Workflow Tools, Tech Stacks and Dependency Management in Javascript (Optional)
 
 Very briefly, managing dependencies is something we've had to deal with many times in the past so far -- for example, you can't load jQuery UI before jQuery since it depends on jQuery being there first.  The same applies to packages in Node.  People have built tools to help you get it right.  
 

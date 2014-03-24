@@ -1,4 +1,4 @@
-# Project: Callback Madness
+# Project: Javascript Callbacks
 
 Coming soon... 
 

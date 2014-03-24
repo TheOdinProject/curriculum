@@ -1,4 +1,4 @@
-# Building Widgets
+# Using jQuery UI to Build Widgets
 
 Working with jQuery is a whole lot of fun... and here's why.  jQuery basically drives all the nifty tooltips, modals, lightboxes, sliders, and other widgets you see on a webpage.  Just about everything you've ever seen on the web can be done with a combination of the Javascript and jQuery you now know.  Let's take a look at some of them in greater depth.
 

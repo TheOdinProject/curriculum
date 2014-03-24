@@ -1,4 +1,4 @@
-# Project: Javascript Scopes and Closures
+# Project: Tic Tac Toe in Javascript
 
 If you went through the [Ruby course](/ruby-programming), you had a chance to build Tic Tac Toe to test your OOP skills.  If you did, you'll have a leg up because you'll be building those project now for the browser.
 

@@ -1,4 +1,4 @@
-# Final Project
+# Tying Together HTML, CSS, Ruby, Rails, and Javascript into a Final Project
 
 I hope you enjoyed this course and the projects you've completed.  This isn't just the end of the Javascript projects, but all the programming course projects!  It represents the entire spectrum of knowledge you've acquired so far (which is a whole lot).
 

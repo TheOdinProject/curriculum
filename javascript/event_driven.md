@@ -1,4 +1,4 @@
-# Living in an Event-Driven World
+# Javascript Callbacks: Living in an Event-Driven World
 
 We've already looked at scopes and functions quite a bit and you've had a chance to play with callbacks already, but here we'll dig deeper.  Events are everywhere in Javascript, and you almost always want to do something when the event has finished running (or if there's been an error).  That's where the callback comes in.
 

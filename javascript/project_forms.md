@@ -1,4 +1,4 @@
-# Project: Front End Forms
+# Project: Validating a Form with jQuery
 
 We'll take a step away from games and back to the real world for a relatively simple project where you'll get a chance to build and validate a form.  For inspiration, go to [Mint.com's signup form](https://wwws.mint.com/login.event?task=S) and see how it gives you error messages if you fail to enter the proper information.
 

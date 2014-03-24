@@ -1,4 +1,4 @@
-# Project: Where's Waldo (a Photo Tagging App)
+# Project: Using a Rails Back End to Build "Where's Waldo" (a Photo Tagging App)
 
 This project will finally give you a chance to tie together everything you've learned so far.  It's a project with a lot of complexity so take it one step at a time.  Working with Rails as a back end is pretty straightforward but you'll be juggling some of the front end functionality too.  This is entirely within the realm of the kind of thing you might be asked to build on the job (though of course not exactly).  Are you ready???
 

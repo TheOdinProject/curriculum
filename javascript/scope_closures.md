@@ -1,4 +1,4 @@
-# Javascript Scopes and Closures
+# Javascript Scope and Closures
 
 With all these functions going around, we've got to keep track of scope!  Which variables got set where?  Who can access what? What is this mysterious `this` variable which seems to embody everything strange and complicated-seeming about Javascript scope? 
 
