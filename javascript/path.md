@@ -54,7 +54,7 @@ Events drive just about everything you'll do with Javascript in the browser. We'
     See the fun side of jQuery by checking out some of the nifty widgets you can build with it.
 9. PROJECT: Widgets
     /project_widgets.md
-
+    Get some practice building widgets of your own by creating an image carousel similar to what you find on many websites in the wild.
 
 ## Deeper into Javascript
 
@@ -69,7 +69,7 @@ You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But t
     Scopes get a bit tricky in Javascript because functions are being passed around and called in many different contexts.
 3. PROJECT: Javascript Scopes and Closures
     /project_scopes_closures.md
-
+    Let's bring the classic Tic Tac Toe game to the browser.
 4. Comparing Javascript and Ruby: Going Functional
     /comparing_to_ruby.md
     A brief primer for translating your Ruby knowledge into Javascript 
