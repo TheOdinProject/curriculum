@@ -189,6 +189,10 @@ The Odin Project has an active community of users, many of whom organize and att
 
 From time to time, some The Odin Project users may promote competitions, promotions, prize draws and other similar opportunities on the Platform (“Third Party Competitions”). The Odin Project is not the sponsor or promoter of these Third Party Competitions, and does not bear any responsibility or liability for the actions or inactions of any third parties who organize, administer or are otherwise involved in any of promotion of these Third Party Competitions. If you wish to participate in any of these Third Party Competitions, it is your responsibility to read the terms and conditions applicable to the relevant Third Party Competition and to ensure that you understand the rules and any eligibility requirements, and are lawfully able to participate in such Third Party Competitions in your country of residence.
 
+### Employment and Salary Waiver
+
+You agree that in no way does your use of this site imply that you will be able to find a job or that you should find a job.  This site does NOT guarantee you a job based on using the information contained within.  All salary information provided is purely for information purposes and your own case may vary widely.
+
 ### Changes to the Platform and Accounts
 
 The Odin Project reserves the right at any time and for any reason to suspend, discontinue, terminate or cease providing access to the Platform or any part thereof, temporarily or permanently, and whether in its entirety or with respect to individual territories only. In the case of any temporary or permanent suspension, discontinuation, termination or cessation of access, The Odin Project shall use its reasonable endeavors to notify registered users of such decision in advance.
