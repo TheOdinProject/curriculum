@@ -10,7 +10,8 @@ TODO:
 6. SEO up the titles
 7. Finalize ordering
 8. P2P on javascript APIs
-8. Add to seeds
+8. Add to seeds and Deploy
+9. Flesh out incomplete projects
 
 ## The Basics and the Browser
 
@@ -78,12 +79,12 @@ You can do a lot with just basic Javascript, jQuery and a hacker mindset.  But t
     Functions are first class citizens in Javascript, and here you'll see why.
 6. PROJECT: Not-So-Basic Javascript
     /project_functions.md
-
+    It's time to get a bit more complex by bringing back minesweeper, the only decent game that used to ship with Windows back in the day.
 
 ## Advanced Browser Work
 
 ### Description
-There's a whole lot more to using Javascript in the browser than just manipulating simple DOM elements with jQuery.  If you want to grab data from external sites or your own back end, submit forms, or handle more complicated games, you'll need to dig deeper into how Javascript handles things like callbacks.  Here we'll also cover how to build games using HTML5's `<canvas>` element, which let you use Javascript logic to draw shapes.  
+There's a whole lot more to using Javascript in the browser than just manipulating simple DOM elements with jQuery.  If you want to grab data from external sites or your own back end, submit forms, or handle more complicated games, you'll need to dig deeper into how Javascript handles things like callbacks.  Here we'll also cover how to build games using HTML5's `<canvas>` element, which lets you use Javascript logic to draw shapes.  
 
 1. Taking Javascript to the Browser
     /js_to_browser.md
@@ -93,13 +94,13 @@ There's a whole lot more to using Javascript in the browser than just manipulati
     This will connect what you know about events with a standard pattern for hooking into those events -- the callback.
 4. PROJECT: Callback Madness
     /project_callbacks.md
-
+    A chance to apply what you've learned about callbacks by building another in-browser app.
 5. Using Canvas to Draw and More
     /canvas.md
     Once you can use canvas, you're only limited by your creativity (and maybe your geometry skills).
 6. PROJECT: Arcade Games with Canvas
     /project_canvas.md
-
+    You'll see how much fun it can be to build with canvas as we bring back the classics with Missile Command!
 
 ## Submitting Data with AJAX
 
@@ -111,7 +112,7 @@ In this section you'll learn about AJAX, the technology which allows you to send
     You're an expert in forms by now, but here we'll focus on using jQuery to hook into them.
 2. PROJECT: Front End Forms
     /project_forms.md
-
+    A chance to use jQuery's Validate plugin and then roll your own form validation.
 3. Using AJAX to Talk to Your Server
     /ajax.md
     AJAX is the missing link between a seamless client-side experience and your server-side code.

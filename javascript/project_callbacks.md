@@ -1,6 +1,6 @@
-## Project: Callback Madness
+# Project: Callback Madness
 
-Build a crazy callback application.  Put Snake here?
+Coming soon... 
 
 ## Additional Resources
 
