@@ -26,19 +26,7 @@
       <%= f.input :password_confirmation, :required => true %>
 
       <!-- don't forget about our legal agreements checkbox! -->
-      <% legal_errors = f.error :legal_agreement %>
-      <div class="legal-wrapper">
-        <div class="legal-checkbox <%= 'error' if legal_errors %>">
-          <abbr title="required">*</abbr>
-          <%= check_box_tag "user[legal_agreement]", true, false %>
-          <span class="legal-text">
-            I agree to the <%= link_to "Terms of Use", tou_path, :target => :blank %> and <%= link_to "CLA", cla_path, :target => :blank %>
-          </span>
-        </div>
-        <% if legal_errors %>
-          <%= legal_errors %>
-        <% end %>
-      </div>
+      <%= render :partial => "devise/shared/legal_checkbox", :locals => {:f => f} %>
 
     </div>
 
