@@ -28,4 +28,5 @@ This again should represent a review from what you've already covered in the [We
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* [Learn CSS Selectors interactively using CSS Diner](http://flukeout.github.io/)
 * [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)
