@@ -2506,7 +2506,7 @@ create_or_update_lesson(
     :description => "Even in this day and age, the resume is still the primary way people get information about you.", 
     :position => lesson_counter, 
     :section_id => section.id, 
-    :is_project => false, 
+    :is_project => true, 
     :url => "/jobs_jobs_jobs/project_resume.md"
   )
 lesson_counter += 1
