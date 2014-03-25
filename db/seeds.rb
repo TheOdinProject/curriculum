@@ -1571,7 +1571,7 @@ create_or_update_lesson(
     :position => lesson_counter, 
     :section_id => section.id, 
     :is_project => false, 
-    :url => "/html_css/css3_basics.md"
+    :url => "/html_css/css_basics.md"
   )
 lesson_counter += 1
 create_or_update_lesson(   
@@ -2374,8 +2374,8 @@ puts "\n\n***** STARTING COURSE: Getting Hired *****"
 
 course_position += 1
 course = create_or_update_course(
-  :title => "Getting Hired",
-  :title_url => "Getting Hired".parameterize,
+  :title => "Getting Hired as a Web Developer",
+  :title_url => "Getting Hired as a Web Developer".parameterize,
   :teaser => "Get Paid to Keep Learning",
   :brief_desc => "You've come extremely far and are now a capable web developer, but, as you've probably realized, the journey of discovery has only just begun.  Luckily, you're now useful enough that others will pay you to keep building and learning. . . and in this short course, we'll show you how to make that happen.",
   :description => "You've still got a whole lot more to learn (it's really a lifetime journey) but now the best way to do that is by surrounding yourself with other great developers.  This course is all about that next step -- what else you'll need to know, where to find jobs, how to interview, and how to ultimately get that offer in hand.",
