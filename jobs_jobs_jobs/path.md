@@ -1,22 +1,22 @@
 TODO:
 1. DONE Break into Lessons
 2. DONE Write blurbs
-3. SEO up titles
+3. DONE SEO up titles
 4. Add to Rake task
 5. Deploy
 6. Edit
 
-## Preparing for the Job Search
+## Preparing for Your Job Search
 
 ### Description
 Your job search begins long before you send out the first application, so be sure to adequately prepare by laying out a strategy and being honest with yourself about your goals, needs and expectations.
 
 1. How This Course Will Work
     /introduction.md
-    This one's a bit different than the others.
+    This course is a bit different than the others so it's worth getting acquainted with how it will work.
 2. Strategy
     /strategy.md
-    You will need to develop a coherent strategy for how you'll approach the process.
+    You will need to develop a coherent strategy for how you'll approach the process or risk wasting time.
 3. It Starts with YOU
     /starts_with_you.md
     You won't get hired anywhere you want to be unless you have an honest conversation with yourself.
@@ -30,7 +30,7 @@ Your job search begins long before you send out the first application, so be sur
     /project_portfolio.md
     Nothing shows off your work quite as effectively as a website you've built yourself. Just be careful not to go overboard with it.
 
-## Getting Out There
+## Applying to and Interviewing for Jobs
 
 ### Description
 This is an odds game, so you've got to structure your plan and focus on highest probability approaches and targets.  In this section we'll cover how the process typically works and the best way to increase your odds of success. Go get 'em.
