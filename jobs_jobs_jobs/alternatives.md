@@ -12,7 +12,7 @@ It's important to be well informed, so don't skimp on the research before applyi
 
 ## Contributing to The Odin Project and Other Open Source
 
-We've talked a lot about how important it is to have a good portfolio of work and experience.  We've also talked about how helpful open source contributions are for this purpose.  Luckily for you, there's a growing movement to make open source projects more accessible for beginners and it starts with The Odin Project!  We run a team of volunteer developers using agile methodologies to work on this very website (which is open source).  [See our Getting Involved page for more information](https://github.com/TheOdinProject/theodinproject/blob/admin-flash/getting_involved.md).
+We've talked a lot about how important it is to have a good portfolio of work and experience.  We've also talked about how helpful open source contributions are for this purpose.  Luckily for you, there's a growing movement to make open source projects more accessible for beginners and it starts with The Odin Project!  We run a team of volunteer developers using agile methodologies to work on this very website (which is open source).  [See our Getting Involved page for more information](/contributing).
 
 Sam Joseph of HPU has also been facilitating a listing of other beginner-friendly open source projects, particularly for non-profits.  You should be able to find other interesting projects to work on there.  More information about that project can be found at [AgileVentures.org](http://agileventures.org).
 
