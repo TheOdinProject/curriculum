@@ -50,7 +50,7 @@ Displaying and inputting data are two of your chief duties as a web developer. W
 We'll cover each of the foundational CSS concepts in greater depth than you probably have before.
 
 1. CSS3 Basics
-    /css3_basics.md
+    /css_basics.md
     Even though you're already comfortable with CSS, it's worth revisiting the basics.
 2. The Box Model
     /box_model.md
