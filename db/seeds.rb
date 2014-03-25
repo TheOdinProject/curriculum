@@ -15,14 +15,19 @@ Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
 
 
 
+# NOTE: the ELSIF does NOT yet work properly since
+# the real course.attributes includes additional
+# keys like timestamps
 def create_or_update_course(course_attrs)
   course = Course.where(:title => course_attrs[:title]).first 
   if course.nil?
     course = Course.create!(course_attrs)
     puts ">>>> Created new course: #{course_attrs[:title]}!"
+  elsif course.attributes == course_attrs
+    puts "No changes to existing course: #{course_attrs[:title]}"
   else
     course.update_attributes(course_attrs)
-    puts "Updated existing course: #{course_attrs[:title]}"
+    puts "Updated existing << COURSE >>: #{course_attrs[:title]}"
   end
   return course
 end
@@ -32,6 +37,8 @@ def create_or_update_section(section_attrs)
   if section.nil?
     section = Section.create!(section_attrs)
     puts ">>>> Created new SECTION: #{section_attrs[:title]}!"
+  elsif section.attributes == section_attrs
+    puts "No changes to existing section: #{section_attrs[:title]}"
   else
     section.update_attributes(section_attrs)
     puts "Updated existing SECTION: #{section_attrs[:title]}"
@@ -48,6 +55,8 @@ def create_or_update_lesson(lesson_attrs)
     puts ">>>> Created new lesson: #{lesson_attrs[:title]}!"
 
   # Just need to update our lesson's attributes
+  elsif lesson.attributes == lesson_attrs
+    puts "No changes to existing lesson: #{lesson_attrs[:title]}"
   else
     lesson.update_attributes(lesson_attrs)
     puts "Updated existing lesson: #{lesson_attrs[:title]}"
@@ -55,7 +64,13 @@ def create_or_update_lesson(lesson_attrs)
   return lesson
 end
 
-
+# Compare two attribute hashes (but ignoring unnecessary 
+# things like timestamps
+def require_updates?(real_attrs, seed_attrs)
+  # BUILD THIS FUNCTION LATER AND USE IT TO FIX THE 
+  # BROKEN IF/ELSE STATEMENTS SO IT DOESN'T ALWAYS
+  # SAY "UPDATED" EVEN IF NOTHING CHANGED
+end
 
 # initialize position counters
 course_position = 0
