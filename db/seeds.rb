@@ -2359,7 +2359,7 @@ puts "\n\n***** STARTING COURSE: Getting Hired *****"
 
 course_position += 1
 course = create_or_update_course(
-  :title => "Getting Hired Resources",
+  :title => "Getting Hired",
   :title_url => "Getting Hired".parameterize,
   :teaser => "Get Paid to Keep Learning",
   :brief_desc => "You've come extremely far and are now a capable web developer, but, as you've probably realized, the journey of discovery has only just begun.  Luckily, you're now useful enough that others will pay you to keep building and learning. . . and in this short course, we'll show you how to make that happen.",
@@ -2380,27 +2380,170 @@ course = create_or_update_course(
 
 section_position += 1
 section = create_or_update_section(
-    :title => "Suggested Path", 
-    :title_url => "Resources".parameterize, 
+    :title => "Preparing for Your Job Search", 
+    :title_url => "Preparing for Your Job Search".parameterize, 
     :course_id => course.id, 
     :position => section_position, 
-    :description => "This course is under construction but, to help you out in the meantime, we've compiled a list of the best resources out there and a clear path through them."
+    :description => "Your job search begins long before you send out the first application, so be sure to adequately prepare by laying out a strategy and being honest with yourself about your goals, needs and expectations."
   )
 
 
 lesson_counter += 1
 create_or_update_lesson(   
-    :title => "The Best Free Resources for Getting Hired as a Web Developer", 
-    :title_url => "Getting Hired Resources".parameterize,
-    :description => "A listing of the best free resources out there for getting hired as a web developer and a disciplined approach to working your way through them", 
+    :title => "How This Course Will Work", 
+    :title_url => "How This Course Will Work".parameterize,
+    :description => "This course is a bit different than the others so it's worth getting acquainted with how it will work.", 
     :position => lesson_counter, 
     :section_id => section.id, 
     :is_project => false, 
-    :url => "/jobs_jobs_jobs/index.md"
+    :url => "/jobs_jobs_jobs/introduction.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Strategy", 
+    :title_url => "Strategy".parameterize,
+    :description => "You will need to develop a coherent strategy for how you'll approach the process or risk wasting time.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/strategy.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "It Starts with YOU", 
+    :title_url => "It Starts with YOU".parameterize,
+    :description => "You won't get hired anywhere you want to be unless you have an honest conversation with yourself.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/starts_with_you.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "What Companies Want", 
+    :title_url => "What Companies Want".parameterize,
+    :description => "An important step to selling yourself is realizing what the companies doing the hiring really want.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/what_companies_want.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "What You Can Do To Prepare", 
+    :title_url => "What You Can Do To Prepare".parameterize,
+    :description => "There are many things you can do ahead of time to prepare for your job hunt that will greatly help your odds of getting hired.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/preparation.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Building Your Personal Website", 
+    :title_url => "Building Your Personal Website".parameterize,
+    :description => "Nothing shows off your work quite as effectively as a website you've built yourself. Just be careful not to go overboard with it.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/jobs_jobs_jobs/project_portfolio.md"
   )
 
 
 
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+    :title => "Applying to and Interviewing for Jobs", 
+    :title_url => "Applying to and Interviewing for Jobs".parameterize, 
+    :course_id => course.id, 
+    :position => section_position, 
+    :description => "This is an odds game, so you've got to structure your plan and focus on highest probability approaches and targets.  In this section we'll cover how the process typically works and the best way to increase your odds of success. Go get 'em."
+  )
+
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Collecting Job Leads", 
+    :title_url => "Collecting Job Leads".parameterize,
+    :description => "Your first step to finding that perfect job is knowing where to look and collecting good leads.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/collect_leads.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Qualifying Job Leads", 
+    :title_url => "Qualifying Job Leads".parameterize,
+    :description => "You will need to have a rigorous process for evaluating leads or you will end up wasting your time.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/qualify_leads.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Building Your Resume", 
+    :title_url => "Building Your Resume".parameterize,
+    :description => "Even in this day and age, the resume is still the primary way people get information about you.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/project_resume.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Applying for Web Development Jobs", 
+    :title_url => "Applying for Web Development Jobs".parameterize,
+    :description => "Some tips for increasing your odds during the application process itself.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/applying.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Preparing to Interview and Interviewing", 
+    :title_url => "Preparing to Interview and Interviewing".parameterize,
+    :description => "Interviewing is annoying and difficult but you'll have to do it.  We'll help point you to the best resources for preparing yourself.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/preparing_to_interview.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Handling a Job Offer", 
+    :title_url => "Handling a Job Offer".parameterize,
+    :description => "Woohoo! Now what??", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/handling_an_offer.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Alternate Paths to a Web Development Job", 
+    :title_url => "Alternate Paths to a Web Development Job".parameterize,
+    :description => "A look at several alternative ways you can find a web development job.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/alternatives.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Conclusion", 
+    :title_url => "Conclusion".parameterize,
+    :description => "Wrapping up The Odin Project and what you can do to have a strong career.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/jobs_jobs_jobs/conclusion.md"
+  )
 
 
 
