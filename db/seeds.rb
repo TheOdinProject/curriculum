@@ -2406,7 +2406,37 @@ create_or_update_lesson(
 
 
 
+# SANITY CHECKS
 
+puts "\n\n\n\n\n##################   SANITY CHECKS   ##################\n\n"
+puts "#{course_position} courses, #{section_position} sections and #{lesson_counter} lessons dealt with here."
+puts"#{Course.count} courses, #{Section.count} sections and #{Lesson.count} lessons in the database.\n"
+extra_courses = Course.where("position >= ?", incrementer)
+extra_sections = Section.where("position >= ?", incrementer)
+extra_lessons = Lesson.where("position >= ?", incrementer)
 
-puts "\n\n\n#{course_position} courses, #{section_position} sections and #{lesson_counter} lessons dealt with here."
-puts"#{Course.count} courses, #{Section.count} sections and #{Lesson.count} lessons in the database.\n\n\n"
+if extra_courses.count > 0 || extra_lessons.count > 0 || extra_sections.count > 0
+  "\n\nWARNING: You have leftover courses, sections or lessons in the database.  Probably a title duplicate.  Recommend deleting all instances with position >= #{incrementer}.\n\n"
+else
+  puts "There appears to be no leftover stuff in the database.  Go about your day in peace."
+end
+
+if extra_courses.count > 0
+  puts "\n WARNING: #{extra_courses.count} leftover courses!"
+  extra_courses.each do |l|
+    puts ">>> Extra course: #{c.inspect}"
+  end
+end
+if extra_sections.count > 0
+  puts "\n WARNING: #{extra_sections.count} leftover sections!"
+  extra_sections.each do |l|
+    puts ">>> Extra section: #{c.inspect}"
+  end
+end
+if extra_lessons.count > 0
+  puts "\n WARNING: #{extra_lessons.count} leftover lessons!"
+  extra_lessons.each do |l|
+    puts ">>> Extra lesson: #{c.inspect}"
+  end
+end
+puts "\n#######################################################\n\n\n\n"
