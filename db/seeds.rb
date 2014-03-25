@@ -2581,19 +2581,19 @@ end
 
 if extra_courses.count > 0
   puts "\n WARNING: #{extra_courses.count} leftover courses!"
-  extra_courses.each do |l|
+  extra_courses.each do |c|
     puts ">>> Extra course: #{c.inspect}"
   end
 end
 if extra_sections.count > 0
   puts "\n WARNING: #{extra_sections.count} leftover sections!"
-  extra_sections.each do |l|
-    puts ">>> Extra section: #{c.inspect}"
+  extra_sections.each do |s|
+    puts ">>> Extra section: #{s.inspect}"
   end
 end
 if extra_lessons.count > 0
   puts "\n WARNING: #{extra_lessons.count} leftover lessons!"
-  extra_lessons.each do |l|
+  extra_lessons.each do |c|
     puts ">>> Extra lesson: #{c.inspect}"
   end
 end
