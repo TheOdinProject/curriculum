@@ -1,5 +1,4 @@
-# [The Odin Project](http://theodinproject.com)
-## The Free Way to Learn Web Development with Ruby on Rails
+# The Odin Project: [Learn Web Development for Free](http://theodinproject.com)  
 
 v0.1.1
 
@@ -106,6 +105,15 @@ and click "OK".
 *Please let me know what I've missed here!*
 
 ## Now that you're up and running... [Come Help Out!](http://theodinproject.com/contributing)
+
+## Significant Contributors
+
+* [Erik Trautman](https://github.com/eriktrautman)
+* [Afshin Moktari](https://github.com/afshinator)
+* [Josh Gorchov](https://github.com/gorchov)
+* [Joe Sawyer](https://github.com/zkay)
+* [Bill Walker](https://github.com/mach1010)
+* [Neil Gehani](https://github.com/ngehani)
 
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)

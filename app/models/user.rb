@@ -9,9 +9,10 @@ class User < ActiveRecord::Base
   after_create :build_preferences, :send_welcome_email
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus, :legal_agreement
 
   validates_uniqueness_of :email, :username
+  validates_presence_of :legal_agreement, :message => "Don't forget the legal stuff!"
   validates :username, :length => { :in => 4..20 }
 
   # basic associations

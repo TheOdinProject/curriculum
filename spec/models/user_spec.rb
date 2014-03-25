@@ -8,7 +8,9 @@ describe User do
   subject(:user) { User.new(   
                             :username => "foobar", 
                             :email => "foo@bar.com", 
-                            :password => "foobar" ) }
+                            :password => "foobar",
+                            :legal_agreement => "true" )}
+
   before(:each) do
     subject.stub(:send_welcome_email)
   end
@@ -23,6 +25,8 @@ describe User do
   it { should respond_to(:skype) }
   it { should respond_to(:screenhero) }
   it { should respond_to(:google_plus) }
+  it { should respond_to(:legal_agreement) }
+  it { should respond_to(:legal_agree_date) }
   
   # Associations
   it { should respond_to(:content_activations) }
@@ -71,7 +75,7 @@ describe User do
 
   context "when username is a duplicate" do
     before do
-      u = User.new(:username => "foobar", :email => "bar@foo.com", :password => "foobar")
+      u = User.new(:username => "foobar", :email => "bar@foo.com", :password => "foobar", :legal_agreement => "true")
       u.stub(:send_welcome_email)
       u.save
     end
@@ -80,7 +84,7 @@ describe User do
 
   context "when email is a duplicate" do
     before do
-      u = User.new(:username => "barfoo", :email => "foo@bar.com", :password => "foobar")
+      u = User.new(:username => "barfoo", :email => "foo@bar.com", :password => "foobar", :legal_agreement => "true")
       u.stub(:send_welcome_email)
       u.save
     end
@@ -89,6 +93,13 @@ describe User do
   
   it "shouldn't yet have any completed lessons" do
     expect(subject.completed_lessons).to be_empty
+  end
+
+  context "when legal_agreement is blank" do
+    before do
+      subject.legal_agreement = ""
+    end
+    it { should_not be_valid }
   end
 
   describe "when saving" do
