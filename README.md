@@ -1,6 +1,6 @@
 # The Odin Project: [Learn Web Development for Free](http://theodinproject.com)  
 
-v0.1.1
+v0.2.0
 
 This site provides the main user experience for The Odin Project, including the home page and all user functions.  It is meant to be a shell around [The Curriculum](http://theodinproject.com/curriculum) and to include the tools that help students learn more effectively along their learning journeys.  
 
