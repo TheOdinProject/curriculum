@@ -6,7 +6,7 @@ The best thing you can do in order to get a job as a web developer is, of course
 
 This curriculum will give you plenty of opportunity to build but it's up to you to stick with it and to keep that creative spark going once you're done.  Luckily, most people seem to have the opposite problem -- building stuff can get pretty addictive and you may find yourself taking on *too many* side projects to handle at one time.  That's a fun phase.
 
-We'll cover this in much more depth in the [course on Getting Hired](/courses/getting-hired/lessons) but here are the basics:
+We'll cover this in much more depth in the [course on Getting Hired](/courses/getting-hired-as-a-web-developer/lessons) but here are the basics:
 
 Once you've honed your skills and found the right job posting, you'll be invited for one or more interviews.  Developer interviews are typically a combination of testing your ability to think technically (with thought questions, brain teasers, coding exercises) and an examination of the work you've done previously.  They are usually looking for people with a demonstrated ability to pick things up quickly, complete projects, and work well with others.
 
