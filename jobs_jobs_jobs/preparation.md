@@ -1,4 +1,4 @@
-# What You Can Do Beforehand (Way Beforehand)
+# What You Can Do To Prepare (Way Beforehand)
 
 Taking a structured approach to getting hired means starting early and getting some important things out of the way first.
 

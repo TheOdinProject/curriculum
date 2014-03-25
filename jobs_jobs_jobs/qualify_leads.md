@@ -1,4 +1,4 @@
-# Qualify Leads
+# Qualifying Job Leads
 
 You should have the criteria that you use to evaluate a job already figured out and it should already be in your spreadsheet.  Look through each lead on your spreadsheet and cross off the ones that fail your "must-have" criteria, then rank them based on your "nice-to-have" criteria.  You should be able to easily come up with a weighting system that lets you sort the jobs in order of preference.  Simpler is better, so no need to go overboard.
 

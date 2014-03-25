@@ -1,4 +1,4 @@
-# Project: Build your Personal Website
+# Project: Building your Personal Website
 
 You don't need a personal website right off the bat but it's good to have and it's a fun project to test your skills with.  In the simplest case, it's a direct conduit to you for anyone searching and another way to craft your narrative.  It doesn't have to be elaborate at all.  If you hate writing, don't blog.  But you need to be a real person.  Showcase your work.  Geek out.
 
