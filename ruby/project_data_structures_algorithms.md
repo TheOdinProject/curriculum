@@ -73,4 +73,4 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* More on [Binary Search Trees from Coursera](https://www.youtube.com/watch?v=sy6dGzYY308)... it gets a bit technical.
+* More on [Binary Search Trees from Coursera](https://www.youtube.com/watch?v=pJ6aeg8x1Ig)... it gets a bit technical.

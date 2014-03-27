@@ -13,7 +13,6 @@ Luckily, that's the next course!  Onwaaaaaaard!!!
 * [HTML5 Rocks knowledge base](http://www.html5rocks.com/en/)... tons of links to articles specific to your goals.
 * [Codecademy's HTML/CSS track](http://www.codecademy.com/tracks/web)
 * [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
-* [Treehouse's HTML/CSS learning adventure (PAID)](http://teamtreehouse.com/learning-adventures/learn-html-and-css)
 * [LearnStreet](http://learnstreet.com)
 * [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)
 * [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)

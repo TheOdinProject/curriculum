@@ -69,7 +69,7 @@ When you're done with your session, you've got code sitting on someone's compute
 
 If you aren't using git yet, just have the student with the code on their hard drive email out the files or a .zip archive of them to make sure both people have it. 
 
-If you're now really curious about git, check out the git section of [Web Development 101](/curriculum/web_development_basics/web_programming_basics/additional_topics.md) for an introduction to this incredibly important tool.
+If you're now really curious about git, check out the git section of [Web Development 101](/web-development-101/git-basics) for an introduction to this incredibly important tool.
 
 ## Additional Resources
 

@@ -1,6 +1,6 @@
 # Project: Infinite Scroll and Submitting a Form with AJAX
   
-Because we haven't yet linked your front end projects to your back end Rails APIs, in this project you'll get a chance to set up a front end form but submit to an existing API on the internet called the [Open Movie Database (OMDB)](http://www.omdbapi.com/))(modeled after [IMDB](http://imdb)). Read through the OMDB documentation before getting started so you have an idea of how you might submit a new movie entry.
+Because we haven't yet linked your front end projects to your back end Rails APIs, in this project you'll get a chance to set up a front end form but submit to an existing API on the internet called the [Open Movie Database (OMDB)](http://www.omdbapi.com/))(modeled after [IMDB](http://www.imdb.com)). Read through the OMDB documentation before getting started so you have an idea of how you might submit a new movie entry.
 
 
 ## Your Task
