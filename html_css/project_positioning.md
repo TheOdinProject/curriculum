@@ -9,7 +9,7 @@ In this project, your assignment is to copy [this article from the New York Time
 *Note: As usual, ignore any ads, comments or interactive elements (which use Javascript) and don't worry about what happens when you change the page width (they use some media queries to rearrange things).  Focus on making it look similar.*
 
 1. Go to [the NYT article in question](http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) and have a look around.
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
@@ -19,7 +19,7 @@ In this project, your assignment is to copy [this article from the New York Time
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * *Your solution here...* 
 

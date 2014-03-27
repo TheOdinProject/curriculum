@@ -8,11 +8,11 @@ If you think about what's required to make a game like this work, it's all well 
 
 ### Setup
 
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
 1. Set up a blank HTML document
 2. Think about what kinds of objects and functions you'll probably need in order to make this snake work.
 2. Create a javascript object that represents a grid of 40x40 squares that all start out containing just a space `" "`.  
-3. Create a `render()` function which cycles through the grid and turns it into a grid of divs on the screen.  Having a simple border around each will make it easier to see (just remember the border increases the box size).  This should be pretty easy with Javascript and a bit of CSS wrangling.  Remember the grid you created in the [Web Dev 101 jQuery project](/courses/web-development-101/lessons/javascript-and-jquery)...?
+3. Create a `render()` function which cycles through the grid and turns it into a grid of divs on the screen.  Having a simple border around each will make it easier to see (just remember the border increases the box size).  This should be pretty easy with Javascript and a bit of CSS wrangling.  Remember the grid you created in the [Web Dev 101 jQuery project](/web-development-101/javascript-and-jquery)...?
 3. Make one of the center squares an "O" to represent your snake.  Run the `render()` function on page load.
 4. Create a Javascript object to represent your snake.  Give it an initial position of `[20,20]` and an initial direction to the right (`r`).  Also include a variable to represent the current snake, which will be an array of coordinate pairs (so an array of arrays, e.g. `[[20,20]]` to start)
 

@@ -21,7 +21,7 @@ These skills will be helpful for you when you start building.  Either try them y
 
 ## Setting Up Your Project's Github Repository (optional)
 
-You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/courses/web-development-101/lessons/installations), so here we're going to put it to use.
+You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/web-development-101/installations), so here we're going to put it to use.
 
 1. If you haven't already, create a folder on your computer called `The Odin Project` which will house all your projects .
 2. Go to your Github.com account and log in.

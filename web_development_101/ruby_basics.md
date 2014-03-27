@@ -31,7 +31,7 @@ A final note -- you'll be learning a bunch of new terminology and concepts here 
 
 ## Assignment:
 1. Go to [tryruby.org](http://tryruby.org) and do the quick exercises there to get your feet wet.  Don't worry about the stuff where they're reading from a file, that's getting deeper than you need to right now.
-2. Read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Lab.  If you can't get IRB running, check out the [Installations Project](/courses/web-development-101/lessons/installations), which you should have done already.
+2. Read through the [Ruby in 100 Minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html) project from Jumpstart Lab.  If you can't get IRB running, check out the [Installations Project](/web-development-101/installations), which you should have done already.
 3. Dive in a little deeper by reading chapters 1-10 of Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.  Answers to the exercises are available at [learntoprogamanswers.blogspot.com](http://learntoprogramanswers.blogspot.com/)
 4. Finally, conquer the [Ruby Monk's Introduction to Ruby](http://rubymonk.com/learning/books/1).  This is a fairly comprehensive and fast-moving course.  If you're shaky on Hashes, Blocks, Modules, and I/O by the end... you're not the first and won't be the last so have no fear.  We'll dive deeply into those in the coming units.
 
@@ -49,6 +49,6 @@ Redo the same Project Euler problems that you previously did in Javascript but u
 
 * See the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) for a condensed list of common commands and concepts.
 * Read [Smashing Magazine's Intro to Ruby article](http://coding.smashingmagazine.com/2012/05/24/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.
-* Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet (we'll read it in the later [Ruby course](/courses/ruby-programming/lessons)) but may help you shore up some of the concepts.
+* Textbook: Peter Cooper's [Beginning Ruby](http://www.amazon.com/books/dp/1590597664) chapters 1-8 will cover the material in greater depth than you really need to just yet (we'll read it in the later [Ruby course](/ruby-programming/lessons)) but may help you shore up some of the concepts.
 * [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.
 * [Ruby on Rails tutor has free videos that include Ruby](http://rubyonrailstutor.github.io/)

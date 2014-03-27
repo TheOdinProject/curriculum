@@ -1,6 +1,6 @@
 # The Best Free Resources for Learning HTML and CSS
 
-Though this course is currently under construction, there are tons of great resources out there for learning HTML and CSS and we've started laying them out for you below.  The first place to start is definitely in the [Web Development 101 lesson on HTML and CSS](/courses/web-development-101/lessons/html-and-css-basics), which covers a lot of ground to get you up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.  
+Though this course is currently under construction, there are tons of great resources out there for learning HTML and CSS and we've started laying them out for you below.  The first place to start is definitely in the [Web Development 101 lesson on HTML and CSS](/web-development-101/html-and-css-basics), which covers a lot of ground to get you up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.  
 
 This course will be designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.  Luckily for you, there are an enormous amount of resources available on the web to learn front end development, so if you ever get stuck, Google is your friend.
 
@@ -12,7 +12,7 @@ Here are a list of things you'll want to understand to get a good handle on HTML
 
 ### Basics
 
-Most of this should be review since you've already completed [the Web Development 101 HTML/CSS Lesson (Right??)](/courses/web-development-101/lessons/html-and-css-basics) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.
+Most of this should be review since you've already completed [the Web Development 101 HTML/CSS Lesson (Right??)](/web-development-101/html-and-css-basics) but it's a good idea to make sure you've got it covered so you make sure you're starting from a strong base.  It's impossible to separate HTML from CSS, so there will be some overlap before we get heavily into the CSS in later sections.
 
 #### Points to Ponder
 
@@ -114,7 +114,7 @@ Tables used to be pretty much the only game in town -- when you had data of any 
 
 ### Forms
 
-Forms are one of the most important parts of your site.  They are your user's gateway into your back end -- the user provides data using a form and you do stuff with it.  Hopefully you've been through the [Rails Course](/courses/ruby-on-rails/lessons) and this is all review, but if not make sure to pay attention!  
+Forms are one of the most important parts of your site.  They are your user's gateway into your back end -- the user provides data using a form and you do stuff with it.  Hopefully you've been through the [Rails Course](/ruby-on-rails/lessons) and this is all review, but if not make sure to pay attention!  
 
 Forms are important to get right not just because you want the correct data getting sent to your back end but also because you want the experience of interacting with the form to be as dead-stupid-simple as humanly possible so you don't lose users while they are doing it.  You need to specify the proper types of inputs for each possible data item, since there are often multiple ways to collect a piece of data but only one way which is easiest for your user and eliminates the chances of that user inputting erroneous data.
 
@@ -170,7 +170,7 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 
 ### Basics
 
-This again should represent a review from what you've already covered in the [Web Development 101 Lesson on HTML/CSS](/courses/web-development-101/lessons/html-and-css-basics), but you could probably benefit from the review of the basic stuff.
+This again should represent a review from what you've already covered in the [Web Development 101 Lesson on HTML/CSS](/web-development-101/html-and-css-basics), but you could probably benefit from the review of the basic stuff.
 
 #### Points to Ponder
 
@@ -483,7 +483,7 @@ Sometimes you end up with a chain of different files and assets like images and 
 
 Most of these tools use Javascript and are built to help people programming with Javascript, so you don't really need to know them right off the bat.  I'll probably move this into the Javascript section at some point.  Just browse through the articles and try to get an understanding of what's going on.
 
-One good reason to use Rails when you're learning?  It gives you all this for free with the [Asset Pipeline](/courses/ruby-on-rails/lessons/the-asset-pipeline).
+One good reason to use Rails when you're learning?  It gives you all this for free with the [Asset Pipeline](/ruby-on-rails/the-asset-pipeline).
 
 #### Points to Ponder
 

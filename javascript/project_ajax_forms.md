@@ -7,7 +7,7 @@ Because we haven't yet linked your front end projects to your back end Rails API
 
 Create a form which will submit a new movie to the database.  You should validate that the title and other required attributes are not blank.
 
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
 1. Set up a blank HTML document
 1. Think about how you will need to set up the form and then how that form will submit to the OMDB API.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
 2. Write the simple form elements.  Don't worry about styling them.

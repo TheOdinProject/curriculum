@@ -38,13 +38,13 @@ As you can see, I frequently relied on the main resources you'll be learning fro
 
 **If you haven't completed these, be sure to do so before getting started:**
 
-* Your software should be installed, as listed in the [Installfest section](/courses/web-development-101/lessons/installations).
-* You should really have gone through the full [Web Development 101](/courses/web_development_101/) section, but the most important parts are listed below.
+* Your software should be installed, as listed in the [Installfest section](/web-development-101/installations).
+* You should really have gone through the full [Web Development 101](/web-development-101) course, but the most important parts are listed below.
 
-    * Read the full [Back End section](/courses/web-development-101/lessons#section-the-back-end) of the Web Development 101 section for an introduction to Ruby.
-    * Complete at least the full [Basic Ruby](/courses/web-development-101/lessons/ruby-basics) lesson (all readings and projects) to have a solid grounding in Ruby basics.
-    * Read the [Rails portion of the Web Development 101](/courses/web-development-101/lessons/ruby-on-rails-basics) section for an overview of Rails.  
-    * Build the [Rails project from the Web Dev 101 section](/courses/web-development-101/lessons/ruby-on-rails) to get your hands dirty with Rails first.
+    * Read the full [Back End section](/web-development-101/lessons#section-the-back-end) of the Web Development 101 section for an introduction to Ruby.
+    * Complete at least the full [Basic Ruby](/web-development-101/ruby-basics) lesson (all readings and projects) to have a solid grounding in Ruby basics.
+    * Read the [Rails portion of the Web Development 101](/web-development-101/ruby-on-rails-basics) section for an overview of Rails.  
+    * Build the [Rails project from the Web Dev 101 section](/web-development-101/ruby-on-rails) to get your hands dirty with Rails first.
 
 ## Additional Resources
 

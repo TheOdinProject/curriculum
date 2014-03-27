@@ -4,7 +4,7 @@ Sometimes you end up with a chain of different files and assets like images and 
 
 Most of these tools use Javascript and are built to help people programming with Javascript, so you don't really need to know them right off the bat.  **Consider this section optional**.  I'll probably move this into the Javascript section at some point.  Just browse through the articles and try to get an understanding of what's going on.
 
-One good reason to use Rails when you're learning?  It gives you all this for free with the [Asset Pipeline](/courses/ruby-on-rails/lessons/the-asset-pipeline).
+One good reason to use Rails when you're learning?  It gives you all this for free with the [Asset Pipeline](/ruby-on-rails/the-asset-pipeline).
 
 ## Points to Ponder
 

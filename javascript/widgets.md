@@ -2,7 +2,7 @@
 
 Working with jQuery is a whole lot of fun... and here's why.  jQuery basically drives all the nifty tooltips, modals, lightboxes, sliders, and other widgets you see on a webpage.  Just about everything you've ever seen on the web can be done with a combination of the Javascript and jQuery you now know.  Let's take a look at some of them in greater depth.
 
-We covered a [section on design in the HTML/CSS Course](/courses/html5-and-css3/lessons) which may be useful to check back on if it's been awhile.  Lots of these widgets and effects are best used judiciously -- it's okay to go overboard while you're testing things out but your user doesn't want to have to wait for a whole bunch of fancy-looking stuff to happen on the page so don't go crazy in a production setting.
+We covered a [section on design in the HTML/CSS Course](/html5-and-css3) which may be useful to check back on if it's been awhile.  Lots of these widgets and effects are best used judiciously -- it's okay to go overboard while you're testing things out but your user doesn't want to have to wait for a whole bunch of fancy-looking stuff to happen on the page so don't go crazy in a production setting.
 
 ## Points to Ponder
 

@@ -5,18 +5,18 @@
 
 ## Warmup: Installations and Blogger
 
-To do this course, you've got to have Rails and several other technologies [properly installed on your computer](/courses/web-development-101/lessons/installations).  That will be the first task if you haven't already.
+To do this course, you've got to have Rails and several other technologies [properly installed on your computer](/web-development-101/installations).  That will be the first task if you haven't already.
 
 Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) (which was assigned way back in the Web Development 101 course).  The Blogger tutorial is actually more challenging than the project below, and was assigned to give you a chance to get in over your head a bit so you'd pay attention along the way :)
 
 ### Your Task
 
-1. If you haven't already, do the [Installations project](http://www.theodinproject.com/courses/web-development-101/lessons/installations).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** and **Ruby 2** working properly.  The section says:
+1. If you haven't already, do the [Installations project](http://www.theodinproject.com/web-development-101/installations).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** and **Ruby 2** working properly.  The section says:
 
 > Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://installfest.railsbridge.org/installfest/create_and_deploy_a_rails_app). 
 
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
-3. If you hadn't done either of these, you should go back to the [Web Development 101](http://www.theodinproject.com/courses/web-development-101/lessons) course and at least do the [Web Development Frameworks section](http://www.theodinproject.com/courses/web-development-101/lessons#section-web-development-frameworks).
+3. If you hadn't done either of these, you should go back to the [Web Development 101](http://www.theodinproject.com/web-development-101/lessons) course and at least do the [Web Development Frameworks section](http://www.theodinproject.com/web-development-101/lessons#section-web-development-frameworks).
 
 ## Project: Starting The RoR Tutorial
 
