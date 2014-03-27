@@ -45,7 +45,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
     We could also add in additional parameters like `size` on the end.
 
-2. Tada! Every API is different and you've got to read through their documentation to understand the basic format of using it.  Sometimes it can be helpful to search for a [YouTube](http://www.youtube.com) or [NetTuts](http://www.nettuts.com) video with a quick overview as well.
+2. Tada! Every API is different and you've got to read through their documentation to understand the basic format of using it.  Sometimes it can be helpful to search for a [YouTube](http://www.youtube.com) or [NetTuts](http://code.tutsplus.com) video with a quick overview as well.
 
 ## Project 1: Building a Simple Kittens API
 
