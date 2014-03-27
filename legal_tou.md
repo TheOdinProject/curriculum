@@ -4,7 +4,7 @@
 
 ### Preamble
 
-Welcome to The Odin Project, a service provided by The Odin Project (“The Odin Project”, "The Odin Project", "Odin Project",  “we” “our”, or “us”).
+Welcome to The Odin Project, a service provided by The Odin Project (“The Odin Project”, "The Project", "Odin Project",  “we” “our”, or “us”).
 
 These Terms of Use govern your use of theodinproject.com (the “Website”) and all related widgets, tools, applications, data, software, APIs (which may also be subject to separate API Terms of Use) and other services provided by us (the “Services”).
 
