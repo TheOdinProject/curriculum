@@ -51,7 +51,7 @@ It won't be until you start hacking on more full-featured applications that you'
     
     1. [Git Basics #1: What is VCS?](http://www.youtube.com/watch?v=8oRjP8yj2Wo) will introduce you to version control for developers.
     2. [Git Basics #2: What is Git?](http://www.youtube.com/watch?v=uhtzxPU7Bz0) will start getting a bit more into a Git workflow.
-    3. [Git Basics #3: Get Going](http://www.youtube.com/watch?v=uhtzxPU7Bz0) will show your how to configure your git initially.  You likely did some of these steps during the installation phase, so don't download it again.
+    3. [Git Basics #3: Get Going](https://www.youtube.com/watch?v=wmnSyrRBKTw) will show your how to configure your git initially.  You likely did some of these steps during the installation phase, so don't download it again.
     2. [Webcast: The Basics of Git and GitHub](http://www.youtube.com/watch?v=U8GBXvdmHT4) will provide more of a linear and wholistic look at practical workflows when using Git.  Some of the early terminology is a bit developer-y and it is pretty wide-ranging, but just soak it in and save it for later.  You'll also see information about some helpful Help files and GUI tools to visualize Git.
 
 2. Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
