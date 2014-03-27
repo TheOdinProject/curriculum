@@ -4,7 +4,7 @@
 
 Javascript is the future of the web, so in this course we'll be diving deep into it to make sure you come out with a good understanding of how it works.  At this point, what you see below is an outline and a collection of resources which will become the full Javascript course once it's ready.  It's the path forward, just without all the exposition tying it together.  It should be more than helpful to you in its present form.
 
-So how is this going to work? It starts with a deeper look at the basics, just like the [Ruby Programming course](/ruby-programming/lessons) did with Ruby.  You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/ruby-on-rails/lessons) to understand this stuff but we won't be focusing deeply on the really basic stuff so it'll move quickly.  You should, however, already have completed the [Web Development 101 course](/web-development-101/lessons), specifically the [Front End Section](/web-development-101/lessons#section-the-front-end) before starting this course.  
+So how is this going to work? It starts with a deeper look at the basics, just like the [Ruby Programming course](/ruby-programming) did with Ruby.  You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/ruby-on-rails) to understand this stuff but we won't be focusing deeply on the really basic stuff so it'll move quickly.  You should, however, already have completed the [Web Development 101 course](/web-development-101), specifically the [Front End Section](/web-development-101#section-the-front-end) before starting this course.  
 
 After we've finished going over the basics of Javascript and jQuery, we'll dive deeper into the actual language of Javascript so you can go beyond just playing around with your browser elements.  Again, we won't assume you've completed the Ruby course here but we will be drawing some comparisons to Ruby for those who have just to illustrate the differences between the two languages.
 
@@ -27,7 +27,7 @@ Good luck!
 ******************************************************************************
 # SECTION 1: The Basics and the Browser
 
-You've already completed the [Web Development 101 course](/web-development-101/lessons#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
+You've already completed the [Web Development 101 course](/web-development-101/#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
 
 This is also where things get really fun, since you get to immediately see everything you're building in the browser.  You'll create everything from games to browser widgets along the way.  By the end of this section, you'll know everything you need to build fun and interesting front-ends.  But, of course, it's really just the beginning.  The real trick is building *well* and, ultimately, integrating your front-ends with your back ends.  Gogogo!
 

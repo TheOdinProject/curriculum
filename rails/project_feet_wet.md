@@ -16,7 +16,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 > Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://installfest.railsbridge.org/installfest/create_and_deploy_a_rails_app). 
 
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
-3. If you hadn't done either of these, you should go back to the [Web Development 101](http://www.theodinproject.com/web-development-101/lessons) course and at least do the [Web Development Frameworks section](http://www.theodinproject.com/web-development-101/lessons#section-web-development-frameworks).
+3. If you hadn't done either of these, you should go back to the [Web Development 101](/web-development-101) course and at least do the [Web Development Frameworks section](/web-development-101/#section-web-development-frameworks).
 
 ## Project: Starting The RoR Tutorial
 
