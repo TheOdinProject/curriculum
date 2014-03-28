@@ -23,7 +23,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* 
+* [zkay](https://raw.githubusercontent.com/zkay/PersonalProjects/master/Rest/rest.rb)
 
 ## Project: Ruby on Rails Tutorial
 
