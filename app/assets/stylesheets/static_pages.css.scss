@@ -543,6 +543,50 @@
       font-weight:300;
     }
   }
+  .hof-card{
+		height:160px;
+    border: 1px solid $vlight_gray;
+    box-shadow: 3px 3px 3px #efefef;
+    padding:30px 30px;
+    margin:50px 50px 30px;
+    font-size:.7em;
+    font-weight:300;
+    border-radius:10px;
+		
+		.name-bg{
+			height: 36px;
+			margin-top:55px;
+			margin-right:-60px;
+			margin-left: 76px;
+			border-radius:12px;
+			background: #5BB75B;
+			h3 {
+			color:white;
+			margin-top:-4px;
+			margin-left:25px;
+			}
+		}
+		.bio{
+			float:right;
+			width:300px;
+			margin-top:-12px;
+		}
+		p {
+			margin:0px;
+			font-size:1.5em;
+			font-weight:350;
+		}
+
+		.img {
+			border:2px solid black;
+			box-shadow: 5px 5px 5px #B28F6B;
+			height:160px;
+			width:160px;
+			margin-left: -70px;
+			margin-top: -55px;
+			position:absolute;
+		}
+  }
 }
 
 
