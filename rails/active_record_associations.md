@@ -176,16 +176,6 @@ There's a couple of shortcuts for creating new association objects.  The first i
     > user = User.first
     > user.posts.create(:title => "sample")
 
-Rails also gives you a couple of methods to explicitly build or create new association objects, e.g. `create_post` and `build_post`.  They are dynamically created when you first declare your association.  **These are actually preferred** over using, for instance, `user.posts.create()` above:
-
-    # Another shorter version:
-    > user = User.first
-    > user.create_post(:title => "sample")
-
-    # An equivalent but slightly longer version (#build is like #new... no save)
-    > user = User.first
-    > post = user.build_post(:title => "sample")
-    > post.save
 
 Another nifty trick is to create a new object and then use the shovel operator to add it to the association.  This is just one of the ways that **associations sometimes act like arrays**:
 
