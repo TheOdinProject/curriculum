@@ -92,7 +92,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 9. Create your Post model by referencing your data plan from the first step above, migrate the database, and add its validations.
 10. Test your validations from the console, remembering to reload or relaunch it between changes.
 11. Now set up your associations between User and Post models.  Did you remember to include the foreign key column (`user_id`) in your posts table?  If not, you can just add a new migration (`$ rails new migration yourmigrationname`) and use the `#add_column` method mentioned above.
-12. If you've properly set up your associations, you should be able to use a few more methods in the console, including finding a User's Posts and finding the Post's User.  First test finding your lonely User's Posts -- `> User.first.posts`.  It should be empty since you haven't created posts, but it shouldn't throw an error at you.
+12. If you've properly set up your associations, you should be able to use a few more methods in the console, including finding a User's Posts and finding the Post's User.  First test finding your lonely User's Posts -- `> User.first.posts`.  It should be an empty array since you haven't created posts, but it shouldn't throw an error at you.
 1. Build (but don't yet save) a new post from the console, called `p1`, something like `> p1 = Post.new(your_attributes_here)`.  Don't forget to include the ID of the user in your `user_id` field!
 2. Now build another post using the association to the user -- substitute `#new` with `#build` and run through the association instead -- `p2 = User.first.posts.build`.  Don't fill in any fields yet.  Examine the object that was created and you'll see that the ID field already got filled out for you, cool! This is a neat trick you'll learn about in the lesson on associations.  
 3. Save your original new post `p1` so your user has officially written something.  Test that you can use the other side of the association by trying `> Post.first.user`, which should return the original User object whose ID you pointed to when building the post.  All has come full circle!
@@ -105,10 +105,10 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 3. As before, add the associations you need between users, posts, and comments.  You'll need to be able to do the following methods successfully from the console (assuming your second user has an ID of 2):
 
     1. `> u2 = User.find(2)`
-    2. `> c1 = u2.comments` should return that user's comment.
+    2. `> c1 = u2.comments.first` should return that user's comment.  `#comments` returns an array with comments, which is why we need to use `#first` to actually retrieve the comment itself.
     3. `> c1.user` should return that comment's author User (`u2`).
     4. `> p1 = Post.first`
-    5. `> p1.comments` should return the comment `c1`.
+    5. `> p1.comments.first` should return the comment `c1`.
     6. `> c1.post` should return the post `p1`.
 
 If any of those don't work, double check your associations.  Sometimes the error messages can be helpful in prompting you for how to set up those associations.
