@@ -46,6 +46,7 @@ The tutorial covers more specifically the practice of "Test Driven Development",
 
 This is an example (listing 3.14) from the tutorial:
 
+```language-ruby
     # spec/requests/static_pages_spec.rb
     require 'spec_helper'
 
@@ -75,6 +76,7 @@ This is an example (listing 3.14) from the tutorial:
         end
       end
     end
+```
 
 If you read through it, even if you've never seen code before, you should have a gist of what's going on.  This is an "integration" or "feature" spec ("spec" == "specification" == "test"), which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
 

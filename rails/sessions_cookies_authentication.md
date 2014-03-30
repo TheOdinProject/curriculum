@@ -45,6 +45,7 @@ To identify a user's session information, Rails stores a special secure and tamp
 
 Rails gives you access to the `session` hash in an almost identical way to the above-mentioned `cookies` hash.  Use the `session` variable in your views or controllers like so:
 
+```language-ruby
     # app/controllers/users_controller.rb
     ...
     # Set a session value
@@ -59,6 +60,7 @@ Rails gives you access to the `session` hash in an almost identical way to the a
     # Reset the entire session
     reset_session
     ...
+```
 
 Why would you need both cookies and sessions?  They are similar but not the same.  `session` is an entire hash that gets put in the secure session cookie that expires when the user closes the browser.  If you look in your developer tools, the "expiration" of that cookie is "session".  Each value in the `cookies` hash gets stored as an individual cookie.
 
@@ -81,11 +83,13 @@ What about cases where the user can't sign up because of failed validations?  In
 
 You still have to write view code to display the flash messages.  It's common to write a short view helper that will pin any available flash message(s) to the top of the browser.  You might also add a class to the message which will allow you to write some custom CSS, for instance turning `:success` messages green and `:error` messages red.
 
+```language-ruby
     # app/views/layouts/application.html.erb
     ...
     <% flash.each do |name, message| %>
       <div class="<%= name %>"><%= message %></div>
     <% end %>
+```
 
 ## Controller Filters
 
@@ -93,6 +97,7 @@ Before we talk about authentication, we need to cover controller filters.  The i
 
 We do this through the use of a "before filter", which takes the name of the method we want to run:
 
+```language-ruby
     # app/controllers/users_controller
     before_action :require_login
     ...
@@ -100,6 +105,7 @@ We do this through the use of a "before filter", which takes the name of the met
     def require_login
       # do stuff to check if user is logged in
     end
+```
 
 The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
 

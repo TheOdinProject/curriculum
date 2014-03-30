@@ -43,18 +43,24 @@ In this case, it doesn't make a whole lot of sense to display an "index" of dash
 
 The routes file line for a singular resource would look like:
 
+```language-ruby
     # in config/routes.rb
     resource :dashboard
+```
 
 Just note that the word "resource" is singular and so is `dashboard`.  That trips up a lot of people who make the typo of writing "resource" instead of "resources" when they really want plural resources (which are more common).
 
 The `$ rake routes` for a singular resource would only contain 6 routes (since we don't use `#index` anymore), and you would no longer see any of the `:id` portions of the routes, e.g.
 
-    new_dashboard  GET /dashboard/new(.:format)  dashboards#new
+```language-bash
+  new_dashboard  GET /dashboard/new(.:format)  dashboards#new
+```
 
 ...compared with the plural version of the same route:
 
-    new_post  GET /posts/:id/new(.:format)  posts#new    
+```language-bash
+  new_post  GET /posts/:id/new(.:format)  posts#new    
+```
 
 #### Additional Resources
 
@@ -67,18 +73,22 @@ The `$ rake routes` for a singular resource would only contain 6 routes (since w
 
 Sometimes it just makes sense for one resource to be nested inside of another.  For instance, a listing of lessons like this logically falls within a listing of courses -- so you'd expect a URL sort of like `http://example.com/courses/1/lessons/3`. The way to achieve this nesting is in the routes file by literally nesting one resource inside a block given to another, which might look something like:
 
+```language-ruby
     # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
         resources :lessons
       end
     end
+```
 
 Note that the `#resources` method now takes a block which will consist of a set of routes.  
 
 When you visit the URL, you'll have to specify the `:id` parameter for BOTH objects.  The `$ rake routes` for the above would include something like:
 
+```language-ruby
     course_lesson  GET  /courses/:course_id/lessons/:id(.:format)  lessons#show
+```
 
 It should also be noted that you're being taken to the controller of the deepest nested resource, and that's also the `:id` parameter which will be called simply `:id` (any parent resource parameters, as in the above, will be specifically called something like `:course_id`).
 
@@ -86,12 +96,14 @@ View helpers are also automatically generated in a logical way (as you can see i
 
 Don't nest routes too deeply! If you're more than a layer or two deep, something should be different.  In fact, oftentimes you'll see only some of the controller actions nested -- only the ones that actually *need* the parent's ID to uniquely specify it.  For instance, you can grab a specific Lesson by knowing only its ID.  But to get all the lessons that are listed beneath a specific Course, you need the Course ID so it will have to be nested.  Same is true for creating lessons, since they will need a parent specified:
 
+```language-ruby
     # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
         resources :lessons, :only => [:index,]
       end
     end
+```
 
 If this seems a bit confusing at first, you'll pick it up quickly when you actually run into it in your own coding.  If you find yourself working inside your controller and needing the parent's ID, the route should have been nested.  If you find that you don't need the parent's ID, it doesn't need to be nested.  Easy enough.  
 
@@ -99,6 +111,7 @@ If this seems a bit confusing at first, you'll pick it up quickly when you actua
 
 Sometimes you want to add another non-RESTful route to a resource.  If you'd like to add a route to just a single member of that resource, use the `#member` method:
 
+```language-ruby
     # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
@@ -107,11 +120,13 @@ Sometimes you want to add another non-RESTful route to a resource.  If you'd lik
         end
       end
     end
+```
 
 That route would map to the `courses#preview` action.  You can add as many as you'd like.
 
 If you'd like to add a non-RESTful route to the whole collection of your resource (so you don't need to specify the `:id` attribute, like with the `index` action), you instead use the `#collection` method:
 
+```language-ruby
     # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
@@ -123,6 +138,7 @@ If you'd like to add a non-RESTful route to the whole collection of your resourc
         end
       end
     end
+```
 
 The `upcoming` route will map to the `courses#upcoming` action but will not take an `:id` parameter.
 
@@ -132,10 +148,12 @@ If any of this seems confusing, just play around with them and run `$ rake route
 
 You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:
 
+```language-ruby
     # config/routes.rb
     TestApp::Application.routes.draw do
       get 'courses/:course_name' => redirect('/courses/%{course_name}/lessons'), :as => "course"
     end
+```
 
 Well, that got interesting fast.  The basic principle here is to just use the `#redirect` method to send one route to another route.  If your route is quite simple, it's a really straightforward method.  But if you want to also send the original parameters, you need to do a bit of gymnastics by capturing the parameter inside `%{here}`.  Note the single quotes around everything.  
 
@@ -153,14 +171,17 @@ For instance, you might have a specific layout file for your static pages called
 
 In this case, you would tell your `static_pages.html.erb` layout to call the `application.html.erb` layout but also pass it some special CSS by using the `#content_for` method, e.g. 
 
+```language-ruby
     # app/views/layouts/static_pages.html.erb
     <% content_for :stylesheets do %>
       #navbar {display: none}
     <% end %>
     <%= render :template => "layouts/application" %>
+```
 
 Then your `application.html.erb` layout needs to be set up to catch that content and use it, for instance by adding this `#yield` line:
 
+```language-ruby
     # app/views/layouts/application.html.erb
     ...
     <head>
@@ -170,9 +191,11 @@ Then your `application.html.erb` layout needs to be set up to catch that content
     ...
     render :template => "static_pages.html.erb"
     ...
+```
 
 When you `#yield` to a particular content block, in this case `:stylesheets`, it will essentially drop the code from inside of that `content_for`'s block to where the `#yield` method was.  So in the above example, we effectively added some CSS styling to the application layout by first rendering a special `static_pages.html.erb` layout and then passing the styles to the main `application.html.erb` layout using `#content_for`.  The result would look like:
 
+```language-ruby
     # app/views/layouts/application.html.erb
     ...
     <head>
@@ -180,6 +203,7 @@ When you `#yield` to a particular content block, in this case `:stylesheets`, it
       <style> #navbar {display: none} </style>
     </head>
     ...
+```
 
 This trick is useful for more than just passing stylesheet information... any time you find yourself wanting to make a section of your site look different but without totally redesigning it with a fully new layout, you might consider nesting your layouts and passing information from one to another.
 
@@ -193,15 +217,18 @@ The routes example almost isn't fair, though, because you wrote your `routes.rb`
 
 Ruby provides the `#send` method to save the day.  If you want to run a method on an object, just *send* that object the method and any arguments you want.  A simple example you can do on your command line is `1+2`:
 
-    > 1 + 2
-    => 3
-    > 1.send(:+, 2) 
-    => 3
+```language-bash
+  > 1 + 2
+  => 3
+  > 1.send(:+, 2) 
+  => 3
+```
 
 In an ordinary situation, there's no reason to use the `#send` method but if you don't know which method you're going to need to call, it's a lifesaver.  Just pass it the symbolized name of the method you want to run on that object and Ruby will go looking for it.
 
 But how do you define a new method on the fly anyway?  In this case, you can use the `#define_method` method, which takes the symbol of what you'd like to define and a block representing the method itself.  The following examples were taken from [this metaprogramming guide from ruby-metaprogramming.rubylearning.com](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html):
 
+```language-ruby
     class Rubyist
       define_method :hello do |my_arg|
         my_arg
@@ -209,11 +236,13 @@ But how do you define a new method on the fly anyway?  In this case, you can use
     end
     obj = Rubyist.new
     puts(obj.hello('Matz')) # => Matz
+```
 
 Another very powerful tool is the `#method_missing` method.  You've certainly seen errors that say something to the effect of "Hey you, you tried to call a method that doesn't exist!" and the stack trace will probably run through something called `method_missing`.  Most likely, you had a typo and spelled your method incorrectly.  
 
 Basically, `#method_missing` is a method of Ruby's `BasicObject` class which gets inherited by every single object in Ruby and it is called whenever you try to run a method that doesn't actually exist.  It also gets passed all the arguments you tried to send and any blocks that went with it.  That means that you can override `#method_missing` yourself for a given object and use whatever was previously called, for example printing out a message saying the name of the method you tried to call and its arguments:
 
+```language-ruby
     class Rubyist
       def method_missing(m, *args, &block)
         str = "Called #{m} with #{args.inspect}"
@@ -224,14 +253,17 @@ Basically, `#method_missing` is a method of Ruby's `BasicObject` class which get
         end
       end
     end
+```
 
-    > Rubyist.new.anything
-    Called anything with []
-    => nil
+```language-bash
+  > Rubyist.new.anything
+  Called anything with []
+  => nil
 
-    > Rubyist.new.anything(3, 4) { "something" }
-    Called anything with [3, 4] and also a block: #<Proc:0x007fa0261d2ae0@(irb):38>
-    => nil
+  > Rubyist.new.anything(3, 4) { "something" }
+  Called anything with [3, 4] and also a block: #<Proc:0x007fa0261d2ae0@(irb):38>
+  => nil
+```
 
 Metaprogramming is really nifty stuff and there are tons of interesting uses for it.  You don't need to master it to learn Rails, so only dive into it once you're comfortable with Rails, but it will certainly be useful to you in the real world.  There are all kinds of metaprogramming tricks and patterns and tips out there but it's beyond the scope of this course to dive into them.  
 

@@ -17,10 +17,13 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 6. If you go to the bottom of the Search docs, you'll see a link to the [Search API Explorer](http://www.flickr.com/services/api/explore/flickr.photos.search).  This tool lets you actually execute requests using Flickr's API key for illustrative purposes.  You just enter the options you want and it will make the request for you.  Try entering "puppies" under the "tags" argument, then scroll to the bottom.  Change the response "Output" dropdown to JSON then click "Call Method".
 7. When the page refreshes, you'll see your results down at the bottom.  You should see a big list of photo objects (after some meta data) that were returned by your search.  They look like:
 
+    ```language-bash
         { "id": "11357337313", "owner": "84645040@N00", "secret": "6dd795c9c6", "server": "3805", "farm": 4, "title": "Gavin-Feb2013-0127", "ispublic": 1, "isfriend": 0, "isfamily": 0 },
+    ```
 
     More interestingly, you can see the URL they used to make the request below that.  I've broken it apart here to show the parameters more clearly: 
 
+    ```language-bash
         http://api.flickr.com/services/rest/
           ?method=flickr.photos.search
           &api_key=e0eb58bf4b3e29b253e86d6092e69dee
@@ -28,7 +31,8 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
           &format=json
           &nojsoncallback=1
           &api_sig=200efb63cb01a3d141fff12585e1e20a
-
+    ```
+    
 1. The URL contains the REST endpoint we looked at before, along with our search query and some other options like the API key and format.  If you copy and paste that into your browser, you'll see the same batch of output.
 2. If you look back on the [main API docs page](http://www.flickr.com/services/api/) in the "Read these first" box, there's a link that says [URLs](http://www.flickr.com/services/api/misc.urls.html).  Follow that link.
 3. Flickr's API requires two steps to actually display a photo -- you need to get a photo's meta information (which we just received in our search results) and then you need to piece it together into a URL that Flickr can understand to actually retrieve the photo.  The format they suggest is:

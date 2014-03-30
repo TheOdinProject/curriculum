@@ -39,11 +39,15 @@ That's a step ahead of ourselves, though, because first it makes sense to think 
 
 Very briefly, Active Record lets you create a Ruby object that represents a row in one of your database tables, like a `User`.  To create a new User is a two-step process: First, you'll need to do a `User.new` and might pass it a hash full of its attributes like 
 
-`u = User.new({:name => "Sven", :email => "sven@theodinproject.com"})`
+```language-bash
+u = User.new({:name => "Sven", :email => "sven@theodinproject.com"})
+```
 
 If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, simply call `u.save`.  You can run both steps at once using the `#create` method:
 
-`u = User.create({:name => "Sven", :email => "sven@theodinproject.com"})`
+```language-bash
+u = User.create({:name => "Sven", :email => "sven@theodinproject.com"})
+```
 
 This saves you time, but, as you'll see later, you'll sometimes want to separate them in your application.
 
@@ -69,11 +73,13 @@ Figure out the data models that you'll need to use for the first iteration of yo
 
 The best part is that Rails knows that you want to do this and has given you a handy shortcut for doing so: the `$ rails generate model YourModelNameHere` command.  When you type it in, you will see in the Terminal output which files are being created.  Don't worry about any specs or test files that also get created, the important ones are the model file and the migration file.  Rails has lots of these handy generators which don't do much except create new files in the right spots of your application for you.  The output looks something like:
 
-      invoke  active_record
-      create    db/migrate/20131223154310_create_testmodels.rb
-      create    app/models/testmodel.rb
-      invoke    rspec
-      create      spec/models/testmodel_spec.rb
+```language-bash
+  invoke  active_record
+  create    db/migrate/20131223154310_create_testmodels.rb
+  create    app/models/testmodel.rb
+  invoke    rspec
+  create      spec/models/testmodel_spec.rb
+```
 
 The model file that the generator creates is just a bare-bones model file in the `app/models` directory (which you could easily have created yourself).  The other main file is the migration file in the `db/migrations` folder, which starts with a complicated looking timestamp like `20130924230504_create_users.rb`.  
 
