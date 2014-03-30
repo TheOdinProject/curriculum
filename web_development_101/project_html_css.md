@@ -30,16 +30,16 @@ You'll want to organize all your projects as you go through the course, and the 
 5. Open the `README` file on your local computer and change its text to include the title of the project and a link to this project on theodinproject.com.
 6. Commit the updated `README` to your Github repository using the commands below on your command prompt:
 
-    ```language-ruby
-        # adds all files that are in your current directory and which you've
-        # recently changed to the "staging area" (ie. they're "ready to commit")
-        $ git add -A
+    ```language-bash
+    # adds all files that are in your current directory and which you've
+    # recently changed to the "staging area" (ie. they're "ready to commit")
+    $ git add -A
 
-        # commits all the "staged" files into your local repository
-        $ git commit -m "update README"
+    # commits all the "staged" files into your local repository
+    $ git commit -m "update README"
 
-        # pushes your local repository up to your remote one on Github
-        $ git push origin master
+    # pushes your local repository up to your remote one on Github
+    $ git push origin master
     ```
 
 When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push`.
