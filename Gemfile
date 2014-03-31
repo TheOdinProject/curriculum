@@ -15,7 +15,10 @@ gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 gem 'protected_attributes', '~> 1.0.5'
 gem 'pg', '~> 0.17.1'
 gem 'premailer-rails'
-gem 'omniauth-github'
+gem 'omniauth-github' #for Github Authentication
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store' #for cookie generation if you log in
+
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
