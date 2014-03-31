@@ -9,7 +9,7 @@ class User < ActiveRecord::Base
   after_create :build_preferences, :send_welcome_email
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus, :legal_agreement
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus, :legal_agreement, :provider, :uid
 
   validates_uniqueness_of :email, :username
   validates_presence_of :legal_agreement, :message => "Don't forget the legal stuff!", :on => :create
@@ -50,19 +50,21 @@ class User < ActiveRecord::Base
     self.lesson_completions.order(:created_at => :desc).first
   end
 
-  def self.find_for_github_oauth(auth, signed_in_resource=nil)
-    user = User.where(:provide => auth.provider, :uid => auth.uid).first
-    if user
-      return user
-    else
-      registered_user = User.where(:email => auth.uid).first
-      if registered_user
-        return registered_user
-      else
-        user = User.create(name: auth.extra.raw_info.name, provider: auth.provider, uid: auth.uid, email: auth.email, password: Devise.friendly_token[0,20])
-      end
-    end
-  end
+  # def self.find_for_github_oauth(auth, signed_in_resource=nil)
+  #   user = User.where(:provider => auth.provider, :uid => auth.uid).first
+  #   if user
+  #     return user
+  #   else
+  #     registered_user = User.where(:email => auth.uid).first
+  #     if registered_user
+  #       return registered_user
+  #     else
+  #       user = User.create(name: auth.extra.raw_info.name, provider: auth.provider, uid: auth.uid, email: auth.email, password: Devise.friendly_token[0,20])
+  #     end
+  #   end
+  # end
+
+  include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
   protected
 
