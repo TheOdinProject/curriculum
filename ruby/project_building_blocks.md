@@ -42,6 +42,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from bartliolio](http://github.com/bartliolio/odin_project/blob/master/caesar_cipher/caesar_cipher.rb)
 * [Solution from ThusStyles](https://github.com/ThusStyles/cipher/blob/master/cipher.rb)
 * [Solution from Sessl](https://github.com/Sessl/ruby_work/blob/master/cipher.rb)
+* [Solution from Eugyev](https://github.com/eugyev/odinprojects/blob/master/cypher.rb)
 * Your Solution Here
 
 
@@ -64,6 +65,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 
 * [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/stock_picker.rb)
 * [Solution from bartliolio](https://github.com/bartliolio/odin_project/blob/master/stock_picker/stock_picker.rb)
+* [Solution from eugyev](https://github.com/eugyev/odinprojects/blob/master/stock_picker.rb)
 * Your Solution Here
 
 
@@ -94,4 +96,5 @@ Next, make sure your method can handle multiple words:
 
 * [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/substrings.rb)
 * [Solution from bartliolio](https://github.com/bartliolio/odin_project/blob/master/substrings/substrings.rb)
+* [Solution from eugyev](https://github.com/eugyev/odinprojects/blob/master/substrings.rb)
 * Your Solution Here
