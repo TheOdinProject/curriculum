@@ -66,6 +66,20 @@ class User < ActiveRecord::Base
 
   include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
+  def apply_omniauth(omniauth)
+    user = User.new(:provider => omniauth['provider'], :uid => omniauth['uid'])
+  end
+
+  def password_required? #only need password field if not already validated by github
+    # binding.pry
+    # omniauth = request.env["omniauth.auth"]
+    # user = User.find_by(provider: omniauth['provider'], uid: omniauth['uid'])
+    # if provider is empty or password is not blank, then password is required
+    # if provider is not empty
+      (self.provider.try(:empty?) || !password.blank?) && super
+  end
+
+
   protected
 
     def build_preferences

@@ -6,12 +6,12 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   if user
     flash[:notice] = "Signed in successfully."
     sign_in_and_redirect(:user, user)
-  # elsif current_user
-  #   current_user.authentications.create(:provider => omniauth['provider'], :uid => omniauth['uid'])
-  #   flash[:notice] = "Authentication successful."
-  #   redirect_to authentications_url
+  elsif current_user
+     current_user.create(:provider => omniauth['provider'], :uid => omniauth['uid'])
+     flash[:notice] = "Authentication successful."
+     sign_in_and_redirect(:user, user)
   else
-    user = User.new(:provider => omniauth ['provider'], :uid => omniauth['uid'])
+    user = User.new(:provider => omniauth['provider'], :uid => omniauth['uid'])
     if user.save
       flash[:notice] = "Signed in successfully"
       sign_in_and_redirect(:user, user)
