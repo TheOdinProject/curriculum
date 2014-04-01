@@ -12,7 +12,8 @@
             <% if current_user %>
               <%= link_to "Logout", logout_path(:ref => "homenav") %>
             <% else %>
-              <%= link_to "Login", login_path(:ref => "homenav") %>
+              <%= link_to "Login", login_path(:ref => "homenav")%> |
+              <%= link_to "Signin with Github", user_omniauth_authorize_path(:github) %>
             <% end %>
           </div>
           <div class="clearfix"></div>
