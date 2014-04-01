@@ -15,10 +15,10 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
        sign_in_and_redirect(:user, user)
     else
      # binding.pry
-      user = User.new(provider: omniauth['provider'], uid: omniauth['uid'], email: omniauth['info']['email'], username: omniauth['info']['nickname'])
-      # session[:omniauth] = omniauth.except('extra')
-
-      if user.save
+        user = User.new(provider: omniauth['provider'], uid: omniauth['uid'], email: omniauth['info']['email'], username: omniauth['info']['nickname'])
+        # session[:omniauth] = omniauth.except('extra')
+      if session[:legalAgreement]
+        user.save
         flash.now[:notice] = "Signed in successfully"
         # current_user = user
         #sign_in(:user, user)
