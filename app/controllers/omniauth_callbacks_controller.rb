@@ -17,7 +17,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
      # binding.pry
       user = User.new(provider: omniauth['provider'], uid: omniauth['uid'], email: omniauth['info']['email'], username: omniauth['info']['nickname'])
       # session[:omniauth] = omniauth.except('extra')
-
+      user.legal_agreement = true
       if user.save
         flash.now[:notice] = "Signed in successfully"
         # current_user = user
