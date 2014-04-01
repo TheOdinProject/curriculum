@@ -23,10 +23,10 @@
       <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
       <%= f.input :email, :required => true %>
 
-      <% if @user.password_required? %>
+      <% #if @user.password_required? %>
         <%= f.input :password, :required => true %>
         <%= f.input :password_confirmation, :required => true %>
-      <% end %>
+      <% #end %>
       <!-- don't forget about our legal agreements checkbox! -->
       <%= render :partial => "devise/shared/legal_checkbox", :locals => {:f => f} %>
 
