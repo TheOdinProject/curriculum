@@ -23,6 +23,7 @@ describe "Sign Up" do
         fill_in :user_email, :with => attrs[:email]
         fill_in :user_password, :with => attrs[:password]
         fill_in :user_password_confirmation, :with => attrs[:password]
+        check :user_legal_agreement
         click_button "Sign up"
       end
 

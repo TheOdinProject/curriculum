@@ -4,7 +4,7 @@ class RegistrationsController < Devise::RegistrationsController
   protected
 
   def configure_permitted_parameters
-    devise_parameter_sanitizer.for(:sign_up) << :username
+    devise_parameter_sanitizer.for(:sign_up) << :username << :legal_agreement
   end
 
   def after_sign_up_path_for(resource)

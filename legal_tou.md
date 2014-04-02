@@ -1,10 +1,10 @@
-# Terms of Use -- DRAFT
+# Terms of Use
 
-*Last Modified: 2/25/14*
+*Last Modified: 3/22/14*
 
 ### Preamble
 
-Welcome to The Odin Project, a service provided by The Odin Project (“The Odin Project”, "The Odin Project", "Odin Project",  “we” “our”, or “us”).
+Welcome to The Odin Project, a service provided by The Odin Project (“The Odin Project”, "The Project", "Odin Project",  “we” “our”, or “us”).
 
 These Terms of Use govern your use of theodinproject.com (the “Website”) and all related widgets, tools, applications, data, software, APIs (which may also be subject to separate API Terms of Use) and other services provided by us (the “Services”).
 
@@ -16,8 +16,7 @@ Please read these Terms of Use very carefully. If you do not agree to any of the
 
 ### Changes to Terms of Use
 
-We reserve the right to change, alter, replace or otherwise modify these Terms of Use at any time. The date of last modification is stated at the end of these Terms of Use. It is your responsibility to check this page from time to time for updates.
-When we make any updates to these Terms of Use, we will highlight this fact on the Website. In addition, if you register an account and these Terms of Use are subsequently changed in any material respect (for example, for security, legal, or regulatory reasons), we will notify you in advance by sending a message to your Odin Project account and/or an email to the email address that you have provided to us, and the revised Terms of Use will become effective six (6) weeks after such notification. You will have no obligation to continue using the Platform following any such notification, but if you do not terminate your account as described in the Termination section below during such six (6) week period, your continued use of the Platform after the end of that six (6) week period will constitute your acceptance of the revised Terms of Use.
+We reserve the right to change, alter, replace or otherwise modify these Terms of Use at any time. We recommend that you periodically check this Site for changes.
 
 ### Description of the Platform
 
@@ -51,7 +50,7 @@ In addition, if you register to use the Platform, and subject to your strict com
 
 (iii) use other Services provided as part of the Platform strictly as permitted in accordance with these Terms of Use and any other terms applicable to those Services from time to time.
 
-The above licenses are conditional upon your strict compliance with these Terms of, including, without limitation, the following:
+The above licenses are conditional upon your strict compliance with these Terms, including, without limitation, the following:
 
  (i) You must not adapt, copy, republish, make available or otherwise communicate to the public, display, perform, transfer, share, distribute or otherwise use or exploit any Content on or from the Platform, except (i) where such Content is Your Content, or (ii) as permitted under these Terms of Use, and within the parameters displayed alongside that Content (for example, under the terms of Creative Commons licenses).
 
@@ -189,6 +188,10 @@ The Odin Project has an active community of users, many of whom organize and att
 ### Competitions and Other Promotions
 
 From time to time, some The Odin Project users may promote competitions, promotions, prize draws and other similar opportunities on the Platform (“Third Party Competitions”). The Odin Project is not the sponsor or promoter of these Third Party Competitions, and does not bear any responsibility or liability for the actions or inactions of any third parties who organize, administer or are otherwise involved in any of promotion of these Third Party Competitions. If you wish to participate in any of these Third Party Competitions, it is your responsibility to read the terms and conditions applicable to the relevant Third Party Competition and to ensure that you understand the rules and any eligibility requirements, and are lawfully able to participate in such Third Party Competitions in your country of residence.
+
+### Employment and Salary Waiver
+
+You agree that in no way does your use of this site imply that you will be able to find a job or that you should find a job.  This site does NOT guarantee you a job based on using the information contained within.  All salary information provided is purely for information purposes and your own case may vary widely.
 
 ### Changes to the Platform and Accounts
 

@@ -3,30 +3,32 @@
   <h2>Sign up</h2>
 
   <div class="alpha-alert">
-    <h3>Alpha Release Warning</h3>
+    <h3>Beta Release Notice</h3>
     <p>
-      Thanks for your interest in The Odin Project and we're excited to have you in on the ground floor! Just so you know, this is currently an alpha-level product, which means a couple of things:
+      Thanks for your interest in The Odin Project and we're excited to have you in on the ground floor! Just so you know, this is currently a beta-level product, which means a couple of things:
     </p>
     <ol>
       <li>
-        <strong>It's Rough Around the Edges</strong><br> This is a pre-release, so don't expect anything near to perfection.  It's very much a work in progress that responds to your needs and we'll be expanding the features based on the feedback we receive.
+        <strong>It's Rough Around the Edges</strong><br> This is a pre-release, so please don't expect perfection.  It's very much a work in progress that responds to your needs and we'll be expanding the features based on the feedback we receive.
       </li>
       <li>
-        <strong>We Need Your Help!</strong><br> If you see something that looks odd, isn't very intuitive, or throws an error message, let us know!  Use the suggestion box at the bottom of the screen or email us at feedback@theodinproject.com, preferably with a screenshot and as much information as you can about what happened.  Same goes if you want to see some new features... we're all building this project together!
+        <strong>We Need Your Help!</strong><br> Use the suggestion box at the bottom of the screen or email us at feedback@theodinproject.com with any feedback.  If you want to get involve (it's open source!), check out our Contributing page.  We're all building this project together!
       </li>
     </ol>
   </div>
 
   <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
     <%= f.error_notification %>
-
     <div class="form-inputs">
       <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
       <%= f.input :email, :required => true %>
       <%= f.input :password, :required => true %>
       <%= f.input :password_confirmation, :required => true %>
-    </div>
 
+      <!-- don't forget about our legal agreements checkbox! -->
+      <%= render :partial => "devise/shared/legal_checkbox", :locals => {:f => f} %>
+
+    </div>
 
       <%= f.button :submit, "Sign up", :class => "btn-primary btn-large pull-right", :onClick => "_gaq.push(['_trackEvent', 'signup_buttons', 'sign_up', 'main_signup_button']);" %>
 
