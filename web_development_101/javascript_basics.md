@@ -42,7 +42,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Joshua Gorchov's Euler solutions](https://github.com/gorchov/odin/tree/master/projectEuler)
 * [Aniruddh Agarwal's Euler solutions](https://github.com/aniruddhagarwal/odin-projects/tree/master/project-euler-sol)
 * [Jamie's Euler solutions (submitted Mar-28,14)](https://github.com/Jberczel/odin-projects/tree/master/project-euler)
-* *Your solutions here...*
+* [Sergey Prihodko's Euler solutions](https://github.com/sprihodko/odin-projects/tree/master/project-euler)
 
 ## Additional Resources
 
