@@ -543,21 +543,30 @@
       font-weight:300;
     }
   }
+	
   .hof-card{
 	  height: auto;
+		min-width:410px;
     border: 1px solid $vlight_gray;
     box-shadow: 3px 3px 3px #efefef;
     padding:30px 30px;
-    margin:50px 50px 30px;
+    margin:90px 50px 30px;
     font-size:.7em;
     font-weight:300;
     border-radius:10px;
-		
+		.git-link{
+			float:left;
+			margin-left:-24px;
+			margin-top:36px;
+			opacity:0.4;
+			image-size:10px;
+		}
+		.git-link:hover{
+			opacity:0.6;
+		}
 		.name-bg{
 			height: 36px;
-			margin-top:55px;
-			margin-right:-60px;
-			margin-left: 76px;
+			margin:20px -60px 4px 76px;
 			border-radius:12px;
 			background: #5BB75B;
 			h3 {
@@ -569,10 +578,10 @@
 		.bio{
 			float:right;
 			width:300px;
-			margin-top:-12px;
+			margin-top:-36px;			
 		}
 		p {
-			margin:0px;
+			min-height:110px;
 			font-size:1.5em;
 			font-weight:350;
 		}
