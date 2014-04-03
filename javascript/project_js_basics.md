@@ -32,7 +32,7 @@ It's time to build an on-screen calculator
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* *Your solution here!*
+* [Solution from mahimahi42](https://github.com/mahimahi42/js-calc.git)
 
 
 ## Additional Resources
