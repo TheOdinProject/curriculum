@@ -2,8 +2,8 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :trackable, :validatable, :omniauthable
+  devise :database_authenticatable, :registerable, :omniauthable,
+         :recoverable, :rememberable, :trackable, :validatable
 
   # Make sure we get the preference built after the user saves
   after_create :build_preferences, :send_welcome_email
@@ -11,7 +11,7 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus, :legal_agreement, :provider, :uid
 
-  validates_uniqueness_of :email, :username
+  validates_uniqueness_of :username,:email
   validates_presence_of :legal_agreement, :message => "Don't forget the legal stuff!", :on => :create
   validates :username, :length => { :in => 4..20 }
 
@@ -66,22 +66,38 @@ class User < ActiveRecord::Base
 
   include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
-  def apply_omniauth(omniauth)
-    email = omniauth['info']['email'] if email.blank?
-    username = omniauth['info']['nickname'] if username.blank?
-    # binding.pry
-    user = User.create(provider: omniauth['provider'], uid: omniauth['uid'], username: username, email: email)
+  def self.from_omniauth(auth)
+    where(auth.slice(:provider, :uid)).first_or_create do |user|
+      user.provider = auth.provider
+      user.uid = auth.uid
+      user.username = auth.info.nickname
+    end
   end
 
-  def password_required? #only need password field if not already validated by github
-    # binding.pry
-    # omniauth = request.env["omniauth.auth"]
-    # user = User.find_by(provider: omniauth['provider'], uid: omniauth['uid'])
-    # if provider is empty or password is not blank, then password is required
-    # if provider is not empty
-    #binding.pry
-      (self.provider.try(:empty?) || !password.blank?) && super
+  def self.new_with_session(params, session)
+    if session["devise.user_attributes"]
+      new(session["devise.user_attributes"], without_protection: true) do |user|
+        user.attributes = params
+        user.valid?
+      end
+    else
+      super
+    end
   end
+
+  def password_required?
+    super && provider.blank?
+  end
+
+  def update_with_password(params, *options)
+    if encrypted_password.blank?
+      update_attributes(params, *options)
+    else
+      super
+    end
+  end
+
+
 
 
   protected
