@@ -67,10 +67,11 @@ class User < ActiveRecord::Base
   include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
   def self.from_omniauth(auth)
+    nickname = auth[:info][:nickname]
     where(auth.slice(:provider, :uid)).first_or_create do |user|
-      user.provider = auth.provider
-      user.uid = auth.uid
-      user.username = auth.info.nickname
+      user.provider = auth['provider']
+      user.uid = auth['uid']
+      user.username = nickname
     end
   end
 
