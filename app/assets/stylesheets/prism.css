@@ -2,6 +2,7 @@
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
+ * NOTE: Changed one line below to add <pre> tags default dark background;
  */
 
 code[class*="language-"],
@@ -33,7 +34,7 @@ pre[class*="language-"] {
 	border-radius: 0.3em;
 }
 
-:not(pre) > code[class*="language-"],
+pre, :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
 	background: #272822;
 }
