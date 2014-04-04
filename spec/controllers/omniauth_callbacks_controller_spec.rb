@@ -1,67 +1,67 @@
 require 'spec_helper'
 require 'omniauth.rb'
-# include Devise::TestHelpers
 
-# describe OmniauthCallbacksController do
+def click_signin
+  visit root_path
+  click_link "Signin with Github"
+end
+
+def fill_in_correctly
+  visit root_path
+  click_link "Signin with Github"
+  fill_in('user_username', :with => "GhostMan")
+  fill_in('user_email', :with => "ghost@nobody.com")
+  check('user_legal_agreement')
+  click_button('Sign up')
+end
+
+def dont_check_legal_agreement
+  visit root_path
+  click_link "Signin with Github"
+  fill_in('user_username', :with => "GhostMan")
+  fill_in('user_email', :with => "ghost@nobody.com")
+  click_button('Sign up')
+end
 
 
-#   let!(:user) { FactoryGirl.create(:user) }
 
-#   it "making a request without cookie token " do
-#     get "/users/auth/github/callback"
-#     last_response.status.should eql(401)
-#     error = {:error=>'You need to sign in or sign up before continuing.'}
-#     last_response.body.shold  eql(error.to_json)
-#   end
+describe OmniauthCallbacksController, "github callback" do
 
-# end
-
-describe OmniauthCallbacksController, "handle github authentication callback" do
-
-  # before do
-  #   request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github]
-  # end
   describe 'click Signin with Github' do
     context 'shows signup page' do
       before(:each) do
-        visit root_path
-        click_link "Signin with Github"
+        click_signin
       end
 
-      it { page.should have_content('Username') }
-      it { page.should have_content('Email') }
-      it { page.should have_content('Terms of Use') }
-      it { page.should_not have_css('password confirmation') }
-      it { page.should_not have_css('password required') }
+      specify { page.should have_content('Username') }
+      specify { page.should have_content('Email') }
+      specify { page.should have_content('Terms of Use') }
+      specify { page.should_not have_css('password confirmation') }
+      specify { page.should_not have_css('password required') }
     end
 
     context 'fill out signup form correctly' do
       before(:each) do
-        visit root_path
-        click_link "Signin with Github"
-        fill_in('user_username', :with => "GhostMan")
-        fill_in('user_email', :with => "ghost@nobody.com")
-        check('user_legal_agreement')
-        set_omniauth()
-        # puts "hello"
-        # puts find(:css, '#user_username').value
-        # puts find(:css, '#user_email').value
-        # puts find(:css, '#user_legal_agreement').value
-        # puts find_button('Sign up').value
-        # find_button('Sign up').click
-        # soleep 5
-        # puts "done sleeping"
-
-
-
-        click_button('Sign up')
-        set_omniauth()
-
-        puts page.source
+        fill_in_correctly
       end
 
-      it { page.should have_content('can\'t be blank') }
+      specify { page.should have_content('This is Your Path to Learning Web Development') }
+      it 'should create user' do
+        expect(User.where(provider: "github", uid: '123455', email: 'ghost@nobody.com'))
+      end
     end
+
+    context 'do not fill legal_agreement' do
+      before(:each) do
+        dont_check_legal_agreement
+      end
+
+      specify {page.should have_content('Don\'t forget the legal')}
+      it 'should not create a user' do
+        expect(User.any?).to eq(false)
+      end
+    end
+
   end
 
   # describe "#annonymous user" do
