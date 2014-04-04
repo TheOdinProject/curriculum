@@ -34,7 +34,7 @@ describe OmniauthCallbacksController, "github callback" do
   end
 
   describe 'click Signin with Github' do
-    context 'shows signup page' do
+    context 'show signup page' do
       before(:each) do
         click_signin
       end
@@ -50,11 +50,30 @@ describe OmniauthCallbacksController, "github callback" do
       before(:each) do
         fill_in_correctly
       end
-
-      specify { page.should have_content('This is Your Path to Learning Web Development') }
+      specify { page.should have_content('Welcome! You have signed up successfully.') }
       it 'should create user' do
         expect(User.where(provider: "github", uid: '123455', email: 'ghost@nobody.com'))
       end
+    end
+
+    context 'after signout' do
+      before(:each) do
+        click_signin
+        fill_in_correctly
+        click_link "Logout"
+      end
+      specify { page.should have_content('Signin with Github') }
+    end
+
+    context 'should be able to sign in again' do
+      before(:each) do
+        click_signin
+        fill_in_correctly
+        click_link "Logout"
+        click_signin
+      end
+
+      specify { page.should have_content('Signed in!') }
     end
 
     context 'do not fill legal_agreement' do
