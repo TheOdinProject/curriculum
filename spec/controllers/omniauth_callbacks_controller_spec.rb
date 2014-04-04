@@ -22,8 +22,6 @@ def dont_check_legal_agreement
   click_button('Sign up')
 end
 
-
-
 describe OmniauthCallbacksController, "github callback" do
 
   describe 'When github authentication fails' do
@@ -34,7 +32,6 @@ describe OmniauthCallbacksController, "github callback" do
       expect(response).to redirect_to root_path
     end
   end
-
 
   describe 'click Signin with Github' do
     context 'shows signup page' do
@@ -67,6 +64,26 @@ describe OmniauthCallbacksController, "github callback" do
 
       specify {page.should have_content('Don\'t forget the legal')}
       it 'should not create a user' do
+        expect(User.any?).to eq(false)
+      end
+    end
+
+    context 'does not fill in username' do
+      it 'should not create a user' do
+        click_signin
+        fill_in('user_email', :with => "ghost@nobody.com")
+        check('user_legal_agreement')
+        click_button('Sign up')
+        expect(User.any?).to eq(false)
+      end
+    end
+
+    context 'does not provide an email' do
+      it 'should not create a user' do
+        click_signin
+        fill_in('user_username', :with => "GhostMan")
+        fill_in('user_email', :with => "ghost@nobody.com")
+        click_button('Sign up')
         expect(User.any?).to eq(false)
       end
     end
