@@ -8,6 +8,8 @@ devise_for :users, :controllers => { :registrations => "registrations", :omniaut
     get 'signup' => 'devise/registrations#new'
   end
 
+  #failure route if github information returns invalid
+  get '/auth/failure' => 'omniauth_callbacks#failure'
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'

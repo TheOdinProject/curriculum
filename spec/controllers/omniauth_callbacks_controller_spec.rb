@@ -62,6 +62,15 @@ describe OmniauthCallbacksController, "github callback" do
       end
     end
 
+  context 'when failure.....' do
+    it 'should render a failure message on unsuccessful authentication' do
+      get :failure
+      expect(flash[:alert]).to eq 'Authentication failed.'
+      expect(response).to redirect_to root_path
+    end
+  end
+
+
   end
 
   # describe "#annonymous user" do

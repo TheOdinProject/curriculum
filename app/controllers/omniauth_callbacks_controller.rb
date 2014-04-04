@@ -15,6 +15,11 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
   alias_method :github, :all
 
+  def failure
+    flash[:alert] = 'Authentication failed.'
+    redirect_to root_path
+  end
+
   # def github
   #   #binding.pry
   #   omniauth = request.env["omniauth.auth"]
