@@ -20,13 +20,13 @@
   <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
     <%= f.error_notification %>
     <div class="form-inputs">
-      <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
-      <%= f.input :email, :required => true %>
+        <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
+        <%= f.input :email, :required => true %>
+      <% if f.object.password_required? %>
 
-      <% #if @user.password_required? %>
         <%= f.input :password, :required => true %>
         <%= f.input :password_confirmation, :required => true %>
-      <% #end %>
+      <% end %>
       <!-- don't forget about our legal agreements checkbox! -->
       <%= render :partial => "devise/shared/legal_checkbox", :locals => {:f => f} %>
 
