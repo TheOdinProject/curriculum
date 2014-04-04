@@ -6,10 +6,10 @@ devise_for :users, :controllers => { :registrations => "registrations", :omniaut
     get '/logout' => 'devise/sessions#destroy', :method => :delete
     get 'sign_up' => 'devise/registrations#new'
     get 'signup' => 'devise/registrations#new'
+
   end
 
-  #failure route if github information returns invalid
-  get '/auth/failure' => 'omniauth_callbacks#failure'
+
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
@@ -26,7 +26,8 @@ devise_for :users, :controllers => { :registrations => "registrations", :omniaut
   get 'cla' => "static_pages#cla"
   get 'tou' => "static_pages#tou"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
-
+  #failure route if github information returns invalid
+  get '/auth/failure' => 'omniauth_callbacks#failure'
 
 
   resources :cal_events

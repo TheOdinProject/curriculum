@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'omniauth.rb'
 
 def click_signin
   visit root_path
@@ -26,6 +25,16 @@ end
 
 
 describe OmniauthCallbacksController, "github callback" do
+
+  describe 'When github authentication fails' do
+    it 'should render a failure message on unsuccessful authentication' do
+      @request.env["devise.mapping"] = Devise.mappings[:user]
+      get :failure
+      expect(flash[:alert]).to eq 'Authentication failed.'
+      expect(response).to redirect_to root_path
+    end
+  end
+
 
   describe 'click Signin with Github' do
     context 'shows signup page' do
@@ -61,15 +70,6 @@ describe OmniauthCallbacksController, "github callback" do
         expect(User.any?).to eq(false)
       end
     end
-
-  context 'when failure.....' do
-    it 'should render a failure message on unsuccessful authentication' do
-      get :failure
-      expect(flash[:alert]).to eq 'Authentication failed.'
-      expect(response).to redirect_to root_path
-    end
-  end
-
 
   end
 
