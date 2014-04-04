@@ -24,6 +24,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Paul Dariye's Solution [Jumpstart Labs Blogger App](https://github.com/pauldd91/theodinproject/tree/master/blogger)
+* Allen's Solution [Jumpstart Labs Blogger App](https://github.com/NoRest4AWhearry/blogger) | [View online](http://jsblogger2.herokuapp.com/)
 * *Your solution here...*
 
 ## Additional Resources
