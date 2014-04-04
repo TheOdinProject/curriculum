@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'omniauth.rb'
 # include Devise::TestHelpers
 
 # describe OmniauthCallbacksController do
@@ -10,20 +11,19 @@ require 'spec_helper'
 #     get "/users/auth/github/callback"
 #     last_response.status.should eql(401)
 #     error = {:error=>'You need to sign in or sign up before continuing.'}
-#     last_response.body.should  eql(error.to_json)
+#     last_response.body.shold  eql(error.to_json)
 #   end
 
 # end
 
 describe OmniauthCallbacksController, "handle github authentication callback" do
 
-  before do
-    request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github]
-  end
+  # before do
+  #   request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github]
+  # end
   describe 'click Signin with Github' do
     context 'shows signup page' do
       before(:each) do
-        stub_env_for_omniauth
         visit root_path
         click_link "Signin with Github"
       end
@@ -37,26 +37,25 @@ describe OmniauthCallbacksController, "handle github authentication callback" do
 
     context 'fill out signup form correctly' do
       before(:each) do
-        stub_env_for_omniauth
         visit root_path
         click_link "Signin with Github"
         fill_in('user_username', :with => "GhostMan")
         fill_in('user_email', :with => "ghost@nobody.com")
         check('user_legal_agreement')
-
+        set_omniauth()
         # puts "hello"
         # puts find(:css, '#user_username').value
         # puts find(:css, '#user_email').value
         # puts find(:css, '#user_legal_agreement').value
         # puts find_button('Sign up').value
         # find_button('Sign up').click
-        # sleep 5
+        # soleep 5
         # puts "done sleeping"
 
 
 
         click_button('Sign up')
-
+        set_omniauth()
 
         puts page.source
       end

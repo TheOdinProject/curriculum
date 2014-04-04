@@ -59,7 +59,6 @@ RSpec.configure do |config|
   config.order = "random"
 
   OmniAuth.config.test_mode = true
-  OmniAuth.config.mock_auth[:github] = {:provider => 'github', :uid => '123545', :info => {nickname: "testbot"}}
 
 
 end
