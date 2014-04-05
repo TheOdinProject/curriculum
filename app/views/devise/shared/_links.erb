@@ -23,7 +23,7 @@
 
   <%- if devise_mapping.omniauthable? %>
     <%- resource_class.omniauth_providers.each do |provider| %>
-      <%= link_to "Sign in with #{provider.to_s.titleize}", omniauth_authorize_path(resource_name, provider) %><br />
+      <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i> Sign in with #{provider.to_s.titleize}".html_safe, omniauth_authorize_path(resource_name, provider), class: 'btn btn-large pull-right' %><br />
     <% end -%>
   <% end -%>
 </div>
