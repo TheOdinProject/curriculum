@@ -97,3 +97,4 @@ Bootstrap will do a lot of the heavy lifting for you -- instead of having to fig
 * [Bootstrap's Current Version Docs](http://getbootstrap.com/) (NOT used by the tutorial)
 * [Bootstrap's Version 2.3 Docs](http://getbootstrap.com/2.3.2/) (used by the tutorial)
 * [RestClient Documentation](https://github.com/rest-client/rest-client)
+* [Creating Rails Routes, Controllers and Views from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introducing-controller-view-routes)

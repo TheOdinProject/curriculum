@@ -232,4 +232,4 @@ Views in general make up the user-facing side of your app.  It can be a bit tric
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* 
+* [Rails Views, Layouts, Helper Methods and the Asset Pipeline from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introduction-views-layouts-helpers-assets-pipeline)

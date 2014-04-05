@@ -12,4 +12,5 @@ Knowing that perspective, how can you play to it?  It's difficult if you're brea
 
 Remember: ONE PAGE.
 
+* [ResumeRepublic.com has a free tier with sample online resumes](https://www.resumerepublic.com/)
 * [Formatting could use some work, but here's an example resume from CareerCup.com](http://www.careercup.com/resume)
