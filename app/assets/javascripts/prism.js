@@ -20,3 +20,33 @@ Prism.languages.http={"request-line":{pattern:/^(POST|GET|PUT|DELETE|OPTIONS|PAT
  * Adds the following new token classes:
  * 		constant, builtin, variable, symbol, regex
  */Prism.languages.ruby=Prism.languages.extend("clike",{comment:/#[^\r\n]*(\r?\n|$)/g,keyword:/\b(alias|and|BEGIN|begin|break|case|class|def|define_method|defined|do|each|else|elsif|END|end|ensure|false|for|if|in|module|new|next|nil|not|or|raise|redo|require|rescue|retry|return|self|super|then|throw|true|undef|unless|until|when|while|yield)\b/g,builtin:/\b(Array|Bignum|Binding|Class|Continuation|Dir|Exception|FalseClass|File|Stat|File|Fixnum|Fload|Hash|Integer|IO|MatchData|Method|Module|NilClass|Numeric|Object|Proc|Range|Regexp|String|Struct|TMS|Symbol|ThreadGroup|Thread|Time|TrueClass)\b/,constant:/\b[A-Z][a-zA-Z_0-9]*[?!]?\b/g});Prism.languages.insertBefore("ruby","keyword",{regex:{pattern:/(^|[^/])\/(?!\/)(\[.+?]|\\.|[^/\r\n])+\/[gim]{0,3}(?=\s*($|[\r\n,.;})]))/g,lookbehind:!0},variable:/[@$]+\b[a-zA-Z_][a-zA-Z_0-9]*[?!]?\b/g,symbol:/:\b[a-zA-Z_][a-zA-Z_0-9]*[?!]?\b/g});;
+
+/** 
+* Language added by Erik 
+* From https://github.com/LeaVerou/prism/tree/gh-pages/components
+*/
+
+Prism.languages.bash = Prism.languages.extend('clike', {
+  'comment': {
+    pattern: /(^|[^"{\\])(#.*?(\r?\n|$))/g,
+    lookbehind: true
+  },
+  'string': {
+    //allow multiline string
+    pattern: /("|')(\\?[\s\S])*?\1/g,
+    inside: {
+      //'property' class reused for bash variables
+      'property': /\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^\}]+\})/g
+    }
+  },
+  'keyword': /\b(if|then|else|elif|fi|for|break|continue|while|in|case|function|select|do|done|until|echo|exit|return|set|declare)\b/g
+});
+
+Prism.languages.insertBefore('bash', 'keyword', {
+  //'property' class reused for bash variables
+  'property': /\$([a-zA-Z0-9_#\?\-\*!@]+|\{[^}]+\})/g
+});
+Prism.languages.insertBefore('bash', 'comment', {
+  //shebang must be before comment, 'important' class from css reused
+  'important': /(^#!\s*\/bin\/bash)|(^#!\s*\/bin\/sh)/g
+});
