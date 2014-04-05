@@ -2,9 +2,9 @@
  * okaidia theme for JavaScript, CSS and HTML
  * Loosely based on Monokai textmate theme by http://www.monokai.nl/
  * @author ocodia
- * NOTE: Changed one line below to add <pre> tags default dark background;
+ * NOTE: Changed one line below to add <pre> tags default dark background, and the line immediately below here so ;
  */
-
+pre > code{ color: #f8f8f2;}
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #f8f8f2;
