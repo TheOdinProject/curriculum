@@ -29,11 +29,15 @@ There's a lot of material to read and cover, but it basically follows the idea "
 
 Using `User.find(1)` will return an unambiguous object -- it's going to find the user with ID = 1 and give it to you as a Ruby object.  But this behavior is actually unusual.  Most queries don't actually return a Ruby object, they just fake it.  For example:
 
+```language-ruby
     User.where(:id => 1)
+```
 
 Might look like it returns an array that contains a serialized User object, like:
 
+```language-ruby
     [#<User id: 1, email: "foo@bar.com">]
+```
 
 But try running `User.where(:id => 1).class` and you'll see that it isn't an `Array`, it's actually an instance of `ActiveRecord::Relation`.  Relations are actually just really good at looking like arrays but they've got more going on.
 

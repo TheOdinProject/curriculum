@@ -56,12 +56,14 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 2. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
 3. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
+    ```language-bash
         > knight_moves([3,3],[4,3])
         You made it in 3 moves!  Here's your path:
         [3,3]
         [4,5]
         [2,4]
         [4,3]
+    ```
 
 ### Student Solutions
 

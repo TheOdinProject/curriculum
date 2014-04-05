@@ -51,13 +51,13 @@ If you recall our earlier discussion about REST, there are basically seven main 
 Each of these represents a "RESTful" route, and so it makes sense that you'll need a way to write these in your Router file so the requests they represent are actually routed to the proper action of your controller (in this case, the "Posts" controller).  One way to write them out would be the long way:
 
 ```language-ruby
-    get "/posts" => "posts#index"
-    get "/posts/:id" => "posts#show"
-    get "/posts/new" => "posts#new"
-    post "/posts/:id => "posts#create"  # usually a submitted form
-    get "/posts/:id/edit" => "posts#edit"
-    put "/posts/:id" => "posts#update" # usually a submitted form
-    delete "/posts/:id" => "posts#destroy"
+get "/posts" => "posts#index"
+get "/posts/:id" => "posts#show"
+get "/posts/new" => "posts#new"
+post "/posts/:id => "posts#create"  # usually a submitted form
+get "/posts/:id/edit" => "posts#edit"
+put "/posts/:id" => "posts#update" # usually a submitted form
+delete "/posts/:id" => "posts#destroy"
 ```
 
 Each of these routes is basically a Ruby method that matches that particular URL and HTTP verb with the correct controller action.  Two things to notice:
@@ -66,8 +66,8 @@ Each of these routes is basically a Ruby method that matches that particular URL
 2. The other thing to notice is that the "id" field is prepended by a colon... that just tells Rails "Look for anything here and save it as the ID in the params hash".  It lets you submit a GET request for the first post and the fifth post to the same route, just a different ID:
 
 ```language-ruby
-    /posts/1  # going to the #show action of the Posts controller
-    /posts/5  # also going to the #show action of PostsController
+/posts/1  # going to the #show action of the Posts controller
+/posts/5  # also going to the #show action of PostsController
 ```
 
     You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.
@@ -76,10 +76,12 @@ Each of these routes is basically a Ruby method that matches that particular URL
 
 Rails knows you want to use those seven actions all the time... so they came up with a handy helper method which lets you do in one line what we just wrote in seven lines in our resources file:
 
-    # in config/routes.rb
-      ...
-      resources :posts
-      ...
+```language-ruby
+# in config/routes.rb
+  ...
+  resources :posts
+  ...
+```
 
 That's it.  That is a Ruby method which basically just outputs those seven routes we talked about before.  No magic.  You see it a whole lot, now you know what it does.
 
