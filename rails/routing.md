@@ -194,4 +194,8 @@ You should have a good sense of what's going on in the routes file by now but pr
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* 
+* [CodeSchool's Rails 4 Zombie Outlaws](https://www.codeschool.com/courses/rails-4-zombie-outlaws) - Level 1 is free and goes into routes.
+
+* [CodeSchools Surving API's with Rails](https://www.codeschool.com/courses/surviving-apis-with-rails) - Level is free and gets into REST, Routes, Constraints, and Namespaces.
+
+*
