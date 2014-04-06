@@ -70,7 +70,7 @@ Each of these routes is basically a Ruby method that matches that particular URL
 /posts/5  # also going to the #show action of PostsController
 ```
 
-    You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.
+You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.
 
 ### The Rails Way to Write Restful Routes
 
