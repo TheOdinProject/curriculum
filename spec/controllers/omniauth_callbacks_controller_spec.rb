@@ -8,14 +8,12 @@ def stub_env_for_omniauth
 end
 
 def click_signin
-  visit root_path
-  click_link "Login"
+  visit login_path
   click_link "github"
 end
 
 def fill_in_correctly
-  visit root_path
-  click_link "Login"
+  visit login_path
   click_link "github"
   fill_in('user_username', :with => "GhostMan")
   fill_in('user_email', :with => "ghost@nobody.com")
@@ -24,8 +22,7 @@ def fill_in_correctly
 end
 
 def dont_check_legal_agreement
-  visit root_path
-  click_link "Login"
+  visit login_path
   click_link "github"
   fill_in('user_username', :with => "GhostMan")
   fill_in('user_email', :with => "ghost@nobody.com")
