@@ -12,6 +12,7 @@
   font-size: 2em;
 }
 */
+
 .btn-social {
     position: relative;
     padding-left: 44px;
@@ -146,15 +147,16 @@
       padding-right: 0
   }
 
+
   .btn-github {
       color: #fff;
-      background-color: #444;
+      background: #444;
       border-color: rgba(0, 0, 0, 0.2)
   }
 
   .btn-github:hover, .btn-github:focus, .btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
       color: #fff;
-      background-color: #303030;
+      background: #303030;
       border-color: rgba(0, 0, 0, 0.2)
   }
 
