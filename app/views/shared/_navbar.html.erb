@@ -27,7 +27,6 @@
                   </ul>
               <% else %>
                 <li data-no-turbolinks><%= link_to "Login", login_path, :class=>"top-link", :id=>"login-link" %></li>
-                <li data-no-turbolinks><%= link_to "Sign in with Github", user_omniauth_authorize_path(:github)%> </li>
               <% end %>
             </ul>
           </div><!--/.nav-collapse -->

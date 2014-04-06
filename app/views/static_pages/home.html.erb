@@ -12,11 +12,7 @@
             <% if current_user %>
               <%= link_to "Logout", logout_path(:ref => "homenav") %>
             <% else %>
-              <%= link_to "Login", login_path(:ref => "homenav")%> |
-              <%= link_to "Signin with Github", user_omniauth_authorize_path(:github), id: "github-signin" %>
-              <!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                Launch demo modal
-              </button> -->
+              <%= link_to "Login", login_path(:ref => "homenav")%>
             <% end %>
           </div>
           <div class="clearfix"></div>
@@ -375,9 +371,4 @@
     </div>
   </div>
 </div>
-<script type='text/javascript'>
-  // $('#github-signin').on('click', function (e) {
-  //   e.preventDefault();
-  //   alert('Legal Agreement')
-  // });
-</script>
+
