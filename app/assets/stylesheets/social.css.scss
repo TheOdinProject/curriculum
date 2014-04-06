@@ -1,17 +1,5 @@
-/*.providers-button {
-  font-size: 2em;
-}
-.btn {
-  padding: 25px;
-}
-.btn ul li {
-  list-style-type: none;
-  display: inline;
-}
-.btn title {
-  font-size: 2em;
-}
-*/
+/*The following styles are from Agile Ventures Website one
+https://github.com/AgileVentures/WebsiteOne/blob/32c90a96dbc34299220b8d66d7fe1f127f716233/app/assets/stylesheets/social.css*/
 
 .btn-social {
     position: relative;
@@ -45,127 +33,21 @@
     font-size: 1.8em
 }
 
-  .btn-social.btn-sm {
-      padding-left: 38px
-  }
+.btn-github {
+    color: #fff;
+    background: #444;
+    border-color: rgba(0, 0, 0, 0.2)
+}
 
-  .btn-social.btn-sm :first-child {
-      line-height: 28px;
-      width: 28px;
-      font-size: 1.4em
-  }
+.btn-github:hover, .btn-github:focus, .btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
+    color: #fff;
+    background: #303030;
+    border-color: rgba(0, 0, 0, 0.2)
+}
 
-  .btn-social.btn-xs {
-      padding-left: 30px
-  }
-
-  .btn-social.btn-xs :first-child {
-      line-height: 20px;
-      width: 20px;
-      font-size: 1.2em
-  }
-
-  .btn-social-icon {
-      position: relative;
-      padding-left: 44px;
-      text-align: left;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      height: 34px;
-      width: 34px;
-      padding-left: 0;
-      padding-right: 0
-  }
-
-  .btn-social-icon :first-child {
-      position: absolute;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      width: 32px;
-      line-height: 34px;
-      font-size: 1.6em;
-      text-align: center;
-      border-right: 1px solid rgba(0, 0, 0, 0.2)
-  }
-
-  .btn-social-icon.btn-lg {
-      padding-left: 61px
-  }
-
-  .btn-social-icon.btn-lg :first-child {
-      line-height: 45px;
-      width: 45px;
-      font-size: 1.8em
-  }
-
-  .btn-social-icon.btn-sm {
-      padding-left: 38px
-  }
-
-  .btn-social-icon.btn-sm :first-child {
-      line-height: 28px;
-      width: 28px;
-      font-size: 1.4em
-  }
-
-  .btn-social-icon.btn-xs {
-      padding-left: 30px
-  }
-
-  .btn-social-icon.btn-xs :first-child {
-      line-height: 20px;
-      width: 20px;
-      font-size: 1.2em
-  }
-
-  .btn-social-icon :first-child {
-      border: none;
-      text-align: center;
-      width: 100% !important
-  }
-
-  .btn-social-icon.btn-lg {
-      height: 45px;
-      width: 45px;
-      padding-left: 0;
-      padding-right: 0
-  }
-
-  .btn-social-icon.btn-sm {
-      height: 30px;
-      width: 30px;
-      padding-left: 0;
-      padding-right: 0
-  }
-
-  .btn-social-icon.btn-xs {
-      height: 22px;
-      width: 22px;
-      padding-left: 0;
-      padding-right: 0
-  }
+.btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
+    background: #565656;
+}
 
 
-  .btn-github {
-      color: #fff;
-      background: #444;
-      border-color: rgba(0, 0, 0, 0.2)
-  }
-
-  .btn-github:hover, .btn-github:focus, .btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
-      color: #fff;
-      background: #303030;
-      border-color: rgba(0, 0, 0, 0.2)
-  }
-
-  .btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
-      background-image: none
-  }
-
-  .btn-github.disabled, .btn-github[disabled], fieldset[disabled] .btn-github, .btn-github.disabled:hover, .btn-github[disabled]:hover, fieldset[disabled] .btn-github:hover, .btn-github.disabled:focus, .btn-github[disabled]:focus, fieldset[disabled] .btn-github:focus, .btn-github.disabled:active, .btn-github[disabled]:active, fieldset[disabled] .btn-github:active, .btn-github.disabled.active, .btn-github[disabled].active, fieldset[disabled] .btn-github.active {
-      background-color: #444;
-      border-color: rgba(0, 0, 0, 0.2)
-  }
 
