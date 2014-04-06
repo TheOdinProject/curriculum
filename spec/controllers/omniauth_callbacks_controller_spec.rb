@@ -9,12 +9,14 @@ end
 
 def click_signin
   visit root_path
-  click_link "Signin with Github"
+  click_link "Login"
+  click_link "github"
 end
 
 def fill_in_correctly
   visit root_path
-  click_link "Signin with Github"
+  click_link "Login"
+  click_link "github"
   fill_in('user_username', :with => "GhostMan")
   fill_in('user_email', :with => "ghost@nobody.com")
   check('user_legal_agreement')
@@ -23,7 +25,8 @@ end
 
 def dont_check_legal_agreement
   visit root_path
-  click_link "Signin with Github"
+  click_link "Login"
+  click_link "github"
   fill_in('user_username', :with => "GhostMan")
   fill_in('user_email', :with => "ghost@nobody.com")
   click_button('Sign up')
@@ -70,9 +73,9 @@ describe OmniauthCallbacksController, "github callback" do
           click_signin
           fill_in_correctly
           click_link "Logout"
+          click_link "Login"
         end
-
-        specify { page.should have_content('Signin with Github') }
+        specify { find_link('github').visible? }
       end
 
       context 'should be able to sign in again' do
