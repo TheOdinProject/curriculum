@@ -46,8 +46,8 @@ describe OmniauthCallbacksController, "github callback" do
         click_signin
       end
 
-        specify { page.should have_content('Username') }
-        specify { page.should have_content('Email') }
+        specify { page.should have_css('#user_username') }
+        specify { page.should have_css('#user_email') }
         specify { page.should have_content('Terms of Use') }
         specify { page.should_not have_css('password confirmation') }
         specify { page.should_not have_css('password required') }

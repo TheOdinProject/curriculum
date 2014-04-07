@@ -42,7 +42,7 @@
     color: $mid_gray;
   }
   p{
-    font-weight: 300; 
+    font-weight: 300;
     color: $mid_gray;
   }
 
@@ -77,7 +77,7 @@
 
   .above-the-fold{
     width: 100%;
-    background: image-url("home_background_blur.jpg") no-repeat center center; // fixed; 
+    background: image-url("home_background_blur.jpg") no-repeat center center; // fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -161,7 +161,7 @@
     @include border-radius(20px);
   }
 
-  
+
   .social-buttons{
     text-align: center;
     height: 60px;
@@ -196,7 +196,7 @@
     h4{
       margin-top: 1em;
     }
-    
+
     .about-panels{
       max-width: 750px;
       margin: 30px auto;
@@ -298,7 +298,7 @@
     }
 
     .panel-wrapper{
-      max-width: 800px; 
+      max-width: 800px;
 
       .panel{
         float: left;
@@ -342,7 +342,7 @@
     h3{
       color: #cfcfcf;
     }
-    
+
     .panel-wrapper{
       max-width: 750px;
       margin: 30px auto;
@@ -421,6 +421,11 @@
       font-size: 25px;
       margin-left: auto;
       margin-right: auto;
+      padding: 15px;
+      text-align: center;
+    }
+    .input-padding{
+      padding: 15px 0 15px 0;
     }
     select{
       width: 550px;
@@ -429,8 +434,9 @@
     }
   }
   .legal-wrapper{
-      margin: -10px 0 20px 180px;
-      max-width: 350px;
+      margin: 0 auto;
+      max-width: 250px;
+      padding: 10px 0 10px 0;
     .help-inline{
       color: #b94a48;
     }
@@ -444,7 +450,7 @@
           color: #b94a48;
         }
       }
-      
+
       abbr{
         font-size: 20px;
       }
@@ -490,7 +496,7 @@
 
 
 .StaticPagesController{
-  
+
   @extend .individual-lesson;
   .belief-heading{
     color: $highlight_orange;
@@ -568,9 +574,9 @@
 #studygroup {
   margin: 0 auto;
   max-width: 920px;
-  
+
   h1, h2, h3 {
-   margin: 0; 
+   margin: 0;
   }
 
 
@@ -582,12 +588,12 @@
 
   .studygroup-side {
     width: 300px;
-    margin: 0 50px 50px 0;  
+    margin: 0 50px 50px 0;
   }
 
   .studygroup-content {
-    width: 525px;  
-  }  
+    width: 525px;
+  }
 
   .sg-logistics {
     p{
