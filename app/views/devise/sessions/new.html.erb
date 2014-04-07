@@ -5,7 +5,7 @@
     <div class="social-wrapper text-center">
       <%- if @user.password_required? %>
         <%- resource_class.omniauth_providers.each do |provider| %>
-          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Sign in with #{provider.to_s.titleize}".html_safe, omniauth_authorize_path(resource_name, provider), id: "github", class: 'btn btn-social btn-large btn-lg btn-github' %><br />
+          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>#{provider.to_s.titleize}".html_safe, omniauth_authorize_path(resource_name, provider), id: "github", class: 'btn btn-social btn-large btn-lg btn-github' %><br />
         <% end -%>
       <% end -%>
     </div>

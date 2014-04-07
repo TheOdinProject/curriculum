@@ -13,12 +13,6 @@ https://github.com/AgileVentures/WebsiteOne/blob/32c90a96dbc34299220b8d66d7fe1f1
 }
 .btn-social {
     position: relative;
-    padding-left: 44px;
-    margin-bottom: 10px;
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis
 }
 
 .btn-social :first-child {
@@ -27,26 +21,29 @@ https://github.com/AgileVentures/WebsiteOne/blob/32c90a96dbc34299220b8d66d7fe1f1
     top: 0;
     bottom: 0;
     width: 32px;
-    line-height: 34px;
+    line-height: 70px;
     font-size: 1.6em;
     text-align: center;
-    border-right: 1px solid rgba(0, 0, 0, 0.2)
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .btn-social.btn-lg {
-    padding-left: 61px
+    padding-left: 90px
 }
 
 .btn-social.btn-lg :first-child {
     line-height: 45px;
-    width: 45px;
-    font-size: 1.8em
+    width: 70px;
+    font-size: 2em;
+    padding-top: 18px;
 }
 
 .btn-github {
     color: #fff;
     background: #444;
-    border-color: rgba(0, 0, 0, 0.2)
+    border-color: rgba(0, 0, 0, 0.2);
+    padding:30px;
+    font-size: 2em;
 }
 
 .btn-github:hover, .btn-github:focus, .btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
