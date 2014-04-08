@@ -44,6 +44,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jamie's Euler solutions (submitted Mar-28,14)](https://github.com/Jberczel/odin-projects/tree/master/project-euler)
 * [Sergey Prihodko's Euler solutions](https://github.com/sprihodko/odin-projects/tree/master/project-euler)
 * [Angel Vargas's Euler solutions](https://github.com/arioth/the-odin-project/tree/master/euler-problems) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/arioth/the-odin-project/blob/master/euler-problems/index.html).
+* [Abrar Hussain's Euler Solutions](https://github.com/abrarisme/The-Odin-Project/blob/master/project-euler/solutions.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/abrarisme/The-Odin-Project/blob/master/project-euler/solutions.html).
 
 ## Additional Resources
 
