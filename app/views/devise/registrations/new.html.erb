@@ -30,19 +30,13 @@
     <%= f.error_notification %>
     <div class="form-inputs text-center">
       <h3>or</h3>
-      <div class="input-padding">
-        <%= f.input_field :username, :required => true, :autofocus => true, placeholder: "Username" %>
-      </div>
-      <div class="input-padding">
-        <%= f.email_field :email, :required => true, placeholder: "Email" %>
-      </div>
+      <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
+        <%= f.input :email, :required => true %>
       <% if f.object.password_required? %>
-      <div class="input-padding">
-        <%= f.password_field :password, :required => true, placeholder: "Password" %>
-      </div>
-      <div class="input-padding">
-        <%= f.password_field :password_confirmation, :required => true, placeholder: "Re-enter password" %>
-      </div>
+
+        <%= f.input :password, :required => true %>
+        <%= f.input :password_confirmation, :required => true %>
+
       <% end %>
       <!-- don't forget about our legal agreements checkbox! -->
       <%= render :partial => "devise/shared/legal_checkbox", :locals => {:f => f} %>
