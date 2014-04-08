@@ -422,9 +422,6 @@
       margin-left: auto;
       margin-right: auto;
     }
-    .input-padding{
-      padding: 15px 0 15px 0;
-    }
     select{
       width: 550px;
       height: 250px;
@@ -432,9 +429,8 @@
     }
   }
   .legal-wrapper{
-      margin: 0 auto;
-      max-width: 250px;
-      padding: 10px 0 10px 0;
+      margin: -10px 0 20px 180px;
+      max-width: 350px;
     .help-inline{
       color: #b94a48;
     }
@@ -470,8 +466,8 @@
     border-radius: 15px;
   }
   .devise-shared-links{
-    text-align: center;
-    margin: 0 auto;
+    margin-left: 185px;
+    margin-top: 32px;
   }
 
 }
