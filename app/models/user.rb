@@ -50,20 +50,6 @@ class User < ActiveRecord::Base
     self.lesson_completions.order(:created_at => :desc).first
   end
 
-  # def self.find_for_github_oauth(auth, signed_in_resource=nil)
-  #   user = User.where(:provider => auth.provider, :uid => auth.uid).first
-  #   if user
-  #     return user
-  #   else
-  #     registered_user = User.where(:email => auth.uid).first
-  #     if registered_user
-  #       return registered_user
-  #     else
-  #       user = User.create(name: auth.extra.raw_info.name, provider: auth.provider, uid: auth.uid, email: auth.email, password: Devise.friendly_token[0,20])
-  #     end
-  #   end
-  # end
-
   include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
   def self.from_omniauth(auth)

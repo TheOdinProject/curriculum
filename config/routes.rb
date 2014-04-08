@@ -1,6 +1,5 @@
 Theodinproject::Application.routes.draw do
 devise_for :users, :controllers => { :registrations => "registrations", :omniauth_callbacks => "omniauth_callbacks" }
-#devise_for :users, :controllers => { :registrations => "registrations" }, :controllers => { :omniauth_callbacks => "omniauth_callbacks"}
   devise_scope :user do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy', :method => :delete

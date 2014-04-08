@@ -20,11 +20,4 @@ class ApplicationController < ActionController::Base
     #redirect_to "#{Rails.root}/public/400.html"
     raise ActionController::RoutingError.new('Bad Request')
   end
-
-  # private
-
-  # def current_user
-  #   @current_user ||= User.find(session[:user_id]) if session[:user_id]
-  # end
-
 end
