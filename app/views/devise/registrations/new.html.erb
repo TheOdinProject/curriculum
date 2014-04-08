@@ -33,7 +33,6 @@
         <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
         <%= f.input :email, :required => true %>
       <% if f.object.password_required? %>
-
         <%= f.input :password, :required => true %>
         <%= f.input :password_confirmation, :required => true %>
       <% end %>

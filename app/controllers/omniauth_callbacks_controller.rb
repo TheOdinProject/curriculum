@@ -4,7 +4,11 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
   def all
     user = User.from_omniauth(request.env["omniauth.auth"])
-    if user.persisted?
+    if User.find_by_email(request.env["omniauth.auth"]["info"]["email"])
+      user.provider = request.env["omniauth.auth"]["provider"]
+      user.uid = request.env["omniauth.auth"]["uid"]
+      sign_in_and_redirect user
+    elsif user.persisted?
       flash.notice = "Signed in!"
       sign_in_and_redirect user
     else
