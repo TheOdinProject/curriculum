@@ -47,4 +47,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Jamie's solution (submitted Apr-2, 2014) here: [source code](https://github.com/Jberczel/odin-projects/tree/master/sketchpad) or [view in browser](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-projects/blob/master/sketchpad/index.html)
 * See Angel Vargas' solution here: [source code](https://github.com/arioth/the-odin-project/tree/master/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/arioth/the-odin-project/blob/master/sketchpad/index.html)
 * See Peter Zberg's solution here: [source code](https://github.com/peterzberg/theodinproject/tree/master/sketch_pat) or [view it in browser](http://htmlpreview.github.io/?https://github.com/peterzberg/theodinproject/tree/master/sketch_pat)
+* See Abrar Hussain's solution here: [source code](https://github.com/abrarisme/The-Odin-Project/tree/master/grid) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/abrarisme/The-Odin-Project/blob/master/grid/index.html)
 * *Your solution here...*
