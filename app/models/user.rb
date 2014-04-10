@@ -52,8 +52,9 @@ class User < ActiveRecord::Base
 
   include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
-  def self.from_omniauth(auth)
-    if existing_user = where(email: auth['info']['email']).first
+  def self.from_omniauth(auth, add_to_existing? = false)
+
+    if add_to_existing? && existing_user = where(email: auth['info']['email']).first
       existing_user.provider ||= auth['provider']
       existing_user.uid ||= auth['uid']
       existing_user
