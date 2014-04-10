@@ -53,11 +53,17 @@ class User < ActiveRecord::Base
   include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
   def self.from_omniauth(auth)
-    where(auth.slice(:provider, :uid)).first_or_create do |user|
-      user.provider = auth['provider']
-      user.uid = auth['uid']
-      user.username = auth[:info][:nickname]
-      user.email = auth[:info][:email]
+    if existing_user = where(email: auth['info']['email']).first
+      existing_user.provider ||= auth['provider']
+      existing_user.uid ||= auth['uid']
+      existing_user
+    else
+      where(auth.slice(:provider, :uid)).first_or_create do |user|
+        user.provider = auth['provider']
+        user.uid = auth['uid']
+        user.username = auth['info']['nickname']
+        user.email = auth['info']['email']
+      end
     end
   end
 
