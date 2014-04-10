@@ -1,8 +1,8 @@
 <div id="lesson-nav">
   <div class="inner-nav">
-    <%= link_to "Course List", courses_path %> >> 
-    <%= link_to "#{@lesson.course.title}", lessons_path(@lesson.course.title_url) %> >> 
-    <%= link_to "#{@lesson.section.title}", lessons_path(@lesson.course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >> 
+    <%= link_to "Course List", courses_path %> >>
+    <%= link_to "#{@lesson.course.title}", lessons_path(@lesson.course.title_url) %> >>
+    <%= link_to "#{@lesson.section.title}", lessons_path(@lesson.course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >>
     <% if @lesson.is_project %>
       Project:
     <% else %>
@@ -26,10 +26,13 @@
         &#10004;
       </h3>
     <% end %>
-    
+
     <%= @content %>
 
     <div id="info-box">
+      <div class="social-buttons pull-left">
+        <%= social_share_button_tag(@lesson.title) %>
+      </div>
       <%= render 'lessons/contribution_links' %>
       <%= render 'lessons/license' %>
       <div class="clearfix"></div>

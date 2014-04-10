@@ -1,0 +1,19 @@
+'zh-TW':
+  social_share_button:
+    share_to: 分享到 %{name}
+    weibo: 新浪微博
+    twitter: Twitter
+    facebook: Facebook
+    douban: 豆瓣
+    qq: QQ空間
+    tqq: 腾讯微博
+    delicious: Delicious
+    baidu: 百度收藏
+    kaixin001: 開心網
+    renren: 人人網
+    google_plus: Google+
+    google_bookmark: Google 收藏
+    tumblr: Tumblr
+    plurk: 噗浪
+    pinterest: Pinterest
+    email: Email
