@@ -12,6 +12,12 @@ module Theodinproject
     config.active_support.escape_html_entities_in_json = true
     config.assets.enabled = true
     config.assets.version = '1.0'
+    Disqus::defaults[:account] = ENV['DISQUS_ACCOUNT_NAME']
+    Disqus::defaults[:developer] = true
+    Disqus::defaults[:avatar_size]    = 24, # squared pixel size of avatars
+    Disqus::defaults[:color]          = 'grey', # theme color
+    Disqus::defaults[:container_id] = "disqus_thread"
+    Disqus::defaults[:show_powered_by] = false
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
