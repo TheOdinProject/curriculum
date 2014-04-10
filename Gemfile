@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 gem 'social-share-button'
+gem 'pry'
 gem 'rails',              '4.0.2'
 gem 'simple_form',         '~> 3.0.1'
 gem 'jquery-rails',       '~> 3.0.4'

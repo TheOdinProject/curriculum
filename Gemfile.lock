@@ -134,6 +134,7 @@ GEM
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    method_source (0.8.2)
     mime-types (1.25.1)
     mini_portile (0.5.2)
     minitest (4.7.5)
@@ -163,6 +164,10 @@ GEM
       premailer (~> 1.7, >= 1.7.9)
     protected_attributes (1.0.5)
       activemodel (>= 4.0.1, < 5.0)
+    pry (0.9.12.6)
+      coderay (~> 1.0)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -220,6 +225,7 @@ GEM
     simple_form (3.0.1)
       actionpack (>= 4.0.0, < 4.1)
       activemodel (>= 4.0.0, < 4.1)
+    slop (3.5.0)
     social-share-button (0.1.6)
       coffee-rails
       sass-rails
@@ -286,6 +292,7 @@ DEPENDENCIES
   pg (~> 0.17.1)
   premailer-rails
   protected_attributes (~> 1.0.5)
+  pry
   quiet_assets (~> 1.0.2)
   rails (= 4.0.2)
   rails_12factor (~> 0.0.2)
