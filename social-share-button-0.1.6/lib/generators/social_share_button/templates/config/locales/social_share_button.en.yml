@@ -1,0 +1,19 @@
+en:
+  social_share_button:
+    share_to: Share to %{name}
+    weibo: Sina Weibo
+    twitter: Twitter
+    facebook: Facebook
+    douban: Douban
+    qq: Qzone
+    tqq: Tqq
+    delicious: Delicious
+    baidu: Baidu.com
+    kaixin001: Kaixin001.com
+    renren: Renren.com
+    google_plus: Google+
+    google_bookmark: Google Bookmark
+    tumblr: Tumblr
+    plurk: Plurk
+    pinterest: Pinterest
+    email: Email
