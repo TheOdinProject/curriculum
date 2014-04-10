@@ -8,7 +8,7 @@ class StaticPagesController < ApplicationController
   def about
   end
   
-  def studygroup
+  def studygroups
   end
 
   def legal

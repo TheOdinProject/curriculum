@@ -18,11 +18,12 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'faq' => "static_pages#faq"
   get 'contact' => "static_pages#contact"
   get 'contributing' => "static_pages#contributing"
-  get 'studygroup' => "static_pages#studygroup"
+  get 'studygroup' => redirect('/studygroups')
   get 'legal' => "static_pages#legal"
   get 'cla' => "static_pages#cla"
   get 'tou' => "static_pages#tou"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
+  get 'studygroups' => "static_pages#studygroups"
 
 
 
