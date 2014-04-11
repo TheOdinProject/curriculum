@@ -1,9 +1,11 @@
+
+
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'rspec/autorun'
-DEFAULT_HOST = "localhost" 
+DEFAULT_HOST = "localhost"
 
 # Requires supporting ruby files with custom matchers and macros, etc,
 # in spec/support/ and its subdirectories.
@@ -19,7 +21,7 @@ def wait_for_ajax
 end
 
 RSpec.configure do |config|
-  config.include Capybara::DSL  
+  config.include Capybara::DSL
   Capybara.javascript_driver = :webkit_debug
   Capybara.always_include_port = true
   Capybara.default_host = "http://#{DEFAULT_HOST}"
@@ -55,4 +57,8 @@ RSpec.configure do |config|
   config.infer_base_class_for_anonymous_controllers = false
 
   config.order = "random"
+
+  OmniAuth.config.test_mode = true
+
+
 end

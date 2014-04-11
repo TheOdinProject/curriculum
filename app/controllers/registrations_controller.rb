@@ -1,7 +1,12 @@
 class RegistrationsController < Devise::RegistrationsController
 	before_filter :configure_permitted_parameters, if: :devise_controller?
 
-  protected
+  def create
+    super
+    session[:omniauth] = nil unless @user.new_record?
+  end
+
+  private
 
   def configure_permitted_parameters
     devise_parameter_sanitizer.for(:sign_up) << :username << :legal_agreement

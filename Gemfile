@@ -15,6 +15,11 @@ gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 gem 'protected_attributes', '~> 1.0.5'
 gem 'pg', '~> 0.17.1'
 gem 'premailer-rails'
+gem 'omniauth-github' #for Github Authentication
+gem "font-awesome-rails"
+#gem 'activerecord-session_store', github: 'rails/activerecord-session_store' #for cookie generation if you log in
+gem 'pry'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -41,8 +46,8 @@ group :development do
 end
 
 # update: rails 4 deprecated use of :assets group in gemfile
-  gem 'sass-rails', '~> 4.0.1'                
-  gem 'coffee-rails', '~> 4.0.1'             
+  gem 'sass-rails', '~> 4.0.1'
+  gem 'coffee-rails', '~> 4.0.1'
   gem 'twitter-bootstrap-rails',    '2.2.6'
   gem 'therubyracer',               '~> 0.11.4'
   gem 'less-rails',                 '~> 2.3.3'

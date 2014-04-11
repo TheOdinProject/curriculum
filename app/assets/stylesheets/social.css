@@ -1,0 +1,55 @@
+/*The following styles are from Agile Ventures Website one
+https://github.com/AgileVentures/WebsiteOne/blob/32c90a96dbc34299220b8d66d7fe1f127f716233/app/assets/stylesheets/social.css*/
+
+.social-wrapper {
+  padding-bottom: 30px;
+  margin-left: 30px;
+  border-bottom: 2px dotted black;
+}
+.btn-social {
+    position: relative;
+}
+
+.btn-social :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 70px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.btn-social.btn-lg {
+    padding-left: 90px
+}
+
+.btn-social.btn-lg :first-child {
+    line-height: 45px;
+    width: 70px;
+    font-size: 1.5em;
+    padding-top: 18px;
+}
+
+.btn-github {
+    color: #fff;
+    background: #444;
+    border-color: rgba(0, 0, 0, 0.2);
+    padding:30px;
+    font-size: 2em;
+}
+
+.btn-github:hover, .btn-github:focus, .btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
+    color: #fff;
+    background: #303030;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
+    background: #565656;
+}
+
+
+

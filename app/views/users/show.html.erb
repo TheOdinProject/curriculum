@@ -1,5 +1,7 @@
 <div id="profile-page" class="container">
-
+        <%- User.omniauth_providers.each do |provider| %>
+          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>#{provider.to_s.titleize}".html_safe, omniauth_authorize_path(:user, :github), class: 'btn btn-social btn-large btn-lg btn-github' %><br />
+        <% end -%>
   <% if @edit %>
     <form accept-charset="UTF-8" id="edit-user" method="post" action="/users/<%= @user.id %>">
       <input name="_method" type="hidden" value="put">
@@ -91,7 +93,7 @@
       </div>
     </div>
 
-    <% if @edit %>   
+    <% if @edit %>
       </form>
     <% end %>
 

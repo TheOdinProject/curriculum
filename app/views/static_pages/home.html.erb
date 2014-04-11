@@ -12,15 +12,13 @@
             <% if current_user %>
               <%= link_to "Logout", logout_path(:ref => "homenav") %>
             <% else %>
-              <%= link_to "Login", login_path(:ref => "homenav") %>
+              <%= link_to "Login", login_path(:ref => "homenav")%>
             <% end %>
           </div>
           <div class="clearfix"></div>
         </div>
       </div>
       <div class="container narrow">
-
-
         <div class="top-box-wrapper">
           <div class="top-box">
             <div class="headline">
@@ -371,3 +369,4 @@
     </div>
   </div>
 </div>
+

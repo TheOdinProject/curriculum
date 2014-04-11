@@ -1,7 +1,17 @@
 <div id="devise-form">
-  <h2>Sign in</h2>
 
+  <h2 class="text-center">Sign in</h2>
+  <div class="row">
+    <div class="social-wrapper text-center">
+      <%- if @user.password_required? %>
+        <%- resource_class.omniauth_providers.each do |provider| %>
+          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>#{provider.to_s.titleize}".html_safe, omniauth_authorize_path(resource_name, provider), id: "github", class: 'btn btn-social btn-large btn-lg btn-github' %><br />
+        <% end -%>
+      <% end -%>
+    </div>
+  </div>
   <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
+  <h3 class="text-center">or</h3>
     <div class="form-inputs">
       <%= f.input :email, :required => false, :autofocus => true %>
       <%= f.input :password, :required => false %>
@@ -14,3 +24,4 @@
 
   <%= render "devise/shared/links" %>
 </div>
+
