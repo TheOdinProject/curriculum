@@ -7,7 +7,6 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
     existing_user = User.where(email: auth['info']['email']).first
     add_to_existing = existing_user && user_signed_in? && (current_user.email == auth['info']['email'])
     user = User.from_omniauth(request.env["omniauth.auth"], add_to_existing)
-    binding.pry
     if user.persisted?
       flash.notice = "Signed in!"
       user.save if add_to_existing

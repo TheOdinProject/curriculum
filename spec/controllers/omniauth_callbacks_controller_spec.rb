@@ -47,6 +47,7 @@ describe OmniauthCallbacksController, "github callback" do
       end
 
         specify { page.should have_css('#user_username') }
+        specify { puts page.source }
         specify { page.should have_css('#user_email') }
         specify { page.should have_content('Terms of Use') }
         specify { page.should_not have_css('password confirmation') }
