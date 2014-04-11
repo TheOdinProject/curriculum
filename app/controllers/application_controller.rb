@@ -30,7 +30,7 @@ class ApplicationController < ActionController::Base
         request.fullpath != "/login" &&
         request.fullpath != "/login?ref=homenav" &&
         request.fullpath != "/logout" &&
-        request.fullpath != "/logout?ref=homenav"
+        request.fullpath != "/logout?ref=homenav" &&
         request.request_method == "GET" &&
         !request.xhr?) # don't store ajax calls
       session[:previous_url] = request.fullpath
