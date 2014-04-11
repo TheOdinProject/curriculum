@@ -34,6 +34,11 @@ module ApplicationHelper
     disqus_secret_key = ENV['DISQUS_API_SECRET_KEY']
     disqus_public_key = ENV['DISQUS_API_PUBLIC_KEY']
 
+    if disqus_secret_key.nil? || disqus_public_key.nil?
+      puts "\n\n YOUR DISQUS SECRET OR PUBLIC KEY ARE NOT SET IN YOUR ENVIRONMENT VARIABLES!!! \n\n"
+      return nil
+    end
+
     data = {
       id: "#{current_user.id}",
       username: "#{current_user.username}",
