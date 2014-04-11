@@ -287,6 +287,20 @@ form#edit-user{
   margin-bottom: 20px;
 }
 
+/* ****************** FORUM ********************** */
+#forum{
+  h1{
+    margin: 40px 0;
+  }
+  p{
+    font-size: 1.5rem;
+    line-height: 1.5em;
+    color: $mid_gray;
+    margin: 40px 20px;
+    font-style: italic;
+  }
+}
+
 /* ****************** MEDIA QUERIES ********************** */
 @media (max-width: 979px){
   body {
