@@ -21,4 +21,5 @@ We've already looked at scopes and functions quite a bit and you've had a chance
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* [CallbackHell.com's primer on callbacks](http://callbackhell.com/)
 * [Using Deferred Functions and Promises (Video)](http://www.youtube.com/watch?v=juRtEEsHI9E)

@@ -62,4 +62,5 @@ It won't be until you start hacking on more full-featured applications that you'
 
 
 * [Git Basics #4: Quick Wins with Git](http://www.youtube.com/watch?v=7w5Z7LmyLgI) will get a bit more into some of the features of Git.  A bit abstract, but should give you some conceptual tips.
+* [Git CheatSheet from Tiimgreen](https://github.com/tiimgreen/github-cheat-sheet)
 *[For the very technical, this site helps you learn Git by building Git (not in Ruby)](http://kushagragour.in/blog/2014/01/build-git-learn-git/)
