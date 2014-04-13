@@ -52,19 +52,24 @@ class User < ActiveRecord::Base
 
   include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
-  def self.from_omniauth(auth, add_to_existing = false)
-    if add_to_existing && existing_user = where(email: auth['info']['email']).first
-      existing_user.provider ||= auth['provider']
-      existing_user.uid ||= auth['uid']
-      existing_user
-    else
-      where(auth.slice(:provider, :uid)).first_or_create do |user|
-        user.provider = auth['provider']
-        user.uid = auth['uid']
-        user.username = auth['info']['nickname']
-        user.email = auth['info']['email']
-      end
+  # Create a completely new user from our auth package
+  # Returns that user
+  def self.from_omniauth(auth)
+    where(auth.slice(:provider, :uid)).first_or_create do |user|
+      user.provider = auth['provider']
+      user.uid = auth['uid']
+      user.username = auth['info']['nickname']
+      user.email = auth['info']['email']
     end
+  end
+
+  # Assumes an existing user does not have omniauth
+  # Adds auth, saves, and returns the user
+  def add_omniauth(auth)
+    self.provider ||= auth['provider']
+    self.uid ||= auth['uid']
+    self.save
+    self
   end
 
   def self.new_with_session(params, session)
