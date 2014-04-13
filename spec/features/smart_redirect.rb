@@ -39,27 +39,31 @@ describe "Smart Redirect" do
     end
 
     it 'should redirect the registered user to last viewed course page' do
-      should have_content('test course1')
+      should have_content('1: test lesson1')
+      # puts page.source
     end
   end
 
-  # describe "Redirect back after sign in" do
-  #   # Create a user here to login with
-  #   # after visiting couress path:
-  #   # 1. click login
-  #   # 2. sign in with a valid user
-  #   # 3. redirect back to courses path
+  describe "Redirect back after sign in" do
+    let!(:course1)  { Course.first }
+    let!(:lesson1)  { course1.lessons.where(:is_project => false).first }
+    let!(:project1) { course1.lessons.where(:is_project => :true).first }
+    # Create a user here to login with
+    # after visiting couress path:
+    # 1. click login
+    # 2. sign in with a valid user
+    # 3. redirect back to courses path
 
-  #   let!(:signed_in_student){ FactoryGirl.create(:user) }
+    let!(:new_user){ FactoryGirl.create(:user) }
 
-  #   before do
-  #     visit lesson_path(course1.title_url, lesson1.title_url)
-  #     sign_in(signed_in_student)
-  #   end
+    before do
+      visit lesson_path(course1.title_url, lesson1.title_url)
+      sign_in(new_user)
+    end
 
-  #   it 'should redirect the registered user to last viewed course page' do
-  #     should have_content('test course1')
-  #   end
+    it 'should redirect the registered user to last viewed course page' do
+      should have_content('1: test lesson1')
+    end
 
-  # end
+  end
 end
