@@ -394,12 +394,12 @@
 
 #devise-form{
 
-  margin: 4em auto 12em;
+  margin: 3em auto 12em;
   max-width: 600px;
 
   h2{
     margin-top: 1em;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
     margin-left: 0px;
     font-size: 3rem;
   }
@@ -430,13 +430,14 @@
   }
   .legal-wrapper{
       margin: -10px 0 20px 180px;
-      max-width: 350px;
+      max-width: 364px;
     .help-inline{
       color: #b94a48;
     }
     .legal-checkbox{
       padding: 5px;
       &.error{
+        margin-top: 30px;
         padding: 10px;
         border: 1px solid #b94a48;
         @include border-radius(4px);
@@ -487,7 +488,23 @@
     }
   }
 }
+.alert-error{
+  margin-bottom: 30px;
+}
+.signup-prompt-msg{
+  margin: 1em 2em 2em 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  @include border-radius(10px);
 
+  p{
+    color: #888;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.25em;
+  }
+}
 
 .StaticPagesController{
 

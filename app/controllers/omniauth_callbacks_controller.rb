@@ -38,10 +38,10 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
         flash[:notice] = "Thanks for signing up with #{auth['provider'].titleize}!"
         sign_in_and_redirect user
       else
-        # If the only issue is the legal agreement, nudge the user along with a gentler prompt (since this will happen every time someone tries to create an account using Github)
-        if user.errors[:legal_agreement] && user.errors.count == 1
-          flash[:notice] = "Just one more step before we're finished..."
-        end
+        # # If the only issue is the legal agreement, nudge the user along with a gentler prompt (since this will happen every time someone tries to create an account using Github)
+        # if user.errors[:legal_agreement] && user.errors.count == 1
+        #   flash[:notice] = "Just one more step before we're finished..."
+        # end
 
         # save the user's attributes and go to the main registration screen
         session["devise.user_attributes"] = user.attributes
