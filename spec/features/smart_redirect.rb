@@ -1,27 +1,65 @@
 require 'spec_helper'
 
 describe "Smart Redirect" do
-  before {
     #create a course with content
     #instead of courses_path, we should
     #go to the course we just created
-    #visit courses_path
+  subject { page }
 
-  }
+  before do
+    courses = FactoryGirl.create_list(:course, 1, :is_active => true)
+    sections = []
+    courses.each do |course|
+      5.times do
+        sections << FactoryGirl.create(:section, :course_id => course.id)
+      end
+    end
+    sections.each do |section|
+      FactoryGirl.create(:lesson, :section_id => section.id)
+      FactoryGirl.create(:lesson, :section_id => section.id, :is_project => true)
+    end
+  end
+
+  let!(:course1)  { Course.first }
+  let!(:lesson1)  { course1.lessons.where(:is_project => false).first }
+  let!(:project1) { course1.lessons.where(:is_project => :true).first }
+
   describe "Redirect back after sign up" do
 
-    # after visiting courses path:
-    # 1. click sign up
-    # 2. create a valid user
-    # 3. redirect back to courses path
+    before do
+      visit lesson_path(course1.title_url, lesson1.title_url)
+      click_link("Login")
+      click_link("Sign up")
+      fill_in :user_username, :with => "User"
+      fill_in :user_email, :with => "user@example.com"
+      fill_in :user_password, :with => "password"
+      fill_in :user_password_confirmation, :with => "password"
+      check :user_legal_agreement
+      click_button "Sign up"
+    end
 
+    it 'should redirect the registered user to last viewed course page' do
+      should have_content('test course1')
+    end
   end
 
-  describe "Redirect back after sign in" do
-    # Create a user here to login with
-    # after visiting couress path:
-    # 1. click login
-    # 2. sign in with a valid user
-    # 3. redirect back to courses path
-  end
+  # describe "Redirect back after sign in" do
+  #   # Create a user here to login with
+  #   # after visiting couress path:
+  #   # 1. click login
+  #   # 2. sign in with a valid user
+  #   # 3. redirect back to courses path
+
+  #   let!(:signed_in_student){ FactoryGirl.create(:user) }
+
+  #   before do
+  #     visit lesson_path(course1.title_url, lesson1.title_url)
+  #     sign_in(signed_in_student)
+  #   end
+
+  #   it 'should redirect the registered user to last viewed course page' do
+  #     should have_content('test course1')
+  #   end
+
+  # end
 end
