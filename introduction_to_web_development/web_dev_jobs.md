@@ -21,7 +21,7 @@ Freelancers are able to command a strong hourly wage and the freedom to make the
 Developers at web consultancies like Pivotal Labs, Thoughtbot, and ThoughtWorks give up some of their wage potential versus freelancing for being able to focus more on the code and less on the hustle.  They're also typically working in teams and are highly client-driven so, again, the ability to work well with others is crucial.  They also often employ pair programming techniques.  Consultancies often provide a very reasonable work/life balance and are another good entry point to the industry.
 
 ### A Day In the Life
-* A blog post about being a [front-end dev at codecomputerlove](http://www.codecomputerlove.com/blog/2013/03/a-day-in-the-life-of-a-front-end-developer/).
+* A blog post about being a [front-end dev at codecomputerlove](http://www.codecomputerlove.com/blog/2013/11/a-day-in-the-life-of-a-web-developer/).
 * Learn [what a web developer does all day](http://www.kitsmedia.ca/what-does-a-web-developer-do-all-day/).
 * [A day in the life at a creative agency](http://www.torpedogroup.com/blog/a-day-in-the-life-of-a-web-developer/)
 

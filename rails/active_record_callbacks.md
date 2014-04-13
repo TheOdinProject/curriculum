@@ -38,6 +38,7 @@ You often get three choices for callbacks.  Not all object lifecycle steps suppo
 
 To use a callback, you need to "register" it at the top of your Model by using the appropriate method (e.g. `before_create`).  You pass that method either a symbol which corresponds to a method name or you could just write the callback as a block then and there.  Rails will hang onto that method and call it at the appropriate time.  For example:
 
+```language-ruby
     # app/models/user.rb
     class User < ActiveRecord::Base
       before_create do |user|
@@ -50,6 +51,7 @@ To use a callback, you need to "register" it at the top of your Model by using t
         puts "just created a user"
       end
     end
+```
 
 ## Specifying Callback Characteristics
 
@@ -57,6 +59,7 @@ Callbacks give you several options for narrowing down or selecting specifically 
 
 You can also use conditional logic options `:if` and `:unless` to try a method before running callbacks, for instance:
 
+```language-ruby
     ...
     before_create :run_code, :unless => :method_is_true
 
@@ -65,6 +68,7 @@ You can also use conditional logic options `:if` and `:unless` to try a method b
       true
     end
     ...
+```
 
 ## Transaction Callbacks
 

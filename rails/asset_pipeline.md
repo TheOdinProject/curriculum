@@ -31,40 +31,44 @@ Javascript files are the same -- all of them get smooshed together and then ugli
 
 Rails needs to know which files to include in that giant blob, so it uses so-called "manifest" files to determine this.  Your javascript manifest file will be `app/assets/javascripts/application.js`.  It looks commented out, but the lines starting with `//=` tell Rails which files to go find and include.  The comments in the file are pretty useful -- they say:
 
-    // This is a manifest file that'll be compiled into application.js, which will include all the files
-    // listed below.
-    //
-    // Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
-    // or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
-    //
-    // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
-    // compiled file.
-    //
-    // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
-    // about supported directives.
-    //
-    //= require jquery
-    //= require jquery_ujs
-    //= require turbolinks
-    //= require_tree .
+```language-javascript
+// This is a manifest file that'll be compiled into application.js, which will include all the files
+// listed below.
+//
+// Any JavaScript/Coffee file within this directory, lib/assets/javascripts, vendor/assets/javascripts,
+// or vendor/assets/javascripts of plugins, if any, can be referenced here using a relative path.
+//
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// compiled file.
+//
+// Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
+// about supported directives.
+//
+//= require jquery
+//= require jquery_ujs
+//= require turbolinks
+//= require_tree .
+```
 
 The `require_tree` helper method just grabs everything in the current directory.
 
 Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css.scss`:
 
-    /*
-     * This is a manifest file that'll be compiled into application.css, which will include all the files
-     * listed below.
-     *
-     * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
-     * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
-     *
-     * You're free to add application-wide styles to this file and they'll appear at the top of the
-     * compiled file, but it's generally better to create a new file per style scope.
-     *
-     *= require_self
-     *= require_tree .
-     */
+```language-css
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+```
 
 Again, you see the `require_tree` helper method which brings in all CSS files in the current directory.  
 
@@ -88,20 +92,24 @@ Let's also assume that you really like user `.container` classes to keep your `<
 
 The basic idea is to be able to say "all this code/css/whatever inside here only belongs to XYZ".  You sort of fence it off.  It's best explained with an example:
 
+```language-ruby
     # app/views/users/show.html.erb
     <div class="user">
       <div class="container">
         <!-- a bunch of code for displaying the user -->
       </div>
     </div>
+```
 
 Now this container and all the code inside of it is also within the `.user` class.  So we can set up our stylesheet to specifically address the `.container` class that's inside a `.user` class:
 
+```language-ruby
     # app/assets/stylesheets/user.css.scss
     # Note: I'm not going to use SCSS code because we haven't covered it yet
     .user .container{
       // style stuff
     }
+```
 
 This is good because we're now specifically targeting containers used by User pages.
 
@@ -133,8 +141,10 @@ To tell Rails a string is safe, just use the method `raw` in your view template,
 
 If you don't want to rely on Rails' native behavior and would like to make absolutely sure the HTML does not get run, use the `CGI` class's `escapeHTML` method, e.g.
 
+```language-ruby
     CGI::escapeHTML('usage: foo "bar" <baz>')
     # => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
+```
 
 ## Your Assignment
 

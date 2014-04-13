@@ -28,7 +28,9 @@ Lots of training courses and tutorials kind of gloss over routes, and they seem 
 
 The most important (and simplest) route in your file is the root url... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
 
+```language-ruby
     root :to => "kittens#index"  #kittens controller, index action (method)
+```
 
 *Remember, when we say "action" we really mean "the method inside the controller that is called that", e.g. the `index` action is just the `index` method that's defined in the KittensController*
 
@@ -48,32 +50,38 @@ If you recall our earlier discussion about REST, there are basically seven main 
 
 Each of these represents a "RESTful" route, and so it makes sense that you'll need a way to write these in your Router file so the requests they represent are actually routed to the proper action of your controller (in this case, the "Posts" controller).  One way to write them out would be the long way:
 
-    get "/posts" => "posts#index"
-    get "/posts/:id" => "posts#show"
-    get "/posts/new" => "posts#new"
-    post "/posts/:id => "posts#create"  # usually a submitted form
-    get "/posts/:id/edit" => "posts#edit"
-    put "/posts/:id" => "posts#update" # usually a submitted form
-    delete "/posts/:id" => "posts#destroy"
+```language-ruby
+get "/posts" => "posts#index"
+get "/posts/:id" => "posts#show"
+get "/posts/new" => "posts#new"
+post "/posts/:id => "posts#create"  # usually a submitted form
+get "/posts/:id/edit" => "posts#edit"
+put "/posts/:id" => "posts#update" # usually a submitted form
+delete "/posts/:id" => "posts#destroy"
+```
 
 Each of these routes is basically a Ruby method that matches that particular URL and HTTP verb with the correct controller action.  Two things to notice:
 
 1. The first key thing to notice is that several of those routes submit to the SAME URL... they just use different HTTP verbs, so Rails can send them to a different controller action.  That trips up a lot of beginners.  
 2. The other thing to notice is that the "id" field is prepended by a colon... that just tells Rails "Look for anything here and save it as the ID in the params hash".  It lets you submit a GET request for the first post and the fifth post to the same route, just a different ID:
 
-        /posts/1  # going to the #show action of the Posts controller
-        /posts/5  # also going to the #show action of PostsController
+```language-ruby
+/posts/1  # going to the #show action of the Posts controller
+/posts/5  # also going to the #show action of PostsController
+```
 
-    You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.
+You will be able to access that ID directly from the controller by tapping into the params hash where it got stored.
 
 ### The Rails Way to Write Restful Routes
 
 Rails knows you want to use those seven actions all the time... so they came up with a handy helper method which lets you do in one line what we just wrote in seven lines in our resources file:
 
-    # in config/routes.rb
-      ...
-      resources :posts
-      ...
+```language-ruby
+# in config/routes.rb
+  ...
+  resources :posts
+  ...
+```
 
 That's it.  That is a Ruby method which basically just outputs those seven routes we talked about before.  No magic.  You see it a whole lot, now you know what it does.
 
@@ -81,13 +89,17 @@ That's it.  That is a Ruby method which basically just outputs those seven route
 
 With that above line in my routes file, what do my routes look like?  If you type `$ rake routes` on the command line, it'll output all the routes your application knows, which look like:
 
+```language-ruby
     edit_post  GET  /posts/:id(.:format)  posts#edit
+```
 
 You can see the incoming HTTP verb and URL in the middle columns, then the controller action they map to on the right, which should all be quite familiar because you just wrote it in the routes file.  The `(.:format)` just means that it's okay but not required to specify a file extension like `.doc` at the end of the route... it will just get saved in the `params` hash for later anyway.  But what's on the leftmost column?  That's the "name" of the route.
 
 There are a lot of situations where you want to be able to retrieve the URL for a particular route, like when you want to show navigation links on your webpage (do NOT hard code the URLS, because you'll be out of luck when you decide to change the URLs and have to manually go in and change them yourself).  Rails gives you a helper method that lets you create links called `link_to`, but you'll need to supply it with the text that you want to show and the URL to link it to.
 
+```language-ruby
     link_to "Edit this post", edit_post_path(3) # don't hardcode 3!
+```
 
 We're jumping a little bit ahead, but in this case, the second argument is supposed to be a path or a URL, so we use the path helper method to generate that.  `edit_post_path(3)` will generate the path `/posts/3/edit`.
 
@@ -95,7 +107,9 @@ Rails automatically generates helper methods for you which correspond to the nam
 
 Any routes which require you to specify an ID or other parameters will need you to supply those to the helper methods as well (like we did above for edit).  You can also put in a query string by adding an additional parameter:
 
+```language-ruby
     post_path(3, :referral_link => "/some/path/or/something")
+```
 
 Now the `:referral_link` parameter would be available in your `params` hash in your controller in addition to the normal set of parameters.
 
@@ -103,6 +117,7 @@ Now the `:referral_link` parameter would be available in your `params` hash in y
 
 Just to drive home that routes correspond directly to controller actions, a very simple sample controller which would fulfill the above routes generated by `resources :posts` might look like:
 
+```language-ruby
     # in app/controllers/posts
     class PostsController < ApplicationController
 
@@ -147,19 +162,24 @@ Just to drive home that routes correspond directly to controller actions, a very
       end
 
     end
+```
 
 ### I Don't Want All Seven Routes!
 
 Sometimes you just don't want all seven of the RESTful routes that `resources` provides.  Easy, either specify just the ones you want using `only` or just the ones you DON'T want using `except`:
 
+```language-ruby
     resources :posts, :only => [:index, :show]
     resources :users, :except => [:index]
+```
 
 ## Non-RESTful Routes
 
 Of course, you don't have to do everything the RESTful way.  You probably should, but there are times that you want to make up your own route and map it to your own controller action.  Just follow the examples we gave at the top for RESTful routes:
 
+```language-ruby
     get '/somepath' => 'somecontroller#someaction'
+```
 
 ... of course, the `config/routes.rb` comments should be helpful to you here as well.
 
@@ -174,4 +194,8 @@ You should have a good sense of what's going on in the routes file by now but pr
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* 
+* [CodeSchool's Rails 4 Zombie Outlaws](https://www.codeschool.com/courses/rails-4-zombie-outlaws) - Level 1 is free and goes into routes.
+
+* [CodeSchools Surving API's with Rails](https://www.codeschool.com/courses/surviving-apis-with-rails) - Level is free and gets into REST, Routes, Constraints, and Namespaces.
+
+*

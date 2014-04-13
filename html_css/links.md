@@ -17,4 +17,6 @@ Links are the glue holding the web together, so make sure you understand how to 
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * Glance over [About.com's article on linking](http://webdesign.about.com/od/beginningtutorials/a/aa040502a.htm) if you need any additional support

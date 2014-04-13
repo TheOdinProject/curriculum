@@ -10,7 +10,7 @@ This course (which is currently under construction) will lay out a structured pa
 
 ## Strategy
 
-The first step is to have a strategy.  You've come this far with a deliberate and strategic approach to learning, why abandon it at the most important phase?  Getting a job can itself be a full-time job so use your time wisely and plan ahead.  There are some things you can and should do ahead of time, which we talked about a bit in the [lesson on Getting Hired in the Introduction to Web Development course](/courses/introduction-to-web-development/lessons/getting-hired-as-a-web-developer) but will cover in greater depth below.
+The first step is to have a strategy.  You've come this far with a deliberate and strategic approach to learning, why abandon it at the most important phase?  Getting a job can itself be a full-time job so use your time wisely and plan ahead.  There are some things you can and should do ahead of time, which we talked about a bit in the [lesson on Getting Hired in the Introduction to Web Development course](/introduction-to-web-development/getting-hired-as-a-web-developer) but will cover in greater depth below.
 
 The path to working takes the following form:
 
@@ -462,4 +462,5 @@ So build some kick ass software, learn as much as you can, and pay it forward wh
 
 * [Getting your first IT job from InformationWeek](http://www.informationweek.com/global-cio/careers/how-to-land-your-first-it-job/240161457)
 * [Engineer's Guide to US Visas](http://blog.sourcing.io/visa-guide)
+* [Lessons from a Silicon Valley Job Search by Robert Heaton](http://robertheaton.com/2014/03/07/lessons-from-a-silicon-valley-job-search/)
 

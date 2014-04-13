@@ -26,4 +26,3 @@
 * [Free hands-on after-work Android bootcamp for experienced developers from TheCodePath](http://thecodepath.com/)
 * [The Official Android Developers site](http://developer.android.com/training/basics/firstapp/index.html)
 * [A brief roadmap for learning Android](http://www.xda-developers.com/android/want-to-learn-how-to-program-for-android-start-here/)
-* [PAID Treehouse's Android Track](http://teamtreehouse.com/learning-adventures/learn-to-build-android-apps)

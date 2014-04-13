@@ -21,7 +21,7 @@ These skills will be helpful for you when you start building.  Either try them y
 
 ## Setting Up Your Project's Github Repository (optional)
 
-You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/courses/web-development-101/lessons/installations), so here we're going to put it to use.
+You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/web-development-101/installations), so here we're going to put it to use.
 
 1. If you haven't already, create a folder on your computer called `The Odin Project` which will house all your projects .
 2. Go to your Github.com account and log in.
@@ -30,15 +30,17 @@ You'll want to organize all your projects as you go through the course, and the 
 5. Open the `README` file on your local computer and change its text to include the title of the project and a link to this project on theodinproject.com.
 6. Commit the updated `README` to your Github repository using the commands below on your command prompt:
 
-        # adds all files that are in your current directory and which you've
-        # recently changed to the "staging area" (ie. they're "ready to commit")
-        $ git add -A
+    ```language-bash
+    # adds all files that are in your current directory and which you've
+    # recently changed to the "staging area" (ie. they're "ready to commit")
+    $ git add -A
 
-        # commits all the "staged" files into your local repository
-        $ git commit -m "update README"
+    # commits all the "staged" files into your local repository
+    $ git commit -m "update README"
 
-        # pushes your local repository up to your remote one on Github
-        $ git push origin master
+    # pushes your local repository up to your remote one on Github
+    $ git push origin master
+    ```
 
 When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push`.
 
@@ -63,14 +65,13 @@ Inside your project folder, create your index.html file
 
 You should be able to reuse much of your code from before if you started with that project.  Again, don't worry about links to nowhere and forms that won't submit and hard coding the search results (which you'll have to do of course), just focus on placement and order of items on the page.
 
-Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming\))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
+Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
 ## Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * See [RebootJeff's solution here](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html).
-* See [Max Pleaner's solution here](https://github.com/macsplean/odin1_google_part1) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/macsplean/odin1_google_part1/blob/master/index.html).
 * See [JesseNeal's solution here](https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jesseneal/Odin-Project/blob/master/GoogleClone/index.html)
 * See [Neil Gehani's solution here](https://github.com/ngehani/htmlcss/blob/master/googlelogo) or [view it in the browser here](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo/index.html).
 * See [Neil Gehani's bootstrap solution here](https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html) or [view it in the browser here](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html).
@@ -84,7 +85,13 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Jeffery Garza's 'difficult' solution here](https://github.com/jgarza/odin-project-studies/tree/master/html_css/google_project2) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jgarza/odin-project-studies/blob/master/html_css/google_project2/index.html).
 * See [Ricky Walker's solution here](https://github.com/Rwalk45/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Rwalk45/google-homepage/blob/master/index.html).
 * See [Aniruddh Agarwal's solution here](https://github.com/aniruddhagarwal/odin-projects/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/aniruddhagarwal/odin-projects/blob/master/google-homepage/index.html).
-* *Your solution here...*
+* See [Jamie's solution (submitted: Mar-27,2014)](https://github.com/Jberczel/odin-projects/tree/master/google-homepage) or [view in browser](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-projects/blob/master/google-homepage/index.html).
+* See [Sergey Prihodko's solution here](https://github.com/sprihodko/odin-projects/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/sprihodko/odin-projects/blob/master/google-homepage/index.html).
+* See [Angel Vargas's solution here](https://github.com/arioth/the-odin-project/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/arioth/the-odin-project/blob/master/google-homepage/index.html).
+* See [Abrar Hussain's solution here](https://github.com/abrarisme/The-Odin-Project/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/abrarisme/The-Odin-Project/blob/master/google-homepage/index.html)
+* See [Joe Barratt's solution here](https://github.com/Evilbazza/google) or [view it in the browser here](or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Evilbazza/google/blob/master/thing.html)
+* See [Sahil Agarwal's solution here](https://github.com/sahilda/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/sahilda/google-homepage/blob/master/google.html). Click the 'Google Search' button for the difficult version page.
+
 
 ## Additional Resources
 

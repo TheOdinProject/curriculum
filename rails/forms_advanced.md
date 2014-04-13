@@ -26,6 +26,7 @@ Rails provides you with a few handy ways of making dropdown menus which already 
 
 Let's say you want to build a New Post form for your blog but you want to be able to select who the author is from among your list of users.  You will need to make a dropdown which submits the user's ID as a part of your `params` hash.  So you might populate `@users` in your posts controller:
 
+```language-ruby
     # app/controllers/posts_controller.rb
     ...
     def new
@@ -33,9 +34,11 @@ Let's say you want to build a New Post form for your blog but you want to be abl
       @post = Post.new
     end
     ...
+```
 
 The bare HTML way is to build a bunch of `<option>` tags (inside your `<select>` tag).  You could easily create these in your ERB code by just iterating over some collection, for instance if you'd like to select a post to view from a list of them. 
 
+```language-ruby
     # app/views/posts/new.html.erb
     ...
     <select name="user_id">
@@ -44,6 +47,7 @@ The bare HTML way is to build a bunch of `<option>` tags (inside your `<select>`
       <% end %>
     </select>
     ...
+```
 
 This creates a dropdown list with each user's name as an option.  Your `#create` action will receive an attribute called `user_id` and you can use it to match an author to that post.  
 
@@ -51,6 +55,7 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
 
 `#options_for_select` expects a very specific input -- an array of arrays which provide the text for the dropdown option and the value it represents.  So `options_for_select([["choice1",1],["choice2",2]])` creates a couple of option tags, one for each choice.  This is great, because that's exactly what `#select_tag` expects for its second argument.  The only wrinkle here is that you need to convert your `@users` collection, which has full User objects, into a simple array with just `name` and `value`.  That's easy using `#map`: 
 
+```language-ruby
     # app/controllers/posts_controller.rb
     ...
     def new
@@ -63,15 +68,18 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
     ...
     <%= select_tag(:author_id, options_for_select(@user_options)) %>
     ...
+```
 
 So just pass `#select_tag` the name it should use for your chosen value and the collection and it will output the exact same thing!  
 
 If you want to avoid the whole `options_for_select` thing altogether and your form is designed to build a model instance (e.g. a Post object), just use the more generic `#select` helper in your view:
 
+```language-ruby
     # app/views/posts/new.html.erb
     ...
     <%= select(:post, :author_id, @user_options) %>
     ...
+```
 
 You still need to pass it the `:post` parameter (which indicates that your form is building a Post object) so the `select` tag can get the `name` right... in this case, it will name the tag `<select name="post[author_id]" id="post_author_id">`.  That means (remember!) that the `author_id` attribute will show up in your `params` nested under the `post` hash.  
 
@@ -79,10 +87,12 @@ The `:author_id` input to the `#select` helper above represents not just what th
 
 If you have a `#form_for` form scoped under the `f` variable, you don't need to pass the `:post` symbol above (it gets it from `f`), so could instead use:
 
+```language-ruby
     # app/views/posts/new.html.erb
     ...
       <%= f.select(:author_id, @user_options) %>
     ...
+```
 
 It took a bit of time for us to get here, but hopefully you can now see how straightforward this method is for generating a potentially large dropdown. 
 
@@ -102,17 +112,20 @@ We'll do a broad overview of the process here:
 
 1. You will need to prepare the User model so that it knows to create one or more ShippingAddress objects if it receives their attributes when creating a normal User.  This is done by adding a method to your User model called `#accepts_nested_attributes_for` which accepts the name of an association, e.g:
 
+    ```language-ruby
         # app/models/user.rb
         class User < ActiveRecord::Base
           has_many :shipping_addresses
           accepts_nested_attributes_for :shipping_addresses
         end
+    ```
 
 2. Make sure you've allowed your `params` to include the nested attributes by appropriately including them in your Strong Parameters controller method.  See the reading for examples of how to do this.
 3. Build the form in the view.  Use the `#fields_for` method to effectively create a `#form_for` inside your existing `#form_for` form. 
 
-There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/courses/ruby-on-rails/lessons/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_for`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
+There are a couple new aspects to this process.  You saw `#fields_for` in the [Basic Forms lesson](/ruby-on-rails/form-basics) but it probably has new meaning to you now.  It's basically how you create a form within a form (which should make sense since it's actually used behind the scenes by `#form_for`).  In this example, we might create three "sub-forms" for ShippingAddress objects by using our association, e.g.
 
+```language-ruby
     <%= form_for @user do |f| %>
       ...
       <% 3.times do %>
@@ -124,6 +137,7 @@ There are a couple new aspects to this process.  You saw `#fields_for` in the [B
       <% end %>
       <%= f.submit %>
     <% end %>
+```
 
 Note that we could (and should) also have built the new shipping_address objects in the controller instead of the view; it's just for demonstration purposes here.
 

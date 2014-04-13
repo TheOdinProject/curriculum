@@ -22,4 +22,6 @@ You can't be shaky on how it works if you want to be efficient with your work fl
 
 ## Additional Resources
 
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
 * [CSS Box Model Docs](http://www.w3schools.com/css/css_boxmodel.asp)

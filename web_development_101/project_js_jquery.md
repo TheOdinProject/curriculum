@@ -10,7 +10,7 @@ The key is to break it down into little manageable steps and then figure out how
 
 If you get totally stuck, solutions from other students are listed below.  I'd encourage you to struggle for a bit on your own before checking them out.
 
-1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
     2. Best to put your grid squares inside another "container" div.
@@ -39,10 +39,13 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * See RebootJeff's solution here: [source code](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
-* See Max Pleaner's solution here: [source code](https://github.com/macsplean/odin2_boxmaker/blob/master/index.html) or [view it in browser](http://htmlpreview.github.io/?https://github.com/macsplean/odin2_boxmaker/blob/master/index.html)
 * See Afshinator's solution here: [source code](https://github.com/afshinator/playground/tree/master/SketchPad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/SketchPad/index.html)
 * See Paul Dariye's solution here: [source code](https://github.com/pauldd91/theodinproject/tree/master/sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/pauldd91/theodinproject/master/sketch_pad/index.html)
 * See Lamberto Diwa's solution here: [source code](https://github.com/LambertoD/odin_curricullum/blob/master/javascript/js/etch_project.js) or [view it in browser](http://htmlpreview.github.io/?https://github.com/LambertoD/odin_curricullum/blob/master/javascript/index_etch_project.html)
 * See Marina Drigo's solution here: [source code](https://github.com/mousterian/OdinProject/tree/master/Project1_2_javascript_jquery) or [view it in browser](http://htmlpreview.github.io/?https://github.com/mousterian/OdinProject/blob/master/Project1_2_javascript_jquery/index.html)
 * See Aniruddh Agarwal's solution here: [source code](https://github.com/aniruddhagarwal/odin-projects/tree/master/js-project) or [view it in browser](http://htmlpreview.github.io/?https://github.com/aniruddhagarwal/odin-projects/blob/master/js-project/index.html)
+* See Jamie's solution (submitted Apr-2, 2014) here: [source code](https://github.com/Jberczel/odin-projects/tree/master/sketchpad) or [view in browser](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-projects/blob/master/sketchpad/index.html)
+* See Angel Vargas' solution here: [source code](https://github.com/arioth/the-odin-project/tree/master/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/arioth/the-odin-project/blob/master/sketchpad/index.html)
+* See Peter Zberg's solution here: [source code](https://github.com/peterzberg/theodinproject/tree/master/sketch_pat) or [view it in browser](http://htmlpreview.github.io/?https://github.com/peterzberg/theodinproject/tree/master/sketch_pat)
+* See Abrar Hussain's solution here: [source code](https://github.com/abrarisme/The-Odin-Project/tree/master/grid) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/abrarisme/The-Odin-Project/blob/master/grid/index.html)
 * *Your solution here...*

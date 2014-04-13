@@ -25,7 +25,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
+* [Solution from mahimahi42](https://github.com/mahimahi42/microblogger.git) 
 
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -44,6 +44,7 @@ From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The
 
 >   At its core any web server is simply a never ending loop that attempts to accept connections on a listening socket. Here is a very simple TCP server:
 
+```language-ruby
     require 'socket'
 
     # IP address is 0.0.0.0 and it's on port 8080:
@@ -55,11 +56,13 @@ From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The
         connection.puts outputline
         connection.close
     end
+```
 
 >  The servers differ in how they construct this loop and how they process incoming connections. The above sample is for a blocking server. Which means that it can only process one request at a time and that other requests will be waiting for the current one to finish. A long running request might make the server unreachable for a while. A group of those will quickly render the server unusable. There are several strategies to overcome this shortcoming. We will discuss those strategies and look at how they are utilized by the different servers. 
 
 > For a server to be called a web (HTTP) server it must speak the HTTP protocol. Hence it needs a way to parse the incoming HTTP requests. Each of the servers presented here attempts to solve this problem in its own way. But we will soon find that most of them rely on some clone of Mongrel's parser. If we modify our first server to include HTTP support it could like this:
 
+```language-ruby
     require 'socket'
     server = TCPServer.new("0.0.0.0", 8080)
     loop do
@@ -71,6 +74,7 @@ From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The
         connection.puts body
         connection.close
     end 
+```
 
 So `socket` is a library available to Ruby without needing any special downloads (it's part of the standard library, you just need to remind Ruby to `require` it).  It lets you open and close connections to other machines or servers, just like you did when you were learning how to work with files! 
 
@@ -100,11 +104,13 @@ Cool!
 6. Now let's crank it up a little bit.  Build the "A Tiny Web Browser" from the same TutorialsPoint article (the first version) and test it out against some existing webpages.  That's basically just the same thing you built before but pointing at the web instead of your `localhost`.
 7. Create an HTML file and save it as `index.html`.  It should look like:
 
+    ```language-markup
         <html>
           <body>
             <h1>Welcome to the Viking Home Page</h1>
           </body>
         </html>
+    ```
 
 8. Now comes the fun part.  Modify your simple server to take the HTTP request from the browser and, if it is a `GET` request that points to `/index.html`, send back the contents of `index.html`.  
 
@@ -115,6 +121,7 @@ Cool!
 9. Modify your simple web browser to send the appropriate GET request to your web server, just like you did earlier with the really simple client/server combo.  Test it out... you should be able to ask for and retrieve the `index.html` file (and `puts` it into the terminal)!  This will require you to remember some of the commands you used to open files.  You should also set it up to identify when you've got back an error code and display the error message.
 8. Build another HTML file called `thanks.html`.  It should look like:
 
+    ```language-markup
         <html>
           <body>
             <h1>Thanks for Posting!</h1>
@@ -124,6 +131,7 @@ Cool!
             </ul>
           </body>
         </html>
+    ```
 
 9. Now set up your mini web browser client to also send POST requests.  Where before we were pretending to be browsing the web, now we're going to pretend that we just pushed the "submit" button on a form and need to send the form data to your server.
 

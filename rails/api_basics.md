@@ -46,13 +46,17 @@ If you want your Rails app to return JSON instead of HTML, you need to tell your
 
 You can see which file type Rails thinks you want by checking your server log:
 
-    Started GET "/posts/new" for 127.0.0.1 at 2013-12-02 15:21:08 -0800
-    Processing by PostsController#new as HTML
+```language-bash
+  Started GET "/posts/new" for 127.0.0.1 at 2013-12-02 15:21:08 -0800
+  Processing by PostsController#new as HTML
+```
 
 The first line tells you which URL was requested and the second tells you where it's going and how Rails is processing it.  If you use a `.json` extension, it looks like:
 
-    Started GET "/posts.json" for 127.0.0.1 at 2013-12-04 12:02:01 -0800
-    Processing by PostsController#index as JSON
+```language-bash
+  Started GET "/posts.json" for 127.0.0.1 at 2013-12-04 12:02:01 -0800
+  Processing by PostsController#index as JSON
+```
 
 If you've got a sample application running, try going to different URLs.  If your controller isn't ready for them, you may get an error, but you should be able to see what Rails thinks you're asking for.
 
@@ -60,6 +64,7 @@ If you've got a sample application running, try going to different URLs.  If you
 
 Once you've decided that you want to respond to a request for JSON or XML, you need to tell your controller to render JSON or XML instead of HTML.  The way to do so is by using the `#respond_to` method:
 
+```language-ruby
     class UsersController < ApplicationController
       def index
         @users = User.all
@@ -70,6 +75,7 @@ Once you've decided that you want to respond to a request for JSON or XML, you n
         end
       end
     end
+```
 
 In this case, `#respond_to` passes the block a format object, to which you can attach the appropriate rendering call.  If you do nothing, html will render using the default Rails template as normal (in this case, `app/views/index.html.erb`).
 
@@ -87,6 +93,7 @@ In the old days, you'd just overwrite your own version of `#to_json` but these d
 
 In our case, we'll do this by modifying `#as_json` in our model to return only the attributes we want:
 
+```language-ruby
     # app/models/user.rb
     class User < ActiveRecord::Base
 
@@ -100,9 +107,11 @@ In our case, we'll do this by modifying `#as_json` in our model to return only t
         super(:only => [:name])
       end
     end
+```
 
 In our controller, we then just need to render JSON as normal (in the example below, it will just always return JSON, whether it's an HTML request or not):
 
+```language-ruby
     # app/controllers/users_controller.rb
     class UsersController < ApplicationController
 
@@ -110,6 +119,7 @@ In our controller, we then just need to render JSON as normal (in the example be
         render :json => User.all
       end
     end
+```
 
 Note that you don't need to call `#to_json` yourself when using `#render`... it will do it for you.
 
@@ -119,12 +129,14 @@ See the [as_json documentation](http://apidock.com/rails/ActiveModel/Serializers
 
 Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [This older blog](http://www.intridea.com/blog/2008/7/23/using-http-status-codes-for-rails-ajax-error-handling) for one approach or [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for another set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
 
+```language-ruby
     # app/controllers/users_controller.rb
     class UsersController < ApplicationController.rb
       def index
         render :nothing => true, :status => 404
       end
     end
+```
 
 
 #### Creating Dynamic Error Pages

@@ -2,7 +2,7 @@
 
 *Estimated Time: 3-5 hrs*
 
-We were introduced to testing in [the RSpec lesson of the Web Development 101 course](/courses/web-development-101/lessons/testing-basics) and you got the chance to dive a bit deeper in the [RSpec lesson of the Ruby Programming course](/courses/ruby-programming/lessons/introduction-to-rspec).  If you haven't done those, that's where you should start.  
+We were introduced to testing in [the RSpec lesson of the Web Development 101 course](/web-development-101/testing-basics) and you got the chance to dive a bit deeper in the [RSpec lesson of the Ruby Programming course](/ruby-programming/introduction-to-rspec).  If you haven't done those, that's where you should start.  
 
 You've also been exposed to testing during the Ruby on Rails tutorial, which you've been doing throughout the projects of this course.  
 

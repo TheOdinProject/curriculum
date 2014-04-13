@@ -23,7 +23,8 @@ You may find yourself using Rest Client down the road if you need to communicate
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* 
+* [zkay](https://github.com/zkay/PersonalProjects/tree/master/Rest)
+* [afshinator](https://github.com/afshinator/playground/tree/master/RestPinger)
 
 ## Project: Ruby on Rails Tutorial
 
@@ -31,7 +32,7 @@ In this project, you'll dive right into the tutorial by building the site's stat
 
 ### Note: Testing
 
-One aspect of the Ruby on Rails tutorial which we haven't covered deeply is testing.  You got a brief look at it in the [Web Development 101 course](http://www.theodinproject.com/courses/web-development-101/lessons/testing-basics) and a good taste of it in the [Ruby course](http://www.theodinproject.com/courses/ruby-programming/lessons#section-testing-ruby-with-rspec) but there are some more moving parts when it becomes applied to Rails.
+One aspect of the Ruby on Rails tutorial which we haven't covered deeply is testing.  You got a brief look at it in the [Web Development 101 course](http://www.theodinproject.com/web-development-101/testing-basics) and a good taste of it in the [Ruby course](http://www.theodinproject.com/ruby-programming/#section-testing-ruby-with-rspec) but there are some more moving parts when it becomes applied to Rails.
 
 Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of RSpec is relatively straightforward.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).  
 
@@ -45,6 +46,7 @@ The tutorial covers more specifically the practice of "Test Driven Development",
 
 This is an example (listing 3.14) from the tutorial:
 
+```language-ruby
     # spec/requests/static_pages_spec.rb
     require 'spec_helper'
 
@@ -74,6 +76,7 @@ This is an example (listing 3.14) from the tutorial:
         end
       end
     end
+```
 
 If you read through it, even if you've never seen code before, you should have a gist of what's going on.  This is an "integration" or "feature" spec ("spec" == "specification" == "test"), which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
 
@@ -104,7 +107,7 @@ If you're already scratching your head, don't worry (like I said, better explana
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
 2. Do [Chapter 3](http://ruby.railstutorial.org/chapters/static-pages#top) of the Ruby on Rails Tutorial to get started building the application.
 3. Do [Chapter 4](http://ruby.railstutorial.org/chapters/rails-flavored-ruby#top) of the tutorial to see how Ruby will be used in Rails.
-4. Glance back at the [Deployment Lesson](http://www.theodinproject.com/courses/ruby-on-rails/lessons/deployment) if you've got lingering questions or issues about the process of deployment.
+4. Glance back at the [Deployment Lesson](http://www.theodinproject.com/ruby-on-rails/deployment) if you've got lingering questions or issues about the process of deployment.
 
 ## Additional Resources
 

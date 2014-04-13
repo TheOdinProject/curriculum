@@ -10,7 +10,7 @@ All of those examples involve you engaging with your database.  Luckily, many da
 
 You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important.  I actually think of Excel tables moving in my head and combining with each other and reshuffling as necessary. To each their own.
 
-This lesson assumes you've already completed the [Databases intro in the Web Development 101 course](http://www.theodinproject.com/courses/web-development-101/lessons/databases).  We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries (this one is used whenever you ask Rails for the first user with `User.first`) and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
+This lesson assumes you've already completed the [Databases intro in the Web Development 101 course](http://www.theodinproject.com/web-development-101/databases).  We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries (this one is used whenever you ask Rails for the first user with `User.first`) and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
 All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails.  This is why we're going over databases before learning Active Record.  We'll do the same thing with forms -- you'll learn how to build them in HTML and *then* how to use Rails to make them for you.  
 
@@ -101,9 +101,11 @@ For "Destroy" queries, the classic mistake is typing `DELETE * FROM users` witho
 
 "Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g. if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique): 
 
+```language-sql
     UPDATE Users 
     SET name='barfoo', email='bar@foo.com' 
     WHERE email='foo@bar.com';`
+```
 
 "Read" queries, which use `SELECT`, are the most common, e.g. `SELECT * FROM users WHERE created_at < '2013-12-11 15:35:59 -0800'`.  The `*` you see just says "all the columns".  Specify a column using both the table name and the column name.  You can get away with just the column name for simple queries but as soon as there are more than one table involved, SQL will yell at you so just always specify the table name: `SELECT users.id, users.name FROM users`.
 
@@ -134,20 +136,24 @@ You often see aliases (`AS`) used to rename columns or aggregate functions so yo
 
 Now we're getting into the fun stuff.  Aggregate functions like `COUNT` which return just a single value for your whole dataset are nice, but they become really useful when you want to use them on very specific chunks of your data and then group them together, e.g. displaying the `COUNT` of posts for EACH user (as opposed to the count of all posts by all users).  That would look like:
 
+```language-sql
     SELECT users.name, COUNT(posts.*) AS posts_written
     FROM users
     JOIN posts ON users.id = posts.user_id
     GROUP BY users.name;
+```
 
 See [w3 schools](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and play around with the SQL in the window (try deleting the `GROUP BY` line) for an interactive visual.
 
 The last nifty trick is if you want to only display a subset of your data.  In a normal situation, you'd use a `WHERE` clause to narrow it down.  But if you've used an aggregate function like `COUNT` (say to get the count of posts written for each user in the example above), `WHERE` won't work anymore.  So to conditionally retrieve records based on aggregate functions, you use the `HAVING` function, which is essentially the `WHERE` for aggregates.  So say I only want to display users who have written more than 10 posts:
 
+```language-sql
     SELECT users.name, COUNT(posts.*) AS posts_written
     FROM users
     JOIN posts ON users.id = posts.user_id
     GROUP BY users.name
     HAVING posts_written >= 10;
+```
 
 Try going back to [the W3 example](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby) and adding the line `HAVING NumberOfOrders > 60;` to the bottom to see what I mean (and delete the extra semicolon in the previous line).
 
@@ -162,7 +168,7 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 
 ## Your Assignment
 
-1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](http://www.theodinproject.com/courses/web-development-101/lessons/databases).
+1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](http://www.theodinproject.com/web-development-101/databases).
 1. Read this [simple SQL tutorial](http://www.sqlcourse.com/index.html) for the basics.
 2. If you didn't follow the link in the previous tutorial, learn about the advanced SELECT stuff like aggregate functions and `GROUP BY` by reading the [second part of that tutorial here](http://www.sqlcourse2.com/index.html).
 

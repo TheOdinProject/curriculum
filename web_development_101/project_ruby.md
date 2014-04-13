@@ -6,7 +6,7 @@ You've had plenty of opportunity to read Ruby and learn Ruby and now it's time t
 This exercise will involve a lot of figuring things out.  There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass.  You need to look at those tests, figure out what they want based on the error messages you receive, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
 
 
-1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main `index.html` file in a browser, you'll have instructions waiting for you that describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck!
 2. If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live).
 3. Do the following exercises.  You'll know you're done when all the tests pass!
@@ -28,6 +28,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * ErikHP's [Ruby Mini Project (WIP)](https://github.com/ErikHP/test-first-ruby)
 * Afshinator's [Test First Ruby Solutions](https://github.com/afshinator/playground/tree/master/TestFirstRubyExercises)
 * Paul Dariye's [Test First Ruby Solutions](https://github.com/pauldd91/theodinproject/tree/master/learn_ruby)
+* Marina Drigo's [Test First Ruby Solutions](https://github.com/mousterian/OdinProject/tree/master/Project1_3_Ruby/learn_ruby)
+* Sergey Prihodko's [Test first Ruby Solutions](https://github.com/sprihodko/odin-projects/tree/master/test-first-ruby)
+* Jamie's [Test First Ruby Solutions](https://github.com/Jberczel/odin-projects/tree/master/learn_ruby)
+* Angel Vargas' [Test First Ruby Solutions](https://github.com/arioth/the-odin-project/tree/master/learn_ruby)
 * *Your solution here...*
 
 ## Additional Resources

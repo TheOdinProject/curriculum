@@ -27,10 +27,12 @@ Next create a simple script file which will run RestClient and allow you to star
 5. Create a blank file at `app/script/rest_requestor.rb`.  You'll probably need to create a new folder.  This `script` folder is just a convenient place to store our scripts, which we'll be calling explicitly from the command line.  There's nothing special about it.
 6. What's the simplest way to make a request?  Just use the `#get` method of `rest-client` and `#puts` that output to the terminal:
 
-        # app/script/rest_requestor.rb
-        require 'rest-client'
-        url = "http://localhost:3000"
-        puts RestClient.get(url)
+    ```language-ruby
+    # app/script/rest_requestor.rb
+    require 'rest-client'
+    url = "http://localhost:3000"
+    puts RestClient.get(url)
+    ```
 
 3. If you want to get creative, use `#gets` and `#chomp` to allow you to enter input from the command line.
 
@@ -45,18 +47,22 @@ Next create a simple script file which will run RestClient and allow you to star
 3. Run your script again.  Another error! Back to the server logs and... we see `AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):`.  It sure seems like the request was routed to the controller and, as you'd expect for a `GET` to the `/users` URL, it's looking for the `#index` action but it couldn't find the action. That's because we haven't created the methods yet in our controller.
 4. Create the 4 methods that correspond to GET requests.  Each method should set an instance variable to display the method name:
 
+    ```language-ruby
         # app/controllers/users_controller.rb
         ...
         def index
           @name = "I am the Index action!"
         end
         ...
+    ```
 
 3. Now try running the script again.  #$%&! Still an error.  This time our server is saying `ActionView::MissingTemplate (Missing template users/index...`.  That sounds like a view error... but of course.  You know that the index action would complete and then automatically go looking for the `app/views/users/index.html.erb` view file to render.
 4. Fix this by creating a view file for each of the 4 actions that require it.  It should put the action's name in `<h1>` tags, e.g.:
 
+    ```language-ruby
         # app/views/users/index.html.erb
         <h1><%= @name %></h1>
+    ```    
 
 2. Rerun the script.... and.... YAY!  You should see some HTML.  Most of it is generated from your layout file at `app/views/layouts/application.html.erb`, including lots of turbolinks calls but then, near the bottom, you should see your lonely `<h1>` tag.  Success!
 3. Take a look at the layout file at `app/views/layouts/application.html.erb` file and add some arbitrary HTML tags before and after the `<%= yield %>` line and rerun your request to see where they pop up in the returned HTML.
@@ -73,7 +79,7 @@ Hopefully this has been a useful adventure into the request cycle of a Rails app
 
 ## Project: Ruby on Rails Tutorial
 
-In this chapter of the tutorial you will build out the look and feel of the application using Twitter's Bootstrap CSS framework.  If you're feeling shaky on CSS, check out the [CSS Lesson in the Web Development 101 course](/courses/web-development-101/lessons/html-and-css-basics).  
+In this chapter of the tutorial you will build out the look and feel of the application using Twitter's Bootstrap CSS framework.  If you're feeling shaky on CSS, check out the [CSS Lesson in the Web Development 101 course](/web-development-101/html-and-css-basics).  
 
 Bootstrap will do a lot of the heavy lifting for you -- instead of having to figure out how to make your navbar stick to the top of the screen, you just have to put the correct class onto some `<div>` tags and Bootstrap's style files will take over for you.  It's a good way to quickly get something half decent up and running.  In the course on HTML and CSS, you'll get the chance to design your own CSS framework, but for now Bootstrap is a good weapon of choice.
 
@@ -91,3 +97,4 @@ Bootstrap will do a lot of the heavy lifting for you -- instead of having to fig
 * [Bootstrap's Current Version Docs](http://getbootstrap.com/) (NOT used by the tutorial)
 * [Bootstrap's Version 2.3 Docs](http://getbootstrap.com/2.3.2/) (used by the tutorial)
 * [RestClient Documentation](https://github.com/rest-client/rest-client)
+* [Creating Rails Routes, Controllers and Views from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introducing-controller-view-routes)

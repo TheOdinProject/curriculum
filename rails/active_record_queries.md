@@ -29,11 +29,15 @@ There's a lot of material to read and cover, but it basically follows the idea "
 
 Using `User.find(1)` will return an unambiguous object -- it's going to find the user with ID = 1 and give it to you as a Ruby object.  But this behavior is actually unusual.  Most queries don't actually return a Ruby object, they just fake it.  For example:
 
+```language-ruby
     User.where(:id => 1)
+```
 
 Might look like it returns an array that contains a serialized User object, like:
 
+```language-ruby
     [#<User id: 1, email: "foo@bar.com">]
+```
 
 But try running `User.where(:id => 1).class` and you'll see that it isn't an `Array`, it's actually an instance of `ActiveRecord::Relation`.  Relations are actually just really good at looking like arrays but they've got more going on.
 
@@ -67,6 +71,7 @@ The simplest new concept is how to check whether an object actually exists yet o
 
 `#exists?` will return true/false.  `#any?` will be true if any records match the specified criteria and `#many?` will be true if multiple records match the specified criteria.  You can run each of these either on a model directly, a Relation, an association, or a scope (which we'll cover later).  Basically, anywhere you might think of using them, they're likely to work:
 
+```language-ruby
     # From the Guide:
     # via a model
     Post.any?
@@ -79,6 +84,7 @@ The simplest new concept is how to check whether an object actually exists yet o
     # via an association
     Post.first.categories.any?
     Post.first.categories.many?
+```
 
 ### Arguments
 
@@ -106,8 +112,10 @@ The key thing to note is that `#find` returns the actual record while `#where` r
 
 Just like with SQL, you often want to group fields together (or "roll up" the values under one header).  For example, grouping blog posts written on a certain date.  This is most useful when you also apply mathematical operations to them like `#count` or `#max`.  An example (a bit more complex because it involves joining two tables) is if I want to get a count of all the blog posts categorized by each tag. I might write something like:
 
-    Post.joins(:tags).group("tags.name").count
-    # => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
+```language-bash
+Post.joins(:tags).group("tags.name").count
+# => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
+```
 
 `#having` is sort of like a `#where` clause for grouped queries.
 
@@ -117,8 +125,10 @@ When working with multiple tables, you'll often want to join them together.  Rai
 
 But if you're running queries like in the Post-Tag-count grouping example used above, you'll need to use joins to bring together the appropriate tables.  You need to be more careful with how you select data when using joins -- if you are looking for the `:id` column, which table's ID are we asking for?  You'll find yourself using more explicit strings when joining, e.g. in the example above (copied below) where we specify the `name` attribute of the `tags` table:
 
-    Post.joins(:tags).group("tags.name").count
-    # => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
+```language-bash
+Post.joins(:tags).group("tags.name").count
+# => {"tag1" => 4, "tag2" => 2, "tag3" => 5}
+```
 
 ### Your Assignment
 
@@ -137,9 +147,11 @@ It's okay to grab the SAME information multiple times... Rails caches the first 
 
 The N + 1 query problem is the classic case of this -- you grab all the records for your users (`User.all`) then loop through each user and call an association it has, like the city the user lives in (`user.city`).  For this example we're assuming an association exists between User and City, where User `belongs_to` a City.  This might look like:
 
+```language-ruby
     User.all.each do |user|
       puts user.city
     end
+```
 
 This is going to result in one query to get all the users, then another query for each user to find its city through the association... so N additional queries, where N is the total number of users.  Hence "N+1" problems.  Note that it's totally fine to just grab a regular attribute of User like `user.name`... it's because you're reaching through the association with City that we've got to run another full query.
 
@@ -153,8 +165,10 @@ Note: One thing which can be a bit annoying from a development standpoint is tha
 
 Almost as useful is the `#pluck` method, which is covered in the Rails Guide.  `#pluck` lets you skip several steps in the process of pulling up a bunch of records, storing them in memory, then grabbing a specific column and placing it into an array.  `#pluck` just gives you the resulting array right away:
 
+```language-ruby
     User.pluck(:name)
     # => ["Foo", "Bar", "Baz", "Jimmy-Bob"]
+```
 
 This is another way to help speed up your application if you've found pain points.  Start by getting rid of N+1 queries, though.
 
@@ -164,6 +178,7 @@ Scopes are underappreciated and awesome and very simple.  A scope is basically a
 
 Let's say you let your user choose to filter your blog posts only for those marked "important":
 
+```language-ruby
     # app/models/post.rb
     ...
     scope :important, -> { where(:is_important => true) }
@@ -178,17 +193,20 @@ Let's say you let your user choose to filter your blog posts only for those mark
         @posts = Post.all
       end
     end
+```
 
 This is a pretty simple example.  Instead of always having to rewrite that chain of ActiveRecord methods when you want them, you can create nicely named scopes to contain all the component logic.  You reduce repetition and make your code more readable.  The best part is that scopes return Relations... so you can chain as many of them as you want.
 
 You might be thinking, Why use a scope when you can write a class method to do the same thing?  You can, as long as your class method returns a Relation (which can take some additional thought for edge cases).  In fact, using a class method is often best if your logic chains are quite complicated.  The example above could be solved using the following class method as well:
 
+```language-ruby
     # app/models/post.rb
     ...
     def self.important
       self.where(:is_important => true)
     end
     ...
+```
 
 See the Additional Resources section for links to some posts that dig a bit deeper into the use cases for these two.
 

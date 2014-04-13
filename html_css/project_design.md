@@ -1,4 +1,4 @@
-# Project: Design Teardown with Smashing Magazine
+# Project: Design Teardown (with Smashing Magazine)
 
 In this simple project, you'll be breaking apart the website for a popular design magazine with which you're probably familiar by now -- [Smashing Magazine](http://smashingmagazine.com).  The goal for this exercise is to start training yourself to think in terms of visual hierarchy, typography and design principles.
 
@@ -12,7 +12,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 
 1. Go to [Smashing Magazine's website](http://smashingmagazine.com) and check out their homepage.  Think about where your eye got drawn to first, second, and third on the page.  What elements on the page carry the greatest visual weight?
 2. Think for a minute about whether or not they've achieved the right hierarchy for getting you to consume content on their site.  What's distracting?
-2. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the Smashing homepage and how they are grouped together.
 5. Copy the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  
@@ -28,7 +28,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * *Your solution here...* 
 

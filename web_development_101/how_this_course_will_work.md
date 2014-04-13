@@ -2,7 +2,7 @@
 
 ## Course Contents
 
-Now that you know [what web developers do](/courses/becoming_a_web_developer/), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.
+Now that you know [what web developers do](/introduction-to-web-development/), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.
 
 Each of the following sections and lessons represents essential baseline knowledge.  Even if you have no intention of becoming a web developer yourself, this material should help you gain a useful understanding of the moving parts involved in creating and serving content on the web.  
 

@@ -28,7 +28,7 @@ We also believe that there's plenty of high quality content out there right now.
 
 We assume that you're at square one, so we start out by going over [what exactly a web developer does](/curriculum/becoming_a_web_developer/), [how to install the necessary software](/curriculum/installations/) on your machine, and how to [pair up with other students](/curriculum/pairing/) on projects.  
 
-The [Web Development 101 section](/curriculum/web_development_basics/) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
+The [Web Development 101 section](/web-development-101/) will give you a chance to explore several of the languages and technologies you'll need to know on your journey so you have a good sense of context when you push forward into the real meaty stuff.  It gives you a taste of HTML, CSS, Javascript, Ruby, Rails, databases, Git, testing and more.  We've also created "mini-projects" that will give you a chance to test your new knowledge by actually building something (ideally with another student!).
 
 The curriculum takes a back-to-front approach to learning a Ruby on Rails workflow.  That means starting with a strong foundation in Ruby and an understanding of databases before migrating into Rails (which is a framework built using Ruby).
 

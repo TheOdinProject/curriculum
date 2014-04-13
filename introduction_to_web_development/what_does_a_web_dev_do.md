@@ -35,7 +35,7 @@ A more detailed explanation, from [degreedictionary](http://degreedirectory.org/
 
 "Front End" typically refers to the stuff that you actually see on the website in the browser.  This covers how the content is presented including all the little user interface elements like menus and dropdowns and transitions and modals.  
 
-A front end developer will often focus heavily on understanding HTML, CSS, and Javascript since these languages live in the browser.  They aren't necessarily focused on making things look "pretty", but rather making sure that the information is presented effectively and the user's interaction with the web page is as smooth as possible.  These days we're executing more and more code in the browser itself.
+A front end developer will often focus heavily on understanding HTML, CSS, and Javascript since these languages live in the browser.  They aren't necessarily focused on making things look "pretty" (which is often left to a designer), but rather making sure that the information is presented effectively and the user's interaction with the web page is as smooth as possible.  These days we're executing more and more code in the browser itself.
 
 #### Back End:
 
@@ -49,12 +49,12 @@ Google may be a relatively straightforward search engine from our point of view,
 
 ### Web Developer vs Web Designer
 
-So, if we've got back end developers and front end developers, who makes the website actually look pretty?  Who pulls together the images and logos and color schemes?  That's the web designer's job.  While they have historically been less inclined to handle the actual coding of the page, these days even designers are expected to roll up their sleeves and code a bit.
+So, if we've got back end developers and front end developers, who makes the website actually look pretty?  Who pulls together the images and logos and color schemes?  That's the web designer's job.  While they have historically been less inclined to handle the actual coding of the page, these days even designers are expected to roll up their sleeves and code a bit.  Some of the best web developers come from design backgrounds.
 
 #### Optional Readings
 
 * Wikipedia lays out the breadth of the web design profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
-* Check out this [semi-serious infographic](http://thumbnails.visually.netdna-cdn.com/web-designer-vs-web-developer_502919932c2d2.jpg) about the differences between web developers and designers.
+* Part fact and part juvenile humor, [this infographic](http://thumbnails.visually.netdna-cdn.com/web-designer-vs-web-developer_502919932c2d2.jpg) lays out the differences between web developers and designers.
 * And [another snarky infographic](http://sixrevisions.com/infographics/web-designers-vs-web-developers-infographic/) for your entertainment...
 
 ### Web Sites vs Web Applications

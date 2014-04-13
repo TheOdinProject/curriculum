@@ -1,4 +1,4 @@
-# Project: Images and Video with YouTube
+# Project: Embedding Images and Video (with YouTube)
 
 *Don't forget to use Git to save your projects!*
 
@@ -16,7 +16,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 
 ### Steps to Victory
 
-1. Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 2. Create a blank HTML document.
 2. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
 2. Create empty `<div>` tags to enclose those sections.
@@ -30,7 +30,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/courses/web-development-101/lessons/html-css) for examples*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * *Your solution here...* 
 

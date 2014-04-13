@@ -4,7 +4,7 @@
 
 Javascript is the future of the web, so in this course we'll be diving deep into it to make sure you come out with a good understanding of how it works.  At this point, what you see below is an outline and a collection of resources which will become the full Javascript course once it's ready.  It's the path forward, just without all the exposition tying it together.  It should be more than helpful to you in its present form.
 
-So how is this going to work? It starts with a deeper look at the basics, just like the [Ruby Programming course](/courses/ruby-programming/lessons) did with Ruby.  You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/courses/ruby-on-rails/lessons) to understand this stuff but we won't be focusing deeply on the really basic stuff so it'll move quickly.  You should, however, already have completed the [Web Development 101 course](/courses/web-development-101/lessons), specifically the [Front End Section](/courses/web-development-101/lessons#section-the-front-end) before starting this course.  
+So how is this going to work? It starts with a deeper look at the basics, just like the [Ruby Programming course](/ruby-programming) did with Ruby.  You don't need to have completed the Ruby Programming course or [the Ruby on Rails course](/ruby-on-rails) to understand this stuff but we won't be focusing deeply on the really basic stuff so it'll move quickly.  You should, however, already have completed the [Web Development 101 course](/web-development-101), specifically the [Front End Section](/web-development-101#section-the-front-end) before starting this course.  
 
 After we've finished going over the basics of Javascript and jQuery, we'll dive deeper into the actual language of Javascript so you can go beyond just playing around with your browser elements.  Again, we won't assume you've completed the Ruby course here but we will be drawing some comparisons to Ruby for those who have just to illustrate the differences between the two languages.
 
@@ -27,7 +27,7 @@ Good luck!
 ******************************************************************************
 # SECTION 1: The Basics and the Browser
 
-You've already completed the [Web Development 101 course](/courses/web-development-101/lessons#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
+You've already completed the [Web Development 101 course](/web-development-101/#section-the-front-end), right?  Good, because now we'll be moving at warp speed into new frontiers.  This section will cover a lot of ground and your brain may melt down a few times, but don't worry, that's just a flesh wound.  Patch 'er up and keep going!  When in doubt, build something.
 
 This is also where things get really fun, since you get to immediately see everything you're building in the browser.  You'll create everything from games to browser widgets along the way.  By the end of this section, you'll know everything you need to build fun and interesting front-ends.  But, of course, it's really just the beginning.  The real trick is building *well* and, ultimately, integrating your front-ends with your back ends.  Gogogo!
 
@@ -37,7 +37,7 @@ Javascript is here to stay and, if you want to be a full-stack developer, you're
 
 Your mission, though, is to be able to do a lot more than just hack together simple pages -- you need to feel comfortable building out completely new functionality in Javascript and working within large and established frameworks and code bases.  That means digging deep into what makes the language tick and what patterns get used again and again in the real world.
 
-You should already have completed the [Web Development 101 Javascript lesson](/courses/web-development-101/lessons/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).
+You should already have completed the [Web Development 101 Javascript lesson](/web-development-101/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).
 
 ### Points to Ponder
 
@@ -104,7 +104,7 @@ Drill-style bite-sized challenges, TBD.
 
 ## jQuery Basics
 
-You should already have completed the [Web Deveploment 101 jQuery lesson](/courses/web-development-101/lessons/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).  jQuery, of course, provides a very easy-to-use model for manipulating the elements on your page.  It also contains lots of helper functions and special libraries for doing things like building widgets or even mobile apps.  You get to benefit from all the lazy programmers before you who build these tools to make their lives easier.  Enjoy!
+You should already have completed the [Web Deveploment 101 jQuery lesson](/web-development-101/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).  jQuery, of course, provides a very easy-to-use model for manipulating the elements on your page.  It also contains lots of helper functions and special libraries for doing things like building widgets or even mobile apps.  You get to benefit from all the lazy programmers before you who build these tools to make their lives easier.  Enjoy!
 
 ### Points to Ponder
 
@@ -132,8 +132,8 @@ You should already have completed the [Web Deveploment 101 jQuery lesson](/cours
 
 ### Links
 
-* [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com) is a great primary resource.
-* [Learning jQuery from jquery.com](http://learn.jquery.com/) will fill in any gaps you have and provide alternate explanations.
+* Read through [jQuery Fundamentals from jqfundamentals.com](http://jqfundamentals.com)
+* Browse [Learning jQuery from jquery.com](http://learn.jquery.com/)(see the "Chapters" below) to fill in any gaps you have and provide alternate explanations for things you're not quite sure on.
 
 ### Additional Resources 
 
@@ -185,7 +185,7 @@ Effects are like window-dressing for your user experience.  They represent the n
 
 ## Project: jQuery and the DOM
 
-Let's build a game that shuffles the DOM all over the place and listens for events -- [Snake!](http://en.wikipedia.org/wiki/Snake_(video_game))  Remember that grid you created in the [Web Dev 101 jQuery project](/courses/web-development-101/lessons/javascript-and-jquery)...?  Turn it into a simple Snake game with one player who can control the direction of the snake by typing one of four keys.  You can use timeouts to simulate a game loop.
+Let's build a game that shuffles the DOM all over the place and listens for events -- [Snake!](http://en.wikipedia.org/wiki/Snake_(video_game))  Remember that grid you created in the [Web Dev 101 jQuery project](/web-development-101/javascript-and-jquery)...?  Turn it into a simple Snake game with one player who can control the direction of the snake by typing one of four keys.  You can use timeouts to simulate a game loop.
 
 Not a Snake fan?  Try building [Minesweeper](http://en.wikipedia.org/wiki/Minesweeper_(video_game)) instead (there are many variations -- just use an 8x8 grid of squares with 10 mines).  It isn't quite as realtime but requires you to think logically about how the Minesweeper game functions.
 
@@ -198,7 +198,7 @@ Not a Snake fan?  Try building [Minesweeper](http://en.wikipedia.org/wiki/Minesw
 
 Working with jQuery is a whole lot of fun... here's why!  It basically drives all the nifty tooltips, modals, lightboxes, sliders, and other widgets you see on a webpage.  Just about everything you've ever seen on the web can be done with a combination of the Javascript and jQuery you now know.  Let's take a look at some of them in greater depth.
 
-We covered a [section on design in the HTML/CSS Course](/courses/html5-and-css3/lessons) which may be useful to check back on if it's been awhile.  Lots of these widgets and effects are best used judiciously -- it's okay to go overboard while you're testing things out but your user doesn't want to have to wait for a whole bunch of fancy-looking stuff to happen on the page so don't go crazy in a production setting.
+We covered a [section on design in the HTML/CSS Course](/html5-and-css3) which may be useful to check back on if it's been awhile.  Lots of these widgets and effects are best used judiciously -- it's okay to go overboard while you're testing things out but your user doesn't want to have to wait for a whole bunch of fancy-looking stuff to happen on the page so don't go crazy in a production setting.
 
 ### Points to Ponder
 
@@ -290,7 +290,7 @@ All this scoping (and using closures) makes a lot of sense when you remember tha
 
 ## Project: Javascript Scopes and Closures
 
-Redo the [Ruby OOP Projects](/courses/ruby-programming/lessons/oop), though now make them run in the browser.  You can't use a run loop anymore, though, so you'll have to rely on events!
+Redo the [Ruby OOP Projects](/ruby-programming/oop), though now make them run in the browser.  You can't use a run loop anymore, though, so you'll have to rely on events!
 
 
 ## Comparing Javascript and Ruby: Going Functional
@@ -547,9 +547,9 @@ Create a site that has a Google map on it and forms where the user can place mar
 
 * [Entering the Wonderful World of Geo Location from Smashing Magazine](http://coding.smashingmagazine.com/2010/03/08/entering-the-wonderful-world-of-geo-location/)
 
-## Working with a Rails Backend and API
+## Working with a Rails Back End and API
 
-It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/courses/ruby-on-rails/lessons/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
+It's finally time to tie all this juicy Javascript back to what you learned in Rails.  In preparation, reread the [Rails lesson on building an API](/ruby-on-rails/apis-and-building-your-own) to refresh how to set up a Rails backend that can handle JSON requests.
 
 At this point, you've got all the tools you need, so it's time to practice allowing your front end Javascript to talk to your Rails backend using AJAX.  We'll cover some best practices for how to pass data from one to another, but otherwise it's just putting together those final pieces of the web development puzzle.
 
@@ -684,7 +684,7 @@ Some of the more common templating languages include [Mustache](http://mustache.
 
 * [Why LinkedIn chose Dust.js for Templating](http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more) (includes a breakdown of the other popular choices)
 
-## Javascript MV* Frameworks
+## Javascript MV* Frameworks Like Angular.js
 
 Javascript frameworks take the ideas of templating, e.g. moving logic from your server to the client, to the next level.  With these frameworks, you can run your entire web application without ever reloading the page.  The frameworks are all different, but they typically combine templating tools with client-side models that use AJAX to stay current with your back end.
 
@@ -762,7 +762,7 @@ You may need these things now, you may not.  At least learn what they are so you
 
 * [SO on Javascript Dependency Management](http://stackoverflow.com/questions/3202606/javascript-dependency-management)
 
-## Javascript Testing
+## Javascript Testing with Jasmine
 
 We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something important in your app or, as importantly, when exactly it actually stopped working.
 
