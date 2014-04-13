@@ -13,21 +13,21 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
     # Case 0: A logged-in user who has already linked his/her auth account tries clicking the "link your auth account" button in the profile page
     if user_signed_in? && current_user == User.where(:uid => auth[:uid]).first
-      flash[:notice] = "You've already linked your #{auth['provider']} account!"
+      flash[:notice] = "You've already linked your #{auth['provider'].titleize} account!"
       redirect_to current_user
 
     # Case 1: Sign in an existing user who has auth already linked
     elsif user = User.where(:uid => auth[:uid]).first
-      flash[:notice] = "Thanks for logging in with #{auth['provider']}!"
+      flash[:notice] = "Thanks for logging in with #{auth['provider'].titleize}!"
       sign_in_and_redirect user
 
     # Case 2: Add auth to an existing signed in user
     elsif user_signed_in?
       if current_user.add_omniauth(auth)
-        flash[:success] = "Successfully linked #{auth['provider']} to your account"
+        flash[:success] = "Successfully linked #{auth['provider'].titleize} to your account"
         redirect_to courses_path
       else
-        flash[:error] = "We couldn't link #{auth['provider']} to your account"
+        flash[:error] = "We couldn't link #{auth['provider'].titleize} to your account"
         redirect_to courses_path
       end
 
@@ -35,7 +35,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
     else
       user = User.from_omniauth(auth)
       if user.persisted?
-        flash[:notice] = "Thanks for signing up with #{auth['provider']}!"
+        flash[:notice] = "Thanks for signing up with #{auth['provider'].titleize}!"
         sign_in_and_redirect user
       else
         # If the only issue is the legal agreement, nudge the user along with a gentler prompt (since this will happen every time someone tries to create an account using Github)
