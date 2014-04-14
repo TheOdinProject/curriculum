@@ -1,7 +1,7 @@
 def set_omniauth(opts = {})
   default = {:provider => :github,
              :uuid     => "123456",
-             :facebook => {
+             :github => {
                             :email => "foobar@example.com",
                             :gender => "Male",
                             :first_name => "foo",
@@ -30,7 +30,7 @@ end
 
 def set_invalid_omniauth(opts = {})
 
-  credentials = { :provider => :facebook,
+  credentials = { :provider => :github,
                   :invalid  => :invalid_crendentials
                  }.merge(opts)
 

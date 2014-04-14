@@ -47,7 +47,6 @@ describe OmniauthCallbacksController, "github callback" do
       end
 
         specify { page.should have_css('#user_username') }
-        specify { puts page.source }
         specify { page.should have_css('#user_email') }
         specify { page.should have_content('Terms of Use') }
         specify { page.should_not have_css('password confirmation') }
@@ -78,13 +77,13 @@ describe OmniauthCallbacksController, "github callback" do
 
       context 'should be able to sign in again' do
         before(:each) do
-          click_signin
+          #click_signin
           fill_in_correctly
           click_link "Logout"
           click_signin
         end
-
-        specify { page.should have_content('Signed in!') }
+        #auth = request.env["omniauth.auth"]
+        specify { page.should have_content("Thanks for logging in with") }
       end
 
       context 'legal agreement not checked' do
@@ -136,12 +135,19 @@ describe OmniauthCallbacksController, "github callback" do
 
       context 'existing user log in with Github with same email address' do
         before do
-          click_link "Logout"
+          @user = User.create(username: "Existing User",
+                          email: "ghost@nobody.com",
+                          password: "password",
+                          password_confirmation: "password",
+                          legal_agreement: true)
+          #click_link "Logout"
           visit root_path
+          #need to update for new conditions
           click_signin
         end
 
         it 'should update existing user provider and uid' do
+
           expect(@user.provider).to eq("github")
           expect(@user.uid).to eq("123455")
         end
