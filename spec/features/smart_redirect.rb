@@ -97,5 +97,15 @@ describe "Smart Redirect" do
       it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
+
+    context 'From user_session_path' do
+      before do
+        visit user_session_path
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
   end
 end
