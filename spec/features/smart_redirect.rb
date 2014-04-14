@@ -11,21 +11,39 @@ describe "Smart Redirect" do
   let!(:lesson){ FactoryGirl.create(:lesson, :section_id => 1) }
 
   describe "Redirect back after sign up" do
+    context 'From the home page' do
+      before do
+        visit root_path
+        click_link("Login")
+        click_link("Sign up")
+        fill_in :user_username, :with => "User"
+        fill_in :user_email, :with => "user@example.com"
+        fill_in :user_password, :with => "password"
+        fill_in :user_password_confirmation, :with => "password"
+        check :user_legal_agreement
+        click_button "Sign up"
+      end
 
-    before do
-      visit lesson_path(course.title_url, lesson.title_url)
-      click_link("Login")
-      click_link("Sign up")
-      fill_in :user_username, :with => "User"
-      fill_in :user_email, :with => "user@example.com"
-      fill_in :user_password, :with => "password"
-      fill_in :user_password_confirmation, :with => "password"
-      check :user_legal_agreement
-      click_button "Sign up"
+      it 'should redirect to the courses page' do
+        should have_content('This is Your Path to Learning Web Development')
+      end
     end
+    context 'From a specific lesson page' do
+      before do
+        visit lesson_path(course.title_url, lesson.title_url)
+        click_link("Login")
+        click_link("Sign up")
+        fill_in :user_username, :with => "User"
+        fill_in :user_email, :with => "user@example.com"
+        fill_in :user_password, :with => "password"
+        fill_in :user_password_confirmation, :with => "password"
+        check :user_legal_agreement
+        click_button "Sign up"
+      end
 
-    it 'should redirect the registered user to last viewed course page' do
-      should have_content('1: test lesson1')
+      it 'should redirect the registered user to last viewed course page' do
+        should have_content('1: test lesson1')
+      end
     end
   end
 
