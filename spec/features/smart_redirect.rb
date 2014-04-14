@@ -30,7 +30,6 @@ describe "Smart Redirect" do
     end
     context 'From a specific lesson page' do
       before do
-        puts "\n\n\n\n\n\n\n #{lesson.inspect}! \n\n\n\n\n\n\n\n #{course.inspect}!\n\n\n\n\n\n\n\n #{section.inspect}!"
         visit lesson_path(lesson.course.title_url, lesson.title_url)
         click_link("Login")
         click_link("Sign up")
