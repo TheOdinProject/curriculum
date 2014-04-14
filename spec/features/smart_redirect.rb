@@ -12,9 +12,7 @@ describe "Smart Redirect" do
 
   describe "Redirect back after sign up" do
     context 'From the home page' do
-      before do
-        sign_up_user
-      end
+      before { sign_up_user }
 
       it { should have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
 
@@ -26,6 +24,16 @@ describe "Smart Redirect" do
       end
 
       it { should have_selector('div', :text => lesson.title ) }
+
+    end
+
+    context 'From signup path' do
+      before do
+        visit signup_path
+        sign_up_user
+      end
+
+      it { should have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
 
     end
   end
