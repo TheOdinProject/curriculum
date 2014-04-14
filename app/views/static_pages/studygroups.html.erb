@@ -1,446 +1,550 @@
 <div class="StaticPagesController">
-    <div id="studygroup">
-      <h1 class="text-center">Web Development Study Group</h1>
-      <h2 class="text-center">Spring 2014 Session</h2>
+  <div id="studygroup">
+    <h1 class="text-center">Web Development Study Group</h1>
+    <h2 class="text-center">Spring 2014 Session</h2>
+    
+    <ul id="studygroup-tabs" class="nav nav-tabs">
+      <li class="active"><a href="#track1" data-toggle="tab">Dev 101 Track</a></li>
+      <li><a href="#track2" data-toggle="tab">Rails Track</a></li>
+      <li><a href="#track3" data-toggle="tab">Start Your own!</a></li>
+    </ul>
+    
+    <div class="tab-content">
       
-      <ul id="studygroup-tabs" class="nav nav-tabs">
-        <li class="active"><a href="#track1" data-toggle="tab">Dev 101 Track</a></li>
-        <li><a href="#track2" data-toggle="tab">Rails Track</a></li>
-      </ul>
-      
-      <div class="tab-content">
-        
-        <div class="tab-pane fade active in" id="track1">
-          <div class="studygroup-side pull-left" >
-            <h3>Web Development 101</h3>
+      <div class="tab-pane fade active in" id="track1">
+        <div class="studygroup-side pull-left" >
+          <h3>Web Development 101</h3>
 
-            <p>This is a free weekly study group on Sundays at 6pm. We will be working through The Odin Project <%= link_to "curriculum", "http://www.theodinproject.com/courses" %> from beginning to end.</p>
-    
-            <p>During the week, we will be working through the curriculum 
-            independently, and completed projects are due on Sunday at our meeting. During our study group meetings, we can show our completed projects, discuss questions, and keep each other motivated.</p>
-    
-            <p>Parts of the curriculum will appear to be review for some people. Parts of the curriculum will appear to be insurmountable for some people. We will steadily progress, nonetheless.</p>
+          <p>This is a free weekly study group on Sundays at 6pm. We will be working through The Odin Project <%= link_to "curriculum", "http://www.theodinproject.com/courses" %> from beginning to end.</p>
+  
+          <p>During the week, we will be working through the curriculum 
+          independently, and completed projects are due on Sunday at our meeting. During our study group meetings, we can show our completed projects, discuss questions, and keep each other motivated.</p>
+  
+          <p>Parts of the curriculum will appear to be review for some people. Parts of the curriculum will appear to be insurmountable for some people. We will steadily progress, nonetheless.</p>
 
-            <strong><p>Your fearless guide: <a href="https://github.com/gorchov">Joshua</a></p></strong>
-            <strong><p>Your mad scientist assistant: <a href="https://github.com/eriktrautman">Erik</a></p></strong>
-    
-            <h4>Schedule</h4>
-    
-            <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=8qgaetcsdbvslb5s9k9sm15598%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="300" height="600" frameborder="0" scrolling="no"></iframe>
-    
+          <strong><p>Your fearless guide: <a href="https://github.com/gorchov">Joshua</a></p></strong>
+          <strong><p>Your mad scientist assistant: <a href="https://github.com/eriktrautman">Erik</a></p></strong>
+  
+          <h4>Schedule</h4>
+  
+          <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=8qgaetcsdbvslb5s9k9sm15598%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="300" height="600" frameborder="0" scrolling="no"></iframe>
+  
+        </div>
+
+
+  <!-- **************** WEEKS **************** -->
+        <div class="studygroup-content pull-left" >
+          
+                      <!-- WEEK -->
+          <h3>Week 9 Study Group Meeting</h3>
+          <div class="sg-logistics">
+            <p>
+              <strong>Date: </strong>Sunday, April 13, 2014
+            </p>
+            <p>
+              <strong>Time: </strong>6:00pm PST (GMT-7)
+            </p>
+            <p>
+              <strong>Homework Due: </strong>Finish through the <a href="http://www.theodinproject.com/web-development-101/ruby-on-rails">Rails Project ("Jumpstart Blogger")</a>.
+            </p>
+            <p>
+              <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/cfek9ovekip05ss0ktdjua1ei7g" %><br>
+              <em>*** A link to join the meeting will be posted on the hangout event page at 5:55pm PST on Sunday. ***</em>
+            </p>
           </div>
+  
+          <h4>What We'll Cover</h4>
+          <p>
+            It's a tough week this week so I hope you've gotten a head start -- we'll be doing all the lessons up to the Jumpstart Blogger tutorial in Ruby on Rails. For some, it may be your first taste of Rails.  It'll be challenging at first because I'm intentionally throwing a lot at you.  We can debug your issues in the study group.
+          </p>
+          <div class="rule"></div>
 
 
-    <!-- **************** WEEKS **************** -->
-          <div class="studygroup-content pull-left" >
-            
-                        <!-- WEEK -->
-            <h3>Week 9 Study Group Meeting</h3>
-            <div class="sg-logistics">
-              <p>
-                <strong>Date: </strong>Sunday, April 13, 2014
-              </p>
-              <p>
-                <strong>Time: </strong>6:00pm PST (GMT-7)
-              </p>
-              <p>
-                <strong>Homework Due: </strong>Finish through the <a href="http://www.theodinproject.com/web-development-101/ruby-on-rails">Rails Project ("Jumpstart Blogger")</a>.
-              </p>
-              <p>
-                <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/cfek9ovekip05ss0ktdjua1ei7g" %><br>
-                <em>*** A link to join the meeting will be posted on the hangout event page at 5:55pm PST on Sunday. ***</em>
-              </p>
-            </div>
-    
-            <h4>What We'll Cover</h4>
+
+
+          <!-- WEEK -->
+          <h4>Week 8 Study Group Meeting</h4>
+          <div class="sg-logistics">
             <p>
-              It's a tough week this week so I hope you've gotten a head start -- we'll be doing all the lessons up to the Jumpstart Blogger tutorial in Ruby on Rails. For some, it may be your first taste of Rails.  It'll be challenging at first because I'm intentionally throwing a lot at you.  We can debug your issues in the study group.
-            </p>
-            <div class="rule"></div>
-
-
-
-
-            <!-- WEEK -->
-            <h4>Week 8 Study Group Meeting</h4>
-            <div class="sg-logistics">
-              <p>
-                <strong>Date: </strong>Sunday, April 6, 2014
-              </p>
-              <p>
-                <strong>Time: </strong>6:00pm PST (GMT-7)
-              </p>
-              <p>
-                <strong>Homework Due: </strong>Finish through the <a href="http://www.theodinproject.com/web-development-101/ruby">Ruby Project ("Test-First Ruby")</a>.
-              </p>
-              <p>
-                <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/cvcupr4107ga4qfjaa2jshegqv0?partnerid=gplp0" %><br>
-                <em>*** A link to join the meeting will be posted on the hangout event page at 5:55pm PST on Sunday. ***</em>
-              </p>
-            </div>
-    
-            <h4>What We'll Cover</h4>
-            <p>
-              This week you get a chance to do some Test-First Ruby, which both gives you exposure to testing and will challenge your understanding of the language like hasn't happened yet so far.  Next week we'll move into frameworks and, specifically, get you your first taste of Ruby on Rails.
-            </p>
-            <div class="rule"></div>
-
-
-            <!-- WEEK -->
-            <h4>Week 7 Study Group Meeting</h4>
-            <div class="sg-logistics">
-              <p>
-                <strong>Date: </strong>Sunday, March 30, 2014
-              </p>
-              <p>
-                <strong>Time: </strong>6:00pm PST (GMT-7)
-              </p>
-              <p>
-                <strong>Homework Due: </strong>Finish the <a href="http://www.theodinproject.com/web-development-101/ruby-basics">Ruby Basics lesson</a>, which includes the <a href="http://rubymonk.com/learning/books/1">Ruby Monk tutorials</a> and the Project Euler problems (which you've already done in Javascript).
-              </p>
-              <p>
-                <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/c7mskcg1l1r1pc0hu1daoobsuq8" %><br>
-                <em>*** A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday. ***</em>
-              </p>
-            </div>
-    
-            <h4>What We'll Cover</h4>
-            <p>
-              March 23 - March 30, 2014
+              <strong>Date: </strong>Sunday, April 6, 2014
             </p>
             <p>
-              We'll finish up the "learning" part of Ruby this week by closing the book on Chris Pine and the Ruby Monk.  Next week we'll move into testing and the project (<a href="http://www.theodinproject.com/courses/web-development-101/lessons/ruby">Test-First Ruby Project</a>).
-            </p>
-    
-
-            <!-- WEEK -->
-            <div class="rule"></div>
-            <h4>Week 6 Study Group Meeting</h4>
-            <div class="sg-logistics">
-              <p>
-                <strong>Date: </strong>Sunday, March 23, 2014
-              </p>
-              <p>
-                <strong>Time: </strong>6:00pm PST (GMT-7)
-              </p>
-              <p>
-                <strong>Project Due: </strong>Chris Pine's <%= link_to "Learning to Program", "http://pine.fm/LearnToProgram/?Chapter=00" %>, ch 1-10 problem solutions.
-              </p>
-              <p>
-                <strong>Extra Credit: </strong>Finish the <a href="http://rubymonk.com/learning/books/1">Ruby Monk tutorials</a> or even get started on the <a href="http://www.theodinproject.com/courses/web-development-101/lessons/ruby">Test-First Ruby Project</a>
-              </p>
-              <p>
-                <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/cl5d2lc8p5cfp1v3ftt04njo10s" %><br>
-                <em>*** A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday. ***</em>
-              </p>
-            </div>
-    
-            <h4>What We'll Cover</h4>
-            <p>
-              March 17 - March 23, 2014
+              <strong>Time: </strong>6:00pm PST (GMT-7)
             </p>
             <p>
-              Because we didn't have a real meeting last week, consider this a reprieve and some extra time to work on Ruby!  The homework assignment is still chapters 1 - 10 in Chris Pine's book but you can hopefully also dive into the Ruby Monk lessons listed in the <a href="http://www.theodinproject.com/courses/web-development-101/lessons/ruby-basics">Ruby Basics</a> lesson.
+              <strong>Homework Due: </strong>Finish through the <a href="http://www.theodinproject.com/web-development-101/ruby">Ruby Project ("Test-First Ruby")</a>.
             </p>
             <p>
-              On Sunday we will review any questions you have about Chris Pine's book, the Ruby Monk tutorials, and look ahead to the Test-first project which will be done the following week.
+              <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/cvcupr4107ga4qfjaa2jshegqv0?partnerid=gplp0" %><br>
+              <em>*** A link to join the meeting will be posted on the hangout event page at 5:55pm PST on Sunday. ***</em>
             </p>
+          </div>
+  
+          <h4>What We'll Cover</h4>
+          <p>
+            This week you get a chance to do some Test-First Ruby, which both gives you exposure to testing and will challenge your understanding of the language like hasn't happened yet so far.  Next week we'll move into frameworks and, specifically, get you your first taste of Ruby on Rails.
+          </p>
+          <div class="rule"></div>
 
-    
 
-            <!-- WEEK -->
-            <div class="rule"></div>
+          <!-- WEEK -->
+          <h4>Week 7 Study Group Meeting</h4>
+          <div class="sg-logistics">
+            <p>
+              <strong>Date: </strong>Sunday, March 30, 2014
+            </p>
+            <p>
+              <strong>Time: </strong>6:00pm PST (GMT-7)
+            </p>
+            <p>
+              <strong>Homework Due: </strong>Finish the <a href="http://www.theodinproject.com/web-development-101/ruby-basics">Ruby Basics lesson</a>, which includes the <a href="http://rubymonk.com/learning/books/1">Ruby Monk tutorials</a> and the Project Euler problems (which you've already done in Javascript).
+            </p>
+            <p>
+              <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/c7mskcg1l1r1pc0hu1daoobsuq8" %><br>
+              <em>*** A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday. ***</em>
+            </p>
+          </div>
+  
+          <h4>What We'll Cover</h4>
+          <p>
+            March 23 - March 30, 2014
+          </p>
+          <p>
+            We'll finish up the "learning" part of Ruby this week by closing the book on Chris Pine and the Ruby Monk.  Next week we'll move into testing and the project (<a href="http://www.theodinproject.com/courses/web-development-101/lessons/ruby">Test-First Ruby Project</a>).
+          </p>
+  
 
-            <h4>Week 5 Study Group Meeting</h4>
-            <p><strong>Date: </strong>Sunday, March 16, 2014<br>
-            <strong>Time: </strong>6:00pm PST (GMT-8)<br>
-            <strong>Project Due: </strong>Complete Chris Pine's <%= link_to "Learning to Program", "http://pine.fm/LearnToProgram/?Chapter=00" %>, chapters 1 - 10 problem solutions.<br>
-            <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/c3rpsof2nbo62cbqau3o14581d0" %><br>
-              A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
-    
-            <h4>Week 5 Curriculum</h4>
-            <p>March 10 - March 16, 2014<br>
-            <p>Drop and give me chapters 1 - 10. This week we're working through Chris Pine's Learning to Program, chapters 1 -10. We have a week to read and solve the problems, which works out to about 2 chapters per day. On Sunday we can review our code together.﻿</p>
+          <!-- WEEK -->
+          <div class="rule"></div>
+          <h4>Week 6 Study Group Meeting</h4>
+          <div class="sg-logistics">
+            <p>
+              <strong>Date: </strong>Sunday, March 23, 2014
+            </p>
+            <p>
+              <strong>Time: </strong>6:00pm PST (GMT-7)
+            </p>
+            <p>
+              <strong>Project Due: </strong>Chris Pine's <%= link_to "Learning to Program", "http://pine.fm/LearnToProgram/?Chapter=00" %>, ch 1-10 problem solutions.
+            </p>
+            <p>
+              <strong>Extra Credit: </strong>Finish the <a href="http://rubymonk.com/learning/books/1">Ruby Monk tutorials</a> or even get started on the <a href="http://www.theodinproject.com/courses/web-development-101/lessons/ruby">Test-First Ruby Project</a>
+            </p>
+            <p>
+              <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/cl5d2lc8p5cfp1v3ftt04njo10s" %><br>
+              <em>*** A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday. ***</em>
+            </p>
+          </div>
+  
+          <h4>What We'll Cover</h4>
+          <p>
+            March 17 - March 23, 2014
+          </p>
+          <p>
+            Because we didn't have a real meeting last week, consider this a reprieve and some extra time to work on Ruby!  The homework assignment is still chapters 1 - 10 in Chris Pine's book but you can hopefully also dive into the Ruby Monk lessons listed in the <a href="http://www.theodinproject.com/courses/web-development-101/lessons/ruby-basics">Ruby Basics</a> lesson.
+          </p>
+          <p>
+            On Sunday we will review any questions you have about Chris Pine's book, the Ruby Monk tutorials, and look ahead to the Test-first project which will be done the following week.
+          </p>
 
-            
-    
-            <!-- WEEK -->
-            <div class="rule"></div>
+  
 
-            <h4>Week 4 Study Group Meeting</h4>
-            <p><strong>Date: </strong>Sunday, March 9, 2014<br>
-            <strong>Time: </strong>6:00pm PST (GMT-8)<br>
-            <strong>Project Due: </strong>Javascript Project<br>
-            <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/c3rpsof2nbo62cbqau3o14581d0" %><br>
-              A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
-            <h4>Week 4 Curriculum</h4>
-            <p>March 3 - March 9, 2014<br>
-            <p>This week's mission is to complete the <%=link_to "Javascript 101", "http://www.theodinproject.com/courses/web-development-101/lessons/javascript-basics" %> and <%= link_to "jQuery 101", "http://www.theodinproject.com/courses/web-development-101/lessons/jquery-basics" %> lessons.</p>
-            <p>Complete the <%= link_to "Javascript/jQuery Etch-a-Sketch assignment", "http://www.theodinproject.com/courses/web-development-101/lessons/javascript-and-jquery" %>. Add your answers to the Student Solutions section using git/github if you'd like.</p>
-    
-    
+          <!-- WEEK -->
+          <div class="rule"></div>
 
-            <!-- WEEK -->
-            <div class="rule"></div>
+          <h4>Week 5 Study Group Meeting</h4>
+          <p><strong>Date: </strong>Sunday, March 16, 2014<br>
+          <strong>Time: </strong>6:00pm PST (GMT-8)<br>
+          <strong>Project Due: </strong>Complete Chris Pine's <%= link_to "Learning to Program", "http://pine.fm/LearnToProgram/?Chapter=00" %>, chapters 1 - 10 problem solutions.<br>
+          <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/c3rpsof2nbo62cbqau3o14581d0" %><br>
+            A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
+  
+          <h4>Week 5 Curriculum</h4>
+          <p>March 10 - March 16, 2014<br>
+          <p>Drop and give me chapters 1 - 10. This week we're working through Chris Pine's Learning to Program, chapters 1 -10. We have a week to read and solve the problems, which works out to about 2 chapters per day. On Sunday we can review our code together.﻿</p>
 
-            <h4>Week 3 Study Group Meeting</h4>
-            <p><strong>Date: </strong>Sunday, March 2, 2014<br>
-            <strong>Time: </strong>6:00pm PST (GMT-8)<br>
-            <strong>Project Due: </strong>Project Euler Solutions<br>
-            <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/cs5h1uvghmpkunsqoam5m5866kc" %><br>
-              A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
-            <h4>Week 3 Curriculum</h4>
-            <p>February 24 - March 2, 2014<br>
-            <p>This week's mission is to complete the <%=link_to "Javascript 101", "http://www.theodinproject.com/courses/web-development-101/lessons/javascript-basics" %> lesson.</p>
-            <p>Complete the Project Euler assignment. Add your answers to the Student Solutions section using git/github if you'd like.</p>
-    
-    
-
-            <!-- WEEK -->
-            <div class="rule"></div>
-
-            <h4>Week 2</h4>
-            <p>If you missed last week's meeting and are still interested in climbing aboard, now is the time! Everyone was still getting up to speed at last week's study group, so we extended the first project through this week.</p>
-    
-            <p>For many, this looks like review. But it's trickier than it looks and takes longer than you might expect, so start early and work every day.</p>
-    
-            <h4>Week 2 Study Group Meeting</h4>
-            <p><strong>Date: </strong>Sunday, February 23, 2014<br>
-            <strong>Time: </strong>6:00pm PST (GMT-8)<br>
-            <strong>Project Due: </strong><%= link_to "HTML/CSS", "http://www.theodinproject.com/courses/web-development-101/lessons/html-css" %><br>
-            <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/c0okmq1popkr2totcr208k5aphs" %><br>
-              A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
-    
-            <p><strong>Note: </strong>There are 10 spots available in the interactive chat. We will be cycling participants in and out of the interactive chat to go over the project and questions. If you can't get into the interactive chat because it's full, you can watch the study group live, until a spot opens up for you.</p>  
-    
-            <p>Please wear headphones to avoid crazy echo madness.</p>
-    
-            <p>If you try to enter the interactive chat and get a Google server error, copy the link to the chat to your clipboard, log out of Google, paste the url into your browser and go to it, Google will ask for your password, then it should let you in.</p>
-    
-            <p>If that doesn't work, try the same steps in another browser.</p>
           
-            <h4>Week 2 Curriculum</h4>
-            <p>February 17 - February 23, 2014<br>
-            <%= link_to "HTML and CSS Basics", "http://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics" %></p>
-    
-            
+  
+          <!-- WEEK -->
+          <div class="rule"></div>
 
-            <!-- WEEK -->
-            <div class="rule"></div>
+          <h4>Week 4 Study Group Meeting</h4>
+          <p><strong>Date: </strong>Sunday, March 9, 2014<br>
+          <strong>Time: </strong>6:00pm PST (GMT-8)<br>
+          <strong>Project Due: </strong>Javascript Project<br>
+          <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/c3rpsof2nbo62cbqau3o14581d0" %><br>
+            A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
+          <h4>Week 4 Curriculum</h4>
+          <p>March 3 - March 9, 2014<br>
+          <p>This week's mission is to complete the <%=link_to "Javascript 101", "http://www.theodinproject.com/courses/web-development-101/lessons/javascript-basics" %> and <%= link_to "jQuery 101", "http://www.theodinproject.com/courses/web-development-101/lessons/jquery-basics" %> lessons.</p>
+          <p>Complete the <%= link_to "Javascript/jQuery Etch-a-Sketch assignment", "http://www.theodinproject.com/courses/web-development-101/lessons/javascript-and-jquery" %>. Add your answers to the Student Solutions section using git/github if you'd like.</p>
+  
+  
 
-            <h4>Week 1 Study Group Meeting</h4>
-            <p><strong>Date: </strong>February 16, 2014<br>
-            <strong>Time: </strong>6:00pm PST (GMT-8)<br>
-            <strong>Project Due: </strong><%= link_to "HTML/CSS", "http://www.theodinproject.com/courses/web-development-101/lessons/html-css" %><br>
-            <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/co5h59n83chanvesvgkuu9s26c4" %><br>
-              A link to join the meeting will be posted on the hangout page at 5:50pm on Sunday.</p>
-          
-            <h4>Week 1 Curriculum</h4>
-            <p>February 9 - February 15, 2014<br>
-            <%= link_to "HTML and CSS Basics", "http://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics" %></p>
-          </div>     <!-- .studygroup-content -->
-          <div style="clear:both"></div>
+          <!-- WEEK -->
+          <div class="rule"></div>
 
-        </div>  <!-- #track1 -->
+          <h4>Week 3 Study Group Meeting</h4>
+          <p><strong>Date: </strong>Sunday, March 2, 2014<br>
+          <strong>Time: </strong>6:00pm PST (GMT-8)<br>
+          <strong>Project Due: </strong>Project Euler Solutions<br>
+          <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/cs5h1uvghmpkunsqoam5m5866kc" %><br>
+            A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
+          <h4>Week 3 Curriculum</h4>
+          <p>February 24 - March 2, 2014<br>
+          <p>This week's mission is to complete the <%=link_to "Javascript 101", "http://www.theodinproject.com/courses/web-development-101/lessons/javascript-basics" %> lesson.</p>
+          <p>Complete the Project Euler assignment. Add your answers to the Student Solutions section using git/github if you'd like.</p>
+  
+  
+
+          <!-- WEEK -->
+          <div class="rule"></div>
+
+          <h4>Week 2</h4>
+          <p>If you missed last week's meeting and are still interested in climbing aboard, now is the time! Everyone was still getting up to speed at last week's study group, so we extended the first project through this week.</p>
+  
+          <p>For many, this looks like review. But it's trickier than it looks and takes longer than you might expect, so start early and work every day.</p>
+  
+          <h4>Week 2 Study Group Meeting</h4>
+          <p><strong>Date: </strong>Sunday, February 23, 2014<br>
+          <strong>Time: </strong>6:00pm PST (GMT-8)<br>
+          <strong>Project Due: </strong><%= link_to "HTML/CSS", "http://www.theodinproject.com/courses/web-development-101/lessons/html-css" %><br>
+          <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/u/0/events/c0okmq1popkr2totcr208k5aphs" %><br>
+            A link to join the meeting will be posted on the hangout event page at 5:50pm PST on Sunday.</p>
+  
+          <p><strong>Note: </strong>There are 10 spots available in the interactive chat. We will be cycling participants in and out of the interactive chat to go over the project and questions. If you can't get into the interactive chat because it's full, you can watch the study group live, until a spot opens up for you.</p>  
+  
+          <p>Please wear headphones to avoid crazy echo madness.</p>
+  
+          <p>If you try to enter the interactive chat and get a Google server error, copy the link to the chat to your clipboard, log out of Google, paste the url into your browser and go to it, Google will ask for your password, then it should let you in.</p>
+  
+          <p>If that doesn't work, try the same steps in another browser.</p>
         
-        <div class="tab-pane fade" id="track2">
-           <div class="studygroup-side pull-left" >   <!-- changed #side to .studygroup-side -->
-            <h3>The Rails track!</h3>
-    
-            <p>We will be working through The Odin Project curriculum, 
-              starting at the <%= link_to "Ruby on Rails section", "http://www.theodinproject.com/courses/ruby-on-rails/lessons" %>.
-              We'll meet online weekly, go over our efforts, and help answer each others questions.</p>
+          <h4>Week 2 Curriculum</h4>
+          <p>February 17 - February 23, 2014<br>
+          <%= link_to "HTML and CSS Basics", "http://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics" %></p>
+  
+          
 
-              <strong><p>Your fearless guide: <a href="https://github.com/afshinator">Afshin</a></p></strong>
-    
-             <h4>Prerequisites</h4>
-             <ul>
-               <li>Be comfortable with Git, HTML, CSS, javascript, and especially Ruby code.  If you're not, 
-               then you'll want to go through 
-                 <%= link_to "Web Dev 101 ", "http://www.theodinproject.com/courses/web-development-101/lessons" %>
-                 and <%= link_to "Ruby ", "http://www.theodinproject.com/courses/ruby-programming/lessons" %>
-                 sections.
-               </li>
-               <li>Read and finish the   
-                 <%= link_to "course intro", "http://www.theodinproject.com/courses/ruby-on-rails/lessons/how-this-course-will-work" %>.
-               </li>
-             </ul>
-              
-            <p>Compared to a lot of other Rails tutorials, the Odin Rails curriculum covers a wider range of topics 
-              - for good reason.  We want to be able to implement our own app ideas, not just follow a cookie-cutter
-              recipe.  
-             </p>
+          <!-- WEEK -->
+          <div class="rule"></div>
+
+          <h4>Week 1 Study Group Meeting</h4>
+          <p><strong>Date: </strong>February 16, 2014<br>
+          <strong>Time: </strong>6:00pm PST (GMT-8)<br>
+          <strong>Project Due: </strong><%= link_to "HTML/CSS", "http://www.theodinproject.com/courses/web-development-101/lessons/html-css" %><br>
+          <strong>Location: </strong><%= link_to "Google Hangout", "https://plus.google.com/events/co5h59n83chanvesvgkuu9s26c4" %><br>
+            A link to join the meeting will be posted on the hangout page at 5:50pm on Sunday.</p>
+        
+          <h4>Week 1 Curriculum</h4>
+          <p>February 9 - February 15, 2014<br>
+          <%= link_to "HTML and CSS Basics", "http://www.theodinproject.com/courses/web-development-101/lessons/html-and-css-basics" %></p>
+        </div>     <!-- .studygroup-content -->
+        <div style="clear:both"></div>
+
+      </div>  <!-- #track1 -->
+
+
+
+
+
+
+
+
+
+
+
+      
+      <div class="tab-pane fade" id="track2">
+         <div class="studygroup-side pull-left" >   <!-- changed #side to .studygroup-side -->
+          <h3>The Rails track!</h3>
+  
+          <p>We will be working through The Odin Project curriculum, 
+            starting at the <%= link_to "Ruby on Rails section", "http://www.theodinproject.com/courses/ruby-on-rails/lessons" %>.
+            We'll meet online weekly, go over our efforts, and help answer each others questions.</p>
+
+            <strong><p>Your fearless guide: <a href="https://github.com/afshinator">Afshin</a></p></strong>
+  
+           <h4>Prerequisites</h4>
+           <ul>
+             <li>Be comfortable with Git, HTML, CSS, javascript, and especially Ruby code.  If you're not, 
+             then you'll want to go through 
+               <%= link_to "Web Dev 101 ", "http://www.theodinproject.com/courses/web-development-101/lessons" %>
+               and <%= link_to "Ruby ", "http://www.theodinproject.com/courses/ruby-programming/lessons" %>
+               sections.
+             </li>
+             <li>Read and finish the   
+               <%= link_to "course intro", "http://www.theodinproject.com/courses/ruby-on-rails/lessons/how-this-course-will-work" %>.
+             </li>
+           </ul>
+            
+          <p>Compared to a lot of other Rails tutorials, the Odin Rails curriculum covers a wider range of topics 
+            - for good reason.  We want to be able to implement our own app ideas, not just follow a cookie-cutter
+            recipe.  
+           </p>
+           
+           <h4>Study-group Goals</h4>
+           <ul>
+             <li>Meet at least weekly to discuss efforts, problems, and their solutions,</li>
+             <li>Provide a light at the end of the tunnel!  A schedule to keep to,</li>
+             <li>Keep schedule flexible based on participants needs,</li>
+             <li>Provide extra value by providing info form outside the curriculum,</li>
+             <li>Comradery, and inspiration from fellow devs on the same track,</li>
+             <li>and more!</li>
+           </ul>
              
-             <h4>Study-group Goals</h4>
-             <ul>
-               <li>Meet at least weekly to discuss efforts, problems, and their solutions,</li>
-               <li>Provide a light at the end of the tunnel!  A schedule to keep to,</li>
-               <li>Keep schedule flexible based on participants needs,</li>
-               <li>Provide extra value by providing info form outside the curriculum,</li>
-               <li>Comradery, and inspiration from fellow devs on the same track,</li>
-               <li>and more!</li>
-             </ul>
-               
-            <h4>Schedule</h4>
-             <p>Will be posted after I get a better sense of how fast we're moving.</p>
-          </div><!-- .studygroup-side -->  
+          <h4>Schedule</h4>
+           <p>Will be posted after I get a better sense of how fast we're moving.</p>
+        </div><!-- .studygroup-side -->  
 
-          <div class="studygroup-content pull-left" >
-            
-           <h3>Week 6 Study Group Meeting</h3>
-            <p><strong>Date:</strong> Sunday April 13, 2014<br>
-              <strong>Time: </strong>7:30pm PST (GMT-8)<br>
-              <strong>Due on the 13th:</strong>
-              <br><%= link_to "Controllers, from the curriculum", "http://www.theodinproject.com/ruby-on-rails/controllers", :target => "_blank" %>
-              <br><%= link_to "(Edge) RailsGuides on Controllers", "http://edgeguides.rubyonrails.org/action_controller_overview.html", :target => "_blank" %>              
-              <br><%= link_to "Hartl Tutorial - Chpts 5,6,7", "http://ruby.railstutorial.org/chapters/filling-in-the-layout#top", :target => "_blank" %>                 
-              <br><strong>Location: </strong><%= link_to "Week 6 Google Hangout", "https://plus.google.com/u/0/b/112041900311777032328/events/cnch154vkmr3d51ret7kb1ujh4o", :target => "_blank" %>
-              <br><small>Check above link right before 7:30 to join the live hangout or watch.
-              <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
-            </p>
-            <p>We're kicking into high gear this week!  Aside from our focus on controllers,
-              the goal is to finish chapters 5-7 in the Hartl tutorial.  During the hangout on
-              Sunday we'll cover some issues around controllers, testing, and more.
-            </p>
-            
-            <hr>              
-            
-            <h3>Week 5 Study Group Meeting</h3>
-            <p><strong>Date:</strong> Sunday April 6, 2014<br>
-              <strong>Time: </strong>7:30pm PST (GMT-8)<br>
-              <strong>Projects Due on the 16th:</strong>
-              <br><%= link_to "Routing, from the curriculum", "http://www.theodinproject.com/ruby-on-rails/routing", :target => "_blank" %>
-              <br><%= link_to "(Edge) RailsGuides on Routing", "https://github.com/rails/rails/blob/master/guides/source/routing.md", :target => "_blank" %>              
-              <br><strong>Location: </strong><%= link_to "Week 5 Google Hangout", "https://plus.google.com/u/0/events/c5f8a60f33a0m092a3aug6r2kro", :target => "_blank" %>
-              <br><small>Check above link right before 7:30 to join the live hangout or watch.
-              <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
-            </p>
-            <p>Basic routing is pretty straightforward and in the routing section of the Odin
-              curriculum we get a great explanation of a lot of what we need to know about the subject.
-              I found turning to the RailsGuides for more detail to be a bad
-              learning experience!  The main thrust of the week 5 hangout will be to cover some 
-              details about routing not in the curriculum and poorly covered in the RailsGuides.
-            </p>
-            <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week5-transcript.md" target="_blank">
-              Week 5 transcript & notes</a>
-              <br><a href="https://www.youtube.com/watch?v=r4_52h751HI" target="_blank">
-              Week 5 Video</a>
-              </small>
-            </p>
-            
-            <hr>              
-            
-            <h4>Week 4 Study Group Meeting</h4>
-            <p><strong>Date:</strong> Sunday March 30, 2014<br>
-              <strong>Time: </strong>7:30pm PST (GMT-8)<br>
-              <strong>Project Due:</strong>
-              <br><%= link_to "RESTClient", "http://www.theodinproject.com/ruby-on-rails/let-s-get-building", :target => "_blank" %>
-              <br><%= link_to "Hartl's Chpts 3 & 4", "http://ruby.railstutorial.org/chapters/static-pages#top", :target => "_blank" %>              
-              <br><%= link_to "Treehouse's Intro to RSpec", "http://blog.teamtreehouse.com/an-introduction-to-rspec", :target => "_blank" %>
-              <br><strong>Location: </strong><%= link_to "Week 4 Google Hangout", "https://plus.google.com/u/0/events/c5j2kcpn7n0kitvg3138dnhnvg0", :target => "_blank" %>
-              <br><small>Check above link right before 7:30 to join the live hangout or watch.
-              <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
-            </p>
-            <p>We'll go over the RESTClient project and look at some tests for it.              
-              We'll follow up with the information on testing, go over the Treehouse article and
-              any of the other articles related to testing that folks want to cover.
-              We'll jump into Routing, and more!
-            </p>
-            <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week4-transcript.md" target="_blank">
-              Week 4 transcript & notes</a>
-              <br><a href="https://www.youtube.com/watch?v=ek5yLPW2W2U" target="_blank">
-              Week 4 Video</a>
-              </small>
-            </p>            
-            <hr>            
-            
-            
-            <h4>Week 3 Study Group Meeting</h4>
-            <p><strong>Date:</strong> Sunday March 23, 2014<br>
-              <strong>Time: </strong>7:30pm PST (GMT-8)<br>
-              <strong>Project Due:</strong>
-              <br>Beginners : Chris Pine's online <a href="https://pine.fm/LearnToProgram/" target="_blank">Learn to Program</a> + Hartl Chapters 1 & 2
-              <br>Advanced Beginners : Above + first 7 of <a href="http://testfirst.org/learn_ruby" target="_blank">Test First Ruby</a> with test rewrites.
-              <br><strong>Location: </strong><%= link_to "Week 3 Google Hangout", "https://plus.google.com/u/0/b/112041900311777032328/events/conkrmselq9mfr2e1ko9so9va58", :target => "_blank" %>
-              <br><small>Check above link right before 7:30 to join the live hangout or watch.
-              <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
-            </p>
-            <p>This next week will be the last time we'll work on material not specific to Rails.  
-              Hopefully you took the opportunity this last week to explore RSpec outside the context of Rails and 
-              gained familiarity with some of those <a href="http://betterspecs.org/" target="_blank">best practices</a>.              
-            </p>
-            <p>We'll review our re-writes of some of the Test-first-Ruby tests, the ruby implmentations
-              for the tests, and the other assignments including touching on the article and gem.
-              I'll present some material I consider pretty crucial with regards to testing that is not
-              in Hartl or some of the other common resources.  Time permitting, there will be other 
-              little knick-knacks!  Bring your questions!
-            </p>
-            <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week3-transcript.md" target="_blank">
-              Week 3 transcript & notes</a>
-              <br><a href="https://www.youtube.com/watch?v=8as2mxkUu7c" target="_blank">
-              Week 3 Video</a>
-              </small>
-            </p>            
-            <hr>
-            
-            <h4>Week 2 Study Group Meeting</h4>
-            <p><strong>Date:</strong> Sunday March 16, 2014<br>
-              <strong>Time: </strong>7:30pm PST (GMT-8)<br>
-              <strong>Project Due:</strong>
-              <br>First-timers : "<%= link_to "How this course will work", "http://www.theodinproject.com/courses/ruby-on-rails/lessons/how-this-course-will-work" %>"
-              <br>Second-timers : RailsGuides' project, Blogger2 
-              <br><strong>Location: </strong><%= link_to "Week 2 Google Hangout", "https://plus.google.com/u/0/b/112041900311777032328/events/cbahvd12bla48abqqp3rf5vqi4o" %>
-              <br><small>A link to join the meeting will be posted on above Hangout page right before meeting time.</small>
-            </p>
-            <p>Seems like there's going to be a bunch of new people.  We will probably backtrack 
-              a bit and repeat much of Week 1, especially in regards to installation and environment setup.  
-              We'll dive into some HTTP and REST, a little deeper than last time.  And more! ;-)<br>
-              Those folks who were there the first week
-              can share how long it took them to finish the RailsGuides project and Blogger2.  
-            </p>
-            
-            <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week2-transcript.md" target="_blank">
-              Week 2 transcript & notes</a>
-              <br><a href="https://www.youtube.com/watch?v=6wg4DbSWzSs" target="_blank">
-              Week 2 Video</a>
-              </small>
-            </p>
+        <div class="studygroup-content pull-left" >
+          
+         <h3>Week 6 Study Group Meeting</h3>
+          <p><strong>Date:</strong> Sunday April 13, 2014<br>
+            <strong>Time: </strong>7:30pm PST (GMT-8)<br>
+            <strong>Due on the 13th:</strong>
+            <br><%= link_to "Controllers, from the curriculum", "http://www.theodinproject.com/ruby-on-rails/controllers", :target => "_blank" %>
+            <br><%= link_to "(Edge) RailsGuides on Controllers", "http://edgeguides.rubyonrails.org/action_controller_overview.html", :target => "_blank" %>              
+            <br><%= link_to "Hartl Tutorial - Chpts 5,6,7", "http://ruby.railstutorial.org/chapters/filling-in-the-layout#top", :target => "_blank" %>                 
+            <br><strong>Location: </strong><%= link_to "Week 6 Google Hangout", "https://plus.google.com/u/0/b/112041900311777032328/events/cnch154vkmr3d51ret7kb1ujh4o", :target => "_blank" %>
+            <br><small>Check above link right before 7:30 to join the live hangout or watch.
+            <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
+          </p>
+          <p>We're kicking into high gear this week!  Aside from our focus on controllers,
+            the goal is to finish chapters 5-7 in the Hartl tutorial.  During the hangout on
+            Sunday we'll cover some issues around controllers, testing, and more.
+          </p>
+          
+          <hr>              
+          
+          <h3>Week 5 Study Group Meeting</h3>
+          <p><strong>Date:</strong> Sunday April 6, 2014<br>
+            <strong>Time: </strong>7:30pm PST (GMT-8)<br>
+            <strong>Projects Due on the 16th:</strong>
+            <br><%= link_to "Routing, from the curriculum", "http://www.theodinproject.com/ruby-on-rails/routing", :target => "_blank" %>
+            <br><%= link_to "(Edge) RailsGuides on Routing", "https://github.com/rails/rails/blob/master/guides/source/routing.md", :target => "_blank" %>              
+            <br><strong>Location: </strong><%= link_to "Week 5 Google Hangout", "https://plus.google.com/u/0/events/c5f8a60f33a0m092a3aug6r2kro", :target => "_blank" %>
+            <br><small>Check above link right before 7:30 to join the live hangout or watch.
+            <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
+          </p>
+          <p>Basic routing is pretty straightforward and in the routing section of the Odin
+            curriculum we get a great explanation of a lot of what we need to know about the subject.
+            I found turning to the RailsGuides for more detail to be a bad
+            learning experience!  The main thrust of the week 5 hangout will be to cover some 
+            details about routing not in the curriculum and poorly covered in the RailsGuides.
+          </p>
+          <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week5-transcript.md" target="_blank">
+            Week 5 transcript & notes</a>
+            <br><a href="https://www.youtube.com/watch?v=r4_52h751HI" target="_blank">
+            Week 5 Video</a>
+            </small>
+          </p>
+          
+          <hr>              
+          
+          <h4>Week 4 Study Group Meeting</h4>
+          <p><strong>Date:</strong> Sunday March 30, 2014<br>
+            <strong>Time: </strong>7:30pm PST (GMT-8)<br>
+            <strong>Project Due:</strong>
+            <br><%= link_to "RESTClient", "http://www.theodinproject.com/ruby-on-rails/let-s-get-building", :target => "_blank" %>
+            <br><%= link_to "Hartl's Chpts 3 & 4", "http://ruby.railstutorial.org/chapters/static-pages#top", :target => "_blank" %>              
+            <br><%= link_to "Treehouse's Intro to RSpec", "http://blog.teamtreehouse.com/an-introduction-to-rspec", :target => "_blank" %>
+            <br><strong>Location: </strong><%= link_to "Week 4 Google Hangout", "https://plus.google.com/u/0/events/c5j2kcpn7n0kitvg3138dnhnvg0", :target => "_blank" %>
+            <br><small>Check above link right before 7:30 to join the live hangout or watch.
+            <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
+          </p>
+          <p>We'll go over the RESTClient project and look at some tests for it.              
+            We'll follow up with the information on testing, go over the Treehouse article and
+            any of the other articles related to testing that folks want to cover.
+            We'll jump into Routing, and more!
+          </p>
+          <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week4-transcript.md" target="_blank">
+            Week 4 transcript & notes</a>
+            <br><a href="https://www.youtube.com/watch?v=ek5yLPW2W2U" target="_blank">
+            Week 4 Video</a>
+            </small>
+          </p>            
+          <hr>            
+          
+          
+          <h4>Week 3 Study Group Meeting</h4>
+          <p><strong>Date:</strong> Sunday March 23, 2014<br>
+            <strong>Time: </strong>7:30pm PST (GMT-8)<br>
+            <strong>Project Due:</strong>
+            <br>Beginners : Chris Pine's online <a href="https://pine.fm/LearnToProgram/" target="_blank">Learn to Program</a> + Hartl Chapters 1 & 2
+            <br>Advanced Beginners : Above + first 7 of <a href="http://testfirst.org/learn_ruby" target="_blank">Test First Ruby</a> with test rewrites.
+            <br><strong>Location: </strong><%= link_to "Week 3 Google Hangout", "https://plus.google.com/u/0/b/112041900311777032328/events/conkrmselq9mfr2e1ko9so9va58", :target => "_blank" %>
+            <br><small>Check above link right before 7:30 to join the live hangout or watch.
+            <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
+          </p>
+          <p>This next week will be the last time we'll work on material not specific to Rails.  
+            Hopefully you took the opportunity this last week to explore RSpec outside the context of Rails and 
+            gained familiarity with some of those <a href="http://betterspecs.org/" target="_blank">best practices</a>.              
+          </p>
+          <p>We'll review our re-writes of some of the Test-first-Ruby tests, the ruby implmentations
+            for the tests, and the other assignments including touching on the article and gem.
+            I'll present some material I consider pretty crucial with regards to testing that is not
+            in Hartl or some of the other common resources.  Time permitting, there will be other 
+            little knick-knacks!  Bring your questions!
+          </p>
+          <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week3-transcript.md" target="_blank">
+            Week 3 transcript & notes</a>
+            <br><a href="https://www.youtube.com/watch?v=8as2mxkUu7c" target="_blank">
+            Week 3 Video</a>
+            </small>
+          </p>            
+          <hr>
+          
+          <h4>Week 2 Study Group Meeting</h4>
+          <p><strong>Date:</strong> Sunday March 16, 2014<br>
+            <strong>Time: </strong>7:30pm PST (GMT-8)<br>
+            <strong>Project Due:</strong>
+            <br>First-timers : "<%= link_to "How this course will work", "http://www.theodinproject.com/courses/ruby-on-rails/lessons/how-this-course-will-work" %>"
+            <br>Second-timers : RailsGuides' project, Blogger2 
+            <br><strong>Location: </strong><%= link_to "Week 2 Google Hangout", "https://plus.google.com/u/0/b/112041900311777032328/events/cbahvd12bla48abqqp3rf5vqi4o" %>
+            <br><small>A link to join the meeting will be posted on above Hangout page right before meeting time.</small>
+          </p>
+          <p>Seems like there's going to be a bunch of new people.  We will probably backtrack 
+            a bit and repeat much of Week 1, especially in regards to installation and environment setup.  
+            We'll dive into some HTTP and REST, a little deeper than last time.  And more! ;-)<br>
+            Those folks who were there the first week
+            can share how long it took them to finish the RailsGuides project and Blogger2.  
+          </p>
+          
+          <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week2-transcript.md" target="_blank">
+            Week 2 transcript & notes</a>
+            <br><a href="https://www.youtube.com/watch?v=6wg4DbSWzSs" target="_blank">
+            Week 2 Video</a>
+            </small>
+          </p>
 
-            <hr>
+          <hr>
 
-            <h4>Week 1 Study Group Meeting</h4>
-            <p><strong>Date:</strong> Sunday March 9, 2014<br>
-              <strong>Time: </strong>7:30pm PST (GMT-8)<br>
-              <strong>Project Due:</strong> Read "<%= link_to "How this course will work", "http://www.theodinproject.com/courses/ruby-on-rails/lessons/how-this-course-will-work" %>"<br>
-              <strong>Location: </strong><%= link_to "Week 1 Google Hangout", "https://plus.google.com/events/cmv65qujljba9bcqcqhp5j502p0" %><br>
-            </p>
-              <p>
-              <strong>This first meeting will be mostly a meet-and-greet, and orientation.</strong>
-              Some of us have already built some stuff with Rails, some of us don't yet know the difference 
-              between Rails and Ruby; I expect a variety of levels.  Come one, come all.
-            </p>
+          <h4>Week 1 Study Group Meeting</h4>
+          <p><strong>Date:</strong> Sunday March 9, 2014<br>
+            <strong>Time: </strong>7:30pm PST (GMT-8)<br>
+            <strong>Project Due:</strong> Read "<%= link_to "How this course will work", "http://www.theodinproject.com/courses/ruby-on-rails/lessons/how-this-course-will-work" %>"<br>
+            <strong>Location: </strong><%= link_to "Week 1 Google Hangout", "https://plus.google.com/events/cmv65qujljba9bcqcqhp5j502p0" %><br>
+          </p>
             <p>
-              This first week lets go through an exploration of our installation and
-              dev environment options, some talk around what we'd all like to get out of the course,
-              what kind of time and effort we're willing and able to put into it, and anything else folks
-              want to cover.
-            </p>
-            <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup" target="_blank">
-              Week 1 transcript & notes</a>
-              <br><a href="http://www.youtube.com/watch?v=5GcvIf-sFe4" target="_blank">
-              Week 1 Video</a>
-              </small>
-            </p>
-            <hr>
+            <strong>This first meeting will be mostly a meet-and-greet, and orientation.</strong>
+            Some of us have already built some stuff with Rails, some of us don't yet know the difference 
+            between Rails and Ruby; I expect a variety of levels.  Come one, come all.
+          </p>
+          <p>
+            This first week lets go through an exploration of our installation and
+            dev environment options, some talk around what we'd all like to get out of the course,
+            what kind of time and effort we're willing and able to put into it, and anything else folks
+            want to cover.
+          </p>
+          <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup" target="_blank">
+            Week 1 transcript & notes</a>
+            <br><a href="http://www.youtube.com/watch?v=5GcvIf-sFe4" target="_blank">
+            Week 1 Video</a>
+            </small>
+          </p>
+          <hr>
 
-            <p><strong>Stop by the <a href="https://plus.google.com/u/0/b/112041900311777032328/communities/100013596437379837846" target="_blank">
-              Team Odin Google Community</a> anytime during the week.</strong><br>
-            </p>
-                      
-          </div>     <!-- .studygroup-content -->
-          <div style="clear:both"></div>
-        </div>      <!-- #track2 -->       
-        
-      </div>        <!-- tab-content -->
-    </div>          <!-- studygroup -->
+          <p><strong>Stop by the <a href="https://plus.google.com/u/0/b/112041900311777032328/communities/100013596437379837846" target="_blank">
+            Team Odin Google Community</a> anytime during the week.</strong><br>
+          </p>
+                    
+        </div>     <!-- .studygroup-content -->
+        <div style="clear:both"></div>
+      </div>      <!-- #track2 -->     
+
+
+
+
+
+
+
+
+
+      <div class="tab-pane fade" id="track3">
+         <div class="studygroup-side pull-left" >   <!-- changed #side to .studygroup-side -->
+          <h3>Starting Your Own</h3>
+  
+          <p>
+            These study groups are pretty ad-hoc -- they are run by students.  If you'd like to start one, you're welcome to cover any material you want at any pace you want.
+          </p>
+          <p>
+            For instance, you could set up a daily Ruby study group that covers any questions people have about Ruby or you could have a weekly group that marches through the Javascript course at your own pace.
+          </p>
+
+          <h3>How it works</h3>
+
+          <p>
+            Each study group has its own tab on this /studygroups page (as you can see) and each of these tabs is maintained by the leader of that study group. 
+          </p>
+          <p>
+            So if you want to lead a study group, just fork this project and create your own tab, then submit it as a pull request to the `dev` branch of the main repo.  It's the same flow (though less intense) that we describe in the <%= link_to "Contributing section", contributing_path %>.
+          </p>
+          <p>
+            You should be able to cut and paste code from the other tabs.  This is currently just one giant HTML file.  
+          </p>
+          <p>
+            Disclaimer: This isn't the best way to do things, but we're still figuring out what we'll need to actually build in the future :)
+          </p>
+        </div>
+
+
+        <div class="studygroup-content pull-left" >
+          <h3>Leading a Study Group FAQ</h3>
+            
+          <ul>
+            <li><strong>
+              Why do people start these groups?
+            </strong></li>
+            <li>
+              So far, the biggest reason has been so the leader can motivate him/herself to go through the material.  A nice side benefit is having other people to bounce questions off of.
+            </li>
+            <li><strong>
+              What topics should I cover?
+            </strong></li>
+            <li>
+              Anything you want! You could start in the middle, at the beginning, in the projects... if it's useful material to you, then it'll probably be useful for someone else too.
+            </li>
+            <li><strong>
+              How often should we meet?
+            </strong></li>
+            <li>
+              As often as you want.  Weekly seems to be good based on the groups so far.
+            </li>
+            <li><strong>
+              How much code do I need to know?
+            </strong></li>
+            <li>
+              Not much.  As an organizer, you just need to be able to edit this HTML page to keep your group schedule current from week-to-week.  As for the material itself that you'll be covering, you could already know it and offer to help people who don't or you could be learning it yourself at the same time.
+            </li>
+            <li><strong>
+              How long do I need to lead the group?
+            </strong></li>
+            <li>
+              As long as you want, though please give your students notice if you'll be discontinuing it (and remove its tab from this page).
+            </li>
+            <li><strong>How do I set up the video hangout?</strong></li>
+            <ol>
+              <li>Join our <%= link_to "Google Group", "https://plus.google.com/u/0/communities/100013596437379837846" %>, where we keep up with the development of this whole project.</li>
+              <li>Set up a <%= link_to "Google Hangout on Air", "https://plus.google.com/hangouts/onair" %> and invite our google group ("Team Odin").  When you create the Hangout on Air, it will also create a Google Event for whenever you've scheduled the Hangout on Air</li>
+              <li>Include the link to that Event in your study group tab (see the examples on other tabs, which have a link to each week's session)</li>
+              <li>When it's time, "start" the Hangout on Air from the Event page.  It will take you to the Hangout window.  If you're in the Chrome browser (not Safari), you'll see an address bar at the top with the link to that Hangout.  Copy and paste that link into the Google Event page comments so everyone else in your group can join you.  Sometimes people may need to log out then try to follow the link (I don't know why).</li>
+              <li>When you're ready to get started, click the "Start Broadcast" button from within the Hangout to begin broadcasting.  It will save the whole thing to your YouTube account when you're done.</li>
+              <li>Cover your material, assign homework, and update your tab with the next week's links/assignments.  You can save time by scheduling events and Hangouts weeks in advance.</li>
+            </ol>
+          </ul>
+          <p><em>If you have additional questions, please reach out to us as described on the <%= link_to "Contact Page", contact_path %></em></p>
+          
+
+          <p><strong>Stop by the <a href="https://plus.google.com/u/0/b/112041900311777032328/communities/100013596437379837846" target="_blank">
+            Team Odin Google Community</a> anytime for help, support, or technical issues.  And have fun!</strong><br>
+          </p>
+                    
+        </div>     <!-- .studygroup-content -->
+        <div style="clear:both"></div>
+      </div>      <!-- #track3 -->    
+
+
+    </div>        <!-- tab-content -->
+  </div>          <!-- studygroup -->
 </div>

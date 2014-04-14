@@ -673,7 +673,11 @@
     font-weight: 400;
     line-height: 1.25em;
   }
-
+  .tab-content{
+    li{
+      margin: .5em 0;
+    }
+  }
   .rule {
     border-top: 1px solid #ccc;
     margin: 20px 0;
