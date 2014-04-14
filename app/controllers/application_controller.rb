@@ -22,20 +22,41 @@ class ApplicationController < ActionController::Base
 
   def store_location
     # store last url - this is needed for post-login redirect to whatever the user last visited.
+    # if (
+    #     request.fullpath != "/" &&
+    #     request.fullpath != "/users/sign_in" &&
+    #     request.fullpath != "/users/sign_up" &&
+    #     request.fullpath != "/users/password" &&
+    #     request.fullpath != "/users/sign_out" &&
+    #     request.fullpath != "/login" &&
+    #     request.fullpath != "/login?ref=homenav" &&
+    #     request.fullpath != "/logout" &&
+    #     request.fullpath != "/logout?ref=homenav" &&
+    #     request.request_method == "GET" &&
+    #     !request.xhr?) # don't store ajax calls
+    #   session[:previous_url] = request.fullpath
+    # end
+
+    #replace hard-coded url paths with general route paths
+    # to provide path reference flexibility
     if (
-        request.fullpath != "/" &&
-        request.fullpath != "/users/sign_in" &&
-        request.fullpath != "/users/sign_up" &&
-        request.fullpath != "/users/password" &&
-        request.fullpath != "/users/sign_out" &&
-        request.fullpath != "/login" &&
-        request.fullpath != "/login?ref=homenav" &&
-        request.fullpath != "/logout" &&
-        request.fullpath != "/logout?ref=homenav" &&
+        request.fullpath != root_path &&
+        # request.fullpath != sign_up_path &&
+        # request.fullpath != signup_path &&
+        request.fullpath != user_password_path &&
+        request.fullpath != edit_user_password_path &&
+        request.fullpath != new_user_password_path &&
+        request.fullpath != new_user_registration_path &&
+        request.fullpath != new_user_session_path &&
+        request.fullpath != user_session_path &&
+        request.fullpath != destroy_user_session_path &&
+        request.fullpath != login_path &&
+        request.fullpath != logout_path &&
         request.request_method == "GET" &&
         !request.xhr?) # don't store ajax calls
       session[:previous_url] = request.fullpath
     end
+
   end
 
   def after_sign_in_path_for(resource)

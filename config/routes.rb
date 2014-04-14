@@ -3,10 +3,12 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   devise_scope :user do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy', :method => :delete
-    get 'sign_up' => 'devise/registrations#new'
-    get 'signup' => 'devise/registrations#new'
+    # remove duplicate paths to prevent infinte redirects and other confusion
+
+    # get 'sign_up' => 'devise/registrations#new'
+    # get 'signup' => 'devise/registrations#new'
   end
-    
+
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
@@ -39,13 +41,13 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   resources :splash_emails, :only => [:create]
 
   resource :forum, :only => [:show]
-  
+
   post 'lesson_completions' => 'lesson_completions#create'
   delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => "lesson_completion"
 
   # Sitemap
   get "sitemap" => "sitemap#index", :defaults => { :format => "xml" }
-  
+
   # ***** COURSES AND LESSONS ROUTES *****
 
   get 'curriculum' => redirect('/courses')
