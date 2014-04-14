@@ -16,9 +16,8 @@ describe "Smart Redirect" do
         sign_up_user
       end
 
-      it 'should redirect to the courses page' do
-        should have_content('This is Your Path to Learning Web Development')
-      end
+      it { should have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
+
     end
     context 'From a specific lesson page' do
       before do
@@ -26,9 +25,8 @@ describe "Smart Redirect" do
         sign_up_user
       end
 
-      it 'should redirect the registered user to last viewed course page' do
-        should have_content(lesson.title)
-      end
+      it { should have_selector('div', :text => lesson.title ) }
+
     end
   end
 
