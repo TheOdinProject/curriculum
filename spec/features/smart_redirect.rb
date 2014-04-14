@@ -29,7 +29,17 @@ describe "Smart Redirect" do
 
     context 'From signup path' do
       before do
-        visit signup_path
+        visit '/signup'
+        sign_up_user
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From signup path' do
+      before do
+        visit '/sign_up'
         sign_up_user
       end
 
