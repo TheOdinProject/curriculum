@@ -7,8 +7,8 @@ describe "Smart Redirect" do
   subject { page }
 
   let!(:course){ FactoryGirl.create(:course, :is_active => true) }
-  let!(:section){ FactoryGirl.create(:section, :course_id => 1) }
-  let!(:lesson){ FactoryGirl.create(:lesson, :section_id => 1) }
+  let!(:section){ FactoryGirl.create(:section, :course_id => course.id) }
+  let!(:lesson){ FactoryGirl.create(:lesson, :section_id => section.id) }
 
   describe "Redirect back after sign up" do
     context 'From the home page' do
@@ -30,7 +30,8 @@ describe "Smart Redirect" do
     end
     context 'From a specific lesson page' do
       before do
-        visit lesson_path(course.title_url, lesson.title_url)
+        puts "\n\n\n\n\n\n\n #{lesson.inspect}! \n\n\n\n\n\n\n\n #{course.inspect}!\n\n\n\n\n\n\n\n #{section.inspect}!"
+        visit lesson_path(lesson.course.title_url, lesson.title_url)
         click_link("Login")
         click_link("Sign up")
         fill_in :user_username, :with => "User"
@@ -42,7 +43,7 @@ describe "Smart Redirect" do
       end
 
       it 'should redirect the registered user to last viewed course page' do
-        should have_content('1: test lesson1')
+        should have_content(lesson.title)
       end
     end
   end
