@@ -27,7 +27,7 @@ describe "Smart Redirect" do
 
     end
 
-    context 'From signup path' do
+    context 'From /signup path' do
       before do
         visit '/signup'
         sign_up_user
@@ -37,7 +37,7 @@ describe "Smart Redirect" do
 
     end
 
-    context 'From signup path' do
+    context 'From /sign_up path' do
       before do
         visit '/sign_up'
         sign_up_user
@@ -75,6 +75,26 @@ describe "Smart Redirect" do
       end
 
       it { should have_selector('h1', text: "This is Your Path to Learning Web Development") }
+
+    end
+
+    context 'From login_path' do
+      before do
+        visit login_path
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From new_user_session_path' do
+      before do
+        visit new_user_session_path
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
   end
