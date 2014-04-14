@@ -42,6 +42,10 @@
 /config/application.yml
 .env
 
+# Ignore application configuration
+/config/application.yml
+.env
+
 # secret token
 .secret
 config/secrets.yml
