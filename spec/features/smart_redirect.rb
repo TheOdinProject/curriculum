@@ -6,15 +6,15 @@ describe "Smart Redirect" do
     #go to the course we just created
   subject { page }
 
-  let!(:course){ FactoryGirl.create(:course, :is_active => true) }
-  let!(:section){ FactoryGirl.create(:section, :course_id => course.id) }
-  let!(:lesson){ FactoryGirl.create(:lesson, :section_id => section.id) }
+  let!(:course){ FactoryGirl.create(:course, is_active: true) }
+  let!(:section){ FactoryGirl.create(:section, course_id: course.id) }
+  let!(:lesson){ FactoryGirl.create(:lesson, section_id: section.id) }
 
   describe "Redirect back after sign up" do
     context 'From the home page' do
       before { sign_up_user }
 
-      it { should have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
     context 'From a specific lesson page' do
@@ -23,7 +23,7 @@ describe "Smart Redirect" do
         sign_up_user
       end
 
-      it { should have_selector('div', :text => lesson.title ) }
+      it { should have_selector('div', text: lesson.title ) }
 
     end
 
@@ -33,7 +33,7 @@ describe "Smart Redirect" do
         sign_up_user
       end
 
-      it { should have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
   end
@@ -47,14 +47,25 @@ describe "Smart Redirect" do
 
     let!(:new_user){ FactoryGirl.create(:user) }
 
-    before do
-      visit lesson_path(course.title_url, lesson.title_url)
-      sign_in(new_user)
+    context 'From a specific lesson page' do
+      before do
+        visit lesson_path(course.title_url, lesson.title_url)
+        sign_in(new_user)
+      end
+
+      it 'should redirect the registered user to last viewed lesson page' do
+        should have_selector('div', text: lesson.title )
+      end
     end
 
-    it 'should redirect the registered user to last viewed lesson page' do
-      should have_selector('div', :text => lesson.title )
-    end
+    context 'From the home page' do
+      before do
+        visit home_path
+        sign_in(new_user)
+      end
 
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development") }
+
+    end
   end
 end
