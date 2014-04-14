@@ -43,6 +43,7 @@ class ApplicationController < ActionController::Base
     # end
     if (
         request.fullpath != "/" &&
+        request.fullpath != home_path &&
         request.fullpath != "/signup" &&
         request.fullpath != "/sign_up" &&
         request.fullpath != "/sign_in" &&
