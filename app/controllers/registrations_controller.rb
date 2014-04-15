@@ -7,10 +7,6 @@ class RegistrationsController < Devise::RegistrationsController
     devise_parameter_sanitizer.for(:sign_up) << :username << :legal_agreement
   end
 
-  def after_sign_in_path_for(resource)
-    session[:previous_url] || courses_path
-  end
-
   def after_sign_up_path_for(resource)
     session[:previous_url] || courses_path(:ref => "signup", :newuser => "true")
   end
