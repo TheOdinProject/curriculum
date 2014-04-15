@@ -55,6 +55,7 @@ class User < ActiveRecord::Base
   # Create a completely new user from our auth package
   # Returns that user
   def self.from_omniauth(auth)
+    #puts "\n\n\n\n\n\n\n #{auth} \n\n\n\n\n\n\n\n"
     where(auth.slice(:provider, :uid)).first_or_create do |user|
       user.provider = auth['provider']
       user.uid = auth['uid']

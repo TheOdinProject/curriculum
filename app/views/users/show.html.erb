@@ -26,10 +26,9 @@
           <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium'>Edit Profile</button></a>
         <% end %>
       <% end %>
-
       <% if @user == current_user && @user.provider.nil? %>
         <%- User.omniauth_providers.each do |provider| %>
-          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Link your #{provider.to_s.titleize} account".html_safe, omniauth_authorize_path(:user, :github), class: 'btn btn-social btn-large btn-lg btn-github' %><br />
+          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Link your #{provider.to_s.titleize} account".html_safe, omniauth_authorize_path(:user, :github), id: 'github-link', class: 'btn btn-social btn-large btn-lg btn-github' %><br />
         <% end -%>
       <% end %>
       <h3>About</h3>
