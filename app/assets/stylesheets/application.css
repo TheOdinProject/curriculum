@@ -10,7 +10,6 @@
  *
  *= require_self
  *= require bootstrap_and_overrides
- *= require social-share-button
  *= require site
  *= require_tree .
  */
