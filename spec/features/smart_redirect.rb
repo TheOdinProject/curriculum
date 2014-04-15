@@ -11,12 +11,56 @@ describe "Smart Redirect" do
   let!(:lesson){ FactoryGirl.create(:lesson, section_id: section.id) }
 
   describe "Redirect back after sign up" do
-    context 'From the home page' do
-      before { sign_up_user }
+    context 'From / path' do
+      before do
+        visit '/'
+        sign_up_user
+      end
 
       it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
+
+    context 'From / path' do
+      before do
+        visit '/home'
+        sign_up_user
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From / path' do
+      before do
+        visit '/home?ref=logout'
+        sign_up_user
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From home_path' do
+      before do
+        visit home_path
+        sign_up_user
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From root_path' do
+      before do
+        visit root_path
+        sign_up_user
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
     context 'From a specific lesson page' do
       before do
         visit lesson_path(lesson.course.title_url, lesson.title_url)
@@ -57,6 +101,66 @@ describe "Smart Redirect" do
 
     let!(:new_user){ FactoryGirl.create(:user) }
 
+    context 'From the home page' do
+      before do
+        visit home_path
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development") }
+
+    end
+
+    context 'From / path' do
+      before do
+        visit '/'
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From / path' do
+      before do
+        visit '/home'
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From / path' do
+      before do
+        visit '/home?ref=logout'
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From home_path' do
+      before do
+        visit home_path
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    context 'From root_path' do
+      before do
+        visit root_path
+        sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
     context 'From a specific lesson page' do
       before do
         visit lesson_path(course.title_url, lesson.title_url)
@@ -68,15 +172,6 @@ describe "Smart Redirect" do
       end
     end
 
-    context 'From the home page' do
-      before do
-        visit home_path
-        sign_in(new_user)
-      end
-
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development") }
-
-    end
 
     context 'From login_path' do
       before do
@@ -102,6 +197,22 @@ describe "Smart Redirect" do
       before do
         visit user_session_path
         sign_in(new_user)
+      end
+
+      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
+    end
+
+    describe 'Redirect after update user information'  do
+      before do
+        sign_in(new_user)
+        visit edit_user_registration_path
+        fill_in :user_username, :with => new_user.username
+        fill_in :user_email, :with => new_user.email
+        fill_in :user_password, :with => "foobar"
+        fill_in :user_password_confirmation, :with => "foobar"
+        fill_in :user_current_password, :with => new_user.password
+        click_button "Update"
       end
 
       it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
