@@ -3,7 +3,6 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   devise_scope :user do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy', :method => :delete
-    # remove duplicate paths to prevent infinte redirects and other confusion
     get 'sign_up' => 'devise/registrations#new'
     get 'signup' => 'devise/registrations#new'
   end
