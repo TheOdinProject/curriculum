@@ -16,6 +16,6 @@ class RegistrationsController < Devise::RegistrationsController
   end
 
   def after_update_path_for(resource)
-    session[:previous_url] || courses_path
+    courses_path
   end
 end
