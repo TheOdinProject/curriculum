@@ -11,7 +11,7 @@ describe "Smart Redirect" do
   let!(:lesson){ FactoryGirl.create(:lesson, section_id: section.id) }
 
   describe "Redirect back after sign up" do
-    context 'From all path aliases of root_path' do
+    context 'to courses path from all aliases of root_path' do
       context 'From / path' do
         before do
           visit '/'
@@ -63,17 +63,19 @@ describe "Smart Redirect" do
       end
     end
 
-    context 'From a specific lesson page' do
+    context 'From a lesson page' do
       before do
         visit lesson_path(lesson.course.title_url, lesson.title_url)
         sign_up_user
       end
 
-      it { should have_selector('div', text: lesson.title ) }
+      it 'should redirect the registered user to last viewed lesson page' do
+        should have_selector('div', text: lesson.title )
+      end
 
     end
 
-    context 'From /signup path' do
+    context 'to courses path from /signup path' do
       before do
         visit '/signup'
         sign_up_user
@@ -83,7 +85,7 @@ describe "Smart Redirect" do
 
     end
 
-    context 'From /sign_up path' do
+    context 'to courses path from /sign_up path' do
       before do
         visit '/sign_up'
         sign_up_user
@@ -103,7 +105,7 @@ describe "Smart Redirect" do
 
     let!(:new_user){ FactoryGirl.create(:user) }
 
-    context 'From all path aliases of root_path' do
+    context 'to courses path from all aliases of root_path' do
       context 'From / path' do
         before do
           visit '/'
@@ -155,7 +157,7 @@ describe "Smart Redirect" do
       end
     end
 
-    context 'From a specific lesson page' do
+    context 'From a lesson page' do
       before do
         visit lesson_path(course.title_url, lesson.title_url)
         sign_in(new_user)
@@ -167,7 +169,7 @@ describe "Smart Redirect" do
     end
 
 
-    context 'From login_path' do
+    context 'to courses path from login_path' do
       before do
         visit login_path
         sign_in(new_user)
@@ -177,7 +179,7 @@ describe "Smart Redirect" do
 
     end
 
-    context 'From new_user_session_path' do
+    context 'to courses path from new_user_session_path' do
       before do
         visit new_user_session_path
         sign_in(new_user)
@@ -187,7 +189,7 @@ describe "Smart Redirect" do
 
     end
 
-    context 'From user_session_path' do
+    context 'to courses path from user_session_path' do
       before do
         visit user_session_path
         sign_in(new_user)
@@ -209,7 +211,9 @@ describe "Smart Redirect" do
         click_button "Update"
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      it 'should redirect to courses path' do
+        should have_selector('h1', text: "This is Your Path to Learning Web Development" )
+      end
 
     end
   end
