@@ -9,11 +9,6 @@ class ApplicationController < ActionController::Base
     home_path(:ref => "logout")
   end
 
-  # Customize Devise to send newly signed in users to the home page
-  # def after_sign_in_path_for(resource_or_scope)
-  #   courses_path(:ref => "login")
-  # end
-
   # redirects to error pages
   def bad_request
     #redirect_to "#{Rails.root}/public/400.html"
@@ -23,24 +18,8 @@ class ApplicationController < ActionController::Base
   def store_location
     # store last url - this is needed for post-login redirect to whatever the user last visited.
 
-    # ideas on how toreplace hard-coded url paths with general route paths
+    # ideas on how to replace hard-coded url paths with general route paths
     # to provide path reference flexibility???
-
-    # if (
-    #     request.fullpath != root_path &&
-    #     request.fullpath != user_password_path &&
-    #     request.fullpath != edit_user_password_path &&
-    #     request.fullpath != new_user_password_path &&
-    #     request.fullpath != new_user_registration_path &&
-    #     request.fullpath != new_user_session_path &&
-    #     request.fullpath != user_session_path &&
-    #     request.fullpath != destroy_user_session_path &&
-    #     request.fullpath != login_path &&
-    #     request.fullpath != logout_path &&
-    #     request.request_method == "GET" &&
-    #     !request.xhr?) # don't store ajax calls
-    #   session[:previous_url] = request.fullpath
-    # end
     if (
         request.fullpath != "/" &&
         request.fullpath != home_path &&
@@ -64,7 +43,7 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(resource)
-    session[:previous_url] || courses_path
+    session[:previous_url] || courses_path(:ref => "login")
   end
 
 

@@ -226,9 +226,6 @@ GEM
       actionpack (>= 4.0.0, < 4.1)
       activemodel (>= 4.0.0, < 4.1)
     slop (3.5.0)
-    social-share-button (0.1.6)
-      coffee-rails
-      sass-rails
     sprockets (2.10.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -300,7 +297,6 @@ DEPENDENCIES
   rspec-rails (~> 2.14.1)
   sass-rails (~> 4.0.1)
   simple_form (~> 3.0.1)
-  social-share-button
   therubyracer (~> 0.11.4)
   thin (~> 1.6.1)
   twitter-bootstrap-rails (= 2.2.6)
