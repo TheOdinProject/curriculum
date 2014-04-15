@@ -11,54 +11,56 @@ describe "Smart Redirect" do
   let!(:lesson){ FactoryGirl.create(:lesson, section_id: section.id) }
 
   describe "Redirect back after sign up" do
-    context 'From / path' do
-      before do
-        visit '/'
-        sign_up_user
+    context 'From all path aliases of root_path' do
+      context 'From / path' do
+        before do
+          visit '/'
+          sign_up_user
+        end
+
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      context 'From /home path' do
+        before do
+          visit '/home'
+          sign_up_user
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From / path' do
-      before do
-        visit '/home'
-        sign_up_user
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      context 'From /home?ref=logout path' do
+        before do
+          visit '/home?ref=logout'
+          sign_up_user
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From / path' do
-      before do
-        visit '/home?ref=logout'
-        sign_up_user
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      context 'From home_path' do
+        before do
+          visit home_path
+          sign_up_user
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From home_path' do
-      before do
-        visit home_path
-        sign_up_user
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      context 'From root_path' do
+        before do
+          visit root_path
+          sign_up_user
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From root_path' do
-      before do
-        visit root_path
-        sign_up_user
       end
-
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
-
     end
 
     context 'From a specific lesson page' do
@@ -101,64 +103,56 @@ describe "Smart Redirect" do
 
     let!(:new_user){ FactoryGirl.create(:user) }
 
-    context 'From the home page' do
-      before do
-        visit home_path
-        sign_in(new_user)
+    context 'From all path aliases of root_path' do
+      context 'From / path' do
+        before do
+          visit '/'
+          sign_in(new_user)
+        end
+
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development") }
+      context 'From /home path' do
+        before do
+          visit '/home'
+          sign_in(new_user)
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From / path' do
-      before do
-        visit '/'
-        sign_in(new_user)
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      context 'From /home?ref=logout path' do
+        before do
+          visit '/home?ref=logout'
+          sign_in(new_user)
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From / path' do
-      before do
-        visit '/home'
-        sign_in(new_user)
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      context 'From home_path' do
+        before do
+          visit home_path
+          sign_in(new_user)
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From / path' do
-      before do
-        visit '/home?ref=logout'
-        sign_in(new_user)
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      context 'From root_path' do
+        before do
+          visit root_path
+          sign_in(new_user)
+        end
 
-    end
+        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
-    context 'From home_path' do
-      before do
-        visit home_path
-        sign_in(new_user)
       end
-
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
-
-    end
-
-    context 'From root_path' do
-      before do
-        visit root_path
-        sign_in(new_user)
-      end
-
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
-
     end
 
     context 'From a specific lesson page' do
