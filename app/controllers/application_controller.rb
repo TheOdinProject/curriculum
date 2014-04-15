@@ -22,6 +22,8 @@ class ApplicationController < ActionController::Base
     # to provide path reference flexibility???
     if (
         request.fullpath != "/" &&
+        request.fullpath != "/home" &&
+        request.fullpath != "/home?ref=logout" &&
         request.fullpath != home_path &&
         request.fullpath != new_user_session_path &&
         request.fullpath != user_session_path &&
