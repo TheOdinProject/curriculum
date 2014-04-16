@@ -27,7 +27,7 @@ module ApplicationHelper
 
 
   # provides the script necessary for single-sign-on
-  # with Disqus 
+  # with Disqus
   def disqus_sso
     # create a JSON packet of our data attributes
 
@@ -39,10 +39,13 @@ module ApplicationHelper
       return nil
     end
 
+    @add_to_avatar = Digest::MD5.hexdigest(current_user.email)
     data = {
+
       id: "#{current_user.id}",
       username: "#{current_user.username}",
-      email: "#{current_user.email}"
+      email: "#{current_user.email}",
+      avatar: "http://www.gravatar.com/avatar/#{@add_to_avatar}.png"
     }.to_json
     # encode the data to base64
     message  = Base64.encode64(data).gsub("\n", "")
