@@ -112,6 +112,7 @@ jQuery!
 * [RSpec and Capybara cheat sheet from Steve Clarke](https://gist.github.com/steveclarke/2353100)
 * 
 
-### Random Final Stuff
+### Common Issues That Will Frustrate You
 
-* `Let` has a different scope than `before` (see the cookies, where let could override cookies but before couldn't)
+* Should you use `let` or declare an instance variable inside a `before` blocks when you want to use a variable across your tests?  Use `let` (or `let!` to avoid lazy loading)!  Instance variables inside `before` blocks can be annoyingly inconsistent so save yourself the trouble.
+* Get familiar with Rails' `reload` command, which lets you reload a model instance from the database.  Let's say you've set the `user` variable inside a `let` (e.g. `let(:user) { User.create(:name => "test_user")}`) and are testing whether your model method actually updated the user properly.  Sometimes you'll need to make sure to `reload` the model instance before testing it! e.g. use `expect(user1.reload.name).to eq("exampleuser")` otherwise `user1` won't reflect the changes you made to it in the database.
