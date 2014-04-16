@@ -7,7 +7,7 @@ describe "Authentication" do
 
   describe "User authentication flow" do
 
-    let(:user) { FactoryGirl.create(:user) }  
+    let(:user) { FactoryGirl.create(:user) }
 
     context "from the splash page" do
 
@@ -26,7 +26,7 @@ describe "Authentication" do
     end
 
     context "from the home page" do
-    
+
       before { visit home_path }
 
       describe "should start on the home page" do
