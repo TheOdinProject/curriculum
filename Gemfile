@@ -17,8 +17,7 @@ gem 'pg', '~> 0.17.1'
 gem 'premailer-rails'
 gem 'omniauth-github' #for Github Authentication
 gem "font-awesome-rails"
-#gem 'activerecord-session_store', github: 'rails/activerecord-session_store' #for cookie generation if you log in
-gem 'pry'
+gem 'disqus' #for the forum sections of the website
 
 
 # Bundle edge Rails instead:
@@ -38,6 +37,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'pry'
   gem 'better_errors', '~> 1.1.0' # gives much better error messages for debug
   gem 'quiet_assets', '~> 1.0.2'  # shortens up the server log output
   gem 'binding_of_caller', '~> 0.7.2' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen

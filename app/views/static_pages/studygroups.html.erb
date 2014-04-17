@@ -1,0 +1,59 @@
+<div class="StaticPagesController">
+  <div id="studygroup">
+    <h1 class="text-center">Web Development Study Groups</h1>
+    <h2 class="text-center">Spring 2014 Sessions</h2>
+    
+    <ul id="studygroup-tabs" class="nav nav-tabs">
+      <li class="active">
+        <a href="#track1" data-toggle="tab">
+          Web Dev 101 (Track A)
+        </a>
+      </li>
+      <li>
+        <a href="#track3" data-toggle="tab">
+          Web Dev 101 (Track B)
+        </a>
+      </li>
+      <li>
+        <a href="#track2" data-toggle="tab">
+          Ruby on Rails Track
+        </a>
+      </li>
+      <li>
+        <a href="#track4" data-toggle="tab">
+          Start Your own!
+        </a>
+      </li>
+    </ul>
+    
+    <div class="tab-content">
+
+      <!-- Josh's web dev 101 track spring 2014 -->
+      <div class="tab-pane fade active in" id="track1">
+      <!-- app/views/static_pages/_sg_wd101_a.html.erb -->
+        <%= render "sg_wd101_a" %>
+      </div>
+      
+
+      <!-- Afshin's Rails track spring 2014 -->
+      <div class="tab-pane fade" id="track2">
+        <!-- app/views/static_pages/_sg_rails.html.erb -->
+        <%= render "sg_rails" %>
+      </div>
+
+
+      <!-- Tatiana's web dev 101 track starting 4/20/14 -->
+      <div class="tab-pane fade" id="track3">
+      <!-- app/views/static_pages/_sg_wd101_a.html.erb -->
+        <%= render "sg_wd101_b" %>
+      </div> 
+
+
+      <!-- Starting your own study group -->
+      <div class="tab-pane fade" id="track4">
+        <%= render "sg_starting_one" %>
+      </div>    
+
+    </div>        <!-- tab-content -->
+  </div>          <!-- studygroup -->
+</div>

@@ -1,29 +1,11 @@
-<% if user_signed_in? %>
-  <div id="moot-forum-notification">
-  Welcome to the community forum! This is the best place to get help fast for any questions, suggestions, or comments you have.
-  <% else %>
-  <div id="moot-forum-reminder">
-    Welcome to the community forum! Please <%= link_to "sign in",login_path %> to post or reply.
-  <% end %>
+<div id="forum">
+  <div class="forum-titlebar">
+    <h1>
+      Welcome to the Forum
+    </h1>
+    <p>
+      Use this area for any general or project-related questions and suggestions.  For questions or suggestions about specific lessons, see the comments section at the bottom of that lesson.
+    </p>
+  </div>
+  <%= render 'shared/disqus_forum' %>
 </div>
-
-<div id="moot-forum">
-  <!-- <h1>ENV["test_var"] = <%= ENV["test_var"] %></h1> -->
-
-  <!-- (2) Placeholder for the forum. The forum will be rendered inside this element -->
-<!--   <a class="moot" id="moot-forum" href="https://moot.it/i/theodinproject">theodinproject forums</a> -->
-
-</div>
-
-<script>
-$("#moot-forum").moot({
-  url: "https://moot.it/i/theodinproject",
-  title: "The Odin Project",
-  sso: {
-    key: "<%= @moot_hash[:api_key] %>",
-    signature: "<%= @moot_hash[:signature] %>",
-    message: "<%= @moot_hash[:message] %>",
-    timestamp: "<%= @moot_hash[:timestamp] %>"
-    }
-})
-</script>

@@ -37,7 +37,7 @@ class UsersController < ApplicationController
     # @users = User.where.not(:last_sign_in_at => nil).order("last_sign_in_at desc").paginate(:page => params[:page], :per_page => 15)
     @users = User.by_latest_completion.paginate(:page => params[:page], :per_page => 15)
   end
-  
+
   protected
 
   def check_current_user
