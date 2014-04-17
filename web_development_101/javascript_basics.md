@@ -46,7 +46,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Angel Vargas's Euler solutions](https://github.com/arioth/the-odin-project/tree/master/euler-problems) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/arioth/the-odin-project/blob/master/euler-problems/index.html).
 * [Abrar Hussain's Euler Solutions](https://github.com/abrarisme/The-Odin-Project/blob/master/project-euler/solutions.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/abrarisme/The-Odin-Project/blob/master/project-euler/solutions.html).
 * [Sahil Agarwal's Euler Solutions](https://github.com/sahilda/ProjectEuler)
-
+* [Chris Everett's Euler Solutions](https://github.com/Ceverett6/ProjectEuler)
+* [Joe Barratt's Euler Solutions](https://github.com/Evilbazza/javascript_euler)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

@@ -32,6 +32,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Sergey Prihodko's [Test first Ruby Solutions](https://github.com/sprihodko/odin-projects/tree/master/test-first-ruby)
 * Jamie's [Test First Ruby Solutions](https://github.com/Jberczel/odin-projects/tree/master/learn_ruby)
 * Angel Vargas' [Test First Ruby Solutions](https://github.com/arioth/the-odin-project/tree/master/learn_ruby)
+* Lamberto Diwa's [Test First Ruby Solutions](https://github.com/LambertoD/test_first_ruby)
 * *Your solution here...*
 
 ## Additional Resources
