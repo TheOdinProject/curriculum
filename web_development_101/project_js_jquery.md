@@ -50,4 +50,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Abrar Hussain's solution here: [source code](https://github.com/abrarisme/The-Odin-Project/tree/master/grid) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/abrarisme/The-Odin-Project/blob/master/grid/index.html)
 * See Sahil Agarwal's solution here: [source code](https://github.com/sahilda/sketchpad) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/sahilda/sketchpad/blob/master/index.html)
 * See Trevor Mahoney's solution here: [source code](https://github.com/ohturbo/Etch-a-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/ohturbo/Etch-a-Sketch/blob/master/index.html#)
+* See Chris Oldakowski's solution here: [source code](https://github.com/KrzysiekO/theodinproject/tree/master/etch-a-sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/KrzysiekO/theodinproject/blob/master/etch-a-sketch/index.html)
 * *Your solution here...*
