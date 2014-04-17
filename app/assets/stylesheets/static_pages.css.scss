@@ -582,6 +582,13 @@
 		.git-link:hover{
 			opacity:0.6;
 		}
+		.shit-link{
+			float:left;
+			margin-left:-44px;
+			margin-top:16px;
+			opacity:0.4;
+			image-size:10px;
+		}
 		.name-bg{
 			height: 36px;
 			margin:20px -60px 4px 76px;
@@ -590,7 +597,7 @@
 			h3 {
 			color:white;
 			margin-top:-4px;
-			margin-left:25px;
+			margin-left:50px;
 			}
 		}
 		.bio{
@@ -605,11 +612,26 @@
 		}
 
 		.img {
+			transition: 0.25s;
+			transition-delay:0.06s;
 			border:2px solid black;
 			box-shadow: 5px 5px 5px #B28F6B;
 			height:160px;
 			width:160px;
 			margin-left: -70px;
+			margin-top: -55px;
+			position:absolute;
+		}
+		.img:hover{
+			z-index: 100;
+			transition: 0.25s;
+			transition-delay:0.04s;
+			border:2px solid black;
+			box-shadow: 10px 10px 10px #B28F6B;
+			height:280px;
+			width:280px;
+			border-radius: 4px;
+			margin-left: -190px;
 			margin-top: -55px;
 			position:absolute;
 		}
