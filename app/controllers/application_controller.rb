@@ -18,6 +18,9 @@ class ApplicationController < ActionController::Base
   def store_location
     # store last url - this is needed for post-login redirect to whatever the user last visited.
 
+    uri = URI::parse(request.fullpath)
+    request_path = uri.path
+
     blacklisted_paths = [
         root_path,
         home_path,
@@ -38,14 +41,14 @@ class ApplicationController < ActionController::Base
     # of paths which might cause infinite redirects
     # Note that these only include GET paths because
     # of the logic below
-    request_not_blacklisted = !blacklisted_paths.include?(request.fullpath)
+    request_not_blacklisted = !blacklisted_paths.include?(request_path)
 
     # make sure we exclude any callbacks from logins
     # e.g. the Github login
     # because it would otherwise cause a redirect
     # which runs the callback twice and blows up
     # because omniauth thinks it's an CSRF attack
-    request_not_auth_related = !(/^\/users\/auth/.match(request.fullpath))
+    request_not_auth_related = !(/^\/users\/auth/.match(request_path))
 
     # let the ajax calls go in peace without saving the previous url
     request_not_ajax = !request.xhr?

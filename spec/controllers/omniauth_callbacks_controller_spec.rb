@@ -27,6 +27,9 @@ describe OmniauthCallbacksController, "github callback" do
 
     context 'After signing up with Github' do
       before(:each) do
+        # This little guy will prompt an infinite redirect
+        # If the code isn't set up to handle query strings
+        visit login_path(:ref=>"homenav") 
         sign_up_with_github
       end
 
