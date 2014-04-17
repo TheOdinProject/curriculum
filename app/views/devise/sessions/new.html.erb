@@ -1,4 +1,4 @@
-<div id="devise-form">
+<div id="devise-form" class="devise-sign-in">
 
   <h2>Sign in</h2>
 
@@ -12,7 +12,7 @@
 
     <%= f.input :remember_me, :as => :boolean, :label => false, :inline_label => true if devise_mapping.rememberable? %>
 
-    <%= f.button :submit, "Sign in", :class => "btn-primary btn-large pull-right" %>
+    <%= f.button :submit, "Sign in", :class => "btn-primary btn-large pull-right btn-sign-in" %>
   <% end %>
 
   <%= render "devise/shared/links" %>

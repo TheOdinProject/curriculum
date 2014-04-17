@@ -1,4 +1,4 @@
-<div id="devise-form">
+<div id="devise-form" class="devise-sign-up">
 
 <!-- 
 
@@ -10,7 +10,7 @@
 
   <!-- are we in an auth provider flow? -->
   <% auth_flow = !!@user.provider %>
-  <% possible_duplicate_account = auth_flow && @user.errors.has_key?(:username) || @user.errors.has_key?(:email) %>
+  <% possible_duplicate_account = auth_flow && (@user.errors.has_key?(:username) || @user.errors.has_key?(:email)) %>
 
   <% if auth_flow %>
     <h2>Step 2: Verify Information</h2>
@@ -67,7 +67,7 @@
 
     </div>
 
-    <%= f.button :submit, "Sign up", :class => "btn-primary btn-large pull-right", :onClick => "_gaq.push(['_trackEvent', 'signup_buttons', 'sign_up', 'main_signup_button']);" %>
+    <%= f.button :submit, "Sign up", :class => "btn-primary btn-large pull-right #{auth_flow ? 'btn-sign-up-auth-flow' : 'btn-sign-up'}" %>
 
   <% end %>
 

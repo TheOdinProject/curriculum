@@ -1,6 +1,7 @@
 // NOTE: These won't get fired off unless they're in the
 // production environment -- see app/views/shared/_ga.html.erb
 // for the code doing that.  
+// format: ('_trackEvent', category, action, label, value)
 $(function(){
 
   // Fire a custom analytics event whenever any link is clicked
@@ -51,6 +52,34 @@ $(function(){
   $(".lc-end-wrapper").on("click", ".checkbox-container.lc-checked", function(e){
     _gaq.push(['_trackEvent','lesson_completion','click_not_linked_checkbox','lesson_page',1]);
   });
+
+
+  // Fire an event whenever someone tries to sign in the standard way
+  $(".devise-sign-in").on("click","input.btn-sign-in", function(e){
+    _gaq.push(['_trackEvent','signin_buttons','click_normal_signin_button','signin_button',1]);
+  })
+
+
+  // Fire an event whenever someone tries to sign in with Github by clicking that Github button
+  $(".devise-sign-in").on("click",".btn-github", function(e){
+    _gaq.push(['_trackEvent','signin_buttons','click_github_signin_button','github_signin_button',1]);
+  })
+
+
+  // Fire an event whenever someone tries to sign UP with Github by clicking that Github button
+  $(".devise-sign-up").on("click",".btn-github", function(e){
+    _gaq.push(['_trackEvent','signup_buttons','click_github_signup button','github_signup_button',1]);
+  })
+
+  // Fire an event whenever someone clicks the sign up button from step 2 of the github flow (to attempt to actually finish the signup)
+  $(".devise-sign-up").on("click","input.btn-sign-up-auth-flow", function(e){
+    _gaq.push(['_trackEvent','signup_buttons','click_finish_github_signup_button','finish_github_signup_button',1]);
+  })
+
+  // Fire an event whenever someone clicks the normal sign up button (e.g. not step 2 of the github flow)
+  $(".devise-sign-up").on("click","input.btn-sign-up", function(e){
+    _gaq.push(['_trackEvent','signup_buttons','sign_up','main_signup_button',1]);
+  })
 
 });
 
