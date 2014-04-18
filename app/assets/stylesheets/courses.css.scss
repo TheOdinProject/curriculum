@@ -109,6 +109,13 @@
         }
       }
 
+      .cc-completion-indicator{
+        position: absolute;
+        color: #0b0;
+        font-size: 3em;
+        margin: 0 0 1em -1.25em;
+      }
+
       .teaser{
         display: inline-block;
         float: left;
