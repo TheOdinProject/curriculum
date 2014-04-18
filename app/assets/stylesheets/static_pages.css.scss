@@ -590,6 +590,7 @@
 			image-size:10px;
 		}
 		.name-bg{
+			z-index:10000;
 			height: 36px;
 			margin:20px -60px 4px 76px;
 			border-radius:12px;
@@ -612,6 +613,7 @@
 		}
 
 		.img {
+			z-index: 100;
 			transition: 0.25s;
 			transition-delay:0.06s;
 			border:2px solid black;
@@ -632,8 +634,6 @@
 			width:280px;
 			border-radius: 4px;
 			margin-left: -190px;
-			margin-top: -55px;
-			position:absolute;
 		}
   }
 }
