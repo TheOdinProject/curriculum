@@ -2,16 +2,16 @@ class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :token_authenticatable, :confirmable,
   # :lockable, :timeoutable and :omniauthable
-  devise :database_authenticatable, :registerable,
+  devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable
 
   # Make sure we get the preference built after the user saves
   after_create :build_preferences, :send_welcome_email
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus, :legal_agreement
+  attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus, :legal_agreement, :provider, :uid
 
-  validates_uniqueness_of :email, :username
+  validates_uniqueness_of :username,:email
   validates_presence_of :legal_agreement, :message => "Don't forget the legal stuff!", :on => :create
   validates :username, :length => { :in => 4..20 }
 
@@ -49,6 +49,55 @@ class User < ActiveRecord::Base
   def latest_lesson_completion
     self.lesson_completions.order(:created_at => :desc).first
   end
+
+  include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
+
+  # Create a completely new user from our auth package
+  # Returns that user
+  def self.from_omniauth(auth)
+    #puts "\n\n\n\n\n\n\n #{auth} \n\n\n\n\n\n\n\n"
+    where(auth.slice(:provider, :uid)).first_or_create do |user|
+      user.provider = auth['provider']
+      user.uid = auth['uid']
+      user.username = auth['info']['nickname']
+      user.email = auth['info']['email']
+    end
+  end
+
+  # Assumes an existing user does not have omniauth
+  # Adds auth, saves, and returns the user
+  def add_omniauth(auth)
+    self.provider ||= auth['provider']
+    self.uid ||= auth['uid']
+    self.save
+    self
+  end
+
+  def self.new_with_session(params, session)
+    if session["devise.user_attributes"]
+      new(session["devise.user_attributes"], without_protection: true) do |user|
+        user.attributes = params
+        user.valid?
+      end
+    else
+      super
+    end
+  end
+
+  def password_required?
+    super && provider.blank?
+  end
+
+  def update_with_password(params, *options)
+    if encrypted_password.blank?
+      update_attributes(params, *options)
+    else
+      super
+    end
+  end
+
+
+
 
   protected
 

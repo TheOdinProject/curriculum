@@ -136,7 +136,7 @@
   .project-link{
     color: #f60;
   }
-    
+
   .action-box{
     text-align: center;
     border-top: 1px solid $light_gray;
@@ -200,7 +200,7 @@
     }
     .contribution-links {
       cursor: pointer;
-      position: relative; 
+      position: relative;
       .octocat {
         opacity: .2;
         &:hover{
@@ -261,7 +261,7 @@
       font-size: 1.25em;
       font-style: italic;
     }
-  
+
     /* Note: that this can be either a div or an anchor tag */
     .checkbox-container {
       display: block;
@@ -270,9 +270,9 @@
       margin: 15px auto 30px auto;
       padding: 15px;
       text-align: left;
-      max-width: 350px; 
+      max-width: 350px;
       background-size: 86px 86px !important;
-      
+
       h3 {
         padding: 0;
         margin: 5px 0 10px 115px!important;
@@ -292,7 +292,7 @@
     @mixin lc-checkbox-bg-large($path){
       background: image-url($path) 25px 20px no-repeat;
     }
-    
+
     .lc-unchecked{
       @include lc-checkbox-bg-large("icons/lc_unchecked.svg");
     }
@@ -528,7 +528,7 @@
     width: 100%;
     z-index: -100;
     height: 0px;
-    border-bottom: 2px dotted $vlight_gray; 
+    border-bottom: 2px dotted $vlight_gray;
   }
   .lc-left-line{
     position: absolute;
@@ -552,9 +552,9 @@
   }
 }
 
-// The progress bar is too mashed together for 
+// The progress bar is too mashed together for
 // narrow screen sizes on long courses
-@media (max-width: 700px) { 
+@media (max-width: 700px) {
   #lc-progress-bar{
     display: none;
   }
@@ -579,7 +579,7 @@
     opacity: .5;
   }
 }
-@media (max-width: 979px) { 
+@media (max-width: 979px) {
   #lesson-nav{
     position: absolute;
     z-index: -100;
@@ -596,4 +596,4 @@
 }
 
 
- 
+
