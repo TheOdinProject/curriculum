@@ -94,6 +94,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Chris Oldakowski's solution here](https://github.com/KrzysiekO/theodinproject/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/KrzysiekO/theodinproject/blob/master/google-homepage/index.html).
 * See [Paul Casey's solution here](https://github.com/jpcasey/theodinproject/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jpcasey/theodinproject/blob/master/google-homepage/index.html).
 * See [Ingi Kim's solution here](https://github.com/ingikim/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ingikim/google-homepage/blob/master/index.html).
+* See [Ruben Mendez's solution here](https://github.com/ruben-socal/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ruben-socal/google-homepage/blob/master/index.html).
 
 
 ## Additional Resources
