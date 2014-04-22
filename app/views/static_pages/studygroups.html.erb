@@ -4,23 +4,28 @@
     <h2 class="text-center">Spring 2014 Sessions</h2>
     
     <ul id="studygroup-tabs" class="nav nav-tabs">
-      <li class="active"> 
+      <li class="active">
+        <a href="#track1" data-toggle="tab">
+          Web Dev 101 (Track A)
+        </a>
+      </li>
+      <li>
         <a href="#track3" data-toggle="tab">
-          Web Dev 101
+          Web Dev 101 (Track B)
         </a>
       </li>
       <li>
         <a href="#track2" data-toggle="tab">
-          Ruby on Rails
-        </a>
-      </li>
-      <li>
-        <a href="#track1" data-toggle="tab">
-          Web Dev 101 (Ended)
+          Ruby on Rails Track
         </a>
       </li>
       <li>
         <a href="#track4" data-toggle="tab">
+          Ruby Track
+        </a>
+      </li>
+      <li>
+        <a href="#track5" data-toggle="tab">
           Start Your own!
         </a>
       </li>
@@ -28,12 +33,11 @@
     
     <div class="tab-content">
 
-
-      <!-- Tatiana's web dev 101 track starting 4/20/14 -->
-      <div class="tab-pane fade active in" id="track3">
+      <!-- Josh's web dev 101 track spring 2014 -->
+      <div class="tab-pane fade active in" id="track1">
       <!-- app/views/static_pages/_sg_wd101_a.html.erb -->
-        <%= render "sg_wd101_b" %>
-      </div> 
+        <%= render "sg_wd101_a" %>
+      </div>
       
 
       <!-- Afshin's Rails track spring 2014 -->
@@ -43,15 +47,21 @@
       </div>
 
 
-      <!-- Josh's web dev 101 track spring 2014 -->
-      <div class="tab-pane fade" id="track1">
+      <!-- Tatiana's web dev 101 track starting 4/20/14 -->
+      <div class="tab-pane fade" id="track3">
       <!-- app/views/static_pages/_sg_wd101_a.html.erb -->
-        <%= render "sg_wd101_a" %>
-      </div>
+        <%= render "sg_wd101_b" %>
+      </div> 
+
+      <!-- Brian's ruby track starting 4/28/14 -->
+      <div class="tab-pane fade" id="track4">
+      <!-- app/views/static_pages/_sg_ruby.html.erb -->
+        <%= render "sg_ruby" %>
+      </div> 
 
 
       <!-- Starting your own study group -->
-      <div class="tab-pane fade" id="track4">
+      <div class="tab-pane fade" id="track5">
         <!-- app/views/static_pages/_sg_starting_one.html.erb -->
         <%= render "sg_starting_one" %>
       </div>    
