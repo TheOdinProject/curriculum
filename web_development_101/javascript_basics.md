@@ -48,6 +48,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Sahil Agarwal's Euler Solutions](https://github.com/sahilda/ProjectEuler)
 * [Chris Everett's Euler Solutions](https://github.com/Ceverett6/ProjectEuler)
 * [Joe Barratt's Euler Solutions](https://github.com/Evilbazza/javascript_euler)
+* [Ruben Mendez's Euler Solutions](https://github.com/ruben-socal/Euler-Project)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
