@@ -82,19 +82,24 @@ describe "StaticPages" do
       end
     end
     
-    context "it should have a hall of fame" do
+    context "should have a hall of fame" do
       
-      it "should have title Hall of Fame" do
+      it "with title Hall of Fame" do
         expect(page).to have_selector("h2", text: "HALL OF FAME")
       end
       
-      it "should have an image for Erik" do
+      it "with an image for Erik" do
         expect(page).to have_css("img[src$='hof/erik.jpg']")
       end
       
-      it "should have github link for Erik" do
+      it "with a github link for Erik" do
         expect(page).to have_css("a[href~='http://github.com/eriktrautman']")
       end
+      
+      it "with a blog link for Erik" do
+        expect(page).to have_css("a[href~='http://www.eriktrautman.com/blog']")
+      end
+        
     end
   end
 

@@ -572,23 +572,31 @@
     font-size:.7em;
     font-weight:300;
     border-radius:10px;
-		.git-link{
+		.hof-links{
 			float:left;
-			margin-left:-24px;
-			margin-top:36px;
-			opacity:0.4;
-			image-size:10px;
+			font: arial;
+			font-weight:600;
+			font-family:Tahoma;
+			font-size:1.4em;
+			letter-spacing:-0.8px;
+			a{
+				text-decoration:none;
+				color:black;
+				opacity:0.4;
+			}
+			a:hover{
+				opacity:0.6;
+			}	
+			.blog{
+				margin-left:-24px;
+				margin-top:-45px;				
+			}
+			.github{
+				margin-left:-24px;
+				margin-top:5px;		
+			}
 		}
-		.git-link:hover{
-			opacity:0.6;
-		}
-		.shit-link{
-			float:left;
-			margin-left:-44px;
-			margin-top:16px;
-			opacity:0.4;
-			image-size:10px;
-		}
+
 		.name-bg{
 			z-index:10000;
 			height: 36px;
