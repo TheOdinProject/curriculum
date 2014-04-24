@@ -1,5 +1,4 @@
 <div id="profile-page" class="container">
-
   <% if @edit %>
     <form accept-charset="UTF-8" id="edit-user" method="post" action="/users/<%= @user.id %>">
       <input name="_method" type="hidden" value="put">
@@ -27,7 +26,11 @@
           <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium'>Edit Profile</button></a>
         <% end %>
       <% end %>
-
+      <% if @user == current_user && @user.provider.nil? %>
+        <%- User.omniauth_providers.each do |provider| %>
+          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Link your #{provider.to_s.titleize} account".html_safe, omniauth_authorize_path(:user, :github), id: 'github-link', class: 'btn btn-social btn-large btn-lg btn-github' %><br />
+        <% end -%>
+      <% end %>
       <h3>About</h3>
       <div class="profile-about">
         <% if @edit %>
@@ -91,7 +94,7 @@
       </div>
     </div>
 
-    <% if @edit %>   
+    <% if @edit %>
       </form>
     <% end %>
 

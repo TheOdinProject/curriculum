@@ -18,31 +18,52 @@ class ApplicationController < ActionController::Base
   def store_location
     # store last url - this is needed for post-login redirect to whatever the user last visited.
 
-    # ideas on how to replace hard-coded url paths with general route paths
-    # to provide path reference flexibility???
-    if (
-        request.fullpath != "/" &&
-        request.fullpath != "/home" &&
-        request.fullpath != "/home?ref=logout" &&
-        request.fullpath != home_path &&
-        request.fullpath != new_user_session_path &&
-        request.fullpath != user_session_path &&
-        request.fullpath != "/signup" &&
-        request.fullpath != "/sign_up" &&
-        request.fullpath != "/sign_in" &&
-        request.fullpath != "/users/signup" &&
-        request.fullpath != "/users/sign_up" &&
-        request.fullpath != "/users/password" &&
-        request.fullpath != "/users/sign_out" &&
-        request.fullpath != "/login" &&
-        request.fullpath != "/login?ref=homenav" &&
-        request.fullpath != "/logout" &&
-        request.fullpath != "/logout?ref=homenav" &&
-        request.request_method == "GET" &&
-        !request.xhr?) # don't store ajax calls
+    uri = URI::parse(request.fullpath)
+    request_path = uri.path
+
+    blacklisted_paths = [
+        root_path,
+        home_path,
+        home_path,
+        new_user_session_path,
+        signup_path,
+        sign_up_path,
+        new_user_registration_path,
+        edit_user_registration_path,
+        cancel_user_registration_path,
+        new_user_password_path,
+        edit_user_password_path,
+        login_path,
+        logout_path,
+    ]
+
+    # make sure the request isn't on our danger list
+    # of paths which might cause infinite redirects
+    # Note that these only include GET paths because
+    # of the logic below
+    request_not_blacklisted = !blacklisted_paths.include?(request_path)
+
+    # make sure we exclude any callbacks from logins
+    # e.g. the Github login
+    # because it would otherwise cause a redirect
+    # which runs the callback twice and blows up
+    # because omniauth thinks it's an CSRF attack
+    request_not_auth_related = !(/^\/users\/auth/.match(request_path))
+
+    # let the ajax calls go in peace without saving the previous url
+    request_not_ajax = !request.xhr?
+
+    # don't worry about any post methods etc.
+    request_get_request = request.request_method == "GET"
+
+    if (    request_not_blacklisted &&
+            request_not_auth_related &&
+            request_get_request &&
+            request_not_ajax )
       session[:previous_url] = request.fullpath
     end
   end
+
 
   def after_sign_in_path_for(resource)
     session[:previous_url] || courses_path(:ref => "login")

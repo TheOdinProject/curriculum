@@ -15,6 +15,8 @@ gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 gem 'protected_attributes', '~> 1.0.5'
 gem 'pg', '~> 0.17.1'
 gem 'premailer-rails'
+gem 'omniauth-github' #for Github Authentication
+gem "font-awesome-rails"
 gem 'disqus' #for the forum sections of the website
 
 

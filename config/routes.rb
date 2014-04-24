@@ -1,12 +1,12 @@
 Theodinproject::Application.routes.draw do
-devise_for :users, :controllers => { :registrations => "registrations" }
+devise_for :users, :controllers => { :registrations => "registrations", :omniauth_callbacks => "omniauth_callbacks" }
   devise_scope :user do
     get '/login' => 'devise/sessions#new'
     get '/logout' => 'devise/sessions#destroy', :method => :delete
     get 'sign_up' => 'devise/registrations#new'
     get 'signup' => 'devise/registrations#new'
-  end
 
+  end
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
@@ -25,6 +25,8 @@ devise_for :users, :controllers => { :registrations => "registrations" }
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
   get 'studygroups' => "static_pages#studygroups"
 
+  #failure route if github information returns invalid
+  get '/auth/failure' => 'omniauth_callbacks#failure'
 
 
   resources :cal_events

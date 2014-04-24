@@ -1,6 +1,6 @@
     <div class="navbar navbar-fixed-top" id="top-navbar">
 
-      
+
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
@@ -26,7 +26,7 @@
                     <li><%= link_to "Logout", logout_path  %></li>
                   </ul>
               <% else %>
-                <li><%= link_to "Login", login_path, :class=>"top-link", :id=>"login-link" %></li>
+                <li data-no-turbolinks><%= link_to "Login", login_path, :class=>"top-link", :id=>"login-link" %></li>
               <% end %>
             </ul>
           </div><!--/.nav-collapse -->

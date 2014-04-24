@@ -53,6 +53,39 @@ describe "Courses and Lessons Pages" do
         subject.should_not have_selector("h2", :text => "#{course.title} ...Coming Soon!")
       end
     end
+
+    context "user has completed all lessons in a course" do
+      let!(:student) { FactoryGirl.create(:user) }
+
+      before do
+        sign_in(student)
+      end
+
+      it "shows green checkmark by completed course" do
+        # Mark all lessons in the first course as complete
+        Course.first.lessons.each do |l|
+          LessonCompletion.create(:lesson_id => l.id, :student_id => student.id)
+        end
+        # Check courses index to ensure course has a green check mark by it 
+        within(:link_to, lessons_path(Course.first.title_url), text: "#{Course.first.title}") do
+          subject.should have_selector("h3", text: "✔")
+        end
+      end
+
+      it "does not show green checkmark by incomplete courses", js: true do
+        # Visit course page and ensure that there is at least one incomplete lesson
+        visit lessons_path(Course.first.title_url)
+        if page.has_selector?("a.lc-checkbox lc-checked")
+          click_on("a.lc-checkbox lc-checked", match: :first)
+        end
+        # Return to courses index page; course should not have green check mark
+        visit courses_path
+        within(:link_to, lessons_path(Course.first.title_url), text: "#{Course.first.title}") do
+          subject.should_not have_selector("h3", text: "✔")
+        end
+      end
+    end
+
   end
 
   context "on the lessons index page" do
