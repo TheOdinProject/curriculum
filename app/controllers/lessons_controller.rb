@@ -35,6 +35,9 @@ class LessonsController < ApplicationController
     @num_projects = @lesson.section.lessons.where(:is_project => true).count
     # the position of the lesson not including projects
     @lesson_position_in_section = @lesson.section.lessons.where("is_project = ? AND position <= ?", false, @lesson.position).count
+    if Ad.show_ve_banner?(current_user)
+      @lower_banner_ad = Ad.ve_banner
+    end
   end
 
 end
