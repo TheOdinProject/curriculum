@@ -81,5 +81,11 @@ $(function(){
     _gaq.push(['_trackEvent','signup_buttons','sign_up','main_signup_button',1]);
   })
 
+  // Fire an event whenever an ad is clicked
+  $(".ad").on("click","a", function(e){
+    adId = $(e.target).parents(".ad").data("ad-id");
+    _gaq.push(['_trackEvent','ad','click',adId,1])
+  });
+
 });
 
