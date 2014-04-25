@@ -10,6 +10,7 @@ class Ad < ActiveRecord::Base
     true
   end
 
+  # Samples a random ve ad
   def self.ve_banner
     Ad.where(:style => "banner", :client => "ve", :category => "b2c_ab").sample
   end

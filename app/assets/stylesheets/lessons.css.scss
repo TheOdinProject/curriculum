@@ -560,6 +560,22 @@
   }
 }
 
+#ad-lower-banner{
+  height: 60px;
+  width: 467px;
+  border: 1px solid #eee;
+  margin: 30px auto;
+  img{
+
+  }
+}
+@media(max-width: 500px){
+  #ad-lower-banner{
+    display: none;
+  }
+}
+
+
 #lesson-nav{
   height: 1.75em;
   width: 100%;
