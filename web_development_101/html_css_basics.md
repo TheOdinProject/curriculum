@@ -44,3 +44,5 @@ As you've hopefully [learned before](http://skillcrush.com/2012/06/24/html-2/), 
 * If you're rearing to get more in-depth, check out [TutsPlus' free 30 Days To Learn HTML and CSS Course](http://freecourses.tutsplus.com/30-days-to-learn-html-and-css/)
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
 * [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.
+* [OverAPI's HTML Cheat Sheet](http://overapi.com/html/)
+* [OverAPI's CSS Cheat Sheet](http://overapi.com/css/)

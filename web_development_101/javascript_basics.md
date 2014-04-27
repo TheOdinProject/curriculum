@@ -58,3 +58,4 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * Reading: The first several sections of the [Javascript 101 tutorial on learn.jquery.com](http://learn.jquery.com/javascript-101/).
 * Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
 * [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.
+* [OverAPI's Javascript cheat sheet](http://overapi.com/javascript/)
