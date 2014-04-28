@@ -54,3 +54,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Joe Barratt's solution here: [source code](https://github.com/Evilbazza/sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Evilbazza/sketch_pad/blob/master/index.html)
 * See Jack Doyle's solution here: [source code] (https://github.com/jack-doyle/etch-a-sketch) or [view it in the browser] (http://htmlpreview.github.io/?https://github.com/jack-doyle/etch-a-sketch/blob/master/index.html)
 * *Your solution here...*
+* See Arman Ghassemi's solution here: [source code](https://github.com/ArmanG/Etch-A-Sketchpad) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/ArmanG/Etch-A-Sketchpad/blob/master/index.html).
