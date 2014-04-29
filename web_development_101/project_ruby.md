@@ -36,7 +36,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Sahil Agarwal's [Test First Ruby Solutions](https://github.com/sahilda/testfirst_ruby)
 * Anh Le's [Test First Ruby Solutions](https://github.com/LaDilettante/studying-odin-project/tree/master/web_dev_101/project_ruby/learn_ruby)
 * *Your solution here...*
-
+* Arman Ghassemi's [Test First Ruby Solutions](https://github.com/ArmanG/Test-First-Ruby)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
