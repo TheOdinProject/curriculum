@@ -20,13 +20,13 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 ## Student Solutions
 
-
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Paul Dariye's Solution [Jumpstart Labs Blogger App](https://github.com/pauldd91/theodinproject/tree/master/blogger)
 * Allen's Solution [Jumpstart Labs Blogger App](https://github.com/NoRest4AWhearry/blogger) | [View online](http://jsblogger2.herokuapp.com/)
 * Sergey Prihodko's Solution [Jumpstart Labs Blogger App](https://github.com/sprihodko/blog) | [View online](https://stormy-coast-9842.herokuapp.com/)
 * Angel Vargas' Solution [Jumpstart Labs Blogger App](https://github.com/arioth/the-odin-project/tree/master/blogger)
+* Jamie's Solution [Jumpstart Labs Blogger App](https://github.com/Jberczel/blogger) | [View online](http://pure-meadow-9674.herokuapp.com/)
 * *Your solution here...*
 
 ## Additional Resources
