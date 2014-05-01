@@ -27,6 +27,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Allen's Solution [Jumpstart Labs Blogger App](https://github.com/NoRest4AWhearry/blogger) | [View online](http://jsblogger2.herokuapp.com/)
 * Sergey Prihodko's Solution [Jumpstart Labs Blogger App](https://github.com/sprihodko/blog) | [View online](https://stormy-coast-9842.herokuapp.com/)
 * Angel Vargas' Solution [Jumpstart Labs Blogger App](https://github.com/arioth/the-odin-project/tree/master/blogger)
+* Anh Le's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/LaDilettante/studying-odin-project/tree/master/web_dev_101/project_rails/blogger)
 * *Your solution here...*
 
 ## Additional Resources
