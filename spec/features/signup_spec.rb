@@ -38,7 +38,7 @@ describe "Sign Up" do
       end
 
       it "should have an email confirmation link in the welcome email" do
-        ActionMailer::Base.deliveries.last.encoded.should include "Confirm my account"
+        ActionMailer::Base.deliveries.last.encoded.should include "Confirm your email"
       end
     end
   end

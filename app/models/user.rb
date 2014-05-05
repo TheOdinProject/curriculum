@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
   # Make sure we get the preference built after the user saves
-  after_create :build_preferences, :send_welcome_email
+  after_create :build_preferences
 
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me, :username, :about, :github, :facebook, :twitter, :linkedin, :skype, :screenhero, :google_plus, :legal_agreement, :provider, :uid
@@ -114,4 +114,7 @@ class User < ActiveRecord::Base
       end
     end
 
+    def send_on_create_confirmation_instructions
+      send_welcome_email
+    end
 end

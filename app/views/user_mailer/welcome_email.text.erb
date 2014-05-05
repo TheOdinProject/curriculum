@@ -4,22 +4,27 @@ Welcome to The Odin Project!
 It's great to have you with us while you learn web development!  It can be a bit overwhelming at first, so to get you started here are a few tips:
 
 
-1: Plan out your strategy
+1: Confirm your email
+
+<%= link_to 'Click here', confirmation_url(@user, :confirmation_token => @user.confirmation_token) %> to verify your account and access all of the free resources and community support of the Odin Project.
+
+
+2: Plan out your strategy
 
 Figure out how much time each week you'll be able to devote to learning then browse through our roadmap of courses (<%= curriculum_url %>) and plan your strategy accordingly.  The biggest issue students have is getting distracted (especially since we link to so much juicy content), so staying focused is important.
 
 
-2: Dive into your first course
+3: Dive into your first course
 
 Get started! If you're brand spanking new to all this, start with <%= @starting_lesson.title %> (<%= lesson_url(@starting_lesson.course.title_url, @starting_lesson.title_url) %>).  Otherwise, Web Development 101 (<%= course_url("web-development-101") %>) is probably your best bet.
 
 
-3: Get help and work with others
+4: Get help and work with others
 
 You can leave questions in the forum (<%= forum_url %>).  Join our weekly study group, which is run by other students, at <%= studygroup_url %>.  If you fill out your profile (<%= user_url(@user) %>), it will help others who might want to get in touch you.
 
 
-4: Tell your friends!
+5: Tell your friends!
 
 If you find the project helpful, please spread the word.  It's always more fun to learn with friends :)
 
