@@ -38,6 +38,12 @@ class UsersController < ApplicationController
     @users = User.by_latest_completion.paginate(:page => params[:page], :per_page => 15)
   end
 
+  def send_confirmation_link
+    current_user.send_confirmation_instructions
+    flash[:notice] = "Confirmation instructions have been sent to your email address!"
+    redirect_to courses_path
+  end
+
   protected
 
   def check_current_user
