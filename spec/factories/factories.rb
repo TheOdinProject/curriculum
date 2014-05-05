@@ -12,8 +12,9 @@ FactoryGirl.define do
     end
 
     password "foobar"
-    legal_agreement true
-    
+    legal_agreement true 
+    confirmed_at Time.now - 5000000 #Approximately 1 month ago
+    reg_before_conf false
     # For testing ordering of most recently visited student.
     # Without this, users were created with nothing in this field, with the side effect
     # that User.order("last_sign_in_at desc") was putting those users as before any others.
