@@ -36,6 +36,10 @@ describe "Sign Up" do
         # must be "last" because other tests will populate this too
         ActionMailer::Base.deliveries.last.encoded.should include "To: #{attrs[:email]}"
       end
+
+      it "should have an email confirmation link in the welcome email" do
+        ActionMailer::Base.deliveries.last.encoded.should include "Confirm my account"
+      end
     end
   end
 end
