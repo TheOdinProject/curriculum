@@ -18,6 +18,10 @@
         <% unless @is_home_page %> 
           <%= render "shared/admin_flash" %>
         <% end %>
+
+        <% if flash[:partial] %>
+          <%= render partial: "layouts/#{flash[:partial]}" %>
+        <% end %>
       
         <div class="container">
           <div class="row">

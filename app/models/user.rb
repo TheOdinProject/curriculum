@@ -96,7 +96,11 @@ class User < ActiveRecord::Base
     end
   end
 
-
+  # Overwrite Devise method to allow users who registered before confirmation was required
+  # to continue using the site without being forced to confirm their email.
+  def active_for_authentication?
+    super && (!confirmation_required? || confirmed? || confirmation_period_valid? || reg_before_conf?)
+  end
 
 
   protected
