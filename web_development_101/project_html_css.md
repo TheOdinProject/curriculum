@@ -95,8 +95,10 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Paul Casey's solution here](https://github.com/jpcasey/theodinproject/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jpcasey/theodinproject/blob/master/google-homepage/index.html).
 * See [Ingi Kim's solution here](https://github.com/ingikim/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ingikim/google-homepage/blob/master/index.html).
 * See [Ruben Mendez's solution here](https://github.com/ruben-socal/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ruben-socal/google-homepage/blob/master/index.html).
-* * See [Alan Russell's solution here](https://github.com/ajrussellaudio/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ajrussellaudio/google-homepage/blob/master/index.html).
-* See[Arman Ghassemi's solution here](https://github.com/ArmanG/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ArmanG/google-homepage/blob/master/index.html).
+* See [Alan Russell's solution here](https://github.com/ajrussellaudio/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ajrussellaudio/google-homepage/blob/master/index.html).
+* See [Arman Ghassemi's solution here](https://github.com/ArmanG/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ArmanG/google-homepage/blob/master/index.html).
+* See [Bryan's solution here](https://github.com/bryan42690/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/bryan42690/google-homepage/blob/master/index.html).
+* See [Gibran Garcia's solution here](https://github.com/Satimidus/OdinProject/tree/master/GoogleHomePage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Satimidus/OdinProject/blob/master/GoogleHomePage/index.html).
 
 ## Additional Resources
 
