@@ -102,6 +102,20 @@ class User < ActiveRecord::Base
     super && (!confirmation_required? || confirmed? || confirmation_period_valid? || reg_before_conf?)
   end
 
+  # Overwrite Devise method to send welcome email to new users with confirmation token
+  # Users who registered before confirmation was required receive normal confirmation email
+  def send_confirmation_instructions
+    unless @raw_confirmation_token
+      generate_confirmation_token!
+    end
+    if self.reg_before_conf == true
+      opts = pending_reconfirmation? ? { to: unconfirmed_email } : { }
+      send_devise_notification(:confirmation_instructions, @raw_confirmation_token, opts)
+    else  # new user
+      send_welcome_email(@raw_confirmation_token)
+    end
+  end
+
 
   protected
 
@@ -109,16 +123,13 @@ class User < ActiveRecord::Base
       self.create_user_pref
     end
 
-    def send_welcome_email
+    def send_welcome_email(token)
       begin
-        UserMailer.send_welcome_email_to(self).deliver!
+        @token = token
+        UserMailer.send_welcome_email_to(self, token).deliver!
       rescue Exception => e
         puts "Error sending welcome email!"
         puts e.message
       end
-    end
-
-    def send_on_create_confirmation_instructions
-      send_welcome_email
     end
 end
