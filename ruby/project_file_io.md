@@ -42,6 +42,7 @@ You will be building a simple command line Hangman game where one player plays a
 
 * See Afshinator's solution here: [source code](https://github.com/afshinator/playground/tree/master/Hangman) or [view it in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/Hangman/index.html)
 * [Jamie's solution (Apr-16,2014)](https://github.com/Jberczel/odin-projects/tree/master/hangman)
+* [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/hangman_fileio)
 * *Your Solution Here!*
 
 
