@@ -35,10 +35,11 @@ class LessonsController < ApplicationController
     @num_projects = @lesson.section.lessons.where(:is_project => true).count
     # the position of the lesson not including projects
     @lesson_position_in_section = @lesson.section.lessons.where("is_project = ? AND position <= ?", false, @lesson.position).count
-    # puts "\n\nVE BANNER #{Ad.show_ve_banner?(current_user)}!\n\n"
+    # puts "\n\nVE BANNER #{Ad.show_ads?(current_user)}!\n\n"
     # puts "ENV: #{ENV['SHOW_ADS']}!!\n\n"
-    if ENV["SHOW_ADS"] && Ad.show_ve_banner?(current_user)
+    if ENV["SHOW_ADS"] && Ad.show_ads?(current_user)
       @lower_banner_ad = Ad.ve_banner
+      @right_box_ad = Ad.ve_box
     end
     # puts "\n\nVE: #{Ad.all.inspect} \n\nBANNER AD #{Ad.ve_banner}!\n\n"
   end

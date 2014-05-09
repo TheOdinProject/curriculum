@@ -29,6 +29,10 @@
 
     <%= @content %>
 
+    <% if @right_box_ad %>
+      <%= render :partial => "right_box_ad", :locals => { :ad => @right_box_ad } %>
+    <% end %>
+
     <% if @lower_banner_ad %>
       <%= render :partial => "lower_banner_ad", :locals => { :ad => @lower_banner_ad } %>
     <% end %>
