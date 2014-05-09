@@ -29,6 +29,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Anh Le's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/LaDilettante/studying-odin-project/tree/master/web_dev_101/project_rails/blogger)
 * Jamie's Solution [Jumpstart Labs Blogger App](https://github.com/Jberczel/blogger) | [View online](http://pure-meadow-9674.herokuapp.com/)
 * Arman Ghassemi's Solution [Jumpstart Labs Blogger App](https://github.com/ArmanG/First-Ruby-App) | [View online](http://stormy-cliffs-5263.herokuapp.com/)
+* Alan Russell's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/ajrussellaudio/blogger)
 * *Your solution here...*
 
 
