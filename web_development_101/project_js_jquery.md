@@ -56,4 +56,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Arman Ghassemi's solution here: [source code](https://github.com/ArmanG/Etch-A-Sketchpad) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/ArmanG/Etch-A-Sketchpad/blob/master/index.html).
 * See Arman Ghassemi's solution here: [source code](https://github.com/ArmanG/Etch-A-Sketchpad) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/ArmanG/Etch-A-Sketchpad/blob/master/index.html).
 * See Arturo Coronel's solution here: [source code](https://github.com/AoiTsu/TheOdinProject/blob/master/Etch-A-Grid-Sketch) or [view it in browser] (http://htmlpreview.github.io/?https://github.com/AoiTsu/TheOdinProject/blob/master/Etch-A-Grid-Sketch/index.html).
+* See NerdDiffer's solution here: [source code](https://github.com/NerdDiffer/etch) or [view it in browser] (http://htmlpreview.github.io/?https://github.com/NerdDiffer/etch/blob/master/index.html)
 * *Your solution here...*
