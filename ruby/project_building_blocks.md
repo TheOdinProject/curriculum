@@ -113,10 +113,10 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/substrings.rb)
-* [Solution from bartliolio](https://github.com/bartliolio/odin_project/blob/master/substrings/substrings.rb)
 * [Solution from eugyev](https://github.com/eugyev/odinprojects/blob/master/substrings.rb)
 * [Solution from Jamie](https://github.com/Jberczel/odin-projects/blob/master/ruby_building_blocks/project3.rb)
 * [Solution from Aniruddh Agarwal](https://github.com/aniruddhagarwal/odin-projects/blob/master/sub_string/substring.rb)
 * [Solution from Angel Vargas](https://github.com/arioth/the-odin-project/blob/master/Ruby%20-%20Building%20Blocks/substrings.rb)
 * [Solution from Anh Le](https://github.com/LaDilettante/studying-odin-project/blob/master/3_ruby_programming/project_building_blocks/substrings.rb)
+* [Solution from brianllamar](https://github.com/brianllamar/odin_ruby_projects/blob/master/substrings.rb)
 * Your Solution Here
