@@ -119,6 +119,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 * *[Microreddit Project](https://github.com/voizzzz/microreddit) by voizzzz*
 * Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
+* Afshin's [solution](https://github.com/afshinator/micro-reddit)
 
 ## Additional Resources
 
@@ -126,4 +127,4 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 
 * The [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html) has good documentation for these things, in addition to the Edge Guides you've already read.  Often it can be easier to search Google for the proper API page than navigating the site, e.g. "rails api has_many".
-* 
+* [JumpstartLab page on Model Relationships](http://tutorials.jumpstartlab.com/topics/models/relationships.html) has some good unique information on how to approach optimizing common associations.
