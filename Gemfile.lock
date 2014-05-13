@@ -46,6 +46,9 @@ GEM
       rack-test (>= 0.5.4)
       selenium-webdriver (~> 2.0)
       xpath (~> 1.0.0)
+    capybara-email (2.0.3)
+      capybara (~> 2.0.0)
+      mail
     capybara-webkit (1.1.1)
       capybara (>= 2.0.2, < 2.2.0)
       json
@@ -287,6 +290,7 @@ DEPENDENCIES
   better_errors (~> 1.1.0)
   binding_of_caller (~> 0.7.2)
   capybara (<= 2.0.2)
+  capybara-email
   capybara-webkit (~> 1.1.1)
   coffee-rails (~> 4.0.1)
   database_cleaner (~> 1.2.0)
