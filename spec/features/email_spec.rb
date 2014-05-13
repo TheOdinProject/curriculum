@@ -19,12 +19,33 @@ describe "Users registered before email confirmations were added need to verify 
 
   it "should send an email with confirmation instructions" do
     click_on("Didn't receive confirmation instructions, or need them again?")
-    ActionMailer::Base.deliveries.last.encoded.should include "Confirm my account"
+    ActionMailer::Base.deliveries.last.encoded.should have_link("Confirm my account")
   end
 
   it "has a flash message that instructions were sent" do
     click_on("Didn't receive confirmation instructions, or need them again?")
     page.should have_selector('div', text: "Confirmation instructions have been sent to your email address!")
+  end
+
+  context "When user clicks link to confirm email" do
+    before do
+      clear_emails
+      click_on("Didn't receive confirmation instructions, or need them again?")
+      open_email(user.email)
+      current_email.click_link("Confirm my account")
+    end
+
+    it "confirms the user's email address" do
+      page.should have_selector('div', text: "Thanks for confirming your email address")
+    end
+
+    it "redirects the user to the courses page" do
+      current_path.should eq(courses_path)
+    end
+
+    it "signs the user in automatically" do
+      page.should have_selector('div.navbar', text: user.username)
+    end
   end
 
   it "should stop prompting user to confirm after they have done so" do
