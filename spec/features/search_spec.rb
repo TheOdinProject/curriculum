@@ -1,6 +1,7 @@
 require 'spec_helper'
 require 'capybara-webkit'
- 
+require 'fakeweb'
+
 feature "Search" do
  
   describe "Home page" do
@@ -31,30 +32,17 @@ feature "Search" do
       fill_in 'st-search-input', :with => 'controller'
       page.has_css?('#st-results-modal')
     end
-    
+   
     it "doesn't bring up results modal with empty input", :js => true do
       fill_in 'st-search-input', :with => "\n"
       page.has_no_css?('#st-results-modal')
     end
  
-    it "has the search term in the results", :js => true do
+    it "sends a GET request to swiftype for search results", 
       fill_in 'st-search-input', :with => "SQL\n"
-      within('.st-search-summary') { expect(page).to have_content('SQL' && "1") }
+      FakeWeb.last_request  # TODO
     end
-    
-    it "finds the one instance of Sandi in the content", :js => true do
-      fill_in 'st-search-input', :with => "sandi\n"
-      within('.st-search-summary') { expect(page).to have_content('Sandi Metz' && "1") }      
-    end
-    
-    it "go to the right results page", :js => true do
-      fill_in 'st-search-input', :with => "pothibo\n"
-      within('.st-search-summary') { expect(page).to have_content('Sessions, Cookies, and Authentication' && "1") } 
-      click_link('Sessions, Cookies, and Authentication')
-      page.has_content?('are the idea that your user')
-    end    
-    
   end
- 
+
 end
 
