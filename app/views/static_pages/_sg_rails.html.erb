@@ -54,13 +54,37 @@
         and also give unique id's to href="..." line and its corresponding id.   
   -->
   <div class="accordion" id="ror-accordion">
+ <div class="accordion-group">
+      <div class="accordion-heading">
+        <a class="accordion-toggle" data-toggle="collapse" data-parent="#ror-accordion" href="#ror-collapse11">
+          Week 11 Study Group Meeting
+        </a>
+      </div>
+      <div id="ror-collapse11" class="accordion-body collapse in">
+        <div class="accordion-inner">
+          <p><strong>Date:</strong> Sunday May 18, 2014<br>
+            <strong>Time: </strong>7:30pm PDT (GMT-7)<br>
+            <br><strong>Location: </strong><%= link_to "Week 11 Google Hangout", "https://plus.google.com/u/0/b/112041900311777032328/events/cgfsppt91uk1aqk4ppdp8bbp3bk", :target => "_blank" %>
+            <br><small>Check above link right before 7:30 to join the live hangout or just watch.
+            <br>Vist the <%= link_to "studygroup page", "https://plus.google.com/u/0/b/112041900311777032328/112041900311777032328/posts", :target => "_blank" %> for mid-week discussions.</small>
+          </p>
+          <p>This week we'll be going over the 
+            <%= link_to "Forms section from the curriculum", "http://www.theodinproject.com/ruby-on-rails/forms", :target => "_blank" %>,
+            get into authentication, and possibly discuss associations some more.   As always, your input is welcome.
+          </p>
+        </div>
+      </div>
+    </div>    
+    
+    
+    
     <div class="accordion-group">
       <div class="accordion-heading">
         <a class="accordion-toggle" data-toggle="collapse" data-parent="#ror-accordion" href="#ror-collapseTen">
           Week 10 Study Group Meeting
         </a>
       </div>
-      <div id="ror-collapseTen" class="accordion-body collapse in">
+      <div id="ror-collapseTen" class="accordion-body collapse">
         <div class="accordion-inner">
           <p><strong>Date:</strong> Sunday May 11, 2014<br>
             <strong>Time: </strong>7:30pm PDT (GMT-7)<br>
@@ -74,6 +98,12 @@
             .  Hopefully you'll have tackled the <%= link_to "Micro-Reddit", "http://www.theodinproject.com/ruby-on-rails/building-with-active-record" %> 
             project.
           </p>
+          <p><small><a href="https://github.com/afshinator/OdinRailsStudyGroup/blob/master/week10-transcript.md" target="_blank">
+            Week 10 transcript & notes</a>
+            <br><a href="https://www.youtube.com/watch?v=K0TNUXOj0y0" target="_blank">
+            Week 10 Video</a>
+            </small>
+          </p>          
         </div>
       </div>
     </div>
