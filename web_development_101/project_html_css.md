@@ -102,6 +102,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Gibran Garcia's solution here](https://github.com/Satimidus/OdinProject/tree/master/GoogleHomePage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Satimidus/OdinProject/blob/master/GoogleHomePage/index.html).
 * See [Jesreal Arcillas's solution here](https://github.com/jigogwapo/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jigogwapo/google-homepage/blob/master/index.html).
 * See [Will Slone's solution here](https://github.com/willslone/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/willslone/google-homepage/blob/master/index.html).
+* See [Sam's solution here](https://github.com/jimbroski/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jimbroski/google-homepage/blob/master/index.htm).
+
 
 ## Additional Resources
 
