@@ -29,9 +29,24 @@
 </footer>
 
 <script>
-  // After form submission, gray out and disable the form
+  // Suggestion From Submission - 
+  // 1. Make sure empty form doesn't submit,
+  // 2. After form submission, gray out and disable the form
+  // 
   $(document).ready(function(){
-    $("#footer-suggestion-form").bind("ajax:complete", function(event, xhr, status){
+    // Cache the jquery selection since we'll refer to it more than once
+    var $suggestionForm = $('#footer-suggestion-form');           
+
+    // Upon form submission, intercept call and check if form was empty and if so, dont submit.
+    $suggestionForm.submit(function( event ) {
+      if ( $("#feedback-text-box").val().length === 0 ) {
+        event.preventDefault();                 // Cancel the submit action 
+        return false;                           // Preven't the disabling of the form
+      }
+    });
+    
+    
+    $suggestionForm.bind("ajax:complete", function(event, xhr, status){
       //console.log($("#footer-suggestion-form input"));
       $("#footer-suggestion-form input").attr("disabled","disabled");
       $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
