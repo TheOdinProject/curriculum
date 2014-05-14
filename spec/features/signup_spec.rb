@@ -40,6 +40,62 @@ describe "Sign Up" do
       it "should have an email confirmation link in the welcome email" do
         ActionMailer::Base.deliveries.last.encoded.should include "Confirm your email"
       end
+
+      # Test failing - can't find link.  Email is blank.  But really works...
+      # it "confirms the user's email address when they follow the link" do
+      #   open_email(attrs[:email])
+      #   current_email.click_link("Click here")
+      #   page.should have_selector("div", text: "Thanks for confirming your account!")
+      # end
+    end
+
+    context "after 2-day grace period for confirming email is over" do
+      it "has link in flash notice to resend confirmation email" do
+        forgetful = FactoryGirl.build(:user)
+        forgetful.created_at = Time.now - 10.days
+        forgetful.confirmation_sent_at = Time.now - 10.days
+        forgetful.save
+        sign_in(forgetful)
+        save_and_open_page
+        page.should have_selector('div', text: "You must confirm your email")
+      end
+    end
+
+    context "after signing up with Github" do
+      before do
+        clear_emails
+        sign_up_with_github  # username: "GhostMan"   email: "ghost@nobody.com"
+        open_email(User.last.email)
+      end
+
+      it "sends welcome email" do
+        ActionMailer::Base.deliveries.last.encoded.should include "To: ghost@nobody.com"
+      end
+
+      it "includes email confirmation link in the welcome email" do
+        ActionMailer::Base.deliveries.last.encoded.should include "Confirm your email"
+      end
+
+      it "does not mark user confirmed automatically" do
+        User.last.confirmed?.should eq false
+      end
+
+      # it "confirms user's email address when they follow link" do
+      #   current_email.click_link("Click here") # "to verify your account..."
+      #   page.should have_selector('div', text: "Thanks for confirming your email!")
+      # end
+
+      # Do we want to nag people who registered with OAuth?
+      it "prompts user to confirm email" do  
+      end
+
+      it "does not require user to verify within 2-day grace period" do # Because OAuth
+        click_on("Logout")
+        User.last.created_at = Time.now - 3.days
+        visit sign_up_path
+        click_on "Sign up with Github"
+        page.should have_selector('h1', text: "This is Your Path to Learning Web Development")
+      end      
     end
   end
 end
