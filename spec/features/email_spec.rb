@@ -1,20 +1,22 @@
 require 'spec_helper'
 
-# describe "New users" do
-#   before do
-#     clear_emails
-#     sign_up_user
-#     puts User.last.email
-#     open_email(User.last.email)
-#   end
+describe "New users" do
 
-  #  Test fails because email is blank, but actually works...
+  let!(:course){ FactoryGirl.create(:course, is_active: true) }
+  let!(:section){ FactoryGirl.create(:section, course_id: course.id) }
+  let!(:lesson){ FactoryGirl.create(:lesson, section_id: section.id) }
 
-#   it "confirms email when user follows link in welcome email" do
-#     current_email.click_link("Click here")
-#     page.should have_selector('div', text: "Thanks for confirming your email address!")
-#   end
-# end
+  before do
+    sign_up_user
+  end
+
+  it "confirms email when user follows link in welcome email" do
+    email = ActionMailer::Base.deliveries.last.encoded
+    link = email.match(/"(.*confirmation_token.*)"/)[1]
+    visit link
+    page.should have_selector('div', text: "Thanks for confirming your email address!")
+  end
+end
 
 describe "Users registered before email confirmations were added need to verify their account" do 
 
@@ -45,10 +47,10 @@ describe "Users registered before email confirmations were added need to verify 
 
   context "When user clicks link to confirm email" do
     before do
-      clear_emails
       click_on("Didn't receive confirmation instructions, or need them again?")
-      open_email(user.email)
-      current_email.click_link("Confirm my account")
+      email = ActionMailer::Base.deliveries.last.encoded
+      link = email.match(/href="(.*confirmation_token.*)" /)[1]
+      visit link
     end
 
     it "confirms the user's email address" do

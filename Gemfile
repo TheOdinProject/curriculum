@@ -34,7 +34,6 @@ group :development, :test do
   gem 'fakeweb', '~> 1.3.0'
   gem 'capybara',                   '<= 2.0.2'
   gem 'capybara-webkit', '~> 1.1.1'
-  gem 'capybara-email'
 end
 
 group :development do

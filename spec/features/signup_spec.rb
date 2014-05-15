@@ -3,9 +3,10 @@ require 'spec_helper'
 describe "Sign Up" do
 
   subject { page }
-  before do
-    lesson = FactoryGirl.create(:lesson)
-  end
+
+  let!(:course){ FactoryGirl.create(:course, is_active: true) }
+  let!(:section){ FactoryGirl.create(:section, course_id: course.id) }
+  let!(:lesson){ FactoryGirl.create(:lesson, section_id: section.id) }
 
   describe "Sign Up Form" do
 
@@ -34,23 +35,27 @@ describe "Sign Up" do
       
       it "Should send a welcome email to the user" do
         # must be "last" because other tests will populate this too
-        ActionMailer::Base.deliveries.last.encoded.should include "To: #{attrs[:email]}"
+        email = ActionMailer::Base.deliveries.last.encoded
+        email.should include "To: #{attrs[:email]}"
       end
 
       it "should have an email confirmation link in the welcome email" do
-        ActionMailer::Base.deliveries.last.encoded.should include "Confirm your email"
+        email = ActionMailer::Base.deliveries.last.encoded
+        email.should include "Confirm your email"
       end
 
-      # Test failing - can't find link.  Email is blank.  But really works...
-      # it "confirms the user's email address when they follow the link" do
-      #   open_email(attrs[:email])
-      #   current_email.click_link("Click here")
-      #   page.should have_selector("div", text: "Thanks for confirming your account!")
-      # end
+      it "confirms the user's email address when they follow the link" do
+        email = ActionMailer::Base.deliveries.last.encoded
+        link = email.match(/"(.*confirmation_token.*)"/)[1]
+        visit link
+        page.should have_selector("div", text: "Thanks for confirming your email address!")
+      end
     end
 
     context "after 2-day grace period for confirming email is over" do
       it "has link in flash notice to resend confirmation email" do
+        #  Check whether another user (or forgetful) is already signed in
+        #  Check whether forgetful is being saved correctly
         forgetful = FactoryGirl.build(:user)
         forgetful.created_at = Time.now - 10.days
         forgetful.confirmation_sent_at = Time.now - 10.days
@@ -63,9 +68,7 @@ describe "Sign Up" do
 
     context "after signing up with Github" do
       before do
-        clear_emails
         sign_up_with_github  # username: "GhostMan"   email: "ghost@nobody.com"
-        open_email(User.last.email)
       end
 
       it "sends welcome email" do
@@ -80,10 +83,12 @@ describe "Sign Up" do
         User.last.confirmed?.should eq false
       end
 
-      # it "confirms user's email address when they follow link" do
-      #   current_email.click_link("Click here") # "to verify your account..."
-      #   page.should have_selector('div', text: "Thanks for confirming your email!")
-      # end
+      it "confirms user's email address when they follow link" do
+        email = ActionMailer::Base.deliveries.last.encoded
+        link = email.match(/"(.*confirmation_token.*)"/)[1]
+        visit link
+        page.should have_selector("div", text: "Thanks for confirming your email address!")
+      end
 
       # Do we want to nag people who registered with OAuth?
       it "prompts user to confirm email" do  
