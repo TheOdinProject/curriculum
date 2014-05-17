@@ -26,6 +26,7 @@ describe "Sign Up" do
         fill_in :user_password_confirmation, :with => attrs[:password]
         check :user_legal_agreement
         click_button "Sign up"
+        @email = ActionMailer::Base.deliveries.last.encoded
       end
 
       it "should deposit user into courses page" do
@@ -35,18 +36,15 @@ describe "Sign Up" do
       
       it "Should send a welcome email to the user" do
         # must be "last" because other tests will populate this too
-        email = ActionMailer::Base.deliveries.last.encoded
-        email.should include "To: #{attrs[:email]}"
+        @email.should include "To: #{attrs[:email]}"
       end
 
       it "should have an email confirmation link in the welcome email" do
-        email = ActionMailer::Base.deliveries.last.encoded
-        email.should include "Confirm your email"
+        @email.should include "Confirm your email"
       end
 
       it "confirms the user's email address when they follow the link" do
-        email = ActionMailer::Base.deliveries.last.encoded
-        link = email.match(/"(.*confirmation_token.*)"/)[1]
+        link = @email.match(/"(.*confirmation_token.*)"/)[1]
         visit link
         page.should have_selector("div", text: "Thanks for confirming your email address!")
       end
