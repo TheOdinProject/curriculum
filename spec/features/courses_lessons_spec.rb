@@ -161,92 +161,96 @@ describe "Courses and Lessons Pages" do
         sign_in(signed_in_student)
         visit course_path(course1.title_url)
       end
-        
-      it "should have a percent-completed indicator" do
-        expect(page).to have_css(".lc-percent-completion")
-      end
 
-      it "should have a checkbox for the lesson" do
-        
-        expect(page).to have_css("#lc-id-#{lesson1.id}")
-        
-      end
-      
-      context "when user has not already completed the lesson" do
 
-        it "the lesson's checkbox should appear unchecked" do
-          expect(page).to have_css("#lc-id-#{lesson1.id} .lc-unchecked")
+      describe "lesson completions" do
+        
+        it "should have a percent-completed indicator" do
+          expect(page).to have_css(".lc-percent-completion")
         end
 
-        describe "the percent completion indicator" do
-          it "should register 0%" do
-            within(".lc-percent-completion") do
-              expect(page).to have_text("0%")
+        it "should have a checkbox for the lesson" do
+          
+          expect(page).to have_css("#lc-id-#{lesson1.id}")
+          
+        end
+        
+        context "when user has not already completed the lesson" do
+
+          it "the lesson's checkbox should appear unchecked" do
+            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-unchecked")
+          end
+
+          describe "the percent completion indicator" do
+            it "should register 0%" do
+              within(".lc-percent-completion") do
+                expect(page).to have_text("0%")
+              end
             end
           end
-        end
-        
-        context "after clicking the checkbox" do
           
-          # After the AJAX successfully returns, it should re-render just the checkbox area to reflect
-          # the completed checkbox
-          it "should change the checkbox to checked (JS test)", :js => true do
-            find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
-            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
-          end
+          context "after clicking the checkbox" do
             
-        end
-        
-        context "when there are two previously unchecked lessons on the page" do
-          
-          let(:lesson2) { course1.lessons[1] }
-         
-          it "clicking one does not result in both being checked (JS test)", :js => true do
-            find("#lc-id-#{lesson1.id} a.lc-checkbox").click
-            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
-            expect(page).to_not have_css("#lc-id-#{lesson2.id} .lc-checked") 
-          end
-          
-        end
-        
-      end
-      
-      context "and user HAS already completed the lesson" do
-        
-        before do
-          @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
-          visit course_path(course1.title_url)
-        end
-        
-        it "should show a checked box for that lesson" do
-          expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")
-        end
-        
-        context "after clicking that pre-checked box" do
-          
-          it "should change the checkbox to its unchecked state (JS test)", :js => true do
-            within("#lc-id-#{lesson1.id}") do
-              find("a.lc-checkbox").click
-              expect(page).to have_css(".lc-unchecked")  
-              expect(page).to_not have_css(".lc-checked")          
+            # After the AJAX successfully returns, it should re-render just the checkbox area to reflect
+            # the completed checkbox
+            it "should change the checkbox to checked (JS test)", :js => true do
+              find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
+              expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
             end
+              
+          end
+          
+          context "when there are two previously unchecked lessons on the page" do
+            
+            let(:lesson2) { course1.lessons[1] }
+           
+            it "clicking one does not result in both being checked (JS test)", :js => true do
+              find("#lc-id-#{lesson1.id} a.lc-checkbox").click
+              expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
+              expect(page).to_not have_css("#lc-id-#{lesson2.id} .lc-checked") 
+            end
+            
           end
           
         end
-        
-      end
-
-      context "when the user has completed ALL lessons" do
-        before do
-          Lesson.all.each do |l|
-            LessonCompletion.create(:lesson_id => l.id, :student_id => signed_in_student.id)
+      
+        context "and user HAS already completed the lesson" do
+          
+          before do
+            @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
+            visit course_path(course1.title_url)
           end
-          visit course_path(course1.title_url)
+          
+          it "should show a checked box for that lesson" do
+            expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")
+          end
+          
+          context "after clicking that pre-checked box" do
+            
+            it "should change the checkbox to its unchecked state (JS test)", :js => true do
+              within("#lc-id-#{lesson1.id}") do
+                find("a.lc-checkbox").click
+                expect(page).to have_css(".lc-unchecked")  
+                expect(page).to_not have_css(".lc-checked")          
+              end
+            end
+            
+          end
+          
         end
-        
-        it "should show a checked box for that lesson" do
-          within(".lc-percent-completion") do
-            expect(page).to have_css(".lc-finished")
+
+        context "when the user has completed ALL lessons" do
+          before do
+            Lesson.all.each do |l|
+              LessonCompletion.create(:lesson_id => l.id, :student_id => signed_in_student.id)
+            end
+            visit course_path(course1.title_url)
+          end
+          
+          it "should show a checked box for that lesson" do
+            within(".lc-percent-completion") do
+              expect(page).to have_css(".lc-finished")
+            end
           end
         end
       end

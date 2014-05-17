@@ -73,6 +73,14 @@ FactoryGirl.define do
     expires "#{1.day.ago}"
     message "Some Expired Message"
   end
+
+  factory :ad do
+    client "some client"
+    style "banner"
+    url "http://fake.com"
+    image_path "/some_image.png"
+    category "ad category"
+  end
  
  
 end

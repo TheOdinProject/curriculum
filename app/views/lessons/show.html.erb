@@ -29,6 +29,14 @@
 
     <%= @content %>
 
+    <% if @right_box_ad %>
+      <%= render :partial => "right_box_ad", :locals => { :ad => @right_box_ad } %>
+    <% end %>
+
+    <% if @lower_banner_ad %>
+      <%= render :partial => "lower_banner_ad", :locals => { :ad => @lower_banner_ad } %>
+    <% end %>
+
     <div id="info-box">
       <%= render 'lessons/contribution_links' %>
       <%= render 'lessons/license' %>
@@ -92,5 +100,6 @@
 <script>
   $(function(){
     $(".individual-lesson a[href^='http://']").attr("target","_blank");
+    $(".individual-lesson a[href^='https://']").attr("target","_blank");
   });
 </script>
