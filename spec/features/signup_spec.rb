@@ -53,16 +53,24 @@ describe "Sign Up" do
     end
 
     context "after 2-day grace period for confirming email is over" do
+      before do
+        @forgetful = FactoryGirl.create(:user)
+        @forgetful.created_at = Time.now - 10.days
+        @forgetful.confirmation_sent_at = Time.now - 10.days
+        @forgetful.confirmed_at = nil
+        @forgetful.save
+        sign_in(@forgetful)
+      end
+
       it "has link in flash notice to resend confirmation email" do
-        #  Check whether another user (or forgetful) is already signed in
-        #  Check whether forgetful is being saved correctly
-        forgetful = FactoryGirl.build(:user)
-        forgetful.created_at = Time.now - 10.days
-        forgetful.confirmation_sent_at = Time.now - 10.days
-        forgetful.save
-        sign_in(forgetful)
-        save_and_open_page
-        page.should have_selector('div', text: "You must confirm your email")
+        page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
+      end
+
+      it "resends confirmation instructions when user clicks link" do
+        click_on("Didn't receive instructions or need them again?")
+        fill_in("Email", with: @forgetful.email)
+        click_on("Resend confirmation instructions")
+        ActionMailer::Base.deliveries.last.encoded.should include "Confirm your email"
       end
     end
 
@@ -90,16 +98,15 @@ describe "Sign Up" do
         page.should have_selector("div", text: "Thanks for confirming your email address!")
       end
 
-      # Do we want to nag people who registered with OAuth?
-      it "prompts user to confirm email" do  
-      end
-
-      it "does not require user to verify within 2-day grace period" do # Because OAuth
-        click_on("Logout")
-        User.last.created_at = Time.now - 3.days
+      it "requires user to verify within 2-day grace period" do
+        click_on("Logout")   # clear session
+        git_user = User.last  # the user just created in the before statement 
+        git_user.created_at = Time.now - 3.days
+        git_user.confirmation_sent_at = Time.now - 3.days
+        git_user.save
         visit sign_up_path
         click_on "Sign up with Github"
-        page.should have_selector('h1', text: "This is Your Path to Learning Web Development")
+        page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
       end      
     end
   end
