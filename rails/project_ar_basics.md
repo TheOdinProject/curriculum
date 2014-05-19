@@ -121,6 +121,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * Afshin's [solution](https://github.com/afshinator/micro-reddit)
 * Marina D's [solution](https://github.com/mousterian/OdinProject/tree/master/Project3_ActiveRecordBasics/micro-reddit)
+* Anh Le's [solution](https://github.com/LaDilettante/micro_reddit.git)
 
 ## Additional Resources
 
