@@ -37,7 +37,7 @@ In this simple action, we have the controller asking the model for something ("H
 * What are Strong Parameters?
 * When can you just use the `params` hash directly and when do you need to specifically "whitelist" its contents?
 * What are "scalar" values?
-* What does `#require` do? #permit`?
+* What does `#require` do? `#permit`?
 * What's the `#flash`?
 * What's the difference between `#flash` and `#flash.now`?
 
@@ -171,7 +171,7 @@ So our `#create` action above can now be filled out a bit more:
 
 ## Flash
 
-The last piece of code we need to write there is how to set our special messages for the user.  Rails gives you a neat tool for sending success and error messages (like the little green message that briefly appears at the top of and application to congratulate you for signing up) called the "flash".  It acts just like a hash -- you can set its keys to a specific message and then that will be available for you to access if you want to display it in your views.
+The last piece of code we need to write there is how to set our special messages for the user.  Rails gives you a neat tool for sending success and error messages (like the little green message that briefly appears at the top of an application to congratulate you for signing up) called the "flash".  It acts just like a hash -- you can set its keys to a specific message and then that will be available for you to access if you want to display it in your views.
 
 You can use any keys you want for the flash, but it's conventional to just stick to three, `:success`, `:error`, and `:notify`.  So the success message above might look like `flash[:success] = "Great! Your post has been created!"`.
 
