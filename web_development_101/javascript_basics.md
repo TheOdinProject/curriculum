@@ -52,6 +52,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Ingi Kim's Euler Solutions](https://github.com/ingikim/projecteuler)
 * [Tommy Noe's Euler Solutions](https://github.com/thomasjnoe/project-euler)
 * [Jason Ellis's Euler Solutions](https://github.com/jasondfw/project_euler)
+* [Donald's Solution](https://github.com/donaldali/odin-webdev101/tree/master/javascript101)
+* 
 
 ## Additional Resources
 
