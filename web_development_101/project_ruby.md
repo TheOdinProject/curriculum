@@ -39,7 +39,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Michael Ciocca's [Test First Ruby Solution](https://github.com/Mciocca/TheOdinProject/tree/master/Ruby/respec/test_first)
 * d2bit's [Test First Ruby Solution](https://github.com/d2bit/first_test_ruby)
 * *Your solution here...*
-
+* Arman Ghassemi's [Test First Ruby Solutions](https://github.com/ArmanG/Test-First-Ruby)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
