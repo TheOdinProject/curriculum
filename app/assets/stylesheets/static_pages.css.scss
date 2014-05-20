@@ -488,6 +488,10 @@
     }
   }
 }
+.alert{
+  position: relative;
+  z-index: 11;
+}
 .alert-error{
   margin-bottom: 30px;
 }
