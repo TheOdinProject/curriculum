@@ -58,4 +58,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Arturo Coronel's solution here: [source code](https://github.com/AoiTsu/TheOdinProject/blob/master/Etch-A-Grid-Sketch) or [view it in browser] (http://htmlpreview.github.io/?https://github.com/AoiTsu/TheOdinProject/blob/master/Etch-A-Grid-Sketch/index.html).
 * See NerdDiffer's solution here: [source code](https://github.com/NerdDiffer/etch) or [view it in browser] (http://htmlpreview.github.io/?https://github.com/NerdDiffer/etch/blob/master/index.html)
 * See Mark Westfall's solution here: [source code](https://github.com/mwestfall88/etch-a-sketch) or [view it in browser](http://mwestfall88.github.io/etch-a-sketch)
+* See Donald's solution here: [source code](https://github.com/donaldali/odin-webdev101/tree/master/project_js_jquery) or [view it in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-webdev101/blob/master/project_js_jquery/index.html)
 * *Your solution here...*
