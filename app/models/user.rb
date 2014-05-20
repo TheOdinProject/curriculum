@@ -99,7 +99,7 @@ class User < ActiveRecord::Base
   # Overwrite Devise method to allow users who registered before confirmation was required
   # to continue using the site without being forced to confirm their email.
   def active_for_authentication?
-    super && (!confirmation_required? || confirmed? || confirmation_period_valid? || reg_before_conf?)
+    super && (!confirmation_required? || confirmed? || confirmation_period_valid?) || reg_before_conf?
   end
 
   # Overwrite Devise method to send welcome email to new users with confirmation token
