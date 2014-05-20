@@ -312,7 +312,7 @@ With all that completed, there's not much else to go... it's time to get started
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
+* [A video from Yehuda Katz on Rails Security](http://youtu.be/2Ex8EEv-WPs)
 * See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
 * [Ruby Metaprogramming](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 * [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)

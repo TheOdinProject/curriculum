@@ -52,7 +52,7 @@ Actually, we won't need to install any of these -- they come with your web brows
 
 We recommend using a text editor like [Sublime Text 2](http://www.sublimetext.com/) to make sure everyone's using basically the same type of text editor and you'll all be able to work together and ask questions of each other without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.
 
-There's a [tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) that explains some of the awesomeness of Sublime Text 2 in depth.
+Check out [this "Quick Guide to Sublime Text" from Jennifer Mann](http://jennifermann.ghost.io/a-quick-guide-to-sublime-text/) for some helpful hints and tricks.  She refers to [this tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) which explains some of the awesomeness of Sublime Text 2 in depth.  The first chunk of the video is the most important, don't stress out about picking up the details in the rest (but you should come back to it once you've gotten more comfortable with the editor).
 
 ### Ruby Gems
 
@@ -78,7 +78,7 @@ These installfests will take you through the steps to install everything on your
 
 1. If you are using a Macintosh, follow the instructions on [Moncef Belyamani's blog](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
 2. Otherwise, do the [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
-3. Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://installfest.railsbridge.org/installfest/create_and_deploy_a_rails_app). 
+3. Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating a sample Rails app](http://installfest.railsbridge.org/installfest/create_a_rails_app) and then [deploying it](http://installfest.railsbridge.org/installfest/deploy_a_rails_app). 
 4. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.0.0` or a similar number.  `$ rails -v` should give you something like `4.0.0`.
   
 ## Checklist

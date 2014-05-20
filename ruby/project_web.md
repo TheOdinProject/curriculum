@@ -26,6 +26,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * [Solution from mahimahi42](https://github.com/mahimahi42/microblogger.git) 
+* [Jamie's solution (Apr-22,2014)](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
 
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -160,6 +161,8 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
+* [Jamie's solution (Apr-26,2014)](https://github.com/Jberczel/odin-projects/tree/master/sockets)
+* [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
 * *Your Solution Here!*
 
 

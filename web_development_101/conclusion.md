@@ -28,4 +28,5 @@ The journey has just begun!
 *If there's anything we should have covered better (or at all), [Email us!](mailto:curriculum@theodinproject.com)*
 
 * [List of freely available textbooks in any language](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md)
+* [AirPair lets you get help from professional developers](http://www.airpair.com)
 * *Your resource here...*

@@ -117,13 +117,16 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
-* 
+* *[Microreddit Project](https://github.com/voizzzz/microreddit) by voizzzz*
+* Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
+* Afshin's [solution](https://github.com/afshinator/micro-reddit)
+* Marina D's [solution](https://github.com/mousterian/OdinProject/tree/master/Project3_ActiveRecordBasics/micro-reddit)
+* Anh Le's [solution](https://github.com/LaDilettante/micro_reddit.git)
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* The [Rails API](http://api.rubyonrails.org/) has good documentation for these things, in addition to the Edge Guides you've already read.  Often it can be easier to search Google for the proper API page than navigating the site, e.g. "rails api has_many".
-* 
+* The [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html) has good documentation for these things, in addition to the Edge Guides you've already read.  Often it can be easier to search Google for the proper API page than navigating the site, e.g. "rails api has_many".
+* [JumpstartLab page on Model Relationships](http://tutorials.jumpstartlab.com/topics/models/relationships.html) has some good unique information on how to approach optimizing common associations.

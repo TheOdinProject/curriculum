@@ -27,7 +27,7 @@ It's difficult to find good resources to teach RSpec for free.  There are some d
 
 ## Your Assignment
 
-1. Go back to the Web Development 101 course and do the [RSpec section](/web-development-101/testing-basics) if you haven't aready.
+1. Go back to the Web Development 101 course and do the [RSpec section](/web-development-101/testing-basics) if you haven't already.
 2. Watch [this video walkthrough](http://www.youtube.com/watch?v=JhR9Ib1Ylb8&feature=relmfu) of writing some RSpec tests for a small bit of sample code in the Test-Driven Development (TDD) fashion. 
 3. Read [this blog entry introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse for a slightly more formal grounding in the basics.
 3. Take a glance at the [Relish RSpec official documentation](https://www.relishapp.com/rspec/rspec-core/v/2-4/docs).  It will be a good resource for when you're scratching your head later.

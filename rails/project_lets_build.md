@@ -25,6 +25,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 
 * [zkay](https://github.com/zkay/PersonalProjects/tree/master/Rest)
 * [afshinator](https://github.com/afshinator/playground/tree/master/RestPinger)
+* [Jamie](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
 
 ## Project: Ruby on Rails Tutorial
 
@@ -114,8 +115,9 @@ If you're already scratching your head, don't worry (like I said, better explana
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) video from RailsConf2012 on YouTube.
+* [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
 * [Code School's RSpec Introduction Course](https://www.codeschool.com/courses/testing-with-rspec)
+* [Rails Conf 2013 BDD and Acceptance Testing with RSpec & Capybara](https://www.youtube.com/watch?v=BG_DDUD4M9E) This video gives you a nice angle on BDD & TDD in Rails that you won't get from the primary sources.
 
 
 
