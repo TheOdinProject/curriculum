@@ -110,6 +110,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Donald's solution](https://github.com/donaldali/odin-webdev101/tree/master/project_htmlcss) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/donaldali/odin-webdev101/blob/master/project_htmlcss/index.html)
 * See [Tommy Noe's solution here](https://github.com/thomasjnoe/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/thomasjnoe/google-homepage/blob/master/index.html)
 * See [Mazin Power's solution](https://github.com/muzfuz/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/muzfuz/google-homepage/blob/master/index.html)
+* See [Yeon Seo's solution](https://github.com/yseoserious/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/yseoserious/google-homepage/blob/master/index.html)
 
 ## Additional Resources
 
