@@ -33,7 +33,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Jamie's [Test First Ruby Solutions](https://github.com/Jberczel/odin-projects/tree/master/learn_ruby)
 * Angel Vargas' [Test First Ruby Solutions](https://github.com/arioth/the-odin-project/tree/master/learn_ruby)
 * Lamberto Diwa's [Test First Ruby Solutions](https://github.com/LambertoD/test_first_ruby)
-* Sahil Agarwal's [Test First Ruby Solutions](https://github.com/sahilda/testfirst_ruby)
+* Sahil Agarwal's [Test First Ruby Solutions](https://github.com/sahilda/the_odin_project/tree/master/testfirst_ruby)
 * Anh Le's [Test First Ruby Solutions](https://github.com/LaDilettante/studying-odin-project/tree/master/web_dev_101/project_ruby/learn_ruby)
 * Arman Ghassemi's [Test First Ruby Solution](https://github.com/ArmanG/Test-First-Ruby)
 * Michael Ciocca's [Test First Ruby Solution](https://github.com/Mciocca/TheOdinProject/tree/master/Ruby/respec/test_first)
