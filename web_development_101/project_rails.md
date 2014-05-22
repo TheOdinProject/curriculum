@@ -12,6 +12,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 2. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
 3. If you're feeling ambitious, add in authentication in section I5. Warning: There is currently an error in this section of the tutorial.  Make sure to enter the :username parameter into both your _form.html.erb and authors controller.  Otherwise you will see an error like this: "authors.username may not be NULL:"
 4. If you're feeling very ambitious, try doing the final Extras section I6.
+5. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](http://installfest.railsbridge.org/installfest/deploy_a_rails_app)
 
 ## Extra Credit:
 
