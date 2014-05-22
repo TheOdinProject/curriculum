@@ -119,7 +119,7 @@ We may also be setting up an email list, though still trying to figure out how r
 
 ### Pairing
 
-We've experimented with several different pairing workflows and haven't settled on the definitive winner yet.  See ["How to Pair"](https://github.com/TheOdinProject/curriculum/blob/master/pairing/how_to_pair.md) for a more exhaustive description, but basically the idea is to switch off who is writing the code (the driver) and who is directing what to write (navigator) after a fixed amount of time (30 minutes) or a fixed set of tests.  You can also switch off every other test.
+We've experimented with several different pairing workflows and haven't settled on the definitive winner yet.  See ["How to Pair"](https://github.com/TheOdinProject/curriculum/blob/master/extra_stuff/pairing/how_to_pair.md) for a more exhaustive description, but basically the idea is to switch off who is writing the code (the driver) and who is directing what to write (navigator) after a fixed amount of time (30 minutes) or a fixed set of tests.  You can also switch off every other test.
 
 The main workflows we've tried are listed below.  The ideal workflow allows ulimited people to participate, easy switching between driver/navigator, and easy recording.  None have come out the clear winner, though the first is currently favored:
 
