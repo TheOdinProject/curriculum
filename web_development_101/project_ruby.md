@@ -38,6 +38,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Arman Ghassemi's [Test First Ruby Solution](https://github.com/ArmanG/Test-First-Ruby)
 * Michael Ciocca's [Test First Ruby Solution](https://github.com/Mciocca/TheOdinProject/tree/master/Ruby/respec/test_first)
 * d2bit's [Test First Ruby Solution](https://github.com/d2bit/first_test_ruby)
+* Donald's [Test First Ruby Solution](https://github.com/donaldali/odin-webdev101/tree/master/project_ruby)
 * *Your solution here...*
 
 ## Additional Resources
