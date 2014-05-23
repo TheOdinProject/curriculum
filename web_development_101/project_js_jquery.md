@@ -61,4 +61,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Donald's solution here: [source code](https://github.com/donaldali/odin-webdev101/tree/master/project_js_jquery) or [view it in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-webdev101/blob/master/project_js_jquery/index.html)
 * See Paul's solution here: [source code](https://github.com/tu98/Etch-a-Sketch-) or [view it in browser](http://htmlpreview.github.io/?https://github.com/tu98/Etch-a-Sketch-/blob/master/index.html)
 * See Jason Ellis's solution here: [source code](https://github.com/jasondfw/etch-a-sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/jasondfw/etch-a-sketch/blob/master/etch.html)
+* See Mazin Power's solution here: [source code](https://github.com/muzfuz/CodeLessons/tree/master/Sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/muzfuz/CodeLessons/blob/master/Sketchpad/index.html)
 * *Your solution here...* 
