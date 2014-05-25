@@ -23,7 +23,7 @@ These skills will be helpful for you when you start building.  Either try them y
 
 You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/web-development-101/installations), so here we're going to put it to use.
 
-1. If you haven't already, create a folder on your computer called `The Odin Project` which will house all your projects .
+1. If you haven't already, create a folder on your computer called `the_odin_project` which will house all your projects .
 2. Go to your Github.com account and log in.
 3. Create a new repo for this project [by following the instructions on Github.](https://help.github.com/articles/create-a-repo ) and call it `google-homepage` (instead of `Hello-World`).  Make your repository "Public" instead of "Private".
 4. Go to your new repository on Github (`http://github.com/YOUR_USERNAME/google-homepage`) and take a look at it.  If you scroll down, you'll see that the `README` file you just created is what is displayed by default.
