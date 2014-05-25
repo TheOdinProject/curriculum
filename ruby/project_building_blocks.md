@@ -128,4 +128,4 @@ Next, make sure your method can handle multiple words:
 * [Solution from Afshin M. (afshinator)](https://github.com/afshinator/playground/blob/master/Ruby-BuildingBlocks/building_blocks.rb)
 * [Solution from Alan Russell](https://github.com/ajrussellaudio/ruby_odin/blob/master/substrings.rb)
 * [Solution from Marina D](https://github.com/mousterian/OdinProject/blob/master/Project2_1_Ruby_Basic/SubStrings.rb)
-* Your Solution Here
+* [Solution from Terry Bu](https://github.com/bucifer/rubyExercises/blob/master/cipher/cipher.rb)
