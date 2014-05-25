@@ -32,6 +32,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Arman Ghassemi's Solution [Jumpstart Labs Blogger App](https://github.com/ArmanG/First-Ruby-App) | [View online](http://stormy-cliffs-5263.herokuapp.com/)
 * Alan Russell's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/ajrussellaudio/blogger)
 * d2bit's Solution [Jumpstart Labs Blogger App](https://github.com/d2bit/odin-project/tree/master/blogger)
+* Mark Westfall's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/mwestfall88/J-labs-blogger-app) | [View online](http://vast-gorge-8047.herokuapp.com/)
 * *Your solution here...*
 
 
