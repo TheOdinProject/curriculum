@@ -113,7 +113,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Mazin Power's solution](https://github.com/muzfuz/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/muzfuz/google-homepage/blob/master/index.html)
 * See [Yeon Seo's solution](https://github.com/yseoserious/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/yseoserious/google-homepage/blob/master/index.html)
 * See [Conor Foley's solution](https://github.com/conchurofoghlu/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/conchurofoghlu/google-homepage/blob/master/index.html)
-add my html/css solution https://github.com/lalaouil/google-homepage.git
+* See [Laurie Alaoui's solution](https://github.com/lalaouil/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/lalaouil/google-homepage/blob/master/index.html)
+
 
 ## Additional Resources
 
