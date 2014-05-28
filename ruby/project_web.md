@@ -27,7 +27,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 * [Solution from mahimahi42](https://github.com/mahimahi42/microblogger.git) 
 * [Jamie's solution (Apr-22,2014)](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
-
+* [Solution from bucifer (5/27/2014)](https://github.com/bucifer/MicroBlogger)
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 

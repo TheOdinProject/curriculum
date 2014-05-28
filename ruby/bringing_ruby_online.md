@@ -16,7 +16,7 @@ This lesson won't be nearly as long as the previous few, and should have you bui
 *Look through these now and then use them to test yourself after doing the assignment*
 
 
-* How do you issues an HTTP request in Ruby?
+* How do you issue an HTTP request in Ruby?
 * How do you parse the response to get to the body content?
 * What is REST?
 * What's the difference between a GET and a POST request? (seem familiar?)

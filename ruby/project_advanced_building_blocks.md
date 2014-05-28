@@ -42,6 +42,8 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Marina Drigo's solution](https://github.com/mousterian/OdinProject/blob/master/Project2_2_Ruby_AdvancedBlocks/bubble_sort.rb) 
 * [Afshin M., afshinator - (Nov 2013)](https://github.com/afshinator/playground/tree/master/Ruby-AdvancedBuildingBlocks)
 * [Aniruddh Agarwal's solution](https://github.com/aniruddhagarwal/odin-projects/blob/master/bubble_sort/bubble_sort.rb)
+* [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_adv_building_blocks)
+* [Alan Russell's solution](https://github.com/ajrussellaudio/adv_build_blocks/blob/master/bubble_sort.rb)
 * Your Solution Here
 
 ## Project 2: Enumerable Methods
@@ -86,6 +88,8 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Marina Drigo's solution](https://github.com/mousterian/OdinProject/blob/master/Project2_2_Ruby_AdvancedBlocks/MyEnumerable.rb)  
 * [Afshin M., afshinator - (Nov 2013)](https://github.com/afshinator/playground/tree/master/Ruby-AdvancedBuildingBlocks)
 * [Aniruddh Agarwal's solution](https://github.com/aniruddhagarwal/odin-projects/blob/master/enumerables.rb)
+* [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_adv_building_blocks)
+* [Alan Russell's solution](https://github.com/ajrussellaudio/adv_build_blocks/blob/master/enumerable_methods.rb)
 * Your Solution Here
 
 ## Additional Resources

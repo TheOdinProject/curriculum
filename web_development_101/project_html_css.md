@@ -113,7 +113,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Mazin Power's solution](https://github.com/muzfuz/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/muzfuz/google-homepage/blob/master/index.html)
 * See [Yeon Seo's solution](https://github.com/yseoserious/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/yseoserious/google-homepage/blob/master/index.html)
 * See [Conor Foley's solution](https://github.com/conchurofoghlu/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/conchurofoghlu/google-homepage/blob/master/index.html)
-
+add my html/css solution https://github.com/lalaouil/google-homepage.git
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
@@ -124,4 +124,4 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * Check out the [quickie CSS introduction](http://teamtreehouse.com/library/websites/build-a-simple-website/website-basics/introduction-to-css) from the same people as well.
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
-
+* Learn more about github using this tutorial: https://try.github.io or read more in this article: http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1
