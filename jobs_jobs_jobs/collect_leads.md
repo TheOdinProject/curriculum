@@ -26,8 +26,7 @@ Try checking out these links for job boards.  The more technically-focused, the 
 * [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)
 * [Dice.com](http://www.dice.com)
 * [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
-
-## On Recruiters
+* [Join-Startups](http://join-startups.com) - open startup jobs in a dozen cities
 
 There are a lot of recruiters out there whose job it is to get you hired, but you'll need to be careful about how you work with them.  For starters, they get paid based on a percentage of the salary you take, so their incentive is to get you paid as much as possible (which is good).  Unfortunately as a junior developer your salary is much lower than a senior engineer so you will not be their priority and they won't spend much time on you (which is bad).  
 
