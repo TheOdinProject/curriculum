@@ -14,3 +14,4 @@ Developing is incredibly rewarding but can also be difficult and frustrating.  T
 
 * [Things I Wish Someone Had Told Me When I Was Learning How To Code](https://medium.com/learning-to-code/565fc9dcb329)
 * [Hacking Passion video by Katrina Owen](http://youtu.be/rHLTltK1kss) - An inspirational talk from a [prolific contributor to open source](https://github.com/kytrinyx) about practice, satisfaction, focus, accomplishment, when to know when you're good enough, and more.
+* [Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/): it's okay if it's really frustrating.
