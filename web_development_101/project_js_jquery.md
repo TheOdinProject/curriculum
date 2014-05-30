@@ -64,4 +64,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Mazin Power's solution here: [source code](https://github.com/muzfuz/CodeLessons/tree/master/Sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/muzfuz/CodeLessons/blob/master/Sketchpad/index.html)
 * See Yeon Seo's solution here:  [source code](https://github.com/yseoserious/Etch-A-Sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/yseoserious/Etch-A-Sketch/blob/master/index.html)
 * See Mateusz's solution here:  [source code](https://github.com/Emnalyeriar/learning_projects/tree/master/the%20odin%20projects/etch-a-sketch%20pure%20javascript) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Emnalyeriar/learning_projects/blob/master/the%20odin%20projects/etch-a-sketch%20pure%20javascript/index.html)
+* See Gibran Garcia's solution here: [source code](https://github.com/Satimidus/OdinProject/tree/master/SketchPad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Satimidus/OdinProject/blob/master/SketchPad/index.html)
 * *Your solution here...*
