@@ -16,6 +16,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * [Jamie's solution (Apr-16,2014)](https://github.com/Jberczel/odin-projects/tree/master/event_manager)
+* [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/event_manager)
 * *Your Solution Here!*
 
 
@@ -44,6 +45,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Jamie's solution (Apr-16,2014)](https://github.com/Jberczel/odin-projects/tree/master/hangman)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/hangman_fileio)
 * [Jayrobin's solution](https://github.com/jayrobin/hangman)
+* [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/hangman)
 * *Your Solution Here!*
 
 
