@@ -115,6 +115,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Yeon Seo's solution](https://github.com/yseoserious/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/yseoserious/google-homepage/blob/master/index.html)
 * See [Conor Foley's solution](https://github.com/conchurofoghlu/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/conchurofoghlu/google-homepage/blob/master/index.html)
 * See [Laurie Alaoui's solution](https://github.com/lalaouil/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/lalaouil/google-homepage/blob/master/index.html)
+* See [Lui Joy's solution](https://github.com/lui8906/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/lui8906/google-homepage/blob/master/index.html)
+
 
 
 ## Additional Resources
