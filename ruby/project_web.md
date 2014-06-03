@@ -163,6 +163,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
 * [Jamie's solution (Apr-26,2014)](https://github.com/Jberczel/odin-projects/tree/master/sockets)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
+* [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_ruby_web)
 * *Your Solution Here!*
 
 
