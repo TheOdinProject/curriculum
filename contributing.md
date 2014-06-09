@@ -20,7 +20,7 @@ We will also be instituting quizzes at the beginning and end of most lessons.  I
 
 ### 4. Curriculum Strategy
 
-This curriculum is built to pave the way between new students and industry.  If you're a developer or hiring manager and have a strong opinion about something you believe jr devs are lacking these days and should be included in the curriculum, [let us know!](mailto:feeback@theodinproject.com)  If you're a student and have gone through a unit and still don't feel like you understand something well enough, tell us so we can beef up that section!
+This curriculum is built to pave the way between new students and industry.  If you're a developer or hiring manager and have a strong opinion about something you believe junior devs are lacking these days and should be included in the curriculum, [let us know!](mailto:feeback@theodinproject.com)  If you're a student and have gone through a unit and still don't feel like you understand something well enough, tell us so we can beef up that section!
 
 ### Also...
 
