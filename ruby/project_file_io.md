@@ -46,6 +46,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/hangman_fileio)
 * [Jayrobin's solution](https://github.com/jayrobin/hangman)
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/hangman)
+* [Alan Russell's solution](https://github.com/ajrussellaudio/hangman
 * *Your Solution Here!*
 
 
