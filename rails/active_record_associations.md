@@ -121,7 +121,7 @@ In a plain vanilla situation, the comment would `belongs_to` a Post or a Picture
 
 We solve this by storing not just the foreign key **id**, but also a reference to which **type** of model it corresponds to.  That way, whenever you want to retrieve a comment, by specifying which type of thing it belongs to it is no longer ambiguous what you're asking for.  Note that Rails does this for you in the background as long as it knows you're working with a polymorphic association.
 
-We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to name the association.  So in this case we're commenting on things and can thus call the foreign key `"commentable".  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
+We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to name the association.  So in this case we're commenting on things and can thus call the foreign key `"commentable"`.  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
 
 ```language-ruby
     class CreateComments < ActiveRecord::Migration
