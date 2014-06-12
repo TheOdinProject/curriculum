@@ -45,6 +45,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_adv_building_blocks)
 * [Alan Russell's solution](https://github.com/ajrussellaudio/adv_build_blocks/blob/master/bubble_sort.rb)
 * [Mazin Power's solution](https://github.com/muzfuz/CodeLessons/blob/master/RubyBuildingBlocks/bubble.rb)
+* [Sessl's solution](https://github.com/Sessl/ruby_work/blob/master/bubble_sort.rb)
 * Your Solution Here
 
 ## Project 2: Enumerable Methods
