@@ -147,14 +147,14 @@ Cool!
   
     1. If the server detects a POST request, you should identify and parse out the JSON data from it (it will probably be helpful to use the `Content-Length` line you included to break out the data)
     2. Turn that JSON string back into an object by using `JSON.parse` and save that in another hash that we'll call `params` (again because this is what Rails does).  Your code might look like `params = {}; params << JSON.parse(the_post_JSON_string_here)`.
-    3. Now open the `thank_you.html` file and (without modifying the original file since you will want to use it multiple times) use your script to replace the line `<%= yield %>` with a new `<li>` for each one of the data items that you originally entered in your "form" back in your browser.  Display these in whatever format you'd like, for instance `<li>Name: Erik the Red</li><li>Email: erikthered@theodinproject.com</li>`.  
+    3. Now open the `thanks.html` file and (without modifying the original file since you will want to use it multiple times) use your script to replace the line `<%= yield %>` with a new `<li>` for each one of the data items that you originally entered in your "form" back in your browser.  Display these in whatever format you'd like, for instance `<li>Name: Erik the Red</li><li>Email: erikthered@theodinproject.com</li>`.  
     4. Now send that modified file back to your mini-browser and show it.
 
 11. Play with your new browser! Try submitting different things into your `name` and `email` fields and watch them pop back up in the html that gets sent back.  It's not magic, it's HTTP and Ruby.
 
 Holy cow! You just built a command line web browser that sends actual HTTP requests and a web server that can actually interpret those requests, load up files, modify those files based on the inputs, and send them back to your browser.  Take a second to pat yourself on the back.
 
-Now think about what you did.  Let it sink in, including some of the steps that seemed a little odd, like using a hash named `params` and replacing the line in the `thank_you.html` file called `<%= yield %>` with some dynamically generated HTML.  Those are the types of things that Rails does.  That's right, you sort of maybe built a little piece of Rails.  Good work.
+Now think about what you did.  Let it sink in, including some of the steps that seemed a little odd, like using a hash named `params` and replacing the line in the `thanks.html` file called `<%= yield %>` with some dynamically generated HTML.  Those are the types of things that Rails does.  That's right, you sort of maybe built a little piece of Rails.  Good work.
 
 ## Student Solutions
 
@@ -163,6 +163,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
 * [Jamie's solution (Apr-26,2014)](https://github.com/Jberczel/odin-projects/tree/master/sockets)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
+* [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_ruby_web)
 * *Your Solution Here!*
 
 

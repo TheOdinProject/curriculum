@@ -64,7 +64,7 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 
 ## Your Assignment:
 
-1. Read [Version Control Best Practices](http://www.git-tower.com/learn/version-control-best-practices.html) from Tower.
+1. Read [Version Control Best Practices](http://www.git-tower.com/learn/ebook/command-line/appendix/best-practices#start) from Tower.
 1. Skim Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/).  Don't worry too much about the commands you haven't seen yet... just work on the high level concepts.
 
 ## Additional Resources

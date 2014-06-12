@@ -38,6 +38,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* See Nate Bennett's solution here: [source code](https://github.com/n8sb/odin-project/tree/master/sketch-pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/sketch-pad/index.html)
 * See RebootJeff's solution here: [source code](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
 * See Afshinator's solution here: [source code](https://github.com/afshinator/playground/tree/master/SketchPad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/SketchPad/index.html)
 * See Paul Dariye's solution here: [source code](https://github.com/pauldd91/theodinproject/tree/master/sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/pauldd91/theodinproject/master/sketch_pad/index.html)
@@ -65,4 +66,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Yeon Seo's solution here:  [source code](https://github.com/yseoserious/Etch-A-Sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/yseoserious/Etch-A-Sketch/blob/master/index.html)
 * See Mateusz's solution here:  [source code](https://github.com/Emnalyeriar/learning_projects/tree/master/the%20odin%20projects/etch-a-sketch%20pure%20javascript) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Emnalyeriar/learning_projects/blob/master/the%20odin%20projects/etch-a-sketch%20pure%20javascript/index.html)
 * See Gibran Garcia's solution here: [source code](https://github.com/Satimidus/OdinProject/tree/master/SketchPad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Satimidus/OdinProject/blob/master/SketchPad/index.html)
+* See Cedric Charly's solution here: [source code](https://github.com/Cedricgc/playground/tree/master/The%20Odin%20Project/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Cedricgc/playground/blob/master/The%20Odin%20Project/sketchpad/index.html)
+* See Andy Yee's solution here: [source code](https://github.com/ayblu/learning_projects/tree/master/etch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ayblu/learning_projects/blob/master/etch/index.html)
 * *Your solution here...*

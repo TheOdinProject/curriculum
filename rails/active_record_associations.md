@@ -12,7 +12,7 @@ You've already had some familiarity with associations, especially the basic `has
 * How does Rails normally know which table and foreign key to use when you have an association (e.g. `User.first.posts`)?
 * When would you need to specify the `:class_name` option in an association?
 * What about the `:foreign_key`?
-* What about the `:scope`? 
+* What about the `:source`? 
 * What is a polymorphic association and when would you use one?
 * What are two ways to use the association to create a new object instead of just calling `YourObject.new`?  Why is this useful? Which method is preferred?
 * How do you automatically destroy all a User's Post objects if that user is deleted?
@@ -112,7 +112,7 @@ Once you do get things figured out, it can still be helpful to look in your Rail
 
 ## Polymorphic Associations
 
-We'll cover polymorphism here but, if your head is really spinning from the other concepts, feel free to just skim it.  Consider this an "additional topic" instead of a core topic like foreign keys, class names and scopes.
+We'll cover polymorphism here but, if your head is really spinning from the other concepts, feel free to just skim it.  Consider this an "additional topic" instead of a core topic like foreign keys, class names and source.
 
 Polymorphic associations can be a bit of a head scratcher at first and aren't terribly common, but are well suited for their use case. They use a big word to describe a pretty straightforward concept -- what if you have a single model that can belong to a bunch of different types of models?  For example, let's say you're building a service like Facebook where users can comment on any of the different types of things posted by other users (like text, pictures, images).  How do you make it okay to comment on all these different types of objects using just a single Comment model?
 
@@ -121,7 +121,7 @@ In a plain vanilla situation, the comment would `belongs_to` a Post or a Picture
 
 We solve this by storing not just the foreign key **id**, but also a reference to which **type** of model it corresponds to.  That way, whenever you want to retrieve a comment, by specifying which type of thing it belongs to it is no longer ambiguous what you're asking for.  Note that Rails does this for you in the background as long as it knows you're working with a polymorphic association.
 
-We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to name the association.  So in this case we're commenting on things and can thus call the foreign key `"commentable".  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
+We have to call our foreign key something a bit different from the normal case since it's ambiguous which model it's referencing and you can't just use `post_id` or `picture_id`.  A convention is to come up with an abstract term for what type of action you're doing and use that to name the association.  So in this case we're commenting on things and can thus call the foreign key `"commentable"`.  You'll see the `*able` convention used a fair bit. So the migration for that model might look like:
 
 ```language-ruby
     class CreateComments < ActiveRecord::Migration

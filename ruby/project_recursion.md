@@ -3,7 +3,7 @@
 
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Fibonnacci
+## Warmup: Fibonacci
 
 The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which sums each number with the one before it, is a great example of a problem that can be solved recursively.
 
@@ -20,6 +20,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Solution from mahimahi42](https://github.com/mahimahi42/recursion.git)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/blob/master/recursion/fibonacci.rb)
 * [Jamie's solution (May 2014)](https://github.com/Jberczel/odin-projects/blob/master/project_recursion/fibonacci.rb)
+* [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_recursion)
 
 ## Project: Merge Sort
 
@@ -49,6 +50,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Solution from mahimahi42](https://github.com/mahimahi42/recursion.git)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/blob/master/recursion/merge_sort.rb)
 * [Jamie's solution (May 2014)](https://github.com/Jberczel/odin-projects/blob/master/project_recursion/merge_sort.rb)
+* [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_recursion)
 
 
 ## Additional Resources
