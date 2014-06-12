@@ -28,7 +28,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Your Task
 
-1. Read and follow along with [Chapter 2 of The Rails Tutorial](http://ruby.railstutorial.org/chapters/a-demo-app#top) by Michael Hartl, where you will create a basic Ruby on Rails application.
+1. Read and follow along with [Chapter 2 of The Rails Tutorial](http://www.railstutorial.org/book/demo_app#cha-a_demo_app) by Michael Hartl, where you will create a basic Ruby on Rails application.
 
 ### Student Solutions
 
