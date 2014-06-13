@@ -147,4 +147,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Mark W](https://github.com/mwestfall88/Odin-ruby-scripts/blob/master/substrings.rb)
 * [Solution from Mazin Power](https://github.com/muzfuz/CodeLessons/blob/master/RubyBuildingBlocks/substrings.rb)
 * [Solution from Toxox](https://github.com/toxox/TheOdinProject/blob/master/Project3_1_Ruby/substrings.rb)
+* [Solution from Trevor R](https://github.com/treiff/odin-project-ruby/blob/master/substrings.rb)
 * *Your Solution Here...*
