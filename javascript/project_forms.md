@@ -30,4 +30,5 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* See Mateusz's solution here:  [source code](https://github.com/Emnalyeriar/learning_projects/tree/master/the%20odin%20projects/form%20validation) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Emnalyeriar/learning_projects/blob/master/the%20odin%20projects/form%20validation/index.html)
 * *Add some!*
