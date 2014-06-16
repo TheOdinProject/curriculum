@@ -50,6 +50,20 @@ body {
 }
 /* end of Admin Flash CSS */
 
+
+// Social Sharing Buttons 
+.social_sharing_buttons {
+  letter-spacing: 5px;
+  a { 
+    color: black; 
+    font-size: 2em;
+    opacity: 0.2;
+    
+    &:hover { opacity: 0.5; }
+  }
+}
+// End of Social Sharing Buttons
+
 footer {
 
   background-color: $vdark_gray;
