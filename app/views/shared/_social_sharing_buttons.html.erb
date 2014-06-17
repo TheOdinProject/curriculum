@@ -1,14 +1,13 @@
 <div class="social_sharing_buttons pull-left">
-  <%= link_to raw('<span class="fa fa-twitter-square"></span>'), "https://twitter.com/share?text=Check out this lesson: #{@lesson.title}" %>
+  <%= link_to raw('<span class="fa fa-twitter-square"></span>'), "https://twitter.com/share?text=Check out this lesson: #{@lesson.title}", :data => {toggle: 'tooltip'}, title: "Tweet this lesson" %>
   
   <%= link_to raw('<span class="fa fa-facebook-square"></span>'),
-    "https://www.facebook.com/dialog/share?app_id=498294266938114&href=#{request.original_url}&redirect_uri=#{request.original_url}" %>
+    "https://www.facebook.com/dialog/share?app_id=498294266938114&href=#{request.original_url}&redirect_uri=#{request.original_url}", :data => {toggle: 'tooltip'}, title: "Share on Facebook" %>
 
-
-  <a href=<%="https://plus.google.com/share?url=#{request.original_url}"%> onclick="javascript:window.open(this.href,
+  <a data-toggle="tooltip" title="Share on Google+" href=<%="https://plus.google.com/share?url=#{request.original_url}"%> onclick="javascript:window.open(this.href,
     '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="fa fa-google-plus-square"></span></a>
 
-  <a href="#"><span class="fa fa-pinterest-square"></span></a>
+  <a data-toggle="tooltip" title="Pin this lesson" href="#"><span class="fa fa-pinterest-square"></span></a>
 
 </div>
 
