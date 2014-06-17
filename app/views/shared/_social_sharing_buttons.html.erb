@@ -1,7 +1,11 @@
 <div class="social_sharing_buttons pull-left">
   <%= link_to raw('<span class="fa fa-twitter-square"></span>'), "https://twitter.com/share?text=Check out this lesson: #{@lesson.title}" %>
   
-  <a href="#"><span class="fa fa-facebook-square"></span></a>
+  <%= link_to raw('<span class="fa fa-facebook-square"></span>'),
+    "https://www.facebook.com/dialog/share?app_id=498294266938114&href=#{request.original_url}&redirect_uri=#{request.original_url}" %>
+
   <a href="#"><span class="fa fa-google-plus-square"></span></a>
   <a href="#"><span class="fa fa-pinterest-square"></span></a>
+
 </div>
+
