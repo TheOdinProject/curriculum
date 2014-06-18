@@ -27,11 +27,11 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 ## Assignment:
 1. Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).  Only read the introduction (unless you're feeling ambitious).
 2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
-2. Check out Coursera's [Intro to Databases Lectures on YouTube](https://www.youtube.com/playlist?list=PLmQpd4sO8qHujNXJHC0Pn9Nk-WVujTU2o).  We used to sign up for the course but they changed the format so we're using this playlist instead for now.  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).  
+2. Next, you'll be watching some of Stanford's [Intro to Databases course lectures](https://class.stanford.edu/courses/DB/2014/SelfPaced/about).  They've been broken down into a couple of "mini-courses". Do the [first mini-course called "Introduction and Relational Databases"](https://class.stanford.edu/courses/DB/RDB/SelfPaced/about) ([the first video can be found here](https://class.stanford.edu/courses/DB/RDB/SelfPaced/courseware/ch-introduction/seq-vid-introduction/)), and the [mini-course on SQL](https://class.stanford.edu/courses/DB/SQL/SelfPaced/about) ([The first video can be found here](https://class.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-vid-introduction_to_sql/)).
 
-    Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).
+    If those links aren't working, see the Additional Resources section below for more help.  
 
-3. *Note: We are waiting for the Stanford DB course to provide their automated assignments again (which they currently do not!).  So ignore this step for now.*  Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
+    Make sure to do the automated assignments as well for the SQL section!  It's easier if you have a pen-and-paper handy to try and visualize what's going on.
 
 ## Additional Resources
 
@@ -40,3 +40,6 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
+* If the Stanford databases course above isn't working, check out their [playlist on YouTube](https://www.youtube.com/playlist?list=PLmQpd4sO8qHujNXJHC0Pn9Nk-WVujTU2o).  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).  
+
+    Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).
