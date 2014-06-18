@@ -4,18 +4,13 @@
   <%= link_to raw('<span class="fa fa-facebook-square"></span>'),
     "https://www.facebook.com/dialog/share?app_id=498294266938114&href=#{request.original_url}&redirect_uri=#{request.original_url}", :data => {toggle: 'tooltip'}, title: "Share on Facebook" %>
 
-  <a data-toggle="tooltip" title="Share on Google+" href=<%="https://plus.google.com/share?url=#{request.original_url}"%> onclick="javascript:window.open(this.href,
-    '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="fa fa-google-plus-square"></span></a>
+  <a data-toggle="tooltip" title="Share on Google+" href=<%="https://plus.google.com/share?url=#{request.original_url}"%>><span class="fa fa-google-plus-square"></span></a>
 
-  <a data-toggle="tooltip" title="Pin this lesson" href="#"><span class="fa fa-pinterest-square"></span></a>
+  <a data-toggle="tooltip" title="Pin this lesson" href=<%="//www.pinterest.com/pin/create/button/?url=#{request.original_url}&media=#{image_url('odin_big_silhouette.gif')}&description=#{@lesson.title}"%>><span class="fa fa-pinterest-square"></span></a>
 
 </div>
 
-<!-- Load Google+ JavaScript -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
+
+<!-- <%= javascript_include_tag 'social_sharing_buttons' %> -->
+
+
