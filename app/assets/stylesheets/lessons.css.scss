@@ -46,6 +46,9 @@
   li > p{
     margin: 0 inherit;
   }
+  li > p+p{
+    margin-top: 1em;
+  }
 /*         Commented out because it conflicts with prism styles.
   pre{
     font-size: .75em;
