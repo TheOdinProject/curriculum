@@ -13,8 +13,8 @@ You'll implement signin and signout functionality for the user, which opens the 
 
 ### Your Task
 
-1. Do the [Ruby on Rails Tutorial Chapter 8](http://ruby.railstutorial.org/chapters/sign-in-sign-out#top), "Sign in, sign out"
-2. Do the [Ruby on Rails Tutorial Chapter 9](http://ruby.railstutorial.org/chapters/updating-showing-and-deleting-users#top), "Updating, showing and deleting users"
+1. Do the [Ruby on Rails Tutorial Chapter 8](http://www.railstutorial.org/book/sign_in_out#cha-sign_in_sign_out), "Sign in, sign out"
+2. Do the [Ruby on Rails Tutorial Chapter 9](http://www.railstutorial.org/book/updating_and_deleting_users), "Updating, showing and deleting users"
 
 
 ## Project 2: Members Only!
