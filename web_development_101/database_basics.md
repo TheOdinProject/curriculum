@@ -27,7 +27,10 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 ## Assignment:
 1. Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).  Only read the introduction (unless you're feeling ambitious).
 2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
-2. Sign up for Coursera's [Intro to Databases](https://class.coursera.org/db/lecture/index) course and watch the lectures on Relational Databases and SQL (~3 hrs).  These videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  You can save the sections in between Relational Databases and SQL (e.g. relational algebra, XML, JSON) for extra credit.
+2. Check out Coursera's [Intro to Databases Lectures on YouTube](https://www.youtube.com/playlist?list=PLmQpd4sO8qHujNXJHC0Pn9Nk-WVujTU2o).  We used to sign up for the course but they changed the format so we're using this playlist instead for now.  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).  
+
+    Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).
+
 3. Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
 
 ## Additional Resources
