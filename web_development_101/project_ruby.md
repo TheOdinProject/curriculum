@@ -41,6 +41,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Donald's [Test First Ruby Solution](https://github.com/donaldali/odin-webdev101/tree/master/project_ruby)
 * Mazin's [Test First Ruby Solution](https://github.com/muzfuz/CodeLessons/tree/master/RubyBasics)
 * Jason Ellis's [Test First Ruby Solution](https://github.com/jason-ellis/test-first-ruby)
+* Stephanie's [Test First Ruby Solutions](https://github.com/Avonyel/ruby-testing)
 * *Your solution here...*
 
 ## Additional Resources
