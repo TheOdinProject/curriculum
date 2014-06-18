@@ -31,7 +31,7 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 
     Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).
 
-3. Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
+3. *Note: We are waiting for the Stanford DB course to provide their automated assignments again (which they currently do not!).  So ignore this step for now.*  Do the [Automated Assignments](https://class.coursera.org/db/quiz/index) for the SQL section to get a jump on your understanding for the SQL unit we'll be doing later.  Try working with a pen and paper next to you to draw pictures of what's going on.  Again, you can save the additional sections for extra credit.
 
 ## Additional Resources
 
