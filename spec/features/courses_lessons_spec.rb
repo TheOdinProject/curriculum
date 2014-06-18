@@ -278,6 +278,10 @@ describe "Courses and Lessons Pages" do
       subject.find(:xpath,"//*[@class='individual-lesson ']//*[@class='container']").text.should_not be_empty
     end
 
+    it "should show social sharing buttons" do
+      subject.should have_selector('div.social_sharing_buttons')
+    end
+
     it "should have contributions links div" do
       subject.should have_selector(".contribution-links")
     end      
