@@ -17,7 +17,7 @@ Backgrounds are usually ignored until they become a problem and then you're left
 
 ## Your Assignment
 
-1. Read [Shay Howe on Backgrounds & Gradients](http://learn.shayhowe.com/html-css/backgrounds-gradients)
+1. Read [Shay Howe on Backgrounds & Gradients](http://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/)
 2. Check out [HTML Goodies' brief guide to backgrounds and gradients](http://www.htmlgoodies.com/tutorials/getting_started/article.php/3866901)
 
 ## Additional Resources
