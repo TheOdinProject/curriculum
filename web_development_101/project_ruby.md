@@ -42,6 +42,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Mazin's [Test First Ruby Solution](https://github.com/muzfuz/CodeLessons/tree/master/RubyBasics)
 * Jason Ellis's [Test First Ruby Solution](https://github.com/jason-ellis/test-first-ruby)
 * Stephanie's [Test First Ruby Solutions](https://github.com/Avonyel/ruby-testing)
+* Tommy Noe's [Test First Ruby Solutions](https://github.com/thomasjnoe/rspec-intro)
 * *Your solution here...*
 
 ## Additional Resources
