@@ -60,6 +60,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from Mazin Power](https://github.com/muzfuz/CodeLessons/blob/master/RubyBuildingBlocks/caesar.rb)
 * [Solution from Toxox](https://github.com/toxox/TheOdinProject/blob/master/Project3_1_Ruby/caesar.rb)
 * [Solution from Trevor R](https://github.com/treiff/odin-project-ruby/blob/master/cipher.rb)
+* [Solution from TomTom] (https://github.com/tim5046/projectOdin/blob/master/RubyBuildingBlocks/caesarCipher.rb)
 * Your Solution Here
 
 
