@@ -123,6 +123,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * * See [Colin Mason's solution here](https://github.com/skateboard34/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/skateboard34/google-homepage/blob/master/index.html)
 *  See [Melinda Sarnicki's solution here](https://github.com/msarnicki/The-Odin-Project/tree/master/Google%20Home%20Page) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/msarnicki/The-Odin-Project/blob/master/Google%20Home%20Page/index.html)
 * See [Tomislav Mikulin's (Croatian) solution here](https://github.com/MrKindle85/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/MrKindle85/google-homepage/blob/master/index.html)
+* See [Colin Mason's solution here](https://github.com/skateboard34/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/skateboard34/google-homepage/blob/master/index.html)
+* See [Eric Gagnon's solution here](https://github.com/wickedRidge/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/wickedRidge/google-homepage/blob/master/index.html)
 
 ## Additional Resources
 
