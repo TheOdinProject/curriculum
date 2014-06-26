@@ -14,6 +14,7 @@ Links are the glue holding the web together, so make sure you understand how to 
 
 1. Read [Jeffrey Barke's explanation of the difference between absolute and relative paths and why you should use each](http://jeffreybarke.net/2013/06/paths-and-urls-relative-and-absolute/)
 2. Browse [Boogie Jack's article on link paths](http://www.boogiejack.com/server_paths.html)
+3. Read [Brick's of Web Introduction to link pseudo-classes](http://bricksofweb.com/link-pseudo-classes/) 
 
 ## Additional Resources
 

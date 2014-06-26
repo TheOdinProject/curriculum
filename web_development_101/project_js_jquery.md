@@ -68,4 +68,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Gibran Garcia's solution here: [source code](https://github.com/Satimidus/OdinProject/tree/master/SketchPad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Satimidus/OdinProject/blob/master/SketchPad/index.html)
 * See Cedric Charly's solution here: [source code](https://github.com/Cedricgc/playground/tree/master/The%20Odin%20Project/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Cedricgc/playground/blob/master/The%20Odin%20Project/sketchpad/index.html)
 * See Andy Yee's solution here: [source code](https://github.com/ayblu/learning_projects/tree/master/etch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ayblu/learning_projects/blob/master/etch/index.html)
+* See Lisa S's solution here: [source code](https://github.com/lisakstep/OdinProject/tree/master/section2WebDev/etchSketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/lisakstep/OdinProject/blob/master/section2WebDev/etchSketch/browserSketch.html)
 * *Your solution here...*

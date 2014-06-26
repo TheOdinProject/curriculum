@@ -34,7 +34,7 @@ It's time to build an on-screen calculator
 
 * [Solution from mahimahi42](https://github.com/mahimahi42/js-calc.git)
 * [Solution from NerdDiffer](https://github.com/NerdDiffer/simpleCalculator)
-
+* jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/calculator) | [demo](http://jsfiddle.net/Jberczel/3f3SG/)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
