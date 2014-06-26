@@ -28,6 +28,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Solution from mahimahi42](https://github.com/mahimahi42/microblogger.git) 
 * [Jamie's solution (Apr-22,2014)](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
 * [Solution from bucifer (5/27/2014)](https://github.com/bucifer/MicroBlogger)
+* [Solution from Mazin Power (06/23/2014)](https://github.com/muzfuz/CodeLessons/tree/master/spambot)
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
@@ -164,6 +165,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Jamie's solution (Apr-26,2014)](https://github.com/Jberczel/odin-projects/tree/master/sockets)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_ruby_web)
+* [Mazin Power's](https://github.com/muzfuz/CodeLessons/tree/master/web_server)
 * *Your Solution Here!*
 
 
