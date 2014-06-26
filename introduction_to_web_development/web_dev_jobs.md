@@ -39,3 +39,4 @@ Developers at web consultancies like Pivotal Labs, Thoughtbot, and ThoughtWorks 
 * [A day in the life of a Web Developer: Improvise](http://blogs.lt.vt.edu/compass/a-day-in-the-life-of-a-web-developer-improvise/)
 * [Your career in GIFs](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
 * [A look at the new "Developer Evangelist" roles](http://thenextweb.com/dd/2012/06/03/a-day-in-the-life-of-a-developer-evangelist/)
+* [Salaries around the world from staff.com](http://www.staff.com/blog/it-jobs-with-the-highest-pay-and-fastest-growth-infographic/)
