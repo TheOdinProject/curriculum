@@ -14,14 +14,14 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 3. Push your project to Github and share the solution below.
 
 
-## Student Solutions
-* jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/restaurant) | [demo](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-javascript/blob/master/restaurant/index.html
-)
-
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* *Your solution here!*
+## Student Solutions
+* jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/restaurant) | [demo](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-javascript/blob/master/restaurant/index.html)
 
+* Afshin M's June '14 [solution](https://github.com/afshinator/js-tabbedPane) | [demo](http://htmlpreview.github.io/?https://github.com/afshinator/js-tabbedPane/blob/master/index.html)
+
+* *Your solution here!*
 
 
 ## Additional Resources
