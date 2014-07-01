@@ -150,4 +150,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Toxox](https://github.com/toxox/TheOdinProject/blob/master/Project3_1_Ruby/substrings.rb)
 * [Solution from Trevor R](https://github.com/treiff/odin-project-ruby/blob/master/substrings.rb)
 * [Solution from Tommy Noe](https://github.com/thomasjnoe/ruby-projects-1/blob/master/substrings.rb)
+* [Solution from JD Shelley](https://github.com/lightcast/the_odin_project/blob/master/sub_strings.rb)
 * *Your Solution Here...*
