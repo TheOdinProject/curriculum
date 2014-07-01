@@ -62,6 +62,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from Trevor R](https://github.com/treiff/odin-project-ruby/blob/master/cipher.rb)
 * [Solution from TomTom] (https://github.com/tim5046/projectOdin/blob/master/RubyBuildingBlocks/caesarCipher.rb)
 * [Solution from Tommy Noe] (https://github.com/thomasjnoe/ruby-projects-1/blob/master/cipher.rb)
+* [Solution from JD Shelley(https://github.com/lightcast/the_odin_project/blob/master/caesar_cipher.rb)
 
 
 ## Project 2: Stock Picker
