@@ -17,6 +17,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 
 * [Jamie's solution (Apr-16,2014)](https://github.com/Jberczel/odin-projects/tree/master/event_manager)
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/event_manager)
+* [Marina D's Solution](https://github.com/mousterian/OdinProject/tree/master/Project2_4_Ruby_FileIO/event_manager)
 * *Your Solution Here!*
 
 
@@ -47,6 +48,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Jayrobin's solution](https://github.com/jayrobin/hangman)
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/hangman)
 * [Alan Russell's solution](https://github.com/ajrussellaudio/hangman)
+* [Marina D's solution](https://github.com/mousterian/OdinProject/tree/master/Project2_4_Ruby_FileIO/hangman)
 * *Your Solution Here!*
 
 
