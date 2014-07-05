@@ -4,7 +4,7 @@
 
 It's pretty easy to turn your application into an API, but what about grabbing data from other APIs across the internet?  That's where things usually get a bit more challenging because they're all different and you've got to authenticate yourself.
 
-Most popular services offer APIs so developers can interface with them (they lovei t if you can get more people using their platform).  Facebook, Twitter, Instagram, Flickr, Dropbox, AirBnB... They've all got APIs.  Just Google "companyX API docs" and you'll get to their developers section.
+Most popular services offer APIs so developers can interface with them (they love it if you can get more people using their platform).  Facebook, Twitter, Instagram, Flickr, Dropbox, AirBnB... They've all got APIs.  Just Google "companyX API docs" and you'll get to their developers section.
 
 If you go to the documentation for an API, it can sometimes be a bit overwhelming because much of the material sort of assumes that you know what you're doing, but some are definitely better than others.  There are also elements that are common across almost all of them.  The more you work with APIs (and get the hang of the authentication flow), the easier they get.  You'll be making mashups in no time.
 
