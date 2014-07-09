@@ -50,6 +50,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/hangman)
 * [Alan Russell's solution](https://github.com/ajrussellaudio/hangman)
 * [Marina D's solution](https://github.com/mousterian/OdinProject/tree/master/Project2_4_Ruby_FileIO/hangman)
+* [TomTom's Solution](https://github.com/tim5046/projectOdin/blob/master/FilesAndSerialization/Hangman/)
 * *Your Solution Here!*
 
 
