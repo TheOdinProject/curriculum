@@ -41,7 +41,8 @@ If you think about what's required to make a game like this work, it's all well 
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* *Your solution here!*
+* Afshin M.'s July 2014 [solution](https://github.com/afshinator/js-snake), with link to demo.
+* Your solution here!
 
 
 ## Additional Resources
