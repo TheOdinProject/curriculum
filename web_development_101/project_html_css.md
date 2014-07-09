@@ -131,6 +131,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Will Cameron's solution here](https://github.com/camerow/google-homepage-recreate.git) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/camerow/google-homepage-recreate/blob/master/googleSearch.html)
 * See [Michael Alexander's solution here](https://github.com/betweenparentheses/google-homepage/blob/master/google.html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/betweenparentheses/google-homepage/blob/master/google.html)
 * See [Tamim Sookoor's solution here](https://github.com/sookoor/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/sookoor/google-homepage/blob/master/index.html)
+* See [Steve Mitchell's solution here](https://github.com/Ixpata/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Ixpata/google-homepage/blob/master/index.html)
+
 
 ## Additional Resources
 
