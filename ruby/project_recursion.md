@@ -22,6 +22,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Jamie's solution (May 2014)](https://github.com/Jberczel/odin-projects/blob/master/project_recursion/fibonacci.rb)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_recursion)
 * [Mazin's solution](https://github.com/muzfuz/CodeLessons/blob/master/recursion/fibonacci.rb)
+* [TomTom's solution](https://github.com/tim5046/projectOdin/blob/master/Recursion/fibonacci.rb)
 
 ## Project: Merge Sort
 
