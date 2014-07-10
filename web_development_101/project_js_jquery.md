@@ -71,4 +71,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Lisa S's solution here: [source code](https://github.com/lisakstep/OdinProject/tree/master/section2WebDev/etchSketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/lisakstep/OdinProject/blob/master/section2WebDev/etchSketch/browserSketch.html)
 * See Bitvala's solution here: [source code](https://github.com/Bitvala/Etch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Bitvala/Etch/blob/master/index.html)
 * See Michael Alexander's solution here: [source code](https://github.com/betweenparentheses/jquery-sketch-project/) or [view it in browser](http://htmlpreview.github.io/?https://github.com/betweenparentheses/jquery-sketch-project/blob/master/index.html)
+* See Steve Mitchell's solution here: [source code](https://github.com/Ixpata/ixpata.github.io) or [view it in browser](http://ixpata.github.io/)
 * *Your solution here...*
