@@ -98,6 +98,14 @@
 
 </div>
 
+<!-- Provide support for window.lesson.applyScrollEffect() in IE8  -->
+<!--[if IE 8]>
+  <script>
+    $('.navbar-fixed-top').addClass('ie8--onScroll');
+    $('#lesson-nav').addClass('ie8--onScroll');
+  </script>
+<![endif]-->
+
 <script>
   $(function(){
     $(".individual-lesson a[href^='http://']").attr("target","_blank");

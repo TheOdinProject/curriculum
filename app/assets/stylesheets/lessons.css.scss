@@ -640,7 +640,13 @@
     display: inline-block;
     opacity: .5;
   }
+  // Provide support for window.lesson.applyScrollEffect() in IE8
+  &.scroll--down.ie8--onScroll{
+    // Currently .navbar obscures breadcrumbs, use 10px until bugfix
+    top: 10px;
+  }
 }
+
 @media (max-width: 979px) {
   #lesson-nav{
     position: absolute;
