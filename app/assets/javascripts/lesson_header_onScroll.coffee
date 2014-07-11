@@ -4,6 +4,15 @@ window.lesson.applyScrollEffect = (classList, options) ->
     @prevST = 0
     @scrollTimer = null
 
+    @onHover = ->
+        elem.addClass('mouse--enter') for elem in classList
+        $('.mouse--enter').hover(
+            => @showElems()
+            => @hideElems()
+        )
+
+    @onHover() if options.showOnHover
+
     @onScroll = =>
         currentST = $(window).scrollTop()
 
