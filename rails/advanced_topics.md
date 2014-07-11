@@ -9,7 +9,7 @@ There are some topics that we just haven't had a chance to get into yet but will
 *Look through these now and then use them to test yourself after doing the assignment*
 
 
-* When do you need to use a singular Resource vs a pural Resources in your router?
+* When do you need to use a singular Resource vs a plural Resources in your router?
 * What is the "missing" route when using a singular Resource? (there are only 6 when you `$ rake routes`)  What else is missing from many of the other routes?
 * Why would you use nested routes?
 * What order do you specify their respective IDs? What are they called in `params`?
@@ -100,7 +100,7 @@ Don't nest routes too deeply! If you're more than a layer or two deep, something
     # config/routes.rb
     TestApp::Application.routes.draw do
       resources :courses do
-        resources :lessons, :only => [:index,]
+        resources :lessons, :only => [:index, :create]
       end
     end
 ```
