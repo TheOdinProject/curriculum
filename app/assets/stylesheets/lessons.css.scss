@@ -649,6 +649,14 @@
   }
 }
 
+// For scroll effect, window.lesson.applyScrollEffect()
+@media (min-width: 980px) {
+  #lesson-nav.scroll--down{
+    // Height of .navbar === 50px
+    @include translateY(-50px);
+  }
+}
+
 /* This style adds to the 'individual-lesson' class */
 .project-lesson{
   h1{
@@ -657,6 +665,3 @@
   h2{
   }
 }
-
-
-

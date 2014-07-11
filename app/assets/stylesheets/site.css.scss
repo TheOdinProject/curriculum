@@ -320,9 +320,20 @@ form#edit-user{
   }
 }
 
+/* ****** Lesson .navbar && #lesson-nav Scroll Effect ****** */
+.scroll--down, .scroll--up {
+  @include linear-transform(300ms);
+}
 /* ****************** MEDIA QUERIES ********************** */
 @media (max-width: 979px){
   body {
     padding-top: 0px;
+  }
+}
+
+// For window.lesson.applyScrollEffect()
+@media (min-width: 980px) {
+  .navbar-fixed-top.scroll--down{
+    @include translateY(-100%);
   }
 }
