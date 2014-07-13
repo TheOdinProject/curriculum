@@ -106,7 +106,7 @@ describe "Sign Up" do
         click_on "Sign up with Github"
         page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
       end     
-      
+
       it "provides accurate link to resend confirmation instructions from any page" do
         click_on("Logout")  # clear session
         git_user = User.last  # the user just created in the before statement 
@@ -121,6 +121,10 @@ describe "Sign Up" do
         click_on "Didn't receive instructions or need them again?"
         fill_in("Email", with: git_user.email)
         click_on "Resend confirmation instructions"
+        email = ActionMailer::Base.deliveries.last.encoded
+        link = email.match(/"(.*confirmation_token.*)"/)[1]
+        visit link
+        page.should have_selector("div", text: "Thanks for confirming your email address!")
         save_and_open_page
       end 
     end
