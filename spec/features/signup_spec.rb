@@ -105,7 +105,24 @@ describe "Sign Up" do
         visit sign_up_path
         click_on "Sign up with Github"
         page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
-      end      
+      end     
+      
+      it "provides accurate link to resend confirmation instructions from any page" do
+        click_on("Logout")  # clear session
+        git_user = User.last  # the user just created in the before statement 
+        git_user.created_at = Time.now - 3.days
+        git_user.confirmation_sent_at = Time.now - 3.days
+        git_user.save
+        visit courses_path
+        click_on Course.first.title
+        click_on Lesson.first.title
+        click_on "Login"
+        click_on "Sign in with Github"
+        click_on "Didn't receive instructions or need them again?"
+        fill_in("Email", with: git_user.email)
+        click_on "Resend confirmation instructions"
+        save_and_open_page
+      end 
     end
   end
 end
