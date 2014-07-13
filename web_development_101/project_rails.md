@@ -35,6 +35,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Donald's Solution [Jumpstart Labs Blogger App](https://github.com/donaldali/blogger)
 * Mark Westfall's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/mwestfall88/J-labs-blogger-app) | [View online](http://vast-gorge-8047.herokuapp.com/)
 * Tommy Noe's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/thomasjnoe/blogger-2) | [View online](http://arcane-brushlands-3721.herokuapp.com)
+* Juan Vazquez's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/juanvme/blogger) | [View online](http://secure-lowlands-4285.herokuapp.com/)
 * *Your solution here...*
 
 
