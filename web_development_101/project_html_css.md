@@ -23,11 +23,14 @@ These skills will be helpful for you when you start building.  Either try them y
 
 You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/web-development-101/installations), so here we're going to put it to use.
 
+These instructions will be the same for every project we do.  They may seem strange or odd at first (especially if you haven't officially learned about Git yet, which we do later), but don't worry -- you'll get it because you'll do it dozens of times.  If you're really frustrated, skip it the first time -- building is more important than Git right now!
+
 1. If you haven't already, create a folder on your computer called `the_odin_project` which will house all your projects .
 2. Go to your Github.com account and log in.
-3. Create a new repo for this project [by following the instructions on Github.](https://help.github.com/articles/create-a-repo ) and call it `google-homepage` (instead of `Hello-World`).  Make your repository "Public" instead of "Private".
+3. Create a new repo for this project on Github.com [by following the instructions on Github.](https://help.github.com/articles/create-a-repo) and call it `google-homepage` (instead of `Hello-World`).  Make your repository "Public" instead of "Private".
 4. Go to your new repository on Github (`http://github.com/YOUR_USERNAME/google-homepage`) and take a look at it.  If you scroll down, you'll see that the `README` file you just created is what is displayed by default.
-5. Open the `README` file on your local computer and change its text to include the title of the project and a link to this project on theodinproject.com.
+5. Download your repository to your local computer by using the `$ git clone` command.  [This should be a helpful article](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository)(see the second section). Basically, you'll need to get the URL for your repository (it will end with `.git`) so the `clone` knows where to grab that repo from.  You can find your repo's clone URL by checking on the right-hand column (called "HTTPS clone URL") on the repo's main page on Github.  The full command would look something like `$ git clone https://github.com/theodinproject/curriculum.git`.  It pulls your repo from your Github account down onto your local computer.  
+6. `cd` into your project directory on your local computer and open the `README` file in your text editor.  Change its text to include the title of the project and a link to this project on theodinproject.com.
 6. Commit the updated `README` to your Github repository using the commands below on your command prompt:
 
     ```language-bash
@@ -42,12 +45,19 @@ You'll want to organize all your projects as you go through the course, and the 
     $ git push origin master
     ```
 
-When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push`.
+*When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push`.*
+
+You should be able to see the changes to your README on Github if you refresh the page.  
+
+*If you're not comfortable yet with using Git from the command line, you can actually just click into the README file on Github's web interface and then click the Edit button at the top to edit directly on the website.  This is covered in the second part of [the above-mentioned article](https://help.github.com/articles/create-a-repo) on creating a repo*
 
 Note: All Git commands need to be run from inside your project's folder (the one where you typed `$ git init`) or you'll get an error!
 
+Okay, that's enough Git for the moment -- time to actually build stuff!
+
 ## Easy Version: Build the [Google.com](http://www.google.com) homepage
 (the simple one with just a search box).
+
 
 Inside your project folder, create your index.html file
 
