@@ -12,6 +12,11 @@
   </div>
 </div>
 
+<div class="alert alert-info scroll-effect-alert">
+  <strong>Scroll up</strong> or <strong>hover</strong> over the breadcrumbs to view the navigation bar
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+</div>
+
 <!-- progress-tracking bar -->
 
 <%= render :partial => "shared/pt_bar", :locals => { :lesson => @lesson } %>
@@ -112,6 +117,6 @@
     $(".individual-lesson a[href^='https://']").attr("target","_blank");
   });
 
-  // Invoke scroll effect, file lesson_navbar_effect.coffee
+  // Invoke scroll effect, file lesson_header_onScroll.coffee
   window.lesson.applyScrollEffect([$('.navbar-fixed-top'), $('#lesson-nav')], { showOnHover: true });
 </script>

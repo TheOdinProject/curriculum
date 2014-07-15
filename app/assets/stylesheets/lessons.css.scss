@@ -653,6 +653,7 @@
     z-index: 0;
     margin-top:10px;
   }
+  .scroll-effect-alert { display: none; }
 }
 
 // For scroll effect, window.lesson.applyScrollEffect()
@@ -660,6 +661,13 @@
   #lesson-nav.scroll--down{
     // Height of .navbar === 50px
     @include translateY(-50px);
+  }
+  .scroll-effect-alert{
+    right: 10px;
+    top: 5px;
+    display: inline;
+    width: 500px;
+    &.alert{ position: fixed; }
   }
 }
 

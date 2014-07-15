@@ -4,6 +4,11 @@ window.lesson.applyScrollEffect = (classList, options) ->
     @prevST = 0
     @scrollTimer = null
 
+    if localStorage.getItem('scrollAlertShown')
+        $('.scroll-effect-alert').alert('close')
+    else
+        $('.scroll-effect-alert .close').click(-> localStorage.setItem('scrollAlertShown', 'true'))
+
     @onHover = ->
         elem.addClass('mouse--enter') for elem in classList
         $('.mouse--enter').hover(
