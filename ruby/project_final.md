@@ -30,7 +30,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 
 * *Your Solution Here!*
 * [Donald's Solution](https://github.com/donaldali/Chess)
-* [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/FinalProject)
+* [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
 
 
 ## Additional Resources
