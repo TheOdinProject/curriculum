@@ -78,14 +78,14 @@ For example, perhaps we change the example above so a Post actually can have mul
 ```language-ruby
     # app/models/post.rb
     class Post < ActiveRecord::Base
-      has_many :post_authorings
+      has_many :post_authorings, :foreign_key => :authored_post_id
       has_many :authors, :through => :post_authorings, :source => :post_author
       belongs_to :editor, :class_name => "User"
     end
 
     # app/models/user.rb
     class User < ActiveRecord::Base
-      has_many :post_authorings
+      has_many :post_authorings, :foreign_key => :post_author_id
       has_many :authored_posts, :through => :post_authorings
       has_many :edited_posts, :foreign_key => :editor_id, :class_name => "Post"
     end
