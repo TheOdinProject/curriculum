@@ -74,6 +74,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 
 * *Your Solution Here!*
 * Jamie's [solution](https://github.com/Jberczel/private_events) | [demo](http://privent.herokuapp.com/)
+* [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/private-events)
 
 ## Additional Resources
 
