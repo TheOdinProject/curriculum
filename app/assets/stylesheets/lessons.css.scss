@@ -640,12 +640,26 @@
     display: inline-block;
     opacity: .5;
   }
+  // Provide support for window.lesson.applyScrollEffect() in IE8
+  &.scroll--down.ie8--onScroll{
+    // Currently .navbar obscures breadcrumbs, use 10px until bugfix
+    top: 10px;
+  }
 }
+
 @media (max-width: 979px) {
   #lesson-nav{
     position: absolute;
     z-index: 0;
     margin-top:10px;
+  }
+}
+
+// For scroll effect, window.lesson.applyScrollEffect()
+@media (min-width: 980px) {
+  #lesson-nav.scroll--down{
+    // Height of .navbar === 50px
+    @include translateY(-50px);
   }
 }
 
@@ -657,6 +671,3 @@
   h2{
   }
 }
-
-
-
