@@ -123,6 +123,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * Marina D's [solution](https://github.com/mousterian/OdinProject/tree/master/Project3_ActiveRecordBasics/micro-reddit)
 * Anh Le's [solution](https://github.com/LaDilettante/micro_reddit.git)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/micro-reddit)
+* [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/microReddit/micro-reddit)
 
 ## Additional Resources
 
