@@ -19,6 +19,7 @@ The page is very straightforward, so you should be able to clone it even if your
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* See [Jason Ellis's solution here](https://github.com/jason-ellis/mint-signup) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
 * *Your solution here...* 
 
 ## Additional Resources
