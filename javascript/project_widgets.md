@@ -35,7 +35,7 @@ Don't spend too much time worrying about getting your images to display at the c
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * *Your solution here!*
-* jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [demo](http://jsfiddle.net/Jberczel/6kS3t/3/)
+* jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [demo](http://jsfiddle.net/Jberczel/6kS3t/)
 
 
 ## Additional Resources
