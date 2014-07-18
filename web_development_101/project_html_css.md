@@ -143,7 +143,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Tamim Sookoor's solution here](https://github.com/sookoor/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/sookoor/google-homepage/blob/master/index.html)
 * See [Steve Mitchell's solution here](https://github.com/Ixpata/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Ixpata/google-homepage/blob/master/index.html)
 * See [Benjamin Ratiarisolo's (French) solution here](https://github.com/ratiaris/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ratiaris/google-homepage/blob/master/google.html)
-
+* See [John Miller's solution here](https://github.com/johndrmiller/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/johndrmiller/google-homepage/blob/master/index.html)
 
 ## Additional Resources
 
