@@ -526,9 +526,13 @@
 }
 
 
-.contributing{
+.contributing {
 
   @extend .individual-lesson;
+  .container {
+    // quick hack to override `position relative` inherited from .invididual-lesson
+    position: static;
+  }
 
   .star{
     padding:15px;
