@@ -7,7 +7,7 @@
  */
 
 $(function () {
-    Swiftype.key = "e5pfHKy9qqzbhmu8wz3V";
+    Swiftype.key = "jHBGdKXDRc_9w7qUQANE";
   
     // Cache the jquery selections of modal elements (since they'll be referred to continuously ).
     var $searchInput = $('#st-search-input');                // the search box
