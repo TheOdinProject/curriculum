@@ -26,8 +26,17 @@ feature "Search" do
 
   # Non-static pages should have a search-box
   describe "Curriculum pages" do
-    before { visit curriculum_path }
+    before do
+      visit curriculum_path
+      # Make the window big enough so the navbar doesn't collapse
+      # and hide the search field!
+      page.driver.browser.manage.window.resize_to(1200,600)
+    end
     
+    it "should have a searchbox", :js => true do
+      expect(page).to have_css('#st-search-input')
+    end
+
     it "brings up results modal with valid input", :js => true do
       fill_in 'st-search-input', :with => 'controller'
       page.has_css?('#st-results-modal')
@@ -38,10 +47,10 @@ feature "Search" do
       page.has_no_css?('#st-results-modal')
     end
  
-    it "sends a GET request to swiftype for search results", 
-      fill_in 'st-search-input', :with => "SQL\n"
-      FakeWeb.last_request  # TODO
-    end
+    # it "sends a GET request to swiftype for search results", 
+    #   fill_in 'st-search-input', :with => "SQL\n"
+    #   FakeWeb.last_request  # TODO
+    # end
   end
 
 end
