@@ -41,7 +41,7 @@ class UsersController < ApplicationController
   def send_confirmation_link
     current_user.send_confirmation_instructions
     flash[:notice] = "Confirmation instructions have been sent to your email address!"
-    redirect_to courses_path
+    redirect_to request.referer
   end
 
   protected

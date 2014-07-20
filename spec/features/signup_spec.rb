@@ -105,7 +105,7 @@ describe "Sign Up" do
         visit sign_up_path
         click_on "Sign up with Github"
         page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
-      end      
+      end     
     end
   end
 end

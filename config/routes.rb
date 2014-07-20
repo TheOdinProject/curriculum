@@ -8,7 +8,7 @@ devise_for :users,
     get '/logout' => 'devise/sessions#destroy', :method => :delete
     get 'sign_up' => 'devise/registrations#new'
     get 'signup' => 'devise/registrations#new'
-    get 'confirm_email' => 'users#send_confirmation_link'
+    get '/confirm_email' => 'users#send_confirmation_link'
   end
 
   root :to => 'static_pages#home'
