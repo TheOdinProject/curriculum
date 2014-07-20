@@ -647,6 +647,14 @@
   }
 }
 
+.scroll-effect-alert {
+  display: none;
+  right: 10px;
+  top: 5px;
+  width: 500px;
+  &.alert{ position: fixed; }
+}
+
 @media (max-width: 979px) {
   #lesson-nav{
     position: absolute;
@@ -661,6 +669,7 @@
     // Height of .navbar === 50px
     @include translateY(-50px);
   }
+  .scroll-effect-alert{ display: inline; }
 }
 
 /* This style adds to the 'individual-lesson' class */
