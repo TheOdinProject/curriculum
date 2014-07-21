@@ -37,6 +37,8 @@ It's time to build an on-screen calculator
 * jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/calculator) | [demo](http://jsfiddle.net/Jberczel/3f3SG/)
 * Afshin M's May 2014 [solution](https://github.com/afshinator/js-calculator) | [demo](http://htmlpreview.github.io/?https://github.com/afshinator/js-calculator/blob/master/index.html)
 * [Solution from lbain](https://github.com/lbain/code-sydney-work/tree/master/week-1/calculator) | [demo](http://lucybain.com/code-sydney-work/week-1/calculator/)
+* [Solution from Peter Hurford](https://github.com/peterhurford/jscalculator)
+* Your soulution here...
 
 ## Additional Resources
 
