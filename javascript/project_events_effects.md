@@ -43,6 +43,7 @@ If you think about what's required to make a game like this work, it's all well 
 
 * Afshin M.'s July 2014 [solution](https://github.com/afshinator/js-snake), with link to demo.
 * jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/snake) | [demo](http://jsfiddle.net/Jberczel/xvEt5/)
+* [Peter Hurford's Portal Snake](https://github.com/peterhurford/portalsnake)
 * Your solution here!
 
 
