@@ -55,6 +55,8 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_recursion)
 * [Mazin's solution](https://github.com/muzfuz/CodeLessons/blob/master/recursion/merge_sort.rb)
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/blob/master/Recursion/mergeSort.rb)
+* [Peter's solution](https://github.com/peterhurford/sorts/blob/master/mergesort.rb)
+* Your solution here...
 
 
 ## Additional Resources
