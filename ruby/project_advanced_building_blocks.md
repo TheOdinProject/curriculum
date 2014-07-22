@@ -48,6 +48,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Sessl's solution](https://github.com/Sessl/ruby_work/blob/master/bubble_sort.rb)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/ruby-project-2/blob/master/bubble_sort.rb)
 * [Peter's solution](https://github.com/peterhurford/sorts/blob/master/bubblesort.rb)
+* [Michael Alexander's solution](https://github.com/betweenparentheses/project_advanced_bldg_blocks/blob/master/bubble_sort.rb)
 * Your solution here...
 
 ## Project 2: Enumerable Methods
