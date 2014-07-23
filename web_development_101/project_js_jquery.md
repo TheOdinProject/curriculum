@@ -74,4 +74,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Steve Mitchell's solution here: [source code](https://github.com/Ixpata/ixpata.github.io) or [view it in browser](http://ixpata.github.io/)
 * See Benjamin Ratiarisolo's solution here: [source code](https://github.com/ratiaris/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ratiaris/sketchpad/blob/master/sketchpad.html)
 * See Peter Hurford's solution here: [source code](https://github.com/peterhurford/etchsketch)
+* See Ingi Kim's solution here: [source code](https://github.com/ingikim/The-Odin-Projects/tree/master/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ingikim/The-Odin-Projects/blob/master/sketchpad/index.html)
 * *Your solution here...*
