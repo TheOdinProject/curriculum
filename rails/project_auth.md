@@ -97,7 +97,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 
 * *Your Solution Here!*
 * Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
-* Marina D's [solution](https://github.com/mousterian/OdinProject/tree/master/Project3_Authentication) 
+* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/members-only)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/membersOnly/members-only)
 ## Additional Resources

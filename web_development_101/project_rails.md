@@ -38,7 +38,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Juan Vazquez's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/juanvme/blogger) | [View online](http://secure-lowlands-4285.herokuapp.com/)
 * Ruben Mendez's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/ruben-socal/blogger)
 * Michael Alexander's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/betweenparentheses/jumpstart_labs_blogger) | [View online](http://quiet-dawn-1285.herokuapp.com/)
-* *Your solution here...*
+* Marina Sergeyeva's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/imousterian/OdinProject/tree/master/Project1_4_RubyOnRails)
+* *Your solution above here...*
 
 
 ## Additional Resources
