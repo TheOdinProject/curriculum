@@ -120,7 +120,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * *[Microreddit Project](https://github.com/voizzzz/microreddit) by voizzzz*
 * Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * Afshin's [solution](https://github.com/afshinator/micro-reddit)
-* Marina D's [solution](https://github.com/mousterian/OdinProject/tree/master/Project3_ActiveRecordBasics/micro-reddit)
+* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project3_ActiveRecordBasics/micro-reddit)
 * Anh Le's [solution](https://github.com/LaDilettante/micro_reddit.git)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/micro-reddit)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/microReddit/micro-reddit)

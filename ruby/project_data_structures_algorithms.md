@@ -32,6 +32,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_data_structs_alg/bst)
 * [Mazin's Solution](https://github.com/muzfuz/CodeLessons/blob/master/binary_search/binary_search.rb)
 * [Peter Hurford's Solution](https://github.com/peterhurford/sorts/blob/master/binarytree.rb)
+* [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/blob/master/Project2_7_Ruby_DataStructures/binarytree.rb)
 * *Your Solution Here!*
 
 ## Project 2: Knight's Travails
@@ -74,6 +75,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_data_structs_alg/knights_travails)
 * [Peter Hurford's Solution](https://github.com/peterhurford/sorts/blob/master/knightstour.rb)
+* [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/blob/master/Project2_7_Ruby_DataStructures/knight.rb)
 * *Your Solution Here!*
 
 ## Additional Resources
