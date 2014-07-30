@@ -19,6 +19,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/event_manager)
 * [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/tree/master/Project2_4_Ruby_FileIO/event_manager)
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/FilesAndSerialization/event_manager)
+* [Tommy Noe's Solution](https://github.com/thomasjnoe/jumpstartlab-event-manager)
 * *Your Solution Here!*
 
 
