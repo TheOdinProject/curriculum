@@ -13,7 +13,6 @@ You've learned about Models, Views, and Controllers.  That's the nuts and bolts,
 * What are "Manifest Files"?
 * Why would you namespace your stylesheets?
 * What does it mean to "Escape" HTML?
-* 
 
 ## The Asset Pipeline
 
