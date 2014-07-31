@@ -16,9 +16,9 @@ describe Ad do
       end
 
       context "with longtime user signed in" do
-        it "should NOT show the ad" do
+        it "should still show the ad" do
           current_user = double("User", :created_at => 11.days.ago)
-          expect(Ad.show_ads?(current_user)).to eq(false)
+          expect(Ad.show_ads?(current_user)).to eq(true)
         end
       end
 
