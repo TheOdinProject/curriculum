@@ -81,6 +81,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+*See [Julian Feliciano's solution here](https://github.com/JulsFelic/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://raw.githubusercontent.com/JulsFelic/google-homepage/master/index.html).
 * See [Nate Bennett's solution here](https://github.com/n8sb/odin-project/tree/master/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/google-homepage/index.html).
 * See [David Becker's solution here](https://github.com/d88becker/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/d88becker/google-homepage/blob/master/index.html)
 * See [Nate Bennett's solution here](https://github.com/n8sb/google-homepage) or [view it in the browser here](https://rawgithub.com/n8sb/google-homepage/master/index.html).
