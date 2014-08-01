@@ -26,6 +26,7 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 
 * *Your Solution Here!*
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec)
 * 
 
 
@@ -49,6 +50,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 
 * *Your Solution Here!*
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing/connect_four_tdd)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec/connect_four)
 * 
 
 
