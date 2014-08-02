@@ -20,6 +20,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/tree/master/Project2_4_Ruby_FileIO/event_manager)
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/FilesAndSerialization/event_manager)
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/jumpstartlab-event-manager)
+* [Michael Alexander's Solution](https://github.com/betweenparentheses/event_manager)
 * *Your Solution Here!*
 
 
