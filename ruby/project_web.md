@@ -30,6 +30,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Solution from bucifer (5/27/2014)](https://github.com/bucifer/MicroBlogger)
 * [Solution from Mazin Power (06/23/2014)](https://github.com/muzfuz/CodeLessons/tree/master/spambot)
 * [Solution from Marina Sergeyeva](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
+* [Solution from Tommy Noe](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
