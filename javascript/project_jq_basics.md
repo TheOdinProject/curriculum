@@ -21,6 +21,8 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 
 * Afshin M's June '14 [solution](https://github.com/afshinator/js-tabbedPane) | [demo](http://htmlpreview.github.io/?https://github.com/afshinator/js-tabbedPane/blob/master/index.html)
 
+*[Tom M's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project2) | [demo] (http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Project2/index.html) 
+
 * *Your solution here!*
 
 
