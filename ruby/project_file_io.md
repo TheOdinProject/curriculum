@@ -56,6 +56,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Peter's Solution (with AI)](https://github.com/peterhurford/hangman)
 * [Teaflavored's Solution](https://github.com/Teaflavored/Project-Odin-Ruby-Programming/tree/master/Hangman)
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/hangman)
+* [Michael Alexander's Solution](https://github.com/betweenparentheses/hangman)
 
 
 ## Additional Resources
