@@ -75,7 +75,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Benjamin Ratiarisolo's solution here: [source code](https://github.com/ratiaris/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ratiaris/sketchpad/blob/master/sketchpad.html)
 * See Peter Hurford's solution here: [source code](https://github.com/peterhurford/etchsketch)
 * See Ingi Kim's solution here: [source code](https://github.com/ingikim/The-Odin-Projects/tree/master/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ingikim/The-Odin-Projects/blob/master/sketchpad/index.html)
-* See Tomislav's solution here [source code](https://github.com/MrKindle85/Etch-A-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/MrKindle85/Etch-A-Sketch/blob/master/index.html)
 * See Mohammed Khalil Ait Brahim's solution here [source code](https://github.com/Khalilw1/Etch-A-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/Khalilw1/Etch-A-Sketch/blob/master/index.html)
-
-* *Your solution here...*
+* See Tomislav's solution here: [source code](https://github.com/MrKindle85/Etch-A-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/MrKindle85/Etch-A-Sketch/blob/master/index.html)
+* See Cameron Kingsbury's solution here: [source code](https://github.com/Camsbury/etch-a-sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/Camsbury/etch-a-sketch/index.html)
+* *Your solution goes above this line...*
