@@ -36,6 +36,7 @@ Don't spend too much time worrying about getting your images to display at the c
 
 * *Your solution here!*
 * jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [demo](http://jsfiddle.net/Jberczel/6kS3t/)
+* [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Slider) | [demo](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Slider/index.html)
 
 
 ## Additional Resources
