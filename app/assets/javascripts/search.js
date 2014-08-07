@@ -7,6 +7,7 @@
  */
 
 $(function () {
+    var Swiftype = window.Swiftype || {};
     Swiftype.key = "hnrKV2q8t65YYTgSyoqy";
   
     // Cache the jquery selections of modal elements (since they'll be referred to continuously ).
