@@ -39,6 +39,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Ruben Mendez's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/ruben-socal/blogger)
 * Michael Alexander's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/betweenparentheses/jumpstart_labs_blogger) | [View online](http://quiet-dawn-1285.herokuapp.com/)
 * Marina Sergeyeva's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/imousterian/OdinProject/tree/master/Project1_4_RubyOnRails)
+* * Jonathan Faulk's Solution [Jumpstart Labs Blogger App I0 -I4](https://github.com/faulk49/jumpstart) | [View online](http://morning-gorge-3013.herokuapp.com/)
 * *Your solution above here...*
 
 
