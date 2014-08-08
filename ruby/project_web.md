@@ -169,7 +169,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_ruby_web)
 * [Mazin Power's](https://github.com/muzfuz/CodeLessons/tree/master/web_server)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/webserver) 
-* *Your Solution Here!*
+* [Tommy Noe's solution](https://github.com/thomasjnoe/simple-ruby-http)
 
 
 ## Additional Resources
