@@ -103,7 +103,8 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Tommy Noe](https://github.com/thomasjnoe/ruby-projects-1/blob/master/stock_picker.rb)
 * [Solution from Steve Mitchell](https://github.com/Ixpata/stock-picker/blob/master/stock_picker.rb)
 * [Solution from Michael Alexander](https://github.com/betweenparentheses/ruby_building_blocks/blob/master/stock_picker.rb)
-* [Solution from Adrian Badarau] (https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/stock_picker.rb)
+* [Solution from Adrian Badarau](https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/stock_picker.rb)
+* [Solution from Cameron Kingsbury](https://github.com/Camsbury/stock-picker-ruby/blob/master/lib/stocks.rb)
 
 
 ## Project 3: Substrings
