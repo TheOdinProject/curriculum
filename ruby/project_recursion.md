@@ -24,6 +24,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Mazin's solution](https://github.com/muzfuz/CodeLessons/blob/master/recursion/fibonacci.rb)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/blob/master/Recursion/fibonacci.rb)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_6_Ruby_Recursion/fibonacci.rb)
+* [Tommy Noe's solution](https://github.com/thomasjnoe/fibonacci-practice)
 
 ## Project: Merge Sort
 
@@ -58,6 +59,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/blob/master/Recursion/mergeSort.rb)
 * [Peter's solution](https://github.com/peterhurford/sorts/blob/master/mergesort.rb)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_6_Ruby_Recursion/mergesort.rb)
+* [Tommy Noe's Solution](https://github.com/thomasjnoe/merge-sort)
 * Your solution here...
 
 
