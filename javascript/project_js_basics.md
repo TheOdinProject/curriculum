@@ -40,6 +40,7 @@ It's time to build an on-screen calculator
 * [Solution from jiangscript](https://github.com/jiangscript/jscalc) | [demo](http://jiangscript.github.io/jscalc/)
 * [Solution from Peter Hurford](https://github.com/peterhurford/jscalculator)
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project1) | [demo] (http://jsfiddle.net/thomasmclaughlin/88cJL/)
+* [Solution from raystation](http://jsfiddle.net/k28ppt26/)
 * Your solution here...
 
 ## Additional Resources
