@@ -129,9 +129,9 @@ There are a couple new aspects to this process.  You saw `#fields_for` in the [B
     <%= form_for @user do |f| %>
       ...
       <% 3.times do %>
-        <%= fields_for @user.shipping_address.build do |addy_form| %>
+        <%= f.fields_for @user.shipping_address.build do |addy_form| %>
           ...
-          <% addy_form.text_field :zip_code %>
+          <%= addy_form.text_field :zip_code %>
           ...
         <% end %>
       <% end %>
