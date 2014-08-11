@@ -523,7 +523,6 @@ Speaking of better and brighter things, you are probably chomping at the bit for
 * [HTML5 Rocks knowledge base](http://www.html5rocks.com/en/)... tons of links to articles specific to your goals.
 * [Codecademy's HTML/CSS track](http://www.codecademy.com/tracks/web)
 * [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
-* [LearnStreet](http://learnstreet.com)
 * [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)
 * [Responsive Prototyping with Foundation](http://alistapart.com/article/dive-into-responsive-prototyping-with-foundation)
 * [Equal Height Columns in CSS from Smashing Magazine](http://coding.smashingmagazine.com/2010/11/08/equal-height-columns-using-borders-and-negative-margins-with-css/)
