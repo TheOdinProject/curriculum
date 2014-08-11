@@ -23,6 +23,8 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 
 *[Tom M's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project2) | [demo] (http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Project2/index.html) 
 
+*[raystation's solution](http://raystation.github.io/odin-restaurant/)
+
 * *Your solution here!*
 
 
