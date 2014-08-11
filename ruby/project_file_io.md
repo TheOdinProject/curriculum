@@ -60,6 +60,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/hangman)
 * [Michael Alexander's Solution](https://github.com/betweenparentheses/hangman)
 * [Sahil Agarwal's Solution](https://github.com/sahilda/the_odin_project/tree/master/file-io-serialization/hangman)
+* [Adrian Badarau's Solution](https://github.com/adrianbadarau/Hang-Man-Game)
 
 
 ## Additional Resources
