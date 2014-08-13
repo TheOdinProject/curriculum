@@ -76,6 +76,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Donald's Solution](https://github.com/donaldali/odin-ruby/tree/master/project_data_structs_alg/knights_travails)
 * [Peter Hurford's Solution](https://github.com/peterhurford/sorts/blob/master/knightstour.rb)
 * [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/blob/master/Project2_7_Ruby_DataStructures/knight.rb)
+* [Michael Alexander's Solution](https://github.com/betweenparentheses/project_data_structures/blob/master/knightstravails.rb)
 * *Your Solution Here!*
 
 ## Additional Resources
