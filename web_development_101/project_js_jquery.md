@@ -78,5 +78,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Mohammed Khalil Ait Brahim's solution here [source code](https://github.com/Khalilw1/Etch-A-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/Khalilw1/Etch-A-Sketch/blob/master/index.html)
 * See Tomislav's solution here: [source code](https://github.com/MrKindle85/Etch-A-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/MrKindle85/Etch-A-Sketch/blob/master/index.html)
 * See Cameron Kingsbury's solution here: [source code](https://github.com/Camsbury/etch-a-sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/Camsbury/etch-a-sketch/index.html)
-* See Ruben Mendez's solution here: [source code](https://github.com/ruben-socal/sketch-pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ruben-socal/sketch-pad/blob/master/index.html
+* See Ruben Mendez's solution here: [source code](https://github.com/ruben-socal/sketch-pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ruben-socal/sketch-pad/blob/master/index.html)
+* See Megan Betz's solution here: [source code](https://github.com/adellt/sketch-pad/tree/small) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/adellt/sketch-pad/blob/small/index.html)
 * *Your solution goes above this line...*
