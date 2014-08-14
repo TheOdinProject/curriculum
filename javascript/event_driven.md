@@ -23,3 +23,4 @@ We've already looked at scopes and functions quite a bit and you've had a chance
 
 * [CallbackHell.com's primer on callbacks](http://callbackhell.com/)
 * [Using Deferred Functions and Promises (Video)](http://www.youtube.com/watch?v=juRtEEsHI9E)
+* [Very clear callback introduction](https://github.com/maxogden/art-of-node#callbacks)
