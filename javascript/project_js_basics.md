@@ -41,6 +41,7 @@ It's time to build an on-screen calculator
 * [Solution from Peter Hurford](https://github.com/peterhurford/jscalculator)
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project1) | [demo] (http://jsfiddle.net/thomasmclaughlin/88cJL/)
 * [Solution from raystation](http://jsfiddle.net/k28ppt26/)
+* [Solution from Siromivel](https://github.com/siromivel/purecalc) | [demo](http://htmlpreview.github.io/?https://github.com/siromivel/purecalc/blob/master/jscalc.html)
 * Your solution here...
 
 ## Additional Resources
