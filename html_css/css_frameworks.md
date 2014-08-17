@@ -27,6 +27,7 @@ Frameworks let you focus more on building great sites and less on how they are a
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* [An Introduction to the Bootstrap Grid](http://www.helloerik.com/bootstrap-3-grid-introduction)
 * [If you're used to using Bootstrap 2, here's what changed in version 3](http://stackoverflow.com/questions/17952571/how-has-twitter-bootstrap-3-changed-over-version-2-3-2)
 * [Bootstrap Docs](http://getbootstrap.com/)
 * [Foundation Docs](http://foundation.zurb.com/)
