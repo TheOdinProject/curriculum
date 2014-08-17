@@ -79,6 +79,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Peter Hurford's Solution](https://github.com/peterhurford/sorts/blob/master/knightstour.rb)
 * [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/blob/master/Project2_7_Ruby_DataStructures/knight.rb)
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/knight-moves)
+* [Michael Alexander's Solution](https://github.com/betweenparentheses/project_data_structures/blob/master/knightstravails.rb)
+* *Your Solution Above This Line!*
 
 ## Additional Resources
 
