@@ -34,6 +34,8 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Peter Hurford's Solution](https://github.com/peterhurford/sorts/blob/master/binarytree.rb)
 * [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/blob/master/Project2_7_Ruby_DataStructures/binarytree.rb)
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/bst-practice)
+* [Michael Alexander's Solution](https://github.com/betweenparentheses/project_data_structures/blob/master/binarytree.rb)
+* *Your Solution Above This Line!*
 
 ## Project 2: Knight's Travails
 
