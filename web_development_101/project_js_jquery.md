@@ -80,4 +80,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Cameron Kingsbury's solution here: [source code](https://github.com/Camsbury/etch-a-sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/Camsbury/etch-a-sketch/index.html)
 * See Ruben Mendez's solution here: [source code](https://github.com/ruben-socal/sketch-pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/ruben-socal/sketch-pad/blob/master/index.html)
 * See Megan Betz's solution here: [source code](https://github.com/adellt/sketch-pad/tree/small) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/adellt/sketch-pad/blob/small/index.html)
+* See John Miller's solution here: [source code](https://github.com/johndrmiller/js-jquery-sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/johndrmiller/js-jquery-sketch/blob/master/sketchProject.html)
 * *Your solution goes above this line...*
