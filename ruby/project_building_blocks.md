@@ -60,11 +60,12 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from Mazin Power](https://github.com/muzfuz/CodeLessons/blob/master/RubyBuildingBlocks/caesar.rb)
 * [Solution from Toxox](https://github.com/toxox/TheOdinProject/blob/master/Project3_1_Ruby/caesar.rb)
 * [Solution from Trevor R](https://github.com/treiff/odin-project-ruby/blob/master/cipher.rb)
-* [Solution from TomTom] (https://github.com/tim5046/projectOdin/blob/master/RubyBuildingBlocks/caesarCipher.rb)
-* [Solution from Tommy Noe] (https://github.com/thomasjnoe/ruby-projects-1/blob/master/cipher.rb)
-* [Solution from Steve Mitchell] (https://github.com/Ixpata/caesars-cipher/blob/master/caesars_cipher.rb)
-*[Solution from Michael Alexander](https://https://github.com/betweenparentheses/ruby_building_blocks/blob/master/caesar_cipher.rb)
-[Solution from Adrian Badarau] (https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/caesar_cipher.rb)
+* [Solution from TomTom](https://github.com/tim5046/projectOdin/blob/master/RubyBuildingBlocks/caesarCipher.rb)
+* [Solution from Tommy Noe](https://github.com/thomasjnoe/ruby-projects-1/blob/master/cipher.rb)
+* [Solution from Steve Mitchell](https://github.com/Ixpata/caesars-cipher/blob/master/caesars_cipher.rb)
+* [Solution from Michael Alexander](https://https://github.com/betweenparentheses/ruby_building_blocks/blob/master/caesar_cipher.rb)
+* [Solution from Adrian Badarau](https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/caesar_cipher.rb)
+* [Solution from James MacIvor](https://github.com/RobotOptimist/caeser_encrypter)
 ## Project 2: Stock Picker
 
 ### Your Task
@@ -105,7 +106,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Michael Alexander](https://github.com/betweenparentheses/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Solution from Adrian Badarau](https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/stock_picker.rb)
 * [Solution from Cameron Kingsbury](https://github.com/Camsbury/stock-picker-ruby/blob/master/lib/stocks.rb)
-
+* [Solution from James MacIvor](https://github.com/RobotOptimist/stock_picker)
 
 ## Project 3: Substrings
 
@@ -158,6 +159,7 @@ Next, make sure your method can handle multiple words:
 * [Solution from JD Shelley](https://github.com/lightcast/the_odin_project/blob/master/sub_strings.rb)
 * [Solution from Steve Mitchell](https://github.com/Ixpata/substrings/blob/master/substrings.rb)
 * [Solution from Michael Alexander](https://github.com/betweenparentheses/ruby_building_blocks/blob/master/substrings.rb)
-* [Solution from Adrian Badarau] (https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/substrings.rb)
+* [Solution from Adrian Badarau](https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/substrings.rb)
+* [Solution from James MacIvor](https://github.com/RobotOptimist/substrings)
 
 * *Your Solution Here...*
