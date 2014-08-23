@@ -153,6 +153,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * see [Hira Javaid's solution here](https://github.com/h-i-r-a/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/h-i-r-a/google-homepage/blob/master/index.html)
 * see [Jonathan Faulk's solution here](https://github.com/faulk49/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/faulk49/google-homepage/blob/master/index.html)
 * see [David Ford's solution here](https://github.com/djfordz/google-homepage) or [view it in the browser here](http://djfordz.github.io/google-homepage/)
+* see [Toph Jones' solution here](https://github.com/tophj/google-webpage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/tophj/google-webpage/blob/master/index.html)
 * *Put your solution above this line!*
 
 ## Additional Resources
