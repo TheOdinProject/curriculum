@@ -60,6 +60,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Benjamin Ratiarisolo's Euler Solutions](https://github.com/ratiaris/projecteuler) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ratiaris/projecteuler/blob/master/projecteuler.html).
 * [John Miller's Euler Solutions](https://github.com/johndrmiller/project_euler_solutions).
 * [Farkhod Karimov's Euler Solutions](https://github.com/fkarimov/JavaScript101).
+* [David Ford's Euler Solutions](https://github.com/djfordz/Project-Euler-Answers).
 
 ## Additional Resources
 
