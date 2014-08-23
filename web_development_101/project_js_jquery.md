@@ -82,4 +82,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Megan Betz's solution here: [source code](https://github.com/adellt/sketch-pad/tree/small) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/adellt/sketch-pad/blob/small/index.html)
 * See John Miller's solution here: [source code](https://github.com/johndrmiller/js-jquery-sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/johndrmiller/js-jquery-sketch/blob/master/sketchProject.html)
 * * See Farkhod Karimov's solution here: [source code](https://github.com/fkarimov/JS-jQuery) or [view it in browser](http://htmlpreview.github.io/?https://github.com/fkarimov/JS-jQuery/blob/master/index.html)
+*  See Jorge Acosta's solution here: [source code](https://github.com/JorgEdmundo/javascriptExercises/tree/master/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/JorgEdmundo/javascriptExercises/blob/master/sketchpad/index.html)
 * *Your solution goes above this line...*
