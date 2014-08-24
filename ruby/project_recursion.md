@@ -63,6 +63,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/merge-sort)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/project_recursion/blob/master/merge_sort.rb)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/ProjectRecursion.rb)
+* [Erithair's solution](https://github.com/N19270/merge-sort)
 * Your solution here...
 
 
