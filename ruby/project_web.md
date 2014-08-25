@@ -32,6 +32,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Solution from Marina Sergeyeva](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
 * [Solution from Tommy Noe](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
 * [Solution from Michael Alexander](https://github.com/betweenparentheses/jumpstart_labs_twitterbot/blob/master/micro_blogger.rb)
+* [Solution from Sahil Agarwal](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web/twitter_spam_bot)
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
@@ -172,6 +173,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/webserver) 
 * [Tommy Noe's solution](https://github.com/thomasjnoe/simple-ruby-http)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server)(using while loops and gets instead of read_nonblock)
+* [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web)
 * *...put your solution above this line!*
 
 
