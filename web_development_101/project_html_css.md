@@ -154,7 +154,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * see [Jonathan Faulk's solution here](https://github.com/faulk49/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/faulk49/google-homepage/blob/master/index.html)
 * see [David Ford's solution here](https://github.com/djfordz/google-homepage) or [view it in the browser here](http://djfordz.github.io/google-homepage/)
 * see [Toph Jones' solution here](https://github.com/tophj/google-webpage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/tophj/google-webpage/blob/master/index.html)
-* see [Devon Barcherding's solution here](https://github.com/stolicus/google_homepage) or [view it in the broser here](http://htmlpreview.github.io/?https://github.com/stolicus/google_homepage/blob/master/index.html)
+* see [Devon Barcherding's solution here](https://github.com/stolicus/google_homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/stolicus/google_homepage/blob/master/index.html)
 * see [James MacIvor's solution here] (https://github.com/RobotOptimist/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/RobotOptimist/google-homepage/blob/master/index.html)
 * see [Colonel Bookclub's solution here](https://github.com/Remitius/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Remitius/google-homepage/blob/master/index.html)
 * see [Kevin Mulhern's Difficult solution here](https://github.com/KevinMulhern/google-homepage-hard)
