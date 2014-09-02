@@ -84,4 +84,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * * See Farkhod Karimov's solution here: [source code](https://github.com/fkarimov/JS-jQuery) or [view it in browser](http://htmlpreview.github.io/?https://github.com/fkarimov/JS-jQuery/blob/master/index.html)
 *  See Jorge Acosta's solution here: [source code](https://github.com/JorgEdmundo/javascriptExercises/tree/master/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/JorgEdmundo/javascriptExercises/blob/master/sketchpad/index.html)
 * See James MacIvor's solution here: [source code](https://github.com/RobotOptimist/Sketch-a-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/RobotOptimist/Sketch-a-Sketch/blob/master/index.html)
+* See David Ford's solution here: [source code](https://github.com/djfordz/project_js_jquery) or [view it in the browser](http://djfordz.github.io/project_js_jquery)
 * *Your solution goes above this line...*
