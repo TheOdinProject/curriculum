@@ -15,3 +15,4 @@ So that's it, you're more than ready to to go ahead and take on Rails.  **Congra
 
 * [Ruby Best Practices book by Gregory Brown](http://it-ebooks.info/book/178/).
 * [Why Ruby and Python are different](http://stackoverflow.com/questions/1113611/what-does-ruby-have-that-python-doesnt-and-vice-versa?rq=1)
+* [exercism.io](http://exercism.io/), a site where you can grow and improve your ability to **write code** by **reading others' code** and **commenting** on it.
