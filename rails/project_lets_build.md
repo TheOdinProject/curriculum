@@ -26,6 +26,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [zkay](https://github.com/zkay/PersonalProjects/tree/master/Rest)
 * [afshinator](https://github.com/afshinator/playground/tree/master/RestPinger)
 * [Jamie](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
+* [Arman Ghassemi](https://github.com/ArmanG/Rest-Client)
 
 ## Project: Ruby on Rails Tutorial
 
