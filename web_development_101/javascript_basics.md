@@ -62,6 +62,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Farkhod Karimov's Euler Solutions](https://github.com/fkarimov/JavaScript101).
 * [David Ford's Euler Solutions](https://github.com/djfordz/Project-Euler-Answers).
 * [James MacIvor's Euler Solutions](https://github.com/RobotOptimist/ProjectEuler)
+* [Vincent Wong's Euler Solutions](https://github.com/wingyu/euler-problems)
 
 ## Additional Resources
 
