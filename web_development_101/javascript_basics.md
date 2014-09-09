@@ -64,6 +64,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [James MacIvor's Euler Solutions](https://github.com/RobotOptimist/ProjectEuler)
 * [Vincent Wong's Euler Solutions](https://github.com/wingyu/euler-problems)
 * [Colonel Bookclub's Euler Solutions](https://github.com/Remitius/Project-Euler)
+* [Roman Davis's Euler Solutions](https://github.com/RomanADavis/euler-solutions)
 * *Put your solution above this line!*
 
 ## Additional Resources
