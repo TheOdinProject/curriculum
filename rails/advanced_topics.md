@@ -292,11 +292,11 @@ There's a useful book written on anti-patterns, which can help you clean up your
 
 ## Your Assignment
 
-1. Skim the [Rails Guide on Routing](http://guides.rubyonrails.org/routing.html) section 2.6 about namespacing.
+1. Skim the [Rails Guide on Routing](http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing) section 2.6 about namespacing.
 2. Read the same guide sections 2.7-3.7 to learn about nested, member and collection routes and more.
 3. Read the same guide, sections 3.8-3.15 for a variety of different advanced routing topics including constraining the inputs to your routes and redirection.
 4. Skim the same guide, chapter 4.  Some stuff we've seen but most is just to give you a sense for what's possible.  When you need it, you'll probably Google your way back there.
-5. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
+5. Read the [Rails Guide on Layouts](http://guides.rubyonrails.org/layouts_and_rendering.html#using-nested-layouts) section 3.5 to see how to pass information between your view file and your layout file, including CSS styles.  Really take a minute to understand what's going on in the example there.
 6. If you're interested in peeking at metaprogramming, read through [http://ruby-metaprogramming.rubylearning.com/](http://ruby-metaprogramming.rubylearning.com/).  It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
 7. Glance through [this Slideshare Presentation on SOLID](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails) principles.
 
