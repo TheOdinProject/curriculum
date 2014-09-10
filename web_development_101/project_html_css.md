@@ -162,6 +162,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * see [Dorian Iacobescu's solution here](https://github.com/iacobson/Google-Home-Page-Design) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/iacobson/Google-Home-Page-Design/blob/master/google-home.html)
 * see [Michelle Pepe's Easy Version Solution here](https://github.com/MichellePepe/google-homepage)
 * see [Julie De Lorenzo's solution here](https://github.com/delorenzo/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/delorenzo/google-homepage/blob/master/index.html)
+* see [Stephanie Gurung's solution here](https://github.com/stephr3/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/stephr3/google-homepage/blob/master/index.html)
 * *Put your solution above this line!*
 
 ## Additional Resources
