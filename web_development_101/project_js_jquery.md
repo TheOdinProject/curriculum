@@ -87,3 +87,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See David Ford's solution here: [source code](https://github.com/djfordz/project_js_jquery) or [view it in the browser](http://djfordz.github.io/project_js_jquery)
 * See Vincent's solution here: [source code](https://github.com/wingyu/etch_a_sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/wingyu/etch_a_sketch/blob/master/index.html)
 See Lezou Dali's solution here: [source code](https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html) or [view it in browser](http://htmlpreview.github.io/?https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html)
+* *Add the link to your solution above this line (do not remove this line)*
