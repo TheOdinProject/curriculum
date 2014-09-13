@@ -102,6 +102,8 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/membersOnly/members-only)
 * [Jonathan's solution](https://github.com/faulk49/members-only)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Gossip-Club)
+* [Erithair's solution](https://github.com/N19270/members-only) | [site on heroku](https://members-only.herokuapp.com/)
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
