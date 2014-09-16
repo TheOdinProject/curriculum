@@ -174,6 +174,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Tommy Noe's solution](https://github.com/thomasjnoe/simple-ruby-http)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server)(using while loops and gets instead of read_nonblock)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web)
+* [James MacIvor's solution](https://github.com/RobotOptimist/simple_server) with thanks to @Jberczel because I shamelessly stole syntax.
 * *...put your solution above this line!*
 
 
@@ -182,4 +183,5 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
+* [Luke Francl's file server tutorial](https://practicingruby.com/articles/implementing-an-http-file-server)
 
