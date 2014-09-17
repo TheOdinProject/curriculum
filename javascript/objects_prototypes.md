@@ -16,8 +16,8 @@ You'll also find **Objects** used a whole lot.  They're basically containers tha
 ## Your Assignment
 
 1. Read [Understanding Objects in JS from JSIS](http://javascriptissexy.com/javascript-objects-in-detail/)
-2. Read [OOP in Javascript from JSIS](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
-3. Read [Javascript Prototypes from JSIS](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
+2. Read [Javascript Prototypes from JSIS](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
+3. Read [OOP in Javascript from JSIS](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 
 ## Additional Resources
 
