@@ -1,0 +1,30 @@
+<div id="devise-form">
+  <h2>Edit <%= resource_name.to_s.humanize %></h2>
+
+  <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :class => "form-horizontal" }) do |f| %>
+    <%= f.error_notification %>
+
+    <div class="form-inputs">
+      <%= f.input :username,  :label => "Username", :required => true, :autofocus => true %>
+      <%= f.input :email, :required => true %>
+
+      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+        <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
+      <% end %>
+
+      <%= f.input :password, :autocomplete => "off", :hint => "Leave it blank if you don't want to change it", :required => false %>
+      <%= f.input :password_confirmation, :required => false %>
+      <%= f.input :current_password, :hint => "We need your current password to confirm your changes", :required => true %>
+    </div>
+
+    <%= f.button :submit, "Update", :class => "btn-primary btn-large pull-right" %>
+
+  <% end %>
+
+  <div class="devise-shared-links">
+
+    <p><%= link_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete %></p>
+
+    <%= link_to "Go back", :back %>
+  </div>
+</div>

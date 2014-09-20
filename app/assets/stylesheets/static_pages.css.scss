@@ -1,0 +1,726 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import 'colors';
+@import 'lessons';
+@import 'mixins';
+
+/*Namespacing all the home page styles*/
+
+#home-page{
+
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+
+  h1,h2,h3,h4{
+    font-family: 'Open Sans Condensed', sans-serif;
+  }
+  h1{
+    font-size: 4em;
+    font-weight: normal;
+  }
+  h2{
+    font-size: 2.75em;
+    font-weight: 300;
+    line-height: 125%;
+    font-weight: bold;
+    color: $dark_gray;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+  h3{
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 125%;
+    color: $dark_gray;
+  }
+  h4{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 125%;
+    color: $mid_gray;
+  }
+  p{
+    font-weight: 300;
+    color: $mid_gray;
+  }
+
+  .img-wrapper{
+    border: 1px solid #fcfcfc;
+  }
+
+  .narrow{
+    max-width: 800px;
+  }
+
+  .content{
+    padding: 30px 0px;
+  }
+
+  .section{
+    padding: 4em 0;
+    margin: 0px auto;
+    // border-bottom: 1px solid $vlight_gray;
+  }
+
+  .dark{
+    // background-color: $off_white;
+  }
+  .shield{
+    background-color: rgba(0,0,0,.65);
+  }
+  .shield2{
+    background-color: rgba(255,255,255,.05);
+  }
+
+
+  .above-the-fold{
+    width: 100%;
+    background: image-url("home_background_blur.jpg") no-repeat center center; // fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .navbar{
+    padding: 0px 50px 0px 50px;
+    background-color: $vdark_gray;
+    height: 50px;
+    .nav-narrow{
+      max-width: 1170px;
+      margin: 0px auto;
+    }
+    .menu-wrapper{
+      padding-top: 15px;
+      padding-right: 10px;
+      float: right;
+      font-size: .75em;
+      color: $light_gray;
+    }
+  }
+
+  .top-box{
+    padding: 1em;
+    margin: 1em auto 0 auto;
+    background-color: none;
+    @include border-radius(.25em);
+    // border: 1px solid rgba(255,255,255,.15);
+    .headline{
+      padding: 10px 0px 10px 0px;
+      text-align: center;
+      h1{
+        line-height: 1em;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+    }
+    .subheading{
+      margin: 0.65em 0 1em 0;
+      text-align: center;
+      h2{
+        color: #f90;
+        font-size: 1.75em;
+        margin: 0;
+        font-weight: normal;
+      }
+    }
+  }
+
+  .cta-box-top-wrapper{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .cta-box-top{
+      // border: 1px solid rgba(255,255,255,.15);
+      @include border-radius(.25em);
+      padding: 20px;
+      margin: 0 auto;
+      background-color: none;
+      text-align: center;
+      // width: 400px;
+
+      p{
+        font-size: .75em;
+        font-weight: 300;
+        color: white;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  button.cta-button{
+    font-size: 1.75em;
+    line-height: 1.25em;
+    width: 100%;
+    max-width: 14em;
+    min-height: 2.5em;
+    margin: .5em auto;
+    font-family: "Open Sans Condensed", sans-serif;
+    @include border-radius(20px);
+  }
+
+
+  .social-buttons{
+    text-align: center;
+    height: 60px;
+    // background: image-url("patterns/subtle_dark_vertical.png");
+    border-bottom: 1px solid #efefef;
+  }
+
+  .social{
+    padding: 12px 0px 0px 0px;
+    text-align: center;
+    display: inline-block;
+    .social-button{
+      width: 115px;
+      height: 25px;
+      display:inline-block;
+      padding: 5px 0px;
+    }
+    .facebook{
+      padding-right: 10px;
+    }
+    .twitter{
+    }
+    .google-plus{
+    }
+  }
+
+
+
+  .what-its-about{
+    clear: both;
+
+    h4{
+      margin-top: 1em;
+    }
+
+    .about-panels{
+      max-width: 750px;
+      margin: 30px auto;
+
+      .about-panel{
+        float: left;
+        width: 200px;
+        margin: 0 25px;
+        text-align: center;
+        .img-wrapper{
+          width: 100px;
+          height: 100px;
+          margin: 30px auto;
+          border: none;
+        }
+        h3{
+          color: $highlight_orange;
+        }
+        p{
+          font-weight: 300;
+          font-size: .75em;
+        }
+      }
+    }
+  }
+
+
+
+  .what-youll-learn{
+    clear: both;
+    @include black-links;
+    // background: image-url("patterns/tiny_black_checker.gif");
+    background: image-url("patterns/subtle_dark_vertical.png");
+    h2{
+      color: #eee;
+    }
+    .container{
+      // background: image-url("patterns/tiny_black_checker.gif");
+    }
+
+    .course-panels{
+      margin: 0px auto;
+
+      .course-panel{
+        // float: center;
+        width: 100%;
+        max-width: 500px;
+        min-height: 100px;
+        padding: 20px 40px;
+        // margin-left: 1em;
+        margin: 0 auto;
+        &:hover{
+          background-color: rgba(255,255,255,.05);
+        }
+
+        .img-wrapper{
+          width: 80px;
+          height: 90px;
+          padding-right: 20px;
+          float: left;
+          // margin-right: 1.75em;
+          border: none;
+        }
+        .copy-wrapper{
+          height: 90px;
+          width: 100%;
+          max-width: 400px;
+          float: right;
+          h3{
+            margin-top: -.1em;
+            margin-bottom: .25em;
+            color: #cfcfcf;
+          }
+          p{
+            font-weight: 300;
+            color: #9f9f9f;
+            // margin-left: 7.75em;
+          }
+        }
+      }
+      @media (max-width: 979px){
+        .course-panel{
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+
+
+  .how-it-works{
+    clear: both;
+    // background: image-url("patterns/cream.png");
+    h3{
+      font-size: 2em;
+      // font-weight: bold;
+      color: $highlight_orange;
+    }
+
+    .panel-wrapper{
+      max-width: 800px;
+
+      .panel{
+        float: left;
+        max-width: 350px;
+        padding: 0 25px;
+        margin: 15px 0;
+        text-align: center;
+
+        .img-wrapper{
+          max-width: 300px;
+          height: 150px;
+          margin: 0 auto;
+        }
+      }
+    }
+    .work-together{
+      text-align: center;
+      clear: both;
+      padding-top: 2em;
+
+      .img-wrapper{
+        max-width: 500px;
+        height: 200px;
+        margin: 0 auto;
+      }
+      .copy-wrapper{
+        max-width: 450px;
+        margin: 0 auto;
+      }
+    }
+  }
+
+
+
+  .why-awesome{
+    clear: both;
+    background: image-url("patterns/subtle_dark_vertical.png");
+    h2{
+      color: #eee;
+    }
+    h3{
+      color: #cfcfcf;
+    }
+
+    .panel-wrapper{
+      max-width: 750px;
+      margin: 30px auto;
+
+      .panel{
+        float: left;
+        width: 220px;
+        padding: 0 15px;
+        text-align: center;
+
+        .img-wrapper{
+          width: 150px;
+          height: 150px;
+          margin: 10px auto;
+          border: none;
+        }
+
+        p{
+          color: #9f9f9f;
+          font-size: .75em;
+          font-weight: 400;
+        }
+        a{
+          font-size: .75em;
+        }
+
+      }
+    }
+  }
+
+
+
+  .clear-div{
+    clear: both;
+  }
+
+  .cta-bottom{
+    text-align: center;
+    p{
+      color: $light_gray;
+    }
+  }
+
+
+}  /* END OF NAMESPACING HOME PAGE */
+
+
+
+
+#devise-form{
+
+  margin: 3em auto 12em;
+  max-width: 600px;
+
+  h2{
+    margin-top: 1em;
+    margin-bottom: .5em;
+    margin-left: 0px;
+    font-size: 3rem;
+  }
+  p.explanation{
+    margin: 2em 0;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: $light_gray;
+  }
+  .form-inputs{
+    label{
+      font-size: 25px;
+      margin-bottom: 8px;
+      line-height: 25px;
+    }
+    input{
+      width: 350px;
+      height: 30px;
+      font-size: 25px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    select{
+      width: 550px;
+      height: 250px;
+      font-size: 25px;
+    }
+  }
+  .legal-wrapper{
+      margin: -10px 0 20px 180px;
+      max-width: 364px;
+    .help-inline{
+      color: #b94a48;
+    }
+    .legal-checkbox{
+      padding: 5px;
+      &.error{
+        margin-top: 30px;
+        padding: 10px;
+        border: 1px solid #b94a48;
+        @include border-radius(4px);
+        abbr{
+          color: #b94a48;
+        }
+      }
+
+      abbr{
+        font-size: 20px;
+      }
+      .legal-text{
+      }
+      input{
+        height: 20px;
+        width: 20px;
+        padding: 10px;
+        margin: 0 5px 0 0;
+      }
+    }
+  }
+  input.btn{
+    margin-right: 20px;
+    height: 60px;
+    min-width: 150px;
+    font-size: 25px;
+    border-radius: 15px;
+  }
+  .devise-shared-links{
+    margin-left: 185px;
+    margin-top: 32px;
+  }
+
+}
+
+.alpha-alert{
+  margin: 1.5em 1em 3em;
+
+  h3{
+    color: red;
+  }
+  ol{
+    margin-top: 1em;
+    font-size: 75%;
+    color: #333;
+    li{
+      margin-top: .5em;
+    }
+  }
+}
+.alert{
+  position: relative;
+  z-index: 11;
+}
+.alert-error{
+  margin-bottom: 30px;
+}
+.signup-prompt-msg{
+  margin: 1em 2em 2em 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  @include border-radius(10px);
+
+  p{
+    color: #888;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.25em;
+  }
+}
+
+.StaticPagesController{
+
+  @extend .individual-lesson;
+  .belief-heading{
+    color: $highlight_orange;
+    font-weight: bold;
+  }
+  .faq-question{
+    color: $highlight_orange;
+  }
+  .odin-image{
+    text-align: center;
+  }
+}
+
+
+.contributing {
+
+  @extend .individual-lesson;
+  .container {
+    // quick hack to override `position relative` inherited from .invididual-lesson
+    position: static;
+  }
+
+  .star{
+    padding:15px;
+  }
+  .paths{
+    border: 1px solid $vlight_gray;
+    box-shadow: 3px 3px 3px #efefef;
+    padding:30px 30px;
+    margin:10px 50px 30px;
+    font-size:.7em;
+    font-weight:300;
+    border-radius:10px;
+
+    h2, h3, h4, h5{
+      margin-top:0px;
+    }
+  }
+  .skill-header{
+    margin-top: 20px;
+
+    h2{
+      margin-top: 24px;
+    }
+  }
+  .more-button{
+    color: $highlight_orange;
+    cursor: pointer;
+  }
+  span.highlight{
+    color:$highlight_orange;
+    font-weight: normal;
+  }
+  .center{
+    margin: auto;
+    text-align: center;
+  }
+  .light-emphasis{
+    color: #aaa;
+  }
+
+  #reasonsModal {
+    .modal-header .modal-footer {
+      height: 55px;
+      padding: 5px 20px;
+      background-color: #a1a1a1;
+    }
+    .modal-body {
+      padding:5px 15px;
+      margin:10px 20px;
+      font-size:.75em;
+      font-weight:300;
+    }
+  }
+	
+  .hof-card{
+	  height: auto;
+		min-width:410px;
+    border: 1px solid $vlight_gray;
+    box-shadow: 3px 3px 3px #efefef;
+    padding:30px 30px;
+    margin:90px 50px 30px;
+    font-size:.7em;
+    font-weight:300;
+    border-radius:10px;
+		.hof-links{
+			float:left;
+			a{
+		  	font: arial;
+	  		font-weight:600;
+		  	font-family:Tahoma;
+	  		font-size:1.4em;
+  			letter-spacing:-0.8px;
+  			text-decoration:none;
+				color:black;
+				opacity:0.4;
+			}
+			a:hover{
+				opacity:0.6;
+			}	
+			.blog{
+				margin-left:-24px;
+				margin-top:-45px;				
+			}
+			.github{
+				margin-left:-24px;
+				margin-top:5px;		
+			}
+		}
+		.name-bg{
+			height: 36px;
+			margin:20px -60px 4px 76px;
+			border-radius:12px;
+			background: #5BB75B;
+			h3 {
+			color:white;
+			margin-top:-4px;
+			margin-left:30px;
+			}
+		}
+		.bio{
+			float:right;
+			width:300px;
+			margin-top:-36px;			
+		}
+		p {
+			min-height:110px;
+			font-size:1.5em;
+			font-weight:350;
+		}
+		.img {
+			border:2px solid black;
+			box-shadow: 5px 5px 5px #B28F6B;
+			height:160px;
+			width:160px;
+			margin-left: -70px;
+			margin-top: -55px;
+			position:absolute;
+		}
+  }
+}
+
+
+
+#studygroup {
+  margin: 0 auto;
+  max-width: 920px;
+
+  h1, h2, h3 {
+   margin: 0;
+  }
+  h3{
+    margin-bottom: .5em;
+  }
+
+
+  p {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+
+
+  .studygroup-side {
+    width: 300px;
+    margin: 0 50px 50px 0;
+  }
+
+  .studygroup-content {
+    width: 525px;
+  }
+
+  .sg-logistics {
+    p{
+      margin: 0em 0;
+      color: $mid_gray;
+    }
+    strong{
+      color: $dark_gray;
+    }
+  }
+
+  #track1 .studygroup-content{
+    background: url(http://res.cloudinary.com/techblogpics/image/upload/v1393804779/web-dev-fade_ianp6i.png) top right no-repeat;
+  }
+
+  #track2 .studygroup-content{
+    background: url(http://res.cloudinary.com/techblogpics/image/upload/v1393811171/rubyonrails-fade3_lv4xao.png) top right no-repeat;
+  }
+
+  #studygroup-tabs{
+    li {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.25em;
+    }
+  }
+
+  li{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.25em;
+  }
+  .tab-content{
+    li{
+      margin: .5em 0;
+    }
+  }
+  .rule {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+}

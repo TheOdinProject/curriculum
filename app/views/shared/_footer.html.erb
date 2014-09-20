@@ -1,0 +1,57 @@
+<footer id="footer">
+
+  <div class="footer-links">
+    <%= link_to "Blog", "http://1000hours.io" %>
+    <%= link_to "About", about_path %>
+    <%= link_to "FAQ", faq_path %>
+    <%= link_to "Study Groups", studygroups_path %>
+    <%= link_to "Contributing", contributing_path %>
+    <br>
+    <%= link_to "Contact", contact_path %>
+    <%= link_to "Press", press_path %>
+    <%= link_to "Legal", legal_path %>
+    <%= link_to "Sitemap", sitemap_path %>
+  </div>
+  <div class="footer-form">
+    <form id="footer-suggestion-form" class="form-inline" action="<%= suggestion_path %>" method="post" data-remote="true">
+
+      <input type="hidden" name="pathname" value="" id="suggestion-pathname">
+
+      <input type="text" name="suggestion" id="feedback-text-box" class="input-large" placeholder="What can we do to improve this site?">
+
+      <button type="submit" class="btn" id="suggestion-button">
+        Tell Us!
+      </button>
+
+    </form>
+  </div>
+
+</footer>
+
+<script>
+  // Suggestion From Submission - 
+  // 1. Make sure empty form doesn't submit,
+  // 2. After form submission, gray out and disable the form
+  // 
+  $(document).ready(function(){
+    // Cache the jquery selection since we'll refer to it more than once
+    var $suggestionForm = $('#footer-suggestion-form');           
+
+    // Upon form submission, intercept call and check if form was empty and if so, dont submit.
+    $suggestionForm.submit(function( event ) {
+      if ( $("#feedback-text-box").val().length === 0 ) {
+        event.preventDefault();                 // Cancel the submit action 
+        return false;                           // Preven't the disabling of the form
+      }
+    });
+    
+    
+    $suggestionForm.bind("ajax:complete", function(event, xhr, status){
+      //console.log($("#footer-suggestion-form input"));
+      $("#footer-suggestion-form input").attr("disabled","disabled");
+      $("#footer-suggestion-form button").attr("disabled","disabled").html("Thanks!");
+      //console.log("did it!");
+    });
+    $("#suggestion-pathname").val(location.pathname);
+  });
+</script>

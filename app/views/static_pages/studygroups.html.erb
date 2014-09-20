@@ -1,0 +1,74 @@
+<div class="StaticPagesController">
+  <div id="studygroup">
+    <h1 class="text-center">Web Development Study Groups</h1>
+    <h2 class="text-center">Spring 2014 Sessions</h2>
+    <br>
+    <p class="text-center"><em>* These tabs are created and maintained by the study group leaders *</em></p>
+    
+    <ul id="studygroup-tabs" class="nav nav-tabs">
+      <li class="active">
+        <a href="#track3" data-toggle="tab">
+          Web Dev 101
+        </a>
+      </li>
+      <li>
+        <a href="#track4" data-toggle="tab">
+          Ruby
+        </a>
+      </li>
+      <li>
+        <a href="#track2" data-toggle="tab">
+          Ruby on Rails
+        </a>
+      </li>
+      <li>
+        <a href="#track1" data-toggle="tab">
+          Web Dev 101 (Ended)
+        </a>
+      </li>
+      <li>
+        <a href="#track5" data-toggle="tab">
+          Start Your own!
+        </a>
+      </li>
+    </ul>
+    
+    <div class="tab-content">
+
+
+      <!-- Tatiana's web dev 101 track starting 4/20/14 -->
+      <div class="tab-pane fade active in" id="track3">
+      <!-- app/views/static_pages/_sg_wd101_a.html.erb -->
+        <%= render "sg_wd101_b" %>
+      </div> 
+
+
+      <!-- Brian's ruby track starting 4/28/14 -->
+      <div class="tab-pane fade" id="track4">
+      <!-- app/views/static_pages/_sg_ruby.html.erb -->
+        <%= render "sg_ruby" %>
+      </div> 
+      
+
+      <!-- Afshin's Rails track spring 2014 -->
+      <div class="tab-pane fade" id="track2">
+        <!-- app/views/static_pages/_sg_rails.html.erb -->
+        <%= render "sg_rails" %>
+      </div>
+
+      <!-- Josh's web dev 101 track (ENDED) spring 2014 -->
+      <div class="tab-pane fade" id="track1">
+      <!-- app/views/static_pages/_sg_wd101_a.html.erb -->
+        <%= render "sg_wd101_a" %>
+      </div>
+
+
+      <!-- Starting your own study group -->
+      <div class="tab-pane fade" id="track5">
+        <!-- app/views/static_pages/_sg_starting_one.html.erb -->
+        <%= render "sg_starting_one" %>
+      </div>    
+
+    </div>        <!-- tab-content -->
+  </div>          <!-- studygroup -->
+</div>

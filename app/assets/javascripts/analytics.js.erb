@@ -1,0 +1,91 @@
+// NOTE: These won't get fired off unless they're in the
+// production environment -- see app/views/shared/_ga.html.erb
+// for the code doing that.  
+// format: ('_trackEvent', category, action, label, value)
+$(function(){
+
+  // Fire a custom analytics event whenever any link is clicked
+  $("a").on("click",function(e){
+    var $target = $(e.target);
+    var href = $target.attr("href");
+
+    // manually set href for elements wrapped in anchor tags
+    // this is because the click event target is actually the
+    // internal element, e.g. an <h3> tag wrapped in <a> tags
+    // will register a click target of <h3> not <a> so the
+    // "href" property will be undefined and we must check its
+    // parents to acquire the href.
+    if(!href){
+      href = $target.parents("a").attr("href");
+    }
+
+    // Send separate events for internal and external link clicks
+    var regexp = /^http:/;
+    if(regexp.test(href)){
+      _gaq.push(['_trackEvent','external_link','click',href,1]);
+    }else{
+      _gaq.push(['_trackEvent','internal_link','click',href,1]);
+    }
+  });
+
+  // Fire an event whenever a user marks a lesson completed on the lessons index page
+  $(".lesson").on("click", ".lc-checkbox.lc-unchecked", function(e){
+    _gaq.push(['_trackEvent','lesson_completion','mark_completed','lessons_index_page',1]);
+  });
+
+  // Fire an event whenever a student marks a lesson not completed on the lessons index page
+  $(".lesson").on("click", ".lc-checkbox.lc-checked", function(e){
+    _gaq.push(['_trackEvent','lesson_completion','mark_not_completed','lessons_index_page',1]);
+  });
+
+  // Fire an event whenever a user marks a lesson completed on the individual lesson page
+  $(".lc-end-wrapper").on("click", ".checkbox-container", function(e){
+    _gaq.push(['_trackEvent','lesson_completion','mark_completed','lesson_page',1]);
+  });
+
+  // Fire an event whenever a user marks a lesson uncompleted on the individual lesson page
+  $(".lc-end-wrapper").on("click", ".lc-uncomplete-link", function(e){
+    _gaq.push(['_trackEvent','lesson_completion','mark_not_completed','lesson_page',1]);
+  });
+
+  // Fire an event whenever a user tries to mark a lesson uncompleted on the individual lesson page by clicking the checkbox icon (which isn't a link)
+  $(".lc-end-wrapper").on("click", ".checkbox-container.lc-checked", function(e){
+    _gaq.push(['_trackEvent','lesson_completion','click_not_linked_checkbox','lesson_page',1]);
+  });
+
+
+  // Fire an event whenever someone tries to sign in the standard way
+  $(".devise-sign-in").on("click","input.btn-sign-in", function(e){
+    _gaq.push(['_trackEvent','signin_buttons','click_normal_signin_button','signin_button',1]);
+  })
+
+
+  // Fire an event whenever someone tries to sign in with Github by clicking that Github button
+  $(".devise-sign-in").on("click",".btn-github", function(e){
+    _gaq.push(['_trackEvent','signin_buttons','click_github_signin_button','github_signin_button',1]);
+  })
+
+
+  // Fire an event whenever someone tries to sign UP with Github by clicking that Github button
+  $(".devise-sign-up").on("click",".btn-github", function(e){
+    _gaq.push(['_trackEvent','signup_buttons','click_github_signup button','github_signup_button',1]);
+  })
+
+  // Fire an event whenever someone clicks the sign up button from step 2 of the github flow (to attempt to actually finish the signup)
+  $(".devise-sign-up").on("click","input.btn-sign-up-auth-flow", function(e){
+    _gaq.push(['_trackEvent','signup_buttons','click_finish_github_signup_button','finish_github_signup_button',1]);
+  })
+
+  // Fire an event whenever someone clicks the normal sign up button (e.g. not step 2 of the github flow)
+  $(".devise-sign-up").on("click","input.btn-sign-up", function(e){
+    _gaq.push(['_trackEvent','signup_buttons','sign_up','main_signup_button',1]);
+  })
+
+  // Fire an event whenever an ad is clicked
+  $(".ad").on("click","a", function(e){
+    adId = $(e.target).parents(".ad").data("ad-id");
+    _gaq.push(['_trackEvent','ad','click',adId,1])
+  });
+
+});
+

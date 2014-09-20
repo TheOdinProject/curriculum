@@ -1,0 +1,8 @@
+
+  <%= form_tag("/thank_you", :method => "post", :remote => true, :id => "suggestion_form") do %>
+
+      <%= text_area_tag :suggestion, '', :placeholder => "e.g. edX cs169.1x, Hartl Tutorial, Project Euler...", :class=>"string email required", :rows=>6, :id=>"thank_you_suggestion_box" %> 
+
+      <%= submit_tag "Let Us Know!", :class=>"btn-large btn btn-primary thank-you", :id=>"commit" %>
+
+  <% end %>
