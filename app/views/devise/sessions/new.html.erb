@@ -1,0 +1,20 @@
+<div id="devise-form" class="devise-sign-in">
+
+  <h2>Sign in</h2>
+
+  <%= render :partial => "shared/github_login_button", :locals => {:screen => "Sign in"} %>
+
+  <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
+    <div class="form-inputs">
+      <%= f.input :email, :required => false, :autofocus => true %>
+      <%= f.input :password, :required => false %>
+    </div>
+
+    <%= f.input :remember_me, :as => :boolean, :label => false, :inline_label => true if devise_mapping.rememberable? %>
+
+    <%= f.button :submit, "Sign in", :class => "btn-primary btn-large pull-right btn-sign-in" %>
+  <% end %>
+
+  <%= render "devise/shared/links" %>
+</div>
+

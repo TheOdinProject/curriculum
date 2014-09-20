@@ -1,0 +1,47 @@
+<div id="message">
+  <h4>
+  <%= @message.sender.username %> (<%= @message.sender.email %>) has sent you the following message:
+  </h4>
+
+  <hr>
+
+  <div id="body">
+    <%= "#{@message.body}" %>
+  </div>
+
+  <hr>
+
+  <div id="footer">
+    <p>
+      This message was sent to you from another member of <a href="http://theodinproject.com">The Odin Project</a>.
+    </p>  
+
+    <p>
+      The other user has not yet been shown your email address.  You may reply directly to them (which will reveal your address) using your email client's normal "Reply" functionality.
+    </p>
+
+    <p>
+      If it is SPAM or abusive, please let us know at <a href="mailto:contact@theodinproject.com">contact@theodinproject.com</a>.  
+    </p>
+  </div>
+</div>
+
+<style>
+  #message{
+    width: 600px;
+  }
+  #body{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #footer{
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  h4{
+    font-size: 20px;
+  }
+
+
+</style>

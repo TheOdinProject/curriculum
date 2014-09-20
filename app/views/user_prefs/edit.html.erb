@@ -1,0 +1,25 @@
+<div class="span8 offset2" id="devise-form">
+
+  <h2>Preferences</h2>
+
+  <%= simple_form_for(@user_pref, :html => { :class => "form-horizontal" }) do |f| %>
+
+    <div class="form-inputs">
+      <%= f.fields_for @user_pref.user do |ff| %>
+        <%= ff.association :content_buckets, 
+              :collection => @content_buckets, 
+              :multiple => true, 
+              :label => "My Project(s):", 
+              :hint => "Select as many projects as you'd like to pair on!"%>
+      <% end %>
+    </div>
+
+    <div class="new_projects_link">
+      <a href="mailto:project@theodinproject.com">Want to add a project?</a>
+    </div>
+
+    <%= f.button :submit, "Update", :class => "btn-primary btn-large pull-right" %>
+
+  <% end %>
+
+</div>

@@ -1,0 +1,17 @@
+<div class="row student">
+  <div class="student-pic">
+    <a href="<%= user_path(user) %>">
+      <img src="<%= gravatar_url(user, 100) %>" title="<%= user.username %>" class="student-mini-pic">
+    </a>
+  </div>
+  <div class="student-info">
+    <h3><%= link_to "#{user.username}", user %></h3>
+    <% lesson = user.latest_completed_lesson %>
+    <% if lesson %>
+      <em>
+        Completed 
+        "<%= link_to "#{lesson.course.title}: #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url) %>" <%= distance_of_time_in_words(Time.now - user.latest_lesson_completion.created_at) %> ago
+      </em>
+    <% end %>
+  </div>
+</div>

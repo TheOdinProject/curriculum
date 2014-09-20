@@ -165,6 +165,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * * see [Liam Greig's solution here](https://github.com/cutegoesboom/odin-01) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/cutegoesboom/odin-01/blob/master/index.html)
 * see [Khaled Maher's solution here](https://github.com/maxios/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/maxios/google-homepage/blob/master/homepage.html)
 * see [Stephanie Gurung's solution here](https://github.com/stephr3/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/stephr3/google-homepage/blob/master/index.html)
+* Read Drew Price's solution [here](https://github.com/drewprice/study/tree/master/odin-project/projects/google-search), or view it in your browser [here](http://htmlpreview.github.io/?https://github.com/drewprice/study/blob/master/odin-project/projects/google-search/index.html).
 * *Put your solution above this line!*
 
 ## Additional Resources

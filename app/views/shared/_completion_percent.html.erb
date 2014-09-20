@@ -1,0 +1,9 @@
+<!--  This sets up the bar at the top of the lessons index page
+      which shows how far along the user is through the lessons
+      It may be called either on initial render or via EJS -->
+<% pct = @course.percent_completed_by(current_user).to_i %>
+<% if pct == 100 %>
+  <span class="lc-finished">Course Completed!</span>
+<% else %>
+  <%= pct %>% Completed
+<% end %>
