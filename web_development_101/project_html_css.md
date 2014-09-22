@@ -166,6 +166,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * see [Khaled Maher's solution here](https://github.com/maxios/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/maxios/google-homepage/blob/master/homepage.html)
 * see [Stephanie Gurung's solution here](https://github.com/stephr3/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/stephr3/google-homepage/blob/master/index.html)
 * see [Hunter Ducharme's soulution here](https://github.com/hgducharme/odinProjects/tree/master/webDev101/googleHomepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/hgducharme/odinProjects/blob/master/webDev101/googleHomepage/googleHomepage.html)
+* See [Paula Lucci's solution here](https://github.com/paulalucai/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/paulalucai/google-homepage/blob/master/index.html)
 * *Put your solution above this line!*
 
 ## Additional Resources
