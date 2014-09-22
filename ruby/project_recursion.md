@@ -28,6 +28,8 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Michael Alexander's solution](https://github.com/betweenparentheses/project_recursion/blob/master/fibs.rb)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/recursion)
 * [James MacIvor's solution](https://github.com/RobotOptimist/rec_ex/blob/master/fibs.rb)
+* [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/fibonacci.rb)
+
 
 ## Project: Merge Sort
 
