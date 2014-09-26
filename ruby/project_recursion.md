@@ -70,6 +70,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Erithair's solution](https://github.com/N19270/merge-sort)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/recursion)
 * [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/merge_sort.rb)
+* [James MacIvor's solution](https://github.com/RobotOptimist/rec_ex/blob/master/merge_sort.rb)
 * Your solution here...
 
 
