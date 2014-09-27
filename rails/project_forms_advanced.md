@@ -72,6 +72,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 * spierer's solution - [Github](https://github.com/spierer/odin-advanced-forms).
 * jamie's [solution](https://github.com/Jberczel/Flight_Booker) | [demo](http://flight-booker.herokuapp.com)
+* Solution by [Adrian Badarau](https://github.com/adrianbadarau/flight-booking-app) | [demo](http://flight-booking-app.herokuapp.com/)
 * *Your Solution Here!*
 * 
 
