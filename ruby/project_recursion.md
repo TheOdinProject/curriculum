@@ -27,6 +27,9 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Tommy Noe's solution](https://github.com/thomasjnoe/fibonacci-practice)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/project_recursion/blob/master/fibs.rb)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/recursion)
+* [James MacIvor's solution](https://github.com/RobotOptimist/rec_ex/blob/master/fibs.rb)
+* [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/fibonacci.rb)
+
 
 ## Project: Merge Sort
 
@@ -66,6 +69,8 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/ProjectRecursion.rb)
 * [Erithair's solution](https://github.com/N19270/merge-sort)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/recursion)
+* [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/merge_sort.rb)
+* [James MacIvor's solution](https://github.com/RobotOptimist/rec_ex/blob/master/merge_sort.rb)
 * Your solution here...
 
 

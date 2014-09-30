@@ -8,7 +8,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main `index.html` file in a browser, you'll have instructions waiting for you that describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck!
-2. If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live).
+2. If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live). Note for Windows users: As of September 2014, the current version of Rspec is broken in Windows. If this is your first time using rspec (invoked with a different program here that comes with the gem, called Rake), when installing the gem, instead of "gem install rspec", type "gem install rspec -v 2.14.1" into terminal instead.
 3. Do the following exercises.  You'll know you're done when all the tests pass!
     1. `00_hello`
     2. `01_temperature`
@@ -47,6 +47,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Michael Alexander's [Test First Ruby Solutions](https://github.com/betweenparentheses/test-first-ruby)
 * Peter Hurford's [Test First Ruby Solutions](https://github.com/peterhurford/testfirst)
 * James MacIvor's [Test First Ruby Solutions](https://github.com/RobotOptimist/learn_ruby)
+* Dave Charnuska's [Test First Ruby Solutions] (https://github.com/charleszardo/Odin_Project/tree/master/test_first_ruby)
+* Roman A Davis's [Test First Ruby Solutions](https://github.com/RomanADavis/my-learn-ruby) and [Ruby Project Euler Solutions](https://github.com/RomanADavis/euler-solutions/tree/master/Ruby)
 * *Your solution here...*
 
 ## Additional Resources

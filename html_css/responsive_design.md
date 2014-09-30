@@ -12,7 +12,7 @@ Responsive design is creating websites that respond to the user's context, wheth
 
 ## Your Assignment
 
-1. Read [Smashing Magazine's comprehensive introduction to responsive design](http://alistapart.com/article/responsive-web-design)
+1. Read [A List Apart's comprehensive introduction to responsive design](http://alistapart.com/article/responsive-web-design)
 2. Read over the [Responsive Web Tutorial from Lingulo](http://www.lingulo.com/tutorials/css/how-to-build-a-html5-website-from-scratch), though you don't have to build it.
 
 ## Additional Resources

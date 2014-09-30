@@ -25,6 +25,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 
 *[raystation's solution](http://raystation.github.io/odin-restaurant/)
 
+* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project5_2_DOM_jQuery) | [demo](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_2_DOM_jQuery/index.html)
 * *Your solution here!*
 
 

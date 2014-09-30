@@ -86,5 +86,10 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See James MacIvor's solution here: [source code](https://github.com/RobotOptimist/Sketch-a-Sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/RobotOptimist/Sketch-a-Sketch/blob/master/index.html)
 * See David Ford's solution here: [source code](https://github.com/djfordz/project_js_jquery) or [view it in the browser](http://djfordz.github.io/project_js_jquery)
 * See Vincent's solution here: [source code](https://github.com/wingyu/etch_a_sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/wingyu/etch_a_sketch/blob/master/index.html)
-See Lezou Dali's solution here: [source code](https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html) or [view it in browser](http://htmlpreview.github.io/?https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html)
+* See Lezou Dali's solution here: [source code](https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html) or [view it in browser](http://htmlpreview.github.io/?https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html)
+* RomanADavis's solution here: [source code](https://github.com/RomanADavis/JQuery-Toy) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RomanADavis/JQuery-Toy)
+* Julie De Lorenzo's solution here: [source code](https://github.com/delorenzo/jquery-sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/delorenzo/jquery-sketchpad/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
+* See Hunter Ducharme's solution here: [source code](https://github.com/hgducharme/odinProjects/tree/master/webDev101/javascriptSketchPad) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/hgducharme/odinProjects/blob/master/webDev101/javascriptSketchPad/sketch-pad.html)
+* * See Keith Doyle's solution here: [source code](https://github.com/keithdoyle9/drawing_grid) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/keithdoyle9/drawing_grid/blob/master/index.html)
+* *Your solution goes above this line...*
