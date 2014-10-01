@@ -44,4 +44,4 @@ Reading the following articles is required.  After that, it's up to you to choos
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* *Add some!*
+* [A Great Free AngularJS Course from CodeSchool](http://campus.codeschool.com/courses/shaping-up-with-angular-js/)
