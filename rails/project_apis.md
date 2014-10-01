@@ -91,6 +91,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * *Your Solution Here!*
 * [Project 1: Building a Simple Kittens API i.e. odin-kittens](https://github.com/sirramongabriel/odin-kittens)
 * jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
+* Solution by [Adrian Badarau](https://github.com/adrianbadarau/Kittens-API)
 
 
 ## Project 2: Using a Third Party API
