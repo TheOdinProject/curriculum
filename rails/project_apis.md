@@ -118,6 +118,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 
 * *Your Solution Here!*
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
+* Solution from [Adrian Badarau](https://github.com/adrianbadarau/rails-flickr-api-test-app)
 
 
 ## Additional Resources
