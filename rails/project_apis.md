@@ -91,6 +91,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * *Your Solution Here!*
 * [Project 1: Building a Simple Kittens API i.e. odin-kittens](https://github.com/sirramongabriel/odin-kittens)
 * jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
+* [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-kittens)
 
 
 ## Project 2: Using a Third Party API
@@ -114,6 +115,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
+* [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
 
 
 ## Additional Resources
