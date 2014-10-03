@@ -21,7 +21,7 @@ Forms are important to get right not just because you want the correct data gett
 ## Your Assignment
 
 1. Read [Shay Howe on Forms](http://learn.shayhowe.com/html-css/building-forms)
-2. Brows through [Form Basics from MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form) to see if you've missed anything.
+2. Browse through [Form Basics from MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form) to see if you've missed anything.
 
 ## Additional Resources
 
