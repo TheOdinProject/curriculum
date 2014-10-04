@@ -92,4 +92,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * *Add the link to your solution above this line (do not remove this line)*
 * See Hunter Ducharme's solution here: [source code](https://github.com/hgducharme/odinProjects/tree/master/webDev101/javascriptSketchPad) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/hgducharme/odinProjects/blob/master/webDev101/javascriptSketchPad/sketch-pad.html)
 * * See Keith Doyle's solution here: [source code](https://github.com/keithdoyle9/drawing_grid) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/keithdoyle9/drawing_grid/blob/master/index.html)
+* See Shouvik Roy's solution here: [source code](https://github.com/royshouvik/etch-a-sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/etch-a-sketch/blob/master/index.html)
 * *Your solution goes above this line...*
