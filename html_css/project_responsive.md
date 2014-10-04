@@ -24,6 +24,7 @@ The process will be quite similar to what we've done before.  At this point, you
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * *Your solution here...* 
+* [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/responsive_design) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/responsive_design/index.html)
 
 ## Additional Resources
 
