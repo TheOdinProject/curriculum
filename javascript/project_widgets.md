@@ -12,7 +12,7 @@ Don't spend too much time worrying about getting your images to display at the c
   
 1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
 1. Set up a blank HTML document
-1. Think about how you would set up the different elements within the game.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
+1. Think about how you would set up the different elements within the site.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
 2. Build the static HTML for the carousel.
 3. Set up a very wide div which will contain the individual "slides" of each image.  By appropriately positioning that div inside a container div (which acts like a picture frame), you can choose which slide is visible at any given time.
 4. Once you have the slider positioned properly, build functions for "next" and "previous" which will advance to the next or previous slide accordingly.  Make the transitions smooth using simple effects.
@@ -38,6 +38,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [demo](http://jsfiddle.net/Jberczel/6kS3t/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Slider) | [demo](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Slider/index.html)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_4_Carousel) | [demo](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_4_Carousel/index.html)
+* [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/image_carousel) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/image_carousel/index.html "Image Carousel/Slider")
 
 
 ## Additional Resources
