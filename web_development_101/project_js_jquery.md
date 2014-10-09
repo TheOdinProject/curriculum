@@ -89,7 +89,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Lezou Dali's solution here: [source code](https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html) or [view it in browser](http://htmlpreview.github.io/?https://github.com/lezoudali/web-dev-playground/blob/master/doodle.html)
 * RomanADavis's solution here: [source code](https://github.com/RomanADavis/JQuery-Toy) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RomanADavis/JQuery-Toy)
 * Julie De Lorenzo's solution here: [source code](https://github.com/delorenzo/jquery-sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/delorenzo/jquery-sketchpad/blob/master/index.html)
-* *Add the link to your solution above this line (do not remove this line)*
 * See Hunter Ducharme's solution here: [source code](https://github.com/hgducharme/odinProjects/tree/master/webDev101/javascriptSketchPad) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/hgducharme/odinProjects/blob/master/webDev101/javascriptSketchPad/sketch-pad.html)
 * * See Keith Doyle's solution here: [source code](https://github.com/keithdoyle9/drawing_grid) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/keithdoyle9/drawing_grid/blob/master/index.html)
-* *Your solution goes above this line...*
+* *Add the link to your solution above this line (do not remove this line)*
