@@ -82,6 +82,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/knight-moves)
 * [Michael Alexander's Solution](https://github.com/betweenparentheses/project_data_structures/blob/master/knightstravails.rb)
 * [Sahil Agarwal's Solution](https://github.com/sahilda/the_odin_project/tree/master/data-structures-and-algorithms)
+* [Sergio Ribeiro's Solution](https://github.com/serg1o/Data_Structures/blob/master/knight.rb)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
