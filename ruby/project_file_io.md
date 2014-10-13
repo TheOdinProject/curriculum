@@ -64,6 +64,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Adrian Badarau's Solution](https://github.com/adrianbadarau/Hang-Man-Game)
 * [Erithair's Solution](https://github.com/N19270/Hangman)
 * [James MacIvor's Solution](https://github.com/RobotOptimist/hangman)
+* [Hawkeye's Solution](https://github.com/Hawkeye000/hangman)
 
 
 ## Additional Resources
