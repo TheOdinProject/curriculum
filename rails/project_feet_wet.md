@@ -40,7 +40,11 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Solution from Angel Vargas](https://github.com/arioth/demo_app)
 * [Solution from Donald](https://github.com/donaldali/demo_app)
 * [Solution from TomTom](https://github.com/tim5046/projectOdin/tree/master/Rails/IntroductionToRails/demo_app)
+<<<<<<< HEAD
 * [Solution from charnushka] (https://github.com/charleszardo/demo_app)
+=======
+* [Solution from Tommy Noe](https://github.com/thomasjnoe/demo_rails_app)
+>>>>>>> 012d93cd68c9495d05e65d80492669b8b2d525f0
 
 ## Additional Resources
 
