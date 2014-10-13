@@ -67,6 +67,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Roman Davis's Euler Solutions](https://github.com/RomanADavis/euler-solutions)
 * [Julie De Lorenzo's Euler Solutions](https://github.com/delorenzo/euler-solutions)
 * [Khaled Maher's Euler Solutions](https://github.com/maxios/project-euler) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/maxios/project-euler/blob/master/index.html).
+* [Dorian Iacobescu's Euler Solutions](https://github.com/iacobson/Odin2-Euler-Problems-1-2-3) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/iacobson/Odin2-Euler-Problems-1-2-3/blob/master/index.html)
 * *Put your solution above this line!*
 
 ## Additional Resources
