@@ -21,6 +21,7 @@ The page is very straightforward, so you should be able to clone it even if your
 
 * See [Jason Ellis's solution here](https://github.com/jason-ellis/mint-signup) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
 * See [Mram1000's solution here](https://github.com/mram1000/mint-signup) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/mram1000/mint-signup/blob/master/index-mint.html)
+* [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/html_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/html_forms/index.html)
 * *Your solution here...* 
 
 ## Additional Resources

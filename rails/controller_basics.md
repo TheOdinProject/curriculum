@@ -193,7 +193,7 @@ Now the full controller code can be written out for our `#create` action:
       # We know this will get run once we've received the submitted
       # form from our new action above (remember your REST actions??)
       def create
-        @post = Post.new(params[:post])
+        @post = Post.new(params[whitelisted_post_params])
         if @post.save
           flash[:success] = "Great! Your post has been created!"
           redirect_to @post # go to show page for @post
@@ -201,6 +201,12 @@ Now the full controller code can be written out for our `#create` action:
           flash.now[:error] = "Rats! Fix your mistakes, please."
           render :new
         end
+
+        private
+
+          def whitelisted_post_params
+            params.require(:post).permit(:title,:body,:author_id)
+          end 
       end
     end
 ```

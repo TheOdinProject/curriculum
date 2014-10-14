@@ -91,6 +91,9 @@ This project may seem simple, but now you've got a website that is both a normal
 * *Your Solution Here!*
 * [Project 1: Building a Simple Kittens API i.e. odin-kittens](https://github.com/sirramongabriel/odin-kittens)
 * jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
+* [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-kittens)
+* Solution by [Adrian Badarau](https://github.com/adrianbadarau/Kittens-API)
+* *Your solution ABOVE this line*
 
 
 ## Project 2: Using a Third Party API
@@ -103,7 +106,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 2. Follow the steps for getting your API key.  You'll have to sign in or sign up for Yahoo (someone has to these days) and give them some basic information about your app.  Select "Apply for a non-commercial key" and let them know how awesome your photo feed app will be.  You'll automatically get a key generated for you, in addition to a secret key.  Copy both of these somewhere you can get to them later.
 3. Use the [idGettr](http://idgettr.com/) website to look up your ID by pasting in your flickr username in the example URL, e.g. `http://www.flickr.com/photos/eriktrautman/`.  You'll need that later for some of the API methods.
 3. Upload a few photos to your photostream!
-4. Follow the tutorial listed at [pixellatedvisions.com](http://www.pixellatedvisions.com/2009/04/06/integrating-flickr-into-your-rails-website) for building a Flickr sidebar.  You've already completed a couple of the steps.  The tutorial is old but should still work for you.  It uses the `flickr_fu` gem, which is old but useful.  You'll find a gem for pretty much every API out there.  They will all require you to include your API keys and secret keys somehow, in this case by using the `config/flickr.yml` file.
+4. Follow the tutorial listed at [pixellatedvisions.com](http://www.pixellatedvisions.com/2009/04/06/integrating-flickr-into-your-rails-website) for building a Flickr sidebar.  You've already completed a couple of the steps.  The tutorial is old but should still work for you.  It uses the `flickr_fu` gem, which no longer works with the Flickr API, but there are other options out there (like [Flickraw](http://hanklords.github.io/flickraw/ "Flickraw")).  You'll find a gem for pretty much every API out there.  They will all require you to include your API keys and secret keys somehow, in this case by using the `config/flickr.yml` file.
 5. One note is that it's not good practice to have your secret key hard coded into your app because then it's hardly a secret, especially if you're pushing to Github.  A better practice is to store the key in an [environment variable](http://railsapps.github.io/rails-environment-variables.html) instead and/or use a gem like [`figaro` (see docs)](https://github.com/laserlemon/figaro).  Environment variables allow you to push your key to your app directly from the command line when it fires up.  Figaro operates under the same principle, though it helps you out by allowing you to store the keys in an actual file that just doesn't get committed with the rest of your code.  Use one of these techniques unless you're a cowboy.  They are well described in [Daniel Kehoe's RailsApps article](http://railsapps.github.io/rails-environment-variables.html).
 5. Build a simple StaticPagesController to display a home page with a simple form.  The form should just be a single text field which takes the ID for a Flickr user.  Once the form is submitted, the page should refresh and display the photos from that user.
 6. Modify the image feed from the tutorial's sidebar to display in the main page body instead.  This is to test how much you learned vs. copy-pasted!
@@ -114,6 +117,8 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * *Your Solution Here!*
+* [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
+* Solution from [Adrian Badarau](https://github.com/adrianbadarau/rails-flickr-api-test-app)
 
 
 ## Additional Resources

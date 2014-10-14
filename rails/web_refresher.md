@@ -8,7 +8,7 @@ To really understand how Rails works, you need to have a solid base in the guts 
 
 HTTP is just a way of structuring the request-and-response conversation between your browser and the server.  Actually, it's not even a conversation since it is stateless... it's more of an "ask and receive".  The protocol outlines how that brief piece of dialogue should occur.
 
-*Check out [this article from devhub.fm](http://devhub.fm/http-requestresponse-basics/) which describes what's going on with HTTP.  Check out [http://web-sniffer.net/](http://web-sniffer.net/) and try retrieving a couple of websites (like http://www.theodinproject.com) like they recommend.*
+*Check out [this tutsplus post on HTTP](http://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177) which describes what's going on with HTTP.  Check out [http://web-sniffer.net/](http://web-sniffer.net/) and try retrieving a couple of websites (like http://www.theodinproject.com) on your own.*
 
 One key component to pay attention to is the fact that the request and response both have header and (usually) body components.  The header contains information about the request or response itself (meta data), including which website to send or return to and what the status of the response is.  The body of the request can contain things like data submitted by a form or cookies or authentication tokens while the response will usually contain the HTML page you're trying to access.
 
@@ -135,3 +135,4 @@ We'll dig into this stuff a bit later, but it's good to understand in the contex
 
 * [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
 * [Rails MVC explained by CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/mvc-in-rails)
+* [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy

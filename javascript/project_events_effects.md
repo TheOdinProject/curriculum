@@ -45,6 +45,9 @@ If you think about what's required to make a game like this work, it's all well 
 * jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/snake) | [demo](http://jsfiddle.net/Jberczel/xvEt5/)
 * [Peter Hurford's Portal Snake](https://github.com/peterhurford/portalsnake)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Snake) | [demo](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Snake/index.html)
+* [Mazin's Solution](https://github.com/muzfuz/JS_Snake) | [Demo](http://muzfuz.com/snake)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_3_Snake) | [demo](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_3_Snake/index.html)
+* [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/snake/index.html)
 * Your solution here!
 
 

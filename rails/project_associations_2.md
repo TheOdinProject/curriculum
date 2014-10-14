@@ -3,7 +3,7 @@
 
 *Don't forget to use Git to save your projects!*
 
-This final chapter of the RoR Tutorial will require you to have users following users while the other project will give you a chance to build the back end for an application that looks suspiciously like a popular event hosting site.
+This final chapter of the RoR Tutorial will require you to have users following users.
 
 ## Project: Ruby on Rails Tutorial
 

@@ -42,4 +42,4 @@ We'll also cover a few tips and tools that will be useful to you again and again
 * Udacity has a quick explanation of [web basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/e-48230539/m-48742046) and [HTML basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/m-48724340) (these will require login/signup but it's free).
 * A comprehensive list of web development resources lives at the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum).
 * [HTTP Succintly](http://net.tutsplus.com/sessions/http-succinctly/)
-* [Pesticide.io is a chrome extension that puts a bright box around every <div> on the page](http://pesticide.io/).  That makes it easy to see the makeup of a page without scrolling through all the elements on it with your developer tools.
+* [Pesticide.io is a chrome extension that puts a bright box around every `<div>` on the page](http://pesticide.io/).  That makes it easy to see the makeup of a page without scrolling through all the elements on it with your developer tools.

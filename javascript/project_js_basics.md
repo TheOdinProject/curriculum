@@ -43,6 +43,8 @@ It's time to build an on-screen calculator
 * [Solution from raystation](http://jsfiddle.net/k28ppt26/)
 * [Solution from Siromivel](https://github.com/siromivel/purecalc) | [demo](http://htmlpreview.github.io/?https://github.com/siromivel/purecalc/blob/master/jscalc.html)
 * [Solution from Mazin Power](https://github.com/muzfuz/JS_Calculator) | [Demo](http://muzfuz.com/calculator/)
+* [Solution from Marina Sergeyeva](https://github.com/imousterian/OdinProject/tree/master/Project5_1_Calculator)
+* [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/calculator/index.html)
 * Your solution here...
 
 ## Additional Resources
