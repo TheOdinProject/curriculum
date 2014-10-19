@@ -31,6 +31,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * *Your Solution Here!*
 * [Donald's Solution](https://github.com/donaldali/Chess)
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
+* [Hawkeye's Solution](https://github.com/Hawkeye000/command-line-chess)
 
 
 ## Additional Resources
