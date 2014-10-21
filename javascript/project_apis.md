@@ -20,6 +20,7 @@ Play around with the other options the Maps API gives you -- you can customize a
 
 * *Your solution here!*
 * jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/google-maps-js) | [demo](http://jsfiddle.net/Jberczel/UM7bB/)
+* [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/google_maps) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/google_maps/index.html "Google Maps")
 
 
 ## Additional Resources
