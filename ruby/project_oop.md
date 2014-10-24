@@ -41,6 +41,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Solution from Arman Ghassemi](https://github.com/ArmanG/TicTacToe.git)
 * [Solution from Gray Olson](https://github.com/termhn/TicTacToe-Ruby)
 * [Solution from Hawkeye](https://github.com/Hawkeye000/tic-tac-toe)
+* [Solution from Roman] (https://github.com/RomanADavis/tic_tac_toe)
 * *Put Your Solution Above This Line!*
 
 
