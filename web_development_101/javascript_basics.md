@@ -71,6 +71,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [John Quarles' Euler Solutions](https://github.com/johnwquarles/Project-2.71828)
 * [Eric Rohver's Euler Solutions](https://github.com/Groove11/Project-Euler)
 * [Rafael Ruiz Moreno's Euler Solutions](https://github.com/rruimor/project-euler-js)
+* [M.Musab Sohail's Euler Solutions](https://github.com/musabsohail/the-odin-project/tree/master/web%20101/JS)
+
 * *Put your solution above this line!*
 
 ## Additional Resources
