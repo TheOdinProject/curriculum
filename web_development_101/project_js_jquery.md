@@ -95,4 +95,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Keith Doyle's solution here: [source code](https://github.com/keithdoyle9/drawing_grid) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/keithdoyle9/drawing_grid/blob/master/index.html)
 * See Andrej Dragojevic's solution here: [source code](https://github.com/antrix1/JQuery-Project) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/antrix1/JQuery-Project/blob/master/index.html)
 * See Mike Over's solution here: [source code](hhttps://github.com/mikeover/jQuery-Etch-A-Sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/mikeover/jQuery-Etch-A-Sketch/master/index.html)
+* See John Quarles' solution here: [source code](https://github.com/johnwquarles/Sketchy-Etch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/johnwquarles/Sketchy-Etch/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
