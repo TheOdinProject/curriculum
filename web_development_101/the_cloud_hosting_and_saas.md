@@ -33,7 +33,7 @@ Even better, when you inevitably want to make large-scale changes or just fix so
 1. Check out this [explanation of cloud computing](http://mashable.com/2013/08/26/what-is-the-cloud/) from Mashable.
 2. (Optional) If you want another go at it, take a look at this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
 3. Next, watch the [David Patterson's explanation of Cloud Computing (12:23 to 30:00)](https://www.youtube.com/watch?v=SeBAj4P2FWA&list=PLjbL0BCR04Q3uDPD3GVZJqV3UnJkOic-o) from the Berkeley SAAS course on edX.
-1. Read [The difference between SAAS and Cloud Computing](http://www.itworld.com/print/109287).
+1. Read [The difference between SAAS and Cloud Computing](http://www.itworld.com/article/2758057/enterprise-software/back-to-basics--the-difference-between-saas-and-cloud-computing.html).
 2. See Additional Resources below if you've got lingering questions.
 
 ## Additional Resources
@@ -41,6 +41,6 @@ Even better, when you inevitably want to make large-scale changes or just fix so
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* There's also another [interesting perspective on SAAS](http://www.itworld.com/print/108695) from a few years ago.
 * An [Intro to Cloud Computing](http://www.dummies.com/how-to/content/what-is-cloud-computing.html) by Craig Dickson
 * [Cloud computing for dummies](http://www.dummies.com/how-to/content/what-is-cloud-computing.html)
+* An [interesting perspective on SAAS](http://www.itworld.com/article/2780751/software-as-a-service/what-to-ask-before-saying-yes-to-saas--cloud-computing.html) from a few years ago (2008).
