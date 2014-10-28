@@ -180,6 +180,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * see [Rafael Ruiz Moreno's solution here](https://github.com/rruimor/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/rruimor/google-homepage/blob/master/index.html)
 * see [Antonio Augusto's solution here](https://github.com/antoniosb/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/antoniosb/google-homepage/blob/master/index.html)
 * see [Andrej Dragojevic's solution here](https://github.com/antrix1/google-home) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/antrix1/google-home/blob/master/index.html)
+* see [Lara Finnegan's solution here](https://github.com/lcf0285/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/lcf0285/google-homepage/blob/master/google-homepage.html)
 * *Put your solution above this line!*
 
 
