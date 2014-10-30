@@ -565,14 +565,14 @@
   }
 }
 
-#ad-lower-banner{
+#lower-banner{
   height: 60px;
   width: 467px;
   border: 10px solid #eee;
   margin: 70px auto 50px;
   position: relative;
   img{
-
+    position: relative;
   }
   &:before{
     content: "From the creators of The Odin Project...";
@@ -583,13 +583,14 @@
     color: #ccc;
   }
 }
-#ad-right-box{
+#right-box{
   // border: 2px solid #aaa;
   // height: 200px;
   width: 200px;
   position: absolute;
   right: -240px;
   top: 100px;
+  min-height: 170px;
   img{
     height: 150px;
     width: 180px;
@@ -607,14 +608,25 @@
     margin: 10px 10px 10px 10px;
   }
 }
-.ad{
+.adimage{
   background-color: #eee;
+  position: relative;
+    text-align: center;
+  .alt-txt{
+    position: absolute;
+    margin-left: 6px;
+    font-size: 28px;
+    line-height:1.25em;
+  }
+  .lower-alt-txt{
+    margin-left: 80px!important;
+  }
 }
 @media(max-width: 500px){
-  #ad-lower-banner{
+  #lower-banner{
     display: none;
   }
-  #ad-right-box{
+  #right-box{
     display: none;
   }
 }

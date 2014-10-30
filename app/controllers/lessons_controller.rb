@@ -38,8 +38,8 @@ class LessonsController < ApplicationController
     # puts "\n\nVE BANNER #{Ad.show_ads?(current_user)}!\n\n"
     # puts "ENV: #{ENV['SHOW_ADS']}!!\n\n"
     if ENV["SHOW_ADS"] && Ad.show_ads?(current_user)
-      @lower_banner_ad = Ad.ve_banner
-      @right_box_ad = Ad.ve_box
+      @lower_banner_ad = true # Ad.ve_banner
+      @right_box_ad = true # Ad.ve_box
     end
     # puts "\n\nVE: #{Ad.all.inspect} \n\nBANNER AD #{Ad.ve_banner}!\n\n"
   end
