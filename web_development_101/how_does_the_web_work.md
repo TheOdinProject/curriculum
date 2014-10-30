@@ -1,5 +1,5 @@
 # How Does the Web Work?
-*Estimated Time: 1-2 hrs*
+<!-- *Estimated Time: 1-2 hrs* -->
 
 Before you can understand how to *program* the web, you need to understand the web itself on a more granular level than you probably do now.  Some of this stuff is necessary just to have a more wholistic understanding of the ecosystem in which you will be working (and to not sound like a total newbie when talking to other developers about it), but other aspects (like HTTP) will come up again and again when you start programming.  
 

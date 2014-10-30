@@ -1,5 +1,5 @@
 # Project: Ruby
-*Estimated Time: 4-6 hrs*
+<!-- *Estimated Time: 4-6 hrs* -->
 
 You've had plenty of opportunity to read Ruby and learn Ruby and now it's time to build Ruby.  You learned about RSpec in the previous section and now we'll actually get to do some Test-First Ruby! That means you'll be downloading a bunch of test files and your job will be to make them pass by writing code.  It's a great way to start writing some real Ruby scripts and learn some testing at the same time.
 

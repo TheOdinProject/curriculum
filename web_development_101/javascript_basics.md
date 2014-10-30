@@ -1,5 +1,5 @@
 # Javascript 101
-*Estimated Time: 6-8 hrs*
+<!-- *Estimated Time: 6-8 hrs* -->
 
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
 

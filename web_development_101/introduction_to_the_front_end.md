@@ -1,5 +1,5 @@
 # Introduction to the Front End
-*Estimated Time: 1 hr*
+<!-- *Estimated Time: 1 hr* -->
 
 The "front end languages" live in the browser.  After you type in an address in the address bar at the top and hit Enter, your browser will receive at least an HTML file from the web server.  That file will likely tell the browser to go and also ask for a CSS file and a Javascript file as well (probably many more than one, but we'll keep it simple).  
 

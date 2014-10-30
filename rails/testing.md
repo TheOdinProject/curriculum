@@ -1,6 +1,6 @@
 # Testing Rails Apps with RSpec
 
-*Estimated Time: 3-5 hrs*
+<!-- *Estimated Time: 3-5 hrs* -->
 
 We were introduced to testing in [the RSpec lesson of the Web Development 101 course](/web-development-101/testing-basics) and you got the chance to dive a bit deeper in the [RSpec lesson of the Ruby Programming course](/ruby-programming/introduction-to-rspec).  If you haven't done those, that's where you should start.  
 

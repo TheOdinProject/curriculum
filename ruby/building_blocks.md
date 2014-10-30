@@ -1,6 +1,6 @@
 # Ruby Building Blocks
 
-*Estimated Time: 6-8 hrs*
+<!-- *Estimated Time: 6-8 hrs* -->
 
 Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](/web-development-101/ruby-basics) (if not, go do that first!), this should start as a healthy refresher of what you've already learned with *Variables, Data Types, Strings, and Methods*.  
 

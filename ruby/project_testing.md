@@ -1,5 +1,5 @@
 # Project: Testing Ruby with RSpec
-*Estimated Time: 6-10 hours*
+<!-- *Estimated Time: 6-10 hours* -->
 
 *Don't forget to use Git to save your projects!*
 

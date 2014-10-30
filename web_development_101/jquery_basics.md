@@ -1,5 +1,5 @@
 # jQuery 101
-*Estimated Time: 3-5 hrs*
+<!-- *Estimated Time: 3-5 hrs* -->
 
 [jQuery](http://skillcrush.com/2012/07/23/jquery/) is a library of commonly used javascript widgets and functions that has more or less taken the internet by storm.  It's written in javascript and it means that you don't have to go through the pain of building a popup modal dialog box or a dropdown menu, for example, the long way.  It also gives you the incredibly easy ability to select elements on the webpage ("DOM elements") so you can start modifying their properties, whether that's hiding them, moving them, changing their contents... it's all in your hands!
 

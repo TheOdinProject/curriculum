@@ -1,5 +1,5 @@
 # Projects: Forms
-*Estimated Time: 4-6 hrs*
+<!-- *Estimated Time: 4-6 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

@@ -1,5 +1,5 @@
 # Project: Ruby on Rails Final Project!!!
-*Estimated Time: 25-40 hrs*
+<!-- *Estimated Time: 25-40 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

@@ -1,5 +1,5 @@
 # Project: Active Record Queries
-*Estimated Time: X hrs*
+<!-- *Estimated Time: X hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

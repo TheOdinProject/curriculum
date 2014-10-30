@@ -1,5 +1,5 @@
 # A Very Brief Intro to CS Concepts
-*Estimated Time: 1 hr*
+<!-- *Estimated Time: 1 hr* -->
 
 You've learned how to build some cool stuff already and, frankly, you could probably make some decent websites without a crazy amount of additional formal education.  However, just because you can write English at a grade school level doesn't mean you will be editing the New York Times anytime soon.
 

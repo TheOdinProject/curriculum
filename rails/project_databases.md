@@ -1,5 +1,5 @@
 # Project: SQL and Databases
-*Estimated Time: 5-10 hrs*
+<!-- *Estimated Time: 5-10 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

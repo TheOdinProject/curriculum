@@ -1,5 +1,5 @@
 # Using Git in the Real World
-*Estimated Time: 1-2 hrs*
+<!-- *Estimated Time: 1-2 hrs* -->
 
 Git basics are very simple but it feels like a bottomless pit sometimes when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around looking for it.
 

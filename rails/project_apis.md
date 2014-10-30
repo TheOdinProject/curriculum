@@ -1,5 +1,5 @@
 # Projects: Building and Using APIs
-*Estimated Time: 4-8 hrs*
+<!-- *Estimated Time: 4-8 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

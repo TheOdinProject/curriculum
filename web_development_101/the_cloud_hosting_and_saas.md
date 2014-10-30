@@ -1,5 +1,5 @@
 # The Cloud, Hosting, and Software as a Service (SAAS)
-*Estimated Time: 1 hr*
+<!-- *Estimated Time: 1 hr* -->
 
 You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in posession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.
 

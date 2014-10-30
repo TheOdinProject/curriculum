@@ -1,5 +1,5 @@
 # Project: Getting Your Feet Wet With Rails
-*Estimated Time: 3-4 hrs*
+<!-- *Estimated Time: 3-4 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

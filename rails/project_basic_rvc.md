@@ -1,5 +1,5 @@
 # Project: Basic Routes, Views and Controllers
-*Estimated Time: 3-5 hrs*
+<!-- *Estimated Time: 3-5 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

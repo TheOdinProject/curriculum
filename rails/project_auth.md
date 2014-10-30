@@ -1,5 +1,5 @@
 # Projects: Authentication
-*Estimated Time: 8-12 hrs*
+
 
 *Don't forget to use Git to save your projects!*
 

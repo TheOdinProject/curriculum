@@ -1,5 +1,5 @@
 # Project: Advanced Forms
-*Estimated Time: 6-12 hrs*
+<!-- *Estimated Time: 6-12 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

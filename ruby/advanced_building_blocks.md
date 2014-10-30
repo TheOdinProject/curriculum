@@ -1,6 +1,6 @@
 # Advanced Building Blocks
 
-*Estimated Time: 10-15 hrs*
+<!-- *Estimated Time: 10-15 hrs* -->
 
 This lesson gets more into the topics you may have been shaky on before like *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*.  It's definitely got some more meat to it than the previous one.  The projects in the Assignment section are good for doing on your own because Codecademy gives you all kinds of help with them.  
 

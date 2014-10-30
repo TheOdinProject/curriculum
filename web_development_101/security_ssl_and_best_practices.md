@@ -1,5 +1,5 @@
 # Security, SSL, and Best Practices
-*Estimated Time: 1 hr*
+<!-- *Estimated Time: 1 hr* -->
 
 It's important to at least start thinking about how the open and bountiful world of the Internet handles issues of security and secure connections.  
 

@@ -1,5 +1,5 @@
 # Project: Rails
-*Estimated Time: 6-8 hrs*
+<!-- *Estimated Time: 6-8 hrs* -->
 
 In this project, you'll get the opportunity to actually build a real rails application.  It's not a trivially simple one either -- it's got a lot of wrinkles and things that you're not going to understand.
 

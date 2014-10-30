@@ -1,5 +1,5 @@
 # Projects: Active Record Basics
-*Estimated Time: 6-10 hrs*
+<!-- *Estimated Time: 6-10 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

@@ -1,5 +1,5 @@
 # Ruby on Rails 101
-*Estimated Time: 2-4 hrs*
+<!-- *Estimated Time: 2-4 hrs* -->
 
 You're probably here because you want to learn the [Ruby on Rails](http://rubyonrails.org/) framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about.  
 

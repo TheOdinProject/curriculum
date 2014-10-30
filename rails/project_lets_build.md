@@ -1,5 +1,5 @@
 # Project: Web Refresher
-*Estimated Time: 5-8 hrs*
+<!-- *Estimated Time: 5-8 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

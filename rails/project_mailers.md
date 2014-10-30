@@ -1,5 +1,5 @@
 # Project: Ruby on Rails Mailers
-*Estimated Time: 1-2 hrs*
+<!-- *Estimated Time: 1-2 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 
