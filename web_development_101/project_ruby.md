@@ -16,7 +16,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     4. `03_simon_says`
     5. `04_pig_latin`
     6. `08_book_titles`
-    6. `09_timer`
+    7. `09_timer`
 5. Push your project to Github
 
 ## Student Solutions
@@ -49,6 +49,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * James MacIvor's [Test-First Ruby Solutions](https://github.com/RobotOptimist/learn_ruby)
 * Hunter Ducharme's [Test-First Ruby Solutions](https://github.com/hgducharme/odinProjects/tree/master/webDev101/Ruby)
 * Julie's [Test-First Ruby Solutions](https://github.com/delorenzo/test-first-ruby)
+* John Quarles' [Test-First Ruby Solutions](https://github.com/johnwquarles/test-first-Ruby)
 * *Your solution here...*
 
 ## Additional Resources
