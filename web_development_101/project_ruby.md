@@ -49,6 +49,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * James MacIvor's [Test-First Ruby Solutions](https://github.com/RobotOptimist/learn_ruby)
 * Hunter Ducharme's [Test-First Ruby Solutions](https://github.com/hgducharme/odinProjects/tree/master/webDev101/Ruby)
 * Julie's [Test-First Ruby Solutions](https://github.com/delorenzo/test-first-ruby)
+* Dorian Iacobescu's [Test-First Ruby Solutions](https://github.com/iacobson/Odin4-Ruby-TestFirst-Assignment)
 * *Your solution here...*
 
 ## Additional Resources
