@@ -33,6 +33,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
 * [Hawkeye's Solution](https://github.com/Hawkeye000/command-line-chess)
 * [Sergio Ribeiro's Solution](https://github.com/serg1o/Chess)
+* [Marina Sergeyeva's Solution](https://github.com/imousterian/OdinProject/tree/master/Project2_9_Final_Ruby_Chess)
 
 
 ## Additional Resources
