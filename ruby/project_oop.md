@@ -77,6 +77,9 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Solution from Arman Ghassemi](https://github.com/ArmanG/Mastermind)
 * [Solution from James MacIvor includes AI](https://github.com/RobotOptimist/mastermind)
 * [Solution from Hawkeye includes AI](https://github.com/Hawkeye000/mastermind)
+* [Solution from Roman (no AI)](https://github.com/RomanADavis/mastermind)
+* 
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
