@@ -99,4 +99,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Artur Janik's solution here: [source code](https://github.com/ArturJanik/odin-jquery-homework) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ArturJanik/odin-jquery-homework/blob/master/index.html)
 * Check out Drew Price's [Heck-A-Sketch](http://drewprice.github.io/study/odin-project/heck-a-sketch/) and read the [source code here](https://github.com/drewprice/study/tree/master/odin-project/projects/heck-a-sketch).
 * See Antonio Augusto's solution here: [source code](https://github.com/antoniosb/sketch_pad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/antoniosb/sketch_pad/blob/master/index.html)
+* See TReiff's solution here: [source code](https://github.com/treiff/Odin-Project-Javascript-Jquery) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/treiff/Odin-Project-Javascript-Jquery/blob/master/sketchpad.html)
 * *Add the link to your solution above this line (do not remove this line)*
