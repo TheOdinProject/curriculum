@@ -78,6 +78,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/private-events/private-events)
 * [Jonathan's solution](https://github.com/faulk49/private-events)
 * [Erithair's solution](https://github.com/N19270/private-events) | [demo](http://private-events.herokuapp.com/)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_EventBrite/private-events)
 
 ## Additional Resources
 
