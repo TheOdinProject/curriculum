@@ -43,6 +43,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Erithair's Solution [Jumpstart Labs Blogger App I0 -I5](https://github.com/N19270/blogger) | [View online](http://erithair-blog.herokuapp.com/)
 * James MacIvor's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/RobotOptimist/blogger) | [View online] (http://warm-scrubland-4226.herokuapp.com/articles)
 * Vincent's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/wingyu/blogger) | [View online] (http://ancient-plains-8753.herokuapp.com/)
+* Hunter Ducharme's Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/hgducharme/OdinProjects/tree/master/webDev101/RailsBlogger) | [View online](https://jumpstartblogger.herokuapp.com/)
 
 * *Your solution above here...*
 
