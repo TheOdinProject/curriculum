@@ -101,4 +101,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Antonio Augusto's solution here: [source code](https://github.com/antoniosb/sketch_pad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/antoniosb/sketch_pad/blob/master/index.html)
 * See Chasmani's solution here: [source code](https://github.com/chasmani/Etch-A-Sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/chasmani/Etch-A-Sketch/blob/master/index.html)
 * See Lara Finnegan's solution here: [source code](https://github.com/lcf0285/Etch-A-Sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/lcf0285/Etch-A-Sketch/blob/master/etchsketch.html)
+* See Rik's solution here: [source code](https://github.com/frbz/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/frbz/sketchpad/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
