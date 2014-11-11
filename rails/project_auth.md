@@ -39,8 +39,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 2. Create your new `members-only` Rails app and Github repo.  Update your README.
 3. Start by migrating and setting up your basic User model (no membership attributes yet).
 4. Include the `bcrypt-ruby` gem in your Gemfile.  `$ bundle install` it.  (note: This might just be `bcrypt`)
-4. Add the `#has_secure_password` method to your User file.
-5. Add validation to make sure we've got a `password_confirmation` field that matches our `password` field (see [Chapter 6](http://ruby.railstutorial.org/chapters/modeling-users#sec-adding_a_secure_password) again for a refresher).
+5. Add the `#has_secure_password` method to your User file.
 6. Go into your Rails console and create a sample user to make sure it works properly. It probably looks something like: `User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")`
 7. Test the `#authenticate` command which is now available on your User model (thanks to `#has_secure_password`) on the command line -- does it return the user if you give it the correct password?
     
