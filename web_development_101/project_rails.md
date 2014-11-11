@@ -41,9 +41,10 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Marina Sergeyeva's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/imousterian/OdinProject/tree/master/Project1_4_RubyOnRails)
 * * Jonathan Faulk's Solution [Jumpstart Labs Blogger App I0 -I4](https://github.com/faulk49/jumpstart) | [View online](http://morning-gorge-3013.herokuapp.com/)
 * Erithair's Solution [Jumpstart Labs Blogger App I0 -I5](https://github.com/N19270/blogger) | [View online](http://erithair-blog.herokuapp.com/)
-* James MacIvor's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/RobotOptimist/blogger) | [View online] (http://warm-scrubland-4226.herokuapp.com/articles)
-* Vincent's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/wingyu/blogger) | [View online] (http://ancient-plains-8753.herokuapp.com/)
+* James MacIvor's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/RobotOptimist/blogger) | [View online](http://warm-scrubland-4226.herokuapp.com/articles)
+* Vincent's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/wingyu/blogger) | [View online](http://ancient-plains-8753.herokuapp.com/)
 * Hunter Ducharme's Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/hgducharme/OdinProjects/tree/master/webDev101/RailsBlogger) | [View online](https://jumpstartblogger.herokuapp.com/)
+* Antonio Augusto's Solution [Jumpstart Labs Blogger App I0-I6](https://github.com/antoniosb/blogger) | [View it online](https://heroblogger.herokuapp.com/)
 
 * *Your solution above here...*
 
