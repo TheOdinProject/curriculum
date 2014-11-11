@@ -51,6 +51,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Julie's [Test-First Ruby Solutions](https://github.com/delorenzo/test-first-ruby)
 * Dorian Iacobescu's [Test-First Ruby Solutions](https://github.com/iacobson/Odin4-Ruby-TestFirst-Assignment)
 * John Quarles' [Test-First Ruby Solutions](https://github.com/johnwquarles/test-first-Ruby)
+* Antonio Augusto's [Test-First-Ruby Solutions](https://github.com/antoniosb/test_first_ruby)
 * *Your solution here...*
 
 ## Additional Resources
