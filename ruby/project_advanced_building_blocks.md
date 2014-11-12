@@ -54,7 +54,9 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/bubble_sort.rb)
 * [Vincent's solution](https://github.com/wingyu/Advanced_Building_Blocks/tree/master)
 * [Roman's Solution](https://github.com/RomanADavis/Ruby-Building-Blocks/tree/master/bubble_sort)
+* [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Projects:%20Advanced%20Building%20Blocks/lib/bubble_sort.rb)
 * Your solution here...
+
 ## Project 2: Enumerable Methods
 
 You learned about the Enumerable module that gets mixed in to the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
@@ -107,6 +109,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [James MacIvor's solution](https://github.com/RobotOptimist/enumerable)
 * [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/enumerable.rb)
 * [Vincent's solution](https://github.com/wingyu/Advanced_Building_Blocks/tree/master)
+* [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Projects:%20Advanced%20Building%20Blocks/lib/enum.rb)
 
 ## Additional Resources
 
