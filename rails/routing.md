@@ -54,7 +54,7 @@ Each of these represents a "RESTful" route, and so it makes sense that you'll ne
 get "/posts" => "posts#index"
 get "/posts/:id" => "posts#show"
 get "/posts/new" => "posts#new"
-post "/posts/:id => "posts#create"  # usually a submitted form
+post "/posts" => "posts#create"  # usually a submitted form
 get "/posts/:id/edit" => "posts#edit"
 put "/posts/:id" => "posts#update" # usually a submitted form
 delete "/posts/:id" => "posts#destroy"
