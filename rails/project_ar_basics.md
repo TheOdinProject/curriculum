@@ -127,6 +127,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/microReddit/micro-reddit)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/project-micro-redit)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/micro-reddit)
+* [Vincent's solution](https://github.com/wingyu/micro_reddit)
 
 ## Additional Resources
 
