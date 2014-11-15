@@ -36,6 +36,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Tommy Noe's Solution](https://github.com/thomasjnoe/bst-practice)
 * [Michael Alexander's Solution](https://github.com/betweenparentheses/project_data_structures/blob/master/binarytree.rb)
 * [Sahil Agarwal's Solution](https://github.com/sahilda/the_odin_project/tree/master/data-structures-and-algorithms)
+* [Aleksandar's Solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Projects:%20Basic%20Data%20Structures%20and%20Algorithms/lib/btree.rb)
 * *Your Solution Above This Line!*
 
 ## Project 2: Knight's Travails
@@ -83,6 +84,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Michael Alexander's Solution](https://github.com/betweenparentheses/project_data_structures/blob/master/knightstravails.rb)
 * [Sahil Agarwal's Solution](https://github.com/sahilda/the_odin_project/tree/master/data-structures-and-algorithms)
 * [Sergio Ribeiro's Solution](https://github.com/serg1o/Data_Structures/blob/master/knight.rb)
+* [Aleksandar's Solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Projects:%20Basic%20Data%20Structures%20and%20Algorithms/lib/knight.rb)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
