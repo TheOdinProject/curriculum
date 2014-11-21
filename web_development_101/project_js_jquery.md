@@ -104,4 +104,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Rik's solution here: [source code](https://github.com/frbz/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/frbz/sketchpad/blob/master/index.html)
 * See TReiff's solution here: [source code](https://github.com/treiff/Odin-Project-Javascript-Jquery) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/treiff/Odin-Project-Javascript-Jquery/blob/master/sketchpad.html)
 * See Vidul's solution here: [source code](https://github.com/viparthasarathy/javascript-jquery) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/viparthasarathy/javascript-jquery/blob/master/index.html)
+* See Jatin's solution here: [source code](https://github.com/JatinBhatia/jquery_project/tree/master) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/JatinBhatia/jquery_project/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
