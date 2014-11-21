@@ -73,6 +73,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from Hawkeye](https://github.com/Hawkeye000/Odin-Building-Blocks/blob/master/caesar.rb)
 * [Solution from Vincent](https://github.com/wingyu/ruby_building_blocks/blob/master/caesar.rb)
 * [Solution from Maggie Baker](https://github.com/maggiedbaker/Odin_Project/blob/master/ruby_building_blocks/caesar_cipher.rb)
+* [Solution from Jack Nguyen](http://github.com/jnguyen85/projects-ruby-building-blocks/blob/03_substrings/01_caesar_cipher/caesar_cipher.rb)
 * *Insert Your Solution Above This Line*
 
 ## Project 2: Stock Picker
@@ -122,6 +123,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Hawkeye](https://github.com/Hawkeye000/Odin-Building-Blocks/blob/master/stock_picker.rb)
 * [Solution from Vincent](https://github.com/wingyu/ruby_building_blocks/blob/master/stock.rb)
 * [Solution from Maggie Baker](https://github.com/maggiedbaker/Odin_Project/blob/master/ruby_building_blocks/stock_picker.rb)
+* [Solution from Jack Nguyen](http://github.com/jnguyen85/projects-ruby-building-blocks/blob/03_substrings/02_stock_picker/stock_picker.rb)
 * *Insert Your Solution Above This Line*
 
 ## Project 3: Substrings
@@ -144,7 +146,7 @@ Next, make sure your method can handle multiple words:
     > substrings("Howdy partner, sit down! How's it going?", dictionary)
     => {"down"=>1, "how"=>2, "howdy"=>1,"go"=>1, "going"=>1, "it"=>2, "i"=> 3, "own"=>1,"part"=>1,"partner"=>1,"sit"=>1}
 ```
-    
+
 
 **Quick Tips:**
 
