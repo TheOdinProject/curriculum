@@ -184,4 +184,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Hawkeye](https://github.com/Hawkeye000/Odin-Building-Blocks/blob/master/substrings.rb)
 * [Solution from Vincent](https://github.com/wingyu/ruby_building_blocks/blob/master/substrings.rb)
 * [Solution from Maggie Baker](https://github.com/maggiedbaker/Odin_Project/blob/master/ruby_building_blocks/substrings.rb)
+* [Solution from Jack Nguyen](http://github.com/jnguyen85/projects-ruby-building-blocks/blob/master/03_substrings/substrings.rb)
 * *Insert Your Solution Above This Line*
