@@ -32,14 +32,14 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
         > end
         => ["hi", "hey", "hello"]
     ```
-    
+
 ### Student Solutions
 
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * [Jamie's solution (submitted Apr-14,2014)](https://github.com/Jberczel/odin-projects/blob/master/ruby_advanced/project1.rb)
-* [Chris Oldakowski's solution](https://github.com/krzysieko/theodinproject/blob/master/advanced_ruby_blocks/bubble_sort.rb) 
-* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_2_Ruby_AdvancedBlocks/bubble_sort.rb) 
+* [Chris Oldakowski's solution](https://github.com/krzysieko/theodinproject/blob/master/advanced_ruby_blocks/bubble_sort.rb)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_2_Ruby_AdvancedBlocks/bubble_sort.rb)
 * [Afshin M., afshinator - (Nov 2013)](https://github.com/afshinator/playground/tree/master/Ruby-AdvancedBuildingBlocks)
 * [Aniruddh Agarwal's solution](https://github.com/aniruddhagarwal/odin-projects/blob/master/bubble_sort/bubble_sort.rb)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_adv_building_blocks)
@@ -53,6 +53,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [James MacIvor's solution](https://github.com/RobotOptimist/bubblesort)
 * [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/bubble_sort.rb)
 * [Vincent's solution](https://github.com/wingyu/Advanced_Building_Blocks/tree/master)
+* [Jack Nguyen's solution](http://github.com/jnguyen85/projects-advanced-building-blocks/blob/master/01_bubble_sort/bubble_sort.rb)
 * Your solution here...
 
 ## Project 2: Enumerable Methods
@@ -62,7 +63,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 ### Your Task
 1. Create a script file to house your methods and run it in IRB to test them later.
 2. Add your new methods onto the existing Enumerable module.  Ruby makes this easy for you because any class or module can be added to without trouble ... just do something like:
-    
+
     ```language-ruby
         module Enumerable
           def my_each
