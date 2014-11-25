@@ -108,7 +108,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [James MacIvor's solution](https://github.com/RobotOptimist/enumerable)
 * [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/enumerable.rb)
 * [Vincent's solution](https://github.com/wingyu/Advanced_Building_Blocks/tree/master)
-
+* [Jack Nguyen's solution](http://github.com/jnguyen85/projects-advanced-building-blocks/blob/master/02_enumerables/enumerable.rb)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
