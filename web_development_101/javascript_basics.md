@@ -75,6 +75,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Antonio Augusto's Euler Solutions](https://github.com/antoniosb/project_euler) or [view it in the browser here](http://htmlpreview.github.io/?https://raw.githubusercontent.com/antoniosb/project_euler/master/project_euler.html)
 * [Lara Finnegan's Euler Solutions](https://github.com/lcf0285/project-euler) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/lcf0285/project-euler/blob/master/project-euler.html)
 * [Vidul's Euler Solutions](https://github.com/viparthasarathy/project-euler) 
+* [Panagiotis Karatakis' Euler Solutions](https://github.com/BlackSpirit96/project-euler)
 * *Put your solution above this line!*
 
 ## Additional Resources
