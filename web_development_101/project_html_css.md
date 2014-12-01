@@ -193,6 +193,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * see[Akshay Kumar Bhushan's solution here](https://github.com/akshaykb/google-homepage)
 * see [Alice Rhomieux's solution here](https://github.com/arhx/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/arhx/google-homepage/blob/master/index.html)
 * see [Jen Best's solution here](https://github.com/jenthebest/google-homepage)
+[Faisal Muhammad Solution here 'Simple'](https://github.com/rahb20/google-homepage/blob/master/index.html)
+['Difficult'](https://github.com/rahb20/google-homepage/blob/master/Search%20Result.html)
 * *Put your solution above this line!*
 
 
