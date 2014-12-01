@@ -46,7 +46,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Hunter Ducharme's Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/hgducharme/OdinProjects/tree/master/webDev101/RailsBlogger) | [View online](https://jumpstartblogger.herokuapp.com/)
 * Antonio Augusto's Solution [Jumpstart Labs Blogger App I0-I6](https://github.com/antoniosb/blogger) | [View it online](https://heroblogger.herokuapp.com/)
 * insomniacode's Solution  [Jumpstart Labs Blogger App I0-I6](https://github.com/insomniacode/blogger-app) | [View it online](https://ancient-depths-2915.herokuapp.com)
-
+* John Quarles' Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/johnwquarles/Odin-rails-project) | [View online](https://aqueous-retreat-3890.herokuapp.com/)
 * *Your solution above here...*
 
 
