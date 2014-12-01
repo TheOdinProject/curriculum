@@ -185,6 +185,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * see [Rik's (Dutch) solution here](https://github.com/frbz/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/frbz/google-homepage/blob/master/index.html)
 * see [Nicole Erkis's solution here](https://github.com/nerkis/google-homepage) or view ['easy'](http://htmlpreview.github.io/?https://github.com/nerkis/google-homepage/blob/master/google.html) or ['difficult'](http://htmlpreview.github.io/?https://github.com/nerkis/google-homepage/blob/master/results.html) solutions in the browser
 * see [Jatin Bhatia's solution here](https://github.com/JatinBhatia/google-homepage/tree/master/code)
+<<<<<<< HEAD
 * My solution is here (https://github.com/akshaykb/google-homepage)
 * see [Jack Nguyen's solution here](https://github.com/jnguyen85/google_homepage_html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jnguyen85/google_homepage_html/blob/master/index.html)
 * see [Cyrus Xi's solution here](https://github.com/Suryc11/TheOdinProject/tree/master/google_homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Suryc11/TheOdinProject/blob/master/google_homepage/index.html)
@@ -198,6 +199,9 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * * see [Alex Ramin's solution here](https://github.com/theloniusmonkey/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/theloniusmonkey/google-homepage/blob/master/googlehomepage.html)
 * see [Andrea Kulbaba's solution here](https://github.com/akulbaba/google-homepage) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/akulbaba/google-homepage/blob/master/index.html)
 * see [Panagiotis Karatakis' solution here](https://github.com/BlackSpirit96/the-odin-project_solutions/tree/master/web-101/google-homepage)(easy) or (https://github.com/BlackSpirit96/the-odin-project_solutions/tree/master/web-101/google-search-results)(hard)
+=======
+* see [Julian De Ocampo's solution here](https://github.com/JCDJulian/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/JCDJulian/google-homepage/blob/master/homepage.html)
+>>>>>>> 47b8bb1be2eb5c0c444e32c6ba782c332b259879
 * *Put your solution above this line!*
 
 
