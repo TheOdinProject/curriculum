@@ -110,4 +110,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Panagiotis Karatakis' solution here: [source code](https://github.com/BlackSpirit96/the-odin-project_solutions/tree/master/web-101/sketchpad)
 * See Vidul's solution here: [source code](https://github.com/viparthasarathy/javascript-jquery) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/viparthasarathy/javascript-jquery/blob/master/index.html)
 * See tkbyte's solution here: [source code](https://github.com/tkbyte/JnJTOP) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/tkbyte/JnJTOP/blob/master/index.html)
+* See Andy Linteau's solution here: [source code](https://github.com/linteau/sketchPad) or [view it in the browser here](http://htmlpreview.github.io/?https://raw.githubusercontent.com/linteau/sketchPad/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
