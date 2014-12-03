@@ -131,13 +131,9 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Hyeunjoon Kim] (https://github.com/hyeunny/Projects_Ruby_Building_Blocks/blob/master/stock_picker.rb)
 * [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Projects:%20Ruby%20Building%20Blocks/lib/stock.rb)
 * [Solution from Lara Finnegan](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/stock_picker.rb)
-<<<<<<< HEAD
 * [Solution from John Quarles](https://github.com/johnwquarles/Ruby-Building-Blocks/blob/master/stockpicker.rb)
 * [Solution from Jack Nguyen](http://github.com/jnguyen85/projects-ruby-building-blocks/blob/03_substrings/02_stock_picker/stock_picker.rb)
-=======
 * [Solution from Vidul](https://github.com/viparthasarathy/stock_picker/blob/master/method.rb)
->>>>>>> 001cadfbd000c0ba69af60e1a948f4adc4b986e2
->>>>>>> bb7354beea9b09d697ec9601eaa44aa07d851569
 * *Insert Your Solution Above This Line*
 
 ## Project 3: Substrings
@@ -200,11 +196,7 @@ Next, make sure your method can handle multiple words:
 * [Solution from Maggie Baker](https://github.com/maggiedbaker/Odin_Project/blob/master/ruby_building_blocks/substrings.rb)
 * [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Projects:%20Ruby%20Building%20Blocks/lib/substrings.rb)
 * [Solution from Lara Finnegan](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/substrings.rb)
-<<<<<<< HEAD
 * [Solution from John Quarles](https://github.com/johnwquarles/Ruby-Building-Blocks/blob/master/substring.rb)
 * [Solution from Jack Nguyen](http://github.com/jnguyen85/projects-ruby-building-blocks/blob/master/03_substrings/substrings.rb)
-=======
 * [Solution from Vidul](https://github.com/viparthasarathy/substrings/blob/master/method.rb)
->>>>>>> 001cadfbd000c0ba69af60e1a948f4adc4b986e2
->>>>>>> bb7354beea9b09d697ec9601eaa44aa07d851569
 * *Insert Your Solution Above This Line*
