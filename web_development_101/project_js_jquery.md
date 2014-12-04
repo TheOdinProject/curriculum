@@ -113,4 +113,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Andy Linteau's solution here: [source code](https://github.com/linteau/sketchPad) or [view it in the browser here](http://htmlpreview.github.io/?https://raw.githubusercontent.com/linteau/sketchPad/master/index.html)
 * See Vidul's solution here: [source code](https://github.com/viparthasarathy/javascript-jquery) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/viparthasarathy/javascript-jquery/blob/master/index.html)
 * See Alex's solution here: [source code](https://github.com/theloniusmonkey/EtchaSketch) 
+* See insomniacode's solution here: [source code](https://github.com/insomniacode/light-grid) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/insomniacode/light-grid/blob/master/lightgrid.html)
 * *Add the link to your solution above this line (do not remove this line)*
