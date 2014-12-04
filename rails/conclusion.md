@@ -37,6 +37,7 @@ Here are a few books that will take you a bit deeper as well:
 ## Other Resources
 
 * [RailsCasts by Ryan Bates](http://railscasts.com/) are incredibly valuable.  Great ways to actually see the implementation of various gems or practices.
+* [GoRails](https://gorails.com/) alternative to RailsCasts.
 * The [RailsApps Project](https://tutorials.railsapps.org/) provides lots of great tutorials that walk you through building real-life scenarios like integrating Devise and CanCan with your app or building a payments backend.
 * [RubyFlow community blog](http://www.rubyflow.com/) will have some interesting stuff pop up from time to time.
 
