@@ -26,6 +26,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [James MacIvor's Solution](https://github.com/RobotOptimist/event_manager/blob/master/lib/event_manager.rb)
 * [Roman's Solution](https://github.com/RomanADavis/event_manager)
 * [Aleksandar's Solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Serialization%20and%20Working%20with%20Files/event_manager)
+* [Jack Nguyen's Solution](https://github.com/jnguyen85/projects-ruby-serialization)
 * *Your Solution Above This Line!*
 
 
@@ -69,6 +70,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Hawkeye's Solution](https://github.com/Hawkeye000/hangman)
 * [Vincent's Solution](https://github.com/wingyu/hangman)
 * [Aleksandar's Solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Serialization%20and%20Working%20with%20Files/hangman)
+* [Jack Nguyen's Solution](https://github.com/jnguyen85/projects-ruby-serialization/tree/master/hangman)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
@@ -77,7 +79,3 @@ You will be building a simple command line Hangman game where one player plays a
 
 
 * Found something helpful?  Add it here!
-
-
-
-
