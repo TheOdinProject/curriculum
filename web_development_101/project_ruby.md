@@ -53,6 +53,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * John Quarles' [Test-First Ruby Solutions](https://github.com/johnwquarles/test-first-Ruby)
 * Antonio Augusto's [Test-First-Ruby Solutions](https://github.com/antoniosb/test_first_ruby)
 * Jack Nguyen's [Test-First Ruby Solutions](https://github.com/jnguyen85/test-first_ruby_solutions)
+* Chris Dziewa's [Test-First Ruby Solutions](https://github.com/chrisdziewa/test-ruby)
 * *Your solution here...*
 
 ## Additional Resources
