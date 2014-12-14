@@ -6,6 +6,7 @@ describe "StaticPages" do
 
   subject { page }
   let(:home_h1) { "Learn Web Development for Free"}
+<<<<<<< HEAD
   
   describe "Getting Involved Page" do
     
@@ -21,6 +22,8 @@ describe "StaticPages" do
       expect(page).to have_selector("h1", text: "Getting Involved with The Odin Project")
     end
   end
+=======
+>>>>>>> e31eeffde1e60c9b968bc01dbf275e17a8fe31be
 
   describe "Splash Page" do
 

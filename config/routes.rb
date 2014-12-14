@@ -20,7 +20,10 @@ devise_for :users,
   get 'about' => "static_pages#about"
   get 'faq' => "static_pages#faq"
   get 'contact' => "static_pages#contact"
+<<<<<<< HEAD
   get 'getting_involved' => "static_pages#getting_involved"
+=======
+>>>>>>> e31eeffde1e60c9b968bc01dbf275e17a8fe31be
   get 'contributing' => "static_pages#contributing"
   get 'studygroup' => redirect('/studygroups')
   get 'legal' => "static_pages#legal"
