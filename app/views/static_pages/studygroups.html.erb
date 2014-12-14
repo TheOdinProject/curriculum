@@ -1,0 +1,85 @@
+<div class="StaticPagesController">
+  <div id="studygroup">
+    <h1 class="text-center">Web Development Study Groups</h1>
+    <h4 class="text-center"><em>This page is maintained by the study group leaders</em></h4>
+    <p>If you have an in-person or online meetup group which uses The Odin Project, we'll feature it here and announce it on the site so you can get some more people involved.  Just shoot us an email at <a href="mailto:contact@theodinproject.com">contact@theodinproject.com</a></p>
+    <p>If you want to start an online meetup group via Meetup.com, we'll make you a co-organizer of our group which is technically based in SF.  Again, just shoot over an email!</p>
+
+    <div class="meetup-groups">
+      <h3>Meetup Groups:</h4>
+      <ul>
+        <li>
+          <a href="http://www.meetup.com/SLO-Hackers-and-Coders/">SLO Hackers and Coders</a> <em>San Luis Obispo, CA</em>
+        </li>
+        <li>
+          <a href="http://codesydney.com/">Code Sydney</a>  <em>Sydney, Australia</em>
+        </li>
+        <li>
+          <a href="http://www.meetup.com/Learn-Web-Development/">Our new Meetup group</a> <em>for virtual study groups</em>
+        </li>
+        <li>
+          <em>Add yours here!</em>
+        </li>
+      </ul>
+    </div>
+
+    <ul id="studygroup-tabs" class="nav nav-tabs">
+      <li class="active">
+        <a href="#track5" data-toggle="tab">
+          Start Your own!
+        </a>
+      </li>
+<!--       <li>
+        <a href="#track3" data-toggle="tab">
+          Web Dev 101 (Finished)
+        </a>
+      </li> -->
+      <li>
+        <a href="#track4" data-toggle="tab">
+          Ruby (Finished)
+        </a>
+      </li>
+      <li>
+        <a href="#track2" data-toggle="tab">
+          Ruby on Rails (Finished)
+        </a>
+      </li>
+      <li>
+        <a href="#track1" data-toggle="tab">
+          Web Dev 101 (Finished)
+        </a>
+      </li>
+    </ul>
+    
+    <div class="tab-content">
+
+
+      <!-- Starting your own study group -->
+      <div class="tab-pane fade active in" id="track5">
+        <!-- app/views/static_pages/_sg_starting_one.html.erb -->
+        <%= render "sg_starting_one" %>
+      </div>    
+
+
+      <!-- Brian's ruby track starting 4/28/14 -->
+      <div class="tab-pane fade" id="track4">
+      <!-- app/views/static_pages/_sg_ruby.html.erb -->
+        <%= render "sg_ruby" %>
+      </div> 
+      
+
+      <!-- Afshin's Rails track spring 2014 -->
+      <div class="tab-pane fade" id="track2">
+        <!-- app/views/static_pages/_sg_rails.html.erb -->
+        <%= render "sg_rails" %>
+      </div>
+
+      <!-- Josh's web dev 101 track (ENDED) spring 2014 -->
+      <div class="tab-pane fade" id="track1">
+      <!-- app/views/static_pages/_sg_wd101_a.html.erb -->
+        <%= render "sg_wd101_a" %>
+      </div>
+
+    </div>        <!-- tab-content -->
+  </div>          <!-- studygroup -->
+</div>

@@ -1,0 +1,48 @@
+// app/assets/stylesheets/search.css.scss
+// CSS for Swiftype search
+
+// Fix search box : pull it down, get rid of extra thickness it adds to navbar
+.nav-search form {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+// Background gradient on search results modal for some pizzaz
+#search-results-modal {
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(50%,#f3f3f3), color-stop(51%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+// Tweak the colors and sizes in modal to match rest of site
+.st-result-listing em {
+  color: #ff6600; 
+}
+
+#st-results-container {
+  padding-top: 0px; 
+}
+
+.st-result-text h3 {
+  font-size: 1.0em !important;
+  line-height: 1.4em;
+}
+
+.st-snippet {
+  font-size: .8em; 
+}
+
+
+// Add the mighty Odin head icon inside the search results modal
+.st-search-summary { 
+  margin: 0px !important;
+  background: image-url('odin_head_silhouette_2_circle_simple_transparent.gif') top right no-repeat;
+  background-size: 8%;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%= render "shared/head" %>
+  <body>
+    <div id="global-content-wrapper">
+      <!-- turn off "global" navbar if directed to (e.g. on home page) -->
+      <% if @navbar == false %>
+      
+        <%= bootstrap_flash %>
+        <%= yield %>
+      
+      <% else %>
+      
+        <%= render "shared/navbar" %>
+        <div class="nav-spacer"></div>
+        
+        <!-- Admin Flash is only meant to render if NOT homepage  -->
+        <% unless @is_home_page %> 
+          <%= render "shared/admin_flash" %>
+        <% end %>
+
+        <% if flash[:partial] %>
+          <%= render partial: "layouts/#{flash[:partial]}" %>
+        <% end %>
+      
+        <div class="container">
+          <div class="row">
+            <%= bootstrap_flash %>
+            <%= render "shared/search_results" %>                 
+            <%= yield %>
+          </div><!--/row-->
+        </div> <!-- /container -->
+
+      <% end %>
+
+    </div>
+      
+    <%= render "shared/footer" %> 
+
+  </body>
+  
+
+</html>

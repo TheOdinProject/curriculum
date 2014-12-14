@@ -1,0 +1,101 @@
+<%= content_for :title, title("Free Web Development Courses") %>
+<div class="CoursesController">
+  <div class="container">
+    <div class="heading-box">
+      <div class="heading">
+        <h1>This is Your Path to Learning Web Development</h1>
+      </div>
+      <div class="subheading">
+        <p>
+          If you want to learn web development, you've come to the right place.  We found the best free resources out there and grouped them into the courses listed below so you don't have to waste time doing it yourself. We've also created projects for you to build along the way so you can really learn the material and boost your portfolio.
+        </p>
+        <p>
+          The courses are designed to be completed in order, so start from the top and work your way down. The best part is, <strong>it's free!</strong>
+        </p>
+      </div>
+    </div>
+
+    <div class="courses-list">
+      <% @courses.each_with_index do |course, i| %>
+        <div class="course <%= course.is_active ? '' : 'inactive'%>">
+
+          <div class="course-title">
+            <% if course.is_active %>  
+              <a href="<%=lessons_path(course.title_url)%>">
+            <% end %>
+              <% if user_signed_in? %>
+                <h3 class="cc-completion-indicator <%= course.percent_completed_by(current_user) == 100 ? '' : 'hidden' %>" title="You've completed this course!">
+                  &#10004; 
+                </h3>
+              <% end %>
+              <h2>
+                <%= i+1 %>: <%= course.title %>
+                <% unless course.is_active %>
+                  <span class="coming-soon"> ...Coming Soon!</span>
+                <% end %>
+              </h2>
+            <% if course.is_active %>
+              </a>
+            <% end %>
+          </div>
+
+          <div class="teaser">
+            <h3>
+              <%= course.teaser %>
+            </h3>
+          </div>
+
+          <div class="course-content">
+
+            <div class="description">
+              <p>
+                <%= course.brief_desc %>
+              </p>
+            </div>
+
+            <div class="what-youll-learn facts">
+              <h4>
+                You Will Learn
+              </h4>
+              <ul>
+                <% course.you_learn.each do |fact| %>
+                  <li>
+                    <%= fact %>
+                  </li>
+                <% end %>
+              </ul>
+
+              <% if course.is_active %>
+                <div class="see-more">
+                  <%= link_to "See more", course_path(course.title_url) %>
+                </div>
+              <% end %>
+
+            </div>
+
+            <div class="what-youll-build facts">
+              <h4>
+                You Will Build
+              </h4>
+              <ul>
+                <% course.you_build.each do |project| %>
+                  <li>
+                    <%= project %>
+                  </li>
+                <% end %>
+              </ul>
+
+              <% if course.is_active %>
+                <div class="see-more">
+                  <%= link_to "See more", course_path(course.title_url) %>
+                </div>
+              <% end %>
+
+            </div>
+          </div>
+
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

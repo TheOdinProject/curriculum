@@ -1,0 +1,41 @@
+<div class="social">
+
+  <div class="facebook social-button">
+    <!-- asynchronously load the fb button because it can train wreck
+    the whole page otherwise. -->
+    <script>
+      $(function(){
+        var iframe = document.createElement('iframe');
+        iframe.src = "//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.theodinproject.com&width=75&amp;height=21&colorscheme=light&layout=button_count&action=like&show_faces=false&send=false";
+        iframe.scrolling = "no";
+        iframe.frameborder= "0";
+        iframe.style.border = "none"; 
+        iframe.style.overflow = "hidden";
+        iframe.style.width = "75px"; 
+        iframe.style.height = "21px";
+        iframe.allowTransparency = "true";
+        iframe.id = "fb-like";
+        $(".facebook").append(iframe);
+      });
+    </script>
+  </div>
+
+  <div class="twitter social-button">
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out http://www.TheOdinProject.com, an open-source curriculum for learning web development @theodinproject" data-counturl="http://www.theodinproject.com">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  </div>
+
+  <div class="google-plus social-button">
+    <!-- Place this tag where you want the +1 button to render. -->
+    <div class="g-plusone" data-href="http://www.theodinproject.com"></div>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+      (function() {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
+    </script>
+  </div>
+</div>
