@@ -117,4 +117,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Alex's solution here: [source code](https://github.com/theloniusmonkey/EtchaSketch) 
 * See insomniacode's solution here: [source code](https://github.com/insomniacode/light-grid) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/insomniacode/light-grid/blob/master/lightgrid.html)
 * See Chris Dziewa's solution here: [source code](https://github.com/chrisdziewa/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/chrisdziewa/etch-a-sketch/blob/master/index.html)
+* See ido lichtenstein's solution here: [source code](https://github.com/idolicht/scatch1) or [view it in the browser 
+ here](https://github.com/idolicht/scatch1/blob/master/scatch.html) 
 * *Add the link to your solution above this line (do not remove this line)*
