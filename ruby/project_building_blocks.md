@@ -79,6 +79,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from John Quarles](https://github.com/johnwquarles/Ruby-Building-Blocks/blob/master/caesar.rb)
 * [Solution from Jack Nguyen](http://github.com/jnguyen85/projects-ruby-building-blocks/blob/03_substrings/01_caesar_cipher/caesar_cipher.rb)
 * [Solution from Vidul](https://github.com/viparthasarathy/Caesar-Cipher/blob/master/method.rb)
+* [Solution from Artur Janik](https://github.com/ArturJanik/bbproject1/blob/master/p1-caesar.rb)
 * *Insert Your Solution Above This Line*
 
 ## Project 2: Stock Picker
