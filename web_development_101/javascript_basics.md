@@ -80,6 +80,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Julian De Ocampo's Euler Solutions](https://github.com/JCDJulian/project-euler) 
 * [Chris Dziewa's Euler Solutions](https://github.com/chrisdziewa/project-euler-js)
 * [Akshay Kumar Bhushan's Solutions](https://github.com/akshaykb/Project-Euler)
+* [Eleanor Weigert's Euler Solutions](https://github.com/mixophrygian/ProjectEuler)
 * *Put your solution above this line!*
 
 
