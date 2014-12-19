@@ -117,7 +117,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Alex's solution here: [source code](https://github.com/theloniusmonkey/EtchaSketch) 
 * See insomniacode's solution here: [source code](https://github.com/insomniacode/light-grid) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/insomniacode/light-grid/blob/master/lightgrid.html)
 * See Chris Dziewa's solution here: [source code](https://github.com/chrisdziewa/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/chrisdziewa/etch-a-sketch/blob/master/index.html)
-<<<<<<< HEAD
 * See Scott's solution here: [source code](https://github.com/scootcho/the_odin_project/tree/master/javascript/etch_a_sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/scootcho/the_odin_project/blob/master/javascript/etch_a_sketch/index.html)
 * See Steve Gardner's solution here: [source code](https://github.com/stevelikesmusic/etcha_sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/stevelikesmusic/etcha_sketch/blob/master/index.html)
+* See Michael Robinson's solution here: [source code](https://github.com/ockytron/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ockytron/etch-a-sketch/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
