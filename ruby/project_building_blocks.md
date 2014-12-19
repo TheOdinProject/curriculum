@@ -81,6 +81,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from Vidul](https://github.com/viparthasarathy/Caesar-Cipher/blob/master/method.rb)
 * [Solution from Tomislav Mikulin](https://github.com/MrKindle85/ruby_building_blocks/blob/master/Caesar_Cipher.rb)
 * [Solution from Hunter Ducharme](https://github.com/hgducharme/OdinProjects/blob/master/RubyProgramming/ruby_building_blocks/caesar_cipher.rb)
+* [Solution from Artur Janik](https://github.com/ArturJanik/bbproject1/blob/master/p1-caesar.rb)
 * *Insert Your Solution Above This Line*
 
 
