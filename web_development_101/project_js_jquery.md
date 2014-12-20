@@ -122,4 +122,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Michael Robinson's solution here: [source code](https://github.com/ockytron/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ockytron/etch-a-sketch/blob/master/index.html)
 * See ido lichtenstein's solution here: [source code](https://github.com/idolicht/scatch1) or [view it in the browser 
  here](https://github.com/idolicht/scatch1/blob/master/scatch.html) 
+* See Alice Rhomieux's solution here: [source code](https://github.com/arhx/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/arhx/sketchpad/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
