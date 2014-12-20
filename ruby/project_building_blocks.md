@@ -209,4 +209,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Vidul](https://github.com/viparthasarathy/substrings/blob/master/method.rb)
 * [Solution from Tomislav Mikulin](https://github.com/MrKindle85/ruby_building_blocks/blob/master/substrings.rb)
 * [Solution from Hunter Ducharme](https://github.com/hgducharme/OdinProjects/blob/master/RubyProgramming/ruby_building_blocks/substrings.rb)
+* [Solution from Artur Janik](https://github.com/ArturJanik/bbproject3/blob/master/p3-substrings.rb)
 * *Insert Your Solution Above This Line*
