@@ -125,3 +125,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Alice Rhomieux's solution here: [source code](https://github.com/arhx/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/arhx/sketchpad/blob/master/index.html)
 * See Matias Pan's solution here: [source code](https://github.com/kriox26/odin_project/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/kriox26/odin_project/blob/master/sketchpad/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
+See Rebecca Appleyard's solution here: https://github.com/katylouise/etch-a-sketch
