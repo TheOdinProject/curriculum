@@ -211,6 +211,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Jitendra Jogeshwar's solution here](https://github.com/jogjitu/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jogjitu/google-homepage/blob/master/index.html)
 * See [Alberto Marin's solution here](https://github.com/alberto-marin/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/alberto-marin/google-homepage/index.html)
 * See [Josh Thompson's solution here](https://github.com/jtwebdev/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jtwebdev/google-homepage/blob/master/index.html)
+* See [Tommy Rodriguez's google-search page solution here](https://github.com/trodrigu/odinproject/tree/master/google-search) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/trodrigu/odinproject/blob/master/google-search/public/index.html)
 * *Put your solution above this line!*
 
 
