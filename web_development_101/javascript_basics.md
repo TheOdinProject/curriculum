@@ -84,7 +84,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Eleanor Weigert's Euler Solutions](https://github.com/mixophrygian/ProjectEuler)
 * [Alice Rhomieux's Solutions](https://github.com/arhx/euler-project)
 * [Jitendra Jogeshwar's solution] (https://github.com/jogjitu/google-homepage/blob/master/javascript_practise.js)
-* [Andrea Kulbaba's Euler Solutions] (https://github.com/akulbaba/euler-solutions)
+* [Andrea Kulbaba's Euler Solutions] (https://github.com/akulbaba/euler-solutions) or [view it in the browser here](http://rawgit.com/akulbaba/euler-solutions/master/index.html)
 * *Put your solution above this line!*
 
 
