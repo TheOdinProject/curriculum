@@ -126,4 +126,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Matias Pan's solution here: [source code](https://github.com/kriox26/odin_project/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/kriox26/odin_project/blob/master/sketchpad/index.html)
 * See Syed Aslam's solution here: [source code](https://github.com/saslam4/SketchPad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/saslam4/SketchPad/blob/master/index.html) 
 * See Asish Prabhakar's solution here: [source code](https://github.com/akottal/sketchpad/blob/master/index.html) or [view it in browser here](http://htmlpreview.github.io/?https://github.com/akottal/sketchpad/blob/master/index.html)
+* See Eleanor Weigert's solution here: [souce code](https://github.com/mixophrygian/Etcha-sketch) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/mixophrygian/Etcha-sketch/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
