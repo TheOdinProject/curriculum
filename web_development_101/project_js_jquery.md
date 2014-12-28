@@ -117,4 +117,15 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Alex's solution here: [source code](https://github.com/theloniusmonkey/EtchaSketch) 
 * See insomniacode's solution here: [source code](https://github.com/insomniacode/light-grid) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/insomniacode/light-grid/blob/master/lightgrid.html)
 * See Chris Dziewa's solution here: [source code](https://github.com/chrisdziewa/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/chrisdziewa/etch-a-sketch/blob/master/index.html)
+* See Scott's solution here: [source code](https://github.com/scootcho/the_odin_project/tree/master/javascript/etch_a_sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/scootcho/the_odin_project/blob/master/javascript/etch_a_sketch/index.html)
+* See Steve Gardner's solution here: [source code](https://github.com/stevelikesmusic/etcha_sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/stevelikesmusic/etcha_sketch/blob/master/index.html)
+* See Michael Robinson's solution here: [source code](https://github.com/ockytron/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ockytron/etch-a-sketch/blob/master/index.html)
+* See ido lichtenstein's solution here: [source code](https://github.com/idolicht/scatch1) or [view it in the browser 
+ here](https://github.com/idolicht/scatch1/blob/master/scatch.html) 
+* See Alice Rhomieux's solution here: [source code](https://github.com/arhx/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/arhx/sketchpad/blob/master/index.html)
+* See Matias Pan's solution here: [source code](https://github.com/kriox26/odin_project/sketchpad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/kriox26/odin_project/blob/master/sketchpad/index.html)
+* See Syed Aslam's solution here: [source code](https://github.com/saslam4/SketchPad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/saslam4/SketchPad/blob/master/index.html) 
+* See Asish Prabhakar's solution here: [source code](https://github.com/akottal/sketchpad/blob/master/index.html) or [view it in browser here](http://htmlpreview.github.io/?https://github.com/akottal/sketchpad/blob/master/index.html)
+* See Eleanor Weigert's solution here: [souce code](https://github.com/mixophrygian/Etcha-sketch) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/mixophrygian/Etcha-sketch/blob/master/index.html)
+* See Brandon Eichler's solution here: [Source Code](https://github.com/vdubmastertech/etch-a-sketch) or [view it in the browser here](http://rawgit.com/vdubmastertech/etch-a-sketch/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*

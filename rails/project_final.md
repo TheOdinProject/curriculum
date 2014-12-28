@@ -61,6 +61,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 
 * *Your Solution Here!*
 * Solution by Adrian Badarau : [github repo](https://github.com/adrianbadarau/RailsBoock-Facebook-Clone-App) | [demo](http://railsbook-facebook-clone-app.herokuapp.com/)
+* Solution by Yuri Buerov : [github repo](https://github.com/YuriBuerov/social-network)
 
 ## Additional Resources
 
