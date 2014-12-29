@@ -35,6 +35,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * *Your solution here...* 
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/embedding_media) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/embedding_media/index.html)
 * [Konrad's solution](https://github.com/hipnoiz/youtube-videopage/blob/master/) | [View in browser](http://htmlpreview.github.io/?https://github.com/hipnoiz/youtube-videopage/blob/master/index.html)
+* [Vincent's solution](https://github.com/wingyu/youtube_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/youtube_replica/blob/master/index.html)
 
 ## Additional Resources
 
