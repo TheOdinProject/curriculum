@@ -65,7 +65,10 @@ This curriculum is just a suggested path... you don't necessarily need to do thi
 This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! You can work  with other students across the globe using the open-source [scheduler tool](http://www.theodinproject.com/scheduler) to set up times to pair remotely on curriculum projects and we'll shortly be putting into place some tools to find and work with other students in real time.  Stay tuned, and happy coding!
 
 
-#<br>
-#<hr>
-#<br>
-#[**Why Odin?**](/curriculum/odin.md)
+<!--
+<br>
+<hr>
+<br>
+
+[**Why Odin?**](....)
+-->
