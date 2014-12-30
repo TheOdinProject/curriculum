@@ -129,3 +129,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Eleanor Weigert's solution here: [souce code](https://github.com/mixophrygian/Etcha-sketch) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/mixophrygian/Etcha-sketch/blob/master/index.html)
 * See Brandon Eichler's solution here: [Source Code](https://github.com/vdubmastertech/etch-a-sketch) or [view it in the browser here](http://rawgit.com/vdubmastertech/etch-a-sketch/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
+See Rebecca Appleyard's solution here: https://github.com/katylouise/etch-a-sketch
