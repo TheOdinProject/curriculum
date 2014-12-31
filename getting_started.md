@@ -48,11 +48,11 @@ Your "classmates" will be the other students on the same journey as you, and wit
 
 Each step of the way, you should be able to see your progress through the projects you've built and by how far you've progressed along the path laid out here.  We'll also do our best to answer the question "So why the heck do I need to know this anyway?".  If one piece of content has you stuck, we'll have links to additional resources to help shore up your understanding.
 
-Navigate through the curriculum using the roadmap in the sidebar.  The links will take you to the appropriate files inside the repository for each unit. You're viewing this online but the whole curriculum really lives in a bunch of markdown files on Github that you can [easily contribute to](/curriculum/contributing.md).
+Navigate through the curriculum using the roadmap in the sidebar.  The links will take you to the appropriate files inside the repository for each unit. You're viewing this online but the whole curriculum really lives in a bunch of markdown files on Github that you can [easily contribute to](/contributing.md).
 
 ## Work In Progress!
 
-This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page](/curriculum/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
+This project is very much a work-in-progress and benefits heavily from the contributions of everyone from students to teachers to developers.  If you'd like to help out, take a look at our [contributing page](/contributing.md).  The early stuff is fairly fleshed out but there's lots of work to do to pave this road to the finish!
 
 If you have questions about The Odin Project itself, [contact us here](mailto:admin@theodinproject.com).
 
@@ -65,7 +65,10 @@ This curriculum is just a suggested path... you don't necessarily need to do thi
 This is also a path best navigated with help from friends (one or many).  If you're in the SF area, [join our meetup group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF) or else start one of your own and we'll list it here!  If you don't live near a tech hub, fret not! You can work  with other students across the globe using the open-source [scheduler tool](http://www.theodinproject.com/scheduler) to set up times to pair remotely on curriculum projects and we'll shortly be putting into place some tools to find and work with other students in real time.  Stay tuned, and happy coding!
 
 
+<!--
 <br>
 <hr>
 <br>
-[**Why Odin?**](/curriculum/odin.md)
+
+[**Why Odin?**](....)
+-->
