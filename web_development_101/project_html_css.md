@@ -216,6 +216,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * * See [Sami Bashraheel's solution here](https://github.com/sami/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/sami/google-homepage/blob/master/index.html)
 * See [Monisha's solution here] (https://github.com/em55/Google-homepage) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/em55/google-homepage/blob/master/index.html)
 * See [Ricardo Villegas' solutions here](https://github.com/claricardo/google-homepage) or view them in the browser here: [Easy version](http://htmlpreview.github.io/?https://github.com/claricardo/google-homepage/blob/master/index.html) or [Difficult version](http://htmlpreview.github.io/?https://github.com/claricardo/google-homepage/blob/master/search_index.html)
+* See [Tyler Travers' "difficult" solution here](https://github.com/ttravers17/the_odin_project/tree/master/google_search_results) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ttravers17/the_odin_project/blob/master/google_search_results/index.html)
 * *Put your solution above this line!*
 
 
