@@ -82,7 +82,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from Tomislav Mikulin](https://github.com/MrKindle85/ruby_building_blocks/blob/master/Caesar_Cipher.rb)
 * [Solution from Hunter Ducharme](https://github.com/hgducharme/OdinProjects/blob/master/RubyProgramming/ruby_building_blocks/caesar_cipher.rb)
 * [Solution from Artur Janik](https://github.com/ArturJanik/bbproject1/blob/master/p1-caesar.rb)
-* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/curriculum/blob/master/ruby/ceasar_cipher.rb)
+* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ceasar_cipher.rb)
 * *Insert Your Solution Above This Line*
 
 
@@ -143,7 +143,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Tomislav Mikulin](https://github.com/MrKindle85/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Solution from Hunter Ducharme](https://github.com/hgducharme/OdinProjects/blob/master/RubyProgramming/ruby_building_blocks/stock_picker.rb)
 * [Solution from Artur Janik](https://github.com/ArturJanik/bbproject2/blob/master/p2-stockpicker.rb)
-* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/curriculum/blob/master/ruby/stock_picker.rb)
+* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/stock_picker.rb)
 * *Insert Your Solution Above This Line*
 
 ## Project 3: Substrings
@@ -212,5 +212,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Tomislav Mikulin](https://github.com/MrKindle85/ruby_building_blocks/blob/master/substrings.rb)
 * [Solution from Hunter Ducharme](https://github.com/hgducharme/OdinProjects/blob/master/RubyProgramming/ruby_building_blocks/substrings.rb)
 * [Solution from Artur Janik](https://github.com/ArturJanik/bbproject3/blob/master/p3-substrings.rb)
-* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/curriculum/blob/master/ruby/substrings.rb)
+* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/substrings.rb)
 * *Insert Your Solution Above This Line*
