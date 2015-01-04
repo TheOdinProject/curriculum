@@ -88,6 +88,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Asish Prabhakar's Solutions] (https://github.com/akottal/euler-solutions)
 * [Sami Bashraheel's Solutions] (https://github.com/sami/project-euler)
 * [Tyler Traver's Solutions](https://github.com/ttravers17/the_odin_project/tree/master/mini_projects/project_euler)
+* [Dominik Stodolny's Solutions] (https://github.com/dstodolny/project_euler)
 * *Put your solution above this line!*
 
 
