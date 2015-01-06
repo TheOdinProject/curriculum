@@ -36,6 +36,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%201:%20Twitter%20Spambot)
 * [Solution from Vidul](https://github.com/viparthasarathy/twitter_spambot)
 * [Solution from John Quarles](https://github.com/johnwquarles/Mini-Twitter-Client)
+* [Solution from Artur Janik](https://github.com/ArturJanik/rotwproject1)
 * *...put your solution above this line!*
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -182,6 +183,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
 * [Solution from Vidul Parthasarathy](https://github.com/viparthasarathy/web_server)
 * [Solution from John Quarles](https://github.com/johnwquarles/simple-server-and-client)(using while loops, #gets and #read)
+* [Solution from Artur Janik](https://github.com/ArturJanik/rotwproject2)
 * *...put your solution above this line!*
 
 
