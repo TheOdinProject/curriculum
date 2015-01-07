@@ -219,6 +219,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Tyler Travers' "difficult" solution here](https://github.com/ttravers17/the_odin_project/tree/master/google_search_results) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ttravers17/the_odin_project/blob/master/google_search_results/index.html)
 * See [Stetson Nash's solution here](https://github.com/StetsonN/google-homepage/blob/master/GoogleUM(alt).html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/StetsonN/google-homepage/blob/master/GoogleUM(alt).html)
 * See [Chris Hall's Easy solution here](https://github.com/Concretechris/google-homepage) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/Concretechris/google-homepage/blob/master/index.html)
+* See [Ryan Jordan's solution here](https://github.com/krjordan/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/krjordan/google-homepage/blob/master/index.html)
 * *Put your solution above this line!*
 
 
