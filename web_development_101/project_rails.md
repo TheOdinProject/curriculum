@@ -50,6 +50,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Vidul's Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/viparthasarathy/rails-project) | [View it online](https://protected-depths-2514.herokuapp.com/)
 * Dorian Iacobescu's Solution [Jumpstart Labs Blogger App](https://github.com/iacobson/Odin5-Rails-Blogger) | [View online](http://odin-blog.herokuapp.com/)
 * Tyler Travers' Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/ttravers17/the_odin_project/tree/master/blogger) | [View online](https://agile-woodland-3720.herokuapp.com/)
+* Chris Dziewa's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/chrisdziewa/blogger)
 * *Your solution above here...*
 
 
