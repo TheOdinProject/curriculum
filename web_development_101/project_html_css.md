@@ -220,6 +220,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Stetson Nash's solution here](https://github.com/StetsonN/google-homepage/blob/master/GoogleUM(alt).html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/StetsonN/google-homepage/blob/master/GoogleUM(alt).html)
 * See [Chris Hall's Easy solution here](https://github.com/Concretechris/google-homepage) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/Concretechris/google-homepage/blob/master/index.html)
 * See [Ryan Jordan's solution here](https://github.com/krjordan/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/krjordan/google-homepage/blob/master/index.html)
+* See [Dominik Stodolny's solutions here](https://github.com/dstodolny/google-homepage) or view them in the browser here: [Easy version](http://htmlpreview.github.io/?https://github.com/dstodolny/google-homepage/blob/master/index.html) or [Difficult version](http://htmlpreview.github.io/?https://github.com/dstodolny/google-homepage/blob/master/results.html)
 * *Put your solution above this line!*
 
 
