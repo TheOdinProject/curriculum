@@ -132,4 +132,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Sami Bashraheel's solution here: [Source Code](https://github.com/sami/etch-a-sketch) or [view it in browser here](https://htmlpreview.github.io/?https://github.com/sami/etch-a-sketch/blob/master/index.html)
 * See Andrea Kulbaba's solution here: [Source Code](https://github.com/akulbaba/etch-a-sketch/blob/master/javascript.js) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/akulbaba/etch-a-sketch/blob/master/index.html)
 * See Dominik Stodolny's solution here: [Source Code](https://github.com/dstodolny/sketchpad) or [view it in browser here](https://htmlpreview.github.io/?https://github.com/dstodolny/sketchpad/blob/master/index.html)
+* See Richard Stewart's solution here: [source code](https://github.com/rickstewart/Etch-a-Sketch) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/rickstewart/Etch-a-Sketch/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
