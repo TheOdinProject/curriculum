@@ -4,11 +4,8 @@ class ContactsController < ApplicationController
   def new
     @message = Message.new
     @subject = default_subject
-    user = User.find_by_id(params[:user_id])
-    if user.nil?
-      redirect_to root_path and return
-    end
-    @user = user
+    @user = User.find params[:user_id]
+    redirect_to root_path if user.nil?
   end
 
   def create
