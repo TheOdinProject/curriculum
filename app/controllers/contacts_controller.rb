@@ -1,9 +1,9 @@
 class ContactsController < ApplicationController
   before_action :authenticate_user!
+  before_action :set_subject, only: [:new]
 
   def new
     @message = Message.new
-    @subject = default_subject
     @user = User.find params[:user_id]
     redirect_to root_path if user.nil?
   end
@@ -27,7 +27,8 @@ class ContactsController < ApplicationController
 
   end
 
-  def default_subject
+  private
+  def set_subject
     "You have a new message from #{current_user.username} of The Odin Project"
   end
 
