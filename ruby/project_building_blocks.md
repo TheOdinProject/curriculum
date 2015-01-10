@@ -216,4 +216,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Artur Janik](https://github.com/ArturJanik/bbproject3/blob/master/p3-substrings.rb)
 * [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/substrings.rb)
 * [Solution from Tyler Travers](https://github.com/ttravers17/the_odin_project/blob/master/ruby_building_blocks/project3/substrings.rb)
+* [Solution from Angela Woods](https://github.com/insomniacode/building-blocks/blob/master/bubble_sort.rb)
 * *Insert Your Solution Above This Line*
