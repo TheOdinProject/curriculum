@@ -224,6 +224,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Sergio Martin's solution here](https://github.com/ShiroiZero/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ShiroiZero/google-homepage/blob/master/index.html)
 * See [Onome Ovedje's solution here](https://github.com/Onome1/google_homepage) or [view it in the brower here](file:///Users/nomskiez/Desktop/the_odin_project/myindex.html)
 * See [Kevin Weir's solution here] (https://github.com/IDCrisis2/google_homepage)
+* See [Rafal Wojcik's solution here] (https://github.com/ProfoundKillah/google-homepage) or [view it in the brower here](http://htmlpreview.github.io/?https://github.com/ProfoundKillah/google-homepage/blob/master/index.html)
 * *Put your solution above this line!*
 
 
