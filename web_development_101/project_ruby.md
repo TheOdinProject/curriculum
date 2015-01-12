@@ -59,6 +59,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Sami Bashraheel's [Test-First Ruby Solutions](https://github.com/sami/test_first_ruby)
 * Drew Price's [Test-First Ruby Solutions](https://github.com/drewprice/study/tree/master/odin-project/projects/learn_ruby/001_solutions)
 * Dominik Stodolny's [Test-First Ruby Solutions](https://github.com/dstodolny/learn_ruby)
+* Kate McFaul's [Test-First Ruby Solutions](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/test_first_ruby)
 * *Your solution here...*
 
 
