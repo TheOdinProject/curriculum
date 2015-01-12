@@ -129,6 +129,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Tommy Noe's solution](https://github.com/thomasjnoe/micro-reddit)
 * [Vincent's solution](https://github.com/wingyu/micro_reddit)
 * [Vidul's solution](https://github.com/viparthasarathy/micro-reddit)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/micro-reddit)
 
 ## Additional Resources
 
