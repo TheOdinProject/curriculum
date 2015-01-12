@@ -218,12 +218,13 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Ricardo Villegas' solutions here](https://github.com/claricardo/google-homepage) or view them in the browser here: [Easy version](http://htmlpreview.github.io/?https://github.com/claricardo/google-homepage/blob/master/index.html) or [Difficult version](http://htmlpreview.github.io/?https://github.com/claricardo/google-homepage/blob/master/search_index.html)
 * See [Tyler Travers' "difficult" solution here](https://github.com/ttravers17/the_odin_project/tree/master/google_search_results) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ttravers17/the_odin_project/blob/master/google_search_results/index.html)
 * See [Stetson Nash's solution here](https://github.com/StetsonN/google-homepage/blob/master/GoogleUM(alt).html) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/StetsonN/google-homepage/blob/master/GoogleUM(alt).html)
-* See [Chris Hall's Easy solution here](https://github.com/Concretechris/google-homepage) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/Concretechris/google-homepage/blob/master/index.html)
+* See [Chris Hall's Easy solution here](https://github.com/Concretechris/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Concretechris/google-homepage/blob/master/index.html)
 * See [Ryan Jordan's solution here](https://github.com/krjordan/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/krjordan/google-homepage/blob/master/index.html)
 * See [Dominik Stodolny's solutions here](https://github.com/dstodolny/google-homepage) or view them in the browser here: [Easy version](http://htmlpreview.github.io/?https://github.com/dstodolny/google-homepage/blob/master/index.html) or [Difficult version](http://htmlpreview.github.io/?https://github.com/dstodolny/google-homepage/blob/master/results.html)
 * See [Sergio Martin's solution here](https://github.com/ShiroiZero/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/ShiroiZero/google-homepage/blob/master/index.html)
 * See [Onome Ovedje's solution here](https://github.com/Onome1/google_homepage) or [view it in the brower here](file:///Users/nomskiez/Desktop/the_odin_project/myindex.html)
-* See [Kevin Weir's solution here] (https://github.com/IDCrisis2/google_homepage)
+* See [Kevin Weir's solution here](https://github.com/IDCrisis2/google_homepage)
+* See [Jimmy Herward's solution here](https://github.com/Onesizefitzall/google-homepage)
 * *Put your solution above this line!*
 
 
