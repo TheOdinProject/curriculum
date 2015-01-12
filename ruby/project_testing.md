@@ -65,5 +65,4 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
-* 
 
