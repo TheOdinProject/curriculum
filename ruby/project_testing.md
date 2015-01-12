@@ -28,7 +28,6 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec)
-* 
 
 
 ## Project: TDD Connect Four
