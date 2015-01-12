@@ -102,6 +102,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Jonathan's solution](https://github.com/faulk49/members-only)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Gossip-Club)
 * [Erithair's solution](https://github.com/N19270/members-only) | [site on heroku](https://members-only.herokuapp.com/)
+* [Vidul's Solution](https://github.com/viparthasarathy/members-only)
 
 ## Additional Resources
 

@@ -29,6 +29,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Vidul's Solution](https://github.com/viparthasarathy/event_manager)
 * [Artur Janik's Solution](https://github.com/ArturJanik/serialproject1)
 * [John Quarles' Solution](https://github.com/johnwquarles/jumpstartlab-event-manager)
+* [Kate McFaul's Solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/event_manager)
 * *Your Solution Above This Line!*
 
 
@@ -75,6 +76,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Vidul's Solution](https://github.com/viparthasarathy/hangman)
 * [John Quarles' Solution](https://github.com/johnwquarles/Ruby-FileIO-Hangman)
 * [Artur Janik's Solution](https://github.com/ArturJanik/serialproject2)
+* [Kate McFaul's Solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/hangman)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
