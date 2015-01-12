@@ -28,6 +28,6 @@ class ContactsController < ApplicationController
 
   private
   def set_subject
-    "You have a new message from #{current_user.username} of The Odin Project"
+    @subject = "You have a new message from #{current_user.username} of The Odin Project"
   end
 end
