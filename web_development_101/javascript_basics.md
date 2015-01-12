@@ -91,6 +91,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Ricardo Villegas' Solutions](https://github.com/claricardo/project-euler-solutions)
 * [Dominik Stodolny's Solutions] (https://github.com/dstodolny/project_euler)
 * [Jeremy Faith's Solutions](https://github.com/JeremyFaith/odin-projects/tree/master/project_euler) or [view it in the browser here](https://rawgit.com/JeremyFaith/odin-projects/master/project_euler/ProjectEuler.html)
+* [Kate McFaul's Solutions](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/euler_in_javascript)
 * *Put your solution above this line!*
 
 
