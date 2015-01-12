@@ -44,6 +44,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Solution from Tommy Noe](https://github.com/thomasjnoe/demo_rails_app)
 * [Solution from James MacIvor](https://bitbucket.org/RobotOptimist/toy_app) [Or view it on the web!](http://shielded-river-4128.herokuapp.com/)
 * [Solution from Vidul](https://github.com/viparthasarathy/toy-app)
+* [Solution from Kate McFaul](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/sample_rails_app)
 
 ## Additional Resources
 
