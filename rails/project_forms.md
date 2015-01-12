@@ -124,6 +124,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/re-former)
 * [Vincent's solution](https://github.com/wingyu/Practice_forms)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/re-former)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/forms)
 * *Your Solution Here!*
 
 
