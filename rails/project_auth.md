@@ -104,8 +104,6 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Erithair's solution](https://github.com/N19270/members-only) | [site on heroku](https://members-only.herokuapp.com/)
 * [Vidul's Solution](https://github.com/viparthasarathy/members-only)
 
-
-
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
