@@ -53,7 +53,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Chris Dziewa's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/chrisdziewa/blogger)
 * Kate McFaul's Solution [Jumpstart Labs Blogger App](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/jumpstart_rails_blog) | [View online](https://sample-rails-blog.herokuapp.com)
 * Andy Linteau's Solution [Jumpstart Labs Blogger App](https://github.com/linteau/blogger) | [View online](https://bloggertut.herokuapp.com/)
-* Sami Bashraheel's Solution [Jumpstart Labs Blogger App 10-14](https://github.com/sami/blogger)
+* Sami Bashraheel's Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/sami/blogger)
 * *Your solution above here...*
 
 
