@@ -137,4 +137,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Kate McFaul's solution here: [source code](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/etch_a_sketch) or [view it in browser here](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_02-Web_Development_101/etch_a_sketch/index.html)
 * See Kevin Weir's solution here: [source code](https://github.com/IDCrisis2/javascript-jQuery)
 * See Leonard Labita's solution here: [source code] (https://github.com/lendoza/Sketch-Pad) or [view it in the browser here] (http://leonardlabita.com/sketchpad.html)
+* See Muhammad Salman's solution here: [source code](https://github.com/salmanmanekia/sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/salmanmanekia/sketch/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
