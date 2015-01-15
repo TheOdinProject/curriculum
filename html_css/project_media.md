@@ -37,6 +37,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Konrad's solution](https://github.com/hipnoiz/youtube-videopage/blob/master/) | [View in browser](http://htmlpreview.github.io/?https://github.com/hipnoiz/youtube-videopage/blob/master/index.html)
 * [Vincent's solution](https://github.com/wingyu/youtube_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/youtube_replica/blob/master/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_05-Advanced_HTML_and_CSS/youtube) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_05-Advanced_HTML_and_CSS/youtube/index.html)
+* [Leonard's solution] (https://github.com/lendoza/YouTube-Clone) [View in browser] (http://leonardlabita.com/youtube.html)
 
 ## Additional Resources
 
