@@ -228,6 +228,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Kate McFaul's solution here] (https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/google_homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/craftykate/odin-project/blob/master/Chapter_02-Web_Development_101/google_homepage/index.html)
 * See [Nicholas Leoutsakos's solution here](https://github.com/nleoutsa/google-homepage)
 * See [Jimmy Herward's solution here] (https://github.com/Onesizefitzall/google-homepage.git)
+* See [Patrick Sullivan's solution here] (https://github.com/patsul12/google-copy) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/patsul12/google-copy/blob/master/index.html.erb)
 * *Put your solution above this line!*
 
 
