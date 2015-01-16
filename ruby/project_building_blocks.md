@@ -225,4 +225,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Angela Woods](https://github.com/insomniacode/building-blocks/blob/master/bubble_sort.rb)
 * [Solution from Kate McFaul](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/ruby_building_blocks/substrings.rb)
 * [Solution from Chris Dziewa](https://github.com/chrisdziewa/building-blocks/blob/master/substrings/substrings.rb)
+* [Solution form Dominik Stodolny](https://github.com/dstodolny/ruby_building_blocks/blob/master/lib/substrings.rb)
 * *Insert Your Solution Above This Line*
