@@ -97,6 +97,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Leonard Labita's Solutions] (https://github.com/lendoza/Project-Euler) or [view it in the browser here] (http://leonardlabita.com/euler.html)
 * [Matus Karahuta's solution](https://github.com/matt-ice/TheOdinProjectFiles/blob/master/problem3.js)
 * [Patrick Sullivan's solution](https://github.com/patsul12/odin-project-euler)
+* [Tommy Rodriguez's solution](https://github.com/trodrigu/odinproject/tree/master/proj_euler)
 * *Put your solution above this line!*
 
 
