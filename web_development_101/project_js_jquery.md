@@ -138,4 +138,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Kevin Weir's solution here: [source code](https://github.com/IDCrisis2/javascript-jQuery)
 * See Leonard Labita's solution here: [source code] (https://github.com/lendoza/Sketch-Pad) or [view it in the browser here] (http://leonardlabita.com/sketchpad.html)
 * See Muhammad Salman's solution here: [source code](https://github.com/salmanmanekia/sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/salmanmanekia/sketch/blob/master/index.html)
+* See Ricardo Villegas' solution here: [Source Code](https://github.com/claricardo/SketchPad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/claricardo/SketchPad/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
