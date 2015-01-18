@@ -61,6 +61,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Dominik Stodolny's [Test-First Ruby Solutions](https://github.com/dstodolny/learn_ruby)
 * Kate McFaul's [Test-First Ruby Solutions](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/test_first_ruby)
 * Eleanor Weigert's [Test-First Ruby Solutions](https://github.com/mixophrygian/Test-First-Ruby)
+* Chasmani's [Test-First Ruby Solutions](https://github.com/chasmani/Test_First_Ruby_Exercises)
 * *Your solution here...*
 
 
