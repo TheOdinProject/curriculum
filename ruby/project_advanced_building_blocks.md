@@ -126,6 +126,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Hunter Ducharme's solution (Dec. 18th, 2014)](https://github.com/hgducharme/Playground/blob/master/odin_projects/ruby_programming/advanced_building_blocks/enumberable_methods.rb)
 =======
 * [Artur Janik's solution](https://github.com/ArturJanik/abbproject2/blob/master/p2-enum.rb)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/bubble_sort.rb)
 * *Your solution here...*
 >>>>>>> 97e7500751b58d4121d7a1740cc426e6278894b6
 
