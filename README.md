@@ -120,6 +120,9 @@ and click "OK".
 * [Joe Sawyer](https://github.com/zkay)
 * [Bill Walker](https://github.com/mach1010)
 * [Neil Gehani](https://github.com/ngehani)
+* [Ian White](http://github.com/Iawhite76)
+* [Nathan Hall](http://github.com/dominathan)
+* [Abby Jones](http://github.com/AbbyJonesDev)
 
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
