@@ -154,6 +154,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Chris Dziewa](https://github.com/chrisdziewa/building-blocks/blob/master/stock_picker/stocks.rb)
 * [Solution from Dominik Stodolny](https://github.com/dstodolny/ruby_building_blocks/blob/master/lib/stock_picker.rb)
 * [Solution from Sami Bashraheel](https://github.com/sami/ruby-building-blocks/blob/master/stock_picker.rb)
+* [Solution from Ali Ayoub](https://github.com/Cryptolemming/Ruby-Building-Blocks/blob/master/stock_picker.rb)
 * *Insert Your Solution Above This Line*
 
 ## Project 3: Substrings
@@ -229,4 +230,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Chris Dziewa](https://github.com/chrisdziewa/building-blocks/blob/master/substrings/substrings.rb)
 * [Solution form Dominik Stodolny](https://github.com/dstodolny/ruby_building_blocks/blob/master/lib/substrings.rb)
 * [Solution from Sami Bashraheel](https://github.com/sami/ruby-building-blocks/blob/master/substrings.rb)
+* [Solution from Ali Ayoub](https://github.com/Cryptolemming/Ruby-Building-Blocks/blob/master/substrings.rb)
 * *Insert Your Solution Above This Line*
