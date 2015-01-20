@@ -6,6 +6,22 @@ describe "StaticPages" do
 
   subject { page }
   let(:home_h1) { "Learn Web Development for Free"}
+  
+  describe "Getting Involved Page" do
+    
+    it "should be linked to from the contributing page" do
+      visit contributing_path
+      
+      expect(page).to have_link("Getting Involved", :href => getting_involved_path)
+    end
+    
+    before { visit getting_involved_path }
+    
+    it "should have title 'Getting Involved'" do
+      expect(page).to have_selector("h1", text: "Getting Involved with The Odin Project")
+    end
+  end
+
 
   describe "Splash Page" do
 

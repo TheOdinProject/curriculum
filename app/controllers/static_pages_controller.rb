@@ -8,6 +8,9 @@ class StaticPagesController < ApplicationController
   def about
   end
   
+  def getting_involved
+  end
+  
   def studygroups
   end
 
