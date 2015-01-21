@@ -135,7 +135,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Richard Stewart's solution here: [source code](https://github.com/rickstewart/Etch-a-Sketch) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/rickstewart/Etch-a-Sketch/blob/master/index.html)
 * See Chris Hall's solution (including random color and random hue generation) here: [source code] (https://github.com/Concretechris/odin-javascript-jquery) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/Concretechris/odin-javascript-jquery/blob/master/index.html)
 * See Kate McFaul's solution here: [source code](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/etch_a_sketch) or [view it in browser here](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_02-Web_Development_101/etch_a_sketch/index.html)
-* See Kevin Weir's solution here: [source code](https://github.com/IDCrisis2/javascript-jQuery)
+* See Kevin Weir's solution here: [source code](https://github.com/IDCrisis2/the_odin_project/tree/master/javascript-jQuery)
 * See Leonard Labita's solution here: [source code] (https://github.com/lendoza/Sketch-Pad) or [view it in the browser here] (http://leonardlabita.com/sketchpad.html)
 * See Muhammad Salman's solution here: [source code](https://github.com/salmanmanekia/sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/salmanmanekia/sketch/blob/master/index.html)
 * See Ricardo Villegas' solution here: [Source Code](https://github.com/claricardo/SketchPad) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/claricardo/SketchPad/blob/master/index.html)
