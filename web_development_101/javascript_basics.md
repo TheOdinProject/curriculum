@@ -92,7 +92,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dominik Stodolny's Solutions] (https://github.com/dstodolny/project_euler)
 * [Jeremy Faith's Solutions](https://github.com/JeremyFaith/odin-projects/tree/master/project_euler) or [view it in the browser here](https://rawgit.com/JeremyFaith/odin-projects/master/project_euler/ProjectEuler.html)
 * [Kate McFaul's Solutions](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/euler_in_javascript)
-* [Kevin Weir's Solutions](https://github.com/IDCrisis2/project_euler)
+* [Kevin Weir's Solutions](https://github.com/IDCrisis2/the_odin_project/tree/master/project_euler)
 * [Dan McCallum's Solutions](https://github.com/mccada/odin-project/tree/master/odin.js.project_euler)
 * [Leonard Labita's Solutions] (https://github.com/lendoza/Project-Euler) or [view it in the browser here] (http://leonardlabita.com/euler.html)
 * [Matus Karahuta's solution](https://github.com/matt-ice/TheOdinProjectFiles/blob/master/problem3.js)
