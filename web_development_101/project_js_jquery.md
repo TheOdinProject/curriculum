@@ -39,7 +39,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * See Nate Bennett's solution here: [source code](https://github.com/n8sb/odin-project/tree/master/sketch-pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/sketch-pad/index.html)
-* See John Kotz's solution here: [source code](https://github.com/jkotz/etchSketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/jkotz/etchSketch/blob/master/index.html)
 * See RebootJeff's solution here: [source code](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
 * See Afshinator's solution here: [source code](https://github.com/afshinator/playground/tree/master/SketchPad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/SketchPad/index.html)
 * See Paul Dariye's solution here: [source code](https://github.com/pauldd91/theodinproject/tree/master/sketch_pad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/pauldd91/theodinproject/master/sketch_pad/index.html)
@@ -143,4 +142,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Aryan Jabbari's solution here: [source code](https://github.com/BooG690/etch-a-sketch.git) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/BooG690/etch-a-sketch/blob/master/index.html).
 * See Kevin Mulhern's solution here: [source code] (https://github.com/KevinMulhern/etch_a_sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/KevinMulhern/etch_a_sketch/blob/master/index.html)
 * See Tommy Rodriguez's solution here: [Source Code](https://github.com/trodrigu/odinproject/tree/master/jquery/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/trodrigu/odinproject/blob/master/jquery/etch-a-sketch/index.html)
+* See John Kotz's solution here: [source code](https://github.com/jkotz/etchSketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/jkotz/etchSketch/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
