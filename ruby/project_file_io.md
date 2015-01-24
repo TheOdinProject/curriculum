@@ -78,6 +78,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [John Quarles' Solution](https://github.com/johnwquarles/Ruby-FileIO-Hangman)
 * [Artur Janik's Solution](https://github.com/ArturJanik/serialproject2)
 * [Kate McFaul's Solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/hangman)
+* [Dominik Stodolny's Solution](https://github.com/dstodolny/hangman)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
