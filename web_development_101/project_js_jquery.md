@@ -145,4 +145,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See John Kotz's solution here: [source code](https://github.com/jkotz/etchSketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/jkotz/etchSketch/blob/master/index.html)
 * See Josh Naughton's solution here: [source code](https://github.com/ThothLogos/odin-webfront) or [view it in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/ThothLogos/odin-webfront/master/index.html)
 * See Jeremy Faith's solution here: [source code](https://github.com/JeremyFaith/odin-projects/tree/master/sketcher_fx) or [view it in browser](https://rawgit.com/JeremyFaith/odin-projects/master/sketcher_fx/sketcher.html)
+* See Greg Park's solution here: [source code](https://github.com/gregoryjpark/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/gregoryjpark/sketchpad/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
