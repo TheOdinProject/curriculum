@@ -144,4 +144,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Tommy Rodriguez's solution here: [Source Code](https://github.com/trodrigu/odinproject/tree/master/jquery/etch-a-sketch) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/trodrigu/odinproject/blob/master/jquery/etch-a-sketch/index.html)
 * See John Kotz's solution here: [source code](https://github.com/jkotz/etchSketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/jkotz/etchSketch/blob/master/index.html)
 * See Josh Naughton's solution here: [source code](https://github.com/ThothLogos/odin-webfront) or [view it in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/ThothLogos/odin-webfront/master/index.html)
+* See Jeremy Faith's solution here: [source code](https://github.com/JeremyFaith/odin-projects/tree/master/sketcher_fx) or [view it in browser](https://rawgit.com/JeremyFaith/odin-projects/master/sketcher_fx/sketcher.html)
 * *Add the link to your solution above this line (do not remove this line)*
