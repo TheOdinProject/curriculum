@@ -20,6 +20,7 @@ In this project you'll clone the website of one of the most design-forward compa
 
 * See [Jason Ellis's solution here](https://github.com/jason-ellis/apple-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
 * See [Shouvik Roy's solution here](https://github.com/royshouvik/applehome) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
+* See [Meher Chandan's solution here](https://github.com/meherchandan/Apple_Project) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
 * *Your solution here...* 
 
 ## Additional Resources
