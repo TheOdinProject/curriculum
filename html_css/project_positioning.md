@@ -23,6 +23,7 @@ In this project, your assignment is to copy [this article from the New York Time
 
 * See [Shouvik Roy's solution here](https://github.com/royshouvik/newyorktimes) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/royshouvik/newyorktimes/blob/master/index.html)
 * See [Meher Chandan's solution here](https://github.com/meherchandan/NewYorkTimes) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/meherchandan/NewYorkTimes/blob/master/index.html)
+* See [Leonard Labita's solution here] (https://github.com/lendoza/Times) or [view it in the browser here] (http://leonardlabita.com/times.html)
 * *Your solution here...* 
 
 ## Additional Resources
