@@ -38,6 +38,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Solution from John Quarles](https://github.com/johnwquarles/Mini-Twitter-Client)
 * [Solution from Artur Janik](https://github.com/ArturJanik/rotwproject1)
 * [Solution from Kate McFaul](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/ruby_on_the_web/twitter_spambot)
+* [Solution from Dominik Stodolny](https://github.com/dstodolny/microblogger)
 * *...put your solution above this line!*
 
 ## Project 2: A Real Web Server and Browser (from the command line)
