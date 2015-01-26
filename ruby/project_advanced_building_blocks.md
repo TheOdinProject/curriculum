@@ -70,6 +70,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Sami Bashraheel's solution](https://github.com/sami/advanced-ruby-building-blocks/blob/master/bubble_sort.rb)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/bubble_sort.rb)
 * [Josh Naughton's solution](https://github.com/ThothLogos/odin-rubyprogramming/blob/master/04_bubble_sort.rb)
+* [Jason Matthews' solution](https://github.com/fo0man/advanced_building_blocks/blob/master/bubble_sort.rb)
 * *Your solution here...*
 
 
@@ -139,6 +140,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Sami Bashraheel's solution](https://github.com/sami/advanced-ruby-building-blocks/blob/master/enumerable_methods.rb)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/enumerable_methods.rb)
 * [Josh Naughton's solution](https://github.com/ThothLogos/odin-rubyprogramming/blob/master/05_enumerable_methods.rb)
+* [Jason Matthews' solution](https://github.com/fo0man/advanced_building_blocks/blob/master/enumerator.rb)
 * *Your solution here...*
 
 
