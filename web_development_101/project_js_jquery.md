@@ -147,4 +147,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Jeremy Faith's solution here: [source code](https://github.com/JeremyFaith/odin-projects/tree/master/sketcher_fx) or [view it in browser](https://rawgit.com/JeremyFaith/odin-projects/master/sketcher_fx/sketcher.html)
 * See Greg Park's solution here: [source code](https://github.com/gregoryjpark/sketchpad) or [view it in browser](http://htmlpreview.github.io/?https://github.com/gregoryjpark/sketchpad/blob/master/index.html)
 * See Meher Chandan's solution here: [source code](https://github.com/meherchandan/Etch-A-Sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Etch-A-Sketch/blob/master/index.html)
+* See Benjamin Wilhelm's solution here: [source code](https://github.com/Nimorgs/js_project_odin) or [view it in browser](http://htmlpreview.github.io/?https://github.com/Nimorgs/js_project_odin/blob/master/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
