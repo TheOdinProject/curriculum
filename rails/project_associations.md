@@ -81,7 +81,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_EventBrite/private-events)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/private_events)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/private-events)
-
+* [Vidul's solution](https://github.com/viparthasarathy/private-events)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
