@@ -71,6 +71,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/bubble_sort.rb)
 * [Josh Naughton's solution](https://github.com/ThothLogos/odin-rubyprogramming/blob/master/04_bubble_sort.rb)
 * [Jason Matthews' solution](https://github.com/fo0man/advanced_building_blocks/blob/master/bubble_sort.rb)
+* [Nikola Čvorović's solution](https://github.com/cvorak/ruby-project-advanced_building_blocks/blob/master/bubble_sort.rb)
 * *Your solution here...*
 
 
