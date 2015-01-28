@@ -35,6 +35,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [John Quarles' solution](https://github.com/johnwquarles/Ruby-project-recursion/blob/master/fib.rb)
 * [Artur Janik's solution](https://github.com/ArturJanik/recurproject1/blob/master/p1-fib.rb)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/recursion/fibonacci.rb)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/fibonacci.rb)
 * *Put your solution above this line!*
 
 
