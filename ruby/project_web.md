@@ -186,6 +186,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Solution from Vidul Parthasarathy](https://github.com/viparthasarathy/web_server)
 * [Solution from John Quarles](https://github.com/johnwquarles/simple-server-and-client)(using while loops, #gets and #read)
 * [Solution from Artur Janik](https://github.com/ArturJanik/rotwproject2)
+* [Solution from Dominik Stodolny](https://github.com/dstodolny/web_server)
 * *...put your solution above this line!*
 
 
