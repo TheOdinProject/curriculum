@@ -162,6 +162,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Josh Naughton](https://github.com/ThothLogos/odin-rubyprogramming/blob/master/02_stock_picker.rb)
 * [Solution from Jason Matthews](https://github.com/fo0man/ruby_blocks/blob/master/stock_picker.rb)
 * [Solution from Nikola Cvorovic](https://github.com/cvorak/ruby_project_caesar_cypher/blob/master/stock_picker.rb)
+* [Solution from Ali Ayoub](https://github.com/Cryptolemming/Ruby-Building-Blocks/blob/master/stock_picker.rb)
 * *Insert Your Solution Above This Line*
 
 ## Project 3: Substrings
@@ -241,4 +242,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Josh Naughton](https://github.com/ThothLogos/odin-rubyprogramming/blob/master/03_substrings.rb)
 * [Solution from Jason Matthews](https://github.com/fo0man/ruby_blocks/blob/master/substrings.rb)
 * [Solution from Nikola Čvorović](https://github.com/cvorak/ruby_project_caesar_cypher/blob/master/substrings.rb)
+* [Solution from Ali Ayoub](https://github.com/Cryptolemming/Ruby-Building-Blocks/blob/master/substrings.rb)
 * *Insert Your Solution Above This Line*
