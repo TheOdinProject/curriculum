@@ -83,6 +83,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Tommy Noe's solution](https://github.com/thomasjnoe/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events)
 * [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Vidul's solution](https://github.com/viparthasarathy/private-events) | [demo](https://fierce-headland-7201.herokuapp.com/)
 
 ## Additional Resources
 
