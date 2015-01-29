@@ -86,6 +86,21 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jitendra Jogeshwar's solution] (https://github.com/jogjitu/google-homepage/blob/master/javascript_practise.js)
 * [Andrea Kulbaba's Euler Solutions] (https://github.com/akulbaba/euler-solutions) or [view it in the browser here](http://rawgit.com/akulbaba/euler-solutions/master/index.html)
 * [Asish Prabhakar's Solutions] (https://github.com/akottal/euler-solutions)
+* [Sami Bashraheel's Solutions] (https://github.com/sami/project-euler)
+* [Tyler Traver's Solutions](https://github.com/ttravers17/the_odin_project/tree/master/mini_projects/project_euler)
+* [Ricardo Villegas' Solutions](https://github.com/claricardo/project-euler-solutions)
+* [Dominik Stodolny's Solutions] (https://github.com/dstodolny/project_euler)
+* [Jeremy Faith's Solutions](https://github.com/JeremyFaith/odin-projects/tree/master/project_euler) or [view it in the browser here](https://rawgit.com/JeremyFaith/odin-projects/master/project_euler/ProjectEuler.html)
+* [Kate McFaul's Solutions](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/euler_in_javascript)
+* [Kevin Weir's Solutions](https://github.com/IDCrisis2/the_odin_project/tree/master/project_euler)
+* [Dan McCallum's Solutions](https://github.com/mccada/odin-project/tree/master/odin.js.project_euler)
+* [Leonard Labita's Solutions] (https://github.com/lendoza/Project-Euler) or [view it in the browser here] (http://leonardlabita.com/euler.html)
+* [Matus Karahuta's solution](https://github.com/matt-ice/TheOdinProjectFiles/blob/master/problem3.js)
+* [Patrick Sullivan's solution](https://github.com/patsul12/odin-project-euler)
+* [Tommy Rodriguez's solution](https://github.com/trodrigu/odinproject/tree/master/proj_euler)
+* [Benjamin Wilhelm's solution](https://github.com/Nimorgs/project-euler)
+* [Adam Lecuyer's solution](https://github.com/antisense/js.projecteuler)
+* [Zane Bilous's solutions](https://github.com/Zane-/projectEuler)
 * *Put your solution above this line!*
 
 

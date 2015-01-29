@@ -32,6 +32,10 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Hawkeye's solution](https://github.com/Hawkeye000/odin-recursion)
 * [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Project:%20Recursion/lib/fibonacci.rb)
 * [Vidul's solution](https://github.com/viparthasarathy/recursion/blob/master/fib.rb)
+* [John Quarles' solution](https://github.com/johnwquarles/Ruby-project-recursion/blob/master/fib.rb)
+* [Artur Janik's solution](https://github.com/ArturJanik/recurproject1/blob/master/p1-fib.rb)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/recursion/fibonacci.rb)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/fibonacci.rb)
 * *Put your solution above this line!*
 
 
@@ -77,6 +81,10 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [James MacIvor's solution](https://github.com/RobotOptimist/rec_ex/blob/master/merge_sort.rb)
 * [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Project:%20Recursion/lib/merge.rb)
 * [Vidul's solution](https://github.com/viparthasarathy/recursion/blob/master/merge_sort.rb)
+* [John Quarles' solution](https://github.com/johnwquarles/Ruby-project-recursion/blob/master/merge_sort.rb)
+* [Artur Janik's solution](https://github.com/ArturJanik/recurproject2/blob/master/p2-merg.rb)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/recursion/merge_sort.rb)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/merge_sort.rb)
 * Your solution here...
 
 

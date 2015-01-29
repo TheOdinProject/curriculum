@@ -27,7 +27,8 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 * *Your Solution Here!*
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec)
-* 
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec)
+* [Artur Janik's solution](https://github.com/ArturJanik/testingruby1)
 
 
 ## Project: TDD Connect Four
@@ -54,6 +55,8 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Tommy Noe's solution](https://github.com/thomasjnoe/connect_four)
 * [James MacIvor's solution](https://github.com/RobotOptimist/connect_four)
 * [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Testing%20Ruby%20with%20RSpec)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec/connect_four_rspec)
+* [Artur Janik's solution](https://github.com/ArturJanik/testingruby2)
 
 
 *How long did these projects take you?  [Let us know!](mailto:curriculum@theodinproject.com)*
@@ -64,5 +67,4 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
-* 
 

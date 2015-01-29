@@ -55,6 +55,16 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Jack Nguyen's [Test-First Ruby Solutions](https://github.com/jnguyen85/test-first_ruby_solutions)
 * Scott Yu's [Test-First Ruby Solutions](https://github.com/scootcho/the_odin_project/tree/master/ruby/learn_ruby)
 * Chris Dziewa's [Test-First Ruby Solutions](https://github.com/chrisdziewa/test-ruby)
+* Asish Prabhakar's [Test-First Ruby Solutions](https://github.com/akottal/ruby101-project)
+* Sami Bashraheel's [Test-First Ruby Solutions](https://github.com/sami/test_first_ruby)
+* Drew Price's [Test-First Ruby Solutions](https://github.com/drewprice/study/tree/master/odin-project/projects/learn_ruby/001_solutions)
+* Dominik Stodolny's [Test-First Ruby Solutions](https://github.com/dstodolny/learn_ruby)
+* Kate McFaul's [Test-First Ruby Solutions](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/test_first_ruby)
+* Eleanor Weigert's [Test-First Ruby Solutions](https://github.com/mixophrygian/Test-First-Ruby)
+* Chasmani's [Test-First Ruby Solutions](https://github.com/chasmani/Test_First_Ruby_Exercises)
+* Patrick Sullivan's [Test-First Ruby Solutions](https://github.com/patsul12/odin-rspec)
+* Jason Matthews's [Test-First Ruby Solutions](https://github.com/fo0man/learn_ruby)
+* Greg Park's [Test-First Ruby Solutions](https://github.com/gregoryjpark/learn_ruby)
 * *Your solution here...*
 
 

@@ -13,7 +13,7 @@ You'll implement signin and signout functionality for the user, which opens the 
 
 ### Your Task
 
-1. Do the [Ruby on Rails Tutorial Chapter 8](http://www.railstutorial.org/book/sign_in_out#cha-sign_in_sign_out), "Sign in, sign out"
+1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.railstutorial.org/book/log_in_log_out), "Log in, log out"
 2. Do the [Ruby on Rails Tutorial Chapter 9](http://www.railstutorial.org/book/updating_and_deleting_users), "Updating, showing and deleting users"
 
 
@@ -102,6 +102,8 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Jonathan's solution](https://github.com/faulk49/members-only)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Gossip-Club)
 * [Erithair's solution](https://github.com/N19270/members-only) | [site on heroku](https://members-only.herokuapp.com/)
+* [Vidul's Solution](https://github.com/viparthasarathy/members-only)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) | [site on heroku](https://members-only-sample-blog.herokuapp.com)
 
 ## Additional Resources
 

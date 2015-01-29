@@ -45,6 +45,8 @@ It's time to build an on-screen calculator
 * [Solution from Mazin Power](https://github.com/muzfuz/JS_Calculator) | [Demo](http://muzfuz.com/calculator/)
 * [Solution from Marina Sergeyeva](https://github.com/imousterian/OdinProject/tree/master/Project5_1_Calculator)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/calculator/index.html)
+* [Vincent's solution](https://github.com/wingyu/Javascript-Calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/Javascript-Calculator/blob/master/index.html)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/calculator) | [View in browser](http://jsfiddle.net/craftykate/k9ewcpvr/embedded/result/)
 * Your solution here...
 
 ## Additional Resources

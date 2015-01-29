@@ -18,15 +18,12 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 
 ## Student Solutions
 * jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/restaurant) | [demo](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-javascript/blob/master/restaurant/index.html)
-
 * Afshin M's June '14 [solution](https://github.com/afshinator/js-tabbedPane) | [demo](http://htmlpreview.github.io/?https://github.com/afshinator/js-tabbedPane/blob/master/index.html)
-
 * [Tom M's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project2) | [demo] (http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Project2/index.html) 
-
 * [raystation's solution](http://raystation.github.io/odin-restaurant/)
-
 * Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project5_2_DOM_jQuery) | [demo](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_2_DOM_jQuery/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/dom_manipulation) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/dom_manipulation/index.html)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/restaurant) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_06-JavaScript_and_jQuery/restaurant/index.html)
 * *Your solution here!*
 
 

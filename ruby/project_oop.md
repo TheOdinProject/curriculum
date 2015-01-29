@@ -46,6 +46,13 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Solution from Vidul (with AI)](https://github.com/viparthasarathy/tic_tac_toe/blob/master/game.rb)
 * [Solution from John Quarles](https://github.com/johnwquarles/Ruby-OOP-TicTacToe-and-MasterMind/blob/master/TicTacToe.rb)
 * [Solution from Artur Janik](https://github.com/ArturJanik/oopproject1/blob/master/p1-tictactoe.rb)
+* [Solution from Dan Molloy](https://github.com/danmolloy/tictactoe)
+* [Solution from Hunter Ducharme](https://github.com/hgducharme/Playground/blob/master/odin_projects/ruby_programming/OOP_ruby/tic_tac_toe/tic_tac_toe.rb)
+* [Solution from Angela Woods](https://github.com/insomniacode/odin_oop_ruby/tree/master/tic_tac_toe)
+* [Solution from Kate McFaul](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/oop_with_ruby/tic_tac_toe.rb)
+* [Solution from Lara Finnegan](https://github.com/lcf0285/tic_tac_toe)
+* [Solution from Dominik Stodolny](https://github.com/dstodolny/tictactoe/blob/master/tictactoe.rb)
+* [Solution from Jason Matthews](https://github.com/fo0man/ruby_tic_tac_toe/blob/master/TicTacToe.rb)
 * *Put Your Solution Above This Line!*
 
 
@@ -86,6 +93,9 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Solution from Vidul](https://github.com/viparthasarathy/mastermind/blob/master/mastermind.rb)
 * [Solution from John Quarles](https://github.com/johnwquarles/Ruby-OOP-TicTacToe-and-MasterMind/blob/master/MasterMind.rb)
 * [Solution from Artur Janik (no AI)](https://github.com/ArturJanik/oopproject2)
+* [Solution from Kate McFaul (includes AI)](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/oop_with_ruby/mastermind.rb)
+* [Solution from Dominik Stodolny (AI)](https://github.com/dstodolny/mastermind)
+* [Solution from Jason Matthews includes AI](https://github.com/fo0man/ruby_mastermind/blob/master/MasterMind.rb)
 * Put Your Solution Above This Line!
 
 ## Additional Resources
