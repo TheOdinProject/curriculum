@@ -31,6 +31,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [John Quarles' Solution](https://github.com/johnwquarles/jumpstartlab-event-manager)
 * [Kate McFaul's Solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/event_manager)
 * [Dominik Stodolny's Solution](https://github.com/dstodolny/event_manager)
+* [Lara Finnegan's Solution](https://github.com/lcf0285/event_manager)
 * *Your Solution Above This Line!*
 
 
