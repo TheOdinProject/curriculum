@@ -86,6 +86,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Artur Janik's solution](https://github.com/ArturJanik/recurproject2/blob/master/p2-merg.rb)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/recursion/merge_sort.rb)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/merge_sort.rb)
+* [Jason Matthews' solution](https://github.com/fo0man/project_recursion/blob/master/recursion.rb)
 * Your solution here...
 
 
