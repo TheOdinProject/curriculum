@@ -21,7 +21,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
         { "id": "11357337313", "owner": "84645040@N00", "secret": "6dd795c9c6", "server": "3805", "farm": 4, "title": "Gavin-Feb2013-0127", "ispublic": 1, "isfriend": 0, "isfamily": 0 },
     ```
 
-    More interestingly, you can see the URL they used to make the request below that.  I've broken it apart here to show the parameters more clearly: 
+    More interestingly, you can see the URL they used to make the request below that.  I've broken it apart here to show the parameters more clearly:
 
     ```language-bash
         http://api.flickr.com/services/rest/
@@ -32,7 +32,7 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
           &nojsoncallback=1
           &api_sig=200efb63cb01a3d141fff12585e1e20a
     ```
-    
+
 1. The URL contains the REST endpoint we looked at before, along with our search query and some other options like the API key and format.  If you copy and paste that into your browser, you'll see the same batch of output.
 2. If you look back on the [main API docs page](http://www.flickr.com/services/api/) in the "Read these first" box, there's a link that says [URLs](http://www.flickr.com/services/api/misc.urls.html).  Follow that link.
 3. Flickr's API requires two steps to actually display a photo -- you need to get a photo's meta information (which we just received in our search results) and then you need to piece it together into a URL that Flickr can understand to actually retrieve the photo.  The format they suggest is:
@@ -82,7 +82,7 @@ Now it's time to make the Kittens resource available via API.
 4. Test it out by making sure your RestClient calls return the proper JSON strings.
 5. Do the same for your `#show` method, which will require you to provide an ID when making your request.  Your CSRF protection will prevent you from creating, updating or deleting kittens via the API, so it's not necessary to implement those.
 
-This project may seem simple, but now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it.  You could use Javascript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place.  Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end.  It doesn't matter, since now you've got a RESTful API.  
+This project may seem simple, but now you've got a website that is both a normal HTML-producing back end AND an API that can be used to pull data from it.  You could use Javascript calls from the front end to dynamically refresh your data now or even to load the whole page in the first place.  Or maybe you'll be hooking up a Kittens app to your iPhone and need a back end.  It doesn't matter, since now you've got a RESTful API.
 
 ### Student Solutions
 
@@ -121,6 +121,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * *Your Solution Here!*
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
 * Solution from [Adrian Badarau](https://github.com/adrianbadarau/rails-flickr-api-test-app)
+* [Jack's solution](https://github.com/jnguyen85/flickr_search)
 
 
 ## Additional Resources
@@ -128,5 +129,5 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* 
+*
 
