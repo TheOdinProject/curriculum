@@ -40,6 +40,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [John Quarles' Solution](https://github.com/johnwquarles/Ruby-binary-trees-knights-travails/blob/master/binary_tree.rb)
 * [Kate McFaul's Solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/data_structures_and_algorithms/binary_search_tree.rb)
 * [Artur Janik's Solution](https://github.com/ArturJanik/basicdatastr1/blob/master/p1-tree.rb)
+* [Jason Matthews' Solution](https://github.com/fo0man/project_data_structures/blob/master/BinaryTree.rb)
 * *Your Solution Above This Line!*
 
 ## Project 2: Knight's Travails
@@ -91,6 +92,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [John Quarles' Solution](https://github.com/johnwquarles/Ruby-binary-trees-knights-travails/blob/master/knight.rb)
 * [Kate McFaul's Solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/data_structures_and_algorithms/knight_moves.rb)
 * [Artur Janik's Solution](https://github.com/ArturJanik/basicdatastr2/blob/master/p2-knight.rb)
+* [Jason Matthews' Solution](https://github.com/fo0man/project_data_structures/blob/master/knight_travails.rb)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
