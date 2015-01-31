@@ -65,6 +65,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Patrick Sullivan's [Test-First Ruby Solutions](https://github.com/patsul12/odin-rspec)
 * Jason Matthews's [Test-First Ruby Solutions](https://github.com/fo0man/learn_ruby)
 * Greg Park's [Test-First Ruby Solutions](https://github.com/gregoryjpark/learn_ruby)
+* Rick Stewart's [Test-First Ruby Solutions](https://github.com/rickstewart/Project_Ruby_Test_First)
 * *Your solution here...*
 
 
