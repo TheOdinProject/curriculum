@@ -41,6 +41,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Kate McFaul's Solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/data_structures_and_algorithms/binary_search_tree.rb)
 * [Artur Janik's Solution](https://github.com/ArturJanik/basicdatastr1/blob/master/p1-tree.rb)
 * [Jason Matthews' Solution](https://github.com/fo0man/project_data_structures/blob/master/BinaryTree.rb)
+* [Dominik Stodolny's Solution](https://github.com/dstodolny/binary_tree/blob/master/binary_tree.rb)
 * *Your Solution Above This Line!*
 
 ## Project 2: Knight's Travails
