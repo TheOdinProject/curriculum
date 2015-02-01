@@ -248,4 +248,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Nikola Čvorović](https://github.com/cvorak/ruby_project_caesar_cypher/blob/master/substrings.rb)
 * [Solution from Ali Ayoub](https://github.com/Cryptolemming/Ruby-Building-Blocks/blob/master/substrings.rb)
 * [Solution from chasmani](https://github.com/chasmani/RubyBuildingBlocks/blob/master/substrings.rb)
+* [Solution fro Kevin Weir](https://github.com/IDCrisis2/the_odin_project/blob/master/Ruby%20Building%20Blocks/substrings.rb)
 * *Insert Your Solution Above This Line*
