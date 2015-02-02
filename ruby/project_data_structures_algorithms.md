@@ -94,6 +94,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Kate McFaul's Solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/data_structures_and_algorithms/knight_moves.rb)
 * [Artur Janik's Solution](https://github.com/ArturJanik/basicdatastr2/blob/master/p2-knight.rb)
 * [Jason Matthews' Solution](https://github.com/fo0man/project_data_structures/blob/master/knight_travails.rb)
+* [Dominik Stodolny's Solution](https://github.com/dstodolny/knight_moves/blob/master/knight_moves.rb)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
