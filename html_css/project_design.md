@@ -32,6 +32,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 
 * See [Leonard Labita's solution here] (https://github.com/lendoza/Smashing-Magazine) or [view it in the browser here] (http://leonardlabita.com/smashing.html)
 * *Your solution here...* 
+* See [Leonard Labita's solution here] (https://github.com/lendoza/Smashing-Magazine) or [view it in the browser here] (http://leonardlabita.com/smashing.html)
 
 ## Additional Resources
 
