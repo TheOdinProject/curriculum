@@ -37,6 +37,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/recursion/fibonacci.rb)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/fibonacci.rb)
 * [Jason Matthews' solution](https://github.com/fo0man/project_recursion/blob/master/recursion.rb)
+* [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/fib2.rb)
 * *Put your solution above this line!*
 
 
