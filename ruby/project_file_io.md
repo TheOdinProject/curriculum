@@ -82,6 +82,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Kate McFaul's Solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/hangman)
 * [Dominik Stodolny's Solution](https://github.com/dstodolny/hangman)
 * [Lara Finnegan's Solution](https://github.com/lcf0285/hangman)
+* [Nikola Čvorović's Solution](https://github.com/cvorak/Hangman.git) 
 * *Your Solution Above This Line!*
 
 ## Additional Resources
