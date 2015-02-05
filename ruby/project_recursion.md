@@ -90,6 +90,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/merge_sort.rb)
 * [Jason Matthews' solution](https://github.com/fo0man/project_recursion/blob/master/recursion.rb)
 * [Nikola Čvorović's solution](https://github.com/cvorak/Recursion/blob/master/merge_sort.rb)
+* [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/merge_sort.rb)
 * Your solution here...
 
 
