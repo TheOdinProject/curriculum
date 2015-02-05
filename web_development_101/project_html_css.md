@@ -246,6 +246,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Mark Pearyer's solution here] (https://github.com/marcusp619/google-homepage) or [view it in browser here] (http://codepen.io/Marcusp619/pen/YPxJaR)
 * See [Joseph Henry's solution here] (https://github.com/josephcode773/google-homepage) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/josephcode773/google-homepage/blob/master/index.html)
 * See [Psidium's solution here] (https://github.com/Psidium/google-homepage) or [view it in the browser here (dificult version)](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Psidium/google-homepage/master/google.html)
+* See Saurabh Sikchi's solution [here (easy version)](https://github.com/Khamba/Google-clone) and [here (hard version)](https://github.com/Khamba/Google-search-results-clone) or view it in the browser [here (easy version)](http://htmlpreview.github.io/?https://github.com/Khamba/Google-clone/blob/master/index.html) and [here (hard version)](http://htmlpreview.github.io/?https://github.com/Khamba/Google-search-results-clone/blob/master/index.html)
 * Put your solution above this line!*
 
 
