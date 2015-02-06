@@ -59,6 +59,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Jason Matthews' Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/fo0man/blogger)
 * chasmani's solution [Jumpstart Labs Blogger App I0-I4](https://github.com/chasmani/Rails-Project-1-Odin) | [View Online](https://mighty-brook-8861.herokuapp.com/)
 * Kevin Mulhern's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/KevinMulhern/blogger) | [View Online](https://pacific-atoll-8854.herokuapp.com)
+* Alice Rhomieux's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/arhx/jumpstart-lab-blogger) | [View Online](https://obscure-lake-7514.herokuapp.com/)
 * *Your solution above here...*
 
 
