@@ -153,4 +153,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Adam Lecuyer's solution here: [source code](https://github.com/antisense/supersketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/antisense/supersketch/blob/master/index.html)
 * See Gabi O'Connor's solution here: [source code](https://github.com/GabiOC/sketchpad) or [view it in the browser](http://gabioc.github.io/sketchpad/)
 * See Dorian Iacobescu's solution here: [source code](https://github.com/iacobson/Odin6-Sketch-JS) or [view it in the browser](http://sketch-grid.herokuapp.com/)
+* See Nick Kessler's solution here: [source code](https://github.com/nakessler/Project_Javascript_jQuery) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/nakessler/Project_Javascript_jQuery/blob/master/Project_Javascript_jQuery.html)
 * *Add the link to your solution above this line (do not remove this line)*
