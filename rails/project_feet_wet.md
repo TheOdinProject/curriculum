@@ -46,6 +46,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Solution from Vidul](https://github.com/viparthasarathy/toy-app)
 * [Solution from Kate McFaul](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/sample_rails_app)
 * [Solution from larrongolden](https://github.com/larrongolden/toy-app)
+* [Solution from chasmani](https://github.com/chasmani/toy_app)
 
 ## Additional Resources
 
