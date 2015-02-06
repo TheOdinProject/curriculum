@@ -67,7 +67,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Greg Park's [Test-First Ruby Solutions](https://github.com/gregoryjpark/learn_ruby)
 * Rick Stewart's [Test-First Ruby Solutions](https://github.com/rickstewart/Project_Ruby_Test_First)
 * Andrea Kulbaba's [Test-First Ruby Solutions](https://github.com/akulbaba/test-first-ruby-solutions)
-* Chris Hall's [Test-First Ruby Solutions] {https://github.com/Concretechris/learn_ruby)
+* Chris Hall's [Test-First Ruby Solutions] (https://github.com/Concretechris/learn_ruby)
 * *Your solution here...*
 
 
