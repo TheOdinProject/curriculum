@@ -94,6 +94,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Solution from Nikola Cvorovic](https://github.com/cvorak/ruby_project_caesar_cypher/blob/master/caesar_cypher.rb)
 * [Solution from Kevin Weir](https://github.com/IDCrisis2/the_odin_project/blob/master/Ruby%20Building%20Blocks/caesar_cipher.rb)
 * [Solution from chasmani](https://github.com/chasmani/RubyBuildingBlocks/blob/master/caesar_cipher.rb)
+* [Solution from poctek](https://github.com/poctek/CaesarCipher_TheOdinProject/blob/master/CaesarCipher.rb)
 * *Insert Your Solution Above This Line*
 
 
@@ -167,6 +168,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Solution from Ali Ayoub](https://github.com/Cryptolemming/Ruby-Building-Blocks/blob/master/stock_picker.rb)
 * [Solution from JrodManU](https://github.com/JrodManU/stock-picker/blob/master/stock_picker.rb)
 * [Solution from chasmani](https://github.com/chasmani/RubyBuildingBlocks/blob/master/stock_picker.rb)
+* [Solution from poctek](https://github.com/poctek/stock_picker_the_odin_project/blob/master/stockPicker.rb)
 * *Insert Your Solution Above This Line*
 
 ## Project 3: Substrings
@@ -249,4 +251,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from Ali Ayoub](https://github.com/Cryptolemming/Ruby-Building-Blocks/blob/master/substrings.rb)
 * [Solution from chasmani](https://github.com/chasmani/RubyBuildingBlocks/blob/master/substrings.rb)
 * [Solution from Kevin Weir](https://github.com/IDCrisis2/the_odin_project/blob/master/Ruby%20Building%20Blocks/substrings.rb)
+* [Solution from poctek](https://github.com/poctek/Occurances_The_Odin_Project)
 * *Insert Your Solution Above This Line*
