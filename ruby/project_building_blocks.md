@@ -252,4 +252,5 @@ Next, make sure your method can handle multiple words:
 * [Solution from chasmani](https://github.com/chasmani/RubyBuildingBlocks/blob/master/substrings.rb)
 * [Solution from Kevin Weir](https://github.com/IDCrisis2/the_odin_project/blob/master/Ruby%20Building%20Blocks/substrings.rb)
 * [Solution from poctek](https://github.com/poctek/Occurances_The_Odin_Project)
+* [Solution from JrodManU](https://github.com/JrodManU/substring-counter)
 * *Insert Your Solution Above This Line*
