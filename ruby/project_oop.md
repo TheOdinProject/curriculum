@@ -99,6 +99,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Solution from Dominik Stodolny (AI)](https://github.com/dstodolny/mastermind)
 * [Solution from Jason Matthews includes AI](https://github.com/fo0man/ruby_mastermind/blob/master/MasterMind.rb)
 * [Solution from Nikola Čvorović](https://github.com/cvorak/OOP_with-_ruby/blob/master/mastermind.rb)
+* [Solution from JrodManU](https://github.com/JrodManU/tic-tac-toe)
 * Put Your Solution Above This Line!
 
 ## Additional Resources
