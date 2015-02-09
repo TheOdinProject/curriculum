@@ -61,6 +61,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Kevin Mulhern's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/KevinMulhern/blogger) | [View Online](https://pacific-atoll-8854.herokuapp.com)
 * Greg Park's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/gregoryjpark/simple-blogger) | [View Online](https://whispering-reaches-6831.herokuapp.com)
 * Alice Rhomieux's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/arhx/jumpstart-lab-blogger) | [View Online](https://obscure-lake-7514.herokuapp.com/)
+* Eleanor Weigert's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/mixophrygian/Blogger-App) | [View Online](https://eleanors-blogger.herokuapp.com/)
 * *Your solution above here...*
 
 
