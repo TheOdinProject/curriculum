@@ -250,6 +250,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Sue Robbins' solution here] (https://github.com/shrobbins/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/shrobbins/google-homepage/blob/master/index.html)
 * See [Pezz18's solution here] (https://github.com/Pezz18/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/Pezz18/google-homepage/blob/master/Google.html)
 * See [Robert Juall's solution here](https://github.com/RJuall/the_odin_project/tree/master/google_site)
+* See [Taylor Buchheit's solution here](https://github.com/7aylor/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/7aylor/google-homepage/blob/master/index.html)
 * Put your solution above this line!
 
 
