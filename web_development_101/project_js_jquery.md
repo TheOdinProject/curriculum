@@ -151,4 +151,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Jason Matthews' solution here: [source code](https://github.com/fo0man/Odin-A-Sketch) or [view it in browser](http://htmlpreview.github.io/?https://github.com/fo0man/Odin-A-Sketch/blob/master/index.html)
 * See Zane Bilous' solution here: [source code](https://github.com/Zane-/etchASketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/Zane-/etchASketch/blob/master/index.html)
 * See Adam Lecuyer's solution here: [source code](https://github.com/antisense/supersketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/antisense/supersketch/blob/master/index.html)
+* See Thomas Vaeth's solution here: [source code](https://github.com/thomasvaeth/the_odin_project/tree/master/etch-a-sketch) or [view it in the browser](http://htmlpreview.github.io/?https://github.com/thomasvaeth/the_odin_project/blob/master/etch-a-sketch/index.html)
 * *Add the link to your solution above this line (do not remove this line)*
