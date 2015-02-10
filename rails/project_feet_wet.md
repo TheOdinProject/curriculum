@@ -13,7 +13,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 
 1. If you haven't already, do the [Installations project](http://www.theodinproject.com/web-development-101/installations).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** and **Ruby 2** working properly.  The section says:
 
-    Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://docs.railsbridge.org/intro-to-rails/deploying_to_heroku). 
+    Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://docs.railsbridge.org/intro-to-rails/deploying_to_heroku).
 
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
 3. If you hadn't done either of these, you should go back to the [Web Development 101](/web-development-101) course and at least do the [Web Development Frameworks section](/web-development-101/#section-web-development-frameworks).
@@ -28,7 +28,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Your Task
 
-1. Read and follow along with [Chapters 1 and 2 of The Rails Tutorial](https://www.railstutorial.org/book/beginning#cha-beginning) by Michael Hartl, where you will create two basic Ruby on Rails applications. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io). Michael also favors [bitbucket](https://bitbucket.org/) over github. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public. 
+1. Read and follow along with [Chapters 1 and 2 of The Rails Tutorial](https://www.railstutorial.org/book/beginning#cha-beginning) by Michael Hartl, where you will create two basic Ruby on Rails applications. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io). Michael also favors [bitbucket](https://bitbucket.org/) over github. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.
 
 ### Student Solutions
 
@@ -48,10 +48,10 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Solution from larrongolden](https://github.com/larrongolden/toy-app)
 * [Solution from chasmani](https://github.com/chasmani/toy_app)
 * [Solution from Cvorak](https://github.com/cvorak/Rails_toy_app)
+* [Solution from Julian](https://github.com/JulsFelic/toy_app)
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [How to Design a Rails App from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/design-rails-app)
-
