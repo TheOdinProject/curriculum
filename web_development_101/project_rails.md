@@ -3,7 +3,7 @@
 
 In this project, you'll get the opportunity to actually build a real rails application.  It's not a trivially simple one either -- it's got a lot of wrinkles and things that you're not going to understand.
 
-To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient. 
+To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient.
 
 Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.  
 
@@ -62,6 +62,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Greg Park's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/gregoryjpark/simple-blogger) | [View Online](https://whispering-reaches-6831.herokuapp.com)
 * Alice Rhomieux's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/arhx/jumpstart-lab-blogger) | [View Online](https://obscure-lake-7514.herokuapp.com/)
 * Eleanor Weigert's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/mixophrygian/Blogger-App) | [View Online](https://eleanors-blogger.herokuapp.com/)
+* Julian Feliciano's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/JulsFelic/jumpstartlab-blogger-2) | [View Online](https://shielded-coast-6885.herokuapp.com/)
 * *Your solution above here...*
 
 
