@@ -96,6 +96,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Artur Janik's Solution](https://github.com/ArturJanik/basicdatastr2/blob/master/p2-knight.rb)
 * [Jason Matthews' Solution](https://github.com/fo0man/project_data_structures/blob/master/knight_travails.rb)
 * [Dominik Stodolny's Solution](https://github.com/dstodolny/knight_moves/blob/master/knight_moves.rb)
+* [Lara Finnegan's Solution](https://github.com/lcf0285/algorithms/blob/master/knights_travails.rb)
 * *Your Solution Above This Line!*
 
 ## Additional Resources
