@@ -252,6 +252,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * See [Robert Juall's solution here](https://github.com/RJuall/the_odin_project/tree/master/google_site)
 * See [Taylor Buchheit's solution here](https://github.com/7aylor/google-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/7aylor/google-homepage/blob/master/index.html)
 * See [Don Price's solution here](https://github.com/KingHippo/the_odin_project/tree/master/google-homepage) or [view it in the browser here](http://kinghippo.github.io/the_odin_project/google-homepage/)
+* See [Michelle CV's solution here](https://github.com/michellecv/google_homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/michellecv/google_homepage/blob/master/index.html)
 * Put your solution above this line!
 
 
