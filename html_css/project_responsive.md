@@ -25,6 +25,7 @@ The process will be quite similar to what we've done before.  At this point, you
 
 * *Your solution here...* 
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/responsive_design) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/responsive_design/index.html)
+* [Leonard Labita's solution] [View in browser] (http://leonardlabita.com/next.html)
 
 ## Additional Resources
 
