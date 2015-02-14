@@ -71,7 +71,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Jeremy Faith's [Test-First Ruby Solutions] (https://github.com/JeremyFaith/odin-projects/tree/master/learn_ruby)
 * Tommy Rodriguez's [Test-First Ruby Solutions] (https://github.com/trodrigu/odinproject/tree/master/learn_ruby)
 * Tamim Sookoor's [Test-First Ruby Solutions] (https://github.com/sookoor/learn_ruby)
-* *Your solution here...*
+* Matias Pan's [Test-first Ruby Solutions](https://github.com/kriox26/odin_project/tree/master/rubyproject)
+* *Your solution here*
 
 
 ## Additional Resources
