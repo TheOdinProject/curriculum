@@ -72,7 +72,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Tommy Rodriguez's [Test-First Ruby Solutions] (https://github.com/trodrigu/odinproject/tree/master/learn_ruby)
 * Tamim Sookoor's [Test-First Ruby Solutions] (https://github.com/sookoor/learn_ruby)
 * Matias Pan's [Test-first Ruby Solutions](https://github.com/kriox26/odin_project/tree/master/rubyproject)
-* *Your solution here*
+* *Your solution here...*
 
 
 ## Additional Resources
