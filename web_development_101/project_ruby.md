@@ -74,6 +74,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Matias Pan's [Test-first Ruby Solutions](https://github.com/kriox26/odin_project/tree/master/rubyproject)
 * Nick Leoutsakos's [Test-First Ruby Solutions](https://github.com/nleoutsa/Ruby_TDD)
 * NYJY's [Test-First Ruby Solutions](https://github.com/nyjy85/Ruby/tree/master/odin_project/test-first-ruby)
+* Psidium's [Test-First Ruby Solutions](https://github.com/Psidium/ruby-exercises)
 * *Your solution here...* 
 
 
