@@ -30,6 +30,7 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec)
 * [Artur Janik's solution](https://github.com/ArturJanik/testingruby1)
 * Dominik Stodolny's solution ([Caesar Cipher](https://github.com/dstodolny/ruby_building_blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/dstodolny/ruby_building_blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/dstodolny/tictactoe/tree/master/spec))
+* Lara Finnegan's solution ([Caesar Cipher](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/lcf0285/tic_tac_toe/tree/master/spec))
 
 
 ## Project: TDD Connect Four
