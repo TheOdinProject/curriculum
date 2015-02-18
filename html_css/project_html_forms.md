@@ -24,6 +24,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/html_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/html_forms/index.html)
 * [Vincent's solution](https://github.com/wingyu/mint_form_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/mint_form_replica/blob/master/index.html)
 * See [Leonard Labita's solution here] (https://github.com/lendoza/MintForm) or [view it in the browser] (http://leonardlabita.com/mint.html)
+* See [AlvSovereign's solution here](https://github.com/AlvSovereign/My-Web-Projects/tree/master/The%20Odin%20Project/Mint.com%20form) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/AlvSovereign/My-Web-Projects/blob/master/The%20Odin%20Project/Mint.com%20form/index.html)
 * *Your solution here...* 
 
 ## Additional Resources
