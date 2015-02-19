@@ -88,15 +88,14 @@ This project may seem simple, but now you've got a website that is both a normal
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
-* [Project 1: Building a Simple Kittens API i.e. odin-kittens](https://github.com/sirramongabriel/odin-kittens)
-* jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
+* [sirramongabriel's solution](https://github.com/sirramongabriel/odin-kittens)
+* [jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-kittens)
-* Solution by [Adrian Badarau](https://github.com/adrianbadarau/Kittens-API)
-* Solution by [Marina Sergeyeva](https://github.com/imousterian/OdinProject/tree/master/Project3_Kittens/kittens)
-* Solution by [Kate McFaul](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/kittens-api)
-* Solution by [Vidul](https://github.com/viparthasarathy/odin-kittens)
-* *Your solution ABOVE this line*
+* [Adrian Badarau's solution](https://github.com/adrianbadarau/Kittens-API)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Kittens/kittens)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/kittens-api)
+* [Vidul's solution](https://github.com/viparthasarathy/odin-kittens)
+* Add your solution above this line!
 
 
 ## Project 2: Using a Third Party API
@@ -119,10 +118,10 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
-* Solution from [Adrian Badarau](https://github.com/adrianbadarau/rails-flickr-api-test-app)
+* [Adrian Badarau's solution](https://github.com/adrianbadarau/rails-flickr-api-test-app)
 * [Jack's solution](https://github.com/jnguyen85/flickr_search)
+* Add your solution above this line!
 
 
 ## Additional Resources
