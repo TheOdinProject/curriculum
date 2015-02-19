@@ -43,7 +43,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 6. Go into your Rails console and create a sample user to make sure it works properly. It probably looks something like: `User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")`
 7. Test the `#authenticate` command which is now available on your User model (thanks to `#has_secure_password`) on the command line -- does it return the user if you give it the correct password?
     
-    ```language-bash
+    ```bash
         > user = User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")
         > user.authenticate("somethingelse")
         => false
@@ -94,16 +94,17 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
-* Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
-* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/members-only)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/membersOnly/members-only)
 * [Jonathan's solution](https://github.com/faulk49/members-only)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Gossip-Club)
-* [Erithair's solution](https://github.com/N19270/members-only) | [site on heroku](https://members-only.herokuapp.com/)
+* [Erithair's solution](https://github.com/N19270/members-only) | [View in browser](https://members-only.herokuapp.com/)
 * [Vidul's Solution](https://github.com/viparthasarathy/members-only)
-* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) | [site on heroku](https://members-only-sample-blog.herokuapp.com)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) | [View in browser](https://members-only-sample-blog.herokuapp.com)
+* Add your solution above this line!
+
 
 ## Additional Resources
 
