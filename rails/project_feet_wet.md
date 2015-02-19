@@ -36,19 +36,20 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
-* [Solution from mahimahi42](https://github.com/mahimahi42/firstrailsproject)
-* [Solution from Angel Vargas](https://github.com/arioth/demo_app)
-* [Solution from Donald](https://github.com/donaldali/demo_app)
-* [Solution from TomTom](https://github.com/tim5046/projectOdin/tree/master/Rails/IntroductionToRails/demo_app)
-* [Solution from charnushka] (https://bitbucket.org/charleszardo/demo_app)
-* [Solution from Tommy Noe](https://github.com/thomasjnoe/demo_rails_app)
-* [Solution from James MacIvor](https://bitbucket.org/RobotOptimist/toy_app) [Or view it on the web!](http://shielded-river-4128.herokuapp.com/)
-* [Solution from Vidul](https://github.com/viparthasarathy/toy-app)
-* [Solution from Kate McFaul](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/sample_rails_app)
-* [Solution from larrongolden](https://github.com/larrongolden/toy-app)
-* [Solution from chasmani](https://github.com/chasmani/toy_app)
-* [Solution from Cvorak](https://github.com/cvorak/Rails_toy_app)
-* [Solution from Julian](https://github.com/JulsFelic/toy_app)
+* [mahimahi42's solution](https://github.com/mahimahi42/firstrailsproject)
+* [Angel Vargas's solution](https://github.com/arioth/demo_app)
+* [Donald's solution](https://github.com/donaldali/demo_app)
+* [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/IntroductionToRails/demo_app)
+* [charnushka's solution](https://bitbucket.org/charleszardo/demo_app)
+* [Tommy Noe's solution](https://github.com/thomasjnoe/demo_rails_app)
+* [Vidul's solution](https://github.com/viparthasarathy/toy-app)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/sample_rails_app)
+* [larrongolden's solution](https://github.com/larrongolden/toy-app)
+* [chasmani's solution](https://github.com/chasmani/toy_app)
+* [Cvorak's solution](https://github.com/cvorak/Rails_toy_app)
+* [Julian's solution](https://github.com/JulsFelic/toy_app)
+* Add your solution above this line!
+
 
 ## Additional Resources
 
