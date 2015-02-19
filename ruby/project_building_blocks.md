@@ -92,6 +92,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Greg Park's solution](https://github.com/gregoryjpark/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [Emil Johansen's solution](https://github.com/EmilOJ/odin_project/blob/master/Ruby_Building_Blocks/caesar_cipher.rb)
+* [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/caesar_cipher.rb)
 * Add your solution above this line!
 
 
@@ -164,6 +165,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Greg Park's solution](https://github.com/gregoryjpark/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Emil Johansen's solution](https://github.com/EmilOJ/odin_project/blob/master/Ruby_Building_Blocks/stock_picker.rb)
+* [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/stock_price.rb)
 * Add your solution above this line!
 
 
@@ -247,4 +249,5 @@ Next, make sure your method can handle multiple words:
 * [Greg Park's solution](https://github.com/gregoryjpark/ruby_building_blocks/blob/master/substrings.rb)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_building_blocks/blob/master/substrings.rb)
 * [Emil Johansen's solution](https://github.com/EmilOJ/odin_project/blob/master/Ruby_Building_Blocks/substrings.rb)
+* [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/sub_strings.rb)
 * Add your solution above this line!
