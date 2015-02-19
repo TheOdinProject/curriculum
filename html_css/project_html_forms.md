@@ -19,13 +19,13 @@ The page is very straightforward, so you should be able to clone it even if your
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
-* See [Jason Ellis's solution here](https://github.com/jason-ellis/mint-signup) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
-* See [Mram1000's solution here](https://github.com/mram1000/mint-signup) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/mram1000/mint-signup/blob/master/index-mint.html)
+* [Jason Ellis's solution](https://github.com/jason-ellis/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
+* [Mram1000's solution](https://github.com/mram1000/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/mram1000/mint-signup/blob/master/index-mint.html)
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/html_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/html_forms/index.html)
 * [Vincent's solution](https://github.com/wingyu/mint_form_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/mint_form_replica/blob/master/index.html)
-* See [Leonard Labita's solution here] (https://github.com/lendoza/MintForm) or [view it in the browser] (http://leonardlabita.com/mint.html)
-* See [AlvSovereign's solution here](https://github.com/AlvSovereign/My-Web-Projects/tree/master/The%20Odin%20Project/Mint.com%20form) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/AlvSovereign/My-Web-Projects/blob/master/The%20Odin%20Project/Mint.com%20form/index.html)
-* *Your solution here...* 
+* [AlvSovereign's solution](https://github.com/AlvSovereign/My-Web-Projects/tree/master/The%20Odin%20Project/Mint.com%20form) | [View in browser](http://htmlpreview.github.io/?https://github.com/AlvSovereign/My-Web-Projects/blob/master/The%20Odin%20Project/Mint.com%20form/index.html)
+* Add your solution above this line!
+
 
 ## Additional Resources
 
