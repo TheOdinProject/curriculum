@@ -21,10 +21,10 @@ In this project, your assignment is to copy [this article from the New York Time
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples
 
-* See [Shouvik Roy's solution here](https://github.com/royshouvik/newyorktimes) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/royshouvik/newyorktimes/blob/master/index.html)
-* See [Meher Chandan's solution here](https://github.com/meherchandan/NewYorkTimes) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/meherchandan/NewYorkTimes/blob/master/index.html)
-* See [Leonard Labita's solution here] (https://github.com/lendoza/Times) or [view it in the browser here] (http://leonardlabita.com/times.html)
-* *Your solution here...* 
+* [Shouvik Roy's solution](https://github.com/royshouvik/newyorktimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/newyorktimes/blob/master/index.html)
+* [Meher Chandan's solution](https://github.com/meherchandan/NewYorkTimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/NewYorkTimes/blob/master/index.html)
+* Add your solution above this line!
+
 
 ## Additional Resources
 
