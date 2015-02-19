@@ -60,6 +60,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec/connect_four_rspec)
 * [Artur Janik's solution](https://github.com/ArturJanik/testingruby2)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/connect_four)
+* [Dawn Pattison's solution] (https://github.com/pattisdr/theOdinProject/tree/master/connect_four)
 
 
 *How long did these projects take you?  [Let us know!](mailto:curriculum@theodinproject.com)*
