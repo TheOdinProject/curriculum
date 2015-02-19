@@ -18,10 +18,11 @@ In this project you'll clone the website of one of the most design-forward compa
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
-* See [Jason Ellis's solution here](https://github.com/jason-ellis/apple-homepage) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
-* See [Shouvik Roy's solution here](https://github.com/royshouvik/applehome) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
-* See [Meher Chandan's solution here](https://github.com/meherchandan/Apple_Project) or [view it in the browser here](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
-* *Your solution here...* 
+* [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
+* [Shouvik Roy's solution](https://github.com/royshouvik/applehome) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
+* [Meher Chandan's solution](https://github.com/meherchandan/Apple_Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
+* Add your solution above this line!
+
 
 ## Additional Resources
 
