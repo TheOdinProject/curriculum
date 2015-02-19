@@ -103,6 +103,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Zane Bilous's solutions](https://github.com/Zane-/projectEuler)
 * [Thomas Vaeth's solutions](https://github.com/thomasvaeth/the_odin_project/tree/master/project-euler)
 * [Taylor Buchheit's solutions](https://github.com/7aylor/Project-Euler-Javascript)
+* [Robert Juall's solutions](https://github.com/RJuall/the_odin_project/tree/master/Euler)
 * *Put your solution above this line!*
 
 
