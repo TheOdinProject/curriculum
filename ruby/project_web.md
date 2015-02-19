@@ -25,23 +25,22 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [Solution from mahimahi42](https://github.com/mahimahi42/microblogger.git) 
-* [Jamie's solution (Apr-22,2014)](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
-* [Solution from bucifer (5/27/2014)](https://github.com/bucifer/MicroBlogger)
-* [Solution from Mazin Power (06/23/2014)](https://github.com/muzfuz/CodeLessons/tree/master/spambot)
-* [Solution from Marina Sergeyeva](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
-* [Solution from Tommy Noe](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
-* [Solution from Michael Alexander](https://github.com/betweenparentheses/jumpstart_labs_twitterbot/blob/master/micro_blogger.rb)
-* [Solution from Sahil Agarwal](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web/twitter_spam_bot)
-* [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%201:%20Twitter%20Spambot)
-* [Solution from Vidul](https://github.com/viparthasarathy/twitter_spambot)
-* [Solution from John Quarles](https://github.com/johnwquarles/Mini-Twitter-Client)
-* [Solution from Artur Janik](https://github.com/ArturJanik/rotwproject1)
-* [Solution from Kate McFaul](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/ruby_on_the_web/twitter_spambot)
-* [Solution from Dominik Stodolny](https://github.com/dstodolny/microblogger)
-* [Solution from Lara Finnegan](https://github.com/lcf0285/microblogger)
-* [Solution from Nikola Čvorović](https://github.com/cvorak/Twiteer_Spambot)
-* *...put your solution above this line!*
+* [mahimahi42's solution](https://github.com/mahimahi42/microblogger.git) 
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
+* [Tommy Noe's solution](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
+* [Michael Alexander's solution](https://github.com/betweenparentheses/jumpstart_labs_twitterbot/blob/master/micro_blogger.rb)
+* [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web/twitter_spam_bot)
+* [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%201:%20Twitter%20Spambot)
+* [Vidul's solution](https://github.com/viparthasarathy/twitter_spambot)
+* [John Quarles's solution](https://github.com/johnwquarles/Mini-Twitter-Client)
+* [Artur Janik's solution](https://github.com/ArturJanik/rotwproject1)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/ruby_on_the_web/twitter_spambot)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/microblogger)
+* [Lara Finnegan's solution](https://github.com/lcf0285/microblogger)
+* [Nikola Čvorović's solution](https://github.com/cvorak/Twiteer_Spambot)
+* Add your solution above this line!
+
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
@@ -175,22 +174,22 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
-* [Jamie's solution (Apr-26,2014)](https://github.com/Jberczel/odin-projects/tree/master/sockets)
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/sockets)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_ruby_web)
-* [Mazin Power's](https://github.com/muzfuz/CodeLessons/tree/master/web_server)
+* [Mazin Power's solution](https://github.com/muzfuz/CodeLessons/tree/master/web_server)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/webserver) 
 * [Tommy Noe's solution](https://github.com/thomasjnoe/simple-ruby-http)
-* [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server)(using while loops and gets instead of read_nonblock)
+* [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server) (using while loops and gets instead of read_nonblock)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web)
 * [James MacIvor's solution](https://github.com/RobotOptimist/simple_server) with thanks to @Jberczel because I shamelessly stole syntax.
-* [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
-* [Solution from Vidul Parthasarathy](https://github.com/viparthasarathy/web_server)
-* [Solution from John Quarles](https://github.com/johnwquarles/simple-server-and-client)(using while loops, #gets and #read)
-* [Solution from Artur Janik](https://github.com/ArturJanik/rotwproject2)
-* [Solution from Dominik Stodolny](https://github.com/dstodolny/web_server)
-* [Solution from Jason Matthews](https://github.com/fo0man/tiny_web_server)
-* *...put your solution above this line!*
+* [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
+* [Vidul Parthasarathy's solution](https://github.com/viparthasarathy/web_server)
+* [John Quarles's solution](https://github.com/johnwquarles/simple-server-and-client) (using while loops, #gets and #read)
+* [Artur Janik's solution](https://github.com/ArturJanik/rotwproject2)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/web_server)
+* [Jason Matthews's solution](https://github.com/fo0man/tiny_web_server)
+* Add your solution above this line!
 
 
 ## Additional Resources
