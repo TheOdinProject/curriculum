@@ -35,6 +35,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Sergio Ribeiro's solution](https://github.com/serg1o/Chess)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_9_Final_Ruby_Chess)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/chess)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/chess)
 * Add your solution above this line!
 
 
