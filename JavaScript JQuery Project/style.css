@@ -1,0 +1,23 @@
+#container{
+	height: 600px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+div div{
+	width: 37.5px;
+	height: 37.5px;
+	outline: 1px solid black;
+	float: left;
+}
+
+.colorChange{
+	background-color: red;
+}
+
+button{
+	margin-top: 10px;
+	margin-left: 47%;
+}
