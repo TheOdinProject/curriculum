@@ -62,6 +62,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/RailsBoock-Facebook-Clone-App) | [View in browser](http://railsbook-facebook-clone-app.herokuapp.com/)
 * [Yuri Buerov's solution](https://github.com/YuriBuerov/social-network)
 * [David Janczyn's solution](https://github.com/sandiegodj/social-network) | [View in browser](https://warm-spire-7655.herokuapp.com/)
+* [Aleksandar Rodić's solution](https://github.com/Rodic/odin-facebook-clone) | [View in browser](https://odin-facebook.herokuapp.com/)
 * Add your solution above this line!
 
 
