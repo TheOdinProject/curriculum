@@ -72,6 +72,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Nick Leoutsakos's solution](https://github.com/nleoutsa/Ruby_TDD)
 * [NYJY's solution](https://github.com/nyjy85/Ruby/tree/master/odin_project/test-first-ruby)
 * [Psidium's solution](https://github.com/Psidium/ruby-exercises)
+* [Andrej Dragojevic's solution] (https://github.com/antrix1/Ruby_Testing)
 * Add your solution above this line!
 
 
