@@ -1,5 +1,5 @@
 # Databases
-*Estimated Time: 4-6 hrs*
+<!-- *Estimated Time: 4-6 hrs* -->
 
 
 We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.
@@ -40,6 +40,7 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-* If the Stanford databases course above isn't working, check out their [playlist on YouTube](https://www.youtube.com/playlist?list=PLmQpd4sO8qHujNXJHC0Pn9Nk-WVujTU2o).  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).  
+* If the Stanford databases course above isn't working, check out their [playlist on YouTube](https://www.youtube.com/playlist?list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3).  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).  
+* Hunter Ducharme created [an e-book](http://hgducharme.gitbooks.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
 
     Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).

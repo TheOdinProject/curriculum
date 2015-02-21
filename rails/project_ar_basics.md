@@ -1,5 +1,5 @@
 # Projects: Active Record Basics
-*Estimated Time: 6-10 hrs*
+<!-- *Estimated Time: 6-10 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 
@@ -117,15 +117,19 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-*Julian Feliciano's [solution](https://github.com/JulsFelic/micro_reddit)
-* *[Microreddit Project](https://github.com/voizzzz/microreddit) by voizzzz*
-* Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
-* Afshin's [solution](https://github.com/afshinator/micro-reddit)
-* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project3_ActiveRecordBasics/micro-reddit)
-* Anh Le's [solution](https://github.com/LaDilettante/micro_reddit.git)
+* [Voizzzz' solution](https://github.com/voizzzz/microreddit)
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
+* [Afshin's solution](https://github.com/afshinator/micro-reddit)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_ActiveRecordBasics/micro-reddit)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/micro-reddit)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/microReddit/micro-reddit)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/project-micro-redit)
+* [Tommy Noe's solution](https://github.com/thomasjnoe/micro-reddit)
+* [Vincent's solution](https://github.com/wingyu/micro_reddit)
+* [Vidul's solution](https://github.com/viparthasarathy/micro-reddit)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/micro-reddit)
+* [Nikola Čvorović's solution](https://github.com/cvorak/micro-reddit)
+* Add your solution above this line!
 
 ## Additional Resources
 

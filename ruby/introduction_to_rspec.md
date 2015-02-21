@@ -1,5 +1,5 @@
 # A Taste of Testing Ruby with RSpec
-*Estimated Time: 1 hr*
+<!-- *Estimated Time: 1 hr* -->
 
 By now you've had some experience writing actual programs using Ruby.  Presumably, you've been making sure they work by manually entering certain things in the command line over and over again.  This was probably especially frustrating with some of the more complex projects you just did during the Algorithms and Data Structures lesson.  
 

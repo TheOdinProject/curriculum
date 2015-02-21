@@ -1,5 +1,5 @@
 # Final Project: Chess
-*Estimated Time: 12-18 hours*
+<!-- *Estimated Time: 12-18 hours* -->
 
 *Don't forget to use Git to save your projects!*
 
@@ -28,9 +28,15 @@ This is a great project to have as a part of your portfolio going forward becaus
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
-* [Donald's Solution](https://github.com/donaldali/Chess)
-* [TomTom's Solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
+* [Aleksandar's solution](https://github.com/Rodic/RubyChess)
+* [Donald's solution](https://github.com/donaldali/Chess)
+* [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
+* [Hawkeye's solution](https://github.com/Hawkeye000/command-line-chess)
+* [Sergio Ribeiro's solution](https://github.com/serg1o/Chess)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_9_Final_Ruby_Chess)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/chess)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/chess)
+* Add your solution above this line!
 
 
 ## Additional Resources

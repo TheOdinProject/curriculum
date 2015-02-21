@@ -10,7 +10,7 @@ The goal here isn't to produce an exact replica of the YouTube video page, but t
 
 How far you go from there in terms of styling is up to you -- some of you will already be more comfortable with CSS than others, so knock yourself out.
 
-There are other elements on the YouTube page which are produced with Javascript and you don't need to worry about them -- basically, anything that changes the page by clicking on it is wired up using Javascript.  An example is the "Show more" link below the description, which dynamically expnds to show more.  Again, *don't worry about these dynamic elements!*.  
+There are other elements on the YouTube page which are produced with Javascript and you don't need to worry about them -- basically, anything that changes the page by clicking on it is wired up using Javascript.  An example is the "Show more" link below the description, which dynamically expands to show more.  Again, *don't worry about these dynamic elements!*.  
 
 Also, don't worry about making the comment form work properly... your goal is to make the page look similar and display video.
 
@@ -32,8 +32,12 @@ Also, don't worry about making the comment form work properly... your goal is to
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
-* *Your solution here...* 
-* [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/embedding_media) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/embedding_media/index.html)
+* [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/embedding_media)
+* [Vincent's solution](https://github.com/wingyu/youtube_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/youtube_replica/blob/master/index.html)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_05-Advanced_HTML_and_CSS/youtube) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_05-Advanced_HTML_and_CSS/youtube/index.html)
+* [chasmani's solution](https://github.com/chasmani/YoutubeHome) | [View in browser](http://htmlpreview.github.io/?https://github.com/chasmani/YoutubeHome/blob/master/index.html)
+* Add your solution above this line!
+
 
 ## Additional Resources
 

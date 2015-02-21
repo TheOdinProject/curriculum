@@ -1,5 +1,5 @@
-# Backbone.js 001
-*Estimated Time: 1 hr*
+# Backbone.js 101
+<!-- *Estimated Time: 1 hr* -->
 
 You thought only server-side languages could utilize frameworks?  Think again.  More and more heavy lifting is being done in the browser these days and that means lots of repetitive and disorganized code to tidy up (and Javascript can get awfully disorganized).  
 

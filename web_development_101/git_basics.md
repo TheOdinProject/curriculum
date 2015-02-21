@@ -1,5 +1,5 @@
 # Git 101
-*Estimated Time: 2 hrs*
+<!-- *Estimated Time: 2 hrs* -->
 
 We mentioned Git briefly in the previous course [Introduction to Web Development](/introduction-to-web-development/tools-of-the-trade) and you've had a chance to use it during the [Rails project](/web-development-101/ruby-on-rails) but now it's time to actually dig in a bit more and understand what Git really is.
 

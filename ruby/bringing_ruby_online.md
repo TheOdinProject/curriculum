@@ -1,5 +1,5 @@
 # Ruby on the Web
-*Estimated Time: 2 hrs*
+<!-- *Estimated Time: 2 hrs* -->
 
 You know how to write scripts and games using Ruby but so far that's all confined within the boundaries of your local system.  In this section, you'll learn how to break free and start mucking around on the Internet.
 

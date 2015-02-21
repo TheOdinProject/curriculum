@@ -65,3 +65,5 @@ This is a fairly long list of things to pay attention to but it should be mostly
 * [SuperheroJS, A great collection of advanced links](http://superherojs.com/)
 * [Javascript-to-Ruby Syntax Comparison Cheat Sheet from AgentCooper](http://agentcooper.github.io/js-ruby-comparison/)
 * ["How I Work: Yahoo!'s Doug Crockford On Javascript" by Jacob Cook via Smashing Magazine](http://coding.smashingmagazine.com/2012/04/27/yahoos-doug-crockford-on-javascript/) provides a soft high level look at some industry questions.
+* [CodeAvengers.com, interactive HTML, CSS, JS course similar to codecademy](http://codeavengers.com/)
+

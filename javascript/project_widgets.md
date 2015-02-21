@@ -34,11 +34,12 @@ Don't spend too much time worrying about getting your images to display at the c
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* *Your solution here!*
-* jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [demo](http://jsfiddle.net/Jberczel/6kS3t/)
-* [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Slider) | [demo](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Slider/index.html)
-* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_4_Carousel) | [demo](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_4_Carousel/index.html)
+* [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [View in browser](http://jsfiddle.net/Jberczel/6kS3t/)
+* [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Slider/index.html)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_4_Carousel) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_4_Carousel/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/image_carousel) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/image_carousel/index.html "Image Carousel/Slider")
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/slider) | [View in browser](https://rawgit.com/craftykate/odin-project/master/Chapter_06-JavaScript_and_jQuery/slider/index.html)
+* Add your solution above this line!
 
 
 ## Additional Resources

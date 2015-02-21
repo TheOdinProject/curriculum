@@ -1,5 +1,5 @@
 # HTML and CSS 101
-*Estimated Time: 6-10 hrs*
+<!-- *Estimated Time: 6-10 hrs* -->
 
 As you've hopefully [learned before](http://skillcrush.com/2012/06/24/html-2/), HTML is the markup that contains all the actual stuff that a web page has.  All the text on this page you're reading right now lives inside HTML tags that tell your browser how to order the content on the page.  Go on, right click any element on the page and choose "Inspect Element" to open up your browser's Developer Tools and it will show you the structure of the page.
 

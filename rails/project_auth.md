@@ -1,5 +1,5 @@
 # Projects: Authentication
-*Estimated Time: 8-12 hrs*
+
 
 *Don't forget to use Git to save your projects!*
 
@@ -13,7 +13,7 @@ You'll implement signin and signout functionality for the user, which opens the 
 
 ### Your Task
 
-1. Do the [Ruby on Rails Tutorial Chapter 8](http://www.railstutorial.org/book/sign_in_out#cha-sign_in_sign_out), "Sign in, sign out"
+1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.railstutorial.org/book/log_in_log_out), "Log in, log out"
 2. Do the [Ruby on Rails Tutorial Chapter 9](http://www.railstutorial.org/book/updating_and_deleting_users), "Updating, showing and deleting users"
 
 
@@ -39,12 +39,11 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 2. Create your new `members-only` Rails app and Github repo.  Update your README.
 3. Start by migrating and setting up your basic User model (no membership attributes yet).
 4. Include the `bcrypt-ruby` gem in your Gemfile.  `$ bundle install` it.  (note: This might just be `bcrypt`)
-4. Add the `#has_secure_password` method to your User file.
-5. Add validation to make sure we've got a `password_confirmation` field that matches our `password` field (see [Chapter 6](http://ruby.railstutorial.org/chapters/modeling-users#sec-adding_a_secure_password) again for a refresher).
+5. Add the `#has_secure_password` method to your User file.
 6. Go into your Rails console and create a sample user to make sure it works properly. It probably looks something like: `User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")`
 7. Test the `#authenticate` command which is now available on your User model (thanks to `#has_secure_password`) on the command line -- does it return the user if you give it the correct password?
     
-    ```language-bash
+    ```bash
         > user = User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")
         > user.authenticate("somethingelse")
         => false
@@ -95,14 +94,17 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
-* Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
-* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/members-only)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/membersOnly/members-only)
 * [Jonathan's solution](https://github.com/faulk49/members-only)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Gossip-Club)
-* [Erithair's solution](https://github.com/N19270/members-only) | [site on heroku](https://members-only.herokuapp.com/)
+* [Erithair's solution](https://github.com/N19270/members-only) | [View in browser](https://members-only.herokuapp.com/)
+* [Vidul's Solution](https://github.com/viparthasarathy/members-only)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) | [View in browser](https://members-only-sample-blog.herokuapp.com)
+* Add your solution above this line!
+
 
 ## Additional Resources
 

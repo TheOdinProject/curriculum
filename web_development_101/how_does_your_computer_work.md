@@ -1,5 +1,5 @@
 # Step Back... How Does Your Computer Work?
-*Estimated Time: 3-6 hrs*
+<!-- *Estimated Time: 3-6 hrs* -->
 
 This isn't a course about rebuilding your hard drive but it is useful for you to understand the high level overview of what's going on to make your computer function.  That's partly because you'll see the same patterns showing up when you're telling servers what to do and partly because you're going to have to talk to your computer in a way that it understands anyway so you'd better speak a little of its language.
 

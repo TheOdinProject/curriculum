@@ -1,5 +1,5 @@
 # Projects: Active Record Associations
-*Estimated Time: 6-10 hrs*
+<!-- *Estimated Time: 6-10 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 
@@ -23,7 +23,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 
 ### Your Task
 
-* Do the [Ruby on Rails Tutorial Chapter 10](http://ruby.railstutorial.org/chapters/user-microposts#top), "User microposts".
+* Do the [Ruby on Rails Tutorial Chapter 11](http://ruby.railstutorial.org/chapters/user-microposts#top), "User microposts".
 
 ## Project 2: Private Events
 
@@ -72,12 +72,18 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* *Your Solution Here!*
-* Jamie's [solution](https://github.com/Jberczel/private_events) | [demo](http://privent.herokuapp.com/)
+* [Jamie's solution](https://github.com/Jberczel/private_events) | [View in browser](http://privent.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/private-events)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/private-events/private-events)
-* [Jonathan's solution](https://github.com/faulk49/private-events)
-* [Erithair's solution](https://github.com/N19270/private-events) | [demo](http://private-events.herokuapp.com/)
+* [Erithair's solution](https://github.com/N19270/private-events) | [View in browser](http://private-events.herokuapp.com/)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_EventBrite/private-events)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/private_events)
+* [Tommy Noe's solution](https://github.com/thomasjnoe/private-events)
+* [Vidul's solution](https://github.com/viparthasarathy/private-events)
+* [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Vidul's solution](https://github.com/viparthasarathy/private-events) | [View in browser](https://fierce-headland-7201.herokuapp.com/)
+* Add your solution above this line!
+
 
 ## Additional Resources
 

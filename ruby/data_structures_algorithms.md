@@ -1,5 +1,5 @@
 # Basic Data Structures and Algorithms
-*Estimated Time: 1-2 hrs*
+<!-- *Estimated Time: 1-2 hrs* -->
 
 The basic idea of a **data structure** is to store data in a way that meets the needs of your particular application.  You might be inclined to store a particular kind data in one giant array, but it would be rather time consuming to locate a specific value if you had a significant number and depth of items.  So you need to look to other options.
 

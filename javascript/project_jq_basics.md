@@ -17,17 +17,14 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 ## Student Solutions
-* jamie's [solution](https://github.com/Jberczel/odin-javascript/tree/master/restaurant) | [demo](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-javascript/blob/master/restaurant/index.html)
-
-* Afshin M's June '14 [solution](https://github.com/afshinator/js-tabbedPane) | [demo](http://htmlpreview.github.io/?https://github.com/afshinator/js-tabbedPane/blob/master/index.html)
-
-* [Tom M's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project2) | [demo] (http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Project2/index.html) 
-
-* [raystation's solution](http://raystation.github.io/odin-restaurant/)
-
-* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project5_2_DOM_jQuery) | [demo](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_2_DOM_jQuery/index.html)
+* [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-javascript/blob/master/restaurant/index.html)
+* [Afshin M's solution](https://github.com/afshinator/js-tabbedPane) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/js-tabbedPane/blob/master/index.html)
+* [Tom M's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project2) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Project2/index.html)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_2_DOM_jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_2_DOM_jQuery/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/dom_manipulation) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/dom_manipulation/index.html)
-* *Your solution here!*
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/restaurant) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_06-JavaScript_and_jQuery/restaurant/index.html)
+* [Meher Chandan's solution](https://github.com/meherchandan/Restaurant) | [View in browser](https://myrestaurantwebsite.herokuapp.com/)
+* Add your solution above this line!
 
 
 ## Additional Resources

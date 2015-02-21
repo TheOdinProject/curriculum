@@ -21,7 +21,7 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
-* *Your solution here...* 
+* Add your solution above this line!
 
 ## Additional Resources
 

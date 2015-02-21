@@ -1,5 +1,5 @@
 # Projects: Forms
-*Estimated Time: 4-6 hrs*
+<!-- *Estimated Time: 4-6 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 
@@ -68,7 +68,7 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
     ```
 
 7. Test this out -- can you now create users with your form?
-6. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls.  It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`.  Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_for` method.  Remember, that method submits a top level `user` field which actually points to a hash of values.  This is simple to achieve, though -- just change the `name` attribute slightly.  Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="[user][email]"`.
+6. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls.  It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`.  Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_for` method.  Remember, that method submits a top level `user` field which actually points to a hash of values.  This is simple to achieve, though -- just change the `name` attribute slightly.  Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="user[email]"`.
 7. Resubmit.  Now your user parameters should be nested under the `"user"` key like:
 
     ```language-bash
@@ -117,12 +117,16 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* spierer's solution - [Github](https://github.com/spierer/odin-forms).
-* Jamie's [solution](https://github.com/Jberczel/odin-projects/tree/master/re-former) | [walkthrough](http://jberczel.github.io/forms-walkthrough/)
-* Afshin M's [solution](https://github.com/afshinator/re-former) (May 2014)
-* Marina Sergeyeva's [solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Forms/re-former)
+* [spierer's solution](https://github.com/spierer/odin-forms)
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/re-former) | [walkthrough](http://jberczel.github.io/forms-walkthrough/)
+* [Afshin M's solution](https://github.com/afshinator/re-former)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Forms/re-former)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/re-former)
-* *Your Solution Here!*
+* [Vincent's solution](https://github.com/wingyu/Practice_forms)
+* [Tommy Noe's solution](https://github.com/thomasjnoe/re-former)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/forms)
+* [Nikola Čvorović's solution](https://github.com/cvorak/re-former)
+* Add your solution above this line!
 
 
 ## Project 2: Ruby on Rails Tutorial

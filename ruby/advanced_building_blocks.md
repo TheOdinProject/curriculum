@@ -1,6 +1,6 @@
 # Advanced Building Blocks
 
-*Estimated Time: 10-15 hrs*
+<!-- *Estimated Time: 10-15 hrs* -->
 
 This lesson gets more into the topics you may have been shaky on before like *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*.  It's definitely got some more meat to it than the previous one.  The projects in the Assignment section are good for doing on your own because Codecademy gives you all kinds of help with them.  
 
@@ -143,7 +143,7 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 * Read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/) for more depth on flow control.
 * If you want a bit more, check out [Skork's entry on Ruby looping and iterators](http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/)
-* [Understanding Blocks Procs and Lambdas](http://www.robertsosinski.com/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
+* [Understanding Blocks Procs and Lambdas](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 * [Why can you either `yield` to blocks or make them explicit?  Who cares? (from SO)](http://stackoverflow.com/questions/1410160/ruby-proccall-vs-yield)
 * [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
 * A quick guide on writing methods from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)

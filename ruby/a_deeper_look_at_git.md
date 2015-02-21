@@ -1,5 +1,5 @@
 # A Deeper Look At Git
-*Estimated Time: 3-4 hours*
+<!-- *Estimated Time: 3-4 hours*-->
 
 Hopefully you've been using the basic Git commands to create repositories and push your code up to Github.  If not, you've got a bit of catching up to do but don't worry.
  

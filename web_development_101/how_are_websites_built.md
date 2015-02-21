@@ -1,5 +1,5 @@
 # How Are Websites Actually Built in the Real World?
-*Estimated Time: 2-4 hrs*
+<!-- *Estimated Time: 2-4 hrs* -->
 
 You've spent a lot of time learning all the component pieces of a web application.  In the Rails project, you were (hopefully) able to actually build one.  This lesson is a step back so you can get a chance to breathe and see the forest instead of being lost in the trees.  
 

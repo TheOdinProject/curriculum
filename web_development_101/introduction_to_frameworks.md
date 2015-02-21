@@ -1,5 +1,5 @@
 # Frameworks
-*Estimated Time: .5 hrs*
+<!-- *Estimated Time: .5 hrs* -->
 
 If you're programming with Ruby or any other language, you pretty much start with a blank text file and go from there.  Programmers, the best of whom are pretty lazy folk (in a good way), got tired of having to write the same code over and over and over again just to cover the basic tasks that they wanted their applications to perform.  So they batched that recycled code together and called it a framework.
 

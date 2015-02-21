@@ -1,9 +1,9 @@
 # Project: Rails
-*Estimated Time: 6-8 hrs*
+<!-- *Estimated Time: 6-8 hrs* -->
 
 In this project, you'll get the opportunity to actually build a real rails application.  It's not a trivially simple one either -- it's got a lot of wrinkles and things that you're not going to understand.
 
-To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient. 
+To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient.
 
 Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.  
 
@@ -23,28 +23,43 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* Paul Dariye's Solution [Jumpstart Labs Blogger App](https://github.com/pauldd91/theodinproject/tree/master/blogger)
-* Allen's Solution [Jumpstart Labs Blogger App](https://github.com/NoRest4AWhearry/blogger) | [View online](http://jsblogger2.herokuapp.com/)
-* Sergey Prihodko's Solution [Jumpstart Labs Blogger App](https://github.com/sprihodko/blog) | [View online](https://stormy-coast-9842.herokuapp.com/)
-* Angel Vargas' Solution [Jumpstart Labs Blogger App](https://github.com/arioth/the-odin-project/tree/master/blogger)
-* Anh Le's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/LaDilettante/studying-odin-project/tree/master/web_dev_101/project_rails/blogger)
-* Jamie's Solution [Jumpstart Labs Blogger App](https://github.com/Jberczel/blogger) | [View online](http://pure-meadow-9674.herokuapp.com/)
-* Arman Ghassemi's Solution [Jumpstart Labs Blogger App](https://github.com/ArmanG/First-Ruby-App) | [View online](http://stormy-cliffs-5263.herokuapp.com/)
-* Alan Russell's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/ajrussellaudio/blogger)
-* d2bit's Solution [Jumpstart Labs Blogger App](https://github.com/d2bit/odin-project/tree/master/blogger)
-* Donald's Solution [Jumpstart Labs Blogger App](https://github.com/donaldali/blogger)
-* Mark Westfall's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/mwestfall88/J-labs-blogger-app) | [View online](http://vast-gorge-8047.herokuapp.com/)
-* Tommy Noe's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/thomasjnoe/blogger-2) | [View online](http://arcane-brushlands-3721.herokuapp.com)
-* Juan Vazquez's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/juanvme/blogger) | [View online](http://secure-lowlands-4285.herokuapp.com/)
-* Ruben Mendez's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/ruben-socal/blogger)
-* Michael Alexander's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/betweenparentheses/jumpstart_labs_blogger) | [View online](http://quiet-dawn-1285.herokuapp.com/)
-* Marina Sergeyeva's Solution [Jumpstart Labs Blogger App I0-I5](https://github.com/imousterian/OdinProject/tree/master/Project1_4_RubyOnRails)
-* * Jonathan Faulk's Solution [Jumpstart Labs Blogger App I0 -I4](https://github.com/faulk49/jumpstart) | [View online](http://morning-gorge-3013.herokuapp.com/)
-* Erithair's Solution [Jumpstart Labs Blogger App I0 -I5](https://github.com/N19270/blogger) | [View online](http://erithair-blog.herokuapp.com/)
-* James MacIvor's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/RobotOptimist/blogger) | [View online] (http://warm-scrubland-4226.herokuapp.com/articles)
-* Vincent's Solution [Jumpstart Labs Blogger App I0 - I5](https://github.com/wingyu/blogger) | [View online] (http://ancient-plains-8753.herokuapp.com/)
-
-* *Your solution above here...*
+* [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/blogger)
+* [Allen's solution](https://github.com/NoRest4AWhearry/blogger) | [View in browser](http://jsblogger2.herokuapp.com/)
+* [Angel Vargas' solution](https://github.com/arioth/the-odin-project/tree/master/blogger)
+* [Jamie's solution](https://github.com/Jberczel/blogger) | [View in browser](http://pure-meadow-9674.herokuapp.com/)
+* [Arman Ghassemi's solution](https://github.com/ArmanG/First-Ruby-App) | [View in browser](http://stormy-cliffs-5263.herokuapp.com/)
+* [Alan Russell's solution](https://github.com/ajrussellaudio/blogger)
+* [d2bit's solution](https://github.com/d2bit/odin-project/tree/master/blogger)
+* [Donald's solution](https://github.com/donaldali/blogger)
+* [Mark Westfall's solution](https://github.com/mwestfall88/J-labs-blogger-app) | [View in browser](http://vast-gorge-8047.herokuapp.com/)
+* [Tommy Noe's solution](https://github.com/thomasjnoe/blogger-2) | [View in browser](http://arcane-brushlands-3721.herokuapp.com)
+* [Juan Vazquez's solution](https://github.com/juanvme/blogger) | [View in browser](http://secure-lowlands-4285.herokuapp.com/)
+* [Ruben Mendez's solution](https://github.com/ruben-socal/blogger)
+* [Michael Alexander's solution](https://github.com/betweenparentheses/jumpstart_labs_blogger) | [View in browser](http://quiet-dawn-1285.herokuapp.com/)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project1_4_RubyOnRails)
+* [Jonathan Faulk's solution](https://github.com/faulk49/jumpstart) | [View in browser](http://morning-gorge-3013.herokuapp.com/)
+* [Erithair's solution](https://github.com/N19270/blogger) | [View in browser](http://erithair-blog.herokuapp.com/)
+* [James MacIvor's solution](https://github.com/RobotOptimist/blogger) | [View in browser](http://warm-scrubland-4226.herokuapp.com/articles)
+* [Antonio Augusto's solution](https://github.com/antoniosb/blogger) | [View in browser](https://heroblogger.herokuapp.com/)
+* [insomniacode's solution](https://github.com/insomniacode/blogger-app) | [View in browser](https://ancient-depths-2915.herokuapp.com)
+* [John Quarles' solution](https://github.com/johnwquarles/Odin-rails-project) | [View in browser](https://aqueous-retreat-3890.herokuapp.com/)
+* [Vidul's solution](https://github.com/viparthasarathy/rails-project) | [View in browser](https://protected-depths-2514.herokuapp.com/)
+* [Dorian Iacobescu's solution](https://github.com/iacobson/Odin5-Rails-Blogger) | [View in browser](http://odin-blog.herokuapp.com/)
+* [Tyler Travers' solution](https://github.com/ttravers17/the_odin_project/tree/master/blogger) | [View in browser](https://agile-woodland-3720.herokuapp.com/)
+* [Chris Dziewa's solution](https://github.com/chrisdziewa/blogger)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/jumpstart_rails_blog) | [View in browser](https://sample-rails-blog.herokuapp.com)
+* [Andy Linteau's solution](https://github.com/linteau/blogger) | [View in browser](https://bloggertut.herokuapp.com/)
+* [Sami Bashraheel's solution](https://github.com/sami/blogger)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/blogger) | [View in browser](https://calm-coast-8819.herokuapp.com/)
+* [Kevin Weir's solution](https://github.com/IDCrisis2/the_odin_project/tree/master/Rails/blogger)
+* [Jason Matthews' solution](https://github.com/fo0man/blogger)
+* [chasmani's solution](https://github.com/chasmani/Rails-Project-1-Odin) | [View in browser](https://mighty-brook-8861.herokuapp.com/)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/blogger) | [View in browser](https://pacific-atoll-8854.herokuapp.com)
+* [Greg Park's solution](https://github.com/gregoryjpark/simple-blogger) | [View in browser](https://whispering-reaches-6831.herokuapp.com)
+* [Alice Rhomieux's solution](https://github.com/arhx/jumpstart-lab-blogger) | [View in browser](https://obscure-lake-7514.herokuapp.com/)
+* [Eleanor Weigert's solution](https://github.com/mixophrygian/Blogger-App) | [View in browser](https://eleanors-blogger.herokuapp.com/)
+* [Julian Feliciano's solution](https://github.com/JulsFelic/jumpstartlab-blogger-2) | [View in browser](https://shielded-coast-6885.herokuapp.com/)
+* Add your solution above this line!
 
 
 ## Additional Resources

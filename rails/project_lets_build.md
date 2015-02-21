@@ -1,5 +1,5 @@
 # Project: Web Refresher
-*Estimated Time: 5-8 hrs*
+<!-- *Estimated Time: 5-8 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 
@@ -23,10 +23,12 @@ You may find yourself using Rest Client down the road if you need to communicate
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [zkay](https://github.com/zkay/PersonalProjects/tree/master/Rest)
-* [afshinator](https://github.com/afshinator/playground/tree/master/RestPinger)
-* [Jamie](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
-* [Arman Ghassemi](https://github.com/ArmanG/Rest-Client)
+* [zkay's solution](https://github.com/zkay/PersonalProjects/tree/master/Rest)
+* [afshinator's solution](https://github.com/afshinator/playground/tree/master/RestPinger)
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
+* [Arman Ghassemi's solution](https://github.com/ArmanG/Rest-Client)
+* Add your solution above this line!
+
 
 ## Project: Ruby on Rails Tutorial
 

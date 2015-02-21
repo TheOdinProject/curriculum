@@ -1,5 +1,5 @@
 # Project: Advanced Forms
-*Estimated Time: 6-12 hrs*
+<!-- *Estimated Time: 6-12 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 
@@ -70,11 +70,14 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* spierer's solution - [Github](https://github.com/spierer/odin-advanced-forms).
-* jamie's [solution](https://github.com/Jberczel/Flight_Booker) | [demo](http://flight-booker.herokuapp.com)
-* [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View on Heroku](http://dna-flight-booker.herokuapp.com/)
-* Solution by [Adrian Badarau](https://github.com/adrianbadarau/flight-booking-app) | [demo](http://flight-booking-app.herokuapp.com/)
-* *Your Solution Here!*
+* [spierer's solution](https://github.com/spierer/odin-advanced-forms)
+* [jamie's solution](https://github.com/Jberczel/Flight_Booker) | [View in browser](http://flight-booker.herokuapp.com)
+* [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View in browser](http://dna-flight-booker.herokuapp.com/)
+* [Adrian Badarau's solution](https://github.com/adrianbadarau/flight-booking-app) | [View in browser](http://flight-booking-app.herokuapp.com/)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/FlightBooker) | [View in browser](https://one-way-ticket.herokuapp.com/)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/flight-booker)
+* [Vidul's solution](https://github.com/viparthasarathy/odin-flight-booker) | [View in browser](https://intense-retreat-7685.herokuapp.com/)
+* Add your solution above this line!
 
 
 ## Additional Resources

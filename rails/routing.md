@@ -41,10 +41,10 @@ If you recall our earlier discussion about REST, there are basically seven main 
 1. GET all the posts (aka **"index"** the posts)
 2. GET just one specific post (aka **"show"** that post)
 3. GET the page that lets you create a new post (aka view the **"new"** post page)
-5. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
-4. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
-5. PUT the data you just filled out to edit the post back to the server so it can actually perform the update (aka **"update"** the post)
-6. DELETE one specific post by sending a delete request to the server (aka **"delete"** the post)
+4. POST the data you just filled out for a new post back to the server so it can create that post (aka **"create"** the post)
+5. GET the page that lets you edit an existing post (aka view the **"edit"** post page)
+6. PUT the data you just filled out to edit the post back to the server so it can actually perform the update (aka **"update"** the post)
+7. DELETE one specific post by sending a delete request to the server (aka **"destroy"** the post)
 
 *The highlighted words correspond to standard Rails controller actions!*
 
@@ -54,7 +54,7 @@ Each of these represents a "RESTful" route, and so it makes sense that you'll ne
 get "/posts" => "posts#index"
 get "/posts/:id" => "posts#show"
 get "/posts/new" => "posts#new"
-post "/posts/:id => "posts#create"  # usually a submitted form
+post "/posts" => "posts#create"  # usually a submitted form
 get "/posts/:id/edit" => "posts#edit"
 put "/posts/:id" => "posts#update" # usually a submitted form
 delete "/posts/:id" => "posts#destroy"
@@ -90,7 +90,7 @@ That's it.  That is a Ruby method which basically just outputs those seven route
 With that above line in my routes file, what do my routes look like?  If you type `$ rake routes` on the command line, it'll output all the routes your application knows, which look like:
 
 ```language-ruby
-    edit_post  GET  /posts/:id(.:format)  posts#edit
+    edit_post  GET  /posts/:id/edit(.:format)  posts#edit
 ```
 
 You can see the incoming HTTP verb and URL in the middle columns, then the controller action they map to on the right, which should all be quite familiar because you just wrote it in the routes file.  The `(.:format)` just means that it's okay but not required to specify a file extension like `.doc` at the end of the route... it will just get saved in the `params` hash for later anyway.  But what's on the leftmost column?  That's the "name" of the route.
@@ -122,42 +122,42 @@ Just to drive home that routes correspond directly to controller actions, a very
     class PostsController < ApplicationController
 
       def index
-        # very simple code to grab all posts so they can be 
+        # very simple code to grab all posts so they can be
         # displayed in the Index view (index.html.erb)
       end
 
       def show
-        # very simple code to grab the proper Post so it can be 
+        # very simple code to grab the proper Post so it can be
         # displayed in the Show view (show.html.erb)
       end
 
       def new
-        # very simple code to create an empty post and send the user 
-        # to the New view for it (new.html.erb), which will have a 
+        # very simple code to create an empty post and send the user
+        # to the New view for it (new.html.erb), which will have a
         # form for creating the post
       end
 
       def create
-        # code to create a new post based on the parameters that 
-        # were submitted with the form (and are now available in the 
+        # code to create a new post based on the parameters that
+        # were submitted with the form (and are now available in the
         # params hash)
       end
 
       def edit
-        # very simple code to find the post we want and send the 
-        # user to the Edit view for it(edit.html.erb), which has a 
+        # very simple code to find the post we want and send the
+        # user to the Edit view for it(edit.html.erb), which has a
         # form for editing the post
       end
 
       def update
-        # code to figure out which post we're trying to update, then 
-        # actually update the attributes of that post.  Once that's 
-        # done, redirect us to somewhere like the Show page for that 
+        # code to figure out which post we're trying to update, then
+        # actually update the attributes of that post.  Once that's
+        # done, redirect us to somewhere like the Show page for that
         # post
       end
 
       def destroy
-        # very simple code to find the post we're referring to and 
+        # very simple code to find the post we're referring to and
         # destroy it.  Once that's done, redirect us to somewhere fun.
       end
 
@@ -197,5 +197,3 @@ You should have a good sense of what's going on in the routes file by now but pr
 * [CodeSchool's Rails 4 Zombie Outlaws](https://www.codeschool.com/courses/rails-4-zombie-outlaws) - Level 1 is free and goes into routes.
 
 * [CodeSchools Surving API's with Rails](https://www.codeschool.com/courses/surviving-apis-with-rails) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.
-
-*

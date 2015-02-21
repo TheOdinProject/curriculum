@@ -1,5 +1,5 @@
 # Working with Files and Serializing Data
-*Estimated time: 2-4 hrs*
+<!-- *Estimated time: 2-4 hrs* -->
 
 Until now you've mostly been working with self-contained command line programs.  It's time to start branching out and interacting with files.  Files are basically just collections of bits and bytes that you'll somehow need to open, read into your program, modify, and save.  Even though many files (like images) look like a giant jumble of data when you open them up in a text editor, it can be helpful to think of all files as one really long string, or stream, of bytes.  Your script will read them in from top to bottom, performing whatever operations you specify along the way.
 
