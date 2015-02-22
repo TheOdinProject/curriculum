@@ -141,4 +141,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Psidium's solution](https://github.com/Psidium/jQuery-project) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Psidium/jQuery-project/master/project.html)
 * [Thomas Vaeth's solution](https://github.com/thomasvaeth/the_odin_project/tree/master/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/thomasvaeth/the_odin_project/blob/master/etch-a-sketch/index.html)
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/kriox26/odin_project/blob/master/sketchpad/index.html)
+* [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_02-Web_Development_101/etch_a_sketch) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_02-Web_Development_101/etch_a_sketch/index.html)
 * Add your solution above this line!
