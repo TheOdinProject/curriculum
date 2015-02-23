@@ -44,3 +44,5 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 * Hunter Ducharme created [an e-book](http://hgducharme.gitbooks.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
 
     Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).
+
+* For more repetitions with the material, check out [SQL Teaching]( www.sqlteaching.com), the "Codecademy for SQL" (and let us know what you think).
