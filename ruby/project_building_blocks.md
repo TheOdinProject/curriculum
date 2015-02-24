@@ -255,4 +255,5 @@ Next, make sure your method can handle multiple words:
 * [Emil Johansen's solution](https://github.com/EmilOJ/odin_project/blob/master/Ruby_Building_Blocks/substrings.rb)
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/sub_strings.rb)
 * [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/Word%20Count/wordcount.rb)
+* [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Substrings.rb)
 * Add your solution above this line!
