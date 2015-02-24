@@ -95,6 +95,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/caesar_cipher.rb)
 * [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/caesar%20cipher/caesar.rb)
 * [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Caesar_Cipher.rb)
+* [Eleanor's solution](https://github.com/mixophrygian/Caesar-Cipher/blob/master/Caesar.rb)
 * Add your solution above this line!
 
 
