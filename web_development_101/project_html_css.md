@@ -81,7 +81,6 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* [Luke Savage's solution](https://github.com/lsavage92/google-homepage/blob/master/homepage.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/lsavage92/google-homepage/blob/master/homepage.html)
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/google-homepage/index.html)
 * [Cedric Charly's solution](https://github.com/Cedricgc/playground/tree/master/The%20Odin%20Project/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Cedricgc/playground/blob/master/The%20Odin%20Project/google-homepage/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html)
@@ -239,6 +238,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Vladimir M Romeo's solution](https://github.com/vmr1981/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vmr1981/google-homepage/blob/master/index.html)
 * [Faraj Daoud's solution](https://github.com/GHOSTRID8R/Google-Homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/GHOSTRID8R/Google-Homepage/blob/master/index.html)
 * [Nicole Wong's solution](https://github.com/reneos/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/reneos/google-homepage/blob/master/index.html)
+* [Luke Savage's solution](https://github.com/lsavage92/google-homepage/blob/master/homepage.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/lsavage92/google-homepage/blob/master/homepage.html)
 * Add your solution above this line!
 
 
