@@ -19,7 +19,6 @@ Having a solid understanding of Active Record will make the rest of Rails seem s
 * Why is Active Record more useful than just using SQL?
 * What are the two steps required to make a new row in your database table with ActiveRecord?
 * What is are "generators" in Rails?
-* 
 
 ## What is an ORM?
 
@@ -37,16 +36,16 @@ That's a step ahead of ourselves, though, because first it makes sense to think 
 
 ### 30 Seconds About Working With Models
 
-Very briefly, Active Record lets you create a Ruby object that represents a row in one of your database tables, like a `User`.  To create a new User is a two-step process: First, you'll need to do a `User.new` and might pass it a hash full of its attributes like 
+Very briefly, Active Record lets you create a Ruby object that represents a row in one of your database tables, like a `User`.  To create a new User is a two-step process: First, you'll need to do a `User.new` and might pass it a hash full of its attributes like
 
 ```language-bash
-u = User.new({:name => "Sven", :email => "sven@theodinproject.com"})
+u = User.new(name: "Sven", email: "sven@theodinproject.com")
 ```
 
 If you don't pass a hash, you'll need to manually add the attributes by setting them like with any other Ruby object: `u.name = "Sven"`.  The second step is to actually save that model instance into the database.  Until now, it's just been sitting in memory and evaporates if you don't do anything with it.  To save, simply call `u.save`.  You can run both steps at once using the `#create` method:
 
 ```language-bash
-u = User.create({:name => "Sven", :email => "sven@theodinproject.com"})
+u = User.create(name: "Sven", email: "sven@theodinproject.com")
 ```
 
 This saves you time, but, as you'll see later, you'll sometimes want to separate them in your application.
@@ -118,7 +117,7 @@ These are great questions, and you should feel comfortable asking them even if y
 
 ## Basic Validations
 
-Imagine you've got your database up and running and want to make sure that the data people are sending to your database is good data.  For instance, to create an account on your site, a user needs to enter both a username and an email address.  How do you enforce this? 
+Imagine you've got your database up and running and want to make sure that the data people are sending to your database is good data.  For instance, to create an account on your site, a user needs to enter both a username and an email address.  How do you enforce this?
 
 There are three levels of validations that you can enforce, each more strict and secure than the previous.  At the topmost level, you can write code using Javascript in your browser that detects if someone has filled out the form properly and will prompt them to finish it before moving on.  We will learn more about that in the Javascript course.  The advantage here is that it is almost immediate so has great user experience.  The problem with this is that Javascript is easy to circumvent and the user could easily submit a malicious or faulty request.
 
@@ -128,7 +127,7 @@ This is more secure than javascript but has the disadvantage of taking a full ro
 
 Another problem occurs when your application has scaled up to the point where you are running multiple instances of it on multiple servers that all talk to the same central database.  Let's say you want to make sure a username is unique... what happens if two users almost simultaneously submit the same username and it is received by two separate concurrent instances of your application?  When each instance of your application checks with the database to see if the username is unique, both times it looks okay so they both go ahead and save the model... oops!  That may not sound plausible, but how about in rapidly occurring automated transactions?  These "race conditions" are very real.
 
-So the only way to truly enforce constraints is on the database level, since your single database is the sole arbiter of what is unique and valid in this world.  You can use extra parameters passed to some of the now-familiar migration methods like `add_index` to say `add_index :users, :username, :unique => true`, which enforces in the most secure way that the column is unique.  Again, though, most of your validations can be implemented in your Rails application's models.
+So the only way to truly enforce constraints is on the database level, since your single database is the sole arbiter of what is unique and valid in this world.  You can use extra parameters passed to some of the now-familiar migration methods like `add_index` to say `add_index :users, :username, unique: true`, which enforces in the most secure way that the column is unique.  Again, though, most of your validations can be implemented in your Rails application's models.
 
 ## Your Assignment
 
@@ -175,4 +174,3 @@ It's all about practice, so the projects from here on out will ask you to think 
 
 
 * [Rails Models from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introducing-models-create-migrate-rollback-destroy)
-
