@@ -260,9 +260,6 @@ Next, make sure your method can handle multiple words:
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/sub_strings.rb)
 * [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/Word%20Count/wordcount.rb)
 * [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Substrings.rb)
-<<<<<<< HEAD
 * [Eleanor's solution](https://github.com/mixophrygian/Substrings/blob/master/substring.rb)
-=======
 * [Dorian Iacobescu's solution](https://github.com/iacobson/Odin7-Ruby-Building_Blocks/blob/master/3_substrings.rb)
->>>>>>> 95adbfa71dd702cf99e547a0fa1ee3e922be9a92
 * Add your solution above this line!
