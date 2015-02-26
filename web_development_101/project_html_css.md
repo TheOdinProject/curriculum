@@ -240,7 +240,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Nicole Wong's solution](https://github.com/reneos/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/reneos/google-homepage/blob/master/index.html)
 * [Luke Savage's solution](https://github.com/lsavage92/google-homepage/blob/master/homepage.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/lsavage92/google-homepage/blob/master/homepage.html)
 * [Colton Savage's solution](https://github.com/csavage1994/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/csavage1994/google-homepage/blob/master/homepage.html)
-*  [Chironian's solution](https://github.com/ChironZone/google-homepage/) | [View in browser](http://htmlpreview.github.io/?https://github.com/ChironZone/google-homepage/blob/master/main.html)
+* [Chironian's solution](https://github.com/ChironZone/google-homepage/) | [View in browser](http://htmlpreview.github.io/?https://github.com/ChironZone/google-homepage/blob/master/main.html)
 * Add your solution above this line!
 
 
