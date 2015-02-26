@@ -59,7 +59,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Alice Rhomieux's solution](https://github.com/arhx/jumpstart-lab-blogger) | [View in browser](https://obscure-lake-7514.herokuapp.com/)
 * [Eleanor Weigert's solution](https://github.com/mixophrygian/Blogger-App) | [View in browser](https://eleanors-blogger.herokuapp.com/)
 * [Julian Feliciano's solution](https://github.com/JulsFelic/jumpstartlab-blogger-2) | [View in browser](https://shielded-coast-6885.herokuapp.com/)
-* [Chris Hall's solution](https://github.com/Concretechris/Jumpstart-Labs-Blogger) | [View in Browser] (https://powerful-depths-3538.herokuapp.com/)
+* [Chris Hall's solution](https://github.com/Concretechris/Jumpstart-Labs-Blogger) | [View in browser](https://powerful-depths-3538.herokuapp.com/)
 * Add your solution above this line!
 
 
