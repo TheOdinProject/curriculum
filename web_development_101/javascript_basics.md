@@ -99,6 +99,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Thomas Vaeth's solution](https://github.com/thomasvaeth/the_odin_project/tree/master/project-euler)
 * [Taylor Buchheit's solution](https://github.com/7aylor/Project-Euler-Javascript)
 * [Robert Juall's solution](https://github.com/RJuall/the_odin_project/tree/master/Euler)
+* [Nicole Wong's solution](https://github.com/reneos/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/reneos/euler-problems/blob/master/index.html)
 * Add your solution above this line!
 
 
