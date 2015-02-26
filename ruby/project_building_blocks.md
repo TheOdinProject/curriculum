@@ -96,6 +96,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/caesar%20cipher/caesar.rb)
 * [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Caesar_Cipher.rb)
 * [Eleanor's solution](https://github.com/mixophrygian/Caesar-Cipher/blob/master/Caesar.rb)
+* [Dorian Iacobescu's solution](https://github.com/iacobson/Odin7-Ruby-Building_Blocks/blob/master/1_caesar_chipher.rb)
 * Add your solution above this line!
 
 
@@ -172,6 +173,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/Stock%20Picker/stock_picker.rb)
 * [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Stock_Picker.rb)
 * [Eleanor's solution](https://github.com/mixophrygian/Stock-picker/blob/master/Stock_picker.rb)
+* [Dorian Iacobescu's solution](https://github.com/iacobson/Odin7-Ruby-Building_Blocks/blob/master/2_stock_picker.rb)
 * Add your solution above this line!
 
 
@@ -258,4 +260,5 @@ Next, make sure your method can handle multiple words:
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/sub_strings.rb)
 * [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/Word%20Count/wordcount.rb)
 * [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Substrings.rb)
+* [Dorian Iacobescu's solution](https://github.com/iacobson/Odin7-Ruby-Building_Blocks/blob/master/3_substrings.rb)
 * Add your solution above this line!
