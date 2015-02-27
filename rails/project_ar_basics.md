@@ -19,7 +19,7 @@ This might look like:
 
 *Note: I'll include the `:id`, `:created_at` and `:updated_at` columns but you can safely assume they're always there since Rails or the database gives them to you automatically*
 
-* Authors 
+* Authors
 
         username:string [unique, 4-12 chars, present]
         email:string [unique, present]
@@ -30,7 +30,7 @@ This might look like:
 
         has_many posts
 
-* Posts 
+* Posts
 
         title:string [unique, present]
         body:text [present]
@@ -78,7 +78,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 2. Generate your User model and fill out the migration to get the columns you want.
 3. Run the migration with `$ rake db:migrate`.  You can use `$ rake db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
 
-#### Playing with Validations 
+#### Playing with Validations
 
 4. In a new tab, open up the `$ rails console`.  Try asking for all the users with `> User.all`.  You should get back an empty array (no users yet!).  Now create a blank new user and store it to a variable with `> u = User.new`.  This user has been created in the ether of Ruby's memory but hasn't been saved to the database yet.  Remember, if you'd used the `#create` method instead of the `#new` method, it would have just gone ahead and tried to save the new user right off the bat.  Instead, we now get to play with it.  
 5. Check whether your new user is actually valid (e.g. will it save if we tried?).  `> u.valid?` will run all the validations.  It comes up `true`... surprise! We haven't written any validations so that's to be expected.  It's also a problem because we don't want to have users running around with blank usernames.
@@ -129,6 +129,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Vidul's solution](https://github.com/viparthasarathy/micro-reddit)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/micro-reddit)
 * [Nikola Čvorović's solution](https://github.com/cvorak/micro-reddit)
+* [Julian Feliciano's solution](https://github.com/JulsFelic/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
