@@ -143,3 +143,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/kriox26/odin_project/blob/master/sketchpad/index.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
+[Michelle Pepe's solution] (https://github.com/MichellePepe/Etch-A-Sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/MichellePepe/Etch-A-Sketch/blob/master/index.html)
