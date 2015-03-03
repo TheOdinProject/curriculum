@@ -101,6 +101,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Robert Juall's solution](https://github.com/RJuall/the_odin_project/tree/master/Euler)
 * [Nicole Wong's solution](https://github.com/reneos/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/reneos/euler-problems/blob/master/index.html)
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/Project-Euler/tree/master)
+* [Trump's solution](https://github.com/trump812/google-homepage/tree/master/Javascript)
 * Add your solution above this line!
 
 
