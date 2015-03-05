@@ -104,7 +104,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Erithair's solution](https://github.com/N19270/members-only) | [site on heroku](https://members-only.herokuapp.com/)
 * [Vidul's Solution](https://github.com/viparthasarathy/members-only)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) | [site on heroku](https://members-only-sample-blog.herokuapp.com)
-* [Jason Matthews' solution(https://github.com/fo0man/members-only)
+* [Jason Matthews' solution](https://github.com/fo0man/members-only)
 
 ## Additional Resources
 
