@@ -82,6 +82,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Vidul's solution](https://github.com/viparthasarathy/private-events)
 * [Aleksandar's solution](https://github.com/Rodic/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events) | [View in browser](https://fierce-headland-7201.herokuapp.com/)
+* [Jason Matthews' solution](https://github.com/fo0man/private-events)
 * Add your solution above this line!
 
 
