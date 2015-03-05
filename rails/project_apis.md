@@ -95,6 +95,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Kittens/kittens)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/kittens-api)
 * [Vidul's solution](https://github.com/viparthasarathy/odin-kittens)
+* [Jason Matthews' solution](https://github.com/fo0man/odin-kittens)
 * Add your solution above this line!
 
 
