@@ -130,6 +130,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/micro-reddit)
 * [Nikola Čvorović's solution](https://github.com/cvorak/micro-reddit)
 * [Julian Feliciano's solution](https://github.com/JulsFelic/micro-reddit)
+* [Sasikala's solution](https://github.com/Sasikala-Ravichandran/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
