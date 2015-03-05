@@ -76,6 +76,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * Solution by [Adrian Badarau](https://github.com/adrianbadarau/flight-booking-app) | [demo](http://flight-booking-app.herokuapp.com/)
 * Solution by [Marina Sergeyeva](https://github.com/imousterian/FlightBooker) | [demo](https://one-way-ticket.herokuapp.com/)
 * Solution by [Kate McFaul](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/flight-booker)
+* Solution by [Jason Matthews](https://github.com/fo0man/odin-flight-booker)
 * *Your Solution Here!*
 
 
