@@ -245,6 +245,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/kleinjoshuaa/google-homepage/blob/master/index.html)
 * [Chris McIntyre's solution](https://github.com/leamerluck/google-homepage) | [View in browser](http://htmlpreview.github.com/?https://github.com/leamerluck/google-homepage/blob/master/index.html)
 * [Sarah McManus's solution](https://github.com/sarahmcmanus/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarahmcmanus/google-homepage/blob/master/index.html)
+* [Micah Obal's solution](https://github.com/Hacima/google-homepage-clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/Hacima/google-homepage-clone/blob/master/index.html)
 * Add your solution above this line!
 
 
