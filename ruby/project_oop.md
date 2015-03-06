@@ -81,6 +81,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+<<<<<<< HEAD
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/Mastermind)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/mastermind.rb)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_oop/mastermind)
@@ -104,6 +105,28 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Nikola Čvorović's solution](https://github.com/cvorak/OOP_with-_ruby/blob/master/mastermind.rb)
 * [Chris Dziewa's solution (no AI)](https://github.com/chrisdziewa/mastermind)
 * Add your solution above this line!
+=======
+* [Solution from Afshinator](https://github.com/afshinator/playground/tree/master/Mastermind)
+* [Solution from ctcyu](https://github.com/ctcyu/ruby_sandbox/blob/master/mastermind.rb)
+* [Solution from Donald](https://github.com/donaldali/odin-ruby/tree/master/project_oop/mastermind)
+* [Solution from Alan Russell](https://github.com/ajrussellaudio/mastermind)
+* [Solution from Marina Sergeyeva](https://github.com/imousterian/OdinProject/blob/master/Project2_3_Ruby_TicTacToe/mastermind.rb)
+* [Solution from TomTom (no AI)](https://github.com/tim5046/projectOdin/blob/master/IntermediateRuby/mastermind1.rb)
+* [Solution from Sahil](https://github.com/sahilda/the_odin_project/tree/master/oop)
+* [Solution from Teaflavored (no AI)](https://github.com/Teaflavored/Project-Odin-Ruby-Programming/tree/master/Mastermind)
+* [Solution from Michael Alexander](https://github.com/betweenparentheses/ruby-oop-projects/blob/master/mastermind.rb)
+* [Solution from Adrian Badarau (no AI)] (https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/mastermind.rb)
+* [Solution from Arman Ghassemi](https://github.com/ArmanG/Mastermind)
+* [Solution from James MacIvor includes AI](https://github.com/RobotOptimist/mastermind)
+* [Solution from Hawkeye includes AI](https://github.com/Hawkeye000/mastermind)
+* [Solution from Roman (no AI)](https://github.com/RomanADavis/mastermind)
+* [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Project:%20OOP%20with%20Ruby/lib/mastermind.rb)
+* [Solution from Vidul](https://github.com/viparthasarathy/mastermind/blob/master/mastermind.rb)
+* [Solution from John Quarles](https://github.com/johnwquarles/Ruby-OOP-TicTacToe-and-MasterMind/blob/master/MasterMind.rb)
+* [Solution from Artur Janik (no AI)](https://github.com/ArturJanik/oopproject2)
+* [Solution from hiendinhngoc (no AI)](https://github.com/hiendinhngoc/TheOdinProject/blob/master/mastermind.rb)
+* Put Your Solution Above This Line!
+>>>>>>> 5dc06b296e46fb3fbaf1dfe04d4640343ffb2abd
 
 ## Additional Resources
 
