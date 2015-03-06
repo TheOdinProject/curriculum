@@ -104,6 +104,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Trump's solution](https://github.com/trump812/google-homepage/tree/master/Javascript)
 * [Michelle CV's solution](https://github.com/michellecv/Project_Euler)
 * [Micah Obal's solution](https://github.com/Hacima/Odin-Projects/tree/master/Javascript-101)
+* [Sarah McManus' solution](https://github.com/sarahmcmanus/project-euler)
 * Add your solution above this line!
 
 
