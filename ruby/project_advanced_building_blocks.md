@@ -154,6 +154,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/ruby_building_blocks/blob/master/enumerable_methods.rb)
 * [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Enumerable.rb)
 * [Dorian Iacobescu's solution](https://github.com/iacobson/Odin8-Ruby-Advanced-Building_Blocks/blob/master/enumerable_methods.rb)
+* [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/bubble%20sort/bubblesort.rb)
 * Add your solution above this line!
 
 
