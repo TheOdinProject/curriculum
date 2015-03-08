@@ -265,4 +265,5 @@ Next, make sure your method can handle multiple words:
 * [LongPotato's solution](https://github.com/LongPotato/Ruby_Building_Blocks/blob/master/Substrings.rb)
 * [Eleanor's solution](https://github.com/mixophrygian/Substrings/blob/master/substring.rb)
 * [Dorian Iacobescu's solution](https://github.com/iacobson/Odin7-Ruby-Building_Blocks/blob/master/3_substrings.rb)
+* [Chris Hall's solution](https://github.com/Concretechris/odin---substring_challenge/blob/master/substrings.rb)
 * Add your solution above this line!
