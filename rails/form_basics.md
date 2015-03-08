@@ -180,7 +180,7 @@ And the generated HTML is:
 
 Note that this helper nests the Article's attributes (the hard brackets in the `name` attribute should be the dead giveaway).
 
-The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're **edit**ing an existing object, it will send the form to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
+The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're **edit**ing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
 ## Forms and Validations
 

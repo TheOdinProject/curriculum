@@ -33,7 +33,7 @@ Cookies are key-value data pairs that are stored in the user's browser until the
 
 To work with cookies, Rails gives you access to a special hash called `cookies`, where each key-value pair is stored as a separate cookie on the user's browser.  If you were to save `cookies[:hair-color] = "blonde"`, you'd be able to pull up your browser's developer tools and see a cookie on the user's browser that has a key of `hair-color` and a value of `blonde`.  Delete it using `cookies.delete(:hair-color)`.  
 
-With each new request to your server, the browser will send along all the cookies and you can access them in your controllers and views like a normal hash.  You can also set their expiration dates, for example using syntax like `cookies[:name] = { :value => "cookies YUM", :expires => Time.now + 3600}`.  
+With each new request to your server, the browser will send along all the cookies and you can access them in your controllers and views like a normal hash.  You can also set their expiration dates, for example using syntax like `cookies[:name] = { value: "cookies YUM", expires: Time.now + 3600}`.  
 
 ### Sessions
 
@@ -109,7 +109,7 @@ We do this through the use of a "before filter", which takes the name of the met
 
 The `before_action` method takes the symbol of the method to run before anything else gets run in the controller.  If it returns `false` or `nil`, the request will not succeed.
 
-You can specify to only apply the filter for specific actions by specifying the `only` option, e.g. `before_action :require_login, :only => [:edit, :update]`.  The opposite applies by using the `:except` option... it will run for all actions except those specified.  
+You can specify to only apply the filter for specific actions by specifying the `only` option, e.g. `before_action :require_login, only: [:edit, :update]`.  The opposite applies by using the `:except` option... it will run for all actions except those specified.  
 
 You'll want to hide your filter methods behind the `private` designation so they can only be used by that controller.
 
@@ -137,7 +137,7 @@ If you want user logins, you'll need to go through a few extra steps.  We won't 
 
 First, we don't store passwords in plain text in the database.  That's just asking for trouble (how many news stories have you seen about major sites getting hacked and passwords being exposed in plain text?).  Instead, you'll store an encrypted "password digest" version of the password.  
 
-When a user submits their password via the login form, instead of comparing it directly with a plaintext version of that password, you actually convert the submitted password into digest form.  You'll then compare that new digest with the digest you'd previously stored from the user. If they match, you've got yourself a logged in user. 
+When a user submits their password via the login form, instead of comparing it directly with a plaintext version of that password, you actually convert the submitted password into digest form.  You'll then compare that new digest with the digest you'd previously stored from the user. If they match, you've got yourself a logged in user.
 
 This is much better because, if you remember from the previous [lesson on security in Web Development 101](/web-development-101/security-ssl-and-best-practices), digests are one-way encryption.  You can easily create a digest from a password string, but it's extremely difficult to decrypt the digest and retrieve the original password.  The most effective way to crack a bunch of digests is just to make a giant list of possible passwords, turn them into digests, and see if those digests match the one you're trying to crack (i.e. guess-and-check on a massive scale).  
 
