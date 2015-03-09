@@ -27,6 +27,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [afshinator's solution](https://github.com/afshinator/playground/tree/master/RestPinger)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
 * [Arman Ghassemi's solution](https://github.com/ArmanG/Rest-Client)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/rest_client)
 * Add your solution above this line!
 
 
