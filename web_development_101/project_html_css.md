@@ -248,6 +248,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Micah Obal's solution](https://github.com/Hacima/google-homepage-clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/Hacima/google-homepage-clone/blob/master/index.html)
 * [Dmytro Bystrovzorov's solution](https://github.com/dimutro/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dimutro/google-homepage/blob/master/index.html)
 * [ Sami0's solution ](https://github.com/Sami0/google-homepage)|  [View in browser](http://htmlpreview.github.io/?https://github.com/Sami0/google-homepage/blob/master/index.html)
+* [Rob Pennington's solution](https://github.com/rPen/The.Odin.Project/tree/master/google-homepage) |  [View in browser](http://htmlpreview.github.io/?https://github.com/rPen/The.Odin.Project/blob/master/google-homepage/index.html)
 * Add your solution above this line!
 
 
