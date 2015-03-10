@@ -290,6 +290,11 @@ If you're particularly interested in pursuing design patterns, check out the "Ga
 There's a useful book written on anti-patterns, which can help you clean up your code by identifying bad smells, called [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814/) by Tammer Saleh and Chad Pytel.
 
 
+## I18n: Internationalization
+
+[Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages.  It's outside our scope to cover, but for those who are interested, check out [this Sitepoint tutorial on it](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates. 
+
+
 ## Your Assignment
 
 1. Skim the [Rails Guide on Routing](http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing) section 2.6 about namespacing.
