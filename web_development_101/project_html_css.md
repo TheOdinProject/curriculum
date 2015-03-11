@@ -251,6 +251,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Rob Pennington's solution](https://github.com/rPen/The.Odin.Project/tree/master/google-homepage) |  [View in browser](http://htmlpreview.github.io/?https://github.com/rPen/The.Odin.Project/blob/master/google-homepage/index.html)
 * [Courtney Roberson's (Easy) Solution](https://github.com/coro121/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/coro121/google-homepage/blob/master/google%20homepage.html)
 * [Craig LaBruno's Solution](https://github.com/CLaBruno/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/CLaBruno/google-homepage/blob/master/index.html)
+* [ATTrindade's Solution](https://github.com/attrindade/google-homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/attrindade/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/attrindade/google-homepage/blob/master/results-page.html)
 * Add your solution above this line!
 
 
