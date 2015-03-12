@@ -33,6 +33,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Dominik Stodolny's solution](https://github.com/dstodolny/event_manager)
 * [Lara Finnegan's solution](https://github.com/lcf0285/event_manager)
 * [Nikola Čvorović's solution](https://github.com/cvorak/event_manager.git)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/event_manager)
 * Add your solution above this line!
 
 
