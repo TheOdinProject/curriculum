@@ -34,6 +34,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Lara Finnegan's solution](https://github.com/lcf0285/event_manager)
 * [Nikola Čvorović's solution](https://github.com/cvorak/event_manager.git)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/event_manager)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/serialization/tree/master/event_manager)
 * Add your solution above this line!
 
 
@@ -83,6 +84,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Lara Finnegan's solution](https://github.com/lcf0285/hangman)
 * [Nikola Čvorović's solution](https://github.com/cvorak/Hangman.git) 
 * [Dawn Pattison's solution](https://github.com/pattisdr/theOdinProject/tree/master/hangman)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/serialization/tree/master/hangman)
 * Add your solution above this line!
 
 
