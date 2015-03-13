@@ -256,7 +256,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Chris Peers' solution](https://github.com/ChrisPeers/google-homepage/blob/master/Index.html) | ['Difficult' solution](https://github.com/ChrisPeers/google-homepage/blob/master/Search.html)| [View in browser (difficult)](https://htmlpreview.github.io/?https://github.com/ChrisPeers/google-homepage/blob/master/Search.html)
 * [Matthew's solution](https://github.com/financetech/google-homepage/) |  [View in browser](http://htmlpreview.github.io/?https://github.com/financetech/google-homepage/blob/master/index.html)
 * [Jason's solution](https://github.com/wellsj/google-homepage/) |  [View in browser](http://htmlpreview.github.io/?https://github.com/wellsj/google-homepage/blob/master/index.html)
-* Add your solution above this line!
+* [Dush's solution] (https://github.com/De-Cay/google-homepage/) | [View in browser] (http://htmlpreview.github.io/?https://github.com/De-Cay/google-homepage/blob/master/Google.html)
 
 
 ## Additional Resources
