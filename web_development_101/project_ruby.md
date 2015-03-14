@@ -73,6 +73,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [NYJY's solution](https://github.com/nyjy85/Ruby/tree/master/odin_project/test-first-ruby)
 * [Psidium's solution](https://github.com/Psidium/ruby-exercises)
 * [Andrej Dragojevic's solution](https://github.com/antrix1/Ruby_Testing)
+* [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/rubyProjects)
 * Add your solution above this line!
 
 
