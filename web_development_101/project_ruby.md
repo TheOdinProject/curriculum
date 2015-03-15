@@ -74,6 +74,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Psidium's solution](https://github.com/Psidium/ruby-exercises)
 * [Andrej Dragojevic's solution](https://github.com/antrix1/Ruby_Testing)
 * [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/rubyProjects)
+* [omokoro's solution](https://github.com/omokoro/ruby_project)
 * Add your solution above this line!
 
 
