@@ -62,6 +62,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Chris Hall's solution](https://github.com/Concretechris/Jumpstart-Labs-Blogger) | [View in browser](https://powerful-depths-3538.herokuapp.com/)
 * [omokoro's solution](https://github.com/omokoro/rails-project) | [View in browser](http://shielded-journey-4013.herokuapp.com/)
 * [Ryan Jordan's solution](https://github.com/krjordan/Blogger)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/blogger) | [View in browser](https://serene-waters-9909.herokuapp.com/)
 * Add your solution above this line!
 
 
