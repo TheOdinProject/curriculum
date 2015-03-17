@@ -24,7 +24,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/dom_manipulation) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/dom_manipulation/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/restaurant) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_06-JavaScript_and_jQuery/restaurant/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/Restaurant) | [View in browser](https://myrestaurantwebsite.herokuapp.com/)
-* Add your solution above this line!
+* [Michelle Pepe's solution] (https://github.com/MichellePepe/Garden_Of_Eden_Restaurant) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/MichellePepe/Garden_Of_Eden_Restaurant/blob/master/index.html)
 
 
 ## Additional Resources
