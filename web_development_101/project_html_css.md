@@ -260,6 +260,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Dush's Solution(easy)](https://github.com/De-Cay/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/De-Cay/google-homepage/blob/master/Google.html)
 * [Adrian Kelly's solution](https://github.com/adriankelly/google-homepage) | [View in browser](https://adriankelly.net/google-homepage/)
 * [Nayar Ali's Solution(easy)](https://github.com/nayar-ali/google-homepage) | [View in browser(easy)](http://htmlpreview.github.io/?https://github.com/nayar-ali/google-homepage/blob/master/html/index.html)
+* [Sandeep's solution](https://github.com/sand33pn/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sand33pn/google-homepage/blob/master/index.html)
+
 * Add your solution above this line!
 
 
