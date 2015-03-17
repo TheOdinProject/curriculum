@@ -38,7 +38,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* [YuJer's solution](https://github.com/bon22801/The-Odin-Project/tree/master/Sketch-Pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/bon22801/The-Odin-Project/blob/master/Sketch-Pad/index.html)
+
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/sketch-pad/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/SketchPad) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/SketchPad/index.html)
@@ -149,4 +149,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [omokoro's solution](https://github.com/omokoro/javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/omokoro/javascript-jQuery/blob/master/index.html)
 * [Steve Dolinsky's solution](https://github.com/stevedolinsky/js_project_odin)| [View In browser](http://htmlpreview.github.io/?https://github.com/stevedolinsky/js_project_odin/blob/master/index.html)
 * [Adrian Kelly's solution](https://github.com/adriankelly/etch-a-sketch) | [View in browser](https://adriankelly.net/etch-a-sketch)
+* [YuJer's solution](https://github.com/bon22801/The-Odin-Project/tree/master/Sketch-Pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/bon22801/The-Odin-Project/blob/master/Sketch-Pad/index.html)
 * Add your solution above this line!
