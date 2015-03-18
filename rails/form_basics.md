@@ -8,7 +8,7 @@ Up until now, we've been thinking about Models in Rails on sort of a one-off bas
 
 Now think about a web form to buy an airline ticket.  You probably need to enter your name, address, phone number, email, the airline, the flight number, the flight date, your credit card number, your credit card security number, your card expiration date, your card's zipcode, and a bunch of checkboxes for additional things like trip insurance.  That's a whole lot of different models embedded in one form!  But you still submit it with a single button.  Holy macaroni!
 
-Most forms won't be that long or complicated for you, but it's useful to appreciate all the things you can (and one day will) do with them.  It's incredibly easy to make a basic form so the first thing we'll do is make sure you've got an intimate understanding of how forms are created in HTML and then how Rails offers you some helpers to make your life easier.  We'll cover the way data is structured and sent to the controller until you feel pretty comfortable with that.  Then a later lesson will deal with how to take that basic understanding and make forms handle some more firepower. 
+Most forms won't be that long or complicated for you, but it's useful to appreciate all the things you can (and one day will) do with them.  It's incredibly easy to make a basic form so the first thing we'll do is make sure you've got an intimate understanding of how forms are created in HTML and then how Rails offers you some helpers to make your life easier.  We'll cover the way data is structured and sent to the controller until you feel pretty comfortable with that.  Then a later lesson will deal with how to take that basic understanding and make forms handle some more firepower.
 
 ## Points to Ponder
 
@@ -92,7 +92,7 @@ Each one of these inputs is structured slightly differently, but there are some 
 
 Will result in your `params` hash containing a key called `description` that you can access as normal, e.g. `params[:description]`, inside your controller.  That's also why some inputs like radio buttons (where `type="radio"`) use the `name` attribute to know which radio buttons should be grouped together such that clicking one of them will unclick the others.  The `name` attribute is surprisingly important!
 
-Now another thing we talked about in the controller section was nesting data.  You'll often want to tuck submitted data neatly into a hash instead of keeping them all at the top level.  This can be useful because, as we saw with controllers, it lets you do a one-line `#create` (once you've whitelisted the parameters with `#require` and `#permit`).  When you access `params[:user]`, it's actually a hash containing all the user's attributes, for instance `{:first_name => "foo", :last_name => "bar", :email=>"foo@bar.com"}`.  How do you get your forms to submit parameters like this?  It's easy!
+Now another thing we talked about in the controller section was nesting data.  You'll often want to tuck submitted data neatly into a hash instead of keeping them all at the top level.  This can be useful because, as we saw with controllers, it lets you do a one-line `#create` (once you've whitelisted the parameters with `#require` and `#permit`).  When you access `params[:user]`, it's actually a hash containing all the user's attributes, for instance `{first_name: "foo", last_name: "bar", email: "foo@bar.com"}`.  How do you get your forms to submit parameters like this?  It's easy!
 
 It all comes back to the `name` attribute of your form inputs. Just use hard brackets to nest data like so:
 
@@ -148,9 +148,9 @@ There are tag helpers for all the major tags and the options they accept are all
 
 No one wants to remember to specify which URL the form should submit to or write out a whole bunch of `*_tag` methods, so Rails gives you a shortcut in the form of the slightly more abstracted `form_for` method.  It's a whole lot like `form_tag` but does a bit more work for you.  
 
-Just pass `form_for` a model object, and it will make the form submit to the URL for that object, e.g. `@user` will submit to correct URL for creating a User.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_for` forms!
+Just pass `form_for` a model object, and it will make the form submit to the URL for that object, e.g. `@user` will submit to the correct URL for creating a User.  Remember from the lesson on controllers that the `#new` action usually involves creating a new (unsaved) instance of your object and passing it to the view... now you finally get to see why by using that object in your `#form_for` forms!
 
-Where `form_tag` accepted a block without any arguments and the individual inputs had to be specified with `something_tag` syntax, `form_for` actually passes the block a form object and then you create the form fields based off that object.  It's conventional to call the argument simply `f`. 
+Where `form_tag` accepted a block without any arguments and the individual inputs had to be specified with `something_tag` syntax, `form_for` actually passes the block a form object and then you create the form fields based off that object.  It's conventional to call the argument simply `f`.
 
 From the Rails Guide:
 
@@ -192,7 +192,7 @@ You'll probably want to display the errors so the user knows what went wrong.  R
     <% if @post.errors.any? %>
       <div id="error_explanation">
         <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
-     
+
         <ul>
         <% @post.errors.full_messages.each do |msg| %>
           <li><%= msg %></li>
@@ -213,7 +213,7 @@ Forms aren't really designed to natively delete objects because browsers only su
 You get Rails to add this to your form by passing an option to `form_for` or `form_tag` called `:method`, e.g.:
 
 ```language-ruby
-    form_tag(search_path, :method => "patch")
+    form_tag(search_path, method: "patch")
 ```
 
 ## Controller-Side Refresher
