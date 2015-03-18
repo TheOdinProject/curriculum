@@ -107,6 +107,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Sarah McManus' solution](https://github.com/sarahmcmanus/project-euler)
 * [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/javaScript)
 * [Gb69010p's solution](https://github.com/gb69010p/Project-Euler)
+* [Jason's solution](https://github.com/wellsj/project-euler)
 * Add your solution above this line!
 
 
