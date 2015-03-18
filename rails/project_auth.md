@@ -105,6 +105,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/members-only) | [View in browser](https://members-only-sample-blog.herokuapp.com)
 * [Nikola Čvorović's solution](https://github.com/cvorak/members-only)
 * [Jason Matthews' solution](https://github.com/fo0man/members-only)
+* [Sasikala's solution](https://github.com/Sasikala-Ravichandran/clubhouse)
 * Add your solution above this line!
 
 
