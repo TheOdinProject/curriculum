@@ -37,6 +37,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_05-Advanced_HTML_and_CSS/youtube) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_05-Advanced_HTML_and_CSS/youtube/index.html)
 * [chasmani's solution](https://github.com/chasmani/YoutubeHome) | [View in browser](http://htmlpreview.github.io/?https://github.com/chasmani/YoutubeHome/blob/master/index.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/video-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/video-project/blob/master/index.html)
+* [Artur Janik's solution](https://github.com/ArturJanik/ProjectYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectYT/blob/master/index2.html)
 * Add your solution above this line!
 
 
