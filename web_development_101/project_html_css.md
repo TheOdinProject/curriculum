@@ -262,7 +262,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Nayar Ali's Solution(easy)](https://github.com/nayar-ali/google-homepage) | [View in browser(easy)](http://htmlpreview.github.io/?https://github.com/nayar-ali/google-homepage/blob/master/html/index.html)
 * [Sandeep's solution](https://github.com/sand33pn/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sand33pn/google-homepage/blob/master/index.html)
 * [Brendon's solution](https://github.com/brendonsoto/theOdinProjectLog/tree/master/webDev101/frontEnd/htmlCssBasics/htmlProject) | [View in browser](http://htmlpreview.github.io/?https://github.com/sand33pn/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/brendonsoto/theOdinProjectLog/blob/master/webDev101/frontEnd/htmlCssBasics/htmlProject/results.html)
-* [Razzakun's Solution](https://github.com/RazzaFrazza/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/RazzaFrazza/google-homepage/blob/index.html)
+* [Razzakun's Solution](https://github.com/RazzaFrazza/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/RazzaFrazza/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
