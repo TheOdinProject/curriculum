@@ -149,4 +149,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Steve Dolinsky's solution](https://github.com/stevedolinsky/js_project_odin)| [View In browser](http://htmlpreview.github.io/?https://github.com/stevedolinsky/js_project_odin/blob/master/index.html)
 * [Adrian Kelly's solution](https://github.com/adriankelly/etch-a-sketch) | [View in browser](https://adriankelly.net/etch-a-sketch)
 * [YuJer's solution](https://github.com/bon22801/The-Odin-Project/tree/master/Sketch-Pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/bon22801/The-Odin-Project/blob/master/Sketch-Pad/index.html)
+* [Kxxvc's solution](https://github.com/Kxxvc/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Kxxvc/sketch-pad/blob/master/files/index.html)
 * Add your solution above this line!
