@@ -22,6 +22,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 * [MichaelMagnoli's solution](https://github.com/MichaelMagnoli/Web-Dev-Projects/tree/master/The%20Odin%20Project/Ruby%20on%20Rails/SQL%20Zoo)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/project_sql)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/sql_zoo)
+* [Trump's Soluction](https://github.com/trump812/sql_tutorial)
 * Add your solution above this line!
 
 
