@@ -273,4 +273,5 @@ Next, make sure your method can handle multiple words:
 * [Chris Hall's solution](https://github.com/Concretechris/odin---substring_challenge/blob/master/substrings.rb)
 * [Lyman Wong's solution](https://github.com/lymanwong/Ruby-Stuff/blob/master/odin/substrings/substrings.rb)
 * [Antonio Augusto's solution](https://github.com/antoniosb/substrings/tree/master)
+* [omokoro's solution](https://github.com/omokoro/caeser/blob/master/caeser.rb)
 * Add your solution above this line!
