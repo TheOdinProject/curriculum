@@ -159,6 +159,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Dorian Iacobescu's solution](https://github.com/iacobson/Odin8-Ruby-Advanced-Building_Blocks/blob/master/enumerable_methods.rb)
 * [Sam Padrul's solution](https://github.com/sampadrul/Ruby-Projects/blob/master/enumerables.rb)
 * [Eleanor Weigert's solution](https://github.com/mixophrygian/Ruby-Building-Blocks/blob/master/my_enumerables.rb)
+* [omokoro's solution](https://github.com/omokoro/advanced_building_blocks/blob/master/enumberable.rb)
 * Add your solution above this line!
 
 
