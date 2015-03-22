@@ -264,7 +264,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Brendon's solution](https://github.com/brendonsoto/theOdinProjectLog/tree/master/webDev101/frontEnd/htmlCssBasics/htmlProject) | [View in browser](http://htmlpreview.github.io/?https://github.com/sand33pn/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/brendonsoto/theOdinProjectLog/blob/master/webDev101/frontEnd/htmlCssBasics/htmlProject/results.html)
 * [Razzakun's Solution](https://github.com/RazzaFrazza/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/RazzaFrazza/google-homepage/blob/master/index.html)
 * [Alex Perez's Solution](https://github.com/alex-perez7/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/alex-perez7/google-homepage/blob/master/index.html)
-* Add your solution above this line!
+* [Swati Kumar's Solution](https://github.com/swatikumar16/google-homepage) | [View in browser](http://swatikumar16.github.io/google-homepage/)
+* Add your solution above this line! 
 
 
 ## Additional Resources
