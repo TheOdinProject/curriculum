@@ -110,7 +110,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jason's solution](https://github.com/wellsj/project-euler)
 * [Rob Pennington's solution](https://github.com/rPen/The.Odin.Project/tree/master/JavaScript)
 * [Sandeep Navghane's solution](https://github.com/sand33pn/js)
-* [Prashanth Chandra's solution](https://github.com/prashanthcr/js-101) | [View in browswer](http://htmlpreview.github.io/?https://github.com/prashanthcr/js-101/blob/master/index.html)
+* [Prashanth Chandra's solution](https://github.com/prashanthcr/js-101) | [View in browser](http://htmlpreview.github.io/?https://github.com/prashanthcr/js-101/blob/master/index.html)
 * Add your solution above this line!
 
 
