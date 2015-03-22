@@ -278,4 +278,5 @@ Next, make sure your method can handle multiple words:
 * [Lyman Wong's solution](https://github.com/lymanwong/Ruby-Stuff/blob/master/odin/substrings/substrings.rb)
 * [Antonio Augusto's solution](https://github.com/antoniosb/substrings/tree/master)
 * [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/blob/master/Ruby%20Programming/Building%20Blocks/substrings.rb)
+* [omokoro's solution](https://github.com/omokoro/substrings/blob/master/subtrings.rb)
 * Add your solution above this line!
