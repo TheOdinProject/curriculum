@@ -81,6 +81,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Eleanor Weigert's solution](https://github.com/mixophrygian/Ruby-Building-Blocks)
 * [Lyman Wong's solution](https://github.com/lymanwong/Ruby-Stuff/blob/master/odin/bubble_sort/bubble_sort.rb)
 * [omokoro's solution](https://github.com/omokoro/advanced_building_blocks/blob/master/bubble_sort.rb)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/blob/master/Ruby%20Programming/Advanced%20Building%20Blocks/bubble_sort.rb)
 * Add your solution above this line!
 
 

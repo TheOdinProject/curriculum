@@ -84,7 +84,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [RomanADavis's solution](https://github.com/RomanADavis/JQuery-Toy)
 * [Julie De Lorenzo's solution](https://github.com/delorenzo/jquery-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/delorenzo/jquery-sketchpad/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/etch-a-sketch/blob/master/index.html)
-* [Andrej Dragojevic's solution](https://github.com/antrix1/JQuery-Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/antrix1/JQuery-Project/blob/master/index.html)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/tree/master/Web%20Development%20101/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/antrix1/The-Odin-Project/blob/master/Web%20Development%20101/etch_a_sketch/index.html)
 * [Mike Over's solution](https://github.com/mikeover/jQuery-Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/mikeover/jQuery-Etch-A-Sketch/master/index.html)
 * [John Quarles' solution](https://github.com/johnwquarles/Sketchy-Etch) | [View in browser](http://htmlpreview.github.io/?https://github.com/johnwquarles/Sketchy-Etch/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/odin-jquery-homework) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/odin-jquery-homework/blob/master/index.html)
