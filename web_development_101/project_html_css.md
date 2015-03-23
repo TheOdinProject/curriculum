@@ -162,7 +162,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Chris Rinaldi's solution](https://github.com/cgrinaldi/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/cgrinaldi/google-homepage/blob/master/index.html)
 * [Rafael Ruiz Moreno's solution](https://github.com/rruimor/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/rruimor/google-homepage/blob/master/index.html)
 * [Antonio Augusto's solution](https://github.com/antoniosb/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/antoniosb/google-homepage/blob/master/index.html)
-* [Andrej Dragojevic's solution](https://github.com/antrix1/google-home) | [View in browser](http://htmlpreview.github.io/?https://github.com/antrix1/google-home/blob/master/index.html)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/tree/master/Web%20Development%20101/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/antrix1/The-Odin-Project/blob/master/Web%20Development%20101/google_homepage/index.html)
 * [Lara Finnegan's solution](https://github.com/lcf0285/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lcf0285/google-homepage/blob/master/google-homepage.html)
 * [Artur Janik's (Polish) 'difficult' solution](https://github.com/ArturJanik/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/google-homepage/blob/master/index.html)
 * [Rik's (Dutch) solution](https://github.com/frbz/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/frbz/google-homepage/blob/master/index.html)
