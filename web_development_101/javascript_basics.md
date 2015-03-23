@@ -111,6 +111,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Rob Pennington's solution](https://github.com/rPen/The.Odin.Project/tree/master/JavaScript)
 * [Sandeep Navghane's solution](https://github.com/sand33pn/js)
 * [Alex Perez's solution](https://github.com/alex-perez7/project_euler)
+* [Prashanth Chandra's solution](https://github.com/prashanthcr/js-101) | [View in browser](http://htmlpreview.github.io/?https://github.com/prashanthcr/js-101/blob/master/index.html)
 * Add your solution above this line!
 
 
