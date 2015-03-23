@@ -133,6 +133,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/micro-reddit)
 * [Jason Matthews' solution](https://github.com/fo0man/micro-reddit)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/micro-reddit)
+* [Trump's solution](https://github.com/trump812/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
