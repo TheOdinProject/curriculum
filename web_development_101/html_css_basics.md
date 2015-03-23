@@ -40,9 +40,7 @@ As you've hopefully [learned before](http://skillcrush.com/2012/06/24/html-2/), 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* If you still feel mystified by CSS vocabulary, check out [Pumpula.net's interactive CSS terminology explorer](http://pumpula.net/p/apps/css-vocabulary/)... it lets you highlight a term and it'll jump to wherever in the CSS it shows up.
 * If you're rearing to get more in-depth, check out [TutsPlus' free 30 Days To Learn HTML and CSS Course](http://courses.tutsplus.com/courses/30-days-to-learn-html-css)
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
-* [LearnStreet](http://learnstreet.com) has free tutorials similar to Codecademy.  *Update: LearnStreet has shut down :(((*
 * [OverAPI's HTML Cheat Sheet](http://overapi.com/html/)
 * [OverAPI's CSS Cheat Sheet](http://overapi.com/css/)
