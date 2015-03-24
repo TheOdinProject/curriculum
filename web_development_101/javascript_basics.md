@@ -112,6 +112,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Sandeep Navghane's solution](https://github.com/sand33pn/js)
 * [Alex Perez's solution](https://github.com/alex-perez7/project_euler)
 * [Prashanth Chandra's solution](https://github.com/prashanthcr/js-101) | [View in browser](https://rawgit.com/prashanthcr/js-101/master/index.html)
+* [Brendon's solution](https://github.com/brendonsoto/theOdinProjectLog/tree/master/webDev101/frontEnd/jsBasics)
 * Add your solution above this line!
 
 
