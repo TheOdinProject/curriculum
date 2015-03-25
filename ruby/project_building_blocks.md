@@ -190,8 +190,8 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [omokoro's solution](https://github.com/omokoro/stock_picker/blob/master/stock_picker.rb)
 * [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/blob/master/Ruby%20Programming/Building%20Blocks/stock_picker.rb)
 * [Eddie's solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/stock_picker.rb)
-* [Gitman's Solution](https://github.com/ttuck303/project-odin/blob/master/stock_picker.rb)
-* [Tom McGinn's Solution](https://github.com/tjmcgi/ruby_stockpicker/blob/master/stockpicker.rb)
+* [Gitman's solution](https://github.com/ttuck303/project-odin/blob/master/stock_picker.rb)
+* [Tom McGinn's solution](https://github.com/tjmcgi/ruby_stockpicker/blob/master/stockpicker.rb)
 * Add your solution above this line!
 
 
@@ -286,5 +286,5 @@ Next, make sure your method can handle multiple words:
 * [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/blob/master/Ruby%20Programming/Building%20Blocks/substrings.rb)
 * [omokoro's solution](https://github.com/omokoro/substrings/blob/master/subtrings.rb)
 * [Eddie's solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/substrings.rb)
-* [Gitman's Solution](https://github.com/ttuck303/project-odin/blob/master/substrings.rb)
+* [Gitman's solution](https://github.com/ttuck303/project-odin/blob/master/substrings.rb)
 * Add your solution above this line!
