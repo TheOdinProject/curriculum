@@ -1,0 +1,7 @@
+source: "./"
+safe: true
+lsi: false
+pygments: true
+markdown: rdiscount
+url: "http://theodinproject.github.io/" # FOR PRODUCTION
+# url: "http://localhost:4000" # FOR LOCAL TESTING use this one

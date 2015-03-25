@@ -1,0 +1,126 @@
+/* User styles */
+
+body{
+  background-color: #f9faf7;
+  font-size: 175%;
+  /*font-family: courier;*/
+  margin-top: 60px;
+  font-weight: 300;
+}
+
+p{
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+  line-height: 1.5em;
+}
+
+h1{
+  margin-bottom: 1em;
+}
+
+h2, h3, h4, h5{
+  margin-top: 1.5em;
+}
+
+code{
+  color: #666;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  font-size: 80%;
+}
+
+.project-content h1, .project-content h2{
+  color: #f60;
+}
+
+#warning-note{
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+  font-size: 1em;
+  padding: .5em;
+}
+#warning-note p{
+  line-height: 1.25em;
+  margin: 0px;
+}
+
+#header_wrap h1{
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+#header_wrap h2{
+  font-size: 25px;
+  padding-left: 10px;
+  margin-top: 15px;
+}
+
+#contribute-notice{
+  font-size: 80%;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 1px;
+}
+
+#sidebar{
+  font-size: 90%;
+}
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top:60px;
+  right: 10px;
+  height: 45px;
+  width: 200px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.social{
+  position: absolute;
+  top: 105px;
+  right: 10px;
+  width: 200px;
+  padding: 15px 0px 0px 0px;
+  text-align: right;
+  display: inline-block;
+}
+.social-button{
+  width: 115px;
+  height: 25px;
+  display:inline-block;
+  padding: 5px 0px;
+}
+
+.facebook{
+  /*padding-top:10px;*/
+  padding-right: 32px;
+}
+.twitter{
+  /*padding-top: 10px;*/
+}
+.google-plus{
+  /*padding-top: 10px;*/
+}
+
+.coming-soon{
+  color: gray;
+  font-size: 80%;
+}
+.project-link{
+  color: #f60;
+}
+#main_content ol>li{
+  padding-bottom: 6px;
+}
+#main_content{
+
+}
