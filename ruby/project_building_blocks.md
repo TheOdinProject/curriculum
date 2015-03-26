@@ -107,6 +107,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Tom McGinn's solution](https://github.com/tjmcgi/ruby_ceaser_cipher/blob/master/ceaser_cipher.rb)
 * [Eddie's solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/caeser_cipher_p1.rb)
 * [Gitman's solution](https://github.com/ttuck303/project-odin/blob/master/caesar_cipher.rb)
+* [Suneil's solution](https://github.com/suneilbasu/theOdinProject/blob/master/caesar1.rb)
 * Add your solution above this line!
 
 
