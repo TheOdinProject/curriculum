@@ -75,6 +75,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/tree/master/Web%20Development%20101/ruby_testing)
 * [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/rubyProjects)
 * [omokoro's solution](https://github.com/omokoro/ruby_project)
+* [Josh Klein's Solution](https://github.com/kleinjoshuaa/testfirst_ruby)
 * Add your solution above this line!
 
 
