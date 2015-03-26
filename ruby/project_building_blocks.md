@@ -287,4 +287,5 @@ Next, make sure your method can handle multiple words:
 * [omokoro's solution](https://github.com/omokoro/substrings/blob/master/subtrings.rb)
 * [Eddie's solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/substrings.rb)
 * [Gitman's solution](https://github.com/ttuck303/project-odin/blob/master/substrings.rb)
+* [Tom McGinn's solution](https://github.com/tjmcgi/ruby_substrings/blob/master/substrings.rb)
 * Add your solution above this line!
