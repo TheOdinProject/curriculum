@@ -115,6 +115,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Brendon's solution](https://github.com/brendonsoto/theOdinProjectLog/tree/master/webDev101/frontEnd/jsBasics)
 * [Maia Petee's solution](https://github.com/movetomars/euler-project)
 * Add your solution above this line!
+* [Maia Petee's solution](https://github.com/movetomars/euler-project)
 
 
 ## Additional Resources
