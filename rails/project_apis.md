@@ -123,6 +123,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/rails-flickr-api-test-app)
 * [Jack's solution](https://github.com/jnguyen85/flickr_search)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flickr)
 * Add your solution above this line!
 
 
