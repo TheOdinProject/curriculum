@@ -37,7 +37,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 ## Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
-
+* [Rafael Ruiz's solution](https://github.com/rruimor/sketch-pad) | [View in browser] (http://rruimor.github.io/sketch-pad/)
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/sketch-pad/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/SketchPad) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/SketchPad/index.html)
