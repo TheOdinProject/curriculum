@@ -115,7 +115,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Brendon's solution](https://github.com/brendonsoto/theOdinProjectLog/tree/master/webDev101/frontEnd/jsBasics)
 * [Maia Petee's solution](https://github.com/movetomars/euler-project)
 * [Matthew's solution](https://github.com/financetech/Project-Euler) 
-*[Vlad Romeo's solution](https://github.com/vmr1981/Project-Euler) | [View in Browser](https://rawgit.com/vmr1981/Project-Euler/master/projecteuler.html)
+* [Vlad Romeo's solution](https://github.com/vmr1981/Project-Euler) | [View in Browser](https://rawgit.com/vmr1981/Project-Euler/master/projecteuler.html)
 * Add your solution above this line!
 
 
