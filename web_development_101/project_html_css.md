@@ -275,6 +275,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Adan Camacho's solution](https://github.com/Adancode/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Adancode/google-homepage/blob/master/index.html)
 * [Chris Fullinwider's solution](https://github.com/Fully34/google-homepage)
 * [Kira McLean's solution](https://github.com/kiramc/google-homepage) | [View in browser](https://rawgit.com/kiramc/google-homepage/master/index.html)
+* [Chris Fullinwider's solution](https://github.com/Fully34/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/Fully34/google-homepage/blob/master/Homepage.html) 
 * Add your solution above this line! 
 
 
