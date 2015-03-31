@@ -82,6 +82,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Lara Finnegan's solution](https://github.com/lcf0285/hangman)
 * [Nikola Čvorović's solution](https://github.com/cvorak/Hangman.git) 
 * [Dawn Pattison's solution](https://github.com/pattisdr/theOdinProject/tree/master/hangman)
+* [LongPotato's solution](https://github.com/LongPotato/Hangman_GUI)
 * Add your solution above this line!
 
 
