@@ -108,6 +108,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Eddie's solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/caeser_cipher_p1.rb)
 * [Gitman's solution](https://github.com/ttuck303/project-odin/blob/master/caesar_cipher.rb)
 * [Suneil's solution](https://github.com/suneilbasu/theOdinProject/blob/master/caesar1.rb)
+* [Edmund's solution O(n) performance](https://github.com/EdmundLeex/ruby_algorithm_practice/blob/master/some_fun_challeges/stock_picker.rb)
 * Add your solution above this line!
 
 
