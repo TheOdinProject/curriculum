@@ -9,7 +9,7 @@ Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) 
 
 ### Your Task:
 
-Build a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns.  
+Build a tic-tac-toe game on the command line where two human players can play against each other and the board is displayed in between turns.
 
 1. Think about how you would set up the different elements within the game... What should be a class? Instance variable?  Method? A few minutes of thought can save you from wasting an hour of coding.
 2. Build your game, taking care to not share information between classes any more than you have to.
@@ -62,6 +62,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_oop/blob/master/tic_tac_toe.rb)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/Tic-Tac-Toe/blob/master/tic_tac_toe3.rb)
 * [Eleanor Weigert's solution](https://github.com/mixophrygian/Ruby-Tic-Tac-Toe/blob/master/TicTacToe.rb)
+* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/tic_tac_toe.rb)
 * Add your solution above this line!
 
 
@@ -75,7 +76,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 
 1. Think about how you would set this problem up!
 2. Build the game assuming the computer randomly selects the secret colors and the human player must guess them.  Remember that you need to give the proper feedback on how good the guess was each turn!
-3. Now refactor your code to allow the human player to choose whether she wants to be the creator of the secret code or the guesser.  
+3. Now refactor your code to allow the human player to choose whether she wants to be the creator of the secret code or the guesser.
 4. Build it out so that the computer will guess if you decide to choose your own secret colors.  Start by having the computer guess randomly (but keeping the ones that match exactly).
 5. Next, add a little bit more intelligence to the computer player so that, if the computer has guessed the right color but the wrong position, its next guess will need to include that color somewhere.  Feel free to make the AI even smarter.
 5. Post your solution below!
