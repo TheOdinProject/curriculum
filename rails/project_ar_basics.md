@@ -135,6 +135,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Dominik Stodolny's solution](https://github.com/dstodolny/micro-reddit)
 * [Trump's solution](https://github.com/trump812/micro-reddit)
 * [Lara Finnegan's solution](https://github.com/lcf0285/micro-reddit)
+* [Kevin Mulhern's soloution](https://github.com/KevinMulhern/Micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
