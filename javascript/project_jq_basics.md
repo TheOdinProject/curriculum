@@ -26,7 +26,9 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Meher Chandan's solution](https://github.com/meherchandan/Restaurant) | [View in browser](https://myrestaurantwebsite.herokuapp.com/)
 * [Michelle Pepe's solution](https://github.com/MichellePepe/Garden_Of_Eden_Restaurant) | [View in browser](https://github.com/MichellePepe/Garden_Of_Eden_Restaurant/blob/master/index.html)
 * [Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Manipulating%20the%20DOM%20with%20jQuery)
+* [Nikola Čvorović's solution](https://github.com/cvorak/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/cvorak/restaurant/blob/master/index.html)
 * Add your solution above this line!
+
 
 
 ## Additional Resources
