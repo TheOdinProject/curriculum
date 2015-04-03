@@ -5,7 +5,7 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find_by_id(params[:id])
-    if @user
+    if @user 
     else
       flash[:error] = "There was no user by that name"
       redirect_to :back

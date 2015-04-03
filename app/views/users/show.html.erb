@@ -31,7 +31,7 @@
           <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Link your #{provider.to_s.titleize} account".html_safe, omniauth_authorize_path(:user, :github), id: 'github-link', class: 'btn btn-social btn-large btn-lg btn-github' %><br />
         <% end -%>
       <% end %>
-      <% if !@user.about.empty? or @edit %>
+      <% if !@user.about.blank? or @edit %>
         <h3>About</h3>
         <div class="profile-about">
           <% if @edit %>
@@ -72,19 +72,19 @@
         <% else %>
 
           <ul>
-            <% if !@user.skype.empty? %>
+            <% if !@user.skype.blank? %>
             <li>
               Skype: <%= @user.skype %>
             </li>
             <% end %>
             
-            <% if !@user.screenhero.empty? %>
+            <% if !@user.screenhero.blank? %>
             <li>
               ScreenHero:  <%= @user.screenhero %>
             </li>       
             <% end %>
             
-            <% if !@user.google_plus.empty? %>
+            <% if !@user.google_plus.blank? %>
             <li>
               <i class="fa fa-google-plus"></i>
               : <%= @user.google_plus %>
@@ -92,28 +92,28 @@
             <% end %>
             
             <li><hr></li>
-            <% if !@user.github.empty? %>
+            <% if !@user.github.blank? %>
             <li>
               <i class="fa fa-github"></i>
               : <%= link_to  @user.github, github_url(@user) %>
             </li>
             <% end %>
             
-            <% if !@user.twitter.empty? %>
+            <% if !@user.twitter .blank? %>
             <li>
               <i class="fa fa-twitter"></i>
               : <%= link_to @user.twitter, twitter_url(@user) %>
             </li>
             <% end %>
             
-            <% if !@user.facebook.empty? %>
+            <% if !@user.facebook.blank? %>
             <li>
               <i class="fa fa-facebook-square"></i>
               : <%= link_to @user.facebook, facebook_url(@user) %>
             </li>
             <% end %>
             
-            <% if !@user.linkedin.empty? %>            
+            <% if !@user.linkedin.blank? %>            
             <li>
               <i class="fa fa-linkedin"></i>
               : <%= link_to @user.linkedin, @user.linkedin %>
@@ -124,13 +124,13 @@
       </div>
     </div>
     
-    <% if !@user.completed_lessons.empty? %>
+    <% if !@user.completed_lessons.blank?%>
     <div class="span6">
       <div class="profile-projects">
         <h3>Completed Lessons</h3>
         <ul>
           <% @user.completed_lessons.each do |lesson| %>
-            <li><%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url)) %></li>
+            <li><i class="fa fa-check"></i> <%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url)) %></li>
           <% end %>
         </ul>
       </div>

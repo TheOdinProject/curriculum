@@ -222,8 +222,8 @@ footer {
   max-height: 270px;
   height: 270px;
   text-align: right;
-  border: 1px solid #ccc;
-  box-shadow: 2px 2px #ccc;
+  border: 1px solid $vlight_gray;
+  box-shadow: 2px 2px $vlight_gray;
 }
 
 .profile-contact-links{
@@ -239,7 +239,9 @@ h2.profile-headline{
 h3.contact-me{
 
 }
-
+.contact-user-button{
+  background-color: $main_blue;
+}
 .edit-profile{
   display: inline-block;
   margin: 0px 0px 15px 25px;
@@ -256,6 +258,7 @@ a.edit-projects{
 .profile-about{
   height: 130px;
   margin-bottom: 20px;
+  box-shadow: 2px 2px $vlight_gray;
 }
 
 form#edit-user{
@@ -279,7 +282,7 @@ form#edit-user{
     max-height: 100px;
     float: left;
     margin-left: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid $vlight_gray;
   }
   .student-info{
     margin-left: 20px;
@@ -302,7 +305,15 @@ form#edit-user{
   font-size: 20px;
   margin-bottom: 20px;
 }
-
+.profile-projects{
+    box-shadow: 2px 2px $vlight_gray;
+    & ul{
+      list-style-type: none;
+    }
+    &  .fa-check{
+      color: $button_green;
+    }
+}
 /* ****************** FORUM ********************** */
 #forum{
 
