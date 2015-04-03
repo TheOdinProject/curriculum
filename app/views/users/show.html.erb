@@ -31,16 +31,18 @@
           <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Link your #{provider.to_s.titleize} account".html_safe, omniauth_authorize_path(:user, :github), id: 'github-link', class: 'btn btn-social btn-large btn-lg btn-github' %><br />
         <% end -%>
       <% end %>
-      <h3>About</h3>
-      <div class="profile-about">
-        <% if @edit %>
-          <textarea id="user_about" name="user[about]" cols="70" rows="8" placeholder="Tell us about yourself!"><%= @user.about %></textarea>
-        <% else %>
-          <p>
-            <%= @user.about %>
-          </p>
-        <% end %>
-      </div>
+      <% if !@user.about.empty? or @edit %>
+        <h3>About</h3>
+        <div class="profile-about">
+          <% if @edit %>
+            <textarea id="user_about" name="user[about]" cols="70" rows="8" placeholder="Tell us about yourself!"><%= @user.about %></textarea>
+          <% else %>
+            <p>
+              <%= @user.about %>
+            </p>
+          <% end %>
+        </div>
+      <% end %>
     </div>
   </div>
 
@@ -70,19 +72,59 @@
         <% else %>
 
           <ul>
-            <li>Skype: <%= @user.skype %></li>
-            <li>ScreenHero: <%= @user.screenhero %></li>
-            <li>Google Plus: <%= @user.google_plus %></li>
+            <% if !@user.skype.empty? %>
+            <li>
+              Skype: <%= @user.skype %>
+            </li>
+            <% end %>
+            
+            <% if !@user.screenhero.empty? %>
+            <li>
+              ScreenHero:  <%= @user.screenhero %>
+            </li>       
+            <% end %>
+            
+            <% if !@user.google_plus.empty? %>
+            <li>
+              <i class="fa fa-google-plus"></i>
+              : <%= @user.google_plus %>
+            </li>
+            <% end %>
+            
             <li><hr></li>
-            <li>Github: <a href="http://www.github.com/<%= @user.github %>"><%= @user.github %></a></li>
-            <li>Twitter: <a href="<%= twitter_url(@user)%>"><%= @user.twitter %></a></li>
-            <li>Facebook: <a href="<%= @user.facebook %>"><%= @user.facebook %></a></li>
-            <li>LinkedIn: <a href="<%= @user.linkedin %>"><%= @user.linkedin %></a></li>
+            <% if !@user.github.empty? %>
+            <li>
+              <i class="fa fa-github"></i>
+              : <%= link_to  @user.github, github_url(@user) %>
+            </li>
+            <% end %>
+            
+            <% if !@user.twitter.empty? %>
+            <li>
+              <i class="fa fa-twitter"></i>
+              : <%= link_to @user.twitter, twitter_url(@user) %>
+            </li>
+            <% end %>
+            
+            <% if !@user.facebook.empty? %>
+            <li>
+              <i class="fa fa-facebook-square"></i>
+              : <%= link_to @user.facebook, facebook_url(@user) %>
+            </li>
+            <% end %>
+            
+            <% if !@user.linkedin.empty? %>            
+            <li>
+              <i class="fa fa-linkedin"></i>
+              : <%= link_to @user.linkedin, @user.linkedin %>
+            </li>
+            <% end %>
           </ul>
         <% end %>
       </div>
     </div>
-
+    
+    <% if !@user.completed_lessons.empty? %>
     <div class="span6">
       <div class="profile-projects">
         <h3>Completed Lessons</h3>
@@ -93,7 +135,7 @@
         </ul>
       </div>
     </div>
-
+    <% end %>
     <% if @edit %>
       </form>
     <% end %>

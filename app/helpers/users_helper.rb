@@ -14,8 +14,20 @@ module UsersHelper
       else
         url = "http://www.twitter.com/#{user.twitter}"
       end
-    else
-      url
     end
   end 
+
+  def github_url(user)
+    url = ""
+    if user.github
+      url = "http://www.github.com/#{user.github}"
+    end
+  end
+
+  def facebook_url(user)
+    url = ""
+    if user.facebook
+      url = "https://www.facebook.com/#{user.facebook}"
+    end
+  end
 end
