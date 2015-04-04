@@ -89,6 +89,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/serialization/tree/master/hangman)
 * [Rafael E's solution](https://github.com/NerdDiffer/hangman)
 * [LongPotato's solution](https://github.com/LongPotato/Hangman_GUI)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/Hangman)
 * Add your solution above this line!
 
 
