@@ -30,4 +30,14 @@ module UsersHelper
       url = "https://www.facebook.com/#{user.facebook}"
     end
   end
+  def linkedin_url(user)
+    url = ""
+    if user.linkedin
+      url = "https://www.linkedin.com/in/#{user.linkedin}"
+    end
+  end
+  def lesson_time(user, lesson)
+    time = user.lesson_completion_time(lesson)
+    time.to_formatted_s(:long)
+  end
 end
