@@ -107,6 +107,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Jason Matthews' solution](https://github.com/fo0man/members-only)
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/clubhouse)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/members-only)
+* [Lara Finnegan's solution](https://github.com/lcf0285/members-only)
 * Add your solution above this line!
 
 
