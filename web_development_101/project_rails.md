@@ -64,9 +64,10 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Ryan Jordan's solution](https://github.com/krjordan/Blogger)
 * [Andrej Dragojevic's solution](https://github.com/antrix1/blogger) | [View in browser](https://serene-waters-9909.herokuapp.com/)
 * [eddie's solution](https://github.com/feek1g/theodinproject/tree/master/blogger) | [View in browser](https://blogger2017.herokuapp.com/)
-* [Rick Stewart's solution](https://github.com/rickstewart/blogger) | [View in Browser](https://still-shore-5838.herokuapp.com/)
-* [Tamim Sookoor's solution](https://github.com/sookoor/blogger) | [View in Browser](https://protected-forest-6447.herokuapp.com/articles)
+* [Rick Stewart's solution](https://github.com/rickstewart/blogger) | [View in browser](https://still-shore-5838.herokuapp.com/)
+* [Tamim Sookoor's solution](https://github.com/sookoor/blogger) | [View in browser](https://protected-forest-6447.herokuapp.com/articles)
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/rails-blogger)
+* [John Lampe's solution](https://github.com/jlampe1985/blogger-project) | [View in browser](https://warm-savannah-2524.herokuapp.com/)
 * Add your solution above this line!
 
 
