@@ -132,6 +132,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Julian Feliciano's solution](https://github.com/JulsFelic/re-former)
 * [Trump's solution](https://github.com/trump812/OdinProject/tree/master/Ruby_on_Rails/re-former)
 * [Lara Finnegan's solution](https://github.com/lcf0285/re-former)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/re-former)
 * Add your solution above this line!
 
 
