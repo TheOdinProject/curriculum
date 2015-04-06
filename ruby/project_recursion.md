@@ -40,6 +40,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/fib2.rb)
 * [Nikola Čvorović's solution](https://github.com/cvorak/Recursion/blob/master/fibonacci.rb)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/recursion/blob/master/fibonacci.rb)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/recursion_project/fibonacci.rb)
 * Add your solution above this line!
 
 
@@ -91,6 +92,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Nikola Čvorović's solution](https://github.com/cvorak/Recursion/blob/master/merge_sort.rb)
 * [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/merge_sort.rb)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/recursion/blob/master/merge_sort.rb)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/recursion_project/merge_sort.rb)
 * Add your solution above this line!
 
 
