@@ -57,7 +57,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [JrodManU's solution](https://github.com/JrodManU/tic-tac-toe)
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/my_ruby_projects/blob/master/Tic-tac-toe.rb)
 * [Chris Dziewa's solution](https://github.com/chrisdziewa/tic_tac_toe)
-* [Jeremy Mauzy's solution](https://github.com/apositivejam/tictactoe/blob/master/tictactoe.rb)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/tictactoe/tictactoe.rb)
 * [Rafael E's solution](https://github.com/NerdDiffer/tic-tac-toe)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_oop/blob/master/tic_tac_toe.rb)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/Tic-Tac-Toe/blob/master/tic_tac_toe3.rb)
@@ -109,7 +109,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Chris Dziewa's solution (no AI)](https://github.com/chrisdziewa/mastermind)
 * [hiendinhngoc's solution (no AI)](https://github.com/hiendinhngoc/TheOdinProject/blob/master/mastermind.rb)
 * [Kevin Mulhern's solution (with AI)](https://github.com/KevinMulhern/ruby_oop/blob/master/mastermind.rb)
-* [Jeremy Mauzy's solution (no AI)](https://github.com/apositivejam/mastermind/blob/master/mastermind.rb)
+* [Jeremy Mauzy's solution (no AI)](https://github.com/apositivejam/the_odin_project/blob/master/mastermind/mastermind.rb)
 * [Rafael E's solution (with AI)](https://github.com/NerdDiffer/Mastermind)
 * [Tomislav Mikulin's solution (with simple AI)](https://github.com/MrKindle85/Mastermind/blob/master/mastermind.rb)
 * Add your solution above this line!
