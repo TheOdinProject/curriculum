@@ -234,7 +234,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Michelle CV's solution](https://github.com/michellecv/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/michellecv/google_homepage/blob/master/index.html)
 * [trump's solution](https://github.com/trump812/google-homepage)
 * [Tobiastp's solution](https://github.com/tobiastp/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/tobiastp/google-homepage/blob/master/index.html)
-* [Jeremy Mauzy's solution](https://github.com/apositivejam/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/apositivejam/google-homepage/blob/master/google.html)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/apositivejam/the_odin_project/blob/master/google-homepage/google.html)
 * [Vladimir M Romeo's solution](https://github.com/vmr1981/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vmr1981/google-homepage/blob/master/index.html)
 * [Faraj Daoud's solution](https://github.com/GHOSTRID8R/Google-Homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/GHOSTRID8R/Google-Homepage/blob/master/index.html)
 * [Nicole Wong's solution](https://github.com/reneos/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/reneos/google-homepage/blob/master/index.html)
