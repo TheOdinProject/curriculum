@@ -76,6 +76,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/rubyProjects)
 * [omokoro's solution](https://github.com/omokoro/ruby_project)
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/testfirst_ruby)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/Ruby_TDD_exercises)
 * Add your solution above this line!
 
 
