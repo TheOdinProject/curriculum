@@ -90,6 +90,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Rafael E's solution](https://github.com/NerdDiffer/hangman)
 * [LongPotato's solution](https://github.com/LongPotato/Hangman_GUI)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/Hangman)
+* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/Hangman)
 * Add your solution above this line!
 
 
