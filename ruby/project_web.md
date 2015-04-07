@@ -40,6 +40,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Lara Finnegan's solution](https://github.com/lcf0285/microblogger)
 * [Nikola Čvorović's solution](https://github.com/cvorak/Twiteer_Spambot)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_on_the_web/tree/master/microblogger)
+* [Chris Dziewa's solution](https://github.com/chrisdziewa/twitter-bot)
 * Add your solution above this line!
 
 
@@ -191,6 +192,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Dominik Stodolny's solution](https://github.com/dstodolny/web_server)
 * [Jason Matthews's solution](https://github.com/fo0man/tiny_web_server)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_on_the_web/tree/master/web_server_and_client)
+* [Chris Dziewa's solution](https://github.com/chrisdziewa/ruby-server)
 * Add your solution above this line!
 
 
