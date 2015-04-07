@@ -30,6 +30,7 @@ Developers are passionate builders and they often enjoy taking part in various c
 
       * [Coding Horror](http://www.codinghorror.com/blog/)
       * [Joel on Software](http://www.joelonsoftware.com/)
+      * [Code Simplicity](http://www.codesimplicity.com/)
 
 ## Specialty
 * **[RailsBridge](http://workshops.railsbridge.org/)** -- An outreach for aspiring Ruby-on-Rails developers that is emphatically female and LGBTQ friendly.  Their weekend workshops are rapidly spreading.
