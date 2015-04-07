@@ -238,34 +238,30 @@ footer {
   ul{
     list-style-type: none;
   }
-  & i:hover{
-    text-decoration: none;
-    color: $box_shadow;
-  }
+
   & .social-links{
-    font-size: 30px;
+    font-size: 40px;
     & li{
       display: inline;
-    }
-    
-    & li a:hover{
+    } 
+    & a:hover{
       text-decoration:none;
     }
     
     & .fa-twitter{
-      color: #4099FF;
+      @include social-link(#4099FF); 
     }
-    & .fa-facebook{
-      color: #3b5998;
+    & .fa-facebook-square{
+      @include social-link(#3b5998); 
     }
     & .fa-linkedin{
-      color: #007bb6;
+      @include social-link(#007bb6);  
     }
     & .fa-google-plus{
-      color: #dd4b39;
+      @include social-link(#dd4b39);   
     }
     & .fa-github{
-      color: #333;
+      @include social-link(#333);      
     }
   }
 }
@@ -280,7 +276,6 @@ h3.contact-me{
 }
 .contact-user-button{
   background-color: $main_blue;
-  color: $box_shadow;
 }
 .edit-profile{
   display: inline-block;
