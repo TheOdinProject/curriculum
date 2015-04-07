@@ -41,6 +41,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Nikola Čvorović's solution](https://github.com/cvorak/Twiteer_Spambot)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_on_the_web/tree/master/microblogger)
 * [Chris Dziewa's solution](https://github.com/chrisdziewa/twitter-bot)
+* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/TwitterSpambot)
 * Add your solution above this line!
 
 
