@@ -222,23 +222,66 @@ footer {
   max-height: 270px;
   height: 270px;
   text-align: right;
-  border: 1px solid #ccc;
+  border: 1px solid $vlight_gray;
+  -moz-box-shadow: 2px 2px  $box_shadow;
+  -webkit-box-shadow: 2px 2px  $box_shadow;
+  box-shadow: 2px 2px  $box_shadow;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  & a{
+    top: 10px;
+  }
 }
 
 .profile-contact-links{
   ul{
     list-style-type: none;
   }
+  & i:hover{
+    text-decoration: none;
+    color: $box_shadow;
+  }
+  & .social-links{
+    font-size: 30px;
+    & li{
+      display: inline;
+    }
+    
+    & li a:hover{
+      text-decoration:none;
+    }
+    
+    & .fa-twitter{
+      color: #4099FF;
+    }
+    & .fa-facebook{
+      color: #3b5998;
+    }
+    & .fa-linkedin{
+      color: #007bb6;
+    }
+    & .fa-google-plus{
+      color: #dd4b39;
+    }
+    & .fa-github{
+      color: #333;
+    }
+  }
 }
 
 h2.profile-headline{
   display: inline-block;
+  color: $box_shadow;
 }
 
 h3.contact-me{
 
 }
-
+.contact-user-button{
+  background-color: $main_blue;
+  color: $box_shadow;
+}
 .edit-profile{
   display: inline-block;
   margin: 0px 0px 15px 25px;
@@ -255,6 +298,13 @@ a.edit-projects{
 .profile-about{
   height: 130px;
   margin-bottom: 20px;
+  -moz-box-shadow: 2px 2px $box_shadow;
+  -webkit-box-shadow: 2px 2px $box_shadow;
+  box-shadow: 2px 2px $box_shadow;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  overflow: auto;
 }
 
 form#edit-user{
@@ -278,7 +328,7 @@ form#edit-user{
     max-height: 100px;
     float: left;
     margin-left: 30px;
-    border: 1px solid #ccc;
+    border: 1px solid $vlight_gray;
   }
   .student-info{
     margin-left: 20px;
@@ -301,7 +351,24 @@ form#edit-user{
   font-size: 20px;
   margin-bottom: 20px;
 }
-
+.profile-projects{
+     -moz-box-shadow: 2px 2px $box_shadow;
+    -webkit-box-shadow: 2px 2px $box_shadow;
+    box-shadow: 2px 2px $box_shadow;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    & ul{
+      list-style-type: none;
+    }
+    &  .fa-check{
+      color: $button_green;
+    }
+    & p{
+      margin-left: 20px;
+    }
+}
 /* ****************** FORUM ********************** */
 #forum{
 

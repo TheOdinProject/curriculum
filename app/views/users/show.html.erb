@@ -21,9 +21,9 @@
       <% if @user == current_user %>
         <% if @edit %>
           <input type="submit" class="btn btn-medium btn-primary edit-profile" value="Update" >
-          <%= link_to "Cancel", @user, :class => "edit-profile" %>
+      <%= link_to "Cancel", @user, :class => "edit-profile btn btn-medium btn-warning" %>
         <% else %>
-          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium'>Edit Profile</button></a>
+          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium btn-primary'>Edit Profile</button></a>
         <% end %>
       <% end %>
       <% if @user == current_user && @user.provider.nil? %>
@@ -31,16 +31,18 @@
           <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Link your #{provider.to_s.titleize} account".html_safe, omniauth_authorize_path(:user, :github), id: 'github-link', class: 'btn btn-social btn-large btn-lg btn-github' %><br />
         <% end -%>
       <% end %>
-      <h3>About</h3>
-      <div class="profile-about">
-        <% if @edit %>
-          <textarea id="user_about" name="user[about]" cols="70" rows="8" placeholder="Tell us about yourself!"><%= @user.about %></textarea>
-        <% else %>
-          <p>
-            <%= @user.about %>
-          </p>
-        <% end %>
-      </div>
+      <% if !@user.about.blank? or @edit %>
+        <h3>About</h3>
+        <div class="profile-about">
+          <% if @edit %>
+            <textarea id="user_about" name="user[about]" cols="70" rows="8" placeholder="Tell us about yourself!"><%= @user.about %></textarea>
+          <% else %>
+            <p>
+              <%= @user.about %>
+            </p>
+          <% end %>
+        </div>
+      <% end %>
     </div>
   </div>
 
@@ -59,41 +61,90 @@
           <ul>
             <li><input type="text" id="user_skype" name="user[skype]" size="50" placeholder="Skype username..." value="<%= @user.skype %>"></li>
             <li><input type="text" id="user_screenhero" name="user[screenhero]" size="50" placeholder="ScreenHero username..." value="<%= @user.screenhero %>"></li>
-            <li><input type="text" id="user_google_plus" name="user[google_plus]" size="50" placeholder="Google Plus username..." value="<%= @user.google_plus %>"></li>
             <li><hr></li>
+            <li><input type="text" id="user_google_plus" name="user[google_plus]" size="50" placeholder="Google Plus URL..." value="<%= @user.google_plus %>"></li>
             <li><input type="text" id="user_github" name="user[github]" size="50" placeholder="Github username..." value="<%= @user.github %>"></li>
             <li><input type="text" id="user_twitter" name="user[twitter]" size="50" placeholder="Twitter handle..." value="<%= @user.twitter %>"></li>
-            <li><input type="text" id="user_facebook" name="user[facebook]" size="50" placeholder="URL for your Facebook profile..." value="<%= @user.facebook %>"></li>
-            <li><input type="text" id="user_linkedin" name="user[linkedin]" size="50" placeholder="URL for your LinkedIn profile..." value="<%= @user.linkedin %>"></li>
+            <li><input type="text" id="user_facebook" name="user[facebook]" size="50" placeholder="Facebook username..." value="<%= @user.facebook %>"></li>
+            <li><input type="text" id="user_linkedin" name="user[linkedin]" size="50" placeholder="LinkedIn username..." value="<%= @user.linkedin %>"></li>
           </ul>
 
         <% else %>
 
           <ul>
-            <li>Skype: <%= @user.skype %></li>
-            <li>ScreenHero: <%= @user.screenhero %></li>
-            <li>Google Plus: <%= @user.google_plus %></li>
+            <% if !@user.skype.blank? %>
+            <li>
+              Skype: <%= @user.skype %>
+            </li>
+            <% end %>
+            
+            <% if !@user.screenhero.blank? %>
+            <li>
+              ScreenHero:  <%= @user.screenhero %>
+            </li>       
+            <% end %>
             <li><hr></li>
-            <li>Github: <a href="http://www.github.com/<%= @user.github %>"><%= @user.github %></a></li>
-            <li>Twitter: <a href="<%= twitter_url(@user)%>"><%= @user.twitter %></a></li>
-            <li>Facebook: <a href="<%= @user.facebook %>"><%= @user.facebook %></a></li>
-            <li>LinkedIn: <a href="<%= @user.linkedin %>"><%= @user.linkedin %></a></li>
+            
+        </ul>
+        <ul class="social-links">
+          <% if !@user.google_plus.blank? %>
+            <li>
+              <%= link_to @user.google_plus do %>
+              <i class="fa fa-google-plus"></i>
+              <% end %>
+            </li>
+            <% end %>
+                 
+            <% if !@user.github.blank? %>
+            <li>
+              <%= link_to github_url(@user) do %>
+              <i class="fa fa-github"></i>
+              <% end %>
+            </li>
+            <% end %>
+            
+            <% if !@user.twitter .blank? %>
+            <li>
+              <%= link_to twitter_url(@user) do%>
+              <i class="fa fa-twitter"></i>
+              <% end %>
+            </li>
+            <% end %>
+            
+            <% if !@user.facebook.blank? %>
+            <li>
+              <%= link_to facebook_url(@user) do %>
+              <i class="fa fa-facebook-square"></i>
+              <% end %>
+            </li>
+            <% end %>
+            
+            <% if !@user.linkedin.blank? %>            
+            <li>
+              <%= link_to linkedin_url(@user) do%>
+              <i class="fa fa-linkedin"></i>
+              <% end %>
+            </li>
+            <% end %>
           </ul>
         <% end %>
       </div>
     </div>
-
+    
+    <% if !@user.completed_lessons.blank?%>
     <div class="span6">
       <div class="profile-projects">
-        <h3>Completed Lessons</h3>
+        <h3>Completed Lessons: <%= @user.completed_lessons.count %></h3>
         <ul>
           <% @user.completed_lessons.each do |lesson| %>
-            <li><%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url)) %></li>
+            <li><i class="fa fa-check"></i> <%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url)) %>
+              <p>Completed: <%= lesson_time(@user, lesson) %> UTC</p>
+          </li>
           <% end %>
         </ul>
       </div>
     </div>
-
+    <% end %>
     <% if @edit %>
       </form>
     <% end %>
