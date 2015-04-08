@@ -29,7 +29,6 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Arman Ghassemi's solution](https://github.com/ArmanG/Rest-Client)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/rest_client)
 * [Lara Finnegan's solution](https://github.com/lcf0285/rest-client/blob/master/google_search.rb)
-* [Trump's solution](https://github.com/trump812/RestClient)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/rest_client)
 * Add your solution above this line!
 
