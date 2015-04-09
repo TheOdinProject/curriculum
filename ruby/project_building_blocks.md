@@ -299,4 +299,5 @@ Next, make sure your method can handle multiple words:
 * [Tom McGinn's solution](https://github.com/tjmcgi/ruby_substrings/blob/master/substrings.rb)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/ruby_building_blocks_assignments/substrings.rb)
 * [Richard Stewart's solution](https://github.com/rickstewart/Ruby_Building_Blocks/blob/master/substrings.rb)
+* [Sam Webb's solution](https://github.com/salexzee/substring/blob/master/sub.rb)
 * Add your solution above this line!
