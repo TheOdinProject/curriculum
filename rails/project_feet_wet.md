@@ -53,6 +53,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/toy_app)
 * [Trump's solution](https://github.com/trump812/toy_app)
 * [Kevin Weir's solution](https://github.com/IDCrisis2/the_odin_project/tree/master/Starting%20the%20RoR%20Tutorial/toy_app)
+* [Filipe's solution](https://github.com/panceri/demo-app)
 * Add your solution above this line!
 
 
