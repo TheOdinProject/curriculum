@@ -32,6 +32,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* [Hailey's solution](https://github.com/hmfoster/embedded-youtube.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/embedded-youtube/blob/master/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/embedding_media)
 * [Vincent's solution](https://github.com/wingyu/youtube_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/youtube_replica/blob/master/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_05-Advanced_HTML_and_CSS/youtube) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_05-Advanced_HTML_and_CSS/youtube/index.html)
