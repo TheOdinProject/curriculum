@@ -108,7 +108,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/clubhouse)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/members-only)
 * [Lara Finnegan's solution](https://github.com/lcf0285/members-only)
-* [Kevin Mulhern's solution](https://github.com/KevinMulhern/members-only) | [View it in the browser](https://mysterious-tundra-4233.herokuapp.com/)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/members-only) | [View in browser](https://mysterious-tundra-4233.herokuapp.com/)
 * Add your solution above this line!
 
 
