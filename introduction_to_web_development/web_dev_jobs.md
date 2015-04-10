@@ -19,6 +19,10 @@ Small tech startups value the ability to build and ship code above all else, so 
 ## Example: As a Freelancer
 Freelancers are able to command a strong hourly wage and the freedom to make their own hours and design their own products.  The downside is that they're also responsible for hustling to get their own gigs (which takes time away from coding), managing billing from clients (who can be notoriously difficult), and covering the full stack of the website (if it breaks, it's your fault).  They may come on to help out with existing projects or build for clients from scratch but, either way, strong people skills are necessary.
 
+#### Optional Reading
+
+* Udacity blog: [Front-End Web Development: Freelancing vs. Full Time](http://blog.udacity.com/2014/09/front-end-web-dev-freelance.html).
+
 *Do you work as a developer at one of these companies or know someone who does?  We'd love to find out what is "A Day in the Life Of...".  Please [email us](mailto:curriculum@theodinproject.com) if we can do a quick interview about it and post it here!*
 
 ## Example: At a Consulting Company
