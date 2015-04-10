@@ -223,9 +223,6 @@ footer {
   height: 270px;
   text-align: right;
   border: 1px solid $vlight_gray;
-  -moz-box-shadow: 2px 2px  $box_shadow;
-  -webkit-box-shadow: 2px 2px  $box_shadow;
-  box-shadow: 2px 2px  $box_shadow;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -293,9 +290,6 @@ a.edit-projects{
 .profile-about{
   height: 130px;
   margin-bottom: 20px;
-  -moz-box-shadow: 2px 2px $box_shadow;
-  -webkit-box-shadow: 2px 2px $box_shadow;
-  box-shadow: 2px 2px $box_shadow;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -347,9 +341,6 @@ form#edit-user{
   margin-bottom: 20px;
 }
 .profile-projects{
-     -moz-box-shadow: 2px 2px $box_shadow;
-    -webkit-box-shadow: 2px 2px $box_shadow;
-    box-shadow: 2px 2px $box_shadow;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
