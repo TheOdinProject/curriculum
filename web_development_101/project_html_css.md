@@ -277,7 +277,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Chris Fullinwider's solution](https://github.com/Fully34/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Fully34/google-homepage/blob/master/Homepage.html) 
 * [Max nynd's solution](https://github.com/nynd/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nynd/google-homepage/blob/master/googlehomepage.html)
 * [Drew Horge's solution](https://github.com/remlyfe/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/remlyfe/google-homepage/blob/master/index.html)
-* [Jason Symons' solution](https://github.com/jsymons/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jsymons/google-homepage/blob/master/index.html)
+* [Jason Symons' solution](https://github.com/jsymons/the-odin-project/blob/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jsymons/the-odin-project/blob/master/google-homepage/index.html)
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/JaveedIshaq/google-homepage/blob/master/google-homepage.html)
 * [SiriusBlak's solution](https://github.com/SiriusBlak/google-homepage)
 * Add your solution above this line! 
