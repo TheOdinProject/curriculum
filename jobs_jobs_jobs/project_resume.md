@@ -14,3 +14,7 @@ Remember: ONE PAGE.
 
 * [ResumeRepublic.com has a free tier with sample online resumes](https://www.resumerepublic.com/)
 * [Formatting could use some work, but here's an example resume from CareerCup.com](http://www.careercup.com/resume)
+
+#### Optional Reading
+
+* [Getting Your Résumé Read, by Joel Spolsky](http://www.joelonsoftware.com/articles/ResumeRead.html)
