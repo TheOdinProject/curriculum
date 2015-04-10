@@ -157,4 +157,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Rafael Ruiz's solution](https://github.com/rruimor/sketch-pad) | [View in browser](http://rruimor.github.io/sketch-pad/)
 * [Chris McIntyre's solution](https://github.com/leamerluck/etch-a-sketch/tree/master/the_odin_project/etch-a-sketch) | [View in browser](https://rawgit.com/leamerluck/etch-a-sketch/master/the_odin_project/etch-a-sketch/index.html)
 * [Swati Kumar's solution](https://github.com/swatikumar16/Etch-a-Sketch)
+* [Dan Hoying's solution](https://github.com/danhoying/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/danhoying/sketchpad/blob/master/sketchpad.html)
 * Add your solution above this line!
