@@ -40,12 +40,16 @@ class User < ActiveRecord::Base
   def completed_lesson?(lesson)
     self.completed_lessons.include?(lesson)
   end
-
+  
   def latest_completed_lesson
     lc = self.latest_lesson_completion
     Lesson.find(lc.lesson_id) unless lc.nil?
   end
-
+  
+  def lesson_completion_time(lesson)
+   t = self.lesson_completions.where("lesson_id = %s ", lesson.id ).limit(1)
+    t.first["created_at"]
+  end
   def latest_lesson_completion
     self.lesson_completions.order(:created_at => :desc).first
   end

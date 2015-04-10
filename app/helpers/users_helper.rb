@@ -14,8 +14,30 @@ module UsersHelper
       else
         url = "http://www.twitter.com/#{user.twitter}"
       end
-    else
-      url
     end
   end 
+
+  def github_url(user)
+    url = ""
+    if user.github
+      url = "http://www.github.com/#{user.github}"
+    end
+  end
+
+  def facebook_url(user)
+    url = ""
+    if user.facebook
+      url = "https://www.facebook.com/#{user.facebook}"
+    end
+  end
+  def linkedin_url(user)
+    url = ""
+    if user.linkedin
+      url = "https://www.linkedin.com/in/#{user.linkedin}"
+    end
+  end
+  def lesson_time(user, lesson)
+    time = user.lesson_completion_time(lesson)
+    time.to_formatted_s(:long)
+  end
 end
