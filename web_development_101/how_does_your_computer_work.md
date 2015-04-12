@@ -38,5 +38,6 @@ That black screen (or window) is the command line, where you're able to enter co
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Conquering the Command Line](http://conqueringthecommandline.com/book/basics) is a comprehensive book about the command line written very recently.  This links to chapter 1, which will be the most helpful to you.
+* [Learning the Shell: I/O Redirection](http://linuxcommand.org/lc3_lts0070.php) is a nice complement to figure out the [Pipes and Redirection](http://cli.learncodethehardway.org/book/ex15.html) chapter.
 * See common commands on the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html)
 * If you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check, [ExplainShell.com](http://explainshell.com/) is your solution.
