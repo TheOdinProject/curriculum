@@ -44,3 +44,5 @@ We'll also cover a few tips and tools that will be useful to you again and again
 * A comprehensive list of web development resources lives at the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum).
 * [HTTP Succintly](http://net.tutsplus.com/sessions/http-succinctly/)
 * [Pesticide.io is a chrome extension that puts a bright box around every `<div>` on the page](http://pesticide.io/).  That makes it easy to see the makeup of a page without scrolling through all the elements on it with your developer tools.
+* [How the Internet Works [For Web Developers] - Part 1](https://www.youtube.com/watch?v=e4S8zfLdLgQ)
+* [How the Internet Works [For Web Developers] - Part 2](https://www.youtube.com/watch?v=FTAPjr7vgxE)
