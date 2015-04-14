@@ -29,7 +29,7 @@ These instructions will be the same for every project we do.  They may seem stra
 2. Go to your Github.com account and log in.
 3. Create a new repo for this project on Github.com [by following the instructions on Github.](https://help.github.com/articles/create-a-repo) and call it `google-homepage` (instead of `Hello-World`).  Make your repository "Public" instead of "Private".
 4. Go to your new repository on Github (`http://github.com/YOUR_USERNAME/google-homepage`) and take a look at it.  If you scroll down, you'll see that the `README` file you just created is what is displayed by default.
-5. Download your repository to your local computer by using the `$ git clone` command.  [This should be a helpful article](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository)(see the second section). Basically, you'll need to get the URL for your repository (it will end with `.git`) so the `clone` knows where to grab that repo from.  You can find your repo's clone URL by checking on the right-hand column (called "HTTPS clone URL") on the repo's main page on Github.  The full command would look something like `$ git clone https://github.com/theodinproject/curriculum.git`.  It pulls your repo from your Github account down onto your local computer.  
+5. Download your repository to your local computer by using the `$ git clone` command.  [This should be a helpful article](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository)(see the second section). Basically, you'll need to get the URL for your repository (it will end with `.git`) so the `clone` knows where to grab that repo from.  You can find your repo's clone URL by checking on the right-hand column (called "HTTPS clone URL") on the repo's main page on Github.  The full command would look something like `$ git clone https://github.com/theodinproject/curriculum.git`.  It pulls your repo from your Github account down onto your local computer.
 6. `cd` into your project directory on your local computer and open the `README` file in your text editor.  Change its text to include the title of the project and a link to this project on theodinproject.com.
 6. Commit the updated `README` to your Github repository using the commands below on your command prompt:
 
@@ -47,7 +47,7 @@ These instructions will be the same for every project we do.  They may seem stra
 
 *When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push`.*
 
-You should be able to see the changes to your README on Github if you refresh the page.  
+You should be able to see the changes to your README on Github if you refresh the page.
 
 *If you're not comfortable yet with using Git from the command line, you can actually just click into the README file on Github's web interface and then click the Edit button at the top to edit directly on the website.  This is covered in the second part of [the above-mentioned article](https://help.github.com/articles/create-a-repo) on creating a repo*
 
@@ -162,7 +162,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Chris Rinaldi's solution](https://github.com/cgrinaldi/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/cgrinaldi/google-homepage/blob/master/index.html)
 * [Rafael Ruiz Moreno's solution](https://github.com/rruimor/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/rruimor/google-homepage/blob/master/index.html)
 * [Antonio Augusto's solution](https://github.com/antoniosb/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/antoniosb/google-homepage/blob/master/index.html)
-* [Andrej Dragojevic's solution](https://github.com/antrix1/google-home) | [View in browser](http://htmlpreview.github.io/?https://github.com/antrix1/google-home/blob/master/index.html)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/tree/master/Web%20Development%20101/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/antrix1/The-Odin-Project/blob/master/Web%20Development%20101/google_homepage/index.html)
 * [Lara Finnegan's solution](https://github.com/lcf0285/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lcf0285/google-homepage/blob/master/google-homepage.html)
 * [Artur Janik's (Polish) 'difficult' solution](https://github.com/ArturJanik/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/google-homepage/blob/master/index.html)
 * [Rik's (Dutch) solution](https://github.com/frbz/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/frbz/google-homepage/blob/master/index.html)
@@ -234,7 +234,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Michelle CV's solution](https://github.com/michellecv/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/michellecv/google_homepage/blob/master/index.html)
 * [trump's solution](https://github.com/trump812/google-homepage)
 * [Tobiastp's solution](https://github.com/tobiastp/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/tobiastp/google-homepage/blob/master/index.html)
-* [Jeremy Mauzy's solution](https://github.com/apositivejam/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/apositivejam/google-homepage/blob/master/google.html)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/apositivejam/the_odin_project/blob/master/google-homepage/google.html)
 * [Vladimir M Romeo's solution](https://github.com/vmr1981/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vmr1981/google-homepage/blob/master/index.html)
 * [Faraj Daoud's solution](https://github.com/GHOSTRID8R/Google-Homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/GHOSTRID8R/Google-Homepage/blob/master/index.html)
 * [Nicole Wong's solution](https://github.com/reneos/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/reneos/google-homepage/blob/master/index.html)
@@ -247,8 +247,42 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Sarah McManus's solution](https://github.com/sarahmcmanus/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarahmcmanus/google-homepage/blob/master/index.html)
 * [Micah Obal's solution](https://github.com/Hacima/google-homepage-clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/Hacima/google-homepage-clone/blob/master/index.html)
 * [Dmytro Bystrovzorov's solution](https://github.com/dimutro/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dimutro/google-homepage/blob/master/index.html)
-* [ Sami0's solution ](https://github.com/Sami0/google-homepage)|  [View in browser](http://htmlpreview.github.io/?https://github.com/Sami0/google-homepage/blob/master/index.html)
-* Add your solution above this line!
+* [Sami0's solution](https://github.com/Sami0/google-homepage) |  [View in browser](http://htmlpreview.github.io/?https://github.com/Sami0/google-homepage/blob/master/index.html)
+* [Rob Pennington's solution](https://github.com/rPen/The.Odin.Project/tree/master/google-homepage) |  [View in browser](http://htmlpreview.github.io/?https://github.com/rPen/The.Odin.Project/blob/master/google-homepage/index.html)
+* [Courtney Roberson's (Easy) Solution](https://github.com/coro121/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/coro121/google-homepage/blob/master/google%20homepage.html)
+* [Craig LaBruno's Solution](https://github.com/CLaBruno/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/CLaBruno/google-homepage/blob/master/index.html)
+* [ATTrindade's Solution](https://github.com/attrindade/google-homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/attrindade/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/attrindade/google-homepage/blob/master/results-page.html)
+* [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/buildGoogle) |  [View in browser](http://htmlpreview.github.io/?https://github.com/feek1g/theodinproject/blob/master/buildGoogle/index.html)
+* [Chris Peers' solution](https://github.com/ChrisPeers/google-homepage/blob/master/Index.html) | ['Difficult' solution](https://github.com/ChrisPeers/google-homepage/blob/master/Search.html)| [View in browser (difficult)](https://htmlpreview.github.io/?https://github.com/ChrisPeers/google-homepage/blob/master/Search.html)
+* [Matthew's solution](https://github.com/financetech/google-homepage/) |  [View in browser](http://htmlpreview.github.io/?https://github.com/financetech/google-homepage/blob/master/index.html)
+* [Jason's solution](https://github.com/wellsj/google-homepage/) |  [View in browser](http://htmlpreview.github.io/?https://github.com/wellsj/google-homepage/blob/master/index.html)
+* [Gb69010p's solution (easy)](https://github.com/gb69010p/google-homepage) | [Difficult solution](https://github.com/gb69010p/google-search-results) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/gb69010p/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/gb69010p/google-search-results/blob/master/searchresults.html)
+* [Dush's Solution(easy)](https://github.com/De-Cay/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/De-Cay/google-homepage/blob/master/Google.html)
+* [Adrian Kelly's solution](https://github.com/adriankelly/google-homepage) | [View in browser](https://adriankelly.net/google-homepage/)
+* [Nayar Ali's Solution(easy)](https://github.com/nayar-ali/google-homepage) | [View in browser(easy)](http://htmlpreview.github.io/?https://github.com/nayar-ali/google-homepage/blob/master/html/index.html)
+* [Sandeep's solution](https://github.com/sand33pn/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sand33pn/google-homepage/blob/master/index.html)
+* [Brendon's solution](https://github.com/brendonsoto/theOdinProjectLog/tree/master/webDev101/frontEnd/htmlCssBasics/htmlProject) | [View in browser](http://htmlpreview.github.io/?https://github.com/sand33pn/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/brendonsoto/theOdinProjectLog/blob/master/webDev101/frontEnd/htmlCssBasics/htmlProject/results.html)
+* [Razzakun's solution](https://github.com/RazzaFrazza/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/RazzaFrazza/google-homepage/blob/master/index.html)
+* [Alex Perez's solution](https://github.com/alex-perez7/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/alex-perez7/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/alex-perez7/odin_google-homepage/blob/master/googleResultsPage.html)
+* [Swati Kumar's solution](https://github.com/swatikumar16/google-homepage) | [View in browser](http://swatikumar16.github.io/google-homepage/)
+* [Seab Jackson's solution](https://github.com/seabjackson/google-homepage.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/seabjackson/google-homepage/blob/master/index.html)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/web101/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/hiendinhngoc/TheOdinProject/blob/master/web101/google_homepage/html/google.html)
+* [Maia Petee's solution](https://github.com/movetomars/google-homepage) | [View in browser](https://github.com/movetomars/google-homepage/blob/master/index.html)
+* [Dan Hoying's solution](https://github.com/danhoying/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/danhoying/google-homepage/blob/master/index.html)
+* [John Lampe's solution](https://github.com/jlampe1985/google-homepage/blob/master/index.html) | [View in browser](http://jlampe1985.github.io/google-homepage/)
+* [Sasikala's solution](https://github.com/Sasikala-Ravichandran/odin-project/tree/master/Google)| [View in browser](http://htmlpreview.github.io/?https://github.com/Sasikala-Ravichandran/odin-project/blob/master/Google/index.html)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sleaz0id/google-homepage/blob/master/index.html) | [View in browser (Difficult Version)](http://htmlpreview.github.io/?https://github.com/sleaz0id/google-homepage/blob/master/results.html)
+* [Adan Camacho's solution](https://github.com/Adancode/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Adancode/google-homepage/blob/master/index.html)
+* [Kira McLean's solution](https://github.com/kiramc/google-homepage) | [View in browser](https://rawgit.com/kiramc/google-homepage/master/index.html)
+* [Chris Fullinwider's solution](https://github.com/Fully34/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Fully34/google-homepage/blob/master/Homepage.html) 
+* [Max nynd's solution](https://github.com/nynd/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nynd/google-homepage/blob/master/googlehomepage.html)
+* [Drew Horge's solution](https://github.com/remlyfe/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/remlyfe/google-homepage/blob/master/index.html)
+* [Jason Symons' solution](https://github.com/jsymons/the-odin-project/blob/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jsymons/the-odin-project/blob/master/google-homepage/index.html)
+* [Javeed Ishaq's solution](https://github.com/JaveedIshaq/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/JaveedIshaq/google-homepage/blob/master/google-homepage.html)
+* [SiriusBlak's solution](https://github.com/SiriusBlak/google-homepage)
+* Add your solution above this line! 
+
+
 
 
 ## Additional Resources

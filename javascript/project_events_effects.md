@@ -49,6 +49,7 @@ If you think about what's required to make a game like this work, it's all well 
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/snake/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/snake) | [View in browser](http://katemcfaul.com/snake)
 *  [Meher Chandan's solution](https://github.com/meherchandan/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Snake/blob/master/index.html)
+*  [Jason Matthews' solution](https://jsfiddle.net/e2zhssyj/13/)
 * Add your solution above this line!
 
 

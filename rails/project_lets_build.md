@@ -27,6 +27,10 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [afshinator's solution](https://github.com/afshinator/playground/tree/master/RestPinger)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
 * [Arman Ghassemi's solution](https://github.com/ArmanG/Rest-Client)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/rest_client)
+* [Lara Finnegan's solution](https://github.com/lcf0285/rest-client/blob/master/google_search.rb)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/rest_client)
+* [Filipe's solution](https://github.com/panceri/rest-client-demo)
 * Add your solution above this line!
 
 

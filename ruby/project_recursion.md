@@ -39,12 +39,16 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Jason Matthews' solution](https://github.com/fo0man/project_recursion/blob/master/recursion.rb)
 * [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/fib2.rb)
 * [Nikola Čvorović's solution](https://github.com/cvorak/Recursion/blob/master/fibonacci.rb)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/recursion/blob/master/fibonacci.rb)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/recursion_project/fibonacci.rb)
+* [Chris Dziewa's solution](https://github.com/chrisdziewa/recursion/blob/master/fibonacci.rb)
+* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/Recursion/fibo.rb)
 * Add your solution above this line!
 
 
 ## Project: Merge Sort
 
-We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's time to take another look at sorting with [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than bubble sort on the right data sets.  You'll build a method which sorts a given array but uses a "merge sort" method for doing so.  
+We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's time to take another look at sorting with [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than bubble sort on the right data sets.  You'll build a method which sorts a given array but uses a "merge sort" method for doing so.
 
 It can be a bit strange to wrap your head around, but just remember you're "dividing and conquering" the problem.
 
@@ -57,10 +61,10 @@ The first step is to actually understand what the merge sort algorithm is doing:
 
 ### Your Task
 
-1. Build a method `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.  
+1. Build a method `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
 2. Tips:
- 
-    1. Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).  
+
+    1. Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).
     2. It may be helpful to check out the background videos again if you don't quite understand what should be going on.
 
 ### Student Solutions
@@ -89,6 +93,9 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Jason Matthews' solution](https://github.com/fo0man/project_recursion/blob/master/recursion.rb)
 * [Nikola Čvorović's solution](https://github.com/cvorak/Recursion/blob/master/merge_sort.rb)
 * [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/merge_sort.rb)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/recursion/blob/master/merge_sort.rb)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/recursion_project/merge_sort.rb)
+* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/Recursion/merge_sort.rb)
 * Add your solution above this line!
 
 

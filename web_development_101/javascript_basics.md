@@ -105,6 +105,23 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Michelle CV's solution](https://github.com/michellecv/Project_Euler)
 * [Micah Obal's solution](https://github.com/Hacima/Odin-Projects/tree/master/Javascript-101)
 * [Sarah McManus' solution](https://github.com/sarahmcmanus/project-euler)
+* [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/javaScript)
+* [Gb69010p's solution](https://github.com/gb69010p/Project-Euler)
+* [Jason's solution](https://github.com/wellsj/project-euler)
+* [Rob Pennington's solution](https://github.com/rPen/The.Odin.Project/tree/master/JavaScript)
+* [Sandeep Navghane's solution](https://github.com/sand33pn/js)
+* [Alex Perez's solution](https://github.com/alex-perez7/project_euler)
+* [Prashanth Chandra's solution](https://github.com/prashanthcr/js-101) | [View in browser](https://rawgit.com/prashanthcr/js-101/master/index.html)
+* [Brendon's solution](https://github.com/brendonsoto/theOdinProjectLog/tree/master/webDev101/frontEnd/jsBasics)
+* [Maia Petee's solution](https://github.com/movetomars/euler-project)
+* [Matthew's solution](https://github.com/financetech/Project-Euler) 
+* [Vlad Romeo's solution](https://github.com/vmr1981/Project-Euler) | [View in browser](https://rawgit.com/vmr1981/Project-Euler/master/projecteuler.html)
+* [Dan Hoying's solution](https://github.com/danhoying/project_euler)
+* [Swati Kumar's solution](https://github.com/swatikumar16/Project-Euler-Exercises)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/js_euler)
+* [SiriusBlak's solution](https://github.com/SiriusBlak/project_euler)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/Odin-Eulers-Problems)
+* [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/javascript-basics)
 * Add your solution above this line!
 
 

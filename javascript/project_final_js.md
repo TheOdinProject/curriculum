@@ -18,13 +18,13 @@ Of course, you can't copy every single feature and a lot of the user interface w
 2. Try testing the very high level Javascript and Rails functionality with Jasmine and RSpec respectively.  Don't get too bogged down in testing, but try and save yourself time by adding high level tests so you don't need to click around 100 times every time you make a change to something that seems important.
 3. Once you've finished, push to Github and definitely submit your project below!
 
-**Contratulations!**
+**Congratulations!**
 
 ## Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-*
+* [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") | [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
 * Add your solution above this line!
 
 

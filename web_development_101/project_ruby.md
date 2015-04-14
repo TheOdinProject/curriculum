@@ -72,7 +72,12 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Nick Leoutsakos's solution](https://github.com/nleoutsa/Ruby_TDD)
 * [NYJY's solution](https://github.com/nyjy85/Ruby/tree/master/odin_project/test-first-ruby)
 * [Psidium's solution](https://github.com/Psidium/ruby-exercises)
-* [Andrej Dragojevic's solution](https://github.com/antrix1/Ruby_Testing)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/tree/master/Web%20Development%20101/ruby_testing)
+* [Eddie's solution](https://github.com/feek1g/theodinproject/tree/master/rubyProjects)
+* [omokoro's solution](https://github.com/omokoro/ruby_project)
+* [Josh Klein's solution](https://github.com/kleinjoshuaa/testfirst_ruby)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/Ruby_TDD_exercises)
+* [Taylor Buchheit's solution](https://github.com/7aylor/learn_ruby)
 * Add your solution above this line!
 
 

@@ -7,7 +7,7 @@ These projects will give you a chance to actually build some forms, both using n
 
 ## Project 1: Bare Metal Forms and Helpers
 
-In this project, you'll build a form the old fashioned way and then the Rails way. 
+In this project, you'll build a form the old fashioned way and then the Rails way.
 
 ### Your Task
 
@@ -58,7 +58,7 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
     ```language-ruby
         # app/controllers/users_controller.rb
         def create
-          @user = User.new(:username => params[:username], :email => params[:email], :password => params[:password])
+          @user = User.new(username: params[:username], email: params[:email], password: params[:password])
           if @user.save
             redirect_to new_user_path
           else
@@ -111,7 +111,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 
 #### Extra Credit
 
-1. Modify your form view to display a list of the error messages that are attached to your failed model object if you fail validations.  Recall the `#errors` and `#full_messages` methods.  Start by displaying them at the top and then modify 
+1. Modify your form view to display a list of the error messages that are attached to your failed model object if you fail validations.  Recall the `#errors` and `#full_messages` methods.  Start by displaying them at the top and then modify
 
 ### Student Solutions
 
@@ -128,6 +128,11 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Nikola Čvorović's solution](https://github.com/cvorak/re-former)
 * [Jason Matthews' solution](https://github.com/fo0man/re-former)
 * [Sasikala's solution](https://github.com/Sasikala-Ravichandran/re-former)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/re-former)
+* [Julian Feliciano's solution](https://github.com/JulsFelic/re-former)
+* [Trump's solution](https://github.com/trump812/OdinProject/tree/master/Ruby_on_Rails/re-former)
+* [Lara Finnegan's solution](https://github.com/lcf0285/re-former)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/re-former)
 * Add your solution above this line!
 
 
@@ -144,4 +149,4 @@ This chapter will take what you now know about forms and make it part of a real 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* 
+*

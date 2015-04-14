@@ -65,3 +65,4 @@ It won't be until you start hacking on more full-featured applications that you'
 * [Git CheatSheet from Tiimgreen](https://github.com/tiimgreen/github-cheat-sheet)
 * [For the very technical, this site helps you learn Git by building Git (not in Ruby)](http://kushagragour.in/blog/2014/01/build-git-learn-git/)
 * [Visualization for basic git commands](http://www.wei-wang.com/ExplainGitWithD3/)
+* [Interactive search that explains the meaning of any shell command, including git commands](http://explainshell.com)

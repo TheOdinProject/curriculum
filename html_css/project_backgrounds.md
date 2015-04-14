@@ -21,6 +21,8 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/applehome) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/Apple_Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
+* [Artur Janik's solution](https://github.com/ArturJanik/ProjectApple) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectApple/blob/master/index2.html)
+* [Ryan Jordan's solution](https://github.com/krjordan/apple-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/apple-project/blob/master/index.html)
 * Add your solution above this line!
 
 

@@ -15,7 +15,7 @@ But this lesson will take you much deeper and further than you went before, so d
 
 * **Numbers, Operators and Expressions:**
 
-    * What's the difference between an `Integer` and a `Float?`
+    * What's the difference between an `Integer` and a `Float`?
     * Why should you be careful when converting back and forth between integers and floats?
     * What's the difference between `=`, `==`, and `===`?
     * How do you do exponents in Ruby?
