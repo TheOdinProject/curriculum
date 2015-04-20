@@ -93,6 +93,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/Hangman)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/Hangman)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/hangman)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/Hangman/blob/master/hangman.rb)
 * Add your solution above this line!
 
 
