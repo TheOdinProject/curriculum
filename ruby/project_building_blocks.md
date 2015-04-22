@@ -301,4 +301,5 @@ Next, make sure your method can handle multiple words:
 * [Richard Stewart's solution](https://github.com/rickstewart/Ruby_Building_Blocks/blob/master/substrings.rb)
 * [Sam Webb's solution](https://github.com/salexzee/TOProject/blob/master/substrings/sub.rb)
 * [Ryan Jordan's solution](https://github.com/krjordan/ruby_building-blocks/blob/master/substrings.rb)
+* [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/substrings/blob/master/substrings.rb)
 * Add your solution above this line!
