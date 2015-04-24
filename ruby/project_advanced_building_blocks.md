@@ -86,6 +86,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/bubble_sort.rb)
 * [Antonio Augusto's solution](https://github.com/antoniosb/bubble_sort)
 * [Ryan Jordan's solution](https://github.com/krjordan/advanced_building_blocks)
+* [Josh Klein's solution](https://github.com/kleinjoshuaa/Ruby_Programming/blob/master/bubblesort.rb)
 * Add your solution above this line!
 
 
