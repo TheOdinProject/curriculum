@@ -78,6 +78,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/testfirst_ruby)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/Ruby_TDD_exercises)
 * [Taylor Buchheit's solution](https://github.com/7aylor/learn_ruby)
+* [Gb69010p's solution](https://github.com/gb69010p/learn_ruby)
 * Add your solution above this line!
 
 
