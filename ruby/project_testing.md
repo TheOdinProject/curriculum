@@ -60,6 +60,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Artur Janik's solution](https://github.com/ArturJanik/testingruby2)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/connect_four)
 * [Dawn Pattison's solution](https://github.com/pattisdr/theOdinProject/tree/master/connect_four)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/Connect-Four)
 * Add your solution above this line!
 
 
