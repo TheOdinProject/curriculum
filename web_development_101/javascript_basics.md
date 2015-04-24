@@ -123,6 +123,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/Odin-Eulers-Problems)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/javascript-basics)
 * [Bob Blake's solution](https://github.com/Hari96/project-euler)
+* [Chris Fullinwider's solution](https://github.com/Fully34/project_euler_js)
 * Add your solution above this line!
 
 
