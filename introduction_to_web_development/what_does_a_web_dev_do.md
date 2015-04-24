@@ -47,6 +47,10 @@ Google may be a relatively straightforward search engine from our point of view,
 
 "Full Stack" developers marry the two sides into one.  While each "end" involves learning a significant amount of information, a full stack developer can comfortably speak both database and browser.  These days the trend is to seek developers with a great working knowledge of both ends (which is what we're teaching here).
 
+#### Optional Reading
+
+* Udacity blog: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html).
+
 ### Web Developer vs Web Designer
 
 So, if we've got back end developers and front end developers, who makes the website actually look pretty?  Who pulls together the images and logos and color schemes?  That's the web designer's job.  While they have historically been less inclined to handle the actual coding of the page, these days even designers are expected to roll up their sleeves and code a bit.  Some of the best web developers come from design backgrounds.
