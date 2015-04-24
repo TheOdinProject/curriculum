@@ -284,6 +284,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Mamun's solution](https://github.com/JaveedIshaq/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mamun2015/google-homepage/blob/master/index.html)
 * [dwhitebud's solution](https://github.com/dwhitebud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dwhitebud/google-homepage/blob/master/index.html)
 * [Porx's solution](https://github.com/porx/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/porx/google-homepage/blob/master/index.html)
+* [Ninja-ml's solution](https://github.com/ninja-ml/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ninja-ml/google-homepage/blob/master/homepage.html)
 * Add your solution above this line! 
 
 
