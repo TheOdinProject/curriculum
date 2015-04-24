@@ -162,4 +162,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Micah Obal's solution](https://github.com/Hacima/Hacima.github.io/tree/master/sketchpad) | [View in browser](http://hacima.github.io/sketchpad/)
 * [Pedro Amaral's solution](https://github.com/lockemind/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/lockemind/etch-a-sketch/blob/master/index.html)
 * [Prashanth Chandra's solution](https://github.com/prashanthcr/etch-sketch/) | [View in browser](https://cdn.rawgit.com/prashanthcr/etch-sketch/master/index.html)
+* [Maia Petee's solution](https://github.com/movetomars/etch-a-sketch) 
 * Add your solution above this line!
