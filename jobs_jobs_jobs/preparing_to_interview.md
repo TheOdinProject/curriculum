@@ -49,6 +49,8 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 * [Cracking the Coding Interview](http://www.valleytalk.org/wp-content/uploads/2012/10/CrackCode.pdf) is **REQUIRED READING** and it will be your best friend.  It comprehensively covers all the kinds of challenges you might face in a coding interview.  It goes beyond the scope of what we've covered so far in this curriculum and touches on other subjects that are good to know because they will probably come up.  Spend the time to get familiar with as much as you can here.
 * [Interviewing.io](http://interviewing.io/) gives you a chance to practice tech screens anonymously online.
 * [Interview Tips](http://www.interviewcake.com/tips-and-tricks)
+* [How to Ace Your Technical Interview](http://news.dice.com/2014/10/12/ace-technical-interview/)
+* [How You Can Stand Out in Your Next Web Developer Interview](http://blog.udacity.com/2015/01/how-to-stand-out-in-your-web-developer-interview.html)
 * [Post on The Interview](http://blog.martincmartin.com/2010/01/08/finding-a-job-youll-love-the-interview/)
 
 ### Coding Test Questions:
