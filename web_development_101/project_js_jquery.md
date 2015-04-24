@@ -109,7 +109,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Michael Robinson's solution](https://github.com/ockytron/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/ockytron/etch-a-sketch/blob/master/index.html)
 * [ido lichtenstein's solution](https://github.com/idolicht/scatch1)
 * [Alice Rhomieux's solution](https://github.com/arhx/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/arhx/sketchpad/blob/master/index.html)
-* [Syed Aslam's solution](https://github.com/saslam4/SketchPad) | [View in browser](http://htmlpreview.github.io/?https://github.com/saslam4/SketchPad/blob/master/index.html) 
+* [Syed Aslam's solution](https://github.com/saslam4/SketchPad) | [View in browser](http://htmlpreview.github.io/?https://github.com/saslam4/SketchPad/blob/master/index.html)
 * [Asish Prabhakar's solution](https://github.com/akottal/sketchpad/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/akottal/sketchpad/blob/master/index.html)
 * [Eleanor Weigert's solution](https://github.com/mixophrygian/Etcha-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/mixophrygian/Etcha-sketch/blob/master/index.html)
 * [Brandon Eichler's solution](https://github.com/vdubmastertech/etch-a-sketch) | [View in browser](http://rawgit.com/vdubmastertech/etch-a-sketch/master/index.html)
@@ -163,4 +163,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Pedro Amaral's solution](https://github.com/lockemind/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/lockemind/etch-a-sketch/blob/master/index.html)
 * [Prashanth Chandra's solution](https://github.com/prashanthcr/etch-sketch/) | [View in browser](https://cdn.rawgit.com/prashanthcr/etch-sketch/master/index.html)
 * [Maia Petee's solution](https://github.com/movetomars/etch-a-sketch) 
+* [Shkrt's solution](https://github.com/Shkrt/sktchpd) | [View in browser](http://htmlpreview.github.io/?https://github.com/Shkrt/sktchpd/blob/master/index.html)
 * Add your solution above this line!
