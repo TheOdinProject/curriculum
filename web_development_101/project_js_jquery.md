@@ -164,4 +164,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Prashanth Chandra's solution](https://github.com/prashanthcr/etch-sketch/) | [View in browser](https://cdn.rawgit.com/prashanthcr/etch-sketch/master/index.html)
 * [Maia Petee's solution](https://github.com/movetomars/etch-a-sketch) 
 * [Shkrt's solution](https://github.com/Shkrt/sktchpd) | [View in browser](http://htmlpreview.github.io/?https://github.com/Shkrt/sktchpd/blob/master/index.html)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/sleaz0id/sketchpad/blob/master/index.html)
 * Add your solution above this line!
