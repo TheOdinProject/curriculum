@@ -20,9 +20,9 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 
 ## Project: Starting The RoR Tutorial
 
-We will be using the Ruby on Rails Tutorial by Michael Hartl throughout this course.  It is a complete, step-by-step walkthrough of building and testing a Twitter-like microblogging application.  It covers a lot of material but so does this course, so we'll be spacing out the chapters along the way to go with the appropriate lesson material.  
+We will be using the Ruby on Rails Tutorial by Michael Hartl throughout this course.  It is a complete, step-by-step walkthrough of building and testing a Twitter-like microblogging application.  It covers a lot of material but so does this course, so we'll be spacing out the chapters along the way to go with the appropriate lesson material.
 
-Though this tutorial is a major common theme across all the coming lessons and serves to tie them together into one major project, we'll also be building plenty of independent projects along the way.  
+Though this tutorial is a major common theme across all the coming lessons and serves to tie them together into one major project, we'll also be building plenty of independent projects along the way.
 
 In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as complicated as the Blogger Tutorial was and is really just to make sure your system is all set up and your brain is switched into Rails mode.
 
@@ -32,7 +32,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Student Solutions
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).
 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
@@ -54,6 +54,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Trump's solution](https://github.com/trump812/toy_app)
 * [Kevin Weir's solution](https://github.com/IDCrisis2/the_odin_project/tree/master/Starting%20the%20RoR%20Tutorial/toy_app)
 * [Filipe's solution](https://github.com/panceri/demo-app)
+* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/toy_app)
 * Add your solution above this line!
 
 
