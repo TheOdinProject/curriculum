@@ -55,6 +55,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Kevin Weir's solution](https://github.com/IDCrisis2/the_odin_project/tree/master/Starting%20the%20RoR%20Tutorial/toy_app)
 * [Filipe's solution](https://github.com/panceri/demo-app)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/toy_app)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/rails_tutorial_chapter_2)
 * Add your solution above this line!
 
 
