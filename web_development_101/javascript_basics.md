@@ -124,6 +124,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/javascript-basics)
 * [Bob Blake's solution](https://github.com/Hari96/project-euler)
 * [Chris Fullinwider's solution](https://github.com/Fully34/project_euler_js)
+* [Tony Vumbaca's solution](https://github.com/tvumbaca/project-euler-solutions)
 * Add your solution above this line!
 
 
