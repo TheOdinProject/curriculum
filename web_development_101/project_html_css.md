@@ -291,6 +291,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Igor Unzer's solution](https://github.com/cynexyl/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/cynexyl/google-homepage/blob/master/index.html)
 * [Karl Keller's solution](https://github.com/Georgy5/google-homepage)
 * [Glenn Crosby's solution](https://github.com/glennc15/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/glennc15/google-homepage/blob/master/index.html)
+* [Dylan Araps' solution](https://github.com/therealvdeadline/google) | [View in browser](http://therealvdeadline.github.io/google) (Functional)
 * Add your solution above this line! 
 
 
