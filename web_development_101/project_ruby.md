@@ -80,6 +80,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Taylor Buchheit's solution](https://github.com/7aylor/learn_ruby)
 * [Gb69010p's solution](https://github.com/gb69010p/learn_ruby)
 * [Dan Hoying's solution](https://github.com/danhoying/learn_ruby)
+* [Jason's solution](https://github.com/wellsj/learn_ruby)
 * Add your solution above this line!
 
 
