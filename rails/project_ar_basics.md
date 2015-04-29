@@ -137,6 +137,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Lara Finnegan's solution](https://github.com/lcf0285/micro-reddit)
 * [Kevin Mulhern's soloution](https://github.com/KevinMulhern/Micro-reddit)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/micro-reddit)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
