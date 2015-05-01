@@ -293,6 +293,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Glenn Crosby's solution](https://github.com/glennc15/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/glennc15/google-homepage/blob/master/index.html)
 * [Dylan Araps' solution](https://github.com/therealvdeadline/google) | [View in browser](http://therealvdeadline.github.io/google) (Functional)
 * [Carlos Rojas' solution](https://github.com/sadhu89/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sadhu89/google-homepage/blob/master/index.html)
+* [Arshaan Bhimani's solution](https://github.com/ArshaanB/custom-google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArshaanB/custom-google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
