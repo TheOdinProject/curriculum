@@ -44,6 +44,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/Microblogger)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/TwitterSpambot)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Twitter-Spambot)
+* [Chris Hall's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Jumpstart%20MicroBlogger/lib/micro_blogger.rb)
 * Add your solution above this line!
 
 
