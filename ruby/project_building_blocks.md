@@ -311,4 +311,5 @@ Next, make sure your method can handle multiple words:
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/Ruby_Programming/blob/master/substrings.rb)
 * [Pedro Amaral's solution](https://github.com/lockemind/substrings/blob/master/substrings.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/substrings/blob/master/substrings.rb)
+* [Steven Zerneri's Solution](https://github.com/sjzerneri/rubyprojects/blob/master/ceaser_cipher.rb)
 * Add your solution above this line!
