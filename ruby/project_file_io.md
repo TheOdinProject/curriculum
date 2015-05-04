@@ -38,6 +38,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Chris Dziewa's solution](https://github.com/chrisdziewa/event_manager)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/EventManager)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/event_manager/lib)
+* [Chris Hall's solution](https://github.com/Concretechris/odinProject/blob/master/jumpstart-event-manager)
 * Add your solution above this line!
 
 
@@ -93,6 +94,10 @@ You will be building a simple command line Hangman game where one player plays a
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/Hangman)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/Hangman)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/hangman)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/Hangman/blob/master/hangman.rb)
+* [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/serialization/hangman/lib/hangman.rb)
+* [Chris Hall's solution](https://github.com/Concretechris/odinProject/tree/master/OP%20-%20hangman)
+* [Greg Park's solution](https://github.com/gregoryjpark/Hangman)
 * Add your solution above this line!
 
 

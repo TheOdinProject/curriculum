@@ -68,6 +68,9 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Tamim Sookoor's solution](https://github.com/sookoor/blogger) | [View in browser](https://protected-forest-6447.herokuapp.com/articles)
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/rails-blogger)
 * [John Lampe's solution](https://github.com/jlampe1985/blogger-project) | [View in browser](https://warm-savannah-2524.herokuapp.com/)
+* [Andrea Kulbaba's solution](https://github.com/akulbaba/blogger)
+* [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/blogger)
+* [Dan Hoying's solution](https://github.com/danhoying/blogger) | [View in browser](https://infinite-hollows-9057.herokuapp.com/) 
 * Add your solution above this line!
 
 

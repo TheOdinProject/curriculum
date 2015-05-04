@@ -77,6 +77,11 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [omokoro's solution](https://github.com/omokoro/ruby_project)
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/testfirst_ruby)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/Ruby_TDD_exercises)
+* [Taylor Buchheit's solution](https://github.com/7aylor/learn_ruby)
+* [Gb69010p's solution](https://github.com/gb69010p/learn_ruby)
+* [Dan Hoying's solution](https://github.com/danhoying/learn_ruby)
+* [Jason's solution](https://github.com/wellsj/learn_ruby)
+* [Ricardo Villegas' solution](https://github.com/claricardo/Learn-Ruby)
 * Add your solution above this line!
 
 

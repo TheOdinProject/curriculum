@@ -119,6 +119,14 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dan Hoying's solution](https://github.com/danhoying/project_euler)
 * [Swati Kumar's solution](https://github.com/swatikumar16/Project-Euler-Exercises)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/js_euler)
+* [SiriusBlak's solution](https://github.com/SiriusBlak/project_euler)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/Odin-Eulers-Problems)
+* [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/javascript-basics)
+* [Bob Blake's solution](https://github.com/Hari96/project-euler)
+* [Chris Fullinwider's solution](https://github.com/Fully34/project_euler_js)
+* [Tony Vumbaca's solution](https://github.com/tvumbaca/project-euler-solutions)
+* [Arshaan Bhimani's solution](https://github.com/ArshaanB/project-euler-javascript-version)
+* [Glenn Crosby's solution](https://github.com/glennc15/project_euler_solutions) | [View in browser](https://rawgit.com/glennc15/project_euler_solutions/master/index.html)
 * Add your solution above this line!
 
 

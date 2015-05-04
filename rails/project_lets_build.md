@@ -5,7 +5,7 @@
 
 ## Warmup: RestClient
 
-This is really a warmup -- you'll get a chance to poke around HTTP requests from the command line (IRB actually) and also to play around with a new gem called `rest-client`.  This is a useful (and powerful) gem which helps you make HTTP requests.  You can use it to do the basic stuff we're doing here or much more complicated authentication requests.  
+This is really a warmup -- you'll get a chance to poke around HTTP requests from the command line (IRB actually) and also to play around with a new gem called `rest-client`.  This is a useful (and powerful) gem which helps you make HTTP requests.  You can use it to do the basic stuff we're doing here or much more complicated authentication requests.
 
 You may find yourself using Rest Client down the road if you need to communicate with another web service that doesn't have an API library already written out for you (which is pretty rare these days).  Or if you get the inclination to test your own API from the command line later.
 
@@ -29,8 +29,9 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Arman Ghassemi's solution](https://github.com/ArmanG/Rest-Client)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/rest_client)
 * [Lara Finnegan's solution](https://github.com/lcf0285/rest-client/blob/master/google_search.rb)
-* [Trump's solution](https://github.com/trump812/RestClient)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/rest_client)
+* [Filipe's solution](https://github.com/panceri/rest-client-demo)
+* [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/RubyOnRails/restClient/rest_client.rb)
 * Add your solution above this line!
 
 
@@ -42,7 +43,7 @@ In this project, you'll dive right into the tutorial by building the site's stat
 
 One aspect of the Ruby on Rails tutorial which we haven't covered deeply is testing.  You got a brief look at it in the [Web Development 101 course](http://www.theodinproject.com/web-development-101/testing-basics) and a good taste of it in the [Ruby course](http://www.theodinproject.com/ruby-programming/#section-testing-ruby-with-rspec) but there are some more moving parts when it becomes applied to Rails.
 
-Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of RSpec is relatively straightforward.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).  
+Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of RSpec is relatively straightforward.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).
 
 If you don't feel comfortable with testing Ruby yet, it can feel like you're learning two languages at once.  Don't be discouraged if you end up scratching your head a bit... it takes some getting used to.  Luckily RSpec only uses about a dozen different methods again and again and again, the trick is just knowing which order to put them in.
 
@@ -92,7 +93,7 @@ I'll do a brief walkthrough of what's going on in this example just to get your 
 
 First of all, this file is just Ruby code (see the `.rb`).  It uses some new methods that are available because you've included the `rspec` gem in your gemfile, but it's still written in good old Ruby.  The `require 'spec_helper'` in the first line is what gives this spec file (`spec/requests/static_pages_spec.rb`) all the methods and setup it needs to be run by RSpec properly when you run your test suite (e.g. by typing `$ rake` or `$ rspec spec/` on the command line).
 
-When you run the spec file, RSpec stores each `#it` block as a separate test and then runs them in a random order (which is important to make sure you haven't accidentally caused one test to influence another).  So all the stuff inside the `#it` block is what's actually passing or failing if you run the test.  
+When you run the spec file, RSpec stores each `#it` block as a separate test and then runs them in a random order (which is important to make sure you haven't accidentally caused one test to influence another).  So all the stuff inside the `#it` block is what's actually passing or failing if you run the test.
 
 The `#describe` blocks just help break up the specs and bucket related ones together.  Note that `#describe` is the same as the `#context` method you may see at some point... people just use whichever one sounds like better English.
 
@@ -100,7 +101,7 @@ This bucketing of tests is important because you'll often need to go through som
 
 You don't see it here, but you'll also work with the `#before` method.  This lets you perform some logic before actually running the test, like setting variables (with the `#let` method) or creating model objects.
 
-It's also important to note that **each test is completely independent of every other test**.  Your test database gets completely reset each time it moves on to running another test, then RSpec starts from the top and runs the next test.  You should be able to see why that is important -- a test wouldn't be very useful if it got polluted by what your other tests were doing.  
+It's also important to note that **each test is completely independent of every other test**.  Your test database gets completely reset each time it moves on to running another test, then RSpec starts from the top and runs the next test.  You should be able to see why that is important -- a test wouldn't be very useful if it got polluted by what your other tests were doing.
 
 Now you can see why you nest tests inside the `#describe` methods and use `#before` methods to set preconditions -- RSpec will rerun that pre-code for every single spec that's nested below it.  If you create an object, e.g. a new User, inside the `#it` block of one of your tests, it won't exist by the time the next test is run.
 
