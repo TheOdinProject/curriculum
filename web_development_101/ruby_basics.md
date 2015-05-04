@@ -53,3 +53,5 @@ Redo the same Project Euler problems that you previously did in Javascript but u
 * [Ruby on Rails tutor has free videos that include Ruby](http://rubyonrailstutor.github.io/)
 * [OverAPI's (dense) Ruby Cheat Sheet](http://overapi.com/ruby/)
 * Hunter Ducharme compiled together [an e-book](http://hgducharme.gitbooks.io/ruby-programming/) which covers all the basics in Ruby.
+* [Youtube Ruby Programming Playlist](https://www.youtube.com/playlist?list=PLMK2xMz5H5Zv8eC8b4K6tMaE1-Z9FgSOp)
+* [Advanced Ruby](https://rubyoffrails.com/) from Ruby off Rails
