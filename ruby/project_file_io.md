@@ -97,6 +97,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Hangman/blob/master/hangman.rb)
 * [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/serialization/hangman/lib/hangman.rb)
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/tree/master/OP%20-%20hangman)
+* [Greg Park's solution](https://github.com/gregoryjpark/Hangman)
 * Add your solution above this line!
 
 
