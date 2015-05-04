@@ -6,9 +6,13 @@ In the next course, "Web Development 101", you'll take a journey through the ent
 
 After that, each course will be a deep dive into a particular topic, from the back end to the front.  You will build dozens of scripts, projects, and websites by the time this journey is complete and will have the skills necessary to step into fulltime development.  
 
-It's going to be challenging.
+Getting all the way there is going to be challenging.  In fact, you should check out the post ["Why Learning to Code is So Damn Hard"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like.  But what worthwhile thing is truly easy?
 
-It's going to be fun.
+Yes, it's going to be challenging.
+
+But it's going to be fun.
+
+And it might be life-changing too.
 
 *What are you waiting for!?!*
 
