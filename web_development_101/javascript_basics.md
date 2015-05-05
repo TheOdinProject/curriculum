@@ -127,6 +127,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Tony Vumbaca's solution](https://github.com/tvumbaca/project-euler-solutions)
 * [Arshaan Bhimani's solution](https://github.com/ArshaanB/project-euler-javascript-version)
 * [Glenn Crosby's solution](https://github.com/glennc15/project_euler_solutions) | [View in browser](https://rawgit.com/glennc15/project_euler_solutions/master/index.html)
+* [Karl Keller's solution](https://github.com/Georgy5/odin_javascript/tree/master/euler)
 * Add your solution above this line!
 
 
