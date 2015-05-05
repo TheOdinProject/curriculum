@@ -198,6 +198,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_on_the_web/tree/master/web_server_and_client)
 * [Chris Dziewa's solution](https://github.com/chrisdziewa/ruby-server)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Ruby-web-server-and-browser)
+* [Chris Hall's solution](https://github.com/Concretechris/odinProject/tree/master/OP%20-%20Web%20Server%20%26%20Browser) with thanks to other students solutions for help!
 * Add your solution above this line!
 
 
