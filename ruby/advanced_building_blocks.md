@@ -115,8 +115,9 @@ This lesson gets more into the topics you may have been shaky on before like *Co
     6. [Project: A Night at the Movies](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb)
     7. [Blocks, Procs, and Lambdas](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb)
         
-2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
-3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
+2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76).
+3. Complete the [Neo Ruby Koans](http://rubykoans.com/) exercises. You have to complete/debug the code it provides to pass the tests (TDD approach).  
+4. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
 
     1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
     2. [Ruby Explained: Iteration](http://www.eriktrautman.com/posts/ruby-explained-iteration)
