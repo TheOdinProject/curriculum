@@ -43,7 +43,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Dominik Stodolny's solution](https://github.com/dstodolny/binary_tree/blob/master/binary_tree.rb)
 * [Lara Finnegan's solution](https://github.com/lcf0285/algorithms/blob/master/binary_tree.rb)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Data-Structures-and-Algorithms/blob/master/binary_search_tree.rb)
-* [Brann James' solutoin](https://github.com/brannj/The_Odin_Project/blob/master/basic_data_structs/binary_trees.rb)
+* [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/basic_data_structs/binary_trees.rb)
 * Add your solution above this line!
 
 
