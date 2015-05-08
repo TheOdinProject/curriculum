@@ -170,5 +170,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Kyle Lutes' solution](https://github.com/klutes90/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/klutes90/sketch-pad/blob/master/index.html)
 * [Glenn Crosby's solution](https://github.com/glennc15/Etch_A_Sketch) | [View in browser](https://rawgit.com/glennc15/Etch_A_Sketch/master/index.html)
 * [Bob Blake's solution](https://github.com/Hari96/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Hari96/sketchpad/blob/master/index.html)
-* [Cody Gipson's solution](https://github.com/Cgipson06/EtchaSketch) | [View in browser] (https://cdn.rawgit.com/Cgipson06/EtchaSketch/master/index.html)
+* [Cody Gipson's solution](https://github.com/Cgipson06/EtchaSketch) | [View in browser](https://cdn.rawgit.com/Cgipson06/EtchaSketch/master/index.html)
 * Add your solution above this line!
