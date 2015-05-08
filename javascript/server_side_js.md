@@ -35,3 +35,4 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 * [Getting out of Callback Hell in Node.js](http://strongloop.com/strongblog/node-js-callback-hell-promises-generators/)
 * [Node for Rails Developers with Compound.js by Sagi Isha](https://medium.com/what-i-learned-building/e490fb9c0c73)
 * [HowToNode.org has lots of more advanced articles and tips](http://howtonode.org/)
+* [Your first Meteor(popular Node.js framework) application](http://meteortips.com/book/)
