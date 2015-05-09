@@ -44,7 +44,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Chris Dziewa's solution](https://github.com/chrisdziewa/recursion/blob/master/fibonacci.rb)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/Recursion/fibo.rb)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Recursion/blob/master/fibonacci.rb)
-* [Chris's Solution] (https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Recursive%20Exercises/fib.rb)
+* [Chris's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Recursive%20Exercises/fib.rb)
 * Add your solution above this line!
 
 
@@ -99,7 +99,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/recursion_project/merge_sort.rb)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/Recursion/merge_sort.rb)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Recursion/blob/master/merge_sort.rb)
-* [Chris's solution] (https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Recursive%20Exercises/merge_sort.rb)
+* [Chris's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Recursive%20Exercises/merge_sort.rb)
 * Add your solution above this line!
 
 
