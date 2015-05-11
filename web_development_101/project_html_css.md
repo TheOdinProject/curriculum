@@ -281,7 +281,6 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/JaveedIshaq/google-homepage/blob/master/google-homepage.html)
 * [SiriusBlak's solution](https://github.com/SiriusBlak/google-homepage)
 * [Pedro Amaral's solution](https://github.com/lockemind/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/lockemind/google-homepage/master/index.html)
-* [Mamun's solution](https://github.com/JaveedIshaq/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mamun2015/google-homepage/blob/master/index.html)
 * [dwhitebud's solution](https://github.com/dwhitebud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dwhitebud/google-homepage/blob/master/index.html)
 * [Porx's solution](https://github.com/porx/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/porx/google-homepage/blob/master/index.html)
 * [ninja-ml's solution](https://github.com/ninja-ml/google-homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/ninja-ml/google-homepage/blob/master/homepage.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/ninja-ml/google-homepage/blob/master/index_search.html)
@@ -303,7 +302,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [AtActionPark 'easy' solution](https://github.com/AtActionPark/google-homepage) | ['Difficult' solution](https://github.com/AtActionPark/google-homepage-2) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/AtActionPark/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/AtActionPark/google-homepage-2/blob/master/index.html)
 * [Thulasi Arasu's solution](https://github.com/ThulasiA/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/ThulasiA/google_homepage/blob/master/index.html)
 * [Nick Foster's solution](https://github.com/NickFS/Google.com-Homepage-Odin)
-* [Jeffrey Bartels' 'easy' solution] (https://github.com/jitterboggle/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/jitterboggle/google-homepage/blob/master/index.html)
+* [Jeffrey Bartels' 'easy' solution](https://github.com/jitterboggle/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jitterboggle/google-homepage/blob/master/index.html)
+* [Nathan's solution](https://github.com/viggie79/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/viggie79/google-homepage/blob/master/google.html)
 * Add your solution above this line! 
 
 
