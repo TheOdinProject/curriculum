@@ -129,7 +129,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Glenn Crosby's solution](https://github.com/glennc15/project_euler_solutions) | [View in browser](https://rawgit.com/glennc15/project_euler_solutions/master/index.html)
 * [Karl Keller's solution](https://github.com/Georgy5/odin_javascript/tree/master/euler)
 * [Nick Foster's solution](https://github.com/NickFS/Javascript101-Odin)
-* [ninja-ml's solution] (https://github.com/ninja-ml/Project-Euler)
+* [ninja-ml's solution](https://github.com/ninja-ml/Project-Euler)
 * Add your solution above this line!
 
 
