@@ -172,6 +172,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Bob Blake's solution](https://github.com/Hari96/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Hari96/sketchpad/blob/master/index.html)
 * [Cody Gipson's solution](https://github.com/Cgipson06/EtchaSketch) | [View in browser](https://cdn.rawgit.com/Cgipson06/EtchaSketch/master/index.html)
 * [Arthur Vieira's solution](https://github.com/arthur-vieira/js-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/arthur-vieira/js-sketchpad/blob/master/index.html)
-* [Nikhil Surana' Solution](https://github.com/NikhilSurana/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/NikhilSurana/Etch-A-Sketch/blob/master/Etch-A-Sketch.html)
-*  [AtActionPark' Solution](https://github.com/AtActionPark/odin-etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin-etch-a-sketch/blob/master/index.html)
+* [Nikhil Surana' solution](https://github.com/NikhilSurana/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/NikhilSurana/Etch-A-Sketch/blob/master/Etch-A-Sketch.html)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin-etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin-etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
