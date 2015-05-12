@@ -40,6 +40,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/image_carousel) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/image_carousel/index.html "Image Carousel/Slider")
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/slider) | [View in browser](https://rawgit.com/craftykate/odin-project/master/Chapter_06-JavaScript_and_jQuery/slider/index.html)
 * [Jason Matthews' solution](https://jsfiddle.net/31wtcf4a/4/)
+* [Ryan Jordan's solution](https://github.com/krjordan/slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/slider/blob/master/index.html)
 * Add your solution above this line!
 
 
