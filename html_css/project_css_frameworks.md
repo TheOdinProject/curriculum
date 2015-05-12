@@ -30,7 +30,7 @@ You'll be creating your own grid-based framework.
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
-* 
+* [Artur Janik's solution - Framework](https://github.com/ArturJanik/Stellage) | [Solution - website](https://github.com/ArturJanik/ProjectInteria) | [View desktop version in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectInteria/blob/master/index.html) | [View mobile version in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectInteria/blob/master/mindex.html)
 * Add your solution above this line!
 
 ## Additional Resources
