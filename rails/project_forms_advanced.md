@@ -79,9 +79,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Vidul's solution](https://github.com/viparthasarathy/odin-flight-booker) | [View in browser](https://intense-retreat-7685.herokuapp.com/)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flight-booker)
 *[ Alex's Solution!](https://github.com/alexgh123/odin-flight-booker)
-
 * Add your solution above this line!
-
 
 ## Additional Resources
 
@@ -89,4 +87,3 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 
 * [Rails API for nested attributes](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
-* 
