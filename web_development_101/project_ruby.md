@@ -83,6 +83,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Dan Hoying's solution](https://github.com/danhoying/learn_ruby)
 * [Jason's solution](https://github.com/wellsj/learn_ruby)
 * [Ricardo Villegas' solution](https://github.com/claricardo/Learn-Ruby)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/2_web-dev-101_Ruby)
 * Add your solution above this line!
 
 
