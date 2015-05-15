@@ -28,6 +28,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Ryan Jordan's solution](https://github.com/krjordan/HTML-forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/HTML-forms/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectMINT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectMINT/blob/master/index2.html)
 * [Hailey's solution](https://github.com/hmfoster/mint_sign_up.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/mint_sign_up/blob/master/index.html)
+* [AyeSea's solution](https://github.com/AyeSea/mint-signup) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/mint-signup/blob/master/index.html)
 * Add your solution above this line!
 
 
