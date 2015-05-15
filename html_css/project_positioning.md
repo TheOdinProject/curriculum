@@ -25,6 +25,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Meher Chandan's solution](https://github.com/meherchandan/NewYorkTimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/NewYorkTimes/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectNYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectNYT/blob/master/index2.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/nyt-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/nyt-project/blob/master/index.html)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/New-York-Times-CSS)
 * Add your solution above this line!
 
 
