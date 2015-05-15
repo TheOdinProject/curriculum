@@ -305,7 +305,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jeffrey Bartels' 'easy' solution](https://github.com/jitterboggle/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jitterboggle/google-homepage/blob/master/index.html)
 * [Nathan's solution](https://github.com/viggie79/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/viggie79/google-homepage/blob/master/google.html)
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/tnt007tarun/google-homepage/blob/master/index.html)
-* [Alex Hanger's solution] (https://github.com/hanger129/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/hanger129/google-homepage/blob/master/index.html)
+* [Alex Hanger's solution](https://github.com/hanger129/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/hanger129/google-homepage/blob/master/index.html)
+* [Pon K brown's solution](https://github.com/ponkbrown/google-homepage) | [View in browser](https://rawgit.com/ponkbrown/google-homepage/master/index.html)
 * Add your solution above this line! 
 
 
