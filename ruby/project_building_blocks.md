@@ -322,4 +322,5 @@ Next, make sure your method can handle multiple words:
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/substrings.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/substrings.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/substring.rb)
+* [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/substrings.rb)
 * Add your solution above this line!
