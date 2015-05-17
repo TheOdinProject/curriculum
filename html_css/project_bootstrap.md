@@ -23,6 +23,7 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 
 * [Leonard Labita's solution](https://github.com/lendoza/OdinProject/tree/master/app) | [View in browser](http://leonardlabita.com/newsweek.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectNewsweek) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectNewsweek/blob/master/index.html)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/Newsweek-Bootstrap) | [View in browser](https://rawgit.com/FrankPeelen/Newsweek-Bootstrap/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
