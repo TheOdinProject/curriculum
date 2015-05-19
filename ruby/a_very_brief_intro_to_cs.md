@@ -24,7 +24,6 @@ If that doesn't get you interested, remember that this curriculum is meant to pr
 1. Skim this [Introduction to Algorithms by David Malan](http://ed.ted.com/lessons/your-brain-can-solve-algorithms-david-j-malan) on TedEd to see how to think about algorithms.
 2. Watch [What is an Algorithm? (start at 4:00)](http://www.youtube.com/watch?v=87uzB76-C0c) on YouTube for a more structured look at solving problems using algorithms.
 3. Read [this Quora question about the importance of algorithms in web development](http://www.quora.com/Algorithms/What-is-the-importance-of-algorithms-in-web-development) to get some context for why we're going over this stuff.
-4. Read [40 Key Computer Science Concepts Explained In Layman’s Terms](http://carlcheo.com/compsci)
 
 ## Additional Resources
 
