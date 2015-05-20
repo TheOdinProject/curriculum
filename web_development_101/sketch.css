@@ -1,0 +1,47 @@
+h1
+{
+	color:red;
+	font-size:2.5em;
+    text-align:center;
+    margin-left:190px;
+
+}
+h1:hover
+{
+	color:#fff;
+}
+body 
+{
+    background-color:#000;
+    position:absolute;
+}
+#pixelgrid
+{
+    height:1000px;
+    width:1000px;
+    margin-left:150px;
+    
+
+}
+.square 
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+    border:solid black 0.1em;
+}
+
+.row
+{
+	width:1000px;
+    
+
+}
+button
+{
+    margin-left:650px;
+
+}
