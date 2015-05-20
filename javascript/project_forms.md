@@ -26,6 +26,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 * [Mateusz's solution](https://github.com/Emnalyeriar/learning_projects/tree/master/the%20odin%20projects/form%20validation) | [View in browser](http://htmlpreview.github.io/?https://github.com/Emnalyeriar/learning_projects/blob/master/the%20odin%20projects/form%20validation/index.html)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/jquery-form) | [View in browser](http://jsfiddle.net/Jberczel/5dAd3/)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/form_validation) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/form_validation/index.html "Form Validation")
+* [Ryan Jordan's solution](https://github.com/krjordan/HTML-forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/HTML-forms/blob/master/index.html)
 * Add your solution above this line!
 
 
