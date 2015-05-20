@@ -29,6 +29,7 @@ Create a form which will submit a new movie to the database.  You should validat
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/ajax_infinite_scroll) | [View in browser (*most images not shown*)](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/ajax_infinite_scroll/index.html)
+* [Ryan Jordan's solution](https://github.com/krjordan/Movie-App) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/Movie-App/blob/master/index.html#top)
 * Add your solution above this line!
 
 
