@@ -312,6 +312,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Chris Chi's solution](https://github.com/chrischi90/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/chrischi90/google-homepage/blob/master/index.html)
 * [Cory Graddy's solution](https://github.com/corygraddy/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/corygraddy/google-homepage/master/index.html)
 * [Shawn Stovall's solution](https://github.com/Corune/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Corune/google-homepage/blob/master/index.html)
+* [Josh Archer's solution](https://github.com/PuffinBlue/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PuffinBlue/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
