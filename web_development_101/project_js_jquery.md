@@ -179,4 +179,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/jsymons/the-odin-project/blob/master/jquery/index.html)
 * [Tim Rosezin's solution](https://github.com/TimRos/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/TimRos/sketchpad/blob/master/index.html)
 * [A.Caroline's solution](https://github.com/acaroline/etch-a-sketch)
+* [Shawn Stovall's solution](https://github.com/Corune/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Corune/sketchpad/blob/master/index.html)
 * Add your solution above this line!
