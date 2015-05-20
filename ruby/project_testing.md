@@ -27,7 +27,7 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec)
-* [Artur Janik's solution](https://github.com/ArturJanik/testingruby1)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project8/testingruby1)
 * Dominik Stodolny's solution ([Caesar Cipher](https://github.com/dstodolny/ruby_building_blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/dstodolny/ruby_building_blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/dstodolny/tictactoe/tree/master/spec))
 * Lara Finnegan's solution ([Caesar Cipher](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/lcf0285/tic_tac_toe/tree/master/spec))
 * Add your solution above this line!
@@ -57,7 +57,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [James MacIvor's solution](https://github.com/RobotOptimist/connect_four)
 * [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Testing%20Ruby%20with%20RSpec)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec/connect_four_rspec)
-* [Artur Janik's solution](https://github.com/ArturJanik/testingruby2)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project8/testingruby2)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/connect_four)
 * [Dawn Pattison's solution](https://github.com/pattisdr/theOdinProject/tree/master/connect_four)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Connect-Four)
