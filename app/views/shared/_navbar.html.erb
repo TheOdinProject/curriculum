@@ -13,12 +13,19 @@
             <ul class="nav pull-right nav-links">
               <li class="top-link nav-search"><%= render "shared/search_box" %></li>              
               <li class="top-link"><a href="<%= curriculum_path %>">Curriculum</a></li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Social <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to "Chat", chat_path %></li>
+                    <li><%= link_to "Study Groups", studygroup_path %></li>
+                  </ul>
+
               <% if user_signed_in? %>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong><%= current_user.username %> <b class="caret"></b></strong></a>
                   <ul class="dropdown-menu">
                     <li><%= link_to "Forum", forum_path %></li>
-                    <li><%= link_to "Study Groups", studygroup_path %></li>
                     <li><%= link_to "Students", students_path %></li>
                     <li class="divider"></li>
                     <li><%= link_to "Profile", current_user %></li>
