@@ -314,6 +314,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Shawn Stovall's solution](https://github.com/Corune/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Corune/google-homepage/blob/master/index.html)
 * [Josh Archer's solution](https://github.com/PuffinBlue/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PuffinBlue/google-homepage/blob/master/index.html)
 * [iBinbar's solution](https://github.com/iBinbar/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/iBinbar/google-homepage/blob/master/index.html)
+* * [kushtrimmh's solution](https://github.com/kushtrimmh/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kushtrimmh/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
