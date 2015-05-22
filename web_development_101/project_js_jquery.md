@@ -180,4 +180,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Tim Rosezin's solution](https://github.com/TimRos/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/TimRos/sketchpad/blob/master/index.html)
 * [A.Caroline's solution](https://github.com/acaroline/etch-a-sketch)
 * [Shawn Stovall's solution](https://github.com/Corune/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Corune/sketchpad/blob/master/index.html)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/3-etch-a-sketch-online) | [View in browser](https://rawgit.com/markviola/the-odin-project/master/3-etch-a-sketch-online/index.html)
 * Add your solution above this line!
