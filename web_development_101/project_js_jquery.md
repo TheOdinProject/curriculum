@@ -159,4 +159,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Swati Kumar's solution](https://github.com/swatikumar16/Etch-a-Sketch)
 * [Dan Hoying's solution](https://github.com/danhoying/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/danhoying/sketchpad/blob/master/sketchpad.html)
 * [Micah Obal's solution](https://github.com/Hacima/Hacima.github.io/tree/master/sketchpad) | [View in browser](http://hacima.github.io/sketchpad/)
+* [Nathan's Solution](https://github.com/viggie79/EtchaSketch/blob/master/etch.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/viggie79/EtchaSketch/blob/master/etch.html)
 * Add your solution above this line!
