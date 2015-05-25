@@ -34,7 +34,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%201:%20Twitter%20Spambot)
 * [Vidul's solution](https://github.com/viparthasarathy/twitter_spambot)
 * [John Quarles's solution](https://github.com/johnwquarles/Mini-Twitter-Client)
-* [Artur Janik's solution](https://github.com/ArturJanik/rotwproject1)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project5/TwitterSpambot)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/ruby_on_the_web/twitter_spambot)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/microblogger)
 * [Lara Finnegan's solution](https://github.com/lcf0285/microblogger)
@@ -192,13 +192,14 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
 * [Vidul Parthasarathy's solution](https://github.com/viparthasarathy/web_server)
 * [John Quarles's solution](https://github.com/johnwquarles/simple-server-and-client) (using while loops, #gets and #read)
-* [Artur Janik's solution](https://github.com/ArturJanik/rotwproject2)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project5/rotwproject2)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/web_server)
 * [Jason Matthews's solution](https://github.com/fo0man/tiny_web_server)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/ruby_on_the_web/tree/master/web_server_and_client)
 * [Chris Dziewa's solution](https://github.com/chrisdziewa/ruby-server)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Ruby-web-server-and-browser)
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/tree/master/OP%20-%20Web%20Server%20%26%20Browser) with thanks to other students solutions for help!
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_cli-webserver-browser)
 * Add your solution above this line!
 
 

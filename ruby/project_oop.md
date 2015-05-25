@@ -44,7 +44,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Project:%20OOP%20with%20Ruby/lib/tictactoe.rb)
 * [Vidul's solution (with AI)](https://github.com/viparthasarathy/tic_tac_toe/blob/master/game.rb)
 * [John Quarles's solution](https://github.com/johnwquarles/Ruby-OOP-TicTacToe-and-MasterMind/blob/master/TicTacToe.rb)
-* [Artur Janik's solution](https://github.com/ArturJanik/oopproject1/blob/master/p1-tictactoe.rb)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/blob/master/Project3/TicTacToe/p1-tictactoe.rb)
 * [Dan Molloy's solution](https://github.com/danmolloy/tictactoe)
 * [Hunter Ducharme's solution](https://github.com/hgducharme/Playground/blob/master/odin_projects/ruby_programming/OOP_ruby/tic_tac_toe/tic_tac_toe.rb)
 * [Angela Woods's solution](https://github.com/insomniacode/odin_oop_ruby/tree/master/tic_tac_toe)
@@ -67,6 +67,8 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Chris Hall's solution](https://github.com/Concretechris/Tic-Tac-Toe) - I would love suggestions to improve this solution.
 * [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/OOP_with_Ruby/tic_tac_toe.rb)
 * [Frank Peelen' solution](https://github.com/FrankPeelen/TicTacToe)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_tic-tac-toe)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_tic_tac_toe)
 * Add your solution above this line!
 
 
@@ -105,7 +107,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/blob/master/Project:%20OOP%20with%20Ruby/lib/mastermind.rb)
 * [Vidul's solution](https://github.com/viparthasarathy/mastermind/blob/master/mastermind.rb)
 * [John Quarles's solution](https://github.com/johnwquarles/Ruby-OOP-TicTacToe-and-MasterMind/blob/master/MasterMind.rb)
-* [Artur Janik's solution (no AI)](https://github.com/ArturJanik/oopproject2)
+* [Artur Janik's solution (no AI)](https://github.com/ArturJanik/TOPRuby/blob/master/Project3/Mastermind/p2-mastermind.rb)
 * [Kate McFaul's solution (with AI)](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/oop_with_ruby/mastermind.rb)
 * [Dominik Stodolny's solution (with AI)](https://github.com/dstodolny/mastermind)
 * [Jason Matthews's solution (with AI)](https://github.com/fo0man/ruby_mastermind/blob/master/MasterMind.rb)
@@ -121,6 +123,8 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Mastermind/mastermind.rb)
 * [Frank Peelen's solution (TDD with rspec, includes AI)](https://github.com/FrankPeelen/MasterMind-with-AI)
 * [Greg Park's solution (with simple AI)](https://github.com/gregoryjpark/mastermind)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_mastermind)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_mastermind)
 * Add your solution above this line!
 
 

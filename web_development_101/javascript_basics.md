@@ -130,6 +130,10 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Karl Keller's solution](https://github.com/Georgy5/odin_javascript/tree/master/euler)
 * [Nick Foster's solution](https://github.com/NickFS/Javascript101-Odin)
 * [ninja-ml's solution](https://github.com/ninja-ml/Project-Euler)
+* [Tarun Johnson's solution](https://github.com/tnt007tarun/js_basics_projects)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/2_web-dev-101_Euler) | [View in browser](https://rawgit.com/ll14m4n/the-odin-project/master/2_web-dev-101_Euler/build/index.html)
+* [A.Caroline's solution](https://github.com/acaroline/project-euler)
+* [Brody West's solution](https://github.com/BrodyWest/Euler-Project)
 * Add your solution above this line!
 
 

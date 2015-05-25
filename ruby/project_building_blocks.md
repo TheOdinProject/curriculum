@@ -75,7 +75,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [John Quarles's solution](https://github.com/johnwquarles/Ruby-Building-Blocks/blob/master/caesar.rb)
 * [Vidul's solution](https://github.com/viparthasarathy/Caesar-Cipher/blob/master/method.rb)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/ruby_building_blocks/blob/master/Caesar_Cipher.rb)
-* [Artur Janik's solution](https://github.com/ArturJanik/bbproject1/blob/master/p1-caesar.rb)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/blob/master/Project1/bbproject1/p1-caesar.rb)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ceasar_cipher.rb)
 * [Tyler Travers's solution](https://github.com/ttravers17/the_odin_project/blob/master/ruby_building_blocks/project1/caesar_cipher.rb)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/ruby_building_blocks/ceasar.rb)
@@ -117,6 +117,10 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Tom Wu's Solution](https://github.com/canadatom/LearningRuby/blob/master/caesarcipher.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/caesar-cipher/blob/master/caesar_cipher.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/caesar_cipher.rb)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/caesar_cipher.rb)
+* [AtActionParks's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/caesar-cipher.rb)
+* [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/caesar.rb)
+* [Varvara's solution](https://github.com/varvara15/The_Odin_Project/blob/master/Caesar_Cipher.rb)
 * Add your solution above this line!
 
 
@@ -171,7 +175,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [John Quarles's solution](https://github.com/johnwquarles/Ruby-Building-Blocks/blob/master/stockpicker.rb)
 * [Vidul's solution](https://github.com/viparthasarathy/stock_picker/blob/master/method.rb)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/ruby_building_blocks/blob/master/stock_picker.rb)
-* [Artur Janik's solution](https://github.com/ArturJanik/bbproject2/blob/master/p2-stockpicker.rb)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/blob/master/Project1/bbproject2/p2-stockpicker.rb)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/stock_picker.rb)
 * [Tyler Travers's solution](https://github.com/ttravers17/the_odin_project/blob/master/ruby_building_blocks/project2/stock_picker.rb)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/ruby_building_blocks/stocks.rb)
@@ -210,6 +214,10 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Pedro Amaral's solution](https://github.com/lockemind/stock_picker/blob/master/stock_picker.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/stock_picker/blob/master/stock_picker.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/stock_picker.rb)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/stock_picker.rb)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/stock-picker.rb)
+* [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/stock_picker.rb)
+* [Varvara's solution](https://github.com/varvara15/The_Odin_Project/blob/master/Stock_Picker.rb)
 * Add your solution above this line!
 
 
@@ -273,7 +281,7 @@ Next, make sure your method can handle multiple words:
 * [Jack Nguyen's solution](http://github.com/jnguyen85/projects-ruby-building-blocks/blob/master/03_substrings/substrings.rb)
 * [Vidul's solution](https://github.com/viparthasarathy/substrings/blob/master/method.rb)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/ruby_building_blocks/blob/master/substrings.rb)
-* [Artur Janik's solution](https://github.com/ArturJanik/bbproject3/blob/master/p3-substrings.rb)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/blob/master/Project1/bbproject3/p3-substrings.rb)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/substrings.rb)
 * [Tyler Travers's solution](https://github.com/ttravers17/the_odin_project/blob/master/ruby_building_blocks/project3/substrings.rb)
 * [Angela Woods's solution](https://github.com/insomniacode/building-blocks/blob/master/bubble_sort.rb)
@@ -314,4 +322,8 @@ Next, make sure your method can handle multiple words:
 * [Pedro Amaral's solution](https://github.com/lockemind/substrings/blob/master/substrings.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/substrings/blob/master/substrings.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/substrings.rb)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/substrings.rb)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/substring.rb)
+* [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/substrings.rb)
+* [Varvara's solution](https://github.com/varvara15/The_Odin_Project/blob/master/Substrings.rb)
 * Add your solution above this line!

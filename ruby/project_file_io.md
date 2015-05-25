@@ -27,7 +27,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Roman's solution](https://github.com/RomanADavis/event_manager)
 * [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Serialization%20and%20Working%20with%20Files/event_manager)
 * [Vidul's solution](https://github.com/viparthasarathy/event_manager)
-* [Artur Janik's solution](https://github.com/ArturJanik/serialproject1)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project4/serialproject1)
 * [John Quarles' solution](https://github.com/johnwquarles/jumpstartlab-event-manager)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/event_manager)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/event_manager)
@@ -82,7 +82,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Serialization%20and%20Working%20with%20Files/hangman)
 * [Vidul's solution](https://github.com/viparthasarathy/hangman)
 * [John Quarles' solution](https://github.com/johnwquarles/Ruby-FileIO-Hangman)
-* [Artur Janik's solution](https://github.com/ArturJanik/serialproject2)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project4/Hangman)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/hangman)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/hangman)
 * [Lara Finnegan's solution](https://github.com/lcf0285/hangman)
@@ -98,6 +98,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/serialization/hangman/lib/hangman.rb)
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/tree/master/OP%20-%20hangman)
 * [Greg Park's solution](https://github.com/gregoryjpark/Hangman)
+* [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_hangman)
 * Add your solution above this line!
 
 

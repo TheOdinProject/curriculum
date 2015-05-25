@@ -305,6 +305,15 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jeffrey Bartels' 'easy' solution](https://github.com/jitterboggle/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jitterboggle/google-homepage/blob/master/index.html)
 * [Nathan's solution](https://github.com/viggie79/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/viggie79/google-homepage/blob/master/google.html)
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/tnt007tarun/google-homepage/blob/master/index.html)
+* [Alex Hanger's solution](https://github.com/hanger129/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/hanger129/google-homepage/blob/master/index.html)
+* [Pon K brown's solution](https://github.com/ponkbrown/google-homepage) | [View in browser](https://rawgit.com/ponkbrown/google-homepage/master/index.html)
+* [Daniel Rojas's solution](https://github.com/RojoD89/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/RojoD89/google-homepage/blob/master/index.html)
+* [A.Caroline's solution](https://github.com/acaroline/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/acaroline/google-homepage/blob/master/index.html)
+* [Chris Chi's solution](https://github.com/chrischi90/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/chrischi90/google-homepage/blob/master/index.html)
+* [Cory Graddy's solution](https://github.com/corygraddy/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/corygraddy/google-homepage/master/index.html)
+* [Shawn Stovall's solution](https://github.com/Corune/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Corune/google-homepage/blob/master/index.html)
+* [Josh Archer's solution](https://github.com/PuffinBlue/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PuffinBlue/google-homepage/blob/master/index.html)
+* [iBinbar's solution](https://github.com/iBinbar/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/iBinbar/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
