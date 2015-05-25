@@ -86,6 +86,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Glenn Crosby's solution](https://github.com/glennc15/learn_ruby)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/2_web-dev-101_Ruby)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/test-first-ruby)
+* [Kristupas Savickas's solution](https://github.com/pova1/Ruby-Project-for-the-odin-project)
 * Add your solution above this line!
 
 
