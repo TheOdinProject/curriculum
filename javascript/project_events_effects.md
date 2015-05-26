@@ -53,6 +53,7 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Aleksandar Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20jQuery%20and%20the%20DOM)
 *  [Ryan Jordan's solution](https://github.com/krjordan/snake-clone) | [View in the browser](http://htmlpreview.github.io/?https://github.com/krjordan/snake-clone/blob/master/index.html)
 *  [Frank Peelen's solution](https://github.com/FrankPeelen/Snake-Browser-JS) | [View in the browser](http://rawgit.com/FrankPeelen/Snake-Browser-JS/master/index.html)
+*  [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project3) | [View in the browser](https://rawgit.com/ArturJanik/TOPJS/master/Project3/index.html)
 * Add your solution above this line!
 
 
