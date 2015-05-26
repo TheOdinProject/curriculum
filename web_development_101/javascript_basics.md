@@ -31,7 +31,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 ## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
-
+* [Mr Pon K Brown's solution] (https://github.com/ponkbrown/javascript101)
 * [RebootJeff's solution](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
 * [mattphoto's solution](https://github.com/mattphoto/ProjectEuler)
 * [Neil Gehani's solution](https://github.com/ngehani/htmlcss/tree/master/js)
