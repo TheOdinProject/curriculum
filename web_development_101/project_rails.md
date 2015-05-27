@@ -72,6 +72,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/blogger)
 * [Dan Hoying's solution](https://github.com/danhoying/blogger) | [View in browser](https://infinite-hollows-9057.herokuapp.com/) 
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-rails-project) | [View in browser](https://aqueous-garden-9909.herokuapp.com/)
+* [Gb69010p's solution](https://github.com/gb69010p/JumpstartBlogger) | [View in browser](https://tranquil-earth-2515.herokuapp.com/)
 * Add your solution above this line!
 
 
