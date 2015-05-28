@@ -134,8 +134,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/2_web-dev-101_Euler) | [View in browser](https://rawgit.com/ll14m4n/the-odin-project/master/2_web-dev-101_Euler/build/index.html)
 * [A.Caroline's solution](https://github.com/acaroline/project-euler)
 * [Brody West's solution](https://github.com/BrodyWest/Euler-Project)
+* [Cory Graddy's solution](https://github.com/corygraddy/Euler-Problems-Javascript) | [View in browser](https://rawgit.com/corygraddy/Euler-Problems-Javascript/master/index.html)
 * Add your solution above this line!
-
 
 ## Additional Resources
 
