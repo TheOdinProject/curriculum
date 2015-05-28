@@ -56,6 +56,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Filipe's solution](https://github.com/panceri/demo-app)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/toy_app)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/rails_tutorial_chapter_2)
+* [AtActionPark's solution](https://github.com/AtActionPark/toy_app) | [Heroku](https://fathomless-everglades-4313.herokuapp.com/)
 * Add your solution above this line!
 
 
