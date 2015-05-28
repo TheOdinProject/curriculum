@@ -28,6 +28,7 @@ The basic rules are that the player must flag every mine on the board without cl
 * [Mazin Power's solution](https://github.com/muzfuz/minesweeper_js)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/minesweeper/index.html "Minesweeper")
 * [Steve's solution](https://github.com/beesmart/JS_BeeSweeper) | [View in browser](http://beesmart.github.io/JS_BeeSweeper)
+* [Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Minesweeper%20in%20Javscript)
 * Add your solution above this line!
 
 
