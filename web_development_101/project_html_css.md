@@ -317,13 +317,14 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Shawn-Paul's solution](https://github.com/SP422/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/SP422/google-homepage/blob/master/index.html)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/1-google-homepage) | [View in browser](https://cdn.rawgit.com/markviola/the-odin-project/master/1-google-homepage/index.html)
 * [Nate Beck's solution](https://github.com/nbeck91/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/nbeck91/google-homepage/blob/master/index.html)
-* * [kushtrimmh's solution](https://github.com/kushtrimmh/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kushtrimmh/google-homepage/blob/master/index.html)
+* [kushtrimmh's solution](https://github.com/kushtrimmh/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kushtrimmh/google-homepage/blob/master/index.html)
 * [John Meguerian's solution](https://github.com/jmegs/the-odin-project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jmegs/the-odin-project/blob/master/google-homepage/index.html)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/JJMcConnell/google-homepage/blob/master/index.html)
 * [M. Edgar Joel's solution](https://github.com/edgar-/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/edgar-/google-homepage/blob/master/index.html)
 * [Alex Tsiras' solution](https://github.com/arialblack14/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/arialblack14/google-homepage/blob/master/google.html)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sco-bo/google-homepage/blob/master/index.html)
 * [MagicMamba's solution](https://github.com/magicmamba/odin/tree/master/google%20homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/magicmamba/odin/blob/master/google%20homepage/index.html)
+* [Ethan Rips's solution](https://github.com/anonRegions/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/anonRegions/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
