@@ -184,4 +184,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Sean Johnston's solution](https://github.com/seanjohnite/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/seanjohnite/etch-a-sketch/blob/master/index.html)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/3-etch-a-sketch-online) | [View in browser](https://rawgit.com/markviola/the-odin-project/master/3-etch-a-sketch-online/index.html)
 * [Nathan's solution](https://github.com/viggie79/EtchaSketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/viggie79/EtchaSketch/blob/master/etch.html)
+* [Imiszkusz's solution](https://github.com/Imiszkusz/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/Imiszkusz/etch-a-sketch/blob/master/etchasketch.html)
 * Add your solution above this line!
