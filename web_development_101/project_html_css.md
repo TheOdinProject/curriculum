@@ -325,6 +325,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Scott Bobbitt's solution](https://github.com/sco-bo/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sco-bo/google-homepage/blob/master/index.html)
 * [MagicMamba's solution](https://github.com/magicmamba/odin/tree/master/google%20homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/magicmamba/odin/blob/master/google%20homepage/index.html)
 * [Ethan Rips's solution](https://github.com/anonRegions/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/anonRegions/google-homepage/blob/master/index.html)
+* [Patrick Doane's easy solution](https://github.com/patrickdoane/the_odin_project/blob/master/google-homepage/homepage-easy.html) | [Difficult solution](https://github.com/patrickdoane/the_odin_project/blob/master/google-homepage/homepage-hard.html) | [View in browser (easy)](https://htmlpreview.github.io/?https://github.com/patrickdoane/the_odin_project/blob/master/google-homepage/homepage-easy.html)
 * Add your solution above this line! 
 
 
