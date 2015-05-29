@@ -315,6 +315,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Josh Archer's solution](https://github.com/PuffinBlue/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PuffinBlue/google-homepage/blob/master/index.html)
 * [iBinbar's solution](https://github.com/iBinbar/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/iBinbar/google-homepage/blob/master/index.html)
 * [Shawn-Paul's solution](https://github.com/SP422/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/SP422/google-homepage/blob/master/index.html)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/1-google-homepage) | [View in browser](https://cdn.rawgit.com/markviola/the-odin-project/master/1-google-homepage/index.html)
 * Add your solution above this line! 
 
 
