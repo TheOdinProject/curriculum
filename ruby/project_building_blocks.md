@@ -218,6 +218,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/stock-picker.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/stock_picker.rb)
 * [Varvara's solution](https://github.com/varvara15/The_Odin_Project/blob/master/Stock_Picker.rb)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/blob/master/6-more-ruby-problems/2%20-%20Stock%20Picker/stock_picker.rb)
 * Add your solution above this line!
 
 
@@ -326,4 +327,5 @@ Next, make sure your method can handle multiple words:
 * [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/substring.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/substrings.rb)
 * [Varvara's solution](https://github.com/varvara15/The_Odin_Project/blob/master/Substrings.rb)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/blob/master/6-more-ruby-problems/3%20-%20Substring/substring.rb)
 * Add your solution above this line!
