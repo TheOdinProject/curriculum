@@ -321,6 +321,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [John Meguerian's solution](https://github.com/jmegs/the-odin-project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jmegs/the-odin-project/blob/master/google-homepage/index.html)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/JJMcConnell/google-homepage/blob/master/index.html)
 * [M. Edgar Joel's solution](https://github.com/edgar-/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/edgar-/google-homepage/blob/master/index.html)
+* [Alex Tsiras' solution](https://github.com/arialblack14/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/arialblack14/google-homepage/blob/master/google.html)
 * Add your solution above this line! 
 
 
