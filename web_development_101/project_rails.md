@@ -74,6 +74,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-rails-project) | [View in browser](https://aqueous-garden-9909.herokuapp.com/)
 * [Gb69010p's solution](https://github.com/gb69010p/JumpstartBlogger) | [View in browser](https://tranquil-earth-2515.herokuapp.com/)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/5-ruby-on-rails-blogger) | [View in browser](https://lit-beach-4691.herokuapp.com)
+* [Bhupendra Singh's solution](https://github.com/bhupendra11/railsIntroProjectOdin) | [View in browser](http://fast-ravine-6339.herokuapp.com/)
 * Add your solution above this line!
 
 
