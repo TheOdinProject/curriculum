@@ -318,6 +318,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/1-google-homepage) | [View in browser](https://cdn.rawgit.com/markviola/the-odin-project/master/1-google-homepage/index.html)
 * [Nate Beck's solution](https://github.com/nbeck91/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/nbeck91/google-homepage/blob/master/index.html)
 * * [kushtrimmh's solution](https://github.com/kushtrimmh/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kushtrimmh/google-homepage/blob/master/index.html)
+* [John Meguerian's solution](https://github.com/jmegs/the-odin-project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jmegs/the-odin-project/blob/master/google-homepage/index.html)
 * Add your solution above this line! 
 
 
