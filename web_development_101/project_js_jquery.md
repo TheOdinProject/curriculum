@@ -186,4 +186,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Nathan's solution](https://github.com/viggie79/EtchaSketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/viggie79/EtchaSketch/blob/master/etch.html)
 * [Imiszkusz's solution](https://github.com/Imiszkusz/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/Imiszkusz/etch-a-sketch/blob/master/etchasketch.html)
 * [Kristupas Savickas's solution](https://github.com/pova1/sketchpad-for-the-odin-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/pova1/sketchpad-for-the-odin-project/blob/master/index.html)
+* [Joe Balsamo's solution](https://github.com/CodyHacker/javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/CodyHacker/javascript-jQuery/blob/master/index.html)
 * Add your solution above this line!
