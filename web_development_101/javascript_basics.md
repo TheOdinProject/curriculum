@@ -135,6 +135,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [A.Caroline's solution](https://github.com/acaroline/project-euler)
 * [Brody West's solution](https://github.com/BrodyWest/Euler-Project)
 * [Shawn Stovall's solution](https://github.com/Corune/euler-javascript)
+* [Seth Hall's solution](https://github.com/TravelingMan/odin_euler) | [View in browser](https://rawgit.com/TravelingMan/odin_euler/master/index.html)
 * Add your solution above this line!
 
 
