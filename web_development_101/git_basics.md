@@ -43,7 +43,7 @@ To get a good high-level overview of Git plus a series of how-to commands and ex
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Tips to write better commit messages](matching the article's spirit)
+* [Tips to write better commit messages](http://chris.beams.io/posts/git-commit/)
 * ["Just a simple guide for getting started with Git, no deep shit." from Roger Dudler](http://rogerdudler.github.io/git-guide/).
 * [Git Basics #4: Quick Wins with Git](http://www.youtube.com/watch?v=7w5Z7LmyLgI) will get a bit more into some of the features of Git.  A bit abstract, but should give you some conceptual tips.
 * [Git Immersion: a practical guided tour through the fundamentals of git](http://gitimmersion.com/index.html)
