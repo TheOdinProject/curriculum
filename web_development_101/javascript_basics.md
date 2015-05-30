@@ -139,6 +139,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [M.Edgar Joel's solution](https://github.com/edgar-/odin-project-solutions/tree/master/web_development_101/javascript_basics)
 * [Alex Tsiras' solution](https://github.com/arialblack14/euler)
 * [Cory Graddy's solution](https://github.com/corygraddy/Euler-Problems-Javascript) | [View in browser](https://rawgit.com/corygraddy/Euler-Problems-Javascript/master/index.html)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/2-javascript-problems)
 * Add your solution above this line!
 
 ## Additional Resources
