@@ -30,6 +30,7 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project8/testingruby1)
 * Dominik Stodolny's solution ([Caesar Cipher](https://github.com/dstodolny/ruby_building_blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/dstodolny/ruby_building_blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/dstodolny/tictactoe/tree/master/spec))
 * Lara Finnegan's solution ([Caesar Cipher](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/lcf0285/Ruby_Building_Blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/lcf0285/tic_tac_toe/tree/master/spec))
+* AtActionPark's solution ([Caesar Cipher](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/caesar-cipher/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/AtActionPark/odin-ruby-advanced-building-blocks/blob/master/Enumerable_methods/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/AtActionPark/odin_tic_tac_toe/tree/master/spec))
 * Add your solution above this line!
 
 
@@ -61,6 +62,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Dominik Stodolny's solution](https://github.com/dstodolny/connect_four)
 * [Dawn Pattison's solution](https://github.com/pattisdr/theOdinProject/tree/master/connect_four)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Connect-Four)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_connect_four)
 * Add your solution above this line!
 
 
