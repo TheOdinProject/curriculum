@@ -89,6 +89,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/4-ruby-problems)
 * [Kristupas Savickas's solution](https://github.com/pova1/Ruby-Project-for-the-odin-project)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/rubyProjectOdin/tree/master/learn_ruby_prog)
+* [Joseph Balsamo's solution](https://github.com/CodyHacker/test_first_ruby)
 * Add your solution above this line!
 
 
