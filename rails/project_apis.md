@@ -124,6 +124,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/rails-flickr-api-test-app)
 * [Jack's solution](https://github.com/jnguyen85/flickr_search)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flickr)
+* [Alex's solution](https://github.com/alexgh123/odin-api-practice) | (https://radiant-bastion-6163.herokuapp.com)
 * Add your solution above this line!
 
 
