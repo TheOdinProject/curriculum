@@ -40,8 +40,9 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectYT/blob/master/index2.html)
 * [Hailey's solution](https://github.com/hmfoster/embedded-youtube.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/embedded-youtube/blob/master/index.html)
 * [Rob Pennington's solution](https://github.com/rPen/Mock-Ups/tree/gh-pages/YouTube) | [View in browser](http://rpen.github.io/Mock-Ups/YouTube/index.html)
-* Add your solution above this line!
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odintube/) | [View in browser](http://htmlpreview.github.io/?https://github.com/dstodolny/odintube/blob/master/index.html)
+* Add your solution above this line!
+
 
 ## Additional Resources
 
