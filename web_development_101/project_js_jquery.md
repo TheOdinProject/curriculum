@@ -188,4 +188,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Kristupas Savickas's solution](https://github.com/pova1/sketchpad-for-the-odin-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/pova1/sketchpad-for-the-odin-project/blob/master/index.html)
 * [Joe Balsamo's solution](https://github.com/CodyHacker/javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/CodyHacker/javascript-jQuery/blob/master/index.html)
 * [Tony Vumbaca's solution](https://github.com/tvumbaca/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/tvumbaca/Etch-A-Sketch/blob/master/index.html)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/web101/jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/hiendinhngoc/TheOdinProject/blob/master/web101/jquery/html_file.html)
 * Add your solution above this line!
