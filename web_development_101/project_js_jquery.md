@@ -128,4 +128,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * See Asish Prabhakar's solution here: [source code](https://github.com/akottal/sketchpad/blob/master/index.html) or [view it in browser here](http://htmlpreview.github.io/?https://github.com/akottal/sketchpad/blob/master/index.html)
 * See Eleanor Weigert's solution here: [souce code](https://github.com/mixophrygian/Etcha-sketch) or [view it in the browser here] (http://htmlpreview.github.io/?https://github.com/mixophrygian/Etcha-sketch/blob/master/index.html)
 * See Brandon Eichler's solution here: [Source Code](https://github.com/vdubmastertech/etch-a-sketch) or [view it in the browser here](http://rawgit.com/vdubmastertech/etch-a-sketch/master/index.html)
+* hiendinhngoc's solution: [source code](https://github.com/hiendinhngoc/TheOdinProject/tree/master/web101/jquery)or [view in the broser](http://htmlpreview.github.io/?https://github.com/hiendinhngoc/TheOdinProject/blob/master/web101/jquery/html_file.html)
 * *Add the link to your solution above this line (do not remove this line)*
