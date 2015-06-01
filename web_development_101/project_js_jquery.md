@@ -189,4 +189,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Joe Balsamo's solution](https://github.com/CodyHacker/javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/CodyHacker/javascript-jQuery/blob/master/index.html)
 * [Tony Vumbaca's solution](https://github.com/tvumbaca/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/tvumbaca/Etch-A-Sketch/blob/master/index.html)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/web101/jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/hiendinhngoc/TheOdinProject/blob/master/web101/jquery/html_file.html)
+* [M. Edgar Joel's solution](https://github.com/edgar-/odin-project-solutions/tree/master/web_development_101/javasript-jquery-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/edgar-/odin-project-solutions/blob/master/web_development_101/javasript-jquery-project/index.html)
 * Add your solution above this line!
