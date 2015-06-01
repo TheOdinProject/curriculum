@@ -110,6 +110,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Lara Finnegan's solution](https://github.com/lcf0285/members-only)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/members-only) | [View in browser](https://mysterious-tundra-4233.herokuapp.com/)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/members-only)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/members_only)
 * Add your solution above this line!
 
 
