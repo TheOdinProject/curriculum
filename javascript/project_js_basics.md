@@ -52,6 +52,7 @@ It's time to build an on-screen calculator
 * [Trump's solution](https://github.com/trump812/OdinProject/tree/master/Javascript_and_jQuery/Calculator)
 * [Ryan Jordan's solution](https://github.com/krjordan/calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/calculator/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project1) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project1/jq-index.html)
+* [Frank Peelen's solution](https://github.com/FrankPeelen/on-screen-calculator-js) | [View in browser](http://rawgit.com/FrankPeelen/on-screen-calculator-js/master/index.html)
 * Add your solution above this line!
 
 
