@@ -91,6 +91,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-ruby-advanced-building-blocks/blob/master/bubble-sort.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/bubble_sort.rb)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/blob/master/7-more-ruby-problems-2/1%20-%20Bubble%20Sort/bubble_sort.rb)
+* [Bhupendra Singh's solution](https://github.com/bhupendra11/rubySandbox/blob/master/bubblesort.rb)
 * Add your solution above this line!
 
 
