@@ -92,6 +92,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Joseph Balsamo's solution](https://github.com/CodyHacker/test_first_ruby)
 * [Shawn Stovall's solution](https://github.com/Corune/rspec_ruby)
 * [M. Edgar Joel's solution](https://github.com/edgar-/learn_ruby)
+* [Tarun Johnson's solution](https://github.com/tnt007tarun/Web_Dev_101_Ruby_problems)
 * Add your solution above this line!
 
 
