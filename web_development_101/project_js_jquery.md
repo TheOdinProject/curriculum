@@ -191,7 +191,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/web101/jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/hiendinhngoc/TheOdinProject/blob/master/web101/jquery/html_file.html)
 * [M. Edgar Joel's solution](https://github.com/edgar-/odin-project-solutions/tree/master/web_development_101/javasript-jquery-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/edgar-/odin-project-solutions/blob/master/web_development_101/javasript-jquery-project/index.html)
 * [W Cope's solution](https://github.com/wcope80/Jquery-Grid) | [View in browser](http://htmlpreview.github.io/?https://github.com/wcope80/Jquery-Grid/blob/master/index.html)
-* [ninja-ml's solution](https://github.com/ninja-ml/sketchpad) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ninja-ml/sketchpad/blob/master/index.html)
-* [Xavier Reid's solution](https://github.com/xreid/etch-a-sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/xreid/etch-a-sketch/blob/master/index.html)
+* [ninja-ml's solution](https://github.com/ninja-ml/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/ninja-ml/sketchpad/blob/master/index.html)
+* [Xavier Reid's solution](https://github.com/xreid/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/xreid/etch-a-sketch/blob/master/index.html)
 * [Thulasi Arasu's solution](https://github.com/ThulasiA/etch-a-sketch) | [View in browser](https://rawgit.com/ThulasiA/etch-a-sketch/master/index.html)
+* [Alex Tsiras' solution](https://github.com/arialblack14/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/arialblack14/sketchpad/blob/master/sketch1.html)
 * Add your solution above this line!
