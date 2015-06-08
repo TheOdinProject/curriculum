@@ -193,4 +193,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [W Cope's solution](https://github.com/wcope80/Jquery-Grid) | [View in browser](http://htmlpreview.github.io/?https://github.com/wcope80/Jquery-Grid/blob/master/index.html)
 * [ninja-ml's solution](https://github.com/ninja-ml/sketchpad) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ninja-ml/sketchpad/blob/master/index.html)
 * [Xavier Reid's solution](https://github.com/xreid/etch-a-sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/xreid/etch-a-sketch/blob/master/index.html)
+* [Thulasi Arasu's solution](https://github.com/ThulasiA/etch-a-sketch) | [View in browser](https://rawgit.com/ThulasiA/etch-a-sketch/master/index.html)
 * Add your solution above this line!
