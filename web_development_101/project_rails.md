@@ -76,6 +76,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/5-ruby-on-rails-blogger) | [View in browser](https://lit-beach-4691.herokuapp.com)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/railsIntroProjectOdin) | [View in browser](http://fast-ravine-6339.herokuapp.com/)
 * [Joe Balsamo's solution](https://github.com/CodyHacker/blogger) | [View in browser](http://fathomless-sea-9804.herokuapp.com/)
+* [Cody Gipson's solution](https://github.com/Cgipson06/blogger2) | [View in browser](http://fast-lake-3445.herokuapp.com/)
 * Add your solution above this line!
 
 
