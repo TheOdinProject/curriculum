@@ -91,6 +91,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/rubyProjectOdin/tree/master/learn_ruby_prog)
 * [Joseph Balsamo's solution](https://github.com/CodyHacker/test_first_ruby)
 * [Shawn Stovall's solution](https://github.com/Corune/rspec_ruby)
+* [M. Edgar Joel's solution](https://github.com/edgar-/learn_ruby)
 * Add your solution above this line!
 
 
