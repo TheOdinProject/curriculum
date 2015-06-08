@@ -97,6 +97,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Vidul's solution](https://github.com/viparthasarathy/odin-kittens)
 * [Jason Matthews' solution](https://github.com/fo0man/odin-kittens)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-kittens)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/odin-kittens)
 * Add your solution above this line!
 
 
@@ -125,6 +126,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Jack's solution](https://github.com/jnguyen85/flickr_search)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flickr)
 * [Alex's solution](https://github.com/alexgh123/odin-api-practice) | [View in browser](https://radiant-bastion-6163.herokuapp.com)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/odin-flickr-api-app)
 * Add your solution above this line!
 
 
