@@ -30,6 +30,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Marina Sergeyeva's solution](https://github.com/imousterian/FlightBooker) | [View in browser](https://one-way-ticket.herokuapp.com/)
 * [Aleksandar's solution](https://github.com/Rodic/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flight-booker)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/flight_booker) | [View in browser](https://odin-booker.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources
