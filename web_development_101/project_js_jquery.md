@@ -195,4 +195,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Xavier Reid's solution](https://github.com/xreid/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/xreid/etch-a-sketch/blob/master/index.html)
 * [Thulasi Arasu's solution](https://github.com/ThulasiA/etch-a-sketch) | [View in browser](https://rawgit.com/ThulasiA/etch-a-sketch/master/index.html)
 * [Alex Tsiras' solution](https://github.com/arialblack14/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/arialblack14/sketchpad/blob/master/sketch1.html)
+* [QdB's solution](https://github.com/QdelBastardo/colorthingalso) | [View in Browser](http://htmlpreview.github.io/?https://github.com/QdelBastardo/colorthingalso/blob/master/index.html)
 * Add your solution above this line!
