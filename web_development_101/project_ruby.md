@@ -69,7 +69,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jeremy Faith's solution](https://github.com/JeremyFaith/odin-projects/tree/master/learn_ruby)
 * [Tommy Rodriguez's solution](https://github.com/trodrigu/odinproject/tree/master/learn_ruby)
 * [Tamim Sookoor's solution](https://github.com/sookoor/learn_ruby)
-* [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/rubyproject)
+* [Matias Pan's solution](https://github.com/kriox26/web_dev101/tree/master/ruby_basics)
 * [Nick Leoutsakos's solution](https://github.com/nleoutsa/Ruby_TDD)
 * [NYJY's solution](https://github.com/nyjy85/Ruby/tree/master/odin_project/test-first-ruby)
 * [Psidium's solution](https://github.com/Psidium/ruby-exercises)
