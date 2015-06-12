@@ -140,7 +140,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Nick Kessler's solution](https://github.com/nakessler/Project_Javascript_jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/nakessler/Project_Javascript_jQuery/blob/master/Project_Javascript_jQuery.html)
 * [Psidium's solution](https://github.com/Psidium/jQuery-project) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Psidium/jQuery-project/master/project.html)
 * [Thomas Vaeth's solution](https://github.com/thomasvaeth/the_odin_project/tree/master/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/thomasvaeth/the_odin_project/blob/master/etch-a-sketch/index.html)
-* [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/kriox26/odin_project/blob/master/sketchpad/index.html)
+* [Matias Pan's solution](https://github.com/kriox26/web_dev101/blob/master/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/kriox26/web_dev101/blob/master/sketchpad/index.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/etch-a-sketch/blob/master/index.html)
 * [Tom Faber's solution](https://github.com/TomFaber88/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/TomFaber88/sketch-pad/blob/master/index.html)
 * [Taylor Buchheit's solution](https://github.com/7aylor/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/7aylor/etch-a-sketch/blob/master/public.html)
