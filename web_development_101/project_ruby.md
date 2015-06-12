@@ -93,6 +93,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Shawn Stovall's solution](https://github.com/Corune/rspec_ruby)
 * [M. Edgar Joel's solution](https://github.com/edgar-/learn_ruby)
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/Web_Dev_101_Ruby_problems)
+* [Xavier Reid's Solution](https://github.com/xreid/ruby_project)
 * Add your solution above this line!
 
 
