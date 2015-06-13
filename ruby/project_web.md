@@ -203,6 +203,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/tree/master/OP%20-%20Web%20Server%20%26%20Browser) with thanks to other students solutions for help!
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_cli-webserver-browser)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_web_server)
+* [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_web/ruby_web_server)
 * [Jon Yorg's solution] (https://github.com/Yorgg/Ruby-Stuff/tree/master/client-server)
 * Add your solution above this line!
 
