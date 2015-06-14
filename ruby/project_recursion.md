@@ -46,6 +46,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Recursion/blob/master/fibonacci.rb)
 * [Chris's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Recursive%20Exercises/fib.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_recursion_project/blob/master/recursion.rb)
+* [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_recursion/)
 * Add your solution above this line!
 
 
