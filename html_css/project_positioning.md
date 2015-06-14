@@ -27,6 +27,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Ryan Jordan's solution](https://github.com/krjordan/nyt-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/nyt-project/blob/master/index.html)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/New-York-Times-CSS) | [View in browser](https://rawgit.com/FrankPeelen/New-York-Times-CSS/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 * [AyeSea's solution](https://github.com/AyeSea/nytimes-css) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/nytimes-css/blob/master/index.html)
+* [Dominik Stodolny's solution](https://github.com/dstodolny/nyt-article) | [View in browser](https://htmlpreview.github.io/?https://github.com/dstodolny/nyt-article/blob/master/index.html)
 * Add your solution above this line!
 
 
