@@ -274,7 +274,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sleaz0id/google-homepage/blob/master/index.html) | [View in browser (Difficult Version)](http://htmlpreview.github.io/?https://github.com/sleaz0id/google-homepage/blob/master/results.html)
 * [Adan Camacho's solution](https://github.com/Adancode/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Adancode/google-homepage/blob/master/index.html)
 * [Kira McLean's solution](https://github.com/kiramc/google-homepage) | [View in browser](https://rawgit.com/kiramc/google-homepage/master/index.html)
-* [Chris Fullinwider's solution](https://github.com/Fully34/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Fully34/google-homepage/blob/master/Homepage.html) 
+* [Chris Fullinwider's solution](https://github.com/Fully34/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Fully34/google-homepage/blob/master/Homepage.html)
 * [Max nynd's solution](https://github.com/nynd/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nynd/google-homepage/blob/master/googlehomepage.html)
 * [Drew Horge's solution](https://github.com/remlyfe/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/remlyfe/google-homepage/blob/master/index.html)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/blob/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jsymons/the-odin-project/blob/master/google-homepage/index.html)
@@ -344,6 +344,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Ethan Nevidomsky's solution](https://github.com/Ethan-N/google-homepage)[View in browser](https://htmlpreview.github.io/?https://github.com/Ethan-N/google-homepage/blob/master/index.html)
 * [Lucy Yu's solution](http://github.com/lucyyu24/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/lucyyu24/google-homepage/blob/master/google-homepage.html)
 * [Julian Patton's solution] (https://github.com/Tamale-stalker/google-homepage) [View in browser](http://htmlpreview.github.io/?https://github.com/Tamale-stalker/google-homepage/blob/master/index.html)
+* [Ben Howlett's solution](https://github.com/bluetint/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bluetint/google-homepage/blob/master/google.html)
 * Add your solution above this line! 
 
 
