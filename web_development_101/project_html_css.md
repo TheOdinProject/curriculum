@@ -338,10 +338,11 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Ho Won Cheng's solution](https://github.com/chenghw/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/chenghw/google_homepage/blob/master/google_homepage.html)
 * [Kevin Sen's solution](https://github.com/Kevin-Sen/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Kevin-Sen/google-homepage/blob/master/index.html)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/florianmainguy/google-homepage/blob/master/index.html)
-* [Geetha's solution](https://github.com/rock626/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/rock626/google-homepage/blob/master/index.html)
+* [Geetha's solution](https://github.com/rock626/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rock626/google-homepage/blob/master/index.html)
 * [Fernando Forero's solution](https://github.com/BlandoNando/googleClone) | [View in browser](https://htmlpreview.github.io/?https://github.com/BlandoNando/googleClone/master/index.html)
 * [Ricardo Monteiro's solution](https://github.com/rpmonteiro/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rpmonteiro/google-homepage/blob/master/index.html)
 * [Ethan Nevidomsky's solution](https://github.com/Ethan-N/google-homepage)[View in browser](https://htmlpreview.github.io/?https://github.com/Ethan-N/google-homepage/blob/master/index.html)
+* [Lucy Yu's solution](http://github.com/lucyyu24/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/lucyyu24/google-homepage/blob/master/google-homepage.html)
 * Add your solution above this line! 
 
 
