@@ -146,6 +146,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/JavaScriptBasics)
 * [Adrian Clark's solution](https://github.com/AdrianClark/The_Odin_Project/tree/master/Euler_Project)
 * [Kevin Sen's solution](https://github.com/Kevin-Sen/javascript_101)
+* [Connor Allen's solution](https://github.com/callen139/project_euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/callen139/project_euler/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
