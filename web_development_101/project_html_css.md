@@ -341,6 +341,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Geetha's solution](https://github.com/rock626/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/rock626/google-homepage/blob/master/index.html)
 * [Fernando Forero's solution](https://github.com/BlandoNando/googleClone) | [View in browser](https://htmlpreview.github.io/?https://github.com/BlandoNando/googleClone/master/index.html)
 * [Ricardo Monteiro's solution](https://github.com/rpmonteiro/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rpmonteiro/google-homepage/blob/master/index.html)
+* [Ethan Nevidomsky's solution](https://github.com/Ethan-N/google-homepage)[View in browser](https://htmlpreview.github.io/?https://github.com/Ethan-N/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
