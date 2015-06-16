@@ -232,6 +232,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Joe Balsamo's solution](https://github.com/CodyHacker/Ruby_Building_Blocks/blob/master/stock_picker.rb)
 * [Gb69010p's solution](https://github.com/gb69010p/RubyBuildingBlocks/blob/master/stock_picker.rb)
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-stock-picker/blob/master/stock_picker.rb)
+* [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/stock_picker.rb)
 * Add your solution above this line!
 
 
