@@ -55,6 +55,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Jack Nguyen's [Test-First Ruby Solutions](https://github.com/jnguyen85/test-first_ruby_solutions)
 * Scott Yu's [Test-First Ruby Solutions](https://github.com/scootcho/the_odin_project/tree/master/ruby/learn_ruby)
 * Chris Dziewa's [Test-First Ruby Solutions](https://github.com/chrisdziewa/test-ruby)
+* hiendinhngoc's [Test-First Ruby Solutions](https://github.com/hiendinhngoc/TheOdinProject/tree/master/the_back_end)
 * *Your solution here...*
 
 
