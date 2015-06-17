@@ -347,4 +347,5 @@ Next, make sure your method can handle multiple words:
 * [Joe Balsamo's solution](https://github.com/CodyHacker/Ruby_Building_Blocks/blob/master/substrings.rb)
 * [Gb69010p's solution](https://github.com/gb69010p/RubyBuildingBlocks/blob/master/substrings.rb)
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-substring/blob/master/substring.rb)
+* [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/substrings.rb)
 * Add your solution above this line!
