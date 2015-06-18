@@ -1,4 +1,4 @@
-# Project: Minesweeper in Javscript
+# Project: Minesweeper in Javascript
   
 As you continue to expand your knowledge of Javascript, the programs you build should keep feeling more and more natural.  In this project, you'll get a chance to build another classic browser game -- Minesweeper.  It'll take some thought to work out the different logic cases, but it's really rewarding to be able to play something like this.  
 

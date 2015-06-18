@@ -30,6 +30,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Ryan Jordan's solution](https://github.com/krjordan/jquery-basics) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/jquery-basics/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project2) | [View in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/TOPJS/blob/master/Project2/index.html)
 * Add your solution above this line!
+* [Jon Yorg's solution] (https://github.com/Yorgg/Javascript/tree/master/menu) | [View in browser](https://jsfiddle.net/qprk1daL/)
 
 
 

@@ -38,7 +38,6 @@ We'll also cover a few tips and tools that will be useful to you again and again
 
 * [A packet's journey (video)](http://www.youtube.com/watch?v=WwyJGzZmBe8).
 * An [entertaining TED talk](http://www.ted.com/talks/jonathan_zittrain_the_web_is_a_random_act_of_kindness.html) about how the Internet works.
-* [A Developer Tools Playlist](https://www.youtube.com/playlist?list=PL201CED3354560079) on YouTube
 * For a more detailed (though a bit dated) text explanation of http, [check out this link](http://www.garshol.priv.no/download/text/http-tut.html).
 * Udacity has a quick explanation of [web basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/e-48230539/m-48742046) and [HTML basics](https://www.udacity.com/course/viewer#!/c-cs253/l-48737165/m-48724340) (these will require login/signup but it's free).
 * A comprehensive list of web development resources lives at the [Web Standards Curriculum](http://www.w3.org/wiki/Web_Standards_Curriculum).

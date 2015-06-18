@@ -32,6 +32,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/rest_client)
 * [Filipe's solution](https://github.com/panceri/rest-client-demo)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/RubyOnRails/restClient/rest_client.rb)
+* [Querylous's Solution](https://github.com/querylous/ddgrest)
 * Add your solution above this line!
 
 
