@@ -71,6 +71,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Andrea Kulbaba's solution](https://github.com/akulbaba/blogger)
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/blogger)
 * [Dan Hoying's solution](https://github.com/danhoying/blogger) | [View in browser](https://infinite-hollows-9057.herokuapp.com/) 
+* [Tarun Johnson's solution](https://github.com/tnt007tarun/blogger_2) | [View in browser](https://floating-eyrie-8027.herokuapp.com/)
 * Add your solution above this line!
 
 
