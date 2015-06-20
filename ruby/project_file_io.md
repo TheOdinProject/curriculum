@@ -41,7 +41,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/blob/master/jumpstart-event-manager)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_event_manager/blob/master/lib/event_manager.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_serializing/event_manager)
-* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization/1%20-%20Event%20Manager)
+* [Alex Chen's solution](https://github.com/Chenzilla/event_manager)
 * Add your solution above this line!
 
 
