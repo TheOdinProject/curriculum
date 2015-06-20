@@ -199,4 +199,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Patrick Doane's solution](https://github.com/patrickdoane/the_odin_project/tree/master/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/patrickdoane/the_odin_project/blob/master/etch-a-sketch/app/index.html)
 * [Ricardo Monteiro's solution](https://github.com/rpmonteiro/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/rpmonteiro/Etch-A-Sketch/blob/master/index.html)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/Etch-a-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/JJMcConnell/TheOdinProject/blob/master/Etch-a-Sketch/index.html)
+* [Ethan Nevidomsky's solution](https://github.com/Ethan-N/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Ethan-N/sketch-pad/blob/master/index.html)
 * Add your solution above this line!
