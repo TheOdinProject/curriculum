@@ -78,7 +78,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/blogger) | [View in browser](http://fathomless-sea-9804.herokuapp.com/)
 * [Cody Gipson's solution](https://github.com/Cgipson06/blogger2) | [View in browser](http://fast-lake-3445.herokuapp.com/)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/project-rails/blogger) | [View in browser](https://shielded-lake-3494.herokuapp.com/)
-* [Taylor Buchheit's solution](https://github.com/7aylor/firstrailsapp.git) | [View in browser] (http://mighty-brushlands-8664.herokuapp.com/articles)
+* [Taylor Buchheit's solution](https://github.com/7aylor/firstrailsapp.git) | [View in browser](http://mighty-brushlands-8664.herokuapp.com/articles)
+* [Tarun Johnson's solution](https://github.com/tnt007tarun/blogger_2) | [View in browser](https://floating-eyrie-8027.herokuapp.com/)
 * Add your solution above this line!
 
 
