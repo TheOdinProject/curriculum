@@ -343,12 +343,13 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Ricardo Monteiro's solution](https://github.com/rpmonteiro/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rpmonteiro/google-homepage/blob/master/index.html)
 * [Ethan Nevidomsky's solution](https://github.com/Ethan-N/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Ethan-N/google-homepage/blob/master/index.html)
 * [Lucy Yu's solution](http://github.com/lucyyu24/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/lucyyu24/google-homepage/blob/master/google-homepage.html)
-* [Julian Patton's solution] (https://github.com/Tamale-stalker/google-homepage) [View in browser](http://htmlpreview.github.io/?https://github.com/Tamale-stalker/google-homepage/blob/master/index.html)
+* [Julian Patton's solution](https://github.com/Tamale-stalker/google-homepage) [View in browser](http://htmlpreview.github.io/?https://github.com/Tamale-stalker/google-homepage/blob/master/index.html)
 * [Ben Howlett's solution](https://github.com/bluetint/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bluetint/google-homepage/blob/master/google.html)
 * [Siddharth Gupta's solution](https://github.com/sidgupta234/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sidgupta234/google-homepage/blob/master/index.html)
 * [Harvey Singh's solution](https://github.com/harveysingh1/google-homepage)[View in browser (easy)](http://htmlpreview.github.io/?https://github.com/harveysingh1/google-homepage/blob/master/index.html) | [View in browser (difficult)](https://htmlpreview.github.io/?https://github.com/harveysingh1/google-homepage-hard/blob/master/google.html)
 * [Nana Owusu's solution (Easy Version)](https://github.com/nanaowusunyamekye/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nanaowusunyamekye/google-homepage/blob/master/index.html)
 * [Telios's solution](https://github.com/oakinogundeji/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/oakinogundeji/google-homepage/blob/master/index.html)
+* [WCope's solution](https://github.com/wcope80/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/wcope80/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
