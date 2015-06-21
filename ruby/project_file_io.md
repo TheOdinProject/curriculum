@@ -108,6 +108,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Jon Yorg's solution] (https://github.com/Yorgg/Ruby-Stuff/tree/master/hangman)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization-and-files/2%20-%20Hangman)
 * [Alex Chen's solution](https://github.com/Chenzilla/hangman_with_save)
+* [Joe Balsamo's solution](https://github.com/CodyHacker/hangman)
 * Add your solution above this line!
 
 
