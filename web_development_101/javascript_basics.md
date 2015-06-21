@@ -150,6 +150,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Scott Bobbitt's solution](https://github.com/sco-bo/Project-Euler)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/Project-Euler-Javascript)
 * [Gerard Jorgensen's solution](https://github.com/gerardjorgensen/EulerProject)
+* [laingdk's solution](https://github.com/laingdk/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
