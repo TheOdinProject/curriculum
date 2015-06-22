@@ -80,7 +80,6 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/project-rails/blogger) | [View in browser](https://shielded-lake-3494.herokuapp.com/)
 * [Taylor Buchheit's solution](https://github.com/7aylor/firstrailsapp.git) | [View in browser](http://mighty-brushlands-8664.herokuapp.com/articles)
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/blogger_2) | [View in browser](https://floating-eyrie-8027.herokuapp.com/)
-* Add your solution above this line!
 * Paul Dariye's Solution [Jumpstart Labs Blogger App](https://github.com/pauldd91/theodinproject/tree/master/blogger)
 * Allen's Solution [Jumpstart Labs Blogger App](https://github.com/NoRest4AWhearry/blogger) | [View online](http://jsblogger2.herokuapp.com/)
 * Sergey Prihodko's Solution [Jumpstart Labs Blogger App](https://github.com/sprihodko/blog) | [View online](https://stormy-coast-9842.herokuapp.com/)
@@ -108,6 +107,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Vidul's Solution [Jumpstart Labs Blogger App I0-I4](https://github.com/viparthasarathy/rails-project) | [View it online](https://protected-depths-2514.herokuapp.com/)
 * Dorian Iacobescu's Solution [Jumpstart Labs Blogger App](https://github.com/iacobson/Odin5-Rails-Blogger) | [View online](http://odin-blog.herokuapp.com/)
 * hiendinhngoc's Solution [Jumpstart Labs Blogger App](https://github.com/hiendinhngoc/TheOdinProject/tree/master/webdevelopment_framework/blogger)
+* [M. Edgar Joel's solution](https://github.com/edgar-/blogger) | [View in browser](https://shielded-savannah-3157.herokuapp.com/)
 * *Your solution above here...*
 
 
