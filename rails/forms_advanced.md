@@ -18,7 +18,6 @@ In this section, we'll take a look at some of the options you have to make a for
 * What do you need to change in the model to allow nested forms to create new objects properly?
 * How do you whitelist the nested parameters properly in your controller?
 * Why can't you just delete something by leaving a form field (e.g. a checkbox) blank (unchecked)?
-*   
 
 ## Prepopulating `select` Tags with Collections
 
