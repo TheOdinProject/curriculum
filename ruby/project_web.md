@@ -47,6 +47,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Jumpstart%20MicroBlogger/lib/micro_blogger.rb)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/rubySandbox/blob/master/microblogger.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_web/twitter_spambot)
+* [Alex Chen's solution](https://github.com/Chenzilla/twitter_client)
 * Add your solution above this line!
 
 
