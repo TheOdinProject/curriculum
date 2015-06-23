@@ -128,6 +128,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Scott Yu's [Test-First Ruby Solutions](https://github.com/scootcho/the_odin_project/tree/master/ruby/learn_ruby)
 * Chris Dziewa's [Test-First Ruby Solutions](https://github.com/chrisdziewa/test-ruby)
 * hiendinhngoc's [Test-First Ruby Solutions](https://github.com/hiendinhngoc/TheOdinProject/tree/master/the_back_end)
+* PiotrAleksander's [Test-First Ruby Solutions](https://github.com/PiotrAleksander/test-first-Ruby.git)
 *Your solution here...*
 
 
