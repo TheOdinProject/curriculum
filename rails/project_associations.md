@@ -85,6 +85,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Jason Matthews' solution](https://github.com/fo0man/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/private-events)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/private_events) | [View in browser](https://protected-island-9117.herokuapp.com/)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_private_event) | [View in browser](https://afternoon-citadel-2578.herokuapp.com/)
 * Add your solution above this line!
 
 

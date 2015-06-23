@@ -69,7 +69,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jeremy Faith's solution](https://github.com/JeremyFaith/odin-projects/tree/master/learn_ruby)
 * [Tommy Rodriguez's solution](https://github.com/trodrigu/odinproject/tree/master/learn_ruby)
 * [Tamim Sookoor's solution](https://github.com/sookoor/learn_ruby)
-* [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/rubyproject)
+* [Matias Pan's solution](https://github.com/kriox26/web_dev101/tree/master/ruby_basics)
 * [Nick Leoutsakos's solution](https://github.com/nleoutsa/Ruby_TDD)
 * [NYJY's solution](https://github.com/nyjy85/Ruby/tree/master/odin_project/test-first-ruby)
 * [Psidium's solution](https://github.com/Psidium/ruby-exercises)
@@ -90,6 +90,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Kristupas Savickas's solution](https://github.com/pova1/Ruby-Project-for-the-odin-project)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/rubyProjectOdin/tree/master/learn_ruby_prog)
 * [Joseph Balsamo's solution](https://github.com/CodyHacker/test_first_ruby)
+* [Shawn Stovall's solution](https://github.com/Corune/rspec_ruby)
+* [M. Edgar Joel's solution](https://github.com/edgar-/learn_ruby)
+* [Tarun Johnson's solution](https://github.com/tnt007tarun/Web_Dev_101_Ruby_problems)
+* [Xavier Reid's Solution](https://github.com/xreid/ruby_project)
 * Add your solution above this line!
 
 
