@@ -43,6 +43,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_serializing/event_manager)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization/1%20-%20Event%20Manager)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/event-manager)
+* [Alex Chen's solution](https://github.com/Chenzilla/event_manager)
 * Add your solution above this line!
 
 
