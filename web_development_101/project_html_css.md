@@ -351,6 +351,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Telios's solution](https://github.com/oakinogundeji/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/oakinogundeji/google-homepage/blob/master/index.html)
 * [WCope's solution](https://github.com/wcope80/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/wcope80/google-homepage/blob/master/index.html)
 * [Thomas Vaeth's solution](https://github.com/thomasvaeth/the_odin_project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/thomasvaeth/the_odin_project/blob/master/google-homepage/index.html)
+* [djhart's solution](https://github.com/djhart/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/djhart/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
