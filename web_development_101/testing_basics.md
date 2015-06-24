@@ -33,7 +33,7 @@ Regardless of how exactly it's done, testing is highly important and you'll be r
 ## Assignment:
 
 1. Get a real-life perspective on why tests are so important by watching [this video](http://www.youtube.com/watch?v=nBtO1UOK9Hs) by Nell Shamrell.  Some of the vocabulary may be stuff you haven't heard before (like "stubs" and "mocks"), but just absorb the message. 
-1. Do the [Introductory RSpec level](http://rspec.codeschool.com/levels/1) from Code School to become more familiar with Ruby's RSpec test framework. Note for Windows users: As of September 2014, the current version of rspec is broken in Windows. If you want to follow along on your own computer, when installing the gem, instead of "gem install rspec", type "gem install rspec -v 2.14.1" instead.
+1. Do the [Introductory RSpec level](http://rspec.codeschool.com/levels/1) from Code School to become more familiar with Ruby's RSpec test framework.
 
 ## Additional Resources
 
