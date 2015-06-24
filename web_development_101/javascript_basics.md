@@ -134,9 +134,28 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/2_web-dev-101_Euler) | [View in browser](https://rawgit.com/ll14m4n/the-odin-project/master/2_web-dev-101_Euler/build/index.html)
 * [A.Caroline's solution](https://github.com/acaroline/project-euler)
 * [Brody West's solution](https://github.com/BrodyWest/Euler-Project)
+* [Shawn Stovall's solution](https://github.com/Corune/euler-javascript)
+* [Seth Hall's solution](https://github.com/TravelingMan/odin_euler) | [View in browser](https://rawgit.com/TravelingMan/odin_euler/master/index.html)
 * [M.Edgar Joel's solution](https://github.com/edgar-/odin-project-solutions/tree/master/web_development_101/javascript_basics)
+* [Alex Tsiras' solution](https://github.com/arialblack14/euler)
+* [Cory Graddy's solution](https://github.com/corygraddy/Euler-Problems-Javascript) | [View in browser](https://rawgit.com/corygraddy/Euler-Problems-Javascript/master/index.html)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/2-javascript-problems)
+* [Patrick Doane's solution](https://github.com/patrickdoane/the_odin_project/tree/master/project-euler)
+* [JTomlin's solution](https://github.com/JTomlin/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/JTomlin/project-euler/blob/master/index.html)
+* [Thulasi Arasu's solution](https://github.com/ThulasiA/javascript101-odinproject/blob/master/odin-javascript-problems.html) | [View in browser](https://rawgit.com/ThulasiA/javascript101-odinproject/master/odin-javascript-problems.html)
+* [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/JavaScriptBasics)
+* [Adrian Clark's solution](https://github.com/AdrianClark/The_Odin_Project/tree/master/Euler_Project)
+* [Kevin Sen's solution](https://github.com/Kevin-Sen/javascript_101)
+* [Connor Allen's solution](https://github.com/callen139/project_euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/callen139/project_euler/blob/master/index.html)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/Project-Euler)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/Project-Euler-Javascript)
+* [Gerard Jorgensen's solution](https://github.com/gerardjorgensen/EulerProject)
+* [laingdk's solution](https://github.com/laingdk/project-euler)
+* [Jeffrey Bartels' solution](https://github.com/jitterboggle/project-Eueler-JS.git)
+* [musyilmaz's solution](https://github.com/musyilmaz/Odin-s-Project/tree/master/Web%20Development%20101/Javascript/Project_euler)
+* [Siddharth Gupta's solution](https://github.com/sidgupta234/eulerprojectjs)
+* [impossibleshapes' solution](https://github.com/impossibleshapes/Project-Euler-JavaScript-Odin)
 * Add your solution above this line!
-
 
 ## Additional Resources
 

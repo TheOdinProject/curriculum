@@ -42,6 +42,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [Jason Matthews' solution](https://jsfiddle.net/31wtcf4a/4/)
 * [Ryan Jordan's solution](https://github.com/krjordan/slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/slider/blob/master/index.html)
 * [Aleksandar Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Creating%20an%20Image%20Carousel%20in%20Javascript)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project4) | [View in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/TOPJS/blob/master/Project4/index.html)
 * Add your solution above this line!
 
 

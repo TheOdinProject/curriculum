@@ -16,7 +16,7 @@ You may be uncomfortable "selling yourself" but that's exactly what you'll have 
 
 All along the way, you should keep building things.  The work you've done will be crucial to demonstrating your technical skill and getting hired.  Employers want to see that you can build and ship code and that you make good decisions when confronted with engineering trade-offs.  All of this stems from conversations about your portfolio of work.
 
-The portfolio is also important for another thing that isn't mentioned much -- social proof.  If you've been a part of larger or group projects, that's almost like showing that you've worked somewhere before.  It make the employer comfortable that other people have worked with you before so they can too.
+The portfolio is also important for another thing that isn't mentioned much -- social proof.  If you've been a part of larger or group projects, that's almost like showing that you've worked somewhere before.  It makes the employer comfortable that other people have worked with you before so they can too.
 
 Your portfolio as a developer is Github.  You may have a personal website but Github is still the authoritative repository of your technical ability.  Ignore it at your peril.
 

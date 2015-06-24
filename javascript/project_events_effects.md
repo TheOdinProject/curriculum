@@ -44,15 +44,16 @@ If you think about what's required to make a game like this work, it's all well 
 * [Afshin M.'s solution](https://github.com/afshinator/js-snake)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/snake) | [View in browser](http://jsfiddle.net/Jberczel/xvEt5/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Snake/index.html)
-* [Mazin's Solution](https://github.com/muzfuz/JS_Snake)
+* [Mazin's solution](https://github.com/muzfuz/JS_Snake)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_3_Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_3_Snake/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/snake/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/snake) | [View in browser](http://katemcfaul.com/snake)
 *  [Meher Chandan's solution](https://github.com/meherchandan/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Snake/blob/master/index.html)
 *  [Jason Matthews' solution](https://jsfiddle.net/e2zhssyj/13/)
 *  [Aleksandar Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20jQuery%20and%20the%20DOM)
-*  [Ryan Jordan's solution](https://github.com/krjordan/snake-clone) | [View in the browser](http://htmlpreview.github.io/?https://github.com/krjordan/snake-clone/blob/master/index.html)
-*  [Frank Peelen's solution](https://github.com/FrankPeelen/Snake-Browser-JS) | [View in the browser](http://rawgit.com/FrankPeelen/Snake-Browser-JS/master/index.html)
+*  [Ryan Jordan's solution](https://github.com/krjordan/snake-clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/snake-clone/blob/master/index.html)
+*  [Frank Peelen's solution](https://github.com/FrankPeelen/Snake-Browser-JS) | [View in browser](http://rawgit.com/FrankPeelen/Snake-Browser-JS/master/index.html)
+*  [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project3) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project3/index.html)
 * Add your solution above this line!
 
 
