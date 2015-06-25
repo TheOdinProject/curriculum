@@ -99,6 +99,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-kittens)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/odin-kittens)
 * [AtActionParks's solution](https://github.com/AtActionPark/odin_kittens)
+* [Hutton Brandon's solution](https://github.com/Hutbytheton/odin-kittens)
 * Add your solution above this line!
 
 
