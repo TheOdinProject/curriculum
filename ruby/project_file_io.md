@@ -44,6 +44,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization/1%20-%20Event%20Manager)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/event-manager)
 * [Alex Chen's solution](https://github.com/Chenzilla/event_manager)
+* [Cody Gipson's solution] (https://github.com/Cgipson06/EventManager)
 * Add your solution above this line!
 
 
@@ -110,6 +111,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization-and-files/2%20-%20Hangman)
 * [Alex Chen's solution](https://github.com/Chenzilla/hangman_with_save)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/hangman)
+* [Cody Gipson's solution] (https://github.com/Cgipson06/Hangman)
 * Add your solution above this line!
 
 
