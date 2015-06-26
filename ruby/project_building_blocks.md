@@ -353,4 +353,5 @@ Next, make sure your method can handle multiple words:
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-substring/blob/master/substring.rb)
 * [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/substrings.rb)
 * [M. Edgar Joel's solution](https://github.com/edgar-/odin-project-solutions/blob/master/building_blocks/substrings.rb)
+* [Miguel Oliveira's solution](https://github.com/Powerade/The-Odin-Project/tree/master/Ruby%20Programming%20Projects/Substrings)
 * Add your solution above this line!
