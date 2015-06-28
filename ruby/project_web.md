@@ -48,6 +48,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/rubySandbox/blob/master/microblogger.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_web/twitter_spambot)
 * [Alex Chen's solution](https://github.com/Chenzilla/twitter_client)
+* [Cody Gipson's solution] (https://github.com/Cgipson06/twitter-client)
 * Add your solution above this line!
 
 
@@ -206,6 +207,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_web_server)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_web/ruby_web_server)
 * [Jon Yorg's solution] (https://github.com/Yorgg/Ruby-Stuff/tree/master/client-server)
+* [Cody Gipson's solution] (https://github.com/Cgipson06/Ruby-server-client)
 * Add your solution above this line!
 
 
