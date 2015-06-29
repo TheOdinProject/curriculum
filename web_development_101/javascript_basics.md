@@ -155,6 +155,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [musyilmaz's solution](https://github.com/musyilmaz/Odin-s-Project/tree/master/Web%20Development%20101/Javascript/Project_euler)
 * [Siddharth Gupta's solution](https://github.com/sidgupta234/eulerprojectjs)
 * [impossibleshapes' solution](https://github.com/impossibleshapes/Project-Euler-JavaScript-Odin)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/project_Euler)
 * Add your solution above this line!
 
 ## Additional Resources
