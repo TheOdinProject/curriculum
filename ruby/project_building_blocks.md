@@ -239,7 +239,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/stock_picker.rb)
 * [M. Edgar Joel's solution](https://github.com/edgar-/odin-project-solutions/blob/master/building_blocks/stock_picker.rb)
 * [Miguel Oliveira(Powerade)'s solution](https://github.com/Powerade/The-Odin-Project/tree/master/Ruby%20Programming%20Projects/Stock%20Picker)
-* [Xavier Reid's solution](https://github.com/xreid/ruby_building_blocks/blob/master/stock_picker.rb)
+* [Xavier Reid's solution](https://github.com/xreid/ruby_building_blocks/blob/master/src/stock_picker.rb)
 * [WCope's solution](https://github.com/wcope80/ruby_building_blocks/blob/master/Stock_Prices/StockPicker.rb)
 * Add your solution above this line!
 
@@ -358,6 +358,6 @@ Next, make sure your method can handle multiple words:
 * [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/substrings.rb)
 * [M. Edgar Joel's solution](https://github.com/edgar-/odin-project-solutions/blob/master/building_blocks/substrings.rb)
 * [Miguel Oliveira's solution](https://github.com/Powerade/The-Odin-Project/tree/master/Ruby%20Programming%20Projects/Substrings)
-* [Xavier Reid's solution](https://github.com/xreid/ruby_building_blocks/blob/master/substrings.rb)
+* [Xavier Reid's solution](https://github.com/xreid/ruby_building_blocks/blob/master/src/substrings.rb)
 * [WCope's solution](https://github.com/wcope80/ruby_building_blocks/blob/master/Substrings/Substrings.rb)
 * Add your solution above this line!
