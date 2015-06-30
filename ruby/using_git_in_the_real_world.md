@@ -13,7 +13,7 @@ Again, it's all designed to keep your workflow modular and the commits independe
 
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.  
 
-To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a Github workflow used on this very project.  The Additional Resources section below that should also help you find high quality resources for when you need them later on.
+To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a Github workflow used on this very project.  The Additional Resources section below should also help you find high quality resources for when you need them later on.
 
 ## A Git Workflow For Open Source Contribution
 
