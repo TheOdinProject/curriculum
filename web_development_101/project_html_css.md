@@ -354,11 +354,12 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [djhart's solution](https://github.com/djhart/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/djhart/google-homepage/blob/master/index.html)
 * [Łukasz Łocki's solution](https://github.com/vrch/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/vrch/google-homepage/blob/master/index.html)
 * [Wayne Ho's solution](https://github.com/wayneho/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/wayneho/google-homepage/blob/master/index.html) 
-* [Stanley Ye's 'easy' solution] (https://github.com/stanleyye/Google-Homepage) | ['Difficult' solution](https://github.com/stanleyye/Google-Searchpage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/stanleyye/Google-Homepage/blob/master/Googlehomepage.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/stanleyye/Google-Searchpage/blob/master/index.html)
+* [Stanley Ye's 'easy' solution](https://github.com/stanleyye/Google-Homepage) | ['Difficult' solution](https://github.com/stanleyye/Google-Searchpage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/stanleyye/Google-Homepage/blob/master/Googlehomepage.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/stanleyye/Google-Searchpage/blob/master/index.html)
 * [Panashe M. Fundira's solution](https://github.com/munyari/google-homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/munyari/google-homepage/blob/master/easy.html)
 * [Damian Machnik's solution](https://github.com/machnior/google_homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/machnior/google_homepage/blob/master/index.html)
 * [Brian Burke's solution](https://github.com/sanora/google-homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/sanora/google-homepage/blob/master/index.html)
 * [Curtis Barnard Jr. solution](https://github.com/oregoncurtis/google-homepage) | [View in browser (easy)](https://htmlpreview.github.io/?https://github.com/oregoncurtis/google-homepage/blob/master/index.html)
+* [Lisa Dean's solution](https://github.com/LisaZD/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/LisaZD/google-homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
