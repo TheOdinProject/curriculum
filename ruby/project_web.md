@@ -209,6 +209,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_web/ruby_web_server)
 * [Jon Yorg's solution](https://github.com/Yorgg/Ruby-Stuff/tree/master/client-server)
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-server-client)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/webserver-and-browser)
 * Add your solution above this line!
 
 
