@@ -47,6 +47,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_btree-search)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_basic_data_structure/tree/master/lib)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_data_structures/bst)
+* [Alex Chen's solution](https://github.com/Chenzilla/data_structure_practice)
 * Add your solution above this line!
 
 
