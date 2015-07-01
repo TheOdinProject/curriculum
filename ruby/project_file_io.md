@@ -114,6 +114,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/hangman)
 * [Cody Gipson's solution] (https://github.com/Cgipson06/Hangman)
 * [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/hangman)
+* [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/hangman/hangman.rb)
 * Add your solution above this line!
 
 
