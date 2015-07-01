@@ -112,7 +112,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization-and-files/2%20-%20Hangman)
 * [Alex Chen's solution](https://github.com/Chenzilla/hangman_with_save)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/hangman)
-* [Cody Gipson's solution] https://github.com/Cgipson06/Hangman)
+* [Cody Gipson's solution](https://github.com/Cgipson06/Hangman)
 * [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/hangman)
 * [TomTom's Solution](https://github.com/tim5046/projectOdin/blob/master/FilesAndSerialization/Hangman/)
 * [Peter's Solution (with AI)](https://github.com/peterhurford/hangman)
