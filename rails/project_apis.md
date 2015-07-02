@@ -100,6 +100,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/odin-kittens)
 * [AtActionParks's solution](https://github.com/AtActionPark/odin_kittens)
 * [Hutton Brandon's solution](https://github.com/Hutbytheton/odin-kittens)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/odin-kittens)
 * Add your solution above this line!
 
 
@@ -130,6 +131,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Alex's solution](https://github.com/alexgh123/odin-api-practice) | [View in browser](https://radiant-bastion-6163.herokuapp.com)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/odin-flickr-api-app)
 * [AtActionPark's solution - With fix for ssl error on windows](https://github.com/AtActionPark/odin_flickr_api_app)
+* [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/flickr_api)
 * Add your solution above this line!
 
 
