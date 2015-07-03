@@ -50,6 +50,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Alex Chen's solution](https://github.com/Chenzilla/twitter_client)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/Twitter-Spambot)
 * [Cody Gipson's solution](https://github.com/Cgipson06/twitter-client)
+* [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/micro_blogger)
 * Add your solution above this line!
 
 
@@ -210,6 +211,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Jon Yorg's solution](https://github.com/Yorgg/Ruby-Stuff/tree/master/client-server)
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-server-client)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/webserver-and-browser)
+* [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/web_server)
 * Add your solution above this line!
 
 
