@@ -203,4 +203,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ho Won Cheng's solution](https://github.com/chenghw/sketch_pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/chenghw/sketch_pad/blob/master/sketch_pad.html)
 * [Gerard Jorgensen's solution](https://github.com/gerardjorgensen/SketchPad) | [View in browser](http://htmlpreview.github.io/?https://github.com/gerardjorgensen/SketchPad/blob/master/index.html)
 * [Piotr Aleksander's solution](https://github.com/PiotrAleksander/javascript-jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/PiotrAleksander/javascript-jquery/blob/master/index.html)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/florianmainguy/etch_a_sketch/blob/master/index.html)
 * Add your solution above this line!
