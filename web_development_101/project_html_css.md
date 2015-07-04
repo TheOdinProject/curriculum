@@ -363,6 +363,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Anurag Shendge's Solution] (https://github.com/anuragshendge/google-homepage)| [View in browser](http://htmlpreview.github.io/?https://github.com/anuragshendge/google-homepage/blob/master/index.html) | 
 * [Amir Aminfar's Solution] (https://github.com/amiraa127/google-homepage)| [View in browser](https://htmlpreview.github.io/?https://github.com/amiraa127/google-homepage/blob/master/index.html) | 
 * [Songbird's Solution] (https://github.com/eaglesong/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/eaglesong/google-homepage/blob/master/index.html) |
+* [Pratheeksha's Solution] (https://github.com/Prat-123/google-homepage)
 * Add your solution above this line! 
 
 
