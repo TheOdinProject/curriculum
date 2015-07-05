@@ -210,4 +210,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Aleksandre Clapin-Pépin's solution](https://github.com/aclapinpepin/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/aclapinpepin/sketchpad/blob/master/index.html)
 * Add your solution above this line!
 * [Siddharth Gupta's solution](https://github.com/sidgupta234/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/sidgupta234/sketchpad/blob/master/index.html)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/florianmainguy/etch_a_sketch/blob/master/index.html)
 * Add your solution above this line!
