@@ -55,7 +55,7 @@ Redirects typically occur after controller actions where you've submitted inform
 
 If that's the common way to deal with successfully creating an object, how about when it fails for some reason (like the user entered a too-short post title)?  In that case, you can just render the view for another controller action, often the same action that created the form you just submitted (so the `#new` action).  
 
-The trick here is that the view page gets passed the instance variables from your *current* controller action.  So let's say that you tried to `#create` a Post and stored it to `@post` but it failed to save.  You then rendered the `#new` action's view and that view will recieve the `@post` you were just working with in the `#create` action.  This is great because you don't have to wipe the form completely clean (which is really annoying as a user) -- you can just identify the fields that failed and have the user resubmit.  It may sound a bit abstract now but you'll see the difference quickly when building.
+The trick here is that the view page gets passed the instance variables from your *current* controller action.  So let's say that you tried to `#create` a Post and stored it to `@post` but it failed to save.  You then rendered the `#new` action's view and that view will receive the `@post` you were just working with in the `#create` action.  This is great because you don't have to wipe the form completely clean (which is really annoying as a user) -- you can just identify the fields that failed and have the user resubmit.  It may sound a bit abstract now but you'll see the difference quickly when building.
 
 Let's see it in code:
 
