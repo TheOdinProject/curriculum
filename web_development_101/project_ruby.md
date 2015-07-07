@@ -95,6 +95,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/Web_Dev_101_Ruby_problems)
 * [Xavier Reid's Solution](https://github.com/xreid/ruby_project)
 * [Angus Dobson's Solution](https://github.com/Apneal/ruby_project)
+* [Ho Won Cheng's solution](https://github.com/chenghw/ruby_101_project)
 * Add your solution above this line!
 
 
