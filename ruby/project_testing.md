@@ -7,7 +7,7 @@
 
 A good way to get familiar with and begin contributing to a new project is to write tests for it.  It's also the best way to become familiar with a new code base, something you'll have to do when you start working.  It's pretty common for test code to ultimately take up twice as many lines of code as the actual project code!
 
-You still may feel shaky on RSpec at this point (which is totally natural), so let's go back in time and write tests for some of the code you've already done to build up a bit of muscle memory.  If you've written a good batch, submit them below and we'll include them as part of the original project description to help future students!
+You still may feel shaky on RSpec at this point (which is totally normal), so let's go back in time and write tests for some of the code you've already done to build up a bit of muscle memory.  If you've written a good batch, submit them below and we'll include them as part of the original project description to help future students!
 
 ### Your Task
 
@@ -15,9 +15,9 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 1. Go back to the [Advanced Building Blocks Project](/ruby-programming/advanced-building-blocks) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.
 2. Write tests for your [Tic Tac Toe project](/ruby-programming/oop).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make the tests determine victory or loss conditions are correctly assessed.
     
-    1. Start by writing tests to make sure a player wins when he or she should, e.g. when the board reads X X X across the top row, your `#game-over` method (or its equivalent) should be triggered.
+    1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game-over` method (or its equivalent) should trigger.
     2. Test each of your critical methods to make sure they function properly and handle edge cases.  
-    3. Try using mocks/doubles to isolate methods and make sure that they're sending you back the right outputs.
+    3. Try using mocks/doubles to isolate methods and make sure that they're sending back the right outputs.
 
 
 ## Student Solutions
@@ -37,7 +37,7 @@ You still may feel shaky on RSpec at this point (which is totally natural), so l
 
 ## Project: TDD Connect Four
 
-Hopefully everyone has played Connect Four at some point (if not, see the [Wikipedia page](http://en.wikipedia.org/wiki/Connect_Four)).  It's a basic game where each player drops pieces into the cage in turn.  A player wins if he or she manages to get 4 of their pieces consecutively in a row, column, or along a diagonal.  
+Hopefully everyone has played Connect Four at some point (if not, see the [Wikipedia page](http://en.wikipedia.org/wiki/Connect_Four)).  It's a basic game where each player takes turns dropping pieces into the cage.  Players win if they manage to get 4 of their pieces consecutively in a row, column, or along a diagonal.  
 
 The game rules are fairly straightforward and you'll be building it on the command line like you did with the other games.  If you want to spice up your game pieces, look up the [unicode miscellaneous symbols](http://en.wikipedia.org/wiki/List_of_Unicode_characters#Miscellaneous_Symbols).  The Ruby part of this should be well within your capability by now so it shouldn't tax you much to think about it.
 
