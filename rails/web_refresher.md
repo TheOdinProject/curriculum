@@ -77,7 +77,7 @@ Just roll with it, you'll see it in action and learn to love it.
 
 ## APIs
 
-When your computer or a server (which you're programming) wants to make a request of another website, it doesn't bother clicking on things in the browser, it asks that other website for data directly by using that website's API.  An API is just an interface.  Our web browser goes in the front door to display a bunch of info from facebook, and our web server goes in the side door for the same data (much faster and more direct) via the API.  
+When your computer or a server (which you're programming) wants to make a request to another website, it doesn't bother clicking on things in the browser, it asks that other website for data directly by using that website's API.  An API is just an interface.  Our web browser goes in the front door to display a bunch of info from facebook, and our web server goes in the side door for the same data (much faster and more direct) via the API.  
 
 So you want to get data from Google Maps to display on your webpage?  You hit its API using the rules specified in its API documentation.  Just about every big website makes some portion of its data available via an API and you can too quite easily using Rails.  
 
