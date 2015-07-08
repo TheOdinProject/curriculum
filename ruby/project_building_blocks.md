@@ -135,6 +135,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [WCope's soultion](https://github.com/wcope80/ruby_building_blocks/blob/master/Caesar_Cipher/caesar_cipher.rb)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/szyfr_cezara.rb)
 * [John Tobillo's solution](https://github.com/jdtobill/RubyChallenges/blob/master/caesar_cipher.rb)
+* [Alex Chen's solution](https://github.com/Chenzilla/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * Add your solution above this line!
 
 
