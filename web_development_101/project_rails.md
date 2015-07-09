@@ -81,6 +81,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Taylor Buchheit's solution](https://github.com/7aylor/firstrailsapp.git) | [View in browser](http://mighty-brushlands-8664.herokuapp.com/articles)
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/blogger_2) | [View in browser](https://floating-eyrie-8027.herokuapp.com/)
 * [Arthur Vieira's solution](https://github.com/arthur-vieira/rails-blogger) | [View in browser](http://tragically-mountie-3261.herokuapp.com/)
+* [Thomas Vaeth's solution](https://github.com/thomasvaeth/the_odin_project/tree/master/blogger)
 * *Your solution above here...*
 
 
