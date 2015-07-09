@@ -49,7 +49,7 @@ This is a fairly long list of things to pay attention to but it should be mostly
 
 2. Read [Javascript is Super Sexy](http://javascriptissexy.com/javascript-is-super-sexy/), which is a good post for getting fired up to learn Javascript.
 1. Finish [the entire Codecademy Javascript track](http://www.codecademy.com/tracks/javascript) (you already did up to lesson 5).
-2. Glance through [Javascript 101 from learn.jquery.com](http://learn.jquery.com/javascript-101/) to fill in gaps in the Codecademy course.  The stuff on scopes and closures will be covered in the later section in more depth.
+2. Glance through the [Learning Center at learn.jquery.com](http://learn.jquery.com/) to fill in gaps in the Codecademy course. The stuff on scopes and closures will be covered in the later section in more depth.
 
 ## Additional Resources
 
