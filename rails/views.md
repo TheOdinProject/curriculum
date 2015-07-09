@@ -206,8 +206,8 @@ As you may have seen in the application layout file we talked about above, Rails
 Will render something like:
 
 ```language-ruby
-    <link data-turbolinks-track="true" href="/assets/your_stylesheet.css" media="all" rel="stylesheet">
-    <script data-turbolinks-track="true" src="/assets/your_stylesheet.js"></script>
+    <link href="/assets/your_stylesheet.css" media="all" rel="stylesheet">
+    <script src="/assets/your_stylesheet.js"></script>
     <img src="/assets/happy_cat.jpg">
 ```
 
