@@ -46,6 +46,8 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/basic_data_structs/binary_trees.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_btree-search)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_basic_data_structure/tree/master/lib)
+* [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_data_structures/bst)
+* [Alex Chen's solution](https://github.com/Chenzilla/data_structure_practice)
 * Add your solution above this line!
 
 
@@ -70,7 +72,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
   * `knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
 
 1. Put together a script that creates a game board and a knight.
-2. Treat all the possible moves the knight could make as children in a tree.  Don't allow any moves to go off the board.
+2. Treat all possible moves the knight could make as children in a tree.  Don't allow any moves to go off the board.
 2. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
 3. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
@@ -104,6 +106,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/basic_data_structs/knight_travails.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_khight-moves)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_basic_data_structure/blob/master/knight_moves.rb)
+* [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_data_structures/knight_moves)
+* [Alex Chen's solution](https://github.com/Chenzilla/data_structure_practice)
 * Add your solution above this line!
 
 

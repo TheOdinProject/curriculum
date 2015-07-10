@@ -133,6 +133,10 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 4. [Quiz #4](http://www.codequizzes.com/learn-ruby/symbols-array-methods-hashes)
 5. [Quiz #6](http://www.codequizzes.com/learn-ruby/iteration-nested-data-structures) 
 
+## (Optional) Extra Practice
+
+Complete the [Neo Ruby Koans](http://rubykoans.com/) exercises. You have to complete/debug the code it provides until it passes the tests before you can go on with the next exercise (TDD approach). 
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

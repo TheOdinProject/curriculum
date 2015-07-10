@@ -47,6 +47,10 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Chris Hall's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Jumpstart%20MicroBlogger/lib/micro_blogger.rb)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/rubySandbox/blob/master/microblogger.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_web/twitter_spambot)
+* [Alex Chen's solution](https://github.com/Chenzilla/twitter_client)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/Twitter-Spambot)
+* [Cody Gipson's solution](https://github.com/Cgipson06/twitter-client)
+* [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/micro_blogger)
 * Add your solution above this line!
 
 
@@ -82,7 +86,7 @@ From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The
 
 >  The servers differ in how they construct this loop and how they process incoming connections. The above sample is for a blocking server. Which means that it can only process one request at a time and that other requests will be waiting for the current one to finish. A long running request might make the server unreachable for a while. A group of those will quickly render the server unusable. There are several strategies to overcome this shortcoming. We will discuss those strategies and look at how they are utilized by the different servers. 
 
-> For a server to be called a web (HTTP) server it must speak the HTTP protocol. Hence it needs a way to parse the incoming HTTP requests. Each of the servers presented here attempts to solve this problem in its own way. But we will soon find that most of them rely on some clone of Mongrel's parser. If we modify our first server to include HTTP support it could like this:
+> For a server to be called a web (HTTP) server it must speak the HTTP protocol. Hence it needs a way to parse the incoming HTTP requests. Each of the servers presented here attempts to solve this problem in its own way. But we will soon find that most of them rely on some clone of Mongrel's parser. If we modify our first server to include HTTP support it could look like this:
 
 ```language-ruby
     require 'socket'
@@ -204,7 +208,10 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_cli-webserver-browser)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_web_server)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_web/ruby_web_server)
-* [Jon Yorg's solution] (https://github.com/Yorgg/Ruby-Stuff/tree/master/client-server)
+* [Jon Yorg's solution](https://github.com/Yorgg/Ruby-Stuff/tree/master/client-server)
+* [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-server-client)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/webserver-and-browser)
+* [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/web_server)
 * Add your solution above this line!
 
 

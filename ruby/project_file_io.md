@@ -42,6 +42,10 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_event_manager/blob/master/lib/event_manager.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_serializing/event_manager)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization/1%20-%20Event%20Manager)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/event-manager)
+* [Alex Chen's solution](https://github.com/Chenzilla/event_manager)
+* [Cody Gipson's solution](https://github.com/Cgipson06/EventManager)
+* [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/event_manager)
 * Add your solution above this line!
 
 
@@ -104,8 +108,14 @@ You will be building a simple command line Hangman game where one player plays a
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_hangman)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_hangman)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_serializing/hangman)
-* [Jon Yorg's solution] (https://github.com/Yorgg/Ruby-Stuff/tree/master/hangman)
+* [Jon Yorg's solution](https://github.com/Yorgg/Ruby-Stuff/tree/master/hangman)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/9-serialization-and-files/2%20-%20Hangman)
+* [Alex Chen's solution](https://github.com/Chenzilla/hangman_with_save)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/hangman)
+* [Cody Gipson's solution](https://github.com/Cgipson06/Hangman)
+* [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/hangman)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/hangman)
+* [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/hangman/hangman.rb)
 * Add your solution above this line!
 
 

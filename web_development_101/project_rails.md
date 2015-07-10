@@ -75,10 +75,13 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Gb69010p's solution](https://github.com/gb69010p/JumpstartBlogger) | [View in browser](https://tranquil-earth-2515.herokuapp.com/)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/5-ruby-on-rails-blogger) | [View in browser](https://lit-beach-4691.herokuapp.com)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/railsIntroProjectOdin) | [View in browser](http://fast-ravine-6339.herokuapp.com/)
-* [Joe Balsamo's solution](https://github.com/CodyHacker/blogger) | [View in browser](http://fathomless-sea-9804.herokuapp.com/)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/blogger) | [View in browser](http://fathomless-sea-9804.herokuapp.com/)
 * [Cody Gipson's solution](https://github.com/Cgipson06/blogger2) | [View in browser](http://fast-lake-3445.herokuapp.com/)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/project-rails/blogger) | [View in browser](https://shielded-lake-3494.herokuapp.com/)
-* Add your solution above this line!
+* [Taylor Buchheit's solution](https://github.com/7aylor/firstrailsapp.git) | [View in browser](http://mighty-brushlands-8664.herokuapp.com/articles)
+* [Tarun Johnson's solution](https://github.com/tnt007tarun/blogger_2) | [View in browser](https://floating-eyrie-8027.herokuapp.com/)
+* [Arthur Vieira's solution](https://github.com/arthur-vieira/rails-blogger) | [View in browser](http://tragically-mountie-3261.herokuapp.com/)
+* *Your solution above here...*
 
 
 ## Additional Resources
