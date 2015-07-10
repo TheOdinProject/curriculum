@@ -21,7 +21,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 2. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
 2. Create empty `<div>` tags to enclose those sections.
 3. Use basic CSS to size and position them appropriately on the page.  It may be helpful to make their backgrounds different colors so you can see the different sections.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
-4. Now let's start filling in those divs with content.  Creating the navbar.
+4. Now let's start filling in those divs with content by creating the navbar.
 2. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=ZnuwB35GYMY)
 3. Embed a YouTube video of your choice into your page.
 4. Next, build the sidebar section where previews of suggested videos show up.  Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
