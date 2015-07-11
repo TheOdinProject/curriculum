@@ -159,6 +159,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Francis Ngo's solution](https://github.com/francisngo/euler_problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/francisngo/euler_problems/blob/master/index.html)
 * [Panashe Fundira's solution](https://github.com/munyari/javascript-euler)
 * [Brian Burke's solution](https://github.com/sanora/javascript-basics)
+* [Pratheeksha's solution](https://github.com/Prat-123/Project_Euler) 
 * Add your solution above this line!
 
 ## Additional Resources
