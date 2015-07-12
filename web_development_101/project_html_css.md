@@ -374,6 +374,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Songbird's Solution](https://github.com/eaglesong/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/eaglesong/google-homepage/blob/master/index.html) |
 * [Nin Salde's Solution](https://github.com/ninyeah/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ninyeah/google-homepage/blob/master/index.html)  |
 * [Dago Henriquez's solution](https://github.com/theDagobahSystem/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/theDagobahSystem/google-homepage/blob/master/index.html) |
+* [Jack Murphy's Solution](https://github.com/JMurphyWeb/google-homepage)
 * Add your solution above this line!
 
 
