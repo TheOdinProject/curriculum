@@ -162,7 +162,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Micah Obal's solution](https://github.com/Hacima/Hacima.github.io/tree/master/sketchpad) | [View in browser](http://hacima.github.io/sketchpad/)
 * [Pedro Amaral's solution](https://github.com/lockemind/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/lockemind/etch-a-sketch/blob/master/index.html)
 * [Prashanth Chandra's solution](https://github.com/prashanthcr/etch-sketch/) | [View in browser](https://cdn.rawgit.com/prashanthcr/etch-sketch/master/index.html)
-* [Maia Petee's solution](https://github.com/movetomars/etch-a-sketch) 
+* [Maia Petee's solution](https://github.com/movetomars/etch-a-sketch)
 * [Shkrt's solution](https://github.com/Shkrt/sktchpd) | [View in browser](http://htmlpreview.github.io/?https://github.com/Shkrt/sktchpd/blob/master/index.html)
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/sleaz0id/sketchpad/blob/master/index.html)
 * [Steven Zerneri's solution](https://github.com/sjzerneri/etch) | [View in browser](https://rawgit.com/sjzerneri/etch/master/index.html)
@@ -211,4 +211,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * Add your solution above this line!
 * [Siddharth Gupta's solution](https://github.com/sidgupta234/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/sidgupta234/sketchpad/blob/master/index.html)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/florianmainguy/etch_a_sketch/blob/master/index.html)
+* [Purnima Gupta's solution](https://github.com/pooyaX14/sketchpad/tree/v0.0.1) | [View in browser](http://htmlpreview.github.io/?https://github.com/pooyaX14/sketchpad/blob/v0.0.1/index.html)
 * Add your solution above this line!
