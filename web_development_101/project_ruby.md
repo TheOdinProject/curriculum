@@ -97,6 +97,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Angus Dobson's Solution](https://github.com/Apneal/ruby_project)
 * [Ho Won Cheng's solution](https://github.com/chenghw/ruby_101_project)
 * [Aleksandre Clapin-Pepin's solution](https://github.com/aclapinpepin/test-first-teaching)
+* [Scott Bobbitt's Solution](https://github.com/sco-bo/rspec-ruby)
 * Add your solution above this line!
 
 
