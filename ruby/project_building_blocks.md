@@ -368,4 +368,5 @@ Next, make sure your method can handle multiple words:
 * [WCope's solution](https://github.com/wcope80/ruby_building_blocks/blob/master/Substrings/Substrings.rb)
 * [John Tobillo's solution](https://github.com/jdtobill/RubyChallenges/blob/master/substrings.rb)
 * [Tarek Ahmed's solution](https://github.com/tadeve96/ruby_programming_odin/blob/master/dict.rb)
+* [Jake Dexheimer's solution](https://github.com/jakedex/odin-ruby/blob/master/building_blocks/substrings.rb)
 * Add your solution above this line!
