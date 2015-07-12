@@ -175,7 +175,7 @@ In that situation, Rails not only finds the `_user.html.erb` file and passes it 
 
 ## Helper Methods
 
-`render`ing partials isn't the only method you can call from within a view.  Rails has a bunch of really handy helper methods that are available for you to use in the view.  A few of the most common:
+`rendering` partials isn't the only method you can call from within a view.  Rails has a bunch of really handy helper methods that are available for you to use in the view.  A few of the most common:
 
 ### `#link_to` 
 
