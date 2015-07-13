@@ -64,6 +64,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Dawn Pattison's solution](https://github.com/pattisdr/theOdinProject/tree/master/connect_four)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Connect-Four)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_connect_four)
+* [Alex Chen's solution](https://github.com/Chenzilla/test_driven_connect_four)
 * Add your solution above this line!
 
 
