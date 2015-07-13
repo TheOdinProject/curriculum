@@ -375,6 +375,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Dago Henriquez's solution](https://github.com/theDagobahSystem/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/theDagobahSystem/google-homepage/blob/master/index.html) |
 * [Parker Boyes' solution](https://github.com/boyestrous/google-homepage) | [Easy View in browser](http://htmlpreview.github.io/?https://github.com/boyestrous/google-homepage/blob/master/index.html) | [Difficult View in browser](http://htmlpreview.github.io/?https://github.com/boyestrous/google-homepage/blob/master/results.html)
 * [Kirk D. Shelton's 'Easy' solution](https://github.com/kirkdshelton/google-hompage) | ['Difficult' solution](https://github.com/kirkdshelton/google-hompage/tree/master/google_search_results) | [View in browser (Easy)](http://htmlpreview.github.io/?https://github.com/kirkdshelton/google-hompage/blob/master/google_search/index.html) | [View in browser (Difficult)](http://htmlpreview.github.io/?https://github.com/kirkdshelton/google-hompage/blob/master/google_search_results/index.html)
+* [Max Platt's solution](https://github.com/makxks/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/makxks/google-homepage/blob/master/index.html) |
 * Add your solution above this line!
 
 
