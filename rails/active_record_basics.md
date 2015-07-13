@@ -18,7 +18,7 @@ Having a solid understanding of Active Record will make the rest of Rails seem s
 * What is an ORM?
 * Why is Active Record more useful than just using SQL?
 * What are the two steps required to make a new row in your database table with ActiveRecord?
-* What is are "generators" in Rails?
+* What are "generators" in Rails?
 
 ## What is an ORM?
 
