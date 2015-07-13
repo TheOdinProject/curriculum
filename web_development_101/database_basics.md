@@ -27,9 +27,10 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 ## Assignment:
 1. Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).  Only read the introduction (unless you're feeling ambitious).
 2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
-2. Next, you'll be watching some of Stanford's [Intro to Databases course lectures](https://class.stanford.edu/courses/DB/2014/SelfPaced/about).  They've been broken down into a couple of "mini-courses". Do the [first mini-course called "Introduction and Relational Databases"](https://class.stanford.edu/courses/DB/RDB/SelfPaced/about) ([the first video can be found here](https://class.stanford.edu/courses/DB/RDB/SelfPaced/courseware/ch-introduction/seq-vid-introduction/)), and the [mini-course on SQL](https://class.stanford.edu/courses/DB/SQL/SelfPaced/about) ([The first video can be found here](https://class.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-vid-introduction_to_sql/)).
+3. Next, you'll be watching some of Stanford's [Intro to Databases course lectures](https://class.stanford.edu/courses/DB/2014/SelfPaced/about).  They've been broken down into a couple of "mini-courses". Do the [first mini-course called "Introduction and Relational Databases"](https://class.stanford.edu/courses/DB/RDB/SelfPaced/about) ([the first video can be found here](https://class.stanford.edu/courses/DB/RDB/SelfPaced/courseware/ch-introduction/seq-vid-introduction/)), and the [mini-course on SQL](https://class.stanford.edu/courses/DB/SQL/SelfPaced/about) ([The first video can be found here](https://class.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-vid-introduction_to_sql/)).
+4. If the Stanford links are too heavy, check out the [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), which is simple, short and to the point.
 
-    If those links aren't working, see the Additional Resources section below for more help.  
+    If those links aren't working, see the Additional Resources section below for more help.
 
     Make sure to do the automated assignments as well for the SQL section!  It's easier if you have a pen-and-paper handy to try and visualize what's going on.
 
@@ -40,7 +41,7 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-* If the Stanford databases course above isn't working, check out their [playlist on YouTube](https://www.youtube.com/playlist?list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3).  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).  
+* If the Stanford databases course above isn't working, check out their [playlist on YouTube](https://www.youtube.com/playlist?list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3).  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).
 * Hunter Ducharme created [an e-book](http://hgducharme.gitbooks.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
 
     Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).
