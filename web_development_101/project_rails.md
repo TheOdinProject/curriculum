@@ -80,8 +80,12 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/tree/master/project-rails/blogger) | [View in browser](https://shielded-lake-3494.herokuapp.com/)
 * [Taylor Buchheit's solution](https://github.com/7aylor/firstrailsapp.git) | [View in browser](http://mighty-brushlands-8664.herokuapp.com/articles)
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/blogger_2) | [View in browser](https://floating-eyrie-8027.herokuapp.com/)
+<<<<<<< HEAD
 * [Arthur Vieira's solution](https://github.com/arthur-vieira/rails-blogger) | [View in browser](http://tragically-mountie-3261.herokuapp.com/)
 * [Thomas Vaeth's solution](https://github.com/thomasvaeth/the_odin_project/tree/master/blogger)
+=======
+* [Brian Burke's solution] (https://github.com/sanora/Rails) 
+>>>>>>> f23480b614ef8a560418cc2b48117d28867cde5d
 * *Your solution above here...*
 
 
