@@ -25,7 +25,6 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-<<<<<<< HEAD
 * [mahimahi42's solution](https://github.com/mahimahi42/microblogger.git) 
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
@@ -52,22 +51,19 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/Twitter-Spambot)
 * [Cody Gipson's solution](https://github.com/Cgipson06/twitter-client)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/micro_blogger)
+* [mahimahi42's solution](https://github.com/mahimahi42/microblogger.git) 
+* [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
+* [bucifer's solution](https://github.com/bucifer/MicroBlogger)
+* [Mazin Power's solution](https://github.com/muzfuz/CodeLessons/tree/master/spambot)
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
+* [Tommy Noe's solution](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
+* [Michael Alexander's solution](https://github.com/betweenparentheses/jumpstart_labs_twitterbot/blob/master/micro_blogger.rb)
+* [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web/twitter_spam_bot)
+* [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%201:%20Twitter%20Spambot)
+* [Vidul's solution](https://github.com/viparthasarathy/twitter_spambot)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/micro_blogger.rb)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/10-ruby-on-the-web/1%20-%20Twitter%20Spambot)
 * Add your solution above this line!
-
-=======
-* [Solution from mahimahi42](https://github.com/mahimahi42/microblogger.git) 
-* [Jamie's solution (Apr-22,2014)](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
-* [Solution from bucifer (5/27/2014)](https://github.com/bucifer/MicroBlogger)
-* [Solution from Mazin Power (06/23/2014)](https://github.com/muzfuz/CodeLessons/tree/master/spambot)
-* [Solution from Marina Sergeyeva](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
-* [Solution from Tommy Noe](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
-* [Solution from Michael Alexander](https://github.com/betweenparentheses/jumpstart_labs_twitterbot/blob/master/micro_blogger.rb)
-* [Solution from Sahil Agarwal](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web/twitter_spam_bot)
-* [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%201:%20Twitter%20Spambot)
-* [Solution from Vidul](https://github.com/viparthasarathy/twitter_spambot)
-* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/micro_blogger.rb)
-* *...put your solution above this line!*
->>>>>>> 0898643f1ebb2d626e2738a1485deac0cc9e1556
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
