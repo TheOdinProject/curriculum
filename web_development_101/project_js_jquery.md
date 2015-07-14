@@ -212,4 +212,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Florian Mainguy's solution](https://github.com/florianmainguy/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/florianmainguy/etch_a_sketch/blob/master/index.html)
 * [Max Platt's solution](https://github.com/makxks/Javascript-Etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/makxks/Javascript-Etch-a-sketch/blob/master/index.html)
 * [Purnima Gupta's solution](https://github.com/pooyaX14/sketchpad/tree/v0.0.1) | [View in browser](http://htmlpreview.github.io/?https://github.com/pooyaX14/sketchpad/blob/v0.0.1/index.html)
+* [djhart's solution](https://github.com/djhart/js_project) | [view in browser](http://htmlpreview.github.io/?http://github.com/djhart/js_project/blob/master/jsIndex.html)
 * Add your solution above this line!
