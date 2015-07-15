@@ -376,4 +376,5 @@ Next, make sure your method can handle multiple words:
 * [Jake Dexheimer's solution](https://github.com/jakedex/odin-ruby/blob/master/building_blocks/substrings.rb)
 * [Brian Burke's solution](https://github.com/sanora/Ruby-Building-Blocks/tree/master/Substrings)
 * [Aleksandre Clapin-Pepin's solution](https://github.com/aclapinpepin/substrings/blob/master/substrings.rb)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/slownik.rb)
 * Add your solution above this line!
