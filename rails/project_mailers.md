@@ -32,6 +32,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flight-booker)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/flight_booker) | [View in browser](https://odin-booker.herokuapp.com/)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_flight_booker) 
+* [Andrej Dragojevic's solution](https://github.com/antrix1/flight-booker) | [View in browser](https://blooming-mountain-4761.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources
