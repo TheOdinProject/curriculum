@@ -81,6 +81,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Alex's solution](https://github.com/alexgh123/odin-flight-booker)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/flight_booker) | [view in browser](https://odin-booker.herokuapp.com/)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_flight_booker)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/flight-booker) | [View in browser](https://blooming-mountain-4761.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources
