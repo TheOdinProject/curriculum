@@ -380,7 +380,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Noah Prescott's solution](https://github.com/npresco/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/npresco/google-homepage/blob/master/google-homepage.html)
 * [Swordscoper's easy solution](https://github.com/Swordscoper/Google) | [Easy in browser](https://htmlpreview.github.io/?https://github.com/Swordscoper/Google/blob/master/index.html) | [Swordscoper's difficult solution](https://github.com/Swordscoper/Google-Results) | [Difficult in browser](https://htmlpreview.github.io/?https://github.com/Swordscoper/Google-Results/blob/master/index.html)
 [Chris Watland's solution](https://github.com/watlandc/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/watlandc/google-homepage/blob/3886dc4eb790b475f763b576851ebc6ce76014bb/index.html)
-*[Davis Campbell's solution](https://github.com/davis-campbell/google-homepage)
+* [Davis Campbell's solution](https://github.com/davis-campbell/google-homepage) | [View in browser](https://rawgit.com/davis-campbell/google-homepage/master/index.html)
 * Add your solution above this line!
 
 
