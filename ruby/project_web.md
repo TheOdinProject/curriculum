@@ -25,7 +25,6 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-<<<<<<< HEAD
 * [mahimahi42's solution](https://github.com/mahimahi42/microblogger.git) 
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
@@ -67,7 +66,6 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Solution from Vidul](https://github.com/viparthasarathy/twitter_spambot)
 * [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/micro_blogger.rb)
 * *...put your solution above this line!*
->>>>>>> 0898643f1ebb2d626e2738a1485deac0cc9e1556
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
@@ -210,7 +208,6 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server) (using while loops and gets instead of read_nonblock)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web)
 * [James MacIvor's solution](https://github.com/RobotOptimist/simple_server) with thanks to @Jberczel because I shamelessly stole syntax.
-<<<<<<< HEAD
 * [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
 * [Vidul Parthasarathy's solution](https://github.com/viparthasarathy/web_server)
 * [John Quarles's solution](https://github.com/johnwquarles/simple-server-and-client) (using while loops, #gets and #read)
@@ -228,13 +225,12 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-server-client)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/webserver-and-browser)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/web_server)
-* Add your solution above this line!
-=======
 * [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
 * [Solution from Vidul Parthasarathy](https://github.com/viparthasarathy/web_server)
 * [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/ruby_on_web)
+* Add your solution above this line!
+=======
 * *...put your solution above this line!*
->>>>>>> 0898643f1ebb2d626e2738a1485deac0cc9e1556
 
 
 ## Additional Resources
