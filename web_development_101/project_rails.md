@@ -82,11 +82,12 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/blogger_2) | [View in browser](https://floating-eyrie-8027.herokuapp.com/)
 * [Arthur Vieira's solution](https://github.com/arthur-vieira/rails-blogger) | [View in browser](http://tragically-mountie-3261.herokuapp.com/)
 * [Thomas Vaeth's solution](https://github.com/thomasvaeth/the_odin_project/tree/master/blogger)
-* [Brian Burke's solution](https://github.com/sanora/Rails) 
-* *Your solution above here...*
+* [Brian Burke's solution](https://github.com/sanora/Rails)
 * [Alex Tsiras' solution](https://github.com/arialblack14/jumpstart-blogger)
-* Add your solution above this line!
-s
+* [Angus Dobson's solution](https://github.com/Apneal/rails_project) | [View in browser](https://limitless-island-7868.herokuapp.com/)
+* *Your solution above here...*
+
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
