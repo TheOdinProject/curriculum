@@ -104,6 +104,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Alex Chen's solution](https://github.com/Chenzilla/ruby_building_blocks/blob/master/bubble_sort.rb)
 * [Tarek Ahmed's solution](https://github.com/tadeve96/ruby_programming_odin/blob/master/bubble_sort.rb)
 * [Aleksandre Clapin-Pepin's solution](https://github.com/aclapinpepin/bubble-sort/blob/master/bubble_sort.rb)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/bubbleSort.rb)
 * Add your solution above this line!
 
 
