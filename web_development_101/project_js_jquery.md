@@ -215,4 +215,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [djhart's solution](https://github.com/djhart/js_project) | [view in browser](http://htmlpreview.github.io/?http://github.com/djhart/js_project/blob/master/jsIndex.html)
 * [Sarkoshark's solution](https://github.com/Sarkoshark/Javascript-jQuery-Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Sarkoshark/Javascript-jQuery-Sketchpad/master/index.html)
 * [Slurmz-Mckeznie's Solution](https://github.com/SlurmzMckenzie/js-jquery-sketch) | [View in browser](https://github.com/SlurmzMckenzie/js-jquery-sketch/blob/master/index.html)
+* [Davis Campbell's Solution](https://github.com/davis-campbell/etch-a-sketch) | [View in browser](http://rawgit.com/davis-campbell/etch-a-sketch/master/index.html)
 * Add your solution above this line!
