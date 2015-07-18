@@ -217,4 +217,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Slurmz-Mckeznie's Solution](https://github.com/SlurmzMckenzie/js-jquery-sketch) | [View in browser](https://github.com/SlurmzMckenzie/js-jquery-sketch/blob/master/index.html)
 * [Hubert F's Solution](https://github.com/johnsonge/odinProject/tree/master/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/johnsonge/odinProject/blob/master/sketch-pad/index.html)
 * [Davis Campbell's Solution](https://github.com/davis-campbell/etch-a-sketch) | [View in browser](http://rawgit.com/davis-campbell/etch-a-sketch/master/index.html)
+* [Brian's solution](https://github.com/slayermode/odin_project/tree/master/sketchpad) | [view in browser](http://htmlpreview.github.io/?https://github.com/slayermode/odin_project/blob/master/sketchpad/index.html)
 * Add your solution above this line!
