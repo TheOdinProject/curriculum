@@ -68,6 +68,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odinbook) | [View in browser](https://warm-bayou-3284.herokuapp.com/)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_facebook) | [View in browser](https://shielded-escarpment-2283.herokuapp.com/)
 * [Alex's Solution](https://github.com/alexgh123/fb_odin_app) | [View in browser] (http://polar-oasis-7608.herokuapp.com)
+* [Jeremy Mauzy's Solution](https://github.com/apositivejam/fakebook) | [View in browser] (http://odin-fakebook.herokuapp.com)
 * Add your solution above this line!
 
 
