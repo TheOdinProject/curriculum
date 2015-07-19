@@ -219,4 +219,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Davis Campbell's Solution](https://github.com/davis-campbell/etch-a-sketch) | [View in browser](http://rawgit.com/davis-campbell/etch-a-sketch/master/index.html)
 * [Brian's solution](https://github.com/slayermode/odin_project/tree/master/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/slayermode/odin_project/blob/master/sketchpad/index.html)
 * [Songbird's solution](https://github.com/eaglesong/Etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/eaglesong/Etch-a-sketch/blob/master/index.html)
+* [Pratheeksha's solution](https://github.com/Prat-123/Sketch-pad/blob/master/sp.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/Prat-123/Sketch-pad/blob/master/sp.html)
 * Add your solution above this line!
