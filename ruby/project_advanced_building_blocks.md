@@ -210,6 +210,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [John Tobillo's solution](https://github.com/jdtobill/RubyChallenges/blob/master/enumerable.rb)
 * [Berin Larson's solution](https://github.com/larson004/the-odin-project/blob/master/Chap-03-Advanced-Ruby/advanced_building_blocks/enumerables.rb)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/blob/master/03_ruby_programming/advanced-building-blocks/enumerable_methods.rb)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Enumerable.rb)
 * Add your solution above this line!
 
 
