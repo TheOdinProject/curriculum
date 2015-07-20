@@ -221,4 +221,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Songbird's solution](https://github.com/eaglesong/Etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/eaglesong/Etch-a-sketch/blob/master/index.html)
 * [Pratheeksha's solution](https://github.com/Prat-123/Sketch-pad/blob/master/sp.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/Prat-123/Sketch-pad/blob/master/sp.html)
 * [Amir Aminfar's solution](https://github.com/amiraa127/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/amiraa127/sketch-pad/blob/master/index.html)
-* add your solution above this line
+* Add your solution above this line
