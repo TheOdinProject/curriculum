@@ -221,4 +221,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Songbird's solution](https://github.com/eaglesong/Etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/eaglesong/Etch-a-sketch/blob/master/index.html)
 * [Pratheeksha's solution](https://github.com/Prat-123/Sketch-pad/blob/master/sp.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/Prat-123/Sketch-pad/blob/master/sp.html)
 * [Spekachu's solution](https://github.com/Spekachu/DrawingGrid) | [View in browser](http://htmlpreview.github.io/?https://github.com/Spekachu/DrawingGrid/blob/master/index.html)
+* [JMurphy's solution](https://github.com/JMurphyWeb/sketch-pad/blob/master/index.html) | [View in browser](http://rawgit.com/JMurphyWeb/sketch-pad/master/index.html)
 * Add your solution above this line!
