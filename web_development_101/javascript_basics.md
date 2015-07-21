@@ -164,6 +164,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Adrian Manteza's solution](https://github.com/AdManteza/Javascript_Project-Euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/AdManteza/Javascript_Project-Euler/blob/master/index.html)
 * [Dago Henriquez's solution](https://github.com/theDagobahSystem/ProjectEuler) | [View in browser](https://htmlpreview.github.io/?https://github.com/theDagobahSystem/ProjectEuler/blob/master/index.html)
 * [Chris Watland's solution](https://github.com/watlandc/javascript_101)
+* [Adan Camacho's solution](https://github.com/Adancode/Euler_Problems)
 * Add your solution above this line!
 
 ## Additional Resources
