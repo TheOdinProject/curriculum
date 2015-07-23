@@ -139,6 +139,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/micro-reddit)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/micro-reddit)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/Odin-RubyOnRails-full/tree/master/micro-reddit)
+* [dchen71's solution](https://github.com/dchen71/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
