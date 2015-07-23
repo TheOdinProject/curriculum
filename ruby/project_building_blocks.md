@@ -259,6 +259,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Berin Larson's solution](https://github.com/larson004/the-odin-project/blob/master/Chap-03-Advanced-Ruby/Ruby_building_blocks/stockpicker.rb)
 * [AnthonyL's solution](https://github.com/AnthonyLarios/building-blocks/blob/master/stock_picker.rb)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/blob/master/ruby-building-blocks/stock_picker.rb)
+* [Jason Mattingly's solution](https://github.com/jasonmattingly/odin_projects_ruby/blob/master/stock_picker.rb)
 * Add your solution above this line!
 
 
