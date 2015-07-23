@@ -112,6 +112,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Frank Peelen's solution](https://github.com/FrankPeelen/members-only)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/members_only)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_members_only) | [View in browser](https://serene-sands-9936.herokuapp.com/)
+* [dchen71's solution](https://github.com/dchen71/members-only)
 * Add your solution above this line!
 
 
