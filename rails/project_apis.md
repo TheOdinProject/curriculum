@@ -101,6 +101,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [AtActionParks's solution](https://github.com/AtActionPark/odin_kittens)
 * [Hutton Brandon's solution](https://github.com/Hutbytheton/odin-kittens)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/odin-kittens)
+* [dchen71's solution](https://github.com/dchen71/odin-kittens)
 * Add your solution above this line!
 
 
