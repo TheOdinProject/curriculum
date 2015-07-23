@@ -166,6 +166,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Chris Watland's solution](https://github.com/watlandc/javascript_101)
 * [Adan Camacho's solution](https://github.com/Adancode/Euler_Problems)
 * [Noah Prescott's solution](https://github.com/npresco/project_euler)
+* [Chris Swanson's solution](https://github.com/cswans21/euler_solutions)
 * Add your solution above this line!
 
 ## Additional Resources
