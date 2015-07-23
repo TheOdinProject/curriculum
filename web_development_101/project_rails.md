@@ -85,6 +85,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Brian Burke's solution](https://github.com/sanora/Rails)
 * [Alex Tsiras' solution](https://github.com/arialblack14/jumpstart-blogger)
 * [Angus Dobson's solution](https://github.com/Apneal/rails_project) | [View in browser](https://limitless-island-7868.herokuapp.com/)
+* [dchen71' solution](https://github.com/dchen71/the_odin_project/tree/master/Web%20Development%20101/blogger)
 * *Your solution above here...*
 
 
