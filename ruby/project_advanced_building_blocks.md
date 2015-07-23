@@ -28,7 +28,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 
     ```language-bash
         > bubble_sort_by(["hi","hello","hey"]) do |left,right|
-        >   right.length - left.length
+        >   left.length - right.length
         > end
         => ["hi", "hey", "hello"]
     ```
