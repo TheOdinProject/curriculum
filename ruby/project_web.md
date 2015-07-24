@@ -27,6 +27,8 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 * [mahimahi42's solution](https://github.com/mahimahi42/microblogger.git) 
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
+* [Solution from bucifer](https://github.com/bucifer/MicroBlogger)
+* [Solution from Mazin Power](https://github.com/muzfuz/CodeLessons/tree/master/spambot)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
 * [Tommy Noe's solution](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/jumpstart_labs_twitterbot/blob/master/micro_blogger.rb)
@@ -51,8 +53,9 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/Twitter-Spambot)
 * [Cody Gipson's solution](https://github.com/Cgipson06/twitter-client)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/micro_blogger)
+* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/micro_blogger.rb)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/10-ruby-on-the-web/1%20-%20Twitter%20Spambot)
 * Add your solution above this line!
-
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
@@ -212,6 +215,10 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-server-client)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/webserver-and-browser)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/web_server)
+* [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
+* [Solution from Vidul Parthasarathy](https://github.com/viparthasarathy/web_server)
+* [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/ruby_on_web)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/10-ruby-on-the-web/2%20-%20Web%20Server%20and%20Browser)
 * Add your solution above this line!
 
 
