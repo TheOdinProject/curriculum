@@ -390,4 +390,5 @@ Next, make sure your method can handle multiple words:
 * [AnthonyL's solution](https://github.com/AnthonyLarios/building-blocks/blob/master/substrings.rb)
 * [Jason Symons' solution](https://github.com/jsymons/the-odin-project/blob/master/ruby-building-blocks/substrings.rb)
 * [Davis Campbell's solution](https://github.com/davis-campbell/ruby/blob/master/substrings.rb)
+* [Angus Dobson's solution](https://github.com/Apneal/ruby_building_blocks/blob/master/substrings.rb)
 * Add your solution above this line!
