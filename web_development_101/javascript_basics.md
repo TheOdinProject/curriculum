@@ -167,6 +167,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Adan Camacho's solution](https://github.com/Adancode/Euler_Problems)
 * [Noah Prescott's solution](https://github.com/npresco/project_euler)
 * [Chris Swanson's solution](https://github.com/cswans21/euler_solutions)
+* [Calandra Z's solution](https://github.com/calandraz/Euler) |[View in browser](https://rawgit.com/calandraz/Euler/tree/master/Euler.html)
 * Add your solution above this line!
 
 ## Additional Resources
