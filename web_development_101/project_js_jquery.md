@@ -226,4 +226,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Amir Aminfar's solution](https://github.com/amiraa127/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/amiraa127/sketch-pad/blob/master/index.html)
 * [Matt Brothen's solution](https://github.com/mbrothen/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/mbrothen/sketchpad/blob/master/index.html)
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Web%20Development%20101/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/sketch-pad/index.html)
+* [John Tobillo's solution](https://github.com/jdtobill/etch_a_sketch)
 * Add your solution above this line!
