@@ -100,6 +100,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Scott Bobbitt's Solution](https://github.com/sco-bo/rspec-ruby)
 * [Florian Mainguy's Solution](https://github.com/florianmainguy/test_first_ruby)
 * [dchen71's Solution](https://github.com/dchen71/the_odin_project/tree/master/Web%20Development%20101/Learn%20Ruby)
+* [Spekachu's Solution](https://github.com/Spekachu/learn_ruby)
 * Add your solution above this line!
 
 
