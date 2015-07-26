@@ -229,4 +229,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [John Tobillo's solution](https://github.com/jdtobill/Front_End_Web_Dev/tree/master/etch_a_sketch)
 * [John Tobillo's solution](https://github.com/jdtobill/etch_a_sketch)
 * [Chris Watland's solution](https://github.com/watlandc/odin_etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/watlandc/odin_etch_a_sketch/blob/master/index.html)
+* [Noah Prescott's solution](https://github.com/npresco/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/npresco/etch-a-sketch/blob/master/etch-a-sketch.html)
 * Add your solution above this line!
