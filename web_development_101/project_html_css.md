@@ -387,7 +387,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Kanchan Bhattacharyya's solution](https://github.com/kkbhattachary/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kkbhattachary/google-homepage/blob/master/index.html)
 * [Rohit Suvarna's solution](https://github.com/rohitsuv/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rohitsuv/google-homepage/blob/master/index.html)
 * [dchen71's EASY solution](https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) (HARD solution) (https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html)
-* [Paweł Cichoń solution] (https://github.com/beovulf/google-homepage.git) | [View in browser] (http://htmlpreview.github.com/?https://github.com/beovulf/google-homepage/index.html)
+* [Paweł Cichoń solution] (https://github.com/beovulf/google-homepage.git) | [View in browser] (https://rawgit.com/beovulf/the_odin_project/master/google_homepage/index.html)
 * [Rellbows' Easy Solution] (https://github.com/rellbows/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
