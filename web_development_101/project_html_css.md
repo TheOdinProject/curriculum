@@ -388,12 +388,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Rohit Suvarna's solution](https://github.com/rohitsuv/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rohitsuv/google-homepage/blob/master/index.html)
 <<<<<<< HEAD
 * [dchen71's EASY solution](https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) | [HARD solution] (https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html)
-* [Anthony Duran's easy solution](https://github.com/adduran17/google-homepage/blob/master/Index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/adduran17/google-homepage/blob/master/Index.html) 
-=======
-* [dchen71's EASY solution](https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) (HARD solution) (https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html)
 * [Paweł Cichoń solution] (https://github.com/beovulf/google-homepage.git) | [View in browser] (https://rawgit.com/beovulf/the_odin_project/master/google_homepage/index.html)
 * [Rellbows' Easy Solution] (https://github.com/rellbows/google-homepage/blob/master/index.html)
->>>>>>> 406c45845ba96e10e4ecd190d3c2dc78b2bc4970
 * [Anthony Duran's solution] (https://github.com/adduran17/google-homepage/blob/master/Index.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/adduran17/google-homepage/blob/master/Index.html)
 * Add your solution above this line!
 
