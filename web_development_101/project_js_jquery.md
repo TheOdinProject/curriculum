@@ -231,5 +231,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Chris Watland's solution](https://github.com/watlandc/odin_etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/watlandc/odin_etch_a_sketch/blob/master/index.html)
 * [Noah Prescott's solution](https://github.com/npresco/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/npresco/etch_a_sketch/blob/master/etch_a_sketch.html)
 * [Chris Swanson's solution](https://github.com/cswans21/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/cswans21/etch-a-sketch/blob/master/index.html)
-* [Parker Boyes' solution](https://github.com/boyestrous/Etch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/boyestrous/Etch/blob/master/etch.html)
+* [Parker Boyes' solution](https://github.com/boyestrous/Etch) | [View in browser](https://htmlpreview.github.io/?https://github.com/boyestrous/Etch/blob/master/etch.html)
+* [Chris Swanson's solution](https://github.com/cswans21/etch-a-sketch)
+* [Jeffrey Bartels' solution](https://github.com/jitterboggle/sketchpad)
 * Add your solution above this line!
