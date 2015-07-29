@@ -108,4 +108,5 @@ If you've run into issues with your installation and are desperately looking for
 * [Rubyonrails.org](http://rubyonrails.org/download) installation section.
 * [Guide](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) for opening Sublime Text via command line in Windows.
 * [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
+* [Gorails.com] (https://gorails.com/setup/osx/10.10-yosemite) also has an excellent tutorial for setting up your Rails enviornment for OSX and Ubuntu.
 * Google Google Google
