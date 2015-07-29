@@ -390,6 +390,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Paweł Cichoń solution] (https://github.com/beovulf/google-homepage.git) | [View in browser] (https://rawgit.com/beovulf/the_odin_project/master/google_homepage/index.html)
 * [Rellbows' Easy Solution] (https://github.com/rellbows/google-homepage/blob/master/index.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/rellbows/google-homepage/blob/master/index.html)
 * [Anthony Duran's solution] (https://github.com/adduran17/google-homepage/blob/master/Index.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/adduran17/google-homepage/blob/master/Index.html)
+* [Jacob Stoebel's solution] (https://github.com/jstoebel/google_homepage.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/jstoebel/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
