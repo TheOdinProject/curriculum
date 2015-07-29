@@ -109,6 +109,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_basic_data_structure/blob/master/knight_moves.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_data_structures/knight_moves)
 * [Alex Chen's solution](https://github.com/Chenzilla/data_structure_practice)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/12-data-structures-and-algorithms/2%20-%20Knights%20Travail)
 * Add your solution above this line!
 
 
