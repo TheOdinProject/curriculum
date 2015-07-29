@@ -166,7 +166,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Chris Watland's solution](https://github.com/watlandc/javascript_101)
 * [Adan Camacho's solution](https://github.com/Adancode/Euler_Problems)
 * [Noah Prescott's solution](https://github.com/npresco/project_euler)
-* [Chris Swanson's solution](https://github.com/cswans21/euler_solutions)
+* [Chris Swanson's solution](https://github.com/cswans21/euler_solutions)| [View in browser](https://htmlpreview.github.io/?https://github.com/cswans21/euler_solutions/blob/master/Euler.html)
 * [Calandra Z's solution](https://github.com/calandraz/Euler) |[View in browser](https://rawgit.com/calandraz/Euler/tree/master/Euler.html)
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Project-Euler/tree/master)
 * [Paweł Cichoń solution] (https://github.com/beovulf/the_odin_project/tree/master/javascript_basics) | [View in browser] (https://rawgit.com/beovulf/the_odin_project/master/javascript_basics/index.html#)
