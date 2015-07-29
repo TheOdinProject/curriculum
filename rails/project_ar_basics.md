@@ -100,7 +100,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 #### Add in Commenting
 
 1. You've now got a User and a Post and they've been linked. Commenting will look quite similar to your Post model but will be related not just to the post who is its "parent" but also to the user who has authored it.  Set up the migration and migrate the database for your Comment model.
-2. As before, add validations into your model and test them out in the console (refresh it!).  Make sure you've required the two foreign keys (for posts and users) to be submitted, otherwise you could potentially have an orphan post.  You should not be able to save an invalid Comment and be able to save a valid Comment.
+2. As before, add validations into your model and test them out in the console (refresh it!).  Make sure you've required the two foreign keys (for posts and users) to be submitted, otherwise you could potentially have an orphan comment.  You should not be able to save an invalid Comment and be able to save a valid Comment.
 3. Build a second user and create a new comment which represents this user commenting on the first user's post.
 3. As before, add the associations you need between users, posts, and comments.  You'll need to be able to do the following methods successfully from the console (assuming your second user has an ID of 2):
 
