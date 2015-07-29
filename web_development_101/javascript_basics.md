@@ -169,7 +169,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Chris Swanson's solution](https://github.com/cswans21/euler_solutions)
 * [Calandra Z's solution](https://github.com/calandraz/Euler) |[View in browser](https://rawgit.com/calandraz/Euler/tree/master/Euler.html)
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Project-Euler/tree/master)
-* [Paweł Cichoń solution] (https://github.com/beovulf/the_odin_project/javascript_basics/) | [View in browser] (https://rawgit.com/beovulf/the_odin_project/master/javascript_basics/index.html#)
+* [Paweł Cichoń solution] (https://github.com/beovulf/the_odin_project/tree/master/javascript_basics) | [View in browser] (https://rawgit.com/beovulf/the_odin_project/master/javascript_basics/index.html#)
 * [Parker Boyes' solution] (https://github.com/boyestrous/Euler-problems)
 * Add your solution above this line!
 
