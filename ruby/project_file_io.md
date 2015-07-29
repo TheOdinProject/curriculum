@@ -46,7 +46,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Alex Chen's solution](https://github.com/Chenzilla/event_manager)
 * [Cody Gipson's solution](https://github.com/Cgipson06/EventManager)
 * [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/event_manager)
-* [John Tobillo's solution](https://github.com/jdtobill/RubyChallenges/tree/master/event_manager)
+* [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/tutorials/event_manager)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/EventManager)
 * Add your solution above this line!
 
@@ -118,6 +118,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/hangman)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/hangman)
 * [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/hangman/hangman.rb)
+* [John Tobillo](https://github.com/jdtobill/Ruby/tree/master/games/hangman)
 * Add your solution above this line!
 
 
