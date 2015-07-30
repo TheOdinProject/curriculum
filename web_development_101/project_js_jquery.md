@@ -235,4 +235,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Chris Swanson's solution](https://github.com/cswans21/etch-a-sketch)
 * [Jeffrey Bartels' solution](https://github.com/jitterboggle/sketchpad)
 * [Adrian Manteza's solution](https://github.com/AdManteza/Project-Javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/AdManteza/Project-Javascript-jQuery/blob/master/Project.html)
+* [Paweł Cichoń solution](https://github.com/beovulf/the_odin_project/tree/master/project_javascript_jquery) | [View in browser](https://rawgit.com/beovulf/the_odin_project/master/project_javascript_jquery/index.html)
 * Add your solution above this line!
