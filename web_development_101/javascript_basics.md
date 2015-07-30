@@ -172,6 +172,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Paweł Cichoń solution] (https://github.com/beovulf/the_odin_project/tree/master/javascript_basics) | [View in browser] (https://rawgit.com/beovulf/the_odin_project/master/javascript_basics/index.html#)
 * [Parker Boyes' solution] (https://github.com/boyestrous/Euler-problems)
 * [Jacob Stoebel's solution] (https://github.com/jstoebel/javascript_101)
+* * [Chris Avery's solution] (https://github.com/cavery8989/projectEuler) | [View in browser] http://htmlpreview.github.io/?https://github.com/cavery8989/projectEuler/blob/master/Index.html)
 * Add your solution above this line!
 
 ## Additional Resources
