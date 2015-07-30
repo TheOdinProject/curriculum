@@ -87,6 +87,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Angus Dobson's solution](https://github.com/Apneal/rails_project) | [View in browser](https://limitless-island-7868.herokuapp.com/)
 * [dchen71' solution](https://github.com/dchen71/the_odin_project/tree/master/Web%20Development%20101/blogger)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rails_project) | [View in browser](http://morning-tundra-2552.herokuapp.com/)
+* [Ho Won Cheng's solution](https://github.com/chenghw/ruby_on_rails_101_project) | [View in browser](https://thawing-harbor-8031.herokuapp.com)
 * *Your solution above here...*
 
 
