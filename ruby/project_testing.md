@@ -34,6 +34,7 @@ ding-blocks) and write tests for any 6 of the enumerable methods you wrote there
 * AtActionPark's solution ([Caesar Cipher](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/caesar-cipher/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/AtActionPark/odin-ruby-advanced-building-blocks/blob/master/Enumerable_methods/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/AtActionPark/odin_tic_tac_toe/tree/master/spec))
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_testing)
 * Alex Chen's solution ([Caesar Cipher and Enumerable Methods](https://github.com/Chenzilla/ruby_building_blocks/tree/master/spec), [Tic Tac Toe](https://github.com/Chenzilla/tic_tac_toe/blob/master/spec/tic-tac-toe_spec.rb))
+* Dan Hoying's solution ([Caesar Cipher](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/tic_tac_toe))
 * Add your solution above this line!
 
 
@@ -67,6 +68,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Connect-Four)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_connect_four)
 * [Alex Chen's solution](https://github.com/Chenzilla/test_driven_connect_four)
+* [Dan Hoying's solution](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/connect_four)
 * Add your solution above this line!
 
 
