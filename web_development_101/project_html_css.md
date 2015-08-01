@@ -393,6 +393,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jacob Stoebel's solution](https://github.com/jstoebel/google_homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/jstoebel/google_homepage/blob/master/index.html)
 * [dchen71's EASY solution](https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/home.html) (HARD solution) (https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/google-homepage/gsearch.html)
 * [kfoxb's solution](https://github.com/kfoxb/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kfoxb/google-homepage/blob/master/index.html)
+* [Prayatna's solution](https://github.com/prayatna/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/prayatna/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
