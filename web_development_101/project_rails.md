@@ -89,6 +89,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rails_project) | [View in browser](http://morning-tundra-2552.herokuapp.com/)
 * [Ho Won Cheng's solution](https://github.com/chenghw/ruby_on_rails_101_project) | [View in browser](https://thawing-harbor-8031.herokuapp.com)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/blogger_rails) | [View in browser](https://radiant-tundra-5862.herokuapp.com)
+* [Panashe Fundira's solution](https://github.com/munyari/blogger) | [View in browser](https://whispering-brook-5977.herokuapp.com/)
 * *Your solution above here...*
 
 
