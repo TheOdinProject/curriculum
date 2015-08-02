@@ -118,7 +118,8 @@ You will be building a simple command line Hangman game where one player plays a
 * [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/hangman)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/hangman)
 * [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/hangman/hangman.rb)
-* [John Tobillo](https://github.com/jdtobill/Ruby/tree/master/games/hangman)
+* [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/games/hangman)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Szubienica.rb)
 * Add your solution above this line!
 
 
