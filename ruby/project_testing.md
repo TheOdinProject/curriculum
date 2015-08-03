@@ -69,6 +69,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_connect_four)
 * [Alex Chen's solution](https://github.com/Chenzilla/test_driven_connect_four)
 * [Dan Hoying's solution](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/connect_four)
+* [Xavier Reid's solution](https://github.com/xreid/connect_four)
 * Add your solution above this line!
 
 
