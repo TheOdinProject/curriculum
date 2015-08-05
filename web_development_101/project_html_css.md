@@ -399,6 +399,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Shady's solution](https://github.com/cupcakehunter/google_homepage)  | [View in browser](https://htmlpreview.github.io/?https://github.com/cupcakehunter/google_homepage/blob/master/index.html)
 * [Arnold Libunao's EZ solution](https://github.com/arnlib/google-homepage.git) | [View EZ in browser](https://github.com/arnlib/google-homepage/blob/master/index.html)
 * [thetomja's solution](https://htmlpreview.github.io/?https://github.com/thetomja/google-homepage/blob/master/index.html)
+* [Moiz Hasan's solution](https://github.com/MoizHasan/Google-Homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/MoizHasan/Google-Homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
