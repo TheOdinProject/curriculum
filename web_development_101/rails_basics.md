@@ -50,3 +50,4 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 * [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e)
 * If you want to dive right into a full on interactive Rails course in the browser, give [Code Learn](http://www.codelearn.org/ruby-on-rails-tutorial) a shot (and let us know what you think)
 * [Codecademy Ruby on Rails](http://www.codecademy.com/en/learn/learn-rails)
+* [The Best Way to Learn Ruby on Rails](http://code.tutsplus.com/tutorials/the-best-way-to-learn-ruby-on-rails--net-21820) from TutsPlus
