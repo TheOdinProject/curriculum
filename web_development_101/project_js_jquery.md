@@ -238,4 +238,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Paweł Cichoń solution](https://github.com/beovulf/the_odin_project/tree/master/project_javascript_jquery) | [View in browser](https://rawgit.com/beovulf/the_odin_project/master/project_javascript_jquery/index.html)
 * [Moiz Hasan's solution](https://github.com/MoizHasan/Grid-Coloring) | [View in browser](http://htmlpreview.github.io/?https://github.com/MoizHasan/Grid-Coloring/blob/master/GridColor.html)
 * [Harvey Singh's Solution](https://github.com/harveysingh1/EtchASketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/harveysingh1/EtchASketch/blob/master/EtchASketch.html)
+* [Patrick Li's Solution](https://github.com/PatrickLi727/Etch-a-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/PatrickLi727/Etch-a-Sketch/blob/master/EtchASketch.html)
 * Add your solution above this line!
