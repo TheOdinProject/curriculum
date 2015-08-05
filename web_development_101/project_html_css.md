@@ -395,6 +395,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [kfoxb's solution](https://github.com/kfoxb/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kfoxb/google-homepage/blob/master/index.html)
 * [Prayatna's solution](https://github.com/prayatna/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/prayatna/google_homepage/blob/master/index.html)
 * [Arnold Libunao's EZ solution](https://github.com/arnlib/google-homepage.git) | [View EZ in browser](https://htmlpreview.github.io/?https://github.com/arnlib/google-homepage/blob/master/index.html)
+* [Vojin Djukic's solution](https://github.com/vojindjukic/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/vojindjukic/google-homepage/blob/master/google%20clone.html#)
 * Add your solution above this line!
 
 
