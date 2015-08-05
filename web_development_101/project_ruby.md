@@ -103,6 +103,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Spekachu's Solution](https://github.com/Spekachu/learn_ruby)
 * [Sandeep's Solution](https://github.com/sand33pn/odin_ruby_project)
 * [Pugsiman's solution](https://github.com/pugsiman/ruby_test_first)
+* [Noah Prescott's solution](https://github.com/npresco/test_first_ruby)
 * Add your solution above this line!
 
 
