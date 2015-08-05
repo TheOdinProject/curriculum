@@ -174,6 +174,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jacob Stoebel's solution] (https://github.com/jstoebel/javascript_101)
 * [Chris Avery's solution] (https://github.com/cavery8989/projectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/cavery8989/projectEuler/blob/master/Index.html)
 * [Giacomo R's solution] (https://github.com/giacomor/euler_problems) | [View in browser] (https://htmlpreview.github.io/?https://github.com/giacomor/euler_problems/blob/master/euler_problem_webpage.html)
+* [Kirk D. Shelton's solution](https://github.com/kirkdshelton/projecteuler)|[View in Browser](https://htmlpreview.github.io/?https://github.com/kirkdshelton/projecteuler/blob/master/euler.html)
 * Add your solution above this line!
 
 ## Additional Resources
