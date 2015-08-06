@@ -177,6 +177,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Moiz Hasan's solution] (https://github.com/MoizHasan/Project-Euler) 
 * [Harvey Singh's solution](https://github.com/harveysingh1/MyOdinProject-JavaScript)
 * [Kirk D. Shelton's solution](https://github.com/kirkdshelton/projecteuler)|[View in Browser](https://htmlpreview.github.io/?https://github.com/kirkdshelton/projecteuler/blob/master/euler.html)
+*  [Kelvin Stone's solution](https://github.com/KelvinStone/Project-Euler-1-2-3) | [View in browser](http://htmlpreview.github.io/?https://github.com/KelvinStone/Project-Euler-1-2-3/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
