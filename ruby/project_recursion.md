@@ -52,6 +52,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Dan Hoying's solution](https://github.com/danhoying/recursion/blob/master/fibonacci.rb)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/CS/recursion.rb)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/11-more-ruby-problems-4/1%20-%20Fibonacci%20Sequence)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/fibonacci.rb)
 * Add your solution above this line!
 
 
