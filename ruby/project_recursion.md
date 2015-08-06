@@ -115,6 +115,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Dan Hoying's solution](https://github.com/danhoying/recursion/blob/master/merge_sort.rb)
 * [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/CS/merge_sort.rb)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/11-more-ruby-problems-4/2%20-%20Merge%20Sort)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Ruby.%20Praktyczne%20Skrypty/sortowaniePoprzezScalanie.rb)
 * Add your solution above this line!
 
 
