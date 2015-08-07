@@ -105,6 +105,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Pugsiman's solution](https://github.com/pugsiman/ruby_test_first)
 * [Noah Prescott's solution](https://github.com/npresco/test_first_ruby)
 * [Moiz Hasan's solution](https://github.com/MoizHasan/Test-First-Ruby)
+* [Max Platt's solution](https://github.com/makxks/ruby_testing)
 * Add your solution above this line!
 
 
