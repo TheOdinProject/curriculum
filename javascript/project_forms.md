@@ -29,6 +29,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 * [Ryan Jordan's solution](https://github.com/krjordan/HTML-forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/HTML-forms/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project7) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project7/index.html)
 * [dchen71's solution (HTML5/jQuery Validation)](https://github.com/dchen71/odin-form_validations) | [View in browser](http://rawgit.com/dchen71/odin-form_validations/master/Index.html)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_jquery_validating) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_jquery_validating/blob/master/index.html)
 * Add your solution above this line!
 
 
