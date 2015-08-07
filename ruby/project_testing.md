@@ -35,6 +35,7 @@ ding-blocks) and write tests for any 6 of the enumerable methods you wrote there
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_testing)
 * Alex Chen's solution ([Caesar Cipher and Enumerable Methods](https://github.com/Chenzilla/ruby_building_blocks/tree/master/spec), [Tic Tac Toe](https://github.com/Chenzilla/tic_tac_toe/blob/master/spec/tic-tac-toe_spec.rb))
 * Dan Hoying's solution ([Caesar Cipher](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/tic_tac_toe))
+* PiotrAleksander's solution (https://github.com/PiotrAleksander/Ruby/tree/master/xo/spec)
 * Add your solution above this line!
 
 
