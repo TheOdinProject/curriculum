@@ -55,6 +55,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/micro_blogger)
 * [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/micro_blogger.rb)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/10-ruby-on-the-web/1%20-%20Twitter%20Spambot)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/MikroBlogger)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
