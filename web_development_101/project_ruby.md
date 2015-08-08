@@ -107,7 +107,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Moiz Hasan's solution](https://github.com/MoizHasan/Test-First-Ruby)
 * [Max Platt's solution](https://github.com/makxks/ruby_testing)
 * [Patrick Li's solution](https://github.com/PatrickLi727/Test-First-Ruby)
-* Add your solution above this line!
+* [Chris Swanson's solution](https://github.com/cswans21/test_first_exercises)
+* * Add your solution above this line!
 
 
 
