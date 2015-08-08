@@ -24,11 +24,10 @@ This site runs on **Ruby 2.0.0-p353** and **Rails 4.0.0** (upgraded from Ruby 1.
 
 #### Nitrous.io Setup
 
-We **STRONGLY** recommend windows users and newbies having trouble setting up their environments just use [nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral).  Nitrous is a cloud-based development environment.  They basically just give you a fully stocked machine that's almost ready to go out of the box.
+We suggest that Windows users who can't migrate to Linux and newbies who are having trouble setting up their environments just use [nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral) or a similar cloud-based environment like [Cloud 9](https://c9.io/). 
 
-We use Nitrous almost exclusively during our group coding sessions so, if you'd like to get involved that way, you'll need to set it up eventually.
-
-1. [Follow along with this gist](https://gist.github.com/afshinator/8035821) to do the setup.
+For Nitrous:
+1. [Follow along with this gist](https://gist.github.com/afshinator/8035821) to do the setup on Nitrous.
 2. Don't forget to populate your test database with `$ rake db:test:prepare`
 
 #### Standard Setup
@@ -123,6 +122,7 @@ and click "OK".
 * [Ian White](http://github.com/Iawhite76)
 * [Nathan Hall](http://github.com/dominathan)
 * [Abby Jones](http://github.com/AbbyJonesDev)
+* [Kevin Mulhern](https://github.com/KevinMulhern)
 
 <hr>
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
