@@ -50,6 +50,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Alex Chen's solution](https://github.com/Chenzilla/data_structure_practice)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/12-data-structures-and-algorithms/1%20-%20Searching%20Binary%20Trees)
 * [Xavier Reid's solution](https://github.com/xreid/data_structures_algorithms/tree/master/binary_tree)
+* [Dan Hoying's solution](https://github.com/danhoying/basic_data_structures_and_algorithms/blob/master/searching_binary_trees.rb)
 * Add your solution above this line!
 
 
@@ -112,6 +113,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Alex Chen's solution](https://github.com/Chenzilla/data_structure_practice)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/12-data-structures-and-algorithms/2%20-%20Knights%20Travail)
 * [Xavier Reid's solution](https://github.com/xreid/data_structures_algorithms/blob/master/knights_travails/knight.rb)
+* [Dan Hoying's solution](https://github.com/danhoying/basic_data_structures_and_algorithms/blob/master/knights_travails.rb)
 * Add your solution above this line!
 
 
