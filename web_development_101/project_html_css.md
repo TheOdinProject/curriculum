@@ -403,6 +403,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Kelvin Stone's solution](https://github.com/KelvinStone/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/KelvinStone/google-homepage/blob/master/index.html)
 *[Nicholas Evans's solution](https://github.com/nicholasjamesevans/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/nicholasjamesevans/google-homepage/blob/master/index.html)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/google-homepage) | [View in browser](https://rawgit.com/kalpetros/google-homepage/master/index.html)
+* [Alberto Madrazo's solution](https://github.com/otreblatercero/my_google) | [View in browser](https://htmlpreview.github.io/?https://github.com/otreblatercero/my_google/blob/master/search.html)
 * Add your solution above this line!
 
 
