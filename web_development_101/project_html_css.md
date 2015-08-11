@@ -402,7 +402,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Moiz Hasan's solution](https://github.com/MoizHasan/Google-Homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/MoizHasan/Google-Homepage/blob/master/index.html)
 * [Kelvin Stone's solution](https://github.com/KelvinStone/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/KelvinStone/google-homepage/blob/master/index.html)
 *[Nicholas Evans's solution](https://github.com/nicholasjamesevans/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/nicholasjamesevans/google-homepage/blob/master/index.html)
-* [Petros Kalogiannakis's solution](https://github.com/kalpetros/google-homepage) | [View in browser](https://rawgit.com/kalpetros/google-homepage/master/index.html)
+* [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/google_homepage) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/google_homepage/index.html)
 * [Alberto Madrazo's solution](https://github.com/otreblatercero/my_google) | [View in browser](https://htmlpreview.github.io/?https://github.com/otreblatercero/my_google/blob/master/search.html)
 * Add your solution above this line!
 
