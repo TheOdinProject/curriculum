@@ -110,6 +110,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Chris Swanson's solution](https://github.com/cswans21/test_first_exercises)
 * [jitterboggle's solutions](https://github.com/jitterboggle/learn_ruby_test_first)
 * [Paweł Cichoń solution](https://github.com/beovulf/learn_ruby)
+* [Parker Boyes' solution](https://github.com/boyestrous/Learn_ruby-test_first)
 * * Add your solution above this line!
 
 
