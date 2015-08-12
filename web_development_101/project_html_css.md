@@ -405,6 +405,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/google_homepage) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/google_homepage/index.html)
 * [Alberto Madrazo's solution](https://github.com/otreblatercero/my_google) | [View in browser](https://htmlpreview.github.io/?https://github.com/otreblatercero/my_google/blob/master/search.html)
 * [Segrey Pikin's solution] (https://github.com/pikinkz/google-homepage) | [View in browser] (https://github.com/pikinkz/google-homepage/blob/master/index.html)
+* [Defgarden's solution] (https://github.com/Defgarden/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Defgarden/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
