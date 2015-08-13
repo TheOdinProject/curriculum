@@ -91,7 +91,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 
 9. Create your Post model by referencing your data plan from the first step above, migrate the database, and add its validations.
 10. Test your validations from the console, remembering to reload or relaunch it between changes.
-11. Now set up your associations between User and Post models.  Did you remember to include the foreign key column (`user_id`) in your posts table?  If not, you can just add a new migration (`$ rails new migration yourmigrationname`) and use the `#add_column` method mentioned above.
+11. Now set up your associations between User and Post models.  Did you remember to include the foreign key column (`user_id`) in your posts table?  If not, you can just add a new migration (`$ rails generate migration yourmigrationname`) and use the `#add_column` method mentioned above.
 12. If you've properly set up your associations, you should be able to use a few more methods in the console, including finding a User's Posts and finding the Post's User.  First test finding your lonely User's Posts -- `> User.first.posts`.  It should be an empty array since you haven't created posts, but it shouldn't throw an error at you.
 1. Build (but don't yet save) a new post from the console, called `p1`, something like `> p1 = Post.new(your_attributes_here)`.  Don't forget to include the ID of the user in your `user_id` field!
 2. Now build another post using the association to the user -- substitute `#new` with `#build` and run through the association instead -- `p2 = User.first.posts.build`.  Don't fill in any fields yet.  Examine the object that was created and you'll see that the ID field already got filled out for you, cool! This is a neat trick you'll learn about in the lesson on associations.  
@@ -100,7 +100,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 #### Add in Commenting
 
 1. You've now got a User and a Post and they've been linked. Commenting will look quite similar to your Post model but will be related not just to the post who is its "parent" but also to the user who has authored it.  Set up the migration and migrate the database for your Comment model.
-2. As before, add validations into your model and test them out in the console (refresh it!).  Make sure you've required the two foreign keys (for posts and users) to be submitted, otherwise you could potentially have an orphan post.  You should not be able to save an invalid Comment and be able to save a valid Comment.
+2. As before, add validations into your model and test them out in the console (refresh it!).  Make sure you've required the two foreign keys (for posts and users) to be submitted, otherwise you could potentially have an orphan comment.  You should not be able to save an invalid Comment and be able to save a valid Comment.
 3. Build a second user and create a new comment which represents this user commenting on the first user's post.
 3. As before, add the associations you need between users, posts, and comments.  You'll need to be able to do the following methods successfully from the console (assuming your second user has an ID of 2):
 
@@ -139,6 +139,9 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/micro-reddit)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/micro-reddit)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/Odin-RubyOnRails-full/tree/master/micro-reddit)
+* [dchen71's solution](https://github.com/dchen71/micro-reddit)
+* [Matias Pan's solution](https://github.com/kriox26/micro-reddit)
+* [Alex Chen's solution](https://github.com/Chenzilla/micro_reddit)
 * Add your solution above this line!
 
 ## Additional Resources

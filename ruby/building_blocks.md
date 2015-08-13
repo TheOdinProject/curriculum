@@ -64,7 +64,7 @@ But this lesson will take you much deeper and further than you went before, so d
     * How do you find the biggest item in an array?
     * How do you find the smallest item in an array?
     * How do you remove any duplicates from your array?
-    * How to you find out how big an array is?
+    * How do you find out how big an array is?
     * How do you put an array in order?
     * What are the naming conventions for arrays?
     * What should you store in arrays?

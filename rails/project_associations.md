@@ -84,8 +84,10 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Vidul's solution](https://github.com/viparthasarathy/private-events) | [View in browser](https://fierce-headland-7201.herokuapp.com/)
 * [Jason Matthews' solution](https://github.com/fo0man/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/private-events)
-* [Kevin Mulhern's solution](https://github.com/KevinMulhern/private_events) | [View in browser](https://protected-island-9117.herokuapp.com/)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/private_events) | [View in browser](https://privateevents.herokuapp.com/)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_private_event) | [View in browser](https://afternoon-citadel-2578.herokuapp.com/)
+* [Andrej Dragojevic's solution](https://github.com/antrix1/PrivateEvents) | [View in browser](https://calm-refuge-3455.herokuapp.com/)
+* [dchen71's solution](https://github.com/dchen71/private-events) | [View in browser](http://ronchon-moliere-6251.herokuapp.com/)
 * Add your solution above this line!
 
 

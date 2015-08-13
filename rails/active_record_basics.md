@@ -18,7 +18,7 @@ Having a solid understanding of Active Record will make the rest of Rails seem s
 * What is an ORM?
 * Why is Active Record more useful than just using SQL?
 * What are the two steps required to make a new row in your database table with ActiveRecord?
-* What is are "generators" in Rails?
+* What are "generators" in Rails?
 
 ## What is an ORM?
 
@@ -110,10 +110,10 @@ These are great questions, and you should feel comfortable asking them even if y
 
 ### Your Assignment
 
-1. Read the [Migrations chapter of Rails Guides](http://guides.rubyonrails.org/migrations.html).  
+1. Read the [Migrations chapter of Rails Guides](http://edgeguides.rubyonrails.org/active_record_migrations.html).  
     * Don't worry about 3.6-3.8.
-    * Just skim sections 7 and 8
-    * Seeds (section 9) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
+    * Just skim section 7.
+    * Seeds (section 8) are useful and you'll be using them later.  It saves you a lot of work, especially when you're learning and will end up blowing away your database and starting over a lot.
 
 ## Basic Validations
 

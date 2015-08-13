@@ -15,7 +15,6 @@ This is a brief section on a useful topic.  The Rails Guide reading provides goo
 * What are the major lifecycle stages of an Active Record object?
 * How do you build an "around" callback?
 * How do you specify a particular action to run a callback for?
-* 
 
 ## The Life Cycle of an Active Record Object
 

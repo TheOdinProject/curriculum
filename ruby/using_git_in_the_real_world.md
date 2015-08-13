@@ -1,7 +1,7 @@
 # Using Git in the Real World
 <!-- *Estimated Time: 1-2 hrs* -->
 
-Git basics are very simple but it feels like a bottomless pit sometimes when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around looking for it.
+Git basics are very simple, but it sometimes feels like a bottomless pit when you find yourself on the wrong side of a confusing error situation.  It's doubly frustrating because you think that messing up or trying the wrong solution can lose data. It's actually very hard to "lose" data with Git but it can certainly be hiding somewhere you wouldn't think to look without an experienced dev poking around.
 
 You'll have your share of misadventures, but everyone does.  The best remedy is to commit early and often.  The smaller and more modular your commits are, the less that can go wrong if you mess one up.  
 
@@ -13,7 +13,7 @@ Again, it's all designed to keep your workflow modular and the commits independe
 
 The thing about Git is that, unless you've got a seriously impressive memory, you can't just learn it by reading about it up front... you need to do it.  Find a problem you want to go back and fix, hit an error in your merge, etc. and Google the hell out of it, learning a new Git tactic in the process.  
 
-To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a Github workflow used on this very project.  The Additional Resources section below that should also help you find high quality resources for when you need them later on.
+To help you out, come back and refer to this lesson again when you're in trouble. We'll first cover a real-world example of a Github workflow used on this very project.  The Additional Resources section below should also help you find high quality resources for when you need them later on.
 
 ## A Git Workflow For Open Source Contribution
 

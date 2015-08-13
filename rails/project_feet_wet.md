@@ -57,6 +57,9 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/toy_app)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/rails_tutorial_chapter_2)
 * [AtActionPark's solution](https://github.com/AtActionPark/toy_app) | [Heroku](https://fathomless-everglades-4313.herokuapp.com/)
+* [Matias Pan's solution](https://github.com/kriox26/odin_toy_app) | [Heroku](https://mighty-mesa-4527.herokuapp.com/)
+* [Alex Chen's solution](https://github.com/Chenzilla/toy_app)
+* [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Rails/toy_app)
 * Add your solution above this line!
 
 

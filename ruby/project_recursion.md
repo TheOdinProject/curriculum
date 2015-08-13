@@ -47,6 +47,12 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Chris's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Recursive%20Exercises/fib.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_recursion_project/blob/master/recursion.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_recursion/)
+* [Alex Chen's solution](https://github.com/Chenzilla/recursive)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/fibonacci)
+* [Dan Hoying's solution](https://github.com/danhoying/recursion/blob/master/fibonacci.rb)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/CS/recursion.rb)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/11-more-ruby-problems-4/1%20-%20Fibonacci%20Sequence)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/fibonacci.rb)
 * Add your solution above this line!
 
 
@@ -104,7 +110,14 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Chris's solution](https://github.com/Concretechris/odinProject/blob/master/OP%20-%20Recursive%20Exercises/merge_sort.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_recursion_project/blob/master/merge_sort.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_ruby/tree/master/project_recursion)
+* [Alex Chen's solution](https://github.com/Chenzilla/recursive)
+* [Joe Balsamo's solution](https://github.com/Joe-Balsamo/merge_sort)
+* [Dan Hoying's solution](https://github.com/danhoying/recursion/blob/master/merge_sort.rb)
+* [hiendinhngoc's solution](https://github.com/hiendinhngoc/TheOdinProject/blob/master/ruby/CS/merge_sort.rb)
+* [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/11-more-ruby-problems-4/2%20-%20Merge%20Sort)
+* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Ruby.%20Praktyczne%20Skrypty/sortowaniePoprzezScalanie.rb)
 * Add your solution above this line!
+
 
 
 ## Additional Resources

@@ -15,7 +15,7 @@ You've already got all the tools you need to use Javascript to validate your use
 * How do you disable a form element?
 * How do you cause the erroneous form input to be highlighted and red?
 * How do you add an error message directly above the input field that's wrong?
-* What is the jQuery Validate plugin and how do you include it in your projec?
+* What is the jQuery Validate plugin and how do you include it in your project?
 
 ## Your Assignment
 

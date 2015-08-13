@@ -67,7 +67,7 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
         end
     ```
 
-7. Test this out -- can you now create users with your form?
+7. Test this out -- can you now create users with your form? If so, you should see an INSERT SQL command in the server log.
 6. We're not done just yet... that looks too long and difficult to build a user with all those `params` calls.  It'd be a whole lot easier if we could just use a hash of the user's attributes so we could just say something like `User.new(user_params)`.  Let's build it... we need our form to submit a hash of attributes that will be used to create a user, just like we would with Rails' `form_for` method.  Remember, that method submits a top level `user` field which actually points to a hash of values.  This is simple to achieve, though -- just change the `name` attribute slightly.  Nest your three User fields inside the variable attribute using brackets in their names, e.g. `name="user[email]"`.
 7. Resubmit.  Now your user parameters should be nested under the `"user"` key like:
 
@@ -135,6 +135,11 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/re-former)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/re-former)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/re-former)
+* [Raycotek's solution](https://github.com/Raycotek/Re-Former)
+* [dchen71's solution](https://github.com/dchen71/re-former)
+* [Matias Pan's solution](https://github.com/kriox26/re-former)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/re-former)
+* [Alex Chen's solution](https://github.com/Chenzilla/re-former)
 * Add your solution above this line!
 
 
@@ -144,7 +149,7 @@ This chapter will take what you now know about forms and make it part of a real 
 
 ### Your Task
 
-1. Do the [Ruby on Rails Tutorial Chapter 7](http://ruby.railstutorial.org/chapters/sign-up#top), "Sign-Up".
+1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.railstutorial.org/book/sign_up), "Sign-Up".
 
 ## Additional Resources
 

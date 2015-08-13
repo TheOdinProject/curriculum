@@ -21,7 +21,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 2. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
 2. Create empty `<div>` tags to enclose those sections.
 3. Use basic CSS to size and position them appropriately on the page.  It may be helpful to make their backgrounds different colors so you can see the different sections.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
-4. Now let's start filling in those divs with content.  Creating the navbar.
+4. Now let's start filling in those divs with content by creating the navbar.
 2. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=ZnuwB35GYMY)
 3. Embed a YouTube video of your choice into your page.
 4. Next, build the sidebar section where previews of suggested videos show up.  Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
@@ -41,6 +41,10 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Hailey's solution](https://github.com/hmfoster/embedded-youtube.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/embedded-youtube/blob/master/index.html)
 * [Rob Pennington's solution](https://github.com/rPen/Mock-Ups/tree/gh-pages/YouTube) | [View in browser](http://rpen.github.io/Mock-Ups/YouTube/index.html)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odintube/) | [View in browser](http://htmlpreview.github.io/?https://github.com/dstodolny/odintube/blob/master/index.html)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_embedded_images_and_video) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_embedded_images_and_video/blob/master/main.html)
+* [Sasikala's solution](https://github.com/Sasikala-Ravichandran/odin-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/Sasikala-Ravichandran/odin-project/blob/master/Youtube/index.html)
+* [dchen71's solution](https://github.com/dchen71/odin-video-embedding) | [View in browser](https://rawgit.com/dchen71/odin-video-embedding/master/Index.html)
+* [Kevin Mulhern's solution](https://github.com/KevinMulhern/embeded_images_and_videos) | [View in browser](http://htmlpreview.github.io/?https://github.com/KevinMulhern/embeded_images_and_videos/blob/master/index.html)
 * Add your solution above this line!
 
 

@@ -31,6 +31,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectSmashing/tree/responsiveversion) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectSmashing/blob/responsiveversion/index.html)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_design_teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_design_teardown/blob/master/main.html)
 * Add your solution above this line!
 
 

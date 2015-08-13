@@ -30,6 +30,9 @@ Create a form which will submit a new movie to the database.  You should validat
 
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/ajax_infinite_scroll) | [View in browser (*most images not shown*)](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/ajax_infinite_scroll/index.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/Movie-App) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/Movie-App/blob/master/index.html#top)
+* [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project8) | [View in browser](http://rawgit.com/ArturJanik/TOPJS/master/Project8/index.html)
+* [dchen71's solution](https://github.com/dchen71/odin-ajax_submission) | [View in browser](http://rawgit.com/dchen71/odin-ajax_submission/master/Index.html)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_ajax_scroll) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_ajax_scroll/blob/master/index.html)
 * Add your solution above this line!
 
 
