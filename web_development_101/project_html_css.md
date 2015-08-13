@@ -401,12 +401,13 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [thetomja's solution](https://htmlpreview.github.io/?https://github.com/thetomja/google-homepage/blob/master/index.html)
 * [Moiz Hasan's solution](https://github.com/MoizHasan/Google-Homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/MoizHasan/Google-Homepage/blob/master/index.html)
 * [Kelvin Stone's solution](https://github.com/KelvinStone/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/KelvinStone/google-homepage/blob/master/index.html)
-* [Nicholas Evans's solution](https://github.com/nicholasjamesevans/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/nicholasjamesevans/google-homepage/blob/master/index.html)
+*[Nicholas Evans's solution](https://github.com/nicholasjamesevans/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/nicholasjamesevans/google-homepage/blob/master/index.html)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/google_homepage) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/google_homepage/index.html)
 * [Alberto Madrazo's solution](https://github.com/otreblatercero/my_google) | [View in browser](https://htmlpreview.github.io/?https://github.com/otreblatercero/my_google/blob/master/search.html)
 * [Segrey Pikin's solution] (https://github.com/pikinkz/google-homepage) | [View in browser] (https://github.com/pikinkz/google-homepage/blob/master/index.html)
 * [Defgarden's solution] (https://github.com/Defgarden/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Defgarden/google-homepage/blob/master/index.html)
 * [Jasmine Batchellor-Sequeira's solution] (https://github.com/jasminebs/google-homepage) | [View in browser] (https://github.com/jasminebs/google-homepage/blob/master/index.html)
+* [Austin Mason's EASY solution](https://github.com/CouchofTomato/google-homepage.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/CouchofTomato/google-homepage/blob/master/index.html) (HARD solution) (https://github.com/CouchofTomato/google-homepage-difficult.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/CouchofTomato/google-homepage-difficult/blob/master/index.html)
 * Add your solution above this line!
 
 
