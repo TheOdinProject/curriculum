@@ -242,4 +242,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Shady's Solution](https://github.com/cupcakehunter/etch_a__sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/cupcakehunter/etch_a__sketch/blob/master/index.html)
 * [Calandra Zellner's solution](https://github.com/calandraz/Etch-a-Sketch)
 * [Corey Cunningham's Solution](https://github.com/ccunnin8/checkerboard) | [View in browser](https://htmlpreview.github.io/?https://github.com/https://github.com/ccunnin8/checkerboard/blob/master/homepage.html)
+* [Jasmine Batchellor-Sequeira's solution](https://github.com/jasminebs/Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasminebs/Sketchpad/blob/master/index.html)
 * Add your solution above this line!
