@@ -92,6 +92,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Panashe Fundira's solution](https://github.com/munyari/blogger) | [View in browser](https://whispering-brook-5977.herokuapp.com/)
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Blogger)
 * [Noah Prescott's solution](https://github.com/npresco/blogger_rails) | [View in browser](https://infinite-coast-2914.herokuapp.com/)
+* [Paweł Cichoń solution](https://github.com/beovulf/project_rails) | [View in browser](https://glacial-falls-4578.herokuapp.com/)
 * *Your solution above here...*
 
 
