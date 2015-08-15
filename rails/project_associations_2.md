@@ -22,3 +22,4 @@ As an added bonus, you'll get a chance to touch a bit of AJAX when making it so 
 
 
 * [Railscast on Many-to-Many Self-Referential Relationships (2010)](http://railscasts.com/episodes/163-self-referential-association?view=asciicast).  This is old but should be helpful to see the concept covered.
+* [Screencast on Many-to-Many Self-Referential Relantionships with has_many :through](https://www.youtube.com/watch?v=PD0-efs7s_A)
