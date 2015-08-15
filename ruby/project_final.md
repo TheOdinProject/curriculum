@@ -37,6 +37,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/chess)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/chess)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_chess)
+* [Dan Hoying's solution](https://github.com/danhoying/chess)
 * Add your solution above this line!
 
 
