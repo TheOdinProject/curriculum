@@ -278,6 +278,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Paweł Cichoń solution](https://github.com/beovulf/stock_picker)
 * [pwdd] (https://github.com/pwdd/odinproject/blob/master/ruby_training/stock_picker.rb)
 * [Noah Prescott's solution](https://github.com/npresco/ruby_building_blocks/blob/master/stock_picker.rb)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_challenges_and_projects/blob/master/Stock_Picker/stock.rb)
 * Add your solution above this line!
 
 
@@ -414,4 +415,5 @@ Next, make sure your method can handle multiple words:
 * [Paweł Cichoń solution](https://github.com/beovulf/substrings)
 * [pwdd] (https://github.com/pwdd/odinproject/blob/master/ruby_training/substrings.rb)
 * [Noah Prescott's solution](https://github.com/npresco/ruby_building_blocks/blob/master/substrings.rb)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_challenges_and_projects/blob/master/Substrings/substrings.rb)
 * Add your solution above this line!
