@@ -60,6 +60,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Matias Pan's solution](https://github.com/kriox26/odin_toy_app) | [Heroku](https://mighty-mesa-4527.herokuapp.com/)
 * [Alex Chen's solution](https://github.com/Chenzilla/toy_app)
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Rails/toy_app)
+* [Dan Hoying's solution](https://github.com/danhoying/toy_app)
 * Add your solution above this line!
 
 
