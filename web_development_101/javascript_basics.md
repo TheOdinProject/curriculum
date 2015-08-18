@@ -181,6 +181,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Ismaeel Ali's solution](https://github.com/MaeelAli/Project_Euler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/MaeelAli/Project_Euler/blob/master/index.html)
 * [Prayatna's solution](https://github.com/prayatna/javascript101)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/project_euler) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/project_euler/index.html)
+* [Austin's solution](https://github.com/CouchofTomato/ProjectEulerJS)
 * Add your solution above this line!
 
 ## Additional Resources
