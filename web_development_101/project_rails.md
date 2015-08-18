@@ -93,7 +93,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Blogger)
 * [Noah Prescott's solution](https://github.com/npresco/blogger_rails) | [View in browser](https://infinite-coast-2914.herokuapp.com/)
 * [Paweł Cichoń solution](https://github.com/beovulf/project_rails) | [View in browser](https://glacial-falls-4578.herokuapp.com/)
-* *Your solution above here...*
+* [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/) 
+*Your solution above here...*
 
 
 ## Additional Resources
