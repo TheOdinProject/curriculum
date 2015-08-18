@@ -34,6 +34,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/RubyOnRails/restClient/rest_client.rb)
 * [Querylous's Solution](https://github.com/querylous/ddgrest)
 * [Matias Pan's solution](https://github.com/kriox26/odin_rails/tree/master/g_search)
+* [Dan Hoying's solution](https://github.com/danhoying/rest_client_google_search)
 * Add your solution above this line!
 
 
