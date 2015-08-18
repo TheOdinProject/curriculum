@@ -61,6 +61,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Alex Chen's solution](https://github.com/Chenzilla/toy_app)
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Rails/toy_app)
 * [Dan Hoying's solution](https://github.com/danhoying/toy_app)
+* [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/RailsTutorialCh2/toy_app)
 * Add your solution above this line!
 
 
