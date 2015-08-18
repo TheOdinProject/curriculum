@@ -413,6 +413,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Sean McDonnell's solution](https://github.com/spmcdonnell/google-homepage) | [View in browser (easy)](https://htmlpreview.github.io/?https://github.com/spmcdonnell/google-homepage/blob/master/googlehp.html) | [View in browser (difficult)](https://htmlpreview.github.io/?https://github.com/spmcdonnell/google-homepage/blob/master/googlesearchpage.html)
 * [Seth C. Perera's Solution](https://github.com/sethcperera/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sethcperera/google-homepage/blob/master/index.html)
 * [Carlos Rodrigo's solution (spanish)](https://github.com/xack83/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/xack83/google-homepage/blob/master/index.html)
+* [Dennis Lin's solution] (https://github.com/dbanx/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/dbanx/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
