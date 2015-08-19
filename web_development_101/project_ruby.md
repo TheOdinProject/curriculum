@@ -112,6 +112,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Paweł Cichoń solution](https://github.com/beovulf/learn_ruby)
 * [Parker Boyes' solution](https://github.com/boyestrous/Learn_ruby-test_first)
 * [Corey Cunningham' solution](https://github.com/ccunnin8/rspec_project)
+* [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/learn-ruby)
 * * Add your solution above this line!
 
 
