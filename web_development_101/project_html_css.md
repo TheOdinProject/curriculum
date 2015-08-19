@@ -416,6 +416,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Nisarg Rawal's solution (easy)](https://github.com/justiceleague1729/the_odin_project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/justiceleague1729/the_odin_project/blob/master/google-homepage/index.html)
 * [Dennis Lin's solution](https://github.com/dbanx/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/dbanx/google-homepage/blob/master/index.html)
 * [Drew Hall's solution](http://github.com/13337/google-homepage) | [View in browser](https://htmlpreview.github.com/?https://github.com/13337/google-homepage/blob/master/index.html)
+* [Pablo Bordons Estrada's solution](https://github.com/pboest/google-home-secrets/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/pboest/google-home-secrets/blob/master/index.html)
+
 * Add your solution above this line!
 
 
