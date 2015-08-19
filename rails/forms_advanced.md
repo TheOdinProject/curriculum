@@ -178,7 +178,7 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 
 1. Read the [Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html) sections 3.3, which covers populating a form with a collection of objects.
 2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 9, which covers accepting nested form data.
-2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 7.3, which covers the parameter conventions for nested forms.
+2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 7, which covers the parameter conventions for nested forms.
 3. Read [this blog post from Peter Rhoades](http://createdbypete.com/articles/working-with-nested-forms-and-a-many-to-many-association-in-rails-4/) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the whitelisting of nested attributes in Rails 4.
 
 ## Conclusion
