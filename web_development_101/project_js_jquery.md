@@ -228,7 +228,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Web%20Development%20101/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/the_odin_project/blob/master/Web%20Development%20101/sketch-pad/index.html)
 * [John Tobillo's solution](https://github.com/jdtobill/Front_End_Web_Dev/tree/master/etch_a_sketch)
 * [John Tobillo's solution](https://github.com/jdtobill/etch_a_sketch)
-* [Chris Watland's solution](https://github.com/watlandc/odin_etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/watlandc/odin_etch_a_sketch/blob/master/index.html)
+* [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/watlandc/odin-project/blob/master/etch-a-sketch/index.html)
 * [Noah Prescott's solution](https://github.com/npresco/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/npresco/etch_a_sketch/blob/master/etch_a_sketch.html)
 * [Chris Swanson's solution](https://github.com/cswans21/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/cswans21/etch-a-sketch/blob/master/index.html)
 * [Parker Boyes' solution](https://github.com/boyestrous/Etch) | [View in browser](https://htmlpreview.github.io/?https://github.com/boyestrous/Etch/blob/master/etch.html)
