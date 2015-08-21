@@ -183,6 +183,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/project_euler) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/project_euler/index.html)
 * [Austin's solution](https://github.com/CouchofTomato/ProjectEulerJS)
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/the_odin_project/tree/master/projectEuler)
+* [Javeed Ishaq's solution](https://github.com/JaveedIshaq/the-odinproject-Eular-exercises)
 * Add your solution above this line!
 
 ## Additional Resources
