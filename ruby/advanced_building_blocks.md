@@ -39,7 +39,7 @@ This lesson gets more into the topics you may have been shaky on before like *Co
         * `#times`?
     * What's the difference between `while` and `until`?
     * How do you stop a loop?
-    * How to you skip to the next iteration of a loop?
+    * How do you skip to the next iteration of a loop?
     * How would you start the loop over again?
     * What are the (basic) differences between situations when you would use `while` vs `#times` vs `#each`?
     * What does nesting loops mean and when would you use it?
