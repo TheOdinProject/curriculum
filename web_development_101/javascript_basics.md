@@ -178,13 +178,14 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Harvey Singh's solution](https://github.com/harveysingh1/MyOdinProject-JavaScript)
 * [Kirk D. Shelton's solution](https://github.com/kirkdshelton/projecteuler)|[View in Browser](http://htmlpreview.github.io/?https://github.com/kirkdshelton/projecteuler/blob/master/euler.html)
 * [Kelvin Stone's solution](https://github.com/KelvinStone/Project-Euler-1-2-3) | [View in browser](http://htmlpreview.github.io/?https://github.com/KelvinStone/Project-Euler-1-2-3/blob/master/index.html)
-* [Ismaeel Ali's solution](https://github.com/MaeelAli/Project_Euler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/MaeelAli/Project_Euler/blob/master/index.html)
+* [Ismaeel Ali's solution](https://github.com/MaeelAli/Project_Euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/MaeelAli/Project_Euler/blob/master/index.html)
 * [Prayatna's solution](https://github.com/prayatna/javascript101)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/project_euler) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/project_euler/index.html)
 * [Austin's solution](https://github.com/CouchofTomato/ProjectEulerJS)
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/the_odin_project/tree/master/projectEuler)
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/the-odinproject-Eular-exercises)
 * [Joe Pfohl's solutions: ](https://github.com/japfohl/euler-exercises)
+* [Porx's solution](https://github.com/porx/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
