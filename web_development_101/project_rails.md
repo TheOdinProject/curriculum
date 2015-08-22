@@ -95,6 +95,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Paweł Cichoń solution](https://github.com/beovulf/project_rails) | [View in browser](https://glacial-falls-4578.herokuapp.com/)
 * [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/) 
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/blogger) | [View in browser] (https://floating-refuge-8099.herokuapp.com/)
+* [Spekachu's solution](https://github.com/Spekachu/blogger)
 *Your solution above here...*
 
 
