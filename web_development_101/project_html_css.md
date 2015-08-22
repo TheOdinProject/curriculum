@@ -417,7 +417,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Dennis Lin's solution](https://github.com/dbanx/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/dbanx/google-homepage/blob/master/index.html)
 * [Drew Hall's solution](http://github.com/13337/google-homepage) | [View in browser](https://htmlpreview.github.com/?https://github.com/13337/google-homepage/blob/master/index.html)
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/google-home-secrets/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/pboest/google-home-secrets/blob/master/index.html)
-*[Sarabeth's difficult solution](https://github.com/sarabethz/google_search_pg) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarabethz/google_search_pg/blob/master/index.html) 
+* [Sarabeth's difficult solution](https://github.com/sarabethz/google_search_pg) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarabethz/google_search_pg/blob/master/index.html) 
+* [ekrul's solution](https://github.com/ekrul/google_page) | [View in browser](http://htmlpreview.github.io/?https://github.com/ekrul/google_page/blob/master/index.html)
 * Add your solution above this line!
 
 
