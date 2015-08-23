@@ -422,6 +422,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/html/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/html/google-homepage/index.html)
 *[Sarabeth's difficult solution](https://github.com/sarabethz/google_search_pg) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarabethz/google_search_pg/blob/master/index.html)
 * [Joe Pfohl's solution](https://github.com/japfohl/google-homepage) | [View in browser: ](http://japfohl.github.io/google-homepage/)
+* [Corey Kazaks's easy solution](https://github.com/ck626/google-homepage) | [View in browser: ](http://htmlpreview.github.io/?https://github.com/ck626/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
