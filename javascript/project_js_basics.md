@@ -57,6 +57,7 @@ It's time to build an on-screen calculator
 * [Hutton's Solution](https://github.com/Hutbytheton/js_calculator) | [View in browser](http://hutbytheton.github.io/js_calculator/)
 * [AtActionPark's Solution](https://github.com/AtActionPark/odin_calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_calculator/blob/master/main.html)
 * [dchen71's Solution](https://github.com/dchen71/calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/calculator/blob/master/Index.html)
+* [Kevin Mulhern's Solution](https://github.com/KevinMulhern/js_calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/KevinMulhern/js_calculator/blob/master/index.html)
 * Add your solution above this line!
 
 
