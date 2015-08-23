@@ -114,6 +114,8 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_members_only) | [View in browser](https://serene-sands-9936.herokuapp.com/)
 * [dchen71's solution](https://github.com/dchen71/members-only)
 * [Matias Pan's solution](https://github.com/kriox26/members-only) | [View in browser](https://stark-dawn-4299.herokuapp.com/)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/members-only)
+
 * Add your solution above this line!
 
 
