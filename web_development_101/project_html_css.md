@@ -425,6 +425,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Corey Kazaks's easy solution](https://github.com/ck626/google-homepage) | [View in browser: ](http://htmlpreview.github.io/?https://github.com/ck626/google-homepage/blob/master/index.html)
 * [Novneet's Solution](https://github.com/novneetnov/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/novneetnov/google-homepage/blob/master/index.html) | [Difficult version](http://htmlpreview.github.io/?https://github.com/novneetnov/google-homepage/blob/master/searchResults.html)
 * [Alo Tauaese's Solution](https://github.com/McHammercakes/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/McHammercakes/google-homepage/blob/master/index.html)
+* Ryan Chang's Solution](https://github.com/chang-ryan/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/chang-ryan/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
