@@ -246,4 +246,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/blob/master/the-odin-project/javascript/etch-a-sketch/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/ashleymichal/the_odin_project/blob/master/the-odin-project/javascript/etch-a-sketch/index.html)
 * [Novneet's Solution](https://github.com/novneetnov/Etch-a-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/novneetnov/Etch-a-Sketch/blob/master/index.html)
 * [Kelvin Stone's solution](https://github.com/KelvinStone/sketch_pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/KelvinStone/sketch_pad/blob/master/index.html)
+* [Jim Lin's Solution](https://github.com/miljinx/etch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/miljinx/etch-pad/blob/master/index.html)
 * Add your solution above this line!
