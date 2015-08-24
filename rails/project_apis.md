@@ -65,7 +65,7 @@ We'll start by building our Kitten application to work normally in the browser w
 2. Update the README to describe the application and link back to this project.
 3. Build a Kitten model with attributes of `:name`, `:age`, `:cuteness`, and `:softness`.
 4. Build a KittensController and `:kittens` routes for all 7 RESTful actions.
-3. Remove the default `app/public/index.html` file and set your default route to `KittensController#index`
+3. Set your default route to `KittensController#index`
 5. Fill out each of your controller actions and their corresponding views to display a very basic HTML page -- `#index` should just list all Kittens, `#show` should display a single Kitten, `#new` should render a simple Kitten creation form, `#edit` should use the same form (which should be a partial used by both the New and Edit views) to Edit the Kitten, `#create` and `#update` should do their jobs.
 6. Make a `delete` link on the Kitten's Show and Edit pages, as well as next to each Kitten listed in the Index page.
 7. Implement a simple display of the `flash` hash (like you did in the tutorial) which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
