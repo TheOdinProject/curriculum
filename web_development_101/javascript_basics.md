@@ -188,6 +188,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Porx's solution](https://github.com/porx/project-euler)
 * [Defgarden's solution](https://github.com/Defgarden/js-101) | [View in browser](http://htmlpreview.github.io/?https://github.com/Defgarden/js-101/blob/master/index.html)
 * [Dush's Solutions] (https://github.com/De-Cay/ProjectEuler)
+* [CodeRobot's solution](https://github.com/iashraful/TheOdinProject/tree/master/02-JS-101)
 * Add your solution above this line!
 
 ## Additional Resources
