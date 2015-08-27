@@ -18,7 +18,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 3. Follow through the steps listed in the [Rails Guide](http://guides.rubyonrails.org/action_mailer_basics.html) to create the action to send the "thank you" email.
 4. Build both a `.html.erb` and `.text.erb` version of your thank you ticket email.
 5. Test that the email sends by creating a new flight booking (`letter_opener` should open it in the browser for you if you've set it up properly)
-6. Try out one other trick -- call the mailer directly from the Rails Console using something like `> PassengerMailer.thank_you_email(Passenger.first).deliver!`.
+6. Try out one other trick -- call the mailer directly from the Rails Console using something like `> PassengerMailer.thank_you_email(Passenger.first).deliver_now!`.
 7. Extra Credit: Deploy it to Heroku and try it out.  If you deploy to Heroku, there will be a bit of additional setup to get the [SendGrid add-on (see docs)](https://devcenter.heroku.com/articles/sendgrid) and make sure your configuration is set up properly.  The docs describe how to get that up and going.
 
 ### Student Solutions
