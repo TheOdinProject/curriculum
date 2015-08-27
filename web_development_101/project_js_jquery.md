@@ -250,5 +250,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Kirk D. Shelton's solution](https://github.com/kirkdshelton/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/kirkdshelton/etch-a-sketch/blob/master/index.html)
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/the_odin_project/blob/master/02_WebDevelopment101/SketchToy/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/pboest/the_odin_project/blob/master/02_WebDevelopment101/SketchToy/index.html)
 * [Alo Tauaese's solution](https://github.com/McHammercakes/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/McHammercakes/Etch-A-Sketch/blob/master/index.html)
-* [Joe Pfohl's Solution] (https://github.com/japfohl/sketch-a-sketch) | [View in Browser: ] (http://japfohl.github.io/sketch-a-sketch/)
+* [Joe Pfohl's Solution](https://github.com/japfohl/sketch-a-sketch) | [View in Browser: ](http://japfohl.github.io/sketch-a-sketch/)
+* [Nisarg Rawal's solution](https://github.com/justiceleague1729/the_odin_project/tree/master/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/justiceleague1729/the_odin_project/blob/master/etch_a_sketch/grid.html)
 * Add your solution above this line!
