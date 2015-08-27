@@ -43,6 +43,5 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 
 
 * [`letter_opener` docs](https://github.com/ryanb/letter_opener)
-* [Creating a Mailer in Rails 3](http://railscasts.com/episodes/206-action-mailer-in-rails-3) (should still work in Rails 4).
 * [Setting up email: Rails, Heroku, SendGrid, Figaro](http://howilearnedrails.wordpress.com/2014/02/25/setting-up-email-in-a-rails-4-app-with-action-mailer-in-development-and-sendgrid-in-production-using-heroku/comment-page-1/#comment-79)
 
