@@ -249,4 +249,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Austin Mason's solution](https://github.com/CouchofTomato/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/CouchofTomato/sketchpad/blob/master/index.html)
 * [Kirk D. Shelton's solution](https://github.com/kirkdshelton/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/kirkdshelton/etch-a-sketch/blob/master/index.html)
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/the_odin_project/blob/master/02_WebDevelopment101/SketchToy/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/pboest/the_odin_project/blob/master/02_WebDevelopment101/SketchToy/index.html)
+* [Alo Tauaese's solution](https://github.com/McHammercakes/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/McHammercakes/Etch-A-Sketch/blob/master/index.html)
 * Add your solution above this line!
