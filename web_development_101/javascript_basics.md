@@ -190,6 +190,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dush's Solutions] (https://github.com/De-Cay/ProjectEuler)
 * [CodeRobot's solution](https://github.com/iashraful/TheOdinProject/tree/master/02-JS-101)
 * [Alo Tauaese's solution](https://github.com/McHammercakes/EulerProject)
+* [Corey Kazaks' solution](https://github.com/ck626/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
