@@ -33,6 +33,6 @@ Developers are passionate builders and they often enjoy taking part in various c
       * [Code Simplicity](http://www.codesimplicity.com/)
 
 ## Specialty
-* **[RailsBridge](http://workshops.railsbridge.org/)** -- An outreach for aspiring Ruby-on-Rails developers that is emphatically female and LGBTQ friendly.  Their weekend workshops are rapidly spreading.
+* **[RailsBridge](http://railsbridge.org/)** -- An outreach for aspiring Ruby-on-Rails developers that is emphatically female and LGBTQ friendly.  Their weekend workshops are rapidly spreading.
 * **[Women Who Code](http://www.meetup.com/Women-Who-Code-SF/)** is a large Meetup-based (for now) women's community that's spreading out across the country.
 * **[GirlDevelopIt](http://www.girldevelopit.com/)** is another women-focused community that puts on events all over the place.
