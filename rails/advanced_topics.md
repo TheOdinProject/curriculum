@@ -267,7 +267,7 @@ Basically, `#method_missing` is a method of Ruby's `BasicObject` class which get
 
 Metaprogramming is really nifty stuff and there are tons of interesting uses for it.  You don't need to master it to learn Rails, so only dive into it once you're comfortable with Rails, but it will certainly be useful to you in the real world.  There are all kinds of metaprogramming tricks and patterns and tips out there but it's beyond the scope of this course to dive into them.  
 
-Here's a good example of [simple metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/16-dry-metaprogramming).
+Here's a good example of [simple metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/2010/07/24/dry-metaprogramming/).
 
 Check out [Metaprogramming Ruby](http://www.amazon.com/Metaprogramming-Ruby-Program-Like-Pros/dp/1934356476) by Paolo Perrotta if you're really curious.  
 
