@@ -254,4 +254,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Nisarg Rawal's solution](https://github.com/justiceleague1729/the_odin_project/tree/master/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/justiceleague1729/the_odin_project/blob/master/etch_a_sketch/grid.html)
 * [Dmitry Filina's solution](https://github.com/dfilina/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/dfilina/etch-a-sketch/blob/master/index.html)
 * [Jim Lin's Solution](https://github.com/miljinx/etch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/miljinx/etch-pad/blob/master/index.html)
+* [Dustin Ury's Solution](https://github.com/teddy-error/projectodin/blob/master/jquery_project/) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/teddy-error/projectodin/master/jquery_project/gridbox.html)
 * Add your solution above this line!
