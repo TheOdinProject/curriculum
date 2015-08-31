@@ -430,6 +430,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [CodeRobot's Solution](https://github.com/iashraful/top-google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/iashraful/top-google-homepage/blob/master/index.html)
 * [Jim Lin's solution](https://github.com/miljinx/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/miljinx/google-homepage/blob/master/index.html)
 * [Patrick Ryan's solution](https://github.com/arist0cles/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/arist0cles/google-homepage/blob/master/index.html)
+* [Muhammad Faizan Chaki's solution](https://github.com/mfaizanchaki/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mfaizanchaki/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
