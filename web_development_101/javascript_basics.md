@@ -187,11 +187,12 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Joe Pfohl's solutions: ](https://github.com/japfohl/euler-exercises)
 * [Porx's solution](https://github.com/porx/project-euler)
 * [Defgarden's solution](https://github.com/Defgarden/js-101) | [View in browser](http://htmlpreview.github.io/?https://github.com/Defgarden/js-101/blob/master/index.html)
-* [Dush's Solutions] (https://github.com/De-Cay/ProjectEuler)
+* [Dush's Solutions](https://github.com/De-Cay/ProjectEuler)
 * [CodeRobot's solution](https://github.com/iashraful/TheOdinProject/tree/master/02-JS-101)
 * [Alo Tauaese's solution](https://github.com/McHammercakes/EulerProject)
 * [Mitch Conquer's solution](https://github.com/mitchrobot/euler-challenges)
 * [Dennis Lin's solution](https://github.com/dbanx/projecteuler)
+* [Corey Kazaks' solution](https://github.com/ck626/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
