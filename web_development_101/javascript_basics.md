@@ -191,6 +191,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [CodeRobot's solution](https://github.com/iashraful/TheOdinProject/tree/master/02-JS-101)
 * [Alo Tauaese's solution](https://github.com/McHammercakes/EulerProject)
 * [Mitch Conquer's solution](https://github.com/mitchrobot/euler-challenges)
+* [Dennis Lin's solution](https://github.com/dbanx/projecteuler)
 * Add your solution above this line!
 
 ## Additional Resources
