@@ -256,4 +256,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jim Lin's Solution](https://github.com/miljinx/etch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/miljinx/etch-pad/blob/master/index.html)
 * [Dustin Ury's Solution](https://github.com/teddy-error/projectodin/blob/master/jquery_project/) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/teddy-error/projectodin/master/jquery_project/gridbox.html)
 * [Chase Clark's Solution](https://github.com/ChaseClark/jsjqproject) | [View in browser](https://rawgit.com/ChaseClark/jsjqproject/master/index.html)
+* [Mitch Conquer's Solution](https://github.com/mitchrobot/js-sketchpad) | [View in browser](http://mitchrobot.github.io/js-sketchpad/index.html)
 * Add your solution above this line!
