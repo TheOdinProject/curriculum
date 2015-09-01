@@ -37,7 +37,7 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
     * What is the difference between a "getter" and a "setter" method?
     * How do you make instance variables readable outside your class?  Writeable? Both at the same time?
     * Can a class call its own class methods?
-    * What's the difference between when would you use a class variable and when you would use a constant?
+    * What's the difference between when you would use a class variable and when you would use a constant?
     * What's the difference between a class and a module?
     * When would you use a class but not a module?
     * How does inheritance work?
