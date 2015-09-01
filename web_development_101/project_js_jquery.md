@@ -241,4 +241,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Patrick Li's Solution](https://github.com/PatrickLi727/Etch-a-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/PatrickLi727/Etch-a-Sketch/blob/master/EtchASketch.html)
 * [Shady's Solution](https://github.com/cupcakehunter/etch_a__sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/cupcakehunter/etch_a__sketch/blob/master/index.html)
 * [Calandra Zellner's solution](https://github.com/calandraz/Etch-a-Sketch)
+* [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/etch_a_sketch) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/etch_a_sketch/index.html)
 * Add your solution above this line!
