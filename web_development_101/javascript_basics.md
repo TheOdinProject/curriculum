@@ -193,6 +193,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Mitch Conquer's solution](https://github.com/mitchrobot/euler-challenges)
 * [Dennis Lin's solution](https://github.com/dbanx/projecteuler)
 * [Corey Kazaks' solution](https://github.com/ck626/project-euler)
+* [Sarabeth's solutions:](https://github.com/sarabethz/Euler_1)
+
 * Add your solution above this line!
 
 ## Additional Resources
