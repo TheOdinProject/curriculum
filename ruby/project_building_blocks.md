@@ -431,4 +431,5 @@ Next, make sure your method can handle multiple words:
 * [Scott Bobbitt's solution](https://github.com/sco-bo/substrings)
 * [Wayne Ho's solution](https://github.com/wayneho/Learning/blob/master/Ruby%20Building%20Blocks/Substrings.rb)
 * [Chris Swanson's solution](https://github.com/cswans21/Odin/blob/master/Ruby_exercises/substrings/substrings.rb)
+* [Adrian Manteza's solution](https://github.com/AdManteza/SubString/blob/master/SubString.rb)
 * Add your solution above this line!
