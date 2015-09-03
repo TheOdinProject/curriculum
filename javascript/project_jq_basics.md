@@ -32,6 +32,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Jon Yorg's solution] (https://github.com/Yorgg/Javascript/tree/master/menu) | [View in browser](https://jsfiddle.net/qprk1daL/)
 * [AtActionPark's solution] (https://github.com/AtActionPark/odin_dom_manipulation_with_jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_dom_manipulation_with_jquery/blob/master/main.html)
 * [dchen71's solution] (https://github.com/dchen71/odin-dom_manipulation) | [View in browser](https://rawgit.com/dchen71/odin-dom_manipulation/master/Index.html)
+* [AyeSea's solution] (https://github.com/AyeSea/odin-dom-manipulation) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/odin-dom-manipulation/blob/master/index.html)
 * Add your solution above this line!
 
 
