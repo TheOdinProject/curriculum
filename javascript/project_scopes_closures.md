@@ -33,6 +33,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Tic%20Tac%20Toe%20in%20Javascript)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project5) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project5/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_js_tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_js_tictactoe/blob/master/index.html)
+* [Voreny's solution](https://github.com/Gelio/tic-tac-toe) | [View in browser](http://gelio.github.io/tic-tac-toe/)
 * Add your solution above this line!
 
 
