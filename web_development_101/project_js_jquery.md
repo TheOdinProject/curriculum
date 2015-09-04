@@ -258,4 +258,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Chase Clark's Solution](https://github.com/ChaseClark/jsjqproject) | [View in browser](https://rawgit.com/ChaseClark/jsjqproject/master/index.html)
 * [Mitch Conquer's Solution](https://github.com/mitchrobot/js-sketchpad) | [View in browser](http://mitchrobot.github.io/js-sketchpad/index.html)
 * [Simon Kraus' Solution](https://github.com/simonkrausgit/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/simonkrausgit/etch-a-sketch/blob/master/index.html)
+[Dush's Solution](https://github.com/De-Cay/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/De-Cay/sketchpad/blob/master/index.html)
 * Add your solution above this line!
