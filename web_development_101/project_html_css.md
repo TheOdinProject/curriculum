@@ -433,6 +433,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Muhammad Faizan Chaki's solution](https://github.com/mfaizanchaki/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mfaizanchaki/google-homepage/blob/master/index.html)
 * [Simon Kraus' solution](https://github.com/simonkrausgit/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/simonkrausgit/google-homepage/blob/master/index.html)
 * [Andrea L's solution](https://github.com/xAndreaLx/top-google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-google-homepage/blob/master/index.html)
+* [Cecilia Avery's solution](https://github.com/cilavery/google-homepage/tree/master/CSS_HTML) | [View in browser](https://htmlpreview.github.io/?https://github.com/cilavery/google-homepage/blob/master/CSS_HTML/index.html)
 * Add your solution above this line!
 
 
