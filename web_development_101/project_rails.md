@@ -97,6 +97,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/blogger) | [View in browser] (https://floating-refuge-8099.herokuapp.com/)
 * [Spekachu's solution](https://github.com/Spekachu/blogger)
 * [Adrian Manteza's solution](https://github.com/AdManteza/Blogger) | [View in browser] (https://sheltered-island-7330.herokuapp.com)
+* [Corey Cunningham's solution](https://github.com/ccunnin8/my_first_rails_project/tree/master/blogger) | [View in browser] (https://powerful-mesa-6399.herokuapp.com/)
 *Your solution above here...*
 
 
