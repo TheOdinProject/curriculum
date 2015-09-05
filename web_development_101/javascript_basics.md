@@ -194,6 +194,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dennis Lin's solution](https://github.com/dbanx/projecteuler)
 * [Corey Kazaks' solution](https://github.com/ck626/project-euler)
 * [Sarabeth's solutions:](https://github.com/sarabethz/Euler_1)
+* [Andrea L's solution](https://github.com/xAndreaLx/top-project-euler) | [View in browse](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-project-euler/blob/master/index.html)
 
 * Add your solution above this line!
 
