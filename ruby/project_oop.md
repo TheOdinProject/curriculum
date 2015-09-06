@@ -153,6 +153,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/games/mastermind)
 * [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/blob/master/the-odin-project/ruby/oop/mastermind.rb)
 * [Noah Prescott's solution](https://github.com/npresco/ruby_oop/blob/master/mastermind.rb)
+* [Panashe Fundira's solution](https://github.com/munyari/odin/blob/master/mastermind/mastermind.rb)
 * Add your solution above this line!
 
 
