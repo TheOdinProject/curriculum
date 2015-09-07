@@ -120,6 +120,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Alex Tsiras' solution](https://github.com/arialblack14/ruby-programming/blob/master/ruby%20building%20blocks/bubble_sort.rb)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/bubble_sort)
 * [Maciej Panasiewicz's solution](https://github.com/Grunthor/TheOdinProject/blob/master/project_advenced_building_blocks/BubleSort.rb)
+* [Adrian Manteza's solution](https://github.com/AdManteza/BubbleSort/blob/master/BubbleSort.rb)
 * Add your solution above this line!
 
 
