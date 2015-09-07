@@ -87,6 +87,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Noah Prescott's Solution](https://github.com/npresco/ruby_oop/blob/master/tic_tac_toe.rb)
 * [Panashe Fundira's solution](https://github.com/munyari/tic-tac-toe/blob/master/tic-tac-toe.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project6--tic-tac-toe/tic-tac-toe.rb)
+* [Florian Mainguy's Solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/OOP/tic-tac-toe.rb)
 * Add your solution above this line!
 
 
@@ -156,6 +157,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Noah Prescott's solution](https://github.com/npresco/ruby_oop/blob/master/mastermind.rb)
 * [Panashe Fundira's solution](https://github.com/munyari/odin/blob/master/mastermind/mastermind.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project7--mastermind/mastermind.rb)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/OOP/mastermind.rb)
 * Add your solution above this line!
 
 
