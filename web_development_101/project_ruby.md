@@ -113,6 +113,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Parker Boyes' solution](https://github.com/boyestrous/Learn_ruby-test_first)
 * [Corey Cunningham' solution](https://github.com/ccunnin8/rspec_project)
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/learn-ruby)
+* [Austin Mason's solution](https://github.com/CouchofTomato/ruby-basics)
 * * Add your solution above this line!
 
 
