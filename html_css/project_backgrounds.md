@@ -27,6 +27,7 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Frank Peelen's solution](https://github.com/FrankPeelen/Apple-CSS) | [View in browser](https://rawgit.com/FrankPeelen/Apple-CSS/master/index.html)
 * [AyeSea's solution](https://github.com/AyeSea/apple-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/apple-homepage/blob/master/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_backgrounds_and_gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_backgrounds_and_gradients/blob/master/main.html)
+* [Voreny's solution](https://github.com/Gelio/apple-homepage) | [View in browser](http://gelio.github.io/apple-homepage/)
 * Add your solution above this line!
 
 
