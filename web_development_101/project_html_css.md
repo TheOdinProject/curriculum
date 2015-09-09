@@ -438,6 +438,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Adrian Szima's solution](https://github.com/AdrianSzima/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/AdrianSzima/google-homepage/blob/master/Google.html)
 * [Pras Kumar's solution](https://github.com/apkkadam/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/apkkadam/google-homepage/blob/master/index.html)
 * [Bas Langenberg's solution](https://github.com/BasLangenberg/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/BasLangenberg/google-homepage/blob/master/index.html)
+* [Michael Sotkin's solution](https://github.com/msotkin/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/msotkin/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
