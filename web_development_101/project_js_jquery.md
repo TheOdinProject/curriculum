@@ -261,4 +261,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 [Dush's Solution](https://github.com/De-Cay/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/De-Cay/sketchpad/blob/master/index.html)
 * [Corey Kazaks' Solution](https://github.com/ck626/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/ck626/etch-a-sketch/blob/master/index.html)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/etch_a_sketch) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/etch_a_sketch/index.html)
+* [Ryan Chang's solution](https://github.com/chang-ryan/etch-a-sketch) | [View in browser](https://rawgit.com/chang-ryan/etch-a-sketch/master/index.html)
 * Add your solution above this line!
