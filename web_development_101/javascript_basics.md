@@ -196,6 +196,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Sarabeth's solutions:](https://github.com/sarabethz/Euler_1)
 * [Andrea L's solution](https://github.com/xAndreaLx/top-project-euler) | [View in browse](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-project-euler/blob/master/index.html)
 * [Adrian Szima's solution] (https://github.com/AdrianSzima/Euler_problmes_1-3)
+* [KarChun C's solutions:] (https://github.com/karcc/javaScript)
 * Add your solution above this line!
 
 ## Additional Resources
