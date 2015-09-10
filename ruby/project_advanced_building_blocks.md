@@ -121,6 +121,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Scott Bobbitt's solution](https://github.com/sco-bo/bubble_sort)
 * [Maciej Panasiewicz's solution](https://github.com/Grunthor/TheOdinProject/blob/master/project_advenced_building_blocks/BubleSort.rb)
 * [Adrian Manteza's solution](https://github.com/AdManteza/BubbleSort/blob/master/BubbleSort.rb)
+* [Simon Kraus' solution](https://github.com/simonkrausgit/the_odin_project/blob/master/ruby/building_blocks/bubble_sort.rb)
 * Add your solution above this line!
 
 
