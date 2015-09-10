@@ -49,6 +49,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/tutorials/event_manager)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/EventManager)
 * [Noah Prescott's solution](https://github.com/npresco/serialization/tree/master/event_manager)
+* [lynchd2's solution](https://github.com/lynchd2/TOP-Ruby-Programming/tree/master/event_manager)
 * Add your solution above this line!
 
 
