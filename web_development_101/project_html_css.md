@@ -440,7 +440,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Bas Langenberg's solution](https://github.com/BasLangenberg/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/BasLangenberg/google-homepage/blob/master/index.html)
 * [Michael Sotkin's solution](https://github.com/msotkin/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/msotkin/google-homepage/blob/master/index.html)
 * [Jason Harris' solution\(https://github.com/jasonharris1/recreate-google/blob/gh-page/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasonharris1/recreate-google/master/index.html)
-* [Thu Trang Dong's solution](https://github.com/thutrang24/the_odin_project_git/blob/master/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/thutrang24/the_odin_project_git/blob/master/google_homepage/index.html)
+* [Thu Trang Dong's solution](https://github.com/thutrang24/the_odin_project_git/tree/master/web_development_101/google_homepage) | [View in browser](https://github.com/thutrang24/the_odin_project_git/blob/master/web_development_101/google_homepage/index.html)
 * Add your solution above this line!
 
 
