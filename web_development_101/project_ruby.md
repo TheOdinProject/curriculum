@@ -114,6 +114,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Corey Cunningham' solution](https://github.com/ccunnin8/rspec_project)
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/learn-ruby)
 * [Austin Mason's solution](https://github.com/CouchofTomato/ruby-basics)
+* [djhart's solution](https://github.com/djhart/ruby_test)
 * * Add your solution above this line!
 
 
