@@ -263,4 +263,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/etch_a_sketch) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/etch_a_sketch/index.html)
 * [Andrea L's Solution](https://github.com/xAndreaLx/top-js-jquery-sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-js-jquery-sketch-pad/blob/master/index.html)
 * [Ryan Chang's solution](https://github.com/chang-ryan/etch-a-sketch) | [View in browser](https://rawgit.com/chang-ryan/etch-a-sketch/master/index.html)
+* [James Brooks's solution](https://github.com/jhbrooks/sketchpad) | [View in browser](https://cdn.rawgit.com/jhbrooks/sketchpad/c33d8d74925efd8485de4d9be19896ae9df47785/index.html)
 * Add your solution above this line!
