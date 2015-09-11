@@ -264,4 +264,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Andrea L's Solution](https://github.com/xAndreaLx/top-js-jquery-sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-js-jquery-sketch-pad/blob/master/index.html)
 * [Ryan Chang's solution](https://github.com/chang-ryan/etch-a-sketch) | [View in browser](https://rawgit.com/chang-ryan/etch-a-sketch/master/index.html)
 * [James Brooks's solution](https://github.com/jhbrooks/sketchpad) | [View in browser](https://cdn.rawgit.com/jhbrooks/sketchpad/c33d8d74925efd8485de4d9be19896ae9df47785/index.html)
+* [Jason Harris' solution](https://github.com/jasonharris1/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/jasonharris1/sketchpad/master/index.html)
 * Add your solution above this line!
