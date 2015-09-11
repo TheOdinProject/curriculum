@@ -2,7 +2,7 @@
 
 ## Introduction
 
-"Sessions" are the idea that your user's state is somehow preserved when he/she clicks from one page to the next.  Rememeber, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.  
+"Sessions" are the idea that your user's state is somehow preserved when he/she clicks from one page to the next.  Remember, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.  
 
 In this lesson you'll learn about sessions, browser cookies, and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
