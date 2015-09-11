@@ -59,6 +59,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/twitter_bot)
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/tree/master/tutorials/twitter_controller)
 * [Noah Prescott's Solution](https://github.com/npresco/ruby_on_the_web/tree/master/micro_blogger)
+* [Florian Mainguy's Solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/ruby-on-the-web/twitter-spambot)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
