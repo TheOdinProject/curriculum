@@ -123,6 +123,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/games/hangman)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Szubienica.rb)
 * [Noah Prescott's solution](https://github.com/npresco/serialization/tree/master/hangman)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/serialization-and-working-with-files/hangman)
 * Add your solution above this line!
 
 
