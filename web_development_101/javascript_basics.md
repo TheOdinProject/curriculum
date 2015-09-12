@@ -169,12 +169,12 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Chris Swanson's solution](https://github.com/cswans21/euler_solutions)| [View in browser](https://htmlpreview.github.io/?https://github.com/cswans21/euler_solutions/blob/master/Euler.html)
 * [Calandra Z's solution](https://github.com/calandraz/Euler) |[View in browser](https://rawgit.com/calandraz/Euler/tree/master/Euler.html)
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Project-Euler/tree/master)
-* [Paweł Cichoń solution] (https://github.com/beovulf/javascript_basic) | [View in browser] (https://rawgit.com/beovulf/javascript_basic/master/index.html)
-* [Parker Boyes' solution] (https://github.com/boyestrous/Euler-problems)
-* [Jacob Stoebel's solution] (https://github.com/jstoebel/javascript_101)
-* [Chris Avery's solution] (https://github.com/cavery8989/projectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/cavery8989/projectEuler/blob/master/Index.html)
-* [Giacomo R's solution] (https://github.com/giacomor/euler_problems) | [View in browser] (https://htmlpreview.github.io/?https://github.com/giacomor/euler_problems/blob/master/euler_problem_webpage.html)
-* [Moiz Hasan's solution] (https://github.com/MoizHasan/Project-Euler) 
+* [Paweł Cichoń solution](https://github.com/beovulf/javascript_basic) | [View in browser](https://rawgit.com/beovulf/javascript_basic/master/index.html)
+* [Parker Boyes' solution](https://github.com/boyestrous/Euler-problems)
+* [Jacob Stoebel's solution](https://github.com/jstoebel/javascript_101)
+* [Chris Avery's solution](https://github.com/cavery8989/projectEuler) | [View in browser](http://htmlpreview.github.io/?https://github.com/cavery8989/projectEuler/blob/master/Index.html)
+* [Giacomo R's solution](https://github.com/giacomor/euler_problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/giacomor/euler_problems/blob/master/euler_problem_webpage.html)
+* [Moiz Hasan's solution](https://github.com/MoizHasan/Project-Euler) 
 * [Harvey Singh's solution](https://github.com/harveysingh1/MyOdinProject-JavaScript)
 * [Kirk D. Shelton's solution](https://github.com/kirkdshelton/projecteuler)|[View in Browser](http://htmlpreview.github.io/?https://github.com/kirkdshelton/projecteuler/blob/master/euler.html)
 * [Kelvin Stone's solution](https://github.com/KelvinStone/Project-Euler-1-2-3) | [View in browser](http://htmlpreview.github.io/?https://github.com/KelvinStone/Project-Euler-1-2-3/blob/master/index.html)
@@ -195,10 +195,11 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Corey Kazaks' solution](https://github.com/ck626/project-euler)
 * [Sarabeth's solutions:](https://github.com/sarabethz/Euler_1)
 * [Andrea L's solution](https://github.com/xAndreaLx/top-project-euler) | [View in browse](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-project-euler/blob/master/index.html)
-* [Adrian Szima's solution] (https://github.com/AdrianSzima/Euler_problmes_1-3)
-* [Jason Harris' solution] {https://github.com/jasonharris1/project-euler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/jasonharris1/project-euler/master/index.html)
-* Add your solution above this line!
+* [Adrian Szima's solution](https://github.com/AdrianSzima/Euler_problmes_1-3)
+* [Jason Harris' solution] {https://github.com/jasonharris1/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasonharris1/project-euler/master/index.html)
+* [Pras Kumar's solution](https://github.com/apkkadam/project_euler)
 * [Angel A. Martinez's A. solution](https://github.com/aama79/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/aama79/project-euler/blob/master/index.html)
+* Add your solution above this line!
 
 ## Additional Resources
 
