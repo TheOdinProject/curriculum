@@ -198,6 +198,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Adrian Szima's solution] (https://github.com/AdrianSzima/Euler_problmes_1-3)
 * [Jason Harris' solution] {https://github.com/jasonharris1/project-euler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/jasonharris1/project-euler/master/index.html)
 * Add your solution above this line!
+* [Angel A. Martinez's A. solution](https://github.com/aama79/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/aama79/project-euler/blob/master/index.html)
 
 ## Additional Resources
 
