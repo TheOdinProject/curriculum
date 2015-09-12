@@ -441,8 +441,9 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Michael Sotkin's solution](https://github.com/msotkin/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/msotkin/google-homepage/blob/master/index.html)
 * [Jason Harris' solution\(https://github.com/jasonharris1/recreate-google/blob/gh-page/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasonharris1/recreate-google/master/index.html)
 * * [Chethan Bhat's solution](https://github.com/chethanbhat/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/chethanbhat/google-homepage/blob/master/index.html)
+* [Angel A. Martinez's A. solution](https://github.com/aama79/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/aama79/google-homepage/blob/master/index.html)
+* [Angel A. Martinez's A. solution](https://github.com/aama79/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/aama79/google-homepage/index.html)
 * Add your solution above this line!
-* [Angel A. Martinez's A. solution](https://github.com/aama79/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/aama79/google-homepage/blob/master/index.html)
 
 
 
