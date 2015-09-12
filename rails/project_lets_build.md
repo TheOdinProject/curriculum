@@ -118,7 +118,7 @@ If you're already scratching your head, don't worry (like I said, better explana
 
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
 2. Do [Chapter 3](https://www.railstutorial.org/book/static_pages) of the Ruby on Rails Tutorial to get started building the application.
-3. Do [Chapter 4](http://ruby.railstutorial.org/chapters/rails-flavored-ruby) of the tutorial to see how Ruby will be used in Rails.
+3. Do [Chapter 4](https://www.railstutorial.org/book/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
 4. Glance back at the [Deployment Lesson](http://www.theodinproject.com/ruby-on-rails/deployment) if you've got lingering questions or issues about the process of deployment.
 
 ## Additional Resources
