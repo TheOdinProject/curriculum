@@ -87,7 +87,7 @@ Bootstrap will do a lot of the heavy lifting for you -- instead of having to fig
 
 ### Your Task
 
-1. Do the [Rails Tutorial Chapter 5](http://ruby.railstutorial.org/chapters/filling-in-the-layout#top), "Filling in the Layout"
+1. Do the [Rails Tutorial Chapter 5](https://www.railstutorial.org/book/filling_in_the_layout), "Filling in the Layout"
 
 ## Additional Resources
 
