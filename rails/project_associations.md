@@ -23,7 +23,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 
 ### Your Task
 
-* Do the [Ruby on Rails Tutorial Chapter 11](http://ruby.railstutorial.org/chapters/user-microposts#top), "User microposts".
+* Do the [Ruby on Rails Tutorial Chapter 11](https://www.railstutorial.org/book/user_microposts), "User microposts".
 
 ## Project 2: Private Events
 
