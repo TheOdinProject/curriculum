@@ -62,7 +62,7 @@ This chapter of the tutorial will give you a chance to start working with the da
 
 ## Your Task
 
-1. Do the [Ruby on Rails Tutorial chapter 6](http://ruby.railstutorial.org/chapters/modeling-users#top), "Modeling Users".
+1. Do the [Ruby on Rails Tutorial chapter 6](https://www.railstutorial.org/book/modeling_users), "Modeling Users".
 
 
 ## Project 2: Micro-Reddit
