@@ -201,6 +201,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Angel A. Martinez's A. solution](https://github.com/aama79/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/aama79/project-euler/blob/master/index.html)
 * [Adrian Szima's solution](https://github.com/AdrianSzima/Euler_problmes_1-3)
 * [KarChun C's solutions:](https://github.com/karcc/javaScript)
+* [Chethan Bhat's solutions:](https://github.com/chethanbhat/Project-Euler)
 * Add your solution above this line!
 
 ## Additional Resources
