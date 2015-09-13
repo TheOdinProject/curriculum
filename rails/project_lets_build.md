@@ -35,6 +35,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Querylous's Solution](https://github.com/querylous/ddgrest)
 * [Matias Pan's solution](https://github.com/kriox26/odin_rails/tree/master/g_search)
 * [Dan Hoying's solution](https://github.com/danhoying/rest_client_google_search)
+* [andrewdbass' solution](https://github.com/andrewdbass/rest)
 * Add your solution above this line!
 
 
