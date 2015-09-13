@@ -196,7 +196,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Sarabeth's solutions:](https://github.com/sarabethz/Euler_1)
 * [Andrea L's solution](https://github.com/xAndreaLx/top-project-euler) | [View in browse](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-project-euler/blob/master/index.html)
 * [Adrian Szima's solution](https://github.com/AdrianSzima/Euler_problmes_1-3)
-* [Jason Harris' solution] {https://github.com/jasonharris1/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasonharris1/project-euler/master/index.html)
+* [Jason Harris' solution] (https://github.com/jasonharris1/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasonharris1/project-euler/master/index.html)
 * [Pras Kumar's solution](https://github.com/apkkadam/project_euler)
 * [Angel A. Martinez's A. solution](https://github.com/aama79/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/aama79/project-euler/blob/master/index.html)
 * [Adrian Szima's solution](https://github.com/AdrianSzima/Euler_problmes_1-3)
