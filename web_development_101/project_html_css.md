@@ -446,6 +446,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [trekkabout](https://github.com/trekkabout/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/trekkabout/google-homepage/blob/master/index.html)
 * [Francisco Carlos da Silva solutin](https://github.com/fcarlosdev/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/google-homepage/master/index.html)
 * [Ella Chiang's solution](https://github.com/ellatronic/the-odin-project/tree/master/web-development-101/google-homepage-easy) | [View in browser](http://htmlpreview.github.io/?https://github.com/ellatronic/the-odin-project/blob/master/web-development-101/google-homepage-easy/index.html)
+* [Giorgos Mitsis's solution](https://github.com/vinPopulaire/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vinPopulaire/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
