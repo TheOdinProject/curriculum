@@ -59,6 +59,7 @@ It's time to build an on-screen calculator
 * [dchen71's Solution](https://github.com/dchen71/calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/dchen71/calculator/blob/master/Index.html)
 * [Kevin Mulhern's Solution](https://github.com/KevinMulhern/js_calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/KevinMulhern/js_calculator/blob/master/index.html)
 * [Voreny's solution](https://github.com/Gelio/js-calculator) | [View in browser](http://gelio.github.io/js-calculator/)
+* [Dan's solution](https://github.com/vickerdj/calculator) | [View in browser](http://vickerdj.github.io/calculator/)
 * Add your solution above this line!
 
 
