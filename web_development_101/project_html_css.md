@@ -193,6 +193,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Alberto Marin's solution](https://github.com/alberto-marin/google-homepage)
 * [Josh Thompson's solution](https://github.com/jtwebdev/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jtwebdev/google-homepage/blob/master/index.html)
 * [Tommy Rodriguez's solution](https://github.com/trodrigu/odinproject/tree/master/google-search) | [View in browser](http://htmlpreview.github.io/?https://github.com/trodrigu/odinproject/blob/master/google-search/public/index.html)
+* [Karol Wójcik's solution](https://github.com/CharlesPL/CharlesPL.github.io) | [View in browser](http://charlespl.github.io/) 
 * [Asish Prabhakar's solution](https://github.com/akottal/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/akottal/google-homepage/blob/master/google.html)
 * [Sami Bashraheel's solution](https://github.com/sami/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sami/google-homepage/blob/master/index.html)
 * [Monisha's solution](https://github.com/em55/Google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/em55/google-homepage/blob/master/index.html)
