@@ -55,6 +55,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/fibonacci.rb)
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/blob/master/challenges/fibonacci/fibonacci.rb)
 * [Noah Prescott's solution](https://github.com/npresco/recursion)
+* [Julie Anderson's solution](https://github.com/julie-anderson/recursion)
 * Add your solution above this line!
 
 
