@@ -27,7 +27,7 @@ That black screen (or window) is the command line, where you're able to enter co
 
 *Note: Many of these assume you're using a Mac or a Linux environment.  If you'd like to try one out, check out [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral), which is a free Ruby/Rails web-based development environment.  They have a terminal window you can practice with.*
 
-1. Spare 15 minutes to [learn how computers work](http://www.youtube.com/watch?v=WIDzNyfVVg0).
+1. Complete this interactive codecademy course to get a great handle on the [command line](https://www.codecademy.com/en/courses/learn-the-command-line).
 2. Dip your toe into the command line with this [basic overview from Treehouse](http://blog.teamtreehouse.com/command-line-basics)
 1. To gain a better understanding of your command line, start with this [simple walkthrough by Avi of the Flatiron School](https://gist.github.com/aviflombaum/9d6f7448119bae3a24ee).
 2. To dig a little deeper, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.  It can be a bit rough at times because the explanations are a bit sparse, so don't worry if you don't absorb it all the first time.  You'll get quite familiar with the few commands that you end up using every day over the course of the next few weeks anyway.
@@ -38,6 +38,7 @@ That black screen (or window) is the command line, where you're able to enter co
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* [Command line basics](http://leveluptuts.com/tutorials/command-line-basics) is a great collection of tutorials to dive deeper into the the subject
 * [Conquering the Command Line](http://conqueringthecommandline.com/book/basics) is a comprehensive book about the command line written very recently.  This links to chapter 1, which will be the most helpful to you.
 * [Learning the Shell: I/O Redirection](http://linuxcommand.org/lc3_lts0070.php) is a nice complement to figure out the [Pipes and Redirection](http://cli.learncodethehardway.org/book/ex15.html) chapter.
 * See common commands on the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html)
