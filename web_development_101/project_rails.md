@@ -98,7 +98,9 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Spekachu's solution](https://github.com/Spekachu/blogger)
 * [Adrian Manteza's solution](https://github.com/AdManteza/Blogger) | [View in browser] (https://sheltered-island-7330.herokuapp.com)
 * [Corey Cunningham's solution](https://github.com/ccunnin8/my_first_rails_project/tree/master/blogger) | [View in browser] (https://powerful-mesa-6399.herokuapp.com/)
+* [Austin Mason's solution](https://github.com/CouchofTomato/rails_blogger/tree/master/blogger) | [View in browser] (https://sleepy-hollows-6024.herokuapp.com/)
 *[andrewdbass' solution] (https://github.com/andrewdbass/blogger)
+
 *Your solution above here...*
 
 
