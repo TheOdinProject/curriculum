@@ -121,6 +121,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Ruby.%20Praktyczne%20Skrypty/sortowaniePoprzezScalanie.rb)
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/blob/master/challenges/merge_sort/merge_sort.rb)
 * [Noah Prescott's solution](https://github.com/npresco/recursion/blob/master/merge_sort.rb)
+* [Julie Anderson's solution](https://github.com/julie-anderson/recursion)
 * Add your solution above this line!
 
 
