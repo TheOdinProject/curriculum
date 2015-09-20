@@ -206,6 +206,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Michael Sotkin's solutions:](https://github.com/msotkin/euler-project)
 * [Francisco Carlos da Silva's solutions](https://github.com/fcarlosdev/ProjectEuler)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/project-euler/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/vinPopulaire/project-euler/blob/master/index.html)
+* [Masha Z's solutions](https://github.com/mazhda/Project-Euler)
 * Add your solution above this line!
 
 ## Additional Resources
