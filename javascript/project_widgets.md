@@ -45,6 +45,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project4) | [View in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/TOPJS/blob/master/Project4/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_carousel_slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_carousel_slider/blob/master/index.html)
 * [dchen71's solution](https://github.com/dchen71/odin-carousel) | [View in browser](https://rawgit.com/dchen71/odin-carousel/master/Index.html)
+* [eternal's solution](https://github.com/3ternal/slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/3ternal/slider/blob/master/index.html)
 * Add your solution above this line!
 
 
