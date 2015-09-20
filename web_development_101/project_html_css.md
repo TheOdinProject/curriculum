@@ -454,6 +454,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jason Bialick's solution](https://github.com/jbialick/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jbialick/google-homepage/blob/master/google-homepage.html)
 Richard Rosario solution (https://github.com/rrosario2142/google-homepage.git)
 * Add your solution above this line!
+* [Jack Deegan's solution](https://github.com/DidsyTurbo/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/DidsyTurbo/google-homepage/blob/master/index.html)
+* Add your solution above this line! 
 
 
 
