@@ -209,6 +209,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Masha Z's solutions](https://github.com/mazhda/Project-Euler)
 * [Francisco Carlos da Silva's solution](https://github.com/fcarlosdev/ProjectEuler)
 * [Troy Hubbell's Solution](https://github.com/Socrates714/javascript101)
+* [Ethan Harner's Solution](https://github.com/ethanharner/odin-project/tree/master/project-euler-javascript) | [View in browser](http://htmlpreview.github.io/?https://github.com/ethanharner/odin-project/blob/master/project-euler-javascript/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
