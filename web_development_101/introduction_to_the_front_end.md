@@ -22,7 +22,7 @@ In the following lessons, you'll get a healthy understanding of each of the thre
 
 ## Assignment:
 1. Read a brief intro to front end development from this [Interview with Nick Schaden](http://blog.generalassemb.ly/what-is-front-end-web-development/)
-1. Get a high level overview of how all three languages (and jQuery) work together in a web page in this brief learn.jquery.com post on the [Anatomy of a Web Page](http://learn.jquery.com/javascript-101/getting-started/).
+1. Get a high level overview of how all three languages work together in MDN's [Getting started with the Web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web).
 2. If you didn't the first time, check out [this 10-minute video on your browser's developer tools](http://www.youtube.com/watch?v=z1TkfcC53G0), which should make a bit more sense to you anyway now.
 
 ## Additional Resources
