@@ -267,4 +267,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jason Harris' solution](https://github.com/jasonharris1/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/jasonharris1/sketchpad/master/index.html)
 * [Toby Aurelius' solution](https://github.com/sidewaysgiraffe/TheOdinProject/tree/master/colour-grid) | [View in browser](https://htmlpreview.github.io/?https://github.com/sidewaysgiraffe/TheOdinProject/blob/master/colour-grid/index.html)
 * [Kar C's solution](https://github.com/karcc/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/karcc/etch-a-sketch/blob/master/index.html)
+* [Giorgos Mitsis's solution](https://github.com/vinPopulaire/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/vinPopulaire/Etch-A-Sketch/blob/master/index.html)
 * Add your solution above this line!
