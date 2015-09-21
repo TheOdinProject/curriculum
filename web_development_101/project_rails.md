@@ -100,6 +100,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Corey Cunningham's solution](https://github.com/ccunnin8/my_first_rails_project/tree/master/blogger) | [View in browser] (https://powerful-mesa-6399.herokuapp.com/)
 * [Austin Mason's solution](https://github.com/CouchofTomato/rails_blogger/tree/master/blogger) | [View in browser] (https://sleepy-hollows-6024.herokuapp.com/)
 *[andrewdbass' solution] (https://github.com/andrewdbass/blogger)
+[djhart's solution](https://github.com/djhart/rails_project.git) | [View in browser] (https://enigmatic-eyrie-8114.herokuapp.com/articles)
 
 *Your solution above here...*
 
