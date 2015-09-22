@@ -115,6 +115,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/learn-ruby)
 * [Austin Mason's solution](https://github.com/CouchofTomato/ruby-basics)
 * [djhart's solution](https://github.com/djhart/ruby_test)
+* [Giorgos Mitsis's solution](https://github.com/vinPopulaire/learn-ruby-project)
 * * Add your solution above this line!
 
 
