@@ -452,7 +452,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Toby Aurelius' solution](https://github.com/sidewaysgiraffe/TheOdinProject/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sidewaysgiraffe/TheOdinProject/blob/master/google-homepage/index.html)
 * [Karol Wójcik's solution](https://github.com/CharlesPL/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/CharlesPL/google-homepage/master/index.html)
 * [Jason Bialick's solution](https://github.com/jbialick/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jbialick/google-homepage/blob/master/google-homepage.html)
-Richard Rosario solution (https://github.com/rrosario2142/google-homepage.git)
+* [Richard Rosario's solution](https://github.com/rrosario2142/google-homepage.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/rrosario2142/google-homepage/blob/master/index.html)
 * [Nitish Dayal's solution](https://github.com/nitishdayal/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nitishdayal/google-homepage/blob/master/nitish-google.html)
 * [Jack Deegan's solution](https://github.com/DidsyTurbo/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/DidsyTurbo/google-homepage/blob/master/index.html)
 * [Tom Westerhout's solution](https://github.com/Westw00d/Google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/Westw00d/Google-homepage/blob/master/Google.html)
