@@ -101,7 +101,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Austin Mason's solution](https://github.com/CouchofTomato/rails_blogger/tree/master/blogger) | [View in browser] (https://sleepy-hollows-6024.herokuapp.com/)
 *[andrewdbass' solution] (https://github.com/andrewdbass/blogger)
 [djhart's solution](https://github.com/djhart/rails_project.git) | [View in browser] (https://enigmatic-eyrie-8114.herokuapp.com/articles)
-
+[Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
 *Your solution above here...*
 
 
