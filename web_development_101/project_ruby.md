@@ -116,6 +116,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Austin Mason's solution](https://github.com/CouchofTomato/ruby-basics)
 * [djhart's solution](https://github.com/djhart/ruby_test)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/learn-ruby-project)
+* [Novneet's Solution](https://github.com/novneetnov/ruby-test-first-development-project)
 * * Add your solution above this line!
 
 
