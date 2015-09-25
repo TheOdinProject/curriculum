@@ -56,6 +56,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/blob/master/challenges/fibonacci/fibonacci.rb)
 * [Noah Prescott's solution](https://github.com/npresco/recursion)
 * [Julie Anderson's solution](https://github.com/julie-anderson/recursion)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/recursion/fibs.rb)
 * Add your solution above this line!
 
 
@@ -122,6 +123,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/blob/master/challenges/merge_sort/merge_sort.rb)
 * [Noah Prescott's solution](https://github.com/npresco/recursion/blob/master/merge_sort.rb)
 * [Julie Anderson's solution](https://github.com/julie-anderson/recursion)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/recursion/merge_sort.rb)
 * Add your solution above this line!
 
 
