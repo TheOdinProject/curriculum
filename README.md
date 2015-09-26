@@ -4,7 +4,7 @@ This repository houses the curriculum used by [The Odin Project](http://theodinp
 
 **See it live at [theodinproject.com/curriculum](http://theodinproject.com/curriculum).**
 
-Students, educators, and developers are encouraged to make contributions to the curriculum.  It has been greatly simplified so that should be a rather straightforward process -- just fork this repository, make your changes (e.g. adding the link to your solution for one of the exercises), then submit a pull request.  The lessons presented at [theodinproject.com/curriculum](http://theodinproject.com/curriculum) are all stored in their appropriate course directories here.
+Students, educators, and developers are encouraged to make contributions to the curriculum.  It has been greatly simplified so that it should be a rather straightforward process -- just fork this repository, make your changes (e.g. adding the link to your solution for one of the exercises), then submit a pull request.  The lessons presented at [theodinproject.com/curriculum](http://theodinproject.com/curriculum) are all stored in their appropriate course directories here.
 
 *For more information about contributing to this curriculum, see [contributing.md](/contributing.md)*
 
