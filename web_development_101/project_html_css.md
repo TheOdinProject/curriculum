@@ -459,6 +459,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jeffrey Sabol's solution](https://github.com/libraryman/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/libraryman/google-homepage/blob/master/index.html)
 * [Prasanth Louis solution](https://github.com/prasanthlouis/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/prasanthlouis/google-homepage/blob/master/Google.html)
 * [Cornelius Edward's solution](https://github.com/corneal64/google-homepage) | [View in browser](http://corneal64.github.io/google-homepage)
+* [Gamal Mekawy's solution](https://github.com/Nerdherdx/Google-Homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Nerdherdx/Google-Homepage/blob/master/index.html)
 * Add your solution above this line! 
 
 
