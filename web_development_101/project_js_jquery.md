@@ -272,4 +272,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Karol Wójcik's solution](https://github.com/CharlesPL/Javascript-jQuery-odinproject-) [View in Browser](http://htmlpreview.github.io/?https://github.com/CharlesPL/Javascript-jQuery-odinproject-/master/index.html)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/sketchpad) [View in browser](http://htmlpreview.github.io/?https://github.com/fcarlosdev/sketchpad/blob/master/index.html)
 * [Rich Keyzor's solution](https://github.com/Web-Dev-Rich/jQuery-Javascript-project) [View in browser](http://webdevri.ch/jQuery-Javascript-project/)
+* [Michael Sotkin's solution](https://github.com/msotkin/etchy-sketchy) [View in browser](https://rawgit.com/msotkin/etchy-sketchy/master/index.html)
 * Add your solution above this line!
