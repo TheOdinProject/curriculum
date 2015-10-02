@@ -103,7 +103,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [djhart's solution](https://github.com/djhart/rails_project.git) | [View in browser] (https://enigmatic-eyrie-8114.herokuapp.com/articles)
 * [Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/blogger2-jumpstart) | [View in browser](https://calm-fortress-9525.herokuapp.com/)
-*Your solution above here...*
+* [Sandeep Navghane's solution](https://github.com/sand33pn/blogger) | [View in browser](http://ancient-thicket-1121.herokuapp.com/)
+* Your solution above here...*
 
 
 ## Additional Resources
