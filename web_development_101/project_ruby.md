@@ -120,8 +120,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Corey Kazaks' solution](https://github.com/ck626/test-first-ruby)
 * [Kelvin Stone's Solution](https://github.com/KelvinStone/test-first-ruby.git)
 * [Kelvin Stone's Solution](https://github.com/msotkin/project_ruby)
+* [Alan Daniels's solution](https://github.com/AlanDaniels101/odin-ruby-project)
 * * Add your solution above this line!
-
 
 
 ## Additional Resources
