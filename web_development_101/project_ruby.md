@@ -82,6 +82,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Dan Hoying's solution](https://github.com/danhoying/learn_ruby)
 * [Jason's solution](https://github.com/wellsj/learn_ruby)
 * [Ricardo Villegas' solution](https://github.com/claricardo/Learn-Ruby)
+* [Alan Daniels's solution](https://github.com/AlanDaniels101/odin-ruby-project)
 * Add your solution above this line!
 
 
