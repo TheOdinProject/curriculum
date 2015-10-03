@@ -242,6 +242,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Adrian Manteza's solution](https://github.com/AdManteza/Enumerables/blob/master/myEnumerables.rb)
 * [Robin van de Griend's solution](https://github.com/RobinvdGriend/ruby-sandbox/blob/master/advanced-building-blocks-project/project_2.rb)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/ruby-building-blocks-project/blob/master/enumerable_methods.rb)
+* [Theoderik Trajanson's solution](https://github.com/Theoderik/education/blob/master/MyEnumerables.rb)
 * Add your solution above this line!
 
 
