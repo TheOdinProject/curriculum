@@ -213,6 +213,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Richard Rosario's Solutions](https://github.com/rrosario2142/javascript)
 * [Karol Wójcik's Solution](https://github.com/CharlesPL/Javascript_Basics)
 * [John Loudon's Solution](https://github.com/Sw33tT00th/the_odin_project/tree/master/Javascript_Problems)
+* [Andrew Park's Solution](https://github.com/akpark93/the_odin_project/blob/master/ProjectEuler/problems.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/akpark93/the_odin_project/blob/master/ProjectEuler/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
