@@ -1,0 +1,39 @@
+/* SASS awesome mixins */
+@mixin black-links{
+  a{
+    color: black;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin linear-transform($time) {
+  -webkit-transition: -webkit-transform $time linear;
+     -moz-transition: -moz-transform $time linear;
+      -ms-transition: -ms-transform $time linear;
+       -o-transition: -o-transform $time linear;
+          transition: transform $time linear;
+}
+
+@mixin rotate($degrees) {
+  transform:rotate($degrees);
+  -ms-transform:rotate($degrees); /* IE 9 */
+  -webkit-transform:rotate($degrees); /* Opera, Chrome, and Safari */
+}
+
+@mixin translateY($value) {
+  -webkit-transform: translateY($value);
+  -moz-transform: translateY($value);
+  -ms-transform: translateY($value);
+  -o-transform: translateY($value);
+  transform: translateY($value);
+}

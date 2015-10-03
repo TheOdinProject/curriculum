@@ -1,0 +1,347 @@
+// Place all the styles related to the Courses controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'colors';
+
+.CoursesController{
+
+  p{
+    font-size: 1.5em;
+    line-height: 1.5em;
+  }
+  h5{
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: bold;
+  }
+  h4{
+    font-size: 1.75em;
+    line-height: 1.5em;
+    font-weight: bold;
+  }
+  h3{
+    font-size: 2em;
+    line-height: 1.25em;
+    font-weight: bold;
+  }
+  h2{
+    font-size: 2.5em;
+    line-height: 1.25em;
+    font-weight: bold;
+  }
+  h1{
+    font-size: 3em;
+    line-height: 1em;
+    font-weight: bold;
+  }
+
+  .container{
+    max-width: 46em;
+    padding: 1em;
+  }
+
+  .heading-box{
+
+    margin: 3em 0 2em 0;
+    position: relative;
+
+    .lc-percent-completion{
+      position: absolute;
+      width: 100%;
+      margin-top: -1.1em;
+      text-align: center;
+      color: $vlight_gray;
+      font-size: 2em;
+      .lc-finished{
+        color: #0d0;
+        font-weight: bold;
+      }
+    }
+
+    .heading{
+      h1{
+        text-align: center;
+        margin: .35em 0;  
+        // font-weight: 500;
+      }
+    }
+    
+    .subheading{
+      margin: 2em auto;
+      width: 90%;
+      p{
+        font-size: 1.15em;
+        line-height: 1.25em;
+        color: $mid_gray;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .courses-list{
+    h2{
+
+    }
+    margin-bottom: 5em;
+
+    .course{
+
+      margin: 2em 0;
+      // border-top: 1px solid $vlight_gray;
+      &:hover{
+        // opacity: .85;
+      }
+
+      .course-title{
+        a:hover{
+          text-decoration: none;
+          h2{
+            color: $link_color_visited;
+          }
+        }
+        margin-left: -1em;
+        h2{
+          font-size: 2.25em;
+          line-height: 1.5em;
+        }
+        a h2{
+          color: $link_color_bootstrap;
+        }
+      }
+
+      .cc-completion-indicator{
+        position: absolute;
+        color: #0b0;
+        font-size: 3em;
+        margin: 0 0 1em -1.25em;
+      }
+
+      .teaser{
+        display: inline-block;
+        float: left;
+        width: 10em;
+        color: $highlight_orange;
+        h3{
+          font-size: 1.5em;
+          line-height: 1em;
+          margin: 0;
+        }
+      }
+      .course-content{
+        width: 36em;
+        display: inline-block;
+        .description{
+          margin: 0;  
+          p{
+            font-size: 1em; 
+            line-height: 1.25em;
+            font-weight: 300;
+            color: $mid_gray; 
+          }
+        }
+        .facts{
+          width: 50%;
+          margin: 0;
+          float: left;
+          h4{
+            font-size: 1.25em;
+            line-height: 1.25em;
+            // text-align: center;
+            text-decoration: underline;
+            margin: .25em 0em .25em 1em;
+          }
+          li{
+            color: $mid_gray;
+            font-style: italic;
+          }
+          .see-more{
+            text-align: center;
+          }
+        }
+      }
+      @media (max-width: 979px){
+        .teaser{
+          width: 100%;
+        }
+        .course-content{
+          width: 100%;
+        }
+      }
+    }
+    .inactive{
+      opacity: .35;
+    }
+    .coming-soon{
+      font-size: .5em;
+      line-height: 0;
+      display: inline-block;
+      position: relative;
+      bottom: .1em;
+      left: .25em;
+      padding-bottom: .25em;
+      font-weight: 200;
+      font-style: italic;
+    }
+  }
+  .sections-list{
+    margin-bottom: 5em;
+  }
+  .section{
+    margin: 2em 0;
+  }
+  .section-title{
+    margin-left: -1em;
+    h2{
+      font-size: 2.25em;
+      line-height: 1.5em;
+    }
+  }
+  .section-description{
+    margin: 0;  
+    p{
+      font-size: 1em; 
+      line-height: 1.25em;
+      font-weight: 300;
+      color: $mid_gray; 
+    }
+  }
+  .lessons-list{
+    margin-left: 3em;
+    margin-top: .5em;
+  }
+
+
+
+  .lesson{
+    width: 43em;
+    position: relative;
+    display: inline-block;
+    h3{
+      margin-top: 15px;
+    }
+    
+    a.lesson-link{
+      display: block;
+      &:hover{
+        opacity: .65;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .lesson-header{
+  }
+  .lesson-number{
+    position: absolute;
+    width: 7em;
+    top: 0;
+    left: 0;
+    h3{
+      color: $light_gray;
+      // color: $link_color_visited;
+      text-align: right;
+      font-weight: 500;
+    }
+  }
+  .lesson-title{
+    h3{
+      // color: $dark_gray;
+      color: $link_color_visited;
+      font-weight: 600;
+    }
+  }
+  .project{
+    h3{
+      color: $highlight_orange;
+    }
+  }
+  .lesson-content{
+    // display: inline-block;
+    width: 35em;
+    margin: 0 0 0 auto;  
+  }
+  .description{
+    p{
+      font-size: 1em; 
+      line-height: 1.25em;
+      font-weight: 300;
+      color: $mid_gray; 
+    }
+  }
+
+  @mixin lc-checkbox-bg-small($path){
+    background: image-url($path) 0px 0px no-repeat;
+  }
+
+
+  // Namespacing for checkboxes on the lessons index page
+  // Checkboxes on individual lessons pages are in lessons.css.scss
+  .lc-checkbox-wrapper{
+    form {
+      margin: 0!important;
+    } 
+  
+    .lc-checkbox{
+    /* Note: that this can be either a div or an anchor tag */
+      display: block;
+      position: absolute;
+      margin: 17px 0 0 -52px;
+      padding: 0px;
+      text-align: left;
+      width: 40px; 
+      height: 40px;
+      background-size: 40px 40px !important;
+  
+    }
+  
+    .lc-unchecked{
+      @include lc-checkbox-bg-small("icons/lc_unchecked.svg");
+    }
+    .lc-hover{
+      &.lc-unchecked{
+        @include lc-checkbox-bg-small("icons/lc_hover.svg");
+      }
+      &.lc-checked{
+        //@include lc-checkbox-bg-small("icons/lc_unchecked.svg");
+        opacity: .5;
+      }
+    }
+    .lc-checked{
+      @include lc-checkbox-bg-small("icons/lc_checked.svg");
+    }
+    .lc-waiting{
+      background: image-url("icons/ajax-loader.gif") 4px 4px no-repeat;
+      background-size: 32px 32px !important;
+    }
+    .lc-disabled{
+      color: $vlight_gray;
+      @include lc-checkbox-bg-small("icons/lc_logged_out.svg");
+    }
+  }
+
+  .lesson-content{
+
+  }
+
+  .back-link{
+    text-align: center;
+    margin: 1em 0 ;
+  }
+  @media (max-width: 979px){
+    .lesson{
+      width: 100%;
+      max-width: 46em;
+    }
+    .lesson-content{
+      max-width: 38em;
+      width: 100%;
+    }
+    .lesson-number{
+      position: relative;
+      width: 100%;
+      h3{
+        text-align: left;
+      }
+    }
+  }
+}

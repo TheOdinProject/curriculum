@@ -1,0 +1,344 @@
+@import "colors";
+@import "fonts";
+@import "mixins";
+
+/* Assumed: Bootstrap has done the CSS resets for us */
+
+$footer_height: 80px;
+$footer_padding: 20px;
+
+p {
+  margin: 0px;
+}
+
+html {
+  font-family: $body-fonts;
+  height: 100%;
+}
+
+body {
+  background: $background_color;
+  font-size: 100%; // 16px
+  min-height: 100%;
+  position: relative;
+}
+.nav-spacer{
+  padding-top: 51px;
+}
+@media (max-width: 979px){
+  .nav-spacer{
+    display:none;
+  }
+}
+
+#global-content-wrapper{
+  padding-bottom: $footer_height+$footer_padding*2;
+}
+
+
+/* Admin Flash CSS */
+.admin-flash-text {
+  padding-left: 50px;
+  text-align: center;
+}
+
+.admin-flash-message {
+  margin-left: 40px;
+  margin: 0px;
+  position: relative;
+  z-index: 10;
+}
+/* end of Admin Flash CSS */
+
+
+// Social Sharing Buttons 
+.social_sharing_buttons {
+  letter-spacing: 5px;
+  a { 
+    color: black; 
+    font-size: 2em;
+    opacity: 0.2;
+    
+    &:hover { opacity: 0.5; }
+  }
+}
+// End of Social Sharing Buttons
+
+footer {
+
+  background-color: $vdark_gray;
+  border-top: 1px solid $vlight_gray;
+  padding: $footer_padding 0;
+  text-align: center;
+  font-size: .8em;
+  min-height: $footer_height;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  // margin-bottom: -140px;
+
+  // margin-top: 50px;
+
+  .copyright{
+    // float: right;
+    margin-top: 5px;
+  }
+  form{
+    // float: left;
+    margin: 0 auto;
+  }
+
+  #feedback-text-box{
+    width: 100%;
+    max-width: 35em;
+    margin: .5em 0;
+  }
+  .footer-links{
+    margin: 0 10px;
+    color: $light_gray;
+    a{
+      display: inline-block;
+      margin: 0 2.5em .5em;
+    }
+  }
+}
+
+@media(max-width: 600px){
+  .footer-form{
+    display:none;
+  }
+}
+
+.brand-box {
+  font-family: $logo-fonts;
+  float: left;
+  display: block;
+  margin-left: -20px;
+  // margin-top: -4px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  font-weight: 200;
+  a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #aaa;
+    // text-shadow: 0 1px 0 #ffffff;
+  }
+  .logo-text{
+  }
+  .logo-img{
+    width: 30px;
+    height: 30px;
+    margin-top: -9px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+  }
+  .beta-tag{
+    vertical-align: super;
+    font-size: .5em;
+    font-variant: normal;
+    color: red;
+  }
+}
+
+.navbar-inner{
+  // height: 50px!important;
+  // padding-top: 4px;
+  // height: 
+}
+.nav > li > a {
+  color: #aaa !important;
+  padding-top: 15px!important;
+  height: 25px!important;
+  text-shadow: none !important;
+  &:hover{
+    color: #ddd !important;
+  }
+}
+.nav li.dropdown.open > .dropdown-toggle{
+  color: #555 !important;
+}
+.caret{
+  border-bottom-color: #aaa !important;
+  border-top-color: #aaa !important;
+  &:hover{
+    border-top-color: #ddd !important;
+    border-bottom-color: #ddd !important;
+  }
+}
+.nav-links {
+  .top-link{
+    font-size: 16px;
+  }
+  strong{
+    font-size: 120%;
+  }
+}
+
+.navbar-inner{
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  background-image: none !important;
+  background-color: $vdark_gray !important;
+  border-bottom: 1px solid #eee !important;
+}
+
+.pagination-wrapper{
+  text-align: center;
+}
+.pagination{
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em auto;
+  display: inline-block;
+  line-height: 1em;
+  font-weight: bold;
+  padding: .35em 1em;
+  a, .previous_page, .current, .next_page{
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 2em;
+  }
+  .next_page, .previous_page{
+    width: 6em;
+  }
+}
+
+/* ********* User Pages ************* */
+
+#profile-page{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.profile-photo-container{
+  max-width: 270px;
+  max-height: 270px;
+  height: 270px;
+  text-align: right;
+  border: 1px solid #ccc;
+}
+
+.profile-contact-links{
+  ul{
+    list-style-type: none;
+  }
+}
+
+h2.profile-headline{
+  display: inline-block;
+}
+
+h3.contact-me{
+
+}
+
+.edit-profile{
+  display: inline-block;
+  margin: 0px 0px 15px 25px;
+}
+
+.edit-gravatar{
+  position: relative;
+}
+
+a.edit-projects{
+  margin-left: 25px;
+}
+
+.profile-about{
+  height: 130px;
+  margin-bottom: 20px;
+}
+
+form#edit-user{
+  textarea{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.student{
+  margin-bottom: 15px;
+  /*padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: rgba(100,100,255,.05);*/
+  h3{
+    margin-top: 0px;
+    margin-bottom: 5px;
+  }
+  .student-pic{
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #ccc;
+  }
+  .student-info{
+    margin-left: 20px;
+    width: 60%;
+    float: left;
+    max-height: 100px;
+    overflow: auto;
+  }
+}
+
+.student-mini-pic{
+  width: 100px;
+  height: 100px;
+}
+
+.contact-user-button{
+  // margin-top: 25px;
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+/* ****************** FORUM ********************** */
+#forum{
+
+  margin: 0px 0 80px;
+
+  h1{
+    margin: 1em 0;
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1rem;
+    line-height: 1.5em;
+    color: $light_gray;
+    margin: 0px 20px 30px 20px;
+    font-style: italic;
+  }
+}
+
+/* ****** Lesson .navbar && #lesson-nav Scroll Effect ****** */
+.scroll--down, .scroll--up {
+  @include linear-transform(300ms);
+}
+// IE8 support
+.navbar-fixed-top.scroll--down.ie8--onScroll{
+  top: -50px;
+}
+
+/* ****************** MEDIA QUERIES ********************** */
+@media (max-width: 979px){
+  body {
+    padding-top: 0px;
+  }
+}
+
+// For window.lesson.applyScrollEffect()
+@media (min-width: 980px) {
+  .navbar-fixed-top.scroll--down{
+    @include translateY(-100%);
+  }
+}

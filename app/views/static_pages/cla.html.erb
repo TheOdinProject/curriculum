@@ -1,0 +1,13 @@
+<div class="StaticPagesController">
+  <div class="container">
+
+    <%= link_to "<< Back to Legal", legal_path %>
+
+    <div id="cla">
+      <% f = File.open("legal_cla.md", "rb") %>
+      <%= md(f.read) %>
+      <% f.close %>
+    </div>
+
+  </div>
+</div>
