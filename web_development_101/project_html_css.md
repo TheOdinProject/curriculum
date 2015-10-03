@@ -461,7 +461,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Cornelius Edward's solution](https://github.com/corneal64/google-homepage) | [View in browser](http://corneal64.github.io/google-homepage)
 * [Gamal Mekawy's solution](https://github.com/Nerdherdx/Google-Homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Nerdherdx/Google-Homepage/blob/master/index.html)
 * [Gabriel Ramos's solution] (https://github.com/GabrielusR/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/GabrielusR/google-homepage/blob/master/index.html)
-* * [Jake Hill's solution](https://github.com/JakeH91/Practice/tree/master/the_odin_project/project_html%2Bcss) | [View in browser](http://htmlpreview.github.io/?https://github.com/JakeH91/Practice/blob/master/the_odin_project/project_html+css/index.html)
+* [Jake Hill's solution](https://github.com/JakeH91/Practice/tree/master/the_odin_project/project_html%2Bcss) | [View in browser](http://htmlpreview.github.io/?https://github.com/JakeH91/Practice/blob/master/the_odin_project/project_html+css/index.html)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/akpark93/the_odin_project/blob/master/google-homepage/index.html)
 * Add your solution above this line! 
 
