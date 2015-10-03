@@ -58,8 +58,6 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/MikroBlogger)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/twitter_bot)
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/tree/master/tutorials/twitter_controller)
-* [Noah Prescott's Solution](https://github.com/npresco/ruby_on_the_web/tree/master/micro_blogger)
-* [Florian Mainguy's Solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/ruby-on-the-web/twitter-spambot)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -224,8 +222,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Solution from Vidul Parthasarathy](https://github.com/viparthasarathy/web_server)
 * [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/ruby_on_web)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/10-ruby-on-the-web/2%20-%20Web%20Server%20and%20Browser)
-* [Noah Prescott's solution](https://github.com/npresco/ruby_on_the_web/tree/master/simple_server)
-* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/ruby-on-the-web/real-web-server-and-browser)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project9--real-webserver-and-browser)
 * Add your solution above this line!
 
 

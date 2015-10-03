@@ -38,7 +38,6 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Dominik Stodolny's solution](https://github.com/dstodolny/chess)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_chess)
 * [Dan Hoying's solution](https://github.com/danhoying/chess)
-* [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/Szachy)
 * Add your solution above this line!
 
 
