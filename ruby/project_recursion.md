@@ -54,6 +54,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/11-more-ruby-problems-4/1%20-%20Fibonacci%20Sequence)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/fibonacci.rb)
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/blob/master/challenges/fibonacci/fibonacci.rb)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project10--fibonacci/fibonacci.rb)
 * Add your solution above this line!
 
 
@@ -118,6 +119,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/11-more-ruby-problems-4/2%20-%20Merge%20Sort)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Ruby.%20Praktyczne%20Skrypty/sortowaniePoprzezScalanie.rb)
 * [Solution by John Tobillo](https://github.com/jdtobill/Ruby/blob/master/challenges/merge_sort/merge_sort.rb)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project11--merge-sort/merge_sort.rb)
 * Add your solution above this line!
 
 
