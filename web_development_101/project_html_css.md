@@ -417,7 +417,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Dennis Lin's solution](https://github.com/dbanx/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/dbanx/google-homepage/blob/master/index.html)
 * [Drew Hall's solution](http://github.com/13337/google-homepage) | [View in browser](https://htmlpreview.github.com/?https://github.com/13337/google-homepage/blob/master/index.html)
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/the_odin_project/tree/master/02_WebDevelopment101/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/pboest/the_odin_project/blob/master/02_WebDevelopment101/google_homepage/index.html)
-* [Sarabeth's difficult solution](https://github.com/sarabethz/google_search_pg) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarabethz/google_search_pg/blob/master/index.html) 
+* [Sarabeth's difficult solution](https://github.com/sarabethz/google_search_pg) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarabethz/google_search_pg/blob/master/index.html)
 * [ekrul's solution](https://github.com/ekrul/google_page) | [View in browser](http://htmlpreview.github.io/?https://github.com/ekrul/google_page/blob/master/index.html)
 * [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/html/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/html/google-homepage/index.html)
 *[Sarabeth's difficult solution](https://github.com/sarabethz/google_search_pg) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarabethz/google_search_pg/blob/master/index.html)
@@ -463,7 +463,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Gabriel Ramos's solution] (https://github.com/GabrielusR/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/GabrielusR/google-homepage/blob/master/index.html)
 * [Jake Hill's solution](https://github.com/JakeH91/Practice/tree/master/the_odin_project/project_html%2Bcss) | [View in browser](http://htmlpreview.github.io/?https://github.com/JakeH91/Practice/blob/master/the_odin_project/project_html+css/index.html)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/akpark93/the_odin_project/blob/master/google-homepage/index.html)
-* Add your solution above this line! 
+* [Ivy Olamit's solution](https://github.com/ivyr/google-homepage) | [View in browser](http://ivyr.github.io/google-homepage)
+* Add your solution above this line!
 
 
 
