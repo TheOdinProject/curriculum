@@ -125,6 +125,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Robin van de Griend's solution](https://github.com/RobinvdGriend/ruby-sandbox/blob/master/advanced-building-blocks-project/project_1.rb)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/ruby-building-blocks-project/blob/master/bubblesort.rb)
 * [Theoderik Trajanson's solution](https://github.com/Theoderik/education/blob/master/Bubble_Sort.rb)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/Project4--Bubble-sort/Bubble-sort.rb)
 * Add your solution above this line!
 
 
@@ -243,6 +244,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Robin van de Griend's solution](https://github.com/RobinvdGriend/ruby-sandbox/blob/master/advanced-building-blocks-project/project_2.rb)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/ruby-building-blocks-project/blob/master/enumerable_methods.rb)
 * [Theoderik Trajanson's solution](https://github.com/Theoderik/education/blob/master/MyEnumerables.rb)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project5--Enumerable-methods/enumerable.rb)
 * Add your solution above this line!
 
 
