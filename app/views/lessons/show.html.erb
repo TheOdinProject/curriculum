@@ -1,0 +1,123 @@
+<div id="lesson-nav">
+  <div class="inner-nav">
+    <%= link_to "Course List", courses_path %> >>
+    <%= link_to "#{@lesson.course.title}", lessons_path(@lesson.course.title_url) %> >>
+    <%= link_to "#{@lesson.section.title}", lessons_path(@lesson.course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >>
+    <% if @lesson.is_project %>
+      Project:
+    <% else %>
+      <%= "#{@lesson_position_in_section}:" %>
+    <% end %>
+    <%= @lesson.title %>
+  </div>
+</div>
+
+<div class="alert alert-info scroll-effect-alert">
+  <strong>Scroll up</strong> or <strong>hover</strong> over the breadcrumbs to view the navigation bar
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+</div>
+
+<!-- progress-tracking bar -->
+
+<%= render :partial => "shared/pt_bar", :locals => { :lesson => @lesson } %>
+
+<!-- END progress-tracking bar -->
+
+<div class="individual-lesson <%= @lesson.is_project ? 'project-lesson' : ''%>">
+  <div class="container">
+
+    <% if user_signed_in? %>
+      <h3 class="lc-completion-indicator <%= current_user.completed_lesson?(@lesson) ? '' : 'hidden' %>" title="You've completed this lesson!">
+        &#10004;
+      </h3>
+    <% end %>
+
+    <%= @content %>
+
+    <% if @right_box_ad %>
+      <%= render :partial => "right_box_ad", :locals => { :ad => @right_box_ad } %>
+    <% end %>
+
+    <% if @lower_banner_ad %>
+      <%= render :partial => "lower_banner_ad", :locals => { :ad => @lower_banner_ad } %>
+    <% end %>
+
+    <div id="info-box">
+      <%= render 'shared/social_sharing_buttons' %>
+      <%= render 'lessons/contribution_links' %>
+      <%= render 'lessons/license' %>
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="action-box">
+      <div class="lc-end-wrapper">
+        <%= render "shared/complete_lesson" %>
+      </div>
+
+      <div class="lnav">
+
+        <div class="lnav-prev lnav-wrap <%= 'lnav-disabled' unless @prev_lesson %> ">
+          <% if @prev_lesson %>
+            <%= link_to lesson_path(@course.title_url, @prev_lesson.title_url, :ref => "lnav"), :title => "Go back to \"#{@prev_lesson.title}\""  do %>
+              <div class="lnav-prev-icon icon"></div>
+              <div class="lnav-text">
+                <p>Prev</p><p>Lesson</p>
+              </div>
+            <% end %>
+          <% else %>
+            <div class="lnav-prev-icon icon"></div>
+            <div class="lnav-text">
+              <p>Previous</p><p>Lesson</p>
+            </div>
+          <% end %>
+        </div>
+
+        <div class="lnav-index lnav-wrap">
+          <%= link_to lessons_path(@course.title_url, :ref => "lnav"), :title => "Go back to \"#{@course.title}\""  do %>
+            <div class="lnav-course-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && @next_lesson.nil? %>"></div>
+            <div class="lnav-text">
+              <p>View</p><p>Course</p>
+            </div>
+          <% end %>
+        </div>
+
+        <div class="lnav-next lnav-wrap <%= 'lnav-disabled' unless @next_lesson %>">
+          <% if @next_lesson %>
+            <%= link_to lesson_path(@course.title_url, @next_lesson.title_url, :ref => "lnav"), :title => "Move on to \"#{@next_lesson.title}\"" do %>
+              <div class="lnav-next-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && !@next_lesson.nil? %>"></div>
+              <div class="lnav-text">
+                <p>Next</p><p>Lesson</p>
+              </div>
+            <% end %>
+          <% else %>
+            <div class="lnav-next-icon icon"></div>
+            <div class="lnav-text">
+              <p>Next</p><p>Lesson</p>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%= render 'shared/disqus_forum' %>
+
+</div>
+
+<!-- Provide support for window.lesson.applyScrollEffect() in IE8  -->
+<!--[if IE 8]>
+  <script>
+    $('.navbar-fixed-top').addClass('ie8--onScroll');
+    $('#lesson-nav').addClass('ie8--onScroll');
+    $('.scroll-effect-alert').css('display', 'inline').css('top', '25px');
+  </script>
+<![endif]-->
+
+<script>
+  $(function(){
+    $(".individual-lesson a[href^='http://']").attr("target","_blank");
+    $(".individual-lesson a[href^='https://']").attr("target","_blank");
+  });
+
+  // Invoke scroll effect, file lesson_header_onScroll.coffee
+  window.lesson.applyScrollEffect([$('.navbar-fixed-top'), $('#lesson-nav')], { showOnHover: true });
+</script>

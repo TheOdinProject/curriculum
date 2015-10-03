@@ -1,0 +1,682 @@
+// Place all the styles related to the Lessons controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "colors";
+@import "mixins";
+
+.individual-lesson{
+  /* User styles */
+  font-size: 1.25em;
+  margin: 2em auto;
+  input, button{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+
+  p{
+    margin-bottom: 1.2em;
+    margin-top: 1.2em;
+    line-height: 1.5em;
+  }
+
+  h1{
+    margin-bottom: 1em;
+  }
+
+  h2, h3, h4, h5{
+    margin-top: 1.5em;
+  }
+  h2{
+    margin-bottom: 1em;
+  }
+  ul,ol{
+    margin-left: 1.5em;
+  }
+  ul, ol, li{
+    line-height: 1.5em;
+  }
+  ol>li{
+    margin: .5em 0;
+  }
+  li > ol, li > ul{
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  li > p{
+    margin: 0 inherit;
+  }
+  li > p+p{
+    margin-top: 1em;
+  }
+/*         Commented out because it conflicts with prism styles.
+  pre{
+    font-size: .75em;
+    line-height: 1.5em;
+    background-color: $code_bg_gray;
+    color: $code_text_gray;
+    margin: 1em inherit;
+  }
+  code{
+    color: $code_text_gray;
+    background-color: $code_bg_gray;
+    border: 1px solid #ddd;
+    font-size: .75em;
+  }
+  pre > code{
+    border: none;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+*/
+  .container{
+    position: relative;
+    z-index: 1; //NOTE: This makes links unclickable in the bottom!
+    max-width: 32em;
+  }
+
+  .project-content h1, .project-content h2{
+    color: #f60;
+  }
+
+  #header_wrap h1{
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  #header_wrap h2{
+    font-size: 25px;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+
+  #contribute-notice{
+    font-size: 80%;
+    font-weight: 300;
+    color: #888;
+    letter-spacing: 1px;
+  }
+
+  #forkme_banner {
+    display: block;
+    position: absolute;
+    top:60px;
+    right: 10px;
+    height: 25px;
+    width: 140px;
+    z-index: 10;
+    padding: 10px 50px 10px 10px;
+    color: #fff;
+    background: image-url("blacktocat.png") #0090ff no-repeat 95% 50%;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+
+  .social{
+    position: absolute;
+    top: 105px;
+    right: 10px;
+    width: 200px;
+    padding: 15px 0px 0px 0px;
+    text-align: right;
+    display: inline-block;
+  }
+  .social-button{
+    width: 115px;
+    height: 25px;
+    display:inline-block;
+    padding: 5px 0px;
+  }
+
+  .facebook{
+    padding-right: 32px;
+  }
+
+  .coming-soon{
+    color: gray;
+    font-size: 80%;
+  }
+  .project-link{
+    color: #f60;
+  }
+
+  .action-box{
+    text-align: center;
+    border-top: 1px solid $light_gray;
+    padding: 1.5em 2em 2.5em 2em;
+    margin: 1em -2em 0em -2em;
+
+    h1{
+      margin: 1em 0 .5em 0;
+    }
+    h3{
+      margin: 1em 0;
+    }
+
+    .forward-button{
+      margin: 1.5em 0;
+      button{
+        width: 15em;
+        height: 4em;
+        font-size: 1.25em;
+        line-height: 1.25em;
+        background-color: $link_color_visited;
+        color: white;
+        border-radius: .5em;
+        -webkit-border-radius: .5em;
+        -moz-border-radius: .5em;
+        -o-border-radius: .5em;
+        border: 0;
+        &.project-button{
+          background-color: $highlight_orange;
+          &:hover{
+            background-color: $dark_orange;
+          }
+        }
+        &:hover{
+          background-color: $link_color_hover;
+        }
+      }
+    }
+    .nav-link{
+      margin: .5em 0;
+      font-size: .85em;
+    }
+  }
+
+
+  // The information section at the end of each lesson
+  // Includes the license and the link to that lesson's Github
+  #info-box{
+
+    margin: 2em 0 1em 0;
+
+    .content_license{
+      display: inline-block;
+      opacity: .2;
+      margin-right: 12px;
+      margin-left: 12px;
+      margin-top: 7px;
+      &:hover{
+        opacity: .5;
+      }
+    }
+    .contribution-links {
+      cursor: pointer;
+      position: relative;
+      .octocat {
+        opacity: .2;
+        &:hover{
+          opacity: .5;
+        }
+      }
+    }
+    .popover {
+      background: #ddd;
+    }
+    .popover-content {
+      font-size: .7em;
+    }
+    .popover-title {
+      border-radius: 5px;
+      font-size: 1.1em;
+      line-height: 1.2em;
+    }
+    @media only screen and (max-width : 420px) {
+      .popover { max-width: 176px; }
+    }
+    .tilt {
+      -webkit-transition: all 0.5s ease;
+         -moz-transition: all 0.5s ease;
+           -o-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+              transition: all 0.5s ease;
+    }
+    .tilt:hover {
+      -webkit-transform: rotate(-10deg);
+         -moz-transform: rotate(-10deg);
+           -o-transform: rotate(-10deg);
+          -ms-transform: rotate(-10deg);
+              transform: rotate(-10deg);
+    }
+  }
+
+  .lc-completion-indicator{
+    // text-align: center;
+    position: absolute;
+    color: #0b0;
+    font-size: 2em;
+    margin: .25em 0 1em -1.25em;
+  }
+
+  /* Covers the section at the bottom of each lesson where the
+  user can mark it completed or not completed */
+  .lc-end-wrapper{
+    position: relative;
+
+    a:hover{
+      text-decoration: none;
+    }
+    a.lc-uncomplete-link{
+      font-size: .75em;
+    }
+    a.lc-signin-link{
+      font-size: 1.25em;
+      font-style: italic;
+    }
+
+    /* Note: that this can be either a div or an anchor tag */
+    .checkbox-container {
+      display: block;
+      border: 2px dashed $vlight_gray;
+      @include border-radius(10px);
+      margin: 15px auto 30px auto;
+      padding: 15px;
+      text-align: left;
+      max-width: 350px;
+      background-size: 86px 86px !important;
+
+      h3 {
+        padding: 0;
+        margin: 5px 0 10px 115px!important;
+        font-size: 1.75em;
+      }
+      form {
+        margin: 0;
+      }
+    }
+    form.lc-link-form {
+      position: absolute;
+      width: 100%;
+      margin: -20px auto 0 auto;
+    }
+    /*  This is like a function (it's from SASS) so we don't
+        have to repeat ourselves all the time below */
+    @mixin lc-checkbox-bg-large($path){
+      background: image-url($path) 25px 20px no-repeat;
+    }
+
+    .lc-unchecked{
+      @include lc-checkbox-bg-large("icons/lc_unchecked.svg");
+    }
+    .lc-hover{
+      @include lc-checkbox-bg-large("icons/lc_hover.svg");
+    }
+    .lc-checked{
+      @include lc-checkbox-bg-large("icons/lc_checked.svg");
+    }
+    .lc-waiting{
+      background: image-url("icons/ajax-loader.gif") 47px 43px no-repeat;
+      background-size: 32px 32px !important;
+    }
+    .lc-disabled{
+      color: $vlight_gray;
+      @include lc-checkbox-bg-large("icons/lc_logged_out.svg");
+    }
+  }
+
+  // Styles for the lower lesson navigation (e.g. "next", "prev")
+  .lnav{
+
+    padding: 20px 15px 15px 15px;
+    max-width: 350px;
+    margin: auto;
+
+    p{
+      margin: 0;
+      font-size: .75em;
+    }
+    a{
+      text-decoration: none;
+    }
+
+    .lnav-wrap{
+      display: inline-block;
+      margin: .75em .5em;
+      text-align: center;
+      opacity: .65;
+      &:hover{
+        opacity: 1;
+      }
+    }
+
+    .lnav-text{
+      margin: .5em;
+    }
+
+    .lnav-disabled{
+      opacity: .2;
+      &:hover{
+        opacity: .2;
+      }
+      .lnav-course-icon{
+        background: image-url("icons/notebook.svg") 0px 0px no-repeat!important;
+        background-size: 80px 80px!important;
+      }
+      .lnav-next-icon{
+        background: image-url("icons/arrow_in_circle.svg") 8px 8px no-repeat!important;
+        background-size: 64px 64px!important;
+      }
+    }
+
+    .lnav-active{
+      color: #0c0;
+      background-color: #0c0;
+    }
+
+    .lnav-prev-icon{
+      background: image-url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
+      background-size: 64px 64px!important;
+    }
+
+    .lnav-course-icon{
+      background: image-url("icons/notebook.svg") 0px 0px no-repeat;
+      background-size: 80px 80px!important;
+      &.lnav-active{
+        background: image-url("icons/notebook_green.svg") 0px 0px no-repeat;
+      }
+    }
+
+    .lnav-next-icon{
+      background: image-url("icons/arrow_in_circle.svg") 8px 8px no-repeat;
+      background-size: 64px 64px!important;
+              transform:rotate(180deg);
+          -ms-transform:rotate(180deg); /* IE 9 */
+      -webkit-transform:rotate(180deg); /* Opera, Chrome, and Safari */
+      &.lnav-active{
+        background: image-url("icons/arrow_in_circle_green.svg") 8px 8px no-repeat;
+      }
+    }
+
+    .icon{
+      margin: auto;
+      height: 80px;
+      width: 80px;
+    }
+  }
+
+}
+
+// Used for making the progress tracking bar circles
+@mixin lc-circle-size($diameter, $border-width){
+  $height: $diameter - $border-width;
+  height: $height;
+  width: $height;
+  margin-top: (50 - $height - $border-width*2)/2;
+  border-width: $border-width;
+  margin-left: -($diameter+$border-width)/2;
+}
+
+#lc-progress-bar{
+
+  margin-top:30px;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  @include border-radius(30px);
+
+
+  .lc-progress-wrapper{
+    height: 50px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+  }
+
+  .lc-end-circle{
+    @include lc-circle-size(22px,4px);
+    @include border-radius(20px);
+    border-left: none;
+    border-right: none;
+    background-color: white;
+    position: absolute;
+    border-style: solid;
+    border-color: $light_gray;
+    text-align: center;
+    font-size: 10px;
+    color: $mid_gray;
+    z-index: 100;
+    &:hover{
+      background-color: white!important;
+      border-width: 6px;
+      @include border-radius(21px);
+      @include lc-circle-size(24px, 6px);
+      color: $text_gray;
+      font-weight: bold;
+    }
+    &.lc-completed{
+      background-color: #0b0;
+    }
+  }
+
+  .lc-right-end{
+    left: 100%;
+  }
+
+  .lc-circle{
+    $lc-circle-size: 12px;
+    @include border-radius(9px);
+    position: absolute;
+    border-style: solid;
+    background-color: white;
+    &.lc-lesson{
+      border-color: #00a;
+      &.lc-complete{
+        @include lc-circle-size($lc-circle-size, 1px);
+        background-color: #99f;
+      }
+      &.lc-pending{
+        @include lc-circle-size($lc-circle-size, 1px);
+      }
+      &:hover{
+        background-color: #ccf;
+        @include lc-circle-size($lc-circle-size+4, 2px);
+        @include border-radius(10px);
+      }
+    }
+    &.lc-project{
+      border-color: $highlight_orange;
+      &.lc-complete{
+        background-color: $faded_orange;
+        @include lc-circle-size($lc-circle-size, 1px);
+      }
+      &.lc-pending{
+        @include lc-circle-size($lc-circle-size, 1px);
+      }
+      &:hover{
+        background-color: $very_faded_orange;
+        @include lc-circle-size($lc-circle-size+4, 2px);
+        @include border-radius(10px);
+      }
+    }
+  }
+
+  .lc-active-circle{
+    @include lc-circle-size(30px, 4px);
+    @include border-radius(20px);
+    position: absolute;
+    border-style: solid;
+    border-color: $light_gray;
+    text-align: center;
+    font-size: 10px;
+    color: $mid_gray;
+    background-color: white;
+    z-index: 100;
+    &:hover{
+      background-color: white!important;
+      border-width: 6px;
+      @include border-radius(21px);
+      @include lc-circle-size(32px, 6px);
+      color: $text_gray;
+      font-weight: bold;
+    }
+    .lc-pct{
+      display: block;
+      margin-top: 3px;
+      &:hover{
+      }
+    }
+  }
+
+  .completed-line{
+    position: absolute;
+    margin-top: 24px;
+    z-index: -100;
+    height: 0px;
+    border-bottom: 3px solid $light_gray;
+  }
+  .pending-line{
+    position: absolute;
+    margin-top: 25px;
+    width: 100%;
+    z-index: -100;
+    height: 0px;
+    border-bottom: 2px dotted $vlight_gray;
+  }
+  .lc-left-line{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 0px;
+    margin-left: -86px;
+    margin-top: -15px;
+    @include rotate(45deg);
+    border-bottom: 2px solid $light_gray;
+  }
+  .lc-right-line{
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    right: 0px;
+    margin-right: -86px;
+    margin-top: -15px;
+    @include rotate(135deg);
+    border-bottom: 2px dotted $vlight_gray;
+  }
+}
+
+// The progress bar is too mashed together for
+// narrow screen sizes on long courses
+@media (max-width: 700px) {
+  #lc-progress-bar{
+    display: none;
+  }
+}
+
+#ad-lower-banner{
+  height: 60px;
+  width: 467px;
+  border: 10px solid #eee;
+  margin: 70px auto 50px;
+  position: relative;
+  img{
+
+  }
+  &:before{
+    content: "From the creators of The Odin Project...";
+    position: absolute;
+    font-size: 12px;
+    top: -35px;
+    font-style: italic;
+    color: #ccc;
+  }
+}
+#ad-right-box{
+  // border: 2px solid #aaa;
+  // height: 200px;
+  width: 200px;
+  position: absolute;
+  right: -240px;
+  top: 100px;
+  img{
+    height: 150px;
+    width: 180px;
+    margin: 0px 10px 10px;
+    position: relative;
+  }
+  p{
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #ccc;
+    font-style: italic;
+    color: #888;
+    background-color: white;
+    padding: 6px;
+    margin: 10px 10px 10px 10px;
+  }
+}
+.ad{
+  background-color: #eee;
+}
+@media(max-width: 500px){
+  #ad-lower-banner{
+    display: none;
+  }
+  #ad-right-box{
+    display: none;
+  }
+}
+
+
+
+#lesson-nav{
+  height: 1.75em;
+  width: 100%;
+  display: inline-block;
+  font-size: .75em;
+  // margin: -15px 2em 0 2em;
+  padding-top: 8px;
+  position: fixed;
+  top: 46px;
+  background-color: $background_color; //rgba(255,255,255,1);
+  box-shadow: 3px 6px 9px $background_color; //rgba(255,255,255,1);
+  z-index: 10;
+  &:hover > .inner-nav{
+    opacity: 1;
+  }
+  .inner-nav{
+    display: inline-block;
+    opacity: .5;
+  }
+  // Provide support for window.lesson.applyScrollEffect() in IE8
+  &.scroll--down.ie8--onScroll{
+    // Currently .navbar obscures breadcrumbs, use 10px until bugfix
+    top: 10px;
+  }
+}
+
+.scroll-effect-alert {
+  display: none;
+  right: 10px;
+  top: 5px;
+  width: 500px;
+  &.alert{ position: fixed; }
+}
+
+@media (max-width: 979px) {
+  #lesson-nav{
+    position: absolute;
+    z-index: 0;
+    margin-top:10px;
+  }
+}
+
+// For scroll effect, window.lesson.applyScrollEffect()
+@media (min-width: 980px) {
+  #lesson-nav.scroll--down{
+    // Height of .navbar === 50px
+    @include translateY(-50px);
+  }
+  .scroll-effect-alert{ display: inline; }
+}
+
+/* This style adds to the 'individual-lesson' class */
+.project-lesson{
+  h1{
+    color: $highlight_orange;
+  }
+  h2{
+  }
+}

@@ -1,0 +1,103 @@
+<div id="profile-page" class="container">
+  <% if @edit %>
+    <form accept-charset="UTF-8" id="edit-user" method="post" action="/users/<%= @user.id %>">
+      <input name="_method" type="hidden" value="put">
+      <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>">
+  <% end %>
+
+  <div class="row">
+
+    <div class="span3 offset1">
+      <div class="profile-photo-container">
+        <img src="<%= gravatar_url(@user, 270) %>">
+        <% if @edit %>
+          <%= link_to "Edit your Gravatar image", "https://en.gravatar.com/site/login", :class => "edit-gravatar", :target => "_blank", :title => "Go to Gravatar.com to edit your profile image.  Gravatar lets you change your profile photo in just one place (their site) and then it's available to any other site that links to it (which is a lot of them). That way, when you want to change your photo later, you don't need to track it down on a dozen different websites. Cool!" %>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="span6">
+      <h2 class="profile-headline"><%= @user.username %>'s Profile</h2>
+      <% if @user == current_user %>
+        <% if @edit %>
+          <input type="submit" class="btn btn-medium btn-primary edit-profile" value="Update" >
+          <%= link_to "Cancel", @user, :class => "edit-profile" %>
+        <% else %>
+          <a href="<%= edit_user_path(current_user) %>"><button class='edit-profile btn btn-medium'>Edit Profile</button></a>
+        <% end %>
+      <% end %>
+      <% if @user == current_user && @user.provider.nil? %>
+        <%- User.omniauth_providers.each do |provider| %>
+          <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>Link your #{provider.to_s.titleize} account".html_safe, omniauth_authorize_path(:user, :github), id: 'github-link', class: 'btn btn-social btn-large btn-lg btn-github' %><br />
+        <% end -%>
+      <% end %>
+      <h3>About</h3>
+      <div class="profile-about">
+        <% if @edit %>
+          <textarea id="user_about" name="user[about]" cols="70" rows="8" placeholder="Tell us about yourself!"><%= @user.about %></textarea>
+        <% else %>
+          <p>
+            <%= @user.about %>
+          </p>
+        <% end %>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="span3 offset1">
+      <h3 class="contact-me">Contact Info</h3>
+      <% if @user != current_user %>
+        <a href="<%= new_user_contact_path(@user) %>">
+          <button class="contact-user-button btn btn-primary">
+            Email Me!
+          </button>
+        </a>
+      <% end %>
+      <div class="profile-contact-links">
+        <% if @edit %>
+          <ul>
+            <li><input type="text" id="user_skype" name="user[skype]" size="50" placeholder="Skype username..." value="<%= @user.skype %>"></li>
+            <li><input type="text" id="user_screenhero" name="user[screenhero]" size="50" placeholder="ScreenHero username..." value="<%= @user.screenhero %>"></li>
+            <li><input type="text" id="user_google_plus" name="user[google_plus]" size="50" placeholder="Google Plus username..." value="<%= @user.google_plus %>"></li>
+            <li><hr></li>
+            <li><input type="text" id="user_github" name="user[github]" size="50" placeholder="Github username..." value="<%= @user.github %>"></li>
+            <li><input type="text" id="user_twitter" name="user[twitter]" size="50" placeholder="Twitter handle..." value="<%= @user.twitter %>"></li>
+            <li><input type="text" id="user_facebook" name="user[facebook]" size="50" placeholder="URL for your Facebook profile..." value="<%= @user.facebook %>"></li>
+            <li><input type="text" id="user_linkedin" name="user[linkedin]" size="50" placeholder="URL for your LinkedIn profile..." value="<%= @user.linkedin %>"></li>
+          </ul>
+
+        <% else %>
+
+          <ul>
+            <li>Skype: <%= @user.skype %></li>
+            <li>ScreenHero: <%= @user.screenhero %></li>
+            <li>Google Plus: <%= @user.google_plus %></li>
+            <li><hr></li>
+            <li>Github: <a href="http://www.github.com/<%= @user.github %>"><%= @user.github %></a></li>
+            <li>Twitter: <a href="<%= twitter_url(@user)%>"><%= @user.twitter %></a></li>
+            <li>Facebook: <a href="<%= @user.facebook %>"><%= @user.facebook %></a></li>
+            <li>LinkedIn: <a href="<%= @user.linkedin %>"><%= @user.linkedin %></a></li>
+          </ul>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="span6">
+      <div class="profile-projects">
+        <h3>Completed Lessons</h3>
+        <ul>
+          <% @user.completed_lessons.each do |lesson| %>
+            <li><%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url)) %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+
+    <% if @edit %>
+      </form>
+    <% end %>
+
+  </div>
+
+</div>

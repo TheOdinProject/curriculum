@@ -1,0 +1,11 @@
+<div class="contribution-links pull-right tilt" 
+     data-toggle = "popover"
+     html = "true"
+
+     data-placement = "left"
+     data-content = 'View it on github <%= link_to "here", lesson_on_github(@lesson.url), target: "_blank" %>, 
+                     and learn how to contribute <%= link_to "here", "https://github.com/TheOdinProject/curriculum/blob/master/contributing.md", target: "_blank" %>.'
+     >
+  
+    <%= image_tag "octocat.png", class: "octocat", :title => "How to contribute" %>
+</div>

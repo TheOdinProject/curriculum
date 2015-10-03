@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="span8 offset2">
+      <h2>Students</h2>
+      <div id="students-list">
+        <% @users.each do |user| %>
+          <%= render user %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render :partial => "shared/pagination", :locals => {:collection => @users }%>

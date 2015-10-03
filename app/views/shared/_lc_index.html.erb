@@ -1,0 +1,28 @@
+<!--
+This partial displays the checkbox at the left of a lesson on the index page
+It will also be rendered with the unobtrusive javascript that is used with the 
+AJAX form which allows the user to do the checking and unchecking 
+(so once on initial page load and again any time the user clicks the
+checkbox).
+-->
+
+<!-- ...needed because sometimes it will be called as a partial
+     and sometimes it will be rendered using the EJS -->
+<% lesson ||= @lesson %>
+
+  <% if current_user.completed_lesson?(lesson) %>
+  
+    <%= form_tag lesson_completion_path(:lesson_id => lesson.id), :method => "DELETE", :remote => true do %>
+      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed">
+      </a>
+    <% end %> 
+  
+  <% else %>
+  
+    <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+        <%= hidden_field_tag(:lesson_id, lesson.id) %>
+      </a>
+    <% end %> 
+  
+  <% end %>
