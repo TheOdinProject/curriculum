@@ -49,11 +49,6 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/tutorials/event_manager)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/EventManager)
 * [Noah Prescott's solution](https://github.com/npresco/serialization/tree/master/event_manager)
-* [lynchd2's solution](https://github.com/lynchd2/TOP-Ruby-Programming/tree/master/event_manager)
-* [Panashe Fundira's solution](https://github.com/munyari/odin/tree/master/learning-ruby/event_manager)
-* [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/ruby/files/event_manager)
-* [Alex Tsiras' solution](https://github.com/arialblack14/event-manager)
-* [Scott Bobbitt's solution](https://github.com/sco-bo/event_manager)
 * Add your solution above this line!
 
 
@@ -127,12 +122,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/games/hangman)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Szubienica.rb)
 * [Noah Prescott's solution](https://github.com/npresco/serialization/tree/master/hangman)
-* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/serialization-and-working-with-files/hangman)
-* [lynchd2's solution](https://github.com/lynchd2/TOP-Ruby-Programming/tree/master/hangman)
-* [Aviv Levinsky's solution](https://github.com/pugsiman/Hang_Man/blob/master/hangman.rb)
-* [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/ruby/files/hangman)
-* [Alex Tsiras' solution](https://github.com/arialblack14/hangman)
-* [Scott Bobbitt's solution](https://github.com/sco-bo/hangman)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project8--hangman/hangman.rb)
 * Add your solution above this line!
 
 

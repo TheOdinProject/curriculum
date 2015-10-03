@@ -12,7 +12,8 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 ### Your Task
 
 1. Go back to the [Building Blocks Project](/ruby-programming/building-blocks) and write tests for your "Caesar's Cipher" code.  It shouldn't take more than a half-dozen tests to cover all the possible cases.  Do you remember how to make your tests run using `$ rake`?
-1. Go back to the [Advanced Building Blocks Project](/ruby-programming/advanced-building-blocks) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.
+1. Go back to the [Advanced Building Blocks Project](/ruby-programming/advanced-buil
+ding-blocks) and write tests for any 6 of the enumerable methods you wrote there.  In this case, identify several possible inputs for each of those functions and test to make sure that your implementation of them actually makes the tests pass.  Be sure to try and cover some of the odd edge cases where you can.
 2. Write tests for your [Tic Tac Toe project](/ruby-programming/oop).  In this situation, it's not quite as simple as just coming up with inputs and making sure the method returns the correct thing.  You'll need to make the tests determine victory or loss conditions are correctly assessed.
     
     1. Start by writing tests to make sure players win when they should, e.g. when the board reads X X X across the top row, your `#game-over` method (or its equivalent) should trigger.
@@ -35,6 +36,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * Alex Chen's solution ([Caesar Cipher and Enumerable Methods](https://github.com/Chenzilla/ruby_building_blocks/tree/master/spec), [Tic Tac Toe](https://github.com/Chenzilla/tic_tac_toe/blob/master/spec/tic-tac-toe_spec.rb))
 * Dan Hoying's solution ([Caesar Cipher](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/tic_tac_toe))
 * PiotrAleksander's solution (https://github.com/PiotrAleksander/Ruby/tree/master/xo/spec)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project14--time-traveling)
 * Add your solution above this line!
 
 
@@ -70,6 +72,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Alex Chen's solution](https://github.com/Chenzilla/test_driven_connect_four)
 * [Dan Hoying's solution](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/connect_four)
 * [Xavier Reid's solution](https://github.com/xreid/connect_four)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project15--connect-four)
 * Add your solution above this line!
 
 
