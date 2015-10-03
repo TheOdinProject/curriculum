@@ -122,6 +122,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/games/hangman)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Szubienica.rb)
 * [Noah Prescott's solution](https://github.com/npresco/serialization/tree/master/hangman)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project8--hangman/hangman.rb)
 * Add your solution above this line!
 
 
