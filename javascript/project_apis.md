@@ -24,6 +24,7 @@ Play around with the other options the Maps API gives you -- you can customize a
 * [Artur Janik's solution - I've decided to create simple distance meter instead](https://github.com/ArturJanik/TOPJS/tree/master/Project9) | [View in browser](http://rawgit.com/ArturJanik/TOPJS/master/Project9/index.html)
 * [dchen71's solution](https://github.com/dchen71/odin-maps) | [View in browser](http://rawgit.com/dchen71/odin-maps/master/Index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_google_map_api) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_google_map_api/blob/master/index.html)
+* [eternal's solution](https://github.com/3ternal/google-maps) | [View in browser](http://htmlpreview.github.io/?https://github.com/3ternal/google-maps/blob/master/index.html)
 * Add your solution above this line!
 
 
