@@ -36,6 +36,7 @@ ding-blocks) and write tests for any 6 of the enumerable methods you wrote there
 * Alex Chen's solution ([Caesar Cipher and Enumerable Methods](https://github.com/Chenzilla/ruby_building_blocks/tree/master/spec), [Tic Tac Toe](https://github.com/Chenzilla/tic_tac_toe/blob/master/spec/tic-tac-toe_spec.rb))
 * Dan Hoying's solution ([Caesar Cipher](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/tic_tac_toe))
 * PiotrAleksander's solution (https://github.com/PiotrAleksander/Ruby/tree/master/xo/spec)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project14--time-traveling)
 * Add your solution above this line!
 
 
@@ -71,6 +72,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Alex Chen's solution](https://github.com/Chenzilla/test_driven_connect_four)
 * [Dan Hoying's solution](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/connect_four)
 * [Xavier Reid's solution](https://github.com/xreid/connect_four)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project15--connect-four)
 * Add your solution above this line!
 
 
