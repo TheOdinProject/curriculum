@@ -464,6 +464,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jake Hill's solution](https://github.com/JakeH91/Practice/tree/master/the_odin_project/project_html%2Bcss) | [View in browser](http://htmlpreview.github.io/?https://github.com/JakeH91/Practice/blob/master/the_odin_project/project_html+css/index.html)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/akpark93/the_odin_project/blob/master/google-homepage/index.html)
 * [Ivy Olamit's solution](https://github.com/ivyr/google-homepage) | [View in browser](http://ivyr.github.io/google-homepage)
+* [Guillermo Maiolo's solution](https://github.com/GMaiolo/The-Odin-Project/tree/master/Google-Homepage-Layout) | [View in browser](http://htmlpreview.github.io/?https://github.com/GMaiolo/The-Odin-Project/blob/master/Google-Homepage-Layout/index.html)
 * Add your solution above this line!
 
 
