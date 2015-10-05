@@ -33,6 +33,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_html_forms) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_html_forms/blob/master/main.html)
 * [Eleanor's solution (with Flexbox)](https://github.com/mixophrygian/mintForm) | [View in browser](https://htmlpreview.github.io/?https://github.com/mixophrygian/mintForm/blob/master/index.html)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/HTML%20Forms%20practice%20(Mint%20clone)) | [View in browser](https://htmlpreview.github.io/?https://github.com/JJMcConnell/TheOdinProject/blob/master/HTML%20Forms%20practice%20(Mint%20clone)/Mmmmmity.html)
+* [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/HTML-Forms) | [View in browser](http://dusanmilosavljevic1624.github.io/HTML-Forms/)
 * Add your solution above this line!
 
 
