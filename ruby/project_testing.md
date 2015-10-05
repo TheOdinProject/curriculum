@@ -35,6 +35,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * Alex Chen's solution ([Caesar Cipher and Enumerable Methods](https://github.com/Chenzilla/ruby_building_blocks/tree/master/spec), [Tic Tac Toe](https://github.com/Chenzilla/tic_tac_toe/blob/master/spec/tic-tac-toe_spec.rb))
 * Dan Hoying's solution ([Caesar Cipher](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/danhoying/testing_ruby_with_rspec/tree/master/tic_tac_toe))
 * PiotrAleksander's solution (https://github.com/PiotrAleksander/Ruby/tree/master/xo/spec)
+* Florian Mainguy's solution ([Caesar Cipher](https://github.com/florianmainguy/theodinproject/blob/master/ruby/testing-ruby/caesar-cipher/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/florianmainguy/theodinproject/blob/master/ruby/testing-ruby/enumerable/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/florianmainguy/theodinproject/blob/master/ruby/testing-ruby/tic-tac-toe/spec/tic-tac-toe_spec.rb)
 * Add your solution above this line!
 
 
