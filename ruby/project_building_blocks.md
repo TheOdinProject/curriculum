@@ -451,4 +451,5 @@ Next, make sure your method can handle multiple words:
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/ruby-building-blocks-project/blob/master/substrings.rb)
 * [simoncal's solution](https://github.com/simoncal-saas/ruby_sandbox/blob/master/substrings.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/Project3--Substrings/substrings.rb)
+* [srashidi's solution] (https://github.com/srashidi/Ruby_Building_Blocks/blob/master/substrings.rb)
 * Add your solution above this line!
