@@ -274,4 +274,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Rich Keyzor's solution](https://github.com/Web-Dev-Rich/jQuery-Javascript-project) [View in browser](http://webdevri.ch/jQuery-Javascript-project/)
 * [Michael Sotkin's solution](https://github.com/msotkin/etchy-sketchy) [View in browser](https://rawgit.com/msotkin/etchy-sketchy/master/index.html)
 * [Sarabeth's solution](https://github.com/sarabethz/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/sarabethz/etch-a-sketch/master/index.html) 
+* [arocketman's solution](https://github.com/arocketman/OdinProjectSolutions/tree/master/SketchPad)
 * Add your solution above this line!
