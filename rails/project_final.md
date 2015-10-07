@@ -70,6 +70,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Alex's Solution](https://github.com/alexgh123/fb_odin_app) | [View in browser] (http://polar-oasis-7608.herokuapp.com)
 * [Jeremy Mauzy's Solution](https://github.com/apositivejam/fakebook) | [View in browser] (http://odin-fakebook.herokuapp.com)
 * [dchen71's Solution](https://github.com/dchen71/odin-facebook) | [View in browser] (https://secure-citadel-9611.herokuapp.com/)
+* [James Kelsey's Solution (No tests, Ajaxy)](https://github.com/jamesmskelsey/jk-odin-book) | [View in browser](https://jk-odin-book.herokuapp.com/)
 * Add your solution above this line!
 
 
