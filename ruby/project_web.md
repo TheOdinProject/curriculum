@@ -220,8 +220,6 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Cody Gipson's solution](https://github.com/Cgipson06/Ruby-server-client)
 * [Joe Balsamo's solution](https://github.com/Joe-Balsamo/webserver-and-browser)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/web_server)
-* [Solution from Aleksandar Rodić](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
-* [Solution from Vidul Parthasarathy](https://github.com/viparthasarathy/web_server)
 * [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/ruby_on_web)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/10-ruby-on-the-web/2%20-%20Web%20Server%20and%20Browser)
 * [Noah Prescott's solution](https://github.com/npresco/ruby_on_the_web/tree/master/simple_server)
