@@ -227,6 +227,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Noah Prescott's solution](https://github.com/npresco/ruby_on_the_web/tree/master/simple_server)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/ruby-on-the-web/real-web-server-and-browser)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project9--real-webserver-and-browser)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_web_server)
 * Add your solution above this line!
 
 
