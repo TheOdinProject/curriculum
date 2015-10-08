@@ -104,7 +104,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/blogger2-jumpstart) | [View in browser](https://calm-fortress-9525.herokuapp.com/)
 * [Sandeep Navghane's solution](https://github.com/sand33pn/blogger) | [View in browser](http://ancient-thicket-1121.herokuapp.com/)
-*[Michael Sotkin's solution](https://github.com/msotkin/project_rails)
+* [Michael Sotkin's solution](https://github.com/msotkin/project_rails)
+* [James Brooks's solution](https://github.com/jhbrooks/blogger) | [View in browser](http://cryptic-atoll-7715.herokuapp.com/)
 * Your solution above here...*
 
 
