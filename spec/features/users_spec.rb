@@ -24,16 +24,34 @@ describe "Users" do
         page.source.should have_selector("h2", :text => user.username)
       end
       it "should show the github profile link" do
-        page.source.should have_link(user.github)
+        page.source.should have_css( "a[href='#{user.github}']" )
       end
       it "should show the about text" do
         page.source.should have_selector("p", :text => user.about)
       end
-      it "should list the lessons the user has completed" do
-        page.source.should have_selector("h3", :text => "Completed Lessons")
-      end
       it "should show the edit button" do
         page.source.should have_selector("button", :text => "Edit")
+      end
+
+      context "without a completed lesson" do
+
+        it "should not list lesson completions" do
+          page.source.should_not have_selector("h3", :text => "Completed Lessons")
+        end
+      end
+
+      context "with a completed lesson" do
+
+        before do 
+          user.completed_lessons << FactoryGirl.create( :lesson )
+          visit user_path( user ) 
+        end
+
+        it "should list the lessons the user has completed" do
+          # save_and_open_page
+          page.source.should have_selector("h3", :text => "Completed Lessons")
+        end
+
       end
 
     end
@@ -81,7 +99,7 @@ describe "Users" do
 
       context "with new data entered" do
         before do
-          fill_in "user_facebook", :with => "facebook"
+          fill_in "user_facebook", :with => "new facebook"
           fill_in "user_about", :with => "New about me"
           click_button "Update"
         end
@@ -90,7 +108,8 @@ describe "Users" do
           current_path.should == user_path(user)
         end
         it "should show facebook changes" do
-          page.source.should have_link("facebook")
+          user.reload
+          page.source.should have_css( "a[href='https://www.facebook.com/#{user.facebook}']" )
         end
         it "should show about changes" do
           page.source.should have_selector("p", :text => "New about me")

@@ -20,8 +20,13 @@ module UsersHelper
   def github_url(user)
     url = ""
     if user.github
-      url = "http://www.github.com/#{user.github}"
+      if user.github[0..3] == "http"
+        url = user.github
+      else
+        url = "http://www.github.com/#{user.github}"
+      end
     end
+
   end
 
   def facebook_url(user)

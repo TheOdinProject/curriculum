@@ -12,7 +12,7 @@ describe "Syntax-highlights" do
       visit lesson_path(course.title_url, lesson.title_url)
     end
     
-    it "should have the proper prism.js ruby class", :js => true do
+    it "should have the proper prism.js ruby class (JS TEST)", :js => true do
       expect(page).to have_css('.language-ruby')
     end
   end
