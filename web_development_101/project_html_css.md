@@ -471,6 +471,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Bijjjr's solution] (https://github.com/bijjjr/google-homepage) | [View in browser] (https://rawgit.com/bijjjr/google-homepage/master/bijjjr-google.html)
 * [Kelly Downes' solution](https://github.com/kdow/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/kdow/google-homepage/blob/master/google.html)
 * [Aryan Jabbari's solution](https://github.com/AryanJ-NYC/google-homepage) | [View in browser](http://aryanj-nyc.github.io/google-homepage/)
+* [Prakhar Gautam's solution](https://github.com/prakhargautam/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/prakhargautam/google-homepage/master/google.html)
 * Add your solution above this line!
 
 
