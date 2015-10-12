@@ -60,6 +60,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/blob/master/Ruby%20Programming/Recursion/recursion.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project10--fibonacci/fibonacci.rb)
 * [Aviv levinsky's solution](https://github.com/pugsiman/Ruby_challenges_and_algorithms/blob/master/Fibonacci/fibonacci.rb)
+* [Fyodor's solution](https://github.com/dstyvsky/Fibonacci_Recursion)
 * Add your solution above this line!
 
 
