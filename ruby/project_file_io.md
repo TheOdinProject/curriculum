@@ -54,6 +54,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/ruby/files/event_manager)
 * [Alex Tsiras' solution](https://github.com/arialblack14/event-manager)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/event_manager)
+* [Giorgos Mitsis's solution](https://github.com/vinPopulaire/event_manager)
 * Add your solution above this line!
 
 
@@ -134,6 +135,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Alex Tsiras' solution](https://github.com/arialblack14/hangman)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/hangman)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project8--hangman/hangman.rb)
+* [Giorgos Mitsis's solution](https://github.com/vinPopulaire/hangman)
 * Add your solution above this line!
 
 
