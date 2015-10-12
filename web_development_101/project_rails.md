@@ -107,7 +107,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Michael Sotkin's solution](https://github.com/msotkin/project_rails)
 * [James Brooks's solution](https://github.com/jhbrooks/blogger) | [View in browser](http://cryptic-atoll-7715.herokuapp.com/)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/blogger)
-* Your solution above here...*
+* Add your solution above this line!
 
 
 ## Additional Resources
