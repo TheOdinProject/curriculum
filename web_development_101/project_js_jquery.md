@@ -277,5 +277,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [arocketman's solution](https://github.com/arocketman/OdinProjectSolutions/tree/master/SketchPad)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/SketchPad) | [View in browser](https://htmlpreview.github.io/?https://github.com/akpark93/the_odin_project/blob/master/SketchPad/index.html)
 * [Angel A. Martinez's A.](https://github.com/aama79/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/aama79/etch-a-sketch/blob/master/index.html)
-* [Bas Langenberg's Solution](https://github.com/BasLangenberg/Etch-A-Sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/BasLangenberg/Etch-A-Sketch/blob/master/index.html)
+* [Bas Langenberg's Solution](https://github.com/BasLangenberg/Etch-A-Sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/BasLangenberg/Etch-A-Sketch/blob/master/EtchASketch.html)
 * Add your solution above this line!
