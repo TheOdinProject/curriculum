@@ -27,6 +27,7 @@ The process will be quite similar to what we've done before.  At this point, you
 * [Leonard Labita's solution](https://github.com/lendoza/OdinProject/tree/master/app) | [View in browser](http://leonardlabita.com/next.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectTNW) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectTNW/blob/master/index.html)
 * [AyeSea's solution](https://github.com/AyeSea/tnw-responsive-design) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/tnw-responsive-design/blob/master/index.html)
+* [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/Project-Responsive-Design) | [View in browser](http://dusanmilosavljevic1624.github.io/Project-Responsive-Design/)
 * Add your solution above this line!
 
 
