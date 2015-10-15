@@ -107,6 +107,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Michael Sotkin's solution](https://github.com/msotkin/project_rails)
 * [James Brooks's solution](https://github.com/jhbrooks/blogger) | [View in browser](http://cryptic-atoll-7715.herokuapp.com/)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/blogger)
+* [Petros Kalogiannakis's solutions](https://github.com/kalpetros/TheOdinProject/tree/master/blogger) | [View in browser](https://boiling-eyrie-1491.herokuapp.com/)
 * Add your solution above this line!
 
 
