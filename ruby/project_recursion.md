@@ -131,6 +131,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Andrej Dragojevic's solution](https://github.com/antrix1/The-Odin-Project/blob/master/Ruby%20Programming/Recursion/recursion.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project11--merge-sort/merge_sort.rb)
 * [Aviv levinsky's solution](https://github.com/pugsiman/Ruby_challenges_and_algorithms/blob/master/Merge_Sort/mergesort.rb)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/merge_sort_algorithm)
 * Add your solution above this line!
 
 
