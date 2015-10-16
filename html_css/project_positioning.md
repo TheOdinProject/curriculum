@@ -31,6 +31,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_positioning_and_floating_elements) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_positioning_and_floating_elements/blob/master/main.html)
 * [Voreny's Solution](https://github.com/Gelio/nyt-news-layout) | [View in browser](http://gelio.github.io/nyt-news-layout/)
 * [Dusan Milosavljevic's Solution](https://github.com/dusanmilosavljevic1624/Project-Positioning-Elements-) | [View in browser](http://dusanmilosavljevic1624.github.io/Project-Positioning-Elements-/)
+* [Noman Karim's Solution](https://github.com/nomankarim/newyorktimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/newyorktimes/blob/master/index.html)
 * Add your solution above this line!
 
 
