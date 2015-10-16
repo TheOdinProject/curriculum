@@ -29,6 +29,7 @@ In this project you'll clone the website of one of the most design-forward compa
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_backgrounds_and_gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_backgrounds_and_gradients/blob/master/main.html)
 * [Voreny's solution](https://github.com/Gelio/apple-homepage) | [View in browser](http://gelio.github.io/apple-homepage/)
 * [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/Project-Backgrounds-and-Gradients) | [View in browser](http://dusanmilosavljevic1624.github.io/Project-Backgrounds-and-Gradients/)
+* [Noman karim's solution](https://github.com/nomankarim/apple.com) | [View in browser](https://htmlpreview.github.io/?https://github.com/nomankarim/apple.com/blob/master/index.html)
 * Add your solution above this line!
 
 
