@@ -111,6 +111,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [jitterboggle's solutions](https://github.com/jitterboggle/learn_ruby_test_first)
 * [Paweł Cichoń solution](https://github.com/beovulf/learn_ruby)
 * [Parker Boyes' solution](https://github.com/boyestrous/Learn_ruby-test_first)
+* [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/test_first_ruby)
 * * Add your solution above this line!
 
 
