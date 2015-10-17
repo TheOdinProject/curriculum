@@ -219,6 +219,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Gabriel Ramos' solution](https://github.com/GabrielusR/euler-problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/GabrielusR/euler-problems/blob/master/index.html)
 * * [DV's Solution](https://github.com/dvislearning/javascript_exercises)
 * [David Atcheson's Solution](https://github.com/atchesond/euler-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/atchesond/euler-project/blob/master/index.html)
+* [Jerrell Bryant's Solution](https://github.com/atchesond/euler-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/codeNameJKB/project_euler/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
