@@ -481,6 +481,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jerrell Bryant's solution](https://github.com/codeNameJKB/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/codeNameJKB/google-homepage/blob/master/google-homepage/index.html)
 * [Noman Karim's solution](https://github.com/nomankarim/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/nomankarim/the_odin_project/blob/master/index.html)
 * [Harald Günther's solution](https://github.com/hguent2003/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hguent2003/google-homepage/blob/master/index.html)
+* [Monique E's solution](https://github.com/MoniqueE/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/MoniqueE/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
