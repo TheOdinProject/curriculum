@@ -480,6 +480,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Andrew Johnson's solution - easy](https://github.com/ad-johnson/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ad-johnson/google-homepage/blob/master/homepage.html) | [Hard (view in browser)](http://htmlpreview.github.io/?https://github.com/ad-johnson/google-homepage/blob/master/results.html)
 * [Jerrell Bryant's solution](https://github.com/codeNameJKB/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/codeNameJKB/google-homepage/blob/master/google-homepage/index.html)
 * [Noman Karim's solution](https://github.com/nomankarim/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/nomankarim/the_odin_project/blob/master/index.html)
+* [Harald Günther's solution](https://github.com/hguent2003/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hguent2003/blob/master/index.html)
 * Add your solution above this line!
 
 
