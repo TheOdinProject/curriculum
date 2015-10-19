@@ -458,4 +458,5 @@ Next, make sure your method can handle multiple words:
 * [srashidi's solution] (https://github.com/srashidi/Ruby_Building_Blocks/blob/master/substrings.rb)
 * [Dave Meister's solution](https://github.com/misterdavemeister/odin_project-substrings/blob/master/substrings.rb)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/ruby_programming_projects/substring.rb)
+* [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Project%201:%20Caeser%20Cipher/caesar_cipher.rb)
 * Add your solution above this line!
