@@ -169,6 +169,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Dave Meister's solution] (https://github.com/misterdavemeister/odin_caesar_cipher/blob/master/caesar_cipher.rb)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/ruby_programming_projects/caesar_cipher.rb)
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/caesar_cipher.rb)
+* [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Projects:%20Ruby%20Building%20Blocks/project_building_blocks.rb)
 * Add your solution above this line!
 
 
@@ -310,6 +311,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Dave Meister's solution](https://github.com/misterdavemeister/odin_project-stock_picker/blob/master/stock_picker.rb)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/ruby_programming_projects/stock_picker.rb)
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/stock_picker.rb)
+* [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Projects:%20Ruby%20Building%20Blocks/project_building_blocks.rb)
 * Add your solution above this line!
 
 
@@ -460,6 +462,6 @@ Next, make sure your method can handle multiple words:
 * [srashidi's solution] (https://github.com/srashidi/Ruby_Building_Blocks/blob/master/substrings.rb)
 * [Dave Meister's solution](https://github.com/misterdavemeister/odin_project-substrings/blob/master/substrings.rb)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/ruby_programming_projects/substring.rb)
-* [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Project%201:%20Caeser%20Cipher/caesar_cipher.rb)
+* [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Projects:%20Ruby%20Building%20Blocks/project_building_blocks.rb)
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/substrings.rb)
 * Add your solution above this line!
