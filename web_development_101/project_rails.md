@@ -108,6 +108,10 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [James Brooks's solution](https://github.com/jhbrooks/blogger) | [View in browser](http://cryptic-atoll-7715.herokuapp.com/)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/blogger)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/blogger) | [View in browser](https://boiling-eyrie-1491.herokuapp.com/)
+* [andrewdbass' solution] (https://github.com/andrewdbass/blogger)
+* [djhart's solution](https://github.com/djhart/rails_project.git) | [View in browser] (https://enigmatic-eyrie-8114.herokuapp.com/articles)
+* [Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
+* [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://powerful-lake-7977.herokuapp.com/)
 * Add your solution above this line!
 
 
