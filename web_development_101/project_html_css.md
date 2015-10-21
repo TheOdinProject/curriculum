@@ -483,6 +483,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Harald Günther's solution](https://github.com/hguent2003/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hguent2003/google-homepage/blob/master/index.html)
 * [Monique E's solution](https://github.com/MoniqueE/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/MoniqueE/google-homepage/blob/master/index.html)
 * [mfDK's Solution](https://github.com/mfDK/google-home) | [View in browser] (https://htmlpreview.github.io/?https://github.com/mfDK/google-home/blob/master/google.html)
+* [Dexter's Solution] (https://github.com/dexterdorer/google-homepage.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/dexterdorer/google-homepage/blob/master/google_homepage)
 * Add your solution above this line!
 
 
