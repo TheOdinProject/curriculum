@@ -217,12 +217,13 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jason Bialick's Solution](https://github.com/jbialick/project_euler/tree/master/js) | [View in browser](https://rawgit.com/jbialick/project_euler/master/index.html)
 * [Prakhar Gautam's Solution](https://github.com/prakhargautam/javascript-101)
 * [Gabriel Ramos' solution](https://github.com/GabrielusR/euler-problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/GabrielusR/euler-problems/blob/master/index.html)
-* * [DV's Solution](https://github.com/dvislearning/javascript_exercises)
+* [DV's Solution](https://github.com/dvislearning/javascript_exercises)
 * [David Atcheson's Solution](https://github.com/atchesond/euler-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/atchesond/euler-project/blob/master/index.html)
 * [Jerrell Bryant's Solution](https://github.com/atchesond/euler-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/codeNameJKB/project_euler/blob/master/index.html)
 * [Skye Free's Solution] (https://github.com/swfree/euler-project) | [View in browser] (https://rawgit.com/swfree/euler-project/master/index.html)
 * [John Smalley's Solution] (https://github.com/johnsmalley/project_euler)
 * [Piotr Ejsmont's Solution] (https://github.com/PiotrEjsmont/project-euler)
+* [Jake Hill's Solution](https://github.com/JakeH91/Practice/tree/master/javaScript/euler)
 * Add your solution above this line!
 
 ## Additional Resources
