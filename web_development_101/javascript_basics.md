@@ -222,6 +222,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jerrell Bryant's Solution](https://github.com/atchesond/euler-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/codeNameJKB/project_euler/blob/master/index.html)
 * [Skye Free's Solution] (https://github.com/swfree/euler-project) | [View in browser] (https://rawgit.com/swfree/euler-project/master/index.html)
 * [John Smalley's Solution] (https://github.com/johnsmalley/project_euler)
+* [Piotr Ejsmont's Solution] (https://github.com/PiotrEjsmont/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
