@@ -68,7 +68,7 @@ A knight in chess can move to any square on the standard 8x8 chess board from an
 
 All the possible places you can end up after one move look like this:
 
-<img src="http://www.thechesszone.com/images/articles/chess_rules_knight_moves.gif">
+<img src="http://0.tqn.com/d/chess/1/0/6/-/-/-/KnightMoves.gif">
 
 ### Your Task
 
