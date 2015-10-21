@@ -231,6 +231,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_web_server)
 * [Scott Bobbitt's Solution](https://github.com/sco-bo/ruby_web_server)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/web_server_and_browser)
+* [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/ruby_programming_projects/webserver)
 * Add your solution above this line!
 
 
