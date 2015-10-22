@@ -487,6 +487,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Andrew Greene's Solution] (https://github.com/agreene71/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/agreene71/google-homepage/blob/master/index.html)
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/google-homepage) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/google-homepage/blob/master/google-homepage.html) | [View in Broswer (Difficult)](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/google-homepage/blob/master/google-search-results.html)
 * [Cody's Solution] (https://github.com/cody-the-coder/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/cody-the-coder/google-homepage/blob/master/index.html)
+* [Terrib1e's Solution] (https://github.com/Terrib1e/google-clone.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Terrib1e/google-clone/blob/master/google-clone.html)
 * Add your solution above this line!
 
 
