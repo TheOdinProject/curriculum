@@ -35,7 +35,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/HTML%20Forms%20practice%20(Mint%20clone)) | [View in browser](https://htmlpreview.github.io/?https://github.com/JJMcConnell/TheOdinProject/blob/master/HTML%20Forms%20practice%20(Mint%20clone)/Mmmmmity.html)
 * [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/HTML-Forms) | [View in browser](http://dusanmilosavljevic1624.github.io/HTML-Forms/)
 * [Noman Karim's solution](https://github.com/nomankarim/Mintsignupform) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/Mintsignupform/blob/master/index.html)
-* [Patrick Mallee's solution](https://github.com/patmallee/mintForm) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/mintForm/index.html)
+* [Patrick Mallee's solution](https://github.com/patmallee/mintForm) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/mintForm/blob/master/index.html)
 * Add your solution above this line!
 
 
