@@ -57,6 +57,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Noah Prescott's solution](https://github.com/npresco/basic_data_structures_and_algorithms/blob/master/binary_search.rb)
 * [poctek's solution](https://github.com/poctek/The_Odin_Project/blob/master/Learning/CS/Algorithms/binary_tree.rb)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_challenges_and_algorithms/blob/master/Searching_Binary_Trees/sbt.rb)
+* [Giorgos's solution](https://github.com/vinPopulaire/search_binary_trees)
 * Add your solution above this line!
 
 
@@ -125,6 +126,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project13--knights-travails/knights_travails.rb)
 * [Noah Prescott's solution](https://github.com/npresco/basic_data_structures_and_algorithms/blob/master/knight_moves.rb)
 * [Alex Tsiras' solution](https://github.com/arialblack14/binary_trees/blob/master/knight.rb)
+* [Giorgos's solution](https://github.com/vinPopulaire/knights_travails)
 * Add your solution above this line!
 
 
