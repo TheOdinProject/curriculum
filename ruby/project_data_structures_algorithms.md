@@ -124,6 +124,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/basic-data-structures-and-algorithms/knight.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project13--knights-travails/knights_travails.rb)
 * [Noah Prescott's solution](https://github.com/npresco/basic_data_structures_and_algorithms/blob/master/knight_moves.rb)
+* [Alex Tsiras' solution](https://github.com/arialblack14/binary_trees/blob/master/knight.rb)
 * Add your solution above this line!
 
 
