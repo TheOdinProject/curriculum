@@ -171,6 +171,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/caesar_cipher.rb)
 * [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Projects:%20Ruby%20Building%20Blocks/project_building_blocks.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/caesar-cipher)
+*  [BoDonkey's solution](https://github.com/BoDonkey/ceasar_cipher)
 * Add your solution above this line!
 
 
