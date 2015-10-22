@@ -40,6 +40,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Dan Hoying's solution](https://github.com/danhoying/chess)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/Szachy)
 * [Sander Schepen's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project16--final-chess)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/chess)
 * Add your solution above this line!
 
 
