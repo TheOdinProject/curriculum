@@ -70,6 +70,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [John Lampe's solution](https://github.com/jlampe1985/blogger-project) | [View in browser](https://warm-savannah-2524.herokuapp.com/)
 * [Andrea Kulbaba's solution](https://github.com/akulbaba/blogger)
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/tree/master/blogger)
+* [Alan Daniels's solution](https://github.com/AlanDaniels101/odin-rails-project/tree/master/blogger)
 * Add your solution above this line!
 
 
