@@ -481,13 +481,13 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jerrell Bryant's solution](https://github.com/codeNameJKB/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/codeNameJKB/google-homepage/blob/master/google-homepage/index.html)
 * [Noman Karim's solution](https://github.com/nomankarim/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/nomankarim/the_odin_project/blob/master/index.html)
 * [Harald Günther's solution](https://github.com/hguent2003/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hguent2003/google-homepage/blob/master/index.html)
-* [Monique E's solution](https://github.com/MoniqueE/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/MoniqueE/google-homepage/blob/master/index.html)
 * [mfDK's Solution](https://github.com/mfDK/google-home) | [View in browser] (https://htmlpreview.github.io/?https://github.com/mfDK/google-home/blob/master/google.html)
 * [Dexter's Solution] (https://github.com/dexterdorer/google-homepage.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/dexterdorer/google-homepage/blob/master/google_homepage)
 * [Andrew Greene's Solution] (https://github.com/agreene71/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/agreene71/google-homepage/blob/master/index.html)
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/google-homepage) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/google-homepage/blob/master/google-homepage.html) | [View in Broswer (Difficult)](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/google-homepage/blob/master/google-search-results.html)
 * [Cody's Solution] (https://github.com/cody-the-coder/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/cody-the-coder/google-homepage/blob/master/index.html)
 * [Terrib1e's Solution] (https://github.com/Terrib1e/google-clone.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Terrib1e/google-clone/blob/master/google-clone.html)
+* [Monique E's solution](https://github.com/MoniqueE/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/MoniqueE/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
