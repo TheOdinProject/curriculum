@@ -36,7 +36,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Vincent's solution](https://github.com/wingyu/youtube_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/youtube_replica/blob/master/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_05-Advanced_HTML_and_CSS/youtube) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_05-Advanced_HTML_and_CSS/youtube/index.html)
 * [chasmani's solution](https://github.com/chasmani/YoutubeHome) | [View in browser](http://htmlpreview.github.io/?https://github.com/chasmani/YoutubeHome/blob/master/index.html)
-* [Ryan Jordan's solution](https://github.com/krjordan/video-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/video-project/blob/master/index.html)
+* [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/video-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/video-project/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectYT/blob/master/index2.html)
 * [Hailey's solution](https://github.com/hmfoster/embedded-youtube.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/embedded-youtube/blob/master/index.html)
 * [Rob Pennington's solution](https://github.com/rPen/Mock-Ups/tree/gh-pages/YouTube) | [View in browser](http://rpen.github.io/Mock-Ups/YouTube/index.html)
