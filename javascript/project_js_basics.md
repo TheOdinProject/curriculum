@@ -50,7 +50,7 @@ It's time to build an on-screen calculator
 * [Jason Matthews' solution](https://jsfiddle.net/o9jmrnf9/)
 * [Nikola Čvorović's solution](https://github.com/cvorak/calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/cvorak/calculator/blob/master/index.html)
 * [Trump's solution](https://github.com/trump812/OdinProject/tree/master/Javascript_and_jQuery/Calculator)
-* [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/calculator) | [View in browser](https://github.com/krjordan/odin-project/tree/master/calculator/index.html)
+* [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/calculator/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project1) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project1/jq-index.html)
 * [Jon Yorg's solution](https://github.com/Yorgg/Javascript/tree/master/calculator) | [View in browser](htmlpreview.github.io/?https://github.com/Yorgg/Javascript/blob/master/calculator/calculator.html)
 * [Greg Park's solution](https://github.com/gregoryjpark/js-calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/gregoryjpark/js-calculator/blob/master/index.html)
