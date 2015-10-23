@@ -280,4 +280,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Bas Langenberg's Solution](https://github.com/BasLangenberg/Etch-A-Sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/BasLangenberg/Etch-A-Sketch/blob/master/EtchASketch.html)
 * [David Atcheson's solution](https://github.com/atchesond/sketch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/atchesond/sketch-a-sketch/blob/master/index.html)
 * [Skye Free's solution] (https://github.com/swfree/etch-a-sketch) | [View in browser] (http://rawgit.com/swfree/etch-a-sketch/master/index.html)
+* [Amr Bakry's solution](https://github.com/Amrrbakry/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/Amrrbakry/sketch-pad/blob/master/index.html)
 * Add your solution above this line!
