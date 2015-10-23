@@ -209,7 +209,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Brian Burke's solution](https://github.com/sanora/jQuery-Sketchbook) | [View in browser](http://htmlpreview.github.io/?https://github.com/sanora/jQuery-Sketchbook/blob/master/index.html)
 * [Aleksandre Clapin-Pépin's solution](https://github.com/aclapinpepin/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/aclapinpepin/sketchpad/blob/master/index.html)
 * [Siddharth Gupta's solution](https://github.com/sidgupta234/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/sidgupta234/sketchpad/blob/master/index.html)
-* [Florian Mainguy's solution](https://github.com/florianmainguy/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/florianmainguy/etch_a_sketch/blob/master/index.html)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/web-development-101/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/florianmainguy/theodinproject/blob/master/web-development-101/etch-a-sketch/index.html)
 * [Max Platt's solution](https://github.com/makxks/Javascript-Etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/makxks/Javascript-Etch-a-sketch/blob/master/index.html)
 * [Purnima Gupta's solution](https://github.com/pooyaX14/sketchpad/tree/v0.0.1) | [View in browser](http://htmlpreview.github.io/?https://github.com/pooyaX14/sketchpad/blob/v0.0.1/index.html)
 * [djhart's solution](https://github.com/djhart/js_project) | [view in browser](http://htmlpreview.github.io/?http://github.com/djhart/js_project/blob/master/jsIndex.html)
