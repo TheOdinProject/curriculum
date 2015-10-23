@@ -96,7 +96,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/) 
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/blogger) | [View in browser] (https://floating-refuge-8099.herokuapp.com/)
 * [Spekachu's solution](https://github.com/Spekachu/blogger)
-* [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://powerful-lake-7977.herokuapp.com/)
+* [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://limitless-stream-4802.herokuapp.com/)
 *Your solution above here...*
 
 
