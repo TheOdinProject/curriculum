@@ -37,6 +37,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/xo/spec)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project14--time-traveling)
 *  Florian Mainguy's solution ([Caesar Cipher](https://github.com/florianmainguy/theodinproject/blob/master/ruby/testing-ruby/caesar-cipher/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/florianmainguy/theodinproject/blob/master/ruby/testing-ruby/enumerable/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/florianmainguy/theodinproject/blob/master/ruby/testing-ruby/tic-tac-toe/spec/tic-tac-toe_spec.rb))
+*  Aviv Levinsky's solution ([Caesar Cipher](https://github.com/pugsiman/Ruby_challenges_and_algorithms/blob/master/Caesar_Cipher/spec/caesar_spec.rb), [Enumerable Methods](https://github.com/pugsiman/Ruby_challenges_and_algorithms/blob/master/Enumerable_Methods/spec/enum_spec.rb), [Tic Tac Toe](https://github.com/pugsiman/Tic_Tac_Toe/blob/master/spec/ttt_spec.rb))
 * Add your solution above this line!
 
 
