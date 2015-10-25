@@ -19,7 +19,7 @@ That's basically it.
 ##How does this look in practice?
 Consider the following:
 
-```JavaScript
+```javascript
 //First function, expects a callback
 function firstFunction(callback) {
   callback('hello')
@@ -54,7 +54,7 @@ This is important, because the *number of arguments* and the *type of data they 
 
 In our example, `firstFunction` will pass only one argument to whatever callback it receives.  So `secondFunction` needs to be written to receive only one argument.  Doing something like this will cause problems:
 
-```JavaScript
+```javascript
 secondFunction(string, number) {
   number += 1;
   console.log(string, number)
@@ -66,7 +66,7 @@ Some functions will pass multiple arguments to their callbacks, with multiple da
 ##Ok so far so good.
 Let's take a look at some jQuery code.
 
-```JavaScript
+```javascript
 $('#link').click(function(){
   //Do stuff
 });
@@ -77,7 +77,7 @@ What's going on here? Let's break this down into it's component parts.
 #####1. The `$` jQuery function.  
 This is the first function you are calling.  `$` is just the name of that function.  Somewhere in the jQuery library is code that looks something like this:
 
-```JavaScript
+```javascript
 function $(){
   //jQuery source code
 }
@@ -93,7 +93,7 @@ This is an event handler - it's a special type of function that gets executed wh
 
 *Disclaimer: this is totally not what it looks like in reality - it's a massive simplification to serve a point!*
 
-```JavaScript
+```javascript
 function click(callback){
   callback() //execute callback
 }
@@ -106,7 +106,7 @@ But hang on, this looks different from the first example of callbacks! Well, not
 
 Remember, in JavaScript you can use anonymous functions (that is, functions without a name) that you instantiate immediately.  To illustrate this point, consider the following example:
 
-```JavaScript
+```javascript
 function doStuff() {
   //Do stuff
 }
@@ -116,7 +116,7 @@ $('#link').click(doStuff);
 
 This is basically the same thing as writing:
 
-```JavaScript
+```javascript
 $('#link').click(function(){
   //Do stuff
 });
@@ -132,7 +132,7 @@ So when should you use anonymous functions?  A good rule of thumb is, if you're 
 
 If you're coming to JavaScript from Ruby then you're probably very comfortable with thinking about functions as things that `return` data.  You put something into it, and then you get something back.
 
-```JavaScript
+```javascript
 function returnNumber(data) {
   return data;
 }
@@ -143,7 +143,7 @@ returnNumber(12);
 
 The function above does exactly what it says.  It returns a number (12, in this case).  But consider again our first example:
 
-```JavaScript
+```javascript
 //First function, expects a callback
 function firstFunction(callback) {
   callback('hello')
