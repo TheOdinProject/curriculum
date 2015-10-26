@@ -471,4 +471,5 @@ Next, make sure your method can handle multiple words:
 * [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Projects:%20Ruby%20Building%20Blocks/project_building_blocks.rb)
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/substrings.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/substrings)
+* [arocketman's solution](https://github.com/arocketman/OdinProjectSolutions/blob/master/substrings.rb)
 * Add your solution above this line!
