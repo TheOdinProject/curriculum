@@ -226,6 +226,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jake Hill's Solution](https://github.com/JakeH91/Practice/tree/master/javaScript/euler)
 * [Kelly Downes' Solution](https://github.com/kdow/project-euler)
 * [Terrib1e's Solution](https://github.com/Terrib1e/eulerproblems/blob/master/problems.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/Terrib1e/eulerproblems/blob/master/problems.html)
+* [Andrew Johnson's Solution](https://github.com/ad-johnson/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/ad-johnson/project-euler/blob/master/project-euler-problems.html)
 * Add your solution above this line!
 
 ## Additional Resources
