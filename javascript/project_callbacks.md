@@ -12,6 +12,7 @@ This function should iterate through *each item* in the array, and pass that ite
 You can do this however you want - if you want do challenge yourself, try using `Prototypes`!
 
 Here's how the finished function might work:
+
 ```javascript
 myEach([1,2,3,4], function(item){
   console.log(item);
