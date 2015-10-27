@@ -13,7 +13,7 @@ You can do this however you want - if you want do challenge yourself, try using 
 
 Here's how the finished function might work:
 
-```javascript
+```language-javascript
 myEach([1,2,3,4], function(item){
   console.log(item);
 });
@@ -31,7 +31,9 @@ Map is an enumerable method common to many languages.
 A `map` function takes an array, iterates over each item in the array, and then *does something* to each item.  What it does is up to you to define.  Map usually returns a brand new array, with the new values in it.
 
 If you're familiar with Ruby, then you'll probably have had some exposure to the `#map` method, and JavaScript implements its own version as well.  
+
 * [Read about the Map method here.](https://en.wikipedia.org/wiki/Map_(higher-order_function)
+
 * You can also read about the [Ruby](http://stackoverflow.com/questions/12084507/what-does-the-map-method-do-in-ruby) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) implementations.
 
 Your job is to write a function called `myMap()`.  The `myMap()` function will accept an `array` and a `callback`, and `return` a new array.  
@@ -42,7 +44,7 @@ This will help you to start to think about why callbacks don't usually use `retu
 
 Here's how the function you write might be used:
 
-```javascript
+```language-javascript
 myMap([1,2,3,4], function(item){
   return item * 2;
 });
@@ -56,7 +58,7 @@ myMap([1,2,3,4], function(item){
 
 Refactor myMap to pass your modified array forward - into another callback!
 
-*Hint: Make sure you pass in the whole modified array to your outgoing callback, and not just each individual item.*
+*Hint: Make sure you pass in the whole modified array to your outgoing callback, and not just each individual item.  Feel free to `console.log` the output.*
 
 ## Your Task
 Coming soon!
