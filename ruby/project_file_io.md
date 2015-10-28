@@ -138,6 +138,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project8--hangman/hangman.rb)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/hangman)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/ruby_programming_projects/hangman)
+* [poctek's solution](https://github.com/poctek/The_Odin_Project_Files/blob/master/Projects/Hangman/hangman.rb)
 * Add your solution above this line!
 
 
