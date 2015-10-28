@@ -125,6 +125,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/testfirst_ruby)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/test_first_ruby)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learn_ruby)
+* [Skye Free's solution] (https://github.com/swfree/the-odin-project/tree/master/learn-ruby)
 * * Add your solution above this line!
 
 
