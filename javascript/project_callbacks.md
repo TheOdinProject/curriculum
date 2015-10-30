@@ -32,7 +32,7 @@ A `map` function takes an array, iterates over each item in the array, and then 
 
 If you're familiar with Ruby, then you'll probably have had some exposure to the `#map` method, and JavaScript implements its own version as well.  
 
-* [Read about the Map method here.](https://en.wikipedia.org/wiki/Map_(higher-order_function)
+* [Read about the Map method here.](https://en.wikipedia.org/wiki/Map_(higher-order_function))
 
 * You can also read about the [Ruby](http://stackoverflow.com/questions/12084507/what-does-the-map-method-do-in-ruby) and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) implementations.
 
