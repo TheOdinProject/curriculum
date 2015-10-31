@@ -139,6 +139,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/hangman)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/ruby_programming_projects/hangman)
 * [poctek's solution](https://github.com/poctek/The_Odin_Project_Files/blob/master/Projects/Hangman/hangman.rb)
+* [Panashe Fundira's solution](https://github.com/munyari/odin/tree/master/hangman)
 * Add your solution above this line!
 
 
