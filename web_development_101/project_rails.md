@@ -5,7 +5,7 @@ In this project, you'll get the opportunity to actually build a real rails appli
 
 To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient.
 
-Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.  
+Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
@@ -16,7 +16,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 ## Extra Credit:
 
-1. Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  
+1. Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.
 2. If you aren't comfortable with git, either skip ahead a few lessons to the [introductory section on git](/web-development-101/git-basics) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
 
 ## Student Solutions
@@ -70,7 +70,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [John Lampe's solution](https://github.com/jlampe1985/blogger-project) | [View in browser](https://warm-savannah-2524.herokuapp.com/)
 * [Andrea Kulbaba's solution](https://github.com/akulbaba/blogger)
 * [Matias Pan's solution](https://github.com/kriox26/web_dev101/tree/master/blogger)
-* [Dan Hoying's solution](https://github.com/danhoying/blogger) | [View in browser](https://infinite-hollows-9057.herokuapp.com/) 
+* [Dan Hoying's solution](https://github.com/danhoying/blogger) | [View in browser](https://infinite-hollows-9057.herokuapp.com/)
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-rails-project) | [View in browser](https://aqueous-garden-9909.herokuapp.com/)
 * [Gb69010p's solution](https://github.com/gb69010p/JumpstartBlogger) | [View in browser](https://tranquil-earth-2515.herokuapp.com/)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/5-ruby-on-rails-blogger) | [View in browser](https://lit-beach-4691.herokuapp.com)
@@ -93,10 +93,10 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Blogger)
 * [Noah Prescott's solution](https://github.com/npresco/blogger_rails) | [View in browser](https://infinite-coast-2914.herokuapp.com/)
 * [Paweł Cichoń solution](https://github.com/beovulf/project_rails) | [View in browser](https://glacial-falls-4578.herokuapp.com/)
-* [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/) 
+* [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/)
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/blogger) | [View in browser] (https://floating-refuge-8099.herokuapp.com/)
 * [Spekachu's solution](https://github.com/Spekachu/blogger)
-* [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://limitless-stream-4802.herokuapp.com/)
+* [Corey Kazaks' solution](https://github.com/ck626/project_rails_blogger) | [View in browser](https://limitless-stream-4802.herokuapp.com/)
 *Your solution above here...*
 
 
