@@ -1,0 +1,76 @@
+<div id="devise-form" class="devise-sign-up">
+
+<!-- 
+
+  We need to cover several special login/signup cases:
+  * User is trying to create an account with Github and has now arrived at the step where he must check the legal agreements ... we need a "don't worry, this is the last step!" message
+  * User already has an Odin account with that email and has tried to create an account / sign in with Github... we need a "if you've already created your account"
+
+-->
+
+  <!-- are we in an auth provider flow? -->
+  <% auth_flow = !!@user.provider %>
+  <% possible_duplicate_account = auth_flow && (@user.errors.has_key?(:username) || @user.errors.has_key?(:email)) %>
+
+  <% if auth_flow %>
+    <h2>Step 2: Verify Information</h2>
+  <% else %>
+    <h2>Sign up</h2>
+    
+    <div class="alpha-alert">
+      <h3>Beta Release Notice</h3>
+      <p>
+        Thanks for your interest in The Odin Project and we're excited to have you in on the ground floor! Just so you know, this is currently a beta-level product, which means a couple of things:
+      </p>
+      <ol>
+        <li>
+          <strong>It's Rough Around the Edges</strong><br> This is a pre-release, so please don't expect perfection.  It's very much a work in progress that responds to your needs and we'll be expanding the features based on the feedback we receive.
+        </li>
+        <li>
+          <strong>We Need Your Help!</strong><br> Use the suggestion box at the bottom of the screen or email us at feedback@theodinproject.com with any feedback.  If you want to get involve (it's open source!), check out our Contributing page.  We're all building this project together!
+        </li>
+      </ol>
+    </div>
+
+  <% end %>
+
+  <%= render :partial => "shared/github_login_button", :locals => {:screen => "Sign up"} %>
+
+  <% if possible_duplicate_account %>
+    <div class="signup-prompt-msg">
+      <p>
+        NOTE: If you're trying to link <%= @user.provider.titleize%> to an existing Odin Project account, please <%= link_to "login to your Odin Project account", login_path %> as normal and then follow the instructions on your Profile page for linking it with <%= @user.provider.titleize %>.
+      </p>
+    </div>
+  <% elsif auth_flow %>
+    <div class="signup-prompt-msg">
+      <p>
+        Please verify the information below, check off the legal agreements and click the <strong>Sign up</strong> button to finish creating your account
+      </p>
+    </div>
+  <% end %>
+
+  <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
+
+    <%= f.error_notification unless auth_flow %>
+
+    <div class="form-inputs">
+      <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
+      <%= f.input :email, :required => true %>
+      <% if f.object.password_required? %>
+        <%= f.input :password, :required => true %>
+        <%= f.input :password_confirmation, :required => true %>
+      <% end %>
+
+      <!-- don't forget about our legal agreements checkbox! -->
+      <%= render :partial => "devise/shared/legal_checkbox", :locals => {:f => f} %>
+
+    </div>
+
+    <%= f.button :submit, "Sign up", :class => "btn-primary btn-large pull-right #{auth_flow ? 'btn-sign-up-auth-flow' : 'btn-sign-up'}" %>
+
+  <% end %>
+
+  <%= render "devise/shared/links" %>
+
+</div>

@@ -1,0 +1,2 @@
+module CalEventsHelper
+end

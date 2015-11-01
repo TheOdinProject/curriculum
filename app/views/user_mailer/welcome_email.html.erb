@@ -1,0 +1,277 @@
+<html>
+<body>
+<div id="message">
+  <div class="logo-bar">
+    <div class="brand-box">
+      <a href="<%= home_url %>">
+        <%= image_tag attachments['logo.gif'].url, :class => "logo-img" %>
+        <span class="logo-text">
+          The Odin Project
+        </span>
+      </a>
+    </div>
+    <!-- <div class="brand-box">
+      <%= image_tag "odin_head_silhouette_2_777_216px.gif" %>
+      The Odin Project
+    </div> -->
+    <div class="login-link">
+      <a href="http://theodinproject.com/login">Login</a>
+    </div>
+  </div>
+
+  <div class="top-box">
+    <h1>
+      Getting Started with The Odin Project
+    </h1>
+  </div>
+
+  <div class="content-container">
+    <div class="welcome-header">
+      Welcome to The Odin Project!
+    </div>
+
+    <div class="welcome-msg">
+      It's great to have you with us while you learn web development!  It can be a bit overwhelming at first, so to get you started here are a few tips:
+    </div>
+
+    <div class="tip-wrapper">
+      <div class="tip">
+        <div class="tip-number">
+          1
+        </div>
+        <div class="tip-content">
+          <h2>
+            Confirm your email
+          </h2>
+          <p>
+            <%= link_to 'Click here', confirmation_url(@user, :confirmation_token => @token) %> to verify your account and access all of the free resources and community support of the Odin Project.
+          </p>
+        </div>
+      </div>
+
+    <div class="tip-wrapper">
+      <div class="tip">
+        <div class="tip-number">
+          2
+        </div>
+        <div class="tip-content">
+          <h2>
+            Plan out your strategy
+          </h2>
+          <p>
+            Figure out how much time each week you'll be able to devote to learning then browse through our <%= link_to "roadmap of courses", curriculum_url %> and plan your strategy accordingly.  The biggest issue students have is getting distracted (especially since we link to so much juicy content), so staying focused is important.
+          </p>
+        </div>
+      </div>
+
+      <div class="tip">
+        <div class="tip-number">
+          3
+        </div>
+        <div class="tip-content">
+          <h2>
+            Dive into your first course
+          </h2>
+          <p>
+            Get started! If you're brand spanking new to all this, start with <%= link_to @starting_lesson.title, lesson_url(@starting_lesson.course.title_url, @starting_lesson.title_url) %>.  Otherwise, <%= link_to "Web Development 101", course_url("web-development-101") %> is probably your best bet.
+          </p>
+        </div>
+      </div>
+
+      <div class="tip">
+        <div class="tip-number">
+          4
+        </div>
+        <div class="tip-content">
+          <h2>
+            Get help and work with others
+          </h2>
+          <p>
+            You can leave questions in the <%= link_to "forum", forum_url %>.  Join our weekly study group, which is run by other students, at <%= link_to "theodinproject.com/studygroup", studygroup_url %>.  If you fill out your <%= link_to "profile", user_url(@user) %>, it will help others who might want to get in touch with you in the meantime.
+          </p>
+        </div>
+      </div>
+
+      <div class="tip">
+        <div class="tip-number">
+          5
+        </div>
+        <div class="tip-content">
+          <h2>
+            Tell your friends!
+          </h2>
+          <p>
+            If you find the project helpful, please spread the word.  It's always more fun to learn with friends :)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="additional-questions">
+      <p>
+        If you have any additional questions, check out our <%= link_to "Frequently Asked Questions", faq_url %> or feel free to reach out to <a href="mailto: contact@theodinproject.com">contact@theodinproject.com</a>.
+      </p>
+    </div>
+
+    <div class="sendoff">
+      <p>
+        Best of luck with your learning journey!
+      </p>
+    </div>
+
+    <div class="signature">
+      <p>
+        Sincerely,
+      </p>
+      <p>
+        Erik Trautman
+      </p>
+      <p class="founder">
+        Founder, The Odin Project
+      </p>
+    </div>
+  </div>
+
+  <hr>
+  <div class="about-odin">
+    <p>
+      The Odin Project is a free and open-source curriculum for learning web development.  It charts a path through existing resources on the web so anyone in the world can develop a job-ready skillset and a professional portfolio of work without the loneliness and uncertainty of working on their own.
+    </p>
+  </div>
+  
+</div>
+
+<style>
+
+  body{
+    font-size: 100%;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  h1,h2,h3,h4{
+    color: black;
+  }
+  p{
+    line-height: 1.25em;
+  }
+  a{
+    color: #77f;
+  }
+  a:hover{
+    color: #99f;
+  }
+  #message{
+    width: 620px;
+    border: 1px solid #666;
+  }
+  .content-container{
+    padding: 2em;
+  }
+  .logo-bar{
+    height: 43px;
+  }
+  .login-link{
+    font-size: .85em;
+    margin-right: 1em;
+    margin-top: 14px;
+    display: inline-block;
+    float: right;
+  }
+  .top-box{
+    background-color: #013;
+  }
+  .top-box h1{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    padding: 2.5em 0;
+    margin: 0;
+  }
+  .welcome-header{
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  .welcome-msg{
+    margin: 1em 0;
+  }
+  .about-odin{
+    margin: 1em;
+    font-size: .85em;
+    font-style: italic;
+    color: #666;
+  }
+  .tip{
+    position: relative;
+    margin: 2em 0;
+    padding-left: 10px;
+  }
+  .tip-number{
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    width: 1.25em;
+    height: 1.5em;
+    padding-top: .25em;
+    background-color: #f60;
+    /*border: 1px solid black;*/
+  }
+  .tip-content{
+    margin-left: 3.5em;
+    width: 460px;
+    /*margin-top: 1em;*/
+    padding-top: .85em;
+  }
+  .tip-content h2{
+    margin-top: 0;
+  }
+  .tip-content p{
+    font-size: 1.1em;
+    color: #666;
+  }
+  .additional-questions{
+    margin: 3em 0 2em 0;
+  }
+  .sendoff{
+    margin: 2em 0;
+    font-weight: bold;
+  }
+  .founder{
+    margin-top: -1em;
+    color: #666;
+
+  }
+  .brand-box {
+    font-family: "Palatino Linotype", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    float: left;
+    display: block;
+    margin-left: -10px;
+    margin-top: -4px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    font-weight: 200;
+  }
+  .brand-box a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    color: #777777;
+    text-shadow: 0 1px 0 #ffffff;
+  }
+  .logo-text{
+  }
+  .logo-img{
+    height: 30px;
+    width: 30px;
+    margin: 0px 4 -8px 0;
+  }
+
+
+</style>
+
+</body>
+</html>
