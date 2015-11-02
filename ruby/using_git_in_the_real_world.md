@@ -17,7 +17,7 @@ To help you out, come back and refer to this lesson again when you're in trouble
 
 ## A Git Workflow For Open Source Contribution
 
-Let's say you want to contribute to the web application that powers this website(check it out [here](https://github.com/TheOdinProject/theodinproject)). (**NOTE this is not the curriculum repo that you have been submitting your project solutions too, this is the main odin webdite that pulls the files from the curriculum in)  How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
+Let's say you want to contribute to the web application that powers this website(check it out [here](https://github.com/TheOdinProject/theodinproject)). (*NOTE this is not the curriculum repo that you have been submitting your project solutions too, this is the main odin webdite that pulls the files from the curriculum in)  How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
 
 The key players in this story will be the `upstream` (the original Github repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`).  Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
 
