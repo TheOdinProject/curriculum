@@ -1,0 +1,10 @@
+<div class="row">
+  <%- if @user.password_required? %>
+    <div class="social-wrapper">
+      <%- resource_class.omniauth_providers.each do |provider| %>
+        <%= link_to "<i class=\"fa fa-#{provider} providers-button\"></i>#{screen} with #{provider.to_s.titleize}".html_safe, omniauth_authorize_path(resource_name, provider), class: 'btn btn-social btn-large btn-lg btn-github' %><br />
+      <% end -%>
+      <h3> ...or do it the old fashioned way: </h3>
+    </div>
+  <% end -%>
+</div>

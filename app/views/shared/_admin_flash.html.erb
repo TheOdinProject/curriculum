@@ -1,0 +1,10 @@
+<% AdminFlash.showable_messages(disabled_flash_ids_from_cookies).each do |m|  %>
+  <div class="alert alert-warning alert-dismissable admin-flash-message">
+    <p>
+      <button type="button" id="close_admin_flash_<%= m.id %>" data-exp="<%= m.expires %>" data-id="<%= m.id %>" class="close" aria-hidden="true" >&times;</button>
+    </p>
+    <div class="admin-flash-text">
+      <%= md(m.message) %>
+    </div>  
+  </div>
+<% end %>

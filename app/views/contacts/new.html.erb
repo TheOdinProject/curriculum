@@ -1,0 +1,25 @@
+
+<div id="contact-user" class="span6 offset3">
+  <h1>Contact <%= @user.username %></h1>
+  <p class="instructions">
+    Use this form to send <%= @user.username %> an email.  <%= @user.username %> will be able to see your email address and respond to you directly.
+  </p>
+
+  <%= form_tag(user_contact_path(@user), :method => "post") do %> 
+    <%= csrf_meta_tag %>
+
+<!--     <div class="subject">
+      Subject: <br>
+      <span class="default-subject"><%= @subject %></span>
+    </div> -->
+
+    <div class="body">
+      Your Message:
+      <textarea name="body" placeholder="Type your message here!"></textarea>
+    </div>
+
+    <input type="submit" class="btn btn-primary pull-right" value="Send Message">
+
+  <% end %>
+
+</div>

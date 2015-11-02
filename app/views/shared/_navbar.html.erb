@@ -1,0 +1,36 @@
+    <div class="navbar navbar-fixed-top" id="top-navbar">
+
+
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <%= render "shared/logo_text" %>
+          <div class="container nav-collapse">
+            <ul class="nav pull-right nav-links">
+              <li class="top-link nav-search"><%= render "shared/search_box" %></li>              
+              <li class="top-link"><a href="<%= curriculum_path %>">Curriculum</a></li>
+              <% if user_signed_in? %>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong><%= current_user.username %> <b class="caret"></b></strong></a>
+                  <ul class="dropdown-menu">
+                    <li><%= link_to "Forum", forum_path %></li>
+                    <li><%= link_to "Study Groups", studygroup_path %></li>
+                    <li><%= link_to "Students", students_path %></li>
+                    <li class="divider"></li>
+                    <li><%= link_to "Profile", current_user %></li>
+                    <li><%= link_to "Account", edit_user_registration_path %></li>
+                    <li class="divider"></li>
+                    <li><%= link_to "Logout", logout_path  %></li>
+                  </ul>
+              <% else %>
+                <li data-no-turbolinks><%= link_to "Login", login_path, :class=>"top-link", :id=>"login-link" %></li>
+              <% end %>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,372 @@
+<div id="home-page">
+
+  <div class="above-the-fold">
+    <div class="shield">
+      <div class="navbar">
+        <div class="nav-narrow">
+          <div class="logo-wrapper">
+            <%= render :partial => "shared/logo_text" %>
+          </div>
+          <div class="menu-wrapper">
+            <%= link_to "Curriculum", courses_path(:ref => "homenav") %> |
+            <% if current_user %>
+              <%= link_to "Logout", logout_path(:ref => "homenav") %>
+            <% else %>
+              <%= link_to "Login", login_path(:ref => "homenav")%>
+            <% end %>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="container narrow">
+        <div class="top-box-wrapper">
+          <div class="top-box">
+            <div class="headline">
+              <h1>
+                Learn Web Development for Free
+              </h1>
+            </div>
+            <div class="subheading">
+              <h2>
+                Stop wasting time...&nbsp;  Here's what you need to know.
+              </h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-box-top-wrapper">
+          <div class="cta-box-top">
+            <%= link_to lesson_path("introduction-to-web-development" ,"what-a-web-developer-does", :ref => "home") do %>
+              <button class="btn btn-success cta-button">
+                Learn what a web developer does
+              </button>
+            <% end %>
+            <%= link_to courses_path(:ref => "home") do %>
+              <button class="btn btn-success cta-button">
+                Explore the full curriculum
+              </button>
+            <% end %>
+            <p>
+              ...or scroll down to learn more
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="social-buttons">
+    <div class="container narrow">
+      <%= render "shared/social" %>
+    </div>
+  </div>
+
+  <div class="what-its-about section">
+    <div class="container narrow">
+
+      <h2>Okay, what's this all about?</h2>
+      <h4>
+        Basically, this is the website we wish we'd had when we were learning on our own.  So we stitched together a curriculum from the best resources we could find online and here it is. This project is about:
+      </h4>
+
+      <div class="about-panels">
+
+        <div class="about-panel">
+          <div class="img-wrapper">
+            <%= image_tag "icons/compass2.png", :width => "100px", :title => "A Path Forward" %>
+          </div>
+          <h3>
+            Having a Path
+          </h3>
+          <p>
+            This is a proven path to successfully learn web development so you don't have to wonder if you're doing the right stuff or wasting your time.
+          </p>
+        </div>
+
+        <div class="about-panel">
+          <div class="img-wrapper">
+            <%= image_tag "icons/portfolio2.png", :width => "100px", :title => "Building a Portfolio" %>
+          </div>
+          <h3>
+            Building a Portfolio
+          </h3>
+          <p>
+            The best way to learn and get hired is to have a portfolio of work so we've laid out great projects to build along the way
+          </p>
+        </div>
+
+        <div class="about-panel">
+          <div class="img-wrapper">
+            <%= image_tag "icons/chat.png", :width => "100px", :title => "Learning Together" %>
+          </div>
+          <h3>
+            Learning Together
+          </h3>
+          <p>
+            We make it easy to find and work with other learners so you don't have to go it alone anymore.
+          </p>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="what-youll-learn dark">
+    <div class="section">
+
+      <div class="container narrow">
+
+        <h2>
+          What You'll Learn
+        </h2>
+
+        <div class="course-panels">
+
+          <a href="<%= course_path('introduction-to-web-development') %>">
+            <div class="course-panel p1">
+              <div class="img-wrapper">
+                <%= image_tag "icons/play.ico", :width => "80px", :title => "Introduction to Web Development" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Introduction to Web Development
+                </h3>
+                <p>
+                  A brief introduction to the practice and career of web development
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="<%= course_path('web-development-101') %>">
+            <div class="course-panel p2">
+              <div class="img-wrapper">
+                <%= image_tag "icons/web_development.png", :width => "80px", :title => "Web Development" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Web Development 101
+                </h3>
+                <p>
+                  Learn the basics of all the technologies you need to build websites
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="<%= course_path('ruby-programming') %>">
+            <div class="course-panel p3">
+              <div class="img-wrapper">
+                <%= image_tag "icons/ruby.png", :width => "65px", :title => "Ruby Programming" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Ruby Programming
+                </h3>
+                <p>
+                  Learn programming fundamentals in Ruby, the language built for programmer happiness
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="<%= course_path('ruby-on-rails') %>">
+            <div class="course-panel p4">
+              <div class="img-wrapper">
+                <%= image_tag "icons/rails.png", :width => "80px", :title => "Ruby on Rails" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Ruby on Rails
+                </h3>
+                <p>
+                  Learn to rapidly develop and deploy websites using Ruby on Rails
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="<%= course_path('html5-and-css3') %>">
+            <div class="course-panel p5">
+              <div class="img-wrapper">
+                <%= image_tag "icons/html5.png", :width => "80px", :title => "HTML5 and CSS3" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  HTML5 and CSS3
+                </h3>
+                <p>
+                  Dive deeper and understand how to really make your websites look good
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="<%= course_path('javascript-and-jquery') %>">
+            <div class="course-panel p6">
+              <div class="img-wrapper">
+                <%= image_tag "icons/javascript2.png", :width => "80px", :title => "Javascript and jQuery" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Javascript and jQuery
+                </h3>
+                <p>
+                  Make your websites dynamic and smooth with Javascript and jQuery
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+
+          <a href="<%= course_path('getting-hired-as-a-web-developer') %>">
+            <div class="course-panel p7">
+              <div class="img-wrapper">
+                <%= image_tag "icons/job_button2.png", :width => "80px", :title => "Getting Hired as a Web Developer" %>
+              </div>
+
+              <div class="copy-wrapper">
+                <h3>
+                  Getting Hired as a Web Developer
+                </h3>
+                <p>
+                  You've got the skills and the portfolio, now how do you get the job?
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="how-it-works section">
+    <div class="container narrow">
+      <h2>How it Works</h2>
+      <div class="clearfix"></div>
+      <div class="panel-wrapper">
+        <div class="panel">
+          <div class="img-wrapper">
+            <%= image_tag "learn_online3.jpg", :width => "300px", :height => "150px", :title => "Learn to Code" %>
+          </div>
+          <h3>
+            Learn
+          </h3>
+          <p>
+            We'll guide you through the best videos, tutorials, blog posts, and courses on the web for learning each subject.
+          </p>
+        </div>
+
+        <div class="panel">
+          <div class="img-wrapper">
+            <%= image_tag "writing_code2.jpg", :width => "300px", :height => "150px", :title => "Write Code" %>
+          </div>
+          <h3>
+            Build
+          </h3>
+          <p>
+            You will build dozens of projects along the way, from simple scripts to full programs and deployed websites
+          </p>
+        </div>
+
+      </div>
+
+      <div class="work-together">
+        <div class="img-wrapper">
+            <%= image_tag "work_together_blur.jpg", :width => "500px", :height => "200px", :title => "Work Together" %>
+        </div>
+        <div class="copy-wrapper">
+          <h3>
+            Work with Other Students
+          </h3>
+          <p>
+            Learning on your own sucks (we've been there).  We're building tools to connect you with other students along the way so you can pair up on the projects or just work through those annoying bugs with someone else across the world.
+          </p>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="why-awesome section dark">
+    <div class="container narrow">
+      <h2>
+        Why This Project Rocks
+      </h2>
+      <div class="panel-wrapper">
+        <div class="panel">
+          <div class="img-wrapper">
+            <%= image_tag "icons/textedit.png", :width => "150px", :title => "A Living Curriculum" %>
+          </div>
+          <h3>
+            The Curriculum Lives
+          </h3>
+          <p>
+            The curriculum is really flexible -- when a better way to learn something comes along we can just use that instead!
+          </p>
+          <a href="https://github.com/TheOdinProject/curriculum">See the curriculum on Github >></a>
+        </div>
+
+        <div class="panel">
+          <div class="img-wrapper">
+            <%= image_tag "icons/open_source2.svg", :width => "150px", :title => "Open Source" %>
+          </div>
+          <h3>
+            It's Open Source
+          </h3>
+          <p>
+            This website is available under an MIT license and the curriculum is Creative Commons.  Both are on Github.          </p>
+          <a href="https://github.com/TheOdinProject/theodinproject">See this site on Github >></a>
+        </div>
+
+        <div class="panel">
+          <div class="img-wrapper">
+            <%= image_tag "icons/xcode.png", :width => "150px", :title => "Build You Own Tools" %>
+          </div>
+          <h3>
+            Build Your Own Tools
+          </h3>
+          <p>
+            Students are currently contributing to both the curriculum and the main website... so they build what they use.
+          </p>
+          <%= link_to "Learn how to contribute >>", contributing_path %>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+    <div class="clear-div"></div>
+
+  <div class="cta-bottom section">
+    <div class="container narrow">
+      <p>
+        Are you curious yet?
+      </p>
+      <%= link_to courses_path(:ref => "home_b") do %>
+        <button class="btn btn-success cta-button">
+          Check out the curriculum!
+        </button>
+      <% end %>
+    </div>
+  </div>
+</div>
+
