@@ -7,7 +7,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
-1. Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) ([Backup copy here](https://web.archive.org/web/20140328135623/http://testfirst.org/learn_ruby)) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main `index.html` file in a browser, you'll have instructions waiting for you which describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck! **Update!** Testfirst.org appears to be down but you can download the problem sets from [this Github repository](https://github.com/alexch/learn_ruby) by running `git clone git://github.com/alexch/learn_ruby.git` if you have Git (we're still looking for a .zip file link alternative).  Open the `index.html` file in your local browser once you've downloaded it to receive instructions.  
+1. Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) ([Backup copy here](https://web.archive.org/web/20140328135623/http://testfirst.org/learn_ruby)) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main `index.html` file in a browser, you'll have instructions waiting for you which describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck! **Update!** Testfirst.org appears to be down but you can download the problem sets from [this Github repository](https://github.com/alexch/learn_ruby) by running `git clone git://github.com/alexch/learn_ruby.git` if you have Git (we're still looking for a .zip file link alternative).  Open the `index.html` file in your local browser once you've downloaded it to receive instructions.
 **Important:** Test-First Ruby wasn't updated to use rspec 3.xx, so you need the last 2.xx version to work with it. More info [here](https://github.com/TheOdinProject/curriculum/issues/860).
 2. If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live). Note for Windows users: As of September 2014, the current version of Rspec is broken in Windows. If this is your first time using rspec (invoked with a different program here that comes with the gem, called Rake), when installing the gem, instead of "gem install rspec", type "gem install rspec -v 2.14.1" into terminal instead.
 3. Do the following exercises.  You'll know you're done when all the tests pass!
@@ -117,15 +117,14 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [djhart's solution](https://github.com/djhart/ruby_test)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/learn-ruby-project)
 * [Novneet's Solution](https://github.com/novneetnov/ruby-test-first-development-project)
-* [Corey Kazaks' solution](https://github.com/ck626/test-first-ruby)
 * [Kelvin Stone's Solution](https://github.com/KelvinStone/test-first-ruby.git)
-* [Kelvin Stone's Solution](https://github.com/msotkin/project_ruby)
 * [Alan Daniels's solution](https://github.com/AlanDaniels101/odin-ruby-project)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/learn_ruby)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/testfirst_ruby)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/test_first_ruby)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learn_ruby)
 * [Skye Free's solution] (https://github.com/swfree/the-odin-project/tree/master/learn-ruby)
+* [Corey Kazaks' solution](https://github.com/ck626/project_test_first_ruby)
 * * Add your solution above this line!
 
 

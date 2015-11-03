@@ -121,7 +121,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/caesar-cipher/lib/caesar_cipher.rb)
 * [Matias Pan's solution](https://github.com/kriox26/odin_project/blob/master/ruby_building_blocks/caesar.rb)
 * [Varvara's solution](https://github.com/varvara15/The_Odin_Project/blob/master/Caesar_Cipher.rb)
-* [TwiddleStick's solution](https://github.com/TwiddleStick/Ruby-Playground/blob/master/Caesar_Cipher/caesar_cipher.rb) 
+* [TwiddleStick's solution](https://github.com/TwiddleStick/Ruby-Playground/blob/master/Caesar_Cipher/caesar_cipher.rb)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/blob/master/6-more-ruby-problems/1%20-%20Caesar%20Cipher/cipher.rb)
 * [Glenn Crosby's solution](https://github.com/glennc15/RubyBuildingBlocks/blob/master/ceasar_cipher.rb)
 * [Bhupendra Singh's solution](https://github.com/bhupendra11/rubySandbox/blob/master/caesarCipher.rb)
@@ -171,8 +171,9 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/caesar_cipher.rb)
 * [Edward Poon's solution](https://github.com/navies/learnding-ruby/blob/master/The%20Odin%20Project/Projects:%20Ruby%20Building%20Blocks/project_building_blocks.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/caesar-cipher)
-*  [BoDonkey's solution](https://github.com/BoDonkey/ceasar_cipher)
-*  [arocketman's solution](https://github.com/arocketman/OdinProjectSolutions/blob/master/caesar-cipher.rb)
+* [BoDonkey's solution](https://github.com/BoDonkey/ceasar_cipher)
+* [arocketman's solution](https://github.com/arocketman/OdinProjectSolutions/blob/master/caesar-cipher.rb)
+* [Corey Kazaks' solution](https://github.com/ck626/project_ruby_building_blocks/blob/master/caesar_cipher.rb)
 * Add your solution above this line!
 
 
