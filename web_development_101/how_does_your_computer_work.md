@@ -25,7 +25,7 @@ That black screen (or window) is the command line, where you're able to enter co
 
 ## Assignment:
 
-*Note: Many of these assume you're using a Mac or a Linux environment.  If you'd like to try one out, check out [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral), which is a free Ruby/Rails web-based development environment.  They have a terminal window you can practice with.*
+*Note: Many of these assume you're using a Mac or a Linux environment.  If you'd like to try one out, check out [Nitrous.io](https://www.nitrous.io/), which is a free Ruby/Rails web-based development environment.  They have a terminal window you can practice with.*
 
 1. Complete this interactive codecademy course to get a great handle on the [command line](https://www.codecademy.com/en/courses/learn-the-command-line).
 2. Dip your toe into the command line with this [basic overview from Treehouse](http://blog.teamtreehouse.com/command-line-basics)
