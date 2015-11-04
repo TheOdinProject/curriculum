@@ -36,6 +36,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Matias Pan's solution](https://github.com/kriox26/odin_rails/tree/master/g_search)
 * [Dan Hoying's solution](https://github.com/danhoying/rest_client_google_search)
 * [andrewdbass' solution](https://github.com/andrewdbass/rest)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/Restclient_search/blob/master/search.rb)
 * Add your solution above this line!
 
 
