@@ -114,6 +114,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Alan Daniels's solution](https://github.com/AlanDaniels101/odin-rails-project/tree/master/blogger)
 * [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://limitless-stream-4802.herokuapp.com/)
 * [Skye Free's solution](https://github.com/swfree/blogger) | [View in browser](https://frightful-tomb-1917.herokuapp.com/articles)
+* [Mateusz Staszczyk’s solution](https://github.com/sleaz0id/blogger)
 * Add your solution above this line!
 
 
