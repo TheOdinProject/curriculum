@@ -65,6 +65,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [andrewdbass' solution] (https://github.com/andrewdbass/toy_app)
 * [Noah Prescott's solution](https://github.com/npresco/rails_tutorial/tree/master/toy_app)
 * [Giorgos's solution](https://github.com/vinPopulaire/toy_app)
+* [Alex Tsiras' solution](https://github.com/arialblack14/toy_app)
 * Add your solution above this line!
 
 
