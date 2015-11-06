@@ -500,6 +500,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Dante Kellys' solution](https://github.com/dantekelly/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/dantekelly/google-homepage/blob/master/index.html)
 * [Bahrul Ulum's Solution] (https://github.com/bhru/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bhru/google-homepage/blob/master/index.html)
 * [Alejandro Mesa's Solution] (https://github.com/alemesa1991/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/alemesa1991/google-homepage/blob/master/index.html)
+* [Luke Walker's Solution] (https://github.com/ubershibs/google_homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ubershibs/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
