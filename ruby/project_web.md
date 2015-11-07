@@ -233,6 +233,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Scott Bobbitt's Solution](https://github.com/sco-bo/ruby_web_server)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/web_server_and_browser)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/ruby_programming_projects/webserver)
+* [srashidi's solution](https://github.com/srashidi/Ruby_on_the_Web/tree/master/web_server_and_browser)
 * Add your solution above this line!
 
 
