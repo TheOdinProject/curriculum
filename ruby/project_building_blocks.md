@@ -178,6 +178,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Peuchen's solution](https://github.com/Peuchen/caesar_cipher/blob/master/caesar_cipher.rb)
 * [BartoszD's solution](https://github.com/railsbeginner/the_odin_project/blob/master/Caesar_cipher/caesar_cipher.rb)
 * [Maia Petee's solution](https://github.com/movetomars/Ruby-Building-Blocks/blob/master/Problem1/caesarcipher.rb)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/blob/master/caeser-cipher/caeser-cipher.rb)
 * Add your solution above this line!
 
 
@@ -325,6 +326,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [arocketman's solution](https://github.com/arocketman/OdinProjectSolutions/blob/master/stock-picker.rb)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/blob/master/ruby/building-blocks/stock-picker/stocks.rb)
 * [Peuchen's solution](https://github.com/Peuchen/stock_picker/blob/master/stock_picker.rb)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/blob/master/stock-picker/stock-picker.rb)
 * Add your solution above this line!
 
 
@@ -482,4 +484,5 @@ Next, make sure your method can handle multiple words:
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/building-blocks/substrings) (using Rabin-Karp algorithm)
 * [Peuchen's solution](https://github.com/Peuchen/substrings/blob/master/substrings.rb)
 * [Corey Kazaks'](https://github.com/ck626/project_ruby_building_blocks/blob/master/substrings.rb)
+* [Skye Free's](https://github.com/swfree/the-odin-project/blob/master/substrings/substrings.rb)
 * Add your solution above this line!
