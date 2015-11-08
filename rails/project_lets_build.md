@@ -37,6 +37,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Dan Hoying's solution](https://github.com/danhoying/rest_client_google_search)
 * [andrewdbass' solution](https://github.com/andrewdbass/rest)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/Restclient_search/blob/master/search.rb)
+* [Alex Tsiras' solution](https://github.com/arialblack14/rest_client)
 * Add your solution above this line!
 
 
