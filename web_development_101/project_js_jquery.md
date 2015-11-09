@@ -289,4 +289,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [DV's solution](https://github.com/dvislearning/etch-a-sketch) | [View in browser] (https://rawgit.com/dvislearning/etch-a-sketch/master/index.html)
 * [Kelly Downes' solution](https://github.com/kdow/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/kdow/sketchpad/blob/master/index.html)
 * [Falk Schwiefert's solution] (https://github.com/azudet/odinproject_etch-a-sketch/blob/master/index.html)
+* [Luke Walker's solution] (https://github.com/ubershibs/sketchpad/tree/master) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ubershibs/sketchpad/blob/master/index.html)
 * Add your solution above this line!
