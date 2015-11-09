@@ -504,6 +504,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Andrea Marongiu's Solution] (https://github.com/carbonhoarder/0000-google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/carbonhoarder/0000-google-homepage/blob/master/index.html)
 * [Miguel Herrera's Solution] (https://github.com/migueloherrera/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/migueloherrera/google-homepage/blob/master/index.html)
 * [K4koffi's Solution] (https://github.com/k4koffi/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/k4koffi/google-homepage/blob/master/index.html)
+* [Eric Hu's Solution] (https://github.com/erichu801/google-homepage.git)
 * Add your solution above this line!
 
 
