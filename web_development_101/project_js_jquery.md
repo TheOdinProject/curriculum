@@ -292,4 +292,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Luke Walker's solution] (https://github.com/ubershibs/sketchpad/tree/master) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ubershibs/sketchpad/blob/master/index.html)
 * [Viacheslav Bogomazov's solution] (https://github.com/bogomazon/odin-sketchpad) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bogomazon/odin-sketchpad/blob/master/index.html)
 * [Oleh Ziniak's' solution](https://github.com/OlehZiniak/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/OlehZiniak/sketchpad/blob/master/index.html)
+* [Andrew Johnsons' solution](https://github.com/ad-johnson/griddle) | [View in browser](http://htmlpreview.github.io/?https://github.com/ad-johnson/griddle/blob/master/griddle.html)
 * Add your solution above this line!
