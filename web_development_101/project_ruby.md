@@ -24,6 +24,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* [Aleksandr's solution](https://github.com/Vovnjuk/Ruby_test)
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * [DucPhan's solution](https://github.com/phanducsjsu/Test-First-Ruby)
 * [ErikHP's solution](https://github.com/ErikHP/test-first-ruby)
