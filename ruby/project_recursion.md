@@ -139,6 +139,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Giorgos's solution](https://github.com/vinPopulaire/recursion/blob/master/mergesort.rb)
 * [Alex Tsiras' solution](https://github.com/arialblack14/recursion_project/blob/master/merge_sort.rb)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/ruby_programming_projects/recursion/mergesort.rb)
+* [srashidi's solution](https://github.com/srashidi/Recursion/blob/master/merge_sort/merge_sort.rb)
 * Add your solution above this line!
 
 
