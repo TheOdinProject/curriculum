@@ -294,4 +294,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Oleh Ziniak's' solution](https://github.com/OlehZiniak/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/OlehZiniak/sketchpad/blob/master/index.html)
 * [Andrew Johnsons' solution](https://github.com/ad-johnson/griddle) | [View in browser](http://htmlpreview.github.io/?https://github.com/ad-johnson/griddle/blob/master/griddle.html)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/hamstersky/etch-a-sketch/blob/master/index.html)
+* [Andrea Marongiu's Solution](https://github.com/carbonhoarder/0002-etch-a-sketch)|[View in browser](http://htmlpreview.github.io/?https://github.com/carbonhoarder/0002-etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
