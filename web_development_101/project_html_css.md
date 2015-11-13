@@ -509,6 +509,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Jonthan Perkins's Solution] (https://github.com/jonjperkins/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/jonjperkins/google-homepage/blob/master/index.html)
 * [Gus Flores's working Google search solution] (https://github.com/Kugell/google-homepage) | [View in browser]
 (https://htmlpreview.github.io/?https://github.com/Kugell/google-homepage/blob/master/index.html)
+* [Olii Kit's Solution] (https://github.com/foxiae/odin_project/tree/master/google_project) | [View in browser] (https://htmlpreview.github.io/?https://github.com/foxiae/odin_project/blob/master/google_project/index.html)
 * Add your solution above this line!
 
 
