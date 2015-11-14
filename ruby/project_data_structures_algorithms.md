@@ -130,6 +130,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Alex Tsiras' solution](https://github.com/arialblack14/binary_trees/blob/master/knight.rb)
 * [Giorgos's solution](https://github.com/vinPopulaire/knights_travails)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/knights_travails)(w/help from John Quarles' blog post)
+* [srashidi's solution](https://github.com/srashidi/Data_Structures/blob/master/Knights_Travails/knight_moves.rb)
 * Add your solution above this line!
 
 
