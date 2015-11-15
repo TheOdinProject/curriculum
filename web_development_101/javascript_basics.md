@@ -229,6 +229,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Andrew Johnson's Solution](https://github.com/ad-johnson/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/ad-johnson/project-euler/blob/master/project-euler-problems.html)
 * [Dominik Chomicki's Solution](https://github.com/hamstersky/odin_project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/hamstersky/odin_project_euler/blob/master/index.html)
 * [Andrea Marongiu's Solution](https://github.com/carbonhoarder/0001-js-euler/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/carbonhoarder/0001-js-euler/blob/master/index.html)
+* [Miguel Herrera's Solution](https://github.com/migueloherrera/javascript-basics)
 * Add your solution above this line!
 
 ## Additional Resources
