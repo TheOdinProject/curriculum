@@ -486,4 +486,5 @@ Next, make sure your method can handle multiple words:
 * [Peuchen's solution](https://github.com/Peuchen/substrings/blob/master/substrings.rb)
 * [Corey Kazaks'](https://github.com/ck626/project_ruby_building_blocks/blob/master/substrings.rb)
 * [Skye Free's](https://github.com/swfree/the-odin-project/blob/master/substrings/substrings.rb)
+* [Maia Petee's solution](https://github.com/movetomars/Ruby-Building-Blocks/blob/master/Problem3/substrings.rb)
 * Add your solution above this line!
