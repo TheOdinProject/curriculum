@@ -295,4 +295,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Andrew Johnsons' solution](https://github.com/ad-johnson/griddle) | [View in browser](http://htmlpreview.github.io/?https://github.com/ad-johnson/griddle/blob/master/griddle.html)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/hamstersky/etch-a-sketch/blob/master/index.html)
 * [Andrea Marongiu's Solution](https://github.com/carbonhoarder/0002-etch-a-sketch)|[View in browser](http://htmlpreview.github.io/?https://github.com/carbonhoarder/0002-etch-a-sketch/blob/master/index.html)
+* [Marina C's solution](https://github.com/marina101/Etch-a-sketch)
 * Add your solution above this line!
