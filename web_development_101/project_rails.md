@@ -115,6 +115,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://limitless-stream-4802.herokuapp.com/)
 * [Skye Free's solution](https://github.com/swfree/blogger) | [View in browser](https://frightful-tomb-1917.herokuapp.com/articles)
 * [Mateusz Staszczyk’s solution](https://github.com/sleaz0id/blogger)
+* [Dominik Chomicki's solution](https://github.com/hamstersky/blogger) | [View in browser](https://arcane-chamber-8578.herokuapp.com/)
 * Add your solution above this line!
 
 
