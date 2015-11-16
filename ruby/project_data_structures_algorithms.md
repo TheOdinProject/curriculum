@@ -60,6 +60,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Giorgos's solution](https://github.com/vinPopulaire/search_binary_trees)
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/ruby_programming_projects/Data%20Structures)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/binary_search_tree)
+* [srashidi's solution](https://github.com/srashidi/Data_Structures/blob/master/Node/node.rb)
 * Add your solution above this line!
 
 
