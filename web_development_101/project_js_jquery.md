@@ -296,4 +296,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Dominik Chomicki's solution](https://github.com/hamstersky/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/hamstersky/etch-a-sketch/blob/master/index.html)
 * [Andrea Marongiu's Solution](https://github.com/carbonhoarder/0002-etch-a-sketch)|[View in browser](http://htmlpreview.github.io/?https://github.com/carbonhoarder/0002-etch-a-sketch/blob/master/index.html)
 * [Mewtch's solution](https://github.com/Mewtch/EaSketch)[View in browser](http://htmlpreview.github.io/?https://github.com/Mewtch/EaSketch/blob/master/tableIndex.html)
+* [Marina C's solution](https://github.com/marina101/Etch-a-sketch)
 * Add your solution above this line!
