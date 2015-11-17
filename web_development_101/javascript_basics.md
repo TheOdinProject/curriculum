@@ -232,6 +232,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Miguel Herrera's Solution](https://github.com/migueloherrera/javascript-basics)
 * [Cody Cooper's solution](https://github.com/Cody-Cooper/odin-project/tree/master/project-euler/1-3) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Cody-Cooper/odin-project/master/project-euler/1-3/index.html)
 * [Matt Velez' Solution](https://github.com/Timecrash/Project-Euler)
+* [Eric Hu's Solution](https://github.com/erichu801/projectEuler)
 * Add your solution above this line!
 
 ## Additional Resources
