@@ -97,6 +97,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [srashidi's solution](https://github.com/srashidi/Object_Oriented_Programming/blob/master/Tic_Tac_Toe/tictactoe_class.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/tic-tac-toe)
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/OOP_tictactoe/tic_tac_toe.rb)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/blob/master/tictactoe/tictactoe.rb)
 * Add your solution above this line!
 
 
@@ -176,6 +177,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [srashidi's solution (with AI)](https://github.com/srashidi/Object_Oriented_Programming/blob/master/Mastermind/mastermind.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/mastermind)
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/OOP_mastermind/mastermind.rb)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/mastermind)
 * Add your solution above this line!
 
 
