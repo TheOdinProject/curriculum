@@ -99,6 +99,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/OOP_tictactoe/tic_tac_toe.rb)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/blob/master/tictactoe/tictactoe.rb)
 * [Jason Mattingly's solution](https://github.com/jasonmattingly/odin_projects_ruby/blob/master/tictactoe.rb)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/oop/tic-tac-toe)
 * Add your solution above this line!
 
 
@@ -178,13 +179,10 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [srashidi's solution (with AI)](https://github.com/srashidi/Object_Oriented_Programming/blob/master/Mastermind/mastermind.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/mastermind)
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/OOP_mastermind/mastermind.rb)
-<<<<<<< HEAD
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/mastermind)
-=======
 * [Jason Mattingly's solution (with AI)](https://github.com/jasonmattingly/odin_projects_ruby/blob/master/mastermind.rb)
->>>>>>> 45e74b1775dc2c888c9003b0756259118f2eba56
+* [cdouglass's solution (with AI)](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/oop/mastermind)
 * Add your solution above this line!
-
 
 ## Additional Resources
 
