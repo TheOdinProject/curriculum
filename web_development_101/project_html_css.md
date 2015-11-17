@@ -1,4 +1,4 @@
-# Project: HTML/CSS
+﻿# Project: HTML/CSS
 <!-- *Estimated Time: 4-8 hrs* -->
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
@@ -512,6 +512,10 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Josh Berry's Solution] (https://github.com/jbez92/google-homepage/blob/master/index.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/jbez92/google-homepage/blob/master/index.html)
 * [Matt Velez' Solution] (https://github.com/Timecrash/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Timecrash/google-homepage/blob/master/index.html)
 * [Wenchuan Lin's Solution](https://github.com/Springok/OdinProject/tree/master/GoogleHomepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Springok/OdinProject/blob/master/GoogleHomepage/index.html)
+*[Tahmid's solution]
+(https://github.com/tahmid-ul/google-homepage) | [View in browser]
+(https://htmlpreview.github.io/?
+https://github.com/tahmid-ul/google-homepage/blob/master/index.html
 * Add your solution above this line!
 
 
