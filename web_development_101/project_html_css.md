@@ -515,7 +515,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 *[Tahmid's solution]
 (https://github.com/tahmid-ul/google-homepage) | [View in browser]
 (https://htmlpreview.github.io/?
-https://github.com/tahmid-ul/google-homepage/blob/master/index.html
+https://github.com/tahmid-ul/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
