@@ -299,4 +299,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Marina C's solution](https://github.com/marina101/Etch-a-sketch)
 * [Wenchuan Lin's solution](https://github.com/Springok/OdinProject/tree/master/Sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/Springok/OdinProject/blob/master/Sketchpad/sketch.html)
 * [Cody Cooper's solution](https://github.com/Cody-Cooper/odin-project/tree/master/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Cody-Cooper/odin-project/blob/master/etch-a-sketch/index.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/sketchpad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/migueloherrera/sketchpad/blob/master/index.html)
 * Add your solution above this line!
