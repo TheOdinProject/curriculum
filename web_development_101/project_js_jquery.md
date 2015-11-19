@@ -298,4 +298,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Mewtch's solution](https://github.com/Mewtch/EaSketch)[View in browser](http://htmlpreview.github.io/?https://github.com/Mewtch/EaSketch/blob/master/tableIndex.html)
 * [Marina C's solution](https://github.com/marina101/Etch-a-sketch)
 * [Wenchuan Lin's solution](https://github.com/Springok/OdinProject/tree/master/Sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/Springok/OdinProject/blob/master/Sketchpad/sketch.html)
+* [Cody Cooper's solution](https://github.com/Cody-Cooper/odin-project/tree/master/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Cody-Cooper/odin-project/blob/master/etch-a-sketch/index.html)
 * Add your solution above this line!
