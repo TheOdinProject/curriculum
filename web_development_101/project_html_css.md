@@ -516,6 +516,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [hksp's Solution] (https://github.com/umsugit/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/umsugit/google-homepage/blob/master/index.html)
 * [Mailat Radu's Solution] (https://github.com/MailatRadu/google-homepage) | [View in browser] ( https://htmlpreview.github.io/?https://github.com/MailatRadu/google-homepage/blob/master/index.html)
 * [Tahmid's solution](https://github.com/tahmid101/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/tahmid101/google-homepage/blob/master/index.html)
+[Miles Rose's solution](https://github.com/MilesOfRoses/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/MilesOfRoses/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
