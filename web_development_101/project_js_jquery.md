@@ -205,7 +205,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Piotr Aleksander's solution](https://github.com/PiotrAleksander/javascript-jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/PiotrAleksander/javascript-jquery/blob/master/index.html)
 * [Rohit Gohri's solution](https://github.com/rohit-95/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/rohit-95/Etch-A-Sketch/blob/master/index.html)
 * [Chris Chi's solution](https://github.com/chrischi90/EtchaSketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/chrischi90/EtchaSketch/blob/master/index.html)
-* [Matt Leininger's solution](https://github.com/pilauPro/sketch-a-etch.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/pilauPro/sketch-a-etch/blob/master/sketchpad.html)
+* [Matt Leininger's solution](https://github.com/pilauPro/the-odin-project/tree/master/sketch-a-etch) | [View in browser](http://htmlpreview.github.io/?https://github.com/pilauPro/the-odin-project/blob/master/sketch-a-etch/sketchpad.html)
 * [Brian Burke's solution](https://github.com/sanora/jQuery-Sketchbook) | [View in browser](http://htmlpreview.github.io/?https://github.com/sanora/jQuery-Sketchbook/blob/master/index.html)
 * [Aleksandre Clapin-Pépin's solution](https://github.com/aclapinpepin/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/aclapinpepin/sketchpad/blob/master/index.html)
 * [Siddharth Gupta's solution](https://github.com/sidgupta234/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/sidgupta234/sketchpad/blob/master/index.html)
