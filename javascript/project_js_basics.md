@@ -61,6 +61,7 @@ It's time to build an on-screen calculator
 * [Voreny's solution](https://github.com/Gelio/js-calculator) | [View in browser](http://gelio.github.io/js-calculator/)
 * [Dan's solution](https://github.com/vickerdj/calculator) | [View in browser](http://vickerdj.github.io/calculator/)
 * [Wayne's solution](https://github.com/wayneho/On-Screen-Calculator) | [View in browswer](https://rawgit.com/wayneho/On-Screen-Calculator/master/index.html)
+* [Ryan Chang's solution](https://github.com/chang-ryan/javascript-calculator) | [View in browser](https://rawgit.com/chang-ryan/javascript-calculator/master/index.html)
 * Add your solution above this line!
 
 
