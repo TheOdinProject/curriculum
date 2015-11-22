@@ -302,4 +302,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Miguel Herrera's solution](https://github.com/migueloherrera/sketchpad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/migueloherrera/sketchpad/blob/master/index.html)
 * [Matt Velez's Solution](https://github.com/Timecrash/etch-a-pad)|[View in browser](http://htmlpreview.github.io/?https://github.com/Timecrash/etch-a-pad/blob/master/index.html)
 * [Mitesh Athia's solution](https://github.com/mathia4/etch-a-sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mathia4/etch-a-sketch/blob/master/index.html)
+* [Jack Deegan's solution](https://github.com/DidsyTurbo/jquery1) | [View in browser](http://htmlpreview.github.io/?https://github.com/DidsyTurbo/jquery1/blob/master/index.html)
 * Add your solution above this line!
