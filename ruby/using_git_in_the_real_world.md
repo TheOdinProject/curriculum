@@ -76,7 +76,7 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
 * [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
-* Github's [official training site](http://teach.github.com/)
+* Github's [official training site](https://training.github.com/)
 * [Understand Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
 * Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 * Need more still?  See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
