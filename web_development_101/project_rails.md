@@ -117,6 +117,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Mateusz Staszczyk’s solution](https://github.com/sleaz0id/blogger)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/blogger) | [View in browser](https://arcane-chamber-8578.herokuapp.com/)
 * [Cecilia Avery solution](https://github.com/cilavery/rails-blog) | [View in Browser](http://cecilia.avery.nyc)
+* [Luke Walker's solution](https://github.com/ubershibs/rails-blogger) | [View in browser](https://luke-blogger2.herokuapp.com)
 * Add your solution above this line!
 
 
