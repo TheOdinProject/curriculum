@@ -362,4 +362,5 @@ Next, make sure your method can handle multiple words:
 * [Miguel Oliveira's solution](https://github.com/Powerade/The-Odin-Project/tree/master/Ruby%20Programming%20Projects/Substrings)
 * [Xavier Reid's solution](https://github.com/xreid/ruby_building_blocks/blob/master/src/substrings.rb)
 * [WCope's solution](https://github.com/wcope80/ruby_building_blocks/blob/master/Substrings/Substrings.rb)
+* [Matt Leininger's solution](https://github.com/pilauPro/the-odin-project/blob/master/substrings/substrings.rb)
 * Add your solution above this line!
