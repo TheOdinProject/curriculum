@@ -493,4 +493,5 @@ Next, make sure your method can handle multiple words:
 * [Skye Free's](https://github.com/swfree/the-odin-project/blob/master/substrings/substrings.rb)
 * [Maia Petee's solution](https://github.com/movetomars/Ruby-Building-Blocks/blob/master/Problem3/substrings.rb)
 * [BartoszD's solution](https://github.com/railsbeginner/the_odin_project/tree/master/substrings)
+* [Matt Leininger's solution](https://github.com/pilauPro/the-odin-project/blob/master/substrings/substrings.rb)
 * Add your solution above this line!
