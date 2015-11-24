@@ -127,7 +127,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Corey Kazaks' solution](https://github.com/ck626/project_test_first_ruby)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/ruby_TDD)
 * [Luke Walker's solution] (https://github.com/ubershibs/ruby-intro)
-* [Francisco Carlos's solution] (https://github.com/fcarlosdev/LearnRuby.git)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/learn_ruby.git)
 * * Add your solution above this line!
 
 
