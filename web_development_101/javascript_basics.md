@@ -237,6 +237,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Miles Rose's Solution](https://github.com/MilesOfRoses/euler-project)
 * [Calvin Colson's Solution](https://github.com/CalColson/javascript-problems)
 * [Lisa Dean's Solution] (https://github.com/LisaZD/Project-Euler)
+* [Jean Merlet's Solution] (https://github.com/jeanmerlet/euler_problems_webpage) | [View in browser](https://rawgit.com/jeanmerlet/euler_problems_webpage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
