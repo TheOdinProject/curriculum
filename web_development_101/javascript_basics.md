@@ -1,4 +1,4 @@
-# Javascript 101
+﻿# Javascript 101
 <!-- *Estimated Time: 6-8 hrs* -->
 
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
@@ -239,6 +239,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Lisa Dean's Solution] (https://github.com/LisaZD/Project-Euler)
 * [Jean Merlet's Solution] (https://github.com/jeanmerlet/euler_problems_webpage) | [View in browser](https://rawgit.com/jeanmerlet/euler_problems_webpage/master/index.html)
 * [Tom Westerhout's Solution](https://github.com/Westw00d/Project-Euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/Westw00d/Project-Euler/blob/master/Euler.html)
+* [Tahmid's solution](https://github.com/tahmid101/javascript101) | [View in browser](https://htmlpreview.github.io/?https://github.com/Tahmid101/javascript101/blob/master/eular_project.html)
 * Add your solution above this line!
 
 ## Additional Resources
