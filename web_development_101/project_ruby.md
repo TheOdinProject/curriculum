@@ -128,6 +128,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Luke Walker's solution] (https://github.com/ubershibs/ruby-intro)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/learn_ruby.git)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/project-ruby)
+* [Andrew Johnson's solution](https://github.com/ad-johnson/learn_ruby)
 * * Add your solution above this line!
 
 
