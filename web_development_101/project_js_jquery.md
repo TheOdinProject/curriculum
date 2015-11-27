@@ -304,4 +304,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Mitesh Athia's solution](https://github.com/mathia4/etch-a-sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mathia4/etch-a-sketch/blob/master/index.html)
 * [Jack Deegan's solution](https://github.com/DidsyTurbo/jquery1) | [View in browser](http://htmlpreview.github.io/?https://github.com/DidsyTurbo/jquery1/blob/master/index.html)
 * [Joshua Berry's Solution] (https://github.com/jbez92/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://cdn.rawgit.com/jbez92/etch-a-sketch/master/index.html)
+* [Cal Colson's Solution] (https://github.com/CalColson/jQuery-project/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/CalColson/jQuery-project/blob/master/index.html)
 * Add your solution above this line!
