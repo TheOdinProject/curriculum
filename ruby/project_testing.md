@@ -79,6 +79,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/testing-ruby/connect-four)
 * [Giorgos's solution](https://github.com/vinPopulaire/connect_four)
 * [Alex Tsiras' solution](https://github.com/arialblack14/connect_four)
+* [srashidi's solution](https://github.com/srashidi/RSpec_Project/tree/master/connect_four)
 * Add your solution above this line!
 
 
