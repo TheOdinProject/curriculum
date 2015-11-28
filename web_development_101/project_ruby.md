@@ -129,6 +129,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/learn_ruby.git)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/project-ruby)
 * [Andrew Johnson's solution](https://github.com/ad-johnson/learn_ruby)
+* [Kelly Downes' solution](https://github.com/kdow/test-first-learn-ruby)
 * * Add your solution above this line!
 
 
