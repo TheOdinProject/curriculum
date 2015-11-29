@@ -306,5 +306,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Joshua Berry's Solution] (https://github.com/jbez92/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://cdn.rawgit.com/jbez92/etch-a-sketch/master/index.html)
 * [Jack Wilde's Solution](https://github.com/WildeRunner/etch-a-sketch)
 * [Cal Colson's Solution] (https://github.com/CalColson/jQuery-project/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/CalColson/jQuery-project/blob/master/index.html)
-* [Hale's Solution](https://github.com/Lajsna/Etchasketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Lajsna/Etchasketch)
+* [Hale's Solution](https://github.com/Lajsna/Etchasketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Lajsna/Etchasketch/blob/master/The-page.html)
 * Add your solution above this line!
