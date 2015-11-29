@@ -242,6 +242,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Tahmid's solution](https://github.com/tahmid101/javascript101) | [View in browser](https://htmlpreview.github.io/?https://github.com/Tahmid101/javascript101/blob/master/eular_project.html)
 * [Swordscoper's solution](https://github.com/Swordscoper/Euler) | [View in browser](http://rawgit.com/Swordscoper/Euler/master/index.html)
 * [K4koffi's Solution] (https://github.com/k4koffi/TheOdinProject/tree/master/projectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/k4koffi/TheOdinProject/blob/master/projectEuler/index.html)
+* [Finnishmiko's solution](https://github.com/finnishmiko/project_euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/finnishmiko/project_euler/blob/master/project_euler.html)
 * Add your solution above this line!
 
 ## Additional Resources
