@@ -143,6 +143,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Dan Hoying's solution](https://github.com/danhoying/re_former)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/re-former)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/re-former)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/re-former)
 * Add your solution above this line!
 
 
