@@ -119,6 +119,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Cecilia Avery solution](https://github.com/cilavery/rails-blog) | [View in Browser](http://cecilia.avery.nyc)
 * [Luke Walker's solution](https://github.com/ubershibs/rails-blogger) | [View in browser](https://luke-blogger2.herokuapp.com)
 * [Novneet's Solution](https://github.com/novneetnov/Rails_Blog)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/blogger)
 * Add your solution above this line!
 
 
