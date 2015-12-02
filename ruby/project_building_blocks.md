@@ -184,6 +184,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Andrea Tozzini's solution](https://github.com/clunizzi/odin-project/blob/master/caesar_cypher_smart.rb)
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-building-blocks/blob/master/caesar_cipher.rb)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/ruby_building_blocks/blob/master/caesar_cipher.rb)
+* [Mitchell Bartolo's solution](https://github.com/mbarts/caesar_cipher/blob/master/caesar_cipher.rb)
 * Add your solution above this line!
 
 
