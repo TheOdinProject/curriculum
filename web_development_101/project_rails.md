@@ -120,6 +120,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Luke Walker's solution](https://github.com/ubershibs/rails-blogger) | [View in browser](https://luke-blogger2.herokuapp.com)
 * [Novneet's Solution](https://github.com/novneetnov/Rails_Blog)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/blogger)
+* [Matt Velez's solution](https://github.com/Timecrash/jumpstart-blogger) | [View in Browser](https://vast-thicket-8006.herokuapp.com/)
 * Add your solution above this line!
 
 
