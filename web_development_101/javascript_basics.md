@@ -244,6 +244,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [K4koffi's Solution] (https://github.com/k4koffi/TheOdinProject/tree/master/projectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/k4koffi/TheOdinProject/blob/master/projectEuler/index.html)
 * [Finnishmiko's solution](https://github.com/finnishmiko/project_euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/finnishmiko/project_euler/blob/master/project_euler.html)
 * [Leo Soai-Van's solution](https://github.com/leosoaivan/project-euler.git)
+* [Jess Farley's solution](https://github.com/littlemighty/op.js-project_euler)
 * Add your solution above this line!
 
 ## Additional Resources
