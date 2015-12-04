@@ -121,6 +121,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Novneet's Solution](https://github.com/novneetnov/Rails_Blog)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/blogger)
 * [Matt Velez's solution](https://github.com/Timecrash/jumpstart-blogger) | [View in Browser](https://vast-thicket-8006.herokuapp.com/)
+* [Kelvin Stone's solution](https://github.com/KelvinStone/blogger) | [View in browser](https://evening-badlands-2352.herokuapp.com/)
 * Add your solution above this line!
 
 
