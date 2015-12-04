@@ -113,7 +113,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
 * [Alan Daniels's solution](https://github.com/AlanDaniels101/odin-rails-project/tree/master/blogger)
 * [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://limitless-stream-4802.herokuapp.com/)
-* [Skye Free's solution](https://github.com/swfree/blogger) | [View in browser](https://frightful-tomb-1917.herokuapp.com/articles)
+* 
 * [Mateusz Staszczyk’s solution](https://github.com/sleaz0id/blogger)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/blogger) | [View in browser](https://arcane-chamber-8578.herokuapp.com/)
 * [Cecilia Avery solution](https://github.com/cilavery/rails-blog) | [View in Browser](http://cecilia.avery.nyc)
@@ -121,6 +121,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Novneet's Solution](https://github.com/novneetnov/Rails_Blog)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/blogger)
 * [Matt Velez's solution](https://github.com/Timecrash/jumpstart-blogger) | [View in Browser](https://vast-thicket-8006.herokuapp.com/)
+* [Kelvin Stone's solution](https://github.com/KelvinStone/blogger) | [View in browser](https://evening-badlands-2352.herokuapp.com/)
 * Add your solution above this line!
 
 
