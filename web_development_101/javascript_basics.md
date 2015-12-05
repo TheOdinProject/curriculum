@@ -246,6 +246,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Leo Soai-Van's solution](https://github.com/leosoaivan/project-euler.git)
 * [YogAzathoth's solution](https://github.com/YogAzathoth/myLearning.git)
 * [Jess Farley's solution](https://github.com/littlemighty/op.js-project_euler)
+* [Michał Kopeć's solution](https://github.com/mkopec/odin.javascript_basics) | [View in browser](http://htmlpreview.github.io/?https://github.com/mkopec/odin.javascript_basics/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
