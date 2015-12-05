@@ -514,6 +514,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Huw's Solution](https://htmlpreview.github.io/?https://github.com/huwd/google-homepage/blob/master/google.html)
 * [Daniel K's Solution](https://github.com/DanielK95/google-homepage.git) | [View in browser (easy solution)] (https://htmlpreview.github.io/?https://github.com/DanielK95/google-homepage/blob/master/index.html) | [View in browser (difficult solution)] (https://htmlpreview.github.io/?https://github.com/DanielK95/google-homepage/blob/master/results.html)
 * [Finnishmiko's Solution](https://github.com/finnishmiko/the_odin_project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/finnishmiko/the_odin_project/blob/master/google-homepage/google-homepage.html)
+* [Michał Kopeć's Solution](https://github.com/mkopec/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/mkopec/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
