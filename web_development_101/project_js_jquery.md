@@ -310,4 +310,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Mitchell Bartolo's Solution](https://github.com/mbarts/javascript-jquery) | [View in browser](https://htmlpreview.github.io/?https://github.com/mbarts/javascript-jquery/blob/master/index.html)
 * [Jean Merlet's Solution](https://github.com/jeanmerlet/etch_a_sketch) | [View in browser](https://rawgit.com/jeanmerlet/etch_a_sketch/master/index.html)
 * [Rellbows' Solution](https://github.com/rellbows/etch-a-sketch.git)
+* [Finnishmiko's solution](https://github.com/finnishmiko/the_odin_project/tree/master/Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/finnishmiko/the_odin_project/blob/master/Sketchpad/sketchpad.html)
 * Add your solution above this line!
