@@ -118,6 +118,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Dan Hoying's solution](https://github.com/danhoying/members_only)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/members-only)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/members-only) | [View in browser](https://guarded-brook-9440.herokuapp.com/)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/members-only) | [View in browser](https://sleepy-citadel-6281.herokuapp.com/)
 
 * Add your solution above this line!
 
