@@ -311,4 +311,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jean Merlet's Solution](https://github.com/jeanmerlet/etch_a_sketch) | [View in browser](https://rawgit.com/jeanmerlet/etch_a_sketch/master/index.html)
 * [Rellbows' Solution](https://github.com/rellbows/etch-a-sketch.git)
 * [Finnishmiko's solution](https://github.com/finnishmiko/the_odin_project/tree/master/Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/finnishmiko/the_odin_project/blob/master/Sketchpad/sketchpad.html)
+* [Colin Thorpe's solution] (https://github.com/czthorpe/sketch-an-etch) | [View in browser](https://htmlpreview.github.io/?https://github.com/czthorpe/sketch-an-etch/blob/master/index.html)
 * Add your solution above this line!
