@@ -131,6 +131,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Andrew Johnson's solution](https://github.com/ad-johnson/learn_ruby)
 * [Kelly Downes' solution](https://github.com/kdow/test-first-learn-ruby)
 * [Andrea Marongiu's solution](https://github.com/carbonhoarder/0003-ruby-test-first/)
+* [DV's solution](https://github.com/dvislearning/learn_ruby_rspec)
 * * Add your solution above this line!
 
 
