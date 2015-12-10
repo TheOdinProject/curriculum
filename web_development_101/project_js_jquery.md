@@ -316,4 +316,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [YogAzathoth's solution](https://github.com/YogAzathoth/jQueryProject) | [View in browser] (https://htmlpreview.github.io/?https://github.com/YogAzathoth/jQueryProject/blob/master/index.html)
 * [Jess Farley's solution](https://github.com/littlemighty/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/littlemighty/etch-a-sketch/blob/master/index.html)
 * [Michael Tran's solution](https://github.com/mtran45/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/mtran45/sketchpad/blob/master/index.html)
+* [Albert's solution](https://github.com/albertfrei/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/albertfrei/Etch-A-Sketch/blob/master/etchASketch.html)
 * Add your solution above this line!
