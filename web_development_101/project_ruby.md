@@ -132,6 +132,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Kelly Downes' solution](https://github.com/kdow/test-first-learn-ruby)
 * [Andrea Marongiu's solution](https://github.com/carbonhoarder/0003-ruby-test-first/)
 * [DV's solution](https://github.com/dvislearning/learn_ruby_rspec)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/Odin_TestFirstRuby)
 * * Add your solution above this line!
 
 
