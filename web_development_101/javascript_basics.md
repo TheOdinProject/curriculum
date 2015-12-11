@@ -252,6 +252,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Kevin Biddle's solution] (https://github.com/kdbiddle/javascript_101) | [View in browser] (https://htmlpreview.github.io/?https://github.com/kdbiddle/javascript_101/blob/master/index.html)
 * [Pauline Judge's solution](https://github.com/chumswap/euler.git)
 * [Michael W's solution](https://github.com/Noble99/project-euler) 
+* [mattie rae's solution](https://github.com/mattierae/sandbox/tree/master/euler_project_solutions)
 * Add your solution above this line!
 
 ## Additional Resources
