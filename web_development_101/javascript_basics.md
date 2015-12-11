@@ -250,6 +250,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Brian Flatt's solution](https://github.com/bflatt72/projectEuler)
 * [Earth35's solution](https://github.com/Earth35/javascript-project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/javascript-project-euler/blob/master/project_euler.html)
 * [Kevin Biddle's solution] (https://github.com/kdbiddle/javascript_101) | [View in browser] (https://htmlpreview.github.io/?https://github.com/kdbiddle/javascript_101/blob/master/index.html)
+* [mattie rae's solution](https://github.com/mattierae/sandbox/tree/master/euler_project_solutions)
 * Add your solution above this line!
 
 ## Additional Resources
