@@ -41,6 +41,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 *  Giorgos's solution ([Caesar Cipher](https://github.com/vinPopulaire/ruby-building-blocks-project/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/vinPopulaire/ruby-building-blocks-project/blob/master/spec/enumerablie_methods_spec.rb), [Tic Tac Toe](https://github.com/vinPopulaire/tic-tac-toe/blob/master/spec/tic-tac-toe_spec.rb))
 *  srashidi's solution([Caesar Cipher](https://github.com/srashidi/Ruby_Building_Blocks/tree/master/caesar_cipher/spec), [Enumerable Methods](https://github.com/srashidi/Ruby_Building_Blocks/tree/master/My_Enumerable/spec), [Tic Tac Toe](https://github.com/srashidi/Object_Oriented_Programming/tree/master/Tic_Tac_Toe/spec))
 * cdouglass's solution ([Caesar Cipher](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/building-blocks/caesar-cipher), [Enumerable Methods](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/advanced-building-blocks/enumerable_methods), [Tic-Tac-Toe](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/oop/tic-tac-toe))
+* James Brooks's solution ([Caesar Cipher](https://github.com/jhbrooks/caesar-cipher/tree/master/spec), [Enumerable Methods](https://github.com/jhbrooks/my-enumerable/tree/master/spec), [Tic Tac Toe](https://github.com/jhbrooks/tic-tac-toe/tree/master/spec))
 * Add your solution above this line!
 
 
@@ -82,6 +83,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Alex Tsiras' solution](https://github.com/arialblack14/connect_four)
 * [srashidi's solution](https://github.com/srashidi/RSpec_Project/tree/master/connect_four)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/testing-ruby/connect-four)
+* [James Brooks's solution](https://github.com/jhbrooks/connect-four)
 * Add your solution above this line!
 
 
