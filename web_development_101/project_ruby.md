@@ -134,7 +134,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [DV's solution](https://github.com/dvislearning/learn_ruby_rspec)
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/Odin_TestFirstRuby)
 * [YogAzathoth's solution](https://github.com/YogAzathoth/projectRuby.git)
-* * Add your solution above this line!
+* [Jean Merlet's solution](https://github.com/jeanmerlet/test_first_ruby)
+* Add your solution above this line!
 
 
 ## Additional Resources
