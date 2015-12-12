@@ -520,6 +520,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Saj B's Solution](https://github.com/Sanju3001/google_homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/Sanju3001/google_homepage/blob/master/google.html)
 * [polymuffin's Solution](https://github.com/polymuffin/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://raw.githubusercontent.com/polymuffin/google-homepage/master/index.html)
 * [Michael W's Solution](https://github.com/Noble99/google-homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/Noble99/google-homepage/blob/master/index.html)
+* [SEGH's Solution](https://github.com/SEGH/google-homepage) [View in browser](https://htmlpreview.github.io/?https://github.com/SEGH/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 
