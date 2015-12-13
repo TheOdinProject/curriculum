@@ -253,6 +253,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Pauline Judge's solution](https://github.com/chumswap/euler.git)
 * [Michael W's solution](https://github.com/Noble99/project-euler) 
 * [mattie rae's solution](https://github.com/mattierae/sandbox/tree/master/euler_project_solutions)
+* [Pranav Anurag's solution](https://github.com/pranavanurag/projectEulerJS)
 * Add your solution above this line!
 
 ## Additional Resources
