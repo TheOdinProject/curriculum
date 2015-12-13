@@ -137,6 +137,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [srashidi's solution](https://github.com/srashidi/Data_Structures/blob/master/Knights_Travails/knight_moves.rb)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/data-structures-and-algorithms/knights_travails)
 * [James Brooks's solution](https://github.com/jhbrooks/knight-moves)
+* [Panashe Fundira's solution](https://github.com/munyari/odin/blob/master/learn-ruby/bfs_dfs/knight_shortest_path.rb)
 * Add your solution above this line!
 
 
