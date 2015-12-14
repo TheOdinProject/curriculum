@@ -249,12 +249,13 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Michał Kopeć's solution](https://github.com/mkopec/odin.javascript_basics) | [View in browser](http://htmlpreview.github.io/?https://github.com/mkopec/odin.javascript_basics/blob/master/index.html)
 * [Brian Flatt's solution](https://github.com/bflatt72/projectEuler)
 * [Earth35's solution](https://github.com/Earth35/javascript-project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/javascript-project-euler/blob/master/project_euler.html)
-* [Kevin Biddle's solution] (https://github.com/kdbiddle/javascript_101) | [View in browser] (https://htmlpreview.github.io/?https://github.com/kdbiddle/javascript_101/blob/master/index.html)
+* [Kevin Biddle's solution](https://github.com/kdbiddle/javascript_101) | [View in browser](https://htmlpreview.github.io/?https://github.com/kdbiddle/javascript_101/blob/master/index.html)
 * [Pauline Judge's solution](https://github.com/chumswap/euler.git)
 * [Michael W's solution](https://github.com/Noble99/project-euler) 
 * [mattie rae's solution](https://github.com/mattierae/sandbox/tree/master/euler_project_solutions)
 * [Pranav Anurag's solution](https://github.com/pranavanurag/projectEulerJS)
 * [Nazim's solution](https://github.com/chilno/the_odin_project/tree/master/Euler%20project)
+* [Andrew W's solution](https://github.com/polygoning/js_101)
 * Add your solution above this line!
 
 ## Additional Resources
