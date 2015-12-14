@@ -254,6 +254,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Michael W's solution](https://github.com/Noble99/project-euler) 
 * [mattie rae's solution](https://github.com/mattierae/sandbox/tree/master/euler_project_solutions)
 * [Pranav Anurag's solution](https://github.com/pranavanurag/projectEulerJS)
+* [Andrew W's solution](https://github.com/polygoning/js_101)
 * Add your solution above this line!
 
 ## Additional Resources
