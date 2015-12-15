@@ -2248,26 +2248,6 @@ section = create_or_update_section(
 
 lesson_counter += 1
 create_or_update_lesson(   
-    :title => "Node.js and Server-Side Javascript", 
-    :title_url => "Node.js and Server-Side Javascript".parameterize,
-    :description => "These days you never have to leave your beloved Javascript behind because now it can run on the server side too with Node.", 
-    :position => lesson_counter, 
-    :section_id => section.id, 
-    :is_project => false, 
-    :url => "/javascript/server_side_js.md"
-  )
-lesson_counter += 1
-create_or_update_lesson(   
-    :title => "Node.js", 
-    :title_url => "Node.js".parameterize,
-    :description => "Fire up a Node server and play around with it, because that's how we learn.", 
-    :position => lesson_counter, 
-    :section_id => section.id, 
-    :is_project => true, 
-    :url => "/javascript/project_node.md"
-  )
-lesson_counter += 1
-create_or_update_lesson(   
     :title => "Using Templates", 
     :title_url => "Using Templates".parameterize,
     :description => "Templating brings the magical re-usability of layouts to the client side.", 
@@ -2295,6 +2275,26 @@ create_or_update_lesson(
     :section_id => section.id, 
     :is_project => true, 
     :url => "/javascript/project_js_frameworks.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Node.js and Server-Side Javascript", 
+    :title_url => "Node.js and Server-Side Javascript".parameterize,
+    :description => "These days you never have to leave your beloved Javascript behind because now it can run on the server side too with Node.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => false, 
+    :url => "/javascript/server_side_js.md"
+  )
+lesson_counter += 1
+create_or_update_lesson(   
+    :title => "Node.js", 
+    :title_url => "Node.js".parameterize,
+    :description => "Fire up a Node server and play around with it, because that's how we learn.", 
+    :position => lesson_counter, 
+    :section_id => section.id, 
+    :is_project => true, 
+    :url => "/javascript/project_node.md"
   )
 lesson_counter += 1
 create_or_update_lesson(   
