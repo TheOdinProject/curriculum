@@ -524,6 +524,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Ryan Paixao's Solution](https://github.com/ryanpaixao/google-homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/ryanpaixao/google-homepage/blob/master/index.html)
 * [Andrew W's Solution](https://github.com/polygoning/google-homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/polygoning/google-homepage/blob/master/index.html)
 * [Marie Sheridan's Solution](https://github.com/mariesheridan/google-homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/mariesheridan/google-homepage/blob/master/index.html)
+* [Armin Zierlinger's Solution](https://github.com/ArminZierlinger/google-hompage) | [View in Browser Easy](https://rawgit.com/ArminZierlinger/google-hompage/master/index.html) | [View in Browser Difficult](https://rawgit.com/ArminZierlinger/google-hompage/master/google-result.html)
 * Add your solution above this line!
 
 ## Additional Resources
