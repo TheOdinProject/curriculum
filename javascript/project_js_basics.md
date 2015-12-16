@@ -63,6 +63,7 @@ It's time to build an on-screen calculator
 * [Wayne's solution](https://github.com/wayneho/On-Screen-Calculator) | [View in browswer](https://rawgit.com/wayneho/On-Screen-Calculator/master/index.html)
 * [Ryan Chang's solution](https://github.com/chang-ryan/javascript-calculator) | [View in browser](https://rawgit.com/chang-ryan/javascript-calculator/master/index.html)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/javascript-and-jquery/calculator) | [View in browser](http://rawgit.com/swfree/the-odin-project/master/javascript-and-jquery/calculator/index.html)
+* [Pauline Judge's solution](https://github.com/chumswap/calculator.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/chumswap/calculator/blob/master/calculator.html)
 * Add your solution above this line!
 
 
