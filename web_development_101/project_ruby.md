@@ -135,6 +135,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/Odin_TestFirstRuby)
 * [YogAzathoth's solution](https://github.com/YogAzathoth/projectRuby.git)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/test_first_ruby)
+* [Jack Deegan's solution](https://github.com/DidsyTurbo/learn_ruby)
 * Add your solution above this line!
 
 
