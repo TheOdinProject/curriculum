@@ -124,6 +124,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Kelvin Stone's solution](https://github.com/KelvinStone/blogger) | [View in browser](https://evening-badlands-2352.herokuapp.com/)
 * [Andrew Johnson's solution](https://github.com/ad-johnson/blogger) | [View in browser]
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/blogger.git)
+* [Jack Wilde's solution](https://github.com/WildeRunner/jumpstart_blogger) | [view in browser](mysterious-tundra-7601.herokuapp.com)
 * Add your solution above this line!
 
 
