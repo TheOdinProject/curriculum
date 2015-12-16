@@ -319,4 +319,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Brian Flatt's Solution] (https://github.com/bflatt72/etchaSketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/bflatt72/etchaSketch/blob/master/index.html)
 * [Pauline Judge's solution](https://github.com/chumswap/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/chumswap/sketchpad/blob/master/sketchpad.html)
 * [Albert's solution](https://github.com/albertfrei/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/albertfrei/Etch-A-Sketch/blob/master/etchASketch.html)
+* [Bryan's solution](https://github.com/brydave/Etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/brydave/Etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
