@@ -321,4 +321,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Albert's solution](https://github.com/albertfrei/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/albertfrei/Etch-A-Sketch/blob/master/etchASketch.html)
 * [Bryan's solution](https://github.com/brydave/Etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/brydave/Etch-a-sketch/blob/master/index.html)
 * [Andrew Wilson's solution](https://github.com/polygoning/etchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/polygoning/etchpad/blob/master/index.html)
+* [Gabriel Perez's solution](https://github.com/Asyll/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Asyll/Etch-A-Sketch/blob/master/index.html)
 * Add your solution above this line!
