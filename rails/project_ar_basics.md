@@ -146,6 +146,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Aviv Levinsky's solution](https://github.com/pugsiman/micro-redit)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/Micro-Reddit)
 * [Alex Tsiras' solution](https://github.com/arialblack14/micro_reddit)
+* [Patrick Mallee's solution](https://github.com/patmallee/micro-reddit)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
