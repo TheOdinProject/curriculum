@@ -47,6 +47,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/embeded_images_and_videos) | [View in browser](http://htmlpreview.github.io/?https://github.com/KevinMulhern/embeded_images_and_videos/blob/master/index.html)
 * [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/Embedding-Images-and-Video) | [View in browser](http://dusanmilosavljevic1624.github.io/Embedding-Images-and-Video/)
 * [Noman Karim's solution](https://github.com/nomankarim/youtube-play-preview) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/youtube-play-preview/blob/master/index.html)
+* [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/youtube/index.html)
 * Add your solution above this line!
 
 
