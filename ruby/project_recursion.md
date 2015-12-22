@@ -70,6 +70,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [James Brooks's solution](https://github.com/jhbrooks/recursion/blob/master/fibonacci.rb)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/fibonacci)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/fibonacci)
+* [Matt Velez's solution](https://github.com/Timecrash/ruby-projects/blob/master/recursion/fibonacci.rb)
 * Add your solution above this line!
 
 
@@ -150,6 +151,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [James Brooks's solution](https://github.com/jhbrooks/recursion/blob/master/merge_sort.rb)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/merge_sort)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/merge_sort)
+* [Matt Velez's solution](https://github.com/Timecrash/ruby-projects/blob/master/recursion/merge_sort.rb)
 * Add your solution above this line!
 
 
