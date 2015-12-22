@@ -325,4 +325,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Marie Sheridan's solution](https://github.com/mariesheridan/sketcher) | [View in browser](http://htmlpreview.github.io/?https://github.com/mariesheridan/sketcher/blob/master/index.html)
 * [Michael W's solution](https://github.com/Noble99/etch-a-sketch)|[View in browser](http://htmlpreview.github.io/?https://github.com/Noble99/etch-a-sketch/blob/master/index.html)
 * [Paulo Silva's solution](https://github.com/paulocoding/MosaicPaint) | [View in browser](http://htmlpreview.github.io/?https://github.com/paulocoding/MosaicPaint/blob/master/public/index.html)
+* [Matt James' solution](https://github.com/thirteenten/sketch-pad)
 * Add your solution above this line!
