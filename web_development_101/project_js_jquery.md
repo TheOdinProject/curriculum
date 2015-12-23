@@ -327,4 +327,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Paulo Silva's solution](https://github.com/paulocoding/MosaicPaint) | [View in browser](http://htmlpreview.github.io/?https://github.com/paulocoding/MosaicPaint/blob/master/public/index.html)
 * [Sean Snyder's solution](https://github.com/Snyder-/etchasketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Snyder-/etchasketch/blob/master/index.html)
 * [Kevin Biddle's solution](https://github.com/kdbiddle/sketch_pad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/kdbiddle/sketch_pad/blob/master/index.html)
+* [SEGH's solution](https://github.com/SEGH/jquery-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/SEGH/jquery-sketchpad/blob/master/index.html)
 * Add your solution above this line!
