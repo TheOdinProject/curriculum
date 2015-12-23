@@ -329,4 +329,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Kevin Biddle's solution](https://github.com/kdbiddle/sketch_pad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/kdbiddle/sketch_pad/blob/master/index.html)
 * [SEGH's solution](https://github.com/SEGH/jquery-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/SEGH/jquery-sketchpad/blob/master/index.html)
 * [Zac Conner's solution](https://github.com/connerza/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/connerza/Etch-A-Sketch/blob/master/index.html)
+* [Matt James' solution](https://github.com/thirteenten/sketch-pad)
 * Add your solution above this line!
