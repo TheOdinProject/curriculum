@@ -258,6 +258,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Andrew W's solution](https://github.com/polygoning/js_101)
 * [Marie Sheridan's solution](https://github.com/mariesheridan/projecteuler) | [View in browser](http://htmlpreview.github.io/?https://github.com/mariesheridan/projecteuler/blob/master/index.html)
 * [Solutions by SEGH](https://github.com/SEGH/javascript-basics)
+* [Chris B's solution](https://github.com/browncj/project_euler_javascript)
 * Add your solution above this line!
 
 ## Additional Resources
