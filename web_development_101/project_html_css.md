@@ -531,7 +531,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Chris Brown's solution](https://github.com/browncj/google-homepage) [View in Browser](https://htmlpreview.github.io/?https://github.com/browncj/google-homepage/blob/master/index.html)
 * [Ariel Elliott's Solution](https://github.com/arielelliott/google-homepage) | [View in Browser - Easy](http://htmlpreview.github.io/?https://github.com/arielelliott/google-homepage/blob/master/index.html)
 * [Peter Taggart's Solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/HTML/google_homepage) | [View in Browser - Difficult] (http://htmlpreview.github.io/?https://github.com/gitschwifty/Programming/blob/master/The%20Odin%20Project/HTML/google_homepage/index.html)
-* Add your solution above this line!
+* [Linh Le Tuan's Solution](https://github.com/Lin84/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/Lin84/google-homepage/blob/master/index.html)
+* Add your solution above this line! 
 
 ## Additional Resources
 
