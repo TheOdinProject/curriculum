@@ -259,6 +259,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Marie Sheridan's solution](https://github.com/mariesheridan/projecteuler) | [View in browser](http://htmlpreview.github.io/?https://github.com/mariesheridan/projecteuler/blob/master/index.html)
 * [Solutions by SEGH](https://github.com/SEGH/javascript-basics)
 * [Chris B's solution](https://github.com/browncj/project_euler_javascript)
+* [Ramon Reyes's solution](https://github.com/Reyesjunk/project-euler.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/reyesjunk/project-euler/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
