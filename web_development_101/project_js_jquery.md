@@ -326,9 +326,10 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Michael W's solution](https://github.com/Noble99/etch-a-sketch)|[View in browser](http://htmlpreview.github.io/?https://github.com/Noble99/etch-a-sketch/blob/master/index.html)
 * [Paulo Silva's solution](https://github.com/paulocoding/MosaicPaint) | [View in browser](http://htmlpreview.github.io/?https://github.com/paulocoding/MosaicPaint/blob/master/public/index.html)
 * [Sean Snyder's solution](https://github.com/Snyder-/etchasketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Snyder-/etchasketch/blob/master/index.html)
-* [Kevin Biddle's solution](https://github.com/kdbiddle/sketch_pad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/kdbiddle/sketch_pad/blob/master/index.html)
+* [Kevin Biddle's solution](https://github.com/kdbiddle/sketch_pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/kdbiddle/sketch_pad/blob/master/index.html)
 * [SEGH's solution](https://github.com/SEGH/jquery-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/SEGH/jquery-sketchpad/blob/master/index.html)
 * [Zac Conner's solution](https://github.com/connerza/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/connerza/Etch-A-Sketch/blob/master/index.html)
 * [Matt James' solution](https://github.com/thirteenten/sketch-pad)
 * [Leo Soai-Van's solution](https://github.com/leosoaivan/etch-a-sketch)
+* [Linh Le Tuan's solution](https://github.com/Lin84/etch-n-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/Lin84/etch-n-sketch/blob/master/index.html)
 * Add your solution above this line!
