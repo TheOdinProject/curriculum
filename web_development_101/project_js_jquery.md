@@ -332,4 +332,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Matt James' solution](https://github.com/thirteenten/sketch-pad)
 * [Leo Soai-Van's solution](https://github.com/leosoaivan/etch-a-sketch)
 * [Linh Le Tuan's solution](https://github.com/Lin84/etch-n-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/Lin84/etch-n-sketch/blob/master/index.html)
+* [Peter Taggart's solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Javascript:jQuery%20Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/gitschwifty/Programming/blob/master/The%20Odin%20Project/Javascript:jQuery%20Project/index.html)
 * Add your solution above this line!
