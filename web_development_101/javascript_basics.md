@@ -261,6 +261,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Chris B's solution](https://github.com/browncj/project_euler_javascript)
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/project-euler.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/reyesjunk/project-euler/index.html)
 * [ryanpaixao's solution](https://github.com/ryanpaixao/javascript/tree/master) | [View in browser](http://htmlpreview.github.io/?https://github.com/ryanpaixao/javascript/blob/master/index.html)
+* [Peter Taggart's Solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Javascript/Project%20Euler)
 * Add your solution above this line!
 
 ## Additional Resources
