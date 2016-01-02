@@ -139,6 +139,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Mitesh Athia's solution](https://github.com/mathia4/ruby_exercises)
 * [Earth35's solution] (https://github.com/Earth35/project-basic-ruby)
 * [Mitch Conquer's solution](https://github.com/mitchrobot/learn_ruby)
+* [Marie Sheridan's solution](https://github.com/mariesheridan/learn_ruby)
 * Add your solution above this line!
 
 
