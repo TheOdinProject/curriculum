@@ -533,6 +533,8 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Peter Taggart's Solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/HTML/google_homepage) | [View in Browser - Difficult] (http://htmlpreview.github.io/?https://github.com/gitschwifty/Programming/blob/master/The%20Odin%20Project/HTML/google_homepage/index.html)
 * [Linh Le Tuan's Solution](https://github.com/Lin84/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/Lin84/google-homepage/blob/master/index.html)
 * [Muthumbi's Solution](https://github.com/muthumbi/The-Odin-Project/tree/master/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/muthumbi/The-Odin-Project/blob/master/google-homepage/index.html)
+* [lyhbarry's Solution](https://github.com/lyhbarry/google-homepage) | [View in Browser] (
+https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * Add your solution above this line! 
 
 ## Additional Resources
