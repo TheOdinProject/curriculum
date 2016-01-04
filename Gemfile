@@ -8,7 +8,7 @@ gem 'newrelic_rpm',       '~> 3.6.5.130'
 gem 'google-api-client',  '~> 0.6.4'
 gem 'devise',    '~> 3.2.4'          # For managing authentication
 gem 'figaro',     '~> 0.7.0'                    # Managing environment variables
-gem 'github_api', '~> 0.11.1' # to pull in the curriculum files
+gem 'github_api' #, '~> 0.11.1' # to pull in the curriculum files
 gem 'thin', '~> 1.6.1' # to use the "thin" webserver instead of webrick
 gem 'redcarpet', '~> 3.0.0' # to render the curriculum's .md files as html
 gem 'will_paginate', '~> 3.0.5' # to paginate student lists

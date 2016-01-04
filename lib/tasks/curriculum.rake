@@ -5,14 +5,19 @@ namespace :curriculum do
     puts "Updating the curriculum..."
 
     puts "Creating Github link..."
-    github = Github::Repos.new :user => "theodinproject", :repo => "curriculum", :oauth_token => "#{ENV['GITHUB_API_TOKEN']}"
+
+    github = Github.new do |g|
+      g.user        = "theodinproject"
+      g.repo        = "curriculum"
+      g.oauth_token = "#{ENV['GITHUB_API_TOKEN']}"
+    end
 
     lessons = Lesson.all
     count = lessons.count
     puts "Cycling through #{count} lessons...\n\n\n"
     lessons.each_with_index do |lesson,i|
       puts "Retrieving Lesson #{i+1}/#{count}: #{lesson.title}"
-      response = github.contents.get :path => lesson.url
+      response = github.repos.contents.get :path => lesson.url
       # Decode the gibberish into a real file and render to html
       decoded_file = Base64.decode64(response["content"])
       
