@@ -103,6 +103,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/odin-kittens)
 * [dchen71's solution](https://github.com/dchen71/odin-kittens)
 * [Matias Pan's solution](https://github.com/kriox26/odin-kittens)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/odin-kittens)
 * Add your solution above this line!
 
 
