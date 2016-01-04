@@ -128,6 +128,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [YogAzathoth's solution](https://github.com/YogAzathoth/projectRails) | [View in browser](https://cryptic-shelf-1716.herokuapp.com/ )
 * [Kelly Downes' solution](https://github.com/kdow/blogger) | [View in browser](https://enigmatic-tor-3115.herokuapp.com/)
 * [Andrew Wilson's solution](https://github.com/polygoning/blogger.git)
+* [Jack Deegan's solution](https://github.com/DidsyTurbo/blogger) | [View in browser](https://enigmatic-ocean-9959.herokuapp.com/)
 * Add your solution above this line!
 
 
