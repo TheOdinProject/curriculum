@@ -259,9 +259,10 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Marie Sheridan's solution](https://github.com/mariesheridan/projecteuler) | [View in browser](http://htmlpreview.github.io/?https://github.com/mariesheridan/projecteuler/blob/master/index.html)
 * [Solutions by SEGH](https://github.com/SEGH/javascript-basics)
 * [Chris B's solution](https://github.com/browncj/project_euler_javascript)
-* [Ramon Reyes's solution](https://github.com/Reyesjunk/project-euler.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/reyesjunk/project-euler/index.html)
+* [Ramon Reyes's solution](https://github.com/Reyesjunk/project-euler.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/reyesjunk/project-euler/index.html)
 * [ryanpaixao's solution](https://github.com/ryanpaixao/javascript/tree/master) | [View in browser](http://htmlpreview.github.io/?https://github.com/ryanpaixao/javascript/blob/master/index.html)
 * [Peter Taggart's Solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Javascript/Project%20Euler)
+* [Marceia Egler's solution] https://github.com/megler/Euler.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/megler/Euler/blob/master/euler.html)
 * Add your solution above this line!
 
 ## Additional Resources
@@ -271,5 +272,5 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * A straight-to-the-point [primer on Javascript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
 * Reading: The first several sections of the [hsablonniere's Javascript 101 Course](http://hsablonniere.github.io/markleft/prezas/javascript-101.html#1.0).
-* Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
+* Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/jvascript).
 * [OverAPI's Javascript cheat sheet](http://overapi.com/javascript/)
