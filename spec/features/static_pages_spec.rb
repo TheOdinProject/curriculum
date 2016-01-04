@@ -73,11 +73,6 @@ describe "StaticPages" do
     end
 
     context "clicking the 'more' link should show paths", :js => true do
-      before { find("#newbie-path-link").click }
-
-      it "should have title 'The Courses'" do
-        expect(page).to have_selector("h3", text: "Student/Observer")
-      end
 
       before { find("#adv-beginner-path-link").click }
 
@@ -85,17 +80,6 @@ describe "StaticPages" do
         expect(page).to have_selector("h3", text: "Story Owner")
       end
 
-      before { find("#engineer-path-link").click }
-
-      it "should have title 'Mentor'" do
-        expect(page).to have_selector("h3", text: "Mentor")
-      end
-
-      before { find("#nontechnical-path-link").click }
-
-      it "should have title 'Designer/UX'" do
-        expect(page).to have_selector("h3", text: "Designer/UX")
-      end
     end
     
     context "should have a hall of fame" do
