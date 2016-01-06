@@ -540,6 +540,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Marceia Egler's Solution](https://github.com/megler/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/megler/google-homepage/blob/master/index.html)
 * [Jorge Gonzalez's Solution](https://github.com/jrgz/google-homepage) | [View in Browser](http://jorgegonzalez.io/google-homepage)
+* [Lawrence Lin's Solution](https://github.com/gideo/OdinProject/tree/master/google-homepage)[View in Browser](http://htmlpreview.github.io/?https://github.com/gideo/OdinProject/blob/master/google-homepage/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
