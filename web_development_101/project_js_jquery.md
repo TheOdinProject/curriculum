@@ -335,4 +335,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Peter Taggart's solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Javascript:jQuery%20Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/gitschwifty/Programming/blob/master/The%20Odin%20Project/Javascript:jQuery%20Project/index.html)
 * [ryanpaixao's solution](https://github.com/ryanpaixao/etch_a_sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/ryanpaixao/etch_a_sketch/blob/master/index.html)
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/Reyesjunk/sketch-pad/blob/master/index.html)
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/JS-Grid-Project) | [View in Browser](http://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/JS-Grid-Project/blob/master/Grid_Project.html)
 * Add your solution above this line!
