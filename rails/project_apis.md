@@ -136,6 +136,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/odin-flickr-api-app)
 * [AtActionPark's solution - With fix for ssl error on windows](https://github.com/AtActionPark/odin_flickr_api_app)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/flickr_api)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/odin-flickr-api)
 * Add your solution above this line!
 
 
