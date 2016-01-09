@@ -542,6 +542,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Jorge Gonzalez's Solution](https://github.com/jrgz/google-homepage) | [View in Browser](http://jorgegonzalez.io/google-homepage)
 * [Lawrence Lin's Solution](https://github.com/gideo/OdinProject/tree/master/google-homepage)[View in Browser](http://htmlpreview.github.io/?https://github.com/gideo/OdinProject/blob/master/google-homepage/index.html)
 * [chinjon's Solution](https://github.com/chinjon/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/chinjon/google-homepage/blob/master/index.html)
+* [Kermit Strachan's Solution](https://github.com/Mertik/the-odin-project/tree/master/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/Mertik/the-odin-project/blob/master/google-homepage/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
