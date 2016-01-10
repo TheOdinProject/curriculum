@@ -19,6 +19,9 @@ gem 'omniauth-github' #for Github Authentication
 gem "font-awesome-rails"
 gem 'disqus' #for the forum sections of the website
 
+# Because premailer choked on the newer version...
+gem 'nokogiri', '1.6.2.1'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
