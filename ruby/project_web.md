@@ -244,6 +244,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/ruby-on-the-web/server-and-browser)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/web_server) with help from other student solutions!
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/tree/master/ruby_web)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/server)
 * Add your solution above this line!
 
 
