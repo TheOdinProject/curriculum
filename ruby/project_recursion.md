@@ -153,6 +153,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/merge_sort)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/merge_sort)
 * [Matt Velez's solution](https://github.com/Timecrash/ruby-projects/blob/master/recursion/merge_sort.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/cs/mergesort.rb)
 * Add your solution above this line!
 
 
