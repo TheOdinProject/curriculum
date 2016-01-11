@@ -141,6 +141,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Mitch Conquer's solution](https://github.com/mitchrobot/learn_ruby)
 * [Kevin Biddle's solution](https://github.com/kdbiddle/ruby_testing)
 * [Marie Sheridan's solution](https://github.com/mariesheridan/learn_ruby)
+* [Anvekar's solution](https://github.com/gga26/Rspec-Tests)
 * Add your solution above this line!
 
 
