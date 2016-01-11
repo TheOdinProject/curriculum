@@ -71,6 +71,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/fibonacci)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/fibonacci)
 * [Matt Velez's solution](https://github.com/Timecrash/ruby-projects/blob/master/recursion/fibonacci.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/cs/fib.rb)
 * Add your solution above this line!
 
 
