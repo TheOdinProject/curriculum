@@ -105,6 +105,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Matias Pan's solution](https://github.com/kriox26/odin-kittens)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/odin-kittens)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/odin-kittens)
+* [lynchd2's solution](https://github.com/lynchd2/TOP-ruby-on-rails/tree/master/odin-photo-feeder)
 * Add your solution above this line!
 
 
