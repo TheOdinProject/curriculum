@@ -130,6 +130,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Andrew Wilson's solution](https://github.com/polygoning/blogger.git)
 * [Jack Deegan's solution](https://github.com/DidsyTurbo/blogger) | [View in browser](https://enigmatic-ocean-9959.herokuapp.com/)
 * [Earth35's solution] (https://github.com/Earth35/rails-project) | [View in browser] (https://mysterious-hollows-4200.herokuapp.com)
+* [Zac Conner's solution] (https://github.com/connerza/Blogger) | [View in browser] (https://powerful-sands-3963.herokuapp.com)
 * Add your solution above this line!
 
 
