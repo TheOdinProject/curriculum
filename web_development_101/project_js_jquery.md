@@ -336,4 +336,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [ryanpaixao's solution](https://github.com/ryanpaixao/etch_a_sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/ryanpaixao/etch_a_sketch/blob/master/index.html)
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/Reyesjunk/sketch-pad/blob/master/index.html)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/JS-Grid-Project) | [View in Browser](http://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/JS-Grid-Project/blob/master/Grid_Project.html)
+* [Armin Zierlinger's solution](https://github.com/ArminZierlinger/Sketch-Pad) [View in Browser](https://rawgit.com/ArminZierlinger/Sketch-Pad/master/index.html)
 * Add your solution above this line!
