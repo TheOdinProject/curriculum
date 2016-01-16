@@ -48,7 +48,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
         > user.authenticate("somethingelse")
         => false
         > user.authenticate("foobar")
-        => true
+        => #<User id: 1, name: "foobar", email: "foo@bar.com", password_digest: "$2a$10$9Lx...", created_at: "2016...", updated_at: "2016...">
     ```
 
 #### Sessions and Sign In
