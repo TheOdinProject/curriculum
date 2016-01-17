@@ -355,6 +355,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [YogAzathoth's solution](https://github.com/YogAzathoth/RubyBuildingBlocks/blob/master/stock_picker.rb)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/building_blocks/blob/master/stocks.rb)
 * [Max Platt's solution](https://github.com/makxks/building_blocks/blob/master/stocks.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/stock_picker.rb)
 * Add your solution above this line!
 
 
@@ -526,4 +527,5 @@ Next, make sure your method can handle multiple words:
 * [YogAzathoth's solution](https://github.com/YogAzathoth/RubyBuildingBlocks/blob/master/substrings.rb)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/building_blocks/blob/master/substrings.rb)
 * [Max Platt's solution](https://github.com/makxks/building_blocks/blob/master/substrings.rb)
+* [Luke Walker's solutions](https://github.com/ubershibs/ruby-programming/blob/master/substrings.rb)
 * Add your solution above this line!
