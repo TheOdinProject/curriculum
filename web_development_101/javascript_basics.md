@@ -266,6 +266,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Armin Zierlinger's solution](https://github.com/ArminZierlinger/euler-project) | [View in browser](https://rawgit.com/ArminZierlinger/euler-project/master/problem3.html)
 * [MLT-SRG's solution](https://github.com/MLT-SRG/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/MLT-SRG/euler-problems/blob/master/index.html)
 * [Derek Scace's Solution](https://github.com/dscace/project_euler)
+* [Oscar Y's Solution](https://github.com/mysteryihs/Project-Euler)
 * Add your solution above this line!
 
 ## Additional Resources
