@@ -42,6 +42,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 *  srashidi's solution([Caesar Cipher](https://github.com/srashidi/Ruby_Building_Blocks/tree/master/caesar_cipher/spec), [Enumerable Methods](https://github.com/srashidi/Ruby_Building_Blocks/tree/master/My_Enumerable/spec), [Tic Tac Toe](https://github.com/srashidi/Object_Oriented_Programming/tree/master/Tic_Tac_Toe/spec))
 * cdouglass's solution ([Caesar Cipher](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/building-blocks/caesar-cipher), [Enumerable Methods](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/advanced-building-blocks/enumerable_methods), [Tic-Tac-Toe](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/oop/tic-tac-toe))
 * James Brooks's solution ([Caesar Cipher](https://github.com/jhbrooks/caesar-cipher/tree/master/spec), [Enumerable Methods](https://github.com/jhbrooks/my-enumerable/tree/master/spec), [Tic Tac Toe](https://github.com/jhbrooks/tic-tac-toe/tree/master/spec))
+* Luke Walker's solution ([Caesar Cipher](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/tictactoe3_spec.rb)
 * Add your solution above this line!
 
 
