@@ -267,6 +267,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [MLT-SRG's solution](https://github.com/MLT-SRG/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/MLT-SRG/euler-problems/blob/master/index.html)
 * [Derek Scace's Solution](https://github.com/dscace/project_euler)
 * [Lawrence Lin's Solution](https://github.com/gideo/OdinProject/tree/master/euler1-3) | [View in browser](http://htmlpreview.github.io/?https://github.com/gideo/OdinProject/blob/master/euler1-3/index.html)
+* [Brandon Phillips's Solution](https://github.com/bpdev97/Study/tree/master/odin-project/euler-js) | [View in browser](https://htmlpreview.github.io/?https://github.com/bpdev97/Study/blob/master/odin-project/euler-js/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
