@@ -39,7 +39,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 
-* [Max Gallant's solution](https://github.com/mcgalcode/Sketch-Tool) | [View in browser](https://htmlpreview.github.io/?https://github.com/mcgalcode/Sketch-Tool/blob/master/index.html)
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/sketch-pad/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/SketchPad) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/SketchPad/index.html)
@@ -339,4 +338,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/Reyesjunk/sketch-pad/blob/master/index.html)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/JS-Grid-Project) | [View in Browser](http://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/JS-Grid-Project/blob/master/Grid_Project.html)
 * [Armin Zierlinger's solution](https://github.com/ArminZierlinger/Sketch-Pad) [View in Browser](https://rawgit.com/ArminZierlinger/Sketch-Pad/master/index.html)
+* [Max Gallant's solution](https://github.com/mcgalcode/Sketch-Tool) | [View in browser](https://htmlpreview.github.io/?https://github.com/mcgalcode/Sketch-Tool/blob/master/index.html)
 * Add your solution above this line!
