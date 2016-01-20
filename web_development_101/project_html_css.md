@@ -490,6 +490,12 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [Josh Berry's Solution] (https://github.com/jbez92/google-homepage/blob/master/index.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/jbez92/google-homepage/blob/master/index.html)
 * [Matt Velez' Solution] (https://github.com/Timecrash/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Timecrash/google-homepage/blob/master/index.html)
 * [Wenchuan Lin's Solution](https://github.com/Springok/OdinProject/tree/master/GoogleHomepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Springok/OdinProject/blob/master/GoogleHomepage/index.html)
+<<<<<<< HEAD
+*[Tahmid's solution]
+(https://github.com/tahmid-ul/google-homepage) | [View in browser]
+(https://htmlpreview.github.io/?
+https://github.com/tahmid-ul/google-homepage/blob/master/index.html)
+=======
 * [Cody Cooper's Solution](https://github.com/Cody-Cooper/odin-project/tree/master/web-development-101/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Cody-Cooper/odin-project/blob/master/web-development-101/google-homepage/index.html)
 * [hksp's Solution] (https://github.com/umsugit/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/umsugit/google-homepage/blob/master/index.html)
 * [Mailat Radu's Solution] (https://github.com/MailatRadu/google-homepage) | [View in browser] ( https://htmlpreview.github.io/?https://github.com/MailatRadu/google-homepage/blob/master/index.html)
@@ -549,6 +555,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Gitnik's solution](https://github.com/petarGitNik/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/petarGitNik/google-homepage/blob/master/project-solution/index.html)
 * [Max Gallant's Easy solution](https://github.com/mcgalcode/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mcgalcode/google-homepage/blob/master/index.html)
 * [Max Gallant's Difficult solution](https://github.com/mcgalcode/google-homepage/tree/master/google-results) | [View in browser](http://htmlpreview.github.io/?https://github.com/mcgalcode/google-homepage/blob/master/google-results/index.html)
+>>>>>>> upstream/master
 * Add your solution above this line!
 
 ## Additional Resources
