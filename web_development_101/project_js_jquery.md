@@ -1,4 +1,4 @@
-# Project: Javascript/jQuery
+﻿# Project: Javascript/jQuery
 
 <!-- *Estimated Time: 2-4 hrs* -->
 
@@ -340,4 +340,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Armin Zierlinger's solution](https://github.com/ArminZierlinger/Sketch-Pad) [View in Browser](https://rawgit.com/ArminZierlinger/Sketch-Pad/master/index.html)
 * [Zach Blake's Solution](https://github.com/zachtblake/sketchpad) | [View in Browser](https://rawgit.com/zachtblake/sketchpad/master/dist/index.html)
 * [Max Gallant's solution](https://github.com/mcgalcode/Sketch-Tool) | [View in browser](https://htmlpreview.github.io/?https://github.com/mcgalcode/Sketch-Tool/blob/master/index.html)
+* [Tahmid's solution](https://github.com/tahmid-ul/Sketch-pad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tahmid-ul/Sketch-pad/blob/master/index.html)
 * Add your solution above this line!
