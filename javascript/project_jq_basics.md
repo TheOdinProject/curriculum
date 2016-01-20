@@ -34,6 +34,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [dchen71's solution] (https://github.com/dchen71/odin-dom_manipulation) | [View in browser](https://rawgit.com/dchen71/odin-dom_manipulation/master/Index.html)
 * [AyeSea's solution] (https://github.com/AyeSea/odin-dom-manipulation) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/odin-dom-manipulation/blob/master/index.html)
 * [Dan's solution] (https://github.com/vickerdj/dommanip) [View in browser] (http://vickerdj.github.io/dommanip/)
+* [Pauline Judge's solution](https://github.com/chumswap/restaurantSite) | [View in browser](https://htmlpreview.github.io/?https://github.com/chumswap/restaurantSite/blob/master/restaurant.html)
 * Add your solution above this line!
 
 

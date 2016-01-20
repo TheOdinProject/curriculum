@@ -90,6 +90,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [dchen71's solution](https://github.com/dchen71/private-events) | [View in browser](http://ronchon-moliere-6251.herokuapp.com/)
 * [Matias Pan's solution](https://github.com/kriox26/private-events) | [View in browser](https://polar-refuge-9964.herokuapp.com/)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/private-events)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/private-events)
 * Add your solution above this line!
 
 

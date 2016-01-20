@@ -30,4 +30,4 @@ In the following lessons, you'll get a healthy understanding of each of the thre
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [A longer course digging deeply into your browser's developer tools from Code School](http://discover-devtools.codeschool.com/)
-* [Skills of a Successful Front-end Web developer](https://drupal.org/node/1245650) from Drupal (a CMS based on PHP).
+* [Skills of a Successful Front-end Web developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).

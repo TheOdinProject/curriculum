@@ -116,6 +116,21 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Skye Free's solution](https://github.com/swfree/blogger) | [View in browser](https://frightful-tomb-1917.herokuapp.com/articles)
 * [Mateusz Staszczyk’s solution](https://github.com/sleaz0id/blogger)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/blogger) | [View in browser](https://arcane-chamber-8578.herokuapp.com/)
+* [Cecilia Avery solution](https://github.com/cilavery/rails-blog) | [View in Browser](http://cecilia.avery.nyc)
+* [Luke Walker's solution](https://github.com/ubershibs/rails-blogger) | [View in browser](https://luke-blogger2.herokuapp.com)
+* [Novneet's Solution](https://github.com/novneetnov/Rails_Blog)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/blogger)
+* [Matt Velez's solution](https://github.com/Timecrash/jumpstart-blogger) | [View in Browser](https://vast-thicket-8006.herokuapp.com/)
+* [Kelvin Stone's solution](https://github.com/KelvinStone/blogger) | [View in browser](https://evening-badlands-2352.herokuapp.com/)
+* [Andrew Johnson's solution](https://github.com/ad-johnson/blogger) | [View in browser]
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/blogger.git)
+* [Jack Wilde's solution](https://github.com/WildeRunner/jumpstart_blogger) | [view in browser](mysterious-tundra-7601.herokuapp.com)
+* [YogAzathoth's solution](https://github.com/YogAzathoth/projectRails) | [View in browser](https://cryptic-shelf-1716.herokuapp.com/ )
+* [Kelly Downes' solution](https://github.com/kdow/blogger) | [View in browser](https://enigmatic-tor-3115.herokuapp.com/)
+* [Andrew Wilson's solution](https://github.com/polygoning/blogger.git)
+* [Jack Deegan's solution](https://github.com/DidsyTurbo/blogger) | [View in browser](https://enigmatic-ocean-9959.herokuapp.com/)
+* [Earth35's solution] (https://github.com/Earth35/rails-project) | [View in browser] (https://mysterious-hollows-4200.herokuapp.com)
+* [Zac Conner's solution] (https://github.com/connerza/Blogger) | [View in browser] (https://powerful-sands-3963.herokuapp.com)
 * Add your solution above this line!
 
 

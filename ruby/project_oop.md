@@ -97,6 +97,17 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [srashidi's solution](https://github.com/srashidi/Object_Oriented_Programming/blob/master/Tic_Tac_Toe/tictactoe_class.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/tic-tac-toe)
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/OOP_tictactoe/tic_tac_toe.rb)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/blob/master/tictactoe/tictactoe.rb)
+* [Jason Mattingly's solution](https://github.com/jasonmattingly/odin_projects_ruby/blob/master/tictactoe.rb)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/oop/tic-tac-toe)
+* [djhart's solution](https://github.com/djhart/oop_project/blob/master/tic_tac_toe.rb)
+* [Eric's solution (with AI)](https://github.com/em77/tic_tac_toe)
+* [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/tic_tac_toe.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-building-blocks/blob/master/tictactoe3.rb)
+* [Matt Velez's solution (with buggy AI)](https://github.com/Timecrash/ruby-oop/blob/master/tic-tac-toe.rb) (I'd appreciate some AI tips!)
+* [Dominik Chomicki's solution](https://github.com/hamstersky/tic-tac-toe)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/tictactoe.rb)
+* [Bartlomiej Lazarski's solution (With very buggy AI)](https://github.com/YogAzathoth/tictactoe)
 * Add your solution above this line!
 
 
@@ -176,8 +187,19 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [srashidi's solution (with AI)](https://github.com/srashidi/Object_Oriented_Programming/blob/master/Mastermind/mastermind.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/mastermind)
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/OOP_mastermind/mastermind.rb)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/mastermind)
+* [Jason Mattingly's solution (with AI)](https://github.com/jasonmattingly/odin_projects_ruby/blob/master/mastermind.rb)
+* [cdouglass's solution (with AI)](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/oop/mastermind)
+* [djhart's solution](https://github.com/djhart/oop_project/blob/master/mastermind.rb)
+* [Eric's solution (with AI)](https://github.com/em77/mastermind)
+* [Ricardo Villegas' solution (with AI)](https://github.com/claricardo/RubyBuildingBlocks/blob/master/mastermind.rb)
+* [Luke Walker's solution (no AI)](https://github.com/ubershibs/ruby-building-blocks/blob/master/mastermind.rb)
+* [Matt Velez's solution (with AI)](https://github.com/Timecrash/ruby-oop/blob/master/mastermind.rb)
+* [Dominik Chomicki's solution](https://github.com/hamstersky/mastermind)
+* [Miguel Herrera's solution (no AI)](https://github.com/migueloherrera/projects/blob/master/mastermind.rb)
+* [Marina's solution, with AI](https://github.com/marina101/mastermind)
+* [Bartlomiej Lazarski's solution (with badly written AI)](https://github.com/YogAzathoth/Mastermind/blob/master/mastermind.rb)
 * Add your solution above this line!
-
 
 ## Additional Resources
 

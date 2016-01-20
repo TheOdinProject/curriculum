@@ -103,6 +103,9 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/odin-kittens)
 * [dchen71's solution](https://github.com/dchen71/odin-kittens)
 * [Matias Pan's solution](https://github.com/kriox26/odin-kittens)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/odin-kittens)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/odin-kittens)
+* [lynchd2's solution](https://github.com/lynchd2/TOP-ruby-on-rails/tree/master/odin-photo-feeder)
 * Add your solution above this line!
 
 
@@ -134,6 +137,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/odin-flickr-api-app)
 * [AtActionPark's solution - With fix for ssl error on windows](https://github.com/AtActionPark/odin_flickr_api_app)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/flickr_api)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/odin-flickr-api)
 * Add your solution above this line!
 
 

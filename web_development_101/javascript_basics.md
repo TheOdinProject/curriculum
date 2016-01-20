@@ -1,4 +1,4 @@
-# Javascript 101
+﻿# Javascript 101
 <!-- *Estimated Time: 6-8 hrs* -->
 
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
@@ -196,7 +196,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Sarabeth's solutions:](https://github.com/sarabethz/Euler_1)
 * [Andrea L's solution](https://github.com/xAndreaLx/top-project-euler) | [View in browse](https://htmlpreview.github.io/?https://github.com/xAndreaLx/top-project-euler/blob/master/index.html)
 * [Adrian Szima's solution](https://github.com/AdrianSzima/Euler_problmes_1-3)
-* [Jason Harris' solution] (https://github.com/jasonharris1/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasonharris1/project-euler/master/index.html)
+* [Jason Harris' solution](https://github.com/jasonharris1/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasonharris1/project-euler/master/index.html)
 * [Pras Kumar's solution](https://github.com/apkkadam/project_euler)
 * [Angel A. Martinez's A. solution](https://github.com/aama79/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/aama79/project-euler/blob/master/index.html)
 * [Adrian Szima's solution](https://github.com/AdrianSzima/Euler_problmes_1-3)
@@ -220,9 +220,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [DV's Solution](https://github.com/dvislearning/javascript_exercises)
 * [David Atcheson's Solution](https://github.com/atchesond/euler-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/atchesond/euler-project/blob/master/index.html)
 * [Jerrell Bryant's Solution](https://github.com/atchesond/euler-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/codeNameJKB/project_euler/blob/master/index.html)
-* [Skye Free's Solution] (https://github.com/swfree/euler-project) | [View in browser] (https://rawgit.com/swfree/euler-project/master/index.html)
-* [John Smalley's Solution] (https://github.com/johnsmalley/project_euler)
-* [Piotr Ejsmont's Solution] (https://github.com/PiotrEjsmont/project-euler)
+* [Skye Free's Solution](https://github.com/swfree/euler-project) | [View in browser](https://rawgit.com/swfree/euler-project/master/index.html)
+* [John Smalley's Solution](https://github.com/johnsmalley/project_euler)
+* [Piotr Ejsmont's Solution](https://github.com/PiotrEjsmont/project-euler)
 * [Jake Hill's Solution](https://github.com/JakeH91/Practice/tree/master/javaScript/euler)
 * [Kelly Downes' Solution](https://github.com/kdow/project-euler)
 * [Terrib1e's Solution](https://github.com/Terrib1e/eulerproblems/blob/master/problems.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/Terrib1e/eulerproblems/blob/master/problems.html)
@@ -230,6 +230,44 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dominik Chomicki's Solution](https://github.com/hamstersky/odin_project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/hamstersky/odin_project_euler/blob/master/index.html)
 * [Andrea Marongiu's Solution](https://github.com/carbonhoarder/0001-js-euler/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/carbonhoarder/0001-js-euler/blob/master/index.html)
 * [Miguel Herrera's Solution](https://github.com/migueloherrera/javascript-basics)
+* [Cody Cooper's solution](https://github.com/Cody-Cooper/odin-project/tree/master/web-development-101/project-euler/1-3) | [View in browser](https://htmlpreview.github.io/?https://github.com/Cody-Cooper/odin-project/blob/master/web-development-101/project-euler/1-3/index.html)
+* [Matt Velez' Solution](https://github.com/Timecrash/Project-Euler)
+* [Eric Hu's Solution](https://github.com/erichu801/projectEuler)
+* [CodyLBuffaloe's Solution](https://github.com/CodyLBuffaloe/Project_Euler_JSExamples)
+* [Miles Rose's Solution](https://github.com/MilesOfRoses/euler-project)
+* [Calvin Colson's Solution](https://github.com/CalColson/javascript-problems)
+* [Lisa Dean's Solution](https://github.com/LisaZD/Project-Euler)
+* [Jean Merlet's Solution](https://github.com/jeanmerlet/euler_problems_webpage) | [View in browser](https://rawgit.com/jeanmerlet/euler_problems_webpage/master/index.html)
+* [Tom Westerhout's Solution](https://github.com/Westw00d/Project-Euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/Westw00d/Project-Euler/blob/master/Euler.html)
+* [Tahmid's solution](https://github.com/tahmid101/javascript101) | [View in browser](https://htmlpreview.github.io/?https://github.com/Tahmid101/javascript101/blob/master/eular_project.html)
+* [Swordscoper's solution](https://github.com/Swordscoper/Euler) | [View in browser](http://rawgit.com/Swordscoper/Euler/master/index.html)
+* [K4koffi's Solution](https://github.com/k4koffi/TheOdinProject/tree/master/projectEuler) | [View in browser](http://htmlpreview.github.io/?https://github.com/k4koffi/TheOdinProject/blob/master/projectEuler/index.html)
+* [Finnishmiko's solution](https://github.com/finnishmiko/project_euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/finnishmiko/project_euler/blob/master/project_euler.html)
+* [Leo Soai-Van's solution](https://github.com/leosoaivan/project-euler.git)
+* [YogAzathoth's solution](https://github.com/YogAzathoth/myLearning.git)
+* [Jess Farley's solution](https://github.com/littlemighty/op-js101-problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/littlemighty/op-js101-problems/blob/master/project-euler-in-browser/project-euler.html)
+* [Michał Kopeć's solution](https://github.com/mkopec/odin.javascript_basics) | [View in browser](http://htmlpreview.github.io/?https://github.com/mkopec/odin.javascript_basics/blob/master/index.html)
+* [Brian Flatt's solution](https://github.com/bflatt72/projectEuler)
+* [Earth35's solution](https://github.com/Earth35/javascript-project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/javascript-project-euler/blob/master/project_euler.html)
+* [Kevin Biddle's solution](https://github.com/kdbiddle/javascript_101) | [View in browser](https://htmlpreview.github.io/?https://github.com/kdbiddle/javascript_101/blob/master/index.html)
+* [Pauline Judge's solution](https://github.com/chumswap/euler.git)
+* [Michael W's solution](https://github.com/Noble99/project-euler) 
+* [mattie rae's solution](https://github.com/mattierae/sandbox/tree/master/euler_project_solutions)
+* [Pranav Anurag's solution](https://github.com/pranavanurag/projectEulerJS)
+* [Nazim's solution](https://github.com/chilno/the_odin_project/tree/master/Euler%20project)
+* [Andrew W's solution](https://github.com/polygoning/js_101)
+* [Marie Sheridan's solution](https://github.com/mariesheridan/projecteuler) | [View in browser](http://htmlpreview.github.io/?https://github.com/mariesheridan/projecteuler/blob/master/index.html)
+* [Solutions by SEGH](https://github.com/SEGH/javascript-basics)
+* [Chris B's solution](https://github.com/browncj/project_euler_javascript)
+* [Ramon Reyes's solution](https://github.com/Reyesjunk/project-euler.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/reyesjunk/project-euler/blob/master/index.html)
+* [ryanpaixao's solution](https://github.com/ryanpaixao/javascript/tree/master) | [View in browser](http://htmlpreview.github.io/?https://github.com/ryanpaixao/javascript/blob/master/index.html)
+* [Peter Taggart's Solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Javascript/Project%20Euler)
+* [Marceia Egler's solution] https://github.com/megler/Euler.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/megler/Euler/blob/master/euler.html)
+* [Armin Zierlinger's solution](https://github.com/ArminZierlinger/euler-project) | [View in browser](https://rawgit.com/ArminZierlinger/euler-project/master/problem3.html)
+* [MLT-SRG's solution](https://github.com/MLT-SRG/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/MLT-SRG/euler-problems/blob/master/index.html)
+* [Derek Scace's Solution](https://github.com/dscace/project_euler)
+* [Lawrence Lin's Solution](https://github.com/gideo/OdinProject/tree/master/euler1-3) | [View in browser](http://htmlpreview.github.io/?https://github.com/gideo/OdinProject/blob/master/euler1-3/index.html)
+* [Brandon Phillips's Solution](https://github.com/bpdev97/Study/tree/master/odin-project/euler-js) | [View in browser](https://htmlpreview.github.io/?https://github.com/bpdev97/Study/blob/master/odin-project/euler-js/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
@@ -239,5 +277,5 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * A straight-to-the-point [primer on Javascript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
 * Reading: The first several sections of the [hsablonniere's Javascript 101 Course](http://hsablonniere.github.io/markleft/prezas/javascript-101.html#1.0).
-* Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/javascript).
+* Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/jvascript).
 * [OverAPI's Javascript cheat sheet](http://overapi.com/javascript/)

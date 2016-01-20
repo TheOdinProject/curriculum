@@ -61,6 +61,12 @@ It's time to build an on-screen calculator
 * [Voreny's solution](https://github.com/Gelio/js-calculator) | [View in browser](http://gelio.github.io/js-calculator/)
 * [Dan's solution](https://github.com/vickerdj/calculator) | [View in browser](http://vickerdj.github.io/calculator/)
 * [Wayne's solution](https://github.com/wayneho/On-Screen-Calculator) | [View in browswer](https://rawgit.com/wayneho/On-Screen-Calculator/master/index.html)
+* [Ryan Chang's solution](https://github.com/chang-ryan/javascript-calculator) | [View in browser](https://rawgit.com/chang-ryan/javascript-calculator/master/index.html)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/javascript-and-jquery/calculator) | [View in browser](http://rawgit.com/swfree/the-odin-project/master/javascript-and-jquery/calculator/index.html)
+* [Pauline Judge's solution](https://github.com/chumswap/calculator.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/chumswap/calculator/blob/master/calculator.html)
+* [Priyanka Saigal's solution](https://github.com/psaigal/JavaScript-Calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/psaigal/JavaScript-Calculator/blob/master/calculator.html)
+* [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/calculator/calc/index.html)
+* [Trajanson's Solution](https://github.com/Trajanson/scientific-calculator-js) | [View in browser](http://projects.trajanson.com/js-calculator/)
 * Add your solution above this line!
 
 

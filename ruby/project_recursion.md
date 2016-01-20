@@ -67,6 +67,14 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [srashidi's solution](https://github.com/srashidi/Recursion/tree/master/Fibonacci)
 * [Dave Meister's solution (One-Liners)](https://github.com/misterdavemeister/theodinproject/blob/master/recursion/fib/fib.rb)
 * [Panashe Fundira's solution](https://github.com/munyari/odin/blob/master/learning-ruby/recursion/fib.rb)
+* [James Brooks's solution](https://github.com/jhbrooks/recursion/blob/master/fibonacci.rb)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/fibonacci)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/fibonacci)
+* [Matt Velez's solution](https://github.com/Timecrash/ruby-projects/blob/master/recursion/fibonacci.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/cs/fib.rb)
+* [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/recursion/fibonacci.rb)
+* [djhart's solution](https://github.com/djhart/ruby_recursion/blob/master/fibonacci.rb)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/fibonacci.rb)
 * Add your solution above this line!
 
 
@@ -144,6 +152,14 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [srashidi's solution](https://github.com/srashidi/Recursion/blob/master/merge_sort/merge_sort.rb)
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/recursion/merge_sort/merge_sort.rb)
 * [Panashe Fundira's solution](https://github.com/munyari/odin/blob/master/learning-ruby/recursion/mergesort.rb)
+* [James Brooks's solution](https://github.com/jhbrooks/recursion/blob/master/merge_sort.rb)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/merge_sort)
+* [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/merge_sort)
+* [Matt Velez's solution](https://github.com/Timecrash/ruby-projects/blob/master/recursion/merge_sort.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/cs/mergesort.rb)
+* [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/recursion/merge_sort.rb)
+* [djhart's solution](https://github.com/djhart/ruby_recursion/blob/master/merge_sort.rb)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/merge_sort.rb)
 * Add your solution above this line!
 
 

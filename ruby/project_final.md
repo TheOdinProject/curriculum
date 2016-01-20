@@ -41,6 +41,8 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/Szachy)
 * [Sander Schepen's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project16--final-chess)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/chess)
+* [srashidi's solution](https://github.com/srashidi/Ruby_Final_Project/tree/master/chess)
+* [bskillings's solution](https://github.com/bskillings/Odin-Ruby-Final-Chess)
 * Add your solution above this line!
 
 

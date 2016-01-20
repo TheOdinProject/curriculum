@@ -36,6 +36,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/HTML-Forms) | [View in browser](http://dusanmilosavljevic1624.github.io/HTML-Forms/)
 * [Noman Karim's solution](https://github.com/nomankarim/Mintsignupform) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/Mintsignupform/blob/master/index.html)
 * [Patrick Mallee's solution](https://github.com/patmallee/mintForm) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/mintForm/blob/master/index.html)
+* [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/mint-signup) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/mint-signup/index.html)
 * Add your solution above this line!
 
 
