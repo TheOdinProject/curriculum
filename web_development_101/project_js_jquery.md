@@ -299,9 +299,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Mewtch's solution](https://github.com/Mewtch/EaSketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/Mewtch/EaSketch/blob/master/tableIndex.html)
 * [Marina C's solution](https://github.com/marina101/Etch-a-sketch)
 * [Wenchuan Lin's solution](https://github.com/Springok/OdinProject/tree/master/Sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/Springok/OdinProject/blob/master/Sketchpad/sketch.html)
-<<<<<<< HEAD
-* [Tahmid's Solution](https://github.com/tahmid-ul/Sketch-pad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tahmid-ul/Sketch-pad/blob/master/index.html)
-=======
 * [Cody Cooper's solution](https://github.com/Cody-Cooper/odin-project/tree/master/web-development-101/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Cody-Cooper/odin-project/blob/master/web-development-101/etch-a-sketch/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/sketchpad/blob/master/index.html)
 * [Matt Velez's Solution](https://github.com/Timecrash/etch-a-pad)|[View in browser](http://htmlpreview.github.io/?https://github.com/Timecrash/etch-a-pad/blob/master/index.html)
@@ -343,6 +340,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Armin Zierlinger's solution](https://github.com/ArminZierlinger/Sketch-Pad) [View in Browser](https://rawgit.com/ArminZierlinger/Sketch-Pad/master/index.html)
 * [Zach Blake's Solution](https://github.com/zachtblake/sketchpad) | [View in Browser](https://rawgit.com/zachtblake/sketchpad/master/dist/index.html)
 * [Max Gallant's solution](https://github.com/mcgalcode/Sketch-Tool) | [View in browser](https://htmlpreview.github.io/?https://github.com/mcgalcode/Sketch-Tool/blob/master/index.html)
-* [Tahmid's solution](https://github.com/tahmid-ul/Sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/tahmid-ul/Sketch-pad/blob/master/index.html)
->>>>>>> upstream/master
+* [Tahmid's solution](https://github.com/tahmid-ul/Sketch-pad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tahmid-ul/Sketch-pad/blob/master/index.html)
 * Add your solution above this line!
