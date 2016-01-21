@@ -143,6 +143,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Marie Sheridan's solution](https://github.com/mariesheridan/learn_ruby)
 * [Anvekar's solution](https://github.com/gga26/Rspec-Tests)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/learn_ruby)
+* [Jess Farley's solution](https://github.com/littlemighty/test_first)
 * Add your solution above this line!
 
 
