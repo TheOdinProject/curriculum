@@ -85,6 +85,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [srashidi's solution](https://github.com/srashidi/RSpec_Project/tree/master/connect_four)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/testing-ruby/connect-four)
 * [James Brooks's solution](https://github.com/jhbrooks/connect-four)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/connect4)
 * Add your solution above this line!
 
 
