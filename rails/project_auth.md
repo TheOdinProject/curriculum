@@ -116,6 +116,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Matias Pan's solution](https://github.com/kriox26/members-only) | [View in browser](https://stark-dawn-4299.herokuapp.com/)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/members-only)
 * [Dan Hoying's solution](https://github.com/danhoying/members_only)
+* [Radi Totev's solution](https://github.com/raditotev/members-only)
 
 * Add your solution above this line!
 
