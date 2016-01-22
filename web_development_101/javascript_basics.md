@@ -269,6 +269,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Lawrence Lin's Solution](https://github.com/gideo/OdinProject/tree/master/euler1-3) | [View in browser](http://htmlpreview.github.io/?https://github.com/gideo/OdinProject/blob/master/euler1-3/index.html)
 * [Brandon Phillips's Solution](https://github.com/bpdev97/Study/tree/master/odin-project/euler-js) | [View in browser](https://htmlpreview.github.io/?https://github.com/bpdev97/Study/blob/master/odin-project/euler-js/index.html)
 * [Ryan Clarke's Solution](https://github.com/rdmclarke/Javascript101.git)
+* [Gitnik's Solution](https://github.com/petarGitNik/project-euler-solutions) | [View in browser](http://htmlpreview.github.io/?https://github.com/petarGitNik/project-euler-solutions/blob/master/project-solution/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
