@@ -143,6 +143,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Matias Pan's solution](https://github.com/kriox26/micro-reddit)
 * [Alex Chen's solution](https://github.com/Chenzilla/micro_reddit)
 * [Dan Hoying's solution](https://github.com/danhoying/micro_reddit)
+* [Radi Totev's solution](https://github.com/raditotev/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
