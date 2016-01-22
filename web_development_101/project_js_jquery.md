@@ -341,4 +341,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Zach Blake's Solution](https://github.com/zachtblake/sketchpad) | [View in Browser](https://rawgit.com/zachtblake/sketchpad/master/dist/index.html)
 * [Max Gallant's solution](https://github.com/mcgalcode/Sketch-Tool) | [View in browser](https://htmlpreview.github.io/?https://github.com/mcgalcode/Sketch-Tool/blob/master/index.html)
 * [Tahmid's solution](https://github.com/tahmid-ul/Sketch-pad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tahmid-ul/Sketch-pad/blob/master/index.html)
+* [Brandon Phillips's solution](https://github.com/bpdev97/Study/tree/master/odin-project/etch-a-sketch) | [View in Browser](https://rawgit.com/bpdev97/Study/master/odin-project/etch-a-sketch/index.html)
 * Add your solution above this line!
