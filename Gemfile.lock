@@ -129,7 +129,7 @@ GEM
       less (~> 2.3.1)
     letter_opener (1.2.0)
       launchy (~> 2.2)
-    libv8 (3.11.8.17)
+    libv8 (3.16.14.13)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -242,9 +242,10 @@ GEM
     sprockets-rails (2.0.1)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
+      ref
       sprockets (~> 2.8)
-    therubyracer (0.11.4)
-      libv8 (~> 3.11.8.12)
+    therubyracer (0.12.2)
+      libv8 (~> 3.16.14.0)
       ref
     thin (1.6.2)
       daemons (>= 1.0.9)
@@ -306,8 +307,11 @@ DEPENDENCIES
   rspec-rails (~> 2.14.1)
   sass-rails (~> 4.0.1)
   simple_form (~> 3.0.1)
-  therubyracer (~> 0.11.4)
+  therubyracer
   thin (~> 1.6.1)
   twitter-bootstrap-rails (= 2.2.6)
   uglifier (>= 1.0.3)
   will_paginate (~> 3.0.5)
+
+BUNDLED WITH
+   1.10.6

@@ -48,7 +48,7 @@ end
   gem 'sass-rails', '~> 4.0.1'
   gem 'coffee-rails', '~> 4.0.1'
   gem 'twitter-bootstrap-rails',    '2.2.6'
-  gem 'therubyracer',               '~> 0.11.4'
+  gem 'therubyracer'
   gem 'less-rails',                 '~> 2.3.3'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
