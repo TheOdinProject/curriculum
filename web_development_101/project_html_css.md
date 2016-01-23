@@ -550,6 +550,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Max Gallant's Easy solution](https://github.com/mcgalcode/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mcgalcode/google-homepage/blob/master/index.html)
 * [Max Gallant's Difficult solution](https://github.com/mcgalcode/google-homepage/tree/master/google-results) | [View in browser](http://htmlpreview.github.io/?https://github.com/mcgalcode/google-homepage/blob/master/google-results/index.html)
 * [northernglider's Easy solution](https://github.com/northernglider/google_homepage/) | [View in browser](http://htmlpreview.github.io/?https://github.com/northernglider/google_homepage/blob/master/index.html)
+* [Alberto Ojeda's Easy solution] (https://github.com/ojedamtzalberto/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ojedamtzalberto/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
