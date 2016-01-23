@@ -29,13 +29,14 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Nikola Čvorović's solution](https://github.com/cvorak/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/cvorak/restaurant/blob/master/index.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/jquery-basics) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/jquery-basics/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project2) | [View in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/TOPJS/blob/master/Project2/index.html)
-* [Jon Yorg's solution] (https://github.com/Yorgg/Javascript/tree/master/menu) | [View in browser](https://jsfiddle.net/qprk1daL/)
-* [AtActionPark's solution] (https://github.com/AtActionPark/odin_dom_manipulation_with_jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_dom_manipulation_with_jquery/blob/master/main.html)
-* [dchen71's solution] (https://github.com/dchen71/odin-dom_manipulation) | [View in browser](https://rawgit.com/dchen71/odin-dom_manipulation/master/Index.html)
-* [AyeSea's solution] (https://github.com/AyeSea/odin-dom-manipulation) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/odin-dom-manipulation/blob/master/index.html)
-* [Dan's solution] (https://github.com/vickerdj/dommanip) [View in browser] (http://vickerdj.github.io/dommanip/)
+* [Jon Yorg's solution](https://github.com/Yorgg/Javascript/tree/master/menu) | [View in browser](https://jsfiddle.net/qprk1daL/)
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_dom_manipulation_with_jquery) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_dom_manipulation_with_jquery/blob/master/main.html)
+* [dchen71's solution](https://github.com/dchen71/odin-dom_manipulation) | [View in browser](https://rawgit.com/dchen71/odin-dom_manipulation/master/Index.html)
+* [AyeSea's solution](https://github.com/AyeSea/odin-dom-manipulation) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/odin-dom-manipulation/blob/master/index.html)
+* [Dan's solution](https://github.com/vickerdj/dommanip) [View in browser](http://vickerdj.github.io/dommanip/)
 * [Pauline Judge's solution](https://github.com/chumswap/restaurantSite) | [View in browser](https://htmlpreview.github.io/?https://github.com/chumswap/restaurantSite/blob/master/restaurant.html)
-* [Trajanson's solution](https://github.com/Trajanson/jquery-restaurant-js) | [View in browser] (http://projects.trajanson.com/js-restaurant/)
+* [Trajanson's solution](https://github.com/Trajanson/jquery-restaurant-js) | [View in browser](http://projects.trajanson.com/js-restaurant/)
+* [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/javascript/restaurant) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/javascript/restaurant/index.html)
 * Add your solution above this line!
 
 
