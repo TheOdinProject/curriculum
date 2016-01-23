@@ -536,4 +536,5 @@ Next, make sure your method can handle multiple words:
 * [Luke Walker's solutions](https://github.com/ubershibs/ruby-programming/blob/master/substrings.rb)
 * [Noobling's solution](https://github.com/noobling/ruby/blob/master/building_blocks/substring.rb)
 * [Andrew Wilson's solution](https://github.com/polygoning/ruby-blocks/blob/master/substrings.rb)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/building-blocks/blob/master/substrings.rb)
 * Add your solution above this line!
