@@ -37,6 +37,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Matias Pan's solution](https://github.com/kriox26/flight-booker)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/flight-booker)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/Flight-Booker)
+* [Radi Totev's solution](https://github.com/raditotev/flight_booker)
 * Add your solution above this line!
 
 ## Additional Resources

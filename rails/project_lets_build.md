@@ -40,6 +40,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Alex Tsiras' solution](https://github.com/arialblack14/rest_client)
 * [srashidi's solution](https://github.com/srashidi/The_Odin_Project/blob/master/Ruby%20on%20Rails/Web_Refresher/google_search.rb)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rest_client_gem)
+* [Radi Totev's solution](https://github.com/raditotev/rest-tester)
 * Add your solution above this line!
 
 
