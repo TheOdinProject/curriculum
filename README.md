@@ -22,6 +22,9 @@ This site runs on **Ruby 2.0.0-p353** and **Rails 4.0.0** (upgraded from Ruby 1.
 
 #### Installing the Site on your Local Machine
 
+1. Make sure to fork this repo
+2. When you have it cloned to your local machine make sure your Ruby version is 2.0.0-p353 and your Rails version is 4.0.0 or later.
+
 [OSX Setup](https://gist.github.com/KevinMulhern/2cb304b8dbd0fc65526a)
 
 [Linux Setup](https://gist.github.com/kriox26/cfa21b6e50a081f938f6)
