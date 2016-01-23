@@ -249,6 +249,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [djhart's solution](https://github.com/djhart/ruby_web_project/tree/master/browser_project)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/tree/master/webserver_and_browser)
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/server)
+* [Tomasz Kula's solution](https://github.com/zetsnotdead/web_server)
 * Add your solution above this line!
 
 
