@@ -20,7 +20,7 @@ This project is emphatically beginner-friendly so, if you're interested in poten
 
 This site runs on **Ruby 2.0.0-p353** and **Rails 4.0.0** (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)
 
-#### Getting started
+#### Installing the Site on your Local Machine
 
 [OSX Setup](https://gist.github.com/KevinMulhern/2cb304b8dbd0fc65526a)
 
