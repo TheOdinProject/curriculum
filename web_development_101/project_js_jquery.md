@@ -345,4 +345,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Thiswillhavetodo's solution](https://github.com/thiswillhavetodo/Sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/thiswillhavetodo/Sketchpad/blob/master/index.html)
 * [Frances Morrison's Solution](https://github.com/FMorrison87/Projects/Etch-A-Sketch.git)
 * [Tom Westerhout's solution](https://github.com/Westw00d/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/Westw00d/Etch-A-Sketch/blob/master/Etch-A-Sketch.html)
+* [Oscar Y's solution](https://github.com/mysteryihs/odin-project-jquery) | [View in Browser](https://htmlpreview.github.io/?https://github.com/mysteryihs/odin-project-jquery/index.html)
 * Add your solution above this line!
