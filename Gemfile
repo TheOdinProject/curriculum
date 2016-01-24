@@ -45,10 +45,10 @@ group :development do
 end
 
 # update: rails 4 deprecated use of :assets group in gemfile
-  gem 'sass-rails', '~> 4.0.1'
-  gem 'coffee-rails', '~> 4.0.1'
+  gem 'sass-rails',                 '~> 4.0.1'
+  gem 'coffee-rails',               '~> 4.0.1'
   gem 'twitter-bootstrap-rails',    '2.2.6'
-  gem 'therubyracer'
+  gem 'therubyracer',               '~> 0.12.2'
   gem 'less-rails',                 '~> 2.3.3'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
