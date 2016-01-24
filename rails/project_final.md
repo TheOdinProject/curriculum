@@ -72,6 +72,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [dchen71's Solution](https://github.com/dchen71/odin-facebook) | [View in browser] (https://secure-citadel-9611.herokuapp.com/)
 * [James Kelsey's Solution (No tests, Ajaxy)](https://github.com/jamesmskelsey/jk-odin-book) | [View in browser](https://jk-odin-book.herokuapp.com/)
 * [Matias Pan's solution (RSpec, Capybara, Ajax)](https://github.com/kriox26/odin_book) | [View in browser](https://polar-river-1192.herokuapp.com)
+* [Radi Totev's solution](https://github.com/raditotev/odin-facebook) | [View in browser](https://odin-facebook-clone.herokuapp.com)
 * Add your solution above this line!
 
 
