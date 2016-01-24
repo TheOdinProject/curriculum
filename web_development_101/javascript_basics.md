@@ -272,6 +272,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Gitnik's Solution](https://github.com/petarGitNik/project-euler-solutions) | [View in browser](http://htmlpreview.github.io/?https://github.com/petarGitNik/project-euler-solutions/blob/master/project-solution/index.html)
 * [Oscar Y's Solution](https://github.com/mysteryihs/Project-Euler)
 * [Arkhans's Solution](https://github.com/Arkhans/Project-Euler-Solutions-in-Javascript)
+* [John Gerakaris's Solution](https://github.com/gerak1925/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
