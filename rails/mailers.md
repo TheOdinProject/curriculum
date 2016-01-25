@@ -34,6 +34,8 @@ So you set up one view called, for instance, `app/views/user_mailer/welcome_emai
 
 Mailers are actually a two-step process -- first you build the email itself and then you call the `#deliver` (or `#deliver!`) method to actually send it.  One way that mailers are different from controllers is that you call them directly instead of working through the router.  When you want to call the welcome email, you will write `UserMailer.welcome_email(@user)`, which returns the email object.  Deliver it by calling the `#deliver` method on that object, for a total chain of: `UserMailer.welcome_email(@user).deliver`.
 
+*Hint #deliver will be removed in Rails 5 and replaced with #deliver_now to deliver immediately or `#deliver_later` to deliver through Active Job.*
+
 As long as your view files (the HTML and text) are named the same as your mailer methods, Rails will find everything okay and will send the email (with both the HTML and text parts) using whichever addon you've chosen to use for sending it.  The Rails Guide reading does a good job walking through the process, so you'll get a chance to see it in action there.
 
 ## Callbacks
