@@ -552,6 +552,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [northernglider's Easy solution](https://github.com/northernglider/google_homepage/) | [View in browser](http://htmlpreview.github.io/?https://github.com/northernglider/google_homepage/blob/master/index.html)
 * [Alberto Ojeda's Easy solution] (https://github.com/ojedamtzalberto/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ojedamtzalberto/google-homepage/blob/master/index.html)
 * [John Gerakaris's Easy solution](https://github.com/gerak1925/google-homepage) [View in browser](https://htmlpreview.github.io/?https://github.com/gerak1925/google-homepage/blob/master/index.html)
+* [Jake Keyser's Easy solution](https://github.com/jjkeyser/google-homepage/blob/master/google_index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/jjkeyser/google-homepage/blob/master/google_index.html)
 * Add your solution above this line!
 
 ## Additional Resources
