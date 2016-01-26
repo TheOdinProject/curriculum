@@ -537,4 +537,5 @@ Next, make sure your method can handle multiple words:
 * [Noobling's solution](https://github.com/noobling/ruby/blob/master/building_blocks/substring.rb)
 * [Andrew Wilson's solution](https://github.com/polygoning/ruby-blocks/blob/master/substrings.rb)
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/building-blocks/blob/master/substrings.rb)
+* [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/BuildingBlocksBasicProject)
 * Add your solution above this line!
