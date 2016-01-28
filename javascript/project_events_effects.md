@@ -58,6 +58,7 @@ If you think about what's required to make a game like this work, it's all well 
 *  [eternal's solution](https://github.com/3ternal/snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/3ternal/snake/blob/master/index.html)
 *  [Wayne's solution](https://github.com/wayneho/snake) | [View in browser](https://rawgit.com/wayneho/snake/master/index.html)
 *  [Dan's solution](https://github.com/vickerdj/snake) | [View in browser](http://vickerdj.github.io/snake/)
+*  [Trajanson's solution](https://github.com/Trajanson/snake-js) | [View in browser](http://projects.trajanson.com/js-snake/)
 * Add your solution above this line!
 
 
