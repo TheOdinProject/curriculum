@@ -3,13 +3,10 @@
     <div id="intro">
       <h1>How to Contribute</h1>
       <p>
-        <strong>The Odin Project</strong> is crowdsourced.  It is built both by experienced engineers
-        and by people who are currently learning to code
-        <em>just like you</em>. Regardless of your experience, you can contribute... in fact,
-        we hope you do! Even if you
-        don't feel ready, you can still get involved and observe until you're comfortable. Still
-        not sure? Here are some <a id="reasonsToggle" href="#reasonsModal" data-toggle = "modal">reasons to get
-        involved!</a>
+        <strong>The Odin Project</strong>
+        is crowdsourced. It is built both by experienced engineers and by people who are currently learning to code
+        <em>just like you</em>. Regardless of your experience, you can contribute... in fact, we hope you do! Even if you don't feel ready, you can still get involved and observe until you're comfortable. Still not sure? Here are some
+        <a id="reasonsToggle" href="#reasonsModal" data-toggle="modal">reasons to get involved!</a>
       </p>
       <h3>Reasons to get involved</h3>
       <div>
@@ -38,89 +35,20 @@
       </div>
       <h3>But mostly... it's fun!</h3>
       <p>
-        The roles below are volunteer positions.  Badges have no cash value but may be redeemed for hugs at our discretion.
+        The roles below are volunteer positions. Badges have no cash value but may be redeemed for hugs at our discretion.
       </p>
 
-    </div>
-
-    <div id="onboarding">
-      <h2>On-Boarding</h2>
-      <p>
-        The purpose of on-boarding is to get you up to speed on the project and how it is
-        managed. You will need to familiarize yourself with the tools and websites
-        used by the team. The following instructions will guide you through part 1 and part 2 of the setup:
-      </p>
-      <h3 class="center">Part 1: The Basics</h3>
-      <div id="part-1" class="paths">
-        <p>
-          <span class="highlight">Basic Setup</span>
-        </p>
-        <ul>
-          <li>
-            First, read the <%= link_to "Getting Involved", getting_involved_path %> page for a detailed overview and instructions on how to proceed. Don't worry if it doesn't all make sense just yet-it's enough for now to get some exposure.
-          </li>
-          <li>
-            Set up a <%= link_to "Github", "http://github.com"%> account if you haven't yet
-          </li>
-          <li>
-            Set up an account on <%= link_to "Pivotal Tracker", "http://pivotaltracker.com"%> and check out <%= link_to "The Odin Project", "https://www.pivotaltracker.com/s/projects/979092" %>
-          </li>
-          <li>
-            There are a growing number of online development environments (called an IDE for <em>integrated development environment</em>) that are very easy to use to get started. The Odin project often uses <%= link_to "Nitrous.io", "https://www.nitrous.io/join/Nex2i3R7Vyc?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral"%>. Create an account here and try it out!
-          </li>
-          <li>
-            Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %>
-          </li>
-        </ul>
-      </div>
-
-      <h3 class="center">Part 2: The Details</h3>
-      <div id="part-2" class="paths">
-        <p>
-          <span class="highlight">Advanced Setup</span>
-        </p>
-        <ul>
-          <li>
-            Completely go through the <%= link_to "Getting Involved", getting_involved_path %> page and make sure you have a firm grasp of the contents. Ask questions in the SCRUMs or in the community if you are unclear on anything.
-          </li>
-          <li>
-            Fork the Odin Project <%= link_to "Repo", "https://github.com/TheOdinProject/theodinproject" %> to
-            your own Github account and then clone it from there to your local machine (or Nitrous box).
-          </li>
-          <li>
-            If working on your own story in <%= link_to "Pivotal Tracker", "http://pivotaltracker.com"%>, fork a branch
-            off your local repo to work on. Give it a
-            relevant name and pair with a partner if you can. You can create a matching branch on your Github
-            repo and push up to it from your local branch so your partner can work on it. If you own the story,
-            this is where the code will stay until you have a working feature. The <%= link_to "Getting Involved", getting_involved_path %> page contains detailed instructions.
-          </li>
-          <li>
-            Many people working in open source software work on Mac or linux. On Windows, a VM (virtual
-            machine) running Linux is probably best. Setting up a VM running Linux and learning some basic
-            BASH command line skills will prove very useful. You can follow the instructions for setting up
-            a VM running Ubuntu at the book site for the Berkeley 169.x course <%= link_to "here", "http://beta.saasbook.info/bookware-vm-instructions"%>. (The course is highly recommended once you have
-            gotten up to speed, see 'Advanced Beginner' section above).
-          </li>
-          <li>
-            For detailed instructions on setting up various environments, you can also see the <%= link_to "project readme", "https://github.com/TheOdinProject/theodinproject/blob/master/README.md" %>.
-          </li>
-          <li>
-            Join us on our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %> and start contributing!
-          </li>
-        </ul>
-      </div>
     </div>
 
     <div>
-		  <h2>CONTACT</h2>
-		  <p>
-		    Check out our <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %>
-        for discussions and events around those efforts, as well
-        as additional links for learning more about this living and
-        growing adventure we call The Odin Project.  Get in touch via
-        the <%= link_to "Contact Page", contact_path %>.
-		  </p>
-		</div>
+      <h2>CONTACT</h2>
+      <p>
+        Check out our
+        <%= link_to "Google Community", "https://plus.google.com/communities/100013596437379837846" %>
+        for discussions and events around those efforts, as well as additional links for learning more about this living and growing adventure we call The Odin Project. Get in touch via the
+        <%= link_to "Contact Page", contact_path %>.
+      </p>
+    </div>
 
     <%= render "contributors" %>
 
