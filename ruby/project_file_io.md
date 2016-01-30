@@ -163,6 +163,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Tomasz Kula's solution](https://github.com/zetsnotdead/hangman)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/IOProjects)
 * [noobling's soltion](https://github.com/noobling/ruby/tree/master/hang_man)
+* [Barltomiej Lazarski's solution](https://github.com/YogAzathoth/hangman)
 * Add your solution above this line!
 
 
