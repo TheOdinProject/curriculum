@@ -43,6 +43,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/chess)
 * [srashidi's solution](https://github.com/srashidi/Ruby_Final_Project/tree/master/chess)
 * [bskillings's solution](https://github.com/bskillings/Odin-Ruby-Final-Chess)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/chess)
 * Add your solution above this line!
 
 
