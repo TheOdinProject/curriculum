@@ -558,6 +558,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Julia's Easy solution] (https://github.com/juliataylor83/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/juliataylor83/google-homepage/blob/master/index.html)
 * [Al Jibran's Easy solution](https://github.com/myselfjrb/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/myselfjrb/google-homepage/blob/master/index.html)
 * [Al Jibran's Solution- Difficult Version](https://github.com/myselfjrb/google-searchpage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/myselfjrb/google-searchpage/blob/master/index.html)
+* [Chris Kelley's Easy Solution](https://github.com/cpkelley5/google-homepage) | [View in browser](https://github.com/cpkelley5/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
