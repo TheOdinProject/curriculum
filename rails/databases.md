@@ -117,7 +117,7 @@ If you want to get all the posts created by a given user, you need to tell SQL w
 
 *Note: the "left" table is the original table (the one that the `FROM` clause was `ON`), e.g. "users" in examples below.*
 
-*See ["A visual explanation of sql joins"](http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html) by Jeff Atwood for good visuals.*
+*See ["A visual explanation of sql joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.*
 
 1. `INNER JOIN`, aka `JOIN` -- Your best friend and 95% of what you'll use.  Keeps only the rows from both tables where they match up.  If you asked for all the posts for all users (`SELECT * FROM users JOIN posts ON users.id = posts.user_id`), it would return only the users who have actually written posts and only posts which have specified their author in the `user_id` column.  If an author has written multiple posts, there will be multiple rows returned (but the columns containing the user data will just be repeated).
 1. `LEFT OUTER JOIN` -- keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g. return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
