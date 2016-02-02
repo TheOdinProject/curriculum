@@ -560,6 +560,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Al Jibran's Solution- Difficult Version](https://github.com/myselfjrb/google-searchpage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/myselfjrb/google-searchpage/blob/master/index.html)
 * [Chris Kelley's Easy Solution](https://github.com/cpkelley5/google-homepage) | [View in browser](https://github.com/cpkelley5/google-homepage/blob/master/index.html)
 * [Rob Harkness's easy and difficult solutions](https://github.com/robo2323/odin_google-homepage) | [View easy in browser](http://htmlpreview.github.io/?https://github.com/robo2323/odin_google-homepage/blob/master/index.html) | [View difficult in browser](http://htmlpreview.github.io/?https://github.com/robo2323/odin_google-homepage/blob/master/results.html).
+* * [Kim's Easy Solution](https://github.com/ladyindigo/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ladyindigo/google-homepage/blob/master/frontpage.html)
 * Add your solution above this line!
 
 ## Additional Resources
