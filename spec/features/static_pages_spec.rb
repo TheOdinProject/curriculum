@@ -6,22 +6,15 @@ describe "StaticPages" do
 
   subject { page }
   let(:home_h1) { "Learn Web Development for Free"}
-  
+
   describe "Getting Involved Page" do
-    
-    it "should be linked to from the contributing page" do
-      visit contributing_path
-      
-      expect(page).to have_link("Getting Involved", :href => getting_involved_path)
-    end
-    
+
     before { visit getting_involved_path }
-    
+
     it "should have title 'Getting Involved'" do
       expect(page).to have_selector("h1", text: "Getting Involved with The Odin Project")
     end
   end
-
 
   describe "Splash Page" do
 
@@ -29,7 +22,7 @@ describe "StaticPages" do
 
     it "should have a title" do
       # save_and_open_page
-      subject.source.should have_selector('title', text: "Odin") 
+      subject.source.should have_selector('title', text: "Odin")
     end
 
     it { should have_selector('h1', text: home_h1) }
@@ -39,19 +32,19 @@ describe "StaticPages" do
   end
 
   describe "study groups page" do
-  
-    before { visit root_path }    
-    context "should be linked to from the site footer" do  
-      it { expect(page).to have_link("Study Groups", :href => studygroups_path) }   
+
+    before { visit root_path }
+    context "should be linked to from the site footer" do
+      it { expect(page).to have_link("Study Groups", :href => studygroups_path) }
     end
     before { click_link "Study Groups" }
-    context "should load when link is clicked" do  
-      it { current_path.should == studygroups_path } 
+    context "should load when link is clicked" do
+      it { current_path.should == studygroups_path }
     end
-    before { visit studygroup_path } 
-    context "should contain an h1 title" do  
+    before { visit studygroup_path }
+    context "should contain an h1 title" do
       it {expect(page).to have_selector("h1", :text => "Web Development Study Group")}
-    end  
+    end
   end
 
   describe "contributing page" do
@@ -61,51 +54,30 @@ describe "StaticPages" do
       expect(page).to have_selector("h1", text: "How to Contribute")
     end
 
-    context "clicking the reasons link" do
-      before do
-        click_link "reasons to get involved!"
-      end
-
-      it "shows modal with title 'Reasons to get involved'" do
-        #wait_for_ajax
-        expect(page).to have_selector("h3", text: "Reasons to get involved")
-      end
-    end
-
-    context "clicking the 'more' link should show paths", :js => true do
-
-      before { find("#adv-beginner-path-link").click }
-
-      it "should have title 'The Courses'" do
-        expect(page).to have_selector("h3", text: "Story Owner")
-      end
-
-    end
-    
     context "should have a hall of fame" do
-      
+
       it "with title Hall of Fame" do
         expect(page).to have_selector("h2", text: "HALL OF FAME")
       end
-      
+
       it "with an image for Erik" do
         expect(page).to have_css("img[src$='hof/erik.jpg']")
       end
-      
+
       it "with a github link for Erik" do
         expect(page).to have_css("a[href~='http://github.com/eriktrautman']")
       end
-      
+
       it "with a blog link for Erik" do
         expect(page).to have_css("a[href~='http://www.eriktrautman.com/blog']")
       end
-        
+
     end
   end
 
 
   describe "legal pages" do
-    
+
     context "on the home page" do
       before { visit root_path }
 
@@ -133,7 +105,7 @@ describe "StaticPages" do
     end
 
     context "on the Terms of Use page" do
-      
+
       before { visit tou_path }
 
       it "should have a relevant h1 from the markdown" do
@@ -157,4 +129,3 @@ describe "StaticPages" do
     end
   end
 end
-
