@@ -562,6 +562,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Rob Harkness's easy and difficult solutions](https://github.com/robo2323/odin_google-homepage) | [View easy in browser](http://htmlpreview.github.io/?https://github.com/robo2323/odin_google-homepage/blob/master/index.html) | [View difficult in browser](http://htmlpreview.github.io/?https://github.com/robo2323/odin_google-homepage/blob/master/results.html).
 * [Kim's Easy Solution](https://github.com/ladyindigo/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ladyindigo/google-homepage/blob/master/frontpage.html)
 * [Cemile B.'s Easy Solution](https://github.com/jamieleegtb/GoogleHomePage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/jamieleegtb/GoogleHomePage/master/index.html)
+* [Greg Pritchard's Easy Solution](https://github.com/gregoryneal/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/gregoryneal/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
