@@ -44,7 +44,7 @@ This site runs on **Ruby 2.0.0-p353** and **Rails 4.0.0** (upgraded from Ruby 1.
 
         # config/application.yml --acquire this on your github account, through settings/application/register new application.This is to make OAUTH (signin with github) function correctly.
         GITHUB_API_TOKEN: your_token_would_go_here
-        GITHUB_API_ID: API_ID_Generated_with_registering_application
+        GITHUB_APP_ID: API_ID_Generated_with_registering_application
         GITHUB_SECRET: ALSO_GENERATAED_WITH_REGISTERING_APPLICATION
 
 1. Run a `$ rails server` and see if that lets you check out the app at `http://localhost:3000`.
