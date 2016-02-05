@@ -133,6 +133,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Zac Conner's solution] (https://github.com/connerza/Blogger) | [View in browser] (https://powerful-sands-3963.herokuapp.com)
 * [DV's solution] (https://github.com/dvislearning/rails_blogger) | [View in browser] (https://protected-badlands-52632.herokuapp.com)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/rails_jumpstart_lab) | [View in browser](https://enigmatic-fjord-41312.herokuapp.com/)
+* [Jess Farley's solution](https://github.com/littlemighty/odin_project_rails101) | [View in browser](https://protected-journey-27570.herokuapp.com/)
 * Add your solution above this line!
 
 
