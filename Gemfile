@@ -9,7 +9,8 @@ gem 'google-api-client',  '~> 0.6.4'
 gem 'devise',    '~> 3.2.4'          # For managing authentication
 gem 'figaro',     '~> 0.7.0'                    # Managing environment variables
 gem 'github_api' #, '~> 0.11.1' # to pull in the curriculum files
-gem 'thin', '~> 1.6.1' # to use the "thin" webserver instead of webrick
+gem 'puma',     '~> 2.16.0'  # to use the "puma" webserver instead of webrick
+gem 'rack-timeout', '~> 0.3.2'
 gem 'redcarpet', '~> 3.0.0' # to render the curriculum's .md files as html
 gem 'will_paginate', '~> 3.0.5' # to paginate student lists
 gem 'protected_attributes', '~> 1.0.5'
