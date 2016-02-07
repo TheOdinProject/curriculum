@@ -274,7 +274,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Arkhans's Solution](https://github.com/Arkhans/Project-Euler-Solutions-in-Javascript)
 * [John Gerakaris's Solution](https://github.com/gerak1925/project-euler)
 * [Monique E's Solution](https://github.com/MoniqueE/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/MoniqueE/project-euler/blob/master/index.html) 
-* [Greg Pritchard's Solution](https://github.com/gregoryneal/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/gregoryneal/project-euler/blob/master/index.html) 
+* [Greg Pritchard's Solution](https://github.com/gregoryneal/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/gregoryneal/project-euler/blob/master/index.html)
+* [Jorge Gonzalez's Solution](https://github.com/jrgz/euler)
 * Add your solution above this line!
 
 ## Additional Resources
