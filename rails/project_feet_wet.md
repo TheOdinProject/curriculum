@@ -74,6 +74,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Matt Velez's solution](https://github.com/Timecrash/toy_app) | [Heroku](https://pacific-shore-90734.herokuapp.com/)
 * [Akshay Bharwani's solution](https://github.com/akshaybharwani/toy_app)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/toy-app) | [Heroku](https://odin-toy-app.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/toy_app)
 * Add your solution above this line!
 
 
