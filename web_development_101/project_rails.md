@@ -136,6 +136,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Jess Farley's solution](https://github.com/littlemighty/odin_project_rails101) | [View in browser](https://protected-journey-27570.herokuapp.com/)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/blogger) | [View in browser](http://odin-blogger.herokuapp.com/)
 * Add your solution above this line!
+* [Joshua Berry's solution(https://github.com/jbez92/ruby_on_rails)|[View in browser](http://cryptic-cliffs-31734.herokuapp.com/)
 
 
 ## Additional Resources
