@@ -46,6 +46,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/chess)
 * [Tomasz Kula's solution](https://github.com/zetsnotdead/chess_ruby)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/chess)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/chess)
 * Add your solution above this line!
 
 
