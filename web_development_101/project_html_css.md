@@ -565,6 +565,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Greg Pritchard's Easy Solution](https://github.com/gregoryneal/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/gregoryneal/google-homepage/blob/master/index.html)
 * [Anurag El Dorado's Easy Solution](https://github.com/aedorado/aedorado.github.io/blob/master/google.co.in.html) | [View in browser](http://aedorado.github.io/google.co.in.html)
 * [John Sawyer's Easy Solution](https://github.com/SawyerMerchant/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/SawyerMerchant/google-homepage/blob/master/google_homepage.html)
+* [Seth Holland's Easy Solution](https://github.com/LaterBlackBird/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://raw.githubusercontent.com/LaterBlackBird/google-homepage/master/Index.html) 
 * Add your solution above this line!
 
 ## Additional Resources
