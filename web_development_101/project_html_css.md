@@ -569,6 +569,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Nathan Minchow's Easy Solution](https://github.com/aspenner/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/aspenner/google-homepage/blob/master/homepage.html)
 * [Joanna Winchester's Easy Solution](https://github.com/joannawinchester/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/joannawinchester/google-homepage/blob/master/index.html)
 * [Giorgos Poly Easy Solution](https://github.com/gpoly/google) | [View in browser](http://gpoly.github.io/google/#)
+* [David Gu's Easy Solution](https://github.com/dagu3371/Google-project) | [View in browser](https://rawgit.com/dagu3371/Google-project/master/firstsite.html)
 * Add your solution above this line!
 
 ## Additional Resources
