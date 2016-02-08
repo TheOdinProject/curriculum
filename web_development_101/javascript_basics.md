@@ -277,6 +277,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Greg Pritchard's Solution](https://github.com/gregoryneal/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/gregoryneal/project-euler/blob/master/index.html)
 * [Rob Harkness's Solutions](https://github.com/robo2323/odin_003_euler_problems_js) | [View in browser](http://robo2323.github.io/odin_003_euler_problems_js/index.html) 
 * [John Sawyer's Solution](https://github.com/SawyerMerchant/euler)
+* [Jorge Gonzalez's Solution](https://github.com/jrgz/euler/tree/master/Javascript)
 * Add your solution above this line!
 
 ## Additional Resources
