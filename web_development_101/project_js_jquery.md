@@ -350,4 +350,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/etch_a_sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/johnTheDudeMan/the_odin_project/blob/master/etch_a_sketch/index.html)
 * [Derek Scace's solution](https://github.com/dscace/etch-a-sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/dscace/etch-a-sketch/blob/master/index.html)
 * [Greg Pritchard's solution](https://github.com/gregoryneal/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/gregoryneal/sketchpad/blob/master/index.html)
+* [John Sawyer's solution](https://github.com/SawyerMerchant/EtchASketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/SawyerMerchant/EtchASketch/blob/master/index.html)
 * Add your solution above this line!
