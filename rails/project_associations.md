@@ -92,6 +92,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/private-events)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/private-events)
 * [Radi Totev's solution](https://github.com/raditotev/private-events)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/private-events)
 * Add your solution above this line!
 
 
