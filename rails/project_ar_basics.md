@@ -151,6 +151,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [srashidi's solution](https://github.com/srashidi/Active_Record_Basics/tree/master/micro-reddit)
 * [Radi Totev's solution](https://github.com/raditotev/micro-reddit)
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/micro-reddit)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
