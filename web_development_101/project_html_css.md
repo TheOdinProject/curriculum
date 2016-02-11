@@ -574,6 +574,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [David Gu's Easy Solution](https://github.com/dagu3371/Google-project) | [View in browser](https://rawgit.com/dagu3371/Google-project/master/firstsite.html)
 * [Solomon Tompkins's solution](https://github.com/mployee8/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/mployee8/google-homepage/blob/master/index.html)*
 * [Ken Harkey's Easy Bootstrap solution](https://github.com/KenHarkey/google-homepage) | [View in Browser](http://kenharkey.github.io/google-homepage)*
+* [ttchopper's solution](https://github.com/ttchopper/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ttchopper/google-homepage/blob/master/index.html) 
 * Add your solution above this line!
 
 ## Additional Resources
