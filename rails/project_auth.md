@@ -121,6 +121,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/members-only) | [View in browser](https://sleepy-citadel-6281.herokuapp.com/)
 * [Radi Totev's solution](https://github.com/raditotev/members-only)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/members-only)
+* [srashidi's solution](https://github.com/srashidi/Authentication/tree/master/members-only)
 * Add your solution above this line!
 
 
