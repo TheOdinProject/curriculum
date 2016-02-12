@@ -134,5 +134,4 @@ We'll dig into this stuff a bit later, but it's good to understand in the contex
 
 
 * [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
-* [Rails MVC explained by CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/mvc-in-rails)
 * [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy
