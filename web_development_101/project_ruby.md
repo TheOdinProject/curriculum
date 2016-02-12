@@ -142,6 +142,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Kevin Biddle's solution](https://github.com/kdbiddle/ruby_testing)
 * [Marie Sheridan's solution](https://github.com/mariesheridan/learn_ruby)
 * [Anvekar's solution](https://github.com/gga26/Rspec-Tests)
+* [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/learn_ruby)
+* [Jess Farley's solution](https://github.com/littlemighty/test_first)
+* [Greg Pritchard's solution](https://github.com/gregoryneal/tdd_ruby_tests)
+* [Greg Pritchard's solution](https://github.com/JaveedIshaq/theodinproject_projects/tree/master/learn_ruby)
 * Add your solution above this line!
 
 

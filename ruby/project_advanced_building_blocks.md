@@ -145,6 +145,10 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Andrew Johnson's solution](https://github.com/ad-johnson/basic-ruby/blob/master/src/sorter.rb)
 * [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/buildingRubyBlocks/blob/master/bubble.rb)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/building_blocks/blob/master/bubble_sort.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/bubble_sort.rb)
+* [Noobling's solution](https://github.com/noobling/ruby/blob/master/advanced_buidling_blocks/bubblesort.rb)
+* [TheBetterNewt's solution]
+* [Max Gallant's solution](https://github.com/mcgalcode/Ruby/blob/master/AdvancedBlocksProject/bubble_sort.rb)
 * Add your solution above this line!
 
 
@@ -282,6 +286,10 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/buildingRubyBlocks/blob/master/enumerable.rb)
 * [Maia Petee's solution](https://github.com/movetomars/Advanced-Building-Blocks/blob/master/enumerable.rb)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/building_blocks/blob/master/enumerable_methods.rb)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/enumerable.rb)
+* [Noobling's solution](https://github.com/noobling/ruby/blob/master/advanced_buidling_blocks/enumerables.rb)
+* [TheBetterNewt's solution](https://github.com/thebetternewt/my-enumerable/blob/master/my-enumerable.rb)
+* [Max Gallant's solution](https://github.com/mcgalcode/Ruby/blob/master/AdvancedBlocksProject/my_enums.rb)
 * Add your solution above this line!
 
 

@@ -86,7 +86,9 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Matias Pan's solution](https://github.com/kriox26/flight-booker) | [View in browser](https://vast-ridge-2462.herokuapp.com/)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/flight-booker)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/tom-flight-booker)
-
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/Flight-Booker)
+* [Radi Totev's solution](https://github.com/raditotev/flight_booker)
+* [Patrick Mallee's solution](https://github.com/patmallee/flight-booker)
 * Add your solution above this line!
 
 ## Additional Resources

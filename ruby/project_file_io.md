@@ -63,6 +63,9 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/tree/master/event_manager)
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/event_manager)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/tree/master/event_manager)
+* [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/rubyeventmanager)
+* [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/IOProjects)
+* [noobling's solution](https://github.com/noobling/ruby/tree/master/event_manager)
 * Add your solution above this line!
 
 
@@ -157,6 +160,11 @@ You will be building a simple command line Hangman game where one player plays a
 * [Oleh Zinisk'd solution](https://github.com/OlehZiniak/hangman)
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/hangman)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/hangman.rb)
+* [Tomasz Kula's solution](https://github.com/zetsnotdead/hangman)
+* [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/IOProjects)
+* [noobling's soltion](https://github.com/noobling/ruby/tree/master/hang_man)
+* [Barltomiej Lazarski's solution](https://github.com/YogAzathoth/hangman)
+* [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/hangman)
 * Add your solution above this line!
 
 

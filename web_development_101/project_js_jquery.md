@@ -1,4 +1,4 @@
-# Project: Javascript/jQuery
+﻿# Project: Javascript/jQuery
 
 <!-- *Estimated Time: 2-4 hrs* -->
 
@@ -37,6 +37,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 ## Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+
 
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/sketch-pad/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/myLearning/blob/master/odin.js.sketch_pad/index.html)
@@ -266,7 +267,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [James Brooks's solution](https://github.com/jhbrooks/sketchpad) | [View in browser](https://cdn.rawgit.com/jhbrooks/sketchpad/c33d8d74925efd8485de4d9be19896ae9df47785/index.html)
 * [Jason Harris' solution](https://github.com/jasonharris1/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/jasonharris1/sketchpad/master/index.html)
 * [Toby Aurelius' solution](https://github.com/sidewaysgiraffe/TheOdinProject/tree/master/colour-grid) | [View in browser](https://htmlpreview.github.io/?https://github.com/sidewaysgiraffe/TheOdinProject/blob/master/colour-grid/index.html)
-* [Kar C's solution](https://github.com/karcc/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/karcc/etch-a-sketch/blob/master/index.html)
+* [Kar C's solution](https://github.com/karcc/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/karcc/etch-a-sketch/blob/master/index.html)
 * [Giorgos Mitsis's solution](https://github.com/vinPopulaire/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/vinPopulaire/Etch-A-Sketch/blob/master/index.html)
 * [Chethan Bhat's solution](https://github.com/chethanbhat/Etch-a-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/chethanbhat/Etch-a-Sketch/blob/master/index.html)
 * [Karol Wójcik's solution](https://github.com/CharlesPL/Javascript-jQuery-odinproject-) [View in Browser](http://htmlpreview.github.io/?https://github.com/CharlesPL/Javascript-jQuery-odinproject-/master/index.html)
@@ -285,7 +286,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Lee Parham's solution](https://github.com/parhaml/sketch_pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/parhaml/sketch_pad/blob/master/index.html)
 * [Jerrell Bryant's solution](https://github.com/codeNameJKB/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/codeNameJKB/sketchpad/blob/master/index.html)
 * [John Smalley's solution](https://github.com/johnsmalley/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/johnsmalley/sketchpad/blob/master/index.html)
-* [Raphael N's solution](https://github.com/raph-nov/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/raph-nov/etch-a-sketch/blob/master/index.html)
+* [Raphael N's solution](https://github.com/raph-nov/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/raph-nov/etch-a-sketch/blob/master/index.html)
 * [DV's solution](https://github.com/dvislearning/etch-a-sketch) | [View in browser](https://rawgit.com/dvislearning/etch-a-sketch/master/index.html)
 * [Kelly Downes' solution](https://github.com/kdow/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/kdow/sketchpad/blob/master/index.html)
 * [Falk Schwiefert's solution](https://github.com/azudet/odinproject_etch-a-sketch/blob/master/index.html)
@@ -313,7 +314,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Finnishmiko's solution](https://github.com/finnishmiko/the_odin_project/tree/master/Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/finnishmiko/the_odin_project/blob/master/Sketchpad/sketchpad.html)
 * [Colin Thorpe's solution](https://github.com/czthorpe/sketch-an-etch) | [View in browser](https://htmlpreview.github.io/?https://github.com/czthorpe/sketch-an-etch/blob/master/index.html)
 * [Earth35's solution](https://github.com/Earth35/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/etch-a-sketch/blob/master/etch-a-sketch.html)
-* [YogAzathoth's solution](https://github.com/YogAzathoth/jQueryProject) | [View in browser] (https://htmlpreview.github.io/?https://github.com/YogAzathoth/jQueryProject/blob/master/index.html)
+* [YogAzathoth's solution](https://github.com/YogAzathoth/jQueryProject) | [View in browser](https://htmlpreview.github.io/?https://github.com/YogAzathoth/jQueryProject/blob/master/index.html)
 * [Jess Farley's solution](https://github.com/littlemighty/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/littlemighty/etch-a-sketch/blob/master/index.html)
 * [Michael Tran's solution](https://github.com/mtran45/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/mtran45/sketchpad/blob/master/index.html)
 * [Brian Flatt's Solution](https://github.com/bflatt72/etchaSketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/bflatt72/etchaSketch/blob/master/index.html)
@@ -336,4 +337,19 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [ryanpaixao's solution](https://github.com/ryanpaixao/etch_a_sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/ryanpaixao/etch_a_sketch/blob/master/index.html)
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/Reyesjunk/sketch-pad/blob/master/index.html)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/JS-Grid-Project) | [View in Browser](http://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/JS-Grid-Project/blob/master/Grid_Project.html)
+* [Armin Zierlinger's solution](https://github.com/ArminZierlinger/Sketch-Pad) [View in Browser](https://rawgit.com/ArminZierlinger/Sketch-Pad/master/index.html)
+* [Zach Blake's Solution](https://github.com/zachtblake/sketchpad) | [View in Browser](https://rawgit.com/zachtblake/sketchpad/master/dist/index.html)
+* [Max Gallant's solution](https://github.com/mcgalcode/WebDev101/tree/master/jQueryBasicsProject) | [View in browser](https://htmlpreview.github.io/?https://github.com/mcgalcode/WebDev101/blob/master/jQueryBasicsProject/index.html)
+* [Tahmid's solution](https://github.com/tahmid-ul/Sketch-pad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tahmid-ul/Sketch-pad/blob/master/index.html)
+* [Brandon Phillips's solution](https://github.com/bpdev97/odin-project/tree/master/etch-a-sketch) | [View in Browser](https://rawgit.com/bpdev97/odin-project/master/etch-a-sketch/index.html)
+* [Thiswillhavetodo's solution](https://github.com/thiswillhavetodo/Sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/thiswillhavetodo/Sketchpad/blob/master/index.html)
+* [Frances Morrison's Solution](https://github.com/FMorrison87/Projects/Etch-A-Sketch.git)
+* [Tom Westerhout's solution](https://github.com/Westw00d/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/Westw00d/Etch-A-Sketch/blob/master/Etch-A-Sketch.html)
+* [Oscar Y's solution](https://github.com/mysteryihs/odin-project-jquery) | [View in Browser](https://htmlpreview.github.io/?https://github.com/mysteryihs/odin-project-jquery/index.html)
+* [Arkhans's solution](https://github.com/Arkhans/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Arkhans/sketchpad/blob/master/index.html)
+* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/etch_a_sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/johnTheDudeMan/the_odin_project/blob/master/etch_a_sketch/index.html)
+* [Derek Scace's solution](https://github.com/dscace/etch-a-sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/dscace/etch-a-sketch/blob/master/index.html)
+* [Greg Pritchard's solution](https://github.com/gregoryneal/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/gregoryneal/sketchpad/blob/master/index.html)
+* [John Sawyer's solution](https://github.com/SawyerMerchant/EtchASketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/SawyerMerchant/EtchASketch/blob/master/index.html)
+* * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/theodinproject_projects/tree/master/the-odinproject-Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/JaveedIshaq/theodinproject_projects/blob/master/the-odinproject-Etch-A-Sketch/index.html)
 * Add your solution above this line!

@@ -48,7 +48,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
         > user.authenticate("somethingelse")
         => false
         > user.authenticate("foobar")
-        => true
+        => #<User id: 1, name: "foobar", email: "foo@bar.com", password_digest: "$2a$10$9Lx...", created_at: "2016...", updated_at: "2016...">
     ```
 
 #### Sessions and Sign In
@@ -119,6 +119,9 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/members-only)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/members-only) | [View in browser](https://guarded-brook-9440.herokuapp.com/)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/members-only) | [View in browser](https://sleepy-citadel-6281.herokuapp.com/)
+* [Radi Totev's solution](https://github.com/raditotev/members-only)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/members-only)
+* [srashidi's solution](https://github.com/srashidi/Authentication/tree/master/members-only)
 * Add your solution above this line!
 
 
