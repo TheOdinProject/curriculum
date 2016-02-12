@@ -172,5 +172,3 @@ It's all about practice, so the projects from here on out will ask you to think 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
-* [Rails Models from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introducing-models-create-migrate-rollback-destroy)
