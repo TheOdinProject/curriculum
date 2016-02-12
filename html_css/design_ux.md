@@ -43,3 +43,5 @@ Remember that your goal here is to absorb the most important concepts and contin
 * [Using Photoshop to Design Interfaces](http://nathanbarry.com/how-to-use-photoshop-to-design-interfaces/)
 * [A more abstract article on "Learning to See" from ia.net](http://ia.net/blog/learning-to-see/)
 * [Usability 101 for Startups from Ripul Kumar](https://medium.com/design-ux/dc849621262f)
+* [A large collection of free ux books](http://www.uxpin.com/knowledge.html )
+* [This very extensive free ux course](https://www.mysliderule.com/learning-paths/user-experience-design )
