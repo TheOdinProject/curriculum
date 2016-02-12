@@ -152,6 +152,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Radi Totev's solution](https://github.com/raditotev/micro-reddit)
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/micro-reddit)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/micro-reddit)
+* [Matt Velez's solution](https://github.com/Timecrash/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
