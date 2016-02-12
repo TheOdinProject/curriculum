@@ -40,7 +40,7 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 2. Read Daniel Kehoe's excellent [What is Ruby on Rails?](http://railsapps.github.io/what-is-ruby-rails.html) introduction to get a good grasp on what we're working with.
 3. Start doing Rails right away by diving into the [Rails for Zombies](http://railsforzombies.org/) course, which lets you begin programming Rails right in your browser!  It goes pretty quickly and you'll probably need to rewatch the videos but stick with it.
 4. Get a bit more formal explanation of Model/View/Controller in [this short Youtube video from Lynda.com](http://www.youtube.com/watch?v=3mQjtk2YDkM)
-4. Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time you do the Rails course later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
+5. Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time you do the Rails course later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
 
 ## Additional Resources
 
@@ -48,6 +48,5 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 
 * [MVC for Noobs](http://net.tutsplus.com/tutorials/other/mvc-for-noobs/) uses PHP as an example later in the article, but you should get the gist of it.
 * [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e)
-* If you want to dive right into a full on interactive Rails course in the browser, give [Code Learn](http://www.codelearn.org/ruby-on-rails-tutorial) a shot (and let us know what you think)
 * [Codecademy Ruby on Rails](http://www.codecademy.com/en/learn/learn-rails)
 * [The Best Way to Learn Ruby on Rails](http://code.tutsplus.com/tutorials/the-best-way-to-learn-ruby-on-rails--net-21820) from TutsPlus
