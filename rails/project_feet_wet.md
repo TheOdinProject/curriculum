@@ -81,5 +81,3 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* [How to Design a Rails App from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/design-rails-app)
