@@ -34,7 +34,7 @@ There are two main ways to contribute to the curriculum:
 
 1. **Pull Request:**  To contribute in ways that are larger than what can be done directly on Github or if you're expecting to make several contributions over time, it is best to submit a Pull Request.  I describe that workflow [in this YouTube video here](http://www.youtube.com/watch?v=mENDYhfxH-o) and Github has good documentation and video support as well.  Basically, you will [fork the curriculum repository](https://help.github.com/articles/fork-a-repo), make your changes or additions to the appropriate file, then [submit a pull request](https://help.github.com/articles/using-pull-requests) with your changes.  
 
-##Other helpfull links
+##Other helpful links
 
 *For more information about The Odin Project, go to [theodinproject.com](http://theodinproject.com).*
 
