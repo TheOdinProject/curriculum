@@ -122,6 +122,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Radi Totev's solution](https://github.com/raditotev/members-only)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/members-only)
 * [srashidi's solution](https://github.com/srashidi/Authentication/tree/master/members-only)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/members-only)
 * Add your solution above this line!
 
 
