@@ -179,7 +179,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 6. Create `#my_inject`
 7. Test your `#my_inject` by creating a method called `#multiply_els` which multiplies all the elements of the array together by using `#my_inject`, e.g. `multiply_els([2,4,5]) #=> 40`
 7. Modify your `#my_map` method to take a proc instead.
-8. Modify your `#my_map` method to take either a proc or a block, executing the block only if both are supplied (in which case it would execute both the block AND the proc).
+8. Modify your `#my_map` method to take either a proc, a block, or both, but executing the block only if both are supplied (in which case it would execute both the block AND the proc).
 
 **Quick Tips:**
 
