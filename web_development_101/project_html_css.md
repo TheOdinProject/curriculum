@@ -578,6 +578,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [joelmarvi's solution](https://github.com/joelmarvi/google-homepage) |  [View in Browser](http://htmlpreview.github.io/?https://github.com/joelmarvi/google-homepage/blob/master/index.html) 
 * [richjdsmith's solution](https://github.com/richjdsmith/google-homepage) |  [View in Browser](https://cdn.rawgit.com/richjdsmith/google-homepage/master/index.html)
 * [Gabriel Flynn's solution](https://github.com/SlashingWolf/google-homepage) |  [View in Browser](https://htmlpreview.github.io/?https://raw.githubusercontent.com/SlashingWolf/google-homepage/master/index.html)
+* [zicbim`s solution](https://github.com/zicbim/google_homepage.git) | [View in Browser](https://htmlpreview.github.io/?https://github.com/zicbim/google_homepage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
