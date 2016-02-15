@@ -14,7 +14,7 @@ Contact us directly at [project@theodinproject.com](mailto:project@theodinprojec
 
 ## Contributing to the Site
 
-This project is emphatically beginner-friendly so, if you're interested in potentially contributing, take a look at the [Contributing Page](http://www.theodinproject.com/contributing) on the website for more information. See the [Getting Involved document](https://github.com/TheOdinProject/theodinproject/blob/master/getting_involved.md) for details of how we develop the website.
+This project is emphatically beginner-friendly so, if you're interested in potentially contributing, take a look at the [Contributing Page](http://www.theodinproject.com/contributing) on the website for more information.
 
 ### Hacking on the Site Yourself: Getting Set Up
 
