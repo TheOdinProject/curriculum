@@ -353,4 +353,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [John Sawyer's solution](https://github.com/SawyerMerchant/EtchASketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/SawyerMerchant/EtchASketch/blob/master/index.html)
 * * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/theodinproject_projects/tree/master/the-odinproject-Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/JaveedIshaq/theodinproject_projects/blob/master/the-odinproject-Etch-A-Sketch/index.html)
 * [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/PiotrEjsmont/sketchpad/blob/master/sketchpad.html)
+* [Nathan Minchow's solution](https://github.com/aspenner/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/aspenner/sketchpad/blob/master/sketchpad.html)
 * Add your solution above this line!
