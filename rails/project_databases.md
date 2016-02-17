@@ -26,6 +26,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 * [Dan Hoying's solution](https://github.com/danhoying/sql_and_databases)
 * [Radi Totev's solution](https://github.com/raditotev/sqlzoo-solutions)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/sql_zoo)
+* [Max Gallant's solution](https://github.com/mcgalcode/SQLZoo)
 * Add your solution above this line!
 
 
