@@ -42,6 +42,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rest_client_gem)
 * [Radi Totev's solution](https://github.com/raditotev/rest-tester)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/RestClient)
+* [Max Gallant's solution] (https://github.com/mcgalcode/WebRefresher)
 * Add your solution above this line!
 
 
