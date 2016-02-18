@@ -138,6 +138,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [parhaml's solution] (https://github.com/parhaml/rails_project) | [View in browser] (https://salty-sierra-81130.herokuapp.com)
 * [Joshua Berry's solution](https://github.com/jbez92/ruby_on_rails)|[View in browser](http://cryptic-cliffs-31734.herokuapp.com/)
 * * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/rails_blog_app)|[View in browser](https://blooming-eyrie-31902.herokuapp.com/)
+* [Peter Taggart's solution](https://github.com/gitschwifty/blogger)|[View in browser](https://immense-chamber-91760.herokuapp.com/)
 * Add your solution above this line!
 
 
