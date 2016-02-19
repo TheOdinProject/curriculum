@@ -280,6 +280,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jorge Gonzalez's Solution](https://github.com/jrgz/euler/tree/master/Javascript)
 * [ttchopper's Solutions](https://github.com/ttchopper/Project-Euler-Solutions)
 * [Nijastan Kirupa's Solution](https://github.com/nijastanhumber/Euler-Project) | [View in browser](https://htmlpreview.github.io/?https://github.com/nijastanhumber/Euler-Project/blob/master/euler.html)
+* [Johnny Rasnic's Solutions](https://github.com/lonniganseaweed/javascript-basics)
 * Add your solution above this line!
 
 ## Additional Resources
