@@ -20,6 +20,7 @@ gem 'omniauth-github' #for Github Authentication
 gem 'premailer-rails'
 gem "font-awesome-rails"
 gem 'disqus' #for the forum sections of the website
+gem 'transpec'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.2'
