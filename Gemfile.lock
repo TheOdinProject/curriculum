@@ -180,8 +180,6 @@ GEM
     premailer-rails (1.9.0)
       actionmailer (>= 3, < 5)
       premailer (~> 1.7, >= 1.7.9)
-    protected_attributes (1.0.9)
-      activemodel (>= 4.0.1, < 5.0)
     pry (0.10.3)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -322,7 +320,6 @@ DEPENDENCIES
   omniauth-github
   pg (~> 0.17.1)
   premailer-rails
-  protected_attributes (~> 1.0.5)
   pry
   puma (~> 2.16.0)
   quiet_assets (~> 1.0.2)

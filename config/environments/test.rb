@@ -40,4 +40,7 @@ Rails.application.configure do
 
   # Randomize the order test cases are executed.
   config.active_support.test_order = :random
+
+  #Raise error on params
+  config.action_controller.action_on_unpermitted_parameters = :raise
 end

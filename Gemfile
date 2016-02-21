@@ -12,7 +12,6 @@ gem 'figaro',                       '~> 0.7.0' # Managing environment variables
 gem 'rack-timeout',                 '~> 0.3.2'
 gem 'redcarpet',                    '~> 3.0.0' # to render the curriculum's .md files as html
 gem 'will_paginate',                '~> 3.0.5' # to paginate student lists
-gem 'protected_attributes',         '~> 1.0.5'
 gem 'pg',                           '~> 0.17.1'
 gem 'nokogiri',                     '1.6.2.1' #Currently locked at this version due to Premailer
 gem 'github_api' # to pull in the curriculum files
