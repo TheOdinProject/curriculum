@@ -7,7 +7,7 @@ gem 'simple_form',                  '~> 3.0.1'
 gem 'jquery-rails',                 '~> 3.0.4'
 gem 'newrelic_rpm',                 '~> 3.6.5.130'
 gem 'google-api-client',            '~> 0.6.4'
-gem 'devise',                       '~> 3.5.6', # For managing authentication
+gem 'devise',                       '~> 3.5.6' # For managing authentication
 gem 'figaro',                       '~> 0.7.0' # Managing environment variables
 gem 'rack-timeout',                 '~> 0.3.2'
 gem 'redcarpet',                    '~> 3.0.0' # to render the curriculum's .md files as html
