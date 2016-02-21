@@ -356,5 +356,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Nathan Minchow's solution](https://github.com/aspenner/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/aspenner/sketchpad/blob/master/sketchpad.html)
 * [Nijastan Kirupa's solution](https://github.com/nijastanhumber/jquery-sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/nijastanhumber/jquery-sketchpad/blob/master/sketchpad.html)
 * [Robert Harkness's solution](https://github.com/robo2323/odin_004_sketch_pad) | [View in Browser (codepen.io)](http://codepen.io/robo2323/full/VeOQwO/)
-* [Robert Harkness's solution](https://github.com/robo2323/odin_004_sketch_pad) | [View in Browser (codepen.io)](http://codepen.io/robo2323/full/VeOQwO/)
 * Add your solution above this line!
