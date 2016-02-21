@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.3.0'
 gem 'rails',              '4.0.2'
 gem 'simple_form',         '~> 3.0.1'
 gem 'jquery-rails',       '~> 3.0.4'
@@ -19,13 +19,8 @@ gem 'premailer-rails'
 gem 'omniauth-github' #for Github Authentication
 gem "font-awesome-rails"
 gem 'disqus' #for the forum sections of the website
-
 # Because premailer choked on the newer version...
 gem 'nokogiri', '1.6.2.1'
-
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
   gem 'rails_12factor', '~> 0.0.2'
@@ -33,11 +28,11 @@ end
 
 group :development, :test do
   gem 'factory_girl_rails', '~> 4.3.0'
-  gem 'rspec-rails', '~> 2.14.1'
+  gem 'rspec-rails', '~> 3.4'
   gem 'database_cleaner', '~> 1.2.0'
   gem 'fakeweb', '~> 1.3.0'
-  gem 'capybara',                   '<= 2.0.2'
-  gem 'capybara-webkit', '~> 1.1.1'
+  gem 'capybara', '~> 2.6'
+  gem 'capybara-webkit', '~> 1.8'
 end
 
 group :development do
@@ -57,21 +52,4 @@ end
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
-
   gem 'uglifier',                   '>= 1.0.3'
-
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'

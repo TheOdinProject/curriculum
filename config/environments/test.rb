@@ -34,4 +34,7 @@ Theodinproject::Application.configure do
   config.action_mailer.perform_deliveries = true
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+
+  #Thread safety, needed by Capybara
+  config.allow_concurrency = false
 end
