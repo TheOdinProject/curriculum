@@ -17,11 +17,11 @@ describe OmniauthCallbacksController, "github callback" do
         click_signin_with_github
       end
 
-      specify { page.should have_css('#user_username') }
-      specify { page.should have_css('#user_email') }
-      specify { page.should have_content('Terms of Use') }
-      specify { page.should_not have_css('password confirmation') }
-      specify { page.should_not have_css('password required') }
+      specify { expect(page).to have_css('#user_username') }
+      specify { expect(page).to have_css('#user_email') }
+      specify { expect(page).to have_content('Terms of Use') }
+      specify { expect(page).not_to have_css('password confirmation') }
+      specify { expect(page).not_to have_css('password required') }
     end 
 
 
@@ -34,7 +34,7 @@ describe OmniauthCallbacksController, "github callback" do
       end
 
       specify do 
-        page.should have_content('Welcome! You have signed up successfully.')
+        expect(page).to have_content('Welcome! You have signed up successfully.')
       end
 
       it 'should create user' do
@@ -61,7 +61,7 @@ describe OmniauthCallbacksController, "github callback" do
       #auth = request.env["omniauth.auth"]
       #fixed with #{authorization.provider}
       it "should flash notice \"Thanks for logging in with Default\n" do
-        page.should have_content("Thanks for logging in with Default")
+        expect(page).to have_content("Thanks for logging in with Default")
       end
     end
 
@@ -70,7 +70,7 @@ describe OmniauthCallbacksController, "github callback" do
         attempt_sign_in_no_legal_agreement
       end
 
-      specify {page.should have_content('Don\'t forget the legal')}
+      specify {expect(page).to have_content('Don\'t forget the legal')}
 
       it 'should not create a user' do
         expect(User.any?).to eq(false)
@@ -120,7 +120,7 @@ describe OmniauthCallbacksController, "github callback" do
 
       it 'should tell the user to login to his/her existing account, and link the account on the profile page' do
         expect(normal_user.provider).to eq(nil)
-        page.should have_css('.signup-prompt-msg')
+        expect(page).to have_css('.signup-prompt-msg')
       end
     end
 
