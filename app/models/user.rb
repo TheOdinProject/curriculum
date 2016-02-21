@@ -40,12 +40,12 @@ class User < ActiveRecord::Base
   def completed_lesson?(lesson)
     self.completed_lessons.include?(lesson)
   end
-  
+
   def latest_completed_lesson
     lc = self.latest_lesson_completion
     Lesson.find(lc.lesson_id) unless lc.nil?
   end
-  
+
   def lesson_completion_time(lesson)
    t = self.lesson_completions.where("lesson_id = %s ", lesson.id ).limit(1)
     t.first["created_at"]
@@ -59,7 +59,6 @@ class User < ActiveRecord::Base
   # Create a completely new user from our auth package
   # Returns that user
   def self.from_omniauth(auth)
-    #puts "\n\n\n\n\n\n\n #{auth} \n\n\n\n\n\n\n\n"
     where(auth.slice(:provider, :uid)).first_or_create do |user|
       user.provider = auth['provider']
       user.uid = auth['uid']
@@ -130,7 +129,7 @@ class User < ActiveRecord::Base
     def send_welcome_email(token)
       begin
         @token = token
-        UserMailer.send_welcome_email_to(self, token).deliver!
+        UserMailer.send_welcome_email_to(self, token).deliver_now!
       rescue Exception => e
         puts "Error sending welcome email!"
         puts e.message
