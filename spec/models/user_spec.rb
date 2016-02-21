@@ -4,10 +4,10 @@ require 'spec_helper'
 
 describe User do
 
-  
-  subject(:user) { User.new(   
-                            :username => "foobar", 
-                            :email => "foo@bar.com", 
+
+  subject(:user) { User.new(
+                            :username => "foobar",
+                            :email => "foo@bar.com",
                             :password => "foobar",
                             :legal_agreement => "true" )}
 
@@ -27,14 +27,14 @@ describe User do
   it { should respond_to(:google_plus) }
   it { should respond_to(:legal_agreement) }
   it { should respond_to(:legal_agree_date) }
-  
+
   # Associations
   it { should respond_to(:content_activations) }
   it { should respond_to(:content_buckets ) }
-  it { should respond_to(:user_pref) }  
+  it { should respond_to(:user_pref) }
   it { should respond_to(:lesson_completions) }
   it { should respond_to(:completed_lessons) }
-  
+
   it { should be_valid }
 
   context "with all fields filled in" do
@@ -90,7 +90,7 @@ describe User do
     end
     it { should_not be_valid }
   end
-  
+
   it "shouldn't yet have any completed lessons" do
     expect(subject.completed_lessons).to be_empty
   end
@@ -121,10 +121,10 @@ describe User do
       subject.save!
     end
 
-    describe "it should create a preferences association as well" do
-      its(:user_pref) { should_not be_nil }
+    it "should create a preferences association as well" do
+      expect(:user_pref).to_not be_nil
     end
-    
+
     describe "#completed_lesson?" do
 
       context "for a lesson that has been completed" do
