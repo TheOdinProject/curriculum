@@ -1,7 +1,5 @@
 class Ad < ActiveRecord::Base
 
-  attr_accessible :category, :client, :image_path, :url, :style
-
   # Display VE ads for everyone
   def self.show_ads?(current_user)
     true
