@@ -37,4 +37,7 @@ Theodinproject::Application.configure do
 
   #Thread safety, needed by Capybara
   config.allow_concurrency = false
+
+  # Randomize the order test cases are executed.
+  config.active_support.test_order = :random
 end

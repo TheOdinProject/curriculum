@@ -4,7 +4,7 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
-Bundler.require(:default, Rails.env)
+Bundler.require(*Rails.groups)
 
 module Theodinproject
   class Application < Rails::Application
@@ -13,7 +13,7 @@ module Theodinproject
     config.assets.enabled = true
     config.assets.version = '1.0'
     # config.i18n.enforce_available_locales = false
-    
+
     Disqus::defaults[:account] = ENV['DISQUS_ACCOUNT_NAME']
     Disqus::defaults[:developer] = true
     Disqus::defaults[:avatar_size]    = 24, # squared pixel size of avatars
@@ -32,5 +32,6 @@ module Theodinproject
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    config.active_record.raise_in_transactional_callbacks = true
   end
 end
