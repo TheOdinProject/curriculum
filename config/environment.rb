@@ -2,7 +2,7 @@
 require File.expand_path('../application', __FILE__)
 
 # Initialize the Rails application.
-Theodinproject::Application.initialize!
+Rails.application.initialize!
 
 # SendGrid settings:
 ActionMailer::Base.smtp_settings = {

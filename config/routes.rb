@@ -1,6 +1,6 @@
-Theodinproject::Application.routes.draw do
-devise_for :users, 
-  :controllers => { :registrations => "registrations", 
+Rails.application.routes.draw do
+devise_for :users,
+  :controllers => { :registrations => "registrations",
     :omniauth_callbacks => "omniauth_callbacks",
     :confirmations => "confirmations" }
   devise_scope :user do
@@ -71,4 +71,3 @@ devise_for :users,
 
 
 end
-
