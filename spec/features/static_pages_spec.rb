@@ -17,16 +17,8 @@ describe "StaticPages" do
   end
 
   describe "Splash Page" do
-
     before { visit root_path }
-
-    it "should have a title" do
-      # save_and_open_page
-      subject.source.should have_selector('title', text: "Odin")
-    end
-
     it { should have_selector('h1', text: home_h1) }
-    it { should_not have_link :href => scheduler_path } # worthless test? It may need the link text too.
     it { should have_button "Explore the full curriculum" }
     it { should have_link 'Login', :href => login_path(:ref => "homenav") }
   end
