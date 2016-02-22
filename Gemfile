@@ -26,6 +26,7 @@ gem 'twitter-bootstrap-rails',      '2.2.6'
 gem 'therubyracer',                 '~> 0.12.2' # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'less-rails',                   '~> 2.3.3'
 gem 'uglifier',                     '>= 1.0.3'
+gem 'selenium-webdriver',           '~> 2.52'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.2'
