@@ -20,6 +20,12 @@ gem 'premailer-rails'
 gem "font-awesome-rails"
 gem 'disqus' #for the forum sections of the website
 gem 'transpec'
+gem 'sass-rails',                   '~> 4.0.1'
+gem 'coffee-rails',                 '~> 4.0.1'
+gem 'twitter-bootstrap-rails',      '2.2.6'
+gem 'therubyracer',                 '~> 0.12.2' # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+gem 'less-rails',                   '~> 2.3.3'
+gem 'uglifier',                     '>= 1.0.3'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.2'
@@ -41,14 +47,3 @@ group :development do
   gem 'binding_of_caller',          '~> 0.7.2' # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
   gem 'letter_opener',              '~> 1.2.0' # shows outgoing emails in your browser instead
 end
-
-# update: rails 4 deprecated use of :assets group in gemfile
-  gem 'sass-rails',                 '~> 4.0.1'
-  gem 'coffee-rails',               '~> 4.0.1'
-  gem 'twitter-bootstrap-rails',    '2.2.6'
-  gem 'therubyracer',               '~> 0.12.2'
-  gem 'less-rails',                 '~> 2.3.3'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-  gem 'uglifier',                   '>= 1.0.3'
