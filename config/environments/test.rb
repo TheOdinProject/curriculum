@@ -42,5 +42,5 @@ Rails.application.configure do
   config.active_support.test_order = :random
 
   #Raise error on params
-  # config.action_controller.action_on_unpermitted_parameters = :raise
+  config.action_controller.action_on_unpermitted_parameters = :raise
 end
