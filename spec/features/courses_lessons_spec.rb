@@ -66,7 +66,7 @@ describe "Courses and Lessons Pages" do
         Course.first.lessons.each do |l|
           LessonCompletion.create(:lesson_id => l.id, :student_id => student.id)
         end
-        # Check courses index to ensure course has a green check mark by it 
+        # Check courses index to ensure course has a green check mark by it
         within(:link_to, lessons_path(Course.first.title_url), text: "#{Course.first.title}") do
           subject.should have_selector("h3", text: "✔")
         end
@@ -134,7 +134,7 @@ describe "Courses and Lessons Pages" do
     end
 
     context "for regular lessons" do
-      
+
       let(:non_project1) { course1.lessons.where(:is_project => :false).first }
 
       it "should not have a special project class" do
@@ -144,17 +144,17 @@ describe "Courses and Lessons Pages" do
         subject.should_not have_xpath(xpath)
       end
     end
-    
-    it "should NOT have a checkbox for the lesson" do    
+
+    it "should NOT have a checkbox for the lesson" do
       expect(page).to_not have_css("#lc-id-#{course1.lessons.first.id}")
     end
 
     it "should NOT have a percent-completed indicator" do
       expect(page).to_not have_css(".lc-percent-completion")
     end
-      
+
     context "for a signed-in user" do
-      
+
       let!(:signed_in_student){ FactoryGirl.create(:user) }
 
       before do
@@ -164,17 +164,17 @@ describe "Courses and Lessons Pages" do
 
 
       describe "lesson completions" do
-        
+
         it "should have a percent-completed indicator" do
           expect(page).to have_css(".lc-percent-completion")
         end
 
         it "should have a checkbox for the lesson" do
-          
+
           expect(page).to have_css("#lc-id-#{lesson1.id}")
-          
+
         end
-        
+
         context "when user has not already completed the lesson" do
 
           it "the lesson's checkbox should appear unchecked" do
@@ -188,55 +188,55 @@ describe "Courses and Lessons Pages" do
               end
             end
           end
-          
+
           context "after clicking the checkbox" do
-            
+
             # After the AJAX successfully returns, it should re-render just the checkbox area to reflect
             # the completed checkbox
             it "should change the checkbox to checked (JS test)", :js => true do
               find("#lc-id-#{lesson1.id}  a.lc-checkbox").click
-              expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
+              expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")
             end
-              
+
           end
-          
+
           context "when there are two previously unchecked lessons on the page" do
-            
+
             let(:lesson2) { course1.lessons[1] }
-           
+
             it "clicking one does not result in both being checked (JS test)", :js => true do
               find("#lc-id-#{lesson1.id} a.lc-checkbox").click
-              expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked") 
-              expect(page).to_not have_css("#lc-id-#{lesson2.id} .lc-checked") 
+              expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")
+              expect(page).to_not have_css("#lc-id-#{lesson2.id} .lc-checked")
             end
-            
+
           end
-          
+
         end
-      
+
         context "and user HAS already completed the lesson" do
-          
+
           before do
             @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
             visit course_path(course1.title_url)
           end
-          
+
           it "should show a checked box for that lesson" do
             expect(page).to have_css("#lc-id-#{lesson1.id} .lc-checked")
           end
-          
+
           context "after clicking that pre-checked box" do
-            
+
             it "should change the checkbox to its unchecked state (JS test)", :js => true do
               within("#lc-id-#{lesson1.id}") do
                 find("a.lc-checkbox").click
-                expect(page).to have_css(".lc-unchecked")  
-                expect(page).to_not have_css(".lc-checked")          
+                expect(page).to have_css(".lc-unchecked")
+                expect(page).to_not have_css(".lc-checked")
               end
             end
-            
+
           end
-          
+
         end
 
         context "when the user has completed ALL lessons" do
@@ -246,7 +246,7 @@ describe "Courses and Lessons Pages" do
             end
             visit course_path(course1.title_url)
           end
-          
+
           it "should show a checked box for that lesson" do
             within(".lc-percent-completion") do
               expect(page).to have_css(".lc-finished")
@@ -254,7 +254,7 @@ describe "Courses and Lessons Pages" do
           end
         end
       end
-      
+
     end
 
   end
@@ -271,7 +271,7 @@ describe "Courses and Lessons Pages" do
     end
 
     it "should show the lesson name in the title" do
-      subject.source.should have_selector('title', text: lesson1.title)
+      expect(page.title).to have_content(lesson1.title)
     end
 
     it "should show something in the lesson body container" do
@@ -284,22 +284,22 @@ describe "Courses and Lessons Pages" do
 
     it "should have contributions links div" do
       subject.should have_selector(".contribution-links")
-    end      
+    end
 
     it "should have Octocat image" do
       subject.should have_css('img', "octocat.png")
-    end    
-      
+    end
+
     context "clicking the Github Octocat image at the end of the lesson" do
       before do
         find('.contribution-links').click
-      end    
-      
+      end
+
       it "should display the contributing modal", :js => true do
         expect(page).to have_css(".popover")
-      end      
-    end  
-    
+      end
+    end
+
     context "for projects" do
       before do
         visit lesson_path(course1.title_url, project1.title_url)
@@ -324,8 +324,8 @@ describe "Courses and Lessons Pages" do
 
 
     describe "navigation buttons and links" do
-      
-      # use the second section so we don't overlap with the 
+
+      # use the second section so we don't overlap with the
       # whole curriculum tests
       let(:second_section) { Section.all[1] }
       let(:first_sec_lesson){ second_section.lessons.order("position asc").first }
@@ -364,7 +364,7 @@ describe "Courses and Lessons Pages" do
       end
 
       describe "the top progress-tracking bar" do
-        
+
         # since we will need to test for its presence
         let(:lesson2) { course1.lessons[1] }
 
@@ -408,7 +408,7 @@ describe "Courses and Lessons Pages" do
       end
 
       describe "in the end-of-lesson area" do
-      
+
         # Note: this isn't really testing anything new...
         context "in the middle of a section" do
           before do
@@ -466,19 +466,19 @@ describe "Courses and Lessons Pages" do
     end
 
     context "for logged in students" do
-      
+
       let!(:signed_in_student){ FactoryGirl.create(:user) }
 
       before do
         sign_in(signed_in_student)
       end
-      
+
       context "after visiting the first individual lesson" do
-        
+
         before do
           visit lesson_path(course1.title_url, lesson1.title_url)
         end
-          
+
         describe "Top-of-lesson success section" do
           context "if user hasn't yet completed the lesson" do
             # (default state)
@@ -502,20 +502,20 @@ describe "Courses and Lessons Pages" do
           end
 
         end
-          
+
         describe "End-of-lesson checkbox section" do
-          
+
           let!(:completion_wrapper_div){ ".lc-end-wrapper" }
-          
+
           it "shouldn't have a link to sign in" do
             within(completion_wrapper_div) do
               expect(page).to_not have_link("", :href => login_path)
             end
           end
-          
+
           context "if user hasn't yet completed the lesson" do
             # (default state)
-            
+
             it "should have text for marking lesson completed" do
               within(completion_wrapper_div) do
                 expect(page).to have_text("Mark Lesson Completed")
@@ -526,46 +526,46 @@ describe "Courses and Lessons Pages" do
                 expect(page).to have_css("a.lc-unchecked")
               end
             end
-            
+
             context "after clicking the complete lesson box" do
-              
+
               # After the AJAX returns, it should re-render just the checkbox area to reflect
               # the completed checkbox and add a link to un-complete the lesson
               it "should change the form's class to reflect completion (JS test)", :js => true do
                 find("a.lc-unchecked").click
-                expect(page).to have_css("a.lc-uncomplete-link") 
+                expect(page).to have_css("a.lc-uncomplete-link")
               end
 
               it "should show the lesson completed check (JS test)", :js => true do
                 find("a.lc-unchecked").click
-                expect(page).to have_css(".lc-completion-indicator") 
+                expect(page).to have_css(".lc-completion-indicator")
               end
               it "should not hide the lesson completed check (JS test)", :js => true do
                 find("a.lc-unchecked").click
-                expect(page).to_not have_css(".lc-completion-indicator.hidden") 
+                expect(page).to_not have_css(".lc-completion-indicator.hidden")
               end
             end
           end
-          
+
           context "if the user has already completed the lesson" do
-            
+
             before do
               @lc = LessonCompletion.create(:lesson_id => lesson1.id, :student_id => signed_in_student.id)
               visit lesson_path(course1.title_url, lesson1.title_url)
             end
-            
+
             it "should have a link for marking lesson NOT completed" do
               expect(page).to have_css(".lc-uncomplete-link")
             end
-            
+
             context "after clicking the 'mark lesson not completed' link" do
               it "should change the form's class to reflect completion (JS test)", :js => true do
                 find("a.lc-uncomplete-link").click
-                expect(page).to have_css("a.lc-unchecked") 
+                expect(page).to have_css("a.lc-unchecked")
               end
               it "should hide the completion check (JS test)", :js => true do
                 find("a.lc-uncomplete-link").click
-                expect(page).to have_css(".lc-completion-indicator.hidden") 
+                expect(page).to have_css(".lc-completion-indicator.hidden")
               end
             end
           end
@@ -587,23 +587,23 @@ describe "Courses and Lessons Pages" do
     end
 
     context "for not logged in visitors" do
-      
+
       describe "End-of-lesson checkbox section" do
-        
-        let!(:completion_wrapper_div){ ".lc-end-wrapper" }        
-        
+
+        let!(:completion_wrapper_div){ ".lc-end-wrapper" }
+
         it "should contain a link to sign in" do
           within(completion_wrapper_div) do
             expect(page).to have_link("", :href => login_path)
           end
         end
-        
+
         it "should have text for marking lesson completed" do
           within(completion_wrapper_div) do
             expect(page).to have_text("Mark Lesson Completed")
           end
         end
-        
+
         it "should NOT have a link (the checkbox) to mark a lesson completed" do
           within(completion_wrapper_div) do
             expect(page).to_not have_css("a.action-complete-lesson")
