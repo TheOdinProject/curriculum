@@ -591,6 +591,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [fwda's easy solution] (https://github.com/gomesalexandre/googleclone) | [View in browser](https://htmlpreview.github.io/?https://github.com/gomesalexandre/googleclone/blob/master/index.html)
 * [mrexitium's easy solution] (https://github.com/mrexitium/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/mrexitium/google-homepage/blob/master/index.html)
 * [jovergaag's easy solution] (https://github.com/jovergaag/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jovergaag/google-homepage/blob/master/index.html)
+* [belalik's easy solution] (https://github.com/belalik/google-page) | [View in browser] (https://rawgit.com/belalik/google-page/master/index.html) 
 * Add your solution above this line!
 
 ## Additional Resources
