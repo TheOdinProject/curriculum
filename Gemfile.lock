@@ -52,6 +52,7 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
+    byebug (8.2.2)
     capybara (2.6.2)
       addressable
       mime-types (>= 1.16)
@@ -187,6 +188,9 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
     puma (2.16.0)
     quiet_assets (1.0.3)
       railties (>= 3.1, < 5.0)
@@ -330,7 +334,7 @@ DEPENDENCIES
   omniauth-github
   pg (~> 0.17.1)
   premailer-rails
-  pry
+  pry-byebug
   puma (~> 2.16.0)
   quiet_assets (~> 1.0.2)
   rack-timeout (~> 0.3.2)

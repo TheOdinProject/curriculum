@@ -25,8 +25,8 @@ class UsersController < ApplicationController
 
   # NOTE: This is actually done by Devise's RegistrationsController
   def update
-    @user = User.find_by_id(params[:id])
-    if @user.update( user_params )
+    @user = User.find(params[:id])
+    if @user.update_attributes( user_params )
       flash[:success] = "Your profile was updated successfully"
       redirect_to @user
     else

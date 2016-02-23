@@ -13,7 +13,7 @@ describe "Sign Up" do
     before { visit sign_up_path }
 
       # save_and_open_page
-    it { should have_selector("h2", :text => "Sign up") } 
+    it { should have_selector("h2", :text => "Sign up") }
 
     context "after entering valid signup credentials and clicking submit" do
 
@@ -33,7 +33,7 @@ describe "Sign Up" do
         # save_and_open_page
         subject.should have_selector("h1", :text => "This is Your Path to Learning Web Development")
       end
-      
+
       it "Should send a welcome email to the user" do
         # must be "last" because other tests will populate this too
         @email.should include "To: #{attrs[:email]}"
@@ -98,14 +98,14 @@ describe "Sign Up" do
 
       it "requires user to verify within 2-day grace period" do
         click_on("Logout")   # clear session
-        git_user = User.last  # the user just created in the before statement 
+        git_user = User.last  # the user just created in the before statement
         git_user.created_at = Time.now - 3.days
         git_user.confirmation_sent_at = Time.now - 3.days
         git_user.save
         visit sign_up_path
         click_on "Sign up with Github"
         page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
-      end     
+      end
     end
   end
 end

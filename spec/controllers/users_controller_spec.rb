@@ -34,7 +34,7 @@ describe UsersController do
       assert_response 200
     end
     it "PUT #update is authorized" do
-      put :update, :id => user.id, :user => { name: "foo" }
+      put :update, :id => user.id, :user => { username: "foolong" }
       response.should redirect_to user_url(user)
     end
     it "GET #edit is authorized" do

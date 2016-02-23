@@ -565,7 +565,7 @@ describe "Courses and Lessons Pages" do
               end
               it "should hide the completion check (JS test)", :js => true do
                 find("a.lc-uncomplete-link").click
-                expect(page).to have_css(".lc-completion-indicator.hidden")
+                expect(page).to have_css(".lc-completion-indicator.hidden", :visible => false)
               end
             end
           end
