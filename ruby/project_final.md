@@ -48,6 +48,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Scott Bobbitt's solution](https://github.com/sco-bo/chess)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/chess)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/Chess)
+* [noobling's solution] (https://github.com/TopOneOfTopOne/CLI_chess)
 * Add your solution above this line!
 
 
