@@ -17,7 +17,7 @@ class ContactsController < ApplicationController
         :sender => current_user
       })
     if @message.valid?
-      UserMailer.send_mail_to_user(@message).deliver
+      UserMailer.send_mail_to_user(@message).deliver_now
       flash[:success] = "Your message to #{@user.username} has been sent!"
       redirect_to user_path(@user)
     else

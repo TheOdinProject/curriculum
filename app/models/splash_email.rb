@@ -5,6 +5,6 @@ class SplashEmail < ActiveRecord::Base
   after_create :send_signup_confirm
 
   def send_signup_confirm
-    SplashMailer.splash_signup_confirmation_email(self).deliver!
+    SplashMailer.splash_signup_confirmation_email(self).deliver_now
   end
 end

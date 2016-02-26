@@ -7,10 +7,10 @@ class StaticPagesController < ApplicationController
 
   def about
   end
-  
+
   def getting_involved
   end
-  
+
   def studygroups
   end
 
@@ -32,7 +32,7 @@ class StaticPagesController < ApplicationController
     end
 
     if params[:suggestion]
-      ContactMailer.suggestion_email(params[:suggestion], params[:pathname], user).deliver!
+      ContactMailer.suggestion_email(params[:suggestion], params[:pathname], user).deliver_now
     end
     respond_to do |format|
       format.json { render json: params[:suggestion] }
