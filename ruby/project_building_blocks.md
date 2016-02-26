@@ -558,4 +558,5 @@ Next, make sure your method can handle multiple words:
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_building_blocks/blob/master/substrings.rb)
 * [Zac Conner's solution](https://github.com/connerza/BuildingBlocks/blob/master/substrings.rb)
 * [parhaml's solution](https://github.com/parhaml/substrings/blob/master/dict_count.rb)
+* [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/substrings.rb)
 * Add your solution above this line!
