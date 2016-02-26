@@ -377,6 +377,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Zac Conner's solution](https://github.com/connerza/BuildingBlocks/blob/master/stock_picker.rb)
 * [parhaml's solution](https://github.com/parhaml/stock_trader/blob/master/stock.rb)
 * [Yaroslav Smirnov's solution](https://github.com/stellarnode/ruby_steps/blob/master/stocks.rb)
+* [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/stock_picker.rb)
 * Add your solution above this line!
 
 
