@@ -354,4 +354,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/theodinproject_projects/tree/master/the-odinproject-Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/JaveedIshaq/theodinproject_projects/blob/master/the-odinproject-Etch-A-Sketch/index.html)
 * [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/PiotrEjsmont/sketchpad/blob/master/sketchpad.html)
 * [Nathan Minchow's solution](https://github.com/aspenner/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/aspenner/sketchpad/blob/master/sketchpad.html)
+* [Nijastan Kirupa's solution](https://github.com/nijastanhumber/jquery-sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/nijastanhumber/jquery-sketchpad/blob/master/sketchpad.html)
+* [Robert Harkness's solution](https://github.com/robo2323/odin_004_sketch_pad) | [View in Browser (codepen.io)](http://codepen.io/robo2323/full/VeOQwO/)
+* [Huw Diprose's solution](https://github.com/huwd/TheOdinProject-WebDevelopment101/tree/master/etch-a-sketch) | [View in Browser (codepen.io)](http://codepen.io/huwd/pen/LGKBZV) 
+* [John Gerakaris's solution](https://github.com/gerak1925/Etch-A-Sketch) | [View in Browser](https://htmlpreview.github.io/?https://github.com/gerak1925/Etch-A-Sketch/blob/master/index.html)
 * Add your solution above this line!

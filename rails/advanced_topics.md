@@ -53,13 +53,13 @@ Just note that the word "resource" is singular and so is `dashboard`.  That trip
 The `$ rake routes` for a singular resource would only contain 6 routes (since we don't use `#index` anymore), and you would no longer see any of the `:id` portions of the routes, e.g.
 
 ```language-bash
-  new_dashboard  GET /dashboard/new(.:format)  dashboards#new
+  edit_dashboard  GET /dashboard/edit(.:format)  dashboards#edit
 ```
 
 ...compared with the plural version of the same route:
 
 ```language-bash
-  new_post  GET /posts/:id/new(.:format)  posts#new    
+  edit_post  GET /posts/:id/edit(.:format)  posts#edit
 ```
 
 #### Additional Resources

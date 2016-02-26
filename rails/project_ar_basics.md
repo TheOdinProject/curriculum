@@ -153,6 +153,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/micro-reddit)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/micro-reddit)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/micro-reddit)
+* [Max Gallant's solution](https://github.com/mcgalcode/micro-reddit)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources

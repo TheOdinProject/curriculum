@@ -123,6 +123,8 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/members-only)
 * [srashidi's solution](https://github.com/srashidi/Authentication/tree/master/members-only)
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/members-only)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/members_only)
+* [Max Gallant's solution](https://github.com/mcgalcode/members-only) | [View in browser](https://grapefruitonly.herokuapp.com/)
 * Add your solution above this line!
 
 

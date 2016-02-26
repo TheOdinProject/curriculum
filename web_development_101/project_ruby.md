@@ -146,6 +146,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/theodinproject_projects/tree/master/learn_ruby)
 * [Peter Taggart's solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Ruby/TestFirst%20Project)
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/learn_ruby)
+* [John Gerakaris's solution](https://github.com/gerak1925/basic_ruby_project)
 * Add your solution above this line!
 
 
