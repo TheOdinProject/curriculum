@@ -95,6 +95,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/private-events)
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/private-events)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/private-events)
+* [srashidi's solution](https://github.com/srashidi/Active_Record_Associations/tree/master/private-events)
 * Add your solution above this line!
 
 
