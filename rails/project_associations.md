@@ -96,6 +96,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/private-events)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/private-events)
 * [srashidi's solution](https://github.com/srashidi/Active_Record_Associations/tree/master/private-events)
+* [Max Gallant's solution](https://github.com/mcgalcode/private-events) | [View in browser](https://secret-gorge-95812.herokuapp.com/)
 * Add your solution above this line!
 
 
