@@ -75,11 +75,11 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Akshay Bharwani's solution](https://github.com/akshaybharwani/toy_app)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/toy-app) | [Heroku](https://odin-toy-app.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/toy_app)
+* [Max Gallant's solution](https://github.com/mcgalcode/toy_app) | [Heroku](https://still-sea-98097.herokuapp.com//)
+* [Artur Okonski's solution](https://github.com/cloudtemplar/hello_app) | [Heroku](https://infinite-everglades-78397.herokuapp.com/)
 * Add your solution above this line!
 
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* [How to Design a Rails App from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/design-rails-app)

@@ -262,6 +262,3 @@ At this point, you should have a solid understanding of how forms work in genera
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* [Rails Forms from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/forms-form_tag-params-attr_accessible-model-validation)
-* [Form_for from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introducing-form_for)

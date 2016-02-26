@@ -555,7 +555,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Alberto Ojeda's Easy solution] (https://github.com/ojedamtzalberto/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ojedamtzalberto/google-homepage/blob/master/index.html)
 * [John Gerakaris's Easy solution](https://github.com/gerak1925/google-homepage) [View in browser](https://htmlpreview.github.io/?https://github.com/gerak1925/google-homepage/blob/master/index.html)
 * [Jake Keyser's Easy solution](https://github.com/jjkeyser/google-homepage/blob/master/google_index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/jjkeyser/google-homepage/blob/master/google_index.html)
-* [Maxim Dovydenok`s Easy solution (russian)](https://github.com/MaximDovk/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/MaximDovk/google-homepage/blob/master/index.html)
+* [Maxim Dovydenok's Easy solution (russian)](https://github.com/MaximDovk/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/MaximDovk/google-homepage/blob/master/index.html)
 * [Andrew Charlebois Easy solution] (https://github.com/andrewchar/google-homepage/blob/master/index.html)
 * [Julia's Easy solution] (https://github.com/juliataylor83/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/juliataylor83/google-homepage/blob/master/index.html)
 * [Al Jibran's Easy solution](https://github.com/myselfjrb/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/myselfjrb/google-homepage/blob/master/index.html)
@@ -572,9 +572,29 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Joanna Winchester's Easy Solution](https://github.com/joannawinchester/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/joannawinchester/google-homepage/blob/master/index.html)
 * [Giorgos Poly Easy Solution](https://github.com/gpoly/google) | [View in browser](http://gpoly.github.io/google/#)
 * [David Gu's Easy Solution](https://github.com/dagu3371/Google-project) | [View in browser](https://rawgit.com/dagu3371/Google-project/master/firstsite.html)
-* [Solomon Tompkins's solution](https://github.com/mployee8/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/mployee8/google-homepage/blob/master/index.html)*
-* [Ken Harkey's Easy Bootstrap solution](https://github.com/KenHarkey/google-homepage) | [View in Browser](http://kenharkey.github.io/google-homepage)*
+* [Solomon Tompkins's solution](https://github.com/mployee8/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/mployee8/google-homepage/blob/master/index.html)
+* [Ken Harkey's Easy Bootstrap solution](https://github.com/KenHarkey/google-homepage) | [View in Browser](http://kenharkey.github.io/google-homepage)
 * [ttchopper's solution](https://github.com/ttchopper/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ttchopper/google-homepage/blob/master/index.html) 
+* [joelmarvi's solution](https://github.com/joelmarvi/google-homepage) |  [View in Browser](http://htmlpreview.github.io/?https://github.com/joelmarvi/google-homepage/blob/master/index.html) 
+* [richjdsmith's solution](https://github.com/richjdsmith/google-homepage) |  [View in Browser](https://cdn.rawgit.com/richjdsmith/google-homepage/master/index.html)
+* [Gabriel Flynn's solution](https://github.com/SlashingWolf/google-homepage) |  [View in Browser](https://htmlpreview.github.io/?https://raw.githubusercontent.com/SlashingWolf/google-homepage/master/index.html)
+* [zicbim's solution](https://github.com/zicbim/google_homepage.git) | [View in Browser](https://htmlpreview.github.io/?https://github.com/zicbim/google_homepage/master/index.html)
+* [Kyle Richter's Easy Solution](https://github.com/krichter75/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/krichter75/google-homepage/blob/master/google-homepage.html)
+* [Ethan Cheng's Easy Solution](https://github.com/cheelees/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/cheelees/google-homepage/index.html)
+* [Nijastan's Easy Solution](https://github.com/nijastanhumber/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nijastanhumber/google-homepage/blob/master/index.html)
+* [Fabricio's Easy and Difficult Solutions](https://github.com/fcarrara/google-homepage) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/fcarrara/google-homepage/blob/master/index.html) | [View in browser (Difficult)](https://htmlpreview.github.io/?https://github.com/fcarrara/google-homepage/blob/master/results.html)
+* [Johnny Rasnic's Easy Solution](https://github.com/lonniganseaweed/google-homepage) | [Difficult solution](https://github.com/lonniganseaweed/google-search-results) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/lonniganseaweed/google-homepage/blob/master/index.html) | [View in browser (Difficult)](http://htmlpreview.github.io/?https://github.com/lonniganseaweed/google-search-results/blob/master/index.html)
+* [jellyparakeet's Easy Solution](https://github.com/jellyparakeet/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jellyparakeet/google-homepage/blob/master/index.html)
+* [Susanna Marsiglia's solution](https://github.com/sushimi/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sushimi/google-homepage/blob/master/index.html)
+* [Albi Abdyli's easy solution](https://github.com/aabdyli/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/aabdyli/google_homepage/blob/master/index.html)
+* [Samuel L's easy solution](https://github.com/Codetyper-Samuel/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Codetyper-Samuel/google-homepage/blob/master/index.html)
+* [fwda's easy solution] (https://github.com/gomesalexandre/googleclone) | [View in browser](https://htmlpreview.github.io/?https://github.com/gomesalexandre/googleclone/blob/master/index.html)
+* [mrexitium's easy solution] (https://github.com/mrexitium/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/mrexitium/google-homepage/blob/master/index.html)
+* [jovergaag's easy solution] (https://github.com/jovergaag/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jovergaag/google-homepage/blob/master/index.html)
+* [belalik's easy solution] (https://github.com/belalik/google-page) | [View in browser] (https://rawgit.com/belalik/google-page/master/index.html) 
+*  [gbhmt's easy solution] (https://github.com/gbhmt/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/gbhmt/google-homepage/blob/master/index.html)
+* [At0micr3d's easy solution](https://github.com/at0micr3d/easy-version-google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/at0micr3d/easy-version-google-homepage/blob/master/index.html)
+* [At0micr3d's solution (Difficult)](https://github.com/at0micr3d/hard-version-google-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/at0micr3d/hard-version-google-project/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
@@ -588,4 +608,4 @@ If you still feel shaky on your understanding of HTML and CSS, that's okay! You 
 * Check out the [quickie CSS introduction](http://teamtreehouse.com/library/websites/build-a-simple-website/website-basics/introduction-to-css) from the same people as well.
 * If you want to see the art of CSS, check out the [CSS Zen Garden](http://www.csszengarden.com/), which collects submissions that use identical HTML and modify only the CSS but turn out wildly different (and beautiful).
 * Read through [Shay Howe's HTML&CSS Tutorial](http://learn.shayhowe.com/html-css/terminology-syntax-intro).  Lesson 1 gives a solid overview and you can do the whole thing for a more in-depth understanding.
-* Learn more about github using this tutorial: (https://try.github.io) or read more in this article: (http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)
+* Learn more about github using [this tutorial:](https://try.github.io) or read more in [this article:](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1)

@@ -150,6 +150,9 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [srashidi's solution](https://github.com/srashidi/Forms/tree/master/re-former)
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/re-former)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/re-former)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/re-former)
+* [Max Gallant's solution](https://github.com/mcgalcode/re-former)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/re-former)
 * Add your solution above this line!
 
 
@@ -164,6 +167,3 @@ This chapter will take what you now know about forms and make it part of a real 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-
-*

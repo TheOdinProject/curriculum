@@ -27,9 +27,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [DucPhan's solution](https://github.com/phanducsjsu/Test-First-Ruby)
 * [ErikHP's solution](https://github.com/ErikHP/test-first-ruby)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/TestFirstRubyExercises)
-* [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/learn_ruby)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project1_3_Ruby/learn_ruby)
-* [Sergey Prihodko's solution](https://github.com/sprihodko/odin-projects/tree/master/test-first-ruby)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/learn_ruby)
 * [Angel Vargas' solution](https://github.com/arioth/the-odin-project/tree/master/learn_ruby)
 * [Lamberto Diwa's solution](https://github.com/LambertoD/test_first_ruby)
@@ -145,7 +143,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/learn_ruby)
 * [Jess Farley's solution](https://github.com/littlemighty/test_first)
 * [Greg Pritchard's solution](https://github.com/gregoryneal/tdd_ruby_tests)
-* [Greg Pritchard's solution](https://github.com/JaveedIshaq/theodinproject_projects/tree/master/learn_ruby)
+* [Javeed Ishaq's solution](https://github.com/JaveedIshaq/theodinproject_projects/tree/master/learn_ruby)
+* [Peter Taggart's solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Ruby/TestFirst%20Project)
+* [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/learn_ruby)
+* [John Gerakaris's solution](https://github.com/gerak1925/basic_ruby_project)
 * Add your solution above this line!
 
 
