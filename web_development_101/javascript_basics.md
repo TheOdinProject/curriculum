@@ -283,6 +283,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Johnny Rasnic's Solutions](https://github.com/lonniganseaweed/javascript-basics)
 * [Fabricio Carrara's Solution](https://github.com/fcarrara/project-euler/) | [View in browser](https://htmlpreview.github.io/?https://github.com/fcarrara/project-euler/blob/master/index.html)
 * * [GPoly's Solutions](https://github.com/gpoly/Project-Euler/tree/gh-pages) | [View in browser](http://gpoly.github.io/Project-Euler/index.html)
+* [joelmarvi's solution] (https://github.com/joelmarvi/euler-problems)
 * Add your solution above this line!
 
 ## Additional Resources
