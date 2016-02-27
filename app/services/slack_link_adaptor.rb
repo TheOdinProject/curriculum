@@ -21,7 +21,6 @@ class SlackLinkFactory
       'HTML5 and CSS3'                    => '/5-html-css/',
       'Javascript and jQuery'             => '/6-javascript/',
       'Getting Hired as a Web Developer'  => '/7-getting-hired/'
-
     }
   end
 
