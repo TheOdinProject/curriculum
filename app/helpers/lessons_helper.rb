@@ -14,6 +14,6 @@ module LessonsHelper
   end
 
   def slack_link(course)
-    SlackLinkAdaptor.new(course).adapt
+    SlackLinkFactory.new(course).build
   end
 end
