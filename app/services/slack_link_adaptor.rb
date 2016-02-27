@@ -7,7 +7,7 @@ class SlackLinkAdaptor
   end
 
   def adapt
-    base_slack_url + url_finder.fetch(@course.title)
+    base_slack_url + url_finder.fetch(@course.title, fallback)
   end
 
   private
