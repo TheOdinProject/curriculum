@@ -14,7 +14,7 @@ describe "Email Confirmation" do
       email = ActionMailer::Base.deliveries.last.encoded
       link = email.match(/"(.*confirmation_token.*)"/)[1]
       visit link
-      page.should have_selector('div', text: "Thanks for confirming your email address!")
+      expect(page).to have_selector('div', text: "Thanks for confirming your email address!")
     end
   end
 
@@ -23,25 +23,25 @@ describe "Email Confirmation" do
     before { sign_in(user) }
 
     it "should prompt the user to confirm email when they sign in" do
-      page.should have_selector("div", text: "Please confirm your email address.")
+      expect(page).to have_selector("div", text: "Please confirm your email address.")
     end
 
     it "should not block the user from accessing the site" do
-      page.should have_selector('h1', text: "This is Your Path to Learning Web Development")
+      expect(page).to have_selector('h1', text: "This is Your Path to Learning Web Development")
     end
 
     it "should provide a link to request confirmation instructions" do
-      page.should have_link("Didn't receive confirmation instructions, or need them again?")
+      expect(page).to have_link("Didn't receive confirmation instructions, or need them again?")
     end
 
     it "should send an email with confirmation instructions" do
       click_on("Didn't receive confirmation instructions, or need them again?")
-      ActionMailer::Base.deliveries.last.encoded.should have_link("Confirm my account")
+      expect(ActionMailer::Base.deliveries.last.encoded).to have_link("Confirm my account")
     end
 
     it "has a flash message that instructions were sent" do
       click_on("Didn't receive confirmation instructions, or need them again?")
-      page.should have_selector('div', text: "Confirmation instructions have been sent to your email address!")
+      expect(page).to have_selector('div', text: "Confirmation instructions have been sent to your email address!")
     end
 
     context "User clicks link to resend confirmation instructions from a lesson page" do
@@ -58,12 +58,12 @@ describe "Email Confirmation" do
         email = ActionMailer::Base.deliveries.last.encoded
         link = email.match(/href="(.*confirmation_token.*)" /)[1]
         visit link
-        page.should have_selector("div", text: "Thanks for confirming your email address!")
+        expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
       end 
 
       it "returns user to page they were on when they clicked link" do
         click_on "Didn't receive confirmation instructions, or need them again?"
-        page.should have_selector('div.inner-nav', text: Lesson.first.title)
+        expect(page).to have_selector('div.inner-nav', text: Lesson.first.title)
       end
     end
 
@@ -76,15 +76,15 @@ describe "Email Confirmation" do
       end
 
       it "confirms the user's email address" do
-        page.should have_selector('div', text: "Thanks for confirming your email address")
+        expect(page).to have_selector('div', text: "Thanks for confirming your email address")
       end
 
       it "redirects the user to the courses page" do
-        current_path.should eq(courses_path)
+        expect(current_path).to eq(courses_path)
       end
 
       it "signs the user in automatically" do
-        page.should have_selector('div.navbar', text: user.username)
+        expect(page).to have_selector('div.navbar', text: user.username)
       end
     end
 
@@ -107,14 +107,14 @@ describe "Email Confirmation" do
       it "provides correct link to resend confirmation instructions from any page" do
         # Currently on lesson page - from before block
         click_on "Didn't receive confirmation instructions, or need them again?"
-        page.should have_selector('div', text: "Confirmation instructions have been sent to your email address!")
+        expect(page).to have_selector('div', text: "Confirmation instructions have been sent to your email address!")
       end
 
       it "sends email with authentication token" do
         email = ActionMailer::Base.deliveries.last.encoded
         link = email.match(/href="(.*confirmation_token.*)" /)[1]
         visit link
-        page.should have_selector("div", text: "Thanks for confirming your email address!")
+        expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
       end 
     end
 
@@ -123,7 +123,7 @@ describe "Email Confirmation" do
       sign_out(user)  # Sign out unconfirmed user from before block
       confirmed_user = FactoryGirl.create(:user, :reg_before_conf => true, :confirmed_at => Time.now)
       sign_in(confirmed_user)
-      page.should have_no_selector("div", text: "Please confirm your email address")
+      expect(page).to have_no_selector("div", text: "Please confirm your email address")
     end
   end
 end

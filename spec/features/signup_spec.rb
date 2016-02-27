@@ -13,7 +13,7 @@ describe "Sign Up" do
     before { visit sign_up_path }
 
       # save_and_open_page
-    it { should have_selector("h2", :text => "Sign up") }
+    it { is_expected.to have_selector("h2", :text => "Sign up") }
 
     context "after entering valid signup credentials and clicking submit" do
 
@@ -31,22 +31,22 @@ describe "Sign Up" do
 
       it "should deposit user into courses page" do
         # save_and_open_page
-        subject.should have_selector("h1", :text => "This is Your Path to Learning Web Development")
+        expect(subject).to have_selector("h1", :text => "This is Your Path to Learning Web Development")
       end
 
       it "Should send a welcome email to the user" do
         # must be "last" because other tests will populate this too
-        @email.should include "To: #{attrs[:email]}"
+        expect(@email).to include "To: #{attrs[:email]}"
       end
 
       it "should have an email confirmation link in the welcome email" do
-        @email.should include "Confirm your email"
+        expect(@email).to include "Confirm your email"
       end
 
       it "confirms the user's email address when they follow the link" do
         link = @email.match(/"(.*confirmation_token.*)"/)[1]
         visit link
-        page.should have_selector("div", text: "Thanks for confirming your email address!")
+        expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
       end
     end
 
@@ -61,14 +61,14 @@ describe "Sign Up" do
       end
 
       it "has link in flash notice to resend confirmation email" do
-        page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
+        expect(page).to have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
       end
 
       it "resends confirmation instructions when user clicks link" do
         click_on("Didn't receive instructions or need them again?")
         fill_in("Email", with: @forgetful.email)
         click_on("Resend confirmation instructions")
-        ActionMailer::Base.deliveries.last.encoded.should include "Confirm your email"
+        expect(ActionMailer::Base.deliveries.last.encoded).to include "Confirm your email"
       end
     end
 
@@ -78,22 +78,22 @@ describe "Sign Up" do
       end
 
       it "sends welcome email" do
-        ActionMailer::Base.deliveries.last.encoded.should include "To: ghost@nobody.com"
+        expect(ActionMailer::Base.deliveries.last.encoded).to include "To: ghost@nobody.com"
       end
 
       it "includes email confirmation link in the welcome email" do
-        ActionMailer::Base.deliveries.last.encoded.should include "Confirm your email"
+        expect(ActionMailer::Base.deliveries.last.encoded).to include "Confirm your email"
       end
 
       it "does not mark user confirmed automatically" do
-        User.last.confirmed?.should eq false
+        expect(User.last.confirmed?).to eq false
       end
 
       it "confirms user's email address when they follow link" do
         email = ActionMailer::Base.deliveries.last.encoded
         link = email.match(/"(.*confirmation_token.*)"/)[1]
         visit link
-        page.should have_selector("div", text: "Thanks for confirming your email address!")
+        expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
       end
 
       it "requires user to verify within 2-day grace period" do
@@ -104,7 +104,7 @@ describe "Sign Up" do
         git_user.save
         visit sign_up_path
         click_on "Sign up with Github"
-        page.should have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
+        expect(page).to have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
       end
     end
   end

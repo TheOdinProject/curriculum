@@ -6,32 +6,32 @@ describe Lesson do
   subject(:lesson) { Lesson.new(attrs) }
   before do
     # section = double("section")
-    section.stub("id"){ 1 }
+    allow(section).to receive("id"){ 1 }
     subject.section_id = section.id
   end
 
-  it { should respond_to(:title) }
-  it { should respond_to(:title_url) }
-  it { should respond_to(:description) }
-  it { should respond_to(:is_project) }
-  it { should respond_to(:url) }
-  it { should respond_to(:position) }
-  it { should respond_to(:content) }
-  it { should respond_to(:section_id) }
+  it { is_expected.to respond_to(:title) }
+  it { is_expected.to respond_to(:title_url) }
+  it { is_expected.to respond_to(:description) }
+  it { is_expected.to respond_to(:is_project) }
+  it { is_expected.to respond_to(:url) }
+  it { is_expected.to respond_to(:position) }
+  it { is_expected.to respond_to(:content) }
+  it { is_expected.to respond_to(:section_id) }
 
   # Associations
-  it { should respond_to(:course) }
-  it { should respond_to(:section) }
-  it { should respond_to(:completing_users) }
-  it { should respond_to(:lesson_completions) }
+  it { is_expected.to respond_to(:course) }
+  it { is_expected.to respond_to(:section) }
+  it { is_expected.to respond_to(:completing_users) }
+  it { is_expected.to respond_to(:lesson_completions) }
   
-  it { should be_valid }
+  it { is_expected.to be_valid }
 
   it "shouldn't allow duplicate positions" do
     l2 = Lesson.new(attrs)
     l2.section_id = section.id
     l2.save
-    subject.should_not be_valid
+    expect(subject).not_to be_valid
   end
   
   it "should have no completing users yet" do

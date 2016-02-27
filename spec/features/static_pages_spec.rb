@@ -18,9 +18,9 @@ describe "StaticPages" do
 
   describe "Splash Page" do
     before { visit root_path }
-    it { should have_selector('h1', text: home_h1) }
-    it { should have_button "Explore the full curriculum" }
-    it { should have_link 'Login', :href => login_path(:ref => "homenav") }
+    it { is_expected.to have_selector('h1', text: home_h1) }
+    it { is_expected.to have_button "Explore the full curriculum" }
+    it { is_expected.to have_link 'Login', :href => login_path(:ref => "homenav") }
   end
 
   describe "study groups page" do
@@ -31,7 +31,7 @@ describe "StaticPages" do
     end
     before { click_link "Study Groups" }
     context "should load when link is clicked" do
-      it { current_path.should == studygroups_path }
+      it { expect(current_path).to eq(studygroups_path) }
     end
     before { visit studygroup_path }
     context "should contain an h1 title" do

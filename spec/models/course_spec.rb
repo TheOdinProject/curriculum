@@ -4,26 +4,26 @@ describe Course do
   let(:attrs) { FactoryGirl.attributes_for(:course) }
   subject(:course) { Course.new(attrs) }
 
-  it { should respond_to(:title) }
-  it { should respond_to(:title_url) }
-  it { should respond_to(:description) }
-  it { should respond_to(:position) }
-  it { should respond_to(:you_learn) }
-  it { should respond_to(:you_build) }
-  it { should respond_to(:teaser) }
-  it { should respond_to(:brief_desc) }
-  it { should respond_to(:is_active) }
+  it { is_expected.to respond_to(:title) }
+  it { is_expected.to respond_to(:title_url) }
+  it { is_expected.to respond_to(:description) }
+  it { is_expected.to respond_to(:position) }
+  it { is_expected.to respond_to(:you_learn) }
+  it { is_expected.to respond_to(:you_build) }
+  it { is_expected.to respond_to(:teaser) }
+  it { is_expected.to respond_to(:brief_desc) }
+  it { is_expected.to respond_to(:is_active) }
 
   # Associations
-  it { should respond_to(:sections) }
-  it { should respond_to(:lessons) }
+  it { is_expected.to respond_to(:sections) }
+  it { is_expected.to respond_to(:lessons) }
 
-  it { should be_valid }
+  it { is_expected.to be_valid }
 
   it "shouldn't allow duplicate positions" do
     c2 = Course.new(attrs)
     c2.save
-    subject.should_not be_valid
+    expect(subject).not_to be_valid
   end
 
   context "after saving course" do

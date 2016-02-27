@@ -5,27 +5,27 @@ describe Section do
   let(:course) { double("course") }
   subject(:section) { Section.new(attrs) }
   before do
-    course.stub("id"){ 1 }
+    allow(course).to receive("id"){ 1 }
     subject.course_id = course.id
   end
 
-  it { should respond_to(:title) }
-  it { should respond_to(:title_url) }
-  it { should respond_to(:description) }
-  it { should respond_to(:position) }
-  it { should respond_to(:course_id) }
+  it { is_expected.to respond_to(:title) }
+  it { is_expected.to respond_to(:title_url) }
+  it { is_expected.to respond_to(:description) }
+  it { is_expected.to respond_to(:position) }
+  it { is_expected.to respond_to(:course_id) }
 
   # Associations
-  it { should respond_to(:course) }
-  it { should respond_to(:lessons) }
+  it { is_expected.to respond_to(:course) }
+  it { is_expected.to respond_to(:lessons) }
 
-  it { should be_valid }
+  it { is_expected.to be_valid }
 
   it "shouldn't allow duplicate positions" do
     s2 = Section.new(attrs)
     s2.course_id = course.id
     s2.save
-    subject.should_not be_valid
+    expect(subject).not_to be_valid
   end
 
 end

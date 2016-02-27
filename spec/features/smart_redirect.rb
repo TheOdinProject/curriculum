@@ -18,7 +18,7 @@ describe "Smart Redirect" do
           sign_up_user
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -28,7 +28,7 @@ describe "Smart Redirect" do
           sign_up_user
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -38,7 +38,7 @@ describe "Smart Redirect" do
           sign_up_user
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -48,7 +48,7 @@ describe "Smart Redirect" do
           sign_up_user
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -58,7 +58,7 @@ describe "Smart Redirect" do
           sign_up_user
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
     end
@@ -70,7 +70,7 @@ describe "Smart Redirect" do
       end
 
       it 'should redirect the registered user to last viewed lesson page' do
-        should have_selector('div', text: lesson.title )
+        is_expected.to have_selector('div', text: lesson.title )
       end
 
     end
@@ -81,7 +81,7 @@ describe "Smart Redirect" do
         sign_up_user
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
 
@@ -91,7 +91,7 @@ describe "Smart Redirect" do
         sign_up_user
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
   end
@@ -112,7 +112,7 @@ describe "Smart Redirect" do
           sign_in(new_user)
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -122,7 +122,7 @@ describe "Smart Redirect" do
           sign_in(new_user)
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -132,7 +132,7 @@ describe "Smart Redirect" do
           sign_in(new_user)
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -142,7 +142,7 @@ describe "Smart Redirect" do
           sign_in(new_user)
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
 
@@ -152,7 +152,7 @@ describe "Smart Redirect" do
           sign_in(new_user)
         end
 
-        it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+        it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
       end
     end
@@ -164,7 +164,7 @@ describe "Smart Redirect" do
       end
 
       it 'should redirect the registered user to last viewed lesson page' do
-        should have_selector('div', text: lesson.title )
+        is_expected.to have_selector('div', text: lesson.title )
       end
     end
 
@@ -175,7 +175,7 @@ describe "Smart Redirect" do
         sign_in(new_user)
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
 
@@ -185,7 +185,7 @@ describe "Smart Redirect" do
         sign_in(new_user)
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
 
@@ -195,7 +195,7 @@ describe "Smart Redirect" do
         sign_in(new_user)
       end
 
-      it { should have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
+      it { is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" ) }
 
     end
 
@@ -212,7 +212,7 @@ describe "Smart Redirect" do
       end
 
       it 'should redirect to courses path' do
-        should have_selector('h1', text: "This is Your Path to Learning Web Development" )
+        is_expected.to have_selector('h1', text: "This is Your Path to Learning Web Development" )
       end
 
     end

@@ -11,7 +11,7 @@ RSpec.configure do |config|
     DatabaseCleaner.clean_with :truncation
   end
 
-  config.before(:each) do
+  config.before(:each) do |example|
     if example.metadata[:js]
       Capybara.current_driver = :selenium
       DatabaseCleaner.strategy = :truncation
@@ -21,7 +21,7 @@ RSpec.configure do |config|
     end
   end
 
-  config.after(:each) do
+  config.after(:each) do |example|
     Capybara.use_default_driver if example.metadata[:js]
     DatabaseCleaner.clean
   end

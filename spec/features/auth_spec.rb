@@ -13,14 +13,14 @@ describe "Authentication" do
 
       before { visit root_path }
 
-      it { should have_link "Login" }
-      it { should_not have_link "Logout" }
+      it { is_expected.to have_link "Login" }
+      it { is_expected.not_to have_link "Logout" }
 
       context "after clicking login" do
 
         before { click_link "Login" }
 
-        it { should have_link "Sign up" }
+        it { is_expected.to have_link "Sign up" }
 
       end
     end
@@ -31,14 +31,14 @@ describe "Authentication" do
 
       describe "should start on the home page" do
 
-        it { should have_selector('h1', :text => home_h1) }
-        it { should_not have_link "Logout" }
+        it { is_expected.to have_selector('h1', :text => home_h1) }
+        it { is_expected.not_to have_link "Logout" }
 
         describe "then click through to login" do
 
           before { click_link "Login" }
 
-          it { should have_selector('h2', :text => "Sign in") }
+          it { is_expected.to have_selector('h2', :text => "Sign in") }
 
           describe "then login to land on the courses page" do
 
@@ -48,7 +48,7 @@ describe "Authentication" do
               click_button "Sign in"
             end
 
-            it { should have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
+            it { is_expected.to have_selector('h1', :text => "This is Your Path to Learning Web Development" ) }
 
             describe "then click logout to sign out to home page" do
 
@@ -56,7 +56,7 @@ describe "Authentication" do
                 click_link "Logout"
               end
 
-              it { should have_selector('h1', :text => home_h1) }
+              it { is_expected.to have_selector('h1', :text => home_h1) }
             end
           end
         end

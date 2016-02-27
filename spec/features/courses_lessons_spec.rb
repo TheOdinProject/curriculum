@@ -30,13 +30,13 @@ describe "Courses and Lessons Pages" do
       visit courses_path
     end
 
-    it { should have_selector("h1", :text => "This is Your Path to Learning Web Development") }
+    it { is_expected.to have_selector("h1", :text => "This is Your Path to Learning Web Development") }
 
     describe "it should include every course" do
 
       it "by title" do
         Course.all.each do |course|
-          subject.should have_selector("h2", :text => course.title)
+          expect(subject).to have_selector("h2", :text => course.title)
         end
       end
       # make it a controller test for the orderings
@@ -44,13 +44,13 @@ describe "Courses and Lessons Pages" do
     context "for inactive courses" do
       it "should say 'coming soon'" do
         course = Course.where(:is_active => false).first
-        subject.should have_selector("h2", :text => "#{course.title} ...Coming Soon!")
+        expect(subject).to have_selector("h2", :text => "#{course.title} ...Coming Soon!")
       end
     end
     context "for regular lessons" do
       it "should not say Coming Soon" do
         course = Course.where(:is_active => true).first
-        subject.should_not have_selector("h2", :text => "#{course.title} ...Coming Soon!")
+        expect(subject).not_to have_selector("h2", :text => "#{course.title} ...Coming Soon!")
       end
     end
 
@@ -68,7 +68,7 @@ describe "Courses and Lessons Pages" do
         end
         # Check courses index to ensure course has a green check mark by it
         within(:link_to, lessons_path(Course.first.title_url), text: "#{Course.first.title}") do
-          subject.should have_selector("h3", text: "✔")
+          expect(subject).to have_selector("h3", text: "✔")
         end
       end
 
@@ -81,7 +81,7 @@ describe "Courses and Lessons Pages" do
         # Return to courses index page; course should not have green check mark
         visit courses_path
         within(:link_to, lessons_path(Course.first.title_url), text: "#{Course.first.title}") do
-          subject.should_not have_selector("h3", text: "✔")
+          expect(subject).not_to have_selector("h3", text: "✔")
         end
       end
     end
@@ -99,26 +99,26 @@ describe "Courses and Lessons Pages" do
 
     it "should include every lesson for that course" do
       course1.lessons.each do |lesson|
-        subject.should have_selector("h3", :text => lesson.title)
+        expect(subject).to have_selector("h3", :text => lesson.title)
       end
     end
 
     it "should not include lessons for any other course" do
       not_included_lesson = Course.where("id != #{course1.id}").first.lessons.first
       # puts not_included_lesson.inspect
-      subject.should_not have_selector("h3", :text => not_included_lesson.title)
+      expect(subject).not_to have_selector("h3", :text => not_included_lesson.title)
     end
 
     it "should include all sections for that course" do
       course1.sections.each do |section|
-        subject.should have_selector("h2", :text => section.title)
+        expect(subject).to have_selector("h2", :text => section.title)
       end
     end
 
     it "should not include all sections for another course" do
       not_included_section = Course.where("id != #{course1.id}").first.sections.first
       # puts not_included_section.inspect
-      subject.should_not have_selector("h3", :text => not_included_section.title)
+      expect(subject).not_to have_selector("h3", :text => not_included_section.title)
     end
 
     context "for projects" do
@@ -126,7 +126,7 @@ describe "Courses and Lessons Pages" do
       let(:project1) { course1.lessons.where(:is_project => :true).first }
 
       it "should have a special project class" do
-        project1.title.should_not be_blank
+        expect(project1.title).not_to be_blank
         url = lesson_path(course1.title_url, project1.title_url)
         selector = ".lesson.project a[href=\'#{url}\']"
         expect(subject).to have_css(selector)
@@ -138,10 +138,10 @@ describe "Courses and Lessons Pages" do
       let(:non_project1) { course1.lessons.where(:is_project => :false).first }
 
       it "should not have a special project class" do
-        non_project1.title.should_not be_blank
+        expect(non_project1.title).not_to be_blank
         url = lesson_path(course1.title_url, non_project1.title_url)
         xpath = "//a[@href=\'#{url}\']//*[@class='lesson project']"
-        subject.should_not have_xpath(xpath)
+        expect(subject).not_to have_xpath(xpath)
       end
     end
 
@@ -275,19 +275,19 @@ describe "Courses and Lessons Pages" do
     end
 
     it "should show something in the lesson body container" do
-      subject.find(:xpath,"//*[@class='individual-lesson ']//*[@class='container']").text.should_not be_empty
+      expect(subject.find(:xpath,"//*[@class='individual-lesson ']//*[@class='container']").text).not_to be_empty
     end
 
     it "should show social sharing buttons" do
-      subject.should have_selector('div.social_sharing_buttons')
+      expect(subject).to have_selector('div.social_sharing_buttons')
     end
 
     it "should have contributions links div" do
-      subject.should have_selector(".contribution-links")
+      expect(subject).to have_selector(".contribution-links")
     end
 
     it "should have Octocat image" do
-      subject.should have_css('img', "octocat.png")
+      expect(subject).to have_css('img', "octocat.png")
     end
 
     context "clicking the Github Octocat image at the end of the lesson" do
@@ -307,7 +307,7 @@ describe "Courses and Lessons Pages" do
 
       it "should have a special project class" do
         xpath = "//*[@class='individual-lesson project-lesson']"
-        subject.should have_xpath(xpath)
+        expect(subject).to have_xpath(xpath)
       end
     end
 
@@ -318,7 +318,7 @@ describe "Courses and Lessons Pages" do
 
       it "should not have a special project class" do
         xpath = "//*[@class='individual-lesson project-lesson']"
-        subject.should_not have_xpath(xpath)
+        expect(subject).not_to have_xpath(xpath)
       end
     end
 
@@ -342,11 +342,11 @@ describe "Courses and Lessons Pages" do
       describe "set up our test properly" do
         # Make sure our test properly populated things...
         it "should be a valid section size" do
-          second_section.lessons.count.should >= 4
+          expect(second_section.lessons.count).to be >= 4
         end
 
         it "should have a backlink to the lessons list" do
-          subject.should have_xpath("//*[@href = \'#{lessons_path(course1.title_url)}\']")
+          expect(subject).to have_xpath("//*[@href = \'#{lessons_path(course1.title_url)}\']")
         end
       end
 
@@ -415,7 +415,7 @@ describe "Courses and Lessons Pages" do
             visit lesson_path(first_sec_lesson.course.title_url, first_sec_lesson.title_url)
           end
           it "should show a next button for the next lesson" do
-            subject.should have_xpath("//*[@href = \'#{lesson_path(second_sec_lesson.course.title_url, second_sec_lesson.title_url, :ref => "lnav")}\']")
+            expect(subject).to have_xpath("//*[@href = \'#{lesson_path(second_sec_lesson.course.title_url, second_sec_lesson.title_url, :ref => "lnav")}\']")
           end
         end
 
@@ -424,7 +424,7 @@ describe "Courses and Lessons Pages" do
             visit lesson_path(last_sec_lesson.course.title_url, last_sec_lesson.title_url)
           end
           it "should show a next button to next section's first lesson" do
-            subject.should have_xpath("//*[@href = \'#{lesson_path(next_sec_first_lesson.course.title_url, next_sec_first_lesson.title_url, :ref => "lnav")}\']")
+            expect(subject).to have_xpath("//*[@href = \'#{lesson_path(next_sec_first_lesson.course.title_url, next_sec_first_lesson.title_url, :ref => "lnav")}\']")
           end
         end
 

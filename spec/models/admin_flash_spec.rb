@@ -7,15 +7,15 @@ describe AdminFlash do
     
   subject { admin_flash }
   
-  it { should respond_to(:message) }
-  it { should respond_to(:expires) }
+  it { is_expected.to respond_to(:message) }
+  it { is_expected.to respond_to(:expires) }
     
-  it { should be_valid }
+  it { is_expected.to be_valid }
    
   describe "when 'message' is blank" do 
     before { admin_flash.message = " " }
     
-    it { should_not be_valid }
+    it { is_expected.not_to be_valid }
   end
   
   describe "#unexpired_messages" do
@@ -25,15 +25,15 @@ describe AdminFlash do
     end
     # tests to make sure it only grabs active flash messages
     it "returns unexpired messages" do
-      AdminFlash.unexpired_messages.should include( admin_flash )
+      expect(AdminFlash.unexpired_messages).to include( admin_flash )
     end  
     
     it "sorts the flashes in descending created_at order" do
-      AdminFlash.unexpired_messages.should eq( [admin_flash, admin_flash_2] )
+      expect(AdminFlash.unexpired_messages).to eq( [admin_flash, admin_flash_2] )
     end
     
     it "does not return expired messages" do
-      AdminFlash.unexpired_messages.should_not include(expired_admin_flash)
+      expect(AdminFlash.unexpired_messages).not_to include(expired_admin_flash)
     end
     
     
@@ -43,8 +43,8 @@ describe AdminFlash do
   describe "#showable_messages" do
     it 'returns array of messages without cookies' do
       disabled_flash_message = AdminFlash.create(message: "disabled in cookie", expires: 2.days.from_now) 
-      AdminFlash.stub(:unexpired_messages).and_return([disabled_flash_message])
-      AdminFlash.showable_messages([disabled_flash_message.id]).should_not include(disabled_flash_message)
+      allow(AdminFlash).to receive(:unexpired_messages).and_return([disabled_flash_message])
+      expect(AdminFlash.showable_messages([disabled_flash_message.id])).not_to include(disabled_flash_message)
     end
     
   end  
@@ -68,7 +68,7 @@ describe AdminFlash do
     it 'returns true(update_attributes)' do
       admin_flash = AdminFlash.create(message: "Lorem ipsum", expires: 2.days.from_now)
       #assert true, admin_flash.update_attribute(:message => "Asdf Qwerty") 
-      admin_flash.update_attribute(:message, "Asdf Qwerty").should be_true
+      expect(admin_flash.update_attribute(:message, "Asdf Qwerty")).to be_truthy
     end  
   end  
   

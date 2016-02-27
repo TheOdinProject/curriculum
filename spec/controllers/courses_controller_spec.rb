@@ -13,7 +13,7 @@ describe CoursesController do
         
         it "courses should be sorted by position" do
           get :index
-          assigns(:courses).should == courses.sort{|a,b| a.position <=> b.position }
+          expect(assigns(:courses)).to eq(courses.sort{|a,b| a.position <=> b.position })
         end
       end
 
@@ -26,7 +26,7 @@ describe CoursesController do
 
         it "should still be sorted by position" do
           get :index
-          assigns(:courses).should == courses.sort{|a,b| a.position <=> b.position }
+          expect(assigns(:courses)).to eq(courses.sort{|a,b| a.position <=> b.position })
         end
       end
     end

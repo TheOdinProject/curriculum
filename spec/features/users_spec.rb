@@ -21,22 +21,22 @@ describe "Users" do
       end
 
       it "should show the user's name" do
-        page.source.should have_selector("h2", :text => user.username)
+        expect(page.source).to have_selector("h2", :text => user.username)
       end
       it "should show the github profile link" do
-        page.source.should have_css( "a[href='#{user.github}']" )
+        expect(page.source).to have_css( "a[href='#{user.github}']" )
       end
       it "should show the about text" do
-        page.source.should have_selector("p", :text => user.about)
+        expect(page.source).to have_selector("p", :text => user.about)
       end
       it "should show the edit button" do
-        page.source.should have_selector("button", :text => "Edit")
+        expect(page.source).to have_selector("button", :text => "Edit")
       end
 
       context "without a completed lesson" do
 
         it "should not list lesson completions" do
-          page.source.should_not have_selector("h3", :text => "Completed Lessons")
+          expect(page.source).not_to have_selector("h3", :text => "Completed Lessons")
         end
       end
 
@@ -49,7 +49,7 @@ describe "Users" do
 
         it "should list the lessons the user has completed" do
           # save_and_open_page
-          page.source.should have_selector("h3", :text => "Completed Lessons")
+          expect(page.source).to have_selector("h3", :text => "Completed Lessons")
         end
 
       end
@@ -60,10 +60,10 @@ describe "Users" do
       before { visit user_path(other_user) }
 
       it "should show that user's name" do
-        page.source.should have_selector("h2", :text => other_user.username)
+        expect(page.source).to have_selector("h2", :text => other_user.username)
       end
       it "should not have an edit button" do
-        page.source.should_not have_selector("button", :text => "Edit")
+        expect(page.source).not_to have_selector("button", :text => "Edit")
       end
     end
   end
@@ -80,11 +80,11 @@ describe "Users" do
       end
 
       it "should not allow that edit page to display" do
-        current_path.should_not == edit_user_path(other_user)
+        expect(current_path).not_to eq(edit_user_path(other_user))
       end
 
       it "should redirect to show page for that user" do
-        current_path.should == user_path(other_user)
+        expect(current_path).to eq(user_path(other_user))
       end
     end
 
@@ -94,7 +94,7 @@ describe "Users" do
       end
 
       it "should allow the edit page to display" do
-        current_path.should == edit_user_path(user)
+        expect(current_path).to eq(edit_user_path(user))
       end
 
       context "with new data entered" do
@@ -105,14 +105,14 @@ describe "Users" do
         end
 
         it "should go to show page" do
-          current_path.should == user_path(user)
+          expect(current_path).to eq(user_path(user))
         end
         it "should show facebook changes" do
           user.reload
-          page.source.should have_css( "a[href='https://www.facebook.com/#{user.facebook}']" )
+          expect(page.source).to have_css( "a[href='https://www.facebook.com/#{user.facebook}']" )
         end
         it "should show about changes" do
-          page.source.should have_selector("p", :text => "New about me")
+          expect(page.source).to have_selector("p", :text => "New about me")
         end
       end
     end
@@ -126,9 +126,9 @@ describe "Users" do
         visit users_path
       end
 
-      it { should have_selector("h2", :text => "Students") }
-      it { should have_link(user.username, :href=>user_path(user)) }
-      it { should have_selector("img")}
+      it { is_expected.to have_selector("h2", :text => "Students") }
+      it { is_expected.to have_link(user.username, :href=>user_path(user)) }
+      it { is_expected.to have_selector("img")}
 
       # Obsolete after changing the algorithm to favor instead
       # students who have most recently completed a lesson
@@ -164,7 +164,7 @@ describe "Users" do
       end
       
       # Check to see if we get any listing at all
-      it { should have_selector('div.student-info') }
+      it { is_expected.to have_selector('div.student-info') }
       
     end    
   end

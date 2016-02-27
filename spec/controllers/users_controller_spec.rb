@@ -8,7 +8,7 @@ describe UsersController do
   context "before authentication" do
     it "GET #index unauthorized" do
       get :index
-      response.should redirect_to(new_user_session_path)
+      expect(response).to redirect_to(new_user_session_path)
     end
     it "PUT #update unauthorized" do
       put :update, :id => user.id
@@ -35,7 +35,7 @@ describe UsersController do
     end
     it "PUT #update is authorized" do
       put :update, :id => user.id, :user => { username: "foolong" }
-      response.should redirect_to user_url(user)
+      expect(response).to redirect_to user_url(user)
     end
     it "GET #edit is authorized" do
       get :edit, :id => user.id
@@ -50,14 +50,14 @@ describe UsersController do
 
       it "GET #edit is unauthorized" do
         get :edit, :id => other_user.id
-        response.should redirect_to user_url(other_user)
+        expect(response).to redirect_to user_url(other_user)
       end
       it "GET #edit shouldn't show edit" do
-        response.should_not redirect_to edit_user_url(other_user)
+        expect(response).not_to redirect_to edit_user_url(other_user)
       end
       it "PUT #update is unauthorized" do
         put :update, :id => other_user.id
-        response.should redirect_to user_url(other_user)
+        expect(response).to redirect_to user_url(other_user)
       end
     end
   end
