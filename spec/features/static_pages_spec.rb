@@ -52,10 +52,6 @@ describe "StaticPages" do
         expect(page).to have_selector("h2", text: "HALL OF FAME")
       end
 
-      it "with an image for Erik" do
-        expect(page).to have_css("img[src$='hof/erik.jpg']")
-      end
-
       it "with a github link for Erik" do
         expect(page).to have_css("a[href~='http://github.com/eriktrautman']")
       end
