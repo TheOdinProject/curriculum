@@ -77,7 +77,7 @@ describe OmniauthCallbacksController, "github callback" do
       end
     end
 
-    context 'username not entered ', js: true do
+    context 'username not entered ' do
       it 'should not create a user' do
         click_signin_with_github
         fill_in('user_username', :with => "")
