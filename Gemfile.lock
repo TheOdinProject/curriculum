@@ -321,6 +321,10 @@ GEM
       json (>= 1.8.0)
     warden (1.2.6)
       rack (>= 1.0)
+    web-console (3.1.1)
+      activemodel (>= 4.2)
+      debug_inspector
+      railties (>= 4.2)
     websocket (1.2.2)
     will_paginate (3.1.0)
     xpath (2.0.0)
@@ -363,10 +367,12 @@ DEPENDENCIES
   sass-rails (~> 5.0.4)
   selenium-webdriver (~> 2.52)
   simple_form (~> 3.2.1)
+  sprockets-rails (~> 3.0, >= 3.0.3)
   therubyracer (~> 0.12.2)
   transpec
   twitter-bootstrap-rails (~> 2.2.8)
   uglifier (>= 2.7.2)
+  web-console (~> 3.0)
   will_paginate (~> 3.1.0)
 
 BUNDLED WITH

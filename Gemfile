@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.3.0'
 gem 'rails',                        '~> 4.1', '>= 4.1.14.1'
+gem 'sprockets-rails',              '~> 3.0', '>= 3.0.3',             :require => 'sprockets/railtie'
 gem 'puma',                         '~> 2.16.0'                       #Webserver to replace WEBrick
 gem 'simple_form',                  '~> 3.2.1'
 gem 'jquery-rails',                 '~> 4.1.0'
@@ -43,6 +44,7 @@ end
 
 group :development do
   gem 'pry-byebug',                 '~> 3.3'
+  gem 'web-console',                '~> 3.0'
   gem 'better_errors',              '~> 2.1.1'                        # gives much better error messages for debug
   gem 'quiet_assets',               '~> 1.1.0'                        # shortens up the server log output
   gem 'binding_of_caller',          '~> 0.7.2'                        # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
