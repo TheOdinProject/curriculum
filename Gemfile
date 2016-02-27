@@ -28,7 +28,6 @@ gem 'therubyracer',                 '~> 0.12.2'                       # See http
 gem 'less-rails',                   '~> 2.7.1'
 gem 'uglifier',                     '>= 2.7.2'
 gem 'selenium-webdriver',           '~> 2.52'
-gem 'transpec'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.2'
