@@ -1,4 +1,4 @@
-class SlackLinkAdaptor
+class SlackLinkFactory
 
   attr_reader :course
 
@@ -6,7 +6,7 @@ class SlackLinkAdaptor
     @course = course
   end
 
-  def adapt
+  def build
     base_slack_url + url_finder.fetch(@course.title, fallback)
   end
 
