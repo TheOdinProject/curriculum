@@ -23,12 +23,16 @@ end
 
 RSpec.configure do |config|
   config.include Capybara::DSL
-  Capybara.javascript_driver = :webkit_debug
+  Capybara.javascript_driver = :webkit
   Capybara.always_include_port = true
   Capybara.default_host = "http://#{DEFAULT_HOST}"
   #fixes issues with capybara not detecting db changes made during tests
   config.use_transactional_fixtures = false
 
+  # Capybara.default_driver = :selenium
+  Capybara.register_driver :selenium do |app|
+    Capybara::Selenium::Driver.new(app, :browser => :firefox)
+  end
 
   config.before :each do
     if Capybara.current_driver == :rack_test
