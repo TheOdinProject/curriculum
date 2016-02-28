@@ -48,7 +48,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [eternal's solution](https://github.com/3ternal/slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/3ternal/slider/blob/master/index.html)
 * [danmakenoise's solution](https://github.com/danmakenoise/odin-js-slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/danmakenoise/odin-js-slider/blob/master/index.html)
 * [Dan's solution](https://github.com/vickerdj/imageslider) | [View in browser] (http://vickerdj.github.io/imageslider/)
-* [Trajanson's solution](https://github.com/Trajanson/image-carousel-js) | [View in broswer] (https://image-carousel-js-trajanson.c9users.io/)
+* [Trajanson's solution](https://github.com/Trajanson/image-carousel-js) | [View in broswer] (http://projects.trajanson.com/js-image-carousel/)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/javascript/carousel) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/javascript/carousel/carousel.html)
 * Add your solution above this line!
 
