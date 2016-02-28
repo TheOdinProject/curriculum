@@ -1,8 +1,8 @@
 ## Setup ruby
 In case you don't have the version of ruby that the TheOdinProject uses, install it with rvm:
 ```
-$ rvm install ruby-2.0.0-p353
-$ rvm use ruby-2.0.0-p353
+$ rvm install ruby-2.3
+$ rvm use ruby-2.3
 ```
 
 #### Bundler
