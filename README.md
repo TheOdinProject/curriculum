@@ -26,9 +26,9 @@ This site runs on **Ruby 2.3** and **Rails 4.1** (upgraded from Ruby 1.9.3 and R
 2. When you have it cloned to your local machine make sure your Ruby version is 2.3 and your Rails version is 4.1 or later.
 3. Use the appropriate operating system focused guide below to install the site
 
-[OSX Setup](https://gist.github.com/KevinMulhern/2cb304b8dbd0fc65526a)
+[OSX Setup](https://github.com/TheOdinProject/theodinproject/blob/master/doc/mac_setup.md)
 
-[Linux Setup](https://gist.github.com/kriox26/cfa21b6e50a081f938f6)
+[Linux Setup](https://github.com/TheOdinProject/theodinproject/blob/master/doc/linux_setup.md)
 
 ##### Populating the Database
 
