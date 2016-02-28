@@ -595,6 +595,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *  [gbhmt's easy solution] (https://github.com/gbhmt/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/gbhmt/google-homepage/blob/master/index.html)
 * [At0micr3d's easy solution](https://github.com/at0micr3d/easy-version-google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/at0micr3d/easy-version-google-homepage/blob/master/index.html)
 * [At0micr3d's solution (Difficult)](https://github.com/at0micr3d/hard-version-google-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/at0micr3d/hard-version-google-project/blob/master/index.html)
+* [Dckwong's easy solution](https://github.com/dckwong/google-results) | [View in browser](https://htmlpreview.github.io/?https://github.com/dckwong/google-results/blob/master/google.html#)
 * Add your solution above this line!
 
 ## Additional Resources
