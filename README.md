@@ -18,12 +18,12 @@ This project is emphatically beginner-friendly so, if you're interested in poten
 
 ### Hacking on the Site Yourself: Getting Set Up
 
-This site runs on **Ruby 2.0.0-p353** and **Rails 4.0.0** (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)
+This site runs on **Ruby 2.3** and **Rails 4.1** (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)
 
 #### Installing the Site on your Local Machine
 
 1. Make sure to fork this repo
-2. When you have it cloned to your local machine make sure your Ruby version is 2.0.0-p353 and your Rails version is 4.0.0 or later.
+2. When you have it cloned to your local machine make sure your Ruby version is 2.3 and your Rails version is 4.1 or later.
 3. Use the appropriate operating system focused guide below to install the site
 
 [OSX Setup](https://gist.github.com/KevinMulhern/2cb304b8dbd0fc65526a)
