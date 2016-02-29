@@ -48,7 +48,7 @@ The URL is: https://www.google.com/search?q=what+is+a+url
 3. What is the "Top Level Domain"?
 4. What is the "Protocol"?
 
-Once you understand what these components are, you can easily use Ruby's libraries to help you build your own and send a requests.  You also run into specific pieces like the "path" and "parameters" again and again when using Rails.
+Once you understand what these components are, you can easily use Ruby's libraries to help you build your own and send requests.  You also run into specific pieces like the "path" and "parameters" again and again when using Rails.
 
 *Answers: 1. /search 2. q=what+is+a+url 3. com 4. https*
 
