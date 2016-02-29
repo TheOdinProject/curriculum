@@ -125,6 +125,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/members-only)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/members_only)
 * [Max Gallant's solution](https://github.com/mcgalcode/members-only) | [View in browser](https://grapefruitonly.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/members-only)
 * Add your solution above this line!
 
 
