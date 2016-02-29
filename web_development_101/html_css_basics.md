@@ -42,5 +42,5 @@ As you've hopefully [learned before](http://skillcrush.com/2012/06/24/html-2/), 
 
 * If you're rearing to get more in-depth, check out [TutsPlus' free 30 Days To Learn HTML and CSS Course](http://courses.tutsplus.com/courses/30-days-to-learn-html-css)
 * [W3 Schools' CSS tutorial](http://www.w3schools.com/css/)
-* [OverAPI's HTML Cheat Sheet](http://overapi.com/html/)
-* [OverAPI's CSS Cheat Sheet](http://overapi.com/css/)
+* [OverAPI's HTML Cheat Sheet](http://overapi.com/html)
+* [OverAPI's CSS Cheat Sheet](http://overapi.com/css)
