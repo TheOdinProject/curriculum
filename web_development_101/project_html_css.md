@@ -598,6 +598,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Dckwong's easy solution](https://github.com/dckwong/google-results) | [View in browser](https://htmlpreview.github.io/?https://github.com/dckwong/google-results/blob/master/google.html#)
 * [Mazerackem's easy solution] (https://github.com/mazerackem/google-homepage | [View in browser] (http://htmlpreview.github.io/?https://github.com/mazerackem/google-homepage/blob/master/index.html)
 * Add your solution above this line!
+* [Krzysztof's easy solution] (https://github.com/itmightgetloud/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/itmightgetloud/google-homepage/blob/master/index.html)
 
 ## Additional Resources
 
