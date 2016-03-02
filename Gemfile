@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.0'
-gem 'rails',                        '~> 4.1', '>= 4.1.14.1'
-gem 'sprockets-rails',              '~> 3.0', '>= 3.0.3',             :require => 'sprockets/railtie'
+gem 'rails',                        '~> 4.2', '>= 4.2.5.1'
 gem 'puma',                         '~> 2.16.0'                       #Webserver to replace WEBrick
 gem 'simple_form',                  '~> 3.2.1'
 gem 'jquery-rails',                 '~> 4.1.0'
@@ -17,7 +16,6 @@ gem 'pg',                           '~> 0.18.4'
 gem 'nokogiri',                     '~> 1.6.7.2'
 gem 'premailer-rails',              '~> 1.9'
 gem 'github_api',                   '~> 0.13.1'                       # to pull in the curriculum files
-gem 'omniauth',                     '~> 1.3'
 gem 'omniauth-github',              '~> 1.1.2'                        #for Github Authentication
 gem 'font-awesome-rails',           '~> 4.5.0.1'
 gem 'disqus',                       '~> 1.0.4'                        #for the forum sections of the website
