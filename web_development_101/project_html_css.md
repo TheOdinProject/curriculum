@@ -588,7 +588,6 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Susanna Marsiglia's solution](https://github.com/sushimi/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sushimi/google-homepage/blob/master/index.html)
 * [Albi Abdyli's easy solution](https://github.com/aabdyli/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/aabdyli/google_homepage/blob/master/index.html)
 * [Samuel L's easy solution](https://github.com/Codetyper-Samuel/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Codetyper-Samuel/google-homepage/blob/master/index.html)
-<<<<<<< HEAD
 * [fwda's easy solution](https://github.com/gomesalexandre/googleclone) | [View in browser](https://htmlpreview.github.io/?https://github.com/gomesalexandre/googleclone/blob/master/index.html)
 * [mrexitium's easy solution](https://github.com/mrexitium/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/mrexitium/google-homepage/blob/master/index.html)
 * [jovergaag's easy solution](https://github.com/jovergaag/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/jovergaag/google-homepage/blob/master/index.html)
@@ -602,10 +601,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Michelle Huang's easy solution](https://github.com/itsmhuang/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/itsmhuang/google-homepage/blob/master/index.html)
 * [Michelle Huang's difficult solution](https://github.com/itsmhuang/google-searchpage) | [View in browser](https://htmlpreview.github.io/?https://github.com/itsmhuang/google-searchpage/blob/master/results.html)
 * [Krzysztof's easy solution](https://github.com/itmightgetloud/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/itmightgetloud/google-homepage/blob/master/index.html)
-=======
-* [fwda's easy solution] (https://github.com/gomesalexandre/googleclone) | [View in browser](https://htmlpreview.github.io/?https://github.com/gomesalexandre/googleclone/blob/master/index.html)
-* [Singh Satnam's] (https://github.com/rssatnam/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/google-homepage/blob/master/index.html)
->>>>>>> e7fdf802906823f3fe77b7867fad15ef4c923a05
+* [fwda's easy solution](https://github.com/gomesalexandre/googleclone) | [View in browser](https://htmlpreview.github.io/?https://github.com/gomesalexandre/googleclone/blob/master/index.html)
+* [Singh Satnam's](https://github.com/rssatnam/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
