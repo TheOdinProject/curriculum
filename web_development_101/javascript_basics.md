@@ -285,6 +285,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * * [GPoly's Solutions](https://github.com/gpoly/Project-Euler/tree/gh-pages) | [View in browser](http://gpoly.github.io/Project-Euler/index.html)
 * [joelmarvi's solution] (https://github.com/joelmarvi/euler-problems)
 * [james harder's solution] (https://github.com/james-harder/project_euler_javascript.git)
+* [Cornelius Edward's Solution](https://github.com/corneal64/TOP-javascript-basic) | [View In Browser](http://htmlpreview.github.io/?https://github.com/corneal64/TOP-javascript-basic/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
