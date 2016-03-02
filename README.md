@@ -18,7 +18,7 @@ This project is emphatically beginner-friendly so, if you're interested in poten
 
 ### Hacking on the Site Yourself: Getting Set Up
 
-This site runs on **Ruby 2.3** and **Rails 4.1** (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)
+This site runs on **Ruby 2.3** and **Rails 4.2** (upgraded from Ruby 1.9.3 and Rails 3.2.12 in February 2014)
 
 #### Installing the Site on your Local Machine
 
