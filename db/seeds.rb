@@ -9,13 +9,12 @@
 # Course Has Many Sections. Section Belongs To Course.
 # Section Has Many Lessons. Lesson Belongs To Section.
 
-# Public: Integer number of initialize position and counter
-# with these values it prevent a course, section or lesson is assigned the same value avoiding conflict
+# with these values it prevents a course, section or lesson being assigned the same value, avoiding conflict
 course_position = 0
 section_position = 0
 lesson_counter = 0
 
-# Public: Integer number just throw all the positions into the stratosphere to avoid the annoyance of having to not duplicate them when updating lessons
+# number just throw all the positions into the stratosphere to avoid the annoyance of having to not duplicate them when updating lessons
 incrementer = 1000
 
 # Public: Only run this update attributes if all have one or more records in the database
@@ -25,11 +24,6 @@ if Course.all.any? && Section.all.any? && Lesson.all.any?
   Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
 end
 
-# Public: Create or update course.
-#
-# params - The hash with keys and values about The Course
-#
-# Returns the course object.
 def create_or_update_course(course_attrs)
   course = Course.where(title: course_attrs[:title]).first
 
@@ -46,11 +40,6 @@ def create_or_update_course(course_attrs)
   course
 end
 
-# Public: Create or update section.
-#
-# params - The hash with keys and values about The Section
-#
-# Returns the section object.
 def create_or_update_section(section_attrs)
   section = Section.where(title: section_attrs[:title], course_id: section_attrs[:course_id]).first
 
@@ -67,11 +56,6 @@ def create_or_update_section(section_attrs)
   section
 end
 
-# Public: Create or update lesson.
-#
-# params - The hash with keys and values about The Lesson
-#
-# Returns the lesson object.
 def create_or_update_lesson(lesson_attrs)
   lesson = Lesson.where(title: lesson_attrs[:title], section_id: lesson_attrs[:section_id]).first
 
@@ -103,8 +87,6 @@ puts "\n\n***** STARTING COURSE: Introduction to Web Development *****"
 
 course_position += 1
 
-# Hash with the values of the course
-# returns #=> object with the new course creating or updating
 course = create_or_update_course(
   title: "Introduction to Web Development",
   title_url: "Introduction to Web Development".parameterize,
@@ -123,8 +105,6 @@ course = create_or_update_course(
 
 section_position += 1
 
-# Hash with the values of the section
-# returns #: object with the new section creating or updating
 section = create_or_update_section(
   title: "About Web Developers",
   title_url: "About Web Developers".parameterize,
@@ -135,7 +115,6 @@ section = create_or_update_section(
 
 lesson_counter += 1
 
-# Hash with the values of the section
 create_or_update_lesson(
   title: "What a Web Developer Does",
   title_url: "What a Web Developer Does".parameterize,
