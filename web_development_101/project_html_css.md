@@ -603,6 +603,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Krzysztof's easy solution](https://github.com/itmightgetloud/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/itmightgetloud/google-homepage/blob/master/index.html)
 * [fwda's easy solution](https://github.com/gomesalexandre/googleclone) | [View in browser](https://htmlpreview.github.io/?https://github.com/gomesalexandre/googleclone/blob/master/index.html)
 * [Singh Satnam's](https://github.com/rssatnam/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/google-homepage/blob/master/index.html)
+* [Noah Berman's easy solution](https://github.com/ofmistakes/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/ofmistakes/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
