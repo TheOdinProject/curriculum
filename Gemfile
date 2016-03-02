@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '2.3.0'
-gem 'rails',                        '~> 4.2', '>= 4.2.5.1'
+gem 'rails',                        '~> 4.2', '>= 4.2.5.2'
 gem 'puma',                         '~> 2.16.0'                       #Webserver to replace WEBrick
 gem 'simple_form',                  '~> 3.2.1'
 gem 'jquery-rails',                 '~> 4.1.0'
