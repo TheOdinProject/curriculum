@@ -207,6 +207,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Tomasz Kula's solution (with AI - 8,68% winrate after 1_000_000 tries)](https://github.com/zetsnotdead/mastermind)
 * [Max Gallant's solution (with AI)](https://github.com/mcgalcode/Ruby/tree/master/OOPProject/Mastermind)
 * [Noobling's soltion](https://github.com/noobling/ruby/blob/master/master_mind.rb)
+* [Matt Leininger's solution (AI 27% win rate)] (https://github.com/pilauPro/the-odin-project/blob/master/MasterMind/master_ai.rb)
 * Add your solution above this line!
 
 ## Additional Resources
