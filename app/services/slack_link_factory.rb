@@ -7,7 +7,7 @@ class SlackLinkFactory
   end
 
   def build
-    base_slack_url + url_finder.fetch(@course.title, fallback)
+    base_slack_url + url_finder.fetch(course.title, fallback)
   end
 
   private
