@@ -34,6 +34,14 @@
 
     <%= @content %>
 
+    <div class='slack-link-box'>
+      <%= link_to '<i class="fa fa-slack"></i> Discuss this Lesson on our Chat'.html_safe, slack_link(@course),
+          class: 'btn btn-success btn-block slack-link-btn' %>
+          <div class='slack-sign-up'>
+            <%= link_to "Don't have an account? sign up here", 'https://slackin-theodinproject.herokuapp.com/' %>
+          </div>
+    </div>
+
     <% if @right_box_ad %>
       <%= render :partial => "right_box_ad", :locals => { :ad => @right_box_ad } %>
     <% end %>
@@ -99,6 +107,9 @@
       </div>
     </div>
   </div>
+
+ 
+
   <%= render 'shared/disqus_forum' %>
 
 </div>
