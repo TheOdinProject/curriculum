@@ -10,7 +10,12 @@ One option for learning development has always been to use an existing online en
 If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
 
 ## Join our Slack Group
-Learning to program can be feel like a lonely and isolated journey, but it doesn't have to be. We have a Slack group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to discuss  the concpets you are learning in the lessons with other studnets and get help with problems you encounter when you are stuck. Or just come along and chat to other people who are going through the exact same journey you are.
+Learning to program can feel like a lonely and isolated journey, but it doesn't have to be. We have a Slack group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to:
+
+* Chat and network with other people that are going through the exact same journey you are.
+* Discuss the concepts you learn through the lessons.
+* Get help when you are stuck.
+* Report Broken links and other bugs.
 
 Your first assignment is to join our slack [here](https://slackin-theodinproject.herokuapp.com/) and introduce yourself in the General channel
 
