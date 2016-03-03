@@ -349,7 +349,7 @@ DEPENDENCIES
   puma (~> 2.16.0)
   quiet_assets (~> 1.1.0)
   rack-timeout (~> 0.3.2)
-  rails (~> 4.2, >= 4.2.5.1)
+  rails (~> 4.2, >= 4.2.5.2)
   rails_12factor (~> 0.0.2)
   redcarpet (~> 3.3.4)
   rspec-rails (~> 3.4.2)
