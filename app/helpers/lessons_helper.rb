@@ -12,4 +12,8 @@ module LessonsHelper
   def url_format(title)
     title.gsub(' ', '+')
   end
+
+  def slack_link(course)
+    SlackLinkFactory.new(course).build
+  end
 end

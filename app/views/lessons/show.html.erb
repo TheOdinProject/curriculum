@@ -33,6 +33,9 @@
     <% end %>
 
     <%= @content %>
+    
+    <%= render partial: 'slack_link', locals: { course: @course} %>
+
 
     <% if @right_box_ad %>
       <%= render :partial => "right_box_ad", :locals => { :ad => @right_box_ad } %>
@@ -99,6 +102,9 @@
       </div>
     </div>
   </div>
+
+ 
+
   <%= render 'shared/disqus_forum' %>
 
 </div>
