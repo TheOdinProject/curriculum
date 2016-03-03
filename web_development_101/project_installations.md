@@ -32,8 +32,6 @@ So, at its core, server-side installs with Ruby are just you installing the Ruby
 
 ## Windows and Web Development
 
-## Windows and Web Development
-
 You can use Windows and have no problems what so ever with learning HTML CSS and Javascript, Ruby on Rails on the other hand is where big issues will arise. The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
 
 * Because of the fundamental differences between unix based operating systems and Windows, installing Rails on a Windows machine is likely to give you problems that you would not encounter if you were installing on a linux system, these can be a real pain to solve.
