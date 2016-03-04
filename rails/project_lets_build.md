@@ -64,36 +64,30 @@ The tutorial covers more specifically the practice of "Test Driven Development",
 
 #### A Simple Test Example
 
-This is an example (listing 3.14) from the tutorial:
+This is an example (listing 3.22) from the tutorial:
 
 ```language-ruby
-    # spec/requests/static_pages_spec.rb
-    require 'spec_helper'
-
-    describe "Static pages" do
-
-      describe "Home page" do
-
-        it "should have the content 'Sample App'" do
-          visit '/static_pages/home'
-          expect(page).to have_content('Sample App')
-        end
+    # test/controllers/static_pages_controller_test.rb
+    require 'test_helper'
+    
+    class StaticPagesControllerTest < ActionController::TestCase
+    
+      test "should get home" do
+        get :home
+        assert_response :success
+        assert_select "title", "Home | Ruby on Rails Tutorial Sample App"
       end
-
-      describe "Help page" do
-
-        it "should have the content 'Help'" do
-          visit '/static_pages/help'
-          expect(page).to have_content('Help')
-        end
+      
+      test "should get help" do
+        get :help
+        assert_response :success
+        assert_select "title", "Help | Ruby on Rails Tutorial Sample App"
       end
-
-      describe "About page" do
-
-        it "should have the content 'About Us'" do
-          visit '/static_pages/about'
-          expect(page).to have_content('About Us')
-        end
+      
+      test "should get about" do
+        get :about
+        assert_response :success
+        assert_select "title", "About | Ruby on Rails Tutorial Sample App"
       end
     end
 ```
