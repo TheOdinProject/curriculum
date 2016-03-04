@@ -288,6 +288,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Cornelius Edward's Solution](https://github.com/corneal64/TOP-javascript-basic) | [View In Browser](http://htmlpreview.github.io/?https://github.com/corneal64/TOP-javascript-basic/blob/master/index.html)
 * [Singh Satnam's Solution](https://github.com/rssatnam/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/euler-problems/blob/master/index.html)
 * [Josh Cummings' Solutions](https://github.com/obiwan7713/ProjectEuler)
+* [Derek Kwong's Solutions] (https://github.com/dckwong/ProjectEuler)
 * Add your solution above this line!
 
 ## Additional Resources
