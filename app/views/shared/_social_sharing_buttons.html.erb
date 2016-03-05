@@ -1,6 +1,6 @@
 <div class="social_sharing_buttons pull-left">
   <!-- Twitter Button -->
-  <%= link_to raw('<span class="fa fa-twitter-square"></span>'), "https://twitter.com/share?text=Check out this lesson: #{@lesson.title}", :data => {toggle: 'tooltip'}, title: "Tweet this lesson" %>
+  <%= link_to raw('<span class="fa fa-twitter-square"></span>'), "https://twitter.com/share?text=Check out this awesome lesson from @TheOdinProject &hashtags=learntocode&url=#{request.original_url}", :data => {toggle: 'tooltip'}, title: "Tweet this lesson" %>
   <!-- Facebook Button -->
   <%= link_to raw('<span class="fa fa-facebook-square"></span>'),
     "https://www.facebook.com/dialog/share?app_id=1391239864499204&href=#{request.original_url}&redirect_uri=#{request.original_url}", :data => {toggle: 'tooltip'}, title: "Share on Facebook" %>

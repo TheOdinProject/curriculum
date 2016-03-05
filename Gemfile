@@ -25,6 +25,7 @@ gem 'twitter-bootstrap-rails',      '~> 2.2.8'
 gem 'therubyracer',                 '~> 0.12.2'                       # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'less-rails',                   '~> 2.7.1'
 gem 'uglifier',                     '>= 2.7.2'
+gem 'shortener',                    '~> 0.5.5'                        # To shorten social media links
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.2'
