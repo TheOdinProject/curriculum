@@ -362,4 +362,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [gbhmt's solution](https://github.com/gbhmt/etchasketch-v2.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/gbhmt/etchasketch-v2/blob/master/index.html)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/sketch-pad) | [View in browser](https://rawgit.com/fcarrara/sketch-pad/master/index.html)
 * [James Harder's solution](https://github.com/james-harder/jSketch.git)
+* [Singh Satnam's solution](https://github.com/rssatnam/javascript-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/javascript-sketchpad/blob/master/index.html)
 * Add your solution above this line!
