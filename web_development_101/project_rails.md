@@ -140,6 +140,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/rails_blog_app)|[View in browser](https://blooming-eyrie-31902.herokuapp.com/)
 * [Peter Taggart's solution](https://github.com/gitschwifty/blogger)|[View in browser](https://immense-chamber-91760.herokuapp.com/)
 * [Tony Vumbaca's solution](https://github.com/tvumbaca/Blogger)|[View in browser](https://aqueous-basin-98343.herokuapp.com)
+* [Johnny Rasnic's solution](https://github.com/lonniganseaweed/rails-blog) | [View in browser](https://sleepy-retreat-39842.herokuapp.com/)
 * Add your solution above this line!
 
 
