@@ -126,6 +126,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Scott Bobbitt's solution](https://github.com/sco-bo/members_only)
 * [Max Gallant's solution](https://github.com/mcgalcode/members-only) | [View in browser](https://grapefruitonly.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/members-only)
+* [James Brooks's solution](https://github.com/jhbrooks/members-only) | [View in browser](https://powerful-bastion-24693.herokuapp.com/)
 * Add your solution above this line!
 
 
