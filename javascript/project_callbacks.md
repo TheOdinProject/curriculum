@@ -61,7 +61,8 @@ Refactor myMap to pass your modified array forward - into another callback!
 *Hint: Make sure you pass in the whole modified array to your outgoing callback, and not just each individual item.  Feel free to `console.log` the output.*
 
 ## Your Task
-Coming soon!
+
+1. Do the [callbacks exercise](https://github.com/bgando/functionalJS) questions from Bianca Gandolfo's course on JS Fundamentals.
 
 ## Student Solutions
 
@@ -72,5 +73,7 @@ Coming soon!
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 - JS Programming in the Node JS environment revolves around using callbacks.  Take a look at the [**nodeschool.io** tutorial](http://nodeschool.io/) for a nice introduction to Node, and as a side-effect : callbacks.
+
+- Bianca's [course](https://github.com/bgando/functionalJS) also contains excercises on scopes, closures and the underscore.js library. Feel free to explore them and dive into the world of Javascript!
 
 - *Add some!*
