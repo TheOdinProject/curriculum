@@ -290,6 +290,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Josh Cummings' Solutions](https://github.com/obiwan7713/ProjectEuler)
 * [Derek Kwong's Solutions] (https://github.com/dckwong/ProjectEuler)
 * [Starscream87's Solutions] (https://github.com/Starscream87/project-euler-problems_1-3) | [View in browser] (https://github.com/Starscream87/project-euler-problems_1-3/blob/master/euler_problems.html)
+* [belalik's Solutions] (https://github.com/belalik/euler) | [View in browser] (https://rawgit.com/belalik/euler/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
