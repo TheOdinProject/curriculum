@@ -6,6 +6,8 @@ This repository houses the curriculum used by [The Odin Project](http://theodinp
 
 Students, educators, and developers are encouraged to make contributions to the curriculum.  It has been greatly simplified so that it should be a rather straightforward process -- just fork this repository, make your changes (e.g. adding the link to your solution for one of the exercises), then submit a pull request.  The lessons presented at [theodinproject.com/curriculum](http://theodinproject.com/curriculum) are all stored in their appropriate course directories here.
 
+Please take a look at the [contributing page](http://www.theodinproject.com/contributing) to find out more about the contributing workflow
+
 ##What to contribute
 
 ### 1. Student Solutions
@@ -37,8 +39,6 @@ There are two main ways to contribute to the curriculum:
 ##Other helpful links
 
 *For more information about The Odin Project, go to [theodinproject.com](http://theodinproject.com).*
-
-*For more information about contributing to The Odin Project, go to [theodinproject.com/contributing](http://www.theodinproject.com/contributing)*
 
 *For the source code to The Odin Project's main website (which pulls in this curriculum), check out the [github repo here](http://github.com/theodinproject/theodinproject).*
 
