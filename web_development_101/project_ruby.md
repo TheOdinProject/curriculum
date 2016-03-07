@@ -149,6 +149,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [John Gerakaris's solution](https://github.com/gerak1925/basic_ruby_project)
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/test_first)
 * [Johnny Rasnic's solution](https://github.com/lonniganseaweed/ruby-basics)
+* [Tom Westerhout's solution](https://github.com/Westw00d/Ruby)
 * Add your solution above this line!
 
 
