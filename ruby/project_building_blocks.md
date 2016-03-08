@@ -207,6 +207,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [John Martinez's solution](https://github.com/johndavidmartinez/ruby-odin/blob/master/1/ceasar_cipher.rb)
 * [DV's solution](https://github.com/dvislearning/caesar_cipher/blob/master/cipher.rb)
 * [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/ceasar_cipher.rb)
+* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/blob/master/building_blocks/caesar_cipher.rb)
 * Add your solution above this line!
 
 
@@ -382,6 +383,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/ceasar_cipher.rb)
 * [DV's solution](https://github.com/dvislearning/stock_picker/blob/master/stock_picker.rb)
 * [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/stock_picker.rb)
+* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/blob/master/building_blocks/stock_picker.rb)
 * Add your solution above this line!
 
 
@@ -564,4 +566,5 @@ Next, make sure your method can handle multiple words:
 * [parhaml's solution](https://github.com/parhaml/substrings/blob/master/dict_count.rb)
 * [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/substrings.rb)
 * [DV's solution](https://github.com/dvislearning/substrings/blob/master/substrings.rb)
+* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/blob/master/building_blocks/substrings.rb)
 * Add your solution above this line!
