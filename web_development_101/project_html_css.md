@@ -80,7 +80,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 ## Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
-https://github.com/sbadulin/google-homepage.git
+
 
 * [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/google-homepage/blob/master/index.html)
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/google-homepage/index.html)
