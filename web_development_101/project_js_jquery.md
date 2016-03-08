@@ -363,4 +363,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Fabricio Carrara's solution](https://github.com/fcarrara/sketch-pad) | [View in browser](https://rawgit.com/fcarrara/sketch-pad/master/index.html)
 * [James Harder's solution](https://github.com/james-harder/jSketch.git)
 * [Singh Satnam's solution](https://github.com/rssatnam/javascript-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/javascript-sketchpad/blob/master/index.html)
+* [Filip Zelenika's solution] | [View in browser](http://htmlpreview.github.io/?https://github.com/NaughtySloth/sketch/blob/master/index.html)
 * Add your solution above this line!
