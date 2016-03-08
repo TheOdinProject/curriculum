@@ -150,6 +150,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/test_first)
 * [Johnny Rasnic's solution](https://github.com/lonniganseaweed/ruby-basics)
 * [Tom Westerhout's solution](https://github.com/Westw00d/Ruby)
+* [Paul McGarry's solution] (https://github.com/thiswillhavetodo/Project-Ruby)
 * Add your solution above this line!
 
 
