@@ -608,6 +608,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [JGilly's Easy solution!(Based Highly off Jeffrey Garza's w/commented CSS](https://github.com/JessicaGillan/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/JessicaGillan/google-homepage/blob/master/index.html)
 * [Kallen Tu's solution](https://github.com/kallentu/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/kallentu/google-homepage/blob/master/index.html)
 * [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/bmo84/google-homepage/blob/master/home.html)
+* [Herminio Torres's easy solution](https://github.com/herminiotorres/easy-version-google-homepage) | [View in browser](https://rawgit.com/herminiotorres/easy-version-google-homepage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
