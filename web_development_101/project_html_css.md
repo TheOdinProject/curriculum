@@ -83,7 +83,6 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 
 
-* [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/google-homepage/blob/master/index.html)
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/google-homepage/index.html)
 * [Cedric Charly's solution](https://github.com/Cedricgc/playground/tree/master/The%20Odin%20Project/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Cedricgc/playground/blob/master/The%20Odin%20Project/google-homepage/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html)
@@ -608,7 +607,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Spoon And Birdcage's Hard solution](https://github.com/SpoonAndBirdcage/google-resultspage) | [View in browser](http://htmlpreview.github.io/?https://github.com/SpoonAndBirdcage/google-resultspage/blob/master/index.html)
 * [JGilly's Easy solution!(Based Highly off Jeffrey Garza's w/commented CSS](https://github.com/JessicaGillan/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/JessicaGillan/google-homepage/blob/master/index.html)
 * [Kallen Tu's solution](https://github.com/kallentu/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/kallentu/google-homepage/blob/master/index.html)
-* [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/bmo84/google-homepage/blob/master/home.html)
+* [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser]
+* [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
