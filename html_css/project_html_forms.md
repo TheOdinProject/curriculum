@@ -19,7 +19,6 @@ The page is very straightforward, so you should be able to clone it even if your
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
-* [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
 * [Jason Ellis's solution](https://github.com/jason-ellis/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
 * [Mram1000's solution](https://github.com/mram1000/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/mram1000/mint-signup/blob/master/index-mint.html)
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/html_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/html_forms/index.html)
@@ -38,6 +37,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Noman Karim's solution](https://github.com/nomankarim/Mintsignupform) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/Mintsignupform/blob/master/index.html)
 * [Patrick Mallee's solution](https://github.com/patmallee/mintForm) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/mintForm/blob/master/index.html)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/mint-signup) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/mint-signup/index.html)
+* [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
 * Add your solution above this line!
 
 
