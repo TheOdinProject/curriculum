@@ -152,6 +152,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Tom Westerhout's solution](https://github.com/Westw00d/Ruby)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/Project-Ruby)
 * [Huw Diprose's solution](https://github.com/huwd/learn_ruby)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/test_first_ruby)
 * Add your solution above this line!
 
 
