@@ -609,6 +609,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Kallen Tu's solution](https://github.com/kallentu/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/kallentu/google-homepage/blob/master/index.html)
 * [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/bmo84/google-homepage/blob/master/home.html)
 * [Herminio Torres's easy solution](https://github.com/herminiotorres/easy-version-google-homepage) | [View in browser](https://rawgit.com/herminiotorres/easy-version-google-homepage/master/index.html)
+* [Kris Martinez's easy solution](https://github.com/martinezk/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/martinezk/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
