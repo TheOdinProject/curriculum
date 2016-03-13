@@ -25,8 +25,6 @@ class LessonsController < ApplicationController
 
     raise ActionController::RoutingError.new('Not Found') unless @course.is_active
 
-    # enable SSO for disqus in this lesson
-    @discusjs = disqus_sso if user_signed_in?
     
     @content = md(@lesson.content) if @lesson.content
     @next_lesson = @lesson.next_lesson
