@@ -155,6 +155,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [John Martinez's solution](https://github.com/johndavidmartinez/learn-ruby/blob/master/bubble_sort.rb)
 * [Vivek Kumar's solution] (https://github.com/myjoytou/theOdinProject/blob/master/ruby/bubblesort.rb)
 * [Benjamin Contant's solution] (https://github.com/bcontant/the_odin_project/blob/master/bubble_sort/bubble_sort.rb)
+* [DV's solution](https://github.com/dvislearning/bubble_sort/blob/master/bubble_sort.rb)
 * Add your solution above this line!
 
 
