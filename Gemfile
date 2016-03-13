@@ -18,7 +18,6 @@ gem 'premailer-rails',              '~> 1.9'
 gem 'github_api',                   '~> 0.13.1'                       # to pull in the curriculum files
 gem 'omniauth-github',              '~> 1.1.2'                        #for Github Authentication
 gem 'font-awesome-rails',           '~> 4.5.0.1'
-gem 'disqus',                       '~> 1.0.4'                        #for the forum sections of the website
 gem 'sass-rails',                   '~> 5.0.4'
 gem 'coffee-rails',                 '~> 4.1.1'
 gem 'twitter-bootstrap-rails',      '~> 2.2.8'
