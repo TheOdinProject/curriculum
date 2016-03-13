@@ -74,6 +74,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Matias Pan's solution (RSpec, Capybara, Ajax)](https://github.com/kriox26/odin_book) | [View in browser](https://polar-river-1192.herokuapp.com)
 * [Radi Totev's solution](https://github.com/raditotev/odin-facebook) | [View in browser](https://odin-facebook-clone.herokuapp.com)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/social-network) | [View in browser](https://pure-meadow-87105.herokuapp.com/)
+* [Luke Walker's solution](https://github.com/ubershibs/odin-fb) | [View in browser](https://floating-bayou-78146.herokuapp.com/users)
 * Add your solution above this line!
 
 
