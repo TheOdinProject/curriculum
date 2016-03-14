@@ -154,6 +154,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Huw Diprose's solution](https://github.com/huwd/learn_ruby)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/test_first_ruby)
 * [Rellbows' solution](https://github.com/rellbows/Ruby101Project.git)
+* [Oscar Yih's solution](https://github.com/mysteryihs/Ruby-TDD)
 * Add your solution above this line!
 
 
