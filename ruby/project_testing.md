@@ -91,6 +91,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Tomasz Kula's solution](https://github.com/zetsnotdead/connect_four)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/spec/connect_four_spec.rb)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RSpecProject)
+* [djhart's solution](https://github.com/djhart/connect_four)
 * Add your solution above this line!
 
 
