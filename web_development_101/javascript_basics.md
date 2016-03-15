@@ -289,6 +289,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Singh Satnam's Solution](https://github.com/rssatnam/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/euler-problems/blob/master/index.html)
 * [Josh Cummings' Solutions](https://github.com/obiwan7713/ProjectEuler)
 * [Derek Kwong's Solutions] (https://github.com/dckwong/ProjectEuler)
+* [Starscream87's Solutions] (https://github.com/Starscream87/project-euler-problems_1-3) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Starscream87/project-euler-problems_1-3/blob/master/euler_problems.html)
+* [belalik's Solutions] (https://github.com/belalik/euler) | [View in browser] (https://rawgit.com/belalik/euler/master/index.html)
+* [at0micred's Solutions] (https://github.com/at0micr3d/javascript_project_euler)
 * Add your solution above this line!
 
 ## Additional Resources

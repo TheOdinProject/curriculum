@@ -165,6 +165,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [noobling's soltion](https://github.com/noobling/ruby/tree/master/hang_man)
 * [Barltomiej Lazarski's solution](https://github.com/YogAzathoth/hangman)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/hangman)
+* [Benjamin Contant's](https://github.com/bcontant/the_odin_project/blob/master/hangman/hangman.rb)
 * Add your solution above this line!
 
 

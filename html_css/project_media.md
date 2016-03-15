@@ -4,7 +4,7 @@
 
 Back in Web Development 101 you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
 
-Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E)(the example video is one where I describe making contributions to open source).  
+Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) (the example video is one where I describe making contributions to open source).  
 
 The goal here isn't to produce an exact replica of the YouTube video page, but to focus on making the media elements show up.  That means two things -- embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.  
 
@@ -22,7 +22,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 2. Create empty `<div>` tags to enclose those sections.
 3. Use basic CSS to size and position them appropriately on the page.  It may be helpful to make their backgrounds different colors so you can see the different sections.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
 4. Now let's start filling in those divs with content by creating the navbar.
-2. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=ZnuwB35GYMY)
+2. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=ZnuwB35GYMY).
 3. Embed a YouTube video of your choice into your page.
 4. Next, build the sidebar section where previews of suggested videos show up.  Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
 5. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.  Ignore the icons (many of them are produced using sprites or more advanced techniques so you won't be able to just grab them by copying them).
@@ -48,6 +48,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/Embedding-Images-and-Video) | [View in browser](http://dusanmilosavljevic1624.github.io/Embedding-Images-and-Video/)
 * [Noman Karim's solution](https://github.com/nomankarim/youtube-play-preview) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/youtube-play-preview/blob/master/index.html)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/youtube/index.html)
+* [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/youtube/youtube.html)
 * Add your solution above this line!
 
 

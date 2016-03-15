@@ -98,6 +98,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [srashidi's solution](https://github.com/srashidi/Active_Record_Associations/tree/master/private-events)
 * [Max Gallant's solution](https://github.com/mcgalcode/private-events) | [View in browser](https://secret-gorge-95812.herokuapp.com/)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/private-events)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/private-events)
 * Add your solution above this line!
 
 

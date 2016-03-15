@@ -149,6 +149,12 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [John Gerakaris's solution](https://github.com/gerak1925/basic_ruby_project)
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/test_first)
 * [Johnny Rasnic's solution](https://github.com/lonniganseaweed/ruby-basics)
+* [Tom Westerhout's solution](https://github.com/Westw00d/Ruby)
+* [Paul McGarry's solution](https://github.com/thiswillhavetodo/Project-Ruby)
+* [Huw Diprose's solution](https://github.com/huwd/learn_ruby)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/test_first_ruby)
+* [Rellbows' solution](https://github.com/rellbows/Ruby101Project.git)
+* [Oscar Yih's solution](https://github.com/mysteryihs/Ruby-TDD)
 * Add your solution above this line!
 
 
