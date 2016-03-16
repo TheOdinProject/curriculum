@@ -30,7 +30,7 @@ Another reason things get a bit more complicated on the back end is because prog
 
 So, at its core, server-side installs with Ruby are just you installing the Ruby interpreter on your machine and a couple of extra things to help manage your workflow.  It just seems like a lot of different things when you're unfamiliar with what each one is doing.  We'll give you a brief description of each thing below and then you'll get a chance to do the installations on your own.
 
-## Windows and Web Development
+## Why you Should use Linux for this Course
 
 You can use Windows and have no problems what so ever with learning HTML CSS and Javascript, Ruby on Rails on the other hand is where big issues will arise. The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
 
