@@ -615,6 +615,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ahmed Hashi's Easy Solution](https://github.com/biif2010/google-home-page) | [View in Browser](http://htmlpreview.github.io/?https://github.com/biif2010/google-home-page/blob/master/index.html)
 * [Richard Shipe's Easy Solution](https://github.com/rheechashaipu/google-homepage-exercise) | [View in Browser](https://htmlpreview.github.io/?https://github.com/rheechashaipu/google-homepage-exercise/blob/master/index.html)
 * [Daniel Grossberg's Easy Solution](https://github.com/dwgrossberg/the-odin-project/blob/master/project-1/google-homepage/index.html) | [View in Browser](http://htmlpreview.github.io/?https://github.com/dwgrossberg/the-odin-project/blob/master/project-1/google-homepage/index.html)
+* [Matt Dillon's Easy Solution] (https://github.com/CrappyDill/google-homepage.git) | [View in Browser] (https://rawgit.com/CrappyDill/google-homepage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
