@@ -358,7 +358,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Robert Harkness's solution](https://github.com/robo2323/odin_004_sketch_pad) | [View in Browser (codepen.io)](http://codepen.io/robo2323/full/VeOQwO/)
 * [Huw Diprose's solution](https://github.com/huwd/TheOdinProject-WebDevelopment101/tree/master/etch-a-sketch) | [View in Browser (codepen.io)](http://codepen.io/huwd/pen/LGKBZV) 
 * [John Gerakaris's solution](https://github.com/gerak1925/Etch-A-Sketch) | [View in Browser](https://htmlpreview.github.io/?https://github.com/gerak1925/Etch-A-Sketch/blob/master/index.html)
-* [Johnn Rasnic's solution](https://github.com/lonniganseaweed/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/lonniganseaweed/etch-a-sketch/blob/master/index.html)
+* [Johnny Rasnic's solution](https://github.com/lonniganseaweed/the-odin-project-solutions/tree/master/2:%20Web%20Development%20101/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/lonniganseaweed/the-odin-project-solutions/blob/master/2:%20Web%20Development%20101/etch-a-sketch/index.html)
 * [gbhmt's solution](https://github.com/gbhmt/etchasketch-v2.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/gbhmt/etchasketch-v2/blob/master/index.html)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/sketch-pad) | [View in browser](https://rawgit.com/fcarrara/sketch-pad/master/index.html)
 * [James Harder's solution](https://github.com/james-harder/jSketch.git)
