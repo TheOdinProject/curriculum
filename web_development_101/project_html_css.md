@@ -618,6 +618,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Dirigista's Solution](https://github.com/Dirigista/google_homepage.git)
 * [Matt Dillon's Easy Solution] (https://github.com/CrappyDill/google-homepage.git) | [View in Browser] (https://rawgit.com/CrappyDill/google-homepage/master/index.html)
 * [Laura Prado's Easy Solution] (https://github.com/arbolitoloco/google-homepage.git) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/arbolitoloco/google-homepage/blob/master/index.html)
+* [Sherman Sutton's Easy Solution](https://github.com/Sherm83/google-homepage/blob/master/index.html) | [View in Browser](https://htmlpreview.github.io/?https://github.com/sherm83/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
