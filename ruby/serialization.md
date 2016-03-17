@@ -37,3 +37,4 @@ Finally, files and serialization overlaps in a lot of ways with the idea and pur
 
 
 * [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
+* [Thoughtbot's I/O in Ruby](https://robots.thoughtbot.com/io-in-ruby) is a good alternative if you find the Ruby Monk lesson (on point 1 above) not helpful.
