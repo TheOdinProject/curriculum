@@ -38,6 +38,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Patrick Mallee's solution](https://github.com/patmallee/mintForm) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/mintForm/blob/master/index.html)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/mint-signup) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/mint-signup/index.html)
 * [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
+* [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/mint) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/mint/index.html)
 * Add your solution above this line!
 
 
