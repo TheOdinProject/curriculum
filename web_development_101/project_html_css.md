@@ -621,6 +621,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Sherman Sutton's Easy Solution](https://github.com/Sherm83/google-homepage/blob/master/index.html) | [View in Browser](https://htmlpreview.github.io/?https://github.com/sherm83/google-homepage/blob/master/index.html)
 * [Murray Berkowitz's Easy Solution](https://github.com/murray-berkowitz/google-homepage/blob/master/index.html) | [View in Browser](https://htmlpreview.github.io/?https://github.com/murray-berkowitz/google-homepage/blob/master/index.html)
 * [Deepak's Easy Solution](https://github.com/Deepak5050/Google-HomePage-2.git) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/Google-HomePage-2/blob/master/index.html)
+* [Paulo E. Aquino's Easy Solution](https://github.com/ennjoi/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ennjoi/google-homepage/blob/master/version2/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
