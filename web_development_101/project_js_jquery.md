@@ -373,4 +373,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ryan Clarkes solution](https://github.com/rdmclarke/JSandJQuerySketchPad.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/rdmclarke/JSandJQuerySketchPad/blob/master/jqIndex.html)
 * [Mada's Solution] (https://github.com/Mada-Craiz/Etch-a-Sketchpad) | [View in browser] (http://htmlpreview.github.io/?https://github.com/Mada-Craiz/Etch-a-Sketchpad/blob/master/Index.html)
 * [A3P's Solution] (https://github.com/A3P/EtchASketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/A3P/EtchASketch/blob/master/main.html)
+* * [Dckwong's solution](https://github.com/dckwong/sketch-pad)| [View in browser](https://htmlpreview.github.io/?https://github.com/dckwong/sketch-pad/blob/master/index.html)
 * Add your solution above this line!
