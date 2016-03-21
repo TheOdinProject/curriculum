@@ -358,7 +358,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Robert Harkness's solution](https://github.com/robo2323/odin_004_sketch_pad) | [View in Browser (codepen.io)](http://codepen.io/robo2323/full/VeOQwO/)
 * [Huw Diprose's solution](https://github.com/huwd/TheOdinProject-WebDevelopment101/tree/master/etch-a-sketch) | [View in Browser (codepen.io)](http://codepen.io/huwd/pen/LGKBZV) 
 * [John Gerakaris's solution](https://github.com/gerak1925/Etch-A-Sketch) | [View in Browser](https://htmlpreview.github.io/?https://github.com/gerak1925/Etch-A-Sketch/blob/master/index.html)
-* [Johnn Rasnic's solution](https://github.com/lonniganseaweed/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/lonniganseaweed/etch-a-sketch/blob/master/index.html)
+* [Johnny Rasnic's solution](https://github.com/lonniganseaweed/the-odin-project-solutions/tree/master/2:%20Web%20Development%20101/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/lonniganseaweed/the-odin-project-solutions/blob/master/2:%20Web%20Development%20101/etch-a-sketch/index.html)
 * [gbhmt's solution](https://github.com/gbhmt/etchasketch-v2.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/gbhmt/etchasketch-v2/blob/master/index.html)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/sketch-pad) | [View in browser](https://rawgit.com/fcarrara/sketch-pad/master/index.html)
 * [James Harder's solution](https://github.com/james-harder/jSketch.git)
@@ -369,4 +369,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [wSlitz's solution](https://github.com/wSlitz/jquery-project) | [View in browser] (http://htmlpreview.github.io/?https://github.com/wSlitz/jquery-project/blob/master/index.html)
 * [phjoker's solution](https://github.com/phjoker/jQuery_Etch-a-Sketch.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/phjoker/jQuery_Etch-a-Sketch/blob/master/index.html)
 * [Giorgos poly solution](https://github.com/gpoly/SketchPad.git) | [View in browser](http://gpoly.github.io/SketchPad/) 
+* [At0micr3d's solution](https://github.com/at0micr3d/project_javascript_jquery.git)| [View in browser](http://htmlpreview.github.io/?https://github.com/at0micr3d/project_javascript_jquery/blob/master/index.html)
+* [Ryan Clarkes solution](https://github.com/rdmclarke/JSandJQuerySketchPad.git) | [View in browser] ((http://htmlpreview.github.io/?https://github.com/rdmclarke/JSandJQuerySketchPad/blob/master/jqindex.html)
+* [Mada's Solution] (https://github.com/Mada-Craiz/Etch-a-Sketchpad) | [View in browser] (http://htmlpreview.github.io/?https://github.com/Mada-Craiz/Etch-a-Sketchpad/blob/master/Index.html)
 * Add your solution above this line!

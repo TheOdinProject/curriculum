@@ -49,6 +49,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Noman Karim's solution](https://github.com/nomankarim/youtube-play-preview) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/youtube-play-preview/blob/master/index.html)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/youtube/index.html)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/youtube/youtube.html)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/html-css/embedding-images-and-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/embedding-images-and-video/faketube.html)
 * Add your solution above this line!
 
 
