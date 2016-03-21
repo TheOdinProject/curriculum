@@ -370,6 +370,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [phjoker's solution](https://github.com/phjoker/jQuery_Etch-a-Sketch.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/phjoker/jQuery_Etch-a-Sketch/blob/master/index.html)
 * [Giorgos poly solution](https://github.com/gpoly/SketchPad.git) | [View in browser](http://gpoly.github.io/SketchPad/) 
 * [At0micr3d's solution](https://github.com/at0micr3d/project_javascript_jquery.git)| [View in browser](http://htmlpreview.github.io/?https://github.com/at0micr3d/project_javascript_jquery/blob/master/index.html)
-* [Ryan Clarkes solution](https://github.com/rdmclarke/JSandJQuerySketchPad.git) | [View in browser] ((http://htmlpreview.github.io/?https://github.com/rdmclarke/JSandJQuerySketchPad/blob/master/jqindex.html)
+* [Ryan Clarkes solution](https://github.com/rdmclarke/JSandJQuerySketchPad.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/rdmclarke/JSandJQuerySketchPad/blob/master/jqIndex.html)
 * [Mada's Solution] (https://github.com/Mada-Craiz/Etch-a-Sketchpad) | [View in browser] (http://htmlpreview.github.io/?https://github.com/Mada-Craiz/Etch-a-Sketchpad/blob/master/Index.html)
+* [A3P's Solution] (https://github.com/A3P/EtchASketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/A3P/EtchASketch/blob/master/main.html)
 * Add your solution above this line!
