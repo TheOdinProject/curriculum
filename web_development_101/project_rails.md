@@ -141,6 +141,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Peter Taggart's solution](https://github.com/gitschwifty/blogger)|[View in browser](https://immense-chamber-91760.herokuapp.com/)
 * [Tony Vumbaca's solution](https://github.com/tvumbaca/Blogger)|[View in browser](https://aqueous-basin-98343.herokuapp.com)
 * [Johnny Rasnic's solution](https://github.com/lonniganseaweed/the-odin-project-solutions/tree/master/2:%20Web%20Development%20101/rails-blog/blogger) | [View in browser](https://sleepy-retreat-39842.herokuapp.com/)
+* [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/rails_project)
 * Add your solution above this line!
 
 
