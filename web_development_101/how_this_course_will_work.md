@@ -10,7 +10,7 @@ We will start by familiarizing you with the internet and your own computer.  You
 
 By the end of this unit, you should not only understand how the web works, but be able to identify and differentiate each of the technologies that you will be learning in order to build web applications of your own.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
 
-We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  
+We will cover a very broad area of knowledge here and that's intentional. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  
 
 ## How it Works
 
