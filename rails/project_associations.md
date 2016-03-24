@@ -100,6 +100,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/private-events)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/private-events)
 * [James Brooks's solution](https://github.com/jhbrooks/private-events) | [View in browser](https://polar-caverns-15299.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/private-events)
 * Add your solution above this line!
 
 
