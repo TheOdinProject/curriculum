@@ -375,4 +375,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [A3P's Solution] (https://github.com/A3P/EtchASketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/A3P/EtchASketch/blob/master/main.html)
 * * [Dckwong's solution](https://github.com/dckwong/sketch-pad)| [View in browser](https://htmlpreview.github.io/?https://github.com/dckwong/sketch-pad/blob/master/index.html)
 * [Paul Macias' solution](https://github.com/Defgarden/jquery-grid) | [View in browser](https://htmlpreview.github.io/?https://github.com/Defgarden/jquery-grid/blob/master/index.html)
+* [Deepak's solution](https://github.com/Deepak5050/jquery_project.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/jquery_project/blob/master/index.html)
 * Add your solution above this line!
