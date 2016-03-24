@@ -623,6 +623,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Deepak's Easy Solution](https://github.com/Deepak5050/Google-HomePage-2.git) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/Google-HomePage-2/blob/master/index.html)
 * [Paulo E. Aquino's Easy Solution](https://github.com/ennjoi/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ennjoi/google-homepage/blob/master/version2/index.html)
 * [Bruno Nascimento's Easy Solution](https://github.com/nscmnto/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/nscmnto/google-homepage/blob/master/index.html)
+* [Odeson's Easy Solution] (https://github.com/odesonex/google-homepage/blob/master/index.html) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/odesonex/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
