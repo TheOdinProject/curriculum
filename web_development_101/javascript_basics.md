@@ -297,6 +297,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Spoon And Birdcage's Solution](https://github.com/SpoonAndBirdcage/project-euler)
 * [Paulo E. Aquino's Solutions] (https://github.com/ennjoi/projecteuler)
 * [Deepak's Solutions](https://github.com/Deepak5050/Javascript101/blob/master/script.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/Javascript101/blob/master/index.html)
+* [Tyler K. Solutions](https://github.com/sekurratay/Euler)
 * Add your solution above this line!
 
 ## Additional Resources
