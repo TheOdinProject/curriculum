@@ -363,7 +363,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Fabricio Carrara's solution](https://github.com/fcarrara/sketch-pad) | [View in browser](https://rawgit.com/fcarrara/sketch-pad/master/index.html)
 * [James Harder's solution](https://github.com/james-harder/jSketch.git)
 * [Singh Satnam's solution](https://github.com/rssatnam/javascript-sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/rssatnam/javascript-sketchpad/blob/master/index.html)
-* [Filip Zelenika's solution] | [View in browser](http://htmlpreview.github.io/?https://github.com/NaughtySloth/sketch/blob/master/index.html)
+* [Filip Zelenika's solution](https://github.com/NaughtySloth/sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/NaughtySloth/sketch/blob/master/index.html)
 * [Krzysztof's solution](https://github.com/itmightgetloud/sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/itmightgetloud/sketch/blob/master/index.html)
 * [Josh Cummings' solution](https://github.com/obiwan7713/Etch-A-Sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/obiwan7713/Etch-A-Sketch/blob/master/sketch.html)
 * [wSlitz's solution](https://github.com/wSlitz/jquery-project) | [View in browser] (http://htmlpreview.github.io/?https://github.com/wSlitz/jquery-project/blob/master/index.html)
