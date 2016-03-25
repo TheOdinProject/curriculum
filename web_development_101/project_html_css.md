@@ -624,6 +624,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Paulo E. Aquino's Easy Solution](https://github.com/ennjoi/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ennjoi/google-homepage/blob/master/version2/index.html)
 * [Bruno Nascimento's Easy Solution](https://github.com/nscmnto/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/nscmnto/google-homepage/blob/master/index.html)
 * [Odeson's Easy Solution] (https://github.com/odesonex/google-homepage/blob/master/index.html) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/odesonex/google-homepage/blob/master/index.html)
+* [Alexander Amirov's solution](https://github.com/xrocketmanx/google-homepage) | [View in browser(easy)](http://htmlpreview.github.io/?https://github.com/xrocketmanx/google-homepage/blob/master/index.html) | [View in browser(difficult)](http://htmlpreview.github.io/?https://github.com/xrocketmanx/google-homepage/blob/master/search-page.html)
 * Add your solution above this line!
 
 ## Additional Resources
