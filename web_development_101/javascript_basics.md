@@ -32,6 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
+* [Alexander Amirov's solution](https://github.com/xrocketmanx/javascript-practise) | [View in browser](http://htmlpreview.github.io/?https://github.com/xrocketmanx/javascript-practise/blob/master/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
 * [mattphoto's solution](https://github.com/mattphoto/ProjectEuler)
 * [Neil Gehani's solution](https://github.com/ngehani/htmlcss/tree/master/js)
