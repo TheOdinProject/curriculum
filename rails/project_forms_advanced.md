@@ -93,6 +93,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/odin-flight-booker)
 * [srashidi's solution](https://github.com/srashidi/Advanced_Forms/tree/master/odin-flight-booker)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/flight-booker) | [View in Browser](https://radiant-fortress-17197.herokuapp.com/)
+* [James Brooks's solution](https://github.com/jhbrooks/flight-booker) | [View in browser](https://rocky-earth-72202.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources
