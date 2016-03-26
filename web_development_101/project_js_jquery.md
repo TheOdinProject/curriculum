@@ -378,4 +378,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Deepak's solution](https://github.com/Deepak5050/jquery_project.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/jquery_project/blob/master/index.html)
 * [belalik's solution](https://github.com/belalik/sketchpad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/belalik/sketchpad/blob/master/index.html)
 * * [Tyler K's solution](https://github.com/sekurratay/Odin-Projects/tree/master/etchasketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/sekurratay/Odin-Projects/blob/master/etchasketch/index.html)
+* [Zberggren's solution](https://github.com/zberggren/sketchpad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/zberggren/sketchpad/blob/master/sketchpad.html)
 * Add your solution above this line!
