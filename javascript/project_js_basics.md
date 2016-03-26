@@ -67,6 +67,7 @@ It's time to build an on-screen calculator
 * [Priyanka Saigal's solution](https://github.com/psaigal/JavaScript-Calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/psaigal/JavaScript-Calculator/blob/master/calculator.html)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/calculator/calc/index.html)
 * [Trajanson's Solution](https://github.com/Trajanson/scientific-calculator-js) | [View in browser](http://projects.trajanson.com/js-calculator/)
+* [Yoshua Elmaryono's Solution](https://github.com/dotm/calc) | [View in browser](http://dotm.github.io/calc/)
 * Add your solution above this line!
 
 
