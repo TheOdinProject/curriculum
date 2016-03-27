@@ -143,6 +143,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Johnny Rasnic's solution](https://github.com/lonniganseaweed/the-odin-project-solutions/tree/master/2:%20Web%20Development%20101/rails-blog/blogger) | [View in browser](https://sleepy-retreat-39842.herokuapp.com/)
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/rails_project)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/blogger)|[View in browser](https://fcarrara-blogger.herokuapp.com) Completed to I6 section.
+* [Tomas Rojo's solution](https://github.com/tomasn4a/jumpstart/tree/master/blogger)|[View in browser](https://floating-lowlands-72552.herokuapp.com)
 * Add your solution above this line!
 
 
