@@ -25,13 +25,21 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Vincent's solution](https://github.com/wingyu/mint_form_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/mint_form_replica/blob/master/index.html)
 * [AlvSovereign's solution](https://github.com/AlvSovereign/My-Web-Projects/tree/master/The%20Odin%20Project/Mint.com%20form) | [View in browser](http://htmlpreview.github.io/?https://github.com/AlvSovereign/My-Web-Projects/blob/master/The%20Odin%20Project/Mint.com%20form/index.html)
 * [chasmani's solution](https://github.com/chasmani/front-end-dojo/tree/master/website-clones/mint.com-signup-form) | [View in browser](http://htmlpreview.github.io/?https://github.com/chasmani/front-end-dojo/blob/master/website-clones/mint.com-signup-form/index.html)
-* [Ryan Jordan's solution](https://github.com/krjordan/HTML-forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/HTML-forms/blob/master/index.html)
+* [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/HTML-forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/HTML-forms/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectMINT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectMINT/blob/master/index2.html)
 * [Hailey's solution](https://github.com/hmfoster/mint_sign_up.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/hmfoster/mint_sign_up/blob/master/index.html)
 * [AyeSea's solution](https://github.com/AyeSea/mint-signup) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/mint-signup/blob/master/index.html)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/mint) | [View in browser](https://htmlpreview.github.io/?https://github.com/dstodolny/mint/blob/master/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_html_forms) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_html_forms/blob/master/main.html)
 * [Eleanor's solution (with Flexbox)](https://github.com/mixophrygian/mintForm) | [View in browser](https://htmlpreview.github.io/?https://github.com/mixophrygian/mintForm/blob/master/index.html)
+* [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/HTML%20Forms%20practice%20(Mint%20clone)) | [View in browser](https://htmlpreview.github.io/?https://github.com/JJMcConnell/TheOdinProject/blob/master/HTML%20Forms%20practice%20(Mint%20clone)/Mmmmmity.html)
+* [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/HTML-Forms) | [View in browser](http://dusanmilosavljevic1624.github.io/HTML-Forms/)
+* [Noman Karim's solution](https://github.com/nomankarim/Mintsignupform) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/Mintsignupform/blob/master/index.html)
+* [Patrick Mallee's solution](https://github.com/patmallee/mintForm) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/mintForm/blob/master/index.html)
+* [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/mint-signup) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/mint-signup/index.html)
+* [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
+* [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/mint) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/mint/index.html)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/html-css/html-forms) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/html-forms/signup.html)
 * Add your solution above this line!
 
 

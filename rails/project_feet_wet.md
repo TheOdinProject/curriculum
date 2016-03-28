@@ -13,7 +13,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 
 1. If you haven't already, do the [Installations project](http://www.theodinproject.com/web-development-101/installations).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** and **Ruby 2** working properly.  The section says:
 
-    Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating and deploying a sample Rails app](http://docs.railsbridge.org/intro-to-rails/deploying_to_heroku).
+    Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating a sample Rails app](http://installfest.railsbridge.org/installfest/create_a_rails_app) and then [deploying it](http://installfest.railsbridge.org/installfest/deploy_a_rails_app). 
 
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
 3. If you hadn't done either of these, you should go back to the [Web Development 101](/web-development-101) course and at least do the [Web Development Frameworks section](/web-development-101/#section-web-development-frameworks).
@@ -57,17 +57,29 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/RubyOnRails/toy_app)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/rails_tutorial_chapter_2)
 * [AtActionPark's solution](https://github.com/AtActionPark/toy_app) | [Heroku](https://fathomless-everglades-4313.herokuapp.com/)
-* [Matias Pan's solution](https://github.com/kriox26/odin_toy_app) | [Heroku](https://mighty-mesa-4527.herokuapp.com/)
+* [Matias Pan's solution](https://github.com/kriox26/odin_toy_app)
 * [Alex Chen's solution](https://github.com/Chenzilla/toy_app)
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Rails/toy_app)
 * [Dan Hoying's solution](https://github.com/danhoying/toy_app)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/RailsTutorialCh2/toy_app)
 * [andrewdbass' solution] (https://github.com/andrewdbass/toy_app)
+* [Noah Prescott's solution](https://github.com/npresco/rails_tutorial/tree/master/toy_app)
+* [Giorgos's solution](https://github.com/vinPopulaire/toy_app)
+* [Alex Tsiras' solution](https://github.com/arialblack14/toy_app)
+* [Sandeep's solution](https://github.com/sand33pn/toy_app)
+* [srashidi's solution](https://github.com/srashidi/Rails_Tutorial)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/toy)
+* [James Brooks's solution](https://github.com/jhbrooks/toy_app)
+* [Arthur Vieira's solution](https://github.com/arthur-vieira/toy_app)
+* [Matt Velez's solution](https://github.com/Timecrash/toy_app) | [Heroku](https://pacific-shore-90734.herokuapp.com/)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/toy_app)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/toy-app) | [Heroku](https://odin-toy-app.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/toy_app)
+* [Max Gallant's solution](https://github.com/mcgalcode/toy_app) | [Heroku](https://still-sea-98097.herokuapp.com//)
+* [Artur Okonski's solution](https://github.com/cloudtemplar/hello_app) | [Heroku](https://infinite-everglades-78397.herokuapp.com/)
 * Add your solution above this line!
 
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* [How to Design a Rails App from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/design-rails-app)

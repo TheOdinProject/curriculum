@@ -11,7 +11,7 @@ We'll cover this in much more depth in the [course on Getting Hired](/getting-hi
 
 Once you've honed your skills and found the right job posting, you'll be invited for one or more interviews.  Developer interviews are typically a combination of testing your ability to think technically (with thought questions, brain teasers, coding exercises) and an examination of the work you've done previously.  They are usually looking for people with a demonstrated ability to pick things up quickly, complete projects, and work well with others.
 
-Take a look at [this comprehensive blog post from Happy Bear Software](http://happybearsoftware.com/how-to-get-a-programmer-job.html) on the journey to getting hired.  You don't need to get too caught up in the details just yet -- use it as an introduction to what you'll be doing after you've got your "sea legs" and motivation to pay attention along the way.
+Take a look at [this comprehensive blog post from Happy Bear Software](https://www.happybearsoftware.com/how-to-get-a-programmer-job) on the journey to getting hired.  You don't need to get too caught up in the details just yet -- use it as an introduction to what you'll be doing after you've got your "sea legs" and motivation to pay attention along the way.
 
 ## Additional Resources
 

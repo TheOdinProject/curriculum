@@ -3,7 +3,7 @@
 
 We mentioned Git briefly in the previous course [Introduction to Web Development](/introduction-to-web-development/tools-of-the-trade) and you've had a chance to use it during the [Rails project](/web-development-101/ruby-on-rails) but now it's time to actually dig in a bit more and understand what Git really is.
 
-To get a good high-level overview of Git plus a series of how-to commands and explanations, check out [Getting to Know Git](http://www.vikingcodeschool.com/web-development-basics/getting-to-know-git).  Then 
+To get a good high-level overview of Git plus a series of how-to commands and explanations, check out [Getting to Know Git](http://www.vikingcodeschool.com/web-development-basics/getting-to-know-git).
 
 ## Points to Ponder
 

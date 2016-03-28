@@ -90,6 +90,17 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [dchen71's solution](https://github.com/dchen71/private-events) | [View in browser](http://ronchon-moliere-6251.herokuapp.com/)
 * [Matias Pan's solution](https://github.com/kriox26/private-events) | [View in browser](https://polar-refuge-9964.herokuapp.com/)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/private-events)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/private-events)
+* [Radi Totev's solution](https://github.com/raditotev/private-events)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/private-events)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/private-events)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/private-events)
+* [srashidi's solution](https://github.com/srashidi/Active_Record_Associations/tree/master/private-events)
+* [Max Gallant's solution](https://github.com/mcgalcode/private-events) | [View in browser](https://secret-gorge-95812.herokuapp.com/)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/private-events)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/private-events)
+* [James Brooks's solution](https://github.com/jhbrooks/private-events) | [View in browser](https://polar-caverns-15299.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/private-events)
 * Add your solution above this line!
 
 

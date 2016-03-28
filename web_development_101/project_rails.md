@@ -5,7 +5,7 @@ In this project, you'll get the opportunity to actually build a real rails appli
 
 To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient.
 
-Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.  
+Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
@@ -16,7 +16,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 ## Extra Credit:
 
-1. Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.  
+1. Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.
 2. If you aren't comfortable with git, either skip ahead a few lessons to the [introductory section on git](/web-development-101/git-basics) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
 
 ## Student Solutions
@@ -70,7 +70,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [John Lampe's solution](https://github.com/jlampe1985/blogger-project) | [View in browser](https://warm-savannah-2524.herokuapp.com/)
 * [Andrea Kulbaba's solution](https://github.com/akulbaba/blogger)
 * [Matias Pan's solution](https://github.com/kriox26/web_dev101/tree/master/blogger)
-* [Dan Hoying's solution](https://github.com/danhoying/blogger) | [View in browser](https://infinite-hollows-9057.herokuapp.com/) 
+* [Dan Hoying's solution](https://github.com/danhoying/blogger) | [View in browser](https://infinite-hollows-9057.herokuapp.com/)
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-rails-project) | [View in browser](https://aqueous-garden-9909.herokuapp.com/)
 * [Gb69010p's solution](https://github.com/gb69010p/JumpstartBlogger) | [View in browser](https://tranquil-earth-2515.herokuapp.com/)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/5-ruby-on-rails-blogger) | [View in browser](https://lit-beach-4691.herokuapp.com)
@@ -88,21 +88,63 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [dchen71' solution](https://github.com/dchen71/the_odin_project/tree/master/Web%20Development%20101/blogger)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/rails_project) | [View in browser](http://morning-tundra-2552.herokuapp.com/)
 * [Ho Won Cheng's solution](https://github.com/chenghw/ruby_on_rails_101_project) | [View in browser](https://thawing-harbor-8031.herokuapp.com)
-* [Florian Mainguy's solution](https://github.com/florianmainguy/blogger_rails) | [View in browser](https://radiant-tundra-5862.herokuapp.com)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/web-development-101/blogger-rails) | [View in browser](https://radiant-tundra-5862.herokuapp.com/)
 * [Panashe Fundira's solution](https://github.com/munyari/blogger) | [View in browser](https://whispering-brook-5977.herokuapp.com/)
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Blogger)
 * [Noah Prescott's solution](https://github.com/npresco/blogger_rails) | [View in browser](https://infinite-coast-2914.herokuapp.com/)
 * [Paweł Cichoń solution](https://github.com/beovulf/project_rails) | [View in browser](https://glacial-falls-4578.herokuapp.com/)
-* [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/) 
+* [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/)
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/blogger) | [View in browser] (https://floating-refuge-8099.herokuapp.com/)
 * [Spekachu's solution](https://github.com/Spekachu/blogger)
 * [Adrian Manteza's solution](https://github.com/AdManteza/Blogger) | [View in browser] (https://sheltered-island-7330.herokuapp.com)
 * [Corey Cunningham's solution](https://github.com/ccunnin8/my_first_rails_project/tree/master/blogger) | [View in browser] (https://powerful-mesa-6399.herokuapp.com/)
 * [Austin Mason's solution](https://github.com/CouchofTomato/rails_blogger/tree/master/blogger) | [View in browser] (https://sleepy-hollows-6024.herokuapp.com/)
-*[andrewdbass' solution] (https://github.com/andrewdbass/blogger)
-[djhart's solution](https://github.com/djhart/rails_project.git) | [View in browser] (https://enigmatic-eyrie-8114.herokuapp.com/articles)
-[Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
-*Your solution above here...*
+* [andrewdbass' solution](https://github.com/andrewdbass/blogger)
+* [djhart's solution](https://github.com/djhart/rails_project.git) | [View in browser] (https://enigmatic-eyrie-8114.herokuapp.com/articles)
+* [Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
+* [Giorgos Mitsis's solution](https://github.com/vinPopulaire/blogger2-jumpstart) | [View in browser](https://calm-fortress-9525.herokuapp.com/)
+* [Sandeep Navghane's solution](https://github.com/sand33pn/blogger) | [View in browser](http://ancient-thicket-1121.herokuapp.com/)
+* [Michael Sotkin's solution](https://github.com/msotkin/project_rails)
+* [James Brooks's solution](https://github.com/jhbrooks/blogger) | [View in browser](http://cryptic-atoll-7715.herokuapp.com/)
+* [Andrew Park's solution](https://github.com/akpark93/the_odin_project/tree/master/blogger)
+* [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/blogger) | [View in browser](https://boiling-eyrie-1491.herokuapp.com/)
+* [andrewdbass' solution] (https://github.com/andrewdbass/blogger)
+* [djhart's solution](https://github.com/djhart/rails_project.git) | [View in browser] (https://enigmatic-eyrie-8114.herokuapp.com/articles)
+* [Ricardo Villegas' solution (including Extras section)](https://github.com/claricardo/BloggerProject) | [View in browser] (https://arcane-citadel-6518.herokuapp.com/)
+* [Alan Daniels's solution](https://github.com/AlanDaniels101/odin-rails-project/tree/master/blogger)
+* [Corey Kazaks' solution](https://github.com/ck626/project-rails-blogger) | [View in browser](https://limitless-stream-4802.herokuapp.com/)
+* [Skye Free's solution](https://github.com/swfree/blogger) | [View in browser](https://frightful-tomb-1917.herokuapp.com/articles)
+* [Mateusz Staszczyk’s solution](https://github.com/sleaz0id/blogger)
+* [Dominik Chomicki's solution](https://github.com/hamstersky/blogger) | [View in browser](https://arcane-chamber-8578.herokuapp.com/)
+* [Cecilia Avery solution](https://github.com/cilavery/rails-blog) | [View in Browser](http://cecilia.avery.nyc)
+* [Luke Walker's solution](https://github.com/ubershibs/rails-blogger) | [View in browser](https://luke-blogger2.herokuapp.com)
+* [Novneet's Solution](https://github.com/novneetnov/Rails_Blog)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/blogger)
+* [Matt Velez's solution](https://github.com/Timecrash/jumpstart-blogger) | [View in Browser](https://vast-thicket-8006.herokuapp.com/)
+* [Kelvin Stone's solution](https://github.com/KelvinStone/blogger) | [View in browser](https://evening-badlands-2352.herokuapp.com/)
+* [Andrew Johnson's solution](https://github.com/ad-johnson/blogger) | [View in browser]
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/blogger.git)
+* [Jack Wilde's solution](https://github.com/WildeRunner/jumpstart_blogger) | [view in browser](mysterious-tundra-7601.herokuapp.com)
+* [YogAzathoth's solution](https://github.com/YogAzathoth/projectRails) | [View in browser](https://cryptic-shelf-1716.herokuapp.com/ )
+* [Kelly Downes' solution](https://github.com/kdow/blogger) | [View in browser](https://enigmatic-tor-3115.herokuapp.com/)
+* [Andrew Wilson's solution](https://github.com/polygoning/blogger.git)
+* [Jack Deegan's solution](https://github.com/DidsyTurbo/blogger) | [View in browser](https://enigmatic-ocean-9959.herokuapp.com/)
+* [Earth35's solution] (https://github.com/Earth35/rails-project) | [View in browser] (https://mysterious-hollows-4200.herokuapp.com)
+* [Zac Conner's solution] (https://github.com/connerza/Blogger) | [View in browser] (https://powerful-sands-3963.herokuapp.com)
+* [DV's solution] (https://github.com/dvislearning/rails_blogger) | [View in browser] (https://protected-badlands-52632.herokuapp.com)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/rails_jumpstart_lab) | [View in browser](https://enigmatic-fjord-41312.herokuapp.com/)
+* [Jess Farley's solution](https://github.com/littlemighty/odin_project_rails101) | [View in browser](https://protected-journey-27570.herokuapp.com/)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/blogger) | [View in browser](http://odin-blogger.herokuapp.com/)
+* [parhaml's solution] (https://github.com/parhaml/rails_project) | [View in browser] (https://salty-sierra-81130.herokuapp.com)
+* [Joshua Berry's solution](https://github.com/jbez92/ruby_on_rails)|[View in browser](http://cryptic-cliffs-31734.herokuapp.com/)
+* [Javeed Ishaq's solution](https://github.com/JaveedIshaq/rails_blog_app)|[View in browser](https://blooming-eyrie-31902.herokuapp.com/)
+* [Peter Taggart's solution](https://github.com/gitschwifty/blogger)|[View in browser](https://immense-chamber-91760.herokuapp.com/)
+* [Tony Vumbaca's solution](https://github.com/tvumbaca/Blogger)|[View in browser](https://aqueous-basin-98343.herokuapp.com)
+* [Johnny Rasnic's solution](https://github.com/lonniganseaweed/the-odin-project-solutions/tree/master/2:%20Web%20Development%20101/rails-blog/blogger) | [View in browser](https://sleepy-retreat-39842.herokuapp.com/)
+* [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/rails_project)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/blogger)|[View in browser](https://fcarrara-blogger.herokuapp.com) Completed to I6 section.
+* [Tomas Rojo's solution](https://github.com/tomasn4a/jumpstart/tree/master/blogger)|[View in browser](https://floating-lowlands-72552.herokuapp.com)
+* Add your solution above this line!
 
 
 ## Additional Resources

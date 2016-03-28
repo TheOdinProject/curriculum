@@ -48,7 +48,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
         > user.authenticate("somethingelse")
         => false
         > user.authenticate("foobar")
-        => true
+        => #<User id: 1, name: "foobar", email: "foo@bar.com", password_digest: "$2a$10$9Lx...", created_at: "2016...", updated_at: "2016...">
     ```
 
 #### Sessions and Sign In
@@ -115,7 +115,19 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [dchen71's solution](https://github.com/dchen71/members-only)
 * [Matias Pan's solution](https://github.com/kriox26/members-only) | [View in browser](https://stark-dawn-4299.herokuapp.com/)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/members-only)
-
+* [Dan Hoying's solution](https://github.com/danhoying/members_only)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/members-only)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/members-only) | [View in browser](https://guarded-brook-9440.herokuapp.com/)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/members-only) | [View in browser](https://sleepy-citadel-6281.herokuapp.com/)
+* [Radi Totev's solution](https://github.com/raditotev/members-only)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/members-only)
+* [srashidi's solution](https://github.com/srashidi/Authentication/tree/master/members-only)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/members-only)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/members_only)
+* [Max Gallant's solution](https://github.com/mcgalcode/members-only) | [View in browser](https://grapefruitonly.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/members-only)
+* [James Brooks's solution](https://github.com/jhbrooks/members-only) | [View in browser](https://powerful-bastion-24693.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/members-only)
 * Add your solution above this line!
 
 

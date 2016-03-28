@@ -11,10 +11,6 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 
 1. Go to [SQL Zoo](http://sqlzoo.net/wiki/Main_Page) and do all 10 tutorials listed under the "Tutorial Section" and the quizzes listed at the end of each.  The first is the ["Select" tutorial](http://sqlzoo.net/wiki/SELECT_basics).  Make sure the dropdown on the left of the main page for "Engine" says "MySQL" (the default).  Large results will be cut off and not all rows or columns shown, so the "answers" may not look 100% correct.
 
-### Extra Credit
-
-1. Check out [SQL PQL](http://sql-pql.com), a newer version of SQL zoo that isn't quite as filled out (yet) but should help you hammer home the concepts.  Please let us know if this is more helpful/effective!
-
 ### Student Solutions
 
 *If you've been keeping track of the SQL Zoo solutions, put them here! Some that we found online are provided in the "Additional Resources" section below but are incomplete.  Submit a link to your solutions below by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.*
@@ -28,6 +24,10 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Rails/SQLZOO)
 * [Alex Chen's solution](https://github.com/Chenzilla/SQL_Zoo)
 * [Dan Hoying's solution](https://github.com/danhoying/sql_and_databases)
+* [Radi Totev's solution](https://github.com/raditotev/sqlzoo-solutions)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/sql_zoo)
+* [Max Gallant's solution](https://github.com/mcgalcode/SQLZoo)
+* [James Brooks's solution](https://github.com/jhbrooks/sql-zoo)
 * Add your solution above this line!
 
 

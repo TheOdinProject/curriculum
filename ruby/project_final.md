@@ -39,6 +39,16 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_chess)
 * [Dan Hoying's solution](https://github.com/danhoying/chess)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/Szachy)
+* [Sander Schepen's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project16--final-chess)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/chess)
+* [srashidi's solution](https://github.com/srashidi/Ruby_Final_Project/tree/master/chess)
+* [bskillings's solution](https://github.com/bskillings/Odin-Ruby-Final-Chess)
+* [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/chess)
+* [Tomasz Kula's solution](https://github.com/zetsnotdead/chess_ruby)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/chess)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/chess)
+* [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/Chess)
+* [noobling's solution] (https://github.com/TopOneOfTopOne/CLI_chess)
 * Add your solution above this line!
 
 

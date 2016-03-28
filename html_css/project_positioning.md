@@ -24,12 +24,17 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Shouvik Roy's solution](https://github.com/royshouvik/newyorktimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/newyorktimes/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/NewYorkTimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/NewYorkTimes/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectNYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectNYT/blob/master/index2.html)
-* [Ryan Jordan's solution](https://github.com/krjordan/nyt-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/nyt-project/blob/master/index.html)
+* [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/nyt-project) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/nyt-project/index.html)
 * [Frank Peelen's solution](https://github.com/FrankPeelen/New-York-Times-CSS) | [View in browser](https://rawgit.com/FrankPeelen/New-York-Times-CSS/master/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
 * [AyeSea's solution](https://github.com/AyeSea/nytimes-css) | [View in browser](https://htmlpreview.github.io/?https://github.com/AyeSea/nytimes-css/blob/master/index.html)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/nyt-article) | [View in browser](https://htmlpreview.github.io/?https://github.com/dstodolny/nyt-article/blob/master/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_positioning_and_floating_elements) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_positioning_and_floating_elements/blob/master/main.html)
 * [Voreny's Solution](https://github.com/Gelio/nyt-news-layout) | [View in browser](http://gelio.github.io/nyt-news-layout/)
+* [Dusan Milosavljevic's Solution](https://github.com/dusanmilosavljevic1624/Project-Positioning-Elements-) | [View in browser](http://dusanmilosavljevic1624.github.io/Project-Positioning-Elements-/)
+* [Noman Karim's Solution](https://github.com/nomankarim/newyorktimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/nomankarim/newyorktimes/blob/master/index.html)
+* [Patrick Mallee's Solution](https://github.com/patmallee/nytimes) | [view in browser](http://htmlpreview.github.io/?https://github.com/patmallee/nytimes/blob/master/index.html)
+* [Cameron Kelley's Solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/ny-times) | [view in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/ny-times/index.html)
+* [Luke Walker's Solution](https://github.com/ubershibs/odin-html-css/tree/master/nytimes) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/nytimes/index.html)
 * Add your solution above this line!
 
 

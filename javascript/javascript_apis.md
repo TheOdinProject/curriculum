@@ -13,7 +13,7 @@ To work with an API, you will usually need to register your application with the
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Codecademy's API Track](http://www.codecademy.com/tracks/apis)
+* [Codecademy's API Track](https://www.codecademy.com/apis)
 * [Using Apigee as a back end for your website](http://www.codecademy.com/tracks/apigee)
 * [Embed Google Maps in your site using this jQuery plugin called GoMap](http://www.pittss.lv/jquery/gomap/).  The site has lots of links to example code for implementing different functionality.
 * [Designing Better Javascript APIs from Smashing Magazine](http://coding.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/) is great if you're considering creating your own Javascript APIs and Tools, or if you just want to see life from the perspective of the creators of great tools like jQuery.

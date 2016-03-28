@@ -141,6 +141,19 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/re-former)
 * [Alex Chen's solution](https://github.com/Chenzilla/re-former)
 * [Dan Hoying's solution](https://github.com/danhoying/re_former)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/re-former)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/re-former)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/re-former)
+* [Alex Tsiras' solution](https://github.com/arialblack14/re-former)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/re-former)
+* [Radi Totev's solution](https://github.com/raditotev/re-former)
+* [srashidi's solution](https://github.com/srashidi/Forms/tree/master/re-former)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/re-former)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/re-former)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/re-former)
+* [Max Gallant's solution](https://github.com/mcgalcode/re-former)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/re-former)
+* [James Brooks's solution](https://github.com/jhbrooks/re-former)
 * Add your solution above this line!
 
 
@@ -155,6 +168,3 @@ This chapter will take what you now know about forms and make it part of a real 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-
-*

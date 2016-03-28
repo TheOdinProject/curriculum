@@ -29,12 +29,15 @@ Reading the following articles is required.  After that, it's up to you to choos
 * [Backbone.js on Ruby on Rails screencasts and example apps](http://www.backbonerails.com/)
 * [Backbone.js Tips and Patterns from Smashing Magazine](http://coding.smashingmagazine.com/2013/08/09/backbone-js-tips-patterns/)
 * [Backbone.js tutorials](http://backbonetutorials.com/)
+* [Backbone.js and Ruby on Rails, Ruby on Rails screencasts, part 1](https://www.youtube.com/watch?v=lRuBxG7rTX4&list=PL4XBVtvKZKqcoTXHdOCXdiQmh7ke94Hzm&index=20)
+* [Backbone.js and Ruby on Rails, Ruby on Rails screencasts, part 2](https://www.youtube.com/watch?v=98oUGEz_y4g&list=PL4XBVtvKZKqcoTXHdOCXdiQmh7ke94Hzm&index=21)
 * [Building a Wine Cellar with Backbone.js](http://coenraets.org/blog/2011/12/backbone-js-wine-cellar-tutorial-part-1-getting-started/)
 
 ### Angular.js Resources
 
 * [Angular Learning Checklist](http://www.thinkster.io/pick/GtaQ0oMGIl/a-better-way-to-learn-angularjs)
 * [Angular.js video training resources](http://www.egghead.io)
+* [Angular.js and Ruby on Rails, Ruby on Rails screencasts](https://www.youtube.com/watch?v=R96rw9vEtiQ)
 
 ### Ember.js Resources
 

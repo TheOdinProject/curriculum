@@ -17,7 +17,9 @@ To help you out, come back and refer to this lesson again when you're in trouble
 
 ## A Git Workflow For Open Source Contribution
 
-Let's say you want to contribute to this website.  How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
+Let's say you want to contribute to the web application that powers this website(check it out [here](https://github.com/TheOdinProject/theodinproject)). _**NOTE**: this is not the curriculum repo that you have been submitting your project solutions too, this is the main Odin website that pulls the files from the curriculum in._
+
+How do you do that?  This is a production-ready workflow that is actually used by contributors to this website.  We'll assume here that you do not have write access to the original repository.
 
 The key players in this story will be the `upstream` (the original Github repository), the `origin` (your fork of that repo), and the "local" repository (your local clone of `origin`).  Think of it as a happy triangle... except that "local" can only pull from `upstream`, not push.
 
@@ -66,6 +68,7 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 
 1. Read [Version Control Best Practices](http://www.git-tower.com/learn/ebook/command-line/appendix/best-practices#start) from Tower.
 1. Skim Seth Robertson's [Git Best Practices](http://sethrobertson.github.io/GitBestPractices/).  Don't worry too much about the commands you haven't seen yet... just work on the high level concepts.
+1. Read through this great resource to get a solid understanding of [how git works](http://think-like-a-git.net/)
 
 ## Additional Resources
 
@@ -73,7 +76,7 @@ We've got two main branches -- `master` and `dev`.  `master` is just for product
 
 * [Git Branching and Tagging Best Practices on SO](http://programmers.stackexchange.com/questions/165725/git-branching-and-tagging-best-practices)
 * [Git Best Practices Workflow Guidelines](http://www.lullabot.com/blog/article/git-best-practices-workflow-guidelines)
-* Github's [official training site](http://teach.github.com/)
+* Github's [official training site](https://training.github.com/)
 * [Understand Git Conceptually](http://www.sbf5.com/~cduan/technical/git/)
 * Learn about [Git Branching from Peter Cottle](http://pcottle.github.io/learnGitBranching/) using his interactive branching tutorial.
 * Need more still?  See [this meta-list of git tutorials for beginners](http://sixrevisions.com/resources/git-tutorials-beginners/).
