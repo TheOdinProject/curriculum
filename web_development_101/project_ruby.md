@@ -157,6 +157,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Oscar Yih's solution](https://github.com/mysteryihs/Ruby-TDD)
 * [Krzysztof's solution](https://github.com/itmightgetloud/learn_ruby)
 * [James harder's solution](https://github.com/james-harder/learn_ruby.git)
+* [Cornelius Edward's solution](https://github.com/corneal64/learn_ruby)
 * Add your solution above this line!
 
 
