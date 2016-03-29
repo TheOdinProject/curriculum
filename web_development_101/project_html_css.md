@@ -627,6 +627,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Alexander Amirov's solution](https://github.com/xrocketmanx/google-homepage) | [View in browser(easy)](http://htmlpreview.github.io/?https://github.com/xrocketmanx/google-homepage/blob/master/index.html) | [View in browser(difficult)](http://htmlpreview.github.io/?https://github.com/xrocketmanx/google-homepage/blob/master/search-page.html)
 * [John Connor's solution](https://github.com/jacgitcz/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jacgitcz/google-homepage/blob/master/mygoogle.html)
 * [Jason Keeney's solution (easy)](https://github.com/jkeeney/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jkeeney/google-homepage/blob/master/index.html)
+* [Sam Hyland's Solution (with links and hover)](https://github.com/hyland2711/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/hyland2711/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
