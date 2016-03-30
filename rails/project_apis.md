@@ -111,6 +111,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [srashidi's solution](https://github.com/srashidi/APIs/tree/master/odin-kittens)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/kitten_api)
 * [James Brooks's solution](https://github.com/jhbrooks/kittens-api)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/odin-kittens)
 * Add your solution above this line!
 
 
