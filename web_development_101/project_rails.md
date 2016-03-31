@@ -144,6 +144,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/rails_project)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/blogger)|[View in browser](https://fcarrara-blogger.herokuapp.com) Completed to I6 section.
 * [Tomas Rojo's solution](https://github.com/tomasn4a/jumpstart/tree/master/blogger)|[View in browser](https://floating-lowlands-72552.herokuapp.com)
+* [Deepak's solution](https://github.com/Deepak5050/project_rails.git)|[View in browser](https://enigmatic-forest-17007.herokuapp.com/)
 * Add your solution above this line!
 
 
