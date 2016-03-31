@@ -147,6 +147,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [srashidi's solution](https://github.com/srashidi/APIs/tree/master/flickr-sidebar)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/flickr_widget) | [View in Browser](https://secure-refuge-22481.herokuapp.com/)
 * [James Brooks's solution](https://github.com/jhbrooks/flickr-get) | [View in browser](https://still-tor-87008.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/odin-photos)
 * Add your solution above this line!
 
 
