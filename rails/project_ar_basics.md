@@ -156,6 +156,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Max Gallant's solution](https://github.com/mcgalcode/micro-reddit)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/micro-reddit)
 * [James Brooks's solution](https://github.com/jhbrooks/micro-reddit)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources
