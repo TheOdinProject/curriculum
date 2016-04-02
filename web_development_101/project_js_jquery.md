@@ -376,8 +376,9 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * * [Dckwong's solution](https://github.com/dckwong/sketch-pad)| [View in browser](https://htmlpreview.github.io/?https://github.com/dckwong/sketch-pad/blob/master/index.html)
 * [Paul Macias' solution](https://github.com/Defgarden/jquery-grid) | [View in browser](https://htmlpreview.github.io/?https://github.com/Defgarden/jquery-grid/blob/master/index.html)
 * [Deepak's solution](https://github.com/Deepak5050/jquery_project.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/jquery_project/blob/master/index.html)
-* [belalik's solution](https://github.com/belalik/sketchpad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/belalik/sketchpad/blob/master/index.html)
-* * [Tyler K's solution](https://github.com/sekurratay/Odin-Projects/tree/master/etchasketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/sekurratay/Odin-Projects/blob/master/etchasketch/index.html)
-* [Zberggren's solution](https://github.com/zberggren/sketchpad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/zberggren/sketchpad/blob/master/sketchpad.html)
-* [Cornelius Edward's Solution] (https://github.com/corneal64/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/corneal64/Etch-A-Sketch/blob/master/index.html)
+* [belalik's solution](https://github.com/belalik/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/belalik/sketchpad/blob/master/index.html)
+* * [Tyler K's solution](https://github.com/sekurratay/Odin-Projects/tree/master/etchasketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/sekurratay/Odin-Projects/blob/master/etchasketch/index.html)
+* [Zberggren's solution](https://github.com/zberggren/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/zberggren/sketchpad/blob/master/sketchpad.html)
+* [Cornelius Edward's Solution](https://github.com/corneal64/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/corneal64/Etch-A-Sketch/blob/master/index.html)
+* [Murray Berkowitz's solution](https://github.com/murray-berkowitz/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/murray-berkowitz/etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
