@@ -66,6 +66,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/rubyeventmanager)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/IOProjects)
 * [noobling's solution](https://github.com/noobling/ruby/tree/master/event_manager)
+* [DV's solution](https://github.com/dvislearning/event_manager)
 * Add your solution above this line!
 
 
