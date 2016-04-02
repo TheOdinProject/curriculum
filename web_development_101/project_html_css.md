@@ -628,8 +628,9 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [John Connor's solution](https://github.com/jacgitcz/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jacgitcz/google-homepage/blob/master/mygoogle.html)
 * [Jason Keeney's solution (easy)](https://github.com/jkeeney/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jkeeney/google-homepage/blob/master/index.html)
 * [Sam Hyland's Solution (with links and hover)](https://github.com/hyland2711/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/hyland2711/google-homepage/blob/master/index.html)
-* [Orlando Camargo´s easy solution (also with links and hover)] (https://github.com/dcamargo86/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/dcamargo86/google-homepage/blob/master/index.html)
-* [Kevin Hongtongsak's Solution (easy)] (https://github.com/khongton/odin-project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/khongton/odin-project/blob/master/google-homepage/index.html)
+* [Orlando Camargo´s easy solution (also with links and hover)](https://github.com/dcamargo86/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dcamargo86/google-homepage/blob/master/index.html)
+* [Kevin Hongtongsak's Solution (easy)](https://github.com/khongton/odin-project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/khongton/odin-project/blob/master/google-homepage/index.html)
+* [Roy Manninen's solution](https://github.com/jacgitcz/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/remannin/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
