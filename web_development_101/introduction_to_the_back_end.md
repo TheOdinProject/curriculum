@@ -19,11 +19,9 @@ As we covered back in the [Installations Project](/web-development-101/installat
 1. Check out [this blog post on back end vs front end programming](http://blog.teamtreehouse.com/i-dont-speak-your-language-frontend-vs-backend) for a quick refresher on the difference between the two.
 2. Read over [this quick interview with Matt Jording](http://blog.generalassemb.ly/what-is-back-end-web-development/) about what back end web development is.
 1. Type `$ ruby -v` and `$ rails -v` into your command line (remember, the `$` just represents the command prompt).  You should get back versions similar to `2.0.0` and `4.0.0` (`1.9.3` and `3.2.x` should be okay to work with, but your Rails version will matter when we cover Rails more in depth).  If you didn't get those values, you'll need to go back to the [Installations Unit](/web-development-101/installations/) and get everything installed properly.  
-2. You should also be able to use `$ which git` and see the directory where you installed Git. Windows users should try `$ where.exe git`.
+2. You should also be able to use `$ which git` and see the directory where you installed Git.
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
-* The Railsbridge [Ruby curriculum](http://curriculum.railsbridge.org/ruby/).
