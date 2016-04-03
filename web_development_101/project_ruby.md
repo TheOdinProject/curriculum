@@ -159,6 +159,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [James harder's solution](https://github.com/james-harder/learn_ruby.git)
 * [Deepak's solution](https://github.com/Deepak5050/project_ruby.git)
 * [Cornelius Edward's solution](https://github.com/corneal64/learn_ruby)
+* [wSlitz's solution](https://github.com/wSlitz/ruby_project)
 * Add your solution above this line!
 
 
