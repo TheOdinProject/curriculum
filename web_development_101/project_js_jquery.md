@@ -382,4 +382,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Cornelius Edward's Solution](https://github.com/corneal64/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/corneal64/Etch-A-Sketch/blob/master/index.html)
 * [Murray Berkowitz's solution](https://github.com/murray-berkowitz/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/murray-berkowitz/etch-a-sketch/blob/master/index.html)
 * * [Roy Manninen's solution](https://github.com/remannin/etchasketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/remannin/etchasketchpad/blob/master/index.html)
+*Alessio Barria
 * Add your solution above this line!
