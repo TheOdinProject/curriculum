@@ -631,6 +631,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Orlando Camargo´s easy solution (also with links and hover)](https://github.com/dcamargo86/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dcamargo86/google-homepage/blob/master/index.html)
 * [Kevin Hongtongsak's Solution (easy)](https://github.com/khongton/odin-project/tree/master/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/khongton/odin-project/blob/master/google-homepage/index.html)
 * [Roy Manninen's solution](https://github.com/jacgitcz/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/remannin/google-homepage/blob/master/index.html)
+* [Alessandra's Solution (with links and hover)](https://github.com/alessandraz/google-homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/alessandraz/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
