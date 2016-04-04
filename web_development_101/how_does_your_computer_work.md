@@ -44,3 +44,4 @@ That black screen (or window) is the command line, where you're able to enter co
 * See common commands on the [Rails Beginner Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html)
 * If you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check, [ExplainShell.com](http://explainshell.com/) is your solution.
 * [commandlinefu](http://www.commandlinefu.com/commands/browse) is a command-line gems repository, where you can share your amazing scripts and find the ones you need!
+* Learn basic [Linux/Mac OSX Commands](http://www.memrise.com/course/1047396/linuxmac-osx-commands-2/) in a 'flash card' format and become a memory athlete!
