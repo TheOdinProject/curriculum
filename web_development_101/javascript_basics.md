@@ -302,6 +302,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Bruno Nascimento's solution](https://github.com/nscmnto/javascript101) | [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/javascript101/blob/master/index.html) **(Interactive!)**
 * [Tyler K. Solutions](https://github.com/sekurratay/Euler)
 * [Jason Keeney's solution](https://github.com/jkeeney/multiples_of_3_and_5) | [View in browser](https://htmlpreview.github.io/?https://github.com/jkeeney/multiples_of_3_and_5/blob/master/index.html)
+* [Shala's Solutions] (https://github.com/ShalaQweghen/project_euler)
 * Add your solution above this line!
 
 ## Additional Resources
