@@ -385,5 +385,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Taekyung Kwan's solution](https://github.com/taekyunggg/sketchgrid) | [View in browser](http://htmlpreview.github.io/?https://github.com/taekyunggg/sketchgrid/blob/master/index.html)
 * [Alexander Amirov solution](https://github.com/xrocketmanx/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/xrocketmanx/etch-a-sketch/blob/master/index.html)
 * [Matt Dillon's solution] (https://github.com/CrappyDill/sketch.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/CrappyDill/sketch/blob/master/sketch/index.html)
-* [Odeson's solution](https://github.com/odesonex/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/odesonex/sketchpad/blob/master/index.html
+* [Odeson's solution](https://github.com/odesonex/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/odesonex/sketchpad/blob/master/index.html)
+* [John Connor's solution](https://github.com/jacgitcz/sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/jacgitcz/sketch/blob/master/sketchpad.html)
 * Add your solution above this line!
