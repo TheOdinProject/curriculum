@@ -634,6 +634,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Alessandra's Solution (with links and hover)](https://github.com/alessandraz/google-homepage.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/alessandraz/google-homepage/blob/master/index.html)
 * [Shala's Solution] (https://github.com/ShalaQweghen/google-homepage) | [View in Browser (Easy)] (https://htmlpreview.github.io/?https://github.com/ShalaQweghen/google-homepage/blob/master/index.html) | [View in Browser (Difficult)] (https://htmlpreview.github.io/?https://github.com/ShalaQweghen/google-homepage/blob/master/results.html)
 * [Mason Embry's Solution](https://github.com/masone81/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/masone81/google-homepage/blob/master/index.html)
+* [Lujan Fernaud's solution](https://github.com/lujanfernaud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lujanfernaud/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
