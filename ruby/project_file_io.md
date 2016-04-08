@@ -171,6 +171,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Benjamin Contant's](https://github.com/bcontant/the_odin_project/blob/master/hangman/hangman.rb)
 * [John's Solution](https://github.com/johnTheDudeMan/the_odin_project/blob/master/hangman/hangman.rb)
 * [Fabricio Carrara's solution (with sweet ASCII)](https://github.com/fcarrara/hangman)
+* [DV's solution](https://github.com/dvislearning/hangman/blob/master/hangman.rb)
 * Add your solution above this line!
 
 
