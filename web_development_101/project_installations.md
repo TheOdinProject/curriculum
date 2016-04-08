@@ -90,7 +90,7 @@ There have been some great online IDE's(Integrated Development Environment) rele
 
 **Cons**
 
-* You have to use the text editor that there services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
+* You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1 gb. This can be a major limitation after a while.
 
 ## What You'll Be Installing
