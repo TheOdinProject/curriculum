@@ -638,6 +638,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Carlos E. Palha's Solution](https://github.com/carlosep/the-odin-project/tree/master/web-development-101/html-css-google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/carlosep/the-odin-project/blob/master/web-development-101/html-css-google-homepage/index.html)
 * [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser]
 * [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/google-homepage/blob/master/index.html)
+* [Lujan Fernaud's solution](https://github.com/lujanfernaud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lujanfernaud/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
