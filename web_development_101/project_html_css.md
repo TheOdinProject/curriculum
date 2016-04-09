@@ -639,6 +639,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser]
 * [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/google-homepage/blob/master/index.html)
 * [Lujan Fernaud's solution](https://github.com/lujanfernaud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lujanfernaud/google-homepage/blob/master/index.html)
+* [Brandy's Solution (easy)](https://github.com/pinedab/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/pinedab/google-homepage/blob/master/googhp/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
