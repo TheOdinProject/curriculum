@@ -59,6 +59,7 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Wayne's solution](https://github.com/wayneho/snake) | [View in browser](https://rawgit.com/wayneho/snake/master/index.html)
 *  [Dan's solution](https://github.com/vickerdj/snake) | [View in browser](http://vickerdj.github.io/snake/)
 *  [Trajanson's solution](https://github.com/Trajanson/snake-js) | [View in browser](http://projects.trajanson.com/js-snake/)
+*  [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/snake) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/snake/index.html)
 * Add your solution above this line!
 
 
