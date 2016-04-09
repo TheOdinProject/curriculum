@@ -66,7 +66,3 @@ If you think about what's required to make a game like this work, it's all well 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
-* [Play an example Minesweeper game like the old Windows one here](http://www.chezpoor.com/minesweeper/minesweeper.html)
-* Not a Snake fan?  Try building [Minesweeper](http://en.wikipedia.org/wiki/Minesweeper_(video_game)) instead (there are many variations -- just use an 8x8 grid of squares with 10 mines).  It isn't quite as realtime but requires you to think logically about how the Minesweeper game functions.
-* 
