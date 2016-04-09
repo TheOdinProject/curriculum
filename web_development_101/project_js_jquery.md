@@ -377,7 +377,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Paul Macias' solution](https://github.com/Defgarden/jquery-grid) | [View in browser](https://htmlpreview.github.io/?https://github.com/Defgarden/jquery-grid/blob/master/index.html)
 * [Deepak's solution](https://github.com/Deepak5050/jquery_project.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/jquery_project/blob/master/index.html)
 * [belalik's solution](https://github.com/belalik/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/belalik/sketchpad/blob/master/index.html)
-* * [Tyler K's solution](https://github.com/sekurratay/Odin-Projects/tree/master/etchasketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/sekurratay/Odin-Projects/blob/master/etchasketch/index.html)
+* [Tyler K's solution](https://github.com/sekurratay/Odin-Projects/tree/master/etchasketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/sekurratay/Odin-Projects/blob/master/etchasketch/index.html)
 * [Zberggren's solution](https://github.com/zberggren/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/zberggren/sketchpad/blob/master/sketchpad.html)
 * [Cornelius Edward's Solution](https://github.com/corneal64/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/corneal64/Etch-A-Sketch/blob/master/index.html)
 * [Murray Berkowitz's solution](https://github.com/murray-berkowitz/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/murray-berkowitz/etch-a-sketch/blob/master/index.html)
@@ -389,4 +389,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [John Connor's solution](https://github.com/jacgitcz/sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jacgitcz/sketch)
 * [Spoon & Birdcage's solution](https://github.com/SpoonAndBirdcage/etch-a-sktech) | [View in browser](http://htmlpreview.github.io/?https://github.com/SpoonAndBirdcage/etch-a-sktech/blob/master/index.html)
 * [Sergey Badulin's solution](https://github.com/sbadulin/Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/Sketchpad/blob/master/index.html)
+* [Matt Dillon's solution](https://github.com/CrappyDill/sketch.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/CrappyDill/sketch/blob/master/sketch/index.html)
+* [Odeson's solution](https://github.com/odesonex/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/odesonex/sketchpad/blob/master/index.html)
+* [John Connor's solution](https://github.com/jacgitcz/sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jacgitcz/sketch/blob/master/sketchpad.html)
 * Add your solution above this line!
