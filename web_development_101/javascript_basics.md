@@ -299,10 +299,12 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Deepak's Solutions](https://github.com/Deepak5050/Javascript101/blob/master/script.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/Javascript101/blob/master/index.html)
 * [Alexander Amirov's solution](https://github.com/xrocketmanx/javascript-practise) | [View in browser](http://htmlpreview.github.io/?https://github.com/xrocketmanx/javascript-practise/blob/master/index.html)
 * [John Connor's solution](https://github.com/jacgitcz/project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/jacgitcz/project_euler/blob/master/euler.html)
+<<<<<<< HEAD
 * [Bruno Nascimento's solution](https://github.com/nscmnto/javascript101) | [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/javascript101/blob/master/index.html) **(Interactive!)**
 * [Tyler K. Solutions](https://github.com/sekurratay/Euler)
 * [Jason Keeney's solution](https://github.com/jkeeney/multiples_of_3_and_5) | [View in browser](https://htmlpreview.github.io/?https://github.com/jkeeney/multiples_of_3_and_5/blob/master/index.html)
-* [Shala's Solutions] (https://github.com/ShalaQweghen/project_euler)
+* [Shala's Solutions](https://github.com/ShalaQweghen/project_euler)
+* [Orlando Camargo´s solution](https://github.com/dcamargo86/the-odin-project/tree/master/webdev101-js/script)
 * Add your solution above this line!
 
 ## Additional Resources
