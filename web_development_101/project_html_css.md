@@ -607,6 +607,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Spoon And Birdcage's Hard solution](https://github.com/SpoonAndBirdcage/google-resultspage) | [View in browser](http://htmlpreview.github.io/?https://github.com/SpoonAndBirdcage/google-resultspage/blob/master/index.html)
 * [JGilly's Easy solution!(Based Highly off Jeffrey Garza's w/commented CSS](https://github.com/JessicaGillan/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/JessicaGillan/google-homepage/blob/master/index.html)
 * [Kallen Tu's solution](https://github.com/kallentu/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/kallentu/google-homepage/blob/master/index.html)
+<<<<<<< HEAD
 * [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/bmo84/google-homepage/blob/master/home.html)
 * [Herminio Torres's easy solution](https://github.com/herminiotorres/easy-version-google-homepage) | [View in browser](https://rawgit.com/herminiotorres/easy-version-google-homepage/master/index.html)
 * [Kris Martinez's easy solution](https://github.com/martinezk/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/martinezk/google-homepage/blob/master/index.html)
@@ -636,6 +637,10 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Mason Embry's Solution](https://github.com/masone81/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/masone81/google-homepage/blob/master/index.html)
 * [David Amador's Solution (easy)](https://github.com/damadormoreno/google-homepage) | [View in Browser](https://rawgit.com/damadormoreno/google-homepage/master/index.html)
 * [Carlos E. Palha's Solution] (https://github.com/carlosep/the-odin-project/tree/master/web-development-101/html-css-google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/carlosep/the-odin-project/blob/master/web-development-101/html-css-google-homepage/index.html)
+=======
+* [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser]
+* [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/google-homepage/blob/master/index.html)
+>>>>>>> cea3f82f1371900b854366d3b9f845e6468e521e
 * Add your solution above this line!
 
 ## Additional Resources
