@@ -1,5 +1,6 @@
 # Principles of Good Programming
 <!-- *Estimated Time: 1 hr* -->
+<!-- this lesson is in the wrong place should be in the ruby course -->
 
 There are a handful of generally accepted principles of good programming.  Common expressions like "be lazy" and "don't repeat yourself" go a long way.  You'll hear them used by name more than a few times in the coming months but it's good to get familiar with them up front.  
 
