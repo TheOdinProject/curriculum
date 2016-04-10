@@ -641,10 +641,10 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Lujan Fernaud's solution](https://github.com/lujanfernaud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lujanfernaud/google-homepage/blob/master/index.html)
 * [Brandy's Solution (easy)](https://github.com/pinedab/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/pinedab/google-homepage/blob/master/googhp/index.html)
 * [Ganesh Naik's Solution (easy)](https://github.com/GaneshNk/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/GaneshNk/google-homepage/blob/master/Project/index.html)
+* [Fred Rhae's Solution (easy)(PT-BR)](https://github.com/fredrhae/google_homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
-
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
