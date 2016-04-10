@@ -8,3 +8,5 @@
 * Lauch school command line book: https://launchschool.com/books/command_line/read/introduction
 
 * http://leveluptuts.com/tutorials/command-line-basics
+
+* Shell i/o redirection: http://linuxcommand.org/lc3_lts0070.php
