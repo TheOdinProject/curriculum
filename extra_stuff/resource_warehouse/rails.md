@@ -5,7 +5,7 @@
 
 * why learn rails: http://learn.onemonth.com/10-reasons-beginners-should-learn-ruby-on-rails
 
-* cheatsheet: https://github.com/PragTob/rails-beginner-cheatsheet/blob/gh-pages/RailsBeginnerCheatSheet.pdf
+* Rails cheatsheet: http://www.pragtob.info/rails-beginner-cheatsheet/index.html
 
 * Misc video tutorials for rails: http://www.schneems.com/post/28908007902/databases-rails-week-8/
 								  http://www.schneems.com/post/29620668076/database-rails-week-9/
