@@ -44,6 +44,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Scott Bobbitt's solution](https://github.com/sco-bo/flight-booker) | [View in Browser](https://radiant-fortress-17197.herokuapp.com/)
 * [James Brooks's solution](https://github.com/jhbrooks/flight-booker) | [View in browser](https://rocky-earth-72202.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/odin-flight-booker)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project12--sending-welcome-mails/odin-flight-booker)
 * Add your solution above this line!
 
 ## Additional Resources
