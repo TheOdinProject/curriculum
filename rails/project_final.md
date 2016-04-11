@@ -77,6 +77,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Luke Walker's solution](https://github.com/ubershibs/odin-fb) | [View in browser](https://floating-bayou-78146.herokuapp.com/users)
 * [srashidi's solution](https://github.com/srashidi/Rails_Final_Project/tree/master/odin-facebook) | [View in browser](https://calm-harbor-69843.herokuapp.com/)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/fake_book) | [View in browser](https://hidden-chamber-98363.herokuapp.com/)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project13--odin-facebook/odin-facebook)
 * Add your solution above this line!
 
 

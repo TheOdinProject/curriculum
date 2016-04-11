@@ -112,6 +112,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Scott Bobbitt's solution](https://github.com/sco-bo/kitten_api)
 * [James Brooks's solution](https://github.com/jhbrooks/kittens-api)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/odin-kittens)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/odin-kittens)
 * Add your solution above this line!
 
 
@@ -149,6 +150,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Scott Bobbitt's solution](https://github.com/sco-bo/flickr_widget) | [View in Browser](https://secure-refuge-22481.herokuapp.com/)
 * [James Brooks's solution](https://github.com/jhbrooks/flickr-get) | [View in browser](https://still-tor-87008.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/odin-photos)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/flickr-viewer)
 * Add your solution above this line!
 
 
