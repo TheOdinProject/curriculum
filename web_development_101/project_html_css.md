@@ -642,6 +642,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Brandy's Solution (easy)](https://github.com/pinedab/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/pinedab/google-homepage/blob/master/googhp/index.html)
 * [Ganesh Naik's Solution (easy)](https://github.com/GaneshNk/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/GaneshNk/google-homepage/blob/master/Project/index.html)
 * [Fred Rhae's Solution (easy)(PT-BR)](https://github.com/fredrhae/google_homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html)
+* * [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
