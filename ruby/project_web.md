@@ -74,6 +74,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RubyOnWeb/Microblogger)
 * [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/TwitterBot)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/microblogger)
+* [DV's solution](https://github.com/dvislearning/twitter_spambot)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
