@@ -643,9 +643,10 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ganesh Naik's Solution (easy)](https://github.com/GaneshNk/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/GaneshNk/google-homepage/blob/master/Project/index.html)
 * [Fred Rhae's Solution (easy)(PT-BR)](https://github.com/fredrhae/google_homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html)
 * * [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
+* [Django's Solution (easy)](https://github.com/django18/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/django18/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
-## Additional Resources
+## Additional Resources 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
