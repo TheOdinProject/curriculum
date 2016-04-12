@@ -113,6 +113,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [James Brooks's solution](https://github.com/jhbrooks/kittens-api)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/odin-kittens)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/odin-kittens)
+* [Top's solution](https://github.com/TopOneOfTopOne/kittens-api) | [View in Browser](https://teseter.herokuapp.com/)
 * Add your solution above this line!
 
 
