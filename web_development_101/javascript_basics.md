@@ -315,4 +315,4 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * More videos about [Javascript Functions from wickedlysmart.com](http://wickedlysmart.com/learning-javascript-functions-part-2/)
 * Reading: The first several sections of the [hsablonniere's Javascript 101 Course](http://hsablonniere.github.io/markleft/prezas/javascript-101.html#1.0).
 * Interactive: Do the additional sections in the [Codeacademy Javascript Track](http://www.codecademy.com/tracks/jvascript).
-* [OverAPI's Javascript cheat sheet](http://overapi.com/javascript/)
+* [OverAPI's Javascript cheat sheet](http://overapi.com/javascript)
