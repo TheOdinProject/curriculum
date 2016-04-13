@@ -152,6 +152,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [James Brooks's solution](https://github.com/jhbrooks/flickr-get) | [View in browser](https://still-tor-87008.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/odin-photos)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/flickr-viewer)
+* [Top's solution](https://github.com/TopOneOfTopOne/flickr-api) | [View in Browser](https://flickr-apii.herokuapp.com/)
 * Add your solution above this line!
 
 
