@@ -162,6 +162,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [wSlitz's solution](https://github.com/wSlitz/ruby_project)
 * [taekyung's solution](https://github.com/taekyunggg/learn_ruby)
 * [rwobben's solution] (https://github.com/rwobben/learn_ruby)
+* [Piotr Ejsmont's solution] (https://github.com/PiotrEjsmont/learn_ruby)
 * Add your solution above this line!
 
 
