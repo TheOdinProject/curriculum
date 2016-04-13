@@ -60,6 +60,7 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Dan's solution](https://github.com/vickerdj/snake) | [View in browser](http://vickerdj.github.io/snake/)
 *  [Trajanson's solution](https://github.com/Trajanson/snake-js) | [View in browser](http://projects.trajanson.com/js-snake/)
 *  [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/snake) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/snake/index.html)
+*  [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/javascript/snake) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/snake/app/snake.html)
 * Add your solution above this line!
 
 
