@@ -159,6 +159,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/advanced_building_blocks)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_advanced_building_blocks/blob/master/bubble_sort.rb)
 * [Omar Cagua's solution](https://github.com/OmarTGc/bubble_sort/blob/master/bubble_sort.rb)
+* [Deepak's solution](https://github.com/Deepak5050/advanced_building_blocks/blob/master/bubble_sort.rb)
 * Add your solution above this line!
 
 
