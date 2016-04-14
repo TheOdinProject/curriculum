@@ -17,7 +17,7 @@ class SlackLinkFactory
       'Introduction to Web Development'   => '/1-intro-to-web-dev/',
       'Web Development 101'               => '/2-web-dev-101',
       'Ruby Programming'                  => '/3-ruby/',
-      'Ruby on Rails'                      => '/4-rails/',
+      'Ruby on Rails'                     => '/4-rails/',
       'HTML5 and CSS3'                    => '/5-html-css/',
       'Javascript and jQuery'             => '/6-javascript/',
       'Getting Hired as a Web Developer'  => '/7-getting-hired/'
