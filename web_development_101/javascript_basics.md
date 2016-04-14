@@ -305,6 +305,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jason Keeney's solution](https://github.com/jkeeney/multiples_of_3_and_5) | [View in browser](https://htmlpreview.github.io/?https://github.com/jkeeney/multiples_of_3_and_5/blob/master/index.html)
 * [Shala's Solutions](https://github.com/ShalaQweghen/project_euler)
 * [Orlando Camargo´s solution](https://github.com/dcamargo86/the-odin-project/tree/master/webdev101-js/script)
+* [Kevin Hongtongsak's solution](https://github.com/khongton/odin-project/tree/master/javascript%20basics)
 * Add your solution above this line!
 
 ## Additional Resources
