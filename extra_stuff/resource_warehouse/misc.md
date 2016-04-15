@@ -11,3 +11,4 @@
 ### Intro to web development potential new resources
 
 * history of the web: http://blog.froont.com/brief-history-of-web-design-for-designers/ 
+* What is code: http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
