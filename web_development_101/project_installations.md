@@ -155,11 +155,9 @@ These installfests will take you through the steps to install everything on your
 
 ## Oh no! Total Failure!!!
 
-If all else fails, the best web-based development environment to use for coding the back end is [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  
+If all else fails, the best web-based development environments to use for coding the back end are [Nitrous.io](https://www.nitrous.io) or [cloud9](https://c9.io/).  They are free to use and give you a brand spanking new Ruby and Rails setup to start coding with.  
 
-I've often found this to be much easier for Windows users than trying to navigate the regular installations process.  It relies on having an internet connection, but it gives you a command line, a text editor, and the ability to run a local server right out of the box.
-
-So your alternate path is to go to [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral) and set up your account.  You'll be given enough free "credits" to keep a virtual development environment running full time.  The instructions on the website are fairly straightforward.  You can get your text editor and terminal up and running in a couple minutes.  Plus, it works with Git!
+They rely on having an internet connection, but they give you a command line, a text editor, and the ability to run a local server right out of the box.
 
 ## Additional Resources
 
