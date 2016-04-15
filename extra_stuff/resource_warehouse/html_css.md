@@ -18,3 +18,8 @@
 **Floats**
 
 * http://alistapart.com/article/css-floats-101
+
+
+**General Layout**
+
+* The layout images in this could be used as exercises: http://designshack.net/articles/layouts/10-rock-solid-website-layout-examples/
