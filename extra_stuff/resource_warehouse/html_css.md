@@ -13,3 +13,8 @@
 **Flexbox**
 
 * http://flexboxfroggy.com/
+
+
+**Floats**
+
+* http://alistapart.com/article/css-floats-101
