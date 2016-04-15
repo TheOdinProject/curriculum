@@ -1,7 +1,8 @@
 # Project: Installations
 
 <!-- Improvement Ideas, Extract linux installation out into its own lesson and make sure its before this lesson,
-     Add a few more text editior options to the text editior section. Atom, brackets etc -->
+     Add a few more text editior options to the text editior section. Atom, brackets etc
+     Extract the join slack section to the very first lesson in this course -->
 
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.
 
