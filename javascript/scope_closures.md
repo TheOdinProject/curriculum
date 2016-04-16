@@ -27,5 +27,4 @@ All this scoping (and using closures) makes a lot of sense when you remember tha
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Understanding JS Closures Completely from JSIS](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
 * [Understanding JS Variable Scope and Hoisting from JSIS](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
