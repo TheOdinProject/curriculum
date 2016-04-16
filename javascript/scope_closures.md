@@ -17,11 +17,11 @@ All this scoping (and using closures) makes a lot of sense when you remember tha
 ## Your Assignment
 
 1. Read [What you Need To Know About Javascript Scope from Smashing Magazine](http://coding.smashingmagazine.com/2009/08/01/what-you-need-to-know-about-javascript-scope/)
-2. Read [Javascript Closures from learn.jquery.com](http://learn.jquery.com/javascript-101/closures/)
-2. Read the answers to [SO on "How do Javascript Closures Work?"](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work) for a bit of a more nuanced understanding of things.
-3. Read [Understanding Javascript's `this` keyword from JSIS](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-4. Read about [Javascript's `apply` `call` and `bind` methods from JSIS](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
-4. Read [Understanding Javascript Function.Prototype.Bind from Smashing Magazine](http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/) to learn about binding in greater depth.  This may be one you need to come back to a bit later because it gets deep.
+2. Read [Understanding Javascript Closures with Ease from JSIS](http://javascriptissexy.com/understand-javascript-closures-with-ease/)
+3. Read the answers to [SO on "How do Javascript Closures Work?"](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work) for a bit of a more nuanced understanding of things.
+4. Read [Understanding Javascript's `this` keyword from JSIS](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+5. Read about [Javascript's `apply` `call` and `bind` methods from JSIS](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/)
+6. Read [Understanding Javascript Function.prototype.bind from Smashing Magazine](http://coding.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/) to learn about binding in greater depth.  This may be one you need to come back to a bit later because it gets deep.
 
 ## Additional Resources
 
