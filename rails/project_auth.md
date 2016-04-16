@@ -129,6 +129,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [James Brooks's solution](https://github.com/jhbrooks/members-only) | [View in browser](https://powerful-bastion-24693.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/members-only)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project8--members-only!/members-only)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/members-only)
 * Add your solution above this line!
 
 
