@@ -256,6 +256,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Tomasz Kula's solution](https://github.com/zetsnotdead/web_server)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RubyOnWeb/Serverproject)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_webserver)
+* [DV's solution](https://github.com/dvislearning/ruby_server_browser)
 * Add your solution above this line!
 
 
