@@ -644,6 +644,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Fred Rhae's 'easy' solution(PT-BR)](https://github.com/fredrhae/google_homepage) | ['Difficult' solution (PT-BR)](https://github.com/fredrhae/google_search_page) | [View in Browser (easy)](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html) | [View in Browser (difficult)](http://htmlpreview.github.io/?https://github.com/fredrhae/google_search_page/blob/master/index.html)
 * [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
 * [Lani Huang's Solutions](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/google-homepage) | [View in Browser (easy)](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/web-development-101/google-homepage/index.html) | [View in Browser (difficult)](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/web-development-101/google-homepage/results.html)
+* [haR's Solutions](https://github.com/haRacz/google-homepage/tree/master) | [View in Browser (easy)](http://htmlpreview.github.io/?https://github.com/haRacz/google-homepage/blob/master/index.html) | [View in Browser (difficult)](http://htmlpreview.github.io/?https://github.com/haRacz/google-homepage/blob/master/results.html)
 * Add your solution above this line!
 
 ## Additional Resources
