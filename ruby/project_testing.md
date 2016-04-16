@@ -45,6 +45,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * Luke Walker's solution ([Caesar Cipher](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/tictactoe3_spec.rb)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/tree/master/spec)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RSpecProject)
+* Fabricio Carrara's solution ([Caesar Cipher](https://github.com/fcarrara/caesar_cipher), [Enumerable](https://github.com/fcarrara/ruby_advanced_building_blocks), [Tic Tac Toe](https://github.com/fcarrara/oop_with_ruby/tree/master/tic_tac_toe)
 * Add your solution above this line!
 
 
@@ -92,6 +93,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/spec/connect_four_spec.rb)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RSpecProject)
 * [djhart's solution](https://github.com/djhart/connect_four)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/connect_four_tdd)
 * Add your solution above this line!
 
 
