@@ -308,6 +308,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Kevin Hongtongsak's solution](https://github.com/khongton/odin-project/tree/master/javascript%20basics)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/project-euler)
 * [haR's solution](https://github.com/haRacz/top-p3-javascript101/tree/master)
+* [Lujan Fernaud's solution](https://github.com/lujanfernaud/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/lujanfernaud/project-euler/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
