@@ -11,6 +11,11 @@ Raise your hand if you're scared of the command line.  Yes, we have this image o
 
 That black screen (or window) is the command line, where you're able to enter commands that your computer will run for you.  And while that image of a programmer is a bit overdone, the command line really is sort of like our base of operations, from which we'll launch other programs to do our "real developing" in.  It has a syntax of its own which is different but not all that difficult to pick up.  You'll be entering the same commands dozens of times anyway, so you'll get pretty good at it in a short period of time.
 
+In this introductory lesson to the command line, you will learn how to navigate around your computer through the command line and how to manipulate files and directorys(also known as folders) from the comfort of the command line. As you will soon see this is not as difficult as you may think. The commands you will learn in this lesson are very straight forward and easy to understand.
+
+**why learn this now?**
+You will be making heavy use of the command line throughout this curriculum, the installations project which is at the end of this section will require you to install a lot of different software through the command line and you will be using GIT(more on this later) primarily with the command line. Bigger picture, you will be using the command line on a daily basis in your career as a software developer. It will be an indispensable skill in your toolset.
+
 ## Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
