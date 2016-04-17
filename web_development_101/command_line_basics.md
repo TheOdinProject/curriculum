@@ -15,7 +15,7 @@ In this introductory lesson to the command line, you will learn how to navigate 
 
 **why learn this now?**
 
-You will be making heavy use of the command line throughout this curriculum, the installations project which is at the end of this section will require you to install a lot of different software through the command line and you will be using GIT(more on this later) primarily with the command line. Bigger picture, you will be using the command line on a daily basis in your career as a software developer. It will be an indispensable skill in your toolset.
+You will be making heavy use of the command line throughout this curriculum, the installations project which is at the end of this section will require you to install a lot of different kinds of software through the command line and you will be using GIT(more on this later) primarily with the command line. Bigger picture, you will be using the command line on a daily basis in your career as a software developer. It will be an indispensable skill in your toolset.
 
 ## Points to Ponder
 
