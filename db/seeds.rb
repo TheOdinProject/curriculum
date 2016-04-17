@@ -247,13 +247,13 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "How Does Your Computer Work?",
-  title_url: "How Does Your Computer Work?".parameterize,
+  title: "Command Line Basics",
+  title_url: "Command Line Basics".parameterize,
   description: "The command line: loved, hated, and feared... but no longer by you.",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/how_does_your_computer_work.md"
+  url: "/web_development_101/command_line_basics.md"
 )
 
 lesson_counter += 1
