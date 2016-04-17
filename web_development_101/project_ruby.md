@@ -161,9 +161,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Cornelius Edward's solution](https://github.com/corneal64/learn_ruby)
 * [wSlitz's solution](https://github.com/wSlitz/ruby_project)
 * [taekyung's solution](https://github.com/taekyunggg/learn_ruby)
-* [rwobben's solution] (https://github.com/rwobben/learn_ruby)
-* [Piotr Ejsmont's solution] (https://github.com/PiotrEjsmont/learn_ruby)
+* [rwobben's solution](https://github.com/rwobben/learn_ruby)
+* [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/learn_ruby)
 * [John Connor's solution](https://github.com/jacgitcz/project_ruby)
+* [Shala's solution](https://github.com/ShalaQweghen/project_ruby)
 * Add your solution above this line!
 
 
