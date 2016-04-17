@@ -21,5 +21,4 @@ Web technology land is full of strange terms and an alphabet soup of acronyms an
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Smashing's glossary-of-glossaries](http://www.smashingmagazine.com/2009/05/29/useful-glossaries-for-web-designers-and-developers/), or "where to find any jargon you can imagine".
-* [W3 Schools List of Tag Definitions](http://www.w3schools.com/tags/)
 * [About's Web Design Glossary](http://webdesign.about.com/od/webdesignhtmlatoz/a/blglossary.htm)
