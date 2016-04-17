@@ -647,9 +647,12 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [haR's Solutions](https://github.com/haRacz/google-homepage/tree/master) | [View in Browser (easy)](http://htmlpreview.github.io/?https://github.com/haRacz/google-homepage/blob/master/index.html) | [View in Browser (difficult)](http://htmlpreview.github.io/?https://github.com/haRacz/google-homepage/blob/master/results.html)
 * [RMF2PT's Solution (easy)](https://github.com/RMF2PT/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/RMF2PT/google-homepage/blob/master/index.html)
 * [Monika Dutka's solution](https://github.com/rawrins/google-homepage.git) | [(View in browser - easy](https://htmlpreview.github.io/?https://github.com/rawrins/google-homepage/blob/master/index.html)
+* [Fred Rhae's Solution (easy)(PT-BR)](https://github.com/fredrhae/google_homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html)
+* * [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
+* [Django's Solution (easy)](https://github.com/django18/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/django18/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
-## Additional Resources
+## Additional Resources 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
