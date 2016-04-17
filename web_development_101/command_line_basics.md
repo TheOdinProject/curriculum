@@ -2,8 +2,11 @@
 <!-- *Estimated Time: 3-6 hrs* -->
 
 <!-- Purpose of lesson: to teach the student the basics of the command line, ie navigating, creating and deleteing files and      directories.
-     This lesson could use some focus, it's tring to do too much too soon, it should focus on its pupose with a few good          resources. A full blown command line course would be awesome.
-     This should also be renamed to command line basics -->
+    I have removed a lot of the extra resources and narrowed the focus of this lesson to navigation and manipulating files
+    I also changed the name to command line basics and added a couple of paragraphs about what the student will learn and why
+    they should learn it.
+    
+    Future: We should consider this lesson to be the first lesson of a larger course about the command line, the next lesson could be about permissions.-->
 
 ## The Command Line isn't as Scary as you Think 
 
