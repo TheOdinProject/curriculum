@@ -165,6 +165,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/learn_ruby)
 * [John Connor's solution](https://github.com/jacgitcz/project_ruby)
 * [Shala's solution](https://github.com/ShalaQweghen/project_ruby)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/ruby-project)
 * Add your solution above this line!
 
 
