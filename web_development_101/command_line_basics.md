@@ -14,6 +14,7 @@ That black screen (or window) is the command line, where you're able to enter co
 In this introductory lesson to the command line, you will learn how to navigate around your computer through the command line and how to manipulate files and directorys(also known as folders) from the comfort of the command line. As you will soon see this is not as difficult as you may think. The commands you will learn in this lesson are very straight forward and easy to understand.
 
 **why learn this now?**
+
 You will be making heavy use of the command line throughout this curriculum, the installations project which is at the end of this section will require you to install a lot of different software through the command line and you will be using GIT(more on this later) primarily with the command line. Bigger picture, you will be using the command line on a daily basis in your career as a software developer. It will be an indispensable skill in your toolset.
 
 ## Points to Ponder
