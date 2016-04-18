@@ -651,6 +651,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
 * [Django's Solution (easy)](https://github.com/django18/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/django18/google_homepage/blob/master/index.html)
 * [Sean Smith's Solution (easy)](https://github.com/bonham000) | [View in Browser](http://htmlpreview.github.io/?https://github.com/bonham000/Google/blob/master/index.html)
+*  [Soumik Sur's Solution (easy)](https://github.com/soumikcv/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/soumikcv/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
