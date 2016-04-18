@@ -597,4 +597,5 @@ Next, make sure your method can handle multiple words:
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/blob/master/ruby-programming/building-blocks/substrings.rb)
 * [Josh Cummings' solution](https://github.com/obiwan7713/Ruby_Building_Blocks/blob/master/substrings.rb)
 * [Earth35's solution](https://github.com/Earth35/basic_ruby_projects/blob/master/substrings.rb)
+* [Metonimie's solution](https://github.com/Metonimie/TheOdinProject/blob/master/Ruby_Building_Blocks/substrings.rb)
 * Add your solution above this line!
