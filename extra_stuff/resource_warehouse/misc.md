@@ -12,3 +12,7 @@
 
 * history of the web: http://blog.froont.com/brief-history-of-web-design-for-designers/ 
 * What is code: http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+
+
+### Problem solving:
+* decomposing problems: http://www.bbc.co.uk/education/guides/zqqfyrd/revision/3
