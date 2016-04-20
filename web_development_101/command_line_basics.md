@@ -1,12 +1,7 @@
 # Command Line Basics
 <!-- *Estimated Time: 3-6 hrs* -->
 
-<!-- Purpose of lesson: to teach the student the basics of the command line, ie navigating, creating and deleteing files and      directories.
-    I have removed a lot of the extra resources and narrowed the focus of this lesson to navigation and manipulating files
-    I also changed the name to command line basics and added a couple of paragraphs about what the student will learn and why
-    they should learn it.
-    
-    Future: We should consider this lesson to be the first lesson of a larger course about the command line, the next lesson could be about permissions.-->
+<!-- Future: We should consider this lesson to be the first lesson of a larger course about the command line, the next lesson      could be about permissions.-->
 
 ## The Command Line isn't as Scary as you Think 
 
@@ -14,7 +9,7 @@ Raise your hand if you're scared of the command line.  Yes, we have this image o
 
 That black screen (or window) is the command line, where you're able to enter commands that your computer will run for you.  And while that image of a programmer is a bit overdone, the command line really is sort of like our base of operations, from which we'll launch other programs to do our "real developing" in.  It has a syntax of its own which is different but not all that difficult to pick up.  You'll be entering the same commands dozens of times anyway, so you'll get pretty good at it in a short period of time.
 
-In this introductory lesson to the command line, you will learn how to navigate around your computer and how to manipulate files and directorys(also known as folders) all from the comfort of the command line. As you will soon see this is not as difficult as you may think. The commands you will learn in this lesson are very straight forward and easy to understand.
+In this introductory lesson to the command line, you will learn how to navigate around your computer and how to manipulate files and directorys(also known as folders) all from the comfort of the command line. As you will soon see this is not as difficult as you may think. The commands you will learn in this lesson are very intuitive so don't let the the prospect of using the command line for the first time intimidate you.
 
 **why learn this now?**
 
