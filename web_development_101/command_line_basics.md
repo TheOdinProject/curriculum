@@ -33,7 +33,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 
 1. To get a initial high level overview of the command line, check out [A Command Line Crash Course](http://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) from the Viking Code School Prep Work.
 2. Complete the first 2 sections of this interactive codecademy course to get a great handle on the navigating and manipulating directories and files [command line course](https://www.codecademy.com/en/courses/learn-the-command-line).
-3. Finally Go through Chapter 1 of [Conquering the Command Line](http://conqueringthecommandline.com/book/basics)
+3. Finally go through Chapter 1 of [Conquering the Command Line](http://conqueringthecommandline.com/book/basics)
 
 ## Additional Resources
 
