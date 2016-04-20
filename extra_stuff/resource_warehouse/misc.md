@@ -16,3 +16,4 @@
 
 ### Problem solving:
 * decomposing problems: http://www.bbc.co.uk/education/guides/zqqfyrd/revision/3
+* Algorithms: http://www.bbc.co.uk/education/guides/zpp49j6/revision
