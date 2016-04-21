@@ -1,4 +1,5 @@
 # Conclusion
+<!-- it might be a good idea to add the final part of the content here into the gearing up for success lesson -->
 
 Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career.  This has really just been a teaser into the world of web development.  See the "Additional Resources" section below if you'd like to learn more before moving forward to the next courses.
 
