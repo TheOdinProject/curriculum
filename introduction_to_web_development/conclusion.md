@@ -25,6 +25,5 @@ And it might be life-changing too.
 
 * Watch [How To Learn podcast by the Ruby Rogues](http://rubyrogues.com/131-rr-how-to-learn/)
 * Read [this Quora answer](http://www.quora.com/Product-Management/What-does-a-great-product-manager-at-a-tech-startup-do-day-to-day-e-g-wireframe-feature-flow-etc) if you also want to know what a Product Manager does.
-* ["List of beginner programs that can be done in any language to help learn new languages"](http://www.reddit.com/r/learnprogramming/comments/218ca9/list_of_beginner_programs_that_can_be_done_in_any/)
 * [How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25) on Quora.
 * [Should I Become a Web Programmer?](http://webdesign.about.com/od/jobs/p/should_I_become_a_web_programmer.htm) from Ask.com.
