@@ -653,6 +653,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Sean Smith's Solution (easy)](https://github.com/bonham000) | [View in Browser](http://htmlpreview.github.io/?https://github.com/bonham000/Google/blob/master/index.html)
 *  [Soumik Sur's Solution (easy)](https://github.com/soumikcv/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/soumikcv/google-homepage/blob/master/index.html)
 * [Matt Borgman's 'easy' solution](https://github.com/mgborgman/google_homepage/blob/master/index.html) | ['Difficult' solution](https://github.com/mgborgman/google_results_page/blob/master/index.html) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/mgborgman/google_homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/mgborgman/google_results_page/blob/master/index.html)
+*  [Andrew Artajos' Solution (easy)](https://github.com/dudepare/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/dudepare/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
