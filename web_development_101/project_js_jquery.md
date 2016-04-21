@@ -387,4 +387,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Matt Dillon's solution] (https://github.com/CrappyDill/sketch.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/CrappyDill/sketch/blob/master/sketch/index.html)
 * [Odeson's solution](https://github.com/odesonex/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/odesonex/sketchpad/blob/master/index.html)
 * [John Connor's solution](https://github.com/jacgitcz/sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/jacgitcz/sketch)
+* [Mason Embry's Solution](https://github.com/embryCODE/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/embryCODE/sketchpad/blob/master/index.html)
 * Add your solution above this line!
