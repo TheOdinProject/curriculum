@@ -1,5 +1,6 @@
 # Databases
 <!-- *Estimated Time: 4-6 hrs* -->
+<!-- This lesson could be expanded out into a full blown databases course -->
 
 
 We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.

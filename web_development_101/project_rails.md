@@ -16,7 +16,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 ## Extra Credit:
 
-1. Michael Hartl guides you through [creating a sample app using scaffolding](http://ruby.railstutorial.org/chapters/a-demo-app#top) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.
+1. Michael Hartl guides you through [creating a sample app using scaffolding](https://www.railstutorial.org/book/toy_app) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.
 2. If you aren't comfortable with git, either skip ahead a few lessons to the [introductory section on git](/web-development-101/git-basics) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
 
 ## Student Solutions
@@ -140,7 +140,13 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/rails_blog_app)|[View in browser](https://blooming-eyrie-31902.herokuapp.com/)
 * [Peter Taggart's solution](https://github.com/gitschwifty/blogger)|[View in browser](https://immense-chamber-91760.herokuapp.com/)
 * [Tony Vumbaca's solution](https://github.com/tvumbaca/Blogger)|[View in browser](https://aqueous-basin-98343.herokuapp.com)
-* [Johnny Rasnic's solution](https://github.com/lonniganseaweed/rails-blog) | [View in browser](https://sleepy-retreat-39842.herokuapp.com/)
+* [Johnny Rasnic's solution](https://github.com/lonniganseaweed/the-odin-project-solutions/tree/master/2:%20Web%20Development%20101/rails-blog/blogger) | [View in browser](https://sleepy-retreat-39842.herokuapp.com/)
+* [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/rails_project)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/blogger)|[View in browser](https://fcarrara-blogger.herokuapp.com) Completed to I6 section.
+* [Tomas Rojo's solution](https://github.com/tomasn4a/jumpstart/tree/master/blogger)|[View in browser](https://floating-lowlands-72552.herokuapp.com)
+* [Deepak's solution](https://github.com/Deepak5050/project_rails.git)|[View in browser](https://enigmatic-forest-17007.herokuapp.com/)
+* [Josh Cummings' solution](https://github.com/obiwan7713/Rails-Blogger.git)| [View in browser](https://protected-inlet-31955.herokuapp.com/)
+* [Lani Huang's soluton](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/blogger) | [View in Browser](https://blooming-ravine-63368.herokuapp.com/)
 * Add your solution above this line!
 
 

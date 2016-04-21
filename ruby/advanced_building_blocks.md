@@ -133,10 +133,6 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 4. [Quiz #4](http://www.codequizzes.com/learn-ruby/symbols-array-methods-hashes)
 5. [Quiz #6](http://www.codequizzes.com/learn-ruby/iteration-nested-data-structures) 
 
-## (Optional) Extra Practice
-
-Complete the [Neo Ruby Koans](http://rubykoans.com/) exercises. You have to complete/debug the code it provides until it passes the tests before you can go on with the next exercise (TDD approach). 
-
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
@@ -147,7 +143,6 @@ Complete the [Neo Ruby Koans](http://rubykoans.com/) exercises. You have to comp
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 * Read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/) for more depth on flow control.
 * If you want a bit more, check out [Skork's entry on Ruby looping and iterators](http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/)
-* [Understanding Blocks Procs and Lambdas](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 * [Why can you either `yield` to blocks or make them explicit?  Who cares? (from SO)](http://stackoverflow.com/questions/1410160/ruby-proccall-vs-yield)
 * [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
 * A quick guide on writing methods from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)

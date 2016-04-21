@@ -128,6 +128,9 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/members-only)
 * [James Brooks's solution](https://github.com/jhbrooks/members-only) | [View in browser](https://powerful-bastion-24693.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/members-only)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project8--members-only!/members-only)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/members-only)
+* [Mateo Mejia's solution](https://github.com/mateomgj/rails_authentication_project) | [View in browser](https://enigmatic-reef-29029.herokuapp.com/)
 * Add your solution above this line!
 
 

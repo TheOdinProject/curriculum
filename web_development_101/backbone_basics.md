@@ -1,5 +1,6 @@
 # Backbone.js 101
 <!-- *Estimated Time: 1 hr* -->
+<!-- This lesson can be deleted, it adds no value to this part of the course and will only serve to confuse students who have only scratched the surfice of rails -->
 
 You thought only server-side languages could utilize frameworks?  Think again.  More and more heavy lifting is being done in the browser these days and that means lots of repetitive and disorganized code to tidy up (and Javascript can get awfully disorganized).  
 

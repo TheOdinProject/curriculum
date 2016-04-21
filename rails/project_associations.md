@@ -99,6 +99,10 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Max Gallant's solution](https://github.com/mcgalcode/private-events) | [View in browser](https://secret-gorge-95812.herokuapp.com/)
 * [Hassan Mahmoud's solution](https://github.com/HassanTC/private-events)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/private-events)
+* [James Brooks's solution](https://github.com/jhbrooks/private-events) | [View in browser](https://polar-caverns-15299.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/private-events)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project9--private-events/private-events)
+* [Mateo Mejia's solution](https://github.com/mateomgj/private-events) | [View in browser](https://fierce-brushlands-63385.herokuapp.com/)
 * Add your solution above this line!
 
 

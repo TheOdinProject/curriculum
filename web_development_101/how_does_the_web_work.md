@@ -1,5 +1,7 @@
 # How Does the Web Work?
 <!-- *Estimated Time: 1-2 hrs* -->
+<!-- purpose of lesson: to give the student a high level overview of the way the internet works
+     Developer tools should not be in here, in fact a developer tools lesson is probably needed. -->
 
 Before you can understand how to *program* the web, you need to understand the web itself on a more granular level than you probably do now.  Some of this stuff is necessary just to have a more wholistic understanding of the ecosystem in which you will be working (and to not sound like a total newbie when talking to other developers about it), but other aspects (like HTTP) will come up again and again when you start programming.  
 

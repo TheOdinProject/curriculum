@@ -1,5 +1,6 @@
 # Testing 101
 <!-- *Estimated Time: 2-3 hrs* -->
+<!-- to soon for testing, move to ruby course -->
 
 Testing is one of those things that people often don't think about when they decide to learn about web development but it's critically important to the production of professional quality applications and it will save you tons of time and headache in the end.
 

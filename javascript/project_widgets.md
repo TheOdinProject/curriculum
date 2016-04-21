@@ -50,6 +50,9 @@ Don't spend too much time worrying about getting your images to display at the c
 * [Dan's solution](https://github.com/vickerdj/imageslider) | [View in browser] (http://vickerdj.github.io/imageslider/)
 * [Trajanson's solution](https://github.com/Trajanson/image-carousel-js) | [View in broswer] (http://projects.trajanson.com/js-image-carousel/)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/javascript/carousel) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/javascript/carousel/carousel.html)
+*  [Yoshua Elmaryono's solution](https://github.com/dotm/image_slider) | [View in browser](http://dotm.github.io/image_slider/)
+*  [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/slider) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/slider/index.html)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/javascript/image-carousel) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/image-carousel/carousel.html)
 * Add your solution above this line!
 
 

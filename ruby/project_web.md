@@ -73,6 +73,8 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/micro_blogger.rb)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RubyOnWeb/Microblogger)
 * [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/TwitterBot)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/microblogger)
+* [DV's solution](https://github.com/dvislearning/twitter_spambot)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -253,6 +255,8 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/server)
 * [Tomasz Kula's solution](https://github.com/zetsnotdead/web_server)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RubyOnWeb/Serverproject)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_webserver)
+* [DV's solution](https://github.com/dvislearning/ruby_server_browser)
 * Add your solution above this line!
 
 

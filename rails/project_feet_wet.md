@@ -77,6 +77,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/toy_app)
 * [Max Gallant's solution](https://github.com/mcgalcode/toy_app) | [Heroku](https://still-sea-98097.herokuapp.com//)
 * [Artur Okonski's solution](https://github.com/cloudtemplar/hello_app) | [Heroku](https://infinite-everglades-78397.herokuapp.com/)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project2--ch1-2-the-rails-tutorial)
 * Add your solution above this line!
 
 
