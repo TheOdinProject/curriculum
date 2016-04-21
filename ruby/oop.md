@@ -84,7 +84,6 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 
 1. Make sure you can do [Quiz #5](http://www.codequizzes.com/learn-ruby/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
 2. Make sure you can do [Quiz #7](http://www.codequizzes.com/learn-ruby/modules-classes-inheritance) as well.
-1. Then do their [Practical Object Oriented Design Quiz](http://www.codequizzes.com/ruby/practical-object-oriented-design), which will delve deeper into design principles.  There are some new concepts here to pick up as well.
 
 ## Additional Resources
 
