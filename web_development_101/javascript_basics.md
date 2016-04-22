@@ -311,6 +311,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/lujanfernaud/project-euler/blob/master/index.html)
 * [Mason Embry's Solutions](https://github.com/embryCODE/project_euler)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/RMF2PT/project_euler/blob/master/index.html)
+* [Jessica G. Solutions](https://github.com/JessicaGillan/problem-solving.git)
 * Add your solution above this line!
 
 ## Additional Resources
