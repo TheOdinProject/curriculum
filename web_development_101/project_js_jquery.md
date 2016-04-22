@@ -391,4 +391,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [John Connor's solution](https://github.com/jacgitcz/sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jacgitcz/sketch/blob/master/sketchpad.html)
 * [Matt Dillon's solution](https://github.com/CrappyDill/sketch.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/CrappyDill/sketch/blob/master/sketch/index.html)
 * [Shala's Solution](https://github.com/ShalaQweghen/sketch_pad) | [View in Browser (Best viewed on Google Chrome)](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/sketch_pad/blob/master/index.html)
+* [Lani Huang's Solution](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/web-development-101/sketchpad/index.html)
+* [Monika Dutka's solution](https://github.com/rawrins/sketchpad-project) | [Preview](http://htmlpreview.github.io/?https://github.com/rawrins/sketchpad-project/blob/master/index.html)
+* [Mason Embry's Solution](https://github.com/embryCODE/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/embryCODE/sketchpad/blob/master/index.html)
 * Add your solution above this line!

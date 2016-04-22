@@ -1,6 +1,6 @@
 # FTP Basics
 <!-- *Estimated Time: .25 hrs* -->
-<!-- this lesson could be added to an new 'electives' course, this information is not essential for this part of the curriculum -->
+<!-- this lesson could be added to an new 'electives' course, this information is not essential for this part of the curriculum. It may also benifit from a expansion -->
 
 FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is.
 

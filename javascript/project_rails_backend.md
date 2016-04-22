@@ -35,6 +35,7 @@ Keep track of how long it takes between when the photo is first loaded and when 
 
 * [Donald's solution](https://github.com/donaldali/wheres-waldo) | [View in browser](http://dna-wheres-waldo.herokuapp.com/ "Where's Waldo")
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_waldo) | [View in browser](https://hidden-sierra-6699.herokuapp.com/)
+* [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/waldo) | [View in browser](https://damp-plateau-96949.herokuapp.com)
 * Add your solution above this line!
 
 

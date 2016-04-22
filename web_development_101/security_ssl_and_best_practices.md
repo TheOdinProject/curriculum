@@ -1,6 +1,6 @@
 # Security, SSL, and Best Practices
 <!-- *Estimated Time: 1 hr* -->
-<!-- this should probably be in rails course -->
+<!-- this should probably be in rails course or an electives course -->
 
 It's important to at least start thinking about how the open and bountiful world of the Internet handles issues of security and secure connections.  
 

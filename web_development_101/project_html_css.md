@@ -636,16 +636,31 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Mason Embry's Solution](https://github.com/masone81/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/masone81/google-homepage/blob/master/index.html)
 * [David Amador's Solution (easy)](https://github.com/damadormoreno/google-homepage) | [View in Browser](https://rawgit.com/damadormoreno/google-homepage/master/index.html)
 * [Carlos E. Palha's Solution](https://github.com/carlosep/the-odin-project/tree/master/web-development-101/html-css-google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/carlosep/the-odin-project/blob/master/web-development-101/html-css-google-homepage/index.html)
-* [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser]
+* [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/bmo84/google-homepage/blob/master/home.html)
 * [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sbadulin/google-homepage/blob/master/index.html)
-* [Lujan Fernaud's solution](https://github.com/lujanfernaud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lujanfernaud/google-homepage/blob/master/index.html)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/lujanfernaud/google-homepage/blob/master/index.html)
 * [Brandy's Solution (easy)](https://github.com/pinedab/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/pinedab/google-homepage/blob/master/googhp/index.html)
 * [Ganesh Naik's Solution (easy)](https://github.com/GaneshNk/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/GaneshNk/google-homepage/blob/master/Project/index.html)
+<<<<<<< HEAD
 * [Melissa's Solution (easy)](https://github.com/fluteloops/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fluteloops/google-homepage/blob/master/index.html)
+=======
+* [Fred Rhae's 'easy' solution(PT-BR)](https://github.com/fredrhae/google_homepage) | ['Difficult' solution (PT-BR)](https://github.com/fredrhae/google_search_page) | [View in Browser (easy)](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html) | [View in Browser (difficult)](http://htmlpreview.github.io/?https://github.com/fredrhae/google_search_page/blob/master/index.html)
+* [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
+* [Lani Huang's Solutions](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/google-homepage) | [View in Browser (easy)](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/web-development-101/google-homepage/index.html) | [View in Browser (difficult)](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/web-development-101/google-homepage/results.html)
+* [haR's Solutions](https://github.com/haRacz/google-homepage/tree/master) | [View in Browser (easy)](http://htmlpreview.github.io/?https://github.com/haRacz/google-homepage/blob/master/index.html) | [View in Browser (difficult)](http://htmlpreview.github.io/?https://github.com/haRacz/google-homepage/blob/master/results.html)
+* [RMF2PT's Solution (easy)](https://github.com/RMF2PT/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/RMF2PT/google-homepage/blob/master/index.html)
+* [Monika Dutka's solution](https://github.com/rawrins/google-homepage.git) | [(View in browser - easy](https://htmlpreview.github.io/?https://github.com/rawrins/google-homepage/blob/master/index.html)
+* [Fred Rhae's Solution (easy)(PT-BR)](https://github.com/fredrhae/google_homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html)
+* [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
+* [Django's Solution (easy)](https://github.com/django18/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/django18/google_homepage/blob/master/index.html)
+* [Sean Smith's Solution (easy)](https://github.com/bonham000) | [View in Browser](http://htmlpreview.github.io/?https://github.com/bonham000/Google/blob/master/index.html)
+*  [Soumik Sur's Solution (easy)](https://github.com/soumikcv/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/soumikcv/google-homepage/blob/master/index.html)
+* [Matt Borgman's 'easy' solution](https://github.com/mgborgman/google_homepage/blob/master/index.html) | ['Difficult' solution](https://github.com/mgborgman/google_results_page/blob/master/index.html) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/mgborgman/google_homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/mgborgman/google_results_page/blob/master/index.html)
+*  [Andrew Artajos' Solution (easy)](https://github.com/dudepare/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/dudepare/google-homepage/blob/master/index.html)
+>>>>>>> c5226f4304fc52dcc8df999df35878fa6f408333
 * Add your solution above this line!
 
-## Additional Resources
-
+## Additional Resources 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
