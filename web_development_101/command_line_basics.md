@@ -35,6 +35,29 @@ You will be making heavy use of the command line throughout this curriculum, the
 2. Complete the first 2 sections of this interactive codecademy course to get a great handle on the navigating and manipulating directories and files [command line course](https://www.codecademy.com/en/courses/learn-the-command-line).
 3. Finally go through Chapter 1 of [Conquering the Command Line](http://conqueringthecommandline.com/book/basics)
 
+## Exercise:
+
+Lets put what you have learnt into practice, use your terminal to accomplish these two exercises:
+
+### Exercise 1:
+In this exercise you will practice creating files and directories and deleting them.
+
+1. Create a new directory in your home directory with the name `test`
+2. Navigate into the `test` directory
+3. Create a new file called `test.txt` * hint use the `touch` command
+4. Navigate back to out of `test` directory
+5. Delete the `test` directory
+
+###Exercise 2:
+In this simple exercise you will create a new directory to hold of the projects you complete for the Odin Project.
+
+1. Create a new directory named `the_odin_project` in your home directory.
+2. Navigate into this new directory
+3. create another directory in here named `web_development_101`
+
+Thats it, your done.
+
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
