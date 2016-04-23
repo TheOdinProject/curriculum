@@ -148,6 +148,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Josh Cummings' solution](https://github.com/obiwan7713/Rails-Blogger.git)| [View in browser](https://protected-inlet-31955.herokuapp.com/)
 * [Lani Huang's soluton](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/blogger) | [View in Browser](https://blooming-ravine-63368.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/project_rails)|[View in Browser](https://infinite-reef-54543.herokuapp.com/)
+* [John Connor's solution](https://github.com/jacgitcz/jumpstart_blogger)|[View in browser](https://vast-falls-55803.herokuapp.com/)
 * Add your solution above this line!
 
 
