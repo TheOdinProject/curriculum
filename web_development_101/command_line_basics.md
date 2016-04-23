@@ -23,7 +23,12 @@ You will be making heavy use of the command line throughout this curriculum, the
 * What is the command line?
 * How do you open it on your computer?
 * How can you navigate into a particular file directory?
+  - Where will `cd` on it's own navigate you to?
+  - Where will `cd..` nagivate you to?
+* How can you see the contents of a directory?
+* How can you see what directory you are currently in?
 * How can you create a directory?
+* How can you create a file?
 * How can you destroy a directory or file?
 * How can you rename a directory or file?
 
@@ -45,17 +50,17 @@ In this exercise you will practice creating files and directories and deleting t
 1. Create a new directory in your home directory with the name `test`
 2. Navigate into the `test` directory
 3. Create a new file called `test.txt` * hint use the `touch` command
-4. Navigate back to out of `test` directory
+4. Navigate back out of the `test` directory
 5. Delete the `test` directory
 
 ###Exercise 2:
-In this simple exercise you will create a new directory to hold of the projects you complete for the Odin Project.
+In this simple exercise you will create a new directory to store the projects you complete for the Odin Project.
 
 1. Create a new directory named `the_odin_project` in your home directory.
 2. Navigate into this new directory
 3. create another directory in here named `web_development_101`
 
-Thats it, your done.
+That's it, your done with command line basics.
 
 
 ## Additional Resources
