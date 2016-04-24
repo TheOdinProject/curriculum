@@ -657,7 +657,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *  [Dennis Lee's Solution (easy)](https://github.com/DennisLee7/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/DennisLee7/google-homepage/blob/master/index.html)
 * [Salomon Paluch Solution (easy)](https://github.com/kruppin/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/kruppin/google-homepage/blob/master/index.html)
 * [Robert Oganiani (easy)](https://github.com/rob777/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/rob777/google-homepage/blob/master/index.html)
-* Add your solution here!!
+* [Samir Talic Solution (easy)](https://github.com/4886Talga/google-homepage) | [View in Browser](https://github.com/4886Talga/google-homepage/blob/master/index.html)
 
 ## Additional Resources 
 
