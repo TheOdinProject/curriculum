@@ -1,6 +1,7 @@
 ### Misc Topics Resources
 
-
+###Learning to code
+* inflection point: http://blog.thefirehoseproject.com/posts/learn-to-code-and-be-self-reliant/
 
 ### Planning for web apps
 
