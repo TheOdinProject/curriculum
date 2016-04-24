@@ -112,6 +112,9 @@ use the pomodoro technique
 
 - minimise distractions
 - use the pomodoro technique
+- 
+
+Resource to use: https://medium.com/p/e485edfb58fd?source=linkShare-990eda675614-1460936349
 
 
 - add this in somewhere https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard
