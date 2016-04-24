@@ -312,6 +312,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Mason Embry's Solutions](https://github.com/embryCODE/project_euler)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/RMF2PT/project_euler/blob/master/index.html)
 * [Jessica G. Solutions](https://github.com/JessicaGillan/problem-solving.git)
+* [Dennis Lee's Solutions](https://github.com/DennisLee7/-TOP-Euler-Projects-1-3)
 * Add your solution above this line!
 
 ## Additional Resources
