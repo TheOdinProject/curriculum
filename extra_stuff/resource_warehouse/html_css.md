@@ -29,3 +29,7 @@
 
 * https://scotch.io/tag/sass
 * http://sass-lang.com/guide
+
+
+**Responsive webdesign**
+* full course: http://gymnasium.aquent.com/courses/GYM/101/0/about
