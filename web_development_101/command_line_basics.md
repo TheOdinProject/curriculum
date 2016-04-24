@@ -41,10 +41,6 @@ You will be making heavy use of the command line throughout this curriculum, the
 3. Finally go through Chapter 1 of [Conquering the Command Line](http://conqueringthecommandline.com/book/basics)
 
 ## Exercise:
-
-Lets put what you have learnt into practice, use your terminal to accomplish these two exercises:
-
-### Exercise 1:
 In this exercise you will practice creating files and directories and deleting them.
 
 1. Create a new directory in your home directory with the name `test`
@@ -52,13 +48,6 @@ In this exercise you will practice creating files and directories and deleting t
 3. Create a new file called `test.txt` * hint use the `touch` command
 4. Navigate back out of the `test` directory
 5. Delete the `test` directory
-
-###Exercise 2:
-In this simple exercise you will create a new directory to store the projects you complete for the Odin Project.
-
-1. Create a new directory named `the_odin_project` in your home directory.
-2. Navigate into this new directory
-3. create another directory in here named `web_development_101`
 
 That's it, your done with command line basics.
 
