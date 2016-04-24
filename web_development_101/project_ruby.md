@@ -167,6 +167,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Shala's solution](https://github.com/ShalaQweghen/project_ruby)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/ruby-project)
 * [Singh Satnam's solution](https://github.com/rssatnam/project-ruby)
+* [dzero's solution](https://github.com/d-zer0/the_odin_project/tree/master/project3_ruby/ruby_testing)
 * Add your solution above this line!
 
 
