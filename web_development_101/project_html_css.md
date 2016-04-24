@@ -658,7 +658,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Salomon Paluch Solution (easy)](https://github.com/kruppin/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/kruppin/google-homepage/blob/master/index.html)
 * [Robert Oganiani (easy)](https://github.com/rob777/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/rob777/google-homepage/blob/master/index.html)
 * [dzero's Solution (easy)](https://github.com/d-zer0/the_odin_project/tree/master/project1_html_css/google_homepage) | [View in Browser](https://cdn.rawgit.com/d-zer0/the_odin_project/master/project1_html_css/google_homepage/index.html)
-* Add your solution here!!
+* [Samir Talic Solution (easy)](https://github.com/4886Talga/google-homepage) | [View in Browser](https://github.com/4886Talga/google-homepage/blob/master/index.html)
 
 ## Additional Resources 
 
