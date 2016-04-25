@@ -150,6 +150,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/project_rails)|[View in Browser](https://infinite-reef-54543.herokuapp.com/)
 * [John Connor's solution](https://github.com/jacgitcz/jumpstart_blogger)|[View in browser](https://vast-falls-55803.herokuapp.com/)
 * [SlurmzMckenzie's Solution](https://github.com/SlurmzMckenzie/basic-blog-project)|[View in browser](https://vast-thicket-51524.herokuapp.com/)
+* [dzero's solution](https://github.com/d-zer0/blogger)|[View in browser](https://mysterious-mountain-26462.herokuapp.com)
 * Add your solution above this line!
 
 
