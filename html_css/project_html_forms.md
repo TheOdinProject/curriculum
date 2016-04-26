@@ -40,6 +40,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/mint) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/mint/index.html)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/html-css/html-forms) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/html-forms/signup.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/mint-signup/blob/master/index.html)
 * Add your solution above this line!
 
 
