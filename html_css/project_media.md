@@ -2,7 +2,7 @@
 
 *Don't forget to use Git to save your projects!*
 
-Back in Web Development 101 you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
+Back in Web Development 101 you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that yo'lul laugh at something as simple as Google.com.
 
 Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) (the example video is one where I describe making contributions to open source).  
 
@@ -52,6 +52,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/html-css/embedding-images-and-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/embedding-images-and-video/faketube.html)
 * [srashidi's solution](https://github.com/srashidi/Embedded_Images) | [View in browser](http://htmlpreview.github.io/?https://github.com/srashidi/Embedded_Images/blob/master/embedded_images.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/utube)
+* [Monika Dutka's solution] (https://github.com/rawrins/youtube-video) | [Preview] (https://htmlpreview.github.io/?https://github.com/rawrins/youtube-video/blob/master/index.html) 
 * Add your solution above this line!
 
 
