@@ -45,7 +45,7 @@ Here are a few books that will take you a bit deeper as well:
 
 You know more than you think.  Remember when we just said that you should keep building stuff?  This website is completely open source and needs your help to improve.  We have a dedicated group of current and former students who help add features and proofread the curriculum.  The best part is that it's completely public and free so you can watch or participate at whatever level you're comfortable.
 
-It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.  So check out our [Google Community](https://plus.google.com/communities/100013596437379837846) and our [Meetup Group](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/) to see what we're up to.  We'd love to have you get involved!
+It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.  So check out the contributing channel on our [slack](https://theodinproject.slack.com/messages/contributing/) to see what we're up to.  We'd love to have you get involved!
 
 ## Conclusion
 
@@ -68,6 +68,5 @@ So there's a lot left to go but it gets better and better.  Stick with it!
 * [Building a Simple CMS in Sinatra Tutorial](http://www.sitepoint.com/a-simple-content-management-system-in-sinatra/)
 * [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)
 * [How I Test by Ryan Bates](http://railscasts.com/episodes/275-how-i-test)
-* [Testing series on TDD and intermediate stuff](http://www.rubyfocus.biz/class_video/2010/07/19/rails_tdd_class_1.html)
 * [Why use the `%Q` methods?](http://stackoverflow.com/questions/10144543/what-is-the-use-case-for-rubys-q-q-quoting-methods)
 * [Ruby on Rails Tutor](http://rubyonrailstutor.github.io/) has free videos that highlight specific sections of Rails.

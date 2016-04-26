@@ -1,6 +1,7 @@
 ### Misc Topics Resources
 
-
+###Learning to code
+* inflection point: http://blog.thefirehoseproject.com/posts/learn-to-code-and-be-self-reliant/
 
 ### Planning for web apps
 
@@ -12,3 +13,13 @@
 
 * history of the web: http://blog.froont.com/brief-history-of-web-design-for-designers/ 
 * What is code: http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/
+
+
+### Problem solving:
+* decomposing problems: http://www.bbc.co.uk/education/guides/zqqfyrd/revision/3
+* Algorithms: http://www.bbc.co.uk/education/guides/zpp49j6/revision
+
+
+### Images
+* upsplash: https://unsplash.com/collections
+* 

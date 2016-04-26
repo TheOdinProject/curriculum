@@ -1,20 +1,16 @@
-##Get into the right mindset to learn
+#Get into the right mindset to learn
 
-Learning to program is a marathon not a sprint, it is a journey full of ups and downs, struggles and triumphs. To get to the finish line you need grit.
+Learning to program is a marathon not a sprint, it is a journey full of ups and downs, struggles and triumphs. To get to the finish line you need grit. Grit is a combination of motivation and persistance, with it you can overcome any challenge.
 
+##Your Motivation For Learning Programming 
 
-Grit
-Grit is a mixture of motivation and persistance, with it you can overcome any challenge.
+This could be to have a fufilling carrer that pays well, it could the creativtey outlet it provides, it may be to have the skills to build any sort of app you can think of, it might be to start your own company by turning a app idea you have into reality. It may be a combination of these reasons or even something else entirely.
 
-Your Motivation For Learning Programming 
+Whatever the resons you have for learning coding this is where your motivation for learning coding comes from. Because you are here reading this on this site I am assuming that you have your reason for learning coding sussed out.
 
-This could be to have a fufilling carrer that pays well, it could the creativtey outlet it provides, it may be to have the skills to build any sort of app you can think of, it might be to start your own company by turning a app idea you have into reality. It may be a comibination of these reasons or even something else entirely.
+Get inspired by the success of others:
 
-What ever the resons you have for learning coding this is what your motivation for learning comes from. Because you are here reading this on this site I am assuming that you have your passion for coding sussed out.
-
-There are things that you can do to boost your motivation for learning programming though,
-
-Get inspired by reading blogs of others who have successfully taught themselves programming:
+Blogs
 take them from this https://bryanttunbutr.wordpress.com/2016/01/03/you-can-get-a-coding-job/
 http://newcodegirl.blogspot.co.uk 
 Get inspired on youtube
@@ -23,15 +19,12 @@ https://www.youtube.com/watch?v=w5ERhKil4wc
 https://www.youtube.com/watch?v=r44RKWyfcFw
 
 Watch some great TV, movies and documentaries about programming
-> watch silicon valley
-> watch halt and catch fire
-> watch the social network
 > watch indie game
 
-Read some great books
-> steve jobs, love him or hate him 
-> Masters of doom - about the guys who created doom and quake, if you want to code 
-> inovators - the history of computing and the stories of the masters
+Read some great books 
+> steve jobs, love him or hate him but without him the tech industry would not be the same
+> Masters of doom - about the guys who created doom and quake, if you want to code all night and day this is the story for you
+> inovators - the history of computing and the stories of those who created this industry
 > Hackers - the guys responsible for modern computing and video games
 
 
@@ -119,6 +112,9 @@ use the pomodoro technique
 
 - minimise distractions
 - use the pomodoro technique
+- 
+
+Resource to use: https://medium.com/p/e485edfb58fd?source=linkShare-990eda675614-1460936349
 
 
 - add this in somewhere https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard

@@ -1,5 +1,6 @@
 # The Cloud, Hosting, and Software as a Service (SAAS)
 <!-- *Estimated Time: 1 hr* -->
+<!-- this could be added to an electives course -->
 
 You've almost certainly heard of the Cloud before and have maybe also heard of SAAS.  The Cloud is really just a way of saying "stored out on the Internet somewhere", which really means "stored on someone else's systems that they let us access using the Internet".  With more and more of the world in possession of 24/7 internet access, that's not necessarily a bad thing.  For software, it has been a great thing.
 
@@ -40,7 +41,4 @@ Even better, when you inevitably want to make large-scale changes or just fix so
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
-* An [Intro to Cloud Computing](http://www.dummies.com/how-to/content/what-is-cloud-computing.html) by Craig Dickson
-* [Cloud computing for dummies](http://www.dummies.com/how-to/content/what-is-cloud-computing.html)
 * An [interesting perspective on SAAS](http://www.itworld.com/article/2780751/software-as-a-service/what-to-ask-before-saying-yes-to-saas--cloud-computing.html) from a few years ago (2008).

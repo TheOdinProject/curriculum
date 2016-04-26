@@ -23,3 +23,13 @@
 **General Layout**
 
 * The layout images in this could be used as exercises: http://designshack.net/articles/layouts/10-rock-solid-website-layout-examples/
+
+
+**SASS**
+
+* https://scotch.io/tag/sass
+* http://sass-lang.com/guide
+
+
+**Responsive webdesign**
+* full course: http://gymnasium.aquent.com/courses/GYM/101/0/about

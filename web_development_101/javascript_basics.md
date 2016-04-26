@@ -295,11 +295,10 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [at0micred's Solutions](https://github.com/at0micr3d/javascript_project_euler)
 * [Murray Berkowitz's Solutions](https://github.com/murray-berkowitz/javascript_project_euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/murray-berkowitz/javascript_project_euler/blob/master/index.html)
 * [Spoon And Birdcage's Solution](https://github.com/SpoonAndBirdcage/project-euler)
-* [Paulo E. Aquino's Solutions] (https://github.com/ennjoi/projecteuler)
+* [Paulo E. Aquino's Solutions](https://github.com/ennjoi/projecteuler)
 * [Deepak's Solutions](https://github.com/Deepak5050/Javascript101/blob/master/script.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/Deepak5050/Javascript101/blob/master/index.html)
 * [Alexander Amirov's solution](https://github.com/xrocketmanx/javascript-practise) | [View in browser](http://htmlpreview.github.io/?https://github.com/xrocketmanx/javascript-practise/blob/master/index.html)
 * [John Connor's solution](https://github.com/jacgitcz/project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/jacgitcz/project_euler/blob/master/euler.html)
-<<<<<<< HEAD
 * [Bruno Nascimento's solution](https://github.com/nscmnto/javascript101) | [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/javascript101/blob/master/index.html) **(Interactive!)**
 * [Tyler K. Solutions](https://github.com/sekurratay/Euler)
 * [Jason Keeney's solution](https://github.com/jkeeney/multiples_of_3_and_5) | [View in browser](https://htmlpreview.github.io/?https://github.com/jkeeney/multiples_of_3_and_5/blob/master/index.html)
@@ -311,6 +310,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/project-euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/lujanfernaud/project-euler/blob/master/index.html)
 * [Mason Embry's Solutions](https://github.com/embryCODE/project_euler)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/RMF2PT/project_euler/blob/master/index.html)
+* [Jessica G. Solutions](https://github.com/JessicaGillan/problem-solving.git)
+* [Dennis Lee's Solutions](https://github.com/DennisLee7/-TOP-Euler-Projects-1-3)
 * [Solution by Andrew Artajos](https://github.com/dudepare/odin-projects/tree/master/project-euler)
 * Add your solution above this line!
 

@@ -147,6 +147,9 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Deepak's solution](https://github.com/Deepak5050/project_rails.git)|[View in browser](https://enigmatic-forest-17007.herokuapp.com/)
 * [Josh Cummings' solution](https://github.com/obiwan7713/Rails-Blogger.git)| [View in browser](https://protected-inlet-31955.herokuapp.com/)
 * [Lani Huang's soluton](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/blogger) | [View in Browser](https://blooming-ravine-63368.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/project_rails)|[View in Browser](https://infinite-reef-54543.herokuapp.com/)
+* [John Connor's solution](https://github.com/jacgitcz/jumpstart_blogger)|[View in browser](https://vast-falls-55803.herokuapp.com/)
+* [SlurmzMckenzie's Solution](https://github.com/SlurmzMckenzie/basic-blog-project)|[View in browser](https://vast-thicket-51524.herokuapp.com/)
 * Add your solution above this line!
 
 

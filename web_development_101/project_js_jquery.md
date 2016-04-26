@@ -393,4 +393,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Shala's Solution](https://github.com/ShalaQweghen/sketch_pad) | [View in Browser (Best viewed on Google Chrome)](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/sketch_pad/blob/master/index.html)
 * [Lani Huang's Solution](https://github.com/laniywh/the-odin-project/tree/master/web-development-101/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/web-development-101/sketchpad/index.html)
 * [Monika Dutka's solution](https://github.com/rawrins/sketchpad-project) | [Preview](http://htmlpreview.github.io/?https://github.com/rawrins/sketchpad-project/blob/master/index.html)
+* [Mason Embry's Solution](https://github.com/embryCODE/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/embryCODE/sketchpad/blob/master/index.html)
+* [Jason Keeney's Solution](https://github.com/jkeeney/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jkeeney/etch-a-sketch/blob/master/index.html)
+* [Luján Fernaud's Solution](https://github.com/lujanfernaud/pixelpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/lujanfernaud/pixelpad/blob/master/index.html)
+* [Ricardo Ferreira's Solution](https://github.com/RMF2PT/odin-etch-a-sketch-js-jquery) | [View in browser](https://htmlpreview.github.io/?https://github.com/RMF2PT/odin-etch-a-sketch-js-jquery/blob/master/index.html)
 * Add your solution above this line!

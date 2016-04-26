@@ -13,6 +13,7 @@
 ### OOP
 
 * Lauch School into to oop book: https://launchschool.com/books/oo_ruby
+* Abstraction: https://medium.com/@Max_Goldstein/making-abstraction-more-concrete-e2e32c157210#.hb6vleaq5
 
 
 

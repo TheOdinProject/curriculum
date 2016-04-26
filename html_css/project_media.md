@@ -51,6 +51,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/youtube/youtube.html)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/html-css/embedding-images-and-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/embedding-images-and-video/faketube.html)
 * [srashidi's solution](https://github.com/srashidi/Embedded_Images) | [View in browser](http://htmlpreview.github.io/?https://github.com/srashidi/Embedded_Images/blob/master/embedded_images.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/utube)
 * Add your solution above this line!
 
 
