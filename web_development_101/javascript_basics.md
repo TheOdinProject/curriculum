@@ -313,6 +313,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/RMF2PT/project_euler/blob/master/index.html)
 * [Jessica G. Solutions](https://github.com/JessicaGillan/problem-solving.git)
 * [Dennis Lee's Solutions](https://github.com/DennisLee7/-TOP-Euler-Projects-1-3)
+* [Fred Rhae's solution](https://github.com/fredrhae/javascript_101_euler_problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/fredrhae/javascript_101_euler_problems/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
