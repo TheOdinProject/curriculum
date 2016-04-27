@@ -606,4 +606,5 @@ Next, make sure your method can handle multiple words:
 * [Earth35's solution](https://github.com/Earth35/basic_ruby_projects/blob/master/substrings.rb)
 * [Metonimie's solution](https://github.com/Metonimie/TheOdinProject/blob/master/Ruby_Building_Blocks/substrings.rb)
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/substring)
+* [Shawn Stovall's solution](https://github.com/shawn-stovall/substrings/blob/master/substrings.rb)
 * Add your solution above this line!
