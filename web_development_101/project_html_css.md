@@ -659,6 +659,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Robert Oganiani (easy)](https://github.com/rob777/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/rob777/google-homepage/blob/master/index.html)
 * [dzero's Solution (easy)](https://github.com/d-zer0/the_odin_project/tree/master/project1_html_css/google_homepage) | [View in Browser](https://cdn.rawgit.com/d-zer0/the_odin_project/master/project1_html_css/google_homepage/index.html)
 * [Marsel Gabdulov's solution (easy)](https://github.com/TriKit/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/TriKit/google_homepage/blob/master/google.html)
+* [Garrison Shea's solution (Easy)](https://github.com/garrisonshea/google-homepage) | [(Difficult)](https://github.com/garrisonshea/google-results) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/garrisonshea/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/garrisonshea/google-results/blob/master/index.html)
 
 ## Additional Resources 
 
