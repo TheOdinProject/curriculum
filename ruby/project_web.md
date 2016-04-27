@@ -75,7 +75,8 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/TwitterBot)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/microblogger)
 * [DV's solution](https://github.com/dvislearning/twitter_spambot)
-* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/microblogger)
+* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/microblogger))
+* [Deepak's solution](https://github.com/Deepak5050/twitter_spambot/blob/master/micro_blogger.rb)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
