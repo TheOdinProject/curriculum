@@ -151,6 +151,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [John Connor's solution](https://github.com/jacgitcz/jumpstart_blogger)|[View in browser](https://vast-falls-55803.herokuapp.com/)
 * [SlurmzMckenzie's Solution](https://github.com/SlurmzMckenzie/basic-blog-project)|[View in browser](https://vast-thicket-51524.herokuapp.com/)
 * [dzero's solution](https://github.com/d-zer0/blogger)|[View in browser](https://mysterious-mountain-26462.herokuapp.com)
+* [Oscar Y's solution](https://github.com/mysteryihs/blogger)|[View in browser](https://stormy-retreat-35241.herokuapp.com/articles)
 * Add your solution above this line!
 
 
