@@ -79,6 +79,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_recursion)
 * [John's solution (returns full sequence)](https://github.com/johnTheDudeMan/the_odin_project/blob/master/ruby_scripts/fibonacci.rb)
 * [DV's solution](https://github.com/dvislearning/fibonacci)
+* [Deepak's solution](https://github.com/Deepak5050/fibonacci/blob/master/fibonacci.rb)
 * Add your solution above this line!
 
 
