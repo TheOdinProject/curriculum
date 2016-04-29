@@ -170,6 +170,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [dzero's solution](https://github.com/d-zer0/the_odin_project/tree/master/project3_ruby/ruby_testing)
 * [dckwong's solution](https://github.com/dckwong/learn_ruby)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby-testfirst)
+* [Promethea Oue's solution](https://github.com/prometheaOue/testfirst_ruby)
 * Add your solution above this line!
 
 
