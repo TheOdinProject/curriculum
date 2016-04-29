@@ -614,4 +614,5 @@ Next, make sure your method can handle multiple words:
 * [Shawn Stovall's solution](https://github.com/shawn-stovall/substrings/blob/master/substrings.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_building_blocks/blob/master/substrings.rb)
 * [John Connor's solution](https://github.com/jacgitcz/substrings)
+* [dzero's solution](https://github.com/d-zer0/substrings/blob/master/substrings.rb)
 * Add your solution above this line!
