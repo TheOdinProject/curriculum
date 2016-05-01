@@ -152,6 +152,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [SlurmzMckenzie's Solution](https://github.com/SlurmzMckenzie/basic-blog-project)|[View in browser](https://vast-thicket-51524.herokuapp.com/)
 * [dzero's solution](https://github.com/d-zer0/blogger)|[View in browser](https://mysterious-mountain-26462.herokuapp.com)
 * [Oscar Y's solution](https://github.com/mysteryihs/blogger)|[View in browser](https://stormy-retreat-35241.herokuapp.com/articles)
+* [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby-on-rails-blogger2)|[View in browser](https://blogger-rmf2pt.herokuapp.com/)
 * Add your solution above this line!
 
 
