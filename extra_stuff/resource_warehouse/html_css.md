@@ -5,6 +5,9 @@
 **Full courses**
 * Khan Academy: https://www.khanacademy.org/computing/computer-programming/html-css
 
+**General CSS**
+* CSS protips: https://github.com/AllThingsSmitty/css-protips
+* Must watch CSS talks: https://github.com/AllThingsSmitty/must-watch-css
 
 **CSS Animations**
 * Free book: http://cssanimationspocketguide.com
@@ -33,3 +36,8 @@
 
 **Responsive webdesign**
 * full course: http://gymnasium.aquent.com/courses/GYM/101/0/about
+
+
+**Misc**
+* Frontend bookmarks: https://github.com/AllThingsSmitty/frontend-dev-bookmarks
+* Frontend Guidelines: https://github.com/AllThingsSmitty/frontend-guidelines
