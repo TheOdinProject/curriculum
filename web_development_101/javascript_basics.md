@@ -315,6 +315,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Fred Rhae's solution](https://github.com/fredrhae/javascript_101_euler_problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/fredrhae/javascript_101_euler_problems/blob/master/index.html)
 * [Solution by Andrew Artajos](https://github.com/dudepare/odin-projects/tree/master/project-euler)
 * [Promethea Oue's solution](https://github.com/prometheaOue/javascript/tree/master/euler)
+* [Garrison Shea's solution](https://github.com/garrisonshea/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/garrisonshea/euler-problems/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
