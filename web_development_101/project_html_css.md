@@ -665,7 +665,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Garrison Shea's solution (Easy)](https://github.com/garrisonshea/google-homepage) | [(Difficult)](https://github.com/garrisonshea/google-results) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/garrisonshea/google-homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/garrisonshea/google-results/blob/master/index.html)
 * [Samir Talic Solution (easy)](https://github.com/4886Talga/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/4886Talga/google-homepage/blob/master/index.html)
 * [Jin Chen Solution (easy)](https://github.com/jinchen93/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jinchen93/google-homepage/blob/master/index.html)
-
+* [Veselin Ivanov's (Bulgarian) easy solution](https://github.com/terlica/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/terlica/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
