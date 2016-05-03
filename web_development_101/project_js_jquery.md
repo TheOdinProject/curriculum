@@ -398,4 +398,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Luján Fernaud's Solution](https://github.com/lujanfernaud/pixelpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/lujanfernaud/pixelpad/blob/master/index.html)
 * [Ricardo Ferreira's Solution](https://github.com/RMF2PT/odin-etch-a-sketch-js-jquery) | [View in browser](https://htmlpreview.github.io/?https://github.com/RMF2PT/odin-etch-a-sketch-js-jquery/blob/master/index.html)
 * [Norman Chan's Solution](https://github.com/slowmanchan/etchAndSketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/slowmanchan/etchAndSketch/blob/master/index.html)
+* [Pete Lambro's Solution](https://github.com/lambrocalrissian/sketchpad-odin-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/lambrocalrissian/sketchpad-odin-project/blob/master/index.html)
 * Add your solution above this line!
