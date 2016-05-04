@@ -47,6 +47,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project4--params-with-restclient/rest-tester)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/rest_client)
 * [Deepak's solution](https://github.com/Deepak5050/rest_client/blob/master/rest_client.rb)
+* [djhart's solution](https://github.com/djhart/rest_client_ex)
 * Add your solution above this line!
 
 
