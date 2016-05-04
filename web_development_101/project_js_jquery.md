@@ -399,4 +399,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ricardo Ferreira's Solution](https://github.com/RMF2PT/odin-etch-a-sketch-js-jquery) | [View in browser](https://htmlpreview.github.io/?https://github.com/RMF2PT/odin-etch-a-sketch-js-jquery/blob/master/index.html)
 * [Norman Chan's Solution](https://github.com/slowmanchan/etchAndSketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/slowmanchan/etchAndSketch/blob/master/index.html)
 * [Pete Lambro's Solution](https://github.com/lambrocalrissian/sketchpad-odin-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/lambrocalrissian/sketchpad-odin-project/blob/master/index.html)
+* [Bryan Giglio's Solution](https://github.com/BryanGigs/odin-proj-jscript-jquery-sketcher) | [View in browser](https://htmlpreview.github.io/?https://github.com/BryanGigs/odin-proj-jscript-jquery-sketcher/blob/master/index.html)
 * Add your solution above this line!
