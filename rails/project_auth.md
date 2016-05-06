@@ -131,6 +131,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project8--members-only!/members-only)
 * [Akshay Bharwani's solution](https://github.com/akshaybharwani/members-only)
 * [Mateo Mejia's solution](https://github.com/mateomgj/rails_authentication_project) | [View in browser](https://enigmatic-reef-29029.herokuapp.com/)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/members-only) | [View in browser](https://members-only-rails.herokuapp.com)
 * Add your solution above this line!
 
 
