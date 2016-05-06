@@ -173,6 +173,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Promethea Oue's solution](https://github.com/prometheaOue/testfirst_ruby)
 * [ac07682's solution](https://github.com/ac07682/test-driven-ruby)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/test-first-ruby)
+* [Mason Embry's Solution](https://github.com/embryCODE/learn_ruby)
 * Add your solution above this line!
 
 
