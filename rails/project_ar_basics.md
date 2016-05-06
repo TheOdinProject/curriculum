@@ -160,6 +160,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project6--micro-reddit/micro-reddit)
 * [Arthur Vieira's solution](https://github.com/arthur-vieira/micro-reddit)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/micro_reddit)
+* [Deepak's solution](https://github.com/Deepak5050/reddit_two/tree/master/app/models)
 * Add your solution above this line!
 
 ## Additional Resources
