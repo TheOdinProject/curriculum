@@ -35,11 +35,12 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_js_tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_js_tictactoe/blob/master/index.html)
 * [Voreny's solution](https://github.com/Gelio/tic-tac-toe) | [View in browser](http://gelio.github.io/tic-tac-toe/)
 * [Wayne's solution](https://github.com/wayneho/Tic_Tac_Toe) | [View in browser](https://rawgit.com/wayneho/Tic_Tac_Toe/master/index.html)
-* [Dan V's solution] (https://github.com/vickerdj/tictactoe) | [View in browser] (http://vickerdj.github.io/tictactoe/) 
-* [Gionaufal's solution] (https://github.com/gionaufal/tic-tac-toe) | [View in browser] (http://htmlpreview.github.io/?https://github.com/gionaufal/tic-tac-toe/blob/master/index.html)
-* [Trajanson's solution] (https://github.com/Trajanson/js-tic-tac-toe) | [View in browser] (http://projects.trajanson.com/jsTicTacToe/)
+* [Dan V's solution](https://github.com/vickerdj/tictactoe) | [View in browser](http://vickerdj.github.io/tictactoe/) 
+* [Gionaufal's solution](https://github.com/gionaufal/tic-tac-toe) | [View in browser](http://htmlpreview.github.io/?https://github.com/gionaufal/tic-tac-toe/blob/master/index.html)
+* [Trajanson's solution](https://github.com/Trajanson/js-tic-tac-toe) | [View in browser](http://projects.trajanson.com/jsTicTacToe/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/tictactoe/index.html)
 * [Yoshua Elmaryono's solution](https://github.com/dotm/tictactoe/tree/gh-pages) | [View in browser](http://dotm.github.io/tictactoe/)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/javascript/tic-tac-toe) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/tic-tac-toe/app/tic-tac-toe.html)
 * Add your solution above this line!
 
 
