@@ -154,6 +154,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Oscar Y's solution](https://github.com/mysteryihs/blogger)|[View in browser](https://stormy-retreat-35241.herokuapp.com/articles)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby-on-rails-blogger2)|[View in browser](https://blogger-rmf2pt.herokuapp.com/)
 * [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/odin-rails)|[View in browser](https://fathomless-falls-23577.herokuapp.com/)
+* [Joshua Hipple's solution](https://github.com/JBHipple/rails_tutorial)|[View in browser](https://secure-woodland-62979.herokuapp.com/)
 * Add your solution above this line!
 
 
