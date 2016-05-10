@@ -668,6 +668,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Veselin Ivanov's (Bulgarian) easy solution](https://github.com/terlica/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/terlica/google-homepage/blob/master/index.html)
 * [Vencer Torres's Solution (Easy)](https://github.com/venzt/odin-project/tree/master/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/venzt/odin-project/master/google-homepage/index.html)
 * [Ryan Walberg's Solution (Easy)](https://github.com/walbergr/google-homepage.git) | [View in Browser](https://htmlpreview.github.io/?https://github.com/walbergr/google-homepage.git)
+* [Christine Gierer's Solution (Easy)] (https://github.com/beansprout/google-homepage.git) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/beansprout/google-homepage.git)
 * Add your solution above this line!
 
 ## Additional Resources 
