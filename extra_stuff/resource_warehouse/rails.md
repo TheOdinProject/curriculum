@@ -14,6 +14,8 @@
 
 * gorails - screen casts: https://gorails.com
 
+* MVC from a bartenders perspective: https://medium.freecodecamp.com/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053#.6o124mrcy
+
 
 
 
