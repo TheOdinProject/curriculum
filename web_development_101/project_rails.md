@@ -165,3 +165,4 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Code Learn's Rails Directory Overview](http://www.codelearn.org/ruby-on-rails-tutorial/rails-directory-overview)
 * An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
 * [Another Ruby on Rails Guide](http://guides.rubyonrails.org/getting_started.html).  This walks through a similar blogger app and will help you add some extra features to your blog such as deleting comments.
+* [Learn Ruby on Rails from Scratch by Jordan Hudgens](https://www.youtube.com/playlist?list=PLgYiyoyNPrv81SdYk-eoMFacl-CJTO_xa)
