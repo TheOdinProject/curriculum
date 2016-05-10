@@ -403,4 +403,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Garrison Shea's Solution](https://github.com/garrisonshea/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/garrisonshea/sketchpad/blob/master/index.html)
 * [Bryan Giglio's Solution](https://github.com/BryanGigs/odin-proj-jscript-jquery-sketcher) | [View in browser](https://htmlpreview.github.io/?https://github.com/BryanGigs/odin-proj-jscript-jquery-sketcher/blob/master/index.html)
 * [Matthew White's Solution](https://github.com/deathbypie/sketchpad) | [View in browser]()
+* [Bruno Nascimento's Solution](https://github.com/nscmnto/etch-a-sketch/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
