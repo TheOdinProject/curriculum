@@ -16,6 +16,8 @@
 
 * MVC from a bartenders perspective: https://medium.freecodecamp.com/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053#.6o124mrcy
 
+* Learn Ruby on Rails from Scratch by Jordan Hudgens: https://www.youtube.com/playlist?list=PLgYiyoyNPrv81SdYk-eoMFacl-CJTO_xa
+
 
 
 
