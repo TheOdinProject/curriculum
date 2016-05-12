@@ -21,10 +21,11 @@ So calling `head.next_node.next_node` would return the third node in the lsit.
 5. Make a `LinkedList#to_s` function to represent your LinkedList objects as strings, so you can print them out and preview them in the console.
   The format should be: `( data ) -> ( data ) -> ( data ) -> nil`
 6. Test it out! Make some LinkedLists and output them to the screen. You should get:
-```language-bash
-  => List contains: ( 1 ) -> ( 2 ) -> ( 3 ) -> nil
-  => List contains: ( h ) -> ( e ) -> ( l ) -> ( o ) -> ( o ) -> nil
-```
+
+  ```bash
+    => List contains: ( 1 ) -> ( 2 ) -> ( 3 ) -> nil
+    => List contains: ( h ) -> ( e ) -> ( l ) -> ( o ) -> ( o ) -> nil
+  ```
 7. Write a method `LinkedList#to_a` that converts a list to an array.
 8. Write a method `LinkedList#find(data)` that returns the index of the node containing data, or nil if not found.
 9. Extra credit: Write a method `LinkedList#insert_at(index)` that inserts the data after the given index 
