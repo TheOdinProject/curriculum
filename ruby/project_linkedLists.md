@@ -8,7 +8,7 @@ A *linked list* is a linear collection of data elements, called nodes "pointing"
 
 	`[ NODE(head) ] -> [ NODE ] -> [ NODE(tail) ] -> nil`
  
-# Your task
+## Your task
 Your task is to build 2 classes, a `Node` class that will represent each node in a list, and a `LinkedList` that will have serval
 utility functions over nodes.
 Note: Don't think about having an array of nodes, have a variable called `next_node` that will "point" to the next node in the list.
@@ -29,3 +29,11 @@ So calling `head.next_node.next_node` would return the third node in the lsit.
 8. Write a method `LinkedList#find(data)` that returns the index of the node containing data, or nil if not found.
 9. Extra credit: Write a method `LinkedList#insert_at(index)` that inserts the data after the given index 
 10. Extra credit: Write a method `LinkedList#remove_at(index)` that removes the node at the given index. ( You will need to reconnect the list when you remove a node )
+
+### Student Solutions
+
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+
+* [Stefan (destroyergm)'s solution](#)
+* Add your solution above this line!
+
