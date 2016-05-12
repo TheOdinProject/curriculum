@@ -670,6 +670,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ryan Walberg's Solution (Easy)](https://github.com/walbergr/google-homepage.git) | [View in Browser](https://htmlpreview.github.io/?https://github.com/walbergr/google-homepage.git)
 * [Christine Gierer's Solution (Easy)] (https://github.com/beansprout/google-homepage.git) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/beansprout/google-homepage.git)
 * [Alina Solodnikova's Solution (Easy)](https://github.com/soldnkva/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/soldnkva/google-homepage/blob/master/index.html)
+* [JalxP Solution (Hard)](https://github.com/JalxP/the_odin_project/tree/master/web_dev_101/html_css_project/google-searchresults) | [View in Browser](https://cdn.rawgit.com/JalxP/the_odin_project/master/web_dev_101/html_css_project/google-searchresults/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
