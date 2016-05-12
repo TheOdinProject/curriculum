@@ -13,6 +13,7 @@ Your task is to build 2 classes, a `Node` class that will represent each node in
 utility functions over nodes.
 Note: Don't think about having an array of nodes, have a variable called `next_node` that will "point" to the next node in the list.
 So calling `head.next_node.next_node` would return the third node in the lsit.
+
 1. Build a `Node` class containing some `data` and a variable to the `next_node` and set it `nil` as default.
 2. Build a `LinkedList` class that has `head` and `tail` variables, representing appropriate nodes in the list.
 3. Make a `LinkedList#add` function that adds a new node to the list. ( **Tip**: You can just add a new node to the tail of the lsit, and then move the tail by 1)
