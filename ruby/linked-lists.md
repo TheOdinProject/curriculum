@@ -24,5 +24,30 @@ A *linked list* is a linear collection of data elements, called nodes "pointing"
 * Does list support indexing, e.g. `list[5]`
 
 ## Abstract implementation - the Node class
+In order to start making our linked list, we need a `Node`, a class that will hold the information about our list. The key point here is that we don't need an `Array` of nodes, we'll just make each node "point" to the next node, and that way we can store it in memory. When we reach a `nil` node, we know that it's the end of a list. You can imagine it like so:
 
+	 \[ NODE(head) \] -\> \[ NODE \] -\> \[ NODE(tail) \] -\> `nil`
+ 
+So in order to store the list in memory we just need one variable, called `head`. Optionally, we could have another variable that points to the end of a Linked List called `tail` which would help with adding nodes to the end of the list. The one-way connected list is also called **singly linked list**, which means that you can only go one way through the list. In order to make a **doubly linked list** you just need to include a previous node to each node so that you may iterate through the list both ways like so:
+	
+	\[ NODE(head) \] \<\-\> \[ NODE \] \<\-\> \[ NODE(tail) \] \<\-\> `nil`
 
+So the node class for our singly linked list will look like:
+```language-ruby
+  class Node
+    attr_accessor :data, :next_node
+    
+    def initialize( data )
+       @data = data
+       next_node = nil
+    end
+  end
+
+```
+And in order to make the Linked list, we would just create code like so:
+```language-ruby
+  head = Node.new(2)
+  head.next_node = Node.new(3)
+  head.next_node.next_node = Node.new(1)
+```
+This would create the following list: `(2) -> (3) -> (1) -> nil`. As you can see, we only need to include one variable, called `head` and our other nodes will exist in memory by "pointing" at them with the `next_node` variable in the `Node` class.
