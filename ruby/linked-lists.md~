@@ -21,6 +21,7 @@ A *linked list* is a linear collection of data elements, called nodes "pointing"
 * Is a list slower or faster then an array at finding elements at an index?
 * Can a list cause memory leaks on some programming languages?
 * What's the differance between a doubly/singly linked list
+* Does list support indexing, eg. `list[5]`
 
 ## Abstract implementation - the Node class
 
