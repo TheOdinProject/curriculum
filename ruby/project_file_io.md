@@ -71,6 +71,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Fabricio Carrara's solution](https://github.com/fcarrara/event_manager)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/serialization/tree/master/event_manager)
 * [Earth35's solution] (https://github.com/Earth35/event_manager)
+* [Austin Mason's solution](https://github.com/CouchofTomato/event_manager)
 * Add your solution above this line!
 
 
@@ -177,6 +178,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Deepak' solution](https://github.com/Deepak5050/hangman/blob/master/hangman.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/serialization/tree/master/hangman)
 * [Earth35's solution] (https://github.com/Earth35/hangman)
+* [Austin Mason's solution](https://github.com/CouchofTomato/hangman)
 * Add your solution above this line!
 
 
