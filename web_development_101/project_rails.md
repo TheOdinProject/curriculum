@@ -156,6 +156,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/odin-rails)|[View in browser](https://fathomless-falls-23577.herokuapp.com/)
 * [Joshua Hipple's solution](https://github.com/JBHipple/rails_tutorial)|[View in browser](https://secure-woodland-62979.herokuapp.com/)
 * [Odeson's solution](https://github.com/odesonex/blogger_2/tree/master/blogger)|[View in browser](http://warm-mesa-83489.herokuapp.com/)
+* [Tom Westerhout's solution](https://github.com/Westw00d/Rails-Blog)|[View in browser](https://glacial-temple-88966.herokuapp.com/)|Including I0 to I6
 * Add your solution above this line!
 
 
