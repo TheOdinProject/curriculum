@@ -406,3 +406,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Bruno Nascimento's Solution](https://github.com/nscmnto/etch-a-sketch/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/etch-a-sketch/blob/master/index.html)
 * [Veselin Ivanov's Solution](https://github.com/terlica/Project_Javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/terlica/Project_Javascript-jQuery/blob/master/index.html)
 * [Salomon Paluch's Solution](https://github.com/kruppin/js_jQuery_Project.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/kruppin/js_jQuery_Project/blob/master/index.html)
+* [jqguess's Solution](https://github.com/jqguess/odin/tree/master/etchasketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jqguess/odin/blob/master/etchasketch/etchasketch.html)
