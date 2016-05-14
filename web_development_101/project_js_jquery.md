@@ -405,4 +405,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Matthew White's Solution](https://github.com/deathbypie/sketchpad) | [View in browser]()
 * [Bruno Nascimento's Solution](https://github.com/nscmnto/etch-a-sketch/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/etch-a-sketch/blob/master/index.html)
 * [Veselin Ivanov's Solution](https://github.com/terlica/Project_Javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/terlica/Project_Javascript-jQuery/blob/master/index.html)
-* Add your solution above this line!
+* [Salomon Paluch's Solution](https://github.com/kruppin/js_jQuery_Project.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/kruppin/js_jQuery_Project/blob/master/index.html)
