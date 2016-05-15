@@ -103,6 +103,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/private-events)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project9--private-events/private-events)
 * [Mateo Mejia's solution](https://github.com/mateomgj/private-events) | [View in browser](https://fierce-brushlands-63385.herokuapp.com/)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/private-events) | [View in browser](https://private-events-rails.herokuapp.com)
 * Add your solution above this line!
 
 
