@@ -166,7 +166,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/advanced_building_blocks/blob/master/bubble_sort.rb)
 * [Earth35's solution] (https://github.com/Earth35/basic_ruby_projects_II/blob/master/bubble_sort.rb)
 * [Kelvin Stone's solution] (https://github.com/KelvinStone/bubble-sort/blob/master/bubble-sort.rb)
-[Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/bubble_sort.rb)
+* [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/bubble_sort.rb)
 * Add your solution above this line!
 
 
