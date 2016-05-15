@@ -41,6 +41,12 @@ Reflect on what you have done, when you find yourself questioning your ability r
 
 remember "failure is not a permament condition" you just havent succeded yet.
 
+# notes
+strugglinb with something is growth, it doesnt matter how much you struggle all that matters is that you have the grit and tenacity to see it through, thats how real growth happens 
+
+Links
+https://www.khanacademy.org/about/blog/post/95208400815/the-learning-myth-why-ill-never-tell-my-son-hes
+
 
 
 --------------------------
