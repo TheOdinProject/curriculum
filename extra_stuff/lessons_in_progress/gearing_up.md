@@ -42,9 +42,9 @@ Reflect on what you have done, when you find yourself questioning your ability r
 remember "failure is not a permament condition" you just havent succeded yet.
 
 # notes
-strugglinb with something is growth, it doesnt matter how much you struggle all that matters is that you have the grit and tenacity to see it through, thats how real growth happens.
+struggling with something is growth, it doesnt matter how much you struggle all that matters is that you have the grit and tenacity to see it through, thats how real growth happens.
 
-Go at your own pace and dont compare yourself to others who are further along in thier learning journey or are seemingly picking things up easier.
+Measure progress against yourself and dont compare yourself to others who are further along in thier learning journey or are seemingly picking things up easier. Reflect on how much you now know compared to how much you knew a week, month or year ago.
 
 Links
 https://www.khanacademy.org/about/blog/post/95208400815/the-learning-myth-why-ill-never-tell-my-son-hes
