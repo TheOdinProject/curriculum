@@ -8,7 +8,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
-1. Do the [Jumpstart Labs Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
+1. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
 2. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
 3. If you're feeling ambitious, add in authentication in section I5. Warning: There is currently an error in this section of the tutorial.  Make sure to enter the :username parameter into both your _form.html.erb and authors controller.  Otherwise you will see an error like this: "authors.username may not be NULL:"
 4. If you're feeling very ambitious, try doing the final Extras section I6.
@@ -155,6 +155,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby-on-rails-blogger2)|[View in browser](https://blogger-rmf2pt.herokuapp.com/)
 * [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/odin-rails)|[View in browser](https://fathomless-falls-23577.herokuapp.com/)
 * [Joshua Hipple's solution](https://github.com/JBHipple/rails_tutorial)|[View in browser](https://secure-woodland-62979.herokuapp.com/)
+* [Odeson's solution](https://github.com/odesonex/blogger_2/tree/master/blogger)|[View in browser](http://warm-mesa-83489.herokuapp.com/)
+* [Tom Westerhout's solution](https://github.com/Westw00d/Rails-Blog)|[View in browser](https://glacial-temple-88966.herokuapp.com/)|Including I0 to I6
 * Add your solution above this line!
 
 
@@ -162,6 +164,5 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Code Learn's Rails Directory Overview](http://www.codelearn.org/ruby-on-rails-tutorial/rails-directory-overview)
 * An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
 * [Another Ruby on Rails Guide](http://guides.rubyonrails.org/getting_started.html).  This walks through a similar blogger app and will help you add some extra features to your blog such as deleting comments.

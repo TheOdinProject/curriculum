@@ -4,6 +4,7 @@
 
 ### Misc
 * why learn ruby: http://www.skilledup.com/articles/4-reasons-learn-ruby-first-programming-language
+* Great tutorials for different parts of ruby: https://www.practicingruby.com/
 
 ### Basics
 
@@ -22,8 +23,8 @@
 
 * http://www.sitepoint.com/design-patterns-in-ruby-observer-singleton/
 
-
-
 ### Interview stuff
 
 * questions to expect: https://gist.github.com/ryansobol/5252653
+
+

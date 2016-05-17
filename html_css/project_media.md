@@ -53,6 +53,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [srashidi's solution](https://github.com/srashidi/Embedded_Images) | [View in browser](http://htmlpreview.github.io/?https://github.com/srashidi/Embedded_Images/blob/master/embedded_images.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/utube)
 * [Monika Dutka's solution] (https://github.com/rawrins/youtube-video) | [Preview] (https://htmlpreview.github.io/?https://github.com/rawrins/youtube-video/blob/master/index.html) 
+* [Destroyergm (Stefan)'s solution](https://github.com/destroyergm/youtube-myversion) | [View in browser](https://htmlpreview.github.io/?https://github.com/destroyergm/youtube-myversion/blob/master/youtube.html)
 * Add your solution above this line!
 
 
