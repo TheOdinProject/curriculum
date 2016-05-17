@@ -132,7 +132,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Akshay Bharwani's solution](https://github.com/akshaybharwani/members-only)
 * [Mateo Mejia's solution](https://github.com/mateomgj/rails_authentication_project) | [View in browser](https://enigmatic-reef-29029.herokuapp.com/)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/members-only) | [View in browser](https://members-only-rails.herokuapp.com)
-* [Stefan (destroyergm)'s solution](https://github.com/destroyergm/members-only) | [View in browser](https://members-only-dest.herokuapp.com/)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/members-only) | [View in browser](https://members-only-dest.herokuapp.com/)
 * [Deepak's solution](https://github.com/Deepak5050/members-only.git) | [View in browser](https://dpoo-members-only.herokuapp.com/)
 * Add your solution above this line!
 

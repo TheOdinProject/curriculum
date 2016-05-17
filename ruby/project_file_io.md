@@ -179,6 +179,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/serialization/tree/master/hangman)
 * [Earth35's solution] (https://github.com/Earth35/hangman)
 * [Austin Mason's solution](https://github.com/CouchofTomato/hangman)
+* [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Hangman-Ruby)
 * Add your solution above this line!
 
 
