@@ -173,6 +173,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Fabricio Carrara's solution (with sweet ASCII)](https://github.com/fcarrara/hangman)
 * [DV's solution](https://github.com/dvislearning/hangman/blob/master/hangman.rb)
 * [Deepak' solution](https://github.com/Deepak5050/hangman/blob/master/hangman.rb)
+* [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Hangman-Ruby)
 * Add your solution above this line!
 
 
