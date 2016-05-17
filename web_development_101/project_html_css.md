@@ -673,6 +673,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [JalxP Solution (Hard)](https://github.com/JalxP/the_odin_project/tree/master/web_dev_101/html_css_project/google-searchresults) | [View in Browser](https://cdn.rawgit.com/JalxP/the_odin_project/master/web_dev_101/html_css_project/google-searchresults/index.html)
 * [jqguess Solution (Easy)](https://github.com/jqguess/odin/tree/master/google_clone) | [View in  Browser](http://htmlpreview.github.io/?https://github.com/jqguess/odin/blob/master/google_clone/google.html)
 * [Ace Cassidy's Solution (Flexbox Easy)](https://github.com/Ace-Cassidy/google-homepage) | [View in  Browser](https://htmlpreview.github.io/?https://github.com/Ace-Cassidy/google-homepage/blob/master/index.html)
+* [Kenneth Curtis's Solution (Easy)](https://github.com/kmcurtis915/google-homepage) | [View in 
+Browser](https://htmlpreview.github.io/?https://github.com/kmcurtis915/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
