@@ -192,12 +192,12 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 4. Create `#my_all?` (continue as above)
 5. Create `#my_any?`
 6. Create `#my_none?`
-6. Create `#my_count`
-4. Create `#my_map`
-6. Create `#my_inject`
-7. Test your `#my_inject` by creating a method called `#multiply_els` which multiplies all the elements of the array together by using `#my_inject`, e.g. `multiply_els([2,4,5]) #=> 40`
-7. Modify your `#my_map` method to take a proc instead.
-8. Modify your `#my_map` method to take either a proc, a block, or both, but executing the block only if both are supplied (in which case it would execute both the block AND the proc).
+7. Create `#my_count`
+8. Create `#my_map`
+9. Create `#my_inject`
+10. Test your `#my_inject` by creating a method called `#multiply_els` which multiplies all the elements of the array together by using `#my_inject`, e.g. `multiply_els([2,4,5]) #=> 40`
+11. Modify your `#my_map` method to take a proc instead.
+12. Modify your `#my_map` method to take either a proc or a block. It won't be necessary to apply both a proc and a block in the same `#my_map` call since you could get the same effect by chaining together one `#my_map` call with the block and one with the proc. This approach is also clearer, since the user doesn't have to remember whether the proc or block will be run first. So if both a proc and a block are given, only execute the proc.
 
 **Quick Tips:**
 
