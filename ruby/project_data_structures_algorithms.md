@@ -159,6 +159,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [djhart's solution](https://github.com/djhart/knight_path)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_data_structures/tree/master/knight_moves)
 * [Earth35's solution](https://github.com/Earth35/knight_moves)
+* [DV's solution](https://github.com/dvislearning/knight_travels/blob/master/knight_travels.rb)
 * Add your solution above this line!
 
 ## Additional Resources
