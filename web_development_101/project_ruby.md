@@ -144,6 +144,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Anvekar's solution](https://github.com/gga26/Rspec-Tests)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/learn_ruby)
 * [Jess Farley's solution](https://github.com/littlemighty/test_first)
+* [Julia Taylor's solution](https://github.com/juliataylor83/project-ruby)
 * Add your solution above this line!
 
 
