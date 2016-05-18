@@ -31,15 +31,15 @@ Read some great books
 the growth mindset
 There is a wide body of research that supports that intellenge is not fixed, it can be developed.
 
-What does this mean for you? you can learn new skills and develop new talents, with persistance and you can learn anything This is called a growth mindset. There will be many time's throughout this curriculum and after in your programming carrer that you will be stuck with a concept or a programming problem and may find yourself questioning you ability to learn programming.
+What does this mean for you? you can learn new skills and develop new talents, with persistance you can learn anything This is called a growth mindset. There will be many times throughout this curriculum and after in your programming carrer that you will be stuck with a concept or a programming problem and may find yourself questioning you ability to learn programming.
 
 When you find yourself in this position, remind youself that you may not get it *yet* but with persistance and grit you will. The only way you can fail is if you give up.
 
 While your working through the curriculum do not focus on the struggles you encounter instead celebrate your persistance at overcoming those struggles and completing projects and learning concepts
 
-Reflect on what you have done, when you find yourself questioning your ability reflect on the successes you have had, the projects you have completd and the conspets you at one time didnt understand but now do.
+Reflect on what you have done, when you find yourself questioning your ability reflect on the successes you have had, the projects you have compeletd and the concepets you at one time didnt understand but now do.
 
-remember "failure is not a permament condition" you just havent succeded yet.
+remember "failure is not a permament condition" you just havent succeded **yet**.
 
 # notes
 struggling with something is growth, it doesnt matter how much you struggle all that matters is that you have the grit and tenacity to see it through, thats how real growth happens.
