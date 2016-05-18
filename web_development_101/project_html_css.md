@@ -675,6 +675,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ace Cassidy's Solution (Flexbox Easy)](https://github.com/Ace-Cassidy/google-homepage) | [View in  Browser](https://htmlpreview.github.io/?https://github.com/Ace-Cassidy/google-homepage/blob/master/index.html)
 * [Michael Moore's Solution](https://github.com/MMoore27/google-homepage) | [View in  Browser](https://htmlpreview.github.io/?https://github.com/MMoore27/google-homepage/blob/master/index.html)
 * [John Alcher's Solution](https://github.com/alchermd/google-homepage) | [View in  Browser](https://htmlpreview.github.io/?https://github.com/alchermd/google-homepage/blob/master/index.html)
+* [Henry Harding's Solution (Easy)](https://github.com/henrythedj/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/henrythedj/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
