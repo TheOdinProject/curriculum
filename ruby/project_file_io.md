@@ -180,6 +180,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Earth35's solution] (https://github.com/Earth35/hangman)
 * [Austin Mason's solution](https://github.com/CouchofTomato/hangman)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Hangman-Ruby)
+* [Alejandro Corredor's solution](https://github.com/aecorredor/hangman)
 * Add your solution above this line!
 
 
