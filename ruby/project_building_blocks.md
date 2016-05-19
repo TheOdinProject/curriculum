@@ -219,7 +219,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Earth35's solution](https://github.com/Earth35/basic_ruby_projects/blob/master/caesar_cipher.rb)
 * [Metonimie's solution](https://github.com/Metonimie/TheOdinProject/blob/master/Ruby_Building_Blocks/caesar_cipher.rb)
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/caesar_cipher)
-* [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/ruby_building_blocks/caesar_cipher.rb)
+* [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [Marsel Gabdulov's solution](https://github.com/TriKit/caesar_cipher)
 * [Shawn Stovall's solution](https://github.com/shawn-stovall/caesar-cipher/blob/master/cipher.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_building_blocks/blob/master/caesar_cipher.rb)
@@ -418,7 +418,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_building_blocks/blob/master/stock_picker.rb)
 * [John Connor's solution](https://github.com/jacgitcz/stockticker)
 * [dzero's solution](https://github.com/d-zer0/stock_picker)
-* [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/ruby_building_blocks/stock_picker.rb)
+* [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/stock_picker.rb)
 * Add your solution above this line!
 
@@ -618,6 +618,6 @@ Next, make sure your method can handle multiple words:
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_building_blocks/blob/master/substrings.rb)
 * [John Connor's solution](https://github.com/jacgitcz/substrings)
 * [dzero's solution](https://github.com/d-zer0/substrings/blob/master/substrings.rb)
-* [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/ruby_building_blocks/substrings.rb)
+* [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/substrings.rb)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/substrings.rb)
 * Add your solution above this line!
