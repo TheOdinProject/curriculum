@@ -319,6 +319,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Veselin Ivanov's solution](https://github.com/terlica/Project-Euler.git)
 * [jqguess solution](https://github.com/jqguess/odin/tree/master/eulerProblems)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/ProjectEuler.git)
+* [John Alcher's solution](https://github.com/alchermd/project-euler.git)
 * Add your solution above this line!
 
 ## Additional Resources
