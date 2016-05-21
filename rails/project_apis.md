@@ -115,6 +115,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/odin-kittens)
 * [Top's solution](https://github.com/TopOneOfTopOne/kittens-api) | [View in Browser](https://teseter.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/odin-kittens)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/odin-kittens)
 * Add your solution above this line!
 
 
