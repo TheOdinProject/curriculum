@@ -157,6 +157,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Joshua Hipple's solution](https://github.com/JBHipple/rails_tutorial) | [View in browser](https://secure-woodland-62979.herokuapp.com/)
 * [Odeson's solution](https://github.com/odesonex/blogger_2/tree/master/blogger) | [View in browser](http://warm-mesa-83489.herokuapp.com/)
 * [Tom Westerhout's solution](https://github.com/Westw00d/Rails-Blog) | [View in browser](https://glacial-temple-88966.herokuapp.com/) | Including I0 to I6
+* [Mason Embry's solution](https://github.com/embryCODE/blogger) | [View in browser](http://intense-ravine-24587.herokuapp.com/)
 * Add your solution above this line!
 
 
