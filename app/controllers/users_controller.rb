@@ -1,31 +1,24 @@
 class UsersController < ApplicationController
 
-  before_filter :authenticate_user!
-  before_filter :check_current_user, :only => [:edit, :update]
+  before_action :set_user, except: [:index, :send_confirmation_link]
+  before_action :authenticate_user!
+  before_action :check_current_user, :only => [:edit, :update]
 
   def show
-    @user = User.find_by_id(params[:id])
-    if @user
-    else
-      flash[:error] = "There was no user by that name"
-      redirect_to :back
-    end
+    handle_nil_user if @user.nil?
   end
 
   def edit
-    @user = User.find_by_id(params[:id])
     if @user
       @edit = true
       render :show
     else
-      flash[:error] = "There was no user by that name"
-      redirect_to :back
+      handle_nil_user
     end
   end
 
   # NOTE: This is actually done by Devise's RegistrationsController
   def update
-    @user = User.find(params[:id])
     if @user.update_attributes( user_params )
       flash[:success] = "Your profile was updated successfully"
       redirect_to @user
@@ -81,4 +74,14 @@ class UsersController < ApplicationController
     :provider
   )
   end
+
+  private
+    def set_user
+      @user = User.find_by_id(params[:id])
+    end
+
+    def handle_nil_user
+      flash[:error] = "There was no user by that name"
+      redirect_to :back
+    end
 end
