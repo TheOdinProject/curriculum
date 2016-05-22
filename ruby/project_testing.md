@@ -48,6 +48,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * Fabricio Carrara's solution ([Caesar Cipher](https://github.com/fcarrara/caesar_cipher), [Enumerable](https://github.com/fcarrara/ruby_advanced_building_blocks), [Tic Tac Toe](https://github.com/fcarrara/oop_with_ruby/tree/master/tic_tac_toe)
 * Ricardo Villegas' solution ([Caesar Cipher](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/caesar_cipher_spec.rb), [My_Enumerable Methods](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/my_enumerables_spec.rb),) [Tic-Tac-Toe](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/tic_tac_toe_spec.rb))
 * [Deepak's solution](https://github.com/Deepak5050/rspec_warmup.git)
+* [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/warmup)
 * Add your solution above this line!
 
 
@@ -97,11 +98,8 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [djhart's solution](https://github.com/djhart/connect_four)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/connect_four_tdd)
 * Ricardo Villegas' solution ([Game code](https://github.com/claricardo/RubyBuildingBlocks/blob/master/connect_four.rb), [Game tests](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/connect_four_spec.rb))
+* [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/connect_four)
 * Add your solution above this line!
-
-
-*How long did these projects take you?  [Let us know!](mailto:curriculum@theodinproject.com)*
-
 
 ## Additional Resources
 
