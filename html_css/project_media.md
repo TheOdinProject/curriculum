@@ -54,6 +54,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Miguel Herrera's solution](https://github.com/migueloherrera/utube)
 * [Monika Dutka's solution] (https://github.com/rawrins/youtube-video) | [Preview] (https://htmlpreview.github.io/?https://github.com/rawrins/youtube-video/blob/master/index.html) 
 * [Destroyergm (Stefan)'s solution](https://github.com/destroyergm/youtube-myversion) | [View in browser](https://htmlpreview.github.io/?https://github.com/destroyergm/youtube-myversion/blob/master/youtube.html)
+* https://github.com/J-kaizen/embedded_media
 * Add your solution above this line!
 
 
