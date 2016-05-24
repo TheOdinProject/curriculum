@@ -184,6 +184,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Hangman-Ruby)
 * [Alejandro Corredor's solution](https://github.com/aecorredor/hangman)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/serialization-project/hangman)
+* [John Connor's solution](https://github.com/jacgitcz/hangman)
 * Add your solution above this line!
 
 
