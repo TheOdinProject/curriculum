@@ -408,4 +408,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Salomon Paluch's Solution](https://github.com/kruppin/js_jQuery_Project.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/kruppin/js_jQuery_Project/blob/master/index.html)
 * [jqguess's Solution](https://github.com/jqguess/odin/tree/master/etchasketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jqguess/odin/blob/master/etchasketch/etchasketch.html)
 * [Ace Cassidy's Solution](https://github.com/Ace-Cassidy/Sketchpad) | [View in browser](https://cdn.rawgit.com/Ace-Cassidy/Sketchpad/master/index.html)
-* https://github.com/J-kaizen/etch-a-pad
+* [J-kaizen's solution](https://github.com/J-kaizen/etch-a-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/etch-a-pad/blob/master/index.html)
+
