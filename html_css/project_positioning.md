@@ -36,6 +36,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Cameron Kelley's Solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/ny-times) | [view in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/ny-times/index.html)
 * [Luke Walker's Solution](https://github.com/ubershibs/odin-html-css/tree/master/nytimes) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/nytimes/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/nytimes) | [View in Browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/nytimes/blob/master/index.html)
+* [srashidi's solution](https://github.com/srashidi/The_Odin_Project/tree/master/HTML5%20and%20CSS3/Positioning_Elements/nyt-article) | [View in Browser](http://htmlpreview.github.io/?https://github.com/srashidi/The_Odin_Project/blob/master/HTML5%20and%20CSS3/Positioning_Elements/nyt-article/article.html)
 * Add your solution above this line!
 
 
