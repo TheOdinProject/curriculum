@@ -228,6 +228,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/caesar_cypher.rb)
 * [Josh Hipple's solution](https://github.com/JBHipple/caesar_cipher/blob/master/caesar_cipher.rb)
 * [Odeson's solution](https://github.com/schoettker/Ruby-Blocks/blob/master/caesar_cipher.rb)
+* [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/caesar_cipher/blob/master/caesar.rb)
 * Add your solution above this line!
 
 
