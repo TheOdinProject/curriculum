@@ -177,6 +177,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [At0micr3d's Solution](https://github.com/at0micr3d/project_ruby.git)
 * [Armin Zierlinger's Solution](https://github.com/ArminZierlinger/Ruby)
 * [Ace Cassidy's Solution](https://github.com/Ace-Cassidy/rspec_problems.git)
+* [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/test-first-ruby)
 * Add your solution above this line!
 
 
