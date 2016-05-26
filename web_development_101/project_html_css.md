@@ -681,6 +681,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Kenneth Curtis's Solution (Easy)]( https://github.com/kmcurtis915/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/kmcurtis915/google-homepage/blob/master/index.html)
 * [Seiji's Solution (Easy)](https://github.com/seijibas/google-homepage) | [View in Browser](http://seijibas.github.io/google-homepage/)
 * [Jiazhi Guo's Solution (Easy)](https://github.com/jerrykuo7727/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jerrykuo7727/google-homepage/blob/master/homepage.html)
+* [Henry Tran's Solution (Difficult)](https://github.com/hnrytrn/google-search-page) | [View in Browser](http://hnrytrn.github.io/google-search-page/)
 * Add your solution above this line!
 
 ## Additional Resources 
