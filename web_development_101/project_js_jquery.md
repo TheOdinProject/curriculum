@@ -411,3 +411,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/jerrykuo7727/Etch-A-Sketch/blob/master/index.html)
 * [Joe Campbell's solution](https://github.com/j-campbell/jQueryProject-TheOdinProject) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/j-campbell/jQueryProject-TheOdinProject/master/index.html)
 * [Seiji's solution](https://github.com/seijibas/sketchpad) | [View in browser](http://seijibas.github.io/sketchpad/)
+* [John Alcher's solution](https://github.com/alchermd/sketch-pad/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/alchermd/sketch-pad/blob/master/index.html)
