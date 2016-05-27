@@ -34,6 +34,7 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Luke Walker's Solution](https://github.com/ubershibs/odin-html-css/tree/master/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/apple/index.html)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html) cloning [http://touchstonejs.io/](http://touchstonejs.io/) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/apple/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/gradients/blob/master/index.html)
 * Add your solution above this line!
 
 
