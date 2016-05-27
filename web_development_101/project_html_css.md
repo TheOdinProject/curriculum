@@ -683,6 +683,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Jiazhi Guo's Solution (Easy)](https://github.com/jerrykuo7727/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jerrykuo7727/google-homepage/blob/master/homepage.html)
 * [Henry Tran's Solution (Difficult)](https://github.com/hnrytrn/google-search-page) | [View in Browser](http://hnrytrn.github.io/google-search-page/)
 * [Emil Dimitrov's Solution (Easy)](https://github.com/emo1/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/emo1/google-homepage/blob/master/index.html)
+* [Ariana Herbst's Solution (Easy)](https://github.com/arianaherbst/Googe-Homepage) | [View in Browser](https://cdn.rawgit.com/arianaherbst/Googe-Homepage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
