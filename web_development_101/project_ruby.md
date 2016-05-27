@@ -178,6 +178,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Armin Zierlinger's Solution](https://github.com/ArminZierlinger/Ruby)
 * [Ace Cassidy's Solution](https://github.com/Ace-Cassidy/rspec_problems.git)
 * [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/test-first-ruby)
+* [Robert Merriman's Solution](https://github.com/RobertBMerriman/learn_ruby)
 * Add your solution above this line!
 
 
