@@ -30,6 +30,7 @@ The process will be quite similar to what we've done before.  At this point, you
 * [Dusan Milosavljevic's solution](https://github.com/dusanmilosavljevic1624/Project-Responsive-Design) | [View in browser](http://dusanmilosavljevic1624.github.io/Project-Responsive-Design/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/tnw) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/tnw/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/the-next-web) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/the-next-web/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/html5_site) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/html5_site/blob/master/index.html)
 * Add your solution above this line!
 
 
