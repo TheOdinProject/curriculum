@@ -632,4 +632,5 @@ Next, make sure your method can handle multiple words:
 * [Josh Hipple's solution](https://github.com/JBHipple/substrings/blob/master/substrings.rb)
 * [Odeson's solution](https://github.com/schoettker/Ruby-Blocks/blob/master/substrings.rb)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/substrings.rb)
+* [Joseph Campbells's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/substrings.rb)
 * Add your solution above this line!
