@@ -686,6 +686,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ariana Herbst's Solution (Easy)](https://github.com/arianaherbst/Googe-Homepage) | [View in Browser](https://cdn.rawgit.com/arianaherbst/Googe-Homepage/master/index.html)
 * [Peter Fossum's Solution (Easy)](https://github.com/PeterFossum/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/PeterFossum/google-homepage/blob/master/index.html)
 * [sdo91's Solution] (https://github.com/sdo91/google_homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/sdo91/google_homepage/blob/master/google.html)
+* [Ziqian Xu's Solution] (https://github.com/reploid3660/google-homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/reploid3660/google-homepage/blob/master/google.html)
 * Add your solution above this line!
 
 ## Additional Resources 
