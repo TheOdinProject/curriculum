@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'capybara-webkit'
 require 'fakeweb'
 
 feature "Search" do
@@ -30,7 +29,7 @@ feature "Search" do
       visit curriculum_path
       # Make the window big enough so the navbar doesn't collapse
       # and hide the search field!
-      page.driver.browser.manage.window.resize_to(1200,600)
+      page.driver.resize(1200,600)
     end
     
     it "should have a searchbox (JS TEST)", :js => true do

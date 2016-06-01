@@ -6,6 +6,8 @@ require File.expand_path("../../config/environment", __FILE__)
 require 'rspec/rails'
 require 'capybara/rails'
 require 'capybara/rspec'
+require 'phantomjs'
+require 'capybara/poltergeist'
 DEFAULT_HOST = "localhost"
 
 # Requires supporting ruby files with custom matchers and macros, etc,
@@ -13,7 +15,7 @@ DEFAULT_HOST = "localhost"
 Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
 
 def wait_for_ajax
-  Timeout.timeout(Capybara.default_wait_time) do
+  Timeout.timeout(Capybara.default_max_wait_time) do
     loop do
       active = page.evaluate_script('jQuery.active')
       break if active == 0
@@ -23,15 +25,12 @@ end
 
 RSpec.configure do |config|
   config.include Capybara::DSL
-  Capybara.javascript_driver = :webkit
+  Capybara.javascript_driver = :poltergeist
   Capybara.always_include_port = true
   Capybara.default_host = "http://#{DEFAULT_HOST}"
-  #fixes issues with capybara not detecting db changes made during tests
-  config.use_transactional_fixtures = false
 
-  # Capybara.default_driver = :selenium
-  Capybara.register_driver :selenium do |app|
-    Capybara::Selenium::Driver.new(app, :browser => :firefox)
+  Capybara.register_driver :poltergeist do |app|
+    Capybara::Poltergeist::Driver.new(app, :phantomjs => Phantomjs.path)
   end
 
   config.before :each do
