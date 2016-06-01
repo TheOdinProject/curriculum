@@ -160,6 +160,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Mason Embry's solution](https://github.com/embryCODE/blogger) | [View in browser](http://intense-ravine-24587.herokuapp.com/)
 *  [Paul McGarry's solution](https://github.com/thiswillhavetodo/rails_blogger) | [View in browser](https://stark-springs-70603.herokuapp.com/) | Completed to I6
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/blogger) | [View in browser](https://sheltered-scrubland-87671.herokuapp.com/)
+* [Ace Cassidy's solution](https://github.com/Ace-Cassidy/Blogger) | [View in browser](https://salty-chamber-16317.herokuapp.com)
 * Add your solution above this line!
 
 
