@@ -692,6 +692,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ziqian Xu's Solution](https://github.com/reploid3660/google-homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/reploid3660/google-homepage/blob/master/google.html)
 * [Tim Handy's Solution](https://github.com/TimHandy/google-homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/TimHandy/google-homepage/blob/master/index.html)
 * [David Frost's Solution](https://github.com/dmfrost/google-homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/dmfrost/google-homepage/blob/master/index.html)
+* Ariana Fa's Solution
 * Add your solution above this line!
 
 ## Additional Resources
