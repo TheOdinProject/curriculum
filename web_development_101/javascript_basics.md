@@ -326,6 +326,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Henry Tran's solution](https://github.com/hnrytrn/project-euler)
 * [Kelly Williams' solution](https://github.com/kellymarjorie/ProjectEuler)
 * [Henry the Dj's solution](https://github.com/henrythedj/eulers)
+* [Marc Sanmiquel's solution](https://github.com/marcsanmi/Learning/tree/master/Euler)
 * Add your solution above this line!
 
 ## Additional Resources
