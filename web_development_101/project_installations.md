@@ -72,7 +72,7 @@ You can install Ubuntu along side Windows on your machine by dual booting. This 
 * To switch between your two operating systems you will have to reboot your computer.
 
 ####Option 2 - Use a Virtual Machine
-A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a a virtual machine is. You can use [this](https://www.youtube.com/watch?v=iThHGPX7bPs) guide to set up this option.
+A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a a virtual machine is. You can use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
 
 **Pros**
 
@@ -148,6 +148,8 @@ These installfests will take you through the steps to install everything on your
 
 1. Complete the entire [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.0.0` or a similar number.  `$ rails -v` should give you something like `4.0.0`.
+
+if you have trouble with the installfest, or are using ubuntu 16.04 check out [gorails](https://gorails.com/setup/ubuntu/16.04)
   
 ## Checklist
 

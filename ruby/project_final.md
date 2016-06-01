@@ -52,6 +52,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Sahil Agarwal's solution] (https://github.com/sahilda/the_odin_project/tree/master/rubyChess)
 * [James Brooks's solution](https://github.com/jhbrooks/chess)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/chess)
+* [Earth35's solution](https://github.com/Earth35/chess)
 * Add your solution above this line!
 
 

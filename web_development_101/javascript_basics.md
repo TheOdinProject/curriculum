@@ -320,6 +320,13 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [jqguess solution](https://github.com/jqguess/odin/tree/master/eulerProblems)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/ProjectEuler.git)
 * [Alina Solodnikova's solution](https://github.com/soldnkva/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/soldnkva/project-euler/blob/master/index.html)
+* [John Alcher's solution](https://github.com/alchermd/project-euler.git)
+* [Seiji's solution](https://github.com/seijibas/odin-project/tree/master/project-euler)
+* [Tom Bell's solution](https://github.com/bellt/odin_project-project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/bellt/odin_project-project_euler/blob/master/index.html)
+* [Henry Tran's solution](https://github.com/hnrytrn/project-euler)
+* [Kelly Williams' solution](https://github.com/kellymarjorie/ProjectEuler)
+* [Henry the Dj's solution](https://github.com/henrythedj/eulers)
+* [Marc Sanmiquel's solution](https://github.com/marcsanmi/Learning/tree/master/Euler)
 * Add your solution above this line!
 
 ## Additional Resources

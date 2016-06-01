@@ -28,16 +28,15 @@ It's difficult to find good resources to teach RSpec for free.  There are some d
 ## Your Assignment
 
 1. Go back to the Web Development 101 course and do the [RSpec section](/web-development-101/testing-basics) if you haven't already.
-2. Watch [this video walkthrough](http://www.youtube.com/watch?v=JhR9Ib1Ylb8&feature=relmfu) of writing some RSpec tests for a small bit of sample code in the Test-Driven Development (TDD) fashion. 
-3. Read [this blog entry introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse for a slightly more formal grounding in the basics.
+2. Get started writing your own tests by reading [this 3-part series](https://semaphoreci.com/community/series/learn-rspec) and following the tutorial in part 1.
 3. Take a glance at the [Relish RSpec official documentation](https://www.relishapp.com/rspec/rspec-core/v/2-4/docs).  It will be a good resource for when you're scratching your head later.
-3. Glance through [Better Specs](http://betterspecs.org), which shows tons of examples of what you should and shouldn't do with RSpec.
-4. (Optional) [This RSpec Tutorial from TutsPlus](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-testing-with-rspec/) will give you another example walkthrough of tests being written.
+4. Glance through [Better Specs](http://betterspecs.org), which shows tons of examples of what you should and shouldn't do with RSpec.
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [The RSpec Book](http://www.amazon.com/The-RSpec-Book-Behaviour-Development/dp/1934356379) is THE book on RSpec.
+* [This video walkthrough](http://www.youtube.com/watch?v=JhR9Ib1Ylb8&feature=relmfu) and [the written tutorial version](http://net.tutsplus.com/tutorials/ruby/ruby-for-newbies-testing-with-rspec/) will give you another example walkthrough of tests being written, though some of the syntax is a bit out-dated.
+* [The RSpec Book](http://www.amazon.com/The-RSpec-Book-Behaviour-Development/dp/1934356379) is THE book on RSpec, but at this point it's a little out-dated.
 * The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
 * Read the [Wikipedia Page on Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) for context on TDD if you're still feeling unfamiliar.

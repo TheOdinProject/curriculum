@@ -176,6 +176,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Mason Embry's Solution](https://github.com/embryCODE/learn_ruby)
 * [At0micr3d's Solution](https://github.com/at0micr3d/project_ruby.git)
 * [Armin Zierlinger's Solution](https://github.com/ArminZierlinger/Ruby)
+* [Ace Cassidy's Solution](https://github.com/Ace-Cassidy/rspec_problems.git)
+* [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/test-first-ruby)
+* [Robert Merriman's Solution](https://github.com/RobertBMerriman/learn_ruby)
+* [Seiji's Solution](https://github.com/seijibas/learn-ruby)
 * Add your solution above this line!
 
 

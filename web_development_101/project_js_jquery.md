@@ -14,7 +14,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
     2. Best to put your grid squares inside another "container" div.
-    2. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_install.asp), you can grab it directly in your HTML by adding `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>` inside your `<head>` tag above any other JS files.
+    2. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_get_started.asp), you can grab it directly in your HTML by adding `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>` inside your `<head>` tag above any other JS files.
     1. There are several different ways to make the divs appear as a grid (versus just one on each line) -- `float`/`clear`, using a `table`, and `inline-block` displays.  Play with each of them.
     2. Careful with your border or margins... they'll add size to the squares!
     3. "OMFG, Why isn't my grid being created???"
@@ -408,3 +408,11 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Salomon Paluch's Solution](https://github.com/kruppin/js_jQuery_Project.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/kruppin/js_jQuery_Project/blob/master/index.html)
 * [jqguess's Solution](https://github.com/jqguess/odin/tree/master/etchasketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jqguess/odin/blob/master/etchasketch/etchasketch.html)
 * [Ace Cassidy's Solution](https://github.com/Ace-Cassidy/Sketchpad) | [View in browser](https://cdn.rawgit.com/Ace-Cassidy/Sketchpad/master/index.html)
+* [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/jerrykuo7727/Etch-A-Sketch/blob/master/index.html)
+* [Joe Campbell's solution](https://github.com/j-campbell/jQueryProject-TheOdinProject) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/j-campbell/jQueryProject-TheOdinProject/master/index.html)
+* [Seiji's solution](https://github.com/seijibas/sketchpad) | [View in browser](http://seijibas.github.io/sketchpad/)
+* [J-kaizen's solution](https://github.com/J-kaizen/etch-a-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/etch-a-pad/blob/master/index.html)
+* [John Alcher's solution](https://github.com/alchermd/sketch-pad/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/alchermd/sketch-pad/blob/master/index.html)
+* [Emil Dimitrov's Solution](https://github.com/emo1/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/emo1/sketch-pad/blob/master/index.html)
+* [Tom Bell's solution](https://github.com/bellt/odin_project-sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/bellt/odin_project-sketchpad/blob/master/index.html)
+* Add your solution above this line!

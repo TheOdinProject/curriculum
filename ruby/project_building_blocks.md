@@ -226,6 +226,12 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [John Connor's solution](https://github.com/jacgitcz/caesar_cipher)
 * [dzero's solution](https://github.com/d-zer0/caeser_cipher/blob/master/lib/caesar_cipher.rb)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/caesar_cypher.rb)
+* [Josh Hipple's solution](https://github.com/JBHipple/caesar_cipher/blob/master/caesar_cipher.rb)
+* [Odeson's solution](https://github.com/schoettker/Ruby-Blocks/blob/master/caesar_cipher.rb)
+* [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/caesar_cipher/blob/master/caesar.rb)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/caesar_cypher.rb)
+* [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/Cipher.rb)
+* [Joseph Campbell's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/caesar.rb)
 * Add your solution above this line!
 
 
@@ -420,6 +426,11 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [dzero's solution](https://github.com/d-zer0/stock_picker)
 * [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/stock_picker.rb)
+* [Josh Hipple's solution](https://github.com/JBHipple/stock_picker/blob/master/stock_picker.rb)
+* [Odeson's solution](https://github.com/schoettker/Ruby-Blocks/blob/master/stock_picker.rb)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/stock_picker.rb)
+* [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/stock_picker.rb)
+* [Joseph Campbell's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/stock.rb)
 * Add your solution above this line!
 
 
@@ -620,4 +631,9 @@ Next, make sure your method can handle multiple words:
 * [dzero's solution](https://github.com/d-zer0/substrings/blob/master/substrings.rb)
 * [Michael Sotkin's solution](https://github.com/msotkin/ruby_building_blocks/blob/master/substrings.rb)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/substrings.rb)
+* [Josh Hipple's solution](https://github.com/JBHipple/substrings/blob/master/substrings.rb)
+* [Odeson's solution](https://github.com/schoettker/Ruby-Blocks/blob/master/substrings.rb)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/substrings.rb)
+* [Joseph Campbells's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/substrings.rb)
+* [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/substrings.rb)
 * Add your solution above this line!
