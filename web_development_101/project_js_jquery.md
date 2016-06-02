@@ -415,4 +415,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [John Alcher's solution](https://github.com/alchermd/sketch-pad/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/alchermd/sketch-pad/blob/master/index.html)
 * [Emil Dimitrov's Solution](https://github.com/emo1/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/emo1/sketch-pad/blob/master/index.html)
 * [Tom Bell's solution](https://github.com/bellt/odin_project-sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/bellt/odin_project-sketchpad/blob/master/index.html)
+* [Henry Tran's solution](https://github.com/hnrytrn/etch-a-sketch) | [View in browser](http://hnrytrn.github.io/etch-a-sketch/)
 * Add your solution above this line!
