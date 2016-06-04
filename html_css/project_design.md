@@ -35,6 +35,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 * [Noman Karim's solution](https://github.com/nomankarim/projectsmashing) | [View in browser](https://htmlpreview.github.io/?https://github.com/nomankarim/projectsmashing/blob/master/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/smashing-magazine) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/smashing-magazine/blob/master/index.html)
 * [J-kaizen's solution](https://github.com/J-kaizen/design_teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/design_teardown/blob/master/index.html)
+* [Stefan (Cyprium)'s solution)(https://github.com/dev-cyprium/TheOdinProject-HTML/tree/master/smashing-magasine-remake-grayscale) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/smashing-magasine-remake-grayscale/index.html)
 * Add your solution above this line!
 
 
