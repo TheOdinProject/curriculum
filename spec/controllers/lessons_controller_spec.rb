@@ -2,18 +2,18 @@ require 'rails_helper'
 
 RSpec.describe LessonsController do
   let(:course) {
-    double('Course', name: 'web-development-101', lessons: lessons )
+    double('Course', name: 'web-development-101', lessons: lessons)
   }
-  let(:lessons) { [lesson] }
+  let(:lessons) { [lesson, lesson]}
   let(:lesson) { double('Lesson') }
   let(:ad) { double('Ad') }
   let(:current_user) { double('User') }
 
   before do
-    allow(Course).to receive(:find_by_title_url!).with("web-development-101").
+    allow(Course).to receive(:find_by_title_url).with("web-development-101").
       and_return(course)
 
-    allow(lessons).to receive(:find_by_title_url!).
+    allow(lessons).to receive(:find_by_title_url).
       with('how-this-course-will-work').and_return(lesson)
   end
 

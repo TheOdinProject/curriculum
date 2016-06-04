@@ -17,7 +17,7 @@ class Lesson < ActiveRecord::Base
 
   def position_in_section
     section_lessons.where(
-      "is_project = ? AND position <= ?", false, self.position
+      "is_project = ? AND position <= ?", false, position
     ).count
   end
 

@@ -1,8 +1,8 @@
 <div id="lesson-nav">
   <div class="inner-nav">
     <%= link_to "Course List", courses_path %> >>
-    <%= link_to "#{@lesson.course.title}", lessons_path(@lesson.course.title_url) %> >>
-    <%= link_to "#{@lesson.section.title}", lessons_path(@lesson.course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >>
+    <%= link_to "#{@course.title}", lessons_path(@course.title_url) %> >>
+    <%= link_to "#{@lesson.section.title}", lessons_path(@course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >>
     <% if @lesson.is_project %>
       Project:
     <% else %>

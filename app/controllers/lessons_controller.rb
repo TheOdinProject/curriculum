@@ -19,13 +19,11 @@ class LessonsController < ApplicationController
 
   private
 
-
-
   def find_course
-    @find_course ||= Course.find_by_title_url!(params[:course_name])
+    @find_course ||= Course.find_by_title_url(params[:course_name])
   end
 
   def find_lesson
-    @find_lesson ||= find_course.lessons.find_by_title_url!(params[:lesson_name])
+    @find_lesson ||= find_course.lessons.find_by_title_url(params[:lesson_name])
   end
 end
