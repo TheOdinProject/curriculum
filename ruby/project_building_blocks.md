@@ -636,4 +636,5 @@ Next, make sure your method can handle multiple words:
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/substrings.rb)
 * [Joseph Campbells's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/substrings.rb)
 * [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/substrings.rb)
+* [Ace Cassidy's solution (regex)](https://ide.c9.io/ace_cassidy/ruby)[View in Browser](https://repl.it/CYPV/0)
 * Add your solution above this line!
