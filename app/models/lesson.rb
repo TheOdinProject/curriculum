@@ -15,7 +15,17 @@ class Lesson < ActiveRecord::Base
     find_lesson.prev_lesson
   end
 
+  def position_in_section
+    section_lessons.where(
+      "is_project = ? AND position <= ?", false, self.position
+    ).count
+  end
+
   private
+
+  def section_lessons
+    section.lessons
+  end
 
   def find_lesson
     FindLesson.new(self)

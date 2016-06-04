@@ -6,7 +6,7 @@
     <% if @lesson.is_project %>
       Project:
     <% else %>
-      <%= "#{@lesson_position_in_section}:" %>
+      <%= "#{@lesson.position_in_section}:" %>
     <% end %>
     <%= @lesson.title %>
   </div>
