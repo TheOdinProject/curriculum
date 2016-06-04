@@ -13,4 +13,12 @@ class Course < ActiveRecord::Base
     100 * (1.0 - uncompleted_lessons_in_course.count.to_f / self.lessons.count.to_f)
   end
 
+  def lessons_in_course
+    lessons.order("position asc")
+  end
+
+  def sections_in_course
+    sections.order("position asc").includes(:lessons)
+  end
+
 end

@@ -32,8 +32,8 @@
       </h3>
     <% end %>
 
-    <%= @content %>
-    
+    <%= md(@lesson.content) %>
+
     <%= render partial: 'slack_link', locals: { course: @course} %>
 
 
@@ -59,9 +59,9 @@
 
       <div class="lnav">
 
-        <div class="lnav-prev lnav-wrap <%= 'lnav-disabled' unless @prev_lesson %> ">
-          <% if @prev_lesson %>
-            <%= link_to lesson_path(@course.title_url, @prev_lesson.title_url, :ref => "lnav"), :title => "Go back to \"#{@prev_lesson.title}\""  do %>
+        <div class="lnav-prev lnav-wrap <%= 'lnav-disabled' unless @lesson.prev_lesson %> ">
+          <% if @lesson.prev_lesson %>
+            <%= link_to lesson_path(@course.title_url, @lesson.prev_lesson.title_url, :ref => "lnav"), :title => "Go back to \"#{@lesson.prev_lesson.title}\""  do %>
               <div class="lnav-prev-icon icon"></div>
               <div class="lnav-text">
                 <p>Prev</p><p>Lesson</p>
@@ -77,17 +77,17 @@
 
         <div class="lnav-index lnav-wrap">
           <%= link_to lessons_path(@course.title_url, :ref => "lnav"), :title => "Go back to \"#{@course.title}\""  do %>
-            <div class="lnav-course-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && @next_lesson.nil? %>"></div>
+            <div class="lnav-course-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && @lesson.next_lesson.nil? %>"></div>
             <div class="lnav-text">
               <p>View</p><p>Course</p>
             </div>
           <% end %>
         </div>
 
-        <div class="lnav-next lnav-wrap <%= 'lnav-disabled' unless @next_lesson %>">
-          <% if @next_lesson %>
-            <%= link_to lesson_path(@course.title_url, @next_lesson.title_url, :ref => "lnav"), :title => "Move on to \"#{@next_lesson.title}\"" do %>
-              <div class="lnav-next-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && !@next_lesson.nil? %>"></div>
+        <div class="lnav-next lnav-wrap <%= 'lnav-disabled' unless @lesson.next_lesson %>">
+          <% if @lesson.next_lesson %>
+            <%= link_to lesson_path(@course.title_url, @lesson.next_lesson.title_url, :ref => "lnav"), :title => "Move on to \"#{@lesson.next_lesson.title}\"" do %>
+              <div class="lnav-next-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && !@lesson.next_lesson.nil? %>"></div>
               <div class="lnav-text">
                 <p>Next</p><p>Lesson</p>
               </div>
