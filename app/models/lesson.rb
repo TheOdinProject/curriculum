@@ -8,21 +8,16 @@ class Lesson < ActiveRecord::Base
   validates_uniqueness_of :position
 
   def next_lesson
-    lessons = self.course.lessons.order("position asc")
-    if self.position >= lessons.first.position + lessons.size - 1
-      return nil
-    else
-      return lessons.find_by_position(self.position + 1)
-    end
+    find_lesson.next_lesson
   end
 
   def prev_lesson
-    lessons = self.course.lessons.order("position asc")
-    if self.position <= 1
-      return nil
-    else
-      return lessons.find_by_position(self.position - 1)
-    end
+    find_lesson.prev_lesson
   end
 
+  private
+
+  def find_lesson
+    FindLesson.new(self)
+  end
 end

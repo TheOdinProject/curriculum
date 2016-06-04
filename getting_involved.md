@@ -13,7 +13,7 @@
 
 It's awesome that you're interested in getting involved with the project! The project needs the help of contributors and it should be good experience for you to build software as part of a team.  In December 2013 we created the structure necessary to bring in collaborators who are new to both the project and perhaps software development in general.
 
-This document is the official "on-boarding" for new contributors and it will lay our how we're managing the contributions going forward, the tools we're using, and how to get started.
+This document is the official "on-boarding" for new contributors and it will lay out how we're managing the contributions going forward, the tools we're using, and how to get started.
 
 ### Prerequisites
 
