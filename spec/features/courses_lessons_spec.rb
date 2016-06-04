@@ -19,8 +19,17 @@ describe "Courses and Lessons Pages" do
       end
     end
     sections.each do |section|
-      2.times{FactoryGirl.create(:lesson, :section_id => section.id)}
-      2.times{FactoryGirl.create(:lesson, :section_id => section.id, :is_project => true)}
+      2.times{
+        FactoryGirl.create(
+          :lesson,
+          :section_id => section.id,
+        )
+      }
+      2.times{
+        FactoryGirl.create(
+          :lesson,
+          :section_id => section.id,
+          :is_project => true)}
     end
   end
 
@@ -105,7 +114,6 @@ describe "Courses and Lessons Pages" do
 
     it "should not include lessons for any other course" do
       not_included_lesson = Course.where("id != #{course1.id}").first.lessons.first
-      # puts not_included_lesson.inspect
       expect(subject).not_to have_selector("h3", :text => not_included_lesson.title)
     end
 
@@ -117,7 +125,6 @@ describe "Courses and Lessons Pages" do
 
     it "should not include all sections for another course" do
       not_included_section = Course.where("id != #{course1.id}").first.sections.first
-      # puts not_included_section.inspect
       expect(subject).not_to have_selector("h3", :text => not_included_section.title)
     end
 

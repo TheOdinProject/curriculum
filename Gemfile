@@ -42,7 +42,6 @@ group :development, :test do
 end
 
 group :development do
-  gem 'pry-byebug',                 '~> 3.3'
   gem 'web-console',                '~> 3.0'
   gem 'better_errors',              '~> 2.1.1'                        # gives much better error messages for debug
   gem 'quiet_assets',               '~> 1.1.0'                        # shortens up the server log output
