@@ -542,6 +542,7 @@ describe "Courses and Lessons Pages" do
               end
               it "should not hide the lesson completed check (JS test)", :js => true do
                 find("a.lc-unchecked").click
+                wait_for_ajax
                 expect(page).to_not have_css(".lc-completion-indicator.hidden")
               end
             end
