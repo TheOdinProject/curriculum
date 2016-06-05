@@ -2,26 +2,20 @@ class LessonsController < ApplicationController
 
   def index
     @course = find_course
-    if @course.nil?
-      not_found_error
-    end
+
+    not_found_error if @course.nil?
   end
 
   def show
     @course = find_course
-    @lesson = find_lesson
+    @lesson = find_lesson unless @course.nil?
 
-    if @course.nil? || @lesson.nil?
-      not_found_error
-    end
+    not_found_error if @course.nil? || @lesson.nil?
 
     if show_ads?
       @lower_banner_ad = true
       @right_box_ad = true
     end
-  end
-  def show_ads?
-    ENV["SHOW_ADS"] && Ad.show_ads?(current_user)
   end
 
   private
@@ -32,6 +26,10 @@ class LessonsController < ApplicationController
 
   def find_lesson
     @find_lesson ||= find_course.lessons.find_by_title_url(params[:lesson_name])
+  end
+
+  def show_ads?
+    ENV["SHOW_ADS"] && Ad.show_ads?(current_user)
   end
 
   def not_found_error

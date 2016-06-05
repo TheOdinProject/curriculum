@@ -28,26 +28,74 @@ RSpec.describe LessonsController do
       get :index, course_name: 'web-development-101'
       expect(assigns(:course)).to eql(course)
     end
+
+    context 'when course cannot be found' do
+      before do
+        allow(Course).to receive(:find_by_title_url).with("web-development").
+          and_return(nil)
+      end
+
+      it 'returns a RoutingError' do
+        expect { get :index, course_name: 'web-development'}.
+          to raise_error(ActionController::RoutingError)
+      end
+    end
   end
 
   describe "GET show" do
 
-    before do
+    it 'renders the lesson' do
       get :show,
       course_name: 'web-development-101',
       lesson_name: 'how-this-course-will-work'
-    end
 
-    it 'renders the lesson' do
       expect(response).to render_template(:show)
     end
 
     it 'assigns @course' do
+      get :show,
+      course_name: 'web-development-101',
+      lesson_name: 'how-this-course-will-work'
+
       expect(assigns(:course)).to eql(course)
     end
 
     it 'assigns @lesson' do
+      get :show,
+      course_name: 'web-development-101',
+      lesson_name: 'how-this-course-will-work'
+
       expect(assigns(:lesson)).to eql(lesson)
+    end
+
+    context 'when course can not be found' do
+      before do
+        allow(Course).to receive(:find_by_title_url).with("web-development").
+          and_return(nil)
+      end
+
+      it 'returns a RoutingError' do
+        expect{
+          get :show,
+          course_name: 'web-development',
+          lesson_name: 'how-this-course-will-work'
+        }.to raise_error(ActionController::RoutingError)
+      end
+    end
+
+    context 'when lesson cannot be found' do
+      before do
+        allow(lessons).to receive(:find_by_title_url).
+          with('how-this-course-will-').and_return(nil)
+      end
+
+      it 'returns a RoutingError' do
+        expect{
+          get :show,
+          course_name: 'web-development-101',
+          lesson_name: 'how-this-course-will-'
+        }.to raise_error(ActionController::RoutingError)
+      end
     end
 
     context 'when show_ads? is true' do
