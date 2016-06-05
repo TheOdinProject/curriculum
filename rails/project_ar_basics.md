@@ -161,6 +161,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Arthur Vieira's solution](https://github.com/arthur-vieira/micro-reddit)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/micro_reddit)
 * [Deepak's solution](https://github.com/Deepak5050/reddit_two/tree/master/app/models)
+* [Earth35's solution](https://github.com/Earth35/models-exercise)
 * Add your solution above this line!
 
 ## Additional Resources
