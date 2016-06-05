@@ -180,8 +180,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/test-first-ruby)
 * [Robert Merriman's Solution](https://github.com/RobertBMerriman/learn_ruby)
 * [Seiji's Solution](https://github.com/seijibas/learn-ruby)
+* [John Alcher's Solution](https://github.com/alchermd/ruby-test-first)
 * Add your solution above this line!
-
 
 ## Additional Resources
 
