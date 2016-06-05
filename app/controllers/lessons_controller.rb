@@ -2,11 +2,18 @@ class LessonsController < ApplicationController
 
   def index
     @course = find_course
+    if @course.nil?
+      not_found_error
+    end
   end
 
   def show
     @course = find_course
     @lesson = find_lesson
+
+    if @course.nil? || @lesson.nil?
+      not_found_error
+    end
 
     if show_ads?
       @lower_banner_ad = true
@@ -25,5 +32,9 @@ class LessonsController < ApplicationController
 
   def find_lesson
     @find_lesson ||= find_course.lessons.find_by_title_url(params[:lesson_name])
+  end
+
+  def not_found_error
+    raise ActionController::RoutingError.new('Not Found')
   end
 end
