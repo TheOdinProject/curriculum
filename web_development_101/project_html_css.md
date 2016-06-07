@@ -685,7 +685,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Emil Dimitrov's Solution (Easy)](https://github.com/emo1/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/emo1/google-homepage/blob/master/index.html)
 * [Ariana Herbst's Solution (Easy)](https://github.com/arianaherbst/Googe-Homepage) | [View in Browser](https://cdn.rawgit.com/arianaherbst/Googe-Homepage/master/index.html)
 * [Peter Fossum's Solution (Easy)](https://github.com/PeterFossum/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/PeterFossum/google-homepage/blob/master/index.html)
-* [Raiko Murulauk's Solution] (https://github.com/Cypher0/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/Cypher0/google-homepage/blob/master/index.html)
+* [Raiko Murulauk's Solution] (https://github.com/Cypher0/google-homepage) | [View in Browser] (https://cdn.rawgit.com/Cypher0/google-homepage/master/index.html) | [Difficult Solution] (https://github.com/Cypher0/google-results) | [View In Browser] (https://cdn.rawgit.com/Cypher0/google-results/master/results.html)
 * Add your solution above this line!
 
 ## Additional Resources 
