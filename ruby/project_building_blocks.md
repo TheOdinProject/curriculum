@@ -39,7 +39,6 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [Luchillo's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/caesar_cipher.rb)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/caesar_cipher.rb)
 * [ThusStyles's solution](https://github.com/ThusStyles/cipher/blob/master/cipher.rb)
 * [Sessl's solution](https://github.com/Sessl/ruby_work/blob/master/cipher.rb)
@@ -234,6 +233,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/Cipher.rb)
 * [Joseph Campbell's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/caesar.rb)
 * [Ace Cassidy's solution](https://ide.c9.io/ace_cassidy/ruby)[View in Browser](https://repl.it/CYOV/1)
+* [Luchillo's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/caesar_cipher.rb)
 * Add your solution above this line!
 
 
@@ -257,7 +257,6 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [Luchillo's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/stock_picker.rb)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/stock_picker.rb)
 * [eugyev's solution](https://github.com/eugyev/odinprojects/blob/master/stock_picker.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/ruby_building_blocks/project2.rb)
@@ -435,6 +434,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/stock_picker.rb)
 * [Joseph Campbell's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/stock.rb)
 * [Ace Cassidy's solution](https://ide.c9.io/ace_cassidy/ruby)[View in Browser](https://repl.it/CYOb/0)
+* [Luchillo's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/stock_picker.rb)
 * Add your solution above this line!
 
 
@@ -467,7 +467,6 @@ Next, make sure your method can handle multiple words:
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [Luchillos's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/substrings.rb)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/substrings.rb)
 * [eugyev's solution](https://github.com/eugyev/odinprojects/blob/master/substrings.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/ruby_building_blocks/project3.rb)
@@ -642,4 +641,5 @@ Next, make sure your method can handle multiple words:
 * [Joseph Campbells's solution](https://github.com/j-campbell/ruby-building-blocks/blob/master/substrings.rb)
 * [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/substrings.rb)
 * [Ace Cassidy's solution (regex)](https://ide.c9.io/ace_cassidy/ruby)[View in Browser](https://repl.it/CYPV/0)
+* [Luchillos's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/substrings.rb)
 * Add your solution above this line!
