@@ -4,28 +4,15 @@ Learning to program is a marathon not a sprint, it is a journey full of ups and 
 
 ##Your Motivation For Learning Programming 
 
-This could be to have a fufilling carrer that pays well, it could the creativtey outlet it provides, it may be to have the skills to build any sort of app you can think of, it might be to start your own company by turning a app idea you have into reality. It may be a combination of these reasons or even something else entirely.
+This could be to have a fufilling carrer that pays well, it could the creativtey outlet it provides, it may be to have the skills to build any sort of app you can think of, it might be to start your own company by turning an app idea you have into reality. It may be a combination of these reasons or even something else entirely.
 
-Whatever the resons you have for learning coding this is where your motivation for learning coding comes from. Because you are here reading this on this site I am assuming that you have your reason for learning coding sussed out.
+Whatever the reasons you have for learning to program this is where your motivation for learning comes from. It's worth getting clear about what your reason for learning to code, it will be the thing that will keep you going when things are hard and will keep you comming back when you face problems.
 
 Get inspired by the success of others:
 
 Blogs
 take them from this https://bryanttunbutr.wordpress.com/2016/01/03/you-can-get-a-coding-job/
 http://newcodegirl.blogspot.co.uk 
-Get inspired on youtube
-https://www.youtube.com/watch?v=BjKmWk3oE4E
-https://www.youtube.com/watch?v=w5ERhKil4wc
-https://www.youtube.com/watch?v=r44RKWyfcFw
-
-Watch some great TV, movies and documentaries about programming
-> watch indie game
-
-Read some great books 
-> steve jobs, love him or hate him but without him the tech industry would not be the same
-> Masters of doom - about the guys who created doom and quake, if you want to code all night and day this is the story for you
-> inovators - the history of computing and the stories of those who created this industry
-> Hackers - the guys responsible for modern computing and video games
 
 
 the growth mindset
@@ -38,6 +25,8 @@ When you find yourself in this position, remind youself that you may not get it 
 While your working through the curriculum do not focus on the struggles you encounter instead celebrate your persistance at overcoming those struggles and completing projects and learning concepts
 
 Reflect on what you have done, when you find yourself questioning your ability reflect on the successes you have had, the projects you have compeletd and the concepets you at one time didnt understand but now do.
+
+> dont compare yourself to others, there is likely to always be someone out there who knows more or can do more than you. The only person you should compare yourself to is you. Are you better than you were a week, month, year ago? 
 
 remember "failure is not a permament condition" you just havent succeded **yet**.
 
