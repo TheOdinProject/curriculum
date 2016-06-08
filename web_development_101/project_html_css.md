@@ -694,6 +694,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [David Frost's Solution](https://github.com/dmfrost/google-homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/dmfrost/google-homepage/blob/master/index.html)
 * Ariana Fa's Solution
 * [Zach Beaird's 'Easy' Solution](https://github.com/zbbeaird89/google-homepage) | ['Difficult' Solution](https://github.com/zbbeaird89/google-search) | [View in browser 'Easy'](https://htmlpreview.github.io/?https://github.com/zbbeaird89/google-homepage/blob/master/index.html) | [View in browser 'Difficult'](https://htmlpreview.github.io/?https://github.com/zbbeaird89/google-search/blob/master/index.html)
+* [NIÑO MOLLANEDA'S EASY SOLUTION](https://github.com/ninoM/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/ninoM/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
