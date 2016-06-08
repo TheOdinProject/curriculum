@@ -336,6 +336,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Joshua Hipple's solution](https://github.com/JBHipple/enumerator/blob/master/enumerable.rb)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/module_Enumerable.rb)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/my_methods/blob/master/my_enumerables.rb)
+* [Shawn Stovall's solution](https://github.com/shawn-stovall/enumerable-methods/blob/master/enumerable_methods.rb)
 * Add your solution above this line!
 
 
