@@ -698,6 +698,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Boris Muminovic's solution](https://github.com/rizbo61/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rizbo61/google-homepage/blob/master/index.html)
 * [Michael Martinez's easy solution](https://github.com/MikeAlexMartinez/google-homepage) | [View in browser 'Easy'] (https://htmlpreview.github.io/?https://github.com/MikeAlexMartinez/google-homepage/blob/master/Google.html)
 * [Michael Martinez's difficult solution] (https://github.com/MikeAlexMartinez/google-resultspage) | [View in browser 'Hard'] (https://htmlpreview.github.io/?https://github.com/MikeAlexMartinez/google-resultspage/blob/master/GoogleResults.html)
+* [David Chapman's easy solution](https://github.com/davidchappy/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/davidchappy/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
