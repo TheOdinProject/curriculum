@@ -173,6 +173,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Joshua Hipple's solution](https://github.com/JBHipple/bubble_sort/blob/master/bubble_sort.rb)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/bubble_sort.rb)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/my_methods/blob/master/my_sorts.rb)
+* [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/bubble_sort.rb)
 * Add your solution above this line!
 
 
