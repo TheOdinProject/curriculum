@@ -696,6 +696,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Zach Beaird's 'Easy' Solution](https://github.com/zbbeaird89/google-homepage) | ['Difficult' Solution](https://github.com/zbbeaird89/google-search) | [View in browser 'Easy'](https://htmlpreview.github.io/?https://github.com/zbbeaird89/google-homepage/blob/master/index.html) | [View in browser 'Difficult'](https://htmlpreview.github.io/?https://github.com/zbbeaird89/google-search/blob/master/index.html)
 * [NIÑO MOLLANEDA'S EASY SOLUTION](https://github.com/ninoM/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/ninoM/google-homepage/blob/master/index.html)
 * [Boris Muminovic's solution](https://github.com/rizbo61/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rizbo61/google-homepage/blob/master/index.html)
+* [Michael Martinez's easy solution](https://github.com/MikeAlexMartinez/google-homepage) | [View in browser 'Easy'] (https://htmlpreview.github.io/?https://github.com/MikeAlexMartinez/google-homepage/blob/master/Google.html)
+* [Michael Martinez's difficult solution] (https://github.com/MikeAlexMartinez/google-resultspage) | [View in browser 'Hard'] (https://htmlpreview.github.io/?https://github.com/MikeAlexMartinez/google-resultspage/blob/master/GoogleResults.html)
 * Add your solution above this line!
 
 ## Additional Resources
