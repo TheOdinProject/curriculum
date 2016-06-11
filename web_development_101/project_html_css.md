@@ -678,7 +678,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [John Alcher's Solution](https://github.com/alchermd/google-homepage) | [View in  Browser](https://htmlpreview.github.io/?https://github.com/alchermd/google-homepage/blob/master/index.html)
 * [Henry Harding's Solution (Easy)](https://github.com/henrythedj/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/henrythedj/google-homepage/blob/master/index.html)
 * [Tom Bell's Solution (Easy)](https://github.com/bellt/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/bellt/google-homepage/blob/master/index.html)
-* [Todd Demone's Solution] (https://github.com/todd-demone/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/todd-demone/google-homepage/blob/master/index.html)
+* [Todd Demone's Solution](https://github.com/todd-demone/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/todd-demone/google-homepage/blob/master/index.html)
 * [Kenneth Curtis's Solution (Easy)]( https://github.com/kmcurtis915/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/kmcurtis915/google-homepage/blob/master/index.html)
 * [Seiji's Solution (Easy)](https://github.com/seijibas/google-homepage) | [View in Browser](http://seijibas.github.io/google-homepage/)
 * [Jiazhi Guo's Solution (Easy)](https://github.com/jerrykuo7727/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jerrykuo7727/google-homepage/blob/master/homepage.html)
@@ -688,7 +688,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Peter Fossum's Solution (Easy)](https://github.com/PeterFossum/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/PeterFossum/google-homepage/blob/master/index.html)
 * [sdo91's Solution](https://github.com/sdo91/google_homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/sdo91/google_homepage/blob/master/google.html)
 * [Jacky Ye's Solution](https://github.com/ye-jacky/google-homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/ye-jacky/google-homepage/blob/master/index.html)
-* [Raiko Murulauk's Solution](https://github.com/Cypher0/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/Cypher0/google-homepage/blob/master/index.html)
+* [Raiko Murulauk's Solution](https://github.com/Cypher0/google-homepage) | [View in Browser] (https://cdn.rawgit.com/Cypher0/google-homepage/master/index.html) | [Difficult Solution](https://github.com/Cypher0/google-results) | [View In Browser] (https://cdn.rawgit.com/Cypher0/google-results/master/results.html)
 * Add your solution above this line!
 
 ## Additional Resources
