@@ -695,10 +695,11 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [NIÑO MOLLANEDA'S EASY SOLUTION](https://github.com/ninoM/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/ninoM/google-homepage/blob/master/index.html)
 * [Boris Muminovic's solution](https://github.com/rizbo61/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/rizbo61/google-homepage/blob/master/index.html)
 * [Michael Martinez's easy solution](https://github.com/MikeAlexMartinez/google-homepage) | [View in browser 'Easy'] (https://htmlpreview.github.io/?https://github.com/MikeAlexMartinez/google-homepage/blob/master/Google.html)
-* [Michael Martinez's difficult solution] (https://github.com/MikeAlexMartinez/google-resultspage) | [View in browser 'Hard'] (https://htmlpreview.github.io/?https://github.com/MikeAlexMartinez/google-resultspage/blob/master/GoogleResults.html)
+* [Michael Martinez's difficult solution](https://github.com/MikeAlexMartinez/google-resultspage) | [View in browser 'Hard'] (https://htmlpreview.github.io/?https://github.com/MikeAlexMartinez/google-resultspage/blob/master/GoogleResults.html)
 * [David Chapman's easy solution](https://github.com/davidchappy/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/davidchappy/google-homepage/blob/master/index.html)
 * [Michael Marquez's 'Easy' solution](https://github.com/maraken/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/maraken/google-homepage/blob/master/index.html)
 * [Raiko Murulauk's Solution](https://github.com/Cypher0/google-homepage) | [View in Browser] (https://cdn.rawgit.com/Cypher0/google-homepage/master/index.html) | [Difficult Solution](https://github.com/Cypher0/google-results) | [View In Browser] (https://cdn.rawgit.com/Cypher0/google-results/master/results.html)
+* [Sparwoman's Solution (Easy)](https://github.com/sparwoman/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sparwoman/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
