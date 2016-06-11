@@ -8,35 +8,38 @@ RSpec.describe LessonsController do
   let(:lesson) { double('Lesson') }
   let(:ad) { double('Ad') }
   let(:current_user) { double('User') }
+  let(:course_title) { 'web-development-101' }
+  let(:lesson_title) { 'how-this-course-will-work' }
 
   before do
-    allow(Course).to receive(:find_by_title_url).with("web-development-101").
+    allow(Course).to receive(:find_by).with(title_url: course_title).
       and_return(course)
 
-    allow(lessons).to receive(:find_by_title_url).
-      with('how-this-course-will-work').and_return(lesson)
+    allow(lessons).to receive(:find_by).with(title_url: lesson_title).
+      and_return(lesson)
   end
 
   describe "GET index" do
 
     it 'renders the course' do
-      get :index, course_name: 'web-development-101'
+      get :index, course_name: course_title
       expect(response).to render_template(:index)
     end
 
     it 'assigns @course' do
-      get :index, course_name: 'web-development-101'
+      get :index, course_name: course_title
       expect(assigns(:course)).to eql(course)
     end
 
     context 'when course cannot be found' do
+      let(:course_title) { 'web-development' }
       before do
-        allow(Course).to receive(:find_by_title_url).with("web-development").
-          and_return(nil)
+        allow(Course).to receive(:find_by).with(title_url: course_title).
+          and_raise(ActiveRecord::RecordNotFound)
       end
 
       it 'returns a RoutingError' do
-        expect { get :index, course_name: 'web-development'}.
+        expect { get :index, course_name: course_title}.
           to raise_error(ActionController::RoutingError)
       end
     end
@@ -46,54 +49,56 @@ RSpec.describe LessonsController do
 
     it 'renders the lesson' do
       get :show,
-      course_name: 'web-development-101',
-      lesson_name: 'how-this-course-will-work'
+      course_name: course_title,
+      lesson_name: lesson_title
 
       expect(response).to render_template(:show)
     end
 
     it 'assigns @course' do
       get :show,
-      course_name: 'web-development-101',
-      lesson_name: 'how-this-course-will-work'
+      course_name: course_title,
+      lesson_name: lesson_title
 
       expect(assigns(:course)).to eql(course)
     end
 
     it 'assigns @lesson' do
       get :show,
-      course_name: 'web-development-101',
-      lesson_name: 'how-this-course-will-work'
+      course_name: course_title,
+      lesson_name: lesson_title
 
       expect(assigns(:lesson)).to eql(lesson)
     end
 
     context 'when course can not be found' do
+      let(:course_title) { 'web-development' }
       before do
-        allow(Course).to receive(:find_by_title_url).with("web-development").
-          and_return(nil)
+        allow(Course).to receive(:find_by).with(title_url: course_title).
+          and_raise(ActiveRecord::RecordNotFound)
       end
 
       it 'returns a RoutingError' do
         expect{
           get :show,
-          course_name: 'web-development',
-          lesson_name: 'how-this-course-will-work'
+          course_name: course_title,
+          lesson_name: lesson_title
         }.to raise_error(ActionController::RoutingError)
       end
     end
 
     context 'when lesson cannot be found' do
+      let(:lesson_title) { 'how-this-course-will' }
       before do
-        allow(lessons).to receive(:find_by_title_url).
-          with('how-this-course-will-').and_return(nil)
+        allow(lessons).to receive(:find_by).with(title_url: lesson_title).
+          and_raise(ActiveRecord::RecordNotFound)
       end
 
       it 'returns a RoutingError' do
         expect{
           get :show,
-          course_name: 'web-development-101',
-          lesson_name: 'how-this-course-will-'
+          course_name: course_title,
+          lesson_name: lesson_title
         }.to raise_error(ActionController::RoutingError)
       end
     end
@@ -105,8 +110,8 @@ RSpec.describe LessonsController do
         allow(ad).to receive(:show_ads?).with(current_user).and_return(true)
 
         get :show,
-        course_name: 'web-development-101',
-        lesson_name: 'how-this-course-will-work'
+        course_name: course_title,
+        lesson_name: lesson_title
       end
 
       it 'assigns @lower_banner_ad' do
