@@ -34,7 +34,7 @@ A head Node is the first node in the list, a tail node is the last node in the l
  3. [For a more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 ## Your Task
-Your will need two classes:
+You will need two classes:
 
 1. `LinkedList` class, that will represent the full list.
 2. `Node` class, containing a `#value` method and a link to the `#next_node`, set both as `nil` as default.
