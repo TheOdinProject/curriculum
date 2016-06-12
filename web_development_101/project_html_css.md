@@ -702,6 +702,9 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Sparwoman's Solution (Easy)](https://github.com/sparwoman/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sparwoman/google-homepage/blob/master/index.html)
 * [Dave Smith's easy solution](https://github.com/lah4life/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/lah4life/google-homepage/blob/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/tree/master/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mumairk/twin_robots/blob/master/google-homepage/google.html)
+* [Faal's Easy solution](https://github.com/FaalVedtuz/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-homepage/index.html)
+* [Faal's Difficult solution](https://github.com/FaalVedtuz/google-result) | [View in browser]
+(http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
