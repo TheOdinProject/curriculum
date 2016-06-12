@@ -134,6 +134,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Fabricio Carrara's solution](https://github.com/fcarrara/members-only) | [View in browser](https://members-only-rails.herokuapp.com)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/members-only) | [View in browser](https://members-only-dest.herokuapp.com/)
 * [Deepak's solution](https://github.com/Deepak5050/members-only.git) | [View in browser](https://dpoo-members-only.herokuapp.com/)
+* [Earth35's solution](https://github.com/Earth35/members_only) | [View in browser](limitless-waters-94136.herokuapp.com/)
 * Add your solution above this line!
 
 
