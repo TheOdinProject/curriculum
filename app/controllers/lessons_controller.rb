@@ -22,7 +22,7 @@ class LessonsController < ApplicationController
   end
 
   def find_lesson
-    @find_lesson ||= find_course.lessons.find_by(title_url: lesson_title)
+    @find_lesson ||= Lesson.find_by(title_url: lesson_title)
   end
 
   def course_title

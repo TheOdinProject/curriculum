@@ -37,6 +37,7 @@
 
 # vim artifacts
 **.swp
+.tags
 
 # Ignore application configuration
 /config/application.yml
