@@ -707,6 +707,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mumairk/twin_robots/blob/master/google-homepage/google.html)
 * * [Steven Howard's Solution (Easy & Difficult)](https://github.com/sp-howard/googlesearch_russellwilson) | [View in browser 'Hard']
+* [Vanessa Tan's Solution (Easy)](https://github.com/vanJargon/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vanJargon/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
