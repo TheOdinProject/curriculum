@@ -1,5 +1,6 @@
 class LessonsController < ApplicationController
   rescue_from ActiveRecord::RecordNotFound, :with => :not_found_error
+  rescue_from ActionView::MissingTemplate, :with => :not_found_error
 
   def index
     @course = find_course
@@ -35,9 +36,5 @@ class LessonsController < ApplicationController
 
   def show_ads?
     ENV["SHOW_ADS"] && Ad.show_ads?(current_user)
-  end
-
-  def not_found_error
-    raise ActionController::RoutingError.new('Not Found')
   end
 end

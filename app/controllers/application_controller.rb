@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::Base
+  rescue_from ActionView::MissingTemplate, :with => :not_found_error
   protect_from_forgery
   include BootstrapFlashHelper
   include ApplicationHelper
@@ -67,9 +68,13 @@ class ApplicationController < ActionController::Base
 
   def after_sign_in_path_for(resource)
     if current_user.reg_before_conf == true && current_user.confirmed_at == nil
-      flash[:partial] = "confirm_email" 
-    end 
+      flash[:partial] = "confirm_email"
+    end
     session[:previous_url] || courses_path(:ref => "login")
+  end
+
+  def not_found_error
+    raise ActionController::RoutingError.new('Not Found')
   end
 
 
