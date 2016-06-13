@@ -1,6 +1,5 @@
 class LessonsController < ApplicationController
   rescue_from ActiveRecord::RecordNotFound, :with => :not_found_error
-  rescue_from ActionView::MissingTemplate, :with => :not_found_error
 
   def index
     @course = find_course
