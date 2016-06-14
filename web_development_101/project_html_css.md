@@ -702,9 +702,9 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Sparwoman's Solution (Easy)](https://github.com/sparwoman/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/sparwoman/google-homepage/blob/master/index.html)
 * [Dave Smith's easy solution](https://github.com/lah4life/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/lah4life/google-homepage/blob/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/tree/master/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mumairk/twin_robots/blob/master/google-homepage/google.html)
-* [Faal's Easy solution](https://github.com/FaalVedtuz/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-homepage/index.html)
+* [Faal's Easy solution](https://github.com/FaalVedtuz/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-homepage/blob/master/index.html)
 * [Faal's Difficult solution](https://github.com/FaalVedtuz/google-result) | [View in browser]
-(http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/index.html)
+(http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/blob/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mumairk/twin_robots/blob/master/google-homepage/google.html)
 * * [Steven Howard's Solution (Easy & Difficult)](https://github.com/sp-howard/googlesearch_russellwilson) | [View in browser 'Hard']
 * [Vanessa Tan's Solution (Easy)](https://github.com/vanJargon/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vanJargon/google-homepage/blob/master/index.html)
