@@ -710,7 +710,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Vanessa Tan's Solution (Easy)](https://github.com/vanJargon/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vanJargon/google-homepage/blob/master/index.html)
 * [smtchahal' solution (Easy & Difficult)](https://github.com/smtchahal/the-odin-project/tree/gh-pages/google-homepage) | [View in browser](https://smtchahal.github.io/the-odin-project/google-homepage)
 * [Eric Falcon's Easy Solution](https://github.com/Efdrico/google-homepage) | [view in browser] (http://htmlpreview.github.io/?https://github.com/Efdrico/google-homepage/blob/master/index.html)
-* https://htmlpreview.github.io/?https://github.com/fideliom/google_hompage/blob/master/google.htm
+* [Fidelio's solution (Easy)] | [View in browser] (https://htmlpreview.github.io/?https://github.com/fideliom/google_hompage/blob/master/google.htm)
 * Add your solution above this line!
 
 ## Additional Resources
