@@ -709,6 +709,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * * [Steven Howard's Solution (Easy & Difficult)](https://github.com/sp-howard/googlesearch_russellwilson) | [View in browser 'Hard']
 * [Vanessa Tan's Solution (Easy)](https://github.com/vanJargon/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vanJargon/google-homepage/blob/master/index.html)
 * [smtchahal' solution (Easy & Difficult)](https://github.com/smtchahal/the-odin-project/tree/gh-pages/google-homepage) | [View in browser](https://smtchahal.github.io/the-odin-project/google-homepage)
+* [Eric Falcon's Easy Solution](https://github.com/Efdrico/google-homepage) | [view in browser] (http://htmlpreview.github.io/?https://github.com/Efdrico/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
