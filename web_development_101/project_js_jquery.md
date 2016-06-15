@@ -411,7 +411,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/jerrykuo7727/Etch-A-Sketch/blob/master/index.html)
 * [Joe Campbell's solution](https://github.com/j-campbell/jQueryProject-TheOdinProject) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/j-campbell/jQueryProject-TheOdinProject/master/index.html)
 * [Seiji's solution](https://github.com/seijibas/sketchpad) | [View in browser](http://seijibas.github.io/sketchpad/)
-* [J-kaizen's solution](https://github.com/J-kaizen/etch-a-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/etch-a-pad/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/JS/etch-a-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/JS/etch-a-pad/index.html)
 * [John Alcher's solution](https://github.com/alchermd/sketch-pad/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/alchermd/sketch-pad/blob/master/index.html)
 * [Emil Dimitrov's Solution](https://github.com/emo1/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/emo1/sketch-pad/blob/master/index.html)
 * [Tom Bell's solution](https://github.com/bellt/odin_project-sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/bellt/odin_project-sketchpad/blob/master/index.html)
