@@ -419,4 +419,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Henry the DJ's solution](https://github.com/henrythedj/coloring-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/henrythedj/coloring-pad/blob/master/index.html)
 * [Django's Solution](https://github.com/django18/Js-Jq) | [View in browser](https://htmlpreview.github.io/?https://github.com/django18/Js-Jq/blob/master/index.html)
 * [Marco the Phoenix's Solution](https://github.com/marcsanmi/Learning/tree/master/Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Sketch/index.html)
+* [Vanessa Tan's Solution](https://github.com/vanJargon/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/vanJargon/etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
