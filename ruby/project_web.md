@@ -138,7 +138,7 @@ It's actually pretty much the same principle... a web server is just like openin
 
 1. You need to tell Ruby where to find this "file" (what's the IP address and port we're looking for?)
 2. Open the connection to that file (or the socket to the remote server)
-3. Send your request to start reading the file (or whatever you want from that server
+3. Send your request to start reading the file (or whatever you want from that server)
 4. Read the contents of the file (or read the response from the server)
 5. Close the file (or the socket connection to the server)
 
