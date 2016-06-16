@@ -43,7 +43,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Miguel Herrera's solution](https://github.com/migueloherrera/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/mint-signup/blob/master/index.html)
 * [srashidi's solution](https://github.com/srashidi/The_Odin_Project/tree/master/HTML5%20and%20CSS3/HTML_Forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/srashidi/The_Odin_Project/blob/master/HTML5%20and%20CSS3/HTML_Forms/mint_registration.html)
 * [destroyergm (Stefan)'s solution](https://github.com/destroyergm/mintform-myversion) | [view in browser](https://htmlpreview.github.io/?https://github.com/destroyergm/mintform-myversion/blob/master/index.html)
-* [J-kaizen's solution](https://github.com/J-kaizen/HTML_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/HTML_forms/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/HTML_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/HTML_forms/index.html)
 * [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/html5-css3/html-forms)| [View in browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/html5-css3/html-forms/index.html)
 * Add your solution above this line!
 
