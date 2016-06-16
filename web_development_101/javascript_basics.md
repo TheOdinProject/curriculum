@@ -330,6 +330,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Todd Demone's solution] (https://github.com/todd-demone/project-euler)
 * [sdo91's solution] (https://github.com/sdo91/the_odin_project/tree/master/euler_js) | [View in browser] (https://cdn.rawgit.com/sdo91/the_odin_project/master/euler_js/euler.html)
 * [Vanessa Tan's solution](https://github.com/vanJargon/project-euler)
+* [Boris Muminovic's solution](https://github.com/rizbo61/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
