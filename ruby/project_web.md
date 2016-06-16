@@ -82,6 +82,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Lani's solution](https://github.com/laniywh/the-odin-project/blob/master/ruby-programming/ruby-on-the-web/twitter-spambot/micro_blogger.rb)
 * [John Connor's solution](https://github.com/jacgitcz/microblogger)
 * [Austin Mason's solution](https://github.com/CouchofTomato/twitterapi)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/micro_blogger)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -270,6 +271,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/ruby-on-the-web/web-server-browser)
 * [Austin Mason's solution](https://github.com/CouchofTomato/webserver)
 * [John Connor's solution](https://github.com/jacgitcz/tiny-browser-simple-server)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/basic_browser-server)
 * Add your solution above this line!
 
 
