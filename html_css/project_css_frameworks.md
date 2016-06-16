@@ -32,6 +32,7 @@ You'll be creating your own grid-based framework.
 
 * [Artur Janik's solution - Framework](https://github.com/ArturJanik/Stellage) | [Solution - website](https://github.com/ArturJanik/ProjectInteria) | [View desktop version in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectInteria/blob/master/index.html) | [View mobile version in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectInteria/blob/master/mindex.html)
 * [AtActionPark's solution - Framework](https://github.com/AtActionPark/odin_grid_framework) | [Example Site](https://github.com/AtActionPark/odin_grid_framework_example) | [HTML Preview](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_grid_framework_example/blob/master/main.html)
+* [Miguel Herrera's solution - Framework](https://github.com/migueloherrera/estilos) | [The Odin Project Clone](https://github.com/migueloherrera/ctop) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/ctop/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
