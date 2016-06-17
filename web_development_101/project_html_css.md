@@ -713,6 +713,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Fidelio's solution (Easy)] | [View in browser] (https://htmlpreview.github.io/?https://github.com/fideliom/google_hompage/blob/master/google.htm)
 * [Caitlin Denning's solution (Easy)](https://github.com/Guacachili/google_homepage/blob/master/easy.html) | [View in browser](https://cdn.rawgit.com/Guacachili/google_homepage/master/easy.html)
 * [Victor Pontes's solution (Easy)] (https://github.com/VicttorBruken/google-homepage/blob/master/index.html) | [View in browser](https://cdn.rawgit.com/VicttorBruken/google-homepage/master/index.html)
+*[Luke Stephenson's solution (easy)] (https://github.com/Fdbog/google-homepage/blob/master/google-home.html)  | [View in browser] (https://cdn.rawgit.com/Fdbog/google-homepage/master/google-home.html)
 * Add your solution above this line!
 
 ## Additional Resources
