@@ -83,6 +83,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Earth35's solution](https://github.com/Earth35/recursion_exercises/blob/master/fibonacci_sequence/fibonacci_sequence.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/recursion/blob/master/fibonacci.rb)
 * [Austin Mason's solution](https://github.com/CouchofTomato/algorithm/blob/master/fibonacci.rb)
+* [John Connor's solution](https://github.com/jacgitcz/fibonacci)
 * Add your solution above this line!
 
 
