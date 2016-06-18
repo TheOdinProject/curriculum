@@ -173,26 +173,35 @@ Find a quiet study place in your home you can go to to focus, if that's not an
 option you can use noise cancelling head phones to block out any noise distractions
 from your environment.
 
-
-Resource to use: https://medium.com/p/e485edfb58fd?source=linkShare-990eda675614-1460936349
-
-
 ## Pitfalls to Avoid
+The following are some of the pitfalls that beginners often make when learning how
+to program, try your best to avoid these.
 
+###Don't get pulled into rabbit holes
+Because we cover so much material on odin and link to so many high quality outside
+courses and tools it is easy for students to get pulled into rabbit holes by
+spending time trying to learn all there is to know about a subject that they aren't
+ready for or wont have much benefit. We have put a lot of effort into structuring
+the curriculum so that all of the important things that you need to know about
+web development is covered exactly when you need to know it.
 
+To get the best results from this curriculum try to stick to the path laid out by
+the curriculum as much as possible and try to limit time spent going down rabbit
+holes.
 
-###Dont get pulled into rabit holes
-
-
-### dont compare yourself to others
+###Don't compare yourself to others
+Measure progress against yourself and don't compare yourself to others. Students
+often compare themselves against others who are further along in their coding
+journey or have more experience. This is a recipe for depression and frustration.
+Only compare yourself to your past self, can you do or know more than you did
+last week, month or year? then you are making progress.
 
 ###Conclusion
-
+Learning any new skill is a journey full of speed bumps and obstacles to be
+overcome, We hope that the principles in this lesson will help you as you go
+forward and put you in a much better position to succeed and get the most out
+of Odin. Without further ado, lets get stuck in to learning web development.
 
 ### Extra resources
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is do damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
-
-- add this in somewhere https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard
-
-Measure progress against yourself and dont compare yourself to others who are further along in thier learning journey or are seemingly picking things up easier. Reflect on how much you now know compared to how much you knew a week, month or year ago.
