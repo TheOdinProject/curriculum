@@ -704,6 +704,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/tree/master/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mumairk/twin_robots/blob/master/google-homepage/google.html)
 * [Faal's Easy solution](https://github.com/FaalVedtuz/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-homepage/blob/master/index.html)
 * [Faal's Difficult solution](https://github.com/FaalVedtuz/google-result) | [View in browser]
+<<<<<<< HEAD
 (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/blob/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mumairk/twin_robots/blob/master/google-homepage/google.html)
 * * [Steven Howard's Solution (Easy & Difficult)](https://github.com/sp-howard/googlesearch_russellwilson) | [View in browser 'Hard']
@@ -714,6 +715,9 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Caitlin Denning's solution (Easy)](https://github.com/Guacachili/google_homepage/blob/master/easy.html) | [View in browser](https://cdn.rawgit.com/Guacachili/google_homepage/master/easy.html)
 * [Victor Pontes's solution (Easy)] (https://github.com/VicttorBruken/google-homepage/blob/master/index.html) | [View in browser](https://cdn.rawgit.com/VicttorBruken/google-homepage/master/index.html)
 *[Luke Stephenson's solution (easy)] (https://github.com/Fdbog/google-homepage/blob/master/google-home.html)  | [View in browser] (https://cdn.rawgit.com/Fdbog/google-homepage/master/google-home.html)
+=======
+(http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/index.html)
+>>>>>>> f95f8b8a9c8b434b701062fbded68882f310e808
 * Add your solution above this line!
 
 ## Additional Resources

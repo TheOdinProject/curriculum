@@ -345,7 +345,6 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Rahul's solution](https://github.com/rspsonu/the_odin_project/blob/master/ruby/advanced_building_blocks/project2.rb)
 * Add your solution above this line!
 
-
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
