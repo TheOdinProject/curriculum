@@ -823,6 +823,18 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
+  title: "Linked Lists",
+  title_url: 'Linked Lists'.parameterize,
+  description: "Build one of the most fundamental data structures.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/ruby/project_linked_lists.md"
+
+)
+
+lesson_counter += 1
+create_or_update_lesson(
   title: "Data Structures and Algorithms",
   title_url: "Data Structures and Algorithms".parameterize,
   description: "If you're scratching your head a bit on how to apply algorithmic thinking, here's are a couple of exercises that let you use the tools you've just developed.  This should also be helpful when thinking about Final Projects... hint hint...",
@@ -1831,7 +1843,7 @@ course = create_or_update_course(
   you_build: ["Javascript front ends for your Rails back ends", "A Javascript framework of your own","Snake, Missile Command and More"],
   is_active: true,
 )
- 
+
 # :description: "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  In this section, you'll connect the Rails back ends you're an expert at building to dynamic front ends, completing the cycle to becoming a full stack web developer.  You'll learn some really nifty tricks and build some fun games along the way, too.",
 
 # +++++++++++
