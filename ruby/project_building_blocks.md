@@ -647,4 +647,5 @@ Next, make sure your method can handle multiple words:
 * [Ace Cassidy's solution (regex)](https://ide.c9.io/ace_cassidy/ruby)[View in Browser](https://repl.it/CYPV/0)
 * [Luchillos's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/substrings.rb)
 * [Rahul's solution](https://github.com/rspsonu/the_odin_project/blob/master/ruby/ruby_building_blocks/project3.rb)
+* [Clint's solution](https://github.com/tholymap/Odin-Ruby-Building-Blocks/blob/master/stock_picker.rb)
 * Add your solution above this line!
