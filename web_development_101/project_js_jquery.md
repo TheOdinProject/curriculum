@@ -420,4 +420,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Django's Solution](https://github.com/django18/Js-Jq) | [View in browser](https://htmlpreview.github.io/?https://github.com/django18/Js-Jq/blob/master/index.html)
 * [Marco the Phoenix's Solution](https://github.com/marcsanmi/Learning/tree/master/Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Sketch/index.html)
 * [Vanessa Tan's Solution](https://github.com/vanJargon/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/vanJargon/etch-a-sketch/blob/master/index.html)
+* [Rui Rodrigues's Solution](https://github.com/ruisantos018/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/ruisantos018/etch_a_sketch/blob/master/index.html)
 * Add your solution above this line!
