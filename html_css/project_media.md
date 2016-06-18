@@ -54,7 +54,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Miguel Herrera's solution](https://github.com/migueloherrera/utube)
 * [Monika Dutka's solution] (https://github.com/rawrins/youtube-video) | [Preview] (https://htmlpreview.github.io/?https://github.com/rawrins/youtube-video/blob/master/index.html) 
 * [Destroyergm (Stefan)'s solution](https://github.com/destroyergm/youtube-myversion) | [View in browser](https://htmlpreview.github.io/?https://github.com/destroyergm/youtube-myversion/blob/master/youtube.html)
-* [J-kaizen's solution](https://github.com/J-kaizen/embedded_media) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/embedded_media/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/embedded_media) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/embedded_media/index.html)
 * [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/html5-css3/embed-youtube-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/html5-css3/embed-youtube-video/index.html)
 * Add your solution above this line!
 

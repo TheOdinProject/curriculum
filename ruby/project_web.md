@@ -82,6 +82,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Lani's solution](https://github.com/laniywh/the-odin-project/blob/master/ruby-programming/ruby-on-the-web/twitter-spambot/micro_blogger.rb)
 * [John Connor's solution](https://github.com/jacgitcz/microblogger)
 * [Austin Mason's solution](https://github.com/CouchofTomato/twitterapi)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/micro_blogger)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -138,7 +139,7 @@ It's actually pretty much the same principle... a web server is just like openin
 
 1. You need to tell Ruby where to find this "file" (what's the IP address and port we're looking for?)
 2. Open the connection to that file (or the socket to the remote server)
-3. Send your request to start reading the file (or whatever you want from that server
+3. Send your request to start reading the file (or whatever you want from that server)
 4. Read the contents of the file (or read the response from the server)
 5. Close the file (or the socket connection to the server)
 
@@ -270,6 +271,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/ruby-on-the-web/web-server-browser)
 * [Austin Mason's solution](https://github.com/CouchofTomato/webserver)
 * [John Connor's solution](https://github.com/jacgitcz/tiny-browser-simple-server)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/basic_browser-server)
 * Add your solution above this line!
 
 
