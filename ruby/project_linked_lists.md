@@ -62,5 +62,5 @@ Build the following methods in your linked list class:
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [Stefan (destroyergm)'s solution](#)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/linked-lists-ruby/)
 * Add your solution above this line!
