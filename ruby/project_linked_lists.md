@@ -47,10 +47,11 @@ Build the following methods in your linked list class:
 3. `#size` returns the total number of nodes in the list
 4. `#head` returns the first node in the list
 5. `#tail` returns the last node in the list
-6. `#pop` removes the last element from the list
-7. `#contains?` returns true if the passed in value is in the list and otherwise returns false.
-8. `#find(data)` returns the index of the node containing data, or nil if not found.
-9. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
+6. `#at(index)` returns the node at the given index
+7. `#pop` removes the last element from the list
+8. `#contains?` returns true if the passed in value is in the list and otherwise returns false.
+9. `#find(data)` returns the index of the node containing data, or nil if not found.
+10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
   The format should be: `( data ) -> ( data ) -> ( data ) -> nil`
 
 #### Extra Credit
@@ -63,4 +64,5 @@ Build the following methods in your linked list class:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/linked-lists-ruby/)
+* [Cody Loyd's solution](https://github.com/codyloyd/linked_list)
 * Add your solution above this line!
