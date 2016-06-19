@@ -34,7 +34,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_design_teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_design_teardown/blob/master/main.html)
 * [Noman Karim's solution](https://github.com/nomankarim/projectsmashing) | [View in browser](https://htmlpreview.github.io/?https://github.com/nomankarim/projectsmashing/blob/master/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/smashing-magazine) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/smashing-magazine/blob/master/index.html)
-* [J-kaizen's solution](https://github.com/J-kaizen/design_teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/design_teardown/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/design_teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/design_teardown/index.html)
 * [Stefan (Cyprium)'s solution)(https://github.com/dev-cyprium/TheOdinProject-HTML/tree/master/smashing-magasine-remake-grayscale) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/smashing-magasine-remake-grayscale/index.html)
 * Add your solution above this line!
 

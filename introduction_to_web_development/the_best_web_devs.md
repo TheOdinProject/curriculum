@@ -4,7 +4,7 @@ Developing is incredibly rewarding but can also be difficult and frustrating.  T
 
 * [Hobbits would make great programmers (video)](http://www.youtube.com/watch?v=G49RUPv5-NU)
 * [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
-* [Jared the Nerd: What makes a good web developer?](http://www.jaredthenerd.com/2013/05/what-makes-good-developer.html)
+* [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
 * [oreanarose: What makes a good web developer?](http://oreanarose.com/2010/12/what-makes-a-good-web-developer/)
 
 ## Additional Resources
