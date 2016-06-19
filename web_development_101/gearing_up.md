@@ -105,7 +105,8 @@ It's important to know that your mind goes through these two states to learn
 because you can utilise this to make your learning more efficient. When stuck on
 a concept or project taking a break to refresh and let your subconscious go to work
 connecting what you are learning together more often than not leads to a solution
-to your problem.
+to your problem. The trick is that you have to put effort into solving the problem
+first and then take a break.
 
 In short, understand it, practice it, and finally teach it.
 
