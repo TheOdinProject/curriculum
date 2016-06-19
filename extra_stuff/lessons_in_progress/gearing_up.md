@@ -2,7 +2,7 @@
 Learning how to program is hard. It is not an easy skill to acquire and it can't
 be learned in a weekend or month for that matter. With that said, before we get
 into the meat of the curriculum, it would be beneficial to go over:
-* the things that will help you succeed in your goal of learning to code, and 
+* the things that will help you succeed in your goal of learning to code, and
 * the pitfalls that you should try to avoid.
 
 ## Mindset
@@ -16,7 +16,7 @@ have the right mentality when approaching challenges through out the curriculum.
 
 ###Your Motivation For Learning Programming
 Your motivation to learn to code could be to have a fulfilling career that pays
-well; it could the creativity outlet programming provides; it may be to have the
+well; it could the creative outlet programming provides; it may be to have the
 skills and abilities to build any sort of app you can think of; it might be to start
 your own company by turning an app idea you have into reality. It may be a
 combination of these reasons or something else entirely.
@@ -33,7 +33,7 @@ To give your motivation a bit of a boost you can read about the success of other
 
 ###The Growth Mindset
 There is a wide body of research that supports that intelligence is not fixed, that
-it can be developed. People usually fall into one of the following two mindsets
+it can be developed. People usually fall into one of the following two mindsets:
 
 **Fixed Mindset**
 
@@ -70,26 +70,34 @@ To learn more about the growth mindset use these resources:
 * [You can learn anything](https://www.khanacademy.org/about/blog/post/95208400815/the-learning-myth-why-ill-never-tell-my-son-hes)
 
 ## The Best ways to Learn
-Odin's curriculum has two fundamental aspects: lessons and projects. 
+Odin's curriculum has two fundamental aspects: lessons and projects.
 
 Lessons: You will be assigned resources to read, watch and do in a lesson. These are comprised of various resources we have gathered from all over the internet. The reason why we do this, over rolling our own material for everything, is because this allows us to utilise the very best resources to teach you. These are resources created by experts in their fields and are the authorities in what they are teaching.
 
 Projects: Most of these lessons are followed by projects that allow you to practice and solidify the concepts you have just learned about in the previous lessons. Most of the projects will give you a description of the problem you have to solve or the website you have to build. This allows you to be as creative as you like with the solution and with little hand holding.
 
-Through Odin you will learn to be independent learners, it's the only way you can truly learn programming. 
+Through Odin you will learn to be independent learners, it's the only way you can
+truly learn programming.
 
 ### The Process of Learning
-Learning involves context. It is by learning concepts and then practicing them which will help you to solidify how things work and fit together. Projects are the ultimate way of indicating whether your theory matches up with how the programming language actually operates.
+Learning involves context. It is by learning concepts and then practicing them
+which will help you to solidify how things work and fit together. Projects are
+the ultimate way of indicating whether your theory matches up with how the
+programming concepts and techniques actually operate.
 
 When learning, your mind will consistently switch between the following two states:
 
-**Focus mode** 
+**Focus mode**
 
-This state occurs when you are consciously focusing on learning, reading, watching videos or working on a project.
+This state occurs when you are consciously focusing on learning, reading,
+watching videos or working on a project.
 
-**Diffuse mode** 
+**Diffuse mode**
 
-This state occurs subconsciously, at times when you are not actively learning, such as doing the dishes, exercising, sleeping etc. When in this state your mind goes about the business of connecting what you have been learning to the other things you know. This is where break-throughs happen.
+This state occurs subconsciously, at times when you are not actively learning,
+such as doing the dishes, exercising, sleeping etc. When in this state your mind
+goes about the business of connecting what you have been learning to the other
+things you know. This is where break-throughs happen.
 
 It's important to know that your mind goes through these two states to learn
 because you can utilise this to make your learning more efficient. When stuck on
@@ -100,11 +108,12 @@ to your problem.
 In short, understand it, practice it, and finally teach it.
 
 Teaching what you know to others is a great way to solidify what you have learnt
-and can often reveal holes in your knowledge that you wouldnt have identified
-otherwise. You can use our [slack chat](http://www.theodinproject.com/chat) to practice this method of learning by answering questions and helping students who are not as far in  the course as you are. Don't forget to introduce yourself!
+and can often reveal holes in your knowledge that you wouldn't have identified
+otherwise. You can use our [slack chat](http://www.theodinproject.com/chat) to
+practice this method of learning by answering questions and helping students who
+are not as far in  the course as you are. Don't forget to introduce yourself!
 
-To learn more about andragogy, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly
-recommended.
+To learn more about the best ways to learn, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
 ### What to do when you are stuck
 You will inevitably be stuck at some point in the curriculum, it may be due to
@@ -113,11 +122,11 @@ something not working when you are doing a project. Whatever it is, use the
 following processes to get unstuck:
 
 * Google it - you can be sure someone else out there has had the same problem as
-you at some point, a quick google can often lead to a solution.
+you at some point, a quick Google can often lead to a solution.
 * Take a break - allow your diffuse state to work on the problem.
 * Ask for help in our [chat](http://www.theodinproject.com/chat) - come prepared
 with your research done, people will be more willing to help you when they can see
-you have already put effort into trying the figure out the solution.
+you have already put effort into trying to figure out the solution.
 
 ## Managing your Study Time
 You will have more success with Odin by putting **consistent** time into it rather
@@ -126,12 +135,11 @@ a specific time and for a specific amount of time will ensure you make consisten
 progress.
 
 ### How to Avoid Procrastination
-Procrastination will be your biggest enemy when trying to make progress, this how
+Procrastination will be your biggest enemy when trying to make progress, this is how
 to avoid it:
 
 **Use the Pomodoro Technique**
-
-The pomodoro technique is a way of managing your time in order to stay focused.
+The Pomodoro technique is a way of managing your time in order to stay focused.
 You basically set a timer for 25 minutes and work on a task until the timer goes
 off. You then take a 5 minute break and go again for 25 minutes once your break
 is over.
@@ -139,23 +147,27 @@ is over.
 If you get distracted or interrupted during the 25 minutes you have to start the
 25 minutes of work over again.
 
-The pomodoro technique is great for avoiding procrastination as it forces you to
+The Pomodoro technique is great for avoiding procrastination as it forces you to
 work without distractions. And since it's only for 25 minutes before taking a break, it's not overwhelming, making it harder to rationalise procrastinating.
 
-To learn more about the pomodoro technique read this [great article](https://medium.com/skhack-life-2-0/multiply-your-productivity-with-pomodoro-eeac2645a78e#.clvcxxyk8)
+To learn more about the Pomodoro technique read this [great article](https://medium.com/skhack-life-2-0/multiply-your-productivity-with-pomodoro-eeac2645a78e#.clvcxxyk8)
 
 **Avoid Digital Distractions**
 Digital distractions are email and Facebook notifications, time wasting websites
-like social networks. These kinds of distractions break your focus and make it tempting to procrastinate they should be avoided during study time.
+like social networks. These kinds of distractions break your focus and make it
+tempting to procrastinate they should be avoided during study time.
 
-Solution: turn off notifications and add a blocker to your internet to limit time on time wasting sites like Facebook.
+Solution: turn off notifications and add a blocker to your internet to limit time
+on time wasting sites like Facebook.
 
 **Avoid Physical Distractions in your Environment**
 Physical distractions are distractions from your environment, things like a TV in
 the background, other people speaking etc. These are just as much a nuisance to
 breaking your focus as digital distractions.
 
-Solution: find a quiet study place in your home you can go to to focus, if that's not an option you can use noise cancelling head phones to block out any noise distractions from your environment.
+Solution: find a quiet study place in your home you can go to to focus, if that's
+not an option you can use noise cancelling head phones to block out any noise
+distractions from your environment.
 
 ## Pitfalls to Avoid
 The following are some of the pitfalls that beginners often make when learning how
@@ -177,13 +189,13 @@ Measure progress against yourself and don't compare yourself to others. Students
 often compare themselves against others who are further along in their coding
 journey or have more experience. This is a recipe for depression and frustration.
 Only compare yourself to your past self, can you do or know more than you did
-last week, month or year? then you are making progress.
+last week, month or year? Then you are making progress.
 
 ###Conclusion
 Learning any new skill is a journey full of speed bumps and obstacles to be
-overcome. We hope that the principles here will help you as you go
-forward and put you in a much better position to succeed and get the most out
-of Odin. Without further ado, lets get stuck in to learning web development.
+overcome. We hope that the principles here will help you as you go forward and
+put you in a much better position to succeed and get the most out of Odin.
+Without further ado, lets get stuck in to learning Web development.
 
 ### Extra resources
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
