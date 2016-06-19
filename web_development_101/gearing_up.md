@@ -116,7 +116,9 @@ otherwise. You can use our [slack chat](http://www.theodinproject.com/chat) to
 practice this method of learning by answering questions and helping students who
 are not as far in  the course as you are. Don't forget to introduce yourself!
 
-To learn more about the best ways to learn, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
+* To learn more about the best ways to learn, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
+
+* The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/131-rr-how-to-learn/) which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
 ### What to do when you are stuck
 You will inevitably be stuck at some point in the curriculum, it may be due to
