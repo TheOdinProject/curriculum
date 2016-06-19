@@ -236,6 +236,17 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
+  title: "Gearing Up",
+  title_url: "Gearing Up".parameterize,
+  description: "Some advice about how to approach learning to program.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/gearing_up.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
   title: "How Does the Web Work?",
   title_url: "How Does the Web Work?".parameterize,
   description: "It's tough to program web sites without understanding how the web actually works!",
