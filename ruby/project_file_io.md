@@ -77,6 +77,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [John Connor's solution](https://github.com/jacgitcz/event_manager)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/ruby_programing/tree/master/intermediate/event_manager)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/event_manager)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/event_manager/lib)
 * Add your solution above this line!
 
 
