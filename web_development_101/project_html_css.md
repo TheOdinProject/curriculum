@@ -716,6 +716,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *[Luke Stephenson's solution (easy)] (https://github.com/Fdbog/google-homepage/blob/master/google-home.html)  | [View in browser] (https://cdn.rawgit.com/Fdbog/google-homepage/master/google-home.html)
 (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/index.html)
 * [Jitesh Pabla's Solution (Easy)](https://github.com/jiteshpabla/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jiteshpabla/google-homepage/blob/master/index.html)
+* [Isaac Pak's Solution (Easy)](https://github.com/pak11273/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/pak11273/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
