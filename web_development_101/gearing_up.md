@@ -36,7 +36,7 @@ To give your motivation a bit of a boost you can read about the success of other
 There is a wide body of research that supports that intelligence is not fixed, that
 it can be developed. People usually fall into one of the following two mindsets:
 
-**Fixed Mindset**
+**Fixed Mindset:**
 
 Someone who believes if they don't get something on their first attempt they never
 will and that they aren't smart enough to be able to do or understand some things.
@@ -89,12 +89,12 @@ programming concepts and techniques actually operate.
 
 When learning, your mind will consistently switch between the following two states:
 
-**Focus mode**
+**Focus mode:**
 
 This state occurs when you are consciously focusing on learning, reading,
 watching videos or working on a project.
 
-**Diffuse mode**
+**Diffuse mode:**
 
 This state occurs subconsciously, at times when you are not actively learning,
 such as doing the dishes, exercising, sleeping etc. When in this state your mind
@@ -144,6 +144,7 @@ Procrastination will be your biggest enemy when trying to make progress, this is
 to avoid it:
 
 **Use the Pomodoro Technique**
+
 The Pomodoro technique is a way of managing your time in order to stay focused.
 You basically set a timer for 25 minutes and work on a task until the timer goes
 off. You then take a 5 minute break and go again for 25 minutes once your break
@@ -155,9 +156,10 @@ If you get distracted or interrupted during the 25 minutes you have to start the
 The Pomodoro technique is great for avoiding procrastination as it forces you to
 work without distractions. And since it's only for 25 minutes before taking a break, it's not overwhelming, making it harder to rationalise procrastinating.
 
-To learn more about the Pomodoro technique read this [great article](https://medium.com/skhack-life-2-0/multiply-your-productivity-with-pomodoro-eeac2645a78e#.clvcxxyk8)
+To learn more about the Pomodoro technique read this [great article](https://medium.com/skhack-life-2-0/multiply-your-productivity-with-pomodoro-eeac2645a78e#.clvcxxyk8).
 
 **Avoid Digital Distractions**
+
 Digital distractions are email and Facebook notifications, time wasting websites
 like social networks. These kinds of distractions break your focus and make it
 tempting to procrastinate they should be avoided during study time.
@@ -166,6 +168,7 @@ Solution: turn off notifications and add a blocker to your internet to limit tim
 on time wasting sites like Facebook.
 
 **Avoid Physical Distractions in your Environment**
+
 Physical distractions are distractions from your environment, things like a TV in
 the background, other people speaking etc. These are just as much a nuisance to
 breaking your focus as digital distractions.
@@ -202,6 +205,6 @@ overcome. We hope that the principles here will help you as you go forward and
 put you in a much better position to succeed and get the most out of Odin.
 Without further ado, lets get stuck in to learning Web development.
 
-### Extra resources
+### Extra resources:
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
