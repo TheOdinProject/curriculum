@@ -718,6 +718,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 =======
 (http://htmlpreview.github.io/?https://github.com/FaalVedtuz/google-result/index.html)
 >>>>>>> f95f8b8a9c8b434b701062fbded68882f310e808
+* [Jitesh Pabla's Solution (Easy)](https://github.com/jiteshpabla/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jiteshpabla/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
