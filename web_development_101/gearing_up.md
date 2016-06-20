@@ -143,7 +143,7 @@ progress.
 Procrastination will be your biggest enemy when trying to make progress, this is how
 to avoid it:
 
-**Use the Pomodoro Technique**
+**Use the Pomodoro Technique:**
 
 The Pomodoro technique is a way of managing your time in order to stay focused.
 You basically set a timer for 25 minutes and work on a task until the timer goes
@@ -158,7 +158,7 @@ work without distractions. And since it's only for 25 minutes before taking a br
 
 To learn more about the Pomodoro technique read this [great article](https://medium.com/skhack-life-2-0/multiply-your-productivity-with-pomodoro-eeac2645a78e#.clvcxxyk8).
 
-**Avoid Digital Distractions**
+**Avoid Digital Distractions:**
 
 Digital distractions are email and Facebook notifications, time wasting websites
 like social networks. These kinds of distractions break your focus and make it
@@ -167,7 +167,7 @@ tempting to procrastinate they should be avoided during study time.
 Solution: turn off notifications and add a blocker to your internet to limit time
 on time wasting sites like Facebook.
 
-**Avoid Physical Distractions in your Environment**
+**Avoid Physical Distractions in your Environment:**
 
 Physical distractions are distractions from your environment, things like a TV in
 the background, other people speaking etc. These are just as much a nuisance to
