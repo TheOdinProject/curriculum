@@ -281,4 +281,5 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
 * [Luke Francl's file server tutorial](https://practicingruby.com/articles/implementing-an-http-file-server)
+* Detailed explanation of the TCPServer `#gets` and `#read` methods in [this stack overflow post](http://stackoverflow.com/questions/7540064/simple-http-server-in-ruby-using-tcpserver)
 
