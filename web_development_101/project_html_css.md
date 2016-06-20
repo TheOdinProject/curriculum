@@ -85,6 +85,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/google-homepage/index.html)
 * [Cedric Charly's solution](https://github.com/Cedricgc/playground/tree/master/The%20Odin%20Project/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Cedricgc/playground/blob/master/The%20Odin%20Project/google-homepage/index.html)
+* [Arunabh Singh's solution](https://github.com/arunabh15091989/google-homepage) | [View in browser](https://codepen.io/arunabh/pen/mPKzrB)
 * [RebootJeff's solution](https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/RebootJeff/odinproject/blob/master/odin.html.google_clone/google_clone.html)
 * [Neil Gehani's solution](https://github.com/ngehani/htmlcss/blob/master/googlelogo) | [View in browser](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo/index.html)
 * [Neil Gehani's bootstrap solution](https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html) | [View in browser](http://htmlpreview.github.io?https://github.com/ngehani/htmlcss/blob/master/googlelogo-bootstrap/index.html)
