@@ -65,4 +65,5 @@ Build the following methods in your linked list class:
 
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/linked-lists-ruby/)
 * [Cody Loyd's solution (with tests and extra credit)](https://github.com/codyloyd/linked_list)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/linked-lists)
 * Add your solution above this line!
