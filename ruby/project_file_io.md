@@ -191,6 +191,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [John Connor's solution](https://github.com/jacgitcz/hangman)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/ruby_programing/tree/master/intermediate/hangman)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/hangman)
+* [Amrr Bakry's solution] (https://github.com/Amrrbakry/learning_ruby/tree/master/hangman)
 * Add your solution above this line!
 
 
