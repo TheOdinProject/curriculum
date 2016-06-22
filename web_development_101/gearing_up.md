@@ -1,5 +1,5 @@
 #Gearing up for success
-Learning how to program takes work. Like any skill worth knowing it takes time to acquire and it can't
+Learning how to program takes work, Like any skill worth knowing it takes time to acquire and it can't
 be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program.
 Before we get into the meat of the curriculum, it would be beneficial to go over:
 
