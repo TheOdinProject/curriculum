@@ -178,6 +178,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/DataStructures-In-Ruby)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/recursion/blob/master/merge_sort.rb)
 * [Austin Mason's solution](https://github.com/CouchofTomato/algorithm/blob/master/merge_sort.rb)
+* [John Connor's solution](https://github.com/jacgitcz/mergesort)
 * Add your solution above this line!
 
 
