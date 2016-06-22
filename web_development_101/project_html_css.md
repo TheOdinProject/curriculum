@@ -720,7 +720,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Isaac Pak's Solution (Easy)](https://github.com/pak11273/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/pak11273/google-homepage/blob/master/index.html)
 * [Karthik's Solution (Easy)] (https://github.com/kmeda/google_home/blob/master/home.html) | [View in Browser](https://htmlpreview.github.io/?https://github.com/kmeda/google_home/blob/master/home.html)
 * [Gabe Lilly's Easy Solution](https://github.com/gabelilly/google-homepage/) | [View in browser](https://htmlpreview.github.io/?https://github.com/gabelilly/google-homepage/blob/master/index.html)
-
+* [EnXo's Easy & Responsive Solution](https://github.com/Asadidrees89/google-page/) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Asadidrees89/google-page/blob/master/index.html) 
 * Add your solution above this line!
 
 ## Additional Resources
