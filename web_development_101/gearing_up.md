@@ -1,12 +1,11 @@
 #Gearing up for success
 Learning how to program takes work, Like any skill worth knowing it takes time to acquire and it can't
-be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program.
-Before we get into the meat of the curriculum, it would be beneficial to go over:
+be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So Before we get into the meat of the curriculum, it would be beneficial to go over:
 
 * the things that will help you succeed in your goal of learning to code.
 * the pitfalls that you should try to avoid.
 
-so that you have the best possible chance to succeed with Odin.
+So that you have the best possible chance to get the most out of Odin.
 
 ## Mindset
 Your mindset is very important when teaching yourself *any* new skills - not just
