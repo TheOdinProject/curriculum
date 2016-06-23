@@ -157,6 +157,8 @@ work without distractions. And since it's only for 25 minutes before taking a br
 
 To learn more about the Pomodoro technique read this [great article](https://medium.com/skhack-life-2-0/multiply-your-productivity-with-pomodoro-eeac2645a78e#.clvcxxyk8).
 
+And here's an easy to use Pomodoro timer: [TomatoTimer](http://tomato-timer.com/#)
+
 **Avoid Digital Distractions:**
 
 Digital distractions are email and Facebook notifications, time wasting websites
