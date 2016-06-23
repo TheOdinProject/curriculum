@@ -27,7 +27,6 @@ RSpec.describe Lesson do
 
 
   describe '#next_lesson' do
-
     it 'finds the next lesson' do
       expect(find_lesson).to receive(:next_lesson)
       lesson.next_lesson
@@ -35,7 +34,6 @@ RSpec.describe Lesson do
   end
 
   describe '#prev_lesson' do
-
     it 'find the previous lesson' do
       expect(find_lesson).to receive(:prev_lesson)
       lesson.prev_lesson
@@ -57,6 +55,21 @@ RSpec.describe Lesson do
 
     it 'returns the position of the lesson in the section' do
       expect(lesson.position_in_section).to eql(2)
+    end
+  end
+
+  describe '#import' do
+    let(:github_lesson) { FactoryGirl.create(:lesson, url: "/README.md", content: nil) }
+
+    it "updates the lesson (if the content has changed)" do
+      VCR.use_cassette("lesson_content") { github_lesson.import_content }
+      expect(github_lesson.reload.content).not_to be nil
+    end
+
+    it "does not update the lesson if the content has not changed" do
+      VCR.use_cassette("lesson_content") { github_lesson.import_content }
+      expect(github_lesson).not_to receive(:update)
+      VCR.use_cassette("lesson_content") { github_lesson.import_content }
     end
   end
 end

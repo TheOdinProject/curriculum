@@ -21,6 +21,12 @@ class Lesson < ActiveRecord::Base
     ).count
   end
 
+  def import_content
+    response = Octokit.contents("theodinproject/curriculum", path: url)
+    decoded = Base64.decode64(response[:content])
+    update(content: decoded) if content != decoded
+  end
+
   private
 
   def section_lessons
