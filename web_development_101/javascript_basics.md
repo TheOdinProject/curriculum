@@ -334,7 +334,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Boris Muminovic's solution](https://github.com/rizbo61/project-euler)
 * [Dave Smith's solution](https://github.com/lah4life/Project-Euler-Solutions) | [View in browser](https://htmlpreview.github.io/?https://github.com/lah4life/Project-Euler-Solutions/blob/master/index.html)
 * [Sparwoman's Solution](https://github.com/sparwoman/project-euler.git)
-
+* [Zach Beaird's Solution](https://github.com/zbbeaird89/project-euler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/zbbeaird89/project-euler/blob/master/index.html#)
 * Add your solution above this line!
 
 ## Additional Resources
