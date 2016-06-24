@@ -424,4 +424,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Dave Smith's Solution](https://github.com/lah4life/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/lah4life/etch-a-sketch/blob/master/index.html)
 * [Young Jeong's Solution](https://github.com/youngjeong46/the_odin_project/tree/master/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/youngjeong46/the_odin_project/blob/master/etch-a-sketch/index.html)
 * [Alina Solodnikova's Solution](https://github.com/soldnkva/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/soldnkva/etch-a-sketch/blob/master/index.html)
+* [Jitesh Pabla's Solution](https://github.com/jiteshpabla/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/jiteshpabla/sketch-pad/blob/master/index.html)
 * Add your solution above this line!
