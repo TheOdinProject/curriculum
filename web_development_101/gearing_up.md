@@ -69,6 +69,7 @@ To learn more about the growth mindset use these resources:
 * [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 * [Grit](https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit)
 * [You can learn anything](https://www.khanacademy.org/about/blog/post/95208400815/the-learning-myth-why-ill-never-tell-my-son-hes)
+* [Start Here Ruby On Rails - Motivation & Growth Mindset](https://www.youtube.com/watch?v=8gc2zzWnRe8)
 
 ## The Best ways to Learn
 Odin's curriculum has two fundamental aspects: lessons and projects.
