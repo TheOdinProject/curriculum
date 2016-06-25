@@ -186,6 +186,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
 * [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
 * [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
+* [Vanessa Tan's Solution](https://github.com/vanJargon/test-first-ruby)
 * Add your solution above this line!
 
 ## Additional Resources
