@@ -6,7 +6,9 @@ RSpec.describe Lesson do
       title: 'test_lesson',
       position: 1,
       section_id: 2,
-      is_project: false
+      is_project: false,
+      url: "/README.md",
+      content: nil
     )
   }
   let(:find_lesson) { double('FindLesson') }
@@ -60,17 +62,15 @@ RSpec.describe Lesson do
   end
 
   describe '#import' do
-    let(:github_lesson) { FactoryGirl.create(:lesson, url: "/README.md", content: nil) }
-
     it "updates the lesson (if the content has changed)" do
-      VCR.use_cassette("lesson_content") { github_lesson.import_content }
-      expect(github_lesson.reload.content).not_to be nil
+      VCR.use_cassette("lesson_content") { lesson.import_content }
+      expect(lesson.reload.content).not_to be nil
     end
 
     it "does not update the lesson if the content has not changed" do
-      VCR.use_cassette("lesson_content") { github_lesson.import_content }
-      expect(github_lesson).not_to receive(:update)
-      VCR.use_cassette("lesson_content") { github_lesson.import_content }
+      VCR.use_cassette("lesson_content") { lesson.import_content }
+      expect(lesson).not_to receive(:update)
+      VCR.use_cassette("lesson_content") { lesson.import_content }
     end
   end
 end
