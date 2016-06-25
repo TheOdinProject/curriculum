@@ -2,8 +2,6 @@
 
 *Don't forget to use Git to save your projects!*
 
-## Project 1: A simple online game.
-
 You've seen how simple it can be to get something up and running using Sinatra, in these projects you will use the Casear Cipher and either the Hangman or Mastermind games you built in the Ruby course to make a couple of web apps.
 
 ### A note on deploying your apps
