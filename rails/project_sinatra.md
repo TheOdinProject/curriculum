@@ -27,7 +27,7 @@ Revisit the ceasar cipher ruby script that you created during [Ruby Building Blo
 
 * codyloyd's solution [github](https://github.com/codyloyd/sinatra-translator) / [see it on the web](https://cryptic-reaches-55962.herokuapp.com/)
 
-## Project 3: Another Web-Game
+## Project 2: Another Web-Game
 
 Pick either Mastermind or Hangman and build a front end for it.  This one might take a little more work, but it should be well within your grasp at this point.  Have fun!
 
