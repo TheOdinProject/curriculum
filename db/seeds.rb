@@ -981,14 +981,13 @@ course = create_or_update_course(
 # +++++++++++
 # SECTION
 # +++++++++++
-
 section_position += 1
 section = create_or_update_section(
-  title: "Introduction to Rails",
-  title_url: "Introduction to Rails".parameterize,
+  title: "The Track ahead",
+  title_url: "The Track ahead".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "In this section, we'll dive right into Rails and get you building from the start so you have an idea of what (and how) you'll learn going forward.  We'll get your feet planted in the right spot and your head pointed the right direction."
+  description: "In this section, have a look at the track ahead in this course."
 )
 
 lesson_counter += 1
@@ -1000,6 +999,52 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: false,
   url: "/rails/introduction.md"
+)
+
+# +++++++++++
+# SECTION
+# +++++++++++
+section_position += 1
+section = create_or_update_section(
+  title: "Sinatra",
+  title_url: "Sinatra".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "In this section we will look at sinatra, a light weight Ruby web framework. Learning Sinatra before tackling rails will reduce the learning curve in this course significantly as sinatra will expose most of the things that rails does under the hood for you. This should give you a better understanding about how everything works with Rails."
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Sinatra Basics",
+  title_url: "Sinatra Basics".parameterize,
+  description: "In this lesson you will learn the basics of Sinatra",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/rails/sinatra.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Sinatra Project",
+  title_url: "Sinatra Project".parameterize,
+  description: "In this project you will convert some of the projescts you completed in Ruby Programming into web apps.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/rails/project_sinatra.md"
+)
+
+# +++++++++++
+# SECTION
+# +++++++++++
+section_position += 1
+section = create_or_update_section(
+  title: "Introduction to Rails",
+  title_url: "Introduction to Rails".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "In this section, we'll dive right into Rails and get you building from the start so you have an idea of what (and how) you'll learn going forward.  We'll get your feet planted in the right spot and your head pointed the right direction."
 )
 
 lesson_counter += 1
