@@ -6,6 +6,7 @@ class Lesson < ActiveRecord::Base
   has_many :completing_users, :through => :lesson_completions, :source => :student
 
   validates_uniqueness_of :position
+  validates :content, presence: true, on: :update
 
   def next_lesson
     find_lesson.next_lesson
