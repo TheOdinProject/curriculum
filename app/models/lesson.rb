@@ -6,6 +6,7 @@ class Lesson < ActiveRecord::Base
   has_many :completing_users, :through => :lesson_completions, :source => :student
 
   validates_uniqueness_of :position
+  validates :content, presence: true, on: :update
 
   def next_lesson
     find_lesson.next_lesson
@@ -21,7 +22,23 @@ class Lesson < ActiveRecord::Base
     ).count
   end
 
+  # Obtains lesson content from GitHub and saves it to the database
+  def import_content
+    update(content: decoded) if content != decoded
+  rescue Octokit::Error => error
+    logger.error "Failed to import \"#{title}\" content: #{error}"
+    false
+  end
+
   private
+
+  def decoded
+    @decoded ||= Base64.decode64(github_response[:content])
+  end
+
+  def github_response
+    Octokit.contents("theodinproject/curriculum", path: url)
+  end
 
   def section_lessons
     section.lessons

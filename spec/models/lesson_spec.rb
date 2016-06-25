@@ -6,7 +6,9 @@ RSpec.describe Lesson do
       title: 'test_lesson',
       position: 1,
       section_id: 2,
-      is_project: false
+      is_project: false,
+      url: "/README.md",
+      content: nil
     )
   }
   let(:find_lesson) { double('FindLesson') }
@@ -24,10 +26,10 @@ RSpec.describe Lesson do
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completing_users) }
   it { is_expected.to validate_uniqueness_of(:position) }
+  it { is_expected.to validate_presence_of(:content).on(:update) }
 
 
   describe '#next_lesson' do
-
     it 'finds the next lesson' do
       expect(find_lesson).to receive(:next_lesson)
       lesson.next_lesson
@@ -35,7 +37,6 @@ RSpec.describe Lesson do
   end
 
   describe '#prev_lesson' do
-
     it 'find the previous lesson' do
       expect(find_lesson).to receive(:prev_lesson)
       lesson.prev_lesson
@@ -57,6 +58,19 @@ RSpec.describe Lesson do
 
     it 'returns the position of the lesson in the section' do
       expect(lesson.position_in_section).to eql(2)
+    end
+  end
+
+  describe '#import' do
+    it "updates the lesson (if the content has changed)" do
+      VCR.use_cassette("lesson_content") { lesson.import_content }
+      expect(lesson.reload.content).not_to be nil
+    end
+
+    it "does not update the lesson if the content has not changed" do
+      VCR.use_cassette("lesson_content") { lesson.import_content }
+      expect(lesson).not_to receive(:update)
+      VCR.use_cassette("lesson_content") { lesson.import_content }
     end
   end
 end

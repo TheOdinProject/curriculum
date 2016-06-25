@@ -16,6 +16,7 @@ gem 'pg',                           '~> 0.18.4'
 gem 'nokogiri',                     '~> 1.6.7.2'
 gem 'premailer-rails',              '~> 1.9'
 gem 'github_api',                   '~> 0.13.1'                       # to pull in the curriculum files
+gem 'octokit',                      '~> 4.0'
 gem 'omniauth-github',              '~> 1.1.2'                        #for Github Authentication
 gem 'font-awesome-rails',           '~> 4.5.0.1'
 gem 'sass-rails',                   '~> 5.0.4'
@@ -38,6 +39,7 @@ group :development, :test do
   gem 'poltergeist',                '~> 1.9.0'
   gem 'database_cleaner',           '~> 1.5.1'
   gem 'fakeweb',                    '~> 1.3.0'
+  gem 'vcr',                        '~> 3.0'
   gem 'shoulda-matchers',           '~> 3.1'
 end
 
