@@ -70,7 +70,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [John's solution (complete)](https://github.com/johnTheDudeMan/the_odin_project/blob/master/event_manager/lib/event_manager.rb)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/event_manager)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/serialization/tree/master/event_manager)
-* [Earth35's solution] (https://github.com/Earth35/event_manager)
+* [Earth35's solution](https://github.com/Earth35/event_manager)
 * [Austin Mason's solution](https://github.com/CouchofTomato/event_manager)
 * [Alejandro Corredor's solution](https://github.com/aecorredor/event_manager)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/serialization-project/event_manager)
@@ -79,6 +79,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Jean Merlet's solution](https://github.com/jeanmerlet/event_manager)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/event_manager/lib)
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/event-manager)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/event_manager/lib)
 * Add your solution above this line!
 
 
@@ -194,6 +195,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/hangman)
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/hangman)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/hangman)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/hangman)
 * Add your solution above this line!
 
 
