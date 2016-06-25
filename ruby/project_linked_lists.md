@@ -69,4 +69,5 @@ Build the following methods in your linked list class:
 * [KrakenHH's solution](https://github.com/KrakenHH/ruby/tree/master/algorithms/linked_list) 
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/linked_list)
 * [John Connor's solution](https://github.com/jacgitcz/linked_list)
+* [Earth35's solution](https://github.com/Earth35/linked-list/blob/master/linked_list.rb)
 * Add your solution above this line!
