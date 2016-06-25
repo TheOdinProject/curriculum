@@ -12,12 +12,16 @@ Sinatra does a few of the same things that Rails does, but it doesn't create the
 
 There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as you will see you can build very impressive apps with it.  
 
+## Prerequisites
+Sintra requires basic ruby knowledge and the projects after this lesson will build upon two of the early projects from the Ruby course.
+* You have completed at least up to the "Ruby on the web" section on the [Ruby Programming course](http://www.theodinproject.com/ruby-programming)
+
 ## Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * What are routes?
-* What is ERB?
+* What are views?
 * what are _sessions_ in Sinatra, and how do you use them?
 
 ## Your Assignment
