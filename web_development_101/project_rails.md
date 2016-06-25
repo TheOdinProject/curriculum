@@ -164,6 +164,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Derek Kwong's solution](https://github.com/dckwong/ProjectRails) | [View in browser](https://aqueous-spire-28165.herokuapp.com/)
 * [Emil Dimitrov's solution](https://github.com/emo1/blogger-project) | [View in browser](https://sheltered-waters-69313.herokuapp.com/)
 * [Leo Soai-Van's solution](https://github.com/leosoaivan/project_rails) | [View in browser](https://lit-plains-26186.herokuapp.com/)
+* [Armin Zierlinger's solution](https://github.com/ArminZierlinger/RubyonRails) | [View in browser](https://calm-basin-45633.herokuapp.com/)
 * Add your solution above this line!
 
 
