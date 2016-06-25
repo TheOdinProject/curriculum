@@ -2,18 +2,22 @@
 
 <!-- *Estimated Time: no-one knows! -->
 
-Now that you have a handle on how Ruby can connect to the web through HTTP we are going to take a look at [Sinatra](http://www.sinatrarb.com/), an extension of Ruby for quickly creating web applications with minimal effort.  Basically, it does for you the types of things you were doing in the last lesson making process of using Ruby on the web quicker and easier.
+One of the biggest frustrations beginners have with learning Rails is getting their head around all the 'magic' that Rails seems to do.
 
-There really isn't a whole lot new to learn here, but the power it gives you is substantial.  Sinatra does a few of the same things that Rails does, but it doesn't create the file-structure for you.  The benefit of doing it yourself (and the main reason we're learning this at all) is that once you get a feel for how to set up routes and organize your views in Sinatra, the complex file structures and methods in Rails will start to make a whole lot more sense.
+The power of Rails is how quickly you can develop complex apps, this speed comes from all the things Rails does for you in the background. Rails does a lot of complex things in the background that are hidden with abstractions. This is where the percieved'magic' happens.
+
+Sinatra is a small light weight web framework written in Ruby. It allows you to make small web applications quickly. Like Rails, Sinatra is built upon [Rack](http://rack.github.io/) so you can think of it as a bare bones version of Rails. There is no 'magic' to speak of as everything is very explicit. This is why learning Sintra before learning Rails is so benificial. It reduces the learning curve of learning Rails quite a lot.
+
+Sinatra does a few of the same things that Rails does, but it doesn't create the file-structure for you.  The benefit of doing it yourself (and the main reason we're learning this at all) is that once you get a feel for how to set up routes and organize your views in Sinatra, the complex file structures and methods in Rails will start to make a whole lot more sense.
+
+There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as you will see you can build very impressive apps with it.  
 
 ## Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
-
-* What is a DSL? How is that different from a framework? (Sinatra is a DSL, Rails is a framework)
 * What are routes?
-* What is ERB (you should _probably_ already know this)
+* What is ERB?
 * what are _sessions_ in Sinatra, and how do you use them?
 
 ## Your Assignment
@@ -31,7 +35,8 @@ There really isn't a whole lot new to learn here, but the power it gives you is 
     2. from the command line install the Sinatra gem by typing `gem install sinatra` then run the file you created: `ruby hi.rb`
     3. visit the page in your browser at `http://localhost:4567/hi`
     4. (easy wasn't it?)
-2. Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first few sections of it (at least read until section 6, "Views/Templates").  A lot of this stuff will be pretty familiar too you, though the syntax is probably new.  Almost everything you will need to know is right here on this page.
+2. Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers").Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
+3. Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Lab. Be sure to try out some of the Extensions at the end of the tutorial, that's the fun stuff!
 
 ## Additional Resources
 
