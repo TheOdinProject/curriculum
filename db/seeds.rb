@@ -1031,7 +1031,7 @@ create_or_update_lesson(
   description: "In this project you will convert some of the projescts you completed in Ruby Programming into web apps.",
   position: lesson_counter,
   section_id: section.id,
-  is_project: false,
+  is_project: true,
   url: "/rails/project_sinatra.md"
 )
 
