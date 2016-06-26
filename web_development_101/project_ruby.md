@@ -15,8 +15,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     3. `02_calculator`
     4. `03_simon_says`
     5. `04_pig_latin`
-    6. `08_book_titles`
-    7. `09_timer`
+    6. `05_book_titles`
+    7. `06_timer`
 
 5. Push your project to Github
 
