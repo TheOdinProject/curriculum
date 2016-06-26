@@ -7,9 +7,9 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
-1. Go to [testfirst.org's Learn Ruby section](http://testfirst.org/learn_ruby) ([Backup copy here](https://web.archive.org/web/20140328135623/http://testfirst.org/learn_ruby)) and follow the installation instructions.  Basically, you'll be either cloning their Github repository or downloading a zipped file containing all the test files (there are 15).  By opening the main `index.html` file in a browser, you'll have instructions waiting for you which describe what's going on, how to run the tests, and where to put your code so the tests can see it.  The exercises start easy but some of them can be pretty challenging, so good luck! **Update!** There is a repo which uses the newest version of RSpec (v3) available at [https://github.com/vikingeducation/learn_ruby](https://github.com/vikingeducation/learn_ruby).
-2. If you absolutely must use an in-browser environment (it would be better for you to do this on your own machine), one is available specifically for these exercises at [http://testfirst.org/live](http://testfirst.org/live). Note for Windows users: As of September 2014, the current version of Rspec is broken in Windows. If this is your first time using rspec (invoked with a different program here that comes with the gem, called Rake), when installing the gem, instead of "gem install rspec", type "gem install rspec -v 2.14.1" into terminal instead.
-3. Do the following exercises.  You'll know you're done when all the tests pass!
+2. Go to [the learn_ruby repo here](https://github.com/TheOdinProject/learn_ruby) and follow the installation instructions in the README.
+3. Follow the "Getting started with the exercises" section of the README to find out how to run and make the tests pass.
+4. Do the following exercises.  You'll know you're done when all the tests pass!
     1. `00_hello`
     2. `01_temperature`
     3. `02_calculator`
@@ -17,6 +17,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     5. `04_pig_latin`
     6. `08_book_titles`
     7. `09_timer`
+
+The exercises start easy but some of them can be pretty challenging, so good luck!
 5. Push your project to Github
 
 ## Student Solutions
