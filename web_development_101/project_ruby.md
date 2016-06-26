@@ -188,6 +188,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
 * [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
 * [Vanessa Tan's Solution](https://github.com/vanJargon/test-first-ruby)
+* [Bryan G's Solution](https://github.com/BryanGigs/odin-webdev101-ruby)
 * Add your solution above this line!
 
 ## Additional Resources
