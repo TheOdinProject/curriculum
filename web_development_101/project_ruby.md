@@ -19,6 +19,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     7. `09_timer`
 
 The exercises start easy but some of them can be pretty challenging, so good luck!
+
 5. Push your project to Github
 
 ## Student Solutions
