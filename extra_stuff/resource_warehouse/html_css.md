@@ -26,7 +26,7 @@
 **General Layout**
 
 * The layout images in this could be used as exercises: http://designshack.net/articles/layouts/10-rock-solid-website-layout-examples/
-
+* display: https://www.chenhuijing.com/blog/how-well-do-you-know-display/#👟
 
 **SASS**
 

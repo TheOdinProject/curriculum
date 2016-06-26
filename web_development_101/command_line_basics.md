@@ -24,7 +24,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 * How do you open it on your computer?
 * How can you navigate into a particular file directory?
   - Where will `cd` on it's own navigate you to?
-  - Where will `cd..` nagivate you to?
+  - Where will `cd ..` navigate you to?
 * How can you display the name of the directory you are currently in?
 * How can you display the contents of the directory you are currently in?
 * How can you create a new directory?

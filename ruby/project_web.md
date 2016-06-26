@@ -83,6 +83,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [John Connor's solution](https://github.com/jacgitcz/microblogger)
 * [Austin Mason's solution](https://github.com/CouchofTomato/twitterapi)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/micro_blogger)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/micro_blogger.rb)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -272,6 +273,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Austin Mason's solution](https://github.com/CouchofTomato/webserver)
 * [John Connor's solution](https://github.com/jacgitcz/tiny-browser-simple-server)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/basic_browser-server)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/Servers)
 * Add your solution above this line!
 
 
@@ -281,4 +283,5 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
 * [Luke Francl's file server tutorial](https://practicingruby.com/articles/implementing-an-http-file-server)
+* Detailed explanation of the TCPServer `#gets` and `#read` methods in [this stack overflow post](http://stackoverflow.com/questions/7540064/simple-http-server-in-ruby-using-tcpserver)
 

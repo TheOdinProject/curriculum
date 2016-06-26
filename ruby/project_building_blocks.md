@@ -439,6 +439,8 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Ace Cassidy's solution](https://ide.c9.io/ace_cassidy/ruby)[View in Browser](https://repl.it/CYOb/0)
 * [Luchillo's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/stock_picker.rb)
 * [Rahul's solution](https://github.com/rspsonu/the_odin_project/blob/master/ruby/ruby_building_blocks/project2.rb)
+* [Clint's solution](https://github.com/tholymap/Odin-Ruby-Building-Blocks/blob/master/stock_picker.rb)
+* [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/stock_picker/blob/master/stock.rb)
 * Add your solution above this line!
 
 
@@ -647,5 +649,6 @@ Next, make sure your method can handle multiple words:
 * [Ace Cassidy's solution (regex)](https://ide.c9.io/ace_cassidy/ruby)[View in Browser](https://repl.it/CYPV/0)
 * [Luchillos's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/substrings.rb)
 * [Rahul's solution](https://github.com/rspsonu/the_odin_project/blob/master/ruby/ruby_building_blocks/project3.rb)
-* [Clint's solution](https://github.com/tholymap/Odin-Ruby-Building-Blocks/blob/master/stock_picker.rb)
+* [Clint's solution](https://github.com/tholymap/Odin-Ruby-Building-Blocks/blob/master/substrings.rb)
+* [Piotr Ejsmont's solution](https://github.com/PiotrEjsmont/substrings/blob/master/substrings.rb)
 * Add your solution above this line!

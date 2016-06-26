@@ -184,6 +184,9 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
 * [Veselin Ivanov's Solution](https://github.com/terlica/Odin_ruby_project)
 * [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
+* [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
+* [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
+* [Vanessa Tan's Solution](https://github.com/vanJargon/test-first-ruby)
 * Add your solution above this line!
 
 ## Additional Resources

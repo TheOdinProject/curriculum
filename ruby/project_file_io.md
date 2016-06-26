@@ -70,13 +70,16 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [John's solution (complete)](https://github.com/johnTheDudeMan/the_odin_project/blob/master/event_manager/lib/event_manager.rb)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/event_manager)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/serialization/tree/master/event_manager)
-* [Earth35's solution] (https://github.com/Earth35/event_manager)
+* [Earth35's solution](https://github.com/Earth35/event_manager)
 * [Austin Mason's solution](https://github.com/CouchofTomato/event_manager)
 * [Alejandro Corredor's solution](https://github.com/aecorredor/event_manager)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/serialization-project/event_manager)
 * [John Connor's solution](https://github.com/jacgitcz/event_manager)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/ruby_programing/tree/master/intermediate/event_manager)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/event_manager)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/event_manager/lib)
+* [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/event-manager)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/event_manager/lib)
 * Add your solution above this line!
 
 
@@ -182,7 +185,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [DV's solution](https://github.com/dvislearning/hangman/blob/master/hangman.rb)
 * [Deepak' solution](https://github.com/Deepak5050/hangman/blob/master/hangman.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/serialization/tree/master/hangman)
-* [Earth35's solution] (https://github.com/Earth35/hangman)
+* [Earth35's solution](https://github.com/Earth35/hangman)
 * [Austin Mason's solution](https://github.com/CouchofTomato/hangman)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Hangman-Ruby)
 * [Alejandro Corredor's solution](https://github.com/aecorredor/hangman)
@@ -190,6 +193,9 @@ You will be building a simple command line Hangman game where one player plays a
 * [John Connor's solution](https://github.com/jacgitcz/hangman)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/ruby_programing/tree/master/intermediate/hangman)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/hangman)
+* [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/hangman)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/hangman)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/hangman)
 * Add your solution above this line!
 
 
@@ -197,9 +203,4 @@ You will be building a simple command line Hangman game where one player plays a
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
 * Found something helpful?  Add it here!
-
-
-
-

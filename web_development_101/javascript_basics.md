@@ -262,8 +262,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/project-euler.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/reyesjunk/project-euler/blob/master/index.html)
 * [ryanpaixao's solution](https://github.com/ryanpaixao/javascript/tree/master) | [View in browser](http://htmlpreview.github.io/?https://github.com/ryanpaixao/javascript/blob/master/index.html)
 * [Peter Taggart's Solution](https://github.com/gitschwifty/Programming/tree/master/The%20Odin%20Project/Javascript/Project%20Euler)
-* [Marceia Egler's solution]
-(https://github.com/megler/Euler.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/megler/Euler/blob/master/euler.html)
+* [Marceia Egler's solution](https://github.com/megler/Euler.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/megler/Euler/blob/master/euler.html)
 * [Armin Zierlinger's solution](https://github.com/ArminZierlinger/euler-project) | [View in browser](https://rawgit.com/ArminZierlinger/euler-project/master/problem3.html)
 * [MLT-SRG's solution](https://github.com/MLT-SRG/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/MLT-SRG/euler-problems/blob/master/index.html)
 * [Derek Scace's Solution](https://github.com/dscace/project_euler)
@@ -327,15 +326,16 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Kelly Williams' solution](https://github.com/kellymarjorie/ProjectEuler)
 * [Henry the Dj's solution](https://github.com/henrythedj/eulers)
 * [Marc Sanmiquel's solution](https://github.com/marcsanmi/Learning/tree/master/Euler)
-* [Todd Demone's solution] (https://github.com/todd-demone/project-euler)
-* [sdo91's solution] (https://github.com/sdo91/the_odin_project/tree/master/euler_js) | [View in browser] (https://cdn.rawgit.com/sdo91/the_odin_project/master/euler_js/euler.html)
-<<<<<<< HEAD
+* [Todd Demone's solution](https://github.com/todd-demone/project-euler)
+* [sdo91's solution](https://github.com/sdo91/the_odin_project/tree/master/euler_js) | [View in browser](https://cdn.rawgit.com/sdo91/the_odin_project/master/euler_js/euler.html)
 * [Vanessa Tan's solution](https://github.com/vanJargon/project-euler)
 * [Boris Muminovic's solution](https://github.com/rizbo61/project-euler)
 * [Dave Smith's solution](https://github.com/lah4life/Project-Euler-Solutions) | [View in browser](https://htmlpreview.github.io/?https://github.com/lah4life/Project-Euler-Solutions/blob/master/index.html)
 * [Sparwoman's Solution](https://github.com/sparwoman/project-euler.git)
-=======
->>>>>>> f95f8b8a9c8b434b701062fbded68882f310e808
+* [Raiko Murulauk's Solution](https://github.com/Cypher0/project-euler)
+* [Zach Beaird's Solution](https://github.com/zbbeaird89/project-euler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/zbbeaird89/project-euler/blob/master/index.html#)
+* [Karthik's Solution](https://github.com/kmeda/projecteuler) | [View in browser](https://htmlpreview.github.io/?https://github.com/kmeda/projecteuler/blob/master/index.html)
+
 * Add your solution above this line!
 
 ## Additional Resources
