@@ -14,6 +14,7 @@ There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as yo
 
 ## Prerequisites
 Sintra requires basic ruby knowledge and the projects after this lesson will build upon two of the early projects from the Ruby course.
+
 * You have completed at least up to the "Ruby on the web" section on the [Ruby Programming course](http://www.theodinproject.com/ruby-programming)
 
 ## Points to Ponder
