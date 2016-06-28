@@ -726,6 +726,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Harsha's Solution (Easy)](https://github.com/HarshaLaxman/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/HarshaLaxman/google-homepage/blob/master/index.html)
 *  [Guido Bakkes' solution (easy)](https://github.com/guidobakkes/mock-ups/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/guidobakkes/mock-ups/blob/master/google-homepage/index.html)
 *  [Rae Capri's Solution (Easy)](https://github.com/RaeCapri/google-homepage) | [View in browser](http://raecapri.com/google-homepage)
+*  [Nick Jackson's Solution (Easy)](https://github.com/n1cholasjacks0n/google_homepage)
 * Add your solution above this line!
 
 ## Additional Resources
