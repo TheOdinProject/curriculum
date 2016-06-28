@@ -15,7 +15,6 @@ class User < ActiveRecord::Base
   validates :username, :length => { :in => 4..20 }
 
   # basic associations
-  has_many :cal_events, :foreign_key => :creator_id
   has_one :user_pref
   # associates the user to the content he'd like to pair on
   has_many :content_activations, :dependent => :destroy
