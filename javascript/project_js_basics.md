@@ -72,6 +72,7 @@ It's time to build an on-screen calculator
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/blob/master/javascript/calculator/calculator.html) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/calculator/app/calculator.html)
 * [James Brooks's solution](https://github.com/jhbrooks/js-calc) | [View in browser](https://agile-dawn-60299.herokuapp.com/)
 * [J-kaizen's solution](https://github.com/J-kaizen/jscalc) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/jscalc/blob/master/index.html)
+* [Marco the Phoenix's solution](https://github.com/marcsanmi/Learning/tree/master/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Calculator/index.html)
 * Add your solution above this line!
 
 
