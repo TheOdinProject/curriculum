@@ -709,7 +709,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mumairk/twin_robots/blob/master/google-homepage/google.html)
 * * [Steven Howard's Solution (Easy & Difficult)](https://github.com/sp-howard/googlesearch_russellwilson) | [View in browser 'Hard']
 * [Vanessa Tan's Solution (Easy)](https://github.com/vanJargon/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/vanJargon/google-homepage/blob/master/index.html)
-* [smtchahal' solution (Easy & Difficult)](https://github.com/smtchahal/the-odin-project/tree/gh-pages/google-homepage) | [View in browser](https://smtchahal.github.io/the-odin-project/google-homepage)
+* [Sumit Chahal's solution (Easy & Difficult)](https://github.com/smtchahal/the-odin-project/tree/master/google-homepage) | [View in browser "Easy"](http://htmlpreview.github.io/?https://github.com/smtchahal/the-odin-project/blob/master/google-homepage/index.html) | [View in browser "Difficult"](http://htmlpreview.github.io/?https://github.com/smtchahal/the-odin-project/blob/master/google-homepage/results.html)
 * [Eric Falcon's Easy Solution](https://github.com/Efdrico/google-homepage) | [view in browser] (http://htmlpreview.github.io/?https://github.com/Efdrico/google-homepage/blob/master/index.html)
 * [Fidelio's solution] (Easy) | [View in browser] (https://htmlpreview.github.io/?https://github.com/fideliom/google_hompage/blob/master/google.htm)
 * [Caitlin Denning's solution Easy](https://github.com/Guacachili/google_homepage/blob/master/easy.html) | [View in browser](https://cdn.rawgit.com/Guacachili/google_homepage/master/easy.html)
