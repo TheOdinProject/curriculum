@@ -125,12 +125,9 @@ class User < ActiveRecord::Base
     end
 
     def send_welcome_email(token)
-      begin
-        @token = token
-        UserMailer.send_welcome_email_to(self, token).deliver_now!
-      rescue Exception => e
-        puts "Error sending welcome email!"
-        puts e.message
-      end
+      @token = token
+      UserMailer.send_welcome_email_to(self, token).deliver_now!
+    rescue => error
+      logger.error "Error sending welcome email: #{error}"
     end
 end

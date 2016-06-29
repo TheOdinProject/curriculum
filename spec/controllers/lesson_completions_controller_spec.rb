@@ -12,16 +12,16 @@ describe LessonCompletionsController do
       # note: the :student_id attribute of lc_attrs is redundant when making requests
       #       because it's taken care of by the current_student in the controller.
       #       It is, however, necessary when creating a lesson_completion directly (w/ #create)
-      post :create, lc_attrs 
+      post :create, lc_attrs
       assert_response 401
     end
-    
+
     it "DELETE #destroy unauthorized" do
       delete :destroy, :lesson_id => lc_attrs[:lesson_id]
       assert_response 401
     end
   end
-  
+
   context "after authentication" do
     before do
       sign_in(student)
@@ -43,14 +43,14 @@ describe LessonCompletionsController do
           }.to change(LessonCompletion, :count).by(0)
         end
 
-        
+
         it "provides a failure redirect" do
           post :create, lc_invalid_attrs
           assert_response 400 # bad request
         end
       end
     end
-    
+
     describe "DELETE #destroy" do
       context "without an existing lesson_completions object" do
         it "returns a bad request status" do
@@ -58,11 +58,11 @@ describe LessonCompletionsController do
           assert_response 400 # bad request
         end
       end
-      
-      context "with an existing lesson_completions object and valid request attributes" do  
-        
+
+      context "with an existing lesson_completions object and valid request attributes" do
+
         let!(:lc){ LessonCompletion.create(lc_attrs)}
-        
+
         it "destroys the existing object" do
           expect{
             delete :destroy, :lesson_id => lc.lesson_id

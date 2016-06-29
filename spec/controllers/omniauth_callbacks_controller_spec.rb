@@ -1,6 +1,10 @@
 require 'spec_helper'
 
 describe OmniauthCallbacksController, "github callback" do
+  before do
+    allow(UserMailer).to receive(:send_welcome_email_to).
+      and_return(double("UserMailer", deliver_now!: true))
+  end
 
   describe 'Github signup' do
     context 'When Github authentication fails' do

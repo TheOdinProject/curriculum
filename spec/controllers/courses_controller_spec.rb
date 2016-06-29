@@ -10,7 +10,7 @@ describe CoursesController do
     describe "GET index" do
 
       context "by default" do
-        
+
         it "courses should be sorted by position" do
           get :index
           expect(assigns(:courses)).to eq(courses.sort{|a,b| a.position <=> b.position })
@@ -40,7 +40,7 @@ describe CoursesController do
       # puts response.inspect
       # puts "\n\n\n#{assigns(:sections)}!!!\n\n\n"
       # # BROKEN!!! See the lessons controller spec... this stupid complex route should be testable somehow.
-      # assigns(:sections).should_not be_empty 
+      # assigns(:sections).should_not be_empty
 
 
   end
