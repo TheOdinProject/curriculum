@@ -31,17 +31,4 @@ describe CoursesController do
       end
     end
   end
-
-  context "requesting the lessons index for a course" do
-
-    # courses/:course_name/lessons
-    it "sections should be sorted by position"
-      # get :course, :course_name => courses.first.title_url
-      # puts response.inspect
-      # puts "\n\n\n#{assigns(:sections)}!!!\n\n\n"
-      # # BROKEN!!! See the lessons controller spec... this stupid complex route should be testable somehow.
-      # assigns(:sections).should_not be_empty
-
-
-  end
 end

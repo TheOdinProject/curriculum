@@ -149,30 +149,5 @@ describe User do
       end
 
     end
-
-    describe "#latest_completed_lesson" do
-
-      context "for a user with two completed lessons" do
-
-        it "should return the latest lesson" do
-          # ??? Is there a good way to actually test this method???
-
-          # completed_lesson_early = double("Lesson")
-          # completed_lesson_late = double("Lesson")
-          # completed_time = Time.now
-          # allow(completed_lesson_early).to receive(:created_at).and_return(completed_time)
-          # allow(completed_lesson_late).to receive(:created_at).and_return(completed_time + 1.minute)
-          # allow(user).to receive(:completed_lessons).and_return([completed_lesson_early, completed_lesson_late])
-          # puts user.completed_lessons
-          # expect(user.latest_completed_lesson).to be(completed_lesson_early)
-
-        end
-      end
-
-    end
-
   end
-
-
-
 end
