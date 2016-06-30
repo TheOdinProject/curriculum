@@ -176,7 +176,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Adam Graham's solution](https://github.com/adamg703/Odin_Project/blob/master/bubble_sort.rb)
 * [Luchillo's solution](https://github.com/Luchillo/The-Odin-Project-course/blob/master/Ruby-programming/Basic-ruby/bubble_sort.rb)
 * [Rahul's solution](https://github.com/rspsonu/the_odin_project/blob/master/ruby/advanced_building_blocks/project1.rb)
-* [j-campbell's solution](https://github.com/j-campbell/advanced-building-blocks/blob/master/bubble.rb)
+* [j-campbell's solution](https://github.com/j-campbell/advanced-building-blocks/tree/master/project_1)
 * Add your solution above this line!
 
 
