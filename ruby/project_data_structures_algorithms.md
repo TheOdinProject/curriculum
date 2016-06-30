@@ -76,6 +76,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Earth35's solution](https://github.com/Earth35/binary_tree_search)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/DataStructures-In-Ruby)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/basic_data_structure/blob/master/binary_trees.rb)
+* [John Connor's solution](https://github.com/jacgitcz/binary_tree)
 * Add your solution above this line!
 
 
