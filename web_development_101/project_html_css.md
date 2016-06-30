@@ -730,6 +730,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *  [Thomas McGrath's Solution (Easy)](https://github.com/tmcgrath299/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/tmcgrath299/google-homepage/blob/master/index.html)
 *  [Albert Grimm's Solution (Easy)](https://github.com/ajgrimm91/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ajgrimm91/google-homepage/blob/master/index.html)
 *  [Ivana Rodriguez's Solution (Easy Peasy)](https://github.com/ivana1017/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/ivana1017/google-homepage/blob/master/index.html)
+*  [Lien's Solution (Easy)](https://github.com/lhphan/google-homepage) | [View in browser](http://lhphan.github.io/google-homepage/)
 * Add your solution above this line!
 
 ## Additional Resources
