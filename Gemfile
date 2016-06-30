@@ -38,7 +38,7 @@ group :development, :test do
   gem 'phantomjs',                  '~> 2.1.1'
   gem 'poltergeist',                '~> 1.9.0'
   gem 'database_cleaner',           '~> 1.5.1'
-  gem 'fakeweb',                    '~> 1.3.0'
+  gem 'webmock',                    '~> 2.1'
   gem 'vcr',                        '~> 3.0'
   gem 'shoulda-matchers',           '~> 3.1'
 end
