@@ -47,7 +47,7 @@ xml.urlset(
         xml.changefreq("weekly")
         xml.priority(0.80)
       end
-      puts "LESSON:S #{course.lessons}!"
+
       course.lessons.each do |lesson|
         xml.url do
           xml.loc "#{lesson_url(course.title_url, lesson.title_url)}"
