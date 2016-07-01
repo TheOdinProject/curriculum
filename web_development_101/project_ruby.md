@@ -190,6 +190,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Vanessa Tan's Solution](https://github.com/vanJargon/test-first-ruby)
 * [Bryan G's Solution](https://github.com/BryanGigs/odin-webdev101-ruby)
 * [Manu Phatak's HIGH ENERGY Solution!](https://github.com/bionikspoon/learn_ruby)
+* [HenrytheDJ's solution](https://github.com/henrythedj/learn_ruby)
 * Add your solution above this line!
 
 ## Additional Resources
