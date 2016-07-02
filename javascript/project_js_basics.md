@@ -1,5 +1,5 @@
 # Project: Building An On Screen Calculator Using Javascript
-  
+
 You've done a lot of Codecademy lately and so it's time to wean yourself off their super-friendly environment and create some Javascript on your own computer.
 
 In this project, you'll be building many simple exercises to drill in your understanding of the language.  You can write them in a script file in your text editor and then run them by copy-pasting into [JS Fiddle](http://jsfiddle.net).  You can run your functions (e.g. `my_max()` below) by console logging their output with something like `console.log(my_max([1,56,2,3,-1,0]))` (which would output 56).
@@ -74,6 +74,7 @@ It's time to build an on-screen calculator
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/JS/jscalc) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/JS/jscalc/index.html)
 * [Artur Okonski's solution](https://github.com/cloudtemplar/js-calculator) | [View in browser](https://jsfiddle.net/c3x67ayp/1/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-calculator/blob/master/index.html)
+* [Marco the Phoenix's solution](https://github.com/marcsanmi/Learning/tree/master/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Calculator/index.html)
 * Add your solution above this line!
 
 
