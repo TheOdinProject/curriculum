@@ -29,12 +29,12 @@ def create_or_update_course(course_attrs)
 
   if course.nil?
     course = Course.create!(course_attrs)
-    puts ">>>> Created new course: #{course_attrs[:title]}!"
+    Rails.logger.info ">>>> Created new course: #{course_attrs[:title]}!"
   elsif course.attributes == course_attrs
-    puts "No changes to existing course: #{course_attrs[:title]}"
+    Rails.logger.info "No changes to existing course: #{course_attrs[:title]}"
   else
     course.update_attributes(course_attrs)
-    puts "Updated existing << COURSE >>: #{course_attrs[:title]}"
+    Rails.logger.info "Updated existing << COURSE >>: #{course_attrs[:title]}"
   end
 
   course
@@ -45,12 +45,12 @@ def create_or_update_section(section_attrs)
 
   if section.nil?
     section = Section.create!(section_attrs)
-    puts ">>>> Created new SECTION: #{section_attrs[:title]}!"
+    Rails.logger.info ">>>> Created new SECTION: #{section_attrs[:title]}!"
   elsif section.attributes == section_attrs
-    puts "No changes to existing section: #{section_attrs[:title]}"
+    Rails.logger.info "No changes to existing section: #{section_attrs[:title]}"
   else
     section.update_attributes(section_attrs)
-    puts "Updated existing SECTION: #{section_attrs[:title]}"
+    Rails.logger.info "Updated existing SECTION: #{section_attrs[:title]}"
   end
 
   section
@@ -61,12 +61,12 @@ def create_or_update_lesson(lesson_attrs)
 
   if lesson.nil?
     lesson = Lesson.create!(lesson_attrs)
-    puts ">>>> Created new lesson: #{lesson_attrs[:title]}!"
+    Rails.logger.info ">>>> Created new lesson: #{lesson_attrs[:title]}!"
   elsif lesson.attributes == lesson_attrs
-    puts "No changes to existing lesson: #{lesson_attrs[:title]}"
+    Rails.logger.info "No changes to existing lesson: #{lesson_attrs[:title]}"
   else
     lesson.update_attributes(lesson_attrs)
-    puts "Updated existing lesson: #{lesson_attrs[:title]}"
+    Rails.logger.info "Updated existing lesson: #{lesson_attrs[:title]}"
   end
 
   lesson
@@ -83,7 +83,7 @@ end
 # ************************************************
 # CREATE INTRO TO WEB DEVELOPMENT COURSE
 # ************************************************
-puts "\n\n***** STARTING COURSE: Introduction to Web Development *****"
+Rails.logger.info "\n\n***** STARTING COURSE: Introduction to Web Development *****"
 
 course_position += 1
 
@@ -194,7 +194,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE WEB DEVELOPMENT 101 COURSE
 # ************************************************
-puts "\n\n***** STARTING COURSE: Web Development 101 *****"
+Rails.logger.info "\n\n***** STARTING COURSE: Web Development 101 *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -600,7 +600,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE RUBY COURSE
 # ************************************************
-puts "\n\n***** STARTING COURSE: Ruby Programming *****"
+Rails.logger.info "\n\n***** STARTING COURSE: Ruby Programming *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -963,7 +963,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE RAILS COURSE
 # ************************************************
-puts "\n\n***** STARTING COURSE: Ruby on Rails *****"
+Rails.logger.info "\n\n***** STARTING COURSE: Ruby on Rails *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -1467,7 +1467,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE HTML5/CSS3 COURSE
 # ************************************************
-puts "\n\n***** STARTING COURSE: HTML/CSS *****"
+Rails.logger.info "\n\n***** STARTING COURSE: HTML/CSS *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -1885,7 +1885,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE JAVASCRIPT/JQUERY COURSE
 # ************************************************
-puts "\n\n***** STARTING COURSE: Javascript *****"
+Rails.logger.info "\n\n***** STARTING COURSE: Javascript *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -2427,7 +2427,7 @@ create_or_update_lesson(
 # ************************************************
 # CREATE GETTING HIRED COURSE
 # ************************************************
-puts "\n\n***** STARTING COURSE: Getting Hired *****"
+Rails.logger.info "\n\n***** STARTING COURSE: Getting Hired *****"
 
 course_position += 1
 course = create_or_update_course(
@@ -2626,9 +2626,9 @@ create_or_update_lesson(
 
 # SANITY CHECKS
 
-puts "\n\n\n\n\n##################   SANITY CHECKS   ##################\n\n"
-puts "#{course_position} courses, #{section_position} sections and #{lesson_counter} lessons dealt with here."
-puts"#{Course.count} courses, #{Section.count} sections and #{Lesson.count} lessons in the database.\n"
+Rails.logger.info "\n\n\n\n\n##################   SANITY CHECKS   ##################\n\n"
+Rails.logger.info "#{course_position} courses, #{section_position} sections and #{lesson_counter} lessons dealt with here."
+Rails.logger.info "#{Course.count} courses, #{Section.count} sections and #{Lesson.count} lessons in the database.\n"
 extra_courses = Course.where("position >= ?", incrementer)
 extra_sections = Section.where("position >= ?", incrementer)
 extra_lessons = Lesson.where("position >= ?", incrementer)
@@ -2636,28 +2636,28 @@ extra_lessons = Lesson.where("position >= ?", incrementer)
 if extra_courses.count > 0 || extra_lessons.count > 0 || extra_sections.count > 0
   "\n\nWARNING: You have leftover courses, sections or lessons in the database.  Probably a title duplicate.  Recommend deleting all instances with position >= #{incrementer}.\n\n"
 else
-  puts "There appears to be no leftover stuff in the database.  Go about your day in peace."
+  Rails.logger.info "There appears to be no leftover stuff in the database.  Go about your day in peace."
 end
 
 if extra_courses.count > 0
-  puts "\n WARNING: #{extra_courses.count} leftover courses!"
+  Rails.logger.warn "\n WARNING: #{extra_courses.count} leftover courses!"
   extra_courses.each do |c|
-    puts ">>> Extra course: #{c.inspect}"
+    Rails.logger.info ">>> Extra course: #{c.inspect}"
   end
 end
 
 if extra_sections.count > 0
-  puts "\n WARNING: #{extra_sections.count} leftover sections!"
+  Rails.logger.warn "\n WARNING: #{extra_sections.count} leftover sections!"
   extra_sections.each do |s|
-    puts ">>> Extra section: #{s.inspect}"
+    Rails.logger.info ">>> Extra section: #{s.inspect}"
   end
 end
 
 if extra_lessons.count > 0
-  puts "\n WARNING: #{extra_lessons.count} leftover lessons!"
+  Rails.logger.warn "\n WARNING: #{extra_lessons.count} leftover lessons!"
   extra_lessons.each do |c|
-    puts ">>> Extra lesson: #{c.inspect}"
+    Rails.logger.info ">>> Extra lesson: #{c.inspect}"
   end
 end
 
-puts "\n#######################################################\n\n\n\n"
+Rails.logger.info "\n#######################################################\n\n\n\n"

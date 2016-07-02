@@ -5,6 +5,6 @@ VCR.configure do |vcr_config|
   vcr_config.filter_sensitive_data('<GITHUB_APP_ID>') { ENV['GITHUB_APP_ID'] }
   vcr_config.filter_sensitive_data('<GITHUB_SECRET>') { ENV['GITHUB_SECRET'] }
 
-  vcr_config.hook_into :fakeweb
+  vcr_config.hook_into :webmock
   vcr_config.ignore_localhost = true
 end

@@ -33,9 +33,6 @@ devise_for :users,
   #failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
 
-
-  resources :cal_events
-
   # This is being hidden until needed (it was needed by the scheduler
   # but that got killed but will still be useful later)
   # resource :user_pref, :only => [:edit, :update]
