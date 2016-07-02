@@ -147,7 +147,6 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/ruby_programing/blob/master/advanced_blocks/bubble_sort.rb)
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/blob/master/bubble_sort.rb)
 * [Noobling's solution](https://github.com/noobling/ruby/blob/master/advanced_buidling_blocks/bubblesort.rb)
-* [TheBetterNewt's solution]
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/blob/master/AdvancedBlocksProject/bubble_sort.rb)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_building_blocks/blob/master/bubble_sort.rb)
 * [parhaml's solution](https://github.com/parhaml/bubble_sort/blob/master/bubble.rb)
@@ -164,8 +163,8 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/Ruby_Advanced_Building_Blocks/blob/master/bubble_sort.rb)
 * [John Connor's solution](https://github.com/jacgitcz/bubble_sort)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/advanced_building_blocks/blob/master/bubble_sort.rb)
-* [Earth35's solution] (https://github.com/Earth35/basic_ruby_projects_II/blob/master/bubble_sort.rb)
-* [Kelvin Stone's solution] (https://github.com/KelvinStone/bubble-sort/blob/master/bubble-sort.rb)
+* [Earth35's solution](https://github.com/Earth35/basic_ruby_projects_II/blob/master/bubble_sort.rb)
+* [Kelvin Stone's solution](https://github.com/KelvinStone/bubble-sort/blob/master/bubble-sort.rb)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/bubble_sort.rb)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/DataStructures-In-Ruby)
 * [Michael Sotkin)'s solution](https://github.com/msotkin/advanced_building_blocks/blob/master/bubble_sort.rb)
@@ -179,6 +178,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [j-campbell's solution](https://github.com/j-campbell/advanced-building-blocks/blob/master/bubble.rb)
 * [Clint's](https://github.com/tholymap/Odin-Ruby-Advanced-Building-Blocks/blob/master/bubble_sort.rb)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/bubble-sort/blob/master/bubble_sort.rb)
+* [Zuqi Chen's solution](https://github.com/JokeyChen/the-odin-project-ruby-programming/blob/master/basic-ruby/advanced-ruby-building-blocks/bubble_sort.rb)
 * Add your solution above this line!
 
 
@@ -335,8 +335,8 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/Ruby_Advanced_Building_Blocks/blob/master/my_enumerable.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/advanced_building_blocks/blob/master/enumerable_methods.rb)
 * [John Connor's solution](https://github.com/jacgitcz/enumeration_methods)
-* [Earth35's solution] (https://github.com/Earth35/basic_ruby_projects_II/blob/master/enumerables_rebuilt.rb)
-* [Kelvin Stone's solution] (https://github.com/KelvinStone/enumerable/blob/master/enumerable.rb)
+* [Earth35's solution](https://github.com/Earth35/basic_ruby_projects_II/blob/master/enumerables_rebuilt.rb)
+* [Kelvin Stone's solution](https://github.com/KelvinStone/enumerable/blob/master/enumerable.rb)
 * [Ricardo Ferreira's solution](https://github.com/RMF2PT/ruby_programming/blob/master/my_methods.rb)
 * [Michael Sotkin's solution](https://github.com/msotkin/advanced_building_blocks/blob/master/enumerable.rb)
 * [Joshua Hipple's solution](https://github.com/JBHipple/enumerator/blob/master/enumerable.rb)
