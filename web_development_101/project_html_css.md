@@ -82,7 +82,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 
-* [Charles Mayhew's solution](https://github.com/mayhewcharles1/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mayhewcharles1/google-homepage/blob/master/index.html)
+
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/google-homepage/index.html)
 * [Cedric Charly's solution](https://github.com/Cedricgc/playground/tree/master/The%20Odin%20Project/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Cedricgc/playground/blob/master/The%20Odin%20Project/google-homepage/index.html)
 * [Arunabh Singh's solution](https://github.com/arunabh15091989/google-homepage) | [View in browser](https://codepen.io/arunabh/pen/mPKzrB)
@@ -724,6 +724,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [N00bG1rl's solution](https://github.com/N00bG1rl/google-homepage) | [View in Browser (Easy)](https://cdn.rawgit.com/N00bG1rl/google-homepage/master/google.html) | [View in Browser (Difficult)](https://cdn.rawgit.com/N00bG1rl/google-search/master/search.html)
 * [Marc Eclipse's Solution (Easy)](https://github.com/Cador24/google-homepage/blob/master/google.html) | [View in browser] (http://htmlpreview.github.io/?https://github.com/Cador24/google-homepage/blob/master/google.html)
 * [Harsha's Solution (Easy)](https://github.com/HarshaLaxman/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/HarshaLaxman/google-homepage/blob/master/index.html)
+* [Charles Mayhew's solution](https://github.com/mayhewcharles1/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/mayhewcharles1/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
