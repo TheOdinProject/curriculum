@@ -733,6 +733,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *  [Lien's Solution (Easy)](https://github.com/lhphan/google-homepage) | [View in browser](http://lhphan.github.io/google-homepage/)
 *  [tcapre01's Solution (Easy)](https://github.com/tcapre01/google-homepage)| [View in browser] (http://htmlpreview.github.io/?https://github.com/tcapre01/google-homepage/blob/master/index.html)
 *  [Niblu's Solution (Difficult)](https://github.com/Niblu/google-results) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Niblu/google-results/blob/master/google_results.html)
+*  [Jonathan Rayson's Solution (Easy)](https://github.com/mowse-ink/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mowse-ink/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
