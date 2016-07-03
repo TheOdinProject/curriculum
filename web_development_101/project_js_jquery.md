@@ -427,4 +427,9 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Michael Marquez's Solution](https://github.com/maraken/etch-a-sketch-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/maraken/etch-a-sketch-project/blob/master/index.html)
 * [Jitesh Pabla's Solution](https://github.com/jiteshpabla/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/jiteshpabla/sketch-pad/blob/master/index.html)
 * [Roy Chen's Solution](https://github.com/roychen5/etch-a-sketch) | [View in browser](https://rawgit.com/roychen5/etch-a-sketch/master/index.html)
+* [Zach Beaird's Solution](https://github.com/zbbeaird89/Etch-a-Sketch) | [View in Browser](https://htmlpreview.github.io/?https://github.com/zbbeaird89/Etch-a-Sketch/blob/master/index.html)
+* [Harsha Laxman's Solution](https://github.com/HarshaLaxman/sketch-squares) | [View in Browser](http://htmlpreview.github.io/?https://github.com/HarshaLaxman/sketch-squares/blob/master/index.html)
+* [Karthik's Solution](https://github.com/kmeda/jquery-sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/kmeda/jquery-sketchpad/blob/master/index.html) [;P]
+* [Sparwoman's Solution](https://github.com/sparwoman/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/sparwoman/sketchpad/blob/master/index.html)
+* [Sayan's Solution](https://github.com/ChoosingUsernameIsSoHard/project-js-jquery) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ChoosingUsernameIsSoHard/project-js-jquery/blob/master/index.html)
 * Add your solution above this line!

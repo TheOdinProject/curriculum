@@ -149,7 +149,7 @@ These installfests will take you through the steps to install everything on your
 1. Complete the entire [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.0.0` or a similar number.  `$ rails -v` should give you something like `4.0.0`.
 
-if you have trouble with the installfest, or are using ubuntu 16.04 check out [gorails](https://gorails.com/setup/ubuntu/16.04)
+
   
 ## Checklist
 

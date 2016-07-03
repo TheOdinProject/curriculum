@@ -40,6 +40,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/javascript/dom-manipulation) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/dom-manipulation/tabs.html)
 * [Patrick Mallee's solution](https://github.com/patmallee/menu) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/menu/blob/master/menu.html)
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/JS/re_render) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/JS/re_render/index.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/restaurant/blob/master/index.html)
 * Add your solution above this line!
 
 

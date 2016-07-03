@@ -101,6 +101,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * Ricardo Villegas' solution ([Game code](https://github.com/claricardo/RubyBuildingBlocks/blob/master/connect_four.rb), [Game tests](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/connect_four_spec.rb))
 * [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/connect_four)
 * [DV's solution](https://github.com/dvislearning/connectfour)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/rspec)
 * Add your solution above this line!
 
 ## Additional Resources
