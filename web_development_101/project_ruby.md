@@ -192,6 +192,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Manu Phatak's HIGH ENERGY Solution!](https://github.com/bionikspoon/learn_ruby)
 * [HenrytheDJ's solution](https://github.com/henrythedj/learn_ruby)
 * [Dave Smith's Solution](https://github.com/lah4life/learn_ruby)
+* [Sayan's Solution](https://github.com/ChoosingUsernameIsSoHard/project-ruby/tree/master)
 * Add your solution above this line!
 
 ## Additional Resources
