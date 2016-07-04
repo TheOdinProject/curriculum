@@ -71,4 +71,5 @@ Build the following methods in your linked list class:
 * [John Connor's solution](https://github.com/jacgitcz/linked_list)
 * [Earth35's solution](https://github.com/Earth35/linked-list/blob/master/linked_list.rb)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/linked_list.rb)
+* [Amrr Bakry's solution - with extra credit] (https://github.com/Amrrbakry/learning_ruby/blob/master/LinkedList/linked_list.rb)
 * Add your solution above this line!
