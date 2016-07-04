@@ -48,7 +48,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Top's solution](https://github.com/TopOneOfTopOne/flight-booker) | [View in browser](https://flightbooker69.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flight-booker)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker)
-* [Norman Chan's solution](https://github.com/slowmancha/Planner)
+* [Norman Chan's solution](https://github.com/slowmanchan/Planner)
 * Add your solution above this line!
 
 ## Additional Resources
