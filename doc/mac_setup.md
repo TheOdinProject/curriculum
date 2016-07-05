@@ -28,6 +28,8 @@ $ lunchy start postgres
 $ lunchy stop postgres
 ```
 
+If you run into a issue such as `No daemon found matching 'postgres'` at this point have a look at [this guide](No daemon found matching 'postgres') to gettign `lunchy` and `postgres` set up and running on OSX.
+
 create a new database for the odin project site:
 ```
 $ createdb theodinproject
