@@ -1,6 +1,6 @@
 <div id="devise-form" class="devise-sign-up">
 
-<!-- 
+<!--
 
   We need to cover several special login/signup cases:
   * User is trying to create an account with Github and has now arrived at the step where he must check the legal agreements ... we need a "don't worry, this is the last step!" message
@@ -16,22 +16,6 @@
     <h2>Step 2: Verify Information</h2>
   <% else %>
     <h2>Sign up</h2>
-    
-    <div class="alpha-alert">
-      <h3>Beta Release Notice</h3>
-      <p>
-        Thanks for your interest in The Odin Project and we're excited to have you in on the ground floor! Just so you know, this is currently a beta-level product, which means a couple of things:
-      </p>
-      <ol>
-        <li>
-          <strong>It's Rough Around the Edges</strong><br> This is a pre-release, so please don't expect perfection.  It's very much a work in progress that responds to your needs and we'll be expanding the features based on the feedback we receive.
-        </li>
-        <li>
-          <strong>We Need Your Help!</strong><br> Use the suggestion box at the bottom of the screen or email us at feedback@theodinproject.com with any feedback.  If you want to get involve (it's open source!), check out our Contributing page.  We're all building this project together!
-        </li>
-      </ol>
-    </div>
-
   <% end %>
 
   <%= render :partial => "shared/github_login_button", :locals => {:screen => "Sign up"} %>
