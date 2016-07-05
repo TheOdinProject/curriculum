@@ -433,4 +433,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Sparwoman's Solution](https://github.com/sparwoman/sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/sparwoman/sketchpad/blob/master/index.html)
 * [Sayan's Solution](https://github.com/ChoosingUsernameIsSoHard/project-js-jquery) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ChoosingUsernameIsSoHard/project-js-jquery/blob/master/index.html)
 * [Thomas McGrath's Solution](https://github.com/tmcgrath299/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tmcgrath299/sketchpad/blob/master/index.html)
+* [Emily Brooks' Solution](https://github.com/emily-brooks/javascript)
 * Add your solution above this line!
