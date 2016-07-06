@@ -591,7 +591,7 @@
       font-weight:300;
     }
   }
-	
+
   .hof-card{
 	  height: auto;
 		min-width:410px;
@@ -616,14 +616,14 @@
 			}
 			a:hover{
 				opacity:0.6;
-			}	
+			}
 			.blog{
 				margin-left:-24px;
-				margin-top:-45px;				
+				margin-top:-45px;
 			}
 			.github{
 				margin-left:-24px;
-				margin-top:5px;		
+				margin-top:5px;
 			}
 		}
 		.name-bg{
@@ -640,7 +640,7 @@
 		.bio{
 			float:right;
 			width:300px;
-			margin-top:-36px;			
+			margin-top:-36px;
 		}
 		p {
 			min-height:110px;
@@ -762,10 +762,10 @@ div.chat-actions{
 }
 
 /* clearfix for the buttons container */
-.clearfix:after { 
+.clearfix:after {
    content: " ";
-   display: block; 
-   height: 0; 
+   display: block;
+   height: 0;
    clear: both;
 }
 
@@ -781,4 +781,12 @@ div.chat-actions{
     margin-top: 2%;
 
   }
+}
+
+.btn-static-pages-CTA {
+  width: 60%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin: 1em auto;
+  display: block;
 }
