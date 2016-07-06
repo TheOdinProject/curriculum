@@ -49,7 +49,7 @@ In this exercise you will practice creating files and directories and deleting t
 4. Navigate back out of the `test` directory
 5. Delete the `test` directory
 
-That's it, your done with command line basics.
+That's it, you're done with command line basics.
 
 
 ## Additional Resources
