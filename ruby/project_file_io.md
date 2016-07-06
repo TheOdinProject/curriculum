@@ -197,6 +197,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/hangman)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/hangman)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/hangman)
+* [Peuchen's solution](https://github.com/Peuchen/hangman)
 * Add your solution above this line!
 
 
