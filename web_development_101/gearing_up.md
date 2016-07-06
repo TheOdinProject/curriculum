@@ -112,8 +112,11 @@ In short, understand it, practice it, and finally teach it.
 
 Teaching what you know to others is a great way to solidify what you have learnt
 and can often reveal holes in your knowledge that you wouldn't have identified
-otherwise. You can use our [slack chat](http://www.theodinproject.com/chat) to
-practice this method of learning by answering questions and helping students who
+otherwise. 
+
+<a class="btn btn-primary btn-static-pages-CTA" href="http://www.theodinproject.com/chat" target="_blank" />
+
+Join us to practice this method of learning by answering questions and helping students who
 are not as far in  the course as you are. Don't forget to introduce yourself!
 
 * To learn more about the best ways to learn, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
