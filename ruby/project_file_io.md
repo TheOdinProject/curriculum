@@ -81,6 +81,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/event-manager)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/event_manager/lib)
 * [Peuchen's solution](https://github.com/Peuchen/event_manager)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/event_manager)
 * Add your solution above this line!
 
 
