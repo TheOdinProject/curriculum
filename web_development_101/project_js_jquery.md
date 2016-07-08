@@ -430,5 +430,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Zach Beaird's Solution](https://github.com/zbbeaird89/Etch-a-Sketch) | [View in Browser](https://htmlpreview.github.io/?https://github.com/zbbeaird89/Etch-a-Sketch/blob/master/index.html)
 * [Harsha Laxman's Solution](https://github.com/HarshaLaxman/sketch-squares) | [View in Browser](http://htmlpreview.github.io/?https://github.com/HarshaLaxman/sketch-squares/blob/master/index.html)
 * [Karthik's Solution](https://github.com/kmeda/jquery-sketchpad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/kmeda/jquery-sketchpad/blob/master/index.html) [;P]
+* [tcapre01's Solution](https://github.com/tcapre01/the_odin_project/tree/master/etch-a-sketch) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/tcapre01/the_odin_project/blob/master/etch-a-sketch/index.html)
 
 * Add your solution above this line!
