@@ -199,6 +199,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/hangman)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/hangman)
 * [Peuchen's solution](https://github.com/Peuchen/hangman)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/Hangman)
 * Add your solution above this line!
 
 
