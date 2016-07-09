@@ -46,6 +46,12 @@ describe UsersController do
       assert_response 200
     end
 
+    it "GET #show with invalid id is redirected" do
+      get :show, :id => "invalid"
+      expect(response).to redirect_to root_url
+      expect(flash[:error]).to eql("Invalid user ID")
+    end
+
     describe "messing with other users' things" do
 
       it "GET #edit is unauthorized" do
