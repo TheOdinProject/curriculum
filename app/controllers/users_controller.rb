@@ -5,16 +5,11 @@ class UsersController < ApplicationController
   before_action :check_current_user, :only => [:edit, :update]
 
   def show
-    handle_nil_user if @user.nil?
   end
 
   def edit
-    if @user
-      @edit = true
-      render :show
-    else
-      handle_nil_user
-    end
+    @edit = true
+    render :show
   end
 
   # NOTE: This is actually done by Devise's RegistrationsController
@@ -76,11 +71,10 @@ class UsersController < ApplicationController
 
   private
     def set_user
-      @user = User.find_by_id(params[:id])
-    end
-
-    def handle_nil_user
-      flash[:error] = "There was no user by that name"
-      redirect_to :back
+      begin
+        @user = User.find(params[:id])
+      rescue ActiveRecord::RecordNotFound
+        redirect_to root_url, :flash => {error: "Invalid user ID"}
+      end
     end
 end
