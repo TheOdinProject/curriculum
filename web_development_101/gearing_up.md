@@ -213,3 +213,4 @@ Without further ado, lets get stuck in to learning Web development.
 ### Extra resources:
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
+* [Improve your typing skills with Keybr](http://www.keybr.com/#!profile) Use this website if you find your typing speed is holding you back. It's a great free interactive learning tool.
