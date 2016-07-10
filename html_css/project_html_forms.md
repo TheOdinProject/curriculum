@@ -46,6 +46,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/HTML_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/HTML_forms/index.html)
 * [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/html5-css3/html-forms)| [View in browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/html5-css3/html-forms/index.html)
 * [Earth35's solution](https://github.com/Earth35/mint-form) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/mint-form/blob/master/signup.html)
+* [Guido Bakkes' solution](https://github.com/guidobakkes/mock-ups/tree/master/mint-sign-up) | [View in browser](https:://htmlpreview.github.io/?https://github.com/guidobakkes/mock-ups/blob/master/mint-sign-up/index.html)
 * Add your solution above this line!
 
 
