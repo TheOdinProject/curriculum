@@ -341,6 +341,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Martin's Solution](https://github.com/mnk179/project-euler-solutions)
 * [Usman Akhter's Solution](https://github.com/usmanakhter/Odin/tree/master/EulerProblems)
 * [Matthew Chan's Solution] (https://github.com/matthewhtc/theodinproject/tree/master/project-euler)
+* [Austin Tinsley's Solution] (https://github.com/austinsley/euler-javascript)
 * Add your solution above this line!
 
 ## Additional Resources
