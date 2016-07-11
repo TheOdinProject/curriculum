@@ -167,6 +167,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Armin Zierlinger's solution](https://github.com/ArminZierlinger/RubyonRails) | [View in browser](https://calm-basin-45633.herokuapp.com/)
 * [Vanessa Tan's solution](https://github.com/vanJargon/blogger) | [View in browser](https://peaceful-brushlands-76681.herokuapp.com)
 * [Manu Phatak's solution](https://github.com/bionikspoon/rails_bloggerr) | [View in browser](https://bionikspoon-rails-blogger.herokuapp.com/)
+* [Karthik's Solution](https://github.com/kmeda/rails_app) | [View in browser] (https://quiet-chamber-89419.herokuapp.com/)
 * Add your solution above this line!
 
 
