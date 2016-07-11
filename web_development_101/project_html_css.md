@@ -743,6 +743,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *  [Voinea Mihai's solution (easy)](https://github.com/MihaiVoinea01/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/MihaiVoinea01/google-homepage/blob/master/index.html)
 *  [Austin Tinsley's Solution (easy)](https://github.com/austinsley/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/austinsley/google-homepage/blob/master/index.html)
 *  [Bruno Oliveira's Solution (easy)](https://github.com/bruno-oliveira/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bruno-oliveira/google-homepage/blob/master/index.html)
+* [Blackeagle92's solution (easy)](https://github.com/blackeagle92/my_projects/blob/master/google%20homepage%20sim.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/blackeagle92/my_projects/blob/master/google%20homepage%20sim.html) 
 * Add your solution above this line!
 
 ## Additional Resources
