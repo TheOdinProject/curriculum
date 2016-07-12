@@ -76,4 +76,5 @@ Build the following methods in your linked list class:
 * [Manu Phatak's HIGH ENERGY solution](https://github.com/bionikspoon/ruby_linked_list)
 * [fugumagu's solution with extra credit](https://github.com/fugumagu/the_odin_project/tree/master/linked_list)
 * [Sasho's solution /w extra credit](https://github.com/sashoa/the-odin-project/tree/master/project-linked-lists)
+* [Austin's solution with extra credit](https://github.com/CouchofTomato/algorithm/blob/master/linked_list.rb)
 * Add your solution above this line!
