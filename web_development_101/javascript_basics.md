@@ -344,6 +344,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Austin Tinsley's Solution] (https://github.com/austinsley/euler-javascript)
 * [Bruno Oliveira's Solution](https://github.com/bruno-oliveira/euler-problems)
 *  [NIblu's Solution](https://github.com/Niblu/Euler_problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/Niblu/Euler_problems/blob/master/euler.html)
+*  [Steve Howard's solution](https://github.com/sp-howard/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/sp-howard/euler-problems/blob/master/app/index.html) 
 * Add your solution above this line!
 
 ## Additional Resources
