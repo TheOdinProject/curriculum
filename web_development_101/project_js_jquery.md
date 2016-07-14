@@ -438,4 +438,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Fred Rhae's Solution] (https://github.com/fredrhae/odin_project_javascript-jquery) | [View in browser] (http://htmlpreview.github.io/?https://github.com/fredrhae/odin_project_javascript-jquery/blob/master/index.html) 
 * [BJ Bryant's Solution](https://github.com/bryantbj/odin-etch-a-sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/bryantbj/odin-etch-a-sketch/blob/master/index.html)
 * [Matthew Chan's Solution] (https://github.com/matthewhtc/theodinproject/tree/master/etch-a-sketch) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/matthewhtc/theodinproject/blob/master/etch-a-sketch/index.html)
+* [Mark Booth's Solution] (https://github.com/mrboot/etch-a-sketch/blob/master/index.html) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mrboot/etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
