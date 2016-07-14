@@ -200,6 +200,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/hangman)
 * [Peuchen's solution](https://github.com/Peuchen/hangman)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/Hangman)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/Ruby/hangman)
 * Add your solution above this line!
 
 
