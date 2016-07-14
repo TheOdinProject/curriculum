@@ -747,7 +747,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Melanie Taduan's solution (Easy)](https://github.com/melaitaduan/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/melaitaduan/google-homepage/blob/master/index.html)
 * [Freddy Järvå's solution (Easy)](https://github.com/freddyJarva/google-homepage) | [View in browser](https://github.com/freddyJarva/google-homepage/blob/master/index.html)
 * [Aristotelis Leventidis's solution (Easy)](https://github.com/aristotle333/theodinproject/tree/master/google-homepage) | [View in browser](https://github.com/aristotle333/theodinproject/blob/master/google-homepage/index.html)
-* [Snuffkin's solution (easy)](https://github.com/Ipotane/google-homepage) | [View in browser](https://github.com/ipotane/theodinproject/blob/master/google-homepage/index.html)
+* [Alan Cruse's solution (Easy)] (https://github.com/ADECruse/google-homepage.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ADECruse/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
