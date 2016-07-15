@@ -435,4 +435,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Thomas McGrath's Solution](https://github.com/tmcgrath299/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tmcgrath299/sketchpad/blob/master/index.html)
 * [Emily Brooks' Solution](https://github.com/emily-brooks/javascript)
 * [Lien's Solution](https://github.com/lhphan/sketchpad) | [View in browser](https://lhphan.github.io/sketchpad/)
+* [usman Akhter's Solution](https://github.com/usmanakhter/Odin/tree/master/EtchaSketch) | [View in browser](https://usmanakhter.github.io/EtchaSketch/)
 * Add your solution above this line!
