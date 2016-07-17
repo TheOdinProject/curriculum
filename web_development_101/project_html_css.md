@@ -1,4 +1,4 @@
-﻿# Project: HTML/CSS
+# Project: HTML/CSS
 <!-- *Estimated Time: 4-8 hrs* -->
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
@@ -743,13 +743,14 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *  [Voinea Mihai's solution (easy)](https://github.com/MihaiVoinea01/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/MihaiVoinea01/google-homepage/blob/master/index.html)
 *  [Austin Tinsley's Solution (easy)](https://github.com/austinsley/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/austinsley/google-homepage/blob/master/index.html)
 *  [Bruno Oliveira's Solution (easy)](https://github.com/bruno-oliveira/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bruno-oliveira/google-homepage/blob/master/index.html)
-* [Blackeagle92's solution (easy)](https://github.com/blackeagle92/my_projects/blob/master/google%20homepage%20sim.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/blackeagle92/my_projects/blob/master/google%20homepage%20sim.html) 
+* [Blackeagle92's solution (easy)](https://github.com/blackeagle92/my_projects/blob/master/google%20homepage%20sim.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/blackeagle92/my_projects/blob/master/google%20homepage%20sim.html)
 * [Melanie Taduan's solution (Easy)](https://github.com/melaitaduan/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/melaitaduan/google-homepage/blob/master/index.html)
 * [Freddy Järvå's solution (Easy)](https://github.com/freddyJarva/google-homepage) | [View in browser](https://github.com/freddyJarva/google-homepage/blob/master/index.html)
 * [Aristotelis Leventidis's solution (Easy)](https://github.com/aristotle333/theodinproject/tree/master/google-homepage) | [View in browser](https://github.com/aristotle333/theodinproject/blob/master/google-homepage/index.html)
 * [Alan Cruse's solution (Easy)] (https://github.com/ADECruse/google-homepage.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ADECruse/google-homepage/blob/master/index.html)
 * [Michael Horn's solution (Easy)](https://github.com/HornMichaelS/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/HornMichaelS/google-homepage/blob/master/index.html)
 * [husein ghafari's (Easy)](https://github.com/hosghf/google-homepage1) | [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/google-homepage1/blob/master/index.html)
+*  [Yasmin's Solution (easy)](https://github.com/KILLJXY/google_homepage)  | [View in browser](https://rawgit.com/KILLJXY/google_homepage/master/homepage.html)
 * Add your solution above this line!
 
 ## Additional Resources
