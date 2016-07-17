@@ -77,6 +77,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/DataStructures-In-Ruby)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/basic_data_structure/blob/master/binary_trees.rb)
 * [John Connor's solution](https://github.com/jacgitcz/binary_tree)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/data_structures/blob/master/binary_tree.rb)
 * Add your solution above this line!
 
 
@@ -163,7 +164,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Earth35's solution](https://github.com/Earth35/knight_moves)
 * [DV's solution](https://github.com/dvislearning/knight_travels/blob/master/knight_travels.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/basic_data_structure/blob/master/knight_moves.rb)
-* [John Connor's solution](https://github.com/jacgitcz/knight_moves)
+* [John Connor's solution](https://github.com/jacgitcz/knight_moves)\
+* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/blob/master/chess/knight_movement.rb)
 * Add your solution above this line!
 
 ## Additional Resources
