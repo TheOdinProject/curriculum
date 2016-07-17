@@ -441,4 +441,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Mark Booth's Solution](https://github.com/mrboot/etch-a-sketch/blob/master/index.html) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mrboot/etch-a-sketch/blob/master/index.html)
 * [Austin Tinsley's Solution](https://github.com/austinsley/javasketch) | [View in browser](https://austinsley.github.io/javasketch/)
 * [tcapre01's Solution](https://github.com/tcapre01/the_odin_project/tree/master/etch-a-sketch) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/tcapre01/the_odin_project/blob/master/etch-a-sketch/index.html)
+* [Usman Akhter's Solution](https://github.com/usmanakhter/Odin/tree/master/EtchaSketch) | [View in browser](https://usmanakhter.github.io/EtchaSketch/)
 * Add your solution above this line!
