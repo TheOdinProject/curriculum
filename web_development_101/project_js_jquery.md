@@ -435,9 +435,10 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Thomas McGrath's Solution](https://github.com/tmcgrath299/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/tmcgrath299/sketchpad/blob/master/index.html)
 * [Emily Brooks' Solution](https://github.com/emily-brooks/javascript)
 * [Lien's Solution](https://github.com/lhphan/sketchpad) | [View in browser](https://lhphan.github.io/sketchpad/)
-* [Fred Rhae's Solution] (https://github.com/fredrhae/odin_project_javascript-jquery) | [View in browser] (http://htmlpreview.github.io/?https://github.com/fredrhae/odin_project_javascript-jquery/blob/master/index.html) 
+* [Fred Rhae's Solution](https://github.com/fredrhae/odin_project_javascript-jquery) | [View in browser] (http://htmlpreview.github.io/?https://github.com/fredrhae/odin_project_javascript-jquery/blob/master/index.html)
 * [BJ Bryant's Solution](https://github.com/bryantbj/odin-etch-a-sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/bryantbj/odin-etch-a-sketch/blob/master/index.html)
-* [Matthew Chan's Solution] (https://github.com/matthewhtc/theodinproject/tree/master/etch-a-sketch) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/matthewhtc/theodinproject/blob/master/etch-a-sketch/index.html)
-* [Mark Booth's Solution] (https://github.com/mrboot/etch-a-sketch/blob/master/index.html) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mrboot/etch-a-sketch/blob/master/index.html)
+* [Matthew Chan's Solution](https://github.com/matthewhtc/theodinproject/tree/master/etch-a-sketch) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/matthewhtc/theodinproject/blob/master/etch-a-sketch/index.html)
+* [Mark Booth's Solution](https://github.com/mrboot/etch-a-sketch/blob/master/index.html) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mrboot/etch-a-sketch/blob/master/index.html)
 * [Austin Tinsley's Solution](https://github.com/austinsley/javasketch) | [View in browser](https://austinsley.github.io/javasketch/)
+* [tcapre01's Solution](https://github.com/tcapre01/the_odin_project/tree/master/etch-a-sketch) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/tcapre01/the_odin_project/blob/master/etch-a-sketch/index.html)
 * Add your solution above this line!
