@@ -747,10 +747,12 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Melanie Taduan's solution (Easy)](https://github.com/melaitaduan/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/melaitaduan/google-homepage/blob/master/index.html)
 * [Freddy Järvå's solution (Easy)](https://github.com/freddyJarva/google-homepage) | [View in browser](https://github.com/freddyJarva/google-homepage/blob/master/index.html)
 * [Aristotelis Leventidis's solution (Easy)](https://github.com/aristotle333/theodinproject/tree/master/google-homepage) | [View in browser](https://github.com/aristotle333/theodinproject/blob/master/google-homepage/index.html)
-* [Alan Cruse's solution (Easy)] (https://github.com/ADECruse/google-homepage.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ADECruse/google-homepage/blob/master/index.html)
+* [Alan Cruse's solution (Easy)](https://github.com/ADECruse/google-homepage.git) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ADECruse/google-homepage/blob/master/index.html)
 * [Michael Horn's solution (Easy)](https://github.com/HornMichaelS/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/HornMichaelS/google-homepage/blob/master/index.html)
 * [husein ghafari's (Easy)](https://github.com/hosghf/google-homepage1) | [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/google-homepage1/blob/master/index.html)
 *  [Yasmin's Solution (easy)](https://github.com/KILLJXY/google_homepage)  | [View in browser](https://rawgit.com/KILLJXY/google_homepage/master/homepage.html)
+* [Karthik's Solution (Easy)](https://github.com/kmeda/google_home/blob/master/home.html) | [View in Browser](https://htmlpreview.github.io/?https://github.com/kmeda/google_home/blob/master/home.html)
+* [Young Jeong's Solution (Easy)](https://github.com/youngjeong46/the_odin_project/blob/master/google-homepage/index.html)|[View in Browser](https://htmlpreview.github.io/?https://github.com/youngjeong46/the_odin_project/blob/master/google-homepage/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
