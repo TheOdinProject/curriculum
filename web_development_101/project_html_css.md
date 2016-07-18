@@ -754,6 +754,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Karthik's Solution (Easy)](https://github.com/kmeda/google_home/blob/master/home.html) | [View in Browser](https://htmlpreview.github.io/?https://github.com/kmeda/google_home/blob/master/home.html)
 * [Young Jeong's Solution (Easy)](https://github.com/youngjeong46/the_odin_project/blob/master/google-homepage/index.html)|[View in Browser](https://htmlpreview.github.io/?https://github.com/youngjeong46/the_odin_project/blob/master/google-homepage/index.html)
 * [Ernest Francis's solution] (https://github.com/ness122/google-homepage/blob/master/index.html)|[View in browser] (https://htmlpreview.github.io/?https://github.com/ness122/google-homepage/blob/master/index.html)
+* [Mike Coon's solution] (https://github.com/mac718/google-homepage)|[View in browser] (https://htmlpreview.github.io/?https://github.com/mac718/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
