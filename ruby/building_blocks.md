@@ -134,7 +134,7 @@ But this lesson will take you much deeper and further than you went before, so d
 
 *Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).*
 
-1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/learn-ruby/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
+1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/ruby/beginner/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
 2. Make sure you go back up and look at all the questions from the "Points to Ponder" section.  See if you can do most of them without looking back through the text.
 
 ## Additional Resources
