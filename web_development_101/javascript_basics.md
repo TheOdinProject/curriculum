@@ -346,6 +346,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *  [NIblu's Solution](https://github.com/Niblu/Euler_problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/Niblu/Euler_problems/blob/master/euler.html)
 *  [Steve Howard's solution](https://github.com/sp-howard/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/sp-howard/euler-problems/blob/master/app/index.html) 
 *  [Aristotelis Leventidis's solution](https://github.com/aristotle333/theodinproject/tree/master/EulerProject)
+* [Eduardo Peixe's Solution](https://github.com/eduardopeixe/odinProject/tree/master/js101)
 * Add your solution above this line!
 
 ## Additional Resources
