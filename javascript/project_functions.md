@@ -34,6 +34,7 @@ The basic rules are that the player must flag every mine on the board without cl
 * [Dan V's solution](https://github.com/vickerdj/minesweeper) | [View in browser](http://vickerdj.github.io/minesweeper/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/minesweeper/index.html)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/Mine-Hunter) (In Rails, with time and scores)  | [View in browser](https://mine-hunter.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/minesweeper/blob/master/index.html)
 * Add your solution above this line!
 
 
