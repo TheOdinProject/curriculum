@@ -758,6 +758,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Eduardo's solution](https://github.com/eduardopeixe/odinProject) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/eduardopeixe/odinProject/blob/master/google.html) | [View in Browser (Difficult)](https://htmlpreview.github.io/?https://github.com/eduardopeixe/odinProject/blob/master/google-advanced.html)
 * [Aleksander Sadov's Solution (Easy)](https://github.com/AleksanderSadov/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://raw.githubusercontent.com/AleksanderSadov/google-homepage/master/index.html)
 * [Ruochen Liang's solution(Easy)](https://github.com/vincentLiangBerkeley/google-homepage) | [View in Brwoser](https://htmlpreview.github.io/?https://github.com/vincentLiangBerkeley/google-homepage/blob/master/index.html)
+* [Loris Aranda's solution(Easy)](https://github.com/LorisProg/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LorisProg/google-homepage/blob/a7b3b092d59d83709830f5b1447fcf0bcb81d60c/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
