@@ -70,6 +70,8 @@ Refactor myMap to pass your modified array forward - into another callback!
 
 1. [Nida's Solution](https://github.com/nidafarooqui/Callbacks/blob/master/callbacks.js)
 1. [Yoshua Elmaryono's Solution](https://github.com/dotm/functionalJS/blob/master/callbacks/callbackExercises.js)
+2. [Miguel Herrera's solution](https://github.com/migueloherrera/js-callbacks)
+3. * Add your solution above this line!
 
 ## Additional Resources
 
