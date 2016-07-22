@@ -29,6 +29,7 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 * [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/newsweek)|[View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/newsweek/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/newsweek) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/newsweek/blob/master/index.html)
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/using_bootstrap) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/using_bootstrap/index.html)
+* [Alejandro Corredor's solution](https://github.com/aecorredor/newsweek-replica/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/aecorredor/newsweek-replica/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
