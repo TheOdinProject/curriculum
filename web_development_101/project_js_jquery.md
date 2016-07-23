@@ -447,4 +447,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Aristotelis Leventidis's Solution](https://github.com/aristotle333/theodinproject/tree/master/Etch-A-Sketch/public_html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/aristotle333/theodinproject/blob/master/Etch-A-Sketch/public_html/index.html)
 * [Raiko Murulauk's Solution](https://github.com/Cypher0/etch-a-sketch) | [View in Browser](https://cdn.rawgit.com/Cypher0/etch-a-sketch/master/index.html)
 * [Eduardo Peixe's Solution](https://github.com/eduardopeixe/odinProject/tree/master/Project-JavascritpJQuery) | [View in Browser](https://htmlpreview.github.io/?https://github.com/eduardopeixe/odinProject/blob/master/Project-JavascritpJQuery/grid.html)
+* [Michael Horn's Solution](https://github.com/HornMichaelS/Etch-A-Sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/HornMichaelS/Etch-A-Sketch/blob/master/index.html)
 * Add your solution above this line!
