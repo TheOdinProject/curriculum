@@ -196,7 +196,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Karthik's Solution] (https://github.com/kmeda/web101_ruby_proj)
 * [Roy Chen's Solution](https://github.com/roychen5/learn_ruby)
 * [David Chapman's Solution](https://github.com/davidchappy/learn_ruby)
-
+* [Young Jeong's Solution](https://github.com/youngjeong46/the_odin_project/tree/master/learn_ruby)
 * Add your solution above this line!
 
 ## Additional Resources
