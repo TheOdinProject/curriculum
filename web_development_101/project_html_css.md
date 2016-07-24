@@ -764,6 +764,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [husein ghafari's solution (dificult)](https://github.com/hosghf/google-search-resualt) | [View in Browser](https://htmlpreview.github.io/?https://github.com/hosghf/google-search-resualt/blob/master/index.html)
 * [Chris Chambers' Solution (Easy)](https://github.com/chrisgchambers/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/chrisgchambers/google-homepage/blob/master/index.html)
 * [Dave Enriquez's solution(Easy)](https://github.com/Denri88/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/Denri88/google-homepage/blob/master/index.html)
+* [Jason Natividad's solution (Easy)](https://github.com/jayz828/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jayz828/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
