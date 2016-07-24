@@ -762,6 +762,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Daniel Povey's solution(Easy)](https://github.com/DanP82/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/DanP82/google-homepage/blob/master/index.html)
 * [Ayo Isaiah's solution (Easy)](https://github.com/ayoisaiah/odin-project/tree/master/google-homepage) | [View in Browser](https://cdn.rawgit.com/ayoisaiah/odin-project/master/google-homepage/index.html)
 * [husein ghafari's solution (dificult)](https://github.com/hosghf/google-search-resualt) | [View in Browser](https://htmlpreview.github.io/?https://github.com/hosghf/google-search-resualt/blob/master/index.html)
+* [Chris Chambers' Solution (Easy)](https://github.com/chrisgchambers/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/chrisgchambers/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
