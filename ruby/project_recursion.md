@@ -190,6 +190,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Manu Phatak's solution](https://github.com/bionikspoon/ruby_recursion#project-merge-sort)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_recursion/blob/master/merge_sort.rb)
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/blob/master/project-recursion/merge_sort.rb)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/merge_sort)
 * Add your solution above this line!
 
 
