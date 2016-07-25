@@ -89,6 +89,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Manu Phatak's solution](https://github.com/bionikspoon/ruby_recursion#warmup-fibonacci)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_recursion/blob/master/fibonacci_recursion.rb)
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-recursion)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/fibonacci)
 * Add your solution above this line!
 
 
