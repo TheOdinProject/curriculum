@@ -279,6 +279,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/Servers)
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-rubyontheweb/web-server-and-browser)
 * [Peuchen's solution](https://github.com/Peuchen/web_server)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/web_server_and_browser)
 * Add your solution above this line!
 
 
