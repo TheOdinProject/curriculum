@@ -337,19 +337,20 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Karthik's Solution](https://github.com/kmeda/projecteuler) | [View in browser](https://htmlpreview.github.io/?https://github.com/kmeda/projecteuler/blob/master/index.html)
 * [tcapre01's Solution] (https://github.com/tcapre01/the_odin_project/tree/master/javascriptbasics)
 * [Harsha's Solution](https://github.com/HarshaLaxman/project_euler.git)
-* [Lien's Solution](https://github.com/lhphan/project-euler) | [View in browser](https://lhphan.github.io/project-euler/) 
+* [Lien's Solution](https://github.com/lhphan/project-euler) | [View in browser](https://lhphan.github.io/project-euler/)
 * [Martin's Solution](https://github.com/mnk179/project-euler-solutions)
 * [Usman Akhter's Solution](https://github.com/usmanakhter/Odin/tree/master/EulerProblems)
 * [Matthew Chan's Solution] (https://github.com/matthewhtc/theodinproject/tree/master/project-euler)
 * [Austin Tinsley's Solution] (https://github.com/austinsley/euler-javascript)
 * [Bruno Oliveira's Solution](https://github.com/bruno-oliveira/euler-problems)
 *  [NIblu's Solution](https://github.com/Niblu/Euler_problems) | [View in browser](https://htmlpreview.github.io/?https://github.com/Niblu/Euler_problems/blob/master/euler.html)
-*  [Steve Howard's solution](https://github.com/sp-howard/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/sp-howard/euler-problems/blob/master/app/index.html) 
+*  [Steve Howard's solution](https://github.com/sp-howard/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/sp-howard/euler-problems/blob/master/app/index.html)
 *  [Aristotelis Leventidis's solution](https://github.com/aristotle333/theodinproject/tree/master/EulerProject)
 * [Eduardo Peixe's Solution](https://github.com/eduardopeixe/odinProject/tree/master/js101)
 * [Loris Aranda's solution](https://github.com/LorisProg/the_odin_project/tree/master/project_euler) | [View in browser](https://cdn.rawgit.com/LorisProg/the_odin_project/master/project_euler/index.html)
 * [Paul Merrigan's solution](https://github.com/maldinix/Project-Euler-Javascript)
-* * [husein ghafari solution of euler prime number project](https://github.com/hosghf/largest_prime_factor)
+* [husein ghafari solution of euler prime number project](https://github.com/hosghf/largest_prime_factor)
+* [Chris Chambers' Solution](https://github.com/chrisgchambers/euler_1_2_3/) | [View in browser] (http://htmlpreview.github.io/?https://github.com/chrisgchambers/euler_1_2_3/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
