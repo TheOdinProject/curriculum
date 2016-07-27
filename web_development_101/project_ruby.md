@@ -199,6 +199,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Young Jeong's Solution](https://github.com/youngjeong46/the_odin_project/tree/master/learn_ruby)
 * [BJ Bryant's Solution] (https://github.com/bryantbj/learn_ruby)
 * [Loris Aranda's Solution] (https://github.com/LorisProg/learn_ruby)
+* [Chris Chambers' Solution](https://github.com/chrisgchambers/learn_ruby)
 * Add your solution above this line!
 
 ## Additional Resources
