@@ -1,3 +1,6 @@
+###
+* design guidelines: http://jgthms.com/web-design-in-4-minutes/
+
 ###Mobile
 * Missused mobile design techniques: https://medium.com/@kollinz/misused-mobile-ux-patterns-84d2b6930570#.6oo9fq7tf
 
