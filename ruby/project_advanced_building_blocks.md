@@ -185,6 +185,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Leonard Soai-Van solution] (https://github.com/leosoaivan/rubybuildingblocks/blob/master/bubblesort.rb)
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/blob/master/Ruby/advanced_building_blocks/bubble_sort.rb)
 * [Max Platt's solution](https://github.com/makxks/advanced_building_blocks/blob/master/bubble_sort.rb)
+* [Roy Chen's solution](https://github.com/roychen5/ruby-building-blocks/blob/master/bubble-sort/bubble_sort.rb)
 * Add your solution above this line!
 
 
