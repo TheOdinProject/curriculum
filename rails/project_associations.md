@@ -105,6 +105,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Mateo Mejia's solution](https://github.com/mateomgj/private-events) | [View in browser](https://fierce-brushlands-63385.herokuapp.com/)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/private-events) | [View in browser](https://private-events-rails.herokuapp.com)
 * [Akshay Bharwani's solution](https://github.com/akshaybharwani/private-events)
+* [Martin Safer's solution](https://github.com/mtsafer/private-events) | [View in browser](https://aqueous-woodland-15720.herokuapp.com/)
 * Add your solution above this line!
 
 
