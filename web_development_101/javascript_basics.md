@@ -352,6 +352,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [husein ghafari solution of euler prime number project](https://github.com/hosghf/largest_prime_factor)
 * [Chris Chambers' Solution](https://github.com/chrisgchambers/euler_1_2_3/) | [View in browser] (http://htmlpreview.github.io/?https://github.com/chrisgchambers/euler_1_2_3/blob/master/index.html)
 * [Mike Coon's Solution](https://github.com/mac718/js101)
+* [Justin Lam's Solution](https://github.com/just-n/project-euler)
 * Add your solution above this line!
 
 ## Additional Resources
