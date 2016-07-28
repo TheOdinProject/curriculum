@@ -767,7 +767,9 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Jason Natividad's solution (Easy)](https://github.com/jayz828/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jayz828/google-homepage/blob/master/index.html)
 * [morikolu's solution (easy)](https://github.com/morikolu/google-homepage/blob/master/google-easy.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/morikolu/google-homepage/blob/master/google-easy.html) | [solution (difficult)](https://github.com/morikolu/google-resultspage/blob/master/google-difficult.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/morikolu/google-resultspage/blob/master/google-difficult.html)
 * [Junjie Ma's solution (easy)](https://github.com/junjiema/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/junjiema/google-homepage/blob/master/index.html)
+* [Jorge Marzola's solution](https://github.com/joelmarvi/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/joelmarvi/google-homepage/blob/master/index.html)
 * 
+
 * Add your solution above this line!
 
 ## Additional Resources
