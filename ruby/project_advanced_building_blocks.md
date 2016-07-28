@@ -361,6 +361,8 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/blob/master/Ruby/advanced_building_blocks/enumerable_methods.rb)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/rubybuildingblocks/blob/master/enumerable.rb)
 * [Max Platt's solution](https://github.com/makxks/advanced_building_blocks/blob/master/enumerable_methods.rb)
+* [Roy Chen's solution](https://github.com/roychen5/ruby-building-blocks/blob/master/enumerable-methods/overwrite_enum.rb)
+
 * Add your solution above this line!
 
 ## Additional Resources
