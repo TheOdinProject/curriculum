@@ -769,7 +769,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Junjie Ma's solution (easy)](https://github.com/junjiema/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/junjiema/google-homepage/blob/master/index.html)
 * [Jorge Marzola's solution](https://github.com/joelmarvi/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/joelmarvi/google-homepage/blob/master/index.html)
 * [grzegorzzajac1989's solution (easy)](https://github.com/grzegorzzajac1989/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/grzegorzzajac1989/google-homepage/blob/master/index.html)
-
+* [Jessica Budd's solution](https://github.com/jessbudd/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/jessbudd/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
