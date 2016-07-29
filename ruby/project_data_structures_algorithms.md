@@ -166,6 +166,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/basic_data_structure/blob/master/knight_moves.rb)
 * [John Connor's solution](https://github.com/jacgitcz/knight_moves)\
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/blob/master/chess/knight_movement.rb)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/knights_travails)
 * Add your solution above this line!
 
 ## Additional Resources
