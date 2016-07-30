@@ -172,6 +172,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [HenrytheDJ's solution](https://github.com/henrythedj/blogolog) | [View in browser] (https://arcane-dusk-33271.herokuapp.com) | I0-I5
 * [Young Jeong's Solution](https://github.com/youngjeong46/blogger) | [View in browser](https://pure-dawn-62488.herokuapp.com/) | I0-I6
 * [Loris Aranda's solution](https://github.com/LorisProg/rails_blogger) | [View in browser] (https://damp-chamber-63138.herokuapp.com/)
+* [Defgarden's solution](https://github.com/Defgarden/blogger) | [View in browser](https://damp-citadel-61063.herokuapp.com/)
 * Add your solution above this line!
 
 
