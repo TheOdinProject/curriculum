@@ -149,7 +149,6 @@ These installfests will take you through the steps to install everything on your
 1. Complete the entire [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
      * **Note for Windows users**: As of July 2016, there is a bug in the current version of railsinstaller for windows. 
      * If you get the error `The system cannot find the path specified.` when attempting to run `bundle install --without production`:
-          * run `gem install rails`
           * run `gem install bundler`
           * try `bundle install --without production` again
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
