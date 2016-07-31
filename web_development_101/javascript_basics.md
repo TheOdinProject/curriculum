@@ -353,6 +353,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Chris Chambers' Solution](https://github.com/chrisgchambers/euler_1_2_3/) | [View in browser] (http://htmlpreview.github.io/?https://github.com/chrisgchambers/euler_1_2_3/blob/master/index.html)
 * [Mike Coon's Solution](https://github.com/mac718/js101)
 * [Justin Lam's Solution](https://github.com/just-n/project-euler)
+* [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/projectEuler/tree/master/javaScript)
 * Add your solution above this line!
 
 ## Additional Resources
