@@ -770,6 +770,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Jorge Marzola's solution](https://github.com/joelmarvi/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/joelmarvi/google-homepage/blob/master/index.html)
 * [grzegorzzajac1989's solution (easy)](https://github.com/grzegorzzajac1989/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/grzegorzzajac1989/google-homepage/blob/master/index.html)
 * [Rebekah Samorano's solution] (https://github.com/rmsamorano/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/rmsamorano/google-homepage/blobl/master.index.html)
+* [Will Chellman's solution] (https://github.com/creaked/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/creaked/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
