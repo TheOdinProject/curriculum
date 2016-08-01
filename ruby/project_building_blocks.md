@@ -684,4 +684,5 @@ Next, make sure your method can handle multiple words:
 * [Sergey Badulins's solution](https://github.com/sbadulin/odin-substrings/blob/master/substrings.rb)
 * [Roy Chen's solution](https://github.com/roychen5/ruby-building-blocks/blob/master/substrings/substrings.rb)
 * [m-chrzan's solution](https://github.com/m-chrzan/building-blocks/blob/master/substrings.rb) (modified Rabin-Karp algorithm)
+* [Chris Chambers' solution](https://github.com/chrisgchambers/ruby_exercies/blob/master/caesar_cipher/program.rb)
 * Add your solution above this line!
