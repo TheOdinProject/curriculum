@@ -4,6 +4,8 @@
      Add a few more text editior options to the text editior section. Atom, brackets etc
      Extract the join slack section to the very first lesson in this course -->
 
+Update Blurb to fit context of extractions:
+<!--
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.
 
 It may be a challenge, but if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
@@ -11,6 +13,7 @@ It may be a challenge, but if you're interested in being at least a half-serious
 One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Nitrous.io](https://www.nitrous.io)) and no environment, do what it takes to get you going.  We'll give some alternatives below.
 
 If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
+-->
 
 ## Join our Slack Group
 Learning to program can feel like a lonely and isolated journey, but it doesn't have to be. We have a Slack group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to:
