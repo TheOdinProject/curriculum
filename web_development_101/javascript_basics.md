@@ -354,6 +354,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Mike Coon's Solution](https://github.com/mac718/js101)
 * [Justin Lam's Solution](https://github.com/just-n/project-euler)
 * [m-chrzan's solution](https://github.com/m-chrzan/odin-euler) | [View on jsfiddle](https://jsfiddle.net/mchrzan/yxv87v69/)
+* [Rebekah Samorano's Solution] (https://github.com/rmsamorano/euler-problems)
 * Add your solution above this line!
 
 ## Additional Resources
