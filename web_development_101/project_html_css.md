@@ -774,6 +774,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Jessica Budd's solution](https://github.com/jessbudd/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/jessbudd/google-homepage/blob/master/index.html)
 * [Rebekah Samorano's solution](https://github.com/rmsamorano/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/rmsamorano/google-homepage/blobl/master.index.html)
 * [Borislav Belev's solution](https://github.com/starcanist/odinproject) | [View in Browser](http://htmlpreview.github.io/?https://github.com/starcanist/odinproject/blob/master/index.html)
+* [Rebekah Samorano's solution](https://github.com/rmsamorano/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/rmsamorano/google-homepage/blobl/master.index.html)
+* [Will Chellman's solution](https://github.com/creaked/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/creaked/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
