@@ -50,6 +50,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * [Deepak's solution](https://github.com/Deepak5050/rspec_warmup.git)
 * [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/warmup)
 * DV's solution ([Caesar Cipher](https://github.com/dvislearning/caesar_cipher/blob/master/spec/cipher_spec.rb), [Enumerable](https://github.com/dvislearning/my_enumerable/blob/master/spec/my_enumerable_spec.rb), [Tic Tac Toe](https://github.com/dvislearning/TicTacToe/blob/master/spec/tictactoe_spec.rb)
+* Jiazhi Guo's solution ([Caesar Cipher](https://github.com/jerrykuo7727/Caesar-Cipher), [Enumerable Methods](https://github.com/jerrykuo7727/Enumerable-Methods), [Tic Tac Toe](https://github.com/jerrykuo7727/Tic-Tac-Toe))
 * Add your solution above this line!
 
 
