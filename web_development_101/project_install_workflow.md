@@ -13,6 +13,10 @@ Pick your text-editor, choose wisely - this will be a close companion of yours f
 - Atom:
   - For [Windows](https://github.com/atom/atom/releases/tag/v1.9.0) - scroll to the bottom of the page and download *AtomSetup.exe*
   - For [Linux](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/)
+  
+And install Git:
+- For [Windows](http://installfest.railsbridge.org/installfest/windows); Steps 2 and 3.
+- For Linux: [installation](http://installfest.railsbridge.org/installfest/linux) - do step 2 (it's only one line); [configuration](http://installfest.railsbridge.org/installfest/configure_git) - the whole page; make an [SSH key](http://installfest.railsbridge.org/installfest/create_an_ssh_key) and make a [Github account](http://installfest.railsbridge.org/installfest/create_a_github_account)
 
 ##Additional Resources
 ^ Seems like overkill; maybe some git resources if absolutely necessary or some ideas about package manager on the text editors:
@@ -22,6 +26,10 @@ Really useful for workflow!!
 - Packages to look at: [Random Everything](https://packagecontrol.io/packages/Random%20Everything), [Emmet](http://emmet.io/)
 
 <!--
+### Git
+
+Git, the version-control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
+
 ### Text Editor
 
 We recommend using a text editor like [Sublime Text 2](http://www.sublimetext.com/) to make sure everyone's using basically the same type of text editor and you'll all be able to work together and ask questions of each other without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.
