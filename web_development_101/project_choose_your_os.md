@@ -62,3 +62,10 @@ There have been some great online IDE's(Integrated Development Environment) rele
 
 * You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1 gb. This can be a major limitation after a while.
+
+## Oh no! Total Failure!!!
+
+If all else fails, the best web-based development environments to use for coding the back end are [Nitrous.io](https://www.nitrous.io) or [cloud9](https://c9.io/).  They are free to use and give you a brand spanking new Ruby and Rails setup to start coding with.  
+
+They rely on having an internet connection, but they give you a command line, a text editor, and the ability to run a local server right out of the box.
+
