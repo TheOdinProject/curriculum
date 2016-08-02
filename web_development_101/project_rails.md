@@ -174,6 +174,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Loris Aranda's solution](https://github.com/LorisProg/rails_blogger) | [View in browser] (https://damp-chamber-63138.herokuapp.com/)
 * [Defgarden's solution](https://github.com/Defgarden/blogger) | [View in browser](https://damp-citadel-61063.herokuapp.com/)
 * [m-chrzan's solution](https://github.com/m-chrzan/odin-blogger) | [View in browser](https://agile-garden-64954.herokuapp.com/) | I0-I5
+* [Adam Levin's solution](https://github.com/tutordelphia/jumpstart-blogger) | [View in browser](https://mighty-fortress-61631.herokuapp.com/) |I0-I5
 * Add your solution above this line!
 
 
