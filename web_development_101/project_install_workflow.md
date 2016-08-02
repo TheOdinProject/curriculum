@@ -20,3 +20,14 @@ Pick your text-editor, choose wisely - this will be a close companion of yours f
 Really useful for workflow!!
 - [Package Control](https://packagecontrol.io/installation)
 - Packages to look at: [Random Everything](https://packagecontrol.io/packages/Random%20Everything), [Emmet](http://emmet.io/)
+
+<!--
+### Text Editor
+
+We recommend using a text editor like [Sublime Text 2](http://www.sublimetext.com/) to make sure everyone's using basically the same type of text editor and you'll all be able to work together and ask questions of each other without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.
+
+Check out [this "Quick Guide to Sublime Text" from Jennifer Mann](http://jennifermann.ghost.io/a-quick-guide-to-sublime-text/) for some helpful hints and tricks.  She refers to [this tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) which explains some of the awesomeness of Sublime Text 2 in depth.  The first chunk of the video is the most important, don't stress out about picking up the details in the rest (but you should come back to it once you've gotten more comfortable with the editor).
+
+##Additional resources
+* [Guide](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) for opening Sublime Text via command line in Windows.
+-->
