@@ -10,7 +10,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
 2. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
-3. If you're feeling ambitious, add in authentication in section I5. Warning: There is currently an error in this section of the tutorial.  Make sure to enter the :username parameter into both your _form.html.erb and authors controller.  Otherwise you will see an error like this: "authors.username may not be NULL:"
+3. If you're feeling ambitious, add in authentication in section I5.
 4. If you're feeling very ambitious, try doing the final Extras section I6.
 5. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](http://installfest.railsbridge.org/installfest/deploy_a_rails_app)
 
