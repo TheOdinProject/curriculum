@@ -155,4 +155,4 @@ But this lesson will take you much deeper and further than you went before, so d
 * Read [Zetcode's Hashes section](http://zetcode.com/lang/rubytutorial/hashes/) for some more depth on hashes.  Again, don't worry too much about `map` and other block-taking functions.
 * [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
 * [p vs puts in Ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
-* [Ruby Cheat Sheet (pretty dense) from OverAPI](http://overapi.com/ruby/)
+* [Ruby Cheat Sheet (pretty dense) from OverAPI](http://overapi.com/ruby)
