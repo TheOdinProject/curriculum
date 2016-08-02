@@ -693,4 +693,5 @@ Next, make sure your method can handle multiple words:
 * [Chris Chambers' solution](https://github.com/chrisgchambers/ruby_exercies/blob/master/caesar_cipher/program.rb)
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby-bulding-blocks/blob/master/substrings.rb)
 * [Kharisov TImur's solution](https://github.com/exosty/the-odin-project/blob/master/3-ruby-programming/basic-ruby/building-blocks/substrings.rb)
+* [HenrytheDJ's solution](https://github.com/henrythedj/substring_finder)|[View Online](https://repl.it/CYOV/8)
 * Add your solution above this line!
