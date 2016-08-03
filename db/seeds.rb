@@ -327,6 +327,17 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
+  title: "Developer Tools",
+  title_url: "Developer Tools".parameterize,
+  description: "Learn all about your browsers developer tools.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/developer_tools.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
   title: "HTML/CSS",
   title_url: "HTML/CSS".parameterize,
   description: "It's time to put your knowledge to work in the Wild.  Go forth and build!",
