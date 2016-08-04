@@ -778,6 +778,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Will Chellman's solution](https://github.com/creaked/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/creaked/google-homepage/blob/master/index.html)
 * [Yorick's Solution] (https://github.com/ysmith4/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ysmith4/google-homepage/blob/master/index.html)
 * [Tglash's Solution](https://github.com/tglash/google-homepage)| [View in Browser](http://htmlpreview.github.io/?https://github.com/tglash/google-homepage/blob/master/index.html)
+* [Federico's solution](https://github.com/federico0122/google-homepage) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/federico0122/google-homepage/blob/master/index.html) | [View in Browser (Difficult)](https://htmlpreview.github.io/?https://github.com/federico0122/google-search/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
