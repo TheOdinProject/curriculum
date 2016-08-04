@@ -203,6 +203,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Adam Levin's Solution](https://github.com/tutordelphia/learn_ruby)
 * [McBilly Sy's Solution](https://github.com/mcbilly/learn_ruby)
 * [Zach Beaird's Solution](https://github.com/zbbeaird89/test_first_ruby)
+* Add your solution above this line!
 
 ## Additional Resources
 
