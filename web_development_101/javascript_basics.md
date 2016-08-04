@@ -356,6 +356,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [m-chrzan's solution](https://github.com/m-chrzan/odin-euler) | [View on jsfiddle](https://jsfiddle.net/mchrzan/yxv87v69/)
 * [Rebekah Samorano's Solution](https://github.com/rmsamorano/euler-problems)
 * [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/projectEuler/tree/master/javaScript)
+* [Allen Yin's solution](https://github.com/allenyin55/The-Odin-Project.git)
 * Add your solution above this line!
 
 ## Additional Resources
