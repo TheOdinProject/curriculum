@@ -53,6 +53,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [James Brooks's solution](https://github.com/jhbrooks/chess)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/chess)
 * [Earth35's solution](https://github.com/Earth35/chess)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/final)
 * Add your solution above this line!
 
 
