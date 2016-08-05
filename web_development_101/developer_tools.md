@@ -33,7 +33,7 @@ using them to experiment and fix bugs with ease on your web pages.
 
 ##Assignment
 1. Complete this [short course](http://discover-devtools.codeschool.com/) from Codeschool,
-it covers all the main capabilities developer tools provides.
+it covers all the main capabilities developer tools provides. *Note:* the videos in this currently have a bug that is being worked on by codeschool. To watch the videos use this [link](https://www.codeschool.com/courses/discover-devtools/videos)
 2. Read through this short text based tutorial that [Introduces your Web Inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).
 3. Watch this [awesome tutorial from dev tips](https://www.youtube.com/watch?v=Z3HGJsNLQ1E)
 on how to use developer tools effectively when working with your css.
