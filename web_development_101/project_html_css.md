@@ -781,6 +781,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Romane Green's solution (Easy)](https://github.com/RomaneGreen/google-homepage) | [View in browser] (http://codepen.io/romane71193/full/YWLrdj/)
 * [Allen Yin's solution](https://github.com/allenyin55/Google-HomePage.git)
 * [Tim Lunt's Solution](https://github.com/timlunt/google-homepage) | [View in Browser](https://rawgit.com/timlunt/google-homepage/master/index.html)
+* [Federico's solution](https://github.com/federico0122/google-homepage) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/federico0122/google-homepage/blob/master/index.html) | [View in Browser (Difficult)](https://htmlpreview.github.io/?https://github.com/federico0122/google-search/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
