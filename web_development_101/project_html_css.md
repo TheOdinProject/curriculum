@@ -780,6 +780,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Tglash's Solution](https://github.com/tglash/google-homepage)| [View in Browser](http://htmlpreview.github.io/?https://github.com/tglash/google-homepage/blob/master/index.html)
 * [Romane Green's solution (Easy)](https://github.com/RomaneGreen/google-homepage) | [View in browser] (http://codepen.io/romane71193/full/YWLrdj/)
 * [Allen Yin's solution](https://github.com/allenyin55/Google-HomePage.git)
+* [Tim Lunt's Solution](https://github.com/timlunt/google-homepage) | [View in Browser](https://rawgit.com/timlunt/google-homepage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
