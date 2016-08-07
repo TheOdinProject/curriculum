@@ -90,4 +90,4 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* For another take on this, here's a [gem-laden Facebook clone](http://vysakh.quora.com/Making-a-Facebook-clone-using-Rails-in-minimum-time) via Quora.
+* For another take on this, here's a [gem-laden Facebook clone](https://github.com/vysakh0/railsbook).
