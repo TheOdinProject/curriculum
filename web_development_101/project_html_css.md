@@ -783,6 +783,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Tim Lunt's Solution](https://github.com/timlunt/google-homepage) | [View in Browser](https://rawgit.com/timlunt/google-homepage/master/index.html)
 * [Federico's solution](https://github.com/federico0122/google-homepage) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/federico0122/google-homepage/blob/master/index.html) | [View in Browser (Difficult)](https://htmlpreview.github.io/?https://github.com/federico0122/google-search/blob/master/index.html)
 * [Eric Ochoa's Solution](https://github.com/eric8ah/google_homepage)| [View in Browser](http://htmlpreview.github.io/?https://github.com/eric8ah/google_homepage/blob/master/home_page.html)
+* [Liam Bats' Solution](https://github.com/willdeville/google-homepage) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/willdeville/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
