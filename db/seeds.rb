@@ -1039,7 +1039,7 @@ lesson_counter += 1
 create_or_update_lesson(
   title: "Sinatra Project",
   title_url: "Sinatra Project".parameterize,
-  description: "In this project you will convert some of the projescts you completed in Ruby Programming into web apps.",
+  description: "In this project you will convert some of the projects you completed in Ruby Programming into web apps.",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
