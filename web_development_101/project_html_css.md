@@ -785,6 +785,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Eric Ochoa's Solution](https://github.com/eric8ah/google_homepage)| [View in Browser](http://htmlpreview.github.io/?https://github.com/eric8ah/google_homepage/blob/master/home_page.html)
 * [Charles Clemens' Solution](https://github.com/CClemensJr/googleClone)| [View in Browser](http://htmlpreview.github.io/?https://github.com/CClemensJr/googleClone/blob/master/index.html)
 * [Liam Bats' Solution](https://github.com/willdeville/google-homepage) | [View in Browser (Easy)](https://htmlpreview.github.io/?https://github.com/willdeville/google-homepage/blob/master/index.html)
+* [Ariel Smith's Solution](https://github.com/gr3if/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/gr3if/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
