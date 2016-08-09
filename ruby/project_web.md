@@ -282,6 +282,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Peuchen's solution](https://github.com/Peuchen/web_server)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/web_server_and_browser)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/ruby_on_the_web/web_server)
+* [csrail's solution](https://github.com/csrail/ruby-on-the-web/tree/master/ruby-server)
 * Add your solution above this line!
 
 
