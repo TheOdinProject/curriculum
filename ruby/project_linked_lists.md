@@ -79,4 +79,5 @@ Build the following methods in your linked list class:
 * [Austin's solution with extra credit](https://github.com/CouchofTomato/algorithm/blob/master/linked_list.rb)
 * [Jiazhi Guo's solution (with extra credit)](https://github.com/jerrykuo7727/linked_lists)
 * [Dan Hoying's solution (with extra credit)](https://github.com/danhoying/linked_lists)
+* [Chris Chambers' solution (with extra credit)](https://github.com/chrisgchambers/ruby_exercies/blob/master/linked_list/linked_list.rb)
 * Add your solution above this line!
