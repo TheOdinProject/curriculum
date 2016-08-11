@@ -788,6 +788,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ariel Smith's Solution](https://github.com/gr3if/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/gr3if/google-homepage/blob/master/index.html)
 * [Gelu Bogdan's Solution](https://github.com/gelubogdan/google-homepage/) | [View in Browser](https://htmlpreview.github.io/?https://github.com/gelubogdan/google-homepage/blob/master/index.html)
 * [Trevor Drury's Solution (difficult)](https://github.com/trevawhateva/google-homepage) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/trevawhateva/google-homepage/blob/master/index.html)
+* [Oliver Potter's Solution](https://github.com/ol4er/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/ol4er/google-homepage/blob/master/google.html)
 * Add your solution above this line!
 
 ## Additional Resources
