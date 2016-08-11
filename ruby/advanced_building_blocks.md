@@ -148,3 +148,4 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 * A quick guide on writing methods from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
 * [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
 * [LRTHW chapters 13-14](http://ruby.learncodethehardway.org/book/)
+* Want to get some feedback on your code? Try problems and submit your solutions on [Exercism](http://exercism.io/languages/ruby)
