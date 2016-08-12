@@ -358,6 +358,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/projectEuler/tree/master/javaScript)
 * [Yorick's Solution](https://github.com/ysmith4/project-euler.git) | [View in broswer] (http://htmlpreview.github.io/?https://github.com/ysmith4/project-euler/blob/master/prob1.html)
 * [Allen Yin's solution](https://github.com/allenyin55/The-Odin-Project.git)
+* [Will Chellman's solution](https://github.com/creaked/projecteuler) | [View on jsfiddle](https://jsfiddle.net/creaked/j8wybhvc/)
 * Add your solution above this line!
 
 ## Additional Resources
