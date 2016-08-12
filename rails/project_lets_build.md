@@ -50,6 +50,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [djhart's solution](https://github.com/djhart/rest_client_ex)
 * [Earth35's solution](https://github.com/Earth35/rest-client)
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/Rails/RestClient)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/web_refresher)
 * Add your solution above this line!
 
 
