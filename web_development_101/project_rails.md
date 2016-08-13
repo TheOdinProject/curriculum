@@ -176,6 +176,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [m-chrzan's solution](https://github.com/m-chrzan/odin-blogger) | [View in browser](https://agile-garden-64954.herokuapp.com/) | I0-I5
 * [Adam Levin's solution](https://github.com/tutordelphia/jumpstart-blogger) | [View in browser](https://mighty-fortress-61631.herokuapp.com/) |I0-I5
 * [Dom Goj's solution] (https://github.com/booyakuhhsha/blogger) | [View in browser](https://nameless-reef-36414.herokuapp.com/) |I0-I6
+* [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/blogger) | [View in browser](https://obscure-temple-21505.herokuapp.com/) |I0-I5
 * Add your solution above this line!
 
 
