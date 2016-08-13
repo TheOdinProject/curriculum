@@ -49,6 +49,7 @@ In this section we will describe the basics of adding git to a project and the b
 
 Here we will describe the basic git workflow that you will use with your projects, feel free to follow along with this
 <-- screen shots will be provided!->
+
 1. Created a new folder called git_test and add a file called hello_world.txt
 2. to initialize git we use `git init` this creates a hidden folder called .git/ where configuration settings for git will be stored
 3. type `git status in your terminal` notice your hello_world.rb file is in red
