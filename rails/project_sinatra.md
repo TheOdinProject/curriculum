@@ -50,3 +50,4 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Martin's sulution - MasterMind: [github](https://github.com/mtsafer/MasterMind-Online) / [see it on the web](https://cryptic-caverns-91319.herokuapp.com) Hangman: [github](https://github.com/mtsafer/hangman-online) / [see it on the web](https://stormy-shelf-89128.herokuapp.com)]
 * Oscar Y.'s solution - Hangman: [github](https://github.com/mysteryihs/hangman/) / [see it on the web](https://radiant-earth-86956.herokuapp.com/)
 * chrisnorwood's solution - Hangman: [github](https://github.com/chrisnorwood/wordguess-web) / [see it on the web](https://sinatra-guessing-game.herokuapp.com/)
+* Jiazhi Guo's solution - Hangman: [github](https://github.com/jerrykuo7727/hangman) / [see it on the web](https://hangman-by-jiazhi.herokuapp.com/)
