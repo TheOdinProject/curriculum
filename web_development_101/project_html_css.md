@@ -791,6 +791,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Oliver Potter's Solution](https://github.com/ol4er/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/ol4er/google-homepage/blob/master/google.html)
 * [gitDew's Solution](https://github.com/gitDew/google-clone) | [View in Browser - Easy](http://htmlpreview.github.io/?https://github.com/gitDew/google-clone/blob/master/index.html) | [View in Browser - Hard](https://htmlpreview.github.io/?https://github.com/gitDew/google-clone/blob/master/search.html)
 * [Travis Gibson's Solution](https://github.com/GibsonT/homemade-google-easy) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/GibsonT/homemade-google-easy/blob/master/index.html)
+* [Grayson Price's Solution](https://github.com/gprice1832/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/gprice1832/google-homepage/blob/master/google-homepage.html)
 * Add your solution above this line!
 
 ## Additional Resources
