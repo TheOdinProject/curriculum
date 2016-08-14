@@ -26,7 +26,6 @@ Finally, files and serialization overlaps in a lot of ways with the idea and pur
 ## Your Assignment
 
 1. Read [Thoughtbot's I/O in Ruby](https://robots.thoughtbot.com/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
-2. Read through [Ruby Monk's section on Serializing](http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
 1. Read [Beginning Ruby](http://beginningruby.org/) Chapter 4: `Developing Your First Ruby Application` and follow along with the tutorial.
 2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 9: `Files and Databases`.  Much of the databases stuff will be review from the Web Development 101 course and at first you won't often use the connection methods yourself (often an ORM like ActiveRecord for Rails will have that code already written for you), so feel free to skim over it but do try to see what Ruby is capable of.
 3. Read the [Chapter on File I/O](http://ruby.bastardsbook.com/chapters/io/) of the Bastard's Book of Ruby.  Much of it will go quickly for you given what you've already read, but there are some new nuggets in there.
@@ -37,3 +36,4 @@ Finally, files and serialization overlaps in a lot of ways with the idea and pur
 
 
 * [Zetcode's section on Input/Output in Ruby](http://zetcode.com/lang/rubytutorial/io/) should be another useful perspective on the material.
+* [Ruby Monk's section on Serializing](http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/45-more-classes/lessons/104-serializing)
