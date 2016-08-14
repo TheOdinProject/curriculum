@@ -177,6 +177,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Adam Levin's solution](https://github.com/tutordelphia/jumpstart-blogger) | [View in browser](https://mighty-fortress-61631.herokuapp.com/) |I0-I5
 * [Dom Goj's solution] (https://github.com/booyakuhhsha/blogger) | [View in browser](https://nameless-reef-36414.herokuapp.com/) |I0-I6
 * [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/blogger) | [View in browser](https://obscure-temple-21505.herokuapp.com/) |I0-I5
+* [Mityadsch's solution](https://github.com/MityaDSCH/rails-tutorial)
 * Add your solution above this line!
 
 
