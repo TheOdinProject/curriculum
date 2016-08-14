@@ -83,6 +83,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [djhart's solution](https://github.com/djhart/toy_app)  
 * [Earth35's solution](https://github.com/Earth35/toy_app) | [Heroku](http://safe-lowlands-63069.herokuapp.com)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/toy_app) | [Heroku](https://young-forest-57908.herokuapp.com/)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/toy_app) | [Heroku](https://toy-app-by-jiazhi.herokuapp.com/)
 * Add your solution above this line!
 
 
