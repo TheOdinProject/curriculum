@@ -69,6 +69,9 @@ Refactor myMap to pass your modified array forward - into another callback!
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 1. [Nida's Solution](https://github.com/nidafarooqui/Callbacks/blob/master/callbacks.js)
+1. [Yoshua Elmaryono's Solution](https://github.com/dotm/functionalJS/blob/master/callbacks/callbackExercises.js)
+2. [Miguel Herrera's solution](https://github.com/migueloherrera/js-callbacks)
+3. * Add your solution above this line!
 
 ## Additional Resources
 

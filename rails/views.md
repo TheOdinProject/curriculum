@@ -117,7 +117,7 @@ There's a lot you can do with partials and we won't dive into it all here, but t
 In the example above, you most likely want to pass the `@user` variable to the partial so your code can render the right kind of form. `render` is just a regular method and it lets you pass it an options hash.  One of those options is the `:locals` key, which will contain the variables you want to pass.  Your code might change to look like:
 
 ```language-ruby
-    <%= render "shared/your_partial", :locals => { :user => @user } %>
+    <%= render "shared/your_partial", :locals => { :user => user } %>
 ```
 
 To use the variable in your partial file, you drop the `@` and call it like a normal variable.
@@ -232,4 +232,4 @@ Views in general make up the user-facing side of your app.  It can be a bit tric
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* [Rails Views, Layouts, Helper Methods and the Asset Pipeline from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introduction-views-layouts-helpers-assets-pipeline)
+

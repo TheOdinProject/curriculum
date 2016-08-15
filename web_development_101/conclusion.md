@@ -14,12 +14,6 @@ Buckle up, because next we're heading straight into Ruby Programming and we won'
 
 The journey has just begun!
 
-## Other "Dumb" (or frequently asked) Questions Answered
-
-*Do you still have any beginner questions left over? [Email us!](mailto:curriculum@theodinproject.com)*
-
-* *Your question here...*
-
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

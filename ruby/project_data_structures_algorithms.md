@@ -70,6 +70,15 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/DataStructures)
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/algorithms/binary_search_tree.rb)
 * [Jack Wilde's solution](https://github.com/WildeRunner/data_structures_projects)
+* [djhart's solution](https://github.com/djhart/binary_search)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_data_structures/blob/master/binary_search_tree.rb)
+* [DV's solution](https://github.com/dvislearning/binary_search_tree/blob/master/bst.rb)
+* [Earth35's solution](https://github.com/Earth35/binary_tree_search)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/DataStructures-In-Ruby)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/basic_data_structure/blob/master/binary_trees.rb)
+* [John Connor's solution](https://github.com/jacgitcz/binary_tree)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/data_structures/blob/master/binary_tree.rb)
+* [Austin Mason's solution](https://github.com/CouchofTomato/algorithm/blob/master/binary_search_tree.rb)
 * Add your solution above this line!
 
 
@@ -151,6 +160,15 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/DataStructures)
 * [Ricardo Villegas' solution](https://github.com/claricardo/RubyBuildingBlocks/blob/master/algorithms/knight_moves.rb)
 * [Jack Wilde's solution](https://github.com/WildeRunner/data_structures_projects)
+* [djhart's solution](https://github.com/djhart/knight_path)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_data_structures/tree/master/knight_moves)
+* [Earth35's solution](https://github.com/Earth35/knight_moves)
+* [DV's solution](https://github.com/dvislearning/knight_travels/blob/master/knight_travels.rb)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/basic_data_structure/blob/master/knight_moves.rb)
+* [John Connor's solution](https://github.com/jacgitcz/knight_moves)\
+* [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/blob/master/chess/knight_movement.rb)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/knights_travails)
+* [Austin Mason's solution](https://github.com/CouchofTomato/algorithm/blob/master/knights_travails.rb)
 * Add your solution above this line!
 
 ## Additional Resources

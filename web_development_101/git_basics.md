@@ -1,5 +1,23 @@
 # Git 101
 <!-- *Estimated Time: 2 hrs* -->
+<!-- purpose of this lesson should be to give the student a bit of a plain english overview of what git is and how to do the basics, eg make a repo, init, stage, commit and push. It would be nice to have a full blown git course -->
+
+<!-- this course would be better after the installations project, that would allow students to have a bit of an idea of what they are doing when the submit their projects -->
+
+<!-- notes for my editing this lesson
+two things this lesson should do,
+1. provide a high level overview of git
+2. explain the basic work flow of staging, commiting and pushing
+
+Make sure to get the point across that git can feel cumbersome and unintuitive at the start, to not worry about understanding everything about git. The students will get more comfortable with it as they use it, git is a passive skill that will improve over time with use and understanding the basics is enough for now. They will learn more of the advanced features of git as and when they need them. 
+
+the reason we are introuducing git now before we have git into coding is for a few reasons.
+1. the sooner the student understands the basics, the sooner they will get comfortable with git
+2. they will be able to upload the coming projects to github with at least a basic understanding of what they are doing
+3. having your projects on github will allow them to get help easier from others, as they can just share a link to thier repo to share thier code when they need help
+4. start builing a git profile.
+
+-->
 
 We mentioned Git briefly in the previous course [Introduction to Web Development](/introduction-to-web-development/tools-of-the-trade) and you've had a chance to use it during the [Rails project](/web-development-101/ruby-on-rails) but now it's time to actually dig in a bit more and understand what Git really is.
 

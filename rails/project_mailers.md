@@ -40,6 +40,15 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Radi Totev's solution](https://github.com/raditotev/flight_booker)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/flight-booker)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-flight-booker) | [View in browser](https://secure-sands-80209.herokuapp.com)
+* [srashidi's solution](https://github.com/srashidi/Advanced_Forms/tree/master/odin-flight-booker)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/flight-booker) | [View in Browser](https://radiant-fortress-17197.herokuapp.com/)
+* [James Brooks's solution](https://github.com/jhbrooks/flight-booker) | [View in browser](https://rocky-earth-72202.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/odin-flight-booker)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project12--sending-welcome-mails/odin-flight-booker)
+* [Top's solution](https://github.com/TopOneOfTopOne/flight-booker) | [View in browser](https://flightbooker69.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flight-booker)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker)
+* [Norman Chan's solution](https://github.com/slowmanchan/Planner)
 * Add your solution above this line!
 
 ## Additional Resources

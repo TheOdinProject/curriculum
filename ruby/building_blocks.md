@@ -134,7 +134,7 @@ But this lesson will take you much deeper and further than you went before, so d
 
 *Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).*
 
-1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/learn-ruby/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
+1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/ruby/beginner/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
 2. Make sure you go back up and look at all the questions from the "Points to Ponder" section.  See if you can do most of them without looking back through the text.
 
 ## Additional Resources
@@ -143,7 +143,6 @@ But this lesson will take you much deeper and further than you went before, so d
 
 
 * If you still don't understand certain topics or don't like my summary, look them up in the [Bastard's Book](http://ruby.bastardsbook.com/)
-* Don't forget about the [Ruby Monk](http://rubymonk.com/) exercises from back in Web Development 101!
 * Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html) for a basic treatment of numbers.
 * Read [Zetcode's Data Types section](http://zetcode.com/lang/rubytutorial/datatypes/) for a bit more depth on the subject.
 * [Alex Chaffee's brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects)
@@ -155,4 +154,4 @@ But this lesson will take you much deeper and further than you went before, so d
 * Read [Zetcode's Hashes section](http://zetcode.com/lang/rubytutorial/hashes/) for some more depth on hashes.  Again, don't worry too much about `map` and other block-taking functions.
 * [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
 * [p vs puts in Ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
-* [Ruby Cheat Sheet (pretty dense) from OverAPI](http://overapi.com/ruby/)
+* [Ruby Cheat Sheet (pretty dense) from OverAPI](http://overapi.com/ruby)

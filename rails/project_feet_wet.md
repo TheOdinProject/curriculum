@@ -77,6 +77,13 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/toy_app)
 * [Max Gallant's solution](https://github.com/mcgalcode/toy_app) | [Heroku](https://still-sea-98097.herokuapp.com//)
 * [Artur Okonski's solution](https://github.com/cloudtemplar/hello_app) | [Heroku](https://infinite-everglades-78397.herokuapp.com/)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project2--ch1-2-the-rails-tutorial)
+* [Fabricio Carrara's solution](https://bitbucket.org/fcarrara/toy_app/src) | [Heroku](https://mighty-coast-3724.herokuapp.com)
+* Deepak's solution ([hello_app](https://github.com/Deepak5050/hello_app.git), [toy_app](https://github.com/Deepak5050/toy_app3.git))
+* [djhart's solution](https://github.com/djhart/toy_app)  
+* [Earth35's solution](https://github.com/Earth35/toy_app) | [Heroku](http://safe-lowlands-63069.herokuapp.com)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/toy_app) | [Heroku](https://young-forest-57908.herokuapp.com/)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/toy_app) | [Heroku](https://toy-app-by-jiazhi.herokuapp.com/)
 * Add your solution above this line!
 
 

@@ -73,6 +73,21 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/micro_blogger.rb)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RubyOnWeb/Microblogger)
 * [Bartlomiej Lazarski's solution](https://github.com/YogAzathoth/TwitterBot)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/microblogger)
+* [DV's solution](https://github.com/dvislearning/twitter_spambot)
+* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/microblogger))
+* [Deepak's solution](https://github.com/Deepak5050/twitter_spambot/blob/master/micro_blogger.rb)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_on_web/tree/master/twitter_spambot)
+* [Earth35's solution] (https://github.com/Earth35/twitter_client/blob/master/micro_blogger.rb)
+* [Lani's solution](https://github.com/laniywh/the-odin-project/blob/master/ruby-programming/ruby-on-the-web/twitter-spambot/micro_blogger.rb)
+* [John Connor's solution](https://github.com/jacgitcz/microblogger)
+* [Austin Mason's solution](https://github.com/CouchofTomato/twitterapi)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/micro_blogger)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/blob/master/micro_blogger.rb)
+* [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-rubyontheweb/micro-blogger)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/twitter_spambot)
+* [Peuchen's solution](https://github.com/Peuchen/micro_blogger)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/ruby_on_the_web/micro_blogger)
 * Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
@@ -129,7 +144,7 @@ It's actually pretty much the same principle... a web server is just like openin
 
 1. You need to tell Ruby where to find this "file" (what's the IP address and port we're looking for?)
 2. Open the connection to that file (or the socket to the remote server)
-3. Send your request to start reading the file (or whatever you want from that server
+3. Send your request to start reading the file (or whatever you want from that server)
 4. Read the contents of the file (or read the response from the server)
 5. Close the file (or the socket connection to the server)
 
@@ -253,6 +268,21 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Luke Walker's solution](https://github.com/ubershibs/ruby-programming/tree/master/server)
 * [Tomasz Kula's solution](https://github.com/zetsnotdead/web_server)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RubyOnWeb/Serverproject)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/ruby_webserver)
+* [DV's solution](https://github.com/dvislearning/ruby_server_browser)
+* [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/servers)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_on_web/tree/master/command_line_web_server_and_browser)
+* [Earth35's solution] (https://github.com/Earth35/web_server)
+* [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/ruby-on-the-web/web-server-browser)
+* [Austin Mason's solution](https://github.com/CouchofTomato/webserver)
+* [John Connor's solution](https://github.com/jacgitcz/tiny-browser-simple-server)
+* [Jean Merlet's solution](https://github.com/jeanmerlet/basic_browser-server)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/Servers)
+* [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-rubyontheweb/web-server-and-browser)
+* [Peuchen's solution](https://github.com/Peuchen/web_server)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/web_server_and_browser)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/ruby_on_the_web/web_server)
+* [csrail's solution](https://github.com/csrail/ruby-on-the-web/tree/master/ruby-server)
 * Add your solution above this line!
 
 
@@ -262,4 +292,5 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
 * [Luke Francl's file server tutorial](https://practicingruby.com/articles/implementing-an-http-file-server)
+* Detailed explanation of the TCPServer `#gets` and `#read` methods in [this stack overflow post](http://stackoverflow.com/questions/7540064/simple-http-server-in-ruby-using-tcpserver)
 
