@@ -458,4 +458,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Trevor Drury's Solution](https://github.com/trevawhateva/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/trevawhateva/sketch-pad/blob/master/index.html)
 * [Yorick's Solution](https://github.com/ysmith4/project-jQuery.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/ysmith4/project-jQuery/blob/master/main.html)
 * [Boris Muminovic's solution](https://github.com/rizbo61/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/rizbo61/sketch-pad/blob/master/index.html)
+* [Will Chellman's solution](https://github.com/creaked/etch-a-sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/creaked/etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
