@@ -32,7 +32,7 @@ using them to experiment and fix bugs with ease on your web pages.
 * You can you use developer tools to experiment with the css on specific elements on a web page.
 
 ##Assignment
-1. Complete this [short course](http://discover-devtools.codeschool.com/) from Codeschool,
+1. Complete the first two chapters of this [short course](http://discover-devtools.codeschool.com/) from Codeschool,
 it covers all the main capabilities developer tools provides. 
 2. Read through this short text based tutorial that [Introduces your Web Inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).
 3. Watch this [awesome tutorial from dev tips](https://www.youtube.com/watch?v=Z3HGJsNLQ1E)
