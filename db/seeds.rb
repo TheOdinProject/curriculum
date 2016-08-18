@@ -494,17 +494,6 @@ create_or_update_lesson(
   url: "/web_development_101/project_rails.md"
 )
 
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Backbone.js",
-  title_url: "Backbone.js".parameterize,
-  description: "A brief introduction to get you introduced to Backbone.js, a popular front-end web development framework we'll be covering in a separate course later.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/backbone_basics.md"
-)
-
 # +++++++++++
 # SECTION
 # +++++++++++
