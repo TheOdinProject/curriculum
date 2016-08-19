@@ -4,20 +4,23 @@
 
 Before you can understand how to *program* the web, you need to understand the web itself on a more granular level than you probably do now.  Some of this stuff is necessary just to have a more wholistic understanding of the ecosystem in which you will be working (and to not sound like a total newbie when talking to other developers about it), but other aspects (like HTTP) will come up again and again when you start programming.
   
-## Points to Ponder
-*Look through these now and then use them to test yourself after doing the assignment*
+## Learning Outcomes
+*At the end of this lesson you should be able to:*
 
-* What is the internet?
-* How is information broken down and sent?
-* What are packets?
-* What is a "client"?
-* What is a "server"?
-* What are DNS servers?
-* What happens when you click "search" on google.com?
+* Describe what the 'internet' is
+* Describe what 'packets' are and how they are used to transfer data
+* Understand the differences between a 'webpage', 'web server', 'web browser' and 'search engine'
+* Briefly explain what a 'client' is
+* Briefly explain what a 'server' is
+* Explain what 'DNS servers' are
+* Explain, in your own words, what happens when you click "search" on google.com
+
 
 ## Assignment:
-1. For a basic and painless Internet overview, check out [Don't Fear The Internet's Simple Primer (video)](http://www.dontfeartheinternet.com/01-not-tubes/). *Note: Sorry if it is redirecting to spammy sites, they have been hacked before*
-2. Check out [How Does the Internet Work? (video)](http://www.youtube.com/watch?v=oj7A2YDgIWE) for a basic explanation of how packets work.
+1. Watch this [BBC short](https://vimeo.com/128575085)  for an overview of how the Internet works.
+2. Supplement this with a [reading](https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work) and a [video](https://youtu.be/7_LPdttKXPc?t=46s).
+
+
 
 ## Additional Resources
 
