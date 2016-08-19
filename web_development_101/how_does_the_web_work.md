@@ -2,7 +2,7 @@
 <!-- *Estimated Time: 1-2 hrs* -->
 <!-- update: Web Developer Tools moved to new lesson. -->
 
-Before you can understand how to *program* the web, you need to understand the web itself on a more granular level than you probably do now.  Some of this stuff is necessary just to have a more wholistic understanding of the ecosystem in which you will be working (and to not sound like a total newbie when talking to other developers about it), but other aspects (like HTTP) will come up again and again when you start programming.
+Before you can understand how to *program* the web, you need to understand the web itself on a more granular level than you probably do now.  Some of this stuff is necessary just to have a more holistic understanding of the ecosystem in which you will be working (and to not sound like a total newbie when talking to other developers about it).
   
 ## Learning Outcomes
 *At the end of this lesson you should be able to:*
