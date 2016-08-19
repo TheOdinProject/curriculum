@@ -209,6 +209,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Trevor Drury's Solution](https://github.com/trevawhateva/learn_ruby)
 * [Gary Boland's Solution](https://github.com/romperstomper/ruby)
 * [Derek Scace's Solution](https://github.com/dscace/test_first_ruby)
+* [Jason Keeney's Solution](https://github.com/jkeeney/learn_ruby)
 
 * Add your solution above this line!
 
