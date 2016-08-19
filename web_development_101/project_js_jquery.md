@@ -460,4 +460,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Boris Muminovic's solution](https://github.com/rizbo61/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/rizbo61/sketch-pad/blob/master/index.html)
 * [Will Chellman's solution](https://github.com/creaked/etch-a-sketch) | [View in browser] (http://htmlpreview.github.io/?https://github.com/creaked/etch-a-sketch/blob/master/index.html)
 * [Evan Burkey's solution](https://github.com/king3vbo/odinproject/tree/master/javascript-jquery/index.html) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/king3vbo/odinproject/master/javascript-jquery/index.html)
+* [Cynthia Bathgate's Solution](https://github.com/CynCity009/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/CynCity009/etch-a-sketch/blob/master/index.html)
 * Add your solution above this line!
