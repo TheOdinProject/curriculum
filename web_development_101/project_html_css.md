@@ -796,6 +796,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Antonio Bellu's Solution](https://github.com/antoniobellu/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/antoniobellu/google-homepage/blob/master/index.html)
 * [Stephen Burke's Solution](https://github.com/stephenburke13/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/stephenburke13/google-homepage/blob/master/index.html)
 * [Justin Sawatzky's Solution](https://github.com/Forsete/google-homepage/blob/master/index.html) | [View in Browser] gif and footer link to advanced solution and advanced solution (except search results) link back to easy solution.
+* [Hong Ng's Solution](https://github.com/wuhynn/theOdinProject/tree/master/google_homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/wuhynn/theOdinProject/blob/master/google_homepage/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
