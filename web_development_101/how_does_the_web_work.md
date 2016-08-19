@@ -27,4 +27,5 @@ Before you can understand how to *program* the web, you need to understand the w
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [A packet's journey (video)](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
+* [(Video) A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
+* [(Book) Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
