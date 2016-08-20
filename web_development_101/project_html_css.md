@@ -799,6 +799,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Cicero Ferreira's Solution](https://github.com/devcicerojr/google-homepage/blob/master/index.html) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/devcicerojr/google-homepage/blob/master/index.html)
 * [Zapad Daniel's Solution](https://github.com/ZapadRo97/google-homepage/blob/master/index.html) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ZapadRo97/google-homepage/blob/master/index.html)
 * [Rishoej's Solution](https://github.com/rishoej/google-homepage-the-ordin-project) | [View in Browser](https://rawgit.com/rishoej/google-homepage-sketchpad-the-ordin-project/master/index.html)
+* [Hong Ng's Solution](https://github.com/wuhynn/theOdinProject/tree/master/google_homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/wuhynn/theOdinProject/blob/master/google_homepage/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
