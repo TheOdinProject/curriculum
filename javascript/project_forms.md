@@ -32,6 +32,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_jquery_validating) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_jquery_validating/blob/master/index.html)
 * [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/mint) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/mint/index.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/js-mint) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-mint/blob/master/index.html)
 * Add your solution above this line!
 
 
