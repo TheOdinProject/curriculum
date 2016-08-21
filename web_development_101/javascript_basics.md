@@ -356,10 +356,13 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [m-chrzan's solution](https://github.com/m-chrzan/odin-euler) | [View on jsfiddle](https://jsfiddle.net/mchrzan/yxv87v69/)
 * [Rebekah Samorano's Solution](https://github.com/rmsamorano/euler-problems)
 * [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/projectEuler/tree/master/javaScript)
-* [Yorick's Solution](https://github.com/ysmith4/project-euler.git) | [View in broswer] (http://htmlpreview.github.io/?https://github.com/ysmith4/project-euler/blob/master/prob1.html)
+* [Yorick's Solution](https://github.com/ysmith4/project-euler.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ysmith4/project-euler/blob/master/prob1.html)
 * [Allen Yin's solution](https://github.com/allenyin55/The-Odin-Project.git)
 * [Will Chellman's solution](https://github.com/creaked/projecteuler) | [View on jsfiddle](https://jsfiddle.net/creaked/j8wybhvc/)
-* [Benjamin's solution] (https://github.com/Benjamin-Re/Euler.git) 
+* [Benjamin's solution](https://github.com/Benjamin-Re/Euler.git)
+* [Cicero Ferreira's solution](https://github.com/devcicerojr/mytheodinproject/tree/master/project-euler)
+* [Benjamin's solution](https://github.com/Benjamin-Re/Euler.git)
+* [Harsimran Mann's Solution](https://github.com/pure5abi/euler-problems)
 * Add your solution above this line!
 
 ## Additional Resources

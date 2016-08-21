@@ -118,7 +118,7 @@ But this lesson will take you much deeper and further than you went before, so d
 5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 31-50 (only the section on Numbers and Expressions and the section on Text and Strings)
 6. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
 7. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
-8. Glance over this list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
+8. Glance over this list of [Escape Characters](https://github.com/ruby/ruby/blob/trunk/doc/syntax/literals.rdoc#strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
 9. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
 
     1. [Ruby Explained: Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
