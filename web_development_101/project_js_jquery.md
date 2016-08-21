@@ -464,4 +464,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Rishoej's Solution](https://github.com/rishoej/sketchpad-the-ordin-project/blob/master/index.html) | [View in browser] (http://htmlpreview.github.io/?https://github.com/rishoej/sketchpad-the-ordin-project/blob/master/index.html)
 * [husein's Solution](https://github.com/hosghf/js_jquery_project/blob/master/index.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/js_jquery_project/blob/master/index.html)
 * * [husein ghafari's solution](https://github.com/hosghf/js_jquery_project) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/js_jquery_project/blob/master/index.html)
+* [Allen's solution](https://github.com/allenyin55/The-Odin-Project/tree/master/JS_jQuery_project)
 * Add your solution above this line!
