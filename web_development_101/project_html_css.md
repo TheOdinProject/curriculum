@@ -802,6 +802,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Hong Ng's Solution](https://github.com/wuhynn/theOdinProject/tree/master/google_homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/wuhynn/theOdinProject/blob/master/google_homepage/index.html)
 * [Najibu Nsubuga's Solution](https://github.com/najibu/odin-project/tree/master/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/najibu/odin-project/blob/master/google-homepage/index.html)
 * [Harsimran Mann's Solution](https://github.com/pure5abi/google-homepage/blob/master/index.html) | [View in Browser](http://htmlpreview.github.io/?https://github.com/pure5abi/google-homepage/blob/master/index.html)
+* [ChiselD's Solution] (https://github.com/ChiselD/google-homepage/blob/master/index.html) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/ChiselD/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
