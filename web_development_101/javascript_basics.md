@@ -360,6 +360,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Allen Yin's solution](https://github.com/allenyin55/The-Odin-Project.git)
 * [Will Chellman's solution](https://github.com/creaked/projecteuler) | [View on jsfiddle](https://jsfiddle.net/creaked/j8wybhvc/)
 * [Benjamin's solution] (https://github.com/Benjamin-Re/Euler.git) 
+* [Harsimran Mann's Solution] (https://github.com/pure5abi/euler-problems)
 * Add your solution above this line!
 
 ## Additional Resources
