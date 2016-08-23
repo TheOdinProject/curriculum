@@ -454,7 +454,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Justin Lam's Solution](https://github.com/just-n/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/just-n/sketchpad/blob/master/index.html)
 * [Mike Coon's Solution](https://github.com/mac718/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/mac718/sketchpad/blob/master/index.html)
 * [Martin's solution](https://github.com/mnk179/js-etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/mnk179/js-etch-a-sketch/blob/master/index.html)
-* [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/grzegorzzajac1989/theOdinProject/blob/master/sketch/index.html)
+* [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/Web_Development_101/sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/grzegorzzajac1989/theOdinProject/blob/master/Web_Development_101/sketch/index.html)
 * [Trevor Drury's Solution](https://github.com/trevawhateva/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/trevawhateva/sketch-pad/blob/master/index.html)
 * [Yorick's Solution](https://github.com/ysmith4/project-jQuery.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/ysmith4/project-jQuery/blob/master/main.html)
 * [Boris Muminovic's solution](https://github.com/rizbo61/sketch-pad) | [View in browser](https://htmlpreview.github.io/?https://github.com/rizbo61/sketch-pad/blob/master/index.html)
