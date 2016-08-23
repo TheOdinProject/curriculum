@@ -72,7 +72,7 @@ You can install Ubuntu along side Windows on your machine by dual booting. This 
 * To switch between your two operating systems you will have to reboot your computer.
 
 ####Option 2 - Use a Virtual Machine
-A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
+A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
 
 **Pros**
 
