@@ -205,7 +205,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Zach Beaird's Solution](https://github.com/zbbeaird89/test_first_ruby)
 * [Jessica's Solution](https://github.com/JessicaGillan/learn_ruby)
 * [MityaDSCH's Solution](https://github.com/MityaDSCH/learn_ruby)
-* [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/learn_ruby)
+* [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/Web_Development_101/learn_ruby)
 * [Trevor Drury's Solution](https://github.com/trevawhateva/learn_ruby)
 * [Gary Boland's Solution](https://github.com/romperstomper/ruby)
 * [Derek Scace's Solution](https://github.com/dscace/test_first_ruby)
