@@ -26,7 +26,7 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 * What is a foreign key?
 
 ## Assignment:
-1. Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).  Only read the introduction (unless you're feeling ambitious).
+1. Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data.
 2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
 3. Next, you'll be watching some of Stanford's [Intro to Databases course lectures](https://class.stanford.edu/courses/DB/2014/SelfPaced/about).  They've been broken down into a couple of "mini-courses". Do the [first mini-course called "Introduction and Relational Databases"](https://class.stanford.edu/courses/DB/RDB/SelfPaced/about) ([the first video can be found here](https://class.stanford.edu/courses/DB/RDB/SelfPaced/courseware/ch-introduction/seq-vid-introduction/)), and the [mini-course on SQL](https://class.stanford.edu/courses/DB/SQL/SelfPaced/about) ([The first video can be found here](https://class.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-vid-introduction_to_sql/)).
 4. If the Stanford links are too heavy, check out the [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), which is simple, short and to the point.
