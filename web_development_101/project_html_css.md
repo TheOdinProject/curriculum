@@ -805,6 +805,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [ChiselD's Solution] (https://github.com/ChiselD/google-homepage/blob/master/index.html) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/ChiselD/google-homepage/blob/master/index.html)
 * [Baarinh's Solution] (https://github.com/zerozero7/google-homepage) | [View in Browser] (http://htmlpreview.github.io/?https://github.com/zerozero7/google-homepage/blob/master/index.html)
 * [Franz Asperger's Solution](https://github.com/lurchy86/google-homepage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/lurchy86/google-homepage/blob/master/index.html)
+* [Nimish Unde's Solution](https://github.com/nimish2092/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nimish2092/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
