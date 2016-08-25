@@ -33,6 +33,7 @@
 
 * https://scotch.io/tag/sass
 * http://sass-lang.com/guide
+* comparison between sass and less: http://shelbymoulden.com/blog/?post=comparison-between-less-and-sass
 
 
 **Responsive webdesign**
