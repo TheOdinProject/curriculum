@@ -462,8 +462,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Evan Burkey's solution](https://github.com/king3vbo/odinproject/tree/master/javascript-jquery/index.html) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/king3vbo/odinproject/master/javascript-jquery/index.html)
 * [Cynthia Bathgate's Solution](https://github.com/CynCity009/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/CynCity009/etch-a-sketch/blob/master/index.html)
 * [Rishoej's Solution](https://github.com/rishoej/sketchpad-the-ordin-project/blob/master/index.html) | [View in browser] (http://htmlpreview.github.io/?https://github.com/rishoej/sketchpad-the-ordin-project/blob/master/index.html)
-* [husein's Solution](https://github.com/hosghf/js_jquery_project/blob/master/index.html) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/js_jquery_project/blob/master/index.html)
-* * [husein ghafari's solution](https://github.com/hosghf/js_jquery_project) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/js_jquery_project/blob/master/index.html)
+* [husein ghafari's solution](https://github.com/hosghf/js_jquery_project) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/js_jquery_project/blob/master/index.html)
 * [Allen's solution](https://github.com/allenyin55/The-Odin-Project/tree/master/JS_jQuery_project)
 * [Cicero Ferreira's solution](https://github.com/devcicerojr/etch-a-sketch-webpage) | [View in browser](https://jsfiddle.net/devcicerojr/1ubk7u1t/)
 * Add your solution above this line!
