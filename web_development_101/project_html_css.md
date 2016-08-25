@@ -807,6 +807,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Franz Asperger's Solution](https://github.com/lurchy86/google-homepage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/lurchy86/google-homepage/blob/master/index.html)
 * [Nimish Unde's Solution](https://github.com/nimish2092/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/nimish2092/google-homepage/blob/master/index.html)
 * [Thomas Letsos' Solution](https://github.com/tgl0782/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/tgl0782/google-homepage/blob/master/idex.html)
+* [Melissa Koski's Solution](https://github.com/nyx3nox/google-homepage-easy) | [View in browser](https://htmlpreview.github.io/?https://github.com/nyx3nox/google-homepage-easy/blob/master/google-homepage-easy.html)
 * Add your solution above this line!
 
 ## Additional Resources
