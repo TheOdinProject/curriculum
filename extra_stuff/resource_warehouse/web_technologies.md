@@ -17,3 +17,6 @@
 
 ### DNS
 * https://www.youtube.com/watch?v=72snZctFFtA
+
+### Courses
+* https://developers.google.com/web/fundamentals/design-and-ui/?hl=en
