@@ -211,6 +211,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Derek Scace's Solution](https://github.com/dscace/test_first_ruby)
 * [Jason Keeney's Solution](https://github.com/jkeeney/learn_ruby)
 * [Allen Yin's Solution](https://github.com/allenyin55/The-Odin-Project/tree/master/rubyL/ruby-testing)
+* [Mike Coon's Solution](https://github.com/mac718/learn_ruby)
 
 * Add your solution above this line!
 
