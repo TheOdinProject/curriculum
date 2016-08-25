@@ -12,5 +12,9 @@
 * https://addyosmani.com/resources/essentialjsdesignpatterns/book/ 
 
 
+### Node
+* http://nodeschool.io/
+
+
 ### jQuery
 * jquery tips everyone should know: https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know
