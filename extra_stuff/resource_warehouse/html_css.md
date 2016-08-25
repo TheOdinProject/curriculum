@@ -37,6 +37,8 @@
 
 **Responsive webdesign**
 * full course: http://gymnasium.aquent.com/courses/GYM/101/0/about
+* udacity course: https://www.udacity.com/course/responsive-web-design-fundamentals--ud893
+* 9 basic principles of responsive web design: http://blog.froont.com/9-basic-principles-of-responsive-web-design/
 
 
 **Misc**
