@@ -7,5 +7,10 @@
 * Video courses for js: https://egghead.io/lessons
 * you dont know js book series: https://github.com/getify/You-Dont-Know-JS
 
+### Design patterns in js
+* http://www.dofactory.com/javascript/design-patterns
+* https://addyosmani.com/resources/essentialjsdesignpatterns/book/ 
+
+
 ### jQuery
 * jquery tips everyone should know: https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know
