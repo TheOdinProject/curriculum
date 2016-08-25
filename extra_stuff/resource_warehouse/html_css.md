@@ -9,6 +9,7 @@
 **General CSS**
 * CSS protips: https://github.com/AllThingsSmitty/css-protips
 * Must watch CSS talks: https://github.com/AllThingsSmitty/must-watch-css
+* https://css-tricks.com/specifics-on-css-specificity/
 
 **CSS Animations**
 * Free book: http://cssanimationspocketguide.com
