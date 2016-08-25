@@ -207,6 +207,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby_hangman-game)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/hangman)
 * [Clint's solution](https://github.com/tholymap/Odin-Ruby-Files)
+* [Ryan Armstrong's solution] (https://github.com/ryan-kwan-do/ruby_projects/tree/master/files_and_serialization/hangman)
 * Add your solution above this line!
 
 
