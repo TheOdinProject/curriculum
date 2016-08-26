@@ -1,3 +1,10 @@
 language: ruby
 rvm:
   - 2.3.0
+services:
+  - postgresql
+before_script:
+  - psql -c 'create database theodinproject_test;' -U postgres
+test:
+  adapter: postgresql
+  database: theodinproject_test
