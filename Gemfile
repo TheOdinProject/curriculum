@@ -1,11 +1,10 @@
 source 'https://rubygems.org'
-
 ruby '2.3.0'
+
 gem 'rails',                        '~> 4.2', '>= 4.2.5.2'
 gem 'puma',                         '~> 2.16.0'                       #Webserver to replace WEBrick
 gem 'simple_form',                  '~> 3.2.1'
 gem 'jquery-rails',                 '~> 4.1.0'
-gem 'newrelic_rpm',                 '~> 3.15.0.314'
 gem 'google-api-client',            '~> 0.9.3'
 gem 'devise',                       '~> 3.5.6'                        # For managing authentication
 gem 'figaro',                       '~> 0.7.0'                        # Managing environment variables
@@ -29,6 +28,7 @@ gem 'shortener',                    '~> 0.5.5'                        # To short
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.2'
+  gem 'newrelic_rpm',               '~> 3.15.0.314'
 end
 
 group :development, :test do
@@ -41,6 +41,7 @@ group :development, :test do
   gem 'webmock',                    '~> 2.1'
   gem 'vcr',                        '~> 3.0'
   gem 'shoulda-matchers',           '~> 3.1'
+  gem 'rake',                       '~> 10.4'
 end
 
 group :development do
