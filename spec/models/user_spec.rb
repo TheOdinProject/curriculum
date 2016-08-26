@@ -29,9 +29,6 @@ describe User do
   it { is_expected.to respond_to(:legal_agree_date) }
 
   # Associations
-  it { is_expected.to respond_to(:content_activations) }
-  it { is_expected.to respond_to(:content_buckets ) }
-  it { is_expected.to respond_to(:user_pref) }
   it { is_expected.to respond_to(:lesson_completions) }
   it { is_expected.to respond_to(:completed_lessons) }
 
@@ -103,11 +100,6 @@ describe User do
   end
 
   describe "when saving" do
-
-    it "should call to build preferences" do
-      expect(subject).to receive(:build_preferences)
-      subject.save
-    end
 
     it "should call to send a welcome email" do
       allow(subject).to receive(:send_welcome_email)

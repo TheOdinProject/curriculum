@@ -21,12 +21,6 @@ FactoryGirl.define do
 
   end
 
-  factory :content_bucket do
-    sequence :name do |n|
-      "foobarContent#{n}"
-    end
-  end
-
   factory :lesson do
     sequence :title do |n|
       "test lesson#{n}"
