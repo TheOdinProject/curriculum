@@ -1,5 +1,5 @@
 # Git 101
-Git is a distributed version control system that allows developers to take snap shots of the state of their projects over time. One of the problems it solves is having to make different versions of files for different changes. for example
+Git is a distributed version control system that allows developers to take snap shots of the state of their projects over time. One of the problems it solves is having to make different versions of files for different changes. for example you may have done this with files in the past when making changes:
 
 `cv-draft.doc`, `cv-experimental.doc`, `cv-final.doc`
 
