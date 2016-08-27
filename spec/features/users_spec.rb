@@ -6,12 +6,10 @@ describe "Users" do
 
   let!(:user){ FactoryGirl.create(:user, :github => "http://www.github.com/foobar", :about => "I rock") }
   let!(:other_user) { FactoryGirl.create(:user, email: "other_user@example.com") }
-  let!(:project) { FactoryGirl.create(:content_bucket) }
 
   describe "Profile Page (#show)" do
 
     before do
-      user.content_buckets << project
       sign_in(user)
     end
 

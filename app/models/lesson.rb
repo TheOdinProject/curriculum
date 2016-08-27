@@ -26,8 +26,7 @@ class Lesson < ActiveRecord::Base
   def import_content
     update(content: decoded) if content != decoded
   rescue Octokit::Error => error
-    logger.error "Failed to import \"#{title}\" content: #{error}"
-    false
+    failed_to_import
   end
 
   private
@@ -38,6 +37,11 @@ class Lesson < ActiveRecord::Base
 
   def github_response
     Octokit.contents("theodinproject/curriculum", path: url)
+  end
+
+  def failed_to_import_message
+    logger.error "Failed to import \"#{title}\" content: #{error}"
+    false
   end
 
   def section_lessons

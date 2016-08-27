@@ -5,20 +5,11 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
-  # Make sure we get the preference built after the user saves
-  after_create :build_preferences
-
   # Setup accessible (or protected) attributes for your model
 
   validates_uniqueness_of :username,:email
   validates_presence_of :legal_agreement, :message => "Don't forget the legal stuff!", :on => :create
   validates :username, :length => { :in => 4..20 }
-
-  # basic associations
-  has_one :user_pref
-  # associates the user to the content he'd like to pair on
-  has_many :content_activations, :dependent => :destroy
-  has_many :content_buckets, :through => :content_activations
   # associates the user with the lessons he's completed so far
   has_many :lesson_completions, :foreign_key => :student_id
   has_many :completed_lessons, :through => :lesson_completions, :source => :lesson
@@ -48,6 +39,7 @@ class User < ActiveRecord::Base
    t = self.lesson_completions.where("lesson_id = %s ", lesson.id ).limit(1)
     t.first["created_at"]
   end
+  
   def latest_lesson_completion
     self.lesson_completions.order(:created_at => :desc).first
   end
@@ -119,10 +111,6 @@ class User < ActiveRecord::Base
 
 
   protected
-
-    def build_preferences
-      self.create_user_pref
-    end
 
     def send_welcome_email(token)
       @token = token
