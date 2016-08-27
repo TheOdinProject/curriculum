@@ -18,7 +18,7 @@ In the next lesson we will go over the basic workflow of using Git on a small pr
 *By the end of this lesson you should be able to:*
 * Define what kind of program git is
 * Describe the differences between git and a text editor in terms of what they save and their record keeping
-* Describe whether git and GitHub are work at a local or remote level
+* Describe whether git and GitHub work at a local or remote level
 * Describe why git is useful for an individual developer and a team of developers
 
 
@@ -30,17 +30,15 @@ with git you would simply make another separate branch where you can safely make
 
 
 ## Assignment:
-
-1. [A short history of git and GitHub](https://www.youtube.com/watch?v=1h9_cB9mPT8)
-2. [what is git](https://www.youtube.com/watch?v=8oRjP8yj2Wo)
-3. [what is git and github](https://www.youtube.com/watch?v=uUuTYDg9XoI)
-4. [why use git](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/why-use-version-control)
-5. [difference between git and github](https://www.youtube.com/watch?v=xKVlZ3wFVKA)
+1. Read about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems. 
+2. Now watch this [video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how git can improve the workflow of an individual or a team of developers. <!-- What is VCS? (Git-SCM) • Git Basics #1  -->
+3. Get some [context](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) of how git and GitHub came about. Make sure you know the difference between the two: note how git is referred to as a technology used in the *command line* while GitHub is a *website* you can [visit](https://github.com/)
+4. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored! 
+5. Finally, gain an appreciation of [how git records all collaborative efforts](https://github.com/TheOdinProject/curriculum/graphs/contributors) and how GitHub visually represents this.
 
 
 ## Conclusion
-TO BE FILLED
-<!--The purpose of this lesson is to represent a high level overview of git - if it did then we don't need to mention the lesson was a high level overview; if it wasn't, then we need to rethink the lesson -->
+<!--TO BE FILLED: The purpose of this lesson is to represent a high level overview of git - if it did then we don't need to mention the lesson was a high level overview; if it wasn't, then we need to rethink the lesson -->
 
 ## Additional Resources
 
