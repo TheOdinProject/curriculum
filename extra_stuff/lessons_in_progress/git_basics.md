@@ -1,6 +1,30 @@
-## The Basics of how git works
-< In this blurb we should talk about what this lesson will include, the commands used here will be the ones you will probably
-use the most with git etc
+## The Basics of how to use git
+<!-- < In this blurb we should talk about what this lesson will include, the commands used here will be the ones you will probably
+use the most with git etc -->
+
+This lesson will demonstrate how to use git to manage and archive your project folders:
+
+1. You will set up a remote repository on GitHub and then move it down onto your local machine. 
+2. Once this repo is set up locally, you can begin writing code for your project and then saving it with git. 
+3. When you have finalised your saves you can then push your local repo up onto GitHub to share with everyone!
+
+Here is a list of commands you will need to know and remember:
+* `git clone https://github.com/user-name/repository-name.git`
+* `git add .`
+* `git commit -m "A message describing what you have done to make this snapshot different"`
+* `git push origin master`
+
+The git syntax works like this: `program | action | destination`.
+
+For example:
+* `git clone url` is read like `git | clone | url`
+* `git add .` is read like `git | add | .`
+* `git commit -m "message"` is read like `git | commit -m | message`
+* `git push origin master` is read like `git | push | origin master`
+
+
+
+
 
 ## Learning Outcomes
 
@@ -17,9 +41,14 @@ use the most with git etc
 
 
 ## Assignment:
+<!-- This assignment is really good, no need for anymore -->
+<!-- Since this assignment only has one resource, cs-rail has decided to remove the '1' bullet point. -->
 
-< do we need any more assignments other than this? >
-1.[try git from codeschool](https://try.github.io/levels/1/challenges/1) this goes into branches and merging in the later parts don't worry if you don't understand these too well after going through this lesson. Those concepts will be covered in more detail in a later lesson.
+
+
+[Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
+
+You should do the exercises up to and including "1.11 Pushing Remotely".
 
 
 
@@ -36,16 +65,16 @@ Here we will describe the basic git workflow that you will use with your project
 
 ##Intermission
 
-A *save* in git is divided into two terminal commands: **add** and **commit**. This gives you control of exactly what you want to be remembered in your snapshot.
+A *save* in git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot. Think of `add` as adjusting the number of people or elements to be included in your photo. Think of `commit` as actually taking the photo, resulting in a snapshot.
+
 
 ###The staging Area
-Think of `add` as adjusting the number of people or elements to be included in your photo.
+
 
 With Git you choose the changes you want to save with `git add`. Imagine a project that contains multiple files and you have made changes to several of them. You want to save some of the changes you have made and leave some other changes to continue working on them.
 
 ###Committing
 
-Think of `commit` is actually taking the photo, resulting in a snapshot.
 
 We used this command to commit the hello_world.txt file `git commit -m "Initial commit"` the `-m` flag stands for message and must always be followed by a message in quotes in our case `"Initial commit"`.
 
