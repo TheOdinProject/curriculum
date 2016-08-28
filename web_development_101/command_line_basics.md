@@ -56,6 +56,4 @@ That's it, you're done with command line basics.
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* To dig a little deeper, take this [Command Line Crash Course](http://cli.learncodethehardway.org/book/) by Zed Shaw.  It can be a bit rough at times because the explanations are a bit sparse.
-
 * If you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check, [ExplainShell.com](http://explainshell.com/) is your solution.
