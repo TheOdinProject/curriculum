@@ -9,46 +9,48 @@ This lesson will demonstrate how to use git to manage and archive your project f
 3. When you have finalised your saves you can then push your local repo up onto GitHub to share with everyone!
 
 Here is a list of commands you will need to know and remember:
-* `git clone https://github.com/user-name/repository-name.git`
-* `git add .`
-* `git commit -m "A message describing what you have done to make this snapshot different"`
-* `git push origin master`
+* Commands related to remote repository:
+  * `git clone https://github.com/user-name/repository-name.git`
+  * `git push origin master`
+* Commands related to workflow:
+  * `git add .`
+  * `git commit -m "A message describing what you have done to make this snapshot different"`
+* Commands related to checking status or log history
+  * `git status`
+  * `git log`
 
 The git syntax works like this: `program | action | destination`.
 
 For example:
-* `git clone url` is read like `git | clone | url`
 * `git add .` is read like `git | add | .`
 * `git commit -m "message"` is read like `git | commit -m | message`
-* `git push origin master` is read like `git | push | origin master`
+* `git status` is read like `git | status | (no destination)`
 
 
 
 
 
 ## Learning Outcomes
+*By the end of this you should be able to:*
+* Create a Git repository on GitHub and move it onto your local machine
+* Describe the difference between staging and committing changes
+* Describe the difference between committing your changes and pushing them onto GitHub
+* Check the status of your current repository from the command line
+* Look at the history of your previous commits from the comamnd line
+* Look at the history of your commits on the GitHub website
 
-*By the end of this lesson you should understand the following*
 
-* How do you create a new Git repository for a project locally?
-* How do you create it on Github?
-* How do you commit changes?
-* What is the difference between staging and committing changes?
-* What is the difference between committing your changes and pushing them to Github?
-* How do you check the status of your current repo in git?
-* How do you see the history of your previous commits (from the command line)?
-* How can you look through your historical commits on the Github website?
+
 
 
 ## Assignment:
 <!-- This assignment is really good, no need for anymore -->
-<!-- Since this assignment only has one resource, cs-rail has decided to remove the '1' bullet point. -->
-
-
+<!-- Since this assignment only has one resource, cs-rail has decided to remove the '1' bullet point - bullet points are already loaded in the intro blurb -->
 
 [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
-
 You should do the exercises up to and including "1.11 Pushing Remotely".
+
+
 
 
 
