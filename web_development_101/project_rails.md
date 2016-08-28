@@ -161,6 +161,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *  [Paul McGarry's solution](https://github.com/thiswillhavetodo/rails_blogger) | [View in browser](https://stark-springs-70603.herokuapp.com/) | Completed to I6
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/blogger) | [View in browser](https://sheltered-scrubland-87671.herokuapp.com/)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/Blogger) | [View in browser](https://salty-chamber-16317.herokuapp.com)
+<<<<<<< HEAD
 * [Derek Kwong's solution](https://github.com/dckwong/ProjectRails) | [View in browser](https://aqueous-spire-28165.herokuapp.com/)
 * [Emil Dimitrov's solution](https://github.com/emo1/blogger-project) | [View in browser](https://sheltered-waters-69313.herokuapp.com/)
 * [Leo Soai-Van's solution](https://github.com/leosoaivan/project_rails) | [View in browser](https://lit-plains-26186.herokuapp.com/)
@@ -179,6 +180,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/Web_Development_101/blogger) | [View in browser](https://obscure-temple-21505.herokuapp.com/) |I0-I5
 * [Mityadsch's solution](https://github.com/MityaDSCH/rails-tutorial)
 * [Trevor Drury's solution](https://github.com/trevawhateva/rails-project) |10-15
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Rails_Project_1) | [View in browser](https://protected-citadel-95999.herokuapp.com/)
 * Add your solution above this line!
 
 
