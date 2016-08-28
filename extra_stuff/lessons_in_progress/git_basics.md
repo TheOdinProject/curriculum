@@ -8,7 +8,7 @@ This lesson will demonstrate how to use git to manage and archive your project f
 2. Once this repo is set up locally, you can begin writing code for your project and then saving it with git. 
 3. When you have finalised your saves you can then push your local repo up onto GitHub to share with everyone!
 
-Here is a list of commands you will need to know and remember:
+Here is a reference list of commands you will need to know and remember:
 * Commands related to remote repository:
   * `git clone https://github.com/user-name/repository-name.git`
   * `git push origin master`
@@ -48,7 +48,7 @@ For example:
 <!-- Since this assignment only has one resource, cs-rail has decided to remove the '1' bullet point - bullet points are already loaded in the intro blurb -->
 
 [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
-You should do the exercises up to and including "1.11 Pushing Remotely".
+Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
 
 
 
