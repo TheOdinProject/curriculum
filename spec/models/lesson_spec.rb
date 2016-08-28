@@ -63,14 +63,14 @@ RSpec.describe Lesson do
 
   describe '#import' do
     it "updates the lesson (if the content has changed)" do
-      VCR.use_cassette("lesson_content") { lesson.import_content }
+      VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
       expect(lesson.reload.content).not_to be nil
     end
 
     it "does not update the lesson if the content has not changed" do
-      VCR.use_cassette("lesson_content") { lesson.import_content }
+      VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
       expect(lesson).not_to receive(:update)
-      VCR.use_cassette("lesson_content") { lesson.import_content }
+      VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
     end
   end
 end

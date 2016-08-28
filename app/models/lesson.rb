@@ -22,21 +22,24 @@ class Lesson < ActiveRecord::Base
     ).count
   end
 
-  # Obtains lesson content from GitHub and saves it to the database
-  def import_content
-    update(content: decoded) if content != decoded
+  def import_content_from_github
+      update(content: decoded_content) if content_needs_updated
   rescue Octokit::Error => error
     failed_to_import
   end
 
   private
 
-  def decoded
-    @decoded ||= Base64.decode64(github_response[:content])
+  def decoded_content
+    @decoded_content ||= Base64.decode64(github_response[:content])
   end
 
   def github_response
     Octokit.contents("theodinproject/curriculum", path: url)
+  end
+
+  def content_needs_updated
+    content != decoded_content
   end
 
   def failed_to_import_message

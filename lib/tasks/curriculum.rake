@@ -33,7 +33,7 @@ namespace :curriculum do
 
       Lesson.all.each_with_index do |lesson, i|
         Rails.logger.info "Importing #{i+1}/#{total}: #{lesson.title}"
-        lesson.import_content
+        lesson.import_content_from_github
       end
 
       Rails.logger.info "Lesson content import complete."
