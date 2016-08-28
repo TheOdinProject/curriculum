@@ -23,7 +23,7 @@ The git syntax works like this: `program | action | destination`.
 
 For example:
 * `git add .` is read like `git | add | .`
-* `git commit -m "message"` is read like `git | commit -m | message`
+* `git commit -m "message"` is read like `git | commit -m | "message"`
 * `git status` is read like `git | status | (no destination)`
 
 
@@ -46,7 +46,6 @@ For example:
 ## Assignment:
 <!-- This assignment is really good, no need for anymore -->
 <!-- Since this assignment only has one resource, cs-rail has decided to remove the '1' bullet point - bullet points are already loaded in the intro blurb -->
-
 [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
 Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
 
@@ -55,6 +54,8 @@ Follow the exercises up to and including "1.11 Pushing Remotely" then jump back 
 
 
 ## Basics of git tutorial
+<!-- msg for kevinmulhern: Hey could you please include in your workflow instructions making a repo on GitHub? (untick initialize README) -->
+
 Here we will describe the basic git workflow that you will use with your projects, feel free to follow along with this
 <-- screen shots will be provided!->
 
@@ -65,20 +66,22 @@ Here we will describe the basic git workflow that you will use with your project
 5. now type `git status` again, notice your file is now green.
 6. now type `git commit -m "Initial commit"` and type `git status again` notice it now outputs "nothing to commit" your changes have been committed.
 
-##Intermission
-
-A *save* in git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot. Think of `add` as adjusting the number of people or elements to be included in your photo. Think of `commit` as actually taking the photo, resulting in a snapshot.
+##How does git save files?
+A *save* in git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.
 
 
 ###The staging Area
-
+Think of `add` as adjusting the number of people or elements to be included in your photo.
 
 With Git you choose the changes you want to save with `git add`. Imagine a project that contains multiple files and you have made changes to several of them. You want to save some of the changes you have made and leave some other changes to continue working on them.
 
 ###Committing
-
+Think of `commit` as actually taking the photo, resulting in a snapshot.
 
 We used this command to commit the hello_world.txt file `git commit -m "Initial commit"` the `-m` flag stands for message and must always be followed by a message in quotes in our case `"Initial commit"`.
+
+
+
 
 #todo in the next part we will edit the file again and add another file to repeat the basic commands so the student can get used to them
 Now we will add another file into the mix.
@@ -94,7 +97,3 @@ Now we will add another file into the mix.
 15. Finally lets commit all of our changes `git commit -m "Added hello mars file and added a line to hello world"`
 16. Enter `git status` once more, nothing to commit.
 
-
-<!-- question for cs rail
-  Should we task them with setting up a repo on github at the beginning or the end? I'm thinking the beginning.
-  -->
