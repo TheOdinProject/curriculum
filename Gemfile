@@ -33,6 +33,8 @@ end
 
 group :development, :test do
   gem 'rspec-rails',                '~> 3.4.2'
+  gem 'cucumber-rails', require: false
+  gem 'simplecov', :require => false                                # Code coverage
   gem 'factory_girl_rails',         '~> 4.6.0'
   gem 'capybara',                   '~> 2.6.2'
   gem 'phantomjs',                  '~> 2.1.1'
@@ -51,4 +53,6 @@ group :development do
   gem 'binding_of_caller',          '~> 0.7.2'                        # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
   gem 'letter_opener',              '~> 1.4.1'                        # shows outgoing emails in your browser instead
   gem 'derailed'                                                      # Memory benchmarking
+  gem 'reek'                                                          # Code smell detector
+  gem 'rubocop', require: false                                       # Static code analyser
 end
