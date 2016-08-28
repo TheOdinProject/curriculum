@@ -1,5 +1,5 @@
 # Git 101
-Git is like a really **epic save button** for your files and directories - officially git is called a version control system. <!--took out "distributed" as not a core part of understanding it for someone never exposed to VCS -->
+Git is like a really **epic save button** for your files and directories - officially git is called a version control system.
 
 To compare, a *save* in a text editor would record all of the words of a document as a single file. You are only ever given one record of the file like `essay.doc` unless you make duplicate copies (which would be difficult to remember to do and keep track of):
 
@@ -11,7 +11,7 @@ While git works on your *local* machine, GitHub is a *remote* storage facility o
 
 In this lesson we will briefly explore the history of Git, what it is and what it's useful for.
 
-In the next lesson we will go over the basic workflow of using Git on a small project, which should enhance your understanding and demonstrate whygit is so useful. 
+In the next lesson we will go over the basic workflow of using Git on a small project, which should enhance your understanding and demonstrate why Git is so useful.
 
 
 ## Learning Outcome:
@@ -21,19 +21,11 @@ In the next lesson we will go over the basic workflow of using Git on a small pr
 * Describe whether git and GitHub work at a local or remote level
 * Describe why git is useful for an individual developer and a team of developers
 
-
-<!-- Things to move to the next lesson -->
-A *save* in git is divided into two terminal commands: **add** and **commit**. This gives you control of exactly what you want to be remembered in your snapshot. Think of `add` as adjusting the number of people or elements to be included in your photo, while `commit` is actually taking the photo, resulting in a snapshot.
-
-with git you would simply make another separate branch where you can safely make changes. More on branches later.
-<!-- ^^^Things to move to git basics lesson^^^ -->
-
-
 ## Assignment:
-1. Read about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems. 
+1. Read about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems.
 2. Now watch this [video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how git can improve the workflow of an individual or a team of developers. <!-- What is VCS? (Git-SCM) • Git Basics #1  -->
 3. Get some [context](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) of how git and GitHub came about. Make sure you know the difference between the two: note how git is referred to as a technology used in the *command line* while GitHub is a *website* you can [visit](https://github.com/)
-4. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored! 
+4. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored!
 5. Finally, gain an appreciation of [how git records all collaborative efforts](https://github.com/TheOdinProject/curriculum/graphs/contributors) and how GitHub visually represents this.
 
 
