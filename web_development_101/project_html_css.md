@@ -809,6 +809,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Thomas Letsos' Solution](https://github.com/tgl0782/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/tgl0782/google-homepage/blob/master/idex.html)
 * [Melissa Koski's Solution](https://github.com/nyx3nox/google-homepage-easy) | [View in browser](https://htmlpreview.github.io/?https://github.com/nyx3nox/google-homepage-easy/blob/master/google-homepage-easy.html)
 * [Ivan Uglik's Solution](https://github.com/rvsted/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/rvsted/google-homepage/blob/master/index.html)
+* [James Gundlach's Solution](https://github.com/phoenixbyrd/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/phoenixbyrd/google-homepage/blob/master/index.html)
+* [Harlene Espinosa's Solution](https://github.com/espinosaharlene/google-homepage.git) | [View in browser (Easy)](https://espinosaharlene.github.io/google-homepage/)
 * Add your solution above this line!
 
 ## Additional Resources
