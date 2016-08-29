@@ -466,4 +466,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Allen's solution](https://github.com/allenyin55/The-Odin-Project/tree/master/JS_jQuery_project)
 * [Cicero Ferreira's solution](https://github.com/devcicerojr/etch-a-sketch-webpage) | [View in browser](https://jsfiddle.net/devcicerojr/1ubk7u1t/)
 * [Harsimran Mann's solution](https://github.com/pure5abi/Js_jQuery_proj) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/pure5abi/Js_jQuery_proj/master/index.html)
+* [Shazelle's solution](https://github.com/micey969/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/micey969/Etch-A-Sketch/blob/master/index.html)
 * Add your solution above this line!
