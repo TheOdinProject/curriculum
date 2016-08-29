@@ -257,7 +257,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Adam Levin's solution](https://github.com/tutordelphia/Odin_Ruby_Projects/blob/master/caesar_cipher.rb)
 * [Derek Kwong's solution](https://github.com/dckwong/RubyBuildingBlocks/blob/master/caesar_cipher.rb)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/blob/master/ruby/building_blocks/caesar_cipher/caesar.rb)
-* [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/Ruby/building_blocks/cipher.rb)
+* [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/ruby/building_blocks/cipher.rb)
 * Add your solution above this line!
 
 
@@ -482,7 +482,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Derek Kwong's solution](https://github.com/dckwong/RubyBuildingBlocks/blob/master/stock_picker.rb)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/blob/master/ruby/building_blocks/stock_picker/stock_picker.rb)
 * [Defgarden's solution](https://github.com/Defgarden/stock_picker/blob/master/stock_picker.rb)
-* [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/Ruby/building_blocks/stock_picker.rb)
+* [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/ruby/building_blocks/stock_picker.rb)
 * Add your solution above this line!
 
 
@@ -714,5 +714,5 @@ Next, make sure your method can handle multiple words:
 * [Derek Kwong's solution](https://github.com/dckwong/RubyBuildingBlocks/blob/master/substrings.rb)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/blob/master/ruby/building_blocks/substrings/substrings.rb)
 * [Defgarden's solution](https://github.com/Defgarden/substring/blob/master/substring.rb)
-* [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/Ruby/building_blocks/substrings.rb)
+* [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/ruby/building_blocks/substrings.rb)
 * Add your solution above this line!
