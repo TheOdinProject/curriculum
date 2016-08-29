@@ -813,6 +813,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Harlene Espinosa's Solution](https://github.com/espinosaharlene/google-homepage.git) | [View in browser (Easy)](https://espinosaharlene.github.io/google-homepage/)
 * [Janus0's Solution](https://github.com/janus0/the_odin_project/blob/master/google/googlehomepage.html) | [View in browser (Easy)](https://cdn.rawgit.com/janus0/the_odin_project/master/google/googlehomepage.html)
 * [Micey969's Solution](https://github.com/micey969/google-homepage/blob/master/index.html) | [View in browser (Easy)](http://htmlpreview.github.io/?https://github.com/micey969/google-homepage/blob/master/index.html)
+* [Elzbeth Blanco's Solution](https://github.com/elzbeth/google-homepage.git) | [View in browser (Easy)] (https://rawgit.com/elzbeth/google-homepage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
