@@ -9,13 +9,15 @@ In these projects, you'll be working to implement authentication systems so user
 
 We're starting to get into the meaty stuff with the tutorial.  Take your time and pay attention to which file (especially for the specs) you're supposed to be writing in.  A common and frustrating mistake is to put your `describe` block in the wrong place.
 
-You'll implement signin and signout functionality for the user, which opens the door to allow more destructive user behaviors like editing and deleting things (which should only be allowed for a given user or admin).  In Chapter 9, you'll get the chance to implement these functions.
+You'll implement signin and signout functionality for the user, which opens the door to allow more destructive user behaviors like editing and deleting things (which should only be allowed for a given user or admin).  In Chapter 10, you'll get the chance to implement these functions.
 
 ### Your Task
 
 1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.railstutorial.org/book/basic_login), "Basic Login"
 2. Do the [Ruby on Rails Tutorial Chapter 9](https://www.railstutorial.org/book/advanced_login), "Advanced Login"
 3. Do the [Ruby on Rails Tutorial Chapter 10](https://www.railstutorial.org/book/updating_and_deleting_users) "Updating, showing, and deleting users"
+4. Do the [Ruby on Rails Tutorial Chapter 11](https://www.railstutorial.org/book/account_activation), "Account Activation"
+5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.railstutorial.org/book/password_reset), "Password Reset"
 
 
 ## Project 2: Members Only!
