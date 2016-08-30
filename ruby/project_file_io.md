@@ -85,6 +85,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/event_manager)
 * [Clint's solution](https://github.com/tholymap/JumpStartEventManager)
 * [Derek K's solution](https://github.com/dckwong/ProjectSerialization/tree/master/event_manager)
+* [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_ruby_serial.git)
 * Add your solution above this line!
 
 
