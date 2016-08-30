@@ -33,6 +33,7 @@ The process will be quite similar to what we've done before.  At this point, you
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/html5_site) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/html5_site/index.html)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/thenextweb-remake/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/thenextweb-remake/index.html)
 * [Ashleigh's solution](https://github.com/aedelman/responsive-design/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/aedelman/responsive-design/blob/master/index.html)
+* [csrail's solution](https://github.com/csrail/next-web-mock) | [View in Browser](https://rawgit.com/csrail/next-web-mock/master/index.html)
 * Add your solution above this line!
 
 
