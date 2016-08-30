@@ -212,7 +212,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jason Keeney's Solution](https://github.com/jkeeney/learn_ruby)
 * [Allen Yin's Solution](https://github.com/allenyin55/The-Odin-Project/tree/master/rubyL/ruby-testing)
 * [Mike Coon's Solution](https://github.com/mac718/learn_ruby)
-
+* [Raiko Murulauk's Solution](https://github.com/Cypher0/learn_ruby)
 * Add your solution above this line!
 
 ## Additional Resources
