@@ -80,6 +80,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Jean Merlet's solution](https://github.com/jeanmerlet/data_structures/blob/master/binary_tree.rb)
 * [Austin Mason's solution](https://github.com/CouchofTomato/algorithm/blob/master/binary_search_tree.rb)
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby-binary_search_tree-knight_travails/blob/master/binary_search_tree.rb)
+* [Joanna Takesian's solution](https://github.com/joannatakesian/data-structures/blob/master/binary-tree/binary-tree.rb)
 * Add your solution above this line!
 
 
