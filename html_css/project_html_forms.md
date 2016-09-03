@@ -48,6 +48,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Earth35's solution](https://github.com/Earth35/mint-form) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/mint-form/blob/master/signup.html)
 * [Guido Bakkes' solution](https://github.com/guidobakkes/mock-ups/tree/master/mint-sign-up) | [View in browser](https://htmlpreview.github.io/?https://github.com/guidobakkes/mock-ups/blob/master/mint-sign-up/index.html)
 * [cs-rail's solution](https://github.com/csrail/mint-mock) | [View in browser](https://rawgit.com/csrail/mint-mock/master/sign-up.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/mint_form_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/mint_form_clone/blob/master/mint.html)
 * Add your solution above this line!
 
 
