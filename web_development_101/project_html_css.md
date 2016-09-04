@@ -819,6 +819,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Junqiang Qian's Solution](https://github.com/junqiangqian/the_odin_project/tree/master/webdevelopment101/google-homepage) | [View in browser (Easy)] (https://htmlpreview.github.io/?https://github.com/junqiangqian/the_odin_project/blob/master/webdevelopment101/google-homepage/index.html)
 * [Carlos Jimenez's Solution](https://github.com/RiverFloater/google-homepage/blob/master/index.html) | [View in browser (Easy)](http://htmlpreview.github.io/?https://github.com/RiverFloater/google-homepage/blob/master/index.html)
 * [Leonardo Borba's Solution](https://github.com/Leonardo-Borba/google-homepage/blob/master/index.html) | [View in browser (Easy)](http://htmlpreview.github.io/?https://github.com/Leonardo-Borba/google-homepage/blob/master/index.html)
+* [Ayon Pal's Solution](https://github.com/AyonPal/google-homepage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/AyonPal/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
