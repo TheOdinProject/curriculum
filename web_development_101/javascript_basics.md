@@ -364,6 +364,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Jakub Augustyn'n Solution](https://github.com/zerozero7/jscript-euler) | [View in browser](https://cdn.rawgit.com/zerozero7/jscript-euler/191dbff/index.html)
 * [Zapad Daniel Solution](https://github.com/ZapadRo97/odin-project-euler)
 * [Travis Gibson's Solution](https://github.com/GibsonT/euler.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/GibsonT/euler.js/blob/master/index.html)
+*[Robert Richards' Solution](https://github.com/robert903/robertrichards.github.io/tree/gh-pages/projects/euler) | [View in browser](http://robertrichards.me/projects/euler/)
+
+
 * Add your solution above this line!
 
 ## Additional Resources
