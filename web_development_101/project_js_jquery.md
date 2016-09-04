@@ -469,4 +469,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Shazelle's solution](https://github.com/micey969/Etch-A-Sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/micey969/Etch-A-Sketch/blob/master/index.html)
 * [Jack Brittain's solution](https://github.com/jaqviolet/etch-a-sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jaqviolet/etch-a-sketch/blob/master/index.html)
 * [Ayon Pal's Solution](https://github.com/AyonPal/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/AyonPal/sketch-pad/blob/master/index.html)
+* [Isaiah's Solution](https://github.com/Iogasawa/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Iogasawa/Etch-A-Sketch/blob/master/index.html)
 * Add your solution above this line!
