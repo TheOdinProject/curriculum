@@ -181,7 +181,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Mityadsch's solution](https://github.com/MityaDSCH/rails-tutorial)
 * [Trevor Drury's solution](https://github.com/trevawhateva/rails-project) |10-15
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Rails_Project_1) | [View in browser](https://protected-citadel-95999.herokuapp.com/)
-* Mike Coon's solution](https://github.com/mac718/blogger1) | [View in browser](https://shrouded-headland-68370.herokuapp.com/)
+* [Mike Coon's solution](https://github.com/mac718/blogger1) | [View in browser](https://shrouded-headland-68370.herokuapp.com/)
 * Add your solution above this line!
 
 
