@@ -40,7 +40,7 @@ Redo the same Project Euler problem that you previously did in Javascript but us
 
 * [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1)
 
-Have a go at the next two problems too; feel free to move on to the next lesson. The aim here is to increase your resilience to difficult problems and get you more exposed to how loops and methods are structured:
+Have a go at the next two problems too; feel free to move on to the next lesson though if you find it too challenging. The aim here is to increase your resilience to difficult problems and get you more exposed to how loops and methods are structured:
 
 * [Problem 2: Even Fibonacci Numbers](http://projecteuler.net/problem=2)
 * [Problem 3: Largest Prime Factor](http://projecteuler.net/problem=3) (remember, don't bother for anything over 100,000 doing the brute force solution or you'll need a few days to calculate...)
