@@ -75,6 +75,7 @@ It's time to build an on-screen calculator
 * [Artur Okonski's solution](https://github.com/cloudtemplar/js-calculator) | [View in browser](https://jsfiddle.net/c3x67ayp/1/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-calculator/blob/master/index.html)
 * [Marco the Phoenix's solution](https://github.com/marcsanmi/Learning/tree/master/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Calculator/index.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/onscreen_calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/onscreen_calculator/blob/master/main.html)
 * Add your solution above this line!
 
 
