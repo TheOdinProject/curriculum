@@ -140,6 +140,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Earth35's solution](https://github.com/Earth35/members_only) | [View in browser](https://limitless-waters-94136.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/members_only) | [View in browser](https://mysterious-reef-42520.herokuapp.com/)
 * [chrisnorwood's solution](https://github.com/chrisnorwood/members-only) | [View in browser](https://members-only-top.herokuapp.com/)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/members-only) | [View in browser](https://members-only-by-jiazhi.herokuapp.com/)
 * Add your solution above this line!
 
 
