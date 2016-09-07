@@ -144,6 +144,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/rails_project)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/blogger)|[View in browser](https://fcarrara-blogger.herokuapp.com) Completed to I6 section.
 * [Tomas Rojo's solution](https://github.com/tomasn4a/jumpstart/tree/master/blogger)|[View in browser](https://floating-lowlands-72552.herokuapp.com)
+* [Jason Keeney's solution](https://github.com/jkeeney/project_rails)|[View in browser](https://murmuring-beach-36592.herokuapp.com/)
 * Add your solution above this line!
 
 
