@@ -23,7 +23,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 
 ### Your Task
 
-* Do the [Ruby on Rails Tutorial Chapter 11](https://www.railstutorial.org/book/user_microposts), "User microposts".
+* Do the [Ruby on Rails Tutorial Chapter 13](https://www.railstutorial.org/book/user_microposts), "User microposts".
 
 ## Project 2: Private Events
 
@@ -106,6 +106,8 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Fabricio Carrara's solution](https://github.com/fcarrara/private-events) | [View in browser](https://private-events-rails.herokuapp.com)
 * [Akshay Bharwani's solution](https://github.com/akshaybharwani/private-events)
 * [Martin Safer's solution](https://github.com/mtsafer/private-events) | [View in browser](https://aqueous-woodland-15720.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/private_events) | [View in browser](http://cryptic-mesa-97521.herokuapp.com/)
+* [John's solution](https://github.com/johnTheDudeMan/private_events)
 * Add your solution above this line!
 
 

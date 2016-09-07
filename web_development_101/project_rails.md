@@ -179,6 +179,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/Web_Development_101/blogger) | [View in browser](https://obscure-temple-21505.herokuapp.com/) |I0-I5
 * [Mityadsch's solution](https://github.com/MityaDSCH/rails-tutorial)
 * [Trevor Drury's solution](https://github.com/trevawhateva/rails-project) |10-15
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Rails_Project_1) | [View in browser](https://protected-citadel-95999.herokuapp.com/)
+* [Mike Coon's solution](https://github.com/mac718/blogger1) | [View in browser](https://shrouded-headland-68370.herokuapp.com/)
 * Add your solution above this line!
 
 
