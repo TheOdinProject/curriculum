@@ -366,6 +366,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Zapad Daniel Solution](https://github.com/ZapadRo97/odin-project-euler)
 * [Travis Gibson's Solution](https://github.com/GibsonT/euler.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/GibsonT/euler.js/blob/master/index.html)
 * [biko's Solution](https://github.com/biko1982/project-euler)
+* [Ryan Barnett's Solution](https://github.com/RyanDBarnett/euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/RyanDBarnett/euler/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
