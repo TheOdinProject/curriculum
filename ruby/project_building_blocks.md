@@ -720,4 +720,5 @@ Next, make sure your method can handle multiple words:
 * [Defgarden's solution](https://github.com/Defgarden/substring/blob/master/substring.rb)
 * [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/ruby/building_blocks/substrings.rb)
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Ruby_Building_Blocks/blob/master/Substrings/substrings.rb)
+* [Saroar Khandoker's solution](https://repl.it/DZrZ)
 * Add your solution above this line!
