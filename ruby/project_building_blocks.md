@@ -259,6 +259,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/blob/master/ruby/building_blocks/caesar_cipher/caesar.rb)
 * [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/ruby/building_blocks/cipher.rb)
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Ruby_Building_Blocks/blob/master/Caesar_Cipher/caesar.rb)
+* [Saroar Khandoker's solution](https://repl.it/DRxZ/0)
 * Add your solution above this line!
 
 
