@@ -25,22 +25,22 @@ Here we will describe the basic git workflow that you will use with your project
   <a href="http://imgur.com/kbMCvCK"><img src="http://i.imgur.com/kbMCvCK.png" title="source: imgur.com" /></a>
 3. Give your repository the name "git_test" in the repository name input field and create the repository by clicking the green "create repository" button at the bottom of the page.
 
-5. This will redirect you to your new repository on GitHub. To get this repository onto your local machine copy the url in the address bar of your browser for your repository.
-  <img src="http://i.imgur.com/89vxeKi.png">
-6. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on github onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
-  <img src="http://i.imgur.com/HFQtIs4.png?1">
-7. Thats it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
-  <img src="http://i.imgur.com/oTb22tn.png">
+4. This will redirect you to your new repository on GitHub. To get this repository onto your local machine copy the url in the address bar of your browser for your repository.
+  <a href="http://imgur.com/89vxeKi"><img src="http://i.imgur.com/89vxeKi.png" title="source: imgur.com" /></a>
+5. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on github onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
+  <a href="http://imgur.com/HFQtIs4"><img src="http://i.imgur.com/HFQtIs4.png?1" title="source: imgur.com" /></a>
+6. Thats it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
+  <a href="http://imgur.com/oTb22tn"><img src="http://i.imgur.com/oTb22tn.png" title="source: imgur.com" /></a>
 
 ## GIT workflow
 1. Create a new file in git_test called "README.md"
-  <img src="http://i.imgur.com/l4jEMwE.png">
+  <a href="http://imgur.com/l4jEMwE"><img src="http://i.imgur.com/l4jEMwE.png" title="source: imgur.com" /></a>
 2. Type `git status` in your terminal notice your *README.md* file is in red, this means it is un-staged.
-  <img src="http://i.imgur.com/SE9V63c.png">
+  <<a href="http://imgur.com/SE9V63c"><img src="http://i.imgur.com/SE9V63c.png" title="source: imgur.com" /></a>
 3. Type `git add README.md` this adds your *README.md* file to staging area in git. Now type `git status` again, notice your file is now green.
-  <img src="http://i.imgur.com/Ntpmh2u.png">
+  <a href="http://imgur.com/Ntpmh2u"><img src="http://i.imgur.com/Ntpmh2u.png" title="source: imgur.com" /></a>
 4. Now type `git commit -m "Added README"` and then type `git status` once more and notice that the output contains "*nothing to commit*". Your changes have been committed.
-  <img src="http://i.imgur.com/kK5IT51.png">
+  <a href="http://imgur.com/kK5IT51"><img src="http://i.imgur.com/kK5IT51.png" title="source: imgur.com" /></a>
 5. Now type `git log` and look at its output. You should see a historical entry for your commit: *Added README*. You will also see details on the author who made the commit and the date time for when it was made.
 
 ## How does git save files?
