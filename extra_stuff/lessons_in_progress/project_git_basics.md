@@ -35,12 +35,12 @@ Here we will describe the basic git workflow that you will use with your project
 
   <img src="../images/git_basics/clone.png">
 
-7. Thats it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word "origin" at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. This will come up again near the end of the tutorial.
+7. Thats it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
 
   <img src="../images/git_basics/remote.png">
 
 ## GIT workflow
-1. Create a new file in git_test called "*README.md*"
+1. Create a new file in git_test called "README.md"
 
   <img src="../images/git_basics/create_readme.png">
 
@@ -55,6 +55,8 @@ Here we will describe the basic git workflow that you will use with your project
 4. Now type `git commit -m "Added README"` and then type `git status` once more and notice that the output contains "*nothing to commit*". Your changes have been committed.
 
   <img src="../images/git_basics/commiting_readme.png">
+
+5. Now type `git log` and look at its output. You should see a historical entry for your commit: *Added README*. You will also see details on the author who made the commit and the date time for when it was made.
 
 ## How does git save files?
 A *save* in git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.
@@ -96,6 +98,8 @@ We used this command to commit the hello_world.txt file `git commit -m "Initial 
 9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Added hello world file and added a line to README"`. Then enter `git status` once again, this will output `nothing to commit`.
 
   <img src="../images/git_basics/everything_committed.png">
+  
+10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
 ## Pushing your finished work to github
 Finally lets upload what you have done to the Github repository you created at the start of this tutorial
@@ -104,20 +108,18 @@ Finally lets upload what you have done to the Github repository you created at t
 
   <img src="../images/git_basics/pushing.png">
 
-2. Now enter git status one final time, it should output "up to date with origin master"
+2. Now enter `git status` one final time, it should output "*up to date with origin master*"
 
   <img src="../images/git_basics/up_to_date.png">
 
 ## What is origin master?
-As mentioned before origin is the name of your remote url of the git_test repository you set up on Github at the start of this tutorial. You can use origin to do things with your remote without having to enter the full url each time you want to do something with it. It also means you can have multiple different remotes by giving each a unique name.
+As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial. You can use *origin* to do access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
 
-`master` is the branch you want to push your changes too. We will get more into branches in a later lesson, the main thing to remember is that master is the official branch in your projects where production ready code lives.
+**master** is the branch you want to push your changes to. We will get more into branches in a later lesson, the main thing to remember is that *master* is the official branch in your projects where production-ready code lives.
 
 ## Conclusion
-The main take away from what you have learnt about Git over the past few lessons is how to use Git with your projects and upload them to Github. You now have the ability to do that, this is a very powerful skill that will help you out immensely when we get into the coding projects as you will be able to share your work with others for code reviews and to get help with your code if you are stuck. In later git lessons we will cover some of the more advanced git features such as branches which will expand your abilities even more and make your workflow on projects more productive.
+The main take away from what you have learnt about Git over the past few lessons is how to use Git with your projects and upload them to Github. You now have the ability to do that. This is a very powerful skill that will help you out immensely when we get into the coding projects; you will be able to share your work with others for code reviews and get help with your code if you are stuck. 
+
+In later git lessons we will cover some of the more advanced git features such as branches which will expand your abilities even more and make your workflow on projects more productive.
 
 For now concentrate on using the basics of Git which you have learnt here with all the projects ahead of you until the point where you know each of the basic Git commands from memory.  
-
-## Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
