@@ -33,7 +33,7 @@ Here we will describe the basic git workflow that you will use with your project
 
 6. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on github onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
 
-  <img src="../images/git_basics/clone.png">
+  <img src="http://i.imgur.com/HFQtIs4.png?1">
 
 7. Thats it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
 
@@ -98,7 +98,7 @@ We used this command to commit the hello_world.txt file `git commit -m "Initial 
 9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Added hello world file and added a line to README"`. Then enter `git status` once again, this will output `nothing to commit`.
 
   <img src="../images/git_basics/everything_committed.png">
-  
+
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
 ## Pushing your finished work to github
@@ -118,7 +118,7 @@ As mentioned before, **origin** is a placeholder name, or branch, for the remote
 **master** is the branch you want to push your changes to. We will get more into branches in a later lesson, the main thing to remember is that *master* is the official branch in your projects where production-ready code lives.
 
 ## Conclusion
-The main take away from what you have learnt about Git over the past few lessons is how to use Git with your projects and upload them to Github. You now have the ability to do that. This is a very powerful skill that will help you out immensely when we get into the coding projects; you will be able to share your work with others for code reviews and get help with your code if you are stuck. 
+The main take away from what you have learnt about Git over the past few lessons is how to use Git with your projects and upload them to Github. You now have the ability to do that. This is a very powerful skill that will help you out immensely when we get into the coding projects; you will be able to share your work with others for code reviews and get help with your code if you are stuck.
 
 In later git lessons we will cover some of the more advanced git features such as branches which will expand your abilities even more and make your workflow on projects more productive.
 
