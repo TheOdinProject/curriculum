@@ -37,5 +37,3 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* No more than 3 extra resources, we want to keep the links to a minimum on lesson pages now.
