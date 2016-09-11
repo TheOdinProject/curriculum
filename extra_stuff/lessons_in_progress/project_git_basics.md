@@ -29,7 +29,7 @@ Here we will describe the basic git workflow that you will use with your project
 
 <img src="../images/git_basics/naming_repo.png">
 
-4. Uncheck the "Initialize this repository with a README" option and finally create the repository by clicking the green "create repository" button at the bottom of the page.
+4. Create the repository by clicking the green "create repository" button at the bottom of the page.
 
 5. This will redirect you to your new repository on GitHub. To get this repository onto your local machine copy the url in the address bar of your browser for your repository.
 
