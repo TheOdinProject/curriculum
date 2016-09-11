@@ -5,7 +5,7 @@ In this lesson we will cover common git commands used to manage your projects an
 ## Learning Outcomes
 *By the end of this you should be able to:*
 * Run git commands from the command line
-* Name the git command used to get a full copy an existing git repository
+* Name the git command used to get a full copy an existing git repository from Github
 * Name the git command used to check the status of your files
 * Name the git command used to track files
 * Name the git command used to commit files
@@ -47,7 +47,6 @@ Git is a skill that you will only get more comfortable with as you use it. This 
 The main thing to take away from this lesson is the **basic workflow**; the commands you have been exposed to here are ones you will be using the most with Git.
 
 Don't worry if you don't know all the commands yet or that they don't stick at the moment - they will soon be seared into your brain as you use them multiple times in future Odin projects to come.
-
 
 ## Additional Resources
 
