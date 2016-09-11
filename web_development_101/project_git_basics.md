@@ -22,6 +22,7 @@ Here we will describe the basic git workflow that you will use with your project
 1. You should have created a github account in the [installations](http://www.theodinproject.com/web-development-101/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screen shot below.
+  
   <a href="http://imgur.com/kbMCvCK"><img src="http://i.imgur.com/kbMCvCK.png" title="source: imgur.com" /></a>
 
 3. Give your repository the name "git_test" in the repository name input field and create the repository by clicking the green "create repository" button at the bottom of the page.
