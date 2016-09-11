@@ -139,6 +139,11 @@ As mentioned before origin is the name of your remote url of the git_test reposi
 
 `master` is the branch you want to push your changes too. We will get more into branches in a later lesson, the main thing to remember is that master is the official branch in your projects where production ready code lives.
 
+## Conclusion
+The main take away from what you have learnt about Git over the past few lessons is how to use Git with your projects and upload them to Github. You now have the ability to do that, this is a very powerful skill that will help you out immensely when we get into the coding projects as you will be able to share your work with others for code reviews and to get help with your code if you are stuck. In later git lessons we will cover some of the more advanced git features such as branches which will expand your abilities even more and make your workflow on projects more productive.
+
+For now concentrate on using the basics of Git which you have learnt here with all the projects ahead of you until the point where you know each of the basic Git commands from memory.  
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
