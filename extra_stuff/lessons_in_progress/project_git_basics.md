@@ -21,7 +21,7 @@ Here we will describe the basic git workflow that you will use with your project
 ### Create your repository on Github
 1. You should have created a github account in the [installations](http://www.theodinproject.com/web-development-101/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
-2. Create a new repository by clicking the button shown in the screen shot below. 
+2. Create a new repository by clicking the button shown in the screen shot below.
 
 <img src="../images/git_basics/create_repo.png">
 
@@ -73,24 +73,15 @@ This will display the url of the repository you created in GitHub as your remote
 ## How does git save files?
 A *save* in git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.
 
-Think of `add` as adjusting the number of people or elements to be included in your photo. While `commit` is actually taking the photo, resulting in a snapshot.
+###The staging Area
+Think of `add` as adjusting the number of people or elements to be included in your photo.
 
-### Atomic Commits
-When you start working on big projects, you will be modifying multiple files which will all need saving. However, it's best practice to save files purposefully; we call this an **atomic commit**. 
+With Git you choose the changes you want to save with `git add`. Imagine a project that contains multiple files and you have made changes to several of them. You want to save some of the changes you have made and leave some other changes to continue working on them.
 
-If we were to add all the files onto one stage and not think about making atomic commits, this would make your snapshot really crowded and congested - this is bad for two reasons:
+###Committing
+Think of `commit` as actually taking the photo, resulting in a snapshot.
 
-First, you will not know why the snapshot was meaningful and if you wanted to find a specific snapshot you would find it difficult to trace what you were trying to accomplish with those files. 
-
-Second, imagine if your project got corrupted or your code has a bug you can't figure out and does not work anymore. If you were to put all your files onto one stage and then tried to load a previous snapshot known to be stable, you would lose a lot of progress with your work and then piecing all the files back to their desired state would be painstaking.
-
-To get around this, only `git add` files that are thematically similar. For example if your project had a lot of text files and image files, you could stage all text files together for one snapshot and then all image files together for another snapshot.
-
-All snapshots taken must have a message attached to it. When you have staged files purposefully (or with a theme), it's easy to decide what kind of message to include.
-
-To take a snapshot, you would run `git commit -m "Initial commit"`. The `-m` flag stands for message and then you include your short message in between the quotation marks: `"Initial commit"`.
-
-
+We used this command to commit the hello_world.txt file `git commit -m "Initial commit"` the `-m` flag stands for message and must always be followed by a message in quotes in our case `"Initial commit"`.
 
 ## Adding another file into the mix.
 
