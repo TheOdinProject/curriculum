@@ -75,29 +75,29 @@ We used this command to commit the hello_world.txt file `git commit -m "Initial 
 
 1. Create a new file in the `git_test` folder and call it `hello_world.txt`. In your terminal type `git status`, notice `hello_world.txt` is un-staged.
 
-  <img src="../images/git_basics/created_hello_world.png">
+  <img src="http://i.imgur.com/nW0a6cA.png">
 
 2. Now open the *README.md* in your text editor of choice and add "This is (YourUsername)'s first git project!" and then save the file.
 
-  <img src="../images/git_basics/editing_the_readme.png">
+  <img src="http://i.imgur.com/oohqJt0.png">
 
 3. Back in your terminal enter `git status`, notice that *README.md* is now un-staged again.
 
-  <img src="../images/git_basics/unstaged_readme_again.png">
+  <img src="http://i.imgur.com/cUVKbjT.png">
 
 4. Add *README.md* to the staging area with `git add README.md`
 
 5. Can you guess what `git status` will output now? *README.md* will be displayed in green text while *hello_world.txt* will still be in red. This means only *README.md* has been added to the staging area.
 
-  <img src="../images/git_basics/readme_staged_again.png">
+  <img src="http://i.imgur.com/12diOu9.png">
 
 6. Now lets add *hello_world.txt* to staging area with a different variation of add `git add .` - the full stop means add all un-staged files. Then enter `git status` once more, everything should now been added to the staging area.
 
-  <img src="../images/git_basics/everything_staged.png">
+  <img src="http://i.imgur.com/799uu2c.png">
 
 9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Added hello world file and added a line to README"`. Then enter `git status` once again, this will output `nothing to commit`.
 
-  <img src="../images/git_basics/everything_committed.png">
+  <img src="http://i.imgur.com/Vi5u2Ei.png">
 
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
@@ -106,11 +106,11 @@ Finally lets upload what you have done to the Github repository you created at t
 
 1. Simply enter `git push origin master`.
 
-  <img src="../images/git_basics/pushing.png">
+  <img src="http://i.imgur.com/aJvoHx6.png">
 
 2. Now enter `git status` one final time, it should output "*up to date with origin master*"
 
-  <img src="../images/git_basics/up_to_date.png">
+  <img src="http://i.imgur.com/l5y50J8.png">
 
 ## What is origin master?
 As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial. You can use *origin* to do access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
