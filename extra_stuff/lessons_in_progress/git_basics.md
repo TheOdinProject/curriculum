@@ -55,17 +55,3 @@ Don't worry if you don't know all the commands yet or that they don't stick at t
 * An introductory guide by Hartl called [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
 * This very thorough and well laid out tutorial from [Atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control)
 * For a more in-depth understanding of git, read the free [ProGit eBook](https://git-scm.com/book/en/v2)
-
-
-
-
-
-We will cover the basics of using Git on your projects as well as uploading your projects to Github.
-
-## Learning Outcomes
-*By the end of this you should be able to:*
-* Create a Git repository on GitHub and move it onto your local machine
-* Describe the difference between staging and committing changes
-* Describe the difference between committing your changes and pushing them onto GitHub
-* Check the status of your current repository from the command line
-* Look at the history of your previous commits from the command line
