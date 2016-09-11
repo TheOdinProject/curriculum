@@ -42,19 +42,19 @@ Here we will describe the basic git workflow that you will use with your project
 ## GIT workflow
 1. Create a new file in git_test called "README.md"
 
-  <img src="../images/git_basics/create_readme.png">
+  <img src="http://i.imgur.com/l4jEMwE.png">
 
 2. Type `git status` in your terminal notice your *README.md* file is in red, this means it is un-staged.
 
-  <img src="../images/git_basics/status_after_creating_readme.png">
+  <img src="http://i.imgur.com/SE9V63c.png">
 
 3. Type `git add README.md` this adds your *README.md* file to staging area in git. Now type `git status` again, notice your file is now green.
 
-  <img src="../images/git_basics/git_status_after_adding_readme.png">
+  <img src="http://i.imgur.com/Ntpmh2u.png">
 
 4. Now type `git commit -m "Added README"` and then type `git status` once more and notice that the output contains "*nothing to commit*". Your changes have been committed.
 
-  <img src="../images/git_basics/commiting_readme.png">
+  <img src="http://i.imgur.com/kK5IT51.png">
 
 5. Now type `git log` and look at its output. You should see a historical entry for your commit: *Added README*. You will also see details on the author who made the commit and the date time for when it was made.
 
