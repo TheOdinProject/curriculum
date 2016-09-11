@@ -26,9 +26,7 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 
 ## Assignment:
 1. Read about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems.
-<!-- What is VCS? (Git-SCM) • Git Basics #1  -->
 2. Now watch this [video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how git can improve the workflow of an individual or a team of developers.
-<!-- Video by Dev Tips: Git History -->
 3. Get some [context](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) of how git and GitHub came about. Make sure you know the difference between the two: note how Git is referred to as a technology used in the *command line* while GitHub is a *website* you can [visit](https://github.com/)
 4. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored!
 5. Finally, gain an appreciation of [how git records all collaborative efforts](https://github.com/TheOdinProject/curriculum/graphs/contributors) and how GitHub visually represents this.
