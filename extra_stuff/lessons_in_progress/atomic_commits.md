@@ -12,3 +12,5 @@ To get around this, only `git add` files that are thematically similar. For exam
 All snapshots taken must have a message attached to it. When you have staged files purposefully (or with a theme), it's easy to decide what kind of message to include.
 
 To take a snapshot, you would run `git commit -m "Initial commit"`. The `-m` flag stands for message and then you include your short message in between the quotation marks: `"Initial commit"`.
+
+* More about writing [atomic commits](http://chris.beams.io/posts/git-commit/)
