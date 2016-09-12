@@ -95,6 +95,11 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Scott Bobbitt's solution](https://github.com/sco-bo/flight-booker) | [View in Browser](https://radiant-fortress-17197.herokuapp.com/)
 * [James Brooks's solution](https://github.com/jhbrooks/flight-booker) | [View in browser](https://rocky-earth-72202.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/odin-flight-booker)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flight-booker)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project10--odin-flight-booker/odin-flight-booker)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/odin-flight-booker) | [View in browser](https://flight-booker-stefan.herokuapp.com/)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker) | [View in browser](https://flight-booker-rails.herokuapp.com)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in browser](https://guarded-atoll-24378.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources

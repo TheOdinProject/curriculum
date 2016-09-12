@@ -110,6 +110,12 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/odin-kittens)
 * [srashidi's solution](https://github.com/srashidi/APIs/tree/master/odin-kittens)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/kitten_api)
+* [James Brooks's solution](https://github.com/jhbrooks/kittens-api)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/odin-kittens)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/odin-kittens)
+* [Top's solution](https://github.com/TopOneOfTopOne/kittens-api) | [View in Browser](https://teseter.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/odin-kittens)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/odin-kittens)
 * Add your solution above this line!
 
 
@@ -145,6 +151,11 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/flickr-sidebar)
 * [srashidi's solution](https://github.com/srashidi/APIs/tree/master/flickr-sidebar)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/flickr_widget) | [View in Browser](https://secure-refuge-22481.herokuapp.com/)
+* [James Brooks's solution](https://github.com/jhbrooks/flickr-get) | [View in browser](https://still-tor-87008.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/odin-photos)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/flickr-viewer)
+* [Top's solution](https://github.com/TopOneOfTopOne/flickr-api) | [View in Browser](https://flickr-apii.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flickr-sidebar)
 * Add your solution above this line!
 
 

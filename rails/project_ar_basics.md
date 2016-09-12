@@ -156,6 +156,14 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Max Gallant's solution](https://github.com/mcgalcode/micro-reddit)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/micro-reddit)
 * [James Brooks's solution](https://github.com/jhbrooks/micro-reddit)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/micro-reddit)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project6--micro-reddit/micro-reddit)
+* [Arthur Vieira's solution](https://github.com/arthur-vieira/micro-reddit)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/micro_reddit)
+* [Deepak's solution](https://github.com/Deepak5050/reddit_two/tree/master/app/models)
+* [Earth35's solution](https://github.com/Earth35/models-exercise)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/micro_reddit)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/micro-reddit)
 * Add your solution above this line!
 
 ## Additional Resources

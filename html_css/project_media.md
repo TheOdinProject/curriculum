@@ -50,6 +50,14 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/youtube/index.html)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/youtube/youtube.html)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/html-css/embedding-images-and-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/embedding-images-and-video/faketube.html)
+* [srashidi's solution](https://github.com/srashidi/Embedded_Images) | [View in browser](http://htmlpreview.github.io/?https://github.com/srashidi/Embedded_Images/blob/master/embedded_images.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/utube)
+* [Monika Dutka's solution] (https://github.com/rawrins/youtube-video) | [Preview] (https://htmlpreview.github.io/?https://github.com/rawrins/youtube-video/blob/master/index.html) 
+* [Destroyergm (Stefan)'s solution](https://github.com/destroyergm/youtube-myversion) | [View in browser](https://htmlpreview.github.io/?https://github.com/destroyergm/youtube-myversion/blob/master/youtube.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/embedded_media) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/embedded_media/index.html)
+* [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/html5-css3/embed-youtube-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/html5-css3/embed-youtube-video/index.html)
+* [Earth35's solution](https://github.com/Earth35/embedding/blob/master/video_page.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/embedding/blob/master/video_page.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/youtube_clone) | [View in browser](https://htmlpreview.github.io/?https://github.com/ShalaQweghen/youtube_clone/blob/master/index.html)
 * Add your solution above this line!
 
 

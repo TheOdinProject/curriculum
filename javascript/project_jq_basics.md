@@ -37,6 +37,11 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Pauline Judge's solution](https://github.com/chumswap/restaurantSite) | [View in browser](https://htmlpreview.github.io/?https://github.com/chumswap/restaurantSite/blob/master/restaurant.html)
 * [Trajanson's solution](https://github.com/Trajanson/jquery-restaurant-js) | [View in browser](http://projects.trajanson.com/js-restaurant/)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/javascript/restaurant) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/javascript/restaurant/index.html)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/javascript/dom-manipulation) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/dom-manipulation/tabs.html)
+* [Patrick Mallee's solution](https://github.com/patmallee/menu) | [View in browser](http://htmlpreview.github.io/?https://github.com/patmallee/menu/blob/master/menu.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/JS/re_render) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/JS/re_render/index.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/restaurant/blob/master/index.html)
+* [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Restaurant) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/Restaurant/blob/master/index.html)
 * Add your solution above this line!
 
 

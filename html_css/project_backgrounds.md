@@ -4,7 +4,7 @@ In this project you'll clone the website of one of the most design-forward compa
 
 ## Steps to Victory
 
-1. Go to [apple.com](http://www.apple.com) and have a look around.
+1. Go to this old version of [apple.com](http://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
 2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
@@ -32,6 +32,10 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Noman karim's solution](https://github.com/nomankarim/apple.com) | [View in browser](https://htmlpreview.github.io/?https://github.com/nomankarim/apple.com/blob/master/index.html)
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/apple-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/apple-homepage/index.html)
 * [Luke Walker's Solution](https://github.com/ubershibs/odin-html-css/tree/master/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/apple/index.html)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html) cloning [http://touchstonejs.io/](http://touchstonejs.io/) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/apple/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/gradients/index.html)
+* [csrail's solution](https://github.com/csrail/apple-mock) | [View in browser](https://rawgit.com/csrail/apple-mock/master/index.html)
 * Add your solution above this line!
 
 

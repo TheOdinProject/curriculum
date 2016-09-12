@@ -24,4 +24,4 @@ Backgrounds are usually ignored until they become a problem and then you're left
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* *Add some!*
+* *http://www.w3schools.com/css/css_background.asp*

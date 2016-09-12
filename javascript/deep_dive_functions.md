@@ -1,6 +1,6 @@
 # Really Understanding Javascript Functions
 
-We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you 
+We keep coming back to how Javascript loves functions.  Let's dig a little deeper.  One pattern which you'll keep bumping into again and again and again is the "module pattern", which lets you group functions and variables logically to keep your code organized and maintainable.
 
 ## Points to Ponder
 
@@ -28,4 +28,4 @@ We keep coming back to how Javascript loves functions.  Let's dig a little deepe
 
 * Read the beginning section from [Javascript Module Pattern In-Depth from AdequatelyGood.com](http://www.adequatelygood.com/2010/3/JavaScript-Module-Pattern-In-Depth) for another look at modules.  Don't worry about the advanced stuff.
 * [Common Javascript "Gotchas" from jbotus.com](http://www.jblotus.com/2013/01/13/common-javascript-gotchas/) is useful review of some of the things we've already covered.
-* [Understanding JavaScript-The Wierd Parts](https://github.com/SOSANA/All-Things-Javascript/tree/master/javascript-Understanding-the-Weird-Parts) provides clear insight into JavaScript Language all from a beginner friendly point of view.
+* [Understanding Javascript - The Weird Parts](https://github.com/SOSANA/All-Things-Javascript/tree/master/javascript-Understanding-the-Weird-Parts) provides clear insight into JavaScript Language all from a beginner friendly point of view.

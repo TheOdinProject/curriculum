@@ -118,7 +118,7 @@ But this lesson will take you much deeper and further than you went before, so d
 5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 31-50 (only the section on Numbers and Expressions and the section on Text and Strings)
 6. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
 7. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
-8. Glance over this list of [Escape Characters](http://www.java2s.com/Code/Ruby/String/EscapeCharacterslist.htm) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
+8. Glance over this list of [Escape Characters](https://github.com/ruby/ruby/blob/trunk/doc/syntax/literals.rdoc#strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
 9. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
 
     1. [Ruby Explained: Numbers, Operators and Expressions](http://www.eriktrautman.com/posts/ruby-explained-numbers-operators-and-expressions)
@@ -134,7 +134,7 @@ But this lesson will take you much deeper and further than you went before, so d
 
 *Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).*
 
-1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/learn-ruby/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
+1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/ruby/beginner/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
 2. Make sure you go back up and look at all the questions from the "Points to Ponder" section.  See if you can do most of them without looking back through the text.
 
 ## Additional Resources
@@ -143,7 +143,6 @@ But this lesson will take you much deeper and further than you went before, so d
 
 
 * If you still don't understand certain topics or don't like my summary, look them up in the [Bastard's Book](http://ruby.bastardsbook.com/)
-* Don't forget about the [Ruby Monk](http://rubymonk.com/) exercises from back in Web Development 101!
 * Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html) for a basic treatment of numbers.
 * Read [Zetcode's Data Types section](http://zetcode.com/lang/rubytutorial/datatypes/) for a bit more depth on the subject.
 * [Alex Chaffee's brief writeup on Objects](http://codelikethis.com/lessons/learn_to_code/objects)
@@ -155,4 +154,4 @@ But this lesson will take you much deeper and further than you went before, so d
 * Read [Zetcode's Hashes section](http://zetcode.com/lang/rubytutorial/hashes/) for some more depth on hashes.  Again, don't worry too much about `map` and other block-taking functions.
 * [Nil vs Empty vs Blank](http://stackoverflow.com/questions/885414/a-concise-explanation-of-nil-v-empty-v-blank-in-ruby-on-rails)
 * [p vs puts in Ruby](http://stackoverflow.com/questions/1255324/p-vs-puts-in-ruby)
-* [Ruby Cheat Sheet (pretty dense) from OverAPI](http://overapi.com/ruby/)
+* [Ruby Cheat Sheet (pretty dense) from OverAPI](http://overapi.com/ruby)

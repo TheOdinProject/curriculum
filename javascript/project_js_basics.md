@@ -1,5 +1,5 @@
 # Project: Building An On Screen Calculator Using Javascript
-  
+
 You've done a lot of Codecademy lately and so it's time to wean yourself off their super-friendly environment and create some Javascript on your own computer.
 
 In this project, you'll be building many simple exercises to drill in your understanding of the language.  You can write them in a script file in your text editor and then run them by copy-pasting into [JS Fiddle](http://jsfiddle.net).  You can run your functions (e.g. `my_max()` below) by console logging their output with something like `console.log(my_max([1,56,2,3,-1,0]))` (which would output 56).
@@ -68,6 +68,14 @@ It's time to build an on-screen calculator
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/calculator/calc/index.html)
 * [Trajanson's Solution](https://github.com/Trajanson/scientific-calculator-js) | [View in browser](http://projects.trajanson.com/js-calculator/)
 * [Yoshua Elmaryono's Solution](https://github.com/dotm/calc) | [View in browser](http://dotm.github.io/calc/)
+* [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/js-calc) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/js-calc/index.html)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/blob/master/javascript/calculator/calculator.html) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/calculator/app/calculator.html)
+* [James Brooks's solution](https://github.com/jhbrooks/js-calc) | [View in browser](https://agile-dawn-60299.herokuapp.com/)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/JS/jscalc) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/JS/jscalc/index.html)
+* [Artur Okonski's solution](https://github.com/cloudtemplar/js-calculator) | [View in browser](https://jsfiddle.net/c3x67ayp/1/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/js-calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-calculator/blob/master/index.html)
+* [Marco the Phoenix's solution](https://github.com/marcsanmi/Learning/tree/master/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Calculator/index.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/onscreen_calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/onscreen_calculator/blob/master/main.html)
 * Add your solution above this line!
 
 

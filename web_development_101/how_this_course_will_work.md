@@ -20,12 +20,6 @@ Most lessons will contain questions that you should be able to answer before mov
 
 While most of this material should be fine to tackle on your own, the projects in particular are good opportunities to find a partner and do some pair programming.  Give it a shot!
 
-### On (Not) Getting Pulled Down Rabbit Holes
-
-This course links out to LOTS of high quality learning resources.  Students frequently report getting distracted and spending a lot of time playing with those tools or taking the other courses we link to from here.  *If your goal is to take the shortest possible path to web development, be aware of this risk and try to stay focused on doing our curriculum step by step.*  Avoid the temptation to go off and learn everything you can about Bash scripting or image optimization or taking an entire MOOC course just because it sounds cool.  Focus!
-
-The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/131-rr-how-to-learn/) which should be motivational and useful to you, so check it out for some useful thoughts on learning.
-
 ## What Comes Afterwards
 
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics, it's really just a taste of what comes next (and all the cool stuff you can do with it).  

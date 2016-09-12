@@ -15,19 +15,16 @@ In the following lessons, you'll get a healthy understanding of each of the thre
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
-
 * What is the role of HTML in a web page?
 * What is the role of CSS in a web page?
 * What is the role of Javascript in a web page?
 
 ## Assignment:
-1. Read a brief intro to front end development from this [Interview with Nick Schaden](http://blog.generalassemb.ly/what-is-front-end-web-development/)
-1. Get a high level overview of how all three languages work together in MDN's [Getting started with the Web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Readers should only go through: Dealing with files, HTML basics, CSS basics and Javascript basics.
-2. If you didn't the first time, check out [this 10-minute video on your browser's developer tools](https://www.youtube.com/watch?v=wcFnnxfA70g), which should make a bit more sense to you anyway now.
+1. Read a brief intro to front end development from this [Interview with Nick Schaden](https://generalassemb.ly/blog/what-is-front-end-web-development/)
+2. Get a high level overview of how all three languages work together in MDN's [Getting started with the Web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Readers should only go through: Dealing with files, HTML basics, CSS basics and Javascript basics.
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [A longer course digging deeply into your browser's developer tools from Code School](http://discover-devtools.codeschool.com/)
 * [Skills of a Successful Front-end Web developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).

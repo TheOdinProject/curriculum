@@ -9,12 +9,15 @@ In these projects, you'll be working to implement authentication systems so user
 
 We're starting to get into the meaty stuff with the tutorial.  Take your time and pay attention to which file (especially for the specs) you're supposed to be writing in.  A common and frustrating mistake is to put your `describe` block in the wrong place.
 
-You'll implement signin and signout functionality for the user, which opens the door to allow more destructive user behaviors like editing and deleting things (which should only be allowed for a given user or admin).  In Chapter 9, you'll get the chance to implement these functions.
+You'll implement signin and signout functionality for the user, which opens the door to allow more destructive user behaviors like editing and deleting things (which should only be allowed for a given user or admin).  In Chapter 10, you'll get the chance to implement these functions.
 
 ### Your Task
 
-1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.railstutorial.org/book/log_in_log_out), "Log in, log out"
-2. Do the [Ruby on Rails Tutorial Chapter 9](http://www.railstutorial.org/book/updating_and_deleting_users), "Updating, showing and deleting users"
+1. Do the [Ruby on Rails Tutorial Chapter 8](https://www.railstutorial.org/book/basic_login), "Basic Login"
+2. Do the [Ruby on Rails Tutorial Chapter 9](https://www.railstutorial.org/book/advanced_login), "Advanced Login"
+3. Do the [Ruby on Rails Tutorial Chapter 10](https://www.railstutorial.org/book/updating_and_deleting_users) "Updating, showing, and deleting users"
+4. Do the [Ruby on Rails Tutorial Chapter 11](https://www.railstutorial.org/book/account_activation), "Account Activation"
+5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.railstutorial.org/book/password_reset), "Password Reset"
 
 
 ## Project 2: Members Only!
@@ -66,7 +69,7 @@ Now let's make sure our users can sign in.
     3. Save it for your user.
 
 1. Create a couple of users to populate your app with.  We won't be building a sign up form, so you'll need to create new users via the command line.  Your `#before_create` should now properly give each newly created user a special token.
-3. Now fill in the `#create` action of your SessionsController to actually create the user's session.  The first step is to find the user based on their email address and then compare the hash of the password they submitted in the params to the hashed password stored in the database (using `#authenticate`).  See [Chapter 8](http://ruby.railstutorial.org/chapters/sign-in-sign-out#sec-reviewing_form_submission) with questions but try not to immediately copy verbatim -- you're doing this to learn.
+3. Now fill in the `#create` action of your SessionsController to actually create the user's session.  The first step is to find the user based on their email address and then compare the hash of the password they submitted in the params to the hashed password stored in the database (using `#authenticate`).  See [Chapter 8](https://www.railstutorial.org/book/basic_login#sec-finding_and_authenticating_a_user) with questions but try not to immediately copy verbatim -- you're doing this to learn.
 4. Once you've verified that the user has submitted the proper password, sign that user in.  
 5. Create a new method in your ApplicationController which performs this sign in for you.  Give the user a new remember token (so they don't get stolen or stale).  Store the remember token in the user's browser using a cookie so whenever they visit a new page, we can check whether they are signed in or not.  Use the `cookies.permanent` "hash" to do this.  
 7. Create two other helpful methods in your ApplicationController -- one to retrieve your current user (`#current_user`) and another to set it (`#current_user=(user)`).  Retrieving your current user should use the `||=` operator -- if the current user is already set, you should return that user, otherwise you'll need to pull out the remember token from the cookie and search for it in your database to pull up the corresponding user.  If you can't find a current_user, return `nil`.
@@ -128,6 +131,16 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/members-only)
 * [James Brooks's solution](https://github.com/jhbrooks/members-only) | [View in browser](https://powerful-bastion-24693.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/members-only)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project8--members-only!/members-only)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/members-only)
+* [Mateo Mejia's solution](https://github.com/mateomgj/rails_authentication_project) | [View in browser](https://enigmatic-reef-29029.herokuapp.com/)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/members-only) | [View in browser](https://members-only-rails.herokuapp.com)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/members-only) | [View in browser](https://members-only-dest.herokuapp.com/)
+* [Deepak's solution](https://github.com/Deepak5050/members-only.git) | [View in browser](https://dpoo-members-only.herokuapp.com/)
+* [Earth35's solution](https://github.com/Earth35/members_only) | [View in browser](https://limitless-waters-94136.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/members_only) | [View in browser](https://mysterious-reef-42520.herokuapp.com/)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/members-only) | [View in browser](https://members-only-top.herokuapp.com/)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/members-only) | [View in browser](https://members-only-by-jiazhi.herokuapp.com/)
 * Add your solution above this line!
 
 
