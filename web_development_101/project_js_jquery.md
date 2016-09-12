@@ -472,4 +472,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Isaiah's Solution](https://github.com/Iogasawa/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Iogasawa/Etch-A-Sketch/blob/master/index.html)
 * [Zapad Daniel Solution](https://github.com/ZapadRo97/pixel-sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/ZapadRo97/pixel-sketchpad/blob/master/index.html)
 * [Ryan Barnett's Solution](https://github.com/RyanDBarnett/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/RyanDBarnett/etch-a-sketch/blob/master/index.html)
+* [NIÑO MOLLANEDA's solution](https://github.com/ninoM/sketch_pad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ninoM/sketch_pad/blob/master/index.html)
 * Add your solution above this line!
