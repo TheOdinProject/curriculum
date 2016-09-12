@@ -4,6 +4,7 @@ In this lesson we will cover common git commands used to manage your projects an
 
 ## Learning Outcomes
 *By the end of this you should be able to:*
+
 * Run git commands from the command line
 * Name the git command used to get a full copy an existing git repository from Github
 * Name the git command used to check the status of your files
