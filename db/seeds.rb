@@ -289,6 +289,51 @@ create_or_update_lesson(
   url: "/web_development_101/project_installations.md"
 )
 
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+  title: "Git Basics",
+  title_url: "Git Basics".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "In this section you will learn the basics of Git and how you can upload your future projects to Github so you can share your work and collaborate with others on projects easily."
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Introduction to Git",
+  title_url: "Introduction Git".parameterize,
+  description: "A high level overview of what Git is and why it's so useful",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/git_intro.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Git Basics",
+  title_url: "Git Basics".parameterize,
+  description: "Now that you know what Git is it's time to learn how to use it.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/git_basics.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Practicing Git Basics",
+  title_url: "Practicing Git Basics".parameterize,
+  description: "In this tutorial you will see how Git is used on a small project.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/web_development_101/project_git_basics.md"
+)
 
 # +++++++++++
 # SECTION
@@ -505,17 +550,6 @@ section = create_or_update_section(
   course_id: course.id,
   position: section_position,
   description: "This section has a bunch of short lessons that will introduce you to a variety of essential supporting technologies for your journey into web development."
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Git Basics",
-  title_url: "Git Basics".parameterize,
-  description: "Git is the version control system used by developers... like 'saving' meets 'time machine'",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/git_basics.md"
 )
 
 lesson_counter += 1
