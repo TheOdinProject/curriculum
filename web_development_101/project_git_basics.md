@@ -8,6 +8,7 @@ This short project will demonstrate how to use git to manage and archive your pr
 
 ## Learning Outcomes
 *By the end of this you should be able to:*
+
 * Create a Git repository on GitHub and move it onto your local machine
 * Describe the difference between staging and committing changes
 * Describe the difference between committing your changes and pushing them onto GitHub
