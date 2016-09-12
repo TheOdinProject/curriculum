@@ -19,6 +19,7 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 
 ## Learning Outcome:
 *By the end of this lesson you should be able to:*
+
 * Define what kind of program Git is
 * Describe the differences between Git and a text editor in terms of what they save and their record keeping
 * Describe whether Git and GitHub work at a local or remote level
