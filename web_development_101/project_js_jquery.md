@@ -473,4 +473,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Zapad Daniel Solution](https://github.com/ZapadRo97/pixel-sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/ZapadRo97/pixel-sketchpad/blob/master/index.html)
 * [Ryan Barnett's Solution](https://github.com/RyanDBarnett/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/RyanDBarnett/etch-a-sketch/blob/master/index.html)
 * [NIÑO MOLLANEDA's solution](https://github.com/ninoM/sketch_pad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ninoM/sketch_pad/blob/master/index.html)
+* [Franz Asperger's solution](https://github.com/lurchy86/etchASketch) | [View in CodePen](http://codepen.io/lurchy86/full/LRYbzx)
 * Add your solution above this line!
