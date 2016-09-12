@@ -174,6 +174,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Austin Mason's solution](https://github.com/CouchofTomato/algorithm/blob/master/knights_travails.rb)
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby-binary_search_tree-knight_travails/blob/master/knight_moves.rb)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/data_structures/knight_travails)
+* [m-chrzan's solution](https://github.com/m-chrzan/knights-travails)
 * Add your solution above this line!
 
 ## Additional Resources
