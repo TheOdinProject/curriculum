@@ -818,7 +818,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Alex Moritz's Solution (Easy)](https://github.com/moritzuberall/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/moritzuberall/google-homepage/blob/master/index.html)
 * [Josef Tinagan's Solution (Easy)](https://github.com/JosefTinagan/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/JosefTinagan/google_homepage/blob/master/index.html)
 * [Mike Fidell's Solution (Easy)](https://github.com/Draxthedestroyer/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Draxthedestroyer/google-homepage/blob/master/index.html)
-* [Paula García's Solution (Easy)](https://github.com/theskylang/google_homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/theskylang/google_homepage/blob/master/index.html) 
+* [Paula García's Solution (Easy)](https://github.com/theskylang/google_homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/theskylang/google_homepage/blob/master/index.html)
+* [Shail Sheth's Solution (Easy)] (https://github.com/DynamiteC/GoogleHomeBasic) | [View in browser] (https://htmlpreview.github.io/?https://github.com/DynamiteC/GoogleHomeBasic/blob/master/GoogleHomepage.html)
 * Add your solution above this line!
 
 ## Additional Resources
