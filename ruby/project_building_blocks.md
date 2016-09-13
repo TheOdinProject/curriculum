@@ -726,4 +726,5 @@ Next, make sure your method can handle multiple words:
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Ruby_Building_Blocks/blob/master/Substrings/substrings.rb)
 * [Saroar Khandoker's solution](https://repl.it/DZrZ)
 * [Jason Keeney's solution](https://github.com/jkeeney/Ruby-Building-Blocks/blob/master/substrings.rb)
+* [Mike Coon's solution](https://github.com/mac718/Ruby_Building_Blocks/blob/master/substrings.rb)
 * Add your solution above this line!
