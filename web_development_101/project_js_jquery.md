@@ -475,4 +475,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [NIÑO MOLLANEDA's solution](https://github.com/ninoM/sketch_pad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ninoM/sketch_pad/blob/master/index.html)
 * [Franz Asperger's solution](https://github.com/lurchy86/etchASketch) | [View in CodePen](http://codepen.io/lurchy86/full/LRYbzx)
 * [Will Covill's solution](https://github.com/Willcovill/sketcher/tree/master/sketcher) | [View in browser](https://htmlpreview.github.io/?https://github.com/Willcovill/sketcher/blob/master/sketcher/index.html)
+* [Richard Shipe's solution](https://github.com/rheechashaipu/TOP-Grid-Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/rheechashaipu/TOP-Grid-Project/blob/master/index.html)
 * Add your solution above this line!
