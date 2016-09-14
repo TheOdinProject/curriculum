@@ -179,6 +179,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Jason Keeney's solution](https://github.com/jkeeney/project_rails)|[View in browser](https://murmuring-beach-36592.herokuapp.com/)
 * [David Chapman's Solution](https://github.com/davidchappy/blogger_2_jumpstart)|[View in browser](https://stormy-sands-62112.herokuapp.com/)
 * [Derek Scace's Solution](https://github.com/dscace/blogger) | [View in browser](https://intense-ocean-31502.herokuapp.com/)
+* [Yorick's Solution](https://github.com/ysmith4/blogger) | [View in browser](https://secure-tundra-11203.herokuapp.com/)
+
 * Add your solution above this line!
 
 
