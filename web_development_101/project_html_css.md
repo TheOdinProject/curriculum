@@ -822,6 +822,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Shail Sheth's Solution (Easy)] (https://github.com/DynamiteC/GoogleHomeBasic) | [View in browser] (https://htmlpreview.github.io/?https://github.com/DynamiteC/GoogleHomeBasic/blob/master/GoogleHomepage.html)
 * [Kevin White's Solution (Easy)] (https://github.com/Knowledge0417/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Knowledge0417/google-homepage/blob/master/index.html)
 * [Eren Çataltepe's Solution (Easy)] (https://github.com/erencataltepe/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/google-homepage/blob/master/google_homepage.html)
+* Add your solution above this line.
 
 ## Additional Resources
 
