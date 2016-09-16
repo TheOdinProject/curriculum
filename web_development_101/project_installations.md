@@ -2,7 +2,7 @@
 
 <!-- Improvement Ideas, Extract linux installation out into its own lesson and make sure its before this lesson,
      Add a few more text editior options to the text editior section. Atom, brackets etc
-     Extract the join slack section to the very first lesson in this course -->
+     Extract the join gitter section to the very first lesson in this course -->
 
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.
 
@@ -12,15 +12,15 @@ One option for learning development has always been to use an existing online en
 
 If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
 
-## Join our Slack Group
-Learning to program can feel like a lonely and isolated journey, but it doesn't have to be. We have a Slack group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to:
+## Join our Gitter Group
+Learning to program can feel like a lonely and isolated journey, but it doesn't have to be. We have a Gitter group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to:
 
 * Chat and network with other people that are going through the exact same journey you are.
 * Discuss the concepts you learn through the lessons.
 * Get help when you are stuck.
 * Report Broken links and other bugs.
 
-Your first assignment is to join our slack [here](https://slackin-theodinproject.herokuapp.com/) and introduce yourself in the General channel
+Your first assignment is to join our Gitter [here](https://gitter.im/TheOdinProject/theodinproject) and introduce yourself in the General channel
 
 ## Back End vs Front End Installations
 
