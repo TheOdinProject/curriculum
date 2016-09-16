@@ -1,5 +1,9 @@
 module ApplicationHelper
 
+  def chat_link_general
+    'https://gitter.im/TheOdinProject/theodinproject'
+  end
+
   def title(input = nil)
     title = ""
     if input
