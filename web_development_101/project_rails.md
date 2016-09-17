@@ -180,6 +180,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [David Chapman's Solution](https://github.com/davidchappy/blogger_2_jumpstart)|[View in browser](https://stormy-sands-62112.herokuapp.com/)
 * [Derek Scace's Solution](https://github.com/dscace/blogger) | [View in browser](https://intense-ocean-31502.herokuapp.com/)
 * [Yorick's Solution](https://github.com/ysmith4/blogger) | [View in browser](https://secure-tundra-11203.herokuapp.com/)
+* [Max Tsao's Solution](https://github.com/mt9304/blogger)
 
 * Add your solution above this line!
 
