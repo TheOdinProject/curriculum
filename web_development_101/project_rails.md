@@ -181,6 +181,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Derek Scace's Solution](https://github.com/dscace/blogger) | [View in browser](https://intense-ocean-31502.herokuapp.com/)
 * [Yorick's Solution](https://github.com/ysmith4/blogger) | [View in browser](https://secure-tundra-11203.herokuapp.com/)
 * [Max Tsao's Solution](https://github.com/mt9304/blogger)
+* [Bishal Shrestha's Solution with multiple image upload](https://github.com/biiishal/blogger) | [View in browser](https://radiant-blogger.herokuapp.com/)
 
 * Add your solution above this line!
 
