@@ -84,4 +84,5 @@ Build the following methods in your linked list class:
 * [Francisco Carlos's solution (with extra credit)](https://github.com/fcarlosdev/the_odin_project/tree/master/linked_lists)
 * [Loris Aranda's solution (with extra credit)](https://github.com/LorisProg/ruby-linked_lists)
 * [at0micr3d's solution (with extra credit)](https://github.com/at0micr3d/linked_list)
+* [Eric M's solution (with extra credit)](https://github.com/em77/linked_list)
 * Add your solution above this line!
