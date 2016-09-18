@@ -37,6 +37,7 @@ Here is a reference list of the most commonly used git commands (you might consi
 The git syntax works like this: `program | action | destination`.
 
 For example:
+
 * `git add .` is read like `git | add | .`
 * `git commit -m "message"` is read like `git | commit -m | "message"`
 * `git status` is read like `git | status | (no destination)`
