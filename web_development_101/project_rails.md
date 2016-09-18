@@ -182,7 +182,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Yorick's Solution](https://github.com/ysmith4/blogger) | [View in browser](https://secure-tundra-11203.herokuapp.com/)
 * [Max Tsao's Solution](https://github.com/mt9304/blogger)
 * [Bishal Shrestha's Solution with multiple image upload](https://github.com/biiishal/blogger) | [View in browser](https://radiant-blogger.herokuapp.com/)
-
+* [Christopher Corder's Solution] (https://github.com/cs-cordero/Blogger) | [View in Browser] (https://guarded-peak-35888.herokuapp.com/)
 * Add your solution above this line!
 
 
