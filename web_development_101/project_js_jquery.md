@@ -477,4 +477,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Will Covill's solution](https://github.com/Willcovill/sketcher/tree/master/sketcher) | [View in browser](https://htmlpreview.github.io/?https://github.com/Willcovill/sketcher/blob/master/sketcher/index.html)
 * [Richard Shipe's solution](https://github.com/rheechashaipu/TOP-Grid-Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/rheechashaipu/TOP-Grid-Project/blob/master/index.html)
 * [Max Tsao's solution](https://github.com/mt9304/jquery-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/mt9304/jquery-project/blob/master/index.html)
+* [Benjamin's solution] (https://github.com/Benjamin-Re/JavaScript-JQuery.git) | [View in browser] (http://htmlpreview.github.io/?https://htmlpreview.github.io/)
 * Add your solution above this line!
