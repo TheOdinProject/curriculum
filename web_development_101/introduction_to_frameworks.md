@@ -16,7 +16,7 @@ A final thing to note is about licensing -- frameworks are typically (though not
 
 ## Your Assignment:
 
-1. Get introduced to frameworks by reading [this brief article from WebMonkey](http://www.webmonkey.com/2010/02/get_started_with_web_frameworks/).
+1. Get introduced to frameworks by reading [this brief article from Wired (originally from WebMonkey](https://www.wired.com/2010/02/get_started_with_web_frameworks/).
 2. Glance over [Choosing a Web Development Framework (2010)](http://www.crossbrowser.net/449/choosing-a-web-development-framework/) for some of the thought process that goes into picking a framework.
 
 ## Additional Resources
