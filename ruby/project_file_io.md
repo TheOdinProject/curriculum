@@ -87,6 +87,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Derek K's solution](https://github.com/dckwong/ProjectSerialization/tree/master/event_manager)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_ruby_serial.git)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/eventManagerHangman/tree/master/event_manager)
+* [David Chapman''s solution](https://github.com/davidchappy/odin_training_projects/tree/master/event_manager)
 * Add your solution above this line!
 
 
