@@ -40,6 +40,7 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
 * Hunter Ducharme created [an e-book](http://hgducharme.gitbooks.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
 
-    Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  
+    Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.
+    Don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  
 
 * For more repetitions with the material, check out [SQL Teaching](http://www.sqlteaching.com), the "Codecademy for SQL" (and let us know what you think).
