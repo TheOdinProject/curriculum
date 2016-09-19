@@ -108,6 +108,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Martin Safer's solution](https://github.com/mtsafer/private-events) | [View in browser](https://aqueous-woodland-15720.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/private_events) | [View in browser](http://cryptic-mesa-97521.herokuapp.com/)
 * [John's solution](https://github.com/johnTheDudeMan/private_events)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/private-events)
 * Add your solution above this line!
 
 
