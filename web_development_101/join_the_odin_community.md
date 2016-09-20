@@ -1,6 +1,6 @@
 # Join the Odin Community
 
-Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our [online community chat](https://gitter.im/orgs/TheOdinProject/rooms) where we can all grow together towards becoming web developers. 
+Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers. You can [sign in directly]((https://gitter.im/orgs/TheOdinProject/rooms) once you've made a GitHub account, which you will find later on, becomes an integral part of your development workflow.
 
 <!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/orgs/TheOdinProject/rooms -->
 
@@ -23,9 +23,9 @@ We are working hard to update existing lessons and produce new content so we wou
 
 ## Oh foo bar!
 
-With great projects come great responsibility. When embarking on your projects, keep in mind that you do not need to know everything - BUT you do need to understand where you are going! Try to be as purposeful and specific as possible when describing the problem. Sometimes the problem can be a matter of your approach and not your coding ability: keep an open mind at all times.
+As most of the projects are designed to push you to your limit, please remember there is always a community to turn to! You do not need to know how to solve every problem straight away - BUT you do need to have a general idea of where you are going. This becomes really important when asking your questions because sometimes the problem can be a matter of your **approach** and not your coding ability. 
 
-When the problem is a tough one, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back - we call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging). Who knows, you might have realised the solution already. If a solution still cannot be found, it's question time.
+If your approach is right and the problem is a tough one, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back - we call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging). Who knows, you might have realised the solution already. If a solution still cannot be found, it's question time.
 
 ### Asking your questions:
 
@@ -57,7 +57,7 @@ Your Code
 
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
 
-**Push your code to github!** If the puzzle still can't be solved, push your project to github so others can comb through and debug the code.
+**Push your code to GitHub!** If the puzzle still can't be solved, push your project to GitHub so that others can comb through and debug the code. (You'll get to know about GitHub really soon.)
 
 ## Lets jump right in!
 
