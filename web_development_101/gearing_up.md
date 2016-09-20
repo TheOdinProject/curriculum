@@ -114,7 +114,7 @@ Teaching what you know to others is a great way to solidify what you have learnt
 and can often reveal holes in your knowledge that you wouldn't have identified
 otherwise. 
 
-<a class="btn btn-primary btn-static-pages-CTA" href="http://www.theodinproject.com/chat" target="_blank">Join our chat and start your Web Development journey!</a>
+<a class="btn btn-primary btn-static-pages-CTA" href="https://gitter.im/TheOdinProject/theodinproject" target="_blank">Join our chat and start your Web Development journey!</a>
 
 Join us to practice this method of learning by answering questions and helping students who
 are not as far in  the course as you are. Don't forget to introduce yourself!

@@ -26,7 +26,7 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 * What is a foreign key?
 
 ## Assignment:
-1. Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data.
+1. Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data. (You do not need to go any further than the first page on introductions.)
 2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
 3. Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases
 

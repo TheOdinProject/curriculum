@@ -471,4 +471,11 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ayon Pal's Solution](https://github.com/AyonPal/sketch-pad) | [View in browser](http://htmlpreview.github.io/?https://github.com/AyonPal/sketch-pad/blob/master/index.html)
 * [Isaiah's Solution](https://github.com/Iogasawa/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Iogasawa/Etch-A-Sketch/blob/master/index.html)
 * [Zapad Daniel Solution](https://github.com/ZapadRo97/pixel-sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/ZapadRo97/pixel-sketchpad/blob/master/index.html)
+* [Ryan Barnett's Solution](https://github.com/RyanDBarnett/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/RyanDBarnett/etch-a-sketch/blob/master/index.html)
+* [NIÑO MOLLANEDA's solution](https://github.com/ninoM/sketch_pad) | [View in browser] (https://htmlpreview.github.io/?https://github.com/ninoM/sketch_pad/blob/master/index.html)
+* [Franz Asperger's solution](https://github.com/lurchy86/etchASketch) | [View in CodePen](http://codepen.io/lurchy86/full/LRYbzx)
+* [Will Covill's solution](https://github.com/Willcovill/sketcher/tree/master/sketcher) | [View in browser](https://htmlpreview.github.io/?https://github.com/Willcovill/sketcher/blob/master/sketcher/index.html)
+* [Richard Shipe's solution](https://github.com/rheechashaipu/TOP-Grid-Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/rheechashaipu/TOP-Grid-Project/blob/master/index.html)
+* [Max Tsao's solution](https://github.com/mt9304/jquery-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/mt9304/jquery-project/blob/master/index.html)
+* [Benjamin's solution] (https://github.com/Benjamin-Re/JavaScript-JQuery.git) | [View in browser] (http://htmlpreview.github.io/?https://htmlpreview.github.io/)
 * Add your solution above this line!
