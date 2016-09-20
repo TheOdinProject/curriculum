@@ -215,6 +215,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Derek K's solution] (https://github.com/dckwong/ProjectSerialization/tree/master/hangman)
 * [m-chrzan's solution](https://github.com/m-chrzan/hangman)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/eventManagerHangman/tree/master/hangman)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/hangman)
 * Add your solution above this line!
 
 

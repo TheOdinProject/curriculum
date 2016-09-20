@@ -109,6 +109,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/private_events) | [View in browser](http://cryptic-mesa-97521.herokuapp.com/)
 * [John's solution](https://github.com/johnTheDudeMan/private_events)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/private-events)
+* [Till S.'s solution](https://github.com/gitseti/private-events) | [View in browser](https://protected-citadel-60271.herokuapp.com/)
 * Add your solution above this line!
 
 
