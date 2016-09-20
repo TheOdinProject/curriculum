@@ -117,6 +117,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/odin-kittens)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/odin-kittens)
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin-kittens)
 * Add your solution above this line!
 
 
@@ -158,6 +159,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Top's solution](https://github.com/TopOneOfTopOne/flickr-api) | [View in Browser](https://flickr-apii.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flickr-sidebar)
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens) | [View in Browser](http://odin-kittens.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/flickr-photo-finder) | [View in Browser](https://shielded-retreat-38986.herokuapp.com)
 * Add your solution above this line!
 
 
