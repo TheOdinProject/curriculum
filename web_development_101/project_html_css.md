@@ -824,6 +824,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Guadalupe Camacho's Solution] (https://github.com/gcamacho079/google-homepage) | [View in browser] (https://gcamacho079.github.io/google-homepage/) 
 * [Max Tsao's Solution (Easy)] (https://github.com/mt9304/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/mt9304/google-homepage/blob/master/google.html)
 * [Kara Kelley's Solution (Easy)] (https://github.com/klkelley/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/klkelley/google-homepage/blob/master/index.html)
+* [Sophia Wu's Solution (Easy)] (https://github.com/SophiaLWu/google-homepage) | [View in browser]
+* (https://htmlpreview.github.io/?https://github.com/SophiaLWu/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
