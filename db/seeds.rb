@@ -247,6 +247,17 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
+  title: "Join the Odin Community",
+  title_url: "Join the Odin Community".parameterize,
+  description: "Find out how to join Odin's community of new and veteran learners and how to get help with coding problems.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/join_the_odin_community.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
   title: "How Does the Web Work?",
   title_url: "How Does the Web Work?".parameterize,
   description: "It's tough to program web sites without understanding how the web actually works!",

@@ -24,8 +24,9 @@ class Lesson < ActiveRecord::Base
 
   def import_content_from_github
       update(content: decoded_content) if content_needs_updated
-  rescue Octokit::Error => error
-    failed_to_import
+    rescue Octokit::Error => errors
+      logger.error "Failed to import \"#{title}\" content: #{errors}"
+      false
   end
 
   private
@@ -40,11 +41,6 @@ class Lesson < ActiveRecord::Base
 
   def content_needs_updated
     content != decoded_content
-  end
-
-  def failed_to_import_message
-    logger.error "Failed to import \"#{title}\" content: #{error}"
-    false
   end
 
   def section_lessons
