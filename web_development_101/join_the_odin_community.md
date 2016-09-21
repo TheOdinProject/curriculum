@@ -10,7 +10,7 @@ Jump in and introduce yourself; tell us your story! Where are you from? What mad
 
 Read on to find out how to make of our community.
 
-### Why chat is awesome for you:
+## Why chat is awesome for you:
 
 Web development will be a long and arduous journey - you can make the marathon a lot more fun by pairing up with somebody who is running it at the same pace as you. It is a great way to bounce ideas off each other and motivate one another to the finish line.
 
@@ -20,7 +20,7 @@ When you run into the desert of despair - where your code doesn't work or make s
 
 Remember that project you struggled with tirelessly and that you're so proud of finishing? You will get to share your work and progress with those that really appreciate how much hard work went into it.
 
-### Why chat is awesome for Odin:
+## Why chat is awesome for Odin:
 
 We are working hard to update existing lessons and produce new content so we would love to hear your feedback on how you are coping with the lessons and projects. We really want you to find the lessons fun, engaging and informative; while we would like you to find projects to be doable and challenging. So please tell us!
 
