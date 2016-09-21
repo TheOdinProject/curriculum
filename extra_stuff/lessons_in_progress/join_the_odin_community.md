@@ -1,18 +1,13 @@
 # Join the Odin Community
 
-Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers.
+Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers. You can [sign in directly]((https://gitter.im/orgs/TheOdinProject/rooms) once you've made a GitHub account, which you will find later on, becomes an integral part of your development workflow.
 
-##Assignment:
-1. First create a free Github account [here](https://github.com/join). As you will find out later on, Github will become an integral part of your development workflow so you will be using it for much, much more than just accessing the chat.
+<!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/orgs/TheOdinProject/rooms -->
 
-2. Finally sign in to the chat with your newly minted Github account [here](https://gitter.im/TheOdinProject/theodinproject).
+## Introductions: 'Hello World!'
 Jump in and introduce yourself; tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
 
-We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
-
-Read on to find out how to make of our community.
-
-## Why chat is awesome for you:
+### Why chat is awesome for you:
 
 Web development will be a long and arduous journey - you can make the marathon a lot more fun by pairing up with somebody who is running it at the same pace as you. It is a great way to bounce ideas off each other and motivate one another to the finish line.
 
@@ -22,7 +17,7 @@ When you run into the desert of despair - where your code doesn't work or make s
 
 Remember that project you struggled with tirelessly and that you're so proud of finishing? You will get to share your work and progress with those that really appreciate how much hard work went into it.
 
-## Why chat is awesome for Odin:
+### Why chat is awesome for Odin:
 
 We are working hard to update existing lessons and produce new content so we would love to hear your feedback on how you are coping with the lessons and projects. We really want you to find the lessons fun, engaging and informative; while we would like you to find projects to be doable and challenging. So please tell us!
 
@@ -63,3 +58,7 @@ Your Code
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
 
 **Push your code to GitHub!** If the puzzle still can't be solved, push your project to GitHub so that others can comb through and debug the code. (You'll get to know about GitHub really soon.)
+
+## Lets jump right in!
+
+<!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/orgs/TheOdinProject/rooms -->

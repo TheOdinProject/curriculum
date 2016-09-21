@@ -49,6 +49,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flight-booker)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker)
 * [Norman Chan's solution](https://github.com/slowmanchan/Planner)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in Browser](https://guarded-atoll-24378.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources
