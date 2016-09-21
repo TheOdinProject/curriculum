@@ -372,6 +372,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Franz Asperger's Solution](https://github.com/lurchy86/js-euler-problems) |[View on Codepen](http://codepen.io/lurchy86/full/vXBOmd)
 * [Melissa Koski's Solution](https://github.com/nyx3nox/project_euler)
 * [Moshe Itzhaki's Solution](https://github.com/moshezi/projectEuler) |[View in browser](https://htmlpreview.github.io/?https://github.com/moshezi/projectEuler/blob/master/index.html)
+* [Sophia Wu's Solution](https://github.com/SophiaLWu/project-euler) |[View in browser](https://htmlpreview.github.io/?https://github.com/SophiaLWu/project-euler/blob/master/project-euler.html)
 * Add your solution above this line!
 
 ## Additional Resources
