@@ -242,7 +242,7 @@ create_or_update_lesson(
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
-  url: "/web_development_101/join_the_odin_community.md"
+  url: "/web_development_101/gearing_up.md"
 )
 
 lesson_counter += 1
