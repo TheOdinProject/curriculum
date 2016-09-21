@@ -218,6 +218,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Yorick's Solution](https://github.com/ysmith4/learn_ruby.git)
 * [Bishal Shrestha's Solution](https://github.com/biiishal/learn_ruby)
 * [Max Tsao's Solution](https://github.com/mt9304/learn_ruby)
+* [husein ghafari's Solution](https://github.com/hosghf/learn_ruby)
 * Add your solution above this line!
 
 ## Additional Resources
