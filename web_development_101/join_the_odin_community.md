@@ -4,6 +4,7 @@ Working and collaborating with other people on a project, whether it be big or s
 
 ##Assignments
 1. First create a free Github account [here](https://github.com/). As you will find out later on, Github will become an integral part of your development workflow so you will be using it for much, much more than just accessing the chat.
+
 2. Finally sign in to the chat with your newly minted Github account [here](https://gitter.im/TheOdinProject/theodinproject).
 Jump in and introduce yourself; tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
 
