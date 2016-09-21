@@ -11,6 +11,7 @@ RSpec.describe Lesson do
       content: nil
     )
   }
+  
   let(:find_lesson) { double('FindLesson') }
   let(:section) { double('Section', lessons: lessons) }
   let(:lessons) { [] }
@@ -20,14 +21,12 @@ RSpec.describe Lesson do
     allow(FindLesson).to receive(:new).with(lesson).and_return(find_lesson)
   end
 
-
   it { is_expected.to belong_to(:section) }
   it { is_expected.to have_one(:course) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completing_users) }
   it { is_expected.to validate_uniqueness_of(:position) }
   it { is_expected.to validate_presence_of(:content).on(:update) }
-
 
   describe '#next_lesson' do
     it 'finds the next lesson' do
@@ -62,15 +61,18 @@ RSpec.describe Lesson do
   end
 
   describe '#import' do
-    it "updates the lesson (if the content has changed)" do
+    it "updates the lesson" do
       VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
       expect(lesson.reload.content).not_to be nil
     end
 
-    it "does not update the lesson if the content has not changed" do
-      VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
-      expect(lesson).not_to receive(:update)
-      VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
+    context 'when the lesson content has not changed' do
+
+      it "does not update the lesson content" do
+        VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
+        expect(lesson).not_to receive(:update)
+        VCR.use_cassette("lesson_content") { lesson.import_content_from_github }
+      end
     end
   end
 end

@@ -46,7 +46,7 @@ class Lesson < ActiveRecord::Base
     logger.error "Failed to import \"#{title}\" content: #{errors}"
     false
   end
-
+  
   def section_lessons
     section.lessons
   end
