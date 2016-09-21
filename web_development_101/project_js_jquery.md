@@ -479,4 +479,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Max Tsao's solution](https://github.com/mt9304/jquery-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/mt9304/jquery-project/blob/master/index.html)
 * [Benjamin's solution] (https://github.com/Benjamin-Re/JavaScript-JQuery.git) | [View in browser] (http://htmlpreview.github.io/?https://htmlpreview.github.io/)
 * [Jakub Augustyn's solution] (https://github.com/zerozero7/Etch-A-Sketch) | [View in browser] (https://cdn.rawgit.com/zerozero7/Etch-A-Sketch/47b10f5/index.html)
+* [Alan Cruse's solution](https://github.com/ADECruse/project-javascript-jquery.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/ADECruse/project-javascript-jquery/blob/master/index.html)
 * Add your solution above this line!
