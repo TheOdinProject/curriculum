@@ -61,7 +61,3 @@ Your Code
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
 
 **Push your code to GitHub!** If the puzzle still can't be solved, push your project to GitHub so that others can comb through and debug the code. (You'll get to know about GitHub really soon.)
-
-## Lets jump right in!
-
-<!-- Call to Action GITTER SIGN IN BUTTON using this link https://gitter.im/orgs/TheOdinProject/rooms -->
