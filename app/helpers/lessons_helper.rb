@@ -13,7 +13,7 @@ module LessonsHelper
     title.gsub(' ', '+')
   end
 
-  def chat_link(course)
-    ChatLinkFactory.new(course).build
+  def chat_link
+    'https://gitter.im/TheOdinProject/theodinproject'
   end
 end
