@@ -32,7 +32,7 @@ One distinction between mailer views and "normal" views is that emails typically
 
 So you set up one view called, for instance, `app/views/user_mailer/welcome_email.html.erb` and another called `app/views/user_mailer/welcome_email.text.erb`.  It is kind of annoying having to manage two different versions of the same email but such is the cost of accessibility and SPAM fighting.  Another thing you'll notice is that you can use ERB (or HAML etc) preprocessing on your emails too.  Just like any other view, it allows you to dynamically create content that includes things like your user's name or non-sensitive account information.  This is all based on which variables you pass the view from your mailer, just like passing a controller action's instance variables to a normal view.
 
-Mailers are actually a two-step process -- first you build the email itself and then you call the `#deliver` (or `#deliver!`) method to actually send it.  One way that mailers are different from controllers is that you call them directly instead of working through the router.  When you want to call the welcome email, you will write `UserMailer.welcome_email(@user)`, which returns the email object.  Deliver it by calling the `#deliver` method on that object, for a total chain of: `UserMailer.welcome_email(@user).deliver`.
+Mailers are actually a two-step process -- first you build the email itself and then you call the `#deliver_now` (or `#deliver_now!`) method to actually send it.  One way that mailers are different from controllers is that you call them directly instead of working through the router.  When you want to call the welcome email, you will write `UserMailer.welcome_email(@user)`, which returns the email object.  Deliver it by calling the `#deliver_now` method on that object, for a total chain of: `UserMailer.welcome_email(@user).deliver_now`.
 
 As long as your view files (the HTML and text) are named the same as your mailer methods, Rails will find everything okay and will send the email (with both the HTML and text parts) using whichever addon you've chosen to use for sending it.  The Rails Guide reading does a good job walking through the process, so you'll get a chance to see it in action there.
 
@@ -81,4 +81,4 @@ Sending email is just a slightly different way of using the same patterns you've
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* 
+*

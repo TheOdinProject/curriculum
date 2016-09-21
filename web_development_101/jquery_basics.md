@@ -29,5 +29,5 @@ jQuery will let you take your javascript knowledge and start really diving into 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * The [jQuery Documentation](http://api.jquery.com/) has a comprehensive list of all the functions you can use.
-* [jQuery Cheat Sheet from overAPI](http://overapi.com/jquery/)
-* [HTML DOM Events Cheat Sheet from overAPI](http://overapi.com/html-dom/)
+* [jQuery Cheat Sheet from overAPI](http://overapi.com/jquery)
+* [HTML DOM Events Cheat Sheet from overAPI](http://overapi.com/html-dom)

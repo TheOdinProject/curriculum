@@ -321,3 +321,4 @@ With all that completed, there's not much else to go... it's time to get started
 * See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
 * [Ruby Metaprogramming](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 * [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
+* [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)

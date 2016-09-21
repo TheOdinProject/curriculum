@@ -22,11 +22,12 @@ This again should represent a review from what you've already covered in the [We
 
 ## Your Assignment
 
-1. [Shay Howe on the Basics of HTML/CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro)
+1. Read [Shay Howe on the Basics of HTML/CSS](http://learn.shayhowe.com/html-css/terminology-syntax-intro).
+2. Read [CSS Tricks on Attribute Selectors](https://css-tricks.com/attribute-selectors/).
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Learn CSS Selectors interactively using CSS Diner](http://flukeout.github.io/)
+* [Learn CSS Selectors Interactively Using CSS Diner](http://flukeout.github.io/)
 * [Smashing Magazine on Taming Advanced CSS Selectors](http://coding.smashingmagazine.com/2009/08/17/taming-advanced-css-selectors/)

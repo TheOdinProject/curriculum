@@ -10,7 +10,7 @@ We will start by familiarizing you with the internet and your own computer.  You
 
 By the end of this unit, you should not only understand how the web works, but be able to identify and differentiate each of the technologies that you will be learning in order to build web applications of your own.  You will be able to build a simple webpage, style it, and add minor elements of interactivity while working comfortably from the command line.
 
-We will cover a very broad swathe of knowledge here and that's intentional... it's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  
+We will cover a very broad area of knowledge here and that's intentional. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  
 
 ## How it Works
 
@@ -19,12 +19,6 @@ This curriculum works by pulling together the best content we can find to learn 
 Most lessons will contain questions that you should be able to answer before moving on.  Some of the lessons will ask you to do exercises and there will even be several projects to help you build your understanding by actually building things.  
 
 While most of this material should be fine to tackle on your own, the projects in particular are good opportunities to find a partner and do some pair programming.  Give it a shot!
-
-### On (Not) Getting Pulled Down Rabbit Holes
-
-This course links out to LOTS of high quality learning resources.  Students frequently report getting distracted and spending a lot of time playing with those tools or taking the other courses we link to from here.  *If your goal is to take the shortest possible path to web development, be aware of this risk and try to stay focused on doing our curriculum step by step.*  Avoid the temptation to go off and learn everything you can about Bash scripting or image optimization or taking an entire MOOC course just because it sounds cool.  Focus!
-
-The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/131-rr-how-to-learn/) which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
 ## What Comes Afterwards
 

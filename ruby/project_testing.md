@@ -45,6 +45,13 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * Luke Walker's solution ([Caesar Cipher](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/ubershibs/ruby-programming/blob/master/rspec_project/spec/tictactoe3_spec.rb)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/tree/master/spec)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RSpecProject)
+* Fabricio Carrara's solution ([Caesar Cipher](https://github.com/fcarrara/caesar_cipher), [Enumerable](https://github.com/fcarrara/ruby_advanced_building_blocks), [Tic Tac Toe](https://github.com/fcarrara/oop_with_ruby/tree/master/tic_tac_toe)
+* Ricardo Villegas' solution ([Caesar Cipher](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/caesar_cipher_spec.rb), [My_Enumerable Methods](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/my_enumerables_spec.rb),) [Tic-Tac-Toe](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/tic_tac_toe_spec.rb))
+* [Deepak's solution](https://github.com/Deepak5050/rspec_warmup.git)
+* [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/warmup)
+* DV's solution ([Caesar Cipher](https://github.com/dvislearning/caesar_cipher/blob/master/spec/cipher_spec.rb), [Enumerable](https://github.com/dvislearning/my_enumerable/blob/master/spec/my_enumerable_spec.rb), [Tic Tac Toe](https://github.com/dvislearning/TicTacToe/blob/master/spec/tictactoe_spec.rb)
+* Jiazhi Guo's solution ([Caesar Cipher](https://github.com/jerrykuo7727/Caesar-Cipher), [Enumerable Methods](https://github.com/jerrykuo7727/Enumerable-Methods), [Tic Tac Toe](https://github.com/jerrykuo7727/Tic-Tac-Toe))
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec)
 * Add your solution above this line!
 
 
@@ -92,11 +99,17 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Miguel Herrera's solution](https://github.com/migueloherrera/projects/blob/master/spec/connect_four_spec.rb)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/RSpecProject)
 * [djhart's solution](https://github.com/djhart/connect_four)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/connect_four_tdd)
+* Ricardo Villegas' solution ([Game code](https://github.com/claricardo/RubyBuildingBlocks/blob/master/connect_four.rb), [Game tests](https://github.com/claricardo/RubyBuildingBlocks/blob/master/spec/connect_four_spec.rb))
+* [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/connect_four)
+* [DV's solution](https://github.com/dvislearning/connectfour)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/rspec)
+* [Amrr Bakry's solution] (https://github.com/Amrrbakry/ruby_the_odin_project/tree/master/connect_four)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/connect_four)
+* [m-chrzan's solution](https://github.com/m-chrzan/connect4)
+* [Loris Aranda's solution](https://github.com/LorisProg/ruby-connectFour)
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec/tree/master/connect-four)
 * Add your solution above this line!
-
-
-*How long did these projects take you?  [Let us know!](mailto:curriculum@theodinproject.com)*
-
 
 ## Additional Resources
 

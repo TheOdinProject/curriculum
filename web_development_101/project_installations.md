@@ -1,22 +1,16 @@
 # Project: Installations
 
+<!-- Improvement Ideas, Extract linux installation out into its own lesson and make sure its before this lesson,
+     Add a few more text editior options to the text editior section. Atom, brackets etc
+     Extract the join gitter section to the very first lesson in this course -->
+
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.
 
 It may be a challenge, but if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
 
-One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral)) and no environment, do what it takes to get you going.  We'll give some alternatives below.
+One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Nitrous.io](https://www.nitrous.io)) and no environment, do what it takes to get you going.  We'll give some alternatives below.
 
 If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
-
-## Join our Slack Group
-Learning to program can feel like a lonely and isolated journey, but it doesn't have to be. We have a Slack group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to:
-
-* Chat and network with other people that are going through the exact same journey you are.
-* Discuss the concepts you learn through the lessons.
-* Get help when you are stuck.
-* Report Broken links and other bugs.
-
-Your first assignment is to join our slack [here](https://slackin-theodinproject.herokuapp.com/) and introduce yourself in the General channel
 
 ## Back End vs Front End Installations
 
@@ -30,7 +24,7 @@ Another reason things get a bit more complicated on the back end is because prog
 
 So, at its core, server-side installs with Ruby are just you installing the Ruby interpreter on your machine and a couple of extra things to help manage your workflow.  It just seems like a lot of different things when you're unfamiliar with what each one is doing.  We'll give you a brief description of each thing below and then you'll get a chance to do the installations on your own.
 
-## Windows and Web Development
+## Why you Should use Linux for this Course
 
 You can use Windows and have no problems what so ever with learning HTML CSS and Javascript, Ruby on Rails on the other hand is where big issues will arise. The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
 
@@ -54,7 +48,7 @@ The good news is installing linux is not as hard as you might have imagined, fir
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
 ####Option 1 - Dual Booting
-You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up. 
+You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
 
@@ -68,7 +62,7 @@ You can install Ubuntu along side Windows on your machine by dual booting. This 
 * To switch between your two operating systems you will have to reboot your computer.
 
 ####Option 2 - Use a Virtual Machine
-A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a a virtual machine is. You can use [this](https://www.youtube.com/watch?v=iThHGPX7bPs) guide to set up this option.
+A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
 
 **Pros**
 
@@ -90,7 +84,7 @@ There have been some great online IDE's(Integrated Development Environment) rele
 
 **Cons**
 
-* You have to use the text editor that there services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
+* You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1 gb. This can be a major limitation after a while.
 
 ## What You'll Be Installing
@@ -116,7 +110,7 @@ Actually, we won't need to install any of these -- they come with your web brows
 
 ### Text Editor
 
-We recommend using a text editor like [Sublime Text 2](http://www.sublimetext.com/) to make sure everyone's using basically the same type of text editor and you'll all be able to work together and ask questions of each other without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.
+We recommend using a text editor like [Sublime Text](http://www.sublimetext.com/) to make sure everyone's using basically the same type of text editor and you'll all be able to work together and ask questions of each other without that getting in the way.  Sublime also has lots of handy shortcuts, code highlighting and other nifty features that'll make your life easier, and that's just on the surface.
 
 Check out [this "Quick Guide to Sublime Text" from Jennifer Mann](http://jennifermann.ghost.io/a-quick-guide-to-sublime-text/) for some helpful hints and tricks.  She refers to [this tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) which explains some of the awesomeness of Sublime Text 2 in depth.  The first chunk of the video is the most important, don't stress out about picking up the details in the rest (but you should come back to it once you've gotten more comfortable with the editor).
 
@@ -142,11 +136,15 @@ XCode is Apple's integrated development environment for creating Mac, iPhone and
 
 These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
-1. If you are using a Macintosh, follow the instructions on [Moncef Belyamani's blog](http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/).
-2. Otherwise, do the [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
-3. Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating a sample Rails app](http://installfest.railsbridge.org/installfest/create_a_rails_app) and then [deploying it](http://installfest.railsbridge.org/installfest/deploy_a_rails_app). 
-4. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.0.0` or a similar number.  `$ rails -v` should give you something like `4.0.0`.
-  
+1. Complete the entire [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
+     * **Note for Windows users**: As of July 2016, there is a bug in the current version of railsinstaller for windows.
+     * If you get the error `The system cannot find the path specified.` when attempting to run `bundle install --without production`:
+          * run `gem install bundler`
+          * try `bundle install --without production` again
+2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
+
+
+
 ## Checklist
 
 ##### Before moving on, you should have:
@@ -157,11 +155,9 @@ These installfests will take you through the steps to install everything on your
 
 ## Oh no! Total Failure!!!
 
-If all else fails, the best web-based development environment to use for coding the back end is [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral).  It's free to use and gives you a brand spanking new Ruby and Rails setup to start coding with. You can even integrate it with your text editor and work collaboratively with other people.  
+If all else fails, the best web-based development environments to use for coding the back end are [Nitrous.io](https://www.nitrous.io) or [cloud9](https://c9.io/).  They are free to use and give you a brand spanking new Ruby and Rails setup to start coding with.  
 
-I've often found this to be much easier for Windows users than trying to navigate the regular installations process.  It relies on having an internet connection, but it gives you a command line, a text editor, and the ability to run a local server right out of the box.
-
-So your alternate path is to go to [Nitrous.io](https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&utm_medium=copypaste&utm_campaign=referral) and set up your account.  You'll be given enough free "credits" to keep a virtual development environment running full time.  The instructions on the website are fairly straightforward.  You can get your text editor and terminal up and running in a couple minutes.  Plus, it works with Git!
+They rely on having an internet connection, but they give you a command line, a text editor, and the ability to run a local server right out of the box.
 
 ## Additional Resources
 

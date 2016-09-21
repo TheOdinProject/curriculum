@@ -4,7 +4,7 @@ Developers are passionate builders and they often enjoy taking part in various c
 
 ## In-Person
 
-* **[Meetups](http://www.meetup.com)** -- Check out your local Ruby, Rails, and Developer communities on Meetup.  Odds are that you've got interesting meetups happening at least every several weeks if you're located near a city... like [ours in San Francisco!](http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/)
+* **[Meetups](http://www.meetup.com)** -- Check out your local Ruby, Rails, and Developer communities on Meetup.  Odds are that you've got interesting meetups happening at least every several weeks if you're located near a city.
 
 * **Hack Nights** -- Hack nights are a type of in-person meetup designed to cater to casual collaboration.  They're all run differently, but often you'll introduce yourself and what you're hoping to work on.  Then you're free to work with or ask questions of others and enjoy the pizza, beer, and maybe even foosball while getting to know your fellow techies.
 

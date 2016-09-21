@@ -25,6 +25,9 @@ Play around with the other options the Maps API gives you -- you can customize a
 * [dchen71's solution](https://github.com/dchen71/odin-maps) | [View in browser](http://rawgit.com/dchen71/odin-maps/master/Index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_google_map_api) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_google_map_api/blob/master/index.html)
 * [eternal's solution](https://github.com/3ternal/google-maps) | [View in browser](http://htmlpreview.github.io/?https://github.com/3ternal/google-maps/blob/master/index.html)
+* [Yoshua Elmaryono's solution](https://github.com/dotm/gmaps_api) | [View in browser](http://dotm.github.io/gmaps_api/)
+* [Luke Walker](https://github.com/ubershibs/odin-js-course/tree/master/googlemaps) | [View in browser](http://lukewalker.org/odin/js-course/googlemaps/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/js-marker) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/js-marker/blob/master/index.html)
 * Add your solution above this line!
 
 
