@@ -8,7 +8,7 @@ Working and collaborating with other people on a project, whether it be big or s
 2. Finally sign in to the chat with your newly minted Github account [here](https://gitter.im/TheOdinProject/theodinproject).
 Jump in and introduce yourself; tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
 
-There are chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
+We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
 
 Read on to find out how to make of our community.
 
