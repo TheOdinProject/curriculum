@@ -51,6 +51,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/warmup)
 * DV's solution ([Caesar Cipher](https://github.com/dvislearning/caesar_cipher/blob/master/spec/cipher_spec.rb), [Enumerable](https://github.com/dvislearning/my_enumerable/blob/master/spec/my_enumerable_spec.rb), [Tic Tac Toe](https://github.com/dvislearning/TicTacToe/blob/master/spec/tictactoe_spec.rb)
 * Jiazhi Guo's solution ([Caesar Cipher](https://github.com/jerrykuo7727/Caesar-Cipher), [Enumerable Methods](https://github.com/jerrykuo7727/Enumerable-Methods), [Tic Tac Toe](https://github.com/jerrykuo7727/Tic-Tac-Toe))
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec)
 * Add your solution above this line!
 
 
@@ -106,6 +107,8 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Amrr Bakry's solution] (https://github.com/Amrrbakry/ruby_the_odin_project/tree/master/connect_four)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/connect_four)
 * [m-chrzan's solution](https://github.com/m-chrzan/connect4)
+* [Loris Aranda's solution](https://github.com/LorisProg/ruby-connectFour)
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec/tree/master/connect-four)
 * Add your solution above this line!
 
 ## Additional Resources

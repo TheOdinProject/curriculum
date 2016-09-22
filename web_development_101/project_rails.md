@@ -14,11 +14,6 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 4. If you're feeling very ambitious, try doing the final Extras section I6.
 5. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](http://installfest.railsbridge.org/installfest/deploy_a_rails_app)
 
-## Extra Credit:
-
-1. Michael Hartl guides you through [creating a sample app using scaffolding](https://www.railstutorial.org/book/toy_app) as the first stage of his Rails tutorial.  Just do chapter 2 -- you'll be doing the rest of the tutorial anyway later on during the Rails unit.
-2. If you aren't comfortable with git, either skip ahead a few lessons to the [introductory section on git](/web-development-101/git-basics) or skip any of the `$ git ... ` commands for now.  They're essential to learn eventually but non-essential right now (it's sort of like saving your files on Dropbox).
-
 ## Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
@@ -161,7 +156,6 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *  [Paul McGarry's solution](https://github.com/thiswillhavetodo/rails_blogger) | [View in browser](https://stark-springs-70603.herokuapp.com/) | Completed to I6
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/blogger) | [View in browser](https://sheltered-scrubland-87671.herokuapp.com/)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/Blogger) | [View in browser](https://salty-chamber-16317.herokuapp.com)
-<<<<<<< HEAD
 * [Derek Kwong's solution](https://github.com/dckwong/ProjectRails) | [View in browser](https://aqueous-spire-28165.herokuapp.com/)
 * [Emil Dimitrov's solution](https://github.com/emo1/blogger-project) | [View in browser](https://sheltered-waters-69313.herokuapp.com/)
 * [Leo Soai-Van's solution](https://github.com/leosoaivan/project_rails) | [View in browser](https://lit-plains-26186.herokuapp.com/)
@@ -181,6 +175,14 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Mityadsch's solution](https://github.com/MityaDSCH/rails-tutorial)
 * [Trevor Drury's solution](https://github.com/trevawhateva/rails-project) |10-15
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Rails_Project_1) | [View in browser](https://protected-citadel-95999.herokuapp.com/)
+* [Mike Coon's solution](https://github.com/mac718/blogger1) | [View in browser](https://shrouded-headland-68370.herokuapp.com/)
+* [Jason Keeney's solution](https://github.com/jkeeney/project_rails)|[View in browser](https://murmuring-beach-36592.herokuapp.com/)
+* [David Chapman's Solution](https://github.com/davidchappy/blogger_2_jumpstart)|[View in browser](https://stormy-sands-62112.herokuapp.com/)
+* [Derek Scace's Solution](https://github.com/dscace/blogger) | [View in browser](https://intense-ocean-31502.herokuapp.com/)
+* [Yorick's Solution](https://github.com/ysmith4/blogger) | [View in browser](https://secure-tundra-11203.herokuapp.com/)
+* [Max Tsao's Solution](https://github.com/mt9304/blogger)
+* [Bishal Shrestha's Solution with multiple image upload](https://github.com/biiishal/blogger) | [View in browser](https://radiant-blogger.herokuapp.com/)
+* [Christopher Corder's Solution] (https://github.com/cs-cordero/Blogger) | [View in Browser] (https://guarded-peak-35888.herokuapp.com/)
 * Add your solution above this line!
 
 

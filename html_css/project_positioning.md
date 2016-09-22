@@ -39,6 +39,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [srashidi's solution](https://github.com/srashidi/The_Odin_Project/tree/master/HTML5%20and%20CSS3/Positioning_Elements/nyt-article) | [View in Browser](http://htmlpreview.github.io/?https://github.com/srashidi/The_Odin_Project/blob/master/HTML5%20and%20CSS3/Positioning_Elements/nyt-article/article.html)
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/positioning_elements) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/positioning_elements/index.html)
 * [csrail's solution](https://github.com/csrail/nytimes-mock) | [View in browser](https://rawgit.com/csrail/nytimes-mock/master/article.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/nyt-clone) | [View in browser](https://rawgit.com/ShalaQweghen/nyt-clone/master/index.html)
 
 * Add your solution above this line!
 

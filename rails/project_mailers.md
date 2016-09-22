@@ -18,7 +18,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 3. Follow through the steps listed in the [Rails Guide](http://guides.rubyonrails.org/action_mailer_basics.html) to create the action to send the "thank you" email.
 4. Build both a `.html.erb` and `.text.erb` version of your thank you ticket email.
 5. Test that the email sends by creating a new flight booking (`letter_opener` should open it in the browser for you if you've set it up properly)
-6. Try out one other trick -- call the mailer directly from the Rails Console using something like `> PassengerMailer.thank_you_email(Passenger.first).deliver!`.
+6. Try out one other trick -- call the mailer directly from the Rails Console using something like `> PassengerMailer.thank_you_email(Passenger.first).deliver_now!`.
 7. Extra Credit: Deploy it to Heroku and try it out.  If you deploy to Heroku, there will be a bit of additional setup to get the [SendGrid add-on (see docs)](https://devcenter.heroku.com/articles/sendgrid) and make sure your configuration is set up properly.  The docs describe how to get that up and going.
 
 ### Student Solutions
@@ -31,7 +31,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Aleksandar's solution](https://github.com/Rodic/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flight-booker)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/flight_booker) | [View in browser](https://odin-booker.herokuapp.com/)
-* [AtActionPark's solution](https://github.com/AtActionPark/odin_flight_booker) 
+* [AtActionPark's solution](https://github.com/AtActionPark/odin_flight_booker)
 * [Andrej Dragojevic's solution](https://github.com/antrix1/flight-booker) | [View in browser](https://blooming-mountain-4761.herokuapp.com/)
 * [dchen71's solution](https://github.com/dchen71/odin-flight-booker) | [View in browser](http://true-syrup-4655.herokuapp.com/)
 * [Matias Pan's solution](https://github.com/kriox26/flight-booker)
@@ -49,6 +49,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flight-booker)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker)
 * [Norman Chan's solution](https://github.com/slowmanchan/Planner)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in Browser](https://guarded-atoll-24378.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources
@@ -58,4 +59,3 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 
 * [`letter_opener` docs](https://github.com/ryanb/letter_opener)
 * [Setting up email: Rails, Heroku, SendGrid, Figaro](http://howilearnedrails.wordpress.com/2014/02/25/setting-up-email-in-a-rails-4-app-with-action-mailer-in-development-and-sendgrid-in-production-using-heroku/comment-page-1/#comment-79)
-

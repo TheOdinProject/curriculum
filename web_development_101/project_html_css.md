@@ -21,37 +21,25 @@ These skills will be helpful for you when you start building.  Either try them y
 
 ## Setting Up Your Project's Github Repository (optional)
 
-You'll want to organize all your projects as you go through the course, and the best way to do so is using Github.  It's like a file storage system for code that lives in the cloud and that can be seen by others. You already set up your Github account in the [Installations Project](/web-development-101/installations), so here we're going to put it to use.
+As mentioned in the [introduction to git](/web-development-101/introduction-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-These instructions will be the same for every project we do.  They may seem strange or odd at first (especially if you haven't officially learned about Git yet, which we do later), but don't worry -- you'll get it because you'll do it dozens of times.  If you're really frustrated, skip it the first time -- building is more important than Git right now!
+If you do not know how to setup a respository, follow the instructions found in [Project: Git Basics](/web-development-101/practicing-git-basics) to learn how.
 
-1. If you haven't already, create a folder on your computer called `the_odin_project` which will house all your projects .
-2. Go to your Github.com account and log in.
-3. Create a new repo for this project on Github.com [by following the instructions on Github.](https://help.github.com/articles/create-a-repo) and call it `google-homepage` (instead of `Hello-World`).  Make your repository "Public" instead of "Private".
-4. Go to your new repository on Github (`http://github.com/YOUR_USERNAME/google-homepage`) and take a look at it.  If you scroll down, you'll see that the `README` file you just created is what is displayed by default.
-5. Download your repository to your local computer by using the `$ git clone` command.  [This should be a helpful article](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository)(see the second section). Basically, you'll need to get the URL for your repository (it will end with `.git`) so the `clone` knows where to grab that repo from.  You can find your repo's clone URL by checking on the right-hand column (called "HTTPS clone URL") on the repo's main page on Github.  The full command would look something like `$ git clone https://github.com/theodinproject/curriculum.git`.  It pulls your repo from your Github account down onto your local computer.
-6. `cd` into your project directory on your local computer and open the `README` file in your text editor.  Change its text to include the title of the project and a link to this project on theodinproject.com.
-6. Commit the updated `README` to your Github repository using the commands below on your command prompt:
+1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
+2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
+3. Then move that repository on to your local machine. The command should look like: `git clone http://github.com/YourUserName/google-homepage`
+4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current proejct is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to revise what you have learned.)
+5. If you want to share this project, include a link in your in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)`
 
-    ```language-bash
-    # adds all files that are in your current directory and which you've
-    # recently changed to the "staging area" (ie. they're "ready to commit")
-    $ git add -A
+If you are having trouble, refer to:
+* The [cheat sheet](/web-development-101/git-basics) in the Git Basics Lesson or
+* Revise the [workflow](/web-development-101/practicing-git-basics) in the  Git Basics Project.
 
-    # commits all the "staged" files into your local repository
-    $ git commit -m "update README"
+Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
-    # pushes your local repository up to your remote one on Github
-    $ git push origin master
-    ```
+*When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push origin master`.*
 
-*When you're building your project, you will probably end up doing several `git add` + `git commit` cycles before being ready to push it up to Github with `git push`.*
-
-You should be able to see the changes to your README on Github if you refresh the page.
-
-*If you're not comfortable yet with using Git from the command line, you can actually just click into the README file on Github's web interface and then click the Edit button at the top to edit directly on the website.  This is covered in the second part of [the above-mentioned article](https://help.github.com/articles/create-a-repo) on creating a repo*
-
-Note: All Git commands need to be run from inside your project's folder (the one where you typed `$ git init`) or you'll get an error!
+If you have entered `git push origin master` and typed out your username and password, if you refresh your GitHub page, you should see new files added onto GitHub.
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
@@ -82,8 +70,9 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 
+* [Chris Garey's solution](https://github.com/cgarey2014/google-homepage) | [View in browser](https://cdn.rawgit.com/cgarey2014/google-homepage/master/index.html)
 * [Miguel Serrano's solution](https://github.com/miguelsxvi/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/miguelsxvi/google-homepage/blob/master/index.html)
-* [Robert Richards' solution](https://github.com/robert903/ghomepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/robert903/ghomepage/blob/master/index.html)
+* [Robert Richards' solution](https://github.com/robert903/ghomepage) | [View in browser](http://robertrichards.me/projects/ghomepage/)
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/n8sb/odin-project/blob/master/google-homepage/index.html)
 * [Cedric Charly's solution](https://github.com/Cedricgc/playground/tree/master/The%20Odin%20Project/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Cedricgc/playground/blob/master/The%20Odin%20Project/google-homepage/index.html)
 * [Arunabh Singh's solution](https://github.com/arunabh15091989/google-homepage) | [View in browser](https://codepen.io/arunabh/pen/mPKzrB)
@@ -817,6 +806,27 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Micey969's Solution](https://github.com/micey969/google-homepage/blob/master/index.html) | [View in browser (Easy)](http://htmlpreview.github.io/?https://github.com/micey969/google-homepage/blob/master/index.html)
 * [Elzbeth Blanco's Solution](https://github.com/elzbeth/google-homepage.git) | [View in browser (Easy)] (https://rawgit.com/elzbeth/google-homepage/master/index.html)
 * [Junqiang Qian's Solution](https://github.com/junqiangqian/the_odin_project/tree/master/webdevelopment101/google-homepage) | [View in browser (Easy)] (https://htmlpreview.github.io/?https://github.com/junqiangqian/the_odin_project/blob/master/webdevelopment101/google-homepage/index.html)
+* [Carlos Jimenez's Solution](https://github.com/RiverFloater/google-homepage/blob/master/index.html) | [View in browser (Easy)](http://htmlpreview.github.io/?https://github.com/RiverFloater/google-homepage/blob/master/index.html)
+* [Leonardo Borba's Solution](https://github.com/Leonardo-Borba/google-homepage/blob/master/index.html) | [View in browser (Easy)](http://htmlpreview.github.io/?https://github.com/Leonardo-Borba/google-homepage/blob/master/index.html)
+* [Ayon Pal's Solution](https://github.com/AyonPal/google-homepage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/AyonPal/google-homepage/blob/master/index.html)
+* [Biko's Solution (Easy)](https://github.com/biko1982/google-homepage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/biko1982/google-homepage/blob/master/index.html)
+* [Ryan Barnett's Solution](https://github.com/RyanDBarnett/google-homepage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/RyanDBarnett/google-homepage/blob/master/index.html)
+* [Emmanuel Rayendra's (Easy) Solution](https://github.com/theodorayy/google-homepage/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/theodorayy/google-homepage/blob/master/index.html)
+* [Chris J's Solution (Easy)] (https://github.com/blackjack130/google-homepage) | [View in browser] (https://blackjack130.github.io/google-homepage/)
+* [Akintunde's Solution (Easy)] (https://github.com/scariest/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/scariest/google-homepage/blob/master/index.html)
+* [Luigie Ancheta's Solution (Easy)] (https://github.com/luigieancheta/google_test) | [View in browser] (https://htmlpreview.github.io/?https://raw.githubusercontent.com/luigieancheta/google_test/master/index.html)
+* [Andrew DeNike's Solution (Easy)](https://github.com/AndyDeNike/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/AndyDeNike/google-homepage/blob/master/google-homepage.html)
+* [Alex Moritz's Solution (Easy)](https://github.com/moritzuberall/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/moritzuberall/google-homepage/blob/master/index.html)
+* [Josef Tinagan's Solution (Easy)](https://github.com/JosefTinagan/google_homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/JosefTinagan/google_homepage/blob/master/index.html)
+* [Mike Fidell's Solution (Easy)](https://github.com/Draxthedestroyer/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Draxthedestroyer/google-homepage/blob/master/index.html)
+* [Paula García's Solution (Easy)](https://github.com/theskylang/google_homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/theskylang/google_homepage/blob/master/index.html)
+* [Shail Sheth's Solution (Easy)] (https://github.com/DynamiteC/GoogleHomeBasic) | [View in browser] (https://htmlpreview.github.io/?https://github.com/DynamiteC/GoogleHomeBasic/blob/master/GoogleHomepage.html)
+* [Kevin White's Solution (Easy)] (https://github.com/Knowledge0417/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Knowledge0417/google-homepage/blob/master/index.html)
+* [Guadalupe Camacho's Solution] (https://github.com/gcamacho079/google-homepage) | [View in browser] (https://gcamacho079.github.io/google-homepage/) 
+* [Max Tsao's Solution (Easy)] (https://github.com/mt9304/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/mt9304/google-homepage/blob/master/google.html)
+* [Kara Kelley's Solution (Easy)] (https://github.com/klkelley/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/klkelley/google-homepage/blob/master/index.html)
+* [Sophia Wu's Solution (Easy)] (https://github.com/SophiaLWu/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/SophiaLWu/google-homepage/blob/master/index.html)
+* My easy solution is here! https://github.com/TropicaL64/google-homepage
 * Add your solution above this line!
 
 ## Additional Resources

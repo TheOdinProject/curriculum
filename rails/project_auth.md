@@ -69,7 +69,7 @@ Now let's make sure our users can sign in.
     3. Save it for your user.
 
 1. Create a couple of users to populate your app with.  We won't be building a sign up form, so you'll need to create new users via the command line.  Your `#before_create` should now properly give each newly created user a special token.
-3. Now fill in the `#create` action of your SessionsController to actually create the user's session.  The first step is to find the user based on their email address and then compare the hash of the password they submitted in the params to the hashed password stored in the database (using `#authenticate`).  See [Chapter 8](http://ruby.railstutorial.org/chapters/sign-in-sign-out#sec-reviewing_form_submission) with questions but try not to immediately copy verbatim -- you're doing this to learn.
+3. Now fill in the `#create` action of your SessionsController to actually create the user's session.  The first step is to find the user based on their email address and then compare the hash of the password they submitted in the params to the hashed password stored in the database (using `#authenticate`).  See [Chapter 8](https://www.railstutorial.org/book/basic_login#sec-finding_and_authenticating_a_user) with questions but try not to immediately copy verbatim -- you're doing this to learn.
 4. Once you've verified that the user has submitted the proper password, sign that user in.  
 5. Create a new method in your ApplicationController which performs this sign in for you.  Give the user a new remember token (so they don't get stolen or stale).  Store the remember token in the user's browser using a cookie so whenever they visit a new page, we can check whether they are signed in or not.  Use the `cookies.permanent` "hash" to do this.  
 7. Create two other helpful methods in your ApplicationController -- one to retrieve your current user (`#current_user`) and another to set it (`#current_user=(user)`).  Retrieving your current user should use the `||=` operator -- if the current user is already set, you should return that user, otherwise you'll need to pull out the remember token from the cookie and search for it in your database to pull up the corresponding user.  If you can't find a current_user, return `nil`.
@@ -138,6 +138,9 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/members-only) | [View in browser](https://members-only-dest.herokuapp.com/)
 * [Deepak's solution](https://github.com/Deepak5050/members-only.git) | [View in browser](https://dpoo-members-only.herokuapp.com/)
 * [Earth35's solution](https://github.com/Earth35/members_only) | [View in browser](https://limitless-waters-94136.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/members_only) | [View in browser](https://mysterious-reef-42520.herokuapp.com/)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/members-only) | [View in browser](https://members-only-top.herokuapp.com/)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/members-only) | [View in browser](https://members-only-by-jiazhi.herokuapp.com/)
 * Add your solution above this line!
 
 

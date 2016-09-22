@@ -2,7 +2,7 @@
 
 <!-- Improvement Ideas, Extract linux installation out into its own lesson and make sure its before this lesson,
      Add a few more text editior options to the text editior section. Atom, brackets etc
-     Extract the join slack section to the very first lesson in this course -->
+     Extract the join gitter section to the very first lesson in this course -->
 
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.
 
@@ -11,16 +11,6 @@ It may be a challenge, but if you're interested in being at least a half-serious
 One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Nitrous.io](https://www.nitrous.io)) and no environment, do what it takes to get you going.  We'll give some alternatives below.
 
 If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
-
-## Join our Slack Group
-Learning to program can feel like a lonely and isolated journey, but it doesn't have to be. We have a Slack group that acts as the communication hub for all our students and the core team that looks after Odin. You can utilize it to:
-
-* Chat and network with other people that are going through the exact same journey you are.
-* Discuss the concepts you learn through the lessons.
-* Get help when you are stuck.
-* Report Broken links and other bugs.
-
-Your first assignment is to join our slack [here](https://slackin-theodinproject.herokuapp.com/) and introduce yourself in the General channel
 
 ## Back End vs Front End Installations
 
@@ -58,7 +48,7 @@ The good news is installing linux is not as hard as you might have imagined, fir
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
 ####Option 1 - Dual Booting
-You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up. 
+You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
 
@@ -147,14 +137,14 @@ XCode is Apple's integrated development environment for creating Mac, iPhone and
 These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
 1. Complete the entire [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
-     * **Note for Windows users**: As of July 2016, there is a bug in the current version of railsinstaller for windows. 
+     * **Note for Windows users**: As of July 2016, there is a bug in the current version of railsinstaller for windows.
      * If you get the error `The system cannot find the path specified.` when attempting to run `bundle install --without production`:
           * run `gem install bundler`
           * try `bundle install --without production` again
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
 
 
-  
+
 ## Checklist
 
 ##### Before moving on, you should have:
