@@ -50,14 +50,18 @@ If you're having troubles with command-line stuff make sure you include *both yo
 
 In the chatroom, code can be displayed differently from normal sentences by using **backticks** - it's the button above your tab key - which are not to be confused with single quotation marks. If you wrap your code with backticks at **both** ends of the code you will get something like this: 
 
+For single lines of code:
+
 `#one backtick at both ends`
 
 OR
 
+For Multiple lines of code:
+
 ```
-#three backticks at the start
+#three backticks at the start on separate line ABOVE your code
 Your Code
-#three backticks at the end
+#three backticks at the end on a separate line BELOW your code
 ```
 
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
