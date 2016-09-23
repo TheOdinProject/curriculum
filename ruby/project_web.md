@@ -292,6 +292,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/web_server)
 * [Derek Kwong's solution](https://github.com/dckwong/RubyOnTheWeb/tree/master/simple_server_practice)
 * [Leonard Soai-Van's solution] (https://github.com/leosoaivan/TOP_ruby_socket)
+* [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/tree/master/web_server)
 * Add your solution above this line!
 
 
