@@ -59,7 +59,7 @@ OR
 For Multiple lines of code:
 
 ```
-#three backticks at the start on separate line ABOVE your code
+#three backticks at the start on a separate line ABOVE your code
 Your Code
 #three backticks at the end on a separate line BELOW your code
 ```
