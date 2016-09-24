@@ -183,7 +183,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Seiji's Solution](https://github.com/seijibas/learn-ruby)
 * [John Alcher's Solution](https://github.com/alchermd/ruby-test-first)
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
-* [Veselin Ivanov's Solution](https://github.com/terlica/Odin_ruby_project)
+* [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Odin_ruby_project)
 * [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
 * [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
 * [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
