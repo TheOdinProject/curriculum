@@ -404,7 +404,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Bryan Giglio's Solution](https://github.com/BryanGigs/odin-proj-jscript-jquery-sketcher) | [View in browser](https://htmlpreview.github.io/?https://github.com/BryanGigs/odin-proj-jscript-jquery-sketcher/blob/master/index.html)
 * [Matthew White's Solution](https://github.com/deathbypie/sketchpad) | [View in browser](https://htmlpreview.github.io/?https://github.com/deathbypie/sketchpad/blob/master/index.html)
 * [Bruno Nascimento's Solution](https://github.com/nscmnto/etch-a-sketch/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/nscmnto/etch-a-sketch/blob/master/index.html)
-* [Veselin Ivanov's Solution](https://github.com/terlica/Project_Javascript-jQuery) | [View in browser](http://htmlpreview.github.io/?https://github.com/terlica/Project_Javascript-jQuery/blob/master/index.html)
+* [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Project_Javascript-jQuery) | [View in browser](https://htmlpreview.github.io/?https://github.com/terlica/TheOdinProject/blob/master/WebDevelopment101/Project_Javascript-jQuery/index.html)
 * [Salomon Paluch's Solution](https://github.com/kruppin/js_jQuery_Project.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/kruppin/js_jQuery_Project/blob/master/index.html)
 * [jqguess's Solution](https://github.com/jqguess/odin/tree/master/etchasketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/jqguess/odin/blob/master/etchasketch/etchasketch.html)
 * [Ace Cassidy's Solution](https://github.com/Ace-Cassidy/Sketchpad) | [View in browser](https://cdn.rawgit.com/Ace-Cassidy/Sketchpad/master/index.html)
