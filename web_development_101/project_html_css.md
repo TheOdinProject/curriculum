@@ -830,6 +830,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Emehinola Idowu's Solution (Easy)](https://github.com/hydeenoble/google_homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hydeenoble/google_homepage/blob/master/index.html)
 * [Al Fair's Solution (Easy)] (https://github.com/oofstar/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/oofstar/google-homepage/blob/master/html/index.html)
 * [Harry Maher's Solution (Easy)] (https://github.com/HarryMaher/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/HarryMaher/google-homepage/blob/master/easy_version/index.html)
+* [Vaclav Skvaril´s Solution (Easy)] (https://github.com/Vasha22/google-homepage) | [View in browser]
 * Add your solution above this line!
 
 ## Additional Resources
