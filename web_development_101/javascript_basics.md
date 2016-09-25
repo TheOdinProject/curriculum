@@ -315,7 +315,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Solution by Andrew Artajos](https://github.com/dudepare/odin-projects/tree/master/project-euler)
 * [Promethea Oue's solution](https://github.com/prometheaOue/javascript/tree/master/euler)
 * [Garrison Shea's solution](https://github.com/garrisonshea/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/garrisonshea/euler-problems/blob/master/index.html)
-* [Veselin Ivanov's solution](https://github.com/terlica/Project-Euler.git)
+* [Veselin Ivanov's solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Project-Euler)
 * [jqguess solution](https://github.com/jqguess/odin/tree/master/eulerProblems)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/ProjectEuler.git)
 * [Alina Solodnikova's solution](https://github.com/soldnkva/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/soldnkva/project-euler/blob/master/index.html)
