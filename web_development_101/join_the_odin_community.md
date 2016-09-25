@@ -56,13 +56,14 @@ For single lines of code:
 
 OR
 
-For Multiple lines of code:
+For Multiple lines of code: 
 
 ```
 #three backticks at the start on a separate line ABOVE your code
 Your Code
 #three backticks at the end on a separate line BELOW your code
 ```
+(make sure you are in **compose mode** by pressing ctrl + /, otherwise Enter will send in stead of creating a new line)
 
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
 
