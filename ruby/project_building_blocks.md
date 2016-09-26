@@ -734,4 +734,5 @@ Next, make sure your method can handle multiple words:
 * [Mike Coon's solution](https://github.com/mac718/Ruby_Building_Blocks/blob/master/substrings.rb)
 * [Yorick's solution](https://github.com/ysmith4/ruby_building_blocks/blob/master/substrings.rb)
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/blob/master/The%20odin%20project%20(Ruby%20projects)/Basic%20Ruby/Substrings.rb)
+* [Bishal's Solution](https://github.com/biiishal/substrings)
 * Add your solution above this line!
