@@ -206,9 +206,8 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Peuchen's solution (help from Florian's code)](https://github.com/Peuchen/recursion/blob/master/mergesort.rb)
 * [Clint's solution](https://github.com/tholymap/Odin-Ruby-Recursion/blob/master/merge_sort.rb)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/project-recursion/blob/master/merge_sort.rb)
+* [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/merge_sort.rb)
 * Add your solution above this line!
-
-
 
 ## Additional Resources
 
