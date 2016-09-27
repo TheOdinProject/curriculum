@@ -91,6 +91,8 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 
 Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a real problem.
 
+For this project, you'll need to use a data structure that's similar (but not identical) to a binary tree. For a summary of a few different examples, reference [this article](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs).
+
 A knight in chess can move to any square on the standard 8x8 chess board from any other square on the board, given enough turns (don't believe it?  See [this animation](http://upload.wikimedia.org/wikipedia/commons/c/ca/Knights-Tour-Animation.gif)).  Its basic move is two steps forward and one step to the side.  It can face any direction.
 
 All the possible places you can end up after one move look like this:
