@@ -483,4 +483,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Junqiang Qian's solution](https://github.com/junqiangqian/the_odin_project/tree/master/webdevelopment101/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/junqiangqian/the_odin_project/blob/master/webdevelopment101/etch-a-sketch/index.html)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-javascript-jquery) | [View in browser](https://htmlpreview.github.io/?https://github.com/SophiaLWu/project-javascript-jquery/blob/master/index.html)
 * [Jenn L's solution] (https://github.com/developingyourweb/Etch-A-Sketch2) | [View in browser](http://htmlpreview.github.io/?https://github.com/developingyourweb/Etch-A-Sketch2/blob/master/index.html)
+* [Gabriel Rangel's solution] (https://github.com/glrangel/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/glrangel/sketchpad/blob/master/index.html)
 * Add your solution above this line!
