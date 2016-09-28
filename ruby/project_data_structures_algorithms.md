@@ -181,6 +181,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [m-chrzan's solution](https://github.com/m-chrzan/knights-travails)
 * [at0micred's solution](https://github.com/at0micr3d/data_structure)
 * [Clint's solution](https://github.com/tholymap/OdinDataStructures/blob/master/knight_moves.rb)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/knights_travails)
 * Add your solution above this line!
 
 ## Additional Resources
