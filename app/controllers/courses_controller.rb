@@ -4,5 +4,4 @@ class CoursesController < ApplicationController
   def index
     @courses = Course.order("position asc")
   end
-
 end
