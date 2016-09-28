@@ -5,6 +5,7 @@ services:
   - postgresql
 before_script:
   - psql -c 'create database theodinproject_test;' -U postgres
+script: xvfb-run bundle exec rake
 test:
   adapter: postgresql
   database: theodinproject_test

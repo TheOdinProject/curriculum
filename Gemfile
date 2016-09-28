@@ -37,6 +37,7 @@ group :development, :test do
   gem 'simplecov', :require => false                                # Code coverage
   gem 'factory_girl_rails',         '~> 4.6.0'
   gem 'capybara',                   '~> 2.6.2'
+  gem 'capybara-webkit'
   gem 'phantomjs',                  '~> 2.1.1'
   gem 'poltergeist',                '~> 1.9.0'
   gem 'database_cleaner',           '~> 1.5.1'
