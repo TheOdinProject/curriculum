@@ -98,6 +98,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Clint's solution](https://github.com/tholymap/Odin-Ruby-Recursion/blob/master/fib.rb)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/project-recursion/blob/master/fib.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/fibonacci_rec.rb)
+* [Leonard Soai-Van's solution] (https://github.com/leosoaivan/TOP_recursions/blob/master/fibonacci.rb)
 * Add your solution above this line!
 
 
@@ -207,6 +208,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Clint's solution](https://github.com/tholymap/Odin-Ruby-Recursion/blob/master/merge_sort.rb)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/project-recursion/blob/master/merge_sort.rb)
 * [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/merge_sort.rb)
+* [Leonard Soai-Van's solution] (https://github.com/leosoaivan/TOP_recursions/blob/master/merge_sort.rb)
 * Add your solution above this line!
 
 ## Additional Resources
