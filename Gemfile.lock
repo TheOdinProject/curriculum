@@ -59,9 +59,6 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
-    capybara-webkit (1.11.1)
-      capybara (>= 2.3.0, < 2.8.0)
-      json
     cliver (0.3.2)
     codeclimate-engine-rb (0.3.1)
       virtus (~> 1.0)
@@ -402,7 +399,6 @@ DEPENDENCIES
   better_errors (~> 2.1.1)
   binding_of_caller (~> 0.7.2)
   capybara (~> 2.6.2)
-  capybara-webkit
   coffee-rails (~> 4.1.1)
   cucumber-rails
   database_cleaner (~> 1.5.1)

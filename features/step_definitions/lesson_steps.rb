@@ -28,11 +28,11 @@ Given /I go to the '([^']+)' course/ do |course_name|
   expect(page).to have_content(@section.title)
 end
 
-Given /^no lessons are completed$/ do 
+Given /^no lessons are completed$/ do
   within ".lc-percent-completion" do
     expect(page).to have_content('0% Completed')
   end
-  
+
   @section.lessons.each do |lesson|
     within "#lc-id-#{lesson.id}" do
       expect(page).to have_css('a.lc-checkbox.lc-unchecked')
@@ -44,8 +44,6 @@ And /^the lesson '([^']+)' is completed$/ do |lesson_title|
   lesson = Lesson.find_by(title: lesson_title)
   within "#lc-id-#{lesson.id}" do
     click_link "Check to mark lesson completed"
-    wait_for_ajax
-    reload_page
   end
 end
 
@@ -53,8 +51,6 @@ When /^I mark the lesson '([^']+)'$/ do |lesson_title|
   @lesson = Lesson.find_by(title: lesson_title)
   within "#lc-id-#{@lesson.id}" do
     click_link "Check to mark lesson completed"
-    wait_for_ajax
-    reload_page
   end
 end
 
@@ -62,8 +58,6 @@ When /^I unmark the lesson '([^']+)'$/ do |lesson_title|
   @lesson = Lesson.find_by(title: lesson_title)
   within "#lc-id-#{@lesson.id}" do
     click_link 'Uncheck to mark lesson not completed'
-    wait_for_ajax
-    reload_page
   end
 end
 
@@ -71,7 +65,7 @@ Then /^my progress should be saved$/ do
   within "#lc-id-#{@lesson.id}" do
     expect(page.has_selector? 'a.lc-checkbox.lc-checked').to be true
   end
-  
+
   # make sure the percentage completion gets increased
   within ".lc-percent-completion" do
     percent_completed = @course.percent_completed_by(@user).to_i
