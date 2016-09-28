@@ -221,6 +221,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [husein ghafari's Solution](https://github.com/hosghf/learn_ruby)
 * [Todd Demone's Solution](https://github.com/todd-demone/learn_ruby)
 * [Evan Burkey's Solution](https://github.com/king3vbo/learn_ruby)
+* [Sebeth's Solution](https://github.com/SebetheWombat/learn_ruby)
 * * Add your solution above this line!
 
 ## Additional Resources
