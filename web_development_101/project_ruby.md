@@ -183,7 +183,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Seiji's Solution](https://github.com/seijibas/learn-ruby)
 * [John Alcher's Solution](https://github.com/alchermd/ruby-test-first)
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
-* [Veselin Ivanov's Solution](https://github.com/terlica/Odin_ruby_project)
+* [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Odin_ruby_project)
 * [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
 * [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
 * [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
@@ -218,7 +218,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Yorick's Solution](https://github.com/ysmith4/learn_ruby.git)
 * [Bishal Shrestha's Solution](https://github.com/biiishal/learn_ruby)
 * [Max Tsao's Solution](https://github.com/mt9304/learn_ruby)
-* Add your solution above this line!
+* [husein ghafari's Solution](https://github.com/hosghf/learn_ruby)
+* [Todd Demone's Solution](https://github.com/todd-demone/learn_ruby)
+* [Evan Burkey's Solution](https://github.com/king3vbo/learn_ruby)
+* * Add your solution above this line!
 
 ## Additional Resources
 

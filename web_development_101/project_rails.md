@@ -183,6 +183,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Max Tsao's Solution](https://github.com/mt9304/blogger)
 * [Bishal Shrestha's Solution with multiple image upload](https://github.com/biiishal/blogger) | [View in browser](https://radiant-blogger.herokuapp.com/)
 * [Christopher Corder's Solution] (https://github.com/cs-cordero/Blogger) | [View in Browser] (https://guarded-peak-35888.herokuapp.com/)
+* [Raiko Murulauk's Solution] (https://github.com/Cypher0/blogger) | [View in Browser] (https://protected-taiga-95155.herokuapp.com/)
+* [Ayon Pal's Solution](https://github.com/AyonPal/blogger/tree/master/blogger) | [View in Browser](https://enigmatic-temple-69582.herokuapp.com/)
 * Add your solution above this line!
 
 

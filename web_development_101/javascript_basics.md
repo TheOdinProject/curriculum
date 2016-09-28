@@ -315,7 +315,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Solution by Andrew Artajos](https://github.com/dudepare/odin-projects/tree/master/project-euler)
 * [Promethea Oue's solution](https://github.com/prometheaOue/javascript/tree/master/euler)
 * [Garrison Shea's solution](https://github.com/garrisonshea/euler-problems) | [View in browser](http://htmlpreview.github.io/?https://github.com/garrisonshea/euler-problems/blob/master/index.html)
-* [Veselin Ivanov's solution](https://github.com/terlica/Project-Euler.git)
+* [Veselin Ivanov's solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Project-Euler)
 * [jqguess solution](https://github.com/jqguess/odin/tree/master/eulerProblems)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/ProjectEuler.git)
 * [Alina Solodnikova's solution](https://github.com/soldnkva/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/soldnkva/project-euler/blob/master/index.html)
@@ -372,6 +372,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Franz Asperger's Solution](https://github.com/lurchy86/js-euler-problems) |[View on Codepen](http://codepen.io/lurchy86/full/vXBOmd)
 * [Melissa Koski's Solution](https://github.com/nyx3nox/project_euler)
 * [Moshe Itzhaki's Solution](https://github.com/moshezi/projectEuler) |[View in browser](https://htmlpreview.github.io/?https://github.com/moshezi/projectEuler/blob/master/index.html)
+* [Sophia Wu's Solution](https://github.com/SophiaLWu/project-euler) |[View in browser](https://htmlpreview.github.io/?https://github.com/SophiaLWu/project-euler/blob/master/project-euler.html)
+* [Anders Pico's Solution](https://github.com/a-pico/Odin.js.project_euler1/blob/master/euler1.js)
+* [Vaclav Skvaril´s Solution](https://github.com/Vasha22/ProjectEuler/tree/master/projects/the_odin_project/javascript_basics) | [View in browser](https://htmlpreview.github.io/?https://github.com/Vasha22/ProjectEuler/blob/master/projects/the_odin_project/javascript_basics/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
