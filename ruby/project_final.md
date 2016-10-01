@@ -56,6 +56,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/final)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/chess)
 * [DV's solution](https://github.com/dvislearning/chess)
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby_chess)
 * Add your solution above this line!
 
 

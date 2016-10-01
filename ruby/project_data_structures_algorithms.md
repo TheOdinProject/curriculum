@@ -13,7 +13,7 @@ You also learned about tree search algorithms like breadth-first-search and dept
 
 You'll build a simple binary tree data structure from some arbitrary input and also the "crawler" function that will locate data inside of it.
 
-1. Build a class `Node`.  It should have a `value` that it stores and also links to its parent and children (if they exist).  Build getters and setters for it (e.g. parent node, child node(s)). 
+1. Build a class `Node`.  It should have a `value` that it stores and also links to its parent and children (if they exist).  Build getters and setters for it (e.g. parent node, child node(s)).
 2. Write a method `build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a binary tree full of `Node` objects appropriately placed.  Start by assuming the array you get is sorted.
 3. Now refactor your `build_tree` to handle data that isn't presorted and cannot be easily sorted prior to building the tree.  You'll need to figure out how to add a node for each of the possible cases (e.g. if it's a leaf versus in the middle somewhere).
 3. Write a simple script that runs `build_tree` so you can test it out.
@@ -21,7 +21,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 4. Build a method `depth_first_search` which returns the node at which the target value is located using the depth first search technique.  Use an array acting as a *stack* to do this.
 5. Next, build a new method `dfs_rec` which runs a depth first search as before but this time, instead of using a stack, make this method recursive.
 6. Tips:
-    
+
     1. You can think of the `dfs_rec` method as a little robot that crawls down the tree, checking if a node is the correct node and spawning other little robots to keep searching the tree.  No robot is allowed to turn on, though, until all the robots to its left have finished their task.
     2. The method will need to take in both the target value and the current node to compare against.
 
@@ -84,6 +84,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/data_structures/binary_search_tree)
 * [at0micred's solution](https://github.com/at0micr3d/data_structure)
 * [Clint's solution](https://github.com/tholymap/OdinDataStructures/blob/master/bin_tree.rb)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/bintree2.rb)
 * Add your solution above this line!
 
 
@@ -106,7 +107,7 @@ Your task is to build a function `knight_moves` that shows the simplest possible
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
 
   * `knight_moves([0,0],[1,2]) == [[0,0],[1,2]]`
-  * `knight_moves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]` 
+  * `knight_moves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
   * `knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
 
 1. Put together a script that creates a game board and a knight.
@@ -181,6 +182,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [m-chrzan's solution](https://github.com/m-chrzan/knights-travails)
 * [at0micred's solution](https://github.com/at0micr3d/data_structure)
 * [Clint's solution](https://github.com/tholymap/OdinDataStructures/blob/master/knight_moves.rb)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/knight.rb)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/knights_travails)
 * Add your solution above this line!
 
 ## Additional Resources
