@@ -12,6 +12,8 @@ Background: Adding data to the database
   | lesson_name |
   | What a web developer does |
   | Tools of the trade |
+  | Web Development Communities |
+  | The Best Web Developers |
 
 @javascript
 Scenario: Marking a lesson complete
@@ -28,3 +30,12 @@ Scenario: Marking a lesson incomplete
   And the lesson 'What a web developer does' is completed
   When I unmark the lesson 'What a web developer does'
   Then my progress should be declined
+
+@javascript
+Scenario: Marking all the lessons complete
+  Given I am logged in
+  And I go to the 'Introduction to Web Development' course
+  When I mark all the lessons as completed
+  Then I should see 'Course Completed!' in the progress bar
+  When I go back
+  Then I should find the course 'Introduction to Web Development' completed
