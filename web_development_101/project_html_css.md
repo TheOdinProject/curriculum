@@ -837,6 +837,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Behdad Analui's Solution (Easy)] (https://github.com/banalui/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/banalui/google-homepage/blob/master/index.html)
 * [Michael Grienauer's Solution] (https://github.com/mike93og93/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mike93og93/google-homepage/blob/master/google-homepage.html)
 * [Joseph Romero's Solution (Easy)](https://github.com/Jar36/google-homepage.git) | [View in browser] (https://github.com/Jar36/google-homepage/blob/master/index.html)
+* [Jerry Gao's solution](https://github.com/blackwright/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/blackwright/google_homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
