@@ -485,4 +485,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jenn L's solution] (https://github.com/developingyourweb/Etch-A-Sketch2) | [View in browser](http://htmlpreview.github.io/?https://github.com/developingyourweb/Etch-A-Sketch2/blob/master/index.html)
 * [Gabriel Rangel's solution] (https://github.com/glrangel/sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/glrangel/sketchpad/blob/master/index.html)
 * [Jerry Gao's solution](https://github.com/blackwright/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/blackwright/etch_a_sketch/blob/master/sketch.html)
+* [Harry Maher's solution](https://github.com/HarryMaher/sketchpad)|[View in browser](https://htmlpreview.github.io/?https://github.com/HarryMaher/sketchpad/blob/master/index.html)
 * Add your solution above this line!

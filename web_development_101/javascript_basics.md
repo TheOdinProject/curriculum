@@ -377,6 +377,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Vaclav Skvaril´s Solution](https://github.com/Vasha22/ProjectEuler/tree/master/projects/the_odin_project/javascript_basics) | [View in browser](https://htmlpreview.github.io/?https://github.com/Vasha22/ProjectEuler/blob/master/projects/the_odin_project/javascript_basics/index.html)
 * [Harry Maher's Solution](https://github.com/HarryMaher/projectEulerJS)
 * [Parker Brown's Solution](https://github.com/parkerjbrown/project-euler)
+* [EnXo's Interactive Solution](https://github.com/Asadidrees89/js-math) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Asadidrees89/js-math/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
