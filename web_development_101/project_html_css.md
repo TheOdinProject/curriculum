@@ -821,7 +821,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Paula García's Solution (Easy)](https://github.com/theskylang/google_homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/theskylang/google_homepage/blob/master/index.html)
 * [Shail Sheth's Solution (Easy)] (https://github.com/DynamiteC/GoogleHomeBasic) | [View in browser] (https://htmlpreview.github.io/?https://github.com/DynamiteC/GoogleHomeBasic/blob/master/GoogleHomepage.html)
 * [Kevin White's Solution (Easy)] (https://github.com/Knowledge0417/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Knowledge0417/google-homepage/blob/master/index.html)
-* [Guadalupe Camacho's Solution] (https://github.com/gcamacho079/google-homepage) | [View in browser] (https://gcamacho079.github.io/google-homepage/) 
+* [Guadalupe Camacho's Solution] (https://github.com/gcamacho079/google-homepage) | [View in browser] (https://gcamacho079.github.io/google-homepage/)
 * [Max Tsao's Solution (Easy)] (https://github.com/mt9304/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/mt9304/google-homepage/blob/master/google.html)
 * [Kara Kelley's Solution (Easy)] (https://github.com/klkelley/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/klkelley/google-homepage/blob/master/index.html)
 * [Sophia Wu's Solution (Easy)] (https://github.com/SophiaLWu/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/SophiaLWu/google-homepage/blob/master/index.html)
@@ -838,6 +838,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Michael Grienauer's Solution] (https://github.com/mike93og93/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mike93og93/google-homepage/blob/master/google-homepage.html)
 * [Joseph Romero's Solution (Easy)](https://github.com/Jar36/google-homepage.git) | [View in browser] (https://github.com/Jar36/google-homepage/blob/master/index.html)
 * [Jerry Gao's solution](https://github.com/blackwright/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/blackwright/google_homepage/blob/master/index.html)
+* [Aswin Mohan's Solution](https://github.com/aswinmohanme/Odin_Projects/tree/master/01_Google_HomePage_Simple) | [View in browser](https://htmlpreview.github.io/?https://github.com/aswinmohanme/Odin_Projects/blob/master/01_Google_HomePage_Simple/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
