@@ -54,6 +54,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec)
 * David Chapman's solution ([Ceaser Cipher](https://github.com/davidchappy/odin_training_projects/tree/master/c_c), [Enumerable](https://github.com/davidchappy/odin_training_projects/tree/master/enumerable), and [Tic Tac Toe](https://github.com/davidchappy/odin_training_projects/tree/master/tic_tac_toe))
 * [Dylan's solutions](https://github.com/resputin/the_odin_project/tree/master/Ruby/testing/time_travel)
+* Austin Mason's solution ([Ceaser Cipher](https://github.com/CouchofTomato/caesar_cipher), [Enumerable](https://github.com/CouchofTomato/enumberable_extension), and [Tic Tac Toe](https://github.com/CouchofTomato/tictactoe))
 * Add your solution above this line!
 
 
@@ -112,6 +113,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby-connectFour)
 * [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec/tree/master/connect-four)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Ruby/testing/connect_four)
+* [Austin Mason's solution](https://github.com/CouchofTomato/ConnectFour)
 * Add your solution above this line!
 
 ## Additional Resources
