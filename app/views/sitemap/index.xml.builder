@@ -19,14 +19,6 @@ xml.urlset(
     end
   end
 
-  @frequently_updated_pages.each do |page|
-    xml.url do
-      xml.loc "#{page}"
-      xml.changefreq("daily")
-      xml.priority(1.00)
-    end
-  end
-
   # Main courses index
   xml.url do
     xml.loc "#{courses_url}"
