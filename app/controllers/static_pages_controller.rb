@@ -44,7 +44,7 @@ class StaticPagesController < ApplicationController
   end
 
   def current_user_email
-    (current_user && current_user.email )
+    (current_user && current_user.email)
   end
 
   def current_page

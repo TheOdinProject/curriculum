@@ -18,7 +18,6 @@ describe StaticPagesController do
       get :home
       expect(assigns(:is_home_page)).to eql(true)
     end
-
   end
 
   describe 'GET about' do
@@ -27,7 +26,6 @@ describe StaticPagesController do
       get :about
       expect(response).to render_template(:about)
     end
-
   end
 
   describe 'GET getting involved' do
@@ -36,7 +34,6 @@ describe StaticPagesController do
       get :getting_involved
       expect(response).to render_template(:getting_involved)
     end
-
   end
 
   describe 'GET studygroups' do
@@ -45,7 +42,6 @@ describe StaticPagesController do
       get :studygroups
       expect(response).to render_template(:studygroups)
     end
-
   end
 
   describe 'GET legal' do
@@ -54,16 +50,14 @@ describe StaticPagesController do
       get :legal
       expect(response).to render_template(:legal)
     end
-
   end
 
-  describe 'GET terms of use page' do
+  describe 'GET tou' do
 
     it 'renders the terms of use page' do
       get :tou
       expect(response).to render_template(:tou)
     end
-
   end
 
   describe 'GET cla' do
@@ -72,7 +66,6 @@ describe StaticPagesController do
       get :cla
       expect(response).to render_template(:cla)
     end
-
   end
 
   describe 'GET suggestion' do
