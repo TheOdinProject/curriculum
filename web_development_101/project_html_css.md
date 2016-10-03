@@ -836,7 +836,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Parker Brown's Solution (Easy)] (https://github.com/parkerjbrown/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/parkerjbrown/google-homepage/blob/master/index.html)
 * [Behdad Analui's Solution (Easy)] (https://github.com/banalui/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/banalui/google-homepage/blob/master/index.html)
 * [Michael Grienauer's Solution] (https://github.com/mike93og93/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/mike93og93/google-homepage/blob/master/google-homepage.html)
-* [Joseph Romero's Solution (Easy)](https://github.com/Jar36/google-homepage.git) | [View in browser] (https://github.com/Jar36/google-homepage/blob/master/index.html)
+* [Joseph Romero's Solution (Easy)](https://github.com/Jar36/google-homepage.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/Jar36/google-homepage/blob/master/index.html)
 * [Jerry Gao's solution](https://github.com/blackwright/google_homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/blackwright/google_homepage/blob/master/index.html)
 * [Aswin Mohan's Solution](https://github.com/aswinmohanme/Odin_Projects/tree/master/01_Google_HomePage_Simple) | [View in browser](https://htmlpreview.github.io/?https://github.com/aswinmohanme/Odin_Projects/blob/master/01_Google_HomePage_Simple/index.html)
 * Add your solution above this line!
