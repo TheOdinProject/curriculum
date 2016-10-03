@@ -3,6 +3,7 @@
    def index
      @static_pages = static_pages
      @courses = Course.all
+
      respond_to do |format|
        format.xml
      end
