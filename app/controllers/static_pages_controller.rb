@@ -23,19 +23,35 @@ class StaticPagesController < ApplicationController
   def cla
   end
 
-  # For the suggestion form in the footer
   def suggestion
-    if user_signed_in?
-      user = current_user.email
-    else
-      user = "< not logged in >"
+    if suggestion_body
+      ContactMailer.suggestion_email(
+        suggestion_body,
+        current_page,
+        user_identifier
+      ).deliver_now
     end
 
-    if params[:suggestion]
-      ContactMailer.suggestion_email(params[:suggestion], params[:pathname], user).deliver_now
-    end
     respond_to do |format|
-      format.json { render json: params[:suggestion] }
+      format.json { render json: suggestion_body }
     end
+  end
+
+  private
+
+  def user_identifier
+    current_user_email || '< not logged in >'
+  end
+
+  def current_user_email
+    (current_user && current_user.email )
+  end
+
+  def current_page
+    params[:pathname]
+  end
+
+  def suggestion_body
+    @suggestion_body ||= params[:suggestion]
   end
 end
