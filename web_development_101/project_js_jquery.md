@@ -488,4 +488,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Harry Maher's solution](https://github.com/HarryMaher/sketchpad)|[View in browser](https://htmlpreview.github.io/?https://github.com/HarryMaher/sketchpad/blob/master/index.html)
 * [Emehinola Idowu's solution](https://github.com/hydeenoble/javascript-jquery_project)|[View in browser](https://htmlpreview.github.io/?https://github.com/hydeenoble/javascript-jquery_project/blob/master/index.html)
 * [Surafel Muluye's Solution](https://github.com/SurafelM/Etch-Sketch/tree/master3) | [View in Browser](https://htmlpreview.github.io/?https://github.com/SurafelM/Etch-Sketch/blob/master3/index.html)
+* [biko1982ś Solution](https://github.com/biko1982/etch-a-sketch) | [View in Browser](https://htmlpreview.github.io/?https://github.com/biko1982/etch-a-sketch/index.html)
 * Add your solution above this line!
