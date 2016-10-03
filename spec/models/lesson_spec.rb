@@ -11,7 +11,7 @@ RSpec.describe Lesson do
       content: nil
     )
   }
-  
+
   let(:find_lesson) { double('FindLesson') }
   let(:section) { double('Section', lessons: lessons) }
   let(:lessons) { [] }
@@ -29,7 +29,7 @@ RSpec.describe Lesson do
   it { is_expected.to validate_presence_of(:content).on(:update) }
 
   describe '#next_lesson' do
-    it 'finds the next lesson' do
+    it 'returns the next lesson' do
       expect(find_lesson).to receive(:next_lesson)
       lesson.next_lesson
     end
