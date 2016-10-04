@@ -28,7 +28,6 @@ devise_for :users,
   get 'tou' => "static_pages#tou"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
   get 'studygroups' => "static_pages#studygroups"
-  get 'chat'=>"static_pages#chat"
 
   #failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
@@ -40,10 +39,6 @@ devise_for :users,
   resources :users, :only => [:show, :index, :edit, :update] do
     resource :contact, :only => [:new, :create]
   end
-
-  resources :splash_emails, :only => [:create]
-
-  resource :forum, :only => [:show]
 
   post 'lesson_completions' => 'lesson_completions#create'
   delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => "lesson_completion"
@@ -65,6 +60,4 @@ devise_for :users,
   get ':course_name' => 'lessons#index', :as => "course"
   get ':course_name' => 'lessons#index', :as => "lessons"
   get ':course_name/:lesson_name' => 'lessons#show', :as => "lesson"
-
-
 end

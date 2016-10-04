@@ -21,7 +21,6 @@ describe StaticPagesController do
   end
 
   describe 'GET about' do
-
     it 'renders the about page' do
       get :about
       expect(response).to render_template(:about)
@@ -29,7 +28,6 @@ describe StaticPagesController do
   end
 
   describe 'GET getting involved' do
-
     it 'renders the getting involved page' do
       get :getting_involved
       expect(response).to render_template(:getting_involved)
@@ -37,7 +35,6 @@ describe StaticPagesController do
   end
 
   describe 'GET studygroups' do
-
     it 'renders the study groups page' do
       get :studygroups
       expect(response).to render_template(:studygroups)
@@ -45,7 +42,6 @@ describe StaticPagesController do
   end
 
   describe 'GET legal' do
-
     it 'renders the legal page' do
       get :legal
       expect(response).to render_template(:legal)
@@ -53,7 +49,6 @@ describe StaticPagesController do
   end
 
   describe 'GET tou' do
-
     it 'renders the terms of use page' do
       get :tou
       expect(response).to render_template(:tou)
@@ -61,7 +56,6 @@ describe StaticPagesController do
   end
 
   describe 'GET cla' do
-
     it 'renders the contributors licence agreement page' do
       get :cla
       expect(response).to render_template(:cla)
@@ -91,13 +85,11 @@ describe StaticPagesController do
 
     it 'sends the sugestion email' do
       post :suggestion, params
-
       expect(contact_mailer).to have_received(:deliver_now)
     end
 
     it 'returns the suggestion body in JSON' do
       post :suggestion, params
-
       expect(response.body).to eql('hello')
     end
 
@@ -106,7 +98,6 @@ describe StaticPagesController do
 
       it 'will not send the suggestion email' do
         post :suggestion, params
-
         expect(contact_mailer).not_to have_received(:deliver_now)
       end
     end
@@ -117,7 +108,6 @@ describe StaticPagesController do
 
       it 'will use < no logged in > for the user identifier' do
         post :suggestion, params
-
         expect(contact_mailer).to have_received(:deliver_now)
       end
     end
