@@ -202,6 +202,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Jason Keeney's solution](https://github.com/jkeeney/Advanced-Building-Blocks/blob/master/bubble_sort.rb)
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/blob/master/The%20odin%20project%20(Ruby%20projects)/Basic%20Ruby/bubble_sort.rb)
 * [Bishal's solution](https://github.com/biiishal/advanced_building_blocks/tree/master/bubble_sort)
+* [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/ruby/bubble_sort.rb)
 * Add your solution above this line!
 
 
