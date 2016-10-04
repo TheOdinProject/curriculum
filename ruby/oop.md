@@ -59,7 +59,7 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 ## Your Assignment:
 
 1. Do [Codecademy Ruby sections 7, 9, and 10](http://www.codecademy.com/tracks/ruby):
-  
+
     1. [Refactoring](http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb?curriculum_id=5059f8619189a5000201fbcb)
     2. [Project: The Refactor Factory](http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y?curriculum_id=5059f8619189a5000201fbcb)
     3. [Object-Oriented Programming, Part I](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6?curriculum_id=5059f8619189a5000201fbcb)
@@ -67,10 +67,10 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
     5. [Object-Oriented Programming, Part II](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o?curriculum_id=5059f8619189a5000201fbcb)
     6. [Project: Banking on Ruby](http://www.codecademy.com/courses/ruby-beginner-en-32cN3?curriculum_id=5059f8619189a5000201fbcb)
 
-2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
-3. Read [Beginning Ruby](http://beginningruby.org/) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
-4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 7: `Projects and Libraries`
-5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
+2. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
+3. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
+4. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 7: `Projects and Libraries`
+5. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
 6. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Points to Ponder" section:
 
     3. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
@@ -95,4 +95,3 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 * [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/)
 * Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/)
 * Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down)
-

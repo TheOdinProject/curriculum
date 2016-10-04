@@ -29,7 +29,7 @@ Everyone is coming into this with a different goal in mind, so to accommodate th
 ## Our Primary "Textbooks":
 
 1. [Codecademy.com](http://www.codecademy.com/tracks/ruby) has a lot of great introductory content to get you ramped into the Ruby language.  You've already read [Chris Pine's Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 section for a good introduction, and the Codecademy stuff will overlap a bit and carry forward from there.
-2. Peter Cooper's [Beginning Ruby](http://beginningruby.org/) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it.  It's a bit outdated but Ruby hasn't changed a whole lot since then.  The goal of this project is to move BEYOND Codecademy and other simple, free resources and get you building stuff on your own.  This book will start covering some of the more intermediate/useful stuff that you'll need to know to do that.
+2. Peter Cooper's [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) is a solid introduction to Ruby that covers pretty much the breadth of the language as you need to understand it.  It's a bit outdated but Ruby hasn't changed a whole lot since then.  The goal of this project is to move BEYOND Codecademy and other simple, free resources and get you building stuff on your own.  This book will start covering some of the more intermediate/useful stuff that you'll need to know to do that.
 
 It is not free -- usually somewhere around $30-40, but, as [Peter said himself](http://beginningruby.org/):
 
@@ -44,4 +44,4 @@ Some things you just won't pick up right away or their coverage by main resource
 1. Another free online book: Zed Shaw's [Learn Code the Hard Way](http://ruby.learncodethehardway.org/book/), an extension of his wildly popular Learn Python the Hard Way into Ruby.  The downside is that the flow feels a bit choppy and parts aren't fully complete.
 2. The other good book, available in the older edition online for free: [The "Pickaxe", or Programming Ruby 3rd Edition](http://it-ebooks.info/book/59/).  This, too, is a bit outdated.
 
-## Okay, enough talk... Let's get started learning Ruby! 
+## Okay, enough talk... Let's get started learning Ruby!
