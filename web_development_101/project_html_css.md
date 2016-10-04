@@ -841,6 +841,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Aswin Mohan's Solution](https://github.com/aswinmohanme/Odin_Projects/tree/master/01_Google_HomePage_Simple) | [View in browser](https://htmlpreview.github.io/?https://github.com/aswinmohanme/Odin_Projects/blob/master/01_Google_HomePage_Simple/index.html)
 * [Alex Gerig's Solution](https://github.com/cryogenicdew23/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/cryogenicdew23/google-homepage/blob/master/index.html)
 * [Rita Johnson's Solution (Easy)](https://github.com/maritabix/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/maritabix/google-homepage/blob/master/index.html)
+* [Eren Çataltepe's Solution (Easy)](https://github.com/erencataltepe/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/google-homepage/blob/master/index.html)
 
 * Add your solution above this line!
 
