@@ -8,6 +8,12 @@ describe SitemapController do
       [root_url, about_url, contact_url, faq_url, login_url, signup_url]
     end
 
+    let(:course) { [double('Course')] }
+
+    before do
+      allow(Course).to receive(:all).and_return(course)
+    end
+
     it 'renders the sitemap template' do
       get :index, format: :xml
       expect(response).to render_template(:index)
@@ -19,10 +25,7 @@ describe SitemapController do
     end
 
     it 'assigns @courses' do
-      course = [FactoryGirl.create(:course)]
-
       get :index, format: :xml
-
       expect(assigns(:courses)).to eql(course)
     end
 
