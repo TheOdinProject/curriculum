@@ -3,7 +3,8 @@ require 'spec_helper'
 describe UsersHelper do
   let(:user) { double('User', lesson_completion_time: lesson_completion_time) }
   let(:lesson_completion_time) { DateTime.new(2016, 10, 11, 19) }
-  
+  let(:social_media_link) { double(:social_media_link) }
+
   before do
     allow(SocialMediaLink).to receive(:new).with(user).
       and_return(social_media_link)
