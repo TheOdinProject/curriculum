@@ -742,4 +742,5 @@ Next, make sure your method can handle multiple words:
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/blob/master/The%20odin%20project%20(Ruby%20projects)/Basic%20Ruby/Substrings.rb)
 * [Bishal's Solution](https://github.com/biiishal/substrings)
 * [Simon's Solution](https://github.com/SimonSomlai/Odin/blob/master/ruby/splitter.rb)
+* [Kaaviya's Solution](https://github.com/Kavi6/odinprojects/blob/master/Kaaviya's%20Solution%20(substrings))
 * Add your solution above this line!
