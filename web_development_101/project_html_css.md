@@ -845,6 +845,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 
 * Add your solution above this line!
 
+* [Omar Malavé's Solution (Easy)](https://github.com/omarmalave/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/omarmalave/google-homepage/blob/master/index.html)
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
