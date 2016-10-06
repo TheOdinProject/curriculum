@@ -39,27 +39,12 @@ describe "Courses and Lessons Pages" do
       visit courses_path
     end
 
-    it { is_expected.to have_selector("h1", :text => "This is Your Path to Learning Web Development") }
-
     describe "it should include every course" do
 
       it "by title" do
         Course.all.each do |course|
           expect(subject).to have_selector("h2", :text => course.title)
         end
-      end
-      # make it a controller test for the orderings
-    end
-    context "for inactive courses" do
-      it "should say 'coming soon'" do
-        course = Course.where(:is_active => false).first
-        expect(subject).to have_selector("h2", :text => "#{course.title} ...Coming Soon!")
-      end
-    end
-    context "for regular lessons" do
-      it "should not say Coming Soon" do
-        course = Course.where(:is_active => true).first
-        expect(subject).not_to have_selector("h2", :text => "#{course.title} ...Coming Soon!")
       end
     end
 
@@ -71,23 +56,21 @@ describe "Courses and Lessons Pages" do
       end
 
       it "shows green checkmark by completed course" do
-        # Mark all lessons in the first course as complete
         Course.first.lessons.each do |l|
           LessonCompletion.create(:lesson_id => l.id, :student_id => student.id)
         end
-        # Check courses index to ensure course has a green check mark by it
+
         within(:link_to, lessons_path(Course.first.title_url), text: "#{Course.first.title}") do
           expect(subject).to have_selector("h3", text: "✔")
         end
       end
 
       it "does not show green checkmark by incomplete courses", js: true do
-        # Visit course page and ensure that there is at least one incomplete lesson
         visit lessons_path(Course.first.title_url)
         if page.has_selector?("a.lc-checkbox lc-checked")
           click_on("a.lc-checkbox lc-checked", match: :first)
         end
-        # Return to courses index page; course should not have green check mark
+
         visit courses_path
         within(:link_to, lessons_path(Course.first.title_url), text: "#{Course.first.title}") do
           expect(subject).not_to have_selector("h3", text: "✔")
@@ -105,58 +88,6 @@ describe "Courses and Lessons Pages" do
 
     before do
       visit lesson_path(course1.title_url, lesson1.title_url)
-    end
-
-    it "should show the lesson name in the title" do
-      expect(page.title).to have_content(lesson1.title)
-    end
-
-    it "should show something in the lesson body container" do
-      expect(subject.find(:xpath,"//*[@class='individual-lesson ']//*[@class='container']").text).not_to be_empty
-    end
-
-    it "should show social sharing buttons" do
-      expect(subject).to have_selector('div.social_sharing_buttons')
-    end
-
-    it "should have contributions links div" do
-      expect(subject).to have_selector(".contribution-links")
-    end
-
-    it "should have Octocat image" do
-      expect(subject).to have_css('img', "octocat.png")
-    end
-
-    context "clicking the Github Octocat image at the end of the lesson" do
-      before do
-        find('.contribution-links').click
-      end
-
-      it "should display the contributing modal", :js => true do
-        expect(page).to have_css(".popover")
-      end
-    end
-
-    context "for projects" do
-      before do
-        visit lesson_path(course1.title_url, project1.title_url)
-      end
-
-      it "should have a special project class" do
-        xpath = "//*[@class='individual-lesson project-lesson']"
-        expect(subject).to have_xpath(xpath)
-      end
-    end
-
-    context "for regular lessons" do
-      before do
-        visit lesson_path(course1.title_url, non_project1.title_url)
-      end
-
-      it "should not have a special project class" do
-        xpath = "//*[@class='individual-lesson project-lesson']"
-        expect(subject).not_to have_xpath(xpath)
-      end
     end
 
 
@@ -177,10 +108,6 @@ describe "Courses and Lessons Pages" do
       let(:last_lesson){ first_lesson.course.lessons.order("position asc").last }
 
       describe "set up our test properly" do
-        # Make sure our test properly populated things...
-        it "should be a valid section size" do
-          expect(second_section.lessons.count).to be >= 4
-        end
 
         it "should have a backlink to the lessons list" do
           expect(subject).to have_xpath("//*[@href = \'#{lessons_path(course1.title_url)}\']")
@@ -208,38 +135,6 @@ describe "Courses and Lessons Pages" do
         context "for not logged-in visitors" do
           it "should NOT be present" do
             expect(page).to_not have_css("#lc-progress-bar")
-          end
-        end
-
-        context "for logged-in students" do
-          let!(:signed_in_student){ FactoryGirl.create(:user) }
-
-          before do
-            sign_in(signed_in_student)
-            visit lesson_path(course1.title_url, lesson1.title_url)
-          end
-
-          it "should be present" do
-            expect(page).to have_css("#lc-progress-bar")
-          end
-
-          it "should have a link to the second lesson in the course" do
-            within("#lc-progress-bar") do
-                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url, :ref => "lc-pb"))
-            end
-          end
-
-          it "should have links to every lesson in the course except the current one" do
-            course1.lessons.each do |l|
-              next if l == lesson1
-              within("#lc-progress-bar") do
-                expect(page).to have_link("", :href => lesson_path(course1.title_url, lesson2.title_url, :ref => "lc-pb"))
-              end
-            end
-          end
-
-          it "should have a current lesson circle" do
-            expect(page).to have_css(".lc-active-circle")
           end
         end
       end

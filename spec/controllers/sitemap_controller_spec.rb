@@ -3,15 +3,13 @@ require 'spec_helper'
 describe SitemapController do
 
   describe 'GET #index' do
-
-    let :static_pages_urls do
+    let(:static_pages_urls) {
       [root_url, about_url, contact_url, faq_url, login_url, signup_url]
-    end
-
-    let(:course) { [double('Course')] }
+    }
+    let(:course) { double('Course') }
 
     before do
-      allow(Course).to receive(:all).and_return(course)
+      allow(Course).to receive(:all).and_return([course])
     end
 
     it 'renders the sitemap template' do
@@ -26,9 +24,7 @@ describe SitemapController do
 
     it 'assigns @courses' do
       get :index, format: :xml
-      expect(assigns(:courses)).to eql(course)
+      expect(assigns(:courses)).to eql([course])
     end
-
   end
-
 end
