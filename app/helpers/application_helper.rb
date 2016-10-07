@@ -28,4 +28,18 @@ module ApplicationHelper
     markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {:fenced_code_blocks => true})
     markdown.render(markdown_in).html_safe
   end
+
+  def bootstrap_class_for(flash_type)
+    bootstrap_classes.fetch(flash_type.to_sym, custom_flash(flash_type))
+  end
+
+  private
+
+  def custom_flash(flash_type)
+    "alert-#{flash_type.to_s}"
+  end
+
+  def bootstrap_classes
+    { notice: 'alert-success', alert: 'alert-error' }
+  end
 end
