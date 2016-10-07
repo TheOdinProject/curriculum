@@ -114,6 +114,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec/tree/master/connect-four)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Ruby/testing/connect_four)
 * [Austin Mason's solution](https://github.com/CouchofTomato/ConnectFour)
+* [David Chapman's solution[(https://github.com/davidchappy/odin_training_projects/tree/master/connect_four)
 * Add your solution above this line!
 
 ## Additional Resources
