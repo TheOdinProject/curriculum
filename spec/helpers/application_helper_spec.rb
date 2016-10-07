@@ -17,7 +17,7 @@ describe ApplicationHelper do
       end
     end
 
-    context 'when flash type is error' do
+    context 'when custom flash type' do
       let(:flash_type) { 'error' }
 
       it 'returns the bootstrap success class' do

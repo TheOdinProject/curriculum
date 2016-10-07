@@ -36,7 +36,7 @@ module ApplicationHelper
   private
 
   def custom_flash(flash_type)
-    "alert-#{flash_type.to_s}"
+    "alert-#{flash_type}"
   end
 
   def bootstrap_classes
