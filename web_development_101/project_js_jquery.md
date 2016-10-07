@@ -490,4 +490,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Surafel Muluye's Solution](https://github.com/SurafelM/Etch-Sketch/tree/master3) | [View in Browser](https://htmlpreview.github.io/?https://github.com/SurafelM/Etch-Sketch/blob/master3/index.html)
 * [biko1982's Solution](https://github.com/biko1982/etch-a-sketch) | [View in Browser](https://htmlpreview.github.io/?https://github.com/biko1982/etch-a-sketch/blob/master/index.html)
 * [smilesr120's Solution] (https://github.com/smilesr/op-wd-fe-55-etchsketch) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/smilesr/op-wd-fe-55-etchsketch/blob/master/index.html)
+*[Jorge Z Garcia's solution]  (https://github.com/zgjorge/theOdinProject/tree/master/sketch4)
 * Add your solution above this line!
