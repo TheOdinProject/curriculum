@@ -843,6 +843,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Eren Çataltepe's Solution (Easy)](https://github.com/erencataltepe/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/google-homepage/blob/master/index.html)
  [Hemant's Solution (Easy)] (https://github.com/hemrok0101/Google_homepage) | [View In Browser] (http://htmlpreview.github.io/?https://github.com/hemrok0101/Google_homepage/blob/master/index.html)
 * [Tim Lapinskas's Solution (Easy)] (https://github.com/tlapinsk/google-homepage) | [View in browser] (https://tlapinsk.github.io/google-homepage/) 
+* [Lawrence Lawson's Solution (Easy)] https://github.com/Zagan202/google-homepage | [View in browser] (https://htmlpreview.github.io/?https://github.com/Zagan202/google-homepage/blob/master/index.html) 
+
 
 * Add your solution above this line!
 
