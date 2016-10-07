@@ -30,7 +30,7 @@ module ApplicationHelper
   end
 
   def bootstrap_class_for(flash_type)
-    bootstrap_classes.fetch(flash_type.to_sym, custom_flash(flash_type))
+    bootstrap_classes.fetch(flash_type, custom_flash(flash_type))
   end
 
   private
@@ -40,6 +40,6 @@ module ApplicationHelper
   end
 
   def bootstrap_classes
-    { notice: 'alert-success', alert: 'alert-error' }
+    { 'notice' => 'alert-success', 'alert' => 'alert-error' }
   end
 end
