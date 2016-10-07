@@ -118,6 +118,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Fabricio Carrara's solution](https://github.com/fcarrara/odin-kittens)
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin-kittens)
+* [Frank V's solution](https://github.com/fv42wid/kittens)
 * Add your solution above this line!
 
 
