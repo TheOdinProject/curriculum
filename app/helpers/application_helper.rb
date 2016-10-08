@@ -1,6 +1,6 @@
 module ApplicationHelper
 
-  def chat_link_general
+  def chat_link
     'https://gitter.im/TheOdinProject/theodinproject'
   end
 
