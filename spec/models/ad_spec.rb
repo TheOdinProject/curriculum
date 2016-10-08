@@ -1,9 +1,9 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe Ad do
 
   context "with one ad created" do
-  
+
     let(:ad){ FactoryGirl.create(:ad) }
 
     describe ".show_ads?" do

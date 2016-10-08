@@ -7,10 +7,12 @@ ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 # Prevent database truncation if the environment is production
 abort("The Rails environment is running in production mode!") if Rails.env.production?
-require 'spec_helper'
-require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
-
+require 'rspec/rails'
+require 'capybara/rails'
+require 'capybara/rspec'
+require 'phantomjs'
+require 'capybara/poltergeist'
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
 # run as spec files by default. This means that files in spec/support that end
@@ -24,13 +26,45 @@ require 'rspec/rails'
 # directory. Alternatively, in the individual `*_spec.rb` files, manually
 # require only the support files necessary.
 #
-# Dir[Rails.root.join('spec/support/**/*.rb')].each { |f| require f }
+Dir[Rails.root.join("spec/support/**/*.rb")].each {|f| require f}
+
+def wait_for_ajax
+  Timeout.timeout(Capybara.default_max_wait_time) do
+    loop do
+      active = page.evaluate_script('jQuery.active')
+      break if active == 0
+    end
+  end
+end
 
 # Checks for pending migration and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove this line.
 ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|
+  # DEFAULT_HOST = "localhost"
+
+  config.include Capybara::DSL
+  Capybara.javascript_driver = :poltergeist
+  Capybara.always_include_port = true
+  Capybara.default_host = "http://localhost"
+
+  Capybara.register_driver :poltergeist do |app|
+    Capybara::Poltergeist::Driver.new(app, :phantomjs => Phantomjs.path)
+  end
+
+  config.before :each do
+    if Capybara.current_driver == :rack_test
+      DatabaseCleaner.strategy = :transaction
+    else
+      DatabaseCleaner.strategy = :truncation
+    end
+    DatabaseCleaner.start
+  end
+
+  config.after do
+    DatabaseCleaner.clean
+  end
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
@@ -58,4 +92,11 @@ RSpec.configure do |config|
   config.filter_rails_from_backtrace!
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
+
+  config.order = "random"
+
+  OmniAuth.config.test_mode = true
+
+  config.include(Shoulda::Matchers::ActiveModel, type: :model)
+  config.include(Shoulda::Matchers::ActiveRecord, type: :model)
 end

@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe Section do
   let(:attrs) { FactoryGirl.attributes_for(:section) }

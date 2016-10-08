@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 # This spec combines both the courses and the lessons into one since they're so tightly intertwined
 # Particularly because you need to create a course to create a section to create a lesson
