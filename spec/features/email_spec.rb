@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe "Email Confirmation" do
   let!(:course){ FactoryGirl.create(:course, is_active: true) }
@@ -18,7 +18,7 @@ describe "Email Confirmation" do
     end
   end
 
-  describe "Users registered before email confirmations were added" do 
+  describe "Users registered before email confirmations were added" do
     let!(:user) { FactoryGirl.create(:user, :reg_before_conf => true, :confirmed_at => nil) }
     before { sign_in(user) }
 
@@ -59,7 +59,7 @@ describe "Email Confirmation" do
         link = email.match(/href="(.*confirmation_token.*)" /)[1]
         visit link
         expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
-      end 
+      end
 
       it "returns user to page they were on when they clicked link" do
         click_on "Didn't receive confirmation instructions, or need them again?"
@@ -93,7 +93,7 @@ describe "Email Confirmation" do
         click_on("Logout") # clear user from before block
         sign_up_with_github
         click_on("Logout")  # clear session
-        git_user = User.last  # the user just created 
+        git_user = User.last  # the user just created
         git_user.created_at = Time.now - 3.days
         git_user.reg_before_conf = true
         git_user.save
@@ -103,7 +103,7 @@ describe "Email Confirmation" do
         click_on "Login"
         click_on "Sign in with Github"
       end
-  
+
       it "provides correct link to resend confirmation instructions from any page" do
         # Currently on lesson page - from before block
         click_on "Didn't receive confirmation instructions, or need them again?"
@@ -115,7 +115,7 @@ describe "Email Confirmation" do
         link = email.match(/href="(.*confirmation_token.*)" /)[1]
         visit link
         expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
-      end 
+      end
     end
 
 

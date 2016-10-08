@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe UsersHelper do
   let(:user) { double('User', lesson_completion_time: lesson_completion_time) }

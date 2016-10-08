@@ -1,4 +1,4 @@
-require 'rails_helper'
+require 'spec_helper'
 
 RSpec.describe SocialMediaLink do
   subject(:social_media_link) { SocialMediaLink.new(user) }
