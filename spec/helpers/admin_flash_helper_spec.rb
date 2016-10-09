@@ -8,6 +8,7 @@ describe AdminFlashHelper do
         'admin_flash_10' => 'disabled',
         'admin_flash_20' => 'disabled',
         'not_a_flash_15' => 'disabled',
+        'admin_flash_' => 'disabled',
       }
     }
 

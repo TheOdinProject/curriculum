@@ -7,6 +7,6 @@ module AdminFlashHelper
   private
 
   def admin_flash_cookies
-    cookies.map { |name, _| name.match(/admin_flash_(\d*)/) }.compact
+    cookies.map { |name, _| name.match(/admin_flash_(\d+)/) }.compact
   end
 end
