@@ -380,6 +380,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [EnXo's Interactive Solution](https://github.com/Asadidrees89/js-math) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Asadidrees89/js-math/blob/master/index.html)
 * [Curtis Barnard's Solution](https://github.com/oregoncurtis/euler_problems)
 * [Tim Lapinskas's Solution](https://github.com/tlapinsk/projecteuler)
+* [jeff1st's Solution](https://github.com/jeff1st/OProject_solutions/blob/master/multiples.js)
 * Add your solution above this line!
 
 ## Additional Resources
