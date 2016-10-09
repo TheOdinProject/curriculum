@@ -25,4 +25,21 @@ describe ApplicationHelper do
       end
     end
   end
+
+  describe 'title' do
+
+    context 'when input is not nil' do
+      it 'stores the title in a content_for block' do
+        helper.title('Courses')
+        expect(helper.content_for(:title)).to eql('Courses | The Odin Project')
+      end
+    end
+
+    context 'when input is nil' do
+      it 'returns nil' do
+        expect(title).to be nil
+      end
+    end
+
+  end
 end
