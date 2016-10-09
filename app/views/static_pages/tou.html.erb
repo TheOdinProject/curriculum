@@ -5,7 +5,7 @@
 
     <div id="tou">
       <% f = File.open("legal_tou.md", "rb") %>
-      <%= md(f.read) %>
+      <%= convert_markdown_to_html(f.read) %>
       <% f.close %>
     </div>
 

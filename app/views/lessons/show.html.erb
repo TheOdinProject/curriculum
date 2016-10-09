@@ -33,7 +33,7 @@
       </h3>
     <% end %>
 
-    <%= md(@lesson.content) %>
+    <%= convert_markdown_to_html(@lesson.content) %>
 
     <%= render partial: 'chat_link' %>
 

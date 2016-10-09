@@ -10,10 +10,8 @@ module ApplicationHelper
     end
   end
 
-  # uses the redcarpet gem to render the markdown as html
-  def md(markdown_in)
-    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {:fenced_code_blocks => true})
-    markdown.render(markdown_in).html_safe
+  def convert_markdown_to_html(markdown)
+    MarkdownConverter.new(markdown).as_html
   end
 
   def bootstrap_class_for(flash_type)

@@ -5,7 +5,7 @@
 
     <div id="cla">
       <% f = File.open("legal_cla.md", "rb") %>
-      <%= md(f.read) %>
+      <%= convert_markdown_to_html(f.read) %>
       <% f.close %>
     </div>
 
