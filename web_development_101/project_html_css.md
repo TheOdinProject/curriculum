@@ -848,6 +848,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [jeff1st's Solution (Easy)] (https://github.com/jeff1st/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/jeff1st/google-homepage/blob/master/webpage.html)
 * [Giuseppe's solution (Easy)](https://github.com/Cuboatgit/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Cuboatgit/google-homepage/blob/master/index.html)
 * [Christopher Ivan's Solution (Easy)](https://github.com/sanada1615/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sanada1615/google-homepage/blob/master/index.html)
+* [Nuno Monteiro's Solution (Easy)](https://github.com/Nuno1123/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Nuno1123/google-homepage/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
