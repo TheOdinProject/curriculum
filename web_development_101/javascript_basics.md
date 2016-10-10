@@ -381,6 +381,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Curtis Barnard's Solution](https://github.com/oregoncurtis/euler_problems)
 * [Tim Lapinskas's Solution](https://github.com/tlapinsk/projecteuler)
 * [jeff1st's Solution](https://github.com/jeff1st/OProject_solutions/blob/master/multiples.js)
+* [Christopher Ivan's Solutions](https://github.com/sanada1615/project-euler-solutions)
 * Add your solution above this line!
 
 ## Additional Resources
