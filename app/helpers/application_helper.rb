@@ -1,32 +1,17 @@
 module ApplicationHelper
 
-  def chat_link_general
+  def chat_link
     'https://gitter.im/TheOdinProject/theodinproject'
   end
 
   def title(input = nil)
-    title = ""
     if input
-      title += input
-      title += "  |  The Odin Project"
-    elsif @course
-      title += "Learn #{@course.title}"
-      if @lesson
-        title += " -- #{@lesson.title}"
-      else
-        title += " for Free"
-      end
-    else
-      title = "Learn Web Development for Free Using Ruby on Rails"
-      title += "  |  The Odin Project"
+      content_for(:title) { input + ' | The Odin Project' }
     end
-    title
   end
 
-  # uses the redcarpet gem to render the markdown as html
-  def md(markdown_in)
-    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions = {:fenced_code_blocks => true})
-    markdown.render(markdown_in).html_safe
+  def convert_markdown_to_html(markdown)
+    MarkdownConverter.new(markdown).as_html
   end
 
   def bootstrap_class_for(flash_type)

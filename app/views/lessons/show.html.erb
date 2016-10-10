@@ -1,3 +1,4 @@
+<%= title(@lesson.title + ' - ' + @course.title) %>
 <div id="lesson-nav">
   <div class="inner-nav">
     <%= link_to "Course List", courses_path %> >>
@@ -32,7 +33,7 @@
       </h3>
     <% end %>
 
-    <%= md(@lesson.content) %>
+    <%= convert_markdown_to_html(@lesson.content) %>
 
     <%= render partial: 'chat_link' %>
 
