@@ -56,7 +56,7 @@
                       </div>
                   <% end %>
 
-                  <a href="<%= lesson_path(lesson.course.title_url, lesson.id) %>" class="lesson-link">
+                  <a href="<%= course_lesson_path(lesson.course, lesson) %>" class="lesson-link">
                     <div class="lesson-number">
                       <h3>
                         <%= lesson.is_project ? "Project" : "Step #{lesson_num}"%>: &nbsp;

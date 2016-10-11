@@ -50,14 +50,14 @@ FriendlyId.defaults do |config|
   # By default, FriendlyId's :slugged addon expects the slug column to be named
   # 'slug', but you can change it if you wish.
 
-  config.slug_column = 'title_url'
+  config.slug_column = 'slug'
 
   # When FriendlyId can not generate a unique ID from your base method, it appends
   # a UUID, separated by a single dash. You can configure the character used as the
   # separator. If you're upgrading from FriendlyId 4, you may wish to replace this
   # with two dashes.
   #
-  # config.sequence_separator = '-'
+  config.sequence_separator = '-'
   #
   #  ## Tips and Tricks
   #

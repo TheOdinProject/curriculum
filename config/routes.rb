@@ -29,6 +29,12 @@ devise_for :users,
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
   get 'studygroups' => "static_pages#studygroups"
 
+  resources :courses, only: [:index, :show ] do
+    resources :lessons, only: [:show]
+  end
+
+  resources :lessons, only: [:show]
+
   #failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
 
@@ -52,13 +58,13 @@ devise_for :users,
   get 'courses' => 'courses#index'
 
   # Explicitly redirect deprecated routes (301)
-  get ':course_name' => redirect('/%{course_name}')
-  get 'courses/:course_name/lessons' => redirect('/%{course_name}')
-  get 'courses/:course_name/lessons/:lesson_name' => redirect('/%{course_name}/%{lesson_name}')
+  # get ':course_name' => redirect('/%{course_name}')
+  # get 'courses/:course_name/lessons' => redirect('/%{course_name}')
+  # get 'courses/:course_name/lessons/:lesson_name' => redirect('/%{course_name}/%{lesson_name}')
 
   # Match all undefined routes as courses and/or lessons
-  get 'courses/:id' => 'courses#show', :as => "course"
+  # get 'courses/:id' => 'courses#show', :as => "course"
   # get ':course_name' => 'lessons#index', :as => "course"
   # get ':course_name' => 'lessons#index', :as => "lessons"
-  get ':course_name/:id' => 'lessons#show', :as => "lesson"
+  # get ':course_name/:id' => 'lessons#show', :as => "lesson"
 end

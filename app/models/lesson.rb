@@ -1,8 +1,6 @@
 class Lesson < ActiveRecord::Base
   extend FriendlyId
 
-  friendly_id :title, use: :slugged
-  
   belongs_to :section
   has_one :course, :through => :section
   has_many :lesson_completions, :dependent => :destroy
@@ -10,6 +8,8 @@ class Lesson < ActiveRecord::Base
 
   validates_uniqueness_of :position
   validates :content, presence: true, on: :update
+
+  friendly_id :slug_canidates, use: [:slugged, :finders]
 
   def next_lesson
     find_lesson.next_lesson
@@ -56,5 +56,16 @@ class Lesson < ActiveRecord::Base
 
   def find_lesson
     FindLesson.new(self)
+  end
+
+  def slug_canidates
+    [
+      :title,
+      [:title, course_title]
+    ]
+  end
+
+  def course_title
+    self.course.title
   end
 end

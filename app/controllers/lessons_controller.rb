@@ -1,5 +1,5 @@
 class LessonsController < ApplicationController
-  rescue_from ActiveRecord::RecordNotFound, :with => :not_found_error
+  # rescue_from ActiveRecord::RecordNotFound, :with => :not_found_error
 
   def show
     @lesson = Lesson.friendly.find(params[:id])
