@@ -383,6 +383,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [jeff1st's Solution](https://github.com/jeff1st/OProject_solutions/blob/master/multiples.js)
 * [Christopher Ivan's Solutions](https://github.com/sanada1615/project-euler-solutions)
 * [Behdad Analui's Solutions](https://github.com/banalui/project_euler_1)
+* [N00bG1rl's Solution](https://github.com/N00bG1rl/Euler)
 * Add your solution above this line!
 
 ## Additional Resources
