@@ -1,4 +1,7 @@
 class Course < ActiveRecord::Base
+  extend FriendlyId
+
+  friendly_id :title, use: :slugged
 
   serialize :you_learn, Array
   serialize :you_build, Array

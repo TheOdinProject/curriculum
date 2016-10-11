@@ -1,5 +1,8 @@
 class Lesson < ActiveRecord::Base
+  extend FriendlyId
 
+  friendly_id :title, use: :slugged
+  
   belongs_to :section
   has_one :course, :through => :section
   has_many :lesson_completions, :dependent => :destroy
@@ -46,7 +49,7 @@ class Lesson < ActiveRecord::Base
     logger.error "Failed to import \"#{title}\" content: #{errors}"
     false
   end
-  
+
   def section_lessons
     section.lessons
   end

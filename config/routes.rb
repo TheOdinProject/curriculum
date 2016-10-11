@@ -52,12 +52,13 @@ devise_for :users,
   get 'courses' => 'courses#index'
 
   # Explicitly redirect deprecated routes (301)
-  get 'courses/:course_name' => redirect('/%{course_name}')
+  get ':course_name' => redirect('/%{course_name}')
   get 'courses/:course_name/lessons' => redirect('/%{course_name}')
   get 'courses/:course_name/lessons/:lesson_name' => redirect('/%{course_name}/%{lesson_name}')
 
   # Match all undefined routes as courses and/or lessons
-  get ':course_name' => 'lessons#index', :as => "course"
-  get ':course_name' => 'lessons#index', :as => "lessons"
-  get ':course_name/:lesson_name' => 'lessons#show', :as => "lesson"
+  get 'courses/:id' => 'courses#show', :as => "course"
+  # get ':course_name' => 'lessons#index', :as => "course"
+  # get ':course_name' => 'lessons#index', :as => "lessons"
+  get ':course_name/:id' => 'lessons#show', :as => "lesson"
 end

@@ -1,9 +1,9 @@
-<%= title(@lesson.title + ' - ' + @course.title) %>
+<%= title(@lesson.title) %>
 <div id="lesson-nav">
   <div class="inner-nav">
     <%= link_to "Course List", courses_path %> >>
-    <%= link_to "#{@course.title}", lessons_path(@course.title_url) %> >>
-    <%= link_to "#{@lesson.section.title}", lessons_path(@course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >>
+    <%= link_to "#{@lesson.course.title}", course_path(@lesson.course.title_url) %> >>
+    <%= link_to "#{@lesson.section.title}", course_path(@lesson.course.title_url, :anchor => "section-#{@lesson.section.title_url}") %> >>
     <% if @lesson.is_project %>
       Project:
     <% else %>
@@ -62,7 +62,7 @@
 
         <div class="lnav-prev lnav-wrap <%= 'lnav-disabled' unless @lesson.prev_lesson %> ">
           <% if @lesson.prev_lesson %>
-            <%= link_to lesson_path(@course.title_url, @lesson.prev_lesson.title_url, :ref => "lnav"), :title => "Go back to \"#{@lesson.prev_lesson.title}\""  do %>
+            <%= link_to lesson_path(@lesson.course.title_url, @lesson.prev_lesson.title_url, :ref => "lnav"), :title => "Go back to \"#{@lesson.prev_lesson.title}\""  do %>
               <div class="lnav-prev-icon icon"></div>
               <div class="lnav-text">
                 <p>Prev</p><p>Lesson</p>
@@ -77,7 +77,7 @@
         </div>
 
         <div class="lnav-index lnav-wrap">
-          <%= link_to lessons_path(@course.title_url, :ref => "lnav"), :title => "Go back to \"#{@course.title}\""  do %>
+          <%= link_to course_path(@lesson.course.title_url, :ref => "lnav"), :title => "Go back to \"#{@lesson.course.title}\""  do %>
             <div class="lnav-course-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && @lesson.next_lesson.nil? %>"></div>
             <div class="lnav-text">
               <p>View</p><p>Course</p>
@@ -87,7 +87,7 @@
 
         <div class="lnav-next lnav-wrap <%= 'lnav-disabled' unless @lesson.next_lesson %>">
           <% if @lesson.next_lesson %>
-            <%= link_to lesson_path(@course.title_url, @lesson.next_lesson.title_url, :ref => "lnav"), :title => "Move on to \"#{@lesson.next_lesson.title}\"" do %>
+            <%= link_to lesson_path(@lesson.course.title_url, @lesson.next_lesson.id, :ref => "lnav"), :title => "Move on to \"#{@lesson.next_lesson.title}\"" do %>
               <div class="lnav-next-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && !@lesson.next_lesson.nil? %>"></div>
               <div class="lnav-text">
                 <p>Next</p><p>Lesson</p>
