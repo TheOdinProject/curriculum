@@ -104,7 +104,7 @@ end
 
 Then /^I should find the course '([^']+)' completed$/ do |course_title|
   course_url_href = course_title.parameterize
-  selector = ".course-title a[href='/#{course_url_href}']"
+  selector = ".course-title a[href='/courses/#{course_url_href}']"
 
   within selector do
     expect(page.has_selector? '.cc-completion-indicator').to be true

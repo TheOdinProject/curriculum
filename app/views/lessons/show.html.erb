@@ -62,7 +62,7 @@
 
         <div class="lnav-prev lnav-wrap <%= 'lnav-disabled' unless @lesson.prev_lesson %> ">
           <% if @lesson.prev_lesson %>
-            <%= link_to lesson_path(@lesson.course.title_url, @lesson.prev_lesson.title_url, :ref => "lnav"), :title => "Go back to \"#{@lesson.prev_lesson.title}\""  do %>
+            <%= link_to course_lesson_path(@lesson.course, @lesson.prev_lesson, :ref => "lnav"), :title => "Go back to \"#{@lesson.prev_lesson.title}\""  do %>
               <div class="lnav-prev-icon icon"></div>
               <div class="lnav-text">
                 <p>Prev</p><p>Lesson</p>
@@ -87,7 +87,7 @@
 
         <div class="lnav-next lnav-wrap <%= 'lnav-disabled' unless @lesson.next_lesson %>">
           <% if @lesson.next_lesson %>
-            <%= link_to lesson_path(@lesson.course.title_url, @lesson.next_lesson.id, :ref => "lnav"), :title => "Move on to \"#{@lesson.next_lesson.title}\"" do %>
+            <%= link_to course_lesson_path(@lesson.course, @lesson.next_lesson, :ref => "lnav"), :title => "Move on to \"#{@lesson.next_lesson.title}\"" do %>
               <div class="lnav-next-icon icon <%= 'lnav-active' if user_signed_in? && current_user.completed_lesson?(@lesson) && !@lesson.next_lesson.nil? %>"></div>
               <div class="lnav-text">
                 <p>Next</p><p>Lesson</p>

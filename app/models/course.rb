@@ -9,7 +9,7 @@ class Course < ActiveRecord::Base
 
   validates_uniqueness_of :position
 
-  friendly_id :title, use: :slugged
+  friendly_id :title, use: [:slugged, :finders]
 
   def percent_completed_by(user)
     100 * (1.0 - uncompleted_lessons_in_course(user) / lessons.count.to_f)
