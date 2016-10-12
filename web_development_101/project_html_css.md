@@ -851,7 +851,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Harrison Ly's Solution (Easy)](https://github.com/pixelfudger/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/pixelfudger/google-homepage/blob/master/index.html)
 * [Ian Arsenault's Solution (Easy)](https://github.com/GorgonsMaze/google-homepage) | [View in browser](http://ianarsenault.me/google-homepage/)
 * [Jasmine Galang's Easy Solution](https://github.com/jsmnglng/google-homepage) | [Difficult solution](https://github.com/jsmnglng/google-results-page) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/jsmnglng/google-homepage/blob/master/index.html) | [View in browser (Difficult)](https://htmlpreview.github.io/?https://github.com/jsmnglng/google-results-page/blob/master/index.html)
-* [Ace Z. Alba's Solution (Easy)](https://github.com/poorhexapus/AAlba_OdinProjectRoute/tree/master/1.%20Google%20Frontpage%20(Easy%20Solution) | [View in browser](https://cdn.rawgit.com/poorhexapus/AAlba_OdinProjectRoute/master/1.%20Google%20Frontpage%20(Easy%20Solution)/Google%20Mockup.html)
+* [Ace Z. Alba's Solution (Easy)](https://github.com/poorhexapus/AAlba_OdinProjectRoute/tree/master/1.%20Google%20Frontpage%20(Easy%20Solution)) | [View in browser](https://cdn.rawgit.com/poorhexapus/AAlba_OdinProjectRoute/master/1.%20Google%20Frontpage%20(Easy%20Solution)/Google%20Mockup.html)
 * Add your solution above this line!
 
 ## Additional Resources
