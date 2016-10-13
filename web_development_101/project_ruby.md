@@ -225,6 +225,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jerry Gao's solution](https://github.com/blackwright/learn_ruby)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby)
 * [Fred Rhae's solution](https://github.com/fredrhae/learn_ruby)
+* [Benjamin-Re's solution](https://github.com/Benjamin-Re/Ruby_Project)
 * * Add your solution above this line!
 
 ## Additional Resources
