@@ -851,6 +851,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Harrison Ly's Solution (Easy)](https://github.com/pixelfudger/google-homepage/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/pixelfudger/google-homepage/blob/master/index.html)
 * [Ian Arsenault's Solution (Easy)](https://github.com/GorgonsMaze/google-homepage) | [View in browser](http://ianarsenault.me/google-homepage/)
 * [Jasmine Galang's Easy Solution](https://github.com/jsmnglng/google-homepage) | [Difficult solution](https://github.com/jsmnglng/google-results-page) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/jsmnglng/google-homepage/blob/master/index.html) | [View in browser (Difficult)](https://htmlpreview.github.io/?https://github.com/jsmnglng/google-results-page/blob/master/index.html)
+* [Nuno Monteiro's Easy Solution](https://github.com/Nuno1123/google-homepage) | [Difficult solution](https://github.com/Nuno1123/google-homepage-advanced) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/Nuno1123/google-homepage/blob/master/index.html) | [View in browser (Difficult)](https://htmlpreview.github.io/?https://github.com/Nuno1123/google-homepage-advanced/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
