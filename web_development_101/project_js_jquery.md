@@ -477,7 +477,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Will Covill's solution](https://github.com/Willcovill/sketcher/tree/master/sketcher) | [View in browser](https://htmlpreview.github.io/?https://github.com/Willcovill/sketcher/blob/master/sketcher/index.html)
 * [Richard Shipe's solution](https://github.com/rheechashaipu/TOP-Grid-Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/rheechashaipu/TOP-Grid-Project/blob/master/index.html)
 * [Max Tsao's solution](https://github.com/mt9304/jquery-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/mt9304/jquery-project/blob/master/index.html)
-* [Benjamin's solution] (https://github.com/Benjamin-Re/JavaScript-JQuery.git) | [View in browser] (http://htmlpreview.github.io/?https://htmlpreview.github.io/)
+* [Benjamin's solution] (https://github.com/Benjamin-Re/JavaScript-JQuery.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/Benjamin-Re/JavaScript-JQuery/blob/master/index.html)
 * [Jakub Augustyn's solution] (https://github.com/zerozero7/Etch-A-Sketch) | [View in browser] (https://cdn.rawgit.com/zerozero7/Etch-A-Sketch/47b10f5/index.html)
 * [Alan Cruse's solution](https://github.com/ADECruse/project-javascript-jquery.git) | [View in browser](https://htmlpreview.github.io/?https://github.com/ADECruse/project-javascript-jquery/blob/master/index.html)
 * [Junqiang Qian's solution](https://github.com/junqiangqian/the_odin_project/tree/master/webdevelopment101/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/junqiangqian/the_odin_project/blob/master/webdevelopment101/etch-a-sketch/index.html)
