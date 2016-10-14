@@ -147,6 +147,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [CodyLBuffaloe's solution] (https://github.com/CodyLBuffaloe/tic_tac_toe)
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/tic_tac_toe)
 * [Kaaviya's solution](https://github.com/Kavi6/curriculum/blob/3f56d11d33e2b0241c6a4946cc0d2c871bd278bb/Kaaviya's%20Solution%20(TicTacToe))
+* [Jerry Gao's solution](https://github.com/blackwright/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * Add your solution above this line!
 
 
@@ -271,6 +272,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [David Chapman's solution(Simple AI)] (https://github.com/davidchappy/odin_training_projects/tree/master/mastermind)
 * [CodyLBuffaloe's solution with AI] (https://github.com/CodyLBuffaloe/Master_Mind)
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/mastermind)
+* [Jerry Gao's solution](https://github.com/blackwright/mastermind/blob/master/mastermind.rb)
 * Add your solution above this line!
 
 ## Additional Resources
