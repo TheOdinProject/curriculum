@@ -379,6 +379,12 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Parker Brown's Solution](https://github.com/parkerjbrown/project-euler)
 * [EnXo's Interactive Solution](https://github.com/Asadidrees89/js-math) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Asadidrees89/js-math/blob/master/index.html)
 * [Curtis Barnard's Solution](https://github.com/oregoncurtis/euler_problems)
+* [Tim Lapinskas's Solution](https://github.com/tlapinsk/projecteuler)
+* [jeff1st's Solution](https://github.com/jeff1st/OProject_solutions/blob/master/multiples.js)
+* [Christopher Ivan's Solutions](https://github.com/sanada1615/project-euler-solutions)
+* [Behdad Analui's Solutions](https://github.com/banalui/project_euler_1)
+* [N00bG1rl's Solution](https://github.com/N00bG1rl/Euler)
+* [Samuel Langenfeld's Solution] (https://github.com/SamuelLangenfeld/euler-javascript) | [View in Browser](https://htmlpreview.github.io/?https://github.com/SamuelLangenfeld/euler-javascript/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources

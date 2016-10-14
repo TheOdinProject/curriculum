@@ -185,6 +185,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Christopher Corder's Solution] (https://github.com/cs-cordero/Blogger) | [View in Browser] (https://guarded-peak-35888.herokuapp.com/)
 * [Raiko Murulauk's Solution] (https://github.com/Cypher0/blogger) | [View in Browser] (https://protected-taiga-95155.herokuapp.com/)
 * [Ayon Pal's Solution](https://github.com/AyonPal/blogger/tree/master/blogger) | [View in Browser](https://enigmatic-temple-69582.herokuapp.com/)
+* [Jerry Gao's solution](https://github.com/blackwright/blogger) | [View in browser](https://pure-escarpment-77829.herokuapp.com/)
 * Add your solution above this line!
 
 
