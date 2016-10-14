@@ -205,6 +205,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/ruby/bubble_sort.rb)
 * [Kaaviya's solution](https://github.com/Kavi6/curriculum/blob/9a535b506f437c306422d9d37874215e15636985/Kaaviya's%20Solution%20(bubble_sort))
 * [Jerry Gao's solution](https://github.com/blackwright/bubble_sort/blob/master/bubble_sort.rb)
+* [Saroar's solution](https://repl.it/Cmqp/2)
 * Add your solution above this line!
 
 
