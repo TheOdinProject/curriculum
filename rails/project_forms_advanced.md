@@ -101,6 +101,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker) | [View in browser](https://flight-booker-rails.herokuapp.com)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in browser](https://guarded-atoll-24378.herokuapp.com/)
 * [Frank V's solution](https://github.com/fv42wid/flight)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/odin-flight-booker) | [View in browser](http://top-flight-booker.herokuapp.com/)
 * Add your solution above this line!
 
 ## Additional Resources
