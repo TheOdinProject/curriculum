@@ -1,34 +1,43 @@
 require 'rails_helper'
 
+RSpec.describe CoursesController do
+  let(:courses) { [course, course] }
+  let(:course) { double('Course', id: 'abc123') }
+  let(:params) { { id: 'abc123' } }
 
-describe CoursesController do
+  describe "GET index" do
 
-  let(:courses){ FactoryGirl.create_list(:course, 3, :is_active => true) }
+    before do
+      allow(Course).to receive(:order).with('position asc').
+        and_return(courses)
+    end
 
-  context "requesting the courses index" do
+    it 'assigns @courses' do
+      get :index
+      expect(assigns(:courses)).to eq(courses)
+    end
 
-    describe "GET index" do
+    it 'renders the courses' do
+      get :index
+      expect(response).to render_template(:index)
+    end
+  end
 
-      context "by default" do
+  describe 'GET show' do
 
-        it "courses should be sorted by position" do
-          get :index
-          expect(assigns(:courses)).to eq(courses.sort{|a,b| a.position <=> b.position })
-        end
-      end
+    before do
+      allow(Course).to receive(:find).with('abc123').
+        and_return(course)
+    end
 
-      context "with courses at out-of-order positions" do
+    it 'assigns @course' do
+      get :show, params
+      expect(assigns(:course)).to eql(course)
+    end
 
-        before do
-          courses.first.position = courses.last.position + 1
-          courses.first.save
-        end
-
-        it "should still be sorted by position" do
-          get :index
-          expect(assigns(:courses)).to eq(courses.sort{|a,b| a.position <=> b.position })
-        end
-      end
+    it 'renders the course' do
+      get :show, params
+      expect(response).to render_template(:show)
     end
   end
 end

@@ -11,19 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140505013220) do
+ActiveRecord::Schema.define(version: 20161011162302) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "admin_flashes", force: true do |t|
+  create_table "admin_flashes", force: :cascade do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "message"
     t.datetime "expires"
   end
 
-  create_table "ads", force: true do |t|
+  create_table "ads", force: :cascade do |t|
     t.string   "image_path",                null: false
     t.string   "url",                       null: false
     t.string   "style",                     null: false
@@ -34,7 +34,7 @@ ActiveRecord::Schema.define(version: 20140505013220) do
     t.datetime "updated_at"
   end
 
-  create_table "content_activations", force: true do |t|
+  create_table "content_activations", force: :cascade do |t|
     t.integer  "user_id",           null: false
     t.integer  "content_bucket_id", null: false
     t.datetime "created_at"
@@ -43,7 +43,7 @@ ActiveRecord::Schema.define(version: 20140505013220) do
 
   add_index "content_activations", ["user_id", "content_bucket_id"], name: "index_content_activations_on_user_id_and_content_bucket_id", unique: true, using: :btree
 
-  create_table "content_buckets", force: true do |t|
+  create_table "content_buckets", force: :cascade do |t|
     t.string   "name",       null: false
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -51,7 +51,7 @@ ActiveRecord::Schema.define(version: 20140505013220) do
 
   add_index "content_buckets", ["name"], name: "index_content_buckets_on_name", unique: true, using: :btree
 
-  create_table "courses", force: true do |t|
+  create_table "courses", force: :cascade do |t|
     t.string   "title"
     t.text     "description"
     t.datetime "created_at"
@@ -63,12 +63,27 @@ ActiveRecord::Schema.define(version: 20140505013220) do
     t.string   "teaser"
     t.text     "brief_desc"
     t.boolean  "is_active",   default: false
+    t.string   "slug"
   end
 
+  add_index "courses", ["slug"], name: "index_courses_on_slug", using: :btree
   add_index "courses", ["title"], name: "index_courses_on_title", unique: true, using: :btree
   add_index "courses", ["title_url"], name: "index_courses_on_title_url", using: :btree
 
-  create_table "lesson_completions", force: true do |t|
+  create_table "friendly_id_slugs", force: :cascade do |t|
+    t.string   "slug",                      null: false
+    t.integer  "sluggable_id",              null: false
+    t.string   "sluggable_type", limit: 50
+    t.string   "scope"
+    t.datetime "created_at"
+  end
+
+  add_index "friendly_id_slugs", ["slug", "sluggable_type", "scope"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope", unique: true, using: :btree
+  add_index "friendly_id_slugs", ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type", using: :btree
+  add_index "friendly_id_slugs", ["sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_id", using: :btree
+  add_index "friendly_id_slugs", ["sluggable_type"], name: "index_friendly_id_slugs_on_sluggable_type", using: :btree
+
+  create_table "lesson_completions", force: :cascade do |t|
     t.integer  "lesson_id"
     t.integer  "student_id"
     t.datetime "created_at"
@@ -77,7 +92,7 @@ ActiveRecord::Schema.define(version: 20140505013220) do
 
   add_index "lesson_completions", ["lesson_id", "student_id"], name: "index_lesson_completions_on_lesson_id_and_student_id", unique: true, using: :btree
 
-  create_table "lessons", force: true do |t|
+  create_table "lessons", force: :cascade do |t|
     t.string   "title"
     t.string   "url"
     t.integer  "position",                    null: false
@@ -88,13 +103,13 @@ ActiveRecord::Schema.define(version: 20140505013220) do
     t.datetime "updated_at"
     t.string   "title_url"
     t.text     "content"
+    t.string   "slug"
   end
 
   add_index "lessons", ["position"], name: "index_lessons_on_position", unique: true, using: :btree
-  add_index "lessons", ["section_id"], name: "index_lessons_on_section_id", using: :btree
-  add_index "lessons", ["title_url"], name: "index_lessons_on_title_url", using: :btree
+  add_index "lessons", ["slug", "section_id"], name: "index_lessons_on_slug_and_section_id", unique: true, using: :btree
 
-  create_table "sections", force: true do |t|
+  create_table "sections", force: :cascade do |t|
     t.string   "title"
     t.integer  "position",    null: false
     t.integer  "course_id",   null: false
@@ -108,7 +123,7 @@ ActiveRecord::Schema.define(version: 20140505013220) do
   add_index "sections", ["position"], name: "index_sections_on_position", using: :btree
   add_index "sections", ["title_url"], name: "index_sections_on_title_url", using: :btree
 
-  create_table "splash_emails", force: true do |t|
+  create_table "splash_emails", force: :cascade do |t|
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -116,7 +131,7 @@ ActiveRecord::Schema.define(version: 20140505013220) do
 
   add_index "splash_emails", ["email"], name: "index_splash_emails_on_email", unique: true, using: :btree
 
-  create_table "user_prefs", force: true do |t|
+  create_table "user_prefs", force: :cascade do |t|
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -124,7 +139,7 @@ ActiveRecord::Schema.define(version: 20140505013220) do
 
   add_index "user_prefs", ["user_id"], name: "index_user_prefs_on_user_id", unique: true, using: :btree
 
-  create_table "users", force: true do |t|
+  create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "",    null: false
     t.string   "encrypted_password",     default: "",    null: false
     t.string   "reset_password_token"

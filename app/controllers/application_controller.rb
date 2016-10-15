@@ -1,6 +1,4 @@
 class ApplicationController < ActionController::Base
-  rescue_from ActionView::MissingTemplate, with: :not_found_error
-  rescue_from ActionView::Template::Error, with: :not_found_error
 
   protect_from_forgery
   include BootstrapFlashHelper

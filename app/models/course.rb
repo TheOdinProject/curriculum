@@ -1,4 +1,5 @@
 class Course < ActiveRecord::Base
+  extend FriendlyId
 
   serialize :you_learn, Array
   serialize :you_build, Array
@@ -7,6 +8,8 @@ class Course < ActiveRecord::Base
   has_many :lessons, :through => :sections
 
   validates_uniqueness_of :position
+
+  friendly_id :title, use: [:slugged, :finders]
 
   def percent_completed_by(user)
     100 * (1.0 - uncompleted_lessons_in_course(user) / lessons.count.to_f)

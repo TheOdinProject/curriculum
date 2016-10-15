@@ -1,11 +1,11 @@
 Given /^I am in the '([^']+)' course page$/ do |course_title|
   @course_title = course_title.parameterize
-  visit @course_title
+  visit "/courses/#{@course_title}"
 end
 
 When /^I go to the '([^']+)' lesson page$/ do |lesson_title|
   lesson_title = lesson_title.parameterize
-  visit "#{@course_title}/#{lesson_title}"
+  visit "/courses/#{@course_title}/lessons/#{lesson_title}"
 end
 
 When /^I click on the Next Lesson link$/ do
@@ -22,5 +22,5 @@ end
 
 Then /^I should be in '([^']+)' lesson page$/ do |lesson_title|
   lesson_title = lesson_title.parameterize
-  expect(page.current_path).to eql lesson_path(@course_title, lesson_title)
+  expect(page.current_path).to eql "/courses/#{@course_title}/lessons/#{lesson_title}"
 end

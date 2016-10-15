@@ -13,7 +13,6 @@ devise_for :users,
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
-  get 'scheduler' => redirect('/courses')
   post 'thank_you' => 'static_pages#send_feedback'
   post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
@@ -22,42 +21,33 @@ devise_for :users,
   get 'contact' => "static_pages#contact"
   get 'getting_involved' => "static_pages#getting_involved"
   get 'contributing' => "static_pages#contributing"
-  get 'studygroup' => redirect('/studygroups')
   get 'legal' => "static_pages#legal"
   get 'cla' => "static_pages#cla"
   get 'tou' => "static_pages#tou"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
   get 'studygroups' => "static_pages#studygroups"
+  get 'sitemap' => 'sitemap#index', :defaults => { :format => 'xml' }
 
   #failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
-
-  # This is being hidden until needed (it was needed by the scheduler
-  # but that got killed but will still be useful later)
-  # resource :user_pref, :only => [:edit, :update]
 
   resources :users, :only => [:show, :index, :edit, :update] do
     resource :contact, :only => [:new, :create]
   end
 
-  post 'lesson_completions' => 'lesson_completions#create'
-  delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => "lesson_completion"
-
-  # Sitemap
-  get "sitemap" => "sitemap#index", :defaults => { :format => "xml" }
-
   # ***** COURSES AND LESSONS ROUTES *****
+  resources :courses, only: [:index, :show ] do
+    resources :lessons, only: [:show]
+  end
+  resources :lessons, only: [:show]
 
-  get 'curriculum' => redirect('/courses')
-  get 'courses' => 'courses#index'
+  post 'lesson_completions' => 'lesson_completions#create'
+  delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => 'lesson_completion'
 
   # Explicitly redirect deprecated routes (301)
-  get 'courses/:course_name' => redirect('/%{course_name}')
-  get 'courses/:course_name/lessons' => redirect('/%{course_name}')
-  get 'courses/:course_name/lessons/:lesson_name' => redirect('/%{course_name}/%{lesson_name}')
-
-  # Match all undefined routes as courses and/or lessons
-  get ':course_name' => 'lessons#index', :as => "course"
-  get ':course_name' => 'lessons#index', :as => "lessons"
-  get ':course_name/:lesson_name' => 'lessons#show', :as => "lesson"
+  get ':course_name' => redirect('/courses/%{course_name}')
+  get ':course_name/:lesson_name' => redirect('courses/%{course_name}/lessons/%{lesson_name}')
+  get 'curriculum' => redirect('/courses')
+  get 'studygroup' => redirect('/studygroups')
+  get 'scheduler' => redirect('/courses')
 end

@@ -21,12 +21,10 @@
         <div class="course <%= course.is_active ? '' : 'inactive'%>">
 
           <div class="course-title">
-            <% if course.is_active %>  
-              <a href="<%=lessons_path(course.title_url)%>">
-            <% end %>
+              <a href="<%=course_path(course)%>">
               <% if user_signed_in? %>
                 <h3 class="cc-completion-indicator <%= course.percent_completed_by(current_user) == 100 ? '' : 'hidden' %>" title="You've completed this course!">
-                  &#10004; 
+                  &#10004;
                 </h3>
               <% end %>
               <h2>

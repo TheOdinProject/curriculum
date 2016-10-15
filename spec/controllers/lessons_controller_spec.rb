@@ -1,125 +1,118 @@
 require 'rails_helper'
 
 RSpec.describe LessonsController do
-  let(:course) {
-    double('Course', name: 'web-development-101', lessons: lessons)
-  }
-  let(:lessons) { [lesson, lesson]}
-  let(:lesson) { double('Lesson') }
+  let(:lesson) { double('Lesson', id: 'abc123') }
   let(:ad) { double('Ad') }
+  let(:params) { { course_title: 'web-development-101', id: lesson_id } }
+  let(:lesson_id) { 'abc123' }
   let(:current_user) { double('User') }
-  let(:course_title) { 'web-development-101' }
-  let(:lesson_title) { 'how-this-course-will-work' }
 
   before do
-    allow(Course).to receive(:find_by).with(title_url: course_title).
-      and_return(course)
-
-    allow(lessons).to receive(:find_by).with(title_url: lesson_title).
+    allow(Lesson).to receive(:find).with('abc123').
       and_return(lesson)
-  end
 
-  describe "GET index" do
+    allow(controller).to receive(:current_user).
+      and_return(current_user)
 
-    it 'renders the course' do
-      get :index, course_name: course_title
-      expect(response).to render_template(:index)
-    end
+    allow(Ad).to receive(:show_ads?).with(current_user).
+      and_return(true)
 
-    it 'assigns @course' do
-      get :index, course_name: course_title
-      expect(assigns(:course)).to eql(course)
-    end
-
-    context 'when course cannot be found' do
-      let(:course_title) { 'web-development' }
-      before do
-        allow(Course).to receive(:find_by).with(title_url: course_title).
-          and_raise(ActiveRecord::RecordNotFound)
-      end
-
-      it 'returns a RoutingError' do
-        expect { get :index, course_name: course_title}.
-          to raise_error(ActionController::RoutingError)
-      end
-    end
+    allow(ENV).to receive(:[]).with('SHOW_ADS').
+      and_return(true)
   end
 
   describe "GET show" do
 
     it 'renders the lesson' do
-      get :show,
-      course_name: course_title,
-      lesson_name: lesson_title
-
+      get :show, params
       expect(response).to render_template(:show)
     end
 
-    it 'assigns @course' do
-      get :show,
-      course_name: course_title,
-      lesson_name: lesson_title
-
-      expect(assigns(:course)).to eql(course)
-    end
-
     it 'assigns @lesson' do
-      get :show,
-      course_name: course_title,
-      lesson_name: lesson_title
-
+      get :show, params
       expect(assigns(:lesson)).to eql(lesson)
     end
 
-    context 'when course can not be found' do
-      let(:course_title) { 'web-development' }
-      before do
-        allow(Course).to receive(:find_by).with(title_url: course_title).
-          and_raise(ActiveRecord::RecordNotFound)
-      end
+    it 'assigns @lower_banner_ad' do
+      get :show, params
+      expect(assigns(:lower_banner_ad)).to eql(true)
+    end
 
-      it 'returns a RoutingError' do
-        expect{
-          get :show,
-          course_name: course_title,
-          lesson_name: lesson_title
-        }.to raise_error(ActionController::RoutingError)
-      end
+    it 'assigns @right_box_ad' do
+      get :show, params
+      expect(assigns(:right_box_ad)).to eql(true)
     end
 
     context 'when lesson cannot be found' do
-      let(:lesson_title) { 'how-this-course-will' }
+      let(:lesson_id) { '123' }
+
       before do
-        allow(lessons).to receive(:find_by).with(title_url: lesson_title).
+        allow(Lesson).to receive(:find).with('123').
           and_raise(ActiveRecord::RecordNotFound)
       end
 
       it 'returns a RoutingError' do
-        expect{
-          get :show,
-          course_name: course_title,
-          lesson_name: lesson_title
-        }.to raise_error(ActionController::RoutingError)
+        expect{ get :show, params }.
+          to raise_error(ActionController::RoutingError)
       end
     end
 
-    context 'when show_ads? is true' do
+    context 'when show_ads? is false' do
+      let(:env_show_ads) { false }
+      let(:show_ad) { false }
+
       before do
-        ENV['SHOW_ADS'] = 'true'
-        allow(controller).to receive(:Ad).and_return(ad)
-        allow(ad).to receive(:show_ads?).with(current_user).and_return(true)
+        allow(ENV).to receive(:[]).with('SHOW_ADS').
+          and_return(env_show_ads)
 
-        get :show,
-        course_name: course_title,
-        lesson_name: lesson_title
+        allow(Ad).to receive(:show_ads?).with(current_user).
+          and_return(show_ad)
       end
 
-      it 'assigns @lower_banner_ad' do
-        expect(assigns(:lower_banner_ad)).to eql(true)
+      context 'when show ads environment variable is false' do
+
+        context 'and show ads to current user is true' do
+          let(:show_ad) { true }
+
+          it 'does not assign @lower_banner_ad' do
+            get :show, params
+            expect(assigns(:lower_banner_ad)).to eql(nil)
+          end
+
+          it 'does not assign @right_box_ad' do
+            get :show, params
+            expect(assigns(:right_box_ad)).to eql(nil)
+          end
+        end
+
+        context 'and show ads to current user is false' do
+
+          it 'does not assign @lower_banner_ad' do
+            get :show, params
+            expect(assigns(:lower_banner_ad)).to eql(nil)
+          end
+
+          it 'does not assign @right_box_ad' do
+            get :show, params
+            expect(assigns(:right_box_ad)).to eql(nil)
+          end
+        end
       end
 
-      it 'assigns @right_box_ad' do
-        expect(assigns(:right_box_ad)).to eql(true)
+      context 'when show ads environment variable is true' do
+        let(:env_show_ads) { true }
+
+        context 'and show ads to current user is false' do
+          it 'does not assign @lower_banner_ad' do
+            get :show, params
+            expect(assigns(:lower_banner_ad)).to eql(nil)
+          end
+
+          it 'does not assign @right_box_ad' do
+            get :show, params
+            expect(assigns(:right_box_ad)).to eql(nil)
+          end
+        end
       end
     end
   end

@@ -1,11 +1,14 @@
 class Lesson < ActiveRecord::Base
+  extend FriendlyId
+
+  friendly_id :slug_canidates, use: [:slugged, :finders]
 
   belongs_to :section
   has_one :course, :through => :section
   has_many :lesson_completions, :dependent => :destroy
   has_many :completing_users, :through => :lesson_completions, :source => :student
 
-  validates_uniqueness_of :position
+  validates :position, uniqueness: true
   validates :content, presence: true, on: :update
 
   def next_lesson
@@ -46,12 +49,23 @@ class Lesson < ActiveRecord::Base
     logger.error "Failed to import \"#{title}\" content: #{errors}"
     false
   end
-  
+
   def section_lessons
     section.lessons
   end
 
   def find_lesson
     FindLesson.new(self)
+  end
+
+  def slug_canidates
+    [
+      :title,
+      [:title, course_title]
+    ]
+  end
+
+  def course_title
+    course.title if course
   end
 end
