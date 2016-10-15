@@ -441,7 +441,7 @@
     text-align: center;
     font-size: 10px;
     color: $mid_gray;
-    z-index: 100;
+    z-index: 1;
     &:hover{
       background-color: white!important;
       border-width: 6px;
@@ -507,7 +507,7 @@
     font-size: 10px;
     color: $mid_gray;
     background-color: white;
-    z-index: 100;
+    z-index: 1;
     &:hover{
       background-color: white!important;
       border-width: 6px;
