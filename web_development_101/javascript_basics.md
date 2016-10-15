@@ -385,6 +385,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Behdad Analui's Solutions](https://github.com/banalui/project_euler_1)
 * [N00bG1rl's Solution](https://github.com/N00bG1rl/Euler)
 * [Samuel Langenfeld's Solution] (https://github.com/SamuelLangenfeld/euler-javascript) | [View in Browser](https://htmlpreview.github.io/?https://github.com/SamuelLangenfeld/euler-javascript/blob/master/index.html)
+* [Ian Arsenault's Solution](https://github.com/GorgonsMaze/the_odin_project/tree/master/project_euler)
 * Add your solution above this line!
 
 ## Additional Resources
