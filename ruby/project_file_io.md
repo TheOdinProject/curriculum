@@ -89,7 +89,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Dom Goj's solution](https://github.com/booyakuhhsha/eventManagerHangman/tree/master/event_manager)
 * [David Chapman''s solution](https://github.com/davidchappy/odin_training_projects/tree/master/event_manager)
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/event_manager)
-* [Jerry Gao's solution](https://github.com/blackwright/event_manager)
+* [Jerry Gao's solution](https://github.com/blackwright/event_manager/blob/master/event_manager.rb)
 * Add your solution above this line!
 
 
