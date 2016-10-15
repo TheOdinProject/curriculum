@@ -853,6 +853,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Jasmine Galang's Easy Solution](https://github.com/jsmnglng/google-homepage) | [Difficult solution](https://github.com/jsmnglng/google-results-page) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/jsmnglng/google-homepage/blob/master/index.html) | [View in browser (Difficult)](https://htmlpreview.github.io/?https://github.com/jsmnglng/google-results-page/blob/master/index.html)
 * [Samuel Langenfeld's Easy Solution] (https://github.com/SamuelLangenfeld/google-homepage) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/SamuelLangenfeld/google-homepage/blob/master/index.html)
 * [Jake McDermott's Solution (Easy)] (https://github.com/shakey200592/google-homepage) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/shakey200592/google-homepage/blob/master/index.html)
+* [Alvaro Sanchez's Solution] (https://github.com/heyalvaro/google-homepage) | [View in browser](https://cdn.rawgit.com/heyalvaro/google-homepage/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
