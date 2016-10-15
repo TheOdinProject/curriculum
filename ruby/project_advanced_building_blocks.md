@@ -403,6 +403,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Kaaviya's solution](https://github.com/Kavi6/curriculum/blob/551ccbcea181dd59b73f741c8e7c95afc1d4477f/Kaaviya's%20Solution%20(Enumerable%20Methods))
 * [Jerry Gao's solution](https://github.com/blackwright/enumerable/blob/master/enumerable.rb)
 * [Mike Coon's solution](https://github.com/mac718/advanced_building_blocks/blob/master/Enumberable_methods.rb)
+* [Saroar'S Soulution](https://repl.it/DwZF/0)
 * Add your solution above this line!
 
 ## Additional Resources
