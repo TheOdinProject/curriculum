@@ -82,6 +82,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [James Brooks's solution](https://github.com/jhbrooks/odinbook) | [View in browser](https://rocky-mountain-92199.herokuapp.com/)
 * [Top's solution](https://github.com/TopOneOfTopOne) | [View in browser](https://github.com/TopOneOfTopOne/the-facebook)
 * [Matt Velez's solution](https://github.com/Timecrash/odinbook) | [View in browser](https://velez-odinbook.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/ror_book) | [View in browser](http://murmuring-escarpment-57044.herokuapp.com/)
 * Add your solution above this line!
 
 
