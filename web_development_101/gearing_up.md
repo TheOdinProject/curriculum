@@ -12,7 +12,7 @@ anything else.
 
 We will look at getting clear about what your motivation for learning
 programming is and getting yourself into the growth mindset so that you
-have the right mentality when approaching challenges through out the curriculum.
+have the right mentality when approaching challenges throughout the curriculum.
 
 ###Your Motivation For Learning Programming
 Your motivation to learn to code could be to have a fulfilling career that pays
