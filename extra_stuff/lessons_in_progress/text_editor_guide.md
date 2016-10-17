@@ -8,10 +8,12 @@
 Pick your text-editor, choose wisely - this will be a close companion of yours for awhile. (Or get both!)
 - Sublime Text:
   - For [Windows](https://www.sublimetext.com/3)
+  - For [Mac](http://docs.sublimetext.info/en/latest/getting_started/install.html#id2)
   - For [Linux](http://askubuntu.com/questions/172698/how-do-i-install-sublime-text-2-3)
 
 - Atom:
   - For [Windows](https://github.com/atom/atom/releases/tag/v1.9.0) - scroll to the bottom of the page and download *AtomSetup.exe*
+  - For [Mac](http://flight-manual.atom.io/getting-started/sections/installing-atom/#platform-mac)
   - For [Linux](https://codeforgeek.com/2014/09/install-atom-editor-ubuntu-14-04/)
 
 And install Git:
