@@ -1,6 +1,9 @@
 // If it's an individual lesson page, this will run
 $(".lc-end-wrapper").html("<%= escape_javascript(render("shared/complete_lesson.html.erb"))%>");
 
+// Update progress tracking bar
+$('#lc-progress-bar').html("<%= j(render('shared/pt_bar', lesson: @lesson)) %>");
+
 // update checkmarks on individual lesson pages
 if(<%= current_user.completed_lesson?(@lesson) %>){
   $(".lc-completion-indicator").removeClass("hidden");
