@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161011162302) do
+ActiveRecord::Schema.define(version: 20161017230606) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -122,14 +122,6 @@ ActiveRecord::Schema.define(version: 20161011162302) do
   add_index "sections", ["course_id"], name: "index_sections_on_course_id", using: :btree
   add_index "sections", ["position"], name: "index_sections_on_position", using: :btree
   add_index "sections", ["title_url"], name: "index_sections_on_title_url", using: :btree
-
-  create_table "splash_emails", force: :cascade do |t|
-    t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  add_index "splash_emails", ["email"], name: "index_splash_emails_on_email", unique: true, using: :btree
 
   create_table "user_prefs", force: :cascade do |t|
     t.integer  "user_id"
