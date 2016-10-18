@@ -36,6 +36,9 @@ devise_for :users,
   end
 
   # ***** COURSES AND LESSONS ROUTES *****
+  # deprecated /courses/curriculum route redirect
+  get '/courses/curriculum' => redirect('/courses')
+
   resources :courses, only: [:index, :show ] do
     resources :lessons, only: [:show]
   end
@@ -45,6 +48,7 @@ devise_for :users,
   delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => 'lesson_completion'
 
   # Explicitly redirect deprecated routes (301)
+
   get ':course_name' => redirect('/courses/%{course_name}')
   get ':course_name/:lesson_name' => redirect('courses/%{course_name}/lessons/%{lesson_name}')
   get 'curriculum' => redirect('/courses')
