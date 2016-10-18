@@ -20,7 +20,7 @@ class Course < ActiveRecord::Base
   end
 
   def sections_in_course
-    sections.order("position asc").includes(:lessons)
+    sections.order("position asc")
   end
 
   private

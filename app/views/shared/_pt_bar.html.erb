@@ -25,7 +25,7 @@
       <% end %>
 
       <!-- Individual lesson circles (clickable!) -->
-      <% lessons.each_with_index do |l,i| %>
+      <% lessons.includes(:course).each_with_index do |l,i| %>
         <% if l == lesson %>
           <div class="pending-line"></div>
           <div class="completed-line" style="width: <%= (i+1) * pct %>%"></div>
