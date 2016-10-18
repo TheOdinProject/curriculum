@@ -71,13 +71,10 @@ describe Course do
     before do
       allow(sections).to receive(:order).with('position asc').
         and_return(sections)
-
-      allow(sections).to receive(:includes).with(:lessons).
-        and_return(sectionsAsc)
     end
 
     it 'returns sections in course' do
-      expect(course.sections_in_course).to eql(sectionsAsc)
+      expect(course.sections_in_course).to eql(sections)
     end
   end
 end

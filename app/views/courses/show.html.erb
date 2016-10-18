@@ -45,7 +45,7 @@
           <div class="lessons-list">
             <!-- <h2>lessons:</h2> -->
             <% lesson_num = 0 %>
-            <% section.lessons.order("position asc").each do |lesson| %>
+            <% section.lessons.order("position asc").includes(:course).each do |lesson| %>
               <% lesson_num += 1 unless lesson.is_project %>
 
                 <div class="lesson <%= lesson.is_project ? 'project' :''%>">
