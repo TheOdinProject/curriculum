@@ -858,6 +858,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Gabriel Klueh's Solution (Easy)] (https://github.com/gklueh/google-homepage) | [View in browser (Easy)](https://htmlpreview.github.io/?https://github.com/gklueh/google-homepage/blob/master/index.html)
 * [Airton's Solution (Easy)] (https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/mygoogle) | [View in browser](https://airtonbjunior.github.io/odinproject/projects/mygoogle/)
 * [Julieta's Solution (Easy)] (https://github.com/juliherco/google-homepage) | [View in browser](https://github.com/juliherco/google-homepage/blob/master/index.html)
+* [Richard Middleton's Solution (Easy)](https://github.com/Middi/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Middi/google-homepage/blob/master/index.html). With working search and links.
 * Add your solution above this line!
 
 ## Additional Resources
