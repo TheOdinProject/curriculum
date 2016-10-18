@@ -51,6 +51,10 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * [Kevin Mulherns solution](https://github.com/KevinMulhern/odinproject-testing/tree/master/warmup)
 * DV's solution ([Caesar Cipher](https://github.com/dvislearning/caesar_cipher/blob/master/spec/cipher_spec.rb), [Enumerable](https://github.com/dvislearning/my_enumerable/blob/master/spec/my_enumerable_spec.rb), [Tic Tac Toe](https://github.com/dvislearning/TicTacToe/blob/master/spec/tictactoe_spec.rb)
 * Jiazhi Guo's solution ([Caesar Cipher](https://github.com/jerrykuo7727/Caesar-Cipher), [Enumerable Methods](https://github.com/jerrykuo7727/Enumerable-Methods), [Tic Tac Toe](https://github.com/jerrykuo7727/Tic-Tac-Toe))
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec)
+* David Chapman's solution ([Ceaser Cipher](https://github.com/davidchappy/odin_training_projects/tree/master/c_c), [Enumerable](https://github.com/davidchappy/odin_training_projects/tree/master/enumerable), and [Tic Tac Toe](https://github.com/davidchappy/odin_training_projects/tree/master/tic_tac_toe))
+* [Dylan's solutions](https://github.com/resputin/the_odin_project/tree/master/Ruby/testing/time_travel)
+* Austin Mason's solution ([Ceaser Cipher](https://github.com/CouchofTomato/caesar_cipher), [Enumerable](https://github.com/CouchofTomato/enumberable_extension), and [Tic Tac Toe](https://github.com/CouchofTomato/tictactoe))
 * Add your solution above this line!
 
 
@@ -107,6 +111,10 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/connect_four)
 * [m-chrzan's solution](https://github.com/m-chrzan/connect4)
 * [Loris Aranda's solution](https://github.com/LorisProg/ruby-connectFour)
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby-rspec/tree/master/connect-four)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Ruby/testing/connect_four)
+* [Austin Mason's solution](https://github.com/CouchofTomato/ConnectFour)
+* [David Chapman's solution[(https://github.com/davidchappy/odin_training_projects/tree/master/connect_four)
 * Add your solution above this line!
 
 ## Additional Resources

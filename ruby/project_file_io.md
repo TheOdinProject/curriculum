@@ -86,6 +86,10 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Clint's solution](https://github.com/tholymap/JumpStartEventManager)
 * [Derek K's solution](https://github.com/dckwong/ProjectSerialization/tree/master/event_manager)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_ruby_serial.git)
+* [Dom Goj's solution](https://github.com/booyakuhhsha/eventManagerHangman/tree/master/event_manager)
+* [David Chapman''s solution](https://github.com/davidchappy/odin_training_projects/tree/master/event_manager)
+* [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/event_manager)
+* [Jerry Gao's solution](https://github.com/blackwright/event_manager/blob/master/event_manager.rb)
 * Add your solution above this line!
 
 
@@ -212,6 +216,10 @@ You will be building a simple command line Hangman game where one player plays a
 * [Ryan Armstrong's solution] (https://github.com/ryan-kwan-do/ruby_projects/tree/master/files_and_serialization/hangman)
 * [Derek K's solution] (https://github.com/dckwong/ProjectSerialization/tree/master/hangman)
 * [m-chrzan's solution](https://github.com/m-chrzan/hangman)
+* [Dom Goj's solution](https://github.com/booyakuhhsha/eventManagerHangman/tree/master/hangman)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/hangman)
+* [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/Hangman)
+* [Jerry Gao's solution](https://github.com/blackwright/hangman/blob/master/hangman.rb)
 * Add your solution above this line!
 
 

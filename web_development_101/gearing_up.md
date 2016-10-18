@@ -12,7 +12,7 @@ anything else.
 
 We will look at getting clear about what your motivation for learning
 programming is and getting yourself into the growth mindset so that you
-have the right mentality when approaching challenges through out the curriculum.
+have the right mentality when approaching challenges throughout the curriculum.
 
 ###Your Motivation For Learning Programming
 Your motivation to learn to code could be to have a fulfilling career that pays
@@ -112,12 +112,9 @@ In short, understand it, practice it, and finally teach it.
 
 Teaching what you know to others is a great way to solidify what you have learnt
 and can often reveal holes in your knowledge that you wouldn't have identified
-otherwise. 
+otherwise.
 
-<a class="btn btn-primary btn-static-pages-CTA" href="http://www.theodinproject.com/chat" target="_blank">Join our chat and start your Web Development journey!</a>
-
-Join us to practice this method of learning by answering questions and helping students who
-are not as far in  the course as you are. Don't forget to introduce yourself!
+You can practice this method of learning by helping others in our community.
 
 * To learn more about the best ways to learn, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
@@ -132,7 +129,7 @@ following processes to get unstuck:
 * Google it - you can be sure someone else out there has had the same problem as
 you at some point, a quick Google can often lead to a solution.
 * Take a break - allow your diffuse state to work on the problem.
-* Ask for help in our [chat](http://www.theodinproject.com/chat) - come prepared
+* Ask for help in one of our [chats](https://gitter.im/orgs/TheOdinProject/rooms) - come prepared
 with your research done, people will be more willing to help you when they can see
 you have already put effort into trying to figure out the solution.
 
@@ -165,12 +162,12 @@ And here's an easy to use Pomodoro timer: [TomatoTimer](http://tomato-timer.com/
 
 **Avoid Digital Distractions:**
 
-Digital distractions are email and Facebook notifications, time wasting websites
+Digital distractions are email and Facebook notifications, time-wasting websites
 like social networks. These kinds of distractions break your focus and make it
-tempting to procrastinate they should be avoided during study time.
+tempting to procrastinate; they should be avoided during study time.
 
 Solution: turn off notifications and add a blocker to your internet to limit time
-on time wasting sites like Facebook.
+on time-wasting sites like Facebook.
 
 **Avoid Physical Distractions in your Environment:**
 
@@ -178,19 +175,19 @@ Physical distractions are distractions from your environment, things like a TV i
 the background, other people speaking etc. These are just as much a nuisance to
 breaking your focus as digital distractions.
 
-Solution: find a quiet study place in your home you can go to to focus, if that's
+Solution: find a quiet study place in your home you can go to to focus. If that's
 not an option you can use noise cancelling head phones to block out any noise
 distractions from your environment.
 
 ## Pitfalls to Avoid
 The following are some of the pitfalls that beginners often make when learning how
-to program, try your best to avoid these.
+to program; try your best to avoid these.
 
 ###Don't get pulled into rabbit holes
 Because we cover so much material on Odin and link to so many high quality, outside
 courses and tools, it is easy for students to get pulled into rabbit holes by
 spending time trying to learn all there is to know about a subject that they aren't
-ready for or wont have much benefit to them. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to
+ready for or won't have much benefit to them. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to
 know about web development are covered exactly when you need to know them.
 
 To get the best results from this curriculum try to **stick to the path laid out**
@@ -201,14 +198,14 @@ sidetracks can really ruin your momentum.
 Measure progress against yourself and don't compare yourself to others. Students
 often compare themselves against others who are further along in their coding
 journey or have more experience. This is a recipe for depression and frustration.
-Only compare yourself to your past self, can you do or know more than you did
+Only compare yourself to your past self: has your ability and knowledge grown from where it was
 last week, month or year? Then you are making progress.
 
 ###Conclusion
 Learning any new skill is a journey full of speed bumps and obstacles to be
 overcome. We hope that the principles here will help you as you go forward and
 put you in a much better position to succeed and get the most out of Odin.
-Without further ado, lets get stuck in to learning Web development.
+Without further ado, lets jump in to learning Web development.
 
 ### Extra resources:
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)

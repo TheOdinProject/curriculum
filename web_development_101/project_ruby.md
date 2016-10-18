@@ -183,7 +183,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Seiji's Solution](https://github.com/seijibas/learn-ruby)
 * [John Alcher's Solution](https://github.com/alchermd/ruby-test-first)
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
-* [Veselin Ivanov's Solution](https://github.com/terlica/Odin_ruby_project)
+* [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Odin_ruby_project)
 * [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
 * [Tom Bell's Solution](https://github.com/bellt/learn_ruby)
 * [Dayuwn's Solution](https://github.com/Dayuwn/rb-tdd)
@@ -216,7 +216,17 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Harsimran Mann's Solution](https://github.com/pure5abi/ruby_project_1)
 * [Ayon Pal's Solution](https://github.com/AyonPal/learn_ruby)
 * [Yorick's Solution](https://github.com/ysmith4/learn_ruby.git)
-* Add your solution above this line!
+* [Bishal Shrestha's Solution](https://github.com/biiishal/learn_ruby)
+* [Max Tsao's Solution](https://github.com/mt9304/learn_ruby)
+* [husein ghafari's Solution](https://github.com/hosghf/learn_ruby)
+* [Todd Demone's Solution](https://github.com/todd-demone/learn_ruby)
+* [Evan Burkey's Solution](https://github.com/king3vbo/learn_ruby)
+* [Sebeth's Solution](https://github.com/SebetheWombat/learn_ruby)
+* [Jerry Gao's solution](https://github.com/blackwright/learn_ruby)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby)
+* [Fred Rhae's solution](https://github.com/fredrhae/learn_ruby)
+* [Kaique "Rique" Borges's solution](https://github.com/riquekaique/test_first_ruby)
+* * Add your solution above this line!
 
 ## Additional Resources
 

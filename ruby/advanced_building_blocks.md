@@ -68,7 +68,7 @@ This lesson gets more into the topics you may have been shaky on before like *Co
 
     * What is a module?
     * Why are modules useful?
-    * What does `#each` do? 
+    * What does `#each` do?
     * What does `#each` return?
     * What does `#map` do?
     * What does `#map` return?
@@ -114,8 +114,8 @@ This lesson gets more into the topics you may have been shaky on before like *Co
     5. [Hashes and Symbols](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw?curriculum_id=5059f8619189a5000201fbcb)
     6. [Project: A Night at the Movies](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb)
     7. [Blocks, Procs, and Lambdas](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb)
-        
-2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
+
+2. Finish [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
 3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
 
     1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
@@ -131,7 +131,7 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 2. [Beginner Ruby Quiz #2](http://www.codequizzes.com/ruby/beginner/arrays-conditionals-loops)
 3. [Quiz #3](http://www.codequizzes.com/ruby/beginner/variable-scope-methods)
 4. [Quiz #4](http://www.codequizzes.com/ruby/beginner/symbols-array-methods-hashes)
-5. [Quiz #6](http://www.codequizzes.com/ruby/beginner/iteration-nested-data-structures) 
+5. [Quiz #6](http://www.codequizzes.com/ruby/beginner/iteration-nested-data-structures)
 
 ## Additional Resources
 
