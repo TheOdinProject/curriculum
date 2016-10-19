@@ -24,3 +24,15 @@ Then /^I should be in '([^']+)' lesson page$/ do |lesson_title|
   lesson_title = lesson_title.parameterize
   expect(page.current_path).to eql "/courses/#{@course_title}/lessons/#{lesson_title}"
 end
+
+Then(/^the Previous Lesson button should be disabled$/) do
+  within ".lnav" do
+    expect(page).to have_css('.lnav-prev.lnav-wrap.lnav-disabled')
+  end
+end
+
+Then(/^the Next Lesson button should be disabled$/) do
+  within ".lnav" do
+    expect(page).to have_css('.lnav-next.lnav-wrap.lnav-disabled')
+  end
+end
