@@ -17,6 +17,9 @@ describe Section do
   it { is_expected.to respond_to(:position) }
   it { is_expected.to respond_to(:course_id) }
 
+  it { is_expected.to respond_to(:course) }
+  it { is_expected.to respond_to(:lessons) }
+
   # Associations
   it { is_expected.to belong_to(:course) }
   it { is_expected.to have_many(:lessons) }
