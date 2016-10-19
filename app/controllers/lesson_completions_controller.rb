@@ -4,37 +4,27 @@ class LessonCompletionsController < ApplicationController
   before_action :lookup_lesson
   
   def create
-    @course = @lesson.course
-    @next_lesson = @lesson.next_lesson
-    lc = LessonCompletion.new(:student_id => current_user.id, :lesson_id => @lesson.id)
-    if lc.save
-      render :create, formats: [:js]
-    else
-      head :bad_request
-    end
+    new_lesson_completion.save
+    render :create, formats: [:js]
   end
   
   def destroy
-    @course = @lesson.course
-    @next_lesson = @lesson.next_lesson
-    lc = LessonCompletion.where(:student_id => current_user.id, :lesson_id => @lesson.id).
-                          first
-    if lc.nil?
-      head :bad_request
-    else
-      lc.destroy
-      render :create, formats: [:js]
-    end
+    lesson_completion.destroy
+    render :create, formats: [:js]
   end
 
   private
 
+    def lesson_completion
+      LessonCompletion.where(student_id: current_user.id, lesson_id: @lesson.id).first
+    end
+
+    def new_lesson_completion
+      LessonCompletion.new(student_id: current_user.id, lesson_id: @lesson.id)
+    end
+
     def lookup_lesson
-      begin
-        @lesson = Lesson.find(params[:lesson_id])
-      rescue ActiveRecord::RecordNotFound
-        head :bad_request
-      end
+      @lesson = Lesson.find(params[:lesson_id])
     end
 
     def authenticate_request

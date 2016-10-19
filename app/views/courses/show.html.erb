@@ -12,7 +12,7 @@
     <div class="heading-box">
       <% if user_signed_in? %>
         <div class="lc-percent-completion">
-          <%= render "shared/completion_percent" %>
+          <%= render "shared/completion_percent", course: @course %>
         </div>
       <% end %>
 
