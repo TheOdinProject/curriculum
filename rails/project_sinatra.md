@@ -38,6 +38,7 @@ Revisit the ceasar cipher ruby script that you created during [Ruby Building Blo
 * csrail's solution [github](https://github.com/csrail/caesar-cipher-sinatra) / [see it on the web](https://csrail-caesar-cipher.herokuapp.com/)
 * DV's solution [github](https://github.com/dvislearning/caesar_cipher/tree/master/lib) / [see it on the web](https://quiet-cove-96544.herokuapp.com/)
 * Austin's solution [github](https://github.com/CouchofTomato/ceasar_cipher_sinatra) / [see it on the web](https://couch-cipher.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/sinatra-caesar_cipher)
 
 ## Project 2: Another Web-Game
 
