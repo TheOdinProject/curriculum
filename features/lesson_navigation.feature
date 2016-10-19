@@ -58,3 +58,10 @@ Scenario: At the end of a course
   Given I am in the 'Web Development 101' course page
   When I go to the 'Practicing Git' lesson page
   Then the Next Lesson button should be disabled
+
+Scenario: Navigating back to course
+
+  Given I am in the 'Web Development 101' course page
+  When I go to the 'Introduction to Git' lesson page
+  And I click on the View Course button
+  Then I should be back in the 'Web Development 101' course page
