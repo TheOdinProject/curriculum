@@ -226,6 +226,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby)
 * [Fred Rhae's solution](https://github.com/fredrhae/learn_ruby)
 * [Kaique "Rique" Borges's solution](https://github.com/riquekaique/test_first_ruby)
+* [Harry Maher's solution](https://github.com/HarryMaher/ruby_TDD)
 * * Add your solution above this line!
 
 ## Additional Resources
