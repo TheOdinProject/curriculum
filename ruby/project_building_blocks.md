@@ -761,4 +761,5 @@ Next, make sure your method can handle multiple words:
 * [Jerry Gao's solution](https://github.com/blackwright/substrings/blob/master/substrings.rb)
 * [Tom Westerhout's solution](https://github.com/Westw00d/Ruby-Building-Blocks/blob/master/Substrings.rb)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-building-blocks/blob/master/substrings.rb)
+* [Derek Scace's solution](https://github.com/dscace/substrings)
 * Add your solution above this line!
