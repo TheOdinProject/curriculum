@@ -229,6 +229,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Daniel Chinedu's solution](https://github.com/andela-cdaniel/learn_ruby-1)
 * [NIÑO MOLLANEDA's solution](https://github.com/ninoM/learn_ruby)
 * [Jack Brittain's solution](https://github.com/jaqviolet/project_ruby)
+* [Behdad Analui's solution](https://github.com/banalui/learn_ruby)
 * * Add your solution above this line!
 
 ## Additional Resources
