@@ -34,8 +34,8 @@ using them to experiment and fix bugs with ease on your web pages.
 ##Assignment
 1. Complete the first two chapters of this [short course](http://discover-devtools.codeschool.com/) from Codeschool,
 it covers all the main capabilities developer tools provides. 
-2. Read through this short text based tutorial that [Introduces your Web Inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).
-3. Watch this [awesome tutorial from dev tips](https://www.youtube.com/watch?v=Z3HGJsNLQ1E)
+2. Read through this short text based tutorial that [introduces your web inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).
+3. Watch this [awesome tutorial](https://www.youtube.com/watch?v=Z3HGJsNLQ1E) from LearnCode.academy 
 on how to use developer tools effectively when working with your css.
 4. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](https://www.youtube.com/watch?v=wcFnnxfA70g) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
 
