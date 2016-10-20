@@ -14,9 +14,6 @@ RSpec.describe LessonsController do
     allow(controller).to receive(:current_user).
       and_return(current_user)
 
-    allow(Ad).to receive(:show_ads?).with(current_user).
-      and_return(true)
-
     allow(ENV).to receive(:[]).with('SHOW_ADS').
       and_return(true)
   end
@@ -65,8 +62,7 @@ RSpec.describe LessonsController do
         allow(ENV).to receive(:[]).with('SHOW_ADS').
           and_return(env_show_ads)
 
-        allow(Ad).to receive(:show_ads?).with(current_user).
-          and_return(show_ad)
+        allow(Ad).to receive(:show_ads?).and_return(show_ad)
       end
 
       context 'when show ads environment variable is false' do
