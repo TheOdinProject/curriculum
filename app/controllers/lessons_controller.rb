@@ -13,6 +13,6 @@ class LessonsController < ApplicationController
   private
 
   def show_ads?
-    ENV["SHOW_ADS"] && Ad.show_ads?(current_user)
+    ENV["SHOW_ADS"] && Ad.show_ads?
   end
 end
