@@ -1,8 +1,6 @@
 require 'rails_helper'
 
 describe Section do
-  let(:course) { double("Course", :id => 1) }
-
   subject(:section) { Section.new(
     :title => "test section",
     :title_url => "testsection.url.com",
@@ -10,6 +8,7 @@ describe Section do
     :position => 2,
     :course_id => course.id 
   )}
+  let(:course) { double("Course", :id => 1) }
 
   it { is_expected.to respond_to(:title) }
   it { is_expected.to respond_to(:title_url) }
