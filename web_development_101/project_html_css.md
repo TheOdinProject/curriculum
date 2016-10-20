@@ -843,8 +843,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Rita Johnson's Solution (Easy)](https://github.com/maritabix/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/maritabix/google-homepage/blob/master/index.html)
 * [Eren Çataltepe's Solution (Easy)](https://github.com/erencataltepe/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/google-homepage/blob/master/index.html)
  [Hemant's Solution (Easy)] (https://github.com/hemrok0101/Google_homepage) | [View In Browser] (http://htmlpreview.github.io/?https://github.com/hemrok0101/Google_homepage/blob/master/index.html)
-* [Tim Lapinskas's Solution (Easy)] (https://github.com/tlapinsk/google-homepage) | [View in browser] (https://tlapinsk.github.io/google-homepage/) 
-* [Lawrence Lawson's Solution (Easy)] (https://github.com/Zagan202/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Zagan202/google-homepage/blob/master/index.html) 
+* [Tim Lapinskas's Solution (Easy)] (https://github.com/tlapinsk/google-homepage) | [View in browser] (https://tlapinsk.github.io/google-homepage/)
+* [Lawrence Lawson's Solution (Easy)] (https://github.com/Zagan202/google-homepage) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Zagan202/google-homepage/blob/master/index.html)
 * [jeff1st's Solution (Easy)] (https://github.com/jeff1st/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/jeff1st/google-homepage/blob/master/webpage.html)
 * [Giuseppe's solution (Easy)](https://github.com/Cuboatgit/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/Cuboatgit/google-homepage/blob/master/index.html)
 * [Christopher Ivan's Solution (Easy)](https://github.com/sanada1615/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/sanada1615/google-homepage/blob/master/index.html)
@@ -862,6 +862,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 *[Josh Vogel's Solution (Easy)] (https://github.com/j-vogel/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/j-vogel/google-homepage/blob/master/index.html)
 * [Daniel Chinedu's solution (Easy)] (https://github.com/andela-cdaniel/google-homepage) | [View in browser] (https://andela-cdaniel.github.io/google-homepage/)
 * [Ilya Zakharov's solution (Easy)] (https://github.com/Vandalisk/google) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Vandalisk/google/blob/master/index.html)
+* [Pedro Ribeiro's solution (Easy)] (https://github.com/Zapiano/google-homepage)
 * Add your solution above this line!
 
 ## Additional Resources
