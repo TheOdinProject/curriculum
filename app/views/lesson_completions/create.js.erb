@@ -1,31 +1,33 @@
 // If it's an individual lesson page, this will run
-$(".lc-end-wrapper").html("<%= escape_javascript(render("shared/complete_lesson.html.erb"))%>");
+$(".lc-end-wrapper").html("<%= j(render('shared/complete_lesson'))%>");
 
 // Update progress tracking bar
 $('#lc-progress-bar').html("<%= j(render('shared/pt_bar', lesson: @lesson)) %>");
 
 // update checkmarks on individual lesson pages
-if(<%= current_user.completed_lesson?(@lesson) %>){
+if (<%= current_user.completed_lesson?(@lesson) %>) {
   $(".lc-completion-indicator").removeClass("hidden");
-}else{
+}
+else {
   $(".lc-completion-indicator").addClass("hidden");
 }
 
 // update end-of-lesson nav states
-if(<%= current_user.completed_lesson?(@lesson) %>){
+if (<%= current_user.completed_lesson?(@lesson) %>) {
   $(".lnav-next-icon").addClass("lnav-active");
-  if(<%= @next_lesson.nil? %>){
+  if(<%= @lesson.next_lesson.nil? %>) {
     $(".lnav-course-icon").addClass("lnav-active");
   }
-}else{
+}
+else{
   $(".lnav-next-icon").removeClass("lnav-active");
-  if(<%= @next_lesson.nil? %>){
+  if (<%= @lesson.next_lesson.nil? %>) {
     $(".lnav-course-icon").removeClass("lnav-active");
   }
 }
 
 // update percent completion indicator on lessons index page
-$(".lc-percent-completion").html("<%= escape_javascript(render("shared/completion_percent.html.erb"))%>");
+$(".lc-percent-completion").html("<%= j(render('shared/completion_percent', course: @lesson.course)) %>");
 
 // If it's the lessons index page, this will run
-$("#lc-id-<%= @lesson.id %>").html("<%= escape_javascript(render("shared/lc_index.html.erb"))%>");
+$("#lc-id-<%= @lesson.id %>").html("<%= j(render('shared/lc_index')) %>");
