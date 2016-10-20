@@ -36,8 +36,8 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Miguel Herrera's solution](https://github.com/migueloherrera/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/apple/blob/master/index.html)
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/gradients/index.html)
 * [csrail's solution](https://github.com/csrail/apple-mock) | [View in browser](https://rawgit.com/csrail/apple-mock/master/index.html)
-* Add your solution above this line!
-
+* Add your solution above this line!*
+[Paul Shonk's solution]((https://github.com/pshonk/apple)
 
 ## Additional Resources
 
