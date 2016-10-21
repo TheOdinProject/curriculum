@@ -863,6 +863,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Daniel Chinedu's solution (Easy)] (https://github.com/andela-cdaniel/google-homepage) | [View in browser] (https://andela-cdaniel.github.io/google-homepage/)
 * [Ilya Zakharov's solution (Easy)] (https://github.com/Vandalisk/google) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Vandalisk/google/blob/master/index.html)
 * [Pedro Ribeiro's solution (Easy)] (https://github.com/Zapiano/google-homepage)
+* [Kiyeon's solution (easy)] (https://github.com/kiyeonpark/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/kiyeonpark/google-homepage/blob/master/google-easy.html) || [(difficult)] (https://github.com/kiyeonpark/google-resultspage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/kiyeonpark/google-resultspage/blob/master/google-difficult.html) 
 * Add your solution above this line!
 
 ## Additional Resources
