@@ -86,6 +86,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Clint's solution](https://github.com/tholymap/OdinDataStructures/blob/master/bin_tree.rb)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/bintree2.rb)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_compsci/blob/master/binary_tree.rb)
+* [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/commit/a3928f9747d422a49801e27e6d88b0cfc3fb3324)
 * Add your solution above this line!
 
 
@@ -185,6 +186,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Clint's solution](https://github.com/tholymap/OdinDataStructures/blob/master/knight_moves.rb)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/knight.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/knights_travails)
+* [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/blob/master/knight2.rb)
 * Add your solution above this line!
 
 ## Additional Resources
