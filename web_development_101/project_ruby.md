@@ -232,7 +232,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Behdad Analui's solution](https://github.com/banalui/learn_ruby)
 * [Kevin Hyde's Solution](https://github.com/futurethang/learn_ruby)
 * [Harry Maher's solution](https://github.com/HarryMaher/ruby_TDD)
-* * Add your solution above this line!
+* [Chris B's Solution](https://github.com/browncj/RubyTesting)
+* Add your solution above this line!
 
 ## Additional Resources
 
