@@ -23,7 +23,7 @@ RSpec.describe Lesson do
     allow(lesson).to receive(:course).and_return(course)
     allow(FindLesson).to receive(:new).with(lesson).and_return(find_lesson)
   end
-  
+
   it { is_expected.to belong_to(:section) }
   it { is_expected.to have_one(:course) }
   it { is_expected.to have_many(:lesson_completions) }
@@ -54,7 +54,7 @@ RSpec.describe Lesson do
     before do
       allow(lesson).to receive(:position).and_return(3)
       allow(lessons).to receive(:where).
-        with("is_project = ? AND position <= ?", false, 3).
+        with("position <= ?", 3).
         and_return(appropiate_lessons)
     end
 

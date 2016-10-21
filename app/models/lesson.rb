@@ -20,9 +20,7 @@ class Lesson < ActiveRecord::Base
   end
 
   def position_in_section
-    section_lessons.where(
-      "is_project = ? AND position <= ?", false, position
-    ).count
+    section_lessons.where('position <= ?', position).count
   end
 
   def import_content_from_github

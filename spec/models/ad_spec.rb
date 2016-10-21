@@ -8,7 +8,9 @@ describe Ad do
   end
 
   describe '.ve_banner' do
-    let(:banner_ad_attrs) { { style: 'banner', client: 've', category: 'b2c_ab' } }
+    let(:banner_ad_attrs) {
+      { style: 'banner', client: 've', category: 'b2c_ab' }
+     }
     let(:banner_ads) { double('BannerAds') }
     let(:banner_ad) { double('BannerAd', banner_ad_attrs) }
 
@@ -36,5 +38,4 @@ describe Ad do
       expect(Ad.ve_box).to eql(box_ad)
     end
   end
-
 end
