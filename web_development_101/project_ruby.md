@@ -230,6 +230,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [NIÑO MOLLANEDA's solution](https://github.com/ninoM/learn_ruby)
 * [Jack Brittain's solution](https://github.com/jaqviolet/project_ruby)
 * [Behdad Analui's solution](https://github.com/banalui/learn_ruby)
+* [Kevin Hyde's Solution](https://github.com/futurethang/learn_ruby)
 * * Add your solution above this line!
 
 ## Additional Resources
