@@ -7,7 +7,7 @@ In addition to preventing repetition, frameworks provide great organization.  Th
 
 There are often several different popular frameworks for a given language.  They can have exciting names like [Ember](http://emberjs.com/), [Meteor](http://www.meteor.com/), [Django](https://www.djangoproject.com/), [Rails](http://rubyonrails.org/), [Grok](http://grok.zope.org/), etc.  Wikipedia has a [comprehensive comparison of frameworks](http://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks) that should give you an appreciation for the number of them.  For Ruby alone, though Rails is the most popular, there is also [Sinatra](http://www.sinatrarb.com/) and [Padrino](http://www.padrinorb.com/) and more.
 
-A final thing to note is about licensing -- frameworks are typically (though not always) open-source and their license allows you to use them, modify them, make money off them, sell products with them etc. all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into [Open Source Software (OSS)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CC4QFjAA&url=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FOpen-source_software&ei=ssVqUp7oIaKrjALDi4HwBA&usg=AFQjCNG3A4JAfm8TZmBU_O9At6MjLrYhRQ&sig2=bfXGaMwpMa1eytPt2-qu9g&bvm=bv.55123115,d.cGE) in later units.
+A final thing to note is about licensing -- frameworks are typically (though not always) open-source and their license allows you to use them, modify them, make money off them, sell products with them, etc., all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) in later units.
 
 ## You'll Need to Know:
 * What is a framework?
@@ -16,7 +16,7 @@ A final thing to note is about licensing -- frameworks are typically (though not
 
 ## Your Assignment:
 
-1. Get introduced to frameworks by reading [this brief article from Wired (originally from WebMonkey](https://www.wired.com/2010/02/get_started_with_web_frameworks/).
+1. Get introduced to frameworks by reading [this brief article from Wired (originally from WebMonkey)](https://www.wired.com/2010/02/get_started_with_web_frameworks/).
 2. Glance over [Choosing a Web Development Framework (2010)](http://www.crossbrowser.net/449/choosing-a-web-development-framework/) for some of the thought process that goes into picking a framework.
 
 ## Additional Resources
