@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe LessonCompletion do
   subject(:lesson_completion) {
-    LessonCompletion.new(:student_id => 1,:lesson_id => 1)
+    LessonCompletion.new(student_id: 1,lesson_id: 1)
   }
 
   it { is_expected.to validate_presence_of(:student_id) }

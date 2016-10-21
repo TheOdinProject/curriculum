@@ -23,14 +23,14 @@ describe AdminFlash do
       and_return([admin_flash])
   end
 
-  describe "#.unexpired_messages" do
+  describe ".unexpired_messages" do
     it "returns unexpired messages" do
       expect(AdminFlash.unexpired_messages).to eql([admin_flash])
     end
   end
 
-  describe "#showable_messages" do
-    it 'returns array ofs messages without cookies' do
+  describe ".showable_messages" do
+    it 'returns array of messages that the user has not seen yet' do
       expect(AdminFlash.showable_messages([2])).to eql([admin_flash])
     end
   end

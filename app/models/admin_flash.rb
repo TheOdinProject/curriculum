@@ -8,8 +8,8 @@ class AdminFlash < ActiveRecord::Base
   end
 
   def self.showable_messages(disabled_flash_ids)
-    unexpired_messages.select do |message|
-      !disabled_flash_ids.include?(message.id)
+    unexpired_messages.reject do |message|
+      disabled_flash_ids.include?(message.id)
     end
   end
 end
