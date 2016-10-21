@@ -74,9 +74,9 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 #### Get Started
 
 1. Just like in the warmup, plan out what data models you would need to allow users to be on the site (don't worry about login/logout or securing the passwords right now), to submit links ("posts"), and to comment on links.  Users do NOT need to be able to comment on comments... each comment refers to a Post.
-2. Generate a new rails app from the command line (`$ rails new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
+2. Generate a new rails app from the command line (`$ rails _5.0.0.1_ new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
 2. Generate your User model and fill out the migration to get the columns you want.
-3. Run the migration with `$ rake db:migrate`.  You can use `$ rake db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
+3. Run the migration with `$ rails db:migrate`.  You can use `$ rails db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
 
 #### Playing with Validations
 
@@ -165,6 +165,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/micro_reddit)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/micro-reddit)
 * [djhart's solution](https://github.com/djhart/micro-reddit)
+* [csrail's solution](https://github.com/csrail/micro-reddit/tree/master/app/models)
+
 * Add your solution above this line!
 
 ## Additional Resources
