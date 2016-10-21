@@ -205,6 +205,9 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/ruby/bubble_sort.rb)
 * [Kaaviya's solution](https://github.com/Kavi6/curriculum/blob/9a535b506f437c306422d9d37874215e15636985/Kaaviya's%20Solution%20(bubble_sort))
 * [Jerry Gao's solution](https://github.com/blackwright/bubble_sort/blob/master/bubble_sort.rb)
+* [Saroar's solution](https://repl.it/Cmqp/2)
+* [Mike Coon's solution](https://github.com/mac718/advanced_building_blocks/blob/master/bubble_sort.rb)
+* [Tom Westerhout's solution] Bubble_sort: (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort.rb) Bubble_sort_by: (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort_by.rb)
 * Add your solution above this line!
 
 
@@ -400,6 +403,9 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/ruby/enumerable.rb)
 * [Kaaviya's solution](https://github.com/Kavi6/curriculum/blob/551ccbcea181dd59b73f741c8e7c95afc1d4477f/Kaaviya's%20Solution%20(Enumerable%20Methods))
 * [Jerry Gao's solution](https://github.com/blackwright/enumerable/blob/master/enumerable.rb)
+* [Mike Coon's solution](https://github.com/mac718/advanced_building_blocks/blob/master/Enumberable_methods.rb)
+* [Saroar'S Soulution](https://repl.it/DwZF/0)
+* [Tom Westerhout's solution] (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Enumerable_methods.rb)
 * Add your solution above this line!
 
 ## Additional Resources

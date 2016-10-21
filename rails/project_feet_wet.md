@@ -15,7 +15,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 
     Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating a sample Rails app](http://installfest.railsbridge.org/installfest/create_a_rails_app) and then [deploying it](http://installfest.railsbridge.org/installfest/deploy_a_rails_app). 
 
-2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html).
+2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.railstutorial.org/book/beginning).
 3. If you hadn't done either of these, you should go back to the [Web Development 101](/web-development-101) course and at least do the [Web Development Frameworks section](/web-development-101/#section-web-development-frameworks).
 
 ## Project: Starting The RoR Tutorial
@@ -28,7 +28,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Your Task
 
-1. Read and follow along with [Chapters 1 and 2 of The Rails Tutorial](https://www.railstutorial.org/book/beginning#cha-beginning) by Michael Hartl, where you will create two basic Ruby on Rails applications. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io). Michael also favors [bitbucket](https://bitbucket.org/) over github. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.
+1. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/beginning#cha-beginning) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over github because bitbucket has free private repos. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.  If you feel a little lost, it might not hurt to go back and re-read chapter 1.
 
 ### Student Solutions
 
@@ -86,6 +86,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/toy_app) | [Heroku](https://toy-app-by-jiazhi.herokuapp.com/)
 * [Jiazhi Guo's solution](https://github.com/dckwong/toy_app) | [Heroku](https://fast-sands-99168.herokuapp.com/)
 * [csrail's solution](https://github.com/csrail/toy_app)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/toy_app)
 * Add your solution above this line!
 
 

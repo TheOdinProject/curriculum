@@ -19,7 +19,7 @@ Before you can understand how to *program* the web, you need to understand the w
 1. Watch this [BBC short](https://vimeo.com/128575085)  for an overview of how the Internet works.
 2. Supplement this with a [reading](https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work#Summary) and a [video](https://youtu.be/7_LPdttKXPc?t=46s).
 3. Read up on the [differences](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines#Summary) between a webpage, web server and a search engine.
-4. Watch this [Google short](https://youtu.be/BrXPcaRlBqo) explaining what what a web browser is; then find out what web browser you are using right [now](https://whatbrowser.org/).
+4. Watch this [Google short](https://youtu.be/BrXPcaRlBqo) explaining what a web browser is; then find out what web browser you are using right [now](https://whatbrowser.org/).
 5. Now read about how one part of the web [interacts with another](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/How_the_Web_works#Clients_and_servers) and [read](https://developer.mozilla.org/en-US/Learn/Common_questions/What_is_a_domain_name#How_does_a_DNS_request_work) or [watch](https://www.youtube.com/watch?v=72snZctFFtA&feature=youtu.be&t=45s) a DNS request in action.
 
 

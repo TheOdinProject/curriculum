@@ -36,6 +36,9 @@ Revisit the ceasar cipher ruby script that you created during [Ruby Building Blo
 * Chris Chambers' solution [github](https://github.com/chrisgchambers/caesar_cipher) / [see it on the web](https://salty-beach-27561.herokuapp.com/)
 * Amrr Bakry's solution [github](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/ceasar_cipher) / [see it on the web](https://calm-wave-18087.herokuapp.com/)
 * csrail's solution [github](https://github.com/csrail/caesar-cipher-sinatra) / [see it on the web](https://csrail-caesar-cipher.herokuapp.com/)
+* DV's solution [github](https://github.com/dvislearning/caesar_cipher/tree/master/lib) / [see it on the web](https://quiet-cove-96544.herokuapp.com/)
+* Austin's solution [github](https://github.com/CouchofTomato/ceasar_cipher_sinatra) / [see it on the web](https://couch-cipher.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/sinatra-caesar_cipher)
 
 ## Project 2: Another Web-Game
 
@@ -62,3 +65,5 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Derek Kwong's solution - Hangman: [github](https://github.com/dckwong/Hangman) / [see it on the web](https://dkhangman.herokuapp.com/)
 * Amrr Bakry's solution - Hangman: [github](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/sinatra_hangman) / [see it on the web](https://polar-brushlands-32644.herokuapp.com/)
 * csrail's solution - Hangman: [github](https://github.com/csrail/hangman-sinatra) / [see it on the web](https://csrail-hangman.herokuapp.com/)
+* DV's solution - Hangman: [github](https://github.com/dvislearning/hangman_sinatra) / [see it on the web](https://secret-escarpment-36246.herokuapp.com/)
+* Austin's solution - Hangman: [github](https://github.com/CouchofTomato/hangman_sinatra) / [see it on the web](https://couch-hangman.herokuapp.com/)
