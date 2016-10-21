@@ -119,6 +119,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin-kittens)
 * [Frank V's solution](https://github.com/fv42wid/kittens)
+* [Amrr Bakry's solution (with API versioning)](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_kittens) | [View in Browser](https://still-woodland-31813.herokuapp.com/)
 * Add your solution above this line!
 
 
