@@ -407,6 +407,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Mike Coon's solution](https://github.com/mac718/advanced_building_blocks/blob/master/Enumberable_methods.rb)
 * [Saroar'S Soulution](https://repl.it/DwZF/0)
 * [Tom Westerhout's solution] (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Enumerable_methods.rb)
+* [Pedro Ribeiro's solution] (https://github.com/Zapiano/theOdinProject/blob/master/ruby%20programming/advanced_building_blocks/enumerable_methods.rb)
 * Add your solution above this line!
 
 ## Additional Resources
