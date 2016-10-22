@@ -208,6 +208,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Saroar's solution](https://repl.it/Cmqp/2)
 * [Mike Coon's solution](https://github.com/mac718/advanced_building_blocks/blob/master/bubble_sort.rb)
 * [Tom Westerhout's solution bubblee sort] (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort.rb) |  [Bubble_sort_by] (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort_by.rb)
+* [Pedro Ribeiro's solution] (https://github.com/Zapiano/theOdinProject/blob/master/ruby%20programming/advanced_building_blocks/bubble_sort.rb)
 * Add your solution above this line!
 
 
