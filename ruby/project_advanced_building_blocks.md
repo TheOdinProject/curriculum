@@ -207,7 +207,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Jerry Gao's solution](https://github.com/blackwright/bubble_sort/blob/master/bubble_sort.rb)
 * [Saroar's solution](https://repl.it/Cmqp/2)
 * [Mike Coon's solution](https://github.com/mac718/advanced_building_blocks/blob/master/bubble_sort.rb)
-* [Tom Westerhout's solution] Bubble_sort: (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort.rb) Bubble_sort_by: (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort_by.rb)
+* [Tom Westerhout's solution bubblee sort] (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort.rb) |  [Bubble_sort_by] (https://github.com/Westw00d/Advanced-Building-Blocks/blob/master/Bubble_sort_by.rb)
 * Add your solution above this line!
 
 
