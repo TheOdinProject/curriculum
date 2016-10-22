@@ -866,6 +866,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Kiyeon's solution (easy)](https://github.com/kiyeonpark/google-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/kiyeonpark/google-homepage/blob/master/google-easy.html) || [(difficult)] (https://github.com/kiyeonpark/google-resultspage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/kiyeonpark/google-resultspage/blob/master/google-difficult.html)
 * [Vipin Sharma's Solution (Easy)](https://github.com/metalheadvipin/google-homepage) | [View in browser](https://github.com/metalheadvipin/google-homepage/blob/master/index.html)
 * [Jeff1st's Solution (difficult)](https://github.com/jeff1st/google-results) | [View in Browser] (https://htmlpreview.github.io/?https://github.com/jeff1st/google-results/blob/master/index.html)
+* [Tamir.H's Solution (Easy)](https://github.com/subcat/google-homepage) | [View in Browser] (https://subcat.github.io/google-homepage/)
 * Add your solution above this line!
 
 ## Additional Resources
