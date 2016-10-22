@@ -495,4 +495,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Behdad Analui's Solution](https://github.com/banalui/sketch-pad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/banalui/sketch-pad/master/index.html)
 * [Christopher Ivan's Solution](https://github.com/sanada1615/particolor-etch-a-sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/sanada1615/particolor-etch-a-sketch)
 * [Samuel Langenfeld's Solution](https://github.com/SamuelLangenfeld/Dynamic-Etch-a-Sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/SamuelLangenfeld/Dynamic-Etch-a-Sketch)
+* [jeff1st's Solution](https://github.com/jeff1st/odin-squares) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jeff1st/odin-squares/blob/master/index.html)
 * Add your solution above this line!
