@@ -364,7 +364,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Benjamin's solution](https://github.com/Benjamin-Re/Euler.git)
 * [Harsimran Mann's Solution](https://github.com/pure5abi/euler-problems)
 * [Jakub Augustyn'n Solution](https://github.com/zerozero7/jscript-euler) | [View in browser](https://cdn.rawgit.com/zerozero7/jscript-euler/191dbff/index.html)
-* [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
+* [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
