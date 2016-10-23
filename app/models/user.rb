@@ -39,7 +39,7 @@ class User < ActiveRecord::Base
    t = self.lesson_completions.where("lesson_id = %s ", lesson.id ).limit(1)
     t.first["created_at"]
   end
-  
+
   def latest_lesson_completion
     self.lesson_completions.order(:created_at => :desc).first
   end
@@ -89,26 +89,15 @@ class User < ActiveRecord::Base
     end
   end
 
-  # Overwrite Devise method to allow users who registered before confirmation was required
-  # to continue using the site without being forced to confirm their email.
-  def active_for_authentication?
-    super && (!confirmation_required? || confirmed? || confirmation_period_valid?) || reg_before_conf?
-  end
-
   # Overwrite Devise method to send welcome email to new users with confirmation token
   # Users who registered before confirmation was required receive normal confirmation email
   def send_confirmation_instructions
     unless @raw_confirmation_token
       generate_confirmation_token!
     end
-    if self.reg_before_conf == true
-      opts = pending_reconfirmation? ? { to: unconfirmed_email } : { }
-      send_devise_notification(:confirmation_instructions, @raw_confirmation_token, opts)
-    else  # new user
-      send_welcome_email(@raw_confirmation_token)
-    end
-  end
 
+    send_welcome_email(@raw_confirmation_token)
+  end
 
   protected
 

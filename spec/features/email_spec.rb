@@ -18,25 +18,17 @@ describe "Email Confirmation" do
     end
   end
 
-  describe "Users registered before email confirmations were added" do
-    let!(:user) { FactoryGirl.create(:user, :reg_before_conf => true, :confirmed_at => nil) }
+  describe "Users who havent confirmed their email" do
+    let!(:user) { FactoryGirl.create(:user, :confirmed_at => nil) }
     before { sign_in(user) }
 
     it "should prompt the user to confirm email when they sign in" do
       expect(page).to have_selector("div", text: "Please confirm your email address.")
     end
 
-    it "should not block the user from accessing the site" do
-      expect(page).to have_selector('h1', text: "This is Your Path to Learning Web Development")
-    end
 
     it "should provide a link to request confirmation instructions" do
       expect(page).to have_link("Didn't receive confirmation instructions, or need them again?")
-    end
-
-    it "should send an email with confirmation instructions" do
-      click_on("Didn't receive confirmation instructions, or need them again?")
-      expect(ActionMailer::Base.deliveries.last.encoded).to have_link("Confirm my account")
     end
 
     it "has a flash message that instructions were sent" do
@@ -95,7 +87,6 @@ describe "Email Confirmation" do
         click_on("Logout")  # clear session
         git_user = User.last  # the user just created
         git_user.created_at = Time.now - 3.days
-        git_user.reg_before_conf = true
         git_user.save
         visit courses_path
         click_on Course.first.title
@@ -121,7 +112,7 @@ describe "Email Confirmation" do
 
     it "should stop prompting user to confirm after they have done so" do
       sign_out(user)  # Sign out unconfirmed user from before block
-      confirmed_user = FactoryGirl.create(:user, :reg_before_conf => true, :confirmed_at => Time.now)
+      confirmed_user = FactoryGirl.create(:user, :confirmed_at => Time.now)
       sign_in(confirmed_user)
       expect(page).to have_no_selector("div", text: "Please confirm your email address")
     end

@@ -67,7 +67,7 @@ class ApplicationController < ActionController::Base
 
 
   def after_sign_in_path_for(resource)
-    if current_user.reg_before_conf == true && current_user.confirmed_at == nil
+    if current_user.confirmed_at == nil
       flash[:partial] = "confirm_email"
     end
     session[:previous_url] || courses_path(:ref => "login")
