@@ -64,6 +64,7 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Ryan Chang's solution](https://github.com/chang-ryan/javascript-fun/tree/master/js-snake) | [View in Browser](https://rawgit.com/chang-ryan/javascript-fun/master/js-snake/index.html)
 *  [Miguel Herrera's solution](https://github.com/migueloherrera/jquery-snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/jquery-snake/blob/master/index.html)
 *  [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/snake/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/dev-cyprium/snake/blob/master/index.html)
+* [Cody Loyd's solution](https://github.com/codyloyd/javascriptSnake) | [View in browser](http://codyloyd.com/javascriptSnake/)
 * Add your solution above this line!
 
 
