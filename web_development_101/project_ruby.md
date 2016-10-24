@@ -234,6 +234,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Harry Maher's solution](https://github.com/HarryMaher/ruby_TDD)
 * [Chris B's Solution](https://github.com/browncj/RubyTesting)
 * [Ryan Barnett's Solution](https://github.com/RyanDBarnett/learn_ruby)
+* [Bill Hefty's Solution](https://github.com/bhefty/learn_ruby)
 * Add your solution above this line!
 
 ## Additional Resources
