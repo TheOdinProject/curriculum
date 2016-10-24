@@ -52,5 +52,5 @@ Don't worry if you don't know all the commands yet or that they don't stick at t
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * An introductory guide by [Michael Hartl](http://www.michaelhartl.com/) called [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
-* This very thorough and well laid out tutorial from [Atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control)
+* This very thorough and well laid out tutorial from [Atlassian](https://www.atlassian.com/git/tutorials/)
 * For a more in-depth understanding of git, read the free [ProGit eBook](https://git-scm.com/book/en/v2)
