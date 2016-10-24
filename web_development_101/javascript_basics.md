@@ -390,6 +390,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Josh Vogel's Solution](https://github.com/j-vogel/project-euler-solutions) | [View in Browser](https://htmlpreview.github.io/?https://github.com/j-vogel/project-euler-solutions/blob/master/index.html)
 * [Adrian Vasquez's Solution](https://github.com/Radiant-590/Project-Euler)
 * [Bill Hefty's Solution](https://github.com/bhefty/project-euler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/bhefty/project-euler/blob/master/index.html)
+* [Jib's Solution](https://github.com/NuclearMachine/ProjectEuler) | [View in Browser](https://nuclearmachine.github.io/ProjectEuler/)
 * Add your solution above this line!
 
 ## Additional Resources
