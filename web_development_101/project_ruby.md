@@ -235,6 +235,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Chris B's Solution](https://github.com/browncj/RubyTesting)
 * [Ryan Barnett's Solution](https://github.com/RyanDBarnett/learn_ruby)
 * [Bill Hefty's Solution](https://github.com/bhefty/learn_ruby)
+* [jeff1st's Solution](https://github.com/jeff1st/learn_ruby)
 * Add your solution above this line!
 
 ## Additional Resources
