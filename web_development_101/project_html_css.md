@@ -894,6 +894,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Dustin Seright's Solution (Easy)](https://github.com/dseright/google_homepage) | [View in Browser](https://cdn.rawgit.com/dseright/google_homepage/master/index.html)
 [Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
 [Siddharth Isaiah's Solution (Easy)](https://github.com/siddharthisaiah/google-homepage) | [View in Browser](https://rawgit.com/siddharthisaiah/google-homepage/master/homepage.html)
+[Daniel Onibokun's Solution (Easy)](https://github.com/dan0ni/google-homepage) | [View in Browser] (https://rawgit.com/dan0ni/google-homepage/master/index.html)
+
 * Add your solution above this line!
 
 ## Additional Resources
