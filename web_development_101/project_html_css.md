@@ -82,7 +82,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 ### Option 2: rawgit
 
-[Rawgit.com](https://rawgit.com) is another option for viewing github projects online.  It is simpler and quicker, but less permanent and likely less reliable than gh-pages, and you don't get the benefit of a nice personalized URL.  That said, for just quickly sending someone a preview of something you aren't ready to officially publish, it works great.
+[Rawgit.com](https://rawgit.com) is another option for viewing github projects online.  It is simpler and quicker, but less permanent, likely less reliable than gh-pages, and you don't get the benefit of a nice personalized URL.  That said, for just quickly sending someone a preview of something you aren't ready to officially publish, it works great.
 
 - go to the website: [Rawgit.com](https://rawgit.com)
 - paste in the url to the main html file from your github repo (probably `index.html`)
