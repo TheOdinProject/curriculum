@@ -364,6 +364,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Benjamin's solution](https://github.com/Benjamin-Re/Euler.git)
 * [Harsimran Mann's Solution](https://github.com/pure5abi/euler-problems)
 * [Jakub Augustyn'n Solution](https://github.com/zerozero7/jscript-euler) | [View in browser](https://cdn.rawgit.com/zerozero7/jscript-euler/191dbff/index.html)
+<<<<<<< HEAD
 * [Zapad Daniel Solution](https://github.com/ZapadRo97/odin-project-euler)
 * [Travis Gibson's Solution](https://github.com/GibsonT/euler.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/GibsonT/euler.js/blob/master/index.html)
 * [biko's Solution](https://github.com/biko1982/project-euler)
@@ -391,7 +392,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Adrian Vasquez's Solution](https://github.com/Radiant-590/Project-Euler)
 * [Bill Hefty's Solution](https://github.com/bhefty/project-euler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/bhefty/project-euler/blob/master/index.html)
 * [Jib's Solution](https://github.com/NuclearMachine/ProjectEuler) | [View in Browser](https://nuclearmachine.github.io/ProjectEuler/)
-* [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/blob/master/index.html)
+*[Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
 * Add your solution above this line!
 
 ## Additional Resources
