@@ -497,4 +497,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Samuel Langenfeld's Solution](https://github.com/SamuelLangenfeld/Dynamic-Etch-a-Sketch) | [View in Browser](http://htmlpreview.github.io/?https://github.com/SamuelLangenfeld/Dynamic-Etch-a-Sketch)
 * [jeff1st's Solution](https://github.com/jeff1st/odin-squares) | [View in Browser](https://htmlpreview.github.io/?https://github.com/jeff1st/odin-squares/blob/master/index.html)
 * [Bill Hefty's Solution](https://github.com/bhefty/etcha-sketch-pad) | [View in Browser](https://htmlpreview.github.io/?https://github.com/bhefty/etcha-sketch-pad/blob/master/index.html)
+* [Ayushka's Solution](https://github.com/ayushkamadji/sketchpad) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ayushkamadji/sketchpad/blob/master/index.html)
 * Add your solution above this line!
