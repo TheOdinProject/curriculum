@@ -128,7 +128,7 @@ Dialing things back to the local environment, here are a few useful things to kn
 
 We won't have too much reading here because many of the links are interspersed with the sections above and, **if you're a complete beginner, you can safely skip this until later**.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
 
-1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails4) for a step-by-step guide to deploying.
+1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails5) for a step-by-step guide to deploying.
 2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
 
 ## Conclusion
