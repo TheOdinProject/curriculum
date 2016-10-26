@@ -38,7 +38,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-
+* Add your solution below this line!
 * [Nate Bennett's solution](https://github.com/n8sb/odin-project/tree/master/sketch-pad) | [View in browser](https://rawgit.com/n8sb/odin-project/master/sketch-pad/index.html)
 * [RebootJeff's solution](https://github.com/RebootJeff/myLearning/tree/master/odin.js.sketch_pad) | [View in browser](https://rawgit.com/RebootJeff/myLearning/master/odin.js.sketch_pad/index.html)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/SketchPad) | [View in browser](https://rawgit.com/afshinator/playground/master/SketchPad/index.html)
@@ -498,4 +498,3 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [jeff1st's Solution](https://github.com/jeff1st/odin-squares) | [View in Browser](https://rawgit.com/jeff1st/odin-squares/master/index.html)
 * [Bill Hefty's Solution](https://github.com/bhefty/etcha-sketch-pad) | [View in Browser](https://rawgit.com/bhefty/etcha-sketch-pad/master/index.html)
 * [Ayushka's Solution](https://github.com/ayushkamadji/sketchpad) | [View in Browser](https://rawgit.com/ayushkamadji/sketchpad/master/index.html)
-* Add your solution above this line!

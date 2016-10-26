@@ -92,6 +92,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Chris Garey's solution](https://github.com/cgarey2014/google-homepage) | [View in browser](https://cdn.rawgit.com/cgarey2014/google-homepage/master/index.html)
 * [Miguel Serrano's solution](https://github.com/miguelsxvi/google-homepage) | [View in browser](https://rawgit.com/miguelsxvi/google-homepage/master/index.html)
 * [Robert Richards' solution](https://github.com/robert903/ghomepage) | [View in browser](http://robertrichards.me/projects/ghomepage/)
@@ -893,7 +894,6 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Bill Hefty's Solution (Easy)](https://github.com/bhefty/google-homepage) | [View in Browser] (https://rawgit.com/bhefty/google-homepage/master/index.html)
 * [Dustin Seright's Solution (Easy)](https://github.com/dseright/google_homepage) | [View in Browser](https://cdn.rawgit.com/dseright/google_homepage/master/index.html)
 [Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
-* Add your solution above this line!
 
 ## Additional Resources
 
