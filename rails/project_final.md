@@ -83,6 +83,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Top's solution](https://github.com/TopOneOfTopOne) | [View in browser](https://github.com/TopOneOfTopOne/the-facebook)
 * [Matt Velez's solution](https://github.com/Timecrash/odinbook) | [View in browser](https://velez-odinbook.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ror_book) | [View in browser](http://murmuring-escarpment-57044.herokuapp.com/)
+* [Frank V's solution](https://github.com/fv42wid/oden-facebook)
 * Add your solution above this line!
 
 
