@@ -28,6 +28,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Aleksandar's solution](https://github.com/Rodic/RubyChess)
 * [Donald's solution](https://github.com/donaldali/Chess)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
@@ -59,7 +60,6 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [at0micr3d's solution](https://github.com/at0micr3d/ruby_chess)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/final/lib/chess_single_array.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/chess)
-* Add your solution above this line!
 
 
 ## Additional Resources
@@ -68,4 +68,3 @@ This is a great project to have as a part of your portfolio going forward becaus
 
 * [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
 * [A series of hints from RubyQuiz](http://rubyquiz.com/quiz35.html), where this was one of their challenges.  You don't need these.  Resist the temptation!
-

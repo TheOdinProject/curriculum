@@ -39,6 +39,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/caesar_cipher.rb)
 * [ThusStyles's solution](https://github.com/ThusStyles/cipher/blob/master/cipher.rb)
 * [Sessl's solution](https://github.com/Sessl/ruby_work/blob/master/cipher.rb)
@@ -274,8 +275,6 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-building-blocks/blob/master/caesar-cipher.rb)
 * [Derek Scace's solution](https://github.com/dscace/caesar_cipher)
 * [Joe Himes's solution](https://github.com/deedle42/ruby_building_blocks/blob/master/caesar_cipher.rb)
-* Add your solution above this line!
-
 
 ## Project 2: Stock Picker
 
@@ -297,6 +296,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/stock_picker.rb)
 * [eugyev's solution](https://github.com/eugyev/odinprojects/blob/master/stock_picker.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/ruby_building_blocks/project2.rb)
@@ -517,8 +517,6 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-building-blocks/blob/master/stock-picker.rb)
 * [Derek Scace's solution](https://github.com/dscace/stock_picker)
 * [Joe Himes's solution](https://github.com/deedle42/ruby_building_blocks/blob/master/stock_picker.rb)
-* Add your solution above this line!
-
 
 ## Project 3: Substrings
 
@@ -549,6 +547,7 @@ Next, make sure your method can handle multiple words:
 ### Student Solutions
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/substrings.rb)
 * [eugyev's solution](https://github.com/eugyev/odinprojects/blob/master/substrings.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/ruby_building_blocks/project3.rb)
@@ -765,4 +764,3 @@ Next, make sure your method can handle multiple words:
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-building-blocks/blob/master/substrings.rb)
 * [Derek Scace's solution](https://github.com/dscace/substrings)
 * [Joe Himes's solution](https://github.com/deedle42/ruby_building_blocks/blob/master/substrings.rb)
-* Add your solution above this line!

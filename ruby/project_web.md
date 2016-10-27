@@ -25,11 +25,12 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [mahimahi42's solution](https://github.com/mahimahi42/microblogger.git) 
+* Add your solution below this line!
+* [mahimahi42's solution](https://github.com/mahimahi42/microblogger.git)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro_blogger)
 * [Solution from bucifer](https://github.com/bucifer/MicroBlogger)
 * [Solution from Mazin Power](https://github.com/muzfuz/CodeLessons/tree/master/spambot)
-* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger) 
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/microblogger)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/jumpstartlab-micro-blogger)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/jumpstart_labs_twitterbot/blob/master/micro_blogger.rb)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web/twitter_spam_bot)
@@ -78,7 +79,7 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/microblogger))
 * [Deepak's solution](https://github.com/Deepak5050/twitter_spambot/blob/master/micro_blogger.rb)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_on_web/tree/master/twitter_spambot)
-* [Earth35's solution] (https://github.com/Earth35/twitter_client/blob/master/micro_blogger.rb)
+* [Earth35's solution](https://github.com/Earth35/twitter_client/blob/master/micro_blogger.rb)
 * [Lani's solution](https://github.com/laniywh/the-odin-project/blob/master/ruby-programming/ruby-on-the-web/twitter-spambot/micro_blogger.rb)
 * [John Connor's solution](https://github.com/jacgitcz/microblogger)
 * [Austin Mason's solution](https://github.com/CouchofTomato/twitterapi)
@@ -88,12 +89,11 @@ Note that, for this project, you may want to create a throwaway Twitter account 
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/twitter_spambot)
 * [Peuchen's solution](https://github.com/Peuchen/micro_blogger)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/ruby_on_the_web/micro_blogger)
-* [Clint's solution] (https://github.com/tholymap/JumpStartMicroblogger)
+* [Clint's solution](https://github.com/tholymap/JumpStartMicroblogger)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/micro_blogger)
 * [Derek Kwong's solution](https://github.com/dckwong/RubyOnTheWeb/tree/master/twitter_spammer)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_twitter)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/micro_blogger)
-* Add your solution above this line!
 
 ## Project 2: A Real Web Server and Browser (from the command line)
 
@@ -115,7 +115,7 @@ From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The
     require 'socket'
 
     # IP address is 0.0.0.0 and it's on port 8080:
-    server = TCPServer.new("0.0.0.0", 8080) 
+    server = TCPServer.new("0.0.0.0", 8080)
     loop do
         connection = server.accept
         inputline = connection.gets
@@ -125,7 +125,7 @@ From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The
     end
 ```
 
->  The servers differ in how they construct this loop and how they process incoming connections. The above sample is for a blocking server. Which means that it can only process one request at a time and that other requests will be waiting for the current one to finish. A long running request might make the server unreachable for a while. A group of those will quickly render the server unusable. There are several strategies to overcome this shortcoming. We will discuss those strategies and look at how they are utilized by the different servers. 
+>  The servers differ in how they construct this loop and how they process incoming connections. The above sample is for a blocking server. Which means that it can only process one request at a time and that other requests will be waiting for the current one to finish. A long running request might make the server unreachable for a while. A group of those will quickly render the server unusable. There are several strategies to overcome this shortcoming. We will discuss those strategies and look at how they are utilized by the different servers.
 
 > For a server to be called a web (HTTP) server it must speak the HTTP protocol. Hence it needs a way to parse the incoming HTTP requests. Each of the servers presented here attempts to solve this problem in its own way. But we will soon find that most of them rely on some clone of Mongrel's parser. If we modify our first server to include HTTP support it could look like this:
 
@@ -140,10 +140,10 @@ From the [Ruby 1.9.x Web Servers Booklet](http://www.scribd.com/doc/20755982/The
         connection.puts headers
         connection.puts body
         connection.close
-    end 
+    end
 ```
 
-So `socket` is a library available to Ruby without needing any special downloads (it's part of the standard library, you just need to remind Ruby to `require` it).  It lets you open and close connections to other machines or servers, just like you did when you were learning how to work with files! 
+So `socket` is a library available to Ruby without needing any special downloads (it's part of the standard library, you just need to remind Ruby to `require` it).  It lets you open and close connections to other machines or servers, just like you did when you were learning how to work with files!
 
 It's actually pretty much the same principle... a web server is just like opening and closing files on your own computer.  The response you're waiting for is just a long string of characters or binary data like it is with a file.  The steps for working with files and servers are almost identical:
 
@@ -205,12 +205,12 @@ Cool!
     1. Modify your client to ask the user which type of request the user wants to send.  
     2. If the user wants to send a POST request, pretend you're registering a viking for a raid.  Ask the user for a couple of pieces of data about the viking, including a `name` and an `email`.  
     3. Store the results of this in a hash-inside-a-hash, which might end up looking like  `{:viking => {:name=>"Erik the Red", :email=>"erikthered@theodinproject.com"} }`.  Why the hash-in-a-hash?  Because this is exactly what it will look like when your browser sends data back from a Rails-generated form.  You could just use a normal hash, but that would be less fun.
-    3. When you send the POST request, this time include your data hash as part of the request (again, see the [examples here](http://www.jmarshall.com/easy/http/#postmethod)).  You'll want to use the JSON format to transmit your hash, which means you need to add the `require 'json'` line at the top of your server and client to use the JSON library. 
-    4. The method that converts your hash object into a flat JSON string for easy HTTP transmission is `#to_json`. 
+    3. When you send the POST request, this time include your data hash as part of the request (again, see the [examples here](http://www.jmarshall.com/easy/http/#postmethod)).  You'll want to use the JSON format to transmit your hash, which means you need to add the `require 'json'` line at the top of your server and client to use the JSON library.
+    4. The method that converts your hash object into a flat JSON string for easy HTTP transmission is `#to_json`.
     5. You'll also need to include the size of the data you're sending in the `Content-Length` field of the HTTP packet.
 
 10. Finally, set up your server to recognize and respond to a POST request.
-  
+
     1. If the server detects a POST request, you should identify and parse out the JSON data from it (it will probably be helpful to use the `Content-Length` line you included to break out the data)
     2. Turn that JSON string back into an object by using `JSON.parse` and save that in another hash that we'll call `params` (again because this is what Rails does).  Your code might look like `params = {}; params << JSON.parse(the_post_JSON_string_here)`.
     3. Now open the `thanks.html` file and (without modifying the original file since you will want to use it multiple times) use your script to replace the line `<%= yield %>` with a new `<li>` for each one of the data items that you originally entered in your "form" back in your browser.  Display these in whatever format you'd like, for instance `<li>Name: Erik the Red</li><li>Email: erikthered@theodinproject.com</li>`.  
@@ -226,12 +226,12 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
+* Add your solution below this line!
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/sockets)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_ruby_web)
 * [Mazin Power's solution](https://github.com/muzfuz/CodeLessons/tree/master/web_server)
-* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/webserver) 
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_5_Ruby_Web/webserver)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/simple-ruby-http)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server) (using while loops and gets instead of read_nonblock)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web)
@@ -277,7 +277,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [DV's solution](https://github.com/dvislearning/ruby_server_browser)
 * [John's solution](https://github.com/johnTheDudeMan/the_odin_project/tree/master/servers)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ruby_on_web/tree/master/command_line_web_server_and_browser)
-* [Earth35's solution] (https://github.com/Earth35/web_server)
+* [Earth35's solution](https://github.com/Earth35/web_server)
 * [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/ruby-on-the-web/web-server-browser)
 * [Austin Mason's solution](https://github.com/CouchofTomato/webserver)
 * [John Connor's solution](https://github.com/jacgitcz/tiny-browser-simple-server)
@@ -291,17 +291,15 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Clint's solution](https://github.com/tholymap/Odin-Ruby-Web)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/web_server)
 * [Derek Kwong's solution](https://github.com/dckwong/RubyOnTheWeb/tree/master/simple_server_practice)
-* [Leonard Soai-Van's solution] (https://github.com/leosoaivan/TOP_ruby_socket)
+* [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_ruby_socket)
 * [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/tree/master/web_server)
 * [Jerry Gao's solution](https://github.com/blackwright/server_browser)
-* Add your solution above this line!
 
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
+* An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
 * [Luke Francl's file server tutorial](https://practicingruby.com/articles/implementing-an-http-file-server)
 * Detailed explanation of the TCPServer `#gets` and `#read` methods in [this stack overflow post](http://stackoverflow.com/questions/7540064/simple-http-server-in-ruby-using-tcpserver)
-

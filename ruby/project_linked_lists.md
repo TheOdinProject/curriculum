@@ -63,6 +63,7 @@ Build the following methods in your linked list class:
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/linked-lists-ruby/)
 * [Cody Loyd's solution (with tests and extra credit)](https://github.com/codyloyd/linked_list)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/linked-lists)
@@ -88,7 +89,6 @@ Build the following methods in your linked list class:
 * [Clint's solution (extra cred)](https://github.com/tholymap/OdinLinkedList)
 * [Dylan's solution (with extra credit)](https://github.com/resputin/the_odin_project/blob/master/Ruby/linklist/linklist.rb)
 * [David Chapman's solution (with extra credit)](https://github.com/davidchappy/odin_training_projects/tree/master/linked_lists)
-* [Leonard Soai-Van solution] (https://github.com/leosoaivan/TOP_compsci)
+* [Leonard Soai-Van solution](https://github.com/leosoaivan/TOP_compsci)
 * [Anthony Vumbaca's solution (with extra credit)](https://github.com/tvumbaca/linked_lists/blob/master/linked_list.rb)
 * [Jerry Gao's tryhard solution](https://github.com/blackwright/linked_list)
-* Add your solution above this line!
