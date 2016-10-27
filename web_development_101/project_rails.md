@@ -18,6 +18,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/blogger)
 * [Allen's solution](https://github.com/NoRest4AWhearry/blogger) | [View in browser](http://jsblogger2.herokuapp.com/)
 * [Angel Vargas' solution](https://github.com/arioth/the-odin-project/tree/master/blogger)
@@ -187,10 +188,13 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Ayon Pal's Solution](https://github.com/AyonPal/blogger/tree/master/blogger) | [View in Browser](https://enigmatic-temple-69582.herokuapp.com/)
 * [Jerry Gao's solution](https://github.com/blackwright/blogger) | [View in browser](https://pure-escarpment-77829.herokuapp.com/)
 * [Veselin Ivanov's solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Ruby_on_Rails_Blogger) | [View in browser](https://infinite-castle-21001.herokuapp.com/) | 10-15
+<<<<<<< HEAD
+=======
 * [nmac's Solution](https://github.com/nmacawile/Blogger) | [View in Browser](https://evening-peak-88135.herokuapp.com/)
 * Add your solution above this line!
 * [Samuel Langengeld's Solution](https://github.com/SamuelLangenfeld/blogger) | [View in Browser](https://boiling-taiga-86260.herokuapp.com/)
 * Add your solution above this line!
+>>>>>>> master
 
 
 ## Additional Resources
