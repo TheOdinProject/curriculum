@@ -498,10 +498,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [jeff1st's Solution](https://github.com/jeff1st/odin-squares) | [View in Browser](https://rawgit.com/jeff1st/odin-squares/master/index.html)
 * [Bill Hefty's Solution](https://github.com/bhefty/etcha-sketch-pad) | [View in Browser](https://rawgit.com/bhefty/etcha-sketch-pad/master/index.html)
 * [Ayushka's Solution](https://github.com/ayushkamadji/sketchpad) | [View in Browser](https://rawgit.com/ayushkamadji/sketchpad/master/index.html)
-<<<<<<< HEAD
-=======
 * [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/Etch-A-Sketch) | [View in Browser](https://rawgit.com/siddharthisaiah/Etch-A-Sketch/master/index.html)
 * [nmac's Solution](https://github.com/nmacawile/etch-a-sketch) | [View in Browser](https://rawgit.com/nmacawile/etch-a-sketch/master/index.html)
 * [Ian A's Solution](https://github.com/GorgonsMaze/Etch-a-Sketch) | [View in Browser](http://ianarsenault.me/Etch-a-Sketch/)
-* Add your solution above this line!
->>>>>>> master
