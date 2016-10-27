@@ -212,6 +212,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Leonard Soai-Van's solution] (https://github.com/leosoaivan/TOP_recursions/blob/master/merge_sort.rb)
 * [Dom Goj's solution] (https://github.com/booyakuhhsha/mergeSort)
 * [Jerry Gao's solution](https://github.com/blackwright/merge_sort)
+* [Marcus' solution](https://github.com/nestcx/recursion/blob/master/mergesort.rb)
 * Add your solution above this line!
 
 ## Additional Resources

@@ -5,7 +5,7 @@
 
 ## Project: Building Facebook
 
-You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modeling data, and working with forms. This project will require you to put all your newfound knowledge to the test.  It should serve as a great portfolio piece for what you're capable of.  It'll take some thought and time but it's certainly within reach of your skills.
+You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modelling data, and working with forms. This project will require you to put all your newfound knowledge to the test.  It should serve as a great portfolio piece for what you're capable of.  It'll take some thought and time but it's certainly within reach of your skills.
 
 You'll be building Facebook.  As usual, any additional styling will be up to you but the really important stuff is to get the data and back end working properly.  You'll put together some of the core features of the platform -- users, profiles, "friending", posts, news feed, and "liking".  You'll also implement sign-in with the real Facebook by using Omniauth and Devise.
 
@@ -15,7 +15,7 @@ Some features of Facebook we haven't yet been exposed to -- for instance chat, r
 
 Build Facebook!  You'll build a large portion of the core Facebook user functionality in this project.  We won't be worrying about the Javascript-heavy front end stuff but you won't need it to get a nice user experience.
 
-You should write at least a basic set of integration tests which let you know if each page is loading properly and unit tests to make sure your associations have been properly set up (e.g. testing that `User.first.posts` works properly).  Run them continuously in the background with [Guard](https://github.com/guard/guard) (See the [Ruby on Rails Tutorial Chapter 3.7.3](https://www.railstutorial.org/book/static_pages#sec-guard)). 
+You should write at least a basic set of integration tests which let you know if each page is loading properly and unit tests to make sure your associations have been properly set up (e.g. testing that `User.first.posts` works properly).  Run them continuously in the background with [Guard](https://github.com/guard/guard) (See the [Ruby on Rails Tutorial Chapter 3.7.3](https://www.railstutorial.org/book/static_pages#sec-guard)).
 
 This project will give you a chance to take a relatively high level set of requirements and turn it into a functioning website.  You'll need to read through the documentation on Github for some of the gems you'll be using.
 
@@ -83,6 +83,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Top's solution](https://github.com/TopOneOfTopOne) | [View in browser](https://github.com/TopOneOfTopOne/the-facebook)
 * [Matt Velez's solution](https://github.com/Timecrash/odinbook) | [View in browser](https://velez-odinbook.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ror_book) | [View in browser](http://murmuring-escarpment-57044.herokuapp.com/)
+* [Frank V's solution](https://github.com/fv42wid/oden-facebook)
 * Add your solution above this line!
 
 
