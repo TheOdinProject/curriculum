@@ -18,6 +18,7 @@ In this project you'll clone the website of one of the most design-forward compa
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
 * [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/applehome) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/Apple_Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
@@ -36,8 +37,7 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Miguel Herrera's solution](https://github.com/migueloherrera/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/apple/blob/master/index.html)
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/gradients/index.html)
 * [csrail's solution](https://github.com/csrail/apple-mock) | [View in browser](https://rawgit.com/csrail/apple-mock/master/index.html)
-* Add your solution above this line!*
-[Paul Shonk's solution]((https://github.com/pshonk/apple)
+* [Paul Shonk's solution]((https://github.com/pshonk/apple)
 
 ## Additional Resources
 
