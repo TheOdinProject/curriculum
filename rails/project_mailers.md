@@ -51,6 +51,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Norman Chan's solution](https://github.com/slowmanchan/Planner)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in Browser](https://guarded-atoll-24378.herokuapp.com/)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_flight_booker) | [View in Browser](https://shrouded-earth-72460.herokuapp.com/)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/odin-flight-booker)
 * Add your solution above this line!
 
 ## Additional Resources
