@@ -59,6 +59,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/RailsBoock-Facebook-Clone-App) | [View in browser](http://railsbook-facebook-clone-app.herokuapp.com/)
 * [Yuri Buerov's solution](https://github.com/YuriBuerov/social-network)
 * [David Janczyn's solution](https://github.com/sandiegodj/social-network) | [View in browser](https://warm-spire-7655.herokuapp.com/)
@@ -84,7 +85,6 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Matt Velez's solution](https://github.com/Timecrash/odinbook) | [View in browser](https://velez-odinbook.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ror_book) | [View in browser](http://murmuring-escarpment-57044.herokuapp.com/)
 * [Frank V's solution](https://github.com/fv42wid/oden-facebook)
-* Add your solution above this line!
 
 
 ## Additional Resources

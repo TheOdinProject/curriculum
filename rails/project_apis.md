@@ -88,6 +88,7 @@ This project may seem simple, but now you've got a website that is both a normal
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [sirramongabriel's solution](https://github.com/sirramongabriel/odin-kittens)
 * [jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-kittens)
@@ -120,7 +121,6 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin-kittens)
 * [Frank V's solution](https://github.com/fv42wid/kittens)
 * [Amrr Bakry's solution (with API versioning)](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_kittens) | [View in Browser](https://still-woodland-31813.herokuapp.com/)
-* Add your solution above this line!
 
 
 ## Project 2: Using a Third Party API
