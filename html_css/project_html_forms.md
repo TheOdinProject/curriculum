@@ -19,6 +19,7 @@ The page is very straightforward, so you should be able to clone it even if your
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
 * [Jason Ellis's solution](https://github.com/jason-ellis/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
 * [Mram1000's solution](https://github.com/mram1000/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/mram1000/mint-signup/blob/master/index-mint.html)
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/html_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/html_forms/index.html)
@@ -49,7 +50,6 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Guido Bakkes' solution](https://github.com/guidobakkes/mock-ups/tree/master/mint-sign-up) | [View in browser](https://htmlpreview.github.io/?https://github.com/guidobakkes/mock-ups/blob/master/mint-sign-up/index.html)
 * [cs-rail's solution](https://github.com/csrail/mint-mock) | [View in browser](https://rawgit.com/csrail/mint-mock/master/sign-up.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/mint_form_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/mint_form_clone/blob/master/mint.html)
-* Add your solution above this line!
 
 
 ## Additional Resources

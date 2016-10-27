@@ -21,6 +21,7 @@ In this project, your assignment is to copy [this article from the New York Time
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
 * [Shouvik Roy's solution](https://github.com/royshouvik/newyorktimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/newyorktimes/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/NewYorkTimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/NewYorkTimes/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectNYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectNYT/blob/master/index2.html)
@@ -41,7 +42,6 @@ In this project, your assignment is to copy [this article from the New York Time
 * [csrail's solution](https://github.com/csrail/nytimes-mock) | [View in browser](https://rawgit.com/csrail/nytimes-mock/master/article.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/nyt-clone) | [View in browser](https://rawgit.com/ShalaQweghen/nyt-clone/master/index.html)
 
-* Add your solution above this line!
 
 
 ## Additional Resources
