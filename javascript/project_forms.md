@@ -23,6 +23,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Mateusz's solution](https://github.com/Emnalyeriar/learning_projects/tree/master/the%20odin%20projects/form%20validation) | [View in browser](http://htmlpreview.github.io/?https://github.com/Emnalyeriar/learning_projects/blob/master/the%20odin%20projects/form%20validation/index.html)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/jquery-form) | [View in browser](http://jsfiddle.net/Jberczel/5dAd3/)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/form_validation) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/form_validation/index.html "Form Validation")
@@ -33,7 +34,6 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 * [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/mint) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/mint/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-mint) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-mint/blob/master/index.html)
-* Add your solution above this line!
 
 
 ## Additional Resources
