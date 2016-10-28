@@ -391,7 +391,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Josh Vogel's Solution](https://github.com/j-vogel/project-euler-solutions) | [View in Browser](https://htmlpreview.github.io/?https://github.com/j-vogel/project-euler-solutions/blob/master/index.html)
 * [Adrian Vasquez's Solution](https://github.com/Radiant-590/Project-Euler)
 * [Bill Hefty's Solution](https://github.com/bhefty/project-euler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/bhefty/project-euler/blob/master/index.html)
-* [Jib's Solution](https://github.com/NuclearMachine/ProjectEuler) | [View in Browser](https://nuclearmachine.github.io/ProjectEuler/)
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Etch-A-Sketch) | [View in Browser](https://nuclearmachine.github.io/OdinTasks/ProjectEuler/)
+
+
 *[Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
 * [Stefan P's Solution](https://github.com/spavikevik/javascript-euler)
 * [Lawrence Lawson's Interactive Solution](https://github.com/Zagan202/projecteuler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Zagan202/projecteuler/blob/master/index.html)
