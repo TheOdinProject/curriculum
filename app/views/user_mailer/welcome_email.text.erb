@@ -6,22 +6,27 @@ It's great to have you with us while you learn web development!  It can be a bit
 
 1: Confirm your email
 
-<%= link_to 'Click here', confirmation_url(@user, :confirmation_token => @token) %> to verify your account and access all of the free resources and community support of the Odin Project.
+Visit <%= confirmation_url(@user, :confirmation_token => @token) %> to verify your account and access all of the free resources and community support of the Odin Project.
 
 
 2: Plan out your strategy
 
-Figure out how much time each week you'll be able to devote to learning then browse through our roadmap of courses (<%= curriculum_url %>) and plan your strategy accordingly.  The biggest issue students have is getting distracted (especially since we link to so much juicy content), so staying focused is important.
+Figure out how much time each week you'll be able to devote to learning then browse through our roadmap of courses and plan your strategy accordingly.  The biggest issue students have is getting distracted (especially since we link to so much juicy content), so staying focused is important.
+Have a look at the curriculum at <%= curriculum_url %>
 
 
 3: Dive into your first course
 
-Get started! If you're brand spanking new to all this, start with <%= @starting_lesson.title %> (<%= lesson_url(@starting_lesson.title_url) %>).  Otherwise, Web Development 101 (<%= course_url("web-development-101") %>) is probably your best bet.
+Get started! If you're brand spanking new to all this, start with <%= @starting_lesson.title %> <%= lesson_url(@starting_lesson.title_url) %>
+Otherwise, Web Development 101 is probably your best bet <%= course_url("web-development-101") %>
 
 
 4: Get help and work with others
 
-We have a Gitter channel that you can join by visiting it here<%= 'https://gitter.im/TheOdinProject/theodinproject' %>.  You can also check out our study groups, which are occasionally run by other students, at <%= studygroups_url %>.  If you fill out your profile (<%= user_url(@user) %>), it will help others who might want to get in touch you.
+We have a Gitter channel that you can join by visiting https://gitter.im/TheOdinProject/theodinproject
+You can also check out our study groups, which are occasionally run by other students, at <%= studygroups_url %>
+If you fill out your profile, it will help others who might want to get in touch you.
+Edit your profile at <%= user_url(@user) %>
 
 
 5: Tell your friends!
@@ -31,10 +36,12 @@ If you find the project helpful, please spread the word.  It's always more fun t
 
 !: Consider the Viking Code School
 
-If you're very serious about taking on a career in software engineering, check out the Viking Code School ( http://www.vikingcodeschool.com?ref=The+Odin+Project ), an intensive online development bootcamp that has its roots in Odin and where qualified students don't pay tuition until they get a job.
+If you're very serious about taking on a career in software engineering, check out the Viking Code School, an intensive online development bootcamp that has its roots in Odin and where qualified students don't pay tuition until they get a job.
+http://www.vikingcodeschool.com?ref=The+Odin+Project
 
 
-If you have any additional questions, check out our FAQ (<%= faq_url %>) or feel free to reach out to contact@theodinproject.com.
+If you have any additional questions, check out our FAQ or feel free to reach out to contact@theodinproject.com
+<%= faq_url %>
 
 Best of luck with your learning journey!
 
@@ -45,4 +52,4 @@ Founder, The Odin Project
 
 
 ---------------------------------
-The Odin Project (<%= home_url %>) is a free and open-source curriculum for learning web development.  It charts a path through existing resources on the web so anyone in the world can develop a job-ready skillset and a professional portfolio of work without the loneliness and uncertainty of working on their own.
+The Odin Project is a free and open-source curriculum for learning web development.  It charts a path through existing resources on the web so anyone in the world can develop a job-ready skillset and a professional portfolio of work without the loneliness and uncertainty of working on their own.
