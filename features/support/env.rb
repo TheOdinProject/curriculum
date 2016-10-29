@@ -68,3 +68,23 @@ Capybara.app_host = 'http://localhost:3001'
 Capybara.register_driver :poltergeist do |app|
   Capybara::Poltergeist::Driver.new(app)
 end
+
+Before('@omniauth_test') do
+  OmniAuth.config.test_mode = true
+
+  OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new({
+    :provider => 'github',
+    :uid => '123545',
+    :info => {
+      name: 'kevin',
+      email: 'kevin@example.com'
+    }
+  })
+
+  Rails.application.env_config["devise.mapping"] = Devise.mappings[:user] # If using Devise
+  Rails.application.env_config["omniauth.auth"] = OmniAuth.config.mock_auth[:github]
+end
+
+After('@omniauth_test') do
+  OmniAuth.config.mock_auth[:github] = nil
+end
