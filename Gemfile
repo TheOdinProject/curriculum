@@ -40,6 +40,7 @@ group :development, :test do
   gem 'capybara',                   '~> 2.6.2'
   gem 'phantomjs',                  '~> 2.1.1'
   gem 'poltergeist',                '~> 1.9.0'
+  gem 'capybara-email'
   gem 'database_cleaner',           '~> 1.5.1'
   gem 'webmock',                    '~> 2.1'
   gem 'vcr',                        '~> 3.0'
