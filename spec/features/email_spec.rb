@@ -12,7 +12,7 @@ describe "Email Confirmation" do
 
     it "confirms email when user follows link in welcome email" do
       email = ActionMailer::Base.deliveries.last.encoded
-      link = email.match(/"(.*confirmation_token.*)"/)[1]
+      link = email.match(/\S+confirmation_token\S+/)[0]
       visit link
       expect(page).to have_selector('div', text: "Thanks for confirming your email address!")
     end

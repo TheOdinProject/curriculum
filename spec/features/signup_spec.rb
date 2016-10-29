@@ -44,7 +44,7 @@ describe "Sign Up" do
       end
 
       it "confirms the user's email address when they follow the link" do
-        link = @email.match(/"(.*confirmation_token.*)"/)[1]
+        link = @email.match(/\S+confirmation_token\S+/)[0]
         visit link
         expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
       end
@@ -91,7 +91,7 @@ describe "Sign Up" do
 
       it "confirms user's email address when they follow link" do
         email = ActionMailer::Base.deliveries.last.encoded
-        link = email.match(/"(.*confirmation_token.*)"/)[1]
+        link = email.match(/\S+confirmation_token\S+/)[0]
         visit link
         expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
       end
