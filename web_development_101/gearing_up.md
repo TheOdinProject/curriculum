@@ -1,4 +1,4 @@
-#Gearing up for success
+# Gearing up for success
 Learning how to program takes work, Like any skill worth knowing it takes time to acquire and it can't
 be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So before we get into the meat of the curriculum, it would be beneficial to go over the following so you  can get the most out of Odin:
 
@@ -14,7 +14,7 @@ We will look at getting clear about what your motivation for learning
 programming is and getting yourself into the growth mindset so that you
 have the right mentality when approaching challenges throughout the curriculum.
 
-###Your Motivation For Learning Programming
+### Your Motivation For Learning Programming
 Your motivation to learn to code could be to have a fulfilling career that pays
 well; it could the creative outlet programming provides; it may be to have the
 skills and abilities to build any sort of app you can think of; it might be to start
@@ -31,7 +31,7 @@ To give your motivation a bit of a boost you can read about the success of other
 * [This 32 year old who taught himself programming using the odin project over the period of a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
 * [Another guy who used the odin project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
 
-###The Growth Mindset
+### The Growth Mindset
 There is a wide body of research that supports that intelligence is not fixed, that
 it can be developed. People usually fall into one of the following two mindsets:
 
@@ -69,7 +69,7 @@ To learn more about the growth mindset use these resources:
 * [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 * [Grit](https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit)
 * [You can learn anything](https://www.khanacademy.org/about/blog/post/95208400815/the-learning-myth-why-ill-never-tell-my-son-hes)
-* [Start Here Ruby On Rails - Motivation & Growth Mindset](https://www.youtube.com/watch?v=8gc2zzWnRe8)
+* [Start Here - The Motivation Episode and Becoming a Programming Super Learner](http://starthere.fm/webdev/23-the-motivation-episode-and-becoming-a-programming-super-learner)
 
 ## The Best ways to Learn
 Odin's curriculum has two fundamental aspects: lessons and projects.
