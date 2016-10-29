@@ -189,6 +189,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Veselin Ivanov's solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Ruby_on_Rails_Blogger) | [View in browser](https://infinite-castle-21001.herokuapp.com/) | 10-15
 * [nmac's Solution](https://github.com/nmacawile/Blogger) | [View in Browser](https://evening-peak-88135.herokuapp.com/)
 * [Ryan Barnett's solution](https://github.com/RyanDBarnett/blogger) | [View in Browser](https://calm-hamlet-87855.herokuapp.com/)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/blogger) | [View in Browser](https://boiling-taiga-86260.herokuapp.com/)
 * Add your solution above this line!
 
 
