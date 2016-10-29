@@ -57,6 +57,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * [Dylan's solutions](https://github.com/resputin/the_odin_project/tree/master/Ruby/testing/time_travel)
 * Austin Mason's solution ([Ceaser Cipher](https://github.com/CouchofTomato/caesar_cipher), [Enumerable](https://github.com/CouchofTomato/enumberable_extension), and [Tic Tac Toe](https://github.com/CouchofTomato/tictactoe))
 * Jerry Gao's solution ([Caesar](https://github.com/blackwright/caesar_cipher), [Enumerable](https://github.com/blackwright/enumerable), [Tic-Tac-Toe](https://github.com/blackwright/tic_tac_toe))
+* tholymap's solution ([Caesar Cipher](https://github.com/tholymap/OdinRspec/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/tholymap/OdinRspec/blob/master/spec/my_enumerable_spec.rb), [Tic-Tac-Toe](https://github.com/tholymap/OdinRspec/blob/master/spec/tic_tac_toe_spec.rb))
 
 
 ## Project: TDD Connect Four
@@ -118,6 +119,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Austin Mason's solution](https://github.com/CouchofTomato/ConnectFour)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/connect_four)
 * [Jerry Gao's solution](https://github.com/blackwright/connect_four)
+* [tholymap's solution](https://github.com/tholymap/OdinRspec/blob/master/spec/connect_four_spec.rb)
 
 ## Additional Resources
 
