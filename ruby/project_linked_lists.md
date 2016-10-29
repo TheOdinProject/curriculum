@@ -92,3 +92,4 @@ Build the following methods in your linked list class:
 * [Leonard Soai-Van solution](https://github.com/leosoaivan/TOP_compsci)
 * [Anthony Vumbaca's solution (with extra credit)](https://github.com/tvumbaca/linked_lists/blob/master/linked_list.rb)
 * [Jerry Gao's tryhard solution](https://github.com/blackwright/linked_list)
+* [Marcus' solution (with extra credit)](https://github.com/nestcx/odin_comp_sci/blob/master/linked_list.rb)
