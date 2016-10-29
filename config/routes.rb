@@ -49,9 +49,8 @@ devise_for :users,
 
   # Explicitly redirect deprecated routes (301)
 
+  get 'curriculum' => redirect('/courses')
+  get 'scheduler' => redirect('/courses')
   get ':course_name' => redirect('/courses/%{course_name}')
   get ':course_name/:lesson_name' => redirect('courses/%{course_name}/lessons/%{lesson_name}')
-  get 'curriculum' => redirect('/courses')
-  get 'studygroup' => redirect('/studygroups')
-  get 'scheduler' => redirect('/courses')
 end
