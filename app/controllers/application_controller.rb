@@ -67,8 +67,8 @@ class ApplicationController < ActionController::Base
 
 
   def after_sign_in_path_for(resource)
-    if current_user.confirmed_at == nil
-      flash[:partial] = "confirm_email"
+    if current_user.confirmed_at.nil?
+      flash[:warning] = "#{render_to_string partial: 'layouts/confirm_email'}"
     end
     session[:previous_url] || courses_path(:ref => "login")
   end
@@ -76,6 +76,4 @@ class ApplicationController < ActionController::Base
   def not_found_error
     raise ActionController::RoutingError.new('Not Found')
   end
-
-
 end
