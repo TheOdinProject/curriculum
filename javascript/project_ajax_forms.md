@@ -17,6 +17,7 @@ Create an infinite-scrolling page of movies from the Open Movie Database.
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/ajax_infinite_scroll) | [View in browser (*most images not shown*)](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/ajax_infinite_scroll/index.html)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/Movie-App) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/Movie-App/index.html#top)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project8) | [View in browser](http://rawgit.com/ArturJanik/TOPJS/master/Project8/index.html)
@@ -26,7 +27,6 @@ Create an infinite-scrolling page of movies from the Open Movie Database.
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/omdb) | [View in browser](http://lukewalker.org/odin/js-course/omdb/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-infinite-scroll) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-infinite-scroll/blob/master/index.html)
 * [Cody Loyd's solution](https://github.com/codyloyd/js-infinite-scrolling-test) | [View in browser](http://codyloyd.com/js-infinite-scrolling-test/)
-* Add your solution above this line!
 
 
 ## Additional Resources

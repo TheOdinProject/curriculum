@@ -91,8 +91,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 ## Student Solutions
 
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
+* [Chad Kreutzer's solution](https://github.com/ChadKreutzer/google-homepage) | [View in browser](https://mighty-harbor-72529.herokuapp.com/)
 * [Chris Garey's solution](https://github.com/cgarey2014/google-homepage) | [View in browser](https://cdn.rawgit.com/cgarey2014/google-homepage/master/index.html)
 * [Miguel Serrano's solution](https://github.com/miguelsxvi/google-homepage) | [View in browser](https://rawgit.com/miguelsxvi/google-homepage/master/index.html)
 * [Robert Richards' solution](https://github.com/robert903/ghomepage) | [View in browser](http://robertrichards.me/projects/ghomepage/)
@@ -888,16 +890,16 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ilya Zakharov's solution (Easy)](https://github.com/Vandalisk/google) | [View in browser] (https://rawgit.com/Vandalisk/google/master/index.html)
 * [Pedro Ribeiro's solution (Easy)](https://github.com/Zapiano/google-homepage)
 * [Kiyeon's solution (easy)](https://github.com/kiyeonpark/google-homepage) | [View in browser] (https://rawgit.com/kiyeonpark/google-homepage/master/google-easy.html) || [(difficult)] (https://github.com/kiyeonpark/google-resultspage) | [View in browser] (https://rawgit.com/kiyeonpark/google-resultspage/master/google-difficult.html)
-* [Vipin Sharma's Solution (Easy)](https://github.com/metalheadvipin/google-homepage) | [View in browser](https://rawgit.com/metalheadvipin/google-homepage/master/index.html) 
+* [Vipin Sharma's Solution (Easy)](https://github.com/metalheadvipin/google-homepage) | [View in browser](https://rawgit.com/metalheadvipin/google-homepage/master/index.html)
 * [Jeff1st's Solution (difficult)](https://github.com/jeff1st/google-results) | [View in Browser] (https://rawgit.com/jeff1st/google-results/master/index.html)
 * [Tamir.H's Solution (Easy)](https://github.com/subcat/google-homepage) | [View in Browser] (https://subcat.github.io/google-homepage/)
 * [Bill Hefty's Solution (Easy)](https://github.com/bhefty/google-homepage) | [View in Browser] (https://rawgit.com/bhefty/google-homepage/master/index.html)
 * [Dustin Seright's Solution (Easy)](https://github.com/dseright/google_homepage) | [View in Browser](https://cdn.rawgit.com/dseright/google_homepage/master/index.html)
+[Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
 * [Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
 * [Siddharth Isaiah's Solution (Easy)](https://github.com/siddharthisaiah/google-homepage) | [View in Browser](https://rawgit.com/siddharthisaiah/google-homepage/master/homepage.html)
 * [nmac's Solution (Easy)](https://github.com/nmacawile/google/tree/master/google-homepage) | [(Difficult)](https://github.com/nmacawile/google/tree/master/google-searchpage)| [View in Browser (Easy)](https://rawgit.com/nmacawile/google/master/google-homepage/index.html) | [View in Browser (Difficult)](https://rawgit.com/nmacawile/google/master/google-searchpage/index.html)
 * [Arturo's Solution (Easy & Difficult)](https://github.com/ArturoRuge/google-homepage) | [View in Browser (Easy)](https://rawgit.com/ArturoRuge/google-homepage/master/index.html) | [View in Browser (Difficult)](https://rawgit.com/ArturoRuge/google-homepage/master/3version.html)
-* Add your solution above this line!
 
 ## Additional Resources
 

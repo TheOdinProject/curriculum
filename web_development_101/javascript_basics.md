@@ -31,6 +31,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
+* Add your solution below this line!
+* [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/ProjectEuler)
 * [Robert Richards' Solution](https://github.com/robert903/robertrichards.github.io/tree/gh-pages/projects/euler) | [View in browser](http://robertrichards.me/projects/euler/)
 * [RebootJeff's solution](https://github.com/RebootJeff/myOdinProject/tree/master/odin.js.project_euler)
 * [mattphoto's solution](https://github.com/mattphoto/ProjectEuler)
@@ -364,7 +366,6 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Benjamin's solution](https://github.com/Benjamin-Re/Euler.git)
 * [Harsimran Mann's Solution](https://github.com/pure5abi/euler-problems)
 * [Jakub Augustyn'n Solution](https://github.com/zerozero7/jscript-euler) | [View in browser](https://cdn.rawgit.com/zerozero7/jscript-euler/191dbff/index.html)
-<<<<<<< HEAD
 * [Zapad Daniel Solution](https://github.com/ZapadRo97/odin-project-euler)
 * [Travis Gibson's Solution](https://github.com/GibsonT/euler.js) | [View in browser](https://htmlpreview.github.io/?https://github.com/GibsonT/euler.js/blob/master/index.html)
 * [biko's Solution](https://github.com/biko1982/project-euler)
@@ -391,11 +392,10 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Josh Vogel's Solution](https://github.com/j-vogel/project-euler-solutions) | [View in Browser](https://htmlpreview.github.io/?https://github.com/j-vogel/project-euler-solutions/blob/master/index.html)
 * [Adrian Vasquez's Solution](https://github.com/Radiant-590/Project-Euler)
 * [Bill Hefty's Solution](https://github.com/bhefty/project-euler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/bhefty/project-euler/blob/master/index.html)
-* [Jib's Solution](https://github.com/NuclearMachine/ProjectEuler) | [View in Browser](https://nuclearmachine.github.io/ProjectEuler/)
-*[Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Etch-A-Sketch) | [View in Browser](https://nuclearmachine.github.io/OdinTasks/ProjectEuler/)
+* [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
 * [Stefan P's Solution](https://github.com/spavikevik/javascript-euler)
 * [Lawrence Lawson's Interactive Solution](https://github.com/Zagan202/projecteuler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Zagan202/projecteuler/blob/master/index.html)
-* Add your solution above this line!
 
 ## Additional Resources
 

@@ -23,6 +23,7 @@ The process will be quite similar to what we've done before.  At this point, you
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/responsive_design) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/responsive_design/index.html)
 * [Leonard Labita's solution](https://github.com/lendoza/OdinProject/tree/master/app) | [View in browser](http://leonardlabita.com/next.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectTNW) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectTNW/blob/master/index.html)
@@ -34,7 +35,6 @@ The process will be quite similar to what we've done before.  At this point, you
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/thenextweb-remake/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/thenextweb-remake/index.html)
 * [Ashleigh's solution](https://github.com/aedelman/responsive-design/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/aedelman/responsive-design/blob/master/index.html)
 * [csrail's solution](https://github.com/csrail/next-web-mock) | [View in browser](https://rawgit.com/csrail/next-web-mock/master/index.html)
-* Add your solution above this line!
 
 
 ## Additional Resources

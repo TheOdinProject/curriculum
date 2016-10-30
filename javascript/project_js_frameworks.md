@@ -15,8 +15,7 @@ In both cases, save your solution using Git and submit it below when you've fini
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-*
-* Add your solution above this line!
+* Add your solution below this line!
 
 
 ## Additional Resources

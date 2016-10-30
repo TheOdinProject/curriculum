@@ -41,6 +41,7 @@ If you think about what's required to make a game like this work, it's all well 
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Afshin M.'s solution](https://github.com/afshinator/js-snake)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/snake) | [View in browser](http://jsfiddle.net/Jberczel/xvEt5/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Snake/index.html)
@@ -65,7 +66,6 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Miguel Herrera's solution](https://github.com/migueloherrera/jquery-snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/jquery-snake/blob/master/index.html)
 *  [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/snake/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/dev-cyprium/snake/blob/master/index.html)
 * [Cody Loyd's solution](https://github.com/codyloyd/javascriptSnake) | [View in browser](http://codyloyd.com/javascriptSnake/)
-* Add your solution above this line!
 
 
 ## Additional Resources

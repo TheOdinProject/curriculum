@@ -15,6 +15,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/event_manager)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/event_manager)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_4_Ruby_FileIO/event_manager)
@@ -91,7 +92,6 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/event_manager)
 * [Jerry Gao's solution](https://github.com/blackwright/event_manager/blob/master/event_manager.rb)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/event_manager)
-* Add your solution above this line!
 
 
 ## Project: Hangman
@@ -114,6 +114,7 @@ You will be building a simple command line Hangman game where one player plays a
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/Hangman) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/Hangman/index.html)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/hangman)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/hangman_fileio)
@@ -221,7 +222,6 @@ You will be building a simple command line Hangman game where one player plays a
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/hangman)
 * [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/Hangman)
 * [Jerry Gao's solution](https://github.com/blackwright/hangman/blob/master/hangman.rb)
-* Add your solution above this line!
 
 
 ## Additional Resources
