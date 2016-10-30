@@ -900,7 +900,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Siddharth Isaiah's Solution (Easy)](https://github.com/siddharthisaiah/google-homepage) | [View in Browser](https://rawgit.com/siddharthisaiah/google-homepage/master/homepage.html)
 * [nmac's Solution (Easy)](https://github.com/nmacawile/google/tree/master/google-homepage) | [(Difficult)](https://github.com/nmacawile/google/tree/master/google-searchpage)| [View in Browser (Easy)](https://rawgit.com/nmacawile/google/master/google-homepage/index.html) | [View in Browser (Difficult)](https://rawgit.com/nmacawile/google/master/google-searchpage/index.html)
 * [Arturo's Solution (Easy & Difficult)](https://github.com/ArturoRuge/google-homepage) | [View in Browser (Easy)](https://rawgit.com/ArturoRuge/google-homepage/master/index.html) | [View in Browser (Difficult)](https://rawgit.com/ArturoRuge/google-homepage/master/3version.html)
-
+* [Yusuf Ayo's Solution (Easy and Difficult)](https://https://haywhyze.github.io/google-homepage/) | (https://haywhyze.github.io/google-homepage/difficult_version/)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
