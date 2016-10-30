@@ -1,10 +1,10 @@
 Given(/^I am a user who already has an account$/) do
-  user = FactoryGirl.create(:user)
+  user = FactoryGirl.create(:user, confirmed_at: 2.days.ago)
   log_in user
 end
 
 When(/^I click the link your github account button$/) do
-  visit('users/1')
+  visit("users/#{User.last.id}")
   click_link('Link your Github account')
 end
 
