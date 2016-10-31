@@ -187,6 +187,10 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Ayon Pal's Solution](https://github.com/AyonPal/blogger/tree/master/blogger) | [View in Browser](https://enigmatic-temple-69582.herokuapp.com/)
 * [Jerry Gao's solution](https://github.com/blackwright/blogger) | [View in browser](https://pure-escarpment-77829.herokuapp.com/)
 * [Veselin Ivanov's solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Ruby_on_Rails_Blogger) | [View in browser](https://infinite-castle-21001.herokuapp.com/) | 10-15
+* [nmac's Solution](https://github.com/nmacawile/Blogger) | [View in Browser](https://evening-peak-88135.herokuapp.com/)
+* [Ryan Barnett's solution](https://github.com/RyanDBarnett/blogger) | [View in Browser](https://calm-hamlet-87855.herokuapp.com/)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/blogger) | [View in Browser](https://boiling-taiga-86260.herokuapp.com/)
+* [Stefan P's solution](https://github.com/spavikevik/odin_blogger) | [View in Browser](https://odin-blogger-sp.herokuapp.com)
 * Add your solution above this line!
 
 

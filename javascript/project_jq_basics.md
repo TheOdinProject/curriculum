@@ -17,6 +17,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 ## Student Solutions
+* Add your solution below this line!
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-javascript/blob/master/restaurant/index.html)
 * [Afshin M's solution](https://github.com/afshinator/js-tabbedPane) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/js-tabbedPane/blob/master/index.html)
 * [Tom M's Solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Project2) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Project2/index.html)
@@ -43,7 +44,6 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/restaurant/blob/master/index.html)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Restaurant) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/Restaurant/blob/master/index.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/dom-manipulation) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/dom-manipulation/blob/master/index.html)
-* Add your solution above this line!
 
 
 

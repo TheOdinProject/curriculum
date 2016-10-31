@@ -15,6 +15,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 
 *If you've been keeping track of the SQL Zoo solutions, put them here! Some that we found online are provided in the "Additional Resources" section below but are incomplete.  Submit a link to your solutions below by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.*
 
+* Add your solution below this line!
 * [MichaelMagnoli's solution](https://github.com/MichaelMagnoli/Web-Dev-Projects/tree/master/The%20Odin%20Project/Ruby%20on%20Rails/SQL%20Zoo)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/project_sql)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/sql_zoo)
@@ -34,7 +35,6 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 * [codyloyd's solution](https://github.com/codyloyd/sqlzoo-solutions/blob/master/SQLZOO_solutions.md)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/project_sql)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/sql_zoo)
-* Add your solution above this line!
 
 
 ## Additional Resources

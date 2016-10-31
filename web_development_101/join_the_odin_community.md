@@ -67,3 +67,10 @@ Your Code
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
 
 **Push your code to GitHub!** If the puzzle still can't be solved, push your project to GitHub so that others can comb through and debug the code. (You'll get to know about GitHub really soon.)
+
+## Some Fun in Chat:
+
+* Have fun with giphys: type `/giphy hi` to say Hi to everyone.
+* Navigate the chatroom better by typing `/help` for more info.
+* Show your appreciation for those you have helped you on your journey like `@odin-bot ++`.
+* Don't forget about all the [available rooms](https://gitter.im/orgs/TheOdinProject/rooms) each categorised by development topic which you can join.

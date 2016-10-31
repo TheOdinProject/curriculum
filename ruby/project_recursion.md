@@ -17,6 +17,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [mahimahi42's solution](https://github.com/mahimahi42/recursion.git)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/blob/master/recursion/fibonacci.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/project_recursion/fibonacci.rb)
@@ -98,9 +99,8 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Clint's solution](https://github.com/tholymap/Odin-Ruby-Recursion/blob/master/fib.rb)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/project-recursion/blob/master/fib.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/fibonacci_rec.rb)
-* [Leonard Soai-Van's solution] (https://github.com/leosoaivan/TOP_recursions/blob/master/fibonacci.rb)
+* [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_recursions/blob/master/fibonacci.rb)
 * [Jerry Gao's solution](https://github.com/blackwright/fibonacci)
-* Add your solution above this line!
 
 
 ## Project: Merge Sort
@@ -128,6 +128,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [mahimahi42's solution](https://github.com/mahimahi42/recursion.git)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/blob/master/recursion/merge_sort.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/project_recursion/merge_sort.rb)
@@ -209,10 +210,10 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Clint's solution](https://github.com/tholymap/Odin-Ruby-Recursion/blob/master/merge_sort.rb)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/project-recursion/blob/master/merge_sort.rb)
 * [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/merge_sort.rb)
-* [Leonard Soai-Van's solution] (https://github.com/leosoaivan/TOP_recursions/blob/master/merge_sort.rb)
-* [Dom Goj's solution] (https://github.com/booyakuhhsha/mergeSort)
+* [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_recursions/blob/master/merge_sort.rb)
+* [Dom Goj's solution](https://github.com/booyakuhhsha/mergeSort)
 * [Jerry Gao's solution](https://github.com/blackwright/merge_sort)
-* Add your solution above this line!
+* [Marcus' solution](https://github.com/nestcx/recursion/blob/master/mergesort.rb)
 
 ## Additional Resources
 

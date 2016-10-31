@@ -65,10 +65,36 @@ You should be able to reuse much of your code from before if you started with th
 
 Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
+## Viewing your project on the web
+
+If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine.  The good news is that if you have your project on github (as described above) doing this is incredibly simple.  There are a couple of options here, both with their own pros and cons.
+
+### Option 1: github-pages
+
+Github allows you to publish web projects directly from a github repository.  Doing this will allow you to access your project from `your-gh-username.github.io/your-github-repo-name`
+
+There are a couple of ways to go about doing this, but the simplest is this:
+
+- make sure that the main html file of your project is called `index.html`.  If it is not, you will need to rename it.
+- go to your github repo on the web and click the __Settings__ button
+- scroll down until you find the __GitHub Pages__ section
+- change the __Source__ from _none_ to _master branch_ and click Save.
+- it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-gh-username.github.io/your-github-repo-name` (obviously substituting your own details in the link)
+
+### Option 2: rawgit
+
+[Rawgit.com](https://rawgit.com) is another option for viewing github projects online.  It is simpler and quicker, but less permanent, likely less reliable than gh-pages, and you don't get the benefit of a nice personalized URL.  That said, for just quickly sending someone a preview of something you aren't ready to officially publish, it works great.
+
+- go to the website: [Rawgit.com](https://rawgit.com)
+- paste in the url to the main html file from your github repo (probably `index.html`)
+- copy and use one of the supplied links to share your project.
+
 ## Student Solutions
 
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
+* [Chad Kreutzer's solution](https://github.com/ChadKreutzer/google-homepage) | [View in browser](https://mighty-harbor-72529.herokuapp.com/)
 * [Chris Garey's solution](https://github.com/cgarey2014/google-homepage) | [View in browser](https://cdn.rawgit.com/cgarey2014/google-homepage/master/index.html)
 * [Miguel Serrano's solution](https://github.com/miguelsxvi/google-homepage) | [View in browser](https://rawgit.com/miguelsxvi/google-homepage/master/index.html)
 * [Robert Richards' solution](https://github.com/robert903/ghomepage) | [View in browser](http://robertrichards.me/projects/ghomepage/)
@@ -864,13 +890,18 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Ilya Zakharov's solution (Easy)](https://github.com/Vandalisk/google) | [View in browser] (https://rawgit.com/Vandalisk/google/master/index.html)
 * [Pedro Ribeiro's solution (Easy)](https://github.com/Zapiano/google-homepage)
 * [Kiyeon's solution (easy)](https://github.com/kiyeonpark/google-homepage) | [View in browser] (https://rawgit.com/kiyeonpark/google-homepage/master/google-easy.html) || [(difficult)] (https://github.com/kiyeonpark/google-resultspage) | [View in browser] (https://rawgit.com/kiyeonpark/google-resultspage/master/google-difficult.html)
-* [Vipin Sharma's Solution (Easy)](https://github.com/metalheadvipin/google-homepage) | [View in browser](https://rawgit.com/metalheadvipin/google-homepage/master/index.html) 
+* [Vipin Sharma's Solution (Easy)](https://github.com/metalheadvipin/google-homepage) | [View in browser](https://rawgit.com/metalheadvipin/google-homepage/master/index.html)
 * [Jeff1st's Solution (difficult)](https://github.com/jeff1st/google-results) | [View in Browser] (https://rawgit.com/jeff1st/google-results/master/index.html)
 * [Tamir.H's Solution (Easy)](https://github.com/subcat/google-homepage) | [View in Browser] (https://subcat.github.io/google-homepage/)
 * [Bill Hefty's Solution (Easy)](https://github.com/bhefty/google-homepage) | [View in Browser] (https://rawgit.com/bhefty/google-homepage/master/index.html)
 * [Dustin Seright's Solution (Easy)](https://github.com/dseright/google_homepage) | [View in Browser](https://cdn.rawgit.com/dseright/google_homepage/master/index.html)
-* Add your solution above this line!
-
+[Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
+* [Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
+* [Siddharth Isaiah's Solution (Easy)](https://github.com/siddharthisaiah/google-homepage) | [View in Browser](https://rawgit.com/siddharthisaiah/google-homepage/master/homepage.html)
+* [nmac's Solution (Easy)](https://github.com/nmacawile/google/tree/master/google-homepage) | [(Difficult)](https://github.com/nmacawile/google/tree/master/google-searchpage)| [View in Browser (Easy)](https://rawgit.com/nmacawile/google/master/google-homepage/index.html) | [View in Browser (Difficult)](https://rawgit.com/nmacawile/google/master/google-searchpage/index.html)
+* [Arturo's Solution (Easy & Difficult)](https://github.com/ArturoRuge/google-homepage) | [View in Browser (Easy)](https://rawgit.com/ArturoRuge/google-homepage/master/index.html) | [View in Browser (Difficult)](https://rawgit.com/ArturoRuge/google-homepage/master/3version.html)
+* [Yusuf Ayo's Solution (Easy & Difficult)](https://github.com/haywhyze/google-homepage) | [View in Browser (Easy)](https://haywhyze.github.io/google-homepage/) | [View in Browser (Difficult)](https://haywhyze.github.io/google-homepage/difficult_version/)
+* [Austin Norman's Solution](https://github.com/austinnormancore/google-homepage) | [View in Browser](https://cdn.rawgit.com/austinnormancore/google-homepage/master/index.html)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

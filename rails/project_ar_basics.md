@@ -117,6 +117,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Voizzzz' solution](https://github.com/voizzzz/microreddit)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * [Afshin's solution](https://github.com/afshinator/micro-reddit)
@@ -166,8 +167,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/micro-reddit)
 * [djhart's solution](https://github.com/djhart/micro-reddit)
 * [csrail's solution](https://github.com/csrail/micro-reddit/tree/master/app/models)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/micro-reddit)
 
-* Add your solution above this line!
 
 ## Additional Resources
 

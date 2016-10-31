@@ -97,6 +97,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/members-only)
@@ -142,7 +143,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [chrisnorwood's solution](https://github.com/chrisnorwood/members-only) | [View in browser](https://members-only-top.herokuapp.com/)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/members-only) | [View in browser](https://members-only-by-jiazhi.herokuapp.com/)
 * [Amrr Bakry's solution] (https://github.com/Amrrbakry/rails_the_odin_project/tree/master/members_only) | [view in browser](https://dry-ravine-33949.herokuapp.com/)
-* Add your solution above this line!
+* [David Chapman's solution] (https://github.com/davidchappy/odin_training_projects/tree/master/members-only) | [view in browser](https://polar-fjord-78673.herokuapp.com/)
 
 
 ## Additional Resources

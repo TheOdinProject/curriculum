@@ -24,6 +24,10 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
+* [Austin Norman's solutions](https://github.com/austinnormancore/rubyproject)
+* [Stefan P's solutions](https://github.com/spavikevik/learn_ruby)
+* [Josh Vogel's solutions](https://github.com/j-vogel/learn_ruby)
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * [DucPhan's solution](https://github.com/phanducsjsu/Test-First-Ruby)
 * [ErikHP's solution](https://github.com/ErikHP/test-first-ruby)
@@ -235,7 +239,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Chris B's Solution](https://github.com/browncj/RubyTesting)
 * [Ryan Barnett's Solution](https://github.com/RyanDBarnett/learn_ruby)
 * [Bill Hefty's Solution](https://github.com/bhefty/learn_ruby)
-* Add your solution above this line!
+* [nmac's Solution](https://github.com/nmacawile/learn_ruby)
+* [jeff1st's Solution](https://github.com/jeff1st/testing_in_ruby)
 
 ## Additional Resources
 
