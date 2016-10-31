@@ -71,41 +71,5 @@ describe "Sign Up" do
         expect(ActionMailer::Base.deliveries.last.encoded).to include "Confirm your email"
       end
     end
-
-    context "after signing up with Github" do
-      before do
-        sign_up_with_github  # username: "GhostMan"   email: "ghost@nobody.com"
-      end
-
-      it "sends welcome email" do
-        expect(ActionMailer::Base.deliveries.last.encoded).to include "To: ghost@nobody.com"
-      end
-
-      it "includes email confirmation link in the welcome email" do
-        expect(ActionMailer::Base.deliveries.last.encoded).to include "Confirm your email"
-      end
-
-      it "does not mark user confirmed automatically" do
-        expect(User.last.confirmed?).to eq false
-      end
-
-      it "confirms user's email address when they follow link" do
-        email = ActionMailer::Base.deliveries.last.encoded
-        link = email.match(/\S+confirmation_token\S+/)[0]
-        visit link
-        expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
-      end
-
-      it "requires user to verify within 2-day grace period" do
-        click_on("Logout")   # clear session
-        git_user = User.last  # the user just created in the before statement
-        git_user.created_at = Time.now - 3.days
-        git_user.confirmation_sent_at = Time.now - 3.days
-        git_user.save
-        visit sign_up_path
-        click_on "Sign up with Github"
-        expect(page).to have_selector('div', text: "You have to confirm your account before continuing.Didn't receive instructions or need them again?")
-      end
-    end
   end
 end

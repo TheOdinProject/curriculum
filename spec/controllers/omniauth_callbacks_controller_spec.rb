@@ -1,160 +1,132 @@
 require 'rails_helper'
 
-describe OmniauthCallbacksController, "github callback" do
+describe OmniauthCallbacksController, :type => :controller do
+
+  let(:user_signed_in?) { true }
+  let(:user) { double('User') }
+  let(:auth) { { provider: 'github', uid: '123' } }
+  let(:link_omniauth) { double('LinkOmniauth') }
+  let(:link_omniauth_attributes) {
+    {
+      user: user,
+      flash_type: :notice,
+      flash_message: 'Linked Github to your account',
+    }
+  }
+  let(:new_or_existing_omniauth_user) { double('NewOrExistingOmniauthUser') }
+  let(:new_user?) { true }
+  let(:user_attributes) { { username: 'kevin', email: 'kevin@example.com', uid: '123', provider: 'github', confirmed_at: Time.now, legal_agreement: true } }
+
   before do
-    allow(UserMailer).to receive(:send_welcome_email_to).
-      and_return(double("UserMailer", deliver_now!: true))
+    request.env["devise.mapping"] = Devise.mappings[:user] # If using Devise
+    request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github]
+
+    allow(controller).to receive(:user_signed_in?).
+      and_return(user_signed_in?)
+
+    allow(controller).to receive(:current_user).
+      and_return(user)
+
+    allow(LinkOmniauth).to receive(:new).with(user, auth).
+      and_return(link_omniauth)
+
+    allow(link_omniauth).to receive(:create).
+      and_return(link_omniauth_attributes)
+
+    allow(NewOrExistingOmniauthUser).to receive(:new).with(auth).
+      and_return(new_or_existing_omniauth_user)
+
+    allow(user).to receive(:new_record?).and_return(new_user?)
   end
 
-  describe 'Github signup' do
-    context 'When Github authentication fails' do
-      it 'should render a failure message' do
-        @request.env["devise.mapping"] = Devise.mappings[:user]
-        get :failure
-        expect(flash[:alert]).to eq 'Authentication failed.'
-        expect(response).to redirect_to root_path
+  describe 'GET github' do
+
+    context 'when user is signed in' do
+
+      it 'displays successful link flash' do
+        get :github
+        expect(flash[:notice]).to eql('Linked Github to your account')
+      end
+
+      it 'redirects to courses path' do
+        get :github
+        expect(response).to redirect_to(courses_path)
       end
     end
 
-    describe 'Github sign-in page step 2' do
-      before(:each) do
-        click_signin_with_github
+    context 'when user is not signed in and they need to verify details' do
+      let(:user_signed_in?) { false }
+      let(:new_user_attributtes) {
+        {
+          user: user,
+          flash_type: :none,
+          flash_message: ''
+        }
+      }
+      let(:user) {
+        double('User', attributes: user_attributes )
+      }
+
+      before do
+        allow(new_or_existing_omniauth_user).to receive(:create).
+          and_return(new_user_attributtes)
       end
 
-      specify { expect(page).to have_css('#user_username') }
-      specify { expect(page).to have_css('#user_email') }
-      specify { expect(page).to have_content('Terms of Use') }
-      specify { expect(page).not_to have_css('password confirmation') }
-      specify { expect(page).not_to have_css('password required') }
-    end
-
-
-    context 'After signing up with Github' do
-      before(:each) do
-        # This little guy will prompt an infinite redirect
-        # If the code isn't set up to handle query strings
-        visit login_path(:ref=>"homenav")
-        sign_up_with_github
+      it 'displays new user flash' do
+        get :github
+        expect(flash[:none]).to eql('')
       end
 
-      specify do
-        expect(page).to have_content('Welcome! You have signed up successfully.')
+      it 'stores the new users attributes' do
+        get :github
+        expect(session['devise.user_attributes']).to eql(user_attributes)
       end
 
-      it 'should create user' do
-        expect(User.where(provider: "default", uid: '1234').count).to eq(1)
-      end
-    end
-
-    context 'after signout' do
-      before(:each) do
-        sign_up_with_github
-        click_link "Logout"
-        click_link "Login"
-      end
-      specify { find_link('Sign in with Github').visible? }
-    end
-
-    context 'should be able to sign in again' do
-      before(:each) do
-        sign_up_with_github
-        click_link "Logout"
-
-        click_signin_with_github
-      end
-      #auth = request.env["omniauth.auth"]
-      #fixed with #{authorization.provider}
-      it "should flash notice \"Thanks for logging in with Default\n" do
-        expect(page).to have_content("Thanks for logging in with Default")
+      it 'redirects to the new user registration path' do
+        get :github
+        expect(response).to redirect_to(new_user_registration_url)
       end
     end
 
-    context 'legal agreement not checked' do
-      before(:each) do
-        attempt_sign_in_no_legal_agreement
+    context 'when user is not signed in and they dont need to verfiy details' do
+      let(:user_signed_in?) { false }
+      let(:new_user?) { false }
+      let(:existing_user_attributtes) {
+        {
+          user: user,
+          flash_type: :notice,
+          flash_message: 'Thanks for logging in with Github!'
+        }
+      }
+      let(:user) { FactoryGirl.build(:user) }
+
+      before do
+        allow(new_or_existing_omniauth_user).to receive(:create).
+          and_return(existing_user_attributtes)
       end
 
-      specify {expect(page).to have_content('Don\'t forget the legal')}
-
-      it 'should not create a user' do
-        expect(User.any?).to eq(false)
+      it 'displays existing user flash' do
+        get :github
+        expect(flash[:notice]).to eql('Thanks for logging in with Github!')
       end
-    end
 
-    context 'username not entered ' do
-      it 'should not create a user' do
-        click_signin_with_github
-        fill_in('user_username', :with => "")
-        fill_in('user_email', :with => "ghost@nobody.com")
-        check('user_legal_agreement')
-        click_button('Sign up')
-        expect(User.any?).to eq(false)
-      end
-    end
-
-    context 'email not entered' do
-      it 'should not create a user' do
-        click_signin_with_github
-        fill_in('user_username', :with => "GhostMan")
-        fill_in('user_email', :with => "ghost@nobody.com")
-        click_button('Sign up')
-        expect(User.any?).to eq(false)
+      it 'redirects to courses page' do
+        get :github
+        expect(response).to redirect_to(courses_path(:ref => 'login'))
       end
     end
   end
 
+  describe 'GET failure' do
 
-  context 'an existing user created with standard signup (e.g. has password)' do
-
-    let(:normal_user){ User.create(
-                        username: "Existing User",
-                        email: "ghost@nobody.com",
-                        password: "password",
-                        password_confirmation: "password",
-                        legal_agreement: true) }
-
-    it 'should create a user with blank provider and uid' do
-      expect(normal_user.provider).to eq(nil)
-      expect(normal_user.uid).to eq(nil)
+    it 'displays the failured omniauth flash' do
+      get :failure
+      expect(flash[:alert]).to eql('Authentication failed.')
     end
 
-    context 'tries to log in with a Github account having the same email address' do
-      before do
-        click_signin_with_github
-      end
-
-      it 'should tell the user to login to his/her existing account, and link the account on the profile page' do
-        expect(normal_user.provider).to eq(nil)
-        expect(page).to have_css('.signup-prompt-msg')
-      end
-    end
-
-    context 'signs in' do
-
-      before do
-        # sign_in(normal_user) # Why the hell doesn't this work?  The next 4 lines are identical to it.
-        visit login_path
-        fill_in "Email", :with => normal_user.email
-        fill_in "Password", :with => normal_user.password
-        click_button "Sign in"
-      end
-
-      context 'and goes to profile page' do
-
-        before { visit user_path(normal_user) }
-
-        context 'and clicks on the Link to Github button' do
-          before do
-            click_on('github-link')
-          end
-
-          it 'should update existing user provider and uid' do
-            normal_user.reload
-            expect(normal_user.provider).to eq("default")
-            expect(normal_user.uid).to eq("1234")
-          end
-        end
-      end
+    it 'redirects to home page' do
+      get :failure
+      expect(response).to redirect_to(root_path)
     end
   end
 end

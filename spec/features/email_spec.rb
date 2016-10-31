@@ -80,36 +80,6 @@ describe "Email Confirmation" do
       end
     end
 
-    context "User who registered with Github" do
-      before do
-        click_on("Logout") # clear user from before block
-        sign_up_with_github
-        click_on("Logout")  # clear session
-        git_user = User.last  # the user just created
-        git_user.created_at = Time.now - 3.days
-        git_user.save
-        visit courses_path
-        click_on Course.first.title
-        click_on Lesson.first.title
-        click_on "Login"
-        click_on "Sign in with Github"
-      end
-
-      it "provides correct link to resend confirmation instructions from any page" do
-        # Currently on lesson page - from before block
-        click_on "Didn't receive confirmation instructions, or need them again?"
-        expect(page).to have_selector('div', text: "Confirmation instructions have been sent to your email address!")
-      end
-
-      it "sends email with authentication token" do
-        email = ActionMailer::Base.deliveries.last.encoded
-        link = email.match(/href="(.*confirmation_token.*)" /)[1]
-        visit link
-        expect(page).to have_selector("div", text: "Thanks for confirming your email address!")
-      end
-    end
-
-
     it "should stop prompting user to confirm after they have done so" do
       sign_out(user)  # Sign out unconfirmed user from before block
       confirmed_user = FactoryGirl.create(:user, :confirmed_at => Time.now)
