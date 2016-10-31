@@ -39,7 +39,7 @@
   ol>li{
     margin: .5em 0;
   }
-  ul {
+  ul:nth-last-of-type(2) {
     width: 100%;
     max-height: 600px;
     overflow: auto;
