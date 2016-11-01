@@ -39,11 +39,11 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
 
   def auth
-    request.env["omniauth.auth"]
+    request.env['omniauth.auth']
   end
 
   def store_user_details
-    session["devise.user_attributes"] = user.attributes
+    session['devise.user_attributes'] = user.attributes
   end
 
   def user_needs_to_verify_details?
