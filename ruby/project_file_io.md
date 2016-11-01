@@ -11,7 +11,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 
 1. [This tutorial from Jumpstart Lab](http://tutorials.jumpstartlab.com/projects/eventmanager.html) walks you through just that sort of operation. Give it a shot.
 
-### Student Solutions
+### Student Solutions << These (below) are not in a scroll box like the other solutions yet
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
