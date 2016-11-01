@@ -276,6 +276,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Marcus' solution (with AI)](https://github.com/nestcx/intermediate_ruby/blob/master/Mastermind/mastermind.rb)
 * [Bishal's solution](https://github.com/biiishal/mastermind)
 * [HenrytheDJ's solution (with AI)](https://github.com/henrythedj/mastermind)
+* [Kyle Thomson's solution (with strong AI, less than 5 moves)](https://github.com/idynkydnk/mastermind)
 
 ## Additional Resources
 
