@@ -903,6 +903,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Arturo's Solution (Easy & Difficult)](https://github.com/ArturoRuge/google-homepage) | [View in Browser (Easy)](https://rawgit.com/ArturoRuge/google-homepage/master/index.html) | [View in Browser (Difficult)](https://rawgit.com/ArturoRuge/google-homepage/master/3version.html)
 * [Yusuf Ayo's Solution (Easy & Difficult)](https://github.com/haywhyze/google-homepage) | [View in Browser (Easy)](https://haywhyze.github.io/google-homepage/) | [View in Browser (Difficult)](https://haywhyze.github.io/google-homepage/difficult_version/)
 * [Austin Norman's Solution](https://github.com/austinnormancore/google-homepage) | [View in Browser](https://cdn.rawgit.com/austinnormancore/google-homepage/master/index.html)
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
