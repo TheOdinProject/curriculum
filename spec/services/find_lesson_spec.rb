@@ -12,7 +12,7 @@ RSpec.describe FindLesson do
   before do
     allow(lesson).to receive(:course).and_return(course)
 
-    allow(lessons).to receive(:order).with("position asc").
+    allow(lessons).to receive(:order).with(position: :asc).
       and_return(lessons)
 
     allow(lessons).to receive(:find_by_position).with(2).

@@ -16,11 +16,11 @@ class Course < ActiveRecord::Base
   end
 
   def lessons_in_course
-    lessons.order("position asc")
+    lessons.order(position: :asc)
   end
 
   def sections_in_course
-    sections.order("position asc")
+    sections.order(position: :asc)
   end
 
   private
