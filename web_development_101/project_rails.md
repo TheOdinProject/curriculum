@@ -193,6 +193,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Stefan P's solution](https://github.com/spavikevik/odin_blogger) | [View in Browser](https://odin-blogger-sp.herokuapp.com)
 * [Austin Norman's solution](https://github.com/austinnormancore/railsproject) | [View in Browser](https://shrouded-scrubland-78563.herokuapp.com/articles)
 * [Justin V's solution](https://github.com/JustinVx/blogger) | [View in Browser](https://blogger-odin.herokuapp.com)
+* [Behdad Analui's solution](https://github.com/banalui/blogger) | [View in Browser](https://hidden-fjord-22027.herokuapp.com)
 * Add your solution above this line!
 
 
