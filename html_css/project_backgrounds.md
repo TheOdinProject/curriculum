@@ -38,6 +38,8 @@ In this project you'll clone the website of one of the most design-forward compa
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/gradients/index.html)
 * [csrail's solution](https://github.com/csrail/apple-mock) | [View in browser](https://rawgit.com/csrail/apple-mock/master/index.html)
 * [Paul Shonk's solution]((https://github.com/pshonk/apple)
+* [cindygao93's solution](https://github.com/cindygao93/google-homepage) | [View in browser](https://cindygao93.github.io/google-homepage/)
+
 
 ## Additional Resources
 
