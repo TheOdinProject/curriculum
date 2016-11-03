@@ -507,4 +507,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ian A's Solution](https://github.com/GorgonsMaze/Etch-a-Sketch) | [View in Browser](http://ianarsenault.me/Etch-a-Sketch/)
 * [Dustin Seright's Solution](https://github.com/dseright/etch_a_sketch/blob/master/index.html) | [View In Browser](https://cdn.rawgit.com/dseright/etch_a_sketch/295b9b0a771830fae018833ffdbcce91dc68532c/index.html)
 * [Austin Norman's Solution](https://github.com/austinnormancore/etch-a-sketch) | [View in Browser](https://cdn.rawgit.com/austinnormancore/etch-a-sketch/master/index.html)
-* [Carlos's Jimenez Solution] (https://github.com/RiverFloater/TOP-Project-javascript-jQuerry |[View in Browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-Project-javascript-jQuerry/blob/master/index.html)
+* [Carlos's Jimenez Solution](https://github.com/RiverFloater/TOP-Project-javascript-jQuerry) | [View in Browser](http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-Project-javascript-jQuerry/blob/master/index.html)
+* [Justin V's Solution](https://github.com/justinvx/etch-a-sketch) | [View in Browser](https://justinvx.github.io/etch-a-sketch)
