@@ -12,7 +12,7 @@ class Course < ActiveRecord::Base
   friendly_id :title, use: [:slugged, :finders]
 
   def percent_completed_by(user)
-    100 * (1.0 - uncompleted_lessons_in_course(user) / lessons.count.to_f)
+    100 * (1.0 - uncompleted_lessons_in_course(user) / lessons.length.to_f)
   end
 
   def lessons_in_course
