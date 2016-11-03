@@ -26,6 +26,6 @@ class Course < ActiveRecord::Base
   private
 
   def uncompleted_lessons_in_course(user)
-    (lessons.length - user.completed_lessons.length).to_f
+    (lessons - user.completed_lessons).length.to_f
   end
 end
