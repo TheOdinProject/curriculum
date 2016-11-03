@@ -509,3 +509,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Austin Norman's Solution](https://github.com/austinnormancore/etch-a-sketch) | [View in Browser](https://cdn.rawgit.com/austinnormancore/etch-a-sketch/master/index.html)
 * [Carlos's Jimenez Solution](https://github.com/RiverFloater/TOP-Project-javascript-jQuerry) | [View in Browser](http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-Project-javascript-jQuerry/blob/master/index.html)
 * [Justin V's Solution](https://github.com/justinvx/etch-a-sketch) | [View in Browser](https://justinvx.github.io/etch-a-sketch)
+* [Parker Brown's Solution](https://github.com/parkerjbrown/etch-a-sketch) | [View In Browser](https://rawgit.com/parkerjbrown/etch-a-sketch/master/index.html)
