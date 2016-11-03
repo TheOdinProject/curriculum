@@ -157,6 +157,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/flickr-viewer)
 * [Top's solution](https://github.com/TopOneOfTopOne/flickr-api) | [View in Browser](https://flickr-apii.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flickr-sidebar)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/flickr-api)
 * Add your solution above this line!
 
 
