@@ -3,5 +3,9 @@ When(/^I click the sign out link$/) do
 end
 
 Then(/^I should be signed out$/) do
-  expect(page.body).to include('Login')
+  expect(page).to have_link('Login')
+end
+
+Then(/^I should be redirected to the home page$/) do
+  expect(page).to have_current_path(home_path(ref: 'logout'))
 end
