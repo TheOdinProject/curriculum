@@ -69,7 +69,7 @@ describe Course do
     let(:sectionsAsc) { double('SectionAsc') }
 
     before do
-      allow(sections).to receive(:order).with('position asc').
+      allow(sections).to receive(:order).with(position: :asc).
         and_return(sections)
     end
 
