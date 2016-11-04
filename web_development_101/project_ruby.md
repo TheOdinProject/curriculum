@@ -25,6 +25,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/learn_ruby)
 * [Austin Norman's solutions](https://github.com/austinnormancore/rubyproject)
 * [Stefan P's solutions](https://github.com/spavikevik/learn_ruby)
 * [Josh Vogel's solutions](https://github.com/j-vogel/learn_ruby)
