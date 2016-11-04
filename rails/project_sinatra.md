@@ -39,7 +39,7 @@ Revisit the ceasar cipher ruby script that you created during [Ruby Building Blo
 * csrail's solution [github](https://github.com/csrail/caesar-cipher-sinatra) / [see it on the web](https://csrail-caesar-cipher.herokuapp.com/)
 * DV's solution [github](https://github.com/dvislearning/caesar_cipher/tree/master/lib) / [see it on the web](https://quiet-cove-96544.herokuapp.com/)
 * Austin's solution [github](https://github.com/CouchofTomato/ceasar_cipher_sinatra) / [see it on the web](https://couch-cipher.herokuapp.com/)
-* [Miguel Herrera's solution](https://github.com/migueloherrera/sinatra-projects) [view in browser](https://floating-meadow-84284.herokuapp.com/caesar_cipher)
+* Miguel Herrera's solution [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/caesar_cipher)
 
 ## Project 2: Another Web-Game
 
@@ -69,4 +69,4 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * csrail's solution - Hangman: [github](https://github.com/csrail/hangman-sinatra) / [see it on the web](https://csrail-hangman.herokuapp.com/)
 * DV's solution - Hangman: [github](https://github.com/dvislearning/hangman_sinatra) / [see it on the web](https://secret-escarpment-36246.herokuapp.com/)
 * Austin's solution - Hangman: [github](https://github.com/CouchofTomato/hangman_sinatra) / [see it on the web](https://couch-hangman.herokuapp.com/)
-* [Miguel Herrera's solution](https://github.com/migueloherrera/sinatra-projects) [view in browser](https://floating-meadow-84284.herokuapp.com/hangman)
+* Miguel Herrera's solution - Hangman: [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/hangman)
