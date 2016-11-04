@@ -94,6 +94,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/event_manager)
 * [Dominik Chomicki's solution](https://github.com/hamstersky/the_odin_project/tree/master/event_manager)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/serialization/event_manager)
+* [Bishal Shrestha's solution](https://github.com/biiishal/event_manager)
 
 
 ## Project: Hangman
