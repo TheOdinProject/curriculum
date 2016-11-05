@@ -904,6 +904,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Yusuf Ayo's Solution (Easy & Difficult)](https://github.com/haywhyze/google-homepage) | [View in Browser (Easy)](https://haywhyze.github.io/google-homepage/) | [View in Browser (Difficult)](https://haywhyze.github.io/google-homepage/difficult_version/)
 * [Austin Norman's Solution](https://github.com/austinnormancore/google-homepage) | [View in Browser](https://cdn.rawgit.com/austinnormancore/google-homepage/master/index.html)
 * [Daniel Hill's Solution(Difficult)](https://github.com/danielhill13/google-search-results) | [View in Browser(Difficult)](https://danielhill13.github.io/google-search-results/)
+* [Nick Hodson's solution](https://github.com/nikikinz/google-homepage) | [View in browser](https://nikikinz.github.io/google-homepage/)
 
 ## Additional Resources
 
