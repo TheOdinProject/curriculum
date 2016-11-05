@@ -281,6 +281,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Zachary Vacek's solution](https://github.com/zacharyvacek/caesar_cipher/blob/master/cipher.rb)
 * [jeff1st's solution](https://github.com/jeff1st/ruby_codes/blob/master/caesar.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/Ruby_cipher/blob/master/cipher.rb)
+* [Daniel Chinedu's solution](https://repl.it/EP76)
 
 
 ## Project 2: Stock Picker
@@ -787,4 +788,5 @@ Next, make sure your method can handle multiple words:
 =======
 * [jeff1st's solution](https://github.com/jeff1st/ruby_codes/blob/master/substrings.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/ruby_substring/blob/master/substrings.rb)
+* [Daniel Chinedu's solution](https://repl.it/EP76/1)
 >>>>>>> upstream/master
