@@ -527,12 +527,9 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Stefan P's solution](https://github.com/spavikevik/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Joe Himes's solution](https://github.com/deedle42/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Veselin Ivanov's solution](https://github.com/terlica/TheOdinProject/blob/master/Ruby_Programming/Ruby_Building_Blocks/Stock_Picker.rb)
-<<<<<<< HEAD
 * [Bill Hefty's solution](https://github.com/bhefty/ruby-building-blocks/blob/master/stock-picker.rb)
-=======
 * [jeff1st's solution](https://github.com/jeff1st/ruby_codes/blob/master/stock_picker.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/ruby_stock/blob/master/stock.rb)
->>>>>>> upstream/master
 
 
 ## Project 3: Substrings
@@ -783,9 +780,7 @@ Next, make sure your method can handle multiple words:
 * [Stefan P's solution](https://github.com/spavikevik/ruby_building_blocks/blob/master/substrings.rb)
 * [Joe Himes's solution](https://github.com/deedle42/ruby_building_blocks/blob/master/substrings.rb)
 * [Veselin Ivanov's solution](https://github.com/terlica/TheOdinProject/blob/master/Ruby_Programming/Ruby_Building_Blocks/Substrings.rb)
-<<<<<<< HEAD
 * [Bill Hefty's solution](https://github.com/bhefty/ruby-building-blocks/blob/master/substring.rb)
-=======
 * [jeff1st's solution](https://github.com/jeff1st/ruby_codes/blob/master/substrings.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/ruby_substring/blob/master/substrings.rb)
 * [Daniel Chinedu's solution](https://repl.it/EP76/1)
