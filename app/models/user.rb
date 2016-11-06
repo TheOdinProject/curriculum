@@ -31,13 +31,13 @@ class User < ActiveRecord::Base
   end
 
   def latest_completed_lesson
-    lc = self.latest_lesson_completion
-    Lesson.find(lc.lesson_id) unless lc.nil?
+    unless latest_lesson_completion.nil?
+      Lesson.find(latest_lesson_completion.lesson_id)
+    end
   end
 
   def lesson_completion_time(lesson)
-   t = self.lesson_completions.where("lesson_id = %s ", lesson.id ).limit(1)
-    t.first["created_at"]
+    self.lesson_completions.find_by(lesson_id: lesson.id).created_at
   end
 
   def latest_lesson_completion
