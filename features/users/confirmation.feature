@@ -17,6 +17,6 @@ Background: Adding data to the database
     Then a message will be displayed instructing me to confirm my email
 
   Scenario: Requesting confirmation instructions to be resent
-    Given I have an account
+    Given I have an account with the email 'kevin@example.com'
     When I request for confirmation instructions to be resent
     Then I should be resent a confirmation email

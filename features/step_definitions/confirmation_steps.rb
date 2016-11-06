@@ -11,8 +11,8 @@ Then(/^a message will be displayed instructing me to confirm my email$/) do
   expect(page).to have_content('You have to confirm your account before continuing.')
 end
 
-Given(/^I have an account$/) do
-  FactoryGirl.create(:user, email: 'kevin@example.com', confirmed_at: nil)
+Given(/^I have an account with the email '([^']+)'$/) do |email|
+  FactoryGirl.create(:user, email: email, confirmed_at: nil)
 end
 
 When(/^I request for confirmation instructions to be resent$/) do
