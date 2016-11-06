@@ -24,8 +24,6 @@ end
 Then(/^I should be resent a confirmation email$/) do
   expect(page).to have_content('You will receive an email with instructions about how to confirm your account in a few minutes')
 
-  email = ActionMailer::Base.deliveries.last
-  expect(email.to).to eql(['kevin@example.com'])
-  expect(email.subject).to eql('Getting started with The Odin Project')
-  expect(email.encoded).to include('Confirm your email')
+  open_email('kevin@example.com')
+  expect(current_email).to have_content 'Confirm your email'
 end
