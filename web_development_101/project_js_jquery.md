@@ -49,6 +49,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/sketch_pad) | [View in browser](https://rawgit.com/pauldd91/theodinproject/master/sketch_pad/index.html)
 * [Lamberto Diwa's solution](https://github.com/LambertoD/odin_curricullum/master/javascript/js/etch_project.js) | [View in browser](https://rawgit.com/LambertoD/odin_curricullum/master/javascript/index_etch_project.html)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project1_2_javascript_jquery) | [View in browser](https://rawgit.com/imousterian/OdinProject/master/Project1_2_javascript_jquery/index.html)
+* [Wes McLaughlin's solution](https://github.com/Wmclaug2/etch-a-sketch) | [View in browser](https://wmclaug2.github.io/etch-a-sketch/)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/sketchpad) | [View in browser](https://rawgit.com/Jberczel/odin-projects/master/sketchpad/index.html)
 * [Angel Vargas' solution](https://github.com/arioth/the-odin-project/tree/master/sketchpad) | [View in browser](https://rawgit.com/arioth/the-odin-project/master/sketchpad/index.html)
 * [Peter Zberg's solution](https://github.com/peterzberg/theodinproject/tree/master/sketch_pat)
