@@ -20,7 +20,8 @@ end
 
 Given /^I am logged in$/ do
   @user = FactoryGirl.create(:user)
-  log_in @user
+  log_in(@user)
+  expect(page).to have_content(@user.username)
 end
 
 Given /^no lessons are completed$/ do
@@ -86,7 +87,7 @@ When /^I go back$/ do
   visit '/courses'
 end
 
-When /^I click the Mark lesson complete link$/ do 
+When /^I click the Mark lesson complete link$/ do
   @previous_progress = page.find('.lc-active-circle > .lc-pct').text.to_i
   click_link 'Mark Lesson Completed'
   expect(page).to have_link 'Change lesson to not completed'

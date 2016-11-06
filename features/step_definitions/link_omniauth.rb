@@ -1,6 +1,7 @@
 Given(/^I am a user who already has an account$/) do
   user = FactoryGirl.create(:user, confirmed_at: 2.days.ago)
-  log_in user
+  log_in(user)
+  expect(page).to have_content(user.username)
 end
 
 When(/^I click the link your github account button$/) do
