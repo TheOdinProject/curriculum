@@ -77,14 +77,14 @@
               Skype: <%= @user.skype %>
             </li>
             <% end %>
-            
+
             <% if !@user.screenhero.blank? %>
             <li>
               ScreenHero:  <%= @user.screenhero %>
-            </li>       
+            </li>
             <% end %>
             <li><hr></li>
-            
+
         </ul>
         <ul class="social-links">
           <% if !@user.google_plus.blank? %>
@@ -94,7 +94,7 @@
               <% end %>
             </li>
             <% end %>
-                 
+
             <% if !@user.github.blank? %>
             <li>
               <%= link_to github_url(@user) do %>
@@ -102,7 +102,7 @@
               <% end %>
             </li>
             <% end %>
-            
+
             <% if !@user.twitter .blank? %>
             <li>
               <%= link_to twitter_url(@user) do%>
@@ -110,7 +110,7 @@
               <% end %>
             </li>
             <% end %>
-            
+
             <% if !@user.facebook.blank? %>
             <li>
               <%= link_to facebook_url(@user) do %>
@@ -118,8 +118,8 @@
               <% end %>
             </li>
             <% end %>
-            
-            <% if !@user.linkedin.blank? %>            
+
+            <% if !@user.linkedin.blank? %>
             <li>
               <%= link_to linkedin_url(@user) do%>
               <i class="fa fa-linkedin"></i>
@@ -130,14 +130,14 @@
         <% end %>
       </div>
     </div>
-    
+
     <% if !@user.completed_lessons.blank?%>
     <div class="span6">
       <div class="profile-projects">
         <h3>Completed Lessons: <%= @user.completed_lessons.count %></h3>
         <ul>
           <% @user.completed_lessons.each do |lesson| %>
-            <li><i class="fa fa-check"></i> <%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url)) %>
+            <li><i class="fa fa-check"></i> <%= link_to("#{lesson.course.title}:  #{lesson.title}", lesson_path(lesson.id)) %>
               <p>Completed: <%= lesson_time(@user, lesson) %> UTC</p>
           </li>
           <% end %>
