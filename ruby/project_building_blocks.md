@@ -40,6 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin Norman's solution](https://github.com/austinnormancore/ruby_basics_project/blob/master/caesar_cipher.rb)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/caesar_cipher.rb)
 * [ThusStyles's solution](https://github.com/ThusStyles/cipher/blob/master/cipher.rb)
 * [Sessl's solution](https://github.com/Sessl/ruby_work/blob/master/cipher.rb)
@@ -305,6 +306,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin Norman's solution](https://github.com/austinnormancore/ruby_basics_project/blob/master/stock_picker.rb)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/stock_picker.rb)
 * [eugyev's solution](https://github.com/eugyev/odinprojects/blob/master/stock_picker.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/ruby_building_blocks/project2.rb)
@@ -562,6 +564,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin Norman's solution](https://github.com/austinnormancore/ruby_basics_project/blob/master/substrings.rb)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/substrings.rb)
 * [eugyev's solution](https://github.com/eugyev/odinprojects/blob/master/substrings.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/ruby_building_blocks/project3.rb)
