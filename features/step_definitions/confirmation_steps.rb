@@ -10,3 +10,22 @@ end
 Then(/^a message will be displayed instructing me to confirm my email$/) do
   expect(page).to have_content('You have to confirm your account before continuing.')
 end
+
+Given(/^I have an account$/) do
+  FactoryGirl.create(:user, email: 'kevin@example.com', confirmed_at: nil)
+end
+
+When(/^I request for confirmation instructions to be resent$/) do
+  visit('/users/confirmation/new')
+  fill_in 'Email', with: "kevin@example.com"
+  click_button('Resend confirmation instructions')
+end
+
+Then(/^I should be resent a confirmation email$/) do
+  expect(page).to have_content('You will receive an email with instructions about how to confirm your account in a few minutes')
+
+  email = ActionMailer::Base.deliveries.last
+  expect(email.to).to eql(['kevin@example.com'])
+  expect(email.subject).to eql('Getting started with The Odin Project')
+  expect(email.encoded).to include('Confirm your email')
+end
