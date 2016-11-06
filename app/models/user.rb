@@ -1,21 +1,16 @@
 class User < ActiveRecord::Base
-  # Include default devise modules. Others available are:
-  # :token_authenticatable, :confirmable,
-  # :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
-
-  # Setup accessible (or protected) attributes for your model
 
   validates_uniqueness_of :username,:email
   validates_presence_of :legal_agreement, :message => "Don't forget the legal stuff!", :on => :create
   validates :username, :length => { :in => 4..20 }
-  # associates the user with the lessons he's completed so far
+
   has_many :lesson_completions, :foreign_key => :student_id
   has_many :completed_lessons, :through => :lesson_completions, :source => :lesson
 
   # Return all users sorted by who has completed a lesson
-  # most recently
+  # most recently:
   # NOTE: The order clause will break if not on Postgres because
   # NULLS LAST is PG-specific apparently
   def self.by_latest_completion
@@ -31,13 +26,13 @@ class User < ActiveRecord::Base
   end
 
   def latest_completed_lesson
-    lc = self.latest_lesson_completion
-    Lesson.find(lc.lesson_id) unless lc.nil?
+    unless latest_lesson_completion.nil?
+      Lesson.find(latest_lesson_completion.lesson_id)
+    end
   end
 
   def lesson_completion_time(lesson)
-   t = self.lesson_completions.where("lesson_id = %s ", lesson.id ).limit(1)
-    t.first["created_at"]
+    self.lesson_completions.find_by(lesson_id: lesson.id).created_at
   end
 
   def latest_lesson_completion
