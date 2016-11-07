@@ -321,7 +321,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [jqguess solution](https://github.com/jqguess/odin/tree/master/eulerProblems)
 * [Ace Cassidy's solution](https://github.com/Ace-Cassidy/ProjectEuler.git)
 * [Alina Solodnikova's solution](https://github.com/soldnkva/project-euler) | [View in browser](http://htmlpreview.github.io/?https://github.com/soldnkva/project-euler/blob/master/index.html)
-* [John Alcher's solution](https://github.com/alchermd/project-euler.git)
+* [John Alcher's solution](https://gist.github.com/alchermd/151a9b40b208a3a1830426388f10c512)
 * [Seiji's solution](https://github.com/seijibas/odin-project/tree/master/project-euler)
 * [Tom Bell's solution](https://github.com/bellt/odin_project-project_euler) | [View in browser](https://htmlpreview.github.io/?https://github.com/bellt/odin_project-project_euler/blob/master/index.html)
 * [Henry Tran's solution](https://github.com/hnrytrn/project-euler)
@@ -396,6 +396,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
 * [Stefan P's Solution](https://github.com/spavikevik/javascript-euler)
 * [Lawrence Lawson's Interactive Solution](https://github.com/Zagan202/projecteuler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Zagan202/projecteuler/blob/master/index.html)
+* [Dustin Seright's Solution](https://github.com/dseright/euler_solutions) | [View in Browser] (https://cdn.rawgit.com/dseright/euler_solutions/master/index.html) 
 
 ## Additional Resources
 
