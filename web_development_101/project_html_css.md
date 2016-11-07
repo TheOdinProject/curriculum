@@ -907,6 +907,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Daniel Hill's Solution(Difficult)](https://github.com/danielhill13/google-search-results) | [View in Browser(Difficult)](https://danielhill13.github.io/google-search-results/)
 * [Nick Hodson's solution](https://github.com/nikikinz/google-homepage) | [View in browser](https://nikikinz.github.io/google-homepage/)
 * [Boscardin's solution](https://boscardin.github.io/google-homepage/)
+* [Juliez83's Solution (Difficult)](https://github.com/Juliez83/google-search-results) | [View in Browser]  (https://juliez83.github.io/google-search-results/) | [Juliez83's Solution (Easy)](https://github.com/Juliez83/google-  homepage) | [View in Browser](https://juliez83.github.io/google-homepage/)
 
 ## Additional Resources
 
