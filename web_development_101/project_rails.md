@@ -194,6 +194,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Austin Norman's solution](https://github.com/austinnormancore/railsproject) | [View in Browser](https://shrouded-scrubland-78563.herokuapp.com/articles)
 * [Justin V's solution](https://github.com/JustinVx/blogger) | [View in Browser](https://blogger-odin.herokuapp.com)
 * [Behdad Analui's solution](https://github.com/banalui/blogger) | [View in Browser](https://hidden-fjord-22027.herokuapp.com)
+* [Josh Vogel's solution](https://github.com/j-vogel/blogger) | [View in Browser}(https://hidden-badlands-67022.herokuapp.com/)
 * Add your solution above this line!
 
 
