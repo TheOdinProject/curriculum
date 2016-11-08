@@ -42,7 +42,7 @@ RSpec.describe RegistrationsController, :type => :controller do
     let(:updated_attributes) {
       { email: 'kevin@email.com', current_password: user.password }
     }
-    
+
     before do
       sign_in user
     end

@@ -8,8 +8,7 @@ RSpec.describe CoursesController do
   describe "GET index" do
 
     before do
-      allow(Course).to receive(:order).with(position: :asc).
-        and_return(courses)
+      allow(Course).to receive(:order).with(position: :asc).and_return(courses)
     end
 
     it 'assigns @courses' do
@@ -26,8 +25,7 @@ RSpec.describe CoursesController do
   describe 'GET show' do
 
     before do
-      allow(Course).to receive(:find).with('abc123').
-        and_return(course)
+      allow(Course).to receive(:find).with('abc123').and_return(course)
     end
 
     it 'assigns @course' do

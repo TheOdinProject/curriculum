@@ -17,7 +17,6 @@ RSpec.describe SmartRedirect do
   let(:ajax_request?) { false }
 
   describe '#path' do
-
     it 'returns a safe path' do
       smart_redirect.set_redirect_path
       expect(session[:previous_url]).to eql('/courses' )

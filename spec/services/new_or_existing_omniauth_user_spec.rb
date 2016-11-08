@@ -10,8 +10,7 @@ RSpec.describe NewOrExistingOmniauthUser do
   let(:user_persisted) { true }
 
   before do
-    allow(User).to receive(:from_omniauth).with(auth).
-      and_return(user)
+    allow(User).to receive(:from_omniauth).with(auth).and_return(user)
   end
 
   describe '#create' do
@@ -39,8 +38,7 @@ RSpec.describe NewOrExistingOmniauthUser do
       }
 
       it 'returns new omniauth attributes' do
-        expect(new_or_existing_omniauth_user.create).
-          to eql(new_user_attributes)
+        expect(new_or_existing_omniauth_user.create).to eql(new_user_attributes)
       end
     end
   end

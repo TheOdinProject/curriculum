@@ -11,8 +11,7 @@ describe LessonsHelper do
 
   describe '#url_format' do
     it 'returns url with multiple words' do
-      expect(url_format('What a Web Developer Does')).
-        to eq 'What+a+Web+Developer+Does'
+      expect(url_format('What a Web Developer Does')).to eq 'What+a+Web+Developer+Does'
     end
 
     it 'returns url with one word' do

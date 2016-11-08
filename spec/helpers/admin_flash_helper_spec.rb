@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 describe AdminFlashHelper do
-
   describe '#disabled_flash_ids_from_cookies' do
     let(:cookies) {
       {
