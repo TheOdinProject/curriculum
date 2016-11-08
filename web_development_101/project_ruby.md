@@ -26,6 +26,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
+* [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/learn_ruby)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/learn_ruby)
 * [Austin Norman's solutions](https://github.com/austinnormancore/rubyproject)
 * [Stefan P's solutions](https://github.com/spavikevik/learn_ruby)

@@ -18,6 +18,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/blogger)
 * [Allen's solution](https://github.com/NoRest4AWhearry/blogger) | [View in browser](http://jsblogger2.herokuapp.com/)
 * [Angel Vargas' solution](https://github.com/arioth/the-odin-project/tree/master/blogger)
@@ -194,7 +195,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Austin Norman's solution](https://github.com/austinnormancore/railsproject) | [View in Browser](https://shrouded-scrubland-78563.herokuapp.com/articles)
 * [Justin V's solution](https://github.com/JustinVx/blogger) | [View in Browser](https://blogger-odin.herokuapp.com)
 * [Behdad Analui's solution](https://github.com/banalui/blogger) | [View in Browser](https://hidden-fjord-22027.herokuapp.com)
-* Add your solution above this line!
+* [Josh Vogel's solution](https://github.com/j-vogel/blogger) | [View in Browser}(https://hidden-badlands-67022.herokuapp.com/)
 
 
 ## Additional Resources
