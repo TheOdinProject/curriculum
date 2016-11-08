@@ -296,6 +296,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/tree/master/web_server)
 * [Jerry Gao's solution](https://github.com/blackwright/server_browser)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/web/webserver_browser)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-on-the-web)
 
 
 ## Additional Resources
