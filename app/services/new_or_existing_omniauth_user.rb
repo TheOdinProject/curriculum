@@ -1,5 +1,6 @@
 class NewOrExistingOmniauthUser
   attr_reader :auth
+  private :auth
 
   def initialize(auth)
     @auth = auth

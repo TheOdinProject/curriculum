@@ -3,5 +3,4 @@ class Section < ActiveRecord::Base
   has_many :lessons
 
   validates_uniqueness_of :position, :message => "Section position has already been taken"
-
 end
