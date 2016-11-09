@@ -101,6 +101,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/fibonacci_rec.rb)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_recursions/blob/master/fibonacci.rb)
 * [Jerry Gao's solution](https://github.com/blackwright/fibonacci)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-recursion/blob/master/fibonacci.rb)
 
 
 ## Project: Merge Sort
@@ -214,6 +215,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Dom Goj's solution](https://github.com/booyakuhhsha/mergeSort)
 * [Jerry Gao's solution](https://github.com/blackwright/merge_sort)
 * [Marcus' solution](https://github.com/nestcx/recursion/blob/master/mergesort.rb)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-recursion/blob/master/merge_sort.rb)
 
 ## Additional Resources
 
