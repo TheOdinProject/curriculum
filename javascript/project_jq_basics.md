@@ -44,6 +44,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Miguel Herrera's solution](https://github.com/migueloherrera/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/restaurant/blob/master/index.html)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/Restaurant) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/Restaurant/blob/master/index.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/dom-manipulation) | [View in Browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/dom-manipulation/blob/master/index.html)
+* [Mayowa Pitan's solution](https://github.com/andela-mpitan/jquery-restaurant) | [View in Browser](https://andela-mpitan.github.io/jquery-restaurant/)
 
 
 
