@@ -187,7 +187,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/test-first-ruby)
 * [Robert Merriman's Solution](https://github.com/RobertBMerriman/learn_ruby)
 * [Seiji's Solution](https://github.com/seijibas/learn-ruby)
-* [John Alcher's Solution](https://github.com/alchermd/ruby-test-first)
+* [John Alcher's Solution](https://github.com/alchermd/test-first-ruby)
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
 * [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Odin_ruby_project)
 * [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
