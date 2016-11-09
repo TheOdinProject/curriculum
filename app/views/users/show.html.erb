@@ -48,14 +48,6 @@
 
   <div class="row">
     <div class="span3 offset1">
-      <h3 class="contact-me">Contact Info</h3>
-      <% if @user != current_user %>
-        <a href="<%= new_user_contact_path(@user) %>">
-          <button class="contact-user-button btn btn-primary">
-            Email Me!
-          </button>
-        </a>
-      <% end %>
       <div class="profile-contact-links">
         <% if @edit %>
           <ul>
