@@ -261,13 +261,6 @@ h2.profile-headline{
   display: inline-block;
   color: $box_shadow;
 }
-
-h3.contact-me{
-
-}
-.contact-user-button{
-  background-color: $main_blue;
-}
 .edit-profile{
   display: inline-block;
   margin: 0px 0px 15px 25px;
@@ -325,14 +318,6 @@ form#edit-user{
 .student-mini-pic{
   width: 100px;
   height: 100px;
-}
-
-.contact-user-button{
-  // margin-top: 25px;
-  width: 100%;
-  height: 40px;
-  font-size: 20px;
-  margin-bottom: 20px;
 }
 .profile-projects{
     -moz-border-radius: 5px;
