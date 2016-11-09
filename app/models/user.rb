@@ -44,8 +44,6 @@ class User < ActiveRecord::Base
     self.lesson_completions.order(:created_at => :desc).first
   end
 
-  include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
-
   # Create a completely new user from our auth package
   # Returns that user
   def self.from_omniauth(auth)
