@@ -40,7 +40,7 @@ class StaticPagesController < ApplicationController
   private
 
   def user_identifier
-    current_user_email || '< not logged in >'
+    current_user_email || 'Anonymous'
   end
 
   def current_user_email
