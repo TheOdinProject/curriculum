@@ -233,6 +233,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/serialization/hangman)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-file-IO-and-serialization-with-ruby/tree/master/hangman)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/hangman)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/hangman)
 
 
 
