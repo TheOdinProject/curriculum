@@ -297,6 +297,8 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Jerry Gao's solution](https://github.com/blackwright/server_browser)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/web/webserver_browser)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-on-the-web)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/web_server_and_browser)
+
 
 
 ## Additional Resources
