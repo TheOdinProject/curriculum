@@ -19,8 +19,7 @@ class User < ActiveRecord::Base
   # NOTE: The order clause will break if not on Postgres because
   # NULLS LAST is PG-specific apparently
   def self.by_latest_completion
-    User.includes(:lesson_completions).
-      order('lesson_completions.created_at desc')
+    User.includes(:lesson_completions).order('lesson_completions.created_at desc nulls last')
   end
 
   def completed_lesson?(lesson)
