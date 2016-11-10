@@ -197,6 +197,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Justin V's solution](https://github.com/JustinVx/blogger) | [View in Browser](https://blogger-odin.herokuapp.com)
 * [Behdad Analui's solution](https://github.com/banalui/blogger) | [View in Browser](https://hidden-fjord-22027.herokuapp.com)
 * [Josh Vogel's solution](https://github.com/j-vogel/blogger) | [View in Browser](https://hidden-badlands-67022.herokuapp.com/)
+* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/blogger2)
+
 
 
 ## Additional Resources
