@@ -9,7 +9,6 @@ describe ApplicationHelper do
   end
 
   describe 'title' do
-
     it 'sets the title' do
       helper.title('Courses')
       expect(helper.content_for(:title)).to eql('Courses | The Odin Project')
@@ -34,7 +33,6 @@ describe ApplicationHelper do
 
     it 'returns converted html' do
       expect(markdown_converter).to receive(:as_html)
-
       convert_markdown_to_html('Some Markdown')
     end
   end

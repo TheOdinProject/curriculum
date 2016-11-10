@@ -14,11 +14,10 @@ class User < ActiveRecord::Base
   # NOTE: The order clause will break if not on Postgres because
   # NULLS LAST is PG-specific apparently
   def self.by_latest_completion
-    User.where.not(:last_sign_in_at => nil)
-        .joins("LEFT OUTER JOIN lesson_completions ON lesson_completions.student_id = users.id")
-        .select("max(lesson_completions.created_at) as latest_completion_date, users.*")
-        .group("users.id")
-        .order("latest_completion_date desc NULLS LAST")
+    User.joins('LEFT OUTER JOIN lesson_completions ON lesson_completions.student_id = users.id')
+      .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
+      .group('users.id')
+      .order('latest_completion_date desc NULLS LAST')
   end
 
   def completed_lesson?(lesson)
@@ -38,8 +37,6 @@ class User < ActiveRecord::Base
   def latest_lesson_completion
     self.lesson_completions.order(:created_at => :desc).first
   end
-
-  include Authentication::ActiveRecordHelpers #check in domain/authentication/active_record_helpers.rb
 
   # Create a completely new user from our auth package
   # Returns that user

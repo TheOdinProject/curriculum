@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 describe OmniauthCallbacksController, :type => :controller do
-
   let(:user_signed_in?) { true }
   let(:user) { double('User') }
   let(:auth) { { provider: 'github', uid: '123' } }
@@ -15,10 +14,17 @@ describe OmniauthCallbacksController, :type => :controller do
   }
   let(:new_or_existing_omniauth_user) { double('NewOrExistingOmniauthUser') }
   let(:new_user?) { true }
-  let(:user_attributes) { { username: 'kevin', email: 'kevin@example.com', uid: '123', provider: 'github', confirmed_at: Time.now, legal_agreement: true } }
+  let(:user_attributes) {
+    {
+      username: 'kevin',
+      email: 'kevin@example.com',
+      uid: '123',
+      provider: 'github',
+    }
+  }
 
   before do
-    request.env["devise.mapping"] = Devise.mappings[:user] # If using Devise
+    request.env["devise.mapping"] = Devise.mappings[:user]
     request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github]
 
     allow(controller).to receive(:user_signed_in?).
@@ -40,7 +46,6 @@ describe OmniauthCallbacksController, :type => :controller do
   end
 
   describe 'GET github' do
-
     context 'when user is signed in' do
 
       it 'displays successful link flash' do
@@ -60,7 +65,7 @@ describe OmniauthCallbacksController, :type => :controller do
         {
           user: user,
           flash_type: :none,
-          flash_message: ''
+          flash_message: '',
         }
       }
       let(:user) {

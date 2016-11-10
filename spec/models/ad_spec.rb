@@ -10,7 +10,7 @@ describe Ad do
   describe '.ve_banner' do
     let(:banner_ad_attrs) {
       { style: 'banner', client: 've', category: 'b2c_ab' }
-     }
+    }
     let(:banner_ads) { double('BannerAds') }
     let(:banner_ad) { double('BannerAd', banner_ad_attrs) }
 

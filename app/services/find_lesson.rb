@@ -1,6 +1,6 @@
 class FindLesson
-
   attr_reader :lesson
+  private :lesson
 
   def initialize(lesson)
     @lesson = lesson

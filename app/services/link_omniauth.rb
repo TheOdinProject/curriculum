@@ -1,5 +1,6 @@
 class LinkOmniauth
   attr_reader :user, :auth
+  private :user, :auth
 
   def initialize(user, auth)
     @user = user

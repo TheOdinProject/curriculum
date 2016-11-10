@@ -28,7 +28,6 @@ describe UsersHelper do
 
     it 'builds a gravatar url' do
       helper.gravatar_url(user, size)
-
       expect(gravatar_url).to have_received(:url)
     end
   end
@@ -37,7 +36,6 @@ describe UsersHelper do
 
     it 'returns the users twiter url' do
       helper.twitter_url(user)
-
       expect(social_media_link).to have_received(:twitter_url)
     end
   end
@@ -46,7 +44,6 @@ describe UsersHelper do
 
     it 'returns the users github url' do
       helper.github_url(user)
-
       expect(social_media_link).to have_received(:github_url)
     end
   end
@@ -55,7 +52,6 @@ describe UsersHelper do
 
     it 'returns the users facebook url' do
       helper.facebook_url(user)
-
       expect(social_media_link).to have_received(:facebook_url)
     end
   end
@@ -64,7 +60,6 @@ describe UsersHelper do
 
     it 'returns the users linkedin url' do
       helper.linkedin_url(user)
-
       expect(social_media_link).to have_received(:linkedin_url)
     end
   end
@@ -73,8 +68,7 @@ describe UsersHelper do
     let(:lesson) { double('Lesson') }
 
     it 'returns formatted lesson completion time' do
-      expect(helper.lesson_time(user, lesson)).
-        to eql('October 11, 2016 19:00')
+      expect(helper.lesson_time(user, lesson)).to eql('October 11, 2016 19:00')
     end
   end
 end
