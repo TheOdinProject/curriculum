@@ -9,8 +9,8 @@
     <% lesson = user.latest_completed_lesson %>
     <% if lesson %>
       <em>
-        Completed 
-        "<%= link_to "#{lesson.course.title}: #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url) %>" <%= distance_of_time_in_words(Time.now - user.latest_lesson_completion.created_at) %> ago
+        Completed
+        "<%= link_to "#{lesson.course.title}: #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url) %>" <%= distance_of_time_in_words(Time.now - user.last_lesson_completed.created_at) %> ago
       </em>
     <% end %>
   </div>

@@ -9,15 +9,9 @@ class User < ActiveRecord::Base
   has_many :lesson_completions, :foreign_key => :student_id
   has_many :completed_lessons, :through => :lesson_completions, :source => :lesson
 
-  # Return all users sorted by who has completed a lesson
-  # most recently:
-  # NOTE: The order clause will break if not on Postgres because
-  # NULLS LAST is PG-specific apparently
   def self.by_latest_completion
-    User.joins('LEFT OUTER JOIN lesson_completions ON lesson_completions.student_id = users.id')
-      .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
-      .group('users.id')
-      .order('latest_completion_date desc NULLS LAST')
+    User.includes(:lesson_completions).
+      order('lesson_completions.created_at desc nulls last')
   end
 
   def completed_lesson?(lesson)
@@ -25,8 +19,8 @@ class User < ActiveRecord::Base
   end
 
   def latest_completed_lesson
-    unless latest_lesson_completion.nil?
-      Lesson.find(latest_lesson_completion.lesson_id)
+    if last_lesson_completed
+      Lesson.find(last_lesson_completed.lesson_id)
     end
   end
 
@@ -34,12 +28,10 @@ class User < ActiveRecord::Base
     self.lesson_completions.find_by(lesson_id: lesson.id).created_at
   end
 
-  def latest_lesson_completion
-    self.lesson_completions.order(:created_at => :desc).first
+  def last_lesson_completed
+    ordered_lesson_completions.last
   end
 
-  # Create a completely new user from our auth package
-  # Returns that user
   def self.from_omniauth(auth)
     self.where(auth.slice(:provider, :uid).to_hash).first_or_create({
       provider: auth[:provider],
@@ -49,13 +41,25 @@ class User < ActiveRecord::Base
     })
   end
 
-  # Assumes an existing user does not have omniauth
-  # Adds auth, saves, and returns the user
   def add_omniauth(auth)
     self.provider ||= auth['provider']
     self.uid ||= auth['uid']
     self.save
     self
+  end
+
+  def password_required?
+    super && provider.blank?
+  end
+
+  def send_confirmation_instructions
+    send_welcome_email(raw_confirmation_token)
+  end
+
+  private
+
+  def ordered_lesson_completions
+    lesson_completions.order(created_at: :asc)
   end
 
   def self.new_with_session(params, session)
@@ -69,33 +73,12 @@ class User < ActiveRecord::Base
     end
   end
 
-  def password_required?
-    super && provider.blank?
+  def raw_confirmation_token
+    @raw_confirmation_token ||= generate_confirmation_token!
   end
 
-  def update_with_password(params, *options)
-    if encrypted_password.blank?
-      update_attributes(params, *options)
-    else
-      super
-    end
-  end
-
-  # Overwrite Devise method to send welcome email to new users with confirmation token
-  # Users who registered before confirmation was required receive normal confirmation email
-  def send_confirmation_instructions
-    unless @raw_confirmation_token
-      generate_confirmation_token!
-    end
-
-    send_welcome_email(@raw_confirmation_token)
-  end
-
-  protected
-
-    def send_welcome_email(token)
-      @token = token
-      UserMailer.send_welcome_email_to(self, token).deliver_now!
+  def send_welcome_email(token)
+    UserMailer.send_welcome_email_to(self, token).deliver_now!
     rescue => error
       logger.error "Error sending welcome email: #{error}"
     end
