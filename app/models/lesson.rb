@@ -31,16 +31,16 @@ class Lesson < ActiveRecord::Base
 
   private
 
+  def content_needs_updated
+    content != decoded_content
+  end
+
   def decoded_content
     @decoded_content ||= Base64.decode64(github_response[:content])
   end
 
   def github_response
-    Octokit.contents("theodinproject/curriculum", path: url)
-  end
-
-  def content_needs_updated
-    content != decoded_content
+    Octokit.contents('theodinproject/curriculum', path: url)
   end
 
   def failed_to_import_message
