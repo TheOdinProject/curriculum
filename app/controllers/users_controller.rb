@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-  before_action :set_user, except: [:index, :send_confirmation_link]
+  before_action :find_user, except: [:index, :send_confirmation_link]
   before_action :authenticate_user!
   before_action :check_current_user, :only => [:edit, :update]
 
@@ -8,32 +8,33 @@ class UsersController < ApplicationController
   end
 
   def edit
+    puts '*' * 100
+    p params[id]
     @edit = true
     render :show
   end
 
-  # NOTE: This is actually done by Devise's RegistrationsController
   def update
     if @user.update_attributes( user_params )
-      flash[:success] = "Your profile was updated successfully"
+      flash[:success] = 'Your profile was updated successfully'
       redirect_to @user
     else
-      flash.now[:error] = "We could not update your profile.  Errors: #{ @user.errors.full_messages }"
-      render :edit
+      flash.now[:error] = "We could not update your profile. Errors: #{@user.errors.full_messages}"
+      render :show
     end
   end
 
   def index
-    @users = User.by_latest_completion.paginate(:page => params[:page], :per_page => 15)
+    @users = users_by_latest_lesson_completion
   end
 
   def send_confirmation_link
     current_user.send_confirmation_instructions
-    flash[:notice] = "Confirmation instructions have been sent to your email address!"
+    flash[:notice] = 'Confirmation instructions have been sent to your email address!'
     redirect_to request.referer
   end
 
-  protected
+  private
 
   def check_current_user
     user = User.find_by_id(params[:id]) || bad_request
@@ -49,30 +50,33 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit(
-    :email,
-    :username,
-    :password,
-    :password_confirmation,
-    :legal_agreement,
-    :skype,
-    :screenhero,
-    :facebook,
-    :twitter,
-    :linkedin,
-    :github,
-    :google_plus,
-    :about,
-    :uid,
-    :provider
-  )
+      :email,
+      :username,
+      :password,
+      :password_confirmation,
+      :legal_agreement,
+      :skype,
+      :screenhero,
+      :facebook,
+      :twitter,
+      :linkedin,
+      :github,
+      :google_plus,
+      :about,
+      :uid,
+      :provider
+    )
   end
 
-  private
-    def set_user
-      begin
-        @user = UserDecorator.new(User.find(params[:id]))
-      rescue ActiveRecord::RecordNotFound
-        redirect_to root_url, :flash => {error: "Invalid user ID"}
-      end
-    end
+  def find_user
+    @user = UserDecorator.new(user)
+  end
+
+  def user
+    User.find(params[:id])
+  end
+
+  def users_by_latest_lesson_completion
+    User.by_latest_completion.paginate(page: params[:page], per_page: 15)
+  end
 end
