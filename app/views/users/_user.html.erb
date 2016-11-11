@@ -10,7 +10,7 @@
     <% if lesson %>
       <em>
         Completed
-        "<%= link_to "#{lesson.course.title}: #{lesson.title}", lesson_path(lesson.course.title_url, lesson.title_url) %>" <%= distance_of_time_in_words(Time.now - user.last_lesson_completed.created_at) %> ago
+        "<%= link_to "#{lesson.course.title}: #{lesson.title}", lesson_path(lesson.id) %>" <%= distance_of_time_in_words(Time.now - user.last_lesson_completed.created_at) %> ago
       </em>
     <% end %>
   </div>

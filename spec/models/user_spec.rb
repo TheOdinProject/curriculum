@@ -74,14 +74,25 @@ RSpec.describe User do
         created_at: DateTime.new(2016,11,10),
       )
     }
-    let(:users_completed_lessons) { double('UserCompletedLessons') }
+    let(:users_completed_lessons) { double('ActiveRecord::Relation') }
+    let(:users_by_last_completed_lesson) { double('ActiveRecord::Relation') }
+    let(:grouped_by_users) { double('ActiveRecord::Relation') }
 
     before do
-      allow(User).to receive(:includes).with(:lesson_completions).
+      allow(User).to receive(:joins).
+        with('LEFT OUTER JOIN lesson_completions ON lesson_completions.student_id = users.id').
         and_return(users_completed_lessons)
 
-      allow(users_completed_lessons).to receive(:order).
-        with('lesson_completions.created_at desc nulls last').
+      allow(users_completed_lessons).to receive(:select).
+        with('max(lesson_completions.created_at) as latest_completion_date, users.*').
+        and_return(users_by_last_completed_lesson)
+
+      allow(users_by_last_completed_lesson).to receive(:group).with('users.id').
+        and_return(grouped_by_users)
+
+
+      allow(grouped_by_users).to receive(:order).
+        with('latest_completion_date desc nulls last').
         and_return([second_user, first_user])
     end
 

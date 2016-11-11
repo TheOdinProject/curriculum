@@ -10,8 +10,10 @@ class User < ActiveRecord::Base
   has_many :completed_lessons, :through => :lesson_completions, :source => :lesson
 
   def self.by_latest_completion
-    User.includes(:lesson_completions).
-      order('lesson_completions.created_at desc nulls last')
+    User.joins('LEFT OUTER JOIN lesson_completions ON lesson_completions.student_id = users.id')
+      .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
+      .group('users.id')
+      .order('latest_completion_date desc nulls last')
   end
 
   def completed_lesson?(lesson)
@@ -33,12 +35,14 @@ class User < ActiveRecord::Base
   end
 
   def self.from_omniauth(auth)
-    self.where(auth.slice(:provider, :uid).to_hash).first_or_create({
-      provider: auth[:provider],
-      uid: auth[:uid],
-      username: auth[:info][:name],
-      email: auth[:info][:email]
-    })
+    self.where(auth.slice(:provider, :uid).to_hash).first_or_create(
+      {
+        provider: auth[:provider],
+        uid: auth[:uid],
+        username: auth[:info][:name],
+        email: auth[:info][:email]
+      }
+    )
   end
 
   def add_omniauth(auth)
