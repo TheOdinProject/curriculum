@@ -82,7 +82,7 @@ describe "Users" do
       end
 
       it "should redirect to show page for that user" do
-        expect(current_path).to eq(user_path(other_user))
+        expect(current_path).to eq('/')
       end
     end
 

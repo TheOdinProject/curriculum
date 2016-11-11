@@ -1,7 +1,7 @@
-require 'spec_helper'
+require 'rails_helper'
 
-RSpec.describe SocialMediaLink do
-  subject(:social_media_link) { SocialMediaLink.new(user) }
+RSpec.describe UserDecorator do
+  subject(:user_decorator) { UserDecorator.new(user) }
 
   let(:user) {
     double(
@@ -20,7 +20,7 @@ RSpec.describe SocialMediaLink do
   describe '#twitter_url' do
 
     it 'returns the users twitter url' do
-      expect(social_media_link.twitter_url).
+      expect(user_decorator.twitter_url).
         to eql('http://www.twitter.com/odinstudent')
     end
 
@@ -28,7 +28,7 @@ RSpec.describe SocialMediaLink do
       let(:user_twitter) { '@odinstudent' }
 
       it 'returns the twitter url correctly formatted' do
-        expect(social_media_link.twitter_url).
+        expect(user_decorator.twitter_url).
           to eql('http://www.twitter.com/odinstudent')
       end
     end
@@ -37,7 +37,7 @@ RSpec.describe SocialMediaLink do
       let(:user_twitter) { nil }
 
       it 'returns nil' do
-        expect(social_media_link.twitter_url).to eql(nil)
+        expect(user_decorator.twitter_url).to eql(nil)
       end
     end
   end
@@ -45,7 +45,7 @@ RSpec.describe SocialMediaLink do
   describe '#facebook_url' do
 
     it 'returns the users formatted facebook url' do
-      expect(social_media_link.facebook_url).
+      expect(user_decorator.facebook_url).
         to eql('https://www.facebook.com/odinstudent')
     end
 
@@ -53,7 +53,7 @@ RSpec.describe SocialMediaLink do
       let(:user_facebook) { nil }
 
       it 'returns nil' do
-        expect(social_media_link.facebook_url).to eql(nil)
+        expect(user_decorator.facebook_url).to eql(nil)
       end
     end
   end
@@ -61,7 +61,7 @@ RSpec.describe SocialMediaLink do
   describe '#linkedin_url' do
 
     it 'returns the users formatted linkedin url' do
-      expect(social_media_link.linkedin_url).
+      expect(user_decorator.linkedin_url).
         to eql('https://www.linkedin.com/in/odinstudent')
     end
 
@@ -69,14 +69,14 @@ RSpec.describe SocialMediaLink do
       let(:user_linkedin) { nil }
 
       it 'returns nil' do
-        expect(social_media_link.linkedin).to eql(nil)
+        expect(user_decorator.linkedin).to eql(nil)
       end
     end
   end
 
   describe '#github_url' do
     it 'returns the users github url' do
-      expect(social_media_link.github_url).
+      expect(user_decorator.github_url).
         to eql('http://www.github.com/odinstudent')
     end
 
@@ -84,7 +84,7 @@ RSpec.describe SocialMediaLink do
       let(:user_github) { 'http://www.github.com/odinstudent' }
 
       it 'returns the twitter url correctly formatted' do
-        expect(social_media_link.github_url).
+        expect(user_decorator.github_url).
           to eql('http://www.github.com/odinstudent')
       end
     end
@@ -93,7 +93,7 @@ RSpec.describe SocialMediaLink do
       let(:user_github) { nil }
 
       it 'returns nil' do
-        expect(social_media_link.github_url).to eql(nil)
+        expect(user_decorator.github_url).to eql(nil)
       end
     end
   end

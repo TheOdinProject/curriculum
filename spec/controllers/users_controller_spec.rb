@@ -1,70 +1,102 @@
 require "rails_helper"
 
-describe UsersController do
-
+RSpec.describe UsersController do
   let(:user) { FactoryGirl.create(:user) }
-  let(:other_user) { FactoryGirl.create(:user) }
 
-  context "before authentication" do
-    it "GET #index unauthorized" do
-      get :index
-      expect(response).to redirect_to(new_user_session_path)
-    end
-    it "PUT #update unauthorized" do
-      put :update, :id => user.id
-      assert_response 302
-    end
-    it "GET #edit unauthorized" do
-      get :edit, :id => user.id
-      assert_response 302
-    end
-    it "GET #show unauthorized" do
-      get :show, :id => user.id
-      assert_response 302
+  before do
+    request.env["devise.mapping"] = Devise.mappings[:user]
+    sign_in user
+  end
+
+  describe 'GET show' do
+    it 'renders the users profile page' do
+      get :show, id: user.id
+      expect(response).to render_template(:show)
     end
   end
 
-  context "after authentication" do
+  describe 'GET edit' do
+    it 'assigns @edit' do
+      get :edit, id: user.id
+      expect(assigns(:edit)).to eql(true)
+    end
+
+    it 'renders the users profile' do
+      get :edit, id: user.id
+      expect(response).to render_template(:show)
+    end
+  end
+
+  describe 'POST update' do
+
+    it 'displays a success message' do
+      post :update, id: user.id, user: { email: 'kevin@example.com' }
+      expect(flash[:success]).to eql('Your profile was updated successfully')
+    end
+
+    it 'redirects to the users profile' do
+      post :update, id: user.id, user: { email: 'kevin@example.com' }
+      expect(response).to redirect_to("/users/#{user.id}")
+    end
+
+    context 'when there are errors' do
+      it 'displays a error message' do
+        post :update, id: user.id, user: { email: 'kevin@' }
+        expect(flash[:error]).to eql('We could not update your profile. Errors: ["Email is invalid"]')
+      end
+
+      it 'renders the users profile page' do
+        post :update, id: user.id, user: { email: 'kevin@' }
+        expect(response).to render_template(:show)
+      end
+    end
+  end
+
+  describe 'GET index' do
+    let(:users) { [first_user, second_user] }
+    let(:first_user) { double('User') }
+    let(:second_user) { double('User') }
+    let(:params) { { page: 'foo' } }
+
     before do
-      sign_in(user)
+      allow(controller).to receive(:params).and_return(params)
+
+      allow(User).to receive(:by_latest_completion).
+        and_return(users)
+
+      allow(users).to receive(:paginate).
+        with(page: params[:page], per_page: 15).
+        and_return(users)
     end
 
-    it "GET #index is authorized" do
+    it 'assigns @users' do
       get :index
-      assert_response 200
-    end
-    it "PUT #update is authorized" do
-      put :update, :id => user.id, :user => { username: "foolong" }
-      expect(response).to redirect_to user_url(user)
-    end
-    it "GET #edit is authorized" do
-      get :edit, :id => user.id
-      assert_response 200
-    end
-    it "GET #show is authorized" do
-      get :show, :id => user.id
-      assert_response 200
+      expect(assigns(:users)).to eql(users)
     end
 
-    it "GET #show with invalid id is redirected" do
-      get :show, :id => "invalid"
-      expect(response).to redirect_to root_url
-      expect(flash[:error]).to eql("Invalid user ID")
+  end
+
+  describe 'GET send_confirmation_link' do
+
+    before do
+      allow(controller).to receive(:current_user).and_return(user)
+      allow(user).to receive(:send_confirmation_link)
+      allow(request).to receive(:referer).and_return('/courses')
     end
 
-    describe "messing with other users' things" do
+    it 'sends the confirmation instructions' do
+      expect(user).to receive(:send_confirmation_instructions)
+      get :send_confirmation_link, id: user.id
+    end
 
-      it "GET #edit is unauthorized" do
-        get :edit, :id => other_user.id
-        expect(response).to redirect_to user_url(other_user)
-      end
-      it "GET #edit shouldn't show edit" do
-        expect(response).not_to redirect_to edit_user_url(other_user)
-      end
-      it "PUT #update is unauthorized" do
-        put :update, :id => other_user.id
-        expect(response).to redirect_to user_url(other_user)
-      end
+    it 'displays a notice' do
+      get :send_confirmation_link, id: user.id
+      expect(flash[:notice]).to eql('Confirmation instructions have been sent to your email address!')
+    end
+
+    it 'redirects to the referer' do
+      get :send_confirmation_link, id: user.id
+      expect(response).to redirect_to('/courses')
     end
   end
 end

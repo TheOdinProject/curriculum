@@ -89,7 +89,7 @@
 
             <% if !@user.github.blank? %>
             <li>
-              <%= link_to github_url(@user) do %>
+              <%= link_to @user.github_url do %>
               <i class="fa fa-github"></i>
               <% end %>
             </li>
@@ -97,7 +97,7 @@
 
             <% if !@user.twitter .blank? %>
             <li>
-              <%= link_to twitter_url(@user) do%>
+              <%= link_to @user.twitter_url do%>
               <i class="fa fa-twitter"></i>
               <% end %>
             </li>
@@ -105,7 +105,7 @@
 
             <% if !@user.facebook.blank? %>
             <li>
-              <%= link_to facebook_url(@user) do %>
+              <%= link_to @user.facebook_url do %>
               <i class="fa fa-facebook-square"></i>
               <% end %>
             </li>
@@ -113,7 +113,7 @@
 
             <% if !@user.linkedin.blank? %>
             <li>
-              <%= link_to linkedin_url(@user) do%>
+              <%= link_to @user.linkedin_url do%>
               <i class="fa fa-linkedin"></i>
               <% end %>
             </li>
