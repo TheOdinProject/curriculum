@@ -70,7 +70,7 @@ class UsersController < ApplicationController
   private
     def set_user
       begin
-        @user = User.find(params[:id])
+        @user = UserDecorator.new(User.find(params[:id]))
       rescue ActiveRecord::RecordNotFound
         redirect_to root_url, :flash => {error: "Invalid user ID"}
       end

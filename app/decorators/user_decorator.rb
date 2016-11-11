@@ -1,14 +1,6 @@
-class SocialMediaLink
-  extend Forwardable
+require 'delegate'
 
-  attr_reader :user
-  private :user
-
-  def_delegators :user, :twitter, :facebook, :linkedin, :github
-
-  def initialize(user)
-    @user = user
-  end
+class UserDecorator < SimpleDelegator
 
   def twitter_url
     twitter && formatted_twitter_url
