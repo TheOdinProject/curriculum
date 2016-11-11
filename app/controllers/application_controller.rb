@@ -10,6 +10,8 @@ class ApplicationController < ActionController::Base
   before_filter :configure_permitted_parameters, if: :devise_controller?
   after_filter :store_redirect_path
 
+  private
+
   def after_sign_out_path_for(resource_or_scope)
     home_path(:ref => "logout")
   end
@@ -28,10 +30,6 @@ class ApplicationController < ActionController::Base
 
   def not_found_error
     raise ActionController::RoutingError.new('Not Found')
-  end
-
-  def bad_request
-    raise ActionController::RoutingError.new('Bad Request')
   end
 
   private
