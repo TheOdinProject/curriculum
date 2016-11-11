@@ -515,3 +515,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [cindygao93's Solution](https://github.com/cindygao93/etch-and-sketch) | [View In Browser](https://cindygao93.github.io/etch-and-sketch/)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/etch_a_sketch) | [View In Browser](https://cdn.rawgit.com/heyalvaro/etch_a_sketch/master/index.html)
 * [Nuno Monteiro's Solution](https://github.com/Nuno1123/Javascript-jQuery_Learning_Project) | [View In Browser](https://github.com/Nuno1123/Javascript-jQuery_Learning_Project/master/index.html)
+* [Daniel Hill's Solution](https://github.com/danielhill13/odin-project/tree/9967ae51e32f2ca6e8d0ba431f1f6396ad15f20b/etch-a-sketch) | [View In Browser] (https://cdn.rawgit.com/danielhill13/odin-project/9967ae51e32f2ca6e8d0ba431f1f6396ad15f20b/etch-a-sketch/index.html)
