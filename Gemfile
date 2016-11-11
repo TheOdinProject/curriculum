@@ -26,6 +26,7 @@ gem 'less-rails',                   '~> 2.7.1'
 gem 'uglifier',                     '>= 2.7.2'
 gem 'shortener',                    '~> 0.5.5'
 gem 'friendly_id',                  '~> 5.1.0'
+gem 'cancancan',                    '~> 1.10'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.2'

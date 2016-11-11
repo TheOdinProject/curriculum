@@ -2,14 +2,12 @@ class UsersController < ApplicationController
 
   before_action :find_user, except: [:index, :send_confirmation_link]
   before_action :authenticate_user!
-  before_action :check_current_user, :only => [:edit, :update]
+  load_and_authorize_resource :only => [:edit, :update]
 
   def show
   end
 
   def edit
-    puts '*' * 100
-    p params[id]
     @edit = true
     render :show
   end
@@ -35,18 +33,6 @@ class UsersController < ApplicationController
   end
 
   private
-
-  def check_current_user
-    user = User.find_by_id(params[:id]) || bad_request
-    if user
-      unless current_user == user
-        logger.warn "**** redirecting because you (#{current_user.username}) aren't this user! ****"
-        redirect_to user
-      end
-    else
-      render "/400.html", :status => 400 # bad request
-    end
-  end
 
   def user_params
     params.require(:user).permit(

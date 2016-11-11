@@ -52,6 +52,7 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
+    cancancan (1.15.0)
     capybara (2.6.2)
       addressable
       mime-types (>= 1.16)
@@ -403,6 +404,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors (~> 2.1.1)
   binding_of_caller (~> 0.7.2)
+  cancancan (~> 1.10)
   capybara (~> 2.6.2)
   capybara-email
   coffee-rails (~> 4.1.1)

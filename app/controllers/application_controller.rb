@@ -1,4 +1,11 @@
 class ApplicationController < ActionController::Base
+  rescue_from CanCan::AccessDenied do |exception|
+    respond_to do |format|
+      format.json { head :forbidden }
+      format.html { redirect_to root_url, :alert => 'You are not authorized to do that' }
+    end
+  end
+
   protect_from_forgery
   before_filter :configure_permitted_parameters, if: :devise_controller?
   after_filter :store_redirect_path
