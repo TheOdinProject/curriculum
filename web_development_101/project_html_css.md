@@ -911,7 +911,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Dan Sack's Solution (Easy)](https://github.com/DanPete/google_homepage) | [View in Browser](https://danpete.github.io/google_homepage/)
 * [Øistein Haugland's Solution (Easy/Difficult)] (https://github.com/oisteinhaugland/Google-homepage) |  [View in Browser] (https://oisteinhaugland.github.io/Google-homepage/)
 * [Yury Tomilin's Solution (Easy)] (https://github.com/reitzy/google-homepage) |  [View in Browser] (https://rawgit.com/reitzy/google-homepage/master/index.html)
-
+* [Rhett Newton's Solution](https://github.com/rnewton5/google-homepage) | [View in Browser] (https://rnewton5.github.io/google-homepage/)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
