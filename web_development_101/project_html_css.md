@@ -910,6 +910,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Boscardin's solution](https://boscardin.github.io/google-homepage/)
 * [Dan Sack's Solution (Easy)](https://github.com/DanPete/google_homepage) | [View in Browser](https://danpete.github.io/google_homepage/)
 * [Øistein Haugland's Solution (Easy/Difficult)] (https://github.com/oisteinhaugland/Google-homepage) |  [View in Browser] (https://oisteinhaugland.github.io/Google-homepage/)
+* [Yury Tomilin's Solution (Easy)] (https://github.com/reitzy/google-homepage) |  [View in Browser] (https://rawgit.com/reitzy/google-homepage/master/index.html)
 
 ## Additional Resources
 
