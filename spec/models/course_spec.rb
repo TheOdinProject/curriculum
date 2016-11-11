@@ -12,6 +12,7 @@ describe Course do
 
   before do
     allow(course).to receive(:sections).and_return(sections)
+    allow(course).to receive(:lessons).and_return(lessons)
   end
 
   it { is_expected.to have_many(:sections) }
@@ -62,6 +63,17 @@ describe Course do
       it "returns 25" do
         expect(course.percent_completed_by(current_user)).to eq(25)
       end
+    end
+  end
+
+  describe '#lessons_in_course' do
+    before do
+      allow(lessons).to receive(:order).with(position: :asc).
+        and_return(lessons)
+    end
+
+    it 'returns ordered lessons in the course' do
+      expect(course.lessons_in_course).to eql(lessons)
     end
   end
 
