@@ -19,6 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/blogger) | [View in browser](https://infinite-anchorage-76552.herokuapp.com/)
 * [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/blogger2)
 * [Jib's solution](https://github.com/NuclearMachine/OdinTasks/tree/master/blogger) | [View in browser](https://ancient-sierra-59262.herokuapp.com/)
 * [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/blogger)
