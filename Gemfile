@@ -1,60 +1,60 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
-gem 'rails',                        '~> 4.2', '>= 4.2.5.2'
-gem 'puma',                         '~> 2.16.0'                       #Webserver to replace WEBrick
-gem 'simple_form',                  '~> 3.2.1'
-gem 'jquery-rails',                 '~> 4.1.0'
-gem 'google-api-client',            '~> 0.9.3'
-gem 'devise',                       '~> 3.5.6'                        # For managing authentication
-gem 'figaro',                       '~> 0.7.0'                        # Managing environment variables
-gem 'rack-timeout',                 '~> 0.3.2'
-gem 'redcarpet',                    '~> 3.3.4'                        # to render the curriculum's .md files as html
-gem 'will_paginate',                '~> 3.1.0'                        # to paginate student lists
-gem 'pg',                           '~> 0.18.4'
-gem 'nokogiri',                     '~> 1.6.7.2'
-gem 'premailer-rails',              '~> 1.9'
-gem 'github_api',                   '~> 0.13.1'                       # to pull in the curriculum files
-gem 'octokit',                      '~> 4.0'
-gem 'omniauth-github',              '~> 1.1.2'                        #for Github Authentication
-gem 'font-awesome-rails',           '~> 4.5.0.1'
-gem 'sass-rails',                   '~> 5.0.4'
-gem 'coffee-rails',                 '~> 4.1.1'
+gem 'rails',                        '~> 5.0.0'
+gem 'puma'
+gem 'simple_form'
+gem 'jquery-rails'
+gem 'google-api-client'
+gem 'devise',                       '~> 4.2.0'                        # For managing authentication
+gem 'figaro'                       # Managing environment variables
+gem 'rack-timeout'
+gem 'redcarpet'                       # to render the curriculum's .md files as html
+gem 'will_paginate'                        # to paginate student lists
+gem 'pg'
+gem 'nokogiri'
+gem 'premailer-rails'
+gem 'github_api'                     # to pull in the curriculum files
+gem 'octokit'
+gem 'omniauth-github'                      #for Github Authentication
+gem 'font-awesome-rails'
+gem 'sass-rails'
+gem 'coffee-rails'
 gem 'twitter-bootstrap-rails',      '~> 2.2.8'
-gem 'therubyracer',                 '~> 0.12.2'                       # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'less-rails',                   '~> 2.7.1'
-gem 'uglifier',                     '>= 2.7.2'
-gem 'shortener',                    '~> 0.5.5'
-gem 'friendly_id',                  '~> 5.1.0'
-gem 'cancancan',                    '~> 1.10'
+gem 'therubyracer'                      # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+gem 'less-rails'
+gem 'uglifier'
+gem 'shortener'
+gem 'friendly_id'
+gem 'cancancan'
 
 group :production do
-  gem 'rails_12factor',             '~> 0.0.2'
-  gem 'newrelic_rpm',               '~> 3.15.0.314'
+  gem 'rails_12factor'
+  gem 'newrelic_rpm'
 end
 
 group :development, :test do
-  gem 'rspec-rails',                '~> 3.4.2'
+  gem 'rspec-rails'
   gem 'cucumber-rails', require: false
   gem 'simplecov', :require => false                                # Code coverage
-  gem 'factory_girl_rails',         '~> 4.6.0'
-  gem 'capybara',                   '~> 2.6.2'
-  gem 'phantomjs',                  '~> 2.1.1'
-  gem 'poltergeist',                '~> 1.9.0'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'phantomjs'
+  gem 'poltergeist'
   gem 'capybara-email'
-  gem 'database_cleaner',           '~> 1.5.1'
-  gem 'webmock',                    '~> 2.1'
-  gem 'vcr',                        '~> 3.0'
-  gem 'shoulda-matchers',           '~> 3.1'
-  gem 'rake',                       '~> 10.4'
+  gem 'database_cleaner'
+  gem 'webmock'
+  gem 'vcr'
+  gem 'shoulda-matchers'
+  gem 'rake'
+  gem 'rails-controller-testing'
 end
 
 group :development do
-  gem 'web-console',                '~> 3.0'
-  gem 'better_errors',              '~> 2.1.1'                        # gives much better error messages for debug
-  gem 'quiet_assets',               '~> 1.1.0'                        # shortens up the server log output
-  gem 'binding_of_caller',          '~> 0.7.2'                        # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
-  gem 'letter_opener',              '~> 1.4.1'                        # shows outgoing emails in your browser instead
+  gem 'web-console'
+  gem 'better_errors'                       # gives much better error messages for debug                   # shortens up the server log output
+  gem 'binding_of_caller'                      # helps out better_errors by giving you an interactive way to query variables and methods on the better_errors error screen
+  gem 'letter_opener'                       # shows outgoing emails in your browser instead
   gem 'derailed'                                                      # Memory benchmarking
   gem 'reek'                                                          # Code smell detector
   gem 'rubocop', require: false                                       # Static code analyser
