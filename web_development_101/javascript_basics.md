@@ -399,6 +399,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Lawrence Lawson's Interactive Solution](https://github.com/Zagan202/projecteuler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Zagan202/projecteuler/blob/master/index.html)
 * [Dustin Seright's Solution](https://github.com/dseright/euler_solutions) | [View in Browser] (https://cdn.rawgit.com/dseright/euler_solutions/master/index.html) 
 * [Boscardin's Solution](https://github.com/Boscardin/javascript101.git)
+* [Øistein Haugland's Solution] (https://github.com/oisteinhaugland/euler-problems) | [View in Browser] (https://oisteinhaugland.github.io/euler-problems/)
 
 ## Additional Resources
 
