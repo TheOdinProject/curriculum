@@ -7,8 +7,8 @@ class ApplicationController < ActionController::Base
   end
 
   protect_from_forgery
-  before_filter :configure_permitted_parameters, if: :devise_controller?
-  after_filter :store_redirect_path
+  before_action :configure_permitted_parameters, if: :devise_controller?
+  after_action :store_redirect_path
 
   private
 
