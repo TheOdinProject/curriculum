@@ -40,6 +40,7 @@ Revisit the ceasar cipher ruby script that you created during [Ruby Building Blo
 * DV's solution [github](https://github.com/dvislearning/caesar_cipher/tree/master/lib) / [see it on the web](https://quiet-cove-96544.herokuapp.com/)
 * Austin's solution [github](https://github.com/CouchofTomato/ceasar_cipher_sinatra) / [see it on the web](https://couch-cipher.herokuapp.com/)
 * Miguel Herrera's solution [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/caesar_cipher)
+* at0micr3d's solution - [github](https://github.com/at0micr3d/sinatra-caesar-cipher) / [see it on the web](https://pure-tundra-73618.herokuapp.com/)
 
 ## Project 2: Another Web-Game
 
@@ -70,3 +71,4 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * DV's solution - Hangman: [github](https://github.com/dvislearning/hangman_sinatra) / [see it on the web](https://secret-escarpment-36246.herokuapp.com/)
 * Austin's solution - Hangman: [github](https://github.com/CouchofTomato/hangman_sinatra) / [see it on the web](https://couch-hangman.herokuapp.com/)
 * Miguel Herrera's solution - Hangman: [github](https://github.com/migueloherrera/sinatra-projects) / [see it on the web](https://floating-meadow-84284.herokuapp.com/hangman)
+* at0micr3d's solution - Hangman: [github](https://github.com/at0micr3d/interrobang-man) / [see it on the web](https://sheltered-scrubland-38921.herokuapp.com/)
