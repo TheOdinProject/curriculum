@@ -20,7 +20,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 * Add your solution below this line!
 * [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/blogger2)
-* [Jibril Tapiador's solution](https://github.com/NuclearMachine/OdinTasks/tree/master/blogger) | [View in browser](https://ancient-sierra-59262.herokuapp.com/)
+* [Jib's solution](https://github.com/NuclearMachine/OdinTasks/tree/master/blogger) | [View in browser](https://ancient-sierra-59262.herokuapp.com/)
 * [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/blogger)
 * [Allen's solution](https://github.com/NoRest4AWhearry/blogger) | [View in browser](http://jsblogger2.herokuapp.com/)
 * [Angel Vargas' solution](https://github.com/arioth/the-odin-project/tree/master/blogger)
