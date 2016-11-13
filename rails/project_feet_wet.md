@@ -90,6 +90,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/toy_app)
 * [Austin's solution](https://github.com/CouchofTomato/toy_app) | [Heroku](https://couch-toy-app.herokuapp.com/)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/warmup/toy_app) | [Heroku](https://jpeikert-toy-app.herokuapp.com/)
+* [Joe Himes's solution](https://github.com/deedle42/toy_app) | [Heroku](https://peaceful-fortress-41063.herokuapp.com/)
 
 
 ## Additional Resources
