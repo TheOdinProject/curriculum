@@ -8,7 +8,7 @@ One step which can be unnecessarily frustrating is making sure everything is ins
 
 It may be a challenge, but if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
 
-One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Nitrous.io](https://www.nitrous.io)) and no environment, do what it takes to get you going.  We'll give some alternatives below.
+One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Cloud 9](https://c9.io/)) and no environment, do what it takes to get you going.
 
 If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
 
@@ -75,7 +75,7 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 * Performance with Ubuntu won't be as sharp as a dual booting
 
 #### Option 3 - Using an Online IDE
-There have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, in fact that's how they are set up in the background. The difference is they are websites so you can only use them in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) and [Nitrous](https://www.nitrous.io/) are two of the most popular online IDE's.
+There have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, in fact that's how they are set up in the background. The difference is they are websites so you can only use them in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.
 
 **Pros**
 
@@ -155,9 +155,9 @@ These installfests will take you through the steps to install everything on your
 
 ## Oh no! Total Failure!!!
 
-If all else fails, the best web-based development environments to use for coding the back end are [Nitrous.io](https://www.nitrous.io) or [cloud9](https://c9.io/).  They are free to use and give you a brand spanking new Ruby and Rails setup to start coding with.  
+If all else fails, one of the best web-based development environments to use for coding the back end is [cloud9](https://c9.io/).  It is free to use and gives you a brand spanking new Ruby and Rails setup to start coding with.  
 
-They rely on having an internet connection, but they give you a command line, a text editor, and the ability to run a local server right out of the box.
+It relies on having an internet connection, but gives you a command line, a text editor, and the ability to run a local server right out of the box.
 
 ## Additional Resources
 
