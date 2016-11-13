@@ -133,7 +133,7 @@ GEM
       railties (>= 3.0.0)
     faraday (0.9.2)
       multipart-post (>= 1.2, < 3)
-    figaro (1.1.1)
+    figaro (1.1.0)
       thor (~> 0.14)
     font-awesome-rails (4.7.0.0)
       railties (>= 3.2, < 5.1)
@@ -404,55 +404,55 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  better_errors
-  binding_of_caller
-  cancancan
-  capybara
-  capybara-email
-  coffee-rails
+  better_errors (~> 2.1)
+  binding_of_caller (~> 0.7)
+  cancancan (~> 1.15)
+  capybara (~> 2.10)
+  capybara-email (~> 2.5)
+  coffee-rails (~> 4.2)
   cucumber-rails
-  database_cleaner
+  database_cleaner (~> 1.5)
   derailed
   devise (~> 4.2.0)
-  factory_girl_rails
-  figaro
-  font-awesome-rails
-  friendly_id
-  github_api
-  google-api-client
-  jquery-rails
-  less-rails
-  letter_opener
-  newrelic_rpm
-  nokogiri
-  octokit
-  omniauth-github
-  pg
-  phantomjs
-  poltergeist
-  premailer-rails
-  puma
-  rack-timeout
+  factory_girl_rails (~> 4.7)
+  figaro (= 1.1)
+  font-awesome-rails (~> 4.7)
+  friendly_id (~> 5.1)
+  github_api (~> 0.14)
+  google-api-client (~> 0.9)
+  jquery-rails (~> 4.2.1)
+  less-rails (~> 2.8)
+  letter_opener (~> 1.4)
+  newrelic_rpm (~> 3.17)
+  nokogiri (~> 1.6)
+  octokit (~> 4.6)
+  omniauth-github (~> 1.1.2)
+  pg (~> 0.19)
+  phantomjs (~> 2.1)
+  poltergeist (~> 1.1)
+  premailer-rails (~> 1.9)
+  puma (~> 3.6.0)
+  rack-timeout (~> 0.4)
   rails (~> 5.0.0)
-  rails-controller-testing
-  rails_12factor
-  rake
-  redcarpet
+  rails-controller-testing (~> 1.0)
+  rails_12factor (~> 0.0.3)
+  rake (~> 11.3)
+  redcarpet (~> 3.3)
   reek
-  rspec-rails
+  rspec-rails (~> 3.5)
   rubocop
-  sass-rails
-  shortener
-  shoulda-matchers
-  simple_form
+  sass-rails (~> 5.0)
+  shortener (~> 0.5)
+  shoulda-matchers (~> 3.1)
+  simple_form (= 3.3.1)
   simplecov
-  therubyracer
+  therubyracer (~> 0.12)
   twitter-bootstrap-rails (~> 2.2.8)
-  uglifier
-  vcr
-  web-console
-  webmock
-  will_paginate
+  uglifier (~> 3.0)
+  vcr (~> 3.0)
+  web-console (~> 3.4)
+  webmock (~> 2.1)
+  will_paginate (~> 3.1)
 
 RUBY VERSION
    ruby 2.3.0p0
