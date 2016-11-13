@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe CoursesController do
   let(:courses) { [course, course] }
   let(:course) { double('Course', id: 'abc123') }
-  let(:params) { { id: 'abc123' } }
 
   describe "GET index" do
 
@@ -29,12 +28,12 @@ RSpec.describe CoursesController do
     end
 
     it 'assigns @course' do
-      get :show, params
+      get :show, params: { id: 'abc123' }
       expect(assigns(:course)).to eql(course)
     end
 
     it 'renders the course' do
-      get :show, params
+      get :show, params: { id: 'abc123' }
       expect(response).to render_template(:show)
     end
   end
