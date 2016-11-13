@@ -1,4 +1,4 @@
-class Course < ActiveRecord::Base
+class Course < ApplicationRecord
   extend FriendlyId
 
   serialize :you_learn, Array

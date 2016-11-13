@@ -24,7 +24,7 @@ class StaticPagesController < ApplicationController
   end
 
   def suggestion
-    if suggestion_body
+    if suggestion_body_not_empty?
       ContactMailer.suggestion_email(
         suggestion_body,
         current_page,
@@ -53,5 +53,9 @@ class StaticPagesController < ApplicationController
 
   def suggestion_body
     @suggestion_body ||= params[:suggestion]
+  end
+
+  def suggestion_body_not_empty?
+    !suggestion_body.empty?
   end
 end

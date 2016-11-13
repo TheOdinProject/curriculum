@@ -23,7 +23,7 @@ RSpec.describe RegistrationsController, :type => :controller do
     end
 
     it 'redirects to the courses path' do
-      post :create, user: user_attributes
+      post :create, params: { user: user_attributes }
       expect(response).to redirect_to('/courses?newuser=true&ref=signup')
     end
 
@@ -31,7 +31,7 @@ RSpec.describe RegistrationsController, :type => :controller do
       let(:session) { { previous_url: '/home' } }
 
       it 'redirects to the home path' do
-        post :create, user: user_attributes
+        post :create, params: { user: user_attributes }
         expect(response).to redirect_to('/home')
       end
     end
@@ -48,9 +48,8 @@ RSpec.describe RegistrationsController, :type => :controller do
     end
 
     it 'redirects to the courses path' do
-      put :update, id: user.id, user: { about: 'This is me', current_password: user.password }
+      put :update, params: { id: user.id, user: { about: 'This is me', current_password: user.password } }
       expect(response).to redirect_to('/courses')
     end
   end
-
 end

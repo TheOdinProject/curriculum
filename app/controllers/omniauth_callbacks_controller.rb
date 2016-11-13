@@ -1,6 +1,6 @@
 class OmniauthCallbacksController < Devise::OmniauthCallbacksController
-  skip_before_filter :verify_authenticity_token
-  before_filter :authenticate_user!
+  skip_before_action :verify_authenticity_token
+  before_action :authenticate_user!
 
   def github
     flash[flash_type] = flash_message

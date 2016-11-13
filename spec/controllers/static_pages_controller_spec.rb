@@ -83,30 +83,31 @@ describe StaticPagesController do
     end
 
     it 'sends the sugestion email' do
-      post :suggestion, params
+      post :suggestion, params: params
       expect(contact_mailer).to have_received(:deliver_now)
     end
 
     it 'returns the suggestion body in JSON' do
-      post :suggestion, params
+      post :suggestion, params: params
       expect(response.body).to eql('hello')
     end
 
     context 'when no suggestion body has been entered' do
-      let(:suggestion_body) { nil }
+      let(:suggestion_body) { '' }
 
       it 'will not send the suggestion email' do
-        post :suggestion, params
+        post :suggestion, params: params
         expect(contact_mailer).not_to have_received(:deliver_now)
+
       end
     end
 
     context 'when the user is not signed in' do
       let(:user_signed_in?) { false }
-      let(:user_identifier) { '< not logged in >'}
+      let(:user_identifier) { 'Anonymous'}
 
       it 'will use < no logged in > for the user identifier' do
-        post :suggestion, params
+        post :suggestion, params: params
         expect(contact_mailer).to have_received(:deliver_now)
       end
     end
