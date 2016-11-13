@@ -24,7 +24,8 @@ RSpec.describe CoursesController do
   describe 'GET show' do
 
     before do
-      allow(Course).to receive(:find).with('abc123').and_return(course)
+      allow(Course).to receive(:friendly).and_return(course)
+      allow(course).to receive(:find).with('abc123').and_return(course)
     end
 
     it 'assigns @course' do

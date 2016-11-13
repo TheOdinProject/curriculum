@@ -8,7 +8,9 @@ RSpec.describe LessonsController do
   let(:current_user) { double('User') }
 
   before do
-    allow(Lesson).to receive(:find).with('abc123').
+    allow(Lesson).to receive(:friendly).and_return(lesson)
+
+    allow(lesson).to receive(:find).with('abc123').
       and_return(lesson)
 
     allow(controller).to receive(:current_user).
@@ -44,7 +46,8 @@ RSpec.describe LessonsController do
       let(:lesson_id) { '123' }
 
       before do
-        allow(Lesson).to receive(:find).with('123').
+        allow(Lesson).to receive(:friendly).and_return(lesson)
+        allow(lesson).to receive(:find).with('123').
           and_raise(ActiveRecord::RecordNotFound)
       end
 

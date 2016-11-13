@@ -2,7 +2,7 @@ class LessonsController < ApplicationController
   rescue_from ActiveRecord::RecordNotFound, :with => :not_found_error
 
   def show
-    @lesson = Lesson.find(params[:id])
+    @lesson = Lesson.friendly.find(params[:id])
 
     if show_ads?
       @lower_banner_ad = true

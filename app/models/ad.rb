@@ -1,4 +1,4 @@
-class Ad < ActiveRecord::Base
+class Ad < ApplicationRecord
 
   def self.show_ads?
     true
