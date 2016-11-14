@@ -517,3 +517,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Nuno Monteiro's Solution](https://github.com/Nuno1123/Javascript-jQuery_Learning_Project) | [View In Browser](https://github.com/Nuno1123/Javascript-jQuery_Learning_Project/master/index.html)
 * [Daniel Hill's Solution](https://github.com/danielhill13/odin-project/tree/9967ae51e32f2ca6e8d0ba431f1f6396ad15f20b/etch-a-sketch) | [View In Browser] (https://cdn.rawgit.com/danielhill13/odin-project/9967ae51e32f2ca6e8d0ba431f1f6396ad15f20b/etch-a-sketch/index.html)
 * [Luís Antunes' Solution](https://github.com/LuisMAntunes/etch-a-sketch) | [View In Browser] (http://htmlpreview.github.io/?https://github.com/LuisMAntunes/etch-a-sketch/blob/master/index.html)
+* [Jason Mabry's Solution](https://github.com/jmabry111/etchasketch) | [View In Browser] (https://rawgit.com/jmabry111/etchasketch/master/index.html)
