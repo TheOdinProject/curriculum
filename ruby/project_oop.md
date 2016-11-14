@@ -150,18 +150,13 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Kaaviya's solution](https://github.com/Kavi6/curriculum/blob/3f56d11d33e2b0241c6a4946cc0d2c871bd278bb/Kaaviya's%20Solution%20(TicTacToe))
 * [Jerry Gao's solution](https://github.com/blackwright/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Bishal's solution](https://github.com/biiishal/tic_tac_toe)
-<<<<<<< HEAD
 * [Joe Himes's solution](https://github.com/deedle42/tic_tac_toe/blob/master/tic_tac_toe.rb)
-=======
 * [Kyle Thomson's solution](https://github.com/idynkydnk/tic_tac_toe)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-OOP-with-ruby/tree/master/tic_tac_toe)
 * [Smilesr's solution] (https://github.com/smilesr/op-rb-ir-15-tic-tac-toe)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/Ruby-OOP/blob/master/tic-tac-toe.rb)
-<<<<<<< HEAD
->>>>>>> 1132acbe5b8a8314776412bf66e451cbc8e42775
-=======
 * [Braydon's solution](https://github.com/pacheeko/tic_tac_toe/blob/master/tic_tac_toe.rb)
->>>>>>> 5d5504ed608fba07a7fb26c8a7e2820e0beeb87e
+* [Pedro's solution](https://github.com/Zapiano/theOdinProject/tree/master/ruby/tic_tac_toe)
 
 
 ## Project 2: Mastermind
