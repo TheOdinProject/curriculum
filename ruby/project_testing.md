@@ -25,6 +25,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Leonard Soaivan's solution] ([Caesar Cipher](https://github.com/leosoaivan/rubybuildingblocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/leosoaivan/rubybuildingblocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/leosoaivan/rubytictactoe/tree/master/spec))
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec)
