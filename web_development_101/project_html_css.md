@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Juliez83's Solution (Difficult)](https://github.com/Juliez83/google-search-results) | [View in Browser]  (https://juliez83.github.io/google-search-results/) | [Juliez83's Solution (Easy)](https://github.com/Juliez83/google-  homepage) | [View in Browser](https://juliez83.github.io/google-homepage/)
 * [Bánk Mészárovits' solution](https://github.com/bmeszarovits/google-homepage) | [View in Browser](https://bmeszarovits.github.io/google-homepage/)
 * [Sanya Verma's solution](https://github.com/ErisedKT/google-homepage/) | [View in Browser](https://erisedkt.github.io/google-homepage/)
 * [Tamir.H's Solution (Easy)](https://github.com/subcat/google-homepage) | [View in Browser] (https://subcat.github.io/google-homepage/) | ['Difficult' solution] (https://github.com/subcat/google-homepage/tree/master/diff) | [View in browser (difficult)](https://cdn.rawgit.com/subcat/google-homepage/master/diff/index.html)
@@ -913,6 +914,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Øistein Haugland's Solution (Easy/Difficult)] (https://github.com/oisteinhaugland/Google-homepage) |  [View in Browser] (https://oisteinhaugland.github.io/Google-homepage/)
 * [Yury Tomilin's Solution (Easy)] (https://github.com/reitzy/google-homepage) |  [View in Browser] (https://rawgit.com/reitzy/google-homepage/master/index.html)
 * [Rhett Newton's Solution](https://github.com/rnewton5/google-homepage) | [View in Browser] (https://rnewton5.github.io/google-homepage/)
+
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
