@@ -89,6 +89,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_compsci/blob/master/binary_tree.rb)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/commit/a3928f9747d422a49801e27e6d88b0cfc3fb3324)
 * [Jerry Gao's solution](https://github.com/blackwright/binary_tree)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/binary_tree.rb)
 
 
 ## Project 2: Knight's Travails
@@ -191,6 +192,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/knights_travails)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/blob/master/knight2.rb)
 * [Jerry Gao's solution](https://github.com/blackwright/knights_travails)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/knights_travails.rb)
 
 ## Additional Resources
 
