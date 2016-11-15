@@ -12,12 +12,12 @@ describe LessonCompletionsController do
 
   context "before authentication" do
     it "POST #create unauthorized" do
-      post :create, lesson_completion_attrs
+      post :create, params: lesson_completion_attrs
       expect(response).to have_http_status(:unauthorized)
     end
 
     it "DELETE #destroy unauthorized" do
-      delete :destroy, lesson_id: lesson_completion_attrs[:lesson_id]
+      delete :destroy, params: { lesson_id: lesson_completion_attrs[:lesson_id] }
       expect(response).to have_http_status(:unauthorized)
     end
   end
@@ -32,12 +32,12 @@ describe LessonCompletionsController do
     describe "POST #create" do
       it "saves the lesson_completion record to the database" do
         expect{
-          post :create, lesson_completion_attrs
+          post :create, params: lesson_completion_attrs
         }.to change(LessonCompletion, :count).by(1)
       end
 
       it 'renders the template' do
-        post :create, lesson_completion_attrs
+        post :create, params: lesson_completion_attrs
         expect(response).to render_template('create')
       end
     end
@@ -57,11 +57,11 @@ describe LessonCompletionsController do
 
       it "destroys the lesson_completion object" do
         expect(lesson_completion).to receive(:destroy)
-        delete :destroy, lesson_id: lesson_completion_attrs[:lesson_id]
+        delete :destroy, params: { lesson_id: lesson_completion_attrs[:lesson_id] }
       end
 
       it 'renders the template' do
-        delete :destroy, lesson_id: lesson_completion_attrs[:lesson_id]
+        delete :destroy, params: { lesson_id: lesson_completion_attrs[:lesson_id] }
         expect(response).to render_template('create')
       end
     end

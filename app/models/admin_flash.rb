@@ -1,4 +1,4 @@
-class AdminFlash < ActiveRecord::Base
+class AdminFlash < ApplicationRecord
 
   validates :message, presence: true
   validates :expires, presence: true

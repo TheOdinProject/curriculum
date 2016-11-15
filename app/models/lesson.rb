@@ -1,4 +1,4 @@
-class Lesson < ActiveRecord::Base
+class Lesson < ApplicationRecord
   extend FriendlyId
 
   friendly_id :slug_canidates, use: [:slugged, :finders]

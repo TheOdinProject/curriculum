@@ -79,8 +79,8 @@ RSpec.describe User do
     let(:grouped_by_users) { double('ActiveRecord::Relation') }
 
     before do
-      allow(User).to receive(:joins).
-        with('LEFT OUTER JOIN lesson_completions ON lesson_completions.student_id = users.id').
+      allow(User).to receive(:left_outer_joins).
+        with(:lesson_completions).
         and_return(users_completed_lessons)
 
       allow(users_completed_lessons).to receive(:select).

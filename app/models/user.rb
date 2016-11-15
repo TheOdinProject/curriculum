@@ -1,4 +1,4 @@
-class User < ActiveRecord::Base
+class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
@@ -10,7 +10,7 @@ class User < ActiveRecord::Base
   has_many :completed_lessons, :through => :lesson_completions, :source => :lesson
 
   def self.by_latest_completion
-    User.joins('LEFT OUTER JOIN lesson_completions ON lesson_completions.student_id = users.id')
+    User.left_outer_joins(:lesson_completions)
       .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
       .group('users.id')
       .order('latest_completion_date desc nulls last')
@@ -67,8 +67,8 @@ class User < ActiveRecord::Base
   end
 
   def self.new_with_session(params, session)
-    if session["devise.user_attributes"]
-      new(session["devise.user_attributes"], without_protection: true) do |user|
+    if session['devise.user_attributes']
+      new(session['devise.user_attributes']) do |user|
         user.attributes = params
         user.valid?
       end

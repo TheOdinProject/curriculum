@@ -1,4 +1,4 @@
-class LessonCompletion < ActiveRecord::Base
+class LessonCompletion < ApplicationRecord
   validates_presence_of [:student_id, :lesson_id]
   validates_uniqueness_of :student_id, :scope => :lesson_id
 

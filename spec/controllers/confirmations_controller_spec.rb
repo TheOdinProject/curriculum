@@ -10,16 +10,16 @@ RSpec.describe ConfirmationsController do
     end
 
     it 'signs in the user' do
-      get :show, confirmation_token: user.confirmation_token
+      get :show, params: { confirmation_token: user.confirmation_token }
       expect(controller.current_user).to eql(user)
     end
 
     it 'displays a flash message' do
-      get :show, confirmation_token: user.confirmation_token
+      get :show, params: { confirmation_token: user.confirmation_token }
       expect(flash[:notice]).to eql('Thanks for confirming your email address!')
     end
     it 'redirects to courses path' do
-      get :show, confirmation_token: user.confirmation_token
+      get :show, params: { confirmation_token: user.confirmation_token }
       expect(response).to redirect_to('/courses')
     end
   end
