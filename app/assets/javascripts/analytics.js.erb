@@ -54,12 +54,12 @@ $(function() {
   });
 
   // Fire an event when a user clicks on the previous lesson navigation link in the individual lesson page
-  $('lnav').on('click', 'lnav-prev-icon', function(e) {
+  $('.lnav').on('click', '.lnav-prev-icon', function(e) {
     _gaq.push(['_trackEvent', 'lesson_navigation', 'click_previous_lesson_link', 'lesson_page', 1]);
   });
 
   // Fire an event when a user clicks on the next lesson navigation link in the individual lesson page
-  $('lnav').on('click', 'lnav-next-icon', function(e) {
+  $('.lnav').on('click', '.lnav-next-icon', function(e) {
     _gaq.push(['_trackEvent', 'lesson_navigation', 'click_next_lesson_link', 'lesson_page', 1]);
   });
 
