@@ -26,6 +26,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
+* [Dustin Seright's Solution](https://github.com/dseright/test_driven_ruby)
+* [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/learn_ruby)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/learn_ruby)
 * [Austin Norman's solutions](https://github.com/austinnormancore/rubyproject)
 * [Stefan P's solutions](https://github.com/spavikevik/learn_ruby)
@@ -186,7 +188,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jiazhi Guo's Solution](https://github.com/jerrykuo7727/test-first-ruby)
 * [Robert Merriman's Solution](https://github.com/RobertBMerriman/learn_ruby)
 * [Seiji's Solution](https://github.com/seijibas/learn-ruby)
-* [John Alcher's Solution](https://github.com/alchermd/ruby-test-first)
+* [John Alcher's Solution](https://github.com/alchermd/test-first-ruby)
 * [Defgarden's Solution](https://github.com/Defgarden/learn_ruby)
 * [Veselin Ivanov's Solution](https://github.com/terlica/TheOdinProject/tree/master/WebDevelopment101/Odin_ruby_project)
 * [Emil Dimitrov's Solution](https://github.com/emo1/basic-ruby)
@@ -244,6 +246,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [jeff1st's Solution](https://github.com/jeff1st/testing_in_ruby)
 * [Alan Cruse's Solution](https://github.com/ADECruse/project-ruby)
 * [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/learn_ruby)
+
 
 ## Additional Resources
 

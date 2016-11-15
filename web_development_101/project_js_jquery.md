@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Bánk Mészárovits's solution](https://github.com/bmeszarovits/the_grid) | [View in Browser](https://bmeszarovits.github.io/the_grid/)
 * [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/js-etch-a-sketch) | [View in Browser](https://powerful-wildwood-88762.herokuapp.com/)
 * [Stefan P's Solution](https://github.com/spavikevik/etch-a-sketch) | [View in Browser](https://rawgit.com/spavikevik/etch-a-sketch/master/index.html)
 * [Josh Vogel's Solution](https://github.com/j-vogel/jQuery-etch-a-sketch) | [View in Browser](https://rawgit.com/j-vogel/jQuery-etch-a-sketch/master/index.html)
@@ -513,3 +514,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Parker Brown's Solution](https://github.com/parkerjbrown/etch-a-sketch) | [View In Browser](https://rawgit.com/parkerjbrown/etch-a-sketch/master/index.html)
 * [cindygao93's Solution](https://github.com/cindygao93/etch-and-sketch) | [View In Browser](https://cindygao93.github.io/etch-and-sketch/)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/etch_a_sketch) | [View In Browser](https://cdn.rawgit.com/heyalvaro/etch_a_sketch/master/index.html)
+* [Nuno Monteiro's Solution](https://github.com/Nuno1123/Javascript-jQuery_Learning_Project) | [View In Browser](https://github.com/Nuno1123/Javascript-jQuery_Learning_Project/master/index.html)
+* [Daniel Hill's Solution](https://github.com/danielhill13/odin-project/tree/9967ae51e32f2ca6e8d0ba431f1f6396ad15f20b/etch-a-sketch) | [View In Browser] (https://cdn.rawgit.com/danielhill13/odin-project/9967ae51e32f2ca6e8d0ba431f1f6396ad15f20b/etch-a-sketch/index.html)
+* [Luís Antunes' Solution](https://github.com/LuisMAntunes/etch-a-sketch) | [View In Browser] (http://htmlpreview.github.io/?https://github.com/LuisMAntunes/etch-a-sketch/blob/master/index.html)
+* [Jason Mabry's Solution](https://github.com/jmabry111/etchasketch) | [View In Browser] (https://rawgit.com/jmabry111/etchasketch/master/index.html)

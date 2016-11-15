@@ -228,6 +228,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Stefan P's solution](https://github.com/spavikevik/web_server)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/sockets)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_ruby_web)
@@ -296,6 +297,9 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/tree/master/web_server)
 * [Jerry Gao's solution](https://github.com/blackwright/server_browser)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/web/webserver_browser)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-on-the-web)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/web_server_and_browser)
+
 
 
 ## Additional Resources

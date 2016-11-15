@@ -97,6 +97,12 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/serialization/event_manager)
 * [Bishal Shrestha's solution](https://github.com/biiishal/event_manager)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-file-IO-and-serialization-with-ruby/tree/master/event_manager)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/event_manager)
+<<<<<<< HEAD
+* [Joe Himes's solution](https://github.com/deedle42/event_manager.git)
+=======
+* [Kyle Thomson's solution](https://github.com/idynkydnk/event_manager)
+
 
 
 ## Project: Hangman
@@ -230,6 +236,9 @@ You will be building a simple command line Hangman game where one player plays a
 * [Dominik Chomicki's solution](https://github.com/hamstersky/the_odin_project/tree/master/hangman)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/serialization/hangman)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-file-IO-and-serialization-with-ruby/tree/master/hangman)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/hangman)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/hangman)
+
 
 
 ## Additional Resources
