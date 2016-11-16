@@ -33,13 +33,6 @@ describe StaticPagesController do
     end
   end
 
-  describe 'GET studygroups' do
-    it 'renders the study groups page' do
-      get :studygroups
-      expect(response).to render_template(:studygroups)
-    end
-  end
-
   describe 'GET legal' do
     it 'renders the legal page' do
       get :legal
