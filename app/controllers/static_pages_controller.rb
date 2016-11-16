@@ -11,9 +11,6 @@ class StaticPagesController < ApplicationController
   def getting_involved
   end
 
-  def studygroups
-  end
-
   def legal
   end
 
