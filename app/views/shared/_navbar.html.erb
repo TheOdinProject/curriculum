@@ -12,13 +12,7 @@
           <div class="container nav-collapse">
             <ul class="nav pull-right nav-links">
               <li class="top-link"><a href="<%= courses_path %>">Curriculum</a></li>
-
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Social <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><%= link_to "Chat", chat_link %></li>
-                    <li><%= link_to "Study Groups", studygroups_path %></li>
-                  </ul>
+              <li><%= link_to 'Chat', chat_link, class: 'gitter-chat-link' %></li>
 
               <% if user_signed_in? %>
                 <li class="dropdown">
