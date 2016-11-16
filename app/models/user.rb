@@ -57,7 +57,11 @@ class User < ApplicationRecord
   end
 
   def send_confirmation_instructions
-    send_welcome_email(raw_confirmation_token)
+    unless @raw_confirmation_token
+      generate_confirmation_token!
+    end
+
+    send_welcome_email(@raw_confirmation_token)
   end
 
   private
@@ -75,10 +79,6 @@ class User < ApplicationRecord
     else
       super
     end
-  end
-
-  def raw_confirmation_token
-    @raw_confirmation_token ||= generate_confirmation_token!
   end
 
   def send_welcome_email(token)

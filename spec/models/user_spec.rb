@@ -224,10 +224,10 @@ RSpec.describe User do
     let(:confirmation_token) { 'foo' }
 
     before do
+      user.instance_variable_set(:@raw_confirmation_token, confirmation_token)
       allow(user).to receive(:generate_confirmation_token!).
         and_return(confirmation_token)
       allow(user).to receive(:send_welcome_email).with(confirmation_token)
-
     end
 
     it 'does not generate a new confirmation token' do
@@ -243,7 +243,7 @@ RSpec.describe User do
     context 'when raw confimration token is nil' do
       let(:confirmation_token) { nil }
 
-      it 'does not generate a new confirmation token' do
+      it 'does generate a new confirmation token' do
         expect(user).to receive(:generate_confirmation_token!)
         user.send_confirmation_instructions
       end
