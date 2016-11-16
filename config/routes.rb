@@ -25,7 +25,6 @@ devise_for :users,
   get 'cla' => "static_pages#cla"
   get 'tou' => "static_pages#tou"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
-  get 'studygroups' => "static_pages#studygroups"
   get 'sitemap' => 'sitemap#index', :defaults => { :format => 'xml' }
 
   #failure route if github information returns invalid
