@@ -78,6 +78,7 @@ It's time to build an on-screen calculator
 * [Marco the Phoenix's solution](https://github.com/marcsanmi/Learning/tree/master/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Calculator/index.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/onscreen_calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/onscreen_calculator/blob/master/main.html)
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/js-calculator) | [View in browser](https://andela-mpitan.github.io/js-calculator/)
+* [David Chapman's solution](https://github.com/davidchappy/calculator) | [View in browser](http://codepen.io/davidchappy/pen/vyXMvQ)
 
 
 ## Additional Resources
