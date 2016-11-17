@@ -20,9 +20,9 @@ Another reason things get a bit more complicated on the back end is because prog
 
 Because of this, there are many little pieces and parts that you are going to need to get up and running.  Don't be afraid at this point if you don't know or understand what everything is, as you progress it will all become quite clear.
 
-## Why can't I use windows?
+## Why can't I use Windows?
 
-Ok, we get it.. you're very comfortable the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, its you.
+Ok, we get it.. you're very comfortable the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
 
 Techically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
 
