@@ -795,7 +795,7 @@ section = create_or_update_section(
   title_url: "Ruby on the Web".parameterize,
   course_id: course.id,
   position: section_position,
-  description: "This brief section will bridge the gap between what you've been doing on the command line and the wide world of the Internet... how do you send automated Tweets?  How about building a basic web server and browser of your own!"
+  description: "This brief section will bridge the gap between what you've been doing on the command line and the wide world of the Internet... How about building a basic web server and browser of your own!"
 )
 
 lesson_counter += 1
