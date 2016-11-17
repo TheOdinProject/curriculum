@@ -246,6 +246,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [jeff1st's Solution](https://github.com/jeff1st/testing_in_ruby)
 * [Alan Cruse's Solution](https://github.com/ADECruse/project-ruby)
 * [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/learn_ruby)
+* [Carlos Jimenez's Solution](https://github.com/RiverFloater/learn_ruby)
 
 
 ## Additional Resources
