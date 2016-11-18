@@ -804,5 +804,3 @@ Next, make sure your method can handle multiple words:
 * [Kaique "Rique" Borges' solution](https://github.com/riquekaique/ruby-building-blocks/blob/master/substrings.rb)
 * [Siddharth Isaiah's solution](https://github.com/siddharthisaiah/ruby_building_blocks/blob/master/substrings.rb)
 * [Ryan Barnett's solution](https://github.com/RyanDBarnett/Odin-Ruby/blob/master/ruby_building_blocks/substrings/substrings.rb)
-
->>>>>>> upstream/master
