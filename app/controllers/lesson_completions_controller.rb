@@ -15,7 +15,10 @@ class LessonCompletionsController < ApplicationController
   private
 
   def lesson_completion
-    LessonCompletion.where(student_id: current_user.id, lesson_id: @lesson.id).first
+    LessonCompletion.where(
+      student_id: current_user.id,
+      lesson_id: @lesson.id
+    ).first
   end
 
   def new_lesson_completion
