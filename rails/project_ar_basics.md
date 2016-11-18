@@ -118,6 +118,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/micro_reddit)
 * [Voizzzz' solution](https://github.com/voizzzz/microreddit)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * [Afshin's solution](https://github.com/afshinator/micro-reddit)
