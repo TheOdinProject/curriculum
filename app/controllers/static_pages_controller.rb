@@ -1,5 +1,4 @@
 class StaticPagesController < ApplicationController
-
   def home
     @navbar = false
     @is_home_page = true

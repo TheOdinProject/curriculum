@@ -1,8 +1,7 @@
 class UsersController < ApplicationController
-
   before_action :find_user, except: [:index, :send_confirmation_link]
   before_action :authenticate_user!
-  load_and_authorize_resource :only => [:edit, :update]
+  load_and_authorize_resource only: [:edit, :update]
 
   def show
   end
@@ -13,11 +12,12 @@ class UsersController < ApplicationController
   end
 
   def update
-    if @user.update_attributes( user_params )
+    if @user.update_attributes(user_params)
       flash[:success] = 'Your profile was updated successfully'
       redirect_to @user
     else
-      flash.now[:error] = "We could not update your profile. Errors: #{@user.errors.full_messages}"
+      flash.now[:error] = 'We could not update your profile. Errors: ' \
+                          "#{@user.errors.full_messages}"
       render :show
     end
   end
@@ -28,30 +28,24 @@ class UsersController < ApplicationController
 
   def send_confirmation_link
     current_user.send_confirmation_instructions
-    flash[:notice] = 'Confirmation instructions have been sent to your email address!'
+    flash[:notice] = 'Confirmation instructions have been sent ' \
+                     'to your email address!'
     redirect_to request.referer
   end
 
   private
 
   def user_params
-    params.require(:user).permit(
-      :email,
-      :username,
-      :password,
-      :password_confirmation,
-      :legal_agreement,
-      :skype,
-      :screenhero,
-      :facebook,
-      :twitter,
-      :linkedin,
-      :github,
-      :google_plus,
-      :about,
-      :uid,
-      :provider
-    )
+    params
+      .require(:user)
+      .permit(:email, :username,
+              :password, :password_confirmation,
+              :legal_agreement, :skype,
+              :screenhero, :facebook,
+              :twitter, :linkedin,
+              :github, :google_plus,
+              :about, :uid,
+              :provider)
   end
 
   def find_user
