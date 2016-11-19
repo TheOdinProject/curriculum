@@ -96,6 +96,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * Add your solution below this line!
 * [Katherine Marie's Solution](https://github.com/katherinemariexp/google-homepage) | [View in Browser](https://katherinemariexp.github.io/google-homepage)
 * [Juliez83's Solution (Difficult)](https://github.com/Juliez83/google-search-results) | [View in Browser]  (https://juliez83.github.io/google-search-results/) | [Juliez83's Solution (Easy)](https://github.com/Juliez83/google-homepage) | [View in Browser](https://juliez83.github.io/google-homepage/)
+* [Alexander Chalk's Solution](https://github.com/adc17/google-homepage) | [View in Browser] (https://adc17.github.io/google-homepage/)
+* [Juliez83's Solution (Difficult)](https://github.com/Juliez83/google-search-results) | [View in Browser]  (https://juliez83.github.io/google-search-results/) | [Juliez83's Solution (Easy)](https://github.com/Juliez83/google-  homepage) | [View in Browser](https://juliez83.github.io/google-homepage/)
 * [Bánk Mészárovits' solution](https://github.com/bmeszarovits/google-homepage) | [View in Browser](https://bmeszarovits.github.io/google-homepage/)
 * [Sanya Verma's solution](https://github.com/ErisedKT/google-homepage/) | [View in Browser](https://erisedkt.github.io/google-homepage/)
 * [Tamir.H's Solution (Easy)](https://github.com/subcat/google-homepage) | [View in Browser] (https://subcat.github.io/google-homepage/) | ['Difficult' solution] (https://github.com/subcat/google-homepage/tree/master/diff) | [View in browser (difficult)](https://cdn.rawgit.com/subcat/google-homepage/master/diff/index.html)
