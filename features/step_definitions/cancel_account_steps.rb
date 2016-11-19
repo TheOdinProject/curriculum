@@ -5,6 +5,6 @@ end
 
 Then(/^my account should be deleted$/) do
   expect(User.count).to eql(0)
-  expect(page.body).
-    to include('Bye! Your account was successfully cancelled')
+  expect(page.body)
+    .to include('Bye! Your account was successfully cancelled')
 end

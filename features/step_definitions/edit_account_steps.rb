@@ -1,11 +1,9 @@
 Given(/^I am logged in with a omniauth account$/) do
-  @user = FactoryGirl.create(
-            :user,
-            username: 'kevin',
-            email: 'kevin@example.com',
-            provider: 'github',
-            uid: '123545',
-          )
+  @user = FactoryGirl.create(:user,
+                             username: 'kevin',
+                             email: 'kevin@example.com',
+                             provider: 'github',
+                             uid: '123545')
   log_in(@user)
 end
 

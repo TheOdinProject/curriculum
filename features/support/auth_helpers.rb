@@ -1,6 +1,5 @@
 module AuthHelpers
-
-  def log_in user
+  def log_in(user)
     visit root_path
     click_link 'Login'
 
@@ -9,7 +8,6 @@ module AuthHelpers
 
     click_button 'Sign in'
   end
-
 end
 
 World AuthHelpers # include authentication helpers in the World instance

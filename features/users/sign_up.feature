@@ -19,7 +19,7 @@ Feature: Sign up
     Given I am on the homepage
     When I sign up with the email 'random@gmail.com'
     Then I should see 'Welcome! You have signed up successfully.'
-    And 'random@gmail.com' receives an email with 'Getting started with The Odin Project' as the subject
+    And 'random@gmail.com' receives an email with subject 'Getting started with The Odin Project'
     And I should see 'Confirm your email' in the email body
     When I follow 'Click here' in the email
     Then I should see 'Thanks for confirming your email address!'
