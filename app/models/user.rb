@@ -2,32 +2,33 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :omniauthable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
-  validates_uniqueness_of :username,:email
-  validates_presence_of :legal_agreement, :message => "Don't forget the legal stuff!", :on => :create
-  validates :username, :length => { :in => 4..20 }
+  validates_uniqueness_of :username, :email
+  validates_presence_of :legal_agreement,
+                        message: "Don't forget the legal stuff!",
+                        on: :create
+  validates :username, length: { in: 4..20 }
 
-  has_many :lesson_completions, :foreign_key => :student_id
-  has_many :completed_lessons, :through => :lesson_completions, :source => :lesson
+  has_many :lesson_completions, foreign_key: :student_id
+  has_many :completed_lessons, through: :lesson_completions, source: :lesson
 
   def self.by_latest_completion
     User.left_outer_joins(:lesson_completions)
-      .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
-      .group('users.id')
-      .order('latest_completion_date desc nulls last')
+        .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
+        .group('users.id')
+        .order('latest_completion_date desc nulls last')
   end
 
   def completed_lesson?(lesson)
-    self.completed_lessons.include?(lesson)
+    completed_lessons.include?(lesson)
   end
 
   def latest_completed_lesson
-    if last_lesson_completed
-      Lesson.find(last_lesson_completed.lesson_id)
-    end
+    return unless last_lesson_completed
+    Lesson.find(last_lesson_completed.lesson_id)
   end
 
   def lesson_completion_time(lesson)
-    self.lesson_completions.find_by(lesson_id: lesson.id).created_at
+    lesson_completions.find_by(lesson_id: lesson.id).created_at
   end
 
   def last_lesson_completed
@@ -35,20 +36,18 @@ class User < ApplicationRecord
   end
 
   def self.from_omniauth(auth)
-    self.where(auth.slice(:provider, :uid).to_hash).first_or_create(
-      {
-        provider: auth[:provider],
-        uid: auth[:uid],
-        username: auth[:info][:name],
-        email: auth[:info][:email]
-      }
+    where(auth.slice(:provider, :uid).to_hash).first_or_create(
+      provider: auth[:provider],
+      uid: auth[:uid],
+      username: auth[:info][:name],
+      email: auth[:info][:email]
     )
   end
 
   def add_omniauth(auth)
     self.provider ||= auth['provider']
     self.uid ||= auth['uid']
-    self.save
+    save
     self
   end
 
@@ -57,10 +56,7 @@ class User < ApplicationRecord
   end
 
   def send_confirmation_instructions
-    unless @raw_confirmation_token
-      generate_confirmation_token!
-    end
-
+    generate_confirmation_token! unless @raw_confirmation_token
     send_welcome_email(@raw_confirmation_token)
   end
 
@@ -83,7 +79,7 @@ class User < ApplicationRecord
 
   def send_welcome_email(token)
     UserMailer.send_welcome_email_to(self, token).deliver_now!
-    rescue => error
-      logger.error "Error sending welcome email: #{error}"
-    end
+  rescue => error
+    logger.error "Error sending welcome email: #{error}"
+  end
 end

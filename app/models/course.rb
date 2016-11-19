@@ -5,7 +5,7 @@ class Course < ApplicationRecord
   serialize :you_build, Array
 
   has_many :sections
-  has_many :lessons, :through => :sections
+  has_many :lessons, through: :sections
 
   validates_uniqueness_of :position
 

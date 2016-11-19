@@ -1,10 +1,9 @@
 class AdminFlash < ApplicationRecord
-
   validates :message, presence: true
   validates :expires, presence: true
 
   def self.unexpired_messages
-    self.order('created_at desc').where('expires >= ?', Time.now)
+    order('created_at desc').where('expires >= ?', Time.now)
   end
 
   def self.showable_messages(disabled_flash_ids)
