@@ -401,6 +401,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dustin Seright's Solution](https://github.com/dseright/euler_solutions) | [View in Browser] (https://cdn.rawgit.com/dseright/euler_solutions/master/index.html) 
 * [Boscardin's Solution](https://github.com/Boscardin/javascript101.git)
 * [Øistein Haugland's Solution] (https://github.com/oisteinhaugland/euler-problems) | [View in Browser] (https://oisteinhaugland.github.io/euler-problems/)
+* [Yury Tomilin's Solution] (https://github.com/reitzy/project-euler-js)
 
 ## Additional Resources
 
