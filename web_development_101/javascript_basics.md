@@ -388,7 +388,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Christopher Ivan's Solutions](https://github.com/sanada1615/project-euler-solutions)
 * [Behdad Analui's Solutions](https://github.com/banalui/project_euler_1)
 * [N00bG1rl's Solution](https://github.com/N00bG1rl/Euler)
-* [Samuel Langenfeld's Solution] (https://github.com/SamuelLangenfeld/euler-javascript) | [View in Browser](https://htmlpreview.github.io/?https://github.com/SamuelLangenfeld/euler-javascript/blob/master/index.html)
+* [Samuel Langenfeld's Solution](https://github.com/SamuelLangenfeld/euler-javascript) | [View in Browser](https://htmlpreview.github.io/?https://github.com/SamuelLangenfeld/euler-javascript/blob/master/index.html)
 * [Ian Arsenault's Solution](https://github.com/GorgonsMaze/the_odin_project/tree/master/project_euler)
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/project-euler/blob/master/problem_1.js)
 * [Josh Vogel's Solution](https://github.com/j-vogel/project-euler-solutions) | [View in Browser](https://htmlpreview.github.io/?https://github.com/j-vogel/project-euler-solutions/blob/master/index.html)
@@ -398,10 +398,11 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
 * [Stefan P's Solution](https://github.com/spavikevik/javascript-euler)
 * [Lawrence Lawson's Interactive Solution](https://github.com/Zagan202/projecteuler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Zagan202/projecteuler/blob/master/index.html)
-* [Dustin Seright's Solution](https://github.com/dseright/euler_solutions) | [View in Browser] (https://cdn.rawgit.com/dseright/euler_solutions/master/index.html) 
+* [Dustin Seright's Solution](https://github.com/dseright/euler_solutions) | [View in Browser] (https://cdn.rawgit.com/dseright/euler_solutions/master/index.html)
 * [Boscardin's Solution](https://github.com/Boscardin/javascript101.git)
-* [Øistein Haugland's Solution] (https://github.com/oisteinhaugland/euler-problems) | [View in Browser] (https://oisteinhaugland.github.io/euler-problems/)
+* [Øistein Haugland's Solution](https://github.com/oisteinhaugland/euler-problems) | [View in Browser] (https://oisteinhaugland.github.io/euler-problems/)
 * [Yury Tomilin's Solution] (https://github.com/reitzy/project-euler-js)
+* [Oliver Potter's Solution](https://github.com/ol4er/euler/blob/master/EULER1.JS)
 
 ## Additional Resources
 
