@@ -8,7 +8,7 @@ RSpec.describe User do
       legal_agreement: 'true',
       password: 'foobar',
       provider: provider,
-      uid: '',
+      uid: ''
     )
   }
   let(:provider) { '' }
@@ -16,28 +16,38 @@ RSpec.describe User do
   let(:lesson_completions) {
     [first_lesson_completion, second_lesson_completion]
   }
+
   let(:first_lesson_completion) {
-    double('LessonCompletion', student_id: 1, created_at: DateTime.new(2016,11,11), lesson_id: 1)
+    double('LessonCompletion',
+           student_id: 1,
+           created_at: DateTime.new(2016, 11, 11),
+           lesson_id: 1)
   }
+
   let(:second_lesson_completion) {
-     double('LessonCompletion', student_id: 1, created_at: DateTime.new(2016,11,8), lesson_id: 2)
-   }
-   let(:completed_lessons) {
-     [first_lesson_completion]
+    double('LessonCompletion',
+           student_id: 1,
+           created_at: DateTime.new(2016, 11, 8),
+           lesson_id: 2)
   }
+
+  let(:completed_lessons) { [first_lesson_completion] }
 
   before do
     allow(user).to receive(:lesson_completions).and_return(lesson_completions)
     allow(user).to receive(:completed_lessons).and_return(completed_lessons)
     allow(Lesson).to receive(:find).with(2).and_return(second_lesson_completion)
 
-    allow(lesson_completions).to receive(:order).with(created_at: :asc).
-      and_return(lesson_completions)
+    allow(lesson_completions).to receive(:order).with(created_at: :asc)
+      .and_return(lesson_completions)
   end
 
   it { is_expected.to validate_uniqueness_of(:username) }
-  it { is_expected.to validate_presence_of(:legal_agreement).
-      with_message("Don't forget the legal stuff!") }
+  it do
+    is_expected.to validate_presence_of(:legal_agreement)
+      .with_message("Don't forget the legal stuff!")
+  end
+
   it { is_expected.to validate_length_of(:username) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completed_lessons) }
@@ -47,15 +57,15 @@ RSpec.describe User do
       double(
         'User',
         id: 1,
-        lesson_completions: [completed_lesson],
+        lesson_completions: [completed_lesson]
       )
     }
 
     let(:completed_lesson) {
-       double(
+      double(
         'LessonCompletion',
         student_id: 1,
-        created_at: DateTime.new(2016,11,7),
+        created_at: DateTime.new(2016, 11, 7)
       )
     }
 
@@ -63,7 +73,7 @@ RSpec.describe User do
       double(
         'User',
         id: 2,
-        lesson_completions: [second_completed_lesson],
+        lesson_completions: [second_completed_lesson]
       )
     }
 
@@ -71,29 +81,30 @@ RSpec.describe User do
       double(
         'LessonCompletion',
         student_id: 2,
-        created_at: DateTime.new(2016,11,10),
+        created_at: DateTime.new(2016, 11, 10)
       )
     }
+
     let(:users_completed_lessons) { double('ActiveRecord::Relation') }
     let(:users_by_last_completed_lesson) { double('ActiveRecord::Relation') }
     let(:grouped_by_users) { double('ActiveRecord::Relation') }
 
     before do
-      allow(User).to receive(:left_outer_joins).
-        with(:lesson_completions).
-        and_return(users_completed_lessons)
+      allow(User).to receive(:left_outer_joins)
+        .with(:lesson_completions)
+        .and_return(users_completed_lessons)
 
-      allow(users_completed_lessons).to receive(:select).
-        with('max(lesson_completions.created_at) as latest_completion_date, users.*').
-        and_return(users_by_last_completed_lesson)
+      allow(users_completed_lessons).to receive(:select)
+        .with('max(lesson_completions.created_at) as latest_completion_date, users.*')
+        .and_return(users_by_last_completed_lesson)
 
-      allow(users_by_last_completed_lesson).to receive(:group).with('users.id').
-        and_return(grouped_by_users)
+      allow(users_by_last_completed_lesson).to receive(:group)
+        .with('users.id')
+        .and_return(grouped_by_users)
 
-
-      allow(grouped_by_users).to receive(:order).
-        with('latest_completion_date desc nulls last').
-        and_return([second_user, first_user])
+      allow(grouped_by_users).to receive(:order)
+        .with('latest_completion_date desc nulls last')
+        .and_return([second_user, first_user])
     end
 
     it 'returns users ordered by thier latest lesson completion' do
@@ -107,7 +118,6 @@ RSpec.describe User do
     end
 
     context 'when the passed in lesson hasnt been completed' do
-
       it 'returns false' do
         expect(user.completed_lesson?(second_lesson_completion)).to eql(false)
       end
@@ -132,13 +142,13 @@ RSpec.describe User do
     let(:lesson) { double('Lesson', id: 1) }
 
     before do
-      allow(lesson_completions).to receive(:find_by).with(lesson_id: 1).
-        and_return(first_lesson_completion)
+      allow(lesson_completions).to receive(:find_by).with(lesson_id: 1)
+        .and_return(first_lesson_completion)
     end
 
     it 'returns the time of the latest completed lesson' do
-      expect(user.lesson_completion_time(lesson)).
-        to eql(DateTime.new(2016,11,11))
+      expect(user.lesson_completion_time(lesson))
+        .to eql(DateTime.new(2016, 11, 11))
     end
   end
 
@@ -155,35 +165,38 @@ RSpec.describe User do
         username: 'kevin',
         email: 'kevin@email.com',
         provider: 'github',
-        uid: '123',
+        uid: '123'
       )
     }
+
     let(:user_details) {
       {
         provider: 'github',
         uid: '123',
         username: 'kevin',
-        email: 'kevin@example.com',
+        email: 'kevin@example.com'
       }
     }
+
     let(:auth) {
       {
         provider: 'github',
         uid: '123',
-        :info => {
+        info: {
           name: 'kevin',
-          email: 'kevin@example.com',
+          email: 'kevin@example.com'
         }
       }
     }
 
     before do
-      allow(user).to receive(:where).
-        with({provider: 'github', uid: '123' }).
-        and_return(user)
+      allow(user).to receive(:where)
+        .with(provider: 'github', uid: '123')
+        .and_return(user)
 
-      allow(user).to receive(:first_or_create).
-        with(user_details).and_return(user)
+      allow(user).to receive(:first_or_create)
+        .with(user_details)
+        .and_return(user)
     end
 
     it 'returns the user' do
@@ -206,7 +219,6 @@ RSpec.describe User do
   end
 
   describe '#password_required' do
-
     it 'returns true' do
       expect(user.password_required?).to eql(true)
     end
@@ -225,8 +237,8 @@ RSpec.describe User do
 
     before do
       user.instance_variable_set(:@raw_confirmation_token, confirmation_token)
-      allow(user).to receive(:generate_confirmation_token!).
-        and_return(confirmation_token)
+      allow(user).to receive(:generate_confirmation_token!)
+        .and_return(confirmation_token)
       allow(user).to receive(:send_welcome_email).with(confirmation_token)
     end
 

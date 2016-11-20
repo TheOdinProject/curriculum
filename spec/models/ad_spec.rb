@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe Ad do
+RSpec.describe Ad do
   describe '.show_ads?' do
     it 'shows the ad' do
       expect(Ad.show_ads?).to eq(true)
