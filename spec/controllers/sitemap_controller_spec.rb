@@ -1,7 +1,6 @@
 require 'rails_helper'
 
-describe SitemapController do
-
+RSpec.describe SitemapController do
   describe 'GET #index' do
     let(:static_pages_urls) {
       [root_url, about_url, contact_url, faq_url, login_url, signup_url]

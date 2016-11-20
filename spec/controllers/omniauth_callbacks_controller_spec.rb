@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe OmniauthCallbacksController, :type => :controller do
+RSpec.describe OmniauthCallbacksController, type: :controller do
   let(:user_signed_in?) { true }
   let(:user) { double('User') }
   let(:auth) { { provider: 'github', uid: '123' } }
@@ -9,7 +9,7 @@ describe OmniauthCallbacksController, :type => :controller do
     {
       user: user,
       flash_type: :notice,
-      flash_message: 'Linked Github to your account',
+      flash_message: 'Linked Github to your account'
     }
   }
   let(:new_or_existing_omniauth_user) { double('NewOrExistingOmniauthUser') }
@@ -19,35 +19,34 @@ describe OmniauthCallbacksController, :type => :controller do
       username: 'kevin',
       email: 'kevin@example.com',
       uid: '123',
-      provider: 'github',
+      provider: 'github'
     }
   }
 
   before do
-    request.env["devise.mapping"] = Devise.mappings[:user]
-    request.env["omniauth.auth"] = OmniAuth.config.mock_auth[:github]
+    request.env['devise.mapping'] = Devise.mappings[:user]
+    request.env['omniauth.auth'] = OmniAuth.config.mock_auth[:github]
 
-    allow(controller).to receive(:user_signed_in?).
-      and_return(user_signed_in?)
+    allow(controller).to receive(:user_signed_in?)
+      .and_return(user_signed_in?)
 
-    allow(controller).to receive(:current_user).
-      and_return(user)
+    allow(controller).to receive(:current_user)
+      .and_return(user)
 
-    allow(LinkOmniauth).to receive(:new).with(user, auth).
-      and_return(link_omniauth)
+    allow(LinkOmniauth).to receive(:new).with(user, auth)
+      .and_return(link_omniauth)
 
-    allow(link_omniauth).to receive(:create).
-      and_return(link_omniauth_attributes)
+    allow(link_omniauth).to receive(:create)
+      .and_return(link_omniauth_attributes)
 
-    allow(NewOrExistingOmniauthUser).to receive(:new).with(auth).
-      and_return(new_or_existing_omniauth_user)
+    allow(NewOrExistingOmniauthUser).to receive(:new).with(auth)
+      .and_return(new_or_existing_omniauth_user)
 
     allow(user).to receive(:new_record?).and_return(new_user?)
   end
 
   describe 'GET github' do
     context 'when user is signed in' do
-
       it 'displays successful link flash' do
         get :github
         expect(flash[:notice]).to eql('Linked Github to your account')
@@ -65,16 +64,14 @@ describe OmniauthCallbacksController, :type => :controller do
         {
           user: user,
           flash_type: :none,
-          flash_message: '',
+          flash_message: ''
         }
       }
-      let(:user) {
-        double('User', attributes: user_attributes )
-      }
+      let(:user) { double('User', attributes: user_attributes) }
 
       before do
-        allow(new_or_existing_omniauth_user).to receive(:create).
-          and_return(new_user_attributtes)
+        allow(new_or_existing_omniauth_user).to receive(:create)
+          .and_return(new_user_attributtes)
       end
 
       it 'displays new user flash' do
@@ -106,8 +103,8 @@ describe OmniauthCallbacksController, :type => :controller do
       let(:user) { FactoryGirl.build(:user) }
 
       before do
-        allow(new_or_existing_omniauth_user).to receive(:create).
-          and_return(existing_user_attributtes)
+        allow(new_or_existing_omniauth_user).to receive(:create)
+          .and_return(existing_user_attributtes)
       end
 
       it 'displays existing user flash' do
@@ -117,13 +114,12 @@ describe OmniauthCallbacksController, :type => :controller do
 
       it 'redirects to courses page' do
         get :github
-        expect(response).to redirect_to(courses_path(:ref => 'login'))
+        expect(response).to redirect_to(courses_path(ref: 'login'))
       end
     end
   end
 
   describe 'GET failure' do
-
     it 'displays the failured omniauth flash' do
       get :failure
       expect(flash[:alert]).to eql('Authentication failed.')

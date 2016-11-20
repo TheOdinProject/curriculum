@@ -4,8 +4,7 @@ RSpec.describe CoursesController do
   let(:courses) { [course, course] }
   let(:course) { double('Course', id: 'abc123') }
 
-  describe "GET index" do
-
+  describe 'GET index' do
     before do
       allow(Course).to receive(:order).with(position: :asc).and_return(courses)
     end
@@ -22,7 +21,6 @@ RSpec.describe CoursesController do
   end
 
   describe 'GET show' do
-
     before do
       allow(Course).to receive(:friendly).and_return(course)
       allow(course).to receive(:find).with('abc123').and_return(course)
