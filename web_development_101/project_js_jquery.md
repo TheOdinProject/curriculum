@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/sketch-pad) | [View in Browser](https://nicolayd.github.io/sketch-pad/)
 * [Bánk Mészárovits's solution](https://github.com/bmeszarovits/the_grid) | [View in Browser](https://bmeszarovits.github.io/the_grid/)
 * [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/js-etch-a-sketch) | [View in Browser](https://powerful-wildwood-88762.herokuapp.com/)
 * [Stefan P's Solution](https://github.com/spavikevik/etch-a-sketch) | [View in Browser](https://rawgit.com/spavikevik/etch-a-sketch/master/index.html)
