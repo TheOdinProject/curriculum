@@ -8,7 +8,10 @@ describe ':curriculum' do
   end
 
   describe 'curriculum:update_content' do
-    let!(:lesson) { FactoryGirl.create(:lesson, url: '/README.md', content: nil) }
+    let!(:lesson) do
+      FactoryGirl.create(:lesson, url: '/README.md', content: nil)
+    end
+
     let(:curriculum_update_content) do
       Rake::Task['curriculum:update_content'].reenable
 

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe LinkOmniauth, :type => :service do
+RSpec.describe LinkOmniauth, type: :service do
   subject(:link_omniauth) { LinkOmniauth.new(user, auth) }
 
   let(:user) { double('User') }
@@ -8,8 +8,8 @@ RSpec.describe LinkOmniauth, :type => :service do
   let(:added_omniauth?) { true }
 
   before do
-    allow(user).to receive(:add_omniauth).with(auth).
-      and_return(added_omniauth?)
+    allow(user).to receive(:add_omniauth).with(auth)
+      .and_return(added_omniauth?)
   end
 
   describe '#create' do
@@ -17,7 +17,7 @@ RSpec.describe LinkOmniauth, :type => :service do
       {
         user: user,
         flash_type: :notice,
-        flash_message: 'Successfully linked Github to your account',
+        flash_message: 'Successfully linked Github to your account'
       }
     }
 
@@ -31,7 +31,7 @@ RSpec.describe LinkOmniauth, :type => :service do
         {
           user: user,
           flash_type: :error,
-          flash_message: "We couldn't link Github to your account",
+          flash_message: "We couldn't link Github to your account"
         }
       }
 

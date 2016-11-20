@@ -1,17 +1,19 @@
 require 'rails_helper'
 
-describe LessonsHelper do
-
+RSpec.describe LessonsHelper do
   describe '#lesson_on_github' do
+    let(:root) { 'https://github.com/TheOdinProject/curriculum/tree/master' }
+    let(:lesson_url) { '/web_development_101/jquery_basics.md' }
+
     it 'returns a url to the lesson on github' do
-      expect(lesson_on_github('/web_development_101/jquery_basics.md')).
-        to eql('https://github.com/TheOdinProject/curriculum/tree/master/web_development_101/jquery_basics.md')
+      expect(lesson_on_github(lesson_url)).to eql(root + lesson_url)
     end
   end
 
   describe '#url_format' do
     it 'returns url with multiple words' do
-      expect(url_format('What a Web Developer Does')).to eq 'What+a+Web+Developer+Does'
+      expect(url_format('What a Web Developer Does'))
+        .to eq 'What+a+Web+Developer+Does'
     end
 
     it 'returns url with one word' do

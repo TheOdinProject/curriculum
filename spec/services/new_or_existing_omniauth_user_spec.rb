@@ -18,13 +18,13 @@ RSpec.describe NewOrExistingOmniauthUser do
       {
         user: user,
         flash_type: :notice,
-        flash_message: 'Thanks for logging in with Github!',
+        flash_message: 'Thanks for logging in with Github!'
       }
     }
 
     it 'returns attributes for signing in existing omniauth user' do
-      expect(new_or_existing_omniauth_user.create).
-        to eql(existing_user_attributes)
+      expect(new_or_existing_omniauth_user.create)
+        .to eql(existing_user_attributes)
     end
 
     context 'when user does not exist in the database' do
@@ -33,7 +33,7 @@ RSpec.describe NewOrExistingOmniauthUser do
         {
           user: user,
           flash_type: :none,
-          flash_message: '',
+          flash_message: ''
         }
       }
 

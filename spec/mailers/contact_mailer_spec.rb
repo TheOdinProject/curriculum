@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe ContactMailer, type: :mailer do
   describe '#suggestion_email' do
     let(:suggestion_email) {
-      ContactMailer.suggestion_email( 'hello', '/home', 'kevin@example.com')
+      ContactMailer.suggestion_email('hello', '/home', 'kevin@example.com')
     }
 
     it 'renders the correct subject' do
@@ -15,8 +15,7 @@ RSpec.describe ContactMailer, type: :mailer do
     end
 
     it 'sends from the correct email' do
-      expect(suggestion_email.from).
-        to eql(['admin@theodinproject.com'])
+      expect(suggestion_email.from).to eql(['admin@theodinproject.com'])
     end
 
     it 'renders the correct suggestion text' do

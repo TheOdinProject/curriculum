@@ -1,6 +1,5 @@
 FactoryGirl.define do
-
-  factory :user, :aliases => [:creator] do
+  factory :user, aliases: [:creator] do
     sequence :username do |n|
       "foobar#{n}"
     end
@@ -10,7 +9,7 @@ FactoryGirl.define do
 
     password 'foobar'
     legal_agreement true
-    confirmed_at Time.now - 5000000
+    confirmed_at Time.now - 5_000_000
   end
 
   factory :lesson do
