@@ -403,7 +403,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/euler-problems) | [View in Browser] (https://oisteinhaugland.github.io/euler-problems/)
 * [Yury Tomilin's Solution] (https://github.com/reitzy/project-euler-js)
 * [Oliver Potter's Solution](https://github.com/ol4er/euler/blob/master/EULER1.JS)
-
+*Aarti's Solution to 1  & 2 https://github.com/aarti27/javascript/blob/master/euler1.js
+https://github.com/aarti27/javascript/blob/master/euler2.js
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
