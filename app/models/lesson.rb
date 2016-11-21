@@ -1,12 +1,12 @@
 class Lesson < ApplicationRecord
   extend FriendlyId
 
-  friendly_id :slug_canidates, use: [:slugged, :finders]
+  friendly_id :slug_candidates, use: [:slugged, :finders]
 
   belongs_to :section
-  has_one :course, :through => :section
-  has_many :lesson_completions, :dependent => :destroy
-  has_many :completing_users, :through => :lesson_completions, :source => :student
+  has_one :course, through: :section
+  has_many :lesson_completions, dependent: :destroy
+  has_many :completing_users, through: :lesson_completions, source: :student
 
   validates :position, uniqueness: true
   validates :content, presence: true, on: :update
@@ -24,9 +24,9 @@ class Lesson < ApplicationRecord
   end
 
   def import_content_from_github
-      update(content: decoded_content) if content_needs_updated
-    rescue Octokit::Error => errors
-      failed_to_import_message
+    update(content: decoded_content) if content_needs_updated
+  rescue Octokit::Error => errors
+    failed_to_import_message
   end
 
   private
@@ -56,7 +56,7 @@ class Lesson < ApplicationRecord
     FindLesson.new(self)
   end
 
-  def slug_canidates
+  def slug_candidates
     [
       :title,
       [:title, course_title]
@@ -64,6 +64,6 @@ class Lesson < ApplicationRecord
   end
 
   def course_title
-    course.title if course
+    course&.title
   end
 end
