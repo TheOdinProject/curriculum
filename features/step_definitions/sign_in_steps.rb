@@ -1,15 +1,15 @@
 Given(/^I have a omniauth account$/) do
-FactoryGirl.create(
+  FactoryGirl.create(
     :user,
     username: 'kevin',
     email: 'kevin@example.com',
     provider: 'github',
-    uid: '123545',
+    uid: '123545'
   )
 end
 
 When(/^I go to the sign in page$/) do
-  visit('/login')
+  visit login_path
 end
 
 When(/^click the sign in with github button$/) do
@@ -40,5 +40,6 @@ When(/^I sign in$/) do
 end
 
 Then(/^I should see a message reminding me to confirm my email address$/) do
-  expect(page).to have_content("Didn't receive confirmation instructions, or need them again?")
+  expect(page).to have_content("Didn't receive confirmation instructions, "\
+                     'or need them again?')
 end

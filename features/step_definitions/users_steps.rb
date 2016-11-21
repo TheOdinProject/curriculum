@@ -7,8 +7,8 @@ Given(/^I click the sign up with Github Button$/) do
 end
 
 Given(/^I verify my details$/) do
-  fill_in('user_username', :with => "Kevin")
-  fill_in('user_email', :with => "kevin@email.com")
+  fill_in('user_username', with: 'Kevin')
+  fill_in('user_email', with: 'kevin@email.com')
   check('user[legal_agreement]')
 end
 
@@ -33,10 +33,10 @@ Then(/^I should be redirected to the courses page$/) do
 end
 
 Given(/^I am on the homepage$/) do
- visit root_url
+  visit root_url
 end
 
-When /^I visit the signup page$/ do
+When(/^I visit the signup page$/) do
   click_link 'Login'
   click_link 'Sign up'
 end
@@ -51,28 +51,28 @@ When(/^I sign up with the email '([^']+)'$/) do |email|
   click_button 'Sign up'
 end
 
-When /^I follow '([^']+)' in the email$/ do |link|
+When(/^I follow '([^']+)' in the email$/) do |link|
   current_email.click_link link
 end
 
-When /^I try to sign up without an email$/ do
+When(/^I try to sign up without an email$/) do
   step 'I visit the signup page'
   click_button 'Sign up'
 end
 
-Then /^'([^']+)' receives an email with '([^']+)' as the subject/ do |address, subject|
+Then(/'([^']+)' receives an email with subject '([^']+)'/) do |address, subject|
   open_email(address)
   expect(current_email.subject).to eq(subject)
 end
 
-Then /^I should see '([^']+)' in the email body$/ do |content|
+Then(/^I should see '([^']+)' in the email body$/) do |content|
   expect(current_email.body).to include(content)
 end
 
-Then /^I should not able to sign up$/ do
+Then(/^I should not able to sign up$/) do
   expect(page).to have_content('Please review the problems below')
 end
 
-Then /^I should see '([^']+)'$/ do |content|
+Then(/^I should see '([^']+)'$/) do |content|
   expect(page).to have_content(content)
 end
