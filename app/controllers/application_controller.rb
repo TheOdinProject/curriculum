@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
   after_action :store_redirect_path
+  protect_from_forgery
 
   rescue_from CanCan::AccessDenied do
     respond_to do |format|
@@ -10,8 +11,6 @@ class ApplicationController < ActionController::Base
       end
     end
   end
-
-  protect_from_forgery
 
   def after_sign_out_path_for(_resource_or_scope)
     home_path(ref: 'logout')
@@ -40,9 +39,14 @@ class ApplicationController < ActionController::Base
       .permit(:sign_up, keys: [:username, :legal_agreement])
 
     devise_parameter_sanitizer.permit(:account_update) do |u|
-      u.permit(:email, :username,
-               :current_password, :password,
-               :password_confirmation, :about)
+      u.permit(
+        :email,
+        :username,
+        :current_password,
+        :password,
+        :password_confirmation,
+        :about,
+      )
     end
   end
 

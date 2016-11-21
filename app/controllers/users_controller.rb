@@ -16,8 +16,7 @@ class UsersController < ApplicationController
       flash[:success] = 'Your profile was updated successfully'
       redirect_to @user
     else
-      flash.now[:error] = 'We could not update your profile. Errors: ' \
-                          "#{@user.errors.full_messages}"
+      flash.now[:error] = "We could not update your profile. Errors: #{@user.errors.full_messages}"
       render :show
     end
   end
@@ -28,8 +27,7 @@ class UsersController < ApplicationController
 
   def send_confirmation_link
     current_user.send_confirmation_instructions
-    flash[:notice] = 'Confirmation instructions have been sent ' \
-                     'to your email address!'
+    flash[:notice] = 'Confirmation instructions have been sent to your email address!'
     redirect_to request.referer
   end
 
@@ -38,14 +36,23 @@ class UsersController < ApplicationController
   def user_params
     params
       .require(:user)
-      .permit(:email, :username,
-              :password, :password_confirmation,
-              :legal_agreement, :skype,
-              :screenhero, :facebook,
-              :twitter, :linkedin,
-              :github, :google_plus,
-              :about, :uid,
-              :provider)
+      .permit(
+        :email,
+        :username,
+        :password,
+        :password_confirmation,
+        :legal_agreement,
+        :skype,
+        :screenhero,
+        :facebook,
+        :twitter,
+        :linkedin,
+        :github,
+        :google_plus,
+        :about,
+        :uid,
+        :provider,
+      )
   end
 
   def find_user

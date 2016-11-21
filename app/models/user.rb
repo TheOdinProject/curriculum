@@ -3,9 +3,7 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable, :confirmable
 
   validates_uniqueness_of :username, :email
-  validates_presence_of :legal_agreement,
-                        message: "Don't forget the legal stuff!",
-                        on: :create
+  validates_presence_of :legal_agreement, message: "Don't forget the legal stuff!", on: :create
   validates :username, length: { in: 4..20 }
 
   has_many :lesson_completions, foreign_key: :student_id
