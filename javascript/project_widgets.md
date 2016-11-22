@@ -56,6 +56,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/javascript/image-carousel) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/image-carousel/carousel.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-slider/blob/master/index.html)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/jquery-slider) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/jquery-slider/blob/master/index.html)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/js-carousel) | [View in browser](https://davidchappy.github.io/image-carousel/index.html)
 
 
 ## Additional Resources
