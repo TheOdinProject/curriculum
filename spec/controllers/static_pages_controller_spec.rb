@@ -1,7 +1,6 @@
 require 'rails_helper'
 
-describe StaticPagesController do
-
+RSpec.describe StaticPagesController do
   describe 'GET home' do
     it 'renders the home page' do
       get :home
@@ -66,9 +65,9 @@ describe StaticPagesController do
     let(:user_signed_in?) { true }
 
     before do
-      allow(ContactMailer).to receive(:suggestion_email).
-        with(suggestion_body, path_name, user_identifier).
-        and_return(contact_mailer)
+      allow(ContactMailer).to receive(:suggestion_email)
+        .with(suggestion_body, path_name, user_identifier)
+        .and_return(contact_mailer)
 
       allow(controller).to receive(:user_signed_in?).and_return(user_signed_in?)
       allow(controller).to receive(:current_user).and_return(current_user)
@@ -91,13 +90,12 @@ describe StaticPagesController do
       it 'will not send the suggestion email' do
         post :suggestion, params: params
         expect(contact_mailer).not_to have_received(:deliver_now)
-
       end
     end
 
     context 'when the user is not signed in' do
       let(:user_signed_in?) { false }
-      let(:user_identifier) { 'Anonymous'}
+      let(:user_identifier) { 'Anonymous' }
 
       it 'will use < no logged in > for the user identifier' do
         post :suggestion, params: params

@@ -9,7 +9,7 @@ RSpec.describe Lesson do
       is_project: false,
       url: '/README.md',
       content: nil,
-      slug: 'test-lesson',
+      slug: 'test-lesson'
     )
   }
   let(:course) { double('Course', title: 'web_dev_101') }
@@ -53,9 +53,9 @@ RSpec.describe Lesson do
 
     before do
       allow(lesson).to receive(:position).and_return(3)
-      allow(lessons).to receive(:where).
-        with("position <= ?", 3).
-        and_return(appropiate_lessons)
+      allow(lessons).to receive(:where)
+        .with('position <= ?', 3)
+        .and_return(appropiate_lessons)
     end
 
     it 'returns the position of the lesson in the section' do
@@ -70,7 +70,6 @@ RSpec.describe Lesson do
     end
 
     context 'when the lesson content has not changed' do
-
       it 'does not update the lesson content' do
         VCR.use_cassette('lesson_content') { lesson.import_content_from_github }
         expect(lesson).not_to receive(:update)
@@ -82,15 +81,15 @@ RSpec.describe Lesson do
       let(:logger) { double('Logger') }
 
       before do
-        allow(Octokit).to receive(:contents).
-          with('theodinproject/curriculum', path: '/README.md').
-          and_raise(Octokit::Error)
+        allow(Octokit).to receive(:contents)
+          .with('theodinproject/curriculum', path: '/README.md')
+          .and_raise(Octokit::Error)
 
         allow(lesson).to receive(:errors).and_return('there was a problem')
         allow(lesson).to receive(:logger).and_return(logger)
-        
-        allow(logger).to receive(:error).
-          with("Failed to import \"test_lesson\" content: there was a problem")
+
+        allow(logger).to receive(:error)
+          .with('Failed to import "test_lesson" content: there was a problem')
       end
 
       it 'returns false' do
@@ -98,10 +97,10 @@ RSpec.describe Lesson do
       end
 
       it 'logs a failure message' do
-        expect(logger).to receive(:error).
-          with("Failed to import \"test_lesson\" content: there was a problem")
-          lesson.import_content_from_github
-        end
+        expect(logger).to receive(:error)
+          .with('Failed to import "test_lesson" content: there was a problem')
+        lesson.import_content_from_github
+      end
     end
   end
 end

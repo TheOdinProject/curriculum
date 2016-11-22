@@ -1,7 +1,6 @@
-require "rails_helper"
+require 'rails_helper'
 
 RSpec.describe UserMailer, type: :mailer do
-
   describe '#send_welcome_email_to' do
     subject(:welcome_email) { UserMailer.send_welcome_email_to(user, token) }
 
@@ -13,8 +12,7 @@ RSpec.describe UserMailer, type: :mailer do
     let(:lessons) { [lesson] }
 
     before do
-      allow(Lesson).to receive(:order).with(position: :asc).
-        and_return(lessons)
+      allow(Lesson).to receive(:order).with(position: :asc).and_return(lessons)
     end
 
     it 'renders the correct sender address' do
@@ -38,8 +36,8 @@ RSpec.describe UserMailer, type: :mailer do
     end
 
     it 'renders the correct subject' do
-      expect(welcome_email.subject).
-        to eql('Getting started with The Odin Project')
+      expect(welcome_email.subject)
+        .to eql('Getting started with The Odin Project')
     end
 
     it 'sends the email to the correct address' do

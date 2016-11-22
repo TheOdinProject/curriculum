@@ -1,7 +1,6 @@
 require 'rails_helper'
 
-describe ApplicationHelper do
-
+RSpec.describe ApplicationHelper do
   describe '#chat_link' do
     it 'returns the chat url' do
       expect(chat_link).to eq('https://gitter.im/TheOdinProject/theodinproject')
@@ -25,8 +24,8 @@ describe ApplicationHelper do
     let(:markdown_converter) { double('MarkdownConverter') }
 
     before do
-      allow(MarkdownConverter).to receive(:new).with('Some Markdown').
-        and_return(markdown_converter)
+      allow(MarkdownConverter).to receive(:new).with('Some Markdown')
+        .and_return(markdown_converter)
 
       allow(markdown_converter).to receive(:as_html)
     end

@@ -9,7 +9,7 @@ RSpec.describe UserDecorator do
       twitter: user_twitter,
       facebook: user_facebook,
       linkedin: user_linkedin,
-      github: user_github,
+      github: user_github
     )
   }
   let(:user_twitter) { 'odinstudent' }
@@ -18,18 +18,17 @@ RSpec.describe UserDecorator do
   let(:user_github) { 'odinstudent' }
 
   describe '#twitter_url' do
-
     it 'returns the users twitter url' do
-      expect(user_decorator.twitter_url).
-        to eql('http://www.twitter.com/odinstudent')
+      expect(user_decorator.twitter_url)
+        .to eql('http://www.twitter.com/odinstudent')
     end
 
     context 'when the twitter handle starts with @' do
       let(:user_twitter) { '@odinstudent' }
 
       it 'returns the twitter url correctly formatted' do
-        expect(user_decorator.twitter_url).
-          to eql('http://www.twitter.com/odinstudent')
+        expect(user_decorator.twitter_url)
+          .to eql('http://www.twitter.com/odinstudent')
       end
     end
 
@@ -43,10 +42,9 @@ RSpec.describe UserDecorator do
   end
 
   describe '#facebook_url' do
-
     it 'returns the users formatted facebook url' do
-      expect(user_decorator.facebook_url).
-        to eql('https://www.facebook.com/odinstudent')
+      expect(user_decorator.facebook_url)
+        .to eql('https://www.facebook.com/odinstudent')
     end
 
     context 'when user does not have a facebook username' do
@@ -59,10 +57,9 @@ RSpec.describe UserDecorator do
   end
 
   describe '#linkedin_url' do
-
     it 'returns the users formatted linkedin url' do
-      expect(user_decorator.linkedin_url).
-        to eql('https://www.linkedin.com/in/odinstudent')
+      expect(user_decorator.linkedin_url)
+        .to eql('https://www.linkedin.com/in/odinstudent')
     end
 
     context 'when user does not have a linkedin username' do
@@ -76,16 +73,16 @@ RSpec.describe UserDecorator do
 
   describe '#github_url' do
     it 'returns the users github url' do
-      expect(user_decorator.github_url).
-        to eql('http://www.github.com/odinstudent')
+      expect(user_decorator.github_url)
+        .to eql('http://www.github.com/odinstudent')
     end
 
     context 'when the github username starts with http' do
       let(:user_github) { 'http://www.github.com/odinstudent' }
 
       it 'returns the twitter url correctly formatted' do
-        expect(user_decorator.github_url).
-          to eql('http://www.github.com/odinstudent')
+        expect(user_decorator.github_url)
+          .to eql('http://www.github.com/odinstudent')
       end
     end
 

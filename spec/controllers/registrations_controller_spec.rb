@@ -1,9 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe RegistrationsController, :type => :controller do
-
+RSpec.describe RegistrationsController, type: :controller do
   before do
-    request.env["devise.mapping"] = Devise.mappings[:user]
+    request.env['devise.mapping'] = Devise.mappings[:user]
   end
 
   describe 'POST create' do
@@ -13,7 +12,7 @@ RSpec.describe RegistrationsController, :type => :controller do
         email: 'kevin@example.com',
         password: 'foobar1',
         password_confirmation: 'foobar1',
-        legal_agreement: true,
+        legal_agreement: true
       }
     }
     let(:session) { {} }
@@ -28,11 +27,12 @@ RSpec.describe RegistrationsController, :type => :controller do
     end
 
     context 'when a previous url is stored in the session' do
-      let(:session) { { previous_url: '/home' } }
+      let(:home_url) { '/home' }
+      let(:session) { { previous_url: home_url } }
 
       it 'redirects to the home path' do
         post :create, params: { user: user_attributes }
-        expect(response).to redirect_to('/home')
+        expect(response).to redirect_to(home_url)
       end
     end
   end
@@ -48,8 +48,9 @@ RSpec.describe RegistrationsController, :type => :controller do
     end
 
     it 'redirects to the courses path' do
-      put :update, params: { id: user.id, user: { about: 'This is me', current_password: user.password } }
-      expect(response).to redirect_to('/courses')
+      put :update, params: { id: user.id, user:
+        { about: 'This is me', current_password: user.password } }
+      expect(response).to redirect_to(courses_path)
     end
   end
 end

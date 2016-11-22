@@ -8,7 +8,7 @@ RSpec.describe SmartRedirect do
       'Request',
       fullpath: fullpath,
       request_method: request_method,
-      xhr?: ajax_request?,
+      xhr?: ajax_request?
     )
   }
   let(:session) { { previous_url: '' } }
@@ -19,7 +19,7 @@ RSpec.describe SmartRedirect do
   describe '#path' do
     it 'returns a safe path' do
       smart_redirect.set_redirect_path
-      expect(session[:previous_url]).to eql('/courses' )
+      expect(session[:previous_url]).to eql(fullpath)
     end
 
     context 'when request path is blacklisted' do

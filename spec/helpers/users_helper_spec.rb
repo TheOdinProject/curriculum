@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe UsersHelper do
+RSpec.describe UsersHelper do
   let(:user) { double('User', lesson_completion_time: lesson_completion_time) }
   let(:lesson_completion_time) { DateTime.new(2016, 10, 11, 19) }
 
@@ -9,8 +9,8 @@ describe UsersHelper do
     let(:size) { 4 }
 
     before do
-      allow(GravatarUrlBuilder).to receive(:new).with(user, size).
-        and_return(gravatar_url)
+      allow(GravatarUrlBuilder).to receive(:new).with(user, size)
+        .and_return(gravatar_url)
 
       allow(gravatar_url).to receive(:url)
     end
