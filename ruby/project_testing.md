@@ -82,6 +82,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Leonard Soaivan's solution](https://github.com/leosoaivan/TOP_connectfour)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing/connect_four_tdd)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec/connect_four)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/connect_four)
