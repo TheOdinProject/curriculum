@@ -34,7 +34,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 
 ## Assignment:
 
-*Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/) or [Nitrous.io](https://www.nitrous.io/) They have a terminal window you can practice with.*
+*Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/) it has a terminal window you can practice with.*
 
 1. To get an initial high-level overview of the command line, check out [A Command Line Crash Course](http://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) from the Viking Code School Prep Work.
 2. Complete the first 2 sections of this interactive Codecademy course to get a great handle on navigating and manipulating directories and files [command line course](https://www.codecademy.com/en/courses/learn-the-command-line).
