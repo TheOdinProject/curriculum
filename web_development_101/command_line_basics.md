@@ -1,8 +1,4 @@
 # Command Line Basics
-<!-- *Estimated Time: 3-6 hrs* -->
-
-<!-- Future: We should consider this lesson to be the first lesson of a larger course about the command line, the next lesson      could be about permissions.-->
-
 ## The Command Line isn't as Scary as you Think 
 
 Raise your hand if you're scared of the command line.  Yes, we have this image of developers staring at a black screen with white or green text flashing across while they wildly enter incomprehensible commands and hack into the corporate mainframe (spilling soda and wiping cheetos off their keyboard no doubt as well).
