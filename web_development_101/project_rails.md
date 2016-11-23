@@ -203,6 +203,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [jeff1st's solution](https://github.com/jeff1st/blog) | [View in Browser](https://ancient-dusk-80825.herokuapp.com/)
 * [huseins ghafari's solution](https://github.com/hosghf/rails_prj/tree/master/blogger) | [View in Browser](https://mighty-crag-59722.herokuapp.com/)
 * [Alan Cruse's Solution](https://github.com/ADECruse/project-rails)
+* [NIÑO MOLLANEDA's Solution](https://github.com/ninoM/blogger) | [View in Browser](https://stark-spire-65556.herokuapp.com/) I0-I5
 
 ## Additional Resources
 
