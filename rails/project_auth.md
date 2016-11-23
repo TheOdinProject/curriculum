@@ -144,6 +144,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/members-only) | [View in browser](https://members-only-by-jiazhi.herokuapp.com/)
 * [Amrr Bakry's solution] (https://github.com/Amrrbakry/rails_the_odin_project/tree/master/members_only) | [view in browser](https://dry-ravine-33949.herokuapp.com/)
 * [David Chapman's solution] (https://github.com/davidchappy/odin_training_projects/tree/master/members-only) | [view in browser](https://polar-fjord-78673.herokuapp.com/)
+* [Dylan's Solution] (https://github.com/resputin/the_odin_project/tree/master/Rails/members_only)
 
 
 ## Additional Resources
