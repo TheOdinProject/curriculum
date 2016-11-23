@@ -102,6 +102,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Kyle Thomson's solution](https://github.com/idynkydnk/event_manager)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/event_manager)
 * [Simon's Solution](https://github.com/SimonSomlai/Odin/tree/master/ruby/event_manager)
+* [HenrytheDJ's Solution (complete)](https://github.com/henrythedj/event_manager_demo)
 * Add your solution above this line
 
 
