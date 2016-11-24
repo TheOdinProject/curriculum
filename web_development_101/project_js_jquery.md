@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Clara Silva's solution](https://github.com/claritasf/SketchpadUsingJquery) | [View in browser] (http://www.lsrmarketingservice.com/clientes/clarita/sketchpad/)
 * [Eren Çataltepe's solution](https://github.com/erencataltepe/changeTheColor) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/changeTheColor/blob/master/index.html)
 * [Arsalan Sunny's solution](https://github.com/arsalansunny/etchasketch) | [View in Browser](https://rawgit.com/arsalansunny/etchasketch/master/index.html)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/sketch-pad) | [View in Browser](https://nicolayd.github.io/sketch-pad/)
