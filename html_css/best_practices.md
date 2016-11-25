@@ -22,5 +22,5 @@ You'll also get the chance to review what was covered in previous sections by ch
 
 * [Put a box around every div on the page with this chrome extension from Pesticide.io](http://pesticide.io/).  It can help you deconstruct an existing page or debug your own layouts easier.
 * [CSS Style Guide](http://codeguide.co/#css) by [Mark Otto](https://github.com/mdo), one of the creators of Bootstrap.
-* [CSS Reference](http://cssreference.io/), a visual guide to CSS.
+* [CSS Reference](http://cssreference.io/), a visual guide to CSS, by [Jeremy Thomas](https://github.com/jgthms).
 * *Add some!*
