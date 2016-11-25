@@ -67,6 +67,9 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/snake/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/dev-cyprium/snake/blob/master/index.html)
 * [Cody Loyd's solution](https://github.com/codyloyd/javascriptSnake) | [View in browser](http://codyloyd.com/javascriptSnake/)
 * [Priyanka Saigal's solution](https://github.com/psaigal/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/psaigal/Snake/blob/master/snake.html)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/js-snake) | [View in browser](https://chrisnorwood.github.io/js-snake/)
+* [David Chapman's solution](https://github.com/davidchappy/snake) | [View in browser](https://davidchappy.github.io/snake/snake.html)
+
 
 
 ## Additional Resources

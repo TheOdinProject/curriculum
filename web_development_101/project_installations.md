@@ -4,29 +4,29 @@
      Add a few more text editior options to the text editior section. Atom, brackets etc
      Extract the join gitter section to the very first lesson in this course -->
 
-One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can get developing.  Just about every recent beginner has some horror story about how long they battled with their computer and Google to finally get their environment working properly.  And often you hear it used as a reason why it took people so long to get started in the first place.
+One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can begin developing. It can be even more frustrating if you're not already comfortable using a Mac or Linux system before you start, so because of that, this step is often one of the primary reasons that people give up on coding before they even start. 
 
-It may be a challenge, but if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
+Even so, if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  
 
-One option for learning development has always been to use an existing online environment.  In fact, almost all sites geared towards beginners these days have you learn on their website, where you type in some code and it will execute it for you.  Magic! Frankly, we think that's an incomplete approach.  What happens when you want to actually build something on your own? But, if it's a question of a hosted environment (like [Cloud 9](https://c9.io/)) and no environment, do what it takes to get you going.
-
-If you get stuck during the installation process, do not give up!  Sign up for a meetup to find an experienced programmer that can help you and Google the error messages to troubleshoot the installation.  Find a friend somewhere who can help you out.  Everyone goes through it, so you're not crazy if your computer suddenly seems like a hostile beast.  Battle it out... there are lots of resources scattered throughout the web and someone has had your problem before.
+While some of our early lessons _do_ use online tutorials, we believe that the best way to get usable real-world skills is to develop on your own machine rather than simply following tutorials in a closed online environment. This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
 
 ## Back End vs Front End Installations
 
 We've already covered what the overall difference is between back end (server-side) and front end (client-side) programming, but you'll see it manifested again in how you install the necessary software.  Because the client-side code runs in the browser, all you really need to write some HTML, CSS and Javascript is a web browser like Chrome, Firefox or (shudder) Internet Explorer.  
 
-Websites like [CodePen](http://codepen.io/) and [JSFiddle](http://jsfiddle.net/) let you create small but dynamic webpages right in your browser.  They will become a bit cumbersome when you try to build more meaningful projects, which will require you to start writing more in your text editor, but are perfectly fine for doing smaller exercises.  The lack of any complicated installations is one reason that front-end programming is more accessible for beginners to try out.
-
 Server-side code is a bit different -- because each programming language (like Ruby or Python) is a different animal, you need to actually install that language onto your computer.  With Ruby, you will be installing the Ruby interpreter just like any other program. When you "run" your Ruby code, you are actually using the Ruby program.  In principle, this shouldn't add too much additional complexity, but it is an extra step from just running simple text files in your browser.
 
-Another reason things get a bit more complicated on the back end is because programmers do more than just feed a text file full of code into a program -- they also want to be able to handle running different versions of Ruby at the same time (perhaps to work on an older website one day and a newer one the next) and ultimately to deploy those websites up to their chosen web server.  Each of these workflow improvements requires another program to help out with managing it.
+Another reason things get a bit more complicated on the back end is because programmers do more than just feed a text file full of code into a program -- for example, running different versions of Ruby at the same time (perhaps to work on an older website one day and a newer one the next) or deploying those websites up to their chosen web server.  Each of these workflow improvements requires another program to help out with managing it.
 
-So, at its core, server-side installs with Ruby are just you installing the Ruby interpreter on your machine and a couple of extra things to help manage your workflow.  It just seems like a lot of different things when you're unfamiliar with what each one is doing.  We'll give you a brief description of each thing below and then you'll get a chance to do the installations on your own.
+Because of this, there are many little pieces and parts that you are going to need to get up and running.  Don't be afraid at this point if you don't know or understand what everything is, as you progress it will all become quite clear.
 
-## Why you Should use Linux for this Course
+## Why can't I use Windows?
 
-You can use Windows and have no problems what so ever with learning HTML CSS and Javascript, Ruby on Rails on the other hand is where big issues will arise. The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
+Ok, we get it.. you're very comfortable the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
+
+Techically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
+
+The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
 
 * Because of the fundamental differences between unix based operating systems and Windows, installing Rails on a Windows machine is likely to give you problems that you would not encounter if you were installing on a linux system, these can be a real pain to solve.
 
@@ -34,9 +34,7 @@ You can use Windows and have no problems what so ever with learning HTML CSS and
 
 * Because of the instability of Rails on Windows you will probably find yourself second guessing some of the errors and bugs you encounter when developing being caused by either your system or the code you have written.
 
-* Most of the examples throughout the learning process will assume you are using a linux or mac, you will have to translate these into the equivalent Windows commands yourself if you stick with Windows
-
-* Most of the Rails community use unix based systems, this will make finding help with set up and configuration problems very difficult if you are installing on Windows. In fact the most common response you are likely to get is "install linux".
+* Most of the examples throughout the learning process, and most tutorials you come across on the net will assume you are using a linux or mac, you will have to translate these into the equivalent Windows commands yourself.
 
 * **Bonus**  Experience with Linux will look great on your CV.
 
@@ -47,7 +45,22 @@ The good news is installing linux is not as hard as you might have imagined, fir
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
-####Option 1 - Dual Booting
+####Option 1 - Use a Virtual Machine
+This is the safest and simplest option for a complete beginner, or a person that _needs_ to use Windows on a regular basis for other reasons (work, school etc.)
+
+A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
+
+**Pros**
+
+* You can easily access Windows and Linux, with the extra benefit of being able to switch between the two instantly.
+* There is no risk of harming your current windows set-up.
+* You are actually using a real linux setup within the virtual machine.
+
+**Cons**
+
+* Performance with Ubuntu won't be as sharp as a dual booting.
+
+####Option 2 - Dual Booting
 You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
@@ -58,29 +71,19 @@ You can install Ubuntu along side Windows on your machine by dual booting. This 
 
 **Cons**
 
-* Messing up your Windows installation is a possibility when setting your computer up to dual boot (this is difficult to do)
+* Messing up your Windows installation is a possibility when setting your computer up to dual boot, and while it's easily avoided complete beginners should take care.
 * To switch between your two operating systems you will have to reboot your computer.
 
-####Option 2 - Use a Virtual Machine
-A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
 
-**Pros**
-
-* You can access Windows and Linux, with the extra benefit of being able to switch between the two instantly.
-* No risks to messing up your windows installation by doing something wrong with a dual boot
-* You can customise as you like with different text editors etc
-
-**Cons**
-
-* Performance with Ubuntu won't be as sharp as a dual booting
 
 #### Option 3 - Using an Online IDE
-There have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, in fact that's how they are set up in the background. The difference is they are websites so you can only use them in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.
+If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, there have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
 **Pros**
 
 * You don't have to install anything on your local machine (this can be a con depending on the way you look at it, experience installing and setting stuff up on your local machine can be invaluable)
 * Your coding environment will be available from any machine with internet access.
+* These systems typically run a more-or-less full featured linux distro, so you can do all of the things you see in the tutorials and lessons here.
 
 **Cons**
 
@@ -110,7 +113,7 @@ Actually, we won't need to install any of these -- they come with your web brows
 
 ### Text Editor
 
-We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Microsoft Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
+We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
 
 Check out [this "Quick Guide to Sublime Text" from Jennifer Mann](http://jennifermann.ghost.io/a-quick-guide-to-sublime-text/) for some helpful hints and tricks.  She refers to [this tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) which explains some of the awesomeness of Sublime Text 2 in depth.  The first chunk of the video is the most important, don't stress out about picking up the details in the rest (but you should come back to it once you've gotten more comfortable with the editor).  Most of the tips there apply quite directly to Atom as well.
 

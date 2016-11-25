@@ -91,6 +91,8 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Austin's solution](https://github.com/CouchofTomato/toy_app) | [Heroku](https://couch-toy-app.herokuapp.com/)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/warmup/toy_app) | [Heroku](https://jpeikert-toy-app.herokuapp.com/)
 * [Joe Himes's solution](https://github.com/deedle42/toy_app) | [Heroku](https://peaceful-fortress-41063.herokuapp.com/)
+* [at0micr3d's solution](https://github.com/at0micr3d/toy_app) | [Heroku](https://powerful-retreat-66686.herokuapp.com/)
+* [tholymap's solution](https://bitbucket.org/tholymap/toy_app) | [Heroku](https://mighty-plains-35715.herokuapp.com/)
 
 
 ## Additional Resources
