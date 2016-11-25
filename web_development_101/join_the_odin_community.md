@@ -72,5 +72,5 @@ Show us a **screenshot** if you can't pinpoint the problem - you should use this
 
 * Have fun with giphys: type `/giphy hi` to say Hi to everyone.
 * Navigate the chatroom better by typing `/help` for more info.
-* Show your appreciation for those you have helped you on your journey like `@odin-bot ++`.
+* Show your appreciation for those who have helped you on your journey like `@odin-bot ++`.
 * Don't forget about all the [available rooms](https://gitter.im/orgs/TheOdinProject/rooms) each categorised by development topic which you can join.
