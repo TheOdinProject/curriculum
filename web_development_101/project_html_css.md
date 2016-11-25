@@ -920,6 +920,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Yury Tomilin's Solution (Easy)] (https://github.com/reitzy/google-homepage) |  [View in Browser] (https://rawgit.com/reitzy/google-homepage/master/index.html)
 * [Rhett Newton's Solution](https://github.com/rnewton5/google-homepage) | [View in Browser] (https://rnewton5.github.io/google-homepage/)
 * [Dmytro Korzhov's Solution (Easy)](https://github.com/Dmytr1K/top_google_homepage) | [View in browser (Easy)](https://dmytr1k.github.io/top_google_homepage/)
+* [Roan Fourie's Solution (Easy)](https://github.com/RoanFourie/the-odin-project/tree/master/google-homepage)
 
 
 ## Additional Resources
