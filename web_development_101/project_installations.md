@@ -22,7 +22,7 @@ Because of this, there are many little pieces and parts that you are going to ne
 
 ## Why can't I use Windows?
 
-Ok, we get it.. you're very comfortable the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
+Ok, we get it.. you're very comfortable with the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
 
 Techically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
 
@@ -41,7 +41,7 @@ The programmers who created Rails had a preference for unix based operating syst
 We at Odin don't have anything against Windows, we simply want you to succeed at your goal of learning to program. We don't want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using linux or a Mac for this curriculum.
 
 ### Installing Linux
-The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything Yay!. Secondly there are three different options that you can choose from to use linux on your machine along side Windows, so you can choose the one that suits your situation best.
+The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use linux on your machine along side Windows, so you can choose the one that suits your situation best.
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
@@ -61,7 +61,7 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 * Performance with Ubuntu won't be as sharp as a dual booting.
 
 ####Option 2 - Dual Booting
-You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
+You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
 
@@ -101,7 +101,7 @@ Ruby is the back end language we'll be using to write our server code.  The Ruby
 
 ### Git
 
-Git, the version-control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
+Git, the version control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
 
 ### Heroku
 
@@ -123,7 +123,7 @@ There will be some Ruby gems (which are just prepackaged little libraries of cod
 
 ### RVM
 
-RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other one.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
+RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
 
 This is very useful because you'll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on other projects using the newer version (2.0.0).  Since you obviously don't want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use for a given project and PRESTO! your problems are solved.
 
