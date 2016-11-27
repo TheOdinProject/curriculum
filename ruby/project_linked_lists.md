@@ -96,4 +96,4 @@ Build the following methods in your linked list class:
 * [Mateusz Staszczyk's](https://github.com/sleaz0id/LinkedList)
 * [Sophia Wu's solution (with extra credit)](https://github.com/SophiaLWu/project-linked-lists)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/linked_list)
-
+* [Braydon Pacheco's solution](https://github.com/pacheeko/linked_lists/blob/master/linked_lists.rb)
