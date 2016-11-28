@@ -183,6 +183,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/blob/master/MasterMind/mastermind.rb)
 * [Stefan P's solution](https://github.com/spavikevik/mastermind)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/Mastermind)
 * [ctcyu's solution](https://github.com/ctcyu/ruby_sandbox/blob/master/mastermind.rb)
