@@ -523,4 +523,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Luís Antunes' Solution](https://github.com/LuisMAntunes/etch-a-sketch) | [View In Browser] (http://htmlpreview.github.io/?https://github.com/LuisMAntunes/etch-a-sketch/blob/master/index.html)
 * [Jason Mabry's Solution](https://github.com/jmabry111/etchasketch) | [View In Browser] (https://rawgit.com/jmabry111/etchasketch/master/index.html)
 * [Dan Sack's Solution](https://github.com/DanPete/etch_a_sketch) | [View In Browser] (https://danpete.github.io/etch_a_sketch/)
-
+* [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/sketchpad) | [View In Browser](https://roanfourie.github.io/the-odin-project/sketchpad)
