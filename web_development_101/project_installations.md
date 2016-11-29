@@ -76,8 +76,29 @@ You can install Ubuntu along side Windows on your machine by dual booting. This 
 
 
 
-#### Option 3 - Using an Online IDE
-If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, there have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
+#### Option 3 - Windows Subsystem for Linux
+If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, chose Linux for your operating system.
+
+**Pros**
+
+* This is a fullly operational Linux Bash Shell running natively on Windows.
+* Since you are running Ubuntu natively from Windows you don't have a performance hit like with the virtual machine option.
+* You have full access to both your Linux and Windows filesystems from both Bash on Windows and File Explorer.
+* You don't have to restart to switch between Linux and Windows: Bash on Windows acts just like your windows Command Prompt.
+* This is an official Microsoft product, so there is little risk of messing up your Windows installation.
+* You can use just about(see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
+
+**Cons**
+
+* As the Instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
+* Since this is not intended to be a full Linux operating system, the X windows system is not supported, so non-command line Linux apps will not work.
+* IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
+* Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*.
+
+
+
+#### Option 4 - Using an Online IDE
+If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
 **Pros**
 
@@ -144,6 +165,8 @@ These installfests will take you through the steps to install everything on your
      * If you get the error `The system cannot find the path specified.` when attempting to run `bundle install --without production`:
           * run `gem install bundler`
           * try `bundle install --without production` again
+     * **Note for Bash on Windows users**: As of December 2016, if you are not on the Windows Insider "Fast Ring," inotify will not work yet. This causes some gems in your rails app like listener, guard, and spring to fail.
+     * This can be worked around by commenting out the line, `config.file_watcher = ActiveSupport::EventedFileUpdateChecker` in `config/environments/development.rb`
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
 
 
