@@ -93,6 +93,7 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 * As the Instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
 * Since this is not intended to be a full Linux operating system, the X windows system is not supported, so non-command line Linux apps will not work.
 * IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
+* Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*.
 
 
 
