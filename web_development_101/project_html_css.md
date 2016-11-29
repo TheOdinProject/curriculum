@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+*[yilmazgunalp's Solution (Difficult)](https://github.com/yilmazgunalp/google-homepage) | [View in Browser](https://yilmazgunalp.github.io/google-homepage/)
 * [Aarti's Solution(Easy)](https://github.com/aarti27/google-homepage)
 * [Katherine Marie's Solution](https://github.com/katherinemariexp/google-homepage) | [View in Browser](https://katherinemariexp.github.io/google-homepage)
 * [Juliez83's Solution (Difficult)](https://github.com/Juliez83/google-search-results) | [View in Browser]  (https://juliez83.github.io/google-search-results/) | [Juliez83's Solution (Easy)](https://github.com/Juliez83/google-homepage) | [View in Browser](https://juliez83.github.io/google-homepage/)
@@ -923,7 +924,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Roan Fourie's Solution (Easy)](https://github.com/RoanFourie/the-odin-project/tree/master/google-homepage) | [View in browser (Easy)](https://roanfourie.github.io/the-odin-project/google-homepage/)
 * [mmore21's Solution (Easy)](https://github.com/mmore21/google-homepage/) | [View in Browser](https://mmore21.github.io/google-homepage/)
 * [egg303's Solution (Easy)](https://github.com/egg303/google-homepage) | [View in Browser](https://egg303.github.io/google-homepage/)
-*[yilmazgunalp's Solution (Difficult)](https://github.com/yilmazgunalp/google-homepage) | [View in Browser](https://yilmazgunalp.github.io/google-homepage/)
+
 
 ## Additional Resources
 
