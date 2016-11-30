@@ -37,6 +37,7 @@ The basic rules are that the player must flag every mine on the board without cl
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/Mine-Hunter) (In Rails, with time and scores)  | [View in browser](https://mine-hunter.herokuapp.com/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/minesweeper/blob/master/index.html)
 * [David Chapman's solution](https://github.com/davidchappy/minesweeper) | [View in browser](http://minesweeper.dachapman.com)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/vue-minesweeper) (built with Vue.js) |[View in browser](https://vue-minesweeper.herokuapp.com/)
 
 ## Additional Resources
 
