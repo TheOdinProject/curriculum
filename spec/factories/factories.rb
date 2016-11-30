@@ -49,7 +49,5 @@ FactoryGirl.define do
   factory :project do
     repo_url 'https://github.com/user/repo'
     live_preview 'http://mysite.com'
-    association :user
-    association :lesson
   end
 end
