@@ -36,6 +36,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/project_sql)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/sql_zoo)
 * [DV's solution](https://github.com/dvislearning/sql_zoo)
+* [at0micr3d's solution](https://github.com/at0micr3d/sql-zoo)
 
 
 ## Additional Resources
