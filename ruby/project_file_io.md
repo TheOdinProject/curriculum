@@ -129,7 +129,7 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-*[Charles's Solution](https://github.com/codexTun/ODIN-PROJECTS/tree/master/Ruby_projects/hangman)
+* [Charles's Solution](https://github.com/codexTun/ODIN-PROJECTS/tree/master/Ruby_projects/hangman)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Hang_man)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/Hangman) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/Hangman/index.html)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/hangman)
@@ -149,7 +149,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Hawkeye's solution](https://github.com/Hawkeye000/hangman)
 * [Vincent's solution](https://github.com/wingyu/hangman)
 * [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Serialization%20and%20Working%20with%20Files/hangman)
-* [Vidul's solution](https://github.com/viparthasarathy/hangman)
+ * [Vidul's solution](https://github.com/viparthasarathy/hangman)
 * [John Quarles' solution](https://github.com/johnwquarles/Ruby-FileIO-Hangman)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project4/Hangman)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/serialization_and_files/hangman)
@@ -159,7 +159,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Dawn Pattison's solution](https://github.com/pattisdr/theOdinProject/tree/master/hangman)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/serialization/tree/master/hangman)
 * [Rafael E's solution](https://github.com/NerdDiffer/hangman)
-* [LongPotato's solution](https://github.com/LongPotato/Hangman_GUI)
+             * [LongPotato's solution](https://github.com/LongPotato/Hangman_GUI)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/Hangman)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/tree/master/Hangman)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/tree/master/hangman)
