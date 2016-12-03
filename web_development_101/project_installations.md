@@ -22,7 +22,7 @@ Because of this, there are many little pieces and parts that you are going to ne
 
 ## Why can't I use Windows?
 
-Ok, we get it.. you're very comfortable the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
+Ok, we get it.. you're very comfortable with the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
 
 Techically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
 
@@ -41,7 +41,7 @@ The programmers who created Rails had a preference for unix based operating syst
 We at Odin don't have anything against Windows, we simply want you to succeed at your goal of learning to program. We don't want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using linux or a Mac for this curriculum.
 
 ### Installing Linux
-The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything Yay!. Secondly there are three different options that you can choose from to use linux on your machine along side Windows, so you can choose the one that suits your situation best.
+The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use linux on your machine along side Windows, so you can choose the one that suits your situation best.
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
@@ -61,7 +61,7 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 * Performance with Ubuntu won't be as sharp as a dual booting.
 
 ####Option 2 - Dual Booting
-You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
+You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
 
@@ -76,8 +76,29 @@ You can install Ubuntu along side Windows on your machine by dual booting. This 
 
 
 
-#### Option 3 - Using an Online IDE
-If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, there have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
+#### Option 3 - Windows Subsystem for Linux
+If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, chose Linux for your operating system.
+
+**Pros**
+
+* This is a fullly operational Linux Bash Shell running natively on Windows.
+* Since you are running Ubuntu natively from Windows you don't have a performance hit like with the virtual machine option.
+* You have full access to both your Linux and Windows filesystems from both Bash on Windows and File Explorer.
+* You don't have to restart to switch between Linux and Windows: Bash on Windows acts just like your windows Command Prompt.
+* This is an official Microsoft product, so there is little risk of messing up your Windows installation.
+* You can use just about(see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
+
+**Cons**
+
+* As the Instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
+* Since this is not intended to be a full Linux operating system, the X windows system is not supported, so non-command line Linux apps will not work.
+* IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
+* Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*.
+
+
+
+#### Option 4 - Using an Online IDE
+If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
 **Pros**
 
@@ -101,7 +122,7 @@ Ruby is the back end language we'll be using to write our server code.  The Ruby
 
 ### Git
 
-Git, the version-control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
+Git, the version control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
 
 ### Heroku
 
@@ -123,7 +144,7 @@ There will be some Ruby gems (which are just prepackaged little libraries of cod
 
 ### RVM
 
-RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other one.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
+RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
 
 This is very useful because you'll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on other projects using the newer version (2.0.0).  Since you obviously don't want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use for a given project and PRESTO! your problems are solved.
 
@@ -144,6 +165,8 @@ These installfests will take you through the steps to install everything on your
      * If you get the error `The system cannot find the path specified.` when attempting to run `bundle install --without production`:
           * run `gem install bundler`
           * try `bundle install --without production` again
+     * **Note for Bash on Windows users**: As of December 2016, if you are not on the Windows Insider "Fast Ring," inotify will not work yet. This causes some gems in your rails app like listener, guard, and spring to fail.
+     * This can be worked around by commenting out the line, `config.file_watcher = ActiveSupport::EventedFileUpdateChecker` in `config/environments/development.rb`
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
 
 

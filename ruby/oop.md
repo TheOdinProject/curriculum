@@ -90,8 +90,8 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://amzn.com/B0096BYG7C) from Sandi Metz.
-* [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to the Metz book, in about 40 minutes.
-* [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/)
-* Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/)
-* Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down)
+* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://amzn.com/B0096BYG7C) by Sandi Metz.
+* [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
+* [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
+* Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
+* Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).

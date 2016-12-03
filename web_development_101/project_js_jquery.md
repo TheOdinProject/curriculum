@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Paweł R's solution](https://github.com/PawelRokosz/Etch-A-Sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/PawelRokosz/Etch-A-Sketch/blob/master/index.html)
 * [Clara Silva's solution](https://github.com/claritasf/SketchpadUsingJquery) | [View in browser] (http://www.lsrmarketingservice.com/clientes/clarita/sketchpad/)
 * [Eren Çataltepe's solution](https://github.com/erencataltepe/changeTheColor) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/changeTheColor/blob/master/index.html)
 * [Arsalan Sunny's solution](https://github.com/arsalansunny/etchasketch) | [View in Browser](https://rawgit.com/arsalansunny/etchasketch/master/index.html)
@@ -523,4 +524,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Luís Antunes' Solution](https://github.com/LuisMAntunes/etch-a-sketch) | [View In Browser] (http://htmlpreview.github.io/?https://github.com/LuisMAntunes/etch-a-sketch/blob/master/index.html)
 * [Jason Mabry's Solution](https://github.com/jmabry111/etchasketch) | [View In Browser] (https://rawgit.com/jmabry111/etchasketch/master/index.html)
 * [Dan Sack's Solution](https://github.com/DanPete/etch_a_sketch) | [View In Browser] (https://danpete.github.io/etch_a_sketch/)
-
+* [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/sketchpad) | [View In Browser](https://roanfourie.github.io/the-odin-project/sketchpad)
