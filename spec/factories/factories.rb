@@ -45,4 +45,9 @@ FactoryGirl.define do
       n
     end
   end
+
+  factory :project do
+    repo_url 'https://github.com/user/repo'
+    live_preview 'http://mysite.com'
+  end
 end
