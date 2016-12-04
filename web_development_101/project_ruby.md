@@ -231,7 +231,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Todd Demone's Solution](https://github.com/todd-demone/learn_ruby)
 * [Evan Burkey's Solution](https://github.com/king3vbo/learn_ruby)
 * [Sebeth's Solution](https://github.com/SebetheWombat/learn_ruby)
-* [Jerry Gao's solution](https://github.com/blackwright/learn_ruby)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/learn_ruby)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby)
 * [Fred Rhae's solution](https://github.com/fredrhae/learn_ruby)
 * [Kaique "Rique" Borges's solution](https://github.com/riquekaique/test_first_ruby)

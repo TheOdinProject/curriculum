@@ -495,7 +495,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-javascript-jquery) | [View in browser](https://rawgit.com/SophiaLWu/project-javascript-jquery/master/index.html)
 * [Jenn L's solution](https://github.com/developingyourweb/Etch-A-Sketch2) | [View in browser](https://rawgit.com/developingyourweb/Etch-A-Sketch2/master/index.html)
 * [Gabriel Rangel's solution](https://github.com/glrangel/sketchpad) | [View in browser](https://rawgit.com/glrangel/sketchpad/master/index.html)
-* [Jerry Gao's solution](https://github.com/blackwright/etch_a_sketch) | [View in browser](https://rawgit.com/blackwright/etch_a_sketch/master/sketch.html)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/js_etch_a_sketch) | [View in browser](https://rawgit.com/blackwright/etch_a_sketch/master/sketch.html)
 * [Harry Maher's solution](https://github.com/HarryMaher/sketchpad)|[View in browser](https://rawgit.com/HarryMaher/sketchpad/master/index.html)
 * [Emehinola Idowu's solution](https://github.com/hydeenoble/javascript-jquery_project)|[View in browser](https://rawgit.com/hydeenoble/javascript-jquery_project/master/index.html)
 * [Surafel Muluye's Solution](https://github.com/SurafelM/Etch-Sketch/tree/master3) | [View in Browser](https://rawgit.com/SurafelM/Etch-Sketch/master3/index.html)
