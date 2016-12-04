@@ -61,6 +61,8 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/final/lib/chess_single_array.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/chess)
 * [Jerry Gao's solution](https://github.com/blackwright/chess)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/Chess)
+
 
 
 ## Additional Resources
