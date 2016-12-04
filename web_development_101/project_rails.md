@@ -19,6 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Václav Škvařil's Solution](https://github.com/Vasha22/Blogger-Project) | [View in Browser](https://pure-shore-59740.herokuapp.com/)
 * [ayushka's solution](https://github.com/ayushkamadji/blogger) | [View in Browser](https://arcane-oasis-82234.herokuapp.com/)
 * [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/blogger) | [View in browser](https://infinite-anchorage-76552.herokuapp.com/)
 * [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/blogger2)
@@ -203,8 +204,9 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [jeff1st's solution](https://github.com/jeff1st/blog) | [View in Browser](https://ancient-dusk-80825.herokuapp.com/)
 * [huseins ghafari's solution](https://github.com/hosghf/rails_prj/tree/master/blogger) | [View in Browser](https://mighty-crag-59722.herokuapp.com/)
 * [Alan Cruse's Solution](https://github.com/ADECruse/project-rails)
-* [NIÑO MOLLANEDA's Solution](https://github.com/ninoM/blogger) | [View in Browser](https://stark-spire-65556.herokuapp.com/) I0-I5
+* [NIÑO MOLLANEDA's Solution](https://github.com/ninoM/blogger) | [View in Browser](https://stark-spire-65556.herokuapp.com/)
 * [Dustin Seright's Solution](https://github.com/dseright/rails_project) | [View in Browser](https://boiling-beyond-55901.herokuapp.com/) 
+
 
 ## Additional Resources
 
