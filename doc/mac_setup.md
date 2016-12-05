@@ -74,9 +74,9 @@ First create a application.yml with figaro, this is where you will store your Gi
 $ rails generate figaro:install
 ```
 
-Next go to [personal access tokens](https://github.com/settings/tokens) in your Github user account settings and the "generate new token" button. This will bring you to a new page. Give your token a description in the box provided. Something like "Odin " will do. Once that is done click the "generate token" button at teh bottom of the page. The token highlighted in green is your new Github API key.
+Next go to [personal access tokens](https://github.com/settings/tokens) in your Github user account settings and click the "generate new token" button. This will bring you to a new page. Give your token a description in the box provided, Something like "Odin " will do. Once that is done click the "generate token" button at the bottom of the page. The token highlighted in green is your new Github API key.
 
-Copy your Github API key and go back to the `application.yml` file in the Odin Project directory. Paste your API token in place of `<your api token here>` like the example below:
+Copy your Github API token and go back to the `config/application.yml` file in your local Odin Project directory. Paste your API token in place of `<your api token here>` like the example below:
 ```
 GITHUB_API_TOKEN: <your api token here>
 ```
@@ -114,8 +114,6 @@ start the server
 Go to the app in your browser:
 `http://localhost:3000`
 
-If you have any problems getting anything set up in this guide please let us know in our [contributing gitter channel](https://gitter.im/TheOdinProject/Contributing)
-
 ## Setting up Github Omniauth (Optional)
 We allow users to create an account on the site with Github OAuth. To get this feature working locally follow the instructions in this section.
 
@@ -145,3 +143,6 @@ GITHUB_SECRET: <your client secret here>
 ```
 
 To test that works correctly run the app locally and try to sign up with Github.
+
+## Need Help?
+If you have any problems getting anything set up in this guide please let us know in our [contributing gitter channel](https://gitter.im/TheOdinProject/Contributing)
