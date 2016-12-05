@@ -74,7 +74,7 @@ First create a application.yml with figaro, this is where you will store your Gi
 $ rails generate figaro:install
 ```
 
-Next go to [personal access tokens](https://github.com/settings/tokens) in your Github user account settings and click the "generate new token" button. This will bring you to a new page. Give your token a description in the box provided, Something like "Odin " will do. Once that is done click the "generate token" button at the bottom of the page. The token highlighted in green is your new Github API key.
+Next go to [personal access tokens](https://github.com/settings/tokens) in your Github user account settings and click the "generate new token" button. This will bring you to a new page. Give your token a description in the box provided, Something like "Odin " will do. Once that is done click the "generate token" button at the bottom of the page. The token highlighted in green is your new Github API token.
 
 Copy your Github API token and go back to the `config/application.yml` file in your local Odin Project directory. Paste your API token in place of `<your api token here>` like the example below:
 ```
@@ -100,13 +100,13 @@ Next you need to seed the database with the course and lesson data.
 $ rails db:seed
 ```
 
-We pull in the lesson content from the Odin [curriculum repository](https://github.com/TheOdinProject/curriculum) on Github. We have created a rake task for this to make it easy.
+We pull in the lesson content from the Odin [curriculum repository](https://github.com/TheOdinProject/curriculum) on Github. We have created a rake task to do this easily.
 ```
 $ rake rake curriculum:update_content
 ```
 
 ## Running the app locally
-You can now run the app on your local machine :tada:
+You can now run the app on your local machine.
 
 start the server
 `$ rails server`
