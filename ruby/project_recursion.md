@@ -18,6 +18,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/blob/master/FibonacciSequence/fibo.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/recursion/blob/master/fibonacci.rb)
 * [Stefan P's solution](https://github.com/spavikevik/recursion_project/blob/master/fibonacci/fibonacci.rb)
 * [mahimahi42's solution](https://github.com/mahimahi42/recursion.git)
