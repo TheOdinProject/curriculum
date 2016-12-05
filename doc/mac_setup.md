@@ -69,7 +69,7 @@ $ rake db:test:prepare
 ## Get a Github API Token
 You will need a Github API token to get all the tests to pass and for getting all the lesson content.
 
-First create a application.yml with figaro, this is where you will store your Github API key.
+First create a application.yml with figaro, this is where you will store your Github API token.
 ```
 $ rails generate figaro:install
 ```
