@@ -142,7 +142,7 @@ GITHUB_APP_ID: <your client ID here>
 GITHUB_SECRET: <your client secret here>
 ```
 
-To test that works correctly run the app locally and try to sign up with Github.
+To test all this is working correctly, run the app locally and try to sign up with Github.
 
 ## Need Help?
 If you have any problems getting anything set up in this guide please let us know in our [contributing gitter channel](https://gitter.im/TheOdinProject/Contributing)
