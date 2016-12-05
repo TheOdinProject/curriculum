@@ -246,6 +246,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Braydon Pacheco's solution](https://github.com/pacheeko/hangman/blob/master/lib/hangman.rb)
 * [Simon's Solution](https://github.com/SimonSomlai/Odin/tree/master/ruby/hangman)
 * [Bishal's Solution](https://github.com/biiishal/hangman)
+* [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/hangman)
 
 
 
