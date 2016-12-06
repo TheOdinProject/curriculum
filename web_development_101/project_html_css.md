@@ -931,7 +931,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [mmore21's Solution (Easy)](https://github.com/mmore21/google-homepage/) | [View in Browser](https://mmore21.github.io/google-homepage/)
 * [egg303's Solution (Easy)](https://github.com/egg303/google-homepage) | [View in Browser](https://egg303.github.io/google-homepage/)
 * [Kumelachew Abera's Solution](https://github.com/Kumelachew/google-homepage) | [View in Browser](https://kumelachew.github.io/google-homepage/)
-
+* [LeangSeu's Solution(Easy)] (https://github.com/leangseu/practice-css-html) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-css-html/master/index.html)
 
 ## Additional Resources
 
