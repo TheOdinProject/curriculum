@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [LeangSeu's Solution(Easy)] (https://github.com/leangseu/practice-css-html) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-css-html/master/index.html)
 * [Kirby J's Solution](https://github.com/kboygit/powertest) | [View in Browser](https://kboygit.github.io/powertest/)
 * [AHollyer's Solution](https://github.com/ahollyer/google-homepage) | [View in Browser](https://rawgit.com/ahollyer/google-homepage/master/index.html)
 * [Paweł R's Solution](https://github.com/PawelRokosz/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/PawelRokosz/google-homepage/blob/master/index.html)
@@ -931,7 +932,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [mmore21's Solution (Easy)](https://github.com/mmore21/google-homepage/) | [View in Browser](https://mmore21.github.io/google-homepage/)
 * [egg303's Solution (Easy)](https://github.com/egg303/google-homepage) | [View in Browser](https://egg303.github.io/google-homepage/)
 * [Kumelachew Abera's Solution](https://github.com/Kumelachew/google-homepage) | [View in Browser](https://kumelachew.github.io/google-homepage/)
-* [LeangSeu's Solution(Easy)] (https://github.com/leangseu/practice-css-html) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-css-html/master/index.html)
+
 
 ## Additional Resources
 
