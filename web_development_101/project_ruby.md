@@ -251,6 +251,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Carlos Jimenez's Solution](https://github.com/RiverFloater/learn_ruby)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/learn_ruby)
 * [Václav Škvařil's Solution] (https://github.com/Vasha22/Test-First-Ruby)
+* [egg303's Solution](https://github.com/egg303/learn_ruby)
 
 
 ## Additional Resources
