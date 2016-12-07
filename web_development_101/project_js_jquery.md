@@ -528,3 +528,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/sketchpad) | [View In Browser](https://roanfourie.github.io/the-odin-project/sketchpad)
 * [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser]
 (https://yashanand1910.github.io/sketchpad/)
+* [egg303's Solution](https://github.com/egg303/div-matrix) | [View In Browser](https://egg303.github.io/div-matrix/)
