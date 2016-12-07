@@ -81,6 +81,7 @@ It's time to build an on-screen calculator
 * [David Chapman's solution](https://github.com/davidchappy/calculator) | [View in browser](http://codepen.io/davidchappy/pen/vyXMvQ)
 * [chrisnorwood's solution](https://github.com/chrisnorwood/js-calculator/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/chrisnorwood/js-calculator/blob/master/index.html)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/calculator) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/calculator/index.html)
+* [Kamron Morgan's solution](https://github.com/normak/calculator) | [View in browser](https://normak.github.io/calculator/)
 
 
 ## Additional Resources
