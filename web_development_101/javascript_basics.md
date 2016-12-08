@@ -407,6 +407,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/euler-problems) | [View in Browser] (https://oisteinhaugland.github.io/euler-problems/)
 * [Yury Tomilin's Solution] (https://github.com/reitzy/project-euler-js)
 * [Oliver Potter's Solution](https://github.com/ol4er/euler/blob/master/EULER1.JS)
+* [Siker001's Solution](https://github.com/Siker001/js-basics-Problem1)
 
 
 ## Additional Resources
