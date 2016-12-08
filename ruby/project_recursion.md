@@ -106,6 +106,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_fibonacci)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-recursion/blob/master/fibonacci.rb)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/recursion/blob/master/fibonacci_recursion.rb)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/fibonacci)
 
 
 ## Project: Merge Sort
