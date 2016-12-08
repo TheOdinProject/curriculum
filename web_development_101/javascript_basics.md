@@ -32,6 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+*[Kboy's Solution](https://github.com/kboygit/project_euler/blob/master/euler1.js)
 * [Sanya Verma's solution](https://github.com/ErisedKT/TheEulerProject)
 * [Sherman Bowling's solution to 1 & 2](https://github.com/janus0/the_odin_project/tree/master/euler-problems)
 * [Alexander Chalk's solution](https://github.com/adc17/project-euler-solutions/blob/master/problem-1.js)
