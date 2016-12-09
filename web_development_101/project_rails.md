@@ -22,7 +22,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Václav Škvařil's Solution](https://github.com/Vasha22/Blogger-Project) | [View in Browser](https://pure-shore-59740.herokuapp.com/)
 * [ayushka's solution](https://github.com/ayushkamadji/blogger) | [View in Browser](https://arcane-oasis-82234.herokuapp.com/)
 * [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/blogger) | [View in browser](https://infinite-anchorage-76552.herokuapp.com/)
-* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/blogger2)
+* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/the_odin_project/tree/master/web_development_101/blogger)
 * [Jib's solution](https://github.com/NuclearMachine/OdinTasks/tree/master/blogger) | [View in browser](https://ancient-sierra-59262.herokuapp.com/)
 * [Paul Dariye's solution](https://github.com/pauldd91/theodinproject/tree/master/blogger)
 * [Allen's solution](https://github.com/NoRest4AWhearry/blogger) | [View in browser](http://jsblogger2.herokuapp.com/)
