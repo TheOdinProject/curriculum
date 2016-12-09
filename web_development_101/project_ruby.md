@@ -247,7 +247,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [nmac's Solution](https://github.com/nmacawile/learn_ruby)
 * [jeff1st's Solution](https://github.com/jeff1st/testing_in_ruby)
 * [Alan Cruse's Solution](https://github.com/ADECruse/project-ruby)
-* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/learn_ruby)
+* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/the_odin_project/tree/master/web_development_101/learn_ruby)
 * [Carlos Jimenez's Solution](https://github.com/RiverFloater/learn_ruby)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/learn_ruby)
 * [Václav Škvařil's Solution] (https://github.com/Vasha22/Test-First-Ruby)
