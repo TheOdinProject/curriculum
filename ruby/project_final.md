@@ -62,6 +62,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/chess)
 * [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_chess)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/Chess)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/chess)
 
 
 ## Additional Resources
