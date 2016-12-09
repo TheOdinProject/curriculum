@@ -510,7 +510,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [jeff1st's Solution](https://github.com/jeff1st/odin-squares) | [View in Browser](https://rawgit.com/jeff1st/odin-squares/master/index.html)
 * [Bill Hefty's Solution](https://github.com/bhefty/etcha-sketch-pad) | [View in Browser](https://rawgit.com/bhefty/etcha-sketch-pad/master/index.html)
 * [Ayushka's Solution](https://github.com/ayushkamadji/sketchpad) | [View in Browser](https://rawgit.com/ayushkamadji/sketchpad/master/index.html)
-* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/Etch-A-Sketch) | [View in Browser](https://rawgit.com/siddharthisaiah/Etch-A-Sketch/master/index.html)
+* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/the_odin_project/tree/master/web_development_101/Etch-A-Sketch) | [View in Browser](https://rawgit.com/siddharthisaiah/the_odin_project/master/web_development_101/Etch-A-Sketch/index.html)
 * [nmac's Solution](https://github.com/nmacawile/etch-a-sketch) | [View in Browser](https://rawgit.com/nmacawile/etch-a-sketch/master/index.html)
 * [Ian A's Solution](https://github.com/GorgonsMaze/Etch-a-Sketch) | [View in Browser](http://ianarsenault.me/Etch-a-Sketch/)
 * [Dustin Seright's Solution](https://github.com/dseright/etch_a_sketch/blob/master/index.html) | [View In Browser](https://cdn.rawgit.com/dseright/etch_a_sketch/295b9b0a771830fae018833ffdbcce91dc68532c/index.html)
