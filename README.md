@@ -11,7 +11,7 @@ On a more granular level, [these are the lessons](https://github.com/TheOdinProj
 The Odin project community can be found on our [gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject)
 
 ## Contributing
-The Odin Project depends on open source contributions to improve, grow and thrive. We need help from contributors of all kinds of experience levels and backgrounds to maintain and make Odin more awesome.
+The Odin Project depends on open source contributions to improve, grow and thrive. We need help from contributors of all experience levels and backgrounds to maintain and make Odin more awesome.
 
 A non exhaustive list of what you can contribute to help us:
 * Typo and grammar corrections.
