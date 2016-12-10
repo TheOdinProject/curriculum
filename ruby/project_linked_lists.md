@@ -32,9 +32,8 @@ A head node is the first node in the list, a tail node is the last node in the l
  1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
  2. [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
-
-Do this [tutorial](http://matt.weppler.me/2013/08/14/implementing-a-linked-list-in-ruby.html) about nodes if you do still do not fully understand
-
+ 
+ 
 ## Your Task
 You will need two classes:
 
