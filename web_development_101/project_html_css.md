@@ -96,7 +96,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * Add your solution below this line!
 * [0elo's solution (Easy)] (https://github.com/0elo/the_odin_project/tree/master/google-homepage) | [View in Browser](https://cdn.rawgit.com/0elo/the_odin_project/1e6f659e2b3f96ba3c9044ca1b24c09896959c24/google-homepage/index.html)
 * [kookfromleduc's solution (Easy)] (https://github.com/kookfromleduc/google-homepage) | [View in Browser] (https://kookfromleduc.github.io/google-homepage/)
-* {jhforster's solution] (https://github.com/jhforster/fake-google-homepage) | [View in Browser] (https://jhforster.github.io/fake-google-homepage/)
+* [jhforster's solution] (https://github.com/jhforster/fake-google-homepage) | [View in Browser] (https://jhforster.github.io/fake-google-homepage/)
 * [Kirby J's Solution](https://github.com/kboygit/the_odin_project/tree/master/powertest) | [View in Browser](https://rawgit.com/kboygit/the_odin_project/master/powertest/index.html)
 * [Siker001's Solution (Easy)](https://github.com/Siker001/google-homepage) | [View in Browser](https://siker001.github.io/google-homepage/)
 * [LeangSeu's Solution(Easy)] (https://github.com/leangseu/practice-css-html) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-css-html/master/index.html)
