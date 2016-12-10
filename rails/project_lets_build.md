@@ -15,7 +15,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 2. Head into IRB (`$ irb`)
 3. `require 'rest-client'`
 4. Now you're able to play with the gem.  Read its documentation over in the Github repo [HERE](https://github.com/rest-client/rest-client).  You'll end up doing this a whole lot -- using a new gem and going to its repo to check out the documentation, so get familiar with the process early!
-5. Use RestClient to do a Google search and examine the results (you can find the parameters that Google wants in the URL by simply making a search in a normal browser.  Pay attention to the `q=` parameter).
+5. Use RestClient to do a Bing search (yes, Bing) and examine the results (you can find the parameters that Bing wants in the URL by simply making a search in a normal browser.  Pay attention to the `q=` parameter).
 
 ...that's it.  The point is to get familiar with making HTTP requests using your command line, which should prepare you for making them from within a Rails app later.
 
@@ -56,6 +56,8 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/web_refresher)
 * [DV's solution](https://github.com/dvislearning/rest_client)
 * [at0micr3d's solution](https://github.com/at0micr3d/rest-client-session)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_rest_client)
+* [Tom Westerhout's solution](https://github.com/Westw00d/RestClient)
 
 
 ## Project: Ruby on Rails Tutorial

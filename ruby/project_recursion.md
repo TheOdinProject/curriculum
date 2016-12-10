@@ -18,6 +18,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/blob/master/FibonacciSequence/fibo.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/recursion/blob/master/fibonacci.rb)
 * [Stefan P's solution](https://github.com/spavikevik/recursion_project/blob/master/fibonacci/fibonacci.rb)
 * [mahimahi42's solution](https://github.com/mahimahi42/recursion.git)
@@ -102,9 +103,10 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/project-recursion/blob/master/fib.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/fibonacci_rec.rb)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_recursions/blob/master/fibonacci.rb)
-* [Jerry Gao's solution](https://github.com/blackwright/fibonacci)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_fibonacci)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-recursion/blob/master/fibonacci.rb)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/recursion/blob/master/fibonacci_recursion.rb)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/fibonacci)
 
 
 ## Project: Merge Sort

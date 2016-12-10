@@ -22,7 +22,7 @@ Here we will describe the basic git workflow that you will use with your project
 ### Create your repository on Github
 1. You should have created a github account in the [installations](http://www.theodinproject.com/web-development-101/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
-2. Create a new repository by clicking the button shown in the screen shot below.
+2. Create a new repository by clicking the button shown in the screenshot below.
   <a href="http://imgur.com/kbMCvCK"><img class="tutorial-img" src="http://i.imgur.com/kbMCvCK.png" title="source: imgur.com" /></a>
 3. Give your repository the name "git_test" in the repository name input field and create the repository by clicking the green "create repository" button at the bottom of the page.
 
@@ -37,7 +37,7 @@ Here we will describe the basic git workflow that you will use with your project
 1. Create a new file in git_test called "README.md"
   <a href="http://imgur.com/l4jEMwE"><img class="tutorial-img" src="http://i.imgur.com/l4jEMwE.png" title="source: imgur.com" /></a>
 2. Type `git status` in your terminal notice your *README.md* file is in red, this means it is un-staged.
-  <<a href="http://imgur.com/SE9V63c"><img class="tutorial-img" src="http://i.imgur.com/SE9V63c.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/SE9V63c"><img class="tutorial-img" src="http://i.imgur.com/SE9V63c.png" title="source: imgur.com" /></a>
 3. Type `git add README.md` this adds your *README.md* file to staging area in git. Now type `git status` again, notice your file is now green.
   <a href="http://imgur.com/Ntpmh2u"><img class="tutorial-img" src="http://i.imgur.com/Ntpmh2u.png" title="source: imgur.com" /></a>
 4. Now type `git commit -m "Added README"` and then type `git status` once more and notice that the output contains "*nothing to commit*". Your changes have been committed.
@@ -83,7 +83,7 @@ Finally lets upload what you have done to the Github repository you created at t
   <a href="http://imgur.com/l5y50J8"><img class="tutorial-img" src="http://i.imgur.com/l5y50J8.png" title="source: imgur.com" /></a>
 
 ## What is origin master?
-As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial. You can use *origin* to do access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
+As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
 
 **master** is the branch you want to push your changes to. We will get more into branches in a later lesson, the main thing to remember is that *master* is the official branch in your projects where production-ready code lives.
 

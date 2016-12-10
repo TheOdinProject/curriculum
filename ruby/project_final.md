@@ -49,8 +49,8 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Scott Bobbitt's solution](https://github.com/sco-bo/chess)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/chess)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/Chess)
-* [noobling's solution] (https://github.com/TopOneOfTopOne/CLI_chess)
-* [Sahil Agarwal's solution] (https://github.com/sahilda/the_odin_project/tree/master/rubyChess)
+* [noobling's solution](https://github.com/TopOneOfTopOne/CLI_chess)
+* [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/rubyChess)
 * [James Brooks's solution](https://github.com/jhbrooks/chess)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/chess)
 * [Earth35's solution](https://github.com/Earth35/chess)
@@ -60,7 +60,9 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [at0micr3d's solution](https://github.com/at0micr3d/ruby_chess)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/final/lib/chess_single_array.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/chess)
-* [Jerry Gao's solution](https://github.com/blackwright/chess)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_chess)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/Chess)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/chess)
 
 
 ## Additional Resources

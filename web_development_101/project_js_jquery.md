@@ -39,6 +39,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Jaharri's solution](https://github.com/Jaharri/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Jaharri/etch-a-sketch/blob/master/index.html)
+* [Paweł R's solution](https://github.com/PawelRokosz/Etch-A-Sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/PawelRokosz/Etch-A-Sketch/blob/master/index.html)
 * [Clara Silva's solution](https://github.com/claritasf/SketchpadUsingJquery) | [View in browser] (http://www.lsrmarketingservice.com/clientes/clarita/sketchpad/)
 * [Eren Çataltepe's solution](https://github.com/erencataltepe/changeTheColor) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/changeTheColor/blob/master/index.html)
 * [Arsalan Sunny's solution](https://github.com/arsalansunny/etchasketch) | [View in Browser](https://rawgit.com/arsalansunny/etchasketch/master/index.html)
@@ -494,7 +496,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-javascript-jquery) | [View in browser](https://rawgit.com/SophiaLWu/project-javascript-jquery/master/index.html)
 * [Jenn L's solution](https://github.com/developingyourweb/Etch-A-Sketch2) | [View in browser](https://rawgit.com/developingyourweb/Etch-A-Sketch2/master/index.html)
 * [Gabriel Rangel's solution](https://github.com/glrangel/sketchpad) | [View in browser](https://rawgit.com/glrangel/sketchpad/master/index.html)
-* [Jerry Gao's solution](https://github.com/blackwright/etch_a_sketch) | [View in browser](https://rawgit.com/blackwright/etch_a_sketch/master/sketch.html)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/js_etch_a_sketch) | [View in browser](https://rawgit.com/blackwright/etch_a_sketch/master/sketch.html)
 * [Harry Maher's solution](https://github.com/HarryMaher/sketchpad)|[View in browser](https://rawgit.com/HarryMaher/sketchpad/master/index.html)
 * [Emehinola Idowu's solution](https://github.com/hydeenoble/javascript-jquery_project)|[View in browser](https://rawgit.com/hydeenoble/javascript-jquery_project/master/index.html)
 * [Surafel Muluye's Solution](https://github.com/SurafelM/Etch-Sketch/tree/master3) | [View in Browser](https://rawgit.com/SurafelM/Etch-Sketch/master3/index.html)
@@ -508,7 +510,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [jeff1st's Solution](https://github.com/jeff1st/odin-squares) | [View in Browser](https://rawgit.com/jeff1st/odin-squares/master/index.html)
 * [Bill Hefty's Solution](https://github.com/bhefty/etcha-sketch-pad) | [View in Browser](https://rawgit.com/bhefty/etcha-sketch-pad/master/index.html)
 * [Ayushka's Solution](https://github.com/ayushkamadji/sketchpad) | [View in Browser](https://rawgit.com/ayushkamadji/sketchpad/master/index.html)
-* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/Etch-A-Sketch) | [View in Browser](https://rawgit.com/siddharthisaiah/Etch-A-Sketch/master/index.html)
+* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/the_odin_project/tree/master/web_development_101/Etch-A-Sketch) | [View in Browser](https://rawgit.com/siddharthisaiah/the_odin_project/master/web_development_101/Etch-A-Sketch/index.html)
 * [nmac's Solution](https://github.com/nmacawile/etch-a-sketch) | [View in Browser](https://rawgit.com/nmacawile/etch-a-sketch/master/index.html)
 * [Ian A's Solution](https://github.com/GorgonsMaze/Etch-a-Sketch) | [View in Browser](http://ianarsenault.me/Etch-a-Sketch/)
 * [Dustin Seright's Solution](https://github.com/dseright/etch_a_sketch/blob/master/index.html) | [View In Browser](https://cdn.rawgit.com/dseright/etch_a_sketch/295b9b0a771830fae018833ffdbcce91dc68532c/index.html)
@@ -523,4 +525,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Luís Antunes' Solution](https://github.com/LuisMAntunes/etch-a-sketch) | [View In Browser] (http://htmlpreview.github.io/?https://github.com/LuisMAntunes/etch-a-sketch/blob/master/index.html)
 * [Jason Mabry's Solution](https://github.com/jmabry111/etchasketch) | [View In Browser] (https://rawgit.com/jmabry111/etchasketch/master/index.html)
 * [Dan Sack's Solution](https://github.com/DanPete/etch_a_sketch) | [View In Browser] (https://danpete.github.io/etch_a_sketch/)
-
+* [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/sketchpad) | [View In Browser](https://roanfourie.github.io/the-odin-project/sketchpad)
+* [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser]
+(https://yashanand1910.github.io/sketchpad/)
+* [egg303's Solution](https://github.com/egg303/div-matrix) | [View In Browser](https://egg303.github.io/div-matrix/)
+* [Robert Szabo's Solution](https://github.com/Siker001/etch-a-sketch) | [View In Browser](https://siker001.github.io/etch-a-sketch/)

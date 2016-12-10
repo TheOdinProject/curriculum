@@ -89,9 +89,10 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/bintree2.rb)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_compsci/blob/master/binary_tree.rb)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/commit/a3928f9747d422a49801e27e6d88b0cfc3fb3324)
-* [Jerry Gao's solution](https://github.com/blackwright/binary_tree)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_binary_tree)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/binary_tree.rb)
-
+* [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/binary_tree.rb)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/bst.rb)
 
 ## Project 2: Knight's Travails
 
@@ -193,9 +194,10 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/knight.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/knights_travails)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/blob/master/knight2.rb)
-* [Jerry Gao's solution](https://github.com/blackwright/knights_travails)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_knights_travails)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/knights_travails.rb)
-
+* [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/knights_travails.rb)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/knights_travails.rb)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

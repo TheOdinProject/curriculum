@@ -26,6 +26,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
+* [John Phelps's solution](https://github.com/jphelps413/learn_ruby)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/learn_ruby)
 * [Ian Arsenault's Solution](https://github.com/GorgonsMaze/learn_ruby)
 * [Dustin Seright's Solution](https://github.com/dseright/test_driven_ruby)
 * [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/learn_ruby)
@@ -230,7 +232,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Todd Demone's Solution](https://github.com/todd-demone/learn_ruby)
 * [Evan Burkey's Solution](https://github.com/king3vbo/learn_ruby)
 * [Sebeth's Solution](https://github.com/SebetheWombat/learn_ruby)
-* [Jerry Gao's solution](https://github.com/blackwright/learn_ruby)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/learn_ruby)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby)
 * [Fred Rhae's solution](https://github.com/fredrhae/learn_ruby)
 * [Kaique "Rique" Borges's solution](https://github.com/riquekaique/test_first_ruby)
@@ -246,8 +248,11 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [nmac's Solution](https://github.com/nmacawile/learn_ruby)
 * [jeff1st's Solution](https://github.com/jeff1st/testing_in_ruby)
 * [Alan Cruse's Solution](https://github.com/ADECruse/project-ruby)
-* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/learn_ruby)
+* [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/the_odin_project/tree/master/web_development_101/learn_ruby)
 * [Carlos Jimenez's Solution](https://github.com/RiverFloater/learn_ruby)
+* [Alvaro Sanchez's Solution](https://github.com/heyalvaro/learn_ruby)
+* [Václav Škvařil's Solution] (https://github.com/Vasha22/Test-First-Ruby)
+* [egg303's Solution](https://github.com/egg303/learn_ruby)
 
 
 ## Additional Resources

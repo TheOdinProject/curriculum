@@ -98,6 +98,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's Solution](https://github.com/CouchofTomato/members_only/tree/master/members-only)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/members_only)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 

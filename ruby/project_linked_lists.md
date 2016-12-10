@@ -32,7 +32,8 @@ A head node is the first node in the list, a tail node is the last node in the l
  1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
  2. [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
-
+ 
+ 
 ## Your Task
 You will need two classes:
 
@@ -64,6 +65,7 @@ Build the following methods in your linked list class:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution (with extra credit)](https://github.com/NuclearMachine/OdinTasks/tree/master/LinkedLists)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/linked-lists-ruby/)
 * [Cody Loyd's solution (with tests and extra credit)](https://github.com/codyloyd/linked_list)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/linked-lists)
@@ -91,9 +93,9 @@ Build the following methods in your linked list class:
 * [David Chapman's solution (with extra credit)](https://github.com/davidchappy/odin_training_projects/tree/master/linked_lists)
 * [Leonard Soai-Van solution](https://github.com/leosoaivan/TOP_compsci)
 * [Anthony Vumbaca's solution (with extra credit)](https://github.com/tvumbaca/linked_lists/blob/master/linked_list.rb)
-* [Jerry Gao's tryhard solution](https://github.com/blackwright/linked_list)
+* [Jerry Gao's tryhard solution](https://github.com/blackwright/odin/tree/master/ruby_linked_list)
 * [Marcus' solution (with extra credit)](https://github.com/nestcx/odin_comp_sci/blob/master/linked_list.rb)
 * [Mateusz Staszczyk's](https://github.com/sleaz0id/LinkedList)
 * [Sophia Wu's solution (with extra credit)](https://github.com/SophiaLWu/project-linked-lists)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/linked_list)
-
+* [Braydon Pacheco's solution](https://github.com/pacheeko/linked_lists/blob/master/linked_lists.rb)

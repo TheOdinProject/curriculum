@@ -120,7 +120,7 @@ Cool!
 10. Finally, set up your server to recognize and respond to a POST request.
 
     1. If the server detects a POST request, you should identify and parse out the JSON data from it (it will probably be helpful to use the `Content-Length` line you included to break out the data)
-    2. Turn that JSON string back into an object by using `JSON.parse` and save that in another hash that we'll call `params` (again because this is what Rails does).  Your code might look like `params = {}; params << JSON.parse(the_post_JSON_string_here)`.
+    2. Turn that JSON string back into an object by using `JSON.parse` and save that in another hash that we'll call `params` (again because this is what Rails does).  Your code might look like `params = JSON.parse(the_post_JSON_string_here)`.
     3. Now open the `thanks.html` file and (without modifying the original file since you will want to use it multiple times) use your script to replace the line `<%= yield %>` with a new `<li>` for each one of the data items that you originally entered in your "form" back in your browser.  Display these in whatever format you'd like, for instance `<li>Name: Erik the Red</li><li>Email: erikthered@theodinproject.com</li>`.  
     4. Now send that modified file back to your mini-browser and show it.
 
@@ -135,6 +135,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+*[Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/simple_webserver)
 * [Stefan P's solution](https://github.com/spavikevik/web_server)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/sockets)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/web_server)
@@ -202,7 +203,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Derek Kwong's solution](https://github.com/dckwong/RubyOnTheWeb/tree/master/simple_server_practice)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_ruby_socket)
 * [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/tree/master/web_server)
-* [Jerry Gao's solution](https://github.com/blackwright/server_browser)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_server_browser)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/web/webserver_browser)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-on-the-web)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/web_server_and_browser)
