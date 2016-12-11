@@ -1,16 +1,16 @@
 # Welcome to The Odin Project Curriculum: [Learn Web Development for Free](http://theodinproject.com)
 
-The Odin Project is an open source community and curriculum for learning what you need to know to be hireable as a web developer. The curriculum consists of the best curated resources for learning web development on the web. We also have lots of original content throughout the courses and lessons. Each course has multiple projects that allow the students to practice what they have been learning and to use in their portfolio.
+The Odin Project is an open source community and curriculum for learning what you need to know to be hireable as a web developer. Our curriculum consists of the best curated resources for learning web development on the web. We also have lots of original content throughout the courses and lessons. Each course has multiple projects that allow the students to practice what they have been learning and to use in their portfolio.
 
 This repository houses the curriculum content used by [The Odin Project](http://theodinproject.com) website.
 
 The Odin project community can be found on our [gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject)
 
 ## Contributing
-The Odin Project depends on open source contributions to improve, grow and thrive. We need help from contributors of all experience levels and backgrounds to maintain and make Odin more awesome.
+The Odin Project depends on open source contributions to improve, grow and thrive. We need contributors of all experience levels and backgrounds to help maintain and make Odin more awesome.
 
 ### Courses in Development
-[These are the courses](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22course%20overview%22%20) we are developing at the moment. Please feel free to comment on any of them with your suggestions of what topics we should cover, any resources you think we should include, any project ideas you think would be a good fit, or any feedback in general. Every little helps in making the curriculum better.
+[These are the courses](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22course%20overview%22%20) we are developing at the moment. Please feel free to comment on any of them with your suggestions for topics we should cover, any resources you think we should include, any project ideas you think would be a good fit, or any feedback in general. Every little bit helps to make our curriculum better.
 
 ### Lessons in Development
 On a more granular level, [these are the lessons](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) we are currently developing for the courses. Please feel free to comment on any of them with any suggestions and ideas you have. If you would like to help us develop any of these lessons please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide) to find out how you can contribute.
