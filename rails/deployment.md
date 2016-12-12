@@ -8,7 +8,7 @@ We won't be digging into the advanced issues of deployment in this lesson... tha
 
 ## Heroku Overview
 
-It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2 (as covered in the [Startup Engineering course from Coursera](https://class.coursera.org/startup-001/lecture/index)).
+It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2.
 
 Heroku is great for beginners because it's a free and "simple" push-to-deploy system.  Their system is actually built on EC2 but it saves you a lot of hassle.  Because of this, when you DO get to the paid tiers, it will be more expensive than EC2 but should be worth it for a while.  The best part is that you get free high quality hosting for any number of new apps.
 
