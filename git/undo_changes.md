@@ -11,7 +11,7 @@ what the student is expected to know or be able to do by the end of this lesson
 * Learning outcome 3
 
 ## Assignment
-The list of resources the user will go through to learn about the topic of this lesson. Have no more than 5 resources, ideally no more than three.
+1. Read through this [short tutorial from Atlassian](https://www.atlassian.com/git/tutorials/undoing-changes) which covers all you need to know about undoing changes in git. 
 
 ## Exercises
 A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
