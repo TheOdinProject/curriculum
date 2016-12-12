@@ -4,6 +4,7 @@ A brief summary about what this lesson is about and why the topics or concepts i
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
+* You understand what the HEAD is in Git
 * You know how to reset to a previous commit
 * You know how to checkout a previous version of a file
 * You understand what revert does
