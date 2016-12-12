@@ -4,11 +4,10 @@ A brief summary about what this lesson is about and why the topics or concepts i
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-what the student is expected to know or be able to do by the end of this lesson
-
-* Learning outcome 1
-* Learning outcome 2
-* Learning outcome 3
+* You know how to reset to a previous commit
+* You know how to checkout a previous version of a file
+* You understand what revert does
+* You know how to clean new files from your project with git
 
 ## Assignment
 1. Read through this [short tutorial from Atlassian](https://www.atlassian.com/git/tutorials/undoing-changes) which covers all you need to know about undoing changes in git. 
