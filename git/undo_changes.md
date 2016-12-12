@@ -11,7 +11,8 @@ A brief summary about what this lesson is about and why the topics or concepts i
 * You know how to clean new files from your project with git
 
 ## Assignment
-1. Read through this [short tutorial from Atlassian](https://www.atlassian.com/git/tutorials/undoing-changes) which covers all you need to know about undoing changes in git. 
+1. Complete the second interactive lesson in Codecademys exellent Git course, [How to back track in git](https://www.codecademy.com/learn/learn-git) to get a feel for some of the basic ways to undo changes in Git.
+2. Read through this [short tutorial from Atlassian](https://www.atlassian.com/git/tutorials/undoing-changes) which covers all you need to know about undoing changes in git. 
 
 ## Exercises
 A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
