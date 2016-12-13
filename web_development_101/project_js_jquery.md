@@ -526,5 +526,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jason Mabry's Solution](https://github.com/jmabry111/etchasketch) | [View In Browser] (https://rawgit.com/jmabry111/etchasketch/master/index.html)
 * [Dan Sack's Solution](https://github.com/DanPete/etch_a_sketch) | [View In Browser] (https://danpete.github.io/etch_a_sketch/)
 * [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/sketchpad) | [View In Browser](https://roanfourie.github.io/the-odin-project/sketchpad)
-* [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser]
-(https://yashanand1910.github.io/sketchpad/)
+* [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser] (https://yashanand1910.github.io/sketchpad/)
+* [LeangSeu's Solution](https://github.com/leangseu/practice-jQuery) | [View in Browser] (https://cdn.rawgit.com/leangseu/practice-jQuery/master/index.html)
