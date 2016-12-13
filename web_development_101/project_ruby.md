@@ -255,6 +255,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [egg303's Solution](https://github.com/egg303/learn_ruby)
 * [Nuno Monteiro's Solution] (https://github.com/Nuno1123/lern_ruby)
 * [Yash Anand's Solution](https://github.com/yashanand1910/learn_ruby)
+* [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/learn_ruby)
 
 ## Additional Resources
 
