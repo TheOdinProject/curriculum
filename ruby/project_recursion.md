@@ -224,6 +224,8 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Marcus' solution](https://github.com/nestcx/recursion/blob/master/mergesort.rb)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-recursion/blob/master/merge_sort.rb)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/recursion/blob/master/merge_sort.rb)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/merge_sort)
+
 
 
 ## Additional Resources
