@@ -254,7 +254,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Václav Škvařil's Solution] (https://github.com/Vasha22/Test-First-Ruby)
 * [egg303's Solution](https://github.com/egg303/learn_ruby)
 * [Nuno Monteiro's Solution] (https://github.com/Nuno1123/lern_ruby)
-
+* [Yash Anand's Solution](https://github.com/yashanand1910/learn_ruby)
 
 ## Additional Resources
 
