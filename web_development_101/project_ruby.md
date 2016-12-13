@@ -204,12 +204,12 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [HenrytheDJ's solution](https://github.com/henrythedj/learn_ruby)
 * [Dave Smith's Solution](https://github.com/lah4life/learn_ruby)
 * [Sayan's Solution](https://github.com/ChoosingUsernameIsSoHard/project-ruby/tree/master)
-* [Karthik's Solution] (https://github.com/kmeda/web101_ruby_proj)
+* [Karthik's Solution](https://github.com/kmeda/web101_ruby_proj)
 * [Roy Chen's Solution](https://github.com/roychen5/learn_ruby)
 * [David Chapman's Solution](https://github.com/davidchappy/learn_ruby)
 * [Young Jeong's Solution](https://github.com/youngjeong46/the_odin_project/tree/master/learn_ruby)
-* [BJ Bryant's Solution] (https://github.com/bryantbj/learn_ruby)
-* [Loris Aranda's Solution] (https://github.com/LorisProg/learn_ruby)
+* [BJ Bryant's Solution](https://github.com/bryantbj/learn_ruby)
+* [Loris Aranda's Solution](https://github.com/LorisProg/learn_ruby)
 * [Chris Chambers' Solution](https://github.com/chrisgchambers/learn_ruby)
 * [Adam Levin's Solution](https://github.com/tutordelphia/learn_ruby)
 * [McBilly Sy's Solution](https://github.com/mcbilly/learn_ruby)
@@ -252,11 +252,13 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Siddharth Isaiah's Solution](https://github.com/siddharthisaiah/the_odin_project/tree/master/web_development_101/learn_ruby)
 * [Carlos Jimenez's Solution](https://github.com/RiverFloater/learn_ruby)
 * [Alvaro Sanchez's Solution](https://github.com/heyalvaro/learn_ruby)
-* [Václav Škvařil's Solution] (https://github.com/Vasha22/Test-First-Ruby)
+* [Václav Škvařil's Solution](https://github.com/Vasha22/Test-First-Ruby)
 * [egg303's Solution](https://github.com/egg303/learn_ruby)
-* [Nuno Monteiro's Solution] (https://github.com/Nuno1123/lern_ruby)
+* [Nuno Monteiro's Solution](https://github.com/Nuno1123/lern_ruby)
 * [Yash Anand's Solution](https://github.com/yashanand1910/learn_ruby)
 * [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/learn_ruby)
+* [Dan Sack's Solution](https://github.com/DanPete/learn_ruby)
+
 
 ## Additional Resources
 
