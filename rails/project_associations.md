@@ -23,7 +23,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 
 ### Your Task
 
-* Do the [Ruby on Rails Tutorial Chapter 11](http://ruby.railstutorial.org/chapters/user-microposts#top), "User microposts".
+* Do the [Ruby on Rails Tutorial Chapter 13](https://www.railstutorial.org/book/user_microposts), "User microposts".
 
 ## Project 2: Private Events
 
@@ -72,6 +72,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [Jamie's solution](https://github.com/Jberczel/private_events) | [View in browser](http://privent.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/private-events)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/private-events/private-events)
@@ -89,7 +90,31 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Andrej Dragojevic's solution](https://github.com/antrix1/PrivateEvents) | [View in browser](https://calm-refuge-3455.herokuapp.com/)
 * [dchen71's solution](https://github.com/dchen71/private-events) | [View in browser](http://ronchon-moliere-6251.herokuapp.com/)
 * [Matias Pan's solution](https://github.com/kriox26/private-events) | [View in browser](https://polar-refuge-9964.herokuapp.com/)
-* Add your solution above this line!
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/private-events)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/private-events)
+* [Radi Totev's solution](https://github.com/raditotev/private-events)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/private-events)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/private-events)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/private-events)
+* [srashidi's solution](https://github.com/srashidi/Active_Record_Associations/tree/master/private-events)
+* [Max Gallant's solution](https://github.com/mcgalcode/private-events) | [View in browser](https://secret-gorge-95812.herokuapp.com/)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/private-events)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/private-events)
+* [James Brooks's solution](https://github.com/jhbrooks/private-events) | [View in browser](https://polar-caverns-15299.herokuapp.com/)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/private-events)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project9--private-events/private-events)
+* [Mateo Mejia's solution](https://github.com/mateomgj/private-events) | [View in browser](https://fierce-brushlands-63385.herokuapp.com/)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/private-events) | [View in browser](https://private-events-rails.herokuapp.com)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/private-events)
+* [Martin Safer's solution](https://github.com/mtsafer/private-events) | [View in browser](https://aqueous-woodland-15720.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/private_events) | [View in browser](http://cryptic-mesa-97521.herokuapp.com/)
+* [John's solution](https://github.com/johnTheDudeMan/private_events)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/private-events)
+* [Till S.'s solution](https://github.com/gitseti/private-events) | [View in browser](https://protected-citadel-60271.herokuapp.com/)
+* [Frank V's solution](https://github.com/fv42wid/events)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/private_events) | [View in browser](https://fathomless-shore-10615.herokuapp.com/)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/private-events)
+* [Dylan's non RESTful solution](https://github.com/resputin/the_odin_project/tree/master/Rails/private-events)
 
 
 ## Additional Resources

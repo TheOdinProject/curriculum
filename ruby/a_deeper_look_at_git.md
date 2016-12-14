@@ -35,12 +35,12 @@ We'll begin by reading some things that are probably review from [Web Developmen
 **Note:** *Subversion* (SVN) was the widely used version control system prior to Git (and is still widely used in larger corporations) and that's why many of the readings below will reference it.  Just read the very top two sections of [this chapter from git-scm](http://git-scm.com/book/en/Git-and-Other-Systems-Git-and-Subversion) if you'd like a slightly better explanation.
 
 1. If you haven't had the chance to do so, go through the [Web Development 101 Git Basics section](/web-development-101/git-basics).
-2. If you're still feeling a bit shaky, look at [Git Basics](https://www.atlassian.com/git/tutorial/git-basics) from Atlassian.
+2. If you're still feeling a bit shaky, look at [Setting up a Repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/), [Saving Changes](https://www.atlassian.com/git/tutorials/saving-changes/), and [Inspecting a Repository](https://www.atlassian.com/git/tutorials/inspecting-a-repository/) from Atlassian.
 3. Read the section on [Undoing Changes](https://www.atlassian.com/git/tutorial/undoing-changes) from the same site.
-2. Read about [Using Feature Branches](https://www.atlassian.com/git/tutorial/git-branches) and then look at how it fits into a real workflow in [this section](/ruby-programming/using-git-in-the-real-world).
-3. Take a look at [Rewriting Git History](https://www.atlassian.com/git/tutorial/rewriting-git-history) to understand how Rebasing works.  There's a lot of debate out there about whether it's best to use a "Merge" or "Rebase" based workflow.  We'll stick with merge because it's a bit more straightforward and the errors can be a bit easy to get over, but you should be aware of rebasing as an alternative type of flow.
-4. Read about working with [Remote Repositories](https://www.atlassian.com/git/tutorial/remote-repositories), which should mostly be familiar to you by now.
-1. Layer onto your knowledge a bit deeper by reading [Pro Git chapters 2 and 3](http://git-scm.com/book).
+4. Read about [Using Feature Branches](https://www.atlassian.com/git/tutorial/git-branches) and then look at how it fits into a real workflow in [this section](/ruby-programming/using-git-in-the-real-world).
+5. Take a look at [Rewriting Git History](https://www.atlassian.com/git/tutorial/rewriting-git-history) to understand how Rebasing works.  There's a lot of debate out there about whether it's best to use a "Merge" or "Rebase" based workflow.  We'll stick with merge because it's a bit more straightforward and the errors can be a bit easy to get over, but you should be aware of rebasing as an alternative type of flow.
+6. Read about working with [Remote Repositories](https://www.atlassian.com/git/tutorial/remote-repositories), which should mostly be familiar to you by now.
+7. Layer onto your knowledge a bit deeper by reading [Pro Git chapters 2 and 3](http://git-scm.com/book).
 
 
 ## Additional Resources

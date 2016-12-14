@@ -62,7 +62,7 @@ You'll find yourself looking at this server output a lot when you start building
 
 ## Railsifying Your Form
 
-The first thing you'll realize if you try to create a plain vanilla form in a Rails view is that it won't work.  You'll either get an error or your user session will get zeroed out (depending on your Rails version).  That's because of a security issue with [cross-site scripting](http://en.wikipedia.org/wiki/Cross-site_scripting), so Rails requires you to verify that the form was actually submitted from a page you generated.  In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application.
+The first thing you'll realize if you try to create a plain vanilla form in a Rails view is that it won't work.  You'll either get an error or your user session will get zeroed out (depending on your Rails version).  That's because Rails by default automatically protects you from [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) and it requires you to verify that the form was actually submitted from a page you generated.  In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application.
 
 You'll notice the token in the server output from above:
 
@@ -262,6 +262,3 @@ At this point, you should have a solid understanding of how forms work in genera
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* [Rails Forms from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/forms-form_tag-params-attr_accessible-model-validation)
-* [Form_for from CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/introducing-form_for)

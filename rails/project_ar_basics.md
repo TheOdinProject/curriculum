@@ -62,7 +62,7 @@ This chapter of the tutorial will give you a chance to start working with the da
 
 ## Your Task
 
-1. Do the [Ruby on Rails Tutorial chapter 6](http://ruby.railstutorial.org/chapters/modeling-users#top), "Modeling Users".
+1. Do the [Ruby on Rails Tutorial chapter 6](https://www.railstutorial.org/book/modeling_users), "Modeling Users".
 
 
 ## Project 2: Micro-Reddit
@@ -74,16 +74,16 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 #### Get Started
 
 1. Just like in the warmup, plan out what data models you would need to allow users to be on the site (don't worry about login/logout or securing the passwords right now), to submit links ("posts"), and to comment on links.  Users do NOT need to be able to comment on comments... each comment refers to a Post.
-2. Generate a new rails app from the command line (`$ rails new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
+2. Generate a new rails app from the command line (`$ rails _5.0.0.1_ new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
 2. Generate your User model and fill out the migration to get the columns you want.
-3. Run the migration with `$ rake db:migrate`.  You can use `$ rake db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
+3. Run the migration with `$ rails db:migrate`.  You can use `$ rails db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
 
 #### Playing with Validations
 
 4. In a new tab, open up the `$ rails console`.  Try asking for all the users with `> User.all`.  You should get back an empty array (no users yet!).  Now create a blank new user and store it to a variable with `> u = User.new`.  This user has been created in the ether of Ruby's memory but hasn't been saved to the database yet.  Remember, if you'd used the `#create` method instead of the `#new` method, it would have just gone ahead and tried to save the new user right off the bat.  Instead, we now get to play with it.  
 5. Check whether your new user is actually valid (e.g. will it save if we tried?).  `> u.valid?` will run all the validations.  It comes up `true`... surprise! We haven't written any validations so that's to be expected.  It's also a problem because we don't want to have users running around with blank usernames.
 5. Implement the user validations you thought of in the first step in your `app/models/user.rb` file.  These might involve constraints on the size of the username and that it must be present (otherwise you'll potentially have users with no usernames!) and that it must be unique.
-6. Reload your console using `> reload!`.  You'll need to do this every time you make changes to your app so the console can reload the current version.  If it still seems broken, just `> quit` out of it and relaunch (sometimes `#reload!` doesn't seem to do the trick).  Build another new user but don't save it yet by using `> u2 = User.new`. Run `> u.valid?` again to run the validations and it should come up false. Good.
+6. Reload your console using `> reload!`.  You'll need to do this every time you make changes to your app so the console can reload the current version.  If it still seems broken, just `> quit` out of it and relaunch (sometimes `#reload!` doesn't seem to do the trick).  Build another new user but don't save it yet by using `> u2 = User.new`. Run `> u2.valid?` again to run the validations and it should come up false. Good.
 7. How do we find out what went wrong?  Rails is helpful because it actually attaches error messages directly onto your user object when you fail validations so you can read into them with the `#errors` method.  Try out `> u.errors` to see the errors or, better, `> u.errors.full_messages` to return a nice friendly array of messages.  If you wrote custom messages into your validations, they will show up here as well.
 8. Create a user who will actually save with `> u3 = User.new(your_attributes_here)` and run the validations.  They should come up true.  Save your user with the `#save` method so you've got your first user in the database.
 
@@ -117,6 +117,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/micro_reddit)
 * [Voizzzz' solution](https://github.com/voizzzz/microreddit)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * [Afshin's solution](https://github.com/afshinator/micro-reddit)
@@ -142,7 +144,33 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [dchen71's solution](https://github.com/dchen71/micro-reddit)
 * [Matias Pan's solution](https://github.com/kriox26/micro-reddit)
 * [Alex Chen's solution](https://github.com/Chenzilla/micro_reddit)
-* Add your solution above this line!
+* [Dan Hoying's solution](https://github.com/danhoying/micro_reddit)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/micro-redit)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/Micro-Reddit)
+* [Alex Tsiras' solution](https://github.com/arialblack14/micro_reddit)
+* [Patrick Mallee's solution](https://github.com/patmallee/micro-reddit)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/micro-reddit)
+* [srashidi's solution](https://github.com/srashidi/Active_Record_Basics/tree/master/micro-reddit)
+* [Radi Totev's solution](https://github.com/raditotev/micro-reddit)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/micro-reddit)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/micro-reddit)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/micro-reddit)
+* [Max Gallant's solution](https://github.com/mcgalcode/micro-reddit)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/micro-reddit)
+* [James Brooks's solution](https://github.com/jhbrooks/micro-reddit)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/micro-reddit)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project6--micro-reddit/micro-reddit)
+* [Arthur Vieira's solution](https://github.com/arthur-vieira/micro-reddit)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/micro_reddit)
+* [Deepak's solution](https://github.com/Deepak5050/reddit_two/tree/master/app/models)
+* [Earth35's solution](https://github.com/Earth35/models-exercise)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/micro_reddit)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/micro-reddit)
+* [djhart's solution](https://github.com/djhart/micro-reddit)
+* [csrail's solution](https://github.com/csrail/micro-reddit/tree/master/app/models)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/micro-reddit)
+* [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/active_record/micro-reddit)
+
 
 ## Additional Resources
 

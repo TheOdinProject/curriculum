@@ -24,7 +24,7 @@ Remember that your goal here is to absorb the most important concepts and contin
 ## Your Assignment
 
 1. Read [Startups, This is How Design Works](http://startupsthisishowdesignworks.com/)
-2. Read [UX 101 -- What is User Experience from Dashburst.com](http://dashburst.com/infographic/ux-101-what-is-user-experience/)
+2. Read [UX 101 -- What is User Experience from Dashburst.com](https://blog.dashburst.com/infographic/ux-101-what-is-user-experience/)
 3. Get [A more detailed look at what UX really is from Smashing Magazine](http://uxdesign.smashingmagazine.com/2010/10/05/what-is-user-experience-design-overview-tools-and-resources/).  Don't worry about absorbing all the tools and techniques... focus on the high level stuff at the top.
 4. Read [A very simple overview of Visual Hierarchy from 52weeksofUX](http://52weeksofux.com/post/443828775/visual-hierarchy)
 5. Read about the [C.R.A.P Design Principles](http://www.presentationzen.com/chapter6_spread.pdf), which you've been subconsciously aware of for years.
@@ -43,3 +43,5 @@ Remember that your goal here is to absorb the most important concepts and contin
 * [Using Photoshop to Design Interfaces](http://nathanbarry.com/how-to-use-photoshop-to-design-interfaces/)
 * [A more abstract article on "Learning to See" from ia.net](http://ia.net/blog/learning-to-see/)
 * [Usability 101 for Startups from Ripul Kumar](https://medium.com/design-ux/dc849621262f)
+* [A large collection of free ux books](http://www.uxpin.com/knowledge.html )
+* [This very extensive free ux course](https://www.mysliderule.com/learning-paths/user-experience-design )

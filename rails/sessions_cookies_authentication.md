@@ -2,7 +2,7 @@
 
 ## Introduction
 
-"Sessions" are the idea that your user's state is somehow preserved when he/she clicks from one page to the next.  Rememeber, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.  
+"Sessions" are the idea that your user's state is somehow preserved when he/she clicks from one page to the next.  Remember, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.  
 
 In this lesson you'll learn about sessions, browser cookies, and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
@@ -117,7 +117,7 @@ Finally, filters are inherited so if you'd like a filter to apply to absolutely 
 
 ## Authentication
 
-The whole point of authentication is to make sure that whoever is requesting to run an action is actually allowed to do so.  The standard way of managing this is through logging in your user via a sign in form.  Once the user is logged in, you keep track of that user using the session until the user logs out.
+The whole point of authentication is to make sure that the user is who they say they are.  The standard way of managing this is through logging in your user via a sign in form.  Once the user is logged in, you keep track of that user using the session until the user logs out.
 
 A related concept is authorization.  Yes, you may be signed in, but are you actually authorized to access what you're trying to access?  The typical example is the difference between a regular user and an admin user.  They both authenticate with the system but only the admin is authorized to make changes to certain things.
 

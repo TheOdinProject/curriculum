@@ -4,7 +4,7 @@ Welcome to Rails! Maybe you've skipped right here because you just want to start
 
 You should already have a good idea of what Rails is all about after covering it in previous lessons (see Prerequisites below for links).  At this point, it's time to take that theoretical knowledge and start building websites.  This portion of the curriculum will be the most build-heavy so far.  You will still be asked to read docs, check out blog posts, and watch videos before building, of course, but projects will be the major focus.
 
-After each lesson or two, you'll be asked to build one or more independent projects utilizing the concepts that were just covered (which is exactly what we've been doing up until now).  You'll also be asked to complete a chapter or two from the [Ruby on Rails Tutorial](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book) by Michael Hartl.  
+After each lesson or two, you'll be asked to build one or more independent projects utilizing the concepts that were just covered (which is exactly what we've been doing up until now).  You'll also be asked to complete a chapter or two from the [Ruby on Rails Tutorial](https://www.railstutorial.org/book) by Michael Hartl.  
 
 That tutorial is often too deep for fresh beginners to Rails but we'll be using it as way to build a single large project one chapter at a time while you progress through the lessons.  You should have a much better idea of what's going on in the tutorial than your average beginner since we'll be covering each of its component concepts prior to actually building it in the tutorial.
 
@@ -20,7 +20,7 @@ Finally, we'll cover additional useful topics like how to send emails from your 
 
 ## Our Tools and Texts
 
-The most important resources that we'll leverage are the [Rails Guides](http://guides.rubyonrails.org/) and the [Ruby on Rails Tutorial](http://ruby.railstutorial.org/ruby-on-rails-tutorial-book).  Together, they comprise a near-complete set of open-source resources for learning Rails.  
+The most important resources that we'll leverage are the [Rails Guides](http://guides.rubyonrails.org/) and the [Ruby on Rails Tutorial](https://www.railstutorial.org/book).  Together, they comprise a near-complete set of open-source resources for learning Rails.  
 
 The Guides are comprehensive, basically a completely open-source textbook and reference manual for Rails.  At times they'll get a bit more technical than you might like, and it may be okay to skim some of that.  When you Google for a solution later, if it's not showing up on Stack Overflow then it's probably going to give you a link to the Guides. 
 
@@ -51,4 +51,3 @@ As you can see, I frequently relied on the main resources you'll be learning fro
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [StackOverflow: Summary of Ruby on Rails Fundamental Concepts](http://stackoverflow.com/questions/5205002/summary-of-ruby-on-rails-fundamental-concepts)
-* If you want to dive right into a full on interactive Rails course in the browser, give [Code Learn](http://www.codelearn.org/ruby-on-rails-tutorial) a shot (and let us know what you think)

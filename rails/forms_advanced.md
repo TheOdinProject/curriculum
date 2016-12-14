@@ -58,7 +58,7 @@ But Rails provides some less verbose ways of doing the same thing, namely using 
     # app/controllers/posts_controller.rb
     ...
     def new
-      @user_options = User.all.map{|u| [ u.name, u.id ] }
+      @user_options = User.all.map{ |u| [ u.name, u.id ] }
       @post = Post.new
     end
     ...
@@ -176,9 +176,9 @@ Sometimes Rails helper methods will do it for you, but make sure you know what y
 
 ## Your Assignment
 
-1. Read the [Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html) sections 3.3, which covers populating a form with a collection of objects.
+1. Read the [Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#option-tags-from-a-collection-of-arbitrary-objects) sections 3.3, which covers populating a form with a collection of objects.
 2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 9, which covers accepting nested form data.
-2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#building-complex-forms) section 7, which covers the parameter conventions for nested forms.
+2. Read the [Same Rails Guide on Forms](http://guides.rubyonrails.org/form_helpers.html#understanding-parameter-naming-conventions) section 7, which covers the parameter conventions for nested forms.
 3. Read [this blog post from Peter Rhoades](http://createdbypete.com/articles/working-with-nested-forms-and-a-many-to-many-association-in-rails-4/) on working with nested forms.  The example covers a lot of the things we've gone over so far, so follow along.  Also note how he does the whitelisting of nested attributes in Rails 4.
 
 ## Conclusion
@@ -193,8 +193,8 @@ The best part?  This is more or less the most complicated conceptual stuff with 
 
 
 * [Simple Form Documentation on Github](https://github.com/plataformatec/simple_form)
-* [accepts_nested_attributes_for documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
+* [`accepts_nested_attributes_for` documentation](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
 * [Another example of a nested form on SO](http://stackoverflow.com/questions/15648396/rails-how-to-manage-nested-attributes-without-using-accepts-nested-attributes?rq=1)
-* [Using inverse_of to make accepts_nested_attributes_for work for has_many :through relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
+* [Using `inverse_of` to make `accepts_nested_attributes_for` work for `has_many :through` relationships](http://robots.thoughtbot.com/accepts-nested-attributes-for-with-has-many-through)
 * [Understanding Rails' form authenticity tokens](http://stackoverflow.com/questions/941594/understand-rails-authenticity-token)
 * [Why not to hardcode your application's secret token in production](http://daniel.fone.net.nz/blog/2013/05/20/a-better-way-to-manage-the-rails-secret-token/)

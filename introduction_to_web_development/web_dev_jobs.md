@@ -47,3 +47,4 @@ Developers at web consultancies like Pivotal Labs, Thoughtbot, and ThoughtWorks 
 * [Your career in GIFs](http://net.tutsplus.com/articles/general/the-11-phases-of-a-web-developers-career-as-illustrated-by-memes/)
 * [A look at the new "Developer Evangelist" roles](http://thenextweb.com/dd/2012/06/03/a-day-in-the-life-of-a-developer-evangelist/)
 * [Salaries around the world from staff.com](http://www.staff.com/blog/it-jobs-with-the-highest-pay-and-fastest-growth-infographic/)
+* [Sam Lambert interview -- GitHub: Scaling on Ruby, with a nomadic tech team](https://medium.com/s-c-a-l-e/github-scaling-on-ruby-with-a-nomadic-tech-team-4db562b96dcd)

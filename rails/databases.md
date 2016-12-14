@@ -117,7 +117,7 @@ If you want to get all the posts created by a given user, you need to tell SQL w
 
 *Note: the "left" table is the original table (the one that the `FROM` clause was `ON`), e.g. "users" in examples below.*
 
-*See ["A visual explanation of sql joins"](http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html) by Jeff Atwood for good visuals.*
+*See ["A visual explanation of sql joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.*
 
 1. `INNER JOIN`, aka `JOIN` -- Your best friend and 95% of what you'll use.  Keeps only the rows from both tables where they match up.  If you asked for all the posts for all users (`SELECT * FROM users JOIN posts ON users.id = posts.user_id`), it would return only the users who have actually written posts and only posts which have specified their author in the `user_id` column.  If an author has written multiple posts, there will be multiple rows returned (but the columns containing the user data will just be repeated).
 1. `LEFT OUTER JOIN` -- keep all the rows from the left table and add on any rows from the right table which match up to the left table's.  Set any empty cells this produces to `NULL`.  E.g. return all the users whether they have written posts or not.  If they do have posts, list those posts as above.  If not, set the columns we asked for from the "posts" table to `NULL`.
@@ -163,7 +163,7 @@ You probably got lost somewhere in the above explanation and that's just fine...
 
 Learning this stuff is particularly relevant because it's MUCH faster for you to build queries that use SQL intelligently than to just grab a whole bunch of data out of your database and then use Ruby to process it.  For instance, if you want all the unique names of your users, you COULD just grab the whole list from your database using SQL like `SELECT users.name FROM users` (which Active Record will do for you with `User.select(:name)`) then remove duplicates using Ruby's `#uniq` method, e.g. `User.select(:name).uniq`... but that requires you to pull all that data out of your database and then put it into memory and then iterate through it using Ruby.  Use `SELECT DISTINCT users.name FROM users` instead to have SQL do it all in one step.
 
-SQL is built to be fast.  It has a special query optimizer which takes a look at the whole query you're about to run and it figures out exactly which tables it needs to join together and how it can most quickly execute the query.  The difference between using `SELECT` and `SELECT DISTINCT` is negligible compared to the time cost of doing it in Ruby.  Learning your SQL will help you write Active Record queries that can do more which will make you app much faster.  
+SQL is built to be fast.  It has a special query optimizer which takes a look at the whole query you're about to run and it figures out exactly which tables it needs to join together and how it can most quickly execute the query.  The difference between using `SELECT` and `SELECT DISTINCT` is negligible compared to the time cost of doing it in Ruby.  Learning your SQL will help you write Active Record queries that can do more which will make your app much faster.  
 
 
 ## Your Assignment
@@ -186,7 +186,8 @@ The next step, once you've had a chance to practice this all in the project, is 
 
 
 * Odinite Hunter D made his excellent notes into a [Github Book on SQL](http://hgducharme.gitbooks.io/sql-basics/content/) which you should totally check out if you want a decent resource.
-* Read [Zed Shaw's Learning SQL The Hard Way](http://www.w3schools.com/sql/trysql.asp?filename=trysql_select_groupby).  It is imperfect and also incomplete but should help solidify things for you.  It'll have you doing a fair bit of work from the command line, so you'll get a chance to catch up on your Bash scripting as well.  Double whammy!
+* Read [Zed Shaw's Learning SQL The Hard Way](http://sql.learncodethehardway.org/book/).  It is imperfect and also incomplete but should help solidify things for you.  It'll have you doing a fair bit of work from the command line, so you'll get a chance to catch up on your Bash scripting as well.  Double whammy!
 * [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
-* See ["A visual explanation of sql joins"](http://www.codinghorror.com/blog/2007/10/a-visual-explanation-of-sql-joins.html) by Jeff Atwood for good visuals.
+* See ["A visual explanation of sql joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.
 * See [this table-based visualization of SQL queries created by A.Z. (an Odin student)](https://www.icloud.com/iw/#numbers/BAJb20dRq9fmGvZz0vqBMzmeQzcJWv2uzXGF/sql)
+* Another interactive sql tutorial from [SQL bolt](http://sqlbolt.com)

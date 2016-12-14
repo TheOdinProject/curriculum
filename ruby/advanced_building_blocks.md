@@ -39,7 +39,7 @@ This lesson gets more into the topics you may have been shaky on before like *Co
         * `#times`?
     * What's the difference between `while` and `until`?
     * How do you stop a loop?
-    * How to you skip to the next iteration of a loop?
+    * How do you skip to the next iteration of a loop?
     * How would you start the loop over again?
     * What are the (basic) differences between situations when you would use `while` vs `#times` vs `#each`?
     * What does nesting loops mean and when would you use it?
@@ -68,7 +68,7 @@ This lesson gets more into the topics you may have been shaky on before like *Co
 
     * What is a module?
     * Why are modules useful?
-    * What does `#each` do? 
+    * What does `#each` do?
     * What does `#each` return?
     * What does `#map` do?
     * What does `#map` return?
@@ -114,8 +114,8 @@ This lesson gets more into the topics you may have been shaky on before like *Co
     5. [Hashes and Symbols](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw?curriculum_id=5059f8619189a5000201fbcb)
     6. [Project: A Night at the Movies](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb)
     7. [Blocks, Procs, and Lambdas](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb)
-        
-2. Finish [Beginning Ruby](http://beginningruby.org/) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
+
+2. Finish [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 50-76)
 3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
 
     1. [Ruby Explained: Conditionals and Flow Control](http://www.eriktrautman.com/posts/ruby-explained-conditionals-and-flow-control)
@@ -128,14 +128,10 @@ This lesson gets more into the topics you may have been shaky on before like *Co
 
 Make sure you can do the following quizzes from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
 
-2. [Beginner Ruby Quiz #2](http://www.codequizzes.com/learn-ruby/arrays-conditionals-loops)
-3. [Quiz #3](http://www.codequizzes.com/learn-ruby/variable-scope-methods)
-4. [Quiz #4](http://www.codequizzes.com/learn-ruby/symbols-array-methods-hashes)
-5. [Quiz #6](http://www.codequizzes.com/learn-ruby/iteration-nested-data-structures) 
-
-## (Optional) Extra Practice
-
-Complete the [Neo Ruby Koans](http://rubykoans.com/) exercises. You have to complete/debug the code it provides until it passes the tests before you can go on with the next exercise (TDD approach). 
+2. [Beginner Ruby Quiz #2](http://www.codequizzes.com/ruby/beginner/arrays-conditionals-loops)
+3. [Quiz #3](http://www.codequizzes.com/ruby/beginner/variable-scope-methods)
+4. [Quiz #4](http://www.codequizzes.com/ruby/beginner/symbols-array-methods-hashes)
+5. [Quiz #6](http://www.codequizzes.com/ruby/beginner/iteration-nested-data-structures)
 
 ## Additional Resources
 
@@ -147,9 +143,9 @@ Complete the [Neo Ruby Koans](http://rubykoans.com/) exercises. You have to comp
 * See [these answers on the Spaceship Operator](http://stackoverflow.com/questions/827649/what-is-the-ruby-spaceship-operator)
 * Read [Zetcode's Flow Control section](http://zetcode.com/lang/rubytutorial/flowcontrol/) for more depth on flow control.
 * If you want a bit more, check out [Skork's entry on Ruby looping and iterators](http://www.skorks.com/2009/09/a-wealth-of-ruby-loops-and-iterators/)
-* [Understanding Blocks Procs and Lambdas](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 * [Why can you either `yield` to blocks or make them explicit?  Who cares? (from SO)](http://stackoverflow.com/questions/1410160/ruby-proccall-vs-yield)
 * [Writing your Own Methods](http://rubylearning.com/satishtalim/writing_own_ruby_methods.html)
 * A quick guide on writing methods from [wikibooks](http://en.wikibooks.org/wiki/Ruby_Programming/Writing_methods)
 * [Getting to Hello World](http://en.wikibooks.org/wiki/Ruby_Programming/Hello_world)
 * [LRTHW chapters 13-14](http://ruby.learncodethehardway.org/book/)
+* Want to get some feedback on your code? Try problems and submit your solutions on [Exercism](http://exercism.io/languages/ruby)

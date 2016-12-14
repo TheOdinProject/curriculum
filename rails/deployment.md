@@ -8,7 +8,7 @@ We won't be digging into the advanced issues of deployment in this lesson... tha
 
 ## Heroku Overview
 
-It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2 (as covered in the [Startup Engineering course from Coursera](https://class.coursera.org/startup-001/lecture/index)).
+It should be noted that Heroku is far from the only place to deploy, it just happens to be the most straightforward for a beginner.  You could also deploy directly to EC2.
 
 Heroku is great for beginners because it's a free and "simple" push-to-deploy system.  Their system is actually built on EC2 but it saves you a lot of hassle.  Because of this, when you DO get to the paid tiers, it will be more expensive than EC2 but should be worth it for a while.  The best part is that you get free high quality hosting for any number of new apps.
 
@@ -43,7 +43,7 @@ Another great feature of Heroku is add-ons.  These are third party applications 
 Some of the most useful ones to you will be:
 
 1. [New Relic](https://devcenter.heroku.com/articles/newrelic) -- It is an application monitoring and analytics service, so you know when your application has gone down or where your bottlenecks are.  They have a free plan which is useful just for the analytics but also has the added bonus of allowing you to set up "pinging" for your application (which prevents it shutting down).  See [This Article on Coderwall](https://coderwall.com/p/u0x3nw) for a brief description of how to set up New Relic pinging to avoid Heroku idling.
-2. [PGBackups](https://devcenter.heroku.com/articles/pgbackups) -- this add-on lets you make backups of your database.  There's nothing worse than losing data, and so this app will make your life a lot easier.  The free tier lets you manually download backups or set up Rake tasks to do the same.
+2. [PGBackups](https://devcenter.heroku.com/articles/pgbackups) -- this add-on lets you make backups of your database.  There's nothing worse than losing data, and so this app will make your life a lot easier.  The free tier lets you manually download backups or set up rake tasks to do the same.
 3. [SendGrid](https://devcenter.heroku.com/articles/sendgrid) is an email service, which we'll cover more later.  You can't send email without help and it's actually incredibly complex behind the scenes.  This add-on makes your life a lot easier by doing most of it for you.
 4. Visit [Heroku Addons Center](https://addons.heroku.com/) for more information on available addons.
 
@@ -53,14 +53,14 @@ Note that you'll probably be prompted for your billing information when installi
 
 If you haven't deployed to Heroku before and this is your first time, feel free to just skim this section.  It's meant to be a handy reference for later.
 
-The details of deployment will be left to Michael Hartl in the project, but we'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 4" guide](https://devcenter.heroku.com/articles/getting-started-with-rails4).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rake db:migrate` and using the console is `$ heroku run console`.
+The details of deployment will be left to Michael Hartl in the project, but we'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 5.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails5).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
 
 * Download and install the Heroku Toolbelt.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
 * Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
 * Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up PostgreSQL for production since it's the only database Heroku uses.  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
 * Create a new Heroku application from the command line using `$ heroku create`.  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
 * Ready? Push using the command `$ git push heroku master`.  
-* But wait, there's more!  The last step you'll need to do is manually set up your database.  Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku.  If it's your first database, you'll likely do something like `$ heroku run rake db:migrate`.  If you've set up seeds, you can also run them now.
+* But wait, there's more!  The last step you'll need to do is manually set up your database.  Any time you run migrations or otherwise alter your database, you will need to remember to also run them on Heroku.  If it's your first database, you'll likely do something like `$ heroku run rails db:migrate`.  If you've set up seeds, you can also run them now.
 
 ### What's Going On?
 
@@ -78,7 +78,7 @@ Once precompilation is complete, Heroku will fire up a dyno with your applicatio
 
 A brief list of Heroku commands you should know:
 
-* `$ heroku run rake db:migrate`
+* `$ heroku run rails db:migrate`
 * `$ heroku run console` gives you a Rails console, though in Production (so don't mess around with things, this is real data!)
 * `$ heroku logs -t` shows you your server logs (like you're used to when running `$ rails server`) on a streaming basis (which is the result of the `-t`, or "tail" flag).  See [this Heroku post](https://devcenter.heroku.com/articles/logging) for more information on logging.
 * `$ heroku restart` -- for if your application has failed and won't start up.  See [this SO post](http://stackoverflow.com/questions/14612695/heroku-how-can-i-restart-my-rails-server) for more.
@@ -128,7 +128,7 @@ Dialing things back to the local environment, here are a few useful things to kn
 
 We won't have too much reading here because many of the links are interspersed with the sections above and, **if you're a complete beginner, you can safely skip this until later**.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
 
-1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails4) for a step-by-step guide to deploying.
+1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails5) for a step-by-step guide to deploying.
 2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
 
 ## Conclusion

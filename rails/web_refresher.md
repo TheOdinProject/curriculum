@@ -48,7 +48,7 @@ The URL is: https://www.google.com/search?q=what+is+a+url
 3. What is the "Top Level Domain"?
 4. What is the "Protocol"?
 
-Once you understand what these components are, you can easily use Ruby's libraries to help you build your own and send a requests.  You also run into specific pieces like the "path" and "parameters" again and again when using Rails.
+Once you understand what these components are, you can easily use Ruby's libraries to help you build your own and send requests.  You also run into specific pieces like the "path" and "parameters" again and again when using Rails.
 
 *Answers: 1. /search 2. q=what+is+a+url 3. com 4. https*
 
@@ -126,7 +126,7 @@ On the server side, you will end up writing (or using) methods which restrict ac
 
 ## Conclusion
 
-We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before about how requests are made because it brings a couple extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.  
+We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.  
 
 ## Additional Resources
 
@@ -134,5 +134,4 @@ We'll dig into this stuff a bit later, but it's good to understand in the contex
 
 
 * [HTTP explained by Harvard's David Malan](http://www.youtube.com/watch?v=8KuO4r5CHjM)
-* [Rails MVC explained by CodeLearn](http://www.codelearn.org/ruby-on-rails-tutorial/mvc-in-rails)
 * [HTTP Request/Response Basics](http://justahelp.blogspot.com/2013/09/http-requestresponse-basics.html) from Pralay Roy

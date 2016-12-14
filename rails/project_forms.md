@@ -117,6 +117,8 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your below above this line!
+* [Austin's solution](https://github.com/CouchofTomato/reformer)
 * [spierer's solution](https://github.com/spierer/odin-forms)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/re-former) | [walkthrough](http://jberczel.github.io/forms-walkthrough/)
 * [Afshin M's solution](https://github.com/afshinator/re-former)
@@ -140,8 +142,34 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Matias Pan's solution](https://github.com/kriox26/re-former)
 * [Tomislav Mikulin's solution](https://github.com/MrKindle85/re-former)
 * [Alex Chen's solution](https://github.com/Chenzilla/re-former)
-* Add your solution above this line!
-
+* [Dan Hoying's solution](https://github.com/danhoying/re_former)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/re-former)
+* [Aviv Levinsky's solution](https://github.com/pugsiman/re-former)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/re-former)
+* [Alex Tsiras' solution](https://github.com/arialblack14/re-former)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/re-former)
+* [Radi Totev's solution](https://github.com/raditotev/re-former)
+* [srashidi's solution](https://github.com/srashidi/Forms/tree/master/re-former)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/re-former)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/re-former)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/re-former)
+* [Max Gallant's solution](https://github.com/mcgalcode/re-former)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/re-former)
+* [James Brooks's solution](https://github.com/jhbrooks/re-former)
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/re-former)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project7--bare-metal-forms-and-helpers/re-former)
+* [Arthur Vieira's solution](https://github.com/arthur-vieira/re-former)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/re-former)
+* [Deepak's solution](https://github.com/Deepak5050/re-former-v2.git)
+* [Earth35's solution](https://github.com/Earth35/re-former)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/project_forms)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/re-former)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/re-former)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/re-former)
+* [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/forms/re-former)
+* [Joe Himes's solution](https://github.com/deedle42/re-former.git)
+* [DV's solution](https://github.com/dvislearning/re-former)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/re-former)
 
 ## Project 2: Ruby on Rails Tutorial
 
@@ -154,6 +182,3 @@ This chapter will take what you now know about forms and make it part of a real 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-
-*

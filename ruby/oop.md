@@ -37,7 +37,7 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
     * What is the difference between a "getter" and a "setter" method?
     * How do you make instance variables readable outside your class?  Writeable? Both at the same time?
     * Can a class call its own class methods?
-    * What's the difference between when would you use a class variable and when you would use a constant?
+    * What's the difference between when you would use a class variable and when you would use a constant?
     * What's the difference between a class and a module?
     * When would you use a class but not a module?
     * How does inheritance work?
@@ -59,7 +59,7 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 ## Your Assignment:
 
 1. Do [Codecademy Ruby sections 7, 9, and 10](http://www.codecademy.com/tracks/ruby):
-  
+
     1. [Refactoring](http://www.codecademy.com/courses/ruby-beginner-en-1o8Mb?curriculum_id=5059f8619189a5000201fbcb)
     2. [Project: The Refactor Factory](http://www.codecademy.com/courses/ruby-beginner-en-Zjd2y?curriculum_id=5059f8619189a5000201fbcb)
     3. [Object-Oriented Programming, Part I](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6?curriculum_id=5059f8619189a5000201fbcb)
@@ -67,10 +67,10 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
     5. [Object-Oriented Programming, Part II](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o?curriculum_id=5059f8619189a5000201fbcb)
     6. [Project: Banking on Ruby](http://www.codecademy.com/courses/ruby-beginner-en-32cN3?curriculum_id=5059f8619189a5000201fbcb)
 
-2. Read [Beginning Ruby](http://beginningruby.org/) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
-3. Read [Beginning Ruby](http://beginningruby.org/) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
-4. Read [Beginning Ruby](http://beginningruby.org/) Chapter 7: `Projects and Libraries`
-5. Read [Beginning Ruby](http://beginningruby.org/) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
+2. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
+3. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
+4. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 7: `Projects and Libraries`
+5. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
 6. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Points to Ponder" section:
 
     3. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
@@ -82,18 +82,16 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 
 ## Test Yourself
 
-1. Make sure you can do [Quiz #5](http://www.codequizzes.com/learn-ruby/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
-2. Make sure you can do [Quiz #7](http://www.codequizzes.com/learn-ruby/modules-classes-inheritance) as well.
-1. Then do their [Practical Object Oriented Design Quiz](http://www.codequizzes.com/ruby/practical-object-oriented-design), which will delve deeper into design principles.  There are some new concepts here to pick up as well.
+1. Make sure you can do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
+2. Make sure you can do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330) from Sandi Metz.
-* [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to the Metz book, in about 40 minutes.
-* [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/)
-* Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/)
-* Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down)
-
+* If you'd still like to learn more about how to really design more concise, effective, purposeful classes, check out [Practical Object-Oriented Design in Ruby](https://amzn.com/B0096BYG7C) by Sandi Metz.
+* [This video presentation from Kevin Berridge](http://vimeo.com/91672848) covers major themes of practical object-oriented design, with many references to Sandi Metz's book, in about 40 minutes.
+* [Zetcode's Variables section](http://zetcode.com/lang/rubytutorial/variables/).
+* Now you're ready to read through [Zetcode's OOP section](http://zetcode.com/lang/rubytutorial/oop/).
+* Read through [Zetcode's second OOP section](http://zetcode.com/lang/rubytutorial/oop2/) until they start talking about exceptions (~80% of the way down).

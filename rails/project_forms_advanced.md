@@ -70,6 +70,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
 * [spierer's solution](https://github.com/spierer/odin-advanced-forms)
 * [jamie's solution](https://github.com/Jberczel/Flight_Booker) | [View in browser](http://flight-booker.herokuapp.com)
 * [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View in browser](http://dna-flight-booker.herokuapp.com/)
@@ -83,7 +84,31 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_flight_booker)
 * [Andrej Dragojevic's solution](https://github.com/antrix1/flight-booker) | [View in browser](https://blooming-mountain-4761.herokuapp.com/)
 * [dchen71's solution](https://github.com/dchen71/odin-flight-booker) | [View in browser](http://true-syrup-4655.herokuapp.com/)
-* Add your solution above this line!
+* [Matias Pan's solution](https://github.com/kriox26/flight-booker) | [View in browser](https://vast-ridge-2462.herokuapp.com/)
+* [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/rails/flight-booker)
+* [Tomislav Mikulin's solution](https://github.com/MrKindle85/tom-flight-booker)
+* [Hassan Mahmoud's solution](https://github.com/HassanTC/Flight-Booker)
+* [Radi Totev's solution](https://github.com/raditotev/flight_booker)
+* [Patrick Mallee's solution](https://github.com/patmallee/flight-booker)
+* [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/rails/flight-booker)
+* [Luke Walker's solution](https://github.com/ubershibs/rails_course/tree/master/odin-flight-booker)
+* [srashidi's solution](https://github.com/srashidi/Advanced_Forms/tree/master/odin-flight-booker)
+* [Scott Bobbitt's solution](https://github.com/sco-bo/flight-booker) | [View in Browser](https://radiant-fortress-17197.herokuapp.com/)
+* [James Brooks's solution](https://github.com/jhbrooks/flight-booker) | [View in browser](https://rocky-earth-72202.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/odin-flight-booker)
+* [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flight-booker)
+* [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project10--odin-flight-booker/odin-flight-booker)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/odin-flight-booker) | [View in browser](https://flight-booker-stefan.herokuapp.com/)
+* [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker) | [View in browser](https://flight-booker-rails.herokuapp.com)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in browser](https://guarded-atoll-24378.herokuapp.com/)
+* [Frank V's solution](https://github.com/fv42wid/flight)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/odin-flight-booker) | [View in browser](http://top-flight-booker.herokuapp.com/)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/odin-flight-booker)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_flight_booker) | [View in browser](https://shrouded-earth-72460.herokuapp.com/)
+* [Cody Loyd's Solution](https://github.com/codyloyd/flight_booker) | [View in Browser](https://intense-peak-10624.herokuapp.com/)
+* [Rhys B.'s Solution](https://github.com/105ron/flight_booker) | [View in Browser](https://secure-depths-25814.herokuapp.com)
+* [David Chapman's Solution](https://github.com/davidchappy/flight_booker)
+* [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
 
 ## Additional Resources
 

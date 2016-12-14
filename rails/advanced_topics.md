@@ -53,13 +53,13 @@ Just note that the word "resource" is singular and so is `dashboard`.  That trip
 The `$ rake routes` for a singular resource would only contain 6 routes (since we don't use `#index` anymore), and you would no longer see any of the `:id` portions of the routes, e.g.
 
 ```language-bash
-  new_dashboard  GET /dashboard/new(.:format)  dashboards#new
+  edit_dashboard  GET /dashboard/edit(.:format)  dashboards#edit
 ```
 
 ...compared with the plural version of the same route:
 
 ```language-bash
-  new_post  GET /posts/:id/new(.:format)  posts#new    
+  edit_post  GET /posts/:id/edit(.:format)  posts#edit
 ```
 
 #### Additional Resources
@@ -267,7 +267,7 @@ Basically, `#method_missing` is a method of Ruby's `BasicObject` class which get
 
 Metaprogramming is really nifty stuff and there are tons of interesting uses for it.  You don't need to master it to learn Rails, so only dive into it once you're comfortable with Rails, but it will certainly be useful to you in the real world.  There are all kinds of metaprogramming tricks and patterns and tips out there but it's beyond the scope of this course to dive into them.  
 
-Here's a good example of [simple metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/16-dry-metaprogramming).
+Here's a good example of [simple metaprogramming to DRY up your code](http://rails-bestpractices.com/posts/2010/07/24/dry-metaprogramming/).
 
 Check out [Metaprogramming Ruby](http://www.amazon.com/Metaprogramming-Ruby-Program-Like-Pros/dp/1934356476) by Paolo Perrotta if you're really curious.  
 
@@ -321,3 +321,4 @@ With all that completed, there's not much else to go... it's time to get started
 * See the first solution to [this SO question](http://stackoverflow.com/questions/4208380/confused-on-advanced-rails-layout-nesting) for a nice way to work with multiple layouts that use classes to trigger different CSS styling.
 * [Ruby Metaprogramming](http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_2.html)
 * [SO post on design patterns in Rails (2010)](http://stackoverflow.com/questions/2522065/design-patterns-in-rails)
+* [A longer explanation of SOLID principles](https://www.youtube.com/watch?v=8STtzjyDTTQ)

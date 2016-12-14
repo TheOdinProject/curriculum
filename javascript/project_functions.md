@@ -24,6 +24,7 @@ The basic rules are that the player must flag every mine on the board without cl
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Minesweeper/index.html)
 * [Mazin Power's solution](https://github.com/muzfuz/minesweeper_js)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/minesweeper/index.html "Minesweeper")
@@ -31,8 +32,13 @@ The basic rules are that the player must flag every mine on the board without cl
 * [Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Minesweeper%20in%20Javscript)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project6) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project6/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_minesweeper/blob/master/index.html)
-* Add your solution above this line!
-
+* [Dan V's solution](https://github.com/vickerdj/minesweeper) | [View in browser](http://vickerdj.github.io/minesweeper/)
+* [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/minesweeper/index.html)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/Mine-Hunter) (In Rails, with time and scores)  | [View in browser](https://mine-hunter.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/minesweeper/blob/master/index.html)
+* [David Chapman's solution](https://github.com/davidchappy/minesweeper) | [View in browser](http://minesweeper.dachapman.com)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/vue-minesweeper) (built with Vue.js) |[View in browser](https://vue-minesweeper.herokuapp.com/)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/minesweeper) | [View in browser](https://cdn.rawgit.com/laniywh/the-odin-project/master/js/minesweeper/index.html)
 
 ## Additional Resources
 

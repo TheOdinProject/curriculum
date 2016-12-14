@@ -128,4 +128,3 @@ Working with external APIs can be incredibly rewarding because you're able to le
 
 
 * See [This SO Post on interfacing with third-party APIs](http://stackoverflow.com/questions/6228870/interfacing-with-a-third-party-api-in-rails-opeing-urls-and-parsing-xml-json) for tips.
-* 

@@ -137,7 +137,7 @@ To "whitelist", or explicitly allow, parameters, you use the methods `require` a
 
 This will whitelist and return the hash of only those params that you specified (e.g. `{:title => "your title", :body => "your body", :author_id => "1"}` ).  If you didn't do this, when you tried to access params[:post] nothing would show up! Also, if there were any additional fields submitted inside the hash, these will be stripped away and made inaccessible (to protect you).
 
-It can be inconvenient, but it's Rails protecting your from bad users.  You'll usually package these strong parameter helpers up in their own private method at the bottom of your controllers, then call that method where you need to get those specific params.
+It can be inconvenient, but it's Rails protecting you from bad users.  You'll usually package these strong parameter helpers up in their own private method at the bottom of your controllers, then call that method where you need to get those specific params.
 
 So our `#create` action above can now be filled out a bit more:
 
@@ -175,7 +175,7 @@ The last piece of code we need to write there is how to set our special messages
 
 You can use any keys you want for the flash, but it's conventional to just stick to three, `:success`, `:error`, and `:notify`.  So the success message above might look like `flash[:success] = "Great! Your post has been created!"`.
 
-The reason you can use any key is because you will have to write a snippet of code in your view anyway to display the flash, but sticking to the conventional ones is good practice.  The other sneaky trick with the flash is that it automatically erases itself once you've used it, so you don't have to worry about it displaying every time you visit a new page... one time use.  Like [SnapChat](http://www.snapchat.com/).
+The reason you can use any key is because you will have to write a snippet of code in your view anyway to display the flash, but sticking to the conventional ones is good practice.  The other sneaky trick with the flash is that it automatically erases itself once you've used it, so you don't have to worry about it displaying every time you visit a new page... one time use.  Like [Snapchat](http://www.snapchat.com/).
 
 One last distinction, though, goes back to the difference between a redirect and a render.  Remember, a redirect submits a completely new HTTP request, effectively leaving our application in the dust and starting over from the top.  We lose all our data... except for the flash.  The flash is specifically designed to travel with that HTTP request so you have access to it when you get redirected to the next page.
 

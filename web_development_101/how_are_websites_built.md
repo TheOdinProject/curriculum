@@ -1,5 +1,6 @@
 # How Are Websites Actually Built in the Real World?
 <!-- *Estimated Time: 2-4 hrs* -->
+<!-- I dont think this lesson adds much value, it could possibly be deleted or added to an electives course -->
 
 You've spent a lot of time learning all the component pieces of a web application.  In the Rails project, you were (hopefully) able to actually build one.  This lesson is a step back so you can get a chance to breathe and see the forest instead of being lost in the trees.  
 
@@ -27,8 +28,8 @@ Maybe that's directly relevant to the startup you're hoping to build or maybe it
 * What members of a team typically work together to produce a web application?
 
 ## Your Assignment: 
-1. Start by refreshing your understanding the web application itself by reading through [The Anatomy of a Web Application](http://www.buildingwebapps.com/transcript/79327-anatomy-of-a-web-application) (you can listen to audio of it by clicking the link on the left side) and pay particular attention to what's happening on the client vs the server side.  It gets a bit more into the guts of what Rails is doing, and this will be valuable for understanding what you'll be building later on.
-2. Zoom out a bit to get a bigger picture of software development methodologies by starting at [minute 36 of this Berkeley SAAS course video lecture](http://www.youtube.com/watch?v=Fr-B4xHZRzY&list=PLuCVssMJ_UI1DneCzaU7BpAy94CvQQgGq&index=1).  You'll also get a perspective of how and why Rails fits well into Agile methodologies.
+1. Start by refreshing your understanding of the web application itself by reading through the short article, [Models, Views, and Controllers, Oh My!: Anatomy of a Rails App](http://blog.roberteshleman.com/2014/07/07/models-views-and-controllers-oh-my-anatomy-of-a-rails-app/) by Robert Eshleman.  Pay particular attention to what's happening on the client vs the server side. Then take a look at a more in depth series by Albert Park: [part one](http://www.albertpark.io/anatomy-of-a-rails-application-part-i-views/), and [part two](http://www.albertpark.io/anatomy-of-a-rails-application-part-ii-controllers/).  It gets a bit more into the guts of what Rails is doing with views and controllers, and this will be valuable for understanding what you'll be building later on.
+2. Zoom out a bit to get a bigger picture of software development methodologies by starting at [minute 36 of this Berkeley SAAS course video lecture](https://youtu.be/Fr-B4xHZRzY?t=2168).  You'll also get a perspective of how and why Rails fits well into Agile methodologies.
 1. Read Lee Edwards' answer to the Quora question ["What's an Efficient Web App Development Process"](http://www.quora.com/Ruby-on-Rails/Whats-an-efficient-web-app-development-process) to get better acquainted with the actual flow of app production.  He is a developer at Pivotal Labs, which uses Agile Development methodologies.
 2. Zoom out even more and think about the startups and companies that are building web applications by reading through the [ThoughtBot Playbook](http://playbook.thoughtbot.com/), an online playbook for how to build a product (and work with ThoughtBot consultants, of course).
 
