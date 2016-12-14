@@ -243,4 +243,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Calandra Zellner's solution](https://github.com/calandraz/Etch-a-Sketch)
 * [Corey Cunningham's Solution](https://github.com/ccunnin8/checkerboard) | [View in browser](https://htmlpreview.github.io/?https://github.com/https://github.com/ccunnin8/checkerboard/blob/master/homepage.html)
 * [Jasmine Batchellor-Sequeira's solution](https://github.com/jasminebs/Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasminebs/Sketchpad/blob/master/index.html)
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/etch-a-sketch/index.html)
 * Add your solution above this line!

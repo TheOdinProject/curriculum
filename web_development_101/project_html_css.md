@@ -283,7 +283,7 @@ Note: All the classes and id's and names of elements that you inspect on Google'
 * [SiriusBlak's solution](https://github.com/SiriusBlak/google-homepage)
 * [Pedro Amaral's solution](https://github.com/lockemind/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/lockemind/google-homepage/master/index.html)
 * [dwhitebud's solution](https://github.com/dwhitebud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dwhitebud/google-homepage/blob/master/index.html)
-* [Porx's solution](https://github.com/porx/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/porx/google-homepage/blob/master/index.html)
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/google-homepage) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/google-homepage/index.html)
 * [ninja-ml's solution](https://github.com/ninja-ml/google-homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/ninja-ml/google-homepage/blob/master/homepage.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/ninja-ml/google-homepage/blob/master/index_search.html)
 * [Tumanako's solution](https://github.com/tumanako-r/google-homepage)
 * [Bob Blake's solution](https://github.com/Hari96/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/Hari96/google-homepage/blob/master/index.html)
