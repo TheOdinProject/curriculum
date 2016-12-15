@@ -196,7 +196,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/the_odin_project/tree/master/projectEuler)
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/the-odinproject-Eular-exercises)
 * [Joe Pfohl's solutions: ](https://github.com/japfohl/euler-exercises)
-* [Porx's solution](https://github.com/porx/project-euler)
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/project-euler)
 * [Defgarden's solution](https://github.com/Defgarden/js-101) | [View in browser](http://htmlpreview.github.io/?https://github.com/Defgarden/js-101/blob/master/index.html)
 * [Dush's Solutions](https://github.com/De-Cay/ProjectEuler)
 * [CodeRobot's solution](https://github.com/iashraful/TheOdinProject/tree/master/02-JS-101)
