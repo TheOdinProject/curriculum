@@ -310,7 +310,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [SiriusBlak's solution](https://github.com/SiriusBlak/google-homepage)
 * [Pedro Amaral's solution](https://github.com/lockemind/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/lockemind/google-homepage/master/index.html)
 * [dwhitebud's solution](https://github.com/dwhitebud/google-homepage) | [View in browser](https://rawgit.com/dwhitebud/google-homepage/master/index.html)
-* [Porx's solution](https://github.com/porx/google-homepage) | [View in browser](https://rawgit.com/porx/google-homepage/master/index.html)
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/google-homepage) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/google-homepage/index.html)
 * [Tumanako's solution](https://github.com/tumanako-r/google-homepage)
 * [Bob Blake's solution](https://github.com/Hari96/google-homepage) | [View in browser](https://rawgit.com/Hari96/google-homepage/master/index.html)
 * [Mamun Hossain's solution](https://github.com/mamun2015/google-homepage) | [View in browser](https://rawgit.com/mamun2015/google-homepage/master/index.html)
