@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/etch-a-sketch/index.html)
 * [0elo's solution](https://github.com/0elo/the_odin_project/tree/master/js-jquery) | [View in browser](https://cdn.rawgit.com/0elo/the_odin_project/master/js-jquery/index.html)
 * [Sanya Verma's solution](https://github.com/ErisedKT/Etch-A-Sketch) | [View in browser] (https://erisedkt.github.io/Etch-A-Sketch/)
 * [Jaharri's solution](https://github.com/Jaharri/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Jaharri/etch-a-sketch/blob/master/index.html)
@@ -533,4 +534,3 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [chanjman's Solution](https://github.com/chanjman/etch-a-sketch) | [View In Browser](https://chanjman.github.io/etch-a-sketch/)
 * [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser](https://yashanand1910.github.io/sketchpad/)
 * [LeangSeu's Solution](https://github.com/leangseu/practice-jQuery) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-jQuery/master/index.html)
-* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/etch-a-sketch/index.html)
