@@ -309,14 +309,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/google-homepage) | [View in browser](https://rawgit.com/JaveedIshaq/google-homepage/master/google-homepage.html)
 * [SiriusBlak's solution](https://github.com/SiriusBlak/google-homepage)
 * [Pedro Amaral's solution](https://github.com/lockemind/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/lockemind/google-homepage/master/index.html)
-<<<<<<< HEAD
-* [dwhitebud's solution](https://github.com/dwhitebud/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/dwhitebud/google-homepage/blob/master/index.html)
-* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/google-homepage) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/google-homepage/index.html)
-* [ninja-ml's solution](https://github.com/ninja-ml/google-homepage) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/ninja-ml/google-homepage/blob/master/homepage.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/ninja-ml/google-homepage/blob/master/index_search.html)
-=======
 * [dwhitebud's solution](https://github.com/dwhitebud/google-homepage) | [View in browser](https://rawgit.com/dwhitebud/google-homepage/master/index.html)
-* [Porx's solution](https://github.com/porx/google-homepage) | [View in browser](https://rawgit.com/porx/google-homepage/master/index.html)
->>>>>>> upstream/master
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/google-homepage) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/google-homepage/index.html)
 * [Tumanako's solution](https://github.com/tumanako-r/google-homepage)
 * [Bob Blake's solution](https://github.com/Hari96/google-homepage) | [View in browser](https://rawgit.com/Hari96/google-homepage/master/index.html)
 * [Mamun Hossain's solution](https://github.com/mamun2015/google-homepage) | [View in browser](https://rawgit.com/mamun2015/google-homepage/master/index.html)

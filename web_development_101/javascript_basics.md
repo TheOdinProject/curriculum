@@ -193,14 +193,10 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Prayatna's solution](https://github.com/prayatna/javascript101)
 * [Petros Kalogiannakis's solution](https://github.com/kalpetros/TheOdinProject/tree/master/project_euler) | [View in browser](https://rawgit.com/kalpetros/TheOdinProject/master/project_euler/index.html)
 * [Austin's solution](https://github.com/CouchofTomato/ProjectEulerJS)
-<<<<<<< HEAD
-* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/project-euler)
-* Add your solution above this line!
-=======
 * [Pablo Bordons Estrada's solution](https://github.com/pboest/the_odin_project/tree/master/projectEuler)
 * [Javeed Ishaq's solution](https://github.com/JaveedIshaq/the-odinproject-Eular-exercises)
 * [Joe Pfohl's solutions: ](https://github.com/japfohl/euler-exercises)
-* [Porx's solution](https://github.com/porx/project-euler)
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/project-euler)
 * [Defgarden's solution](https://github.com/Defgarden/js-101) | [View in browser](http://htmlpreview.github.io/?https://github.com/Defgarden/js-101/blob/master/index.html)
 * [Dush's Solutions](https://github.com/De-Cay/ProjectEuler)
 * [CodeRobot's solution](https://github.com/iashraful/TheOdinProject/tree/master/02-JS-101)
@@ -415,6 +411,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Yury Tomilin's Solution] (https://github.com/reitzy/project-euler-js)
 * [Oliver Potter's Solution](https://github.com/ol4er/euler/blob/master/EULER1.JS)
 * [Siker001's Solution](https://github.com/Siker001/js-basics-Problem1)
+
 
 ## Additional Resources
 

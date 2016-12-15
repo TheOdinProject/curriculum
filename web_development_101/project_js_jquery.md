@@ -256,12 +256,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Patrick Li's Solution](https://github.com/PatrickLi727/Etch-a-Sketch) | [View in browser](https://rawgit.com/PatrickLi727/Etch-a-Sketch/master/EtchASketch.html)
 * [Shady's Solution](https://github.com/cupcakehunter/etch_a__sketch) | [View in browser](https://rawgit.com/cupcakehunter/etch_a__sketch/master/index.html)
 * [Calandra Zellner's solution](https://github.com/calandraz/Etch-a-Sketch)
-<<<<<<< HEAD
-* [Corey Cunningham's Solution](https://github.com/ccunnin8/checkerboard) | [View in browser](https://htmlpreview.github.io/?https://github.com/https://github.com/ccunnin8/checkerboard/blob/master/homepage.html)
-* [Jasmine Batchellor-Sequeira's solution](https://github.com/jasminebs/Sketchpad) | [View in browser](http://htmlpreview.github.io/?https://github.com/jasminebs/Sketchpad/blob/master/index.html)
-* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/etch-a-sketch/index.html)
-* Add your solution above this line!
-=======
 * [Corey Cunningham's Solution](https://github.com/ccunnin8/checkerboard) | [View in browser](https://rawgit.com/https://github.com/ccunnin8/checkerboard/master/homepage.html)
 * [Jasmine Batchellor-Sequeira's solution](https://github.com/jasminebs/Sketchpad) | [View in browser](https://rawgit.com/jasminebs/Sketchpad/master/index.html)
 * [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/master/the-odin-project/javascript/etch-a-sketch/index.html) | [View in browser](https://rawgit.com/ashleymichal/the_odin_project/master/the-odin-project/javascript/etch-a-sketch/index.html)
@@ -539,4 +533,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [chanjman's Solution](https://github.com/chanjman/etch-a-sketch) | [View In Browser](https://chanjman.github.io/etch-a-sketch/)
 * [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser](https://yashanand1910.github.io/sketchpad/)
 * [LeangSeu's Solution](https://github.com/leangseu/practice-jQuery) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-jQuery/master/index.html)
->>>>>>> upstream/master
+* [Porx's solution](https://github.com/porx/the-odin-project/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/etch-a-sketch/index.html)
