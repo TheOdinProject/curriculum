@@ -94,7 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-* [Rhys B's solution (easy)](https://github.com/105ron/google-homepage) | [View in Browser](https://105ron.github.io/google-homepage/)
+* [ChristalSimple's solution (Easy)](https://github.com/ChristalSimple/google-homepage) | [View in Browser (Easy)](https://christalsimple.github.io/google-homepage/) | [ChristalSimple's solution (difficult)](https://github.com/ChristalSimple/google-searchresults) | [View in Browser (difficult)](https://christalsimple.github.io/google-searchresults/)
+* [Rhys B's solution (Easy)](https://github.com/105ron/google-homepage) | [View in Browser](https://105ron.github.io/google-homepage/)
 * [TchallaVII's solution (Easy)](https://github.com/TchallaVII) | [View in Browser](https://tchallavii.github.io/google-homepage/)
 * [demosthenes131's solution (Easy)](https://github.com/nicolasqueen/google-homepage) | [View in Browser](https://cdn.rawgit.com/nicolasqueen/google-homepage/master/google.html)
 * [0elo's solution (Easy)](https://github.com/0elo/the_odin_project/tree/master/google-homepage) | [View in Browser](https://cdn.rawgit.com/0elo/the_odin_project/1e6f659e2b3f96ba3c9044ca1b24c09896959c24/google-homepage/index.html)
