@@ -535,3 +535,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [chanjman's Solution](https://github.com/chanjman/etch-a-sketch) | [View In Browser](https://chanjman.github.io/etch-a-sketch/)
 * [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser](https://yashanand1910.github.io/sketchpad/)
 * [LeangSeu's Solution](https://github.com/leangseu/practice-jQuery) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-jQuery/master/index.html)
+* [Øistein's Solution](https://github.com/oisteinhaugland/etchascetch/) | [View in Browser](https://oisteinhaugland.github.io/etchascetch/)
