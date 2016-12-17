@@ -39,15 +39,15 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-* [Aspen Hollyer's solution](https://github.com/ahollyer/sketchpad) | [View in browser] (https://ahollyer.github.io/sketchpad/)
-* [Alexander Chalk's solution](https://github.com/adc17/sketch-pad) | [View in browser] (https://adc17.github.io/sketch-pad/)
+* [Aspen Hollyer's solution](https://github.com/ahollyer/sketchpad) | [View in browser](https://ahollyer.github.io/sketchpad/)
+* [Alexander Chalk's solution](https://github.com/adc17/sketch-pad) | [View in browser](https://adc17.github.io/sketch-pad/)
 * [Porx's solution](https://github.com/porx/the-odin-project/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/etch-a-sketch/index.html)
 * [0elo's solution](https://github.com/0elo/the_odin_project/tree/master/js-jquery) | [View in browser](https://cdn.rawgit.com/0elo/the_odin_project/master/js-jquery/index.html)
-* [Sanya Verma's solution](https://github.com/ErisedKT/Etch-A-Sketch) | [View in browser] (https://erisedkt.github.io/Etch-A-Sketch/)
-* [Jaharri's solution](https://github.com/Jaharri/etch-a-sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/Jaharri/etch-a-sketch/blob/master/index.html)
-* [Paweł R's solution](https://github.com/PawelRokosz/Etch-A-Sketch) | [View in browser] (https://htmlpreview.github.io/?https://github.com/PawelRokosz/Etch-A-Sketch/blob/master/index.html)
-* [Clara Silva's solution](https://github.com/claritasf/SketchpadUsingJquery) | [View in browser] (http://www.lsrmarketingservice.com/clientes/clarita/sketchpad/)
-* [Eren Çataltepe's solution](https://github.com/erencataltepe/changeTheColor) | [View in browser] (https://htmlpreview.github.io/?https://github.com/erencataltepe/changeTheColor/blob/master/index.html)
+* [Sanya Verma's solution](https://github.com/ErisedKT/Etch-A-Sketch) | [View in browser](https://erisedkt.github.io/Etch-A-Sketch/)
+* [Jaharri's solution](https://github.com/Jaharri/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Jaharri/etch-a-sketch/blob/master/index.html)
+* [Paweł R's solution](https://github.com/PawelRokosz/Etch-A-Sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/Etch-A-Sketch/blob/master/index.html)
+* [Clara Silva's solution](https://github.com/claritasf/SketchpadUsingJquery) | [View in browser](http://www.lsrmarketingservice.com/clientes/clarita/sketchpad/)
+* [Eren Çataltepe's solution](https://github.com/erencataltepe/changeTheColor) | [View in browser](https://htmlpreview.github.io/?https://github.com/erencataltepe/changeTheColor/blob/master/index.html)
 * [Arsalan Sunny's solution](https://github.com/arsalansunny/etchasketch) | [View in Browser](https://rawgit.com/arsalansunny/etchasketch/master/index.html)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/sketch-pad) | [View in Browser](https://nicolayd.github.io/sketch-pad/)
 * [Bánk Mészárovits's solution](https://github.com/bmeszarovits/the_grid) | [View in Browser](https://bmeszarovits.github.io/the_grid/)
@@ -536,3 +536,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [chanjman's Solution](https://github.com/chanjman/etch-a-sketch) | [View In Browser](https://chanjman.github.io/etch-a-sketch/)
 * [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser](https://yashanand1910.github.io/sketchpad/)
 * [LeangSeu's Solution](https://github.com/leangseu/practice-jQuery) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-jQuery/master/index.html)
+* [Øistein's Solution](https://github.com/oisteinhaugland/etchascetch/) | [View in Browser](https://oisteinhaugland.github.io/etchascetch/)
