@@ -167,6 +167,9 @@ These installfests will take you through the steps to install everything on your
           * try `bundle install --without production` again
      * **Note for Bash on Windows users**: As of December 2016, if you are not on the Windows Insider "Fast Ring," inotify will not work yet. This causes some gems in your rails app like listener, guard, and spring to fail.
      * This can be worked around by commenting out the line, `config.file_watcher = ActiveSupport::EventedFileUpdateChecker` in `config/environments/development.rb`
+     * Also, RVM requires you to use the login shell (by the way you can't use RVM as root), you can access the login shell using the command `bash --login`. In order to make the login shell the default one, you can edit the Bash shortcut on Windows:
+     * Right click the Bash shortcut and click in "Properties".
+     * In the field "Target" add "--login" to the end of the path, so it should become something like this "C:\Windows\System32\bash.exe ~ --login". Click "Ok" and that's it! Next time you open the Bash (through the shortcut) it will be the login shell.
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
 
 
