@@ -75,7 +75,7 @@ Next create a simple script file which will run RestClient and allow you to star
 
 We'll get more into this in the lesson on forms, but basically Rails will send a special token code when it renders a form in the webpage and then it only accepts the response if the form sends back that token with the submission.  Since you are operating directly from the command line and never got that original token, Rails won't accept your request.  Food for thought.
 
-Hopefully this has been a useful adventure into the request cycle of a Rails app and given you a chance to get a bit familar with basic app creation and setup and routing.  Feel free to send feedback.
+Hopefully this has been a useful adventure into the request cycle of a Rails app and given you a chance to get a bit familiar with basic app creation and setup and routing.  Feel free to send feedback.
 
 ## Project: Ruby on Rails Tutorial
 
