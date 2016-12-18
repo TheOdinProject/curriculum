@@ -23,25 +23,25 @@ Here we will describe the basic git workflow that you will use with your project
 1. You should have created a github account in the [installations](http://www.theodinproject.com/web-development-101/installations) project. If you haven't done that yet you can sign up [here](https://github.com/).
 
 2. Create a new repository by clicking the button shown in the screenshot below.
-  <a href="http://imgur.com/kbMCvCK"><img class="tutorial-img" src="http://i.imgur.com/kbMCvCK.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/wFcfe"><img class="tutorial-img" src="http://i.imgur.com/zSoE3s1.png" title="source: imgur.com" /></a>
 3. Give your repository the name "git_test" in the repository name input field and create the repository by clicking the green "create repository" button at the bottom of the page.
 
 4. This will redirect you to your new repository on GitHub. To get this repository onto your local machine copy the url in the address bar of your browser for your repository.
-  <a href="http://imgur.com/89vxeKi"><img class="tutorial-img" src="http://i.imgur.com/89vxeKi.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/2oDkM"><img class="tutorial-img" src="http://i.imgur.com/auDXbCT.png" title="source: imgur.com" /></a>
 5. In your command line on your local machine, navigate to where you want to store this project and then clone your repository on github onto your computer with `git clone` followed by the url you copied for your repository in the last step. The full command should look something like this `git clone https://github.com/YourUsername/git_test`.
-  <a href="http://imgur.com/HFQtIs4"><img class="tutorial-img" src="http://i.imgur.com/HFQtIs4.png?1" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/dR4FN"><img class="tutorial-img" src="http://i.imgur.com/MfL588D.png" title="source: imgur.com" /></a>
 6. Thats it! You have successfully connected the repository you created on GitHub to your local machine. To test this you can `cd` into the new *git_test* folder that was downloaded with the git clone and enter `git remote -v` in your command line. This will display the url of the repository you created in GitHub as your remote. You may have also noticed the word **origin** at the start of the `git remote -v` output. This is the name of your remote connection, it could have been named anything for example "party-parrot" or "dancing-banana" but origin is both the default and the convention. (Don't worry about the details of origin for now, it will come up again near the end of the tutorial.)
-  <a href="http://imgur.com/oTb22tn"><img class="tutorial-img" src="http://i.imgur.com/oTb22tn.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/uLKyn"><img class="tutorial-img" src="http://i.imgur.com/WB3LSv6.png" title="source: imgur.com" /></a>
 
 ## GIT workflow
 1. Create a new file in git_test called "README.md"
-  <a href="http://imgur.com/l4jEMwE"><img class="tutorial-img" src="http://i.imgur.com/l4jEMwE.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/T7PRe"><img class="tutorial-img" src="http://i.imgur.com/Nkl40a2.png" title="source: imgur.com" /></a>
 2. Type `git status` in your terminal notice your *README.md* file is in red, this means it is un-staged.
-  <a href="http://imgur.com/SE9V63c"><img class="tutorial-img" src="http://i.imgur.com/SE9V63c.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/JQaAE"><img class="tutorial-img" src="http://i.imgur.com/TDQDhwQ.png" title="source: imgur.com" /></a>
 3. Type `git add README.md` this adds your *README.md* file to staging area in git. Now type `git status` again, notice your file is now green.
-  <a href="http://imgur.com/Ntpmh2u"><img class="tutorial-img" src="http://i.imgur.com/Ntpmh2u.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/3nU3K"><img class="tutorial-img" src="http://i.imgur.com/sgIYlxB.png" title="source: imgur.com" /></a>
 4. Now type `git commit -m "Added README"` and then type `git status` once more and notice that the output contains "*nothing to commit*". Your changes have been committed.
-  <a href="http://imgur.com/kK5IT51"><img class="tutorial-img" src="http://i.imgur.com/kK5IT51.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/lP86H"><img class="tutorial-img" src="http://i.imgur.com/E4KNSB3.png" title="source: imgur.com" /></a>
 5. Now type `git log` and look at its output. You should see a historical entry for your commit: *Added README*. You will also see details on the author who made the commit and the date time for when it was made.
 
 ## How does git save files?
@@ -60,27 +60,27 @@ We used this command to commit the *README.md* file `git commit -m "Added README
 ## Adding another file into the mix.
 
 1. Create a new file in the `git_test` folder and call it `hello_world.txt`. In your terminal type `git status`, notice `hello_world.txt` is un-staged.
-  <a href="http://imgur.com/nW0a6cA"><img class="tutorial-img" src="http://i.imgur.com/nW0a6cA.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/retmS"><img class="tutorial-img" src="http://i.imgur.com/IXgN3PP.png" title="source: imgur.com" /></a>
 2. Now open the *README.md* in your text editor of choice and add "This is (YourUsername)'s first git project!" and then save the file.
-  <a href="http://imgur.com/oohqJt0"><img class="tutorial-img" src="http://i.imgur.com/oohqJt0.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/2B4Lw"><img class="tutorial-img" src="http://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
 3. Back in your terminal enter `git status`, notice that *README.md* is now un-staged again.
-  <a href="http://imgur.com/cUVKbjT"><img class="tutorial-img" src="http://i.imgur.com/cUVKbjT.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/ipLMC"><img class="tutorial-img" src="http://i.imgur.com/IIIoY7j.png" title="source: imgur.com" /></a>
 4. Add *README.md* to the staging area with `git add README.md`
 5. Can you guess what `git status` will output now? *README.md* will be displayed in green text while *hello_world.txt* will still be in red. This means only *README.md* has been added to the staging area.
-  <a href="http://imgur.com/12diOu9"><img class="tutorial-img" src="http://i.imgur.com/12diOu9.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/mZO4k"><img class="tutorial-img" src="http://i.imgur.com/CzUQRIL.png" title="source: imgur.com" /></a>
 6. Now lets add *hello_world.txt* to staging area with a different variation of add `git add .` - the full stop means add all un-staged files. Then enter `git status` once more, everything should now been added to the staging area.
-  <a href="http://imgur.com/799uu2c"><img class="tutorial-img" src="http://i.imgur.com/799uu2c.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/GyfIp"><img class="tutorial-img" src="http://i.imgur.com/VseW6AL.png" title="source: imgur.com" /></a>
 9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Added hello world file and added a line to README"`. Then enter `git status` once again, this will output `nothing to commit`.
-  <a href="http://imgur.com/Vi5u2Ei"><img class="tutorial-img" src="http://i.imgur.com/Vi5u2Ei.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/DzGHA"><img class="tutorial-img" src="http://i.imgur.com/afCYtxg.png" title="source: imgur.com" /></a>
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
 ## Pushing your finished work to github
 Finally lets upload what you have done to the Github repository you created at the start of this tutorial
 
 1. Simply enter `git push origin master`.
-  <a href="http://imgur.com/aJvoHx6"><img class="tutorial-img" src="http://i.imgur.com/aJvoHx6.png" title="source: imgur.com" /></a>
-2. Now enter `git status` one final time, it should output "*up to date with origin master*"
-  <a href="http://imgur.com/l5y50J8"><img class="tutorial-img" src="http://i.imgur.com/l5y50J8.png" title="source: imgur.com" /></a>
+  <a href="http://imgur.com/a/1P4KP"><img class="tutorial-img" src="http://i.imgur.com/dTIAMnV.png" title="source: imgur.com" /></a>
+2. Now enter `git status` one final time, it should output "*nothing to commit, working tree clean*"
+  <a href="http://imgur.com/a/6KtLC"><img class="tutorial-img" src="http://i.imgur.com/caYllsb.png" title="source: imgur.com" /></a>
 
 ## What is origin master?
 As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
