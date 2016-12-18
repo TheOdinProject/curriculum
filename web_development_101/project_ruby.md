@@ -259,6 +259,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Roan Fourie's Solution](https://github.com/RoanFourie/the-odin-project/tree/master/learn_ruby)
 * [Dan Sack's Solution](https://github.com/DanPete/learn_ruby)
 * [Parker Brown's Solution](https://github.com/parkerjbrown/learn_ruby)
+* [Robert Szabo's Solution](https://github.com/Siker001/learn_ruby)
 
 
 ## Additional Resources
