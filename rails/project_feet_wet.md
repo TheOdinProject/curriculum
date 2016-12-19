@@ -95,6 +95,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [tholymap's solution](https://bitbucket.org/tholymap/toy_app) | [Heroku](https://mighty-plains-35715.herokuapp.com/)
 * [Tom Westerhout's solution](https://github.com/Westw00d/toy_app) | [Heroku](https://secret-basin-23722.herokuapp.com/)
 * [Jerry Gao's solution](https://github.com/blackwright/hartl_rails/tree/master/toy_app)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/toy-app)
 
 
 ## Additional Resources
