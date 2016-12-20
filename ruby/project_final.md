@@ -63,6 +63,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_chess)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/Chess)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/chess)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/chess)
 
 
 ## Additional Resources
