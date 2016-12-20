@@ -1,5 +1,6 @@
 class ProjectsController < ApplicationController
-  before_action :authorize_request
+  before_action :authorize_request,
+                except: [:all_submissions, :recent_submissions]
   before_action :lookup_lesson
   before_action :lookup_project, only: [:update, :destroy]
 
@@ -23,6 +24,16 @@ class ProjectsController < ApplicationController
   def destroy
     @project.destroy
     head :ok
+  end
+
+  def all_submissions
+    submissions = Project.all_submissions(@lesson.id)
+    render json: submissions
+  end
+
+  def recent_submissions
+    submissions = Project.all_submissions(@lesson.id).limit(10)
+    render json: submissions
   end
 
   private

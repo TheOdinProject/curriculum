@@ -169,4 +169,53 @@ RSpec.describe ProjectsController, type: :controller do
       end
     end
   end
+
+  describe 'GET #all_submissions' do
+    subject { get :all_submissions, params: { lesson_id: params[:lesson_id] } }
+
+    before do
+      allow(Lesson).to receive_message_chain(:friendly, :find)
+        .and_return(lesson)
+
+      allow(Project).to receive(:all_submissions).with(lesson.id)
+        .and_return(projects)
+    end
+
+    it 'calls the .all_submissions method' do
+      expect(Project).to receive(:all_submissions)
+      subject
+    end
+
+    it 'renders json' do
+      subject
+      expect(response.content_type).to eq('application/json')
+    end
+  end
+
+  describe 'GET #recent_submissions' do
+    subject {
+      get :recent_submissions, params: { lesson_id: params[:lesson_id] }
+    }
+
+    let(:recent_projects) { double('Projects') }
+
+    before do
+      allow(Lesson).to receive_message_chain(:friendly, :find)
+        .and_return(lesson)
+
+      allow(Project).to receive(:all_submissions).with(lesson.id)
+        .and_return(projects)
+      allow(projects).to receive(:limit).and_return(recent_projects)
+    end
+
+    it 'calls the .all_submissions and limit' do
+      expect(Project).to receive_message_chain(:all_submissions, :limit)
+      subject
+    end
+
+    it 'returns json' do
+      subject
+      expect(response.content_type).to eq('application/json')
+    end
+  end
 end
