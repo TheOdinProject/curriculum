@@ -94,6 +94,9 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/binary_tree.rb)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/binary_tree.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/bst.rb)
+* [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/Ruby/data_tree.rb)
+
+
 
 ## Project 2: Knight's Travails
 
@@ -137,7 +140,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 * Add your solution below this line!
 * [Stefan P's solution](https://github.com/spavikevik/knight_travails)
-* [Leonard Soai-van's solution] (https://github.com/leosoaivan/TOP_compsci)
+* [Leonard Soai-van's solution](https://github.com/leosoaivan/TOP_compsci)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_data_structs_alg/knights_travails)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_7_Ruby_DataStructures/knight.rb)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/knight-moves)
@@ -199,6 +202,9 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/knights_travails.rb)
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/knights_travails.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/knights_travails.rb)
+* [Simon's solution](https://github.com/SimonSomlai/Odin/tree/master/Ruby/knight_travails)
+
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
