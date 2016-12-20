@@ -41,6 +41,9 @@ devise_for :users,
   end
   resources :lessons, only: [:show] do
     resources :projects, only: [:create, :update, :destroy]
+
+    get 'all_submissions', to: 'projects#all_submissions'
+    get 'recent_submissions', to: 'projects#recent_submissions'
   end
 
   post 'lesson_completions' => 'lesson_completions#create'
