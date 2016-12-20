@@ -260,6 +260,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Dan Sack's Solution](https://github.com/DanPete/learn_ruby)
 * [Parker Brown's Solution](https://github.com/parkerjbrown/learn_ruby)
 * [Robert Szabo's Solution](https://github.com/Siker001/learn_ruby)
+* [chanjman's Solution](https://github.com/chanjman/learn_ruby_tdd)
 
 
 ## Additional Resources
