@@ -538,3 +538,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Yash Anand's Solution](https://github.com/yashanand1910/sketchpad) | [View in Browser](https://yashanand1910.github.io/sketchpad/)
 * [LeangSeu's Solution](https://github.com/leangseu/practice-jQuery) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-jQuery/master/index.html)
 * [Øistein's Solution](https://github.com/oisteinhaugland/etchascetch/) | [View in Browser](https://oisteinhaugland.github.io/etchascetch/)
+* [Andrew DeNike's Solution](https://github.com/AndyDeNike/javascript_jQuery_sketch) | [View in Browser](https://rawgit.com/AndyDeNike/javascript_jQuery_sketch/master/index.html)
