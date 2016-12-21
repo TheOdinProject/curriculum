@@ -45,7 +45,6 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/nyt-clone) | [View in browser](https://rawgit.com/ShalaQweghen/nyt-clone/master/index.html)
 
 
-
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
