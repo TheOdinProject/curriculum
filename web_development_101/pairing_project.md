@@ -5,20 +5,14 @@ Now you know what pair programming is and how to set up your computer for it. Ho
 
 [The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. This is also a useful system for switching between Driver and Navigator roles when pairing.
 
-We are going to make a Pomodoro clock similar to [this](https://arcane-ravine-59782.herokuapp.com/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it, but if you do have problems, there are two of you! Put your minds together and figure it out.
+We are going to make a Pomodoro clock similar to [this](https://arcane-ravine-59782.herokuapp.com/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
 
-## Try These Before Starting
+## Before Starting
 
-These skills will be helpful for you when you start building.  Either try them yourself or at least make sure you know how to do it:
+These skills will be helpful for you when you start building:
 
-1. Two ways to move a div around on the page
-1. Stick a div onto the bottom or top of the page
-1. Identify the background color of an existing webpage
-1. Grab the URL for an image from an existing webpage
-1. Center an element horizontally
-1. Identify three ways you can include your CSS styles in a page
-1. Understand how to use classes and ids to target CSS at specific elements on the page
-1. Build a very basic form (even if it doesn't "go" anywhere)
+1. If you haven't already, make sure to do the [git lessons](http://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git). While you are working on the project, it can live on the shared Cloud 9 workspace, but once you are done, you'll want to have a place to put it for both of you.
+2. Remember in the introduction to the pairing section where we told you that you didn't have to do all your own work? Well the real world is also open book.
 
 ## Setting Up Your Project's Github Repository (optional)
 
