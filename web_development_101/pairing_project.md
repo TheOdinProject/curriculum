@@ -1,9 +1,8 @@
-# Project: HTML/CSS
+# Project: Paired Pomodoro Project
 <!-- *Estimated Time: 4-8 hrs* -->
 
-For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
+Now that you know what pair programming is and how to set up your computer for it, hopefully you've found yourself somone to pair with because we are about to build something that will be much easier with two heads.
 
-Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [CodePen](http://codepen.io/pen/) or [jsfiddle.net](http://www.jsfiddle.net)).
 
 
 ## Try These Before Starting
