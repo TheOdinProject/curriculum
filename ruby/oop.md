@@ -70,7 +70,7 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 2. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
 3. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
 4. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 7: `Projects and Libraries`
-5. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 190-196)
+5. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 175-179)
 6. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Points to Ponder" section:
 
     3. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
