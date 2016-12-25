@@ -9,7 +9,7 @@ Jump in and introduce yourself; tell us your story! Where are you from? What mad
 
 We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
 
-Read on to find out how to make of our community.
+Read on to find out how to make use of our community.
 
 ## Why chat is awesome for you:
 
