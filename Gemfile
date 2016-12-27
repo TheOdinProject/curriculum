@@ -27,6 +27,7 @@ gem 'uglifier',                     '~> 3.0'
 gem 'shortener',                    '~> 0.5'
 gem 'friendly_id',                  '~> 5.1'
 gem 'cancancan',                    '~> 1.15'
+gem 'rack-attack'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.3'

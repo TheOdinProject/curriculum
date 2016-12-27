@@ -7,6 +7,8 @@ Rails.application.configure do
   config.cache_classes = false
   Rails.application.routes.default_url_options[:host] = 'localhost:3000'
 
+  # For blocking abusive ips
+  config.middleware.use Rack::Attack
   #a fix for the ever failing spec?
   config.action_dispatch.best_standards_support = :builtin
 
