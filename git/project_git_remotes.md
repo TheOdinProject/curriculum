@@ -34,8 +34,15 @@ remote: Permission to theodinproject/curriculum.git denied to odin-student.
 fatal: unable to access 'https://github.com/theodinproject/curriculum.git/': The requested URL returned error: 403
 ```
 7. Error 403 is the HTTP status code which means that accessing the resource is forbidden. The creator of the repository can assign who has admin and write access. You can however still `fetch` and `pull` from upstream in this case. This allows you to `pull` from `TheOdinProject/curriculum` and push to your fork on GitHub which allows your fork to keep up to date with new commits on `TheOdinProject/curriculum`.
-8. GitHub allows us to make a pull request which can then be reviewed by admin/moderators of the repository, which is what we will do now. We create a new branch, modify our feature, push it to GitHub and create a pull request on the site. The admin/moderators can then view the changes, reject the pull request, suggest modifications before it is accepted or merge it into their repository.
-
+8. GitHub allows us to make a pull request which can then be reviewed by admin/moderators of the repository, which is what we will do now. We create a new branch, modify our feature, push it to GitHub and create a pull request on the site. The admin/moderators can then view the changes, reject the pull request, suggest modifications before it is accepted or merge it into their repository, making you a contributor to the original repository.
+8. The first step is to create a branch called `new-student`.
+```language-bash
+curriculum$ git checkout -b new-student
+```
+9. You are now working on the new-student branch. Open `git/student_list.md` and add your name and link to your GitHub in Markdown syntax like so...
+```
+\* \[Odin-Student\]\(https://github.com/odin-student\)  
+```
 
 ## Helpful Links
 Links that may help with the project if any
