@@ -15,7 +15,27 @@ In this project we will be forking TheOdinProject curriculum and learning to add
 
 <a href="http://i.imgur.com/LdVgtOp.png"><img class="tutorial-img" src="http://i.imgur.com/LdVgtOp.png" title="Click Fork icon" /></a>
 
-2. After a short wait you should now have your own fork of the GitHub repository at `https://github.com/Your-GitHub-UserName/curriculum`. You now have a copy of the curriculum and are free to make changes to it and take it in a different direction or add your own features.
-3. However, for our project we will keep our fork the same and create a branch that is only different in the `git/student_list.md` file by adding your name and a link to your GitHub repository. In terminal cd into the folder where you would like to place your forked copy of the curriculum and clone it with this line `git clone https://github.com/odin-student/curriculum.git`
+2. After a short wait you should now have your own fork of the GitHub repository at `https://github.com/Your-GitHub-Username/curriculum`. You now have a copy of the curriculum and are free to make changes to it and take it in a different direction or add your own features.
+3. However, for our project we will keep our fork the same and create a branch that is only different in the `git/student_list.md` file by adding your name and a link to your GitHub repository. In terminal cd into the folder where you would like to place your forked copy of the curriculum and clone it with this line `git clone https://github.com/Your-GitHub-Username/curriculum.git`
+4. In terminal `cd curriculum` to get into the root folder of the curriculum. When you cloned it you get a complete copy of the project and it's git with a remote back to your fork on GitHub:
+```language-bash
+~/curriculum$ git remote -v
+origin  git@github.com:105ron/curriculum.git (fetch)
+origin  git@github.com:105ron/curriculum.git (push)
+```
+5. We can also add additional remotes to git. We will add TheOdinProject's original curriculum and call it upstream with this command:
+```language-bash
+~/curriculum$ git remote add upstream https://github.com/theodinproject/curriculum.git
+```
+6. Now you can see `git remote -v` returns four results. We can `fetch` and `push` to `origin` and also `fetch` and `push` to `upstream`. Though if you try to change the TheOdinProjects repository and `git push upstream master` you will see that 
+```language-bash
+curriculum$ git push upstream master
+remote: Permission to theodinproject/curriculum.git denied to odin-student.
+fatal: unable to access 'https://github.com/theodinproject/curriculum.git/': The requested URL returned error: 403
+```
+7. Error 403 is the HTTP status code which means that accessing the resource is forbidden. The creator of the repository can assign who has admin and write access. You can however still `fetch` and `pull` from upstream in this case. This allows you to `pull` from `TheOdinProject/curriculum` and push to your fork on GitHub which allows your fork to keep up to date with new commits on `TheOdinProject/curriculum`.
+8. GitHub allows us to make a pull request which can then be reviewed by admin/moderators of the repository, which is what we will do now. We create a new branch, modify our feature, push it to GitHub and create a pull request on the site. The admin/moderators can then view the changes, reject the pull request, suggest modifications before it is accepted or merge it into their repository.
+
+
 ## Helpful Links
 Links that may help with the project if any
