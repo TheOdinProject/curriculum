@@ -39,9 +39,9 @@ fatal: unable to access 'https://github.com/theodinproject/curriculum.git/': The
 ```language-bash
 curriculum$ git checkout -b new-student
 ```
-9. You are now working on the new-student branch. Open `git/student_list.md` and add your name and link to your GitHub in Markdown syntax like so...
+9. You are now working on the new-student branch. Open `git/student_list.md` and add your name and link to your GitHub in Markdown syntax on line two like so...
 ```
-\* \[Odin-Student\]\(https://github.com/odin-student\)  
+* [Odin-Student](https://github.com/odin-student)  
 ```
 
 ## Helpful Links
