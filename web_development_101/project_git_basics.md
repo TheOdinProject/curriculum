@@ -83,7 +83,7 @@ Finally lets upload what you have done to the Github repository you created at t
   <a href="http://imgur.com/a/6KtLC"><img class="tutorial-img" src="http://i.imgur.com/caYllsb.png" title="source: imgur.com" /></a>
 
 ## What is origin master?
-As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
+As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial.It is set by default by git when cloning from a remote for the first time. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
 
 **master** is the branch you want to push your changes to. We will get more into branches in a later lesson, the main thing to remember is that *master* is the official branch in your projects where production-ready code lives.
 
