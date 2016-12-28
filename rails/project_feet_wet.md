@@ -37,6 +37,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
 * Add your solution below this line!
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails)
 * [mahimahi42's solution](https://github.com/mahimahi42/firstrailsproject)
 * [Angel Vargas's solution](https://github.com/arioth/demo_app)
 * [Donald's solution](https://github.com/donaldali/demo_app)
