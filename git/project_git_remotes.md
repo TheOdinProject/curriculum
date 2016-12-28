@@ -52,9 +52,9 @@ and save it.
   <a href="http://i.imgur.com/nPZpeHY.png"><img class="tutorial-img" src="http://i.imgur.com/nPZpeHY.png" title="Click Compare & Pull Request" /></a>
 12. Once we click that we can add a message to the person who is going to accept or reject the pull request. In this case the standard message is fine.
   <a href="http://i.imgur.com/PEfej8w.png"><img class="tutorial-img" src="http://i.imgur.com/PEfej8w.png" title="Click Create Pull Request" /></a>
-13. As you can see below the person viewing the pull request before approving it to be merged into TheOdinProject/Curriculum `Master` can see a summary of all the lines you have changed.
+13. As you can see below the person viewing the pull request before approving it to be merged into `TheOdinProject/curriculum:Master` can see a summary of all the lines you have changed.
   <a href="http://i.imgur.com/XaRdf46.png"><img class="tutorial-img" src="http://i.imgur.com/XaRdf46.png" title="View changes to files" /></a>
-14. Success! Now all that is needed is for TheOdinProject to approve your submission. You're first contribution to an open source project on GitHub. Although it is minor the process for any contribution to any repository you find on GitHub is the same as outlined here. Go forth and help the open source community!
+14. Success! Now all that is needed is for TheOdinProject to approve your submission. You're first contribution to an open source project on GitHub. Although it is a minor contribution the process for any contribution to any repository you find on GitHub is the same as outlined here. So now when you have suggestions to improve the TheOdinProject's curriculum you can now create a pull request and help your fellow students. It's a team effort, go forth and help the open source community!
 
 ## Helpful Links
 * [GitHub Forking](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
