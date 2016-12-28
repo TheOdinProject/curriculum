@@ -12,9 +12,7 @@ In this project we will be forking TheOdinProject curriculum and learning to add
 
 ## Your Task
 1. Go to [TheOdinProject'scurriculum GitHub](https://github.com/TheOdinProject/curriculum)  repository. The files within this repository make up the lessons within [TheOdinProject](http://www.theodinproject.com/) and fork the repository by clicking the button shown below.
-
-<a href="http://i.imgur.com/LdVgtOp.png"><img class="tutorial-img" src="http://i.imgur.com/LdVgtOp.png" title="Click Fork icon" /></a>
-
+  <a href="http://i.imgur.com/LdVgtOp.png"><img class="tutorial-img" src="http://i.imgur.com/LdVgtOp.png" title="Click Fork icon" /></a>
 2. After a short wait you should now have your own fork of the GitHub repository at `https://github.com/Your-GitHub-Username/curriculum`. You now have a copy of the curriculum and are free to make changes to it and take it in a different direction or add your own features.
 3. However, for our project we will keep our fork the same and create a branch that is only different in the `git/student_list.md` file by adding your name and a link to your GitHub repository. In terminal cd into the folder where you would like to place your forked copy of the curriculum and clone it with this line `git clone https://github.com/Your-GitHub-Username/curriculum.git`
 4. In terminal `cd curriculum` to get into the root folder of the curriculum. When you cloned it you get a complete copy of the project and it's git with a remote back to your fork on GitHub:
@@ -44,6 +42,19 @@ In this project we will be forking TheOdinProject curriculum and learning to add
   * [Odin-Student](https://github.com/odin-student)  
   ```
 and save it.
+10. Add the file to the stage and commit it. We want to  push the `new-student` branch to GitHub like so:
+    
+  ```language-bash
+  curriculum$ git commit -am "add my name to student_list.md"
+  curriculum$ git push origin new-student
+  ```
+11. Now we you view the forked repository on GitHub you will see it is ready to create the pull request:
+  <a href="http://i.imgur.com/nPZpeHY.png"><img class="tutorial-img" src="http://i.imgur.com/nPZpeHY.png" title="Click Compare & Pull Request" /></a>
+12. Once we click that we can add a message to the person who is going to accept or reject the pull request. In this case the standard message is fine.
+  <a href="http://i.imgur.com/PEfej8w.png"><img class="tutorial-img" src="http://i.imgur.com/PEfej8w.png" title="Click Create Pull Request" /></a>
+13. As you can see below the person viewing the pull request before approving it to be merged into TheOdinProject/Curriculum `Master` can see a summary of all the lines you have changed.
+  <a href="http://i.imgur.com/XaRdf46.png"><img class="tutorial-img" src="http://i.imgur.com/XaRdf46.png" title="View changes to files" /></a>
+14. Success! You're first contribution to an open source project on GitHub. Although it is minor the process for any contribution to any repository you find on GitHub is the same as outlined here. Go forth and help the open source community!
 
 ## Helpful Links
-Links that may help with the project if any
+* [GitHub Forking](https://gist.github.com/Chaser324/ce0505fbed06b947d962)
