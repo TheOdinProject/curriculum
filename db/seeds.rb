@@ -201,11 +201,11 @@ course = create_or_update_course(
   title: "Web Development 101",
   title_url: "Web Development 101".parameterize,
   teaser: "A Healthy Dose of Everything",
-  brief_desc: "This course is for anyone who is either starting from scratch or who isn't entirely comfortable with their understanding of the command line, HTML, CSS, Javascript, Ruby, web frameworks, Git, or other foundational technologies of web development.  We cover a LOT of ground -- by the end of this comprehensive course, you'll be well prepared to take on our deep dive courses or explore further on your own.",
+  brief_desc: "This course is for anyone who is either starting from scratch or who isn't entirely comfortable with their understanding of the command line, HTML, CSS, Javascript, Ruby, web frameworks, Git, or other foundational technologies and practices of web development.  We cover a LOT of ground -- by the end of this comprehensive course, you'll be well prepared to take on our deep dive courses or explore further on your own.",
   description: "Now that you know what web developers do, it's time to start thinking about how they actually do it. In this course, you'll learn the foundational concepts of web programming. By the end, you will be able to build a simple webpage, style it, and add elements of interactivity while working comfortably from the command line.  You will be comfortable with basic scripting in Ruby and Javascript as well as more unfamiliar things like Git and databases.  We will cover a lot of knowledge and you'll be able to get your hands dirty with all the topics that we're going to learn in the deep-dive courses that follow.",
   position: course_position,
-  you_learn: ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databases and Git"],
-  you_build: ["Google's homepage in HTML/CSS","A dynamic sketchpad with JS/jQuery","A series of test-first Ruby challenges"],
+  you_learn: ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databases and Git", "How to pair program"],
+  you_build: ["Google's homepage in HTML/CSS","A dynamic sketchpad with JS/jQuery","A series of test-first Ruby challenges", "A pomodoro clock"],
   is_active: true
 )
 
@@ -548,6 +548,51 @@ create_or_update_lesson(
   section_id: section.id,
   is_project: true,
   url: "/web_development_101/project_rails.md"
+)
+# +++++++++++
+# SECTION
+# +++++++++++
+
+section_position += 1
+section = create_or_update_section(
+  title: "Pair Programming",
+  title_url: "Pair Programming".parameterize,
+  course_id: course.id,
+  position: section_position,
+  description: "So far, you've probably been working by yourself. Now it's time to learn how to team up with another person anywhere in the world."
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Introduction to Pair Programming",
+  title_url: "Introduction to Pair Programming".parameterize,
+  description: "A little background about why to even pair up in the first place.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/introduction_to_pair_programming.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Preparing to Remote Pair",
+  title_url: "Preparing to Remote Pair".parameterize,
+  description: "Even if you don't know anybody in the same town, you can still pair program!",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/prepare_to_remote_pair.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
+  title: "Pairing Project",
+  title_url: "Pairing Project".parameterize,
+  description: "Now that you know how to pair and have found someone to work with, lets do a project together.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: true,
+  url: "/web_development_101/pairing_project.md"
 )
 
 # +++++++++++
