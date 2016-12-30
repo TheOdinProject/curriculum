@@ -34,6 +34,7 @@ Of course all this preparation is pointless without someone to pair with. Perhap
 * Even if you find someone you really like pairing with, try pairing with a variety of people of different skill levels.
 * The Odin Project is a community. Remember the Golden Rule and we should all get along. Forget it, and you will have a hard time finding people to pair with you.
 
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
