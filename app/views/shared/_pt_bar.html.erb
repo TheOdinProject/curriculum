@@ -26,7 +26,7 @@
 
       <!-- Individual lesson circles (clickable!) -->
       <% lessons.each_with_index do |l,i| %>
-        <% if l == lesson %>
+        <% if l.id == lesson.id %>
           <div class="pending-line"></div>
           <div class="completed-line" style="width: <%= (i+1) * pct %>%"></div>
           <%= link_to "#" do %>
