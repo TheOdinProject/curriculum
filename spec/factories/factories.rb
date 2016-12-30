@@ -10,6 +10,10 @@ FactoryGirl.define do
     password 'foobar'
     legal_agreement true
     confirmed_at Time.now - 5_000_000
+
+    factory :admin do
+      admin true
+    end
   end
 
   factory :lesson do

@@ -1,8 +1,9 @@
 class ProjectsController < ApplicationController
   before_action :authorize_request,
                 except: [:all_submissions, :recent_submissions]
-  before_action :lookup_lesson
-  before_action :lookup_project, only: [:update, :destroy]
+  before_action :find_lesson, except: [:update, :destroy]
+  before_action :find_project, only: [:update, :destroy]
+  authorize_resource only: [:update, :destroy]
 
   def create
     @project = new_project
@@ -46,8 +47,8 @@ class ProjectsController < ApplicationController
     render json: @project.errors, status: 422
   end
 
-  def lookup_project
-    @project = current_user.projects.where(lesson_id: @lesson.id).first
+  def find_project
+    @project = Project.find(params[:id])
   end
 
   def new_project
@@ -60,7 +61,7 @@ class ProjectsController < ApplicationController
     params.require(:project).permit(:repo_url, :live_preview)
   end
 
-  def lookup_lesson
+  def find_lesson
     @lesson = Lesson.friendly.find(params[:lesson_id])
   end
 
