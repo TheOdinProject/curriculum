@@ -19,8 +19,7 @@
 </div>
 
 <!-- progress-tracking bar -->
-
-<%= render :partial => "shared/pt_bar", :locals => { :lesson => @lesson } %>
+<%= render :partial => "shared/pt_bar", :locals => { lesson: @lesson } %>
 
 <!-- END progress-tracking bar -->
 
@@ -104,15 +103,6 @@
     </div>
   </div>
 </div>
-
-<!-- Provide support for window.lesson.applyScrollEffect() in IE8  -->
-<!--[if IE 8]>
-  <script>
-    $('.navbar-fixed-top').addClass('ie8--onScroll');
-    $('#lesson-nav').addClass('ie8--onScroll');
-    $('.scroll-effect-alert').css('display', 'inline').css('top', '25px');
-  </script>
-<![endif]-->
 
 <script>
   $(function(){

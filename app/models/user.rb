@@ -18,7 +18,7 @@ class User < ApplicationRecord
   end
 
   def completed_lesson?(lesson)
-    completed_lessons.include?(lesson)
+    completed_lessons.exists?(lesson.id)
   end
 
   def latest_completed_lesson
