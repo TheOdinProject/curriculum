@@ -40,8 +40,9 @@ Sintra requires basic ruby knowledge and the projects after this lesson will bui
     2. from the command line install the Sinatra gem by typing `gem install sinatra` then run the file you created: `ruby hi.rb`
     3. visit the page in your browser at `http://localhost:4567/hi`
     4. (easy wasn't it?)
-2. Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers").Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
-3. Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Labs. Be sure to try out some of the Extensions at the end of the tutorial, that's the fun stuff!
+2. Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Labs. Be sure to try out some of the Extensions at the end of the tutorial, that's the fun stuff!
+3. Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers").Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
+
 
 ## Additional Resources
 
