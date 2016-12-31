@@ -20,4 +20,4 @@ A group of exercises (If Applicable) for the student to complete in relation to 
 ## Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-Link to no more than three additional resources to avoid this section becoming too cluttered.
+* [A very techincal explanation of git reset from pro git](https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified) 
