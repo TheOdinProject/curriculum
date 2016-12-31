@@ -3,6 +3,8 @@
 
 Now you know what pair programming is and how to set up your computer for it. Hopefully you've found yourself somone to pair with because we are about to build something that will be much easier with two heads.
 
+*If you are unable to find someone to pair with, or don't wish to pair program, don't worry. Just make sure you are comfortable with the concepts in the last two lessons, mark this complete, and go on to the next section.*
+
 [The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. You learned about it in the [Gearing Up](http://www.theodinproject.com/courses/web-development-101/lessons/gearing-up) lesson. This is also a useful system for switching between Driver and Navigator roles when pairing.
 
 We are going to make a Pomodoro clock similar to [this](https://arcane-ravine-59782.herokuapp.com/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
