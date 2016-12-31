@@ -592,7 +592,7 @@ create_or_update_lesson(
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
-  url: "/web_development_101/pairing_project.md"
+  url: "/web_development_101/project_pairing.md"
 )
 
 # +++++++++++
