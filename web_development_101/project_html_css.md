@@ -951,9 +951,8 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Kumelachew Abera's Solution](https://github.com/Kumelachew/google-homepage) | [View in Browser](https://kumelachew.github.io/google-homepage/)
 * [chanjman's Solution](https://github.com/chanjman/google-homepage) | [View in Browser](https://chanjman.github.io/google-homepage/)
 * [Toni Ruiz's Solution](https://github.com/ToniRuizMora/Google-simple-) | [View in Browser](https://toniruizmora.github.io/Google-simple-/)
-
 * [Adonias Dantas's Solution](https://github.com/adoniasdantas/google-homepage) | [View in Browser](https://adoniasdantas.github.io/google-homepage/)
-
+* [nlcooperski's Solution (Easy)](https://github.com/nlcooperski/google-homepage) | [View in Browser](https://nlcooperski.github.io/google-homepage/)
 
 ## Additional Resources
 
