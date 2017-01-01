@@ -95,6 +95,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 * Add your solution below this line!
 * [willisread's solution (easy)](https://github.com/willisread/google_homepage) | [View in browser](https://willisread.github.io/google_homepage/)
+* [mazen.j's solution (Easy)](https://github.com/chilinoodle/google_homepage) | [View in browser](https://chilinoodle.github.io/google_homepage/)
+* [mazen.j's solution (Difficult)](https://github.com/chilinoodle/google_search_results) | [View in browser](https://chilinoodle.github.io/google_search_results/)
 * [jgwould's solution (Easy)](https://github.com/jgwould/google-homepage) | [View in browser](https://jgwould.github.io/google-homepage/) 
 * [ToTenMilan's solution(Easy)](https://github.com/ToTenMilan/google-homepage) | [View in browser](https://totenmilan.github.io/google-homepage/)
 * [ToTenMilan's solution(Difficult)](https://github.com/ToTenMilan/google-homepage) | [View in browser](https://totenmilan.github.io/google-homepage/search.html)
@@ -589,8 +591,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Muthumbi's Solution](https://github.com/muthumbi/The-Odin-Project/tree/master/google-homepage) | [View in Browser](https://rawgit.com/muthumbi/The-Odin-Project/master/google-homepage/index.html)
 * [wsmithsrs's Solution](https://github.com/wsmithsrs/google-homepage) | [View in Browser](https://rawgit.com/wsmithsrs/google-homepage/master/index.html)
 * [LuckySiete's Solution](https://github.com/LuckySiete/google-homepage) | [View in Browser](https://rawgit.com/LuckySiete/google-homepage/master/index.html)
-* [lyhbarry's Solution](https://github.com/lyhbarry/google-homepage) | [View in Browser] (
-https://rawgit.com/lyhbarry/google-homepage/master/index.html)
+* [lyhbarry's Solution](https://github.com/lyhbarry/google-homepage) | [View in Browser] (https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Marceia Egler's Solution](https://github.com/megler/google-homepage) | [View in Browser](https://rawgit.com/megler/google-homepage/master/index.html)
 * [Jorge Gonzalez's Solution](https://github.com/jrgz/google-homepage) | [View in Browser](http://jorgegonzalez.io/google-homepage)
 * [Lawrence Lin's Solution](https://github.com/gideo/OdinProject/tree/master/google-homepage)[View in Browser](https://rawgit.com/gideo/OdinProject/master/google-homepage/index.html)
@@ -755,8 +756,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Dave Smith's easy solution](https://github.com/lah4life/google-homepage) | [View in browser](https://rawgit.com/lah4life/google-homepage/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/tree/master/google-homepage) | [View in browser](https://rawgit.com/mumairk/twin_robots/master/google-homepage/google.html)
 * [Faal's Easy solution](https://github.com/FaalVedtuz/google-homepage) | [View in browser](https://rawgit.com/FaalVedtuz/google-homepage/master/index.html)
-* [Faal's Difficult solution](https://github.com/FaalVedtuz/google-result) | [View in browser]
-(https://rawgit.com/FaalVedtuz/google-result/master/index.html)
+* [Faal's Difficult solution](https://github.com/FaalVedtuz/google-result) | [View in browser](https://rawgit.com/FaalVedtuz/google-result/master/index.html)
 * [MUK's solution](https://github.com/mumairk/twin_robots/google-homepage) | [View in browser](https://rawgit.com/mumairk/twin_robots/master/google-homepage/google.html)
 * [Steve Howard's Solution (Easy & Difficult)](https://github.com/sp-howard/googlesearch_russellwilson) | [View in browser 'Easy'](https://rawgit.com/sp-howard/googlesearch_russellwilson/master/index.html) | [View in browser 'Difficult'](https://htmlpreview.github.io/?https://raw.githubusercontent.com/sp-howard/googlesearch_russellwilson/master/results/index.html)
 * [Vanessa Tan's Solution (Easy)](https://github.com/vanJargon/google-homepage) | [View in browser](https://rawgit.com/vanJargon/google-homepage/master/index.html)
