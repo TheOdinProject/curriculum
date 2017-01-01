@@ -955,7 +955,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Adonias Dantas's Solution](https://github.com/adoniasdantas/google-homepage) | [View in Browser](https://adoniasdantas.github.io/google-homepage/)
 * [nlcooperski's Solution (Easy)](https://github.com/nlcooperski/google-homepage) | [View in Browser](https://nlcooperski.github.io/google-homepage/)
 * [Leonard's Solution (Easy & Difficult)](https://github.com/Kr0ntar/google-homepage/) (https://github.com/Kr0ntar/google_search_results_page/) | [View in Browser (Easy)](https://github.com/Kr0ntar/google-homepage/master/index.html) | [View in Browser (Difficult)](https://github.com/Kr0ntar/google_search_results_page/master/index.html)
-* [Pat's solution (easy)](https://github.com/Pat878/google-homepage) | [View in browser](https://http://pat878.github.io/google-homepage/)
+* [Pat's solution (easy)](https://github.com/Pat878/google-homepage) | [View in browser](https://pat878.github.io/google-homepage/)
 
 ## Additional Resources
 
