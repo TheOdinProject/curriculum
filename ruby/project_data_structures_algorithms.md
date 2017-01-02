@@ -95,6 +95,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/binary_tree.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/bst.rb)
 * [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/Ruby/data_tree.rb)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/binary_trees)
 
 
 

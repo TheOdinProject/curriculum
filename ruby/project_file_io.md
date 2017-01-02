@@ -105,6 +105,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Braydon Pacheco's solution](https://github.com/pacheeko/event_manager)
 * [Simon's Solution](https://github.com/SimonSomlai/Odin/tree/master/ruby/event_manager)
 * [HenrytheDJ's Solution (complete)](https://github.com/henrythedj/event_manager_demo)
+* [smilesr's solution] (https://github.com/smilesr/op-rb-ir-25-event-manager)
 * Add your solution above this line
 
 
@@ -130,6 +131,7 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Raiko's Solution](https://github.com/Cypher0/hangman)
 * [Charles's Solution](https://github.com/codexTun/ODIN-PROJECTS/tree/master/Ruby_projects/hangman)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Hang_man)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/Hangman) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/Hangman/index.html)

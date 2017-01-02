@@ -94,6 +94,12 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [ToTenMilan's solution(Easy)](https://github.com/ToTenMilan/google-homepage) | [View in browser](https://totenmilan.github.io/google-homepage/)
+* [ToTenMilan's solution(Difficult)](https://github.com/ToTenMilan/google-homepage) | [View in browser](https://totenmilan.github.io/google-homepage/search.html)
+* [Jüri Punnar's solution](https://github.com/Punnar/google-homepage) | [View in browser](https://punnar.github.io/google-homepage/)
+* [Damian A's solution (Easy)](https://github.com/debitCredit/google-homepage) | [View in Browser (Easy)](https://debitcredit.github.io/google-homepage/)
+* [Clara's solution - Easy] (https://github.com/clarammdantas/Googe-Homepage) | [View in Browser](https://clarammdantas.github.io/Googe-Homepage/)
+* [theghall's solution](https://github.com/theghall/google-homepage) | [View in Browser](https://theghall.github.io/google-homepage/)
 * [Waglebr's solution (Easy)](https://github.com/waglebr/google-project) | [View in Browser](https://waglebr.github.io/google-project/)
 * [thisisned's solution (Easy)](https://github.com/thisisned/google-homepage) | [View in Browser (Easy)](https://thisisned.github.io/google-homepage/)
 * [Rajat Dhyani's solution (Easy)](https://github.com/rajat-dhyani/google-homepage) | [View in Browser (Easy)](https://rajat-dhyani.github.io/google-homepage/)
@@ -943,6 +949,9 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [egg303's Solution (Easy)](https://github.com/egg303/google-homepage) | [View in Browser](https://egg303.github.io/google-homepage/)
 * [Kumelachew Abera's Solution](https://github.com/Kumelachew/google-homepage) | [View in Browser](https://kumelachew.github.io/google-homepage/)
 * [chanjman's Solution](https://github.com/chanjman/google-homepage) | [View in Browser](https://chanjman.github.io/google-homepage/)
+* [Toni Ruiz's Solution](https://github.com/ToniRuizMora/Google-simple-) | [View in Browser](https://toniruizmora.github.io/Google-simple-/)
+
+* [Adonias Dantas's Solution](https://github.com/adoniasdantas/google-homepage) | [View in Browser](https://adoniasdantas.github.io/google-homepage/)
 
 
 ## Additional Resources
