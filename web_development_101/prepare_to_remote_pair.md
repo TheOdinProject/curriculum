@@ -2,6 +2,7 @@
 <!-- *Estimated Time: .5 hrs* -->
 
 As you learned in the last lesson, pairing in person is the best option, but if that isn't a viable solution, we have many options for pairing remotely. To get underway, you will need a way to share a screen and a way to communicate:
+
 * Screen Sharing Options. There may be more, but these are a few of the most popular:
   * [Screenhero](https://screenhero.com/) is a popular option, but as of December 2016 it is not open to new accounts while they are integrating with [Slack](https://slack.com/) but if you both already have Screenhero accounts, by all means use it.
   * If you both are using Macs, you can use its [built in screen sharing app](https://support.apple.com/kb/PH18686).  
