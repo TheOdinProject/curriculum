@@ -1,4 +1,4 @@
-## Project 1: Caesar Cipher
+# Project: Caesar Cipher
 
 From Wikipedia:
 
@@ -10,6 +10,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 
 Implement a caesar cipher that takes in a string and the shift factor and then outputs the modified string:
 
+### Example Output
 ```language-bash
     > caesar_cipher("What a string!", 5)
     => "Bmfy f xywnsl!"
