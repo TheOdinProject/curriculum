@@ -94,6 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Shaun LaFleur's solution (easy)](https://github.com/ShaunLaFleur/google-homepage) | [View in browser](https://shaunlafleur.github.io/google-homepage/)
+* [Shaun LaFleur's solution (difficult)](https://github.com/ShaunLaFleur/google-search-results) | [View in browser](https://shaunlafleur.github.io/google-search-results/)
 * [willisread's solution (easy)](https://github.com/willisread/google_homepage) | [View in browser](https://willisread.github.io/google_homepage/)
 * [mazen.j's solution (Easy)](https://github.com/chilinoodle/google_homepage) | [View in browser](https://chilinoodle.github.io/google_homepage/)
 * [mazen.j's solution (Difficult)](https://github.com/chilinoodle/google_search_results) | [View in browser](https://chilinoodle.github.io/google_search_results/)
@@ -955,7 +957,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Adonias Dantas's Solution](https://github.com/adoniasdantas/google-homepage) | [View in Browser](https://adoniasdantas.github.io/google-homepage/)
 * [nlcooperski's Solution (Easy)](https://github.com/nlcooperski/google-homepage) | [View in Browser](https://nlcooperski.github.io/google-homepage/)
 * [Leonard's Solution (Easy & Difficult)](https://github.com/Kr0ntar/google-homepage/) (https://github.com/Kr0ntar/google_search_results_page/) | [View in Browser (Easy)](https://github.com/Kr0ntar/google-homepage/master/index.html) | [View in Browser (Difficult)](https://github.com/Kr0ntar/google_search_results_page/master/index.html)
-* [Pat's solution (easy)](https://github.com/Pat878/google-homepage) | [View in browser](https://http://pat878.github.io/google-homepage/)
+* [Pat's solution (easy)](https://github.com/Pat878/google-homepage) | [View in browser](https://pat878.github.io/google-homepage/)
 
 ## Additional Resources
 

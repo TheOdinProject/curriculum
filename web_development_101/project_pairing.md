@@ -1,7 +1,9 @@
-# Project: Paired (https://arcane-ravine-59782.herokuapp.com/)Pomodoro Project
+# Project: [Paired Pomodoro Project](https://arcane-ravine-59782.herokuapp.com/)
 <!-- *Estimated Time: 4-8 hrs* -->
 
 Now you know what pair programming is and how to set up your computer for it. Hopefully you've found yourself somone to pair with because we are about to build something that will be much easier with two heads.
+
+*If you are unable to find someone to pair with, or don't wish to pair program, don't worry. Just make sure you are comfortable with the concepts in the last two lessons, mark this complete, and go on to the next section.*
 
 [The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. You learned about it in the [Gearing Up](http://www.theodinproject.com/courses/web-development-101/lessons/gearing-up) lesson. This is also a useful system for switching between Driver and Navigator roles when pairing.
 
@@ -21,7 +23,8 @@ Enough talk! Lets build!
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!*
 
-* Add your solution below this line!
+Add your solution below this line!
+
 * [Sample solution](https://github.com/ChadKreutzer/pomodoro_clock) | [View in Browser](https://arcane-ravine-59782.herokuapp.com/)
 
 
