@@ -37,4 +37,4 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Git and Github and plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
+* [Git and Github in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)
