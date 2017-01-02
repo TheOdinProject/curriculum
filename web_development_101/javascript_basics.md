@@ -33,6 +33,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 
 * Add your solution below this line!
 * [sofiegraham's solution to Problems 1, 2 & 3](https://github.com/sofiegraham/odin/tree/master/web101/javascript-basics)
+* [Damian's solution to Problem 1](https://github.com/debitCredit/euler/blob/master/1.js)
 * [mazen.j's solution to problem 1 & 2 ](https://github.com/chilinoodle/js_ProjectEuler)
 * [theghall's solution to Problem 2](https://github.com/theghall/fibonacci-problem.git)
 * [theghall's solution to Problem 1](https://github.com/theghall/fizzbuzz-variant.git)
