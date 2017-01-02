@@ -32,6 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Damian's solution to Problem 1](https://github.com/debitCredit/euler/blob/master/1.js)
 * [theghall's solution to Problem 2](https://github.com/theghall/fibonacci-problem.git)
 * [theghall's solution to Problem 1](https://github.com/theghall/fizzbuzz-variant.git)
 * [Rajat Dhyani's solution to Problem 1 & 2](https://github.com/Rajat-dhyani/project_euler) | [View in Browser](https://rajat-dhyani.github.io/project_euler/) | **(Interactive!)**
