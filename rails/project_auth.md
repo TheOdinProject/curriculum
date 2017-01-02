@@ -147,6 +147,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/members_only) | [view in browser](https://dry-ravine-33949.herokuapp.com/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/members-only) | [view in browser](https://polar-fjord-78673.herokuapp.com/)
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/members-only)
+* [DV's solution](https://github.com/dvislearning/members-only) | [view in browser](https://fathomless-reef-68078.herokuapp.com/)
 
 
 
