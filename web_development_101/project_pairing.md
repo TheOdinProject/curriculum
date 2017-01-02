@@ -23,7 +23,8 @@ Enough talk! Lets build!
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!*
 
-* Add your solution below this line!
+Add your solution below this line!
+
 * [Sample solution](https://github.com/ChadKreutzer/pomodoro_clock) | [View in Browser](https://arcane-ravine-59782.herokuapp.com/)
 
 
