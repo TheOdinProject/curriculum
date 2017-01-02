@@ -1,4 +1,4 @@
-# Project: Paired [Pomodoro Project](https://arcane-ravine-59782.herokuapp.com/)
+# Project: [Paired Pomodoro Project](https://arcane-ravine-59782.herokuapp.com/)
 <!-- *Estimated Time: 4-8 hrs* -->
 
 Now you know what pair programming is and how to set up your computer for it. Hopefully you've found yourself somone to pair with because we are about to build something that will be much easier with two heads.
