@@ -64,6 +64,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* leosoaivan's solution - Hangman: [github](https://github.com/leosoaivan/sinatra_hangman) / [see it on the web](https://fierce-island-53975.herokuapp.com/)
 * Jib's solution [github](https://github.com/NuclearMachine/odin_rails/tree/master/sinatra_proj) / [see it on web](https://damp-plateau-50624.herokuapp.com/)
 * codyloyd's solution - MasterMind: [github](https://github.com/codyloyd/sinatra-codebreaker) / [see it on the web](https://crafty-breaker-4567.herokuapp.com/) Hangman: [github](https://github.com/codyloyd/hangman) / [see it on the web](https://subtle-wording-4567.herokuapp.com/)
 * Martin's sulution - MasterMind: [github](https://github.com/mtsafer/MasterMind-Online) / [see it on the web](https://cryptic-caverns-91319.herokuapp.com) Hangman: [github](https://github.com/mtsafer/hangman-online) / [see it on the web](https://stormy-shelf-89128.herokuapp.com)]
