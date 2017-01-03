@@ -17,7 +17,7 @@ As you learned in the last lesson, pairing in person is the best option, but if 
 
   [Cloud 9](https://c9.io) is an online IDE that works out of your web browser so you don't need to install anything on your local computer. Just type in the email address in the middle of the screen and follow the prompts. If you have a [Github](https://github.com/) account, you can then link your Cloud 9 account to it.
 
-###### (Cloud 9 will ask for a credit card number as part of its procedure to make sure you are not a bot. It doesn't keep the information after you have been verified and it does not charge anything on the card.)
+**(Cloud 9 will ask for a credit card number as part of its procedure to make sure you are not a bot. It doesn't keep the information after you have been verified and it does not charge anything on the card.)**
 
   If you want, you can use group chat window under the `collaborate` tab on the upper right side of your screen to start, but that is technically collaboration, not pairing. You will eventually want to sign up for and use one of the voice communication options above. You can just keep it open in another tab or minimized.
 
