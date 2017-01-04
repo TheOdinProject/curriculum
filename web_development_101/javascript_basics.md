@@ -32,6 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [jgwould's solutions to Problems 1 & 2] https://github.com/jgwould/javascript-basics
 * [ugitch's solutions](https://github.com/ugitch/project_euler) | [View in Browser](https://ugitch.github.io/project_euler)
 * [sofiegraham's solution to Problems 1, 2 & 3](https://github.com/sofiegraham/odin/tree/master/web101/javascript-basics)
 * [Damian's solution to Problem 1](https://github.com/debitCredit/euler/blob/master/1.js)
