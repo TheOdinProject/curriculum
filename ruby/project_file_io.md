@@ -106,6 +106,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Simon's Solution](https://github.com/SimonSomlai/Odin/tree/master/ruby/event_manager)
 * [HenrytheDJ's Solution (complete)](https://github.com/henrythedj/event_manager_demo)
 * [smilesr's solution] (https://github.com/smilesr/op-rb-ir-25-event-manager)
+* [nmac's solution](https://github.com/nmacawile/EventManager)
 * Add your solution above this line
 
 
@@ -250,6 +251,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Simon's Solution](https://github.com/SimonSomlai/Odin/tree/master/ruby/hangman)
 * [Bishal's Solution](https://github.com/biiishal/hangman)
 * [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/hangman)
+* [nmac's solution](https://github.com/nmacawile/Hangman)
 
 
 
