@@ -546,3 +546,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Andrew DeNike's Solution](https://github.com/AndyDeNike/javascript_jQuery_sketch) | [View in Browser](https://rawgit.com/AndyDeNike/javascript_jQuery_sketch/master/index.html)
 * [Pat's solution](https://github.com/Pat878/Etch-A-Sketch) | [View in browser](https://pat878.github.io/Etch-A-Sketch/)
 * [Leonard's Solution](https://github.com/Kr0ntar/etch-a-sketch/) | [View in Browser](https://kr0ntar.github.io/etch-a-sketch/)
+* [Boscardin's solution](https://github.com/Boscardin/SketchPad) | [View in browser](https://boscardin.github.io/SketchPad/)
