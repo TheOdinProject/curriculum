@@ -122,6 +122,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin-kittens)
 * [Frank V's solution](https://github.com/fv42wid/kittens)
 * [Amrr Bakry's solution (with API versioning)](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_kittens) | [View in Browser](https://still-woodland-31813.herokuapp.com/)
+* [Dylan's Solution with comprehensive controller testing](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-kittens)
 
 
 ## Project 2: Using a Third Party API
@@ -165,6 +166,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flickr-sidebar)
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens) | [View in Browser](http://odin-kittens.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/flickr-photo-finder) | [View in Browser](https://shielded-retreat-38986.herokuapp.com)
+* [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/flickr_api)
 
 
 ## Additional Resources
