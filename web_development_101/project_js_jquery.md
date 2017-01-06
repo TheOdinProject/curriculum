@@ -1,4 +1,4 @@
-﻿# Project: Javascript/jQuery
+# Project: Javascript/jQuery
 
 <!-- *Estimated Time: 2-4 hrs* -->
 
@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [ToTenMilan's Solution](https://github.com/ToTenMilan/sketchpad) | [View in browser](https://totenmilan.github.io/sketchpad/)
 * [Peter's Solution](https://github.com/peterbucci/etch-a-sketch) | [View in browser](https://peterbucci.github.io/etch-a-sketch/)
 * [Shaun LaFleur's solution](https://github.com/ShaunLaFleur/sketch-pad) | [View in browser](https://shaunlafleur.github.io/sketch-pad/)
 * [Jüri Punnar's solution](https://github.com/Punnar/sketchpad) | [View in browser](https://punnar.github.io/sketchpad/)
