@@ -1,4 +1,4 @@
-﻿# Project: Javascript/jQuery
+# Project: Javascript/jQuery
 
 <!-- *Estimated Time: 2-4 hrs* -->
 
@@ -40,6 +40,11 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 * Add your solution below this line!
 * [sofiegraham' solution](https://github.com/sofiegraham/odin/tree/master/web101/jquery-project) | [View in browser](https://rawgit.com/sofiegraham/odin/master/web101/jquery-project/index.html)
+* [theghall's Solution](https://github.com/theghall/etchy-sketchy.git) | [View in browser](https://theghall.github.io/etchy-sketchy/)
+* [ToTenMilan's Solution](https://github.com/ToTenMilan/sketchpad) | [View in browser](https://totenmilan.github.io/sketchpad/)
+* [Peter's Solution](https://github.com/peterbucci/etch-a-sketch) | [View in browser](https://peterbucci.github.io/etch-a-sketch/)
+* [Shaun LaFleur's solution](https://github.com/ShaunLaFleur/sketch-pad) | [View in browser](https://shaunlafleur.github.io/sketch-pad/)
+* [Jüri Punnar's solution](https://github.com/Punnar/sketchpad) | [View in browser](https://punnar.github.io/sketchpad/)
 * [mrjsykes' solution](https://github.com/johndsykes86/EtchASketch) | [View in browser](https://johndsykes86.github.io/EtchASketch/)
 * [kookfromleduc's solution](https://github.com/kookfromleduc/odinSketch) | [View in browser](https://kookfromleduc.github.io/odinSketch/)
 * [thisisned's solution](https://github.com/thisisned/sketch) | [View in browser](https://thisisned.github.io/sketch/)
@@ -542,3 +547,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [LeangSeu's Solution](https://github.com/leangseu/practice-jQuery) | [View in Browser](https://cdn.rawgit.com/leangseu/practice-jQuery/master/index.html)
 * [Øistein's Solution](https://github.com/oisteinhaugland/etchascetch/) | [View in Browser](https://oisteinhaugland.github.io/etchascetch/)
 * [Andrew DeNike's Solution](https://github.com/AndyDeNike/javascript_jQuery_sketch) | [View in Browser](https://rawgit.com/AndyDeNike/javascript_jQuery_sketch/master/index.html)
+* [Pat's solution](https://github.com/Pat878/Etch-A-Sketch) | [View in browser](https://pat878.github.io/Etch-A-Sketch/)
+* [Leonard's Solution](https://github.com/Kr0ntar/etch-a-sketch/) | [View in Browser](https://kr0ntar.github.io/etch-a-sketch/)
+* [Boscardin's solution](https://github.com/Boscardin/SketchPad) | [View in browser](https://boscardin.github.io/SketchPad/)
