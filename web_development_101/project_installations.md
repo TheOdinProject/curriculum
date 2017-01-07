@@ -24,7 +24,7 @@ Because of this, there are many little pieces and parts that you are going to ne
 
 Ok, we get it.. you're very comfortable with the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
 
-Techically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
+Technically it _is_ possible to get most of the needed elements running on Windows, but many of the required scripts and programs were originally written for Linux, or Mac systems with Windows as more of an afterthought.  You will quickly run into trouble, with mismatching versions, out-of-date installers and other similar conflicts that you'll need to resolve manually (and often repeatedly) and you're likely to find things that used to work breaking unexpectedly, with rather cryptic error messages.
 
 The programmers who created Rails had a preference for unix based operating systems (OSX, linux) this means learning Rails on a Windows machine is a recipe for frustration. Below are some of the main reasons for using Linux when learning Rails:
 
@@ -81,9 +81,9 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 
 **Pros**
 
-* This is a fullly operational Linux Bash Shell running natively on Windows.
+* This is a fully operational Linux Bash Shell running natively on Windows.
 * Since you are running Ubuntu natively from Windows you don't have a performance hit like with the virtual machine option.
-* You have full access to both your Linux and Windows filesystems from both Bash on Windows and File Explorer.
+* You have full access to both your Linux and Windows file-systems from both Bash on Windows and File Explorer.
 * You don't have to restart to switch between Linux and Windows: Bash on Windows acts just like your windows Command Prompt.
 * This is an official Microsoft product, so there is little risk of messing up your Windows installation.
 * You can use just about(see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
@@ -98,7 +98,7 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 
 
 #### Option 4 - Using an Online IDE
-If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's(Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
+If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's (Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
 **Pros**
 
@@ -109,7 +109,7 @@ If you absolutely can not install Linux to your machine, or if the Virtual Machi
 **Cons**
 
 * You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
-* The free tier's of these services have a memory limit, normally 1 gb. This can be a major limitation after a while.
+* The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
 ## What You'll Be Installing
 
@@ -196,5 +196,5 @@ If you've run into issues with your installation and are desperately looking for
 * Treehouse has short videos describing Rails installation for various environments in their [Getting Started with Rails](http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails) unit.
 * [Guide](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) for opening Sublime Text via command line in Windows.
 * [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
-* [Gorails.com] (https://gorails.com/setup) also has an excellent tutorial for setting up your Rails enviornment for OSX and Ubuntu.
+* [Gorails.com] (https://gorails.com/setup) also has an excellent tutorial for setting up your Rails environment for OSX and Ubuntu.
 * Google Google Google
