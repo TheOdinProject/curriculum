@@ -1,5 +1,7 @@
 # Loops
-A brief summary about what this lesson is about and why the topics or concepts it covers are important.
+A brief summary about what this lesson is about
+* why are loops important in programming?
+* what this lesson will include
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
@@ -10,13 +12,25 @@ what the student is expected to know or be able to do by the end of this lesson
 * Learning outcome 2
 * Learning outcome 3
 
-## Assignment
-The list of resources the user will go through to learn about the topic of this lesson. Have no more than 5 resources, ideally no more than three.
+## While Loop
+A description of what the while loop is for, how it works and how to use it, please include code snippets
 
-## Exercises
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
+## For Loop
+A description of what the for loop is for, how it works and how to use it, please include code snippets
 
-## Additional Resources
+## Times
+A description of what the times loop is for, how it works, and how to use it, please include code snippets
+
+## Until
+A description of what the until is for, how it works, and how to use it, please include code snippets
+
+## Upto and downto
+A description of what the upto and downto loops are for, how they works, and how to use them, please include code snippets
+
+## Exercise
+Link to external repo which will include exercises for this lesson which the user will complete by passing tests
+
+## Further Reading
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
