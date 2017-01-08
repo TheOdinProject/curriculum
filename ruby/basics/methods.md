@@ -10,15 +10,20 @@ without having to write it all out again?
 This is what methods are for. They allow you to wrap code in a name which you
 can then use where you need that code to be run in your programs.
 
-In this lesson we will dive deep into methods.
+In this lesson we are going to deconstruct what methods are, their behaviour, and how they are used.
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
-* Create a new method
+* List the three parts used to construct a method
 * Understand the syntax of a method: 'Object.method'
-* Learning outcome 3
+* Understand the difference between `puts` and `return`
 * 
+
+
+
+
+
 
 ### Some examples
 Ruby has some built-in methods included into its library. Some of them are very straight-forward and easy to learn. Others will take more time to discover.
@@ -30,7 +35,7 @@ Ruby has some built-in methods included into its library. Some of them are very 
 * We apply the `.length` method on the string "It's Peanut Butter Jelly Time!".
 * `.length` counts each character within the string; this includes whitespaces.
 
-You also have the option to create your own methods. The `.count_words` method below 
+You also have the option to create your own methods. The `.count_words` method below:
 
 ```ruby
 def count_words(sentence)
@@ -38,28 +43,20 @@ def count_words(sentence)
 end
 
 count_words("It's Peanut Butter Jelly Time!") #=> 5
+
 ```
 
 * `count_words(sentence)` takes an argument and then references it inside its method.
 * Then the `.split` method is called onto `sentence` followed by the `.length` method.
+* A deeper look:
 * `"It's Peanut Butter Jelly Time!".split` # => ["It's", "Peanut", "Butter", "Jelly", "Time"]
-* 
+* ["It's", "Peanut", "Butter", "Jelly", "Time"].length # => 5
 
-```
-def first_name(full_name)
-  full_name.split[0]
-end
-```
+
+
+
 
 ### Methods Basics
-- the three parts of a basic method
-  - method definition
-  - method body
-  - closing end
-- the definition is where you name it, give it a good descriptive name. Describe either what the method will output of what behaviour it has
-- the method body is where the code you want to reuse goes
-- the `end` marks the end of the method
-
 There are three basic parts of a method. We will go through each using the following
 example method:
 
@@ -77,22 +74,37 @@ end
 3. Everything in between the first `def` line and the last `end` line is the **method body**. This is where the logic of
    your method goes. Therefore the second line `"John Smith"` is within the method body.  Your method body can conist of as many lines as you wish. But its a good idea to keep your methods as short as possible so you or another programmer can easily grasp what the method is doing. 
 
-### Methods with Arguments
 
-+arguments in general
+### Calling methods
+- calling methods on an object 
+- calling your own methods
+- 
+To run your method in your code, you simply use the name of the method. Using the
+previous `my_name` example method, this is how you would run it or to use the proper
+term _call_ it in your code.
+
+```ruby
+my_name #=> "John Smith"
+```
+
+
+### Methods with Arguments
++difference between arguments and paramaters
 ?splat
 +named arguments
 ?implicit hash at end
 - method scope
+
+
+
+
+
 
 ### Return values
 - explicit with the return keyword
 - implicit (last line evaluated)
 - difference between puts/print and return (beginner checks their work with puts all the time, but the computer is interested in the return not the puts)
 
-### Calling methods
-- calling methods on an object 
-- calling your own methods
 
 
 ## Exercises
