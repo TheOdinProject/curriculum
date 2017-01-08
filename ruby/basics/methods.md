@@ -72,6 +72,10 @@ previous `my_name` example method, this is how you would run it or to use the pr
 term _call_ it in your code.
 
 ```ruby
+def my_name
+  "John Smith"
+end
+
 my_name #=> "John Smith"
 ```
 
