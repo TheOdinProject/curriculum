@@ -5,9 +5,10 @@
 
 ## Lesson structure
 - Introduction to the lesson
-  a brief intro to what will be covered in the lesson
+   a brief intro to what will be covered in the lesson
 - Learning outcomes
   a list of what the user should know at the end of this lesson
+  
 - Main lesson body
   This will follow a tutorial format that will go into all the main concepts the student needs to know
 - Exercise
@@ -20,13 +21,21 @@
 
 * Lesson: Variables, Numbers and Strings
     Austin
+    
 * Lesson: Conditional Logic
+
 * Lesson: Loops
+
 * Lesson: Arrays
     Leo
+    
 * Lesson: Hashes
+
 * Lesson: Basic enumerable methods
+
 * Lesson: Methods
-    Kevin and Cornelius
+  Kevin and Cornelius
+  
 * Lesson: Problem Solving
+
 * Lesson: Debugging
