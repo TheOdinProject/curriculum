@@ -10,13 +10,20 @@ what the student is expected to know or be able to do by the end of this lesson
 * Learning outcome 2
 * Learning outcome 3
 
-## Assignment
-The list of resources the user will go through to learn about the topic of this lesson. Have no more than 5 resources, ideally no more than three.
+## Creating a Hash
+* The literal notation
+* Creating a new hash object with Hash.new
+
+## Adding Data to a Hash
+
+## Accessing Data in a Hash
+
+## Removing Data in a Hash
 
 ## Exercises
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
+This will link to an external repo which will include exercises and tests
 
-## Additional Resources
+## Further Reading
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
