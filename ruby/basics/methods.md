@@ -18,11 +18,6 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * List the three parts used to construct a method
 * Understand the syntax of a method: 'Object.method'
 * Understand the difference between `puts` and `return`
-* 
-
-
-
-
 
 
 ### Some examples
@@ -52,11 +47,7 @@ count_words("It's Peanut Butter Jelly Time!") #=> 5
 * `"It's Peanut Butter Jelly Time!".split` # => ["It's", "Peanut", "Butter", "Jelly", "Time"]
 * ["It's", "Peanut", "Butter", "Jelly", "Time"].length # => 5
 
-
-
-
-
-### Methods Basics
+### Deconstructing a Method
 There are three basic parts of a method. We will go through each using the following
 example method:
 
@@ -87,30 +78,22 @@ term _call_ it in your code.
 my_name #=> "John Smith"
 ```
 
-
 ### Methods with Arguments
-+difference between arguments and paramaters
-?splat
-+named arguments
-?implicit hash at end
-- method scope
 
-
-
-
+* Why use arguments with methods - scope
+* The difference between arguments and paramaters
+* different ways to add parameters - named paramaters and splat 
 
 
 ### Return values
-- explicit with the return keyword
-- implicit (last line evaluated)
-- difference between puts/print and return (beginner checks their work with puts all the time, but the computer is interested in the return not the puts)
-
-
+* explicit with the return keyword
+* implicit (last line evaluated)
+* difference between puts/print and return (beginner checks their work with puts all the time, but the computer is interested in the return not the puts)
 
 ## Exercises
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
+This will link to an external repo which will include exercises and tests
 
-## Additional Resources
+## Further Reading Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
