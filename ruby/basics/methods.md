@@ -91,6 +91,8 @@ my_name #=> "John Smith"
 * implicit (last line evaluated)
 * difference between puts/print and return (beginner checks their work with puts all the time, but the computer is interested in the return not the puts)
 
+### Chaining Methods
+
 ## Exercises
 This will link to an external repo which will include exercises and tests
 
