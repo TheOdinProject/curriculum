@@ -67,9 +67,6 @@ end
 
 
 ### Calling methods
-- calling methods on an object 
-- calling your own methods
-- 
 To run your method in your code, you simply use the name of the method. Using the
 previous `my_name` example method, this is how you would run it or to use the proper
 term _call_ it in your code.
