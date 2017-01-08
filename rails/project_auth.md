@@ -148,6 +148,8 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/members-only) | [View in browser](https://polar-fjord-78673.herokuapp.com/)
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/members-only)
 * [DV's solution](https://github.com/dvislearning/members-only) | [View in browser](https://fathomless-reef-68078.herokuapp.com/)
+* [Dckwong's solution](https://github.com/dckwong/members-only) | [View in browser](https://membersonly.herokuapp.com/)
+
 
 
 
