@@ -1,0 +1,24 @@
+<div class="StaticPagesController">
+  <div class="container">
+    
+    <h1>Legal Stuff</h1>
+
+    <p>...Because otherwise what would we do with all the lawyers?!?</p>
+
+    <%= link_to tou_path do %>
+      <h2>Terms of Use</h2>
+    <% end %>
+    <p>
+      These Terms of Use govern your use of the website.
+    </p>
+
+
+    <%= link_to cla_path do %>
+      <h2>Contributor Licensing Agreement (CLA)</h2>
+    <% end %>
+    <p>
+      This agreement applies when you make contributions to this website.  For details about contributions to the Curriculum, refer to the <%= link_to "Contributing section", contributing_path %>.
+    </p>
+
+  </div>
+</div>

@@ -1,0 +1,678 @@
+<div class="contributing">
+  <div class="container">
+    <h1 id="getting-involved-with-the-odin-project">Getting Involved with The Odin
+      Project
+    </h1>
+    <ol>
+      <li>Intro</li>
+      <li>Our Approach</li>
+      <li>The Tools We're Using</li>
+      <li>Schedule Going Forward</li>
+      <li>How to Get Started</li>
+      <li>Workflows for Features and Stories</li>
+      <li>Git Workflow Notes</li>
+      <li>Additional Resources</li>
+    </ol>
+    <h2 id="intro">Intro</h2>
+    <p>It's awesome that you're interested in getting involved with the
+      project! The project needs the help of contributors and it should be good
+      experience for you to build software as part of a team.  In December 2013 we
+      created the structure necessary to bring in collaborators who are new to both
+      the project and perhaps software development in general.
+    </p>
+    <p>This document is the official &quot;on-boarding&quot; for new contributors
+      and it will lay our how we're managing the contributions going forward, the
+      tools we're using, and how to get started.
+    </p>
+
+    <p>
+      It should be noted that our available time to manage the project fluctuates significantly over time.  We're looking for people with the ability and willingness to take a more consistently active role.  Please reach out if you fit the description!
+    </p>
+
+
+    <h3 id="prerequisites">Prerequisites</h3>
+
+    <p>You're more than welcome to observe at any level and contribute if/when
+      you feel ready.  Actually, contribute just before you feel ready... you'll
+      never feel ready.  But you probably should have completed the <a
+        href="http://www.theodinproject.com/courses/ruby-on-rails/lessons">Rails
+      course</a> or, at the very least, the <a
+        href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">Ruby on Rails
+      Tutorial</a> by Michael Hartl.
+    </p>
+    <h2 id="our-approach">Our Approach</h2>
+    <h3 id="overview-and-philosophy">Overview and Philosophy</h3>
+    <p>Just like the project itself is open source, we're keeping this process
+      as open as possible to help manage a dispersed group of contributors and provide
+      a set of learning tools for people who stumble upon this later.  That means our
+      meetings will be held publicly (via Google Hangouts On Air, available on
+      YouTube), our project status will be tracked publicly (via <a
+        href="https://www.pivotaltracker.com/s/projects/979092">our Pivotal
+      Tracker</a>), and our self-organization will be managed publicly (via <a
+        href="https://plus.google.com/u/0/communities/100013596437379837846">our Google
+      Community</a>) as well.
+    </p>
+    <p>Many of the contributors and participants are still early in their learning
+      so we're working to build a collaborative process that encourages and
+      enables newbies to observe until they're ready to help out.  It's
+      definitely a learning process for everyone, so we'll probably be changing
+      things in our workflow as necessary.
+    </p>
+    <h3 id="agile">Agile</h3>
+    <p>To reflect some of the software development best practices from the industry
+      today and provide the most flexible way to run the project, we'll be using a
+      customized Agile workflow.
+    </p>
+    <h4 id="learning-about-agile">Learning About Agile</h4>
+    <p>Before diving in, it's important to have an idea of what Agile is.  There
+      are certainly better links out there, so please suggest them!
+    </p>
+    <ol>
+      <li>Watch this <a href="http://youtu.be/d0uKY2kLKmk?t=6m8s">video on
+        Engineering Software as a Service</a> from Armando Fox and David Patterson of
+        Berkeley.  It covers the whole process of building SAAS from beginning to
+        end.
+      </li>
+      <li>Watch this [video intro to SCRUM].  We won't be using all these
+        practices in this exact same way, but it's a great intro.  We'll use
+        Pivotal's &quot;Points&quot; system.
+      </li>
+      <li>Read through this <a
+        href="http://www.serena.com/docs/repository/solutions/intro-to-agile-devel.pdf">explanation
+        of SCRUM and XP</a>.  Don't get too caught up in the flow charts and
+        details, we'll be doing our own thing.
+      </li>
+    </ol>
+    <h4 id="our-version-of-agile">Our Version of Agile</h4>
+    <p>We're challenged because the team isn't a 9-5 software development
+      team with reliable workflows and productivity -- contributors are a distributed
+      group of part-time warriors learning at the same time.  Instead of building a
+      certain number of stories-per-week, we're more likely to build at a rate of
+      weeks-per-story.
+    </p>
+    <p>To account for this, we'll focus on a single feature / user story at a
+      time until it's complete, and it will be handed off from one
+      person/pair/group to the next depending on availability.  We'll use
+      SCRUM-style meetings and code reviews to manage workflow.  These meetings are
+      managed through our <a
+        href="https://plus.google.com/u/0/communities/100013596437379837846">Google
+      Community</a>.
+    </p>
+    <h3 id="product-management">Product Management</h3>
+    <p>Erik will take care of managing and prioritizing the feature/story backlog.
+      If you've got user feedback or feature requests, <a
+        href="mailto:erik@theodinproject.com">contact him directly</a>.  We'll
+      likely bring more collaboration to the feature list as the team settles in a
+      bit.  Erik will write the stories, mockups and feature specifications for the
+      team to work off of.  The team will be invaluable for providing feedback on all
+      these items.
+    </p>
+    <h4 id="specs-and-mockups">Specs and Mockups</h4>
+    <p>Each feature (and possibly each individual story) will have a corresponding
+      set of mockups (whether low fidelity <a href="http://balsamiq.com">Balsamiq
+      mockups</a> or higher fidelity images).  These will be attached to the user
+      story, so you can click into them and check them out directly from the
+      Tracker.
+    </p>
+    <p>We'll also start building more formal user specs using <a
+      href="https://drive.google.com/">Google Docs</a>, which allow everyone to view
+      the file and also contribute.  This specification document will also be linked
+      to from the story in the Pivotal Tracker.  We've found that just working off
+      of the Pivotal user stories and their component tasks isn't quite enough, so
+      each story will get its own specification document that contains detailed
+      instructions about the deliverables, mockups, and interactions.
+    </p>
+    <p>The important part of the spec is that the development team will be able to
+      make notes of what they find along the way, their pseudocode and development
+      strategy, and any bugs or status updates they need to make note of.  Thus the
+      Google doc spec represents the ongoing timeline and log of the story's
+      development.
+    </p>
+    <h3 id="project-management-scrum-mastering-">Project Management (SCRUM
+      Mastering)
+    </h3>
+    <p>To keep everyone moving in the same direction and working on the right stuff,
+      the role normally filled by a SCRUM master or project manager will be done by
+      Erik until someone else finds themselves as a natural fit for it.
+    </p>
+    <h3 id="developing-stories-and-pairing-with-tdd">Developing Stories (and
+      Pairing!) with TDD
+    </h3>
+    <p>You'll be developing features by working on their component stories!  We
+      have a few important guidelines:
+    </p>
+    <h4 id="test-driven-development-tdd-">Test Driven Development (TDD)</h4>
+    <p>For many of you, writing tests may be the biggest challenge off the bat.  For
+      a project this big and distributed, it's absolutely essential that every new
+      feature achieves as close to 100% test coverage as possible and the way to do
+      that is with TDD.  You may remember the <a
+        href="http://testfirst.org/learn_ruby">Test First lessons</a> from back in <a
+        href="http://www.theodinproject.com/courses/web-development-101/lessons">Web
+      Development 101</a>.  The difference is that this time <em>you'll</em> be
+      writing the tests.  
+    </p>
+    <p>If you're not sure where to start, check out the <a
+      href="http://www.theodinproject.com/courses/ruby-programming/lessons/introduction-to-rspec">Lesson
+      on RSpec</a> in the Ruby Course.  The basic principle is to start with a failing
+      test, make it pass with the least code possible, then refactor as necessary and
+      repeat the process until the story is finished.  Since you've only written
+      the least amount of code necessary to make the tests pass, you should have full
+      coverage.
+    </p>
+    <p>Once you've finished that, we're putting together a more
+      Rails-focused testing document at <a
+        href="https://github.com/TheOdinProject/curriculum/blob/master/rails/testing.md">https://github.com/TheOdinProject/curriculum/blob/master/rails/testing.md</a>
+      which should help you take the next step.
+    </p>
+    <h4 id="pairing-group-mob-programming">Pairing / Group / Mob Programming</h4>
+    <p>This is a learning experience for everyone and it's really important to
+      work collaboratively.  Whether it's you working remotely with a single
+      partner or mob programming with several, the goal is to do nothing alone.
+    </p>
+    <h4 id="keep-it-open">Keep it Open</h4>
+    <p>Record your pairing / coding sessions and all meetings (which is why Hangouts
+      on Air is ideal, since it automatically generates and posts a YouTube video of
+      the session).  Everyone's learning and we'll all be Googling for answers
+      so don't feel self conscious about that.  Part of this is about showing new
+      students how imperfect the real process is.
+    </p>
+    <p>Post the videos of your sessions to the <a
+      href="https://plus.google.com/u/0/communities/100013596437379837846">Google
+      Community</a>.  We'll have to set up a coherant archiving system when there
+      are too many of them.
+    </p>
+    <h4 id="blog">Blog</h4>
+    <p>In the spirit of openness for those who follow, we'll try to write about
+      the development of each story or feature after it's completed.  All the
+      information necessary to create a rich and helpful blog post on the <a
+        href="http://1000hours.io">Odin Blog (called 1000 Hours)</a> will be contained
+      in the Google Doc Spec for the story, so the team member who writes about the
+      story will have plenty of material to work from.
+    </p>
+    <p>Potential things to write about for a given story completion:</p>
+    <ol>
+      <li>Briefly describe the overall context of the feature the story is helping
+        to create (or the feature itself if the post is about a whole feature)
+      </li>
+      <li>Describe the story itself</li>
+      <li>Show a screenshot of the feature in production (if possible) and any
+        corresponding mockups used for development
+      </li>
+      <li>Describe briefly the development process</li>
+      <li>Describe the challenges it presented</li>
+      <li>Describe the major lessons learned</li>
+      <li>Link to the final commit so they can view the code base at the right
+        moment in time if desired.
+      </li>
+    </ol>
+    <p>Try to make it helpful for a student months from now who is curious about how
+      something was built.
+    </p>
+    <h2 id="the-tools-we-re-using">The Tools We're Using</h2>
+    <h3 id="project-management">Project Management</h3>
+    <p>We have a <a href="https://www.pivotaltracker.com/s/projects/979092">Pivotal
+      Tracker account</a> set up, which is publicly available.  If you want to
+      contribute, you'll need to ask to be added to the account (to be able to
+      make changes) by visiting <a
+        href="https://www.pivotaltracker.com/projects/979092/overview">the project
+      overview page</a> and clicking &quot;Join This Project&quot; under the
+      &quot;Actions&quot; section.  Or you can email <a
+        href="mailto:contact@theodinproject.com">contact@theodinproject.com</a> to be
+      added (use subject line &quot;Please add me to the Pivotal Tracker&quot;).
+    </p>
+    <p>To become familiar with the tracker, check out <a
+      href="https://www.pivotaltracker.com/help/gettingstarted">their &quot;Getting
+      Started&quot; page</a>.  The two videos on that page are particularly
+      helpful.
+    </p>
+    <p>You can see the story (or stories) we're currently working on in the
+      &quot;CURRENT&quot; section.  In each story there will be a simple description
+      followed by a series of checkboxes representing the steps the story needs to
+      fulfill to be accepted.  
+    </p>
+    <p>Specifications for each story will be created in Google Docs and attached in
+      the Tracker.  As stated above, mockups will be created using either <a
+        href="http://balsamiq.com">Balsamiq</a> and/or a more high-fidelity tool like
+      Keynote or Photoshop.
+    </p>
+    <h3 id="community">Community</h3>
+    <p>We want to keep the discussions lively and ongoing and easy to contribute to.
+      We're still looking for the right blend of tools but we'll be basing
+      everything around our <a
+        href="https://plus.google.com/u/0/communities/100013596437379837846">Google Plus
+      Community</a> for now.  It lets people post and share what's relevant, which
+      will include status updates and helpful links.
+    </p>
+    <p>We may also be setting up an email list, though still trying to figure out
+      how relevant or repetitive that would be in addition to the community.
+    </p>
+    <h3 id="pairing">Pairing</h3>
+    <p>We've experimented with several different pairing workflows and
+      haven't settled on the definitive winner yet.  See <a
+        href="https://github.com/TheOdinProject/curriculum/blob/master/extra_stuff/pairing/how_to_pair.md">&quot;How
+      to Pair&quot;</a> for a more exhaustive description, but basically the idea is
+      to switch off who is writing the code (the driver) and who is directing what to
+      write (navigator) after a fixed amount of time (30 minutes) or a fixed set of
+      tests.  You can also switch off every other test.
+    </p>
+    <p>The main workflows we've tried are listed below.  The ideal workflow
+      allows ulimited people to participate, easy switching between driver/navigator,
+      and easy recording.  None have come out the clear winner, though the first is
+      currently favored:
+    </p>
+    <ol>
+      <li>
+        <strong><a href="https://plus.google.com/hangouts">Google Hangouts on
+        Air</a> + <a
+          href="https://www.nitrous.io/join/GRrt3VYaHE8?utm_source=nitrous.io&amp;utm_medium=copypaste&amp;utm_campaign=referral">Nitrous.io</a></strong>:
+        Nitrous is a free cloud-hosted Rails development environment that lets you run
+        your own terminal window, local filesystem etc... it's like tunneling into a
+        new Macbook.  It also has collaboration features baked in, so multiple people
+        can work on the same code base simultaneously.  The Hangout on Air is necessary
+        to give the navigator(s) the opportunity to talk to the driver and so we can
+        record the session easily.
+        <ul>
+          <li><strong>Pros:</strong> Easy recording, unlimited watchers, easy driver
+            switching (one code base used), standardizes environments for collaborators
+          </li>
+          <li><strong>Cons:</strong> Have to use an IDE (which no one is 100%
+            familiar with), totally web-based, Google can be frustrating to figure out
+          </li>
+          <li>To set up a Hangout on Air, you actually need to schedule the HoA
+            <em>in advance</em>, which will automatically create a Google Event which links
+            to the HoA.  The other way to do it is to schedule the Google Event and then,
+            just ahead of time, create a HoA and link it to the Google Event by digging in
+            to the Event's options and looking for the &quot;YouTube Link&quot; field.
+            See <a href="https://plus.google.com/+NatalieVillalobos/posts/a1sgtv91skA">this
+            post</a> for details of that method.
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong><a href="http://screenhero.com/">Screenhero</a> + your text
+        editor</strong>:  This allows both people to control the action with their own
+        mouse, so you can alternate who is coding and who is navigating.  Best if only 2
+        people are driving/navigating.
+        <ul>
+          <li><strong>Pros:</strong> Intuitive, only need to use one person's
+            code base.
+          </li>
+          <li><strong>Cons:</strong> Recording needs to be done with another
+            program, only 2 people can participate (unless external screen sharing like a
+            Hangout-On-Air is also used).
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong><a href="https://plus.google.com/hangouts">Google Hangouts on
+        Air</a> + your text editor</strong>:  In this flow, you would share your screen
+        on the hangout while working in your own text editor.  When it's time for
+        someone else to start coding, you'd need to use Git to give that person the
+        latest copy of the files.
+        <ul>
+          <li><strong>Pros:</strong> Easy recording, unlimited watchers,</li>
+          <li><strong>Cons:</strong> Switching between drivers is a pain, Google can
+            be frustrating to figure out
+          </li>
+        </ul>
+      </li>
+    </ol>
+    <p>We will update this page as a clear winner emerges.  For now, it appears to
+      be Nitrous and Google HoA.
+    </p>
+    <h3 id="recording">Recording</h3>
+    <p>Google Hangouts on Air take care of the recording, and if they're run via
+      the community we've set up then it should be easy to locate the recordings.
+      I'm not too familiar with where the videos get posted and how to link to
+      them all, so we'll have to treat that as a work in progress.  Ideally,
+      whenever a new pairing session recording is completed, you will post its link to
+      the community.  We will need to come up with a place to put them all when we get
+      enough.  Google Pages maybe?
+    </p>
+    <p>As for individual recordings (e.g. of sessions recorded on your own
+      computer), still working on that too.  The ideal program will record your screen
+      as well as the computer's audio (so including anything coming from your
+      partner(s) on the other end of a voice call).  Hangouts on Air is still the gold
+      standard since it seamlessly uploads it all to YouTube for you.
+    </p>
+    <h4 id="the-good-list">The Good List</h4>
+    <p>We're still looking for the best program to record </p>
+    <ul>
+      <li>Google Hangouts on Air is still the easiest</li>
+      <li>???</li>
+    </ul>
+    <h4 id="the-bad-list">The Bad List</h4>
+    <p>We've had some bad experiences... It doesn't mean bad tools, but once
+      bitten twice shy:
+    </p>
+    <ul>
+      <li>Quicktime Player -- no sound?? Huge files (&gt;5gb/hour).</li>
+    </ul>
+    <h2 id="schedule-going-forward">Schedule Going Forward</h2>
+    <p>
+      We manage the project over the course of many weeks.  It's always a question of manpower and available leaders.  During active periods, we use 1-week increments, typically holding weekly check-in "SCRUM" meetings to see how it's gone for everyone and what's on the agenda for the next week.  In less active periods, it's more on an as-needed basis.  
+    </p>
+
+    <p>
+      Those meetings are a chance to ask group questions about stories or code, find partners, and schedule the coming week's pairing sessions.  We may also make code review a part of this meeting as well.  Think of this as sort of like a daily SCRUM meeting might normally be at an agile shop but with a bit more meat.
+    </p>
+
+    <p>The meetings will be posted to the <a
+      href="https://plus.google.com/u/0/communities/100013596437379837846">Google
+      Community</a> and the <a
+        href="http://www.meetup.com/Learn-Web-Development-Paired-Programming-in-SF/">Meetup
+      Group</a>.
+    </p>
+    <h2 id="how-to-get-started">How to Get Started</h2>
+    <p>Ready to get involved?  Here's how.</p>
+    <p>If you'll be participating, you can set up the project by following the
+      setup instructions <a href="https://github.com/TheOdinProject/theodinproject">in
+      the README of the main repository</a>.
+    </p>
+    <h3 id="as-an-observer">As an Observer</h3>
+    <p>You're welcome to observe for as long as you'd like.  That's part
+      of why everything we do is public / recorded.
+    </p>
+    <ol>
+      <li>Join the <a
+        href="https://plus.google.com/u/0/communities/100013596437379837846">Google
+        Community</a>.
+      </li>
+      <li>Check out the <a
+        href="https://www.pivotaltracker.com/s/projects/979092">Pivotal Tracker</a></li>
+      <li>Say hi! You can do that at the meetings and/or on the google group.
+        We'd love to hear 30 seconds about what brought you here and where you'd
+        like to go.
+      </li>
+      <li>Feel free to observe any of the published pairing sessions or 
+        meetings via the community events or check out <a
+          href="http://www.youtube.com/channel/UCk0b0VTnJxXbxupXJ4D2yjQ">the historical
+        ones we post on YouTube</a>.
+      </li>
+      <li>Start collaborating!  You're ready...</li>
+    </ol>
+    <h3 id="as-a-collaborator">As a Collaborator</h3>
+    <p>Ready to start collaborating or at least taking the next step? </p>
+    <ol>
+      <li><a
+        href="https://plus.google.com/u/0/communities/100013596437379837846">Join the
+        Google Community</a>.
+      </li>
+      <li><a href="https://www.pivotaltracker.com/projects/979092/memberships">Sign
+        up for the Pivotal Tracker</a>.  It'll say &quot;60 day free trial&quot; but
+        don't worry, you won't have to pay.  It's like Github... as long as
+        you're working on open-source stuff and not private repos, it's
+        free.
+      </li>
+      <li>Say hi at the SCRUM meeting and on the Community page.  You'll
+        want to familiarize yourself with what story(s) we're working on and how the
+        development backlog looks.  If any of the stories that we're working on in
+        the Tracker interest you, click the link in that story to &quot;Follow this
+        Story&quot; to receive updates when new specs or comments are posted.
+      </li>
+      <li>Set up or join a pairing session via the Community.  To start your own, <a
+        href="https://plus.google.com/hangouts">&quot;Schedule a Hangout on
+        Air&quot;</a> and invite our Team Odin community to it.  That creates a new
+        Event on our Community page so people can join you.  You'll need to post the
+        link to the actual hangout window in the comments for the Event (otherwise
+        people can only observe).
+      </li>
+      <li>If you're hosting a pairing session, make sure you have the <a
+        href="https://github.com/TheOdinProject/theodinproject">Odin Project
+        repository</a> set up on your computer (or Nitrous box if that's the
+        workflow you're using).  We've got evolving instructions for how to do
+        that on the <a
+          href="https://github.com/TheOdinProject/theodinproject/blob/master/README.md">README
+        page</a>.  It can take a few tries to get the server running and the lessons
+        populated properly so bear with it!
+      </li>
+      <li>Follow the Git workflow listed below but, basically, get the latest copy
+        of the feature branch you're working on, write some sweet tests and code,
+        and then have the story owner push it back up (you'll need to be in touch
+        with a story owner who has push access).
+      </li>
+      <li>Have fun! Tell your friends how much of an open source badass you now are.
+        In a humble brag sort of way.
+      </li>
+    </ol>
+    <h2 id="workflows-for-features-and-stories">Workflows for Features and
+      Stories
+    </h2>
+    <p>There are two main types of stories listed on our tracker -- one-offs (like
+      bug reports, chores, and simple-to-implement features) and stories that are part
+      of a larger feature and linked together using an &quot;Epic&quot;.  All stories
+      use tags to categorize them (e.g. &quot;admin-tools&quot; and
+      &quot;progress-tracking&quot;).  Tags in green are just used for categorization.
+      Tags in purple are linked to epics (click to see).  
+    </p>
+    <h3 id="for-one-off-stories">For One-Off Stories</h3>
+    <p><em>Note: If you want to &quot;cowboy&quot; a story on your own, make sure
+      it's in the current sprint or backlog (NOT the icebox), it's got 1 or 0
+      points (save the bigger ones for everyone to work on), and you let us know
+      you'll be working on it (to avoid conflicts) via the Community.</em>
+    </p>
+    <p>If you'd like to tackle a story on your own, feel free to dive on any of
+      the one-off &quot;cowboy&quot; stories that aren't linked to an epic.
+      Please set yourself as the owner (by clicking &quot;Start&quot;) so no one else
+      conflicts with you on it.  Make a note to the group on the Community or check in
+      at the SCRUMs to see if anyone wants to help.  
+    </p>
+    <p>Each story in the Tracker will be made up of Tasks, which are its Acceptance
+      Criteria.  You'll know you're finished if you can check off all the
+      tasks and the story looks like it does in the mockup (if there is one).  Many
+      stories have no mockups because they are self-explanatory or non-visual.
+    </p>
+    <p>Your workflow will look like the following:</p>
+    <ol>
+      <li>[Tracker] Identify a story not attached to an epic</li>
+      <li>[Tracker] Click &quot;Start&quot; to take ownership of it</li>
+      <li>[Tracker / Google Docs] Create a Google Doc and share it.  Add a link to
+        it in the comments at the bottom of the story. Use this document to track your
+        approach, to-do's, and log progress from one session to the next, especially
+        if you're working with others.
+      </li>
+      <li>[Github] <a href="https://github.com/TheOdinProject/theodinproject">Grab
+        the latest version of the repository from Github.</a> Follow the instructions in
+        the README.
+      </li>
+      <li>[Github] Make a feature branch with a title similar to the story you are
+        working on (e.g. &quot;close-admin-flash&quot;)
+      </li>
+      <li>[Community] Post hangouts for when you're working on it to get help.
+        If you end up working with others, they should work out of the story owner's
+        code base (e.g. using Nitrous).  <em>You own the story, you own the
+        code.</em>
+      </li>
+      <li>[Code] Write tests first, then make them pass with code.  Stories without
+        tests will not be accepted.
+      </li>
+      <li>[Git] Commit frequently and with descriptive commit messages!  Don't
+        commit unnecessary files or make changes to files you aren't using, that
+        just clutters the commits.
+      </li>
+      <li>[Git / Google Doc] When you stop for the day, be sure to commit your
+        changes.  Record in the Google Doc where you are in your workflow so everyone
+        who does the story the following day (especially if you can't make it) has a
+        clear plan of action.
+      </li>
+      <li>[Git] When you're done and all specs pass, pull down the latest
+        version of the main repo, since it's probably changed since you
+        started.
+      </li>
+      <li>[Git] Merge your feature branch into your local version of the
+        <code>master</code> branch.  You may need to resolve some merge conflicts due to
+        changes in the main repo since you started.
+      </li>
+      <li>[Tracker] Mark the story &quot;Finished&quot;.</li>
+      <li>[Git] Submit a pull request for your work.  Someone will do a code review
+        for you, possibly at the SCRUM meetings.  You'll receive comments on
+        your work in the pull request (and probably will need to fix or clean up
+        stuff)
+      </li>
+      <li>[Tracker] When the story has passed code review, it will be marked
+        &quot;Delivered&quot;.
+      </li>
+      <li>[SCRUM] Definitely make the next SCRUM meeting, where the story will be
+        covered and marked &quot;Accepted&quot; in the Tracker (unless there are last
+        minute issues) and the Pull request will be merged. You're officially
+        contributing.
+      </li>
+      <li>[Blog -- Encouraged but Optional] Write a brief blog post summarizing what
+        you did and what you've learned.  We'll post it on <a
+          href="http://1000hours.io">1000hours.io</a>.
+      </li>
+      <li>[Beer] Have a beer.</li>
+      <li>[Beer] Have another beer, you've worked hard.</li>
+    </ol>
+    <h3 id="for-stories-as-part-of-epics">For Stories As Part of Epics</h3>
+    <p>Stories that are part of epics are subject to a modified workflow because
+      they have to fit in with other stories in the epic.  The tracker has another
+      column called &quot;Epics&quot; where you can see the major Epics.  The comments
+      section of the epic will contain links to the large-scale feature spec (which
+      covers the whole epic, not just one story) and any mockups that are associated
+      with it. 
+    </p>
+    <p>Because they are larger scale, stories that are part of epics need to be
+      coordinated with the group.  We'll do that at our SCRUM meetings
+    </p>
+    <h4 id="before-you-even-start">Before You Even Start</h4>
+    <p>Before you start coding, a few things have to happen:</p>
+    <ol>
+      <li>The Product Manager creates the Epic and attaches the specification and
+        mockups to it.
+      </li>
+      <li>Everyone attends a special &quot;Inception&quot; meeting where we
+        strategize how to tackle the epic on a high level and in what order the stories
+        need to be done.  We'll try to find any snags we can at this point in the
+        process, before anyone has started coding.
+      </li>
+      <li>The Epic Owner (probably the Product Manager) will create a new feature
+        branch in the main repository for everyone to work off of for this epic.
+      </li>
+      <li>We'll divvy up the stories and get cracking!</li>
+    </ol>
+    <h4 id="working-on-an-individual-story-in-an-epic">Working on an Individual
+      Story in an Epic
+    </h4>
+    <p>Just like in the One-off story workflow, the story owner is also the owner of
+      the code for that story.  Everyone else will work off that person's code
+      base (probably on Nitrous).
+    </p>
+    <p>Specifications and mockups are stored attached to the Epic, though each
+      individual story might have clarifying comments.
+    </p>
+    <p>Each story in the Tracker will be made up of Tasks, which are its Acceptance
+      Criteria.  You'll know you're finished if you can check off all the
+      tasks and the story looks like the relevant mockup in the Epic.
+    </p>
+    <ol>
+      <li>[Tracker] Click &quot;Start&quot; to take ownership of your story.</li>
+      <li>[Tracker / Google Docs] Create a Google Doc and share it.  Add a link to
+        it in the comments at the bottom of the story. Use this document to track your
+        approach, to-do's, and log progress from one session to the next.  When you
+        get started on the story, the first coding session is usually a
+        mini-&quot;Inception&quot; meeting where you determine your strategy.
+      </li>
+      <li>[Git] Start by loading the latest copy of the main repo.  Switch to the
+        epic's feature branch.
+      </li>
+      <li>[Git] Make another feature branch (off of the epic's feature branch)
+        for this individual story, with a title similar to the story you are working on
+        (e.g. &quot;close-admin-flash&quot;).
+      </li>
+    </ol>
+    <p>The following steps are almost identical to the One-off story workflow:</p>
+    <ol>
+      <li>[Community] Post hangouts for when you're working on your story to get
+        help.  If you end up working with others, they should work out of the story
+        owner's code base (e.g. using Nitrous).  <em>You own the story, you own the
+        code.</em>
+      </li>
+      <li>[Code] Write tests first, then make them pass with code.  Stories without
+        tests will not be accepted.
+      </li>
+      <li>[Git] Commit frequently and with descriptive commit messages!  Don't
+        commit unnecessary files or make changes to files you aren't using, that
+        just clutters the commits.
+      </li>
+      <li>[Git / Google Doc] When you stop for the day, be sure to commit your
+        changes.  Record in the Google Doc where you are in your workflow so everyone
+        who does the story the following day (especially if you can't make it) has a
+        clear plan of action.
+      </li>
+      <li>[Git] When you're done and all specs pass, pull down the latest
+        version of the main repo, since it's probably changed since you
+        started.
+      </li>
+      <li>[Git] Merge your feature branch into your local version <strong>of the
+        main epic branch</strong> (e.g. NOT master).  You may need to resolve some merge
+        conflicts due to changes from people working on other stories in the epic since
+        you started.
+      </li>
+      <li>[Tracker] Mark the story &quot;Finished&quot;.</li>
+      <li>[Git] Submit a pull request for your work.  Someone will do a code review
+        for you, possibly at the SCRUM meetings.  You'll receive comments on
+        your work in the pull request (and probably will need to fix or clean up
+        stuff)
+      </li>
+      <li>[Tracker] When the story has passed code review, it will be marked
+        &quot;Delivered&quot;.
+      </li>
+      <li>[SCRUM] Definitely make the next SCRUM meeting, where the story will be
+        covered and marked &quot;Accepted&quot; in the Tracker (unless there are last
+        minute issues) and the Pull request will be merged. You're officially
+        contributing.
+      </li>
+      <li>[Beer] Have a beer.</li>
+      <li>[Beer] Have another beer, you've worked hard.</li>
+    </ol>
+    <p>Story owners should be present at the SCRUM meetings to talk about their
+      progress and ask questions.
+    </p>
+    <p>Once the full epic is completed, we will do a full debriefing at the next
+      SCRUM meeting.  We'll also have someone (or a couple people) write a blog
+      post about it, which will utilize the existing specs and mockups, covering what
+      was done and what was learned.
+    </p>
+    <ol>
+      <li>[Blog] Write a brief blog post summarizing what you did to complete the
+        epic and what you've learned.  We'll post it on <a
+          href="http://1000hours.io">1000hours.io</a>.
+      </li>
+    </ol>
+    <h2 id="git-workflow-notes">Git Workflow Notes</h2>
+    <ul>
+      <li>Everyone will be working in feature branches.  <strong>No one touches
+        <code>master</code></strong>, and any changes to be included in
+        <code>master</code> will be made via pull request.
+      </li>
+      <li>Epics will have their own feature branches.  Stories within epics will be
+        done on feature branches off of the main epic branch.
+      </li>
+      <li><strong>The story owner is the code owner.</strong>  That person's
+        Nitrous box will contain the latest version of the code (so they will need to
+        fire it up themselves whenever someone is working on it).  If you want to hand
+        off code between boxes, you'll need to do so with a separate Git flow.
+      </li>
+      <li>Use merges (<code>$ git merge origin/my_feature_branch</code>) instead of
+        rebases (<code>$ git rebase my_feature_branch</code>).  If you don't know
+        what a rebase is, don't worry about it.  When a rebase goes wrong, you can
+        get yourself in all kinds of strange places.
+      </li>
+      <li>Again, <strong>make sure you're working on a [feature
+        branch]</strong>(<a
+          href="http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging">http://git-scm.com/book/en/Git-Branching-Basic-Branching-and-Merging</a>)
+        (see the <a
+          href="https://www.atlassian.com/git/workflows#!workflow-feature-branch">article
+        on a feature-branch workflow</a> from Atlassian as well) and NOT the
+        <code>master</code> branch.
+      </li>
+    </ul>
+    <h2 id="additional-resources">Additional Resources</h2>
+    <ul>
+      <li><a href="http://www.extremeprogramming.org/rules.html">Extreme Programming
+        Rules</a>
+      </li>
+    </ul>
+  </div>
+</div>

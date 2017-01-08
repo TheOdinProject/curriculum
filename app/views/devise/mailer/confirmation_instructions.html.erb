@@ -1,0 +1,78 @@
+<div>
+  <p> Thanks for being part of the Odin Project! Please confirm your account email through the link below: </p>
+<p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
+</div>
+<br>
+
+<div class="additional-questions">
+  <p>
+    If you have any additional questions, check out our <%= link_to "Frequently Asked Questions", faq_url %> or feel free to reach out to <a href="mailto: contact@theodinproject.com">contact@theodinproject.com</a>.
+  </p>
+</div>
+
+<br>
+
+<div>
+  <p>
+    Best of luck with your learning journey!
+  </p>
+</div>
+
+<div class="signature">
+  <p>
+    Sincerely,
+  </p>
+  <p>
+    Erik Trautman
+  </p>
+    <p class="founder">
+      Founder, The Odin Project
+    </p>
+</div>
+
+<hr>
+<div class="about-odin">
+  <p>
+    The Odin Project is a free and open-source curriculum for learning web development.  It charts a path through existing resources on the web so anyone in the world can develop a job-ready skillset and a professional portfolio of work without the loneliness and uncertainty of working on their own.
+  </p>
+</div>
+
+
+
+<style>
+
+  body{
+    font-size: 100%;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  h1,h2,h3,h4{
+    color: black;
+  }
+  p{
+    line-height: 1.25em;
+  }
+  a{
+    color: #77f;
+  }
+  a:hover{
+    color: #99f;
+  }
+  
+  .about-odin{
+    margin: 1em;
+    font-size: .85em;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .sendoff{
+    margin: 2em 0;
+    font-weight: bold;
+  }
+  .founder{
+    margin-top: -1em;
+    color: #666;
+  }
+
+</style>
