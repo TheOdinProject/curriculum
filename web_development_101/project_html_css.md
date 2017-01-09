@@ -97,6 +97,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 * [Oleh Sliusar's solution (easy)](https://github.com/OlehSliusar/google-homepage) | [View in browser](https://olehsliusar.github.io/google-homepage/)
 * [Yong's solution (easy)](https://github.com/will19ie95/google-homepage) | [View in browser](https://rawgit.com/will19ie95/google-homepage/master/index.html)
+* [Yong's solution (difficult)](https://github.com/will19ie95/google-searchPage) | [View in browser](https://rawgit.com/will19ie95/google-searchPage/master/index.html)
 * [swardhan's solution (easy)](https://github.com/swardhan/google-homepage) | [View in browser](https://swardhan.github.io/google-homepage)
 * [Shaun LaFleur's solution (easy)](https://github.com/ShaunLaFleur/google-homepage) | [View in browser](https://shaunlafleur.github.io/google-homepage/)
 * [Shaun LaFleur's solution (difficult)](https://github.com/ShaunLaFleur/google-search-results) | [View in browser](https://shaunlafleur.github.io/google-search-results/)
