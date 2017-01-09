@@ -53,6 +53,12 @@
     </div>
 
     <div class="action-box">
+      <div class="project-form-wrapper">
+        <% if user_signed_in? && @lesson.is_project? %>
+          <%= render 'projects/form', lesson: @lesson, project: @project %>
+        <% end %>
+      </div>
+
       <div class="lc-end-wrapper">
         <%= render "shared/complete_lesson" %>
       </div>

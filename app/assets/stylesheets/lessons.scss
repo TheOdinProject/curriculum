@@ -705,7 +705,7 @@
   }
 }
 
-.chat-link-btn {
+.chat-link-btn, #project-submit-btn, #project-delete-btn {
   font-size: 1.25em;
   padding: 10px;
   line-height: 1em;
@@ -720,4 +720,55 @@
 .chat-sign-up {
   padding-top: 0.5em;
   font-size: 0.9em;
+}
+
+.project-form-container {
+  box-shadow: 0 0 15px 2px rgba(0,0,0,0.1);
+  padding: 0.5em 2.5em 2.5em;
+  margin-bottom: 2.5em;
+  transition: box-shadow 0.3s ease-in 0.1s;
+  position: relative;
+  &:hover {
+    box-shadow: 0 0 15px 5px rgba(0,0,0,0.1);
+  }
+
+  .notification-message {
+    border-radius: 5px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
+    color: $background_color;
+    display: none;
+    left: 50%;
+    opacity: 0.9;
+    padding: 20px;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    width: 70%;
+  }
+
+  .loader {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    svg path, svg rect {
+      fill: #136fd2;
+    }
+  }
+
+  form {
+    text-align: left;
+
+    .form-control {
+      width: calc(100% - 20px);
+      padding: 10px;
+    }
+    #project-submit-btn {
+      margin-top: 15px;
+      outline: 0;
+    }
+  }
 }
