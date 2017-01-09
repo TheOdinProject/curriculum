@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Nick Polovinkin's solution](https://github.com/NavarroKain/etch-e-sketch) | [View in browser](https://navarrokain.github.io/etch-e-sketch/)
 * [Michael Moore's solution](https://github.com/MMoore27/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/MMoore27/etch-a-sketch/master/EAS.html)
 * [sofiegraham' solution](https://github.com/sofiegraham/odin/tree/master/web101/jquery-project) | [View in browser](https://rawgit.com/sofiegraham/odin/master/web101/jquery-project/index.html)
 * [theghall's Solution](https://github.com/theghall/etchy-sketchy.git) | [View in browser](https://theghall.github.io/etchy-sketchy/)
