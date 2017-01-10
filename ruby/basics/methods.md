@@ -19,9 +19,6 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * Understand the syntax of a method: 'Object.method'
 * Understand the difference between `puts` and `return`
 
-<script src="//repl.it/embed/FFV1/0.js"></script>
-
-https://repl.it/FFV1/0
 ### Some examples
 Ruby has some built-in methods included into its library. Some of them are very straight-forward and easy to learn. Others will take more time to discover.
 
