@@ -1,17 +1,17 @@
-<!--Chris Pine covers:-->
-<!--* array literals-->
-<!--* accessing via index-->
-<!--* #each & #times methods-->
-<!--* #to_s, #join-->
-<!--* #push/#pop, #last, #length-->
+<!--Chris Pine covers:
+* array literals
+* accessing via index
+* #each & #times methods
+* #to_s, #join
+* #push/#pop, #last, #length-->
 
-I add:
+<!--I add:
 * array initializing
 * negative indices
 * shift/unshift
 * concatenating/substracting
 * set operations?
-* other methods
+* other methods-->
 
 # Arrays
 At the beginning of this section, you learned about creating and manipulating individual instances of number and string objects. In real-world development, where you'll be working with dozens (and even hundreds!) of such objects and variables, working with individual instances will be tedious, if not impossible.
