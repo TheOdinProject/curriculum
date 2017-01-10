@@ -96,6 +96,7 @@ num_array.pop.pop         #=> undefined method 'pop' for Fixnum
 
 The methods `#shift` and `#unshift` can also be used to remove the first element of an array and to add elements to the beginning of an array, respectively.
 
+### Adding arrays
 
 
 * Addition/concatenation and substraction/difference
