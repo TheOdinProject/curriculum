@@ -1,17 +1,13 @@
-<!--Chris Pine covers:
-* array literals
-* accessing via index
-* #each & #times methods
-* #to_s, #join
-* #push/#pop, #last, #length-->
+<!--Chris Pine covers:-->
+<!--* array literals-->
+<!--* accessing via index-->
+<!--* #each & #times methods-->
+<!--* #to_s, #join-->
+<!--* #push/#pop, #last, #length-->
 
-<!--I add:
+I add:
 * array initializing
 * negative indices
-* shift/unshift
-* concatenating/substracting
-* set operations?
-* other methods-->
 
 # Arrays
 At the beginning of this section, you learned about creating and manipulating individual instances of number and string objects. In real-world development, where you'll be working with dozens (and even hundreds!) of such objects and variables, working with individual instances will be tedious, if not impossible.
@@ -24,7 +20,9 @@ One way Ruby allows you to represent a collection of such objects is with the us
 * The student understands what an array is
 * The student knows how to create an array
 * The student knows how to access data in an array
-* The student knows basic methods for adding/removing data to an array
+* The student knows the different methods for adding data to an array
+* The student knows the different methods for removing data from an array
+* The student knows the different methods for iterating through an array
 
 ## Creating arrays
 Here are two basic arrays:
@@ -58,10 +56,15 @@ num_array.methods       #=> A very long list of methods
 ```
 
 ### Accessing element
-Like most other programming languages, Ruby arrays use **zero-based indexing**. As you learned in Chris Pine's tutorial, accessing an array's element is as simple as calling the `#[]` method with the **index**, or position, you desire. Recall that calling an invalid position will result in `nil`. Ruby also allows the use of negative indices, which return elements starting from the *end* of an array at [-1].
+Like most other programming languages, Ruby arrays use **zero-based indexing**. As you learned in Chris Pine's tutorial, accessing an array's element is as simple as calling the `#[]` method with the **index**, or position, you desire. Recall that calling an invalid position will result in `nil`.
+
+Additionally, Ruby also allows the use of negative indices, which return elements starting from the *end* of an array at [-1].
 
 ```
 str_array = ["This", "is", "a", "small", "array"]
+
+str_array[0]            #=> "This"
+str_array[10]           #=> nil
 
 str_array[-1]           #=> "array"
 str_array[-2]           #=> "small"
@@ -91,62 +94,20 @@ num_array.pop             #=> 7
 num_array.pop.pop         #=> undefined method 'pop' for Fixnum
 ```
 
-The methods `#shift` and `#unshift` can also be used to operate at the beginning of an array. While `#shift` will remove the first element of an array and return that element (much like `#pop`), `#unshift` will add elements to the beginning of an array and return that array.
+The methods `#shift` and `#unshift` can also be used to remove the first element of an array and to add elements to the beginning of an array, respectively.
 
-```
-[1, 2, 3, 4].unshift(0)   #=> [0, 1, 2, 3, 4]
+### Adding arrays
 
-[1, 2, 3, 4].shift        #=> [1]
-[1, 2, 3, 4].shift(2)     #=> [1, 2]
-```
 
-### Adding and substracting arrays
-What do you think will be the outcome of `[1, 2, 3] + [3, 4, 5]`?
-
-If you guessed `[1, 2, 3, 3, 4, 5]`, congratulations! The `#+` method will return a new array built by concatenating the two arrays. The `#concat` method works the same way.
-
-```
-a = [1, 2, 3]
-b = [3, 4, 5]
-
-a + b         #=> [1, 2, 3, 3, 4, 5]
-a.concat(b)   #=> [1, 2, 3, 3, 4, 5]
-```
-
-To find the difference between two arrays, you can use the `#-` method. This method returns a copy of the original array, removing any elements that appear in the second array.
-
-```
-[1, 1, 1, 2, 2, 3, 4] - [1, 4]    #=> [2, 2, 3]
-```
-
-### Other useful methods
-As previously mentioned, there are many methods available to Ruby arrays (over 150!). Additionally, the behavior of some methods change depending on a variety of factors, such as if they take arguments or not. For at least these reasons, [ruby-doc.org](http://ruby-doc.org/) ***will*** be your best friend in maximizing your aptitude with arrays, so go soon, and go often.
-
-Nevertheless, here is a brief look at some other common methods you might run into.
-
-```
-[].empty?               #=> true
-[[]].empty?             #=> false
-[1, 2].empty?           #=> false
-
-[1, 2, 3].reverse       #=> [3, 2, 1]
-
-[1, 2, 3].include?(3)   #=> true
-[1, 2, 3].include?("3") #=> false
-
-[1, 2, 3].join          #=> "123"
-[1, 2, 3].join("-")     #=> "1-2-3"
-```
+* Addition/concatenation and substraction/difference
+* Other useful methods (empty?, include?, reverse, join)
 
 ## Exercises
-* What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html) and look up the methods. Were you close?
-* Fork this repo and complete the exercises.
+A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
 
 ## Assignment
 * Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797/ref=sr_1_1?ie=UTF8&qid=1475608118&sr=8-1&keywords=beginning+ruby) Chapter 3: "Ruby's Building Blocks: Data, Expressions, and Flow Control", focusing on pages 47-52 (third ed.) titled "Arrays and Lists" for a preliminary treatment on what arrays can do.
 * Follow along this [article](https://launchschool.com/books/ruby/read/arrays#whatisanarray) by Launch School, and go through the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
-* http://www.eriktrautman.com/posts/ruby-explained-arrays
-* http://zetcode.com/lang/rubytutorial/arrays/
 
 ## Additional Resources
 * Look over the latest Ruby API documentation on Arrays [here](http://ruby-doc.org/) by clicking on "Core" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object, along with explanations.

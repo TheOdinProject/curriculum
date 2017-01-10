@@ -100,6 +100,9 @@ The methods `#shift` and `#unshift` can also be used to operate at the beginning
 [1, 2, 3, 4].shift(2)     #=> [1, 2]
 ```
 
+<<<<<<< HEAD
+### Adding arrays
+=======
 ### Adding and substracting arrays
 What do you think will be the outcome of `[1, 2, 3] + [3, 4, 5]`?
 
@@ -112,6 +115,7 @@ b = [3, 4, 5]
 a + b         #=> [1, 2, 3, 3, 4, 5]
 a.concat(b)   #=> [1, 2, 3, 3, 4, 5]
 ```
+>>>>>>> bcec158e8440a0c4fc586fa852e63c8b34b3bc6f
 
 To find the difference between two arrays, you can use the `#-` method. This method returns a copy of the original array, removing any elements that appear in the second array.
 
