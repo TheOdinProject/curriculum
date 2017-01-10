@@ -28,11 +28,11 @@ One way Ruby allows you to represent a collection of such objects is with the us
 Here are two basic arrays:
 
 ```
-integer_array = [1, 2, 3, 4, 5]
-string_array = ["This", "is", "a", "small", "array"]
+num_array = [1, 2, 3, 4, 5]
+str_array = ["This", "is", "a", "small", "array"]
 
-integer_array.length    #=> 5
-string_array.length     #=> 5
+num_array.length        #=> 5
+str_array.length        #=> 5
 ```
 
 Both arrays have five elements. The first array contains integers separated by commas, while the second array contains strings. Arrays are commonly created with an **array literal**. In Ruby, a literal is a special syntax used to create instances of an object. For the array, that is the square brackets.
@@ -52,7 +52,7 @@ Ruby gives you many methods to manipulate arrays and their contents, many of whi
 Calling `#methods` on an array will also yield a long list of available methods, like so:
 
 ```
-integer_array.methods   #=> A very long list of methods
+num_array.methods       #=> A very long list of methods
 ```
 
 ### Accessing element
@@ -61,27 +61,43 @@ Like most other programming languages, Ruby arrays use **zero-based indexing**. 
 Additionally, Ruby also allows the use of negative indices, which return elements starting from the *end* of an array at [-1].
 
 ```
-string_array = ["This", "is", "a", "small", "array"]
+str_array = ["This", "is", "a", "small", "array"]
 
-string_array[0]         #=> "This"
-string_array[10]        #=> nil
+str_array[0]            #=> "This"
+str_array[10]           #=> nil
 
-string_array[-1]        #=> "array"
-string_array[-2]        #=> "small"
+str_array[-1]           #=> "array"
+str_array[-2]           #=> "small"
 ```
 
-Finally, Ruby provides the `#first` and `#last` methods, which should be self-explanatory. What may not be obvious, however, is that these methods can take an argument and will return a *new* array.
+Finally, Ruby provides the `#first` and `#last` methods, which should be self-explanatory. What may not be obvious, however, is that these methods can take an argument that will return a *new* array.
 
 ```
-string_array = ["This", "is", "a", "small", "array"]
+str_array = ["This", "is", "a", "small", "array"]
 
-string_array.first      #=> "This"
-string_array.first(2)   #=> ["This", "is"]
+str_array.first         #=> "This"
+str_array.first(2)      #=> ["This", "is"]
 ```
 
-* Accessing via index
-* Push/pop/shovel
-* Iteration: map/collect <!-- I'd leave enumerables to its own lesson-->
+### Adding and removing elements
+Adding an element to an existing array is as simple at calling `#push` or the shovel operator `<<`. Both methods will add elements to the end of an array and return that array, so the methods can be chained. The `#pop` method will remove an element from the end of an array and return that element, rather than returning the array. Therefore, it cannot be chained.
+
+```
+num_array = [1, 2]
+
+num_array.push(3, 4)      #=> [1, 2, 3, 4]
+num_array.push(5).push(6) #=> [1, 2, 3, 4, 5, 6]
+
+num_array << 7            #=> [1, 2, 3, 4, 5, 6, 7]
+
+num_array.pop             #=> 7
+num_array.pop.pop         #=> undefined method 'pop' for Fixnum
+```
+
+The methods `#shift` and `#unshift` can also be used to remove the first element of an array and to add elements to the beginning of an array, respectively.
+
+
+
 * Addition/concatenation and substraction/difference
 * Other useful methods (empty?, include?, reverse, join)
 
