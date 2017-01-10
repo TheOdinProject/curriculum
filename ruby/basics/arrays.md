@@ -139,7 +139,8 @@ Nevertheless, here is a brief look at some other common methods you might run in
 ```
 
 ## Exercises
-* What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle` Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html). Look at the list of methods. 
+* What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html) and look up the methods. Were you close?
+* Fork this repo and complete the exercises.
 
 ## Assignment
 * Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797/ref=sr_1_1?ie=UTF8&qid=1475608118&sr=8-1&keywords=beginning+ruby) Chapter 3: "Ruby's Building Blocks: Data, Expressions, and Flow Control", focusing on pages 47-52 (third ed.) titled "Arrays and Lists" for a preliminary treatment on what arrays can do.
