@@ -209,6 +209,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-ruby-on-the-web)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/web_server_and_browser)
 * [Simon's Solution - Clean](https://github.com/SimonSomlai/Odin/tree/master/ruby/ruby_internet)
+* [smilesr's solution] https://github.com/smilesr/op-rb-rw-15-serverclient
 
 
 
