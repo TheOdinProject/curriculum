@@ -212,6 +212,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Dan Sack's Solution](https://github.com/DanPete/blogger) | [View in Browser](https://pacific-ridge-35157.herokuapp.com/) 
 * [egg303's Solution](https://github.com/egg303/Blogger) | [View in Browser](https://fierce-forest-55091.herokuapp.com/)
 * [Robert Szabo's Solution](https://github.com/Siker001/top_101_rails) | [View in Browser](https://boiling-everglades-88287.herokuapp.com/)
+* [Parker Brown's Solution](https://github.com/parkerjbrown/blogger) | [View in Browser](https://mighty-beyond-86851.herokuapp.com/)
 
 
 ## Additional Resources

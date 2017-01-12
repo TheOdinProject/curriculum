@@ -26,7 +26,7 @@ Enough talk! Lets build!
 Add your solution below this line!
 
 * [Sample solution](https://github.com/ChadKreutzer/pomodoro_clock) | [View in Browser](http://romantic-trouble.surge.sh/)
-
+* [Ovsjah Schweinefresser](https://github.com/Ovsjah/pomodoro) |  [View in Browser](https://ovsjah.github.io/pomodoro/)
 
 
 ## Next Steps

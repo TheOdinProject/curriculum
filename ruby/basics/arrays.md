@@ -100,7 +100,7 @@ The methods `#shift` and `#unshift` can also be used to operate at the beginning
 [1, 2, 3, 4].shift(2)     #=> [1, 2]
 ```
 
-### Adding and substracting arrays
+### Adding and subtracting arrays
 What do you think will be the outcome of `[1, 2, 3] + [3, 4, 5]`?
 
 If you guessed `[1, 2, 3, 3, 4, 5]`, congratulations! The `#+` method will return a new array built by concatenating the two arrays. The `#concat` method works the same way.
