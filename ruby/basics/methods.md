@@ -21,7 +21,7 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * You understand the difference between `puts` and `return`
 
 ## Creating a Method
-You can create your own custom methods in Ruby like so
+You can create your own custom methods in Ruby like so:
 ```(ruby)
 def my_name
   "Joe Smith"
@@ -30,16 +30,17 @@ end
 puts my_name #=> "Joe Smith"
 ```
 Lets breake it down:
-`def` is a built in Ruby keyword. When Ruby comes across it during
-runtime of a program it will know a method is about to be *defined*. 
+`def` - is a built in Ruby keyword. It lets Ruby know this is the start of a method *definition*. 
 
-`my_name` is the name of the method, you can name it whatever you wish.
+`my_name` - is the name of the method. You can name pretty much name it whatever you want. But there are some contraints and conventions which are described in the next section.
 
-`"Joe Smith"` is in the method body, the method will return this string when its *called*
+`"Joe Smith"` - is in the *method body*. The method body is where the logic of your method goes.This paticular method will just *return* a string when its *called*
 
-`end` as you might have guessed marks the end of the method definition.
+`end` - as you might have guessed `end` marks the *end* of the method definition. Its another Ruby keyword.
 
 To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
+
+## Naming Methods
 
 ## Arguments
 
