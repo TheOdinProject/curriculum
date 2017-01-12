@@ -35,7 +35,7 @@ runtime of a program it will know a method is about to be *defined*.
 
 `my_name` is the name of the method, you can name it whatever you wish.
 
-`"Joe Smith"` is in the method body, the method will return this sting when its *called*
+`"Joe Smith"` is in the method body, the method will return this string when its *called*
 
 `end` as you might have guessed marks the end of the method definition.
 
