@@ -422,6 +422,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Oliver Potter's Solution](https://github.com/ol4er/euler/blob/master/EULER1.JS)
 * [Siker001's Solution](https://github.com/Siker001/js-basics-Problem1)
 * [Airton's Solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/projectEuller) | [View in Browser](https://airtonbjunior.github.io/odinproject/projects/projectEuller/)
+* [AaronScott2's Solution](https://github.com/AaronScott2/euler)
 
 
 ## Additional Resources
