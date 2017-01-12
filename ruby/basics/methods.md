@@ -20,6 +20,34 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * You understand the difference between a explicit and implicit return in your methods
 * You understand the difference between `puts` and `return`
 
+## Creating a Method
+You can create your own custom methods in Ruby like so
+```(ruby)
+def my_name
+  "Joe Smith"
+end
+
+puts my_name #=> "Joe Smith"
+```
+Lets breake it down:
+`def` is a built in Ruby keyword. When Ruby comes across it during
+runtime of a program it will know a method is about to be *defined*. 
+
+`my_name` is the name of the method, you can name it whatever you wish.
+
+`"Joe Smith"` is in the method body, the method will return this sting when its *called*
+
+`end` as you might have guessed marks the end of the method definition.
+
+To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
+
+## Arguments
+
+
+## What Methods Return
+
+
+
 
 ## Assignment
 1. To get a good introduction to all the different concepts related to methods read [this chapter about methods](https://launchschool.com/books/ruby/read/methods) from Launch Schools Introduction to Programming with Ruby book. Make sure to do the exercises at the end of the chapter too.
