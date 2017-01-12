@@ -18,14 +18,12 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * You know how to create your own custom methods
 * You know how to *call* your own methods
 * You understand the difference between a explicit and implicit return in your methods
-* You 
-
-* Understand the difference between `puts` and `return`
+* You understand the difference between `puts` and `return`
 
 
 ## Assignment
 1. To get a good introduction to all the different concepts related to methods read [this chapter about methods](https://launchschool.com/books/ruby/read/methods) from Launch Schools Introduction to Programming with Ruby book. Make sure to do the exercises at the end of the chapter too.
-2. For a deeper look at methods read [this chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards book of Ruby.  
+2. For a deeper look at methods read [this chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards book of Ruby. Again try to complete the exercises throughout the chapter.  
 
 
 ## Best Practices
