@@ -965,6 +965,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Pat's solution (easy)](https://github.com/Pat878/google-homepage) | [View in browser](https://pat878.github.io/google-homepage/)
 * [AaronScott2's solution (easy)](https://github.com/AaronScott2/google-homepage) | [View in browser](https://aaronscott2.github.io/google-homepage/)
 * [Matthieu Auzéau's solution (easy)](https://github.com/matthieu-A/google_homepage) | [View in browser](https://matthieu-a.github.io/google_homepage/)
+* [Zaid Khraibut's solution (easy)][https://github.com/zaidkhraibut/google-homepage] | [View in broswer](https://zaidkhraibut.github.io/google-homepage/)
 
 ## Additional Resources
 
