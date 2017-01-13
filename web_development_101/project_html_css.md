@@ -968,6 +968,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Zaid Khraibut's solution (Easy)](https://github.com/zaidkhraibut/google-homepage) | [View in broswer](https://zaidkhraibut.github.io/google-homepage/)
 * [Maria Theodo's solution (Easy)](https://github.com/mariatheodo/google-homepage) | [View in browser](https://mariatheodo.github.io/google-homepage)
 * [Naomi's solution(Easy)](https://github.com/naomifu/google-homepage) | [View in browser ](https://naomifu.github.io/google-homepage)
+* [Rafael Hernandez's Solition (Easy)] (https://github.com/RafaelDavisH/google-homepage) | [View in browser] (https://rafaeldavish.github.io/google-homepage/)
 
 ## Additional Resources
 
