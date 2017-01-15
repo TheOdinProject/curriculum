@@ -20,6 +20,7 @@ As we covered back in the [Installations Project](/web-development-101/installat
 2. Read over [this quick interview with Matt Jording](https://generalassemb.ly/blog/what-is-back-end-web-development/) about what back end web development is.
 3. Type `$ ruby -v` and `$ rails -v` into your command line (remember, the `$` just represents the command prompt).  You should get back versions similar to `2.0.0` or above and `5.0.0` or above. If you didn't get those values, you'll need to go back to the [Installations Unit](/web-development-101/installations/) and get everything installed properly.  
 4. You should also be able to use `$ which git` and see the directory where you installed Git.
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
