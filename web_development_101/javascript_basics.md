@@ -32,7 +32,12 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [richjdsmith's solutions to Problems 1](https://github.com/richjdsmith/projectEuler_with_js)
+* [jgwould's solutions to Problems 1 & 2](https://github.com/jgwould/javascript-basics)
+* [ugitch's solutions](https://github.com/ugitch/project_euler) | [View in Browser](https://ugitch.github.io/project_euler)
 * [sofiegraham's solution to Problems 1, 2 & 3](https://github.com/sofiegraham/odin/tree/master/web101/javascript-basics)
+* [Damian's solution to Problem 1](https://github.com/debitCredit/euler/blob/master/1.js)
+* [mazen.j's solution to problem 1 & 2 ](https://github.com/chilinoodle/js_ProjectEuler)
 * [theghall's solution to Problem 2](https://github.com/theghall/fibonacci-problem.git)
 * [theghall's solution to Problem 1](https://github.com/theghall/fizzbuzz-variant.git)
 * [Rajat Dhyani's solution to Problem 1 & 2](https://github.com/Rajat-dhyani/project_euler) | [View in Browser](https://rajat-dhyani.github.io/project_euler/) | **(Interactive!)**
@@ -372,7 +377,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [m-chrzan's solution](https://github.com/m-chrzan/odin-euler) | [View on jsfiddle](https://jsfiddle.net/mchrzan/yxv87v69/)
 * [Rebekah Samorano's Solution](https://github.com/rmsamorano/euler-problems)
 * [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/projectEuler/tree/master/javaScript)
-* [Yorick's Solution](https://github.com/ysmith4/project-euler.git) | [View in browser] (http://htmlpreview.github.io/?https://github.com/ysmith4/project-euler/blob/master/prob1.html)
+* [Yorick's Solution](https://github.com/ysmith4/project-euler.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/ysmith4/project-euler/blob/master/prob1.html)
 * [Allen Yin's solution](https://github.com/allenyin55/The-Odin-Project.git)
 * [Will Chellman's solution](https://github.com/creaked/projecteuler) | [View on jsfiddle](https://jsfiddle.net/creaked/j8wybhvc/)
 * [Benjamin's solution](https://github.com/Benjamin-Re/Euler.git)
@@ -407,15 +412,17 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Adrian Vasquez's Solution](https://github.com/Radiant-590/Project-Euler)
 * [Bill Hefty's Solution](https://github.com/bhefty/project-euler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/bhefty/project-euler/blob/master/index.html)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Etch-A-Sketch) | [View in Browser](https://nuclearmachine.github.io/OdinTasks/ProjectEuler/)
-* [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser] (http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
+* [Carlos Jimenez's Solution](https://github.com/RiverFloater/TOP-ProjectEuler) | [View in browser](http://htmlpreview.github.io/?https://github.com/RiverFloater/TOP-ProjectEuler/index.html)
 * [Stefan P's Solution](https://github.com/spavikevik/javascript-euler)
 * [Lawrence Lawson's Interactive Solution](https://github.com/Zagan202/projecteuler) | [View in Browser](https://htmlpreview.github.io/?https://github.com/Zagan202/projecteuler/blob/master/index.html)
-* [Dustin Seright's Solution](https://github.com/dseright/euler_solutions) | [View in Browser] (https://cdn.rawgit.com/dseright/euler_solutions/master/index.html)
+* [Dustin Seright's Solution](https://github.com/dseright/euler_solutions) | [View in Browser](https://cdn.rawgit.com/dseright/euler_solutions/master/index.html)
 * [Boscardin's Solution](https://github.com/Boscardin/javascript101.git)
-* [Øistein Haugland's Solution](https://github.com/oisteinhaugland/euler-problems) | [View in Browser] (https://oisteinhaugland.github.io/euler-problems/)
-* [Yury Tomilin's Solution] (https://github.com/reitzy/project-euler-js)
+* [Øistein Haugland's Solution](https://github.com/oisteinhaugland/euler-problems) | [View in Browser](https://oisteinhaugland.github.io/euler-problems/)
+* [Yury Tomilin's Solution](https://github.com/reitzy/project-euler-js)
 * [Oliver Potter's Solution](https://github.com/ol4er/euler/blob/master/EULER1.JS)
 * [Siker001's Solution](https://github.com/Siker001/js-basics-Problem1)
+* [Airton's Solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/projectEuller) | [View in Browser](https://airtonbjunior.github.io/odinproject/projects/projectEuller/)
+* [AaronScott2's Solution](https://github.com/AaronScott2/euler)
 
 
 ## Additional Resources
