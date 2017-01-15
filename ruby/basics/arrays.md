@@ -6,7 +6,7 @@
 * #push/#pop, #last, #length-->
 
 <!--I add:
-* array initializing
+* array literals/initializing
 * negative indices
 * shift/unshift
 * concatenating/substracting
@@ -14,9 +14,9 @@
 * other methods-->
 
 # Arrays
-At the beginning of this section, you learned about creating and manipulating individual instances of number and string objects. In real-world development, where you'll be working with dozens (and even hundreds!) of such objects and variables, working with individual instances will be tedious, if not impossible.
+At the beginning of this section, you learned about creating and manipulating individual numbers and strings and assigning them to variables. In real-world development, where you'll be working with dozens (and even hundreds!) of variables, working with numbers and strings individually will be tedious, if not impossible.
 
-One way Ruby allows you to represent a collection of such objects is with the use of **arrays**. Rather than working on individual objects at a time, an array allows you to create and manipulate an ordered and indexed collection of such objects (known as **elements** within the array) as a list. An array can contain any combination of Ruby objects (including other arrays), though it is advised that you keep similar objects in any one array.
+One way Ruby allows you to represent a collection of data types is with the use of **arrays**. Rather than working on individual variables, numbers, or strings at a time, an array allows you to create and manipulate an ordered and indexed collection of them (known as **elements** within the array). Think of arrays as a list! An array can contain any combination of variables, numbers, strings, or other Ruby objects (including other arrays), though it is advised that you keep similar data types in any one array.
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
@@ -138,17 +138,16 @@ Nevertheless, here is a brief look at some other common methods you might run in
 [1, 2, 3].join("-")     #=> "1-2-3"
 ```
 
-## Exercises
-* What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html) and look up the methods. Were you close?
-* Fork this repo and complete the exercises.
-
 ## Assignment
-* Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797/ref=sr_1_1?ie=UTF8&qid=1475608118&sr=8-1&keywords=beginning+ruby) Chapter 3: "Ruby's Building Blocks: Data, Expressions, and Flow Control", focusing on pages 47-52 (third ed.) titled "Arrays and Lists" for a preliminary treatment on what arrays can do.
+* What do you think the methods `#clear`, `#insert`, `#sample`, `#shuffle`, and `#uniq` do? Look at the array class methods at ruby-doc.org [here](http://ruby-doc.org/core-2.4.0/Array.html) and look up the methods. Were you close?
 * Follow along this [article](https://launchschool.com/books/ruby/read/arrays#whatisanarray) by Launch School, and go through the exercises using IRB or any other REPL, such as [repl.it](https://repl.it/languages/ruby).
-* http://www.eriktrautman.com/posts/ruby-explained-arrays
-* http://zetcode.com/lang/rubytutorial/arrays/
+
+## Exercises
+* Fork this repo (link to be inserted) and complete the exercises.
 
 ## Additional Resources
-* Look over the latest Ruby API documentation on Arrays [here](http://ruby-doc.org/) by clicking on "Core" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object, along with explanations.
+* Look over the latest Ruby API documentation on Arrays [here](http://ruby-doc.org/) by clicking on "Core API" and searching for "Array". There, you'll find the most up-to-date documentation on the various methods available to the Array object, along with explanations.
+* If you need different takes on Arrays, give these articles by [zetcode](http://zetcode.com/lang/rubytutorial/arrays/) and [Erik Trautmen](http://www.eriktrautman.com/posts/ruby-explained-arrays) a read.
+* Arrays also allow for **set operations**. Read about them [here](http://blog.endpoint.com/2011/06/using-set-operators-with-ruby-arrays.html). Don't worry about the simple bookshelf example. Classes and Rails will be covered later!
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
