@@ -969,6 +969,8 @@ Add your solution below this line!
 * [Maria Theodo's solution (Easy)](https://github.com/mariatheodo/google-homepage) | [View in browser](https://mariatheodo.github.io/google-homepage)
 * [Naomi's solution(Easy)](https://github.com/naomifu/google-homepage) | [View in browser ](https://naomifu.github.io/google-homepage)
 * [Rafael Hernandez's Solition (Easy)] (https://github.com/RafaelDavisH/google-homepage) | [View in browser] (https://rafaeldavish.github.io/google-homepage/)
+* [Avoup's solution(easy)] (https://github.com/avoup/shmoogle) | [View in browser] (https://avoup.github.io/shmoogle/)
+* [Avoup's solution(difficult)] (https://github.com/avoup/results) | [view in browser] (https://avoup.github.io/results/)
 
 ## Additional Resources
 
