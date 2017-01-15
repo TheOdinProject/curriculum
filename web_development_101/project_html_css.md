@@ -93,7 +93,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* Add your solution below this line!
+Add your solution below this line!
 
 * [Daniel Byun's solution (Difficult)](https://github.com/danielbyun/google-homepage) | [View in browser ](https://danielbyun.github.io/google-homepage)
 * [Oleh Sliusar's solution (easy)](https://github.com/OlehSliusar/google-homepage) | [View in browser](https://olehsliusar.github.io/google-homepage/)
@@ -939,7 +939,6 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Jeff1st's Solution (difficult)](https://github.com/jeff1st/google-results) | [View in Browser](https://rawgit.com/jeff1st/google-results/master/index.html)
 * [Bill Hefty's Solution (Easy)](https://github.com/bhefty/google-homepage) | [View in Browser](https://rawgit.com/bhefty/google-homepage/master/index.html)
 * [Dustin Seright's Solution (Easy)](https://github.com/dseright/google_homepage) | [View in Browser](https://cdn.rawgit.com/dseright/google_homepage/master/index.html)
-[Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
 * [Stefan P's Solution (Easy)](https://github.com/spavikevik/google-homepage) | [View in Browser](https://rawgit.com/spavikevik/google-homepage/master/index.html)
 * [Siddharth Isaiah's Solution (Easy)](https://github.com/siddharthisaiah/the_odin_project/tree/master/web_development_101/google-homepage) | [View in Browser](https://rawgit.com/siddharthisaiah/the_odin_project/master/web_development_101/google-homepage/homepage.html)
 * [nmac's Solution (Easy)](https://github.com/nmacawile/google/tree/master/google-homepage) | [(Difficult)](https://github.com/nmacawile/google/tree/master/google-searchpage)| [View in Browser (Easy)](https://rawgit.com/nmacawile/google/master/google-homepage/index.html) | [View in Browser (Difficult)](https://rawgit.com/nmacawile/google/master/google-searchpage/index.html)
