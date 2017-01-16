@@ -14,11 +14,13 @@
             placeholder: 'https://github.com/username/reponame' %>
     </div>
 
-    <div class="form-group">
-      <%= f.label :live_preview, 'Live Preview', class: 'control-label' %>
-      <%= f.text_field :live_preview, class: 'form-control',
-            placeholder: 'https://appname.herokuapp.com' %>
-    </div>
+    <% if lesson.has_live_preview? %>
+      <div class="form-group">
+        <%= f.label :live_preview, 'Live Preview', class: 'control-label' %>
+        <%= f.text_field :live_preview, class: 'form-control',
+              placeholder: 'https://appname.herokuapp.com' %>
+      </div>
+    <% end %>
 
     <div class="form-group">
       <%= f.submit (project.new_record? ? 'Upload project' : 'Update submission'),

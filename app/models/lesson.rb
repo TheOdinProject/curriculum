@@ -44,6 +44,10 @@ class Lesson < ApplicationRecord
     is_not_a_ruby_project? # should be removed after revamping ruby lessons
   end
 
+  def has_live_preview?
+    has_submission? && is_not_a_ruby_project?
+  end
+
   private
 
   def content_needs_updated
