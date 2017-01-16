@@ -54,7 +54,7 @@
 
     <div class="action-box">
       <div class="project-form-wrapper">
-        <% if user_signed_in? && @lesson.is_project? %>
+        <% if user_signed_in? && @lesson.has_submission? %>
           <%= render 'projects/form', lesson: @lesson, project: @project %>
         <% end %>
       </div>

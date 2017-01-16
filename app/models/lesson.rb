@@ -12,6 +12,14 @@ class Lesson < ApplicationRecord
   validates :position, uniqueness: true
   validates :content, presence: true, on: :update
 
+  def self.projects_without_submissions
+    [
+      'Installations',
+      'Practicing Git Basics',
+      'Building Your Resume'
+    ]
+  end
+
   def next_lesson
     find_lesson.next_lesson
   end
@@ -28,6 +36,12 @@ class Lesson < ApplicationRecord
     update(content: decoded_content) if content_needs_updated
   rescue Octokit::Error => errors
     failed_to_import_message
+  end
+
+  def has_submission?
+    is_project? &&
+    accepts_submission? &&
+    is_not_a_ruby_project? # should be removed after revamping ruby lessons
   end
 
   private
@@ -66,5 +80,13 @@ class Lesson < ApplicationRecord
 
   def course_title
     course&.title
+  end
+
+  def accepts_submission?
+    !Lesson.projects_without_submissions.include?(title)
+  end
+
+  def is_not_a_ruby_project?
+    title !=  'Ruby' && course_title != 'Ruby Programming'
   end
 end
