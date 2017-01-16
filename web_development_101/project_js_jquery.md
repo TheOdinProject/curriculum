@@ -43,7 +43,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Yong's solution](https://github.com/will19ie95/sketchPad) | [View in browser](https://will19ie95.github.io/sketchPad/)
 * [Nick Polovinkin's solution](https://github.com/NavarroKain/etch-e-sketch) | [View in browser](https://navarrokain.github.io/etch-e-sketch/)
 * [Michael Moore's solution](https://github.com/MMoore27/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/MMoore27/etch-a-sketch/master/EAS.html)
-* [sofiegraham' solution](https://github.com/sofiegraham/odin/tree/master/web101/jquery-project) | [View in browser](https://rawgit.com/sofiegraham/odin/master/web101/jquery-project/index.html)
+* [sofiegraham' solution](https://github.com/sofiegraham/odin/tree/master/web101/project_jquery) | [View in browser](https://rawgit.com/sofiegraham/odin/master/web101/project_jquery/index.html)
 * [theghall's Solution](https://github.com/theghall/etchy-sketchy.git) | [View in browser](https://theghall.github.io/etchy-sketchy/)
 * [ToTenMilan's Solution](https://github.com/ToTenMilan/sketchpad) | [View in browser](https://totenmilan.github.io/sketchpad/)
 * [Peter's Solution](https://github.com/peterbucci/etch-a-sketch) | [View in browser](https://peterbucci.github.io/etch-a-sketch/)
