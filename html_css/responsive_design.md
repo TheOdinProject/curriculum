@@ -22,4 +22,5 @@ Responsive design is creating websites that respond to the user's context, wheth
 * [Responsive Grids Tutorial from TutsPlus](http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/a-basic-responsive-grid-plus-handy-css3-media-query-reporter/)
 * [Responsive Navigation Patterns from Brad Frost](http://bradfrostweb.com/blog/web/responsive-nav-patterns/)
 * [Techniques for Gracefully Degrading Media Queries](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/)
+* Watch [Wes Bos'](https://twitter.com/wesbos) tutorial [What the Flexbox?!](https://flexbox.io/). You will need to provide your email to access the 20 video introduction to flex elements. Once you have completed the course you can read through [CSS-Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) should you want more in depth information.
 
