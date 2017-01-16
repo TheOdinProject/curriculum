@@ -16,6 +16,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [John Phelps's Solution](https://github.com/jphelps413/odin-ruby/tree/master/event_manager)
 * [Raiko's Solution](https://github.com/Cypher0/event_manager)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/EventManager)
 * [Stefan P's solution](https://github.com/spavikevik/event_manager)
@@ -133,6 +134,7 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [John Phelps's Solution](https://github.com/jphelps413/odin-ruby/tree/master/hangman)
 * [Raiko's Solution](https://github.com/Cypher0/hangman)
 * [Charles's Solution](https://github.com/codexTun/ODIN-PROJECTS/tree/master/Ruby_projects/hangman)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Hang_man)
@@ -254,7 +256,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/hangman)
 * [nmac's solution](https://github.com/nmacawile/Hangman)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/tree/master/ruby/serialization/hangman)
-* [smilesr's solution] https://github.com/smilesr/op-rb-ir-25-hangman
+* [smilesr's solution](https://github.com/smilesr/op-rb-ir-25-hangman)
 
 
 ## Additional Resources
