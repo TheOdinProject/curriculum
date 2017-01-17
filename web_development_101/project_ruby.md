@@ -269,6 +269,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Robert Szabo's Solution](https://github.com/Siker001/learn_ruby)
 * [chanjman's Solution](https://github.com/chanjman/learn_ruby_tdd)
 * [Jake Hill's Solution](https://github.com/JakeH91/learn_ruby)
+* [Leangseu's Solution](https://github.com/leangseu/learn_ruby)
 
 ## Additional Resources
 
