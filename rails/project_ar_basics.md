@@ -172,6 +172,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/active_record/micro-reddit)
 * [Dckwong's solution](https://github.com/dckwong/micro-reddit)
 * [at0micr3d's solution](https://github.com/at0micr3d/micro-reddit)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/micro-reddit)
 
 
 
