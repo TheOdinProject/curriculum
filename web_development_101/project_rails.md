@@ -19,6 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [ToTenMilan's Solution](https://github.com/ToTenMilan/blogger) | [View in Browser](https://agile-sierra-95931.herokuapp.com/articles/1)
 * [sofiegraham's Solution](https://github.com/sofiegraham/blograils) | [View in Browser](https://still-savannah-75438.herokuapp.com/)
 * [Nikolay Dyulgerov's Solution](https://github.com/NicolayD/rails-blogger/tree/master/blogger) | [View in Browser](https://rorblogger.herokuapp.com/)
 * [Benjamin_Res Solution] (https://github.com/Benjamin-Re/Rails.git)
