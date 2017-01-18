@@ -18,6 +18,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/recursion/fibonacci.rb)
 * [Charles's solution](https://github.com/codexTun/ODIN-PROJECTS/blob/master/Ruby_projects/Recursion/fibs_elegance.rb)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/blob/master/FibonacciSequence/fibo.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/recursion/blob/master/fibonacci.rb)
@@ -138,6 +139,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/recursion/merge_sort.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/recursion/blob/master/merge_sort.rb)
 * [Stefan P's solution](https://github.com/spavikevik/recursion_project/blob/master/merge_sort/mergesort.rb)
 * [mahimahi42's solution](https://github.com/mahimahi42/recursion.git)
