@@ -1,9 +1,14 @@
 #Hello
+<<<<<<< HEAD
 Here are the links to my work from the first project (build a mock google home page and search results page). I hope it can be included on the site, I have enjoyed
 working through the lessons so far and am eager to continue. Thank you for providing such useful tools.
 
 https://github.com/Alequin/odin-project-google-homepage
 https://alequin.github.io/odin-project-google-homepage/
+=======
+This commit includes my work from the first project (Build a mock google home page and search results page). I hope it can be included on the site, I have enjoyed
+working through the lessons so far and am eager to continue. Thanks for providing such a useful tools.
+>>>>>>> ba14ba5a0e510f12a264ed20bfc47673b2760964
 
 # Welcome to The Odin Project Curriculum:
 
