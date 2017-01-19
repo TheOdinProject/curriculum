@@ -971,6 +971,7 @@ Add your solution below this line!
 * [Rafael Hernandez's Solition (Easy)] (https://github.com/RafaelDavisH/google-homepage) | [View in browser] (https://rafaeldavish.github.io/google-homepage/)
 * [Avoup's solution(easy)] (https://github.com/avoup/shmoogle) | [View in browser] (https://avoup.github.io/shmoogle/)
 * [Avoup's solution(difficult)] (https://github.com/avoup/results) | [view in browser] (https://avoup.github.io/results/)
+* [Toba's solution(easy)] (https://github.com/theboytee/google-homepage | [view in browser] (https://theboytee.github.io/google-homepage/)
 
 ## Additional Resources
 
