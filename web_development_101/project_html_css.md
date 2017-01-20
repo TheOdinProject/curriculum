@@ -95,6 +95,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 Add your solution below this line!
 
+*[Farhan Ali's solution (Easy)](https://github.com/renegadeHomie/google-homepage)  | [View in browser (Easy)]( https://renegadehomie.github.io/google-homepage/)
+
 * [Marko Nikolajević's solution (Easy)](https://github.com/Mark3z/google-homepage) | [View in browser (Easy)](https://mark3z.github.io/google-homepage/)
 * [Daniel Byun's solution (Difficult)](https://github.com/danielbyun/google-homepage) | [View in browser ](https://danielbyun.github.io/google-homepage)
 * [Oleh Sliusar's solution (easy)](https://github.com/OlehSliusar/google-homepage) | [View in browser](https://olehsliusar.github.io/google-homepage/)
