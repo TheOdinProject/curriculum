@@ -113,7 +113,7 @@ Add your solution below this line!
 * [Damian A's solution (Easy)](https://github.com/debitCredit/google-homepage) | [View in Browser (Easy)](https://debitcredit.github.io/google-homepage/)
 * [Clara's solution - Easy] (https://github.com/clarammdantas/Googe-Homepage) | [View in Browser](https://clarammdantas.github.io/Googe-Homepage/)
 * [theghall's solution](https://github.com/theghall/google-homepage) | [View in Browser](https://theghall.github.io/google-homepage/)
-* [Waglebr's solution (Easy)](https://github.com/waglebr/google-project) | [View in Browser](https://waglebr.github.io/google-project/)
+* [waglebr's solution (Easy)](https://github.com/waglebr/google-project) | [View in Browser](https://waglebr.github.io/google-project/)
 * [thisisned's solution (Easy)](https://github.com/thisisned/google-homepage) | [View in Browser (Easy)](https://thisisned.github.io/google-homepage/)
 * [Rajat Dhyani's solution (Easy)](https://github.com/rajat-dhyani/google-homepage) | [View in Browser (Easy)](https://rajat-dhyani.github.io/google-homepage/)
 * [ChristalSimple's solution (Easy)](https://github.com/ChristalSimple/google-homepage) | [View in Browser (Easy)](https://christalsimple.github.io/google-homepage/) | [ChristalSimple's solution (difficult)](https://github.com/ChristalSimple/google-searchresults) | [View in Browser (difficult)](https://christalsimple.github.io/google-searchresults/)
