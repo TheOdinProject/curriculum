@@ -204,6 +204,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/knights_travails.rb)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/knights_travails.rb)
 * [Simon's solution](https://github.com/SimonSomlai/Odin/tree/master/Ruby/knight_travails)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/knight_moves)
 
 
 ## Additional Resources
