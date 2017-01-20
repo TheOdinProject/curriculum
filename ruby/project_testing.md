@@ -25,6 +25,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/rspec_timetraveling)
 * Leonard Soaivan's solution ([Caesar Cipher](https://github.com/leosoaivan/rubybuildingblocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/leosoaivan/rubybuildingblocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/leosoaivan/rubytictactoe/tree/master/spec))
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec)
@@ -57,10 +58,11 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * David Chapman's solution ([Ceaser Cipher](https://github.com/davidchappy/odin_training_projects/tree/master/c_c), [Enumerable](https://github.com/davidchappy/odin_training_projects/tree/master/enumerable), and [Tic Tac Toe](https://github.com/davidchappy/odin_training_projects/tree/master/tic_tac_toe))
 * [Dylan's solutions](https://github.com/resputin/the_odin_project/tree/master/Ruby/testing/time_travel)
 * Austin Mason's solution ([Ceaser Cipher](https://github.com/CouchofTomato/caesar_cipher), [Enumerable](https://github.com/CouchofTomato/enumberable_extension), and [Tic Tac Toe](https://github.com/CouchofTomato/tictactoe))
-* Jerry Gao's solution ([Caesar](https://github.com/blackwright/caesar_cipher), [Enumerable](https://github.com/blackwright/enumerable), [Tic-Tac-Toe](https://github.com/blackwright/tic_tac_toe))
+* Jerry Gao's solution ([Caesar](https://github.com/blackwright/odin/tree/master/ruby_caesar_cipher), [Enumerable](https://github.com/blackwright/odin/tree/master/ruby_enumerable), [Tic-Tac-Toe](https://github.com/blackwright/odin/tree/master/ruby_tic_tac_toe))
 * tholymap's solution ([Caesar Cipher](https://github.com/tholymap/OdinRspec/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/tholymap/OdinRspec/blob/master/spec/my_enumerable_spec.rb), [Tic-Tac-Toe](https://github.com/tholymap/OdinRspec/blob/master/spec/tic_tac_toe_spec.rb))
 * Francisco Carlos's solution ([Ceaser Cipher](https://github.com/fcarlosdev/the_odin_project/tree/master/tdd/caesar_cipher), [Enumerable](https://github.com/fcarlosdev/the_odin_project/tree/master/tdd/enumerable_methods), [Tic-Tac-Toe](https://github.com/fcarlosdev/the_odin_project/tree/master/tdd/tic_tac_toe))
 * Sophia Wu's solution ([Caesar Cipher](https://github.com/SophiaLWu/project-testing-ruby-with-rspec/tree/master/caesars_cipher), [Enumerable](https://github.com/SophiaLWu/project-testing-ruby-with-rspec/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/SophiaLWu/project-testing-ruby-with-rspec/tree/master/tic_tac_toe))
+* John Connor's solution([Caesar Cipher](https://github.com/jacgitcz/caesar_cipher),[Enumerable](https://github.com/jacgitcz/enumeration_methods),[Tic Tac Toe](https://github.com/jacgitcz/tictactoe_oop))
 
 
 ## Project: TDD Connect Four
@@ -82,6 +84,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/connect_four)
 * [Stefan P's solution](https://github.com/spavikevik/connect_four)
 * [Leonard Soaivan's solution](https://github.com/leosoaivan/TOP_connectfour)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_rspec_testing/connect_four_tdd)
@@ -127,6 +130,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Jerry Gao's solution](https://github.com/blackwright/connect_four)
 * [tholymap's solution](https://github.com/tholymap/OdinRspec/blob/master/spec/connect_four_spec.rb)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/tdd/connect_four)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/connect_four)
 
 ## Additional Resources
 

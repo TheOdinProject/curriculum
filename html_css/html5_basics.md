@@ -24,4 +24,5 @@ Most of this should be review since you've already completed [the Web Developmen
 
 * [WTFHTMLCSS with basic tips to improve your code](http://wtfhtmlcss.com/)
 * [W3C HTML5 tutorial ](http://www.w3schools.com/html/default.asp)
+* [HTML Style Guide](http://codeguide.co/#html) by [Mark Otto](https://github.com/mdo), one of the creators of Bootstrap.
 * *Add Some!*

@@ -37,6 +37,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
 * Add your solution below this line!
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails)
 * [mahimahi42's solution](https://github.com/mahimahi42/firstrailsproject)
 * [Angel Vargas's solution](https://github.com/arioth/demo_app)
 * [Donald's solution](https://github.com/donaldali/demo_app)
@@ -93,6 +94,10 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Joe Himes's solution](https://github.com/deedle42/toy_app) | [Heroku](https://peaceful-fortress-41063.herokuapp.com/)
 * [at0micr3d's solution](https://github.com/at0micr3d/toy_app) | [Heroku](https://powerful-retreat-66686.herokuapp.com/)
 * [tholymap's solution](https://bitbucket.org/tholymap/toy_app) | [Heroku](https://mighty-plains-35715.herokuapp.com/)
+* [Tom Westerhout's solution](https://github.com/Westw00d/toy_app) | [Heroku](https://secret-basin-23722.herokuapp.com/)
+* [Jerry Gao's solution](https://github.com/blackwright/hartl_rails/tree/master/toy_app)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/toy-app)
+* [Niño Mollaneda's solution](https://github.com/ninoM/toy_app)
 
 
 ## Additional Resources

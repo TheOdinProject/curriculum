@@ -34,7 +34,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 * [Yoshua Elmaryono's solution](https://github.com/dotm/signup) | [View in browser](http://dotm.github.io/signup/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/mint) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/mint/index.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-mint) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-mint/blob/master/index.html)
-
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq-form-validation)
 
 ## Additional Resources
 

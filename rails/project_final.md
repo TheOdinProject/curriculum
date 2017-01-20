@@ -89,6 +89,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Frank V's solution](https://github.com/fv42wid/oden-facebook)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_facebook) | [View in browser](https://nameless-escarpment-82289.herokuapp.com/)
 * [David Chapman's solution (not styling yet)](https://github.com/davidchappy/facebook) | [View in browser](https://dac-friends-app.herokuapp.com/)
+* [Oscar Y's solution (No tests and unstyled)](https://github.com/mysteryihs/odin-facebook) | [View in browser](http://guarded-bastion-44854.herokuapp.com/)
 
 
 ## Additional Resources

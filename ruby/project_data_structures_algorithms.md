@@ -30,6 +30,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Searching_BinaryTrees)
 * [Stefan P's solution](https://github.com/spavikevik/bst)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_data_structs_alg/bst)
 * [Mazin's solution](https://github.com/muzfuz/CodeLessons/blob/master/binary_search/binary_search.rb)
@@ -89,8 +90,13 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/bintree2.rb)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_compsci/blob/master/binary_tree.rb)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/commit/a3928f9747d422a49801e27e6d88b0cfc3fb3324)
-* [Jerry Gao's solution](https://github.com/blackwright/binary_tree)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_binary_tree)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/binary_tree.rb)
+* [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/binary_tree.rb)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/bst.rb)
+* [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/Ruby/data_tree.rb)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/binary_trees)
+
 
 
 ## Project 2: Knight's Travails
@@ -135,7 +141,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 
 * Add your solution below this line!
 * [Stefan P's solution](https://github.com/spavikevik/knight_travails)
-* [Leonard Soai-van's solution] (https://github.com/leosoaivan/TOP_compsci)
+* [Leonard Soai-van's solution](https://github.com/leosoaivan/TOP_compsci)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_data_structs_alg/knights_travails)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_7_Ruby_DataStructures/knight.rb)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/knight-moves)
@@ -193,8 +199,12 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/data_structures/knight.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/knights_travails)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/linkedLists/blob/master/knight2.rb)
-* [Jerry Gao's solution](https://github.com/blackwright/knights_travails)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_knights_travails)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-basic-data-structs-and-algorithms/blob/master/knights_travails.rb)
+* [Anthony Vumbaca's solution](https://github.com/tvumbaca/basic_data_structures/blob/master/knights_travails.rb)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/knights_travails.rb)
+* [Simon's solution](https://github.com/SimonSomlai/Odin/tree/master/Ruby/knight_travails)
+
 
 ## Additional Resources
 

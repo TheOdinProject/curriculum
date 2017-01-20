@@ -1,5 +1,5 @@
 # Gearing up for success
-Learning how to program takes work, Like any skill worth knowing it takes time to acquire and it can't
+Learning how to program takes work. Like any skill worth knowing it takes time to acquire and it can't
 be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So before we get into the meat of the curriculum, it would be beneficial to go over the following so you  can get the most out of Odin:
 
 * the things that will help you succeed in your goal of learning to code.
@@ -68,7 +68,7 @@ To learn more about the growth mindset use these resources:
 
 * [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 * [Grit](https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit)
-* [You can learn anything](https://www.khanacademy.org/about/blog/post/95208400815/the-learning-myth-why-ill-never-tell-my-son-hes)
+* [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 * [Start Here - The Motivation Episode and Becoming a Programming Super Learner](http://starthere.fm/webdev/23-the-motivation-episode-and-becoming-a-programming-super-learner)
 
 ## The Best ways to Learn
