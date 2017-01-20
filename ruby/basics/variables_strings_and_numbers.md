@@ -124,107 +124,106 @@ it_wasnt_me = false
 4. Open up a Ruby Repl and try naming some variables and assigning some value to it. Don't try at this stage to name good variables but instead experiment with different variable names, run the Repl and see if it's valid. Try using symbols or numbers in your variable names. See what works and what doesn't. If you come across anything quirky Google it to find out why.
 
 ## Strings
+
+Strings, strings, wonderful things, use them well and your app will grow wings. Or something.
+
 At first glance, you'd be forgiven for thinking Strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance of playing Han Solo, you'd be wrong. Very wrong. What were you thinking Burt? 
 
-- double and single quotes in strings
-Strings can be formed with either double `""` or single`''` quotes. There are some small differences which will be explained below. 
+From the prep course you should have a good understanding of Strings so we won't bore you to death recapping what you already know. Instead we'll just cover some of the pitfalls and more interesting features and let the reading assignments do the rest.
 
-### Concatenation
-- using the shovel operator or the += method
-To build on strings that have been created two of the most common ways are using `<<` and `+=`
-```
-hello = "hello" # => Set a variable called hello with the value "hello"
-hello += ", world" # => The variable hello will now be "hello, world"
-```
-The same outcome could have been arrived at using `<<`
-```
-hello = "hello"
-hello << ", world"
-# => "hello, world"
-```
+- double and single quotes in strings
+Strings can be formed with either double `""` or single`''` quotes. They are pretty similar but there are some differences.
 
 ### Interpolation
-- using variables inside strings
-Interpolation is a very handy skill which will keep your strings from looking really messy. Interpolation will only work inside strings using double quotation marks `""`. We interpolate using `#{}`. Anything inside the brackets `{}` will be evaluated as Ruby code and then converted to text.
-Seeing is believing so we'll jump straight into some examples.
 ```
-name = "Odin" # => Assign the value "Odin" to the variable name
-hello = "Hello #{name}. Nice to meet you"
+name = "Odin"
+puts "Hello, #{name}" # => "Hello, Odin"
+puts 'Hello, #{name}' # => "Hello, #{name}"
 ```
-Here, using interpolation, the variable hello will now have a value of `"Hello Odin. Nice to meet you"`. Amazing!!!!!!
+Moral of the story? ~~Don't judge others les~~ Use double quotes for String interpolation.
 
-We can also use interpolation to evaluate code.
-
-- using expressions inside strings
+### Concatenation
+In true Ruby style. There are plenty of ways to concatentate with Ruby
+```
+"Welcome " + "to " + "Odin!"
+"Welcome " "to " "Odin!" # => Did you know you could leave you the + signs?
+"Welcome " << "to " << "Odin!"
+"Welcome ".concat("to ").contact("Odin!")
+```
+Classic Ruby!
 
 ### Common string methods
-You won't learn about methods until later. For now though all you need to know is that there are very easy ways to change the contents of your string by calling methods which are just names that contain code that will perform a certain action. You can find all the Methods of String in the [Ruby Docs](ruby-doc.org/core-2.4.0/String.html) but we'll focus below on some really simple ones that make manipulating strings a doddle.
+You've dabbled with some of the Ruby methods in the prep course. Someone need you to capitlize a word? No problem! Reverse a string? Not all heroes wear capes. Extract the binary subatomic algorithm from any regex grep? Errrrrrrrr, yeah totally.
 
-- capitalize
+Just remember, strings have loads of methods provided to you for free and you can find them all in the [Ruby Docs](ruby-doc.org/core-2.4.0/String.html). If you're working with strings and need to do something check the Ruby Docs first and see if there is one that does it for you.
+
+Below is a quick recap on the more common methods you might find yourself using. 
+
 ```
 "hello".capitalize
 # => "Hello"
-```
-- include?
-```
 "hello.include?("lo")
 # => true
-```
-- upcase
-```
 "hello".upcase
 # => "HELLO"
-```
-- downcase
-```
 "Hello".downcase
 # => "hello"
-```
-- empty?
-```
 "hello".empty?
 # => false
-```
-- length
-```
 "hello".length
 # => 5
-```
-- reverse
-```
 "hello.reverse"
-# => "olleh"
-```
-- split
-```
+# => "olleh" # => This is where the Spanish word came from. True story!
 "hello world".split
 # => ["hello", "world"]
-```
-- strip
-```
-"    hello, world       ".strip
+"    hello, world       ".strip # => Strip and dance for me.
 # => "hello, world"
+"hello".dance # => Undefined method 'dance'... Worth a try
 ```
-
-These are just a few of many string methods. If there's something you want to do with a String the first thing you should do is see if there is already a method that can do it for you. Why reinvent the wheel right? 
 
 ### Substrings
-- slice.. aliased as -> [0..2], [1,3]
+You can access strings inside strings inside strings. Stringception! It's super easy too
+```
+"hello"[0] # => "h"
+"hello"[0..1] # => "he"
+"hello"[0, 4] # => "hell"
+"hello"[-1] # => "o"
+"hello dude"[0,5][1..3] # => "ell". I have no idea why you'd want to do this, but you can!
+```
 
 ### Escape Characters
-- \", \'
-- \\
-- \b
-- \r
-- \n
-- \s
-- \t
+Hopefully these are self explanatory. Use them if you need them in you code. There may be some gotchas with single quotes so use double quotes to be safe.
+```
+\\ # => Need a backslash in your string?
+\b # => Backspace
+\r # => Carriage return, For you oldies that love typewriters
+\n # => Newline. You'll use this one.
+\s # => Space
+\t # => Tab
+\" # => Double Quote
+\' # => Single Quote
+```
+The best thing to do is play around with them in a Repl. But for your eyes only here's an awesome string using all of them.
+```
+"hello\" \' \ndude\\. What\'s up??\b\r\tSweet"
+```
+hello" '
+dude\. What's up??
+  Sweet
+
+Rocking it!
 
 ### String Manipulation
-- gsub
-- insert
-- partition
-- prepend
+You'll read about these in the assignments. So I'll just leave some examples to get your creative juices flowing  thinking about some awesome ways to actually modify strings.
+```
+"he77o".sub("7", "l") # => "hel7o"
+"he77o".gsub("7", "l") # => "hello"
+"hello".insert(-1, " dude") # => "hello dude"
+"hello".split("") # => ["h", "e", "l", "l", "o"]
+"!".prepend("hello ", "world") # => "hello, world!"
+```
+
+The assignments will go deeper and clarify more than I have, so go through them and be sure to play around in a Repl.
 
 ### Assignment
 
