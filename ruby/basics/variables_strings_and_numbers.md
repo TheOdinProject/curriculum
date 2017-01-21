@@ -123,7 +123,124 @@ can_swim = false
 2. Open up a [Ruby Repl](https://repl.it/languages/ruby) or IRB in your command line and try naming some variables and assigning some value to it. Don't try at this stage to name good variables but instead experiment with different variable names, run the Repl and see if it's valid. Try using symbols or numbers in your variable names. See what works and what doesn't. If you come across anything quirky Google it to find out why.
 
 ## Strings
+Strings, strings, wonderful things, use them well and your app will grow wings. Or something.
 
+At first glance, you'd be forgiven for thinking Strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance of playing Han Solo, you'd be wrong. Very wrong. What were you thinking Burt?
+
+From the prep course you should have a good understanding of Strings so we won't bore you to death recapping what you already know. Instead we'll just cover some of the pitfalls and more interesting features and let the reading assignments do the rest.
+
+- double and single quotes in strings
+Strings can be formed with either double `""` or single`''` quotes. They are pretty similar but there are some differences.
+
+### Interpolation
+```
+name = "Odin"
+puts "Hello, #{name}" # => "Hello, Odin"
+puts 'Hello, #{name}' # => "Hello, #{name}"
+```
+Moral of the story? ~~Don't judge others les~~ Use double quotes for String interpolation.
+
+### Concatenation
+In true Ruby style. There are plenty of ways to concatentate with Ruby
+```
+"Welcome " + "to " + "Odin!"
+"Welcome " "to " "Odin!" # => Did you know you could leave you the + signs?
+"Welcome " << "to " << "Odin!"
+"Welcome ".concat("to ").contact("Odin!")
+```
+Classic Ruby!
+
+### Common string methods
+You've dabbled with some of the Ruby methods in the prep course. Someone need you to capitlize a word? No problem! Reverse a string? Not all heroes wear capes. Extract the binary subatomic algorithm from any regex grep? Errrrrrrrr, yeah totally.
+
+Just remember, strings have loads of methods provided to you for free and you can find them all in the [Ruby Docs](ruby-doc.org/core-2.4.0/String.html). If you're working with strings and need to do something check the Ruby Docs first and see if there is one that does it for you.
+
+Below is a quick recap on the more common methods you might find yourself using.
+
+```
+"hello".capitalize
+# => "Hello"
+
+"hello.include?("lo")
+# => true
+
+"hello".upcase
+# => "HELLO"
+
+"Hello".downcase
+# => "hello"
+
+"hello".empty?
+# => false
+
+"hello".length
+# => 5
+
+"hello.reverse"
+# => "olleh" # => This is where the Spanish word came from. True story!
+
+"hello world".split
+# => ["hello", "world"]
+
+"    hello, world       ".strip # => Strip and dance for me.
+# => "hello, world"
+
+"hello".dance # => Undefined method 'dance'... Worth a try
+```
+
+### Substrings
+You can access strings inside strings inside strings. Stringception! It's super easy too
+```
+"hello"[0] # => "h"
+
+"hello"[0..1] # => "he"
+
+"hello"[0, 4] # => "hell"
+
+"hello"[-1] # => "o"
+
+"hello dude"[0,5][1..3] # => "ell". I have no idea why you'd want to do this, but you can!
+```
+
+### Escape Characters
+Hopefully these are self explanatory. Use them if you need them in you code. There may be some gotchas with single quotes so use double quotes to be safe.
+```
+\\ # => Need a backslash in your string?
+\b # => Backspace
+\r # => Carriage return, For you oldies that love typewriters
+\n # => Newline. You'll use this one.
+\s # => Space
+\t # => Tab
+\" # => Double Quote
+\' # => Single Quote
+```
+The best thing to do is play around with them in a Repl. But for your eyes only here's an awesome string using all of them.
+```
+"hello\" \' \ndude\\. What\'s up??\b\r\tSweet"
+```
+hello" '
+dude\. What's up??
+  Sweet
+
+Rocking it!
+
+### String Manipulation
+You'll read about these in the assignments. So I'll just leave some examples to get your creative juices flowing  thinking about some awesome ways to actually modify strings.
+```
+"he77o".sub("7", "l") # => "hel7o"
+
+"he77o".gsub("7", "l") # => "hello"
+
+"hello".insert(-1, " dude") # => "hello dude"
+
+"hello".split("") # => ["h", "e", "l", "l", "o"]
+
+"!".prepend("hello ", "world") # => "hello, world!"
+```
+
+The assignments will go deeper and clarify more than I have, so go through them and be sure to play around in a Repl.
+
+### Assignment
 
 
 ## Numbers
@@ -205,7 +322,6 @@ Heres a few of the most common ones you'll use.
 8.zero? #=> false
 0.zero? #=> true
 ```
-
 
 ### Assignment
 1. For an even deeper look at numbers read [this short chapter](http://ruby.bastardsbook.com/chapters/numbers/) of the bastards book of ruby
