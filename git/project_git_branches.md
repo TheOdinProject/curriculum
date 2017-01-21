@@ -1,6 +1,6 @@
 # Project: Git Branches
 
-In this project we will be forking TheOdinProject's `git_branches` repository and learning to create a branch to work in and trial new feature for your project. This is a common way to contribute to open source software on GitHub and valuable skill. Your pull request will be reviewed by the team at TheOdinProject and once approved it will appear on TheOdinProject/Curriculum and be used to create an honor roll.
+In this project we will be forking TheOdinProject's `git_branches` repository and learning to create a branch to work in and trial new feature for your the `git_branches` web page. If you want to try adding an experimental feature to your project, branching allows you add and change code whilst not modifying the `master` branch. Should the feature be successful, it can be included in `master` branch with a merge. Should the feature be deemed unnecessary, the branch can be deleted and development can continue on the `master` branch without having to remove any code added for the feature branch.
 
 ## Learning Outcomes
 
@@ -11,22 +11,22 @@ In this project we will be forking TheOdinProject's `git_branches` repository an
 
 ## Your Task
 
-1. Go to [TheOdinProject's git_branches](https://github.com/TheOdinProject/curriculum) repository on GitHub. The files within this repository make up the lessons within [TheOdinProject](http://www.theodinproject.com/) and fork the repository by clicking the button shown below.
+1. Go to [TheOdinProject's git_branches](https://github.com/TheOdinProject/git_branches) repository on GitHub. This repository is a simple web page `index.html` that has been made specifically for this lesson. Fork the repository by clicking the button shown below.
   <a href="http://i.imgur.com/fcJTCJU.png"><img class="tutorial-img" src="http://i.imgur.com/fcJTCJU.png" title="Click Fork icon" /></a>
 2. After a short wait you should now have your own fork of the `git_branches` repository at `https://github.com/Your-GitHub-Username/git_branches`. When you fork on GitHub you can think of it as creating a branch of the project that you own and have rights to modify and write (`push`) to as you please without affecting the original.
-3. In terminal cd into the folder where you would like to place your forked copy of the curriculum and clone it with this line `git clone https://github.com/Your-GitHub-Username/curriculum.git` `git clone https://github.com/Your-GitHub-Username/git_branches.git`
-4. Now if we `git branch -v` we should see this:
+3. In terminal cd  into the folder where you would like to place your forked copy of the curriculum and clone it with this line `git clone https://github.com/Your-GitHub-Username/git_branches.git`
+4. Now if we `cd git_branches` and run `git branch -v` we should see this:
   ```language-bash
-  \* master                f9230de Add index.html and describe project README.md
+   * master                f9230de Add index.html and describe project README.md
 
   ```
 5. Let's create a new branch on the project called `new-feature` by entering `git branch new-feature`. Once done we should see a new branch in the list like so:
   ```language-bash
-  \* master                f9230de Add index.html and describe project README.md
+   * master                f9230de Add index.html and describe project README.md
      new-feature           f9230de Add index.html and describe project README.md
 
   ```
-6. Now you can see the original branch `master` and the new branch `new-feature`. You'll see the head on both is currently pointing to the commit `f9230de` and we are on branch `master` as signified by the `*`. To swap, use `git checkout *branch-name*`. In this case it will be `git checkout new-feature`. As you will often want to create a branch and then checkout to the new branch, git provides a shortcut `git checkout -b new-feature` to do these two commands in one line.
+6. Now you can see the original branch `master` and the new branch `new-feature`. You'll see the head on both is currently pointing to the commit `f9230de` and we are on branch `master` as signified by the `*`. To swap, use `git checkout branch-name`. In this case it will be `git checkout new-feature`. As you will often want to create a branch and then checkout to the new branch, git provides a shortcut `git checkout -b new-feature` to do these two commands in one line.
 7. Check that the previous command was successful by entering `git status`. If you have followed successfully you should see this:
   ```language-bash
   On branch new-feature
@@ -41,14 +41,14 @@ In this project we will be forking TheOdinProject's `git_branches` repository an
 11. Now look at the branches with `git branch -v`
   ```language-bash
      master                f9230de Add index.html and describe project README.md
-  \* new-feature           7cc84e4 add second paragraph
+   * new-feature           7cc84e4 add second paragraph
 
   ```
   `new-feature` has the latest commit whilst master remains unchanged
 12. Now, swap to `master` with `git checkout master`. Refresh the browser and see what happens 
   <a href="http://i.imgur.com/hHCFyLn.png"><img class="tutorial-img" src="http://i.imgur.com/hHCFyLn.png" title="Master remains unchanged" /></a>
 13. `master` is the same as before and doesn't take in any changes made whilst on the `new-feature` branch. If `new-feature` proves to be a failure and introduces bugs we can switch to `master` and continue with development and not include the `new-feature` branch.
-14. But in this case `new-feature` looks like a good addition. We can `git merge *branch-name*`, in this case `git merge new-feature`. When we do this we must be careful that our current branch is where we would like to merge `new-feature` into.
+14. But in this case `new-feature` looks like a good addition. We can `git merge branch-name`, in this case `git merge new-feature`. When we do this we must be careful that our current branch is where we would like to merge `new-feature` into.
 15. You should see something like this in the terminal:
   ```language-bash
   Updating f9230de..7cc84e4
