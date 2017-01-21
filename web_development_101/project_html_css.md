@@ -21,7 +21,7 @@ These skills will be helpful for you when you start building.  Either try them y
 
 ## Setting Up Your Project's Github Repository (optional)
 
-As mentioned in the [introduction to git](/web-development-101/introduction-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
+As mentioned in the [introduction to git](/web-development-101/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
 If you do not know how to setup a respository, follow the instructions found in [Project: Git Basics](/web-development-101/practicing-git-basics) to learn how.
 
