@@ -1,0 +1,4 @@
+$('#project-submission-delete-modal').modal('hide');
+toastr.success('Your submission was deleted', 'Success!');
+$('#submissions')
+  .html("<%= j render 'lessons/submissions', submissions: @submissions %>");

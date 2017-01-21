@@ -1,0 +1,29 @@
+<div class="modal fade" id="project-submission-delete-modal" tabindex="-1" role="dialog" aria-labelledby="projectSubmissionDeleteModal" aria-hidden="true" data-backdrop="static" data-backdrop="static" data-keyboard="false">
+
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      </div>
+
+      <div class="modal-body">
+        <p class="text-center">
+          Are you sure you want to delete the project submission?
+        </p>
+
+        <div class="action-btns">
+          <%= link_to [lesson, project], class: 'btn btn-danger btn-big',
+                method: :delete, remote: true do %>
+              <i class="fa fa-trash"></i>&nbsp;Yes, delete it
+          <% end %>
+
+          <button type="button" class="btn btn-default btn-big" data-dismiss="modal">
+            No, it was a mistake!
+          </button>
+        </div>
+      </div> <!-- /.modal-body -->
+
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->

@@ -1,13 +1,8 @@
 <div class="project-form-container">
-  <%= render 'loader' %>
-  <h3 class="text-primary">Upload your project</h4>
+  <h3 class="text-primary text-center project-form-title">Upload your project</h4>
+  <div id="message"></div>
 
-  <div class="notification-message">
-    <span class="fa"></span>&nbsp;&nbsp;
-    <span class="message"></span>
-  </div>
-
-  <%= form_for([lesson, project]) do |f| %>
+  <%= form_for([lesson, project], remote: true) do |f| %>
     <div class="form-group">
       <%= f.label :repo_url, 'Repository URL', class: 'control-label' %>
       <%= f.text_field :repo_url, class: 'form-control',
@@ -24,14 +19,7 @@
 
     <div class="form-group">
       <%= f.submit (project.new_record? ? 'Upload project' : 'Update submission'),
-            class: 'btn btn-success btn-block', id: 'project-submit-btn' %>
+            class: 'btn btn-success btn-block btn-big project-submit-btn' %>
     </div>
-  <% end %>
-
-  <% unless project.new_record? %>
-    <%= link_to [lesson, project], class: 'btn btn-danger btn-block',
-          id: 'project-delete-btn' do %>
-        <i class="fa fa-trash"></i>&nbsp;Destroy submission
-    <% end %>
   <% end %>
 </div>

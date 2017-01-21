@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe LessonsController do
-  let(:lesson) { double('Lesson', id: 'abc123') }
+  let(:lesson) { double('Lesson', id: 'abc123', has_submission?: false) }
   let(:ad) { double('Ad') }
   let(:params) { { course_title: 'web-development-101', id: lesson_id } }
   let(:lesson_id) { 'abc123' }

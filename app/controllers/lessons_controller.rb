@@ -3,12 +3,12 @@ class LessonsController < ApplicationController
 
   def show
     @lesson = decorated_lesson
-    @project = set_project
+    set_project_and_submissions if @lesson.has_submission?
     set_ads
   end
 
   private
-  
+
   def set_ads
     return unless show_ads?
     @lower_banner_ad = true
@@ -17,6 +17,15 @@ class LessonsController < ApplicationController
 
   def show_ads?
     ENV['SHOW_ADS'] && Ad.show_ads?
+  end
+
+  def set_project_and_submissions
+    @project = set_project
+    @submissions = set_submissions
+  end
+
+  def set_submissions
+    Project.all_submissions(@lesson.id)
   end
 
   def set_project

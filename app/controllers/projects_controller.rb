@@ -1,30 +1,25 @@
 class ProjectsController < ApplicationController
-  before_action :authorize_request,
-                except: [:all_submissions, :recent_submissions]
-  before_action :find_lesson, except: [:update, :destroy]
+  rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
+
+  before_action :authenticate_request, except: [:all_submissions]
+  before_action :find_lesson
   before_action :find_project, only: [:update, :destroy]
+
   authorize_resource only: [:update, :destroy]
 
   def create
     @project = new_project
-    if @project.save
-      render_project_json(201)
-    else
-      render_errors_json
-    end
+    @project.save
+    set_recent_submissions
   end
 
   def update
-    if @project.update(project_params)
-      render_project_json(200)
-    else
-      render_errors_json
-    end
+    @project.update(project_params)
   end
 
   def destroy
     @project.destroy
-    head :ok
+    set_recent_submissions
   end
 
   def all_submissions
@@ -32,19 +27,10 @@ class ProjectsController < ApplicationController
     render json: submissions
   end
 
-  def recent_submissions
-    submissions = Project.all_submissions(@lesson.id).limit(10)
-    render json: submissions
-  end
-
   private
 
-  def render_project_json(status)
-    render json: @project, status: status
-  end
-
-  def render_errors_json
-    render json: @project.errors, status: 422
+  def set_recent_submissions
+    @submissions = Project.all_submissions(@lesson.id).limit(10)
   end
 
   def find_project
@@ -65,7 +51,7 @@ class ProjectsController < ApplicationController
     @lesson = Lesson.friendly.find(params[:lesson_id])
   end
 
-  def authorize_request
+  def authenticate_request
     head :unauthorized unless user_signed_in?
   end
 end
