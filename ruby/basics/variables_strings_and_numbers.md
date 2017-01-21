@@ -19,9 +19,8 @@ Let's get started. Who's excited??????
   * What is a variable?
   * How do you declare a variable?
   * What are the variable naming conventions?
-  * How are variables initialised?
-  * What are variable Sigils?
-  * What are the different variable scopes?
+  * What are variable Sigils?   # what does this refer to?
+  * what does the `+=` operator do?
 
 * Strings
   * What is a string?
@@ -37,220 +36,180 @@ Let's get started. Who's excited??????
   * What does it mean that strings are "mutable" and why care?
 
 * Numbers
+  * What are the basic arithmetic operators you can use with numbers?
   * What's the difference between an Integer and a Float?
-  * How does Ruby store Integers and Floats?
-  * Why should you be careful when converting back and forth between integers and floats?
-  * What operators can you use with numbers to change them? 
+  * What method would you use to convert a float to an integer?
+  * What method would you use to convert a integer to a float?
+
 
 ## Variables
 You can think of Variables as those tupperware containers your mum keeps in the cupboard (that never have matching lids...). You can use those containers to store something in them until you need whatever is in it. In programming a variable is simply a place to store data. To be more specific, variables hold a reference to a specific object in computer memory. Each object will refer to a certain data type.
 
-Ruby is a language which aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, aim to describe the kind of data that it will hold. Naming variables will pay dividends when you review your code months after you've written it when you can no longer clearly remember what that variable was designed to store. When deciding what your variable name will be keep this quote by John Woods at the front of your mind:
+Although you should be familiar already with variables in Ruby what you may not know are the common Ruby naming conventions for variables and some more advanced assignment operators so we'll cover them here.
+
+### Declaring a Variable
+As you have already seen in the prep work this is how you make a variable in Ruby.
+```(ruby)
+age = 18 #=> 18
+```
+
+You can also assign a variables value as the result of an operation
+
+```(ruby)
+age = 18 + 5 #=> 23
+```
+
+To change the value of a variable after its been already been assigned you will need to assign
+it again with the new desired value.
+
+```(ruby)
+age = 18
+age = 33
+age #=> 33
+```
+
+There will often be scenarios where you will want to do an operation to the original
+value of a variable and reassign the variable as the result of that operation. this
+is how you would do that:
+
+```(ruby)
+age = 18
+age = age + 4 #=>  22
+```
+
+Because this is a common scenario Ruby provides a nice short hand
+assignment operator for doing this `+=`:
+
+```(ruby)
+age = 18
+age += 4 #=> 22
+```
+
+there are assignment operators like this for all the common math operators
+
+```(ruby)
+age = 18
+age -= 2 #=> 16
+
+cash = 10
+cash *= 2 #=> 20
+
+temperature = 40
+temperature /= 10 #=> 4  
+```
+
+
+### How to name them
+Ruby is a language which aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, aim to describe the what the value of the variable represents. Naming variables will pay dividends when you review your code months after you've written it when you can no longer clearly remember what that variable was designed to store. When deciding what your variable name will be keep this quote by John Woods at the front of your mind:
 
 > Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
 
 The most basic thing you can do to write clean, maintainable code is name your variables properly.
 
-Although you should be familiar already with variables in Ruby what you may not know are the common Ruby naming conventions for variables and some more advanced assignment operators so we'll cover them here.
-
-### How to make them
-- assignment operators =, +=, -=, *=, /=, %=, **=
-
-In Ruby, assignment uses the = character
-
-`num = 5`
-
-This assignment creates a local variable.
-
-- Abbreviated Assignment
-
-You can mix several operators and assignment. These are best illustrated with examples
-
+variable names should always be lowercase and multiple words that make up a variable name should be split by an underscore this is known as _snake_case_.
 ```
-a = 10
-a += 10
-# => a = 20
-```
-This is equivalent to:
-`a = a + 1`
+#bad
+a = "Hello"
+number = 2
 
-Some further examples:
-All examples assume a = 10
-```
-a -= 10
-# => a = 0
-
-a *= 10
-# => a = 100
-
-a /= 10
-# => a = 1
-
-a %= 6
-# => a = 4
-
-a **= 2
-# => a = 100
-```
-There are also `||=` and `&&=`.
-`||=` makes an assignment if the value of the variable was nil or false. `&&=` makes an assignment if the value of the variable was not nil or false.
-
-```
-num = 10 # => num has been assigned a value
-num ||= 5 # => As num has already been assigned it will not be assigned a new value here.
-num &&= 5 # => Num has been assigned and is therefore not nil or false. This will set the new value of num to 5.
-```
-
-- Multiple Assignment
-You can assign multiple variables to multiple values.
-```
-a, b, c = 1, 2, 3
-# a = 1
-# b = 2
-# c = 3
-```
-### How to name them
-variable names should always be lowercase and multiple words that make up a variable name should be split by an underscore.
-```
-number = 1
-not_a_number = "hello"
-it_wasnt_me = false
+#good
+age = 19
+name = "John"
+can_swim = false
 ```
 
 ### Assignment
-1. Read through this [Zetcode tutorial on variables](http://zetcode.com/lang/rubytutorial/variables/)
-2. Read through the variables section of this [Jumpstart Lab Tutorial](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html#2.-variables).
-3. Read through the variables section of this [Tutorialspoint tutorial](https://www.tutorialspoint.com/ruby/ruby_variables.html).
-4. Open up a Ruby Repl and try naming some variables and assigning some value to it. Don't try at this stage to name good variables but instead experiment with different variable names, run the Repl and see if it's valid. Try using symbols or numbers in your variable names. See what works and what doesn't. If you come across anything quirky Google it to find out why.
+1. Read the [variables chapter](http://ruby.bastardsbook.com/chapters/variables/) from the Bastards book of Ruby for alternative metaphors and deeper topics about variables. Don't worry if you don't understand everything completely, especially the sections about references. This will become more intuitive as you use ruby by completing exercises and projects.
+2. Open up a [Ruby Repl](https://repl.it/languages/ruby) or IRB in your command line and try naming some variables and assigning some value to it. Don't try at this stage to name good variables but instead experiment with different variable names, run the Repl and see if it's valid. Try using symbols or numbers in your variable names. See what works and what doesn't. If you come across anything quirky Google it to find out why.
 
 ## Strings
-At first glance, you'd be forgiven for thinking Strings are just a bunch of characters that aren't very useful beyond getting user input and outputting some information to the screen, but like Burt Reynolds passing up the chance of playing Han Solo, you'd be wrong. Very wrong. What were you thinking Burt? 
 
-- double and single quotes in strings
-Strings can be formed with either double `""` or single`''` quotes. There are some small differences which will be explained below. 
 
-### Concatenation
-- using the shovel operator or the += method
-To build on strings that have been created two of the most common ways are using `<<` and `+=`
-```
-hello = "hello" # => Set a variable called hello with the value "hello"
-hello += ", world" # => The variable hello will now be "hello, world"
-```
-The same outcome could have been arrived at using `<<`
-```
-hello = "hello"
-hello << ", world"
-# => "hello, world"
-```
-
-### Interpolation
-- using variables inside strings
-Interpolation is a very handy skill which will keep your strings from looking really messy. Interpolation will only work inside strings using double quotation marks `""`. We interpolate using `#{}`. Anything inside the brackets `{}` will be evaluated as Ruby code and then converted to text.
-Seeing is believing so we'll jump straight into some examples.
-```
-name = "Odin" # => Assign the value "Odin" to the variable name
-hello = "Hello #{name}. Nice to meet you"
-```
-Here, using interpolation, the variable hello will now have a value of `"Hello Odin. Nice to meet you"`. Amazing!!!!!!
-
-We can also use interpolation to evaluate code.
-
-- using expressions inside strings
-
-### Common string methods
-You won't learn about methods until later. For now though all you need to know is that there are very easy ways to change the contents of your string by calling methods which are just names that contain code that will perform a certain action. You can find all the Methods of String in the [Ruby Docs](ruby-doc.org/core-2.4.0/String.html) but we'll focus below on some really simple ones that make manipulating strings a doddle.
-
-- capitalize
-```
-"hello".capitalize
-# => "Hello"
-```
-- include?
-```
-"hello.include?("lo")
-# => true
-```
-- upcase
-```
-"hello".upcase
-# => "HELLO"
-```
-- downcase
-```
-"Hello".downcase
-# => "hello"
-```
-- empty?
-```
-"hello".empty?
-# => false
-```
-- length
-```
-"hello".length
-# => 5
-```
-- reverse
-```
-"hello.reverse"
-# => "olleh"
-```
-- split
-```
-"hello world".split
-# => ["hello", "world"]
-```
-- strip
-```
-"    hello, world       ".strip
-# => "hello, world"
-```
-
-These are just a few of many string methods. If there's something you want to do with a String the first thing you should do is see if there is already a method that can do it for you. Why reinvent the wheel right? 
-
-### Substrings
-- slice.. aliased as -> [0..2], [1,3]
-
-### Escape Characters
-- \", \'
-- \\
-- \b
-- \r
-- \n
-- \s
-- \t
-
-### String Manipulation
-- gsub
-- insert
-- partition
-- prepend
-
-### Assignment
 
 ## Numbers
-A brief description of the different types of numbers in Ruby and the maths operations you can do on them.
+I'm sure you already know what numbers are so there's no need to go into elaborate
+metaphors about kitchenware here. Most of this section will be a review of what
+you've already covered in the prep work.
 
-### Common Operators and Expressions
-- +-\*
-- % ^ **
+Ruby has all the typical math operators you would expect:
+```(ruby)
+# addition
+1 + 1 #=> 2
 
-### Floats and Integers
-- how they differ
+# subtraction
+2 - 1 #=> 1
 
-### Strings and Numbers
+# multiplication
+2 * 2 #=> 4
 
-### Converting numbers
+# division
+10 / 5 #=> 2
+
+# Modulus
+10 % 5 #=> 1
+
+# Exponent()
+2 ** 2 #=> 4
+```
+
+### Integers and Floats
+**Integers** are whole numbers such as 10.
+
+**Floats** are numbers which have a decimal point such as 10.5.
+
+Heres a couple of gotchas to bear in mind when working integers and floats:
+
+When doing arithmetic with two integers the result will always be an integer.
+Even if you didn't want it to be.
+
+```(ruby)
+17 / 5 #=> 3
+```
+
+To solve this problem just replace one of the integers with a float in the expression.
+
+```(ruby)
+17 / 5.0 #=> 3.4
+```
+
+### Converting Number Types
+Ruby makes it very easy to convert numbers to and from floats or integers with a couple of
+methods.
+```(ruby)
+# converting a float to an integer
+13.0.to_i #=> 13
+
+# converting to a integer to a float
+13.to_f #=> 13.0
+```
+
+### Some Useful Number Methods
+As you've read a few times now, everything in Ruby is an object. This includes
+numbers. This means there are a lot of useful methods you can use with numbers.
+Heres a few of the most common ones you'll use.
+
+#### even?
+```(ruby)
+6.even? #=> true
+7.even? #=> false
+```
+
+#### odd?
+```(ruby)
+6.odd? #=> false
+7.odd? #=> false
+```
+
+#### zero?
+```(ruby)
+8.zero? #=> false
+0.zero? #=> true
+```
 
 
-## Output and Input
-A brief description of how to output from to the users terminal and how to get input.
+### Assignment
+1. For an even deeper look at numbers read [this short chapter](http://ruby.bastardsbook.com/chapters/numbers/) of the bastards book of ruby
 
-### Puts and Print
-
-### Formatting
-
-### Gets
 
 ## Exercises
 link to a repo of exercises with tests.
@@ -259,3 +218,4 @@ link to a repo of exercises with tests.
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 Link to no more than three additional resources to avoid this section becoming too cluttered.
+* For a deeper explanation of how variables work under the hood read [this short section] from launch schools Learn to Program with Ruby book.
