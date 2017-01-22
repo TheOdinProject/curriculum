@@ -17,10 +17,9 @@ Let's get started. Who's excited??????
 
 * Variables
   * What is a variable?
-  * How do you declare a variable?
-  * What are the variable naming conventions?
-  * What are variable Sigils?   # what does this refer to?
+  * How do you assign a variable?
   * what does the `+=` operator do?
+  * What are the variable naming conventions?
 
 * Strings
   * What is a string?
@@ -99,7 +98,6 @@ temperature = 40
 temperature /= 10 #=> 4  
 ```
 
-
 ### How to name them
 Ruby is a language which aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, aim to describe the what the value of the variable represents. Naming variables will pay dividends when you review your code months after you've written it when you can no longer clearly remember what that variable was designed to store. When deciding what your variable name will be keep this quote by John Woods at the front of your mind:
 
@@ -148,46 +146,41 @@ In true Ruby style. There are plenty of ways to concatentate with Ruby
 
 ```(ruby)
 "Welcome " + "to " + "Odin!"
+
 "Welcome " "to " "Odin!" # => Did you know you could leave you the + signs?
+
 "Welcome " << "to " << "Odin!"
+
 "Welcome ".concat("to ").contact("Odin!")
 ```
 Classic Ruby!
 
 ### Common string methods
-You've dabbled with some of the Ruby methods in the prep course. Someone need you to capitlize a word? No problem! Reverse a string? Not all heroes wear capes. Extract the binary subatomic algorithm from any regex grep? Errrrrrrrr, yeah totally.
+You've dabbled with some of the Ruby methods in the prep course. Someone needs you to capitlize a word? No problem! Reverse a string? Not all heroes wear capes. Extract the binary subatomic algorithm from any regex grep? Errrrrrrrr, yeah totally.
 
 Just remember, strings have loads of methods provided to you for free and you can find them all in the [Ruby Docs](ruby-doc.org/core-2.4.0/String.html). If you're working with strings and need to do something check the Ruby Docs first and see if there is one that does it for you.
 
 Below is a quick recap on the more common methods you might find yourself using.
 
 ```(ruby)
-"hello".capitalize
-# => "Hello"
 
-"hello.include?("lo")
-# => true
+"hello".capitalize # => "Hello"
 
-"hello".upcase
-# => "HELLO"
+"hello.include?("lo") # => true
 
-"Hello".downcase
-# => "hello"
+"hello".upcase # => "HELLO"
 
-"hello".empty?
-# => false
+"Hello".downcase # => "hello"
 
-"hello".length
-# => 5
+"hello".empty? # => false
 
-"hello.reverse"
-# => "olleh" # => This is where the Spanish word came from. True story!
+"hello".length # => 5
 
-"hello world".split
-# => ["hello", "world"]
+"hello.reverse" # => "olleh" # => This is where the Spanish word came from. True story!
 
-"    hello, world       ".strip # => Strip and dance for me.
-# => "hello, world"
+"hello world".split # => ["hello", "world"]
+
+"    hello, world       ".strip  # => "hello, world"
 
 "hello".dance # => Undefined method 'dance'... Worth a try
 ```
@@ -275,7 +268,7 @@ Ruby has all the typical math operators you would expect:
 # Modulus
 10 % 5 #=> 1
 
-# Exponent()
+# Exponent
 2 ** 2 #=> 4
 ```
 
