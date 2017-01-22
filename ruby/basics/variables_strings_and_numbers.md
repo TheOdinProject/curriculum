@@ -49,6 +49,7 @@ Although you should be familiar already with variables in Ruby what you may not 
 
 ### Declaring a Variable
 As you have already seen in the prep work this is how you make a variable in Ruby.
+
 ```(ruby)
 age = 18 #=> 18
 ```
@@ -107,7 +108,8 @@ Ruby is a language which aims to be natural to read and easy to write. Remember 
 The most basic thing you can do to write clean, maintainable code is name your variables properly.
 
 variable names should always be lowercase and multiple words that make up a variable name should be split by an underscore this is known as _snake_case_.
-```
+
+```(ruby)
 #bad
 a = "Hello"
 number = 2
@@ -133,7 +135,8 @@ From the prep course you should have a good understanding of Strings so we won't
 Strings can be formed with either double `""` or single`''` quotes. They are pretty similar but there are some differences.
 
 ### Interpolation
-```
+
+```(ruby)
 name = "Odin"
 puts "Hello, #{name}" # => "Hello, Odin"
 puts 'Hello, #{name}' # => "Hello, #{name}"
@@ -142,7 +145,8 @@ Moral of the story? ~~Don't judge others les~~ Use double quotes for String inte
 
 ### Concatenation
 In true Ruby style. There are plenty of ways to concatentate with Ruby
-```
+
+```(ruby)
 "Welcome " + "to " + "Odin!"
 "Welcome " "to " "Odin!" # => Did you know you could leave you the + signs?
 "Welcome " << "to " << "Odin!"
@@ -157,7 +161,7 @@ Just remember, strings have loads of methods provided to you for free and you ca
 
 Below is a quick recap on the more common methods you might find yourself using.
 
-```
+```(ruby)
 "hello".capitalize
 # => "Hello"
 
@@ -190,7 +194,8 @@ Below is a quick recap on the more common methods you might find yourself using.
 
 ### Substrings
 You can access strings inside strings inside strings. Stringception! It's super easy too
-```
+
+```(ruby)
 "hello"[0] # => "h"
 
 "hello"[0..1] # => "he"
@@ -204,7 +209,8 @@ You can access strings inside strings inside strings. Stringception! It's super 
 
 ### Escape Characters
 Hopefully these are self explanatory. Use them if you need them in you code. There may be some gotchas with single quotes so use double quotes to be safe.
-```
+
+```(ruby)
 \\ # => Need a backslash in your string?
 \b # => Backspace
 \r # => Carriage return, For you oldies that love typewriters
@@ -215,18 +221,21 @@ Hopefully these are self explanatory. Use them if you need them in you code. The
 \' # => Single Quote
 ```
 The best thing to do is play around with them in a Repl. But for your eyes only here's an awesome string using all of them.
-```
+
+```(ruby)
 "hello\" \' \ndude\\. What\'s up??\b\r\tSweet"
-```
+
 hello" '
 dude\. What's up??
   Sweet
+```
 
 Rocking it!
 
 ### String Manipulation
 You'll read about these in the assignments. So I'll just leave some examples to get your creative juices flowing  thinking about some awesome ways to actually modify strings.
-```
+
+```(ruby)
 "he77o".sub("7", "l") # => "hel7o"
 
 "he77o".gsub("7", "l") # => "hello"
@@ -249,6 +258,7 @@ metaphors about kitchenware here. Most of this section will be a review of what
 you've already covered in the prep work.
 
 Ruby has all the typical math operators you would expect:
+
 ```(ruby)
 # addition
 1 + 1 #=> 2
@@ -292,6 +302,7 @@ To solve this problem just replace one of the integers with a float in the expre
 ### Converting Number Types
 Ruby makes it very easy to convert numbers to and from floats or integers with a couple of
 methods.
+
 ```(ruby)
 # converting a float to an integer
 13.0.to_i #=> 13
@@ -306,18 +317,21 @@ numbers. This means there are a lot of useful methods you can use with numbers.
 Heres a few of the most common ones you'll use.
 
 #### even?
+
 ```(ruby)
 6.even? #=> true
 7.even? #=> false
 ```
 
 #### odd?
+
 ```(ruby)
 6.odd? #=> false
 7.odd? #=> false
 ```
 
 #### zero?
+
 ```(ruby)
 8.zero? #=> false
 0.zero? #=> true
