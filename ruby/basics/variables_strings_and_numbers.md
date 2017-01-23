@@ -25,14 +25,12 @@ Let's get started. Who's excited??????
   * What is a string?
   * What's the difference between single and double quotes?
   * What is string interpolation?
-  * What are escape characters?
-  * What are line breaks?
-  * How do you make other data types into strings?
   * How do you concatenate strings?
+  * What method would you use to change all the characters in your string to upper case?
+  * What method would you use to _split_ up strings into arrays?
+  * What are escape characters?
   * How do you access a specific character or substring?
-  * How do you split up strings into arrays?
-  * How are strings and arrays similar?
-  * What does it mean that strings are "mutable" and why care?
+  * How do you make other data types into strings?
 
 * Numbers
   * What are the basic arithmetic operators you can use with numbers?
@@ -50,13 +48,13 @@ Although you should be familiar already with variables in Ruby what you may not 
 As you have already seen in the prep work this is how you make a variable in Ruby.
 
 ```(ruby)
-age = 18 #=> 18
+age = 18 # => 18
 ```
 
 You can also assign a variables value as the result of an operation
 
 ```(ruby)
-age = 18 + 5 #=> 23
+age = 18 + 5 # => 23
 ```
 
 To change the value of a variable after its been already been assigned you will need to assign
@@ -65,7 +63,7 @@ it again with the new desired value.
 ```(ruby)
 age = 18
 age = 33
-age #=> 33
+age # => 33
 ```
 
 There will often be scenarios where you will want to do an operation to the original
@@ -74,7 +72,7 @@ is how you would do that:
 
 ```(ruby)
 age = 18
-age = age + 4 #=>  22
+age = age + 4 # =>  22
 ```
 
 Because this is a common scenario Ruby provides a nice short hand
@@ -82,23 +80,23 @@ assignment operator for doing this `+=`:
 
 ```(ruby)
 age = 18
-age += 4 #=> 22
+age += 4 # => 22
 ```
 
 there are assignment operators like this for all the common math operators
 
 ```(ruby)
 age = 18
-age -= 2 #=> 16
+age -= 2 # => 16
 
 cash = 10
-cash *= 2 #=> 20
+cash *= 2 # => 20
 
 temperature = 40
-temperature /= 10 #=> 4  
+temperature /= 10 # => 4  
 ```
 
-### How to name them
+### How to name variables
 Ruby is a language which aims to be natural to read and easy to write. Remember this when you're naming your variables. The name should, as clearly as possible, aim to describe the what the value of the variable represents. Naming variables will pay dividends when you review your code months after you've written it when you can no longer clearly remember what that variable was designed to store. When deciding what your variable name will be keep this quote by John Woods at the front of your mind:
 
 > Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
@@ -133,25 +131,26 @@ From the prep course you should have a good understanding of Strings so we won't
 Strings can be formed with either double `""` or single`''` quotes. They are pretty similar but there are some differences.
 
 ### Interpolation
+Use double quotes for String interpolation.
 
 ```(ruby)
 name = "Odin"
 puts "Hello, #{name}" # => "Hello, Odin"
 puts 'Hello, #{name}' # => "Hello, #{name}"
 ```
-Moral of the story? ~~Don't judge others les~~ Use double quotes for String interpolation.
 
 ### Concatenation
 In true Ruby style. There are plenty of ways to concatentate with Ruby
 
 ```(ruby)
-"Welcome " + "to " + "Odin!"
+# with the plus operator
+"Welcome " + "to " + "Odin!" # => "Welcome to Odin!"
 
-"Welcome " "to " "Odin!" # => Did you know you could leave you the + signs?
+# with the shovel operator
+"Welcome " << "to " << "Odin!" # "Welcome to Odin!"
 
-"Welcome " << "to " << "Odin!"
-
-"Welcome ".concat("to ").contact("Odin!")
+# with the concat method
+"Welcome ".concat("to ").contact("Odin!") # => "welcome to Odin!"
 ```
 Classic Ruby!
 
@@ -162,27 +161,49 @@ Just remember, strings have loads of methods provided to you for free and you ca
 
 Below is a quick recap on the more common methods you might find yourself using.
 
+#### capitalize
 ```(ruby)
-
 "hello".capitalize # => "Hello"
+```
 
+#### include?
+```(ruby)
 "hello.include?("lo") # => true
 
+"hello".include?("z") # => false
+```
+
+#### upcase
+```(ruby)
 "hello".upcase # => "HELLO"
-
+```
+### downcase
+```(ruby)
 "Hello".downcase # => "hello"
+```
 
+#### empty?
+```(ruby)
 "hello".empty? # => false
 
+"hello".empty? # => true
+```
+#### length
+```(ruby)
 "hello".length # => 5
+```
+#### reverse
+```(ruby)
+"hello.reverse" # => "olleh"
+```
 
-"hello.reverse" # => "olleh" # => This is where the Spanish word came from. True story!
-
+#### split
+```(ruby)
 "hello world".split # => ["hello", "world"]
-
-"    hello, world       ".strip  # => "hello, world"
-
-"hello".dance # => Undefined method 'dance'... Worth a try
+```
+#### strip
+```(ruby)
+" hello, world   ".strip  # => "hello, world"
 ```
 
 ### Substrings
@@ -242,34 +263,44 @@ You'll read about these in the assignments. So I'll just leave some examples to 
 
 The assignments will go deeper and clarify more than I have, so go through them and be sure to play around in a Repl.
 
-### Assignment
+### Converting other objects to strings
+Using the `to_s` method you can convert pretty much anything to a string, here are some examples:
 
+```(ruby)
+5.to_s # => "5"
+
+nil.to_s # => ""
+
+:symbol.to_s # => "symbol"
+```
+
+### Assignment
+1. To get a deeper understanding of strings [read this chapter](http://ruby.bastardsbook.com/chapters/strings/) of the Bastards book of Ruby.
 
 ## Numbers
 I'm sure you already know what numbers are so there's no need to go into elaborate
-metaphors about kitchenware here. Most of this section will be a review of what
-you've already covered in the prep work.
+metaphors about kitchenware here.
 
 Ruby has all the typical math operators you would expect:
 
 ```(ruby)
 # addition
-1 + 1 #=> 2
+1 + 1 # => 2
 
 # subtraction
-2 - 1 #=> 1
+2 - 1 # => 1
 
 # multiplication
-2 * 2 #=> 4
+2 * 2 # => 4
 
 # division
-10 / 5 #=> 2
+10 / 5 # => 2
 
 # Modulus
-10 % 5 #=> 1
+10 % 5 # => 1
 
 # Exponent
-2 ** 2 #=> 4
+2 ** 2 # => 4
 ```
 
 ### Integers and Floats
@@ -283,13 +314,13 @@ When doing arithmetic with two integers the result will always be an integer.
 Even if you didn't want it to be.
 
 ```(ruby)
-17 / 5 #=> 3
+17 / 5 # => 3
 ```
 
 To solve this problem just replace one of the integers with a float in the expression.
 
 ```(ruby)
-17 / 5.0 #=> 3.4
+17 / 5.0 # => 3.4
 ```
 
 ### Converting Number Types
@@ -298,10 +329,10 @@ methods.
 
 ```(ruby)
 # converting a float to an integer
-13.0.to_i #=> 13
+13.0.to_i # => 13
 
 # converting to a integer to a float
-13.to_f #=> 13.0
+13.to_f # => 13.0
 ```
 
 ### Some Useful Number Methods
@@ -312,22 +343,15 @@ Heres a few of the most common ones you'll use.
 #### even?
 
 ```(ruby)
-6.even? #=> true
-7.even? #=> false
+6.even? # => true
+7.even? # => false
 ```
 
 #### odd?
 
 ```(ruby)
-6.odd? #=> false
-7.odd? #=> false
-```
-
-#### zero?
-
-```(ruby)
-8.zero? #=> false
-0.zero? #=> true
+6.odd? # => false
+7.odd? # => false
 ```
 
 ### Assignment
@@ -335,10 +359,10 @@ Heres a few of the most common ones you'll use.
 
 
 ## Exercises
+1. [Take this quiz on variables, numbers and strings to test your knowledge](http://www.codequizzes.com/ruby/beginner/variables-strings-numbers)
 link to a repo of exercises with tests.
 
 ## Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-Link to no more than three additional resources to avoid this section becoming too cluttered.
-* For a deeper explanation of how variables work under the hood read [this short section] from launch schools Learn to Program with Ruby book.
+* For a deeper explanation of how variables work under the hood read [this short section](https://launchschool.com/books/ruby/read/more_stuff#variables_as_pointers) from launch schools Learn to Program with Ruby book.
