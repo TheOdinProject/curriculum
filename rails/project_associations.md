@@ -116,6 +116,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/private_events) | [View in browser](https://fathomless-shore-10615.herokuapp.com/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/private-events)
 * [Dylan's non RESTful solution](https://github.com/resputin/the_odin_project/tree/master/Rails/private-events)
+* [DV's solution](https://github.com/dvislearning/private-events) | [View in browser](https://sleepy-everglades-63021.herokuapp.com/)
 
 
 ## Additional Resources
