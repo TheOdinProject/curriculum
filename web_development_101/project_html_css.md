@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 Add your solution below this line!
+*[Danilo's solution (Easy)](https://sennator2.github.io/google-homepage/)  | [View in browser (Easy)]( https://sennator2.github.io/google-homepage/)
 *[Lisa patel's solution(Easy)](https://github.com/LISAPATEL98/google-homepage) |[View in browser] (https://lisapatel98.github.io/google-homepage/)
 *[Farhan Ali's solution (Easy)](https://github.com/renegadeHomie/google-homepage)  | [View in browser (Easy)]( https://renegadehomie.github.io/google-homepage/)
 
