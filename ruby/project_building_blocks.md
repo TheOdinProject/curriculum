@@ -841,3 +841,4 @@ Next, make sure your method can handle multiple words:
 * [Rai Lee's solution](https://github.com/thisisrai/ruby_building_blocks/blob/master/substrings.rb)
 * [husein's solution](https://github.com/hosghf/substring_ruby_building_blocks/blob/master/substring.rb)
 * [Dan Sack's solution](https://github.com/DanPete/Ruby_Exercises/blob/master/OdinLearnRuby/substrings.rb)
+* [Parker Brown's solution](https://github.com/parkerjbrown/ruby-building-blocks/blob/master/substrings.rb)
