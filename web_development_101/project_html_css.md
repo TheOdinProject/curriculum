@@ -96,10 +96,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 Add your solution below this line!
 * [mindoermiles262 solution (Easy)](https://github.com/mindovermiles262/google_homepage/) | [View in browser](https://mindovermiles262.github.io/google_homepage/)
 * [Javal's solution (Easy)](https://github.com/javalnanda/google-homepage) | [View in browser (Easy)](https://javalnanda.github.io/google-homepage/)
-*[Danilo's solution (Easy)](https://sennator2.github.io/google-homepage/)  | [View in browser (Easy)]( https://sennator2.github.io/google-homepage/)
-*[Lisa patel's solution(Easy)](https://github.com/LISAPATEL98/google-homepage) |[View in browser] (https://lisapatel98.github.io/google-homepage/)
-*[Farhan Ali's solution (Easy)](https://github.com/renegadeHomie/google-homepage)  | [View in browser (Easy)]( https://renegadehomie.github.io/google-homepage/)
-
+* [Danilo's solution (Easy)](https://github.com/sennator2/google-homepage)  | [View in browser (Easy)](https://sennator2.github.io/google-homepage/)
+* [Lisa patel's solution(Easy)](https://github.com/LISAPATEL98/google-homepage) |[View in browser] (https://lisapatel98.github.io/google-homepage/)
+* [Farhan Ali's solution (Easy)](https://github.com/renegadeHomie/google-homepage)  | [View in browser (Easy)]( https://renegadehomie.github.io/google-homepage/)
 * [Marko Nikolajević's solution (Easy)](https://github.com/Mark3z/google-homepage) | [View in browser (Easy)](https://mark3z.github.io/google-homepage/)
 * [Daniel Byun's solution (Difficult)](https://github.com/danielbyun/google-homepage) | [View in browser ](https://danielbyun.github.io/google-homepage)
 * [Oleh Sliusar's solution (easy)](https://github.com/OlehSliusar/google-homepage) | [View in browser](https://olehsliusar.github.io/google-homepage/)
@@ -974,10 +973,10 @@ Add your solution below this line!
 * [Zaid Khraibut's solution (Easy)](https://github.com/zaidkhraibut/google-homepage) | [View in broswer](https://zaidkhraibut.github.io/google-homepage/)
 * [Maria Theodo's solution (Easy)](https://github.com/mariatheodo/google-homepage) | [View in browser](https://mariatheodo.github.io/google-homepage)
 * [Naomi's solution(Easy)](https://github.com/naomifu/google-homepage) | [View in browser ](https://naomifu.github.io/google-homepage)
-* [Rafael Hernandez's Solition (Easy)] (https://github.com/RafaelDavisH/google-homepage) | [View in browser] (https://rafaeldavish.github.io/google-homepage/)
-* [Avoup's solution(easy)] (https://github.com/avoup/shmoogle) | [View in browser] (https://avoup.github.io/shmoogle/)
-* [Avoup's solution(difficult)] (https://github.com/avoup/results) | [view in browser] (https://avoup.github.io/results/)
-* [Toba's solution(easy)] (https://github.com/theboytee/google-homepage | [view in browser] (https://theboytee.github.io/google-homepage/)
+* [Rafael Hernandez's Solition (Easy)](https://github.com/RafaelDavisH/google-homepage) | [View in browser](https://rafaeldavish.github.io/google-homepage/)
+* [Avoup's solution(easy)](https://github.com/avoup/shmoogle) | [View in browser](https://avoup.github.io/shmoogle/)
+* [Avoup's solution(difficult)](https://github.com/avoup/results) | [view in browser](https://avoup.github.io/results/)
+* [Toba's solution(easy)](https://github.com/theboytee/google-homepage | [view in browser](https://theboytee.github.io/google-homepage/)
 
 ## Additional Resources
 
