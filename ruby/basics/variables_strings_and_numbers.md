@@ -120,7 +120,7 @@ can_swim = false
 1. Read the [variables chapter](http://ruby.bastardsbook.com/chapters/variables/) from the Bastards book of Ruby for alternative metaphors and deeper topics about variables. Don't worry if you don't understand everything completely, especially the sections about references. This will become more intuitive as you use ruby by completing exercises and projects.
 2. Open up a [Ruby Repl](https://repl.it/languages/ruby) or IRB in your command line and try naming some variables and assigning some value to it. Don't try at this stage to name good variables but instead experiment with different variable names, run the Repl and see if it's valid. Try using symbols or numbers in your variable names. See what works and what doesn't. If you come across anything quirky Google it to find out why.
 
----
+
 ## Strings
 Strings, strings, wonderful things, use them well and your app will grow wings. Or something.
 
@@ -278,7 +278,7 @@ nil.to_s # => ""
 ### Assignment
 1. To get a deeper understanding of strings [read this chapter](http://ruby.bastardsbook.com/chapters/strings/) of the Bastards book of Ruby.
 
----
+
 ## Numbers
 I'm sure you already know what numbers are so there's no need to go into elaborate
 metaphors about kitchenware here.
@@ -359,7 +359,7 @@ Heres a few of the most common ones you'll use.
 ### Assignment
 1. For an even deeper look at numbers read [this short chapter](http://ruby.bastardsbook.com/chapters/numbers/) of the bastards book of ruby
 
----
+
 ## Exercises
 1. [Take this quiz on variables, numbers and strings to test your knowledge](http://www.codequizzes.com/ruby/beginner/variables-strings-numbers)
 
