@@ -257,6 +257,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [nmac's solution](https://github.com/nmacawile/Hangman)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/tree/master/ruby/serialization/hangman)
 * [smilesr's solution](https://github.com/smilesr/op-rb-ir-25-hangman)
+* [HenrytheDJ's Wild West solution](https://github.com/henrythedj/hangman)
 
 
 ## Additional Resources
