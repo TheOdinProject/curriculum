@@ -424,7 +424,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Airton's Solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/projectEuller) | [View in Browser](https://airtonbjunior.github.io/odinproject/projects/projectEuller/)
 * [AaronScott2's Solution](https://github.com/AaronScott2/euler)
 * [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) | [View in Browser](https://zaidkhraibut.github.io/project-euler/) | **(Interactive!)**
-
+* [Highflyer's solution](https://github.com/highflyer910/Project_Euler)
 
 ## Additional Resources
 
