@@ -66,7 +66,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Arsalan Sunny's solution](https://github.com/arsalansunny/etchasketch) | [View in Browser](https://rawgit.com/arsalansunny/etchasketch/master/index.html)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/sketch-pad) | [View in Browser](https://nicolayd.github.io/sketch-pad/)
 * [Bánk Mészárovits's solution](https://github.com/bmeszarovits/the_grid) | [View in Browser](https://bmeszarovits.github.io/the_grid/)
-* [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/js-etch-a-sketch) | [View in Browser](https://powerful-wildwood-88762.herokuapp.com/)
+* [Chad Kreutzer's Solution](https://github.com/ChadKreutzer/js-etch-a-sketch) | [View in Browser](http://two-news.surge.sh/)
 * [Stefan P's Solution](https://github.com/spavikevik/etch-a-sketch) | [View in Browser](https://rawgit.com/spavikevik/etch-a-sketch/master/index.html)
 * [Josh Vogel's Solution](https://github.com/j-vogel/jQuery-etch-a-sketch) | [View in Browser](https://rawgit.com/j-vogel/jQuery-etch-a-sketch/master/index.html)
 * [Jib's Solution'](https://github.com/NuclearMachine/OdinTasks/tree/master/Etch-A-Sketch) |  [View in browser](https://nuclearmachine.github.io/OdinTasks/Etch-A-Sketch/)
