@@ -146,7 +146,7 @@ Add your solution below this line!
 * [Sanya Verma's solution](https://github.com/ErisedKT/google-homepage/) | [View in Browser](https://erisedkt.github.io/google-homepage/)
 * [Tamir.H's Solution (Easy)](https://github.com/subcat/google-homepage) | [View in Browser](https://subcat.github.io/google-homepage/) | ['Difficult' solution](https://github.com/subcat/google-homepage/tree/master/diff) | [View in browser (difficult)](https://cdn.rawgit.com/subcat/google-homepage/master/diff/index.html)
 * [Nikolay Dyulgerov's solution](https://nicolayd.github.io/google-homepage/) | [View in browser](https://rawgit.com/NicolayD/google-homepage/master/index.html)
-* [Chad Kreutzer's solution](https://github.com/ChadKreutzer/google-homepage) | [View in browser](https://mighty-harbor-72529.herokuapp.com/)
+* [Chad Kreutzer's solution](https://github.com/ChadKreutzer/google-homepage) | [View in browser](http://ugliest-machine.surge.sh/)
 * [Chris Garey's solution](https://github.com/cgarey2014/google-homepage) | [View in browser](https://cdn.rawgit.com/cgarey2014/google-homepage/master/index.html)
 * [Miguel Serrano's solution](https://github.com/miguelsxvi/google-homepage) | [View in browser](https://rawgit.com/miguelsxvi/google-homepage/master/index.html)
 * [Robert Richards' solution](https://github.com/robert903/ghomepage) | [View in browser](http://robertrichards.me/projects/ghomepage/)
