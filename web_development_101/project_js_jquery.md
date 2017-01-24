@@ -559,3 +559,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Jake Hill's solution](https://github.com/JakeH91/theodinproject/tree/master/etch_a_sketch) | [View in browser](http://htmlpreview.github.io/?https://github.com/JakeH91/theodinproject/blob/master/etch_a_sketch/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/etch-a-sketch) | [View in browser](https://adoniasdantas.github.io/etch-a-sketch/)
 * [Zaid Khraibut's solution](https://github.com/zaidkhraibut/etch-a-sketch) | [View in browser](https://zaidkhraibut.github.io/etch-a-sketch/)
+* [Tim Lapinskas's solution](https://github.com/tlapinsk/etch-a-sketch) | [View in browser](https://tlapinsk.github.io/etch-a-sketch/)
