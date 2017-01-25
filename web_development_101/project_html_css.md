@@ -978,6 +978,8 @@ Add your solution below this line!
 * [Avoup's solution(Difficult)](https://github.com/avoup/results) | [view in browser](https://avoup.github.io/results/)
 * [Toba's solution(Easy)](https://github.com/theboytee/google-homepage) | [view in browser](https://theboytee.github.io/google-homepage/)
 * [Highflyer's solution(easy)](https://github.com/highflyer910/Google_challenge) | [view in browser](https://highflyer910.github.io/Google_challenge/)
+* [Daunenok's solution (Easy)](https://github.com/daunenok/google-homepage) | [View in browser](https://daunenok.github.io/google-homepage/)
+* [Daunenok's solution (Difficult)](https://github.com/daunenok/google-search-page) | [view in browser](https://daunenok.github.io/google-search-page/)
 
 ## Additional Resources
 
