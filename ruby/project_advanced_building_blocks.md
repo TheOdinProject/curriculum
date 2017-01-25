@@ -38,6 +38,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/adv_building_blocks/bubble_sort_methods.rb)
 * [Yash Anand's solution](https://github.com/yashanand1910/ruby-advanced-project)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-advanced-building-blocks-project)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/advanced-building-blocks/bubbles.rb)
@@ -272,6 +273,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [ToTenMilan's Solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/adv_building_blocks/enumerable_methods.rb)
 * [Yash Anand's Solution](https://github.com/yashanand1910/ruby-advanced-project)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-advanced-building-blocks-project)
 * [John Phelps's Solution](https://github.com/jphelps413/odin-ruby/blob/master/advanced-building-blocks/enumerable.rb)
