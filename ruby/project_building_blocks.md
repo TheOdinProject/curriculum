@@ -40,7 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/caesar_cipher.rb)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/building_blocks/caesar_cipher.rb)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/building-blocks/caesar_cipher.rb)
 * [Sean Friedman's](https://github.com/seanfriedman89/building_blocs/blob/master/ceasar_cipher.rb)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/blob/master/caesar_cipher/caesar.rb)
@@ -325,7 +325,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/stock_picker.rb)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/building_blocks/stock_picker.rb)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/building-blocks/stock_picker.rb)
 * [Sean Friedman's solution](https://github.com/seanfriedman89/building_blocs/blob/master/stock_picker.rb)
 * [Chad Kreutzer's solution](https://github.com/ChadKreutzer/ruby_building_blocks/blob/master/stock_picker/stock_picker.rb)
@@ -601,7 +601,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/substrings.rb)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/building_blocks/substrings.rb)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/building-blocks/substrings.rb)
 * [Sean Friedman's solution](https://github.com/seanfriedman89/building_blocs/blob/master/substring.rb)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/blob/master/substrings/substrings.rb)
