@@ -426,6 +426,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) | [View in Browser](https://zaidkhraibut.github.io/project-euler/) | **(Interactive!)**
 * [Highflyer's solution](https://github.com/highflyer910/Project_Euler)
 * [Maria Theodo's solution](https://github.com/mariatheodo/projectEuler) | [View in Browser](https://mariatheodo.github.io/projectEuler)
+* [Toba's solution](https://github.com/theboytee/project_euler) 
 
 ## Additional Resources
 
