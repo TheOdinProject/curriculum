@@ -19,6 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [theghall's solution](https://github.com/theghall/blogger.git) | [view in browser](https://shrouded-inlet-42460.herokuapp.com)
 * [plinovodja's Solution](https://github.com/plinovodja/blogger) | [View in Browser](https://secret-wave-51025.herokuapp.com/)
 * [DominicM's Solution](https://github.com/dominicmichaud/odin_project_blogger) | [View in Browser (Bootstrap Edition)](https://odin-project-blogger.herokuapp.com/)
 * [ToTenMilan's Solution](https://github.com/ToTenMilan/blogger) | [View in Browser](https://agile-sierra-95931.herokuapp.com/articles/1)
