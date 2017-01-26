@@ -19,6 +19,10 @@ https://github.com/AgileVentures/WebsiteOne/blob/32c90a96dbc34299220b8d66d7fe1f1
     position: relative;
 }
 
+.providers-button-container {
+    min-height: 61px;
+}
+
 .providers-button:before{
     position: absolute;
     left: 20px;
