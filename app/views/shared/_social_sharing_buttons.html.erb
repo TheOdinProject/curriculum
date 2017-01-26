@@ -7,6 +7,5 @@
   <!-- Google+ Button -->
   <a data-toggle="tooltip" title="Share on Google+" href=<%="https://plus.google.com/share?url=#{request.original_url}"%>><span class="fa fa-google-plus-square"></span></a>
   <!-- Pinterest Button -->
-  <a data-toggle="tooltip" title="Pin this lesson" href=<%="//www.pinterest.com/pin/create/button/?url=#{request.original_url}&media=#{image_url('odin_big_silhouette.gif')}&description=#{url_format(@lesson.title)}"%> target="__blank"><span class="fa fa-pinterest-square"></span></a>
+  <a data-toggle="tooltip" title="Pin this lesson" href=<%="//www.pinterest.com/pin/create/button/?url=#{request.original_url}&media=#{image_url('odin_big_silhouette.gif')}&description=#{@lesson.title_url_format}"%> target="__blank"><span class="fa fa-pinterest-square"></span></a>
 </div>
-

@@ -18,17 +18,23 @@ RSpec.describe User do
   }
 
   let(:first_lesson_completion) {
-    double('LessonCompletion',
-           student_id: 1,
-           created_at: DateTime.new(2016, 11, 11),
-           lesson_id: 1)
+    double(
+      'LessonCompletion',
+      id: 1,
+      student_id: 1,
+      created_at: DateTime.new(2016, 11, 11),
+      lesson_id: 1
+    )
   }
 
   let(:second_lesson_completion) {
-    double('LessonCompletion',
-           student_id: 1,
-           created_at: DateTime.new(2016, 11, 8),
-           lesson_id: 2)
+    double(
+      'LessonCompletion',
+      id: 2,
+      student_id: 1,
+      created_at: DateTime.new(2016, 11, 8),
+      lesson_id: 2
+    )
   }
 
   let(:completed_lessons) { [first_lesson_completion] }
@@ -43,10 +49,11 @@ RSpec.describe User do
   end
 
   it { is_expected.to validate_uniqueness_of(:username) }
-  it do
+
+  it {
     is_expected.to validate_presence_of(:legal_agreement)
       .with_message("Don't forget the legal stuff!")
-  end
+  }
 
   it { is_expected.to validate_length_of(:username) }
   it { is_expected.to have_many(:lesson_completions) }
@@ -113,11 +120,19 @@ RSpec.describe User do
   end
 
   describe '#completed_lesson?' do
+    let(:exists?) { true }
+
+    before do
+      allow(completed_lessons).to receive(:exists?).and_return(exists?)
+    end
+
     it 'returns true' do
       expect(user.completed_lesson?(first_lesson_completion)).to eql(true)
     end
 
     context 'when the passed in lesson hasnt been completed' do
+      let(:exists?) { false }
+
       it 'returns false' do
         expect(user.completed_lesson?(second_lesson_completion)).to eql(false)
       end

@@ -8,6 +8,7 @@ class User < ApplicationRecord
 
   has_many :lesson_completions, foreign_key: :student_id
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
+  has_many :projects
 
   def self.by_latest_completion
     User.left_outer_joins(:lesson_completions)
@@ -17,7 +18,7 @@ class User < ApplicationRecord
   end
 
   def completed_lesson?(lesson)
-    completed_lessons.include?(lesson)
+    completed_lessons.exists?(lesson.id)
   end
 
   def latest_completed_lesson

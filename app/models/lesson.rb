@@ -5,6 +5,7 @@ class Lesson < ApplicationRecord
 
   belongs_to :section
   has_one :course, through: :section
+  has_one :project
   has_many :lesson_completions, dependent: :destroy
   has_many :completing_users, through: :lesson_completions, source: :student
 

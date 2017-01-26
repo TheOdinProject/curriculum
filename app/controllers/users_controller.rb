@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
   before_action :find_user, except: [:index, :send_confirmation_link]
   before_action :authenticate_user!
-  load_and_authorize_resource only: [:edit, :update]
+  authorize_resource only: [:edit, :update]
 
   def show
   end

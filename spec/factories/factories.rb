@@ -10,6 +10,10 @@ FactoryGirl.define do
     password 'foobar'
     legal_agreement true
     confirmed_at Time.now - 5_000_000
+
+    factory :admin do
+      admin true
+    end
   end
 
   factory :lesson do
@@ -44,5 +48,10 @@ FactoryGirl.define do
     sequence :position do |n|
       n
     end
+  end
+
+  factory :project do
+    repo_url 'https://github.com/user/repo'
+    live_preview 'http://mysite.com'
   end
 end
