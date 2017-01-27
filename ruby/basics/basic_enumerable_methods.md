@@ -25,8 +25,9 @@ what the student is expected to know or be able to do by the end of this lesson
 * how it works
 * what its good for
 * code snippets for array
+* collect is an alias
 
-### The Select/Collect Enumerable Method
+### The Select Enumerable Method
 * how it works
 * what its good for
 * code snippets
