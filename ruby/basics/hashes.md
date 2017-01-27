@@ -1,5 +1,5 @@
 # Hashes
-A brief summary about what this lesson is about and why the topics or concepts it covers are important.
+* what is a hash and why is it useful
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
@@ -11,14 +11,36 @@ what the student is expected to know or be able to do by the end of this lesson
 * Learning outcome 3
 
 ## Creating a Hash
-* The literal notation
-* Creating a new hash object with Hash.new
+* the literal notation with curly braces
+* creating a new hash object with Hash.new
+* code snippets
 
-## Adding Data to a Hash
+## Adding Data
+* How to add a key value pair to the hash
+* code snippets
 
-## Accessing Data in a Hash
+## Accessing Data
+* How to access data in a hash
+* code snippets
 
-## Removing Data in a Hash
+## Changing Data
+* how to change a value in a hash
+* code snippets
+
+## Removing Data
+* setting the value to nil
+* using the delete method
+
+## Merging Hashes
+* how to merge two hashes, explain how it works
+* code snippets
+
+## Useful Methods
+* keys
+* values
+
+## Hash best practices
+* use symbols for keys where possible
 
 ## Exercises
 This will link to an external repo which will include exercises and tests
