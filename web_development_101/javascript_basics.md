@@ -429,6 +429,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Maria Theodo's solution](https://github.com/mariatheodo/projectEuler) | [View in Browser](https://mariatheodo.github.io/projectEuler)
 * [Toba's solution](https://github.com/theboytee/project_euler) 
 * [Daunenok's solution](https://github.com/daunenok/javascript-exercise) | [View in Browser](https://daunenok.github.io/javascript-exercise)
+* [Gabriel Klueh's solution](https://github.com/gklueh/Project-Euler-JS) | [View in Browser](https://rawgit.com/gklueh/Project-Euler-JS/master/index.html)
 
 ## Additional Resources
 
