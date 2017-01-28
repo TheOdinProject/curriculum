@@ -561,3 +561,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Zaid Khraibut's solution](https://github.com/zaidkhraibut/etch-a-sketch) | [View in browser](https://zaidkhraibut.github.io/etch-a-sketch/)
 * [Tim Lapinskas's solution](https://github.com/tlapinsk/etch-a-sketch) | [View in browser](https://tlapinsk.github.io/etch-a-sketch/)
 * [Airton's solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/sketchpad) | [View in browser](https://airtonbjunior.github.io/odinproject/projects/sketchpad/)
+* [Ian Baker's solution] (https://github.com/ianbaker615/etch-a-sketch) | [View in browser] (https://ianbaker615.github.io/etch-a-sketch/)
