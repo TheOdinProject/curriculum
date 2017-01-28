@@ -981,6 +981,7 @@ Add your solution below this line!
 * [Daunenok's solution (Easy)](https://github.com/daunenok/google-homepage) | [View in browser](https://daunenok.github.io/google-homepage/)
 * [Daunenok's solution (Difficult)](https://github.com/daunenok/google-search-page) | [view in browser](https://daunenok.github.io/google-search-page/)
 * [DawidChe's solution (Easy)](https://github.com/DawidChe/google-homepage) | [View in browser](https://dawidche.github.io/google-homepage/)
+* [Luke's solution (Easy)](https://github.com/Ollyapp/google_homepage) | [View in browser](https://ollyapp.github.io/google_homepage/)
 
 ## Additional Resources
 
