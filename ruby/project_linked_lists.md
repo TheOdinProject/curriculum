@@ -32,7 +32,8 @@ A head node is the first node in the list, a tail node is the last node in the l
  1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
  2. [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
-
+ 
+ 
 ## Your Task
 You will need two classes:
 
@@ -63,6 +64,10 @@ Build the following methods in your linked list class:
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [nmac's Solution](https://github.com/nmacawile/LinkedList)
+* [John Phelps's Solution (+extra)](https://github.com/jphelps413/odin-ruby/blob/master/linked-lists/linked_list.rb)
+* [Jib's Solution (with extra credit)](https://github.com/NuclearMachine/OdinTasks/tree/master/LinkedLists)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/linked-lists-ruby/)
 * [Cody Loyd's solution (with tests and extra credit)](https://github.com/codyloyd/linked_list)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/linked-lists)
@@ -76,4 +81,25 @@ Build the following methods in your linked list class:
 * [Manu Phatak's HIGH ENERGY solution](https://github.com/bionikspoon/ruby_linked_list)
 * [fugumagu's solution with extra credit](https://github.com/fugumagu/the_odin_project/tree/master/linked_list)
 * [Sasho's solution /w extra credit](https://github.com/sashoa/the-odin-project/tree/master/project-linked-lists)
-* Add your solution above this line!
+* [Austin's solution with extra credit](https://github.com/CouchofTomato/algorithm/blob/master/linked_list.rb)
+* [Jiazhi Guo's solution (with extra credit)](https://github.com/jerrykuo7727/linked_lists)
+* [Dan Hoying's solution (with extra credit)](https://github.com/danhoying/linked_lists)
+* [Chris Chambers' solution (with extra credit)](https://github.com/chrisgchambers/ruby_exercies/blob/master/linked_list/linked_list.rb)
+* [Jorrit Luimers' (Voodoo Woodoo) solution](https://github.com/voodoowoodoo/ruby_linked_lists)
+* [Francisco Carlos's solution (with extra credit)](https://github.com/fcarlosdev/the_odin_project/tree/master/linked_lists)
+* [Loris Aranda's solution (with extra credit)](https://github.com/LorisProg/ruby-linked_lists)
+* [at0micr3d's solution (with extra credit)](https://github.com/at0micr3d/linked_list)
+* [Eric M's solution (with extra credit)](https://github.com/em77/linked_list)
+* [Clint's solution (extra cred)](https://github.com/tholymap/OdinLinkedList)
+* [Dylan's solution (with extra credit)](https://github.com/resputin/the_odin_project/blob/master/Ruby/linklist/linklist.rb)
+* [David Chapman's solution (with extra credit)](https://github.com/davidchappy/odin_training_projects/tree/master/linked_lists)
+* [Leonard Soai-Van solution](https://github.com/leosoaivan/TOP_compsci)
+* [Anthony Vumbaca's solution (with extra credit)](https://github.com/tvumbaca/linked_lists/blob/master/linked_list.rb)
+* [Jerry Gao's tryhard solution](https://github.com/blackwright/odin/tree/master/ruby_linked_list)
+* [Marcus' solution (with extra credit)](https://github.com/nestcx/odin_comp_sci/blob/master/linked_list.rb)
+* [Mateusz Staszczyk's](https://github.com/sleaz0id/LinkedList)
+* [Sophia Wu's solution (with extra credit)](https://github.com/SophiaLWu/project-linked-lists)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/linked_list)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/linked_lists/blob/master/linked_lists.rb)
+* [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/linked_lists/linked_list.rb)
+*

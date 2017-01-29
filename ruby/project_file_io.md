@@ -15,6 +15,12 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-IO-project)
+* [John Phelps's Solution](https://github.com/jphelps413/odin-ruby/tree/master/event_manager)
+* [Raiko's Solution](https://github.com/Cypher0/event_manager)
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/EventManager)
+* [Stefan P's solution](https://github.com/spavikevik/event_manager)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/event_manager)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_serialization/event_manager)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_4_Ruby_FileIO/event_manager)
@@ -75,14 +81,37 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Alejandro Corredor's solution](https://github.com/aecorredor/event_manager)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/serialization-project/event_manager)
 * [John Connor's solution](https://github.com/jacgitcz/event_manager)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/ruby_programing/tree/master/intermediate/event_manager)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/file_io_serialization/event_manager)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/event_manager)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/event_manager/lib)
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/event-manager)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/event_manager/lib)
 * [Peuchen's solution](https://github.com/Peuchen/event_manager)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/event_manager)
-* Add your solution above this line!
+* [Anthony Vumbaca's solution](https://github.com/tvumbaca/event_manager)
+* [Clint's solution](https://github.com/tholymap/JumpStartEventManager)
+* [Derek K's solution](https://github.com/dckwong/ProjectSerialization/tree/master/event_manager)
+* [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_ruby_serial.git)
+* [Dom Goj's solution](https://github.com/booyakuhhsha/eventManagerHangman/tree/master/event_manager)
+* [David Chapman''s solution](https://github.com/davidchappy/odin_training_projects/tree/master/event_manager)
+* [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/event_manager)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_event_manager)
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/event_manager)
+* [Dominik Chomicki's solution](https://github.com/hamstersky/the_odin_project/tree/master/event_manager)
+* [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/serialization/event_manager)
+* [Bishal Shrestha's solution](https://github.com/biiishal/event_manager)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-file-IO-and-serialization-with-ruby/tree/master/event_manager)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/event_manager)
+* [Joe Himes's solution](https://github.com/deedle42/event_manager.git)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/event_manager)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/event_manager)
+* [Simon's Solution](https://github.com/SimonSomlai/Odin/tree/master/ruby/event_manager)
+* [HenrytheDJ's Solution (complete)](https://github.com/henrythedj/event_manager_demo)
+* [smilesr's solution] (https://github.com/smilesr/op-rb-ir-25-event-manager)
+* [nmac's solution](https://github.com/nmacawile/EventManager)
+* [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/tree/master/ruby/serialization/event_manager)
+* Add your solution above this line
+
 
 
 ## Project: Hangman
@@ -105,6 +134,12 @@ You will be building a simple command line Hangman game where one player plays a
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-IO-project)
+* [John Phelps's Solution](https://github.com/jphelps413/odin-ruby/tree/master/hangman)
+* [Raiko's Solution](https://github.com/Cypher0/hangman)
+* [Charles's Solution](https://github.com/codexTun/ODIN-PROJECTS/tree/master/Ruby_projects/hangman)
+* [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Hang_man)
 * [Afshinator's solution](https://github.com/afshinator/playground/tree/master/Hangman) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/playground/blob/master/Hangman/index.html)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/hangman)
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/tree/master/hangman_fileio)
@@ -193,14 +228,38 @@ You will be building a simple command line Hangman game where one player plays a
 * [Alejandro Corredor's solution](https://github.com/aecorredor/hangman)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/ruby-programming/serialization-project/hangman)
 * [John Connor's solution](https://github.com/jacgitcz/hangman)
-* [Francisco Carlos's solution](https://github.com/fcarlosdev/ruby_programing/tree/master/intermediate/hangman)
+* [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/file_io_serialization/hangman)
 * [Jean Merlet's solution](https://github.com/jeanmerlet/ruby_games/tree/master/hangman)
 * [Sasho's solution](https://github.com/sashoa/the-odin-project/tree/master/project-serialization/hangman)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/learning_ruby/tree/master/hangman)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/ruby_projects/tree/master/hangman)
 * [Peuchen's solution](https://github.com/Peuchen/hangman)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/Hangman)
-* Add your solution above this line!
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/Ruby/hangman)
+* [cs-rail's solution](https://github.com/csrail/hangman)
+* [Loris Aranda's solution](https://github.com/LorisProg/ruby_hangman-game)
+* [Anthony Vumbaca's solution](https://github.com/tvumbaca/hangman)
+* [Clint's solution](https://github.com/tholymap/Odin-Ruby-Files)
+* [Ryan Armstrong's solution] (https://github.com/ryan-kwan-do/ruby_projects/tree/master/files_and_serialization/hangman)
+* [Derek K's solution] (https://github.com/dckwong/ProjectSerialization/tree/master/hangman)
+* [m-chrzan's solution](https://github.com/m-chrzan/hangman)
+* [Dom Goj's solution](https://github.com/booyakuhhsha/eventManagerHangman/tree/master/hangman)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/hangman)
+* [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/tree/master/The%20odin%20project%20(Ruby%20projects)/Intermediate-Ruby/Hangman)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_hangman)
+* [Dominik Chomicki's solution](https://github.com/hamstersky/the_odin_project/tree/master/hangman)
+* [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/ruby/serialization/hangman)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/project-file-IO-and-serialization-with-ruby/tree/master/hangman)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/hangman)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/hangman)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/hangman/blob/master/lib/hangman.rb)
+* [Simon's Solution](https://github.com/SimonSomlai/Odin/tree/master/ruby/hangman)
+* [Bishal's Solution](https://github.com/biiishal/hangman)
+* [Cody Buffaloe's Solution](https://github.com/CodyLBuffaloe/hangman)
+* [nmac's solution](https://github.com/nmacawile/Hangman)
+* [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/tree/master/ruby/serialization/hangman)
+* [smilesr's solution](https://github.com/smilesr/op-rb-ir-25-hangman)
+* [HenrytheDJ's Wild West solution](https://github.com/henrythedj/hangman)
 
 
 ## Additional Resources
