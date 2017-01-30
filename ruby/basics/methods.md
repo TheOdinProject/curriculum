@@ -20,6 +20,9 @@ In this lesson we are going to deconstruct what methods are, their behaviour, an
 * You understand the difference between a explicit and implicit return in your methods
 * You understand the difference between `puts` and `return`
 
+## Rubys Built in Methods
+* explain what they are, you've already been using them.
+
 ## Creating a Method
 You can create your own custom methods in Ruby like so:
 ```(ruby)
@@ -40,22 +43,26 @@ Lets breake it down:
 
 To call the method you simply need to use its name, as shown in the last line of the example `puts my_name`
 
-## Naming Methods
-
-## Arguments
-
+## Paramaters and Arguments
+* basics about what parametrs are
+* default parameters
 
 ## What Methods Return
+* explicit and implicit returns
 
+## Chaining Methods
+* how it works
 
-
+## Best practices
+* naming them
+* not too many paramaters
+* bang methods
+* predicate methods
 
 ## Assignment
 1. To get a good introduction to all the different concepts related to methods read [this chapter about methods](https://launchschool.com/books/ruby/read/methods) from Launch Schools Introduction to Programming with Ruby book. Make sure to do the exercises at the end of the chapter too.
 2. For a deeper look at methods read [this chapter](http://ruby.bastardsbook.com/chapters/methods/) from the Bastards book of Ruby. Again try to complete the exercises throughout the chapter.  
 
-
-## Best Practices
 
 ## Exercises
 This will link to an external repo which will include exercises and tests
