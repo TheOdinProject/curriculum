@@ -48,6 +48,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 * Tom Westerhout's solution [Github](https://github.com/Westw00d/Caesar-Cipher) / [see it on the web](http://thawing-headland-68994.herokuapp.com/)
 * Jerry Gao's solution [github](https://github.com/blackwright/odin/tree/master/sinatra_caesar_cipher) / [see it on the web](https://caesar-cipher-sinatra.herokuapp.com/)
 * Sophia Wu's solution [github](https://github.com/SophiaLWu/sinatra-caesar-cipher) / [see it on the web](https://shielded-temple-74302.herokuapp.com/)
+* Samuel Langenfeld's solution [github](https://github.com/SamuelLangenfeld/sinatra_caesar_cipher) / [see it on the web](http://langenfeld-caesar-cipher.herokuapp.com/)
 
 ## Project 2: Another Web-Game
 
