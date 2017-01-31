@@ -44,7 +44,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/positioning_elements) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/positioning_elements/index.html)
 * [csrail's solution](https://github.com/csrail/nytimes-mock) | [View in browser](https://rawgit.com/csrail/nytimes-mock/master/article.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/nyt-clone) | [View in browser](https://rawgit.com/ShalaQweghen/nyt-clone/master/index.html)
-
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-positioning-elements) | [View in browser](https://davidchappy.github.io/ny-times-html/)
 
 
 ## Additional Resources
