@@ -15,7 +15,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 2. Head into IRB (`$ irb`)
 3. `require 'rest-client'`
 4. Now you're able to play with the gem.  Read its documentation over in the Github repo [HERE](https://github.com/rest-client/rest-client).  You'll end up doing this a whole lot -- using a new gem and going to its repo to check out the documentation, so get familiar with the process early!
-5. Use RestClient to do a Google search and examine the results (you can find the parameters that Google wants in the URL by simply making a search in a normal browser.  Pay attention to the `q=` parameter).
+5. Use RestClient to do a Bing search (yes, Bing) and examine the results (you can find the parameters that Bing wants in the URL by simply making a search in a normal browser.  Pay attention to the `q=` parameter).
 
 ...that's it.  The point is to get familiar with making HTTP requests using your command line, which should prepare you for making them from within a Rails app later.
 
@@ -23,6 +23,9 @@ You may find yourself using Rest Client down the road if you need to communicate
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_rest-client)
+* [Austin's solution](https://github.com/CouchofTomato/rest-client/blob/master/rest_client.rb)
 * [zkay's solution](https://github.com/zkay/PersonalProjects/tree/master/Rest)
 * [afshinator's solution](https://github.com/afshinator/playground/tree/master/RestPinger)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/rest_client)
@@ -49,7 +52,14 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Deepak's solution](https://github.com/Deepak5050/rest_client/blob/master/rest_client.rb)
 * [djhart's solution](https://github.com/djhart/rest_client_ex)
 * [Earth35's solution](https://github.com/Earth35/rest-client)
-* Add your solution above this line!
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/Rails/RestClient)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/web_refresher)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/web_refresher)
+* [DV's solution](https://github.com/dvislearning/rest_client)
+* [at0micr3d's solution](https://github.com/at0micr3d/rest-client-session)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_rest_client)
+* [Tom Westerhout's solution](https://github.com/Westw00d/RestClient)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/RestClient)
 
 
 ## Project: Ruby on Rails Tutorial
@@ -110,7 +120,7 @@ It's also important to note that **each test is completely independent of every 
 
 the first test (inside the block for the `#test` method) has just three lines.  The first, `get :home`, is just a necessary step to get you into position to run the test.  Because this is an extremely simple test file, that is inside the `#test` block.  If you ended up running multiple specs that relied on visiting that same page first, you'd see that line abstracted out into a `#before` block, which would be run before each test.
 
-The second line `assert_response :success`, makes sure that the home page returns a http status code of 200 or in other words success. the third line `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"` is where the action happens.  `assert_select "title"` selects an element on the page, in this case the title element and wait for some sort of definitive answer about whether the page passes or fails.  `"Home | Ruby on Rails Tutorial Sample App"` this is the expected value you are asserting the title will containm if the title matches this string the test will pass otherwise it will fail.  You don't actually need to know all the specifics of what's going on behind the scenes for a while, just how to apply them.
+The second line `assert_response :success`, makes sure that the home page returns a http status code of 200 or in other words success. the third line `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"` is where the action happens.  `assert_select "title"` selects an element on the page, in this case the title element and wait for some sort of definitive answer about whether the page passes or fails.  `"Home | Ruby on Rails Tutorial Sample App"` this is the expected value you are asserting the title will contain if the title matches this string the test will pass otherwise it will fail.  You don't actually need to know all the specifics of what's going on behind the scenes for a while, just how to apply them.
 
 If you're already scratching your head, don't worry (like I said, better explanations exist than mine).  The tutorial will cover testing along the way.  Hopefully your mind is warmed up right now and you won't be ambushed by suddenly being confronted with it.
 

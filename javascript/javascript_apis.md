@@ -8,6 +8,8 @@ To work with an API, you will usually need to register your application with the
 
 1. Do the Codecademy track about [learning to use APIs with Javascript for accessing YouTube](http://www.codecademy.com/tracks/youtube).
 2. Look at the [Google Maps API Tutorial from W3 Schools](http://www.w3schools.com/googleAPI/default.asp), though consider implementing it optional.
+3. Finish the first part of Udacity [Google Maps APIs](https://www.udacity.com/course/google-maps-apis--ud864) course to get better understanding of real world application of working with APIs.
+
 
 ## Additional Resources
 

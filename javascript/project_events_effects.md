@@ -41,6 +41,7 @@ If you think about what's required to make a game like this work, it's all well 
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Afshin M.'s solution](https://github.com/afshinator/js-snake)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/snake) | [View in browser](http://jsfiddle.net/Jberczel/xvEt5/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Snake/index.html)
@@ -64,7 +65,12 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Ryan Chang's solution](https://github.com/chang-ryan/javascript-fun/tree/master/js-snake) | [View in Browser](https://rawgit.com/chang-ryan/javascript-fun/master/js-snake/index.html)
 *  [Miguel Herrera's solution](https://github.com/migueloherrera/jquery-snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/jquery-snake/blob/master/index.html)
 *  [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/snake/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/dev-cyprium/snake/blob/master/index.html)
-* Add your solution above this line!
+* [Cody Loyd's solution](https://github.com/codyloyd/javascriptSnake) | [View in browser](http://codyloyd.com/javascriptSnake/)
+* [Priyanka Saigal's solution](https://github.com/psaigal/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/psaigal/Snake/blob/master/snake.html)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/js-snake) | [View in browser](https://chrisnorwood.github.io/js-snake/)
+* [David Chapman's solution](https://github.com/davidchappy/snake) | [View in browser](https://davidchappy.github.io/snake/snake.html)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/snake) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/snake/index.html)
+
 
 
 ## Additional Resources

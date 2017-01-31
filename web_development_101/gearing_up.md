@@ -1,5 +1,5 @@
-#Gearing up for success
-Learning how to program takes work, Like any skill worth knowing it takes time to acquire and it can't
+# Gearing up for success
+Learning how to program takes work. Like any skill worth knowing it takes time to acquire and it can't
 be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So before we get into the meat of the curriculum, it would be beneficial to go over the following so you  can get the most out of Odin:
 
 * the things that will help you succeed in your goal of learning to code.
@@ -12,9 +12,9 @@ anything else.
 
 We will look at getting clear about what your motivation for learning
 programming is and getting yourself into the growth mindset so that you
-have the right mentality when approaching challenges through out the curriculum.
+have the right mentality when approaching challenges throughout the curriculum.
 
-###Your Motivation For Learning Programming
+### Your Motivation For Learning Programming
 Your motivation to learn to code could be to have a fulfilling career that pays
 well; it could the creative outlet programming provides; it may be to have the
 skills and abilities to build any sort of app you can think of; it might be to start
@@ -31,7 +31,7 @@ To give your motivation a bit of a boost you can read about the success of other
 * [This 32 year old who taught himself programming using the odin project over the period of a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
 * [Another guy who used the odin project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
 
-###The Growth Mindset
+### The Growth Mindset
 There is a wide body of research that supports that intelligence is not fixed, that
 it can be developed. People usually fall into one of the following two mindsets:
 
@@ -68,8 +68,8 @@ To learn more about the growth mindset use these resources:
 
 * [Believe you can get better](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 * [Grit](https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit)
-* [You can learn anything](https://www.khanacademy.org/about/blog/post/95208400815/the-learning-myth-why-ill-never-tell-my-son-hes)
-* [Start Here Ruby On Rails - Motivation & Growth Mindset](https://www.youtube.com/watch?v=8gc2zzWnRe8)
+* [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
+* [Start Here - The Motivation Episode and Becoming a Programming Super Learner](http://starthere.fm/webdev/23-the-motivation-episode-and-becoming-a-programming-super-learner)
 
 ## The Best ways to Learn
 Odin's curriculum has two fundamental aspects: lessons and projects.
@@ -112,12 +112,9 @@ In short, understand it, practice it, and finally teach it.
 
 Teaching what you know to others is a great way to solidify what you have learnt
 and can often reveal holes in your knowledge that you wouldn't have identified
-otherwise. 
+otherwise.
 
-<a class="btn btn-primary btn-static-pages-CTA" href="http://www.theodinproject.com/chat" target="_blank">Join our chat and start your Web Development journey!</a>
-
-Join us to practice this method of learning by answering questions and helping students who
-are not as far in  the course as you are. Don't forget to introduce yourself!
+You can practice this method of learning by helping others in our community.
 
 * To learn more about the best ways to learn, [learning how to learn on coursera](https://www.coursera.org/learn/learning-how-to-learn) is highly recommended.
 
@@ -132,7 +129,7 @@ following processes to get unstuck:
 * Google it - you can be sure someone else out there has had the same problem as
 you at some point, a quick Google can often lead to a solution.
 * Take a break - allow your diffuse state to work on the problem.
-* Ask for help in our [chat](http://www.theodinproject.com/chat) - come prepared
+* Ask for help in one of our [chats](https://gitter.im/orgs/TheOdinProject/rooms) - come prepared
 with your research done, people will be more willing to help you when they can see
 you have already put effort into trying to figure out the solution.
 
@@ -165,12 +162,12 @@ And here's an easy to use Pomodoro timer: [TomatoTimer](http://tomato-timer.com/
 
 **Avoid Digital Distractions:**
 
-Digital distractions are email and Facebook notifications, time wasting websites
+Digital distractions are email and Facebook notifications, time-wasting websites
 like social networks. These kinds of distractions break your focus and make it
-tempting to procrastinate they should be avoided during study time.
+tempting to procrastinate; they should be avoided during study time.
 
 Solution: turn off notifications and add a blocker to your internet to limit time
-on time wasting sites like Facebook.
+on time-wasting sites like Facebook.
 
 **Avoid Physical Distractions in your Environment:**
 
@@ -178,19 +175,19 @@ Physical distractions are distractions from your environment, things like a TV i
 the background, other people speaking etc. These are just as much a nuisance to
 breaking your focus as digital distractions.
 
-Solution: find a quiet study place in your home you can go to to focus, if that's
+Solution: find a quiet study place in your home you can go to to focus. If that's
 not an option you can use noise cancelling head phones to block out any noise
 distractions from your environment.
 
 ## Pitfalls to Avoid
 The following are some of the pitfalls that beginners often make when learning how
-to program, try your best to avoid these.
+to program; try your best to avoid these.
 
 ###Don't get pulled into rabbit holes
 Because we cover so much material on Odin and link to so many high quality, outside
 courses and tools, it is easy for students to get pulled into rabbit holes by
 spending time trying to learn all there is to know about a subject that they aren't
-ready for or wont have much benefit to them. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to
+ready for or won't have much benefit to them. **We have put a lot of effort into structuring the curriculum** so that all of the important things that you need to
 know about web development are covered exactly when you need to know them.
 
 To get the best results from this curriculum try to **stick to the path laid out**
@@ -201,14 +198,14 @@ sidetracks can really ruin your momentum.
 Measure progress against yourself and don't compare yourself to others. Students
 often compare themselves against others who are further along in their coding
 journey or have more experience. This is a recipe for depression and frustration.
-Only compare yourself to your past self, can you do or know more than you did
+Only compare yourself to your past self: has your ability and knowledge grown from where it was
 last week, month or year? Then you are making progress.
 
 ###Conclusion
 Learning any new skill is a journey full of speed bumps and obstacles to be
 overcome. We hope that the principles here will help you as you go forward and
 put you in a much better position to succeed and get the most out of Odin.
-Without further ado, lets get stuck in to learning Web development.
+Without further ado, lets jump in to learning Web development.
 
 ### Extra resources:
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)

@@ -25,6 +25,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
 * [Tom M's solution](https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/tictactoe/index.html "Tic-tac-toe")
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_5_TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_5_TicTacToe/index.html)
@@ -42,7 +43,10 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [Yoshua Elmaryono's solution](https://github.com/dotm/tictactoe/tree/gh-pages) | [View in browser](http://dotm.github.io/tictactoe/)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/javascript/tic-tac-toe) | [View in browser](https://rawgit.com/cdouglass/odin-project-exercises/master/javascript/tic-tac-toe/app/tic-tac-toe.html)
 * [Ryan Chang's solution](https://github.com/chang-ryan/javascript-games/tree/master/js-ttt) | [View in browser](https://rawgit.com/chang-ryan/javascript-games/master/js-ttt/index.html)
-* Add your solution above this line!
+* [Miguel Herrera's solution](https://github.com/migueloherrera/js-tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-tictactoe/blob/master/index.html)
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/Tic-tac-toe-HTML-) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/Tic-tac-toe-HTML-/blob/master/index.html)
+* [David Chapman's Solution](https://github.com/davidchappy/js-tictactoe) | [View in browser](https://davidchappy.github.io/tic-tac-toe/index.html)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/tic-tac-toe) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/tic-tac-toe/index.html)
 
 
 ## Additional Resources

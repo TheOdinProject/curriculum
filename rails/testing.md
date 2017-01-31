@@ -104,13 +104,16 @@ jQuery!
 * ["An Example using RSpec double, mock and stub"](http://blog.firsthand.ca/2011/12/example-using-rspec-double-mock-and.html)
 * [Documentation for RSpec Mocks](https://github.com/rspec/rspec-mocks
 )
+* [Learn the First Best Practices for Rails and RSpec](https://www.sitepoint.com/learn-the-first-best-practices-for-rails-and-rspec/)
 
 ### Cheat Sheets
 
 * [**RSpec Cheat Sheet** from anchor.com](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf)
 * [**RSpec Capybara Cheat Sheet** from them0nk](https://gist.github.com/them0nk/2166525)
 * [RSpec and Capybara cheat sheet from Steve Clarke](https://gist.github.com/steveclarke/2353100)
-* 
+* [Controller specs cheatsheet by eliotsykes](https://gist.github.com/eliotsykes/5b71277b0813fbc0df56)
+* [Feature specs cheatsheet by eliotsykes](https://github.com/eliotsykes/rspec-rails-examples/blob/master/spec/features/subscribe_to_newsletter_spec.rb)
+* [The Big List of View Specs by Eliot Sykes](https://eliotsykes.com/view-specs)
 
 ### Common Issues That Will Frustrate You
 
