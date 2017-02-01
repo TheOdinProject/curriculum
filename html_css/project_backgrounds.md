@@ -41,6 +41,8 @@ In this project you'll clone the website of one of the most design-forward compa
 * [csrail's solution](https://github.com/csrail/apple-mock) | [View in browser](https://rawgit.com/csrail/apple-mock/master/index.html)
 * [Paul Shonk's solution](https://github.com/pshonk/apple)
 * [cindygao93's solution](https://github.com/cindygao93/google-homepage) | [View in browser](https://cindygao93.github.io/google-homepage/)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-backgrounds-gradients
+) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)
 
 
 ## Additional Resources
