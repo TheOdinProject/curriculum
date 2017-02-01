@@ -219,6 +219,8 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
 * [Luke Francl's file server tutorial](https://practicingruby.com/articles/implementing-an-http-file-server)
