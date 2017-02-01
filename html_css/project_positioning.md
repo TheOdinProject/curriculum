@@ -45,6 +45,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [csrail's solution](https://github.com/csrail/nytimes-mock) | [View in browser](https://rawgit.com/csrail/nytimes-mock/master/article.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/nyt-clone) | [View in browser](https://rawgit.com/ShalaQweghen/nyt-clone/master/index.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-positioning-elements) | [View in browser](https://davidchappy.github.io/ny-times-html/)
+* [Charles Harries's solution](https://github.com/charlesharries/new_york_times) | [Check it in browser](https://htmlpreview.github.io/?https://github.com/charlesharries/new_york_times/blob/master/index.html)
 
 
 ## Additional Resources
