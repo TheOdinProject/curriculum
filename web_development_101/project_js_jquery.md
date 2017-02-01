@@ -563,3 +563,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Airton's solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/sketchpad) | [View in browser](https://airtonbjunior.github.io/odinproject/projects/sketchpad/)
 * [Ian Baker's solution] (https://github.com/ianbaker615/etch-a-sketch) | [View in browser] (https://ianbaker615.github.io/etch-a-sketch/)
 * [Daunenok's solution](https://github.com/daunenok/etch-a-sketch) | [View in browser](https://daunenok.github.io/etch-a-sketch/)
+* [Toba's solution](https://github.com/theboytee/javascript_jquery_project) | [View in browser](https://theboytee.github.io/javascript_jquery_project/)
