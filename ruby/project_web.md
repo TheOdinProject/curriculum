@@ -135,6 +135,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Web-Project/tree/master)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/tree/master/web-server)
 * [nmac's solution](https://github.com/nmacawile/ruby_web_server)
 * [Raiko's Solution](https://github.com/Cypher0/ruby_server_client)
