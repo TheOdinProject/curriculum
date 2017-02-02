@@ -86,3 +86,4 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Tom Westerhout's solution - Webguesser: [Github](https://github.com/Westw00d/Web-Guesser) / [see it on the web](http://shrouded-waters-66767.herokuapp.com/)
 * Jerry Gao's solution - Hangman: [github](https://blackwright-hangman.herokuapp.com/) / [see it on the web](https://github.com/blackwright/odin/tree/master/sinatra_hangman)
 * Sophia Wu's solution - Hangman: [github](https://github.com/SophiaLWu/sinatra-hangman) / [see it on the web](https://shielded-lowlands-85300.herokuapp.com/)
+* Samuel Langenfeld's solution - Hangman: [github](https://github.com/SamuelLangenfeld/sinatra_hangman) / [see it on the web](http://langenfeld-hangman.herokuapp.com/)

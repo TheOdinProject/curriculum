@@ -19,6 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/blogger) | [View in Browser](https://infinite-meadow-70610.herokuapp.com/)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/blogger) | [view in browser](https://blogger-by-oliver.herokuapp.com/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/blogger.git) | [view in browser](https://shielded-gorge-80077.herokuapp.com)
 * [theghall's solution](https://github.com/theghall/blogger.git) | [view in browser](https://shrouded-inlet-42460.herokuapp.com)
@@ -216,8 +217,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [huseins ghafari's solution](https://github.com/hosghf/rails_prj/tree/master/blogger) | [View in Browser](https://mighty-crag-59722.herokuapp.com/)
 * [Alan Cruse's Solution](https://github.com/ADECruse/project-rails)
 * [NIÑO MOLLANEDA's Solution](https://github.com/ninoM/blogger) | [View in Browser](https://stark-spire-65556.herokuapp.com/)
-* [Dustin Seright's Solution](https://github.com/dseright/rails_project) | [View in Browser](https://boiling-beyond-55901.herokuapp.com/) 
-* [Dan Sack's Solution](https://github.com/DanPete/blogger) | [View in Browser](https://pacific-ridge-35157.herokuapp.com/) 
+* [Dustin Seright's Solution](https://github.com/dseright/rails_project) | [View in Browser](https://boiling-beyond-55901.herokuapp.com/)
+* [Dan Sack's Solution](https://github.com/DanPete/blogger) | [View in Browser](https://pacific-ridge-35157.herokuapp.com/)
 * [egg303's Solution](https://github.com/egg303/Blogger) | [View in Browser](https://fierce-forest-55091.herokuapp.com/)
 * [Robert Szabo's Solution](https://github.com/Siker001/top_101_rails) | [View in Browser](https://boiling-everglades-88287.herokuapp.com/)
 * [Parker Brown's Solution](https://github.com/parkerjbrown/blogger) | [View in Browser](https://mighty-beyond-86851.herokuapp.com/)
