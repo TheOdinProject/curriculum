@@ -6,8 +6,7 @@ list over a conventional array is that the list elements can easily be inserted 
 removed without reallocation of any other elements.
 
 In some programming languages the size of an array is a concern and one of the ways
-to overcome that problem and allow dynamically allocated data, which is what linked
-lists allow us to do.
+to overcome that problem and allow dynamically allocated data is using linked lists.
 
 Luckily in **Ruby** arrays aren't limited to a certain size, so you don't have to think
 about overcoming that limitation.
