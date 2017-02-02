@@ -367,7 +367,7 @@ Add your solution below this line!
 * [Chris Chi's solution](https://github.com/chrischi90/google-homepage) | [View in browser](https://rawgit.com/chrischi90/google-homepage/master/index.html)
 * [Cory Graddy's solution](https://github.com/corygraddy/google-homepage) | [View in browser](http://htmlpreview.github.io/?https://raw.githubusercontent.com/corygraddy/google-homepage/master/index.html)
 * [Shawn Stovall's solution](https://github.com/Corune/google-homepage) | [View in browser](https://rawgit.com/Corune/google-homepage/master/index.html)
-* [Josh Archer's solution](https://github.com/PuffinBlue/google-homepage) | [View in browser](https://rawgit.com/PuffinBlue/google-homepage/master/index.html)
+* [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/google-homepage) | [View in browser](https://rawgit.com/JoshArcher-OdinProject/google-homepage/master/index.html)
 * [iBinbar's solution](https://github.com/iBinbar/google-homepage) | [View in browser](https://rawgit.com/iBinbar/google-homepage/master/index.html)
 * [Shawn-Paul's solution](https://github.com/SP422/google-homepage) | [View in browser](https://rawgit.com/SP422/google-homepage/master/index.html)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/1-google-homepage) | [View in browser](https://cdn.rawgit.com/markviola/the-odin-project/master/1-google-homepage/index.html)
