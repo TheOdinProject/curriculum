@@ -19,6 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [RichJDSmith's Solution] (https://github.com/richjdsmith/blogger_app) | [View in Browser](https://immense-harbor-81390.herokuapp.com)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/blogger) | [View in Browser](https://infinite-meadow-70610.herokuapp.com/)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/blogger) | [view in browser](https://blogger-by-oliver.herokuapp.com/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/blogger.git) | [view in browser](https://shielded-gorge-80077.herokuapp.com)
