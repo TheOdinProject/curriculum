@@ -434,6 +434,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Gabriel Klueh's solution](https://github.com/gklueh/Project-Euler-JS) | [View in Browser](https://rawgit.com/gklueh/Project-Euler-JS/master/index.html)
 * [DawidChe's solution](https://github.com/DawidChe/projectEuler/blob/master/euler1.js)
 * [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/ProjectEuler/blob/master/problemOne.js)
+* [gr3if's solution](https://github.com/gr3if/Project-Euler-problems)
 
 ## Additional Resources
 
