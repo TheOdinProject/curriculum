@@ -149,6 +149,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Mateusz Staszczyk's solution](https://github.com/sleaz0id/members-only)
 * [DV's solution](https://github.com/dvislearning/members-only) | [View in browser](https://fathomless-reef-68078.herokuapp.com/)
 * [Dckwong's solution](https://github.com/dckwong/members-only) | [View in browser](https://membersonly.herokuapp.com/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/members-only) | [View in browser](https://salty-mesa-44756.herokuapp.com/)
 
 
 
