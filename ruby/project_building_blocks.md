@@ -40,6 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [thehgall's solution](https://github.com/theghall/caesar_cipher.git)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/building_blocks/blob/master/caesar_cipher.rb)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/building_blocks/caesar_cipher.rb)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/building-blocks/caesar_cipher.rb)
@@ -328,6 +329,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [theghall's solution](https://github.com/theghall/stock_picker.git)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/building_blocks/blob/master/stock_picker.rb)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/building_blocks/stock_picker.rb)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/blob/master/building-blocks/stock_picker.rb)
@@ -605,6 +607,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [theghall's solution](https://github.com/theghall/substring.git)
 * [Neelotpal's solution](https://github.com/neelotpal97/learning_programming/blob/master/Projects/Dictionary_ruby/dictionary_ruby.rb)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/building_blocks/blob/master/substring.rb)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/building_blocks/substrings.rb)
