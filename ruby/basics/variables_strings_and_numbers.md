@@ -367,6 +367,25 @@ Heres a few of the most common ones you'll use.
 
 2. link to a repo of exercises TODO.
 
+## Symbols
+
+Symbols are an interesting twist on the idea of a string. The real explanation can be a bit long, but here's the short version:
+
+Strings can be changed, so every time a string is called, Ruby has to store it in memory. They can pile up, especially when hashes start to get big, and you can tell that Ruby is treating them all as different objects (even if they're otherwise identical) because they all have different `object_id`s. Symbols, on the other hand, are basically strings that can't change, and only get stored in memory once, which is faster and easier on your computer, since Ruby can search hash objects by their `object_id`s. For a better explanation of this behavior, check out Stack Overflow over [here](http://stackoverflow.com/questions/8189416/why-use-symbols-as-hash-keys-in-ruby).
+
+If you want to get a little more hands-on with it, run this stuff in IRB:
+
+```ruby
+"string" == "string"
+  => true
+"string".object_id == "string".object_id
+  => false
+:symbol.object_id == :symbol.object_id
+  => true
+```
+
+Like magic!
+
 ## Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
