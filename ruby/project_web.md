@@ -150,7 +150,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server) (using while loops and gets instead of read_nonblock)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web)
 * [James MacIvor's solution](https://github.com/RobotOptimist/simple_server) with thanks to @Jberczel because I shamelessly stole syntax.
-* [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
+* [Aleksandar Rodić's solution](https://github.com/rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
 * [Vidul Parthasarathy's solution](https://github.com/viparthasarathy/web_server)
 * [John Quarles's solution](https://github.com/johnwquarles/simple-server-and-client) (using while loops, #gets and #read)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project5/rotwproject2)

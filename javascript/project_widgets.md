@@ -42,7 +42,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/slider) | [View in browser](https://rawgit.com/craftykate/odin-project/master/Chapter_06-JavaScript_and_jQuery/slider/index.html)
 * [Jason Matthews' solution](https://jsfiddle.net/31wtcf4a/4/)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/slider/index.html)
-* [Aleksandar Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Creating%20an%20Image%20Carousel%20in%20Javascript)
+* [Aleksandar Rodić's solution](https://github.com/rodic/TOP---js-assignments/tree/master/Project%20-%20Creating%20an%20Image%20Carousel%20in%20Javascript)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project4) | [View in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/TOPJS/blob/master/Project4/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_carousel_slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_carousel_slider/blob/master/index.html)
 * [dchen71's solution](https://github.com/dchen71/odin-carousel) | [View in browser](https://rawgit.com/dchen71/odin-carousel/master/Index.html)
