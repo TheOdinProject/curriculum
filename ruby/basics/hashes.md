@@ -1,6 +1,6 @@
 # Hashes in Ruby
 
-Now that you know a bit about arrays, it's time to get into the array's supercharged cousin: **the hash**. Not to be confused with a cryptographic hash (which is an algorithm that jumbles up data so bad you can't get back the original data), Ruby hashes are variables that can store multiple values.
+Now that you know a bit about arrays, it's time to get into the array's supercharged cousin: **the hash**. The short definition is: Ruby hashes are variables that can store collections of data.
 
 Basically like arrays, right?
 
@@ -17,55 +17,25 @@ By the end of this reading you'll be able to:
 * Iterate through a hash
 * Merge two hashes together
 
+## Creating Hashes
 
-Arrays are maybe best described as bins on a shelf with numbers on them, and each containing something WONDERFUL. E.g. *Bin 0* contains a string that says "zoob", *Bin 1* contains the integer 9, and *Bin 2* contains, weirdly, another bin labeled '*Bin 0*' (but rats, it's empty). This maps out to an array like:
+If an array is like a shelf of bins with numbers in ascending order on it, hashes take the analogy a step further by allowing you to write the labels on the outside of the bins, which lines up more with how people act in the real world.
 
-```ruby
-array = [ "zoob", 9, [] ]
-array[0]
-  => "zoob"
-array[1]
-  => 9
-array[2]
-  => []
-```
-
-Hashes take the analogy a step further by allowing you to write the labels on the outside of the bins, which lines up more with how people act in the real world, which is more or less the whole point of Object-Oriented Programming in the first place.
-
-So, back to the shelf. Here's another set of bins, labeled, not 0, 1, and 2, but "random_word", "Dorothy's math test score", "Guess what, literally another bin". Since the labels here aren't numbers in ascending order starting at 0, we can be pretty sure that what we've got here is *a hash*.
+So, let's take a look at this shelf. Here's another set of bins, labeled, not 0, 1, and 2 (like on the 'array' shelf), but "random_word", "Dorothy's math test score", "Guess what, literally another bin". Since the labels here aren't numbers in ascending order starting at 0, we can be pretty sure that what we've got here is *a hash*.
 
 ```ruby
 hash = { "random_word" => "ahoy", "Dorothy's math test score" => 94, "Guess what, literally another bin" => {} }
 ```
 
+This is the most basic way to create a hash.
+
 There's a little bit to parse here, so let's take a breather and puzzle these bins out.
 
 One of the first things you might notice is that hashes use *curly braces* `{}` instead of *brackets* `[]`. That's an important one. It helps us distinguish hashes from arrays (useful, since they share a lot of functionality).
 
-The other thing you might notice is that hashes are made up of two parts: *keys* and *values*. A *key* is more or less analogous to an array's *index*, in that it's the label on the outside of the bin that helps us find what we're looking for. The *value* is what gets stored at a particular *key*.
+The other thing you might notice is that hashes are made up of two parts: *keys* and *values*. A *key* is more or less analogous to an array's *index*, in that it's the label on the outside of the bin that helps us find what we're looking for. The *value* is what gets stored at a particular *key*. Keys and values are associated with a little operator called a 'hash rocket': `=>`.
 
-So in our bins from up above, `"random_word"`, `"Dorothy's math test score"`, and `"Guess what, literally another bin"` are all *keys*. And because they behave the same as indexes in arrays, you can call their values the same way:
-
-```ruby
-hash["random_word"]
-  => "ahoy"
-```
-
-Notice that when we call the hash's value by key, the key goes inside a pair of *brackets*, like when you're calling an array by index.
-
-Of course, hashes don't only take strings as keys and values. Ruby is a pretty flexible language so you can jam any old thing in there and it'll work just fine:
-
-```ruby
-hash = { 9 => "nine", :six => 6 }
-hash[9]
-  => "nine"
-hash[:six]
-  => 6
-```
-
-## Creating Hashes
-
-You've already seen a hash being created *literally* (e.g. `hash = { :whatever => "???" }`), but you can also call good old `#new` on the `Hash` class. If you give the `#new` method an argument, it'll even set a default value for keys that you don't specify:
+So that's what it looks like when a hash is created *literally* (e.g. `hash = { :whatever => "???" }`), but you can also call good old `#new` on the `Hash` class. If you give the `#new` method an argument, it'll even set a default value for keys that you don't specify:
 
 ```ruby
 hash = Hash.new
@@ -76,6 +46,16 @@ hash["me"]
   => "you"
 hash["him"]
   => "you"
+```
+
+Of course, hashes don't only take strings as keys and values. Ruby is a pretty flexible language so you can jam any old thing in there and it'll work just fine:
+
+```ruby
+hash = { 9 => "nine", :six => 6 }
+hash[9]
+  => "nine"
+hash[:six]
+  => 6
 ```
 
 ## Manipulating data in a hash
@@ -101,6 +81,8 @@ shoes.key("summer")
   => "sandals"
 ```
 
+Notice that when we call the hash's value by key, the key goes inside a pair of *brackets*, like when you're calling an array by index.
+
 ### Removing data
 
 The simple way to delete data from a hash is simply to call the value by its key and set it to zero:
@@ -122,13 +104,7 @@ shoes
 
 ## Methods
 
-Hashes respond to just about all the same methods as arrays do, since they're both part of Ruby's *Enumerable* class. Since hashes have a few more moving parts, though, they behave a little differently. For example, whereas `array.each { |element| puts element }` will iterate through an array and print out each element in the array, hashes take two variables in the block, like so:
-
-```ruby
-hash.each { |key, value| puts "#{key}: #{value}" }
-```
-
-(Careful not to get confused between the curly braces denoting a block and the curly braces denoting a hash. They're generally pretty easy to tell apart, but keep an eye out.)
+Hashes respond to just about all the same methods as arrays do, since they're both part of Ruby's *Enumerable* class. Keep an eye out in the next lesson on the Enumerable class for the difference in the way that arrays and hashes handle Enumerable methods -- the `#each` method especially.
 
 Another couple of useful methods for hashes are the `#keys` and `#values` methods, which do just what you think they do. Note that these methods return *arrays*.
 
@@ -157,22 +133,17 @@ For a list of methods that work on hashes, check out the [Ruby Docs](http://ruby
 
 ## Best practices
 
-In this explanation, we mostly used strings for hash keys, but in the real world, you'll see symbols like `:this_guy` as keys significantly more often. Especially when you get into Rails. The reason for this is a little complicated, but here's the short version:
-
-Strings can be changed, so every time a string is called, Ruby has to store it in memory. They can pile up, especially when hashes start to get big, and you can tell that Ruby is treating them all as different objects (even if they're otherwise identical) because they all have different `object_id`s. Symbols, on the other hand, are basically strings that can't change, and only get stored in memory once, which is faster and easier on your computer, since Ruby can search hash objects by their `object_id`s. For a better explanation of this behavior, check out Stack Overflow over [here](http://stackoverflow.com/questions/8189416/why-use-symbols-as-hash-keys-in-ruby).
-
-If you want to get a little more hands-on with it, run this stuff in IRB:
+In this explanation, we mostly used strings for hash keys, but in the real world, you'll see symbols like `:this_guy` as keys significantly more often. This is predominantly because symbols are a lot better performant than strings in Ruby, but also because they allow for a much cleaner syntax when defining hashes. Behold:
 
 ```ruby
-"string" == "string"
-  => true
-"string".object_id == "string".object_id
-  => false
-:symbol.object_id == :symbol.object_id
-  => true
+# 'Rocket' syntax
+american_cars = { :chevrolet => "Corvette", :ford => "Mustang", :dodge => "Ram" }
+# 'Symbols' syntax
+japanese_cars = { honda: "Accord", toyota: "Corolla", nissan: "Altima" }
 ```
 
-Like magic!
+Notice that the 'hash rocket' and the colon that represents a symbol have been mashed together. This unfortunately only works for symbols, though, so don't try { 9: "value" }, or you'll get a syntax error.
+
 
 ## Exercises
 
