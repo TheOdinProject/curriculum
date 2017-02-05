@@ -92,7 +92,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project2_8_Ruby_Rspec/connect_four)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/connect_four)
 * [James MacIvor's solution](https://github.com/RobotOptimist/connect_four)
-* [Aleksandar's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Project:%20Testing%20Ruby%20with%20RSpec)
+* [Aleksandar's solution](https://github.com/rodic/Odin-Ruby-Projects/tree/master/Project:%20Testing%20Ruby%20with%20RSpec)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_03-Advanced_Ruby/testing_with_rspec/connect_four_rspec)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project8/testingruby2)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/connect_four)
