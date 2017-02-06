@@ -983,7 +983,7 @@ Add your solution below this line!
 * [Daunenok's solution (Difficult)](https://github.com/daunenok/google-search-page) | [view in browser](https://daunenok.github.io/google-search-page/)
 * [DawidChe's solution (Easy)](https://github.com/DawidChe/google-homepage) | [View in browser](https://dawidche.github.io/google-homepage/)
 * [Luke's solution (Easy)](https://github.com/Ollyapp/google_homepage) | [View in browser](https://ollyapp.github.io/google_homepage/)
-*[Krista's solution (Easy)](https://github.com/watkinskris/google-homepage) | [View in browser](https://watkinskris.github.io/google-homepage/)
+* [Krista's solution (Easy)](https://github.com/watkinskris/google-homepage) | [View in browser](https://watkinskris.github.io/google-homepage/)
 
 ## Additional Resources
 
