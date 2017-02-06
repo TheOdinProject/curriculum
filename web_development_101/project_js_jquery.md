@@ -566,3 +566,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Daunenok's solution](https://github.com/daunenok/etch-a-sketch) | [View in browser](https://daunenok.github.io/etch-a-sketch/)
 * [Toba's solution](https://github.com/theboytee/javascript_jquery_project) | [View in browser](https://theboytee.github.io/javascript_jquery_project/)
 * [Matthieu Auzéau's solution](https://github.com/matthieu-A/sketchpad)] | [View in browser](https://matthieu-a.github.io/sketchpad/)
+* [Thea's solution](https://github.com/highflyer910/etch_e_sketch) | [View in browser](https://highflyer910.github.io/etch_e_sketch/)
