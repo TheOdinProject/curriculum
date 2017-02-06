@@ -10,8 +10,34 @@ what the student is expected to know or be able to do by the end of this lesson
 * Learning outcome 2
 * Learning outcome 3
 
+## The Problem solving Process
+
+First
+* Identify the big picture goal - what problem are you trying to solve?
+* How will you interact with the software? sketch the interface
+
+Then
+* whats the smallest possible feature you can build to get started?
+* pseudo code for the feature
+* Implement
+* repeat
+
+## Deep Dive into Pseudo Coding
+* what is it?
+- plain english representation of the code you will write
+- also known as an algorithm
+
+* how to do it
+- step by step sequence starting from the top like a recipe
+- show examples of pseudo coding a problem
+
+
 ## Assignment
-The list of resources the user will go through to learn about the topic of this lesson. Have no more than 5 resources, ideally no more than three.
+http://www.slideshare.net/DamianGordon1/pseudocode-10373156
+
+https://getpocket.com/a/read/62846566
+
+https://ocw.mit.edu/resources/res-tll-004-stem-concept-videos-fall-2013/videos/problem-solving/basic-programming-techniques/
 
 ## Exercises
 A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
