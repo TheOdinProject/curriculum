@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Sherman Bowling's Solution](https://github.com/janus0/janus0.github.io) | [View in browser](https://janus0.github.io/jquery-sketch/)
 * [maz's solution](https://github.com/mmore21/jquery-sketch) | [View in browser](https://mmore21.github.io/jquery-sketch/)
 * [waglebr's solution](https://github.com/waglebr/sketchpad) | [View in browser](https://waglebr.github.io/sketchpad/)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/etch-a-sketch) | [View in browser](https://olehsliusar.github.io/etch-a-sketch/)
@@ -561,3 +562,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Zaid Khraibut's solution](https://github.com/zaidkhraibut/etch-a-sketch) | [View in browser](https://zaidkhraibut.github.io/etch-a-sketch/)
 * [Tim Lapinskas's solution](https://github.com/tlapinsk/etch-a-sketch) | [View in browser](https://tlapinsk.github.io/etch-a-sketch/)
 * [Airton's solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/sketchpad) | [View in browser](https://airtonbjunior.github.io/odinproject/projects/sketchpad/)
+* [Ian Baker's solution] (https://github.com/ianbaker615/etch-a-sketch) | [View in browser] (https://ianbaker615.github.io/etch-a-sketch/)
+* [Daunenok's solution](https://github.com/daunenok/etch-a-sketch) | [View in browser](https://daunenok.github.io/etch-a-sketch/)
+* [Toba's solution](https://github.com/theboytee/javascript_jquery_project) | [View in browser](https://theboytee.github.io/javascript_jquery_project/)
+* [Matthieu Auzéau's solution](https://github.com/matthieu-A/sketchpad)] | [View in browser](https://matthieu-a.github.io/sketchpad/)
+* [Thea's solution](https://github.com/highflyer910/etch_e_sketch) | [View in browser](https://highflyer910.github.io/etch_e_sketch/)

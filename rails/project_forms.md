@@ -119,6 +119,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 
 * Add your below above this line!
 * [Austin's solution](https://github.com/CouchofTomato/reformer)
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/re-former)
 * [spierer's solution](https://github.com/spierer/odin-forms)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/re-former) | [walkthrough](http://jberczel.github.io/forms-walkthrough/)
 * [Afshin M's solution](https://github.com/afshinator/re-former)

@@ -33,7 +33,7 @@ what the student is expected to know or be able to do by the end of this lesson
 - What case statements are for ie to replace long if branches
 - how to create them and use them
 
-## Until statement
+## Unless statement
 - what it is and how it works
 
 ## Ternary operator

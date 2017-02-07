@@ -82,7 +82,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/private_events)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events)
-* [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Aleksandar's solution](https://github.com/rodic/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events) | [View in browser](https://fierce-headland-7201.herokuapp.com/)
 * [Jason Matthews' solution](https://github.com/fo0man/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/private-events)

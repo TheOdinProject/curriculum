@@ -7,7 +7,7 @@ Now you know what pair programming is and how to set up your computer for it. Ho
 
 [The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. You learned about it in the [Gearing Up](http://www.theodinproject.com/courses/web-development-101/lessons/gearing-up) lesson. This is also a useful system for switching between Driver and Navigator roles when pairing.
 
-We are going to make a Pomodoro clock similar to [this](https://arcane-ravine-59782.herokuapp.com/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
+We are going to make a Pomodoro clock similar to [this](http://romantic-trouble.surge.sh/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
 
 ## Before Starting
 
@@ -27,6 +27,7 @@ Add your solution below this line!
 
 * [Sample solution](https://github.com/ChadKreutzer/pomodoro_clock) | [View in Browser](http://romantic-trouble.surge.sh/)
 * [Ovsjah Schweinefresser](https://github.com/Ovsjah/pomodoro) |  [View in Browser](https://ovsjah.github.io/pomodoro/)
+* [Øistein Haugland's Solution](https://github.com/oisteinhaugland/pomodoro) |  [View in Browser](https://oisteinhaugland.github.io/pomodoro/)
 
 
 ## Next Steps
