@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 Add your solution below this line!
+* [Zakir's solution (Easy)](https://github.com/zakirhussain227/google_homepage) | [View in browser](https://zakirhussain227.github.io/google_homepage/)
 * [mayank-r's solution (Easy)](https://github.com/mayank-r/google-homepage) | [View in browser](https://mayank-r.github.io/google-homepage/)
 * [sharkbite1414's solution (Easy)](https://github.com/sharkbite1414/search_engine) | [View in browser](https://sharkbite1414.github.io/search_engine/)
 * [clormor's solution (Easy)](https://github.com/clormor/google-homepage) | [View in browser](https://clormor.github.io/google-homepage/)
@@ -977,14 +978,16 @@ Add your solution below this line!
 * [Naomi's solution(Easy)](https://github.com/naomifu/google-homepage) | [View in browser ](https://naomifu.github.io/google-homepage)
 * [Rafael Hernandez's Solition (Easy)](https://github.com/RafaelDavisH/google-homepage) | [View in browser](https://rafaeldavish.github.io/google-homepage/)
 * [Avoup's solution(Easy)](https://github.com/avoup/shmoogle) | [View in browser](https://avoup.github.io/shmoogle/)
-* [Avoup's solution(Difficult)](https://github.com/avoup/results) | [view in browser](https://avoup.github.io/results/)
-* [Toba's solution(Easy)](https://github.com/theboytee/google-homepage) | [view in browser](https://theboytee.github.io/google-homepage/)
-* [Highflyer's solution(easy)](https://github.com/highflyer910/Google_challenge) | [view in browser](https://highflyer910.github.io/Google_challenge/)
-* [Daunenok's solution (Easy)](https://github.com/daunenok/google-homepage) | [View in browser](https://daunenok.github.io/google-homepage/)
+* [Avoup's solution(Difficult)](https://github.com/avoup/results) | [View in browser](https://avoup.github.io/results/)
+* [Toba's solution(Easy)](https://github.com/theboytee/google-homepage) | [View in browser](https://theboytee.github.io/google-homepage/)
+* [Highflyer's solution(easy)](https://github.com/highflyer910/Google_challenge) | [View in browser](https://highflyer910.github.io/Google_challenge/)
+* [Daunenok's solution (Easy)](https://github.com/daunenok/google-homepage) | [View in browser](https://daunenok.github.io/google-homepage)
+* [Daunenok's solution (Difficult)](https://github.com/daunenok/google-search-page) | [View in browser](https://daunenok.github.io/google-search-page/)
 * [Daunenok's solution (Difficult)](https://github.com/daunenok/google-search-page) | [view in browser](https://daunenok.github.io/google-search-page/)
 * [DawidChe's solution (Easy)](https://github.com/DawidChe/google-homepage) | [View in browser](https://dawidche.github.io/google-homepage/)
 * [Luke's solution (Easy)](https://github.com/Ollyapp/google_homepage) | [View in browser](https://ollyapp.github.io/google_homepage/)
 * [Krista's solution (Easy)](https://github.com/watkinskris/google-homepage) | [View in browser](https://watkinskris.github.io/google-homepage/)
+
 
 ## Additional Resources
 
