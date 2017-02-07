@@ -37,7 +37,7 @@ The process will be quite similar to what we've done before.  At this point, you
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/thenextweb-remake/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/thenextweb-remake/index.html)
 * [Ashleigh's solution](https://github.com/aedelman/responsive-design/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/aedelman/responsive-design/blob/master/index.html)
 * [csrail's solution](https://github.com/csrail/next-web-mock) | [View in browser](https://rawgit.com/csrail/next-web-mock/master/index.html)
-
+* [David Chapman's solution (w/ partial placeholder elements)](https://github.com/davidchappy/odin_training_projects/tree/master/html-responsive-design) | [View in browser](https://davidchappy.github.io/html-responsive-design/)
 
 ## Additional Resources
 
