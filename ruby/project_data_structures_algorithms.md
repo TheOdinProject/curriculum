@@ -30,6 +30,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Data-Structures)
 * [nmac's solution](https://github.com/nmacawile/BinaryTrees/blob/master/binarytrees.rb)
 * [John Phelps's Solution](https://github.com/jphelps413/odin-ruby/blob/master/data-structures/binary_tree.rb)
 * [Jib's Solution](https://github.com/NuclearMachine/OdinTasks/tree/master/Searching_BinaryTrees)
@@ -142,6 +143,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Data-Structures)
 * [nmac's solution](https://github.com/nmacawile/KnightsTravails/blob/master/knight.rb)
 * [Stefan P's solution](https://github.com/spavikevik/knight_travails)
 * [Leonard Soai-van's solution](https://github.com/leosoaivan/TOP_compsci)
