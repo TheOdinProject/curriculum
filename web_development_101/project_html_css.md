@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 Add your solution below this line!
+* [mayank-r's solution (Easy)](https://github.com/mayank-r/google-homepage) | [View in browser](https://mayank-r.github.io/google-homepage/)
 * [sharkbite1414's solution (Easy)](https://github.com/sharkbite1414/search_engine) | [View in browser](https://sharkbite1414.github.io/search_engine/)
 * [clormor's solution (Easy)](https://github.com/clormor/google-homepage) | [View in browser](https://clormor.github.io/google-homepage/)
 * [mindoermiles262 solution (Easy)](https://github.com/mindovermiles262/google_homepage/) | [View in browser](https://mindovermiles262.github.io/google_homepage/)
