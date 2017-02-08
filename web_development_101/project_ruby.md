@@ -276,6 +276,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Leangseu's Solution](https://github.com/leangseu/learn_ruby)
 * [Øistein Hauglands's Solution](https://github.com/oisteinhaugland/learn_ruby)
 * [Jason Mabry's Solution](https://github.com/jmabry111/learn_ruby)
+* [Tim Lapinskas's Solution](https://github.com/tlapinsk/learn_ruby)
 
 ## Additional Resources
 
