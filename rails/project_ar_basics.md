@@ -118,6 +118,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's Solution](https://github.com/NuclearMachine/odin_rails/tree/master/micro-reddit)
+* [Austin's solution](https://github.com/CouchofTomato/micro_reddit)
 * [Voizzzz' solution](https://github.com/voizzzz/microreddit)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * [Afshin's solution](https://github.com/afshinator/micro-reddit)
@@ -168,6 +170,13 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [djhart's solution](https://github.com/djhart/micro-reddit)
 * [csrail's solution](https://github.com/csrail/micro-reddit/tree/master/app/models)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/micro-reddit)
+* [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/active_record/micro-reddit)
+* [Dckwong's solution](https://github.com/dckwong/micro-reddit)
+* [at0micr3d's solution](https://github.com/at0micr3d/micro-reddit)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/micro-reddit)
+* [Joe Himes's solution](https://github.com/deedle42/micro-reddit)
+* [Niño Mollaneda's solution](https://github.com/ninoM/micro-reddit)
+
 
 
 ## Additional Resources

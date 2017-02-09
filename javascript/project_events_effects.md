@@ -51,7 +51,7 @@ If you think about what's required to make a game like this work, it's all well 
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/snake) | [View in browser](http://katemcfaul.com/snake)
 *  [Meher Chandan's solution](https://github.com/meherchandan/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Snake/blob/master/index.html)
 *  [Jason Matthews' solution](https://jsfiddle.net/e2zhssyj/13/)
-*  [Aleksandar Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20jQuery%20and%20the%20DOM)
+*  [Aleksandar Rodić's solution](https://github.com/rodic/TOP---js-assignments/tree/master/Project%20-%20jQuery%20and%20the%20DOM)
 *  [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/snake-clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/snake-clone/index.html)
 *  [Frank Peelen's solution](https://github.com/FrankPeelen/Snake-Browser-JS) | [View in browser](http://rawgit.com/FrankPeelen/Snake-Browser-JS/master/index.html)
 *  [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project3) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project3/index.html)
@@ -66,6 +66,11 @@ If you think about what's required to make a game like this work, it's all well 
 *  [Miguel Herrera's solution](https://github.com/migueloherrera/jquery-snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/jquery-snake/blob/master/index.html)
 *  [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/snake/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/dev-cyprium/snake/blob/master/index.html)
 * [Cody Loyd's solution](https://github.com/codyloyd/javascriptSnake) | [View in browser](http://codyloyd.com/javascriptSnake/)
+* [Priyanka Saigal's solution](https://github.com/psaigal/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/psaigal/Snake/blob/master/snake.html)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/js-snake) | [View in browser](https://chrisnorwood.github.io/js-snake/)
+* [David Chapman's solution](https://github.com/davidchappy/snake) | [View in browser](https://davidchappy.github.io/snake/snake.html)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/snake) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/snake/index.html)
+
 
 
 ## Additional Resources

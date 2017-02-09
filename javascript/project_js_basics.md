@@ -33,6 +33,7 @@ It's time to build an on-screen calculator
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Pawel R's solution](https://github.com/PawelRokosz/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/Calculator/blob/master/index.html)
 * [mahimahi42's solution](https://github.com/mahimahi42/js-calc.git)
 * [NerdDiffer's solution](https://github.com/NerdDiffer/simpleCalculator)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/calculator) | [View in browser](http://jsfiddle.net/Jberczel/3f3SG/)
@@ -47,7 +48,7 @@ It's time to build an on-screen calculator
 * [Vincent's solution](https://github.com/wingyu/Javascript-Calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/Javascript-Calculator/blob/master/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_06-JavaScript_and_jQuery/calculator) | [View in browser](http://jsfiddle.net/craftykate/k9ewcpvr/embedded/result/)
 * [Meher Chandan's solution](https://github.com/meherchandan/Calculator.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Calculator/blob/master/calculator.html)
-* [Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Building%20An%20On%20Screen%20Calculator%20Using%20Javascript)
+* [Rodić's solution](https://github.com/rodic/TOP---js-assignments/tree/master/Project%20-%20Building%20An%20On%20Screen%20Calculator%20Using%20Javascript)
 * [Jason Matthews' solution](https://jsfiddle.net/o9jmrnf9/)
 * [Nikola Čvorović's solution](https://github.com/cvorak/calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/cvorak/calculator/blob/master/index.html)
 * [Trump's solution](https://github.com/trump812/OdinProject/tree/master/Javascript_and_jQuery/Calculator)
@@ -78,6 +79,10 @@ It's time to build an on-screen calculator
 * [Marco the Phoenix's solution](https://github.com/marcsanmi/Learning/tree/master/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/marcsanmi/Learning/blob/master/Calculator/index.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/onscreen_calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/onscreen_calculator/blob/master/main.html)
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/js-calculator) | [View in browser](https://andela-mpitan.github.io/js-calculator/)
+* [David Chapman's solution](https://github.com/davidchappy/calculator) | [View in browser](http://codepen.io/davidchappy/pen/vyXMvQ)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/js-calculator/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/chrisnorwood/js-calculator/blob/master/index.html)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/calculator) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/calculator/index.html)
+* [Kamron Morgan's solution](https://github.com/normak/calculator) | [View in browser](https://normak.github.io/calculator/)
 
 
 ## Additional Resources

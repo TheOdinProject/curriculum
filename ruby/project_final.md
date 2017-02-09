@@ -29,7 +29,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* [Aleksandar's solution](https://github.com/Rodic/RubyChess)
+* [Aleksandar's solution](https://github.com/rodic/RubyChess)
 * [Donald's solution](https://github.com/donaldali/Chess)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
 * [Hawkeye's solution](https://github.com/Hawkeye000/command-line-chess)
@@ -49,8 +49,8 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Scott Bobbitt's solution](https://github.com/sco-bo/chess)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/chess)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/Chess)
-* [noobling's solution] (https://github.com/TopOneOfTopOne/CLI_chess)
-* [Sahil Agarwal's solution] (https://github.com/sahilda/the_odin_project/tree/master/rubyChess)
+* [noobling's solution](https://github.com/TopOneOfTopOne/CLI_chess)
+* [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/rubyChess)
 * [James Brooks's solution](https://github.com/jhbrooks/chess)
 * [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/chess)
 * [Earth35's solution](https://github.com/Earth35/chess)
@@ -60,6 +60,10 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [at0micr3d's solution](https://github.com/at0micr3d/ruby_chess)
 * [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/final/lib/chess_single_array.rb)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/chess)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_chess)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/Chess)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/chess)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/chess)
 
 
 ## Additional Resources

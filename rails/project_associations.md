@@ -73,6 +73,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/private_events)
 * [Jamie's solution](https://github.com/Jberczel/private_events) | [View in browser](http://privent.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/private-events)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/private-events/private-events)
@@ -81,7 +82,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/private_events)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events)
-* [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Aleksandar's solution](https://github.com/rodic/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events) | [View in browser](https://fierce-headland-7201.herokuapp.com/)
 * [Jason Matthews' solution](https://github.com/fo0man/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/private-events)
@@ -114,6 +115,8 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Frank V's solution](https://github.com/fv42wid/events)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/private_events) | [View in browser](https://fathomless-shore-10615.herokuapp.com/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/private-events)
+* [Dylan's non RESTful solution](https://github.com/resputin/the_odin_project/tree/master/Rails/private-events)
+* [DV's solution](https://github.com/dvislearning/private-events) | [View in browser](https://sleepy-everglades-63021.herokuapp.com/)
 
 
 ## Additional Resources

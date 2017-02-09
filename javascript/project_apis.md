@@ -29,7 +29,7 @@ Play around with the other options the Maps API gives you -- you can customize a
 * [Yoshua Elmaryono's solution](https://github.com/dotm/gmaps_api) | [View in browser](http://dotm.github.io/gmaps_api/)
 * [Luke Walker](https://github.com/ubershibs/odin-js-course/tree/master/googlemaps) | [View in browser](http://lukewalker.org/odin/js-course/googlemaps/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-marker) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/js-marker/blob/master/index.html)
-
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/js-google-maps)
 
 ## Additional Resources
 

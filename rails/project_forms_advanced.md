@@ -71,6 +71,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/flight-booker)
 * [spierer's solution](https://github.com/spierer/odin-advanced-forms)
 * [jamie's solution](https://github.com/Jberczel/Flight_Booker) | [View in browser](http://flight-booker.herokuapp.com)
 * [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View in browser](http://dna-flight-booker.herokuapp.com/)
@@ -107,6 +108,9 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_flight_booker) | [View in browser](https://shrouded-earth-72460.herokuapp.com/)
 * [Cody Loyd's Solution](https://github.com/codyloyd/flight_booker) | [View in Browser](https://intense-peak-10624.herokuapp.com/)
 * [Rhys B.'s Solution](https://github.com/105ron/flight_booker) | [View in Browser](https://secure-depths-25814.herokuapp.com)
+* [David Chapman's Solution](https://github.com/davidchappy/flight_booker)
+* [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
+* [Marcus' solution](https://github.com/nestcx/odin-flight-booker)
 
 ## Additional Resources
 

@@ -29,7 +29,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [jamie's solution](https://github.com/Jberczel/Flight_Booker) | [View in browser](http://flight-booker.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View in browser](http://dna-flight-booker.herokuapp.com/)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/FlightBooker) | [View in browser](https://one-way-ticket.herokuapp.com/)
-* [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Aleksandar's solution](https://github.com/rodic/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flight-booker)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/flight_booker) | [View in browser](https://odin-booker.herokuapp.com/)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_flight_booker)
@@ -53,6 +53,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in Browser](https://guarded-atoll-24378.herokuapp.com/)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_flight_booker) | [View in Browser](https://shrouded-earth-72460.herokuapp.com/)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/odin-flight-booker)
+* [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
 
 ## Additional Resources
 
