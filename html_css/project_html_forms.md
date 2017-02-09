@@ -54,7 +54,9 @@ The page is very straightforward, so you should be able to clone it even if your
 * [cs-rail's solution](https://github.com/csrail/mint-mock) | [View in browser](https://rawgit.com/csrail/mint-mock/master/sign-up.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/mint_form_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/mint_form_clone/blob/master/mint.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq-form-validation) | [View in browser](https://davidchappy.github.io/jq-form-validation/index.html)
-* [Adonias Dantas's solution](https://github.com/adoniasdantas/mint-signup-clone) \ [View in browser](https://adoniasdantas.github.io/mint-signup-clone/)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/mint-signup-clone) | [View in browser](https://adoniasdantas.github.io/mint-signup-clone/)
+
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
