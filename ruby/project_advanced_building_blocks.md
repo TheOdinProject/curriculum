@@ -236,6 +236,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Roan Fourie's solution](https://github.com/RoanFourie/top-ruby-prog/blob/master/bubble-sort.rb)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/advanced_building_blocks/bubble_sort/bubble_sort.rb)
 * [Alan Cruse's solution](https://github.com/ADECruse/Projects-Advanced-Building-Blocks/blob/master/project_one.rb)
+* [Parker Brown's solution](https://github.com/parkerjbrown/ruby-advanced-building-blocks/blob/master/bubble_sort.rb)
 
 
 ## Project 2: Enumerable Methods
