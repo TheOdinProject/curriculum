@@ -5,7 +5,7 @@
 
 ## Project: Building Facebook
 
-You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modeling data, and working with forms. This project will require you to put all your newfound knowledge to the test.  It should serve as a great portfolio piece for what you're capable of.  It'll take some thought and time but it's certainly within reach of your skills.
+You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modelling data, and working with forms. This project will require you to put all your newfound knowledge to the test.  It should serve as a great portfolio piece for what you're capable of.  It'll take some thought and time but it's certainly within reach of your skills.
 
 You'll be building Facebook.  As usual, any additional styling will be up to you but the really important stuff is to get the data and back end working properly.  You'll put together some of the core features of the platform -- users, profiles, "friending", posts, news feed, and "liking".  You'll also implement sign-in with the real Facebook by using Omniauth and Devise.
 
@@ -15,7 +15,7 @@ Some features of Facebook we haven't yet been exposed to -- for instance chat, r
 
 Build Facebook!  You'll build a large portion of the core Facebook user functionality in this project.  We won't be worrying about the Javascript-heavy front end stuff but you won't need it to get a nice user experience.
 
-You should write at least a basic set of integration tests which let you know if each page is loading properly and unit tests to make sure your associations have been properly set up (e.g. testing that `User.first.posts` works properly).  Run them continuously in the background with [Guard](https://github.com/guard/guard) (See the [Ruby on Rails Tutorial Chapter 3.7.3](https://www.railstutorial.org/book/static_pages#sec-guard)). 
+You should write at least a basic set of integration tests which let you know if each page is loading properly and unit tests to make sure your associations have been properly set up (e.g. testing that `User.first.posts` works properly).  Run them continuously in the background with [Guard](https://github.com/guard/guard) (See the [Ruby on Rails Tutorial Chapter 3.7.3](https://www.railstutorial.org/book/static_pages#sec-guard)).
 
 This project will give you a chance to take a relatively high level set of requirements and turn it into a functioning website.  You'll need to read through the documentation on Github for some of the gems you'll be using.
 
@@ -59,10 +59,13 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [Rob's Solution](https://github.com/RobPando/odin-book) | [View in browser](https://robodinbook.herokuapp.com)
+* [Rhys B's solution](https://github.com/105ron/odin-book) | [View in browser](http://odin-book.herokuapp.com/)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/RailsBoock-Facebook-Clone-App) | [View in browser](http://railsbook-facebook-clone-app.herokuapp.com/)
 * [Yuri Buerov's solution](https://github.com/YuriBuerov/social-network)
 * [David Janczyn's solution](https://github.com/sandiegodj/social-network) | [View in browser](https://warm-spire-7655.herokuapp.com/)
-* [Aleksandar Rodić's solution](https://github.com/Rodic/odin-facebook-clone) | [View in browser](https://odin-facebook.herokuapp.com/)
+* [Aleksandar Rodić's solution](https://github.com/rodic/odin-facebook-clone) | [View in browser](https://odin-facebook.herokuapp.com/)
 * [Jason Matthews' solution](https://github.com/fo0man/odin-spacebook) | [View in browser](https://warm-beach-7362.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") | [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odinbook) | [View in browser](https://warm-bayou-3284.herokuapp.com/)
@@ -82,7 +85,11 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [James Brooks's solution](https://github.com/jhbrooks/odinbook) | [View in browser](https://rocky-mountain-92199.herokuapp.com/)
 * [Top's solution](https://github.com/TopOneOfTopOne) | [View in browser](https://github.com/TopOneOfTopOne/the-facebook)
 * [Matt Velez's solution](https://github.com/Timecrash/odinbook) | [View in browser](https://velez-odinbook.herokuapp.com/)
-* Add your solution above this line!
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/ror_book) | [View in browser](http://murmuring-escarpment-57044.herokuapp.com/)
+* [Frank V's solution](https://github.com/fv42wid/oden-facebook)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_facebook) | [View in browser](https://nameless-escarpment-82289.herokuapp.com/)
+* [David Chapman's solution (not styling yet)](https://github.com/davidchappy/facebook) | [View in browser](https://dac-friends-app.herokuapp.com/)
+* [Oscar Y's solution (No tests and unstyled)](https://github.com/mysteryihs/odin-facebook) | [View in browser](http://guarded-bastion-44854.herokuapp.com/)
 
 
 ## Additional Resources
@@ -90,4 +97,4 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
-* For another take on this, here's a [gem-laden Facebook clone](http://vysakh.quora.com/Making-a-Facebook-clone-using-Rails-in-minimum-time) via Quora.
+* For another take on this, here's a [gem-laden Facebook clone](https://github.com/vysakh0/railsbook).

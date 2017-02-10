@@ -88,6 +88,8 @@ This project may seem simple, but now you've got a website that is both a normal
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [Rhys B.'s Solution ](https://github.com/105ron/odin_kittens)
 * [sirramongabriel's solution](https://github.com/sirramongabriel/odin-kittens)
 * [jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-kittens)
@@ -116,7 +118,11 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Top's solution](https://github.com/TopOneOfTopOne/kittens-api) | [View in Browser](https://teseter.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/odin-kittens)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/odin-kittens)
-* Add your solution above this line!
+* [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin-kittens)
+* [Frank V's solution](https://github.com/fv42wid/kittens)
+* [Amrr Bakry's solution (with API versioning)](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_kittens) | [View in Browser](https://still-woodland-31813.herokuapp.com/)
+* [Dylan's Solution with comprehensive controller testing](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-kittens)
 
 
 ## Project 2: Using a Third Party API
@@ -139,6 +145,8 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [Rhys B.'s Solution ](https://github.com/105ron/flickrphotos) | [View in browser](https://calm-coast-27204.herokuapp.com)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/rails-flickr-api-test-app)
 * [Jack's solution](https://github.com/jnguyen85/flickr_search)
@@ -156,7 +164,9 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project11--odin-kittens/flickr-viewer)
 * [Top's solution](https://github.com/TopOneOfTopOne/flickr-api) | [View in Browser](https://flickr-apii.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flickr-sidebar)
-* Add your solution above this line!
+* [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens) | [View in Browser](http://odin-kittens.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/flickr-photo-finder) | [View in Browser](https://shielded-retreat-38986.herokuapp.com)
+* [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/flickr_api)
 
 
 ## Additional Resources

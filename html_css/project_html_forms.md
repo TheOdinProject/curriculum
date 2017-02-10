@@ -19,6 +19,10 @@ The page is very straightforward, so you should be able to clone it even if your
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
+* [Javal's solution](https://github.com/javalnanda/theOP-mint_signup_page/) | [View in browser](https://javalnanda.github.io/theOP-mint_signup_page/)
+* [Rhys B's solution](https://github.com/105ron/mint-form) | [View in browser](https://105ron.github.io/mint-form/)
+* [Paweł R's solution](https://github.com/PawelRokosz/Mint-form) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/Mint-form/blob/master/index.html)
 * [Jason Ellis's solution](https://github.com/jason-ellis/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/mint-signup/blob/master/index.html)
 * [Mram1000's solution](https://github.com/mram1000/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/mram1000/mint-signup/blob/master/index-mint.html)
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/html_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-html-css/blob/master/html_forms/index.html)
@@ -43,9 +47,14 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Miguel Herrera's solution](https://github.com/migueloherrera/mint-signup) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/mint-signup/blob/master/index.html)
 * [srashidi's solution](https://github.com/srashidi/The_Odin_Project/tree/master/HTML5%20and%20CSS3/HTML_Forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/srashidi/The_Odin_Project/blob/master/HTML5%20and%20CSS3/HTML_Forms/mint_registration.html)
 * [destroyergm (Stefan)'s solution](https://github.com/destroyergm/mintform-myversion) | [view in browser](https://htmlpreview.github.io/?https://github.com/destroyergm/mintform-myversion/blob/master/index.html)
-* [J-kaizen's solution](https://github.com/J-kaizen/HTML_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/HTML_forms/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/HTML_forms) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/HTML_forms/index.html)
 * [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/html5-css3/html-forms)| [View in browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/html5-css3/html-forms/index.html)
-* Add your solution above this line!
+* [Earth35's solution](https://github.com/Earth35/mint-form) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/mint-form/blob/master/signup.html)
+* [Guido Bakkes' solution](https://github.com/guidobakkes/mock-ups/tree/master/mint-sign-up) | [View in browser](https://htmlpreview.github.io/?https://github.com/guidobakkes/mock-ups/blob/master/mint-sign-up/index.html)
+* [cs-rail's solution](https://github.com/csrail/mint-mock) | [View in browser](https://rawgit.com/csrail/mint-mock/master/sign-up.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/mint_form_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/mint_form_clone/blob/master/mint.html)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq-form-validation) | [View in browser](https://davidchappy.github.io/jq-form-validation/index.html)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/mint-signup-clone) | [View in browser](https://adoniasdantas.github.io/mint-signup-clone/)
 
 
 ## Additional Resources
