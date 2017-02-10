@@ -989,6 +989,7 @@ Add your solution below this line!
 * [Krista's solution (Easy)](https://github.com/watkinskris/google-homepage) | [View in browser](https://watkinskris.github.io/google-homepage/)
 * [Michael Nazari's solution (Easy)](https://github.com/mikenaza/google-homepage) | [View in browser] (https://mikenaza.github.io/google-homepage/)
 * [Breana Wallace's Solution (Easy)]( https://brewall131.github.io/google-homepage/)
+* [csdiaz121's Solution (Easy)] (https://github.com/csdiaz121/google-homepage) | [View in browser] (https://csdiaz121.github.io/google-homepage/)
 
 ## Additional Resources
 
