@@ -431,13 +431,14 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) | [View in Browser](https://zaidkhraibut.github.io/project-euler/) | **(Interactive!)**
 * [Highflyer's solution](https://github.com/highflyer910/Project_Euler)
 * [Maria Theodo's solution](https://github.com/mariatheodo/projectEuler) | [View in Browser](https://mariatheodo.github.io/projectEuler)
-* [Toba's solution](https://github.com/theboytee/project_euler) 
+* [Toba's solution](https://github.com/theboytee/project_euler)
 * [Daunenok's solution](https://github.com/daunenok/javascript-exercise) | [View in Browser](https://daunenok.github.io/javascript-exercise)
 * [Gabriel Klueh's solution](https://github.com/gklueh/Project-Euler-JS) | [View in Browser](https://rawgit.com/gklueh/Project-Euler-JS/master/index.html)
 * [DawidChe's solution](https://github.com/DawidChe/projectEuler/blob/master/euler1.js)
 * [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/ProjectEuler/blob/master/problemOne.js)
 * [gr3if's solution](https://github.com/gr3if/Project-Euler-problems)
 * [Zakir's solution](https://github.com/zakirhussain227/javascript_101)
+* [Michael Nazari's solution](https://github.com/mikenaza/project-euler-solutions.git)
 
 
 ## Additional Resources
