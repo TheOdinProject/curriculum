@@ -29,6 +29,7 @@ Add your solution below this line!
 * [Ovsjah Schweinefresser](https://github.com/Ovsjah/pomodoro) |  [View in Browser](https://ovsjah.github.io/pomodoro/)
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/pomodoro) |  [View in Browser](https://oisteinhaugland.github.io/pomodoro/)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/pomodoro) | [View in Browser](http://www.andyduss.com/pomodoro)
+* [maz's Solution](https://github.com/mmore21/pomodoro-clock) | [View in Browser](https://mmore21.github.io/pomodoro-clock/)
 
 
 ## Next Steps
