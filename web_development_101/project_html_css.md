@@ -990,6 +990,7 @@ Add your solution below this line!
 * [Michael Nazari's solution (Easy)](https://github.com/mikenaza/google-homepage) | [View in browser] (https://mikenaza.github.io/google-homepage/)
 * [Breana Wallace's Solution (Easy)]( https://brewall131.github.io/google-homepage/)
 * [csdiaz121's Solution (Easy)] (https://github.com/csdiaz121/google-homepage) | [View in browser] (https://csdiaz121.github.io/google-homepage/)
+* [Axel’s solution (Difficult)](https://github.com/afuh/Google) | [View in browser](https://afuh.github.io/Google/)
 
 ## Additional Resources
 
