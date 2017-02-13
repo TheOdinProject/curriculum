@@ -75,7 +75,7 @@ We'll start by building our Kitten application to work normally in the browser w
 
 Now it's time to make the Kittens resource available via API.
 
-1. Open a new command line tab and fire up IRB.  `> require 'rest_client'` (you may need to `$ gem install rest_client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
+1. Open a new command line tab and fire up IRB.  `> require 'rest-client'` (you may need to `$ gem install rest-client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
 2. You should get a sloppy mess of HTML.  If you check out your server output, it's probably processing as XML, e.g. `Processing by KittensController#index as XML`
 3. Try asking specifically for a JSON response by adding the option `:accept => :json`, e.g. `RestClient.get("http://localhost:3000/kittens", :accept => :json)`.  It should throw an error.
 3. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
