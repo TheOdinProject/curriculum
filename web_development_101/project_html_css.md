@@ -993,6 +993,7 @@ Add your solution below this line!
 * [Breana Wallace's Solution (Easy)]( https://brewall131.github.io/google-homepage/)
 * [csdiaz121's Solution (Easy)] (https://github.com/csdiaz121/google-homepage) | [View in browser] (https://csdiaz121.github.io/google-homepage/)
 * [Axel’s solution (Difficult)](https://github.com/afuh/Google) | [View in browser](https://afuh.github.io/Google/)
+* [CurtisGrayeBabin's solution (Easy)](https://github.com/CurtisGrayeBabin/google-homepage) | [View in browser](https://curtisgrayebabin.github.io/google-homepage/)
 
 ## Additional Resources
 
