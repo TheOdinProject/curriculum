@@ -573,3 +573,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Thea's solution](https://github.com/highflyer910/etch_e_sketch) | [View in browser](https://highflyer910.github.io/etch_e_sketch/)
 * [Maria Theodo's solution](https://github.com/mariatheodo/sketch) | [View in browser](https://mariatheodo.github.io/sketch/)
 * [Skyler's solution](https://github.com/solds/sketcha) | [View in browser](https://solds.github.io/sketcha/)
+* [DawidChe's solution](https://github.com/DawidChe/sketchpad-js) | [View in browser](https://dawidche.github.io/sketchpad-js/)
