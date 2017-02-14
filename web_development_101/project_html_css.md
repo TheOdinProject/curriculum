@@ -93,7 +93,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-Add your solution below this line!
+* Add your solution below this line!
 * [Ryan_'s solution (Medium)](https://github.com/ryanford-frontend/google-homepage/) | [View in browser](https://ryanford-frontend.github.io/google-homepage/)
 * [Patty's solution (Easy)](https://github.com/pattydi/google-test) | [View in browser](https://pattydi.github.io/google-test/)
 * [Zakir's solution (Easy)](https://github.com/zakirhussain227/google_homepage) | [View in browser](https://zakirhussain227.github.io/google_homepage/)
@@ -964,7 +964,7 @@ Add your solution below this line!
 * [Rhett Newton's Solution](https://github.com/rnewton5/google-homepage) | [View in Browser](https://rnewton5.github.io/google-homepage/)
 * [Dmytro Korzhov's Solution (Easy)](https://github.com/Dmytr1K/top_google_homepage) | [View in browser (Easy)](https://dmytr1k.github.io/top_google_homepage/)
 * [Roan Fourie's Solution (Easy)](https://github.com/RoanFourie/the-odin-project/tree/master/google-homepage) | [View in browser (Easy)](https://roanfourie.github.io/the-odin-project/google-homepage/)
-* [mmore21's Solution (Easy)](https://github.com/mmore21/google-homepage/) | [View in Browser](https://mmore21.github.io/google-homepage/)
+* [mmore21's Solution (Easy)](https://github.com/mmore21/google-homepage/) | [View in Browser](https://mmore21.github.io/google-homepage/) | [Hard](https://github.com/mmore21/google-results) | [View in Browser](https://mmore21.github.io/google-results/)
 * [egg303's Solution (Easy)](https://github.com/egg303/google-homepage) | [View in Browser](https://egg303.github.io/google-homepage/)
 * [Kumelachew Abera's Solution](https://github.com/Kumelachew/google-homepage) | [View in Browser](https://kumelachew.github.io/google-homepage/)
 * [chanjman's Solution](https://github.com/chanjman/google-homepage) | [View in Browser](https://chanjman.github.io/google-homepage/)
