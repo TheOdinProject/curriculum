@@ -85,14 +85,45 @@ end
 Remember, loops will start counting from a zero index unless specified otherwise so the first loop iteration will output `Alternative fact number 0`.
 
 ### Until Loop
-You can think of the until loop as the opposite of the while loop. A while loop continues while the condition is true. An until loop continues while the condition is false so they can be used pretty much interchangably. It will ultimately be what your condition is checking that will determine which one is more readable.
+The until loop is the opposite of the while loop. A while loop continues while the condition is true. An until loop continues while the condition is false so they can be used pretty much interchangably. It will ultimately be what your condition is checking that will determine which one is more readable.
 
-Using the while l
+You should, as much as possible, avoid trying to negate your logical expressions using `!`(not) and this is where using unless will shine.
+
+Using the while loop examples we can write them using until.
+
+
+```ruby
+i = 0
+until(i > 10) do
+ puts "i is #{i}"
+ i += 1
+end
+```
+You can see here that using until keeps running the loop while the condition is false.
+
+The second example shows how until can avoid the negation `!` that the while loops had to use.
+
+```ruby
+until gets.chomp == "yes" do
+  puts "Will you go to prom with me?"
+end
+```
+Much more readable. Guaranteed to get you a yes.
 
 ### upto and downto loops
 * how they work
 * what are they good for
 * when to use them
+
+`upto` and `downto` are great examples of Ruby methods that do exactly what you'd think from the name. You can use these methods to iterate from a starting number either upto or downto another number.
+
+```ruby
+5.upto(10) {|num| print "#{num} " } #=> 5 6 7 8 9 10
+
+10.downto(5) {|num| print "{num} " } #=> 10 9 8 7 6 5
+```
+
+If you need to step through a series of numbers within a specific range then these are the loops for you.
 
 ## Assignment
 A list of external links for the user to go through
