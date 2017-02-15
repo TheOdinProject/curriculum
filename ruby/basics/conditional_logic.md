@@ -196,15 +196,51 @@ end
 ```
 
 ## Unless statement
-The unless statement works in the opposite way to the if statement in that it only processes the code if the expression evaluates to false. There isn't much more to it.
+The unless statement works in the opposite way to the if statement in that it only processes the code in the block if the expression evaluates to false. There isn't much more to it.
 
 ```ruby
 age = 18
 unless age < 17
   puts "get a job"
+end
+```
+You can use the unlessstatement on one line or with an else clause
+```ruby
+age = 18
+puts "Welcome to a life of debt" unless age < 17
+
+unless age < 17
+  puts "Down with that sort of thing"
+else
+  puts "Careful now!"
+end
+```
+
+You should use the unless statement when you want to do something if a condition evaluates to false, because it can be make your code more readable than using `if !true`.
 
 ## Ternary operator
-- what they are and how they work
+The ternary operator is a one line if; else statement which can make your code much more concise.
+
+It's syntax is `conditional statement ? <execute if true> : <execute if false>. You can assign the return value of the expression to a variable.
+
+```ruby
+age = 18
+response = age < 17 ? "You still have your entire life ahead of you" :"You're all grown up"
+puts response #=> "You're all grown up"
+```
+Here, because the expression evaluated to false it was the code after the `:` that was assigned to the variable `response`.
+
+To write this as an if; else statement would be much more verbose
+```ruby
+age = 18
+if age < 17
+  response = "You still have your entire life ahead of you"
+else
+  response = "You're all grown up"
+end
+puts response
+```
+However, if your conditional statements are complicated, then using an if; else statement would probably make more sense. Remember, above all else your code needs to be readable uand understandable by other people, especially in the development stage. You can always optimize your code for efficiency once it's finished and you're moving to a production environment where speed matters.
 
 ## Exercises
 This will link to an external repo which will include exercises and tests
