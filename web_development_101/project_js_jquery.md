@@ -576,3 +576,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Skyler's solution](https://github.com/solds/sketcha) | [View in browser](https://solds.github.io/sketcha/)
 * [DawidChe's solution](https://github.com/DawidChe/sketchpad-js) | [View in browser](https://dawidche.github.io/sketchpad-js/)
 * [Michael Nazari's solution] (https://github.com/mikenaza/js_jquery_project.git) | [View in browser] (https://mikenaza.github.io/js_jquery_project/)
+* [Axel's solution] (https://github.com/afuh/sketchpad) | [View in browser] (https://afuh.github.io/sketchpad/)
