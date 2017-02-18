@@ -40,6 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/caesar_cipher)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/caesar-cipher)
 * [Orlando's solution](https://github.com/orlandodan14/The-Odin-Project/blob/master/Caesar_Cipher/lib/CaesarCipher.rb)
 * [RichJDSmith's solution](https://github.com/richjdsmith/ruby_building_blocks/blob/master/caesar_cipher.rb)
