@@ -40,6 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/caesar-cipher)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-building-blocks/blob/master/caesar_cipher.rb)
 * [thehgall's solution](https://github.com/theghall/caesar_cipher.git)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/building_blocks/blob/master/caesar_cipher.rb)
@@ -330,6 +331,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/stock-picker)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-building-blocks/blob/master/stock_picker.rb)
 * [theghall's solution](https://github.com/theghall/stock_picker.git)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/building_blocks/blob/master/stock_picker.rb)
@@ -609,6 +611,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/substrings)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-building-blocks/blob/master/substrings.rb)
 * [theghall's solution](https://github.com/theghall/substring.git)
 * [Neelotpal's solution](https://github.com/neelotpal97/learning_programming/blob/master/Projects/Dictionary_ruby/dictionary_ruby.rb)
