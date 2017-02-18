@@ -996,7 +996,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Axel’s solution (Difficult)](https://github.com/afuh/Google) | [View in browser](https://afuh.github.io/Google/)
 * [CurtisGrayeBabin's solution (Easy)](https://github.com/CurtisGrayeBabin/google-homepage) | [View in browser](https://curtisgrayebabin.github.io/google-homepage/)
 * [Matheusfcunha's solution (Easy)](https://github.com/matheusfcunha/google-homepage) | [View in browser](https://matheusfcunha.github.io/google-homepage/)
-
+* [Stanley Quek's solution (Easy)](https://github.com/tempeste/google-homepage) | [View in browser](https://tempeste.github.io/google-homepage/)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
