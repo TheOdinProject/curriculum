@@ -39,6 +39,11 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [dfan14051's solution](https://github.com/dfan14051/sketchpad) | [View in browser](https://dfan14051.github.io/sketchpad/)
+* [shafkathullah's solution](https://github.com/shafkathullah/shafkathullah.github.io/tree/master/work/Sketchr) | [View in browser](http://shafkathullah.github.io/work/Sketchr/)
+* [ryan_'s solution](https://github.com/ryanford-frontend/TOP-etch-a-sketch) | [View in browser](https://ryanford-frontend.github.io/TOP-etch-a-sketch/)
+* [cale's solution](https://github.com/ArDesign/etch-a-sketch) | [View in browser](https://ArDesign.github.io/etch-a-sketch/)
+* [sharkbite1414's solution](https://github.com/sharkbite1414/sketch) | [View in browser](https://sharkbite1414.github.io/sketch/)
 * [Sherman Bowling's Solution](https://github.com/janus0/janus0.github.io) | [View in browser](https://janus0.github.io/jquery-sketch/)
 * [maz's solution](https://github.com/mmore21/jquery-sketch) | [View in browser](https://mmore21.github.io/jquery-sketch/)
 * [waglebr's solution](https://github.com/waglebr/sketchpad) | [View in browser](https://waglebr.github.io/sketchpad/)
@@ -567,3 +572,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Toba's solution](https://github.com/theboytee/javascript_jquery_project) | [View in browser](https://theboytee.github.io/javascript_jquery_project/)
 * [Matthieu Auzéau's solution](https://github.com/matthieu-A/sketchpad)] | [View in browser](https://matthieu-a.github.io/sketchpad/)
 * [Thea's solution](https://github.com/highflyer910/etch_e_sketch) | [View in browser](https://highflyer910.github.io/etch_e_sketch/)
+* [Maria Theodo's solution](https://github.com/mariatheodo/sketch) | [View in browser](https://mariatheodo.github.io/sketch/)
+* [Skyler's solution](https://github.com/solds/sketcha) | [View in browser](https://solds.github.io/sketcha/)
+* [DawidChe's solution](https://github.com/DawidChe/sketchpad-js) | [View in browser](https://dawidche.github.io/sketchpad-js/)
+* [Michael Nazari's solution] (https://github.com/mikenaza/js_jquery_project.git) | [View in browser] (https://mikenaza.github.io/js_jquery_project/)
+* [Axel's solution] (https://github.com/afuh/sketchpad) | [View in browser] (https://afuh.github.io/sketchpad/)

@@ -29,7 +29,7 @@ If you do not know how to setup a respository, follow the instructions found in 
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository on to your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to revise what you have learned.)
-5. If you want to share this project, include a link in your in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)`
+5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)`
 
 If you are having trouble, refer to:
 * The [cheat sheet](/web-development-101/git-basics) in the Git Basics Lesson or
@@ -93,7 +93,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-Add your solution below this line!
+* Add your solution below this line!
+* [dfan14051's solution](https://github.com/dfan14051/google-homepage) | [View in browser](https://dfan14051.github.io/google-homepage/)
+* [Ryan_'s solution (Medium)](https://github.com/ryanford-frontend/google-homepage/) | [View in browser](https://ryanford-frontend.github.io/google-homepage/)
+* [Patty's solution (Easy)](https://github.com/pattydi/google-test) | [View in browser](https://pattydi.github.io/google-test/)
 * [Zakir's solution (Easy)](https://github.com/zakirhussain227/google_homepage) | [View in browser](https://zakirhussain227.github.io/google_homepage/)
 * [mayank-r's solution (Easy)](https://github.com/mayank-r/google-homepage) | [View in browser](https://mayank-r.github.io/google-homepage/)
 * [sharkbite1414's solution (Easy)](https://github.com/sharkbite1414/search_engine) | [View in browser](https://sharkbite1414.github.io/search_engine/)
@@ -962,7 +965,7 @@ Add your solution below this line!
 * [Rhett Newton's Solution](https://github.com/rnewton5/google-homepage) | [View in Browser](https://rnewton5.github.io/google-homepage/)
 * [Dmytro Korzhov's Solution (Easy)](https://github.com/Dmytr1K/top_google_homepage) | [View in browser (Easy)](https://dmytr1k.github.io/top_google_homepage/)
 * [Roan Fourie's Solution (Easy)](https://github.com/RoanFourie/the-odin-project/tree/master/google-homepage) | [View in browser (Easy)](https://roanfourie.github.io/the-odin-project/google-homepage/)
-* [mmore21's Solution (Easy)](https://github.com/mmore21/google-homepage/) | [View in Browser](https://mmore21.github.io/google-homepage/)
+* [mmore21's Solution (Easy)](https://github.com/mmore21/google-homepage/) | [View in Browser](https://mmore21.github.io/google-homepage/) | [Hard](https://github.com/mmore21/google-results) | [View in Browser](https://mmore21.github.io/google-results/)
 * [egg303's Solution (Easy)](https://github.com/egg303/google-homepage) | [View in Browser](https://egg303.github.io/google-homepage/)
 * [Kumelachew Abera's Solution](https://github.com/Kumelachew/google-homepage) | [View in Browser](https://kumelachew.github.io/google-homepage/)
 * [chanjman's Solution](https://github.com/chanjman/google-homepage) | [View in Browser](https://chanjman.github.io/google-homepage/)
@@ -987,6 +990,13 @@ Add your solution below this line!
 * [DawidChe's solution (Easy)](https://github.com/DawidChe/google-homepage) | [View in browser](https://dawidche.github.io/google-homepage/)
 * [Luke's solution (Easy)](https://github.com/Ollyapp/google_homepage) | [View in browser](https://ollyapp.github.io/google_homepage/)
 * [Krista's solution (Easy)](https://github.com/watkinskris/google-homepage) | [View in browser](https://watkinskris.github.io/google-homepage/)
+* [Michael Nazari's solution (Easy)](https://github.com/mikenaza/google-homepage) | [View in browser] (https://mikenaza.github.io/google-homepage/)
+* [Breana Wallace's Solution (Easy)]( https://brewall131.github.io/google-homepage/)
+* [csdiaz121's Solution (Easy)] (https://github.com/csdiaz121/google-homepage) | [View in browser] (https://csdiaz121.github.io/google-homepage/)
+* [Axel’s solution (Difficult)](https://github.com/afuh/Google) | [View in browser](https://afuh.github.io/Google/)
+* [CurtisGrayeBabin's solution (Easy)](https://github.com/CurtisGrayeBabin/google-homepage) | [View in browser](https://curtisgrayebabin.github.io/google-homepage/)
+* [Matheusfcunha's solution (Easy)](https://github.com/matheusfcunha/google-homepage) | [View in browser](https://matheusfcunha.github.io/google-homepage/)
+* [Stanley Quek's solution (Easy)](https://github.com/tempeste/google-homepage) | [View in browser](https://tempeste.github.io/google-homepage/)
 
 
 ## Additional Resources

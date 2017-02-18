@@ -112,8 +112,8 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [smilesr's solution] (https://github.com/smilesr/op-rb-ir-25-event-manager)
 * [nmac's solution](https://github.com/nmacawile/EventManager)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/tree/master/ruby/serialization/event_manager)
-* Add your solution above this line
-
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Event_Manager)
+* [jeff1st's solution](https://github.com/jeff1st/event_manager)
 
 
 ## Project: Hangman
@@ -137,6 +137,7 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/hangman)
 * [Austin Norman's solution (with hd ascii graphics)](https://github.com/austinnormancore/hangman)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/ruby/serialization/hangman)
 * [Ayushka's solution](https://github.com/ayushkamadji/hangman_ruby)
@@ -265,6 +266,8 @@ You will be building a simple command line Hangman game where one player plays a
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/tree/master/ruby/serialization/hangman)
 * [smilesr's solution](https://github.com/smilesr/op-rb-ir-25-hangman)
 * [HenrytheDJ's Wild West solution](https://github.com/henrythedj/hangman)
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Hangman)
+* [jeff1st's solution](https://github.com/jeff1st/hangman)
 
 
 ## Additional Resources

@@ -32,6 +32,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Tarelochkin's solution to Problems 1-3, 7](https://github.com/Tarelochkin/ProjectEuler)
+* [ryan_'s solution to Problem 1](https://github.com/ryanford-frontend/project-euler-problem-1)
 * [danielbyun's solutions to Problem 1](https://github.com/danielbyun/javascript101)
 * [clormor's solutions](https://github.com/clormor/project-euler-js)
 * [sharkbite1414's solution](https://github.com/sharkbite1414/projecteuler_Solutions)
@@ -431,13 +433,14 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) | [View in Browser](https://zaidkhraibut.github.io/project-euler/) | **(Interactive!)**
 * [Highflyer's solution](https://github.com/highflyer910/Project_Euler)
 * [Maria Theodo's solution](https://github.com/mariatheodo/projectEuler) | [View in Browser](https://mariatheodo.github.io/projectEuler)
-* [Toba's solution](https://github.com/theboytee/project_euler) 
+* [Toba's solution](https://github.com/theboytee/project_euler)
 * [Daunenok's solution](https://github.com/daunenok/javascript-exercise) | [View in Browser](https://daunenok.github.io/javascript-exercise)
 * [Gabriel Klueh's solution](https://github.com/gklueh/Project-Euler-JS) | [View in Browser](https://rawgit.com/gklueh/Project-Euler-JS/master/index.html)
 * [DawidChe's solution](https://github.com/DawidChe/projectEuler/blob/master/euler1.js)
 * [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/ProjectEuler/blob/master/problemOne.js)
 * [gr3if's solution](https://github.com/gr3if/Project-Euler-problems)
 * [Zakir's solution](https://github.com/zakirhussain227/javascript_101)
+* [Michael Nazari's solution](https://github.com/mikenaza/project-euler-solutions.git)
 
 
 ## Additional Resources

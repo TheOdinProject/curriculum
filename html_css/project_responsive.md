@@ -38,6 +38,7 @@ The process will be quite similar to what we've done before.  At this point, you
 * [Ashleigh's solution](https://github.com/aedelman/responsive-design/blob/master/index.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/aedelman/responsive-design/blob/master/index.html)
 * [csrail's solution](https://github.com/csrail/next-web-mock) | [View in browser](https://rawgit.com/csrail/next-web-mock/master/index.html)
 * [David Chapman's solution (w/ partial placeholder elements)](https://github.com/davidchappy/odin_training_projects/tree/master/html-responsive-design) | [View in browser](https://davidchappy.github.io/html-responsive-design/)
+* [Charles Harries's solution (mostly placeholder + menu)](https://github.com/charlesharries/the-next-web/) | [View in browser](https://htmlpreview.github.io/?https://github.com/charlesharries/the-next-web/blob/master/index.html)
 
 ## Additional Resources
 

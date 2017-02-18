@@ -75,7 +75,7 @@ We'll start by building our Kitten application to work normally in the browser w
 
 Now it's time to make the Kittens resource available via API.
 
-1. Open a new command line tab and fire up IRB.  `> require 'rest_client'` (you may need to `$ gem install rest_client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
+1. Open a new command line tab and fire up IRB.  `> require 'rest-client'` (you may need to `$ gem install rest-client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
 2. You should get a sloppy mess of HTML.  If you check out your server output, it's probably processing as XML, e.g. `Processing by KittensController#index as XML`
 3. Try asking specifically for a JSON response by adding the option `:accept => :json`, e.g. `RestClient.get("http://localhost:3000/kittens", :accept => :json)`.  It should throw an error.
 3. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
@@ -123,6 +123,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Frank V's solution](https://github.com/fv42wid/kittens)
 * [Amrr Bakry's solution (with API versioning)](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_kittens) | [View in Browser](https://still-woodland-31813.herokuapp.com/)
 * [Dylan's Solution with comprehensive controller testing](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-kittens)
+* [DV's solution](https://github.com/dvislearning/odin-kittens)
 
 
 ## Project 2: Using a Third Party API
