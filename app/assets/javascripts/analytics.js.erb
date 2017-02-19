@@ -1,6 +1,6 @@
 // NOTE: These won't get fired off unless they're in the
 // production environment -- see app/views/shared/_ga.html.erb
-// for the code doing that.  
+// for the code doing that.
 // format: ('_trackEvent', category, action, label, value)
 $(function() {
 
@@ -66,6 +66,11 @@ $(function() {
   // Fire an event when a user clicks on the gitter chat link in the individual lesson page
   $('.chat-link-box').on('click', '.chat-link-btn', function(e) {
     _gaq.push(['_trackEvent', 'gitter_chat', 'click_gitter_chat_link', 'lesson_page', 1]);
+  });
+
+  // Fire an event when a user clicks on the floating chat button
+  $('.chat-floating-btn').click(function(e) {
+    _gaq.push(['_trackEvent', 'gitter_chat', 'click_gitter_chat_floating_button', 'global', 1]);
   });
 
   // Fire an event when a user clicks on the gitter chat link in the navbar
