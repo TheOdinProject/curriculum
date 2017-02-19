@@ -280,6 +280,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Jason Mabry's Solution](https://github.com/jmabry111/learn_ruby)
 * [Tim Lapinskas's Solution](https://github.com/tlapinsk/learn_ruby)
 * [Andrew DeNikes's Solution](https://github.com/AndyDeNike/project_test_ruby)
+* [Pat's solution](https://github.com/Pat878/learn_ruby)
+
 
 ## Additional Resources
 
