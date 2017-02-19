@@ -9,9 +9,9 @@
 <% else %>
   toastr.clear();
   toastr.error('<%= @project.errors.full_messages[0] %>', 'Error', {
-    closeButton: 'true',
-    extendedTimeOut: 60,
+    closeButton: true,
+    timeOut: 10000,
+    extendedTimeOut: 10000,
     tapToDismiss: false,
-    timeOut: 60,
   });
 <% end %>

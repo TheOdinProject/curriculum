@@ -8,16 +8,17 @@
 
       <% if project.live_preview %>
         <%= link_to project.live_preview, class: 'btn live-preview-btn' do %>
-            <i class="fa fa-desktop"></i>&nbsp; Live Preview
+          <i class="fa fa-desktop"></i>&nbsp; Live Preview
         <% end %>
       <% end %>
-    </div>
-  </div>
+    </div> <!-- /.submission-links -->
+  </div> <!-- /.submission-details -->
 
   <% if project.user == current_user %>
     <div class="project-action-links">
       <button type="button"
-              class="btn btn-primary btn-sm project-edit-btn"
+              class="btn btn-primary btn-sm"
+              id="project-edit-btn"
               data-toggle="modal"
               data-target="#project-submission-modal">
         <i class="fa fa-edit"></i>
@@ -25,10 +26,11 @@
 
       <button type="button"
               class="btn btn-danger"
+              id="project-delete-btn"
               data-toggle="modal"
               data-target="#project-submission-delete-modal">
         <i class="fa fa-trash"></i>
       </button>
-    </div>
+    </div> <!-- /.project-action-links -->
   <% end %>
-</div>
+</div> <!-- /.project-box -->

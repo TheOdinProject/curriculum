@@ -1,6 +1,4 @@
 class LessonsController < ApplicationController
-  rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
-
   def show
     @lesson = decorated_lesson
     set_project_and_submissions if @lesson.has_submission?
