@@ -10,11 +10,27 @@ what the student is expected to know or be able to do by the end of this lesson
 * Learning outcome 2
 * Learning outcome 3
 
-## Assignment
-The list of resources the user will go through to learn about the topic of this lesson. Have no more than 5 resources, ideally no more than three.
+## Reading the stack trace
+* what is the stack trace?
+- the execution of your code
+
+* how to read it
+ - start at the top to find the error
+ - it displays the line number
+ - tells you the type of error it encountered
+ 
+ * include an example stack trace of an error
+
+## Puts Debugging
+* what is puts debugging
+* how to do it - small example
+
+## Using PRY
+* What is pry and what does it allow you to do
+* link to an external tutorial
 
 ## Exercises
-A group of exercises (If Applicable) for the student to complete in relation to the topic taught in the lesson.
+Exercises in an external repo
 
 ## Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

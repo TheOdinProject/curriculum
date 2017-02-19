@@ -135,6 +135,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Web-Project/tree/master)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/tree/master/web-server)
 * [nmac's solution](https://github.com/nmacawile/ruby_web_server)
 * [Raiko's Solution](https://github.com/Cypher0/ruby_server_client)
@@ -149,7 +150,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Michael Alexander's solution](https://github.com/betweenparentheses/simple_client_server) (using while loops and gets instead of read_nonblock)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/ruby-on-the-web)
 * [James MacIvor's solution](https://github.com/RobotOptimist/simple_server) with thanks to @Jberczel because I shamelessly stole syntax.
-* [Aleksandar Rodić's solution](https://github.com/Rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
+* [Aleksandar Rodić's solution](https://github.com/rodic/Odin-Ruby-Projects/tree/master/Projects:%20Ruby%20on%20the%20Web/Project%202:%20A%20Real%20Web%20Server%20and%20Browser)
 * [Vidul Parthasarathy's solution](https://github.com/viparthasarathy/web_server)
 * [John Quarles's solution](https://github.com/johnwquarles/simple-server-and-client) (using while loops, #gets and #read)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPRuby/tree/master/Project5/rotwproject2)
@@ -212,12 +213,14 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/web_server_and_browser)
 * [Simon's Solution - Clean](https://github.com/SimonSomlai/Odin/tree/master/ruby/ruby_internet)
 * [smilesr's solution](https://github.com/smilesr/op-rb-rw-15-serverclient)
-
+* [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/Learning_Sockets)
 
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+
 * An [Example solution to a similar but not identical problem](http://blogs.msdn.com/b/abhinaba/archive/2005/10/14/474841.aspx)
 * [Tuxradar's Ruby web server project](http://www.tuxradar.com/content/code-project-create-web-server-ruby)
 * [Luke Francl's file server tutorial](https://practicingruby.com/articles/implementing-an-http-file-server)
