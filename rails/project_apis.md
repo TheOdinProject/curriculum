@@ -168,6 +168,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens) | [View in Browser](http://odin-kittens.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/flickr-photo-finder) | [View in Browser](https://shielded-retreat-38986.herokuapp.com)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/flickr_api)
+* [DV's solution](https://github.com/dvislearning/odin-flickr) | [View in Browser](http://serene-spire-20652.herokuapp.com)
 
 
 ## Additional Resources
