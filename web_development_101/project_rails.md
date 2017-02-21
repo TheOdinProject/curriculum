@@ -226,7 +226,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Robert Szabo's Solution](https://github.com/Siker001/top_101_rails) | [View in Browser](https://boiling-everglades-88287.herokuapp.com/)
 * [Parker Brown's Solution](https://github.com/parkerjbrown/blogger) | [View in Browser](https://mighty-beyond-86851.herokuapp.com/)
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/rails_blogger) | [View in Browser](https://tranquil-mesa-99598.herokuapp.com/) Completed to I5
-
+* [hallitee's Solution] (https://github.com/hallitee/blogger) | [view in Browser](https://polar-forest-96981.herokuapp.com/) Completed to I5 
 
 ## Additional Resources
 
