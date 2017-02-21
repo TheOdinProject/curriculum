@@ -94,6 +94,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [FedoZeta's solution (Easy)](https://github.com/FedoZeta/google-homepage) | [View in browser](https://fedozeta.github.io/google-homepage/)
+* [XuShiqing's solution (Easy)](https://github.com/shiqingxu/google-homepage) | [View in browser](https://shiqingxu.github.io/google-homepage/)
+* [Devin's solution (Easy)](https://github.com/devburke/google-homepage) | [View in browser](https://devburke.github.io/google-homepage/)
+* [Jason Epstein's solution (Easty)](https://github.com/JasonSE89/Google_HomePage) | [View in browswer](http://jasonse89.github.io/Google_Homepage/)
+* [dfan14051's solution](https://github.com/dfan14051/google-homepage) | [View in browser](https://dfan14051.github.io/google-homepage/)
 * [Ryan_'s solution (Medium)](https://github.com/ryanford-frontend/google-homepage/) | [View in browser](https://ryanford-frontend.github.io/google-homepage/)
 * [Patty's solution (Easy)](https://github.com/pattydi/google-test) | [View in browser](https://pattydi.github.io/google-test/)
 * [Zakir's solution (Easy)](https://github.com/zakirhussain227/google_homepage) | [View in browser](https://zakirhussain227.github.io/google_homepage/)
@@ -994,6 +999,12 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [csdiaz121's Solution (Easy)] (https://github.com/csdiaz121/google-homepage) | [View in browser] (https://csdiaz121.github.io/google-homepage/)
 * [Axel’s solution (Difficult)](https://github.com/afuh/Google) | [View in browser](https://afuh.github.io/Google/)
 * [CurtisGrayeBabin's solution (Easy)](https://github.com/CurtisGrayeBabin/google-homepage) | [View in browser](https://curtisgrayebabin.github.io/google-homepage/)
+* [Matheusfcunha's solution (Easy)](https://github.com/matheusfcunha/google-homepage) | [View in browser](https://matheusfcunha.github.io/google-homepage/)
+* [Stanley Quek's solution (Easy)](https://github.com/tempeste/google-homepage) | [View in browser](https://tempeste.github.io/google-homepage/)
+* [solinari's solution (Easy)](https://github.com/solinari1/google-homepage) | [View in browser](https://solinari1.github.io/google-homepage)
+* [solinari's solution (Difficult)](https://github.com/solinari1/google-search-results) | [View in browser](https://solinari1.github.io/google-search-results)
+* [Paritosh's solution (Difficult)](https://github.com/Paritosh97/google-homepage) | [View in browser](https://paritosh97.github.io/google-homepage/)
+
 
 ## Additional Resources
 
