@@ -85,6 +85,7 @@ It's time to build an on-screen calculator
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/calculator) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/calculator/index.html)
 * [Kamron Morgan's solution](https://github.com/normak/calculator) | [View in browser](https://normak.github.io/calculator/)
 * [Axel's solution](https://github.com/afuh/calculator) | [View in browser](https://afuh.github.io/calculator/)
+* [Pat's solution](https://github.com/Pat878/Calculator) | [View in browser](https://pat878.github.io/Calculator/)
 
 
 
