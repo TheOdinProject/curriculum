@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Michael W's solution](https://github.com/ithuvanian/esketch) | [View in browser](http://ithuvanian.github.io/esketch/)
 * [dfan14051's solution](https://github.com/dfan14051/sketchpad) | [View in browser](https://dfan14051.github.io/sketchpad/)
 * [shafkathullah's solution](https://github.com/shafkathullah/shafkathullah.github.io/tree/master/work/Sketchr) | [View in browser](http://shafkathullah.github.io/work/Sketchr/)
 * [ryan_'s solution](https://github.com/ryanford-frontend/TOP-etch-a-sketch) | [View in browser](https://ryanford-frontend.github.io/TOP-etch-a-sketch/)
