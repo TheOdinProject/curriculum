@@ -144,6 +144,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/recursion)
 * [Orlando's solution](https://github.com/orlandodan14/The-Odin-Project/blob/master/recursion/merge_sort.rb)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/recursion/merge_sort.rb)
 * [Ayushka's solution](https://github.com/ayushkamadji/recursive_ruby/blob/master/recursion.rb)
