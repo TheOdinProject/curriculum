@@ -313,7 +313,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Dan Sack's solution](https://github.com/DanPete/Ruby_Exercises/blob/master/OdinLearnRuby/cipher.rb)
 * [Parker Brown's solution](https://github.com/parkerjbrown/ruby-building-blocks/blob/master/caesar_cipher.rb)
 * [Vaclav Skvaril´s solution](https://github.com/Vasha22/Ruby-Building-Blocks/blob/master/caesar.rb)
-
+* [Øistein Haugland´s solution](https://github.com/oisteinhaugland/caesar_cipher)
 
 ## Project 2: Stock Picker
 
