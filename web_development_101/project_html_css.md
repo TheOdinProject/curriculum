@@ -98,7 +98,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [FedoZeta's solution (Easy)](https://github.com/FedoZeta/google-homepage) | [View in browser](https://fedozeta.github.io/google-homepage/)
 * [XuShiqing's solution (Easy)](https://github.com/shiqingxu/google-homepage) | [View in browser](https://shiqingxu.github.io/google-homepage/)
 * [Devin's solution (Easy)](https://github.com/devburke/google-homepage) | [View in browser](https://devburke.github.io/google-homepage/)
-* [Jason Epstein's solution (Easy)](https://github.com/JasonSE89/Google_HomePage) | [View in browser](http://jasonse89.github.io/Google_Homepage/)
+* [Jason Epstein's solution (Easy)](https://github.com/JasonSE89/Google_HomePage) | [View in browser](https://jasonse89.github.io/Google_Homepage/)
 * [dfan14051's solution](https://github.com/dfan14051/google-homepage) | [View in browser](https://dfan14051.github.io/google-homepage/)
 * [Ryan_'s solution (Medium)](https://github.com/ryanford-frontend/google-homepage/) | [View in browser](https://ryanford-frontend.github.io/google-homepage/)
 * [Patty's solution (Easy)](https://github.com/pattydi/google-test) | [View in browser](https://pattydi.github.io/google-test/)
