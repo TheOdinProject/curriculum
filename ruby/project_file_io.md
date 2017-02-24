@@ -138,6 +138,7 @@ You will be building a simple command line Hangman game where one player plays a
 
 * Add your solution below this line!
 * [Jerliyah's solution](https://github.com/Jerliyah/hangman)
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/hangman)
 * [Austin Norman's solution (with hd ascii graphics)](https://github.com/austinnormancore/hangman)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/ruby/serialization/hangman)
 * [Ayushka's solution](https://github.com/ayushkamadji/hangman_ruby)
