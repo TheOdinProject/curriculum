@@ -29,6 +29,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Final-Project/tree/master)
 * [Aleksandar's solution](https://github.com/rodic/RubyChess)
 * [Donald's solution](https://github.com/donaldali/Chess)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)

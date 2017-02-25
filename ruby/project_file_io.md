@@ -137,6 +137,7 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jerliyah's solution](https://github.com/Jerliyah/hangman)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/hangman)
 * [Austin Norman's solution (with hd ascii graphics)](https://github.com/austinnormancore/hangman)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/ruby/serialization/hangman)

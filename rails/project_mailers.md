@@ -55,6 +55,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Oscar Y.'s solution](https://github.com/mysteryihs/odin-flight-booker)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
 * [DV's Solution](https://github.com/dvislearning/odin-flight-booker)
+* [Sophia Wu's Solution](https://github.com/SophiaLWu/flight-booker) | [View in Browser](https://infinite-fortress-13459.herokuapp.com/)
 
 ## Additional Resources
 
