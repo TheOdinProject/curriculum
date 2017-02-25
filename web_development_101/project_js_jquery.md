@@ -581,3 +581,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [DawidChe's solution](https://github.com/DawidChe/sketchpad-js) | [View in browser](https://dawidche.github.io/sketchpad-js/)
 * [Michael Nazari's solution] (https://github.com/mikenaza/js_jquery_project.git) | [View in browser] (https://mikenaza.github.io/js_jquery_project/)
 * [Axel's solution] (https://github.com/afuh/sketchpad) | [View in browser] (https://afuh.github.io/sketchpad/)
+* [Paritosh's solution] (https://github.com/Paritosh97/Etch-A-Sketch) | [View in browser] (https://paritosh97.github.io/Etch-A-Sketch/)
