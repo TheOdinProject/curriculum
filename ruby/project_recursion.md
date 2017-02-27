@@ -116,6 +116,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Kyle Thomson's solution](https://github.com/idynkydnk/fibonacci)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/blob/master/ruby/computer_science/recursion/fibonacci.rb)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/recursion/fibonacci/fibonacci.rb)
+* [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/Warmup_Fibonacci)
 
 
 ## Project: Merge Sort
