@@ -56,6 +56,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/mint_form_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/mint_form_clone/blob/master/mint.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq-form-validation) | [View in browser](https://davidchappy.github.io/jq-form-validation/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/mint-signup-clone) | [View in browser](https://adoniasdantas.github.io/mint-signup-clone/)
+* [Marcus' solution](https://github.com/nestcx/html_forms_exercise) | [View in browser](https://htmlpreview.github.io/?https://github.com/nestcx/html_forms_exercise/blob/master/index.html)
 
 
 ## Additional Resources
