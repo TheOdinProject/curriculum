@@ -176,6 +176,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Sophia Wu's solution](https://github.com/SophiaLWu/micro-reddit)
 * [Joe Himes's solution](https://github.com/deedle42/micro-reddit)
 * [Niño Mollaneda's solution](https://github.com/ninoM/micro-reddit)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/micro-reddit)
 
 
 
