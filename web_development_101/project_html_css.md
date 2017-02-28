@@ -1008,6 +1008,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [solinari's solution (Difficult)](https://github.com/solinari1/google-search-results) | [View in browser](https://solinari1.github.io/google-search-results)
 * [Paritosh's solution (Difficult)](https://github.com/Paritosh97/google-homepage) | [View in browser](https://paritosh97.github.io/google-homepage/)
 * [bwkrayb's solution (Easy)](https://github.com/bwkrayb/google-homepage) | [View in browser](https://bwkrayb.github.io/google-homepage/)
+* [nduchene3's solution (Easy)](https://github.com/nduchene3/google-homepage) | [View in browser] (https://nduchene3.github.io/google-homepage/)
 
 
 ## Additional Resources
