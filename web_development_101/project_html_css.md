@@ -96,6 +96,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * Add your solution below this line!
 * [RaduMatees's solution (Easy)] (https://github.com/RaduMatees/google-homepage)
 * [MadScientisto's Solution (Easy)] (https://github.com/MadScientisto/google-homepage) | [View in browser](https://madscientisto.github.io/google-homepage/)
+* [Putra Isyraq's Solution (Easy)](https://github.com/putraisyraq/google-homepage) | [View in browser](https://putraisyraq.github.io/google-homepage/)
+* [Putra Isyraq's Solution (Difficult)](https://github.com/putraisyraq/google-search-results-page) | [View in browser](https://putraisyraq.github.io/google-search-results-page/)
 * [Masaleen's Solution (Easy)] (https://masaleen.github.io/google-homepage/)
 * [Kabar163's solution (Easy)](https://github.com/kbar163/google-homepage)  | [View in browser](https://kbar163.github.io/google-homepage/)
 * [FedoZeta's solution (Easy)](https://github.com/FedoZeta/google-homepage) | [View in browser](https://fedozeta.github.io/google-homepage/)
