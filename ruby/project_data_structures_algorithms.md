@@ -30,6 +30,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/binarytrees)
 * [Ayushka's solution](https://github.com/ayushkamadji/binary_tree_ruby/blob/master/BST.rb)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Data-Structures)
 * [nmac's solution](https://github.com/nmacawile/BinaryTrees/blob/master/binarytrees.rb)
@@ -144,6 +145,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/knight_moves)
 * [Ayushka's solution](https://github.com/ayushkamadji/knights_travails_ruby)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Data-Structures)
 * [nmac's solution](https://github.com/nmacawile/KnightsTravails/blob/master/knight.rb)
