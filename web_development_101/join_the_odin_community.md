@@ -1,4 +1,4 @@
-# Join the Odin Community
+# Join The Odin Community
 Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers.
 
 ##Assignment:
@@ -23,7 +23,7 @@ Remember that project you struggled with tirelessly and that you're so proud of 
 
 ## Why chat is awesome for Odin:
 
-We are working hard to update existing lessons and produce new content so we would love to hear your feedback on how you are coping with the lessons and projects. We really want you to find the lessons fun, engaging and informative; while we would like you to find projects to be doable and challenging. So please tell us!
+We are working hard to update existing lessons and produce new content so we would love to hear your feedback on how you are coping with the lessons and projects. We really want you to find the lessons fun, engaging, and informative; while we would like you to find projects to be doable and challenging. So please tell us!
 
 ## Oh foo bar!
 
@@ -62,7 +62,7 @@ For Multiple lines of code:
 Your Code
 #three backticks at the end on a separate line BELOW your code
 ```
-(make sure you are in **compose mode** by pressing ctrl + /, otherwise Enter will send in stead of creating a new line)
+(make sure you are in **compose mode** by pressing ctrl + /, otherwise Enter will send instead of creating a new line)
 
 Show us a **screenshot** if you can't pinpoint the problem - you should use this especially to show the output of commands in the command line. (You will need to drag and drop your screenshot picture into the chat box to upload it on gitter chat).
 
