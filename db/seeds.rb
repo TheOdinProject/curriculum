@@ -836,41 +836,6 @@ create_or_update_lesson(
 
 section_position += 1
 section = create_or_update_section(
-  title: "Ruby on the Web",
-  title_url: "Ruby on the Web".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "This brief section will bridge the gap between what you've been doing on the command line and the wide world of the Internet... How about building a basic web server and browser of your own!"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Bringing Ruby Online",
-  title_url: "Bringing Ruby Online".parameterize,
-  description: "The intersection of Ruby with HTTP... superpowers sold separately.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/ruby/bringing_ruby_online.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Ruby on the Web",
-  title_url: "Ruby on the Web".parameterize,
-  description: "Ever wanted to build your own basic web server?  There's no time like the present...",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: true,
-  url: "/ruby/project_web.md"
-)
-
-# +++++++++++
-# SECTION
-# +++++++++++
-
-section_position += 1
-section = create_or_update_section(
   title: "A Bit of Computer Science",
   title_url: "A Bit of Computer Science".parameterize,
   course_id: course.id,
