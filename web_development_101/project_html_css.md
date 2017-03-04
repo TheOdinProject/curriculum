@@ -1014,6 +1014,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Paritosh's solution (Difficult)](https://github.com/Paritosh97/google-homepage) | [View in browser](https://paritosh97.github.io/google-homepage/)
 * [bwkrayb's solution (Easy)](https://github.com/bwkrayb/google-homepage) | [View in browser](https://bwkrayb.github.io/google-homepage/)
 * [nduchene3's solution (Easy)](https://github.com/nduchene3/google-homepage) | [View in browser] (https://nduchene3.github.io/google-homepage/)
+* [Martin's solution (Easy)](https://binauralewe.github.io/google-homepage) | [View in browser] (https://binauralewe.github.io/google-homepage)
+
 
 
 ## Additional Resources
