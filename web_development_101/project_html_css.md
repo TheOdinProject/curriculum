@@ -94,13 +94,13 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-*[Lorrie Pearson's Solution (Difficult)(https://lorrie01.github.io/google-homepage/) | [View in browser](https://lorrie01.github.io/google-homepage/)
-* [KrystynaJG's Solution (Easy)] (https://github.com/KrystynaJG/google-homepage) | [View in browser](https://krystynajg.github.io/google-homepage/)
-* [RaduMatees's solution (Easy)] (https://github.com/RaduMatees/google-homepage)
-* [MadScientisto's Solution (Easy)] (https://github.com/MadScientisto/google-homepage) | [View in browser](https://madscientisto.github.io/google-homepage/)
+* [Lorrie Pearson's Solution (Difficult)](https://lorrie01.github.io/google-homepage/) | [View in browser](https://lorrie01.github.io/google-homepage/)
+* [KrystynaJG's Solution (Easy)](https://github.com/KrystynaJG/google-homepage) | [View in browser](https://krystynajg.github.io/google-homepage/)
+* [RaduMatees's solution (Easy)](https://github.com/RaduMatees/google-homepage)
+* [MadScientisto's Solution (Easy)](https://github.com/MadScientisto/google-homepage) | [View in browser](https://madscientisto.github.io/google-homepage/)
 * [Putra Isyraq's Solution (Easy)](https://github.com/putraisyraq/google-homepage) | [View in browser](https://putraisyraq.github.io/google-homepage/)
 * [Putra Isyraq's Solution (Difficult)](https://github.com/putraisyraq/google-search-results-page) | [View in browser](https://putraisyraq.github.io/google-search-results-page/)
-* [Masaleen's Solution (Easy)] (https://masaleen.github.io/google-homepage/)
+* [Masaleen's Solution (Easy)](https://masaleen.github.io/google-homepage/)
 * [Kabar163's solution (Easy)](https://github.com/kbar163/google-homepage)  | [View in browser](https://kbar163.github.io/google-homepage/)
 * [FedoZeta's solution (Easy)](https://github.com/FedoZeta/google-homepage) | [View in browser](https://fedozeta.github.io/google-homepage/)
 * [XuShiqing's solution (Easy)](https://github.com/shiqingxu/google-homepage) | [View in browser](https://shiqingxu.github.io/google-homepage/)
