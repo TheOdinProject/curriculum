@@ -167,7 +167,7 @@ These installfests will take you through the steps to install everything on your
           * try `bundle install --without production` again
      * **Notes for Bash on Windows users**: As of December 2016, if you are not on the Windows Insider "Fast Ring," inotify will not work yet. This causes some gems in your rails app like listener, guard, and spring to fail.
           * This can be worked around by commenting out the line, `config.file_watcher = ActiveSupport::EventedFileUpdateChecker` in `config/environments/development.rb`
-          * if you do not receive `rvm is a function` in response to `type rvm | head -1`, after following the installfest instructions for installing rvm, type `echo 'source ~/.rvm/script/rvm' >> ~/.bashrc` then restart the Bash shell and try it again. It should work.
+          * if you do not receive `rvm is a function` in response to `type rvm | head -1`, after following the installfest instructions for installing rvm, type `echo 'source ~/.rvm/scripts/rvm' >> ~/.bashrc` then restart the Bash shell and try it again. It should work.
 2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
 
 

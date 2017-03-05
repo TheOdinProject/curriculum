@@ -6,8 +6,7 @@ list over a conventional array is that the list elements can easily be inserted 
 removed without reallocation of any other elements.
 
 In some programming languages the size of an array is a concern and one of the ways
-to overcome that problem and allow dynamically allocated data, which is what linked
-lists allow us to do.
+to overcome that problem and allow dynamically allocated data is using linked lists.
 
 Luckily in **Ruby** arrays aren't limited to a certain size, so you don't have to think
 about overcoming that limitation.
@@ -65,6 +64,13 @@ Build the following methods in your linked list class:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [yilmazgunalp's solution with extra](https://github.com/yilmazgunalp/linked_list)
+* [Ayushka's solution](https://github.com/ayushkamadji/ruby_linked_list/blob/master/lib/LinkedList.rb)
+* [ToTenMilan's solution with extra](https://github.com/ToTenMilan/the_odin_project/tree/master/ruby/linked_list)
+* [Raiko's Solution (with extra credit)](https://github.com/Cypher0/linked_lists/blob/master/linked_list.rb)
+* [Nicolas Amaya's solution (with extra)](https://github.com/nicoasp/TOP---Ruby-Linked-Lists)
+* [nmac's Solution](https://github.com/nmacawile/LinkedList)
+* [John Phelps's Solution (+extra)](https://github.com/jphelps413/odin-ruby/blob/master/linked-lists/linked_list.rb)
 * [Jib's Solution (with extra credit)](https://github.com/NuclearMachine/OdinTasks/tree/master/LinkedLists)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/linked-lists-ruby/)
 * [Cody Loyd's solution (with tests and extra credit)](https://github.com/codyloyd/linked_list)

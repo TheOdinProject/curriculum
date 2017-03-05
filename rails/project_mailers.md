@@ -26,10 +26,11 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/flight-booker)
 * [jamie's solution](https://github.com/Jberczel/Flight_Booker) | [View in browser](http://flight-booker.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View in browser](http://dna-flight-booker.herokuapp.com/)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/FlightBooker) | [View in browser](https://one-way-ticket.herokuapp.com/)
-* [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Aleksandar's solution](https://github.com/rodic/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/odin-flight-booker)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/flight_booker) | [View in browser](https://odin-booker.herokuapp.com/)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_flight_booker)
@@ -54,6 +55,8 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_flight_booker) | [View in Browser](https://shrouded-earth-72460.herokuapp.com/)
 * [Oscar Y.'s solution](https://github.com/mysteryihs/odin-flight-booker)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
+* [DV's Solution](https://github.com/dvislearning/odin-flight-booker)
+* [Sophia Wu's Solution](https://github.com/SophiaLWu/flight-booker) | [View in Browser](https://infinite-fortress-13459.herokuapp.com/)
 
 ## Additional Resources
 

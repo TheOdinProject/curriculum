@@ -7,7 +7,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
-2. Go to [the learn_ruby repo here](https://github.com/TheOdinProject/learn_ruby) and follow the installation instructions in the README.
+2. Go to the learn_ruby repo [here](https://github.com/TheOdinProject/learn_ruby) and follow the installation instructions in the README.
 3. Follow the **"Getting started with the exercises"** section of the README to find out how to run and make the tests pass.
 4. Do the following exercises.  You'll know you're done when all the tests pass! The exercises start easy but some of them can be pretty challenging, so good luck!
     1. `00_hello`
@@ -27,6 +27,14 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
 * [Avoup's solution](https://github.com/avoup/learn_ruby)
+* [Sherman Bowling's solutions](https://github.com/janus0/learn_ruby)
+* [dfan14051's solution](https://github.com/dfan14051/learn_ruby)
+* [Alexander Chalk's solution](https://github.com/adc17/ruby_tdd_project/tree/master/learn_ruby)
+* [plinovodja's solution](https://github.com/plinovodja/learn_ruby)
+* [mindovermiles262's Solutions](https://github.com/mindovermiles262/learn_ruby)
+* [Alex Chi's Solution](https://github.com/alexchi1114/learn_ruby)
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/learn_ruby)
+* [theghall's solution](https://github.com/theghall/learn_ruby)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/learn_ruby)
 * [sofiegraham's solution](https://github.com/sofiegraham/learn_ruby)
 * [kookfromleduc's solution](https://github.com/kookfromleduc/learn_ruby)
@@ -268,6 +276,15 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Robert Szabo's Solution](https://github.com/Siker001/learn_ruby)
 * [chanjman's Solution](https://github.com/chanjman/learn_ruby_tdd)
 * [Jake Hill's Solution](https://github.com/JakeH91/learn_ruby)
+* [Leangseu's Solution](https://github.com/leangseu/learn_ruby)
+* [Øistein Hauglands's Solution](https://github.com/oisteinhaugland/learn_ruby)
+* [Jason Mabry's Solution](https://github.com/jmabry111/learn_ruby)
+* [Tim Lapinskas's Solution](https://github.com/tlapinsk/learn_ruby)
+* [Andrew DeNikes's Solution](https://github.com/AndyDeNike/project_test_ruby)
+* [Pat's solution](https://github.com/Pat878/learn_ruby)
+* [Ian Baker's Solution](https://github.com/ianbaker615/learn_ruby.git)
+* [ryan_'s solution](https://github.com/ryanford-frontend/learn_ruby)
+
 
 ## Additional Resources
 

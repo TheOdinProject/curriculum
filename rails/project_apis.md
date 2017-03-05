@@ -75,7 +75,7 @@ We'll start by building our Kitten application to work normally in the browser w
 
 Now it's time to make the Kittens resource available via API.
 
-1. Open a new command line tab and fire up IRB.  `> require 'rest_client'` (you may need to `$ gem install rest_client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
+1. Open a new command line tab and fire up IRB.  `> require 'rest-client'` (you may need to `$ gem install rest-client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
 2. You should get a sloppy mess of HTML.  If you check out your server output, it's probably processing as XML, e.g. `Processing by KittensController#index as XML`
 3. Try asking specifically for a JSON response by adding the option `:accept => :json`, e.g. `RestClient.get("http://localhost:3000/kittens", :accept => :json)`.  It should throw an error.
 3. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
@@ -89,6 +89,7 @@ This project may seem simple, but now you've got a website that is both a normal
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's Solution ](https://github.com/CouchofTomato/odin-kittens)
 * [Rhys B.'s Solution ](https://github.com/105ron/odin_kittens)
 * [sirramongabriel's solution](https://github.com/sirramongabriel/odin-kittens)
 * [jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
@@ -123,6 +124,8 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Frank V's solution](https://github.com/fv42wid/kittens)
 * [Amrr Bakry's solution (with API versioning)](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_kittens) | [View in Browser](https://still-woodland-31813.herokuapp.com/)
 * [Dylan's Solution with comprehensive controller testing](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-kittens)
+* [DV's solution](https://github.com/dvislearning/odin-kittens)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/kittens-api)
 
 
 ## Project 2: Using a Third Party API
@@ -146,6 +149,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/odin_flikr)
 * [Rhys B.'s Solution ](https://github.com/105ron/flickrphotos) | [View in browser](https://calm-coast-27204.herokuapp.com)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/rails-flickr-api-test-app)
@@ -167,6 +171,8 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens) | [View in Browser](http://odin-kittens.herokuapp.com/)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/flickr-photo-finder) | [View in Browser](https://shielded-retreat-38986.herokuapp.com)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/flickr_api)
+* [DV's solution](https://github.com/dvislearning/odin-flickr) | [View in Browser](http://serene-spire-20652.herokuapp.com)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/flickr-app-api) | [View in Browser](https://radiant-ravine-62439.herokuapp.com/)
 
 
 ## Additional Resources

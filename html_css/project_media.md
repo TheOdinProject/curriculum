@@ -33,6 +33,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Javal's solution](https://github.com/javalnanda/youtube_player_page) | [View in browser](https://javalnanda.github.io/youtube_player_page/)
 * [Paweł R's solution](https://github.com/PawelRokosz/ProjectYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/PawelRokosz/ProjectYT/blob/master/index.html)
 * [Rhys B's solution](https://github.com/105ron/youtube_video_embed) | [View in browser](https://105ron.github.io/youtube_video_embed/)
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/embedding_media)
@@ -62,6 +63,8 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Earth35's solution](https://github.com/Earth35/embedding/blob/master/video_page.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/embedding/blob/master/video_page.html)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/youtube_clone) | [View in browser](https://htmlpreview.github.io/?https://github.com/ShalaQweghen/youtube_clone/blob/master/index.html)
 * [Leonard's solution](https://github.com/Kr0ntar/youtube-clone) | [View in browser](https://kr0ntar.github.io/youtube-clone/index.html)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/embedding-images-and-video) | [View in browser](https://adoniasdantas.github.io/embedding-images-and-video/)
+* [daunenok's solution](https://github.com/daunenok/embedded-video) | [View in browser]( https://daunenok.github.io/embedded-video/)
 
 ## Additional Resources
 

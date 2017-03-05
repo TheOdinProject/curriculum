@@ -31,12 +31,12 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_5_TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_5_TicTacToe/index.html)
 * [Steve's solution](https://github.com/beesmart/JS_tictactoe) | [View in browser](http://beesmart.github.io/JS_tictactoe)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/TicTacToe/index.html)
-* [Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Tic%20Tac%20Toe%20in%20Javascript)
+* [Rodić's solution](https://github.com/rodic/TOP---js-assignments/tree/master/Project%20-%20Tic%20Tac%20Toe%20in%20Javascript)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project5) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project5/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_js_tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_js_tictactoe/blob/master/index.html)
 * [Voreny's solution](https://github.com/Gelio/tic-tac-toe) | [View in browser](http://gelio.github.io/tic-tac-toe/)
 * [Wayne's solution](https://github.com/wayneho/Tic_Tac_Toe) | [View in browser](https://rawgit.com/wayneho/Tic_Tac_Toe/master/index.html)
-* [Dan V's solution](https://github.com/vickerdj/tictactoe) | [View in browser](http://vickerdj.github.io/tictactoe/) 
+* [Dan V's solution](https://github.com/vickerdj/tictactoe) | [View in browser](http://vickerdj.github.io/tictactoe/)
 * [Gionaufal's solution](https://github.com/gionaufal/tic-tac-toe) | [View in browser](http://htmlpreview.github.io/?https://github.com/gionaufal/tic-tac-toe/blob/master/index.html)
 * [Trajanson's solution](https://github.com/Trajanson/js-tic-tac-toe) | [View in browser](http://projects.trajanson.com/jsTicTacToe/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/tictactoe/index.html)
@@ -47,7 +47,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/Tic-tac-toe-HTML-) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/Tic-tac-toe-HTML-/blob/master/index.html)
 * [David Chapman's Solution](https://github.com/davidchappy/js-tictactoe) | [View in browser](https://davidchappy.github.io/tic-tac-toe/index.html)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/tic-tac-toe) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/tic-tac-toe/index.html)
-
+* [Pat's solution](https://github.com/Pat878/TicTacToe) | [View in browser](https://pat878.github.io/TicTacToe/)
 
 ## Additional Resources
 

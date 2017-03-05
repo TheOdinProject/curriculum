@@ -82,7 +82,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/private_events)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events)
-* [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Aleksandar's solution](https://github.com/rodic/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events) | [View in browser](https://fierce-headland-7201.herokuapp.com/)
 * [Jason Matthews' solution](https://github.com/fo0man/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/private-events)
@@ -116,6 +116,8 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/private_events) | [View in browser](https://fathomless-shore-10615.herokuapp.com/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/private-events)
 * [Dylan's non RESTful solution](https://github.com/resputin/the_odin_project/tree/master/Rails/private-events)
+* [DV's solution](https://github.com/dvislearning/private-events) | [View in browser](https://sleepy-everglades-63021.herokuapp.com/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/private-events) | [View in browser](https://quiet-forest-50554.herokuapp.com/)
 
 
 ## Additional Resources

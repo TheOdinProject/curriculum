@@ -33,10 +33,20 @@ This lesson will tend to focus on understanding the programming side of Javascri
 
 * Add your solution below this line!
 * [Avoup's solutions 1 & 2](https://github.com/avoup/projecteuler)
+* [FedeZeta's solutions](https://github.com/FedoZeta/eulerProject)
+* [Xushiqing's solution to problem 1](https://github.com/ShiqingXu/projecteuler/blob/master/problem-1.jsx)
+* [Stanley Quek's solution to problem 1-3](https://github.com/tempeste/ProjectEuler_js)
+* [Tarelochkin's solution to Problems 1-3, 7](https://github.com/Tarelochkin/ProjectEuler)
+* [ryan_'s solution to Problem 1](https://github.com/ryanford-frontend/project-euler-problem-1)
+* [danielbyun's solutions to Problem 1](https://github.com/danielbyun/javascript101)
+* [clormor's solutions](https://github.com/clormor/project-euler-js)
+* [sharkbite1414's solution](https://github.com/sharkbite1414/projecteuler_Solutions)
+* [Shafkathullah's solution to Problem 1](https://github.com/shafkathullah/Learning_Projects/tree/master/ProjectEuler_JS)
+* [Lisa patel's solutions to Problems 1](https://github.com/LISAPATEL98/javascrpitbasics)
 * [richjdsmith's solutions to Problems 1](https://github.com/richjdsmith/projectEuler_with_js)
 * [jgwould's solutions to Problems 1 & 2](https://github.com/jgwould/javascript-basics)
 * [ugitch's solutions](https://github.com/ugitch/project_euler) | [View in Browser](https://ugitch.github.io/project_euler)
-* [sofiegraham's solution to Problems 1, 2 & 3](https://github.com/sofiegraham/odin/tree/master/web101/javascript-basics)
+* [sofiegraham's solution to Problems 1, 2 & 3](https://github.com/sofiegraham/odin/tree/master/web101/javascript)
 * [Damian's solution to Problem 1](https://github.com/debitCredit/euler/blob/master/1.js)
 * [mazen.j's solution to problem 1 & 2 ](https://github.com/chilinoodle/js_ProjectEuler)
 * [theghall's solution to Problem 2](https://github.com/theghall/fibonacci-problem.git)
@@ -424,7 +434,19 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Siker001's Solution](https://github.com/Siker001/js-basics-Problem1)
 * [Airton's Solution](https://github.com/airtonbjunior/odinproject/tree/gh-pages/projects/projectEuller) | [View in Browser](https://airtonbjunior.github.io/odinproject/projects/projectEuller/)
 * [AaronScott2's Solution](https://github.com/AaronScott2/euler)
-
+* [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) | [View in Browser](https://zaidkhraibut.github.io/project-euler/) | **(Interactive!)**
+* [Highflyer's solution](https://github.com/highflyer910/Project_Euler)
+* [Maria Theodo's solution](https://github.com/mariatheodo/projectEuler) | [View in Browser](https://mariatheodo.github.io/projectEuler)
+* [Toba's solution](https://github.com/theboytee/project_euler)
+* [Daunenok's solution](https://github.com/daunenok/javascript-exercise) | [View in Browser](https://daunenok.github.io/javascript-exercise)
+* [Gabriel Klueh's solution](https://github.com/gklueh/Project-Euler-JS) | [View in Browser](https://rawgit.com/gklueh/Project-Euler-JS/master/index.html)
+* [DawidChe's solution](https://github.com/DawidChe/projectEuler/blob/master/euler1.js)
+* [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/ProjectEuler/blob/master/problemOne.js)
+* [gr3if's solution](https://github.com/gr3if/Project-Euler-problems)
+* [Zakir's solution](https://github.com/zakirhussain227/javascript_101)
+* [Michael Nazari's solution](https://github.com/mikenaza/project-euler-solutions.git)
+* [Curtis Babin's solution](https://github.com/CurtisGrayeBabin/project-euler)
+* [Paritosh's solution](https://github.com/Paritosh97/Project-Euler)
 
 ## Additional Resources
 
