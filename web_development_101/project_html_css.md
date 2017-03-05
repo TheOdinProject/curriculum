@@ -94,7 +94,6 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-
 * [elmasojuaso Solution (Easy)](https://github.com/elmasojuaso/google-homepage) | [View in browser](https://elmasojuaso.github.io/google-homepage/)
 * [elmasojuaso Solution (Difficult)](https://github.com/elmasojuaso/google-search-results) | [View in browser](https://elmasojuaso.github.io/google-search-results/)
 * [Lorrie Pearson's Solution (Difficult)](https://lorrie01.github.io/google-homepage/) | [View in browser](https://lorrie01.github.io/google-homepage/)
@@ -1018,7 +1017,6 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [bwkrayb's solution (Easy)](https://github.com/bwkrayb/google-homepage) | [View in browser](https://bwkrayb.github.io/google-homepage/)
 * [nduchene3's solution (Easy)](https://github.com/nduchene3/google-homepage) | [View in browser] (https://nduchene3.github.io/google-homepage/)
 * [Martin's solution (Easy)](https://binauralewe.github.io/google-homepage) | [View in browser] (https://binauralewe.github.io/google-homepage)
-
 
 
 ## Additional Resources
