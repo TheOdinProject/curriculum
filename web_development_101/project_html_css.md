@@ -1017,6 +1017,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [bwkrayb's solution (Easy)](https://github.com/bwkrayb/google-homepage) | [View in browser](https://bwkrayb.github.io/google-homepage/)
 * [nduchene3's solution (Easy)](https://github.com/nduchene3/google-homepage) | [View in browser] (https://nduchene3.github.io/google-homepage/)
 * [Martin's solution (Easy)](https://binauralewe.github.io/google-homepage) | [View in browser] (https://binauralewe.github.io/google-homepage)
+* [marleybrush's solution (Easy)](https://github.com/marleybrush/google-homepage) | [View in browser] (https://marleybrush.github.io/google-homepage/)
 
 
 ## Additional Resources
