@@ -41,6 +41,8 @@ GEM
     addressable (2.4.0)
     arel (7.1.4)
     ast (2.3.0)
+    autoprefixer-rails (6.7.6)
+      execjs
     axiom-types (0.1.1)
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
@@ -53,6 +55,9 @@ GEM
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap (4.0.0.alpha6)
+      autoprefixer-rails (>= 6.0.3)
+      sass (>= 3.4.19)
     builder (3.2.2)
     cancancan (1.15.0)
     capybara (2.10.1)
@@ -367,11 +372,6 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.5)
-    twitter-bootstrap-rails (2.2.8)
-      actionpack (>= 3.1)
-      execjs
-      rails (>= 3.1)
-      railties (>= 3.1)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uber (0.0.15)
@@ -408,6 +408,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors (~> 2.1)
   binding_of_caller (~> 0.7)
+  bootstrap (~> 4.0.0.alpha6)
   cancancan (~> 1.15)
   capybara (~> 2.10)
   capybara-email (~> 2.5)
@@ -450,7 +451,6 @@ DEPENDENCIES
   simple_form (= 3.3.1)
   simplecov
   therubyracer (~> 0.12)
-  twitter-bootstrap-rails (~> 2.2.8)
   uglifier (~> 3.0)
   vcr (~> 3.0)
   web-console (~> 3.4)

@@ -9,8 +9,8 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require bootstrap_and_overrides
  *= require font-awesome
  *= require site
  *= require_tree .
  */
+@import "bootstrap";
