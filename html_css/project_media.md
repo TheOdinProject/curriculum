@@ -65,6 +65,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Leonard's solution](https://github.com/Kr0ntar/youtube-clone) | [View in browser](https://kr0ntar.github.io/youtube-clone/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/embedding-images-and-video) | [View in browser](https://adoniasdantas.github.io/embedding-images-and-video/)
 * [daunenok's solution](https://github.com/daunenok/embedded-video) | [View in browser]( https://daunenok.github.io/embedded-video/)
+* [Axel's solution](https://github.com/afuh/Youtube) | [View in browser](https://afuh.github.io/Youtube/)
 
 ## Additional Resources
 
