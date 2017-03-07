@@ -117,7 +117,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [mayank-r's solution (Easy)](https://github.com/mayank-r/google-homepage) | [View in browser](https://mayank-r.github.io/google-homepage/)
 * [sharkbite1414's solution (Easy)](https://github.com/sharkbite1414/search_engine) | [View in browser](https://sharkbite1414.github.io/search_engine/)
 * [clormor's solution (Easy)](https://github.com/clormor/google-homepage) | [View in browser](https://clormor.github.io/google-homepage/)
-* [mindoermiles262 solution (Easy)](https://github.com/mindovermiles262/google_homepage/) | [View in browser](https://mindovermiles262.github.io/google_homepage/)
+* [mindovermiles262 solution (Easy)](https://github.com/mindovermiles262/google_homepage/) | [View in browser](https://mindovermiles262.github.io/google_homepage/)
 * [Javal's solution (Easy)](https://github.com/javalnanda/google-homepage) | [View in browser (Easy)](https://javalnanda.github.io/google-homepage/)
 * [Danilo's solution (Easy)](https://github.com/sennator2/google-homepage)  | [View in browser (Easy)](https://sennator2.github.io/google-homepage/)
 * [Lisa patel's solution(Easy)](https://github.com/LISAPATEL98/google-homepage) |[View in browser](https://lisapatel98.github.io/google-homepage/)
