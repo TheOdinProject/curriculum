@@ -58,10 +58,9 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/mint-signup-clone) | [View in browser](https://adoniasdantas.github.io/mint-signup-clone/)
 * [Marcus' solution](https://github.com/nestcx/html_forms_exercise) | [View in browser](https://htmlpreview.github.io/?https://github.com/nestcx/html_forms_exercise/blob/master/index.html)
 * [Daunenok' solution](https://github.com/daunenok/mint-form) | [View in browser](https://daunenok.github.io/mint-form/)
+* [Flint Mayers' solution](https://github.com/FlintMayers/Project-HTML-Forms-with-Mint-) | [View in browser](https://flintmayers.github.io/Project-HTML-Forms-with-Mint-/)
 
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-
