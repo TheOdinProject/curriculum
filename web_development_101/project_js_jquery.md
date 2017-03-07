@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/jsketchr) | [View in browser](http://mindovermiles262.github.io/jsketchr/)
 * [Avoup's solution](https://github.com/avoup/sketchpad) | [View in browser](https://avoup.github.io/sketchpad/)
 * [Jordan Ellis-Lynch's Solution](https://github.com/jordy-el/sketch) | [View in browser](https://jordy-el.github.io/sketch/)
 * [Tarelochkin's solution](https://github.com/Tarelochkin/Sketchpad) | [View in browser](https://tarelochkin.github.io/Sketchpad/)
