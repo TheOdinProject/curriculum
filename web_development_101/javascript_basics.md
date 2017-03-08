@@ -449,6 +449,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Michael Nazari's solution](https://github.com/mikenaza/project-euler-solutions.git)
 * [Curtis Babin's solution](https://github.com/CurtisGrayeBabin/project-euler)
 * [Paritosh's solution](https://github.com/Paritosh97/Project-Euler)
+* [marleybrush's solution](https://github.com/marleybrush/ProjectEuler)
 
 ## Additional Resources
 
