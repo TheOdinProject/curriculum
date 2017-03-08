@@ -1,5 +1,4 @@
 # Final Project: Chess
-<!-- *Estimated Time: 12-18 hours* -->
 
 *Don't forget to use Git to save your projects!*
 
