@@ -1,5 +1,4 @@
 # Project: Tic Tac Toe
-<!-- *Estimated Time: 6-8 hours* -->
 
 *Don't forget to use Git to save your projects!*
 

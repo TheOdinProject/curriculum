@@ -1,5 +1,7 @@
 # Project: Linked Lists
 
+*Don't forget to use Git to save your projects!*
+
 In Computer Science one of the most basic and fundamental data structures is the
 linked list, which functions similarly to an array. The principal benefit of a linked
 list over a conventional array is that the list elements can easily be inserted or
@@ -31,8 +33,8 @@ A head node is the first node in the list, a tail node is the last node in the l
  1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
  2. [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
- 
- 
+
+
 ## Your Task
 You will need two classes:
 

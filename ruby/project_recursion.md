@@ -1,5 +1,4 @@
 # Project: Recursion
-<!-- *Estimated Time: 3-5 hours* -->
 
 *Don't forget to use Git to save your projects!*
 

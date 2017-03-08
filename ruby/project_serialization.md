@@ -1,5 +1,4 @@
 # Project: Serialization and Working with Files
-<!-- *Estimated Time: 4-6 hours* -->
 
 *Don't forget to use Git to save your projects!*
 

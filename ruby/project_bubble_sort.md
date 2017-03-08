@@ -1,5 +1,4 @@
 # Projects: Bubble Sort
-<!-- *Estimated Time: 4-8 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 

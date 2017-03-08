@@ -1,5 +1,4 @@
 # Projects: Caesar Cipher
-<!-- *Estimated Time: 3-5 hrs* -->
 
 *Don't forget to use Git to save your projects!*
 
