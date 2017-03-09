@@ -42,7 +42,8 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Paul Shonk's solution](https://github.com/pshonk/apple)
 * [cindygao93's solution](https://github.com/cindygao93/google-homepage) | [View in browser](https://cindygao93.github.io/google-homepage/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-backgrounds-gradients
-) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)
+) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)* [Flint Mayers' solution](https://github.com/FlintMayers/Backgrounds-and-Gradients-with-Apple-
+) | [View in browser](https://flintmayers.github.io/Backgrounds-and-Gradients-with-Apple-/)
 
 
 ## Additional Resources

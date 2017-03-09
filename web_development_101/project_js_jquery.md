@@ -39,6 +39,10 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/jsketchr) | [View in browser](http://mindovermiles262.github.io/jsketchr/)
+* [Avoup's solution](https://github.com/avoup/sketchpad) | [View in browser](https://avoup.github.io/sketchpad/)
+* [Jordan Ellis-Lynch's Solution](https://github.com/jordy-el/sketch) | [View in browser](https://jordy-el.github.io/sketch/)
+* [Tarelochkin's solution](https://github.com/Tarelochkin/Sketchpad) | [View in browser](https://tarelochkin.github.io/Sketchpad/)
 * [Devin's solution](https://github.com/devburke/mouse-sketcher) | [View in browser](https://devburke.github.io/mouse-sketcher/)
 * [lousaint's solution](https://github.com/lousaint/etch-a-pad) | [View in browser](https://lousaint.github.io/etch-a-pad/)
 * [Michael W's solution](https://github.com/ithuvanian/esketch) | [View in browser](http://ithuvanian.github.io/esketch/)
@@ -580,3 +584,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [DawidChe's solution](https://github.com/DawidChe/sketchpad-js) | [View in browser](https://dawidche.github.io/sketchpad-js/)
 * [Michael Nazari's solution] (https://github.com/mikenaza/js_jquery_project.git) | [View in browser] (https://mikenaza.github.io/js_jquery_project/)
 * [Axel's solution] (https://github.com/afuh/sketchpad) | [View in browser] (https://afuh.github.io/sketchpad/)
+* [Paritosh's solution] (https://github.com/Paritosh97/Etch-A-Sketch) | [View in browser] (https://paritosh97.github.io/Etch-A-Sketch/)
+* [Matheusfcunha's solution] (https://github.com/matheusfcunha/Etch_a_sketch) | [View in browser] (https://matheusfcunha.github.io/Etch_a_sketch/)

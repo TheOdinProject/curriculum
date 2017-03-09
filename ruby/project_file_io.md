@@ -16,6 +16,9 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/event-manager)
+* [RichJDSmith's Solution](https://github.com/richjdsmith/ruby_csv_cleaning)
+* [theghall's solution](https://github.com/theghall/event-manager.git)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/serialization/event_manager/lib/event_manager.rb)
 * [Austin Norman's solution](https://github.com/austinnormancore/event_manager)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-IO-project)
@@ -137,6 +140,9 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/hangman)
+* [theghall's solution](https://github.com/theghall/hangman.git)
+* [Josh Campanella's solution](https://github.com/joshcamp503/hangman)
 * [Jerliyah's solution](https://github.com/Jerliyah/hangman)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/hangman)
 * [Austin Norman's solution (with hd ascii graphics)](https://github.com/austinnormancore/hangman)
