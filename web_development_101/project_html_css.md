@@ -1021,6 +1021,7 @@ najnair's Solution (easy)(https://github.com/najnair/google-homepage) | [View in
 * [nduchene3's solution (Easy)](https://github.com/nduchene3/google-homepage) | [View in browser] (https://nduchene3.github.io/google-homepage/)
 * [Martin's solution (Easy)](https://binauralewe.github.io/google-homepage) | [View in browser] (https://binauralewe.github.io/google-homepage)
 * [marleybrush's solution (Easy)](https://github.com/marleybrush/google-homepage) | [View in browser] (https://marleybrush.github.io/google-homepage/)
+* [Alexis Benton's solution (Easy)](https://github.com/Lexis9784/google-homepage) | [View in browser] (https://Lexis9784.github.io/google-homepage/)
 
 
 ## Additional Resources
