@@ -380,6 +380,8 @@ najnair's Solution (easy)(https://github.com/najnair/google-homepage) | [View in
 * [Thulasi Arasu's solution](https://github.com/ThulasiA/google_homepage) | [View in browser](https://rawgit.com/ThulasiA/google_homepage/master/index.html)
 * [Nick Foster's solution](https://github.com/NickFS/Google.com-Homepage-Odin)
 * [Jeffrey Bartels' 'easy' solution](https://github.com/jitterboggle/google-homepage) | [View in browser](https://rawgit.com/jitterboggle/google-homepage/master/index.html)
+* [Aditya's solution (easy)](https://github.com/adityanagla1996/google-homepage) | [View in browser](https://adityanagla1996.github.io/google-homepage/)
+* [Aditya's solution (difficult)](https://github.com/adityanagla1996/google-search-results-page) | [View in browser](https://adityanagla1996.github.io/google-search-results-page/)
 * [Nathan's solution](https://github.com/viggie79/google-homepage) | [View in browser](https://rawgit.com/viggie79/google-homepage/master/google.html)
 * [Tarun Johnson's solution](https://github.com/tnt007tarun/google-homepage) | [View in browser](https://rawgit.com/tnt007tarun/google-homepage/master/index.html)
 * [Alex Hanger's solution](https://github.com/hanger129/google-homepage) | [View in browser](https://rawgit.com/hanger129/google-homepage/master/index.html)
