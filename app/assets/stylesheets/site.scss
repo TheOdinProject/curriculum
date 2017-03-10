@@ -4,9 +4,6 @@
 //
 // /* Assumed: Bootstrap has done the CSS resets for us */
 
-$footer_height: 80px;
-$footer_padding: 20px;
-
 p {
   margin: 0px;
 }
@@ -65,49 +62,52 @@ body {
 // End of Social Sharing Buttons
 
 footer {
-
-  background-color: $vdark_gray;
-  border-top: 1px solid $vlight_gray;
-  padding: $footer_padding 0;
+  background-color: #fff;
+  padding: 0;
   text-align: center;
-  font-size: .8em;
-  min-height: $footer_height;
+  font-size: 1em;
+  min-height: 277px;
   width: 100%;
   position: absolute;
   bottom: 0px;
-  // margin-bottom: -140px;
-
-  // margin-top: 50px;
-
-  .copyright{
-    // float: right;
-    margin-top: 5px;
+  display: flex;
+  .footer-logo {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
   }
-  form{
-    // float: left;
-    margin: 0 auto;
-  }
-
-  #feedback-text-box{
-    width: 100%;
-    max-width: 35em;
-    margin: .5em 0;
+  .footer-social {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    a {
+      flex:1;
+    }
   }
   .footer-links{
-    margin: 0 10px;
-    color: $light_gray;
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    .footer-links-container {
+      width: 112px;
+      height: 90px;
+      display: flex;
+      flex-direction: column;
+    }
     a{
-      display: inline-block;
-      margin: 0 2.5em .5em;
+      flex:1;
+      color: rgba(74, 74, 74, 0.7);
+      font-weight: bold;
+      text-decoration: none;
+      display: flex;
+      margin: 0;
     }
   }
 }
 
-@media(max-width: 600px){
-  .footer-form{
-    display:none;
-  }
-}
 .navbar{
   padding: 20px 5% 0px 5%;
   height: 100px;
