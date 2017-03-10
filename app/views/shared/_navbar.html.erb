@@ -2,14 +2,15 @@
 <div class='navbar'>
   <%= render "shared/logo_text" %>
 
-  <li class="top-link"><a href="<%= courses_path %>">Curriculum</a></li>
-  <li><%= link_to 'Chat', chat_link, class: 'gitter-chat-link', target: '_blank' %></li>
-
-  <% if user_signed_in? %>
-    <li><%= link_to "Profile", current_user %></li>
-    <li><%= link_to "Account", edit_user_registration_path %></li>
-    <li><%= link_to "Logout", logout_path  %></li>
-  <% else %>
-    <li data-no-turbolinks><%= link_to "Login", login_path, :class=>"top-link", :id=>"login-link" %></li>
-  <% end %>
+  <nav>
+    <a href="<%= courses_path %>">Curriculum</a>
+    <%= link_to 'Chat', chat_link, class: 'gitter-chat-link', target: '_blank' %>
+    <% if user_signed_in? %>
+      <%= link_to "Profile", current_user %></li>
+      <%= link_to "Account", edit_user_registration_path %></li>
+      <%= link_to "Logout", logout_path  %>
+    <% else %>
+      <%= link_to "Login", login_path, :class=>"top-link", :id=>"login-link" %>
+    <% end %>
+  </nav>
 </div>

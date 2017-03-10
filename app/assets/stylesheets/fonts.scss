@@ -4,4 +4,8 @@ $headline_fonts: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica
 $body_fonts: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $logo-fonts: "Palatino Linotype", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $monospace-font: 'Inconsolata', monospace;
-$grotesque-font: 'Montserrat', $body-fonts; 
+$grotesque-font: 'Montserrat', $body-fonts;
+@font-face {
+  font-family: "Norse";
+  src: font_url('Norse-Bold.otf');
+}
