@@ -47,7 +47,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-positioning-elements) | [View in browser](https://davidchappy.github.io/ny-times-html/)
 * [Charles Harries's solution](https://github.com/charlesharries/new_york_times) | [Check it in browser](https://htmlpreview.github.io/?https://github.com/charlesharries/new_york_times/blob/master/index.html)
 * [Flint Mayers's solution](https://github.com/FlintMayers/The_New_York_Times_project) | [Check it in browser](https://flintmayers.github.io/The_New_York_Times_project/)
-
+* [Axel’s solution](https://github.com/afuh/new-york-times) | [View in browser] (https://afuh.github.io/new-york-times/)
 
 ## Additional Resources
 
