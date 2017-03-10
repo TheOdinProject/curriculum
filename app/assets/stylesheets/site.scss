@@ -1,8 +1,8 @@
 @import "colors";
 @import "fonts";
 @import "mixins";
-
-/* Assumed: Bootstrap has done the CSS resets for us */
+//
+// /* Assumed: Bootstrap has done the CSS resets for us */
 
 $footer_height: 80px;
 $footer_padding: 20px;
@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background: $background_color;
+  background-color: #F7F7F7;
   font-size: 100%; // 16px
   min-height: 100%;
   position: relative;
@@ -30,10 +30,10 @@ body {
     display:none;
   }
 }
-
-#global-content-wrapper{
-  padding-bottom: $footer_height+$footer_padding*2;
-}
+//
+// #global-content-wrapper{
+//   padding-bottom: $footer_height+$footer_padding*2;
+// }
 
 
 /* Admin Flash CSS */
@@ -108,79 +108,87 @@ footer {
     display:none;
   }
 }
+.navbar{
+  padding: 20px 5% 0px 5%;
+  height: 100px;
+  nav {
+    float: right;
+    height: 100px;
+    color: #676767;
+    a {
+      text-decoration: none;
+      color: #676767;
+      line-height: 100px;
+      padding-left: 10px;
+      font-size: 1.1em;
+      letter-spacing: 0.2px
+    }
+    .divider {
+      font-size: 1.5em;
+      padding-left: 10px
+    }
+  }
+}
 
-.brand-box {
+header {
+  h1 {
+    font-size: 3.5em;
+    color: #ce973e;
+    font-weight: normal;
+    margin-bottom: 30px;
+    letter-spacing: 0.4px;
+  }
+  h2 {
+    color: #cc9543;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: 0.2px;
+  }
+  .signup-cta {
+    text-decoration: none;
+    background-color: #6abfc3;
+    color: #ffffff;
+    display: block;
+    width: 15%;
+    text-align: center;
+    height: 60px;
+    border-radius: 3px;
+    line-height: 60px;
+    margin: 70px auto 70px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+  }
+}
+
+.logo {
   font-family: $logo-fonts;
   float: left;
-  display: block;
-  margin-left: -20px;
-  // margin-top: -4px;
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 8px;
-  font-weight: 200;
-  a{
+  height: 70px;
+  a {
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 200;
-    font-variant: small-caps;
-    letter-spacing: 1px;
-    color: #aaa;
-    // text-shadow: 0 1px 0 #ffffff;
   }
   .logo-text{
+    color: #cc9543;
+    float: left;
+    padding-left: 10px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-family: Norse;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 1.5em;
   }
   .logo-img{
-    width: 30px;
-    height: 30px;
-    margin-top: -9px;
-    margin-bottom: -4px;
-    margin-right: 3px;
+    width: 80px;
+    height: auto;
+    float: left;
+    height: 100px;
   }
 }
 
-.navbar-inner{
-  // height: 50px!important;
-  // padding-top: 4px;
-  // height:
-}
-.nav > li > a {
-  color: #aaa !important;
-  padding-top: 15px!important;
-  height: 25px!important;
-  text-shadow: none !important;
-  &:hover{
-    color: #ddd !important;
-  }
-}
-.nav li.dropdown.open > .dropdown-toggle{
-  color: #555 !important;
-}
-.caret{
-  border-bottom-color: #aaa !important;
-  border-top-color: #aaa !important;
-  &:hover{
-    border-top-color: #ddd !important;
-    border-bottom-color: #ddd !important;
-  }
-}
-.nav-links {
-  .top-link{
-    font-size: 16px;
-  }
-  strong{
-    font-size: 120%;
-  }
-}
-
-.navbar-inner{
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  background-image: none !important;
-  background-color: $vdark_gray !important;
-  border-bottom: 1px solid #eee !important;
-}
 
 .pagination-wrapper{
   text-align: center;

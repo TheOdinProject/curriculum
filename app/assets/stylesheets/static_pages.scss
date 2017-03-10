@@ -9,25 +9,10 @@
 /*Namespacing all the home page styles*/
 
 #home-page{
-
-  background-color: white;
   font-family: 'Open Sans', sans-serif;
 
   h1,h2,h3,h4{
     font-family: 'Open Sans Condensed', sans-serif;
-  }
-  h1{
-    font-size: 4em;
-    font-weight: normal;
-  }
-  h2{
-    font-size: 2.75em;
-    font-weight: 300;
-    line-height: 125%;
-    font-weight: bold;
-    color: $dark_gray;
-    margin-top: 0;
-    margin-bottom: 1em;
   }
   h3{
     font-size: 2em;
@@ -83,22 +68,12 @@
     -o-background-size: cover;
     background-size: cover;
   }
-
-  .navbar{
-    padding: 0px 50px 0px 50px;
-    background-color: $vdark_gray;
-    height: 50px;
-    .nav-narrow{
-      max-width: 1170px;
-      margin: 0px auto;
-    }
-    .menu-wrapper{
-      padding-top: 15px;
-      padding-right: 10px;
-      float: right;
-      font-size: .75em;
-      color: $light_gray;
-    }
+  .menu-wrapper{
+    padding-top: 15px;
+    padding-right: 10px;
+    float: right;
+    font-size: .75em;
+    color: $light_gray;
   }
 
   .top-box{

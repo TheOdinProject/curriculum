@@ -1,61 +1,34 @@
 <div id="home-page">
-
-  <div class="above-the-fold">
-    <div class="shield">
-      <div class="navbar">
-        <div class="nav-narrow">
-          <div class="logo-wrapper">
-            <%= render :partial => "shared/logo_text" %>
-          </div>
-          <div class="menu-wrapper">
-            <%= link_to "Curriculum", courses_path(:ref => "homenav") %> |
-            <% if current_user %>
-              <%= link_to "Logout", logout_path(:ref => "homenav") %>
-            <% else %>
-              <%= link_to "Login", login_path(:ref => "homenav")%>
-            <% end %>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-      <div class="container narrow">
-        <div class="top-box-wrapper">
-          <div class="top-box">
-            <div class="headline">
-              <h1>
-                Learn Web Development for Free
-              </h1>
-            </div>
-            <div class="subheading">
-              <h2>
-                Stop wasting time...&nbsp;  Here's what you need to know.
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="cta-box-top-wrapper">
-          <div class="cta-box-top">
-            <a href='courses/introduction-to-web-development/lessons/what-a-web-developer-does'>
-              <button class="btn btn-success cta-button">
-                Learn what a web developer does
-              </button>
-            </a>
-            <%= link_to courses_path(:ref => "home") do %>
-              <button class="btn btn-success cta-button">
-                Explore the full curriculum
-              </button>
-            <% end %>
-            <p>
-              ...or scroll down to learn more
-            </p>
-          </div>
-        </div>
-
-      </div>
+    <div class="navbar">
+      <%= render :partial => "shared/logo_text" %>
+      <nav>
+        <%= link_to "Curriculum", courses_path(:ref => "homenav") %>
+        <%= link_to "Chat", chat_link %>
+        <%= link_to "About", about_path(:ref => "homenav") %>
+        <%= link_to "FAQ", faq_path(:ref => "homenav") %>
+        <span class="divider">|</span>
+        <% if current_user %>
+          <%= link_to "Logout", logout_path(:ref => "homenav") %>
+        <% else %>
+          <%= link_to "Sign Up", sign_up_path(:ref => "homenav")%>
+          <%= link_to "Login", login_path(:ref => "homenav")%>
+          <% end %>
+        </nav>
     </div>
-  </div>
 
+    <header>
+      <h1>
+        Learn Web Development for Free
+      </h1>
+      <h2>
+        Stop wasting time...&nbsp;  Here's what you need to know.
+      </h2>
+
+      <a class='signup-cta' href=<%= sign_up_path %>>Sign Up</a>
+    </header>
+
+    <%= image_tag "homepage-hero.jpeg", :class=>"homepage-hero" %>
+    <!-- You are now entering a wasteland of markup -->
 
   <div class="social-buttons">
     <div class="container narrow">
