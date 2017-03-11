@@ -397,24 +397,7 @@ form#edit-user{
 }
 
 /* ****************** MEDIA QUERIES ********************** */
-@media (max-width: 979px){
-  body {
-    padding-top: 0px;
-  }
-  footer {
-    flex-direction: column;
-    height: 400px;
-    .footer-links{
-      .footer-links-container {
-        text-align: center;
-        width: 40%;
-      }
-      a{
-        justify-content: center;
-      }
-    }
-  }
-}
+
 
 // For window.lesson.applyScrollEffect()
 @media (min-width: 980px) {

@@ -34,7 +34,7 @@
     margin-bottom: 160px;
     .how-it-works-title {
       text-align: center;
-      width: 600px;
+      max-width: 600px;
       margin: 0 auto;
       margin-bottom: 100px;
       p {
@@ -43,9 +43,9 @@
     }
     .how-it-works-tiles {
       display: flex;
-      width: 80%;
+      max-width: 960px;
       margin: 0 auto;
-      height: 400px;
+      min-height: 400px;
       text-align: center;
       .tile {
         padding: 1em;
@@ -56,14 +56,15 @@
   .curriculum-details {
     text-align: center;
     .home-courses {
-      width: 80%;
+      max-width: 960px;
       margin: 0 auto;
     }
   }
   .success-stories {
-    height: 990px;
+    min-height: 990px;
     width: 100%;
     background: linear-gradient( to top, $white-two, #fff);
+    padding-bottom: 60px;
     .success-stories-title{
       width: 100%;
       text-align: center;
@@ -73,7 +74,7 @@
     .success-stories-container{
       color: $greyish-brown;
       max-width: 1280px;
-      height: 400px;
+      min-height: 400px;
       margin: 0 auto;
       margin-top: 100px;
       display: flex;
@@ -453,4 +454,45 @@ div.chat-actions{
   padding-bottom: 1em;
   margin: 1em auto;
   display: block;
+}
+
+@media (max-width: 979px){
+  #home-page {
+    .how-it-works-tiles {
+      flex-direction: column;
+      .how-it-works-image {
+        height: 120px;
+      }
+    }
+    .success-stories{
+      .success-stories-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+      .success-story {
+        flex: 1;
+        padding-bottom: 2em;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      .success-stories-sign-up{
+        .signup-button{
+          width: 50%;
+        }
+      }
+    }
+  }
+  footer {
+    flex-direction: column;
+    height: 400px;
+    .footer-links{
+      .footer-links-container {
+        text-align: center;
+        width: 40%;
+      }
+      a{
+        justify-content: center;
+      }
+    }
+  }
 }
