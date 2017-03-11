@@ -178,6 +178,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Ramon Reyes's solution](https://github.com/Reyesjunk/test_first)
 * [Johnny Rasnic's solution](https://github.com/lonniganseaweed/the-odin-project-solutions/tree/master/2:%20Web%20Development%20101/learn_ruby)
 * [Tom Westerhout's solution](https://github.com/Westw00d/Ruby)
+* [Felipe Boascardin's solution](https://github.com/Boscardin/learn_ruby)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/Project-Ruby)
 * [Huw Diprose's solution](https://github.com/huwd/learn_ruby)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/test_first_ruby)
