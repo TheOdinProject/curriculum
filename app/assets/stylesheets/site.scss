@@ -72,7 +72,7 @@ footer {
   font-size: 1em;
   min-height: 277px;
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0px;
   display: flex;
   .footer-logo {
@@ -136,14 +136,15 @@ footer {
 
 header {
   h1 {
+    font-family: $headline-fonts;
     font-size: 3.5em;
-    color: #ce973e;
-    font-weight: normal;
+    color: $camel;
+    font-weight: light;
     margin-bottom: 30px;
     letter-spacing: 0.4px;
   }
   h2 {
-    color: #cc9543;
+    color: $camel;
     text-align: center;
     font-weight: 600;
     font-size: 1.4em;
@@ -192,7 +193,6 @@ header {
     height: 100px;
   }
 }
-
 
 .pagination-wrapper{
   text-align: center;

@@ -26,10 +26,6 @@
     line-height: 125%;
     color: $mid_gray;
   }
-  p{
-    font-weight: 300;
-    color: $mid_gray;
-  }
 
   .img-wrapper{
     border: 1px solid #fcfcfc;
@@ -169,6 +165,82 @@
   }
 
 
+  .success-stories {
+    height: 990px;
+    width: 100%;
+    background: linear-gradient( to top, $white-two, #fff);
+    .success-stories-title{
+      font-weight: bold;
+      font-size: 1.5em;
+      color: $greyish-brown;
+      width: 100%;
+      text-align: center;
+      padding-top: 120px;
+      letter-spacing: 0.3px;
+    }
+    .success-stories-container{
+      color: $greyish-brown;
+      max-width: 1280px;
+      height: 400px;
+      margin: 0 auto;
+      margin-top: 100px;
+      display: flex;
+      flex-wrap: wrap;
+      .success-story{
+        flex-basis: 49.9%;
+        display: flex;
+          .photo {
+            flex-basis: 100px;
+            text-align: center;
+            padding-top: 16px;
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%
+            }
+          }
+          .success-content {
+            font-size: 1em;
+            font-weight: normal;
+            line-height: 1.88;
+            letter-spacing: 0.2px;
+            flex: 1
+          }
+      }
+    }
+    .success-stories-read-more {
+      width: 100%;
+      text-align: center;
+      a {
+        color: rgba(74, 74, 74, 0.7)
+      }
+    }
+    .success-stories-sign-up {
+      margin-top: 50px;
+      font-size: 2.2em;
+      font-weight: light;
+      width: 100%;
+      text-align: center;
+      letter-spacing: 0.4px;
+      color: rgba(74, 74, 74, 0.7);
+    .signup-button {
+      text-decoration: none;
+      background-color: #6abfc3;
+      color: #ffffff;
+      display: block;
+      width: 15%;
+      text-align: center;
+      height: 60px;
+      border-radius: 3px;
+      line-height: 60px;
+      margin: 60px auto 60px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      font-size: 18px;
+    }
+    }
+  }
 
   .what-its-about{
     clear: both;

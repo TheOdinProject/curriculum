@@ -279,66 +279,60 @@
     </div>
   </div>
 
-  <div class="why-awesome section dark">
-    <div class="container narrow">
-      <h2>
-        Why This Project Rocks
-      </h2>
-      <div class="panel-wrapper">
-        <div class="panel">
-          <div class="img-wrapper">
-            <%= image_tag "icons/textedit.png", :width => "150px", :title => "A Living Curriculum" %>
-          </div>
-          <h3>
-            The Curriculum Lives
-          </h3>
-          <p>
-            The curriculum is really flexible -- when a better way to learn something comes along we can just use that instead!
-          </p>
-          <a href="https://github.com/TheOdinProject/curriculum">See the curriculum on Github >></a>
+  <div class="success-stories">
+    <div class="success-stories-title">Success Stories</div>
+    <div class="success-stories-container">
+      <div class="success-story">
+        <div class="photo">
+          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
         </div>
-
-        <div class="panel">
-          <div class="img-wrapper">
-            <%= image_tag "icons/open_source2.svg", :width => "150px", :title => "Open Source" %>
-          </div>
-          <h3>
-            It's Open Source
-          </h3>
+        <div class="success-content">
+          <p>Ben Gray</p>
           <p>
-            This website is available under an MIT license and the curriculum is Creative Commons.  Both are on Github.          </p>
-          <a href="https://github.com/TheOdinProject/theodinproject">See this site on Github >></a>
-        </div>
-
-        <div class="panel">
-          <div class="img-wrapper">
-            <%= image_tag "icons/xcode.png", :width => "150px", :title => "Build You Own Tools" %>
-          </div>
-          <h3>
-            Build Your Own Tools
-          </h3>
-          <p>
-            Students are currently contributing to both the curriculum and the main website... so they build what they use.
+          The best free learning resource for code learners. Highly recommend it! Great community as well on Gitter.
           </p>
-          <%= link_to "Learn how to contribute >>", contributing_path %>
         </div>
       </div>
-      <div class="clearfix"></div>
+      <div class="success-story">
+        <div class="photo">
+          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
+        </div>
+        <div class="success-content">
+          <p>Michael Weins</p>
+          <p>
+            Fantastic learning experience with The Odin Project! Upon completion, I was offered a job at several startups.
+          </p>
+        </div>
+      </div>
+      <div class="success-story">
+        <div class="photo">
+          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
+        </div>
+        <div class="success-content">
+          <p>Kris Tobiki</p>
+          <p>
+            Incredible experience throughout the curriculum. I’ve met many new developer friends and collaborated together.
+          </p>
+        </div>
+      </div>
+      <div class="success-story">
+        <div class="photo">
+          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
+        </div>
+        <div class="success-content">
+          <p>Laura Smith</p>
+          <p>
+            Love the courses offered and the self-paced learning. I absolutely love the personal dashboard to track progress.
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-
-    <div class="clear-div"></div>
-
-  <div class="cta-bottom section">
-    <div class="container narrow">
-      <p>
-        Are you curious yet?
-      </p>
-      <%= link_to courses_path(:ref => "home_b") do %>
-        <button class="btn btn-success cta-button">
-          Check out the curriculum!
-        </button>
-      <% end %>
+    <div class="success-stories-read-more">
+      <%= link_to  "Read more success stories", "#" %>
+    </div>
+    <div class="success-stories-sign-up">
+      <p>Start learning for free now!</p>
+      <a class='signup-button' href=<%= sign_up_path(:ref => "homenav") %>>Sign Up</a>
     </div>
   </div>
 </div>
