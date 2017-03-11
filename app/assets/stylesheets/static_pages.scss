@@ -10,169 +10,61 @@
 
 #home-page{
   font-family: 'Open Sans', sans-serif;
-
-  h1,h2,h3,h4{
-    font-family: 'Open Sans Condensed', sans-serif;
-  }
-  h3{
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 125%;
-    color: $dark_gray;
-  }
-  h4{
+  background: #fff;
+  h2 {
+    font-weight: bold;
     font-size: 1.5em;
-    font-weight: 300;
-    line-height: 125%;
-    color: $mid_gray;
+    color: $greyish-brown
   }
-
-  .img-wrapper{
-    border: 1px solid #fcfcfc;
+  h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: $greyish-brown
   }
-
-  .narrow{
-    max-width: 800px;
+  p {
+    font-weight: normal;
+    font-size: 1em;
+    color: $greyish-brown;
+    line-height: 1.88;
+    letter-spacing: 0.2px
   }
-
-  .content{
-    padding: 30px 0px;
-  }
-
-  .section{
-    padding: 4em 0;
-    margin: 0px auto;
-    // border-bottom: 1px solid $vlight_gray;
-  }
-
-  .dark{
-    // background-color: $off_white;
-  }
-  .shield{
-    background-color: rgba(0,0,0,.65);
-  }
-  .shield2{
-    background-color: rgba(255,255,255,.05);
-  }
-
-
-  .above-the-fold{
-    width: 100%;
-    background: image-url("home_background_blur.jpg") no-repeat center center; // fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .menu-wrapper{
-    padding-top: 15px;
-    padding-right: 10px;
-    float: right;
-    font-size: .75em;
-    color: $light_gray;
-  }
-
-  .top-box{
-    padding: 1em;
-    margin: 1em auto 0 auto;
-    background-color: none;
-    @include border-radius(.25em);
-    // border: 1px solid rgba(255,255,255,.15);
-    .headline{
-      padding: 10px 0px 10px 0px;
+  .how-it-works {
+    min-height: 400px;
+    padding-top: 140px;
+    margin-bottom: 160px;
+    .how-it-works-title {
       text-align: center;
-      h1{
-        line-height: 1em;
-        color: white;
-        margin: 0;
-        padding: 0;
-      }
-    }
-    @media (max-width: 768px){
-        .headline{
-          font-size: 18px;
-        }
-    }
-    .subheading{
-      margin: 0.65em 0 1em 0;
-      text-align: center;
-      h2{
-        color: #f90;
-        font-size: 1.75em;
-        margin: 0;
-        font-weight: normal;
-      }
-    }
-  }
-
-  .cta-box-top-wrapper{
-    margin-top: 40px;
-    margin-bottom: 40px;
-    .cta-box-top{
-      // border: 1px solid rgba(255,255,255,.15);
-      @include border-radius(.25em);
-      padding: 20px;
+      width: 600px;
       margin: 0 auto;
-      background-color: none;
+      margin-bottom: 100px;
+      p {
+        padding-top: 1em;
+      }
+    }
+    .how-it-works-tiles {
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+      height: 400px;
       text-align: center;
-      // width: 400px;
-
-      p{
-        font-size: .75em;
-        font-weight: 300;
-        color: white;
-        margin-top: 15px;
+      .tile {
+        padding: 1em;
+        flex: 1;
       }
     }
   }
-
-  button.cta-button{
-    font-size: 1.75em;
-    line-height: 1.25em;
-    width: 100%;
-    max-width: 14em;
-    min-height: 2.5em;
-    margin: .5em auto;
-    font-family: "Open Sans Condensed", sans-serif;
-    @include border-radius(20px);
-  }
-
-
-  .social-buttons{
+  .curriculum-details {
     text-align: center;
-    height: 60px;
-    // background: image-url("patterns/subtle_dark_vertical.png");
-    border-bottom: 1px solid #efefef;
-  }
-
-  .social{
-    padding: 12px 0px 0px 0px;
-    text-align: center;
-    display: inline-block;
-    .social-button{
-      width: 115px;
-      height: 25px;
-      display:inline-block;
-      padding: 5px 0px;
-    }
-    .facebook{
-      padding-right: 10px;
-    }
-    .twitter{
-    }
-    .google-plus{
+    .home-courses {
+      width: 80%;
+      margin: 0 auto;
     }
   }
-
-
   .success-stories {
     height: 990px;
     width: 100%;
     background: linear-gradient( to top, $white-two, #fff);
     .success-stories-title{
-      font-weight: bold;
-      font-size: 1.5em;
-      color: $greyish-brown;
       width: 100%;
       text-align: center;
       padding-top: 120px;
@@ -200,10 +92,6 @@
             }
           }
           .success-content {
-            font-size: 1em;
-            font-weight: normal;
-            line-height: 1.88;
-            letter-spacing: 0.2px;
             flex: 1
           }
       }
@@ -241,203 +129,6 @@
     }
     }
   }
-
-  .what-its-about{
-    clear: both;
-
-    h4{
-      margin-top: 1em;
-    }
-
-    .about-panels{
-      max-width: 750px;
-      margin: 30px auto;
-
-      .about-panel{
-        float: left;
-        width: 200px;
-        margin: 0 25px;
-        text-align: center;
-        .img-wrapper{
-          width: 100px;
-          height: 100px;
-          margin: 30px auto;
-          border: none;
-        }
-        h3{
-          color: $highlight_orange;
-        }
-        p{
-          font-weight: 300;
-          font-size: .75em;
-        }
-      }
-    }
-  }
-
-
-
-  .what-youll-learn{
-    clear: both;
-    @include black-links;
-    // background: image-url("patterns/tiny_black_checker.gif");
-    background: image-url("patterns/subtle_dark_vertical.png");
-    h2{
-      color: #eee;
-    }
-    .container{
-      // background: image-url("patterns/tiny_black_checker.gif");
-    }
-
-    .course-panels{
-      margin: 0px auto;
-
-      .course-panel{
-        // float: center;
-        width: 100%;
-        max-width: 500px;
-        min-height: 100px;
-        padding: 20px 40px;
-        // margin-left: 1em;
-        margin: 0 auto;
-        &:hover{
-          background-color: rgba(255,255,255,.05);
-        }
-
-        .img-wrapper{
-          width: 80px;
-          height: 90px;
-          padding-right: 20px;
-          float: left;
-          // margin-right: 1.75em;
-          border: none;
-        }
-        .copy-wrapper{
-          height: 90px;
-          width: 100%;
-          max-width: 400px;
-          float: right;
-          h3{
-            margin-top: -.1em;
-            margin-bottom: .25em;
-            color: #cfcfcf;
-          }
-          p{
-            font-weight: 300;
-            color: #9f9f9f;
-            // margin-left: 7.75em;
-          }
-        }
-      }
-      @media (max-width: 979px){
-        .course-panel{
-          padding-left: 0;
-          padding-right: 0;
-        }
-      }
-    }
-  }
-
-
-
-  .how-it-works{
-    clear: both;
-    // background: image-url("patterns/cream.png");
-    h3{
-      font-size: 2em;
-      // font-weight: bold;
-      color: $highlight_orange;
-    }
-
-    .panel-wrapper{
-      max-width: 800px;
-
-      .panel{
-        float: left;
-        max-width: 350px;
-        padding: 0 25px;
-        margin: 15px 0;
-        text-align: center;
-
-        .img-wrapper{
-          max-width: 300px;
-          height: 150px;
-          margin: 0 auto;
-        }
-      }
-    }
-    .work-together{
-      text-align: center;
-      clear: both;
-      padding-top: 2em;
-
-      .img-wrapper{
-        max-width: 500px;
-        height: 200px;
-        margin: 0 auto;
-      }
-      .copy-wrapper{
-        max-width: 450px;
-        margin: 0 auto;
-      }
-    }
-  }
-
-
-
-  .why-awesome{
-    clear: both;
-    background: image-url("patterns/subtle_dark_vertical.png");
-    h2{
-      color: #eee;
-    }
-    h3{
-      color: #cfcfcf;
-    }
-
-    .panel-wrapper{
-      max-width: 750px;
-      margin: 30px auto;
-
-      .panel{
-        float: left;
-        width: 220px;
-        padding: 0 15px;
-        text-align: center;
-
-        .img-wrapper{
-          width: 150px;
-          height: 150px;
-          margin: 10px auto;
-          border: none;
-        }
-
-        p{
-          color: #9f9f9f;
-          font-size: .75em;
-          font-weight: 400;
-        }
-        a{
-          font-size: .75em;
-        }
-
-      }
-    }
-  }
-
-
-
-  .clear-div{
-    clear: both;
-  }
-
-  .cta-bottom{
-    text-align: center;
-    p{
-      color: $light_gray;
-    }
-  }
-
 
 }  /* END OF NAMESPACING HOME PAGE */
 
