@@ -90,10 +90,55 @@
     }
   }
   .curriculum-details {
-    text-align: center;
-    .home-courses {
-      max-width: 960px;
+    .view-curriculum-details {
+      text-decoration: none;
+      background-color: $camel;
+      color: #ffffff;
+      display: block;
+      text-align: center;
+      padding: 0 1.5em 0 1.5em;
+      width: 250px;
+      height: 60px;
+      border-radius: 3px;
+      line-height: 60px;
+      margin: 70px auto 70px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      font-size: 18px;
+    }
+    .curriculum-details-title {
+      text-align: center;
+      margin-bottom: 100px;
+      .coffee {
+        color: $coffee;
+      }
+      .orange {
+        color: $dusty-orange;
+      }
+      .camo {
+        color: $camo;
+      }
+    }
+    .curriculum-details-grid {
+      display: flex;
+      max-width: 1280px;
       margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .curriculum-details-tile {
+        text-align: center;
+        flex: 1;
+        height: 340px;
+        flex-basis: 33%;
+        padding-top: 2em;
+        h3 {
+          margin-bottom: .2em;
+        }
+        p {
+          font-size: .9em;
+        }
+      }
     }
   }
   .success-stories {
@@ -492,12 +537,13 @@ div.chat-actions{
   display: block;
 }
 
-@media (max-width: 979px){
+@media (max-width: 992px){
   #home-page {
-    .how-it-works-tiles {
-      flex-direction: column;
-      .how-it-works-image {
-        height: 120px;
+    .curriculum-details {
+      .curriculum-details-grid {
+        .curriculum-details-tile {
+          flex-basis: 50%;
+        }
       }
     }
     .success-stories{
@@ -518,6 +564,17 @@ div.chat-actions{
       }
     }
   }
+}
+
+@media (max-width: 768px) {
+  #home-page {
+    .how-it-works-tiles {
+      flex-direction: column;
+      .how-it-works-image {
+        height: 120px;
+      }
+    }
+  }
   footer {
     flex-direction: column;
     height: 400px;
@@ -531,4 +588,16 @@ div.chat-actions{
       }
     }
   }
+}
+@media (max-width: 480px){
+  #home-page {
+    .curriculum-details {
+      .curriculum-details-grid {
+        .curriculum-details-tile {
+          flex-basis: 100%;
+        }
+      }
+    }
+  }
+
 }

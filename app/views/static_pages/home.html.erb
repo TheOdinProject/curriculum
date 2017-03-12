@@ -52,8 +52,51 @@
       </div>
     </div>
   </div>
+
   <div class="curriculum-details">
-    <%= image_tag  "home-courses.svg", :class=>"home-courses" %>
+    <div class="curriculum-details-title">
+      <h2>Choose to learn from a path: <span class="coffee">Full Stack</span>, <span class="orange">Front End</span>, <span class="camo">Back End</span></h2>
+      <h2>Or selectively learn from the following courses:</h2>
+    </div>
+    <div class="curriculum-details-grid">
+      <div class="curriculum-details-tile">
+        <%= image_tag  "badge-html.svg" %>
+        <h3>HTML + CSS3</h3>
+        <p>13 LESSONS</p>
+      </div>
+      <div class="curriculum-details-tile">
+        <%= image_tag  "badge-javascript.svg" %>
+        <h3>JavaScript</h3>
+        <p>13 LESSONS</p>
+      </div>
+      <div class="curriculum-details-tile">
+        <%= image_tag  "badge-git.svg" %>
+        <h3>Git</h3>
+        <p>13 LESSONS</p>
+      </div>
+      <div class="curriculum-details-tile">
+        <%= image_tag  "badge-database.svg" %>
+        <h3>Databases</h3>
+        <p>13 LESSONS</p>
+      </div>
+      <div class="curriculum-details-tile">
+        <%= image_tag  "badge-ruby.svg" %>
+        <h3>Ruby</h3>
+        <p>13 LESSONS</p>
+      </div>
+      <div class="curriculum-details-tile">
+        <%= image_tag  "badge-ruby-on-rails.svg" %>
+        <h3>Ruby on Rails</h3>
+        <p>13 LESSONS</p>
+      </div>
+      <div class="curriculum-details-tile">
+        <%= image_tag  "badge-getting-hired.svg" %>
+        <h3>Getting Hired as a Web Developer</h3>
+        <p>13 LESSONS</p>
+      </div>
+    </div>
+    <a class='view-curriculum-details' href=<%= courses_path(:ref => "homenav") %>>View Curriculum Details</a>
+    
   </div>
  
   <div class="success-stories">
