@@ -8,9 +8,17 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
- *= require font-awesome
- *= require site
- *= require_tree .
  */
 @import "bootstrap";
+@import "font-awesome";
+@import "colors";
+@import "courses";
+@import "fonts";
+@import "lessons";
+@import "mixins";
+@import "navbar";
+@import "prism";
+@import "site";
+@import "social";
+@import "static_pages";
+@import "users";

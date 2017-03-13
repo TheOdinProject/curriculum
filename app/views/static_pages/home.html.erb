@@ -1,34 +1,20 @@
 <div id="home-page">
-    <div class="navbar">
-      <%= render :partial => "shared/logo_text" %>
-      <nav>
-        <%= link_to "Curriculum", courses_path(:ref => "homenav") %>
-        <%= link_to "Chat", chat_link %>
-        <%= link_to "About", about_path(:ref => "homenav") %>
-        <%= link_to "FAQ", faq_path(:ref => "homenav") %>
-        <span class="divider">|</span>
-        <% if current_user %>
-          <%= link_to "Logout", logout_path(:ref => "homenav") %>
-        <% else %>
-          <%= link_to "Sign Up", sign_up_path(:ref => "homenav")%>
-          <%= link_to "Login", login_path(:ref => "homenav")%>
-          <% end %>
-        </nav>
-    </div>
+  <%= render partial: "shared/navbar" %>
 
-    <header>
-      <h1>
-        Learn Web Development for Free
-      </h1>
-      <h2>
-        Stop wasting time...&nbsp;  Here's what you need to know.
-      </h2>
+  <header>
+    <h1>
+      Learn Web Development for Free
+    </h1>
+    <h2>
+      Stop wasting time...&nbsp;  Here's what you need to know.
+    </h2>
 
-      <a class='signup-cta' href=<%= sign_up_path(:ref => "homenav") %>>Sign Up</a>
-    </header>
+    <a class='signup-cta' href=<%= sign_up_path(:ref => "homenav") %>>Sign Up</a>
+  </header>
 
-    <%= image_tag "homepage-hero.jpeg", :class=>"homepage-hero" %>
-    <!-- You are now entering a wasteland of markup -->
+  <%= image_tag "homepage-hero.jpeg", :class=>"homepage-hero" %>
+
+  <!-- You are now entering a wasteland of markup -->
   <div class="how-it-works">
     <div class="how-it-works-title">
       <h2>How it works</h2>
@@ -96,9 +82,9 @@
       </div>
     </div>
     <a class='view-curriculum-details' href=<%= courses_path(:ref => "homenav") %>>View Curriculum Details</a>
-    
+
   </div>
- 
+
   <div class="success-stories">
     <div class="success-stories-title">
       <h2>Success Stories</h2>

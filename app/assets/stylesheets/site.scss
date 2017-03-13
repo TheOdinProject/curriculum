@@ -114,24 +114,33 @@ footer {
 
 .navbar{
   padding: 20px 5% 0px 5%;
-  height: 100px;
+  margin-bottom: 50px;
   nav {
-    float: right;
-    height: 100px;
     color: #676767;
-    a {
-      text-decoration: none;
-      color: #676767;
-      line-height: 100px;
-      padding-left: 10px;
-      font-size: 1.1em;
-      letter-spacing: 0.2px
-    }
-    .divider {
-      font-size: 1.5em;
-      padding-left: 10px
+    .navbar-nav {
+      li {
+        color: #676767;
+        font-size: 1.1em;
+        a {
+          text-decoration: none;
+          letter-spacing: 0.2px;
+          line-height: 100px;
+        }
+        .nav-link {
+          color: #676767;
+        }
+      }
+      .divider {
+        font-size: 1.5em;
+        line-height: 90px;
+      }
     }
   }
+}
+
+.navbar-toggler-right {
+  top: 45px;
+  right: 5%;
 }
 
 
@@ -139,13 +148,11 @@ footer {
 .logo {
   font-family: $logo-fonts;
   float: left;
-  height: 70px;
   a {
     text-decoration: none;
   }
   .logo-text{
     color: #cc9543;
-    float: left;
     padding-left: 10px;
     line-height: 100px;
     text-transform: uppercase;
@@ -153,10 +160,9 @@ footer {
     letter-spacing: 0.4px;
     font-weight: bold;
     font-size: 1.8em;
+    display: inline-block;
   }
   .logo-img{
-    width: 80px;
-    height: auto;
     float: left;
     height: 100px;
   }
@@ -365,11 +371,39 @@ form#edit-user{
 }
 
 /* ****************** MEDIA QUERIES ********************** */
+@media (max-width: 992px) {
+  .divider {
+    display: none;
+  }
 
+  .navbar {
+    nav {
+      .navbar-nav {
+        margin-top: 20px;
+        li {
+          a {
+            line-height: normal;
+          }
+        }
+      }
+    }
+  }
 
-// For window.lesson.applyScrollEffect()
-@media (min-width: 980px) {
-  .navbar-fixed-top.scroll--down{
-    @include translateY(-100%);
+  h1 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .logo {
+    width: 100%;
+    .logo-img {
+      float: none;
+    }
+  }
+
+  h2 {
+    max-width: 80%;
+    margin: 0 auto;
   }
 }
