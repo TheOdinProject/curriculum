@@ -31,9 +31,11 @@
   }
 
   header {
+      background: linear-gradient(to top, #f8f8f8, #fff);
+      padding-bottom: 60px;
     h1 {
       font-family: $headline-fonts;
-      font-size: 3.5em;
+      font-size: 3em;
       color: $camel;
       font-weight: 300;
       margin-bottom: 30px;
@@ -51,12 +53,12 @@
       background-color: #6abfc3;
       color: #ffffff;
       display: block;
-      width: 15%;
+      width: 200px;
       text-align: center;
       height: 60px;
       border-radius: 3px;
       line-height: 60px;
-      margin: 70px auto 70px;
+      margin: 70px auto 0;
       box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
       font-weight: bold;
       letter-spacing: 0.2px;
@@ -537,8 +539,13 @@ div.chat-actions{
   display: block;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
   #home-page {
+    header {
+      .signup-cta {
+        width: 20%;
+      }
+    }
     .curriculum-details {
       .curriculum-details-grid {
         .curriculum-details-tile {
@@ -568,6 +575,11 @@ div.chat-actions{
 
 @media (max-width: 768px) {
   #home-page {
+    header {
+      .signup-cta {
+        width: 30%;
+      }
+    }
     .how-it-works-tiles {
       flex-direction: column;
       .how-it-works-image {
@@ -591,6 +603,11 @@ div.chat-actions{
 }
 @media (max-width: 480px){
   #home-page {
+    header {
+      .signup-cta {
+        width: 40%;
+      }
+    }
     .curriculum-details {
       .curriculum-details-grid {
         .curriculum-details-tile {

@@ -3,6 +3,7 @@ ruby '2.3.0'
 
 gem 'rails',                        '~> 5.0.0'
 gem 'puma',                         '~> 3.6.0'
+gem 'turbolinks'
 gem 'simple_form',                  '3.3.1'
 gem 'jquery-rails',                 '~> 4.2.1'
 gem 'google-api-client',            '~> 0.9'

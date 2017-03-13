@@ -372,6 +372,9 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.5)
+    turbolinks (5.0.1)
+      turbolinks-source (~> 5)
+    turbolinks-source (5.0.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uber (0.0.15)
@@ -451,6 +454,7 @@ DEPENDENCIES
   simple_form (= 3.3.1)
   simplecov
   therubyracer (~> 0.12)
+  turbolinks
   uglifier (~> 3.0)
   vcr (~> 3.0)
   web-console (~> 3.4)
