@@ -51,5 +51,5 @@ That's it, you're done with command line basics.  This stuff will become second 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [This video series](https://commandlinepoweruser.com/)by Wes Bos is seriously great.. he goes a little more in depth and shows you how to do some real magic on the command line.  Not required info.. but seriously effective.
+* [This video series](https://commandlinepoweruser.com/) by Wes Bos is seriously great.. he goes a little more in depth and shows you how to do some real magic on the command line.  Not required info.. but seriously effective.
 * If you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check, [ExplainShell.com](http://explainshell.com/) is your solution.
