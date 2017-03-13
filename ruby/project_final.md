@@ -22,13 +22,13 @@ This is a great project to have as a part of your portfolio going forward becaus
 3. Do your best to keep your classes modular and clean and your methods doing only one thing each.  This is the largest program that you've written, so you'll definitely start to see the benefits of good organization (and testing) when you start running into bugs.
 4. Have fun!  Check out the [unicode characters](http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode) for a little spice for your gameboard.
 5. (Optional extension) Build a very simple AI computer player (perhaps who does a random legal move)
-6. (Optional extension) Look into using sockets to play it over the network with someone else (remember the server project you built earlier?)
 
 ## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Orlando's solution](https://github.com/orlandodan14/chess_game)
 * [Austin's & Leonard's solution](https://github.com/leosoaivan/TOP_chess)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Final-Project/tree/master)
 * [Aleksandar's solution](https://github.com/rodic/RubyChess)
