@@ -31,6 +31,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Axel's solution](https://github.com/afuh/smashing-grayscale) | [View in Browser](https://afuh.github.io/smashing-grayscale/)
 * [Flint Mayers' solution](https://github.com/FlintMayers/Design_Teardown) | [View in Browser](https://flintmayers.github.io/Design_Teardown/)
 * [Rhys B's solution](https://github.com/105ron/design-teardown) | [View in browser](https://105ron.github.io/design-teardown/)
 * [Pawel R's solution](https://github.com/PawelRokosz/design-teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/design-teardown/blob/master/index.html)
