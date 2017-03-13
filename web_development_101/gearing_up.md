@@ -208,6 +208,7 @@ put you in a much better position to succeed and get the most out of Odin.
 Without further ado, lets jump in to learning Web development.
 
 ### Extra resources:
+* [Managing Inspiration and Motivation](https://markmanson.net/do-something)
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
 * [Improve your typing skills with Keybr](http://www.keybr.com/#!profile) Use this website if you find your typing speed is holding you back. It's a great free interactive learning tool.
