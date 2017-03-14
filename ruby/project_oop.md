@@ -20,6 +20,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [thisisned's solution](https://github.com/thisisned/tic-tac-toe/blob/master/tictactoe.rb)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/tic-tac-toe)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/oop_with_ruby/blob/master/tic_tac_toe.rb)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/tictactoe/blob/master/tictactoe.rb) | [Live Version](https://repl.it/GBDI/0)
@@ -204,6 +205,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [thisisned's solution](https://github.com/thisisned/mastermind/blob/master/mastermind.rb)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/mastermind)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/oop_with_ruby/blob/master/mastermind.rb)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/mastermind/blob/master/mastermind.rb) | [Live Version](https://repl.it/GBDh/0)
