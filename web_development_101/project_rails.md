@@ -228,8 +228,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Parker Brown's Solution](https://github.com/parkerjbrown/blogger) | [View in Browser](https://mighty-beyond-86851.herokuapp.com/)
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/rails_blogger) | [View in Browser](https://tranquil-mesa-99598.herokuapp.com/) Completed to I5
 * [hallitee's Solution] (https://github.com/hallitee/blogger) | [view in Browser](https://polar-forest-96981.herokuapp.com/) Completed to I5
-* [Pat's Solution] (https://github.com/Pat878/Blogger) | [view in Browser](https://aqueous-oasis-60855.herokuapp.com/) 
-
+* [Pat's Solution] (https://github.com/Pat878/Blogger) | [view in Browser](https://aqueous-oasis-60855.herokuapp.com/)
+* [Luján Fernaud's Solution](https://github.com/lujanfernaud/blogo) | [View in browser](https://blogoapp.herokuapp.com/)
 
 ## Additional Resources
 
