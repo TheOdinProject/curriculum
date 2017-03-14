@@ -66,7 +66,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/embedding-images-and-video) | [View in browser](https://adoniasdantas.github.io/embedding-images-and-video/)
 * [daunenok's solution](https://github.com/daunenok/embedded-video) | [View in browser]( https://daunenok.github.io/embedded-video/)
 * [Axel's solution](https://github.com/afuh/Youtube) | [View in browser](https://afuh.github.io/Youtube/)
-* [Sophia Wu's solution](https://github.com/SophiaLWu/odin-youtube-project) | [View in browser](https://htmlpreview.github.io/?https://github.com/SophiaLWu/odin-youtube-project/blob/master/index.html)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/odin-youtube-project) | [View in browser](https://sophialwu.github.io/odin-youtube-project/)
 
 ## Additional Resources
 
