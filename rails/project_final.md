@@ -92,6 +92,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [David Chapman's solution (not styling yet)](https://github.com/davidchappy/facebook) | [View in browser](https://dac-friends-app.herokuapp.com/)
 * [Oscar Y's solution (No tests and unstyled)](https://github.com/mysteryihs/odin-facebook) | [View in browser](http://guarded-bastion-44854.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/book-of-faces) | [View in browser](https://frozen-sands-98166.herokuapp.com/)
+* [Jerry Gao's solution](https://github.com/blackwright/tracebook) | [View in browser](https://tracebook.herokuapp.com/)
 
 
 ## Additional Resources
