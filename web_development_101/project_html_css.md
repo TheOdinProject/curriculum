@@ -1032,6 +1032,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [RamsesGonzalez's solution(Easy)](https://github.com/RamsesGonzalez/google_homepage) | [View in Browser](https://ramsesgonzalez.github.io/google_homepage/
 * [EMuchynski's solution (Easy)](https://github.com/EMuchynski/google-homepage) | [View in Browser] (https://emuchynski.github.io/google-homepage/)
 * [Loc Nguyen's solution (Easy)](https://github.com/vinhloc30796/google-homepage) | [View in Browser] (https://vinhloc30796.github.io/google-homepage/)
+* [Dev Mehta's solution (Easy)](https://github.com/devmehta92/google-homepage) | [View in Browser] (https://devmehta92.github.io/google-homepage/)
 
 ## Additional Resources
 
