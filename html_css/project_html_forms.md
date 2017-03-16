@@ -60,6 +60,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Daunenok' solution](https://github.com/daunenok/mint-form) | [View in browser](https://daunenok.github.io/mint-form/)
 * [Flint Mayers' solution](https://github.com/FlintMayers/Project-HTML-Forms-with-Mint-) | [View in browser](https://flintmayers.github.io/Project-HTML-Forms-with-Mint-/)
 * [Axel’s solution](https://github.com/afuh/mint-form) | [View in browser](https://afuh.github.io/mint-form)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/mint-signup-clone) | [View in browser](https://sophialwu.github.io/mint-signup-clone/)
 
 ## Additional Resources
 
