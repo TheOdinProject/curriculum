@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Putra Isyraq's Solution](https://github.com/putraisyraq/sketchpad) | [View in browser](https://putraisyraq.github.io/sketchpad/)
 * [ericaddison's Solution](https://github.com/ericaddison/odin/tree/master/web101/jQueryProject1) | [View in browser](https://ericaddison.github.io/odin/web101/jQueryProject1/)
 * [jfonz412's Solution](https://github.com/jfonz412/sketchpad) | [View in browser](https://jfonz412.github.io/sketchpad/)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/jsketchr) | [View in browser](http://mindovermiles262.github.io/jsketchr/)
