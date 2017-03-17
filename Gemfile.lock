@@ -197,6 +197,7 @@ GEM
     letter_opener (1.4.1)
       launchy (~> 2.2)
     libv8 (3.16.14.15)
+    libv8 (3.16.14.15-x86_64-darwin-15)
     little-plugger (1.1.4)
     logging (2.1.0)
       little-plugger (~> 1.1)
@@ -407,6 +408,7 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-15
 
 DEPENDENCIES
   better_errors (~> 2.1)
@@ -465,4 +467,4 @@ RUBY VERSION
    ruby 2.3.0p0
 
 BUNDLED WITH
-   1.13.6
+   1.14.6

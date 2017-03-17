@@ -1,0 +1,25 @@
+.logo {
+  font-family: $logo-fonts;
+  float: left;
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo-text {
+    color: #cc9543;
+    padding-left: 10px;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-family: Norse;
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    font-size: 1.8em;
+    display: inline-block;
+  }
+
+  .logo-img {
+    float: left;
+    height: 100px;
+  }
+}

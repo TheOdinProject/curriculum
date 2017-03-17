@@ -1,0 +1,29 @@
+.how-it-works {
+  min-height: 400px;
+  padding-top: 140px;
+  margin-bottom: 160px;
+
+  .how-it-works-title {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+    p {
+      padding-top: 1em;
+    }
+  }
+
+  .how-it-works-tiles {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 400px;
+    text-align: center;
+    
+    .tile {
+      padding: 1em;
+      flex: 1;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+header {
+    background: linear-gradient(to top, #f8f8f8, #fff);
+    padding-bottom: 60px;
+
+  h1 {
+    font-family: $headline-fonts;
+    font-size: 3em;
+    color: $camel;
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 0.4px;
+  }
+
+  h2 {
+    color: $camel;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: 0.2px;
+  }
+
+  .signup-cta {
+    text-decoration: none;
+    background-color: #6abfc3;
+    color: #ffffff;
+    display: block;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    border-radius: 3px;
+    line-height: 60px;
+    margin: 70px auto 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+  }
+}
