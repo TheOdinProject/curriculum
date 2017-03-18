@@ -698,10 +698,10 @@ course = create_or_update_course(
   title_url: "Ruby Programming".parameterize,
   teaser: "Become a True Rubyist",
   brief_desc: "Once you've completed Web Development 101, this course will take you deep into the wonderful world of Ruby.  You'll learn a combination of programming fundamentals and best practices and you will get the chance to build a variety of different projects along the way.",
-  description: "In this course you will learn Ruby, the language designed specifically with programmer happiness in mind. By the end of it all, you'll have built some pretty sweet projects including Tic Tac Toe, Hangman, a real web server, and even Chess. You'll be able to put save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems. Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.",
+  description: "In this course you will learn Ruby, the language designed specifically with programmer happiness in mind. By the end of it all, you'll have built some pretty sweet projects including Tic Tac Toe, Hangman, and even Chess. You'll be able to put save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems. Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.",
   position: course_position,
   you_learn: ["How to write clean, effective, modular code","Working with files and scripts", "Basic algorithms and data structures"],
-  you_build: ["TicTacToe, Mastermind, and Hangman", "A command line server and browser","Chess (seriously)"],
+  you_build: ["TicTacToe, Mastermind, and Hangman", "Chess (seriously)"],
   is_active: true,
 )
 
