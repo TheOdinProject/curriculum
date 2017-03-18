@@ -315,6 +315,8 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Vaclav Skvaril´s solution](https://github.com/Vasha22/Ruby-Building-Blocks/blob/master/caesar.rb)
 * [Øistein Haugland´s solution](https://github.com/oisteinhaugland/caesar_cipher)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/caesar_cipher.rb)
+* [Pat's solution](https://github.com/Pat878/ruby_building_blocks/blob/master/caesar_cipher.rb)
+
 
 ## Project 2: Stock Picker
 
