@@ -25,7 +25,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [RichJDSmith's Solution](https://github.com/richjdsmith/blogger_app) | [View in Browser](https://immense-harbor-81390.herokuapp.com)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/blogger) | [View in Browser](https://infinite-meadow-70610.herokuapp.com/)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/blogger) | [view in browser](https://blogger-by-oliver.herokuapp.com/)
-* [yilmazgunalp's solution](https://github.com/yilmazgunalp/blogger.git) | [view in browser](https://shielded-gorge-80077.herokuapp.com)
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/blogger.git) | [view in browser](https://rocky-plateau-97873.herokuapp.com/)
 * [theghall's solution](https://github.com/theghall/blogger.git) | [view in browser](https://shrouded-inlet-42460.herokuapp.com)
 * [plinovodja's Solution](https://github.com/plinovodja/blogger) | [View in Browser](https://secret-wave-51025.herokuapp.com/)
 * [DominicM's Solution](https://github.com/dominicmichaud/odin_project_blogger) | [View in Browser (Bootstrap Edition)](https://odin-project-blogger.herokuapp.com/)

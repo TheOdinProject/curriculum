@@ -39,6 +39,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Jason Epstein's Solution](https://github.com/JasonSE89/jscriptSketch) | [View in browser]
+(https://jasonse89.github.io/jscriptSketch/)
 * [Putra Isyraq's Solution](https://github.com/putraisyraq/sketchpad) | [View in browser](https://putraisyraq.github.io/sketchpad/)
 * [ericaddison's Solution](https://github.com/ericaddison/odin/tree/master/web101/jQueryProject1) | [View in browser](https://ericaddison.github.io/odin/web101/jQueryProject1/)
 * [jfonz412's Solution](https://github.com/jfonz412/sketchpad) | [View in browser](https://jfonz412.github.io/sketchpad/)
@@ -590,3 +592,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Paritosh's solution] (https://github.com/Paritosh97/Etch-A-Sketch) | [View in browser] (https://paritosh97.github.io/Etch-A-Sketch/)
 * [Matheusfcunha's solution] (https://github.com/matheusfcunha/Etch_a_sketch) | [View in browser] (https://matheusfcunha.github.io/Etch_a_sketch/)
 * [marleybrush's solution] (https://github.com/marleybrush/EtchASketchpad) | [View in browser] (https://marleybrush.github.io/EtchASketchpad/)
+* [Dev Mehta's solution] (https://github.com/devmehta92/Canvas) | [View in broswer] (https://devmehta92.github.io/Canvas/)
