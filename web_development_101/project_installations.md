@@ -196,5 +196,6 @@ If you've run into issues with your installation and are desperately looking for
 * Treehouse has short videos describing Rails installation for various environments in their [Getting Started with Rails](http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails) unit.
 * [Guide](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) for opening Sublime Text via command line in Windows.
 * [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
-* [Gorails.com] (https://gorails.com/setup) also has an excellent tutorial for setting up your Rails environment for OSX and Ubuntu.
+* [Gorails.com](https://gorails.com/setup) also has an excellent tutorial for setting up your Rails environment for OSX and Ubuntu.
+* RubyMine is great IDE (Integrated Development Environment), witch can be alternative to text editos like Sublime witch we recommend. [It is free for students]](https://www.jetbrains.com/student/).
 * Google Google Google
