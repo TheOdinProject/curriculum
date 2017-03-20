@@ -290,6 +290,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Pat's solution](https://github.com/Pat878/learn_ruby)
 * [Ian Baker's Solution](https://github.com/ianbaker615/learn_ruby.git)
 * [ryan_'s solution](https://github.com/ryanford-frontend/learn_ruby)
+* [Viet_'s solution](https://github.com/vietdh85/learn_ruby)
 
 
 ## Additional Resources
