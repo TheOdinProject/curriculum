@@ -94,8 +94,12 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+<<<<<<< HEAD
+* [Goran Jovic's Solution (easy)](https://github.com/goran1010/google-homepage) | [View in browser](https://goran1010.github.io/google-homepage/)
+=======
 * [Andrea Morrow's Solution (Easy)] (https://github.com/alomorr/google-homepage)| [View in browser](https://alomorr.github.io/google-homepage/)
 * [Goran Jovic's Solution (easy)]https://github.com/goran1010/google-homepage | [View in browser](https://goran1010.github.io/google-homepage/)
+>>>>>>> 298d665ee75eb6226fcf62970866ab6e376b9057
 * [johnyhoffman's Solution (difficult)](https://github.com/johnyhoffman/google-homepage) | [View in browser](http://www.eclecticjohny.com/odin-project/google-homepage/index.html)
 * [holdercp's Solution (difficult)](https://github.com/holdercp/google-homepage) | [View in browser](https://holdercp.github.io/google-homepage/)
 * [najnair's Solution (easy)](https://github.com/najnair/google-homepage) | [View in browser](https://najnair.github.io/google-homepage/)
@@ -1031,7 +1035,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [marleybrush's solution (Easy)](https://github.com/marleybrush/google-homepage) | [View in browser] (https://marleybrush.github.io/google-homepage/)
 * [Alexis Benton's solution (Easy)](https://github.com/Lexis9784/google-homepage) | [View in browser] (https://Lexis9784.github.io/google-homepage/)
 * [stiggy456's solution (Easy)](https://github.com/stiggy456/google-homepage) | [View in Browser](https://stiggy456.github.io/google-homepage/)
-* [RamsesGonzalez's solution(Easy)](https://github.com/RamsesGonzalez/google_homepage) | [View in Browser](https://ramsesgonzalez.github.io/google_homepage/
+* [RamsesGonzalez's solution(Easy)](https://github.com/RamsesGonzalez/google_homepage) | [View in Browser](https://ramsesgonzalez.github.io/google_homepage/)
 * [EMuchynski's solution (Easy)](https://github.com/EMuchynski/google-homepage) | [View in Browser] (https://emuchynski.github.io/google-homepage/)
 * [Loc Nguyen's solution (Easy)](https://github.com/vinhloc30796/google-homepage) | [View in Browser] (https://vinhloc30796.github.io/google-homepage/)
 * [Dev Mehta's solution (Easy)](https://github.com/devmehta92/google-homepage) | [View in Browser] (https://devmehta92.github.io/google-homepage/)
