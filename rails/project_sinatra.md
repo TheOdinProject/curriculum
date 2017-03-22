@@ -26,7 +26,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* Chad Kreutzer's solution [github](https://github.com/ChadKreutzer/sinatra_cipher) / [see it on the web](https://dashboard.heroku.com/apps/salty-hamlet-78507)
+* Chad Kreutzer's solution [github](https://github.com/ChadKreutzer/sinatra_cipher) / [see it on the web](https://salty-hamlet-78507.herokuapp.com/)
 * yilmazgunalp's solution [github](https://github.com/yilmazgunalp/RoR/tree/master/Sinatra/caesar_chiper) / [see it on the web](https://gentle-everglades-11877.herokuapp.com/)
 * RichJDSmith's solution [github](https://github.com/richjdsmith/sinatra_caeser) / [see it on the web](https://secret-shelf-31692.herokuapp.com)
 * John Phelps's solution [github](https://github.com/jphelps413/odin-sinatra-caesar) / [see it on the web](https://jphelps413-sinatra-caesar.herokuapp.com/)
