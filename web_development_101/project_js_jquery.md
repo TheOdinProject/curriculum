@@ -40,7 +40,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 * Add your solution below this line!
 * [holdercp's solution](https://github.com/holdercp/etch-a-sketch) | [View in browser](https://holdercp.github.io/etch-a-sketch/)
-*[FedoZeta's solution](https://github.com/FedoZeta/javaScriptSketcher) | [View in browser](https://fedozeta.github.io/javaScriptSketcher/)
+* [FedoZeta's solution](https://github.com/FedoZeta/javaScriptSketcher) | [View in browser](https://fedozeta.github.io/javaScriptSketcher/)
 * [jhforster's solution](https://github.com/jhforster/jquery-sketchpad) | [View in browser](https://jhforster.github.io/jquery-sketchpad/)
 * [Jason Epstein's Solution](https://github.com/JasonSE89/jscriptSketch) | [View in browser]
 (https://jasonse89.github.io/jscriptSketch/)
