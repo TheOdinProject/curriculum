@@ -292,6 +292,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [ryan_'s solution](https://github.com/ryanford-frontend/learn_ruby)
 * [Viet_'s solution](https://github.com/vietdh85/learn_ruby)
 * [Matheusfcunha's solution](https://github.com/matheusfcunha/learn_ruby)
+* [Eren Cataltepe's solution](https://github.com/erencataltepe/learn_ruby)
 
 
 ## Additional Resources
