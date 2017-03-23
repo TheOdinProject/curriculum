@@ -458,6 +458,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [RamsesGonzalez's solution](https://github.com/RamsesGonzalez/ProjectEuler)
 * [bwkrayb's solution](https://github.com/bwkrayb/javascript_math)
 * [Dev Mehta's solution] (https://github.com/devmehta92/Euler-s-Problems)
+* [Loc Nguyen's solution](https://github.com/vinhloc30796/project_euler_javascript/blob/master/problem_1.js)
 
 ## Additional Resources
 
