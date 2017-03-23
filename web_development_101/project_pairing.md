@@ -25,6 +25,7 @@ Enough talk! Lets build!
 
 Add your solution below this line!
 
+* [Flint Mayers and Isaias Ogbe Solution](https://github.com/FlintMayers/pomodoro_app) | [View in Browser](https://flintmayers.github.io/pomodoro_app/)
 * [Sample solution](https://github.com/ChadKreutzer/pomodoro_clock) | [View in Browser](http://romantic-trouble.surge.sh/)
 * [Ovsjah Schweinefresser](https://github.com/Ovsjah/pomodoro) |  [View in Browser](https://ovsjah.github.io/pomodoro/)
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/pomodoro) |  [View in Browser](https://oisteinhaugland.github.io/pomodoro/)
@@ -35,4 +36,3 @@ Add your solution below this line!
 ## Next Steps
 
 Congratulations! You now know how to pair program and have created a real project with that partner. Maybe you got along great, maybe you didn't. If you didn't go back to the [Looking For Pair](https://gitter.im/TheOdinProject/LookingForPairs) room and see if you can find another person to pair with. Either way, we encourage you to keep on pairing for the rest of the lessons and projects in the Odin Project. You will learn more, and produce better code. Not to mention, you will be developing experience in a skill that many employers look for!
-
