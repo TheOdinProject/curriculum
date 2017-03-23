@@ -231,6 +231,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Pat's Solution] (https://github.com/Pat878/Blogger) | [view in Browser](https://aqueous-oasis-60855.herokuapp.com/)
 * [Luján Fernaud's Solution](https://github.com/lujanfernaud/blogo) | [View in browser](https://blogoapp.herokuapp.com/)
 * [Viet's Solution](https://github.com/vietdh85/odin-blogger) | [View in browser](https://vh-blogger.herokuapp.com/)
+* [Andrew DeNike's Solution](https://ghttps://github.com/AndyDeNike/project_rails) | [View in browser](https://afternoon-badlands-40925.herokuapp.com/)
 
 ## Additional Resources
 
