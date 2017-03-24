@@ -31,6 +31,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 
 * Add your solution below this line!
 * [theghall's solution](https://github.com/theghall/binary-trees)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/binary_tree.rb)
 * [Raiko's Solution](https://github.com/Cypher0/data_structures_algorithms/tree/master/lib)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/binarytrees)
 * [Ayushka's solution](https://github.com/ayushkamadji/binary_tree_ruby/blob/master/BST.rb)
