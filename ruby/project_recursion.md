@@ -152,6 +152,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/mergesort)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-recursion/blob/master/merge_sort.rb)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/recursion/blob/master/merge_sort.rb)
 * [theghall's solution](https://github.com/theghall/merge-sort.git)
