@@ -40,7 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* [Jason Epstein's](https://github.com/JasonSE89/ruby_building_blocks/blob/master/Ceaser_Cipher.rb)
+* [Jason Epstein's solution](https://github.com/JasonSE89/ruby_building_blocks/blob/master/Ceaser_Cipher.rb)
 * [dfan14051's solution](https://github.com/dfan14051/ruby_projects/blob/master/building_blocks/caesar_cipher.rb)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/caesar_cipher)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/caesar-cipher)
@@ -340,6 +340,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jason Epstein's solution](https://github.com/JasonSE89/ruby_building_blocks/blob/master/stock_picker.rb)
 * [dfan14051's solution](https://github.com/dfan14051/ruby_projects/blob/master/building_blocks/stock_picker.rb)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/stock_picker)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/stock-picker)
