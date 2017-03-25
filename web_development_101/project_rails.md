@@ -108,7 +108,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/web-development-101/blogger-rails) | [View in browser](https://radiant-tundra-5862.herokuapp.com/)
 * [Panashe Fundira's solution](https://github.com/munyari/blogger) | [View in browser](https://whispering-brook-5977.herokuapp.com/)
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Blogger)
-* [Noah Prescott's solution](https://github.com/npresco/blogger_rails) | [View in browser](https://infinite-coast-2914.herokuapp.com/)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/blogger_rails) | [View in browser](https://npresco-top-blogger.herokuapp.com/)
 * [Paweł Cichoń solution](https://github.com/beovulf/project_rails) | [View in browser](https://glacial-falls-4578.herokuapp.com/)
 * [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/)
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/blogger) | [View in browser] (https://floating-refuge-8099.herokuapp.com/)
