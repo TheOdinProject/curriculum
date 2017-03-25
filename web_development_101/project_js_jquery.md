@@ -286,7 +286,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [John Tobillo's solution](https://github.com/jdtobill/Front_End_Web_Dev/tree/master/etch_a_sketch)
 * [John Tobillo's solution](https://github.com/jdtobill/etch_a_sketch)
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/etch-a-sketch) | [View in browser](https://rawgit.com/watlandc/odin-project/master/etch-a-sketch/index.html)
-* [Noah Prescott's solution](https://github.com/npresco/etch-a-sketch) | [View in browser](https://rawgit.com/npresco/etch_a_sketch/master/etch_a_sketch.html)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/etch_a_sketch) | [View in browser](https://cdn.rawgit.com/npresco/top/master/etch_a_sketch/etch_a_sketch.html)
 * [Chris Swanson's solution](https://github.com/cswans21/etch-a-sketch) | [View in browser](https://rawgit.com/cswans21/etch-a-sketch/master/index.html)
 * [Parker Boyes' solution](https://github.com/boyestrous/Etch) | [View in browser](https://rawgit.com/boyestrous/Etch/master/etch.html)
 * [Chris Swanson's solution](https://github.com/cswans21/etch-a-sketch)
