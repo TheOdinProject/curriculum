@@ -80,6 +80,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Aspen Hollyer's solution](https://github.com/ahollyer/sketchpad) | [View in browser](https://ahollyer.github.io/sketchpad/)
 * [Alexander Chalk's solution](https://github.com/adc17/sketch-pad) | [View in browser](https://adc17.github.io/sketch-pad/)
 * [Porx's solution](https://github.com/porx/the-odin-project/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/porx/the-odin-project/master/etch-a-sketch/index.html)
+* [Stanley Quek's solution](https://github.com/tempeste/Etch-a-sketch) | [View in browser](https://tempeste.github.io/Etch-a-sketch/)
 * [0elo's solution](https://github.com/0elo/the_odin_project/tree/master/js-jquery) | [View in browser](https://cdn.rawgit.com/0elo/the_odin_project/master/js-jquery/index.html)
 * [Sanya Verma's solution](https://github.com/ErisedKT/Etch-A-Sketch) | [View in browser](https://erisedkt.github.io/Etch-A-Sketch/)
 * [Jaharri's solution](https://github.com/Jaharri/etch-a-sketch) | [View in browser](https://htmlpreview.github.io/?https://github.com/Jaharri/etch-a-sketch/blob/master/index.html)
