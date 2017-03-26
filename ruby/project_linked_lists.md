@@ -31,8 +31,8 @@ A head node is the first node in the list, a tail node is the last node in the l
  1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
  2. [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
- 
- 
+
+
 ## Your Task
 You will need two classes:
 
@@ -110,4 +110,4 @@ Build the following methods in your linked list class:
 * [Braydon Pacheco's solution](https://github.com/pacheeko/linked_lists/blob/master/linked_lists.rb)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/linked_lists/linked_list.rb)
 * [jeff1st's solution](https://github.com/jeff1st/linked_list)
-*
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/linked_list)
