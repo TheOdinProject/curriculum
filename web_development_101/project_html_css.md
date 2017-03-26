@@ -1038,6 +1038,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Loc Nguyen's solution (Easy)](https://github.com/vinhloc30796/google-homepage) | [View in Browser] (https://vinhloc30796.github.io/google-homepage/)
 * [Dev Mehta's solution (Easy)](https://github.com/devmehta92/google-homepage) | [View in Browser] (https://devmehta92.github.io/google-homepage/)
 * [Dev chloe-t's solution (Easy)](https://github.com/chloe-t/google-homepage) | [View in Browser] (https://chloe-t.github.io/google-homepage/)
+* [Dev riversboston's solution (Easy)](https://riversboston.github.io/google-homepage) | [View in Browser] (https://riversboston.github.io/google-homepage/)
 
 ## Additional Resources
 
