@@ -602,3 +602,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Dev Mehta's solution](https://github.com/devmehta92/Canvas) | [View in broswer](https://devmehta92.github.io/Canvas/)
 * [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/javascript-jquery) | [View in browser](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/project.html) | [Code walkthrough](https://www.josharcher.uk/code/odin-project-javascript-jquery/)
 * [chloe-t's solution](https://github.com/chloe-t/etchasketch) | [View in browser](https://chloe-t.github.io/etchasketch/) 
+* [juzOne's solution](https://github.com/juzOne/Sketch) | [View in browser](https://juzone.github.io/Sketch/)
