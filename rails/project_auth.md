@@ -152,7 +152,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Dckwong's solution](https://github.com/dckwong/members-only) | [View in browser](https://membersonly.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/members-only) | [View in browser](https://salty-mesa-44756.herokuapp.com/)
 * [at0micr3d's solution](https://github.com/at0micr3d/members-only) | [View in browser](https://floating-atoll-55409.herokuapp.com/)
-
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) | [View in browser](https://langenfeld-members-only.herokuapp.com/)
 
 
 
