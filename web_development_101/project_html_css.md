@@ -94,8 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-* [Annia J. Flores's Solution (Difficult)](https://github.com/itsandromeda/Google-Search-Results) | [View in browser](https://itsandromeda.github.io/Google-Search-Results/)
-* [Annia J. Flores's Solution (Easy)] (https://github.com/itsandromeda/Google-Homepage)| [View in browser](https://itsandromeda.github.io/Google-Homepage/)
+* [Annia J. Flores's Solution (Difficult)](https://github.com/itsandromeda/Google-Search-Results)| [View in browser](https://itsandromeda.github.io/Google-Search-Results/)
+* [Annia J. Flores's Solution (Easy)](https://github.com/itsandromeda/Google-Homepage)| [View in browser](https://itsandromeda.github.io/Google-Homepage/)
 * [Demo318's Solution (Difficult)](https://github.com/Demo318/google-homepage) | [View in browser](https://demo318.github.io/google-homepage/)
 * [Steven Yeager's Solution (Easy)] (https://github.com/stevenyeager/google-homepage)| [View in browser](https://stevenyeager.github.io/google-homepage/)
 * [Andrea Morrow's Solution (Easy)] (https://github.com/alomorr/google-homepage)| [View in browser](https://alomorr.github.io/google-homepage/)
