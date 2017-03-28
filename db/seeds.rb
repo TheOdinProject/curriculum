@@ -903,7 +903,7 @@ lesson_counter += 1
 create_or_update_lesson(
   title: "Data Structures and Algorithms",
   title_url: "Data Structures and Algorithms".parameterize,
-  description: "If you're scratching your head a bit on how to apply algorithmic thinking, here's are a couple of exercises that let you use the tools you've just developed.  This should also be helpful when thinking about Final Projects... hint hint...",
+  description: "If you're scratching your head a bit on how to apply algorithmic thinking, here's a couple of exercises that let you use the tools you've just developed.  This should also be helpful when thinking about Final Projects... hint hint...",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
