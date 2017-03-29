@@ -628,6 +628,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [jfonz412's solution](https://github.com/jfonz412/ruby_building_blocks/tree/master/problem_3)
 * [dfan14051's solution](https://github.com/dfan14051/ruby_projects/blob/master/building_blocks/substrings.rb)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/substrings)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/substrings)
