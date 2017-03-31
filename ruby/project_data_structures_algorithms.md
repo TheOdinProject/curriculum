@@ -149,6 +149,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/knights_travails.rb)
 * [theghall's solution](https://github.com/theghall/knights-travails)
 * [Raiko's Solution](https://github.com/Cypher0/data_structures_algorithms)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/knight_moves)
