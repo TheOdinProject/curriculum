@@ -112,3 +112,4 @@ Build the following methods in your linked list class:
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/linked_lists/linked_list.rb)
 * [jeff1st's solution](https://github.com/jeff1st/linked_list)
 * [Noah Prescott's solution](https://github.com/npresco/top/tree/master/linked_list)
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Linked_Lists)
