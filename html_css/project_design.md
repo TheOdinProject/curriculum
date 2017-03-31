@@ -43,7 +43,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 * [Stefan (Cyprium)'s solution)](https://github.com/dev-cyprium/TheOdinProject-HTML/tree/master/smashing-magasine-remake-grayscale) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/smashing-magasine-remake-grayscale/index.html)
 * [Norman's solution](https://github.com/slowmanchan/smashing-clone) | [View in Browser](https://htmlpreview.github.io/?https://github.com/slowmanchan/smashing-clone/blob/master/index.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-design-teardown) | [View in Browser](https://davidchappy.github.io/html-design-teardown/)
-* [Daunenok's solution](https://github.com/daunenok/smashing | [View in Browser](https://daunenok.github.io/smashing/)
+* [Daunenok's solution](https://github.com/daunenok/smashing) | [View in Browser](https://daunenok.github.io/smashing/)
 
 ## Additional Resources
 
