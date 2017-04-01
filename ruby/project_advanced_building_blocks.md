@@ -38,6 +38,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [jfonz412's solution](https://github.com/jfonz412/ruby_building_blocks/blob/master/advanced/bubble_sort.rb)
 * [Owen Thomas Clark's solution](https://github.com/owenthomasclark/bubble_sort)
 * [João Roberto's solution](https://github.com/jrobertolima/learning-ruby/blob/master/bubble.rb)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/ruby-building-blocks/blob/master/bubble-sort/bubble_sort.rb)
