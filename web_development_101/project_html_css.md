@@ -1049,6 +1049,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Dev chloe-t's solution (Easy)](https://github.com/chloe-t/google-homepage) | [View in Browser] (https://chloe-t.github.io/google-homepage/)
 * [Dev riversboston's solution (Easy)](https://riversboston.github.io/google-homepage) | [View in Browser] (https://riversboston.github.io/google-homepage/)
 * [Gerasimos Gakis' solution(Easy+Difficult)](https://gerasimosgakis.github.io/google-homepage) | [View in Browser] (https://gerasimosgakis.github.io/google-homepage/)
+* [Charalamboss' solution(Easy)](https://github.com/Charalamboss/GoogleHomepage) | [View in Browser] (https://charalamboss.github.io/GoogleHomepage/)
 
 ## Additional Resources
 
