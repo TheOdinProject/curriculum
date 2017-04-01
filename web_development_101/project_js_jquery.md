@@ -39,6 +39,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Demo318's solution](https://github.com/Demo318/etch-a-sketch) | [View in browser](https://demo318.github.io/etch-a-sketch/)
+* [Shane's solution](https://github.com/ShaneRich5/etch-a-sketch) | [View in browser](https://shanerich5.github.io/etch-a-sketch)
 * [kdelante14's solution](https://github.com/kdelante14/sketchie) | [View in browser](https://kdelante14.github.io/sketchie)
 * [Figure's solution](https://github.com/figuresofstick/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/figuresofstick/etch-a-sketch/master/index.html)
 * [Zakir's solution](https://github.com/zakirhussain227/sketchPad) | [View in browser](https://zakirhussain227.github.io/sketchPad/)
@@ -603,3 +605,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Dev Mehta's solution](https://github.com/devmehta92/Canvas) | [View in broswer](https://devmehta92.github.io/Canvas/)
 * [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/javascript-jquery) | [View in browser](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/project.html) | [Code walkthrough](https://www.josharcher.uk/code/odin-project-javascript-jquery/)
 * [chloe-t's solution](https://github.com/chloe-t/etchasketch) | [View in browser](https://chloe-t.github.io/etchasketch/) 
+* [juzOne's solution](https://github.com/juzOne/Sketch) | [View in browser](https://juzone.github.io/Sketch/)
+* [Gerasimos Gakis' solution](https://gerasimosgakis.github.io/sketchpad) | [View in browser](https://gerasimosgakis.github.io/sketchpad/)
