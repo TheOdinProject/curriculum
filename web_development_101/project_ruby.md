@@ -295,6 +295,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Viet_'s solution](https://github.com/vietdh85/learn_ruby)
 * [Matheusfcunha's solution](https://github.com/matheusfcunha/learn_ruby)
 * [Eren Cataltepe's solution](https://github.com/erencataltepe/learn_ruby)
+* [Paritosh Sharma's solution](https://github.com/Paritosh97/learn_ruby)
 
 
 ## Additional Resources
