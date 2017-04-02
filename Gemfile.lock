@@ -196,7 +196,6 @@ GEM
       tilt
     letter_opener (1.4.1)
       launchy (~> 2.2)
-    libv8 (3.16.14.15)
     libv8 (3.16.14.15-x86_64-darwin-15)
     little-plugger (1.1.4)
     logging (2.1.0)

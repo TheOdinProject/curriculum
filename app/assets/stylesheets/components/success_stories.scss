@@ -1,7 +1,7 @@
 .success-stories {
   min-height: 990px;
   width: 100%;
-  background: linear-gradient( to top, $white-two, #fff);
+  background: linear-gradient( to top, $light-grey, #fff);
   padding-bottom: 60px;
 
   .success-stories-title {
@@ -12,7 +12,7 @@
   }
 
   .success-stories-container {
-    color: $greyish-brown;
+    color: $text-primary;
     max-width: 1280px;
     min-height: 400px;
     margin: 0 auto;

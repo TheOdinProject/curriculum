@@ -5,14 +5,15 @@ header {
   h1 {
     font-family: $headline-fonts;
     font-size: 3em;
-    color: $camel;
+    color: $primary;
     font-weight: 300;
     margin-bottom: 30px;
     letter-spacing: 0.4px;
+    text-align: center;
   }
 
   h2 {
-    color: $camel;
+    color: $primary;
     text-align: center;
     font-weight: 600;
     font-size: 1.4em;
@@ -21,7 +22,7 @@ header {
 
   .signup-cta {
     text-decoration: none;
-    background-color: #6abfc3;
+    background-color: $button-primary;
     color: #ffffff;
     display: block;
     width: 200px;

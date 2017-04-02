@@ -42,9 +42,9 @@
    color: $color;
    -moz-transition: color 0.2s;
    -o-transition: color 0.2s;
-   -webkit-transition: color 0.2s; 
+   -webkit-transition: color 0.2s;
    transition: color 0.2s;
    &:hover{
      color: darken($color, 20%);
-   }      
+   }
 }

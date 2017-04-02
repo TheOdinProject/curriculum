@@ -1,0 +1,13 @@
+p {
+  margin: 0;
+  line-height: 1.88;
+  letter-spacing: 0.2px;
+  color: $text-primary;
+  font-size: 1em;
+}
+
+html {
+  font-family: $body_fonts;
+  height: 100%;
+  background-color: $white;
+}
