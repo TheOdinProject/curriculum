@@ -83,7 +83,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    commonjs (0.2.7)
     concurrent-ruby (1.0.2)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
@@ -187,16 +186,8 @@ GEM
     jwt (1.5.6)
     launchy (2.4.3)
       addressable (~> 2.3)
-    less (2.6.0)
-      commonjs (~> 0.2.7)
-    less-rails (2.8.0)
-      actionpack (>= 4.0)
-      less (~> 2.6.0)
-      sprockets (> 2, < 4)
-      tilt
     letter_opener (1.4.1)
       launchy (~> 2.2)
-    libv8 (3.16.14.15-x86_64-darwin-15)
     little-plugger (1.1.4)
     logging (2.1.0)
       little-plugger (~> 1.1)
@@ -301,7 +292,6 @@ GEM
       codeclimate-engine-rb (~> 0.4.0)
       parser (~> 2.3.1, >= 2.3.1.2)
       rainbow (~> 2.0)
-    ref (2.0.0)
     representable (2.3.0)
       uber (~> 0.0.7)
     responders (2.3.0)
@@ -366,9 +356,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.5)
@@ -428,7 +415,6 @@ DEPENDENCIES
   github_api (~> 0.14)
   google-api-client (~> 0.9)
   jquery-rails (~> 4.2.1)
-  less-rails (~> 2.8)
   letter_opener (~> 1.4)
   newrelic_rpm (~> 3.17)
   nokogiri (~> 1.6)
@@ -454,7 +440,6 @@ DEPENDENCIES
   shoulda-matchers (~> 3.1)
   simple_form (= 3.3.1)
   simplecov
-  therubyracer (~> 0.12)
   turbolinks
   uglifier (~> 3.0)
   vcr (~> 3.0)

@@ -22,8 +22,6 @@ gem 'font-awesome-rails',           '~> 4.7'
 gem 'sass-rails',                   '~> 5.0'
 gem 'coffee-rails',                 '~> 4.2'
 gem 'bootstrap',                    '~> 4.0.0.alpha6'
-gem 'therubyracer',                 '~> 0.12'  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'less-rails',                   '~> 2.8'
 gem 'uglifier',                     '~> 3.0'
 gem 'shortener',                    '~> 0.5'
 gem 'friendly_id',                  '~> 5.1'
