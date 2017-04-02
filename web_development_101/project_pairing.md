@@ -31,6 +31,7 @@ Add your solution below this line!
 * [Øistein Haugland's Solution](https://github.com/oisteinhaugland/pomodoro) |  [View in Browser](https://oisteinhaugland.github.io/pomodoro/)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/pomodoro) | [View in Browser](http://www.andyduss.com/pomodoro)
 * [maz's Solution](https://github.com/mmore21/pomodoro-clock) | [View in Browser](https://mmore21.github.io/pomodoro-clock/)
+* [Laura's Solution](https://github.com/BrigadierButternut/pomodoro_timer) | [View in Browser](https://htmlpreview.github.io/?https://github.com/BrigadierButternut/pomodoro_timer/blob/master/pomodoro.html)
 
 
 ## Next Steps
