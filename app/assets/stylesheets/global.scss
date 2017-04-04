@@ -1,3 +1,13 @@
+html {
+  font-family: $body_fonts;
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(to bottom, $white, $light-grey);
+  background-attachment: fixed;
+}
+
 p {
   margin: 0;
   line-height: 1.88;
@@ -6,8 +16,16 @@ p {
   font-size: 1em;
 }
 
-html {
-  font-family: $body_fonts;
-  height: 100%;
-  background-color: $white;
+.camel {
+  color: $primary;
+}
+
+.btn-camel {
+  background: $primary;
+  color: $white;
+
+  &:hover, &:focus {
+    background: darken($primary, 10%);
+    color: $white;
+  }
 }
