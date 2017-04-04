@@ -13,7 +13,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 
 1. If you haven't already, do the [Installations project](http://www.theodinproject.com/web-development-101/installations).  If you've already got Rails on your system, it's still worth skipping to the bottom and verifying that you've got **Rails 4** and **Ruby 2** working properly.  The section says:
 
-    Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating a sample Rails app](http://installfest.railsbridge.org/installfest/create_a_rails_app) and then [deploying it](http://installfest.railsbridge.org/installfest/deploy_a_rails_app). 
+    Even if you didn't use the Railsbridge installation instructions, verify your installation by following their instructions for [creating a sample Rails app](http://installfest.railsbridge.org/installfest/create_a_rails_app) and then [deploying it](http://installfest.railsbridge.org/installfest/deploy_a_rails_app).
 
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.railstutorial.org/book/beginning).
 3. If you hadn't done either of these, you should go back to the [Web Development 101](/web-development-101) course and at least do the [Web Development Frameworks section](/web-development-101/#section-web-development-frameworks).
@@ -37,6 +37,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
 * Add your solution below this line!
+* [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Toy_app)
 * [yilmazgunalp's solution](https://limitless-waters-75566.herokuapp.com/)
 * [Jib's solution](https://github.com/NuclearMachine/odin_rails)
 * [mahimahi42's solution](https://github.com/mahimahi42/firstrailsproject)
@@ -66,7 +67,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Dan Hoying's solution](https://github.com/danhoying/toy_app)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/RailsTutorialCh2/toy_app)
 * [andrewdbass' solution] (https://github.com/andrewdbass/toy_app)
-* [Noah Prescott's solution](https://github.com/npresco/rails_tutorial/tree/master/toy_app)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/rails_tutorial/toy_app)
 * [Giorgos's solution](https://github.com/vinPopulaire/toy_app)
 * [Alex Tsiras' solution](https://github.com/arialblack14/toy_app)
 * [Sandeep's solution](https://github.com/sand33pn/toy_app)

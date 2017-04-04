@@ -45,6 +45,7 @@ In this project you'll clone the website of one of the most design-forward compa
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-backgrounds-gradients
 ) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)* [Flint Mayers' solution](https://github.com/FlintMayers/Backgrounds-and-Gradients-with-Apple-
 ) | [View in browser](https://flintmayers.github.io/Backgrounds-and-Gradients-with-Apple-/)
+* [Daunenok's solution](https://github.com/daunenok/apple) | [View in browser](https://daunenok.github.io/apple/)
 
 
 ## Additional Resources

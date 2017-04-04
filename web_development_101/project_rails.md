@@ -19,6 +19,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Shane's Solution](https://github.com/ShaneRich5/blogger) | [View in Browser](https://intense-gorge-94992.herokuapp.com)
+* [kdelante14's Solution](https://github.com/kdelante14/blogger) | [View in Browser](https://fierce-anchorage-52151.herokuapp.com)
 * [Alexander Chalk's Solution](https://github.com/adc17/blogger-project) | [View in Browser](https://lit-garden-31735.herokuapp.com)
 * [dfan14051's Solution](https://github.com/dfan14051/blogger) | [View in Browser](https://secure-everglades-98278.herokuapp.com/)
 * [maz's Solution](https://github.com/mmore21/rails-project-one) | [View in Browser](https://evening-spire-70647.herokuapp.com/) | I0-I6
@@ -108,7 +110,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/web-development-101/blogger-rails) | [View in browser](https://radiant-tundra-5862.herokuapp.com/)
 * [Panashe Fundira's solution](https://github.com/munyari/blogger) | [View in browser](https://whispering-brook-5977.herokuapp.com/)
 * [Dylan Bailey's solution](https://github.com/dylancbailey/Blogger)
-* [Noah Prescott's solution](https://github.com/npresco/blogger_rails) | [View in browser](https://infinite-coast-2914.herokuapp.com/)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/blogger_rails) | [View in browser](https://npresco-top-blogger.herokuapp.com/)
 * [Paweł Cichoń solution](https://github.com/beovulf/project_rails) | [View in browser](https://glacial-falls-4578.herokuapp.com/)
 * [Chris Swanson's solution](https://github.com/cswans21/blogger2) | [View in browser](https://stark-forest-1744.herokuapp.com/)
 * [Chris Watland's solution](https://github.com/watlandc/odin-project/tree/master/blogger) | [View in browser] (https://floating-refuge-8099.herokuapp.com/)
@@ -231,6 +233,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Pat's Solution] (https://github.com/Pat878/Blogger) | [view in Browser](https://aqueous-oasis-60855.herokuapp.com/)
 * [Luján Fernaud's Solution](https://github.com/lujanfernaud/blogo) | [View in browser](https://blogoapp.herokuapp.com/)
 * [Viet's Solution](https://github.com/vietdh85/odin-blogger) | [View in browser](https://vh-blogger.herokuapp.com/)
+* [Andrew DeNike's Solution](https://ghttps://github.com/AndyDeNike/project_rails) | [View in browser](https://afternoon-badlands-40925.herokuapp.com/)
 
 ## Additional Resources
 

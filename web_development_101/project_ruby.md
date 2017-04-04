@@ -26,6 +26,14 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
+* [kdelante14's solutions](https://github.com/kdelante14/learn_ruby)
+* [Adong520's solutions](https://github.com/Adong520/learn_ruby)
+* [Tarelochkin's solutions](https://github.com/Tarelochkin/learn_ruby)
+* [Shane's solutions](https://github.com/ShaneRich5/learn_ruby)
+* [holdercp's solutions](https://github.com/holdercp/learn_ruby)
+* [Webdev-burd's soltions](https://github.com/webdev-burd/learn_ruby)
+* [Adong520's solutions](https://github.com/Adong520/learn_ruby)
+* [Tarelochkin's solutions](https://github.com/Tarelochkin/learn_ruby)
 * [Jason Epstein's solutions](https://github.com/JasonSE89/learn_ruby)
 * [ericaddison's solution](https://github.com/ericaddison/odin/tree/master/web101/learn_ruby)
 * [jfonz412's solution](https://github.com/jfonz412/learn_ruby)
@@ -131,7 +139,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Spekachu's Solution](https://github.com/Spekachu/learn_ruby)
 * [Sandeep's Solution](https://github.com/sand33pn/odin_ruby_project)
 * [Pugsiman's solution](https://github.com/pugsiman/ruby_test_first)
-* [Noah Prescott's solution](https://github.com/npresco/test_first_ruby)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/test_first_ruby)
 * [Moiz Hasan's solution](https://github.com/MoizHasan/Test-First-Ruby)
 * [Max Platt's solution](https://github.com/makxks/ruby_testing)
 * [Patrick Li's solution](https://github.com/PatrickLi727/Test-First-Ruby)
@@ -292,6 +300,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [ryan_'s solution](https://github.com/ryanford-frontend/learn_ruby)
 * [Viet_'s solution](https://github.com/vietdh85/learn_ruby)
 * [Matheusfcunha's solution](https://github.com/matheusfcunha/learn_ruby)
+* [Eren Cataltepe's solution](https://github.com/erencataltepe/learn_ruby)
+* [Paritosh Sharma's solution](https://github.com/Paritosh97/learn_ruby)
 
 
 ## Additional Resources

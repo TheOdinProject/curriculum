@@ -1,7 +1,7 @@
 # Join The Odin Community
-Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers.
+Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers.  While your at it, why not check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
 
-##Assignment:
+## Assignment:
 1. First create a free Github account [here](https://github.com/join). As you will find out later on, Github will become an integral part of your development workflow so you will be using it for much, much more than just accessing the chat.
 
 2. Finally sign in to the chat with your newly minted Github account [here](https://gitter.im/TheOdinProject/theodinproject).
