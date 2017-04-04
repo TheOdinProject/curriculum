@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Marko Dinka's Solution (Difficult) ](https://github.com/Relyful/google-homepage)| [View in browser](https://relyful.github.io/google-homepage/)
 * [Andreynho2006 solution](https://github.com/andreynho2006/google-homepage) | [View in browser(https://andreynho2006.github.io/google-homepage/.)
 * [Xavier solution(easy)](https://github.com/nxdf2015/odin-google-easy) |  [view in browser](https://nxdf2015.github.io/odin-google-easy/)
 * [Abdelrahman AlShakhshir's solution(Easy)](https://github.com/aalshakhshirOdin/Googles-Home-Page) | [View in Browser](https://aalshakhshirodin.github.io/Googles-Home-Page/)
@@ -132,8 +133,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [XuShiqing's solution (Easy)](https://github.com/shiqingxu/google-homepage) | [View in browser](https://shiqingxu.github.io/google-homepage/)
 * [Devin's solution (Easy)](https://github.com/devburke/google-homepage) | [View in browser](https://devburke.github.io/google-homepage/)
 * [Jason Epstein's solution (Easy)](https://github.com/JasonSE89/Google_HomePage) | [View in browser](https://jasonse89.github.io/Google_Homepage/)
-* [Jason Epstein's solution (Difficulty)](https://github.com/JasonSE89/google-search) | [View in browser]
-(https://jasonse89.github.io/google-search)
+* [Jason Epstein's solution (Difficulty)](https://github.com/JasonSE89/google-search) | [View in browser](https://jasonse89.github.io/google-search)
 * [dfan14051's solution](https://github.com/dfan14051/google-homepage) | [View in browser](https://dfan14051.github.io/google-homepage/)
 * [Ryan_'s solution (Medium)](https://github.com/ryanford-frontend/google-homepage/) | [View in browser](https://ryanford-frontend.github.io/google-homepage/)
 * [Patty's solution (Easy)](https://github.com/pattydi/google-test) | [View in browser](https://pattydi.github.io/google-test/)
