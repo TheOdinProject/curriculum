@@ -1,6 +1,5 @@
 function setup() {
   $('#faq-accordion').on('show.bs.collapse', function (event) {
-    console.log(event.target);
     var openedCardSelector = getOpenedCardSelector(event.target);
     $(openedCardSelector + ' .expander').hide();
     $(openedCardSelector + ' .minimizer').show();
