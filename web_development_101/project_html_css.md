@@ -111,7 +111,6 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Annia J. Flores's Solution (Difficult)](https://github.com/itsandromeda/Google-Search-Results)| [View in browser](https://itsandromeda.github.io/Google-Search-Results/)
 * [Annia J. Flores's Solution (Easy)](https://github.com/itsandromeda/Google-Homepage)| [View in browser](https://itsandromeda.github.io/Google-Homepage/)
 * [Demo318's Solution (Difficult)](https://github.com/Demo318/google-homepage) | [View in browser](https://demo318.github.io/google-homepage/)
->>>>>>> 4220753957e0e3f3697b887115ebe2d059d2f8e6
 * [Steven Yeager's Solution (Easy)] (https://github.com/stevenyeager/google-homepage)| [View in browser](https://stevenyeager.github.io/google-homepage/)
 * [Andrea Morrow's Solution (Easy)] (https://github.com/alomorr/google-homepage)| [View in browser](https://alomorr.github.io/google-homepage/)
 * [Goran Jovic's Solution (easy)] (https://github.com/goran1010/google-homepage) | [View in browser](https://goran1010.github.io/google-homepage/)
