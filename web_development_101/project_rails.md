@@ -19,6 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [kdelante14's Solution](https://github.com/kdelante14/blogger) | [View in Browser](https://fierce-anchorage-52151.herokuapp.com)
 * [Alexander Chalk's Solution](https://github.com/adc17/blogger-project) | [View in Browser](https://lit-garden-31735.herokuapp.com)
 * [dfan14051's Solution](https://github.com/dfan14051/blogger) | [View in Browser](https://secure-everglades-98278.herokuapp.com/)
 * [maz's Solution](https://github.com/mmore21/rails-project-one) | [View in Browser](https://evening-spire-70647.herokuapp.com/) | I0-I6
