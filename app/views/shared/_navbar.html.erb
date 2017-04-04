@@ -1,37 +1,43 @@
 <div class="navbar navbar-toggleable-md navbar-light">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="toggle-navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <%= render partial: "shared/logo_text" %>
 
-  <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+  <%= render 'shared/logo_text' %>
+
+  <nav class="collapse navbar-collapse" id="navbar-supported-content">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <%= link_to "Curriculum", courses_path(:ref => "homenav"), class: "nav-link" %>
+        <%= link_to 'Curriculum', courses_path(ref: 'homenav'), class: 'nav-link' %>
       </li>
 
       <li class="nav-item">
-        <%= link_to "Chat", chat_link, class: "nav-link" %>
+        <%= link_to 'Chat', chat_link, class: 'nav-link gitter-chat-link', target: '_blank' %>
       </li>
+
       <li class="nav-item">
-        <%= link_to "About", about_path(:ref => "homenav"), class: "nav-link" %>
+        <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>
       </li>
+
       <li class="nav-item">
-        <%= link_to "FAQ", faq_path(:ref => "homenav"), class: "nav-link" %>
+        <%= link_to 'FAQ', faq_path(ref: 'homenav'), class: 'nav-link' %>
       </li>
+
       <li class="divider nav-link">|</li>
+  
       <% if current_user %>
         <li class="nav-item">
-          <%= link_to "Logout", logout_path(:ref => "homenav"), class: "nav-link" %>
+          <%= link_to 'Logout', logout_path(ref: 'homenav'), class: 'nav-link' %>
         </li>
       <% else %>
         <li class="nav-item">
-          <%= link_to "Sign Up", sign_up_path(:ref => "homenav"), class: "nav-link"%>
+          <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'nav-link' %>
         </li>
+
         <li class="nav-item">
-          <%= link_to "Login", login_path(:ref => "homenav"), class: "nav-link"%>
+          <%= link_to 'Login', login_path(ref: 'homenav'), class: 'nav-link' %>
         </li>
       <% end %>
     </ul>
   </nav>
-</div>
+</div> <!-- /.navbar -->

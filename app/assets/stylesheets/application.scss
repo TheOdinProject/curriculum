@@ -9,11 +9,13 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  */
-@import "settings";
-@import "global";
-@import "bootstrap";
-@import "font-awesome";
-@import "mixins";
-@import "prism";
-@import "components/**/*";
-@import "responsive";
+
+@import 'settings';
+@import 'global';
+@import 'tether';
+@import 'bootstrap';
+@import 'font-awesome';
+@import 'mixins';
+@import 'prism';
+@import 'components/**/*';
+@import 'responsive';
