@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Webdev-burd's solution](https://github.com/webdev-burd/sketchpad) | [View in browser](https://webdev-burd.github.io/sketchpad/)
 * [Demo318's solution](https://github.com/Demo318/etch-a-sketch) | [View in browser](https://demo318.github.io/etch-a-sketch/)
 * [Shane's solution](https://github.com/ShaneRich5/etch-a-sketch) | [View in browser](https://shanerich5.github.io/etch-a-sketch)
 * [kdelante14's solution](https://github.com/kdelante14/sketchie) | [View in browser](https://kdelante14.github.io/sketchie)
@@ -607,3 +608,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [chloe-t's solution](https://github.com/chloe-t/etchasketch) | [View in browser](https://chloe-t.github.io/etchasketch/) 
 * [juzOne's solution](https://github.com/juzOne/Sketch) | [View in browser](https://juzone.github.io/Sketch/)
 * [Gerasimos Gakis' solution](https://gerasimosgakis.github.io/sketchpad) | [View in browser](https://gerasimosgakis.github.io/sketchpad/)
+*  [AsmCoder110s' solution](https://github.com/AsmCoder110/Etch-A-Sketch) | [View in browser](https://asmcoder110.github.io/Etch-A-Sketch)
