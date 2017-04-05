@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [xavier solution](https://github.com/nxdf2015/odin-grid)|[ view in browser]( https://nxdf2015.github.io/odin-grid/)
 * [Michael Weller's solution](https://github.com/WMichael/Etch-A-Pad) | [View in browser](https://wmichael.github.io/Etch-A-Pad/)
 * [Webdev-burd's solution](https://github.com/webdev-burd/sketchpad) | [View in browser](https://webdev-burd.github.io/sketchpad/)
 * [Demo318's solution](https://github.com/Demo318/etch-a-sketch) | [View in browser](https://demo318.github.io/etch-a-sketch/)
