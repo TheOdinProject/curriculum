@@ -95,6 +95,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 * Add your solution below this line!
 * [Serch solution(easy)](https://github.com/sbadillo/google-homepage/) |  [view in browser](https://sbadillo.github.io/google-homepage/)
+* [Marko Dinka's Solution (Difficult) ](https://github.com/Relyful/google-homepage)| [View in browser](https://relyful.github.io/google-homepage/)
+* [Andreynho2006 solution](https://github.com/andreynho2006/google-homepage) | [View in browser(https://andreynho2006.github.io/google-homepage/.)
 * [Xavier solution(easy)](https://github.com/nxdf2015/odin-google-easy) |  [view in browser](https://nxdf2015.github.io/odin-google-easy/)
 * [Abdelrahman AlShakhshir's solution(Easy)](https://github.com/aalshakhshirOdin/Googles-Home-Page) | [View in Browser](https://aalshakhshirodin.github.io/Googles-Home-Page/)
 * [Webdev-burd's solution(Easy)](https://github.com/webdev-burd/google-homepage) | [View in Browser](https://webdev-burd.github.io/google-homepage)
@@ -132,8 +134,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [XuShiqing's solution (Easy)](https://github.com/shiqingxu/google-homepage) | [View in browser](https://shiqingxu.github.io/google-homepage/)
 * [Devin's solution (Easy)](https://github.com/devburke/google-homepage) | [View in browser](https://devburke.github.io/google-homepage/)
 * [Jason Epstein's solution (Easy)](https://github.com/JasonSE89/Google_HomePage) | [View in browser](https://jasonse89.github.io/Google_Homepage/)
-* [Jason Epstein's solution (Difficulty)](https://github.com/JasonSE89/google-search) | [View in browser]
-(https://jasonse89.github.io/google-search)
+* [Jason Epstein's solution (Difficulty)](https://github.com/JasonSE89/google-search) | [View in browser](https://jasonse89.github.io/google-search)
 * [dfan14051's solution](https://github.com/dfan14051/google-homepage) | [View in browser](https://dfan14051.github.io/google-homepage/)
 * [Ryan_'s solution (Medium)](https://github.com/ryanford-frontend/google-homepage/) | [View in browser](https://ryanford-frontend.github.io/google-homepage/)
 * [Patty's solution (Easy)](https://github.com/pattydi/google-test) | [View in browser](https://pattydi.github.io/google-test/)
@@ -1056,6 +1057,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Dev riversboston's solution (Easy)](https://riversboston.github.io/google-homepage) | [View in Browser] (https://riversboston.github.io/google-homepage/)
 * [Gerasimos Gakis' solution(Easy+Difficult)](https://gerasimosgakis.github.io/google-homepage) | [View in Browser] (https://gerasimosgakis.github.io/google-homepage/)
 * [AsmCoder110s' solution](https://github.com/AsmCoder110/google-homepage-v2) | [View in browser](https://asmcoder110.github.io/google-homepage-v2)
+*[Mesfin Solution(Easy)](https://github.com/mesfint/google-homepage) | [View in browser](https://mesfint.github.io/google-homepage/)
+*[Prajwal solution(Easy)](https://github.com/FreakingPrajwal/google-homepage) | [View in browser](https://freakingprajwal.github.io/google-homepage/)
+
 
 ## Additional Resources
 
