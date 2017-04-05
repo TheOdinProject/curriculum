@@ -1056,6 +1056,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Dev riversboston's solution (Easy)](https://riversboston.github.io/google-homepage) | [View in Browser] (https://riversboston.github.io/google-homepage/)
 * [Gerasimos Gakis' solution(Easy+Difficult)](https://gerasimosgakis.github.io/google-homepage) | [View in Browser] (https://gerasimosgakis.github.io/google-homepage/)
 * [AsmCoder110s' solution](https://github.com/AsmCoder110/google-homepage-v2) | [View in browser](https://asmcoder110.github.io/google-homepage-v2)
+*[Mesfin Solution(Easy)](https://github.com/mesfint/google-homepage) | [View in browser](https://mesfint.github.io/google-homepage/)
+
 
 
 ## Additional Resources
