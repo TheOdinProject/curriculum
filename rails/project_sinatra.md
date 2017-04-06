@@ -26,6 +26,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* nmac's solution [github](https://github.com/nmacawile/sinatra_converted_projects) / [heroku](https://infinite-scrubland-80707.herokuapp.com/caesarcipher)
 * Ayushka's solution [github](https://github.com/ayushkamadji/caesar_cipher)
 * Orlando's solution [github](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Sinatra/caesar_cipher) / [see it on the web](https://sheltered-mountain-39747.herokuapp.com/caesar_cipher.erb)
 * Chad Kreutzer's solution [github](https://github.com/ChadKreutzer/sinatra_cipher) / [see it on the web](https://salty-hamlet-78507.herokuapp.com/)
@@ -72,6 +73,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* nmac's solution (Mastermind) [github](https://github.com/nmacawile/sinatra_converted_projects) / [heroku](https://infinite-scrubland-80707.herokuapp.com/mastermind)
 * Ayushka's solution: Mastermind [github](https://github.com/ayushkamadji/master_mind_sinatra) / [see it on the web](https://afternoon-escarpment-72597.herokuapp.com/)
 * Orlando's solution: Hangman, Mastermind, others [github](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Sinatra/web_portafolio) / [see it on the web](https://sheltered-mountain-39747.herokuapp.com/)
 * yilmazgunalp's solution - Hangman: [github](https://github.com/yilmazgunalp/RoR/tree/master/hangman) / [see it on the web](https://hidden-hamlet-76819.herokuapp.com/)
