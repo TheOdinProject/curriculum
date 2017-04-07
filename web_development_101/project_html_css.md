@@ -1059,7 +1059,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [AsmCoder110s' solution](https://github.com/AsmCoder110/google-homepage-v2) | [View in browser](https://asmcoder110.github.io/google-homepage-v2)
 * [Mesfin Solution(Easy)](https://github.com/mesfint/google-homepage) | [View in browser](https://mesfint.github.io/google-homepage/)
 * [Prajwal solution(Easy)](https://github.com/FreakingPrajwal/google-homepage) | [View in browser](https://freakingprajwal.github.io/google-homepage/)
-* [codebreeze solution(Easy)](https://github.com/codebreeze/google-homepage) | [View in browser](https://codebreeze.github.io/google-homepage/)  
+* [codebreeze solution(Easy)](https://github.com/codebreeze/google-homepage) | [View in browser](https://codebreeze.github.io/google-homepage/)
+* [Ray's solution (easy)](https://github.com/seederwood/google-homepage) | [View in browser](https://seederwood.github.io/google-homepage/)
 
 ## Additional Resources
 
