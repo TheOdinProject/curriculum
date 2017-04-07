@@ -3,11 +3,6 @@ html {
   height: 100%;
 }
 
-body {
-  background-image: linear-gradient(to bottom, $white, $light-grey);
-  background-attachment: fixed;
-}
-
 p {
   margin: 0;
   line-height: 1.88;
@@ -28,4 +23,9 @@ p {
     background: darken($primary, 10%);
     color: $white;
   }
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, $white, $light-grey);
+  background-attachment: fixed;
 }
