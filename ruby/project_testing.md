@@ -90,6 +90,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Raiko's Solution](https://github.com/Cypher0/connect_four)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/connect_four)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/ruby/rspec)
 * [Ayushka's solution](https://github.com/ayushkamadji/connect_four_ruby)
