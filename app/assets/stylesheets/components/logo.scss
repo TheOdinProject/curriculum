@@ -15,6 +15,10 @@
     font-weight: bold;
     font-size: 1.8em;
     display: inline-block;
+
+    @media screen and (max-width: 350px) {
+      font-size: 1.3em;
+    }
   }
 
   .logo-img {
