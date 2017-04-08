@@ -4,6 +4,8 @@
 development:
   adapter: postgresql
   database: theodinproject
+  username: freemansmith
+  password: karfree65!
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -13,8 +15,8 @@ test: &test
   adapter: postgresql
   database: theodinproject_test
   pool: 5
-  username: 
-  password: 
+  username: freemansmith
+  password: karfree65!
   host: localhost
 
 production:
