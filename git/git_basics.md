@@ -1,12 +1,12 @@
 ## The Basics of how to use git
-In this lesson we will cover common git commands used to manage your projects and upload your work onto GitHub. We refer to these commands as the **basic git workflow**. These are commands that will frequent about 70-80% of the time whenever you use git; wrapping your head around these would be more than half the battle won!
+In this lesson we will cover common git commands used to manage your projects and upload your work onto GitHub. We refer to these commands as the **basic git workflow**. These are commands that will be frequently used about 70-80% of the time whenever you use git; wrapping your head around these would be more than half the battle won!
 
 
 ## Learning Outcomes
 *By the end of this you should be able to:*
 
 * Run git commands from the command line
-* Name the git command used to get a full copy an existing git repository from Github
+* Name the git command used to get a full copy of an existing git repository from Github
 * Name the git command used to check the status of your files
 * Name the git command used to track files
 * Name the git command used to commit files
