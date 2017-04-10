@@ -37,6 +37,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
 * Add your solution below this line!
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/toy_app) | [heroku](https://guarded-forest-30130.herokuapp.com/)
 * [nmac's solution](https://github.com/nmacawile/toy_app)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Toy_app)
 * [yilmazgunalp's solution](https://limitless-waters-75566.herokuapp.com/)
@@ -85,7 +86,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project2--ch1-2-the-rails-tutorial)
 * [Fabricio Carrara's solution](https://bitbucket.org/fcarrara/toy_app/src) | [Heroku](https://mighty-coast-3724.herokuapp.com)
 * Deepak's solution ([hello_app](https://github.com/Deepak5050/hello_app.git), [toy_app](https://github.com/Deepak5050/toy_app3.git))
-* [djhart's solution](https://github.com/djhart/toy_app)  
+* [djhart's solution](https://github.com/djhart/toy_app)
 * [Earth35's solution](https://github.com/Earth35/toy_app) | [Heroku](http://safe-lowlands-63069.herokuapp.com)
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/toy_app) | [Heroku](https://young-forest-57908.herokuapp.com/)
 * [Jiazhi Guo's solution](https://github.com/jerrykuo7727/toy_app) | [Heroku](https://toy-app-by-jiazhi.herokuapp.com/)
