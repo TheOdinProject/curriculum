@@ -53,6 +53,13 @@ RSpec.describe StaticPagesController do
     end
   end
 
+  describe 'GET success stories' do
+    it 'renders the success stories page' do
+      get :success_stories
+      expect(response).to render_template(:success_stories)
+    end
+  end
+
   describe 'GET suggestion' do
     let(:params) {
       { pathname: path_name, suggestion: suggestion_body, format: 'json' }

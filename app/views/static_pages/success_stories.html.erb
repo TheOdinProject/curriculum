@@ -1,0 +1,34 @@
+<div class="success-stories-page">
+  <div class="success-stories-title-full">
+    <h1>Success Stories</h1>
+  </div>
+
+  <%
+    success_stories = [
+      { student_name: 'Ben Gray', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'The best free learning resource for code learners. Highly recommend it! Great community as well on Gitter.', completed_course: 'Ruby on Rails Course' },
+      { student_name: 'Michael Weins', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Fantastic learning experience with The Odin Project! Upon completion, I was offered a job at several startups.', completed_course: 'Javascript Course'},
+      { student_name: 'Kris Tobiki', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Incredible experience throughout the curriculum. I’ve met many new developer friends and collaborated together.', completed_course: 'Full Stack Track' },
+      { student_name: 'Laura Smith', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Love the courses offered and the self-paced learning. I absolutely love the personal dashboard to track progress.', completed_course: 'Front-End Track' }
+    ]
+  %>
+
+  <div class="success-stories-container">
+    <% success_stories.each do |story| %>
+      <div class="success-story-full">
+        <div class="photo"> <%= image_tag story[:student_avatar_url] %></div>
+        <div class="success-content-full">
+          <p><%= story[:student_name] %></p>
+          <p><%= story[:story_content] %></p>
+        </div>
+        <div class="completed-course">
+          <p>Completed <%= story[:completed_course] %></p>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="success-stories-sign-up">
+    <p>Start learning for free now!</p>
+    <%= link_to 'Sign Up', sign_up_path(ref: 'success_stories'), class:'signup-button' %>
+  </div>
+</div>
