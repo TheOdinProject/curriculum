@@ -32,6 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Davand88 solution for Multiples of 3 and 5] (https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
 * Andrei Cirlan Solution for Multiples of 3 and 5](https://github.com/andreynho2006/ODIN-problem1-JS/blob/master/problem1.js)
 * [Mike's Solution for Multiples of 3 and 5](https://gist.github.com/maquinde/afe29a7355b293c1f4adc51ed4ea5fe0)
 * [xavier solution for problem 1](https://github.com/nxdf2015/eulerProblems/blob/master/multiple.js)
