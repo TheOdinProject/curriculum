@@ -31,8 +31,8 @@ A head node is the first node in the list, a tail node is the last node in the l
  1. [Linked Lists in Plain English](https://www.youtube.com/watch?v=oiW79L8VYXk)
  2. [Linked Lists, Ruby's Missing Data Structure](https://www.sitepoint.com/rubys-missing-data-structure/)
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
- 
- 
+
+
 ## Your Task
 You will need two classes:
 
@@ -64,6 +64,10 @@ Build the following methods in your linked list class:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/linked_lists)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/linked_list.rb)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/linked-list)
+* [theghall's solution](https://github.com/theghall/linked-list.git)
 * [yilmazgunalp's solution with extra](https://github.com/yilmazgunalp/linked_list)
 * [Ayushka's solution](https://github.com/ayushkamadji/ruby_linked_list/blob/master/lib/LinkedList.rb)
 * [ToTenMilan's solution with extra](https://github.com/ToTenMilan/the_odin_project/tree/master/ruby/linked_list)
@@ -106,4 +110,7 @@ Build the following methods in your linked list class:
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/linked_list)
 * [Braydon Pacheco's solution](https://github.com/pacheeko/linked_lists/blob/master/linked_lists.rb)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/linked_lists/linked_list.rb)
-*
+* [jeff1st's solution](https://github.com/jeff1st/linked_list)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/linked_list)
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Linked_Lists)
+* [Daniel Varcas aka d-zer0's solution](https://github.com/d-zer0/linked_list/blob/master/linked_list.rb)

@@ -49,5 +49,5 @@ To find out more about how you can contribute please read our [contributing guid
 
 \* See [license.md](https://github.com/TheOdinProject/curriculum/blob/master/license.md) for usage details.
 
-<hr>
+___
 Created by [Erik Trautman](http://www.github.com/eriktrautman)

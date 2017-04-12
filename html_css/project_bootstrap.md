@@ -22,6 +22,7 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Flint Mayers' solution'](https://github.com/FlintMayers/Bootstrap_site_Odin) | [View in browser](https://flintmayers.github.io/Bootstrap_site_Odin/)
 * [Marko Nikolajević's solution'](https://github.com/Mark3z/odin_projects/tree/master/newsweek) | [View in browser](https://mark3z.github.io/odin_projects/newsweek/index.html)
 * [Pawel R's solution](https://github.com/PawelRokosz/UsingTwitterBootstrap) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/UsingTwitterBootstrap/blob/master/index.html)
 * [Leonard Labita's solution](https://github.com/lendoza/OdinProject/tree/master/app) | [View in browser](http://leonardlabita.com/newsweek.html)
@@ -34,6 +35,7 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 * [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/using_bootstrap) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/using_bootstrap/index.html)
 * [Alejandro Corredor's solution](https://github.com/aecorredor/newsweek-replica/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/aecorredor/newsweek-replica/blob/master/index.html)
 * [David Chapman's solution (partial content, no JS)](https://github.com/davidchappy/odin_training_projects/tree/master/html-bootstrap-newsweek) | [View in browser](https://davidchappy.github.io/html-bootstrap-newsweek/)
+* [Daunenok's solution](https://github.com/daunenok/newsweek) | [View in browser](https://daunenok.github.io/newsweek/)
 
 ## Additional Resources
 

@@ -70,6 +70,8 @@ If you think about what's required to make a game like this work, it's all well 
 * [chrisnorwood's solution](https://github.com/chrisnorwood/js-snake) | [View in browser](https://chrisnorwood.github.io/js-snake/)
 * [David Chapman's solution](https://github.com/davidchappy/snake) | [View in browser](https://davidchappy.github.io/snake/snake.html)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/snake) | [View in browser](http://cdn.rawgit.com/laniywh/the-odin-project/master/js/snake/index.html)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/snake-game) | [View in browser](https://sophialwu.github.io/snake-game/)
+* [Axel's solution](https://github.com/afuh/snake-game) | [View in browser](https://afuh.github.io/snake-game/)
 
 
 

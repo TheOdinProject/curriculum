@@ -16,6 +16,9 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/serialization/tree/master/event_manager)
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/event_manager)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-serialization/tree/master/event_manager)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/event-manager)
 * [RichJDSmith's Solution](https://github.com/richjdsmith/ruby_csv_cleaning)
 * [theghall's solution](https://github.com/theghall/event-manager.git)
@@ -59,7 +62,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Dan Hoying's solution](https://github.com/danhoying/file_io_and_serialization/tree/master/event_manager)
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/tutorials/event_manager)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/tree/master/EventManager)
-* [Noah Prescott's solution](https://github.com/npresco/serialization/tree/master/event_manager)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/serialization/event_manager)
 * [lynchd2's solution](https://github.com/lynchd2/TOP-Ruby-Programming/tree/master/event_manager)
 * [Panashe Fundira's solution](https://github.com/munyari/odin/tree/master/learning-ruby/event_manager)
 * [Ashley Lewis's solution](https://github.com/ashleymichal/the_odin_project/tree/master/the-odin-project/ruby/files/event_manager)
@@ -140,6 +143,10 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [thisisned's solution](https://github.com/thisisned/hangman)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/serialization/tree/master/hangman)
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/hangman)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-serialization/tree/master/hangman)
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/hangman)
 * [theghall's solution](https://github.com/theghall/hangman.git)
 * [Josh Campanella's solution](https://github.com/joshcamp503/hangman)
@@ -202,7 +209,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Raycotek's solution](https://github.com/Raycotek/Odinprojects/blob/master/hangman/hangman.rb)
 * [John Tobillo's solution](https://github.com/jdtobill/Ruby/tree/master/games/hangman)
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/Szubienica.rb)
-* [Noah Prescott's solution](https://github.com/npresco/serialization/tree/master/hangman)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/serialization/hangman)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/serialization-and-working-with-files/hangman)
 * [lynchd2's solution](https://github.com/lynchd2/TOP-Ruby-Programming/tree/master/hangman)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/Hang_Man/blob/master/hangman.rb)

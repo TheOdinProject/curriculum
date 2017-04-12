@@ -10,12 +10,7 @@ Sinatra is a small light weight web framework written in Ruby. It allows you to 
 
 Sinatra does a few of the same things that Rails does, but it doesn't create the file-structure for you.  The benefit of doing it yourself (and the main reason we're learning this at all) is that once you get a feel for how to set up routes and organize your views in Sinatra, the complex file structures and methods in Rails will start to make a whole lot more sense.
 
-There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as you will see you can build very impressive apps with it.  
-
-## Prerequisites
-Sintra requires basic ruby knowledge and the projects after this lesson will build upon two of the early projects from the Ruby course.
-
-* You have completed at least up to the "Ruby on the web" section on the [Ruby Programming course](http://www.theodinproject.com/ruby-programming)
+There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as you will see you can build very impressive apps with it.
 
 ## Points to Ponder
 
