@@ -37,6 +37,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Webdev-burd's soltions](https://github.com/webdev-burd/learn_ruby)
 * [Adong520's solutions](https://github.com/Adong520/learn_ruby)
 * [Tarelochkin's solutions](https://github.com/Tarelochkin/learn_ruby)
+* [Stanley Quek's solutions](https://github.com/tempeste/learn_ruby)
 * [Jason Epstein's solutions](https://github.com/JasonSE89/learn_ruby)
 * [ericaddison's solution](https://github.com/ericaddison/odin/tree/master/web101/learn_ruby)
 * [jfonz412's solution](https://github.com/jfonz412/learn_ruby)
