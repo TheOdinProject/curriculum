@@ -115,6 +115,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Kyle Thomson's solution](https://github.com/idynkydnk/fibonacci)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/blob/master/ruby/computer_science/recursion/fibonacci.rb)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/recursion/fibonacci/fibonacci.rb)
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Recursion/blob/master/fib.rb)
 
 
 ## Project: Merge Sort
@@ -241,6 +242,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Kyle Thomson's solution](https://github.com/idynkydnk/merge_sort)
 * [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/blob/master/ruby/computer_science/recursion/merge_sort.rb)
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/blob/master/ruby/recursion/merge_sort/merge_sort.rb)
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Recursion/blob/master/merge_sort.rb)
 
 
 ## Additional Resources
