@@ -1,7 +1,7 @@
 .about {
     width: 75%;
     margin: auto;
-    color: $light-grey;
+    // color: $light-grey;
 }
 .about h1 {
     text-align: center;
@@ -13,9 +13,7 @@
     text-align: center;
 }
 
-.belief-heading {
-    color: black;
-}
+
 
 .intro {
     text-align: center;
@@ -23,4 +21,42 @@
 
 .mission h3 {
     
+}
+
+.belief-heading {
+    color: black;
+}
+
+.belief-heading::before {
+  content: url(image.jpg);
+  float: left;
+}
+
+.belief-heading li {
+    list-style: none;
+}
+
+.history {
+    background: $light-grey;
+    padding: 20px;
+}
+
+.history h2 {
+    color: $primary;
+}
+
+.history p {
+    border-top: solid $primary 2px;
+    position: relative;
+}
+
+.history p:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -10px;
+    background: $primary;
+    display: block;
+    position: relative;
 }
