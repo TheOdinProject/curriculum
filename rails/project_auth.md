@@ -98,6 +98,8 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [John Phelps's Solution](https://github.com/jphelps413/odin-rails-members-only) | [View in browser](https://jphelps413-rails-members-only.herokuapp.com/)
+* [Jib's Solution](https://github.com/NuclearMachine/members-only) | [live website!](https://afternoon-brook-94094.herokuapp.com/)
 * [Austin's Solution](https://github.com/CouchofTomato/members_only/tree/master/members-only)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/members_only)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
@@ -151,7 +153,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Dckwong's solution](https://github.com/dckwong/members-only) | [View in browser](https://membersonly.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/members-only) | [View in browser](https://salty-mesa-44756.herokuapp.com/)
 * [at0micr3d's solution](https://github.com/at0micr3d/members-only) | [View in browser](https://floating-atoll-55409.herokuapp.com/)
-
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) | [View in browser](https://langenfeld-members-only.herokuapp.com/)
 
 
 

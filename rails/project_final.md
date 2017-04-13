@@ -60,6 +60,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Sic's Solution](https://github.com/sic-f/fb) | [View in browser](https://efbook.herokuapp.com)
 * [Rob's Solution](https://github.com/RobPando/odin-book) | [View in browser](https://robodinbook.herokuapp.com)
 * [Rhys B's solution](https://github.com/105ron/odin-book) | [View in browser](http://odin-book.herokuapp.com/)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/RailsBoock-Facebook-Clone-App) | [View in browser](http://railsbook-facebook-clone-app.herokuapp.com/)
@@ -90,6 +91,8 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_facebook) | [View in browser](https://nameless-escarpment-82289.herokuapp.com/)
 * [David Chapman's solution (not styling yet)](https://github.com/davidchappy/facebook) | [View in browser](https://dac-friends-app.herokuapp.com/)
 * [Oscar Y's solution (No tests and unstyled)](https://github.com/mysteryihs/odin-facebook) | [View in browser](http://guarded-bastion-44854.herokuapp.com/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/book-of-faces) | [View in browser](https://frozen-sands-98166.herokuapp.com/)
+* [Jerry Gao's solution](https://github.com/blackwright/tracebook) | [View in browser](https://tracebook.herokuapp.com/)
 
 
 ## Additional Resources

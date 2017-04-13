@@ -1,4 +1,4 @@
-# Gearing up for success
+# Gearing Up For Success
 Learning how to program takes work. Like any skill worth knowing it takes time to acquire and it can't
 be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So before we get into the meat of the curriculum, it would be beneficial to go over the following so you  can get the most out of Odin:
 
@@ -16,7 +16,7 @@ have the right mentality when approaching challenges throughout the curriculum.
 
 ### Your Motivation For Learning Programming
 Your motivation to learn to code could be to have a fulfilling career that pays
-well; it could the creative outlet programming provides; it may be to have the
+well; it could be the creative outlet programming provides; it may be to have the
 skills and abilities to build any sort of app you can think of; it might be to start
 your own company by turning an app idea you have into reality. It may be a
 combination of these reasons or something else entirely.
@@ -71,17 +71,17 @@ To learn more about the growth mindset use these resources:
 * [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 * [Start Here - The Motivation Episode and Becoming a Programming Super Learner](http://starthere.fm/webdev/23-the-motivation-episode-and-becoming-a-programming-super-learner)
 
-## The Best ways to Learn
+## The Best Ways To Learn
 Odin's curriculum has two fundamental aspects: lessons and projects.
 
-Lessons: You will be assigned resources to read, watch and do in a lesson. These are comprised of various resources we have gathered from all over the internet. The reason why we do this, over rolling our own material for everything, is because this allows us to utilise the very best resources to teach you. These are resources created by experts in their fields and are the authorities in what they are teaching.
+Lessons: You will be assigned resources to read, watch, and do in a lesson. These are comprised of various resources we have gathered from all over the internet. The reason why we do this, over rolling our own material for everything, is because this allows us to utilise the very best resources to teach you. These are resources created by experts in their fields and are the authorities in what they are teaching.
 
 Projects: Most of these lessons are followed by projects that allow you to practice and solidify the concepts you have just learned about in the previous lessons. Most of the projects will give you a description of the problem you have to solve or the website you have to build. This allows you to be as creative as you like with the solution and with little hand holding.
 
 Through Odin you will learn to be independent learners, it's the only way you can
 truly learn programming.
 
-### The Process of Learning
+### The Process Of Learning
 Learning involves context. It is by learning concepts and then practicing them
 which will help you to solidify how things work and fit together. Projects are
 the ultimate way of indicating whether your theory matches up with how the
@@ -92,12 +92,12 @@ When learning, your mind will consistently switch between the following two stat
 **Focus mode:**
 
 This state occurs when you are consciously focusing on learning, reading,
-watching videos or working on a project.
+watching videos, or working on a project.
 
 **Diffuse mode:**
 
 This state occurs subconsciously, at times when you are not actively learning,
-such as doing the dishes, exercising, sleeping etc. When in this state your mind
+such as doing the dishes, exercising, sleeping, etc. When in this state your mind
 goes about the business of connecting what you have been learning to the other
 things you know. This is where break-throughs happen.
 
@@ -120,7 +120,7 @@ You can practice this method of learning by helping others in our community.
 
 * The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/131-rr-how-to-learn/) which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
-### What to do when you are stuck
+### What To Do When You Are Stuck
 You will inevitably be stuck at some point in the curriculum, it may be due to
 a concept that you are having difficulty understanding or it may be due to
 something not working when you are doing a project. Whatever it is, use the
@@ -133,19 +133,19 @@ you at some point, a quick Google can often lead to a solution.
 with your research done, people will be more willing to help you when they can see
 you have already put effort into trying to figure out the solution.
 
-## Managing your Study Time
+## Managing Your Study Time
 You will have more success with Odin by putting **consistent** time into it rather
 than working on it every other day. Building a habit of studying everyday at
 a specific time and for a specific amount of time will ensure you make consistent
 progress.
 
-### How to Avoid Procrastination
+### How To Avoid Procrastination
 Procrastination will be your biggest enemy when trying to make progress, this is how
 to avoid it:
 
-**Use the Pomodoro Technique:**
+**Use The Pomodoro Technique:**
 
-The Pomodoro technique is a way of managing your time in order to stay focused.
+The Pomodoro Technique is a way of managing your time in order to stay focused.
 You basically set a timer for 25 minutes and work on a task until the timer goes
 off. You then take a 5 minute break and go again for 25 minutes once your break
 is over.
@@ -153,10 +153,10 @@ is over.
 If you get distracted or interrupted during the 25 minutes you have to start the
 25 minutes of work over again.
 
-The Pomodoro technique is great for avoiding procrastination as it forces you to
+The Pomodoro Technique is great for avoiding procrastination as it forces you to
 work without distractions. And since it's only for 25 minutes before taking a break, it's not overwhelming, making it harder to rationalise procrastinating.
 
-To learn more about the Pomodoro technique read this [great article](https://medium.com/skhack-life-2-0/multiply-your-productivity-with-pomodoro-eeac2645a78e#.clvcxxyk8).
+To learn more about the Pomodoro Technique read this [great article](https://medium.com/life-hacks/more-productivity-with-the-pomodoro-technique-d7ce8926ec0c#.hcqsv37u4).
 
 And here's an easy to use Pomodoro timer: [TomatoTimer](http://tomato-timer.com/#)
 
@@ -169,7 +169,7 @@ tempting to procrastinate; they should be avoided during study time.
 Solution: turn off notifications and add a blocker to your internet to limit time
 on time-wasting sites like Facebook.
 
-**Avoid Physical Distractions in your Environment:**
+**Avoid Physical Distractions In Your Environment:**
 
 Physical distractions are distractions from your environment, things like a TV in
 the background, other people speaking etc. These are just as much a nuisance to
@@ -179,7 +179,7 @@ Solution: find a quiet study place in your home you can go to to focus. If that'
 not an option you can use noise cancelling head phones to block out any noise
 distractions from your environment.
 
-## Pitfalls to Avoid
+## Pitfalls To Avoid
 The following are some of the pitfalls that beginners often make when learning how
 to program; try your best to avoid these.
 
@@ -199,7 +199,7 @@ Measure progress against yourself and don't compare yourself to others. Students
 often compare themselves against others who are further along in their coding
 journey or have more experience. This is a recipe for depression and frustration.
 Only compare yourself to your past self: has your ability and knowledge grown from where it was
-last week, month or year? Then you are making progress.
+last week, month, or year? Then you are making progress.
 
 ###Conclusion
 Learning any new skill is a journey full of speed bumps and obstacles to be
@@ -208,6 +208,7 @@ put you in a much better position to succeed and get the most out of Odin.
 Without further ado, lets jump in to learning Web development.
 
 ### Extra resources:
+* [Managing Inspiration and Motivation](https://markmanson.net/do-something)
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
 * [Improve your typing skills with Keybr](http://www.keybr.com/#!profile) Use this website if you find your typing speed is holding you back. It's a great free interactive learning tool.

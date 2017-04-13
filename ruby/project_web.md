@@ -135,6 +135,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/ruby_webserver)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Web-Project/tree/master)
 * [John Phelps's solution](https://github.com/jphelps413/odin-ruby/tree/master/web-server)
 * [nmac's solution](https://github.com/nmacawile/ruby_web_server)
@@ -169,7 +170,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_on_the_web/tree/master/web_server)
 * [Solution from hiendinhngoc](https://github.com/hiendinhngoc/TheOdinProject/tree/master/ruby/ruby_on_web)
 * [Mark Viola's solution](https://github.com/markviola/the-odin-project/tree/master/10-ruby-on-the-web/2%20-%20Web%20Server%20and%20Browser)
-* [Noah Prescott's solution](https://github.com/npresco/ruby_on_the_web/tree/master/simple_server)
+* [Noah Prescott's solution](https://github.com/npresco/top/tree/master/ruby_on_the_web)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/tree/master/ruby/ruby-on-the-web/real-web-server-and-browser)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/ruby/project9--real-webserver-and-browser)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_web_server)
@@ -213,7 +214,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/web_server_and_browser)
 * [Simon's Solution - Clean](https://github.com/SimonSomlai/Odin/tree/master/ruby/ruby_internet)
 * [smilesr's solution](https://github.com/smilesr/op-rb-rw-15-serverclient)
-
+* [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/Learning_Sockets)
 
 
 ## Additional Resources

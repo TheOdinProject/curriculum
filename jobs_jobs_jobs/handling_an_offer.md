@@ -13,6 +13,5 @@ Once you've worked through your negotiation and hopefully had the chance to rank
 
 ## Links
 
-* [Handling an Offer, from Stanford](https://studentaffairs.stanford.edu/cdc/evaluating/negotiation)
-* [Another Handling an Offer package from Stanford](https://studentaffairs.stanford.edu/sites/default/files/cdc/files/CPH11-12_JobOffers_57-62.pdf)
+
 * [Negotiating your Startup Offer from Rob.by](http://rob.by/2013/negotiating-your-startup-job-offer/) gets into the equity component of some offers.

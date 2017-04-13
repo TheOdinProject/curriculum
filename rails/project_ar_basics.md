@@ -74,7 +74,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 #### Get Started
 
 1. Just like in the warmup, plan out what data models you would need to allow users to be on the site (don't worry about login/logout or securing the passwords right now), to submit links ("posts"), and to comment on links.  Users do NOT need to be able to comment on comments... each comment refers to a Post.
-2. Generate a new rails app from the command line (`$ rails _5.0.0.1_ new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
+2. Generate a new rails app from the command line (`$ rails _5.0.1_ new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
 2. Generate your User model and fill out the migration to get the columns you want.
 3. Run the migration with `$ rails db:migrate`.  You can use `$ rails db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
 
@@ -118,6 +118,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [RichJDSmith's Solution](https://github.com/richjdsmith/micro-reddit)
 * [Jib's Solution](https://github.com/NuclearMachine/odin_rails/tree/master/micro-reddit)
 * [Austin's solution](https://github.com/CouchofTomato/micro_reddit)
 * [Voizzzz' solution](https://github.com/voizzzz/microreddit)
@@ -176,6 +177,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Sophia Wu's solution](https://github.com/SophiaLWu/micro-reddit)
 * [Joe Himes's solution](https://github.com/deedle42/micro-reddit)
 * [Niño Mollaneda's solution](https://github.com/ninoM/micro-reddit)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/micro-reddit)
 
 
 

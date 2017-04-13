@@ -19,6 +19,7 @@ In this project you'll clone the website of one of the most design-forward compa
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Axel’s solution](https://github.com/afuh/appel) | [View in browser](https://afuh.github.io/appel/)
 * [Rhys B's solution](https://github.com/105ron/apple) | [View in browser](https://105ron.github.io/apple/)
 * [Pawel R's solution](https://github.com/PawelRokosz/apple-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/apple-homepage/blob/master/index.html)
 * [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
@@ -42,7 +43,9 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Paul Shonk's solution](https://github.com/pshonk/apple)
 * [cindygao93's solution](https://github.com/cindygao93/google-homepage) | [View in browser](https://cindygao93.github.io/google-homepage/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-backgrounds-gradients
-) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)
+) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)* [Flint Mayers' solution](https://github.com/FlintMayers/Backgrounds-and-Gradients-with-Apple-
+) | [View in browser](https://flintmayers.github.io/Backgrounds-and-Gradients-with-Apple-/)
+* [Daunenok's solution](https://github.com/daunenok/apple) | [View in browser](https://daunenok.github.io/apple/)
 
 
 ## Additional Resources

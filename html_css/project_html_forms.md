@@ -20,6 +20,8 @@ The page is very straightforward, so you should be able to clone it even if your
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/mint-signin)
+* [Jordan Ellis-Lynch's solution](https://github.com/jordy-el/google_homepage) | [View in browser](https://jordy-el.github.io/google_homepage/)
 * [Javal's solution](https://github.com/javalnanda/theOP-mint_signup_page/) | [View in browser](https://javalnanda.github.io/theOP-mint_signup_page/)
 * [Rhys B's solution](https://github.com/105ron/mint-form) | [View in browser](https://105ron.github.io/mint-form/)
 * [Paweł R's solution](https://github.com/PawelRokosz/Mint-form) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/Mint-form/blob/master/index.html)
@@ -55,10 +57,12 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/mint_form_clone) | [View in browser](http://htmlpreview.github.io/?https://github.com/ShalaQweghen/mint_form_clone/blob/master/mint.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq-form-validation) | [View in browser](https://davidchappy.github.io/jq-form-validation/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/mint-signup-clone) | [View in browser](https://adoniasdantas.github.io/mint-signup-clone/)
-
+* [Marcus' solution](https://github.com/nestcx/html_forms_exercise) | [View in browser](https://htmlpreview.github.io/?https://github.com/nestcx/html_forms_exercise/blob/master/index.html)
+* [Daunenok' solution](https://github.com/daunenok/mint-form) | [View in browser](https://daunenok.github.io/mint-form/)
+* [Flint Mayers' solution](https://github.com/FlintMayers/Project-HTML-Forms-with-Mint-) | [View in browser](https://flintmayers.github.io/Project-HTML-Forms-with-Mint-/)
+* [Axel’s solution](https://github.com/afuh/mint-form) | [View in browser](https://afuh.github.io/mint-form)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/mint-signup-clone) | [View in browser](https://sophialwu.github.io/mint-signup-clone/)
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-

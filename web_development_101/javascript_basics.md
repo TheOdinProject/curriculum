@@ -25,13 +25,31 @@ This lesson will tend to focus on understanding the programming side of Javascri
 4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just go through the first one now, it's all we need at this point.  Solve these problem in [repl.it](https://repl.it/languages/javascript) if you aren't comfortable working with your own files:
     1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1). Go ahead and read the assignment. Now, lets break it down into a few steps. The **first thing** we have to know is how to check if a number is a multiple of 3 or 5 (in case you don't remember, a multiple of a number is that number multiplied by an integer), a hint for doing this: [Modulus operator](http://stackoverflow.com/a/17525046/4330173). Next, we need to sum all the numbers that are multiples, so we'll need a *variable* to keep track of that sum. And lastly, we need to *iterate*(remember how to do a [loop](http://www.w3schools.com/js/js_loop_for.asp) in javascript?) through all the numbers until we get to 1000. With all this, we should be able to solve the problem. In case you are still struggling, check out other students solutions for inspiration.
     2. If you feel like it, go and solve a few more problems! No one said you could turn off your brain!
-5. Complete the remainder of the [dev tools](https://www.codeschool.com/courses/discover-devtools) course from code school to see how you can use dev tools to help you debug javascript issues.
+5. Complete the remaining of the [dev tools](https://www.codeschool.com/courses/discover-devtools) course from code school to see how you can use dev tools to help you debug javascript issues.
 
 ## Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Davand88 solution for Multiples of 3 and 5] (https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
+* Andrei Cirlan Solution for Multiples of 3 and 5](https://github.com/andreynho2006/ODIN-problem1-JS/blob/master/problem1.js)
+* [Mike's Solution for Multiples of 3 and 5](https://gist.github.com/maquinde/afe29a7355b293c1f4adc51ed4ea5fe0)
+* [xavier solution for problem 1](https://github.com/nxdf2015/eulerProblems/blob/master/multiple.js)
+* [Demo318's solution for problems 1-2](https://github.com/Demo318/euler-problems)
+* [AntonyOtero's solution for problem 1](https://github.com/AntonyOtero/project_euler/blob/master/problem1.js)
+* [Adong520's solution for problem1](https://github.com/Adong520/ProjectEuler1)
+* [holdercp's solution for problems 1-3](https://github.com/holdercp/project-euler)
+* [dennzimm's solution for problem 1-5](https://github.com/dennzimm/the_odin_project/tree/master/003_project_euler)
+* [ericaddison's solutions for problems 1-5](https://github.com/ericaddison/odin/tree/master/web101/JavaScript_Basics) | [View in browser](https://ericaddison.github.io/odin/web101/JavaScript_Basics/index.html)
+* [Tharyck21's solutions for problem 1-3](https://github.com/tharyck21/js101-euler)
+* [Putra Isyraq's solutions for Problem 1 & 2](https://github.com/putraisyraq/project_euler)
+* [Avoup's solutions 1 & 2](https://github.com/avoup/projecteuler)
+* [FedeZeta's solutions](https://github.com/FedoZeta/eulerProject)
+* [Xushiqing's solution to problem 1](https://github.com/ShiqingXu/projecteuler/blob/master/problem-1.jsx)
+* [Stanley Quek's solution to problem 1-3](https://github.com/tempeste/ProjectEuler_js)
+* [Tarelochkin's solution to Problems 1-3, 7](https://github.com/Tarelochkin/ProjectEuler)
+* [ryan_'s solution to Problem 1](https://github.com/ryanford-frontend/project-euler-problem-1)
 * [danielbyun's solutions to Problem 1](https://github.com/danielbyun/javascript101)
 * [clormor's solutions](https://github.com/clormor/project-euler-js)
 * [sharkbite1414's solution](https://github.com/sharkbite1414/projecteuler_Solutions)
@@ -431,14 +449,21 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Zaid Khraibut's Solution](https://github.com/zaidkhraibut/project-euler) | [View in Browser](https://zaidkhraibut.github.io/project-euler/) | **(Interactive!)**
 * [Highflyer's solution](https://github.com/highflyer910/Project_Euler)
 * [Maria Theodo's solution](https://github.com/mariatheodo/projectEuler) | [View in Browser](https://mariatheodo.github.io/projectEuler)
-* [Toba's solution](https://github.com/theboytee/project_euler) 
+* [Toba's solution](https://github.com/theboytee/project_euler)
 * [Daunenok's solution](https://github.com/daunenok/javascript-exercise) | [View in Browser](https://daunenok.github.io/javascript-exercise)
 * [Gabriel Klueh's solution](https://github.com/gklueh/Project-Euler-JS) | [View in Browser](https://rawgit.com/gklueh/Project-Euler-JS/master/index.html)
 * [DawidChe's solution](https://github.com/DawidChe/projectEuler/blob/master/euler1.js)
 * [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/ProjectEuler/blob/master/problemOne.js)
 * [gr3if's solution](https://github.com/gr3if/Project-Euler-problems)
 * [Zakir's solution](https://github.com/zakirhussain227/javascript_101)
-
+* [Michael Nazari's solution](https://github.com/mikenaza/project-euler-solutions.git)
+* [Curtis Babin's solution](https://github.com/CurtisGrayeBabin/project-euler)
+* [Paritosh's solution](https://github.com/Paritosh97/Project-Euler)
+* [marleybrush's solution](https://github.com/marleybrush/ProjectEuler)
+* [RamsesGonzalez's solution](https://github.com/RamsesGonzalez/ProjectEuler)
+* [bwkrayb's solution](https://github.com/bwkrayb/javascript_math)
+* [Dev Mehta's solution] (https://github.com/devmehta92/Euler-s-Problems)
+* [Loc Nguyen's solution](https://github.com/vinhloc30796/project_euler_javascript/blob/master/problem_1.js)
 
 ## Additional Resources
 

@@ -30,6 +30,12 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/binary_tree)
+* [theghall's solution](https://github.com/theghall/binary-trees)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/binary_tree.rb)
+* [Raiko's Solution](https://github.com/Cypher0/data_structures_algorithms/tree/master/lib)
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/binarytrees)
+* [Ayushka's solution](https://github.com/ayushkamadji/binary_tree_ruby/blob/master/BST.rb)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Data-Structures)
 * [nmac's solution](https://github.com/nmacawile/BinaryTrees/blob/master/binarytrees.rb)
 * [John Phelps's Solution](https://github.com/jphelps413/odin-ruby/blob/master/data-structures/binary_tree.rb)
@@ -60,7 +66,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/drzewo_binarne.rb)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/basic-data-structures-and-algorithms/searching_binary_tree.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project12--searching-binary-trees/searching_binary_trees.rb)
-* [Noah Prescott's solution](https://github.com/npresco/basic_data_structures_and_algorithms/blob/master/binary_search.rb)
+* [Noah Prescott's solution](https://github.com/npresco/top/blob/master/basic_data_structures_and_algorithms/binary_search.rb)
 * [poctek's solution](https://github.com/poctek/The_Odin_Project/blob/master/Learning/CS/Algorithms/binary_tree.rb)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_challenges_and_algorithms/blob/master/Searching_Binary_Trees/sbt.rb)
 * [Giorgos's solution](https://github.com/vinPopulaire/search_binary_trees)
@@ -108,7 +114,7 @@ Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a r
 
 For this project, you'll need to use a data structure that's similar (but not identical) to a binary tree. For a summary of a few different examples, reference [this article](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs).
 
-A knight in chess can move to any square on the standard 8x8 chess board from any other square on the board, given enough turns (don't believe it?  See [this animation](http://upload.wikimedia.org/wikipedia/commons/c/ca/Knights-Tour-Animation.gif)).  Its basic move is two steps forward and one step to the side.  It can face any direction.
+A knight in chess can move to any square on the standard 8x8 chess board from any other square on the board, given enough turns (don't believe it?  See [this animation](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Knight%27s_tour_anim_2.gif/250px-Knight%27s_tour_anim_2.gif)).  Its basic move is two steps forward and one step to the side.  It can face any direction.
 
 All the possible places you can end up after one move look like this:
 
@@ -143,6 +149,12 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/knights_travails)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/knights_travails.rb)
+* [theghall's solution](https://github.com/theghall/knights-travails)
+* [Raiko's Solution](https://github.com/Cypher0/data_structures_algorithms)
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/knight_moves)
+* [Ayushka's solution](https://github.com/ayushkamadji/knights_travails_ruby)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Data-Structures)
 * [nmac's solution](https://github.com/nmacawile/KnightsTravails/blob/master/knight.rb)
 * [Stefan P's solution](https://github.com/spavikevik/knight_travails)
@@ -172,7 +184,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/goniec.rb)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/basic-data-structures-and-algorithms/knight.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project13--knights-travails/knights_travails.rb)
-* [Noah Prescott's solution](https://github.com/npresco/basic_data_structures_and_algorithms/blob/master/knight_moves.rb)
+* [Noah Prescott's solution](https://github.com/npresco/top/blob/master/basic_data_structures_and_algorithms/knight_moves.rb)
 * [Alex Tsiras' solution](https://github.com/arialblack14/binary_trees/blob/master/knight.rb)
 * [Giorgos's solution](https://github.com/vinPopulaire/knights_travails)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/knights_travails)(w/help from John Quarles' blog post)

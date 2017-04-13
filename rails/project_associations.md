@@ -73,6 +73,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/private_events) | [Live version](https://sheltered-crag-16269.herokuapp.com/)
 * [Austin's solution](https://github.com/CouchofTomato/private_events)
 * [Jamie's solution](https://github.com/Jberczel/private_events) | [View in browser](http://privent.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/private-events)
@@ -117,6 +118,8 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/private-events)
 * [Dylan's non RESTful solution](https://github.com/resputin/the_odin_project/tree/master/Rails/private-events)
 * [DV's solution](https://github.com/dvislearning/private-events) | [View in browser](https://sleepy-everglades-63021.herokuapp.com/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/private-events) | [View in browser](https://quiet-forest-50554.herokuapp.com/)
+* [Eric Gonzalez solution](https://github.com/Twinpair/Eventor) | [View in browser](https://railseventor.herokuapp.com/)
 
 
 ## Additional Resources
