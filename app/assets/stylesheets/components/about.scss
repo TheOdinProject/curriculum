@@ -1,56 +1,99 @@
-.about {
-    width: 75%;
-    margin: auto;
-    // color: $light-grey;
+.about .row {
+    margin-bottom: 60px;
+    color: $text-primary;
 }
-.about h1 {
+
+.about h1, .about h2 {
     text-align: center;
-    color: $primary;
+    coor: $black;
 }
-
-.about h2 {
-    color: black;
-    text-align: center;
-}
-
-
 
 .intro {
     text-align: center;
 }
+.mission {
+    .leftcol {
+        width: 33%;
+    }
+    .rightcol {
+        width: 67%;
+    }
+}
+.story {
+    .leftcol {
+        width: 33%;
+    }
+    .rightcol {
+        width: 67%;
+    }
+}
+.contact {
+    .leftcol {
+        width: 33%;
+    }
+    .rightcol {
+        width: 67%;
+    }
+}
+.contribute {
 
-.mission h3 {
-    
 }
 
-.belief-heading {
-    color: black;
+.about h1 {
+    color: $primary;
 }
 
-.belief-heading::before {
-  content: url(image.jpg);
-  float: left;
+
+.contact-cta {
+    text-decoration: none;
+    background-color: $primary;
+    color: #ffffff;
+    display: block;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    border-radius: 3px;
+    line-height: 60px;
+    margin: 70px auto 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 18px;
 }
 
-.belief-heading li {
-    list-style: none;
+.contribute-cta {
+    text-decoration: none;
+    background-color: $button-primary;
+    color: #ffffff;
+    display: block;
+    width: 200px;
+    text-align: center;
+    height: 60px;
+    border-radius: 3px;
+    line-height: 60px;
+    margin: 70px auto 0;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 18px;
 }
 
-.history {
-    background: $light-grey;
-    padding: 20px;
+.intro {
+    text-align: center;
 }
 
 .history h2 {
     color: $primary;
 }
 
-.history p {
+
+
+.goldbar {
     border-top: solid $primary 2px;
     position: relative;
 }
 
-.history p:before {
+.goldbar:before {
     content: "";
     width: 20px;
     height: 20px;

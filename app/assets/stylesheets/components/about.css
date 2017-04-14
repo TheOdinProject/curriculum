@@ -1,21 +1,18 @@
 /*
-Error: Undefined variable: "$primary".
-        on line 8 of /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss
+Error: Undefined variable: "$text-primary".
+        on line 3 of /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss
 
-3:     margin: auto;
-4:     // color: $light-grey;
-5: }
-6: .about h1 {
+1: .about .row {
+2:     margin-bottom: 60px;
+3:     color: $text-primary;
+4: }
+5: 
+6: .about h1, .about h2 {
 7:     text-align: center;
-8:     color: $primary;
-9: }
-10: 
-11: .about h2 {
-12:     color: black;
-13:     text-align: center;
+8:     coor: $black;
 
 Backtrace:
-/home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss:8
+/home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss:3
 /usr/local/rvm/gems/ruby-2.3.0@theodinproject/gems/sass-3.4.22/lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-2.3.0@theodinproject/gems/sass-3.4.22/lib/sass/script/tree/node.rb:58:in `perform'
 /usr/local/rvm/gems/ruby-2.3.0@theodinproject/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:397:in `visit_prop'
@@ -69,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary\".\A         on line 8 of /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss\A \A 3:     margin: auto;\A 4:     // color: $light-grey;\A 5: }\A 6: .about h1 {\A 7:     text-align: center;\A 8:     color: $primary;\A 9: }\A 10: \A 11: .about h2 {\A 12:     color: black;\A 13:     text-align: center;"; }
+  content: "Error: Undefined variable: \"$text-primary\".\A         on line 3 of /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss\A \A 1: .about .row {\A 2:     margin-bottom: 60px;\A 3:     color: $text-primary;\A 4: }\A 5: \A 6: .about h1, .about h2 {\A 7:     text-align: center;\A 8:     coor: $black;"; }
