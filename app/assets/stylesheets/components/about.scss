@@ -69,6 +69,7 @@
         width: 45%;
         text-align: center;
         padding: 20px;
+        z-index: 1;
     }
     
     .cta {
@@ -128,16 +129,15 @@
 
 .speech-bubble {
     position: relative;
-    z-index: 2;
 }
 
-.speech-bubble:before {
+.speech-bubble:after {
     content: "";
     width: 120px;
     height: 120px;
     transform: rotate(45deg);
-    z-index: 1;
-    top: 60px;
+    z-index: -1;
+    top: -200px;
     left: -60px;
     background: $light-grey;
     display: block;
