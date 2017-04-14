@@ -2,7 +2,7 @@
 
 Now that you've gotten your hands dirty and learned some real jQuery, it's time to apply it by generating an entire webpage using just Javascript and jQuery.  The webpage will be a simple restaurant home page but the principle of using Javascript to dynamically (re)render the page should stick with you.
 
-## Your Task 
+## Your Task
 
 1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
 1. Set up a blank HTML document with just the `<html>` and `<body>` tags to begin with plus a single div called `<div id="content">`. Also, remember to include the jQuery library in your document within the '<head>'.
@@ -48,6 +48,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Mayowa Pitan's solution](https://github.com/andela-mpitan/jquery-restaurant) | [View in Browser](https://andela-mpitan.github.io/jquery-restaurant/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq_restaurant)
 * [Daunenok's solution](https://daunenok.github.io/restaurant/) | [View in Browser](https://daunenok.github.io/restaurant/)
+* [Pat's solution](https://github.com/Pat878/Restaurant) | [View in Browser](https://pat878.github.io/Restaurant/)
 
 ## Additional Resources
 
