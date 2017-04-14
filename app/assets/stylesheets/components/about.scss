@@ -1,19 +1,31 @@
 .about .row {
-    padding: 60px 20px;
+    padding: 40px;
     color: $text-primary;
 }
 
 .intro {
     text-align: center;
+    width: 70%;
+    margin: auto;
     h1 {
         color: $primary;
-        text-align: center;
+        width: 100%;
     }
 }
 
 .mission {
+    .row {
+        width: 70%;
+        margin: auto;
+    }
     h2 {
         text-align: center;
+        width: 100%;
+    }
+    img {
+        width: 40%;
+        margin-right: 15px;
+        float: right;
     }
     .leftcol {
         width: 33%;
@@ -25,30 +37,24 @@
 .story {
     h2 {
         text-align: center;
+        width: 100%;
         color: $primary;
     }
     .leftcol {
         width: 25%;
+        h3 {
+            color: $primary;
+            text-align: right;
+            padding-right: 30px;
+            transform: translateY(-15px);
+        }
     }
     .rightcol {
         width: 75%;
+        position: relative;
         p {
-            margin-left: 30px;
-            .goldbar {
-                border-top: solid $primary 2px;
-                position: relative;
-            }
-            
-            .goldbar:before {
-                content: "";
-                width: 20px;
-                height: 20px;
-                border-radius: 50%;
-                top: -10px;
-                background: $primary;
-                display: block;
-                position: relative;
-            }
+            padding-left: 30px;
+
         }
     }
 }
@@ -56,7 +62,7 @@
     .leftcol {
         width: 45%;
         img {
-            width: 100%;
+            width: 50%;
         }
     }
     .rightcol {
@@ -104,7 +110,22 @@
     }
 }
 
+.goldbar {
+    border-top: solid $primary 2px;
+    position: relative;
+}
 
+.goldbar:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: -10px;
+    left: -30px;
+    background: $primary;
+    display: block;
+    position: relative;
+}
 
 
 
