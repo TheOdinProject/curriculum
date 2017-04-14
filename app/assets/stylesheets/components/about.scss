@@ -67,9 +67,8 @@
     }
     .rightcol {
         width: 45%;
-        h2 {
-            text-align: center;
-        }
+        text-align: center;
+        padding: 20px;
     }
     
     .cta {
@@ -127,7 +126,23 @@
     position: relative;
 }
 
+.speech-bubble {
+    position: relative;
+    z-index: 2;
+}
 
+.speech-bubble:before {
+    content: "";
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg);
+    z-index: 1;
+    top: 60px;
+    left: -60px;
+    background: $light-grey;
+    display: block;
+    position: relative;
+}
 
 
 
