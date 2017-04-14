@@ -3,13 +3,13 @@ Error: Undefined variable: "$text-primary".
         on line 3 of /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss
 
 1: .about .row {
-2:     margin-bottom: 60px;
+2:     padding: 60px 20px;
 3:     color: $text-primary;
 4: }
 5: 
-6: .about h1, .about h2 {
+6: .intro {
 7:     text-align: center;
-8:     coor: $black;
+8:     h1 {
 
 Backtrace:
 /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss:3
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$text-primary\".\A         on line 3 of /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss\A \A 1: .about .row {\A 2:     margin-bottom: 60px;\A 3:     color: $text-primary;\A 4: }\A 5: \A 6: .about h1, .about h2 {\A 7:     text-align: center;\A 8:     coor: $black;"; }
+  content: "Error: Undefined variable: \"$text-primary\".\A         on line 3 of /home/ubuntu/workspace/theodinproject/app/assets/stylesheets/components/about.scss\A \A 1: .about .row {\A 2:     padding: 60px 20px;\A 3:     color: $text-primary;\A 4: }\A 5: \A 6: .intro {\A 7:     text-align: center;\A 8:     h1 {"; }
