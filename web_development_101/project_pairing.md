@@ -25,6 +25,7 @@ Enough talk! Lets build!
 
 Add your solution below this line!
 
+* [holdercp's Solution](https://github.com/holdercp/pomodoro-timer) | [View in Browser](https://holdercp.github.io/pomodoro-timer/)
 * [Flint Mayers and Isaias Ogbe Solution](https://github.com/FlintMayers/pomodoro_app) | [View in Browser](https://flintmayers.github.io/pomodoro_app/)
 * [Sample solution](https://github.com/ChadKreutzer/pomodoro_clock) | [View in Browser](http://romantic-trouble.surge.sh/)
 * [Ovsjah Schweinefresser](https://github.com/Ovsjah/pomodoro) |  [View in Browser](https://ovsjah.github.io/pomodoro/)
