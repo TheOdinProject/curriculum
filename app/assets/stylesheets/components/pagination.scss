@@ -1,0 +1,28 @@
+.pagination-wrapper {
+  text-align: center;
+}
+
+.pagination {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 1em auto;
+  display: inline-block;
+  line-height: 1em;
+  font-weight: bold;
+  padding: .35em 1em;
+
+  a,
+  .previous_page,
+  .current,
+  .next_page {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    width: 2em;
+  }
+
+  .next_page,
+  .previous_page {
+    width: 6em;
+  }
+}

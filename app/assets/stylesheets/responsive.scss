@@ -1,0 +1,111 @@
+@media (max-width: 992px) {
+  #home-page {
+
+    .signup-cta {
+      width: 20%;
+    }
+
+    .curriculum-details-tile {
+      flex-basis: 50%;
+    }
+
+    .success-stories-container {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .success-story {
+      flex: 1;
+      padding-bottom: 2em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .signup-button {
+      width: 50%;
+    }
+  }
+
+  .navbar {
+    .navbar-nav {
+      margin-top: 20px;
+      display: 80%;
+
+      .divider {
+        display: none;
+      }
+
+      .nav-link {
+        line-height: normal;
+        text-align: center;
+      }
+    }
+  }
+
+  h1 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  #home-page {
+
+    .signup-cta {
+      width: 30%;
+    }
+
+    .how-it-works-tiles {
+      flex-direction: column;
+
+      .how-it-works-image {
+        height: 120px;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    height: 400px;
+
+    .footer-links {
+
+      .footer-links-container {
+        text-align: center;
+        width: 40%;
+      }
+
+      a {
+        justify-content: center;
+      }
+    }
+  }
+
+  h2 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 100%;
+
+    .logo-img {
+      float: none;
+    }
+  }
+}
+
+@media (max-width: 480px){
+  #home-page {
+
+    .signup-cta {
+      width: 40%;
+    }
+
+    .curriculum-details-tile {
+      flex-basis: 100%;
+    }
+  }
+}

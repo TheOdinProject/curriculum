@@ -1,146 +1,17 @@
 <div id="home-page">
-  <%= render partial: "shared/navbar" %>
+  <%= render 'shared/navbar' %>
 
   <header>
-    <h1>
-      Learn Web Development for Free
-    </h1>
-    <h2>
-      Stop wasting time...&nbsp;  Here's what you need to know.
-    </h2>
-
-    <a class='signup-cta' href=<%= sign_up_path(:ref => "homenav") %>>Sign Up</a>
+    <h1 class="text-center"> Learn Web Development for Free </h1>
+    <h2 class="text-center"> Stop wasting time...&nbsp;  Here's what you need to know. </h2>
+    <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'signup-cta' %>
   </header>
 
-  <%= image_tag "homepage-hero.jpg", class: "homepage-hero" %>
+  <%= image_tag 'homepage-hero.jpg', class: 'homepage-hero', alt: 'home-page-banner' %>
 
-  <!-- You are now entering a wasteland of markup -->
-  <div class="how-it-works">
-    <div class="how-it-works-title">
-      <h2>How it works</h2>
-      <p>This is the website we wish we had when we were learning on our own. Our curriculum includes the best resources we could find online and here it is.</p>
-    </div>
-    <div class="how-it-works-tiles">
-      <div class="tile">
-        <%= image_tag  "img-learn.svg", :class=>"how-it-works-image" %>
-        <h3>Learn</h3>
-        <p>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</p>
-      </div>
-      <div class="tile">
-        <%= image_tag  "img-build.svg", :class=>"how-it-works-image" %>
-        <h3>Build</h3>
-        <p>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites.</p>
-      </div>
-      <div class="tile">
-        <%= image_tag  "img-connect.svg", :class=>"how-it-works-image" %>
-        <h3>Connect</h3>
-        <p>You’re not alone. Learn together by pairing up on projects with other students.</p>
-      </div>
-    </div>
-  </div>
+  <%= render 'static_pages/home/how_it_works' %>
 
-  <div class="curriculum-details">
-    <div class="curriculum-details-title">
-      <h2>Choose to learn from a path: <span class="coffee">Full Stack</span>, <span class="orange">Front End</span>, <span class="camo">Back End</span></h2>
-      <h2>Or selectively learn from the following courses:</h2>
-    </div>
-    <div class="curriculum-details-grid">
-      <div class="curriculum-details-tile">
-        <%= image_tag  "badge-html.svg" %>
-        <h3>HTML + CSS3</h3>
-        <p>13 LESSONS</p>
-      </div>
-      <div class="curriculum-details-tile">
-        <%= image_tag  "badge-javascript.svg" %>
-        <h3>JavaScript</h3>
-        <p>13 LESSONS</p>
-      </div>
-      <div class="curriculum-details-tile">
-        <%= image_tag  "badge-git.svg" %>
-        <h3>Git</h3>
-        <p>13 LESSONS</p>
-      </div>
-      <div class="curriculum-details-tile">
-        <%= image_tag  "badge-database.svg" %>
-        <h3>Databases</h3>
-        <p>13 LESSONS</p>
-      </div>
-      <div class="curriculum-details-tile">
-        <%= image_tag  "badge-ruby.svg" %>
-        <h3>Ruby</h3>
-        <p>13 LESSONS</p>
-      </div>
-      <div class="curriculum-details-tile">
-        <%= image_tag  "badge-ruby-on-rails.svg" %>
-        <h3>Ruby on Rails</h3>
-        <p>13 LESSONS</p>
-      </div>
-      <div class="curriculum-details-tile">
-        <%= image_tag  "badge-getting-hired.svg" %>
-        <h3>Getting Hired as a Web Developer</h3>
-        <p>13 LESSONS</p>
-      </div>
-    </div>
-    <a class='view-curriculum-details' href=<%= courses_path(:ref => "homenav") %>>View Curriculum Details</a>
+  <%= render 'static_pages/home/curriculum_details' %>
 
-  </div>
-
-  <div class="success-stories">
-    <div class="success-stories-title">
-      <h2>Success Stories</h2>
-    </div>
-    <div class="success-stories-container">
-      <div class="success-story">
-        <div class="photo">
-          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
-        </div>
-        <div class="success-content">
-          <p>Ben Gray</p>
-          <p>
-          The best free learning resource for code learners. Highly recommend it! Great community as well on Gitter.
-          </p>
-        </div>
-      </div>
-      <div class="success-story">
-        <div class="photo">
-          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
-        </div>
-        <div class="success-content">
-          <p>Michael Weins</p>
-          <p>
-            Fantastic learning experience with The Odin Project! Upon completion, I was offered a job at several startups.
-          </p>
-        </div>
-      </div>
-      <div class="success-story">
-        <div class="photo">
-          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
-        </div>
-        <div class="success-content">
-          <p>Kris Tobiki</p>
-          <p>
-            Incredible experience throughout the curriculum. I’ve met many new developer friends and collaborated together.
-          </p>
-        </div>
-      </div>
-      <div class="success-story">
-        <div class="photo">
-          <%= image_tag  "http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg" %>
-        </div>
-        <div class="success-content">
-          <p>Laura Smith</p>
-          <p>
-            Love the courses offered and the self-paced learning. I absolutely love the personal dashboard to track progress.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="success-stories-read-more">
-      <%= link_to  "Read more success stories", "#" %>
-    </div>
-    <div class="success-stories-sign-up">
-      <p>Start learning for free now!</p>
-      <a class='signup-button' href=<%= sign_up_path(:ref => "homenav") %>>Sign Up</a>
-    </div>
-  </div>
+  <%= render 'static_pages/home/success_stories' %>
 </div>

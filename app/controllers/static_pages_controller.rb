@@ -19,6 +19,12 @@ class StaticPagesController < ApplicationController
   def cla
   end
 
+  def style_guide
+  end
+
+  def success_stories
+  end
+
   def suggestion
     if suggestion_body_not_empty?
       ContactMailer.suggestion_email(

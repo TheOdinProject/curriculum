@@ -1,0 +1,55 @@
+.faq-title {
+  margin-bottom: 2em;
+}
+
+#faq-accordion {
+  padding: 2em 0;
+
+  .faq-card {
+    margin-bottom: 1em;
+    @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
+
+    .faq-card-header {
+      align-items: center;
+      background-color: $white;
+      border-bottom: 0;
+      display: flex;
+      justify-content: space-between;
+
+      h5 {
+        color: $text-primary;
+        font-weight: bold;
+        margin: 0;
+        padding: 0.2em;
+      }
+
+      .minimizer {
+        display: none;
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.got-questions {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+}
+
+.hang-out {
+  letter-spacing: 0.2px;
+}
+
+.gitter-btn {
+  @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
+  @include border-radius(3px);
+  font-weight: bold;
+  height: 60px;
+  line-height: 60px;
+  margin: 2.5em 0;
+  padding: 0 2em;
+}
