@@ -24,6 +24,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/rest)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/blob/master/rest-client.rb)
 * [leosoaivan's solution](https://github.com/leosoaivan/TOP_rest-client)
 * [Austin's solution](https://github.com/CouchofTomato/rest-client/blob/master/rest_client.rb)
@@ -86,21 +87,21 @@ This is an example (listing 3.22) from the tutorial:
 ```language-ruby
     # test/controllers/static_pages_controller_test.rb
     require 'test_helper'
-    
+
     class StaticPagesControllerTest < ActionController::TestCase
-    
+
       test "should get home" do
         get :home
         assert_response :success
         assert_select "title", "Home | Ruby on Rails Tutorial Sample App"
       end
-      
+
       test "should get help" do
         get :help
         assert_response :success
         assert_select "title", "Help | Ruby on Rails Tutorial Sample App"
       end
-      
+
       test "should get about" do
         get :about
         assert_response :success
