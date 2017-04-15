@@ -59,6 +59,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/js-carousel) | [View in browser](https://davidchappy.github.io/image-carousel/index.html)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/image-carousel) | [View in browser](https://sophialwu.github.io/image-carousel/)
 * [Axel’s solution](https://github.com/afuh/slider) | [View in browser](https://afuh.github.io/slider/)
+* [Daunenok’s solution](https://github.com/daunenok/image-carousel) | [View in browser](https://daunenok.github.io/image-carousel/)
 
 ## Additional Resources
 
