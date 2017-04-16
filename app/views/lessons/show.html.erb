@@ -1,4 +1,15 @@
 <%= title(@lesson.title) %>
+
+<% if user_signed_in? && @lesson.has_submission? %>
+  <div id="project-submission-modal-wrapper">
+    <%= render 'projects/form_modal', lesson: @lesson, project: @project %>
+  </div>
+<% end %>
+
+<% if @project&.persisted? %>
+  <%= render 'projects/delete_modal', lesson: @lesson, project: @project %>
+<% end %>
+
 <div id="lesson-nav">
   <div class="inner-nav">
     <%= link_to "Course List", courses_path %> >>
@@ -19,9 +30,7 @@
 </div>
 
 <!-- progress-tracking bar -->
-<%= render :partial => "shared/pt_bar", :locals => { lesson: @lesson } %>
-
-<!-- END progress-tracking bar -->
+<%= render 'shared/pt_bar', lesson: @lesson %>
 
 <div class="individual-lesson <%= @lesson.is_project ? 'project-lesson' : ''%>">
   <div class="container">
@@ -34,16 +43,23 @@
 
     <%= convert_markdown_to_html(@lesson.content) %>
 
-    <%= render partial: 'chat_link' %>
-
-
-    <% if @right_box_ad %>
-      <%= render :partial => "right_box_ad", :locals => { :ad => @right_box_ad } %>
+    <% if @project&.new_record? %>
+      <div id="new-submission">
+        <%= render 'add_submission_button' %>
+      </div>
     <% end %>
 
-    <% if @lower_banner_ad %>
-      <%= render :partial => "lower_banner_ad", :locals => { :ad => @lower_banner_ad } %>
+    <% if @submissions %>
+      <div id="submissions">
+        <%= render 'submissions', submissions: @submissions %>
+      </div>
     <% end %>
+
+    <%= render 'chat_link' %>
+
+    <%= render 'right_box_ad', ad: @right_box_ad if @right_box_ad %>
+
+    <%= render 'lower_banner_ad', ad: @lower_banner_ad if @lower_banner_ad %>
 
     <div id="info-box">
       <%= render 'shared/social_sharing_buttons' %>
@@ -54,7 +70,7 @@
 
     <div class="action-box">
       <div class="lc-end-wrapper">
-        <%= render "shared/complete_lesson" %>
+        <%= render 'shared/complete_lesson' %>
       </div>
 
       <div class="lnav">
@@ -103,6 +119,23 @@
     </div>
   </div>
 </div>
+
+<% content_for :stylesheets do %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+<% end %>
+
+<% content_for :scripts do %>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <script>
+    // toastr options
+    toastr.options = {
+      "closeButton": true,
+      "timeOut": "5000",
+      "preventDuplicates": true
+    };
+  </script>
+<% end %>
 
 <script>
   $(function(){

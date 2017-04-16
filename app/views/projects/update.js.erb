@@ -1,0 +1,17 @@
+<% if @project.valid? %>
+  $('#project-submission-modal').modal('hide');
+  toastr.clear();
+  toastr.success('Your submission was updated!', 'Success');
+
+  $('.project-box.current-user-submission')
+    .replaceWith('<%= j render "project_box", project: @project %>');
+
+<% else %>
+  toastr.clear();
+  toastr.error('<%= @project.errors.full_messages[0] %>', 'Error', {
+    closeButton: true,
+    timeOut: 10000,
+    extendedTimeOut: 10000,
+    tapToDismiss: false,
+  });
+<% end %>

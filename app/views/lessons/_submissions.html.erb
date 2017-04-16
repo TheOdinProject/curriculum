@@ -1,0 +1,12 @@
+<div class="submissions-list">
+  <h2>Recent submissions</h2>
+  <% if submissions.empty? %>
+    <p class="no-submission-message">
+      There are no submissions for this project yet. Be the first!
+    </p>
+  <% else %>
+    <% submissions.each do |submission| %>
+      <%= render 'projects/project_box', project: submission %>
+    <% end %>
+  <% end %>
+</div>

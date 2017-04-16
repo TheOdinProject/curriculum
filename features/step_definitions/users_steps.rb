@@ -1,3 +1,9 @@
+Given(/^the following users exist:$/) do |table|
+  table.hashes.each do |hash|
+    user = FactoryGirl.create(:user, hash)
+  end
+end
+
 Given(/^I am on the sign up page$/) do
   visit('/users/sign_up')
 end
@@ -8,8 +14,21 @@ end
 
 Given(/^I verify my details$/) do
   fill_in('user_username', with: 'Kevin')
-  fill_in('user_email', with: 'kevin@email.com')
+  fill_in('user_email', with: 'kevin@example.com')
   check('user[legal_agreement]')
+end
+
+Given(/^I am logged in( as '([^']+)')?$/) do |_, username|
+  options = username ? { username: username } : {}
+
+  @user = FactoryGirl.create(:user, options)
+  log_in(@user.email, @user.password)
+  expect(page).to have_content(@user.username)
+end
+
+Given(/^I am logged in as '([^']+)' with password '([^']+)'$/) do |username, password|
+  user = User.find_by(username: username)
+  log_in(user.email, password)
 end
 
 When(/^I click the sign up button$/) do
@@ -17,15 +36,14 @@ When(/^I click the sign up button$/) do
 end
 
 Then(/^my account should be created$/) do
-  expect(User.last.email).to eql('kevin@email.com')
+  expect(User.last.email).to eql('kevin@example.com')
 end
 
 Then(/^I should be sent a confirmation email$/) do
-  email = ActionMailer::Base.deliveries.last
-
-  expect(email.to).to eql(['kevin@email.com'])
-  expect(email.subject).to eql('Getting started with The Odin Project')
-  expect(email.encoded).to include('Confirm your email')
+  open_email('kevin@example.com')
+  expect(current_email.to).to eql(['kevin@example.com'])
+  expect(current_email.subject).to eql('Getting started with The Odin Project')
+  expect(current_email.encoded).to include('Confirm your email')
 end
 
 Then(/^I should be redirected to the courses page$/) do
@@ -33,7 +51,7 @@ Then(/^I should be redirected to the courses page$/) do
 end
 
 Given(/^I am on the homepage$/) do
-  visit root_url
+  visit root_path
 end
 
 When(/^I visit the signup page$/) do
@@ -71,8 +89,4 @@ end
 
 Then(/^I should not able to sign up$/) do
   expect(page).to have_content('Please review the problems below')
-end
-
-Then(/^I should see '([^']+)'$/) do |content|
-  expect(page).to have_content(content)
 end

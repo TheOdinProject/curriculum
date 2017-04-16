@@ -1,0 +1,25 @@
+<div class="project-form-container">
+  <h3 class="text-primary text-center project-form-title">Upload your project</h4>
+  <div id="message"></div>
+
+  <%= form_for([lesson, project], remote: true) do |f| %>
+    <div class="form-group">
+      <%= f.label :repo_url, 'Repository URL', class: 'control-label' %>
+      <%= f.text_field :repo_url, class: 'form-control',
+            placeholder: 'https://github.com/username/reponame' %>
+    </div>
+
+    <% if lesson.has_live_preview? %>
+      <div class="form-group">
+        <%= f.label :live_preview, 'Live Preview', class: 'control-label' %>
+        <%= f.text_field :live_preview, class: 'form-control',
+              placeholder: 'https://appname.herokuapp.com' %>
+      </div>
+    <% end %>
+
+    <div class="form-group">
+      <%= f.submit (project.new_record? ? 'Upload project' : 'Update submission'),
+            class: 'btn btn-success btn-block btn-big project-submit-btn' %>
+    </div>
+  <% end %>
+</div>
