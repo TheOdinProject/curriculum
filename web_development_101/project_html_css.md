@@ -1071,6 +1071,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Ray's solution (easy)](https://github.com/seederwood/google-homepage) | [View in browser](https://seederwood.github.io/google-homepage/)
 * [Veronika's solution (easy)](https://github.com/vermelon/google-homepage) | [View in browser](https://vermelon.github.io/google-homepage/)
 * [Sachin's solution (easy)](https://github.com/sachinmatepatil/g_page.git) | [View in browser](https://cdn.rawgit.com/sachinmatepatil/g_page/76b217ff/g_page.html) 
+
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
