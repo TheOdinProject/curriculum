@@ -34,7 +34,6 @@ Background: Adding data to the database
     Then I should see "Your submission was added"
     And I should see "Kevin's solution"
     And I should see the edit and delete project submission buttons
-    And I should see "Are you sure you want to delete the project submission?"
     And I should not see the Add your solution button
 
   @javascript
