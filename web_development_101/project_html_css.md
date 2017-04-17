@@ -1069,7 +1069,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Prajwal solution(Easy)](https://github.com/FreakingPrajwal/google-homepage) | [View in browser](https://freakingprajwal.github.io/google-homepage/)
 * [codebreeze solution(Easy)](https://github.com/codebreeze/google-homepage) | [View in browser](https://codebreeze.github.io/google-homepage/)
 * [Ray's solution (easy)](https://github.com/seederwood/google-homepage) | [View in browser](https://seederwood.github.io/google-homepage/)
-* [Veronika's solution (easy)](https://github.com/vermelon/google-homepage) | [View in browser](https://vermelon.github.io/google-homepage/)
+* [Veronika's solution (easy & difficult)](https://github.com/vermelon/google-homepage) | [View in browser](https://vermelon.github.io/google-homepage/)
 * [Sachin's solution (easy)](https://github.com/sachinmatepatil/g_page.git) | [View in browser](https://cdn.rawgit.com/sachinmatepatil/g_page/76b217ff/g_page.html) 
 
 
