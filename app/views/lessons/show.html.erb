@@ -43,11 +43,9 @@
 
     <%= convert_markdown_to_html(@lesson.content) %>
 
-    <% if @project&.new_record? %>
-      <div id="new-submission">
-        <%= render 'add_submission_button' %>
-      </div>
-    <% end %>
+    <div id="new-submission">
+      <%= render 'add_submission_button' if @project&.new_record? %>
+    </div>
 
     <% if @submissions %>
       <div id="submissions">

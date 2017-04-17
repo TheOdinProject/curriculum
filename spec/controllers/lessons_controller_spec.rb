@@ -41,16 +41,21 @@ RSpec.describe LessonsController do
 
     context 'when lesson cannot be found' do
       let(:lesson_id) { '123' }
+      let(:request) { get :show, params: params }
 
       before do
         allow(Lesson).to receive(:friendly).and_return(lesson)
         allow(lesson).to receive(:find).with('123')
           .and_raise(ActiveRecord::RecordNotFound)
+        request
       end
 
-      it 'returns a RoutingError' do
-        expect { get :show, params: params }
-          .to raise_error(ActionController::RoutingError)
+      it 'returns a status of 404' do
+        expect(response).to have_http_status(404)
+      end
+
+      it 'renders the 404 page' do
+        expect(response).to render_template(file: "#{Rails.root}/public/404.html")
       end
     end
 

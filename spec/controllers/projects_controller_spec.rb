@@ -155,7 +155,7 @@ RSpec.describe ProjectsController, type: :controller do
           end
         end
 
-        describe "cannot update other user's project" do
+        describe 'cannot update other user\'s project' do
           let(:request) {
             patch :update, params: valid_params.merge(id: admin_user_project.id),
               xhr: true
@@ -209,7 +209,7 @@ RSpec.describe ProjectsController, type: :controller do
           end
         end
 
-        describe "can update other user's project" do
+        describe 'can update other user\'s project' do
           let(:request) {
             patch :update, params: valid_params.merge(id: student_project.id),
               xhr: true
@@ -267,6 +267,7 @@ RSpec.describe ProjectsController, type: :controller do
             stub_lesson
             stub_project(student_project.id, student_project)
             stub_authorize(:destroy, student_project)
+            stub_new_project_method(lesson.id)
             stub_recent_submissions
             allow(student_project).to receive(:destroy)
           end
@@ -281,7 +282,7 @@ RSpec.describe ProjectsController, type: :controller do
           end
         end
 
-        context "cannot destroy other user's project" do
+        context 'cannot destroy other user\'s project' do
           let(:request) {
             delete :destroy, params: {
               lesson_id: lesson.slug, id: admin_user_project.id
@@ -312,6 +313,7 @@ RSpec.describe ProjectsController, type: :controller do
             stub_lesson
             stub_project(admin_user_project.id, admin_user_project)
             stub_authorize(:destroy, admin_user_project)
+            stub_new_project_method(lesson.id)
             stub_recent_submissions
             allow(admin_user_project).to receive(:destroy)
           end
@@ -326,7 +328,7 @@ RSpec.describe ProjectsController, type: :controller do
           end
         end
 
-        describe "can destroy other user's project" do
+        describe 'can destroy other user\'s project' do
           let(:request) { subject }
 
           before do
@@ -334,6 +336,7 @@ RSpec.describe ProjectsController, type: :controller do
             stub_lesson
             stub_project(student_project.id, student_project)
             stub_authorize(:destroy, student_project)
+            stub_new_project_method(lesson.id)
             stub_recent_submissions
             allow(student_project).to receive(:destroy)
           end
