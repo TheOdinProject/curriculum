@@ -32,7 +32,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 
 *Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/) it has a terminal window you can practice with.*
 
-1. [This book](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line.  It goes into more depth than you really need at this point, so just go through chapters 1 and 4.  Feel free to refer to the others (they're great!) whenever you like.
+1. Read [chapter 1 of[conquering the command line](http://conqueringthecommandline.com/book/basics) for a great introduction to navigating around your computer with the command line. 
 2. Complete the first 2 sections of this interactive Codecademy course to get practice navigating and manipulating directories and files [command line course](https://www.codecademy.com/en/courses/learn-the-command-line).
 
 ## Exercise:
@@ -51,5 +51,6 @@ That's it, you're done with command line basics.  This stuff will become second 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
+* [This book](https://www.learnenough.com/command-line-tutorial) is a great resource for mastering the command line.  It goes into more depth than you really need at this point, so just go through chapters 1 and 4.  Feel free to refer to the others (they're great!) whenever you like.
 * [This video series](https://commandlinepoweruser.com/) by Wes Bos is seriously great.. he goes a little more in depth and shows you how to do some real magic on the command line.  Not required info.. but seriously effective.
 * If you want to deconstruct a particularly strange shell command or learn how Bash works through guess-and-check, [ExplainShell.com](http://explainshell.com/) is your solution.
