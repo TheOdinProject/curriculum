@@ -40,30 +40,34 @@
 
 <div class="StaticPagesController">
   <div class="container">
-    <h1 class="text-center camel faq-title">Frequently Asked Questions</h1>
-    <div id="faq-accordion" role="tablist" aria-multiselectable="true">
-      <% faq_items.each_with_index do |faq_item, index| %>
-        <div class="card faq-card">
-          <a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#faq-item-<%= index %>" aria-expanded="true" aria-controls="faq-item-<%= index %>">
-            <div class="card-header faq-card-header" role="tab">
-              <h5 class="faq-question-title">
-                <%= faq_item[:question] %>
-              </h5>
-              <i class="fa fa-plus camel expander"></i>
-              <i class="fa fa-minus camel minimizer"></i>
-            </div> <!-- /.card-header-->
-          </a>
-
-          <div id="faq-item-<%= index %>" class="collapse" role="tabpanel" aria-labelledby="faq-item-<%= index %>">
-            <div class="card-block">
-              <%= faq_item[:answer].html_safe %>
-            </div> <!-- /.card-block -->
-          </div> <!-- /.collapse -->
-        </div> <!-- /.faq-card -->
-      <% end %>
-    </div> <!-- /#faq-accordion -->
-
     <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <h1 class="text-center camel faq-title">Frequently Asked Questions</h1>
+        <div id="faq-accordion" role="tablist" aria-multiselectable="true">
+          <% faq_items.each_with_index do |faq_item, index| %>
+            <div class="card faq-card">
+              <a role="button" data-toggle="collapse" data-parent="#faq-accordion" href="#faq-item-<%= index %>" aria-expanded="true" aria-controls="faq-item-<%= index %>">
+                <div class="card-header faq-card-header" role="tab">
+                  <h5 class="faq-question-title">
+                    <%= faq_item[:question] %>
+                  </h5>
+                  <i class="fa fa-plus camel expander"></i>
+                  <i class="fa fa-minus camel minimizer"></i>
+                </div> <!-- /.card-header-->
+              </a>
+
+              <div id="faq-item-<%= index %>" class="collapse" role="tabpanel" aria-labelledby="faq-item-<%= index %>">
+                <div class="card-block">
+                  <%= faq_item[:answer].html_safe %>
+                </div> <!-- /.card-block -->
+              </div> <!-- /.collapse -->
+            </div> <!-- /.faq-card -->
+          <% end %>
+        </div> <!-- /#faq-accordion -->
+      </div> <!-- /.col-md-10 -->
+    </div> <!-- /.row -->
+
+    <div class="row odin-community">
       <div class="col text-center">
         <p class="got-questions">Got questions?</p>
         <p class="hang-out">
@@ -73,7 +77,7 @@
            class="btn btn-camel gitter-btn" target="_blank">
           Open Gitter
         </a>
-      </div>
-    </div>
+      </div> <!-- /.col -->
+    </div> <!-- /.row -->
   </div> <!--  /.container -->
 </div> <!-- /.StaticPagesController -->
