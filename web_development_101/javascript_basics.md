@@ -464,7 +464,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [marleybrush's solution](https://github.com/marleybrush/ProjectEuler)
 * [RamsesGonzalez's solution](https://github.com/RamsesGonzalez/ProjectEuler)
 * [bwkrayb's solution](https://github.com/bwkrayb/javascript_math)
-* [Dev Mehta's solution] (https://github.com/devmehta92/Euler-s-Problems)
+* [Dev Mehta's solution](https://github.com/devmehta92/Euler-s-Problems)
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/project_euler_javascript/blob/master/problem_1.js)
 * [codebreeze's solution](https://codebreeze.github.io/multiples-solution/) | [View in browser](https://gist.github.com/codebreeze/bc365b5e059e30917d01958fadd70acd)
 
