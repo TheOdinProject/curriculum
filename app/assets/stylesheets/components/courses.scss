@@ -1,7 +1,98 @@
 .CoursesController {
-  .heading-box {
+  .course {
     .heading {
-      margin-bottom: 70px;
+      color: $grey;
+      font-size: 18px;
+      letter-spacing: 0.2px;
+      margin: 0 0 30px;
+    }
+
+    .course-badge {
+      margin: 30px 0;
+      width: 150px;
+    }
+
+    .course-title {
+      font-weight: 300;
+      color: $text-primary;
+      margin-bottom: 100px;
+    }
+
+    .course-completion {
+      color: $white;
+      font-size: 24px;
+      margin: 0 auto 100px;
+      padding: 16px;
+      background: $coffee;
+    }
+
+    .course-overview {
+      line-height: 1.88;
+      letter-spacing: 0.2px;
+      color: $text-primary;
+      margin-bottom: 60px;
+    }
+  }
+
+  .sections-list {
+    padding-bottom: 116px;
+
+    .section {
+      background: $white;
+      margin-bottom: 50px;
+      padding: 30px;
+
+      .section-title {
+        font-size: 24px;
+        letter-spacing: 0.3px;
+        margin-bottom: 16px;
+
+        @include media-breakpoint-down(md) {
+          h2 {
+            margin: 0 0 16px;
+          }
+        }
+      }
+
+      .section-description {
+        margin-bottom: 30px;
+      }
+
+      .course-lesson {
+        .lesson-link {
+          display: flex;
+
+          a {
+            display: block;
+          }
+
+          .lesson-link-text {
+            color: $light-orange;
+            font-size: 24px;
+            padding: 10px;
+
+            @include media-breakpoint-down(md) {
+              font-size: 20px;
+            }
+
+            .lesson-title {
+              padding-left: 20px;
+            }
+          }
+        }
+
+        .completion-status {
+          color: $pale-grey;
+          font-size: 13px;
+          font-weight: bold;
+          letter-spacing: 0.2px;
+          text-transform: uppercase;
+
+          @include media-breakpoint-down(md) {
+            text-align: right;
+          }
+        }
+      }
     }
   }
 

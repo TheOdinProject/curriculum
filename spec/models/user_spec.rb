@@ -119,7 +119,7 @@ RSpec.describe User do
     end
   end
 
-  describe '#completed_lesson?' do
+  describe '#has_completed?' do
     let(:exists?) { true }
 
     before do
@@ -127,14 +127,14 @@ RSpec.describe User do
     end
 
     it 'returns true' do
-      expect(user.completed_lesson?(first_lesson_completion)).to eql(true)
+      expect(user.has_completed?(first_lesson_completion)).to eql(true)
     end
 
     context 'when the passed in lesson hasnt been completed' do
       let(:exists?) { false }
 
       it 'returns false' do
-        expect(user.completed_lesson?(second_lesson_completion)).to eql(false)
+        expect(user.has_completed?(second_lesson_completion)).to eql(false)
       end
     end
   end
