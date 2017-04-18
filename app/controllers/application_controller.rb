@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
   after_action :store_redirect_path
   protect_from_forgery
 
+  rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
+
   rescue_from CanCan::AccessDenied do
     respond_to do |format|
       format.json { head :forbidden }
@@ -29,7 +31,7 @@ class ApplicationController < ActionController::Base
   end
 
   def not_found_error
-    raise ActionController::RoutingError, 'Not Found'
+    render file: 'public/404.html', status: :not_found, layout: false
   end
 
   private

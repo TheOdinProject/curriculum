@@ -1,0 +1,7 @@
+$('#project-submission-delete-modal').modal('hide');
+toastr.success('Your submission was deleted', 'Success!');
+$('#new-submission').html("<%= j render 'lessons/add_submission_button' %>");
+$('#project-submission-modal-wrapper')
+  .html("<%= j render 'projects/form_modal', lesson: @lesson, project: @project %>");
+$('#submissions')
+  .html("<%= j render 'lessons/submissions', submissions: @submissions %>");

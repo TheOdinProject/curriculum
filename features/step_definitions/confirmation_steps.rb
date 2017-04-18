@@ -8,7 +8,7 @@ Given(/^I have a unconfirmed account that is over (\d+) days old$/) do |numdays|
 end
 
 When(/^I try to login$/) do
-  log_in(@user)
+  log_in(@user.email, @user.password)
 end
 
 Then(/^a message will be displayed instructing me to confirm my email$/) do

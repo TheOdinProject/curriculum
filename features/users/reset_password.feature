@@ -8,7 +8,7 @@ Background: Adding data to the database
   Given a course named 'Introduction to Web Development' exists
   And a section named 'About Web developers' exists
   And the following lessons exist in 'About Web developers' section:
-  | lesson_name |
+  | title |
   | What a web developer does |
   | Tools of the trade |
   | Web Development Communities |

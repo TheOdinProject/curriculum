@@ -1,6 +1,6 @@
 Given(/^I am a user who already has an account$/) do
   user = FactoryGirl.create(:user, confirmed_at: 2.days.ago)
-  log_in(user)
+  log_in(user.email, user.password)
   expect(page).to have_content(user.username)
 end
 

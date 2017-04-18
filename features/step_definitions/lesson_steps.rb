@@ -14,16 +14,8 @@ Given(/^the following lessons exist in '([^']+)' section:$/) do |title, table|
   section = Section.find_by(title: title)
   @lessons = []
   table.hashes.each do |hash|
-    @lessons << FactoryGirl.create(:lesson,
-                                   title: hash[:lesson_name],
-                                   section: section)
+    @lessons << FactoryGirl.create(:lesson, hash.merge(section: section))
   end
-end
-
-Given(/^I am logged in$/) do
-  @user = FactoryGirl.create(:user)
-  log_in(@user)
-  expect(page).to have_content(@user.username)
 end
 
 Given(/^no lessons are completed$/) do
@@ -58,12 +50,6 @@ Given(/^the lesson is not completed$/) do
 
   expect(page).to have_css('.checkbox-container.lc-unchecked')
   expect(page).not_to have_css('.lc-uncomplete-link')
-end
-
-When(/I go to the '([^']+)' course page/) do |course_title|
-  course_title_parametrized = course_title.parameterize
-  course_url = "/courses/#{course_title_parametrized}"
-  visit course_url
 end
 
 When(/^I mark the lesson '([^']+)'$/) do |lesson_title|

@@ -1,0 +1,36 @@
+<div class="project-box<%= " current-user-submission" if project.user == current_user %>">
+  <div class="submission-details">
+    <h4 class="project-author"><%= project.user.username.capitalize %>'s solution</h4>
+    <div class="submission-links">
+      <%= link_to project.repo_url, class: 'btn repo-url-btn' do %>
+        <i class="fa fa-code"></i>&nbsp; View Code
+      <% end %>
+
+      <% if project.live_preview %>
+        <%= link_to project.live_preview, class: 'btn live-preview-btn' do %>
+          <i class="fa fa-desktop"></i>&nbsp; Live Preview
+        <% end %>
+      <% end %>
+    </div> <!-- /.submission-links -->
+  </div> <!-- /.submission-details -->
+
+  <% if project.user == current_user %>
+    <div class="project-action-links">
+      <button type="button"
+              class="btn btn-primary btn-sm"
+              id="project-edit-btn"
+              data-toggle="modal"
+              data-target="#project-submission-modal">
+        <i class="fa fa-edit"></i>
+      </button>
+
+      <button type="button"
+              class="btn btn-danger"
+              id="project-delete-btn"
+              data-toggle="modal"
+              data-target="#project-submission-delete-modal">
+        <i class="fa fa-trash"></i>
+      </button>
+    </div> <!-- /.project-action-links -->
+  <% end %>
+</div> <!-- /.project-box -->

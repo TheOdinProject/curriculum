@@ -4,7 +4,7 @@ Given(/^I am logged in with a omniauth account$/) do
                              email: 'kevin@example.com',
                              provider: 'github',
                              uid: '123545')
-  log_in(@user)
+  log_in(@user.email, @user.password)
 end
 
 When(/^I edit my account without a password$/) do

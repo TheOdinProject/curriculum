@@ -1,13 +1,36 @@
+html {
+  font-family: $body-fonts;
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headline-fonts;
+}
+
 p {
   margin: 0;
   line-height: 1.88;
   letter-spacing: 0.2px;
   color: $text-primary;
   font-size: 1em;
+  font-family: $body-fonts;
 }
 
-html {
-  font-family: $body_fonts;
-  height: 100%;
-  background-color: $white;
+.camel {
+  color: $primary;
+}
+
+.btn-camel {
+  background: $primary;
+  color: $white;
+
+  &:hover, &:focus {
+    background: darken($primary, 10%);
+    color: $white;
+  }
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, $white, $light-grey);
+  background-attachment: fixed;
 }

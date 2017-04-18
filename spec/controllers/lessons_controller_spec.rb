@@ -1,17 +1,15 @@
 require 'rails_helper'
 
 RSpec.describe LessonsController do
-  let(:lesson) { double('Lesson', id: 'abc123') }
+  let(:lesson) { double('Lesson', id: 'abc123', has_submission?: false) }
   let(:ad) { double('Ad') }
   let(:params) { { course_title: 'web-development-101', id: lesson_id } }
   let(:lesson_id) { 'abc123' }
-  let(:current_user) { double('User') }
+  let(:current_user) { double('User', id: '1') }
 
   before do
-    allow(Lesson).to receive(:friendly).and_return(lesson)
-
-    allow(lesson).to receive(:find).with('abc123')
-      .and_return(lesson)
+    allow(Lesson).to receive_message_chain(:friendly, :find)
+      .with(params[:id]).and_return(lesson)
 
     allow(controller).to receive(:current_user)
       .and_return(current_user)
@@ -43,16 +41,21 @@ RSpec.describe LessonsController do
 
     context 'when lesson cannot be found' do
       let(:lesson_id) { '123' }
+      let(:request) { get :show, params: params }
 
       before do
         allow(Lesson).to receive(:friendly).and_return(lesson)
         allow(lesson).to receive(:find).with('123')
           .and_raise(ActiveRecord::RecordNotFound)
+        request
       end
 
-      it 'returns a RoutingError' do
-        expect { get :show, params: params }
-          .to raise_error(ActionController::RoutingError)
+      it 'returns a status of 404' do
+        expect(response).to have_http_status(404)
+      end
+
+      it 'renders the 404 page' do
+        expect(response).to render_template(file: "#{Rails.root}/public/404.html")
       end
     end
 

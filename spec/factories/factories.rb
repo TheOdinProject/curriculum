@@ -24,7 +24,6 @@ FactoryGirl.define do
       n
     end
     url 'http://www.bogus.com/subpage/whatever.git'
-    title_url { title.parameterize }
     association :section
     content 'content'
   end
@@ -53,5 +52,6 @@ FactoryGirl.define do
   factory :project do
     repo_url 'https://github.com/user/repo'
     live_preview 'http://mysite.com'
+    user
   end
 end

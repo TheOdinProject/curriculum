@@ -1,8 +1,8 @@
 // Typography
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
 
-$headline_fonts: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$body_fonts: $headline_fonts;
+$headline-fonts: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-fonts: $headline-fonts;
 $logo-font: "Norse";
 
 @font-face {
@@ -10,12 +10,12 @@ $logo-font: "Norse";
   src: font_url('Norse-Bold.otf');
 }
 
-
 // Colors
 $primary: #cc9543;
 $button-primary: #6abfc3;
 $text-primary: #4a4a4a;
 $light-grey: #eeeeee;
+$pale-grey: rgba(74, 74, 74, 0.7);
 $white: #ffffff;
 
 $dusty-orange: #ec761f;
