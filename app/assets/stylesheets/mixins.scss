@@ -8,6 +8,11 @@
   }
 }
 
+@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  box-shadow: $args;
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -42,9 +47,9 @@
    color: $color;
    -moz-transition: color 0.2s;
    -o-transition: color 0.2s;
-   -webkit-transition: color 0.2s; 
+   -webkit-transition: color 0.2s;
    transition: color 0.2s;
    &:hover{
      color: darken($color, 20%);
-   }      
+   }
 }

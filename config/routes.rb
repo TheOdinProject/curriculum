@@ -23,7 +23,9 @@ devise_for :users,
   get 'contributing' => "static_pages#contributing"
   get 'legal' => "static_pages#legal"
   get 'cla' => "static_pages#cla"
+  get 'styleguide' => "static_pages#style_guide"
   get 'tou' => "static_pages#tou"
+  get 'success_stories' => "static_pages#success_stories"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
   get 'sitemap' => 'sitemap#index', :defaults => { :format => 'xml' }
 

@@ -1,14 +1,6 @@
 <%= title(@lesson.title) %>
 
-<% if user_signed_in? && @lesson.has_submission? %>
-  <div id="project-submission-modal-wrapper">
-    <%= render 'projects/form_modal', lesson: @lesson, project: @project %>
-  </div>
-<% end %>
 
-<% if @project&.persisted? %>
-  <%= render 'projects/delete_modal', lesson: @lesson, project: @project %>
-<% end %>
 
 <div id="lesson-nav">
   <div class="inner-nav">
@@ -43,16 +35,6 @@
 
     <%= convert_markdown_to_html(@lesson.content) %>
 
-    <div id="new-submission">
-      <%= render 'add_submission_button' if @project&.new_record? %>
-    </div>
-
-    <% if @submissions %>
-      <div id="submissions">
-        <%= render 'submissions', submissions: @submissions %>
-      </div>
-    <% end %>
-
     <%= render 'chat_link' %>
 
     <%= render 'right_box_ad', ad: @right_box_ad if @right_box_ad %>
@@ -60,7 +42,6 @@
     <%= render 'lower_banner_ad', ad: @lower_banner_ad if @lower_banner_ad %>
 
     <div id="info-box">
-      <%= render 'shared/social_sharing_buttons' %>
       <%= render 'lessons/contribution_links' %>
       <%= render 'lessons/license' %>
       <div class="clearfix"></div>
@@ -117,24 +98,6 @@
     </div>
   </div>
 </div>
-
-<% content_for :stylesheets do %>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
-<% end %>
-
-<% content_for :scripts do %>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
-
-  <script>
-    // toastr options
-    toastr.options = {
-      "closeButton": true,
-      "timeOut": "5000",
-      "preventDuplicates": true
-    };
-  </script>
-<% end %>
-
 <script>
   $(function(){
     $(".individual-lesson a[href^='http://']").attr("target","_blank");
