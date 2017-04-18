@@ -310,7 +310,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Eren Cataltepe's solution](https://github.com/erencataltepe/learn_ruby)
 * [Paritosh Sharma's solution](https://github.com/Paritosh97/learn_ruby)
 * [Brian Johnson's solution](https://github.com/ohcrapsauce/learn_ruby)
-
+* [AsmCoder110's solution](https://github.com/AsmCoder110/learn_ruby)
 
 ## Additional Resources
 
