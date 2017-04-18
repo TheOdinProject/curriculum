@@ -1,0 +1,114 @@
+.project-form-container {
+  // border-radius: 4px;
+  // box-shadow: 0 0 15px 2px rgba(0,0,0,0.1);
+  padding: 0.5em 2.5em;
+  margin-bottom: 2.5em;
+  // transition: box-shadow 0.3s ease-in 0.1s;
+  position: relative;
+  // &:hover {
+  //   box-shadow: 0 0 15px 5px rgba(0,0,0,0.1);
+  // }
+
+  .project-form-title {
+    margin-bottom: 1.5em;
+  }
+
+  form {
+    text-align: left;
+
+    .form-control {
+      width: calc(100% - 20px);
+      padding: 10px;
+    }
+    .project-submit-btn {
+      margin-top: 15px;
+      outline: 0;
+    }
+  }
+}
+
+/** Project submissions **/
+
+.submissions-list {
+  margin: 1.25em 0;
+}
+
+#project-submission-modal, #project-submission-delete-modal {
+  display: none;
+  .modal-header {
+    border: none;
+  }
+  .modal-body {
+    overflow: hidden;
+  }
+}
+#project-submission-delete-modal {
+  .action-btns {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+  }
+}
+.project-box {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 3px;
+  box-shadow: 0 0 15px 0.4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+  transition: all 0.3s ease-in;
+  &:hover {
+    box-shadow: 0 0 15px 0.4px rgba(0, 0, 0, 0.15);
+  }
+  .project-author {
+    margin-top: 0;
+    font-weight: 100;
+  }
+  .submission-details {
+    flex: 1 1;
+    .submission-links {
+      transition: all 0.8s linear;
+      .repo-url-btn, .live-preview-btn {
+        color: white;
+        text-shadow: none;
+        box-shadow: none;
+        border: none;
+        line-height: 2em;
+      }
+      .repo-url-btn {
+        background: blue;
+      }
+      .live-preview-btn {
+        background: green;
+      }
+    }
+    &:hover .submission-info {
+      display: block;
+    }
+  }
+
+  .project-action-links {
+    display: flex;
+    align-items: center;
+    .btn {
+      line-height: 2em;
+      .fa {
+        font-size: 1.5em;
+      }
+    }
+    #project-edit-btn {
+      margin-right: 5px;
+    }
+  }
+}
+
+.current-user-submission {
+  background: rgba(0,0,0,0.03);
+}
+
+.project-box:not(.current-user-submission) {
+  .submission-details {
+    display: flex;
+    justify-content: space-between;
+  }
+}
