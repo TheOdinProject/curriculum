@@ -312,6 +312,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Brian Johnson's solution](https://github.com/ohcrapsauce/learn_ruby)
 * [AsmCoder110's solution](https://github.com/AsmCoder110/learn_ruby)
 * [Daeke's solution](https://github.com/Daeke/learn_ruby)
+* [EMuchynski's solution](https://github.com/EMuchynski/learn_ruby)
 
 ## Additional Resources
 
