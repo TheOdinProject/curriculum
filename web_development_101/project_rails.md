@@ -241,6 +241,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Viet's Solution](https://github.com/vietdh85/odin-blogger) | [View in browser](https://vh-blogger.herokuapp.com/)
 * [Andrew DeNike's Solution](https://ghttps://github.com/AndyDeNike/project_rails) | [View in browser](https://afternoon-badlands-40925.herokuapp.com/)
 * [Paritosh Sharma's Solution](https://github.com/Paritosh97/blogger) | [View in browser](https://evening-woodland-12867.herokuapp.com/)
+* [EMuchynski's Solution](https://github.com/EMuchynski/blogger) | [View in browser](https://agile-ocean-12019.herokuapp.com/articles)
 
 ## Additional Resources
 
