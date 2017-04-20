@@ -45,6 +45,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Grey Ghost's Solution](https://github.com/Grey-Ghost/Etch-A-Scketch) | [View in browser](https://grey-ghost.github.io/Etch-A-Scketch/)
 * [SadieD's solution](https://github.com/SadieD/Boudoole) | [ View in browser](
 https://sadied.github.io/Boudoole/)
+
+* [goldffish's solution](https://github.com/golddfish/sketch)|[ View in browser]( https://golddfish.github.io/sketch/)
 * [xavier solution](https://github.com/nxdf2015/odin-grid)|[ View in browser]( https://nxdf2015.github.io/odin-grid/)
 * [Michael Weller's solution](https://github.com/WMichael/Etch-A-Pad) | [View in browser](https://wmichael.github.io/Etch-A-Pad/)
 * [Webdev-burd's solution](https://github.com/webdev-burd/sketchpad) | [View in browser](https://webdev-burd.github.io/sketchpad/)
