@@ -10,6 +10,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $headline-fonts;
 }
 
+h1 {
+  font-weight: 300;
+}
+
+h2 {
+  color: #4a4a4a;
+  font-weight: 700;
+}
+
+h3 {
+  color: #4a4a4a;
+  font-size: 1.5em;
+}
+
 p {
   margin: 0;
   line-height: 1.88;
