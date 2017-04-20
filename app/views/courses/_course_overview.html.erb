@@ -1,0 +1,19 @@
+<div class="objectives">
+  <h4 class="font-weight-bold">Learn</h4>
+
+  <ul class="objectives-list">
+    <% course.you_learn.each do |objective| %>
+      <li><%= objective %></li>
+    <% end %>
+  </ul>
+</div> <!-- /.objectives -->
+
+<div class="projects">
+  <h4 class="font-weight-bold">Projects</h4>
+
+  <ul class="projects-list">
+    <% course.you_build.each do |project| %>
+      <li><%= project %></li>
+    <% end %>
+  </ul>
+</div> <!-- /.projects -->

@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col">
+    <div class="course-card <%= 'inactive' unless course.is_active? %>">
+      <%= render 'course_completion_indicator', course: course %>
+      <div class="row">
+        <div class="col-md-6">
+          <%= render 'course_description', course: course %>
+        </div> <!-- /.col-md-6 -->
+
+        <div class="col-md-6 course-overview">
+          <%= render 'course_overview', course: course %>
+        </div> <!-- /.col-md-6 -->
+      </div> <!-- /.row -->
+    </div> <!-- /.course-card -->
+  </div> <!-- /.col -->
+</div> <!-- /.row -->

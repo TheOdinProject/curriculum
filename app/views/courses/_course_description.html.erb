@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col-sm-3 course-badge-wrapper">
+    <%= image_tag course.badge, alt: "#{course.title} badge", class: 'course-badge' %>
+  </div>
+
+  <div class="col-sm-9 course-title-wrapper">
+    <div class="course-title">
+      <%= link_to course do %>
+        <h2 class="text-uppercase"> <%= course.title %> </h2>
+      <% end %>
+
+    <span class="lessons-count text-uppercase">
+      <%= course.lessons_count %> lessons
+    </span> <!-- /.lessons-count -->
+
+    </div> <!-- /.course-title -->
+  </div> <!-- /.course-title-wrapper -->
+</div> <!-- /.row -->
+
+<div class="row">
+  <div class="col">
+    <div class="course-teaser">
+      <h3> <%= course.teaser %> </h3>
+    </div> <!-- /.course-teaser -->
+  </div> <!-- /.col -->
+</div> <!-- /.row -->
+
+<div class="row">
+  <div class="col">
+    <div class="course-description">
+      <p> <%= course.brief_desc %> </p>
+    </div> <!-- /.course_description -->
+  </div> <!-- /.col -->
+</div> <!-- /.row -->

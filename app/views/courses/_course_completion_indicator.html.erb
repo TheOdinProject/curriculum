@@ -1,0 +1,6 @@
+<% if user_signed_in? %>
+  <% invisible_class = 'invisible' unless course.completed_by?(current_user) %>
+  <h3 class="cc-completion-indicator text-uppercase <%= invisible_class %>" data-toggle="tooltip" title="You've completed this course!">
+    Completed
+  </h3>
+<% end %>
