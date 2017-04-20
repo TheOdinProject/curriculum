@@ -55,8 +55,7 @@
         font-weight: bold;
         letter-spacing: 0.2px;
         font-family: OpenSans;
-        color: #4a4a4a;
-        color: var(--greyish-brown);
+        color: $text-primary;
       }
     }
   }
