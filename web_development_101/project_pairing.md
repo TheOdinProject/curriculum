@@ -34,6 +34,7 @@ Add your solution below this line!
 * [maz's Solution](https://github.com/mmore21/pomodoro-clock) | [View in Browser](https://mmore21.github.io/pomodoro-clock/)
 * [Laura's Solution](https://github.com/BrigadierButternut/pomodoro_timer) | [View in Browser](https://htmlpreview.github.io/?https://github.com/BrigadierButternut/pomodoro_timer/blob/master/pomodoro.html)
 * [EMuchynski's Solution](https://github.com/EMuchynski/pomodoro) | [View in Browser](https://emuchynski.github.io/pomodoro/)
+* [Ryan Steel's Solution](https://github.com/rsteel1/pomodoro-timer) | [View in Browser](https://rsteel1.github.io/pomodoro-timer/)
 
 
 ## Next Steps
