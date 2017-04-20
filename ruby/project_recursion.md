@@ -128,6 +128,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Bishal's solution](https://github.com/biiishal/recursion/blob/master/fib.rb)
 * [jeff1st's solution](https://github.com/jeff1st/cs_recursive/blob/master/fibo.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-recursion/blob/master/fibonacci.rb)
+* [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
 
 ## Project: Merge Sort
 
@@ -267,6 +268,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [jeff1st's solution](https://github.com/jeff1st/cs_recursive/blob/master/merge_s.rb)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Warmup_Fibonacci/blob/master/Merge_Sort.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-recursion/blob/master/merge_sort.rb)
+* [EMuchynski's solution](https://github.com/EMuchynski/merge_sort)
 
 
 ## Additional Resources
