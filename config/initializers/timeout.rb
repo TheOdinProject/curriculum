@@ -1,3 +1,3 @@
 require 'rack-timeout'
 
-Rack::Timeout.timeout = 200
+Rack::Timeout.timeout = 20

@@ -10,7 +10,6 @@
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
-/db/database.yml
 
 
 # Ignore any assets that may have been precompiled locally
