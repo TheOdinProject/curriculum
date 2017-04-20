@@ -15,13 +15,15 @@ h1 {
 }
 
 h2 {
-  color: #4a4a4a;
   font-weight: 700;
 }
 
 h3 {
-  color: #4a4a4a;
   font-size: 1.5em;
+}
+
+h2, h3 {
+  color: $text-primary;
 }
 
 p {
