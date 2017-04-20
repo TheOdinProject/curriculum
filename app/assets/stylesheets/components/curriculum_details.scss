@@ -21,7 +21,6 @@
   .curriculum-details-title {
     text-align: center;
     margin-bottom: 100px;
-
     .coffee {
       color: $coffee;
     }
@@ -51,10 +50,13 @@
 
       h3 {
         margin-bottom: .2em;
-      }
-
-      p {
-        font-size: .9em;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.2px;
+        font-family: OpenSans;
+        color: #4a4a4a;
+        color: var(--greyish-brown);
       }
     }
   }
