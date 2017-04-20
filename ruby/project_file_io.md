@@ -285,6 +285,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Hangman)
 * [jeff1st's solution](https://github.com/jeff1st/hangman)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-hangman)
+* [EMuchynski's solution](https://github.com/EMuchynski/hangman)
 
 
 ## Additional Resources
