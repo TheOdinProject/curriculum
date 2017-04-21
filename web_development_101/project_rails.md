@@ -20,6 +20,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Adong520's solution](https://github.com/Adong520/blogger) | [view in browser](https://agile-cliffs-89442.herokuapp.com/)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/blogger) | [view in browser](https://cryptic-tor-71009.herokuapp.com/)
 * [xavier solution](https://github.com/nxdf2015/odin-blogger) | [view in browser](https://evening-castle-61857.herokuapp.com/articles)
 * [holdercp's Solution](https://github.com/holdercp/rails-blog/tree/master/blogger) | [View in Browser](https://floating-badlands-70746.herokuapp.com/articles)
