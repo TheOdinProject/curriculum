@@ -1,14 +1,12 @@
 #about {
 
     .row {
-        padding: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         color: $text-primary;
     }
     
     .intro {
-
-        width: 70%;
-        margin: auto;
         h1 {
             color: $primary;
             width: 100%;
@@ -16,28 +14,24 @@
     }
     
     .mission {
-        .row {
-            width: 70%;
-            margin: auto;
-        }
         h2 {
-
             width: 100%;
         }
         img {
-            margin-right: 15px;
-            float: right;
+            margin: auto;
+            display: block;
+        }
+        .row {
+            width: 95%;
+            margin: auto;
         }
         .leftcol {
-            width: 20%;
-        }
-        .rightcol {
-            width: 80%;
+            width: 100%;
         }
     }
     .story {
+        padding: 20px;
         h2 {
-
             width: 100%;
             color: $primary;
         }
@@ -46,7 +40,7 @@
             h3 {
                 color: $primary;
                 text-align: right;
-                padding-right: 60px;
+                padding-right: 30px;
                 transform: translateY(-15px);
             }
         }
@@ -54,31 +48,27 @@
             width: 75%;
             position: relative;
             p {
-                padding-left: 60px;
-    
+                padding-left: 30px;
             }
         }
     }
     .contact {
+        width: 320px;
+        margin:auto;
         h2 {
-
             color: $primary;
         }
-        .row {
-            width: 70%;
-        }
         .leftcol {
-            width: 40%;
+
             img {
                 width: 200px;
-                margin-right: 20px;
-                float: right;
+                margin: auto;
             }
         }
         .rightcol {
-            width: 55%;
+            margin-top: 20px;
+            float: right;
             div.speech-bubble {
-            
                 background: $light-grey;
                 padding: 20px;
                 width: 320px;
@@ -87,20 +77,19 @@
                 z-index: 1;
                 margin: auto;
             }
-                
             div.speech-bubble:after {
                 content: "";
                 position: absolute;
                 width: 0;
                 height: 0;
-                transform: rotate(-45deg);
-                left: -25px;
-                top: 80px;
+                transform: rotate(135deg);
+                left: 150px;
+                top: -25px;
                 border: 25px solid;
                 border-color: $light-grey transparent transparent $light-grey;
             }
         }
-        
+
         .cta {
             text-decoration: none;
             background-color: $primary;
@@ -160,39 +149,106 @@
     
 }
 
-@media (max-width: 768px) {
-   #about {
+@media (min-width: 480px) {
     .mission {
-      img {
-        float: none;
-        display: block;
-        margin: auto;
-      }
-      .leftcol {
-          width: 100%;
-      }
-      .rightcol {
-          width: 100%;
-      }
-    }
-    .contact {
+        .row {
+            width: 90%;
+            display: flex;
+        }
+        img {
+            margin-right: 15px;
+            float: right;
+            display: inline-block;
+        }
         .leftcol {
-            width: 100%;
-            img {
-                float: none;
-                margin: auto;
+            flex: 1;
+            
+        }
+        .rightcol {
+            flex: 4;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+        .mission {
+        .row {
+            width: 90%;
+            display: flex;
+        }
+        img {
+            margin-right: 15px;
+            float: right;
+            display: inline-block;
+        }
+        .leftcol {
+            flex: 1;
+            
+        }
+        .rightcol {
+            flex: 4;
+        }
+    }
+}
+
+@media (min-width: 942px) {
+   #about {
+    .row {
+        padding: 40px;
+    }
+    
+    .intro {
+        width: 80%;
+        margin: auto;
+    }
+    .mission {
+        .row {
+            width: 90%;
+            display: flex;
+        }
+        img {
+            margin-right: 15px;
+            float: right;
+            display: inline-block;
+        }
+        .leftcol {
+            flex: 1;
+            
+        }
+        .rightcol {
+            flex: 4;
+        }
+    }
+    .story {
+        .leftcol {
+            h3 {
+                padding-right: 60px;
             }
         }
         .rightcol {
-            width: 100%;
-            margin-top: 20px;
-            div.speech-bubble:after {
-                transform: rotate(135deg);
-                left: 150px;
-                top: -25px;
+            p {
+                padding-left: 60px;
             }
         }
+    }
+    .contact {
+        .leftcol {
+            width: 40%;
+            float: left;
+            img {
+                margin-right: 20px;
+                float: right;
+            }
+        }
+        .rightcol {
+            width: 55%;
+            div.speech-bubble:after {
+                transform: rotate(-45deg);
+                left: -25px;
+                top: 80px;
 
+            }
+        }
     }
   }
 }
