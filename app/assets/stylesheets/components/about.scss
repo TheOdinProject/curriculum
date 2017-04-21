@@ -53,7 +53,6 @@
         }
     }
     .contact {
-        width: 320px;
         margin:auto;
         h2 {
             color: $primary;
@@ -71,8 +70,7 @@
             div.speech-bubble {
                 background: $light-grey;
                 padding: 20px;
-                width: 320px;
-                
+                max-width: 320px;
                 position: relative;
                 z-index: 1;
                 margin: auto;
@@ -117,7 +115,7 @@
             background-color: $button-primary;
             color: #ffffff;
             display: block;
-            width: 350px;
+            max-width: 350px;
             text-align: center;
             height: 60px;
             border-radius: 3px;
