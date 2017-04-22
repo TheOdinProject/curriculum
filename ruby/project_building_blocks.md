@@ -1,4 +1,3 @@
-
 # Projects: Ruby Building Blocks
 <!-- *Estimated Time: 3-5 hrs* -->
 
