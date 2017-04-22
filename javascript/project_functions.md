@@ -40,6 +40,7 @@ The basic rules are that the player must flag every mine on the board without cl
 * [chrisnorwood's solution](https://github.com/chrisnorwood/vue-minesweeper) (built with Vue.js) |[View in browser](https://vue-minesweeper.herokuapp.com/)
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/minesweeper) | [View in browser](https://cdn.rawgit.com/laniywh/the-odin-project/master/js/minesweeper/index.html)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/minesweeper) | [View in browser](https://sophialwu.github.io/minesweeper/)
+* [Daunenok's solution](https://github.com/daunenok/minesweeper) | [View in browser](https://daunenok.github.io/minesweeper/)
 
 ## Additional Resources
 
