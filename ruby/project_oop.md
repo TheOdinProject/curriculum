@@ -19,7 +19,8 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* Add your solution below this line!
+* Add your solution below this line!/
+* [Webdev-burd's solution](https://github.com/webdev-burd/tic_tac_toe)
 * [jfonz412's solution](https://github.com/jfonz412/tick_tack_ruby/blob/master/game.rb)
 * [thisisned's solution](https://github.com/thisisned/tic-tac-toe/blob/master/tictactoe.rb)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/tic-tac-toe)
