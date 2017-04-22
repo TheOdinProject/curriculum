@@ -1,252 +1,180 @@
 #about {
+  .about-page-title {
+    margin-bottom: 70px;
+  }
 
-    .row {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        color: $text-primary;
-    }
-    
-    .intro {
-        h1 {
-            color: $primary;
-            width: 100%;
-        }
-    }
-    
-    .mission {
-        h2 {
-            width: 100%;
-        }
-        img {
-            margin: auto;
-            display: block;
-        }
-        .row {
-            width: 95%;
-            margin: auto;
-        }
-        .leftcol {
-            width: 100%;
-        }
-    }
-    .story {
-        padding: 20px;
-        h2 {
-            width: 100%;
-            color: $primary;
-        }
-        .leftcol {
-            width: 25%;
-            h3 {
-                color: $primary;
-                text-align: right;
-                padding-right: 30px;
-                transform: translateY(-15px);
-            }
-        }
-        .rightcol {
-            width: 75%;
-            position: relative;
-            p {
-                padding-left: 30px;
-            }
-        }
-    }
-    .contact {
-        margin:auto;
-        h2 {
-            color: $primary;
-        }
-        .leftcol {
+  .row {
+    padding: 40px 0;
+    color: $text-primary;
+  }
 
-            img {
-                width: 200px;
-                margin: auto;
-            }
-        }
-        .rightcol {
-            margin-top: 20px;
-            float: right;
-            div.speech-bubble {
-                background: $light-grey;
-                padding: 20px;
-                max-width: 320px;
-                position: relative;
-                z-index: 1;
-                margin: auto;
-            }
-            div.speech-bubble:after {
-                content: "";
-                position: absolute;
-                width: 0;
-                height: 0;
-                transform: rotate(135deg);
-                left: 150px;
-                top: -25px;
-                border: 25px solid;
-                border-color: $light-grey transparent transparent $light-grey;
-            }
-        }
-
-        .cta {
-            text-decoration: none;
-            background-color: $primary;
-            color: #ffffff;
-            display: block;
-            text-align: center;
-            padding: 0 1.5em 0 1.5em;
-            width: 200px;
-            height: 60px;
-            border-radius: 3px;
-            line-height: 60px;
-            margin: 70px auto 70px;
-            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-            font-weight: bold;
-            letter-spacing: 0.2px;
-            font-size: 18px;
-        }
+  .intro {
+    h1 {
+      color: $primary;
+      width: 100%;
     }
-    .contribute {
+  }
 
-        color: #999;
-        background: linear-gradient(white, $light-grey);
-        .cta {
-            text-decoration: none;
-            background-color: $button-primary;
-            color: #ffffff;
-            display: block;
-            max-width: 350px;
-            text-align: center;
-            height: 60px;
-            border-radius: 3px;
-            line-height: 60px;
-            margin: 70px auto 0;
-            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-            font-weight: bold;
-            letter-spacing: 0.2px;
-            font-size: 18px;
-        }
+  .beliefs {
+    .beliefs-heading {
+      width: 100%;
+      margin-bottom: 80px;
     }
-    
-    .goldbar {
-        border-top: solid $primary 2px;
+
+    .belief {
+      width: 95%;
+      margin: auto;
+
+      .belief-illustration {
+        text-align: right;
+
+        @media screen and (max-width: 575px) {
+          text-align: center;
+        }
+      }
+
+      .belief-description {
+        @media screen and (max-width: 575px) {
+          margin-top: 40px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .story {
+    margin: 110px 0 170px;
+    padding: 100px 20px;
+
+    h2 {
+      width: 100%;
+      color: $primary;
+    }
+
+    .timeline {
+      .year {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+
+        h3 {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .contact {
+    h2 {
+      color: $primary;
+    }
+
+    .odin-logo {
+      text-align: center;
+
+      @include media-breakpoint-up(lg) {
+        text-align: right;
+      }
+
+      img {
+        width: 210px;
+        height: 280px;
+      }
+    }
+
+    .contact-text {
+      margin: 20px 0 0 25px;
+
+      .speech-bubble {
+        background: $light-grey;
+        padding: 50px;
         position: relative;
+        z-index: 1;
+        margin: auto;
+
+        &:after {
+          content: "";
+          position: absolute;
+          width: 0;
+          height: 0;
+          top: 50px;
+          left: -40px;
+          border-top: 40px solid rgba(0, 0, 0, 0);
+          border-right: 50px solid $light-grey;
+          border-bottom: 40px solid rgba(0, 0, 0, 0);
+        }
+
+        h2 {
+          font-size: 36px;
+          font-weight: 300;
+          letter-spacing: 0.4px;
+          margin-bottom: 20px;
+        }
+      }
     }
-    
-    .goldbar:before {
-        content: "";
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        top: -10px;
-        left: -60px;
-        background: $primary;
+
+    .cta {
+      text-decoration: none;
+      background-color: $primary;
+      color: #ffffff;
+      display: block;
+      text-align: center;
+      padding: 0 1.5em 0 1.5em;
+      width: 200px;
+      height: 60px;
+      border-radius: 3px;
+      line-height: 60px;
+      margin: 70px auto 70px;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      font-size: 18px;
+    }
+  }
+
+  .contribute {
+    color: #999;
+    background: linear-gradient(white, $light-grey);
+
+    .cta {
+        text-decoration: none;
+        background-color: $button-primary;
+        color: #ffffff;
         display: block;
-        position: relative;
+        width: 350px;
+        text-align: center;
+        height: 60px;
+        border-radius: 3px;
+        line-height: 60px;
+        margin: 70px auto 0;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+        font-weight: bold;
+        letter-spacing: 0.2px;
+        font-size: 18px;
     }
-    
-}
+  }
 
-@media (min-width: 480px) {
-    .mission {
-        .row {
-            width: 90%;
-            display: flex;
-        }
-        img {
-            margin-right: 15px;
-            float: right;
-            display: inline-block;
-        }
-        .leftcol {
-            flex: 1;
-            
-        }
-        .rightcol {
-            flex: 4;
-        }
-    }
-}
+  .goldbar {
+    border-top: solid $primary 2px;
+    position: relative;
+    padding: 20px 0 26px 40px;
 
-@media (min-width: 768px) {
-        .mission {
-        .row {
-            width: 90%;
-            display: flex;
-        }
-        img {
-            margin-right: 15px;
-            float: right;
-            display: inline-block;
-        }
-        .leftcol {
-            flex: 1;
-            
-        }
-        .rightcol {
-            flex: 4;
-        }
+    &:before {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      position: absolute;
+      top: -10px;
+      left: 0;
+      background: $primary;
     }
+  }
 }
 
 @media (min-width: 942px) {
-   #about {
-    .row {
-        padding: 40px;
-    }
-    
-    .intro {
-        width: 80%;
-        margin: auto;
-    }
-    .mission {
-        .row {
-            width: 90%;
-            display: flex;
-        }
-        img {
-            margin-right: 15px;
-            float: right;
-            display: inline-block;
-        }
-        .leftcol {
-            flex: 1;
-            
-        }
-        .rightcol {
-            flex: 4;
-        }
-    }
-    .story {
-        .leftcol {
-            h3 {
-                padding-right: 60px;
-            }
-        }
-        .rightcol {
-            p {
-                padding-left: 60px;
-            }
-        }
-    }
-    .contact {
-        .leftcol {
-            width: 40%;
-            float: left;
-            img {
-                margin-right: 20px;
-                float: right;
-            }
-        }
-        .rightcol {
-            width: 55%;
-            div.speech-bubble:after {
-                transform: rotate(-45deg);
-                left: -25px;
-                top: 80px;
-
-            }
-        }
-    }
+  .intro {
+    width: 80%;
+    margin: auto;
   }
 }
