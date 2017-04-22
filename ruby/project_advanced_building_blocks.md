@@ -38,6 +38,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Grey-Ghost's solution](https://github.com/Grey-Ghost/advanced-building-blocks/blob/master/bubble_sort.rb)
 * [Arron's Solution](https://github.com/man715/TOP_Bubble_Sort/blob/master/bubble_sort.rb)
 * [xavier solution](https://github.com/nxdf2015/odin-advanced-building-blocks/tree/master/bubble_sort)
 * [Webdev-burd's Solution](https://github.com/webdev-burd/building-blocks/blob/master/bubble-sort.rb)
