@@ -27,4 +27,8 @@ module ApplicationHelper
   def bootstrap_classes
     { 'notice' => 'alert-success', 'alert' => 'alert-error' }
   end
+
+   def medium_blog_path
+    'https://medium.com/the-odin-project'
+  end
 end
