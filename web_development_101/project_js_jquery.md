@@ -39,14 +39,13 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [adsy430's Solution](https://github.com/adampal/etcha-sketch) | [View in browser](https://adampal.github.io/etcha-sketch/)
 * [Dallaire's Solution](https://github.com/Dallaire/jQuery-etch-sketch) | [View in browser](https://dallaire.github.io/jQuery-etch-sketch/)
 * [TevDevelops' Solution](https://github.com/tevdevelops) | [View in browser](https://tevdevelops.github.io/sketch/)
 * [MrDoop's Solution](https://github.com/MrDoops/Etcha) | [View in browser](https://mrdoops.github.io/Etcha)
 * [Btreim's Solution](https://github.com/btreim/js_project) | [View in browser](https://rawgit.com/btreim/js_project/master/index.html)
 * [Grey Ghost's Solution](https://github.com/Grey-Ghost/Etch-A-Scketch) | [View in browser](https://grey-ghost.github.io/Etch-A-Scketch/)
-* [SadieD's solution](https://github.com/SadieD/Boudoole) | [ View in browser](
-https://sadied.github.io/Boudoole/)
-
+* [SadieD's solution](https://github.com/SadieD/Boudoole) | [ View in browser](https://sadied.github.io/Boudoole/)
 * [goldffish's solution](https://github.com/golddfish/sketch)|[ View in browser]( https://golddfish.github.io/sketch/)
 * [xavier solution](https://github.com/nxdf2015/odin-grid)|[ View in browser]( https://nxdf2015.github.io/odin-grid/)
 * [Michael Weller's solution](https://github.com/WMichael/Etch-A-Pad) | [View in browser](https://wmichael.github.io/Etch-A-Pad/)
