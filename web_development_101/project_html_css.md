@@ -1076,7 +1076,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Sachin's solution (easy)](https://github.com/sachinmatepatil/g_page.git) | [View in browser](https://cdn.rawgit.com/sachinmatepatil/g_page/76b217ff/g_page.html)
 * [Chris Kessell Solution(Easy)](https://github.com/ChrisKessell/google-homepage) | [View in browser] (https://chriskessell.github.io/google-homepage)
 * [Igor's solution(easy & difficult)](https://github.com/mojotron/google-homepage) | [View in browser](https://mojotron.github.io/google-homepage/)
-
+* [Nallely's solution(Easy)](https://nallelytg.github.io/google_homepage) | [View in browser](https://nallelytg.github.io/google_homepage/)
 
 ## Additional Resources
 
