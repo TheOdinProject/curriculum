@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 20170318161553) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "hstore"
 
   create_table "admin_flashes", force: :cascade do |t|
     t.datetime "created_at"
