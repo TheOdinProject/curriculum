@@ -61,7 +61,7 @@
               Instructions on setting up your local development environment can be found in the <%= link_to 'GitHub repo', github_link, target: '__blank' %>.
             </p>
             <p class="text-muted">
-              <em>NOTE: When choosing an issue to work on, please check out the <%= link_to '#contributing', chat_link, class: 'gitter-chat-link', target: '_blank' %> channel on our Gitter chat, and let everyone know what you are working on.  This is important, as somebody else may have already done some work on the issue - in which case they would probably love to have your help!</em>
+              <em>NOTE: When choosing an issue to work on, please check out the <%= link_to '#contributing', 'https://gitter.im/TheOdinProject/Contributing', target: '_blank' %> channel on our Gitter chat, and let everyone know what you are working on.  This is important, as somebody else may have already done some work on the issue - in which case they would probably love to have your help!</em>
             </p>
           </div>
         </div>
@@ -82,8 +82,7 @@
         <% reasons.each_with_index do |reason, index| %>
           <div class="col">
             <div class="media w-75 mx-auto">
-              <%= image_tag reason[:icon], alt: reason[:alt_text],
-                            class: "d-flex mr-3 align-self-center" %>
+              <%= image_tag reason[:icon], alt: reason[:alt_text], class: "d-flex mr-3 align-self-center" %>
               <div class="media-body">
                 <h5 class="camel mt-0 font-weight-bold"><%= reason[:title] %></h5>
                 <%= reason[:body] %>
