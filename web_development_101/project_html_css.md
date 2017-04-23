@@ -94,6 +94,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Shnoozlemcdoozle's Solution (Easy)](https://github.com/shnoozlemcdoozle/google-homepage) | [View in browser](https://shnoozlemcdoozle.github.io/google-homepage/)
+* [Jacob Dallaire's Solution (Dificult)](https://github.com/Dallaire/curriculum.git)| [View in browser](https://dallaire.github.io/google-search-page/)
 * [smimimi's Solution (Easy)](https://github.com/smimimi/google-fake_easy) | [View in browser](https://smimimi.github.io/google-fake_easy/)
 * [Grey Ghost's Solution(Easy)](https://github.com/Grey-Ghost/google-homepage) | [View in browser](https://grey-ghost.github.io/google-homepage/)
 * [Gabriela Bauzá's Solution (Easy)](https://github.com/gbauza7/google-homepage) | [View in browser](https://gbauza7.github.io/google-homepage)
@@ -1073,6 +1075,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Veronika's solution (easy & difficult)](https://github.com/vermelon/google-homepage) | [View in browser](https://vermelon.github.io/google-homepage/)
 * [Sachin's solution (easy)](https://github.com/sachinmatepatil/g_page.git) | [View in browser](https://cdn.rawgit.com/sachinmatepatil/g_page/76b217ff/g_page.html)
 * [Chris Kessell Solution(Easy)](https://github.com/ChrisKessell/google-homepage) | [View in browser] (https://chriskessell.github.io/google-homepage)
+* [Igor's solution(easy & difficult)](https://github.com/mojotron/google-homepage) | [View in browser](https://mojotron.github.io/google-homepage/)
 
 
 ## Additional Resources

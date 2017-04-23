@@ -50,6 +50,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Flint Mayers's solution](https://github.com/FlintMayers/The_New_York_Times_project) | [Check it in browser](https://flintmayers.github.io/The_New_York_Times_project/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu) | [View in browser](https://sophialwu.github.io/NY-times-article-clone/)
 * [Daunenok's solution](https://github.com/daunenok/new-york) | [View in browser](https://daunenok.github.io/new-york/)
+* [Austin's solution](https://github.com/CouchofTomato/ny-times-clone)
 
 
 ## Additional Resources
