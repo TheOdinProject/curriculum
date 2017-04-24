@@ -39,7 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-* [Ana Sommer's Solution] (https://github.com/anasommer/Sketchie ) | [View in browser] (https://anasommer.github.io/Sketchie/)
+* [Ana Sommer's Solution](https://github.com/anasommer/Sketchie ) | [View in browser](https://anasommer.github.io/Sketchie/)
 * [Ben Deltenre's Solution](https://github.com/benjdelt/etch-a-sketch) | [View in browser](https://benjdelt.github.io/etch-a-sketch/)
 * [Shnoozlemcdoozle's Solution](https://github.com/shnoozlemcdoozle/etch) | [View in browser](https://shnoozlemcdoozle.github.io/etch/)
 * [adsy430's Solution](https://github.com/adampal/etcha-sketch) | [View in browser](https://adampal.github.io/etcha-sketch/)
