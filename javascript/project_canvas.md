@@ -33,6 +33,7 @@ If your game logic gets too complicated or the speed is too fast, you'll probabl
 * [Dan V's solution] (https://github.com/vickerdj/missilecommand) | [View in browser] (http://vickerdj.github.io/missilecommand/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-missile) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-missile/blob/master/index.html)
 * [David Chapman's solution] (https://github.com/davidchappy/missile-command) | [View in browser](http://missile-command.dachapman.com/)
+* [Daunenok's solution] (https://github.com/daunenok/missile) | [View in browser](https://daunenok.github.io/missile/)
 
 ## Additional Resources
 
