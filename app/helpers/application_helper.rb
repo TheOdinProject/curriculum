@@ -4,6 +4,10 @@ module ApplicationHelper
     'https://gitter.im/TheOdinProject/theodinproject'
   end
 
+  def github_link(extension='')
+    "https://github.com/TheOdinProject/#{extension}"
+  end
+
   def title(input = nil)
     if input
       content_for(:title) { input + ' | The Odin Project' }

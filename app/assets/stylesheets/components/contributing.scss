@@ -1,0 +1,146 @@
+.page-title {
+  font-family: $headline-fonts;
+  font-size: 3em;
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.contributing {
+  color: $text-primary;
+
+  section {
+    padding: 3em 0;
+  }
+
+  // Browser default
+  p {
+    margin: 1em 0;
+  }
+
+  // Buttons
+  .btn-contribute {
+    background: $button-primary;
+    color: white;
+    @include box-shadow(0 3px 10px 0 rgba(0, 0, 0, 0.3));
+    font-weight: bold;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 2em;
+
+    &:hover, &:focus {
+      background: darken($button-primary, 10%);
+      color: $white;
+    }
+  }
+
+  .cta {
+    text-decoration: none;
+    background-color: $primary;
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    padding: 0 1.5em 0 1.5em;
+    width: 200px;
+    height: 60px;
+    border-radius: 3px;
+    line-height: 60px;
+    margin: 50px auto 50px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+  }
+
+  .card {
+    @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
+    position: relative;
+    ul {
+      padding-left: 0;
+    }
+    ul.dashed {
+      list-style-type: none;
+    }
+    ul.dashed > li:before {
+      content: "- ";
+    }
+
+    .card-base {
+      margin-top: 2rem;
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  .camel-link {
+    text-decoration: underline;
+    color: $primary;
+
+    &:hover, &:focus {
+      color: darken($primary, 10%);
+    }
+  }
+
+  // Sections
+  .questions {
+    margin-top: 8rem;
+  }
+
+  // Hall of fame circles
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .circles {
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: -1em;
+    align-items: center;
+  }
+  .circle {
+    flex: 1;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background: grey;
+    overflow: hidden;
+
+    &:hover {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+  }
+
+  .holder {
+    flex: 3;
+  }
+  .spacer {
+    flex: 2;
+  }
+  .spacer-1 {
+    flex: 1;
+  }
+
+  @media (max-width: 600px) {
+    .circles {
+      margin-bottom: .2em;
+      flex-wrap: wrap;
+      order: 1;
+    }
+    .holder {
+      flex-basis: 120px;
+    }
+    .circle {
+      margin: .2em auto;
+    }
+    .spacer {
+      display: none
+    }
+    .middle {
+      order: 99;
+    }
+  }
+
+}
+
