@@ -30,10 +30,10 @@ If your game logic gets too complicated or the speed is too fast, you'll probabl
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/missile_command) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/missile_command/index.html "Missile Command")
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_missile_command) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_missile_command/blob/master/index.html)
 * [LLCampos's solution](https://github.com/LLCampos/missile_command) | [View in browser](http://htmlpreview.github.io/?https://github.com/LLCampos/missile_command/blob/master/index.html)
-* [Dan V's solution] (https://github.com/vickerdj/missilecommand) | [View in browser] (http://vickerdj.github.io/missilecommand/)
+* [Dan V's solution](https://github.com/vickerdj/missilecommand) | [View in browser](http://vickerdj.github.io/missilecommand/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-missile) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-missile/blob/master/index.html)
-* [David Chapman's solution] (https://github.com/davidchappy/missile-command) | [View in browser](http://missile-command.dachapman.com/)
-* [Daunenok's solution] (https://github.com/daunenok/missile) | [View in browser](https://daunenok.github.io/missile/)
+* [David Chapman's solution](https://github.com/davidchappy/missile-command) | [View in browser](http://missile-command.dachapman.com/)
+* [Daunenok's solution](https://github.com/daunenok/missile) | [View in browser](https://daunenok.github.io/missile/)
 
 ## Additional Resources
 
