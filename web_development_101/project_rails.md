@@ -22,7 +22,6 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * Add your solution below this line!
 * [SadieD's solution](https://github.com/SadieD/dainty_blog) | [view in browser](http://afternoon-journey-20210.herokuapp.com/)
 * [Adong520's solution](https://github.com/Adong520/blogger) | [view in browser](https://agile-cliffs-89442.herokuapp.com/)
-* [Adong520's solution](https://github.com/Adong520/blogger) | [view in browser](https://agile-cliffs-89442.herokuapp.com/)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/blogger) | [view in browser](https://cryptic-tor-71009.herokuapp.com/)
 * [xavier solution](https://github.com/nxdf2015/odin-blogger) | [view in browser](https://evening-castle-61857.herokuapp.com/articles)
 * [holdercp's Solution](https://github.com/holdercp/rails-blog/tree/master/blogger) | [View in Browser](https://floating-badlands-70746.herokuapp.com/articles)
