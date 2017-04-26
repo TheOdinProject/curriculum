@@ -22,11 +22,9 @@
     }
 
     .belief {
-      width: 80%;
-      margin: auto;
 
       .belief-illustration {
-        text-align: right;
+        justify-content: center;
         display: flex;
 
         @media screen and (max-width: 575px) {
@@ -132,13 +130,12 @@
   }
 
   .contribute {
-    color: #999;
     background: linear-gradient(white, $light-grey);
     margin: 0;
     .cta {
         text-decoration: none;
         background-color: $button-primary;
-        color: #ffffff;
+        color: $white;
         display: block;
         width: 300px;
         text-align: center;
