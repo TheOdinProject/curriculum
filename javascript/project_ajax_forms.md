@@ -29,6 +29,7 @@ Create an infinite-scrolling page of movies from the Open Movie Database.
 * [Cody Loyd's solution](https://github.com/codyloyd/js-infinite-scrolling-test) | [View in browser](http://codyloyd.com/js-infinite-scrolling-test/)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/ajax-infinite-scrolling) | [View in browser](http://movies.dachapman.com/)
 * [Daunenok's solution](https://github.com/daunenok/movie-database) | [View in browser](https://daunenok.github.io/movie-database/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/ajax-infinite-scrolling-project) | [View in browser](https://sophialwu.github.io/ajax-infinite-scrolling-project/)
 
 ## Additional Resources
 
