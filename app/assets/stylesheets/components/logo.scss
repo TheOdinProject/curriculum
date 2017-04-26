@@ -13,11 +13,11 @@
     font-family: $logo-font;
     letter-spacing: 0.4px;
     font-weight: bold;
-    font-size: 1.8em;
+    font-size: 1.6em;
     display: inline-block;
 
-    @media screen and (max-width: 350px) {
-      font-size: 1.3em;
+    @media screen and (max-width: 380px) {
+      font-size: 1.1em;
     }
   }
 
