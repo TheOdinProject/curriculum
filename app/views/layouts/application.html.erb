@@ -23,7 +23,7 @@
           <%= render "layouts/#{flash[:partial]}" %>
         <% end %>
 
-        <%= render partial: 'shared/flash_helper', flash: flash %>
+        <%= render 'shared/flash_helper', flash: flash %>
         <%= yield %>
 
       <% end %>
