@@ -1,0 +1,9 @@
+<div class="row story light-grey">
+  <div class="col">
+    <h2 class="text-center">The Story of The Odin Project</h2>
+
+    <% timelines.each do |timeline| %>
+      <%= render 'static_pages/about/timeline', timeline: timeline %>
+    <% end %>
+  </div> <!-- /.col -->
+</div> <!-- /.story -->
