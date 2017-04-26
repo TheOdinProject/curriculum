@@ -97,8 +97,7 @@
     color: $text-primary;
     max-width: 1280px;
     min-height: 400px;
-    margin: 0 auto;
-    margin-top: 100px;
+    margin: 100px auto 6em;
     display: flex;
     flex-wrap: wrap;
     }
@@ -134,8 +133,12 @@
           }
         }
 
-        .success-content {
-          flex: 1
+        .success-content-full {
+          flex: 1;
+
+          .student-name {
+            margin-bottom: 20px;
+          }
         }
     }
 
@@ -149,13 +152,13 @@
   }
 
   .success-stories-sign-up {
-    margin-top: 50px;
     font-size: 2.2em;
     font-weight: light;
     width: 100%;
     text-align: center;
     letter-spacing: 0.4px;
     color: rgba(74, 74, 74, 0.7);
+    margin-bottom: 3.6em;
 
     .signup-button {
       text-decoration: none;
