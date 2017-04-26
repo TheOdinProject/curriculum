@@ -51,7 +51,6 @@
       width: 100%;
       color: $primary;
     }
-
     .timeline {
       .year {
         -webkit-transform: translateY(-15px);
@@ -135,13 +134,13 @@
   .contribute {
     color: #999;
     background: linear-gradient(white, $light-grey);
-
+    margin: 0;
     .cta {
         text-decoration: none;
         background-color: $button-primary;
         color: #ffffff;
         display: block;
-        width: 350px;
+        width: 300px;
         text-align: center;
         height: 60px;
         border-radius: 3px;
