@@ -146,6 +146,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Braydon Pacheco's solution](https://github.com/pacheeko/connect_four)
 * [Simon's solution](https://github.com/SimonSomlai/Odin/tree/master/Ruby/connect_four)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/connect_four)
+* [John Connor's solution](https://github.com/jacgitcz/tconnect4)
 
 ## Additional Resources
 
