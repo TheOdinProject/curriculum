@@ -48,15 +48,16 @@
   }
 ] %>
 <div class="StaticPagesController">
-  <div class="container" id="about">
-    <%= render 'static_pages/about/intro' %>
+  <div id="about">
+    <div class="container">
+      <%= render 'static_pages/about/intro' %>
 
-    <%= render 'static_pages/about/beliefs', beliefs: beliefs %>
-
-    <%= render 'static_pages/about/story', timelines: timelines %>
-
-    <%= render 'static_pages/about/contact' %>
-
-    <%= render 'static_pages/about/contribute' %>
+      <%= render 'static_pages/about/beliefs', beliefs: beliefs %>
+    </div> 
+      <%= render 'static_pages/about/story', timelines: timelines %>
+    <div class="container">
+      <%= render 'static_pages/about/contact' %>
+    </div>
+      <%= render 'static_pages/about/contribute' %>
   </div>
 </div>
