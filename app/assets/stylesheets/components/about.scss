@@ -22,14 +22,15 @@
     }
 
     .belief {
-      width: 95%;
+      width: 80%;
       margin: auto;
 
       .belief-illustration {
         text-align: right;
+        display: flex;
 
         @media screen and (max-width: 575px) {
-          text-align: center;
+          justify-content: center;
         }
       }
 
