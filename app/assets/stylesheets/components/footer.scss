@@ -33,18 +33,19 @@ footer {
     align-items: center;
 
     .footer-links-container {
+      display: flex;
       width: 130px;
       height: 90px;
       display: flex;
       flex-direction: column;
+      align-items: flex-start
     }
 
     a {
-      flex:1;
+      flex-basis: 30px;
       color: rgba(74, 74, 74, 0.7);
       font-weight: bold;
       text-decoration: none;
-      display: flex;
       margin: 0;
     }
   }
