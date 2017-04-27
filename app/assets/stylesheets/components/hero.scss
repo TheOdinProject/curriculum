@@ -4,12 +4,9 @@
 }
 
 
-.homepage-hero-image {
-  min-width: 800px;
-}
-
 @media(max-width:800px) {
   .homepage-hero-image {
+    width: 130%;
     margin-left: 50%;
     transform: translateX(-50%);
   }
