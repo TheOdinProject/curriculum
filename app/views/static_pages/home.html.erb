@@ -1,13 +1,15 @@
 <div id="home-page">
   <%= render 'shared/navbar' %>
-
-  <header>
-    <h1 class="text-center"> Learn Web Development for Free </h1>
-    <h2 class="text-center"> Stop wasting time...&nbsp;  Here's what you need to know. </h2>
-    <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'signup-cta' %>
-  </header>
-
-  <%= image_tag 'homepage-hero.jpg', class: 'homepage-hero', alt: 'home-page-banner' %>
+  <div class="gradient">
+    <header>
+      <h1 class="text-center"> Learn Web Development for Free </h1>
+      <h2 class="text-center"> Stop wasting time...&nbsp;  Here's what you need to know. </h2>
+      <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'signup-cta' %>
+    </header>
+    <div class="homepage-hero">
+      <%= image_tag 'home-isometric.svg', class: 'homepage-hero-image', alt: 'home-page-banner' %>
+    </div>
+  </div>
 
   <%= render 'static_pages/home/how_it_works' %>
 
