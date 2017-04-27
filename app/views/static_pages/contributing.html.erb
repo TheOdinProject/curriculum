@@ -31,7 +31,7 @@
                 </p>
               </div>
                 <div class="mx-auto card-base">
-                  <%= link_to 'Go to Github curriculum', github_link('curriculum'), class: 'btn btn-contribute', target: '_blank' %>
+                  <%= link_to 'View on GitHub', github_link('curriculum'), class: 'btn btn-contribute', target: '_blank' %>
                 </div>
             </div>
             <div class="card">
@@ -49,7 +49,7 @@
                 </p>
               </div>
                 <div class="mx-auto card-base">
-                  <%= link_to 'Go to Github main site', github_link('theodinproject'), class: 'btn btn-contribute', target: '_blank' %>
+                  <%= link_to 'View on GitHub', github_link('theodinproject'), class: 'btn btn-contribute', target: '_blank' %>
                 </div>
             </div>
           </div>
@@ -66,6 +66,8 @@
           </div>
         </div>
       </section>
+    </div>
+  </div>
 
       <%
         reasons = [
@@ -76,7 +78,8 @@
         ]
       %>
 
-      <section class="gradient">
+    <section class="gradient">
+      <div class="container">
         <h3 class="text-center camel mb-5 font-weight-bold">Why you should get involved</h3>
         <div class="row pt-5">
         <% reasons.each_with_index do |reason, index| %>
@@ -94,13 +97,9 @@
           <% end %>
         <% end %>
         </div>
-      </section>
 
-    </div>
-
-    <section class="gradient">
       <%= render "contributors" %>
-    </section>
+    </div>
+  </section>
 
-  </div>
 </div>
