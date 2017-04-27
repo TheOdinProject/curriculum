@@ -117,3 +117,4 @@ Build the following methods in your linked list class:
 * [Daniel Varcas aka d-zer0's solution](https://github.com/d-zer0/linked_list/blob/master/linked_list.rb)
 * [Zach Beaird's solution (with extra credit)](https://github.com/zbbeaird89/Linked-List)
 * [EMuchynski's solution](https://github.com/EMuchynski/linked_lists)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-linked-list)
