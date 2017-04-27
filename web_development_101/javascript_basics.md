@@ -33,6 +33,11 @@ This lesson will tend to focus on understanding the programming side of Javascri
 
 * Add your solution below this line!
 * [Chris Kessell solution for problems 1 & 2](https://github.com/ChrisKessell/project_euler)
+* [Katherine Hanson's solutions for problems 1 & 2](https://github.com/KatherineHanson/project-euler)
+* [Ana Sommer's solution](https://github.com/anasommer/eulerproblems)
+* [smimimi's solutions for problems 1-3](https://github.com/smimimi/project_euler)
+* [Ben Deltenre's solutions](https://github.com/benjdelt/project-euler)
+* [Lorrie Pearson's solution](https://github.com/Lorrie01/eulerProblem1)
 * [aznshents' solution](https://github.com/aznshents/eulerproblems/blob/master/problem-1.js)
 * [Grey Ghost's solution](https://github.com/Grey-Ghost/Project-Euler) | [View In Browser](https://grey-ghost.github.io/Project-Euler/)
 * [Davand88 solution for Multiples of 3 and 5] (https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
@@ -468,6 +473,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dev Mehta's solution](https://github.com/devmehta92/Euler-s-Problems)
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/project_euler_javascript/blob/master/problem_1.js)
 * [codebreeze's solution](https://codebreeze.github.io/multiples-solution/) | [View in browser](https://gist.github.com/codebreeze/bc365b5e059e30917d01958fadd70acd)
+* [Veronika's solution](https://github.com/vermelon/euler) | [View in browser](https://vermelon.github.io/euler/)
 
 ## Additional Resources
 
