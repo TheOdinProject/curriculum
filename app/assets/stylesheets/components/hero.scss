@@ -1,3 +1,17 @@
 .homepage-hero {
   width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.homepage-hero-image {
+  min-width: 800px;
+}
+
+@media(max-width:800px) {
+  .homepage-hero-image {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
 }
