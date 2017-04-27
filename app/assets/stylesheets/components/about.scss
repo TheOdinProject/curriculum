@@ -80,7 +80,7 @@
     }
 
     .contact-text {
-      margin: 20px 0 0 25px;
+      margin-top: 20px;
 
       .speech-bubble {
         background: $light-grey;
@@ -99,6 +99,11 @@
           border-top: 40px solid rgba(0, 0, 0, 0);
           border-right: 50px solid $light-grey;
           border-bottom: 40px solid rgba(0, 0, 0, 0);
+        }
+        @media(max-width: 576px) {
+          &:after {
+            display: none;
+          }
         }
 
         h2 {
@@ -132,6 +137,13 @@
   .contribute {
     background: linear-gradient(white, $light-grey);
     margin: 0;
+    padding-bottom: 120px;
+    h2 {
+      font-weight: 300;
+      font-size: 36px;
+      letter-spacing: 0.4px;
+      color: $grey;
+    }
     .cta {
         text-decoration: none;
         background-color: $button-primary;
