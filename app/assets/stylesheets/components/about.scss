@@ -19,7 +19,7 @@
   .beliefs {
     .beliefs-heading {
       width: 100%;
-      margin-bottom: 80px;
+      margin-bottom: 60px;
     }
 
     .belief {
@@ -34,6 +34,10 @@
       }
 
       .belief-description {
+        .belief-short-text {
+          font-size: 1.2em;
+          padding-bottom: 1em;
+        }
         @media screen and (max-width: 575px) {
           margin-top: 40px;
           text-align: center;
@@ -45,15 +49,17 @@
   .story {
     margin: 110px 0 170px;
     padding: 100px 20px;
-
     h2 {
       width: 100%;
       color: $primary;
     }
     .timeline {
+      font-size: .8em;
       .year {
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
+        font-size: 1.2em;
+        font-weight: 900;
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
 
         h3 {
           color: $primary;
