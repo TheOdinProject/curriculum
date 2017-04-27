@@ -32,7 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
-  [Chris Kessell solution for problems 1 & 2](https://github.com/ChrisKessell/project_euler)
+* [Chris Kessell solution for problems 1 & 2](https://github.com/ChrisKessell/project_euler)
 * [aznshents' solution](https://github.com/aznshents/eulerproblems/blob/master/problem-1.js)
 * [Grey Ghost's solution](https://github.com/Grey-Ghost/Project-Euler) | [View In Browser](https://grey-ghost.github.io/Project-Euler/)
 * [Davand88 solution for Multiples of 3 and 5] (https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
