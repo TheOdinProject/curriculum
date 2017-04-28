@@ -4,10 +4,6 @@
   }
   #home-page {
 
-    .signup-cta {
-      width: 20%;
-    }
-
     .curriculum-details-tile {
       flex-basis: 50%;
     }
@@ -36,21 +32,6 @@
 }
 
 @media (max-width: 768px) {
-  #home-page {
-
-    .signup-cta {
-      width: 30%;
-    }
-
-    .how-it-works-tiles {
-      flex-direction: column;
-
-      .how-it-works-image {
-        height: 120px;
-      }
-    }
-  }
-
   footer {
     flex-direction: column;
     height: 400px;
@@ -75,10 +56,6 @@
 
 @media (max-width: 480px){
   #home-page {
-
-    .signup-cta {
-      width: 40%;
-    }
 
     .curriculum-details-tile {
       flex-basis: 100%;
