@@ -18,3 +18,9 @@
     color: $white;
   }
 }
+
+@media(max-width: 480px) {
+  .chat-floating-btn {
+    display: none;
+  }
+}
