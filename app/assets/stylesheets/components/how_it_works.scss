@@ -8,6 +8,9 @@
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 100px;
+    h2 {
+      margin-bottom: 36px;
+    }
 
     p {
       padding-top: 1em;
@@ -16,7 +19,7 @@
 
   .how-it-works-tiles {
     display: flex;
-    max-width: 960px;
+    max-width: 1080px;
     margin: 0 auto;
     min-height: 400px;
     text-align: center;
@@ -26,7 +29,10 @@
       flex: 1;
 
       h3 {
+        font-size: 1.1em;
+        font-weight: 600;
         margin-top: 1em;
+        margin-bottom: 1em;
       }
       
       img{
