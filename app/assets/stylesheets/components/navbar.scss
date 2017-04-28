@@ -35,9 +35,9 @@
     z-index: 1;
     .background {
       background-color: #fff;
-      -webkit-box-shadow: 0px 8px 40px 19px rgba(255,255,255,1);
--moz-box-shadow: 0px 8px 40px 19px rgba(255,255,255,1);
-box-shadow: 0px 8px 40px 19px rgba(255,255,255,1);
+      -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+      -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.15);
       position: absolute;
       top: 0;
       left: 0;
