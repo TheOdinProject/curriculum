@@ -11,13 +11,14 @@
   }
   .navbar-nav {
     color: #676767;
-
+    hr {
+      display: none;
+    }
     .nav-link {
       color: #676767;
       text-decoration: none;
       letter-spacing: 0.2px;
       line-height: 100px;
-      color: #676767;
       font-size: 1.1em;
     }
     .divider {
@@ -32,6 +33,20 @@
     position: fixed;
     width: 100%;
     z-index: 1;
+    .navbar-nav {
+      .dropdown-divider {
+        background-color: $primary;
+      }
+      .nav-link {
+        font-size: 36px;
+        font-weight: 300;
+        color: $primary;
+        text-decoration: none;
+        letter-spacing: 0.4px;
+        line-height: .8em;
+        text-align: center;
+      }
+    }
     .background {
       background-color: #fff;
       -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
@@ -50,11 +65,6 @@
 
       .divider {
         display: none;
-      }
-
-      .nav-link {
-        line-height: normal;
-        text-align: center;
       }
     }
   }
