@@ -1,5 +1,5 @@
 # [Welcome to The Odin Project, an open source web development curriculum](http://theodinproject.com)
-The Odin Project is an open source community and curriculum for learning web development. Odin Project students complete lessons linking to the best free resources online, and projects which they can use in their portfolio.
+The Odin Project is an open source community and curriculum for learning web development. Students of The Odin Project build portfolio projects and complete lessons that are constantly curated and updated with links to relevant resources.
 
 We teach:
 * Ruby programming
