@@ -1085,7 +1085,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Chris Kessell Solution(Easy)](https://github.com/ChrisKessell/google-homepage) | [View in browser] (https://chriskessell.github.io/google-homepage)
 * [Igor's solution(easy & difficult)](https://github.com/mojotron/google-homepage) | [View in browser](https://mojotron.github.io/google-homepage/)
 * [Nallely's solution(Easy)](https://nallelytg.github.io/google_homepage) | [View in browser](https://nallelytg.github.io/google_homepage/)
-*[Alfredo's solution(Easy)](https://github.com/alfasf/google-homepage) | [View in browser](https://alfasf.github.io/google-homepage/) 
+* [Alfredo's solution(Easy)](https://github.com/alfasf/google-homepage) | [View in browser](https://alfasf.github.io/google-homepage/) 
 
 ## Additional Resources
 
