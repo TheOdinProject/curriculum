@@ -21,7 +21,7 @@ The page is very straightforward, so you should be able to clone it even if your
 
 * Add your solution below this line!
 * [James' solution](https://github.com/CurmudJim/google-homepage) | [View in browser](https://curmudjim.github.io/google-homepage/)
-* [Andrew's solution](https://github.com/andrewr224/html_forms)
+* [Andrew's solution](https://github.com/andrewr224/html_forms) | [View in browser](https://andrewr224.github.io/html_forms/)
 * [Austin's solution](https://github.com/CouchofTomato/mint-signin)
 * [Jordan Ellis-Lynch's solution](https://github.com/jordy-el/google_homepage) | [View in browser](https://jordy-el.github.io/google_homepage/)
 * [Javal's solution](https://github.com/javalnanda/theOP-mint_signup_page/) | [View in browser](https://javalnanda.github.io/theOP-mint_signup_page/)
