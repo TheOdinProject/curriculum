@@ -1,4 +1,7 @@
 @media (max-width: 992px) {
+  .nav-spacer {
+    height: 132px;
+  }
   #home-page {
 
     .signup-cta {
@@ -23,22 +26,6 @@
 
     .signup-button {
       width: 50%;
-    }
-  }
-
-  .navbar {
-    .navbar-nav {
-      margin-top: 20px;
-      display: 80%;
-
-      .divider {
-        display: none;
-      }
-
-      .nav-link {
-        line-height: normal;
-        text-align: center;
-      }
     }
   }
 
@@ -84,13 +71,6 @@
 }
 
 @media (min-width: 768px) {
-  .logo {
-    width: 100%;
-
-    .logo-img {
-      float: none;
-    }
-  }
 }
 
 @media (max-width: 480px){
