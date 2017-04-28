@@ -50,3 +50,30 @@ footer {
     }
   }
 }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    min-height: 400px;
+
+    .footer-links {
+
+      .footer-links-container {
+        width: 40%;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    min-height: 70px;
+    .footer-links {
+      display: none;
+    }
+    .footer-logo {
+      display:none;
+    }
+  }
+}
