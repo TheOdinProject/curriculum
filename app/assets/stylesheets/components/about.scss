@@ -13,27 +13,31 @@
       color: $primary;
       width: 100%;
     }
+    padding-bottom: 120px;
   }
 
   .beliefs {
     .beliefs-heading {
       width: 100%;
-      margin-bottom: 80px;
+      margin-bottom: 60px;
     }
 
     .belief {
-      width: 95%;
-      margin: auto;
 
       .belief-illustration {
-        text-align: right;
+        justify-content: center;
+        display: flex;
 
         @media screen and (max-width: 575px) {
-          text-align: center;
+          justify-content: center;
         }
       }
 
       .belief-description {
+        .belief-short-text {
+          font-size: 1.2em;
+          padding-bottom: 1em;
+        }
         @media screen and (max-width: 575px) {
           margin-top: 40px;
           text-align: center;
@@ -45,16 +49,17 @@
   .story {
     margin: 110px 0 170px;
     padding: 100px 20px;
-
     h2 {
       width: 100%;
       color: $primary;
     }
-
     .timeline {
+      font-size: .8em;
       .year {
-        -webkit-transform: translateY(-15px);
-        transform: translateY(-15px);
+        font-size: 1.2em;
+        font-weight: 900;
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
 
         h3 {
           color: $primary;
@@ -82,7 +87,7 @@
     }
 
     .contact-text {
-      margin: 20px 0 0 25px;
+      margin-top: 20px;
 
       .speech-bubble {
         background: $light-grey;
@@ -101,6 +106,11 @@
           border-top: 40px solid rgba(0, 0, 0, 0);
           border-right: 50px solid $light-grey;
           border-bottom: 40px solid rgba(0, 0, 0, 0);
+        }
+        @media(max-width: 576px) {
+          &:after {
+            display: none;
+          }
         }
 
         h2 {
@@ -132,15 +142,21 @@
   }
 
   .contribute {
-    color: #999;
     background: linear-gradient(white, $light-grey);
-
+    margin: 0;
+    padding-bottom: 120px;
+    h2 {
+      font-weight: 300;
+      font-size: 36px;
+      letter-spacing: 0.4px;
+      color: $grey;
+    }
     .cta {
         text-decoration: none;
         background-color: $button-primary;
-        color: #ffffff;
+        color: $white;
         display: block;
-        width: 350px;
+        width: 300px;
         text-align: center;
         height: 60px;
         border-radius: 3px;
