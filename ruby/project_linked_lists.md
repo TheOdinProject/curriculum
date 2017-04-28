@@ -66,6 +66,7 @@ Build the following methods in your linked list class:
 * Add your solution below this line!
 * [Webdev-burd's solution](https://github.com/webdev-burd/linked_list)
 * [Jfonz412's solution](https://github.com/jfonz412/computer_science/blob/master/linked_lists.rb)
+* [xavier solution (+ extra)](https://github.com/nxdf2015/odin-linked-lists/blob/master/linked_list.rb)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/linked_lists)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/linked_lists)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/linked_list.rb)
