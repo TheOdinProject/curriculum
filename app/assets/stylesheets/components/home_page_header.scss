@@ -3,7 +3,7 @@ header {
 
   h1 {
     font-family: $headline-fonts;
-    font-size: 3em;
+    font-size: 2.2em;
     color: $primary;
     font-weight: 300;
     margin-bottom: 30px;
@@ -12,9 +12,11 @@ header {
   }
 
   h2 {
-    color: $primary;
-    font-weight: 600;
-    font-size: 1.4em;
+    font-family: $body-fonts;
+    color: $grey;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 1em;
     letter-spacing: 0.2px;
   }
 
@@ -34,4 +36,5 @@ header {
     letter-spacing: 0.2px;
     font-size: 18px;
   }
+
 }
