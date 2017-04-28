@@ -120,6 +120,41 @@ module ApplicationHelper
     ]
   end
 
+  def courses
+    [
+      {
+        badge_image_url: 'badge-html-css.svg',
+        badge_alt_text: 'html css badge',
+        title: 'HTML + CSS3'
+      },
+      {
+        badge_image_url: 'badge-javascript.svg',
+        badge_alt_text: 'javascript badge',
+        title: 'JavaScript'
+      },
+      { badge_image_url: 'badge-git.svg',
+        badge_alt_text: 'git badge',
+        title: 'Git'
+      },
+      { badge_image_url: 'badge-database.svg',
+        badge_alt_text: 'databases badge',
+        title: 'Databases'
+      },
+      { badge_image_url: 'badge-ruby.svg',
+        badge_alt_text: 'ruby badge',
+        title: 'Ruby'
+      },
+      { badge_image_url: 'badge-ruby-on-rails.svg',
+        badge_alt_text: 'ruby on rails badge',
+        title: 'Ruby on Rails'
+      },
+      { badge_image_url: 'badge-getting-hired.svg',
+        badge_alt_text: 'getting hired badge',
+        title: 'Getting Hired'
+      }
+    ]
+  end
+
   private
 
   def custom_flash(flash_type)

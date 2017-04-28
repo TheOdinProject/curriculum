@@ -1,61 +1,95 @@
 .curriculum-details {
-
-  .view-curriculum-details {
-    text-decoration: none;
-    background-color: $primary;
-    color: #ffffff;
-    display: block;
-    text-align: center;
-    padding: 0 1.5em 0 1.5em;
-    width: 250px;
-    height: 60px;
-    border-radius: 3px;
-    line-height: 60px;
-    margin: 70px auto 70px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    letter-spacing: 0.2px;
-    font-size: 18px;
-  }
+  padding: 70px 0;
 
   .curriculum-details-title {
     text-align: center;
-    margin-bottom: 100px;
-    .coffee {
-      color: $coffee;
-    }
+    margin-bottom: 60px;
 
-    .orange {
-      color: $dusty-orange;
-    }
-
-    .camo {
-      color: $camo;
+    .stacks {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.2px;
+      line-height: 1.94;
+      margin-bottom: 35px;
     }
   }
 
   .curriculum-details-grid {
-    display: flex;
-    max-width: 1280px;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 
     .curriculum-details-tile {
+      @include box-shadow(0 7px 16px 0 rgba(0, 0, 0, 0.05));
+      background: $white;
+      display: flex;
+      flex-direction: column;
+      height: 256px;
+      margin: 0 30px 30px 0;
+      max-width: 254px;
+      padding: 23px 46px 25px;
       text-align: center;
-      flex: 1;
-      height: 340px;
-      flex-basis: 33%;
-      padding-top: 2em;
+      width: 254px;
+
+      img {
+        height: 160px;
+        width: 160px;
+
+        @media screen and (max-width: 480px) {
+          height: 80px;
+          width: 80px;
+        }
+      }
 
       h3 {
-        margin-bottom: .2em;
-        margin-top: 20px;
+        color: $text-primary;
         font-size: 18px;
         font-weight: bold;
         letter-spacing: 0.2px;
-        color: $text-primary;
+        margin-top: 18px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        &:nth-child(3n), &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      @include media-breakpoint-between(sm, md) {
+        &:nth-child(2n), &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      @media screen and (min-width: 481px) and (max-width: 575px) {
+        margin: 0 30px 30px;
+      }
+
+      @media screen and (max-width: 480px) {
+        align-items: center;
+        flex-direction: row;
+        height: 130px;
+        margin-right: 0;
+        padding: 25px;
+        width: 270px;
+
+        h3 {
+          margin: 0 0 0 25px;
+          text-align: left;
+        }
       }
     }
+  }
+
+  .view-curriculum-details {
+    @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
+    background: $primary;
+    border-radius: 3px;
+    color: $white;
+    display: block;
+    font-size: 18px;
+    height: 60px;
+    letter-spacing: 0.2px;
+    margin: 60px auto 70px;
+    padding: 18px;
+    width: 270px;
   }
 }

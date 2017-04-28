@@ -1,0 +1,16 @@
+<div class="curriculum-details bg-whitesmoke">
+  <%= render 'static_pages/home/curriculum_details_title' %>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-10 offset-xl-1">
+        <%= render 'static_pages/home/curriculum_grid', courses: courses %>
+      </div>
+    </div> <!-- /.row -->
+
+    <div class="row text-center">
+      <%= link_to 'View Curriculum', courses_path(ref: 'homenav'),
+        class: 'view-curriculum-details font-weight-bold' %>
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</div>
