@@ -40,8 +40,6 @@
       }
     }
   }
-  @media (max-width: 992px) {
-  }
 
   @media (max-width: 768px) {
     padding-top: 60px;
@@ -50,7 +48,7 @@
     }
     .how-it-works-tiles {
       flex-direction: column;
-      .tile{
+      .tile {
         .how-it-works-image {
           height: 120px;
         }
@@ -61,7 +59,7 @@
   @media (max-width: 480px) {
     .how-it-works-tiles {
       flex-direction: column;
-      .tile{
+      .tile {
         .how-it-works-image {
           height: 48px;
         }
