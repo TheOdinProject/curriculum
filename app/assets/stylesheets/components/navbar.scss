@@ -1,12 +1,33 @@
 .navbar {
   margin-bottom: 50px;
   display: flex;
-  justify-content: center;
+  .navbar-brand {
+    margin-right: 36px;
+  }
   .navbar-toggler {
+    .close {
+      display: block;
+      margin-top: 12px;
+      font-size: 48px;
+      color: $button-primary;
+      font-weight: 100;
+    }
+    .open {
+      display: none;
+      margin-top: 19px;
+    }
     border: none;
     padding: 0;
     .navbar-toggler-icon {
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#6abfc3' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+  }
+  .collapsed {
+    .open {
+      display: block;
+    }
+    .close {
+      display: none;
     }
   }
   .navbar-nav {
