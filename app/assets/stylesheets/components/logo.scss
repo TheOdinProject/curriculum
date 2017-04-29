@@ -15,9 +15,19 @@
     font-weight: bold;
     font-size: 1.6em;
     display: inline-block;
+    &.expanded{
+      display: none;
+    }
   }
   .logo-img {
     height: 100px;
+    transition: all .02s;
+    &.expanded{
+      transition: all .4s cubic-bezier(0.42, 0, 0.38, 1.38);
+      transform: rotate(360deg);
+      flex: 1;
+      margin-left: 36px;
+    }
   }
 
   @media screen and (max-width: 768px) {
