@@ -4,26 +4,24 @@ class StaticPagesController < ApplicationController
     @is_home_page = true
   end
 
-  def about
+  def about; end
+
+  def getting_involved; end
+
+  def faq
+    # Ref: http://blog.bigbinary.com/2016/06/26/rails-add-helpers-method-to-ease-usage-of-helper-modules-in-controllers.html
+    @faq_items = helpers.faq_items
   end
 
-  def getting_involved
-  end
+  def legal; end
 
-  def legal
-  end
+  def tou; end
 
-  def tou
-  end
+  def cla; end
 
-  def cla
-  end
+  def style_guide; end
 
-  def style_guide
-  end
-
-  def success_stories
-  end
+  def success_stories; end
 
   def suggestion
     if suggestion_body_not_empty?
