@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const logoText = document.querySelector('.logo-text')
-  const logoImg = document.querySelector('.logo-img')
+  var logoText = document.querySelector('.logo-text')
+  var logoImg = document.querySelector('.logo-img')
 
-  const navToggle = document.querySelector('.navbar-toggler')
+  var navToggle = document.querySelector('.navbar-toggler')
 
-  navToggle.addEventListener('click', () => {
+  navToggle.addEventListener('click', function() {
     logoText.classList.toggle('expanded')
     logoImg.classList.toggle('expanded')
   })
