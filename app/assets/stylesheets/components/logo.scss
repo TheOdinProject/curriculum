@@ -21,12 +21,11 @@
   }
   .logo-img {
     height: 100px;
-    transition: all .02s;
+    transition: all .05s ease-in-out;
     &.expanded{
       transition: all .4s cubic-bezier(0.42, 0, 0.38, 1.38);
-      transform: rotate(360deg);
       flex: 1;
-      margin-left: 36px;
+      margin-left: 48px;
     }
   }
 
