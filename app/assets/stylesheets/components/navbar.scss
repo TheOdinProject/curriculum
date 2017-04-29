@@ -66,6 +66,12 @@
         letter-spacing: 0.4px;
         line-height: .8em;
         text-align: center;
+        transition: all .3s;
+        &:hover {
+          color: $primary;
+          text-shadow: 0px 0px 8px rgba(204, 149, 67, .5)
+;
+        }
       }
     }
     .background {
