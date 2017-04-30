@@ -40,6 +40,7 @@ Keep track of how long it takes between when the photo is first loaded and when 
 * [Cody Loyd's solution](https://github.com/codyloyd/wheres_waldo) | [View in browser](https://weeping-walleye.herokuapp.com)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-findwaldo)
 * [David Chapman's solution](https://github.com/davidchappy/wheres-waldo) | [View in browser](https://dac-wheres-waldo.herokuapp.com/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/wheres-waldo) | [View in browser](https://frozen-stream-95035.herokuapp.com/)
 
 ## Additional Resources
 
