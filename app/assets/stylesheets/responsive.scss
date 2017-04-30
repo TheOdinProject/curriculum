@@ -1,9 +1,8 @@
 @media (max-width: 992px) {
+  .nav-spacer {
+    height: 132px;
+  }
   #home-page {
-
-    .signup-cta {
-      width: 20%;
-    }
 
     .curriculum-details-tile {
       flex-basis: 50%;
@@ -26,22 +25,6 @@
     }
   }
 
-  .navbar {
-    .navbar-nav {
-      margin-top: 20px;
-      display: 80%;
-
-      .divider {
-        display: none;
-      }
-
-      .nav-link {
-        line-height: normal;
-        text-align: center;
-      }
-    }
-  }
-
   h1 {
     max-width: 80%;
     margin: 0 auto;
@@ -49,6 +32,7 @@
 }
 
 @media (max-width: 768px) {
+
   #home-page {
 
     .signup-cta {
@@ -60,6 +44,7 @@
 
       .how-it-works-image {
         height: 120px;
+
       }
     }
   }
@@ -71,21 +56,10 @@
 }
 
 @media (min-width: 768px) {
-  .logo {
-    width: 100%;
-
-    .logo-img {
-      float: none;
-    }
-  }
 }
 
 @media (max-width: 480px){
   #home-page {
-
-    .signup-cta {
-      width: 40%;
-    }
 
     .curriculum-details-tile {
       flex-basis: 100%;

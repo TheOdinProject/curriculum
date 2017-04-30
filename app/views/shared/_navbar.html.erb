@@ -1,8 +1,10 @@
 <div class="navbar navbar-toggleable-md navbar-light">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="toggle-navigation">
-    <span class="navbar-toggler-icon"></span>
+  <div class="background"></div>
+  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="toggle-navigation">
+    <span class="navbar-toggler-icon open"></span>
+    <span class="close" aria-hidden="true">&times;</span>
   </button>
-  <div class="navbar-brand mr-auto">
+  <div class="navbar-brand">
     <%= render 'shared/logo_text' %>
   </div>
 
@@ -23,8 +25,8 @@
       <li class="nav-item">
         <%= link_to 'FAQ', faq_path(ref: 'homenav'), class: 'nav-link' %>
       </li>
-
       <li class="divider nav-link">|</li>
+      <div class="dropdown-divider"></div>
   
       <% if current_user %>
         <li class="nav-item">
