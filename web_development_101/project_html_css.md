@@ -183,6 +183,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Jüri Punnar's solution](https://github.com/Punnar/google-homepage) | [View in browser](https://punnar.github.io/google-homepage/)
 * [Damian A's solution (Easy)](https://github.com/debitCredit/google-homepage) | [View in Browser (Easy)](https://debitcredit.github.io/google-homepage/)
 * [Clara's solution - Easy](https://github.com/clarammdantas/Googe-Homepage) | [View in Browser](https://clarammdantas.github.io/Googe-Homepage/)
+* [Jere Arola's solution (Easy)](https://github.com/JereArola/google-homepage) | [View in browser](https://jerearola.github.io/google-homepage/)
 * [theghall's solution](https://github.com/theghall/google-homepage) | [View in Browser](https://theghall.github.io/google-homepage/)
 * [waglebr's solution (Easy)](https://github.com/waglebr/google-project) | [View in Browser](https://waglebr.github.io/google-project/)
 * [thisisned's solution (Easy)](https://github.com/thisisned/google-homepage) | [View in Browser (Easy)](https://thisisned.github.io/google-homepage/)
