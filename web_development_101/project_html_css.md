@@ -1088,6 +1088,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Nallely's solution(Easy)](https://nallelytg.github.io/google_homepage) | [View in browser](https://nallelytg.github.io/google_homepage/)
 * [Alfredo's solution(Easy)](https://github.com/alfasf/google-homepage) | [View in browser](https://alfasf.github.io/google-homepage/)
 * [Will's solution(Easy)] (https://github.com/willianncardoso/google-homepage)|[View in browser](https://willianncardoso.github.io/google-homepage/)
+* [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage) 
 
 ## Additional Resources
 
