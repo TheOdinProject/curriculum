@@ -53,15 +53,12 @@ footer {
 
 @media (max-width: 768px) {
   footer {
-    flex-direction: column;
-    min-height: 400px;
-
+    min-height: 140px;
+    .footer-logo {
+      display: none;
+    }
     .footer-links {
-
-      .footer-links-container {
-        width: 40%;
-        align-items: center;
-      }
+      flex: 1;
     }
   }
 }
