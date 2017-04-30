@@ -45,14 +45,13 @@ module ApplicationHelper
         question: 'Where do I sign up for a course?', answer: '<p>You don\'t have to!  Just dive right in, the content is free and available.  It\'d be best if you started from the beginning and went through in order, but everyone\'s goals are different so we made the full curriculum available if you want to cherry-pick lessons or projects. That\'s not to say we will never have any sort of signup program (though if we do the core content here will remain free).  But right now what you see is what you get.</p>'
       },
       {
-        question: 'But when do I have to pay for stuff?', answer: '<p>You don\'t!</p>'
+        question: 'But when do I have to pay for stuff?', answer: '<p>The only payment we ask for is your time when you can afford it. Give back to the Odin community by offering up your new found knowledge to those just starting out or put your skills to use and work on a new feature for the site, which will also give you great insight into working on an open source project as large as Odin. How cool is that?</p>'
       },
       {
         question: 'How is the project funded?', answer: '<p>Goodwill and infinite patience.  Seriously, if you want to help, please <a href="/contact">reach out</a>.</p>'
       },
       {
-        question: 'But how will you become sustainable?', answer: '<p>Down the road, we want to keep our business model totally aligned with the ideal of educating lots of students very well.  Core content will always be free, but we\'d also like to give students who want more structure and help on their journeys access to those services, which would be at a premium.</p><p>For a more detailed look at our business model, please watch <a href="http://www.youtube.com/watch?v=tO5sxLapAts">this video</a>.
-        </p>'
+        question: "But how will you become sustainable?', answer: '<p>Cloning! But until the science is perfected we'll keep our current model of getting users involved.</p>"
       },
       {
         question: 'Can I use this curriculum to teach?', answer: '<p>This project is in two pieces -- the Curriculum and the Main Website which pulls it in. The Main Website is a fully open-source project <a href="https://github.com/TheOdinProject/theodinproject/blob/master/license.txt">under an MIT license, so you can use any code you see there for whatever you want.</a> The curriculum is currently licensed under a <a href="https://github.com/TheOdinProject/curriculum/blob/master/license.md">Creative Commons license</a> that restricts it to noncommercial use without prior authorization.</p><p>That means you can use it to teach at your club, at your meetup, or with your friends.  In fact, we\'d love it if you did that (and told us how it went!).  But you can\'t go out and use it to start a bootcamp without having a conversation first.  We\'re friendly and believe in widespread education -- reach out with any questions to <a href="mailto: contact@theodinproject.com">contact@theodinproject.com</a>.</p>'
