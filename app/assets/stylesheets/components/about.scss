@@ -105,7 +105,10 @@
     }
 
     .contact-text {
-      margin-top: 20px;
+      margin-top: 60px;
+      @media(max-width: 768px) {
+        margin-top: 30px;
+      }
 
       h2 {
           font-size: 36px;
