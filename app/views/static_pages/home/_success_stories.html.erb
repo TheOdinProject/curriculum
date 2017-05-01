@@ -13,8 +13,8 @@
   %>
 
   <div class="success-stories-container">
-    <% success_stories.each do |story| %>
-      <div class="success-story">
+    <% success_stories.each_with_index do |story, index| %>
+      <div class="success-story <%= "story-#{index}"%>">
         <div class="photo"> <%= image_tag story[:student_avatar_url] %> </div>
         <div class="success-content">
           <p><%= story[:student_name] %></p>
