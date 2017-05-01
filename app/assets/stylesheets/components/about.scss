@@ -75,14 +75,23 @@
 
     .odin-logo {
       text-align: center;
-
+      height: 300px;
       @include media-breakpoint-up(lg) {
         text-align: right;
       }
-
+      @media(max-width: 320px) {
+          height: 210px;
+        }
       img {
-        width: 210px;
-        height: 280px;
+        position: absolute;
+        left: -9000px;
+        right: -9000px;
+        margin: -60px auto 0 auto;
+        height: 480px;
+      @media(max-width: 576px) {
+          height: auto;
+          width: 140%;
+        }
       }
     }
 
@@ -93,7 +102,7 @@
         background: $light-grey;
         padding: 50px;
         position: relative;
-        z-index: 1;
+        z-index: 0;
         margin: auto;
 
         &:after {
