@@ -20,16 +20,15 @@
     }
   }
   .logo-img {
-    height: 100px;
+    height: 87px;
     transition: all .05s ease-in-out;
     &.expanded{
       transition: all .4s cubic-bezier(0.42, 0, 0.38, 1.38);
       flex: 1;
-      margin-left: 48px;
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .logo-img {
       height: 60px;
     }

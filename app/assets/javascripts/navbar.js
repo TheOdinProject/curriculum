@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+  var logo = document.querySelector('.navbar-brand')
   var logoText = document.querySelector('.logo-text')
   var logoImg = document.querySelector('.logo-img')
 
@@ -7,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   navToggle.addEventListener('click', function() {
     logoText.classList.toggle('expanded')
     logoImg.classList.toggle('expanded')
+    logo.classList.toggle('expanded')
   })
 
   // Collapses the navbar if a click is made outside it
@@ -15,9 +17,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var collapseButton = document.querySelector('.navbar-toggler-icon + .close')
 
     var navbarOpened = navbar.classList.contains('show')
-    var linkClicked = (event.target.tagName.toLowerCase() === 'a')
+    var linkClicked = event.target.tagName.toLowerCase() === 'a'
 
-    if (navbarOpened && !linkClicked)
-      collapseButton.click()
+    if (navbarOpened && !linkClicked) collapseButton.click()
   })
 })
