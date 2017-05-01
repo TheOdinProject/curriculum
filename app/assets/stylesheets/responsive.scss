@@ -32,19 +32,6 @@
 }
 
 @media (max-width: 768px) {
-  footer {
-    flex-direction: column;
-    height: 400px;
-
-    .footer-links {
-
-      .footer-links-container {
-        width: 40%;
-        align-items: center;
-      }
-    }
-  }
-
   h2 {
     max-width: 80%;
     margin: 0 auto;

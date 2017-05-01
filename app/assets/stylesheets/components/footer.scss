@@ -50,3 +50,27 @@ footer {
     }
   }
 }
+
+@media (max-width: 768px) {
+  footer {
+    min-height: 140px;
+    .footer-logo {
+      display: none;
+    }
+    .footer-links {
+      flex: 1;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    min-height: 70px;
+    .footer-links {
+      display: none;
+    }
+    .footer-logo {
+      display:none;
+    }
+  }
+}
