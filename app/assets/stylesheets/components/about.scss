@@ -91,10 +91,6 @@
         right: -9000px;
         margin: -60px auto 0 auto;
         height: 480px;
-      @media(max-width: 780px) {
-          margin-top: 0;
-          height: 300px;
-        }
       @media(max-width: 576px) {
           margin-top: -60px;
           height: auto;
@@ -111,43 +107,13 @@
     .contact-text {
       margin-top: 20px;
 
-      .speech-bubble {
-        background: $light-grey;
-        padding: 50px;
-        position: relative;
-        z-index: 0;
-        margin: auto;
-
-        &:after {
-          content: "";
-          position: absolute;
-          width: 0;
-          height: 0;
-          top: 50px;
-          left: -40px;
-          border-top: 40px solid rgba(0, 0, 0, 0);
-          border-right: 50px solid $light-grey;
-          border-bottom: 40px solid rgba(0, 0, 0, 0);
-        }
-
-        h2 {
+      h2 {
           font-size: 36px;
           font-weight: 300;
           letter-spacing: 0.4px;
           margin-bottom: 20px;
         }
-        @media(max-width: 780px) {
-          h2 {
-            font-size: 28px;
-          }
-        }
-        @media(max-width: 576px) {
-          &:after {
-            display: none;
-          }
-        }
       }
-    }
 
     .cta {
       text-decoration: none;
