@@ -100,6 +100,26 @@ module ApplicationHelper
     ]
   end
 
+  def how_it_works_tiles
+    [
+      {
+        image: 'img-learn.svg',
+        subtitle: 'Learn',
+        description: 'Learn from a curriculum with the best curated online tutorials, blogs, and courses.'
+      },
+      {
+        image: 'img-build.svg',
+        subtitle: 'Build',
+        description: 'Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites.'
+      },
+      {
+        image: 'img-connect.svg',
+        subtitle: 'Connect',
+        description: 'You’re not alone. Learn together by pairing up on projects with other students.'
+      }
+    ]
+  end
+
   private
 
   def custom_flash(flash_type)

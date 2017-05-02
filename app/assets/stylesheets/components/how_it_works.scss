@@ -1,7 +1,7 @@
 .how-it-works {
   min-height: 400px;
-  padding-top: 140px;
-  margin-bottom: 160px;
+  padding-top: 100px;
+  margin-bottom: 70px;
 
   .how-it-works-title {
     text-align: center;
@@ -21,20 +21,26 @@
     display: flex;
     max-width: 1080px;
     margin: 0 auto;
-    min-height: 400px;
     text-align: center;
     
     .tile {
       padding: 1em;
       flex: 1;
-
+      .description {
+        @media (max-width: 768px) {
+          padding: 0 72px 0 72px;
+        }
+        @media (max-width: 480px) {
+          padding: 0 32px 0 32px;
+        }
+      }
       h3 {
         font-size: 1.1em;
         font-weight: 600;
-        margin-top: 1em;
-        margin-bottom: 1em;
       }
-      
+      .subtitle {
+        margin: 50px 0 20px;
+      }
       img{
         height: 165px;        
       }
@@ -61,7 +67,7 @@
       flex-direction: column;
       .tile {
         .how-it-works-image {
-          height: 48px;
+          height: 80px;
         }
       }
     }
