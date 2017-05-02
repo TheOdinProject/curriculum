@@ -110,6 +110,11 @@
         margin-top: 30px;
       }
 
+      p {
+        max-width: 360px;
+        margin: 0 auto;
+      }
+
       h2 {
           font-size: 36px;
           font-weight: 300;
@@ -143,7 +148,10 @@
     padding-bottom: 120px;
     h2 {
       font-weight: 300;
+      max-width: 960px;
+      margin: 0 auto;
       font-size: 36px;
+      line-height: 1.5em;
       letter-spacing: 0.4px;
       color: $grey;
     }
