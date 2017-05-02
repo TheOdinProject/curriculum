@@ -29,7 +29,7 @@ As a bonus, your Heroku know-how transfers to Node because they accept Node apps
 
 * [The absolute beginner's guide to Node.js](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
 * ["Useful Node.js Tools, Tutorials and Resources" by Luca Degasperi via Smashing Magazine](http://coding.smashingmagazine.com/2011/09/16/useful-node-js-tools-tutorials-and-resources/)
-* [Node.js vs Ruby on Rails by Will Nathan](http://willnathan.com/nodejs-vs-ruby-on-rails)
+* [Node.js vs Ruby on Rails in 2017 by Andrew Alexseyenko](http://blog.techmagic.co/nodejs-vs-ruby-on-rails-comparison-2017-which-is-the-best-for-web-development/)
 * [Learn Node.js from the command line](https://github.com/rvagg/learnyounode)
 * [Node.js Explained](http://kunkle.org/nodejs-explained-pres/)
 * [Getting out of Callback Hell in Node.js](http://strongloop.com/strongblog/node-js-callback-hell-promises-generators/)
