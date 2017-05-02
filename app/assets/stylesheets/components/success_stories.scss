@@ -24,16 +24,23 @@
     .success-story {
       flex-basis: 49.9%;
       display: flex;
-
-        .photo {
-          flex-basis: 100px;
-          text-align: center;
-          padding-top: 16px;
+      .photo {
+        flex-basis: 100px;
+        text-align: center;
+        padding-top: 16px;
 
           img {
             width: 50px;
             height: 50px;
             border-radius: 50%
+          }
+        }
+        @media (max-width: 480px){
+          &.story-2 {
+            display: none;
+          }
+          &.story-3 {
+            display: none;
           }
         }
 
