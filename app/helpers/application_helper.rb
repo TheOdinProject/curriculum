@@ -81,6 +81,7 @@ module ApplicationHelper
       }
     ]
   end
+
   private
 
   def custom_flash(flash_type)
