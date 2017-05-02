@@ -40,6 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/caeser.rb)
 * [Aadesh's solution](https://github.com/aadeshere1/ruby_building_block/blob/master/caesar_cipher_encode.rb)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/building-blocks/blob/master/caesar_cipher.rb)
 * [holdercp's solution](https://github.com/holdercp/ruby-building-blocks/blob/master/caesar_cipher.rb)
@@ -352,6 +353,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/stock_picker.rb)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/building-blocks/blob/master/stock_picker.rb)
 * [holdercp's solution](https://github.com/holdercp/ruby-building-blocks/blob/master/stock_picker.rb)
 * [xavier solution](https://github.com/nxdf2015/odin-building-blocks/tree/master/stock-picker)
@@ -646,6 +648,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/substrings.rb)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/building-blocks/blob/master/substrings.rb)
 * [holdercp's solution](https://github.com/holdercp/ruby-building-blocks/blob/master/substring.rb)
 * [xavier solution](https://github.com/nxdf2015/odin-building-blocks/tree/master/substring)
