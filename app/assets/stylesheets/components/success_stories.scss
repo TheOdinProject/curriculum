@@ -23,6 +23,14 @@
     .success-story {
       flex-basis: 49.9%;
       display: flex;
+      @media (max-width: 480px){
+          &.story-2 {
+            display: none;
+          }
+          &.story-3 {
+            display: none;
+          }
+        }
       padding-bottom: 36px;
       .name-and-photo {
         flex: 2;

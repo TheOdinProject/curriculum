@@ -66,6 +66,9 @@
         }
       }
     }
+    @media(max-width: 576px) {
+      margin-bottom: 0px;
+    }
   }
 
   .contact {
@@ -75,52 +78,50 @@
 
     .odin-logo {
       text-align: center;
-
+      height: 300px;
       @include media-breakpoint-up(lg) {
         text-align: right;
       }
-
+      @media(max-width: 360px) {
+          height: 210px;
+        }
       img {
-        width: 210px;
-        height: 280px;
+        position: absolute;
+        left: -9000px;
+        right: -9000px;
+        margin: -60px auto 0 auto;
+        height: 480px;
+      @media(max-width: 576px) {
+          margin-top: -60px;
+          height: auto;
+          width: 100%;
+        }
+      @media(max-width: 480px) {
+          margin-top: -40px;
+          height: auto;
+          width: 120%;
+        }
       }
     }
 
     .contact-text {
-      margin-top: 20px;
+      margin-top: 60px;
+      @media(max-width: 768px) {
+        margin-top: 30px;
+      }
 
-      .speech-bubble {
-        background: $light-grey;
-        padding: 50px;
-        position: relative;
-        z-index: 1;
-        margin: auto;
+      p {
+        max-width: 360px;
+        margin: 0 auto;
+      }
 
-        &:after {
-          content: "";
-          position: absolute;
-          width: 0;
-          height: 0;
-          top: 50px;
-          left: -40px;
-          border-top: 40px solid rgba(0, 0, 0, 0);
-          border-right: 50px solid $light-grey;
-          border-bottom: 40px solid rgba(0, 0, 0, 0);
-        }
-        @media(max-width: 576px) {
-          &:after {
-            display: none;
-          }
-        }
-
-        h2 {
+      h2 {
           font-size: 36px;
           font-weight: 300;
           letter-spacing: 0.4px;
           margin-bottom: 20px;
         }
       }
-    }
 
     .cta {
       text-decoration: none;
@@ -147,7 +148,10 @@
     padding-bottom: 120px;
     h2 {
       font-weight: 300;
+      max-width: 960px;
+      margin: 0 auto;
       font-size: 36px;
+      line-height: 1.5em;
       letter-spacing: 0.4px;
       color: $grey;
     }
