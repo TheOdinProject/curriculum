@@ -1,15 +1,18 @@
 .success-stories {
-
-  min-height: 990px;
+  min-height: 960px;
   width: 100%;
-  background: linear-gradient( to top, $light-grey, #fff);
   padding-bottom: 60px;
-
+  @media(max-width: 480px){
+    padding-bottom: 0;
+  }
   .success-stories-title {
     width: 100%;
     text-align: center;
     padding-top: 70px;
     letter-spacing: 0.3px;
+    @media(max-width: 480px){
+      padding-top: 50px;
+    }
   }
 
   .success-stories-container {
@@ -20,6 +23,9 @@
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    @media(max-width: 480px){
+      margin-top: 20px;
+    }
     .success-story {
       flex-basis: 49.9%;
       display: flex;
@@ -81,7 +87,7 @@
   .success-stories-read-more {
     width: 100%;
     text-align: center;
-
+    padding-top: 30px;
     a {
       color: rgba(74, 74, 74, 0.7);
       text-decoration: underline;
@@ -89,25 +95,28 @@
   }
 
   .success-stories-sign-up {
-    margin-top: 50px;
+    margin: 60px 0;
     font-size: 2.2em;
-    font-weight: light;
+    font-weight: 100;
     width: 100%;
+    padding: 0 40px;
     text-align: center;
     letter-spacing: 0.4px;
-    color: rgba(74, 74, 74, 0.7);
-
+    p {
+      color: rgba(74, 74, 74, 0.7);
+      line-height: 1.5em;
+    }
     .signup-button {
       text-decoration: none;
       background-color: #6abfc3;
       color: #ffffff;
       display: block;
-      width: 15%;
+      width: 190px;
       text-align: center;
       height: 60px;
       border-radius: 3px;
       line-height: 60px;
-      margin: 60px auto 60px;
+      margin: 60px auto;
       box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
       font-weight: bold;
       letter-spacing: 0.2px;
