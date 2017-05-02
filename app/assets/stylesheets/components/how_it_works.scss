@@ -26,7 +26,14 @@
     .tile {
       padding: 1em;
       flex: 1;
-
+      .description {
+        @media (max-width: 768px) {
+          padding: 0 72px 0 72px;
+        }
+        @media (max-width: 480px) {
+          padding: 0 32px 0 32px;
+        }
+      }
       h3 {
         font-size: 1.1em;
         font-weight: 600;
