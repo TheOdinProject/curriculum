@@ -1,5 +1,5 @@
 <div class="success-stories">
-  <div class="success-stories-title">
+ <div class="success-stories-title">
     <h2>Success Stories</h2>
   </div> <!-- /.success-stories-title -->
 
@@ -15,9 +15,12 @@
   <div class="success-stories-container">
     <% success_stories.each do |story| %>
       <div class="success-story">
-        <div class="photo"> <%= image_tag story[:student_avatar_url] %> </div>
+        <div class="photo1"> <%= image_tag story[:student_avatar_url] %> </div>
         <div class="success-content">
-          <p><%= story[:student_name] %></p>
+	  <div class="name-and-photo">
+            <div class="photo2"> <%= image_tag story[:student_avatar_url] %> </div>
+            <p><%= story[:student_name] %></p>
+	  </div>  
           <p><%= story[:story_content] %></p>
         </div> <!-- /.success-content -->
       </div> <!-- /.success-story -->

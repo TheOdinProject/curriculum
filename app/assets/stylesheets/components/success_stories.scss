@@ -8,7 +8,7 @@
   .success-stories-title {
     width: 100%;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 70px;
     letter-spacing: 0.3px;
   }
 
@@ -24,22 +24,52 @@
     .success-story {
       flex-basis: 49.9%;
       display: flex;
-
-        .photo {
-          flex-basis: 100px;
-          text-align: center;
-          padding-top: 16px;
-
-          img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%
-          }
-        }
-
-        .success-content {
-          flex: 1
-        }
+      padding-bottom: 36px;
+      
+	  .name-and-photo {
+		   flex: 2;
+		   display: flex;
+		   flex-direction: row;
+		   align-items: center;
+		   @media(max-width: 480px){
+                     height: 90px;
+		   }
+		}
+	 .photo1 {
+		flex-basis: 100px;
+		text-align: center;
+		padding-top: 16px;
+		display: flex;
+		justify-content: center;
+		img {
+		  width: 50px;
+		  height: 50px;
+		  border-radius: 50%
+		}
+		@media(max-width: 480px){
+		  display: none;
+		}
+	  }
+	  .photo2 {
+		display: none;
+		flex-basis: 60px;
+		text-align: center;
+		img {
+		  width: 50px;
+		  height: 50px;
+		  border-radius: 50%
+		}
+		@media(max-width: 480px){
+		  display: block;
+		}
+	  }
+	  .success-content {
+		flex: 1;
+		
+	  }
+         @media(max-width: 480px) {
+           padding: 0 26px 0 26px;
+         }
     }
 
  }
