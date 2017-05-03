@@ -89,7 +89,7 @@
     text-align: center;
     padding-top: 30px;
     a {
-      color: rgba(74, 74, 74, 0.7);
+      color: $grey;
       text-decoration: underline;
     }
   }
@@ -103,7 +103,7 @@
     text-align: center;
     letter-spacing: 0.4px;
     p {
-      color: rgba(74, 74, 74, 0.7);
+      color: $grey;
       line-height: 1.5em;
     }
     .signup-button {
