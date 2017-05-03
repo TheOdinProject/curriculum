@@ -65,6 +65,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Juan Vazquez's solution](https://github.com/juanvme/blogger) | [View in browser](http://secure-lowlands-4285.herokuapp.com/)
 * [Ruben Mendez's solution](https://github.com/ruben-socal/blogger)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/jumpstart_labs_blogger) | [View in browser](http://quiet-dawn-1285.herokuapp.com/)
+* [Stanley Quek's solution](https://github.com/tempeste/Blog_Project/blob/master/README.md) 
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project1_4_RubyOnRails)
 * [Jonathan Faulk's solution](https://github.com/faulk49/jumpstart) | [View in browser](http://morning-gorge-3013.herokuapp.com/)
 * [Erithair's solution](https://github.com/N19270/blogger) | [View in browser](http://erithair-blog.herokuapp.com/)
