@@ -125,7 +125,7 @@ module ApplicationHelper
       {
         badge_image_url: 'badge-html-css.svg',
         badge_alt_text: 'html css badge',
-        title: 'HTML + CSS3'
+        title: 'HTML + CSS'
       },
       {
         badge_image_url: 'badge-javascript.svg',
