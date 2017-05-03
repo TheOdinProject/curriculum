@@ -1,0 +1,996 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Callbacks: Living in an Event-Driven World · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="project_callbacks.html" />
+    
+    
+    <link rel="prev" href="js_to_browser.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../1_The_ Basics_and_the+Browser/">
+            
+                <a href="../1_The_ Basics_and_the+Browser/">
+            
+                    
+                    The Basics and the Browser
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1_The_ Basics_and_the+Browser/js_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/js_basics.html">
+            
+                    
+                    JavaScript Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1_The_ Basics_and_the+Browser/project_js_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/project_js_basics.html">
+            
+                    
+                    PROJECT: On Screen Calculator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1_The_ Basics_and_the+Browser/jq_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/jq_basics.html">
+            
+                    
+                    jQuery Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1_The_ Basics_and_the+Browser/project_jq_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/project_jq_basics.html">
+            
+                    
+                    PROJECT: Manipulating the DOM with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../1_The_ Basics_and_the+Browser/organizing_code.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/organizing_code.html">
+            
+                    
+                    Organizing Your code and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../2_Events_Effects_and_Widgets/">
+            
+                <a href="../2_Events_Effects_and_Widgets/">
+            
+                    
+                    Events Effects and Widgets
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../2_Events_Effects_and_Widgets/events_effects.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/events_effects.html">
+            
+                    
+                    Working With Events and Effects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../2_Events_Effects_and_Widgets/project_events_effects.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/project_events_effects.html">
+            
+                    
+                    PROJECT: jQuery and the DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../2_Events_Effects_and_Widgets/widgets.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/widgets.html">
+            
+                    
+                    Using jQuery UI to Build Widgets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../2_Events_Effects_and_Widgets/project_widgets.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/project_widgets.html">
+            
+                    
+                    PROJECT: Creating an Image Carousel/Slider
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../3_Deeper_into_Javascript/">
+            
+                <a href="../3_Deeper_into_Javascript/">
+            
+                    
+                    Deeper into Javascript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../3_Deeper_into_Javascript/objects_prototypes.html">
+            
+                <a href="../3_Deeper_into_Javascript/objects_prototypes.html">
+            
+                    
+                    Objects 'Classes', and Prototypes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../3_Deeper_into_Javascript/scope_closures.html">
+            
+                <a href="../3_Deeper_into_Javascript/scope_closures.html">
+            
+                    
+                    Scopes and Closures
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../3_Deeper_into_Javascript/project_scopes_closures.html">
+            
+                <a href="../3_Deeper_into_Javascript/project_scopes_closures.html">
+            
+                    
+                    PROJECT: Tic Tac Toe
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../3_Deeper_into_Javascript/comparing_to_ruby.html">
+            
+                <a href="../3_Deeper_into_Javascript/comparing_to_ruby.html">
+            
+                    
+                    Comparing JavaScript and Ruby: Going Functional
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../3_Deeper_into_Javascript/deep_dive_functions.html">
+            
+                <a href="../3_Deeper_into_Javascript/deep_dive_functions.html">
+            
+                    
+                    Really Understanding Functions in JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../3_Deeper_into_Javascript/project_functions.html">
+            
+                <a href="../3_Deeper_into_Javascript/project_functions.html">
+            
+                    
+                    PROJECT: Minesweeper
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Advanced Browser Work
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="js_to_browser.html">
+            
+                <a href="js_to_browser.html">
+            
+                    
+                    Loading JavaScript in the Browser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.2" data-path="event_driven.html">
+            
+                <a href="event_driven.html">
+            
+                    
+                    Callbacks: Living in an Event-Driven World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="project_callbacks.html">
+            
+                <a href="project_callbacks.html">
+            
+                    
+                    PROJECT: Callbacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="canvas.html">
+            
+                <a href="canvas.html">
+            
+                    
+                    Using Canvas to Draw and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="project_canvas.html">
+            
+                <a href="project_canvas.html">
+            
+                    
+                    PROJECT: Building Games with Canvas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../5_Better_Forms_with_jQuery_and_AJAX/">
+            
+                <a href="../5_Better_Forms_with_jQuery_and_AJAX/">
+            
+                    
+                    Better forms with jQuery and AJAX
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../5_Better_Forms_with_jQuery_and_AJAX/jquery_forms.html">
+            
+                <a href="../5_Better_Forms_with_jQuery_and_AJAX/jquery_forms.html">
+            
+                    
+                    Validating Form Inputs Using jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../5_Better_Forms_with_jQuery_and_AJAX/project_forms.html">
+            
+                <a href="../5_Better_Forms_with_jQuery_and_AJAX/project_forms.html">
+            
+                    
+                    PROJECT: Validating a Form with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../5_Better_Forms_with_jQuery_and_AJAX/ajax.html">
+            
+                <a href="../5_Better_Forms_with_jQuery_and_AJAX/ajax.html">
+            
+                    
+                    Submitting a Form Without Reloading by Using AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../5_Better_Forms_with_jQuery_and_AJAX/project_ajax_forms.html">
+            
+                <a href="../5_Better_Forms_with_jQuery_and_AJAX/project_ajax_forms.html">
+            
+                    
+                    PROJECT: Infinite Scroll and Submitting a Form with AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/">
+            
+                    
+                    Linking to API's and Your Rails Back End
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/javascript_apis.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/javascript_apis.html">
+            
+                    
+                    Working with Javascript APIs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_apis.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_apis.html">
+            
+                    
+                    PROJECT: Putting Google Maps Onto Your Site
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/rails_backend.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/rails_backend.html">
+            
+                    
+                    Using Ruby on Rails For Your Back End
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_rails_backend.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_rails_backend.html">
+            
+                    
+                    PROJECT: Where's Waldo (A Photo Tagging App)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../7_Server_Side_JS_and_JS_Frameworks/">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/">
+            
+                    
+                    Server Side JS and JS Frameworks
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../7_Server_Side_JS_and_JS_Frameworks/server_side_js.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/server_side_js.html">
+            
+                    
+                    Node.js and Server-Side Javascript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../7_Server_Side_JS_and_JS_Frameworks/project_node.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/project_node.html">
+            
+                    
+                    PROJECT: Node.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../7_Server_Side_JS_and_JS_Frameworks/templating.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/templating.html">
+            
+                    
+                    Using Templates
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../7_Server_Side_JS_and_JS_Frameworks/js_frameworks.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/js_frameworks.html">
+            
+                    
+                    Javascript MV* Frameworks Like Angular.js and Backbone.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../7_Server_Side_JS_and_JS_Frameworks/project_js_frameworks.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/project_js_frameworks.html">
+            
+                    
+                    PROJECT: Building Single Page Websites with Angular.js and Backbone.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../7_Server_Side_JS_and_JS_Frameworks/workflow_tools.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/workflow_tools.html">
+            
+                    
+                    Workflow Tools, Tech Stacks and Dependency Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../8_Finishing_up_with_JavaScript/">
+            
+                <a href="../8_Finishing_up_with_JavaScript/">
+            
+                    
+                    Finishing up with JavaScipt
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../8_Finishing_up_with_JavaScript/js_testing.html">
+            
+                <a href="../8_Finishing_up_with_JavaScript/js_testing.html">
+            
+                    
+                    JavaScript Testing with Jasmine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../8_Finishing_up_with_JavaScript/project_final_js.html">
+            
+                <a href="../8_Finishing_up_with_JavaScript/project_final_js.html">
+            
+                    
+                    PROJECT: Final Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../8_Finishing_up_with_JavaScript/conclusion.html">
+            
+                <a href="../8_Finishing_up_with_JavaScript/conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Callbacks: Living in an Event-Driven World</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="javascript-callbacks-living-in-an-event-driven-world">Javascript Callbacks: Living in an Event-Driven World</h1>
+<p>We&apos;ve already looked at scopes and functions quite a bit and you&apos;ve had a chance to play with callbacks already, but here we&apos;ll dig deeper.  Events are everywhere in Javascript, and you almost always want to do something when the event has finished running (or if there&apos;s been an error).  That&apos;s where the callback comes in.</p>
+<h2 id="points-to-ponder">Points to Ponder</h2>
+<ul>
+<li>What is a callback?</li>
+<li>What is the scope inside a callback?</li>
+<li>What is <code>this</code> in a callback?</li>
+<li>When is a callback called?</li>
+<li>What is <code>#setTimeout</code> useful for?</li>
+<li>Why are the return values of event listeners much less important than the callback(s) inside?</li>
+</ul>
+<h2 id="what-is-a-callback">What is a callback?</h2>
+<h4 id="a-callback-is-a-function-that-is-passed-as-an-argument-to-another-function">A callback is a function that is passed as an argument to another function.</h4>
+<p>That&apos;s basically it.</p>
+<h2 id="how-does-this-look-in-practice">How does this look in practice?</h2>
+<p>Consider the following:</p>
+<pre><code class="lang-language-javascript">//First function, expects a callback
+function firstFunction(callback) {
+  callback(&apos;hello&apos;)
+}
+
+//Second function, expects a string
+function secondFunction(string) {
+  console.log(string);
+}
+
+//Now call them
+firstFunction(secondFunction);
+
+//Writes &apos;hello&apos; to the console.
+</code></pre>
+<p>Congratulations.  You just used a callback function.  If you don&apos;t get what&apos;s going on above, try to write it out yourself and run the code in something like <a href="https://jsbin.com" target="_blank">jsBin</a>.</p>
+<p>Do you see what&apos;s going on here?  <code>firstFunction</code> <em>expects</em> to receive a function as an argument.  This is important, because if we were to pass in something like an <code>integer</code> or a <code>string</code> instead of a function, then we would get an error.</p>
+<p><code>secondFunction</code> expects a <code>string</code> (or really, anything since it&apos;s just logging to the console, but let&apos;s pretend that it requires a string for the sake of argument). This string is supplied by <code>firstFunction</code>.</p>
+<p>This is really the simplest, and most basic explanation of callbacks.  Make sure you understand this, because everything that follows will build on the above example.</p>
+<h2 id="take-a-look-at-the-above-example-again">Take a look at the above example again.</h2>
+<p>Did you notice how <code>firstFunction</code> passes only one argument to its callback?</p>
+<p>And also, that <code>secondFunction</code> only expects to receive one argument?</p>
+<p>This is important, because the <em>number of arguments</em> and the <em>type of data they pass around</em> is something that you need to be aware of when you&apos;re using callbacks.</p>
+<p>In our example, <code>firstFunction</code> will pass only one argument to whatever callback it receives.  So <code>secondFunction</code> needs to be written to receive only one argument.  Doing something like this will cause problems:</p>
+<pre><code class="lang-language-javascript">secondFunction(string, number) {
+  number += 1;
+  console.log(string, number)
+}
+</code></pre>
+<p>Some functions will pass multiple arguments to their callbacks, with multiple datatypes.  If this isn&apos;t crystal clear to you right now, don&apos;t worry.  With trial and error, and reading the documentation, you&apos;ll be able to figure it out.</p>
+<h2 id="ok-so-far-so-good">Ok so far so good.</h2>
+<p>Let&apos;s take a look at some jQuery code.</p>
+<pre><code class="lang-language-javascript">$(&apos;#link&apos;).click(function(){
+  //Do stuff
+});
+</code></pre>
+<p>What&apos;s going on here? Let&apos;s break this down into it&apos;s component parts.</p>
+<h5 id="1-the--jquery-function">1. The <code>$</code> jQuery function.</h5>
+<p>This is the first function you are calling.  <code>$</code> is just the name of that function.  Somewhere in the jQuery library is code that looks something like this:</p>
+<pre><code class="lang-language-javascript">function $(){
+  //jQuery source code
+}
+</code></pre>
+<p>It&apos;s really that simple. <code>$(&apos;#link&apos;)</code> is the <code>$()</code> function with <code>&apos;#link&apos;</code> as its argument.</p>
+<h5 id="2-link">2. <code>#link</code></h5>
+<p>This is the DOM element that you have selected.</p>
+<h5 id="3-click">3. <code>.click()</code></h5>
+<p>This is an event handler - it&apos;s a special type of function that gets executed when certain things happen in the DOM.  In this case, when a user clicks on the selected element, the <code>.click()</code> function is called.  The <code>click</code> function expects a single function as its argument, which it executes. The source code for the <code>.click()</code> function might look something like this:</p>
+<p><em>Disclaimer: this is totally not what it looks like in reality - it&apos;s a massive simplification to serve a point!</em></p>
+<pre><code class="lang-language-javascript">function click(callback){
+  callback() //execute callback
+}
+</code></pre>
+<h5 id="4-functiondo-stuff">4. <code>function(){//Do stuff}</code></h5>
+<p>Ok so this is it. This is our callback function.</p>
+<p>But hang on, this looks different from the first example of callbacks! Well, not really.</p>
+<p>Remember, in JavaScript you can use anonymous functions (that is, functions without a name) that you instantiate immediately.  To illustrate this point, consider the following example:</p>
+<pre><code class="lang-language-javascript">function doStuff() {
+  //Do stuff
+}
+
+$(&apos;#link&apos;).click(doStuff);
+</code></pre>
+<p>This is basically the same thing as writing:</p>
+<pre><code class="lang-language-javascript">$(&apos;#link&apos;).click(function(){
+  //Do stuff
+});
+</code></pre>
+<p>It&apos;s just no longer using an anonymous function, which means that you can re-use <code>doStuff</code> wherever you like.</p>
+<p>So when should you use anonymous functions?  A good rule of thumb is, if you&apos;re not planning on reusing the bit of code that you&apos;re writing, then you can go ahead and make it anonymous.</p>
+<h2 id="the-most-important-thing-you-need-to-know-about-callbacks">The most important thing you need to know about callbacks</h2>
+<h4 id="using-callbacks-is-like-playing-a-game-of-hot-potato--you-have-a-piece-of-data-that-you-are-passing-from-function-to-function-to-function--theres-a-good-chance-that-you-will-not-return-this-data">Using callbacks is like playing a game of hot-potato.  You have a piece of data that you are passing from function to function to function.  There&apos;s a good chance that you will not <code>return</code> this data.</h4>
+<p>If you&apos;re coming to JavaScript from Ruby then you&apos;re probably very comfortable with thinking about functions as things that <code>return</code> data.  You put something into it, and then you get something back.</p>
+<pre><code class="lang-language-javascript">function returnNumber(data) {
+  return data;
+}
+
+returnNumber(12);
+//12
+</code></pre>
+<p>The function above does exactly what it says.  It returns a number (12, in this case).  But consider again our first example:</p>
+<pre><code class="lang-language-javascript">//First function, expects a callback
+function firstFunction(callback) {
+  callback(&apos;hello&apos;)
+}
+
+//Second function, expects a string
+function secondFunction(string) {
+  console.log(string);
+}
+
+//Now call them
+firstFunction(secondFunction);
+
+//Writes &apos;hello&apos; to the console.
+</code></pre>
+<p>None of these functions <code>return</code> anything, but you&apos;re still getting something to show the user.  This is the fundamental thing about callbacks - their name somehow implies that you are &apos;calling back&apos; to the past, but what you are actually doing is <em>throwing information forward</em> to be used at some point in the future.</p>
+<h3 id="to-summarise-here-are-some-basic-rules-about-callbacks">To summarise, here are some basic rules about callbacks:</h3>
+<ol>
+<li>A function that accepts a callback will expect to receive that callback <em>in a specific format</em>.  This is the initial function will (probably) pass data to that callback.</li>
+<li>If you are using a library or framework (like jQuery or Express.js), it&apos;s <em>up to you</em> to understand how the functions you are using expect the callbacks to be formatted.  The best way to learn this is through experience, and to read the documentation.</li>
+<li>Remember that a callback can be an anonymous function.</li>
+<li>Don&apos;t expect your callbacks to <code>return</code> data.</li>
+<li>Callbacks can get confusing quickly.  Just keep reminding yourself that even though it&apos;s called a <code>callback</code>, what it&apos;s actually doing is <em>passing information forward</em>.</li>
+</ol>
+<h2 id="your-assignment">Your Assignment</h2>
+<ol>
+<li>Read <a href="http://javascriptissexy.com/understand-javascript-callback-functions-and-use-them/" target="_blank">Understanding Callback Functions in JS from JSIS</a></li>
+<li>Browse <a href="http://recurial.com/programming/understanding-callback-functions-in-javascript/" target="_blank">Understanding Callback Functions in Javascript by Recurial</a> to fill in any gaps.</li>
+<li>Read <a href="http://sporto.github.com/blog/2012/12/09/callbacks-listeners-promises/" target="_blank">Callbacks, Listeners and Promises</a> to understand more about the use cases for callbacks.</li>
+</ol>
+<h2 id="additional-resources">Additional Resources</h2>
+<p><em>This section contains helpful links to other content. It isn&apos;t required, so consider it supplemental for if you need to dive deeper into something</em></p>
+<ul>
+<li><a href="http://callbackhell.com/" target="_blank">CallbackHell.com&apos;s primer on callbacks</a></li>
+<li><a href="http://www.youtube.com/watch?v=juRtEEsHI9E" target="_blank">Using Deferred Functions and Promises (Video)</a></li>
+<li><a href="https://github.com/maxogden/art-of-node#callbacks" target="_blank">Very clear callback introduction</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="js_to_browser.html" class="navigation navigation-prev " aria-label="Previous page: Loading JavaScript in the Browser">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="project_callbacks.html" class="navigation navigation-next " aria-label="Next page: PROJECT: Callbacks">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Callbacks: Living in an Event-Driven World","level":"1.5.2","depth":2,"next":{"title":"PROJECT: Callbacks","level":"1.5.3","depth":2,"path":"4_Advanced_Browser_Work/project_callbacks.md","ref":"4_Advanced_Browser_Work/project_callbacks.md","articles":[]},"previous":{"title":"Loading JavaScript in the Browser","level":"1.5.1","depth":2,"path":"4_Advanced_Browser_Work/js_to_browser.md","ref":"4_Advanced_Browser_Work/js_to_browser.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4_Advanced_Browser_Work/event_driven.md","mtime":"2017-05-03T18:28:45.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-03T19:17:03.220Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
