@@ -36,12 +36,40 @@ p {
   font-family: $body-fonts;
 }
 
+a, a:hover {
+  text-decoration: none;
+}
+
 .camel {
   color: $primary;
 }
 
+.camo {
+  color: $camo;
+}
+
+.coffee {
+  color: $coffee;
+}
+
+.grey {
+  color: $grey;
+}
+
+.orange {
+  color: $dusty-orange;
+}
+
+.white {
+  color: $white;
+}
+
 .light {
   font-weight: 300;
+}
+
+.bg-whitesmoke {
+  background: $white-smoke;
 }
 
 .btn-camel {

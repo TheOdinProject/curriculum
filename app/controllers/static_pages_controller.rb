@@ -3,6 +3,7 @@ class StaticPagesController < ApplicationController
     @navbar = false
     @is_home_page = true
     @how_it_works_tiles = helpers.how_it_works_tiles
+    @courses = helpers.courses
   end
 
   def about; end
@@ -10,7 +11,6 @@ class StaticPagesController < ApplicationController
   def getting_involved; end
 
   def faq
-    # Ref: http://blog.bigbinary.com/2016/06/26/rails-add-helpers-method-to-ease-usage-of-helper-modules-in-controllers.html
     @faq_items = helpers.faq_items
   end
 

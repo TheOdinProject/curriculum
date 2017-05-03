@@ -3,11 +3,6 @@
     height: 132px;
   }
   #home-page {
-
-    .curriculum-details-tile {
-      flex-basis: 50%;
-    }
-
     .success-stories-container {
       flex-direction: column;
       flex-wrap: nowrap;
@@ -39,13 +34,4 @@
 }
 
 @media (min-width: 768px) {
-}
-
-@media (max-width: 480px){
-  #home-page {
-
-    .curriculum-details-tile {
-      flex-basis: 100%;
-    }
-  }
 }
