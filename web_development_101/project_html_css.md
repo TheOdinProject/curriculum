@@ -1091,8 +1091,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Alfredo's solution(Easy)](https://github.com/alfasf/google-homepage) | [View in browser](https://alfasf.github.io/google-homepage/)
 * [Will's solution(Easy)] (https://github.com/willianncardoso/google-homepage)|[View in browser](https://willianncardoso.github.io/google-homepage/)
 * [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage) 
-
-[Tim Ott's Solution(Easy)](https://github.com/Vanamman/google-homepage/) | [View in brower](https://vanamman.github.io/google-homepage/)
+* [Tim Ott's Solution(Easy)](https://github.com/Vanamman/google-homepage/) | [View in brower](https://vanamman.github.io/google-homepage/)
 
 ## Additional Resources
 
