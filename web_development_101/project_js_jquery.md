@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [David Moylan's Solution](https://github.com/davecm010/JSketch) | [View in browser](https://davecm010.github.io/JSketch/)
 * [Anya Finkelstein's Solution](https://github.com/anyafink/sketchpad) | [View in browser](https://anyafink.github.io/sketchpad/)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/cjsweeten101/OdinProjects/0919c7de/etch-a-sketch/index.html)
 * [Gokul Krishnan's Solution](https://github.com/gk7huki/sketch) | [View in browser](https://gk7huki.github.io/sketch/)
@@ -628,3 +629,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Gabriel Klueh's solution](https://github.com/gklueh/sketch-pad) | [View in browser](https://rawgit.com/gklueh/sketch-pad/master/index.html)
 * [EMuchynski's solution](https://github.com/EMuchynski/sketchpad) | [View in browser](https://emuchynski.github.io/sketchpad/)
 * [Loc Nguyen's solution - Responsive](https://github.com/vinhloc30796/etch-a-sketch) | [View in browser](https://vinhloc30796.github.io/etch-a-sketch/)
+* [Codebreeze's solution](https://github.com/codebreeze/Etch-A-Sketch) | [View in browser] (https://codebreeze.github.io/Etch-A-Sketch/)
