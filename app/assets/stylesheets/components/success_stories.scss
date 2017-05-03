@@ -91,16 +91,12 @@
 
 .success-stories-page {
 
-   .success-stories-title-full {
-     h1 {
-       font-size: 3em;
-       color: $primary;
-       font-weight: 300;
-       margin-bottom: 30px;
-       letter-spacing: 0.4px;
-       text-align: center;
-     }
+  .success-stories-title-full {
+    h1 {
+      margin-bottom: 30px;
+    }
   }
+
   .success-stories-container {
     color: $text-primary;
     max-width: 1280px;
