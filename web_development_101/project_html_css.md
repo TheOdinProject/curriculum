@@ -1092,6 +1092,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Will's solution(Easy)] (https://github.com/willianncardoso/google-homepage)|[View in browser](https://willianncardoso.github.io/google-homepage/)
 * [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage) 
 
+[Tim Ott's Solution(Easy)](https://github.com/Vanamman/google-homepage/) | [View in brower](https://vanamman.github.io/google-homepage/)
+
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
