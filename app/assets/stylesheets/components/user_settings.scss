@@ -1,0 +1,21 @@
+#user_settings{
+  padding-bottom: 290px;
+  .settings-card {
+    background: $white;
+    max-width: 780px;
+    padding: 32px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3)
+  }
+  .settings-section {
+    max-width: 780px;
+    margin: 0 auto 70px;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: $primary;
+    margin-bottom: 30px;
+  }
+}
+
+
