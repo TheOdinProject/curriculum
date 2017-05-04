@@ -31,6 +31,10 @@ h2, h3 {
   color: $text-primary;
 }
 
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
 p {
   margin: 0;
   line-height: 1.88;

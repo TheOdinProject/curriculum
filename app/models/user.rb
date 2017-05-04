@@ -17,7 +17,11 @@ class User < ApplicationRecord
         .order('latest_completion_date desc nulls last')
   end
 
-  def completed_lesson?(lesson)
+  def completion_status(lesson)
+    has_completed?(lesson) ? 'Completed' : 'Incomplete'
+  end
+
+  def has_completed?(lesson)
     completed_lessons.exists?(lesson.id)
   end
 

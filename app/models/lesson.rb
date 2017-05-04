@@ -20,6 +20,10 @@ class Lesson < ApplicationRecord
     ]
   end
 
+  def type
+    is_project? ? 'Project' : 'Lesson'
+  end
+
   def next_lesson
     find_lesson.next_lesson
   end

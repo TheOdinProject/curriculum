@@ -5,7 +5,7 @@ $('.lc-end-wrapper').html("<%= j(render('shared/complete_lesson'))%>");
 $('#lc-progress-bar').html("<%= j(render('shared/pt_bar', lesson: @lesson)) %>");
 
 // update checkmarks on individual lesson pages
-if (<%= current_user.completed_lesson?(@lesson) %>) {
+if (<%= current_user.has_completed?(@lesson) %>) {
   $('.lc-completion-indicator').removeClass('hidden');
 }
 else {
@@ -13,7 +13,7 @@ else {
 }
 
 // update end-of-lesson nav states
-if (<%= current_user.completed_lesson?(@lesson) %>) {
+if (<%= current_user.has_completed?(@lesson) %>) {
   $('.lnav-next-icon').addClass('lnav-active');
   if(<%= @lesson.next_lesson.nil? %>) {
     $('.lnav-course-icon').addClass('lnav-active');

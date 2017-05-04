@@ -1,0 +1,14 @@
+<div class="section" id="section-<%= section.title_url %>">
+  <div class="section-title">
+    <h2><%= section.title %></h2>
+  </div>
+
+  <div class="section-description">
+    <p><%= section.description %></p>
+  </div>
+
+  <% lessons = section.lessons.includes(:course).order(:position) %>
+  <%= render 'courses/course/lessons',
+    lessons: lessons,
+    section_index: section_index %>
+</div> <!-- /.section -->

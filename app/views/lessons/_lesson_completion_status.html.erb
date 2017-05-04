@@ -1,0 +1,5 @@
+<% if current_user %>
+  <div class="col-md-2 completion-status">
+    <%= current_user.completion_status(lesson) %>
+  </div>
+<% end %>
