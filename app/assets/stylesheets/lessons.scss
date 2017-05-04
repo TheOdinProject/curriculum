@@ -586,6 +586,8 @@
   img{
     position: relative;
   }
+  background-image: url(http://s3.amazonaws.com/viking_education/mktg/viking_altad_wide.png);
+
   &:before{
     content: "From the creators of The Odin Project...";
     position: absolute;
@@ -631,7 +633,10 @@
     line-height:1.25em;
   }
   .lower-alt-txt{
-    margin-left: 80px!important;
+    margin-left: 0;
+    width: 468px;
+    height: 60px;
+    text-align: center;
   }
 }
 @media(max-width: 500px){
