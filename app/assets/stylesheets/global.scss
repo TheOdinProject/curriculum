@@ -44,7 +44,7 @@ p {
   font-family: $body-fonts;
 }
 
-a, a:hover {
+a, a:hover, a:focus {
   text-decoration: none;
 }
 
@@ -74,6 +74,10 @@ a, a:hover {
 
 .light {
   font-weight: 300;
+}
+
+.bg-white {
+  background: $white;
 }
 
 .bg-whitesmoke {
