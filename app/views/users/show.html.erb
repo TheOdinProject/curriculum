@@ -9,13 +9,35 @@
     <div class="profile settings-section">
       <h2>Profile</h2>
       <div class="settings-card profile-card">
-        Name and stuff goes here 
+        <div class="profile-pic">
+          <%= image_tag gravatar_url(@user, 100), alt: "Profile Pic"%>
+        </div>
+        <div class="profile-details">
+          <div class="field">
+            <div class="label">Name</div>
+            <div class="value"><%= @user.username %></div>
+          </div>
+          <div class="field">
+            <div class="label">Password</div>
+            <div class="value">********</div>
+          </div>
+          <div class="field">
+            <div class="label">Email Address</div>
+            <div class="value"><%= @user.email %></div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="learning-goal settings-section">
       <h2>Learning Goal</h2>
       <div class="settings-card profile-card">
-        Learning Goal stuff goes here
+        <div class="goal">
+          Complete the entire stinkin project! OH BABY
+        </div>
+        <div class="spacer"></div>
+        <div class="completion-date">
+          Estimated Completion date: May 2018
+        </div>
       </div>
     </div>
     <div class="notifications settings-section">
@@ -25,7 +47,7 @@
       </div>
     </div>
     <div class="save settings-section">
-      <button>Save changes</button>
+      <input type='submit' value='Save changes' class="submit-button">
     </div>
   </div>
         
