@@ -75,12 +75,17 @@
     }
     .navbar-nav {
       height: calc(100vh - 68px);
+      padding: 20px 0 130px 0;
       display: flex;
       .dropdown-divider {
         background-color: $primary;
+        margin: .5rem 3em;
       }
       .nav-item {
         flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
       .nav-link {
         font-size: 36px;
