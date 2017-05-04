@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('turbolinks:load', function() {
   var logo = document.querySelector('.navbar-brand')
   var logoText = document.querySelector('.logo-text')
   var logoImg = document.querySelector('.logo-img')
