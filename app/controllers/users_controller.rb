@@ -49,7 +49,8 @@ class UsersController < ApplicationController
         :linkedin,
         :github,
         :google_plus,
-        :about,
+        :learning_goal,
+        :learning_goal_completion_date,
         :uid,
         :provider,
       )

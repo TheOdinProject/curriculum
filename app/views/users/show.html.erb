@@ -15,7 +15,7 @@
         <div class="profile-details">
           <div class="field">
             <div class="label">Name</div>
-            <div class="value"><%= @user.username %></div>
+            <div class="value"><%= best_in_place @user, :username, :as => :input %></div>
           </div>
           <div class="field">
             <div class="label">Password</div>
@@ -23,7 +23,7 @@
           </div>
           <div class="field">
             <div class="label">Email Address</div>
-            <div class="value"><%= @user.email %></div>
+            <div class="value"><%= best_in_place @user, :email, :as => :input %></div>
           </div>
         </div>
       </div>
@@ -32,11 +32,11 @@
       <h2>Learning Goal</h2>
       <div class="settings-card profile-card">
         <div class="goal">
-          Complete the entire stinkin project! OH BABY
+          <%= best_in_place @user, :learning_goal, :as => :input %>
         </div>
         <div class="spacer"></div>
         <div class="completion-date">
-          Estimated Completion date: May 2018
+          Estimated Completion date: <%= best_in_place @user, :learning_goal_completion_date, :as => :date %>
         </div>
       </div>
     </div>
