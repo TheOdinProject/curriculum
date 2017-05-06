@@ -41,6 +41,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 
 * Add your solution below this line!
 * [zulixro's solution](https://github.com/zulixro/Caesar-Cipher-project/blob/master/cipher.rb)
+* [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/ruby-building-blocks/caesar_cipher.rb)
 * [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/caeser.rb)
 * [Aadesh's solution](https://github.com/aadeshere1/ruby_building_block/blob/master/caesar_cipher_encode.rb)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/building-blocks/blob/master/caesar_cipher.rb)
@@ -355,6 +356,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 
 * Add your solution below this line!
 * [zulixro's solution](https://github.com/zulixro/Stock-picker/blob/master/stock_picker.rb)
+* [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/ruby-building-blocks/stock_picker.rb)
 * [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/stock_picker.rb)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/building-blocks/blob/master/stock_picker.rb)
 * [holdercp's solution](https://github.com/holdercp/ruby-building-blocks/blob/master/stock_picker.rb)
@@ -651,6 +653,7 @@ Next, make sure your method can handle multiple words:
 
 * Add your solution below this line!
 * [zulixro's solution](https://github.com/zulixro/Substring-search/blob/master/substring_search.rb)
+* [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/ruby-building-blocks/substrings.rb)
 * [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/substrings.rb)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/building-blocks/blob/master/substrings.rb)
 * [holdercp's solution](https://github.com/holdercp/ruby-building-blocks/blob/master/substring.rb)
