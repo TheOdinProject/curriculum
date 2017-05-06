@@ -64,6 +64,10 @@ Build the following methods in your linked list class:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/linked_lists)
+* [Webdev-burd's solution](https://github.com/webdev-burd/linked_list)
+* [Jfonz412's solution](https://github.com/jfonz412/computer_science/blob/master/linked_lists.rb)
+* [xavier solution (+ extra)](https://github.com/nxdf2015/odin-linked-lists/blob/master/linked_list.rb)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/linked_lists)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/linked_lists)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/linked_list.rb)
@@ -116,3 +120,5 @@ Build the following methods in your linked list class:
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Linked_Lists)
 * [Daniel Varcas aka d-zer0's solution](https://github.com/d-zer0/linked_list/blob/master/linked_list.rb)
 * [Zach Beaird's solution (with extra credit)](https://github.com/zbbeaird89/Linked-List)
+* [EMuchynski's solution](https://github.com/EMuchynski/linked_lists)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-linked-list)

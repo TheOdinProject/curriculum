@@ -28,19 +28,22 @@ You will be making heavy use of the command line throughout this curriculum, the
 * How can you destroy a directory or file?
 * How can you rename a directory or file?
 
+
 ## Assignment:
 
-*Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/) it has a terminal window you can practice with.*
+*Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/), which has a terminal window you can practice with.*
 
-1. Read [chapter 1 of[conquering the command line](http://conqueringthecommandline.com/book/basics) for a great introduction to navigating around your computer with the command line. 
-2. Complete the first 2 sections of this interactive Codecademy course to get practice navigating and manipulating directories and files [command line course](https://www.codecademy.com/en/courses/learn-the-command-line).
+1. To get an initial high-level overview of the command line, check out [A Command Line Crash Course](http://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) from the Viking Code School Prep Work.
+2. To layer on a bit more depth, read through [chapter 1 of conquering the command line](http://conqueringthecommandline.com/book/basics).
+3. (Optional) If you'd still like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/en/courses/learn-the-command-line) to get practice navigating and manipulating directories and files.
+
 
 ## Exercise:
 In this exercise you will practice creating files and directories and deleting them.
 
 1. Create a new directory in your home directory with the name `test`
 2. Navigate to the `test` directory
-3. Create a new file called `test.txt` * hint: use the `touch` command
+3. Create a new file called `test.txt` *hint: use the `touch` command*
 4. Navigate back out of the `test` directory
 5. Delete the `test` directory
 
