@@ -1,4 +1,111 @@
+.curriculum {
+  position: relative;
+}
+
+.curriculum:after {
+  background: asset-url('homepage-hero.jpg') no-repeat;
+  background-position: bottom;
+  bottom: 0;
+  content: "";
+  height: 100%;
+  opacity: 0.2;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
 .CoursesController {
+  .heading {
+    margin-bottom: 70px;
+  }
+
+  .courses-list {
+    margin-bottom: 242px;
+
+    .course-card {
+      @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
+      margin-top: 40px;
+      padding: 40px 60px;
+      position: relative;
+
+      @include media-breakpoint-down(xs) {
+        padding: 30px;
+      }
+
+      .cc-completion-indicator {
+        background: rgba(106,191,195, 0.9);
+        font-size: 14px;
+        left: 0;
+        padding: 8px;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+      }
+
+      .course-badge-title-wrapper {
+        padding-bottom: 20px;
+      }
+
+      .course-badge-title {
+        display: flex;
+        padding: 0;
+
+        .course-badge {
+          width: 100px;
+          height: 100px;
+
+          @include media-breakpoint-down(md) {
+            width: 80px;
+            height: 80px;
+          }
+        }
+
+        .course-title {
+          margin-left: 30px;
+
+          h2 {
+            color: $text-primary;
+            font-size: 18px;
+            letter-spacing: 0.2px;
+            margin: 0;
+            max-width: 100%;
+          }
+
+          .lessons-count {
+            font-size: 13px;
+          }
+        }
+      }
+
+      .view-course-button-wrapper {
+        text-align: right;
+
+        .view-course-button {
+          @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
+          background: $primary;
+          border-radius: 3px;
+          display: inline-block;
+          padding: 18px;
+
+          &:hover, &:focus {
+            background: darken($primary, 10%);
+            color: $white;
+          }
+        }
+
+        @include media-breakpoint-down(md) {
+          margin-top: 20px;
+          text-align: center;
+        }
+      }
+
+      .course-description {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        padding-top: 20px;
+      }
+    }
+  }
+
   .course {
     .heading {
       color: $grey;
@@ -90,131 +197,6 @@
 
           @include media-breakpoint-down(md) {
             text-align: right;
-          }
-        }
-      }
-    }
-  }
-
-  .courses-list {
-    margin-bottom: 242px;
-
-    .course-card {
-      @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
-      background: $white;
-      color: $grey;
-      margin-top: 40px;
-      padding: 30px;
-      position: relative;
-
-      a {
-        text-decoration: none;
-      }
-
-      .cc-completion-indicator {
-        background: rgba(106,191,195, 0.9);
-        color: #fff;
-        font-size: 14px;
-        left: 0;
-        position: absolute;
-        padding: 8px;
-        top: 0;
-        z-index: 1;
-      }
-
-      .course-badge-wrapper {
-        padding: 0;
-        text-align: center;
-      }
-
-      .course-badge {
-        width: 100px;
-        height: 100px;
-      }
-
-      .course-title-wrapper {
-        display: flex;
-        align-items: center;
-        padding: 0;
-
-        @media screen and (max-width: 550px) {
-          margin-top: 20px;
-        }
-
-        .course-title {
-          h2 {
-            color: $text-primary;
-            font-size: 18px;
-            font-weight: bold;
-            letter-spacing: 0.2px;
-            margin: 0;
-            max-width: 100%;
-          }
-
-          .lessons-count {
-            color: $grey;
-            font-size: 13px;
-          }
-
-          @media screen and (min-width: 768px) {
-              margin-left: 30px;
-          }
-
-          @media screen and (max-width: 550px) {
-            text-align: center;
-          }
-        }
-      }
-
-      .course-teaser {
-        color: $text-primary;
-        margin-top: 30px;
-
-        h3 {
-          font-size: 18px;
-        }
-      }
-
-      .course-description {
-        p {
-          color: $grey;
-        }
-      }
-
-      @media screen and (min-width: 768px) {
-        .course-overview {
-          border-left: 1px solid rgba(0, 0, 0, 0.1);
-        }
-      }
-
-      .course-overview {
-        padding: 0 30px;
-
-        .objectives, .projects {
-          h4 {
-            font-size: 16px;
-          }
-
-          .see-more {
-            padding: 0 0 20px;
-
-            a {
-              color: $black;
-              text-transform: uppercase;
-            }
-          }
-        }
-        .objectives-list, .projects-list {
-          list-style: none;
-          padding: 0;
-
-          li {
-            letter-spacing: 0.2px;
-            line-height: 1.88;
-
-            &:before {
-              content: "- ";
-            }
           }
         }
       }

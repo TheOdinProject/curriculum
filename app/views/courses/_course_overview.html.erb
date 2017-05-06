@@ -1,19 +1,27 @@
-<div class="objectives">
-  <h4 class="font-weight-bold">Learn</h4>
+<div class="row course-badge-title-wrapper align-items-center">
+  <div class="col-md-8 col-lg-9 course-badge-title align-items-center">
+    <div class="course-badge">
+      <%= image_tag course.badge, alt: "#{course.title} badge", class: 'course-badge' %>
+    </div>
 
-  <ul class="objectives-list">
-    <% course.you_learn.each do |objective| %>
-      <li><%= objective %></li>
-    <% end %>
-  </ul>
-</div> <!-- /.objectives -->
+    <div class="course-title text-uppercase">
+      <h2 class="font-weight-bold"><%= course.title %></h2>
 
-<div class="projects">
-  <h4 class="font-weight-bold">Projects</h4>
+      <span class="lessons-count grey">
+        <%= course.lessons_count %> lessons
+      </span>
+    </div> <!-- /.course-title -->
+  </div> <!-- /.course-title-wrapper -->
 
-  <ul class="projects-list">
-    <% course.you_build.each do |project| %>
-      <li><%= project %></li>
-    <% end %>
-  </ul>
-</div> <!-- /.projects -->
+  <div class="col view-course-button-wrapper">
+    <%= link_to 'Open Course', course, class: 'view-course-button white' %>
+  </div>
+</div> <!-- /.row -->
+
+<div class="row course-description-wrapper">
+  <div class="col">
+    <div class="course-description">
+      <p class="grey"><%= course.brief_desc %></p>
+    </div>
+  </div> <!-- /.col -->
+</div> <!-- /.row -->
