@@ -1,20 +1,30 @@
 <div id="devise-form" class="devise-sign-in">
 
-  <h2>Sign in</h2>
-
-  <%= render :partial => "shared/github_login_button", :locals => {:screen => "Sign in"} %>
-
-  <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
-    <div class="form-inputs">
-      <%= f.input :email, :required => false, :autofocus => true %>
-      <%= f.input :password, :required => false %>
+  <div class="container">
+    <h1>Log in</h1>
+    <div class="card">
+      
+    
+      <%= simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => { :class => "form-horizontal" } ) do |f| %>
+        <div class="form-inputs">
+          <div class="input-group">
+            <%= f.input :email, :label => false, :required => false, :autofocus => true, :placeholder => "    Email Address"%>
+          </div>
+          <%= f.input :password, :label => false, :required => false, :placeholder =>  "Password" %>
+        </div>
+        <!-- From devise /shared/_links.erb -->
+        <%- if devise_mapping.recoverable? && controller_name != 'passwords' %>
+          <%= link_to "Forgot your password?", new_password_path(resource_name) %><br />
+        <% end -%>
+    
+        <%= f.input :remember_me, :as => :boolean, :label => false, :inline_label => true if devise_mapping.rememberable? %>
+    
+        <%= f.button :submit, "Login", :class => "sign-in-button" %>
+      <% end %>
+      
+      <%= render :partial => "shared/github_login_button", :locals => {:screen => "Sign in"} %>
+      <%= render "devise/shared/links" %>
     </div>
-
-    <%= f.input :remember_me, :as => :boolean, :label => false, :inline_label => true if devise_mapping.rememberable? %>
-
-    <%= f.button :submit, "Sign in", :class => "btn-primary btn-large pull-right btn-sign-in" %>
-  <% end %>
-
-  <%= render "devise/shared/links" %>
+  </div>
 </div>
 

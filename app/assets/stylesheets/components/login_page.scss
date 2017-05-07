@@ -1,0 +1,42 @@
+#devise-form {
+    .card {
+        width: 435px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+        padding: 50px 55px;
+        margin: auto;
+    }
+    input {
+        width: 325px;
+        height: 54.3px;
+        background-color: rgba(0, 0, 0, 0.03);
+        margin-bottom: 20px;
+        border: none;
+        padding-left: 10px; 
+        font-family: OpenSans;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.2px;
+        color: rgba(74, 74, 74, 0.3);
+    }
+    .sign-in-button {
+        width: 325px;
+        height: 60.4px;
+        border-radius: 3px;
+        background-color: $button-primary;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+        font-family: $body-fonts;
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 0.2px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .github-login-button {
+        width: 325px;
+        height: 60.4px;
+        border-radius: 3px;
+        background-color: #4a4a4a;
+        background-color: var(--greyish-brown);
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    }
+}
