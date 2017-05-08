@@ -23,7 +23,7 @@
     margin-bottom: 242px;
 
     .course-card {
-      @include btn-main($primary);
+      @include main-button($primary);
 
       .cc-completion-indicator {
         background: rgba(106,191,195, 0.9);

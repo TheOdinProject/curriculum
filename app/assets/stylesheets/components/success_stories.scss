@@ -170,7 +170,7 @@
     text-align: center;
 
     a {
-      color: rgba(74, 74, 74, 0.7)
+      color: rgba($text-primary, 0.7);
     }
   }
 
@@ -180,22 +180,15 @@
     width: 100%;
     text-align: center;
     letter-spacing: 0.4px;
-    color: rgba(74, 74, 74, 0.7);
+    color: rgba($text-primary, 0.7);
     margin-bottom: 3.6em;
     margin-top: 100px;
 
+    @include main-button($button-primary);
+
     .signup-button {
-      text-decoration: none;
-      background-color: #6abfc3;
-      color: #ffffff;
-      display: block;
-      width: 15%;
-      text-align: center;
-      height: 60px;
-      border-radius: 3px;
-      line-height: 60px;
-      margin: 60px auto 60px;
-      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+      margin: 60px auto;
+      width: 200px;
       font-weight: bold;
       letter-spacing: 0.2px;
       font-size: 18px;

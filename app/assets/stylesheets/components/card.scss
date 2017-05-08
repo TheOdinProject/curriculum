@@ -9,13 +9,10 @@
     padding: 30px;
   }
 
-  ul {
-    padding-left: 0;
-  }
-  ul.dashed {
+  .dashed {
     list-style-type: none;
   }
-  ul.dashed > li:before {
+  .dashed > li:before {
     content: "- ";
   }
 }

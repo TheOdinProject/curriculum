@@ -37,7 +37,7 @@
     height: 95%;
     margin-top: 5%;
 
-    @include btn-main($button-primary);
+    @include main-button($button-primary);
 
     .card-contributing-base {
       height: 100px;
