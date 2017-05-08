@@ -7,8 +7,7 @@ class UsersController < ApplicationController
   end
 
   def edit
-    @edit = true
-    render :show
+    render :edit
   end
 
   def update
