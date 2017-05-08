@@ -475,7 +475,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dev Mehta's solution](https://github.com/devmehta92/Euler-s-Problems)
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/project_euler_javascript/blob/master/problem_1.js)
 * [codebreeze's solution](https://codebreeze.github.io/multiples-solution/) | [View in browser](https://gist.github.com/codebreeze/bc365b5e059e30917d01958fadd70acd)
-* [Igor's solution](https://github.com/mojotron/project-euler-problems) | [View In Browser](https://mojotron.github.io/project-euler-problems/
+* [Igor's solution](https://github.com/mojotron/project-euler-problems) | [View In Browser](https://mojotron.github.io/project-euler-problems/)
 * [Veronika's solution](https://github.com/vermelon/euler) | [View in browser](https://vermelon.github.io/euler/)
 
 
