@@ -8,7 +8,7 @@ module UsersHelper
     user.lesson_completion_time(lesson).to_formatted_s(:long)
   end
 
-  def format_completion_date(user)
-    user.username 
+  def format_completion_date
+    'test test test'
   end
 end
