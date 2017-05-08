@@ -631,3 +631,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [EMuchynski's solution](https://github.com/EMuchynski/sketchpad) | [View in browser](https://emuchynski.github.io/sketchpad/)
 * [Loc Nguyen's solution - Responsive](https://github.com/vinhloc30796/etch-a-sketch) | [View in browser](https://vinhloc30796.github.io/etch-a-sketch/)
 * [Codebreeze's solution](https://github.com/codebreeze/Etch-A-Sketch) | [View in browser] (https://codebreeze.github.io/Etch-A-Sketch/)
+*[Igor's solution](https://github.com/mojotron/etch-a-sketch)|[View in browser](https://mojotron.github.io/etch-a-sketch/)
