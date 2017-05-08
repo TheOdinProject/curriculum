@@ -36,7 +36,7 @@
         </div>
         <div class="spacer"></div>
         <div class="completion-date">
-          Estimated Completion date:<%= best_in_place @user, :learning_goal_completion_date, :as => :date, :display_with => format_completion_date %>
+          Estimated Completion date: <%= best_in_place @user, :learning_goal_completion_date, :as => :date, :display_with => lambda { |date| date.strftime('%b %d, %Y') } %>
         </div>
       </div>
     </div>
