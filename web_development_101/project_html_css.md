@@ -642,7 +642,6 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Brandy's Solution (easy)](https://github.com/pinedab/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/pinedab/google-homepage/blob/master/googhp/index.html)
 * [Ganesh Naik's Solution (easy)](https://github.com/GaneshNk/google-homepage.git) | [View in Browser](http://htmlpreview.github.io/?https://github.com/GaneshNk/google-homepage/blob/master/Project/index.html)
 <<<<<<< HEAD
-* [Melissa's Solution (easy)](https://github.com/fluteloops/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fluteloops/google-homepage/blob/master/index.html)
 =======
 * [Fred Rhae's 'easy' solution(PT-BR)](https://github.com/fredrhae/google_homepage) | ['Difficult' solution (PT-BR)](https://github.com/fredrhae/google_search_page) | [View in Browser (easy)](http://htmlpreview.github.io/?https://github.com/fredrhae/google_homepage/blob/master/index.html) | [View in Browser (difficult)](http://htmlpreview.github.io/?https://github.com/fredrhae/google_search_page/blob/master/index.html)
 * [Luís Antunes' Solution (easy)](https://github.com/LuisMAntunes/google_homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/LuisMAntunes/google_homepage/blob/master/index.html)
@@ -658,6 +657,7 @@ https://rawgit.com/lyhbarry/google-homepage/master/index.html)
 * [Matt Borgman's 'easy' solution](https://github.com/mgborgman/google_homepage/blob/master/index.html) | ['Difficult' solution](https://github.com/mgborgman/google_results_page/blob/master/index.html) | [View in browser (easy)](http://htmlpreview.github.io/?https://github.com/mgborgman/google_homepage/blob/master/index.html) | [View in browser (difficult)](http://htmlpreview.github.io/?https://github.com/mgborgman/google_results_page/blob/master/index.html)
 *  [Andrew Artajos' Solution (easy)](https://github.com/dudepare/google-homepage) | [View in Browser](https://htmlpreview.github.io/?https://github.com/dudepare/google-homepage/blob/master/index.html)
 >>>>>>> c5226f4304fc52dcc8df999df35878fa6f408333
+* [Melissa Cope's Solution (easy)](https://github.com/fluteloops/google-homepage) | [View in Browser](http://htmlpreview.github.io/?https://github.com/fluteloops/google-homepage/blob/master/index.html)
 * Add your solution above this line!
 
 ## Additional Resources 
