@@ -26,7 +26,7 @@ def faq_items
     #       Fix <% link_to ... %> links
     [
       {
-        question: 'Who is The Odin Project for?',
+        raw(question: 'Who is The Odin Project for?',
         answer: <<~FAQ_ANSWER
           <p>The Odin Project is for absolute beginners and those who have tried other resources without success.  In reality, The Odin Project is for anyone who wants to work as a web developer, do freelancing work, build a startup, or just hack together a homepage for yourself.  All the tools you need are here.</p>
           <br />
@@ -34,7 +34,7 @@ def faq_items
           <br />
           <p>The curriculum has also been designed in a modular fashion, making skimming through lessons a breeze.</p>
         FAQ_ANSWER
-      },
+      )},
       {
         question: 'What is the Goal of the The Odin Project?',
         answer: 
@@ -132,6 +132,7 @@ def faq_items
         FAQ_ANSWER
       }
     ]
+    )
   end
 
   def how_it_works_tiles
