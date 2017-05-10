@@ -22,7 +22,7 @@ module ApplicationHelper
   end
 
 def faq_items
-    # TODO: ~~Add <br /> to all new paragraphs~~
+    # TODO: 
     #       Fix <% link_to ... %> links
     [
       {
