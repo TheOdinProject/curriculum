@@ -23,14 +23,7 @@
     margin-bottom: 242px;
 
     .course-card {
-      @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
-      margin-top: 40px;
-      padding: 40px 60px;
-      position: relative;
-
-      @include media-breakpoint-down(xs) {
-        padding: 30px;
-      }
+      @include main-button($primary);
 
       .cc-completion-indicator {
         background: rgba(106,191,195, 0.9);
@@ -79,19 +72,6 @@
 
       .view-course-button-wrapper {
         text-align: right;
-
-        .view-course-button {
-          @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
-          background: $primary;
-          border-radius: 3px;
-          display: inline-block;
-          padding: 18px;
-
-          &:hover, &:focus {
-            background: darken($primary, 10%);
-            color: $white;
-          }
-        }
 
         @include media-breakpoint-down(md) {
           margin-top: 20px;

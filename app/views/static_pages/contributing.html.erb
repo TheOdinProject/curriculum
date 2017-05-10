@@ -12,48 +12,42 @@
         </div>
       </div>
 
+      <%
+        contributions = [
+          {title: "Contribute to the Curriculum", description: "Anyone with any experience level can contribute to the curriculum. Students in particular are encouraged to do this, especially if you are just starting out!", path: "curriculum", tasks: ["Adding your own solutions to lessons.", "Updating individual lessons with resources.", "Writing new lessons or updating any that are unfinished."]},
+          {title: "Contribute to the Main Site", description: "The Odin Project is a Ruby on Rails application. As with any Open Source project, there is a constant backlog of outstanding issues and new features. Anyone is welcome to join in and start working on any one of these tickets - the more the merrier!", path: "theodinproject", tasks: ["Viewing our Trello Board where we keep a backlog fo outstanding issues and new features.", "Picking issues or features to work on."]}
+        ]
+      %>
+
       <section>
         <h3 class="text-center mb-5 font-weight-bold">There are two main ways you can contribute:</h3>
 
-        <div class="row justify-content-center mb-5">
-          <div class="card-deck w-75">
-            <div class="card mb-5 mb-md-0">
-              <div class="card-block">
-                <h4 class="card-title camel font-weight-bold">Contribute to the Curriculum</h4>
-                <p class="card-text">Anyone with any experience level can contribute to the curriculum. Students in particular are encouraged to do this, especially if you are just starting out!</p>
-                <p class="card-text">Tasks include:</p>
-                <p class="card-text">
-                  <ul class="dashed">
-                    <li>Adding your own solutions to lessons.</li>
-                    <li>Updating individual lessons with resources.</li>
-                    <li>Writing new lessons or updating any that are unfinished.</li>
-                  </ul>
-                </p>
-              </div>
-                <div class="mx-auto card-base">
-                  <%= link_to 'View on GitHub', github_link('curriculum'), class: 'btn btn-contribute', target: '_blank' %>
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 col-md-12">
+            <div class="row equal">
+              <% contributions.each do |contrib| %>
+                <div class="col-md-6">
+                  <div class="card-main card-contributing">
+                    <h4 class="camel font-weight-bold"><%= contrib[:title] %></h4>
+                    <p class="grey"><%= contrib[:description] %></p>
+                    <p>Tasks include:</p>
+                    <ul class="dashed">
+                      <% contrib[:tasks].each do |task| %>
+                        <li class="grey"><%= task %></li>
+                      <% end %>
+                    </ul>
+                    <div class="card-contributing-base">
+                      <div class="btn-wrap">
+                        <%= link_to 'View on GitHub', github_link(contrib[:path]), class: 'main-button white', target: '_blank' %>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-            <div class="card">
-              <div class="card-block">
-                <h4 class="card-title camel font-weight-bold">Contribute to the Main Site</h4>
-                <p class="card-text">
-                  The Odin Project is a Ruby on Rails application. As with any Open Source project, there is a constant backlog of outstanding issues and new features. Anyone is welcome to join in and start working on any one of these tickets - the more the merrier!
-                </p>
-                <p class="card-text">Tasks include:</p>
-                <p class="card-text">
-                  <ul class="dashed">
-                    <li>Viewing our Trello Board where we keep a backlog fo outstanding issues and new features.</li>
-                    <li>Picking issues or features to work on.</li>
-                  </ul>
-                </p>
-              </div>
-                <div class="mx-auto card-base">
-                  <%= link_to 'View on GitHub', github_link('theodinproject'), class: 'btn btn-contribute', target: '_blank' %>
-                </div>
+              <% end %>
             </div>
           </div>
         </div>
+
         <br/>
         <div class="row">
           <div class="col-md-8 offset-md-2 mb-5">

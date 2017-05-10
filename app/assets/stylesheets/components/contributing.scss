@@ -15,21 +15,6 @@
   }
 
   // Buttons
-  .btn-contribute {
-    background: $button-primary;
-    color: white;
-    @include box-shadow(0 3px 10px 0 rgba(0, 0, 0, 0.3));
-    font-weight: bold;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 2em;
-
-    &:hover, &:focus {
-      background: darken($button-primary, 10%);
-      color: $white;
-    }
-  }
-
   .cta {
     text-decoration: none;
     background-color: $primary;
@@ -48,22 +33,21 @@
     font-size: 18px;
   }
 
-  .card {
-    @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
-    position: relative;
-    ul {
-      padding-left: 0;
-    }
-    ul.dashed {
-      list-style-type: none;
-    }
-    ul.dashed > li:before {
-      content: "- ";
+  .card-contributing {
+    height: 95%;
+    margin-top: 5%;
+
+    @include main-button($button-primary);
+
+    .card-contributing-base {
+      height: 100px;
     }
 
-    .card-base {
-      margin-top: 2rem;
-      margin-bottom: 1.25rem;
+    .btn-wrap {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translate(-50%, 0);
     }
   }
 
