@@ -25,6 +25,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Oleh Sliusar's solutions: [Caesar Cipher](https://github.com/OlehSliusar/caesar_cipher), [Enumerable Methods](https://github.com/OlehSliusar/enumerable_methods), [Tic-tac-toe](https://github.com/OlehSliusar/tic-tac-toe)
 * holdercp's solutions [Caesar Cipher and Enumerable Methods](https://github.com/holdercp/ruby-building-blocks), [Tic-Tac-Toe](https://github.com/holdercp/tic-tac-toe)
 * theghall's solutions [Caesar Cipher](https://github.com/theghall/caesar_cipher), [Enumerable methods](https://github.com/theghall/enum), [Tic Tac Toe](https://github.com/theghall/tic-tac-toe)
 * Nikolay Dyulgerov's solutions [Caesar Cippher](https://github.com/NicolayD/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/NicolayD/ruby-advanced-blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/NicolayD/ruby-oop/blob/master/spec/tictactoe_spec.rb)
