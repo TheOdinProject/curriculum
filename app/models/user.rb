@@ -10,6 +10,14 @@ class User < ApplicationRecord
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :projects
 
+  def format_completion_date
+    if self.learning_goal_completion_date
+      self.learning_goal_completion_date.strftime('%B %Y')  
+    else
+      'Click here to set a date!'
+    end
+  end
+
   def self.by_latest_completion
     User.left_outer_joins(:lesson_completions)
         .select('max(lesson_completions.created_at) as latest_completion_date, users.*')

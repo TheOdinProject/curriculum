@@ -7,8 +7,5 @@ module UsersHelper
   def lesson_time(user, lesson)
     user.lesson_completion_time(lesson).to_formatted_s(:long)
   end
-
-  def format_completion_date
-    'test test test'
-  end
 end
+

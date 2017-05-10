@@ -2,7 +2,7 @@
   line-height: 1.88;
   letter-spacing: .2px;
   color: $text-primary;
-  padding-bottom: 210px;
+  padding-bottom: 110px;
   .settings-card {
     background: $white;
     max-width: 780px;
@@ -52,7 +52,7 @@
     }
     .completion-date {
       flex: 1;
-      display: flex;
+      line-height: 30px;
       align-items: center;
       font-size: 13px;
     }  
@@ -77,6 +77,38 @@
     color: $primary;
     margin-bottom: 30px;
   }
+  .cancel-link {
+    a {
+      color: $text-primary; 
+    }
+    text-align: center;
+  }
 }
 
+.ui-datepicker {
+  background: white;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  color: $text-primary; 
+  .ui-datepicker-prev, .ui-datepicker-next {
+    font-size: 13px;
+    cursor: pointer;
+    span {
+      color: $button-primary;
+    }
+  }
+  .ui-datepicker-next {
+    float: right;
+  }
+  .ui-datepicker-calendar {
+    td, th {
+      text-align: center;
+      width: 30px;
+      height: 30px;
+    }
+    .ui-state-default {
+      color: $primary;
+    }
+  }
+}
 

@@ -7,7 +7,6 @@ class UsersController < ApplicationController
   end
 
   def edit
-    render :edit
   end
 
   def update
@@ -16,7 +15,7 @@ class UsersController < ApplicationController
       redirect_to @user
     else
       flash.now[:error] = "We could not update your profile. Errors: #{@user.errors.full_messages}"
-      render :show
+      render :edit
     end
   end
 
