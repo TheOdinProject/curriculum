@@ -2,10 +2,6 @@ require 'delegate'
 
 class UserDecorator < SimpleDelegator
 
-  class << self
-    delegate :model_name, to: :User
-  end
-
   def twitter_url
     twitter && formatted_twitter_url
   end
