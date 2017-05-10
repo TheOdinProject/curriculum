@@ -94,6 +94,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line
+* [Aachman's Solution (Easy)](https://github.com/forever-a-looney/google_homepage) | [View in browser](https://forever-a-looney.github.io/google_homepage/)
 * [Krystell Barraza's Solution (Easy)](https://krystellbarraza.github.io/google-homepage/) | [View in browser](https://krystellbarraza.github.io/google-homepage/)
 * [Krystell Barraza's Solution (Difficult)](https://krystellbarraza.github.io/google-searchpage/) | [View in browser](https://krystellbarraza.github.io/google-searchpage/)
 * [Joshua Marcelo's Solution (Easy)](https://github.com/vanjutsong/google-homepage) | [View in browser](https://vanjutsong.github.io/google-homepage/)
@@ -1097,6 +1098,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Tim Ott's Solution(Easy)](https://github.com/Vanamman/google-homepage/) | [View in brower](https://vanamman.github.io/google-homepage/)
 * [Dallas Rhinehart's Solution (Easy)](https://github.com/drrhinehart/google-homepage) | [View in browser](https://drrhinehart.github.io/google-homepage/)
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
+* [Kasey Z.'s Solution (Easy)](https://github.com/kasey-z/google-homepage) | [View in browser](https://kasey-z.github.io/google-homepage/)
+* [archeryprogrammer13's solution (Easy)](https://github.com/archeryprogrammer13/google_homepage) | [View in browser](https://archeryprogrammer13.github.io/google_homepage/)
+
 
 ## Additional Resources
 
