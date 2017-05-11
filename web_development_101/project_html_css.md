@@ -1101,6 +1101,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Kasey Z.'s Solution (Easy)](https://github.com/kasey-z/google-homepage) | [View in browser](https://kasey-z.github.io/google-homepage/)
 * [archeryprogrammer13's solution (Easy)](https://github.com/archeryprogrammer13/google_homepage) | [View in browser](https://archeryprogrammer13.github.io/google_homepage/)
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
+* [jacobhancock's Solution (Easy)](https://github.com/jacobhancock/google-homepage) | [View in browser](https://jacobhancock.github.io/google-homepage/)
 
 
 ## Additional Resources
