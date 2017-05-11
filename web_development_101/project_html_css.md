@@ -1075,7 +1075,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [marleybrush's solution (Easy)](https://github.com/marleybrush/google-homepage) | [View in browser](https://marleybrush.github.io/google-homepage/)
 * [Alexis Benton's solution (Easy)](https://github.com/Lexis9784/google-homepage) | [View in browser](https://Lexis9784.github.io/google-homepage/)
 * [stiggy456's solution (Easy)](https://github.com/stiggy456/google-homepage) | [View in Browser](https://stiggy456.github.io/google-homepage/)
-* [RamsesGonzalez's solution(Easy)](https://github.com/RamsesGonzalez/google_homepage) | [View in Browser](https://ramsesgonzalez.github.io/google_homepage/
+* [RamsesGonzalez's solution(Easy)](https://github.com/RamsesGonzalez/google_homepage) | [View in Browser(https://ramsesgonzalez.github.io/google_homepage/
 * [EMuchynski's solution (Easy)](https://github.com/EMuchynski/google-homepage) | [View in Browser](https://emuchynski.github.io/google-homepage/)
 * [Loc Nguyen's solution (Easy)](https://github.com/vinhloc30796/google-homepage) | [View in Browser](https://vinhloc30796.github.io/google-homepage/)
 * [Dev Mehta's solution (Easy)](https://github.com/devmehta92/google-homepage) | [View in Browser](https://devmehta92.github.io/google-homepage/)
@@ -1089,17 +1089,18 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Ray's solution (easy)](https://github.com/seederwood/google-homepage) | [View in browser](https://seederwood.github.io/google-homepage/)
 * [Veronika's solution (easy & difficult)](https://github.com/vermelon/google-homepage) | [View in browser](https://vermelon.github.io/google-homepage/)
 * [Sachin's solution (easy)](https://github.com/sachinmatepatil/g_page.git) | [View in browser](https://cdn.rawgit.com/sachinmatepatil/g_page/76b217ff/g_page.html)
-* [Chris Kessell Solution(Easy)](https://github.com/ChrisKessell/google-homepage) | [View in browser] (https://chriskessell.github.io/google-homepage)
+* [Chris Kessell Solution(Easy)](https://github.com/ChrisKessell/google-homepage) | [View in browser](https://chriskessell.github.io/google-homepage)
 * [Igor's solution(easy & difficult)](https://github.com/mojotron/google-homepage) | [View in browser](https://mojotron.github.io/google-homepage/)
 * [Nallely's solution(Easy)](https://nallelytg.github.io/google_homepage) | [View in browser](https://nallelytg.github.io/google_homepage/)
 * [Alfredo's solution(Easy)](https://github.com/alfasf/google-homepage) | [View in browser](https://alfasf.github.io/google-homepage/)
-* [Will's solution(Easy)] (https://github.com/willianncardoso/google-homepage)|[View in browser](https://willianncardoso.github.io/google-homepage/)
+* [Will's solution(Easy)](https://github.com/willianncardoso/google-homepage) | [View in browser](https://willianncardoso.github.io/google-homepage/)
 * [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage) 
 * [Tim Ott's Solution(Easy)](https://github.com/Vanamman/google-homepage/) | [View in brower](https://vanamman.github.io/google-homepage/)
 * [Dallas Rhinehart's Solution (Easy)](https://github.com/drrhinehart/google-homepage) | [View in browser](https://drrhinehart.github.io/google-homepage/)
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
 * [Kasey Z.'s Solution (Easy)](https://github.com/kasey-z/google-homepage) | [View in browser](https://kasey-z.github.io/google-homepage/)
 * [archeryprogrammer13's solution (Easy)](https://github.com/archeryprogrammer13/google_homepage) | [View in browser](https://archeryprogrammer13.github.io/google_homepage/)
+* [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
 
 
 ## Additional Resources
