@@ -8,3 +8,4 @@ module UsersHelper
     user.lesson_completion_time(lesson).to_formatted_s(:long)
   end
 end
+

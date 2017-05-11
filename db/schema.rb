@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170318161553) do
+ActiveRecord::Schema.define(version: 20170504175813) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -111,12 +111,12 @@ ActiveRecord::Schema.define(version: 20170318161553) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string   "email",                  default: "",    null: false
-    t.string   "encrypted_password",     default: "",    null: false
+    t.string   "email",                         default: "",    null: false
+    t.string   "encrypted_password",            default: "",    null: false
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          default: 0
+    t.integer  "sign_in_count",                 default: 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
@@ -124,7 +124,7 @@ ActiveRecord::Schema.define(version: 20170318161553) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "username"
-    t.text     "about"
+    t.text     "learning_goal"
     t.string   "github"
     t.string   "twitter"
     t.string   "facebook"
@@ -132,7 +132,7 @@ ActiveRecord::Schema.define(version: 20170318161553) do
     t.string   "google_plus"
     t.string   "skype"
     t.string   "screenhero"
-    t.boolean  "legal_agreement",        default: false, null: false
+    t.boolean  "legal_agreement",               default: false, null: false
     t.datetime "legal_agree_date"
     t.string   "provider"
     t.string   "uid"
@@ -140,7 +140,8 @@ ActiveRecord::Schema.define(version: 20170318161553) do
     t.datetime "confirmed_at"
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
-    t.boolean  "admin",                  default: false, null: false
+    t.boolean  "admin",                         default: false, null: false
+    t.date     "learning_goal_completion_date"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["legal_agreement"], name: "index_users_on_legal_agreement", using: :btree

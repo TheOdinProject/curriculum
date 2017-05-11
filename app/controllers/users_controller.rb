@@ -6,18 +6,13 @@ class UsersController < ApplicationController
   def show
   end
 
-  def edit
-    @edit = true
-    render :show
-  end
-
   def update
     if @user.update_attributes(user_params)
       flash[:success] = 'Your profile was updated successfully'
       redirect_to @user
     else
       flash.now[:error] = "We could not update your profile. Errors: #{@user.errors.full_messages}"
-      render :show
+      render :edit
     end
   end
 
@@ -49,7 +44,8 @@ class UsersController < ApplicationController
         :linkedin,
         :github,
         :google_plus,
-        :about,
+        :learning_goal,
+        :learning_goal_completion_date,
         :uid,
         :provider,
       )

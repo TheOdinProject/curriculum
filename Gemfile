@@ -6,6 +6,7 @@ gem 'puma',                         '~> 3.6.0'
 gem 'turbolinks'
 gem 'simple_form',                  '3.3.1'
 gem 'jquery-rails',                 '~> 4.2.1'
+gem 'jquery-ui-rails'              
 gem 'google-api-client',            '~> 0.9'
 gem 'devise',                       '~> 4.2.0'
 gem 'figaro',                       '1.1'      # Managing environment variables
@@ -27,6 +28,7 @@ gem 'shortener',                    '~> 0.5'
 gem 'friendly_id',                  '~> 5.1'
 gem 'cancancan',                    '~> 1.15'
 gem 'rack-attack'
+gem 'best_in_place',                '~> 3.0.1'
 gem 'tether-rails' # dependency for bootstrap tooltips
 
 group :production do

@@ -1,30 +1,66 @@
-<div id="devise-form">
-  <h2>Edit <%= resource_name.to_s.humanize %></h2>
-
-  <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put, :class => "form-horizontal" }) do |f| %>
-    <%= f.error_notification %>
-
-    <div class="form-inputs">
-      <%= f.input :username,  :label => "Username", :required => true, :autofocus => true %>
-      <%= f.input :email, :required => true %>
-
-      <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
-        <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
-      <% end %>
-
-      <%= f.input :password, :autocomplete => "off", :hint => "Leave it blank if you don't want to change it", :required => false %>
-      <%= f.input :password_confirmation, :required => false %>
-      <%= f.input :current_password, :hint => "We need your current password to confirm your changes", :required => true %>
+<div id="user_settings" class="gradient">
+  <div class="container center-contents">
+    <h1 class="text-center settings-section">Settings</h1>
+    <div class="profile settings-section">
+      <h2>Profile</h2>
+      <div class="settings-card profile-card">
+        <div class="profile-pic align-items-center">
+          <%= image_tag gravatar_url(@user, 100), alt: "Profile Pic"%>
+        </div>
+        <div class="profile-details">
+          <div class="field">
+            <div class="label">Name</div>
+            <div class="value"><%= best_in_place @user, :username, as: :input %></div>
+          </div>
+          <div class="field">
+            <div class="label">Email Address</div>
+            <div class="value"><%= best_in_place @user, :email, as: :input %></div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="learning-goal settings-section">
+      <h2>Learning Goal</h2>
+      <div class="settings-card profile-card">
+        <div class="goal">
+          <%= best_in_place @user, :learning_goal, as: :input, place_holder: "Click me to set a learning goal!"%>
+        </div>
+        <div class="spacer"></div>
+        <div class="completion-date">
+          Estimated Completion date: <%= best_in_place @user, :learning_goal_completion_date, as: :date, display_as: :format_completion_date %>
+        </div>
+      </div>
+    </div>
+    <div class="password-card settings-section">
+      <h2>Password</h2>
+      <div class="password-card settings-card">
+        <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put, class: "form-horizontal" }) do |f| %>
+          <%= f.error_notification %>
 
-    <%= f.button :submit, "Update", :class => "btn-primary btn-large pull-right" %>
+          <div class="form-inputs">
+            <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
+              <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
+            <% end %>
 
-  <% end %>
+            <%= f.input :password, autocomplete: "off", required: false, label: false, placeholder: 'New Password' %>
+            <%= f.input :password_confirmation, required: false, label: false, placeholder: 'Confirm New Password' %>
+            <%= f.input :current_password, hint: "Enter your current password to confirm", required: true, label: false, placeholder: 'Old Password' %>
+          </div>
 
-  <div class="devise-shared-links">
+          <%= f.button :submit, "Update"%>
 
-    <p><%= link_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete %></p>
-
-    <%= link_to "Go back", :back %>
+        <% end %>
+      </div>
+    </div>
+    <div class="notifications settings-section">
+      <h2>Notifications</h2>
+      <div class="settings-card profile-card">
+        Notification stuff goes here
+      </div>
+    </div>
+    <div class="cancel-link text-center">
+      <p><%= link_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+    </div>
   </div>
+
 </div>
