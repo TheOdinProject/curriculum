@@ -7,7 +7,7 @@
     background: $white;
     max-width: 780px;
     padding: 22px 32px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3)
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   }
   .settings-section {
     max-width: 780px;
@@ -15,8 +15,6 @@
   }
   .profile-pic {
     margin-right: 32px;
-    display: flex;
-    align-items: center;
     img {
       border-radius: 50%;
       width: 100px;
@@ -78,10 +76,10 @@
     margin-bottom: 30px;
   }
   .cancel-link {
+    text-align: center;
     a {
       color: $text-primary; 
     }
-    text-align: center;
   }
 }
 

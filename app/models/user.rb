@@ -11,8 +11,8 @@ class User < ApplicationRecord
   has_many :projects
 
   def format_completion_date
-    if self.learning_goal_completion_date
-      self.learning_goal_completion_date.strftime('%B %Y')  
+    if learning_goal_completion_date
+      learning_goal_completion_date.strftime('%B %Y')  
     else
       'Click here to set a date!'
     end
