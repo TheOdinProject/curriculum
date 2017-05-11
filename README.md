@@ -1,5 +1,5 @@
-# [Welcome to The Odin Project a Open source Web development Curriculum](http://theodinproject.com)
-The Odin project is a open source community and curriculum for learning web development. Odin Project Students complete lessons which include links to the best free resources online and projects which they can use in their portfolio.
+# [Welcome to The Odin Project, an open source web development curriculum](http://theodinproject.com)
+The Odin Project is an open source community and curriculum for learning web development. Students of The Odin Project build portfolio projects and complete lessons that are constantly curated and updated with links to relevant resources.
 
 We teach:
 * Ruby programming
@@ -12,14 +12,14 @@ We teach:
 
 This repo contains the main app for the Odin Project which can be found online at [theodinproject.com](theodinproject.com). It pulls in lesson and project content from our [curriculum repo](https://github.com/TheOdinProject/curriculum).
 
-The Odin project community can be found on our [gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject)
+The Odin project community can be found on our [Gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
 
 
 ## Contributing
-The Odin Project depends on open source contributions to grow, improve and thrive.
+The Odin Project depends on open source contributions to grow, improve, and thrive.
 We welcome contributions from beginners and experienced developers alike.
 
-To find out more about how you can contribute please read our [contributing guide](https://github.com/TheOdinProject/theodinproject/wiki/Contributing-Guide)
+To find out more about how you can contribute, please read our [contributing guide](https://github.com/TheOdinProject/theodinproject/wiki/Contributing-Guide).
 
 ## Significant Contributors
 
@@ -35,5 +35,5 @@ To find out more about how you can contribute please read our [contributing guid
 * [Kevin Mulhern](https://github.com/KevinMulhern)
 * [Arun Kumar](https://github.com/arun1595)
 
-<hr>
+---
 Created by [Erik Trautman](http://www.github.com/eriktrautman)
