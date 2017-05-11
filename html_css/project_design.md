@@ -18,7 +18,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 5. Copy the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  
 6. Now make the background colors of those divs different shades of gray which correspond to their visual weight on the Smashing homepage.  If you squint your eyes and look from your solution to their page, does your eye get drawn to the same places?
 
-### Playing with Typography 
+### Playing with Typography
 
 7. Add in some meaningless text to those divs (whether copied from the homepage or a [lorem ipsum generator](http://generator.lorem-ipsum.info)) for the main headlines and paragraphs.  You'll obviously want to change the div backgrounds back to white for those elements. You only need to add text to the main content areas, don't worry too much about the side areas and navigation.
 8. Change around the font styles and weights and see how that affects the visual weight and feel of the page.  You should see some major differences between using serif and sans-serif fonts as well as moving from font-weight 100 to 700.
@@ -30,11 +30,22 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/smashing_design_teardown) | [View in Browser](https://couchoftomato.github.io/smashing_design_teardown/)
+* [Andrew's solution](https://github.com/andrewr224/design_teardown) | [View in Browser](https://andrewr224.github.io/design_teardown/)
+* [Axel's solution](https://github.com/afuh/smashing-grayscale) | [View in Browser](https://afuh.github.io/smashing-grayscale/)
+* [Flint Mayers' solution](https://github.com/FlintMayers/Design_Teardown) | [View in Browser](https://flintmayers.github.io/Design_Teardown/)
+* [Rhys B's solution](https://github.com/105ron/design-teardown) | [View in browser](https://105ron.github.io/design-teardown/)
+* [Pawel R's solution](https://github.com/PawelRokosz/design-teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/design-teardown/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectSmashing/tree/responsiveversion) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectSmashing/blob/responsiveversion/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_design_teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/AtActionPark/odin_design_teardown/blob/master/main.html)
 * [Noman Karim's solution](https://github.com/nomankarim/projectsmashing) | [View in browser](https://htmlpreview.github.io/?https://github.com/nomankarim/projectsmashing/blob/master/index.html)
-* Add your solution above this line!
-
+* [Miguel Herrera's solution](https://github.com/migueloherrera/smashing-magazine) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/smashing-magazine/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/design_teardown) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/design_teardown/index.html)
+* [Stefan (Cyprium)'s solution)](https://github.com/dev-cyprium/TheOdinProject-HTML/tree/master/smashing-magasine-remake-grayscale) | [View in browser](https://htmlpreview.github.io/?https://github.com/dev-cyprium/TheOdinProject-HTML/blob/master/smashing-magasine-remake-grayscale/index.html)
+* [Norman's solution](https://github.com/slowmanchan/smashing-clone) | [View in Browser](https://htmlpreview.github.io/?https://github.com/slowmanchan/smashing-clone/blob/master/index.html)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-design-teardown) | [View in Browser](https://davidchappy.github.io/html-design-teardown/)
+* [Daunenok's solution](https://github.com/daunenok/smashing) | [View in Browser](https://daunenok.github.io/smashing/)
 
 ## Additional Resources
 

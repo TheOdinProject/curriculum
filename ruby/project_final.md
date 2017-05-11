@@ -22,13 +22,18 @@ This is a great project to have as a part of your portfolio going forward becaus
 3. Do your best to keep your classes modular and clean and your methods doing only one thing each.  This is the largest program that you've written, so you'll definitely start to see the benefits of good organization (and testing) when you start running into bugs.
 4. Have fun!  Check out the [unicode characters](http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode) for a little spice for your gameboard.
 5. (Optional extension) Build a very simple AI computer player (perhaps who does a random legal move)
-6. (Optional extension) Look into using sockets to play it over the network with someone else (remember the server project you built earlier?)
 
 ## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
-* [Aleksandar's solution](https://github.com/Rodic/RubyChess)
+* Add your solution below this line!
+* [nmac's solution](https://github.com/nmacawile/chess)
+* [Ayushka's solution](https://github.com/ayushkamadji/ruby_chess)
+* [Orlando's solution](https://github.com/orlandodan14/chess_game)
+* [Austin's & Leonard's solution](https://github.com/leosoaivan/TOP_chess)
+* [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Final-Project/tree/master)
+* [Aleksandar's solution](https://github.com/rodic/RubyChess)
 * [Donald's solution](https://github.com/donaldali/Chess)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Ruby/FinalProject)
 * [Hawkeye's solution](https://github.com/Hawkeye000/command-line-chess)
@@ -48,10 +53,23 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Scott Bobbitt's solution](https://github.com/sco-bo/chess)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/chess)
 * [Max Gallant's solution](https://github.com/mcgalcode/Ruby/tree/master/Chess)
-* [noobling's solution] (https://github.com/TopOneOfTopOne/CLI_chess)
-* [Sahil Agarwal's solution] (https://github.com/sahilda/the_odin_project/tree/master/rubyChess)
+* [noobling's solution](https://github.com/TopOneOfTopOne/CLI_chess)
+* [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/rubyChess)
 * [James Brooks's solution](https://github.com/jhbrooks/chess)
-* Add your solution above this line!
+* [Cyprium (Stefan)'s solution](https://github.com/dev-cyprium/chess)
+* [Earth35's solution](https://github.com/Earth35/chess)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/final)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/chess)
+* [DV's solution](https://github.com/dvislearning/chess)
+* [at0micr3d's solution](https://github.com/at0micr3d/ruby_chess)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/blob/master/Ruby/final/lib/chess_single_array.rb)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/chess)
+* [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_chess)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/Chess)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/chess)
+* [Braydon Pacheco's solution](https://github.com/pacheeko/chess)
+* [John Connor's solution](https://github.com/jacgitcz/chessfinal)
+* [Kyle Thomson's solution](https://github.com/idynkydnk/chess)
 
 
 ## Additional Resources
@@ -60,4 +78,3 @@ This is a great project to have as a part of your portfolio going forward becaus
 
 * [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
 * [A series of hints from RubyQuiz](http://rubyquiz.com/quiz35.html), where this was one of their challenges.  You don't need these.  Resist the temptation!
-

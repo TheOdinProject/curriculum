@@ -18,6 +18,11 @@ In this project you'll clone the website of one of the most design-forward compa
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
+* [Andrew’s solution](https://github.com/andrewr224/backgrounds_project) | [View in browser](https://andrewr224.github.io/backgrounds_project/)
+* [Axel’s solution](https://github.com/afuh/appel) | [View in browser](https://afuh.github.io/appel/)
+* [Rhys B's solution](https://github.com/105ron/apple) | [View in browser](https://105ron.github.io/apple/)
+* [Pawel R's solution](https://github.com/PawelRokosz/apple-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/apple-homepage/blob/master/index.html)
 * [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/applehome) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/Apple_Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
@@ -33,7 +38,16 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Cameron Kelley's solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/apple-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/apple-homepage/index.html)
 * [Luke Walker's Solution](https://github.com/ubershibs/odin-html-css/tree/master/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/apple/index.html)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html) cloning [http://touchstonejs.io/](http://touchstonejs.io/) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html)
-* Add your solution above this line!
+* [Miguel Herrera's solution](https://github.com/migueloherrera/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/apple/blob/master/index.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/gradients/index.html)
+* [csrail's solution](https://github.com/csrail/apple-mock) | [View in browser](https://rawgit.com/csrail/apple-mock/master/index.html)
+* [Paul Shonk's solution](https://github.com/pshonk/apple)
+* [cindygao93's solution](https://github.com/cindygao93/google-homepage) | [View in browser](https://cindygao93.github.io/google-homepage/)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-backgrounds-gradients
+) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)* [Flint Mayers' solution](https://github.com/FlintMayers/Backgrounds-and-Gradients-with-Apple-
+) | [View in browser](https://flintmayers.github.io/Backgrounds-and-Gradients-with-Apple-/)
+* [Daunenok's solution](https://github.com/daunenok/apple) | [View in browser](https://daunenok.github.io/apple/)
+* [Austin's solution](https://github.com/CouchofTomato/apple-clone)
 
 
 ## Additional Resources

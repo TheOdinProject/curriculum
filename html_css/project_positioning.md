@@ -21,6 +21,12 @@ In this project, your assignment is to copy [this article from the New York Time
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
+*[Andrew's solution](https://github.com/andrewr224/ny_times) | [View in browser](https://andrewr224.github.io/ny_times/)
+* [Axel’s solution](https://github.com/afuh/new-york-times) | [View in browser](https://afuh.github.io/new-york-times/)
+* [Jan Pilik's solution](https://github.com/Vjii/new_york_times_project) | [View in browser](https://vjii.github.io/new_york_times_project/)
+* [Rhys B's solution](https://github.com/105ron/nyt-article) | [View in browser](https://105ron.github.io/nyt-article/)
+* [Pawel R's solution](https://github.com/PawelRokosz/PositioningElements) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/PositioningElements/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/newyorktimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/newyorktimes/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/NewYorkTimes) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/NewYorkTimes/blob/master/index.html)
 * [Artur Janik's solution](https://github.com/ArturJanik/ProjectNYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectNYT/blob/master/index2.html)
@@ -35,7 +41,17 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Patrick Mallee's Solution](https://github.com/patmallee/nytimes) | [view in browser](http://htmlpreview.github.io/?https://github.com/patmallee/nytimes/blob/master/index.html)
 * [Cameron Kelley's Solution](https://github.com/cameronjkelley/the_odin_project/tree/master/html5_css3/ny-times) | [view in browser](https://htmlpreview.github.io/?https://github.com/cameronjkelley/the_odin_project/blob/master/html5_css3/ny-times/index.html)
 * [Luke Walker's Solution](https://github.com/ubershibs/odin-html-css/tree/master/nytimes) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/nytimes/index.html)
-* Add your solution above this line!
+* [Miguel Herrera's solution](https://github.com/migueloherrera/nytimes) | [View in Browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/nytimes/blob/master/index.html)
+* [srashidi's solution](https://github.com/srashidi/The_Odin_Project/tree/master/HTML5%20and%20CSS3/Positioning_Elements/nyt-article) | [View in Browser](http://htmlpreview.github.io/?https://github.com/srashidi/The_Odin_Project/blob/master/HTML5%20and%20CSS3/Positioning_Elements/nyt-article/article.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/positioning_elements) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/positioning_elements/index.html)
+* [csrail's solution](https://github.com/csrail/nytimes-mock) | [View in browser](https://rawgit.com/csrail/nytimes-mock/master/article.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/nyt-clone) | [View in browser](https://rawgit.com/ShalaQweghen/nyt-clone/master/index.html)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-positioning-elements) | [View in browser](https://davidchappy.github.io/ny-times-html/)
+* [Charles Harries's solution](https://github.com/charlesharries/new_york_times) | [Check it in browser](https://htmlpreview.github.io/?https://github.com/charlesharries/new_york_times/blob/master/index.html)
+* [Flint Mayers's solution](https://github.com/FlintMayers/The_New_York_Times_project) | [Check it in browser](https://flintmayers.github.io/The_New_York_Times_project/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu) | [View in browser](https://sophialwu.github.io/NY-times-article-clone/)
+* [Daunenok's solution](https://github.com/daunenok/new-york) | [View in browser](https://daunenok.github.io/new-york/)
+* [Austin's solution](https://github.com/CouchofTomato/ny-times-clone)
 
 
 ## Additional Resources

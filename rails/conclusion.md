@@ -45,7 +45,7 @@ Here are a few books that will take you a bit deeper as well:
 
 You know more than you think.  Remember when we just said that you should keep building stuff?  This website is completely open source and needs your help to improve.  We have a dedicated group of current and former students who help add features and proofread the curriculum.  The best part is that it's completely public and free so you can watch or participate at whatever level you're comfortable.
 
-It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.  So check out the contributing channel on our [slack](https://theodinproject.slack.com/messages/contributing/) to see what we're up to.  We'd love to have you get involved!
+It's a great way to start learning about agile development methodologies and to start doing meaningful development work in a friendly and supportive environment.  So check out the contributing channel on our [gitter](https://gitter.im/TheOdinProject/theodinproject) to see what we're up to.  We'd love to have you get involved!
 
 ## Conclusion
 
@@ -70,3 +70,4 @@ So there's a lot left to go but it gets better and better.  Stick with it!
 * [How I Test by Ryan Bates](http://railscasts.com/episodes/275-how-i-test)
 * [Why use the `%Q` methods?](http://stackoverflow.com/questions/10144543/what-is-the-use-case-for-rubys-q-q-quoting-methods)
 * [Ruby on Rails Tutor](http://rubyonrailstutor.github.io/) has free videos that highlight specific sections of Rails.
+* [Mackenzie Child 12 apps in 12 weeks](https://medium.com/ruby-on-rails/how-i-finally-learned-rails-95e9b832675b#.mw99m5wat) 

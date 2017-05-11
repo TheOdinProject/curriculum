@@ -59,7 +59,7 @@ You should care that ActiveRecord queries usually return Relations because you'l
 
 If you end up working with a Relation when you really want it to act like an Array, you can sometimes run `#to_a` on it to force it to evaluate the query. 
 
-A couple of common methods which do NOT return Relations and can force evaluation of a relation, are `#all` (returns an array of objects) and `#find` (returns a single object).
+Methods implemented in `ActiveRecord::FinderMethods` do NOT return `ActiveRecord::Relation` objects. The `#find`, `#find_by`, `#first` and `#last` methods return a single record (a model instance). `#take` returns an array of model instances. Unlike the methods that return `Relation` objects, when called, these will run SQL queries immediately.
 
 ## Beyond Basic Querying
 
@@ -133,11 +133,11 @@ Post.joins(:tags).group("tags.name").count
 ### Your Assignment
 
 1. Read the first 5 sections of the [Rails Guide on Active Record Querying](http://guides.rubyonrails.org/active_record_querying.html) for a more basic overview of query functions.  Don't worry too much about batching and `#find_each`.
-2. Read section 18 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a brief look at using `exists?` `any?` and `many?`.
-2. Read sections 6, 7, and 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for an understanding of aggregate functions and the calculations you can run on them.
+2. Read section 20 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a brief look at using `exists?` `any?` and `many?`.
+2. Read sections 6, 7, and 21 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for an understanding of aggregate functions and the calculations you can run on them.
 3. Skim sections 8-11 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html).  
 4. Read section 12 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) to see how Rails lets you play with joining tables together.
-5. Read section 16 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a quick look at the helpful `find_or_create_by` methods.
+5. Read section 18 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html) for a quick look at the helpful `find_or_create_by` methods.
 
 ## N + 1 Queries and Eager Loading
 
@@ -220,7 +220,7 @@ Sometimes, you just can't get ActiveRecord to do what you want it to.  In that c
 ## Your Assignment
 
 1. Read chapter 14 in the [Rails Guide on Querying](http://guides.rubyonrails.org/active_record_querying.html) for a look at Scopes.  Again, you don't necessarily need to memorize all the details of scopes, but understand the concept and when it might be useful.
-* Read Chapter 17 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
+* Read Chapter 19 of the [same Rails Guide](http://guides.rubyonrails.org/active_record_querying.html#finding-by-sql) for a look at using SQL directly.
 
 ## Conclusion
 

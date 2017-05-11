@@ -32,6 +32,13 @@ Also, don't worry about making the comment form work properly... your goal is to
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
+* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) | [View in browser] (https://andrewr224.github.io/embedding-video-project/)
+* [Austin's solution](https://github.com/CouchofTomato/youtube-clone)
+* [Flint Mayers' solution](https://github.com/FlintMayers/youtube_player) | [View in browser](https://flintmayers.github.io/youtube_player/)
+* [Javal's solution](https://github.com/javalnanda/youtube_player_page) | [View in browser](https://javalnanda.github.io/youtube_player_page/)
+* [Paweł R's solution](https://github.com/PawelRokosz/ProjectYT) | [View in browser](http://htmlpreview.github.io/?https://github.com/PawelRokosz/ProjectYT/blob/master/index.html)
+* [Rhys B's solution](https://github.com/105ron/youtube_video_embed) | [View in browser](https://105ron.github.io/youtube_video_embed/)
 * [Donald's solution](https://github.com/donaldali/odin-html-css/tree/master/embedding_media)
 * [Vincent's solution](https://github.com/wingyu/youtube_replica) | [View in browser](http://htmlpreview.github.io/?https://github.com/wingyu/youtube_replica/blob/master/index.html)
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_05-Advanced_HTML_and_CSS/youtube) | [View in browser](https://cdn.rawgit.com/craftykate/odin-project/master/Chapter_05-Advanced_HTML_and_CSS/youtube/index.html)
@@ -51,31 +58,19 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Luke Walker's solution](https://github.com/ubershibs/odin-html-css/tree/master/youtube) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/youtube/youtube.html)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/html-css/embedding-images-and-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/embedding-images-and-video/faketube.html)
 * [srashidi's solution](https://github.com/srashidi/Embedded_Images) | [View in browser](http://htmlpreview.github.io/?https://github.com/srashidi/Embedded_Images/blob/master/embedded_images.html)
-* Add your solution above this line!
-
+* [Miguel Herrera's solution](https://github.com/migueloherrera/utube)
+* [Monika Dutka's solution] (https://github.com/rawrins/youtube-video) | [Preview] (https://htmlpreview.github.io/?https://github.com/rawrins/youtube-video/blob/master/index.html)
+* [Destroyergm (Stefan)'s solution](https://github.com/destroyergm/youtube-myversion) | [View in browser](https://htmlpreview.github.io/?https://github.com/destroyergm/youtube-myversion/blob/master/youtube.html)
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/embedded_media) | [View in browser](http://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/embedded_media/index.html)
+* [Lani's solution](https://github.com/laniywh/the-odin-project/tree/master/html5-css3/embed-youtube-video) | [View in browser](https://htmlpreview.github.io/?https://github.com/laniywh/the-odin-project/blob/master/html5-css3/embed-youtube-video/index.html)
+* [Earth35's solution](https://github.com/Earth35/embedding/blob/master/video_page.html) | [View in browser](https://htmlpreview.github.io/?https://github.com/Earth35/embedding/blob/master/video_page.html)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/youtube_clone) | [View in browser](https://htmlpreview.github.io/?https://github.com/ShalaQweghen/youtube_clone/blob/master/index.html)
+* [Leonard's solution](https://github.com/Kr0ntar/youtube-clone) | [View in browser](https://kr0ntar.github.io/youtube-clone/index.html)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/embedding-images-and-video) | [View in browser](https://adoniasdantas.github.io/embedding-images-and-video/)
+* [daunenok's solution](https://github.com/daunenok/embedded-video) | [View in browser]( https://daunenok.github.io/embedded-video/)
+* [Axel's solution](https://github.com/afuh/Youtube) | [View in browser](https://afuh.github.io/Youtube/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/odin-youtube-project) | [View in browser](https://sophialwu.github.io/odin-youtube-project/)
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
