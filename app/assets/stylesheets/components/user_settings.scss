@@ -7,7 +7,7 @@
     background: $white;
     max-width: 780px;
     padding: 22px 32px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
   }
   .settings-section {
     max-width: 780px;
@@ -55,20 +55,6 @@
       font-size: 13px;
     }  
   }
-  .save {
-    text-align: center;
-  }
-  .submit-button {
-    width: 191px;
-    height: 60px;
-    border-radius: 3px;
-    background-color: $button-primary;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-    border: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-  }
   h2 {
     font-weight: 700;
     font-size: 24px;
@@ -76,7 +62,6 @@
     margin-bottom: 30px;
   }
   .cancel-link {
-    text-align: center;
     a {
       color: $text-primary; 
     }
@@ -85,7 +70,7 @@
 
 .ui-datepicker {
   background: white;
-  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
   padding: 16px;
   color: $text-primary; 
   .ui-datepicker-prev, .ui-datepicker-next {
