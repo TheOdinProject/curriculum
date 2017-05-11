@@ -22,11 +22,9 @@ module ApplicationHelper
   end
 
 def faq_items
-    # TODO: 
-    #       Fix <% link_to ... %> links
     [
       {
-        raw(question: 'Who is The Odin Project for?',
+        question: 'Who is The Odin Project for?',
         answer: <<~FAQ_ANSWER
           <p>The Odin Project is for absolute beginners and those who have tried other resources without success.  In reality, The Odin Project is for anyone who wants to work as a web developer, do freelancing work, build a startup, or just hack together a homepage for yourself.  All the tools you need are here.</p>
           <br />
@@ -34,9 +32,9 @@ def faq_items
           <br />
           <p>The curriculum has also been designed in a modular fashion, making skimming through lessons a breeze.</p>
         FAQ_ANSWER
-      )},
+      },
       {
-        question: 'What is the Goal of the The Odin Project?',
+        question: 'What is the goal of the The Odin Project?',
         answer: 
           '<p>The goal of The Odin Project is to provide a complete path for students to go from zero to employed as web developers while working with other students along the way.</p>'        
       },
@@ -51,25 +49,25 @@ def faq_items
         FAQ_ANSWER
       },
       {
-        question: 'What Are You Actually Teaching?',
+        question: 'What technologies does The Odin Project teach?',
         answer: <<~FAQ_ANSWER
-          <p>The Odin Project assumes you’re new to web development, so we start out by going over what exactly a web developer does in our <%= link_to "Introduction to Web Development", course_path("introduction-to-web-development") %> course.</p>
+          <p>The Odin Project assumes you’re new to web development, so we start out by going over what exactly a web developer does in our <a href="courses/introduction-to-web-development">Introduction to Web Development</a> course.</p>
           <br />
-          <p>The <%= link_to "Web Development 101 course", course_path("web-development-101") %> will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer.  Web Development 101 introduces HTML, CSS, Javascript, Ruby, Rails, Git, databases and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites!</p>
+          <p>The <a href="courses/web-development-101">Web Development 101 course</a> will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer.  Web Development 101 introduces HTML, CSS, Javascript, Ruby, Rails, Git, databases and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites!</p>
           <br />
-          <p>The Odin Project takes a back-to-front approach to learning Ruby on Rails.  We start with a <%= link_to "strong foundation in Ruby", course_path("ruby-programming") %> and an understanding of databases before migrating into <%= link_to "Ruby on Rails", course_path("ruby-on-rails") %> (which is a framework built using Ruby).</p>
+          <p>The Odin Project takes a back-to-front approach to learning Ruby on Rails.  We start with a <a href="courses/ruby-programming">strong foundation in Ruby</a> and an understanding of databases before migrating into <a href="courses/ruby-on-rails">Ruby on Rails</a> (which is a framework built using Ruby).</p>
           <br />
-          <p>The Odin Project then takes you deep into <%= link_to "HTML and CSS", course_path("html5-and-css3") %>, along with <%= link_to "Javascript, JQuery and Backbone", course_path("javascript-and-jquery") %> to give you all the tools necessary to make websites flow, load quickly, and look great.  Along the way you’ll learn Git and deployment so you can build your own portfolio, collaborate with others, and see your work on the web.</p>
+          <p>The Odin Project then delves deep into <a href="courses/html5-and-css3">HTML and CSS</a>, along with <a href="courses/javascript-and-jquery">Javascript, JQuery and Backbone</a> to give you all the tools necessary to make websites flow, load quickly, and look great.  Along the way you’ll learn Git and deployment so you can build your own portfolio, collaborate with others, and see your work on the web.</p>
           <br />
-          <p>Finally, The Odin Project will teach you to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <%= link_to "looking for employment", course_path("getting-hired-as-a-web-developer") %>.</p>
+          <p>Finally, The Odin Project will teach you to work with legacy codebases and open-source projects. We’ll also cover areas specifically intended to help when you’re <a href="courses/getting-hired-as-a-web-developer">looking for employment</a>.</p>
         FAQ_ANSWER
       },
       {
         question: 'How is The Odin Project different from other programs?',
         answer: <<~FAQ_ANSWER
-          <p>The Odin Project is one of a kind in that it pulls the best resources from around the web and compiles them to create a complete curriculum.  In many other programs the curriculum is formatted to meet their specific curriculum.  This means that not all lessons are top-notch. The Odin Project sidesteps this downfall by pulling various free resources from around the web and compiles them in one place.</p>
+          <p>The Odin Project is different from other online programs in that it pulls the best resources from around the web and compiles them to create a complete curriculum.  In many other programs the material is formatted to meet their specific curriculum.  This means that not all of the lessons are top-notch. The Odin Project sidesteps this downfall by pulling various free resources from around the web and compiles them in one place.</p>
           <br />
-          <p>The Odin Project also develops your problem solving skills when it requires you to install programs on your local computer.  As developers, programming errors frequently arise and knowing how to decipher error messages is critical.  These problem solving skills are frequently ignored by other programs by using their online interface.</p>
+          <p>The Odin Project also develops your problem solving skills when it requires you to install programs on your local computer.  As developers, programming errors frequently arise and knowing how to decipher error messages is critical.  These problem solving skills are frequently ignored by other programs.</p>
           <br />
           <p>Lastly, The Odin Project is project based.  Other programs require you to simply input the correct answer. It is difficult to retain any knowledge by learning the bare minimum syntax. The Odin Project is designed with projects built from the ground up giving you real-world experience that you can use to build your portfolio and get hired as a web developer!</p>
         FAQ_ANSWER
@@ -85,7 +83,7 @@ def faq_items
       {
         question: 'Who is "Odin"?',
         answer: <<~FAQ_ANSWER
-          <p>Odin is a figure from Norse mythology, the allfather of the gods. He is portrayed as powerful and fickle (as they often are) but also wise and cunning. His search for knowledge is a thing of legends - he <%= link_to "gave his eye for the wisdom of ages", "http://norse-mythology.org/tales/why-odin-is-one-eyed/" %> and hung from the world tree, pierced by his own spear, for nine days and nights to <%= link_to "gain the knowledge of runes", "http://norse-mythology.org/tales/odins-discovery-of-the-runes/" %>.</p>
+          <p>Odin is a figure from Norse mythology, the allfather of the gods. He is portrayed as powerful and fickle (as they often are) but also wise and cunning. His search for knowledge is a thing of legends - he <a href="http://norse-mythology.org/tales/why-odin-is-one-eyed">gave his eye for the wisdom of ages</a> and hung from the world tree, pierced by his own spear, for nine days and nights to <a href="http://norse-mythology.org/tales/odins-discovery-of-the-runes/">gain the knowledge of runes</a>.</p>
           <br />
           <p>Learning web development is not an easy task and the tools laid out here are merely the path; you must walk it yourself. Should you possess a thirst for knowledge and persistence of spirit akin to that storied in Odin's mythos, you will find success on your journey.</p>
         FAQ_ANSWER
@@ -95,13 +93,13 @@ def faq_items
         answer: <<~FAQ_ANSWER
           <p>You don’t have to!  Dive right in, the content is free and available.  It’d be best if you started at the beginning and went through in order but everyone’s goals are different so we made the full curriculum available if you want to cherry-pick lessons or projects.</p>
           <br />
-          <p>However, by <%= link_to "signing up", new_user_registration_path %> you are able to check off completed projects and lessons, easily keeping track of your progress.  We don't collect any user data and keep emails to a minimum.</p>
+          <p>However, by <a href="/sign_up">signing up</a> you are able to check off completed projects and lessons, easily keeping track of your progress.  We don't collect any user data and keep emails to a minimum.</p>
         FAQ_ANSWER
       },
       {
         question: 'Is The Odin Project free?',
         answer:
-          '<p>Yes! The Odin Project is an open-source project created and maintained by hard working volunteers. If you want to help please <%= link_to "reach out", contact_path %>.</p>'
+          '<p>Yes! The Odin Project is an open-source project created and maintained by hard working volunteers. If you want to help please <a href="/contact">reach out</a>.</p>'
       },
       {
         question: 'When do I pay?',
@@ -112,9 +110,9 @@ def faq_items
       FAQ_ANSWER
       },
       {
-        question: "But how will The Odin Project become sustainable?",
+        question: "How will The Odin Project become sustainable?",
         answer: <<~FAQ_ANSWER
-        <p>The Odin Project's business model is educating students.  Core content will always be free, but we'd also like to give students who want more structure and/or help on their journeys access to those services, which would be at a premium. If you want to help please <%= link_to "reach out", contact_path %>.</p>
+        <p>The Odin Project's business model is educating students.  Core content will always be free, but we'd also like to give students who want more structure and/or help on their journeys access to those services, which would be at a premium. If you want to help please <a href="/contact">reach out</a>.</p>
         FAQ_ANSWER
       },
       {
@@ -128,11 +126,10 @@ def faq_items
       {
         question: 'How can I get in touch?',
         answer: <<~FAQ_ANSWER
-        <p>If you have questions about The Odin Project itself, check out our <%= link_to "Contact Page", contact_path %>.  There is also a friendly Odin community in our <a href="https://gitter.im/TheOdinProject/theodinproject">Gitter chatrooms</a></p>
+        <p>If you have questions about The Odin Project itself, check out our <a href="/contact">Contact Page</a>.  There is also a friendly Odin community in our <a href="https://gitter.im/TheOdinProject/theodinproject">Gitter chat rooms</a></p>
         FAQ_ANSWER
       }
     ]
-    )
   end
 
   def how_it_works_tiles
