@@ -31,6 +31,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Aditya's solution for problem 1](https://github.com/chickenchop/javascript_project_euler)
 * [Charalamboss solution for problem 1](https://github.com/Charalamboss/ProjectEuler/blob/master/ProjectEulerpro1.js)
 * [Joshua Marcelo's solution for problem 1](https://github.com/vanjutsong/projectEuler/blob/master/problem1.js)
 * [Nicholas Montefusco's solution for problem 1](https://github.com/nmontefusco/project-euler/blob/master/problem-1.js)
@@ -43,7 +44,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Lorrie Pearson's solution](https://github.com/Lorrie01/eulerProblem1)
 * [aznshents' solution](https://github.com/aznshents/eulerproblems/blob/master/problem-1.js)
 * [Grey Ghost's solution](https://github.com/Grey-Ghost/Project-Euler) | [View In Browser](https://grey-ghost.github.io/Project-Euler/)
-* [Davand88 solution for Multiples of 3 and 5] (https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
+* [Davand88 solution for Multiples of 3 and 5](https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
 * Andrei Cirlan Solution for Multiples of 3 and 5](https://github.com/andreynho2006/ODIN-problem1-JS/blob/master/problem1.js)
 * [Mike's Solution for Multiples of 3 and 5](https://gist.github.com/maquinde/afe29a7355b293c1f4adc51ed4ea5fe0)
 * [xavier solution for problem 1](https://github.com/nxdf2015/eulerProblems/blob/master/multiple.js)
