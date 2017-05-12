@@ -28,3 +28,5 @@ All this scoping (and using closures) makes a lot of sense when you remember tha
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Understanding JS Variable Scope and Hoisting from JSIS](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
+* In [React Fundamentals](https://reacttraining.com/online/react-fundamentals) by Tyler McGinnis, there is a section called **The "this" keyword + Managing and Updating State**. 
+The first three videos of that section are about JavaScript `this`, `call`, `apply` and `bind`. They are really helpful. 

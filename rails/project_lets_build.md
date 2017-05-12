@@ -24,6 +24,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/rest)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/blob/master/rest-client.rb)
 * [leosoaivan's solution](https://github.com/leosoaivan/TOP_rest-client)
 * [Austin's solution](https://github.com/CouchofTomato/rest-client/blob/master/rest_client.rb)
@@ -86,21 +87,21 @@ This is an example (listing 3.22) from the tutorial:
 ```language-ruby
     # test/controllers/static_pages_controller_test.rb
     require 'test_helper'
-    
+
     class StaticPagesControllerTest < ActionController::TestCase
-    
+
       test "should get home" do
         get :home
         assert_response :success
         assert_select "title", "Home | Ruby on Rails Tutorial Sample App"
       end
-      
+
       test "should get help" do
         get :help
         assert_response :success
         assert_select "title", "Help | Ruby on Rails Tutorial Sample App"
       end
-      
+
       test "should get about" do
         get :about
         assert_response :success
@@ -113,7 +114,7 @@ This syntax will be a bit different from the testing you have done before, thats
 
 I'll do a brief walkthrough of what's going on in this example just to get your mind warmed up for testing.  Refer back to the previous lessons on testing and additional resources below for better explanations!
 
-First of all, this file is just Ruby code (see the `.rb`).  It uses some new methods that are available through the minitest framework  The `require 'test_helper'` in the first line is what gives this test file (`test/controllers/static_pages_controller_test.rb`) all the methods and setup it needs to be run by minitest properly when you run your test suite (e.g. by typing or `$ bundle exec rake test` on the command line).
+First of all, this file is just Ruby code (see the `.rb`) using some new methods that are available through the minitest framework. The `require 'test_helper'` in the first line is what gives this test file (`test/controllers/static_pages_controller_test.rb`) all the methods and setup it needs to be run by minitest properly when you run your test suite (e.g. by typing or `$ bundle exec rake test` on the command line).
 
 When you run the test file, mini stores each `#test` block as a separate test and then runs them in a random order (which is important to make sure you haven't accidentally caused one test to influence another).  So all the stuff inside the `#test` block is what's actually passing or failing if you run the test.
 

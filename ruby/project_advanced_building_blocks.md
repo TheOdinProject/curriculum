@@ -38,6 +38,13 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/bubble-sort/bubble_sort.rb)
+* [SadieD's solution](https://github.com/SadieD/advanced_ruby_building_blocks/blob/master/bubble_sort.rb)
+* [holdercp's solution](https://github.com/holdercp/ruby-building-blocks/blob/master/bubble_sort.rb)
+* [Grey-Ghost's solution](https://github.com/Grey-Ghost/advanced-building-blocks/blob/master/bubble_sort.rb)
+* [Arron's Solution](https://github.com/man715/TOP_Bubble_Sort/blob/master/bubble_sort.rb)
+* [xavier solution](https://github.com/nxdf2015/odin-advanced-building-blocks/tree/master/bubble_sort)
+* [Webdev-burd's Solution](https://github.com/webdev-burd/building-blocks/blob/master/bubble-sort.rb)
 * [BenBrewerBowman's Solution](https://github.com/BenBrewerBowman/Ruby_Building_Blocks/blob/master/Bubble_Sort.rb)
 * [jfonz412's solution](https://github.com/jfonz412/ruby_building_blocks/blob/master/advanced/bubble_sort.rb)
 * [Owen Thomas Clark's solution](https://github.com/owenthomasclark/bubble_sort)
@@ -250,6 +257,8 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Vaclav Skvaril's solution](https://github.com/Vasha22/Advanced-Ruby-Blocks/blob/master/bubble_sort.rb)
 * [Øistein Haugland's solution](https://github.com/oisteinhaugland/bubble_sort/blob/master/bubble_sort.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/bubble_sort.rb)
+* [hs7's solution](https://github.com/hsun7/Advanced-Building-Blocks/blob/master/bubble_sort.rb)
+* [EMuchynski's solution](https://github.com/EMuchynski/advanced_building_blocks/blob/master/01_bubble_sort.rb)
 
 ## Project 2: Enumerable Methods
 
@@ -289,6 +298,12 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [SadieD's solution](https://github.com/SadieD/advanced_ruby_building_blocks/blob/master/enumerable_methods.rb)
+* [Grey-Ghost's solution](https://github.com/Grey-Ghost/advanced-building-blocks/blob/master/enumerable.rb)
+* [holdercp's solution](https://github.com/holdercp/ruby-building-blocks/blob/master/enumerable_methods.rb)
+* [Arron's solution](https://github.com/man715/TOP_Enumerable/blob/master/enum.rb)
+* [xavier solution](https://github.com/nxdf2015/odin-advanced-building-blocks/tree/master/enumerable)
+* [Webdev-burd's solution](https://github.com/webdev-burd/building-blocks/blob/master/enumerable-helpers.rb)
 * [theghall's solution](https://github.com/theghall/enum)
 * [jfonz412's solution](https://github.com/jfonz412/ruby_building_blocks/blob/master/advanced/enum_methods.rb)
 * [João Roberto's solution](https://github.com/jrobertolima/learning-ruby/blob/master/Enumerable.rb)
@@ -485,6 +500,9 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Parker Brown's solution](https://github.com/parkerjbrown/ruby-advanced-building-blocks/blob/master/enumerable.rb)
 * [Øistein Haugland's solution](https://github.com/oisteinhaugland/enumerable_methods/blob/master/enumerable_methods.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/enumerable.rb)
+* [hs7's solution](https://github.com/hsun7/Advanced-Building-Blocks/blob/master/enumerable_methods.rb)
+* [EMuchynski's solution](https://github.com/EMuchynski/advanced_building_blocks/blob/master/02_enumerable_methods.rb)
+* [Ian's solution](https://github.com/ianbaker615/enumerable_methods.git)
 
 ## Additional Resources
 

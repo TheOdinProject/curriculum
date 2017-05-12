@@ -17,9 +17,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * What are events?
 
 ## Assignment:
-1. Do [Codecademy's Javascript Sections 1-5](http://www.codecademy.com/tracks/javascript) ("Getting Started with Programming" to "Control Flow"). If you want extra credit, do the full Javascript track... but we'll get to that in-depth later on in the curriculum.
-2. Be sure to do [the Codecademy Choose-Your-Own-Adventure Project](http://www.codecademy.com/courses/javascript-beginner-en-x9DnD/0/1) once you've finished the learning section.
-3. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
+1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/learn-javascript) for a good overview of the basics of javascript.
+2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
     1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/pen/).
     2. You can also try the Javascript section of [repl.it](https://repl.it/languages/javascript) -- it doesn't support HTML and CSS, but it does provide you with a helpful javascript console.
 4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just go through the first one now, it's all we need at this point.  Solve these problem in [repl.it](https://repl.it/languages/javascript) if you aren't comfortable working with your own files:
@@ -32,7 +31,20 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
-* [Davand88 solution for Multiples of 3 and 5] (https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
+* [Aditya's solution for problem 1](https://github.com/chickenchop/javascript_project_euler)
+* [Charalamboss solution for problem 1](https://github.com/Charalamboss/ProjectEuler/blob/master/ProjectEulerpro1.js)
+* [Joshua Marcelo's solution for problem 1](https://github.com/vanjutsong/projectEuler/blob/master/problem1.js)
+* [Nicholas Montefusco's solution for problem 1](https://github.com/nmontefusco/project-euler/blob/master/problem-1.js)
+* [Gokul Krishnan's solution for problems 1-5](https://github.com/gk7huki/project-euler)
+* [Chris Kessell solution for problems 1 & 2](https://github.com/ChrisKessell/project_euler)
+* [Katherine Hanson's solutions for problems 1 & 2](https://github.com/KatherineHanson/project-euler)
+* [Ana Sommer's solution](https://github.com/anasommer/eulerproblems)
+* [smimimi's solutions for problems 1-3](https://github.com/smimimi/project_euler)
+* [Ben Deltenre's solutions](https://github.com/benjdelt/project-euler)
+* [Lorrie Pearson's solution](https://github.com/Lorrie01/eulerProblem1)
+* [aznshents' solution](https://github.com/aznshents/eulerproblems/blob/master/problem-1.js)
+* [Grey Ghost's solution](https://github.com/Grey-Ghost/Project-Euler) | [View In Browser](https://grey-ghost.github.io/Project-Euler/)
+* [Davand88 solution for Multiples of 3 and 5](https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
 * Andrei Cirlan Solution for Multiples of 3 and 5](https://github.com/andreynho2006/ODIN-problem1-JS/blob/master/problem1.js)
 * [Mike's Solution for Multiples of 3 and 5](https://gist.github.com/maquinde/afe29a7355b293c1f4adc51ed4ea5fe0)
 * [xavier solution for problem 1](https://github.com/nxdf2015/eulerProblems/blob/master/multiple.js)
@@ -462,8 +474,14 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [marleybrush's solution](https://github.com/marleybrush/ProjectEuler)
 * [RamsesGonzalez's solution](https://github.com/RamsesGonzalez/ProjectEuler)
 * [bwkrayb's solution](https://github.com/bwkrayb/javascript_math)
-* [Dev Mehta's solution] (https://github.com/devmehta92/Euler-s-Problems)
+* [Dev Mehta's solution](https://github.com/devmehta92/Euler-s-Problems)
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/project_euler_javascript/blob/master/problem_1.js)
+* [codebreeze's solution](https://codebreeze.github.io/multiples-solution/) | [View in browser](https://gist.github.com/codebreeze/bc365b5e059e30917d01958fadd70acd)
+* [Igor's solution](https://github.com/mojotron/project-euler-problems) | [View In Browser](https://mojotron.github.io/project-euler-problems/)
+* [Veronika's solution](https://github.com/vermelon/euler) | [View in browser](https://vermelon.github.io/euler/)
+* [Tim Ott's solution](https://github.com/Vanamman/Project-Euler.git)
+* [Dallas Rhinehart's solution](https://github.com/drrhinehart/project-euler/blob/master/problem-01.js)
+* [Will Cardoso's solution](https://github.com/willianncardoso/project_euler/blob/master/multiples_3_5.js)
 
 ## Additional Resources
 

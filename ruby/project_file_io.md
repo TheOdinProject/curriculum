@@ -16,6 +16,9 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/event-manager)
+* [Webdev-burd's solution](https://github.com/webdev-burd/event_manager)
+* [xavier solution](https://github.com/nxdf2015/odin-serialization/tree/master/event_manager)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/serialization/tree/master/event_manager)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/event_manager)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-serialization/tree/master/event_manager)
@@ -120,7 +123,9 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Robert Szabo's solution](https://github.com/Siker001/the_odin_project_exercises/tree/master/ruby/serialization/event_manager)
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Event_Manager)
 * [jeff1st's solution](https://github.com/jeff1st/event_manager)
-
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-event-manager)
+* [Pat's solution](https://github.com/Pat878/event_manager)
+* [EMuchynski's solution](https://github.com/EMuchynski/eventmanager)
 
 ## Project: Hangman
 
@@ -143,6 +148,10 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/hangman)
+* [jfonz412's solution](https://github.com/jfonz412/hangman/blob/master/lib/game.rb)
+* [xavier solution](https://github.com/nxdf2015/odin-serialization/tree/master/Hangman)
+* [Webdev-burd's solution](https://github.com/webdev-burd/hangman)
 * [thisisned's solution](https://github.com/thisisned/hangman)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/serialization/tree/master/hangman)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/hangman)
@@ -282,7 +291,9 @@ You will be building a simple command line Hangman game where one player plays a
 * [HenrytheDJ's Wild West solution](https://github.com/henrythedj/hangman)
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Hangman)
 * [jeff1st's solution](https://github.com/jeff1st/hangman)
-
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-hangman)
+* [EMuchynski's solution](https://github.com/EMuchynski/hangman)
+* [Pat's solution](https://github.com/Pat878/Hangman)
 
 ## Additional Resources
 

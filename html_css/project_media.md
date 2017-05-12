@@ -33,7 +33,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
-* [Andrew's solution](https://github.com/andrewr224/embedding-video-project)
+* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) | [View in browser] (https://andrewr224.github.io/embedding-video-project/)
 * [Austin's solution](https://github.com/CouchofTomato/youtube-clone)
 * [Flint Mayers' solution](https://github.com/FlintMayers/youtube_player) | [View in browser](https://flintmayers.github.io/youtube_player/)
 * [Javal's solution](https://github.com/javalnanda/youtube_player_page) | [View in browser](https://javalnanda.github.io/youtube_player_page/)

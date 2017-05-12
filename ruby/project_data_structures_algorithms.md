@@ -30,6 +30,10 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/searching_binary_trees)
+* [jfonz412's solution](https://github.com/jfonz412/computer_science/blob/master/binary_search_tree.rb)
+* [xavier solution](https://github.com/nxdf2015/odin-basic-data-structures/blob/master/searching-tree/tree.rb)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/algorithms)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/binary_tree)
 * [theghall's solution](https://github.com/theghall/binary-trees)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/binary_tree.rb)
@@ -106,8 +110,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/Ruby/data_tree.rb)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/binary_trees)
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Basic-Data-Structures-and-Algorithms/blob/master/binary_tree.rb)
-
-
+* [Daniel Varcas's solution](https://github.com/d-zer0/binary_search_trees/blob/master/binary_search_trees.rb)
 
 ## Project 2: Knight's Travails
 
@@ -150,6 +153,10 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/knights-travails)
+* [jfonz412's solution](https://github.com/jfonz412/computer_science/blob/master/knight/lib/knight.rb)
+* [xavier solution](https://github.com/nxdf2015/odin-basic-data-structures/tree/master/knight)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/knight-travails)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/knights_travails)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/knights_travails.rb)
 * [theghall's solution](https://github.com/theghall/knights-travails)

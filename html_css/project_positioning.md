@@ -22,6 +22,7 @@ In this project, your assignment is to copy [this article from the New York Time
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+*[Andrew's solution](https://github.com/andrewr224/ny_times) | [View in browser](https://andrewr224.github.io/ny_times/)
 * [Axel’s solution](https://github.com/afuh/new-york-times) | [View in browser](https://afuh.github.io/new-york-times/)
 * [Jan Pilik's solution](https://github.com/Vjii/new_york_times_project) | [View in browser](https://vjii.github.io/new_york_times_project/)
 * [Rhys B's solution](https://github.com/105ron/nyt-article) | [View in browser](https://105ron.github.io/nyt-article/)
@@ -50,7 +51,8 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Flint Mayers's solution](https://github.com/FlintMayers/The_New_York_Times_project) | [Check it in browser](https://flintmayers.github.io/The_New_York_Times_project/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu) | [View in browser](https://sophialwu.github.io/NY-times-article-clone/)
 * [Daunenok's solution](https://github.com/daunenok/new-york) | [View in browser](https://daunenok.github.io/new-york/)
-
+* [Austin's solution](https://github.com/CouchofTomato/ny-times-clone)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/ny-article) | [View in browser](https://adoniasdantas.github.io/ny-article/)
 
 ## Additional Resources
 

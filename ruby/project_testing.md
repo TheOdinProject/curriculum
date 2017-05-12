@@ -25,6 +25,10 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* xavier's solutions : [Caesar Cipher](https://github.com/nxdf2015/odin-building-blocks), [enumerable methods](https://github.com/nxdf2015/odin-advanced-building-blocks/tree/master/enumerable),[Tic Tac Toe](https://github.com/nxdf2015/odin-oop-with-ruby/tree/master/rspec)
+* Oleh Sliusar's solutions: [Caesar Cipher](https://github.com/OlehSliusar/caesar_cipher), [Enumerable Methods](https://github.com/OlehSliusar/enumerable_methods), [Tic-tac-toe](https://github.com/OlehSliusar/tic-tac-toe)
+* holdercp's solutions [Caesar Cipher and Enumerable Methods](https://github.com/holdercp/ruby-building-blocks), [Tic-Tac-Toe](https://github.com/holdercp/tic-tac-toe)
+* theghall's solutions [Caesar Cipher](https://github.com/theghall/caesar_cipher), [Enumerable methods](https://github.com/theghall/enum), [Tic Tac Toe](https://github.com/theghall/tic-tac-toe)
 * Nikolay Dyulgerov's solutions [Caesar Cippher](https://github.com/NicolayD/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable Methods](https://github.com/NicolayD/ruby-advanced-blocks/blob/master/spec/enumerable_methods_spec.rb), [Tic Tac Toe](https://github.com/NicolayD/ruby-oop/blob/master/spec/tictactoe_spec.rb)
 * mindovermiles262's Solutions [Caesar](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/caesar-cipher) [Enumerable](https://github.com/mindovermiles262/ruby-building-blocks/tree/master/enumerable-methods) [Tic-Tac-Toe](https://github.com/mindovermiles262/tictactoe)
 * yilmazgunalp's solution [Enumerable](https://github.com/yilmazgunalp/advanced_building_blocks), [TicTacToe](https://github.com/yilmazgunalp/tictac)
@@ -90,6 +94,10 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [xavier's solution](https://github.com/nxdf2015/odin-testing-ruby-with-rspec)
+* [holdercp's solution](https://github.com/holdercp/connect-four)
+* [theghall's solution](https://github.com/theghall/connect_four)
+* [jfonz412's solution](https://github.com/jfonz412/connect_four)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-rspec)
 * [Raiko's Solution](https://github.com/Cypher0/connect_four)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/connect_four)
@@ -146,6 +154,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Braydon Pacheco's solution](https://github.com/pacheeko/connect_four)
 * [Simon's solution](https://github.com/SimonSomlai/Odin/tree/master/Ruby/connect_four)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/connect_four)
+* [John Connor's solution](https://github.com/jacgitcz/tconnect4)
 
 ## Additional Resources
 
