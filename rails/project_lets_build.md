@@ -114,7 +114,7 @@ This syntax will be a bit different from the testing you have done before, thats
 
 I'll do a brief walkthrough of what's going on in this example just to get your mind warmed up for testing.  Refer back to the previous lessons on testing and additional resources below for better explanations!
 
-First of all, this file is just Ruby code (see the `.rb`).  It uses some new methods that are available through the minitest framework  The `require 'test_helper'` in the first line is what gives this test file (`test/controllers/static_pages_controller_test.rb`) all the methods and setup it needs to be run by minitest properly when you run your test suite (e.g. by typing or `$ bundle exec rake test` on the command line).
+First of all, this file is just Ruby code (see the `.rb`) using some new methods that are available through the minitest framework. The `require 'test_helper'` in the first line is what gives this test file (`test/controllers/static_pages_controller_test.rb`) all the methods and setup it needs to be run by minitest properly when you run your test suite (e.g. by typing or `$ bundle exec rake test` on the command line).
 
 When you run the test file, mini stores each `#test` block as a separate test and then runs them in a random order (which is important to make sure you haven't accidentally caused one test to influence another).  So all the stuff inside the `#test` block is what's actually passing or failing if you run the test.
 
