@@ -52,7 +52,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Sophia Wu's solution](https://github.com/SophiaLWu) | [View in browser](https://sophialwu.github.io/NY-times-article-clone/)
 * [Daunenok's solution](https://github.com/daunenok/new-york) | [View in browser](https://daunenok.github.io/new-york/)
 * [Austin's solution](https://github.com/CouchofTomato/ny-times-clone)
-
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/ny-article) | [View in browser](https://adoniasdantas.github.io/ny-article/)
 
 ## Additional Resources
 
