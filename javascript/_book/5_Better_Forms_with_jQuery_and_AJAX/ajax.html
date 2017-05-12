@@ -1,0 +1,893 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Submitting a Form Without Reloading by Using AJAX · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="project_ajax_forms.html" />
+    
+    
+    <link rel="prev" href="project_forms.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../1_The_ Basics_and_the+Browser/">
+            
+                <a href="../1_The_ Basics_and_the+Browser/">
+            
+                    
+                    The Basics and the Browser
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1_The_ Basics_and_the+Browser/js_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/js_basics.html">
+            
+                    
+                    JavaScript Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1_The_ Basics_and_the+Browser/project_js_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/project_js_basics.html">
+            
+                    
+                    PROJECT: On Screen Calculator
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1_The_ Basics_and_the+Browser/jq_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/jq_basics.html">
+            
+                    
+                    jQuery Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1_The_ Basics_and_the+Browser/project_jq_basics.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/project_jq_basics.html">
+            
+                    
+                    PROJECT: Manipulating the DOM with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../1_The_ Basics_and_the+Browser/organizing_code.html">
+            
+                <a href="../1_The_ Basics_and_the+Browser/organizing_code.html">
+            
+                    
+                    Organizing Your code and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../2_Events_Effects_and_Widgets/">
+            
+                <a href="../2_Events_Effects_and_Widgets/">
+            
+                    
+                    Events Effects and Widgets
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../2_Events_Effects_and_Widgets/events_effects.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/events_effects.html">
+            
+                    
+                    Working With Events and Effects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../2_Events_Effects_and_Widgets/project_events_effects.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/project_events_effects.html">
+            
+                    
+                    PROJECT: jQuery and the DOM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../2_Events_Effects_and_Widgets/widgets.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/widgets.html">
+            
+                    
+                    Using jQuery UI to Build Widgets
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../2_Events_Effects_and_Widgets/project_widgets.html">
+            
+                <a href="../2_Events_Effects_and_Widgets/project_widgets.html">
+            
+                    
+                    PROJECT: Creating an Image Carousel/Slider
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../3_Deeper_into_Javascript/">
+            
+                <a href="../3_Deeper_into_Javascript/">
+            
+                    
+                    Deeper into Javascript
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../3_Deeper_into_Javascript/objects_prototypes.html">
+            
+                <a href="../3_Deeper_into_Javascript/objects_prototypes.html">
+            
+                    
+                    Objects 'Classes', and Prototypes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../3_Deeper_into_Javascript/scope_closures.html">
+            
+                <a href="../3_Deeper_into_Javascript/scope_closures.html">
+            
+                    
+                    Scopes and Closures
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../3_Deeper_into_Javascript/project_scopes_closures.html">
+            
+                <a href="../3_Deeper_into_Javascript/project_scopes_closures.html">
+            
+                    
+                    PROJECT: Tic Tac Toe
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../3_Deeper_into_Javascript/comparing_to_ruby.html">
+            
+                <a href="../3_Deeper_into_Javascript/comparing_to_ruby.html">
+            
+                    
+                    Comparing JavaScript and Ruby: Going Functional
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../3_Deeper_into_Javascript/deep_dive_functions.html">
+            
+                <a href="../3_Deeper_into_Javascript/deep_dive_functions.html">
+            
+                    
+                    Really Understanding Functions in JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../3_Deeper_into_Javascript/project_functions.html">
+            
+                <a href="../3_Deeper_into_Javascript/project_functions.html">
+            
+                    
+                    PROJECT: Minesweeper
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../4_Advanced_Browser_Work/">
+            
+                <a href="../4_Advanced_Browser_Work/">
+            
+                    
+                    Advanced Browser Work
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../4_Advanced_Browser_Work/js_to_browser.html">
+            
+                <a href="../4_Advanced_Browser_Work/js_to_browser.html">
+            
+                    
+                    Loading JavaScript in the Browser
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../4_Advanced_Browser_Work/event_driven.html">
+            
+                <a href="../4_Advanced_Browser_Work/event_driven.html">
+            
+                    
+                    Callbacks: Living in an Event-Driven World
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../4_Advanced_Browser_Work/project_callbacks.html">
+            
+                <a href="../4_Advanced_Browser_Work/project_callbacks.html">
+            
+                    
+                    PROJECT: Callbacks
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../4_Advanced_Browser_Work/canvas.html">
+            
+                <a href="../4_Advanced_Browser_Work/canvas.html">
+            
+                    
+                    Using Canvas to Draw and More
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../4_Advanced_Browser_Work/project_canvas.html">
+            
+                <a href="../4_Advanced_Browser_Work/project_canvas.html">
+            
+                    
+                    PROJECT: Building Games with Canvas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Better forms with jQuery and AJAX
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="jquery_forms.html">
+            
+                <a href="jquery_forms.html">
+            
+                    
+                    Validating Form Inputs Using jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="project_forms.html">
+            
+                <a href="project_forms.html">
+            
+                    
+                    PROJECT: Validating a Form with jQuery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6.3" data-path="ajax.html">
+            
+                <a href="ajax.html">
+            
+                    
+                    Submitting a Form Without Reloading by Using AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="project_ajax_forms.html">
+            
+                <a href="project_ajax_forms.html">
+            
+                    
+                    PROJECT: Infinite Scroll and Submitting a Form with AJAX
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/">
+            
+                    
+                    Linking to API's and Your Rails Back End
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/javascript_apis.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/javascript_apis.html">
+            
+                    
+                    Working with Javascript APIs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_apis.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_apis.html">
+            
+                    
+                    PROJECT: Putting Google Maps Onto Your Site
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/rails_backend.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/rails_backend.html">
+            
+                    
+                    Using Ruby on Rails For Your Back End
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_rails_backend.html">
+            
+                <a href="../6_Linking_to_APIs_and_Your_Rails_Back_End/project_rails_backend.html">
+            
+                    
+                    PROJECT: Where's Waldo (A Photo Tagging App)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../7_Server_Side_JS_and_JS_Frameworks/">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/">
+            
+                    
+                    Server Side JS and JS Frameworks
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../7_Server_Side_JS_and_JS_Frameworks/server_side_js.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/server_side_js.html">
+            
+                    
+                    Node.js and Server-Side Javascript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../7_Server_Side_JS_and_JS_Frameworks/project_node.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/project_node.html">
+            
+                    
+                    PROJECT: Node.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../7_Server_Side_JS_and_JS_Frameworks/templating.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/templating.html">
+            
+                    
+                    Using Templates
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../7_Server_Side_JS_and_JS_Frameworks/js_frameworks.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/js_frameworks.html">
+            
+                    
+                    Javascript MV* Frameworks Like Angular.js and Backbone.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="../7_Server_Side_JS_and_JS_Frameworks/project_js_frameworks.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/project_js_frameworks.html">
+            
+                    
+                    PROJECT: Building Single Page Websites with Angular.js and Backbone.js
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="../7_Server_Side_JS_and_JS_Frameworks/workflow_tools.html">
+            
+                <a href="../7_Server_Side_JS_and_JS_Frameworks/workflow_tools.html">
+            
+                    
+                    Workflow Tools, Tech Stacks and Dependency Management
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../8_Finishing_up_with_JavaScript/">
+            
+                <a href="../8_Finishing_up_with_JavaScript/">
+            
+                    
+                    Finishing up with JavaScipt
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../8_Finishing_up_with_JavaScript/js_testing.html">
+            
+                <a href="../8_Finishing_up_with_JavaScript/js_testing.html">
+            
+                    
+                    JavaScript Testing with Jasmine
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../8_Finishing_up_with_JavaScript/project_final_js.html">
+            
+                <a href="../8_Finishing_up_with_JavaScript/project_final_js.html">
+            
+                    
+                    PROJECT: Final Project
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../8_Finishing_up_with_JavaScript/conclusion.html">
+            
+                <a href="../8_Finishing_up_with_JavaScript/conclusion.html">
+            
+                    
+                    Conclusion
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Submitting a Form Without Reloading by Using AJAX</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="submitting-a-form-without-reloading-by-using-ajax">Submitting a Form Without Reloading by Using AJAX</h1>
+<p>Callbacks, with which you should be pretty familiar by now, are very useful for things like browser events but they&apos;re essential when using AJAX (Asynchronous JavaScript and XML).  AJAX sends data (or a request for data) to your server backend without blocking the browser from doing other activities while you wait for a response.  You pass the AJAX function a callback and, when the server response is finally received, you will activate the callback with whatever has been returned and continue on your way.  </p>
+<p>The best part of AJAX is that it doesn&apos;t actually require a full page refresh like clicking a hyperlink or a normal form submission would.  The response you get back from the server is simply a JSON data package and not a full HTML document, so you will be able to process it inside your existing page.  That gives you all kinds of power to build apps that only require a single page (which changes content based on where you &quot;navigate&quot; and what data gets returned) and to hide slow network operations from your user by loading the page in pieces.</p>
+<h2 id="points-to-ponder">Points to Ponder</h2>
+<ul>
+<li>What is AJAX?</li>
+<li>What is JSON?</li>
+<li>What does a JSON response actually look like?</li>
+<li>How do you use the basic Javascript AJAX method?</li>
+<li>How do you use jQuery&apos;s AJAX method(s)?</li>
+<li>What are the AJAX &quot;convenience&quot; methods good for (e.g. <code>$.post</code>)?</li>
+<li>How do you format data to be sent to the server?</li>
+<li>What is the <code>#serialize</code> method?</li>
+<li>How do you process data that is sent back from the server?</li>
+<li>How do you handle errors generated during the process?</li>
+<li>How can you use events to &quot;listen&quot; for AJAX operations, for instance if you wanted to create a &quot;loading...&quot; notification that disappears when you&apos;re done loading?</li>
+</ul>
+<h2 id="your-assignment">Your Assignment</h2>
+<ol>
+<li>Read <a href="http://learn.jquery.com/ajax" target="_blank">AJAX from learn.jquery.com</a> for an introduction to AJAX.  Read through each of the links at the bottom, e.g. &quot;Key Concepts&quot;.</li>
+<li>Browse <a href="http://coding.smashingmagazine.com/2010/02/10/some-things-you-should-know-about-ajax/" target="_blank">Some Things You Should Know About AJAX (2010) from Smashing Magazine</a> for another look at both the code and the principles of using AJAX.</li>
+<li>If you&apos;re still looking for another explanation, read <a href="http://www.mattlunn.me.uk/blog/2012/10/submitting-a-form-as-an-ajax-request-using-jquery/" target="_blank">Submitting a Form as an AJAX Request using jQuery by Matt Lunn</a> (but it will be review)</li>
+</ol>
+<h2 id="additional-resources">Additional Resources</h2>
+<p><em>This section contains helpful links to other content. It isn&apos;t required, so consider it supplemental for if you need to dive deeper into something</em></p>
+<ul>
+<li><a href="http://api.jquery.com/category/ajax/global-ajax-event-handlers/" target="_blank">jQuery&apos;s Global AJAX Event Handlers docs</a></li>
+<li><a href="http://www.ajaxload.info/" target="_blank">AJAX Loading Icons</a> (for fun)</li>
+<li><a href="http://www.mattlunn.me.uk/blog/2012/05/sending-formdata-with-jquery-ajax/" target="_blank">HTML5&apos;s FormData Object by Matt Lunn</a></li>
+<li><a href="http://www.sitepoint.com/easier-ajax-html5-formdata-interface/" target="_blank">Easier AJAX With the HTML5 FormData Interface by Craig Buckler</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="project_forms.html" class="navigation navigation-prev " aria-label="Previous page: PROJECT: Validating a Form with jQuery">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="project_ajax_forms.html" class="navigation navigation-next " aria-label="Next page: PROJECT: Infinite Scroll and Submitting a Form with AJAX">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Submitting a Form Without Reloading by Using AJAX","level":"1.6.3","depth":2,"next":{"title":"PROJECT: Infinite Scroll and Submitting a Form with AJAX","level":"1.6.4","depth":2,"path":"5_Better_Forms_with_jQuery_and_AJAX/project_ajax_forms.md","ref":"5_Better_Forms_with_jQuery_and_AJAX/project_ajax_forms.md","articles":[]},"previous":{"title":"PROJECT: Validating a Form with jQuery","level":"1.6.2","depth":2,"path":"5_Better_Forms_with_jQuery_and_AJAX/project_forms.md","ref":"5_Better_Forms_with_jQuery_and_AJAX/project_forms.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"5_Better_Forms_with_jQuery_and_AJAX/ajax.md","mtime":"2017-05-03T18:28:45.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-05-03T19:17:03.220Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
