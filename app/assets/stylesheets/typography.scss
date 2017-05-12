@@ -1,0 +1,49 @@
+.display {
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 0.4;
+  color: $text-primary;
+  font-family: $headline-fonts;
+}
+.headline {
+  font-size: 24px;
+  letter-spacing: 0.3;
+  color: $text-primary;
+  font-family: $headline-fonts;
+}
+.title {
+  font-size: 20px;
+  letter-spacing: 0.2;
+  color: $text-primary;
+  font-family: $headline-fonts;
+}
+.subheader {
+  font-size: 18px;
+  letter-spacing: 0.2;
+  color: $text-primary;
+  font-family: $headline-fonts;
+}
+.body {
+  font-size: 16px;
+  letter-spacing: 0.2;
+  color: $text-primary;
+  font-family: $body-fonts;
+}
+.small {
+  font-size: 13px;
+  letter-spacing: 0.2;
+  color: $text-primary;
+  font-family: $body-fonts;
+}
+.secondary {
+  color: $grey;
+}
+.disabled {
+  color: $pale-grey;
+}
+.accent {
+  color: $light-orange;
+}
+.bold {
+  font-weight: bold;
+}
