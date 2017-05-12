@@ -482,6 +482,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Tim Ott's solution](https://github.com/Vanamman/Project-Euler.git)
 * [Dallas Rhinehart's solution](https://github.com/drrhinehart/project-euler/blob/master/problem-01.js)
 * [Will Cardoso's solution](https://github.com/willianncardoso/project_euler/blob/master/multiples_3_5.js)
+* [jacobhancock's solution](https://github.com/jacobhancock/Javascript-101) | [View in browser](https://jacobhancock.github.io/Javascript-101/)
 
 ## Additional Resources
 
