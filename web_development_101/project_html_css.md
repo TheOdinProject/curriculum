@@ -95,6 +95,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 * Add your solution below this line
 * [Alexandra Wright's Solution (Easy)](https://github.com/f3mshep/google-clone) | [View in browser](https://f3mshep.github.io/google-clone/)
+*[Breadbear's Solution (Easy)](https://github.com/breadbear/google-homepage) | [View in browser](https://breadbear.github.io/google-homepage/)
 * [Aachman's Solution (Easy)](https://github.com/forever-a-looney/google_homepage) | [View in browser](https://forever-a-looney.github.io/google_homepage/)
 * [Krystell Barraza's Solution (Easy)](https://krystellbarraza.github.io/google-homepage/) | [View in browser](https://krystellbarraza.github.io/google-homepage/)
 * [Krystell Barraza's Solution (Difficult)](https://krystellbarraza.github.io/google-searchpage/) | [View in browser](https://krystellbarraza.github.io/google-searchpage/)
@@ -1095,7 +1096,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Nallely's solution(Easy)](https://nallelytg.github.io/google_homepage) | [View in browser](https://nallelytg.github.io/google_homepage/)
 * [Alfredo's solution(Easy)](https://github.com/alfasf/google-homepage) | [View in browser](https://alfasf.github.io/google-homepage/)
 * [Will's solution(Easy)](https://github.com/willianncardoso/google-homepage) | [View in browser](https://willianncardoso.github.io/google-homepage/)
-* [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage) 
+* [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage)
 * [Tim Ott's Solution(Easy)](https://github.com/Vanamman/google-homepage/) | [View in brower](https://vanamman.github.io/google-homepage/)
 * [Dallas Rhinehart's Solution (Easy)](https://github.com/drrhinehart/google-homepage) | [View in browser](https://drrhinehart.github.io/google-homepage/)
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
