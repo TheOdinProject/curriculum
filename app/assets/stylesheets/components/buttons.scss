@@ -1,0 +1,27 @@
+.button {
+  $button-colors: (
+    "primary": $button-primary,
+    "secondary": $button-seconday,
+  );
+
+  border-radius: 0.2em;
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+  color: $white !important;
+  display: inline-block;
+  font-size: 1.125em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  padding: 1em 3em;
+  text-align: center;
+  text-decoration: none;
+
+  @each $color-variant, $color in $button-colors {
+    &--#{$color-variant} {
+      background-color: $color;
+
+      &:hover {
+        background-color: darken($color, 5%);
+      }
+    }
+  }
+}

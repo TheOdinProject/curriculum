@@ -1,7 +1,5 @@
 .success-stories {
-  min-height: 960px;
   width: 100%;
-  padding-bottom: 60px;
   @media(max-width: 480px){
     padding-bottom: 0;
   }
@@ -93,36 +91,6 @@
       text-decoration: underline;
     }
   }
-
-  .success-stories-sign-up {
-    margin: 60px 0;
-    font-size: 2.2em;
-    font-weight: 100;
-    width: 100%;
-    padding: 0 40px;
-    text-align: center;
-    letter-spacing: 0.4px;
-    p {
-      color: $grey;
-      line-height: 1.5em;
-    }
-    .signup-button {
-      text-decoration: none;
-      background-color: #6abfc3;
-      color: #ffffff;
-      display: block;
-      width: 190px;
-      text-align: center;
-      height: 60px;
-      border-radius: 3px;
-      line-height: 60px;
-      margin: 60px auto;
-      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-      font-weight: bold;
-      letter-spacing: 0.2px;
-      font-size: 18px;
-    }
-  }
 }
 
 .success-stories-page {
@@ -173,26 +141,4 @@
       color: rgba($text-primary, 0.7);
     }
   }
-
-  .success-stories-sign-up {
-    font-size: 2.2em;
-    font-weight: light;
-    width: 100%;
-    text-align: center;
-    letter-spacing: 0.4px;
-    color: rgba($text-primary, 0.7);
-    margin-bottom: 3.6em;
-    margin-top: 100px;
-
-    @include main-button($button-primary);
-
-    .signup-button {
-      margin: 60px auto;
-      width: 200px;
-      font-weight: bold;
-      letter-spacing: 0.2px;
-      font-size: 18px;
-    }
-  }
-
 }
