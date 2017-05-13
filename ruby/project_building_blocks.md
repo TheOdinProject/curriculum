@@ -40,6 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Dallaire's solution](https://github.com/Dallaire/ruby_building_blocks/blob/master/ceaser_cipher.rb)
 * [zulixro's solution](https://github.com/zulixro/Caesar-Cipher-project/blob/master/cipher.rb)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/ruby-building-blocks/caesar_cipher.rb)
 * [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/caeser.rb)
@@ -355,6 +356,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Dallaire's solution](https://github.com/Dallaire/ruby_building_blocks/blob/master/stock_picker.rb)
 * [zulixro's solution](https://github.com/zulixro/Stock-picker/blob/master/stock_picker.rb)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/ruby-building-blocks/stock_picker.rb)
 * [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/stock_picker.rb)
@@ -652,6 +654,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Dallaire's solution](https://github.com/Dallaire/ruby_building_blocks/blob/master/substring.rb)
 * [zulixro's solution](https://github.com/zulixro/Substring-search/blob/master/substring_search.rb)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/ruby-building-blocks/substrings.rb)
 * [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/substrings.rb)
