@@ -26,6 +26,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* OlehSliusar's solution: [Live](https://caesar-cipher-reloaded-0.herokuapp.com/) | [Source code](https://github.com/OlehSliusar/caesar_cipher_reloaded)
 * mindovermiles262's [caesar cipher](https://fast-citadel-19591.herokuapp.com/) | [github](https://github.com/mindovermiles262/caesar-cipher)
 * Jordan Ellis-Lynch's [solution](https://blooming-ravine-82875.herokuapp.com/).
 * ToTenMilan's solution [github](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/sinatra/caesar_cipher)
