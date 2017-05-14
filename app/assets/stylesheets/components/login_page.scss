@@ -1,127 +1,138 @@
 #devise-form {
-    
-    overflow: hidden;
+  
+  overflow: hidden;
 
-    h1 {
-        text-align: center;
-    }
+  h1 {
+    text-align: center;
+  }
 
-    .card {
-        width: 435px;
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-        padding: 50px 55px;
-        margin: 75px auto 0 auto;
-    }
-    .login {
-        width: 263px;
-        floart: left;
-        background-color: rgba(0, 0, 0, 0.03);
-        font-family: $body-fonts;
-    }
+  .card {
+    width: 435px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 50px 55px;
+    margin: 75px auto 0 auto;
+  }
+  .login {
+    width: 263px;
+    floart: left;
+    background-color: rgba(0, 0, 0, 0.03);
+    font-family: $body-fonts;
+  }
 
-    .email, .password {
-        height: 54.3px;
-        margin-bottom: 20px;
-        border: none;
-        font-size: 16px;
-        line-height: 1.88;
-        letter-spacing: 0.2px;
-        color: rgba(74, 74, 74, 0.3);
-    }
-    .logo { 
-        float: left;
-        height: 54.3px;
-        width: 62px;
-        background-color: rgba(0, 0, 0, 0.03);
-        }
+  .email, .password {
+    padding: 0;
+    height: 54.3px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.2px;
+    color: rgba(74, 74, 74, 0.3);
+  }
 
-    .lock::before {
-        position: relative;
-        font-size: 32px;
-        display: block;
-        text-align: center;
-        top: 11.1px;
-    }
+  .password {
+    margin-bottom: 24.3px;
+  }
 
-    .envelope::before {
-        position: relative;
-        font-size: 25px;
-        display: block;
-        text-align: center;
-        top: 14.6px;
-    }
+  .logo { 
+    float: left;
+    height: 54.3px;
+    width: 62px;
+    background-color: rgba(0, 0, 0, 0.03);
+  }
 
-    .forgot-password {
-        float: right;
-        font-size: 13px;
-        letter-spacing: 0.2px;
-        color: rgba(74, 74, 74, 0.3);
-    }
+  .lock::before {
+    position: relative;
+    font-size: 32px;
+    display: block;
+    text-align: center;
+    top: 11.1px;
+  }
 
-    .page-buttons {
-        width: 325px;
-        height: 60.4px;
-        border-radius: 3px;
-        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-        font-size: 18px;
-        font-weight: bold;
-        letter-spacing: 0.2px;
-        color: #ffffff;
-    }
-    .sign-in-button {
-        background-color: $button-primary;
-        text-align: center;
-    }
-    .github-login-button {
-        display: inline-block;
-        background-color: $text-primary;
-        padding-top: 14.2px;
-        vertical-align: middle;
-    }
+  .envelope::before {
+    position: relative;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    top: 14.6px;
+  }
+  .checkbox, .forgot-password {
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: rgba(74, 74, 74, 0.3);
+    vertical-align: top;
+    margin-bottom: 30.3px;
+  }
 
-    i {
-        padding-right: 20px;
-        font-size: 32px;
-        vertical-align: middle;
-    }
+  .forgot-password {
+    float: right;
+    text-decoration: underline;
+  }
 
-    .in-between {
-        margin: 30px 0;
-        font-size: 13px;
-        letter-spacing: 0.2px;
-        color: rgba(74, 74, 74, 0.3);
-        text-align: center;
-        border-bottom: 1px solid #ddd;
-        line-height: 0;
-        padding: 0;
-    }
+  .page-buttons {
+    width: 325px;
+    height: 60.4px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+  }
+  .sign-in-button {
+    background-color: $button-primary;
+    text-align: center;
+  }
+  .github-login-button {
+    display: inline-block;
+    background-color: $text-primary;
+    padding-top: 14.2px;
+    vertical-align: middle;
+  }
 
-    .in-between span {
-        background: #fff;
-        padding: 0 20px;
-    }
+  i {
+    padding-right: 20px;
+    font-size: 32px;
+    vertical-align: middle;
+  }
 
-    .not-signed-up {
-        margin-top: 150px;
-        text-align: center;
-        font-size: 36px;
-        font-weight: 300;
-        letter-spacing: 0.4px;
-        color: rgba(74, 74, 74, 0.7);
-    }
+  .in-between {
+    margin: 30px 0;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: rgba(74, 74, 74, 0.3);
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    line-height: 0;
+    padding: 0;
+  }
 
-    .sign-up-button {
-        display: block;
-        width: 234px;
-        font-size: 18px;
-        font-weight: bold;
-        letter-spacing: 0.2px;
-        text-align: center;
-        color: rgba(74, 74, 74, 0.3);
-        border-radius: 3px;
-        border: solid 3px rgba(74, 74, 74, 0.3);
-        padding: 18px;
-        margin: 50px auto 197px auto;
-        clear: right;
-    }
+  .in-between span {
+    background: #fff;
+    padding: 0 20px;
+  }
+
+  .not-signed-up {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    color: rgba(74, 74, 74, 0.7);
+  }
+
+  .sign-up-button {
+    display: block;
+    width: 234px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: rgba(74, 74, 74, 0.3);
+    border-radius: 3px;
+    border: solid 3px rgba(74, 74, 74, 0.3);
+    padding: 18px;
+    margin: 50px auto 197px auto;
+    clear: right;
+  }
 }
