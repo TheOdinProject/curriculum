@@ -9,21 +9,36 @@
     margin: 75px auto 0 auto;
   }
   .login {
-    width: 263px;
-    floart: left;
+    width: 323px;
+    //float: left;
     background-color: $pale-grey-bg;
     font-family: $body-fonts;
   }
 
   .email, .password {
-    padding: 0;
     height: 54.3px;
+    margin-left: -30px;
+    padding-left: 60px;
     margin-bottom: 20px;
     border: none;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.2px;
     color: $pale-grey;
+  }
+
+  .input-group .fa-envelope { 
+    position: absolute;
+    font-size: 25px;
+    left: 15px;
+    top: 14.6px;
+  }
+
+  .input-group .fa-lock {
+    position: absolute;
+    font-size: 32px;
+    left: 17.21px;
+    top: 11.1px;
   }
 
   .password {
@@ -37,21 +52,6 @@
     background-color: $pale-grey-bg;
   }
 
-  .lock::before {
-    position: relative;
-    font-size: 32px;
-    display: block;
-    text-align: center;
-    top: 11.1px;
-  }
-
-  .envelope::before {
-    position: relative;
-    font-size: 25px;
-    display: block;
-    text-align: center;
-    top: 14.6px;
-  }
   .checkbox, .forgot-password {
     font-size: 13px;
     letter-spacing: 0.2px;
