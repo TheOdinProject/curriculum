@@ -4,7 +4,7 @@ module ButtonHelper
   end
 
   def gitter_button
-    link_to 'Open Gitter', chat_link, class: 'button button--secondary', target: '__blank'
+    link_to 'Open Gitter', chat_link, class: 'button button--secondary', target: '_blank'
   end
 
   def contribute_button

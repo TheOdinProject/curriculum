@@ -6,7 +6,7 @@
 
   border-radius: 0.2em;
   box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
-  color: $white !important;
+  color: $white;
   display: inline-block;
   font-size: 1.125em;
   font-weight: bold;
@@ -21,6 +21,11 @@
 
       &:hover {
         background-color: darken($color, 5%);
+        color: $white;
+      }
+
+      &:focus {
+        color: $white;
       }
     }
   }
