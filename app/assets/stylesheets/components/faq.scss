@@ -36,28 +36,3 @@
     text-decoration: none;
   }
 }
-
-.odin-community {
-  padding-bottom: 6em;
-
-  .got-questions {
-    color: grey;
-    font-size: 36px;
-    font-weight: 300;
-    letter-spacing: 0.4px;
-  }
-
-  .hang-out {
-    letter-spacing: 0.2px;
-  }
-
-  .gitter-btn {
-    @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
-    @include border-radius(3px);
-    font-weight: bold;
-    height: 60px;
-    line-height: 60px;
-    margin: 2.5em 0;
-    padding: 0 2em;
-  }
-}

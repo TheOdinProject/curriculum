@@ -1,40 +1,43 @@
-<div class="container">
-  <div class="success-stories-page">
-    <div class="success-stories-title-full">
-      <h1 class="text-center">Success Stories</h1>
-    </div>
+<div class='gradient'>
+  <div class="container">
+    <div class="success-stories-page">
+      <div class="success-stories-title-full">
+        <h1 class="text-center">Success Stories</h1>
+      </div>
 
-    <%
-      success_stories = [
-        { student_name: 'Ben Gray', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'The best free learning resource for code learners. Highly recommend it! Great community as well on Gitter.', completed_course: 'Ruby on Rails Course' },
-        { student_name: 'Michael Weins', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Fantastic learning experience with The Odin Project! Upon completion, I was offered a job at several startups.', completed_course: 'Javascript Course'},
-        { student_name: 'Kris Tobiki', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Incredible experience throughout the curriculum. I’ve met many new developer friends and collaborated together.', completed_course: 'Full Stack Track' },
-        { student_name: 'Laura Smith', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Love the courses offered and the self-paced learning. I absolutely love the personal dashboard to track progress.', completed_course: 'Front-End Track' }
-      ]
-    %>
+      <%
+        success_stories = [
+          { student_name: 'Ben Gray', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'The best free learning resource for code learners. Highly recommend it! Great community as well on Gitter.', completed_course: 'Ruby on Rails Course' },
+          { student_name: 'Michael Weins', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Fantastic learning experience with The Odin Project! Upon completion, I was offered a job at several startups.', completed_course: 'Javascript Course'},
+          { student_name: 'Kris Tobiki', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Incredible experience throughout the curriculum. I’ve met many new developer friends and collaborated together.', completed_course: 'Full Stack Track' },
+          { student_name: 'Laura Smith', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Love the courses offered and the self-paced learning. I absolutely love the personal dashboard to track progress.', completed_course: 'Front-End Track' }
+        ]
+      %>
 
-    <div class="row">
-      <div class="col-lg-10 offset-lg-1">
-        <% success_stories.each do |story| %>
-          <div class="card-main card-success-stories">
-            <div class="row">
-              <div class="photo"> <%= image_tag story[:student_avatar_url], class: "img-fluid" %></div>
-              <div class="success-content">
-                <p class="student-name"><%= story[:student_name] %></p>
-                <p class="grey"><%= story[:story_content] %></p>
+      <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+          <% success_stories.each do |story| %>
+            <div class="card-main card-success-stories">
+              <div class="row">
+                <div class="photo"> <%= image_tag story[:student_avatar_url], class: "img-fluid" %></div>
+                <div class="success-content">
+                  <p class="student-name"><%= story[:student_name] %></p>
+                  <p class="grey"><%= story[:story_content] %></p>
+                </div>
+              </div>
+              <div class="completed-label">
+                Completed <%= story[:completed_course] %>
               </div>
             </div>
-            <div class="completed-label">
-              Completed <%= story[:completed_course] %>
-            </div>
-          </div>
-        <% end %>
+          <% end %>
+        </div>
       </div>
-    </div>
 
-    <div class="success-stories-sign-up">
-      <p>Start learning for free now!</p>
-      <%= link_to 'Sign Up', sign_up_path(ref: 'success_stories'), class: 'signup-button main-button' %>
+      <%= render 'shared/bottom_cta',
+          button: sign_up_button,
+          heading: 'Start learning for free now!',
+          subheading: ''
+      %>
     </div>
   </div>
-</div>
+</div
