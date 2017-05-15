@@ -47,18 +47,27 @@
     event: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
   }
 ] %>
+
 <div class="StaticPagesController">
   <div id="about">
     <div class="container">
       <%= render 'static_pages/about/intro' %>
 
       <%= render 'static_pages/about/beliefs', beliefs: beliefs %>
-    </div> 
-      <%= render 'static_pages/about/story', timelines: timelines %>
+    </div>
+
+    <%= render 'static_pages/about/story', timelines: timelines %>
+
     <div class="container">
       <%= render 'static_pages/about/contact' %>
     </div>
-      <%= render 'static_pages/about/contribute' %>
+
+    <div class="contribute">
+        <%= render 'shared/bottom_cta',
+            button: contribute_button,
+            heading: 'Help the Odin Project stay current and meaningful to all future students, please contribute',
+            subheading: ''
+        %>
+    </div>
   </div>
 </div>
-

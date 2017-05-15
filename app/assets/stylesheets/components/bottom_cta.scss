@@ -1,0 +1,20 @@
+.bottom-cta {
+  margin: 3.75em 0 0 0;
+  font-weight: 100;
+  padding: 0 2.5em;
+  text-align: center;
+  padding-bottom: 3.75em;
+
+  &__heading {
+    color: $grey;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    margin: 0 auto 1rem;
+    max-width: 30em;
+  }
+
+  &__sub-heading {
+    font-weight: normal;
+    margin-bottom: 2.5em;
+  }
+}

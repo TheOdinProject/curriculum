@@ -20,7 +20,7 @@
 	  <div class="name-and-photo">
             <div class="photo2"> <%= image_tag story[:student_avatar_url] %> </div>
             <p><%= story[:student_name] %></p>
-	  </div>  
+	  </div>
           <p><%= story[:story_content] %></p>
         </div> <!-- /.success-content -->
       </div> <!-- /.success-story -->
@@ -31,10 +31,9 @@
     <%= link_to 'Read more success stories', success_stories_path %>
   </div> <!-- /.success-stories-read-more -->
 
-  <div class="success-stories-sign-up">
-    <p>Start learning for free now!</p>
-    <a href=<%= sign_up_path(ref: 'homenav') %> class="signup-button">
-      Sign Up
-    </a>
-  </div> <!-- /.success-stories-sign-up -->
+  <%= render 'shared/bottom_cta', {
+      button: sign_up_button,
+      heading: 'Start learning for free now!',
+      subheading: ''
+  %>
 </div> <!-- /.success-stories -->

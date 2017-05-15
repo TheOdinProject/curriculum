@@ -21,7 +21,7 @@ module ApplicationHelper
     bootstrap_classes.fetch(flash_type, custom_flash(flash_type))
   end
 
-def faq_items
+  def faq_items
     [
       {
         question: 'Who is The Odin Project for?',
@@ -35,8 +35,8 @@ def faq_items
       },
       {
         question: 'What is the goal of the The Odin Project?',
-        answer: 
-          '<p>The goal of The Odin Project is to provide a complete path for students to go from zero to employed as web developers while working with other students along the way.</p>'        
+        answer:
+          '<p>The goal of The Odin Project is to provide a complete path for students to go from zero to employed as web developers while working with other students along the way.</p>'
       },
       {
         question: 'How long does The Odin Project take?',

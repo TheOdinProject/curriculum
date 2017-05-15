@@ -5,34 +5,6 @@
 .contributing {
   color: $text-primary;
 
-  section {
-    padding: 3em 0;
-  }
-
-  // Browser default
-  p {
-    margin: 1em 0;
-  }
-
-  // Buttons
-  .cta {
-    text-decoration: none;
-    background-color: $primary;
-    color: #ffffff;
-    display: block;
-    text-align: center;
-    padding: 0 1.5em 0 1.5em;
-    width: 200px;
-    height: 60px;
-    border-radius: 3px;
-    line-height: 60px;
-    margin: 50px auto 50px;
-    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-    font-weight: bold;
-    letter-spacing: 0.2px;
-    font-size: 18px;
-  }
-
   .card-contributing {
     height: 95%;
     margin-top: 5%;
@@ -59,12 +31,6 @@
       color: darken($primary, 10%);
     }
   }
-
-  // Sections
-  .questions {
-    margin-top: 8rem;
-  }
-
   // Hall of fame circles
   .grid {
     display: flex;
@@ -122,4 +88,3 @@
   }
 
 }
-
