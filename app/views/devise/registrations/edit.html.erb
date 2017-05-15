@@ -1,26 +1,26 @@
 <div id="user_settings" class="gradient">
   <div class="container center-contents">
-    <h1 class="text-center settings-section">Settings</h1>
+    <h1 class="text-center accent settings-section">Settings</h1>
     <div class="profile settings-section">
-      <h2>Profile</h2>
+      <h2 class="accent bold">Profile</h2>
       <div class="settings-card profile-card">
         <div class="profile-pic align-items-center">
           <%= image_tag gravatar_url(@user, 100), alt: "Profile Pic"%>
         </div>
         <div class="profile-details">
           <div class="field">
-            <div class="label">Name</div>
+            <p class="label bold">Name</p>
             <div class="value"><%= best_in_place @user, :username, as: :input %></div>
           </div>
           <div class="field">
-            <div class="label">Email Address</div>
+            <p class="label bold">Email Address</p>
             <div class="value"><%= best_in_place @user, :email, as: :input %></div>
           </div>
         </div>
       </div>
     </div>
     <div class="learning-goal settings-section">
-      <h2>Learning Goal</h2>
+      <h2 class="accent bold">Learning Goal</h2>
       <div class="settings-card profile-card">
         <div class="goal">
           <%= best_in_place @user, :learning_goal, as: :input, place_holder: "Click me to set a learning goal!"%>
@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="password-card settings-section">
-      <h2>Password</h2>
+      <h2 class="accent bold">Password</h2>
       <div class="password-card settings-card">
         <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put, class: "form-horizontal" }) do |f| %>
           <%= f.error_notification %>
@@ -53,7 +53,7 @@
       </div>
     </div>
     <div class="notifications settings-section">
-      <h2>Notifications</h2>
+      <h2 class="accent bold">Notifications</h2>
       <div class="settings-card profile-card">
         Notification stuff goes here
       </div>

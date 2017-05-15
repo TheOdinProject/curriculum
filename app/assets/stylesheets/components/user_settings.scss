@@ -1,7 +1,4 @@
 #user_settings{
-  line-height: 1.88;
-  letter-spacing: .2px;
-  color: $text-primary;
   padding-bottom: 110px;
   .settings-card {
     background: $white;
@@ -34,7 +31,6 @@
       padding: 10px;
       .label {
         width: 150px;
-        font-weight: 700;
       }
       .value {
         flex: 3;
@@ -56,9 +52,6 @@
     }  
   }
   h2 {
-    font-weight: 700;
-    font-size: 24px;
-    color: $primary;
     margin-bottom: 30px;
   }
   .cancel-link {

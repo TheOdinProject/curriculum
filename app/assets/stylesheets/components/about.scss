@@ -5,7 +5,6 @@
 
   .row {
     padding: 40px 0;
-    color: $text-primary;
   }
 
   .intro {
@@ -31,7 +30,6 @@
 
       .belief-description {
         .belief-short-text {
-          font-size: 1.2em;
           padding-bottom: 1em;
         }
         @media screen and (max-width: 575px) {
@@ -47,19 +45,12 @@
     padding: 100px 20px;
     h2 {
       width: 100%;
-      color: $primary;
     }
     .timeline {
-      font-size: .8em;
       .year {
-        font-size: 1.2em;
         font-weight: 900;
         -webkit-transform: translateY(-8px);
         transform: translateY(-8px);
-
-        h3 {
-          color: $primary;
-        }
       }
     }
     @media(max-width: 576px) {
@@ -68,10 +59,6 @@
   }
 
   .contact {
-    h2 {
-      color: $primary;
-    }
-
     .odin-logo {
       text-align: center;
       height: 300px;
@@ -141,15 +128,6 @@
   .contribute {
     background: linear-gradient(white, $light-grey);
     margin: 0;
-    h2 {
-      font-weight: 300;
-      max-width: 960px;
-      margin: 0 auto;
-      font-size: 36px;
-      line-height: 1.5em;
-      letter-spacing: 0.4px;
-      color: $grey;
-    }
     .cta {
         text-decoration: none;
         background-color: $button-primary;

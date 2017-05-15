@@ -1,6 +1,6 @@
 <div class="success-stories gradient">
  <div class="success-stories-title">
-    <h2>Success Stories</h2>
+    <h2 class="bold">Success Stories</h2>
   </div> <!-- /.success-stories-title -->
 
   <%
@@ -28,10 +28,10 @@
   </div> <!-- /.success-stories-container -->
 
   <div class="success-stories-read-more">
-    <%= link_to 'Read more success stories', success_stories_path %>
+    <%= link_to 'Read more success stories', success_stories_path, class: 'secondary' %>
   </div> <!-- /.success-stories-read-more -->
 
-  <%= render 'shared/bottom_cta', {
+  <%= render 'shared/bottom_cta', 
       button: sign_up_button,
       heading: 'Start learning for free now!',
       subheading: ''
