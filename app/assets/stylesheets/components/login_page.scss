@@ -2,20 +2,16 @@
   
   overflow: hidden;
 
-  h1 {
-    text-align: center;
-  }
-
   .card {
     width: 435px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
     padding: 50px 55px;
     margin: 75px auto 0 auto;
   }
   .login {
     width: 263px;
     floart: left;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: $pale-grey-bg;
     font-family: $body-fonts;
   }
 
@@ -27,7 +23,7 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.2px;
-    color: rgba(74, 74, 74, 0.3);
+    color: $pale-grey;
   }
 
   .password {
@@ -38,7 +34,7 @@
     float: left;
     height: 54.3px;
     width: 62px;
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: $pale-grey-bg;
   }
 
   .lock::before {
@@ -59,7 +55,7 @@
   .checkbox, .forgot-password {
     font-size: 13px;
     letter-spacing: 0.2px;
-    color: rgba(74, 74, 74, 0.3);
+    color: $pale-grey;
     vertical-align: top;
     margin-bottom: 30.3px;
   }
@@ -77,7 +73,7 @@
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.2px;
-    color: #ffffff;
+    color: $white;
   }
   .sign-in-button {
     background-color: $button-primary;
@@ -90,7 +86,7 @@
     vertical-align: middle;
   }
 
-  i {
+  i.providers-button {
     padding-right: 20px;
     font-size: 32px;
     vertical-align: middle;
@@ -100,25 +96,23 @@
     margin: 30px 0;
     font-size: 13px;
     letter-spacing: 0.2px;
-    color: rgba(74, 74, 74, 0.3);
-    text-align: center;
-    border-bottom: 1px solid #ddd;
+    color: $pale-grey;
+    border-bottom: 1px solid $dark-grey;
     line-height: 0;
     padding: 0;
   }
 
   .in-between span {
-    background: #fff;
+    background: $white;
     padding: 0 20px;
   }
 
   .not-signed-up {
     margin-top: 150px;
-    text-align: center;
     font-size: 36px;
     font-weight: 300;
     letter-spacing: 0.4px;
-    color: rgba(74, 74, 74, 0.7);
+    color: $grey;
   }
 
   .sign-up-button {
@@ -127,10 +121,9 @@
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.2px;
-    text-align: center;
-    color: rgba(74, 74, 74, 0.3);
+    color: $pale-grey;
     border-radius: 3px;
-    border: solid 3px rgba(74, 74, 74, 0.3);
+    border: solid 3px $pale-grey;
     padding: 18px;
     margin: 50px auto 197px auto;
     clear: right;
