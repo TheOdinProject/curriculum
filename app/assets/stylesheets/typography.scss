@@ -1,39 +1,31 @@
-.display {
+h1, h2, h3, h4, p {
+  color: $text-primary;
+  font-family: $headline-fonts;
+}
+h1 {
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 0.4;
-  color: $text-primary;
-  font-family: $headline-fonts;
 }
-.headline {
+h2 {
   font-size: 24px;
   letter-spacing: 0.3;
-  color: $text-primary;
-  font-family: $headline-fonts;
 }
-.title {
+h3 {
   font-size: 20px;
   letter-spacing: 0.2;
-  color: $text-primary;
-  font-family: $headline-fonts;
 }
-.subheader {
+h4 {
   font-size: 18px;
   letter-spacing: 0.2;
-  color: $text-primary;
-  font-family: $headline-fonts;
 }
-.paragraph {
+p {
   font-size: 16px;
   letter-spacing: 0.2;
-  color: $text-primary;
-  font-family: $body-fonts;
 }
 .small {
   font-size: 13px;
   letter-spacing: 0.2;
-  color: $text-primary;
-  font-family: $body-fonts;
 }
 .secondary {
   color: $grey;
