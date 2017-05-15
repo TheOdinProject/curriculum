@@ -1,0 +1,131 @@
+#devise-form {
+  
+  overflow: hidden;
+
+  .card {
+    width: 435px;
+    @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
+    padding: 50px 55px;
+    margin: 75px auto 0 auto;
+  }
+  .login {
+    width: 323px;
+    //float: left;
+    background-color: $pale-grey-bg;
+    font-family: $body-fonts;
+  }
+
+  .email, .password {
+    height: 54.3px;
+    margin-left: -30px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.2px;
+    color: $pale-grey;
+  }
+
+  .input-group .fa-envelope { 
+    position: absolute;
+    font-size: 25px;
+    left: 15px;
+    top: 14.6px;
+  }
+
+  .input-group .fa-lock {
+    position: absolute;
+    font-size: 32px;
+    left: 17.21px;
+    top: 11.1px;
+  }
+
+  .password {
+    margin-bottom: 24.3px;
+  }
+
+  .logo { 
+    float: left;
+    height: 54.3px;
+    width: 62px;
+    background-color: $pale-grey-bg;
+  }
+
+  .checkbox, .forgot-password {
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: $pale-grey;
+    vertical-align: top;
+    margin-bottom: 30.3px;
+  }
+
+  .forgot-password {
+    float: right;
+    text-decoration: underline;
+  }
+
+  .page-buttons {
+    width: 325px;
+    height: 60.4px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: $white;
+  }
+  .sign-in-button {
+    background-color: $button-primary;
+    text-align: center;
+  }
+  .github-login-button {
+    display: inline-block;
+    background-color: $text-primary;
+    padding-top: 14.2px;
+    vertical-align: middle;
+  }
+
+  i.providers-button {
+    padding-right: 20px;
+    font-size: 32px;
+    vertical-align: middle;
+  }
+
+  .in-between {
+    margin: 30px 0;
+    font-size: 13px;
+    letter-spacing: 0.2px;
+    color: $pale-grey;
+    border-bottom: 1px solid $dark-grey;
+    line-height: 0;
+    padding: 0;
+  }
+
+  .in-between span {
+    background: $white;
+    padding: 0 20px;
+  }
+
+  .not-signed-up {
+    margin-top: 150px;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    color: $grey;
+  }
+
+  .sign-up-button {
+    display: block;
+    width: 234px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    color: $pale-grey;
+    border-radius: 3px;
+    border: solid 3px $pale-grey;
+    padding: 18px;
+    margin: 50px auto 197px auto;
+    clear: right;
+  }
+}
