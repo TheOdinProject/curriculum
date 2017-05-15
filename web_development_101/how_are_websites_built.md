@@ -39,4 +39,3 @@ Maybe that's directly relevant to the startup you're hoping to build or maybe it
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [RailsApps' brief guide to Startup Project Management](http://railsapps.github.io/rails-project-management.html) contains helpful tools, links, and terminology
-* Get a more general sense of Agile Development from the [About.com Agile Development entry](http://ruby.about.com/od/rubyonrails/a/agile.htm).
