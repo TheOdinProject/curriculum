@@ -7,30 +7,6 @@ body {
   font-family: $body_fonts;
 }
 
-// h1, h2, h3, h4, h5, h6 {
-//   font-family: $headline-fonts;
-// }
-
-// h1 {
-//   color: $primary;
-//   font-size: 2.25rem;
-//   font-weight: 300;
-//   letter-spacing: 0.4px;
-// }
-
-// h2 {
-//   font-size: 1.5rem;
-//   font-weight: 700;
-// }
-
-// h3 {
-//   font-size: 1.5em;
-// }
-
-// h2, h3 {
-//   color: $text-primary;
-// }
-
 a, a:hover, a:focus {
   text-decoration: none;
 }
@@ -38,10 +14,6 @@ a, a:hover, a:focus {
 p {
   margin: 0;
   line-height: 1.88;
-  // letter-spacing: 0.2px;
-  // color: $text-primary;
-  // font-size: 1em;
-  // font-family: $body-fonts;
 }
 
 a, a:hover, a:focus {
