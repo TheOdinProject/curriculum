@@ -1,6 +1,6 @@
 <div class="success-stories gradient">
  <div class="success-stories-title">
-    <h2>Success Stories</h2>
+    <h2 class="bold">Success Stories</h2>
   </div> <!-- /.success-stories-title -->
 
   <%
@@ -28,11 +28,11 @@
   </div> <!-- /.success-stories-container -->
 
   <div class="success-stories-read-more">
-    <%= link_to 'Read more success stories', success_stories_path %>
+    <%= link_to 'Read more success stories', success_stories_path, class: 'secondary' %>
   </div> <!-- /.success-stories-read-more -->
 
   <div class="success-stories-sign-up">
-    <p>Start learning for free now!</p>
+    <h1 class="secondary">Start learning for free now!</h1>
     <a href=<%= sign_up_path(ref: 'homenav') %> class="signup-button">
       Sign Up
     </a>

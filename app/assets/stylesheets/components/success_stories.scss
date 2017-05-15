@@ -16,7 +16,6 @@
   }
 
   .success-stories-container {
-    color: $text-primary;
     max-width: 1280px;
     min-height: 400px;
     margin: 0 auto;
@@ -96,16 +95,9 @@
 
   .success-stories-sign-up {
     margin: 60px 0;
-    font-size: 2.2em;
-    font-weight: 100;
     width: 100%;
     padding: 0 40px;
     text-align: center;
-    letter-spacing: 0.4px;
-    p {
-      color: $grey;
-      line-height: 1.5em;
-    }
     .signup-button {
       text-decoration: none;
       background-color: #6abfc3;
