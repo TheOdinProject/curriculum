@@ -1105,6 +1105,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
 * [jacobhancock's Solution (Easy)](https://github.com/jacobhancock/google-homepage) | [View in browser](https://jacobhancock.github.io/google-homepage/)
 * [ntnlbar's Solution (Easy)](https://github.com/ntnlbar/google-homepage) | [View in browser](https://ntnlbar.github.io/google-homepage/)
+* [Robtak's Solution (Difficult)](https://github.com/robtak/Google_-Search_Result) | [View in browser](https://robtak.github.io/Google-Search-Result/)
 
 ## Additional Resources
 
