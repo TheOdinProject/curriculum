@@ -19,8 +19,6 @@
       <h1 class="text-center">Sign up</h1>
     <% end %>
     <div class="card">
-      <%= render :partial => "shared/github_button", :locals => {:button_type => "Sign up"} %>
-
       <% if possible_duplicate_account %>
         <div class="signup-prompt-msg">
           <p>
@@ -40,21 +38,40 @@
         <%= f.error_notification unless auth_flow %>
 
         <div class="form-inputs">
-          <%= f.input :username, :label => "Username", :required => true, :autofocus => true %>
-          <%= f.input :email, :required => true %>
+          <div class="input-group">
+            <span class="fa fa-envelope"></span>
+            <%= f.input :username, label: false, required: true, placeholder: "Username", input_html: { class: "login username email" } %>
+          </div>
+          <div class="input-group">
+            <span class="fa fa-envelope"></span>
+            <%= f.input :email, label: false, required: true, placeholder: "Email", input_html: { class: "login email" } %>
+          </div>
           <% if f.object.password_required? %>
-            <%= f.input :password, :required => true %>
-            <%= f.input :password_confirmation, :required => true %>
+            <div class="input-group">
+              <span class="fa fa-lock"></span>
+              <%= f.input :password, :required => true, label: false, placeholder: "Password", input_html: { class: "login password" } %>
+            </div>
+            <div class="input-group">
+              <span class="fa fa-lock"></span>
+              <%= f.input :password_confirmation, :required => true, label: false, placeholder: "Password Confirmation", input_html: { class: "login password" }%>
+            </div>
           <% end %>
 
           <!-- don't forget about our legal agreements checkbox! -->
           <%= render :partial => "devise/shared/legal_checkbox", :locals => {:f => f} %>
 
         </div>
-
-        <%= f.button :submit, "Sign up", :class => "btn-primary btn-large pull-right #{auth_flow ? 'btn-sign-up-auth-flow' : 'btn-sign-up'}" %>
+        <!-- Check both cases of ternary operator -->
+        <%= f.button :submit, "Sign up", :class => "sign-in-button page-buttons login #{auth_flow ? 'btn-sign-up-auth-flow' : 'btn-sign-up'}" %>
 
       <% end %>
+
+      <div class="in-between text-center"><span>OR</span></div>
+      
+      <%= render :partial => "shared/github_button", :locals => {:button_type => "Sign up"} %>
+
+
+
 
       <%= render "devise/shared/links" %>
     </div>
