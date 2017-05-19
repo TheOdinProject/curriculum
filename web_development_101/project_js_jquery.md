@@ -636,4 +636,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Igor's solution](https://github.com/mojotron/etch-a-sketch) | [View in browser](https://mojotron.github.io/etch-a-sketch/)
 * [coconatsuki's solution](https://github.com/coconatsuki/Project-Javascript-jQuery) | [View in browser](https://coconatsuki.github.io/Project-Javascript-jQuery/)
 * [jacobhancock's solution](https://github.com/jacobhancock/javascript-jquery-project) | [View in browser](https://jacobhancock.github.io/javascript-jquery-project/)
-* [anistor86's solution](https://github.com/anistor86/sketchpad) | [View in browser](https://anistor86.github.io/sketchpad
+* [anistor86's solution](https://github.com/anistor86/sketchpad) | [View in browser](https://anistor86.github.io/sketchpad)
