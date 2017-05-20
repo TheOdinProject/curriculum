@@ -32,6 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 
 * Add your solution below this line!
 * [Aditya's solution for problem 1](https://github.com/chickenchop/javascript_project_euler)
+* [Breadbear's solutions for problems 1 and 2](https://github.com/breadbear/javascript_project_euler)
 * [Charalamboss solution for problem 1](https://github.com/Charalamboss/ProjectEuler/blob/master/ProjectEulerpro1.js)
 * [Joshua Marcelo's solution for problem 1](https://github.com/vanjutsong/projectEuler/blob/master/problem1.js)
 * [Nicholas Montefusco's solution for problem 1](https://github.com/nmontefusco/project-euler/blob/master/problem-1.js)
