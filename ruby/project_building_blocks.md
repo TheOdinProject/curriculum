@@ -567,6 +567,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Demo318's solution](https://github.com/Demo318/ruby_building_blocks/blob/master/03_substrings.rb)
 * [Dallaire's solution](https://github.com/Dallaire/ruby_building_blocks/blob/master/substring.rb)
 * [zulixro's solution](https://github.com/zulixro/Substring-search/blob/master/substring_search.rb)
 * [SadieD's solution](https://github.com/SadieD/Ruby-Building-Blocks/blob/master/substrings.rb)
