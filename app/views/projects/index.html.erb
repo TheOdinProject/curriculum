@@ -1,0 +1,12 @@
+
+<div>
+  <% if @projects.any? %>
+    <% @projects.each do |project| %>
+      <div>
+        <%= project.owner_name %>
+        <%= project.repo_url %>
+        <%= project.live_preview %>
+      </div>
+    <% end %>
+  <% end %>
+</div>
