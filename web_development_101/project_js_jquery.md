@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Kasey Z.'s Solution](https://github.com/kasey-z/Odin-jQueryProject01)  | [View in browser](https://kasey-z.github.io/Odin-jQueryProject01/) 
 * [Qin Chen's Solution](https://github.com/hyathynth/Sketchpad)  | [View in browser](https://hyathynth.github.io/Sketchpad/) 
 * [Ben Harvey's Solution](https://github.com/ridergit/Sketchpad)  | [View in browser](https://ridergit.github.io/Sketchpad/) 
 * [David Moylan's Solution](https://github.com/davecm010/JSketch) | [View in browser](https://davecm010.github.io/JSketch/)
@@ -631,6 +632,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Gabriel Klueh's solution](https://github.com/gklueh/sketch-pad) | [View in browser](https://rawgit.com/gklueh/sketch-pad/master/index.html)
 * [EMuchynski's solution](https://github.com/EMuchynski/sketchpad) | [View in browser](https://emuchynski.github.io/sketchpad/)
 * [Loc Nguyen's solution - Responsive](https://github.com/vinhloc30796/etch-a-sketch) | [View in browser](https://vinhloc30796.github.io/etch-a-sketch/)
-* [Codebreeze's solution](https://github.com/codebreeze/Etch-A-Sketch) | [View in browser] (https://codebreeze.github.io/Etch-A-Sketch/)
-* [Igor's solution](https://github.com/mojotron/etch-a-sketch)|[View in browser](https://mojotron.github.io/etch-a-sketch/)
-* [coconatsuki's solution](https://github.com/coconatsuki/Project-Javascript-jQuery)|[View in browser](https://coconatsuki.github.io/Project-Javascript-jQuery/)
+* [Codebreeze's solution](https://github.com/codebreeze/Etch-A-Sketch) | [View in browser](https://codebreeze.github.io/Etch-A-Sketch/)
+* [Igor's solution](https://github.com/mojotron/etch-a-sketch) | [View in browser](https://mojotron.github.io/etch-a-sketch/)
+* [coconatsuki's solution](https://github.com/coconatsuki/Project-Javascript-jQuery) | [View in browser](https://coconatsuki.github.io/Project-Javascript-jQuery/)
+* [jacobhancock's solution](https://github.com/jacobhancock/javascript-jquery-project) | [View in browser](https://jacobhancock.github.io/javascript-jquery-project/)
+* [anistor86's solution](https://github.com/anistor86/sketchpad) | [View in browser](https://anistor86.github.io/sketchpad)

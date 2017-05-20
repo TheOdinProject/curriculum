@@ -31,6 +31,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [EK's solution to Problem 1](https://github.com/ekazubuike/project-euler/blob/master/problem1.js)
+* [Kasey Z.'s solution for problem 1](https://github.com/kasey-z/project-euler)
 * [Aditya's solution for problem 1](https://github.com/chickenchop/javascript_project_euler)
 * [Breadbear's solutions for problems 1 and 2](https://github.com/breadbear/javascript_project_euler)
 * [Charalamboss solution for problem 1](https://github.com/Charalamboss/ProjectEuler/blob/master/ProjectEulerpro1.js)
@@ -484,6 +486,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Dallas Rhinehart's solution](https://github.com/drrhinehart/project-euler/blob/master/problem-01.js)
 * [Will Cardoso's solution](https://github.com/willianncardoso/project_euler/blob/master/multiples_3_5.js)
 * [jacobhancock's solution](https://github.com/jacobhancock/Javascript-101) | [View in browser](https://jacobhancock.github.io/Javascript-101/)
+* [Bolcik's solution](https://github.com/SeanKohlbrenner/euler_problem_1/blob/master/problem_1.js)
 
 ## Additional Resources
 

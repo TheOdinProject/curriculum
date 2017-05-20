@@ -70,6 +70,8 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [daunenok's solution](https://github.com/daunenok/embedded-video) | [View in browser]( https://daunenok.github.io/embedded-video/)
 * [Axel's solution](https://github.com/afuh/Youtube) | [View in browser](https://afuh.github.io/Youtube/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/odin-youtube-project) | [View in browser](https://sophialwu.github.io/odin-youtube-project/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/YouTube)
+
 
 ## Additional Resources
 
