@@ -9,6 +9,7 @@ class CourseDecorator < SimpleDelegator
 
   def course_badges
     {
+      'Web Development 101' => 'badge-webdev101.svg',
       'HTML5 and CSS3' => 'badge-html-css.svg',
       'Ruby Programming' => 'badge-ruby.svg',
       'Javascript and jQuery' => 'badge-javascript.svg',
