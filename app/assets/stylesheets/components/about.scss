@@ -73,7 +73,8 @@
         left: -9000px;
         right: -9000px;
         margin: -60px auto 0 auto;
-        height: 480px;
+        height: auto;
+        width: 100%;
       @media(max-width: 576px) {
           margin-top: -60px;
           height: auto;
@@ -87,63 +88,23 @@
       }
     }
 
-    .contact-text {
+    .contact-details {
       margin-top: 60px;
+      text-align: center;
+
       @media(max-width: 768px) {
         margin-top: 30px;
       }
 
-      p {
-        max-width: 360px;
-        margin: 0 auto;
+      &__sub-heading {
+        padding-bottom: 4.375rem;
       }
-
-      h2 {
-          font-size: 36px;
-          font-weight: 300;
-          letter-spacing: 0.4px;
-          margin-bottom: 20px;
-        }
-      }
-
-    .cta {
-      text-decoration: none;
-      background-color: $primary;
-      color: #ffffff;
-      display: block;
-      text-align: center;
-      padding: 0 1.5em 0 1.5em;
-      width: 200px;
-      height: 60px;
-      border-radius: 3px;
-      line-height: 60px;
-      margin: 70px auto 70px;
-      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-      font-weight: bold;
-      letter-spacing: 0.2px;
-      font-size: 18px;
     }
   }
 
   .contribute {
     background: linear-gradient(white, $light-grey);
     margin: 0;
-    .cta {
-        text-decoration: none;
-        background-color: $button-primary;
-        color: $white;
-        display: block;
-        width: 300px;
-        text-align: center;
-        height: 60px;
-        border-radius: 3px;
-        line-height: 60px;
-        margin: 70px auto 0;
-        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
-        font-weight: bold;
-        letter-spacing: 0.2px;
-        font-size: 18px;
-    }
   }
 
   .goldbar {

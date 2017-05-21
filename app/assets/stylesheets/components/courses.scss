@@ -37,11 +37,18 @@
 
       .course-badge-title-wrapper {
         padding-bottom: 20px;
+
+        .view-course-button-wrapper {
+          .button--secondary {
+            padding: 1rem 1.5rem;
+          }
+        }
       }
 
       .course-badge-title {
         display: flex;
         padding: 0;
+        max-width: 66.6%;
 
         .course-badge {
           width: 100px;
@@ -68,10 +75,6 @@
             font-size: 13px;
           }
         }
-      }
-
-      .view-course-button-wrapper {
-        text-align: right;
 
         @include media-breakpoint-down(md) {
           margin-top: 20px;

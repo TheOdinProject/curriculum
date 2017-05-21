@@ -86,18 +86,4 @@
       }
     }
   }
-
-  .view-curriculum-details {
-    @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
-    background: $primary;
-    border-radius: 3px;
-    color: $white;
-    display: block;
-    font-size: 18px;
-    height: 60px;
-    letter-spacing: 0.2px;
-    margin: 60px auto 0;
-    padding: 18px;
-    width: 270px;
-  }
 }
