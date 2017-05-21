@@ -3,8 +3,18 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   before_action :authenticate_user!
 
   def github
-    flash[flash_type] = flash_message
-    redirect_to_path
+    @user = User.from_omniauth(auth)
+
+    if @user.persisted?
+      sign_in_and_redirect @user, :event => :authentication
+      set_flash_message(:notice, :success, :kind => 'GitHub') if is_navigational_format?
+    elsif user_signed_in?
+      flash[flash_type] = flash_message
+      sign_in_and_redirect current_user
+    else
+      session['devise.github_data'] = auth
+      redirect_to new_user_registration_url
+    end
   end
 
   def failure
@@ -14,50 +24,19 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
   private
 
-  def github_omniauth
-    @github_omniauth ||= omniauth_scenario
-  end
-
-  def omniauth_scenario
-    if user_signed_in?
-      LinkOmniauth.new(current_user, auth).create
-    else
-      NewOrExistingOmniauthUser.new(auth).create
-    end
-  end
-
-  def flash_type
-    github_omniauth.fetch(:flash_type)
-  end
-
-  def flash_message
-    github_omniauth.fetch(:flash_message)
-  end
-
-  def user
-    @user ||= github_omniauth.fetch(:user)
-  end
-
   def auth
     request.env['omniauth.auth']
   end
 
-  def store_user_details
-    session['devise.user_attributes'] = user.attributes
+  def link_ominauth
+    @link_ominauth ||= LinkOmniauth.new(@user, auth).create
   end
 
-  def user_needs_to_verify_details?
-    user.new_record?
+  def flash_type
+    link_ominauth[:flash_type]
   end
 
-  def redirect_to_path
-    if user_signed_in?
-      redirect_to courses_path
-    elsif user_needs_to_verify_details?
-      store_user_details
-      redirect_to new_user_registration_url
-    else
-      sign_in_and_redirect user
-    end
+  def flash_message
+    link_ominauth[:flash_message]
   end
 end

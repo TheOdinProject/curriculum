@@ -41,10 +41,10 @@ devise_for :users,
   resources :courses, only: [:index, :show ] do
     resources :lessons, only: [:show]
   end
-  resources :lessons, only: [:show] do
-    resources :projects, only: [:create, :update, :destroy]
 
-    get 'all_submissions', to: 'projects#all_submissions'
+  resources :lessons, only: [:show] do
+    resources :projects, only: [:index, :create, :update, :destroy]
+
     get 'recent_submissions', to: 'projects#recent_submissions'
   end
 

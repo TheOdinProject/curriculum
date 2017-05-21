@@ -35,6 +35,11 @@ RSpec.describe ProjectsController, type: :controller do
     }
   }
 
+  before do
+    allow(Lesson).to receive_message_chain(:friendly, :find)
+      .with('1').and_return(lesson)
+  end
+
   def stub_current_user(user)
     allow(controller).to receive(:current_user).and_return(student)
   end
@@ -69,6 +74,31 @@ RSpec.describe ProjectsController, type: :controller do
     allow(Project).to receive(:all_submissions).with(lesson.id)
       .and_return(projects)
     allow(projects).to receive(:limit).with(10).and_return(projects)
+  end
+
+  describe 'GET #index' do
+
+    let(:projects) { [project] }
+    let(:project) { double('Project') }
+    let(:decorated_projects) { [decorated_project] }
+    let(:decorated_project) { double('ProjectDecorator') }
+
+    before do
+      allow(Project).to receive(:all_submissions).with('1').
+        and_return(projects)
+      allow(ProjectDecorator).to receive(:new).with(project).
+        and_return(decorated_project)
+    end
+
+    it 'renders the project index template' do
+      get :index, params: { lesson_id: '1' }
+      expect(response).to render_template(:index)
+    end
+
+    it 'assigns @projects' do
+      get :index, params: { lesson_id: '1' }
+      expect(assigns(:projects)).to eq(decorated_projects)
+    end
   end
 
   describe 'POST #create' do
@@ -351,28 +381,6 @@ RSpec.describe ProjectsController, type: :controller do
           end
         end
       end
-    end
-  end
-
-  describe 'GET #all_submissions' do
-    subject {
-      get :all_submissions, params: { lesson_id: valid_params[:lesson_id] }
-    }
-
-    before do
-      stub_lesson
-      allow(Project).to receive(:all_submissions).with(lesson.id)
-        .and_return(projects)
-    end
-
-    it 'calls the .all_submissions method' do
-      expect(Project).to receive(:all_submissions).with(lesson.id)
-      subject
-    end
-
-    it 'renders json' do
-      subject
-      expect(response.content_type).to eq('application/json')
     end
   end
 end

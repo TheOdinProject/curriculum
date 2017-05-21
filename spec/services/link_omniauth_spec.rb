@@ -17,7 +17,7 @@ RSpec.describe LinkOmniauth, type: :service do
       {
         user: user,
         flash_type: :notice,
-        flash_message: 'Successfully linked Github to your account'
+        flash_message: 'Successfully linked Github to your account.'
       }
     }
 
@@ -31,7 +31,7 @@ RSpec.describe LinkOmniauth, type: :service do
         {
           user: user,
           flash_type: :error,
-          flash_message: "We couldn't link Github to your account"
+          flash_message: "We couldn't link Github to your account."
         }
       }
 
