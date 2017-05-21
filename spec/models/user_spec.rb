@@ -50,11 +50,6 @@ RSpec.describe User do
 
   it { is_expected.to validate_uniqueness_of(:username) }
 
-  it {
-    is_expected.to validate_presence_of(:legal_agreement)
-      .with_message("Don't forget the legal stuff!")
-  }
-
   it { is_expected.to validate_length_of(:username) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completed_lessons) }
@@ -194,14 +189,20 @@ RSpec.describe User do
     }
 
     let(:auth) {
-      {
+      double(
+        'OmniAuth::AuthHash',
         provider: 'github',
         uid: '123',
-        info: {
-          name: 'kevin',
-          email: 'kevin@example.com'
-        }
-      }
+        info: info
+      )
+    }
+
+    let(:info) {
+      double(
+        'OmniAuth::AuthHash::InfoHash',
+        name: 'kevin',
+        email: 'kevin@example.com'
+      )
     }
 
     before do
