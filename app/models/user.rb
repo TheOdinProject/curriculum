@@ -1,9 +1,9 @@
 class User < ApplicationRecord
-  devise :database_authenticatable, :registerable, :omniauthable,
-         :recoverable, :rememberable, :trackable, :validatable, :confirmable
+  devise :database_authenticatable, :registerable, :recoverable,
+         :rememberable, :trackable, :validatable, :confirmable,
+         :omniauthable, :omniauth_providers => [:github]
 
   validates_uniqueness_of :username, :email
-  validates_presence_of :legal_agreement, message: "Don't forget the legal stuff!", on: :create
   validates :username, length: { in: 4..20 }
 
   has_many :lesson_completions, foreign_key: :student_id
@@ -47,19 +47,21 @@ class User < ApplicationRecord
   end
 
   def self.from_omniauth(auth)
-    where(auth.slice(:provider, :uid).to_hash).first_or_create(
-      provider: auth[:provider],
-      uid: auth[:uid],
-      username: auth[:info][:name],
-      email: auth[:info][:email]
-    )
+    where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
+      user.provider = auth.info.provider
+      user.uid = auth.info.uid
+      user.email = auth.info.email
+      user.username = auth.info.name
+      user.skip_confirmation!
+    end
   end
 
   def add_omniauth(auth)
-    self.provider ||= auth['provider']
-    self.uid ||= auth['uid']
-    save
-    self
+    self.tap do |user|
+      user.provider ||= auth['provider']
+      user.uid ||= auth['uid']
+      user.save
+    end
   end
 
   def password_required?
@@ -78,13 +80,10 @@ class User < ApplicationRecord
   end
 
   def self.new_with_session(params, session)
-    if session['devise.user_attributes']
-      new(session['devise.user_attributes']) do |user|
-        user.attributes = params
-        user.valid?
+    super.tap do |user|
+      if data = session["devise.github_data"] && session["devise.github_data"]["extra"]["raw_info"]
+        user.email = data["email"] if user.email.blank?
       end
-    else
-      super
     end
   end
 

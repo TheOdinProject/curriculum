@@ -18,11 +18,11 @@ class LinkOmniauth
   private
 
   def success_message
-    'Successfully linked Github to your account'
+    'Successfully linked Github to your account.'
   end
 
   def failure_message
-    "We couldn't link Github to your account"
+    "We couldn't link Github to your account."
   end
 
   def attributes(flash_type, message)
