@@ -26,6 +26,13 @@
     color: $pale-grey;
   }
 
+  .input-group .fa-user {
+    position: absolute;
+    font-size: 30px;
+    left: 16.783px;
+    top: 12.15px;
+  }
+
   .input-group .fa-envelope { 
     position: absolute;
     font-size: 25px;
@@ -34,13 +41,6 @@
   }
 
   .input-group .fa-lock {
-    position: absolute;
-    font-size: 32px;
-    left: 16.12px;
-    top: 11.1px;
-  }
-
-  .input-group .fa-user {
     position: absolute;
     font-size: 32px;
     left: 17.21px;
