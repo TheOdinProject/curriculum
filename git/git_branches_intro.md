@@ -1,14 +1,14 @@
 # Git Branches Introduction
-This lesson is focused on one of the key features of Git: branches. Branches allow developers to create a fresh copy of their software repository and experiment. Branches can be useful for testing new ideas, compartmentalizing projects, and allowing multiple developers to contribute to the same project simultaneously.
+This lesson is focused on one of the key features of Git: branches. Branches allow developers to create a fresh copy of their repositories and experiment. Branches can be useful for testing new ideas, compartmentalizing projects, and allowing multiple developers to contribute to the same project simultaneously.
 
 ## Learning outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * Be able to answer the question, "What is a branch?"
 * Have a cursory knowledge of Git workflows
-* Create a new branch
-* Merge a branch
-* Delete a branch
+* Know how to create a new branch
+* Know how to merge a branch
+* Know how to delete a branch
 
 ## Assignment
 1. Read the beginner-friendly [Using Branches](https://www.atlassian.com/git/tutorials/using-branches) tutorial from [Atlassian](https://www.atlassian.com/)
@@ -24,3 +24,5 @@ This lesson is focused on one of the key features of Git: branches. Branches all
 
 * [Git Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) from [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
 * [How to Use Git Branches](https://www.digitalocean.com/community/tutorials/how-to-use-git-branches) by [DigitalOcean](https://www.digitalocean.com/)
+* [Ry's Git Tutorial](http://rypress.com/tutorials/git/index)
+* [Branches - Git and GitHub for Poets](https://www.youtube.com/watch?v=oPpnCh7InLY) from [The Coding Train](m/channel/UCvjgXvBlbQiydffZU7m1_aw)
