@@ -52,14 +52,8 @@
         <% end %>
       </div>
     </div>
-    <div class="notifications settings-section">
-      <h2 class="accent bold">Notifications</h2>
-      <div class="settings-card profile-card">
-        Notification stuff goes here
-      </div>
-    </div>
     <div class="cancel-link text-center">
-      <p><%= link_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
+      <p><%= link_to "Delete my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete %></p>
     </div>
   </div>
 
