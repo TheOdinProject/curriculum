@@ -1,14 +1,15 @@
 #about {
+  overflow: hidden;
   .about-page-title {
     margin-bottom: 70px;
   }
 
   .row {
-    padding: 40px 0;
+    padding-bottom: 60px
   }
 
   .intro {
-    padding-bottom: 120px;
+    padding-bottom: 100px;
   }
 
   .beliefs {
@@ -41,7 +42,7 @@
   }
 
   .story {
-    margin: 110px 0 170px;
+    margin: 30px 0 80px;
     padding: 100px 20px;
     h2 {
       width: 100%;
