@@ -3,7 +3,7 @@
 }
 
 .curriculum:after {
-  background: asset-url('homepage-hero.jpg') no-repeat;
+  background: asset-url('home-isometric.svg') no-repeat;
   background-position: bottom;
   bottom: 0;
   content: "";
@@ -20,7 +20,7 @@
   }
 
   .courses-list {
-    margin-bottom: 242px;
+    margin-bottom: 80px;
 
     .course-card {
       @include main-button($primary);
@@ -36,7 +36,10 @@
       }
 
       .course-badge-title-wrapper {
-        padding-bottom: 20px;
+        padding-bottom: 20px; 
+        @include media-breakpoint-down(sm) {
+          text-align: center;
+        }
 
         .view-course-button-wrapper {
           .button--secondary {
@@ -48,9 +51,9 @@
       .course-badge-title {
         display: flex;
         padding: 0;
-        max-width: 66.6%;
 
-        .course-badge {
+        .course-badge-img {
+          margin-left: 16px;
           width: 100px;
           height: 100px;
 
@@ -61,7 +64,7 @@
         }
 
         .course-title {
-          margin-left: 30px;
+          margin-left: 1em;
 
           h2 {
             color: $text-primary;
@@ -74,11 +77,22 @@
           .lessons-count {
             font-size: 13px;
           }
+
         }
 
         @include media-breakpoint-down(md) {
           margin-top: 20px;
+        }
+        @include media-breakpoint-down(sm) {
+          flex-direction: column;
           text-align: center;
+          .course-title {
+            margin-left: 0;
+          }
+          .course-badge-img {
+            margin-left: 0;
+            margin-bottom: 1em;
+          }
         }
       }
 
