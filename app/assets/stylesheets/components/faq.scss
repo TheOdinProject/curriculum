@@ -3,7 +3,7 @@
 }
 
 #faq-accordion {
-  padding: 4.4em 0 6em;
+  padding: 0 0 6em;
 
   .faq-card {
     margin-bottom: 1em;
@@ -20,10 +20,18 @@
       .faq-question-title {
         margin: 0;
         padding: 0.2em;
+        @media (max-width: 480px) {
+          font-size: 1.2em;
+          line-height: 24px;
+          padding-right: 1em;
+        }
       }
 
       .expander, .minimizer {
         font-size: 24px;
+        @media (max-width: 480px) {
+          font-size: 1.125em;
+        }
       }
 
       .minimizer {
