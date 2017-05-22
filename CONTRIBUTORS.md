@@ -1,6 +1,5 @@
 # Significant Odin Project Contributors
 
- - Cody
- - Freakin
- - Loyd
- - (with one 'L')
+ - Names 
+ - Go 
+ - Here
