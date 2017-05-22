@@ -10,12 +10,11 @@
   }
   .login {
     width: 323px;
-    //float: left;
     background-color: $pale-grey-bg;
     font-family: $body-fonts;
   }
 
-  .email, .password {
+  .email, .password, .user_username {
     height: 54.3px;
     margin-left: -30px;
     padding-left: 60px;
@@ -25,6 +24,13 @@
     line-height: 1.88;
     letter-spacing: 0.2px;
     color: $pale-grey;
+  }
+
+  .input-group .fa-user {
+    position: absolute;
+    font-size: 30px;
+    left: 16.783px;
+    top: 12.15px;
   }
 
   .input-group .fa-envelope { 
