@@ -6,7 +6,7 @@ gem 'puma',                         '~> 3.6.0'
 gem 'turbolinks'
 gem 'simple_form',                  '3.3.1'
 gem 'jquery-rails',                 '~> 4.2.1'
-gem 'jquery-ui-rails'              
+gem 'jquery-ui-rails'
 gem 'google-api-client',            '~> 0.9'
 gem 'devise',                       '~> 4.2.0'
 gem 'figaro',                       '1.1'      # Managing environment variables

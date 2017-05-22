@@ -1,9 +1,11 @@
 class UsersController < ApplicationController
-  before_action :find_user, except: [:index, :send_confirmation_link]
   before_action :authenticate_user!
+  before_action :find_user, except: [:index, :send_confirmation_link]
   authorize_resource only: [:edit, :update]
 
-  def show
+  def dashboard
+    @courses = Course.order(:position)
+    @projects = @user.projects
   end
 
   def update
@@ -52,11 +54,7 @@ class UsersController < ApplicationController
   end
 
   def find_user
-    @user = UserDecorator.new(user)
-  end
-
-  def user
-    User.find(params[:id])
+    @user = UserDecorator.new(current_user)
   end
 
   def users_by_latest_lesson_completion
