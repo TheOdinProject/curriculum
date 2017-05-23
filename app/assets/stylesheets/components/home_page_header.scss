@@ -14,11 +14,4 @@
     padding-bottom: 4.375rem;
   }
 
-  @media(max-width:800px) {
-    &__image {
-      width: 100%;
-      margin-left: 50%;
-      transform: translateX(-50%);
-    }
-  }
 }
