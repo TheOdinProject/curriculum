@@ -319,7 +319,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [AsmCoder110's solution](https://github.com/AsmCoder110/learn_ruby)
 * [Daeke's solution](https://github.com/Daeke/learn_ruby)
 * [EMuchynski's solution](https://github.com/EMuchynski/learn_ruby)
-
+* [Seederwood's solution](https://github.com/seederwood/learn_ruby)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
