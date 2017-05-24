@@ -16,6 +16,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [SadieD's solution](https://github.com/SadieD/FileIO/tree/master/event_manager)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/serialization_and_files/event_manager)
 * [holdercp's solution](https://github.com/holdercp/event-manager)
 * [Webdev-burd's solution](https://github.com/webdev-burd/event_manager)
@@ -149,6 +150,7 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [SadieD's solution](https://github.com/SadieD/FileIO/tree/master/hangman)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/serialization_and_files/hangman)
 * [holdercp's solution](https://github.com/holdercp/hangman)
 * [jfonz412's solution](https://github.com/jfonz412/hangman/blob/master/lib/game.rb)

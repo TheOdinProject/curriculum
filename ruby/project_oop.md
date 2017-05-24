@@ -20,6 +20,8 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!/
+* [adsy430's solution] (https://github.com/adampal/tictactoe)
+* [SadieD's solution](https://github.com/SadieD/oop_with_ruby/tree/master/tictactoe)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/tic_tac_toe)
 * [holdercp's solution](https://github.com/holdercp/tic-tac-toe)
 * [xavier solution](https://github.com/nxdf2015/odin-oop-with-ruby/tree/master/tic-tac-toe)
@@ -214,6 +216,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [SadieD's solution](https://github.com/SadieD/oop_with_ruby/tree/master/mastermind)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/mastermind)
 * [holdercp's solution](https://github.com/holdercp/mastermind)
 * [xavier solution](https://github.com/nxdf2015/odin-oop-with-ruby/tree/master/mastermind)

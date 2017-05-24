@@ -94,7 +94,15 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line
+<<<<<<< HEAD
 * [Kinokoma Solution (Easy)](https://github.com/kinokoma/google_homepage) | [View in browser](https://kinokoma.github.io/google_homepage/)
+=======
+* [willievantonder solution](https://willievantonder.github.io/google-homepage)
+* [Brice Afonso's Solution (Easy)](https://github.com/qazare/google-homepage) | [View in Browser](https://qazare.github.io/google-homepage/)
+* [Jeff's Solution (Easy)](https://github.com/jmbothe/google-homepage) | [View in Browser](https://jmbothe.github.io/google-homepage/)
+* [KP's Solution (Easy)](https://github.com/carlacalo/google_homepage) | [View in browser](https://carlacalo.github.io/google_homepage/)
+* [EK's Solution (Easy)] (https://github.com/ekazubuike/google-homepage) | [View in browser](https://ekazubuike.github.io/google-homepage/#)
+>>>>>>> 30325af97e5ba7ee30e33616d6303e0b4aa680d4
 * [Alexandra Wright's Solution (Easy)](https://github.com/f3mshep/google-clone) | [View in browser](https://f3mshep.github.io/google-clone/)
 * [Breadbear's Solution (Easy)](https://github.com/breadbear/google-homepage) | [View in browser](https://breadbear.github.io/google-homepage/)
 * [Aachman's Solution (Easy)](https://github.com/forever-a-looney/google_homepage) | [View in browser](https://forever-a-looney.github.io/google_homepage/)
@@ -1106,6 +1114,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
 * [jacobhancock's Solution (Easy)](https://github.com/jacobhancock/google-homepage) | [View in browser](https://jacobhancock.github.io/google-homepage/)
 * [ntnlbar's Solution (Easy)](https://github.com/ntnlbar/google-homepage) | [View in browser](https://ntnlbar.github.io/google-homepage/)
+* [Robtak's Solution (Difficult)](https://github.com/robtak/Google_-Search_Result) | [View in browser](https://robtak.github.io/Google-Search-Result/)
+* [Bolcik's Solution (Easy)](https://github.com/SeanKohlbrenner/google_homepage) | [View in browser](https://seankohlbrenner.github.io/google_homepage/)
+* [Ayub's Solution (Easy)](https://github.com/yubi12/google-homepage.git) | [View in browser](https://yubi12.github.io/google-homepage/)
 
 ## Additional Resources
 

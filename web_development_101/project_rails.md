@@ -20,6 +20,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Anya Finkelstein's solution](https://github.com/anyafink/rails-blogger-project) | [View in browser](https://nameless-basin-15144.herokuapp.com/)
+* [Ben Deltenre's solution](https://github.com/benjdelt/jumpstart_blogger) | [View in browser](https://calm-dawn-82855.herokuapp.com/)
 * [Demo318's solution](https://github.com/Demo318/blogger-clone) | [View in browser](https://shrouded-cove-30023.herokuapp.com/)
 * [Dallaire's solution](https://github.com/Dallaire/blogger) | [View in browser](https://pacific-garden-49484.herokuapp.com/)
 * [Ryan Ford's solution](https://github.com/ryanford-frontend/rails-blogger) | [View in browser](https://limitless-dusk-51076.herokuapp.com/)
@@ -66,7 +68,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Juan Vazquez's solution](https://github.com/juanvme/blogger) | [View in browser](http://secure-lowlands-4285.herokuapp.com/)
 * [Ruben Mendez's solution](https://github.com/ruben-socal/blogger)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/jumpstart_labs_blogger) | [View in browser](http://quiet-dawn-1285.herokuapp.com/)
-* [Stanley Quek's solution](https://github.com/tempeste/Blog_Project/blob/master/README.md) 
+* [Stanley Quek's solution](https://github.com/tempeste/Blog_Project/blob/master/README.md)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project1_4_RubyOnRails)
 * [Jonathan Faulk's solution](https://github.com/faulk49/jumpstart) | [View in browser](http://morning-gorge-3013.herokuapp.com/)
 * [Erithair's solution](https://github.com/N19270/blogger) | [View in browser](http://erithair-blog.herokuapp.com/)
@@ -249,7 +251,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Paritosh Sharma's Solution](https://github.com/Paritosh97/blogger) | [View in browser](https://evening-woodland-12867.herokuapp.com/)
 * [EMuchynski's Solution](https://github.com/EMuchynski/blogger) | [View in browser](https://agile-ocean-12019.herokuapp.com/articles)
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/rails-project)
-
+* [uvieugo's Solution](https://github.com/uvieugo/project-rails-blogger) | [View in Browser](https://salty-woodland-61543.herokuapp.com/) Up to part off I6
 
 ## Additional Resources
 

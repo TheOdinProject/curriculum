@@ -114,6 +114,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
 * [Marcus' solution](https://github.com/nestcx/odin-flight-booker)
 * [DV's Solution](https://github.com/dvislearning/odin-flight-booker) | [View in Browser](https://powerful-sierra-48857.herokuapp.com/)
+* [Peter Mester`s solution](https://github.com/peter665/FlightBooker) | [View in Browser](http://flight-booker-mester.herokuapp.com/)
 
 ## Additional Resources
 

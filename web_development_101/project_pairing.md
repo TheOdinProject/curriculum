@@ -38,7 +38,8 @@ Add your solution below this line!
 * [Laura's Solution](https://github.com/BrigadierButternut/pomodoro_timer) | [View in Browser](https://htmlpreview.github.io/?https://github.com/BrigadierButternut/pomodoro_timer/blob/master/pomodoro.html)
 * [EMuchynski's Solution](https://github.com/EMuchynski/pomodoro) | [View in Browser](https://emuchynski.github.io/pomodoro/)
 * [Ryan Steel's Solution](https://github.com/rsteel1/pomodoro-timer) | [View in Browser](https://rsteel1.github.io/pomodoro-timer/)
-
+* [Cody Buffaloe & Elisery's Solution](https://github.com/CodyLBuffaloe/pomodoro_clock_pp) | [View in Browser](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/pomodoro_clock_pp/blob/master/pomodoro_clock.html)
+* [Luinu's Solution](https://github.com/luinu/pomodoro) | [View in Browser](https://luinu.github.io/pomodoro/)
 
 ## Next Steps
 
