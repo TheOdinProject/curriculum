@@ -1,6 +1,6 @@
 <%= title(@lesson.title) %>
 
-<div id="lesson-nav">
+<!--<div id="lesson-nav">
   <div class="inner-nav">
     <%= link_to "Course List", courses_path %> >>
     <%= link_to "#{@lesson.course.title}", course_path(@lesson.course.title_url) %> >>
@@ -12,12 +12,12 @@
     <% end %>
     <%= @lesson.title %>
   </div>
-</div>
+</div>-->
 
-<div class="alert alert-info scroll-effect-alert">
+<!--<div class="alert alert-info scroll-effect-alert">
   <strong>Scroll up</strong> or <strong>hover</strong> over the breadcrumbs to view the navigation bar
   <button type="button" class="close" data-dismiss="alert">&times;</button>
-</div>
+</div>-->
 
 <!-- progress-tracking bar -->
 <%= render 'shared/pt_bar', lesson: @lesson %>
@@ -30,8 +30,11 @@
         &#10004;
       </h3>
     <% end %>
-
-    <%= convert_markdown_to_html(@lesson.content) %>
+  
+    <div class="col-lg-10 offset-lg-1">
+      <%= render 'courses/course/banner', course: @course %>
+        <%= convert_markdown_to_html(@lesson.content) %>
+    </div>
 
     <%= render 'chat_link' %>
 
