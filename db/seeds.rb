@@ -1837,7 +1837,7 @@ course = create_or_update_course(
   title_url: "Javascript and jQuery".parameterize,
   teaser: "Make Your Websites Really Dance",
   brief_desc: "Make dynamic, interactive webpages with JavaScript and jQuery.",
-  description: "JavaScript has become an essential piece of the modern website. This course will cover advanced principles including AJAX, APIs, and JavaScript frameworks. Create an incredible user experiences for your websites.",
+  description: "JavaScript is essential to the modern website. This course will cover advanced principles including AJAX, APIs, and JavaScript frameworks. Create an incredible user experiences for your websites.",
   position: course_position,
   you_learn: ["How to build interactive games using HTML5 canvas","How to use a full range of jQuery effects on the DOM", "How to organize your JS into modular pieces"],
   you_build: ["Javascript front ends for your Rails back ends", "A Javascript framework of your own","Snake, Missile Command and More"],
