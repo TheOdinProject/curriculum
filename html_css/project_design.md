@@ -46,6 +46,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 * [Norman's solution](https://github.com/slowmanchan/smashing-clone) | [View in Browser](https://htmlpreview.github.io/?https://github.com/slowmanchan/smashing-clone/blob/master/index.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-design-teardown) | [View in Browser](https://davidchappy.github.io/html-design-teardown/)
 * [Daunenok's solution](https://github.com/daunenok/smashing) | [View in Browser](https://daunenok.github.io/smashing/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Design_Teardown)
 
 ## Additional Resources
 
