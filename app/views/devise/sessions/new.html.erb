@@ -17,7 +17,15 @@
         <!-- From devise /shared/_links.erb -->
         <%= link_to "Forgot your password?", new_password_path( resource_name), class: "forgot-password" %>
 
-        <%= f.input :remember_me, as: :boolean, label: false, inline_label: true, input_html: { checked: true } %>
+        <%= f.input :remember_me, as: :boolean, label: false do %>
+          <label class="checkbox">
+            <%= f.check_box :remember_me, class: "boolean optional normal-checkbox", 'checked': "checked" %>
+            <%= f.label :remember_me, class: "big custom-checkbox" do %>
+              <div></div>
+            <% end %>
+            Remember Me
+          </label>
+        <% end %>
 
         <%= f.button :submit, "Login", class: "sign-in-button page-buttons login" %>
       <% end %>
