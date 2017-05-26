@@ -1,3 +1,7 @@
+#lesson-content {
+    padding-bottom: 180px;
+}
+
 .individual-lesson {
 
     h2 {
@@ -19,6 +23,11 @@
     
     p {
         margin-bottom: 30px;
+    }
+
+    a {
+        color: $primary;
+        text-decoration: underline;
     }
 
     ul, ol {
@@ -46,4 +55,23 @@
             margin-bottom: 30px;
         }
     }
+}
+
+#lesson-details {
+    text-align: center;
+    padding: 60px 0;
+    background: $light-grey;
+}
+
+#lesson-details .button {
+    cursor: pointer;
+    border: none;
+    padding: 1em;
+    width: 31%;
+    margin: 0 1%;
+}
+
+.card {
+    margin: 60px 0;
+    height: 500px;
 }
