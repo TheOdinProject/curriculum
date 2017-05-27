@@ -26,18 +26,16 @@
       <%= render 'courses/course/banner', course: @course %>
       <h2 class="text-center accent"><%= @lesson.title %> </h2>
 
-      <%= link_to course_path(@lesson.course.title_url, :ref => "lnav"), :title => "Go back to \"#{@lesson.course.title}\""  do %>
-        <button class="button primary">View Course</button>
-      <% end %>
+      <div class="button-container">
+        <%= link_to "View Course", course_path(@lesson.course.title_url, :ref => "lnav"), title: "Go back to \"#{@lesson.course.title}\"", class: 'button button--secondary' %>
 
-      <%= render 'mark_lesson_completed' %>
+        <%= render 'mark_lesson_completed' %>
 
-      <%= link_to course_lesson_path(@lesson.course, @lesson.next_lesson, :ref => "lnav"), :title => "Move on to \"#{@lesson.next_lesson.title}\"" do %>
-        <button class="button primary">Next Lesson</button>
-      <% end %>
-
+        <%= link_to "Next Lesson", course_lesson_path(@lesson.course, @lesson.next_lesson, :ref => "lnav"), title: "Move on to \"#{@lesson.next_lesson.title}\"", class: 'button button--secondary' %>
+      </div>
       <div class="card">
         <h3>Solutions</h3>
+        <!--TODO-->
       </div>
 
       <%= render 'shared/bottom_cta',

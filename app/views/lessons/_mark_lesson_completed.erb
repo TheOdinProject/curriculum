@@ -2,7 +2,7 @@
 
     <% if current_user.has_completed?(@lesson) %>
 
-        <button class="button button-primary">
+        <button class="button button--primary">
             <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
         </button>
 
@@ -15,7 +15,7 @@
         <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
         <a href="#" class="checkbox-container lc-unchecked">
             <%= hidden_field_tag(:lesson_id, @lesson.id) %>
-            <button class="button button-primary">
+            <button class="button button--primary">
                 Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
             </button>
         </a>
@@ -25,10 +25,6 @@
     
 <% else %>
 
-    <%= link_to login_path, :title => "Sign in to track your progress" do %>
-    <button class="button button-primary">
-        Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
-    </button>
-    <% end %>
+    <%= link_to "Login to track progress", login_path, title: "Go to login page", class: 'button button--primary' %>
 
 <% end %>
