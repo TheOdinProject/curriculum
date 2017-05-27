@@ -52,6 +52,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ben Deltenre's Solution](https://github.com/benjdelt/etch-a-sketch) | [View in browser](https://benjdelt.github.io/etch-a-sketch/)
 * [Shnoozlemcdoozle's Solution](https://github.com/shnoozlemcdoozle/etch) | [View in browser](https://shnoozlemcdoozle.github.io/etch/)
 * [adsy430's Solution](https://github.com/adampal/etcha-sketch) | [View in browser](https://adampal.github.io/etcha-sketch/)
+* * [Breadbear's Solution](https://github.com/breadbear/Wee-Painty-McPadster) | [View in browser](https://breadbear.github.io/Wee-Painty-McPadster/)
 * [Dallaire's Solution](https://github.com/Dallaire/jQuery-etch-sketch) | [View in browser](https://dallaire.github.io/jQuery-etch-sketch/)
 * [TevDevelops' Solution](https://github.com/tevdevelops) | [View in browser](https://tevdevelops.github.io/sketch/)
 * [MrDoop's Solution](https://github.com/MrDoops/Etcha) | [View in browser](https://mrdoops.github.io/Etcha)
