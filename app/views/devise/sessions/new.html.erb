@@ -17,7 +17,7 @@
         <!-- From devise /shared/_links.erb -->
         <%= link_to "Forgot your password?", new_password_path( resource_name), class: "forgot-password" %>
 
-        <%= f.input :remember_me, as: :boolean, label: false, inline_label: true, input_html: { checked: true } %>
+        <%= f.input :remember_me, as: :custom_boolean, label: false, inline_label: true, input_html: { checked: true } %>
 
         <%= f.button :submit, "Login", class: "sign-in-button page-buttons login" %>
       <% end %>
