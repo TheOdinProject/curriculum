@@ -147,19 +147,16 @@
     + .custom-checkbox {
       float: left;
       margin-right: 3px;
-
-      > div {
-        width: 1.5em;
-        height: 1.5em;
-        background-color: $pale-grey-bg;
-        position: relative;
-        cursor: pointer;
-      }
+      width: 1.5em;
+      height: 1.5em;
+      background-color: $pale-grey-bg;
+      position: relative;
+      cursor: pointer;
     }
   }
 
   .normal-checkbox:checked {
-    + .custom-checkbox > div:after {
+    + .custom-checkbox:after {
       content: '\f00c';
       color: $text-primary;
       position: absolute;
