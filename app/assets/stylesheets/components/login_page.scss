@@ -161,7 +161,7 @@
   .normal-checkbox:checked {
     + .custom-checkbox > div:after {
       content: '\f00c';
-      color: $black;
+      color: $text-primary;
       position: absolute;
       top: 0;
       bottom: 0;
