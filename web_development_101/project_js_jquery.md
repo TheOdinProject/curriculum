@@ -39,6 +39,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Beachfern's solution](https://github.com/beachfern/sketchpad) | [View in browser](https://beachfern.github.io/sketchpad/)
+* [Aryavansh Shukla's solution](https://github.com/aryavansh/etch) | [View in browser](https://aryavansh.github.io/etch/)
 * [Kasey Z.'s Solution](https://github.com/kasey-z/Odin-jQueryProject01)  | [View in browser](https://kasey-z.github.io/Odin-jQueryProject01/)
 * [Qin Chen's Solution](https://github.com/hyathynth/Sketchpad)  | [View in browser](https://hyathynth.github.io/Sketchpad/)
 * [Ben Harvey's Solution](https://github.com/ridergit/Sketchpad)  | [View in browser](https://ridergit.github.io/Sketchpad/)
@@ -638,3 +640,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [coconatsuki's solution](https://github.com/coconatsuki/Project-Javascript-jQuery) | [View in browser](https://coconatsuki.github.io/Project-Javascript-jQuery/)
 * [jacobhancock's solution](https://github.com/jacobhancock/javascript-jquery-project) | [View in browser](https://jacobhancock.github.io/javascript-jquery-project/)
 * [anistor86's solution](https://github.com/anistor86/sketchpad) | [View in browser](https://anistor86.github.io/sketchpad)
+* [uvieugo's solution](https://github.com/uvieugo/odin-project-Javascript-jQuery) | [View in browser](https://uvieugo.github.io/sketchpad/)

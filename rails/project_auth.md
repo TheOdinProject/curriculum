@@ -98,6 +98,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/members-only)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Members_only)|[View in browser](https://owmembersonly.herokuapp.com/)
 * [Ayushka's solution](https://github.com/ayushkamadji/members-only)|[View in browser](https://salty-river-87868.herokuapp.com/)
 * [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_members_only)

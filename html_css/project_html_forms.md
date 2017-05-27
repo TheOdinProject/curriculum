@@ -20,6 +20,7 @@ The page is very straightforward, so you should be able to clone it even if your
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Jeff's solution](https://github.com/jmbothe/mint-homepage) | [View in browser](https://jmbothe.github.io/mint-homepage/)
 * [James' solution](https://github.com/CurmudJim/google-homepage) | [View in browser](https://curmudjim.github.io/google-homepage/)
 * [Andrew's solution](https://github.com/andrewr224/html_forms) | [View in browser](https://andrewr224.github.io/html_forms/)
 * [Austin's solution](https://github.com/CouchofTomato/mint-signin)
