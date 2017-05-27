@@ -9,9 +9,6 @@
     a:hover {
         color: #c18934;
     }
-}
-
-.individual-lesson {
 
     h2 {
         font-size: 18px;
@@ -46,6 +43,9 @@
     ol {
         padding-left: 1em;
     }
+}
+
+.individual-lesson {
 
     .course-banner {
         
@@ -59,6 +59,13 @@
             margin-bottom: 30px;
         }
     }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px 0;
+        width: 100%;
+    }
 }
 
 #lesson-details {
@@ -68,14 +75,5 @@
 }
 
 #lesson-details .button {
-    cursor: pointer;
-    border: none;
-    padding: 1em;
-    width: 31%;
-    margin: 0 1%;
-}
-
-.card {
-    margin: 60px 0;
-    height: 500px;
+    width: 32%;
 }
