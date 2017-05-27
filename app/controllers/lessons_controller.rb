@@ -1,6 +1,7 @@
 class LessonsController < ApplicationController
   def show
     @lesson = decorated_lesson
+    @course = CourseDecorator.new(lesson.course)
     set_project_and_submissions if @lesson.has_submission?
     set_ads
   end

@@ -1,0 +1,79 @@
+#lesson-content {
+    padding-bottom: 180px;
+
+    a {
+        color: $primary;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: #c18934;
+    }
+
+    h2 {
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        color: $primary;
+        margin-bottom: 80px;
+    }
+
+    h3 {
+        margin: 60px 0 30px 0;
+        font-weight: bold;
+        color: rgba(74, 74, 74, 0.7);
+        font-size: 18px;
+        letter-spacing: 0.2px;
+    }
+    
+    p {
+        margin-bottom: 30px;
+    }
+
+    ul, ol {
+        line-height: 1.88;
+    }
+
+    ul {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    ol {
+        padding-left: 1em;
+    }
+}
+
+.individual-lesson {
+
+    .course-banner {
+        
+        .course-badge {
+            margin: 30px 0;
+            width: 150px;
+        }
+
+        .course-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 60px 0;
+        width: 100%;
+    }
+}
+
+#lesson-details {
+    text-align: center;
+    padding: 60px 0;
+    background: $light-grey;
+}
+
+#lesson-details .button {
+    width: 32%;
+}

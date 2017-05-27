@@ -25,9 +25,9 @@ checkbox).
       <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
         <a href="#" class="checkbox-container lc-unchecked">
           <%= hidden_field_tag(:lesson_id, @lesson.id) %>
-          <h3>
+          <!--<h3>
             Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
-          </h3>
+          </h3>-->
         </a>
       <% end %>
 
@@ -35,11 +35,11 @@ checkbox).
   
   <% else %>
 
-      <div class="checkbox-container lc-disabled">            
+      <!--<div class="checkbox-container lc-disabled">            
           <h3>
             Mark <%= @lesson.is_project ? "Project" : "Lesson" %> Completed
           </h3>
-      </div>
+      </div>-->
 
     <%= link_to "Sign in to track your progress", login_path, :class => "lc-signin-link" %> 
   <% end %>
