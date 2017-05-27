@@ -1,5 +1,14 @@
 #lesson-content {
     padding-bottom: 180px;
+
+    a {
+        color: $primary;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: #c18934;
+    }
 }
 
 .individual-lesson {
@@ -23,11 +32,6 @@
     
     p {
         margin-bottom: 30px;
-    }
-
-    a {
-        color: $primary;
-        text-decoration: underline;
     }
 
     ul, ol {

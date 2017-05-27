@@ -40,12 +40,11 @@
         <h3>Solutions</h3>
       </div>
 
-      <h1 class="text-center">Got Questions?</h1>
-      <p class="text-center">Chat with our friendly Odin community in our Gitter chatroom!</p>
-      
-      <%= link_to chat_link, :title => "Open Gitter" do %>
-        <button class="button primary">Open Gitter</button>
-      <% end %>
+      <%= render 'shared/bottom_cta',
+        button: gitter_button,
+        heading: 'Got questions?',
+        subheading: 'Chat with our friendly Odin community in our Gitter chatrooms'
+      %>
     </div>
   </div>
 
