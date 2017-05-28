@@ -1,40 +1,39 @@
 <%= title(@lesson.title) %>
 
-<!-- progress-tracking bar -->
-<%= render 'shared/pt_bar', lesson: @lesson %>
-
-<div class="individual-lesson <%= @lesson.is_project ? 'project-lesson' : ''%>">
+<div class="individual-lesson">
   <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <%= render 'courses/course/banner', course: @course, show_completion_percent: true %>
 
-    <% if user_signed_in? %>
-      <h3 class="lc-completion-indicator <%= current_user.has_completed?(@lesson) ? '' : 'hidden' %>" title="You've completed this lesson!">
-        &#10004;
-      </h3>
-    <% end %>
-
-    <div class="col-lg-10 offset-lg-1">
-      <%= render 'courses/course/banner', course: @course %>
-      <div id="lesson-content">
-        <%= convert_markdown_to_html(@lesson.content) %>
+        <div id="lesson-content">
+          <%= convert_markdown_to_html(@lesson.content) %>
+        </div>
       </div>
     </div>
-    
   </div>
 
   <div id="lesson-details">
-    <div class="container">
-      <%= render 'courses/course/banner', course: @course %>
-      <h2 class="text-center accent"><%= @lesson.title %> </h2>
+    <div class="container text-center">
+      <%= render 'courses/course/banner', course: @course, show_completion_percent: false %>
 
-      <div class="button-container">
-        <%= link_to "View Course", course_path(@lesson.course.title_url, :ref => "lnav"), title: "Go back to \"#{@lesson.course.title}\"", class: 'button button--secondary' %>
+      <h3 class="lesson-title text-center text-uppercase accent bold"><%= @lesson.title %> </h3>
 
-        <%= render 'mark_lesson_completed' %>
+      <div class="row buttons-container">
+        <div class="col col-sm-6 col-md-4">
+          <%= course_url(@lesson) %>
+        </div>
 
-        <%= link_to "Next Lesson", course_lesson_path(@lesson.course, @lesson.next_lesson, :ref => "lnav"), title: "Move on to \"#{@lesson.next_lesson.title}\"", class: 'button button--secondary' %>
+        <div class="col col-sm-6 col-md-4 lesson-completion-wrapper">
+          <%= render 'lesson_completion_actions', lesson: @lesson %>
+        </div>
+
+        <div class="col col-sm-6 col-md-4 next-lesson-button">
+          <%= next_lesson_url(@lesson) %>
+        </div>
       </div>
+
       <div class="card">
-        <h3>Solutions</h3>
         <!--TODO-->
       </div>
 
@@ -45,11 +44,10 @@
       %>
     </div>
   </div>
-
 </div>
 
 <script>
-  $(function(){
+  $(function() {
     $(".individual-lesson a[href^='http://']").attr("target","_blank");
     $(".individual-lesson a[href^='https://']").attr("target","_blank");
   });

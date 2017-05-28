@@ -1,79 +1,92 @@
 #lesson-content {
-    padding-bottom: 180px;
+  margin-top: 50px;
+  padding-bottom: 180px;
 
-    a {
-        color: $primary;
-        text-decoration: underline;
-    }
+  a {
+    color: $primary;
+    text-decoration: underline;
 
-    a:hover {
-        color: #c18934;
+    &:hover {
+      color: darken($primary, 10%);
     }
+  }
 
-    h2 {
-        font-size: 18px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-align: center;
-        color: $primary;
-        margin-bottom: 80px;
-    }
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: $primary;
+    margin: 50px 0;
+  }
 
-    h3 {
-        margin: 60px 0 30px 0;
-        font-weight: bold;
-        color: rgba(74, 74, 74, 0.7);
-        font-size: 18px;
-        letter-spacing: 0.2px;
-    }
-    
-    p {
-        margin-bottom: 30px;
-    }
+  h3 {
+    margin: 60px 0 30px;
+    font-weight: bold;
+    color: $grey;
+    font-size: 18px;
+    letter-spacing: 0.2px;
+  }
 
-    ul, ol {
-        line-height: 1.88;
-    }
+  p {
+    margin-bottom: 30px;
+  }
 
-    ul {
-        padding-left: 0;
-        list-style: none;
-    }
+  li {
+    color: $grey;
+    font-size: 1.125rem;
+  }
 
-    ol {
-        padding-left: 1em;
-    }
+  ul, ol {
+    line-height: 1.88;
+  }
+
+  ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  ol {
+    padding-left: 1em;
+  }
 }
 
 .individual-lesson {
-
-    .course-banner {
-        
-        .course-badge {
-            margin: 30px 0;
-            width: 150px;
-        }
-
-        .course-title {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+  .course-banner {
+    .course-badge {
+      margin: 30px 0;
+      width: 150px;
     }
 
-    .button-container {
-        display: flex;
-        justify-content: space-between;
-        margin: 60px 0;
-        width: 100%;
+    .course-title {
+      text-align: center;
+      margin-bottom: 30px;
     }
+  }
 }
 
 #lesson-details {
-    text-align: center;
-    padding: 60px 0;
-    background: $light-grey;
-}
+  padding: 60px 0;
+  background: $light-grey;
 
-#lesson-details .button {
-    width: 32%;
+  .lesson-title {
+    margin-bottom: 50px;
+  }
+
+  .buttons-container {
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .next-lesson-button {
+      margin-top: 40px;
+    }
+  }
+
+  @media (max-width: 472px) {
+    .lesson-completion-wrapper {
+      margin-top: 40px;
+    }
+  }
 }

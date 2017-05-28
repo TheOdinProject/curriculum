@@ -45,12 +45,10 @@ devise_for :users,
 
   resources :lessons, only: [:show] do
     resources :projects, only: [:index, :create, :update, :destroy]
+    resources :lesson_completions, only: [:create, :destroy], as: 'completions'
 
     get 'recent_submissions', to: 'projects#recent_submissions'
   end
-
-  post 'lesson_completions' => 'lesson_completions#create'
-  delete 'lesson_completions/:lesson_id' => 'lesson_completions#destroy', :as => 'lesson_completion'
 
   # Explicitly redirect deprecated routes (301)
 
