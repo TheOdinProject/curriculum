@@ -112,3 +112,43 @@
     justify-content: space-between;
   }
 }
+
+/* Styles for the project submission card displayed in the user dashboard */
+
+.project-submission {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  padding: 10px 0;
+
+  &:last-child {
+    border: 0;
+  }
+
+  .project-buttons {
+    display: flex;
+    justify-content: flex-end;
+
+    .project-button {
+      background: $whitish-grey;
+      box-shadow: none;
+      border-radius: 0;
+      padding: 18px;
+      width: 160px;
+      height: 60px;
+
+      &:hover, &:focus {
+        color: $white;
+      }
+    }
+
+    .live-preview-button {
+      margin-left: 10px;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    .lesson-title-wrapper {
+      margin-bottom: 20px;
+    }
+  }
+}

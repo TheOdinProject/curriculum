@@ -1,0 +1,15 @@
+<div id="dashboard" class="gradient">
+  <h1 class="text-center camel">My dashboard</h1>
+
+  <%= render 'profile_card', user: @user %>
+
+  <%= render 'skills_progress', user: @user, courses: @courses %>
+
+  <%= render 'project_submissions', projects: @projects unless @projects.empty? %>
+
+  <%= render 'shared/bottom_cta',
+      button: gitter_button,
+      heading: 'Got questions?',
+      subheading: 'Chat with our friendly Odin community in our Gitter chatrooms'
+  %>
+</div>
