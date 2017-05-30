@@ -4,21 +4,17 @@ class LessonCompletionsController < ApplicationController
 
   def create
     new_lesson_completion.save
-    render :create, formats: [:js]
   end
 
   def destroy
     lesson_completion.destroy
-    render :create, formats: [:js]
+    render :create
   end
 
   private
 
   def lesson_completion
-    LessonCompletion.where(
-      student_id: current_user.id,
-      lesson_id: @lesson.id
-    ).first
+    current_user.lesson_completions.find(params[:id])
   end
 
   def new_lesson_completion
@@ -26,7 +22,7 @@ class LessonCompletionsController < ApplicationController
   end
 
   def lookup_lesson
-    @lesson = Lesson.find(params[:lesson_id])
+    @lesson = Lesson.friendly.find(params[:lesson_id])
   end
 
   def authenticate_request

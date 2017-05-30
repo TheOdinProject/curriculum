@@ -21,6 +21,12 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 
+button {
+  border: 0;
+  font-family: $body-fonts;
+  padding: 0;
+}
+
 ul {
   padding-left: 0;
 }
