@@ -66,6 +66,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Flint Mayers' solution](https://github.com/FlintMayers/Project-HTML-Forms-with-Mint-) | [View in browser](https://flintmayers.github.io/Project-HTML-Forms-with-Mint-/)
 * [Axel’s solution](https://github.com/afuh/mint-form) | [View in browser](https://afuh.github.io/mint-form)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/mint-signup-clone) | [View in browser](https://sophialwu.github.io/mint-signup-clone/)
+* [Beth Rathbone's solution](https://github.com/bethrath/signup-form) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bethrath/signup-form/blob/master/index.html)
 
 ## Additional Resources
 
