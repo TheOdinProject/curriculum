@@ -1118,6 +1118,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Robtak's Solution (Difficult)](https://github.com/robtak/Google_-Search_Result) | [View in browser](https://robtak.github.io/Google-Search-Result/)
 * [Bolcik's Solution (Easy)](https://github.com/SeanKohlbrenner/google_homepage) | [View in browser](https://seankohlbrenner.github.io/google_homepage/)
 * [Ayub's Solution (Easy)](https://github.com/yubi12/google-homepage.git) | [View in browser](https://yubi12.github.io/google-homepage/)
+* [Justin Webb's Solution](https://github.com/webbcreative/google-homepage) | [View in browser](https://webbcreative.github.io/google-homepage/)
 
 ## Additional Resources
 
