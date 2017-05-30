@@ -633,3 +633,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Codebreeze's solution](https://github.com/codebreeze/Etch-A-Sketch) | [View in browser] (https://codebreeze.github.io/Etch-A-Sketch/)
 * [Igor's solution](https://github.com/mojotron/etch-a-sketch)|[View in browser](https://mojotron.github.io/etch-a-sketch/)
 * [coconatsuki's solution](https://github.com/coconatsuki/Project-Javascript-jQuery)|[View in browser](https://coconatsuki.github.io/Project-Javascript-jQuery/)
+* [ntnlbar's solution](https://github.com/ntnlbar/sketchpad)|[View in browser](https://ntnlbar.github.io/sketchpad/)
