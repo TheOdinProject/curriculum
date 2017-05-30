@@ -5,17 +5,18 @@ RSpec.describe LessonsController do
   let(:ad) { double('Ad') }
   let(:params) { { course_title: 'web-development-101', id: lesson_id } }
   let(:lesson_id) { 'abc123' }
-  let(:current_user) { double('User', id: '1') }
+  let(:course) { double('Course') }
+  let(:user) { double('User', id: '1') }
 
   before do
-    allow(Lesson).to receive_message_chain(:friendly, :find)
-      .with(params[:id]).and_return(lesson)
+    allow(controller).to receive(:current_user).and_return(user)
 
-    allow(controller).to receive(:current_user)
-      .and_return(current_user)
+    allow(Lesson).to receive(:friendly).and_return(lesson)
+    allow(lesson).to receive(:find).with(params[:id]).and_return(lesson)
+    allow(lesson).to receive(:course).and_return(course)
 
-    allow(ENV).to receive(:[]).with('SHOW_ADS')
-      .and_return(true)
+    allow(ENV).to receive(:[]).with('SHOW_ADS').and_return(true)
+    allow(Ad).to receive(:show_ads?).and_return(true)
   end
 
   describe 'GET show' do
@@ -64,9 +65,7 @@ RSpec.describe LessonsController do
       let(:show_ad) { false }
 
       before do
-        allow(ENV).to receive(:[]).with('SHOW_ADS')
-          .and_return(env_show_ads)
-
+        allow(ENV).to receive(:[]).with('SHOW_ADS').and_return(env_show_ads)
         allow(Ad).to receive(:show_ads?).and_return(show_ad)
       end
 
