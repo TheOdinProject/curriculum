@@ -73,8 +73,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Braydon Pacheco's solution](https://github.com/pacheeko/chess)
 * [John Connor's solution](https://github.com/jacgitcz/chessfinal)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/chess)
-
-
+* [Jonathan Marks's solution](https://github.com/johnjmarks4/Chess)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
