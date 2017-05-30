@@ -94,6 +94,17 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line
+* [Endotnick's Solution (Easy)](https://github.com/endotnick/odin-google-homepage) | [View in browser](http://nickrodriguez.tech/odin-google-homepage/)
+* [GuyInALabCoat Solution (Easy)](https://github.com/GuyInALabCoat/google-homepage) | [View in browser](https://guyinalabcoat.github.io/google-homepage/)
+* [Ege Alpay Solution(Easy)](https://github.com/egealpay/google-homepage) | [View in browser](https://egealpay.github.io/google-homepage/)
+* [Kinokoma Solution (Easy)](https://github.com/kinokoma/google_homepage) | [View in browser](https://kinokoma.github.io/google_homepage/)
+* [willievantonder solution](https://willievantonder.github.io/google-homepage)
+* [Brice Afonso's Solution (Easy)](https://github.com/qazare/google-homepage) | [View in Browser](https://qazare.github.io/google-homepage/)
+* [Jeff's Solution (Easy)](https://github.com/jmbothe/google-homepage) | [View in Browser](https://jmbothe.github.io/google-homepage/)
+* [KP's Solution (Easy)](https://github.com/carlacalo/google_homepage) | [View in browser](https://carlacalo.github.io/google_homepage/)
+* [EK's Solution (Easy)](https://github.com/ekazubuike/google-homepage) | [View in browser](https://ekazubuike.github.io/google-homepage/#)
+* [Alexandra Wright's Solution (Easy)](https://github.com/f3mshep/google-clone) | [View in browser](https://f3mshep.github.io/google-clone/)
+* [Breadbear's Solution (Easy)](https://github.com/breadbear/google-homepage) | [View in browser](https://breadbear.github.io/google-homepage/)
 * [Aachman's Solution (Easy)](https://github.com/forever-a-looney/google_homepage) | [View in browser](https://forever-a-looney.github.io/google_homepage/)
 * [Krystell Barraza's Solution (Easy)](https://krystellbarraza.github.io/google-homepage/) | [View in browser](https://krystellbarraza.github.io/google-homepage/)
 * [Krystell Barraza's Solution (Difficult)](https://krystellbarraza.github.io/google-searchpage/) | [View in browser](https://krystellbarraza.github.io/google-searchpage/)
@@ -122,6 +133,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Serch solution(easy)](https://github.com/sbadillo/google-homepage/) | [View in browser](https://sbadillo.github.io/google-homepage/)
 * [Marko Dinka's Solution (Difficult) ](https://github.com/Relyful/google-homepage)| [View in browser](https://relyful.github.io/google-homepage/)
 * [Andreynho2006 solution](https://github.com/andreynho2006/google-homepage) | [View in browser](https://andreynho2006.github.io/google-homepage/)
+ [Bartosz solution(difficult)](https://github.com/ispmor/google-searchpage) | [View in browser](https://ispmor.github.io/google-searchpage/)
 * [Xavier solution(easy)](https://github.com/nxdf2015/odin-google-easy) | [View in browser](https://nxdf2015.github.io/odin-google-easy/)
 * [Abdelrahman AlShakhshir's solution(Easy)](https://github.com/aalshakhshirOdin/Googles-Home-Page) | [View in Browser](https://aalshakhshirodin.github.io/Googles-Home-Page/)
 * [Webdev-burd's solution(Easy)](https://github.com/webdev-burd/google-homepage) | [View in Browser](https://webdev-burd.github.io/google-homepage)
@@ -1094,7 +1106,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Nallely's solution(Easy)](https://nallelytg.github.io/google_homepage) | [View in browser](https://nallelytg.github.io/google_homepage/)
 * [Alfredo's solution(Easy)](https://github.com/alfasf/google-homepage) | [View in browser](https://alfasf.github.io/google-homepage/)
 * [Will's solution(Easy)](https://github.com/willianncardoso/google-homepage) | [View in browser](https://willianncardoso.github.io/google-homepage/)
-* [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage) 
+* [Cal Corbin's Solution(Easy and Difficult)](https://github.com/CalCorbin/google-homepage) | [View in browser](https://github.com/CalCorbin/google-homepage)
 * [Tim Ott's Solution(Easy)](https://github.com/Vanamman/google-homepage/) | [View in brower](https://vanamman.github.io/google-homepage/)
 * [Dallas Rhinehart's Solution (Easy)](https://github.com/drrhinehart/google-homepage) | [View in browser](https://drrhinehart.github.io/google-homepage/)
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
@@ -1102,7 +1114,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [archeryprogrammer13's solution (Easy)](https://github.com/archeryprogrammer13/google_homepage) | [View in browser](https://archeryprogrammer13.github.io/google_homepage/)
 * [Robtak's Solution (Easy)](https://github.com/robtak/googgle-homepage) | [View in browser](https://robtak.github.io/googgle-homepage/)
 * [jacobhancock's Solution (Easy)](https://github.com/jacobhancock/google-homepage) | [View in browser](https://jacobhancock.github.io/google-homepage/)
-
+* [ntnlbar's Solution (Easy)](https://github.com/ntnlbar/google-homepage) | [View in browser](https://ntnlbar.github.io/google-homepage/)
+* [Robtak's Solution (Difficult)](https://github.com/robtak/Google_-Search_Result) | [View in browser](https://robtak.github.io/Google-Search-Result/)
+* [Bolcik's Solution (Easy)](https://github.com/SeanKohlbrenner/google_homepage) | [View in browser](https://seankohlbrenner.github.io/google_homepage/)
+* [Ayub's Solution (Easy)](https://github.com/yubi12/google-homepage.git) | [View in browser](https://yubi12.github.io/google-homepage/)
+* [Justin Webb's Solution](https://github.com/webbcreative/google-homepage) | [View in browser](https://webbcreative.github.io/google-homepage/)
 
 ## Additional Resources
 

@@ -99,7 +99,7 @@ You've heard about cookies.  Cookies are basically a way for websites to remembe
 
 *The [Wikipedia article on cookies](http://en.wikipedia.org/wiki/HTTP_cookie) may also be helpful reading.*
 
-Go to a website you normally frequent, open up your developer tools, and find the cookies.  In Chrome, it's by clicking on "Resources" then "cookies".  You'll see them as name-value pairs.  Often there will be something like a "user_session" or "token" variable that is some unintelligible string of characters.  
+Go to a website you normally frequent, open up your developer tools, and find the cookies.  In Chrome, it's by clicking on "Application" tab then "cookies" on the leftmost menu.  You'll see them as name-value pairs.  Often there will be something like a "user_session" or "token" variable that is some unintelligible string of characters.  
 
 
 ## Sessions

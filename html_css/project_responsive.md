@@ -24,6 +24,7 @@ The process will be quite similar to what we've done before.  At this point, you
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/nextweb-clone) | [View in browser](https://couchoftomato.github.io/nextweb-clone/)
 * [ Flint Mayers' solution](https://github.com/FlintMayers/-Responsive-Design_odin) | [View in browser](https://flintmayers.github.io/-Responsive-Design_odin/)
 * [Rhys B's solution](https://github.com/105ron/the-next-web) | [View in browser](https://105ron.github.io/the-next-web/)
 * [Pawel R's solution](https://github.com/PawelRokosz/ResponsiveDesign) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/ResponsiveDesign/blob/master/index.html)
@@ -41,6 +42,7 @@ The process will be quite similar to what we've done before.  At this point, you
 * [David Chapman's solution (w/ partial placeholder elements)](https://github.com/davidchappy/odin_training_projects/tree/master/html-responsive-design) | [View in browser](https://davidchappy.github.io/html-responsive-design/)
 * [Charles Harries's solution (mostly placeholder + menu)](https://github.com/charlesharries/the-next-web/) | [View in browser](https://htmlpreview.github.io/?https://github.com/charlesharries/the-next-web/blob/master/index.html)
 * [Daunenok's solution](https://github.com/daunenok/next-web) | [View in browser](https://daunenok.github.io/next-web/)
+* [Beth Rathbone's solution](https://github.com/bethrath/responsive-design) | [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/responsive-design/blob/master/index.html)
 
 ## Additional Resources
 

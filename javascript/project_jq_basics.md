@@ -49,6 +49,8 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq_restaurant)
 * [Daunenok's solution](https://daunenok.github.io/restaurant/) | [View in Browser](https://daunenok.github.io/restaurant/)
 * [Pat's solution](https://github.com/Pat878/Restaurant) | [View in Browser](https://pat878.github.io/Restaurant/)
+* [smilesr's solution](https://github.com/smilesr/op-jj-bb-35-restaurant-jquery) | [View in Browser](https://htmlpreview.github.io/?https://github.com/smilesr/op-jj-bb-35-restaurant-jquery/blob/master/index.html)
+
 
 ## Additional Resources
 

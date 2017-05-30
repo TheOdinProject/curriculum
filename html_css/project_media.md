@@ -33,6 +33,8 @@ Also, don't worry about making the comment form work properly... your goal is to
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Bottlecap's solution](https://github.com/Bottlecaps4/YouTube-video-page) | [View in Browser](https://bottlecaps4.github.io/YouTube-video-page/)
+* [Jeff's Solution](https://github.com/jmbothe/youtube-homepage) | [View in Browser](https://jmbothe.github.io/youtube-homepage/)
 * [Andrew's solution](https://github.com/andrewr224/embedding-video-project) | [View in browser] (https://andrewr224.github.io/embedding-video-project/)
 * [Austin's solution](https://github.com/CouchofTomato/youtube-clone)
 * [Flint Mayers' solution](https://github.com/FlintMayers/youtube_player) | [View in browser](https://flintmayers.github.io/youtube_player/)
@@ -70,6 +72,9 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [daunenok's solution](https://github.com/daunenok/embedded-video) | [View in browser]( https://daunenok.github.io/embedded-video/)
 * [Axel's solution](https://github.com/afuh/Youtube) | [View in browser](https://afuh.github.io/Youtube/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/odin-youtube-project) | [View in browser](https://sophialwu.github.io/odin-youtube-project/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/YouTube)
+* [Beth Rathbone's solution](https://github.com/bethrath/youtube-page)
+
 
 ## Additional Resources
 

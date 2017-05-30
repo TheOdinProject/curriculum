@@ -30,7 +30,7 @@ It's difficult to find good resources to teach RSpec for free.  There are some d
 1. Go back to the Web Development 101 course and do the [RSpec section](/web-development-101/testing-basics) if you haven't already.
 2. Get started writing your own tests by reading [this 3-part series](https://semaphoreci.com/community/series/learn-rspec) and following the tutorial in part 1.
 3. Take a glance at the [Relish RSpec official documentation](https://www.relishapp.com/rspec/rspec-core/v/3-5/docs/).  It will be a good resource for when you're scratching your head later.
-4. Glance through [Better Specs](https://web.archive.org/web/20161030151243/http://betterspecs.org/), which shows tons of examples of what you should and shouldn't do with RSpec.
+4. Glance through [Better Specs](http://www.betterspecs.org/), which shows tons of examples of what you should and shouldn't do with RSpec.
 
 ## Additional Resources
 

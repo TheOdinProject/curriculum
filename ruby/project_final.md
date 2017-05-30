@@ -28,6 +28,9 @@ This is a great project to have as a part of your portfolio going forward becaus
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/chess)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-chess)
+* [jfonz412's solution](https://github.com/jfonz412/chess)
 * [nmac's solution](https://github.com/nmacawile/chess)
 * [Ayushka's solution](https://github.com/ayushkamadji/ruby_chess)
 * [Orlando's solution](https://github.com/orlandodan14/chess_game)
@@ -70,7 +73,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Braydon Pacheco's solution](https://github.com/pacheeko/chess)
 * [John Connor's solution](https://github.com/jacgitcz/chessfinal)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/chess)
-
+* [Jonathan Marks's solution](https://github.com/johnjmarks4/Chess)
 
 ## Additional Resources
 
