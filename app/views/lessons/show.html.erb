@@ -19,19 +19,7 @@
 
       <h3 class="lesson-title text-center text-uppercase accent bold"><%= @lesson.title %> </h3>
 
-      <div class="row buttons-container">
-        <div class="col col-sm-6 col-md-4">
-          <%= course_url(@lesson) %>
-        </div>
-
-        <div class="col col-sm-6 col-md-4 lesson-completion-wrapper">
-          <%= render 'lesson_completion_actions', lesson: @lesson %>
-        </div>
-
-        <div class="col col-sm-6 col-md-4 next-lesson-button">
-          <%= next_lesson_url(@lesson) %>
-        </div>
-      </div>
+      <%= render 'lesson_actions', lesson: @lesson %>
 
       <div class="card">
         <!--TODO-->
