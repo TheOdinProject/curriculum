@@ -73,6 +73,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Axel's solution](https://github.com/afuh/Youtube) | [View in browser](https://afuh.github.io/Youtube/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/odin-youtube-project) | [View in browser](https://sophialwu.github.io/odin-youtube-project/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/YouTube)
+* [Beth Rathbone's solution](https://github.com/bethrath/youtube-page)
 
 
 ## Additional Resources
