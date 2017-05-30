@@ -37,6 +37,7 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 * [David Chapman's solution (partial content, no JS)](https://github.com/davidchappy/odin_training_projects/tree/master/html-bootstrap-newsweek) | [View in browser](https://davidchappy.github.io/html-bootstrap-newsweek/)
 * [Daunenok's solution](https://github.com/daunenok/newsweek) | [View in browser](https://daunenok.github.io/newsweek/)
 * [Austin's solution](https://github.com/CouchofTomato/newsweek-clone)
+* [Beth Rathbone's solution] (https://github.com/bethrath/bootstrap-test) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bethrath/bootstrap-test/blob/master/index.html)
 
 ## Additional Resources
 
