@@ -642,3 +642,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [jacobhancock's solution](https://github.com/jacobhancock/javascript-jquery-project) | [View in browser](https://jacobhancock.github.io/javascript-jquery-project/)
 * [anistor86's solution](https://github.com/anistor86/sketchpad) | [View in browser](https://anistor86.github.io/sketchpad)
 * [uvieugo's solution](https://github.com/uvieugo/odin-project-Javascript-jQuery) | [View in browser](https://uvieugo.github.io/sketchpad/)
+* [ntnlbar's solution](https://github.com/ntnlbar/sketchpad) | [View in browser](https://ntnlbar.github.io/sketchpad/)
