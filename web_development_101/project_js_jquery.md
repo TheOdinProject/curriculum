@@ -39,6 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [GuyInALabCoat's solution](https://github.com/GuyInALabCoat/sketchpad) | [View in browser](https://guyinalabcoat.github.io/sketchpad/)
 * [Beachfern's solution](https://github.com/beachfern/sketchpad) | [View in browser](https://beachfern.github.io/sketchpad/)
 * [Aryavansh Shukla's solution](https://github.com/aryavansh/etch) | [View in browser](https://aryavansh.github.io/etch/)
 * [Kasey Z.'s Solution](https://github.com/kasey-z/Odin-jQueryProject01)  | [View in browser](https://kasey-z.github.io/Odin-jQueryProject01/)
@@ -52,6 +53,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ben Deltenre's Solution](https://github.com/benjdelt/etch-a-sketch) | [View in browser](https://benjdelt.github.io/etch-a-sketch/)
 * [Shnoozlemcdoozle's Solution](https://github.com/shnoozlemcdoozle/etch) | [View in browser](https://shnoozlemcdoozle.github.io/etch/)
 * [adsy430's Solution](https://github.com/adampal/etcha-sketch) | [View in browser](https://adampal.github.io/etcha-sketch/)
+* * [Breadbear's Solution](https://github.com/breadbear/Wee-Painty-McPadster) | [View in browser](https://breadbear.github.io/Wee-Painty-McPadster/)
 * [Dallaire's Solution](https://github.com/Dallaire/jQuery-etch-sketch) | [View in browser](https://dallaire.github.io/jQuery-etch-sketch/)
 * [TevDevelops' Solution](https://github.com/tevdevelops) | [View in browser](https://tevdevelops.github.io/sketch/)
 * [MrDoop's Solution](https://github.com/MrDoops/Etcha) | [View in browser](https://mrdoops.github.io/Etcha)

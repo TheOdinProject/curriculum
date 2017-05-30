@@ -20,6 +20,7 @@ The page is very straightforward, so you should be able to clone it even if your
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Bottlecap's solution](https://github.com/Bottlecaps4/mint.com) | [View in browser](https://bottlecaps4.github.io/mint.com/)
 * [Jeff's solution](https://github.com/jmbothe/mint-homepage) | [View in browser](https://jmbothe.github.io/mint-homepage/)
 * [James' solution](https://github.com/CurmudJim/google-homepage) | [View in browser](https://curmudjim.github.io/google-homepage/)
 * [Andrew's solution](https://github.com/andrewr224/html_forms) | [View in browser](https://andrewr224.github.io/html_forms/)
@@ -65,6 +66,7 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Flint Mayers' solution](https://github.com/FlintMayers/Project-HTML-Forms-with-Mint-) | [View in browser](https://flintmayers.github.io/Project-HTML-Forms-with-Mint-/)
 * [Axel’s solution](https://github.com/afuh/mint-form) | [View in browser](https://afuh.github.io/mint-form)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/mint-signup-clone) | [View in browser](https://sophialwu.github.io/mint-signup-clone/)
+* [Beth Rathbone's solution](https://github.com/bethrath/signup-form) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bethrath/signup-form/blob/master/index.html)
 
 ## Additional Resources
 

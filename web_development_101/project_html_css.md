@@ -94,7 +94,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line
-[Ege Alpay Solution(Easy)](https://github.com/egealpay/google-homepage) | [View in browser](https://egealpay.github.io/google-homepage/)
+* [Endotnick's Solution (Easy)](https://github.com/endotnick/odin-google-homepage) | [View in browser](http://nickrodriguez.tech/odin-google-homepage/)
+* [GuyInALabCoat Solution (Easy)](https://github.com/GuyInALabCoat/google-homepage) | [View in browser](https://guyinalabcoat.github.io/google-homepage/)
+* [Ege Alpay Solution(Easy)](https://github.com/egealpay/google-homepage) | [View in browser](https://egealpay.github.io/google-homepage/)
 * [Kinokoma Solution (Easy)](https://github.com/kinokoma/google_homepage) | [View in browser](https://kinokoma.github.io/google_homepage/)
 * [willievantonder solution](https://willievantonder.github.io/google-homepage)
 * [Brice Afonso's Solution (Easy)](https://github.com/qazare/google-homepage) | [View in Browser](https://qazare.github.io/google-homepage/)
@@ -1116,6 +1118,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Robtak's Solution (Difficult)](https://github.com/robtak/Google_-Search_Result) | [View in browser](https://robtak.github.io/Google-Search-Result/)
 * [Bolcik's Solution (Easy)](https://github.com/SeanKohlbrenner/google_homepage) | [View in browser](https://seankohlbrenner.github.io/google_homepage/)
 * [Ayub's Solution (Easy)](https://github.com/yubi12/google-homepage.git) | [View in browser](https://yubi12.github.io/google-homepage/)
+* [Justin Webb's Solution](https://github.com/webbcreative/google-homepage) | [View in browser](https://webbcreative.github.io/google-homepage/)
 
 ## Additional Resources
 
