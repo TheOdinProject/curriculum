@@ -52,28 +52,6 @@ RSpec.describe UsersController do
     end
   end
 
-  describe 'GET index' do
-    let(:users) { [first_user, second_user] }
-    let(:first_user) { double('User') }
-    let(:second_user) { double('User') }
-    let(:params) { { page: 'foo' } }
-
-    before do
-      allow(controller).to receive(:params).and_return(params)
-
-      allow(User).to receive(:by_latest_completion).and_return(users)
-
-      allow(users).to receive(:paginate)
-        .with(page: params[:page], per_page: 15)
-        .and_return(users)
-    end
-
-    it 'assigns @users' do
-      get :index
-      expect(assigns(:users)).to eql(users)
-    end
-  end
-
   describe 'GET send_confirmation_link' do
     before do
       allow(controller).to receive(:current_user).and_return(user)

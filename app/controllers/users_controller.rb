@@ -18,10 +18,6 @@ class UsersController < ApplicationController
     end
   end
 
-  def index
-    @users = users_by_latest_lesson_completion
-  end
-
   def send_confirmation_link
     current_user.send_confirmation_instructions
     flash[:notice] = 'Confirmation instructions have been sent to your email address!'
@@ -55,9 +51,5 @@ class UsersController < ApplicationController
 
   def find_user
     @user = UserDecorator.new(current_user)
-  end
-
-  def users_by_latest_lesson_completion
-    User.by_latest_completion.paginate(page: params[:page], per_page: 15)
   end
 end
