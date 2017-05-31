@@ -30,6 +30,7 @@ gem 'cancancan',                    '~> 1.15'
 gem 'rack-attack'
 gem 'best_in_place',                '~> 3.0.1'
 gem 'tether-rails' # dependency for bootstrap tooltips
+gem 'acts_as_votable'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.3'

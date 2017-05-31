@@ -38,6 +38,7 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+    acts_as_votable (0.10.0)
     addressable (2.4.0)
     arel (7.1.4)
     ast (2.3.0)
@@ -406,8 +407,10 @@ GEM
 
 PLATFORMS
   ruby
+  x86_64-darwin-15
 
 DEPENDENCIES
+  acts_as_votable
   best_in_place (~> 3.0.1)
   better_errors (~> 2.1)
   binding_of_caller (~> 0.7)

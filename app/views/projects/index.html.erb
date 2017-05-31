@@ -6,6 +6,19 @@
         <%= project.owner_name %>
         <%= project.repo_url %>
         <%= project.live_preview %>
+        <%= project.total_number_of_votes %>
+
+        <%= button_to lesson_project_votes_path(project.lesson.id, project.id),
+            method: :post,
+            remote: true,
+            class: 'button button--primary' do %>
+         <% end %>
+
+         <%= button_to lesson_project_vote_path(project.lesson.id, project.id),
+             method: :delete,
+             remote: true,
+             class: 'button button--primary' do %>
+          <% end %>
       </div>
     <% end %>
   <% end %>
