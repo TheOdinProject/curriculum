@@ -12,17 +12,10 @@ class User < ApplicationRecord
 
   def format_completion_date
     if learning_goal_completion_date
-      learning_goal_completion_date.strftime('%B %Y')  
+      learning_goal_completion_date.strftime('%B %Y')
     else
       'Click here to set a date!'
     end
-  end
-
-  def self.by_latest_completion
-    User.left_outer_joins(:lesson_completions)
-        .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
-        .group('users.id')
-        .order('latest_completion_date desc nulls last')
   end
 
   def completion_status(lesson)

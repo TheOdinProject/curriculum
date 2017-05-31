@@ -54,66 +54,6 @@ RSpec.describe User do
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completed_lessons) }
 
-  describe '.by_latest_completion' do
-    let(:first_user) {
-      double(
-        'User',
-        id: 1,
-        lesson_completions: [completed_lesson]
-      )
-    }
-
-    let(:completed_lesson) {
-      double(
-        'LessonCompletion',
-        student_id: 1,
-        created_at: DateTime.new(2016, 11, 7)
-      )
-    }
-
-    let(:second_user) {
-      double(
-        'User',
-        id: 2,
-        lesson_completions: [second_completed_lesson]
-      )
-    }
-
-    let(:second_completed_lesson) {
-      double(
-        'LessonCompletion',
-        student_id: 2,
-        created_at: DateTime.new(2016, 11, 10)
-      )
-    }
-
-    let(:users_completed_lessons) { double('ActiveRecord::Relation') }
-    let(:users_by_last_completed_lesson) { double('ActiveRecord::Relation') }
-    let(:grouped_by_users) { double('ActiveRecord::Relation') }
-
-    before do
-      allow(User).to receive(:left_outer_joins)
-        .with(:lesson_completions)
-        .and_return(users_completed_lessons)
-
-      allow(users_completed_lessons).to receive(:select)
-        .with('max(lesson_completions.created_at) as latest_completion_date, users.*')
-        .and_return(users_by_last_completed_lesson)
-
-      allow(users_by_last_completed_lesson).to receive(:group)
-        .with('users.id')
-        .and_return(grouped_by_users)
-
-      allow(grouped_by_users).to receive(:order)
-        .with('latest_completion_date desc nulls last')
-        .and_return([second_user, first_user])
-    end
-
-    it 'returns users ordered by thier latest lesson completion' do
-      expect(User.by_latest_completion).to eql([second_user, first_user])
-    end
-  end
-
   describe '#has_completed?' do
     let(:exists?) { true }
 
