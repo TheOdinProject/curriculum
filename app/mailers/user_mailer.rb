@@ -5,7 +5,7 @@ class UserMailer < ActionMailer::Base
     @user = user
     @token = token
     @starting_lesson = first_lesson
-    attachments.inline['logo.gif'] = logo_path
+    attachments.inline['logo.svg'] = logo_path
 
     mail(
           subject: 'Getting started with The Odin Project',
@@ -18,10 +18,10 @@ class UserMailer < ActionMailer::Base
   private
 
   def first_lesson
-    Lesson.order(position: :asc).first
+    Lesson.order(:position).first
   end
 
   def logo_path
-    File.read(Rails.root.join('app/assets/images/odin_head_silhouette_2_circle_simple_transparent_darker.gif'))
+    File.read(Rails.root.join('app/assets/images/odin-logo.svg'))
   end
 end

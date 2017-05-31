@@ -10,7 +10,7 @@ RSpec.describe UserMailer, type: :mailer do
     let(:lessons) { [lesson] }
 
     before do
-      allow(Lesson).to receive(:order).with(position: :asc).and_return(lessons)
+      allow(Lesson).to receive(:order).with(:position).and_return(lessons)
     end
 
     it 'renders the correct sender address' do
@@ -30,7 +30,7 @@ RSpec.describe UserMailer, type: :mailer do
     end
 
     it 'renders the correct attachment' do
-      expect(welcome_email.attachments[0].filename).to eql('logo.gif')
+        expect(welcome_email.attachments[0].filename).to eql('logo.svg')
     end
 
     it 'renders the correct subject' do
