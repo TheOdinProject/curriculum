@@ -1,5 +1,5 @@
 class VotesController < ApplicationController
-  before_action :authenticate_request
+  before_action :authenticate_request, except: [:index]
 
   def index
     render json: project.total_number_of_votes
