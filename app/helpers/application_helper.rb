@@ -187,6 +187,14 @@ module ApplicationHelper
     ]
   end
 
+  def custom_button
+    if current_user
+      render 'static_pages/home/curriculum_button'
+    else
+      render 'static_pages/home/sign_up_button'
+    end
+  end
+
   private
 
   def custom_flash(flash_type)

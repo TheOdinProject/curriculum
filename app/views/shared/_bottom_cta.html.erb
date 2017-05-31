@@ -2,7 +2,5 @@
   <p class="bottom-cta__heading"><%= heading %></p>
 
   <p class="bottom-cta__sub-heading"><%= subheading %></p>
-  <% if current_user.nil? %>
-	  <%= button %>
-  <% end %>
+  <%= custom_button %>
 </div>
