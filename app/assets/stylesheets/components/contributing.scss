@@ -7,14 +7,12 @@
   color: $text-primary;
 
   section {
-    padding: 100px 20px 50px;  
+    padding: 100px 20px 50px;
   }
 
   .card-contributing {
     height: 95%;
     margin-top: 5%;
-
-    @include main-button($button-primary);
 
     .card-contributing-base {
       height: 100px;
