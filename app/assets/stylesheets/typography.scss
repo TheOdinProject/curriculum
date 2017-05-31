@@ -5,28 +5,28 @@ h1, h2, h3, h4, p {
 h1 {
   font-size: 2.25rem;
   font-weight: 300;
-  letter-spacing: 0.4;
+  letter-spacing: 0.4px;
 }
 h2 {
   font-size: 1.5rem;
-  letter-spacing: 0.3;
+  letter-spacing: 0.3px;
 }
 h3 {
   font-size: 1.25rem;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2px;
 }
 h4 {
   font-size: 1.125rem;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2px;
 }
 p {
   color: $grey;
   font-size: 1.125rem;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2px;
 }
 .small {
   font-size: .8125rem;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2px;
 }
 .secondary {
   color: $grey;

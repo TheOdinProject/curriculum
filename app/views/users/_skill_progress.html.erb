@@ -1,0 +1,33 @@
+<div class="container skill-progress">
+  <div class="row">
+    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+      <div class="row align-items-center skill-progress-wrapper">
+        <div class="col-3 col-md-2 text-center">
+          <%= image_tag course.badge, class: 'course-badge img-fluid', alt: "#{course.title} badge" %>
+        </div>
+
+        <div class="col-9 col-md-4">
+          <p class="text-uppercase course-title">
+            <span class="bold"><%= course.title %></span>
+          </p>
+        </div>
+
+        <div class="col-6 col-md-3 lessons-count-wrapper">
+          <p class="text-uppercase">
+            <span class="grey small lessons-count">
+              <%= course.lessons_count %> lessons
+            </span>
+          </p>
+        </div>
+
+        <div class="col-6 col-md-3 course-progress-wrapper">
+          <% if course.completed_by?(current_user) %>
+            <span class="completed-text pale-grey bold text-uppercase">Completed</span>
+          <% else %>
+            <%= link_to 'Start', course_path(course), class: 'button course-start-btn' %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

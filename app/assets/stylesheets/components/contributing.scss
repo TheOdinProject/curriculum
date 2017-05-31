@@ -1,9 +1,14 @@
 .page-title {
   margin-bottom: 30px;
+  color: #cc9543;
 }
 
 .contributing {
   color: $text-primary;
+
+  section {
+    padding: 100px 20px 50px;  
+  }
 
   .card-contributing {
     height: 95%;
@@ -23,6 +28,14 @@
     }
   }
 
+  .media > img {
+    padding-right: 30px;
+  }
+
+  .media-body > h5 {
+    padding: 20px 0;
+  }
+
   .camel-link {
     text-decoration: underline;
     color: $primary;
@@ -31,6 +44,7 @@
       color: darken($primary, 10%);
     }
   }
+
   // Hall of fame circles
   .grid {
     display: flex;
@@ -68,6 +82,15 @@
   }
 
   @media (max-width: 600px) {
+
+    section {
+      padding: 50px 20px;
+    }
+
+    .pt-5 {
+      padding-top: 0px !important;
+    }
+
     .circles {
       margin-bottom: .2em;
       flex-wrap: wrap;

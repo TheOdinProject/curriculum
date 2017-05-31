@@ -1,0 +1,11 @@
+<div class="row project-submission align-items-center">
+  <div class="col-md-5 lesson-title-wrapper">
+    <p class="bold"><%= project.lesson.title %></p>
+  </div>
+
+  <div class="col-md-7 project-buttons">
+    <%= link_to 'View Code', project.repo_url, class: 'button project-button', target: '_blank' %>
+
+    <%= link_to 'Live Preview', project.live_preview, class: 'button project-button live-preview-button', target: '_blank' %>
+  </div>
+</div>

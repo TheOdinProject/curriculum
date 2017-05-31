@@ -49,32 +49,22 @@
         </div>
 
         <br/>
-        <div class="row">
-          <div class="col-md-8 offset-md-2 mb-5">
-            <p class="text-muted">
-              Instructions on setting up your local development environment can be found in the <%= link_to 'GitHub repo', github_link, target: '__blank' %>.
-            </p>
-            <p class="text-muted">
-              <em>NOTE: When choosing an issue to work on, please check out the <%= link_to '#contributing', 'https://gitter.im/TheOdinProject/Contributing', target: '_blank' %> channel on our Gitter chat, and let everyone know what you are working on.  This is important, as somebody else may have already done some work on the issue - in which case they would probably love to have your help!</em>
-            </p>
-          </div>
-        </div>
+      
       </section>
     </div>
   </div>
+    <%
+      reasons = [
+        { icon: "contributing/img-clock.svg", alt_text: "Clock", title: "Flexibility", body: "You can work on your own time. It's not 9 to 5 so you can get involved when it's convenient for you."},
+        { icon: "contributing/img-exposure.svg", alt_text: "Person with Loudspeaker", title: "Exposure", body: "Contributors will be listed on the page and on Github, where you can show people your work!" },
+        { icon: "contributing/img-job.svg", alt_text: "Briefcase", title: "Job Focus", body: "You'll learn the skills that are in demand and the discipline that will put you at the top." },
+        { icon: "contributing/img-community.svg", alt_text: "Group Chat", title: "Community", body: "Start building your network! Find others that can work in your schedule and interests." }
+      ]
+    %>
 
-      <%
-        reasons = [
-          { icon: "contributing/img-clock.svg", alt_text: "Clock", title: "Flexibility", body: "You can work on your own time. It's not 9 to 5 so you can get involved when it's convenient for you."},
-          { icon: "contributing/img-exposure.svg", alt_text: "Person with Loudspeaker", title: "Exposure", body: "Contributors will be listed on the page and on Github, where you can show people your work!" },
-          { icon: "contributing/img-job.svg", alt_text: "Briefcase", title: "Job Focus", body: "You'll learn the skills that are in demand and the discipline that will put you at the top." },
-          { icon: "contributing/img-community.svg", alt_text: "Group Chat", title: "Community", body: "Start building your network! Find others that can work in your schedule and interests." }
-        ]
-      %>
-
-    <section class="gradient">
+    <section class="light-grey">
       <div class="container">
-        <h3 class="text-center camel mb-5 font-weight-bold">Why you should get involved</h3>
+        <h2 class="text-center camel mb-5 font-weight-bold">Benefits of Contributing</h2>
         <div class="row pt-5">
         <% reasons.each_with_index do |reason, index| %>
           <div class="col">
@@ -92,8 +82,9 @@
         <% end %>
         </div>
 
+      </div>
+    </section>
+    <section class="gradient">
       <%= render "contributors" %>
-    </div>
-  </section>
-
+    </section>
 </div>

@@ -10,19 +10,7 @@
     }
 
     h2 {
-      margin-bottom: 16px;
-    }
-
-    .stacks {
-      font-size: 18px;
-      font-weight: bold;
-      letter-spacing: 0.2px;
-      line-height: 1.94;
-      margin-bottom: 35px;
-
-      @include media-breakpoint-down(xs) {
-        margin-bottom: 15px;
-      }
+      margin-bottom: 60px;
     }
   }
 
