@@ -60,16 +60,16 @@
       }
 
       @include media-breakpoint-down(xs) {
-        flex-direction: row;
-        height: 130px;
+        height: 150px;
         margin: 0 auto 15px;
         padding: 25px;
         width: 270px;
         max-width: 270px;
 
-        h3 {
-          margin: 0 0 0 25px;
-          text-align: left;
+        h4 {
+          text-align: center;
+          margin-top: 10px;
+          margin-bottom: 0;
         }
       }
     }
