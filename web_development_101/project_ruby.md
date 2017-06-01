@@ -323,6 +323,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [EMuchynski's solution](https://github.com/EMuchynski/learn_ruby)
 * [Seederwood's solution](https://github.com/seederwood/learn_ruby)
 * [Anistor86's solution](https://github.com/anistor86/learn_ruby)
+* [Igor's solution](https://github.com/mojotron/learn_ruby)
 
 
 ## Additional Resources
