@@ -189,9 +189,9 @@ module ApplicationHelper
 
   def custom_button
     if current_user
-      render 'static_pages/home/curriculum_button'
+      curriculum_button
     else
-      render 'static_pages/home/sign_up_button'
+      sign_up_button
     end
   end
 
