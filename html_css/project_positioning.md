@@ -55,6 +55,7 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Austin's solution](https://github.com/CouchofTomato/ny-times-clone)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/ny-article) | [View in browser](https://adoniasdantas.github.io/ny-article/)
 * [Beth Rathbone's solution] (https://github.com/bethrath/ny-times-article) | [View in browser]  (http://htmlpreview.github.io/?https://github.com/bethrath/ny-times-article/blob/master/index.html)
+* [Husein's solution] (https://github.com/hosghf/new-york-times-articl-html-css) | [View in browser]  (https://htmlpreview.github.io/?https://github.com/hosghf/new-york-times-articl-html-css/blob/master/index.html)
 
 ## Additional Resources
 
