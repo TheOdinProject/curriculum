@@ -89,6 +89,7 @@ It's time to build an on-screen calculator
 * [Sophia Wu's solution](https://github.com/SophiaLWu/on-screen-calculator) | [View in browser](https://sophialwu.github.io/on-screen-calculator/)
 * [Daunenok's solution](https://github.com/daunenok/calculator) | [View in browser](https://daunenok.github.io/calculator/)
 * [smilesr's solution](https://github.com/smilesr/op-jj-bb-25-calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/smilesr/op-jj-bb-25-calculator/blob/master/index.html)
+* [Eric's solution](https://github.com/Twinpair/Web_Calculator) | [View in browser](https://twinpair.github.io/Web_Calculator)
 
 
 ## Additional Resources
