@@ -1,0 +1,11 @@
+<div class="container skills-progress">
+  <div class="row">
+    <div class="col text-center skills-progress-heading">
+      <h2 class="bold grey">Skills Progress</h2>
+    </div>
+
+    <% courses.each do |course| %>
+      <%= render 'skill_progress', course: CourseDecorator.new(course) %>
+    <% end %>
+  </div>
+</div>

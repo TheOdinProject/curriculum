@@ -1,6 +1,7 @@
 html {
   height: 100%;
   font-size: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -18,6 +19,12 @@ p {
 
 a, a:hover, a:focus {
   text-decoration: none;
+}
+
+button {
+  border: 0;
+  font-family: $body-fonts;
+  padding: 0;
 }
 
 ul {
@@ -38,6 +45,10 @@ ul {
 
 .grey {
   color: $grey;
+}
+
+.pale-grey {
+  color: $pale-grey;
 }
 
 .orange {

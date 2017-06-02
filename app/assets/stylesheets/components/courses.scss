@@ -121,15 +121,6 @@
       color: $text-primary;
       margin-bottom: 100px;
     }
-
-    .course-completion {
-      color: $white;
-      font-size: 24px;
-      margin: 0 auto 100px;
-      padding: 16px;
-      background: $coffee;
-    }
-
     .course-overview {
       line-height: 1.88;
       letter-spacing: 0.2px;
@@ -199,4 +190,12 @@
       }
     }
   }
+}
+
+.course-completion {
+  color: $white;
+  font-size: 24px;
+  margin: 0 auto 100px;
+  padding: 16px;
+  background: $coffee;
 }

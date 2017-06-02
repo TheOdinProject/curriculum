@@ -1,0 +1,6 @@
+<%= button_to lesson_completions_path(lesson),
+    remote: true,
+    data: { disable_with: 'Loading...' },
+    class: 'button button--primary' do %>
+  Mark <%= lesson.type %> Completed
+<% end %>

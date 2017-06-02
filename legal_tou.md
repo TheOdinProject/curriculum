@@ -1,7 +1,5 @@
 # Terms of Use
 
-*Last Modified: 3/22/14*
-
 ### Preamble
 
 Welcome to The Odin Project, a service provided by The Odin Project (“The Odin Project”, "The Project", "Odin Project",  “we” “our”, or “us”).
