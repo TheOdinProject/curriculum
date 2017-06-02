@@ -51,6 +51,8 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Austin's solution](https://github.com/CouchofTomato/apple-clone)
 * [Beth Rathbone's solution](https://github.com/bethrath/apple-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bethrath/apple-homepage/blob/master/index.html)
 * [Leah Xia's solution](https://github.com/LeahXia/apple.git) | [View in browser] (https://leahxia.github.io/apple/)
+* [husein's solution](https://github.com/hosghf/apple-page-rubuild) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/apple-page-rubuild/blob/master/index.html)
+
 
 ## Additional Resources
 
