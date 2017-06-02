@@ -14,7 +14,7 @@
             class: 'button button--primary' do %>
          <% end %>
 
-         <%= button_to lesson_project_vote_path(project.lesson.id, project.id),
+         <%= button_to lesson_project_vote_path(project.lesson_id, project.id),
              method: :delete,
              remote: true,
              class: 'button button--primary' do %>
