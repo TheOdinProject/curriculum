@@ -324,6 +324,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Seederwood's solution](https://github.com/seederwood/learn_ruby)
 * [Anistor86's solution](https://github.com/anistor86/learn_ruby)
 * [ntnlbar's solution](https://github.com/ntnlbar/learn_ruby)
+* [Igor's solution](https://github.com/mojotron/learn_ruby)
 
 ## Additional Resources
 
