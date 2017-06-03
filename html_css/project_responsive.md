@@ -24,6 +24,7 @@ The process will be quite similar to what we've done before.  At this point, you
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Andrew's solution](https://github.com/andrewr224/The-Next-Web) | [View in browser](https://andrewr224.github.io/The-Next-Web/)
 * [Jeff's Solution](https://github.com/jmbothe/tnw-homepage) | [View in Browser](https://jmbothe.github.io/tnw-homepage/)
 * [Austin's solution](https://github.com/CouchofTomato/nextweb-clone) | [View in browser](https://couchoftomato.github.io/nextweb-clone/)
 * [ Flint Mayers' solution](https://github.com/FlintMayers/-Responsive-Design_odin) | [View in browser](https://flintmayers.github.io/-Responsive-Design_odin/)
