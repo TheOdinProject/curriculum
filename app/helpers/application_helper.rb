@@ -187,7 +187,7 @@ module ApplicationHelper
     ]
   end
 
-  def custom_button
+  def logged_in_button
     if current_user
       curriculum_button
     else
