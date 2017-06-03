@@ -2,7 +2,6 @@ class StaticPagesController < ApplicationController
   before_action :redirect_if_logged_in, only: :home
 
   def home
-    @navbar = false
     @is_home_page = true
     @how_it_works_tiles = helpers.how_it_works_tiles
     @courses = helpers.courses
