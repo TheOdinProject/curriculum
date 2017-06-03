@@ -19,14 +19,14 @@ If you think about what's required to make a game like this work, it's all well 
 ### Bring it to Life
 
 5. Listen for keyboard input from the arrow keys (see the [keypress() docs](http://api.jquery.com/keypress/)) and change the snake's current direction if a different arrow is pressed.  It's probably helpful to use `console.log()` to track this so you know you're doing it right.
-5. Now bring the snake to life by running a game loop that uses `setTimeout()` to perform a new "turn". 
+5. Now bring the snake to life by running a game loop that uses `setTimeout()` to perform a new "turn".
 6. Each turn, invoke a `move()` function which moves the snake one square in the current direction of travel for each turn.
 6. Create logic which ends the game if the snake head goes off the board.
 7. Now create a Javascript object representing "food".  Randomly place a food on the board.
 8. Create the functionality to eat food, which causes the snake to grow one unit of length on the next turn.
 9. Modify your `move()` function (if you need to) to account for a snake of multiple units length.  This is why you need to think of the snake as an array of coordinate pairs.
 10. Create the logic which ends the game if your snake moves onto itself.
-11. Play! 
+11. Play!
 
 ### The Fun Stuff
 
@@ -73,9 +73,9 @@ If you think about what's required to make a game like this work, it's all well 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/snake-game) | [View in browser](https://sophialwu.github.io/snake-game/)
 * [Axel's solution](https://github.com/afuh/snake-game) | [View in browser](https://afuh.github.io/snake-game/)
 * [Daunenok's solution](https://github.com/daunenok/snake) | [View in browser](https://daunenok.github.io/snake/)
+* [Pat's solution](https://github.com/Pat878) | [View in browser](https://pat878.github.io/JS_Snake/)
 
 
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
