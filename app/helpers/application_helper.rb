@@ -187,7 +187,7 @@ module ApplicationHelper
     ]
   end
 
-  def logged_in_button
+  def sign_in_or_view_curriculum_button
     if current_user
       curriculum_button
     else
