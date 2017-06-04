@@ -1,7 +1,7 @@
 <div id="devise-form" class="devise-sign-in gradient">
 
   <div class="container">
-    <h1 class="text-center">Log in</h1>
+    <h1 class="text-center">Login</h1>
     <div class="card">
       <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form-horizontal" } ) do |f| %>
         <div class="form-inputs">
@@ -23,7 +23,7 @@
       <% end %>
 
       <div class="in-between text-center"><span>OR</span></div>
-      
+
       <%= render partial: "shared/github_button", locals: {button_type: "Login"} %>
       <%# render "devise/shared/links" %>
     </div>
@@ -31,4 +31,3 @@
     <%= link_to "Create new account", new_registration_path(resource_name), class: "sign-up-button text-center" %>
   </div>
 </div>
-
