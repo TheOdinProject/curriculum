@@ -187,6 +187,14 @@ module ApplicationHelper
     ]
   end
 
+  def logged_in_button
+    if current_user
+      curriculum_button
+    else
+      sign_up_button
+    end
+  end
+
   private
 
   def custom_flash(flash_type)

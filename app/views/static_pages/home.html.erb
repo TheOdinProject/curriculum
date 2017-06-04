@@ -5,7 +5,7 @@
     <header>
       <h1 class="accent hero__main-heading"> Learn Web Development for Free </h1>
       <p class="secondary hero__sub-heading"> Stop wasting time...&nbsp;  Here's what you need to know. </p>
-      <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'button button--primary' %>
+      <%= logged_in_button %>
     </header>
     <%= image_tag 'home-isometric.svg', class: 'hero__image', alt: 'home-page-banner' %>
   </div>

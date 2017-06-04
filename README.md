@@ -1,4 +1,4 @@
-# [Welcome to The Odin Project, an open source web development curriculum](http://theodinproject.com)
+# [Welcome to The Odin Project, an open source web development curriculum](https://www.theodinproject.com)
 The Odin Project is an open source community and curriculum for learning web development. Students of The Odin Project build portfolio projects and complete lessons that are constantly curated and updated with links to relevant resources.
 
 We teach:
@@ -10,7 +10,7 @@ We teach:
 * Javascript and Jquery
 * How to go about getting a job in the industry
 
-This repo contains the main app for the Odin Project which can be found online at [theodinproject.com](theodinproject.com). It pulls in lesson and project content from our [curriculum repo](https://github.com/TheOdinProject/curriculum).
+This repo contains the main app for the Odin Project which can be found online at [theodinproject.com](https://www.theodinproject.com). It pulls in lesson and project content from our [curriculum repo](https://github.com/TheOdinProject/curriculum).
 
 The Odin project community can be found on our [Gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
 
