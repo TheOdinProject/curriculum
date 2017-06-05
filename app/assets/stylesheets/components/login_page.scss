@@ -24,10 +24,11 @@
     font-size: 1.125em;
     line-height: 1.88;
     letter-spacing: 0.2px;
-    color: $pale-grey;
+    color: $text-primary;
     .controls {
       margin-left: -60px;
     }
+    @include input-placeholder($pale-grey);
   }
 
   .input-group .fa-user {
