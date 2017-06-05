@@ -28,7 +28,7 @@
     .controls {
       margin-left: -60px;
     }
-    @include input-placeholder($pale-grey);
+    @include input-placeholder($light-grey);
   }
 
   .input-group .fa-user {
