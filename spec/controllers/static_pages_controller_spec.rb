@@ -2,9 +2,28 @@ require 'rails_helper'
 
 RSpec.describe StaticPagesController do
   describe 'GET home' do
-    it 'renders the home page' do
-      get :home
-      expect(response).to render_template(:home)
+    context 'guest user' do
+      before do
+        allow(controller).to receive(:current_user).and_return(nil)
+      end
+
+      it 'renders the home page' do
+        get :home
+        expect(response).to render_template(:home)
+      end
+    end
+
+    context 'signed in user' do
+      let(:user) { double('User') }
+
+      before do
+        allow(controller).to receive(:current_user).and_return(user)
+      end
+
+      it 'redirects to the dashboard' do
+        get :home
+        expect(response).to redirect_to(dashboard_path)
+      end
     end
 
     it 'assigns @navbar' do
