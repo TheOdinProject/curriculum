@@ -5,10 +5,6 @@ class RegistrationsController < Devise::RegistrationsController
     dashboard_path
   end
 
-  def after_update_path_for(_resource)
-    courses_path
-  end
-
   def update_resource(resource, params)
     if current_user.provider == 'github'
       params.delete('current_password')
