@@ -37,5 +37,6 @@ It's difficult to find good resources to teach RSpec for free.  There are some d
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [The RSpec Book](http://www.amazon.com/The-RSpec-Book-Behaviour-Development/dp/1934356379) is THE book on RSpec, but at this point it's a little out-dated.
+* [RSpec::Core Cheat Sheet](http://www.rubypigeon.com/posts/rspec-core-cheat-sheet/) and [RSpec::Expectations Cheat Sheet](http://www.rubypigeon.com/posts/rspec-expectations-cheat-sheet/) explain the basics in a simple way.
 * The [RSpec Cheat Sheet](http://www.anchor.com.au/wp-content/uploads/rspec_cheatsheet_attributed.pdf) should help you avoid Googling every new bit of syntax.
 * Read the [Wikipedia Page on Test Driven Development](http://en.wikipedia.org/wiki/Test-driven_development) for context on TDD if you're still feeling unfamiliar.
