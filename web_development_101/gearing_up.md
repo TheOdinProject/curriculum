@@ -59,7 +59,7 @@ While you're working through the curriculum, embrace the struggles you encounter
 with learning difficult concepts and completing projects. And celebrate your
 persistence at overcoming those struggles.
 
-When you find yourself questioning your ability reflect on the successes you have
+When you find yourself questioning your ability, reflect on the successes you have
 already had while learning to program - the projects you have completed and the
 concepts you, at one time, didn't understand but now do. This is all the proof you need
 that you can do it.
