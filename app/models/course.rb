@@ -23,10 +23,6 @@ class Course < ApplicationRecord
     lessons.order(position: :asc)
   end
 
-  def sections_in_course
-    sections.order(position: :asc)
-  end
-
   def lessons_count
     lessons.count
   end

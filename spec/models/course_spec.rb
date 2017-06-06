@@ -3,15 +3,11 @@ require 'rails_helper'
 RSpec.describe Course do
   subject(:course) { Course.new(position: 1) }
 
-  let(:sections) { [section1, section2] }
-  let(:section1) { double('Section', position: 1, lessons: lessons) }
-  let(:section2) { double('Section', position: 2, lessons: lessons) }
   let(:lessons)  { [lesson1, lesson2] }
   let(:lesson1)  { double('Lesson', position: 1) }
   let(:lesson2)  { double('Lesson', position: 2) }
 
   before do
-    allow(course).to receive(:sections).and_return(sections)
     allow(course).to receive(:lessons).and_return(lessons)
   end
 
@@ -72,19 +68,6 @@ RSpec.describe Course do
 
     it 'returns ordered lessons in the course' do
       expect(course.lessons_in_course).to eql(lessons)
-    end
-  end
-
-  describe 'sections_in_course' do
-    let(:sectionsAsc) { double('SectionAsc') }
-
-    before do
-      allow(sections).to receive(:order).with(position: :asc)
-        .and_return(sections)
-    end
-
-    it 'returns sections in course' do
-      expect(course.sections_in_course).to eql(sections)
     end
   end
 end
