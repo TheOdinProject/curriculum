@@ -1,4 +1,6 @@
 class StaticPagesController < ApplicationController
+  before_action :redirect_if_logged_in, only: :home
+
   def home
     @navbar = false
     @is_home_page = true
@@ -39,6 +41,10 @@ class StaticPagesController < ApplicationController
   end
 
   private
+
+  def redirect_if_logged_in
+    redirect_to dashboard_path if current_user
+  end
 
   def user_identifier
     current_user_email || 'Anonymous'

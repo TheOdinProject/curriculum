@@ -23,11 +23,8 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(_resource)
-    if current_user.confirmed_at.nil?
-      flash[:warning] = render_to_string partial: 'layouts/confirm_email'
-    end
-
-    after_sign_in_redirect_path
+    set_confirm_email_flash unless current_user.confirmed?
+    dashboard_path
   end
 
   def not_found_error
@@ -35,6 +32,10 @@ class ApplicationController < ActionController::Base
   end
 
   private
+
+  def set_confirm_email_flash
+    flash[:warning] = render_to_string partial: 'layouts/confirm_email'
+  end
 
   def configure_permitted_parameters
     devise_parameter_sanitizer
