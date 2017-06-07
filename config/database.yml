@@ -5,8 +5,6 @@ development:
   adapter: postgresql
   database: theodinproject
   host: localhost
-  username: leosoaivan
-  password: Tennis@17
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -15,8 +13,8 @@ test: &test
   adapter: postgresql
   database: theodinproject_test
   pool: 5
-  username: leosoaivan
-  password: Tennis@17
+  username: 
+  password: 
   host: localhost
 
 production:
