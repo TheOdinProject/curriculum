@@ -147,7 +147,7 @@ module ApplicationHelper
       {
         image: 'img-connect.svg',
         subtitle: 'Connect',
-        description: 'You’re not alone. Learn and get help from our friendly community.'
+        description: 'You’re not alone. Learn and get help from our friendly community of beginner and experienced developers.'
       }
     ]
   end
