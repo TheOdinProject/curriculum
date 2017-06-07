@@ -136,6 +136,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [jeff1st's solution](https://github.com/jeff1st/cs_recursive/blob/master/fibo.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-recursion/blob/master/fibonacci.rb)
 * [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
+* [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 
 ## Project: Merge Sort
 
