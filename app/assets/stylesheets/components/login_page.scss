@@ -1,5 +1,5 @@
 #devise-form {
-  
+
   overflow: hidden;
 
   .card {
@@ -21,13 +21,14 @@
     padding-left: 60px;
     margin-bottom: 20px;
     border: none;
-    font-size: 16px;
+    font-size: 1.125em;
     line-height: 1.88;
     letter-spacing: 0.2px;
-    color: $pale-grey;
+    color: $text-primary;
     .controls {
       margin-left: -60px;
     }
+    @include input-placeholder($grey);
   }
 
   .input-group .fa-user {
@@ -37,7 +38,7 @@
     top: 12.15px;
   }
 
-  .input-group .fa-envelope { 
+  .input-group .fa-envelope {
     position: absolute;
     font-size: 25px;
     left: 15px;
@@ -55,7 +56,7 @@
     margin-bottom: 24.3px;
   }
 
-  .logo { 
+  .logo {
     float: left;
     height: 54.3px;
     width: 62px;
@@ -143,7 +144,7 @@
 
   .normal-checkbox {
     display: none;
-    
+
     + .custom-checkbox {
       float: left;
       margin-right: 3px;
