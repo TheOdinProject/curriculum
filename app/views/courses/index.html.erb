@@ -10,7 +10,7 @@
 
         <div class="courses-list">
           <% @courses.each do |course| %>
-            <%= render 'course_card', course: CourseDecorator.new(course) %>
+            <%= render 'course_card', course: course %>
           <% end %>
         </div>
       </div> <!-- /.col-lg-10 -->
