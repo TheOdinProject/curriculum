@@ -49,6 +49,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 * [Daunenok's solution](https://github.com/daunenok/smashing) | [View in Browser](https://daunenok.github.io/smashing/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Design_Teardown)
 * [Beth Rathbone's solution](https://github.com/bethrath/visual-hierarchy) | [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/visual-hierarchy/blob/master/index.html)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/design-teardown) | [View in browser](https://adoniasdantas.github.io/design-teardown/)
 
 ## Additional Resources
 
