@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe StaticPagesController do
-  describe 'GET home' do
+  describe 'GET #home' do
     context 'guest user' do
       before do
         allow(controller).to receive(:current_user).and_return(nil)
@@ -26,60 +26,55 @@ RSpec.describe StaticPagesController do
       end
     end
 
-    it 'assigns @navbar' do
-      get :home
-      expect(assigns(:navbar)).to eql(false)
-    end
-
     it 'assigns @is_home_page' do
       get :home
       expect(assigns(:is_home_page)).to eql(true)
     end
   end
 
-  describe 'GET about' do
+  describe 'GET #about' do
     it 'renders the about page' do
       get :about
       expect(response).to render_template(:about)
     end
   end
 
-  describe 'GET getting involved' do
+  describe 'GET #getting involved' do
     it 'renders the getting involved page' do
       get :getting_involved
       expect(response).to render_template(:getting_involved)
     end
   end
 
-  describe 'GET legal' do
+  describe 'GET #legal' do
     it 'renders the legal page' do
       get :legal
       expect(response).to render_template(:legal)
     end
   end
 
-  describe 'GET tou' do
+  describe 'GET #tou' do
     it 'renders the terms of use page' do
       get :tou
       expect(response).to render_template(:tou)
     end
   end
 
-  describe 'GET cla' do
+  describe 'GET #cla' do
     it 'renders the contributors licence agreement page' do
       get :cla
       expect(response).to render_template(:cla)
     end
   end
 
-  describe 'GET success stories' do
+  describe 'GET #success stories' do
     it 'renders the success stories page' do
       get :success_stories
       expect(response).to render_template(:success_stories)
     end
   end
 
-  describe 'GET suggestion' do
+  describe 'GET #suggestion' do
     let(:params) {
       { pathname: path_name, suggestion: suggestion_body, format: 'json' }
     }
