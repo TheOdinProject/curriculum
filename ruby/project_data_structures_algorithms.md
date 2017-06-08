@@ -30,6 +30,16 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Clayton Sweetens Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/binary_tree)
+* [thisisned's solution](https://github.com/thisisned/binary_search_tree/blob/master/binary_search_tree.rb)
+* [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/basic_data_structures_and_algorithms/blob/master/binary_tree.rb)
+* [holdercp's solution](https://github.com/holdercp/searching_binary_trees)
+* [jfonz412's solution](https://github.com/jfonz412/computer_science/blob/master/binary_search_tree.rb)
+* [xavier solution](https://github.com/nxdf2015/odin-basic-data-structures/blob/master/searching-tree/tree.rb)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/algorithms)
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/binary_tree)
+* [theghall's solution](https://github.com/theghall/binary-trees)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/binary_tree.rb)
 * [Raiko's Solution](https://github.com/Cypher0/data_structures_algorithms/tree/master/lib)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/binarytrees)
 * [Ayushka's solution](https://github.com/ayushkamadji/binary_tree_ruby/blob/master/BST.rb)
@@ -63,7 +73,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/drzewo_binarne.rb)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/basic-data-structures-and-algorithms/searching_binary_tree.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project12--searching-binary-trees/searching_binary_trees.rb)
-* [Noah Prescott's solution](https://github.com/npresco/basic_data_structures_and_algorithms/blob/master/binary_search.rb)
+* [Noah Prescott's solution](https://github.com/npresco/top/blob/master/basic_data_structures_and_algorithms/binary_search.rb)
 * [poctek's solution](https://github.com/poctek/The_Odin_Project/blob/master/Learning/CS/Algorithms/binary_tree.rb)
 * [Aviv Levinsky's solution](https://github.com/pugsiman/Ruby_challenges_and_algorithms/blob/master/Searching_Binary_Trees/sbt.rb)
 * [Giorgos's solution](https://github.com/vinPopulaire/search_binary_trees)
@@ -102,8 +112,10 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/bst.rb)
 * [Simon's solution](https://github.com/SimonSomlai/Odin/blob/master/Ruby/data_tree.rb)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/binary_trees)
-
-
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Basic-Data-Structures-and-Algorithms/blob/master/binary_tree.rb)
+* [Daniel Varcas's solution](https://github.com/d-zer0/binary_search_trees/blob/master/binary_search_trees.rb)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-binary-search-tree)
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Data_Structures)
 
 ## Project 2: Knight's Travails
 
@@ -111,7 +123,7 @@ Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a r
 
 For this project, you'll need to use a data structure that's similar (but not identical) to a binary tree. For a summary of a few different examples, reference [this article](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/describing-graphs).
 
-A knight in chess can move to any square on the standard 8x8 chess board from any other square on the board, given enough turns (don't believe it?  See [this animation](http://upload.wikimedia.org/wikipedia/commons/c/ca/Knights-Tour-Animation.gif)).  Its basic move is two steps forward and one step to the side.  It can face any direction.
+A knight in chess can move to any square on the standard 8x8 chess board from any other square on the board, given enough turns (don't believe it?  See [this animation](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Knight%27s_tour_anim_2.gif/250px-Knight%27s_tour_anim_2.gif)).  Its basic move is two steps forward and one step to the side.  It can face any direction.
 
 All the possible places you can end up after one move look like this:
 
@@ -146,6 +158,17 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Adsy430's Solution](https://github.com/adampal/knight_moves)
+* [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/knights_travails/travail.rb)
+* [thisisned's solution](https://github.com/thisisned/knights_travails/blob/master/knights_travails.rb)
+* [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/basic_data_structures_and_algorithms/blob/master/knight_moves.rb)
+* [holdercp's solution](https://github.com/holdercp/knights-travails)
+* [jfonz412's solution](https://github.com/jfonz412/computer_science/blob/master/knight/lib/knight.rb)
+* [xavier solution](https://github.com/nxdf2015/odin-basic-data-structures/tree/master/knight)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/knight-travails)
+* [Oleh Sliusar's solution](https://github.com/OlehSliusar/knights_travails)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/knights_travails.rb)
+* [theghall's solution](https://github.com/theghall/knights-travails)
 * [Raiko's Solution](https://github.com/Cypher0/data_structures_algorithms)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/knight_moves)
 * [Ayushka's solution](https://github.com/ayushkamadji/knights_travails_ruby)
@@ -178,7 +201,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [PiotrAleksander's solution](https://github.com/PiotrAleksander/Ruby/blob/master/goniec.rb)
 * [Florian Mainguy's solution](https://github.com/florianmainguy/theodinproject/blob/master/ruby/basic-data-structures-and-algorithms/knight.rb)
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/blob/master/ruby/project13--knights-travails/knights_travails.rb)
-* [Noah Prescott's solution](https://github.com/npresco/basic_data_structures_and_algorithms/blob/master/knight_moves.rb)
+* [Noah Prescott's solution](https://github.com/npresco/top/blob/master/basic_data_structures_and_algorithms/knight_moves.rb)
 * [Alex Tsiras' solution](https://github.com/arialblack14/binary_trees/blob/master/knight.rb)
 * [Giorgos's solution](https://github.com/vinPopulaire/knights_travails)
 * [Scott Bobbitt's solution](https://github.com/sco-bo/knights_travails)(w/help from John Quarles' blog post)
@@ -216,6 +239,9 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Braydon Pacheco's solution](https://github.com/pacheeko/data_structures/blob/master/knights_travails.rb)
 * [Simon's solution](https://github.com/SimonSomlai/Odin/tree/master/Ruby/knight_travails)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/knight_moves)
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Basic-Data-Structures-and-Algorithms/blob/master/knight.rb)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-knights-travails)
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
 
 
 ## Additional Resources

@@ -19,6 +19,8 @@ In this project you'll clone the website of one of the most design-forward compa
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Jeff's Solution](https://github.com/jmbothe/apple-landing-page) | [View in Browser](https://jmbothe.github.io/apple-landing-page/)
+* [Andrew’s solution](https://github.com/andrewr224/backgrounds_project) | [View in browser](https://andrewr224.github.io/backgrounds_project/)
 * [Axel’s solution](https://github.com/afuh/appel) | [View in browser](https://afuh.github.io/appel/)
 * [Rhys B's solution](https://github.com/105ron/apple) | [View in browser](https://105ron.github.io/apple/)
 * [Pawel R's solution](https://github.com/PawelRokosz/apple-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/apple-homepage/blob/master/index.html)
@@ -45,7 +47,12 @@ In this project you'll clone the website of one of the most design-forward compa
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-backgrounds-gradients
 ) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)* [Flint Mayers' solution](https://github.com/FlintMayers/Backgrounds-and-Gradients-with-Apple-
 ) | [View in browser](https://flintmayers.github.io/Backgrounds-and-Gradients-with-Apple-/)
-
+* [Daunenok's solution](https://github.com/daunenok/apple) | [View in browser](https://daunenok.github.io/apple/)
+* [Austin's solution](https://github.com/CouchofTomato/apple-clone)
+* [Beth Rathbone's solution](https://github.com/bethrath/apple-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bethrath/apple-homepage/blob/master/index.html)
+* [Leah Xia's solution](https://github.com/LeahXia/apple.git) | [View in browser] (https://leahxia.github.io/apple/)
+* [husein's solution](https://github.com/hosghf/apple-page-rubuild) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/apple-page-rubuild/blob/master/index.html)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/apple-homepage) | [View in browser] (https://adoniasdantas.github.io/apple-homepage/)
 
 ## Additional Resources
 

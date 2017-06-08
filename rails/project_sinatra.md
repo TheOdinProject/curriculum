@@ -26,7 +26,19 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-*RichJDSmith's solution [github](https://github.com/richjdsmith/sinatra_caeser) / [see it on the web](https://secret-shelf-31692.herokuapp.com)
+* holdercp's solution [Source code](https://github.com/holdercp/caesar_cipher_sinatra) | [Live](https://glacial-falls-15610.herokuapp.com/)
+* Nikolay Dyulgerov's solution [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
+* jfonz412's solution [github](https://github.com/jfonz412/caesar_online)
+* OlehSliusar's solution: [Live](https://caesar-cipher-reloaded-0.herokuapp.com/) | [Source code](https://github.com/OlehSliusar/caesar_cipher_reloaded)
+* mindovermiles262's [caesar cipher](https://fast-citadel-19591.herokuapp.com/) | [github](https://github.com/mindovermiles262/caesar-cipher)
+* Jordan Ellis-Lynch's [solution](https://blooming-ravine-82875.herokuapp.com/).
+* ToTenMilan's solution [github](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/sinatra/caesar_cipher)
+* nmac's solution [github](https://github.com/nmacawile/sinatra_converted_projects) / [heroku](https://infinite-scrubland-80707.herokuapp.com/caesarcipher)
+* Ayushka's solution [github](https://github.com/ayushkamadji/caesar_cipher)
+* Orlando's solution [github](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Sinatra/caesar_cipher) / [see it on the web](https://sheltered-mountain-39747.herokuapp.com/caesar_cipher.erb)
+* Chad Kreutzer's solution [github](https://github.com/ChadKreutzer/sinatra_cipher) / [see it on the web](https://salty-hamlet-78507.herokuapp.com/)
+* yilmazgunalp's solution [github](https://github.com/yilmazgunalp/RoR/tree/master/Sinatra/caesar_chiper) / [see it on the web](https://gentle-everglades-11877.herokuapp.com/)
+* RichJDSmith's solution [github](https://github.com/richjdsmith/sinatra_caeser) / [see it on the web](https://secret-shelf-31692.herokuapp.com)
 * John Phelps's solution [github](https://github.com/jphelps413/odin-sinatra-caesar) / [see it on the web](https://jphelps413-sinatra-caesar.herokuapp.com/)
 * Yash Anand's solution [github](https://github.com/yashanand1910/sinatra-project) / [see it on web](http://caesar-cipher2.herokuapp.com)
 * Jib's solution [github](https://github.com/NuclearMachine/odin_rails/tree/master/sinatra_proj) / [see it on web](https://damp-plateau-50624.herokuapp.com/)
@@ -51,6 +63,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 * Jerry Gao's solution [github](https://github.com/blackwright/odin/tree/master/sinatra_caesar_cipher) / [see it on the web](https://caesar-cipher-sinatra.herokuapp.com/)
 * Sophia Wu's solution [github](https://github.com/SophiaLWu/sinatra-caesar-cipher) / [see it on the web](https://shielded-temple-74302.herokuapp.com/)
 * Samuel Langenfeld's solution [github](https://github.com/SamuelLangenfeld/sinatra_caesar_cipher) / [see it on the web](http://langenfeld-caesar-cipher.herokuapp.com/)
+* Kyle Thomson's solution [github](https://github.com/idynkydnk/caesar_cipher) / [see it on the web](https://caesar-cipher-kyle.herokuapp.com)
 
 ## Project 2: Another Web-Game
 
@@ -68,6 +81,16 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* holdercp's solution [Source code](https://github.com/holdercp/hangman-sinatra) | [Live](https://thawing-cliffs-47023.herokuapp.com/)
+* Nikolay Dyulgerov's solution (Hangman) [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
+* jfonz412's solution (hangman)[github](https://github.com/jfonz412/hangman_online)
+* mindovermiles262's (Mastermind) [github](https://rocky-tor-31467.herokuapp.com/) | [github](https://github.com/mindovermiles262/mastermind)
+* Jordan Ellis-Lynch's [github](https://github.com/jordy-el/sinatra_hangman) | ([heroku](https://floating-mountain-38019.herokuapp.com/))
+* ToTenMilan's solution (Mastermind) [github](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/sinatra/mastermind) / [see it on the web](http://mastermindbymilan.herokuapp.com)
+* nmac's solution (Mastermind) [github](https://github.com/nmacawile/sinatra_converted_projects) / [heroku](https://infinite-scrubland-80707.herokuapp.com/mastermind)
+* Ayushka's solution: Mastermind [github](https://github.com/ayushkamadji/master_mind_sinatra) / [see it on the web](https://afternoon-escarpment-72597.herokuapp.com/)
+* Orlando's solution: Hangman, Mastermind, others [github](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Sinatra/web_portafolio) / [see it on the web](https://sheltered-mountain-39747.herokuapp.com/)
+* yilmazgunalp's solution - Hangman: [github](https://github.com/yilmazgunalp/RoR/tree/master/hangman) / [see it on the web](https://hidden-hamlet-76819.herokuapp.com/)
 * leosoaivan's solution - Hangman: [github](https://github.com/leosoaivan/sinatra_hangman) / [see it on the web](https://fierce-island-53975.herokuapp.com/)
 * Jib's solution [github](https://github.com/NuclearMachine/odin_rails/tree/master/sinatra_proj) / [see it on web](https://damp-plateau-50624.herokuapp.com/)
 * codyloyd's solution - MasterMind: [github](https://github.com/codyloyd/sinatra-codebreaker) / [see it on the web](https://crafty-breaker-4567.herokuapp.com/) Hangman: [github](https://github.com/codyloyd/hangman) / [see it on the web](https://subtle-wording-4567.herokuapp.com/)

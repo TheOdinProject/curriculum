@@ -196,5 +196,9 @@ If you've run into issues with your installation and are desperately looking for
 * Treehouse has short videos describing Rails installation for various environments in their [Getting Started with Rails](http://teamtreehouse.com/library/programming/build-a-simple-ruby-on-rails-application/getting-started-with-rails) unit.
 * [Guide](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) for opening Sublime Text via command line in Windows.
 * [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
-* [Gorails.com] (https://gorails.com/setup) also has an excellent tutorial for setting up your Rails environment for OSX and Ubuntu.
+* [Gorails.com](https://gorails.com/setup) also has an excellent tutorial for setting up your Rails environment for OSX and Ubuntu.
+* RubyMine is a great IDE (Integrated Development Environment), which can be an alternative to text editors like Sublime which we recommend. [It is free for students](https://www.jetbrains.com/student/).
+* [Visual Studio Code](https://code.visualstudio.com/) is an open source text editor from Microsoft that offers some of the same functionalities as Atom; is also based on Electron, like Atom; and is available for MacOS, Windows, and Linux. VSCode also has an integrated terminal that can be changed to work with the bash shell installed through the Windows Subsystem for Linux. To do so, you will need to go to File -> Preferences -> Settings, and in the editable settings file on the right, make sure you have these two settings:
+     * "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe" // Sets the terminal to Bash on Ubuntu on Windows
+     * "terminal.integrated.shellArgs.windows": [ "--login" ] // Makes sure a login shell is used, necessary for rvm, ruby, and rails
 * Google Google Google

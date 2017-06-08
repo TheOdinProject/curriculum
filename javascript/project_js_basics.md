@@ -33,6 +33,7 @@ It's time to build an on-screen calculator
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Rhys B's solution](https://github.com/105ron/calculator) | [View in browser](https://105ron.github.io/calculator/) - Without jquery
 * [Serboteiu Cosmin's solution](https://github.com/Annno/Calculator-VanillaJS) | [View in browser](https://annno.github.io/Calculator-VanillaJS/) - Without jquery
 * [Pawel R's solution](https://github.com/PawelRokosz/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/Calculator/blob/master/index.html)
 * [mahimahi42's solution](https://github.com/mahimahi42/js-calc.git)
@@ -86,7 +87,10 @@ It's time to build an on-screen calculator
 * [Kamron Morgan's solution](https://github.com/normak/calculator) | [View in browser](https://normak.github.io/calculator/)
 * [Axel's solution](https://github.com/afuh/calculator) | [View in browser](https://afuh.github.io/calculator/)
 * [Pat's solution](https://github.com/Pat878/Calculator) | [View in browser](https://pat878.github.io/Calculator/)
-
+* [Sophia Wu's solution](https://github.com/SophiaLWu/on-screen-calculator) | [View in browser](https://sophialwu.github.io/on-screen-calculator/)
+* [Daunenok's solution](https://github.com/daunenok/calculator) | [View in browser](https://daunenok.github.io/calculator/)
+* [smilesr's solution](https://github.com/smilesr/op-jj-bb-25-calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/smilesr/op-jj-bb-25-calculator/blob/master/index.html)
+* [Eric's solution](https://github.com/Twinpair/Web_Calculator) | [View in browser](https://twinpair.github.io/Web_Calculator)
 
 
 ## Additional Resources
