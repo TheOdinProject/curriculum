@@ -1126,7 +1126,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Ayub's Solution (Easy)](https://github.com/yubi12/google-homepage.git) | [View in browser](https://yubi12.github.io/google-homepage/)
 * [Justin Webb's Solution](https://github.com/webbcreative/google-homepage) | [View in browser](https://webbcreative.github.io/google-homepage/)
 * [DMK11's Solution (Difficult)](https://github.com/dmk11/google-search-page) | [View in browser](https://dmk11.github.io/google-search-page/)
-
+* [Rosita's Solution (Easy)](https://github.com/ejero/google-homepage) | [View in browser](http://rositaemakpo.com/google-homepage/)
 ## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
