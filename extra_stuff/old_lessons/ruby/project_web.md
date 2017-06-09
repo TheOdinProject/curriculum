@@ -1,6 +1,9 @@
+# Projects: Ruby on the Web
+<!-- *Estimated Time: 3-7 hours* -->
+
 *Don't forget to use Git to save your project!*
 
-### A Real Web Server and Browser (from the command line)
+## A Real Web Server and Browser (from the command line)
 
 Part of the reason for getting into how Ruby interacts with the web is because it's directly relevant to what you'll be doing later on with Rails.  Rails is just Ruby code neatly packaged and highly opinionated.  Anything Rails does, you can reproduce on your own (given the time) with some Ruby knowledge.
 
@@ -127,7 +130,7 @@ Holy cow! You just built a command line web browser that sends actual HTTP reque
 
 Now think about what you did.  Let it sink in, including some of the steps that seemed a little odd, like using a hash named `params` and replacing the line in the `thanks.html` file called `<%= yield %>` with some dynamically generated HTML.  Those are the types of things that Rails does.  That's right, you sort of maybe built a little piece of Rails.  Good work.
 
-### Student Solutions
+## Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -214,7 +217,7 @@ Now think about what you did.  Let it sink in, including some of the steps that 
 * [CodyLBuffaloe's solution](https://github.com/CodyLBuffaloe/Learning_Sockets)
 
 
-### Additional Resources
+## Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
