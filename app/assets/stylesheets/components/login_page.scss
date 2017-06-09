@@ -174,14 +174,13 @@
 
   .tou-caution {
     margin: 0 0 24px 0;
-  }
 
-  .tou-caution a {
-    color: $grey;
-    font-size: 0.9em;
-  }
+    a {
+      color: $grey;
+      font-size: 0.9em;
 
-  .tou-caution a:hover {
-    color: $text-primary;
+      &:hover {
+        color: $text-primary;
+      }
+    }
   }
-}
