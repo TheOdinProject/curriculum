@@ -1,7 +1,3 @@
-# Sinatra
-
-<!-- *Estimated Time: no-one knows! -->
-
 One of the biggest frustrations beginners have with learning Rails is getting their head around all the 'magic' that Rails seems to do.
 
 The power of Rails is how quickly you can develop complex apps, this speed comes from all the things Rails does for you in the background. Rails does a lot of complex things in the background that are hidden with abstractions. This is where the perceived 'magic' happens.
@@ -12,7 +8,7 @@ Sinatra does a few of the same things that Rails does, but it doesn't create the
 
 There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as you will see you can build very impressive apps with it.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -20,7 +16,7 @@ There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as yo
 * What are views?
 * what are _sessions_ in Sinatra, and how do you use them?
 
-## Your Assignment
+### Your Assignment
 
 1. Go to the [Sinatra website](http://www.sinatrarb.com/) and follow the (somewhat cryptic) instructions right on their front page:
 	1. create a file called `hi.rb` with the following code:
@@ -39,7 +35,7 @@ There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as yo
 3. Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers").Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,10 +1,8 @@
-# Web Refresher and More
-
-## Introduction
+### Introduction
 
 To really understand how Rails works, you need to have a solid base in the guts of the web.  You've already covered some of this in previous sections (and if you went through the Ruby curriculum you can just skim it), but this time you'll get a chance (in the project) to reach out and make some real web requests.
 
-## HTTP
+### HTTP
 
 HTTP is just a way of structuring the request-and-response conversation between your browser and the server.  Actually, it's not even a conversation since it is stateless... it's more of an "ask and receive".  The protocol outlines how that brief piece of dialogue should occur.
 
@@ -14,7 +12,7 @@ One key component to pay attention to is the fact that the request and response 
 
 The other key component is that each request uses one of four main "verbs" -- GET, POST, PUT, and DELETE.  These days, you almost only see GET and POST requests (even if you're trying to do a delete of something they usually fake it using a POST request), but it's important to understand the difference between the verbs.
 
-## REST
+### REST
 
 REST is a term that you'll see coming up again and again because it's a very powerful idea.  It basically says that there are really only 7 different types of things that you usually want to do to an individual resource via the web and you can do them by mixing and matching the HTTP verbs we just covered.  A "resource" usually means a "thing" in your database or a data model.  In this case, we'll assume that resource is a blog Post model that you've set up:
 
@@ -34,7 +32,7 @@ It's also important because Rails is structured to follow these conventions in a
 
 It may seem simplistic to you up front to think of things this way, but once you've got a bit of complexity in your data model, you'll find that falling back on RESTful thinking can help untangle things for you.
 
-## URLs
+### URLs
 
 You may think you know what's in a URL, but which part is the host? protocol (aka scheme)? parameters? path?
 
@@ -52,9 +50,9 @@ Once you understand what these components are, you can easily use Ruby's librari
 
 *Answers: 1. /search 2. q=what+is+a+url 3. com 4. https*
 
-## MVC
+### MVC
 
-You've heard about it again and again, but do you really know what MVC is?  Errrrmmmmm, ummm.... 
+You've heard about it again and again, but do you really know what MVC is?  Errrrmmmmm, ummm....
 
 MVC is all about organization and Rails is all about MVC.  When you build a new Rails project, you get that giant mass of folders and files created.  Though it seems like there are an overwhelming number of files inside your `app` directory, they are highly organized and specifically meant to separate the Model, View, and Controller.
 
@@ -75,7 +73,7 @@ To characterize the three (badly), the model is the supersmart geek in the back 
 
 Just roll with it, you'll see it in action and learn to love it.
 
-## APIs
+### APIs
 
 When your computer or a server (which you're programming) wants to make a request to another website, it doesn't bother clicking on things in the browser, it asks that other website for data directly by using that website's API.  An API is just an interface.  Our web browser goes in the front door to display a bunch of info from facebook, and our web server goes in the side door for the same data (much faster and more direct) via the API.  
 
@@ -89,7 +87,7 @@ You'll actually get a chance to build your own API a little later on, and Rails 
 
 But we get ahead of ourselves a bit here... the main point is that you'll see "API" come up plenty of times and it's totally harmless and just means the way that two applications talk to each other.
 
-## Cookies
+### Cookies
 
 You've heard about cookies.  Cookies are basically a way for websites to remember who you are from one request to another.  Remember -- every HTTP request is totally independent of each other one.  Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.  
 
@@ -101,8 +99,7 @@ You've heard about cookies.  Cookies are basically a way for websites to remembe
 
 Go to a website you normally frequent, open up your developer tools, and find the cookies.  In Chrome, it's by clicking on "Application" tab then "cookies" on the leftmost menu.  You'll see them as name-value pairs.  Often there will be something like a "user_session" or "token" variable that is some unintelligible string of characters.  
 
-
-## Sessions
+### Sessions
 
 Cookies are important because they enable you to have a single continuous "session" while you're interacting with a website. It means you only have to log in once instead of for every single request (which you probably experienced from a broken website at some point in the late 90's).
 
@@ -112,23 +109,23 @@ It's also how some ads seem to follow you from one website to another -- another
 
 
 
-## Authentication
+### Authentication
 
 On the server side, you'll interact with cookies and session variables quite a bit.  As mentioned above, one of the main uses of these is to determine who the user is, or "authentication".  You'll basically retrieve the cookie that the user sends you, use it to find that user in your database, and (if the user exists) then you can display the customized web page for that user.
 
 It's pretty straightforward in theory, but some of the security implications get a bit hairy so luckily the nice folks at [Platformatec](http://plataformatec.com.br/) created a very handy gem called ["Devise"](https://github.com/plataformatec/devise) which takes care of all this stuff for you.  In this curriculum (a bit later on), you'll be creating your own authentication system before learning how to use Devise to take care of the heavy lifting.
 
-## Authorization
+### Authorization
 
 Authorization is the partner concept to Authentication... Authentication lets you determine WHO the user is, but the idea behind authorization is that you might limit what the person can see based on their permission level.  The most common case of this is actually the distinction between a random not-logged-in user and one who is logged in.  Another common case of this is the difference between regular users of a website and the admin users who have special privileges.  
 
 On the server side, you will end up writing (or using) methods which restrict access to certain types of actions based on who the current user is (or whether the requester is logged in at all).  Again, Devise will help you with this by providing some of these helper methods (like for checking whether any user is logged in or who the current user is) for you.
 
-## Conclusion
+### Conclusion
 
 We'll dig into this stuff a bit later, but it's good to understand in the context of what we talked about before in regards to how requests are made because it brings a couple of extra layers onto these formerly-independent HTTP requests.  Authentication systems allow you to establish sessions which preserve the user's state (like logged in status) across requests and helps you determine whether the user is authorized to do a particular thing.  
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

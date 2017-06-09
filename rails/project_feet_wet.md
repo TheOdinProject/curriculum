@@ -1,9 +1,6 @@
-# Project: Getting Your Feet Wet With Rails
-<!-- *Estimated Time: 3-4 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Installations and Blogger
+### Warmup: Installations and Blogger
 
 To do this course, you've got to have Rails and several other technologies [properly installed on your computer](/web-development-101/installations).  That will be the first task if you haven't already.
 
@@ -18,7 +15,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.railstutorial.org/book/beginning).
 3. If you hadn't done either of these, you should go back to the [Web Development 101](/web-development-101) course and at least do the [Web Development Frameworks section](/web-development-101/#section-web-development-frameworks).
 
-## Project: Starting The RoR Tutorial
+### Project: Starting The RoR Tutorial
 
 We will be using the Ruby on Rails Tutorial by Michael Hartl throughout this course.  It is a complete, step-by-step walkthrough of building and testing a Twitter-like microblogging application.  It covers a lot of material but so does this course, so we'll be spacing out the chapters along the way to go with the appropriate lesson material.
 
@@ -106,6 +103,6 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Niño Mollaneda's solution](https://github.com/ninoM/toy_app)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
