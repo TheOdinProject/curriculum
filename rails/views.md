@@ -170,7 +170,7 @@ What if you want to render a whole bunch of users like we just did?  Rails also 
 
 In that situation, Rails not only finds the `_user.html.erb` file and passes it the correct `user` variable to use, it also loops over all the users in your `@user` collection for you.  Pretty handy.
 
-## Helper Methods
+### Helper Methods
 
 `render`ing partials isn't the only method you can call from within a view.  Rails has a bunch of really handy helper methods that are available for you to use in the view.  A few of the most common:
 
@@ -214,16 +214,16 @@ Will render something like:
 
 Rails offers several different helpers that help you create forms, and we'll go over those in depth in upcoming lessons.
 
-## Your Assignment
+### Your Assignment
 
 Now that you've got a taste of the high level stuff, read through the Rails Guides for a more detailed look at things.  The chapter below will actually start in the controller, where you need to let it know WHICH view file you want to render.  The second half of the chapter gets more into the view side of things.
 
 1. Read the [Rails Guide chapter on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
 
-## Conclusion
+### Conclusion
 
 Views in general make up the user-facing side of your app.  It can be a bit tricky at first to imagine how you choose which view to render, what to include in that view and how to use partials, but a few iterations of working with Rails will show you the conventions pretty quickly.  Views will become second nature to you.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
