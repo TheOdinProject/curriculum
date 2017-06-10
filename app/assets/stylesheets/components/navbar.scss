@@ -58,6 +58,9 @@
       background-position: center center;
       background-size: cover;
     }
+    .drop-down-link:hover {
+      color: $primary;
+    }
     .menu-options li {
       vertical-align: top;
       font-family: $body-fonts;
@@ -99,15 +102,17 @@
       margin: 0 3px;
       width: 30px;
       height: 32.5px;
+      background-repeat: no-repeat;
+      background-position: center center;
     }
     .dashboard-logo {
-      background: image-url('icons/icon-dashboard.svg') center center no-repeat;
+      background-image: image-url('icons/icon-dashboard.svg');
     }
     .settings-logo {
-      background: image-url('icons/icon-settings.svg') center center no-repeat;
+      background-image: image-url('icons/icon-settings.svg');
     }
     .logout-logo {
-      background: image-url('icons/icon-logout.svg') center center no-repeat;
+      background-image: image-url('icons/icon-logout.svg');
     }
   }
 }
