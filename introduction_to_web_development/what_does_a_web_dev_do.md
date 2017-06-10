@@ -1,5 +1,3 @@
-# So What Does a Web Developer Actually Do?
-
 The short answer: They build and maintain websites.  
 
 But what exactly that looks like varies widely depending on the type of job the developer works at. The good part is that web developers are in high demand and so, though they work very hard, they're generally able to command comfortable salaries and healthy work/life balances.  It's a profession that rewards people who are natural problem solvers and who enjoy building things.
@@ -26,8 +24,6 @@ A more detailed explanation, from [degreedictionary](http://degreedirectory.org/
 * The work is typically very project-focused and involves collaborating with a team of people who help coordinate the client's needs with the end product.
 * Not all devs work for external clients... The "client" could just be your tech company, organization, government etc. who needs a website or web application built
 * It's a lot of fun, you actually get to build things that people use, and you get to play with lots of new toys.  What's not to love?
-
-## Important Distinctions
 
 ### "Front End" vs "Back End" Developers
 
@@ -69,4 +65,3 @@ For a more concrete example, think of going to a regular web site as just openin
 Going to a site run by a web application is the same principle but the e-book is no longer just sitting there waiting to be opened. Your request for the e-book is caught by a sneaky little application which checks what you're asking for and then dynamically generates your e-book for you, fully customized (okay, maybe it just has an extra line that says "this e-book was opened on" and then today's date).  
 
 That's more or less the difference between a server just serving up a static HTML file and dynamically generating one by using a bit of Ruby on Rails code.
-

@@ -1,6 +1,4 @@
-# Project: Javascript Callbacks
-
-## Warmup
+### Warmup
 
 Ok, let's get some practice writing our own callback methods.
 
@@ -60,11 +58,11 @@ Refactor myMap to pass your modified array forward - into another callback!
 
 *Hint: Make sure you pass in the whole modified array to your outgoing callback, and not just each individual item.  Feel free to `console.log` the output.*
 
-## Your Task
+### Your Task
 
 1. Do the [callbacks exercise](https://github.com/bgando/functionalJS) questions from Bianca Gandolfo's course on JS Fundamentals.
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 

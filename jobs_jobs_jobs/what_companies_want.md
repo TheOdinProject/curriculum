@@ -1,8 +1,6 @@
-# What Companies Want 
-
 Now that you've figured your own situation out, the fact is that you can't get hired by just thinking about why *you* need or deserve the job.  You have to think about things from the perspective of the company.  Why are they interested in hiring you?  What, therefore, will they look for?
 
-## Life Behind the Curtain
+### Life Behind the Curtain
 
 Hiring managers are busy people.  That's why they need someone new... to remove some of their workload and get their team working better or faster.   They also have to deal with potentially hundreds of unqualified applicants every week, which takes up too much of their valuable time.  They just want to get back to building stuff and not have to hire again anytime soon.  So they are looking for someone who can **add value as soon as possible** and who will be able to **grow with the organization.**
 
@@ -26,7 +24,7 @@ You can learn a bit about the perspective of hiring managers by reading blog pos
 4. [Joel Spolsky's Guerrilla Guide to Interviewing 3](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html).  Look for "people who are 1. Smart, and 2. Get things done".
 5. [Beyond a Resume: What Tech Recruiters Want](http://blog.udacity.com/2013/09/beyond-resume-what-tech-recruiters-want.html)
 
-## Internships
+### Internships
 
 A good way to start getting experience and show others that you're employable is to get an internship.  Just make sure it's a paid internship because no one values things they get for free.  You want the people you work with to value your contributions and feel like they have a stake in helping you succeed.  The good part is that internships tend to focus more on your growth potential than what you've done before, so you can start to avoid that chicken-and-egg problem described above.
 

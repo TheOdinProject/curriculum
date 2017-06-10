@@ -1,7 +1,3 @@
-# Testing Rails Apps with RSpec
-
-<!-- *Estimated Time: 3-5 hrs* -->
-
 We were introduced to testing in [the RSpec lesson of the Web Development 101 course](/web-development-101/testing-basics) and you got the chance to dive a bit deeper in the [RSpec lesson of the Ruby Programming course](/ruby-programming/introduction-to-rspec).  If you haven't done those, that's where you should start.  
 
 You've also been exposed to testing during the Ruby on Rails tutorial, which you've been doing throughout the projects of this course.  
@@ -49,7 +45,7 @@ TODO: Happy path and sad path
 
 ### Test Driven Development
 
-TDD forces you to write test coverage for each method and feature BEFORE you actually write the application code to make the test pass.  This forces you to build your test coverage while you build the application.  It also helps you think in a more disciplined way about the code you're producing -- if it isn't directly relevant to 
+TDD forces you to write test coverage for each method and feature BEFORE you actually write the application code to make the test pass.  This forces you to build your test coverage while you build the application.  It also helps you think in a more disciplined way about the code you're producing -- if it isn't directly relevant to
 
 
 ### Style
@@ -57,7 +53,7 @@ TDD forces you to write test coverage for each method and feature BEFORE you act
 TODO: When to use `#context` vs `#describe`
 TODO: Your text description should only describe exactly what's being set up or tested in that block so it reads exactly like a sentence when outputted.
 
-## Points to Ponder
+### Points to Ponder
 
 * How do you run an RSpec test suite?
 * How do you write a basic RSpec test?
@@ -74,15 +70,15 @@ TODO: Your text description should only describe exactly what's being set up or 
 * What should you write for the description of your `#describe` and `#it` blocks?
 * What is a "seam"?
 
-## Capybara
+### Capybara
 jQuery!
-`#within` -- Do something within that specific area of the page, e.g. 
+`#within` -- Do something within that specific area of the page, e.g.
 
     within(".completion-wrapper") do
       expect(page).to have_link("", :href => login_path)
     end
 
-## Your Assignment
+### Your Assignment
 
 * Watch [this video from Berkeley's SAAS course by Armando Fox](http://www.youtube.com/watch?v=T4OxVwMFfKo&list=PLjbL0BCR04Q3uDPD3GVZJqV3UnJkOic-o&feature=c4-overview-vl) for a look at how they use TDD in the course.  You don't need to worry about using Cucumber and BDD.  Note that the `#should` syntax is deprecated -- we use the `#expect` syntax instead.
 * [This video from the same course will go into fixtures, factories, and test coverage (watch to roughly minute 65)](http://www.youtube.com/watch?v=zfvnF1AyIhc)
@@ -91,7 +87,7 @@ jQuery!
 * [Read through the full "Everyday Rails" Testing Series](http://everydayrails.com/2012/03/12/testing-series-intro.html)
 * [Read ThoughtBot's "How We Test Rails Applications"](http://robots.thoughtbot.com/how-we-test-rails-applications) for one of the most helpful and concise treatments of testing practices out there.
 
-## Additional Resources
+### Additional Resources
 
 * [RSpec Documentation](https://relishapp.com/rspec/rspec-rails/docs)
 * ["How I Test" by Ryan Bates via Railscasts](http://railscasts.com/episodes/275-how-i-test)

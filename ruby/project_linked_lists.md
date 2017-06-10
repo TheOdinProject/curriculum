@@ -1,5 +1,3 @@
-# Project: Linked Lists
-
 In Computer Science one of the most basic and fundamental data structures is the
 linked list, which functions similarly to an array. The principal benefit of a linked
 list over a conventional array is that the list elements can easily be inserted or
@@ -33,7 +31,7 @@ A head node is the first node in the list, a tail node is the last node in the l
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 
-## Your Task
+### Your Task
 You will need two classes:
 
 1. `LinkedList` class, which will represent the full list.
@@ -54,7 +52,7 @@ Build the following methods in your linked list class:
 10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
   The format should be: `( data ) -> ( data ) -> ( data ) -> nil`
 
-#### Extra Credit
+### Extra Credit
 
 1. `#insert_at(index)` that inserts the data at the given index
 2. `#remove_at(index)` that removes the node at the given index. (You will need to update the links of your nodes in the list when you remove a node.)

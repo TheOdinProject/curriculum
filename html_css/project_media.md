@@ -1,5 +1,3 @@
-# Project: Embedding Images and Video (with YouTube)
-
 *Don't forget to use Git to save your projects!*
 
 Back in Web Development 101 you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
@@ -77,6 +75,6 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Beth Rathbone's solution](https://github.com/bethrath/youtube-page)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
