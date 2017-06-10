@@ -1127,6 +1127,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [DMK11's Solution (Difficult)](https://github.com/dmk11/google-search-page) | [View in browser](https://dmk11.github.io/google-search-page/)
 * [Rosita's Solution (Easy)](https://github.com/ejero/google-homepage) | [View in browser](http://rositaemakpo.com/google-homepage/)
 * [zahle's Solution (Easy)](https://github.com/zah/google-homepage) | [View in browser](http://zahlekhan.github.io/)
+* [Tristyn's Solution (Easy)](https://github.com/tristyn-maalouf/google-homepage) | [View in browser](https://tristyn-maalouf.github.io/google-homepage/)
 
 ### Additional Resources
 
