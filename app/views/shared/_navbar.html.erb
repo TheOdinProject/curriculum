@@ -29,7 +29,7 @@
       <div class="dropdown-divider"></div>
       <% if current_user %>
         <li class="nav-item">
-          <%= link_to 'Logout', logout_path(ref: 'homenav'), class: 'nav-link' %>
+          <%= render 'shared/user_dropdown' %>
         </li>
       <% else %>
         <li class="nav-item">
