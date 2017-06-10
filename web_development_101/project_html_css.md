@@ -90,7 +90,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* Add your solution below this line
+* Add your solution below this list
+* [Bn8's Solution (Easy)](https://github.com/Bn8/mock_google) | [View in browser](https://bn8.github.io/mock_google/)
 * [Karam Talwandi's Solution (Easy)](https://github.com/kpstalwa/google-homepage) | [View in browser](https://kpstalwa.github.io/google-homepage/)
 * [Barry White's Solution (Easy)](https://github.com/barry505/google-homepage) | [View in browser](https://barry505.github.io/google-homepage/)
 * [Kinokoma Solution (Difficult)](https://github.com/kinokoma/google_search) | [View in browser](https://kinokoma.github.io/google_search)
