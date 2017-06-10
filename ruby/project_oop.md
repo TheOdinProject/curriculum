@@ -1,9 +1,6 @@
-# Project: OOP with Ruby
-<!-- *Estimated Time: 6-8 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project 1: Tic Tac Toe
+### Project 1: Tic Tac Toe
 
 Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you can't remember the rules, or if you haven't ever played.  It involves a couple of players, a simple board, checking for victory in a game loop... all the conditions that make it a fun little problem to solve using our newfound OOP sea legs.  Let's build it!
 
@@ -197,7 +194,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Luján Fernaud's solution (with AI)](https://github.com/lujanfernaud/ruby-tic-tac-toe)
 * [EMuchynski's solution (with AI)](https://github.com/EMuchynski/tic_tac_toe)
 
-## Project 2: Mastermind
+### Project 2: Mastermind
 
 If you've never played Mastermind, a game where you have to guess your opponent's secret code within a certain number of turns (like hangman with colored pegs), check it out on <a href="http://en.wikipedia.org/wiki/Mastermind_(board_game)">Wikipedia</a>.  Each turn you get some feedback about how good your guess was -- whether it was exactly correct or just the correct color but in the wrong space.
 
@@ -217,7 +214,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* [Dallaire's Solution (With 5 move win AI)](https://github.com/Dallaire/mastermind) 
+* [Dallaire's Solution (With 5 move win AI)](https://github.com/Dallaire/mastermind)
 * [SadieD's solution](https://github.com/SadieD/oop_with_ruby/tree/master/mastermind)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/mastermind)
 * [holdercp's solution](https://github.com/holdercp/mastermind)
@@ -358,10 +355,9 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Pat's solution (no AI)](https://github.com/Pat878/Ruby_Mastermind)
 * [EMuchynski's solution (no AI)](https://github.com/EMuchynski/mastermind)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * Not directly helpful, but here are some [Ruby game libraries](https://www.ruby-toolbox.com/categories/game_libraries) for fun.
 * A [walkthrough of how to build Tic Tac Toe in Ruby](http://codequizzes.wordpress.com/2013/10/25/creating-a-tic-tac-toe-game-with-ruby/) from the codequizzes blog.

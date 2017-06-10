@@ -1,15 +1,11 @@
-# Ruby Building Blocks
-
-<!-- *Estimated Time: 6-8 hrs* -->
-
 Welcome to Ruby Building Blocks!  Since you've already done a decent chunk of Ruby in the [Web Development 101 Course](/web-development-101/ruby-basics) (if not, go do that first!), this should start as a healthy refresher of what you've already learned with *Variables, Data Types, Strings, and Methods*.  
 
 But this lesson will take you much deeper and further than you went before, so don't think you've got a free pass.  There's a whole lot of stuff to cover.  These first couple of lessons cover the broadest swathe of material of the entire Ruby course, so get stretched out and warmed up, it's time to dive in!
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
- 
+
 
 **Note:** We recommend you read through the list, do the assignment, and then test yourself by seeing if you can answer all these questions.
 
@@ -43,13 +39,13 @@ But this lesson will take you much deeper and further than you went before, so d
     * How can you center or right-justify a string?
 
 * **Arrays:**
-  
+
     * What are three ways to create an array?
     * How do you prepopulate the array with default data?
     * How do you access items in an array?
     * How can you access a specific group of items in an array?
     * How do you modify the items in an array?
-    * How do you combine arrays? 
+    * How do you combine arrays?
     * How do you find the values in one array that aren't in another?
     * How do you find values in both arrays?
     * What is the difference between `push`/`pop` and `shift`/`unshift`?
@@ -102,14 +98,14 @@ But this lesson will take you much deeper and further than you went before, so d
   * How do you check if something is `nil`?
   * What's the difference between `nil` and `blank` and `empty`?
   * Are the following `nil` or `empty`?
-      * `" "`, `""`, `[]`, `[""]`, `{}` 
+      * `" "`, `""`, `[]`, `[""]`, `{}`
   * What's the difference between `puts` and `p` and `print`?
   * What does `inspect` do?
   * What do `+=`, `-=`, `*=` and `/=` do?
   * What is parallel assignment?
   * What's the easiest way to swap two variables?
 
-## Your Assignment:
+### Your Assignment:
 
 1. You should have already completed [Learn to Program](http://pine.fm/LearnToProgram/) in the Web Development 101 course to start with.
 2. Do the full [Codecademy Introduction to Ruby section](http://www.codecademy.com/courses/ruby-beginner-en-d1Ylq/0/1) from their [Ruby Track](http://www.codecademy.com/tracks/ruby).
@@ -117,7 +113,7 @@ But this lesson will take you much deeper and further than you went before, so d
 4. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797/ref=sr_1_1?ie=UTF8&qid=1475608118&sr=8-1&keywords=beginning+ruby) Chapter 2: `Programming == Joy: A Whistle Stop Tour of Ruby and Object Orientation`
 5. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797/ref=sr_1_1?ie=UTF8&qid=1475608118&sr=8-1&keywords=beginning+ruby) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` pages 29-46 (only the section on Numbers and Expressions and the section on Text and Strings)
 6. Take a look at the [Ruby Date and Time explanation from TutorialsPoint](http://www.tutorialspoint.com/ruby/ruby_date_time.htm).  No need to memorize all the Time Formatting Directives, just know what they are and where to find them.
-7. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so) 
+7. Do this great little [Regex Tutorial](http://regexone.com/) and the example problems (should only take an hour or so)
 8. Glance over this list of [Escape Characters](https://github.com/ruby/ruby/blob/trunk/doc/syntax/literals.rdoc#strings) in Ruby and keep it for future reference.  You'll probably only end up using `\n` newlines and `\t` tabs.
 9. For a deeper look at certain underserved pieces of the above material, check out these posts from Erik Trautman:
 
@@ -130,17 +126,16 @@ But this lesson will take you much deeper and further than you went before, so d
     6. [Ruby Explained: Other Random Tidbits](http://www.eriktrautman.com/posts/ruby-explained-other-random-tidbits)
 
 
-## Test Yourself
+### Test Yourself
 
 *Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).*
 
 1. Make sure you can do the [Beginner Ruby Quiz #1](http://www.codequizzes.com/ruby/beginner/variables-strings-numbers) from [Code Quizzes](http://www.codequizzes.com/).
 2. Make sure you go back up and look at all the questions from the "Points to Ponder" section.  See if you can do most of them without looking back through the text.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * If you still don't understand certain topics or don't like my summary, look them up in the [Bastard's Book](http://ruby.bastardsbook.com/)
 * Read [Learn Ruby the Hard Way Chapters 1-5](http://ruby.learncodethehardway.org/book/ex3.html) for a basic treatment of numbers.

@@ -1,10 +1,8 @@
-# Project: HTML Forms (with Mint)
-
 In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.  
 
 The page is very straightforward, so you should be able to clone it even if your CSS skills aren't perfect.  As usual, don't worry about any of the dynamic functionality on the page or finding the specific icons they use or having the form actually submit.  The point is to make it *look* like the real page as much as you reasonably can.
 
-## Steps to Victory
+### Steps to Victory
 
 1. Go to [Mint.com's signup page](https://wwws.mint.com/login.event?task=S) and have a look around.  The form isn't exceptionally complicated.
 2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
@@ -69,6 +67,6 @@ The page is very straightforward, so you should be able to clone it even if your
 * [Sophia Wu's solution](https://github.com/SophiaLWu/mint-signup-clone) | [View in browser](https://sophialwu.github.io/mint-signup-clone/)
 * [Beth Rathbone's solution](https://github.com/bethrath/signup-form) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bethrath/signup-form/blob/master/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

@@ -1,19 +1,16 @@
-# Projects: Active Record Associations
-<!-- *Estimated Time: 6-10 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
 In these projects, you'll finally really get to dive into ActiveRecord's associations, one of the best features it offers.  The tutorial chapter will have you creating microposts for your users and the other project will give you a chance to add some more interesting associations to your previous work.
 
-## Warmup: Thinking Data First
+### Warmup: Thinking Data First
 
 Lay out the data architecture you'd need to implement to build the following scenarios:
 
-1. A site for pet-sitting (watching someone's pet while they're gone). People can babysit for multiple pets and pets can have multiple petsitters. 
+1. A site for pet-sitting (watching someone's pet while they're gone). People can babysit for multiple pets and pets can have multiple petsitters.
 4. You like hosting people for dinner so you want to build a dinner party invitation site.  A user can create parties, invite people to a party, and accept an invitation to someone else's party.  
 5. Extra credit (tricky): You and your friends just love posting things and following each other.  How would you set up the models so a user can follow another user?
 
-## Project 1: Ruby on Rails Tutorial
+### Project 1: Ruby on Rails Tutorial
 
 This chapter of the tutorial begins the conceptual heavy lifting.  For beginners trying to plough through the tutorial, this is usually the beginning of the "I'm doing it but not understanding it" phase. Luckily, you've already learned everything that will be covered in the tutorial and this should be a great chance to see it in action as part of a real website.
 
@@ -25,7 +22,7 @@ As with the previous chapter, just make sure you're writing the test specs in th
 
 * Do the [Ruby on Rails Tutorial Chapter 13](https://www.railstutorial.org/book/user_microposts), "User microposts".
 
-## Project 2: Private Events
+### Project 2: Private Events
 
 You want to build a site similar to a private [Eventbrite](http://www.eventbrite.com) which allows users to create events and then manage user signups.  Users can create events and send invitations and parties (sound familiar?).  Events take place at a specific date and at a location (which you can just store as a string, like "Andy's House").
 
@@ -124,8 +121,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Sophia Wu's solution](https://github.com/SophiaLWu/private-events) | [View in browser](https://quiet-forest-50554.herokuapp.com/)
 * [Eric Gonzalez solution](https://github.com/Twinpair/Eventor) | [View in browser](https://railseventor.herokuapp.com/)
 
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

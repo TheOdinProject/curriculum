@@ -1,6 +1,3 @@
-# Object-Oriented Programming
-<!-- *Estimated Time: 8-12 hrs* -->
-
 You've got the building blocks of Ruby out of the way, great! Now it's time to get into the fun stuff... how do we combine those building blocks in the most efficient and elegant ways to produce the programs we'd like to write?
 
 The concepts you'll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language.  That's because the fundamental concepts are just that... fundamental.  Don't repeat yourself.  Modularize your code.  Have your classes and methods only do one thing.  Show as little of your interfaces to the world as you can.  Don't make methods or classes heavily dependent on each other.  Be lazy.  These will take some time and practice to implement effectively, but you'll already be taking a big step towards creating high quality code just by finishing up this section.
@@ -8,10 +5,9 @@ The concepts you'll learn here are often less specific to Ruby itself and more w
 There's a lot to do here but stick with it!  We'll start with some refactoring work which should be a quick refresher of some concepts we covered in the last lesson before moving into some of the OOP principles.  The Codecademy lessons are interspersed with their projects so you'll get a chance to apply what you're learning.  The Beginning Ruby book will help you understand the material a bit deeper, which will be important when you are creating your own projects next.
 
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
-
 
 **Note:** This is again a long list of things to understand!  Read through the list, breathe deep, do the assignment, and then come back to them.
 
@@ -56,7 +52,7 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
     * How are private and protected methods different?
     * What does "encapsulation" mean?
 
-## Your Assignment:
+### Your Assignment:
 
 1. Do [Codecademy Ruby sections 7, 9, and 10](http://www.codecademy.com/tracks/ruby):
 
@@ -80,12 +76,12 @@ There's a lot to do here but stick with it!  We'll start with some refactoring w
 6. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional.
 
 
-## Test Yourself
+### Test Yourself
 
 1. Make sure you can do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
 2. Make sure you can do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,12 +1,10 @@
-# Automatic Build Tools (Like Grunt)
-
 Sometimes you end up with a chain of different files and assets like images and stylesheets and javascript files and it's a real pain to get them all mashed together the way you need to in order to ship the site, especially if you're adding in preprocessors and uglifiers.  Luckily people have created build tools like [Grunt](http://gruntjs.com/) whose sole purpose is to make this work flow easier for you.  
 
 Most of these tools use Javascript and are built to help people programming with Javascript, so you don't really need to know them right off the bat.  **Consider this section optional**.  I'll probably move this into the Javascript section at some point.  Just browse through the articles and try to get an understanding of what's going on.
 
 One good reason to use Rails when you're learning?  It gives you all this for free with the [Asset Pipeline](/ruby-on-rails/the-asset-pipeline).
 
-## Points to Ponder
+### Points to Ponder
 
 * Why are automatic build tools useful?
 * Why would you want to concatenate your CSS and Javascript files?
@@ -14,14 +12,14 @@ One good reason to use Rails when you're learning?  It gives you all this for fr
 * What is a work flow like which includes build tools?
 * What are the common build tools?
 
-## Your Assignment
+### Your Assignment
 
 *Don't get carried away with this stuff yet -- try to absorb what you can but don't spend too much time on it right now.  You can always come back to this section later when your workflow needs it.*
 
 1. Read [Grunt for People Who Think Things Like Grunt are Weird and Hard by Chris Coyier](http://24ways.org/2013/grunt-is-not-weird-and-hard/)
 3. [Get up and Running with Grunt from Smashing Magazine](http://coding.smashingmagazine.com/2013/10/29/get-up-running-grunt/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

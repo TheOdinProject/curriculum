@@ -1,9 +1,6 @@
-# Project: Serialization and Working with Files
-<!-- *Estimated Time: 4-6 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Event Manager
+### Warmup: Event Manager
 
 In your Ruby days to come, you'll inevitably run into times when you'll be working with CSV files and imperfect data.  Seriously... there is no such thing as a perfect dataset.  Any time you find what looks like the perfect batch of data on something interesting, whether you're trying to plot airline flight delays on a map, tease out the nuggets from a master list of nonprofits, or scrape 10,000 emails to mercilessly SPAM with your latest get-rich-quick scheme, it will be full of mistakes, omissions, and misspellings.  Working with and cleaning up data go hand in hand.
 
@@ -129,7 +126,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Pat's solution](https://github.com/Pat878/event_manager)
 * [EMuchynski's solution](https://github.com/EMuchynski/eventmanager)
 
-## Project: Hangman
+### Project: Hangman
 
 Files are a great way to save and reload a game, so we'll give it a shot here.
 
@@ -299,7 +296,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [EMuchynski's solution](https://github.com/EMuchynski/hangman)
 * [Pat's solution](https://github.com/Pat878/Hangman)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
