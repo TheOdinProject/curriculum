@@ -45,6 +45,7 @@ class User < ApplicationRecord
       user.uid = auth.uid
       user.email = auth.info.email
       user.username = auth.info.name
+      user.avatar = auth.info.image
       user.skip_confirmation!
     end
   end
