@@ -1,8 +1,6 @@
-# Project: Minesweeper in Javascript
-  
 As you continue to expand your knowledge of Javascript, the programs you build should keep feeling more and more natural.  In this project, you'll get a chance to build another classic browser game -- Minesweeper.  It'll take some thought to work out the different logic cases, but it's really rewarding to be able to play something like this.  
 
-## Your Task
+### Your Task
 
 Build [Minesweeper](http://en.wikipedia.org/wiki/Minesweeper_(video_game)) in the browser. Stick with a small board (9x9 with 10 mines) to start.  
 
@@ -20,7 +18,7 @@ The basic rules are that the player must flag every mine on the board without cl
 7. Play!
 8. Push your solution to Github and include it below.
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
@@ -42,7 +40,7 @@ The basic rules are that the player must flag every mine on the board without cl
 * [Sophia Wu's solution](https://github.com/SophiaLWu/minesweeper) | [View in browser](https://sophialwu.github.io/minesweeper/)
 * [Daunenok's solution](https://github.com/daunenok/minesweeper) | [View in browser](https://daunenok.github.io/minesweeper/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

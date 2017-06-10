@@ -1,10 +1,8 @@
-# Validating Form Inputs Using jQuery
-
 Forms are the user's window into your back end.  You've learned a whole lot about them in previous lessons, but here we'll focus on using jQuery to interact with your forms and in the next lesson we'll look at actually submitting them asynchronously with AJAX.  
 
 You've already got all the tools you need to use Javascript to validate your user's inputs, but you probably haven't used them in this way before.
 
-## Points to Ponder
+### Points to Ponder
 
 * How do you select a particular form input with jQuery?
 * How do you select the currently active (focused) form input?
@@ -17,13 +15,13 @@ You've already got all the tools you need to use Javascript to validate your use
 * How do you add an error message directly above the input field that's wrong?
 * What is the jQuery Validate plugin and how do you include it in your project?
 
-## Your Assignment
+### Your Assignment
 
 1. Read [Smashing Magazine on Web Form Validation Best Practices and Tutorials](http://www.smashingmagazine.com/2009/07/07/web-form-validation-best-practices-and-tutorials/) to learn just about everything you need to know here.
 2. Browse the [Documentation for the jQuery Validation Plugin](http://jqueryvalidation.org/documentation/) to get you up and running with it, saving lots of time and effort.
 3. Read [An approach to form validation using jQuery from Scratch](http://www.techliance.com/blog/form-validation-with-jquery-from-scratch/) to see this stuff in action.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

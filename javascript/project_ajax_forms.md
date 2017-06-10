@@ -1,5 +1,3 @@
-# Project: Infinite Scroll and Submitting a Form with AJAX
-  
 Because we haven't yet linked your front end projects to your back end Rails APIs, in this project you'll get a chance to set up a front end for an existing API on the internet called the [Open Movie Database (OMDB)](http://www.omdbapi.com/))(modeled after [IMDB](http://www.imdb.com)). Read through the OMDB documentation before getting started so you have an idea of how you might submit a new movie entry.
 
 
@@ -7,13 +5,13 @@ Create an infinite-scrolling page of movies from the Open Movie Database.
 
 1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
 2. Set up a blank HTML document
-3. You're going to grab a whole bunch of movies and display them, but since the API will potentially return a really large number of movies, you should only display a few at a time.  Make an AJAX call to the database to retrieve and display 10 movies on your page. 
+3. You're going to grab a whole bunch of movies and display them, but since the API will potentially return a really large number of movies, you should only display a few at a time.  Make an AJAX call to the database to retrieve and display 10 movies on your page.
 4. Create an infinite scroll that loads another 10 movies and adds them to the bottom every time you scroll down to the bottom of the page.  Your "loading..." icon should come into play here too while waiting for the next batch of movies to be added.
 5. Play around with this new scroll.  What breaks it?
 6. Push your solution to Github and include it below.
 
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
@@ -31,7 +29,7 @@ Create an infinite-scrolling page of movies from the Open Movie Database.
 * [Daunenok's solution](https://github.com/daunenok/movie-database) | [View in browser](https://daunenok.github.io/movie-database/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/ajax-infinite-scrolling-project) | [View in browser](https://sophialwu.github.io/ajax-infinite-scrolling-project/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
