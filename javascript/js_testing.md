@@ -1,16 +1,14 @@
-# Javascript Testing with Jasmine
-
 We won't get deep into Javascript testing but, suffice it to say, it performs a similarly valuable function as RSpec did in Ruby and Rails.  Without testing, you have no idea when you've broken something critical in your app or, as importantly, when exactly it actually stopped working.
 
 This lesson is meant to give you a head start so you can begin experimenting with testing on your own.
 
-## Points to Ponder
+### Points to Ponder
 
 * Why should I test my Javascript?
 * What tools are out there to test Javascript with?
 * What is Jasmine?
 
-## Your Assignment
+### Your Assignment
 
 1. Read [Introduction to Javascript Unit Testing from Smashing Magazine](http://coding.smashingmagazine.com/2012/06/27/introduction-to-javascript-unit-testing/), which guides you through building your own tests and using the QUnit framework.
 2. Read [Testing Javascript using the Jasmine Framework from  HTMLGoodies](http://www.htmlgoodies.com/beyond/javascript/testing-javascript-using-the-jasmine-framework.html) for another high level overview.
@@ -18,7 +16,7 @@ This lesson is meant to give you a head start so you can begin experimenting wit
 4. When you've got a handle on the basics, [Writing Testable Javascript from Alistapart](http://alistapart.com/article/writing-testable-javascript) will help you use testing to make better code design decisions.
 5. Visit the [Jasmine Documentation on Github](https://github.com/pivotal/jasmine) and browse the README.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

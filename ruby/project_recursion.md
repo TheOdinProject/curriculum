@@ -1,9 +1,6 @@
-# Project: Recursion
-<!-- *Estimated Time: 3-5 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Fibonacci
+### Warmup: Fibonacci
 
 The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which sums each number with the one before it, is a great example of a problem that can be solved recursively.
 
@@ -138,7 +135,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 
-## Project: Merge Sort
+### Project: Merge Sort
 
 We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's time to take another look at sorting with [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than bubble sort on the right data sets.  You'll build a method which sorts a given array but uses a "merge sort" method for doing so.
 
@@ -287,7 +284,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

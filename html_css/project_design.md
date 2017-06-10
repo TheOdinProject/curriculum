@@ -1,12 +1,8 @@
-# Project: Design Teardown (with Smashing Magazine)
-
 In this simple project, you'll be breaking apart the website for a popular design magazine with which you're probably familiar by now -- [Smashing Magazine](http://smashingmagazine.com).  The goal for this exercise is to start training yourself to think in terms of visual hierarchy, typography and design principles.
 
 Your job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.  For inspiration, check out [this image from vanseodesign.com](http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.  Your final product will look much like the site on the right.
 
 This is also an opportunity to get better at positioning `<div>` elements without worrying too much about what's inside them, which will serve you well later.
-
-## Steps to Victory
 
 ### Playing with Visual Hierarchy
 
@@ -52,7 +48,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/design-teardown) | [View in browser](https://adoniasdantas.github.io/design-teardown/)
 * [huseins's solution](https://github.com/hosghf/Design-html-css) | [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

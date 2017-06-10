@@ -1,9 +1,6 @@
-# Project: Ruby on Rails Mailers
-<!-- *Estimated Time: 1-2 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project: Sending Welcome Emails
+### Project: Sending Welcome Emails
 
 Setting up a mailer is a relatively straightforward task. It's very similar to building a new controller and views.  Once you've made a couple, it should come naturally.
 
@@ -58,10 +55,9 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [DV's Solution](https://github.com/dvislearning/odin-flight-booker)
 * [Sophia Wu's Solution](https://github.com/SophiaLWu/flight-booker) | [View in Browser](https://infinite-fortress-13459.herokuapp.com/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * [`letter_opener` docs](https://github.com/ryanb/letter_opener)
 * [Setting up email: Rails, Heroku, SendGrid, Figaro](http://howilearnedrails.wordpress.com/2014/02/25/setting-up-email-in-a-rails-4-app-with-action-mailer-in-development-and-sendgrid-in-production-using-heroku/comment-page-1/#comment-79)

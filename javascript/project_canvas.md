@@ -1,10 +1,8 @@
-# Project: Using Canvas to Build Games in the Browser
-  
 Canvas takes a bit of getting used to because you probably aren't familiar with the steps involved in rendering specific shapes, but once you get the hang of it the sky's the limit on what you can produce.  You'll see in this project, where we bring back one of the classics -- [Missile Command](http://en.wikipedia.org/wiki/Missile_Command).  You can (and should) [play it here](http://my.ign.com/atari/missile-command) to get a feel for the game.
 
 The basic game rules are that you have a finite number of missiles in your base at the bottom of the screen and need to intercept incoming missiles before they hit the ground.  You do this by clicking on the screen where you would like your missiles to detonate.  After clicking, a missile slowly travels to the point of click and then explodes.  Each explosion sets off a chain reaction, blowing up any missiles it touches before fading away.
 
-## Your Task
+### Your Task
 
 Build Missile Command in an HTML5 Canvas.  
 
@@ -22,7 +20,7 @@ If your game logic gets too complicated or the speed is too fast, you'll probabl
 6. Push your solution to Github and include it below.
 
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
@@ -36,7 +34,7 @@ If your game logic gets too complicated or the speed is too fast, you'll probabl
 * [Daunenok's solution](https://github.com/daunenok/missile) | [View in browser](https://daunenok.github.io/missile/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/missile-command) | [View in browser](https://sophialwu.github.io/missile-command/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

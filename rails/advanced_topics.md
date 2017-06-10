@@ -1,10 +1,8 @@
-# Advanced Topics
-
-## Introduction
+### Introduction
 
 There are some topics that we just haven't had a chance to get into yet but will prove useful for you to know.  In this section we'll cover advanced routing, layouts, and a brief introduction to metaprogramming.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -29,11 +27,11 @@ There are some topics that we just haven't had a chance to get into yet but will
 * What are Design Patterns?
 * What are the SOLID principles?
 
-## Advanced Routing
+### Advanced Routing
 
 You should be quite familiar by now with the bread and butter of routing -- converting RESTful requests using the familiar HTTP verbs into mappings for specific controller actions (whether using the `#resources` method or explicitly specifying them using the `get` method.  That's 90% of what you'll use your routes file for... but that other 10% gives you some pretty neat options like redirecting directly from the routes file, nesting routes inside each other, or parsing parameters from the incoming request.
 
-### Singular Resources
+#### Singular Resources
 
 You might have already run into this at some point without necessarily understanding it.  Up until now, we've been talking about resources (like "posts" and "users") where there are a whole lot of them.  It seems fairly intuitive.  In your `config/routes.rb` file, you represent these simply with a single line like `resources :users`.
 
@@ -107,7 +105,7 @@ Don't nest routes too deeply! If you're more than a layer or two deep, something
 
 If this seems a bit confusing at first, you'll pick it up quickly when you actually run into it in your own coding.  If you find yourself working inside your controller and needing the parent's ID, the route should have been nested.  If you find that you don't need the parent's ID, it doesn't need to be nested.  Easy enough.  
 
-### Member and Collection Routes
+#### Member and Collection Routes
 
 Sometimes you want to add another non-RESTful route to a resource.  If you'd like to add a route to just a single member of that resource, use the `#member` method:
 
@@ -144,7 +142,7 @@ The `upcoming` route will map to the `courses#upcoming` action but will not take
 
 If any of this seems confusing, just play around with them and run `$ rake routes` to see what is happening behind the scenes.
 
-### Redirects and Wildcard Routes
+#### Redirects and Wildcard Routes
 
 You might want to provide a URL out of convenience for your user but map it directly to another one you're already using.  Use a redirect:
 
@@ -159,17 +157,17 @@ Well, that got interesting fast.  The basic principle here is to just use the `#
 
 In the example above, we've also renamed the route for convenience by using an alias with the `:as` parameter.  This lets us use that name in methods like the `#_path` helpers.  Again, test out your `$ rake routes` with questions.
 
-## Advanced Layouts: Nesting Layouts and Passing Information
+### Advanced Layouts: Nesting Layouts and Passing Information
 
 We got pretty good coverage of view layouts in the lesson on Views but one other topic involves rendering multiple layouts for one page, which allows you to create unique sections that still reuse a lot of the stylings that you might want to keep consistent across your whole site (e.g. the footer).  For example, maybe the user pages should have a different styling than your home page.  The first thought might be to try and have a different stylesheet for each layout but remember that Rails' Asset Pipeline jams all your stylesheets together anyway.  
 
-A better way of doing things is to tell your layout to do some stuff (whatever you might normally have your layout do) and then render *another* layout using the `render :template => "your_layout.html.erb"` method. You are sort of using your layouts like a view might use a view partial. 
+A better way of doing things is to tell your layout to do some stuff (whatever you might normally have your layout do) and then render *another* layout using the `render :template => "your_layout.html.erb"` method. You are sort of using your layouts like a view might use a view partial.
 
 You can also pass information from the first layout to the one it renders by using the `#content_for` method.  This lets you create logic in your main layout that is dependent on what is passed by your individual layout files... the possibilities are endless.
 
 For instance, you might have a specific layout file for your static pages called `app/views/layouts/static_pages.html.erb`.  This file will be rendered by default (if it exists) for views generated from your StaticPagesController (which is a Rails default).  Let's say, though, that you want your static pages to look almost identical to the rest of the site but you don't want the navbar to appear across the top.  
 
-In this case, you would tell your `static_pages.html.erb` layout to call the `application.html.erb` layout but also pass it some special CSS by using the `#content_for` method, e.g. 
+In this case, you would tell your `static_pages.html.erb` layout to call the `application.html.erb` layout but also pass it some special CSS by using the `#content_for` method, e.g.
 
 ```language-ruby
     # app/views/layouts/static_pages.html.erb
@@ -207,7 +205,7 @@ When you `#yield` to a particular content block, in this case `:stylesheets`, it
 
 This trick is useful for more than just passing stylesheet information... any time you find yourself wanting to make a section of your site look different but without totally redesigning it with a fully new layout, you might consider nesting your layouts and passing information from one to another.
 
-## Metaprogramming Rails
+### Metaprogramming Rails
 
 What is "Metaprogramming"?  It's a great and useful concept that's used all over Rails and you can put it to work yourself too.  It's basically the idea that your application or script actually creates functions or methods or classes on the fly while it's running and can dynamically call them as well.  It's one of the great parts of using an interpreted language like Ruby... it's sort of baked into the language.  We'll just skim the surface here but you should definitely look into it more on your own once you feel comfortable with the nuts and bolts of Rails.
 
@@ -220,7 +218,7 @@ Ruby provides the `#send` method to save the day.  If you want to run a method o
 ```language-bash
   > 1 + 2
   => 3
-  > 1.send(:+, 2) 
+  > 1.send(:+, 2)
   => 3
 ```
 
@@ -271,7 +269,7 @@ Here's a good example of [simple metaprogramming to DRY up your code](http://rai
 
 Check out [Metaprogramming Ruby](http://www.amazon.com/Metaprogramming-Ruby-Program-Like-Pros/dp/1934356476) by Paolo Perrotta if you're really curious.  
 
-## Design Patterns
+### Design Patterns
 
 Design patterns have a mixed reputation among software developers.  On the one hand, they represent "best practices" for how to code past a given situation (not specific code, just a template for how to fix something).  On the other, they can be sort of needlessly prescriptive.  See the [Wikipedia article on Design Patterns](http://en.wikipedia.org/wiki/Software_design_pattern) for an overview.  We won't be covering specific patterns in this course.
 
@@ -290,12 +288,12 @@ If you're particularly interested in pursuing design patterns, check out the "Ga
 There's a useful book written on anti-patterns, which can help you clean up your code by identifying bad smells, called [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814/) by Tammer Saleh and Chad Pytel.
 
 
-## I18n: Internationalization
+### I18n: Internationalization
 
-[Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages.  It's outside our scope to cover, but for those who are interested, check out [this Sitepoint tutorial on it](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates. 
+[Internationalization and Localization](http://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adapting your application to fit specific geographies and/or languages.  It's outside our scope to cover, but for those who are interested, check out [this Sitepoint tutorial on it](http://www.sitepoint.com/go-global-rails-i18n/), as suggested by K. Bates.
 
 
-## Your Assignment
+### Your Assignment
 
 1. Skim the [Rails Guide on Routing](http://guides.rubyonrails.org/routing.html#controller-namespaces-and-routing) section 2.6 about namespacing.
 2. Read the same guide sections 2.7-3.7 to learn about nested, member and collection routes and more.
@@ -305,7 +303,7 @@ There's a useful book written on anti-patterns, which can help you clean up your
 6. If you're interested in peeking at metaprogramming, read through [http://ruby-metaprogramming.rubylearning.com/](http://ruby-metaprogramming.rubylearning.com/).  It's not essential to building early Rails apps but you'll definitely start running into it more in "the wild".
 7. Glance through [this Slideshare Presentation on SOLID](http://www.slideshare.net/jcfischer/solid-ruby-solid-rails) principles.
 
-## Conclusion
+### Conclusion
 
 In this lesson we covered some fairly random and intricate concepts but useful stuff to at least get familiar with, even if you're not going to use it every day.  Experience is the real key here -- in the course of building awesome stuff you'll run into the need for all of the things you just learned and it might just save you a lot of time and complexity in your code.  
 
@@ -313,7 +311,7 @@ The more general principles like SOLID design and metaprogramming will be useful
 
 With all that completed, there's not much else to go... it's time to get started on your final project!
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
