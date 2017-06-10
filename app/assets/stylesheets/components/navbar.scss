@@ -63,12 +63,28 @@
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
       margin-left: -120px;
     }
-    .drop-down-link {
-      padding: 6px 0;
+    .menu-options li {
+      vertical-align: top;
       font-family: $body-fonts;
       font-size: 16px;
       line-height: 1.88;
       letter-spacing: 0.2px;
+    }
+    .drop-down-logo {
+      vertical-align: top;
+      display: inline-block;
+      margin: 0 3px;
+      width: 30px;
+      height: 32.5px;
+    }
+    .dashboard-logo {
+      background: image-url('icons/icon-dashboard.svg') center center no-repeat;
+    }
+    .settings-logo {
+      background: image-url('icons/icon-settings.svg') center center no-repeat;
+    }
+    .logout-logo {
+      background: image-url('icons/icon-logout.svg') center center no-repeat;
     }
   }
 }
