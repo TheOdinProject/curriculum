@@ -171,4 +171,16 @@
       font-family: FontAwesome;
     }
   }
-}
+
+  .tou-caution {
+    margin: 0 0 24px 0;
+
+    a {
+      color: $grey;
+      font-size: 0.9em;
+
+      &:hover {
+        color: $text-primary;
+      }
+    }
+  }
