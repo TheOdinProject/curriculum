@@ -1,10 +1,8 @@
-# Project: jQuery and the DOM
-
 Let's give you a chance to dive deeply into working with events by building a Snake game.  If you never played it (likely many years ago in your childhood), check out the [Wikipedia Page for Snake](http://en.wikipedia.org/wiki/Snake_(video_game)).  Basically, it's a snake that you have to move around the board and which grows longer with each piece of food it eats.  You lose if it gets so big it hits itself or if it goes off the board.
 
 If you think about what's required to make a game like this work, it's all well within your grasp -- you'll have to set up a grid and listen for user input events to determine where to turn the snake, then add some logic around how it gets larger by "feeding".  This is where things start getting really fun!
 
-## Your Task
+### Your Task
 
 ### Setup
 
@@ -37,7 +35,7 @@ If you think about what's required to make a game like this work, it's all well 
 12. Upload your snake to Github and put your code down below.
 
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
@@ -76,6 +74,6 @@ If you think about what's required to make a game like this work, it's all well 
 * [Pat's solution](https://github.com/Pat878) | [View in browser](https://pat878.github.io/JS_Snake/)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

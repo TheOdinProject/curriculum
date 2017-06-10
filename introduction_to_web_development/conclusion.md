@@ -1,9 +1,6 @@
-# Conclusion
-<!-- it might be a good idea to add the final part of the content here into the gearing up for success lesson -->
-
 Hopefully you've gained a better idea of what a web developer actually does and what your life might look like if you decided to take it on as a career.  This has really just been a teaser into the world of web development.  See the "Additional Resources" section below if you'd like to learn more before moving forward to the next courses.
 
-In the next course, "Web Development 101", you'll take a journey through the entire spectrum of topics that you will eventually need to know.  That will give you a great base from which to begin, though it's got a lot more meat to it than your typical "101", so watch out! 
+In the next course, "Web Development 101", you'll take a journey through the entire spectrum of topics that you will eventually need to know.  That will give you a great base from which to begin, though it's got a lot more meat to it than your typical "101", so watch out!
 
 After that, each course will be a deep dive into a particular topic, from the back end to the front.  You will build dozens of scripts, projects, and websites by the time this journey is complete and will have the skills necessary to step into fulltime development.  
 
@@ -17,9 +14,7 @@ And it might be life-changing too.
 
 *What are you waiting for!?!*
 
-
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

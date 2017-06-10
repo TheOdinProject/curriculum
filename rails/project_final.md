@@ -1,9 +1,4 @@
-# Project: Ruby on Rails Final Project!!!
-<!-- *Estimated Time: 25-40 hrs* -->
-
-*Don't forget to use Git to save your projects!*
-
-## Project: Building Facebook
+### Project: Building Facebook
 
 You've come a long way, congratulations! At this point, you should feel comfortable with building new Rails applications, modelling data, and working with forms. This project will require you to put all your newfound knowledge to the test.  It should serve as a great portfolio piece for what you're capable of.  It'll take some thought and time but it's certainly within reach of your skills.
 
@@ -95,9 +90,8 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Jerry Gao's solution](https://github.com/blackwright/tracebook) | [View in browser](https://tracebook.herokuapp.com/)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * For another take on this, here's a [gem-laden Facebook clone](https://github.com/vysakh0/railsbook).

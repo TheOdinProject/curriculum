@@ -1,6 +1,3 @@
-# Projects: Ruby Building Blocks
-<!-- *Estimated Time: 3-5 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
 By now you should feel pretty good working with strings, arrays and hashes.  We'll do a couple of classic "intro to programming" problems here to help solidify your knowledge and get warmed up to working on small projects.  You'll need to rely on some of your basic knowledge of conditionals and flow control from the prep work but you shouldn't need to do anything you haven't seen before.
@@ -9,11 +6,11 @@ You can do these in IRB or create a separate script file to run from the command
 
 *Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).*
 
-## Warmup
+### Warmup
 
 Build the simple [User Input Word Counter tutorial from Codecademy](http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1).
 
-## Project 1: Caesar Cipher
+### Project 1: Caesar Cipher
 
 From Wikipedia:
 
@@ -289,7 +286,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Isashi's solution](https://github.com/Isashi/caesar_cipher/blob/master/Caesar_cipher.rb)
 * [Kevin's solution] (https://github.com/bt2bn/ruby/blob/master/caesar.rb)
 
-## Project 2: Stock Picker
+### Project 2: Stock Picker
 
 
 ### Your Task
@@ -545,7 +542,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Isashi's solution](https://github.com/Isashi/stock_picker/blob/master/stock_picker.rb)
 
 
-## Project 3: Substrings
+### Project 3: Substrings
 
 ### Your Task
 
