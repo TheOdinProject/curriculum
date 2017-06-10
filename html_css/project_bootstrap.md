@@ -1,8 +1,6 @@
-# Project: Using Twitter Bootstrap (with Newsweek)
-
 In this project, you'll get a chance to try out Twitter's Bootstrap framework by building a site that actually uses it -- [Newsweek](http://www.newsweek.com/).
 
-## Steps to Victory
+### Steps to Victory
 
 *Note: As usual, ignore any ads, icons, and interactive elements (which use Javascript).  If you really want to grab icons, try taking a screenshot of them and making an image file out of that.*
 
@@ -39,7 +37,7 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 * [Austin's solution](https://github.com/CouchofTomato/newsweek-clone)
 * [Beth Rathbone's solution](https://github.com/bethrath/bootstrap-test) | [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/bootstrap-test/blob/master/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,13 +1,10 @@
-# Javascript 101
-<!-- *Estimated Time: 6-8 hrs* -->
-
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
 
 This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  Javascript just happens to let you implement them to do fun things in the browser.
 
 This lesson will tend to focus on understanding the programming side of Javascript and the next lesson on jQuery will build on your knowledge here to actually allow you to interact with the elements on your webpage.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -16,7 +13,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * What is a string? An array? A boolean?
 * What are events?
 
-## Assignment:
+### Assignment:
 1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/learn-javascript) for a good overview of the basics of javascript.
 2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
     1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/pen/).
@@ -26,11 +23,12 @@ This lesson will tend to focus on understanding the programming side of Javascri
     2. If you feel like it, go and solve a few more problems! No one said you could turn off your brain!
 5. Complete the remaining of the [dev tools](https://www.codeschool.com/courses/discover-devtools) course from code school to see how you can use dev tools to help you debug javascript issues.
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Barry's solution for problem 1](https://github.com/barry505/projectEuler/blob/master/p01.js)
 * [endotnick's solutions](https://github.com/endotnick/project_euler)
 * [egealpay's solution for problem 1](https://github.com/egealpay/project_euler/blob/master/problem1.js)
 * [GuyInALabCoat Solutions for problems 1-4](https://github.com/GuyInALabCoat/Project_Euler)
@@ -497,7 +495,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Bolcik's solution](https://github.com/SeanKohlbrenner/euler_problem_1/blob/master/problem_1.js)
 * [Robtak's solution](https://github.com/robtak/Project-Euler-1) | [View in Browser](https://robtak.github.io/Project-Euler-1/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

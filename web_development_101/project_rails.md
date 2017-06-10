@@ -1,7 +1,3 @@
-
-# Project: Rails
-<!-- *Estimated Time: 6-8 hrs* -->
-
 In this project, you'll get the opportunity to actually build a real rails application.  It's not a trivially simple one either -- it's got a lot of wrinkles and things that you're not going to understand.
 
 To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient.
@@ -15,7 +11,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 4. If you're feeling very ambitious, try doing the final Extras section I6.
 5. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](http://installfest.railsbridge.org/installfest/deploy_a_rails_app)
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
@@ -255,9 +251,10 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/rails-project)
 * [uvieugo's Solution](https://github.com/uvieugo/project-rails-blogger) | [View in Browser](https://salty-woodland-61543.herokuapp.com/) Up to part off I6
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
 * If you want, you can take a look at [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) from last lesson again. This will help you add some extra features to your blog such as [deleting comments](http://guides.rubyonrails.org/getting_started.html#deleting-comments).
+* You can read the [Introduction to Core Ruby Tools](https://launchschool.com/books/core_ruby_tools/read/introduction) from LaunchSchool to get a better understanding of Ruby and Rails concepts such as gems, version managers, bundler, and rake.

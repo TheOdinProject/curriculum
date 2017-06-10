@@ -1,9 +1,6 @@
-# Projects: Advanced Building Blocks
-<!-- *Estimated Time: 4-8 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project 1: Bubble Sort
+### Project 1: Bubble Sort
 
 Sorting algorithms are some of the earliest that you typically get exposed to in Computer Science.  It may not be immediately obvious how important they are, but it shouldn't be hard to think of some examples where your computer needs to sort some massive datasets during everyday operations.
 
@@ -38,6 +35,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Demo318's Solution](https://github.com/Demo318/ruby_advanced_building_blocs/blob/master/my_bubble_sort.rb)
 * [Dallaire's Solution](https://github.com/Dallaire/ruby_building_blocks/blob/master/bubble_sort.rb)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/bubble-sort/bubble_sort.rb)
 * [SadieD's solution](https://github.com/SadieD/advanced_ruby_building_blocks/blob/master/bubble_sort.rb)
@@ -257,12 +255,12 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Parker Brown's solution](https://github.com/parkerjbrown/ruby-advanced-building-blocks/blob/master/bubble_sort.rb)
 * [Vaclav Skvaril's solution](https://github.com/Vasha22/Advanced-Ruby-Blocks/blob/master/bubble_sort.rb)
 * [Øistein Haugland's solution](https://github.com/oisteinhaugland/bubble_sort/blob/master/bubble_sort.rb)
-* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/bubble_sort.rb)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/lib/bubble_sort.rb)
 * [hs7's solution](https://github.com/hsun7/Advanced-Building-Blocks/blob/master/bubble_sort.rb)
 * [EMuchynski's solution](https://github.com/EMuchynski/advanced_building_blocks/blob/master/01_bubble_sort.rb)
 * [Swojeet's solution](https://github.com/swojeet/theOdinProject-ruby/blob/master/advanced_building_blocks/bubble_sorts.rb)
 
-## Project 2: Enumerable Methods
+### Project 2: Enumerable Methods
 
 You learned about the Enumerable module that gets mixed in to the Array and Hash classes (among others) and provides you with lots of handy iterator methods.  To prove that there's no magic to it, you're going to rebuild those methods.
 
@@ -300,6 +298,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Demo318's solution](https://github.com/Demo318/ruby_advanced_building_blocs/blob/master/my_enumerable.rb)
 * [Dallaire's solution](https://github.com/Dallaire/ruby_building_blocks/blob/master/enumerable.rb)
 * [SadieD's solution](https://github.com/SadieD/advanced_ruby_building_blocks/blob/master/enumerable_methods.rb)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/advanced-building-blocks/blob/master/enumerable.rb)
@@ -502,12 +501,12 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Vaclav Skvaril's solution](https://github.com/Vasha22/Advanced-Ruby-Blocks/blob/master/enumerable.rb)
 * [Parker Brown's solution](https://github.com/parkerjbrown/ruby-advanced-building-blocks/blob/master/enumerable.rb)
 * [Øistein Haugland's solution](https://github.com/oisteinhaugland/enumerable_methods/blob/master/enumerable_methods.rb)
-* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/enumerable.rb)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/lib/enumerable.rb)
 * [hs7's solution](https://github.com/hsun7/Advanced-Building-Blocks/blob/master/enumerable_methods.rb)
 * [EMuchynski's solution](https://github.com/EMuchynski/advanced_building_blocks/blob/master/02_enumerable_methods.rb)
 * [Ian's solution](https://github.com/ianbaker615/enumerable_methods.git)
 * [Swojeet's solution](https://github.com/swojeet/theOdinProject-ruby/blob/master/advanced_building_blocks/enumerable_methods.rb)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
