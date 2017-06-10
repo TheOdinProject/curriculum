@@ -53,7 +53,7 @@
       margin-top: 37.8px;
       width: 30px;
       height: 30px;
-      border-radius: 50%;
+      @include border-radius(50%);
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -67,7 +67,7 @@
     }
     .menu-options {
       padding: 8px;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.2));
       margin: 15px 0 0 -65px;
     }
     //box triangle css
