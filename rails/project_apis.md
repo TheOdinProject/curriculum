@@ -123,6 +123,7 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Dylan's Solution with comprehensive controller testing](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-kittens)
 * [DV's solution](https://github.com/dvislearning/odin-kittens)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/kittens-api)
+* [Daniel Aguilar's solution](https://github.com/danaguilar/odin-kittens)
 
 
 ### Project 2: Using a Third Party API
@@ -170,6 +171,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/flickr_api)
 * [DV's solution](https://github.com/dvislearning/odin-flickr) | [View in Browser](http://serene-spire-20652.herokuapp.com)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/flickr-app-api) | [View in Browser](https://radiant-ravine-62439.herokuapp.com/)
+* [Daniel Aguilar's solution](https://github.com/danaguilar/Flicker-fotos)
 
 
 ### Additional Resources
