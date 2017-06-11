@@ -18,6 +18,10 @@ class UserDecorator < SimpleDelegator
     github && formatted_github_url
   end
 
+  def project
+    project || []
+  end
+
   private
 
   def formatted_twitter_url

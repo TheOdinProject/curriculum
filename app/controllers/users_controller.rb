@@ -3,19 +3,8 @@ class UsersController < ApplicationController
   before_action :find_user, except: [:index, :send_confirmation_link]
   authorize_resource only: [:edit, :update]
 
-  def dashboard
+  def show
     @courses = Course.order(:position)
-    @projects = @user.projects
-  end
-
-  def update
-    if @user.update_attributes(user_params)
-      flash[:success] = 'Your profile was updated successfully'
-      redirect_to @user
-    else
-      flash.now[:error] = "We could not update your profile. Errors: #{@user.errors.full_messages}"
-      render :edit
-    end
   end
 
   def send_confirmation_link

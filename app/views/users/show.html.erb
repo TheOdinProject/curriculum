@@ -5,7 +5,9 @@
 
   <%= render 'skills_progress', user: @user, courses: @courses %>
 
-  <%= render 'project_submissions', projects: @projects unless @projects.empty? %>
+  <% if @user.projects.any? %>
+    <%= render 'project_submissions', projects: @user.projects %>
+  <% end %>
 
   <%= render 'shared/bottom_cta',
       button: gitter_button,
