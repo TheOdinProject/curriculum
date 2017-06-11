@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe ButtonHelper do
   describe '#sign_up_button' do
     let(:sign_up_button) {
-      '<a class="button button--primary" href="/sign_up?ref=success_stories">Sign Up</a>'
+      '<a class="button button--primary" href="/sign_up">Sign Up</a>'
     }
 
     it 'returns a sign up button' do
