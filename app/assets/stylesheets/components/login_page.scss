@@ -9,6 +9,7 @@
     padding: 50px 55px;
     margin: 75px auto 0 auto;
   }
+
   .login {
     width: 100%;
     background-color: $pale-grey-bg;
@@ -25,10 +26,11 @@
     line-height: 1.88;
     letter-spacing: 0.2px;
     color: $text-primary;
+    @include input-placeholder($grey);
+
     .controls {
       margin-left: -60px;
     }
-    @include input-placeholder($grey);
   }
 
   .input-group .fa-user {
@@ -87,10 +89,12 @@
     letter-spacing: 0.2px;
     color: $white;
   }
+
   .sign-in-button {
     background-color: $button-primary;
     text-align: center;
   }
+
   .github-login-button {
     display: inline-block;
     background-color: $text-primary;
@@ -157,6 +161,7 @@
   }
 
   .normal-checkbox:checked {
+
     + .custom-checkbox:after {
       content: '\f00c';
       color: $text-primary;
@@ -184,3 +189,4 @@
       }
     }
   }
+}
