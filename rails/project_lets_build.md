@@ -141,3 +141,4 @@ If you're already scratching your head, don't worry (like I said, better explana
 * [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
 * [Code School's RSpec Introduction Course](https://www.codeschool.com/courses/testing-with-rspec)
 * [Rails Conf 2013 BDD and Acceptance Testing with RSpec & Capybara](https://www.youtube.com/watch?v=BG_DDUD4M9E) This video gives you a nice angle on BDD & TDD in Rails that you won't get from the primary sources.
+* [RailsConf 2015 - Understanding Rails test types in RSpec](https://www.youtube.com/watch?v=SOi_1reKn8M) 30-minute RSpec presentation by Sam Phippen. Contains a few prewritten methods, but most of it is live coding with RSpec with explanations, which can be very helpful.
