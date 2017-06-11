@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
-  after_action :store_redirect_path
   protect_from_forgery
 
   rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
@@ -16,10 +15,6 @@ class ApplicationController < ActionController::Base
 
   def after_sign_out_path_for(_resource_or_scope)
     home_path(ref: 'logout')
-  end
-
-  def store_redirect_path
-    SmartRedirect.new(request, session).set_redirect_path
   end
 
   def after_sign_in_path_for(_resource)
@@ -48,7 +43,7 @@ class ApplicationController < ActionController::Base
         :current_password,
         :password,
         :password_confirmation,
-        :about,
+        :learning_goal
       )
     end
   end
