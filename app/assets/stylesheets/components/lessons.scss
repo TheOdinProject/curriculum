@@ -1,6 +1,6 @@
 #lesson-content {
   margin-top: 50px;
-  padding-bottom: 180px;
+  padding-bottom: 60px;
 
   a {
     color: $primary;
@@ -21,7 +21,7 @@
   }
 
   h3 {
-    margin: 60px 0 30px;
+    margin: 50px 0 25px;
     font-weight: bold;
     color: $grey;
     font-size: 18px;
@@ -42,8 +42,7 @@
   }
 
   ul {
-    padding-left: 0;
-    list-style: none;
+    padding-left: 1em;
   }
 
   ol {
@@ -62,6 +61,13 @@
       text-align: center;
       margin-bottom: 30px;
     }
+  }
+
+  .lesson-title {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 70px;
   }
 }
 
