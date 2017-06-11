@@ -17,11 +17,11 @@
       <li class="nav-item">
         <%= link_to 'Chat', chat_link, class: 'nav-link gitter-chat-link', target: '_blank' %>
       </li>
-
-      <li class="nav-item">
-        <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>
-      </li>
-
+      <% unless current_user %>
+        <li class="nav-item">
+          <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>
+        </li>
+      <% end %>
       <li class="nav-item">
         <%= link_to 'FAQ', faq_path(ref: 'homenav'), class: 'nav-link' %>
       </li>
