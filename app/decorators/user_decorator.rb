@@ -18,8 +18,8 @@ class UserDecorator < SimpleDelegator
     github && formatted_github_url
   end
 
-  def project
-    project || []
+  def has_projects?
+    projects.exists?
   end
 
   private

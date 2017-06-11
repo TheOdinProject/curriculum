@@ -5,7 +5,7 @@
 
   <%= render 'skills_progress', user: @user, courses: @courses %>
 
-  <% if @user.projects.any? %>
+  <% if @user.has_projects? %>
     <%= render 'project_submissions', projects: @user.projects %>
   <% end %>
 
