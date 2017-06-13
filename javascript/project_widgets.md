@@ -58,6 +58,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [Sophia Wu's solution](https://github.com/SophiaLWu/image-carousel) | [View in browser](https://sophialwu.github.io/image-carousel/)
 * [Axel’s solution](https://github.com/afuh/slider) | [View in browser](https://afuh.github.io/slider/)
 * [Daunenok’s solution](https://github.com/daunenok/image-carousel) | [View in browser](https://daunenok.github.io/image-carousel/)
+* [Pat’s solution](https://github.com/Pat878/Image-Carousel) | [View in browser](https://pat878.github.io/Image-Carousel/)
 
 ### Additional Resources
 
