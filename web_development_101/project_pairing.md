@@ -21,7 +21,7 @@ Enough talk! Lets build!
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!*
 
 Add your solution below this line!
-
+* [Justinckim3's Solution](https://github.com/justinckim3/pomodoro) | [View in Browser](https://justinckim3.github.io/pomodoro/)
 * [Kasey Z.'s Solution](https://github.com/kasey-z/Pomodoro-Clock/) | [View in Browser](https://kasey-z.github.io/Pomodoro-Clock/)
 * [junkdeck's Solution](https://github.com/junkdeck/pomodoro) | [View in Browser](https://junkdeck.github.io/pomodoro/)
 * [Demo318 & rratliff's Solution](https://github.com/Demo318/pomodoro-clock) | [View in Browser](https://demo318.github.io/pomodoro-clock/)
