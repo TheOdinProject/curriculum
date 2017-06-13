@@ -35,6 +35,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Karam Talwandi's solution](https://github.com/kpstalwa/etch-a-sketch) | [View in browser](https://kpstalwa.github.io/etch-a-sketch/)
 * [Leah Xia's solution](https://github.com/LeahXia/grids.git) | [View in browser](http://leahxia.com/internal-links/grids/index.html)
 * [Willie van Tonder solution](https://github.com/willievantonder/gridGame) | [View in browser](https://willievantonder.github.io/gridGame/)
 * [MGiagante solution](https://github.com/mgiagante/etch-a-sketch) | [View in browser](https://mgiagante.github.com/etch-a-sketch/)
