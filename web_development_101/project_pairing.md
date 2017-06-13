@@ -39,6 +39,7 @@ Add your solution below this line!
 * [Ryan Steel's Solution](https://github.com/rsteel1/pomodoro-timer) | [View in Browser](https://rsteel1.github.io/pomodoro-timer/)
 * [Cody Buffaloe & Elisery's Solution](https://github.com/CodyLBuffaloe/pomodoro_clock_pp) | [View in Browser](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/pomodoro_clock_pp/blob/master/pomodoro_clock.html)
 * [Luinu's Solution](https://github.com/luinu/pomodoro) | [View in Browser](https://luinu.github.io/pomodoro/)
+*[Harrison's Solution] (https://github.com/okeharlyon/Promodo-Clock)
 
 ### Next Steps
 
