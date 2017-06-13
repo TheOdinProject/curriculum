@@ -1,5 +1,3 @@
-# Javascript Templates (Optional)
-
 Before we get into frameworks, it's useful to learn about templating tools.  Basically, these will let you set up a template (like a Rails layout/view) and insert basic dynamic elements (like loops) into it with minimal effort and without the need to build out a sophisticated back end to handle it.  You'll find that most templates feel a whole lot like ERB did in Rails views -- a way of passing snippets of dynamic code and variables into your HTML.
 
 Some of the more common templating languages include [Mustache](http://mustache.github.io/) and [Handlebars](http://handlebarsjs.com/) (so named because they typically use curly braces {{to surround}} inserted code).
@@ -11,12 +9,12 @@ Some of the more common templating languages include [Mustache](http://mustache.
 * How do you include Mustache.js in your project?
 * How do you use Mustache to display a group of `<div>`'s?
 
-## Your Assignment
+### Your Assignment
 
 1. Read [Smashing Magazine on Client Side Templating](http://coding.smashingmagazine.com/2012/12/05/client-side-templating/), which starts from scratch and gives lots of examples
 2. Read [Learning about Handlebars Templating from JSIS](http://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/) to get an in-depth guide on Mustache.  You can skip the early stuff if you've already got a good handle on the theory of templating.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

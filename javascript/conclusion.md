@@ -1,5 +1,3 @@
-# Conclusion
-
 This is the end! At this point you should have a deep and nuanced understanding of not just how Javascript works but how you can use it with all the other knowledge you've gained so far to build exceptional web applications. That means great information architectures, smooth-running Rails backends and delightfully useful front-ends.  
 
 If you find something you don't know or aren't quite sure about, you should be a pro by now at Googling your way to an answer, looking at docs, and cruising through Stack Overflow posts.  You've got all the tools you need to be a developer.  And, really, the big secret is that you've been a web developer for a long time already.
@@ -11,7 +9,7 @@ There's a whole world of additional things you can learn -- jQuery mobile to bui
 And speaking of jobs, if you've made it this far then you've displayed the kind of capability and drive that employers are looking for.  The final step is to show that to the world and get them to pay you to keep learning.  Which just happens to be the subject of the next course...
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

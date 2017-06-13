@@ -1,9 +1,6 @@
-# Project: Basic Routes, Views and Controllers
-<!-- *Estimated Time: 3-5 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Sending Params with RestClient
+### Warmup: Sending Params with RestClient
 
 In this project, you'll get a chance to interact with a Rails application from the command line by sending requests manually.  You'll first build a very simple app (to get some practice with the steps involved in creating a new one) and then a simple script which uses the RestClient gem (which you used in the first project) to send some requests and examine the server output.  
 
@@ -43,7 +40,7 @@ Next create a simple script file which will run RestClient and allow you to star
 3. Try to run the script again.  It should output a whole bunch of HTML which represents the default Rails homepage.
 4. Change your script file to go to `http://localhost:3000/users` instead.  Run it again.
 5. This time you should receive a different error, something like `404 Resource Not Found`.  Your application is throwing an error, but why?  Go to the tab that is running your server and check the server logs.  You should see something saying `ActionController::RoutingError (uninitialized constant UsersController):` on top of a long stack trace.  Okay, it's looking for a controller, that makes sense... we don't have one.
-2. Create a blank controller to serve our users.  You can manually create the file at `app/controllers/users_controller.rb` (just remember to have it inherit from `ApplicationController`), or you could also create it using one of the Rails generators on the command line (which just plops out a bunch of files).  Try `$ rails generate controller Users`.  If you run the generator, it will also give you a bunch of test and javascript/css files, as well as a folder to store the views in at `app/views/users`.  You can avoid generating the test files (it makes no difference for this) by adding `--no-test-framework` to the end of the generator command. 
+2. Create a blank controller to serve our users.  You can manually create the file at `app/controllers/users_controller.rb` (just remember to have it inherit from `ApplicationController`), or you could also create it using one of the Rails generators on the command line (which just plops out a bunch of files).  Try `$ rails generate controller Users`.  If you run the generator, it will also give you a bunch of test and javascript/css files, as well as a folder to store the views in at `app/views/users`.  You can avoid generating the test files (it makes no difference for this) by adding `--no-test-framework` to the end of the generator command.
 3. Run your script again.  Another error! Back to the server logs and... we see `AbstractController::ActionNotFound (The action 'index' could not be found for UsersController):`.  It sure seems like the request was routed to the controller and, as you'd expect for a `GET` to the `/users` URL, it's looking for the `#index` action but it couldn't find the action. That's because we haven't created the methods yet in our controller.
 4. Create the 4 methods that correspond to GET requests.  Each method should set an instance variable to display the method name:
 
@@ -77,7 +74,7 @@ We'll get more into this in the lesson on forms, but basically Rails will send a
 
 Hopefully this has been a useful adventure into the request cycle of a Rails app and given you a chance to get a bit familiar with basic app creation and setup and routing.  Feel free to send feedback.
 
-## Project: Ruby on Rails Tutorial
+### Project: Ruby on Rails Tutorial
 
 In this chapter of the tutorial you will build out the look and feel of the application using Twitter's Bootstrap CSS framework.  If you're feeling shaky on CSS, check out the [CSS Lesson in the Web Development 101 course](/web-development-101/html-and-css-basics).  
 
@@ -87,10 +84,9 @@ Bootstrap will do a lot of the heavy lifting for you -- instead of having to fig
 
 1. Do the [Rails Tutorial Chapter 5](https://www.railstutorial.org/book/filling_in_the_layout), "Filling in the Layout"
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * [Bootstrap's Current Version Docs](http://getbootstrap.com/)
 * [RestClient Documentation](https://github.com/rest-client/rest-client)

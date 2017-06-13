@@ -1,12 +1,9 @@
-# Project: HTML/CSS
-<!-- *Estimated Time: 4-8 hrs* -->
-
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
 Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [CodePen](http://codepen.io/pen/) or [jsfiddle.net](http://www.jsfiddle.net)).
 
 
-## Try These Before Starting
+### Try These Before Starting
 
 These skills will be helpful for you when you start building.  Either try them yourself or at least make sure you know how to do it:
 
@@ -19,7 +16,7 @@ These skills will be helpful for you when you start building.  Either try them y
 1. Understand how to use classes and ids to target CSS at specific elements on the page
 1. Build a very basic form (even if it doesn't "go" anywhere)
 
-## Setting Up Your Project's Github Repository (optional)
+### Setting Up Your Project's Github Repository (optional)
 
 As mentioned in the [introduction to git](/web-development-101/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
@@ -43,7 +40,7 @@ If you have entered `git push origin master` and typed out your username and pas
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
-## Easy Version: Build the [Google.com](http://www.google.com) homepage
+### Easy Version: Build the [Google.com](http://www.google.com) homepage
 (the simple one with just a search box).
 
 
@@ -59,17 +56,17 @@ Inside your project folder, create your index.html file
   5. In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
   6. Push your project to Github using the instructions above!
 
-## Difficult Version (optional): Build the [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
+### Difficult Version (optional): Build the [Google.com search results page](https://www.google.com/search?q=build+this+webpage)
 
 You should be able to reuse much of your code from before if you started with that project.  Again, don't worry about links to nowhere and forms that won't submit and hard coding the search results (which you'll have to do of course), just focus on placement and order of items on the page.
 
 Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
-## Viewing your project on the web
+### Viewing your project on the web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine.  The good news is that if you have your project on github (as described above) doing this is incredibly simple.  There are a couple of options here, both with their own pros and cons.
 
-### Option 1: github-pages
+#### Option 1: github-pages
 
 Github allows you to publish web projects directly from a github repository.  Doing this will allow you to access your project from `your-gh-username.github.io/your-github-repo-name`
 
@@ -81,7 +78,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - change the __Source__ from _none_ to _master branch_ and click Save.
 - it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from `your-gh-username.github.io/your-github-repo-name` (obviously substituting your own details in the link)
 
-### Option 2: rawgit
+#### Option 2: rawgit
 
 [Rawgit.com](https://rawgit.com) is another option for viewing github projects online.  It is simpler and quicker, but less permanent, likely less reliable than gh-pages, and you don't get the benefit of a nice personalized URL.  That said, for just quickly sending someone a preview of something you aren't ready to officially publish, it works great.
 
@@ -89,11 +86,20 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - paste in the url to the main html file from your github repo (probably `index.html`)
 - copy and use one of the supplied links to share your project.
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-* Add your solution below this line
+* Add your solution below this list
+* [Ivan Marquez's Solution (Easy)](https://github.com/Marq27/google-homepage) | [View in browser](https://marq27.github.io/google-homepage/)
+* [Bn8's Solution (Easy)](https://github.com/Bn8/mock_google) | [View in browser](https://bn8.github.io/mock_google/)
+* [Karam Talwandi's Solution (Easy)](https://github.com/kpstalwa/google-homepage) | [View in browser](https://kpstalwa.github.io/google-homepage/)
+* [Barry White's Solution (Easy)](https://github.com/barry505/google-homepage) | [View in browser](https://barry505.github.io/google-homepage/)
+* [Kinokoma Solution (Difficult)](https://github.com/kinokoma/google_search) | [View in browser](https://kinokoma.github.io/google_search)
+* [Duncan's Solution (Easy)](https://github.com/Ducnan/google-homepage)
+* [henrikemartxa Solution (Easy)](https://github.com/henrikemartxa/google-homepage) | [View in browser](https://henrikemartxa.github.io/google-homepage/)
+* [MGiagante Solution (Easy)](https://github.com/mgiagante/google-homepage) | [View in browser](https://mgiagante.github.com/google-homepage/)
+* [BradleyCollins Solution (Easy)](https://github.com/BradleyCollins/google-homepage) | [View in browser](https://bradleycollins.github.io/google-homepage/)
 * [Endotnick's Solution (Easy)](https://github.com/endotnick/odin-google-homepage) | [View in browser](http://nickrodriguez.tech/odin-google-homepage/)
 * [GuyInALabCoat Solution (Easy)](https://github.com/GuyInALabCoat/google-homepage) | [View in browser](https://guyinalabcoat.github.io/google-homepage/)
 * [Ege Alpay Solution(Easy)](https://github.com/egealpay/google-homepage) | [View in browser](https://egealpay.github.io/google-homepage/)
@@ -1120,8 +1126,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Ayub's Solution (Easy)](https://github.com/yubi12/google-homepage.git) | [View in browser](https://yubi12.github.io/google-homepage/)
 * [Justin Webb's Solution](https://github.com/webbcreative/google-homepage) | [View in browser](https://webbcreative.github.io/google-homepage/)
 * [DMK11's Solution (Difficult)](https://github.com/dmk11/google-search-page) | [View in browser](https://dmk11.github.io/google-search-page/)
+* [Rosita's Solution (Easy)](https://github.com/ejero/google-homepage) | [View in browser](http://rositaemakpo.com/google-homepage/)
+* [zahle's Solution (Easy)](https://github.com/zah/google-homepage) | [View in browser](http://zahlekhan.github.io/)
+* [Tristyn's Solution (Easy)](https://github.com/tristyn-maalouf/google-homepage) | [View in browser](https://tristyn-maalouf.github.io/google-homepage/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

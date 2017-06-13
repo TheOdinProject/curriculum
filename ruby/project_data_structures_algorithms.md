@@ -1,9 +1,6 @@
-# Projects: Basic Data Structures and Algorithms
-<!-- *Estimated Time: 6-10 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project 1: Searching Binary Trees
+### Project 1: Searching Binary Trees
 
 You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".
 
@@ -30,6 +27,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Clayton Sweetens Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/binary_tree)
 * [thisisned's solution](https://github.com/thisisned/binary_search_tree/blob/master/binary_search_tree.rb)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/basic_data_structures_and_algorithms/blob/master/binary_tree.rb)
 * [holdercp's solution](https://github.com/holdercp/searching_binary_trees)
@@ -116,7 +114,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-binary-search-tree)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Data_Structures)
 
-## Project 2: Knight's Travails
+### Project 2: Knight's Travails
 
 Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a real problem.
 
@@ -157,6 +155,8 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Adsy430's Solution](https://github.com/adampal/knight_moves)
+* [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/knights_travails/travail.rb)
 * [thisisned's solution](https://github.com/thisisned/knights_travails/blob/master/knights_travails.rb)
 * [Ovsjah Schweinefresser's solution](https://github.com/Ovsjah/basic_data_structures_and_algorithms/blob/master/knight_moves.rb)
 * [holdercp's solution](https://github.com/holdercp/knights-travails)
@@ -241,7 +241,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

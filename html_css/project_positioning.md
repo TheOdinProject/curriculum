@@ -1,10 +1,8 @@
-# Project: Positioning Elements (with the New York Times)
-
 The New York Times has been a leader in experimenting with the inclusion of multimedia content in traditional stories.  That creates all kinds of interesting position questions.
 
 In this project, your assignment is to copy [this article from the New York Times](http://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0)(open in an "incognito" window without cookies to view it if you're over your monthly limit).  Notice how the section titled "The Theory of Inflation" (you may need to widen your viewing window for it to show up) is laid out.
 
-## Steps to Victory
+### Steps to Victory
 
 *Note: As usual, ignore any ads, comments or interactive elements (which use Javascript) and don't worry about what happens when you change the page width (they use some media queries to rearrange things).  Focus on making it look similar.*
 
@@ -55,8 +53,9 @@ In this project, your assignment is to copy [this article from the New York Time
 * [Austin's solution](https://github.com/CouchofTomato/ny-times-clone)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/ny-article) | [View in browser](https://adoniasdantas.github.io/ny-article/)
 * [Beth Rathbone's solution] (https://github.com/bethrath/ny-times-article) | [View in browser]  (http://htmlpreview.github.io/?https://github.com/bethrath/ny-times-article/blob/master/index.html)
+* [Husein's solution] (https://github.com/hosghf/new-york-times-articl-html-css) | [View in browser]  (https://htmlpreview.github.io/?https://github.com/hosghf/new-york-times-articl-html-css/blob/master/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

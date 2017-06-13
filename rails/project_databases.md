@@ -1,9 +1,6 @@
-# Project: SQL and Databases
-<!-- *Estimated Time: 5-10 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project: SQL Zoo
+### Project: SQL Zoo
 
 SQL Zoo is one of the few resources online that actually lets you build and run queries against existing tables.  Each tutorial will show you a table and then have you run queries against it to answer specific questions.  Some of the queries, particularly at first, are quite simple.  They definitely get more challenging towards the end and can be real head scratchers.
 
@@ -16,6 +13,8 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 *If you've been keeping track of the SQL Zoo solutions, put them here! Some that we found online are provided in the "Additional Resources" section below but are incomplete.  Submit a link to your solutions below by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solutions](https://github.com/mindovermiles262/SQLZoo)
+* [holdercp's solution](https://github.com/holdercp/sql-zoo)
 * [nmac's solution](https://github.com/nmacawile/SQLZOO)
 * [ToTenMilan's](https://github.com/ToTenMilan/the_odin_project/blob/master/rails/sql/sqlzoo.md)
 * [MichaelMagnoli's solution](https://github.com/MichaelMagnoli/Web-Dev-Projects/tree/master/The%20Odin%20Project/Ruby%20on%20Rails/SQL%20Zoo)
@@ -42,10 +41,9 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 * [Tom Westerhout's solution](https://github.com/Westw00d/SQL-Zoo)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * [SQL Zoo solutions](https://djamler.wordpress.com/category/databases/sqlzoo/) for 4-9: "Select within select", "Joins", "More Joins", "Null", "Sum and Count", and "Self Join"
 * A [reddit thread](http://www.reddit.com/r/learnprogramming/comments/1a58sb/looking_for_good_resources_to_learn_sql/) with a variety of references to tutorials and resources begging to be explored!
