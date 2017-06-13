@@ -645,11 +645,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [anistor86's solution](https://github.com/anistor86/sketchpad) | [View in browser](https://anistor86.github.io/sketchpad)
 * [uvieugo's solution](https://github.com/uvieugo/odin-project-Javascript-jQuery) | [View in browser](https://uvieugo.github.io/sketchpad/)
 * [ntnlbar's solution](https://github.com/ntnlbar/sketchpad) | [View in browser](https://ntnlbar.github.io/sketchpad/)
-<<<<<<< HEAD
-* [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
-=======
 * [vanamman's solution](https://github.com/Vanamman/sketchpad) | [View in browser](https://vanamman.github.io/sketchpad/)
 * [Sharon Gao's solution](https://github.com/segao/Etch-A-Sketch) | [View in browser](https://cdn.rawgit.com/segao/Etch-A-Sketch/775ca0ec/index.html)
 * [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) | [View in browser](https://patayto.github.io/sketch-pad/)
 * [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
->>>>>>> f334e5030d42fa383f45e1cea004d65eef869fd0
+* [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
