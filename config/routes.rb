@@ -32,8 +32,8 @@ devise_for :users,
   #failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
 
-  resources :users, only: %i(index edit update)
-  get 'dashboard' => 'users#dashboard', as: :dashboard
+  resources :users, only: [:show]
+  get 'dashboard' => 'users#show', as: :dashboard
 
   # ***** COURSES AND LESSONS ROUTES *****
   # deprecated /courses/curriculum route redirect
@@ -48,9 +48,9 @@ devise_for :users,
       resources :votes, only: [:index, :create]
       delete 'vote', to: 'votes#destroy'
     end
-    
+
     resources :lesson_completions, only: [:create, :destroy], as: 'completions'
-    
+
     get 'recent_submissions', to: 'projects#recent_submissions'
   end
 
