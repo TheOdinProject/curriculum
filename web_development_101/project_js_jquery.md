@@ -651,3 +651,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) | [View in browser](https://patayto.github.io/sketch-pad/)
 * [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
 * [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
+* [Robtak's solution](https://github.com/robtak/Project-Etch-A-Sketch) |[View in browser](https://robtak.github.io/Project-Etch-A-Sketch/)
