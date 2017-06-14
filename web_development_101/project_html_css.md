@@ -1129,6 +1129,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Rosita's Solution (Easy)](https://github.com/ejero/google-homepage) | [View in browser](http://rositaemakpo.com/google-homepage/)
 * [zahle's Solution (Easy)](https://github.com/zah/google-homepage) | [View in browser](http://zahlekhan.github.io/)
 * [Tristyn's Solution (Easy)](https://github.com/tristyn-maalouf/google-homepage) | [View in browser](https://tristyn-maalouf.github.io/google-homepage/)
+*[Nick B's Solution (Easy)](https://github.com/bnerra/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bnerra/google-homepage/blob/master/index.html)
 
 ### Additional Resources
 
