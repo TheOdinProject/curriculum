@@ -497,7 +497,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Bolcik's solution](https://github.com/SeanKohlbrenner/euler_problem_1/blob/master/problem_1.js)
 * [Robtak's solution](https://github.com/robtak/Project-Euler-1) | [View in Browser](https://robtak.github.io/Project-Euler-1/)
 * [Rosita's solution](https://github.com/ejero/projecteuler) | [View in Browser](http://rositaemakpo.com/projecteuler/)
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
