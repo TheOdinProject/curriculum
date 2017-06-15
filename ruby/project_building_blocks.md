@@ -286,6 +286,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [Isashi's solution](https://github.com/Isashi/caesar_cipher/blob/master/Caesar_cipher.rb)
 * [Kevin's solution] (https://github.com/bt2bn/ruby/blob/master/caesar.rb)
 * [Paritosh's solution] (https://github.com/Paritosh97/caesar_cipher_ruby/blob/master/caesar_cipher.rb)
+* [Shelby's solution](https://github.com/Drabants/ruby-on-rail-practice/blob/master/odin_project/ruby/ceasar.rb)
 
 ### Project 2: Stock Picker
 
@@ -542,6 +543,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Swojeet's solution](https://github.com/swojeet/theOdinProject-ruby/blob/master/building_blocks/stock_picker.rb)
 * [Isashi's solution](https://github.com/Isashi/stock_picker/blob/master/stock_picker.rb)
 * [Paritosh's solution](https://github.com/Paritosh97/stock_picker_ruby/blob/master/stock_picker.rb)
+* [Shelby's solution](https://github.com/Drabants/ruby-on-rail-practice/blob/master/odin_project/ruby/stocks.rb)
 
 
 
