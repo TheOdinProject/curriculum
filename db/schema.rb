@@ -152,6 +152,7 @@ ActiveRecord::Schema.define(version: 20170615185649) do
     t.string   "unconfirmed_email"
     t.boolean  "admin",                         default: false, null: false
     t.date     "learning_goal_completion_date"
+    t.string   "avatar"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["legal_agreement"], name: "index_users_on_legal_agreement", using: :btree

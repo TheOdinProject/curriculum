@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
-  after_action :store_redirect_path
   protect_from_forgery
 
   rescue_from ActiveRecord::RecordNotFound, with: :not_found_error
@@ -18,16 +17,9 @@ class ApplicationController < ActionController::Base
     home_path(ref: 'logout')
   end
 
-  def store_redirect_path
-    SmartRedirect.new(request, session).set_redirect_path
-  end
-
   def after_sign_in_path_for(_resource)
-    if current_user.confirmed_at.nil?
-      flash[:warning] = render_to_string partial: 'layouts/confirm_email'
-    end
-
-    after_sign_in_redirect_path
+    set_confirm_email_flash unless current_user.confirmed?
+    dashboard_path
   end
 
   def not_found_error
@@ -35,6 +27,10 @@ class ApplicationController < ActionController::Base
   end
 
   private
+
+  def set_confirm_email_flash
+    flash[:warning] = render_to_string partial: 'layouts/confirm_email'
+  end
 
   def configure_permitted_parameters
     devise_parameter_sanitizer
@@ -47,7 +43,7 @@ class ApplicationController < ActionController::Base
         :current_password,
         :password,
         :password_confirmation,
-        :about,
+        :learning_goal
       )
     end
   end

@@ -103,12 +103,21 @@
     margin-top: 20px;
     padding: 20px 30px;
 
+    .row {
+      @media(max-width: 480px) {
+        flex-direction: column;
+      }
+    }
+
     .success-content {
       flex: 1;
+      @media(max-width: 480px) {
+        text-align: center;
+      }
     }
 
     .student-name {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
 
     .completed-label {

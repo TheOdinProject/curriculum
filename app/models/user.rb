@@ -39,12 +39,18 @@ class User < ApplicationRecord
     ordered_lesson_completions.last
   end
 
+  def image(size = 25)
+    #Could use GravatarUrlBuilder and users_helper
+    self.avatar ? self.avatar : "http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=#{size}"
+  end
+
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
-      user.provider = auth.info.provider
-      user.uid = auth.info.uid
+      user.provider = auth.provider
+      user.uid = auth.uid
       user.email = auth.info.email
       user.username = auth.info.name
+      user.avatar = auth.info.image
       user.skip_confirmation!
     end
   end

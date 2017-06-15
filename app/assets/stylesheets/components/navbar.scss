@@ -49,6 +49,71 @@
       font-size: 1.5em;
       line-height: 78px;
     }
+    .avatar {
+      margin-top: 37.8px;
+      width: 30px;
+      height: 30px;
+      @include border-radius(50%);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .drop-down-link:hover {
+      color: $primary;
+    }
+    .menu-options li {
+      vertical-align: top;
+      font-family: $body-fonts;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.2px;
+    }
+    .menu-options {
+      padding: 8px;
+      @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.2));
+      margin: 15px 0 0 -65px;
+    }
+    //box triangle css
+    .menu-options:after, .menu-options:before {
+      bottom: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+    .menu-options:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: #ffffff;
+      border-width: 10px;
+      margin-left: -10px;
+    }
+    .menu-options:before {
+      border-color: rgba(0, 0, 0, 0);
+      border-bottom-color: #eaeaea;
+      border-width: 12px;
+      margin-left: -12px;
+    }
+    .drop-down-logo {
+      vertical-align: top;
+      display: inline-block;
+      margin: 0 3px;
+      width: 30px;
+      height: 32.5px;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .dashboard-logo {
+      background-image: image-url('icons/icon-dashboard.svg');
+    }
+    .settings-logo {
+      background-image: image-url('icons/icon-settings.svg');
+    }
+    .logout-logo {
+      background-image: image-url('icons/icon-logout.svg');
+    }
   }
 }
 

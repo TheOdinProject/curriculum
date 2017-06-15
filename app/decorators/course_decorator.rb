@@ -1,8 +1,13 @@
 require 'delegate'
 
 class CourseDecorator < SimpleDelegator
+
   def badge
     course_badges.fetch(title, 'odin-logo.svg')
+  end
+
+  def ordered_sections
+    sections.order(position: :asc)
   end
 
   private

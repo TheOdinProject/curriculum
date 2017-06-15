@@ -1,5 +1,5 @@
 #devise-form {
-  
+
   overflow: hidden;
 
   .card {
@@ -9,6 +9,7 @@
     padding: 50px 55px;
     margin: 75px auto 0 auto;
   }
+
   .login {
     width: 100%;
     background-color: $pale-grey-bg;
@@ -21,10 +22,12 @@
     padding-left: 60px;
     margin-bottom: 20px;
     border: none;
-    font-size: 16px;
+    font-size: 1.125em;
     line-height: 1.88;
     letter-spacing: 0.2px;
-    color: $pale-grey;
+    color: $text-primary;
+    @include input-placeholder($grey);
+
     .controls {
       margin-left: -60px;
     }
@@ -37,7 +40,7 @@
     top: 12.15px;
   }
 
-  .input-group .fa-envelope { 
+  .input-group .fa-envelope {
     position: absolute;
     font-size: 25px;
     left: 15px;
@@ -55,7 +58,7 @@
     margin-bottom: 24.3px;
   }
 
-  .logo { 
+  .logo {
     float: left;
     height: 54.3px;
     width: 62px;
@@ -86,10 +89,12 @@
     letter-spacing: 0.2px;
     color: $white;
   }
+
   .sign-in-button {
     background-color: $button-primary;
     text-align: center;
   }
+
   .github-login-button {
     display: inline-block;
     background-color: $text-primary;
@@ -143,7 +148,7 @@
 
   .normal-checkbox {
     display: none;
-    
+
     + .custom-checkbox {
       float: left;
       margin-right: 3px;
@@ -156,6 +161,7 @@
   }
 
   .normal-checkbox:checked {
+
     + .custom-checkbox:after {
       content: '\f00c';
       color: $text-primary;
@@ -168,6 +174,19 @@
       text-align: center;
       font-size: 1.65em;
       font-family: FontAwesome;
+    }
+  }
+
+  .tou-caution {
+    margin: 0 0 24px 0;
+
+    a {
+      color: $grey;
+      font-size: 0.9em;
+
+      &:hover {
+        color: $text-primary;
+      }
     }
   }
 }

@@ -51,8 +51,6 @@ module ApplicationHelper
       {
         question: 'What technologies does The Odin Project teach?',
         answer: <<~FAQ_ANSWER
-          <p>The Odin Project assumes you’re new to web development, so we start out by going over what exactly a web developer does in our <a href="courses/introduction-to-web-development">Introduction to Web Development</a> course.</p>
-          <br />
           <p>The <a href="courses/web-development-101">Web Development 101 course</a> will give you a chance to explore several of the languages and technologies you’ll need to know on your journey to becoming a web developer.  Web Development 101 introduces HTML, CSS, Javascript, Ruby, Rails, Git, databases and more. We’ve also created mini-projects that give you a chance to test your new knowledge by building your own applications and websites!</p>
           <br />
           <p>The Odin Project takes a back-to-front approach to learning Ruby on Rails.  We start with a <a href="courses/ruby-programming">strong foundation in Ruby</a> and an understanding of databases before migrating into <a href="courses/ruby-on-rails">Ruby on Rails</a> (which is a framework built using Ruby).</p>
@@ -99,21 +97,7 @@ module ApplicationHelper
       {
         question: 'Is The Odin Project free?',
         answer:
-          '<p>Yes! The Odin Project is an open-source project created and maintained by hard working volunteers. If you want to help please <a href="/contact">reach out</a>.</p>'
-      },
-      {
-        question: 'When do I pay?',
-        answer: <<~FAQ_ANSWER
-        <p>You don't! The Odin Project is open-source and completely free.</p>
-        <br />
-        <p>If you insist on compensation, you can donate your time to help those just starting The Odin Project or create a new feature for the site.</p>
-      FAQ_ANSWER
-      },
-      {
-        question: "How will The Odin Project become sustainable?",
-        answer: <<~FAQ_ANSWER
-        <p>The Odin Project's business model is educating students.  Core content will always be free, but we'd also like to give students who want more structure and/or help on their journeys access to those services, which would be at a premium. If you want to help please <a href="/contact">reach out</a>.</p>
-        FAQ_ANSWER
+          '<p>Yes! The Odin Project is an open-source project created and maintained by hard working volunteers. To find out how you can help us, please visit our how to <a href="/contributing">contribute page</a>.</p>'
       },
       {
         question: 'Can I use this curriculum to teach?',
@@ -126,7 +110,7 @@ module ApplicationHelper
       {
         question: 'How can I get in touch?',
         answer: <<~FAQ_ANSWER
-        <p>If you have questions about The Odin Project itself, check out our <a href="/contact">Contact Page</a>.  There is also a friendly Odin community in our <a href="https://gitter.im/TheOdinProject/theodinproject">Gitter chat rooms</a></p>
+        <p>If you have questions about The Odin Project itself, feel free to <a href="mailto:contact@theodinproject.com">contact us</a>.  There is also a friendly Odin community in our <a href="https://gitter.im/TheOdinProject/theodinproject">Gitter chat rooms</a></p>
         FAQ_ANSWER
       }
     ]
@@ -147,7 +131,7 @@ module ApplicationHelper
       {
         image: 'img-connect.svg',
         subtitle: 'Connect',
-        description: 'You’re not alone. Learn together by pairing up on projects with other students.'
+        description: 'You’re not alone. Learn and get help from our friendly community of beginner and experienced developers.'
       }
     ]
   end

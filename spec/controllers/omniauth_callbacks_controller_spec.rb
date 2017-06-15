@@ -35,7 +35,7 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
   describe 'GET #github' do
     it 'redirects the user to some page' do
       get :github
-      expect(response).to redirect_to(courses_path(ref: 'login'))
+      expect(response).to redirect_to(dashboard_path)
     end
 
     it 'displays the success flash' do
@@ -53,7 +53,7 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
 
       it 'redirects to the courses path' do
         get :github
-        expect(response).to redirect_to(courses_path(ref: 'login'))
+        expect(response).to redirect_to(dashboard_path)
       end
     end
 
