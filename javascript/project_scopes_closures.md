@@ -1,8 +1,8 @@
-# Project: Tic Tac Toe in Javascript
+### Project: Tic Tac Toe in Javascript
 
 If you went through the [Ruby course](/ruby-programming), you had a chance to build Tic Tac Toe to test your OOP skills.  If you did, you'll have a leg up because you'll be building those project now for the browser.
 
-## Tic Tac Toe
+### Tic Tac Toe
 
 Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you haven't.  It involves a couple of players, a simple board, checking for victory at each turn... Let's build it!
 
@@ -21,7 +21,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 3. Push your solution to Github and post the link to it below.
 
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
@@ -51,7 +51,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [Daunenok's solution](https://github.com/daunenok/tic-tac-toe) | [View in browser](https://daunenok.github.io/tic-tac-toe/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/tic-tac-toe) | [View in browser](https://sophialwu.github.io/tic-tac-toe/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

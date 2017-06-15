@@ -1,7 +1,3 @@
-# Project: Javascript/jQuery
-
-<!-- *Estimated Time: 2-4 hrs* -->
-
 In this project, you'll get a chance to actually build a pretty nifty tool to flex your Javascript and jQuery muscles.  Up until now, you've had your hand held quite a bit by Codecademy.  Now it's time to do it on your own.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 This should NOT be trivially easy for you.  You'll probably have to Google frequently to get the right jQuery methods or CSS to use.  In fact, that's the point!  You CAN build this, and the resources are out there.  We'll walk through the basic steps but it'll be up to you to find out how to actually implement them.  For instance, where does a `hover` effect come from?
@@ -34,11 +30,14 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
 5. Push your project to Github
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Karam Talwandi's solution](https://github.com/kpstalwa/etch-a-sketch) | [View in browser](https://kpstalwa.github.io/etch-a-sketch/)
+* [Leah Xia's solution](https://github.com/LeahXia/grids.git) | [View in browser](http://leahxia.com/internal-links/grids/index.html)
+* [Willie van Tonder solution](https://github.com/willievantonder/gridGame) | [View in browser](https://willievantonder.github.io/gridGame/)
 * [MGiagante solution](https://github.com/mgiagante/etch-a-sketch) | [View in browser](https://mgiagante.github.com/etch-a-sketch/)
 * [Abdul's solution](https://github.com/MetriclyFrench/The-Pad) | [View in browser](https://metriclyfrench.github.io/The-Pad/)
 * [Ayub's solution](https://github.com/yubi12/etch-a-sketch) | [View in browser](https://yubi12.github.io/etch-a-sketch/)
@@ -648,3 +647,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [uvieugo's solution](https://github.com/uvieugo/odin-project-Javascript-jQuery) | [View in browser](https://uvieugo.github.io/sketchpad/)
 * [ntnlbar's solution](https://github.com/ntnlbar/sketchpad) | [View in browser](https://ntnlbar.github.io/sketchpad/)
 * [vanamman's solution](https://github.com/Vanamman/sketchpad) | [View in browser](https://vanamman.github.io/sketchpad/)
+* [Sharon Gao's solution](https://github.com/segao/Etch-A-Sketch) | [View in browser](https://cdn.rawgit.com/segao/Etch-A-Sketch/775ca0ec/index.html)
+* [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) | [View in browser](https://patayto.github.io/sketch-pad/)
+* [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
+* [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
+* [Robtak's solution](https://github.com/robtak/Project-Etch-A-Sketch) |[View in browser](https://robtak.github.io/Project-Etch-A-Sketch/)

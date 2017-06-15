@@ -1,5 +1,3 @@
-# Projects: Sinatra
-
 *Don't forget to use Git to save your projects!*
 
 You've seen how simple it can be to get something up and running using Sinatra, in these projects you will use the Caesar Cipher and either the Hangman or Mastermind games you built in the Ruby course to make a couple of web apps.
@@ -11,7 +9,7 @@ Deploying a Sinatra app to Heroku takes a little bit of work but the process is 
 2. if you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
 3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku.
 
-## Project 1: Caesar Cipher _reloaded_
+### Project 1: Caesar Cipher _reloaded_
 
 Revisit the caesar cipher ruby script that you created during [Ruby Building Blocks](http://www.theodinproject.com/ruby-programming/building-blocks) and use Sinatra to create a simple front-end for it.
 
@@ -21,7 +19,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 2. You should be able to do this with only one view, and a couple of routes, but feel free to be as fancy as you like.
 3. [Deploy to Heroku!](https://devcenter.heroku.com/articles/rack#sinatra)
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
@@ -65,7 +63,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 * Samuel Langenfeld's solution [github](https://github.com/SamuelLangenfeld/sinatra_caesar_cipher) / [see it on the web](http://langenfeld-caesar-cipher.herokuapp.com/)
 * Kyle Thomson's solution [github](https://github.com/idynkydnk/caesar_cipher) / [see it on the web](https://caesar-cipher-kyle.herokuapp.com)
 
-## Project 2: Another Web-Game
+### Project 2: Another Web-Game
 
 Pick either Mastermind or Hangman and build a front end for it.  This one might take a little more work, but it should be well within your grasp at this point.  Have fun!
 
@@ -76,7 +74,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 3. Have fun!  Don't forget to make all of your friends play your game!
 4. _Extra Credit_ The free Heroku account only allows a limited number of projects, unless you add a credit card to your account (they wont charge you, its just for identity confirmation). If you _do_ add your information, you can have unlimited projects, but they still limit how many of them can be "awake" at one time. You might consider using sinatra to make yourself a simple web-portfolio so that you can store all of these apps in one project.
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 

@@ -1,8 +1,6 @@
-# What's New in HTML5
-
 HTML5 brought in a lot of nice new features, many geared specifically towards giving webpages the ability to display media and interactive features more easily.  The downside is that there are still browser compatibility issues with some of that functionality, but that will get sorted over time.  Another set of new features is the use of more semantic tags in your markup so you don't need to put a `div` around everything (you can use the `aside` or `footer` etc).
 
-## Points to Ponder
+### Points to Ponder
 
 * What are semantic tags and how are there more of them in HTML5?
 * What does the canvas element do for you?
@@ -16,12 +14,12 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 * Are there any performance trade-offs with the new features?
 * How does HTML5 fix the problem of needing Flash installed to play movies on many devices?
 
-## Your Assignment
+### Your Assignment
 
 1. Check out [Dive into HTML5](http://diveintohtml5.info), which is a website and book on the cool stuff about HTML5.
 2. Look over [What's new in HTML5 from About](http://webdesign.about.com/od/html5/a/html_5_whats_new.htm)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

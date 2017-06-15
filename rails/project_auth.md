@@ -1,11 +1,8 @@
-# Projects: Authentication
-
-
 *Don't forget to use Git to save your projects!*
 
-In these projects, you'll be working to implement authentication systems so users can only access areas of a site they are authorized to. 
+In these projects, you'll be working to implement authentication systems so users can only access areas of a site they are authorized to.
 
-## Project 1: Ruby on Rails Tutorial
+### Project 1: Ruby on Rails Tutorial
 
 We're starting to get into the meaty stuff with the tutorial.  Take your time and pay attention to which file (especially for the specs) you're supposed to be writing in.  A common and frustrating mistake is to put your `describe` block in the wrong place.
 
@@ -20,7 +17,7 @@ You'll implement signin and signout functionality for the user, which opens the 
 5. Do the [Ruby on Rails Tutorial Chapter 12](https://www.railstutorial.org/book/password_reset), "Password Reset"
 
 
-## Project 2: Members Only!
+### Project 2: Members Only!
 
 In this project, you'll be building an exclusive clubhouse where your members can write embarrassing posts about non-members.  Inside the clubhouse, members can see who the author of a post is but, outside, they can only see the story and wonder who wrote it.
 
@@ -45,7 +42,7 @@ If you'd like to challenge yourself, don't even follow the steps below, just go 
 5. Add the `#has_secure_password` method to your User file.
 6. Go into your Rails console and create a sample user to make sure it works properly. It probably looks something like: `User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")`
 7. Test the `#authenticate` command which is now available on your User model (thanks to `#has_secure_password`) on the command line -- does it return the user if you give it the correct password?
-    
+
     ```bash
         > user = User.create(:name => "foobar", :email => "foo@bar.com", :password => "foobar", :password_confirmation => "foobar")
         > user.authenticate("somethingelse")
@@ -62,7 +59,7 @@ Now let's make sure our users can sign in.
 2. Fill in the `#new` action to create a blank session and send it to the view.
 2. Build a simple form with `#form_for` to sign in the user at `app/views/sessions/new.html.erb`.  Verify that you can see the form.
 4. We want to remember that our user is signed in, so you'll need to create a new string column for your User table called something like `:remember_token` which will store that user's special token.
-5. When you create a new user, you'll want to give that user a brand new token.  Use a `#before_create` callback on your User model to: 
+5. When you create a new user, you'll want to give that user a brand new token.  Use a `#before_create` callback on your User model to:
 
     1. Create a remember token (use `SecureRandom.urlsafe_base64` to generate a random string)
     2. Encrypt that token (with the `Digest::SHA1.hexdigest` method on the stringified (`#to_s`) version of your token)
@@ -77,7 +74,7 @@ Now let's make sure our users can sign in.
 8. Build sign out functionality in your `SessionsController#delete` action which removes the current user and deletes the remember token from the cookie.  It's best if you make a call to a method (e.g. `#sign_out`) in your ApplicationController instead of just writing all the functionality inside the SessionsController.
 9. Create a link for signing out which calls the `#delete` method of your session controller.  You'll need to spoof the DELETE HTTP method, but that's easily done by passing `#link_to` the option `:method => :delete`.
 
-#### Authentication and Posts
+**Authentication and Posts**
 
 Let's build those secrets!  We'll need to make sure only signed in users can see the author of each post.  We're not going to worry about editing or deleting posts.
 
@@ -98,6 +95,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [jfonz's solution](https://github.com/jfonz412/members-only)|[View in browser](https://glacial-basin-26789.herokuapp.com/posts)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/members-only)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Members_only)|[View in browser](https://owmembersonly.herokuapp.com/)
 * [Ayushka's solution](https://github.com/ayushkamadji/members-only)|[View in browser](https://salty-river-87868.herokuapp.com/)
@@ -107,7 +105,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Austin's Solution](https://github.com/CouchofTomato/members_only/tree/master/members-only)
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/members_only)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/members-only) | [walkthrough](http://jberczel.github.io/members-only-walkthrough/)
-* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication) 
+* [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project3_Authentication)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/members-only)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/membersOnly/members-only)
 * [Jonathan's solution](https://github.com/faulk49/members-only)
@@ -160,11 +158,6 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) | [View in browser](https://langenfeld-members-only.herokuapp.com/)
 
 
-
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-
-*

@@ -1,8 +1,5 @@
-# A Deeper Look At Git
-<!-- *Estimated Time: 3-4 hours*-->
-
 Hopefully you've been using the basic Git commands to create repositories and push your code up to Github.  If not, you've got a bit of catching up to do but don't worry.
- 
+
 In any case, Git is a crucial skill to have whether you're a professional web developer or just a hobbyist who needs to back up your code base.  It's the "save" button on steroids and it allows giant teams of developers to collaborate.  There really aren't all that many commands for you to learn either, but sometimes the real difficulty of it comes from visualizing in your head what it's actually doing.
 
 In this lesson, we'll dive deeper than just the `$ git add .` and `$ git commit` and `$ git push` commands you've mostly been using.  Maybe you've had the dubious pleasure of getting a merge conflict when you tried to pull or push changes.  Maybe you're just curious how multiple developers can work on a single code base at the same time.  Either way, this section should help you take the first steps towards expanding your Git toolkit and understanding what's actually going on under the hood with Git.
@@ -12,7 +9,7 @@ It's important to take a look at this stuff before getting any deeper into thing
 We'll begin by reading some things that are probably review from [Web Development 101](/web-development-101/git-basics) but, if you're like most people, you could benefit from a refresher. We'll then dive deeper into topics that are relevant so you can use git for a more effective workflow, whether you're just working on your own project or trying to bring in collaborators as well.
 
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -22,7 +19,7 @@ We'll begin by reading some things that are probably review from [Web Developmen
 * What are two different uses for `$ git checkout`?
 * How do you undo a recent commit?
 * What are branches?
-* How do you create a new branch to work on? 
+* How do you create a new branch to work on?
 * How do you push that (non-master) branch up to Github?
 * How do you merge the changes from your new branch into the master branch again?
 * Why is working with feature branches useful?
@@ -30,7 +27,7 @@ We'll begin by reading some things that are probably review from [Web Developmen
 * What is the difference between a "remote" and your local repo?
 * How do you add your Github repo as the remote?
 
-## Assignment
+### Assignment
 
 **Note:** *Subversion* (SVN) was the widely used version control system prior to Git (and is still widely used in larger corporations) and that's why many of the readings below will reference it.  Just read the very top two sections of [this chapter from git-scm](http://git-scm.com/book/en/Git-and-Other-Systems-Git-and-Subversion) if you'd like a slightly better explanation.
 
@@ -43,7 +40,7 @@ We'll begin by reading some things that are probably review from [Web Developmen
 7. Layer onto your knowledge a bit deeper by reading [Pro Git chapters 2 and 3](http://git-scm.com/book).
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

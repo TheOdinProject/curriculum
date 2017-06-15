@@ -1,9 +1,6 @@
-# Projects: Basic Data Structures and Algorithms
-<!-- *Estimated Time: 6-10 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project 1: Searching Binary Trees
+### Project 1: Searching Binary Trees
 
 You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".
 
@@ -117,7 +114,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-binary-search-tree)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Data_Structures)
 
-## Project 2: Knight's Travails
+### Project 2: Knight's Travails
 
 Now you're a pro with DFS and BFS.  Let's try using our search algorithms on a real problem.
 
@@ -244,7 +241,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

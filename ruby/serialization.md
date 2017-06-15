@@ -1,6 +1,3 @@
-# Working with Files and Serializing Data
-<!-- *Estimated time: 2-4 hrs* -->
-
 Until now you've mostly been working with self-contained command line programs.  It's time to start branching out and interacting with files.  Files are basically just collections of bits and bytes that you'll somehow need to open, read into your program, modify, and save.  Even though many files (like images) look like a giant jumble of data when you open them up in a text editor, it can be helpful to think of all files as one really long string, or stream, of bytes.  Your script will read them in from top to bottom, performing whatever operations you specify along the way.
 
 Lucky for you, Ruby makes your life pretty easy with regards to dealing with files.  It has the tools necessary to read those long streams of bytes into your program and then allow you to work with them using the objects you're familiar with.  As long as you remember that the files are just a long stream of words/characters/bytes being read in from top to bottom, it should be fairly intuitive.  If you want to do more detailed stuff like write to a specific point in a file, you'll need to figure out what position you're at first, since you may be in the middle of it somewhere.
@@ -11,7 +8,7 @@ Luckily, Ruby again makes things pretty easy for you. There are some generally a
 
 Finally, files and serialization overlaps in a lot of ways with the idea and purpose of databases -- they facilitate the ability to maintain state and permanence for your data.  We'll briefly look into some basic database connections that Ruby provides as well.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -23,7 +20,7 @@ Finally, files and serialization overlaps in a lot of ways with the idea and pur
 * How do you turn a Ruby object into JSON?
 * How do you turn JSON into a Ruby object?
 
-## Your Assignment
+### Your Assignment
 
 1. Read [Thoughtbot's I/O in Ruby](https://robots.thoughtbot.com/io-in-ruby). You can ignore both the 'Putting it all together' and the 'Working with disparate APIs' sections.
 2. Watch [icc0612's introduction to serialzation](https://www.youtube.com/watch?v=uS37TujnLRw). It will explain the concept of serialization before you implement it in Ruby.
@@ -33,7 +30,7 @@ Finally, files and serialization overlaps in a lot of ways with the idea and pur
 6. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 9: `Files and Databases`.  Much of the databases stuff will be review from the Web Development 101 course and at first you won't often use the connection methods yourself (often an ORM like ActiveRecord for Rails will have that code already written for you), so feel free to skim over it but do try to see what Ruby is capable of.
 7. Read the [Chapter on File I/O](http://ruby.bastardsbook.com/chapters/io/) of the Bastard's Book of Ruby.  Much of it will go quickly for you given what you've already read, but there are some new nuggets in there.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

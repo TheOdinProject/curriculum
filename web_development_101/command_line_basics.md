@@ -1,5 +1,4 @@
-# Command Line Basics
-## The Command Line isn't as Scary as you Think 
+### The Command Line isn't as Scary as you Think 
 
 Raise your hand if you're scared of the command line.  Yes, we have this image of developers staring at a black screen with white or green text flashing across while they wildly enter incomprehensible commands and hack into the corporate mainframe (spilling soda and wiping cheetos off their keyboard no doubt as well).
 
@@ -7,11 +6,11 @@ That black screen (or window) is the command line, where you're able to enter co
 
 In this introductory lesson to the command line, you will learn how to navigate around your computer and how to manipulate files and directories(also known as folders) all from the comfort of the command line. As you will soon see this is not as difficult as you may think. The commands you will learn in this lesson are very intuitive so don't let the the prospect of using the command line for the first time intimidate you.
 
-##Why learn this now?
+### Why learn this now?
 
 You will be making heavy use of the command line throughout this curriculum, the installations project which is at the end of this section will require you to install a lot of different kinds of software through the command line and you will be using GIT(more on this later) primarily with the command line. Bigger picture, you will be using the command line on a daily basis in your career as a software developer. It will be an indispensable skill in your toolset.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -29,7 +28,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 * How can you rename a directory or file?
 
 
-## Assignment:
+### Assignment:
 
 *Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/), which has a terminal window you can practice with.*
 
@@ -38,7 +37,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 3. (Optional) If you'd still like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/en/courses/learn-the-command-line) to get practice navigating and manipulating directories and files.
 
 
-## Exercise:
+### Exercise:
 In this exercise you will practice creating files and directories and deleting them.
 
 1. Create a new directory in your home directory with the name `test`
@@ -50,7 +49,7 @@ In this exercise you will practice creating files and directories and deleting t
 That's it, you're done with command line basics.  This stuff will become second nature to you if you will commit to doing most things from the command line from here on.  Things such as moving and copying files are done much more efficiently through the command line once you've got the command engrained... even if it feels like more of a hassle at this point.
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
