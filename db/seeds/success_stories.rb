@@ -16,7 +16,7 @@ def success_stories
     },
     {
       student_name: 'William Kennedy',
-      avatar_path_name: 'william_kennedy.JPG',
+      avatar_path_name: 'william_kennedy.jpg',
       story_content: 'The Odin Project changed my life and that is not understatement. In November 2013, I made a commitment to myself to become a self-taught developer so I threw myself head first into Google trying to learn everything I could. Originally, I wanted to be a Java Web Developer then a week later I wanted to be an Android developer. I was reading blog post after blog post, and pretty soon I started to get overwhelmed. I had no structure and no plan of attack about how to get a development job. I was desperate to change career and then suddenly I stumbled across The Odin Project, and it had exactly what I needed. An exact path to take to become a Software Developer. It was like taking a college course except it was free and in my own time. I started going through the course, and by June 2015 I got my first development job. Exactly 14 months after I started The Odin Project. I never had to quit my job, and I always had something to look forward to in the evening.',
       job_title: 'Software Engineer',
       social_media_link: 'https://www.new2code.com/about'
