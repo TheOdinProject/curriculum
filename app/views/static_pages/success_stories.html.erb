@@ -5,28 +5,19 @@
         <h1 class="text-center">Success Stories</h1>
       </div>
 
-      <%
-        success_stories = [
-          { student_name: 'Ben Gray', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'The best free learning resource for code learners. Highly recommend it! Great community as well on Gitter.', completed_course: 'Ruby on Rails Course', job: 'CTO' },
-          { student_name: 'Michael Weins', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Fantastic learning experience with The Odin Project! Upon completion, I was offered a job at several startups.', completed_course: 'Javascript Course', job: 'Jr. Software Developer' },
-          { student_name: 'Kris Tobiki', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Incredible experience throughout the curriculum. I’ve met many new developer friends and collaborated together.', completed_course: 'Full Stack Track', job: 'Entrepreneur' },
-          { student_name: 'Laura Smith', student_avatar_url: 'http://mhalabs.org/wp-content/uploads/upme/1451456913_brodie.jpg', story_content: 'Love the courses offered and the self-paced learning. I absolutely love the personal dashboard to track progress.', completed_course: 'Front-End Track', job: 'Odinson' }
-        ]
-      %>
-
       <div class="row">
         <div class="col-lg-10 offset-lg-1">
-          <% success_stories.each do |story| %>
+          <% @success_stories.each do |story| %>
             <div class="card-main card-success-stories">
               <div class="row">
-                <div class="col-xs-12 photo"><%= image_tag story[:student_avatar_url], class: "img-fluid" %>
+                <div class="col-xs-12 photo"><%= image_tag "success_stories/#{story.avatar_path_name}", class: "img-fluid" %>
                 </div>
                 <div class="col-xs-12 success-content">
                   <p class="student-name">
-                    <span class="bold"><%= story[:student_name] %>,</span>
-                    <span class="grey"><%= story[:job] %></span>
+                    <span class="bold"><%= link_to story.student_name, story.social_media_link %>,</span>
+                    <span class="grey"><%= story.job_title %></span>
                   </p>
-                  <p class="grey"><%= story[:story_content] %></p>
+                  <p class="grey"><%= story.story_content %></p>
                 </div>
               </div>
             </div>

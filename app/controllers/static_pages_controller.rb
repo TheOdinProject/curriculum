@@ -23,7 +23,9 @@ class StaticPagesController < ApplicationController
 
   def style_guide; end
 
-  def success_stories; end
+  def success_stories
+    @success_stories = SuccessStory.all
+  end
 
   def suggestion
     if suggestion_body_not_empty?

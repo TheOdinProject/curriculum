@@ -1,6 +1,10 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 
+
+# GENERATE SUCCESS STORY Content
+load './db/seeds/success_stories.rb'
+
 # ******* NOTE ********
 # You will have problems if you try to change the titles of courses/sections/lessons, since that's currently what's used to uniquely identify them!
 # *********************
