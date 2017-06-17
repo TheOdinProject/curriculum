@@ -4,6 +4,7 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
 
   def github
     @user = User.from_omniauth(auth)
+    update_users_avatar if avatar_needs_updated?
 
     if @user.persisted?
       sign_in_and_redirect @user, :event => :authentication
@@ -23,6 +24,18 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
 
   private
+
+  def update_users_avatar
+    @user.update_avatar(github_avatar)
+  end
+
+  def avatar_needs_updated?
+    github_avatar != @user.avatar
+  end
+
+  def github_avatar
+    @github_avatar ||= auth.info.image
+  end
 
   def auth
     request.env['omniauth.auth']

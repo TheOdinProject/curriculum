@@ -8,10 +8,12 @@ RSpec.describe User do
       legal_agreement: 'true',
       password: 'foobar',
       provider: provider,
-      uid: ''
+      uid: '',
+      avatar: avatar
     )
   }
   let(:provider) { '' }
+  let(:avatar) { 'http://github.com/fake-avatar' }
 
   let(:lesson_completions) {
     [first_lesson_completion, second_lesson_completion]
@@ -108,6 +110,21 @@ RSpec.describe User do
     end
   end
 
+  describe '#image' do
+    it 'returns the users avatar' do
+      expect(user.image).to eql('http://github.com/fake-avatar')
+    end
+
+    context 'when the user does not have an avatar' do
+      let(:avatar) { nil }
+      let(:gravatar) { 'http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=25' }
+
+      it 'returns the users avatar' do
+        expect(user.image).to eql(gravatar)
+      end
+    end
+  end
+
   describe '.from_omniauth' do
     let(:user) {
       FactoryGirl.create(
@@ -141,7 +158,8 @@ RSpec.describe User do
       double(
         'OmniAuth::AuthHash::InfoHash',
         name: 'kevin',
-        email: 'kevin@example.com'
+        email: 'kevin@example.com',
+        image: 'http://github.com/fake-avatar'
       )
     }
 
@@ -157,6 +175,16 @@ RSpec.describe User do
 
     it 'returns the user' do
       expect(User.from_omniauth(auth)).to eql(user)
+    end
+  end
+
+  describe '#update_avatar' do
+    let(:github_avatar) { 'http://github.com/fake-avatar' }
+    let(:avatar) { nil }
+
+    it 'updates the users avatar' do
+      user.update_avatar(github_avatar)
+      expect(user.avatar).to eql('http://github.com/fake-avatar')
     end
   end
 

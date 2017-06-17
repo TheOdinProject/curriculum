@@ -40,8 +40,7 @@ class User < ApplicationRecord
   end
 
   def image(size = 25)
-    #Could use GravatarUrlBuilder and users_helper
-    self.avatar ? self.avatar : "http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=#{size}"
+    avatar || default_image(size)
   end
 
   def self.from_omniauth(auth)
@@ -53,6 +52,10 @@ class User < ApplicationRecord
       user.avatar = auth.info.image
       user.skip_confirmation!
     end
+  end
+
+  def update_avatar(github_avatar)
+    self.update!(avatar: github_avatar)
   end
 
   def add_omniauth(auth)
@@ -73,6 +76,10 @@ class User < ApplicationRecord
   end
 
   private
+
+  def default_image(size)
+    "http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=#{size}"
+  end
 
   def ordered_lesson_completions
     lesson_completions.order(created_at: :asc)

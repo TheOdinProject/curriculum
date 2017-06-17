@@ -81,7 +81,8 @@ Before('@omniauth_test') do
     uid: '123545',
     info: {
       name: 'kevin',
-      email: 'kevin@example.com'
+      email: 'kevin@example.com',
+      image: 'http://github.com/fake-avatar'
     }
   )
 
