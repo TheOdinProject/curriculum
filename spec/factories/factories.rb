@@ -10,6 +10,7 @@ FactoryGirl.define do
     password 'foobar'
     legal_agreement true
     confirmed_at Time.now - 5_000_000
+    avatar 'http://github.com/fake-avatar'
 
     factory :admin do
       admin true

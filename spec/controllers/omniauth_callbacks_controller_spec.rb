@@ -33,7 +33,7 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
   end
 
   describe 'GET #github' do
-    it 'redirects the user to some page' do
+    it 'redirects the user to the dashboard page' do
       get :github
       expect(response).to redirect_to(dashboard_path)
     end
@@ -54,6 +54,22 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
       it 'redirects to the courses path' do
         get :github
         expect(response).to redirect_to(dashboard_path)
+      end
+
+      context 'and its a legacy user' do
+        let(:user) {
+          FactoryGirl.create(
+            :user,
+            username: 'John',
+            email: 'john@example.com',
+            avatar: nil
+          )
+        }
+
+        it 'sets the users avatar' do
+          expect(user).to receive(:update_avatar).with('http://github.com/fake-avatar')
+          get :github
+        end
       end
     end
 
