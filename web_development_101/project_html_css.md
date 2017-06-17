@@ -1134,6 +1134,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Uche's Solution (Easy)](https://github.com/uonyekwuluje/google-homepage) | [View in browser](https://uonyekwuluje.github.io/google-homepage/)
 * [Brandon Bost's Solution (Easy)](https://github.com/bmbost/google-homepage) | [View in browser](https://bmbost.github.io/google-homepage/)
 * [Sheldon K's Solution (Easy)](https://github.com/Leviax7/google-homepage) | [View in browser](https://leviax7.github.io/google-homepage/)
+* [Anton Smid's Solution (Easy)](https://github.com/AntonSmid/google-homepage) | [View in browser](https://antonsmid.github.io/google-homepage/index.html)
 
 ### Additional Resources
 
