@@ -1130,9 +1130,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Rosita's Solution (Easy)](https://github.com/ejero/google-homepage) | [View in browser](http://rositaemakpo.com/google-homepage/)
 * [zahle's Solution (Easy)](https://github.com/zah/google-homepage) | [View in browser](http://zahlekhan.github.io/)
 * [Tristyn's Solution (Easy)](https://github.com/tristyn-maalouf/google-homepage) | [View in browser](https://tristyn-maalouf.github.io/google-homepage/)
-*[Nick B's Solution (Easy)](https://github.com/bnerra/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bnerra/google-homepage/blob/master/index.html)
+* [Nick B's Solution (Easy)](https://github.com/bnerra/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bnerra/google-homepage/blob/master/index.html)
 * [Uche's Solution (Easy)](https://github.com/uonyekwuluje/google-homepage) | [View in browser](https://uonyekwuluje.github.io/google-homepage/)
 * [Brandon Bost's Solution (Easy)](https://github.com/bmbost/google-homepage) | [View in browser](https://bmbost.github.io/google-homepage/)
+* [Sheldon K's Solution (Easy)](https://github.com/Leviax7/google-homepage) | [View in browser](https://leviax7.github.io/google-homepage/)
 
 ### Additional Resources
 
