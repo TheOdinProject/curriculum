@@ -2,14 +2,14 @@ def success_stories
   [
     {
       student_name: 'Rob Pando',
-      avatar_path_name: 'rob_pando.jpeg',
+      avatar_path_name: 'rob_pando.jpg',
       story_content: 'TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing me to figure it out on my own, by pointing me in all the right directions in order to complete them. That helped me dig deeper into various important topics, which then gave me the necessary knowledge and confidence to start applying for jobs and landing that dream job. The community was part of it too, first getting help and then helping, it was a great way to learn and make it stick.',
       job_title: 'Fullstack Developer',
       social_media_link: 'https://github.com/RobPando'
      },
     {
       student_name: 'Cody Loyd',
-      avatar_path_name: 'cody_loyd.jpeg',
+      avatar_path_name: 'cody_loyd.jpg',
       story_content: 'Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front end web developer. Odin taught me all the most crucial skills in webdev and gave me an incredibly strong foundation for branching out and learning other pieces of the web-dev puzzle along the way.',
       job_title: 'Software Engineer',
       social_media_link: 'http://codyloyd.com/'
@@ -23,7 +23,7 @@ def success_stories
     },
     {
       student_name: 'Andrej Dragojević',
-      avatar_path_name: 'andrej_dragojevic.jpeg',
+      avatar_path_name: 'andrej_dragojevic.jpg',
       story_content: 'An incredible self-paced curriculum that consists of the best resources for learning programming on the web! It was an invaluable resource on my path to a becoming a software developer. Thanks to The Odin Project I was able to get a job half way through the curriculum, and the projects completed as part of the curriculum gave me an edge compared to other junior developers with no experience.',
       job_title: 'Full Stack Ruby on Rails Developer',
       social_media_link: 'https://www.linkedin.com/in/andrej-dragojevic-735a51b7/'
