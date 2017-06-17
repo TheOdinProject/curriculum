@@ -21,6 +21,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/rest-client)
 * [mindovermiles262's solution](https://github.com/mindovermiles262/rest-client)
 * [holdercp's solution](https://github.com/holdercp/rest-client)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/rest)
@@ -140,3 +141,5 @@ If you're already scratching your head, don't worry (like I said, better explana
 * [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
 * [Code School's RSpec Introduction Course](https://www.codeschool.com/courses/testing-with-rspec)
 * [Rails Conf 2013 BDD and Acceptance Testing with RSpec & Capybara](https://www.youtube.com/watch?v=BG_DDUD4M9E) This video gives you a nice angle on BDD & TDD in Rails that you won't get from the primary sources.
+* [RailsConf 2015 - Understanding Rails test types in RSpec](https://www.youtube.com/watch?v=SOi_1reKn8M) 30-minute RSpec presentation by Sam Phippen. Contains a few prewritten methods, but most of it is live coding with RSpec with explanations, which can be very helpful.
+* [Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy](https://www.youtube.com/watch?v=KjENZNjRCWM) In this video you can see how to refactor your Rails specs to make them more descriptive and thorough. It also presents some very helpful ideas and "tricks". The best thing is the specs Adam Cuppy uses as examples are not really complicated and you can easily build up on the basics you already know.

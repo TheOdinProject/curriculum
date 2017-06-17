@@ -36,6 +36,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 * Add your solution below this line!
 * [Bn8's solution](https://github.com/Bn8/etch_n_sketch) | [View in browser](https://bn8.github.io/etch_n_sketch/)
+* [Karam Talwandi's solution](https://github.com/kpstalwa/etch-a-sketch) | [View in browser](https://kpstalwa.github.io/etch-a-sketch/)
+* [Leah Xia's solution](https://github.com/LeahXia/grids.git) | [View in browser](http://leahxia.com/internal-links/grids/index.html)
 * [Willie van Tonder solution](https://github.com/willievantonder/gridGame) | [View in browser](https://willievantonder.github.io/gridGame/)
 * [MGiagante solution](https://github.com/mgiagante/etch-a-sketch) | [View in browser](https://mgiagante.github.com/etch-a-sketch/)
 * [Abdul's solution](https://github.com/MetriclyFrench/The-Pad) | [View in browser](https://metriclyfrench.github.io/The-Pad/)
@@ -646,3 +648,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [uvieugo's solution](https://github.com/uvieugo/odin-project-Javascript-jQuery) | [View in browser](https://uvieugo.github.io/sketchpad/)
 * [ntnlbar's solution](https://github.com/ntnlbar/sketchpad) | [View in browser](https://ntnlbar.github.io/sketchpad/)
 * [vanamman's solution](https://github.com/Vanamman/sketchpad) | [View in browser](https://vanamman.github.io/sketchpad/)
+* [Sharon Gao's solution](https://github.com/segao/Etch-A-Sketch) | [View in browser](https://cdn.rawgit.com/segao/Etch-A-Sketch/775ca0ec/index.html)
+* [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) | [View in browser](https://patayto.github.io/sketch-pad/)
+* [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
+* [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
+* [Robtak's solution](https://github.com/robtak/Project-Etch-A-Sketch) |[View in browser](https://robtak.github.io/Project-Etch-A-Sketch/)

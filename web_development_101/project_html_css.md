@@ -91,6 +91,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
+* [cj-sv's Solution (Easy)](https://github.com/cj-sv/google-homepage) | [View in browser](https://cj-sv.github.io/google-homepage/)
+* [Ivan Marquez's Solution (Easy)](https://github.com/Marq27/google-homepage) | [View in browser](https://marq27.github.io/google-homepage/)
 * [Bn8's Solution (Easy)](https://github.com/Bn8/mock_google) | [View in browser](https://bn8.github.io/mock_google/)
 * [Karam Talwandi's Solution (Easy)](https://github.com/kpstalwa/google-homepage) | [View in browser](https://kpstalwa.github.io/google-homepage/)
 * [Barry White's Solution (Easy)](https://github.com/barry505/google-homepage) | [View in browser](https://barry505.github.io/google-homepage/)
@@ -1126,6 +1128,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Justin Webb's Solution](https://github.com/webbcreative/google-homepage) | [View in browser](https://webbcreative.github.io/google-homepage/)
 * [DMK11's Solution (Difficult)](https://github.com/dmk11/google-search-page) | [View in browser](https://dmk11.github.io/google-search-page/)
 * [Rosita's Solution (Easy)](https://github.com/ejero/google-homepage) | [View in browser](http://rositaemakpo.com/google-homepage/)
+* [zahle's Solution (Easy)](https://github.com/zah/google-homepage) | [View in browser](http://zahlekhan.github.io/)
+* [Tristyn's Solution (Easy)](https://github.com/tristyn-maalouf/google-homepage) | [View in browser](https://tristyn-maalouf.github.io/google-homepage/)
+*[Nick B's Solution (Easy)](https://github.com/bnerra/google-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/bnerra/google-homepage/blob/master/index.html)
+* [Uche's Solution (Easy)](https://github.com/uonyekwuluje/google-homepage) | [View in browser](https://uonyekwuluje.github.io/google-homepage/)
+* [Brandon Bost's Solution (Easy)](https://github.com/bmbost/google-homepage) | [View in browser](https://bmbost.github.io/google-homepage/)
 
 ### Additional Resources
 

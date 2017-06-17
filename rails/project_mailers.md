@@ -23,6 +23,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Flight_booker)
 * [Austin's solution](https://github.com/CouchofTomato/flight-booker)
 * [jamie's solution](https://github.com/Jberczel/Flight_Booker) | [View in browser](http://flight-booker.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View in browser](http://dna-flight-booker.herokuapp.com/)
@@ -54,6 +55,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
 * [DV's Solution](https://github.com/dvislearning/odin-flight-booker)
 * [Sophia Wu's Solution](https://github.com/SophiaLWu/flight-booker) | [View in Browser](https://infinite-fortress-13459.herokuapp.com/)
+* [Daniel Aguilar's Solution](https://github.com/danaguilar/odin-flight-booker)
 
 ### Additional Resources
 

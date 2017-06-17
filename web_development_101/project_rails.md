@@ -16,6 +16,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Beachfern's solution](https://github.com/beachfern/blogger) | [View in browser](https://damp-earth-11670.herokuapp.com/)
 * [Kasey Z.'s solution](https://github.com/kasey-z/blogger) | [View in browser](https://floating-atoll-31590.herokuapp.com/)
 * [GuyInALabCoat's solution](https://github.com/GuyInALabCoat/rails_blogger_project/tree/master/blogger) | [View in browser](https://secure-castle-16877.herokuapp.com/)
 * [Anya Finkelstein's solution](https://github.com/anyafink/rails-blogger-project) | [View in browser](https://nameless-basin-15144.herokuapp.com/)

@@ -1,4 +1,4 @@
-## Introduction
+### Introduction
 
 The view is really the simplest part of the MVC structure -- at the basic level, it's just a bunch of HTML boilerplate into which you insert the variables you've received from your controller and which will be sent to the browser.  It's your actual "webpage".  It will often have some snippets of code designed to properly present the variables it has received, for instance a loop that will display each one of the posts on your blog.  Views are often called view templates.
 

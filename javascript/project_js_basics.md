@@ -31,6 +31,7 @@ It's time to build an on-screen calculator
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/js-calculator) | [View in browser](https://couchoftomato.github.io/js-calculator/) - Without jquery
 * [Rhys B's solution](https://github.com/105ron/calculator) | [View in browser](https://105ron.github.io/calculator/) - Without jquery
 * [Serboteiu Cosmin's solution](https://github.com/Annno/Calculator-VanillaJS) | [View in browser](https://annno.github.io/Calculator-VanillaJS/) - Without jquery
 * [Pawel R's solution](https://github.com/PawelRokosz/Calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/Calculator/blob/master/index.html)
