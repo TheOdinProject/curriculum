@@ -28,6 +28,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [cj-sv's solution to problem 1](https://github.com/cj-sv/project-euler/blob/master/problem_1.js)
 * [oheydrew's solution for problems 1 & 2](https://github.com/oheydrew/euler) | [View in browser](https://oheydrew.github.io/euler/)
 * [Bn8's solution for problem 1 (variable input option)](https://github.com/Bn8/eulerproblems/blob/master/scr.js) | [View in browser](https://bn8.github.io/eulerproblems/)
 * [Barry's solution for problem 1](https://github.com/barry505/projectEuler/blob/master/p01.js)
