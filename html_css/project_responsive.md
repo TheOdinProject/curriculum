@@ -44,6 +44,7 @@ The process will be quite similar to what we've done before.  At this point, you
 * [Charles Harries's solution (mostly placeholder + menu)](https://github.com/charlesharries/the-next-web/) | [View in browser](https://htmlpreview.github.io/?https://github.com/charlesharries/the-next-web/blob/master/index.html)
 * [Daunenok's solution](https://github.com/daunenok/next-web) | [View in browser](https://daunenok.github.io/next-web/)
 * [Beth Rathbone's solution](https://github.com/bethrath/responsive-design) | [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/responsive-design/blob/master/index.html)
+* [husein ghafari's solution](https://github.com/hosghf/responsive-thenextweb) | [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/responsive-thenextweb/blob/master/index.html)
 
 ### Additional Resources
 
