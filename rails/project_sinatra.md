@@ -111,3 +111,5 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Sophia Wu's solution - Hangman: [github](https://github.com/SophiaLWu/sinatra-hangman) / [see it on the web](https://shielded-lowlands-85300.herokuapp.com/)
 * Samuel Langenfeld's solution - Hangman: [github](https://github.com/SamuelLangenfeld/sinatra_hangman) / [see it on the web](http://langenfeld-hangman.herokuapp.com/)
 * Kyle Thomson's solution - Hangman: [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/hangman)
+* Jonathan Marks's solution - MasterMind: [github](https://github.com/johnjmarks4/mastermind_reloaded) / [see it on the web](https://arcane-shelf-92558.herokuapp.com/)
+
