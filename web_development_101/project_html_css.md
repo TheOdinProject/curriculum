@@ -1136,7 +1136,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Sheldon K's Solution (Easy)](https://github.com/Leviax7/google-homepage) | [View in browser](https://leviax7.github.io/google-homepage/)
 * [Anton Smid's Solution (Easy)](https://github.com/AntonSmid/google-homepage) | [View in browser](https://antonsmid.github.io/google-homepage/index.html)
 * [Shelby's Solution(Easy)](https://github.com/Drabants/google_remake) | [View in browser](https://drabants.github.io/google_remake/)
-
+*[Dylan's Solution (Easy)](https://github.com/dylanoliver/google-homepage) | [View in browser](https://dylanoliver.github.io/google-homepage/)
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
