@@ -54,7 +54,7 @@ Build the following methods in your linked list class:
 
 ### Extra Credit
 
-1. `#insert_at(index)` that inserts the data at the given index
+1. `#insert_at(index)` that inserts the node at the given index
 2. `#remove_at(index)` that removes the node at the given index. (You will need to update the links of your nodes in the list when you remove a node.)
 
 ### Student Solutions
