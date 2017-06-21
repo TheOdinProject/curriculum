@@ -31,6 +31,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Justine Cantado's solution](https://hannibalony.github.io/yt/) | [View in Browser]
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/youtube_page) | [View in Browser](https://yilmazgunalp.github.io/youtube_page/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/YouTube-video-page) | [View in Browser](https://bottlecaps4.github.io/YouTube-video-page/)
 * [Jeff's Solution](https://github.com/jmbothe/youtube-homepage) | [View in Browser](https://jmbothe.github.io/youtube-homepage/)
