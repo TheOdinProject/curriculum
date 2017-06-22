@@ -1094,7 +1094,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [marleybrush's solution (Easy)](https://github.com/marleybrush/google-homepage) | [View in browser](https://marleybrush.github.io/google-homepage/)
 * [Alexis Benton's solution (Easy)](https://github.com/Lexis9784/google-homepage) | [View in browser](https://Lexis9784.github.io/google-homepage/)
 * [stiggy456's solution (Easy)](https://github.com/stiggy456/google-homepage) | [View in Browser](https://stiggy456.github.io/google-homepage/)
-* [RamsesGonzalez's solution(Easy)](https://github.com/RamsesGonzalez/google_homepage) | [View in Browser(https://ramsesgonzalez.github.io/google_homepage/
+* [RamsesGonzalez's solution(Easy)](https://github.com/RamsesGonzalez/google_homepage) | [View in Browser](https://ramsesgonzalez.github.io/google_homepage/
 * [EMuchynski's solution (Easy)](https://github.com/EMuchynski/google-homepage) | [View in Browser](https://emuchynski.github.io/google-homepage/)
 * [Loc Nguyen's solution (Easy)](https://github.com/vinhloc30796/google-homepage) | [View in Browser](https://vinhloc30796.github.io/google-homepage/)
 * [Dev Mehta's solution (Easy)](https://github.com/devmehta92/google-homepage) | [View in Browser](https://devmehta92.github.io/google-homepage/)
@@ -1136,7 +1136,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Sheldon K's Solution (Easy)](https://github.com/Leviax7/google-homepage) | [View in browser](https://leviax7.github.io/google-homepage/)
 * [Anton Smid's Solution (Easy)](https://github.com/AntonSmid/google-homepage) | [View in browser](https://antonsmid.github.io/google-homepage/index.html)
 * [Shelby's Solution(Easy)](https://github.com/Drabants/google_remake) | [View in browser](https://drabants.github.io/google_remake/)
-*[Dylan's Solution (Easy)](https://github.com/dylanoliver/google-homepage) | [View in browser](https://dylanoliver.github.io/google-homepage/)
+* [Dylan's Solution (Easy)](https://github.com/dylanoliver/google-homepage) | [View in browser](https://dylanoliver.github.io/google-homepage/)
 * [Huascar (Easy)](https://github.com/huascarmc/google-homepage) | [View in browser](https://huascarmc.github.io/google-homepage)
 * [Michael Daryl Mayo's Solution(Easy)](https://github.com/chromity/google-homepage) | [View in browser](https://chromity.github.io/google-homepage)
 
