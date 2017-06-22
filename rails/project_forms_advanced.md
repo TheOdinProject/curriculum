@@ -68,6 +68,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jfonz412's solution](https://github.com/jfonz412/flight-booker)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Flight_booker)
 * [CloudTemplar_'s solution](https://github.com/cloudtemplar/flight-booker) | [Live on Heroku!](https://protected-escarpment-37952.herokuapp.com/)
 * [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/odin-flight-booker) | [Live website](https://sleepy-oasis-66283.herokuapp.com)
