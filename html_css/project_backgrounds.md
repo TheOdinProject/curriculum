@@ -51,6 +51,7 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Leah Xia's solution](https://github.com/LeahXia/apple.git) | [View in browser] (https://leahxia.github.io/apple/)
 * [husein's solution](https://github.com/hosghf/apple-page-rubuild) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/apple-page-rubuild/blob/master/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/apple-homepage) | [View in browser] (https://adoniasdantas.github.io/apple-homepage/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Apple/) | [View in browser](https://ncud4bloc.github.io/Apple/)
 
 ### Additional Resources
 
