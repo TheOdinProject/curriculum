@@ -1140,6 +1140,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Huascar (Easy)](https://github.com/huascarmc/google-homepage) | [View in browser](https://huascarmc.github.io/google-homepage)
 * [Michael Daryl Mayo's Solution(Easy)](https://github.com/chromity/google-homepage) | [View in browser](https://chromity.github.io/google-homepage)
 * [Arunava's Solution (Easy)](https://github.com/iArunava/google-homepage) | [View in browser](https://iArunava.github.io/google-homepage)
+* [Riley's Solution (Easy)](https://github.com/keymaster777/googlehomepage) | [View in browser](https://keymaster777.github.io/googlehomepage)
 
 ### Additional Resources
 
