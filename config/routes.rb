@@ -13,18 +13,12 @@ devise_for :users,
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
-  post 'thank_you' => 'static_pages#send_feedback'
-  post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
   get 'about' => "static_pages#about"
   get 'faq' => "static_pages#faq"
-  get 'contact' => "static_pages#contact"
-  get 'getting_involved' => "static_pages#getting_involved"
   get 'contributing' => "static_pages#contributing"
-  get 'legal' => "static_pages#legal"
-  get 'cla' => "static_pages#cla"
   get 'styleguide' => "static_pages#style_guide"
-  get 'tou' => "static_pages#tou"
+  get 'terms_of_use' => "static_pages#terms_of_use"
   get 'success_stories' => "static_pages#success_stories"
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')
   get 'sitemap' => 'sitemap#index', :defaults => { :format => 'xml' }

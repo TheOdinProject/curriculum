@@ -1,9 +1,0 @@
-<div class="StaticPagesController">
-  <div class="container">
-    <div id="tou" class="card-main">
-      <% f = File.open('legal_tou.md', 'rb') %>
-      <%= convert_markdown_to_html(f.read) %>
-      <% f.close %>
-    </div>
-  </div>
-</div>
