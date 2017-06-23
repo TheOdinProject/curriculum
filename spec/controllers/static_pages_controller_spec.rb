@@ -25,11 +25,6 @@ RSpec.describe StaticPagesController do
         expect(response).to redirect_to(dashboard_path)
       end
     end
-
-    it 'assigns @is_home_page' do
-      get :home
-      expect(assigns(:is_home_page)).to eql(true)
-    end
   end
 
   describe 'GET #about' do

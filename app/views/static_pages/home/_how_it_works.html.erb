@@ -6,8 +6,16 @@
     </div>
   </div> <!-- /.how-it-works-title -->
   <div class="how-it-works-tiles">
-    <% @how_it_works_tiles.each do |tile| %>
-      <%= render 'static_pages/home/how_it_works_tile', tile: tile %>
+
+    <% how_it_works_tiles.each do |tile| %>
+    <div class="tile">
+      <%= image_tag tile[:image], class: 'how-it-works-image', alt: 'how-it-works illustration' %>
+      <h4 class='bold subtitle'><%= tile[:subtitle]%></h4>
+      <div class="description">
+        <p><%= tile[:description]%></p>
+      </div>
+    </div>
     <% end %>
+
   </div> <!-- /.how-it-works-tiles -->
 </div> <!-- /.how-it-works -->

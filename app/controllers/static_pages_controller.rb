@@ -2,26 +2,29 @@ class StaticPagesController < ApplicationController
   before_action :redirect_if_logged_in, only: :home
 
   def home
-    @is_home_page = true
-    @how_it_works_tiles = helpers.how_it_works_tiles
-    @courses = helpers.courses
   end
 
-  def about; end
+  def about
+  end
 
-  def getting_involved; end
+  def getting_involved
+  end
 
   def faq
     @faq_items = helpers.faq_items
   end
 
-  def legal; end
+  def legal
+  end
 
-  def tou; end
+  def tou
+  end
 
-  def cla; end
+  def cla
+  end
 
-  def style_guide; end
+  def style_guide
+  end
 
   def success_stories
     @success_stories = SuccessStory.all

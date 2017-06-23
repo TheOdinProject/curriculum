@@ -140,7 +140,7 @@ module ApplicationHelper
     ]
   end
 
-  def courses
+  def available_courses
     [
       {
         badge_image_url: 'badge-html-css.svg',
