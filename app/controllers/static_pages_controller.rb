@@ -11,7 +11,6 @@ class StaticPagesController < ApplicationController
   end
 
   def faq
-    @faq_items = helpers.faq_items
   end
 
   def legal
