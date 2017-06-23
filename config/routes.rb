@@ -13,8 +13,6 @@ devise_for :users,
 
   root :to => 'static_pages#home'
   get 'home' => 'static_pages#home'
-  post 'thank_you' => 'static_pages#send_feedback'
-  post 'suggestion' => 'static_pages#suggestion'
   get 'students' => 'users#index'
   get 'about' => "static_pages#about"
   get 'faq' => "static_pages#faq"
