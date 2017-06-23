@@ -7,19 +7,10 @@ class StaticPagesController < ApplicationController
   def about
   end
 
-  def getting_involved
-  end
-
   def faq
   end
 
-  def legal
-  end
-
-  def tou
-  end
-
-  def cla
+  def terms_of_use
   end
 
   def style_guide

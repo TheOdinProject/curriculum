@@ -13,7 +13,7 @@ RSpec.describe StaticPagesController do
       end
     end
 
-    context 'signed in user' do
+    context 'when user is logged in' do
       let(:user) { double('User') }
 
       before do
@@ -34,31 +34,10 @@ RSpec.describe StaticPagesController do
     end
   end
 
-  describe 'GET #getting involved' do
-    it 'renders the getting involved page' do
-      get :getting_involved
-      expect(response).to render_template(:getting_involved)
-    end
-  end
-
-  describe 'GET #legal' do
-    it 'renders the legal page' do
-      get :legal
-      expect(response).to render_template(:legal)
-    end
-  end
-
-  describe 'GET #tou' do
+  describe 'GET #terms_of_use' do
     it 'renders the terms of use page' do
-      get :tou
-      expect(response).to render_template(:tou)
-    end
-  end
-
-  describe 'GET #cla' do
-    it 'renders the contributors licence agreement page' do
-      get :cla
-      expect(response).to render_template(:cla)
+      get :terms_of_use
+      expect(response).to render_template(:terms_of_use)
     end
   end
 
