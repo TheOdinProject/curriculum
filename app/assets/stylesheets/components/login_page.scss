@@ -1,13 +1,8 @@
 #devise-form {
-
   overflow: hidden;
 
-  .card {
-    max-width: 435px;
-    width: 100%;
-    @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
-    padding: 50px 55px;
-    margin: 75px auto 0 auto;
+  .login-form {
+    margin: auto;
   }
 
   .login {
@@ -22,7 +17,6 @@
     padding-left: 60px;
     margin-bottom: 20px;
     border: none;
-    font-size: 1.125em;
     line-height: 1.88;
     letter-spacing: 0.2px;
     color: $text-primary;
@@ -179,6 +173,7 @@
 
   .tou-caution {
     margin: 0 0 24px 0;
+    text-decoration: underline;
 
     a {
       color: $grey;
