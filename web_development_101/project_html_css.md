@@ -116,7 +116,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Krystell Barraza's Solution (Easy)](https://krystellbarraza.github.io/google-homepage/) | [View in browser](https://krystellbarraza.github.io/google-homepage/)
 * [Krystell Barraza's Solution (Difficult)](https://krystellbarraza.github.io/google-searchpage/) | [View in browser](https://krystellbarraza.github.io/google-searchpage/)
 * [Joshua Marcelo's Solution (Easy)](https://github.com/vanjutsong/google-homepage) | [View in browser](https://vanjutsong.github.io/google-homepage/)
-* [Justine Cantado's Solution (Difficult)](https://nmontefusco.github.io/google-homepage/) | [View in browser](https://hannibalony.github.io/)
+* [Justine Cantado's Solution (Difficult)](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/Google-page) | [View in browser](https://hannibalony.github.io/Google-page/)
 * [Nicholas Montefusco's Solution (Easy)](https://github.com/nmontefusco/google-homepage) | [View in browser](https://nmontefusco.github.io/google-homepage/)
 * [Zenlines' Solution (Easy)](https://github.com/zenlines/google-homepage) | [View in browser](https://zenlines.github.io/google-homepage/)
 * [Gokul Krishnan's Solution (Easy)](https://github.com/gk7huki/google-homepage) | [View in browser](https://gk7huki.github.io/google-homepage/)
