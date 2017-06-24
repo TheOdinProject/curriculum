@@ -29,9 +29,9 @@ Even better, when you inevitably want to make large-scale changes or just fix so
 
 1. Check out this [explanation of cloud computing](http://mashable.com/2013/08/26/what-is-the-cloud/) from Mashable.
 2. (Optional) If you want another go at it, take a look at this [explanation of cloud computing](http://www.cnbc.com/id/43077233) from CNBC.
-3. Next, watch the [David Patterson's explanation of Cloud Computing (12:23 to 30:00)](https://youtu.be/SeBAj4P2FWA?t=12m23s) from the Berkeley SAAS course on edX.
-1. Read [The difference between SAAS and Cloud Computing](http://www.itworld.com/article/2758057/enterprise-software/back-to-basics--the-difference-between-saas-and-cloud-computing.html).
-2. See Additional Resources below if you've got lingering questions.
+3. Next, watch the [David Patterson's explanation of Cloud Computing](https://www.youtube.com/watch?v=IJCxqoh5ep4) from the Berkeley University.
+4. Read [The difference between SAAS and Cloud Computing](http://www.itworld.com/article/2758057/enterprise-software/back-to-basics--the-difference-between-saas-and-cloud-computing.html).
+5. See Additional Resources below if you've got lingering questions.
 
 ### Additional Resources
 
