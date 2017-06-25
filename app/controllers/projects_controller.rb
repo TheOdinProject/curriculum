@@ -6,7 +6,8 @@ class ProjectsController < ApplicationController
   authorize_resource only: [:update, :destroy]
 
   def index
-    @projects = decorated_projects
+    @projects = projects
+    @course = CourseDecorator.new(@lesson.course)
   end
 
   def create
@@ -27,12 +28,10 @@ class ProjectsController < ApplicationController
 
   private
 
-  def decorated_projects
-    projects.map { |project| ProjectDecorator.new(project) }
-  end
-
   def projects
-    Project.all_submissions(@lesson.id)
+    Project
+      .all_submissions(@lesson.id)
+      .page(params[:page])
   end
 
   def set_recent_submissions

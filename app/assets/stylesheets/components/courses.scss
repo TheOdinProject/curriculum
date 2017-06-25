@@ -23,6 +23,7 @@
     margin-bottom: 80px;
 
     .course-card {
+      @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
 
       .cc-completion-indicator {
         background: rgba(106,191,195, 0.9);

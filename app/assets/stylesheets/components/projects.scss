@@ -1,3 +1,66 @@
+#submissions {
+  .pagination {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+
+    .current, .next a, .last a {
+      color: $primary;
+      font-weight: bold;
+    }
+
+    .first a, .prev a, .page a {
+      color: rgba(0, 0, 0, 0.3);
+    }
+
+    span {
+      padding-right: 1em;
+    }
+  }
+}
+
+.project {
+  align-items: center;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  transition: all 0.2s ease-out;
+
+  &:hover {
+    background: $white-smoke;
+  }
+
+  .button_to {
+    display: inline;
+  }
+
+  @include media-breakpoint-down(md) {
+    .votes {
+      text-align: center;
+    }
+  }
+
+  .votes-count {
+    color: $grey;
+    font-size: 1.3rem;
+  }
+
+  .vote-button {
+    background: transparent;
+    box-shadow: none;
+    color: $whitish-grey;
+    cursor: pointer;
+    padding: 1em;
+
+    .fa {
+      font-size: 2rem;
+    }
+  }
+
+  .owner-name {
+    color: $text-primary;
+  }
+}
+
 .project-form-container {
   // border-radius: 4px;
   // box-shadow: 0 0 15px 2px rgba(0,0,0,0.1);
@@ -113,7 +176,39 @@
   }
 }
 
-/* Styles for the project submission card displayed in the user dashboard */
+.project-buttons {
+  display: flex;
+  justify-content: flex-end;
+
+  @include media-breakpoint-down(md) {
+    justify-content: center;
+  }
+
+  .project-button {
+    background: $whitish-grey;
+    box-shadow: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 18px;
+    width: 160px;
+    height: 60px;
+
+    &:hover, &:focus {
+      color: $white;
+    }
+
+    @include media-breakpoint-down(xs) {
+      font-size: 1em;
+      line-height: 50px;
+      padding: 5px;
+      width: 150px;
+    }
+  }
+
+  .live-preview-button {
+    margin-left: 10px;
+  }
+}
 
 .project-submission {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -124,31 +219,15 @@
     border: 0;
   }
 
-  .project-buttons {
-    display: flex;
-    justify-content: flex-end;
-
-    .project-button {
-      background: $whitish-grey;
-      box-shadow: none;
-      border-radius: 0;
-      padding: 18px;
-      width: 160px;
-      height: 60px;
-
-      &:hover, &:focus {
-        color: $white;
-      }
-    }
-
-    .live-preview-button {
-      margin-left: 10px;
-    }
-  }
-
   @include media-breakpoint-down(sm) {
     .lesson-title-wrapper {
       margin-bottom: 20px;
     }
+  }
+}
+
+@media (max-width: 405px) {
+  .votes {
+    padding: 0;
   }
 }

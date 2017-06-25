@@ -12,7 +12,7 @@ gem 'devise',                       '~> 4.2.0'
 gem 'figaro',                       '1.1'      # Managing environment variables
 gem 'rack-timeout',                 '~> 0.4'
 gem 'redcarpet',                    '~> 3.3'   # to render the curriculum's .md files as html
-gem 'will_paginate',                '~> 3.1'   # to paginate student lists
+gem 'kaminari',                     '~> 1.0', '>= 1.0.1'
 gem 'pg',                           '~> 0.19'
 gem 'nokogiri',                     '~> 1.6'
 gem 'premailer-rails',              '~> 1.9'

@@ -24,7 +24,7 @@ Rails.application.routes.draw do
   get 'contributing' => 'static_pages#contributing'
   get 'legal' => 'static_pages#legal'
   get 'cla' => 'static_pages#cla'
-  get 'terms_of_use' => "static_pages#terms_of_use"
+  get 'terms_of_use' => 'static_pages#terms_of_use'
   get 'styleguide' => 'static_pages#style_guide'
   get 'success_stories' => 'static_pages#success_stories'
   get 'press' => redirect('https://docs.google.com/document/d/1FmjfYvOsQ-syoOCzuvPXv96TCxeJAT9m-Wl7trgNZcE/pub')

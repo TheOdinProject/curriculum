@@ -3,6 +3,7 @@ class Project < ApplicationRecord
   belongs_to :lesson
 
   acts_as_votable
+  paginates_per 100
 
   validates :repo_url, format: { with: /\Ahttps?:\/\/github.com\//,
     message: 'must start with http://github.com/ or https://github.com/' }
