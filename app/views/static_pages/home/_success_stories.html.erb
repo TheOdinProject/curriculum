@@ -14,13 +14,12 @@
 
   <div class="success-stories-container">
     <% first_four_success_stories.each_with_index do |story, index| %>
-    <div class="success-story <%= "story-#{index}"%>">
-      <div class="photo1"> <%= image_tag "success_stories/#{story.avatar_path_name}" %> </div>
+    <div class="success-story">
+      <div class="photo"> <%= image_tag "success_stories/#{story.avatar_path_name}" %> </div>
 
       <div class="success-content">
-	       <div class="name-and-photo">
-           <div class="photo2"> <%= image_tag "success_stories/#{story.avatar_path_name}" %> </div>
-           <p><%= link_to story.student_name, story.social_media_link %></p>
+	       <div class="details">
+           <p><%= link_to story.student_name, story.social_media_link, class: 'accent' %></p>
 	       </div>
          <p><%= story.story_content.truncate_words(30) %></p>
       </div> <!-- /.success-content -->
