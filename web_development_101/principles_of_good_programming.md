@@ -15,7 +15,6 @@ If you stick with them, they'll keep you out of trouble.  Print the list from th
 * TETO -- test early, test often
 
 ### Your Assignment:
-1. Read this post on [Principles of Web Development](https://www.42lines.net/2011/10/13/some-principles-of-web-development/) on 42lines.net and take it to heart.  They are... awesome.
 1. Christopher Diggins has compiled a healthy list of principles in [this blog post](http://www.artima.com/weblogs/viewpost.jsp?thread=331531), check them out.  Some will be more specific than you're really ready for, but you'll likely encounter them all at some point early in your career.  Focus on the ones highlighted in the "Points to Ponder" above.  They're things that a live teacher will tell you again and again while walking around the classroom.
 
 ### Additional Resources

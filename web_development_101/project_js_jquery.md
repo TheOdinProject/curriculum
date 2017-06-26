@@ -35,6 +35,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [endotnick's Solution](https://github.com/endotnick/odin-sketchpad) | [View in browser](http://nickrodriguez.tech/odin-sketchpad/) 
 * [Charalamboss Solution](https://github.com/Charalamboss/Javascript-and-jQuery101) | [View in browser](https://charalamboss.github.io/Javascript-and-jQuery101/)
 * [Anton Smid's solution](https://github.com/AntonSmid/Etch-A-Sketch) | [View in browser](https://antonsmid.github.io/Etch-A-Sketch/)
 * [alv2r's solution](https://github.com/alv2r/pixel-sketchpad) | [View in browser](https://alv2r.github.io/pixel-sketchpad/)
