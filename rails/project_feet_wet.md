@@ -102,7 +102,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Jerry Gao's solution](https://github.com/blackwright/hartl_rails/tree/master/toy_app)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/toy-app)
 * [Niño Mollaneda's solution](https://github.com/ninoM/toy_app)
-
+* [Jonathan Marks's solution](https://github.com/johnjmarks4/toy_app)
 
 ### Additional Resources
 
