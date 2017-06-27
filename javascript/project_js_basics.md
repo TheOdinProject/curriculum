@@ -91,6 +91,7 @@ It's time to build an on-screen calculator
 * [smilesr's solution](https://github.com/smilesr/op-jj-bb-25-calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/smilesr/op-jj-bb-25-calculator/blob/master/index.html)
 * [Eric's solution](https://github.com/Twinpair/Web_Calculator) | [View in browser](https://twinpair.github.io/Web_Calculator)
 * [John's Solution](https://github.com/Khanthulhu/onScreenCalculator) | [View in breowser](https://khanthulhu.github.io/onScreenCalculator/) - without JQuery
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Calculator) | [View in browser](https://ncud4bloc.github.io/Calculator/HTML/index.html)
 
 ### Additional Resources
 
