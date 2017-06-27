@@ -15,6 +15,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Kasey Z's solution](https://github.com/kasey-z/TOP-solutions/blob/master/recursion/fibonacci.rb)
 * [Adsy430's solution](https://github.com/adampal/fib_recursive)
 * [SadieD's solution](https://github.com/SadieD/Recursion/blob/master/fibonacci.rb)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/recursion/fibonacci/fibonacci.rb)
@@ -162,6 +163,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Kasey Z.'s solution](https://github.com/kasey-z/TOP-solutions/blob/master/recursion/merge_sort.rb)
 * [Adsy430's solution](https://github.com/adampal/merge_sort)
 * [SadieD's solution](https://github.com/SadieD/Recursion/blob/master/mergesort.rb)
 * [Clayton Sweeten Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/recursion/merge_sort/merge_sort.rb)
