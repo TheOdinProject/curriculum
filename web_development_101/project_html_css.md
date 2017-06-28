@@ -1147,6 +1147,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Akshat Dubey's Solution (Easy)](https://github.com/akshatdb/google-homepage) | [View in browser](https://akshatdb.github.io/google-homepage/)
 * [Siddharth Jaiswal's Solution(Easy)](https://github.com/Sidd0602/google-homepage/) | [View in browser](https://sidd0602.github.io/google-homepage/)
 
+* [Pujan Pun's Solution(Easy)](https://github.com/duddhoen92/google-homepage/) | [View in browser](https://duddhoen92.github.io/google-homepage/)
+
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
