@@ -28,6 +28,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Ivan Marquez's solution to problem 1 and 2](https://github.com/Marq27/problem1)
+* [cj-sv's solution to problem 1 and 2](https://github.com/cj-sv/project-euler)
+* [oheydrew's solution for problems 1 & 2](https://github.com/oheydrew/euler) | [View in browser](https://oheydrew.github.io/euler/)
 * [Bn8's solution for problem 1 (variable input option)](https://github.com/Bn8/eulerproblems/blob/master/scr.js) | [View in browser](https://bn8.github.io/eulerproblems/)
 * [Barry's solution for problem 1](https://github.com/barry505/projectEuler/blob/master/p01.js)
 * [endotnick's solutions](https://github.com/endotnick/project_euler)
@@ -495,6 +498,10 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [jacobhancock's solution](https://github.com/jacobhancock/Javascript-101) | [View in browser](https://jacobhancock.github.io/Javascript-101/)
 * [Bolcik's solution](https://github.com/SeanKohlbrenner/euler_problem_1/blob/master/problem_1.js)
 * [Robtak's solution](https://github.com/robtak/Project-Euler-1) | [View in Browser](https://robtak.github.io/Project-Euler-1/)
+* [Rosita's solution](https://github.com/ejero/projecteuler) | [View in Browser](http://rositaemakpo.com/projecteuler/)
+* [Anton Smid's solution for N°1 ](https://repl.it/IqbD/3) | [View in Browser](https://repl.it/IqbD/3/)
+* [Dylan's solution](https://github.io.com/dylanoliver/project-euler) | [View in Browser](https://dylanoliver.github.io/project-euler)
+* [Arunava's Solution](https://repl.it/Izpi/1)
 
 ### Additional Resources
 

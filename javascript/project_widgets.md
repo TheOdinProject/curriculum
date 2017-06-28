@@ -33,6 +33,7 @@ Don't spend too much time worrying about getting your images to display at the c
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Thomas Gazikas's solution](https://github.com/tommyg13/odin-projects/tree/master/js_jquery/carousel) | [View in browser](https://tommyg13.github.io/odin-projects/js_jquery/carousel/)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [View in browser](http://jsfiddle.net/Jberczel/6kS3t/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Slider/index.html)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_4_Carousel) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_4_Carousel/index.html)
@@ -58,6 +59,7 @@ Don't spend too much time worrying about getting your images to display at the c
 * [Sophia Wu's solution](https://github.com/SophiaLWu/image-carousel) | [View in browser](https://sophialwu.github.io/image-carousel/)
 * [Axel’s solution](https://github.com/afuh/slider) | [View in browser](https://afuh.github.io/slider/)
 * [Daunenok’s solution](https://github.com/daunenok/image-carousel) | [View in browser](https://daunenok.github.io/image-carousel/)
+* [Pat’s solution](https://github.com/Pat878/Image-Carousel) | [View in browser](https://pat878.github.io/Image-Carousel/)
 
 ### Additional Resources
 
