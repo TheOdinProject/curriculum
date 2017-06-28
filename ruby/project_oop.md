@@ -17,10 +17,11 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Demo318's solution](https://github.com/Demo318/ruby_tictactoe)
 * [justinckim3's solution](https://github.com/justinckim3/tic_tac_toe)
 * [Kasey Z's Solution](https://github.com/kasey-z/TOP-solutions/blob/master/OOP/tic_tac_toe.rb)
 * [Dallaire's Solution](https://github.com/Dallaire/tic_tac_toe)
-* [adsy430's solution] (https://github.com/adampal/tictactoe)
+* [adsy430's solution](https://github.com/adampal/tictactoe)
 * [SadieD's solution](https://github.com/SadieD/oop_with_ruby/tree/master/tictactoe)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/tic_tac_toe)
 * [holdercp's solution](https://github.com/holdercp/tic-tac-toe)
@@ -91,7 +92,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Eleanor Weigert's solution](https://github.com/mixophrygian/Ruby-Tic-Tac-Toe/blob/master/TicTacToe.rb)
 * [Eduardo Frias' solution](https://github.com/feek1g/theodinproject/blob/master/rubyChallenge/tic_tac_toe.rb)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/TicTacToe)
-* [Chris Hall's solution](https://github.com/Concretechris/Tic-Tac-Toe) - I would love suggestions to improve this solution.
+* [Chris Hall's solution](https://github.com/Concretechris/Tic-Tac-Toe)
 * [Brann James' solution](https://github.com/brannj/The_Odin_Project/blob/master/OOP_with_Ruby/tic_tac_toe.rb)
 * [Frank Peelen' solution](https://github.com/FrankPeelen/TicTacToe)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/tree/master/3_Ruby_tic-tac-toe)
