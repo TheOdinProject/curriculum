@@ -44,7 +44,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Bn8's solution](https://github.com/Bn8/etch_n_sketch) | [View in browser](https://bn8.github.io/etch_n_sketch/)
 * [Karam Talwandi's solution](https://github.com/kpstalwa/etch-a-sketch) | [View in browser](https://kpstalwa.github.io/etch-a-sketch/)
 * [Leah Xia's solution](https://github.com/LeahXia/grids.git) | [View in browser](http://leahxia.com/internal-links/grids/index.html)
->>>>>>> afadf94b46068d45ba0318eda0a053e162ff9656
 * [Willie van Tonder solution](https://github.com/willievantonder/gridGame) | [View in browser](https://willievantonder.github.io/gridGame/)
 * [MGiagante solution](https://github.com/mgiagante/etch-a-sketch) | [View in browser](https://mgiagante.github.com/etch-a-sketch/)
 * [Abdul's solution](https://github.com/MetriclyFrench/The-Pad) | [View in browser](https://metriclyfrench.github.io/The-Pad/)
