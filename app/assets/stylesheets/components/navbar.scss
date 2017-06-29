@@ -149,15 +149,29 @@
 @media (max-width: 480px) {
   .navbar {
     padding: 0 20px;
-    
-    .navbar-nav {      
-      .nav-link {
-        font-size: 24px;
-      }
-    } 
 
     .navbar-toggler {
       margin-right: 20px;
     }
+  }
+}
+
+// Fix toggled nav overlay on iOS
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .navbar {
+    
+    .navbar-nav {
+      padding-bottom: 0;
+      padding-top: 0;
+
+      .nav-link {
+        padding: 0;
+      }
+    } 
+
   }
 }
