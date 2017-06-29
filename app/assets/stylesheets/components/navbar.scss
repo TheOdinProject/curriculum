@@ -129,7 +129,8 @@
       margin-top: 0;
       
       .nav-link {
-        font-size: 28px;
+        font-size: 24px;
+        padding: 0;
       }
     } 
   
@@ -154,9 +155,12 @@
     
     .navbar-nav {
       height: 100vh;
+      padding-bottom: 80px;
+      bottom: 0;
 
       .nav-link {
         font-size: 24px;
+        padding: 0;
       }
     } 
 
