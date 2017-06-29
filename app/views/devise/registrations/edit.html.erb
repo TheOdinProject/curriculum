@@ -25,10 +25,6 @@
         <div class="goal">
           <%= best_in_place @user, :learning_goal, as: :input, place_holder: "Click me to set a learning goal!"%>
         </div>
-        <div class="spacer"></div>
-        <div class="completion-date">
-          Estimated Completion date: <%= best_in_place @user, :learning_goal_completion_date, as: :date, display_as: :format_completion_date %>
-        </div>
       </div>
     </div>
     <div class="password-card settings-section">
