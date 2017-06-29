@@ -1,90 +1,16 @@
 <%= title('Contributing') %>
 
-<div class="contributing">
-  <div class="container">
-    <div id="intro">
-      <h1 class="text-center page-title">How to Contribute</h1>
-      <div class="row">
-        <div class="col-md-8 offset-md-2 mb-5">
-          <p class="text-center">
-            The Odin Project is crowdsourced. It is built both by experienced engineers and by people who are currently learning to code. Regardless of your experience, you can contribute. Even if you don't feel ready, you can still get involved and observe until you're comfortable.
-          </p>
-        </div>
-      </div>
-
-      <%
-        contributions = [
-          {title: "Contribute to the Curriculum", description: "Anyone with any experience level can contribute to the curriculum. Students in particular are encouraged to do this, especially if you are just starting out!", path: "curriculum", tasks: ["Adding your own solutions to lessons.", "Updating individual lessons with resources.", "Writing new lessons or updating any that are unfinished."]},
-          {title: "Contribute to the Main Site", description: "The Odin Project is a Ruby on Rails application. As with any Open Source project, there is a constant backlog of outstanding issues and new features. Anyone is welcome to join in and start working on any one of these tickets - the more the merrier!", path: "theodinproject", tasks: ["Viewing our Trello Board where we keep a backlog fo outstanding issues and new features.", "Picking issues or features to work on."]}
-        ]
-      %>
-
-      <section>
-        <h3 class="text-center mb-5 font-weight-bold">There are two main ways you can contribute:</h3>
-
-        <div class="row">
-          <div class="col-lg-10 offset-lg-1 col-md-12">
-            <div class="row equal">
-              <% contributions.each do |contribution| %>
-                <div class="col-md-6">
-                  <div class="card-main card-contributing">
-                    <h4 class="camel font-weight-bold"><%= contribution[:title] %></h4>
-                    <p class="grey"><%= contribution[:description] %></p>
-                    <p>Tasks include:</p>
-                    <ul class="dashed">
-                      <% contribution[:tasks].each do |task| %>
-                        <li class="grey"><%= task %></li>
-                      <% end %>
-                    </ul>
-                    <div class="card-contributing-base">
-                      <div class="btn-wrap">
-                        <%= link_to 'View on GitHub', github_link(contribution[:path]), class: 'button button--primary', target: '_blank' %>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <% end %>
-            </div>
-          </div>
-        </div>
-
-        <br/>
-
-      </section>
-    </div>
+<div class="container">
+  <div class="page-intro">
+    <h1 class="page-intro__title">How to Contribute</h1>
+    <p class="page-intro__text">
+      The Odin Project is an Open Source project, built and maintained by volunteers who dedicate their time and skills to making The Odin Project one of the best free education platforms on the web. We are always working on projects to improve Odin and are always looking for people who want join our growing team of maintainers. If you would like to join Odin as a maintainer, please <a href="mailto:contact@theodinproject.com">reach out to us.</a>
+    </p>
   </div>
-    <%
-      reasons = [
-        { icon: "contributing/img-clock.svg", alt_text: "Clock", title: "Flexibility", body: "You can work on your own time. It's not 9 to 5 so you can get involved when it's convenient for you."},
-        { icon: "contributing/img-exposure.svg", alt_text: "Person with Loudspeaker", title: "Exposure", body: "Contributors will be listed on the page and on Github, where you can show people your work!" },
-        { icon: "contributing/img-job.svg", alt_text: "Briefcase", title: "Job Focus", body: "You'll learn the skills that are in demand and the discipline that will put you at the top." },
-        { icon: "contributing/img-community.svg", alt_text: "Group Chat", title: "Community", body: "Start building your network! Find others that can work in your schedule and interests." }
-      ]
-    %>
 
-    <section class="light-grey">
-      <div class="container">
-        <h2 class="text-center camel mb-5 font-weight-bold">Benefits of Contributing</h2>
-        <div class="row pt-5">
-        <% reasons.each_with_index do |reason, index| %>
-          <div class="col">
-            <div class="media w-75 mx-auto">
-              <%= image_tag reason[:icon], alt: reason[:alt_text], class: "d-flex mr-3 align-self-center" %>
-              <div class="media-body">
-                <h5 class="camel mt-0 font-weight-bold"><%= reason[:title] %></h5>
-                <%= reason[:body] %>
-              </div>
-            </div>
-          </div>
-          <% if index % 2 != 0 %>
-            <div class="w-100 mb-5"></div>
-          <% end %>
-        <% end %>
-        </div>
-
-      </div>
-    </section>
-    <section class="gradient">
-      <%= render "static_pages/contributing/contributors" %>
-    </section>
+  <%= render 'static_pages/contributing/contributing_options' %>
 </div>
+
+<%= render 'static_pages/contributing/benefits' %>
+
+<%= render "static_pages/contributing/hall_of_fame" %>
