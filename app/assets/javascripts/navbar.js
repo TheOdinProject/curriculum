@@ -11,3 +11,20 @@ document.addEventListener('turbolinks:load', function() {
     logo.classList.toggle('expanded')
   })
 })
+
+
+
+document.addEventListener('DOMContentLoaded', function(e) {
+  var documentWidth = document.documentElement.clientWidth;
+  console.log("document width", documentWidth);
+  var documentHeight = document.documentElement.clientHeight;
+  console.log("document height", documentHeight);
+
+  if(documentWidth < 480) {
+    var navbar = document.querySelector('.navbar-collapse .navbar-nav');
+    var style = window.getComputedStyle(navbar);
+    navbar.style.height = documentHeight;
+    console.log("navbar height", style.getPropertyValue('height'));
+  }
+
+})
