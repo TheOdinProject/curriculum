@@ -149,6 +149,8 @@
 @media (max-width: 480px) {
   .navbar {
     padding: 0 20px;
+    max-height: 100vh;
+    margin-bottom: 0;
     
     .navbar-nav {      
       .nav-link {
