@@ -1148,6 +1148,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Mayank Patel's Solution (Easy)](https://maknahar.github.io/op/google-homepage/) | [View in browser](https://maknahar.github.io/op/google-homepage/)
 * [Akshat Dubey's Solution (Easy)](https://github.com/akshatdb/google-homepage) | [View in browser](https://akshatdb.github.io/google-homepage/)
 * [Siddharth Jaiswal's Solution(Easy)](https://github.com/Sidd0602/google-homepage/) | [View in browser](https://sidd0602.github.io/google-homepage/)
+* [Anik Pramanik's Solution(Easy)](https://github.com/radioactive001/google-homepage) | [View in browser](https://cdn.rawgit.com/radioactive001/google-homepage/0890d71e/index.html)
 
 ### Additional Resources
 
