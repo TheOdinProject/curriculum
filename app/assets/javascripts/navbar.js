@@ -56,21 +56,3 @@ document.addEventListener('turbolinks:load', function(e) {
   });
 
 });
-
-
-// var navbar = document.querySelector('.navbar-collapse .navbar-nav');
-// var toggler = document.querySelector('button.navbar-toggler');
-// var documentHeight = document.documentElement.clientHeight;
-// var newHeight = documentHeight + 60;
-// navbar.style.height = newHeight + 'px';
-// var height = window.getComputedStyle(navbar).getPropertyValue('height');
-
-// console.log("document height", documentHeight);
-// console.log("Navbar height", height);
-// if (!ticking) {
-//   window.requestAnimationFrame(function() {
-//     doSomething(last_known_scroll_position);
-//     ticking = false;
-//   });
-// }
-// ticking = true;
