@@ -659,3 +659,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
 * [Robtak's solution](https://github.com/robtak/Project-Etch-A-Sketch) |[View in browser](https://robtak.github.io/Project-Etch-A-Sketch/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/etch-a-sketch/) |[View in browser](https://ncud4bloc.github.io/etch-a-sketch/HTML/index.html)
+* https://github.com/fullpruf/etch-a-sketch
