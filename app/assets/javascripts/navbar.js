@@ -1,30 +1,76 @@
-document.addEventListener('turbolinks:load', function() {
+function toggleNav() {
   var logo = document.querySelector('.navbar-brand')
   var logoText = document.querySelector('.logo-text')
   var logoImg = document.querySelector('.logo-img')
 
   var navToggle = document.querySelector('.navbar-toggler')
 
-  navToggle.addEventListener('click', function() {
-    logoText.classList.toggle('expanded')
-    logoImg.classList.toggle('expanded')
-    logo.classList.toggle('expanded')
-  })
-})
+  logoText.classList.toggle('expanded')
+  logoImg.classList.toggle('expanded')
+  logo.classList.toggle('expanded')
+}
 
+function fixIOSSpacing() {
+  console.log("Firing fixIOSSpacing"); 
+  var spacer = document.querySelector('.ios-bottom-padding');
+  var expandedNav = document.querySelector('.navbar-brand.expanded');
 
+  // If navbar overlay is closed, remove white spacer at bottom
+  if(!expandedNav) {
+    console.log("need to remove spacer");
+    if(spacer) {
+      spacer.parentNode.removeChild(spacer);
+    }
+  } else {
+    console.log("Listening for scroll");
+    window.addEventListener('scroll', function(e) {
+      if(!spacer && expandedNav) {
+        console.log("No spacer and nav is expanded so add spacer");
+        spacer = document.createElement('div');
+        spacer.className = 'ios-bottom-padding';
+        spacer.style.height = '80px';
+        spacer.style.position = 'fixed';
+        spacer.style.bottom = '0';
+        spacer.style.width = '100%';
+        spacer.style.background = 'white';
+        spacer.style.zIndex = '2';
 
-document.addEventListener('DOMContentLoaded', function(e) {
-  var documentWidth = document.documentElement.clientWidth;
-  console.log("document width", documentWidth);
-  var documentHeight = document.documentElement.clientHeight;
-  console.log("document height", documentHeight);
-
-  if(documentWidth < 480) {
-    var navbar = document.querySelector('.navbar-collapse .navbar-nav');
-    var style = window.getComputedStyle(navbar);
-    navbar.style.height = documentHeight;
-    console.log("navbar height", style.getPropertyValue('height'));
+        var body = document.querySelector('body');
+        console.log("Body height", body.clientHeight);
+        body.appendChild(spacer);
+      }
+    });
   }
+}
 
-})
+document.addEventListener('turbolinks:load', function(e) {
+  var documentWidth = document.documentElement.clientWidth;
+  var toggler = document.querySelector('button.navbar-toggler');
+      
+  toggler.addEventListener('click', function(e) {
+    toggleNav();
+
+    if(documentWidth < 480) {
+      fixIOSSpacing();
+    }
+  });
+
+});
+
+
+// var navbar = document.querySelector('.navbar-collapse .navbar-nav');
+// var toggler = document.querySelector('button.navbar-toggler');
+// var documentHeight = document.documentElement.clientHeight;
+// var newHeight = documentHeight + 60;
+// navbar.style.height = newHeight + 'px';
+// var height = window.getComputedStyle(navbar).getPropertyValue('height');
+
+// console.log("document height", documentHeight);
+// console.log("Navbar height", height);
+// if (!ticking) {
+//   window.requestAnimationFrame(function() {
+//     doSomething(last_known_scroll_position);
+//     ticking = false;
+//   });
+// }
+// ticking = true;
