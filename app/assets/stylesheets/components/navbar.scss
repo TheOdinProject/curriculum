@@ -149,10 +149,12 @@
 @media (max-width: 480px) {
   .navbar {
     padding: 0 20px;
-    max-height: 100vh;
-    margin-bottom: 0;
+    // max-height: 100vh;
+    // margin-bottom: 0;
     
-    .navbar-nav {      
+    .navbar-nav {
+      height: 100vh;
+
       .nav-link {
         font-size: 24px;
       }
