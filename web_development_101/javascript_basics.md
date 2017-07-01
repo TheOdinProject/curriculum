@@ -28,6 +28,8 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Joyce's solution for problem 1](https://gist.github.com/thejoycekung/9e081780609b5f7b408f9c436dc14252) 
+* [Akshat Dubey's solution to problem 1,2,3 and 4 (with variable inputs)](https://github.com/akshatdb/EulerSolutions) | [View in browser](https://akshatdb.github.io/EulerSolutions/)
 * [Ivan Marquez's solution to problem 1 and 2](https://github.com/Marq27/problem1)
 * [cj-sv's solution to problem 1 and 2](https://github.com/cj-sv/project-euler)
 * [oheydrew's solution for problems 1 & 2](https://github.com/oheydrew/euler) | [View in browser](https://oheydrew.github.io/euler/)
