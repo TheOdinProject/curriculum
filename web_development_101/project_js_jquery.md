@@ -36,6 +36,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 * Add your solution below this line!
 *[Tristyn's solution](https://github.com/tristyn-maalouf/query-pen) | [View in browser](https://tristyn-maalouf.github.io/query-pen/)
+* [Akshat Dubey's solution](https://github.com/akshatdb/Sketchpad) | [View in browser](https://akshatdb.github.io/Sketchpad/)
 * [endotnick's Solution](https://github.com/endotnick/odin-sketchpad) | [View in browser](http://nickrodriguez.tech/odin-sketchpad/)
 * [Charalamboss Solution](https://github.com/Charalamboss/Javascript-and-jQuery101) | [View in browser](https://charalamboss.github.io/Javascript-and-jQuery101/)
 * [Anton Smid's solution](https://github.com/AntonSmid/Etch-A-Sketch) | [View in browser](https://antonsmid.github.io/Etch-A-Sketch/)
