@@ -190,7 +190,7 @@ module ApplicationHelper
   end
 
   def bootstrap_classes
-    { 'notice' => 'alert-success', 'alert' => 'alert-error' }
+    { 'notice' => 'alert-success', 'alert' => 'alert-danger' }
   end
 
    def medium_blog_path
