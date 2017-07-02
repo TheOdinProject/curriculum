@@ -139,8 +139,9 @@
       }
     }
     .navbar-nav {
+      margin-top: 20px;
       height: calc(100vh - 68px);
-      padding: 20px 0 130px 0;
+      padding: 20px 0 40px 0;
       display: flex;
       .dropdown-divider {
         background-color: $primary;
@@ -166,6 +167,9 @@
           text-shadow: 0px 0px 8px rgba(204, 149, 67, .5);
         }
       }
+      .divider {
+        display: none;
+      }
     }
     .background {
       background-color: #fff;
@@ -179,20 +183,22 @@
       height: 100%;
       z-index: -100;
     }
-
-    .navbar-nav {
-      margin-top: 20px;
-
-      .divider {
-        display: none;
-      }
-    }
   }
 }
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 0 33px;
+    padding: 0 20px;
+    
+    .navbar-nav {
+      margin-top: 0;
+      
+      .nav-link {
+        font-size: 24px;
+        padding: 0;
+      }
+    } 
+  
     .navbar-toggler {
       margin-right: 33px;
     }
@@ -208,9 +214,32 @@
 
 @media (max-width: 480px) {
   .navbar {
-   padding: 0 20px;
-   .navbar-toggler {
+    padding: 0 20px;
+
+    .navbar-toggler {
       margin-right: 20px;
     }
+  }
+}
+
+// Fix toggled nav overlay on iOS
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .navbar {
+    
+    .navbar-nav {
+      padding-bottom: 120px;
+      padding-top: 0;
+      height: calc(100vh - 120px);
+
+      .nav-link {
+        font-size: 24px;
+        padding: 0;
+      }
+    } 
+
   }
 }
