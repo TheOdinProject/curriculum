@@ -1,0 +1,35 @@
+<div class="row project">
+  <div class="col-6 col-sm-5 col-md-4 col-lg-3 votes">
+    <% if current_user %>
+      <%= button_to lesson_project_votes_path(project.lesson.id, project.id),
+          method: :post,
+          remote: true,
+          class: 'button button--primary vote-button' do %>
+          <i class="fa fa-angle-up"></i>
+      <% end %>
+    <% end %>
+
+    <span class="votes-count">
+      <%= project.total_number_of_votes %>
+    </span>
+
+    <% if current_user %>
+      <%= button_to lesson_project_vote_path(project.lesson_id, project.id),
+          method: :delete,
+          remote: true,
+          class: 'button button--primary vote-button' do %>
+          <i class="fa fa-angle-down"></i>
+      <% end %>
+    <% end %>
+  </div>
+
+  <div class="col-6 col-sm-7 col-md-8 col-lg-3 owner-name bold">
+    <%= project.owner_name.capitalize %>
+  </div>
+
+  <div class="col-lg-6 project-buttons">
+    <%= link_to 'View Code', project.repo_url, class: 'button project-button', target: '_blank' %>
+
+    <%= link_to 'Live Preview', project.live_preview, class: 'button project-button live-preview-button', target: '_blank' %>
+  </div>
+</div>
