@@ -95,6 +95,6 @@ class Lesson < ApplicationRecord
   end
 
   def is_not_a_ruby_project?
-    title !=  'Ruby' && course_title != 'Ruby Programming'
+    title != 'Ruby' && course_title != 'Ruby Programming'
   end
 end

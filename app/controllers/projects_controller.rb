@@ -1,9 +1,9 @@
 class ProjectsController < ApplicationController
-  before_action :authenticate_request, except: [:index]
+  before_action :authenticate_request, except: :index
   before_action :find_lesson
-  before_action :find_project, only: [:update, :destroy]
+  before_action :find_project, only: %i(update destroy)
 
-  authorize_resource only: [:update, :destroy]
+  authorize_resource only: %i(update destroy)
 
   def index
     @projects = projects
@@ -35,7 +35,10 @@ class ProjectsController < ApplicationController
   end
 
   def set_recent_submissions
-    @submissions = Project.all_submissions(@lesson.id).limit(10)
+    @submissions = Project
+                   .all_submissions(@lesson.id)
+                   .where.not(user_id: current_user.id)
+                   .limit(10)
   end
 
   def find_project
