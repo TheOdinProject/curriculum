@@ -38,7 +38,7 @@
           <% end %>
         <% else %>
           <% classes =  "lc-circle" %>
-          <% classes <<  ( current_user.completed_lesson?(l) ? ' lc-complete' : ' lc-pending' ) %>
+          <% classes <<  ( current_user.has_completed?(l) ? ' lc-complete' : ' lc-pending' ) %>
           <% classes << ( l.is_project ? ' lc-project' : ' lc-lesson' ) %>
           <%= link_to course_lesson_path(l.course, l, :ref => "lc-pb") do %>
             <div  class="<%= classes %>"

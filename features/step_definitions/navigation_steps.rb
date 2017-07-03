@@ -1,6 +1,12 @@
-Given(/^I am in the '([^']+)' course page$/) do |course_title|
+Given(/^I am on the '([^']+)' course page$/) do |course_title|
   @course_title = course_title.parameterize
   visit "/courses/#{@course_title}"
+end
+
+When(/I go to the '([^']+)' course page/) do |course_title|
+  course_title_parametrized = course_title.parameterize
+  course_url = "/courses/#{course_title_parametrized}"
+  visit course_url
 end
 
 When(/^I go to the '([^']+)' lesson page$/) do |lesson_title|

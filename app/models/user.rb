@@ -1,23 +1,20 @@
 class User < ApplicationRecord
-  devise :database_authenticatable, :registerable, :omniauthable,
-         :recoverable, :rememberable, :trackable, :validatable, :confirmable
+  devise :database_authenticatable, :registerable, :recoverable,
+         :rememberable, :trackable, :validatable, :confirmable,
+         :omniauthable, :omniauth_providers => [:github]
 
   validates_uniqueness_of :username, :email
-  validates_presence_of :legal_agreement, message: "Don't forget the legal stuff!", on: :create
   validates :username, length: { in: 4..20 }
 
   has_many :lesson_completions, foreign_key: :student_id
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :projects
 
-  def self.by_latest_completion
-    User.left_outer_joins(:lesson_completions)
-        .select('max(lesson_completions.created_at) as latest_completion_date, users.*')
-        .group('users.id')
-        .order('latest_completion_date desc nulls last')
+  def completion_status(lesson)
+    has_completed?(lesson) ? 'Completed' : 'Incomplete'
   end
 
-  def completed_lesson?(lesson)
+  def has_completed?(lesson)
     completed_lessons.exists?(lesson.id)
   end
 
@@ -34,20 +31,31 @@ class User < ApplicationRecord
     ordered_lesson_completions.last
   end
 
+  def image(size = 25)
+    avatar || default_image(size)
+  end
+
   def self.from_omniauth(auth)
-    where(auth.slice(:provider, :uid).to_hash).first_or_create(
-      provider: auth[:provider],
-      uid: auth[:uid],
-      username: auth[:info][:name],
-      email: auth[:info][:email]
-    )
+    where(provider: auth.provider, uid: auth.uid).first_or_create! do |user|
+      user.provider = auth.provider
+      user.uid = auth.uid
+      user.email = auth.info.email
+      user.username = auth.info.name
+      user.avatar = auth.info.image
+      user.skip_confirmation!
+    end
+  end
+
+  def update_avatar(github_avatar)
+    self.update!(avatar: github_avatar)
   end
 
   def add_omniauth(auth)
-    self.provider ||= auth['provider']
-    self.uid ||= auth['uid']
-    save
-    self
+    self.tap do |user|
+      user.provider ||= auth['provider']
+      user.uid ||= auth['uid']
+      user.save
+    end
   end
 
   def password_required?
@@ -61,18 +69,19 @@ class User < ApplicationRecord
 
   private
 
+  def default_image(size)
+    "http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=#{size}"
+  end
+
   def ordered_lesson_completions
     lesson_completions.order(created_at: :asc)
   end
 
   def self.new_with_session(params, session)
-    if session['devise.user_attributes']
-      new(session['devise.user_attributes']) do |user|
-        user.attributes = params
-        user.valid?
+    super.tap do |user|
+      if data = session["devise.github_data"] && session["devise.github_data"]["extra"]["raw_info"]
+        user.email = data["email"] if user.email.blank?
       end
-    else
-      super
     end
   end
 

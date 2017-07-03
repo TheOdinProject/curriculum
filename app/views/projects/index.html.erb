@@ -1,0 +1,29 @@
+<div class="gradient">
+  <%= render 'courses/course/banner', course: @course, show_completion_percent: false %>
+
+  <h2 class="text-center text-uppercase accent"><%= @lesson.title %></h2>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <div id="submissions" class="card-main">
+          <% if @projects.any? %>
+            <% @projects.each do |project| %>
+              <%= render 'project', project: ProjectDecorator.new(project) %>
+            <% end %>
+          <% else %>
+            <h4 class="text-center accent">The project does not have any submissions yet</h4>
+          <% end %>
+
+          <%= paginate @projects %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <%= render 'shared/bottom_cta',
+      heading: 'Got questions?',
+      subheading: 'Chat with our friendly Odin community in our Gitter chatrooms',
+      button: gitter_button
+  %>
+</div>

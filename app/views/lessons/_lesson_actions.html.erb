@@ -1,0 +1,19 @@
+<div class="row buttons-container">
+  <div class="col col-sm-6 col-md-4">
+    <%= link_to 'View Course',
+        course_path(lesson.course.title_url, ref: 'lnav'),
+        title: "Go back to '#{lesson.course.title}'",
+        class: 'button button--secondary' %>
+  </div>
+
+  <div class="col col-sm-6 col-md-4 lesson-completion-wrapper">
+    <%= render 'lesson_completion_actions', lesson: lesson %>
+  </div>
+
+  <div class="col col-sm-6 col-md-4 next-lesson-button">
+    <%= link_to 'Next Lesson',
+        course_lesson_path(lesson.course, lesson.next_lesson, ref: 'lnav'),
+        title: "Move on to '#{lesson.next_lesson.title}'",
+        class: 'button button--secondary' %>
+  </div>
+</div>

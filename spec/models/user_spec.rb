@@ -8,10 +8,12 @@ RSpec.describe User do
       legal_agreement: 'true',
       password: 'foobar',
       provider: provider,
-      uid: ''
+      uid: '',
+      avatar: avatar
     )
   }
   let(:provider) { '' }
+  let(:avatar) { 'http://github.com/fake-avatar' }
 
   let(:lesson_completions) {
     [first_lesson_completion, second_lesson_completion]
@@ -50,76 +52,11 @@ RSpec.describe User do
 
   it { is_expected.to validate_uniqueness_of(:username) }
 
-  it {
-    is_expected.to validate_presence_of(:legal_agreement)
-      .with_message("Don't forget the legal stuff!")
-  }
-
   it { is_expected.to validate_length_of(:username) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completed_lessons) }
 
-  describe '.by_latest_completion' do
-    let(:first_user) {
-      double(
-        'User',
-        id: 1,
-        lesson_completions: [completed_lesson]
-      )
-    }
-
-    let(:completed_lesson) {
-      double(
-        'LessonCompletion',
-        student_id: 1,
-        created_at: DateTime.new(2016, 11, 7)
-      )
-    }
-
-    let(:second_user) {
-      double(
-        'User',
-        id: 2,
-        lesson_completions: [second_completed_lesson]
-      )
-    }
-
-    let(:second_completed_lesson) {
-      double(
-        'LessonCompletion',
-        student_id: 2,
-        created_at: DateTime.new(2016, 11, 10)
-      )
-    }
-
-    let(:users_completed_lessons) { double('ActiveRecord::Relation') }
-    let(:users_by_last_completed_lesson) { double('ActiveRecord::Relation') }
-    let(:grouped_by_users) { double('ActiveRecord::Relation') }
-
-    before do
-      allow(User).to receive(:left_outer_joins)
-        .with(:lesson_completions)
-        .and_return(users_completed_lessons)
-
-      allow(users_completed_lessons).to receive(:select)
-        .with('max(lesson_completions.created_at) as latest_completion_date, users.*')
-        .and_return(users_by_last_completed_lesson)
-
-      allow(users_by_last_completed_lesson).to receive(:group)
-        .with('users.id')
-        .and_return(grouped_by_users)
-
-      allow(grouped_by_users).to receive(:order)
-        .with('latest_completion_date desc nulls last')
-        .and_return([second_user, first_user])
-    end
-
-    it 'returns users ordered by thier latest lesson completion' do
-      expect(User.by_latest_completion).to eql([second_user, first_user])
-    end
-  end
-
-  describe '#completed_lesson?' do
+  describe '#has_completed?' do
     let(:exists?) { true }
 
     before do
@@ -127,14 +64,14 @@ RSpec.describe User do
     end
 
     it 'returns true' do
-      expect(user.completed_lesson?(first_lesson_completion)).to eql(true)
+      expect(user.has_completed?(first_lesson_completion)).to eql(true)
     end
 
     context 'when the passed in lesson hasnt been completed' do
       let(:exists?) { false }
 
       it 'returns false' do
-        expect(user.completed_lesson?(second_lesson_completion)).to eql(false)
+        expect(user.has_completed?(second_lesson_completion)).to eql(false)
       end
     end
   end
@@ -173,6 +110,21 @@ RSpec.describe User do
     end
   end
 
+  describe '#image' do
+    it 'returns the users avatar' do
+      expect(user.image).to eql('http://github.com/fake-avatar')
+    end
+
+    context 'when the user does not have an avatar' do
+      let(:avatar) { nil }
+      let(:gravatar) { 'http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=25' }
+
+      it 'returns the users avatar' do
+        expect(user.image).to eql(gravatar)
+      end
+    end
+  end
+
   describe '.from_omniauth' do
     let(:user) {
       FactoryGirl.create(
@@ -194,14 +146,21 @@ RSpec.describe User do
     }
 
     let(:auth) {
-      {
+      double(
+        'OmniAuth::AuthHash',
         provider: 'github',
         uid: '123',
-        info: {
-          name: 'kevin',
-          email: 'kevin@example.com'
-        }
-      }
+        info: info
+      )
+    }
+
+    let(:info) {
+      double(
+        'OmniAuth::AuthHash::InfoHash',
+        name: 'kevin',
+        email: 'kevin@example.com',
+        image: 'http://github.com/fake-avatar'
+      )
     }
 
     before do
@@ -216,6 +175,16 @@ RSpec.describe User do
 
     it 'returns the user' do
       expect(User.from_omniauth(auth)).to eql(user)
+    end
+  end
+
+  describe '#update_avatar' do
+    let(:github_avatar) { 'http://github.com/fake-avatar' }
+    let(:avatar) { nil }
+
+    it 'updates the users avatar' do
+      user.update_avatar(github_avatar)
+      expect(user.avatar).to eql('http://github.com/fake-avatar')
     end
   end
 

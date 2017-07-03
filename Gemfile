@@ -1,16 +1,18 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.3'
 
 gem 'rails',                        '~> 5.0.0'
 gem 'puma',                         '~> 3.6.0'
+gem 'turbolinks'
 gem 'simple_form',                  '3.3.1'
 gem 'jquery-rails',                 '~> 4.2.1'
+gem 'jquery-ui-rails'
 gem 'google-api-client',            '~> 0.9'
 gem 'devise',                       '~> 4.2.0'
 gem 'figaro',                       '1.1'      # Managing environment variables
 gem 'rack-timeout',                 '~> 0.4'
 gem 'redcarpet',                    '~> 3.3'   # to render the curriculum's .md files as html
-gem 'will_paginate',                '~> 3.1'   # to paginate student lists
+gem 'kaminari',                     '~> 1.0', '>= 1.0.1'
 gem 'pg',                           '~> 0.19'
 gem 'nokogiri',                     '~> 1.6'
 gem 'premailer-rails',              '~> 1.9'
@@ -20,14 +22,15 @@ gem 'omniauth-github',              '~> 1.1.2' #for Github Authentication
 gem 'font-awesome-rails',           '~> 4.7'
 gem 'sass-rails',                   '~> 5.0'
 gem 'coffee-rails',                 '~> 4.2'
-gem 'twitter-bootstrap-rails',      '~> 2.2.8'
-gem 'therubyracer',                 '~> 0.12'  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-gem 'less-rails',                   '~> 2.8'
+gem 'bootstrap',                    '~> 4.0.0.alpha6'
 gem 'uglifier',                     '~> 3.0'
 gem 'shortener',                    '~> 0.5'
 gem 'friendly_id',                  '~> 5.1'
 gem 'cancancan',                    '~> 1.15'
 gem 'rack-attack'
+gem 'best_in_place',                '~> 3.0.1'
+gem 'tether-rails' # dependency for bootstrap tooltips
+gem 'acts_as_votable'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.3'

@@ -1,0 +1,7 @@
+<div class="sections-list">
+  <% sections.each_with_index do |section, index| %>
+    <%= render 'courses/course/section',
+      section: section,
+      section_index: index + 1 %>
+  <% end %>
+</div> <!-- /.sections-list -->

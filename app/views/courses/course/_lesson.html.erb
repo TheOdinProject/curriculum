@@ -1,0 +1,16 @@
+<div class="row course-lesson align-items-center">
+  <div class="col-md-10 lesson-link align-items-center">
+    <%= link_to course_lesson_path(lesson.course, lesson) do %>
+      <div class="lesson-link-text">
+        <span><%= section_index %>.<%= lesson_index %></span>
+
+        <span class="lesson-title">
+          <%= 'Project:' if lesson.is_project?  %>
+          <%= lesson.title %>
+        </span>
+      </div> <!-- /.lesson-link-text -->
+    <% end %>
+  </div> <!-- /.lesson-link -->
+
+  <%= render 'lessons/lesson_completion_status', lesson: lesson %>
+</div> <!-- /.row -->

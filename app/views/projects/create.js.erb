@@ -1,0 +1,17 @@
+<% if @project.valid? %>
+  toastr.success('Your submission was added', 'Success!');
+  $('#project-submission-modal').modal('hide');
+  $('#add-submission-button').remove();
+
+  $('#submissions').html("<%= j render 'lessons/submissions', submissions: @submissions %>");
+  $('#project-submission-modal-wrapper')
+    .html("<%= j render 'form_modal', lesson: @lesson, project: @project %>");
+  $('body')
+    .prepend("<%= j render 'projects/delete_modal', lesson: @lesson, project: @project %>");
+
+<% else %>
+  toastr.error('<%= @project.errors.full_messages[0] %>', 'Error', {
+    closeButton: 'true',
+    tapToDismiss: false,
+  });
+<% end %>

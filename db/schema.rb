@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161224052711) do
+ActiveRecord::Schema.define(version: 20170629181228) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -93,6 +93,7 @@ ActiveRecord::Schema.define(version: 20161224052711) do
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
     t.index ["lesson_id"], name: "index_projects_on_lesson_id", using: :btree
+    t.index ["user_id", "lesson_id"], name: "index_projects_on_user_id_and_lesson_id", unique: true, using: :btree
     t.index ["user_id"], name: "index_projects_on_user_id", using: :btree
   end
 
@@ -109,6 +110,16 @@ ActiveRecord::Schema.define(version: 20161224052711) do
     t.index ["title_url"], name: "index_sections_on_title_url", using: :btree
   end
 
+  create_table "success_stories", force: :cascade do |t|
+    t.string   "student_name"
+    t.string   "avatar_path_name"
+    t.text     "story_content"
+    t.string   "job_title"
+    t.string   "social_media_link"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "",    null: false
     t.string   "encrypted_password",     default: "",    null: false
@@ -123,7 +134,7 @@ ActiveRecord::Schema.define(version: 20161224052711) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "username"
-    t.text     "about"
+    t.text     "learning_goal"
     t.string   "github"
     t.string   "twitter"
     t.string   "facebook"
@@ -140,11 +151,26 @@ ActiveRecord::Schema.define(version: 20161224052711) do
     t.datetime "confirmation_sent_at"
     t.string   "unconfirmed_email"
     t.boolean  "admin",                  default: false, null: false
+    t.string   "avatar"
     t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree
     t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
     t.index ["legal_agreement"], name: "index_users_on_legal_agreement", using: :btree
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
     t.index ["username"], name: "index_users_on_username", unique: true, using: :btree
+  end
+
+  create_table "votes", force: :cascade do |t|
+    t.string   "votable_type"
+    t.integer  "votable_id"
+    t.string   "voter_type"
+    t.integer  "voter_id"
+    t.boolean  "vote_flag"
+    t.string   "vote_scope"
+    t.integer  "vote_weight"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["votable_id", "votable_type", "vote_scope"], name: "index_votes_on_votable_id_and_votable_type_and_vote_scope", using: :btree
+    t.index ["voter_id", "voter_type", "vote_scope"], name: "index_votes_on_voter_id_and_voter_type_and_vote_scope", using: :btree
   end
 
   add_foreign_key "projects", "lessons"

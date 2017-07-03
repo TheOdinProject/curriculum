@@ -1,0 +1,29 @@
+<div class="row course-badge-title-wrapper align-items-center">
+  <%= link_to course, class: 'col-md-8 col-lg-8 pl-0' do %>
+    <div class="course-badge-title align-items-center mb-2">
+      <div class="course-badge">
+        <%= image_tag course.badge, alt: "#{course.title} badge", class: 'course-badge-img' %>
+      </div>
+
+      <div class="course-title text-uppercase">
+        <h2 class="font-weight-bold"><%= course.title %></h2>
+
+        <span class="lessons-count grey">
+          <%= course.lessons_count %> lessons
+        </span>
+      </div> <!-- /.course-title -->
+    </div> <!-- /.course-badge-title -->
+  <% end %>
+
+  <div class="col view-course-button-wrapper">
+    <%= link_to 'Open Course', course, class: 'button button--secondary' %>
+  </div>
+</div> <!-- /.row -->
+
+<div class="row course-description-wrapper">
+  <div class="col">
+    <div class="course-description">
+      <p class="grey"><%= course.description %></p>
+    </div>
+  </div> <!-- /.col -->
+</div> <!-- /.row -->

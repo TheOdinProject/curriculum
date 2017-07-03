@@ -15,12 +15,16 @@ class Course < ApplicationRecord
     100 * (1.0 - uncompleted_lessons_in_course(user) / lessons.count.to_f)
   end
 
+  def completed_by?(user)
+    percent_completed_by(user) == 100
+  end
+
   def lessons_in_course
     lessons.order(position: :asc)
   end
 
-  def sections_in_course
-    sections.order(position: :asc)
+  def lessons_count
+    lessons.count
   end
 
   private

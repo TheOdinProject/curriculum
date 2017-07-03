@@ -71,7 +71,10 @@ RSpec.configure do |config|
   OmniAuth.config.test_mode = true
   OmniAuth.config.mock_auth[:github] = OmniAuth::AuthHash.new(
     provider: 'github',
-    uid: '123'
+    uid: '123',
+    info: {
+      image: 'http://github.com/fake-avatar'
+    }
   )
 
   config.include(Shoulda::Matchers::ActiveModel, type: :model)

@@ -10,6 +10,7 @@ FactoryGirl.define do
     password 'foobar'
     legal_agreement true
     confirmed_at Time.now - 5_000_000
+    avatar 'http://github.com/fake-avatar'
 
     factory :admin do
       admin true
@@ -24,7 +25,6 @@ FactoryGirl.define do
       n
     end
     url 'http://www.bogus.com/subpage/whatever.git'
-    title_url { title.parameterize }
     association :section
     content 'content'
   end
@@ -53,5 +53,6 @@ FactoryGirl.define do
   factory :project do
     repo_url 'https://github.com/user/repo'
     live_preview 'http://mysite.com'
+    user
   end
 end

@@ -1,0 +1,33 @@
+@media (max-width: 992px) {
+  .nav-spacer {
+    height: 132px;
+  }
+  #home-page {
+    .success-stories-container {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    .success-story {
+      flex: 1;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+  }
+
+  h1 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+}

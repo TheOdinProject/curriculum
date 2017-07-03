@@ -1,0 +1,135 @@
+#about {
+  overflow: hidden;
+  .about-page-title {
+    margin-bottom: 70px;
+  }
+
+  .row {
+    padding-bottom: 60px
+  }
+
+  .intro {
+    padding-bottom: 100px;
+  }
+
+  .beliefs {
+    .beliefs-heading {
+      width: 100%;
+      margin-bottom: 60px;
+    }
+
+    .belief {
+
+      .belief-illustration {
+        justify-content: center;
+        display: flex;
+
+        @media screen and (max-width: 575px) {
+          justify-content: center;
+        }
+      }
+
+      .belief-description {
+        .belief-short-text {
+          padding-bottom: 1em;
+        }
+        @media screen and (max-width: 575px) {
+          margin-top: 40px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .story {
+    margin: 30px 0 80px;
+    padding: 100px 20px;
+    h2 {
+      width: 100%;
+    }
+    .timeline {
+      .year {
+        font-weight: 900;
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px);
+      }
+    }
+    @media(max-width: 576px) {
+      margin-bottom: 0px;
+    }
+  }
+
+  .contact {
+    .odin-logo {
+      text-align: center;
+      height: 300px;
+      @include media-breakpoint-up(lg) {
+        text-align: right;
+      }
+      @media(max-width: 360px) {
+          height: 210px;
+        }
+      img {
+        position: absolute;
+        left: -9000px;
+        right: -9000px;
+        margin: -60px auto 0 auto;
+        height: auto;
+        width: 100%;
+      @media(max-width: 576px) {
+          margin-top: -60px;
+          height: auto;
+          width: 100%;
+        }
+      @media(max-width: 480px) {
+          margin-top: -40px;
+          height: auto;
+          width: 120%;
+        }
+      }
+    }
+
+    .contact-details {
+      margin-top: 60px;
+      text-align: center;
+
+      @media(max-width: 768px) {
+        margin-top: 30px;
+      }
+
+      &__sub-heading {
+        padding-bottom: 4.375rem;
+      }
+    }
+  }
+
+  .contribute {
+    background: linear-gradient(white, $light-grey);
+    margin: 0;
+  }
+
+  .goldbar {
+    border-top: solid $primary 2px;
+    position: relative;
+    padding: 20px 0 26px 40px;
+
+    &:before {
+      content: "";
+      display: block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      position: absolute;
+      top: -10px;
+      left: 0;
+      background: $primary;
+    }
+  }
+}
+
+@media (min-width: 942px) {
+  .intro {
+    width: 80%;
+    margin: auto;
+  }
+}

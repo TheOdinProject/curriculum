@@ -2,11 +2,7 @@ class RegistrationsController < Devise::RegistrationsController
   private
 
   def after_sign_up_path_for(_resource)
-    session[:previous_url] || courses_path(ref: 'signup', newuser: 'true')
-  end
-
-  def after_update_path_for(_resource)
-    courses_path
+    dashboard_path
   end
 
   def update_resource(resource, params)

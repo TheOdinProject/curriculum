@@ -1,0 +1,8 @@
+<div class="beliefs">
+  <div class="col-lg-8 offset-lg-2">
+  <h2 class="bold text-center beliefs-heading">Our Beliefs</h2>
+    <% beliefs.each do |belief| %>
+      <%= render 'static_pages/about/belief', belief: belief %>
+    <% end %>
+  </div>
+</div> <!-- /.beliefs -->

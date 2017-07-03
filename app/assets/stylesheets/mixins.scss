@@ -8,6 +8,11 @@
   }
 }
 
+@mixin box-shadow($args...) {
+  -webkit-box-shadow: $args;
+  box-shadow: $args;
+}
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -38,13 +43,33 @@
   transform: translateY($value);
 }
 
-@mixin social-link($color){
+@mixin social-link($color) {
    color: $color;
    -moz-transition: color 0.2s;
    -o-transition: color 0.2s;
-   -webkit-transition: color 0.2s; 
+   -webkit-transition: color 0.2s;
    transition: color 0.2s;
    &:hover{
      color: darken($color, 20%);
-   }      
+   }
+}
+
+@mixin input-placeholder($color) {
+  ::-webkit-input-placeholder {
+    color: $color;
+  }
+  ::-moz-placeholder {
+    color: $color;
+    opacity: 1;
+  }
+  ::-ms-input-placeholder {
+    color: $color;
+  }
+  :-ms-input-placeholder {
+    color: $color;
+  }
+  :-moz-placeholder {
+    color: $color;
+    opacity: 1;
+  }
 }

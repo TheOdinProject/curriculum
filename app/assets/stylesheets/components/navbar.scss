@@ -1,0 +1,245 @@
+.navbar {
+  max-height: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  padding: 0 168px;
+  z-index: 100;
+  .navbar-toggler {
+    height: 68px;
+    .close {
+      display: block;
+      margin-top: 8px;
+      font-size: 48px;
+      color: $button-primary;
+      font-weight: 100;
+    }
+    .open {
+      display: none;
+    }
+    border: none;
+    padding: 0;
+    right: 0;
+    .navbar-toggler-icon {
+      height: 60px;
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#6abfc3' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+      background-position: center;
+    }
+  }
+  .collapsed {
+    .open {
+      display: block;
+    }
+    .close {
+      display: none;
+    }
+  }
+  .navbar-nav {
+    color: #676767;
+    hr {
+      display: none;
+    }
+    .nav-link {
+      color: #676767;
+      text-decoration: none;
+      letter-spacing: 0.2px;
+      line-height: 88px;
+      font-size: 1.1em;
+    }
+    .divider {
+      font-size: 1.5em;
+      line-height: 78px;
+    }
+    .avatar {
+      margin-top: 37.8px;
+      width: 30px;
+      height: 30px;
+      @include border-radius(50%);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+    .drop-down-link:hover {
+      color: $primary;
+    }
+    .menu-options li {
+      vertical-align: top;
+      font-family: $body-fonts;
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.2px;
+    }
+    .menu-options {
+      padding: 8px;
+      @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.2));
+      margin: 15px 0 0 -65px;
+    }
+    //box triangle css
+    .menu-options:after, .menu-options:before {
+      bottom: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+    .menu-options:after {
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: #ffffff;
+      border-width: 10px;
+      margin-left: -10px;
+    }
+    .menu-options:before {
+      border-color: rgba(0, 0, 0, 0);
+      border-bottom-color: #eaeaea;
+      border-width: 12px;
+      margin-left: -12px;
+    }
+    .drop-down-logo {
+      vertical-align: top;
+      display: inline-block;
+      margin: 0 3px;
+      width: 30px;
+      height: 32.5px;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .dashboard-logo {
+      background-image: image-url('icons/icon-dashboard.svg');
+    }
+    .settings-logo {
+      background-image: image-url('icons/icon-settings.svg');
+    }
+    .logout-logo {
+      background-image: image-url('icons/icon-logout.svg');
+    }
+  }
+}
+
+@media (max-width: 1100px) {
+  .navbar {
+    padding: 0 42px;
+    .navbar-toggler {
+      margin-right: 42px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    .navbar-brand {
+      width: 250px;
+      &.expanded {
+        margin: 0;
+        width: 100%;
+      }
+    }
+    .navbar-nav {
+      margin-top: 20px;
+      height: calc(100vh - 68px);
+      padding: 20px 0 40px 0;
+      display: flex;
+      .dropdown-divider {
+        background-color: $primary;
+        margin: .5rem 3em;
+      }
+      .nav-item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .nav-link {
+        font-size: 36px;
+        font-weight: 300;
+        color: $primary;
+        text-decoration: none;
+        letter-spacing: 0.4px;
+        line-height: .8em;
+        text-align: center;
+        transition: all .3s;
+        &:hover {
+          color: $primary;
+          text-shadow: 0px 0px 8px rgba(204, 149, 67, .5);
+        }
+      }
+      .divider {
+        display: none;
+      }
+    }
+    .background {
+      background-color: #fff;
+      -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+      -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.05);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -100;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+    
+    .navbar-nav {
+      margin-top: 0;
+      
+      .nav-link {
+        font-size: 24px;
+        padding: 0;
+      }
+    } 
+  
+    .navbar-toggler {
+      margin-right: 33px;
+    }
+  }
+  .logo {
+    width: 100%;
+
+    .logo-img {
+      float: none;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0 20px;
+
+    .navbar-toggler {
+      margin-right: 20px;
+    }
+  }
+}
+
+// Fix toggled nav overlay on iOS
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .navbar {
+    
+    .navbar-nav {
+      padding-bottom: 120px;
+      padding-top: 0;
+      height: calc(100vh - 120px);
+
+      .nav-link {
+        font-size: 24px;
+        padding: 0;
+      }
+    } 
+
+  }
+}

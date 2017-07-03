@@ -9,13 +9,16 @@ RSpec.describe UserDecorator do
       twitter: user_twitter,
       facebook: user_facebook,
       linkedin: user_linkedin,
-      github: user_github
+      github: user_github,
+      projects: projects
     )
   }
   let(:user_twitter) { 'odinstudent' }
   let(:user_facebook) { 'odinstudent' }
   let(:user_linkedin) { 'odinstudent' }
   let(:user_github) { 'odinstudent' }
+  let(:projects) { [project] }
+  let(:project) { double('Project') }
 
   describe '#twitter_url' do
     it 'returns the users twitter url' do
@@ -91,6 +94,27 @@ RSpec.describe UserDecorator do
 
       it 'returns nil' do
         expect(user_decorator.github_url).to eql(nil)
+      end
+    end
+  end
+
+  describe '#has_projects?' do
+    let(:project_exists?) { true }
+
+    before do
+      allow(projects).to receive(:exists?).and_return(project_exists?)
+    end
+
+    it 'returns true' do
+      expect(user_decorator.has_projects?).to eql(true)
+    end
+
+    context 'when the user does not have any projects' do
+      let(:projects) { [] }
+      let(:project_exists?) { false }
+
+      it 'returns false' do
+        expect(user_decorator.has_projects?).to eql(false)
       end
     end
   end

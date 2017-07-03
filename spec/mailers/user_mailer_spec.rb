@@ -6,13 +6,11 @@ RSpec.describe UserMailer, type: :mailer do
 
     let(:user) { FactoryGirl.create(:user, email: 'kevin@example.com') }
     let(:token) { 'foo123' }
-    let(:lesson) {
-      double('Lesson', title: 'First lesson', title_url: 'first-lesson')
-    }
+    let(:lesson) { double('Lesson', title: 'First lesson') }
     let(:lessons) { [lesson] }
 
     before do
-      allow(Lesson).to receive(:order).with(position: :asc).and_return(lessons)
+      allow(Lesson).to receive(:order).with(:position).and_return(lessons)
     end
 
     it 'renders the correct sender address' do
@@ -24,7 +22,7 @@ RSpec.describe UserMailer, type: :mailer do
     end
 
     it 'renders a link to the correct first lesson' do
-      expect(welcome_email.body.encoded).to match('first-lesson')
+      expect(welcome_email.body.encoded).to match('First lesson')
     end
 
     it 'includes an attachment' do
@@ -32,7 +30,7 @@ RSpec.describe UserMailer, type: :mailer do
     end
 
     it 'renders the correct attachment' do
-      expect(welcome_email.attachments[0].filename).to eql('logo.gif')
+        expect(welcome_email.attachments[0].filename).to eql('logo.svg')
     end
 
     it 'renders the correct subject' do

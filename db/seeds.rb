@@ -1,6 +1,10 @@
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 
+
+# GENERATE SUCCESS STORY Content
+load './db/seeds/success_stories.rb'
+
 # ******* NOTE ********
 # You will have problems if you try to change the titles of courses/sections/lessons, since that's currently what's used to uniquely identify them!
 # *********************
@@ -81,117 +85,6 @@ def require_updates?(real_attrs, seed_attrs)
 end
 
 # ************************************************
-# CREATE INTRO TO WEB DEVELOPMENT COURSE
-# ************************************************
-Rails.logger.info "\n\n***** STARTING COURSE: Introduction to Web Development *****"
-
-course_position += 1
-
-course = create_or_update_course(
-  title: "Introduction to Web Development",
-  title_url: "Introduction to Web Development".parameterize,
-  teaser: "Start Here!",
-  brief_desc: "This course will start from zero, answering the basic questions people have about the actual practice and career of web development.  You'll gain a much better understanding of what you're about to get into!",
-  description: "This short course is about answering the basic questions people have about the actual practice and career of web development. Because, let's be honest, even if you've got a strong feeling that you like building things and web development is the right path for you, you still probably don't have a great idea of what developers actually do... and that's where everyone starts so it's okay.",
-  position: course_position,
-  you_learn: ["What a web developer really does", "The tools of the trade", "How to get hired as a web developer"],
-  you_build: ["Hold on, you'll be building soon!"],
-  is_active: true
-)
-
-# +++++++++++
-# SECTION
-# +++++++++++
-
-section_position += 1
-
-section = create_or_update_section(
-  title: "About Web Developers",
-  title_url: "About Web Developers".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "Start from the beginning and learn about what a web developer really does and what the field of web development is really like."
-)
-
-lesson_counter += 1
-
-create_or_update_lesson(
-  title: "What a Web Developer Does",
-  title_url: "What a Web Developer Does".parameterize,
-  description: "From what a developer actually does to key distinctions like Front End vs Back End, Web Developers vs Web Designers, and Web Sites vs Web Applications",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/introduction_to_web_development/what_does_a_web_dev_do.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Web Development Jobs and Careers",
-  title_url: "Web Development Jobs and Careers".parameterize,
-  description: "Some brief examples of what developer roles are like in a variety of different organizations",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/introduction_to_web_development/web_dev_jobs.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Tools of the Trade",
-  title_url: "Tools of the Trade".parameterize,
-  description: "An overview of the different tools that web developers use to get their work done",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/introduction_to_web_development/tools_of_the_trade.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Web Development Communities",
-  title_url: "Web Development Communities".parameterize,
-  description: "Developers are a surprisingly social group, and here's how to find them both online and in-person",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/introduction_to_web_development/web_dev_communities.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "The Best Web Developers",
-  title_url: "The Best Web Developers".parameterize,
-  description: "Some tips on what makes a great web developer",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/introduction_to_web_development/the_best_web_devs.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Getting Hired as a Web Developer",
-  title_url: "Getting Hired as a Web Developer".parameterize,
-  description: "Briefly demystifying what employers are actually looking for in a web developer and what the process might look like for you to get hired",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/introduction_to_web_development/getting_hired_as_a_web_dev.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Conclusion",
-  title_url: "Conclusion".parameterize,
-  description: "A look ahead at your upcoming journey down the web development rabbit hole",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/introduction_to_web_development/conclusion.md"
-)
-
-# ************************************************
 # CREATE WEB DEVELOPMENT 101 COURSE
 # ************************************************
 Rails.logger.info "\n\n***** STARTING COURSE: Web Development 101 *****"
@@ -201,8 +94,8 @@ course = create_or_update_course(
   title: "Web Development 101",
   title_url: "Web Development 101".parameterize,
   teaser: "A Healthy Dose of Everything",
-  brief_desc: "This course is for anyone who is either starting from scratch or who isn't entirely comfortable with their understanding of the command line, HTML, CSS, Javascript, Ruby, web frameworks, Git, or other foundational technologies and practices of web development.  We cover a LOT of ground -- by the end of this comprehensive course, you'll be well prepared to take on our deep dive courses or explore further on your own.",
-  description: "Now that you know what web developers do, it's time to start thinking about how they actually do it. In this course, you'll learn the foundational concepts of web programming. By the end, you will be able to build a simple webpage, style it, and add elements of interactivity while working comfortably from the command line.  You will be comfortable with basic scripting in Ruby and Javascript as well as more unfamiliar things like Git and databases.  We will cover a lot of knowledge and you'll be able to get your hands dirty with all the topics that we're going to learn in the deep-dive courses that follow.",
+  brief_desc: "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
+  description: "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
   position: course_position,
   you_learn: ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databases and Git", "How to pair program"],
   you_build: ["Google's homepage in HTML/CSS","A dynamic sketchpad with JS/jQuery","A series of test-first Ruby challenges", "A pomodoro clock"],
@@ -697,8 +590,8 @@ course = create_or_update_course(
   title: "Ruby Programming",
   title_url: "Ruby Programming".parameterize,
   teaser: "Become a True Rubyist",
-  brief_desc: "Once you've completed Web Development 101, this course will take you deep into the wonderful world of Ruby.  You'll learn a combination of programming fundamentals and best practices and you will get the chance to build a variety of different projects along the way.",
-  description: "In this course you will learn Ruby, the language designed specifically with programmer happiness in mind. By the end of it all, you'll have built some pretty sweet projects including Tic Tac Toe, Hangman, and even Chess. You'll be able to put save and open files, test out your code, separate your spaghetti code into nice modular classes, and even reproduce some basic algorithms and data structures for solving complex problems. Basically, you're going to start feeling a whole lot more like a real programmer and that feeling will be justified.",
+  brief_desc: "Time to dive deep into Ruby, the language 'designed for programmer happiness.' You'll cover object-oriented design, testing, and data structures – essential knowledge for learning other programming languages, too!",
+  description: "Time to dive deep into Ruby, the language 'designed for programmer happiness.' You'll cover object-oriented design, testing, and data structures – essential knowledge for learning other programming languages, too!",
   position: course_position,
   you_learn: ["How to write clean, effective, modular code","Working with files and scripts", "Basic algorithms and data structures"],
   you_build: ["TicTacToe, Mastermind, and Hangman", "Chess (seriously)"],
@@ -1025,8 +918,8 @@ course = create_or_update_course(
   title: "Ruby on Rails",
   title_url: "Ruby on Rails".parameterize,
   teaser: "Build Real Websites",
-  brief_desc: "Now that you've got a good grounding in Ruby, it's time to put that to work by learning how to rapidly develop websites using Ruby on Rails.  By the end of this course, you'll be able to build and deploy a real website with confidence.  In fact, you'll do it many times.",
-  description: "In this course, you'll be doing a whole lot of building, each project a bit more advanced than the previous one.  You'll build about a dozen Rails projects from scratch, including one full-featured tutorial that we'll be following along with as we go and a full scale web application of your own.  More importantly, you'll learn how to deconstruct a website into its underlying data architecture and then build an application around that. By the end of it all, you'll have the confidence to put up a simple website in under an hour.",
+  brief_desc: "Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully craft your site's backend using the Model-View-Controller design pattern. You'll gain the confidence to launch a website in under an hour.",
+  description: "Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully craft your site's backend using the Model-View-Controller design pattern. You'll gain the confidence to launch a website in under an hour.",
   position: course_position,
   you_learn: ["How to build and deploy a web application from scratch","MVC like the back of your hand","Setting up the data architecture of a new site"],
   you_build: ["A full featured Twitter clone", "A flight booking application", "A dozen others, from simple CRUD apps to APIs and Facebook"],
@@ -1529,8 +1422,8 @@ course = create_or_update_course(
   title: "HTML5 and CSS3",
   title_url: "HTML5 and CSS3".parameterize,
   teaser: "Make Your Sites Actually Look Good",
-  brief_desc: "Now that you're a pro in building website back ends, it's time to take a good hard look at the front end so your sites will stop looking like ugly ducklings and you can really begin to understand the DOM.  This shorter course will give you the tools to stop fighting with your CSS and start building more logically designed sites.",
-  description: "In this unit, you'll get over your fear of CSS and begin to understand some of the more fundamental tenets of good site design.  This isn't a full course on front end design, but it should give you the tools you need to deeply understand CSS frameworks and to put a good looking facade on your genius back end.",
+  brief_desc: "Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.",
+  description: "Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.",
   position: course_position,
   you_learn: ["All about styling with CSS", "How to effectively use a front end framework like Bootstrap", "Basic principles of site layout and design"],
   you_build: ["Several popular website visual front ends", "Your own front end framework", "A goodybag of CSS tricks and tactics"],
@@ -1947,8 +1840,8 @@ course = create_or_update_course(
   title: "Javascript and jQuery",
   title_url: "Javascript and jQuery".parameterize,
   teaser: "Make Your Websites Really Dance",
-  brief_desc: "The last component in your web development arsenal is the ability to make your front ends dynamically react to the user.  In this course you'll learn how to use Javascript and jQuery to interact with the DOM and make things like dropdown menus, parallax scroll effects, single page applications, and even games.  It will tie together everything you've learned already into one awesome package.",
-  description: "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.",
+  brief_desc: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This course will wrap everything you've learned at The Odin Project into one, final capstone project.",
+  description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This course will wrap everything you've learned at The Odin Project into one, final capstone project.",
   position: course_position,
   you_learn: ["How to build interactive games using HTML5 canvas","How to use a full range of jQuery effects on the DOM", "How to organize your JS into modular pieces"],
   you_build: ["Javascript front ends for your Rails back ends", "A Javascript framework of your own","Snake, Missile Command and More"],
@@ -2489,8 +2382,8 @@ course = create_or_update_course(
   title: "Getting Hired as a Web Developer",
   title_url: "Getting Hired as a Web Developer".parameterize,
   teaser: "Get Paid to Keep Learning",
-  brief_desc: "You've come extremely far and are now a capable web developer, but, as you've probably realized, the journey of discovery has only just begun.  Luckily, you're now useful enough that others will pay you to keep building and learning. . . and in this short course, we'll show you how to make that happen.",
-  description: "You've still got a whole lot more to learn (it's really a lifetime journey) but now the best way to do that is by surrounding yourself with other great developers.  This course is all about that next step -- what else you'll need to know, where to find jobs, how to interview, and how to ultimately get that offer in hand.",
+  brief_desc: "Web development is a lifelong journey of learning and growth. Continue that journey on a professional development team! You'll learn where to find jobs, how to do great interviews, and the best strategies to launch your career.",
+  description: "Web development is a lifelong journey of learning and growth. Continue that journey on a professional development team! You'll learn where to find jobs, how to do great interviews, and the best strategies to launch your career.",
   position: course_position,
   you_learn: ["Where to find the appropriate job postings","How to market yourself effectively to employers", "How to ace the technical interview"],
   you_build: ["Your personal portfolio website","A base of knowledge in more complex problem solving skills", "A clear strategy for getting hired"],

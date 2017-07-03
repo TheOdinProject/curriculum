@@ -1,0 +1,58 @@
+.success-stories-page {
+  .success-stories-title-full {
+    h1 {
+      margin-bottom: 80px;
+    }
+  }
+
+  .card-success-stories {
+    margin-top: 20px;
+    padding: 20px 30px;
+
+    .row {
+      @media(max-width: 480px) {
+        flex-direction: column;
+      }
+    }
+
+    .success-content {
+      flex: 1;
+      @media(max-width: 480px) {
+        text-align: center;
+      }
+    }
+
+    .student-name {
+      margin-bottom: 10px;
+    }
+
+    .completed-label {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      color: $pale-grey;
+    }
+
+    .photo {
+      flex-basis: 100px;
+      text-align: center;
+      padding-top: 16px;
+      margin-right: 5px;
+
+      img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .success-stories-read-more {
+    width: 100%;
+    text-align: center;
+
+    a {
+      color: rgba($text-primary, 0.7);
+    }
+  }
+}

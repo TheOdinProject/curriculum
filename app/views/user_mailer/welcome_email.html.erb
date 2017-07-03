@@ -4,7 +4,7 @@
   <div class="logo-bar">
     <div class="brand-box">
       <a href="<%= home_url %>">
-        <%= image_tag attachments['logo.gif'].url, :class => "logo-img" %>
+        <%= image_tag attachments['logo.svg'].url, class: "logo-img" %>
         <span class="logo-text">
           The Odin Project
         </span>
@@ -70,7 +70,7 @@
             Dive into your first course
           </h2>
           <p>
-            Get started! If you're brand spanking new to all this, start with <%= link_to @starting_lesson.title, lesson_url(@starting_lesson.title_url) %>.  Otherwise, <%= link_to "Web Development 101", course_url("web-development-101") %> is probably your best bet.
+            Get started! If you're brand spanking new to all this, start with <%= link_to @starting_lesson.title, lesson_url(@starting_lesson) %>.  Otherwise, <%= link_to "Web Development 101", course_url("web-development-101") %> is probably your best bet.
           </p>
         </div>
       </div>

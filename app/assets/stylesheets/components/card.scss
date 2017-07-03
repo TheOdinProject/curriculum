@@ -1,0 +1,18 @@
+.card-main {
+  @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.3));
+  background-color: $white;
+  margin-top: 40px;
+  padding: 40px 60px;
+  position: relative;
+
+  @include media-breakpoint-down(xs) {
+    padding: 30px;
+  }
+
+  .dashed {
+    list-style-type: none;
+  }
+  .dashed > li:before {
+    content: "- ";
+  }
+}

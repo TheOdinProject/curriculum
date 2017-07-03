@@ -1,0 +1,96 @@
+html {
+  height: 100%;
+  font-size: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $body_fonts;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  line-height: 1.88;
+}
+
+a, a:hover, a:focus {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  font-family: $body-fonts;
+  padding: 0;
+}
+
+input:-webkit-autofill {
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    transition-delay: 9999s;
+    transition-property: background-color, color;
+  }
+}
+
+ul {
+  padding-left: 0;
+}
+
+.camel {
+  color: $primary;
+}
+
+.camo {
+  color: $camo;
+}
+
+.coffee {
+  color: $coffee;
+}
+
+.grey {
+  color: $grey;
+}
+
+.pale-grey {
+  color: $pale-grey;
+}
+
+.orange {
+  color: $dusty-orange;
+}
+
+.white {
+  color: $white;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.bg-white {
+  background: $white;
+}
+
+.bg-whitesmoke {
+  background: $white-smoke;
+}
+
+.btn-camel {
+  background: $primary;
+  color: $white;
+
+  &:hover, &:focus {
+    background: darken($primary, 10%);
+    color: $white;
+  }
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, $white, $light-grey);
+}

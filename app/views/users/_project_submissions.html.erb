@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 project-submissions bg-white">
+      <h2 class="bold grey solutions-heading text-center">My Projects</h2>
+
+      <% projects.each do |project| %>
+        <%= render 'projects/project_submission', project: project %>
+      <% end %>
+    </div>
+  </div>
+</div>
