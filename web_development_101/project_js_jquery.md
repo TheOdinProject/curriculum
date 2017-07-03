@@ -35,7 +35,9 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-*[Tristyn's solution](https://github.com/tristyn-maalouf/query-pen) | [View in browser](https://tristyn-maalouf.github.io/query-pen/)
+* [petephil97's solution](https://github.com/petephil97/sketchpad) | [View in browser](https://petephil97.github.io/sketchpad/)
+* [Tristyn's solution](https://github.com/tristyn-maalouf/query-pen) | [View in browser](https://tristyn-maalouf.github.io/query-pen/)
+* [Akshat Dubey's solution](https://github.com/akshatdb/Sketchpad) | [View in browser](https://akshatdb.github.io/Sketchpad/)
 * [endotnick's Solution](https://github.com/endotnick/odin-sketchpad) | [View in browser](http://nickrodriguez.tech/odin-sketchpad/)
 * [Charalamboss Solution](https://github.com/Charalamboss/Javascript-and-jQuery101) | [View in browser](https://charalamboss.github.io/Javascript-and-jQuery101/)
 * [Anton Smid's solution](https://github.com/AntonSmid/Etch-A-Sketch) | [View in browser](https://antonsmid.github.io/Etch-A-Sketch/)
@@ -654,8 +656,11 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [ntnlbar's solution](https://github.com/ntnlbar/sketchpad) | [View in browser](https://ntnlbar.github.io/sketchpad/)
 * [vanamman's solution](https://github.com/Vanamman/sketchpad) | [View in browser](https://vanamman.github.io/sketchpad/)
 * [Sharon Gao's solution](https://github.com/segao/Etch-A-Sketch) | [View in browser](https://cdn.rawgit.com/segao/Etch-A-Sketch/775ca0ec/index.html)
+* [Huascar's solution](https://github.com/HuascarMC/sketchpad-project) | [View in browser](https://huascarmc.github.io/sketchpad-project/)
 * [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) | [View in browser](https://patayto.github.io/sketch-pad/)
 * [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
 * [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
 * [Robtak's solution](https://github.com/robtak/Project-Etch-A-Sketch) |[View in browser](https://robtak.github.io/Project-Etch-A-Sketch/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/etch-a-sketch/) |[View in browser](https://ncud4bloc.github.io/etch-a-sketch/HTML/index.html)
+* [Nora's solution](https://github.com/noran9/tiles/) |[View in browser](https://noran9.github.io/tiles/)
+
