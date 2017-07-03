@@ -656,6 +656,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [ntnlbar's solution](https://github.com/ntnlbar/sketchpad) | [View in browser](https://ntnlbar.github.io/sketchpad/)
 * [vanamman's solution](https://github.com/Vanamman/sketchpad) | [View in browser](https://vanamman.github.io/sketchpad/)
 * [Sharon Gao's solution](https://github.com/segao/Etch-A-Sketch) | [View in browser](https://cdn.rawgit.com/segao/Etch-A-Sketch/775ca0ec/index.html)
+* [Huascar's solution](https://github.com/HuascarMC/sketchpad-project) | [View in browser](https://huascarmc.github.io/sketchpad-project/)
 * [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) | [View in browser](https://patayto.github.io/sketch-pad/)
 * [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
 * [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
