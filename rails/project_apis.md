@@ -127,20 +127,6 @@ This project may seem simple, but now you've got a website that is both a normal
 * [DV's solution](https://github.com/dvislearning/odin-kittens)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/kittens-api)
 
-## Project 3: Exploring GitHub API with Ajax
-
-In this easy project, you'll build simple GitHub Profile Finder, using very beginner-friendly GitHub API and Ajax requests
-(instead of curl)
-
-### Your Task
-
-[Build Github Finder App by following the tutorial](https://www.youtube.com/watch?v=lIKrfLWNsUI)
-
-### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
-
-
 ## Project 2: Using a Third Party API
 
 Remember way back in the warm-up when you played with the Flickr API?  Now it's time for you to actually use it.  Huzzah!  You'll create a simple photo widget that allows you to display photos from your Flickr feed (or someone else's).  We'll rely on a tutorial for much of the heavy lifting but the principles of what you do here will be repeatable for use with other APIs.
