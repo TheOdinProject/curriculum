@@ -86,6 +86,7 @@ This project may seem simple, but now you've got a website that is both a normal
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [jfonz412's solution](https://github.com/jfonz412/odin-kittens)
 * [Austin's Solution ](https://github.com/CouchofTomato/odin-kittens)
 * [Rhys B.'s Solution ](https://github.com/105ron/odin_kittens)
 * [sirramongabriel's solution](https://github.com/sirramongabriel/odin-kittens)

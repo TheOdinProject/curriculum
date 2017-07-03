@@ -31,6 +31,7 @@ It's time to build an on-screen calculator
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Leah Xia's solution](https://github.com/LeahXia/OnScreenCalculator.git) | [View in browser](http://leahxia.com/internal-links/OnScreenCalculator/index.html) 
 * [Austin's solution](https://github.com/CouchofTomato/js-calculator) | [View in browser](https://couchoftomato.github.io/js-calculator/) - Without jquery
 * [Rhys B's solution](https://github.com/105ron/calculator) | [View in browser](https://105ron.github.io/calculator/) - Without jquery
 * [Serboteiu Cosmin's solution](https://github.com/Annno/Calculator-VanillaJS) | [View in browser](https://annno.github.io/Calculator-VanillaJS/) - Without jquery
@@ -91,6 +92,8 @@ It's time to build an on-screen calculator
 * [smilesr's solution](https://github.com/smilesr/op-jj-bb-25-calculator) | [View in browser](http://htmlpreview.github.io/?https://github.com/smilesr/op-jj-bb-25-calculator/blob/master/index.html)
 * [Eric's solution](https://github.com/Twinpair/Web_Calculator) | [View in browser](https://twinpair.github.io/Web_Calculator)
 * [John's Solution](https://github.com/Khanthulhu/onScreenCalculator) | [View in breowser](https://khanthulhu.github.io/onScreenCalculator/) - without JQuery
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Calculator) | [View in browser](https://ncud4bloc.github.io/Calculator/HTML/index.html)
+* [Daniel Aguilar's solution](https://github.com/danaguilar/js-calculator) | [View in browser](https://danaguilar.github.io/js-calculator/)
 
 ### Additional Resources
 

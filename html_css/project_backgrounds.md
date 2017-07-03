@@ -17,6 +17,7 @@ In this project you'll clone the website of one of the most design-forward compa
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Justine's Solution](https://github.com/justinemar/justinemar.github.io/tree/master/apple) | [View in Browser](https://justinemar.github.io/apple/)
 * [Jeff's Solution](https://github.com/jmbothe/apple-landing-page) | [View in Browser](https://jmbothe.github.io/apple-landing-page/)
 * [Andrew’s solution](https://github.com/andrewr224/backgrounds_project) | [View in browser](https://andrewr224.github.io/backgrounds_project/)
 * [Axel’s solution](https://github.com/afuh/appel) | [View in browser](https://afuh.github.io/appel/)
@@ -51,6 +52,7 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Leah Xia's solution](https://github.com/LeahXia/apple.git) | [View in browser] (https://leahxia.github.io/apple/)
 * [husein's solution](https://github.com/hosghf/apple-page-rubuild) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/apple-page-rubuild/blob/master/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/apple-homepage) | [View in browser] (https://adoniasdantas.github.io/apple-homepage/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Apple/) | [View in browser](https://ncud4bloc.github.io/Apple/HTML/index.html)
 
 ### Additional Resources
 
