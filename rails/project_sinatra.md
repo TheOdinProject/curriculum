@@ -1,5 +1,3 @@
-# Projects: Sinatra
-
 *Don't forget to use Git to save your projects!*
 
 You've seen how simple it can be to get something up and running using Sinatra, in these projects you will use the Caesar Cipher and either the Hangman or Mastermind games you built in the Ruby course to make a couple of web apps.
@@ -11,7 +9,7 @@ Deploying a Sinatra app to Heroku takes a little bit of work but the process is 
 2. if you are using `sinatra/reloader`, you need to remove or comment out that line before pushing to Heroku.  Alternatively you can add `if development?` to that line and Heroku will automatically know not to use it (and it will still work locally!).
 3. after creating your Gemfile, you need to run `bundle install` and add/commit the files to git before pushing to Heroku.
 
-## Project 1: Caesar Cipher _reloaded_
+### Project 1: Caesar Cipher _reloaded_
 
 Revisit the caesar cipher ruby script that you created during [Ruby Building Blocks](http://www.theodinproject.com/ruby-programming/building-blocks) and use Sinatra to create a simple front-end for it.
 
@@ -21,12 +19,14 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 2. You should be able to do this with only one view, and a couple of routes, but feel free to be as fancy as you like.
 3. [Deploy to Heroku!](https://devcenter.heroku.com/articles/rack#sinatra)
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-* Nikolay Dyulgerov's solution [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://c-cipher.herokuapp.com/)
+* Adsy430's solution [source code](https://github.com/adampal/caesar_reloaded) | [Live](https://mighty-river-58119.herokuapp.com)
+* holdercp's solution [Source code](https://github.com/holdercp/caesar_cipher_sinatra) | [Live](https://glacial-falls-15610.herokuapp.com/)
+* Nikolay Dyulgerov's solution [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
 * jfonz412's solution [github](https://github.com/jfonz412/caesar_online)
 * OlehSliusar's solution: [Live](https://caesar-cipher-reloaded-0.herokuapp.com/) | [Source code](https://github.com/OlehSliusar/caesar_cipher_reloaded)
 * mindovermiles262's [caesar cipher](https://fast-citadel-19591.herokuapp.com/) | [github](https://github.com/mindovermiles262/caesar-cipher)
@@ -62,9 +62,10 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 * Jerry Gao's solution [github](https://github.com/blackwright/odin/tree/master/sinatra_caesar_cipher) / [see it on the web](https://caesar-cipher-sinatra.herokuapp.com/)
 * Sophia Wu's solution [github](https://github.com/SophiaLWu/sinatra-caesar-cipher) / [see it on the web](https://shielded-temple-74302.herokuapp.com/)
 * Samuel Langenfeld's solution [github](https://github.com/SamuelLangenfeld/sinatra_caesar_cipher) / [see it on the web](http://langenfeld-caesar-cipher.herokuapp.com/)
-* Kyle Thomson's solution [github](https://github.com/idynkydnk/caesar_cipher) / [see it on the web](https://caesar-cipher-kyle.herokuapp.com)
+* Kyle Thomson's solution [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/caesar_cipher)
+* Jonathan Marks's solution [github](https://github.com/johnjmarks4/sinatra) / [see it on the web](https://warm-springs-12433.herokuapp.com/)
 
-## Project 2: Another Web-Game
+### Project 2: Another Web-Game
 
 Pick either Mastermind or Hangman and build a front end for it.  This one might take a little more work, but it should be well within your grasp at this point.  Have fun!
 
@@ -75,11 +76,14 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 3. Have fun!  Don't forget to make all of your friends play your game!
 4. _Extra Credit_ The free Heroku account only allows a limited number of projects, unless you add a credit card to your account (they wont charge you, its just for identity confirmation). If you _do_ add your information, you can have unlimited projects, but they still limit how many of them can be "awake" at one time. You might consider using sinatra to make yourself a simple web-portfolio so that you can store all of these apps in one project.
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Adsy430's solution [Source code](https://github.com/adampal/hangman) | [Live](https://fierce-gorge-46516.herokuapp.com/?restart=true)
+* holdercp's solution [Source code](https://github.com/holdercp/hangman-sinatra) | [Live](https://thawing-cliffs-47023.herokuapp.com/)
+* Nikolay Dyulgerov's solution (Hangman) [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
 * jfonz412's solution (hangman)[github](https://github.com/jfonz412/hangman_online)
 * mindovermiles262's (Mastermind) [github](https://rocky-tor-31467.herokuapp.com/) | [github](https://github.com/mindovermiles262/mastermind)
 * Jordan Ellis-Lynch's [github](https://github.com/jordy-el/sinatra_hangman) | ([heroku](https://floating-mountain-38019.herokuapp.com/))
@@ -108,3 +112,6 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Jerry Gao's solution - Hangman: [github](https://blackwright-hangman.herokuapp.com/) / [see it on the web](https://github.com/blackwright/odin/tree/master/sinatra_hangman)
 * Sophia Wu's solution - Hangman: [github](https://github.com/SophiaLWu/sinatra-hangman) / [see it on the web](https://shielded-lowlands-85300.herokuapp.com/)
 * Samuel Langenfeld's solution - Hangman: [github](https://github.com/SamuelLangenfeld/sinatra_hangman) / [see it on the web](http://langenfeld-hangman.herokuapp.com/)
+* Kyle Thomson's solution - Hangman: [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/hangman)
+* Jonathan Marks's solution - MasterMind: [github](https://github.com/johnjmarks4/mastermind_reloaded) / [see it on the web](https://arcane-shelf-92558.herokuapp.com/)
+

@@ -1,6 +1,4 @@
-# Conclusion
-
-**WOAH!** 
+**WOAH!**
 
 That was quite a journey.  Take a second and reflect on the fact that you've just learned the basics of at least four different languages and, if you had to, you could probably hack together a webpage on your own already.  
 
@@ -14,7 +12,7 @@ Buckle up, because next we're heading straight into Ruby Programming and we won'
 
 The journey has just begun!
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

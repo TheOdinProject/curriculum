@@ -1,8 +1,6 @@
-# Project: Validating a Form with jQuery
-
 We'll take a step away from games and back to the real world for a relatively simple project where you'll get a chance to build and validate a form.  For inspiration, go to [Mint.com's signup form](https://wwws.mint.com/login.event?task=S) and see how it gives you error messages if you fail to enter the proper information.
 
-## Your Task
+### Your Task
 
 Build a browser form like Mint.com's which collects Email, Email Confirmation, Country, Zip Code, Password and Passowrd Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.  
 
@@ -19,7 +17,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 5. Push your solution to Github and submit it below.
 
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
@@ -37,7 +35,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq-form-validation)
 * [Daunenok's solution](https://github.com/daunenok/form-my-validation) | [View in browser](https://daunenok.github.io/form-my-validation/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,6 +1,4 @@
-# Routing
-
-## Introduction
+### Introduction
 
 The router is the doorman of your application.  When an HTTP request arrives from the user's browser, it needs to know which controller action (method) should be run.  Should we display the "new user" webpage?  Should we edit an existing user with whatever data got sent along?
 
@@ -12,7 +10,7 @@ If you open the routes file in your Rails app (located in `config/routes.rb`), y
 
 Lots of training courses and tutorials kind of gloss over routes, and they seem quite easy in hindsight, but I remember learning Rails and getting hung up on what exactly is going on. Luckily, typing `$ rake routes` into the command line will give you an output of all the routes that are available to your application.  In this section we'll go into what's actually happening with this file.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -24,7 +22,7 @@ Lots of training courses and tutorials kind of gloss over routes, and they seem 
 * How can you easily write all seven RESTful routes in Rails?
 * What is the Rails helper method that creates the HTML for links?
 
-## Root
+### Root
 
 The most important (and simplest) route in your file is the root url... where should users be deposited when they land on `http://supercutekittenphotos.com`?  Just tell Rails which controller and action to map that route to, and it is so:
 
@@ -34,7 +32,7 @@ The most important (and simplest) route in your file is the root url... where sh
 
 *Remember, when we say "action" we really mean "the method inside the controller that is called that", e.g. the `index` action is just the `index` method that's defined in the KittensController*
 
-## RESTful Routes
+### RESTful Routes
 
 If you recall our earlier discussion about REST, there are basically seven main types of actions that you can (and should) do to a "resource", or an object like a blog post or user... something with its own database model.  From that discussion, they are:
 
@@ -173,7 +171,7 @@ Sometimes you just don't want all seven of the RESTful routes that `resources` p
     resources :users, :except => [:index]
 ```
 
-## Non-RESTful Routes
+### Non-RESTful Routes
 
 Of course, you don't have to do everything the RESTful way.  You probably should, but there are times that you want to make up your own route and map it to your own controller action.  Just follow the examples we gave at the top for RESTful routes:
 
@@ -183,7 +181,7 @@ Of course, you don't have to do everything the RESTful way.  You probably should
 
 ... of course, the `config/routes.rb` comments should be helpful to you here as well.
 
-## Assignment
+### Assignment
 
 You should have a good sense of what's going on in the routes file by now but probably also have plenty of questions.  The Rails Guides to the rescue!
 
@@ -196,7 +194,5 @@ Make sure to follow the tutorial!
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
 * [CodeSchool's Rails 4 Zombie Outlaws](http://rails4.codeschool.com/) - Level 1 is free and goes into routes.
-
 * [CodeSchool's Surviving APIs with Rails](http://railsapis.codeschool.com/) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.

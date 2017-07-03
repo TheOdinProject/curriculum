@@ -1,10 +1,8 @@
-# Advanced Active Record Associations
-
-## Introduction
+### Introduction
 
 You've already had some familiarity with associations, especially the basic `has_one`, `has_many`, and `belongs_to` variety.  Thus far, you've probably mostly used these associations to grab collections of objects like a user's posts (`user.posts`).  There are a lot of other handy things that Rails lets you do with associations too.  This brief section will highlight some of the more useful methods that come along with associations.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -12,17 +10,17 @@ You've already had some familiarity with associations, especially the basic `has
 * How does Rails normally know which table and foreign key to use when you have an association (e.g. `User.first.posts`)?
 * When would you need to specify the `:class_name` option in an association?
 * What about the `:foreign_key`?
-* What about the `:source`? 
+* What about the `:source`?
 * What is a polymorphic association and when would you use one?
 * What are two ways to use the association to create a new object instead of just calling `YourObject.new`?  Why is this useful? Which method is preferred?
 * How do you automatically destroy all a User's Post objects if that user is deleted?
 * How do you set up a self-association, like with Users following Users?
 
-## Basic Stuff
+### Basic Stuff
 
 If you're still shakey on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](/ruby-on-rails/active-record-basics) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
-### Foreign Keys and Class Names
+#### Foreign Keys and Class Names
 
 When you create an association, Rails makes two major assumptions -- first, that the class of the model your association points to is based directly off of the name of the association, and, second, that the foreign key in any `belongs_to` relationship will be called `yourassociationname_id`.  Any time you go away from these defaults, you just need to let Rails know what kind of class to look for and which foreign key to use.
 
@@ -68,7 +66,7 @@ But now Rails doesn't have the foggiest idea where to look and what to look for.
 
 The basic gist of this is simple -- assume that Rails is looking for the foreign key named after the association in the table also named after the association.  If any of these is incorrect because of a creatively named association or foreign key, you'll need to specify.  This is quite common to make your associations more legible.
 
-### Source
+#### Source
 
 Now that it's clear you need to let Rails know when you've creatively named your associations or foreign keys, I should point out that there's one additional step required if you're using a creatively named `has_many :through` association.  Recall that has-many-through associations are where you create a "through table" to act as a go-between for two models that have a many-to-many relationship.  
 
@@ -109,7 +107,7 @@ It sounds a bit wonky but it's just the same logic as before -- if Rails can't t
 
 Once you do get things figured out, it can still be helpful to look in your Rails server output to see which joins are being done to build the SQL query.  That's a great window into what your associations are doing behind the scenes (because in the end, it's all about figuring out the correct SQL query to run).
 
-## Polymorphic Associations
+### Polymorphic Associations
 
 We'll cover polymorphism here but, if your head is really spinning from the other concepts, feel free to just skim it.  Consider this an "additional topic" instead of a core topic like foreign keys, class names and source.
 
@@ -161,7 +159,7 @@ On the other side of the association, you just treat your comment like any other
 
 Rails does the rest of the work for you.  Any time you ask a Picture for all its comments (`Picture.first.comments`), Rails will return just the comments that belong to that picture without you having to worry about anything else.  
 
-## Self Joins
+### Self Joins
 
 Often times you have relationships between the same type of model, for instance users who can follow other users.  In this case, you need to specify both associations in your User model but name them differently.  You will need to specify in your `has_many` association what the name of the `foreign_key` will be:
 
@@ -169,17 +167,17 @@ Often times you have relationships between the same type of model, for instance 
     class Employee < ActiveRecord::Base
       has_many :subordinates, class_name: "Employee",
                               foreign_key: "manager_id"
-     
+
       belongs_to :manager, class_name: "Employee"
-    end 
+    end
 ```
 
 
-## Handy Methods
+### Handy Methods
 
 As mentioned in the intro, associations give you access to some nifty tricks that you might not think of.
 
-### Creating Association Objects
+#### Creating Association Objects
 
 There's a couple of shortcuts for creating new association objects.  The first is to call `#new` or `#create` on the association to automatically populate the foreign key.  For instance, if a User `has_many` Posts and Post `belongs_to` a User:
 
@@ -217,7 +215,7 @@ If you really want to, you can actually replace the entire association with a ne
 > user.posts = [post1, post2]  # posts added to that user's collection
 ```
 
-### Destroying Dependents
+#### Destroying Dependents
 
 If your user has created a bunch of posts and then decides to delete her account, how do you delete all the associated posts?  Specify the `:dependent => :destroy` option when first declaring the association:
 
@@ -231,17 +229,17 @@ If your user has created a bunch of posts and then decides to delete her account
 This is just the most common among several options to specify for `:dependent`.  It will run the `destroy` method on all objects that belong to that user when the user is destroyed.
 
 
-## Your Assignment
+### Your Assignment
 
 1. Read the [Rails Guide on Associations](http://guides.rubyonrails.org/association_basics.html).  Start by skimming sections 1 to 2.7 (which you should have already done).
 2. Read from 2.8 to the end of chapter 3.
 3. Skim chapter 4.  It contains all the methods that you gain by using various associations.  You certainly don't need to memorize the whole list, but poke through it.  You'll end up using most of them.
 
-## Conclusion
+### Conclusion
 
 In this lesson we covered some of the more advanced associations material.  Associations are all over the place in Rails and incredibly useful because of all the new methods they give you access to.  As long as you pause and think about what Rails is assuming when you set them up, you should be able to modify them to your liking without too much trouble.  Practice makes perfect, though, so keep building projects with associations in them and it'll eventually stick.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

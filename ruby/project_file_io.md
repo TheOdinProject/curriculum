@@ -1,9 +1,6 @@
-# Project: Serialization and Working with Files
-<!-- *Estimated Time: 4-6 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Event Manager
+### Warmup: Event Manager
 
 In your Ruby days to come, you'll inevitably run into times when you'll be working with CSV files and imperfect data.  Seriously... there is no such thing as a perfect dataset.  Any time you find what looks like the perfect batch of data on something interesting, whether you're trying to plot airline flight delays on a map, tease out the nuggets from a master list of nonprofits, or scrape 10,000 emails to mercilessly SPAM with your latest get-rich-quick scheme, it will be full of mistakes, omissions, and misspellings.  Working with and cleaning up data go hand in hand.
 
@@ -16,6 +13,10 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Dallaire's solution](https://github.com/Dallaire/event_manager.git)
+* [Kasey Z.'s solution](https://github.com/kasey-z/TOP-solutions/tree/master/file_io_and_serialization/even_manager)
+* [Justine's solution](https://github.com/Hannibalony/event_manager)
+* [SadieD's solution](https://github.com/SadieD/FileIO/tree/master/event_manager)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/serialization_and_files/event_manager)
 * [holdercp's solution](https://github.com/holdercp/event-manager)
 * [Webdev-burd's solution](https://github.com/webdev-burd/event_manager)
@@ -127,8 +128,9 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-event-manager)
 * [Pat's solution](https://github.com/Pat878/event_manager)
 * [EMuchynski's solution](https://github.com/EMuchynski/eventmanager)
+* [Paritosh's solution](https://github.com/Paritosh97/event_manager_ruby)
 
-## Project: Hangman
+### Project: Hangman
 
 Files are a great way to save and reload a game, so we'll give it a shot here.
 
@@ -149,6 +151,11 @@ You will be building a simple command line Hangman game where one player plays a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Bn8's solution](https://github.com/Bn8/ruby_odin/tree/master/Hangman)
+* [Dallaire's solution](https://github.com/Dallaire/hangman.git)
+* [justinckim3's solutions](https://github.com/justinckim3/hangman)
+* [Kasey Z.'s solution](https://github.com/kasey-z/TOP-solutions/tree/master/file_io_and_serialization/hangman)
+* [SadieD's solution](https://github.com/SadieD/FileIO/tree/master/hangman)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/serialization_and_files/hangman)
 * [holdercp's solution](https://github.com/holdercp/hangman)
 * [jfonz412's solution](https://github.com/jfonz412/hangman/blob/master/lib/game.rb)
@@ -296,8 +303,9 @@ You will be building a simple command line Hangman game where one player plays a
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-hangman)
 * [EMuchynski's solution](https://github.com/EMuchynski/hangman)
 * [Pat's solution](https://github.com/Pat878/Hangman)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/hangman/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

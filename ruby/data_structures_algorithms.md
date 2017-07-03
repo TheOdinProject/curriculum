@@ -1,6 +1,3 @@
-# Basic Data Structures and Algorithms
-<!-- *Estimated Time: 1-2 hrs* -->
-
 The basic idea of a **data structure** is to store data in a way that meets the needs of your particular application.  You might be inclined to store a particular kind data in one giant array, but it would be rather time consuming to locate a specific value if you had a significant number and depth of items.  So you need to look to other options.
 
 Depending on the application, there are a batch of other basic data structures available to help you out.  The differences between them typically have to do with trade-offs between how long it takes to first populate the structure, how long it takes to add or find elements, and how large the structure is in memory.
@@ -11,7 +8,7 @@ You've already had a brief introduction to **algorithms** over some of the other
 
 Luckily for you, these complex algorithmic problems have all been solved many times in the past.  Understanding *how* they are solved will give you some great tools to apply to other (similar) problems on your own.  Algorithms are really just ways of solving problems (like this) systematically.  In this brief introduction, we'll focus on a couple of algorithms that you may run into when coding on your own -- breadth-first-search and depth-first-search.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -30,7 +27,7 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 * What situations would you want to use DFS instead?
 * When would BFS be impractical?
 
-## Your Assignment
+### Your Assignment
 
 1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
 2. Learn about Queues and Stacks by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI)
@@ -42,7 +39,7 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
     * [Level Order Traversal](https://www.youtube.com/watch?v=86g8jAQug04) (aka Breadth First)
     * [Pre, In, and Post Order Traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4) (aka Depth First)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

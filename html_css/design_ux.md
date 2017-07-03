@@ -1,5 +1,3 @@
-# Introduction to Design and UX
-
 You can't code the front end and ignore design and user experience (UX).  Not everyone is cut out to be an artist and you don't have to be.  But you do have to actually use your design brain a little bit if you want a site your users actually care about visiting.  That doesn't mean just having beautiful graphics, which is a common misconception about design.
 
 User Experience is really about focusing on three things -- can the user get done what he/she is trying to do **effectively**, **efficiently**, and with **satisfaction**.  Half the battle is just having the mindset of trying to optimize those three things by talking to your users.  The other half is about actually building and measuring those things.
@@ -10,7 +8,7 @@ Given the focus web design has on crafting an effective user experience, which i
 
 Remember that your goal here is to absorb the most important concepts and continue on your way.  You can always come back when you've got enough experience to start asking the right questions.
 
-## Points to Ponder
+### Points to Ponder
 
 * What is design?
 * What is user experience?
@@ -21,7 +19,7 @@ Remember that your goal here is to absorb the most important concepts and contin
 * What is the design hierarchy pyramid?
 * What are the CRAP factors of effective layout and what are they used for?
 
-## Your Assignment
+### Your Assignment
 
 1. Read [Startups, This is How Design Works](http://startupsthisishowdesignworks.com/)
 2. Read [UX 101 -- What is User Experience from Dashburst.com](https://blog.dashburst.com/infographic/ux-101-what-is-user-experience/)
@@ -29,7 +27,7 @@ Remember that your goal here is to absorb the most important concepts and contin
 4. Read [A very simple overview of Visual Hierarchy from 52weeksofUX](http://52weeksofux.com/post/443828775/visual-hierarchy)
 5. Read about the [C.R.A.P Design Principles](http://www.presentationzen.com/chapter6_spread.pdf), which you've been subconsciously aware of for years.
 
-## Additional Resources
+### Additional Resources
 
 *...For if you just can't get enough UX/Design.  Don't get too sidetracked... eye on the prize! Eye on the prize!*
 

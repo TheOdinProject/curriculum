@@ -1,9 +1,6 @@
-# Project: Advanced Forms
-<!-- *Estimated Time: 6-12 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project: Flight Booker
+### Project: Flight Booker
 
 In this project, you'll get a chance to tackle some more advanced forms.  This is the kind of thing you'll have to work with when handling user orders for anything more complicated than an e-book.  In this case, we'll build the first three steps of a typical checkout process for booking a one-way flight:
 
@@ -28,7 +25,7 @@ This project will require you to seed your database, so use your `db/seeds.rb` f
 2. Create a new Rails app, e.g. `odin-flight-booker`, and a new Git repo
 3. Modify the README to explain what you're doing and link back to the project here.
 
-#### Screen 1: Search
+#### Screen 1: Search**
 
 For the first screen, you'll need a dropdown that lists a possible "From" airport and a possible "To" airport. just assume all flights fly between SFO and NYC.  You'll need to set up a dropdown menu that contains all eligible flights.
 
@@ -71,6 +68,8 @@ Once the user has submitted their chosen flight, it's time to take their booking
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jfonz412's solution](https://github.com/jfonz412/flight-booker)
+* [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Flight_booker)
 * [CloudTemplar_'s solution](https://github.com/cloudtemplar/flight-booker) | [Live on Heroku!](https://protected-escarpment-37952.herokuapp.com/)
 * [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/odin-flight-booker) | [Live website](https://sleepy-oasis-66283.herokuapp.com)
 * [Sic's solution](https://github.com/sic-f/flight-booker) | [View in browser](http://flyt-booker.herokuapp.com)
@@ -115,8 +114,9 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
 * [Marcus' solution](https://github.com/nestcx/odin-flight-booker)
 * [DV's Solution](https://github.com/dvislearning/odin-flight-booker) | [View in Browser](https://powerful-sierra-48857.herokuapp.com/)
+* [Peter Mester`s solution](https://github.com/peter665/FlightBooker) | [View in Browser](http://flight-booker-mester.herokuapp.com/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
