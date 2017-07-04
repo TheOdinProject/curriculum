@@ -5,8 +5,22 @@
     padding: 30px 60px;
 
     .user-avatar {
+
+      max-width: 99px;
+      width:50%;
+      margin: 0 auto;
       margin-top: 18px;
+      padding-top: 10px;
+      background-color:#eeeeee;
+      border-radius:50%;
+
+
+
     }
+
+
+
+
 
     .welcome-text {
       color: $text-primary;
@@ -55,11 +69,12 @@
         }
 
         .course-start-btn {
-          color: $pale-grey;
+          color: $light-grey;
           border: solid 3px rgba(73, 73, 73, 0.3);
           box-shadow: none;
           letter-spacing: 0.2px;
           padding: 1em 2em;
+          background-color:#8e8e4c;
         }
 
         @include media-breakpoint-down(sm) {

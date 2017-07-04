@@ -189,16 +189,16 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 0 20px;
-    
+
     .navbar-nav {
       margin-top: 0;
-      
+
       .nav-link {
         font-size: 24px;
         padding: 0;
       }
-    } 
-  
+    }
+
     .navbar-toggler {
       margin-right: 33px;
     }
@@ -208,6 +208,7 @@
 
     .logo-img {
       float: none;
+      
     }
   }
 }
@@ -223,13 +224,13 @@
 }
 
 // Fix toggled nav overlay on iOS
-@media only screen 
-  and (min-device-width: 320px) 
+@media only screen
+  and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
   .navbar {
-    
+
     .navbar-nav {
       padding-bottom: 120px;
       padding-top: 0;
@@ -239,7 +240,7 @@
         font-size: 24px;
         padding: 0;
       }
-    } 
+    }
 
   }
 }
