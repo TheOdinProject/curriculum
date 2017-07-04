@@ -190,7 +190,7 @@ You should have a good sense of what's going on in the routes file by now but pr
 2. Watch this [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8)
 Make sure to follow the tutorial!
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
