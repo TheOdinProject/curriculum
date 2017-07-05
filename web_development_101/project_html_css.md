@@ -91,6 +91,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
+* [htmercury's solution (Easy)](https://github.com/htmercury/google-homepage) | [View in browser](https://htmercury.github.io/google-homepage/)
+* [Mark Ballard's solution (Easy)](https://github.com/aualby/google-homepage) | [View in browser](https://aualby.github.io/google-homepage/)
+* [petephil97's solution (Easy)](https://github.com/petephil97/google-homepage) | [View in browser](https://petephil97.github.io/google-homepage/)
 * [Franklyn Afeso's solution (Easy)](https://github.com/afeso/google-homepage) | [View in browser](https://afeso.github.io/google-homepage/)
 * [Simon Greenwood's Solution (Easy)](https://github.com/simong90/google-homepage) | [View in browser](https://simong90.github.io/google-homepage/)
 * [cj-sv's Solution (Easy)](https://github.com/cj-sv/google-homepage) | [View in browser](https://cj-sv.github.io/google-homepage/)
@@ -1143,13 +1146,18 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Michael Daryl Mayo's Solution(Easy)](https://github.com/chromity/google-homepage) | [View in browser](https://chromity.github.io/google-homepage)
 * [Arunava's Solution (Easy)](https://github.com/iArunava/google-homepage) | [View in browser](https://iArunava.github.io/google-homepage)
 * [Riley's Solution (Easy)](https://github.com/keymaster777/googlehomepage) | [View in browser](https://keymaster777.github.io/googlehomepage)
-* [Neil Cudden's Solution (Easy)](https://github.com/ncud4bloc/google-homepage/) | [View in browser](https://ncud4bloc.github.io/google-homepage/)
+* [Neil Cudden's Solution (Easy)](https://github.com/ncud4bloc/google-homepage/) | [View in browser](https://ncud4bloc.github.io/google-homepage/HTML/index.html)
 * [MPalhidai's Solution (Easy)](https://github.com/mpalhidai/google-homepage/) | [View in browser](https://mpalhidai.github.io/google-homepage/)
 * [Mayank Patel's Solution (Easy)](https://maknahar.github.io/op/google-homepage/) | [View in browser](https://maknahar.github.io/op/google-homepage/)
 * [Akshat Dubey's Solution (Easy)](https://github.com/akshatdb/google-homepage) | [View in browser](https://akshatdb.github.io/google-homepage/)
 * [Siddharth Jaiswal's Solution(Easy)](https://github.com/Sidd0602/google-homepage/) | [View in browser](https://sidd0602.github.io/google-homepage/)
+* [Pujan Pun's Solution(Easy)](https://github.com/duddhoen92/google-homepage/) | [View in browser](https://duddhoen92.github.io/google-homepage/)
 * [Anik Pramanik's Solution(Easy)](https://github.com/radioactive001/google-homepage) | [View in browser](https://cdn.rawgit.com/radioactive001/google-homepage/0890d71e/index.html)
-* [KWarrick's Solution(Easy)](https://github.com/fullpruf/googlemock) | [View in browser}(https://github.com/fullpruf/googlemock)
+* [KWarrick's Solution(Easy)](https://github.com/fullpruf/googlemock) | [View in browser](https://github.com/fullpruf/googlemock)
+* [Anik Pramanik's Solution(Difficult)](https://github.com/radioactive001/google-searchpage) | [View in browser](https://radioactive001.github.io/google-searchpage/)
+* [KWarrick's Solution(Easy)](https://github.com/fullpruf/googlemock) | [View in browser](https://codepen.io/fullpruf/pen/awbayK)
+* [Lee Rogers's Solution(Easy)](https://github.com/eleerogers/google-homepage) | [View in browser](https://eleerogers.github.io/google-homepage/)
+
 
 ### Additional Resources
 
