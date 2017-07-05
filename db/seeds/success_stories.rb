@@ -41,6 +41,13 @@ def success_stories
       story_content: "In 2014 I wanted to learn how to program, but I had no idea where to start. Odin solved that problem for me - it mapped out a series of lesson plans that showed me what to study, without holding my hand or spoon-feeding me information.  The curriculum requires hard work and perseverance, but it's worth it. I walked into my first job and felt instantly comfortable with the tools and technologies my employer required. Yes, there was a lot that I didn't know yet, but having done Odin also gave me the confidence to pick up new skills as needed.",
       job_title: 'Software Engineer',
       social_media_link: 'https://github.com/muzfuz'
+    },
+    {
+      student_name: 'Sean Szurko',
+      avatar_path_name: 'sean.jpg',
+      story_content: 'TOP smoothed out the steep learning curve in web development, allowing me to confidently learn at my own pace and taught me how to approach and solve real-life programming problems.  The projects in TOP were a perfect mix of difficulty, allowing me to gain exposure to different technologies and feel challenged without feeling overwhelmed.  Because of the foundation TOP provided, I was able to easily transition into freelancing and then into a junior level Rails developer position.',
+      job_title: 'Mid-Level Rails Developer',
+      social_media_link: 'https://www.seanszurko.com/',
     }
   ]
 end
