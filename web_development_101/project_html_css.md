@@ -1153,6 +1153,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Siddharth Jaiswal's Solution(Easy)](https://github.com/Sidd0602/google-homepage/) | [View in browser](https://sidd0602.github.io/google-homepage/)
 * [Pujan Pun's Solution(Easy)](https://github.com/duddhoen92/google-homepage/) | [View in browser](https://duddhoen92.github.io/google-homepage/)
 * [Anik Pramanik's Solution(Easy)](https://github.com/radioactive001/google-homepage) | [View in browser](https://cdn.rawgit.com/radioactive001/google-homepage/0890d71e/index.html)
+* [KWarrick's Solution(Easy)](https://github.com/fullpruf/googlemock) | [View in browser](https://github.com/fullpruf/googlemock)
 * [Anik Pramanik's Solution(Difficult)](https://github.com/radioactive001/google-searchpage) | [View in browser](https://radioactive001.github.io/google-searchpage/)
 * [KWarrick's Solution(Easy)](https://github.com/fullpruf/googlemock) | [View in browser](https://codepen.io/fullpruf/pen/awbayK)
 * [Lee Rogers's Solution(Easy)](https://github.com/eleerogers/google-homepage) | [View in browser](https://eleerogers.github.io/google-homepage/)
