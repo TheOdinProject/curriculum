@@ -1,6 +1,6 @@
 <div class="gradient">
-  <div class="container">
-    <div id="tou" class="card-main">
+  <div class="container terms_of_use">
+    <div class="card-main">
       <% f = File.open('legal_terms_of_use.md', 'rb') %>
       <%= convert_markdown_to_html(f.read) %>
       <% f.close %>
