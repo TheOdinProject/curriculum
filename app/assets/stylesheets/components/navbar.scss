@@ -53,7 +53,6 @@
       margin-top: 37.8px;
       width: 30px;
       height: 30px;
-      @include border-radius(50%);
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -189,16 +188,13 @@
 @media (max-width: 768px) {
   .navbar {
     padding: 0 20px;
-
     .navbar-nav {
       margin-top: 0;
-
       .nav-link {
         font-size: 24px;
         padding: 0;
       }
     }
-
     .navbar-toggler {
       margin-right: 33px;
     }
@@ -208,7 +204,6 @@
 
     .logo-img {
       float: none;
-      
     }
   }
 }
@@ -230,7 +225,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
   .navbar {
-
     .navbar-nav {
       padding-bottom: 120px;
       padding-top: 0;
@@ -241,6 +235,5 @@
         padding: 0;
       }
     }
-
   }
 }

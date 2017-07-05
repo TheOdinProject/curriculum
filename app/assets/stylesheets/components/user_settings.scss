@@ -13,7 +13,6 @@
   .profile-pic {
     margin-right: 32px;
     img {
-      border-radius: 50%;
       width: 100px;
       height: 100px;
     }
@@ -49,14 +48,14 @@
       line-height: 30px;
       align-items: center;
       font-size: 13px;
-    }  
+    }
   }
   h2 {
     margin-bottom: 30px;
   }
   .cancel-link {
     a {
-      color: $text-primary; 
+      color: $text-primary;
       text-decoration: underline;
     }
   }
@@ -66,7 +65,7 @@
   background: white;
   @include box-shadow(0 1px 4px 0 rgba(0, 0, 0, 0.5));
   padding: 16px;
-  color: $text-primary; 
+  color: $text-primary;
   .ui-datepicker-prev, .ui-datepicker-next {
     font-size: 13px;
     cursor: pointer;
@@ -88,4 +87,3 @@
     }
   }
 }
-

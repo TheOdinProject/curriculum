@@ -21,7 +21,6 @@
   }
   .logo-img {
     height: 87px;
-    border-radius:50%;
     transition: all .05s ease-in-out;
     &.expanded{
       transition: all .4s cubic-bezier(0.42, 0, 0.38, 1.38);
@@ -32,7 +31,6 @@
   @media screen and (max-width: 992px) {
     .logo-img {
       height: 60px;
-      border-radius:50%;
     }
   }
 
@@ -42,7 +40,6 @@
     }
     .logo-img {
       height: 60px;
-      border-radius:50%;
     }
   }
 
