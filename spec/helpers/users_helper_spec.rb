@@ -30,9 +30,12 @@ RSpec.describe UsersHelper do
   end
 
   describe '#set_learning_goal' do
-    it 'show user edit page' do
-      expect(helper.set_learning_goal).to eql('<a class="accent" href="/users/edit">set a learning goal in your settings</a>')
+    let(:settings_link) {
+      '<a class="accent" href="/users/edit">set a learning goal in your settings</a>'
+    }
+
+    it 'returns a link to the users settings page' do
+      expect(helper.set_learning_goal).to eql(settings_link)
     end
   end
-
 end

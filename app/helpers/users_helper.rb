@@ -10,4 +10,5 @@ module UsersHelper
 
   def set_learning_goal
     link_to 'Set a learning goal in your settings.', edit_user_registration_path
+  end
 end
