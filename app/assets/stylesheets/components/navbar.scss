@@ -58,8 +58,11 @@
       background-position: center center;
       background-size: cover;
     }
-    .drop-down-link:hover {
-      color: $primary;
+    .drop-down-link{
+      color: $grey;
+    }
+    #dash-active{
+      border-bottom:2px solid $light-grey;
     }
     .menu-options li {
       vertical-align: top;
@@ -68,9 +71,13 @@
       line-height: 1.88;
       letter-spacing: 0.2px;
     }
+    .menu-options li:hover{
+      background-color:$light-grey;
+    }
     .menu-options {
+      border:0;
       padding: 8px;
-      @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.2));
+      @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
       margin: 15px 0 0 -65px;
     }
     //box triangle css
@@ -87,12 +94,13 @@
     .menu-options:after {
       border-color: rgba(255, 255, 255, 0);
       border-bottom-color: #ffffff;
+      filter: drop-shadow(10px 0px 0px 0px rgba(0,0,0,0.1));
       border-width: 10px;
       margin-left: -10px;
     }
     .menu-options:before {
       border-color: rgba(0, 0, 0, 0);
-      border-bottom-color: #eaeaea;
+      border-bottom-color: transparent;
       border-width: 12px;
       margin-left: -12px;
     }

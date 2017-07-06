@@ -1,7 +1,7 @@
 <div class="dropdown">
   <div class="avatar" style="background-image:url(<%= current_user.image %>)" data-toggle="dropdown"></div>
   <ul class="dropdown-menu menu-options">
-    <li>
+    <li id="dash-active">
       <%= link_to dashboard_path, class: 'drop-down-link accent' do %>
         <span class="drop-down-logo dashboard-logo"></span>Dashboard
       <% end %>
