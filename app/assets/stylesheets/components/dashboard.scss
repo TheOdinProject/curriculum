@@ -38,6 +38,11 @@
 
       .learning-goal {
         margin-top: 17px;
+
+        a {
+          text-decoration: underline;
+          color: $grey;
+        }
       }
 
       .completion-date {
