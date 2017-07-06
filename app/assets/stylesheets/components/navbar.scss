@@ -59,10 +59,10 @@
       background-size: cover;
     }
     .drop-down-link{
-      color: grey;
+      color: $grey;
     }
     #dash-active{
-      border-bottom:thin solid $light-grey;
+      border-bottom:2px solid $light-grey;
     }
     .menu-options li {
       vertical-align: top;
