@@ -28,4 +28,11 @@ RSpec.describe UsersHelper do
       expect(helper.lesson_time(user, lesson)).to eql('October 11, 2016 19:00')
     end
   end
+
+  describe '#set_learning_goal' do
+    it 'show user edit page' do
+      expect(helper.set_learning_goal).to eql('<a class="accent" href="/users/edit">set a learning goal in your settings</a>')
+    end
+  end
+
 end

@@ -53,6 +53,7 @@
       margin-top: 37.8px;
       width: 30px;
       height: 30px;
+      @include border-radius(50%);
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
