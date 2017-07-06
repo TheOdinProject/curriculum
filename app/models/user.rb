@@ -70,7 +70,7 @@ class User < ApplicationRecord
   private
 
   def default_image(size)
-    "http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=#{size}"
+    "https://www.gravatar.com/userimage/74417267/598000a0a8cad11e55334075bab42658?s=#{size}"
   end
 
   def ordered_lesson_completions

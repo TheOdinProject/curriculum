@@ -5,7 +5,18 @@
     padding: 30px 60px;
 
     .user-avatar {
+      width:100px;
+      height:100px;
+      margin: 0 auto;
       margin-top: 18px;
+      background-color:#000;
+      border-radius:50%;
+      overflow: hidden;
+    }
+
+    .user-avatar-img {
+      width: 100%;
+      object-fit: contain;
     }
 
     .welcome-text {

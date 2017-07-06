@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-md-5 align-items-center text-center">
             <div class="user-avatar">
-              <%= image_tag gravatar_url(user, 80), alt: 'gravatar' %>
+              <%= image_tag @user.image, class: 'logo-img user-avatar-img' %>
             </div>
 
             <p class="welcome-text"> Welcome back <%=  user.username %>! </p>
@@ -17,7 +17,7 @@
             <div class="learning-goal-wrapper">
               <p class="camel bold learning-goal-title">Learning Goal</p>
               <p class="learning-goal">
-                <%= user.learning_goal || 'Not Specified' %>
+                <%= user.learning_goal || set_learning_goal  %>
               </p>
             </div>
           </div>
