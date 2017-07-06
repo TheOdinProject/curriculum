@@ -24,7 +24,7 @@
           <% if course.completed_by?(current_user) %>
             <span class="completed-text pale-grey bold text-uppercase">Completed</span>
           <% else %>
-            <%= link_to 'Start', course_path(course), class: 'button button--primary course-start-btn' %>
+            <%= link_to 'Start', course_path(course), class: 'button button--primary' %>
           <% end %>
         </div>
       </div>
