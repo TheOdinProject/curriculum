@@ -86,6 +86,7 @@ This project may seem simple, but now you've got a website that is both a normal
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/odin-kittens)
 * [Joshua Wootonn's solution](https://github.com/jose56wonton/kittens)
 * [jfonz412's solution](https://github.com/jfonz412/odin-kittens)
 * [Austin's Solution ](https://github.com/CouchofTomato/odin-kittens)
@@ -148,6 +149,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/flickr-feed) | [View in browser](https://stark-brook-63398.herokuapp.com/)
 * [Austin's solution](https://github.com/CouchofTomato/odin_flikr)
 * [Rhys B.'s Solution ](https://github.com/105ron/flickrphotos) | [View in browser](https://calm-coast-27204.herokuapp.com)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
