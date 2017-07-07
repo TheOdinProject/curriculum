@@ -664,3 +664,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Neil Cudden's solution](https://github.com/ncud4bloc/etch-a-sketch/) |[View in browser](https://ncud4bloc.github.io/etch-a-sketch/HTML/index.html)
 * [Nora's solution](https://github.com/noran9/tiles/) |[View in browser](https://noran9.github.io/tiles/)
 * [Riley's solution](https://github.com/keymaster777/sketch) |[View in browser](https://keymaster777.github.io/sketch/)
+* [Arunava's solution](https://github.com/iArunava/Hover-Pad) | [View in browser](https://iarunava.github.io/Hover-Pad/)
