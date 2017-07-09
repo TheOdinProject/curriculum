@@ -666,3 +666,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Nora's solution](https://github.com/noran9/tiles/) |[View in browser](https://noran9.github.io/tiles/)
 * [Riley's solution](https://github.com/keymaster777/sketch) |[View in browser](https://keymaster777.github.io/sketch/)
 * [Arunava's solution](https://github.com/iArunava/Hover-Pad) | [View in browser](https://iarunava.github.io/Hover-Pad/)
+* [ChiselD's solution] (https://github.com/ChiselD/etch-a-sketch)
