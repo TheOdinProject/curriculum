@@ -95,7 +95,11 @@
     padding-top: 14.2px;
     vertical-align: middle;
   }
-
+  .btn {
+    &:focus {
+      outline: rgba(82,168,236,.6) solid 5px;
+    }
+  }
   i.providers-button {
     padding-right: 20px;
     font-size: 32px;
