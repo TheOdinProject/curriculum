@@ -22,9 +22,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
-<<<<<<< HEAD
 * [Akshat Dubey's solutions](https://github.com/akshatdb/learn_ruby-1)
-=======
 * [willievantonder's solution] (https://willievantonder.github.io/learn_ruby)
 >>>>>>> f307a3956e76de67758872fc06a2fa233d7a3eac
 * [ticklybanana's solutions](https://github.com/ticklybanana/learn_ruby)
