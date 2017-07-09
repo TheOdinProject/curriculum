@@ -24,7 +24,6 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * Add your solution below this line!
 * [Akshat Dubey's solutions](https://github.com/akshatdb/learn_ruby-1)
 * [willievantonder's solution] (https://willievantonder.github.io/learn_ruby)
->>>>>>> f307a3956e76de67758872fc06a2fa233d7a3eac
 * [ticklybanana's solutions](https://github.com/ticklybanana/learn_ruby)
 * [endotnick's solutions](https://github.com/endotnick/learn_ruby)
 * [EK's solutions](https://github.com/ekazubuike/learn_ruby)
