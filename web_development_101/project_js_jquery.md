@@ -667,3 +667,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Riley's solution](https://github.com/keymaster777/sketch) |[View in browser](https://keymaster777.github.io/sketch/)
 * [Arunava's solution](https://github.com/iArunava/Hover-Pad) | [View in browser](https://iarunava.github.io/Hover-Pad/)
 * [ChiselD's solution](https://github.com/ChiselD/etch-a-sketch)
+* [Sheldon K's solution](https://github.com/Leviax7/hover-pad) | [View in browser](https://leviax7.github.io/hover-pad/)
