@@ -13,9 +13,8 @@ This will obviously be less helpful for you if you haven't been through the Ruby
 
 ### Your Assignment
 
-1. Watch this [Javascript for Ruby Programmers Video](https://www.youtube.com/watch?v=wWIGEM4E9iw&list=PLxNY6twFc_xCxdSPLlxUS4C0VO3sni2DA)
-2. Check out this [Javascript-to-Ruby Syntax Comparison Cheat Sheet from AgentCooper](http://agentcooper.github.io/js-ruby-comparison/)
-3. Read [Ruby vs Javascript Functions, Procs, Blocks, and Lambdas by Skilldrick](http://skilldrick.co.uk/2011/01/ruby-vs-javascript-functions-procs-blocks-and-lambdas/)
+1. Check out this [Javascript-to-Ruby Syntax Comparison Cheat Sheet from AgentCooper](http://agentcooper.github.io/js-ruby-comparison/)
+2. Read [Ruby vs Javascript Functions, Procs, Blocks, and Lambdas by Skilldrick](http://skilldrick.co.uk/2011/01/ruby-vs-javascript-functions-procs-blocks-and-lambdas/)
 
 
 ## Additional Resources
