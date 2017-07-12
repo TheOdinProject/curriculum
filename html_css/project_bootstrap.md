@@ -1,8 +1,6 @@
-# Project: Using Twitter Bootstrap (with Newsweek)
-
 In this project, you'll get a chance to try out Twitter's Bootstrap framework by building a site that actually uses it -- [Newsweek](http://www.newsweek.com/).
 
-## Steps to Victory
+### Steps to Victory
 
 *Note: As usual, ignore any ads, icons, and interactive elements (which use Javascript).  If you really want to grab icons, try taking a screenshot of them and making an image file out of that.*
 
@@ -22,6 +20,8 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Peter Mester's solution](https://github.com/peter665/newsweekPage) | [View in Browser] (https://peter665.github.io/newsweekPage/)
+* [Andrew's solution](https://github.com/andrewr224/Newsweek) | [View in browser] (https://andrewr224.github.io/Newsweek/)
 * [Flint Mayers' solution'](https://github.com/FlintMayers/Bootstrap_site_Odin) | [View in browser](https://flintmayers.github.io/Bootstrap_site_Odin/)
 * [Marko Nikolajević's solution'](https://github.com/Mark3z/odin_projects/tree/master/newsweek) | [View in browser](https://mark3z.github.io/odin_projects/newsweek/index.html)
 * [Pawel R's solution](https://github.com/PawelRokosz/UsingTwitterBootstrap) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/UsingTwitterBootstrap/blob/master/index.html)
@@ -36,8 +36,12 @@ In this project, you'll get a chance to try out Twitter's Bootstrap framework by
 * [Alejandro Corredor's solution](https://github.com/aecorredor/newsweek-replica/blob/master/index.html) | [View in browser](http://htmlpreview.github.io/?https://github.com/aecorredor/newsweek-replica/blob/master/index.html)
 * [David Chapman's solution (partial content, no JS)](https://github.com/davidchappy/odin_training_projects/tree/master/html-bootstrap-newsweek) | [View in browser](https://davidchappy.github.io/html-bootstrap-newsweek/)
 * [Daunenok's solution](https://github.com/daunenok/newsweek) | [View in browser](https://daunenok.github.io/newsweek/)
+* [Austin's solution](https://github.com/CouchofTomato/newsweek-clone)
+* [Beth Rathbone's solution](https://github.com/bethrath/bootstrap-test) | [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/bootstrap-test/blob/master/index.html)
+* [husein ghafari's solution](https://github.com/hosghf/newsweek) | [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/newsweek/blob/master/index.html)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Newsweek/) | [View in browser](https://ncud4bloc.github.io/Newsweek/HTML/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,8 +1,8 @@
-# Project: Tic Tac Toe in Javascript
+### Project: Tic Tac Toe in Javascript
 
 If you went through the [Ruby course](/ruby-programming), you had a chance to build Tic Tac Toe to test your OOP skills.  If you did, you'll have a leg up because you'll be building those project now for the browser.
 
-## Tic Tac Toe
+### Tic Tac Toe
 
 Remember Tic Tac Toe? See [Wikipedia](http://en.wikipedia.org/wiki/Tic-tac-toe) if you haven't.  It involves a couple of players, a simple board, checking for victory at each turn... Let's build it!
 
@@ -21,11 +21,12 @@ Build a tic-tac-toe game in the browser where two human players can play against
 3. Push your solution to Github and post the link to it below.
 
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/js-tictactoe) | [View in browser](https://couchoftomato.github.io/js-tictactoe/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/tictactoe/index.html "Tic-tac-toe")
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_5_TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_5_TicTacToe/index.html)
@@ -51,7 +52,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [Daunenok's solution](https://github.com/daunenok/tic-tac-toe) | [View in browser](https://daunenok.github.io/tic-tac-toe/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/tic-tac-toe) | [View in browser](https://sophialwu.github.io/tic-tac-toe/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

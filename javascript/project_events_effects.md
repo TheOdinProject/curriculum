@@ -1,10 +1,8 @@
-# Project: jQuery and the DOM
-
 Let's give you a chance to dive deeply into working with events by building a Snake game.  If you never played it (likely many years ago in your childhood), check out the [Wikipedia Page for Snake](http://en.wikipedia.org/wiki/Snake_(video_game)).  Basically, it's a snake that you have to move around the board and which grows longer with each piece of food it eats.  You lose if it gets so big it hits itself or if it goes off the board.
 
 If you think about what's required to make a game like this work, it's all well within your grasp -- you'll have to set up a grid and listen for user input events to determine where to turn the snake, then add some logic around how it gets larger by "feeding".  This is where things start getting really fun!
 
-## Your Task
+### Your Task
 
 ### Setup
 
@@ -19,14 +17,14 @@ If you think about what's required to make a game like this work, it's all well 
 ### Bring it to Life
 
 5. Listen for keyboard input from the arrow keys (see the [keypress() docs](http://api.jquery.com/keypress/)) and change the snake's current direction if a different arrow is pressed.  It's probably helpful to use `console.log()` to track this so you know you're doing it right.
-5. Now bring the snake to life by running a game loop that uses `setTimeout()` to perform a new "turn". 
+5. Now bring the snake to life by running a game loop that uses `setTimeout()` to perform a new "turn".
 6. Each turn, invoke a `move()` function which moves the snake one square in the current direction of travel for each turn.
 6. Create logic which ends the game if the snake head goes off the board.
 7. Now create a Javascript object representing "food".  Randomly place a food on the board.
 8. Create the functionality to eat food, which causes the snake to grow one unit of length on the next turn.
 9. Modify your `move()` function (if you need to) to account for a snake of multiple units length.  This is why you need to think of the snake as an array of coordinate pairs.
 10. Create the logic which ends the game if your snake moves onto itself.
-11. Play! 
+11. Play!
 
 ### The Fun Stuff
 
@@ -37,11 +35,13 @@ If you think about what's required to make a game like this work, it's all well 
 12. Upload your snake to Github and put your code down below.
 
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Rhys B's solution](https://github.com/105ron/snake) | [View in browser](https://105ron.github.io/snake/)
+* [Austin's solution](https://github.com/CouchofTomato/snake) | [View in browser](https://couchoftomato.github.io/snake/)
 * [Afshin M.'s solution](https://github.com/afshinator/js-snake)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/snake) | [View in browser](http://jsfiddle.net/Jberczel/xvEt5/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Snake) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Snake/index.html)
@@ -73,9 +73,9 @@ If you think about what's required to make a game like this work, it's all well 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/snake-game) | [View in browser](https://sophialwu.github.io/snake-game/)
 * [Axel's solution](https://github.com/afuh/snake-game) | [View in browser](https://afuh.github.io/snake-game/)
 * [Daunenok's solution](https://github.com/daunenok/snake) | [View in browser](https://daunenok.github.io/snake/)
+* [Pat's solution](https://github.com/Pat878) | [View in browser](https://pat878.github.io/JS_Snake/)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-

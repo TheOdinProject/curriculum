@@ -1,10 +1,6 @@
-# Final Project: Design your Own Grid-Based Framework
-
 In this final project, you'll get to take everything you've learned and use it to build your own simple grid-based framework.  As with the other final projects, we'll keep it relatively open-ended to give you a chance to exercise your creativity and problem-solving skills.  It will be a great project to show off to potential employers as well.
 
 Once you're done setting up your framework, you will use it to clone any website you like.  If you're out of ideas, try cloning The Odin Project!
-
-## Steps to Victory
 
 ### The Framework
 
@@ -31,14 +27,18 @@ You'll be creating your own grid-based framework.
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
-* [Axel's solution - Sass Framework](https://github.com/afuh/sass-framework) | [Test website](https://afuh.github.io/sass-framework/) 
+* [Axel's solution - Sass Framework](https://github.com/afuh/sass-framework) | [Test website](https://afuh.github.io/sass-framework/)
 * [Artur Janik's solution - Framework](https://github.com/ArturJanik/Stellage) | [Solution - website](https://github.com/ArturJanik/ProjectInteria) | [View desktop version in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectInteria/blob/master/index.html) | [View mobile version in browser](https://htmlpreview.github.io/?https://github.com/ArturJanik/ProjectInteria/blob/master/mindex.html)
 * [AtActionPark's solution - Framework](https://github.com/AtActionPark/odin_grid_framework) | [Example Site](https://github.com/AtActionPark/odin_grid_framework_example) | [HTML Preview](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_grid_framework_example/blob/master/main.html)
 * [Miguel Herrera's solution - Framework](https://github.com/migueloherrera/estilos) | [The Odin Project Clone](https://github.com/migueloherrera/ctop) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/ctop/blob/master/index.html)
 * [Daunenok's solution](https://github.com/daunenok/framework-edx) | [View in browser](https://daunenok.github.io/framework-edx/)
 * [David Chapman's solution (minimal)](https://github.com/davidchappy/css-framework) | [View in browser](https://davidchappy.github.io/css-framework/)
+* [Beth Rathbone's solution- Framework](https://github.com/bethrath/12-column-grid) | [Example Site] (http://htmlpreview.github.io/?https://github.com/bethrath/lisa-eldridge/blob/master/index.html)
+* [Austin's solution](https://github.com/CouchofTomato/css-framework) | [Example Site](https://couchoftomato.github.io/css-framework/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/My_Frame/) | [View in browser](https://ncud4bloc.github.io/My_Frame/HTML/index.html)
+* [husein ghafari's solution](https://github.com/hosghf/css-grid-framework) | [Example Site](https://htmlpreview.github.io/?https://github.com/hosghf/final-prj/blob/master/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

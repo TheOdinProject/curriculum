@@ -1,7 +1,3 @@
-# Security, SSL, and Best Practices
-<!-- *Estimated Time: 1 hr* -->
-<!-- this should probably be in rails course or an electives course -->
-
 It's important to at least start thinking about how the open and bountiful world of the Internet handles issues of security and secure connections.  
 
 Security is something that beginning developers don't spend a lot of time thinking about because they've got a lot on their minds but it will occupy more of your time as you start putting real applications onto the internet.  It's something that you need to be familiar with because sometimes simple but incorrect choices can leave your users' data exposed or your application vulnerable to attack.  Some simple best-practices and best technologies go a long way towards alleviating those issues.
@@ -18,7 +14,7 @@ Here's a [basic explanation of security certificates from Reddit](http://www.red
 
 You'll do some brief reading/viewing here but the main takeaway should be that Security is an important issue, even if it's often obscured from you.  You'll run into use of certificates when you deploy to Heroku and possibly also when you're setting up your Github account (though that depends which method for pushing you've enabled).
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -29,13 +25,13 @@ You'll do some brief reading/viewing here but the main takeaway should be that S
 * What is an SSL certificate?
 * How long has it been since you saw a news headline of a tech company who got "hacked" and exposed millions of user accounts?
 
-## Assignment
+### Assignment
 
 2. For a quick video overview of SSL, [watch this video](http://www.youtube.com/watch?v=iQsKdtjwtYI).  It's more important to understand the "Why use SSL" than the "How to use SSL".  The section on Certificates at the end is also useful.
 1. To understand the basics of HTTPS and SSL, check out [this article](http://www.hongkiat.com/blog/ssl-certs-guide/).
 2. Skim through Smashing Magazine's list of some [common security mistakes](http://coding.smashingmagazine.com/2010/10/18/common-security-mistakes-in-web-applications/) from a 2010 article.  It references PHP code but the vulnerabilities are language agnostic.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

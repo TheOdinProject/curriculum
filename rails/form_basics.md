@@ -1,6 +1,4 @@
-# Basic Forms
-
-## Introduction
+### Introduction
 
 You should be familiar with forms, both as a normal Internet user and as an HTML programmer who has done the [Introduction to Web Development course](/web-development-101).  But how much do you REALLY know about forms?  It may sound strange, but forms are possibly the most complicated thing about learning web development.  Not necessarily because the code itself is difficult, but because you usually want to build forms that accomplish so many different things at once.
 
@@ -10,7 +8,7 @@ Now think about a web form to buy an airline ticket.  You probably need to enter
 
 Most forms won't be that long or complicated for you, but it's useful to appreciate all the things you can (and one day will) do with them.  It's incredibly easy to make a basic form so the first thing we'll do is make sure you've got an intimate understanding of how forms are created in HTML and then how Rails offers you some helpers to make your life easier.  We'll cover the way data is structured and sent to the controller until you feel pretty comfortable with that.  Then a later lesson will deal with how to take that basic understanding and make forms handle some more firepower.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -28,7 +26,7 @@ Most forms won't be that long or complicated for you, but it's useful to appreci
 * Which form helper automatically adds markup around errors?
 * How do you access your Update or Delete actions with a form?
 
-## Forms in HTML
+### Forms in HTML
 
 Step one is to be able to create a form in HTML.  Remember how that looks?
 
@@ -44,7 +42,7 @@ Step one is to be able to create a form in HTML.  Remember how that looks?
 
 There are plenty of `input` tags to choose from, including `button`, `checkbox`, `date`, `hidden`, `password`, `radio` and many more (see [the w3 schools list under the `type` attribute](http://www.w3schools.com/tags/tag_input.asp)).
 
-## Viewing What Your Form Submits
+### Viewing What Your Form Submits
 
 If you want to see what your forms are submitting to your Rails app, look through the output that gets printed into your console when you run your `$ rails server`.  Whenever you submit a very basic form for a user email signup, it should include lines that look something like:
 
@@ -60,7 +58,7 @@ The first line tells us which HTTP method was used and which route the form went
 
 You'll find yourself looking at this server output a lot when you start building forms.  It'll keep you sane because it tells you exactly what the browser sent back to your application so you can see if there's been a... misunderstanding.
 
-## Railsifying Your Form
+### Railsifying Your Form
 
 The first thing you'll realize if you try to create a plain vanilla form in a Rails view is that it won't work.  You'll either get an error or your user session will get zeroed out (depending on your Rails version).  That's because Rails by default automatically protects you from [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) and it requires you to verify that the form was actually submitted from a page you generated.  In order to do so, it generates an ["authenticity token"](http://guides.rubyonrails.org/security.html#cross-site-request-forgery-csrf) which looks like gibberish but helps Rails match the form with your session and the application.
 
@@ -78,7 +76,7 @@ So, if you want to create your own form that gets handled by Rails, you need to 
     <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
 ```
 
-## Making Forms into `params`
+### Making Forms into `params`
 
 What about the other form inputs, the ones we actually care about?
 
@@ -116,7 +114,7 @@ Don't forget that you have to whitelist the params now in your controller using 
 
 This is cool stuff that you'll get a chance to play with in the project.
 
-## Form Helpers
+### Form Helpers
 
 Rails tries to make your life as easy as it can, so naturally it provides you with helper methods that automate some of the repetitive parts of creating forms.  That doesn't mean you don't need to know how to create forms the "old fashioned" way... it's actually MORE important to know your form fundamentals when using helpers because you'll need to really understand what's going on behind the scenes if something breaks.
 
@@ -180,9 +178,9 @@ And the generated HTML is:
 
 Note that this helper nests the Article's attributes (the hard brackets in the `name` attribute should be the dead giveaway).
 
-The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're **edit**ing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
+The best part about `form_for` is that if you just pass it a model object like `@article` in the example above, Rails will check for you if the object has been saved yet.  If it's a new object, it will send the form to your `#create` action.  If the object has been saved before, so we know that we're editing an existing object, it will send the object to your `#update` action instead.  This is done by automatically generating the correct URL when the form is created.  Magic!
 
-## Forms and Validations
+### Forms and Validations
 
 What happens if your form is submitted but fails the validations you've placed on it?  For instance, what if the user's password is too short?  Well, first of all, you should have had some Javascript validations to be your first line of defense and they should have caught that... but we'll get into that in another course.  In any case, hopefully your controller is set up to re-render the current form.  
 

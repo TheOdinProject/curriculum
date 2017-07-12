@@ -1,7 +1,3 @@
-# Project: Javascript/jQuery
-
-<!-- *Estimated Time: 2-4 hrs* -->
-
 In this project, you'll get a chance to actually build a pretty nifty tool to flex your Javascript and jQuery muscles.  Up until now, you've had your hand held quite a bit by Codecademy.  Now it's time to do it on your own.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
 This should NOT be trivially easy for you.  You'll probably have to Google frequently to get the right jQuery methods or CSS to use.  In fact, that's the point!  You CAN build this, and the resources are out there.  We'll walk through the basic steps but it'll be up to you to find out how to actually implement them.  For instance, where does a `hover` effect come from?
@@ -34,12 +30,33 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
 5. Push your project to Github
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-* [Ben Harvey's Solution](https://github.com/ridergit/Sketchpad)  | [View in browser](https://ridergit.github.io/Sketchpad/) 
+* [FilipJovanovic's solution](https://github.com/FilipJovanovic/Etch-A-Sketch) | [View in browser](https://filipjovanovic.github.io/Etch-A-Sketch/)
+* [petephil97's solution](https://github.com/petephil97/sketchpad) | [View in browser](https://petephil97.github.io/sketchpad/)
+* [Tristyn's solution](https://github.com/tristyn-maalouf/query-pen) | [View in browser](https://tristyn-maalouf.github.io/query-pen/)
+* [Akshat Dubey's solution](https://github.com/akshatdb/Sketchpad) | [View in browser](https://akshatdb.github.io/Sketchpad/)
+* [endotnick's Solution](https://github.com/endotnick/odin-sketchpad) | [View in browser](http://nickrodriguez.tech/odin-sketchpad/)
+* [Charalamboss Solution](https://github.com/Charalamboss/Javascript-and-jQuery101) | [View in browser](https://charalamboss.github.io/Javascript-and-jQuery101/)
+* [Anton Smid's solution](https://github.com/AntonSmid/Etch-A-Sketch) | [View in browser](https://antonsmid.github.io/Etch-A-Sketch/)
+* [alv2r's solution](https://github.com/alv2r/pixel-sketchpad) | [View in browser](https://alv2r.github.io/pixel-sketchpad/)
+* [Bn8's solution](https://github.com/Bn8/etch_n_sketch) | [View in browser](https://bn8.github.io/etch_n_sketch/)
+* [Karam Talwandi's solution](https://github.com/kpstalwa/etch-a-sketch) | [View in browser](https://kpstalwa.github.io/etch-a-sketch/)
+* [Leah Xia's solution](https://github.com/LeahXia/grids.git) | [View in browser](http://leahxia.com/internal-links/grids/index.html)
+* [Willie van Tonder solution](https://github.com/willievantonder/gridGame) | [View in browser](https://willievantonder.github.io/gridGame/)
+* [MGiagante solution](https://github.com/mgiagante/etch-a-sketch) | [View in browser](https://mgiagante.github.com/etch-a-sketch/)
+* [Abdul's solution](https://github.com/MetriclyFrench/The-Pad) | [View in browser](https://metriclyfrench.github.io/The-Pad/)
+* [Ayub's solution](https://github.com/yubi12/etch-a-sketch) | [View in browser](https://yubi12.github.io/etch-a-sketch/)
+* [EK Azubuike's solution](https://github.com/ekazubuike/etchy-sketch) | [View in browser](https://ekazubuike.github.io/etchy-sketch/)
+* [GuyInALabCoat's solution](https://github.com/GuyInALabCoat/sketchpad) | [View in browser](https://guyinalabcoat.github.io/sketchpad/)
+* [Beachfern's solution](https://github.com/beachfern/sketchpad) | [View in browser](https://beachfern.github.io/sketchpad/)
+* [Aryavansh Shukla's solution](https://github.com/aryavansh/etch) | [View in browser](https://aryavansh.github.io/etch/)
+* [Kasey Z.'s Solution](https://github.com/kasey-z/Odin-jQueryProject01)  | [View in browser](https://kasey-z.github.io/Odin-jQueryProject01/)
+* [Qin Chen's Solution](https://github.com/hyathynth/Sketchpad)  | [View in browser](https://hyathynth.github.io/Sketchpad/)
+* [Ben Harvey's Solution](https://github.com/ridergit/Sketchpad)  | [View in browser](https://ridergit.github.io/Sketchpad/)
 * [David Moylan's Solution](https://github.com/davecm010/JSketch) | [View in browser](https://davecm010.github.io/JSketch/)
 * [Anya Finkelstein's Solution](https://github.com/anyafink/sketchpad) | [View in browser](https://anyafink.github.io/sketchpad/)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/etch-a-sketch) | [View in browser](https://cdn.rawgit.com/cjsweeten101/OdinProjects/0919c7de/etch-a-sketch/index.html)
@@ -48,6 +65,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Ben Deltenre's Solution](https://github.com/benjdelt/etch-a-sketch) | [View in browser](https://benjdelt.github.io/etch-a-sketch/)
 * [Shnoozlemcdoozle's Solution](https://github.com/shnoozlemcdoozle/etch) | [View in browser](https://shnoozlemcdoozle.github.io/etch/)
 * [adsy430's Solution](https://github.com/adampal/etcha-sketch) | [View in browser](https://adampal.github.io/etcha-sketch/)
+* * [Breadbear's Solution](https://github.com/breadbear/Wee-Painty-McPadster) | [View in browser](https://breadbear.github.io/Wee-Painty-McPadster/)
 * [Dallaire's Solution](https://github.com/Dallaire/jQuery-etch-sketch) | [View in browser](https://dallaire.github.io/jQuery-etch-sketch/)
 * [TevDevelops' Solution](https://github.com/tevdevelops) | [View in browser](https://tevdevelops.github.io/sketch/)
 * [MrDoop's Solution](https://github.com/MrDoops/Etcha) | [View in browser](https://mrdoops.github.io/Etcha)
@@ -623,13 +641,30 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [marleybrush's solution](https://github.com/marleybrush/EtchASketchpad) | [View in browser](https://marleybrush.github.io/EtchASketchpad/)
 * [Dev Mehta's solution](https://github.com/devmehta92/Canvas) | [View in broswer](https://devmehta92.github.io/Canvas/)
 * [Josh Archer's solution](https://github.com/JoshArcher-OdinProject/javascript-jquery) | [View in browser](https://www.josharcher.uk/static/projects/odinproject/javascriptandjquery/project.html) | [Code walkthrough](https://www.josharcher.uk/code/odin-project-javascript-jquery/)
-* [chloe-t's solution](https://github.com/chloe-t/etchasketch) | [View in browser](https://chloe-t.github.io/etchasketch/) 
+* [chloe-t's solution](https://github.com/chloe-t/etchasketch) | [View in browser](https://chloe-t.github.io/etchasketch/)
 * [juzOne's solution](https://github.com/juzOne/Sketch) | [View in browser](https://juzone.github.io/Sketch/)
 * [Gerasimos Gakis' solution](https://gerasimosgakis.github.io/sketchpad) | [View in browser](https://gerasimosgakis.github.io/sketchpad/)
 * [AsmCoder110s' solution](https://github.com/AsmCoder110/Etch-A-Sketch) | [View in browser](https://asmcoder110.github.io/Etch-A-Sketch)
 * [Gabriel Klueh's solution](https://github.com/gklueh/sketch-pad) | [View in browser](https://rawgit.com/gklueh/sketch-pad/master/index.html)
 * [EMuchynski's solution](https://github.com/EMuchynski/sketchpad) | [View in browser](https://emuchynski.github.io/sketchpad/)
 * [Loc Nguyen's solution - Responsive](https://github.com/vinhloc30796/etch-a-sketch) | [View in browser](https://vinhloc30796.github.io/etch-a-sketch/)
-* [Codebreeze's solution](https://github.com/codebreeze/Etch-A-Sketch) | [View in browser] (https://codebreeze.github.io/Etch-A-Sketch/)
-* [Igor's solution](https://github.com/mojotron/etch-a-sketch)|[View in browser](https://mojotron.github.io/etch-a-sketch/)
-* [coconatsuki's solution](https://github.com/coconatsuki/Project-Javascript-jQuery)|[View in browser](https://coconatsuki.github.io/Project-Javascript-jQuery/)
+* [Codebreeze's solution](https://github.com/codebreeze/Etch-A-Sketch) | [View in browser](https://codebreeze.github.io/Etch-A-Sketch/)
+* [Igor's solution](https://github.com/mojotron/etch-a-sketch) | [View in browser](https://mojotron.github.io/etch-a-sketch/)
+* [coconatsuki's solution](https://github.com/coconatsuki/Project-Javascript-jQuery) | [View in browser](https://coconatsuki.github.io/Project-Javascript-jQuery/)
+* [jacobhancock's solution](https://github.com/jacobhancock/javascript-jquery-project) | [View in browser](https://jacobhancock.github.io/javascript-jquery-project/)
+* [anistor86's solution](https://github.com/anistor86/sketchpad) | [View in browser](https://anistor86.github.io/sketchpad)
+* [uvieugo's solution](https://github.com/uvieugo/odin-project-Javascript-jQuery) | [View in browser](https://uvieugo.github.io/sketchpad/)
+* [ntnlbar's solution](https://github.com/ntnlbar/sketchpad) | [View in browser](https://ntnlbar.github.io/sketchpad/)
+* [vanamman's solution](https://github.com/Vanamman/sketchpad) | [View in browser](https://vanamman.github.io/sketchpad/)
+* [Sharon Gao's solution](https://github.com/segao/Etch-A-Sketch) | [View in browser](https://cdn.rawgit.com/segao/Etch-A-Sketch/775ca0ec/index.html)
+* [Huascar's solution](https://github.com/HuascarMC/sketchpad-project) | [View in browser](https://huascarmc.github.io/sketchpad-project/)
+* [Patrick Laverty's solution](https://github.com/patayto/sketch-pad) | [View in browser](https://patayto.github.io/sketch-pad/)
+* [Harrison's solution](https://github.com/okeharlyon/Etch-A-Sketch)
+* [dmk11's solution](https://github.com/dmk11/Etch-A-Sketch) |[View in browser](https://dmk11.github.io/Etch-A-Sketch/)
+* [Robtak's solution](https://github.com/robtak/Project-Etch-A-Sketch) |[View in browser](https://robtak.github.io/Project-Etch-A-Sketch/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/etch-a-sketch/) |[View in browser](https://ncud4bloc.github.io/etch-a-sketch/HTML/index.html)
+* [Nora's solution](https://github.com/noran9/tiles/) |[View in browser](https://noran9.github.io/tiles/)
+* [Riley's solution](https://github.com/keymaster777/sketch) |[View in browser](https://keymaster777.github.io/sketch/)
+* [Arunava's solution](https://github.com/iArunava/Hover-Pad) | [View in browser](https://iarunava.github.io/Hover-Pad/)
+* [ChiselD's solution](https://github.com/ChiselD/etch-a-sketch)
+* [Sheldon K's solution](https://github.com/Leviax7/hover-pad) | [View in browser](https://leviax7.github.io/hover-pad/)

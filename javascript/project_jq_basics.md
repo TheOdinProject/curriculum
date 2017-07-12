@@ -1,8 +1,6 @@
-# Project: Manipulating the DOM with jQuery
-
 Now that you've gotten your hands dirty and learned some real jQuery, it's time to apply it by generating an entire webpage using just Javascript and jQuery.  The webpage will be a simple restaurant home page but the principle of using Javascript to dynamically (re)render the page should stick with you.
 
-## Your Task
+### Your Task
 
 1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
 1. Set up a blank HTML document with just the `<html>` and `<body>` tags to begin with plus a single div called `<div id="content">`. Also, remember to include the jQuery library in your document within the '<head>'.
@@ -16,8 +14,10 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
-## Student Solutions
+### Student Solutions
 * Add your solution below this line!
+* [Rhys B's solution](https://github.com/105ron/js-restaurant) | [View in browser](https://105ron.github.io/js-restaurant/)
+* [Austin's solution](https://github.com/CouchofTomato/restaurant) | [View in browser](https://couchoftomato.github.io/restaurant/)
 * [Axel's solution](https://github.com/afuh/react-browsing) | [View in browser](https://afuh.github.io/react-browsing/)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/restaurant) | [View in browser](http://htmlpreview.github.io/?https://github.com/Jberczel/odin-javascript/blob/master/restaurant/index.html)
 * [Afshin M's solution](https://github.com/afshinator/js-tabbedPane) | [View in browser](http://htmlpreview.github.io/?https://github.com/afshinator/js-tabbedPane/blob/master/index.html)
@@ -49,8 +49,11 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq_restaurant)
 * [Daunenok's solution](https://daunenok.github.io/restaurant/) | [View in Browser](https://daunenok.github.io/restaurant/)
 * [Pat's solution](https://github.com/Pat878/Restaurant) | [View in Browser](https://pat878.github.io/Restaurant/)
+* [smilesr's solution](https://github.com/smilesr/op-jj-bb-35-restaurant-jquery) | [View in Browser](https://htmlpreview.github.io/?https://github.com/smilesr/op-jj-bb-35-restaurant-jquery/blob/master/index.html)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Diner/) | [View in Browser](https://ncud4bloc.github.io/Diner/HTML/index.html)
 
-## Additional Resources
+
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,10 +1,6 @@
-# FTP Basics
-<!-- *Estimated Time: .25 hrs* -->
-<!-- this lesson could be added to an new 'electives' course, this information is not essential for this part of the curriculum. It may also benifit from a expansion -->
-
 FTP stands for File Transfer Protocol and is basically a way of transferring files to and from servers.  Depending on your workflow, you may or may not use it directly but you should know what it is.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -12,11 +8,11 @@ FTP stands for File Transfer Protocol and is basically a way of transferring fil
 * When is FTP used?
 * How is FTP used?
 
-## Assignment
+### Assignment
 
 1. FTP is explained well in this [FTP For Beginners](http://www.webmonkey.com/2010/02/ftp_for_beginners/) post from Webmonkey, check it out.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,16 +1,10 @@
-# Project: Installations
-
-<!-- Improvement Ideas, Extract linux installation out into its own lesson and make sure its before this lesson,
-     Add a few more text editior options to the text editior section. Atom, brackets etc
-     Extract the join gitter section to the very first lesson in this course -->
-
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can begin developing. It can be even more frustrating if you're not already comfortable using a Mac or Linux system before you start, so because of that, this step is often one of the primary reasons that people give up on coding before they even start.
 
 Even so, if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  
 
 While some of our early lessons _do_ use online tutorials, we believe that the best way to get usable real-world skills is to develop on your own machine rather than simply following tutorials in a closed online environment. This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
 
-## Back End vs Front End Installations
+### Back End vs Front End Installations
 
 We've already covered what the overall difference is between back end (server-side) and front end (client-side) programming, but you'll see it manifested again in how you install the necessary software.  Because the client-side code runs in the browser, all you really need to write some HTML, CSS and Javascript is a web browser like Chrome, Firefox or (shudder) Internet Explorer.  
 
@@ -20,7 +14,7 @@ Another reason things get a bit more complicated on the back end is because prog
 
 Because of this, there are many little pieces and parts that you are going to need to get up and running.  Don't be afraid at this point if you don't know or understand what everything is, as you progress it will all become quite clear.
 
-## Why can't I use Windows?
+### Why can't I use Windows?
 
 Ok, we get it.. you're very comfortable with the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
 
@@ -45,7 +39,7 @@ The good news is installing linux is not as hard as you might have imagined, fir
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
-####Option 1 - Use a Virtual Machine
+##### Option 1 - Use a Virtual Machine
 This is the safest and simplest option for a complete beginner, or a person that _needs_ to use Windows on a regular basis for other reasons (work, school etc.)
 
 A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
@@ -60,7 +54,7 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 
 * Performance with Ubuntu won't be as sharp as a dual booting.
 
-####Option 2 - Dual Booting
+#### Option 2 - Dual Booting
 You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
@@ -95,8 +89,6 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 * IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
 * Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*.
 
-
-
 #### Option 4 - Using an Online IDE
 If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's (Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
@@ -111,52 +103,52 @@ If you absolutely can not install Linux to your machine, or if the Virtual Machi
 * You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
-## What You'll Be Installing
+### What You'll Be Installing
 
 Luckily, it's all free.  You'll be installing each of these using the tutorial below, but first here's a brief word about each item:
 
-### Ruby
+#### Ruby
 
 Ruby is the back end language we'll be using to write our server code.  The Ruby interpreter is a program like any other and so you'll need to make sure it's installed on your computer and you've got the right version (there are some big differences between, say, version 1.8.7 and 1.9.3 or 2.x).
 
 
-### Git
+#### Git
 
 Git, the version control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
 
-### Heroku
+#### Heroku
 
 Heroku is the cloud hosting service which we'll be using to take our web applications "live".  In some ways it acts sort of like Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your source code, Heroku actually runs that code on a server for you so your application can be visited by users.  Heroku requires a couple of helpful tools to be installed to make your life easier during the deployment process.
 
-### HTML, CSS and Javascript
+#### HTML, CSS and Javascript
 
 Actually, we won't need to install any of these -- they come with your web browser already!  In later courses, you may actually start using Javascript on your computer as a server-programming language (Node.js), but for now you've got nothing to worry about with these three.
 
-### Text Editor
+#### Text Editor
 
 We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
 
 Check out [this tutorial (~2.5 hrs of video) from NetTuts](https://tutsplus.com/course/improve-workflow-in-sublime-text-2/) which explains some of the awesomeness of Sublime Text 2 in depth.  The first chunk of the video is the most important, don't stress out about picking up the details in the rest (but you should come back to it once you've gotten more comfortable with the editor).  Most of the tips there apply quite directly to Atom as well.
 
-### Ruby Gems
+#### Ruby Gems
 
 There will be some Ruby gems (which are just prepackaged little libraries of code) to install to give you the tools necessary to talk to your database and install other gems easily in the future.
 
-### RVM
+#### RVM
 
 RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
 
 This is very useful because you'll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on other projects using the newer version (2.0.0).  Since you obviously don't want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use for a given project and PRESTO! your problems are solved.
 
-### Rails
+#### Rails
 
 What about Rails?  Rails is actually a Ruby gem of its own since it's really just a bunch of Ruby code prepackaged for you.  You "install" it by downloading the `rails` gem.
 
-### Mac: XCode
+#### Mac: XCode
 
 XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  Even though we won't be using it for that purpose, it's also got some command line tools that you'll be using so you're probably going to have to install it all (it's a giant package).
 
-## Assignment: Installfest
+### Assignment: Installfest
 
 These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
@@ -172,7 +164,7 @@ These installfests will take you through the steps to install everything on your
 
 
 
-## Checklist
+### Checklist
 
 ##### Before moving on, you should have:
 * Set up your [github](http://github.com/) account
@@ -180,13 +172,13 @@ These installfests will take you through the steps to install everything on your
 * Created and deployed a sample rails application
 * Patted yourself on the back for accomplishing a task that has turned back many brave warriors.
 
-## Oh no! Total Failure!!!
+#### Oh no! Total Failure!!!
 
 If all else fails, one of the best web-based development environments to use for coding the back end is [cloud9](https://c9.io/).  It is free to use and gives you a brand spanking new Ruby and Rails setup to start coding with.  
 
 It relies on having an internet connection, but gives you a command line, a text editor, and the ability to run a local server right out of the box.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
@@ -197,5 +189,8 @@ If you've run into issues with your installation and are desperately looking for
 * [Guide](http://stackoverflow.com/questions/9440639/sublime-text-from-command-line-win7) for opening Sublime Text via command line in Windows.
 * [Rails Installer](http://railsinstaller.org/en) goes in and forces Rails to be installed on your system.  If your computer has been behaving badly, maybe this scorched earth approach is the best.
 * [Gorails.com](https://gorails.com/setup) also has an excellent tutorial for setting up your Rails environment for OSX and Ubuntu.
-* RubyMine is great IDE (Integrated Development Environment), witch can be alternative to text editos like Sublime which we recommend. [It is free for students]](https://www.jetbrains.com/student/).
+* RubyMine is a great IDE (Integrated Development Environment), which can be an alternative to text editors like Sublime which we recommend. [It is free for students](https://www.jetbrains.com/student/).
+* [Visual Studio Code](https://code.visualstudio.com/) is an open source text editor from Microsoft that offers some of the same functionalities as Atom; is also based on Electron, like Atom; and is available for MacOS, Windows, and Linux. VSCode also has an integrated terminal that can be changed to work with the bash shell installed through the Windows Subsystem for Linux. To do so, you will need to go to File -> Preferences -> Settings, and in the editable settings file on the right, make sure you have these two settings:
+     * "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe" // Sets the terminal to Bash on Ubuntu on Windows
+     * "terminal.integrated.shellArgs.windows": [ "--login" ] // Makes sure a login shell is used, necessary for rvm, ruby, and rails
 * Google Google Google
