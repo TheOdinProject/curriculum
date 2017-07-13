@@ -74,6 +74,7 @@ If you think about what's required to make a game like this work, it's all well 
 * [Axel's solution](https://github.com/afuh/snake-game) | [View in browser](https://afuh.github.io/snake-game/)
 * [Daunenok's solution](https://github.com/daunenok/snake) | [View in browser](https://daunenok.github.io/snake/)
 * [Pat's solution](https://github.com/Pat878) | [View in browser](https://pat878.github.io/JS_Snake/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Snakes) | [View in browser](https://ncud4bloc.github.io/Snakes/HTML/index.html)
 
 
 ### Additional Resources
