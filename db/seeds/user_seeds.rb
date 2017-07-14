@@ -54,15 +54,25 @@ def users
   end
 end
 
-odin_users = users
+def lessons
+  [
+    {
+      project: Lesson.where("is_project = ?", true).third,
+      title: "google_homepage"
+    },
+    {
+      project: Lesson.where("is_project = ?", true).fourth,
+      title: "etch-a-sketch"
+    }
+  ]
+end
 
-#find the google homepage project. After installation and the git project.
-project_html = Lesson.where("is_project = ?", true).third
-
-odin_users.each do |user|
-  Project.create(repo_url: "https://github.com/#{user.username}/google_homepage",
-                 live_preview: "https://#{user.username}.github.io/google_homepage",
-                 user: user,
-                 lesson: project_html)
+users.each do |user|
+  lessons.each do |lesson|
+    Project.create(repo_url: "https://github.com/#{user.username}/#{lesson[:title]}",
+                   live_preview: "https://#{user.username}.github.io/#{lesson[:title]}",
+                   user: user,
+                   lesson: lesson[:project])
+  end
 end
 
