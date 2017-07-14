@@ -296,8 +296,6 @@ create_or_update_lesson(
   url: "/web_development_101/project_html_css.md"
 )
 
-html_project_id = lesson_counter #variable to add seeds to the project
-
 lesson_counter += 1
 create_or_update_lesson(
   title: "Javascript Basics",
