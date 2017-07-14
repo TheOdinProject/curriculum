@@ -4,6 +4,7 @@
 
 # GENERATE SUCCESS STORY Content
 load './db/seeds/success_stories.rb'
+load './db/seeds/user_seeds.rb'
 
 # ******* NOTE ********
 # You will have problems if you try to change the titles of courses/sections/lessons, since that's currently what's used to uniquely identify them!
