@@ -89,3 +89,11 @@ rhys.save!
 
 
 users = [kevin, rob, cody, ryan, leo, austin, arun, chad, ada, rhys]
+
+users.each do |user|
+  Project.create(repo_url: "https://github.com/#{user.username}/google_homepage",
+                 live_preview: "https://#{user.username}.github.io/google_homepage",
+                 user: user,
+                 lesson_id: 14)
+end
+

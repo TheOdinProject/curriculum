@@ -4,7 +4,6 @@
 
 # GENERATE SUCCESS STORY Content
 load './db/seeds/success_stories.rb'
-load './db/seeds/user_seeds.rb'
 
 # ******* NOTE ********
 # You will have problems if you try to change the titles of courses/sections/lessons, since that's currently what's used to uniquely identify them!
@@ -296,6 +295,8 @@ create_or_update_lesson(
   is_project: true,
   url: "/web_development_101/project_html_css.md"
 )
+
+html_project_id = lesson_counter #variable to add seeds to the project
 
 lesson_counter += 1
 create_or_update_lesson(
@@ -2572,6 +2573,9 @@ create_or_update_lesson(
   is_project: false,
   url: "/jobs_jobs_jobs/conclusion.md"
 )
+
+#create dummy users and projects for the google homepage project
+load './db/seeds/user_seeds.rb'
 
 # SANITY CHECKS
 
