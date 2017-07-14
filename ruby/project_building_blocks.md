@@ -40,7 +40,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 * [MGiagante's solution](https://github.com/mgiagante/ruby_building_blocks)
 * [Beachfern's solution](https://github.com/beachfern/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [Ben Deltenre's solution](https://github.com/benjdelt/ruby_building_blocks/blob/master/caesar_cipher.rb)
-* [justinckim3's solution](https://github.com/justinckim3/ruby_building_blocks/blob/master/caesar_cipher.rb)
+* [justinckim3's solution](https://github.com/justinckim3/ruby_building_blocks/blob/master/lib/caesar_cipher.rb)
 * [GuyInaLabCoat's solution](https://github.com/GuyInALabCoat/Odin_Project_Ruby/blob/master/caesar_cipher.rb)
 * [Kasey Z.'s solution](https://github.com/kasey-z/TOP-solutions/blob/master/Ruby%20Building%20Blocks/Caesar%20Cipher/caesar_cipher.rb)
 * [junkdeck's solution](https://github.com/junkdeck/opr/blob/master/caesar.rb)
