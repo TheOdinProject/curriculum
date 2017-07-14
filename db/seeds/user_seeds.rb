@@ -1,99 +1,68 @@
-kevin = User.new(username: "KingKevin", 
-               email: "kevin@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-kevin.skip_confirmation!
-kevin.save
+def users_details
+  [
+    {
+       username: "KingKevin", 
+       email: "kevin@rails.com"
+    },
+    {
+       username: "RockinRob", 
+       email: "rob@rails.com"
+    },
+    {
+      username: "CunningCody", 
+      email: "cody@rails.com"
+    },
+    {
+      username: "RecalcitrantRyan", 
+      email: "ryan@rails.com"
+    },
+    {
+      username: "LuckyLeo", 
+      email: "leo@rails.com"
+    },
+    {
+      username: "AbhorrentAustin", 
+      email: "austin@rails.com"
+    },
+    {
+      username: "AmazingArun", 
+      email: "arun@rails.com"
+    },
+    {
+      username: "CoolChad", 
+      email: "chad@rails.com"
+    },
+    {
+      username: "ArtisticAda", 
+      email: "ada@rails.com"
+    },
+    {
+      username: "RationalRhys", 
+      email: "rhys@rails.com"
+    }
+  ]
+end
 
+def users
+  users_details.map do |user_details|
+    user = User.new(user_details)
+    user.password = "password"
+    user.password_confirmation = "password"
+    user.skip_confirmation!
+    user.save!
+    user
+  end
+end
 
-rob = User.new(username: "RockinRob", 
-               email: "rob@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-rob.skip_confirmation!
-rob.save!
+odin_users = users
 
+#find the google homepage project. After installation and the git project.
+project_html = Lesson.where("is_project = ?", true).third
 
-cody = User.new(username: "CunningCody", 
-               email: "cody@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-cody.skip_confirmation!
-cody.save!
-
-
-ryan = User.new(username: "RecalcitrantRyan", 
-               email: "ryan@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-ryan.skip_confirmation!
-ryan.save!
-
-
-leo = User.new(username: "LuckyLeo", 
-               email: "leo@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-leo.skip_confirmation!
-leo.save!
-
-
-austin = User.new(username: "AbhorrentAustin", 
-               email: "austin@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-austin.skip_confirmation!
-austin.save!
-
-
-arun = User.new(username: "AmazingArun", 
-               email: "arun@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-arun.skip_confirmation!
-arun.save!
-
-
-chad = User.new(username: "CoolChad", 
-               email: "chad@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-chad.skip_confirmation!
-chad.save!
-
-
-ada = User.new(username: "ArtisticAda", 
-               email: "ada@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-ada.skip_confirmation!
-ada.save!
-
-
-rhys = User.new(username: "RationalRhys", 
-               email: "rhys@rails.com", 
-               password: "password", 
-               password_confirmation: 'password',
-               legal_agreement: true)
-rhys.skip_confirmation!
-rhys.save!
-
-
-users = [kevin, rob, cody, ryan, leo, austin, arun, chad, ada, rhys]
-
-users.each do |user|
+odin_users.each do |user|
   Project.create(repo_url: "https://github.com/#{user.username}/google_homepage",
                  live_preview: "https://#{user.username}.github.io/google_homepage",
                  user: user,
-                 lesson_id: 14)
+                 lesson: project_html)
 end
 
