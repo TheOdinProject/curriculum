@@ -670,3 +670,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Sheldon K's solution](https://github.com/Leviax7/hover-pad) | [View in browser](https://leviax7.github.io/hover-pad/)
 * [Mayank Patel's solution (With Random Colors)](https://github.com/maknahar/maknahar.github.io/tree/master/op/etch-a-sketch) | [View in browser](https://maknahar.github.io/op/etch-a-sketch/)
 * [Shane Butler's solution](https://github.com/shaneausley/etch-a-sketch) | [View in browser](https://shaneausley.github.io/etch-a-sketch/)
+* [jm18457's solution](https://github.com/jm18457/drawing-game.git) 
