@@ -672,3 +672,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Shane Butler's solution](https://github.com/shaneausley/etch-a-sketch) | [View in browser](https://shaneausley.github.io/etch-a-sketch/)
 * [jm18457's solution](https://github.com/jm18457/drawing-game.git)
 * [Anik Pramanik's solution](https://github.com/radioactive001/sketch-book) | [View in browser](https://radioactive001.github.io/sketch-book/)
+* [Oliver Curting's solution](https://github.com/Curting/sketchpad) | [View in browser](https://curting.github.io/sketchpad/)
