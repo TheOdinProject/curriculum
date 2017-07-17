@@ -2573,7 +2573,7 @@ create_or_update_lesson(
 )
 
 #create dummy users and projects for the google homepage project
-if Rails.env.development? || STAGING
+if Rails.env.development? || ENV['STAGING']
   load './db/seeds/dummy_projects.rb'
 end
 
