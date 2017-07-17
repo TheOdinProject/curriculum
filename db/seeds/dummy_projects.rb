@@ -54,25 +54,18 @@ def users
   end
 end
 
-def lessons
-  [
+def lesson
     {
       project: Lesson.where("is_project = ?", true).third,
       title: "google_homepage"
-    },
-    {
-      project: Lesson.where("is_project = ?", true).fourth,
-      title: "etch-a-sketch"
     }
-  ]
 end
 
 users.each do |user|
-  lessons.each do |lesson|
-    Project.create(repo_url: "https://github.com/#{user.username}/#{lesson[:title]}",
-                   live_preview: "https://#{user.username}.github.io/#{lesson[:title]}",
-                   user: user,
-                   lesson: lesson[:project])
-  end
+  Project.create(
+    repo_url: "https://github.com/#{user.username}/#{lesson[:title]}",
+    live_preview: "https://#{user.username}.github.io/#{lesson[:title]}",
+    user: user,
+    lesson: lesson[:project])
 end
 

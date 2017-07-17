@@ -2573,7 +2573,9 @@ create_or_update_lesson(
 )
 
 #create dummy users and projects for the google homepage project
-load './db/seeds/user_seeds.rb'
+if Rails.env.development? || STAGING
+  load './db/seeds/dummy_projects.rb'
+end
 
 # SANITY CHECKS
 
