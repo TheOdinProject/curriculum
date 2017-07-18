@@ -7,6 +7,11 @@ class UsersController < ApplicationController
     @courses = Course.order(:position)
   end
 
+  def update
+    @user.update_attributes!(user_params)
+    render json: @user
+  end
+
   def send_confirmation_link
     current_user.send_confirmation_instructions
     flash[:notice] = 'Confirmation instructions have been sent to your email address!'

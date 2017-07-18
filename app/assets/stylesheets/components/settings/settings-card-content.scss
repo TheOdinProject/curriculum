@@ -1,0 +1,53 @@
+.settings-card-content {
+  display: flex;
+
+  @media(max-width: 767px) {
+    display: block;
+    text-align: center;
+  }
+
+  &__picture {
+    margin-right: 40px;
+
+    img {
+      width:100px;
+      height:100px;
+      margin: 0 auto;
+      background-color:#000;
+      border-radius:50%;
+      overflow: hidden;
+    }
+
+    @media(max-width: 767px) {
+      margin-bottom: 50px;
+      margin-right: 0;
+    }
+  }
+
+  &__edit-button {
+
+    &--open {
+      &:before {
+        content: "\f044";
+        font-family: FontAwesome;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: $grey;
+        font-size: 1.125em;
+      }
+    }
+
+    &--close {
+      &:before {
+        content: "\f00d";
+        font-family: FontAwesome;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        color: $grey;
+        font-size: 1.125em;
+      }
+    }
+  }
+}

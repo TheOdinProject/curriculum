@@ -1,0 +1,53 @@
+.settings-view {
+  width: 100%;
+
+  &--hidden {
+    display: none;
+  }
+
+  &__label {
+    color: $text-primary;
+    font-size: 1.125em;
+    font-weight: bold;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  &__item {
+    color: $grey;
+    font-size: 1.125em;
+    width: 100%;
+    padding: 0rem 1rem 0.5rem 0rem;
+
+    @include media-breakpoint-down(sm) {
+      text-align: left;
+    }
+  }
+
+  &__input {
+    color: $text-primary;
+    font-size: 1.125em;
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: 1px solid #d9d9d9;
+  }
+
+  &__button {
+    border-radius: 0.2em;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
+    color: $white;
+    font-size: 1.125em;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    padding: 0.8rem 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: $button-primary;
+    width: 100%;
+  }
+}
