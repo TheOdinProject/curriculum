@@ -1166,7 +1166,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Renan Silva's Solution(Easy)](https://github.com/renantsilva/google-homepage) | [View in browser](https://renantsilva.github.io/google-homepage/)
 * [Shane Butler's Solution(Easy)](https://shaneausley.github.io/google-hompage/) | [View in browser](https://shaneausley.github.io/google-hompage/)
 * [Oliver Curting's Solution (Easy)](https://github.com/Curting/google-homepage) | [View in browser](https://curting.github.io/google-homepage/)
-
+[skworm's Solution (Easy)] (https://github.com/skworm/google-homepage) | [View in browser] (https://skworm.github.io)
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
