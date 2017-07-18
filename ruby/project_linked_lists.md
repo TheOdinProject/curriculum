@@ -125,3 +125,4 @@ Build the following methods in your linked list class:
 * [Zach Beaird's solution (with extra credit)](https://github.com/zbbeaird89/Linked-List)
 * [EMuchynski's solution](https://github.com/EMuchynski/linked_lists)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-linked-list)
+* [Jason Dancocks' solution](https://github.com/JasonDancocks/Ruby/tree/master/linkedlists)
