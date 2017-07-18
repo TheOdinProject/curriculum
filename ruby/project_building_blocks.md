@@ -37,6 +37,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Btreim's solution] (https://github.com/btreim/ruby/blob/master/ceaser-cipher.rb)
 * [Andrew's solution](https://github.com/andrewr224/ruby-building-blocks)
 * [ticklybanana's solution](https://github.com/ticklybanana/The-Odin-Project-Exercises/blob/master/caesar_cipher.rb)
 * [MGiagante's solution](https://github.com/mgiagante/ruby_building_blocks)
