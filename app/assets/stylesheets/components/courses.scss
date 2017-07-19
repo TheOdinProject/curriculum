@@ -41,6 +41,12 @@
         }
 
         .view-course-button-wrapper {
+          text-align: right;
+
+          @include media-breakpoint-down(md) {
+              text-align: center;
+          }
+
           .button--secondary {
             padding: 1rem 1.5rem;
           }
@@ -52,7 +58,6 @@
         padding: 0;
 
         .course-badge-img {
-          margin-left: 16px;
           width: 100px;
           height: 100px;
 
@@ -63,7 +68,7 @@
         }
 
         .course-title {
-          margin-left: 1em;
+          margin-left: 2em;
 
           h2 {
             color: $text-primary;
@@ -80,7 +85,7 @@
         }
 
         @include media-breakpoint-down(md) {
-          margin-top: 20px;
+          margin: 20px 0;
         }
         @include media-breakpoint-down(sm) {
           flex-direction: column;
