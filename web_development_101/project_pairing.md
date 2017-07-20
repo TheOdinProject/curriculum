@@ -41,6 +41,7 @@ Add your solution below this line!
 * [Cody Buffaloe & Elisery's Solution](https://github.com/CodyLBuffaloe/pomodoro_clock_pp) | [View in Browser](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/pomodoro_clock_pp/blob/master/pomodoro_clock.html)
 * [Luinu's Solution](https://github.com/luinu/pomodoro) | [View in Browser](https://luinu.github.io/pomodoro/)
 * [Harrison's Solution](https://github.com/okeharlyon/Promodo-Clock)
+* [Anistor86 & Isashimitsui's Solution](https://github.com/anistor86/pomodoroclock) | [View in Browser](https://anistor86.github.io/pomodoroclock/)
 
 ### Next Steps
 
