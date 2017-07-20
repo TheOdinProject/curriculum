@@ -125,6 +125,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 * [EMuchynski's solution](https://github.com/EMuchynski/eventmanager)
 * [Paritosh's solution](https://github.com/Paritosh97/event_manager_ruby)
 * [Roland Studer's solution](https://github.com/RolandStuder/odin_project_solutions/tree/master/file-i-o-and-serialization/event-manager)
+* [Barjits solution](https://github.com/barjit/event_manager)
 
 ### Project: Hangman
 
@@ -292,6 +293,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Pat's solution](https://github.com/Pat878/Hangman)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/hangman/)
 * [Roland Studer's solution](https://github.com/RolandStuder/odin_project_solutions/tree/master/file-i-o-and-serialization/hangman)
+* [Barjits solution](https://github.com/barjit/hangman)
 
 ### Additional Resources
 
