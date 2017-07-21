@@ -1173,6 +1173,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [coryparham24's Solution (Easy)](https://github.com/coryparham24/google-homepage) | [View in browser](https://cdn.rawgit.com/coryparham24/google-homepage/5e0d481b/index.html)
 * [coryparham24's Solution (Difficult)](https://github.com/coryparham24/google-results-page) | [View in browser](https://cdn.rawgit.com/coryparham24/google-results-page/b53ad4df/index.html#)
 * [Jon Motyka's Solution (Easy)](https://github.com/microjrm/google-homepage) | [View in browswer](https://microjrm.github.io/)
+* [RedTiger0814's Solution (Easy)] (https://github.com/RedTiger0814/google-homepage) | [View in browswer](https://rawgit.com/RedTiger0814/google-homepage/master/easy-version/index.html)
+* [RedTiger0814's Solution (Difficult)] (https://github.com/RedTiger0814/google-homepage) | [View in browswer](https://rawgit.com/RedTiger0814/google-homepage/master/difficult-version/index.html)
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
