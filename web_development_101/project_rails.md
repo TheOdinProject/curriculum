@@ -17,6 +17,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/rails-blogger)
 * [endotnick's solution](https://github.com/endotnick/odin-proj-rails) | [View in browser](https://boiling-anchorage-83757.herokuapp.com/)
 * [ticklybanana's solution](https://github.com/ticklybanana/Ruby-on-Rails-Blog-Tutorial) | [View in browser](https://thawing-fortress-18710.herokuapp.com/articles)
 * [Qin's solution](https://github.com/hyathynth/rails-blogger) | [View in browser](https://secret-journey-27265.herokuapp.com/)
