@@ -57,7 +57,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 5. Now add the association between the event attendee (also a User) and the event.  Call this user the "attendee".  Call the event the "attended_event". You'll again need to juggle specially named foreign keys and classes and sources.
 6. Create and migrate all necessary tables and foreign keys.  This will require a "through" table since an Event can have many Attendees and a single User (Attendee) can attend many Events... many-to-many.
 4. Now make an Event's Show page display a list of attendees.
-5. Make a User's Show page display a list of events he is attending.
+5. Make a User's Show page display a list of events they are attending.
 6. Modify the User's Show page to separate those events which have occurred in the past ("Previously attended events") from those which are occuring in the future ("Upcoming events").  You could do this by putting logic in your view.  Don't.  Have your controller call separate model methods to retrieve each, e.g. `@upcoming_events = current_user.upcoming_events` and `@prev_events = current_user.previous_events`.  You'll get some practice with working with dates as well as building some queries.
 7. Modify the Event Index page to list all events, separated into Past and Upcoming categories.  Use a class method on Event (e.g. `Event.past`).
 8. Refactor the "upcoming" and "past" methods into simple scopes (remember scopes??).
@@ -70,6 +70,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's solution](https://github.com/mindovermiles262/odin-events)
 * [holdercp's solution](https://github.com/holdercp/private-events) | [View in browser](https://aqueous-shore-53729.herokuapp.com/)
 * [jfonz412's solution](https://github.com/jfonz412/private-events)
 * [yilmazgunalp's solution](github.com/yilmazgunalp/private-events) | [Live version](https://my-private-events.herokuapp.com/)

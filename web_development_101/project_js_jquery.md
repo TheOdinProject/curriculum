@@ -35,6 +35,9 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [oheydrew's solution](https://github.com/oheydrew/etch/) | [View in browser](https://oheydrew.github.io/etch/)
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/sketchpad) | [View in browser](https://jonathanyiv.github.io/sketchpad/)
+* [Jason McKee's solution](https://github.com/jttmckee/sketch-pad) | [View in browser](https://jttmckee.github.io/sketch-pad/)
 * [FilipJovanovic's solution](https://github.com/FilipJovanovic/Etch-A-Sketch) | [View in browser](https://filipjovanovic.github.io/Etch-A-Sketch/)
 * [petephil97's solution](https://github.com/petephil97/sketchpad) | [View in browser](https://petephil97.github.io/sketchpad/)
 * [Tristyn's solution](https://github.com/tristyn-maalouf/query-pen) | [View in browser](https://tristyn-maalouf.github.io/query-pen/)
@@ -670,4 +673,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Sheldon K's solution](https://github.com/Leviax7/hover-pad) | [View in browser](https://leviax7.github.io/hover-pad/)
 * [Mayank Patel's solution (With Random Colors)](https://github.com/maknahar/maknahar.github.io/tree/master/op/etch-a-sketch) | [View in browser](https://maknahar.github.io/op/etch-a-sketch/)
 * [Shane Butler's solution](https://github.com/shaneausley/etch-a-sketch) | [View in browser](https://shaneausley.github.io/etch-a-sketch/)
-* [jm18457's solution](https://github.com/jm18457/drawing-game.git) 
+* [jm18457's solution](https://github.com/jm18457/drawing-game.git)
+* [Anik Pramanik's solution](https://github.com/radioactive001/sketch-book) | [View in browser](https://radioactive001.github.io/sketch-book/)
+* [Oliver Curting's solution](https://github.com/Curting/sketchpad) | [View in browser](https://curting.github.io/sketchpad/)
+* [coryparham24's solution](https://github.com/coryparham24/sketchpad) | [View in browser](https://cdn.rawgit.com/coryparham24/sketchpad/f7cb10ef/index.html)
