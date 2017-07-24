@@ -10,10 +10,10 @@ class CoursesController < ApplicationController
   private
 
   def course
-    Course.friendly.find(params[:id])
+    Course.includes(sections: :lessons).friendly.find(params[:id])
   end
 
   def decorated_courses
-    Course.order(:position).map { |course| CourseDecorator.new(course) }
+    Course.order(:position).includes(:lessons).map { |course| CourseDecorator.new(course) }
   end
 end

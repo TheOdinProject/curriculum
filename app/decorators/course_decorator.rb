@@ -6,10 +6,6 @@ class CourseDecorator < SimpleDelegator
     course_badges.fetch(title, 'odin-logo.svg')
   end
 
-  def ordered_sections
-    sections.order(position: :asc)
-  end
-
   private
 
   def course_badges

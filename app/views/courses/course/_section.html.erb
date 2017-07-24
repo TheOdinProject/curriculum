@@ -7,8 +7,8 @@
     <p><%= section.description %></p>
   </div>
 
-  <% lessons = section.lessons.includes(:course).order(:position) %>
   <%= render 'courses/course/lessons',
-    lessons: lessons,
+    lessons: section.lessons,
+    course: course,
     section_index: section_index %>
 </div> <!-- /.section -->

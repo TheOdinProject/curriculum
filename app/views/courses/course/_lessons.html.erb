@@ -2,6 +2,7 @@
   <% lessons.each_with_index do |lesson, index| %>
     <%= render 'courses/course/lesson',
       lesson: lesson,
+      course: course,
       section_index: section_index,
       lesson_index: index %>
   <% end %>
