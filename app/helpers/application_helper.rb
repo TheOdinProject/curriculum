@@ -179,7 +179,7 @@ module ApplicationHelper
     if current_user
       curriculum_button
     else
-      sign_up_button
+      signup_button
     end
   end
 
