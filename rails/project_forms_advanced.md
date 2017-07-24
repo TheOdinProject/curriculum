@@ -44,7 +44,7 @@ This requires relatively vanilla forms that happen to be prepopulated with colle
 Once search results are returned, the user just needs to choose from among the eligible flights.
 
 1. Once the user has submitted the form, your controller should detect the additional query parameters (e.g. from `/flights?from_code=SFO&to_code=NYC&date=20131215&num_tickets=2`) and should pull the flights which match that criteria from your database through smart querying model methods.
-2. Send those flights back to your `app/views/flights/index.html.erb` view.  Make it so that the view will display the results below (if present).  
+2. Send those flights back to your `app/views/flights/index.html.erb` view.  Make it so that the view will display the results below (if present).
 3. Don't get rid of the search dropdowns -- keep the search form active at the top so the user can try running a new search.
 4. The search results will need to be in their own form -- this time for selecting which of the flights the user would like to choose.  Each returned flight should render with a radio button next to it.  The user will select which flight to submit and move onto the next step.  The form should submit to the `#new` action of the BookingsController you're about to create using another GET method.  You'll need to include a hidden field that contains the number of passengers.
 
@@ -56,7 +56,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 2. Create and migrate the Passenger model (just keep the information simple -- name and email only)
 3. Set up associations between Bookings, Passengers, and Flights.
 4. Create a BookingsController and appropriate routes.
-5. Set up your `#new` action, which should have received the flight ID and passenger number parameters, and use it to help render a form for a new booking which displays the currently chosen date, airports, flight ID and a set of fields to enter personal information for each passenger.  You'll want to create a new blank Passenger object in your controller for each passenger, and then use `#fields_for` in the view to set up the sub-forms.  
+5. Set up your `#new` action, which should have received the flight ID and passenger number parameters, and use it to help render a form for a new booking which displays the currently chosen date, airports, flight ID and a set of fields to enter personal information for each passenger.  You'll want to create a new blank Passenger object in your controller for each passenger, and then use `#fields_for` in the view to set up the sub-forms.
 6. Try submitting the form and check out the parameters in your server.
 7. You'll need your `#create` action to create a new Booking (linking it to the appropriate Flight) but it will also need to accept the nested attributes for each of the Passenger objects and create a new Passenger from them.  Be mindful of whitelisting the nested parameters as well.
 8. Go to the Booking model and implement the `#accepts_nested_attributes_for` method.  See the [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html) for examples and [this SO post](http://stackoverflow.com/questions/18540679/rails-4-accepts-nested-attributes-for-and-mass-assignment) for another.
@@ -68,6 +68,10 @@ Once the user has submitted their chosen flight, it's time to take their booking
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_flight_tracker) | [View in Browser](https://immense-lowlands-59487.herokuapp.com/)
+* [yilmazgunalp`s solution](https://github.com/yilmazgunalp/flight_booker) | [View in Browser](https://sheltered-lowlands-87484.herokuapp.com/)
+* [Joshua Wootonn`s solution](https://github.com/jose56wonton/flight-booker) | [View in Browser](https://flight-booker-jw.herokuapp.com/)
+* [holdercp's solution](https://github.com/holdercp/odin-flight-booker) | [View in browser](https://damp-stream-21164.herokuapp.com)
 * [Jfonz412's solution](https://github.com/jfonz412/flight-booker)
 * [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Flight_booker)
 * [CloudTemplar_'s solution](https://github.com/cloudtemplar/flight-booker) | [Live on Heroku!](https://protected-escarpment-37952.herokuapp.com/)
@@ -115,6 +119,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Marcus' solution](https://github.com/nestcx/odin-flight-booker)
 * [DV's Solution](https://github.com/dvislearning/odin-flight-booker) | [View in Browser](https://powerful-sierra-48857.herokuapp.com/)
 * [Peter Mester`s solution](https://github.com/peter665/FlightBooker) | [View in Browser](http://flight-booker-mester.herokuapp.com/)
+
 
 ### Additional Resources
 

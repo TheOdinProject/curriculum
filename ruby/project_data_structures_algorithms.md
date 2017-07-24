@@ -27,6 +27,8 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/searching_binary_trees/blob/master/searching_binary_trees.rb)
+* [Kasey Z'S solution](https://github.com/kasey-z/TOP-solutions/blob/master/data%20_structures_and_algorithms/searching_binary_trees/searching_binary_trees.rb)
 * [SadieD'S solution](https://github.com/SadieD/data_structures_and_algorithms/blob/master/binary_tree.rb)
 * [Clayton Sweetens Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/binary_tree)
 * [thisisned's solution](https://github.com/thisisned/binary_search_tree/blob/master/binary_search_tree.rb)
@@ -114,6 +116,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Daniel Varcas's solution](https://github.com/d-zer0/binary_search_trees/blob/master/binary_search_trees.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-binary-search-tree)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Data_Structures)
+* [Jason Dancocks's solution](https://github.com/JasonDancocks/Ruby/blob/master/binarysearchtree/binarysearchtree.rb)
 
 ### Project 2: Knight's Travails
 
@@ -156,6 +159,9 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/knights_travails/blob/master/knights_travails.rb)
+* [Kasey Z's solution](https://github.com/kasey-z/TOP-solutions/blob/master/data%20_structures_and_algorithms/knights_travails/knight_moves.rb)
+* [Dallaire's solution](https://github.com/Dallaire/knights_travails)
 * [SadieD's solution](https://github.com/SadieD/data_structures_and_algorithms/blob/master/knights_travails.rb)
 * [Adsy430's Solution](https://github.com/adampal/knight_moves)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/knights_travails/travail.rb)

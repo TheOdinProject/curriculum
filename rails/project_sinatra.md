@@ -24,6 +24,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* justinckim3's solution [source code](https://github.com/justinckim3/sinatra-project) | [Live](https://sinatra-projects.herokuapp.com/caesar-cipher)
 * Adsy430's solution [source code](https://github.com/adampal/caesar_reloaded) | [Live](https://mighty-river-58119.herokuapp.com)
 * holdercp's solution [Source code](https://github.com/holdercp/caesar_cipher_sinatra) | [Live](https://glacial-falls-15610.herokuapp.com/)
 * Nikolay Dyulgerov's solution [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
@@ -81,6 +82,8 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* justinckim3's solution [source code](https://github.com/justinckim3/sinatra-project) | [Live](https://sinatra-projects.herokuapp.com/hangman)
+* Adsy430's solution [Source code](https://github.com/adampal/hangman) | [Live](https://fierce-gorge-46516.herokuapp.com/?restart=true)
 * holdercp's solution [Source code](https://github.com/holdercp/hangman-sinatra) | [Live](https://thawing-cliffs-47023.herokuapp.com/)
 * Nikolay Dyulgerov's solution (Hangman) [github](https://github.com/NicolayD/sinatra-odin) | [see it on the web](https://sinatra-odin.herokuapp.com/)
 * jfonz412's solution (hangman)[github](https://github.com/jfonz412/hangman_online)

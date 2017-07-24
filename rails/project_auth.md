@@ -95,6 +95,8 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [nmac's solution](https://github.com/nmacawile/members-only) | [Heroku](https://fathomless-woodland-93412.herokuapp.com/)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/clubhouse) | [View in browser](https://milan-clubhouse.herokuapp.com)
 * [holdercp's solution](https://github.com/holdercp/members-only) | [View in broswer](https://quiet-plateau-84678.herokuapp.com)
 * [jfonz's solution](https://github.com/jfonz412/members-only)|[View in browser](https://glacial-basin-26789.herokuapp.com/posts)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/members-only)
