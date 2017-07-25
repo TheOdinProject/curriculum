@@ -25,10 +25,6 @@ module ButtonHelper
   end
 
   def contribute_button
-    link_to(
-      'Learn how to contribute',
-      contributing_path,
-      class: 'button button--primary'
-    )
+    link_to('Contribute', contributing_path, class: 'button button--primary')
   end
 end
