@@ -104,7 +104,7 @@
       border-width: 12px;
       margin-left: -12px;
     }
-    .drop-down-logo {
+    .logo-drop-down {
       vertical-align: top;
       display: inline-block;
       margin: 0 3px;
@@ -113,14 +113,17 @@
       background-repeat: no-repeat;
       background-position: center center;
     }
-    .dashboard-logo {
+    .logo-dashboard {
       background-image: image-url('icons/icon-dashboard.svg');
     }
-    .settings-logo {
+    .logo-settings {
       background-image: image-url('icons/icon-settings.svg');
     }
-    .logout-logo {
+    .logo-logout {
       background-image: image-url('icons/icon-logout.svg');
+    }
+    .hide-on-full-width {
+      display: none;
     }
   }
 }
@@ -158,6 +161,7 @@
       .nav-item {
         flex: 1;
         display: flex;
+        order: initial;
         align-items: center;
         justify-content: center;
       }
@@ -177,6 +181,9 @@
       }
       .divider {
         display: none;
+      }
+      .hide-on-full-width {
+        display: flex;
       }
     }
     .background {
