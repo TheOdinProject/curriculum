@@ -24,7 +24,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 2. Now create a similar method called `#bubble_sort_by` which sorts an array but accepts a block.  The block should take two arguments which represent the two elements currently being compared.  Expect that the block's return will be similar to the spaceship operator you learned about before -- if the result of the block is negative, the element on the left is "smaller" than the element on the right.  `0` means they are equal.  A positive result means the left element is greater.  Use this to sort your array.
 
     ```language-bash
-        > bubble_sort_by(["hi","hello","hey"]) do |left,right|
+        > bubble_sort_by(["hi","hellhttps://github.com/andrewr224/bubble_sorto","hey"]) do |left,right|
         >   left.length - right.length
         > end
         => ["hi", "hey", "hello"]
@@ -35,6 +35,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Andrew's solution](https://github.com/andrewr224/bubble_sort)
 * [MGiagante's solution](https://github.com/mgiagante/ruby_building_blocks)
 * [Bn8's Solution](https://github.com/Bn8/ruby_odin/blob/master/AdvancedBuildingBlocks/bubblesort.rb)
 * [GuyInALabCoat's Solution](https://github.com/GuyInALabCoat/Odin_Project_Ruby/tree/master/Advanced_Building_Blocks)
