@@ -17,6 +17,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Akshat's Solution](https://github.com/akshatdb/Blogger) | [View in browser](https://aqueous-eyrie-51208.herokuapp.com/)
 * [Jason McKee's solution](https://github.com/jttmckee/jump-blogger) | [View in browser](https://infinite-meadow-66360.herokuapp.com/articles)
 * [justinckim3's solution](https://github.com/justinckim3/rails-blogger)
 * [endotnick's solution](https://github.com/endotnick/odin-proj-rails) | [View in browser](https://boiling-anchorage-83757.herokuapp.com/)
