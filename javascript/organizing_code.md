@@ -20,7 +20,7 @@ Javascript lets you do so many different things that it's easy to feel like you 
 
 1. Read [Organizing your Code from learn.jquery.com](http://learn.jquery.com/code-organization/)
 2. Browse through [AirBnB's JS Style Guide](https://github.com/airbnb/javascript) is very readable and helpful
-3. If you want some more examples of style guides, check out [Github's JS Style Guide](https://github.com/styleguide/javascript), and the [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
+3. If you want some more examples of style guides, check out [Github's JS Style Guide](https://web.archive.org/web/20160219161525/https://github.com/styleguide/javascript), and the [Contributing to jQuery Style Guide](http://contribute.jquery.org/style-guide/js/)
 
 #### Other Helpful Stuff
 
