@@ -3,13 +3,7 @@
   .about-page-title {
     margin-bottom: 70px;
   }
-
-  @include media-breakpoint-up(sm) {
-    .row {
-      padding-bottom: 60px;
-    }
-  }
-
+  
   .intro {
     padding-bottom: 100px;
   }
