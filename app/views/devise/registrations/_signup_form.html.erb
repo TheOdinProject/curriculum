@@ -1,0 +1,36 @@
+<%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'form-horizontal' }) do |f| %>
+
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <div class="input-group">
+      <span class="fa fa-user"></span>
+      <%= f.input :username, label: false, required: true, placeholder: 'Username', input_html: { class: 'login user_username' } %>
+    </div>
+
+    <div class="input-group">
+      <span class="fa fa-envelope"></span>
+      <%= f.input :email, label: false, required: true, placeholder: 'Email', input_html: { class: 'login email' } %>
+    </div>
+
+    <% if f.object.password_required? %>
+      <div class="input-group">
+        <span class="fa fa-lock"></span>
+        <%= f.input :password, required: true, label: false, placeholder: 'Password', input_html: { class: 'login password' } %>
+      </div>
+
+      <div class="input-group">
+        <span class="fa fa-lock"></span>
+        <%= f.input :password_confirmation, required: true, label: false, placeholder: 'Password Confirmation', input_html: { class: 'login password' } %>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="tou-caution text-center">
+    <%= link_to 'By signing up, you agree to our terms of use.', terms_of_use_path %>
+  </div>
+
+  <div class="text-center">
+    <%= f.button :submit, 'Sign up', class: 'sign-in-button page-buttons login' %>
+  </div>
+<% end %>
