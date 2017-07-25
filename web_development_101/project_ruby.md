@@ -339,6 +339,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Loc Nguyen's solution](https://github.com/vinhloc30796/learn_ruby)
 * [Arunava's solution](https://github.com/iArunava/learn_ruby)
 * [Mayank Patel's Solution](https://github.com/maknahar/learn_ruby)
+* [Oliver Curting's Solution](https://github.com/Curting/learn_ruby)
 
 ### Additional Resources
 
