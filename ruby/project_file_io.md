@@ -294,6 +294,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Neil Cudden's solution](https://github.com/ncud4bloc/hangman/)
 * [Roland Studer's solution](https://github.com/RolandStuder/odin_project_solutions/tree/master/file-i-o-and-serialization/hangman)
 * [Barjits solution](https://github.com/barjit/hangman)
+* [Riley's solution](https://github.com/keymaster777/Hangman)
 
 ### Additional Resources
 
