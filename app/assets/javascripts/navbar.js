@@ -1,7 +1,7 @@
 function toggleNav() {
   var logo = document.querySelector('.navbar-brand')
-  var logoText = document.querySelector('.logo-text')
-  var logoImg = document.querySelector('.logo-img')
+  var logoText = document.querySelector('.logo__text')
+  var logoImg = document.querySelector('.logo__img')
 
   var navToggle = document.querySelector('.navbar-toggler')
 
