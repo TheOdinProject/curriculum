@@ -82,6 +82,7 @@
       .dropdown-divider {
         background-color: $primary;
         margin: .5rem 3em;
+        border: 1px solid $primary;
       }
       .nav-item {
         flex: 1;
@@ -111,35 +112,9 @@
   }
 }
 
-// @media (max-width: 768px) {
-//   .navbar {
-//     padding: 0 20px;
-//     .navbar-nav {
-//       margin-top: 0;
-//       .nav-link {
-//         font-size: 24px;
-//         padding: 0;
-//       }
-//     }
-//     .navbar-toggler {
-//       margin-right: 33px;
-//     }
-//   }
-//   .logo {
-//     width: 100%;
-
-//     .logo-img {
-//       float: none;
-//     }
-//   }
-// }
-
-// @media (max-width: 480px) {
-//   .navbar {
-//     padding: 0 20px;
-
-//     .navbar-toggler {
-//       margin-right: 20px;
-//     }
-//   }
-// }
+@media (max-height: 468px) {
+  .navbar {
+    position: relative;
+    height: 100%;
+  }
+}
