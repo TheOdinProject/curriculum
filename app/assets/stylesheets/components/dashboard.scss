@@ -62,10 +62,21 @@
 
         .course-title, .completed-text {
           font-size: 18px;
-        }
 
-        .lessons-count {
-          margin-left: 20px;
+          @include media-breakpoint-down(sm) {
+            text-align: center;
+            padding-top: 10px;
+          }
+        }
+        .lessons-count-wrapper {
+
+          @include media-breakpoint-down(sm) {
+            text-align: center;
+          }
+
+          .lessons-count {
+            margin-left: 20px;
+          }
         }
 
         .course-start-btn {
@@ -83,6 +94,10 @@
 
           .course-progress-wrapper {
             text-align: right;
+
+            @include media-breakpoint-down(sm) {
+              text-align: center;
+            }
           }
 
           .lessons-count-wrapper, .course-progress-wrapper {
