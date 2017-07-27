@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :recoverable,
          :rememberable, :trackable, :validatable, :confirmable,
-         :omniauthable, :omniauth_providers => [:github]
+         :omniauthable, :omniauth_providers => [:github, :google]
 
   validates_uniqueness_of :username, :email
   validates :username, length: { in: 4..20 }

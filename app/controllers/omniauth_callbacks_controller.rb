@@ -18,6 +18,22 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
     end
   end
 
+  def google
+    @user = User.from_omniauth(auth)
+    update_users_avatar if avatar_needs_updated?
+
+    if @user.persisted?
+      sign_in_and_redirect @user, :event => :authentication
+      set_flash_message(:notice, :success, :kind => 'Google') if is_navigational_format?
+    elsif user_signed_in?
+      flash[flash_type] = flash_message
+      sign_in_and_redirect current_user
+    else
+      session['devise.google_data'] = auth
+      redirect_to new_user_registration_url
+    end
+  end
+
   def failure
     flash[:alert] = 'Authentication failed.'
     redirect_to root_path
