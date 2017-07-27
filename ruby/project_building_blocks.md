@@ -37,6 +37,7 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/caesar_cipher)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/caesar_cipher.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/ceaser-cipher.rb)
 * [Andrew's solution](https://github.com/andrewr224/ruby-building-blocks)
@@ -322,6 +323,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/ruby-stock-picker)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/stock_picker.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/stock-picker.rb)
 * [Andrew's solution](https://github.com/andrewr224/ruby-building-blocks)
@@ -600,6 +602,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/ruby-substrings)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/substrings.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/substrings.rb)
 * [Andrew's solution](https://github.com/andrewr224/ruby-building-blocks)
