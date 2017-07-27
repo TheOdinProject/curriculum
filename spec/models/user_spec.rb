@@ -109,22 +109,7 @@ RSpec.describe User do
       expect(user.last_lesson_completed).to eql(second_lesson_completion)
     end
   end
-
-  describe '#image' do
-    it 'returns the users avatar' do
-      expect(user.image).to eql('http://github.com/fake-avatar')
-    end
-
-    context 'when the user does not have an avatar' do
-      let(:avatar) { nil }
-      let(:gravatar) { 'https://www.gravatar.com/userimage/74417267/598000a0a8cad11e55334075bab42658?s=25' }
-
-      it 'returns the users avatar' do
-        expect(user.image).to eql(gravatar)
-      end
-    end
-  end
-
+  
   describe '.from_omniauth' do
     let(:user) {
       FactoryGirl.create(

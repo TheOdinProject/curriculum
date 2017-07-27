@@ -9,6 +9,16 @@ module UsersHelper
   end
 
   def set_learning_goal
-    link_to 'Set a learning goal in your settings.', edit_user_registration_path
+    "Set a learning goal in your #{settings_link}.".html_safe
+  end
+
+  def avatar_path(avatar)
+    avatar || image_path("odin-logo.svg")
+  end
+
+  private
+
+  def settings_link
+    link_to 'settings', edit_user_registration_path
   end
 end

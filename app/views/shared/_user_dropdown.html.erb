@@ -1,5 +1,5 @@
 <div class="dropdown">
-  <button class="avatar" aria-label="User Menu" style="background-image:url(<%= current_user.image %>)" data-toggle="dropdown"></button>
+  <button class="avatar" aria-label="User Menu" style="background-image:url(<%= avatar_path(current_user.avatar) %>)" data-toggle="dropdown"></button>
   <ul class="dropdown-menu menu-options">
     <li id="dash-active">
       <%= link_to dashboard_path, class: 'drop-down-link accent' do %>

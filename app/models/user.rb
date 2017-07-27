@@ -31,10 +31,6 @@ class User < ApplicationRecord
     ordered_lesson_completions.last
   end
 
-  def image(size = 25)
-    avatar || default_image(size)
-  end
-
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_create! do |user|
       user.provider = auth.provider
@@ -68,10 +64,6 @@ class User < ApplicationRecord
   end
 
   private
-
-  def default_image(size)
-    "https://www.gravatar.com/userimage/74417267/598000a0a8cad11e55334075bab42658?s=#{size}"
-  end
 
   def ordered_lesson_completions
     lesson_completions.order(created_at: :asc)
