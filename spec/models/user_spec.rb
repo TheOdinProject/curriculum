@@ -109,7 +109,7 @@ RSpec.describe User do
       expect(user.last_lesson_completed).to eql(second_lesson_completion)
     end
   end
-
+  
   describe '.from_omniauth' do
     let(:user) {
       FactoryGirl.create(

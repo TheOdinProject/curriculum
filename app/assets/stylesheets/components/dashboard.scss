@@ -5,12 +5,14 @@
     .user-avatar {
       width:100px;
       height:100px;
-      margin: 0 auto;
-      margin-top: 18px;
+      margin: 0 auto 0 0;
+      background-color:#000;
       border-radius:50%;
       overflow: hidden;
-
-
+      
+      @include media-breakpoint-down(sm) {
+        margin: 0 auto;
+      }
     }
 
     .user-avatar-img {
@@ -20,6 +22,9 @@
     }
 
     .welcome-text {
+      @include media-breakpoint-down(sm) {
+        text-align: center;
+      }
       color: $text-primary;
       font-size: 24px;
       margin-top: 20px;
@@ -32,13 +37,10 @@
       justify-content: space-between;
 
       @include media-breakpoint-down(sm) {
-        margin-top: 20px;
         text-align: center;
       }
 
       .learning-goal {
-        margin-top: 17px;
-
         a {
           text-decoration: underline;
           color: $grey;
@@ -48,6 +50,10 @@
       .completion-date {
         margin-top: 20px;
       }
+    }
+
+    &.card-main .row {
+      align-items: center;
     }
   }
 
