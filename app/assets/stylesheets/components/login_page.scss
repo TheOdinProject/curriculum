@@ -105,7 +105,16 @@
     background: $text-primary;
     padding-top: 14.2px;
     vertical-align: middle;
+    margin-bottom: 10px;
   }
+
+  .google-login-button {
+    background: $google-color;
+    padding-top: 14.2px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+  }
+
   .btn {
     &:focus {
       outline: rgba(82,168,236,.6) solid 5px;
