@@ -31,11 +31,27 @@ RSpec.describe UsersHelper do
 
   describe '#set_learning_goal' do
     let(:settings_link) {
-      '<a class="accent" href="/users/edit">set a learning goal in your settings</a>'
+      "Set a learning goal in your <a href=\"/users/edit\">settings</a>."
     }
 
     it 'returns a link to the users settings page' do
       expect(helper.set_learning_goal).to eql(settings_link)
+    end
+  end
+
+  describe '#avatar_path' do
+    let(:avatar) { 'http://www.github.com/image' }
+
+    it 'returns the users image path' do
+      expect(avatar_path(avatar)).to eq(avatar)
+    end
+
+    context 'when the user doesnt have a avatar' do
+      let(:avatar) { nil }
+
+      it 'returns the default Odin avatar' do
+        expect(avatar_path(avatar)).to eql('/images/odin-logo.svg')
+      end
     end
   end
 end
