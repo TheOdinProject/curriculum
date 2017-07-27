@@ -40,7 +40,7 @@ RSpec.describe ApplicationHelper do
     let(:flash_type) { 'alert' }
 
     it 'returns the bootstrap alert class' do
-      expect(helper.bootstrap_class_for(flash_type)).to eql('alert-error')
+      expect(helper.bootstrap_class_for(flash_type)).to eql('alert-danger')
     end
 
     context 'when flash type is notice' do

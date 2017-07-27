@@ -117,7 +117,7 @@ RSpec.describe User do
 
     context 'when the user does not have an avatar' do
       let(:avatar) { nil }
-      let(:gravatar) { 'http://www.gravatar.com/avatar/436053b3e050d4156773bc04cfb167fe?s=25' }
+      let(:gravatar) { 'https://www.gravatar.com/userimage/74417267/598000a0a8cad11e55334075bab42658?s=25' }
 
       it 'returns the users avatar' do
         expect(user.image).to eql(gravatar)

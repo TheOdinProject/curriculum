@@ -27,7 +27,7 @@ RSpec.describe ButtonHelper do
 
   describe '#contribute_button' do
     let(:contribute_button) {
-      '<a class="button button--primary" href="/contributing">Learn how to contribute</a>'
+      '<a class="button button--primary" href="/contributing">Contribute</a>'
     }
 
     it 'returns a contribute button' do
