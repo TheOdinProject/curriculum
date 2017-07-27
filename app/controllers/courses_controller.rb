@@ -14,6 +14,10 @@ class CoursesController < ApplicationController
   end
 
   def decorated_courses
-    Course.order(:position).includes(:lessons).map { |course| CourseDecorator.new(course) }
+    ordered_courses.map { |course| CourseDecorator.new(course) }
+  end
+
+  def ordered_courses
+    Course.order(:position).includes(:lessons)
   end
 end

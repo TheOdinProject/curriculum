@@ -14,7 +14,6 @@ before_script:
   - psql -c 'create database theodinproject_test;' -U postgres
 script:
   - bundle exec rspec
-  - bundle exec cucumber
 test:
   adapter: postgresql
   database: theodinproject_test

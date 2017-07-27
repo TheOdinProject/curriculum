@@ -31,7 +31,7 @@ RSpec.describe UsersHelper do
 
   describe '#set_learning_goal' do
     let(:settings_link) {
-      '<a class="accent" href="/users/edit">set a learning goal in your settings</a>'
+      '<a href="/users/edit">Set a learning goal in your settings.</a>'
     }
 
     it 'returns a link to the users settings page' do
