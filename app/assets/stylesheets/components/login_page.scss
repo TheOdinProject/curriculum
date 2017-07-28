@@ -101,18 +101,18 @@
     }
   }
 
-  .github-login-button {
-    background: $text-primary;
+  .oauth-button {
     padding-top: 14.2px;
     vertical-align: middle;
     margin-bottom: 10px;
   }
 
+  .github-login-button {
+    background: $text-primary;
+  }
+
   .google-login-button {
     background: $google-color;
-    padding-top: 14.2px;
-    vertical-align: middle;
-    margin-bottom: 10px;
   }
 
   .btn {
