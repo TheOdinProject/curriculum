@@ -1,37 +1,42 @@
 <div class="navbar navbar-toggleable-md navbar-light">
-
   <div class="navbar-brand">
     <%= render 'shared/brand' %>
   </div>
 
+  <%= render 'shared/navbar_components/toggle_button' %>
+
   <!-- Navbar if user logged in -->
-  <% if current_user %> 
-    <%= render 'shared/navbar_components/toggle_button' %>
+  <% if user_signed_in? %> 
     <nav class="collapse navbar-collapse" id="navbar-supported-content">
-      <ul class="navbar-nav ml-auto">
+      <!-- Full Width Navbar -->
+      <ul class="navbar-nav ml-auto hidden-md-down">
+        <%= render 'shared/navbar_components/curriculum' %>
+        <%= render 'shared/navbar_components/chat' %>
+        <li class="divider nav-link">|</li>
+        <%= render 'shared/user_dropdown' %>
+      </ul>
+
+      <!-- Mobile Modal Navigation -->
+      <ul class="navbar-nav ml-auto hidden-lg-up">
         <%= render 'shared/navbar_components/dashboard' %>
         <%= render 'shared/navbar_components/curriculum' %>
         <%= render 'shared/navbar_components/chat' %>
-
         <div class="dropdown-divider"></div>
-
         <%= render 'shared/navbar_components/settings' %>
         <%= render 'shared/navbar_components/logout' %>
       </ul>
     </nav>
 
-  <!-- Navbar if user not logged in --> <!-- COMPLETE 07/26/17 AD -->
+  <!-- Navbar if user not logged in -->
   <% else %> 
-    <%= render 'shared/navbar_components/toggle_button' %>
+    <!-- Full Width and Mobile -->
     <nav class="collapse navbar-collapse" id="navbar-supported-content">
       <ul class="navbar-nav ml-auto">
         <%= render 'shared/navbar_components/curriculum' %>
         <%= render 'shared/navbar_components/chat' %>
         <%= render 'shared/navbar_components/about' %>
-
         <div class="dropdown-divider"></div>
         <li class="divider nav-link">|</li>
-
         <%= render 'shared/navbar_components/signup' %>
         <%= render 'shared/navbar_components/login' %>
       </ul>
