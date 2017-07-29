@@ -209,21 +209,28 @@
       }
       .modal-header {
         margin: auto;
+        padding: 0;
         width: 100%;
         justify-content: center;
+        border: none;
         .close {
           position: absolute;
-          right: 45px;
+          right: 0;
+          padding-right: 45px;
+          padding-bottom: 8px;
           font-size: 1.6em;
           font-weight: bold;
           color: $button-primary;
+        }
+        .navbar-brand {
+          margin: 0;
         }
       }
     }
     // Modal Links
     .nav-link { 
       font-size: 200%;
-      font-weight: 200;
+      font-weight: normal;
       letter-spacing: 0.05em;
       border: none;
       transition: all 0.25s ease;
@@ -242,9 +249,11 @@
 @media (max-width: 480px) {
   .navbar {
     padding: 0 20px;
-
     .navbar-toggler {
       margin-right: 20px;
     }
+  }
+  .modal-header .close {
+    padding-right: 25px !important;
   }
 }
