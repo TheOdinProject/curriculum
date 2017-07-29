@@ -29,7 +29,10 @@
     }
   }
 
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 991px) {
+    .logo-text{
+      font-size: 1.4em;
+    }
     .logo-img {
       height: 60px;
     }

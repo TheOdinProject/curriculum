@@ -6,6 +6,8 @@
   background: #ffffff;
   z-index: 100;
   .navbar-toggler {
+    position: absolute;
+    top: 0;
     height: 68px;
     border: none;
     padding: 0;
@@ -60,15 +62,12 @@
       background-size: contain;
       background-color: $white;
     }
-
     .drop-down-link{
       color: $grey;
     }
-
-    #dash-active{
-      border-bottom:2px solid $light-grey;
+    #dash-active {
+      border-bottom:2px solid $light-grey; 
     }
-
     .menu-options li {
       vertical-align: top;
       font-family: $body-fonts;
@@ -139,17 +138,13 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .navbar {
     position: fixed;
     width: 100%;
     z-index: 1;
     .navbar-brand {
       width: 250px;
-      &.expanded {
-        margin: 0;
-        width: 100%;
-      }
     }
     .navbar-nav {
       margin-top: 20px;
@@ -187,11 +182,69 @@
       }
     }
   }
+  .modal-fullscreen-menu {
+    background-color: white;
+    .modal-dialog {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 768px;
+      display: flex;
+      height: 100%;
+      align-items: center;
+    }
+    .modal-content {
+      margin: auto;
+      background-color: transparent;
+      box-shadow: none;
+      border: none;
+      width: 100%;
+      .modal-links {
+        text-align: center;
+        list-style-type: none;
+        .dropdown-divider {
+          background-color: $primary;
+          margin: .5rem 3em;
+          border: 1px solid $primary;
+        }
+      }
+      .modal-header {
+        margin: auto;
+        width: 100%;
+        justify-content: center;
+        .close {
+          position: absolute;
+          right: 45px;
+          font-size: 1.6em;
+          font-weight: bold;
+          color: $button-primary;
+        }
+      }
+    }
+    // Modal Links
+    .nav-link { 
+      font-size: 200%;
+      font-weight: 200;
+      letter-spacing: 0.05em;
+      border: none;
+      transition: all 0.25s ease;
+      background-color: transparent;
+      color: $primary;
+      padding: 7.5vh 0;
+      height: 5vh;
+      font-size: 5vh;
+      line-height: 0;
+      line-height: 0;
+      
+    }
+  }
 }
 
-@media (max-height: 468px) {
+@media (max-width: 480px) {
   .navbar {
-    position: relative;
-    height: 100%;
+    padding: 0 20px;
+
+    .navbar-toggler {
+      margin-right: 20px;
+    }
   }
 }

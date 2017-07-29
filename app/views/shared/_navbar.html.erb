@@ -2,12 +2,9 @@
   <div class="navbar-brand">
     <%= render 'shared/brand' %>
   </div>
-
   <%= render 'shared/navbar_components/toggle_button' %>
-
-  <!-- Navbar if user logged in -->
   <% if user_signed_in? %> 
-    <nav class="collapse navbar-collapse" id="">
+    <nav class="collapse navbar-collapse">
       <!-- Full Width Navbar -->
       <ul class="navbar-nav ml-auto hidden-md-down">
         <%= render 'shared/navbar_components/curriculum' %>
@@ -15,22 +12,7 @@
         <li class="divider nav-link">|</li>
         <%= render 'shared/user_dropdown' %>
       </ul>
-
-      <!-- Mobile Modal Navigation -->
-      <!-- <ul class="navbar-nav ml-auto hidden-lg-up"> -->
-        <!-- <#%= render 'shared/navbar_components/dashboard' %> -->
-        <!-- <#%= render 'shared/navbar_components/curriculum' %> -->
-        <!-- <#%= render 'shared/navbar_components/chat' %> -->
-        <!-- <div class="dropdown-divider"></div> -->
-        <!-- <#%= render 'shared/navbar_components/settings' %> -->
-        <!-- <#%= render 'shared/navbar_components/logout' %> -->
-      <!-- </ul> -->
-    <!-- </nav> -->
-
-  <!-- Navbar if user not logged in -->
-  <% else %> 
-
-    <!-- Full Width and Mobile -->
+  <% else %>
     <nav class="collapse navbar-collapse" id="">
       <ul class="navbar-nav ml-auto">
         <%= render 'shared/navbar_components/curriculum' %>
@@ -45,18 +27,22 @@
   <% end %>
     </ul>
   </nav>
-</div> <!-- /.navbar -->
-
+</div>
 
 <!-- Modal Content -->
-<div id="navbar-supported-content" class="modal fade" role="dialog">
+<div id="navbar-supported-content" class="modal modal-fullscreen-menu fade" role="dialog">
   <div class="modal-dialog">
     <div class="modal-content">
-      <button aria-label="Close" type="button" class="close" data-dismiss="modal">
-      <span class="sr-only">Close navigation</span>
-      <span>&times;</span>
-      </button>
-      <ul class="navbar-nav ml-auto hidden-lg-up">
+      <div class="modal-header">
+        <div class="navbar-brand">
+          <%= render 'shared/brand' %>
+        </div>
+        <button aria-label="Close" type="button" class="close" data-dismiss="modal">
+          <span class="sr-only">Close navigation</span>
+          <span>X</span>
+        </button>
+      </div>
+      <ul class="modal-links">
         <%= render 'shared/navbar_components/dashboard' %>
         <%= render 'shared/navbar_components/curriculum' %>
         <%= render 'shared/navbar_components/chat' %>
