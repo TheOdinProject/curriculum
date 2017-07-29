@@ -1,44 +1,66 @@
-<div class="navbar navbar-toggleable-md navbar-light">
-  <div class="background"></div>
-  <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="toggle-navigation">
-    <span class="navbar-toggler-icon open"></span>
-    <span class="close" aria-hidden="true">&times;</span>
-  </button>
-  <div class="navbar-brand">
-    <%= render 'shared/logo' %>
+<!-- Modal Content -->
+<div id="navbar-supported-content" class="modal modal-fullscreen-menu fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="navbar-brand">
+          <%= render 'shared/brand' %>
+        </div>
+        <button aria-label="Close" type="button" class="close" data-dismiss="modal">
+          <span class="sr-only">Close navigation</span>
+          <span>X</span>
+        </button>
+      </div>
+      <ul class="modal-links">
+        <% if user_signed_in? %>
+          <%= render 'shared/navbar_components/dashboard' %>
+          <%= render 'shared/navbar_components/curriculum' %>
+          <%= render 'shared/navbar_components/chat' %>
+          <div class="dropdown-divider"></div>
+          <%= render 'shared/navbar_components/settings' %>
+          <%= render 'shared/navbar_components/logout' %>
+        <% else %>
+          <%= render 'shared/navbar_components/curriculum' %>
+          <%= render 'shared/navbar_components/chat' %>
+          <%= render 'shared/navbar_components/about' %>
+          <div class="dropdown-divider"></div>
+          <%= render 'shared/navbar_components/signup' %>
+          <%= render 'shared/navbar_components/login' %>
+        <% end %>
+      </ul>
+    </div>
   </div>
-  <nav class="collapse navbar-collapse" id="navbar-supported-content">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <%= link_to 'Curriculum', courses_path(ref: 'homenav'), class: 'nav-link' %>
-      </li>
+</div>
 
-      <li class="nav-item">
-        <%= link_to 'Chat', chat_link, class: 'nav-link gitter-chat-link', target: '_blank' %>
-      </li>
-      <% unless current_user %>
-        <li class="nav-item">
-          <%= link_to 'About', about_path(ref: 'homenav'), class: 'nav-link' %>
-        </li>
-      <% end %>
-      <li class="nav-item">
-        <%= link_to 'FAQ', faq_path(ref: 'homenav'), class: 'nav-link' %>
-      </li>
-      <li class="divider nav-link">|</li>
-      <div class="dropdown-divider"></div>
-      <% if current_user %>
-        <li class="nav-item">
-          <%= render 'shared/user_dropdown' %>
-        </li>
-      <% else %>
-        <li class="nav-item">
-          <%= link_to 'Sign Up', sign_up_path(ref: 'homenav'), class: 'nav-link' %>
-        </li>
 
-        <li class="nav-item">
-          <%= link_to 'Login', login_path(ref: 'homenav'), class: 'nav-link' %>
-        </li>
-      <% end %>
+
+<div class="navbar navbar-toggleable-md navbar-light">
+  <div class="navbar-brand">
+    <%= render 'shared/brand' %>
+  </div>
+  <%= render 'shared/navbar_components/toggle_button' %>
+  <% if user_signed_in? %> 
+    <nav class="collapse navbar-collapse">
+      <!-- Full Width Navbar -->
+      <ul class="navbar-nav ml-auto hidden-md-down">
+        <%= render 'shared/navbar_components/curriculum' %>
+        <%= render 'shared/navbar_components/chat' %>
+        <li class="divider nav-link">|</li>
+        <%= render 'shared/user_dropdown' %>
+      </ul>
+  <% else %>
+    <nav class="collapse navbar-collapse" id="">
+      <ul class="navbar-nav ml-auto">
+        <%= render 'shared/navbar_components/curriculum' %>
+        <%= render 'shared/navbar_components/chat' %>
+        <%= render 'shared/navbar_components/about' %>
+        <li class="divider nav-link">|</li>
+        <%= render 'shared/navbar_components/signup' %>
+        <%= render 'shared/navbar_components/login' %>
+      </ul>
+    </nav>
+  <% end %>
     </ul>
   </nav>
-</div> <!-- /.navbar -->
+</div>
+

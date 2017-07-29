@@ -9,7 +9,7 @@ footer {
   bottom: 0px;
   display: flex;
 
-  .footer-logo {
+  .footer-brand {
     display: flex;
     flex: 2;
     justify-content: center;
@@ -55,7 +55,7 @@ footer {
 @media (max-width: 768px) {
   footer {
     min-height: 140px;
-    .footer-logo {
+    .footer-brand {
       display: none;
     }
     .footer-links {
@@ -70,7 +70,7 @@ footer {
     .footer-links {
       display: none;
     }
-    .footer-logo {
+    .footer-brand {
       display:none;
     }
   }
