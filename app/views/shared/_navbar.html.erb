@@ -7,7 +7,7 @@
 
   <!-- Navbar if user logged in -->
   <% if user_signed_in? %> 
-    <nav class="collapse navbar-collapse" id="navbar-supported-content">
+    <nav class="collapse navbar-collapse" id="">
       <!-- Full Width Navbar -->
       <ul class="navbar-nav ml-auto hidden-md-down">
         <%= render 'shared/navbar_components/curriculum' %>
@@ -17,20 +17,21 @@
       </ul>
 
       <!-- Mobile Modal Navigation -->
-      <ul class="navbar-nav ml-auto hidden-lg-up">
-        <%= render 'shared/navbar_components/dashboard' %>
-        <%= render 'shared/navbar_components/curriculum' %>
-        <%= render 'shared/navbar_components/chat' %>
-        <div class="dropdown-divider"></div>
-        <%= render 'shared/navbar_components/settings' %>
-        <%= render 'shared/navbar_components/logout' %>
-      </ul>
-    </nav>
+      <!-- <ul class="navbar-nav ml-auto hidden-lg-up"> -->
+        <!-- <#%= render 'shared/navbar_components/dashboard' %> -->
+        <!-- <#%= render 'shared/navbar_components/curriculum' %> -->
+        <!-- <#%= render 'shared/navbar_components/chat' %> -->
+        <!-- <div class="dropdown-divider"></div> -->
+        <!-- <#%= render 'shared/navbar_components/settings' %> -->
+        <!-- <#%= render 'shared/navbar_components/logout' %> -->
+      <!-- </ul> -->
+    <!-- </nav> -->
 
   <!-- Navbar if user not logged in -->
   <% else %> 
+
     <!-- Full Width and Mobile -->
-    <nav class="collapse navbar-collapse" id="navbar-supported-content">
+    <nav class="collapse navbar-collapse" id="">
       <ul class="navbar-nav ml-auto">
         <%= render 'shared/navbar_components/curriculum' %>
         <%= render 'shared/navbar_components/chat' %>
@@ -45,3 +46,24 @@
     </ul>
   </nav>
 </div> <!-- /.navbar -->
+
+
+<!-- Modal Content -->
+<div id="navbar-supported-content" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <button aria-label="Close" type="button" class="close" data-dismiss="modal">
+      <span class="sr-only">Close navigation</span>
+      <span>&times;</span>
+      </button>
+      <ul class="navbar-nav ml-auto hidden-lg-up">
+        <%= render 'shared/navbar_components/dashboard' %>
+        <%= render 'shared/navbar_components/curriculum' %>
+        <%= render 'shared/navbar_components/chat' %>
+        <div class="dropdown-divider"></div>
+        <%= render 'shared/navbar_components/settings' %>
+        <%= render 'shared/navbar_components/logout' %>
+      </ul>
+    </div>
+  </div>
+</div>

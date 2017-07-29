@@ -7,6 +7,9 @@
   z-index: 100;
   .navbar-toggler {
     height: 68px;
+    border: none;
+    padding: 0;
+    right: 0;
     .close {
       display: block;
       margin-top: 8px;
@@ -17,9 +20,6 @@
     .open {
       display: none;
     }
-    border: none;
-    padding: 0;
-    right: 0;
     .navbar-toggler-icon {
       height: 60px;
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%270%200%2032%2032%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20stroke%3D%27%236abfc3%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-miterlimit%3D%2710%27%20d%3D%27M4%208h24M4%2016h24M4%2024h24%27%2F%3E%3C%2Fsvg%3E");
