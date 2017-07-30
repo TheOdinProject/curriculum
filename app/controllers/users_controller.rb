@@ -8,6 +8,7 @@ class UsersController < ApplicationController
   end
 
   def update
+    @user.skip_reconfirmation!
     @user.update_attributes!(user_params)
     render json: @user
   end
