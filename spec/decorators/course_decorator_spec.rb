@@ -6,13 +6,9 @@ RSpec.describe CourseDecorator do
   let(:course) {
     double(
       'Course',
-      sections: sections,
       title: 'Web Development 101'
     )
   }
-
-  let(:sections) { [section] }
-  let(:section) { double('Section') }
 
   describe '#badge' do
     it 'returns the correct badge for the course' do
