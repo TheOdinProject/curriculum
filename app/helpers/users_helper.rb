@@ -12,6 +12,10 @@ module UsersHelper
     "Set a learning goal in your #{settings_link}.".html_safe
   end
 
+  def display_learning_goal(user)
+    user.learning_goal || "No learning goal set yet."
+  end
+
   def avatar_path(avatar)
     avatar || image_path("odin-logo.svg")
   end

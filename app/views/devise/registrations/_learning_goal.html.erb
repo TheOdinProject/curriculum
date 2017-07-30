@@ -6,7 +6,7 @@
 
     <div class="settings-view">
       <p class="settings-view__label">Learning goal</p>
-      <p class="settings-view__item learning_goal"><%= @user.learning_goal || "No learning goal set yet." %></p>
+      <p class="settings-view__item learning_goal"><%= display_learning_goal(@user) %></p>
     </div>
 
     <%= form_for @user, html: { class: "settings-view--hidden" }, remote: true do |form| %>

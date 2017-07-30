@@ -1,9 +1,8 @@
 class UserMailer < ActionMailer::Base
   default from: 'no-reply@theodinproject.com'
 
-  def send_welcome_email_to(user, token)
+  def send_welcome_email_to(user)
     @user = user
-    @token = token
     @starting_lesson = first_lesson
     attachments.inline['logo.svg'] = logo_path
 

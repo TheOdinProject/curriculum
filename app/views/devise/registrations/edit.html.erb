@@ -6,7 +6,7 @@
       <%= render 'devise/registrations/profile' %>
       <%= render 'devise/registrations/learning_goal' %>
 
-      <% if @user.provider.empty? %>
+      <% if @user.provider.nil? %>
         <%= render 'devise/registrations/password' %>
       <% end %>
 

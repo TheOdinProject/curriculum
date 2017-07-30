@@ -1,6 +1,6 @@
 class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :recoverable,
-         :rememberable, :trackable, :validatable, :confirmable,
+         :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:github, :google]
 
   validates_uniqueness_of :username, :email
@@ -38,7 +38,6 @@ class User < ApplicationRecord
       user.email = auth.info.email
       user.username = auth.info.name
       user.avatar = auth.info.image
-      user.skip_confirmation!
     end
   end
 
@@ -58,11 +57,6 @@ class User < ApplicationRecord
     super && provider.blank?
   end
 
-  def send_confirmation_instructions
-    generate_confirmation_token! unless @raw_confirmation_token
-    send_welcome_email(@raw_confirmation_token)
-  end
-
   private
 
   def ordered_lesson_completions
@@ -77,8 +71,8 @@ class User < ApplicationRecord
     end
   end
 
-  def send_welcome_email(token)
-    UserMailer.send_welcome_email_to(self, token).deliver_now!
+  def send_welcome_email
+    UserMailer.send_welcome_email_to(self).deliver_now!
   rescue => error
     logger.error "Error sending welcome email: #{error}"
   end

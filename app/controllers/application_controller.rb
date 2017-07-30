@@ -18,7 +18,6 @@ class ApplicationController < ActionController::Base
   end
 
   def after_sign_in_path_for(_resource)
-    set_confirm_email_flash unless current_user.confirmed?
     dashboard_path
   end
 
@@ -27,10 +26,6 @@ class ApplicationController < ActionController::Base
   end
 
   private
-
-  def set_confirm_email_flash
-    flash[:warning] = render_to_string partial: 'layouts/confirm_email'
-  end
 
   def configure_permitted_parameters
     devise_parameter_sanitizer

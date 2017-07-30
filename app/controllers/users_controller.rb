@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :authenticate_user!
-  before_action :find_user, except: [:index, :send_confirmation_link]
+  before_action :find_user, except: [:index]
   authorize_resource only: [:edit, :update]
 
   def show
@@ -8,15 +8,8 @@ class UsersController < ApplicationController
   end
 
   def update
-    @user.skip_reconfirmation!
     @user.update_attributes!(user_params)
     render json: @user
-  end
-
-  def send_confirmation_link
-    current_user.send_confirmation_instructions
-    flash[:notice] = 'Confirmation instructions have been sent to your email address!'
-    redirect_to request.referer
   end
 
   private
