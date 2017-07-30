@@ -1,40 +1,21 @@
 <div id="devise-form" class="devise-sign-up gradient">
   <div class="container">
-    <div class="col-lg-5 login-form">
+    <div class="col-lg-6 login-form">
       <h1 class="text-center accent">Sign Up for Free</h1>
       <div class="card-main">
-        <%= simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: "form-horizontal" } ) do |f| %>
+        <%= render 'signup_form' %>
 
-          <%= f.error_notification %>
+        <div class="in-between text-center"><span>OR SIGN UP WITH</span></div>
 
-          <div class="form-inputs">
-            <div class="input-group">
-              <span class="fa fa-user"></span>
-              <%= f.input :username, label: false, required: true, placeholder: "Username", input_html: { class: "login user_username" } %>
-            </div>
-            <div class="input-group">
-              <span class="fa fa-envelope"></span>
-              <%= f.input :email, label: false, required: true, placeholder: "Email", input_html: { class: "login email" } %>
-            </div>
-            <% if f.object.password_required? %>
-              <div class="input-group">
-                <span class="fa fa-lock"></span>
-                <%= f.input :password, required: true, label: false, placeholder: "Password", input_html: { class: "login password" } %>
-              </div>
-              <div class="input-group">
-                <span class="fa fa-lock"></span>
-                <%= f.input :password_confirmation, required: true, label: false, placeholder: "Password Confirmation", input_html: { class: "login password" }%>
-              </div>
-            <% end %>
-          </div>
-          <div class="tou-caution"><a href="/terms_of_use">By signing up, you agree to our terms of use.</a></div>
-          <%= f.button :submit, "Sign up", class: "sign-in-button page-buttons login" %>
-        <% end %>
-        <div class="in-between text-center"><span>OR</span></div>
-        <%= render partial: "shared/github_button", locals: {button_type: "Sign up"} %>
+        <%= render 'shared/omniauth_buttons' %>
       </div>
-      <h4 class="not-signed-up text-center">Have an account?</h4>
-      <%= link_to "Login", new_session_path(resource_name), class: "sign-up-button text-center" %>
+
+      <%= render 'shared/bottom_cta',
+        button: login_button,
+        heading: 'Have an account?',
+        sub_heading: ''
+      %>
+
     </div>
   </div>
 </div>

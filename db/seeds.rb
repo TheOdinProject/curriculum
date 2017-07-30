@@ -2572,6 +2572,11 @@ create_or_update_lesson(
   url: "/jobs_jobs_jobs/conclusion.md"
 )
 
+#create dummy users and projects for the google homepage project
+if Rails.env.development? || ENV['STAGING']
+  load './db/seeds/dummy_projects.rb'
+end
+
 # SANITY CHECKS
 
 Rails.logger.info "\n\n\n\n\n##################   SANITY CHECKS   ##################\n\n"

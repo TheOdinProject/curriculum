@@ -5,10 +5,7 @@
     }
   }
 
-  .card-success-stories {
-    margin-top: 20px;
-    padding: 20px 30px;
-
+  .success-story {
     .row {
       @media(max-width: 480px) {
         flex-direction: column;

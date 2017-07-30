@@ -15,6 +15,10 @@
   text-align: center;
   text-decoration: none;
 
+  @include media-breakpoint-down(sm) {
+    padding: 1rem 2.5rem;
+  }
+
   @each $color-variant, $color in $button-colors {
     &--#{$color-variant} {
       background-color: $color;

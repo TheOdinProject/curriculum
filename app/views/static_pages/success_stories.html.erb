@@ -8,9 +8,10 @@
       <div class="row">
         <div class="col-lg-10 offset-lg-1">
           <% @success_stories.each do |story| %>
-            <div class="card-main card-success-stories">
+            <div class="card-main success-story">
               <div class="row">
-                <div class="col-xs-12 photo"><%= image_tag "success_stories/#{story.avatar_path_name}", class: "img-fluid" %>
+                <div class="col-xs-12 photo">
+                  <%= image_tag "success_stories/#{story.avatar_path_name}", class: "img-fluid" %>
                 </div>
                 <div class="col-xs-12 success-content">
                   <p class="student-name">
@@ -26,9 +27,9 @@
       </div>
 
       <%= render 'shared/bottom_cta',
-          button: sign_up_button,
+          button: signup_button,
           heading: 'Start learning for free now!',
-          subheading: ''
+          sub_heading: ''
       %>
     </div>
   </div>

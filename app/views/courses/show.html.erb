@@ -8,7 +8,7 @@
 
         <%= render 'courses/course/overview', course: @course %>
 
-        <%= render 'courses/course/sections', sections: @course.ordered_sections %>
+        <%= render 'courses/course/sections', sections: @course.sections, course: @course %>
       </div>
     </div>
 

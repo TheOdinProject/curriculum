@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   devise :database_authenticatable, :registerable, :recoverable,
          :rememberable, :trackable, :validatable, :confirmable,
-         :omniauthable, :omniauth_providers => [:github]
+         :omniauthable, :omniauth_providers => [:github, :google]
 
   validates_uniqueness_of :username, :email
   validates :username, length: { in: 4..20 }
@@ -29,10 +29,6 @@ class User < ApplicationRecord
 
   def last_lesson_completed
     ordered_lesson_completions.last
-  end
-
-  def image(size = 25)
-    avatar || default_image(size)
   end
 
   def self.from_omniauth(auth)
@@ -68,10 +64,6 @@ class User < ApplicationRecord
   end
 
   private
-
-  def default_image(size)
-    "https://www.gravatar.com/userimage/74417267/598000a0a8cad11e55334075bab42658?s=#{size}"
-  end
 
   def ordered_lesson_completions
     lesson_completions.order(created_at: :asc)

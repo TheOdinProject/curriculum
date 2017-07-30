@@ -4,10 +4,6 @@
     margin-bottom: 70px;
   }
 
-  .row {
-    padding-bottom: 60px
-  }
-
   .intro {
     padding-bottom: 100px;
   }
@@ -19,6 +15,7 @@
     }
 
     .belief {
+      padding-bottom: 60px;
 
       .belief-illustration {
         justify-content: center;
@@ -62,29 +59,27 @@
   .contact {
     .odin-logo {
       text-align: center;
-      height: 300px;
+      min-height: 300px;
+      align-self: flex-end;
+
       @include media-breakpoint-up(lg) {
         text-align: right;
       }
+
       @media(max-width: 360px) {
-          height: 210px;
-        }
+        height: 210px;
+      }
+
       img {
-        position: absolute;
-        left: -9000px;
-        right: -9000px;
-        margin: -60px auto 0 auto;
         height: auto;
         width: 100%;
-      @media(max-width: 576px) {
-          margin-top: -60px;
-          height: auto;
-          width: 100%;
+
+        @include media-breakpoint-only(md) {
+          transform: scale(1.5);
         }
-      @media(max-width: 480px) {
-          margin-top: -40px;
-          height: auto;
-          width: 120%;
+
+        @include media-breakpoint-only(lg) {
+          transform: scale(1.3);
         }
       }
     }
@@ -97,8 +92,16 @@
         margin-top: 30px;
       }
 
+      &__heading {
+        margin-bottom: 1em;
+      }
+
       &__sub-heading {
         padding-bottom: 4.375rem;
+        a {
+          text-decoration: underline;
+          color: $grey;
+        }
       }
     }
   }

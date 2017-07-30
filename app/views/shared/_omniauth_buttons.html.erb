@@ -1,0 +1,10 @@
+<% if @user.password_required? %>
+  <% resource_class.omniauth_providers.each do |provider| %>
+    <div class="omniauth-login text-center">
+      <%= link_to omniauth_authorize_path(resource_name, provider), class: "oauth-button #{provider}-login-button page-buttons login btn" do %>
+        <i class="fa fa-<%= provider%> providers-button"></i>
+          <%= provider.to_s.titleize %>
+      <% end %>
+    </div>
+  <% end %>
+<% end %>

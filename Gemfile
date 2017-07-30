@@ -19,6 +19,7 @@ gem 'premailer-rails',              '~> 1.9'
 gem 'github_api',                   '~> 0.14'  # to pull in the curriculum files
 gem 'octokit',                      '~> 4.6'
 gem 'omniauth-github',              '~> 1.1.2' #for Github Authentication
+gem 'omniauth-google-oauth2',       '~> 0.5.1' #for Google Authentication
 gem 'font-awesome-rails',           '~> 4.7'
 gem 'sass-rails',                   '~> 5.0'
 gem 'coffee-rails',                 '~> 4.2'

@@ -48,6 +48,12 @@
     top: 11.1px;
   }
 
+  @media (max-width: 500px) {
+    .input-group .fa {
+      font-size: 22px;
+    }
+  }
+
   .password {
     margin-bottom: 24.3px;
   }
@@ -89,12 +95,26 @@
     text-align: center;
   }
 
-  .github-login-button {
-    display: inline-block;
-    background-color: $text-primary;
+  @media (max-width: 400px) {
+    .omniauth-login .fa {
+      display: none;
+    }
+  }
+
+  .oauth-button {
     padding-top: 14.2px;
     vertical-align: middle;
+    margin-bottom: 10px;
   }
+
+  .github-login-button {
+    background: $text-primary;
+  }
+
+  .google-login-button {
+    background: $google-color;
+  }
+
   .btn {
     &:focus {
       outline: rgba(82,168,236,.6) solid 5px;
@@ -121,27 +141,14 @@
     padding: 0 20px;
   }
 
-  .not-signed-up {
-    margin-top: 150px;
-    font-size: 36px;
-    font-weight: 300;
-    letter-spacing: 0.4px;
-    color: $grey;
-  }
-
   .sign-up-button {
-    display: block;
-    width: 100%;
-    max-width: 234px;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 0.2px;
-    color: $pale-grey;
-    border-radius: 3px;
     border: solid 3px $pale-grey;
+    box-shadow: none;
+    color: $pale-grey;
+    letter-spacing: 0.2px;
+    max-width: 234px;
     padding: 18px;
-    margin: 50px auto 197px auto;
-    clear: right;
+    width: 100%;
   }
 
   .normal-checkbox {

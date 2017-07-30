@@ -1,13 +1,13 @@
 require 'rails_helper'
 
 RSpec.describe ButtonHelper do
-  describe '#sign_up_button' do
-    let(:sign_up_button) {
+  describe '#signup_button' do
+    let(:signup_button) {
       '<a class="button button--primary" href="/sign_up">Sign Up</a>'
     }
 
     it 'returns a sign up button' do
-      expect(helper.sign_up_button).to eq(sign_up_button)
+      expect(helper.signup_button).to eq(signup_button)
     end
   end
 
@@ -27,7 +27,7 @@ RSpec.describe ButtonHelper do
 
   describe '#contribute_button' do
     let(:contribute_button) {
-      '<a class="button button--primary" href="/contributing">Learn how to contribute</a>'
+      '<a class="button button--primary" href="/contributing">Contribute</a>'
     }
 
     it 'returns a contribute button' do
