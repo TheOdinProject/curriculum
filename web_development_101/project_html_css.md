@@ -1177,7 +1177,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [RedTiger0814's Solution (Easy)](https://github.com/RedTiger0814/google-homepage) | [View in browswer](https://rawgit.com/RedTiger0814/google-homepage/master/easy-version/index.html)
 * [RedTiger0814's Solution (Difficult)](https://github.com/RedTiger0814/google-homepage) | [View in browswer](https://rawgit.com/RedTiger0814/google-homepage/master/difficult-version/index.html)
 * [toaster_with_wheels' Solution (Easy)](https://github.com/damianed/google-homepage) | [View in browser](https://damianed.github.io/google-homepage/)
-* [Rickey's Solution (Easy)] (https://github.com/rickeyolsen/google-homepage) | [View in browser] (https://rickeyolsen.github.io/google-homepage/)
+* [Rickey's Solution (Easy)](https://github.com/rickeyolsen/google-homepage) | [View in browser](https://rickeyolsen.github.io/google-homepage/)
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
