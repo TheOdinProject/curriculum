@@ -679,3 +679,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Oliver Curting's solution](https://github.com/Curting/sketchpad) | [View in browser](https://curting.github.io/sketchpad/)
 * [coryparham24's solution](https://github.com/coryparham24/sketchpad) | [View in browser](https://cdn.rawgit.com/coryparham24/sketchpad/f7cb10ef/index.html)
 * [Frank Barros' solution](https://github.com/frankdb/javascript-project) | [View in browser](https://cdn.rawgit.com/frankdb/javascript-project/bc94a1c2/grid.html)
+* [toaster_with_wheels' solution](https://github.com/damianed/Simple-sketchpad) | [View in browser](https://damianed.github.io/Simple-sketchpad/) 
