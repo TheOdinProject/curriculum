@@ -1,50 +1,43 @@
 .logo {
-  a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-  }
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 
-  .logo-text {
+  &__text {
     flex: 1;
     color: #cc9543;
-    text-align: center;
     text-transform: uppercase;
     font-family: $logo-font;
     letter-spacing: 0.4px;
     font-weight: bold;
     font-size: 1.6em;
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 0.5em;
+
     &.expanded{
       display: none;
     }
+
+    @media screen and (max-width: 480px) {
+      font-size: 1.2em;
+    }
   }
-  .logo-img {
+
+  &__img {
     height: 87px;
     transition: all .05s ease-in-out;
+
     &.expanded{
       transition: all .4s cubic-bezier(0.42, 0, 0.38, 1.38);
       flex: 1;
     }
-  }
 
-  @media screen and (max-width: 991px) {
-    .logo-text{
-      font-size: 1.4em;
+    @media screen and (max-width: 992px) {
+      height: 60px;
     }
-    .logo-img {
+
+    @media screen and (max-width: 480px) {
       height: 60px;
     }
   }
-
-  @media screen and (max-width: 480px) {
-    .logo-text{
-      font-size: 1.2em;
-    }
-    .logo-img {
-      height: 60px;
-    }
-  }
-
 }
