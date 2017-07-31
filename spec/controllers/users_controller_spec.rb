@@ -19,4 +19,20 @@ RSpec.describe UsersController do
       expect(assigns[:user]).to eql(user)
     end
   end
+
+  describe 'PUT update' do
+    let(:serialized_user) {
+      {
+        'id' => user.id,
+        'admin' => false,
+        'username' => 'Joey',
+        'email' => user.email,
+      }
+    }
+
+    it 'renders the user in json format' do
+      put :update, params: { id: user.id, user: { username: 'Joey'} }
+      expect(JSON.parse(response.body)).to include(serialized_user)
+    end
+  end
 end

@@ -1,7 +1,7 @@
 .settings-card-content {
   display: flex;
 
-  @media(max-width: 767px) {
+  @include media-breakpoint-down(sm) {
     display: block;
     text-align: center;
   }
@@ -18,7 +18,7 @@
       overflow: hidden;
     }
 
-    @media(max-width: 767px) {
+    @include media-breakpoint-down(sm) {
       margin-bottom: 50px;
       margin-right: 0;
     }
