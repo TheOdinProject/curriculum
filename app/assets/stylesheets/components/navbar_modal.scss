@@ -1,0 +1,69 @@
+@media (max-width: 991px) {
+  .modal-fullscreen-menu {
+    background-color: white;
+    .modal-dialog {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 768px;
+      display: flex;
+      height: 100%;
+      align-items: center;
+    }
+    .modal-content {
+      margin: auto;
+      background-color: transparent;
+      box-shadow: none;
+      border: none;
+      width: 100%;
+      .modal-links {
+        text-align: center;
+        list-style-type: none;
+        .dropdown-divider {
+          background-color: $primary;
+          margin: .5rem 3em;
+          border: 1px solid $primary;
+        }
+      }
+      .modal-header {
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        justify-content: center;
+        border: none;
+        .close {
+          position: absolute;
+          right: 0;
+          padding-right: 45px;
+          padding-bottom: 8px;
+          font-size: 1.6em;
+          font-weight: bold;
+          color: $button-primary;
+        }
+        .navbar-brand {
+          margin: 0;
+        }
+      }
+    }
+  }
+  // Modal Links
+  .nav-link { 
+    font-size: 200%;
+    font-weight: normal;
+    letter-spacing: 0.05em;
+    border: none;
+    transition: all 0.25s ease;
+    background-color: transparent;
+    color: $primary;
+    padding: 7.5vh 0;
+    height: 5vh;
+    font-size: 5vh;
+    line-height: 0;
+    line-height: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-header .close {
+    padding-right: 25px !important;
+  }
+} 
