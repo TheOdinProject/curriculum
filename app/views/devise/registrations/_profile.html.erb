@@ -1,0 +1,29 @@
+<div class="settings-section">
+  <h2 class="accent settings-section__heading">Profile</h2>
+
+  <div class="settings-card-content card-main">
+
+    <div class="settings-card-content__edit-button--open"></div>
+
+    <div class="settings-card-content__picture">
+      <%= image_tag avatar_path(@user.avatar), alt: "Profile Picture"%>
+    </div>
+
+    <div class="settings-view">
+      <p class="settings-view__label">Name</p>
+      <p class="push-down settings-view__item username"><%= @user.username %></p>
+
+      <p class="settings-view__label">Email</p>
+      <p class="settings-view__item email"><%= @user.email %></p>
+    </div>
+
+    <%= form_for @user, html: { class: "settings-view--hidden" }, remote: true do |form| %>
+      <%= form.label :name, class: 'settings-view__label' %>
+      <%= form.text_field :username, class: 'push-down settings-view__input' %>
+
+      <%= form.label :email, class: 'settings-view__label' %>
+      <%= form.email_field :email, class: 'push-down settings-view__input' %>
+      <%= form.submit "Update", class: "settings-view__button" %>
+    <% end %>
+  </div>
+</div>

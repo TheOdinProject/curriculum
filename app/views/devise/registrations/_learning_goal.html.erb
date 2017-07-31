@@ -1,0 +1,18 @@
+<div class="settings-section">
+  <h2 class="accent settings-section__heading">Learning Goal</h2>
+  <div class="settings-card-content card-main">
+
+    <div class="settings-card-content__edit-button--open"></div>
+
+    <div class="settings-view">
+      <p class="settings-view__label">Learning goal</p>
+      <p class="settings-view__item learning_goal"><%= display_learning_goal(@user) %></p>
+    </div>
+
+    <%= form_for @user, html: { class: "settings-view--hidden" }, remote: true do |form| %>
+      <%= form.label :learning_goal, class: 'settings-view__label' %>
+      <%= form.text_field :learning_goal, class: 'push-down settings-view__input' %>
+      <%= form.submit "Update", class: "settings-view__button" %>
+    <% end %>
+  </div>
+</div>

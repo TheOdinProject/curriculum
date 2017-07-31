@@ -8,8 +8,20 @@ module UsersHelper
     user.lesson_completion_time(lesson).to_formatted_s(:long)
   end
 
-  def set_learning_goal
-    "Set a learning goal in your #{settings_link}.".html_safe
+  def display_dashboard_learning_goal(user)
+    if user.learning_goal.blank?
+      "Set a learning goal in your #{settings_link}.".html_safe
+    else
+      user.learning_goal
+    end
+  end
+
+  def display_learning_goal(user)
+    if user.learning_goal.blank?
+      "No learning goal set yet."
+    else
+      user.learning_goal
+    end
   end
 
   def avatar_path(avatar)

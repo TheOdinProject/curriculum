@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     registrations: 'registrations',
     omniauth_callbacks: 'omniauth_callbacks',
-    confirmations: 'confirmations'
   }
 
   devise_scope :user do
@@ -33,7 +32,7 @@ Rails.application.routes.draw do
   # failure route if github information returns invalid
   get '/auth/failure' => 'omniauth_callbacks#failure'
 
-  resources :users, only: :show
+  resources :users, only: [:show, :update]
   get 'dashboard' => 'users#show', as: :dashboard
 
   resources :courses, only: %i(index show) do

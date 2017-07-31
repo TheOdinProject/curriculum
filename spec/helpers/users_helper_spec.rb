@@ -1,8 +1,16 @@
 require 'rails_helper'
 
 RSpec.describe UsersHelper do
-  let(:user) { double('User', lesson_completion_time: lesson_completion_time) }
+  let(:user) {
+     double(
+      'User',
+      lesson_completion_time: lesson_completion_time,
+      learning_goal: learning_goal
+    )
+  }
+
   let(:lesson_completion_time) { DateTime.new(2016, 10, 11, 19) }
+  let(:learning_goal) { 'To be the best' }
 
   describe '#gravatar_url' do
     let(:gravatar_url) { double('GravatarUrl') }
@@ -29,13 +37,33 @@ RSpec.describe UsersHelper do
     end
   end
 
-  describe '#set_learning_goal' do
-    let(:settings_link) {
-      "Set a learning goal in your <a href=\"/users/edit\">settings</a>."
-    }
+  describe '#display_dashboard_learning_goal' do
+    it 'returns the users learning goal' do
+      expect(helper.display_dashboard_learning_goal(user)).to eql('To be the best')
+    end
 
-    it 'returns a link to the users settings page' do
-      expect(helper.set_learning_goal).to eql(settings_link)
+    context 'when the user does not have a learning goal' do
+      let(:learning_goal) { '' }
+      let(:settings_link) {
+        "Set a learning goal in your <a href=\"/users/edit\">settings</a>."
+      }
+
+      it 'returns a link to the users settings page' do
+        expect(helper.display_dashboard_learning_goal(user)).to eql(settings_link)
+      end
+    end
+  end
+
+  describe '#display_learning_goal' do
+    it 'returns the users learning goal' do
+      expect(display_learning_goal(user)).to eql('To be the best')
+    end
+
+    context 'when the user does not have a learning goal set' do
+      let(:learning_goal) { '' }
+      it 'returns default text' do
+        expect(display_learning_goal(user)).to eql('No learning goal set yet.')
+      end
     end
   end
 
