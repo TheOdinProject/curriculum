@@ -37,13 +37,20 @@ RSpec.describe UsersHelper do
     end
   end
 
-  describe '#set_learning_goal' do
-    let(:settings_link) {
-      "Set a learning goal in your <a href=\"/users/edit\">settings</a>."
-    }
+  describe '#display_dashboard_learning_goal' do
+    it 'returns the users learning goal' do
+      expect(helper.display_dashboard_learning_goal(user)).to eql('To be the best')
+    end
 
-    it 'returns a link to the users settings page' do
-      expect(helper.set_learning_goal).to eql(settings_link)
+    context 'when the user does not have a learning goal' do
+      let(:learning_goal) { '' }
+      let(:settings_link) {
+        "Set a learning goal in your <a href=\"/users/edit\">settings</a>."
+      }
+
+      it 'returns a link to the users settings page' do
+        expect(helper.display_dashboard_learning_goal(user)).to eql(settings_link)
+      end
     end
   end
 
