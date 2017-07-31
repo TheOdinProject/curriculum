@@ -573,6 +573,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Anistor86's solution](https://github.com/anistor86/stock_picker/blob/master/stock_picker.rb)
 * [Riley's solution](https://github.com/keymaster777/ruby_building_blocks/blob/master/stock_picker.rb)
 * [Phucledien's solution](https://github.com/phucledien/theodinprojects/blob/master/ruby-projects/project2_stock_picker/stock_pricker.rb)
+* [Iceron's solution](https://github.com/iceron/stock_picker/blob/master/stock_picker.rb)
 
 ### Project 3: Substrings
 
@@ -849,3 +850,4 @@ Next, make sure your method can handle multiple words:
 * [Anistor86's solution](https://github.com/anistor86/substrings/blob/master/substrings.rb)
 * [Riley's solution](https://github.com/keymaster777/ruby_building_blocks/blob/master/substrings.rb)
 * [Phucledien's solution](https://github.com/phucledien/theodinprojects/blob/master/ruby-projects/project3_substrings/substrings.rb)
+* [Iceron's solution](https://github.com/iceron/substrings/blob/master/substrings.rb)
