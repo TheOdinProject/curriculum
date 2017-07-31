@@ -89,6 +89,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Oscar Y's solution (No tests and unstyled)](https://github.com/mysteryihs/odin-facebook) | [View in browser](http://guarded-bastion-44854.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/book-of-faces) | [View in browser](https://frozen-sands-98166.herokuapp.com/)
 * [Jerry Gao's solution](https://github.com/blackwright/tracebook) | [View in browser](https://tracebook.herokuapp.com/)
+* [Austin's solution](https://github.com/CouchofTomato/odinbook) | [View in browser](https://couch-odinbook.herokuapp.com)
 
 
 ### Additional Resources
