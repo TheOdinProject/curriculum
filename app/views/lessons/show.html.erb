@@ -22,9 +22,7 @@
 
       <%= render 'lesson_actions', lesson: @lesson %>
 
-      <div class="card">
-        <!--TODO-->
-      </div>
+      <%= render 'submissions' if @projects %>
 
       <%= render 'shared/bottom_cta',
         button: gitter_button,

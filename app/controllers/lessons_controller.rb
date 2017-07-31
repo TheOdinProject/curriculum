@@ -20,10 +20,10 @@ class LessonsController < ApplicationController
 
   def set_project_and_submissions
     @project = set_project
-    @submissions = set_submissions
+    @projects = set_projects
   end
 
-  def set_submissions
+  def set_projects
     Project.all_submissions(@lesson.id)
   end
 

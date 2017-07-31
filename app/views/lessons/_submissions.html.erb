@@ -1,12 +1,14 @@
-<div class="submissions-list">
-  <h2>Recent submissions</h2>
-  <% if submissions.empty? %>
-    <p class="no-submission-message">
-      There are no submissions for this project yet. Be the first!
-    </p>
+<div id="submissions" class="card-main">
+  <h2 class="solutions-title secondary bold">Solutions</h4>
+  <% if @projects.empty? %>
+    <p>This project has no solutions yet, be the first!</p>
   <% else %>
-    <% submissions.each do |submission| %>
-      <%= render 'projects/project_box', project: submission %>
+    <p class="description pale-grey">
+      Showing the most recent solutions. View the full list of solutions <%= link_to 'here', lesson_projects_path(@lesson), class: 'projects-link accent', target: '_blank' %>
+    </p>
+
+    <% @projects.each do |project| %>
+      <%= render 'projects/project', project: ProjectDecorator.new(project) %>
     <% end %>
   <% end %>
 </div>

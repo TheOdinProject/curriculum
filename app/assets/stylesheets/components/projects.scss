@@ -1,4 +1,12 @@
 #submissions {
+  .solutions-title, .description {
+    margin-bottom: 20px;
+  }
+
+  .projects-link:hover {
+    color: darken($light-orange, 10%);
+  }
+
   .pagination {
     text-align: center;
     display: block;
