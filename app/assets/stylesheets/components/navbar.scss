@@ -84,7 +84,7 @@
       border:0;
       padding: 8px;
       @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
-      margin: 15px 0 0 -65px;
+      margin: -30px 0 0 -65px;
     }
     //box triangle css
     .menu-options:after, .menu-options:before {
@@ -139,6 +139,9 @@
     .navbar-brand {
       width: 250px;
     }
+    .navbar-toggler {
+      margin-right: 20px;
+    }
     .navbar-nav {
       margin-top: 20px;
       height: calc(100vh - 68px);
@@ -180,8 +183,5 @@
 @media (max-width: 480px) {
   .navbar {
     padding: 0 20px;
-    .navbar-toggler {
-      margin-right: 20px;
-    }
   }
 }
