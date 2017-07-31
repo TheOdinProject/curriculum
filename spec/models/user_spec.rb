@@ -109,7 +109,7 @@ RSpec.describe User do
       expect(user.last_lesson_completed).to eql(second_lesson_completion)
     end
   end
-  
+
   describe '.from_omniauth' do
     let(:user) {
       FactoryGirl.create(
@@ -197,36 +197,6 @@ RSpec.describe User do
 
       it 'returns false' do
         expect(user.password_required?).to eql(false)
-      end
-    end
-  end
-
-  describe '#send_confirmation_instructions' do
-    let(:confirmation_token) { 'foo' }
-
-    before do
-      user.instance_variable_set(:@raw_confirmation_token, confirmation_token)
-      allow(user).to receive(:generate_confirmation_token!)
-        .and_return(confirmation_token)
-      allow(user).to receive(:send_welcome_email).with(confirmation_token)
-    end
-
-    it 'does not generate a new confirmation token' do
-      user.send_confirmation_instructions
-      expect(user).not_to receive(:generate_confirmation_token!)
-    end
-
-    it 'sends the welcome email' do
-      expect(user).to receive(:send_welcome_email).with('foo')
-      user.send_confirmation_instructions
-    end
-
-    context 'when raw confimration token is nil' do
-      let(:confirmation_token) { nil }
-
-      it 'does generate a new confirmation token' do
-        expect(user).to receive(:generate_confirmation_token!)
-        user.send_confirmation_instructions
       end
     end
   end
