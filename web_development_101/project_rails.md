@@ -268,6 +268,6 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
+* The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge. 
 * If you want, you can take a look at [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) from last lesson again. This will help you add some extra features to your blog such as [deleting comments](http://guides.rubyonrails.org/getting_started.html#deleting-comments).
 * You can read the [Introduction to Core Ruby Tools](https://launchschool.com/books/core_ruby_tools/read/introduction) from LaunchSchool to get a better understanding of Ruby and Rails concepts such as gems, version managers, bundler, and rake.
