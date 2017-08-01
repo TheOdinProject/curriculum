@@ -104,6 +104,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/toy-app)
 * [Niño Mollaneda's solution](https://github.com/ninoM/toy_app)
 * [Jonathan Marks's solution](https://github.com/johnjmarks4/toy_app)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-toy-app)
 
 ### Additional Resources
 
