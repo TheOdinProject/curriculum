@@ -91,6 +91,10 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
+* [Jon Motyka's Solution (Easy)](https://github.com/microjrm/google-homepage) | [View in browser](https://microjrm.github.io/google-homepage/)
+* [Thanan's solution (Easy)](https://github.com/uhohjungo/google-homepage) | [View in browser](https://uhohjungo.github.io/google-homepage/)
+* [Adil Asif's solution (Easy)](https://github.com/adilasif/google-homepage) | [View in browser](https://adilasif.github.io/google-homepage/)
+* [Viet Bach Dinh's solution (Easy)](https://github.com/VietBachDinh/Odin_Project_Google) | [View in browser](https://vietbachdinh.github.io/Odin_Project_Google/)
 * [Jonathan Yiv's solution (Difficult)](https://github.com/JonathanYiv/google-searchpage) | [View in browser](https://jonathanyiv.github.io/google-searchpage/)
 * [Jonathan Yiv's solution (Easy)](https://github.com/JonathanYiv/google-homepage) | [View in browser](https://jonathanyiv.github.io/google-homepage/)
 * [Rick Boshae's solution (Easy)](https://github.com/RBoshae/RBoshae.github.io/tree/master/projects/google-homepage) | [View in browser](https://rboshae.github.io/projects/google-homepage/index.html)
@@ -1166,7 +1170,14 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Renan Silva's Solution(Easy)](https://github.com/renantsilva/google-homepage) | [View in browser](https://renantsilva.github.io/google-homepage/)
 * [Shane Butler's Solution(Easy)](https://shaneausley.github.io/google-hompage/) | [View in browser](https://shaneausley.github.io/google-hompage/)
 * [Oliver Curting's Solution (Easy)](https://github.com/Curting/google-homepage) | [View in browser](https://curting.github.io/google-homepage/)
-
+* [skworm's Solution (Easy)](https://github.com/skworm/google-homepage) | [View in browser](https://skworm.github.io)
+* [coryparham24's Solution (Easy)](https://github.com/coryparham24/google-homepage) | [View in browser](https://cdn.rawgit.com/coryparham24/google-homepage/5e0d481b/index.html)
+* [coryparham24's Solution (Difficult)](https://github.com/coryparham24/google-results-page) | [View in browser](https://cdn.rawgit.com/coryparham24/google-results-page/b53ad4df/index.html#)
+* [Jon Motyka's Solution (Easy)](https://github.com/microjrm/google-homepage) | [View in browswer](https://microjrm.github.io/)
+* [RedTiger0814's Solution (Easy)](https://github.com/RedTiger0814/google-homepage) | [View in browswer](https://rawgit.com/RedTiger0814/google-homepage/master/easy-version/index.html)
+* [RedTiger0814's Solution (Difficult)](https://github.com/RedTiger0814/google-homepage) | [View in browswer](https://rawgit.com/RedTiger0814/google-homepage/master/difficult-version/index.html)
+* [toaster_with_wheels' Solution (Easy)](https://github.com/damianed/google-homepage) | [View in browser](https://damianed.github.io/google-homepage/)
+* [Rickey's Solution (Easy)](https://github.com/rickeyolsen/google-homepage) | [View in browser](https://rickeyolsen.github.io/google-homepage/)
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

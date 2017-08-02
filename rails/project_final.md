@@ -55,6 +55,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [jfonz412's Solution](https://github.com/jfonz412/facebook-clone) | [View in browser](https://mysterious-anchorage-62529.herokuapp.com/)
 * [Sic's Solution](https://github.com/sic-f/fb) | [View in browser](https://efbook.herokuapp.com)
 * [Rob's Solution](https://github.com/RobPando/odin-book) | [View in browser](https://robodinbook.herokuapp.com)
 * [Rhys B's solution](https://github.com/105ron/odin-book) | [View in browser](http://odin-book.herokuapp.com/)
@@ -88,6 +89,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Oscar Y's solution (No tests and unstyled)](https://github.com/mysteryihs/odin-facebook) | [View in browser](http://guarded-bastion-44854.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/book-of-faces) | [View in browser](https://frozen-sands-98166.herokuapp.com/)
 * [Jerry Gao's solution](https://github.com/blackwright/tracebook) | [View in browser](https://tracebook.herokuapp.com/)
+* [Austin's solution](https://github.com/CouchofTomato/odinbook) | [View in browser](https://couch-odinbook.herokuapp.com)
 
 
 ### Additional Resources

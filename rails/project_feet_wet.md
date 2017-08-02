@@ -25,7 +25,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Your Task
 
-1. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/beginning#cha-beginning) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over github because bitbucket has free private repos. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.  If you feel a little lost, it might not hurt to go back and re-read chapter 1.
+1. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over github because bitbucket has free private repos. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.  If you feel a little lost, it might not hurt to go back and re-read chapter 1.
 
 ### Student Solutions
 
@@ -34,6 +34,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
 * Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/toy_app)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/toy_app)
 * holdercp's solution [source](https://github.com/holdercp/toy-app-hartl) | [live](https://pacific-oasis-91346.herokuapp.com/users/1)
 * [mindovermiles262's solution](https://github.com/mindovermiles262/toy_app)
@@ -103,6 +104,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/toy-app)
 * [Niño Mollaneda's solution](https://github.com/ninoM/toy_app)
 * [Jonathan Marks's solution](https://github.com/johnjmarks4/toy_app)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-toy-app)
 
 ### Additional Resources
 

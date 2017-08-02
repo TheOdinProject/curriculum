@@ -30,12 +30,11 @@ using them to experiment and fix bugs with ease on your web pages.
 * You can you use developer tools to experiment with the css on specific elements on a web page.
 
 ### Assignment
-1. Complete the first two chapters of this [short course](http://discover-devtools.codeschool.com/) from Codeschool,
-it covers all the main capabilities developer tools provides.
-2. Read through this short text based tutorial that [introduces your web inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).
-3. Watch this [awesome tutorial](https://www.youtube.com/watch?v=Z3HGJsNLQ1E) from LearnCode.academy
-on how to use developer tools effectively when working with your css.
-4. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](https://www.youtube.com/watch?v=wcFnnxfA70g) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
+1. Watch [this 10-minute video](https://www.youtube.com/watch?v=wcFnnxfA70g) that goes over the most useful features of the Chrome Dev Tools in some detail.
+2. Watch this [awesome tutorial](https://www.youtube.com/watch?v=Z3HGJsNLQ1E) from LearnCode.academy
+on how to use developer tools effectively when working with your css.  It talks a bit about bootstrap, which you may not know about yet.  Don't worry about it at this point, just check out the stuff he's doing to CSS in the devtools.  In particular, editing CSS _in the browser_ in real time is a serious productivity booster compared to using your text editor and refreshing all the time to see the changes.
+3. Read through the [official devtools docs.](https://developers.google.com/web/tools/chrome-devtools/) Chrome and Firefox are constantly enhancing and updating their devtools.  The basic functionality is going to be the same of course, but it's not unusual for things to move around or change appearance as the tools evolve.  These docs should be your up-to-date resource.  If your version of devtools doesn't look like the videos above, reference these docs to find where everything went.
+
 
 ### Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

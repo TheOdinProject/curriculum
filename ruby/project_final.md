@@ -72,6 +72,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [John Connor's solution](https://github.com/jacgitcz/chessfinal)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/chess)
 * [Jonathan Marks's solution](https://github.com/johnjmarks4/Chess)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-chess)
 
 ### Additional Resources
 

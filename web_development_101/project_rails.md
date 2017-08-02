@@ -17,6 +17,11 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Jonathan Yiv's Solution](https://github.com/JonathanYiv/blogger) | [View in browser](https://protected-dawn-48083.herokuapp.com/)
+* [Akshat's Solution](https://github.com/akshatdb/Blogger) | [View in browser](https://aqueous-eyrie-51208.herokuapp.com/)
+* [Jason McKee's solution](https://github.com/jttmckee/jump-blogger) | [View in browser](https://infinite-meadow-66360.herokuapp.com/articles)
+* [justinckim3's solution](https://github.com/justinckim3/rails-blogger)
+* [endotnick's solution](https://github.com/endotnick/odin-proj-rails) | [View in browser](https://boiling-anchorage-83757.herokuapp.com/)
 * [ticklybanana's solution](https://github.com/ticklybanana/Ruby-on-Rails-Blog-Tutorial) | [View in browser](https://thawing-fortress-18710.herokuapp.com/articles)
 * [Qin's solution](https://github.com/hyathynth/rails-blogger) | [View in browser](https://secret-journey-27265.herokuapp.com/)
 * [MGiagante's solution](https://github.com/mgiagante/blogger) | [View in browser](https://bloggigator.herokuapp.com)
@@ -256,12 +261,14 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [EMuchynski's Solution](https://github.com/EMuchynski/blogger) | [View in browser](https://agile-ocean-12019.herokuapp.com/articles)
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/rails-project)
 * [uvieugo's Solution](https://github.com/uvieugo/project-rails-blogger) | [View in Browser](https://salty-woodland-61543.herokuapp.com/) Up to part off I6
-* [Seederwood's Solution](https://github.com/seederwood/myblog) | [View in Browser](https://rocky-harbor-97255.herokuapp.com/) 
+* [Seederwood's Solution](https://github.com/seederwood/myblog) | [View in Browser](https://rocky-harbor-97255.herokuapp.com/)
+* [Anistor86's Solution](https://github.com/anistor86/RubyOnRails_project) | [View in Browser](https://evening-oasis-70444.herokuapp.com/)
+* [Phucledien's Solution](https://github.com/phucledien/blogger) | [View in Browser](https://still-crag-31572.herokuapp.com/)
 
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
+* The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge. 
 * If you want, you can take a look at [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) from last lesson again. This will help you add some extra features to your blog such as [deleting comments](http://guides.rubyonrails.org/getting_started.html#deleting-comments).
 * You can read the [Introduction to Core Ruby Tools](https://launchschool.com/books/core_ruby_tools/read/introduction) from LaunchSchool to get a better understanding of Ruby and Rails concepts such as gems, version managers, bundler, and rake.
