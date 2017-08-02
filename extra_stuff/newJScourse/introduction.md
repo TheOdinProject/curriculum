@@ -4,6 +4,10 @@ Every year Stack Overflow conducts a survey for developers, asking them about th
 
 The point here is, even if you don't want to be primarily a front-end developer, you _are_ going to encounter some Javascript if you work in webdev, and chances are increasingly likely that you'll be working with it on a daily basis, even if it's not your primary language.  With that in mind... let's dive in.
 
+### Prerequisites
+
+You do not need any previous programming or Javascript experience to follow this course because we are starting out at the very beginning.  That said, we are expecting that you have at least a little bit of experience with HTML and CSS because a large part of what Javascript can do involves it's interaction with those languages.
+
 ### The Path
 
 This course is set up as you might expect.  We start off with the basics of the language. If you already have some programming experience, this section will likely go pretty quickly for you, because in many ways Javascript is much like any other programming language.  We'd like to encourage you, however, not to skip or rush too quickly through this section. Javascript does have a few quirks that can trip you up if you aren't aware of them.
