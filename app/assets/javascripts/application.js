@@ -13,8 +13,6 @@
 //= require jquery
 //= require best_in_place
 //= require tether
-//= require jquery-ui
-//= require best_in_place.jquery-ui
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require turbolinks
