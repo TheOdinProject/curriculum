@@ -28,6 +28,11 @@
       margin-top: 20px;
     }
 
+    @include media-breakpoint-down(lg) {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
     .success-story {
       flex-basis: 49.9%;
       display: flex;
@@ -37,6 +42,12 @@
         &:nth-last-child(-n+2) {
           display: none;
         }
+      }
+
+      @include media-breakpoint-down(lg) {
+        flex: 1;
+        max-width: 600px;
+        margin: 0 auto;
       }
 
       .details {
@@ -82,7 +93,7 @@
     width: 100%;
     text-align: center;
     padding-top: 30px;
-    
+
     a {
       color: $grey;
       text-decoration: underline;

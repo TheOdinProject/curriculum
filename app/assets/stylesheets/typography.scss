@@ -7,6 +7,11 @@ h1 {
   font-size: 2.25rem;
   font-weight: 300;
   letter-spacing: 0.4px;
+
+  @include media-breakpoint-down(lg) {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 
 h2 {

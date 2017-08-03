@@ -98,3 +98,9 @@ ul {
 .push-down {
   margin-bottom: 1rem;
 }
+
+@include media-breakpoint-down(lg) {
+  .nav-spacer {
+    height: 132px;
+  }
+}
