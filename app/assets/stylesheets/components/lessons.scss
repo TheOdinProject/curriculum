@@ -2,14 +2,10 @@
   margin-top: 50px;
   padding-bottom: 60px;
 
-  a {
-    color: $primary;
-    text-decoration: underline;
-
-    &:hover {
-      color: darken($primary, 10%);
-    }
-  }
+  // a {
+  //   color: $primary;
+  //   text-decoration: underline;
+  // }
 
   h2 {
     font-size: 18px;

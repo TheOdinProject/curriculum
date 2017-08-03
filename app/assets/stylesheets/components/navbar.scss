@@ -38,19 +38,28 @@
       display: none;
     }
   }
+
   .navbar-nav {
     color: #676767;
     white-space: nowrap;
+
     hr {
       display: none;
     }
+
     .nav-link {
       color: #676767;
       text-decoration: none;
       letter-spacing: 0.2px;
       line-height: 88px;
       font-size: 1.1em;
+
+      &:hover {
+        color: $black;
+        font-weight: bold;
+      }
     }
+
     .divider {
       font-size: 1.5em;
       line-height: 78px;

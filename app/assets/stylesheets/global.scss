@@ -11,9 +11,20 @@ body {
 a {
   text-decoration: none;
 
- &:hover {
-   color: $black;
- }
+  &:hover {
+    color: $black;
+    text-decoration: none;
+  }
+}
+
+[href]:not([class]) {
+    color: $primary;
+    text-decoration: underline;
+
+    &:hover {
+    color: $black;
+    text-decoration: none;
+  }
 }
 
 p {

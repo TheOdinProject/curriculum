@@ -42,12 +42,16 @@ footer {
       align-items: flex-start;
     }
 
-    a {
+    .footer-link {
       flex-basis: 30px;
       color: rgba(74, 74, 74, 0.7);
       font-weight: bold;
       text-decoration: none;
       margin: 0;
+
+      &:hover {
+        color: $black;
+      }
     }
   }
 }

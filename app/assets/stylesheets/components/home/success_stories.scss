@@ -95,8 +95,10 @@
     padding-top: 30px;
 
     a {
-      color: $grey;
       text-decoration: underline;
+      &:hover {
+        color: $black;
+      }
     }
   }
 }
