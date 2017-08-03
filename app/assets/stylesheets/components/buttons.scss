@@ -24,7 +24,7 @@
       background-color: $color;
 
       &:hover {
-        background-color: darken($color, 5%);
+        opacity: 0.8;
         color: $white;
       }
 
