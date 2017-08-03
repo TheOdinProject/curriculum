@@ -6,10 +6,6 @@ You can do these in IRB or create a separate script file to run from the command
 
 *Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).*
 
-### Warmup
-
-Build the simple [User Input Word Counter tutorial from Codecademy](http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1).
-
 ### Project 1: Caesar Cipher
 
 From Wikipedia:
