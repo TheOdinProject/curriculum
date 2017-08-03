@@ -1179,6 +1179,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [toaster_with_wheels' Solution (Easy)](https://github.com/damianed/google-homepage) | [View in browser](https://damianed.github.io/google-homepage/)
 * [Rickey's Solution (Easy)](https://github.com/rickeyolsen/google-homepage) | [View in browser](https://rickeyolsen.github.io/google-homepage/)
 * [Justanity's Solution (Easy)](https://github.com/justanity/google-homepage) | [View in browser](https://justanity.github.io/google-homepage/)
+* [Alex's Solution (Easy)](https://github.com/alexcorremans/google-homepage) | [View in browswer](https://alexcorremans.github.io/google-homepage/)
+
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
