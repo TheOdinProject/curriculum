@@ -1,5 +1,5 @@
 document.addEventListener('turbolinks:load', function() {
-  var logoText = document.querySelector('.logo-text')
+  var logoText = document.querySelector('.logo__text')
 
   var navToggle = document.querySelector('.navbar-toggler')
   var modalClose = document.querySelector('.close')

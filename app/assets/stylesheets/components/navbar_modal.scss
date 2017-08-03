@@ -31,10 +31,12 @@
         justify-content: center;
         border: none;
         .close {
+          padding-right: 20px;
+          padding-top: 1.15rem;
+          display: inline-flex;
           position: absolute;
+          top: 0;
           right: 0;
-          padding-right: 45px;
-          padding-bottom: 8px;
           font-size: 1.6em;
           font-weight: bold;
           color: $button-primary;
@@ -61,9 +63,3 @@
     line-height: 0;
   }
 }
-
-@media (max-width: 480px) {
-  .modal-header .close {
-    padding-right: 25px !important;
-  }
-} 
