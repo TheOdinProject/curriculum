@@ -28,6 +28,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Jon Motyka's Solutions for problems 1 and 2](https://github.com/microjrm/project-euler)
 * [Thanan's Solutions for problems 1 & 2](https://github.com/uhohjungo/project-euler-problems)
 * [Franklyn Afeso's Solutions for Problem 1 & 2](https://github.com/afeso/projectEuler/tree/master/scripts) | [View in Browser](https://afeso.github.io/projectEuler)
 * [Jonathan Yiv's Solutions](https://github.com/JonathanYiv/project-euler)
@@ -514,6 +515,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Sheldon K's Solution](https://github.com/Leviax7/ProjectEuler1) | [View in Browser](https://leviax7.github.io/ProjectEuler1/)
 * [Mayank Patel's Solution](https://github.com/maknahar/maknahar.github.io/tree/master/op/euler) | [View in Browser](https://maknahar.github.io/op/euler/)
 * [Daniel T's Solution](https://github.com/dnyy/Project-Euler) | [View in Browser] (https://dnyy.github.io/Project-Euler/)
+* [Brandon B's Solution to Problem 1](https://github.com/bmbost/projecteuler/tree/master/prob1) / [View in Browser](https://bmbost.github.io/projecteuler/prob1/)
 
 ### Additional Resources
 

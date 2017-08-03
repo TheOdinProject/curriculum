@@ -24,6 +24,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* MGiagante's solution [source code](https://github.com/mgiagante/caesar_cipher_sinatra) | [Live](https://arcane-chamber-58799.herokuapp.com)
 * justinckim3's solution [source code](https://github.com/justinckim3/sinatra-project) | [Live](https://sinatra-projects.herokuapp.com/caesar-cipher)
 * Adsy430's solution [source code](https://github.com/adampal/caesar_reloaded) | [Live](https://mighty-river-58119.herokuapp.com)
 * holdercp's solution [Source code](https://github.com/holdercp/caesar_cipher_sinatra) | [Live](https://glacial-falls-15610.herokuapp.com/)
@@ -65,6 +66,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 * Samuel Langenfeld's solution [github](https://github.com/SamuelLangenfeld/sinatra_caesar_cipher) / [see it on the web](http://langenfeld-caesar-cipher.herokuapp.com/)
 * Kyle Thomson's solution [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/caesar_cipher)
 * Jonathan Marks's solution [github](https://github.com/johnjmarks4/sinatra) / [see it on the web](https://warm-springs-12433.herokuapp.com/)
+* Luján Fernaud's solution [github](https://github.com/lujanfernaud/sinatra-caesar-cipher) / [see it on the web](https://sinatra-caesar.herokuapp.com/)
 
 ### Project 2: Another Web-Game
 
@@ -116,4 +118,5 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Samuel Langenfeld's solution - Hangman: [github](https://github.com/SamuelLangenfeld/sinatra_hangman) / [see it on the web](http://langenfeld-hangman.herokuapp.com/)
 * Kyle Thomson's solution - Hangman: [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/hangman)
 * Jonathan Marks's solution - MasterMind: [github](https://github.com/johnjmarks4/mastermind_reloaded) / [see it on the web](https://arcane-shelf-92558.herokuapp.com/)
+* Luján Fernaud's solution [github](https://github.com/lujanfernaud/sinatra-countries-hangman) / [see it on the web](https://sinatra-countries-hangman.herokuapp.com/)
 

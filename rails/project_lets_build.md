@@ -62,6 +62,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_rest_client)
 * [Tom Westerhout's solution](https://github.com/Westw00d/RestClient)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/RestClient)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-rest-client)
 
 
 ### Project: Ruby on Rails Tutorial
@@ -122,7 +123,7 @@ It's also important to note that **each test is completely independent of every 
 
 the first test (inside the block for the `#test` method) has just three lines.  The first, `get :home`, is just a necessary step to get you into position to run the test.  Because this is an extremely simple test file, that is inside the `#test` block.  If you ended up running multiple specs that relied on visiting that same page first, you'd see that line abstracted out into a `#before` block, which would be run before each test.
 
-The second line `assert_response :success`, makes sure that the home page returns a http status code of 200 or in other words success. the third line `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"` is where the action happens.  `assert_select "title"` selects an element on the page, in this case the title element and wait for some sort of definitive answer about whether the page passes or fails.  `"Home | Ruby on Rails Tutorial Sample App"` this is the expected value you are asserting the title will contain if the title matches this string the test will pass otherwise it will fail.  You don't actually need to know all the specifics of what's going on behind the scenes for a while, just how to apply them.
+The second line `assert_response :success`, makes sure that the home page returns a http status code of 200 or in other words success. The third line `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"` is where the action happens.  `assert_select "title"` selects an element on the page, in this case the title element and wait for some sort of definitive answer about whether the page passes or fails.  `"Home | Ruby on Rails Tutorial Sample App"` this is the expected value you are asserting the title will contain if the title matches this string the test will pass otherwise it will fail.  You don't actually need to know all the specifics of what's going on behind the scenes for a while, just how to apply them.
 
 If you're already scratching your head, don't worry (like I said, better explanations exist than mine).  The tutorial will cover testing along the way.  Hopefully your mind is warmed up right now and you won't be ambushed by suddenly being confronted with it.
 
