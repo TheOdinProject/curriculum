@@ -5,7 +5,7 @@
 
   &__text {
     flex: 1;
-    color: #cc9543;
+    color: $primary;
     text-transform: uppercase;
     font-family: $logo-font;
     letter-spacing: 0.4px;
@@ -18,7 +18,7 @@
       display: none;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1036px) {
       font-size: 1.2em;
     }
   }
