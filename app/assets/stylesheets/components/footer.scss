@@ -24,6 +24,14 @@ footer {
     a {
       font-size: 24px;
       flex:1;
+
+      span:hover {
+        color: $black;
+      }
+      img:hover {
+        -webkit-filter: brightness(0) grayscale(1);
+        filter: brightness(0) grayscale(1);
+      }
     }
   }
 
