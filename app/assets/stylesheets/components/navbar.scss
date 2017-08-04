@@ -85,7 +85,13 @@
 
     .drop-down-link{
       color: $primary;
+      &:hover {
+        color: $black;
+        -webkit-filter: saturate(50) grayscale(1);
+        filter: saturate(50) grayscale(1)
+      }
     }
+
     #dash-active {
       border-bottom:2px solid $light-grey; 
     }
@@ -96,9 +102,6 @@
       font-size: 16px;
       line-height: 1.88;
       letter-spacing: 0.2px;
-    }
-    .menu-options li:hover{
-      background-color:$light-grey;
     }
     .menu-options {
       border:0;
