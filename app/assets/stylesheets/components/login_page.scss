@@ -76,6 +76,10 @@
   .forgot-password {
     float: right;
     text-decoration: underline;
+
+    &:hover {
+      color: $black;
+    }
   }
 
   .page-buttons {
@@ -102,9 +106,8 @@
   }
 
   .oauth-button {
-    padding-top: 14.2px;
-    vertical-align: middle;
-    margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 20px;
   }
 
   .github-login-button {
@@ -120,8 +123,8 @@
       outline: rgba(82,168,236,.6) solid 5px;
     }
   }
-  i.providers-button {
-    padding-right: 20px;
+  i.providers-icon {
+    padding-right: 10px;
     font-size: 32px;
     vertical-align: middle;
   }
@@ -142,12 +145,6 @@
   }
 
   .sign-up-button {
-    border: solid 3px $pale-grey;
-    box-shadow: none;
-    color: $pale-grey;
-    letter-spacing: 0.2px;
-    max-width: 234px;
-    padding: 18px;
     width: 100%;
   }
 
