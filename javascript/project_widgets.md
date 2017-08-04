@@ -33,6 +33,7 @@ Don't spend too much time worrying about getting your images to display at the c
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [jlo4's solution](https://github.com/jlo4/image-carousel) | [View in browser](https://rawgit.com/jlo4/image-carousel/master/index.html)
 * [Rhys B's solution](https://github.com/105ron/image-slider) | [View in browser](https://105ron.github.io/image-slider/)
 * [jamie's solution](https://github.com/Jberczel/odin-javascript/tree/master/slider) | [View in browser](http://jsfiddle.net/Jberczel/6kS3t/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Slider) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Slider/index.html)
