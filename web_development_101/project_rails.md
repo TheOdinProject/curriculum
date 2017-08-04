@@ -264,6 +264,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Seederwood's Solution](https://github.com/seederwood/myblog) | [View in Browser](https://rocky-harbor-97255.herokuapp.com/)
 * [Anistor86's Solution](https://github.com/anistor86/RubyOnRails_project) | [View in Browser](https://evening-oasis-70444.herokuapp.com/)
 * [Phucledien's Solution](https://github.com/phucledien/blogger) | [View in Browser](https://still-crag-31572.herokuapp.com/)
+* [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) | [View in Browser](https://radiant-beach-97617.herokuapp.com/)
 
 ### Additional Resources
 
