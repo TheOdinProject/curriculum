@@ -14,6 +14,7 @@
   padding: 1rem 3.5rem;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 
   @include media-breakpoint-down(sm) {
     padding: 1rem 2.5rem;
