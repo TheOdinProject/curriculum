@@ -28,6 +28,10 @@
       height: 60px;
       background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%270%200%2032%2032%27%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%3E%3Cpath%20stroke%3D%27%236abfc3%27%20stroke-width%3D%272%27%20stroke-linecap%3D%27round%27%20stroke-miterlimit%3D%2710%27%20d%3D%27M4%208h24M4%2016h24M4%2024h24%27%2F%3E%3C%2Fsvg%3E");
       background-position: center;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
   .collapsed {
@@ -73,11 +77,21 @@
       background-position: center center;
       background-size: contain;
       background-color: $white;
+
+      &:hover {
+        cursor: pointer;
+      }
     }
 
     .drop-down-link{
       color: $primary;
+      &:hover {
+        color: $black;
+        -webkit-filter: saturate(50) grayscale(1);
+        filter: saturate(50) grayscale(1)
+      }
     }
+
     #dash-active {
       border-bottom:2px solid $light-grey; 
     }
@@ -88,9 +102,6 @@
       font-size: 16px;
       line-height: 1.88;
       letter-spacing: 0.2px;
-    }
-    .menu-options li:hover{
-      background-color:$light-grey;
     }
     .menu-options {
       border:0;
