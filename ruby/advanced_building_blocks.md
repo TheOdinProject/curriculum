@@ -96,19 +96,20 @@ This lesson gets more into the topics you may have been shaky on before like *Co
 
 ### Your Assignment
 
-1. Do the [Codecademy Ruby sections 2-6](http://www.codecademy.com/tracks/ruby), including:
+1. Do the [Codecademy Ruby sections 2-8](https://www.codecademy.com/learn/learn-ruby), including:
 
-    1. [Control Flow in Ruby](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
-    2. [Project: Thith Meanth War!](http://www.codecademy.com/courses/ruby-beginner-en-JdNDe?curriculum_id=5059f8619189a5000201fbcb)
-    2. [Looping with Ruby](http://www.codecademy.com/courses/ruby-beginner-en-XYcN1?curriculum_id=5059f8619189a5000201fbcb)
-    3. [Project: Redacted!](http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6?curriculum_id=5059f8619189a5000201fbcb)
-    3. [Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb)
-    5. [Project: Create a Histogram](http://www.codecademy.com/courses/ruby-beginner-en-693PD?curriculum_id=5059f8619189a5000201fbcb)
-    4. [Blocks and Sorting](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU?curriculum_id=5059f8619189a5000201fbcb)
-    4. [Project: Ordering your Library](http://www.codecademy.com/courses/ruby-beginner-en-nOho7?curriculum_id=5059f8619189a5000201fbcb)
-    5. [Hashes and Symbols](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw?curriculum_id=5059f8619189a5000201fbcb)
-    6. [Project: A Night at the Movies](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb)
-    7. [Blocks, Procs, and Lambdas](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb)
+    1. Control Flow in Ruby
+    2. Project: Thith Meanth War!
+    2. Looping with Ruby
+    3. Project: Redacted!
+    3. Arrays and Hashes
+    4. Blocks and Sorting
+    4. Project: Ordering your Library
+    5. Hashes and Symbols
+    6. Project: A Night at the Movies
+    7. The Zen of Ruby
+    8. The Refactor Factory
+    9. Blocks, Procs, and Lambdas
 
 2. Finish [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 47-71)
 3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
