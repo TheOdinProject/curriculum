@@ -56,10 +56,10 @@ There's a lot to do here but stick with it!  We'll start with the Codecademy les
 
 1. Do [Codecademy Ruby sections 9 and 10](https://www.codecademy.com/learn/learn-ruby):
 
-    1. [Object-Oriented Programming, Part I](http://www.codecademy.com/courses/ruby-beginner-en-MFiQ6?curriculum_id=5059f8619189a5000201fbcb)
-    2. [Project: Virtual Computer](http://www.codecademy.com/courses/ruby-beginner-en-X5wcR?curriculum_id=5059f8619189a5000201fbcb)
-    3. [Object-Oriented Programming, Part II](http://www.codecademy.com/courses/ruby-beginner-en-zfe3o?curriculum_id=5059f8619189a5000201fbcb)
-    4. [Project: Banking on Ruby](http://www.codecademy.com/courses/ruby-beginner-en-32cN3?curriculum_id=5059f8619189a5000201fbcb)
+    1. Object-Oriented Programming, Part I
+    2. Project: Virtual Computer
+    3. Object-Oriented Programming, Part II
+    4. Project: Banking on Ruby
 
 2. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
 3. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
