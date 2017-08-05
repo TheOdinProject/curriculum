@@ -35,6 +35,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [jlo4's solution](https://github.com/jlo4/colorpad) | [View in browser](https://rawgit.com/jlo4/colorpad/master/index.html)
 * [Mtheam's solution] (https://github.com/mtheam1/etch-a-sketch)
 * [oheydrew's solution](https://github.com/oheydrew/etch/) | [View in browser](https://oheydrew.github.io/etch/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/sketchpad) | [View in browser](https://jonathanyiv.github.io/sketchpad/)
@@ -679,5 +680,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Oliver Curting's solution](https://github.com/Curting/sketchpad) | [View in browser](https://curting.github.io/sketchpad/)
 * [coryparham24's solution](https://github.com/coryparham24/sketchpad) | [View in browser](https://cdn.rawgit.com/coryparham24/sketchpad/f7cb10ef/index.html)
 * [Frank Barros' solution](https://github.com/frankdb/javascript-project) | [View in browser](https://cdn.rawgit.com/frankdb/javascript-project/bc94a1c2/grid.html)
-* [toaster_with_wheels' solution](https://github.com/damianed/Simple-sketchpad) | [View in browser](https://damianed.github.io/Simple-sketchpad/) 
+* [toaster_with_wheels' solution](https://github.com/damianed/Simple-sketchpad) | [View in browser](https://damianed.github.io/Simple-sketchpad/)
 * [Tshepo Mohlamonyane's solution](https://github.com/blavkboy/JavaScript-jQuery-Sketchpad) | [View in browser](https://blavkboy.github.io/JavaScript-jQuery-Sketchpad/)
