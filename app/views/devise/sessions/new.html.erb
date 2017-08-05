@@ -1,41 +1,14 @@
-<div id="devise-form" class="devise-sign-in gradient">
-
+<div class="gradient">
   <div class="container">
-    <div class="col-lg-5 login-form">
+    <div class="col-lg-6 col-md-10 offset-lg-3 offset-md-1">
       <h1 class="text-center accent">Login</h1>
-      <div class="card-main">
-        <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form-horizontal" } ) do |f| %>
-          <div class="form-inputs">
-            <div class="input-group">
-              <span class="fa fa-envelope"></span>
-              <%= f.input :email, label: false, required: false, autofocus: true, placeholder: "Email Address", input_html: { class: 'login email' }%>
-            </div>
-            <div class="input-group">
-              <span class="fa fa-lock"></span>
-              <%= f.input :password, label: false, required: false, placeholder:  "Password", input_html: { class: 'login password' } %>
-            </div>
-          </div>
-          <!-- From devise /shared/_links.erb -->
-          <%= link_to "Forgot your password?", new_password_path( resource_name), class: "forgot-password" %>
+        <%= render 'form' %>
 
-          <%= f.input :remember_me, as: :custom_boolean, label: false, inline_label: true, input_html: { checked: true } %>
-          <div class='text-center'>
-            <%= f.button :submit, "Login", class: "button button--primary full-width" %>
-          </div>
-        <% end %>
-
-        <div class="in-between text-center"><span>OR LOGIN WITH</span></div>
-
-        <div class="text-center">
-          <%= render partial: "shared/omniauth_buttons" %>
-        </div>
-      </div>
-
-      <%= render 'shared/bottom_cta',
-        button: create_new_account_button,
-        heading: 'Haven\'t signed up yet?',
-        sub_heading: ''
-      %>
+        <%= render 'shared/bottom_cta',
+          button: create_new_account_button,
+          heading: 'Haven\'t signed up yet?',
+          sub_heading: ''
+        %>
 
     </div>
   </div>

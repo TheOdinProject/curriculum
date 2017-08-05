@@ -17,6 +17,32 @@
   text-align: center;
   text-decoration: none;
   cursor: pointer;
+  border: none;
+
+  &:hover {
+    opacity: 0.8;
+    color: $white;
+    text-decoration: none;
+  }
+
+  &:focus {
+    color: $white;
+  }
+
+  &--transparent {
+    border: solid 3px $pale-grey;
+    box-shadow: none;
+    color: $pale-grey;
+    letter-spacing: 0.2px;
+    max-width: 234px;
+    padding: 18px;
+    width: 100%;
+
+    &:hover {
+      color: $black;
+      opacity: 0.8;
+    }
+  }
 
   @include media-breakpoint-down(sm) {
     padding: 1rem 2.5rem;
@@ -25,16 +51,6 @@
   @each $color-variant, $color in $button-colors {
     &--#{$color-variant} {
       background-color: $color;
-
-      &:hover {
-        opacity: 0.8;
-        color: $white;
-        text-decoration: none;
-      }
-
-      &:focus {
-        color: $white;
-      }
     }
   }
 }
