@@ -61,17 +61,21 @@ There's a lot to do here but stick with it!  We'll start with the Codecademy les
     3. Object-Oriented Programming, Part II
     4. Project: Banking on Ruby
 
-2. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 5: `The Ruby Ecosystem` for a brief break from code to learn more about the world of Ruby.
+2. Take a brief break from code and learn more about the world of Ruby.
+
+    1. Read about the [History of Ruby](https://www.sitepoint.com/history-ruby/)
+    2. Read about [Open Source Culture](https://opensource.guide/how-to-contribute/#why-contribute-to-open-source) in Section 1
+    3. Read about where you can find [Ruby's Community](https://www.ruby-lang.org/en/community/)
 3. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 6: `Classes, Objects, and Modules`.  It will extend your knowledge deeper than Codecademy alone.
 4. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 7: `Projects and Libraries`
 5. Read [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 8: `Documentation and Error Handling` but skip the stuff on Testing (pgs 175-179)
 6. Read through these reinforcing posts by Erik Trautman to help you answer the questions in the "Points to Ponder" section:
 
-    3. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
-    7. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
+    1. [Ruby Explained: Classes](http://www.eriktrautman.com/posts/ruby-explained-classes)
+    2. [Ruby Explained: Inheritance and Scope](http://www.eriktrautman.com/posts/ruby-explained-inheritance-and-scope)
 
-6. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
-6. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional.
+7. Read the [Bastard's Chapter on Error Handling](http://ruby.bastardsbook.com/chapters/exception-handling/) to reinforce your understanding of dealing with errors.
+8. Glance over the [Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide) so you have an idea of how to make your code look more professional.
 
 
 ### Test Yourself
