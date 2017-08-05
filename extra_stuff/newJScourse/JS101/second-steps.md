@@ -1,4 +1,6 @@
 cover further JS stuff that wasn't covered in first-steps
+
+1. Operators/Comparisons (from Javascript.info)
 1. if/else
 2. loops
 3. functions
