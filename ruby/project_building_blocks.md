@@ -6,10 +6,6 @@ You can do these in IRB or create a separate script file to run from the command
 
 *Note: If you want to actually write and run your own Ruby code, you can either use IRB from the command line (type `irb` after the prompt), or run it from a script file using `$ ruby ./your_file_name_in_the_current_directory.rb`, or use the online editor at [repl.it](http://repl.it/languages/Ruby).*
 
-### Warmup
-
-Build the simple [User Input Word Counter tutorial from Codecademy](http://www.codecademy.com/courses/ruby-beginner-en-693PD/0/1).
-
 ### Project 1: Caesar Cipher
 
 From Wikipedia:
@@ -37,6 +33,9 @@ Implement a caesar cipher that takes in a string and the shift factor and then o
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/caesar_cipher)
+* [Akshat's solution](https://github.com/akshatdb/RubyMain/blob/master/cipher.rb)
 * [Jason McKee's solution](https://github.com/jttmckee/caesar_cipher)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/caesar_cipher.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/ceaser-cipher.rb)
@@ -324,6 +323,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/stock_picker)
 * [Jason McKee's solution](https://github.com/jttmckee/ruby-stock-picker)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/stock_picker.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/stock-picker.rb)
@@ -605,6 +605,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/substrings)
 * [Jason McKee's solution](https://github.com/jttmckee/ruby-substrings)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/substrings.rb)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/substrings.rb)

@@ -159,6 +159,7 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/members-only) | [View in browser](https://salty-mesa-44756.herokuapp.com/)
 * [at0micr3d's solution](https://github.com/at0micr3d/members-only) | [View in browser](https://floating-atoll-55409.herokuapp.com/)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) | [View in browser](https://langenfeld-members-only.herokuapp.com/)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/Members_only) | [View in browser](https://membersonly-170388.herokuapp.com/)
 
 
 ### Additional Resources

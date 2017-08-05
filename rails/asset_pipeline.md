@@ -159,4 +159,5 @@ The Asset Pipeline isn't something that you often think about, especially when j
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
+* [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
 * [Stack Overflow on Escaping HTML in Rails](http://stackoverflow.com/questions/692921/rails-how-to-html-encode-escape-a-string-is-there-a-built-in)

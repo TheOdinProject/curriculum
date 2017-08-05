@@ -177,7 +177,7 @@ The reason you can use any key is because you will have to write a snippet of co
 
 One last distinction, though, goes back to the difference between a redirect and a render.  Remember, a redirect submits a completely new HTTP request, effectively leaving our application in the dust and starting over from the top.  We lose all our data... except for the flash.  The flash is specifically designed to travel with that HTTP request so you have access to it when you get redirected to the next page.
 
-Render doesn't go that far -- it just uses a view file that's part of your application's normal flow and you have access to all your instance variables in that file.  Because the flash is special, you actually have to use `flash.now` instead of `flash` when you are just rendering a view instead of submitting a whole new request.  That would look like `flash.now[:error] = "Rats! Fix your mistakes, please.`.  
+Render doesn't go that far -- it just uses a view file that's part of your application's normal flow and you have access to all your instance variables in that file.  Because the flash is special, you actually have to use `flash.now` instead of `flash` when you are just rendering a view instead of submitting a whole new request.  That would look like `flash.now[:error] = "Rats! Fix your mistakes, please."`.  
 
 The distinction between `flash` and `flash.now` just lets Rails know when it will need to make the flash available to you... if you used `flash` when you should have used `flash.now`, you'll just start seeing your messages showing up a "page too late" and it should be obvious what went wrong.  
 
