@@ -2,7 +2,7 @@ You've got the building blocks of Ruby out of the way, great! Now it's time to g
 
 The concepts you'll learn here are often less specific to Ruby itself and more widely applicable to any object-oriented language.  That's because the fundamental concepts are just that... fundamental.  Don't repeat yourself.  Modularize your code.  Have your classes and methods only do one thing.  Show as little of your interfaces to the world as you can.  Don't make methods or classes heavily dependent on each other.  Be lazy.  These will take some time and practice to implement effectively, but you'll already be taking a big step towards creating high quality code just by finishing up this section.
 
-There's a lot to do here but stick with it!  We'll start with the Codecademy lessons, whic hcoare interspersed with their projects so you'll get a chance to apply what you're learning.  The Beginning Ruby book will help you understand the material a bit deeper, which will be important when you are creating your own projects next.
+There's a lot to do here but stick with it!  We'll start with the Codecademy lessons, which are interspersed with their projects so you'll get a chance to apply what you're learning.  The Beginning Ruby book will help you understand the material a bit deeper, which will be important when you are creating your own projects next.
 
 
 ### Points to Ponder
