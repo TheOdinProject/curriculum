@@ -65,7 +65,8 @@
         border-bottom: 2px solid transparent;
 
         &:hover {
-          border-bottom: 2px solid $primary;
+          color: $black;
+          border-bottom: 2px solid $black;
         }
       }
     }
