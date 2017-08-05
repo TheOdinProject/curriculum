@@ -51,16 +51,22 @@
       display: none;
     }
 
-    .nav-link {
-      color: #676767;
-      text-decoration: none;
-      letter-spacing: 0.2px;
-      line-height: 88px;
-      font-size: 1.1em;
+    .nav-item {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
 
-      &:hover {
-        color: $black;
-        font-weight: bold;
+      .nav-link {
+        color: #676767;
+        text-decoration: none;
+        letter-spacing: 0.2px;
+        font-size: 1.1em;
+        border-bottom: 2px solid transparent;
+
+        &:hover {
+          border-bottom: 2px solid $primary;
+        }
       }
     }
 
