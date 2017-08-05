@@ -47,7 +47,7 @@ In a browser the _simplest_ way to get user input is by using the `prompt()` fun
 let number = prompt('what is your favorite number?')
 console.log(number)
 ```
-Pretty easy right?  Good.  Gonna need that for this assignment.
+Pretty easy right?  Good.  Gonna need that for this assignment.  Note: since we're using `prompt()` for this assignment, you'll need to run your code in a browser rather than on the command line.
 
 Write a script that figures out a student's score on a test:
 1. Prompt the user for the number of points possible on the test and store it in a variable.
@@ -59,4 +59,33 @@ Write a script that figures out a student's score on a test:
 5. (BONUS) that last example will have given you a long repeating decimal.  Rounding in Javascript is relatively simple but you haven't learned how to do it yet.  See if you can figure out how to round your percentages to only 1 decimal point. Don't try to hack it yourself... There's a built in method that will do the work for you just google it!
 
 ### Assignment 3
-Something using arrays
+Let's pretend that we have some code that not only calculates scores for us, but also stores them in an array like this:
+```javascript
+const scores = [44, 65, 98, 97, 78, 55, 98, 79]
+```
+If we have that array, there are many useful things we can do... many of which you'll learn in greater depth later.  For now try this:
+1. Copy that scores array into the top of your code.
+2. Calculate and log the sum of all the scores. (you can do this more efficiently using loops, but don't worry about that yet, we'll learn that in the next lesson.  Just add them all together manually... there are 8 values in the array)  For reference, the correct answer is `614`.
+3. Calculate the average test score. (it's `76.75`)
+4. Print out the scores list sorted from lowest to highest! (Gonna need to google that one and that's OK!)
+5. Calculate and print the difference between the lowest and highest scores (which would naturally be the first and last items in the array after it's been sorted) Answer: `54`
+
+### Assignment 4
+_Complete this assignment in your browser's console (It's good to know several ways to do this stuff.)_
+Let's pretend you've opened up a coffee shop and you're looking for a wildly inefficient way to keep track of your customer's orders... OK that's not fair, but at this point we need the practice using arrays, and don't _quite_ have the tools needed to build a useful system.  This is an assignment that we will revisit in later lessons to create something that's actually usable.
+1. In your browser's console create an empty array called `orders`.
+2. As customers come in and order their lattes and muffins you need to add their orders to the array, but be careful: your service is first-come first-serve, so you have to add their orders onto the END of the array, and then as you start preparing the orders, you need to remove the orders from the beginning of the array.
+3. go a head and add these orders to the end of your array:
+  - `"latte"`
+  - `"banana muffin"`
+  - `"coffee, black"`
+4. You begin preparing the first order, so remove it from the top of the list.
+5. Print the list to see what to prepare next.
+6. another customer comes in and orders an `"iced grandioso purple chocolatte with salted caramel"`, so go a head and add that one to the end.
+7. The muffin is ready, so remove it from the list.
+8. Another customer orders a `"glazed donut"`
+9. Another customer orders a `"latte"`
+10. Another customer orders an `"iced coffee"`
+11. You're getting overwhelmed... check the number of orders you still have to make (i.e. the length of the array), it should be `5` at this point, which is too much for you to handle, so you lock the door so no more customers can enter.
+12. One by one you finish the rest of the orders and remove them from the beginning of the array until it is empty.
+13. Toss they keys to the place to whoever ordered the purple chocolatte and run away. 
