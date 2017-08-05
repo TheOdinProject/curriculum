@@ -13,6 +13,7 @@ The very first steps of learning any programming language are destined to be at 
 * How do you concatenate a string?
 * What is an array?
 * What types of things can you put into an array?
+* How do you get items out of an array? (i.e. how do you use the information you've stored)
 
 ### Step One
 1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥.  The point of it is to give you a good feel for what you're going to be able do to with your Javascript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however really learn a lot here.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
