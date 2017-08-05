@@ -44,7 +44,7 @@ Once you've gotten that (congratulations BTW) let's change the code to make it a
 ### Assignment 2
 In a browser the _simplest_ way to get user input is by using the `prompt()` function.(we'll cover _better_ ways to do that in a later lesson) It's used like this:
 ```javascript
-const number = prompt('what is your favorite number?')
+let number = prompt('what is your favorite number?')
 console.log(number)
 ```
 Pretty easy right?  Good.  Gonna need that for this assignment.
@@ -59,3 +59,4 @@ Write a script that figures out a student's score on a test:
 5. (BONUS) that last example will have given you a long repeating decimal.  Rounding in Javascript is relatively simple but you haven't learned how to do it yet.  See if you can figure out how to round your percentages to only 1 decimal point. Don't try to hack it yourself... There's a built in method that will do the work for you just google it!
 
 ### Assignment 3
+Something using arrays
