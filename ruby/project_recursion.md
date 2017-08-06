@@ -275,6 +275,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-recursion/blob/master/merge_sort.rb)
 * [EMuchynski's solution](https://github.com/EMuchynski/merge_sort)
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
+* [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
 
 
 ### Additional Resources
