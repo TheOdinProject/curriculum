@@ -4,11 +4,11 @@ module ButtonHelper
   end
 
   def login_button
-    link_to 'Login', new_session_path(resource_name), class: 'button sign-up-button'
+    link_to 'Login', new_session_path(resource_name), class: 'button button--transparent'
   end
 
   def create_new_account_button
-    link_to 'Create new account', new_registration_path(resource_name), class: 'button sign-up-button'
+    link_to 'Create new account', new_registration_path(resource_name), class: 'button button--transparent'
   end
 
   def curriculum_button

@@ -8,7 +8,7 @@ class User < ApplicationRecord
 
   has_many :lesson_completions, foreign_key: :student_id
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
-  has_many :projects
+  has_many :projects, dependent: :destroy
 
   def completion_status(lesson)
     has_completed?(lesson) ? 'Completed' : 'Incomplete'

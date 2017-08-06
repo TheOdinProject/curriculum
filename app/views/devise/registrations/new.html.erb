@@ -1,21 +1,14 @@
-<div id="devise-form" class="devise-sign-up gradient">
+<div class="gradient">
   <div class="container">
-    <div class="col-lg-6 login-form">
+    <div class="col-lg-6 col-md-10 offset-lg-3 offset-md-1">
       <h1 class="text-center accent">Sign Up for Free</h1>
-      <div class="card-main">
-        <%= render 'signup_form' %>
-
-        <div class="in-between text-center"><span>OR SIGN UP WITH</span></div>
-
-        <%= render 'shared/omniauth_buttons' %>
-      </div>
+      <%= render 'form' %>
 
       <%= render 'shared/bottom_cta',
         button: login_button,
         heading: 'Have an account?',
         sub_heading: ''
       %>
-
     </div>
   </div>
 </div>
