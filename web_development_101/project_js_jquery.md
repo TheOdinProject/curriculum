@@ -682,3 +682,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Frank Barros' solution](https://github.com/frankdb/javascript-project) | [View in browser](https://cdn.rawgit.com/frankdb/javascript-project/bc94a1c2/grid.html)
 * [toaster_with_wheels' solution](https://github.com/damianed/Simple-sketchpad) | [View in browser](https://damianed.github.io/Simple-sketchpad/)
 * [Tshepo Mohlamonyane's solution](https://github.com/blavkboy/JavaScript-jQuery-Sketchpad) | [View in browser](https://blavkboy.github.io/JavaScript-jQuery-Sketchpad/)
+* [matpintes' solution](https://github.com/matpintes/squarepad) | [View in browser](https://matpintes.github.io/squarepad/)
