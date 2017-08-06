@@ -38,6 +38,12 @@
     }
   }
 
+  &__error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: -20px;
+  }
+
   &__link-section {
     display: flex;
     font-size: 0.8125em;

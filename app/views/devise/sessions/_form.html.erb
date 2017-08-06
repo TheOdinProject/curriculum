@@ -1,5 +1,5 @@
 <div class="card-main">
-  <%= form_for(resource, as: resource_name, url: session_path(resource_name), class: "auth-form" ) do |form| %>
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name), class: "auth-form") do |form| %>
 
     <div class="auth-form__section">
       <span class="fa fa-envelope auth-form__icon"></span>
@@ -29,6 +29,6 @@
   </div>
 
   <div class="text-center">
-    <%= render partial: "shared/omniauth_buttons" %>
+    <%= render "shared/omniauth_buttons" %>
   </div>
 </div>
