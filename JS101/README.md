@@ -8,6 +8,7 @@ This is almost definitely going to change... things are likely to be moved quite
 1. running-javascript
 1. first-steps
 1. first-steps-project
+1. Code structure
 1. second-steps
 1. second-steps-project
 1. DOM-manipulation
