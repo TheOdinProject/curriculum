@@ -607,6 +607,7 @@ Next, make sure your method can handle multiple words:
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [endotnick's solution](https://github.com/endotnick/substrings)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/substrings)
 * [Jason McKee's solution](https://github.com/jttmckee/ruby-substrings)
 * [jm18457's solution](https://github.com/jm18457/the-odin-project/blob/master/ruby_part_3/Project%201.1/substrings.rb)
