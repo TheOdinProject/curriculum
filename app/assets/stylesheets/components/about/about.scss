@@ -38,69 +38,6 @@
     }
   }
 
-  #overview {
-    background: $white-smoke;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    @include media-breakpoint-down(sm) {
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
-
-    .section-heading {
-      margin-bottom: 30px;
-    }
-
-    .stats-container {
-      justify-content: center;
-    }
-
-    .stats {
-      padding: 24px;
-
-      @include media-breakpoint-down(xs) {
-        text-align: center;
-      }
-
-      .stat {
-        font-size: 2.25rem;
-        font-weight: bold;
-        color: $pale-grey;
-        letter-spacing: 0.4px;
-      }
-    }
-
-    .origin {
-      padding: 24px;
-
-      .heading {
-        font-size: 2.25rem;
-        margin-bottom: 20px;
-
-        @include media-breakpoint-down(sm) {
-          font-size: 1.5rem;
-          text-align: center;
-        }
-      }
-    }
-
-    .open-source-container {
-      padding: 24px;
-
-      .open-source {
-        align-items: center;
-        margin-bottom: 20px;
-      }
-
-      .heading {
-        font-size: 2.25rem;
-        font-weight: bold;
-        color: $pale-grey;
-        letter-spacing: 0.4px;
-      }
-    }
-  }
-
   .story {
     margin: 30px 0 80px;
     padding: 100px 20px;
