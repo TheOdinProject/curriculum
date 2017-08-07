@@ -1,39 +1,40 @@
-#overview {
+.overview {
   background: $white-smoke;
   padding-top: 100px;
   padding-bottom: 100px;
+
   @include media-breakpoint-down(sm) {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 
-  .section-heading {
+  &__heading {
     margin-bottom: 30px;
   }
 
-  .stats-container {
+  .stats-card-content {
     justify-content: center;
+
+    &__stats {
+      padding: 24px;
+
+      @include media-breakpoint-down(xs) {
+        text-align: center;
+      }
+
+      .stat {
+        font-size: 2.25rem;
+        font-weight: bold;
+        color: $pale-grey;
+        letter-spacing: 0.4px;
+      }
+    }
   }
 
-  .stats {
+  .origin-card-content {
     padding: 24px;
 
-    @include media-breakpoint-down(xs) {
-      text-align: center;
-    }
-
-    .stat {
-      font-size: 2.25rem;
-      font-weight: bold;
-      color: $pale-grey;
-      letter-spacing: 0.4px;
-    }
-  }
-
-  .origin {
-    padding: 24px;
-
-    .heading {
+    &__heading {
       font-size: 2.25rem;
       margin-bottom: 20px;
 
@@ -44,19 +45,19 @@
     }
   }
 
-  .open-source-container {
+  .open-source-card-content {
     padding: 24px;
 
     .open-source {
       align-items: center;
       margin-bottom: 20px;
-    }
 
-    .heading {
-      font-size: 2.25rem;
-      font-weight: bold;
-      color: $pale-grey;
-      letter-spacing: 0.4px;
+      &__heading {
+        font-size: 2.25rem;
+        font-weight: bold;
+        color: $pale-grey;
+        letter-spacing: 0.4px;
+      }
     }
   }
 }
