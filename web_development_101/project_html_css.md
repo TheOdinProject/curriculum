@@ -1180,6 +1180,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Rickey's Solution (Easy)](https://github.com/rickeyolsen/google-homepage) | [View in browser](https://rickeyolsen.github.io/google-homepage/)
 * [Justanity's Solution (Easy)](https://github.com/justanity/google-homepage) | [View in browser](https://justanity.github.io/google-homepage/)
 * [Alex's Solution (Easy)](https://github.com/alexcorremans/google-homepage) | [View in browser](https://alexcorremans.github.io/google-homepage/)
+* [ShimmerJ's Solution (Easy)](https://github.com/ShimmerJ/google-homepage.git)
+
 
 ### Additional Resources
 
