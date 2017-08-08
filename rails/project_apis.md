@@ -149,6 +149,7 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_flickr) | [View in browser](https://still-spire-50621.herokuapp.com/)
 * [Joshua Wootonn's solution](https://github.com/jose56wonton/flickr_api_test)
 * [holdercp's solution](https://github.com/holdercp/flickr-feed) | [View in browser](https://stark-brook-63398.herokuapp.com/)
 * [Austin's solution](https://github.com/CouchofTomato/odin_flikr)
