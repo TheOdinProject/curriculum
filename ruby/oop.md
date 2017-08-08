@@ -82,6 +82,7 @@ There's a lot to do here but stick with it!  We'll start with the Codecademy les
 
 1. Make sure you can do [Quiz #5](http://www.codequizzes.com/ruby/beginner/intro-object-oriented-programming) from [Code Quizzes](http://www.codequizzes.com).
 2. Make sure you can do [Quiz #7](http://www.codequizzes.com/ruby/beginner/modules-classes-inheritance) as well.
+3. Make sure you go back up and look at all the questions from the "Points to Ponder" section. See if you can do most of them without looking back through the text.
 
 ### Additional Resources
 
