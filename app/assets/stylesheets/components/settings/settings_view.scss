@@ -26,6 +26,10 @@
     @include media-breakpoint-down(sm) {
       text-align: left;
     }
+
+    &.learning_goal {
+      @include word-wrap();
+    }
   }
 
   &__input {

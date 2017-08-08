@@ -45,6 +45,7 @@
           text-decoration: underline;
           color: $grey;
         }
+        @include word-wrap();
       }
 
       .completion-date {
