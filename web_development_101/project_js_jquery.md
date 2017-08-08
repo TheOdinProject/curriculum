@@ -684,3 +684,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Tshepo Mohlamonyane's solution](https://github.com/blavkboy/JavaScript-jQuery-Sketchpad) | [View in browser](https://blavkboy.github.io/JavaScript-jQuery-Sketchpad/)
 * [matpintes' solution](https://github.com/matpintes/squarepad) | [View in browser](https://matpintes.github.io/squarepad/)
 * [Alex's solution](https://github.com/alexcorremans/sketch) | [View in browser](https://alexcorremans.github.io/sketch/)
+* [Afeso Franklyn's Solution](https://github.com/afeso/sketchpad) | [View in browser](https://afeso.github.io/sketchpad/)
