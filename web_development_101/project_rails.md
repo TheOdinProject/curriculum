@@ -26,6 +26,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Dallaire's solution](https://github.com/Dallaire/blogger) | [View in browser](https://pacific-garden-49484.herokuapp.com/)
 * [Ryan Ford's solution](https://github.com/ryanford-frontend/rails-blogger) | [View in browser](https://limitless-dusk-51076.herokuapp.com/)
 * [SadieD's solution](https://github.com/SadieD/dainty_blog) | [view in browser](http://afternoon-journey-20210.herokuapp.com/)
+* [Breadbear's solution](https://github.com/breadbear/blogger) | [View in browser](https://pure-journey-28856.herokuapp.com/login)
 * [Adong520's solution](https://github.com/Adong520/blogger) | [view in browser](https://agile-cliffs-89442.herokuapp.com/)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/blogger) | [view in browser](https://cryptic-tor-71009.herokuapp.com/)
 * [xavier solution](https://github.com/nxdf2015/odin-blogger) | [view in browser](https://evening-castle-61857.herokuapp.com/articles)
