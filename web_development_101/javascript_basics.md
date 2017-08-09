@@ -1,13 +1,10 @@
-# Javascript 101
-<!-- *Estimated Time: 6-8 hrs* -->
-
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
 
 This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  Javascript just happens to let you implement them to do fun things in the browser.
 
 This lesson will tend to focus on understanding the programming side of Javascript and the next lesson on jQuery will build on your knowledge here to actually allow you to interact with the elements on your webpage.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -16,7 +13,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * What is a string? An array? A boolean?
 * What are events?
 
-## Assignment:
+### Assignment:
 1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/learn-javascript) for a good overview of the basics of javascript.
 2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
     1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/pen/).
@@ -24,13 +21,33 @@ This lesson will tend to focus on understanding the programming side of Javascri
 4. Start thinking about how to use code to solve more logical problems. As much as web development is an expression of creativity, it's also based in problem solving (and job interviewers certainly know that) so you'll want to shake the rust off that part of your brain.  [Project Euler](http://projecteuler.net/) is a series of programming challenges that are best solved by using the power of computers (since many of them require you to perform simple mathematical operations on a very large scale).  Some of the later problems require so much repetition and computing power that you would need to find a more elegant way of solving it than the immediately obvious "brute force" solution.  We'll just go through the first one now, it's all we need at this point.  Solve these problem in [repl.it](https://repl.it/languages/javascript) if you aren't comfortable working with your own files:
     1. [Problem 1: Multiples of 3 and 5](http://projecteuler.net/problem=1). Go ahead and read the assignment. Now, lets break it down into a few steps. The **first thing** we have to know is how to check if a number is a multiple of 3 or 5 (in case you don't remember, a multiple of a number is that number multiplied by an integer), a hint for doing this: [Modulus operator](http://stackoverflow.com/a/17525046/4330173). Next, we need to sum all the numbers that are multiples, so we'll need a *variable* to keep track of that sum. And lastly, we need to *iterate*(remember how to do a [loop](http://www.w3schools.com/js/js_loop_for.asp) in javascript?) through all the numbers until we get to 1000. With all this, we should be able to solve the problem. In case you are still struggling, check out other students solutions for inspiration.
     2. If you feel like it, go and solve a few more problems! No one said you could turn off your brain!
-5. Complete the remaining of the [dev tools](https://www.codeschool.com/courses/discover-devtools) course from code school to see how you can use dev tools to help you debug javascript issues.
+5. There's a lot of power in your browser's devtools for debugging and working with Javascript code.  The [official dev-tools docs](https://developers.google.com/web/tools/chrome-devtools/javascript/) are a pretty good resource for getting started and digging in.  [This video from Wes Bos](https://www.youtube.com/watch?v=xkzDaKwinA8) also has some pretty great little tips for working with JS in the browser.
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Jon Motyka's Solutions for problems 1 and 2](https://github.com/microjrm/project-euler)
+* [Thanan's Solutions for problems 1 & 2](https://github.com/uhohjungo/project-euler-problems)
+* [Franklyn Afeso's Solutions for Problem 1 & 2](https://github.com/afeso/projectEuler/tree/master/scripts) | [View in Browser](https://afeso.github.io/projectEuler)
+* [Jonathan Yiv's Solutions](https://github.com/JonathanYiv/project-euler)
+* [Simon Greenwood's solution to problem 1 & 2](https://github.com/simong90/project-euler)
+* [htmercury's solution for problem 1](https://github.com/htmercury) | [View in browser](https://github.com/htmercury/Project-Euler)
+* [Mark Ballard's solution for problem 1](https://github.com/aualby) | [View in browser](https://aualby.github.io/javascript-basics)
+* [Henrike Martxa's solution for problem 1](https://github.com/henrikemartxa/project_euler)
+* [Joyce's solution for problem 1](https://gist.github.com/thejoycekung/9e081780609b5f7b408f9c436dc14252)
+* [Akshat Dubey's solution to problem 1,2,3 and 4 (with variable inputs)](https://github.com/akshatdb/EulerSolutions) | [View in browser](https://akshatdb.github.io/EulerSolutions/)
+* [Ivan Marquez's solution to problem 1 and 2](https://github.com/Marq27/problem1)
+* [cj-sv's solution to problem 1 and 2](https://github.com/cj-sv/project-euler)
+* [oheydrew's solution for problems 1 & 2](https://github.com/oheydrew/euler) | [View in browser](https://oheydrew.github.io/euler/)
+* [Bn8's solution for problem 1 (variable input option)](https://github.com/Bn8/eulerproblems/blob/master/scr.js) | [View in browser](https://bn8.github.io/eulerproblems/)
+* [Barry's solution for problem 1](https://github.com/barry505/projectEuler/blob/master/p01.js)
+* [endotnick's solutions](https://github.com/endotnick/project_euler)
+* [egealpay's solution for problem 1](https://github.com/egealpay/project_euler/blob/master/problem1.js)
+* [GuyInALabCoat Solutions for problems 1-4](https://github.com/GuyInALabCoat/Project_Euler)
+* [KP's solution to Problems 1 and 2](https://github.com/carlacalo/eulerprobs)
+* [sbadillo solution euler](https://github.com/sbadillo/odin-advance/blob/master/02_Web_Development_101/project-euler/project-euler_03.js)
 * [Takyawn's solution to problem1](https://github.com/Takyawn/eulerproject)
 * [kuehlr92's solution to problem 1](https://github.com/kuehlr92/euler_problems/blob/master/problem1.js)
 * [willievantonder's solution to Problem 1](willievantonder.github.io/javascriptProblem/problem1.js)
@@ -51,7 +68,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [aznshents' solution](https://github.com/aznshents/eulerproblems/blob/master/problem-1.js)
 * [Grey Ghost's solution](https://github.com/Grey-Ghost/Project-Euler) | [View In Browser](https://grey-ghost.github.io/Project-Euler/)
 * [Davand88 solution for Multiples of 3 and 5](https://github.com/Davand88/euler_Problems/blob/master/problem1.js)
-* Andrei Cirlan Solution for Multiples of 3 and 5](https://github.com/andreynho2006/ODIN-problem1-JS/blob/master/problem1.js)
+* [Andrei Cirlan Solution for Multiples of 3 and 5](https://github.com/andreynho2006/ODIN-problem1-JS/blob/master/problem1.js)
 * [Mike's Solution for Multiples of 3 and 5](https://gist.github.com/maquinde/afe29a7355b293c1f4adc51ed4ea5fe0)
 * [xavier solution for problem 1](https://github.com/nxdf2015/eulerProblems/blob/master/multiple.js)
 * [Demo318's solution for problems 1-2](https://github.com/Demo318/euler-problems)
@@ -491,8 +508,17 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [jacobhancock's solution](https://github.com/jacobhancock/Javascript-101) | [View in browser](https://jacobhancock.github.io/Javascript-101/)
 * [Bolcik's solution](https://github.com/SeanKohlbrenner/euler_problem_1/blob/master/problem_1.js)
 * [Robtak's solution](https://github.com/robtak/Project-Euler-1) | [View in Browser](https://robtak.github.io/Project-Euler-1/)
+* [Rosita's solution](https://github.com/ejero/projecteuler) | [View in Browser](http://rositaemakpo.com/projecteuler/)
+* [Anton Smid's solution for N°1 ](https://repl.it/IqbD/3) | [View in Browser](https://repl.it/IqbD/3/)
+* [Dylan's solution](https://github.io.com/dylanoliver/project-euler) | [View in Browser](https://dylanoliver.github.io/project-euler)
+* [Arunava's Solution](https://repl.it/Izpi/1)
+* [Sheldon K's Solution](https://github.com/Leviax7/ProjectEuler1) | [View in Browser](https://leviax7.github.io/ProjectEuler1/)
+* [Mayank Patel's Solution](https://github.com/maknahar/maknahar.github.io/tree/master/op/euler) | [View in Browser](https://maknahar.github.io/op/euler/)
+* [Daniel T's Solution](https://github.com/dnyy/Project-Euler) | [View in Browser] (https://dnyy.github.io/Project-Euler/)
+* [Brandon B's Solution to Problem 1](https://github.com/bmbost/projecteuler/tree/master/prob1) / [View in Browser](https://bmbost.github.io/projecteuler/prob1/)
+* [Alex's solutions to problems 1 & 2](https://github.com/alexcorremans/euler-JS)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

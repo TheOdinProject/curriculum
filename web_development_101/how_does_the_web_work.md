@@ -1,9 +1,5 @@
-## How Does the Web Work?
-<!-- *Estimated Time: 1-2 hrs* -->
-<!-- update: Web Developer Tools moved to new lesson. -->
-
 Before you can understand how to *program* the web, you need to understand the web itself on a more granular level than you probably do now.  Some of this stuff is necessary just to have a more holistic understanding of the ecosystem in which you will be working (and to not sound like a total newbie when talking to other developers about it).
-  
+
 ### Learning Outcomes
 *At the end of this lesson you should be able to:*
 
@@ -29,3 +25,4 @@ Before you can understand how to *program* the web, you need to understand the w
 
 * [(Video) A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).
 * [(Book) Tubes: Behind the Scenes at the Internet](https://www.amazon.co.uk/dp/B007TB5SKA/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1).
+* If you're in for a bit more reading, you can check the [Introduction to HTTP](https://launchschool.com/books/http) online book at LaunchSchool. It also touches on some topic covered later in the curriculum, such as Developer Tools and Security. Additionally, you can learn about HTTP tools which can be helpful to you in the future.

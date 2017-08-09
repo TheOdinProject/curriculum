@@ -1,9 +1,6 @@
-# Project: Testing Ruby with RSpec
-<!-- *Estimated Time: 6-10 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Time Traveling
+### Warmup: Time Traveling
 
 A good way to get familiar with and begin contributing to a new project is to write tests for it.  It's also the best way to become familiar with a new code base, something you'll have to do when you start working.  It's pretty common for test code to ultimately take up twice as many lines of code as the actual project code!
 
@@ -20,11 +17,12 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
     3. Try using mocks/doubles to isolate methods and make sure that they're sending back the right outputs.
 
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Kasey's solutions : [Caesar Cipher](https://github.com/kasey-z/TOP-solutions/tree/master/Ruby%20Building%20Blocks/Caesar%20Cipher/spec/lib), [enumerable methods](https://github.com/kasey-z/TOP-solutions/tree/master/advanced_building_blocks/spec/lib),[Tic Tac Toe](https://github.com/kasey-z/TOP-solutions/blob/master/OOP/spec/lib/tic_tac_toe_spec.rb)
 * xavier's solutions : [Caesar Cipher](https://github.com/nxdf2015/odin-building-blocks), [enumerable methods](https://github.com/nxdf2015/odin-advanced-building-blocks/tree/master/enumerable),[Tic Tac Toe](https://github.com/nxdf2015/odin-oop-with-ruby/tree/master/rspec)
 * Oleh Sliusar's solutions: [Caesar Cipher](https://github.com/OlehSliusar/caesar_cipher), [Enumerable Methods](https://github.com/OlehSliusar/enumerable_methods), [Tic-tac-toe](https://github.com/OlehSliusar/tic-tac-toe)
 * holdercp's solutions [Caesar Cipher and Enumerable Methods](https://github.com/holdercp/ruby-building-blocks), [Tic-Tac-Toe](https://github.com/holdercp/tic-tac-toe)
@@ -73,9 +71,11 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * Sophia Wu's solution ([Caesar Cipher](https://github.com/SophiaLWu/project-testing-ruby-with-rspec/tree/master/caesars_cipher), [Enumerable](https://github.com/SophiaLWu/project-testing-ruby-with-rspec/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/SophiaLWu/project-testing-ruby-with-rspec/tree/master/tic_tac_toe))
 * John Connor's solution([Caesar Cipher](https://github.com/jacgitcz/caesar_cipher),[Enumerable](https://github.com/jacgitcz/enumeration_methods),[Tic Tac Toe](https://github.com/jacgitcz/tictactoe_oop))
 * Simon's solution([Caesar Cipher](https://github.com/SimonSomlai/Odin/tree/master/Ruby/cypher),[Enumerable](https://github.com/SimonSomlai/Odin/tree/master/Ruby/enumerable),[Tic Tac Toe](https://github.com/SimonSomlai/Odin/tree/master/Ruby/tic_tac_toe))
+* Luján Fernaud's solution ([Caesar Cipher](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/lujanfernaud/ruby-tic-tac-toe))
+* Cody Buffaloe's solutions ([Caesar Cipher](https://github.com/CodyLBuffaloe/caesar_cipher), [Enumerable Methods](https://github.com/CodyLBuffaloe/enumerable_methods), [Tic Tac Toe](https://github.com/CodyLBuffaloe/tic_tac_toe))
 
 
-## Project: TDD Connect Four
+### Project: TDD Connect Four
 
 Hopefully everyone has played Connect Four at some point (if not, see the [Wikipedia page](http://en.wikipedia.org/wiki/Connect_Four)).  It's a basic game where each player takes turns dropping pieces into the cage.  Players win if they manage to get 4 of their pieces consecutively in a row, column, or along a diagonal.  
 
@@ -89,11 +89,13 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 
 1. Build Connect Four!  Just be sure to keep it TDD.
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Kasey's solution](https://github.com/kasey-z/TOP-solutions/tree/master/connect_four)
+* [Adsy430's solution](https://github.com/adampal/connect4)
 * [xavier's solution](https://github.com/nxdf2015/odin-testing-ruby-with-rspec)
 * [holdercp's solution](https://github.com/holdercp/connect-four)
 * [theghall's solution](https://github.com/theghall/connect_four)
@@ -155,8 +157,10 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [Simon's solution](https://github.com/SimonSomlai/Odin/tree/master/Ruby/connect_four)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/connect_four)
 * [John Connor's solution](https://github.com/jacgitcz/tconnect4)
+* [Zach Beaird's solution](https://github.com/zbbeaird89/Connect-Four)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-connect-four)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

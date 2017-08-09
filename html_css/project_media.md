@@ -1,5 +1,3 @@
-# Project: Embedding Images and Video (with YouTube)
-
 *Don't forget to use Git to save your projects!*
 
 Back in Web Development 101 you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
@@ -33,6 +31,9 @@ Also, don't worry about making the comment form work properly... your goal is to
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Justine Cantado's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/yt) | [View in Browser](https://hannibalony.github.io/yt)
+* [yilmazgunalp's solution](https://github.com/yilmazgunalp/youtube_page) | [View in Browser](https://yilmazgunalp.github.io/youtube_page/)
+* [Bottlecap's solution](https://github.com/Bottlecaps4/YouTube-video-page) | [View in Browser](https://bottlecaps4.github.io/YouTube-video-page/)
 * [Jeff's Solution](https://github.com/jmbothe/youtube-homepage) | [View in Browser](https://jmbothe.github.io/youtube-homepage/)
 * [Andrew's solution](https://github.com/andrewr224/embedding-video-project) | [View in browser] (https://andrewr224.github.io/embedding-video-project/)
 * [Austin's solution](https://github.com/CouchofTomato/youtube-clone)
@@ -71,9 +72,10 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [daunenok's solution](https://github.com/daunenok/embedded-video) | [View in browser]( https://daunenok.github.io/embedded-video/)
 * [Axel's solution](https://github.com/afuh/Youtube) | [View in browser](https://afuh.github.io/Youtube/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/odin-youtube-project) | [View in browser](https://sophialwu.github.io/odin-youtube-project/)
-* [Neil Cudden's solution](https://github.com/ncud4bloc/YouTube)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/YouTube) | [View in browser](https://ncud4bloc.github.io/YouTube/HTML/index.html)
+* [Beth Rathbone's solution](https://github.com/bethrath/youtube-page)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

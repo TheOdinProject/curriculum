@@ -1,9 +1,6 @@
-# Project: Recursion
-<!-- *Estimated Time: 3-5 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Fibonacci
+### Warmup: Fibonacci
 
 The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which sums each number with the one before it, is a great example of a problem that can be solved recursively.
 
@@ -18,6 +15,8 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Kasey Z's solution](https://github.com/kasey-z/TOP-solutions/blob/master/recursion/fibonacci.rb)
+* [Adsy430's solution](https://github.com/adampal/fib_recursive)
 * [SadieD's solution](https://github.com/SadieD/Recursion/blob/master/fibonacci.rb)
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/recursion/fibonacci/fibonacci.rb)
 * [holdercp's solution](https://github.com/holdercp/fibonacci)
@@ -30,7 +29,6 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [mindovermiles262's Solution](https://github.com/mindovermiles262/recursion/blob/master/fibonacci.rb)
 * [theghall's solution](https://github.com/theghall/fibonacci-recursive.git)
 * [Jerliyah's solution](https://gist.github.com/Jerliyah/f73e0188f18cb39c8e6d02196c5b8934)
-* [Neelotpal's solution](https://github.com/neelotpal97/learning_programming/blob/master/Projects/Fibonacci%20Problem/Fibonacci_problem.rb)
 * [Orlando's solution](https://github.com/orlandodan14/The-Odin-Project/blob/master/recursion/fibonacci.rb)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/blob/master/ruby/recursion/fibo.rb)
 * [Nicolas Amaya's solution](https://github.com/nicoasp/TOP---Ruby-Recursion-Project)
@@ -45,14 +43,12 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/blob/master/recursion/fibonacci.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/project_recursion/fibonacci.rb)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_recursion)
-* [Mazin's solution](https://github.com/muzfuz/CodeLessons/blob/master/recursion/fibonacci.rb)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/blob/master/Recursion/fibonacci.rb)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_6_Ruby_Recursion/fibonacci.rb)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/fibonacci-practice)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/project_recursion/blob/master/fibs.rb)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/recursion)
 * [James MacIvor's solution](https://github.com/RobotOptimist/rec_ex/blob/master/fibs.rb)
-* [Dave Charnuska's solution](https://github.com/charleszardo/Odin_Project/blob/master/fibonacci.rb)
 * [Hawkeye's solution](https://github.com/Hawkeye000/odin-recursion)
 * [Aleksandar's solution](https://github.com/rodic/Odin-Ruby-Projects/blob/master/Project:%20Recursion/lib/fibonacci.rb)
 * [Vidul's solution](https://github.com/viparthasarathy/recursion/blob/master/fib.rb)
@@ -62,7 +58,6 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/fibonacci.rb)
 * [Jason Matthews' solution](https://github.com/fo0man/project_recursion/blob/master/recursion.rb)
 * [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/fib2.rb)
-* [Nikola Čvorović's solution](https://github.com/cvorak/Recursion/blob/master/fibonacci.rb)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/recursion/blob/master/fibonacci.rb)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/recursion_project/fibonacci.rb)
 * [Chris Dziewa's solution](https://github.com/chrisdziewa/recursion/blob/master/fibonacci.rb)
@@ -90,7 +85,6 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/ruby_programming_projects/recursion/fib.rb)
 * [srashidi's solution](https://github.com/srashidi/Recursion/tree/master/Fibonacci)
 * [Dave Meister's solution (One-Liners)](https://github.com/misterdavemeister/theodinproject/blob/master/recursion/fib/fib.rb)
-* [Panashe Fundira's solution](https://github.com/munyari/odin/blob/master/learning-ruby/recursion/fib.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/recursion/blob/master/fibonacci.rb)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/fibonacci)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/fibonacci)
@@ -135,8 +129,9 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [jeff1st's solution](https://github.com/jeff1st/cs_recursive/blob/master/fibo.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-recursion/blob/master/fibonacci.rb)
 * [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
+* [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
 
-## Project: Merge Sort
+### Project: Merge Sort
 
 We spent some time early on dealing with sorting (e.g. bubble sort).  Now it's time to take another look at sorting with [Merge Sort](http://en.wikipedia.org/wiki/Merge_sort), a type of sort that lends itself well to recursion and can be much faster than bubble sort on the right data sets.  You'll build a method which sorts a given array but uses a "merge sort" method for doing so.
 
@@ -163,6 +158,9 @@ The first step is to actually understand what the merge sort algorithm is doing:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Roland Studer's solution](https://github.com/RolandStuder/odin_project_solutions/blob/master/recursive_methods/merge_sort.rb)
+* [Kasey Z.'s solution](https://github.com/kasey-z/TOP-solutions/blob/master/recursion/merge_sort.rb)
+* [Adsy430's solution](https://github.com/adampal/merge_sort)
 * [SadieD's solution](https://github.com/SadieD/Recursion/blob/master/mergesort.rb)
 * [Clayton Sweeten Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/recursion/merge_sort/merge_sort.rb)
 * [holdercp's solution](https://github.com/holdercp/merge-sort)
@@ -189,13 +187,11 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Chris's solution](https://github.com/krzoldakowski/theodinproject/blob/master/recursion/merge_sort.rb)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/blob/master/project_recursion/merge_sort.rb)
 * [Donald's solution](https://github.com/donaldali/odin-ruby/tree/master/project_recursion)
-* [Mazin's solution](https://github.com/muzfuz/CodeLessons/blob/master/recursion/merge_sort.rb)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/blob/master/Recursion/mergeSort.rb)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/blob/master/Project2_6_Ruby_Recursion/mergesort.rb)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/merge-sort)
 * [Michael Alexander's solution](https://github.com/betweenparentheses/project_recursion/blob/master/merge_sort.rb)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/Project-Odin-Work-Files/blob/master/ProjectRecursion.rb)
-* [Erithair's solution](https://github.com/N19270/merge-sort)
 * [Sahil Agarwal's solution](https://github.com/sahilda/the_odin_project/tree/master/recursion)
 * [James MacIvor's solution](https://github.com/RobotOptimist/rec_ex/blob/master/merge_sort.rb)
 * [Aleksandar's solution](https://github.com/rodic/Odin-Ruby-Projects/blob/master/Project:%20Recursion/lib/merge.rb)
@@ -205,7 +201,6 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/blob/master/Chapter_03-Advanced_Ruby/recursion/merge_sort.rb)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/recursion/blob/master/merge_sort.rb)
 * [Jason Matthews' solution](https://github.com/fo0man/project_recursion/blob/master/recursion.rb)
-* [Nikola Čvorović's solution](https://github.com/cvorak/Recursion/blob/master/merge_sort.rb)
 * [Lara Finnegan's solution](https://github.com/lcf0285/recursion/blob/master/merge_sort.rb)
 * [Kevin Mulhern's solution](https://github.com/KevinMulhern/recursion/blob/master/merge_sort.rb)
 * [Jeremy Mauzy's solution](https://github.com/apositivejam/the_odin_project/blob/master/recursion_project/merge_sort.rb)
@@ -233,7 +228,6 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Andrew Park's solution](https://github.com/akpark93/the_odin_project/blob/master/ruby_programming_projects/recursion/mergesort.rb)
 * [srashidi's solution](https://github.com/srashidi/Recursion/blob/master/merge_sort/merge_sort.rb)
 * [Dave Meister's solution](https://github.com/misterdavemeister/theodinproject/blob/master/recursion/merge_sort/merge_sort.rb)
-* [Panashe Fundira's solution](https://github.com/munyari/odin/blob/master/learning-ruby/recursion/mergesort.rb)
 * [James Brooks's solution](https://github.com/jhbrooks/recursion/blob/master/merge_sort.rb)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/tree/master/ruby/recursion/merge_sort)
 * [Skye Free's solution](https://github.com/swfree/the-odin-project/tree/master/merge_sort)
@@ -268,7 +262,6 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [David Chapman's Solution](https://github.com/davidchappy/odin_training_projects/blob/master/recursion/merge_sort.rb)
 * [Leonard Soai-Van's solution](https://github.com/leosoaivan/TOP_recursions/blob/master/merge_sort.rb)
 * [Dom Goj's solution](https://github.com/booyakuhhsha/mergeSort)
-* [Jerry Gao's solution](https://github.com/blackwright/merge_sort)
 * [Marcus' solution](https://github.com/nestcx/recursion/blob/master/mergesort.rb)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/project-recursion/blob/master/merge_sort.rb)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/recursion/blob/master/merge_sort.rb)
@@ -281,9 +274,11 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Warmup_Fibonacci/blob/master/Merge_Sort.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-recursion/blob/master/merge_sort.rb)
 * [EMuchynski's solution](https://github.com/EMuchynski/merge_sort)
+* [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
+* [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

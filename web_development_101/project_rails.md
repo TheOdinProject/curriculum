@@ -1,7 +1,3 @@
-
-# Project: Rails
-<!-- *Estimated Time: 6-8 hrs* -->
-
 In this project, you'll get the opportunity to actually build a real rails application.  It's not a trivially simple one either -- it's got a lot of wrinkles and things that you're not going to understand.
 
 To be honest, you're kind of going into the deep end so don't worry if you don't understand what exactly you're doing in all the steps.  The point here is to get familiar with the process of creating a Rails app, what things generally look like, and what you don't know.  When you get to the end of this project, you can consider yourself remarkably persistent and resilient.
@@ -9,17 +5,30 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.
 
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
-1. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
-2. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
-3. If you're feeling ambitious, add in authentication in section I5.
-4. If you're feeling very ambitious, try doing the final Extras section I6.
-5. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](http://installfest.railsbridge.org/installfest/deploy_a_rails_app)
+2. Do the [Jumpstart Lab's Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html) sections I0 through I4.  Pay attention to any error messages you get, both planned (because the tutorial walks you through a common error-guided workflow) and unplanned (likely for things like spelling errors).  You'll see all these messages again and again when you're building Rails apps, so it's helpful to start getting familiar with which portions of the message you should pay attention to (and maybe put into Google if you can't figure out what caused it).
+3. After you finish going through the tutorial, you'll notice that if you delete a tag, all related orphaned taggings will remain there. You can solve this by enforcing [Referential Integrity](https://en.wikipedia.org/wiki/Referential_integrity) by applying the `dependent: :destroy` option for the `has_many` method in the right model. You can learn about it in [This Entry of the Rails Guides](http://guides.rubyonrails.org/association_basics.html)
+4. Here's a [helpful gist with common Blogger problems](https://gist.github.com/burtlo/4970471) if you're running into issues with routes, deleting, partials, and `redirect_to`.
+5. If you're feeling ambitious, add in authentication in section I5.
+6. If you're feeling very ambitious, try doing the final Extras section I6.
+7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](http://installfest.railsbridge.org/installfest/deploy_a_rails_app)
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Jonathan Yiv's Solution](https://github.com/JonathanYiv/blogger) | [View in browser](https://protected-dawn-48083.herokuapp.com/)
+* [Akshat's Solution](https://github.com/akshatdb/Blogger) | [View in browser](https://aqueous-eyrie-51208.herokuapp.com/)
+* [Jason McKee's solution](https://github.com/jttmckee/jump-blogger) | [View in browser](https://infinite-meadow-66360.herokuapp.com/articles)
+* [justinckim3's solution](https://github.com/justinckim3/rails-blogger)
+* [endotnick's solution](https://github.com/endotnick/odin-proj-rails) | [View in browser](https://boiling-anchorage-83757.herokuapp.com/)
+* [ticklybanana's solution](https://github.com/ticklybanana/Ruby-on-Rails-Blog-Tutorial) | [View in browser](https://thawing-fortress-18710.herokuapp.com/articles)
+* [Qin's solution](https://github.com/hyathynth/rails-blogger) | [View in browser](https://secret-journey-27265.herokuapp.com/)
+* [MGiagante's solution](https://github.com/mgiagante/blogger) | [View in browser](https://bloggigator.herokuapp.com)
+* [Bn8's solution](https://github.com/Bn8/iblog) | [View in browser](https://shielded-wave-25636.herokuapp.com)
+* [Beachfern's solution](https://github.com/beachfern/blogger) | [View in browser](https://damp-earth-11670.herokuapp.com/)
+* [Kasey Z.'s solution](https://github.com/kasey-z/blogger) | [View in browser](https://floating-atoll-31590.herokuapp.com/)
+* [GuyInALabCoat's solution](https://github.com/GuyInALabCoat/rails_blogger_project/tree/master/blogger) | [View in browser](https://secure-castle-16877.herokuapp.com/)
 * [Anya Finkelstein's solution](https://github.com/anyafink/rails-blogger-project) | [View in browser](https://nameless-basin-15144.herokuapp.com/)
 * [Ben Deltenre's solution](https://github.com/benjdelt/jumpstart_blogger) | [View in browser](https://calm-dawn-82855.herokuapp.com/)
 * [Demo318's solution](https://github.com/Demo318/blogger-clone) | [View in browser](https://shrouded-cove-30023.herokuapp.com/)
@@ -207,7 +216,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Young Jeong's Solution](https://github.com/youngjeong46/blogger) | [View in browser](https://pure-dawn-62488.herokuapp.com/) | I0-I6
 * [Loris Aranda's solution](https://github.com/LorisProg/rails_blogger) | [View in browser](https://damp-chamber-63138.herokuapp.com/)
 * [Defgarden's solution](https://github.com/Defgarden/blogger) | [View in browser](https://damp-citadel-61063.herokuapp.com/)
-* [m-chrzan's solution](https://github.com/m-chrzan/odin-blogger) | [View in browser](https://agile-garden-64954.herokuapp.com/) | I0-I5
+* [m-chrzan's solution](https://github.com/m-chrzan/odin-blogger)
 * [Adam Levin's solution](https://github.com/tutordelphia/jumpstart-blogger) | [View in browser](https://mighty-fortress-61631.herokuapp.com/) |I0-I5
 * [Dom Goj's solution](https://github.com/booyakuhhsha/blogger) | [View in browser](https://nameless-reef-36414.herokuapp.com/) |I0-I6
 * [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/tree/master/Web_Development_101/blogger) | [View in browser](https://obscure-temple-21505.herokuapp.com/) |I0-I5
@@ -253,10 +262,16 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [EMuchynski's Solution](https://github.com/EMuchynski/blogger) | [View in browser](https://agile-ocean-12019.herokuapp.com/articles)
 * [Eren Cataltepe's Solution](https://github.com/erencataltepe/rails-project)
 * [uvieugo's Solution](https://github.com/uvieugo/project-rails-blogger) | [View in Browser](https://salty-woodland-61543.herokuapp.com/) Up to part off I6
+* [Seederwood's Solution](https://github.com/seederwood/myblog) | [View in Browser](https://rocky-harbor-97255.herokuapp.com/)
+* [Anistor86's Solution](https://github.com/anistor86/RubyOnRails_project) | [View in Browser](https://evening-oasis-70444.herokuapp.com/)
+* [Phucledien's Solution](https://github.com/phucledien/blogger) | [View in Browser](https://still-crag-31572.herokuapp.com/)
+* [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) | [View in Browser](https://radiant-beach-97617.herokuapp.com/)
+* [Oliver Curting's Solution](https://github.com/Curting/blogger) | [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* An older and slightly more technical [1.5 hour video introduction to Rails](http://www.youtube.com/watch?v=LuuKDyUYFTU) from Armando Fox of UC Berkeley.
+* The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge. 
 * If you want, you can take a look at [The Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) from last lesson again. This will help you add some extra features to your blog such as [deleting comments](http://guides.rubyonrails.org/getting_started.html#deleting-comments).
+* You can read the [Introduction to Core Ruby Tools](https://launchschool.com/books/core_ruby_tools/read/introduction) from LaunchSchool to get a better understanding of Ruby and Rails concepts such as gems, version managers, bundler, and rake.

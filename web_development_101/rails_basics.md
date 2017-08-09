@@ -1,6 +1,3 @@
-# Ruby on Rails 101
-<!-- *Estimated Time: 2-4 hrs* -->
-
 You're probably here because you want to learn the [Ruby on Rails](http://rubyonrails.org/) framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about.  
 
 Rails uses, as you'll often hear, "convention over configuration".  That means that the creators of Rails have made a lot of decisions for you about how things should be structured and how the code should run.  You can change them, but it's best if you just go with the flow and work within their rules (especially as a noob).
@@ -18,7 +15,7 @@ Rails also firmly organizes your code using an MVC pattern which you will come t
 
 The best way to understand Rails is to use it, so we'll spend a bit of time on some videos and reading but you'll mostly be building your own Rails sample app.  You may have no idea what you're doing, and that's okay, but at least you should begin to understand what you DON'T know and what you'll want to pay attention to going forward.  A good tactic is to write down all the things that confuse you and either go looking for them on your own or keep them in mind for later when we do our deep dive into Rails.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -34,16 +31,17 @@ The best way to understand Rails is to use it, so we'll spend a bit of time on s
 * What is a controller?
 * What is a model?
 
-## Assignment:
+### Assignment:
 
 1. Read Daniel Kehoe's excellent [What is Ruby on Rails?](http://railsapps.github.io/what-is-ruby-rails.html) introduction to get a good grasp on what we're working with.
 2. The main [Odin Rails course](http://www.theodinproject.com/courses/ruby-on-rails) primarily uses Michael Hartl's fantastic "Ruby on Rails tutorial".  Get started coding right away by diving into [Chapter 1](https://www.railstutorial.org/book/beginning) of the book now! Hartl spends a fair amount of time getting everything set up correctly, and he suggests using a Cloud9 development environment, but if you've already done the [installfest](http://installfest.railsbridge.org/installfest/) that we link to you should be good to go on your own machine.  The rest of the book is covered in a later section, so stick to chapter 1 for now.
 3. Get another quick explanation of Model/View/Controller in [this short Youtube video from Lynda.com](http://www.youtube.com/watch?v=3mQjtk2YDkM)
 4. Read the [Ruby on Rails Guides: Getting Started](http://guides.rubyonrails.org/getting_started.html) and try to follow along with the application they build (you don't need to build it, but try to read it through. You'll be building soon enough).  By the end, your head will probably be spinning a bit but don't worry, that's normal.  You'll understand this stuff no problem by the time you do the Rails course later in the curriculum.  The Ruby on Rails Guides provide some of the best documentation for the Rails language out there, so it's good to start getting familiar with how they look.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [MVC for Noobs](http://net.tutsplus.com/tutorials/other/mvc-for-noobs/) uses PHP as an example later in the article, but you should get the gist of it.
 * [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e)
+* [Wonderful explanation of how REST and HTTP works](https://www.youtube.com/watch?v=Q-BpqyOT3a8)

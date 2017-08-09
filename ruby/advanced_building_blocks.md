@@ -1,13 +1,8 @@
-# Advanced Building Blocks
-
-<!-- *Estimated Time: 10-15 hrs* -->
-
 This lesson gets more into the topics you may have been shaky on before like *Control Flow, Looping, Arrays, Hashes, Blocks, Sorting*.  It's definitely got some more meat to it than the previous one.  The projects in the Assignment section are good for doing on your own because Codecademy gives you all kinds of help with them.  
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
-
 
 **Note:** This is again a long list of things to understand!  Read through the list, breathe deep, do the assignment, and then come back to them.
 
@@ -99,21 +94,22 @@ This lesson gets more into the topics you may have been shaky on before like *Co
     * What does `#send` do?
     * When would `#send` be used that's different from just running the method on an object 'normally'?
 
-## Your Assignment
+### Your Assignment
 
-1. Do the [Codecademy Ruby sections 2-6](http://www.codecademy.com/tracks/ruby), including:
+1. Do the [Codecademy Ruby sections 2-8](https://www.codecademy.com/learn/learn-ruby), including:
 
-    1. [Control Flow in Ruby](http://www.codecademy.com/courses/ruby-beginner-en-NFCZ7)
-    2. [Project: Thith Meanth War!](http://www.codecademy.com/courses/ruby-beginner-en-JdNDe?curriculum_id=5059f8619189a5000201fbcb)
-    2. [Looping with Ruby](http://www.codecademy.com/courses/ruby-beginner-en-XYcN1?curriculum_id=5059f8619189a5000201fbcb)
-    3. [Project: Redacted!](http://www.codecademy.com/courses/ruby-beginner-en-mzrZ6?curriculum_id=5059f8619189a5000201fbcb)
-    3. [Arrays and Hashes](http://www.codecademy.com/courses/ruby-beginner-en-F3loB?curriculum_id=5059f8619189a5000201fbcb)
-    5. [Project: Create a Histogram](http://www.codecademy.com/courses/ruby-beginner-en-693PD?curriculum_id=5059f8619189a5000201fbcb)
-    4. [Blocks and Sorting](http://www.codecademy.com/courses/ruby-beginner-en-ET4bU?curriculum_id=5059f8619189a5000201fbcb)
-    4. [Project: Ordering your Library](http://www.codecademy.com/courses/ruby-beginner-en-nOho7?curriculum_id=5059f8619189a5000201fbcb)
-    5. [Hashes and Symbols](http://www.codecademy.com/courses/ruby-beginner-en-Qn7Qw?curriculum_id=5059f8619189a5000201fbcb)
-    6. [Project: A Night at the Movies](http://www.codecademy.com/courses/ruby-beginner-en-0i8v1?curriculum_id=5059f8619189a5000201fbcb)
-    7. [Blocks, Procs, and Lambdas](http://www.codecademy.com/courses/ruby-beginner-en-L3ZCI?curriculum_id=5059f8619189a5000201fbcb)
+    1. Control Flow in Ruby
+    2. Project: Thith Meanth War!
+    2. Looping with Ruby
+    3. Project: Redacted!
+    3. Arrays and Hashes
+    4. Blocks and Sorting
+    4. Project: Ordering your Library
+    5. Hashes and Symbols
+    6. Project: A Night at the Movies
+    7. The Zen of Ruby
+    8. The Refactor Factory
+    9. Blocks, Procs, and Lambdas
 
 2. Finish [Beginning Ruby](https://www.amazon.co.uk/Beginning-Ruby-Professional-Peter-Cooper/dp/1484212797) Chapter 3: `Ruby's Building Blocks: Data, Expressions, and Flow Control` (pages 47-71)
 3. For a look at underserved concepts and help with the questions above, check out these posts by Erik Trautman:
@@ -124,7 +120,7 @@ This lesson gets more into the topics you may have been shaky on before like *Co
     5. [Ruby Explained: Map, Select, and Other Enumerable Methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
     2. [Ruby Explained: Writing and Running Methods](http://www.eriktrautman.com/posts/ruby-explained-writing-and-running-methods)
 
-## Test Yourself
+### Test Yourself
 
 Make sure you can do the following quizzes from [Code Quizzes](http://www.codequizzes.com/).  They're pretty quick and should give you an idea of what you still need to brush up on.
 
@@ -132,11 +128,11 @@ Make sure you can do the following quizzes from [Code Quizzes](http://www.codequ
 3. [Quiz #3](http://www.codequizzes.com/ruby/beginner/variable-scope-methods)
 4. [Quiz #4](http://www.codequizzes.com/ruby/beginner/symbols-array-methods-hashes)
 5. [Quiz #6](http://www.codequizzes.com/ruby/beginner/iteration-nested-data-structures)
+6. Make sure you go back up and look at all the questions from the "Points to Ponder" section. See if you can do most of them without looking back through the text.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
 
 * Still unsure about Enumerable?  Check out the [Enumerable Chapter of the Bastard's Book](http://ruby.bastardsbook.com/chapters/enumerables/)
 * Github Gist on [Truthiness](https://gist.github.com/jfarmer/2647362)

@@ -1,8 +1,6 @@
-# Project: Minesweeper in Javascript
-  
 As you continue to expand your knowledge of Javascript, the programs you build should keep feeling more and more natural.  In this project, you'll get a chance to build another classic browser game -- Minesweeper.  It'll take some thought to work out the different logic cases, but it's really rewarding to be able to play something like this.  
 
-## Your Task
+### Your Task
 
 Build [Minesweeper](http://en.wikipedia.org/wiki/Minesweeper_(video_game)) in the browser. Stick with a small board (9x9 with 10 mines) to start.  
 
@@ -20,11 +18,12 @@ The basic rules are that the player must flag every mine on the board without cl
 7. Play!
 8. Push your solution to Github and include it below.
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/minesweeper-js) | [View in browser](https://couchoftomato.github.io/minesweeper-js/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Minesweeper/index.html)
 * [Mazin Power's solution](https://github.com/muzfuz/minesweeper_js)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/minesweeper/index.html "Minesweeper")
@@ -41,8 +40,9 @@ The basic rules are that the player must flag every mine on the board without cl
 * [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/minesweeper) | [View in browser](https://cdn.rawgit.com/laniywh/the-odin-project/master/js/minesweeper/index.html)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/minesweeper) | [View in browser](https://sophialwu.github.io/minesweeper/)
 * [Daunenok's solution](https://github.com/daunenok/minesweeper) | [View in browser](https://daunenok.github.io/minesweeper/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Minesweeper) | [View in browser](https://ncud4bloc.github.io/Minesweeper/HTML/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

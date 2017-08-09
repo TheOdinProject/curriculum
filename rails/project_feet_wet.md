@@ -1,9 +1,6 @@
-# Project: Getting Your Feet Wet With Rails
-<!-- *Estimated Time: 3-4 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Installations and Blogger
+### Warmup: Installations and Blogger
 
 To do this course, you've got to have Rails and several other technologies [properly installed on your computer](/web-development-101/installations).  That will be the first task if you haven't already.
 
@@ -18,7 +15,7 @@ Next comes the [Jumpstart Lab Blogger Tutorial](http://tutorials.jumpstartlab.co
 2. If you haven't already, do the [Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html), and chapter 1 of [the Rails Tutorial](https://www.railstutorial.org/book/beginning).
 3. If you hadn't done either of these, you should go back to the [Web Development 101](/web-development-101) course and at least do the [Web Development Frameworks section](/web-development-101/#section-web-development-frameworks).
 
-## Project: Starting The RoR Tutorial
+### Project: Starting The RoR Tutorial
 
 We will be using the Ruby on Rails Tutorial by Michael Hartl throughout this course.  It is a complete, step-by-step walkthrough of building and testing a Twitter-like microblogging application.  It covers a lot of material but so does this course, so we'll be spacing out the chapters along the way to go with the appropriate lesson material.
 
@@ -28,7 +25,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 
 ### Your Task
 
-1. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/beginning#cha-beginning) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over github because bitbucket has free private repos. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.  If you feel a little lost, it might not hurt to go back and re-read chapter 1.
+1. Read and follow along with [Chapter 2 of The Rails Tutorial](https://www.railstutorial.org/book/toy_app) by Michael Hartl, where you will create a very basic Ruby on Rails application. Michael takes steps to standardize the development process by partnering with [Cloud 9](https://c9.io), but if you've done the installations listed above you should be good to go on your own machine. Michael also favors [bitbucket](https://bitbucket.org/) over github because bitbucket has free private repos. If you choose to use bitbucket keep in mind that your solution will not be viewable unless you make the repository public.  If you feel a little lost, it might not hurt to go back and re-read chapter 1.
 
 ### Student Solutions
 
@@ -37,6 +34,8 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
 * Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/toy_app)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/toy_app)
 * holdercp's solution [source](https://github.com/holdercp/toy-app-hartl) | [live](https://pacific-oasis-91346.herokuapp.com/users/1)
 * [mindovermiles262's solution](https://github.com/mindovermiles262/toy_app)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/toy_app) | [heroku](https://guarded-forest-30130.herokuapp.com/)
@@ -104,8 +103,9 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Jerry Gao's solution](https://github.com/blackwright/hartl_rails/tree/master/toy_app)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/toy-app)
 * [Niño Mollaneda's solution](https://github.com/ninoM/toy_app)
+* [Jonathan Marks's solution](https://github.com/johnjmarks4/toy_app)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-toy-app)
 
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

@@ -1,9 +1,6 @@
-# Final Project: Chess
-<!-- *Estimated Time: 12-18 hours* -->
-
 *Don't forget to use Git to save your projects!*
 
-## You've come a long way.  Now it's time to prove how much you've learned.  
+### You've come a long way.  Now it's time to prove how much you've learned.  
 
 Chess is a classic game that appears very complicated at first but can be broken down into logical steps that make it a great Ruby capstone project.  If you've never played, be sure to read up on the rules (see the [Wikipedia Page](http://en.wikipedia.org/wiki/Chess)) first.
 
@@ -23,11 +20,12 @@ This is a great project to have as a part of your portfolio going forward becaus
 4. Have fun!  Check out the [unicode characters](http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode) for a little spice for your gameboard.
 5. (Optional extension) Build a very simple AI computer player (perhaps who does a random legal move)
 
-## Student Solutions
+### Student Solutions
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [adsy430's solution](https://github.com/adampal/ruby_chess)
 * [holdercp's solution](https://github.com/holdercp/chess)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-chess)
 * [jfonz412's solution](https://github.com/jfonz412/chess)
@@ -73,9 +71,10 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Braydon Pacheco's solution](https://github.com/pacheeko/chess)
 * [John Connor's solution](https://github.com/jacgitcz/chessfinal)
 * [Kyle Thomson's solution](https://github.com/idynkydnk/chess)
+* [Jonathan Marks's solution](https://github.com/johnjmarks4/Chess)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-chess)
 
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

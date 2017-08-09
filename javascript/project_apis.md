@@ -1,8 +1,6 @@
-# Project: Putting Google Maps Onto Your Site with Javascript
-
 In this simple project, you'll interact with one of the most ubiquitous APIs out there: Google Maps.  It has TONS of really cool functionality (you can basically make a map that does anything you want) but here we'll just get some more experience with placing an API object on a page.  You'll get some practice with reading API documentation, because we won't tell you how to do what you need to do here.
 
-## Your Task
+### Your Task
 
 Create a simple site that has just a Google map on it and a form where the user can enter a latitude and longitude and a message.  When the form is submitted, a marker is placed on the map in that location.  Clicking the marker should bring up the message that was entered (you don't need to create this functionality yourself -- if you set up the marker properly then Maps will do it for you).
 
@@ -15,7 +13,7 @@ Play around with the other options the Maps API gives you -- you can customize a
 2. Build it!
 3. Push your solution to Github and submit it below.
 
-## Student Solutions
+### Student Solutions
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
@@ -32,8 +30,9 @@ Play around with the other options the Maps API gives you -- you can customize a
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/js-google-maps)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/google-maps-project) | [View in browser](https://sophialwu.github.io/google-maps-project/)
 * [Daunenok's solution](https://github.com/daunenok/google-map) | [View in browser](https://daunenok.github.io/google-map/)
+* [Axel's solution](https://github.com/afuh/iss) | [View in browser](http://subsequent-distance.surge.sh/)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

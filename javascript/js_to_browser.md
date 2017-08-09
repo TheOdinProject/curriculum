@@ -1,14 +1,12 @@
-# Loading Javascript in the Browser
-
 A *very* brief look back into the idea that browser loading matters (maybe).
 
-## Points to Ponder
+### Points to Ponder
 
 * Why is it important which order you load scripts?
 * What does it mean if something "blocks the browser"?
 * How can you use Asynchronous loading to reduce user wait times?
 
-## Your Assignment
+### Your Assignment
 
 1. Read this [SO post on non-blocking Javascript in modern browsers](http://stackoverflow.com/questions/8197072/non-blocking-javascript-and-css-in-modern-browsers-is-it-still-needed)
 

@@ -1,11 +1,8 @@
-# Projects: Active Record Basics
-<!-- *Estimated Time: 6-10 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
 In this project, you'll get to spend some quality time with models.  The tutorial will give you a chance to apply some of what you've learned in a structured environment and then the additional project will give you the chance to do it on your own.
 
-## Warmup: Thinking Data First
+### Warmup: Thinking Data First
 
 The first step to building a good data model is usually not on the computer.  You'll want to take a minute and think through what you're going to need.  You may not really know everything when you first start, but mapping out an approach path is crucial to avoiding costly mistakes later.
 
@@ -56,16 +53,16 @@ Remember, if you feel like you will be hard coding data multiple times, it's pro
 3. You want to build a virtual pinboard, so you'll have users on your platform who can create "pins".  Each pin will contain the URL to an image on the web.  Users can comment on pins (but can't comment on comments).
 4. You want to build a message board like [Hacker News](http://news.ycombinator.com).  Users can post links.  Other users can comment on these submissions or comment on the comments.  How would you make sure a comment knows where in the heirarchy it lives?
 
-## Project 1: Ruby on Rails Tutorial
+### Project 1: Ruby on Rails Tutorial
 
 This chapter of the tutorial will give you a chance to start working with the database and models.  It will guide you through setting up your first database migrations, making sure your user inputs are properly validated, and how to add a secure password to your User model.
 
-## Your Task
+### Your Task
 
 1. Do the [Ruby on Rails Tutorial chapter 6](https://www.railstutorial.org/book/modeling_users), "Modeling Users".
 
 
-## Project 2: Micro-Reddit
+### Project 2: Micro-Reddit
 
 Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of it called `micro-reddit`.  In this project, you'll build the data structures necessary to support link submissions and commenting.  We won't build a front end for it because we don't need to... you can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
 
@@ -118,6 +115,10 @@ If any of those don't work, double check your associations.  Sometimes the error
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/micro_reddit)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/micro-reddit)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/micro-reddit)
+* [holdercp's solution](https://github.com/holdercp/micro-reddit)
 * [jfonz412's solution](https://github.com/jfonz412/micro-reddit)
 * [nmac's solution](https://github.com/nmacawile/micro-reddit)
 * [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/micro-reddit)
@@ -183,9 +184,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Niño Mollaneda's solution](https://github.com/ninoM/micro-reddit)
 * [Tom Westerhout's solution](https://github.com/TomWesterhout/micro-reddit)
 
-
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

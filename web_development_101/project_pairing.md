@@ -1,6 +1,3 @@
-# Project: Paired Pomodoro Project
-<!-- *Estimated Time: 4-8 hrs* -->
-
 Now you know what pair programming is and how to set up your computer for it. Hopefully you've found yourself somone to pair with because we are about to build something that will be much easier with two heads.
 
 *If you are unable to find someone to pair with, or don't wish to pair program, don't worry. Just make sure you are comfortable with the concepts in the last two lessons, mark this complete, and go on to the next section.*
@@ -9,7 +6,7 @@ Now you know what pair programming is and how to set up your computer for it. Ho
 
 We are going to make a Pomodoro clock similar to [this](http://romantic-trouble.surge.sh/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
 
-## Before Starting
+### Before Starting
 
 Some things to keep in mind for when you start building:
 
@@ -19,12 +16,15 @@ Some things to keep in mind for when you start building:
 
 Enough talk! Lets build!
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!*
 
 Add your solution below this line!
-
+* [GuyInALabCoat's Solution](https://github.com/GuyInALabCoat/Pomodoro_clock) | [View in Browser](https://guyinalabcoat.github.io/Pomodoro_clock/)
+* [Justinckim3's Solution](https://github.com/justinckim3/pomodoro) | [View in Browser](https://justinckim3.github.io/pomodoro/)
+* [Kasey Z.'s Solution](https://github.com/kasey-z/Pomodoro-Clock/) | [View in Browser](https://kasey-z.github.io/Pomodoro-Clock/)
+* [junkdeck's Solution](https://github.com/junkdeck/pomodoro) | [View in Browser](https://junkdeck.github.io/pomodoro/)
 * [Demo318 & rratliff's Solution](https://github.com/Demo318/pomodoro-clock) | [View in Browser](https://demo318.github.io/pomodoro-clock/)
 * [SadieD's Solution](https://github.com/SadieD/Pomodoro) | [View in Browser](https://sadied.github.io/Pomodoro/)
 * [Ryan Ford's Solution](https://github.com/ryanford-frontend/pomodoro-clock) | [View in Browser](https://ryanford-frontend.github.io/pomodoro-clock/)
@@ -40,7 +40,10 @@ Add your solution below this line!
 * [Ryan Steel's Solution](https://github.com/rsteel1/pomodoro-timer) | [View in Browser](https://rsteel1.github.io/pomodoro-timer/)
 * [Cody Buffaloe & Elisery's Solution](https://github.com/CodyLBuffaloe/pomodoro_clock_pp) | [View in Browser](https://htmlpreview.github.io/?https://github.com/CodyLBuffaloe/pomodoro_clock_pp/blob/master/pomodoro_clock.html)
 * [Luinu's Solution](https://github.com/luinu/pomodoro) | [View in Browser](https://luinu.github.io/pomodoro/)
+* [Harrison's Solution](https://github.com/okeharlyon/Promodo-Clock)
+* [Anistor86 & Isashimitsui's Solution](https://github.com/anistor86/pomodoroclock) | [View in Browser](https://anistor86.github.io/pomodoroclock/)
+* [coryparham24's Solution](https://github.com/coryparham24/pomodoro-clock) | [View in Browser](https://cdn.rawgit.com/coryparham24/pomodoro-clock/7b1e6a88/index.html)
 
-## Next Steps
+### Next Steps
 
 Congratulations! You now know how to pair program and have created a real project with that partner. Maybe you got along great, maybe you didn't. If you didn't go back to the [Looking For Pair](https://gitter.im/TheOdinProject/LookingForPairs) room and see if you can find another person to pair with. Either way, we encourage you to keep on pairing for the rest of the lessons and projects in the Odin Project. You will learn more, and produce better code. Not to mention, you will be developing experience in a skill that many employers look for!

@@ -1,12 +1,8 @@
-# Project: Design Teardown (with Smashing Magazine)
-
 In this simple project, you'll be breaking apart the website for a popular design magazine with which you're probably familiar by now -- [Smashing Magazine](http://smashingmagazine.com).  The goal for this exercise is to start training yourself to think in terms of visual hierarchy, typography and design principles.
 
 Your job is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.  For inspiration, check out [this image from vanseodesign.com](http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right.  Your final product will look much like the site on the right.
 
 This is also an opportunity to get better at positioning `<div>` elements without worrying too much about what's inside them, which will serve you well later.
-
-## Steps to Victory
 
 ### Playing with Visual Hierarchy
 
@@ -31,6 +27,7 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [Jeff's Solution](https://github.com/jmbothe/smashing-homepage) | [View in Browser](https://jmbothe.github.io/smashing-homepage/)
 * [Austin's solution](https://github.com/CouchofTomato/smashing_design_teardown) | [View in Browser](https://couchoftomato.github.io/smashing_design_teardown/)
 * [Andrew's solution](https://github.com/andrewr224/design_teardown) | [View in Browser](https://andrewr224.github.io/design_teardown/)
 * [Axel's solution](https://github.com/afuh/smashing-grayscale) | [View in Browser](https://afuh.github.io/smashing-grayscale/)
@@ -46,9 +43,12 @@ This is also an opportunity to get better at positioning `<div>` elements withou
 * [Norman's solution](https://github.com/slowmanchan/smashing-clone) | [View in Browser](https://htmlpreview.github.io/?https://github.com/slowmanchan/smashing-clone/blob/master/index.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-design-teardown) | [View in Browser](https://davidchappy.github.io/html-design-teardown/)
 * [Daunenok's solution](https://github.com/daunenok/smashing) | [View in Browser](https://daunenok.github.io/smashing/)
-* [Neil Cudden's solution](https://github.com/ncud4bloc/Design_Teardown)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Design_Teardown) | [View in Browser](https://ncud4bloc.github.io/Design_Teardown/HTML/index.html)
+* [Beth Rathbone's solution](https://github.com/bethrath/visual-hierarchy) | [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/visual-hierarchy/blob/master/index.html)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/design-teardown) | [View in browser](https://adoniasdantas.github.io/design-teardown/)
+* [huseins's solution](https://github.com/hosghf/Design-html-css) | [View in browser](http://htmlpreview.github.io/?https://github.com/hosghf/Design-html-css/blob/master/index.html)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
