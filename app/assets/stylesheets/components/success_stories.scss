@@ -19,10 +19,7 @@
     }
 
     .student-name {
-      // margin-bottom: 10px;
-
       @media(max-width: 600px) {
-      // @include media-breakpoint-down(xs) {
         text-align: center;
         
         .student-title {
@@ -54,7 +51,6 @@
     .photo {
       flex-basis: 100px;
       text-align: left;
-      // padding-top: 16px;
       margin-right: 5px;
 
       @media(max-width: 480px) {
