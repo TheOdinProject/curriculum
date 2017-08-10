@@ -13,12 +13,12 @@
   }
 
   .stats-card-content {
-    justify-content: center;
+    justify-content: flex-start;
 
     &__stats {
       padding: 24px;
 
-      @include media-breakpoint-down(xs) {
+      @include media-breakpoint-down(md) {
         text-align: center;
       }
 
