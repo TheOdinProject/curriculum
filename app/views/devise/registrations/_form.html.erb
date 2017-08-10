@@ -6,7 +6,7 @@
       <%= form.text_field :username, required: true, placeholder: 'Username', class: 'auth-form__element' %>
     </div>
     <% if resource.errors[:username].present? %>
-      <div class="auth-form__error-message push-down"> <%=resource.errors[:username].first %></div>
+      <div class="auth-form__error-message push-down user_username"> <%=resource.errors[:username].first %></div>
     <% end %>
 
     <div class="auth-form__section">
@@ -14,7 +14,7 @@
       <%= form.email_field :email, required: true, placeholder: 'Email', class: 'auth-form__element login email'%>
     </div>
     <% if resource.errors[:email].present? %>
-      <div class="auth-form__error-message push-down"> <%=resource.errors[:email].first %></div>
+      <div class="auth-form__error-message push-down user_email"> <%=resource.errors[:email].first %></div>
     <% end %>
 
     <div class="auth-form__section">
@@ -22,7 +22,7 @@
       <%= form.password_field :password, required: true, placeholder: 'Password', class: 'auth-form__element login password' %>
     </div>
     <% if resource.errors[:password].present? %>
-      <div class="auth-form__error-message push-down"> <%=resource.errors[:password].first %></div>
+      <div class="auth-form__error-message push-down user_password"> <%=resource.errors[:password].first %></div>
     <% end %>
 
     <div class="auth-form__section">
@@ -30,7 +30,7 @@
       <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'auth-form__element login password' %>
     </div>
     <% if resource.errors[:password_confirmation].present? %>
-      <div class="auth-form__error-message push-down"> <%=resource.errors[:password_confirmation].first %></div>
+      <div class="auth-form__error-message push-down user_password_confirmation"> <%=resource.errors[:password_confirmation].first %></div>
     <% end %>
 
     <div class="auth-form__section">
