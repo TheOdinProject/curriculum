@@ -48,7 +48,6 @@ def users
     user = User.new(user_details)
     user.password = "password"
     user.password_confirmation = "password"
-    user.skip_confirmation!
     user.save!
     user
   end

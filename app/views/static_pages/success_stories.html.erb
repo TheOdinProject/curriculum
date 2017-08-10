@@ -13,11 +13,15 @@
                 <div class="col-xs-12 photo">
                   <%= image_tag "success_stories/#{story.avatar_path_name}", class: "img-fluid" %>
                 </div>
-                <div class="col-xs-12 success-content">
+                <div class="col-xs-12 info">
                   <p class="student-name">
                     <span class="bold"><%= link_to story.student_name, story.social_media_link, class: 'accent' %>,</span>
-                    <span class="grey"><%= story.job_title %></span>
+                    <span class="grey student-title"><%= story.job_title %></span>
                   </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 success-content">
                   <p class="grey"><%= story.story_content %></p>
                 </div>
               </div>
