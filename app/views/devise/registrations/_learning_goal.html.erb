@@ -11,7 +11,7 @@
 
     <%= form_for @user, html: { class: "settings-view--hidden" }, remote: true do |form| %>
       <%= form.label :learning_goal, class: 'settings-view__label' %>
-      <%= form.text_field :learning_goal, class: 'push-down settings-view__input' %>
+      <%= form.text_field :learning_goal, class: 'push-down settings-view__input', maxlength: 100, size: 140 %>
       <%= form.submit "Update", class: "settings-view__button" %>
     <% end %>
   </div>

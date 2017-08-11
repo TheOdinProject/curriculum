@@ -25,29 +25,6 @@
   }
 ] %>
 
-<% timelines = [
-  {
-    year: '2001',
-    event: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
-  },
-  {
-    year: '2005',
-    event: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
-  },
-  {
-    year: '2010',
-    event: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
-  },
-  {
-    year: '2011',
-    event: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
-  },
-  {
-    year: '2016',
-    event: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.'
-  }
-] %>
-
 <%= title('About') %>
 
 <div class="StaticPagesController">
@@ -58,7 +35,7 @@
       <%= render 'static_pages/about/beliefs', beliefs: beliefs %>
     </div>
 
-    <%= render 'static_pages/about/story', timelines: timelines %>
+    <%= render 'static_pages/about/overview' %>
 
     <div class="container">
       <%= render 'static_pages/about/contact' %>

@@ -12,15 +12,33 @@
       }
     }
 
-    .success-content {
-      flex: 1;
-      @media(max-width: 480px) {
-        text-align: center;
-      }
+    .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .student-name {
-      margin-bottom: 10px;
+      @media(max-width: 600px) {
+        text-align: center;
+        
+        .student-title {
+          display: block;
+        }
+      }
+     
+    }
+
+    .success-content {
+      flex: 1;
+
+      @media(max-width: 480px) {
+        text-align: center;
+      }
+
+      p {
+        margin-top: 1em;
+      }
     }
 
     .completed-label {
@@ -32,9 +50,12 @@
 
     .photo {
       flex-basis: 100px;
-      text-align: center;
-      padding-top: 16px;
+      text-align: left;
       margin-right: 5px;
+
+      @media(max-width: 480px) {
+        text-align: center;
+      }
 
       img {
         width: 75px;
