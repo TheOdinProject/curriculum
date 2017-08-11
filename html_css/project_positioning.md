@@ -20,6 +20,7 @@ In this project, your assignment is to copy [this article from the New York Time
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [yilmazgunalp's Solution](https://github.com/yilmazgunalp/nyt) | [View in Browser](https://yilmazgunalp.github.io/nyt/)
 * [Jeff's Solution](https://github.com/jmbothe/nyt-article) | [View in Browser](https://jmbothe.github.io/nyt-article/)
 * [Andrew's solution](https://github.com/andrewr224/ny_times) | [View in browser](https://andrewr224.github.io/ny_times/)
 * [Axel’s solution](https://github.com/afuh/new-york-times) | [View in browser](https://afuh.github.io/new-york-times/)
