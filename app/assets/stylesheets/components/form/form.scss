@@ -1,4 +1,4 @@
-.auth-form {
+.form {
 
   &__section {
     margin-bottom: 20px;
@@ -62,7 +62,7 @@
   &__check-box {
     display: none;
 
-    &:checked + .auth-form__check-box-label:before {
+    &:checked + .form__check-box-label:before {
       content: '\f00c';
       color: #4a4a4a;
       font-size: 1rem;
