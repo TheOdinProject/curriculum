@@ -6,21 +6,27 @@ document.addEventListener('turbolinks:load', function() {
   var userDropdown = document.querySelector('.dropdown')
 
   // Clears Logo text in modal
-  navToggle.addEventListener('click', function() {
-    logoText.classList.toggle('expanded')
-  })
-
+  if(navToggle && logoText) {
+    navToggle.addEventListener('click', function() {
+      logoText.classList.toggle('expanded')
+    })
+  }
+  
   // Restores Logo Text on modal close
-  modalClose.addEventListener('click', function() {
-    logoText.classList.toggle('expanded');
-  })
-
+  if(modalClose) {
+    modalClose.addEventListener('click', function() {
+      logoText.classList.toggle('expanded');
+    })
+  }
+  
   // Open User Dropdown on Hover, hide on mouseout
-  userDropdown.addEventListener('mouseover', function() {
-    userDropdown.classList.add('show')
-  })
-  userDropdown.addEventListener('mouseout', function() {
-    userDropdown.classList.remove('show')
-  })
+  if(userDropdown) {
+    userDropdown.addEventListener('mouseover', function() {
+      userDropdown.classList.add('show')
+    })
+    userDropdown.addEventListener('mouseout', function() {
+      userDropdown.classList.remove('show')
+    })
+  }
 
 })
