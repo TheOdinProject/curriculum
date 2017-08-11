@@ -23,18 +23,34 @@ var constraints = {
       attribute: "user[password]",
       message: "^The passwords do not match"
     }
-  }
+  },
+  "user[current_password]": {
+    presence: true,
+    length: {
+      minimum: 6,
+      maximum: 128
+    }
+  },
+  "user[learning_goal]": {
+    length: {
+      minimum: 4,
+      maximum: 100
+    }
+  },
 };
 
 document.addEventListener('turbolinks:load', function() {
-  var form = document.querySelector('.form');
-  if (!form) return;
-  var inputs = document.querySelectorAll('.form__element');
+  var forms = document.querySelectorAll('.form');
+  if (!forms) return;
 
-  inputs.forEach(function(item) {
-    item.addEventListener("change", function(ev) {
-      var errors = validate(form, constraints, { fullMessages: false }) || {};
-      showErrorsForInput(this, errors[this.name]);
+  forms.forEach(function(form) {
+    var inputs = form.querySelectorAll('.form__element');
+    
+    inputs.forEach(function(item) {
+      item.addEventListener("change", function(ev) {
+        var errors = validate(form, constraints, { fullMessages: false }) || {};
+        showErrorsForInput(this, errors[this.name]);
+      });
     });
   });
 });

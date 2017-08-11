@@ -3,7 +3,7 @@
 
     <div class="form__section">
       <span class="fa fa-user form__icon"></span>
-      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element' %>
+      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element form__element--with-icon' %>
     </div>
     <% if resource.errors[:username].present? %>
       <div class="form__error-message push-down user_username"> <%=resource.errors[:username].first %></div>
@@ -11,7 +11,7 @@
 
     <div class="form__section">
       <span class="fa fa-envelope form__icon"></span>
-      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element login email'%>
+      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element form__element--with-icon '%>
     </div>
     <% if resource.errors[:email].present? %>
       <div class="form__error-message push-down user_email"> <%=resource.errors[:email].first %></div>
@@ -19,7 +19,7 @@
 
     <div class="form__section">
       <span class="fa fa-lock form__icon"></span>
-      <%= form.password_field :password, required: true, placeholder: 'Password', class: 'form__element login password' %>
+      <%= form.password_field :password, required: true, placeholder: 'Password', class: 'form__element form__element--with-icon' %>
     </div>
     <% if resource.errors[:password].present? %>
       <div class="form__error-message push-down user_password"> <%=resource.errors[:password].first %></div>
@@ -27,7 +27,7 @@
 
     <div class="form__section">
       <span class="fa fa-lock form__icon"></span>
-      <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'form__element login password' %>
+      <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'form__element form__element--with-icon' %>
     </div>
     <% if resource.errors[:password_confirmation].present? %>
       <div class="form__error-message push-down user_password_confirmation"> <%=resource.errors[:password_confirmation].first %></div>

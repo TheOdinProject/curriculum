@@ -1,11 +1,9 @@
 .settings-section {
+  margin-top: 30px;
+  margin-bottom: 70px;
 
   &__heading {
     font-weight: bold;
-  }
-
-  .card-main {
-    margin-top: 30px;
-    margin-bottom: 70px;
+    color: $grey;
   }
 }

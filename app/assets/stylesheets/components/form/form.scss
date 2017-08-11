@@ -11,11 +11,37 @@
 
   &__element {
     width: 100%;
-    padding: 1rem 0.5rem 1rem 3.75rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
     border: none;
     letter-spacing: 0.2px;
     color: $text-primary;
     @include input-placeholder($grey);
+
+    &--with-icon {
+      padding: 1rem 0.5rem 1rem 3.75rem;
+    }
+
+    &--non-editable {
+      color: $grey;
+      padding: 0rem 1rem 0.5rem 0rem;
+      @include word-wrap();
+
+      @include media-breakpoint-down(sm) {
+        text-align: left;
+      }
+    }
+  }
+
+  &__label {
+    color: $text-primary;
+    font-size: 1.125em;
+    font-weight: bold;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
   }
 
   &__icon {
