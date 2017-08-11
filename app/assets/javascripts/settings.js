@@ -1,10 +1,10 @@
 document.addEventListener('turbolinks:load', function(element) {
-  Array.from(document.querySelectorAll('.settings-card-content')).forEach(function(element) {
+  Array.from(document.querySelectorAll('.settings-card')).forEach(function(element) {
 
-    var toggler = element.querySelector('.settings-card-content__edit-button--open');
+    var toggler = element.querySelector('.settings-card__edit-button--open');
     var settingsViewForm = element.querySelector('.settings-view--hidden')
     var settingsView = element.querySelector('.settings-view')
-    
+
     toggler.addEventListener('click', function() {
       switchViews();
     });
@@ -23,8 +23,8 @@ document.addEventListener('turbolinks:load', function(element) {
       settingsViewForm.classList.toggle('settings-view--hidden');
       settingsViewForm.classList.toggle('settings-view');
 
-      toggler.classList.toggle('settings-card-content__edit-button--open');
-      toggler.classList.toggle('settings-card-content__edit-button--close');
+      toggler.classList.toggle('settings-card__edit-button--open');
+      toggler.classList.toggle('settings-card__edit-button--close');
     }
   });
 });

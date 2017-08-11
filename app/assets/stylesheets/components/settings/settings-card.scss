@@ -1,4 +1,4 @@
-.settings-card-content {
+.settings-card {
   display: flex;
 
   @include media-breakpoint-down(sm) {
@@ -13,7 +13,6 @@
       width:100px;
       height:100px;
       margin: 0 auto;
-      background-color:#000;
       border-radius:50%;
       overflow: hidden;
     }
@@ -25,16 +24,20 @@
   }
 
   &__edit-button {
+    color: $grey;
+    font-size: 1.125em;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    &:hover {
+      color: $black;
+    }
 
     &--open {
       &:before {
         content: "\f044";
         font-family: FontAwesome;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        color: $grey;
-        font-size: 1.125em;
       }
     }
 
@@ -42,11 +45,6 @@
       &:before {
         content: "\f00d";
         font-family: FontAwesome;
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        color: $grey;
-        font-size: 1.125em;
       }
     }
   }
