@@ -1182,7 +1182,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Alex's Solution (Easy)](https://github.com/alexcorremans/google-homepage) | [View in browser](https://alexcorremans.github.io/google-homepage/)
 * [ShimmerJ's Solution (Easy)](https://github.com/ShimmerJ/google-homepage.git)
 * [Onur's Solution (Easy)](https://github.com/deksudo/google_homepage) | [View in browser](https://deksudo.github.io/google_homepage/)
-* [Joey Robertson's Solution (Easy)](https://joeyrobertson.github.io/google_homepage/index.html) | [View in browser](https://joeyrobertson.github.io/google_homepage/index.html)
+* [Joey Robertson's Solution (Easy)](https://github.com/JoeyRobertson/google_homepage) | [View in browser](https://joeyrobertson.github.io/google_homepage/index.html)
 
 ### Additional Resources
 
