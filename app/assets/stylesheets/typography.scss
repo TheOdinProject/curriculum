@@ -11,7 +11,8 @@ h1 {
 
   @include media-breakpoint-down(lg) {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 2rem auto;
+
   }
 }
 
