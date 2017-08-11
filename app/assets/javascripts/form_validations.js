@@ -27,11 +27,11 @@ var constraints = {
 };
 
 document.addEventListener('turbolinks:load', function() {
-  var form = document.querySelector('form.new_user');
+  var form = document.querySelector('.form');
   if (!form) return;
-  var inputs = document.querySelectorAll('.auth-form__element');
+  var inputs = document.querySelectorAll('.form__element');
 
-  inputs.forEach(function(item) {    
+  inputs.forEach(function(item) {
     item.addEventListener("change", function(ev) {
       var errors = validate(form, constraints, { fullMessages: false }) || {};
       showErrorsForInput(this, errors[this.name]);
@@ -50,7 +50,7 @@ function showErrorsForInput(input, errors) {
     errorDiv.parentNode.removeChild(errorDiv);
     return;
   }
-  
+
   errorWrapper.classList.add('field_with_errors');
   errorDiv.innerHTML = errors;
 }
@@ -76,7 +76,7 @@ function findErrorDiv(input) {
 
 function createErrorDiv(input, inputParent) {
   var divName = document.createElement('div');
-  divName.classList.add('auth-form__error-message', 'push-down', input.id);
+  divName.classList.add('form__error-message', 'push-down', input.id);
   inputParent.parentNode.insertBefore(divName, inputParent.nextSibling);
   return divName;
 }

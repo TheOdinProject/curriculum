@@ -1,49 +1,49 @@
 <div class="card-main">
-  <%= form_for(resource, as: resource_name, url: registration_path(resource_name), class: 'auth-form') do |form| %>
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'form' }) do |form| %>
 
-    <div class="auth-form__section">
-      <span class="fa fa-user auth-form__icon"></span>
-      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'auth-form__element' %>
+    <div class="form__section">
+      <span class="fa fa-user form__icon"></span>
+      <%= form.text_field :username, required: true, placeholder: 'Username', class: 'form__element' %>
     </div>
     <% if resource.errors[:username].present? %>
-      <div class="auth-form__error-message push-down user_username"> <%=resource.errors[:username].first %></div>
+      <div class="form__error-message push-down user_username"> <%=resource.errors[:username].first %></div>
     <% end %>
 
-    <div class="auth-form__section">
-      <span class="fa fa-envelope auth-form__icon"></span>
-      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'auth-form__element login email'%>
+    <div class="form__section">
+      <span class="fa fa-envelope form__icon"></span>
+      <%= form.email_field :email, required: true, placeholder: 'Email', class: 'form__element login email'%>
     </div>
     <% if resource.errors[:email].present? %>
-      <div class="auth-form__error-message push-down user_email"> <%=resource.errors[:email].first %></div>
+      <div class="form__error-message push-down user_email"> <%=resource.errors[:email].first %></div>
     <% end %>
 
-    <div class="auth-form__section">
-      <span class="fa fa-lock auth-form__icon"></span>
-      <%= form.password_field :password, required: true, placeholder: 'Password', class: 'auth-form__element login password' %>
+    <div class="form__section">
+      <span class="fa fa-lock form__icon"></span>
+      <%= form.password_field :password, required: true, placeholder: 'Password', class: 'form__element login password' %>
     </div>
     <% if resource.errors[:password].present? %>
-      <div class="auth-form__error-message push-down user_password"> <%=resource.errors[:password].first %></div>
+      <div class="form__error-message push-down user_password"> <%=resource.errors[:password].first %></div>
     <% end %>
 
-    <div class="auth-form__section">
-      <span class="fa fa-lock auth-form__icon"></span>
-      <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'auth-form__element login password' %>
+    <div class="form__section">
+      <span class="fa fa-lock form__icon"></span>
+      <%= form.password_field :password_confirmation, required: true, placeholder: 'Password Confirmation', class: 'form__element login password' %>
     </div>
     <% if resource.errors[:password_confirmation].present? %>
-      <div class="auth-form__error-message push-down user_password_confirmation"> <%=resource.errors[:password_confirmation].first %></div>
+      <div class="form__error-message push-down user_password_confirmation"> <%=resource.errors[:password_confirmation].first %></div>
     <% end %>
 
-    <div class="auth-form__section">
-      <%= link_to 'By signing up, you agree to our terms of use.', terms_of_use_path, class: 'auth-form__link' %>
+    <div class="form__section">
+      <%= link_to 'By signing up, you agree to our terms of use.', terms_of_use_path, class: 'form__link' %>
     </div>
 
-    <div class="auth-form__button-section">
+    <div class="form__button-section">
       <%= form.submit 'Sign up', class: 'button button--primary full-width' %>
     </div>
   <% end %>
 
-  <div class="auth-form-divider text-center">
-    <span class="auth-form-divider__text">OR SIGN UP WITH</span>
+  <div class="form-divider text-center">
+    <span class="form-divider__text">OR SIGN UP WITH</span>
   </div>
 
   <%= render 'shared/omniauth_buttons' %>

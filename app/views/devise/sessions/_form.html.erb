@@ -1,31 +1,31 @@
 <div class="card-main">
-  <%= form_for(resource, as: resource_name, url: session_path(resource_name), class: "auth-form") do |form| %>
+  <%= form_for(resource, as: resource_name, url: session_path(resource_name), html: { class: "form" }) do |form| %>
 
-    <div class="auth-form__section">
-      <span class="fa fa-envelope auth-form__icon"></span>
-      <%= form.email_field :email, required: false, autofocus: true, placeholder: "Email Address", class: 'auth-form__element' %>
+    <div class="form__section">
+      <span class="fa fa-envelope form__icon"></span>
+      <%= form.email_field :email, required: false, autofocus: true, placeholder: "Email Address", class: 'form__element' %>
     </div>
 
-    <div class="auth-form__section">
-      <span class="fa fa-lock auth-form__icon"></span>
-      <%= form.password_field :password, required: false, placeholder:  "Password", class: 'auth-form__element' %>
+    <div class="form__section">
+      <span class="fa fa-lock form__icon"></span>
+      <%= form.password_field :password, required: false, placeholder:  "Password", class: 'form__element' %>
     </div>
 
 
-    <div class="auth-form__link-section">
-      <%= form.check_box :remember_me, checked: true, class: 'auth-form__check-box', id: 'remember_me' %>
-      <label for="remember_me" class="auth-form__check-box-label auth-form__link-section__item">Remember Me</label>
+    <div class="form__link-section">
+      <%= form.check_box :remember_me, checked: true, class: 'form__check-box', id: 'remember_me' %>
+      <label for="remember_me" class="form__check-box-label form__link-section__item">Remember Me</label>
 
-      <%= link_to "Forgot your password?", new_password_path( resource_name), class: "auth-form__link-section__item auth-form__link" %>
+      <%= link_to "Forgot your password?", new_password_path( resource_name), class: "form__link-section__item form__link" %>
     </div>
 
-    <div class="auth-form__button-section">
+    <div class="form__button-section">
       <%= form.submit "Login", class: "button button--primary full-width" %>
     </div>
   <% end %>
 
-  <div class="auth-form-divider text-center">
-    <span class="auth-form-divider__text">OR SIGN UP WITH</span>
+  <div class="form-divider text-center">
+    <span class="form-divider__text">OR SIGN UP WITH</span>
   </div>
 
   <div class="text-center">
