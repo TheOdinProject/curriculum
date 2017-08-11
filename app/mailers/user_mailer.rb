@@ -10,7 +10,6 @@ class UserMailer < ActionMailer::Base
     mail(
           subject: 'Getting started with The Odin Project',
           to: user.email,
-          bcc: 'erik@theodinproject.com',
           template_name: 'welcome_email',
         )
   end
