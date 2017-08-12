@@ -1,0 +1,19 @@
+.banner {
+  text-align: center;
+  margin-bottom: 4.5rem;
+
+  &__badge {
+    margin: 0 0 30px 0;
+    width: 100px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  &__progress {
+    font-size: 1.2em;
+    color: $grey;
+  }
+}

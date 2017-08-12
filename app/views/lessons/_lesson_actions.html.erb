@@ -11,9 +11,12 @@
   </div>
 
   <div class="col col-sm-6 col-md-4 next-lesson-button">
-    <%= link_to 'Next Lesson',
-        course_lesson_path(lesson.course, lesson.next_lesson, ref: 'lnav'),
-        title: "Move on to '#{lesson.next_lesson.title}'",
-        class: 'button button--secondary' %>
+    <% if lesson.next_lesson %>
+      <%= link_to 'Next Lesson',
+          course_lesson_path(lesson.course, lesson.next_lesson, ref: 'lnav'),
+          title: "Move on to '#{lesson.next_lesson.title}'",
+          class: 'button button--secondary'
+      %>
+    <% end %>
   </div>
 </div>

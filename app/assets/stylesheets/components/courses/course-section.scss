@@ -1,0 +1,16 @@
+.course-section {
+
+  &__title {
+    font-size: 1.5em;
+    letter-spacing: 0.3px;
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    margin-bottom: 30px;
+  }
+
+  &:last-child {
+    margin-bottom: 50px;
+  }
+}
