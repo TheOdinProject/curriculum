@@ -119,4 +119,4 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Kyle Thomson's solution - Hangman: [github](https://github.com/idynkydnk/portfolio_heroku) / [see it on the web](https://portfolio-heroku-kyle.herokuapp.com/hangman)
 * Jonathan Marks's solution - MasterMind: [github](https://github.com/johnjmarks4/mastermind_reloaded) / [see it on the web](https://arcane-shelf-92558.herokuapp.com/)
 * Luján Fernaud's solution [github](https://github.com/lujanfernaud/sinatra-countries-hangman) / [see it on the web](https://sinatra-countries-hangman.herokuapp.com/)
-
+* Pat's solution - Mastermind: [github](https://github.com/Pat878/Sinatra_Mastermind) / [see it on the web](https://sleepy-island-52915.herokuapp.com/)
