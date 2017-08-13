@@ -1,0 +1,32 @@
+.section-lessons {
+
+  &__item {
+    display: flex;
+    padding: 10px 0;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+
+    @include media-breakpoint-down(xs) {
+      font-size: 1.2rem;
+    }
+
+    &__link {
+      color: $primary;
+    }
+
+    &__icon {
+      font-size: 2rem;
+      color: $pale-grey;
+      padding-left: 10px;
+
+      &--completed {
+        color: $button-primary;
+      }
+
+      @include media-breakpoint-down(xs) {
+        font-size: 1.7rem;
+      }
+    }
+  }
+}

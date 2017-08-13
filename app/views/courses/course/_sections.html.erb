@@ -1,8 +1,12 @@
-<div class="sections-list">
-  <% sections.each_with_index do |section, index| %>
-    <%= render 'courses/course/section',
-      section: section,
-      course: course,
-      section_index: index + 1 %>
-  <% end %>
-</div> <!-- /.sections-list -->
+<% sections.each do |section| %>
+  <div class="card-main course-section">
+    <h3 class="course-section__title"><%= section.title %></h3>
+    <p class="course-section__description"><%= section.description %></p>
+
+    <%= render 'courses/course/lessons',
+      lessons: section.lessons,
+      course: course
+    %>
+
+  </div>
+<% end %>

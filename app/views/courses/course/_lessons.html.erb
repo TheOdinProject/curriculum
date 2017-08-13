@@ -1,9 +1,15 @@
-<div class="lessons-list">
-  <% lessons.each_with_index do |lesson, index| %>
-    <%= render 'courses/course/lesson',
-      lesson: lesson,
-      course: course,
-      section_index: section_index,
-      lesson_index: index %>
+<div class="section-lessons">
+  <% lessons.each_with_index do |lesson, lesson_index| %>
+    <div class="section-lessons__item">
+
+      <%= link_to course_lesson_path(course, lesson), class: 'section-lessons__item__link' do %>
+        <%= numbered_lesson_title(lesson, lesson_index) %>
+      <% end %>
+
+      <% if current_user %>
+          <i class="fa fa-check-circle-o section-lessons__item__icon <%= lesson_completed?(lesson) %>"></i>
+      <% end %>
+      
+    </div>
   <% end %>
-</div> <!-- /.lessons-list -->
+</div>

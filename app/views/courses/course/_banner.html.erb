@@ -1,18 +1,11 @@
-<div class="row">
-  <div class="col course-banner text-center">
-    <%= image_tag course.badge,
-        class: 'img-reponsive course-badge',
-        alt: "#{course.title.downcase} badge" %>
+<div class="banner">
+  <%= image_tag course.badge, class: 'banner__badge', alt: "#{course.title.downcase} badge" %>
+  <h1 class="banner__title"><%= course.title %></h1>
 
-    <h1 class="course-title"><%= course.title %></h1>
 
-    <% if user_signed_in? && show_completion_percent %>
-      <div class="col-md-6 course-completion">
-        <div class="lc-percent-completion">
-          <%= render 'shared/completion_percent', course: course %>
-        </div>
-      </div> <!-- /.course-completion -->
-    <% end %>
-
-  </div> <!-- /.col -->
-</div> <!-- /.row -->
+  <% if user_signed_in? && show_completion_percent %>
+    <div class="banner__progress">
+      <%= render 'shared/completion_percent', course: course %>
+    </div>
+  <% end %>
+</div>

@@ -1,7 +1,5 @@
-require 'delegate'
+class UserDecorator < ApplicationDecorator
 
-class UserDecorator < SimpleDelegator
-  
   def has_projects?
     projects.exists?
   end

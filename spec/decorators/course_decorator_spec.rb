@@ -6,13 +6,31 @@ RSpec.describe CourseDecorator do
   let(:course) {
     double(
       'Course',
-      title: 'Web Development 101'
+      title: 'Web Development 101',
+      sections: sections
     )
   }
+
+  let(:sections) { [section] }
+  let(:section) { double('Section') }
 
   describe '#badge' do
     it 'returns the correct badge for the course' do
       expect(course_decorator.badge).to eql('badge-webdev101.svg')
+    end
+  end
+
+  describe '#sections' do
+    let(:decorated_section) { double('SectionDecorator') }
+    let(:decorated_sections) { [decorated_section] }
+
+    before do
+      allow(SectionDecorator).to receive(:new).with(section).
+        and_return(decorated_section)
+    end
+
+    it 'returns decorated sections' do
+      expect(course_decorator.sections).to eql(decorated_sections)
     end
   end
 end

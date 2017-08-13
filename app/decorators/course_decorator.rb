@@ -1,9 +1,11 @@
-require 'delegate'
-
-class CourseDecorator < SimpleDelegator
+class CourseDecorator < ApplicationDecorator
 
   def badge
     course_badges.fetch(title, 'odin-logo.svg')
+  end
+
+  def sections
+    __getobj__.sections.map { |section| SectionDecorator.new(section) }
   end
 
   private

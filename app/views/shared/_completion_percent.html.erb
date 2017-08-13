@@ -1,6 +1,1 @@
-<% percent = course.percent_completed_by(current_user).to_i %>
-<% if percent == 100 %>
-  <span class="lc-finished">Course Completed!</span>
-<% else %>
-  <%= percent %>% Completed
-<% end %>
+<%= percentage_of_course_completed(course) %>
