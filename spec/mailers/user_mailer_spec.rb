@@ -44,8 +44,5 @@ RSpec.describe UserMailer, type: :mailer do
       expect(welcome_email.to).to eql(['kevin@example.com'])
     end
 
-    it 'sends to the correct bcc' do
-      expect(welcome_email.bcc).to eql(['erik@theodinproject.com'])
-    end
   end
 end
