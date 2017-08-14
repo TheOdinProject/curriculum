@@ -14,6 +14,10 @@
             <%= form.email_field :email, autofocus: true, placeholder: "Email", required: true, class: 'form__element'  %>
           </div>
 
+          <% if resource.errors[:email].present? %>
+            <div class="form__error-message push-down user_email">Email address <%=resource.errors[:email].first %></div>
+          <% end %>
+
           <%= form.submit "Send reset instructions", class: "button button--primary full-width push-down" %>
         <% end %>
       </div>
