@@ -1183,6 +1183,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [ShimmerJ's Solution (Easy)](https://github.com/ShimmerJ/google-homepage.git)
 * [Onur's Solution (Easy)](https://github.com/deksudo/google_homepage) | [View in browser](https://deksudo.github.io/google_homepage/)
 * [Joey Robertson's Solution (Easy)](https://github.com/JoeyRobertson/google_homepage) | [View in browser](https://joeyrobertson.github.io/google_homepage/index.html)
+* [Jonathan Senior's Solution (Difficult)](https://github.com/Jonosenior/google-resultspage) | [View in browser](https://jonosenior.github.io/google-resultspage/)
 
 ### Additional Resources
 
