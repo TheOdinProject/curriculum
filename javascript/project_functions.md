@@ -41,6 +41,7 @@ The basic rules are that the player must flag every mine on the board without cl
 * [Sophia Wu's solution](https://github.com/SophiaLWu/minesweeper) | [View in browser](https://sophialwu.github.io/minesweeper/)
 * [Daunenok's solution](https://github.com/daunenok/minesweeper) | [View in browser](https://daunenok.github.io/minesweeper/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Minesweeper) | [View in browser](https://ncud4bloc.github.io/Minesweeper/HTML/index.html)
+* [Pat's solution](https://github.com/Pat878/minesweeper) | [View in browser](https://pat878.github.io/minesweeper/)
 
 ### Additional Resources
 
