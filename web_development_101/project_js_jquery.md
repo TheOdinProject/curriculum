@@ -686,3 +686,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [matpintes' solution](https://github.com/matpintes/squarepad) | [View in browser](https://matpintes.github.io/squarepad/)
 * [Alex's solution](https://github.com/alexcorremans/sketch) | [View in browser](https://alexcorremans.github.io/sketch/)
 * [Afeso Franklyn's Solution](https://github.com/afeso/sketchpad) | [View in browser](https://afeso.github.io/sketchpad/)
+* [Rafael Badan's Solution](https://github.com/rafaelBadan/sketch) | [View in browser](https://rafaelbadan.github.io/sketch/)
