@@ -189,3 +189,4 @@ The next step, once you've had a chance to practice this all in the project, is 
 * See ["A visual explanation of sql joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.
 * See [this table-based visualization of SQL queries created by A.Z. (an Odin student)](https://www.icloud.com/iw/#numbers/BAJb20dRq9fmGvZz0vqBMzmeQzcJWv2uzXGF/sql)
 * Another interactive sql tutorial from [SQL bolt](http://sqlbolt.com)
+* [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.

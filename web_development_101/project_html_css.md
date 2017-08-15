@@ -1165,7 +1165,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Lee Rogers's Solution(Easy)](https://github.com/eleerogers/google-homepage) | [View in browser](https://eleerogers.github.io/google-homepage/)
 * [Tshepo Mohlamonyane's Solution(Easy)](https://github.com/blavkboy/google-homepage.git) | [View in browser](https://blavkboy.github.io/google-homepage/)
 * [Jash Vaidya's Solution(Easy)](https://https://github.com/JashVaidya/Google) | [View in browser](https://JashVaidya.github.io/Google/)
-* [Lee Munro's Solution (Easy & Difficult)](https://github.com/LJMunro1987/google-homepage) | [View in browser (Easy)](https://ljmunro1987.github.io/google-homepage/) 
+* [Lee Munro's Solution (Easy & Difficult)](https://github.com/LJMunro1987/google-homepage) | [View in browser (Easy)](https://ljmunro1987.github.io/google-homepage/)
 * [James Kamana's Solution(Difficult)](https://github.com/JayKamana/google-homepage) | [View in browser](https://jaykamana.github.io/google-homepage/)
 * [Renan Silva's Solution(Easy)](https://github.com/renantsilva/google-homepage) | [View in browser](https://renantsilva.github.io/google-homepage/)
 * [Shane Butler's Solution(Easy)](https://shaneausley.github.io/google-hompage/) | [View in browser](https://shaneausley.github.io/google-hompage/)
@@ -1179,7 +1179,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [toaster_with_wheels' Solution (Easy)](https://github.com/damianed/google-homepage) | [View in browser](https://damianed.github.io/google-homepage/)
 * [Rickey's Solution (Easy)](https://github.com/rickeyolsen/google-homepage) | [View in browser](https://rickeyolsen.github.io/google-homepage/)
 * [Justanity's Solution (Easy)](https://github.com/justanity/google-homepage) | [View in browser](https://justanity.github.io/google-homepage/)
-* [Alex's Solution (Easy)](https://github.com/alexcorremans/google-homepage) | [View in browswer](https://alexcorremans.github.io/google-homepage/)
+* [Alex's Solution (Easy)](https://github.com/alexcorremans/google-homepage) | [View in browser](https://alexcorremans.github.io/google-homepage/)
+* [ShimmerJ's Solution (Easy)](https://github.com/ShimmerJ/google-homepage.git)
+* [Onur's Solution (Easy)](https://github.com/deksudo/google_homepage) | [View in browser](https://deksudo.github.io/google_homepage/)
+* [Joey Robertson's Solution (Easy)](https://github.com/JoeyRobertson/google_homepage) | [View in browser](https://joeyrobertson.github.io/google_homepage/index.html)
+* [Jonathan Senior's Solution (Difficult)](https://github.com/Jonosenior/google-resultspage) | [View in browser](https://jonosenior.github.io/google-resultspage/)
 
 ### Additional Resources
 

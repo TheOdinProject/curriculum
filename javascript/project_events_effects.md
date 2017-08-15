@@ -41,6 +41,7 @@ If you think about what's required to make a game like this work, it's all well 
 
 * Add your solution below this line!
 * [jlo4's solution](https://github.com/jlo4/snake-game) | [View in browser](https://rawgit.com/jlo4/snake-game/master/index.html)
+* [John Brock's solution](https://github.com/Khanthulhu/snakeGame) | [View in browser](https://khanthulhu.github.io/snakeGame/)
 * [Rhys B's solution](https://github.com/105ron/snake) | [View in browser](https://105ron.github.io/snake/)
 * [Austin's solution](https://github.com/CouchofTomato/snake) | [View in browser](https://couchoftomato.github.io/snake/)
 * [Afshin M.'s solution](https://github.com/afshinator/js-snake)

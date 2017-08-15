@@ -89,4 +89,5 @@ Bootstrap will do a lot of the heavy lifting for you -- instead of having to fig
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Bootstrap's Current Version Docs](http://getbootstrap.com/)
+* [Rails Guides chapter on Integration Testing](http://guides.rubyonrails.org/testing.html#integration-testing)
 * [RestClient Documentation](https://github.com/rest-client/rest-client)

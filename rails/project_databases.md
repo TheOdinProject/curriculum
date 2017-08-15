@@ -40,6 +40,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 * [DV's solution](https://github.com/dvislearning/sql_zoo)
 * [at0micr3d's solution](https://github.com/at0micr3d/sql-zoo)
 * [Tom Westerhout's solution](https://github.com/Westw00d/SQL-Zoo)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/sqlzoo)
 
 
 ### Additional Resources
@@ -47,4 +48,5 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [SQL Zoo solutions](https://djamler.wordpress.com/category/databases/sqlzoo/) for 4-9: "Select within select", "Joins", "More Joins", "Null", "Sum and Count", and "Self Join"
+* [Explanation of SELF JOIN by Caleb Curry](https://www.youtube.com/watch?v=W0p8KP0o8g4). He covers many other topics on his [Database Design](https://www.youtube.com/watch?v=e7Pr1VgPK4w&list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID) series.
 * A [reddit thread](http://www.reddit.com/r/learnprogramming/comments/1a58sb/looking_for_good_resources_to_learn_sql/) with a variety of references to tutorials and resources begging to be explored!

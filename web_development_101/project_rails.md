@@ -17,6 +17,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [rublen's solution](https://github.com/rublen/first_rails_app) | [View in browser](https://safe-badlands-32628.herokuapp.com/)
 * [Jonathan Yiv's Solution](https://github.com/JonathanYiv/blogger) | [View in browser](https://protected-dawn-48083.herokuapp.com/)
 * [Akshat's Solution](https://github.com/akshatdb/Blogger) | [View in browser](https://aqueous-eyrie-51208.herokuapp.com/)
 * [Jason McKee's solution](https://github.com/jttmckee/jump-blogger) | [View in browser](https://infinite-meadow-66360.herokuapp.com/articles)
@@ -35,6 +36,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Dallaire's solution](https://github.com/Dallaire/blogger) | [View in browser](https://pacific-garden-49484.herokuapp.com/)
 * [Ryan Ford's solution](https://github.com/ryanford-frontend/rails-blogger) | [View in browser](https://limitless-dusk-51076.herokuapp.com/)
 * [SadieD's solution](https://github.com/SadieD/dainty_blog) | [view in browser](http://afternoon-journey-20210.herokuapp.com/)
+* [Breadbear's solution](https://github.com/breadbear/blogger) | [View in browser](https://pure-journey-28856.herokuapp.com/login)
 * [Adong520's solution](https://github.com/Adong520/blogger) | [view in browser](https://agile-cliffs-89442.herokuapp.com/)
 * [Grey-Ghost's solution](https://github.com/Grey-Ghost/blogger) | [view in browser](https://cryptic-tor-71009.herokuapp.com/)
 * [xavier solution](https://github.com/nxdf2015/odin-blogger) | [view in browser](https://evening-castle-61857.herokuapp.com/articles)
@@ -265,6 +267,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Anistor86's Solution](https://github.com/anistor86/RubyOnRails_project) | [View in Browser](https://evening-oasis-70444.herokuapp.com/)
 * [Phucledien's Solution](https://github.com/phucledien/blogger) | [View in Browser](https://still-crag-31572.herokuapp.com/)
 * [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) | [View in Browser](https://radiant-beach-97617.herokuapp.com/)
+* [Oliver Curting's Solution](https://github.com/Curting/blogger) | [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
 
 ### Additional Resources
 
