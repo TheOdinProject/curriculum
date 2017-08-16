@@ -23,7 +23,7 @@ In this lesson you'll learn about sessions, browser cookies, and how authenticat
 
 ### Cookies, Sessions, and Flashes
 
-Cookies, Sessions and Flashes are three special objects that Rails 4 gives you which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
+Cookies, Sessions and Flashes are three special objects that Rails gives you which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
 
 ### Cookies
 
@@ -192,5 +192,5 @@ This lesson should have given you some appreciation for how complicated login sy
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
-* [Cookies and Sessions in Rails 4 from pothibo.com](http://pothibo.com/2013/09/sessions-and-cookies-in-ruby-on-rails/)
+* [Cookies and Sessions in Rails 4 from pothibo.com](https://web.archive.org/web/20161223000750/http://pothibo.com/2013/09/sessions-and-cookies-in-ruby-on-rails/)
 * [All About Cookies (.org)](http://www.allaboutcookies.org/)
