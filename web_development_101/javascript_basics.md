@@ -28,6 +28,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Ed Magalhaes's Solutions for problems 1 and 2](https://github.com/EdMagal/OdinProject_JSBasic001)
 * [Jon Motyka's Solutions for problems 1 and 2](https://github.com/microjrm/project-euler)
 * [Thanan's Solutions for problems 1 & 2](https://github.com/uhohjungo/project-euler-problems)
 * [Franklyn Afeso's Solutions for Problem 1 & 2](https://github.com/afeso/projectEuler/tree/master/scripts) | [View in Browser](https://afeso.github.io/projectEuler)
