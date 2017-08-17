@@ -13,6 +13,8 @@ This is almost definitely going to change... things are likely to be moved quite
 1. second-steps-project
 1. DOM-manipulation
 1. DOM-manipulation-project
+1. Third steps
+1. Third steps project
 1. javascript-dev-tools
 
 it is __very__ likely that several of those lessons will be broken down into multiple smaller lessons.  I advise that we keep them together in one file for now and break them up as needed once things start getting too long.
