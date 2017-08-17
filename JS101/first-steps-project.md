@@ -47,7 +47,7 @@ In a browser the _simplest_ way to get user input is by using the `prompt()` fun
 let number = prompt('what is your favorite number?')
 console.log(number)
 ```
-Pretty easy right?  Good.  Gonna need that for this assignment.  Note: since we're using `prompt()` for this assignment, you'll need to run your code in a browser rather than on the command line.
+Pretty easy right? Good. Gonna need that for this assignment... if you're still confused check out [this article.](http://javascript.info/alert-prompt-confirm) Note: since we're using `prompt()` for this assignment, you'll need to run your code in a browser rather than on the command line. (LINK TO 'Running Javascript' Lesson Here!!!)
 
 Write a script that figures out a student's score on a test:
 1. Prompt the user for the number of points possible on the test and store it in a variable.
