@@ -175,10 +175,12 @@ It's beyond the scope of this lesson to teach Devise but you'll certainly be usi
 
 ### Your Assignment
 
-1. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) chapters 5-6.  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
-2. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) chapter 8 to understand controller filters.
-3. Read [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) chapter 11 to understand more about authentication.
-4. Glance over the [Devise Documentation](https://github.com/plataformatec/devise).  Read about how to install it in your Rails App and what the different modules do.  You don't need to use Devise just yet, so this is more of a reconnaissance mission for later.
+1. Read [this article about how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
+2. Watch [this video to dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
+3. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) chapters 5-6.  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
+4. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) chapter 8 to understand controller filters.
+5. Read [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) chapter 11 to understand more about authentication.
+6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise).  Read about how to install it in your Rails App and what the different modules do.  You don't need to use Devise just yet, so this is more of a reconnaissance mission for later.
 
 ### Conclusion
 
