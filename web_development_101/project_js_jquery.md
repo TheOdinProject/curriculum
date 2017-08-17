@@ -688,3 +688,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Alex's solution](https://github.com/alexcorremans/sketch) | [View in browser](https://alexcorremans.github.io/sketch/)
 * [Afeso Franklyn's Solution](https://github.com/afeso/sketchpad) | [View in browser](https://afeso.github.io/sketchpad/)
 * [Rafael Badan's Solution](https://github.com/rafaelBadan/sketch) | [View in browser](https://rafaelbadan.github.io/sketch/)
+* [Alabi Emmanuels's solution](https://github.com/Bobslegend61/Etch-A-Sketch) | [View in browser](https://bobslegend61.github.io/Etch-A-Sketch/)
