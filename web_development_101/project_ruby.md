@@ -2,10 +2,9 @@ You've had plenty of opportunity to read Ruby and learn Ruby and now it's time t
 
 This exercise will involve a lot of figuring things out.  There aren't very detailed instructions for what to do, just the batch of tests that you need to make pass.  You need to look at those tests, figure out what they want based on the error messages you receive, and write the code to pass them.  It can be tricky to get the hang of at first but once you start making those tests go green it starts feeling pretty cool.
 
-1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
-2. Go to the learn_ruby repo [here](https://github.com/TheOdinProject/learn_ruby) and follow the installation instructions in the README.
-3. Follow the **"Getting started with the exercises"** section of the README to find out how to run and make the tests pass.
-4. Do the following exercises.  You'll know you're done when all the tests pass! The exercises start easy but some of them can be pretty challenging, so good luck!
+1. Go to the learn_ruby repo [here](https://github.com/TheOdinProject/learn_ruby) and follow the installation instructions in the README.
+2. Follow the **"Getting started with the exercises"** section of the README to find out how to run and make the tests pass.
+3. Do the following exercises.  You'll know you're done when all the tests pass! The exercises start easy but some of them can be pretty challenging, so good luck!
     1. `00_hello`
     2. `01_temperature`
     3. `02_calculator`
@@ -14,7 +13,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
     6. `05_book_titles`
     7. `06_timer`
 
-5. Push your project to Github
+4. Push your project to Github
 
 ### Student Solutions
 
