@@ -11,26 +11,6 @@
           border-radius: $radius;
 }
 
-@mixin input-placeholder($color) {
-  ::-webkit-input-placeholder {
-    color: $color;
-  }
-  ::-moz-placeholder {
-    color: $color;
-    opacity: 1;
-  }
-  ::-ms-input-placeholder {
-    color: $color;
-  }
-  :-ms-input-placeholder {
-    color: $color;
-  }
-  :-moz-placeholder {
-    color: $color;
-    opacity: 1;
-  }
-}
-
 // https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/
 @mixin word-wrap() {
   overflow-wrap: break-word;

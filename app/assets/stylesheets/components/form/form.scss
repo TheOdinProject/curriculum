@@ -1,5 +1,6 @@
 .form {
-
+  padding-top: 1em;
+  
   &__section {
     margin-bottom: 20px;
     position: relative;
@@ -15,7 +16,10 @@
     border: none;
     letter-spacing: 0.2px;
     color: $text-primary;
-    @include input-placeholder($grey);
+
+    &::placeholder {
+      color: $pale-grey;
+    }
 
     &--with-icon {
       padding: 1rem 0.5rem 1rem 3.75rem;

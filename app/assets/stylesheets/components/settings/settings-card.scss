@@ -6,6 +6,11 @@
     text-align: center;
   }
 
+  &__heading {
+    font-weight: bold;
+    color: $grey;
+  }
+
   &__picture {
     margin-right: 40px;
 
