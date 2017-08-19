@@ -17,6 +17,10 @@
     color: $text-primary;
     @include input-placeholder($grey);
 
+    &:focus {
+      outline: none;
+    }
+
     &--with-icon {
       padding: 1rem 0.5rem 1rem 3.75rem;
     }
