@@ -1188,6 +1188,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Anton Shelepov's Solution (Easy)](https://anton812s.github.io/google-homepage) | [View in browser](https://anton812s.github.io/google-homepage/index.html)
 * [Nevin Herring's Solution(Easy)](https://github.com/nevinherring) | [View in Browswer](https://nevinherring.github.io/google_homepage/)
 * [Rwasa's Solution(Easy)](https://github.com/rwasa) | [View in Browswer](https://rwasa.github.io/google-homepage/)
+* [WilPoly's Solution (Easy)] (https://github.com/wilPoly/google-homepage) | [View in browser] (https://wilpoly.github.io/google-homepage/)
 
 ### Additional Resources
 
