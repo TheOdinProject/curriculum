@@ -1,26 +1,31 @@
 var constraints = {
   "user[username]": {
+    presence: true,
     length: {
       minimum: 4,
       maximum: 20
     }
   },
   "user[email]": {
+    presence: true,
     email: true
   },
   "user[password]": {
+    presence: true,
     length: {
       minimum: 6,
       maximum: 128
     }
   },
   "user[password_confirmation]": {
+    presence: true,
     equality: {
       attribute: "user[password]",
       message: "^The passwords do not match"
     }
   },
   "user[current_password]": {
+    presence: true,
     length: {
       minimum: 6,
       maximum: 128
@@ -37,16 +42,8 @@ var constraints = {
 document.addEventListener('turbolinks:load', function() {
   var forms = document.querySelectorAll('.form');
   if (!forms) return;
-  
+
   forms.forEach(function(form) {
-    
-    form.addEventListener("submit", function(ev) {
-      ev.preventDefault();
-      handleFormSubmit(form);
-      ev.stopPropagation();
-    })
-  
-  
     var inputs = form.querySelectorAll('.form__element');
     
     inputs.forEach(function(item) {
@@ -57,21 +54,6 @@ document.addEventListener('turbolinks:load', function() {
     });
   });
 });
-
-function handleFormSubmit(form) {
-  var formErrors = validate(form, constraints, { fullMessages: false });
-  if (!formErrors) {
-    form.submit();
-  }
-  showErrors(form, formErrors || {});
-}
-
-function showErrors(form, errors) {
-  var formInputs = form.querySelectorAll('.form__element');
-  formInputs.forEach(function(item) {
-    showErrorsForInput(item, errors[item.name]);
-  });
-}
 
 function showErrorsForInput(input, errors) {
   var inputParent = input.parentNode;
