@@ -196,3 +196,4 @@ This lesson should have given you some appreciation for how complicated login sy
 * Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
 * [Cookies and Sessions in Rails 4 from pothibo.com](https://web.archive.org/web/20161223000750/http://pothibo.com/2013/09/sessions-and-cookies-in-ruby-on-rails/)
 * [All About Cookies (.org)](http://www.allaboutcookies.org/)
+* [How Rails Sessions Work](https://www.justinweiss.com/articles/how-rails-sessions-work/)
