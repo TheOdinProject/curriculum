@@ -1,13 +1,15 @@
 .settings-card {
-  display: flex;
 
-  @include media-breakpoint-down(sm) {
-    display: block;
-    text-align: center;
+  &__heading {
+    font-weight: bold;
+    color: $text-primary;
+    margin-bottom: 1.5rem;
   }
 
   &__picture {
     margin-right: 40px;
+    padding-right: 40px;
+    border-right: 1px solid $pale-grey;
 
     img {
       width:100px;
@@ -20,6 +22,17 @@
     @include media-breakpoint-down(sm) {
       margin-bottom: 50px;
       margin-right: 0;
+      padding-right: 0;
+      border-right: none;
+    }
+  }
+
+  &__content {
+    display: flex;
+
+    @include media-breakpoint-down(sm) {
+      display: block;
+      text-align: center;
     }
   }
 
