@@ -18,10 +18,12 @@
     &__icon {
       font-size: 2rem;
       color: $pale-grey;
+      opacity: 0.3;
       padding-left: 10px;
 
       &--completed {
         color: $button-primary;
+        opacity: 1;
       }
 
       @include media-breakpoint-down(xs) {

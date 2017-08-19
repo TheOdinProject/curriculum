@@ -6,6 +6,11 @@
     margin-bottom: 1.5rem;
   }
 
+  &__heading {
+    font-weight: bold;
+    color: $grey;
+  }
+
   &__picture {
     margin-right: 40px;
     padding-right: 40px;
