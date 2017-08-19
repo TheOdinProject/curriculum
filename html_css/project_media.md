@@ -2,13 +2,13 @@
 
 Back in Web Development 101 you built Google's homepage.  Students consistently report that to be a fun project but they also say that it's more difficult than it looks.  In this course, you'll build so many webpages that you'll laugh at something as simple as Google.com.
 
-Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) (the example video is one where I describe making contributions to open source).  
+Our first project will require you to draw on your new understanding of working with media by building [YouTube's video player page](https://www.youtube.com/watch?v=V74l_zS1x8E) (the example video is one where I describe making contributions to open source).
 
-The goal here isn't to produce an exact replica of the YouTube video page, but to focus on making the media elements show up.  That means two things -- embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.  
+The goal here isn't to produce an exact replica of the YouTube video page, but to focus on making the media elements show up.  That means two things -- embedding the YouTube video player into the page so it actually plays and showing little thumbnail images along the right side.
 
 How far you go from there in terms of styling is up to you -- some of you will already be more comfortable with CSS than others, so knock yourself out.
 
-There are other elements on the YouTube page which are produced with Javascript and you don't need to worry about them -- basically, anything that changes the page by clicking on it is wired up using Javascript.  An example is the "Show more" link below the description, which dynamically expands to show more.  Again, *don't worry about these dynamic elements!*.  
+There are other elements on the YouTube page which are produced with Javascript and you don't need to worry about them -- basically, anything that changes the page by clicking on it is wired up using Javascript.  An example is the "Show more" link below the description, which dynamically expands to show more.  Again, *don't worry about these dynamic elements!*.
 
 Also, don't worry about making the comment form work properly... your goal is to make the page look similar and display video.
 
@@ -31,6 +31,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/bluetube) | [Live](https://holdercp.github.io/bluetube/)
 * [Justine Cantado's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/yt) | [View in Browser](https://hannibalony.github.io/yt)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/youtube_page) | [View in Browser](https://yilmazgunalp.github.io/youtube_page/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/YouTube-video-page) | [View in Browser](https://bottlecaps4.github.io/YouTube-video-page/)
