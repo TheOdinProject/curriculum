@@ -520,7 +520,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Alex's solutions to problems 1 & 2](https://github.com/alexcorremans/euler-JS)
 * [Joey Robertson's Solution](https://github.com/JoeyRobertson/js_euler/blob/master/multiples.js)
 * [Nevin Herring's Solution](https://github.com/nevinherring/) | [View in Browser] (https://github.com/nevinherring/projectEuler)
-
+* [Rwasa's Solution](https://github.com/rwasa/) | [View in Browser] (https://github.com/rwasa/git_test)
 
 ### Additional Resources
 
