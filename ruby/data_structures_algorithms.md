@@ -44,8 +44,7 @@ Luckily for you, these complex algorithmic problems have all been solved many ti
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [Khan Academy's great Algorithms Course](https://www.khanacademy.org/computing/computer-science/algorithms)
-* [More advanced Algos course lessons](https://class.coursera.org/algo-004/lecture/preview)
+* [Stanford's Coursera 4-Part Algorithm Course](https://www.coursera.org/specializations/algorithms)
 * [Visualizing Algorithms from Mike Bostock](http://bost.ocks.org/mike/algorithms/)
-* [Free course on algorithms from Coursera](https://www.coursera.org/course/algo)
 * [Another free course on algorithms by Udacity](https://www.udacity.com/course/cs215)
 * [A brief note on putting Sorting, Tries and Heaps into Ruby, by Ilya Grigorik](http://www.igvita.com/2009/03/26/ruby-algorithms-sorting-trie-heaps/)
