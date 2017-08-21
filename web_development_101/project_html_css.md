@@ -1191,6 +1191,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [WilPoly's Solution (Easy)](https://github.com/wilPoly/google-homepage) | [View in browser](https://wilpoly.github.io/google-homepage/)
 * [JVG Parkes's Solution (Easy)](https://github.com/jvgparkes/google-homepage) | [View in browser](https://jvgparkes.github.io/google-homepage/)
 * [DearLorditsNates's Solution (Easy)](https://github.com/DearLorditsNate/google-homepage) | [View in browser](https://dearlorditsnate.github.io/google-homepage/)
+* [wordjames'Solution (Easy)](https://github.com/wordjames/the-odin-project/tree/master/Ch_02-Web_Development_101/google_homepage) | [View in browser](https://wordjames.github.io/the-odin-project/Ch_02-Web_Development_101/google_homepage/)
+
 
 ### Additional Resources
 
