@@ -10,6 +10,7 @@ If we do, we should go through the FCC algorithm scripting and make sure that we
     - this one is basically just fizzbuzz with a little extra math thrown in.  Might be a stretch, but that's good 😃 
 
 3. JS test-first exercises (roll our own)
+   - not sure exactly how everything is going to be sequenced but now would be a great time to either introduce or remind students about the git lessons.. they'll need to at least fork and pull a copy of the exercises.
 
 4. larger project
   - maybe a calculator (cli only.. to be integrated with the DOM in the DOM manipulation project)
