@@ -11,7 +11,7 @@ Objects are a _very_ important part of the Javascript language, and while for th
 2. Read [this description](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS) of Object Oriented Programming (OOP) in Javascript.  This article just barely scratches the surface of something we'll dig into more later.
 3. This time the Javascript.info article covers quite a bit of useful information that the MDN article doesn't get to.  [Check it out](http://javascript.info/object) (and do the Tasks!)
 
-### Intermediate Array Magic
+### Intermediate/Advanced Array Magic
 Besides being a quick and handy way to store data, arrays also have a set of functions for manipulating that data in very powerful ways.  Once you begin to master these function you will start to see ways to use them all over the place! There are really only a handful of these functions... but as you'll soon see the possibilities of what you can do with them are near endless.
 
 1. Start out by watching [this video](https://www.youtube.com/watch?v=HB1ZC7czKRs) from Wes Bos.  If you sign up for his course (it's free!) you can download the code and follow along.
