@@ -23,6 +23,7 @@ You'll be dusting off your [Flight Booker project](/ruby-on-rails/building-advan
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/flight-booker)
 * [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_flight_tracker) | [View in browser](https://immense-lowlands-59487.herokuapp.com/)
 * [holdercp's solution](https://github.com/holdercp/odin-flight-booker) | [View in browser](https://damp-stream-21164.herokuapp.com/)
 * [jfonz412's solution](https://github.com/jfonz412/flight-booker)
