@@ -5,7 +5,6 @@ RSpec.describe User do
     User.new(
       username: 'kevin',
       email: 'kevin@example.com',
-      legal_agreement: 'true',
       password: 'foobar',
       provider: provider,
       uid: '',

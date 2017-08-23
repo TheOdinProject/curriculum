@@ -29,7 +29,7 @@ class ApplicationController < ActionController::Base
 
   def configure_permitted_parameters
     devise_parameter_sanitizer
-      .permit(:sign_up, keys: [:username, :legal_agreement])
+      .permit(:sign_up, keys: [:username])
 
     devise_parameter_sanitizer.permit(:account_update) do |u|
       u.permit(
@@ -41,9 +41,5 @@ class ApplicationController < ActionController::Base
         :learning_goal
       )
     end
-  end
-
-  def after_sign_in_redirect_path
-    session[:previous_url] || courses_path(ref: 'login')
   end
 end
