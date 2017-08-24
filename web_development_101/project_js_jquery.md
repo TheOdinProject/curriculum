@@ -35,6 +35,9 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [rublen's solution](https://github.com/rublen/sketchpad) | [View in browser](https://rublen.github.io/sketchpad/)
+* [flintmayers' solution](https://github.com/FlintMayers/etch-a-sketch) | [View in browser](https://flintmayers.github.io/etch-a-sketch/)
+* [gfintel24's solution](https://github.com/Gfintel24/sketchpad) | [View in browser](https://gfintel24.github.io/sketchpad/)
 * [aualby's solution](https://github.com/aualby/the-odin-project/tree/master/javascript-jquery) | [View in browser](https://aualby.github.io/the-odin-project/javascript-jquery/index.html)
 * [jlo4's solution](https://github.com/jlo4/colorpad) | [View in browser](https://rawgit.com/jlo4/colorpad/master/index.html)
 * [Mtheam's solution] (https://github.com/mtheam1/etch-a-sketch)
@@ -687,3 +690,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Alex's solution](https://github.com/alexcorremans/sketch) | [View in browser](https://alexcorremans.github.io/sketch/)
 * [Afeso Franklyn's Solution](https://github.com/afeso/sketchpad) | [View in browser](https://afeso.github.io/sketchpad/)
 * [Rafael Badan's Solution](https://github.com/rafaelBadan/sketch) | [View in browser](https://rafaelbadan.github.io/sketch/)
+* [Alabi Emmanuels's solution](https://github.com/Bobslegend61/Etch-A-Sketch) | [View in browser](https://bobslegend61.github.io/Etch-A-Sketch/)
+* [James Kamana's solution](https://github.com/JayKamana/Etch-A-Sketch) | [View in browser](https://jaykamana.github.io/Etch-A-Sketch/)
+* [Lorrie Pearson's solution](https://github.com/Lorrie01/sketch_project)| [View in browser](https://lorrie01.github.io/sketch_project/)

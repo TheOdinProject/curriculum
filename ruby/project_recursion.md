@@ -15,6 +15,8 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/fibonacci)
 * [Kasey Z's solution](https://github.com/kasey-z/TOP-solutions/blob/master/recursion/fibonacci.rb)
 * [Adsy430's solution](https://github.com/adampal/fib_recursive)
 * [SadieD's solution](https://github.com/SadieD/Recursion/blob/master/fibonacci.rb)
@@ -130,6 +132,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-recursion/blob/master/fibonacci.rb)
 * [EMuchynski's solution](https://github.com/EMuchynski/fibonacci)
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/fibs.rb)
+* [anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/fibonacci.rb)
 
 ### Project: Merge Sort
 
@@ -143,7 +146,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 
 1. Check out [this introductory video](http://www.youtube.com/watch?v=EeQ8pwjQxTM) from Harvard's CS50x course.
 2. Check out [this more detailed explanation](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) by David J. Malan (watch only until 1:14:00).
-3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
+3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
 
 ### Your Task
 
@@ -158,6 +161,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/merge_sort)
 * [Roland Studer's solution](https://github.com/RolandStuder/odin_project_solutions/blob/master/recursive_methods/merge_sort.rb)
 * [Kasey Z.'s solution](https://github.com/kasey-z/TOP-solutions/blob/master/recursion/merge_sort.rb)
 * [Adsy430's solution](https://github.com/adampal/merge_sort)
@@ -276,6 +280,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [EMuchynski's solution](https://github.com/EMuchynski/merge_sort)
 * [henrythedj's solution](https://github.com/henrythedj/recursive/blob/master/mergesort.rb)
 * [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
+* [Anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/merge_sort.rb)
 
 
 ### Additional Resources
