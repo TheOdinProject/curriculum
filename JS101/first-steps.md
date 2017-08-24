@@ -49,3 +49,8 @@ We've learned a lot!  As we mentioned above, we don't expect that you will have 
 1. [MDN](https://developer.mozilla.org/en-US/): this one should be familiar to you at this point...  it's the same site as most of the tutorials we've directed you to so far.  In addition to having great beginner tutorials, MDN also has very thorough and well organized documentation that even the pros use from time to time.
 2. [http://javascript.info/](http://javascript.info/), the other site we've linked to is another good resource.  Most of the content takes the form of tutorials rather than documentation, but they're more concise, and good for review... and while looking around, you might learn something else along the way which is never a bad thing.
 3. [GOOGLE](http://lmgtfy.com/?q=GOOGLE). Ok, we didn't really need to mention this one, but many times the easiest way to look for something is to simply google it.  At this point in you career you might have a harder time deciphering which information is relevant.
+
+
+mostly a collection of good beginner resources:  https://github.com/jankeLearning/content-md/blob/master/js/01-js-101.md
+
+- evan
