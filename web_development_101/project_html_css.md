@@ -1195,6 +1195,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [dgwn's Solution (Easy)](https://github.com/dgwn/google-homepage) | [View in browser](https://dgwn.github.io/google-homepage/)
 * [retrazil's solution (Easy)](https://github.com/retrazil/google-homepage) | [View in browser](https://retrazil.github.io/google-homepage/)
 * [retrazil's solution (Difficult)](https://github.com/retrazil/google-search) | [View in browser](https://retrazil.github.io/google-search/)
+* [ainevethe's solution (Easy)(https://github.com/ainevethe/google-search) https://ainevethe.github.io/google-homepage/
 
 
 ### Additional Resources
