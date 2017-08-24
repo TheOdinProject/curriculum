@@ -40,13 +40,16 @@ document.addEventListener('turbolinks:load', function() {
   
   forms.forEach(function(form) {
     
+    // Disable form submission if error
     form.addEventListener("submit", function(ev) {
-      ev.preventDefault();
-      handleFormSubmit(form);
-      ev.stopPropagation();
+      var formErrors = validate(form, constraints, { fullMessages: false });
+      if (formErrors) {
+        ev.preventDefault();
+        handleFormSubmit(form);
+        ev.stopPropagation();
+      }
     })
-  
-  
+
     var inputs = form.querySelectorAll('.form__element');
     
     inputs.forEach(function(item) {
