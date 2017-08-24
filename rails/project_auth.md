@@ -166,5 +166,5 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Railscasts #250 Authentication from Scratch](https://www.youtube.com/watch?v=Hw6WtWJwRtU)
-* [Railscasts #274 Remember Me & Reset Password](https://www.youtube.com/watch?v=2yiqy0kFkcY)
+* [Railscasts #250 Authentication from Scratch](http://railscasts.com/episodes/250-authentication-from-scratch-revised)
+* [Railscasts #274 Remember Me & Reset Password](http://railscasts.com/episodes/274-remember-me-reset-password)
