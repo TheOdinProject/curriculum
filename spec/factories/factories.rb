@@ -8,7 +8,6 @@ FactoryGirl.define do
     end
 
     password 'foobar'
-    legal_agreement true
     confirmed_at Time.now - 5_000_000
     avatar 'http://github.com/fake-avatar'
 

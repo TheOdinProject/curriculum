@@ -13,7 +13,6 @@ RSpec.describe RegistrationsController do
         email: 'kevin@example.com',
         password: 'foobar1',
         password_confirmation: 'foobar1',
-        legal_agreement: true,
       }
     }
 
