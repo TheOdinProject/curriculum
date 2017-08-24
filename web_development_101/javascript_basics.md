@@ -521,7 +521,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Joey Robertson's Solution to 1 & 2](https://github.com/JoeyRobertson/js_euler/)
 * [Nevin Herring's Solution](https://github.com/nevinherring/) | [View in Browser](https://github.com/nevinherring/projectEuler)
 * [Rwasa's Solution](https://github.com/rwasa/) | [View in Browser](https://github.com/rwasa/git_test)
->>>>>>> 719e5691b8f3e628224e758c2352fa7d5e2c149d
+
 
 
 ### Additional Resources
