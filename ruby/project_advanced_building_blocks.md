@@ -35,6 +35,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [jdrobertso's solution](https://github.com/jdrobertso/bubble_sort)
 * [endotnick's solution](https://github.com/endotnick/sorts/blob/master/bubble_sort/bubble_sort.rb)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/bubble_sort)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-project-ruby/tree/master/bubble-sort)
@@ -286,6 +287,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [jdrobertso's solution](https://github.com/jdrobertso/enumerables)
 * [endotnick's solution](https://github.com/endotnick/ruby_enumerable_methods/blob/master/enumerable_methods.rb)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/enumerable_methods)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-project-ruby/tree/master/enumerable)
