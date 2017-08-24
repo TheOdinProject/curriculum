@@ -1,5 +1,11 @@
 class SectionDecorator < ApplicationDecorator
   def lessons
-    __getobj__.lessons.map { |lesson| LessonDecorator.new(lesson) }
+    section.lessons.map { |lesson| LessonDecorator.new(lesson) }
+  end
+
+  private
+
+  def section
+    __getobj__
   end
 end

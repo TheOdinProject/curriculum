@@ -5,7 +5,7 @@ class CourseDecorator < ApplicationDecorator
   end
 
   def sections
-    __getobj__.sections.map { |section| SectionDecorator.new(section) }
+    course.sections.map { |section| SectionDecorator.new(section) }
   end
 
   private
@@ -19,5 +19,11 @@ class CourseDecorator < ApplicationDecorator
       'Ruby on Rails' => 'badge-ruby-on-rails.svg',
       'Getting Hired as a Web Developer' => 'badge-getting-hired.svg'
     }
+  end
+
+  private
+
+  def course
+    __getobj__
   end
 end
