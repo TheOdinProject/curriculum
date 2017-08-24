@@ -518,10 +518,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Daniel T's Solution](https://github.com/dnyy/Project-Euler) | [View in Browser] (https://dnyy.github.io/Project-Euler/)
 * [Brandon B's Solution to Problem 1](https://github.com/bmbost/projecteuler/tree/master/prob1) / [View in Browser](https://bmbost.github.io/projecteuler/prob1/)
 * [Alex's solutions to problems 1 & 2](https://github.com/alexcorremans/euler-JS)
-<<<<<<< HEAD
 * [Joey Robertson's Solution to 1 & 2](https://github.com/JoeyRobertson/js_euler/)
-=======
-* [Joey Robertson's Solution](https://github.com/JoeyRobertson/js_euler/blob/master/multiples.js)
 * [Nevin Herring's Solution](https://github.com/nevinherring/) | [View in Browser](https://github.com/nevinherring/projectEuler)
 * [Rwasa's Solution](https://github.com/rwasa/) | [View in Browser](https://github.com/rwasa/git_test)
 >>>>>>> 719e5691b8f3e628224e758c2352fa7d5e2c149d
