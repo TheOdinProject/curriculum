@@ -55,8 +55,12 @@ class ProjectsController < ApplicationController
     params.require(:project).permit(:repo_url, :live_preview)
   end
 
+  def lesson
+    Lesson.friendly.find(params[:lesson_id])
+  end
+
   def find_lesson
-    @lesson = Lesson.friendly.find(params[:lesson_id])
+    @lesson = LessonDecorator.new(lesson)
   end
 
   def authenticate_request
