@@ -1,35 +1,32 @@
 <%= title(@lesson.title) %>
 
-<div class="individual-lesson">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2">
-        <%= render 'courses/course/banner', course: @course, show_completion_percent: true %>
-        <h2 class="lesson-title accent"><%= @lesson.title %></h2>
-        
-        <div id="lesson-content">
-          <%= convert_markdown_to_html(@lesson.content) %>
-        </div>
+<div class="container">
+    <div class="col-lg-8 offset-lg-2">
+      <div class='lesson-header'>
+        <%= render 'courses/course/banner', course: @course, show_completion_percent: false %>
+        <h2 class="lesson-header__title accent"><%= @lesson.title %></h2>
+      </div>
+
+      <div class="lesson-content">
+        <%= convert_markdown_to_html(@lesson.content) %>
       </div>
     </div>
-  </div>
+</div>
 
-  <div id="lesson-details">
-    <div class="container text-center">
-      <%= render 'courses/course/banner', course: @course, show_completion_percent: false %>
+<div class="lesson-functions">
+  <div class="container">
 
-      <h3 class="lesson-title text-center text-uppercase accent bold"><%= @lesson.title %> </h3>
+    <%= render 'courses/course/banner', course: @course, show_completion_percent: false %>
 
-      <%= render 'lesson_actions', lesson: @lesson %>
+    <%= render 'lesson_actions', lesson: @lesson %>
 
-      <%= render 'submissions' if @projects %>
+    <%= render 'submissions' if @projects %>
 
-      <%= render 'shared/bottom_cta',
-        button: gitter_button,
-        heading: 'Got questions?',
-        sub_heading: 'Chat with our friendly Odin community in our Gitter chatrooms!'
-      %>
-    </div>
+    <%= render 'shared/bottom_cta',
+      button: gitter_button,
+      heading: 'Got questions?',
+      sub_heading: 'Chat with our friendly Odin community in our Gitter chatrooms!'
+    %>
   </div>
 </div>
 
