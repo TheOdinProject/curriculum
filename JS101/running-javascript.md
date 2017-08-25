@@ -1,7 +1,20 @@
-this lesson describes how to run javascript code in various contexts including online (repl.it, codepen, jsbin), included in an HTML file (on the page and included as a script), in the browser (devtools) and in a terminal (node)
+There are several different ways to run javascript code and which one you pick depends greatly on what it is you're trying to accomplish.  This short lesson describes some of the most common... all of which you are likely to use as you learn to code.
 
-All of these JS environments are useful in their own ways so the lesson should highlight when and why each is appropriate.
+## On a website
+There are several websites that will run your code for you.  Even though writing your code on your own machine is usually a better way to go, especially for real projects, it can be useful to use these quick and easy websites for quick scripts or testing new functions as you learn about them.
 
-short intro to node, couple sentances on using it to run JS files: https://github.com/jankeLearning/content-md/blob/master/node%2Bexpress/01-node-1.md
+Some of our favorites include:
+- [https://repl.it](https://repl.it/languages/javascript) actually supports many languages besides javascript and allows you to save and share your code among other things.
+- [http://jsbin.com/](http://jsbin.com/) includes a space for you to write html and css as well as Javascript so that you can incorporate some visible elements if you want.
+- [http://codepen.io/](http://codepen.io/) is a lot like jsbin, but has some more social features, and a different style of interface.  In the end they do the same thing.
 
-- evan
+For real projects, it is almost always going to be better for you to write your code locally and save it with git, but there are _definitely_ times when you do not need to save what you're doing.  These websites are great for such times.
+
+## In the browser
+There will be a more in depth lesson on this later, but it is possible to write and run javascript code directly in your browser using the Developer Tools.  How you open the devtools depends on your browser and system, but for most people you'll right click on the page and click the 'Inspect' option.
+
+Watch this short video for more details:
+
+## From HTML
+
+## The Command Line
