@@ -13,8 +13,12 @@ For real projects, it is almost always going to be better for you to write your 
 ## In the browser
 There will be a more in depth lesson on this later, but it is possible to write and run javascript code directly in your browser using the Developer Tools.  How you open the devtools depends on your browser and system, but for most people you'll right click on the page and click the 'Inspect' option.
 
-Watch this short video for more details:
+Watch this short video for more details.
 
 ## From HTML
+You can run JavaScript that you write in a script on your own computer by embedding it into an html file.
+
+Watch _this_ short video for details.
 
 ## The Command Line
+And finally, you can run your JavaScript code from the command line.  If you've installed nodeJS you can usually run a JavaScript file in a terminal by running `node filename.js`
