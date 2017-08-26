@@ -39,9 +39,9 @@ Here we will describe the basic git workflow that you will use with your project
   <a href="http://imgur.com/a/JQaAE"><img class="tutorial-img" src="http://i.imgur.com/TDQDhwQ.png" title="source: imgur.com" /></a>
 3. Type `git add README.md` this adds your *README.md* file to staging area in git. Now type `git status` again, notice your file is now green.
   <a href="http://imgur.com/a/3nU3K"><img class="tutorial-img" src="http://i.imgur.com/sgIYlxB.png" title="source: imgur.com" /></a>
-4. Now type `git commit -m "Added README"` and then type `git status` once more and notice that the output contains "*nothing to commit*". Your changes have been committed.
+4. Now type `git commit -m "Add README.md"` and then type `git status` once more and notice that the output contains "*nothing to commit*". Your changes have been committed.
   <a href="http://imgur.com/a/lP86H"><img class="tutorial-img" src="http://i.imgur.com/E4KNSB3.png" title="source: imgur.com" /></a>
-5. Now type `git log` and look at its output. You should see a historical entry for your commit: *Added README*. You will also see details on the author who made the commit and the date time for when it was made.
+5. Now type `git log` and look at its output. You should see a historical entry for your commit: *Add README.md*. You will also see details on the author who made the commit and the date time for when it was made.
 
 ### How does git save files?
 A *save* in git is divided into two terminal commands: **add** and **commit**. The combination of these two commands gives you control of exactly what you want to be remembered in your snapshot.
@@ -54,7 +54,7 @@ With Git you choose the changes you want to save with `git add`. Imagine a proje
 #### Committing
 Think of `commit` as actually taking a photo, resulting in a snapshot.
 
-We used this command to commit the *README.md* file `git commit -m "Added README"` the `-m` flag stands for message and must always be followed by a message in quotes in our case `"Added README"`.
+We used this command to commit the *README.md* file `git commit -m "Add README.md"` the `-m` flag stands for message and must always be followed by a message in quotes in our case `"Add README.md"`.
 
 ### Adding another file into the mix.
 
@@ -69,7 +69,7 @@ We used this command to commit the *README.md* file `git commit -m "Added README
   <a href="http://imgur.com/a/mZO4k"><img class="tutorial-img" src="http://i.imgur.com/CzUQRIL.png" title="source: imgur.com" /></a>
 6. Now lets add *hello_world.txt* to staging area with a different variation of add `git add .` - the full stop means add all un-staged files. Then enter `git status` once more, everything should now been added to the staging area.
   <a href="http://imgur.com/a/GyfIp"><img class="tutorial-img" src="http://i.imgur.com/VseW6AL.png" title="source: imgur.com" /></a>
-9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Added hello world file and added a line to README"`. Then enter `git status` once again, this will output `nothing to commit`.
+9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Add hello_world.txt and edit README.md"`. Then enter `git status` once again, this will output `nothing to commit`.
   <a href="http://imgur.com/a/DzGHA"><img class="tutorial-img" src="http://i.imgur.com/afCYtxg.png" title="source: imgur.com" /></a>
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
@@ -92,3 +92,8 @@ The main take away from what you have learnt about Git over the past few lessons
 In later git lessons we will cover some of the more advanced git features such as branches which will expand your abilities even more and make your workflow on projects more productive.
 
 For now concentrate on using the basics of Git which you have learnt here with all the projects ahead of you until the point where you know each of the basic Git commands from memory.  
+
+### Additional Resources
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.*
+
+* A guideline for writing neat and concise commit messages by [Chris Beams](https://github.com/cbeams) called [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
