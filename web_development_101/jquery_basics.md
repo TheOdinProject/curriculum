@@ -14,12 +14,7 @@ jQuery will let you take your javascript knowledge and start really diving into 
 ### Assignment:
 1. Learn about jQuery by doing [Codecademy's jQuery Track sections 1-3](http://www.codecademy.com/tracks/jquery) ("Introducing jQuery", jQuery Functions", and "Dynamic HTML").
 2. If you can't get enough, also give [Code School's try jQuery](http://try.jquery.com/) a shot (let us know which is better!).
-2. The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
-3. View the following series of videos where a developer walks through building a nifty image slider using jQuery.  You don't need to understand every little thing he's doing, but you should be able to follow along:
-
-    1. [Part 1: Structure](http://www.youtube.com/watch?v=QtYP_eSVKfs)
-    2. [Part 2: Looping Function](http://www.youtube.com/watch?v=z277ZUHNnnE)
-    3. [Part 3: User Controls](http://www.youtube.com/watch?v=XlYsjMPCgfI)
+3. The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
 
 ### Additional Resources
 
