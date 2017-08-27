@@ -1,9 +1,6 @@
 class Course < ApplicationRecord
   extend FriendlyId
 
-  serialize :you_learn, Array
-  serialize :you_build, Array
-
   has_many :sections, -> { order(:position) }
   has_many :lessons, through: :sections
 

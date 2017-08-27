@@ -33,20 +33,18 @@ xml.urlset(
 
   # Individual courses and lessons
   @courses.each do |course|
-    if course.is_active
-      xml.url do
-        xml.loc "#{course_url(course.title_url)}"
-        xml.changefreq("weekly")
-        xml.priority(0.80)
-      end
+    xml.url do
+      xml.loc "#{course_url(course.title_url)}"
+      xml.changefreq("weekly")
+      xml.priority(0.80)
+    end
 
-      course.lessons.each do |lesson|
-        xml.url do
-          xml.loc "#{lesson_url(course.title_url, lesson.title_url)}"
-          xml.lastmod lesson.updated_at.strftime("%F")
-          xml.changefreq("daily")
-          xml.priority(1.00)
-        end
+    course.lessons.each do |lesson|
+      xml.url do
+        xml.loc "#{lesson_url(course.title_url, lesson.title_url)}"
+        xml.lastmod lesson.updated_at.strftime("%F")
+        xml.changefreq("daily")
+        xml.priority(1.00)
       end
     end
   end
