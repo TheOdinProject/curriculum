@@ -56,7 +56,7 @@ Think of `commit` as actually taking a photo, resulting in a snapshot.
 
 We used this command to commit the *README.md* file `git commit -m "Add README.md"` the `-m` flag stands for message and must always be followed by a message in quotes in our case `"Add README.md"`.
 
-### Adding another file into the mix.
+### Adding another file into the mix
 
 1. Create a new file in the `git_test` folder and call it `hello_world.txt`. In your terminal type `git status`, notice `hello_world.txt` is un-staged.
   <a href="http://imgur.com/a/retmS"><img class="tutorial-img" src="http://i.imgur.com/IXgN3PP.png" title="source: imgur.com" /></a>
