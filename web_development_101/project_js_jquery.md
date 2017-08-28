@@ -694,3 +694,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Alabi Emmanuels's solution](https://github.com/Bobslegend61/Etch-A-Sketch) | [View in browser](https://bobslegend61.github.io/Etch-A-Sketch/)
 * [James Kamana's solution](https://github.com/JayKamana/Etch-A-Sketch) | [View in browser](https://jaykamana.github.io/Etch-A-Sketch/)
 * [Lorrie Pearson's solution](https://github.com/Lorrie01/sketch_project)| [View in browser](https://lorrie01.github.io/sketch_project/)
+* [Ben Simpson's solution](https://github.com/BenBSimpson/etch-a-sketch)| [View in browser](https://benbsimpson.github.io/etch-a-sketch/)
