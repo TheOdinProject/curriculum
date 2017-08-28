@@ -8,7 +8,7 @@ Some of our favorites include:
 - [http://jsbin.com/](http://jsbin.com/) includes a space for you to write html and css as well as Javascript so that you can incorporate some visible elements if you want.
 - [http://codepen.io/](http://codepen.io/) is a lot like jsbin, but has some more social features, and a different style of interface.  In the end they do the same thing.
 
-For real projects, it is almost always going to be better for you to write your code locally and save it with git, but there are _definitely_ times when you do not need to save what you're doing.  These websites are great for such times.
+For real projects, it is almost always going to be better for you to write your code locally and save it with git, but there are _definitely_ times when you do not need to save what you're doing, or times when you're going to want to quickly share your work with someone else.  These websites are great for such times.
 
 ## In the browser
 There will be a more in depth lesson on this later, but it is possible to write and run javascript code directly in your browser using the Developer Tools.  How you open the devtools depends on your browser and system, but for most people you'll right click on the page and click the 'Inspect' option.

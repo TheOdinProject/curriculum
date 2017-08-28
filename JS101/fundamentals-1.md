@@ -1,6 +1,9 @@
-The very first steps of learning any programming language are destined to be at least a little frustrating.  It's normal to feel lost and confused as you progress here, because no matter where you start in the material, there are definitely crucial elements of the language that you just have not been exposed to yet.  Having said that, we've _really_ tried to find the best materials to get you going as quickly and smoothly as possible. So embrace the cognitive dissonance, and let's go.
+The very first steps of learning any programming language are destined to be a little frustrating.  It's normal to feel lost and confused as you progress here, because no matter where you start in the material, there are definitely crucial elements of the language that you just have not been exposed to yet.  Having said that, we've _really_ tried to find the best materials to get you going as quickly and smoothly as possible. So embrace the cognitive dissonance, and let's go.
 
 ### Points to Ponder
+
+> Use this section to quiz yourself.  If you know all these answers then you can comfortably skip, or at least skim through this lesson.  After the lesson, come on back here and read these again to make sure you haven't missed anything crucial.
+
 * What are the 7 basic types in Javascript?
 * What is a variable, and how do you declare one in Javascript?
 * Can you name all 3 ways to declare a variable in Javascript and when would you want to use each one?
@@ -16,7 +19,7 @@ The very first steps of learning any programming language are destined to be at 
 * How do you get items out of an array? (i.e. how do you use the information you've stored)
 
 ### Step One
-1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥.  The point of it is to give you a good feel for what you're going to be able do to with your Javascript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however really learn a lot here because most of it will be over your head at this point.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
+1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥. The point of it is to give you a good feel for what you're going to be able do to with your Javascript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however really learn a lot here because most of it will be over your head at this point.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
 
 ### Variables
 You can think of variables simply as "storage containers" for data in your code.  Until recently there was only one way to declare and use a variable in Javascript (the `var` keyword) but the latest versions of Javascript include 2 more keywords that can be used depending on the situation. The following resources will tell you what you need to know!
@@ -48,9 +51,5 @@ Strings and numbers may be our building blocks but, as you can probably imagine,
 We've learned a lot!  As we mentioned above, we don't expect that you will have retained all of this information on the first go through.  Your next step then, is to _practice_.  The more you use this stuff, the better you'll retain it.  However, as you begin trying to write some code you'll almost definitely realize that you have forgotten something along the way.  Knowing where to look online is a pretty useful skill.  Take a few minutes to check out the following sites.  Get used to their layout and be ready to come right back to them when you discover you've lost something.
 1. [MDN](https://developer.mozilla.org/en-US/): this one should be familiar to you at this point...  it's the same site as most of the tutorials we've directed you to so far.  In addition to having great beginner tutorials, MDN also has very thorough and well organized documentation that even the pros use from time to time.
 2. [http://javascript.info/](http://javascript.info/), the other site we've linked to is another good resource.  Most of the content takes the form of tutorials rather than documentation, but they're more concise, and good for review... and while looking around, you might learn something else along the way which is never a bad thing.
-3. [GOOGLE](http://lmgtfy.com/?q=GOOGLE). Ok, we didn't really need to mention this one, but many times the easiest way to look for something is to simply google it.  At this point in you career you might have a harder time deciphering which information is relevant.
+3. [GOOGLE](http://lmgtfy.com/?q=GOOGLE). Ok, we didn't really need to mention this one, but many times the easiest way to look for something is to simply google it.  At this point in you career you might have a harder time deciphering which information is relevant, or which sites are likely to have the most useful information, but that's OK.  
 
-
-mostly a collection of good beginner resources:  https://github.com/jankeLearning/content-md/blob/master/js/01-js-101.md
-
-- evan

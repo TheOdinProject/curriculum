@@ -26,6 +26,7 @@ This is a rough outline of the course.  Note that it _does_ include the lessons 
 - Call, Apply and Bind
 - OOP in JS => prototypal inheritance
 - Functional Programming Concepts
+
 ### Other Stuff
 - JS + Rails
 - Frameworks:

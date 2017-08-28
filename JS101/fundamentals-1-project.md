@@ -5,13 +5,6 @@ this should be a simple-ish project that uses the things students should know at
 3. strings
 4. arrays (and array functions like forEach and map)
 
-students will NOT know about functions or DOM interaction at this point, so the project should be suitably straightforward.
-
-probably we'll roll something a lot like FCC's 'algorithm scripting' projects
-just simple(ish) problems to solve.  Maybe 5-6 of them.
-
-Could use a test-first repo, much like the ruby stuff, or could be in a repl.it project (need to research those)
-
 # lesson starts here (remove this heading)
 At this point, you should have a pretty good feel for how to write and run Javascript code in a few different contexts.  If you don't then you should definitely go back and check out the "Running Javascript" lesson. In general it is best to write an run code in a text editor on your own machine rather than in online environments, but for simple projects like this one using an online repl is acceptable.  In any case, it's time for you to start writing your own code to practice what you've learned so far!
 
@@ -47,7 +40,7 @@ In a browser the _simplest_ way to get user input is by using the `prompt()` fun
 let number = prompt('what is your favorite number?')
 console.log(number)
 ```
-Pretty easy right? Good. Gonna need that for this assignment... if you're still confused check out [this article.](http://javascript.info/alert-prompt-confirm) Note: since we're using `prompt()` for this assignment, you'll need to run your code in a browser rather than on the command line. (LINK TO 'Running Javascript' Lesson Here!!!)
+Pretty easy right? Good. Gonna need that for this assignment... if you're still confused check out [this article.](http://javascript.info/alert-prompt-confirm) Note: since we're using `prompt()` for this assignment, you'll need to run your code in a browser (jsbin or codepen will work) rather than on the command line. (LINK TO 'Running Javascript' Lesson Here!!!)
 
 Write a script that figures out a student's score on a test:
 1. Prompt the user for the number of points possible on the test and store it in a variable.

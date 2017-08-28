@@ -1,0 +1,5 @@
+- FCC introduction to functional methods is good, if we haven't already covered it by this point.
+- http://reactivex.io/learnrx/ <- awesome resource.
+- Kyle Simpson book.
+- F.Risby's book
+- ??

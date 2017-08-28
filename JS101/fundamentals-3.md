@@ -1,7 +1,3 @@
-Object BASICS (not OOP yet)
-Fancy Array functions
-??
-
 For the last leg of our tour of the basics of Javascript we're going to learn about Objects and a more in-depth look at some useful things you can do with arrays.
 
 ### Objects101

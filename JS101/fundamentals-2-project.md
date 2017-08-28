@@ -11,4 +11,4 @@ For the moment we are not going to teach you how to write these tests, because i
 ### Good Luck!
 
 1. JS test-first exercises (roll our own)
-   - We have a repo for these TheOdinProject/javascript-exercises.  Should assign a few, or all of them here.. not sure  just what yet... maybe something like the first 10
+   - We have a repo for these TheOdinProject/javascript-exercises.  Should assign a few, or all of them here.. not sure just what yet maybe something like the first 10
