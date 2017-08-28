@@ -93,13 +93,8 @@ course_position += 1
 course = create_or_update_course(
   title: "Web Development 101",
   title_url: "Web Development 101".parameterize,
-  teaser: "A Healthy Dose of Everything",
-  brief_desc: "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
   description: "This is where it all begins! A hands-on introduction to all of the essential tools you'll need to build real, working websites. You'll learn what web developers actually do – the foundations you'll need for later courses.",
   position: course_position,
-  you_learn: ["How the web really works","Basic HTML, CSS, and Javascript", "Basic Ruby, Rails, Databases and Git", "How to pair program"],
-  you_build: ["Google's homepage in HTML/CSS","A dynamic sketchpad with JS/jQuery","A series of test-first Ruby challenges", "A pomodoro clock"],
-  is_active: true
 )
 
 
@@ -589,13 +584,8 @@ course_position += 1
 course = create_or_update_course(
   title: "Ruby Programming",
   title_url: "Ruby Programming".parameterize,
-  teaser: "Become a True Rubyist",
-  brief_desc: "Time to dive deep into Ruby, the language 'designed for programmer happiness.' You'll cover object-oriented design, testing, and data structures – essential knowledge for learning other programming languages, too!",
   description: "Time to dive deep into Ruby, the language 'designed for programmer happiness.' You'll cover object-oriented design, testing, and data structures – essential knowledge for learning other programming languages, too!",
   position: course_position,
-  you_learn: ["How to write clean, effective, modular code","Working with files and scripts", "Basic algorithms and data structures"],
-  you_build: ["TicTacToe, Mastermind, and Hangman", "Chess (seriously)"],
-  is_active: true,
 )
 
 # +++++++++++
@@ -917,13 +907,8 @@ course_position += 1
 course = create_or_update_course(
   title: "Ruby on Rails",
   title_url: "Ruby on Rails".parameterize,
-  teaser: "Build Real Websites",
-  brief_desc: "Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully craft your site's backend using the Model-View-Controller design pattern. You'll gain the confidence to launch a website in under an hour.",
   description: "Take Ruby to the next level with the Ruby on Rails framework! Learn how to fully craft your site's backend using the Model-View-Controller design pattern. You'll gain the confidence to launch a website in under an hour.",
   position: course_position,
-  you_learn: ["How to build and deploy a web application from scratch","MVC like the back of your hand","Setting up the data architecture of a new site"],
-  you_build: ["A full featured Twitter clone", "A flight booking application", "A dozen others, from simple CRUD apps to APIs and Facebook"],
-  is_active: true,
 )
 
 # +++++++++++
@@ -1421,13 +1406,8 @@ course_position += 1
 course = create_or_update_course(
   title: "HTML5 and CSS3",
   title_url: "HTML5 and CSS3".parameterize,
-  teaser: "Make Your Sites Actually Look Good",
-  brief_desc: "Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.",
   description: "Good web design doesn't happen by accident. Learn how to make all that work you've done on the backend look great in a web browser! You'll be equipped to deeply understand and create your own design frameworks.",
   position: course_position,
-  you_learn: ["All about styling with CSS", "How to effectively use a front end framework like Bootstrap", "Basic principles of site layout and design"],
-  you_build: ["Several popular website visual front ends", "Your own front end framework", "A goodybag of CSS tricks and tactics"],
-  is_active: true,
 )
 
 # :description: "The trouble with being a back end guru is that you can build an awesome site that has distilled a complex problem into a clean series of modular operations and fast server calls. . . but it still looks like something from 1995.  In this unit, you'll get over your fear of CSS and begin to understand some of the more fundamental tenets of good site design.  This isn't a full course on front end design, but it should give you the tools you need to deeply understand CSS frameworks and how to put a half-decent facade on your genius backside.",
@@ -1839,13 +1819,8 @@ course_position += 1
 course = create_or_update_course(
   title: "Javascript and jQuery",
   title_url: "Javascript and jQuery".parameterize,
-  teaser: "Make Your Websites Really Dance",
-  brief_desc: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This course will wrap everything you've learned at The Odin Project into one, final capstone project.",
   description: "Make your websites dynamic and interactive with JavaScript! You'll create features and stand-alone applications. This course will wrap everything you've learned at The Odin Project into one, final capstone project.",
   position: course_position,
-  you_learn: ["How to build interactive games using HTML5 canvas","How to use a full range of jQuery effects on the DOM", "How to organize your JS into modular pieces"],
-  you_build: ["Javascript front ends for your Rails back ends", "A Javascript framework of your own","Snake, Missile Command and More"],
-  is_active: true,
 )
 
 # :description: "Javascript is taking over the world right now -- web applications are becoming more and more front-weighted.  While it used to be mostly a tool for animating drop down menus and validating form inputs, Javascript (with help from jQuery's magic) has grown into a way to produce full featured front end applications including single-page web apps.  In this section, you'll connect the Rails back ends you're an expert at building to dynamic front ends, completing the cycle to becoming a full stack web developer.  You'll learn some really nifty tricks and build some fun games along the way, too.",
@@ -2381,13 +2356,8 @@ course_position += 1
 course = create_or_update_course(
   title: "Getting Hired as a Web Developer",
   title_url: "Getting Hired as a Web Developer".parameterize,
-  teaser: "Get Paid to Keep Learning",
-  brief_desc: "Web development is a lifelong journey of learning and growth. Continue that journey on a professional development team! You'll learn where to find jobs, how to do great interviews, and the best strategies to launch your career.",
   description: "Web development is a lifelong journey of learning and growth. Continue that journey on a professional development team! You'll learn where to find jobs, how to do great interviews, and the best strategies to launch your career.",
   position: course_position,
-  you_learn: ["Where to find the appropriate job postings","How to market yourself effectively to employers", "How to ace the technical interview"],
-  you_build: ["Your personal portfolio website","A base of knowledge in more complex problem solving skills", "A clear strategy for getting hired"],
-  is_active: true,
 )
 
 # :description: "Learning on your own is a long hard road and you've come incredibly far.  Good work!  With that same level of focus and dedication, you should be able to polish off your skillsets, address your weak points, and get hired as a web developer.  Because you've still got a whole lot more to learn (it's really a lifetime journey) but now the best way to do that is by surrounding yourself with other great developers.  This course is all about that next step -- what else you'll need to know, where to find jobs, how to interview, and how to ultimately get that offer in hand.  It won't be easy, but you can do it!",
