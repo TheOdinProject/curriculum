@@ -75,6 +75,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 * Simon's solution([Caesar Cipher](https://github.com/SimonSomlai/Odin/tree/master/Ruby/cypher),[Enumerable](https://github.com/SimonSomlai/Odin/tree/master/Ruby/enumerable),[Tic Tac Toe](https://github.com/SimonSomlai/Odin/tree/master/Ruby/tic_tac_toe))
 * Luján Fernaud's solution ([Caesar Cipher](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/spec/caesar_cipher_spec.rb), [Enumerable](https://github.com/lujanfernaud/ruby-building-blocks/blob/master/spec/enumerable_spec.rb), [Tic Tac Toe](https://github.com/lujanfernaud/ruby-tic-tac-toe))
 * Cody Buffaloe's solutions ([Caesar Cipher](https://github.com/CodyLBuffaloe/caesar_cipher), [Enumerable Methods](https://github.com/CodyLBuffaloe/enumerable_methods), [Tic Tac Toe](https://github.com/CodyLBuffaloe/tic_tac_toe))
+* Anistor86's solutions ([Caesar Cipher](https://github.com/anistor86/caesar_cipher_with_specs), [Enumerable Methods](https://github.com/anistor86/enumerable_with_specs), [Tic Tac Toe](https://github.com/anistor86/tic_tac_toe))
 
 
 ### Project: TDD Connect Four
