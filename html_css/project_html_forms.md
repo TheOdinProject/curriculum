@@ -1,4 +1,4 @@
-In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.  
+In this project, you'll get a chance to rebuild the form used by [Mint.com](http://www.mint.com) for signing up new users.  They have been highly praised for the design and simplicity of their site, and their signup process is very clean.
 
 The page is very straightforward, so you should be able to clone it even if your CSS skills aren't perfect.  As usual, don't worry about any of the dynamic functionality on the page or finding the specific icons they use or having the form actually submit.  The point is to make it *look* like the real page as much as you reasonably can.
 
@@ -18,6 +18,7 @@ The page is very straightforward, so you should be able to clone it even if your
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/spare-mint) | [Live](https://holdercp.github.io/spare-mint/)
 * [Justine's solution](https://github.com/Hannibalony/Hannibalony.github.io/tree/master/mint-form) | [View in browser](https://hannibalony.github.io/mint-form/)
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/html_form) | [View in browser](https://yilmazgunalp.github.io/html_form/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/mint.com) | [View in browser](https://bottlecaps4.github.io/mint.com/)
