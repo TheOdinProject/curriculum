@@ -3,11 +3,13 @@ Because JavaScript is the language of the web, there are some functions that by 
 
 ## Points to Ponder
 1. What is a callback?
+1. What's a promise?
+1. What are circumstances when promises are better than callbacks?
+1. What does the `.then()` function do?
 
 ## Callbacks
 In the recent past, the way that these things were most commonly handled was with __callbacks__, and even now they are still used quite a lot in certain circumstances.
 
-> ### Callback definition
 > A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 
 Callbacks are simply functions that get passed into other functions. For example:
