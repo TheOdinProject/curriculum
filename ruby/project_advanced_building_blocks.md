@@ -35,6 +35,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Omar Moataz's solution](https://github.com/omarmoatazpracticehub/sorting)
 * [jdrobertso's solution](https://github.com/jdrobertso/bubble_sort)
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/bubble_sort.rb)
 * [endotnick's solution](https://github.com/endotnick/sorts/blob/master/bubble_sort/bubble_sort.rb)
