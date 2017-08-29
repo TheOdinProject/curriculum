@@ -14,11 +14,11 @@ There are three ways to open the Developer Tools menu:
 
 1. Watch [this video](https://www.youtube.com/watch?v=wcFnnxfA70g) by Jose Vidal on how to use the Developer Tools menu.
 2. Read over the [Chrome DevTools Documentation](https://developer.chrome.com/devtools) by Google. Pay particular attention to sections "Accessing the DevTools" through "Debugging Javascript" since this is what you'll use the Developer Tools for 95% of the time.
-3. Learn to inspect HTML page elements by reading through [this article](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/) by Google, then continue on to [Edit the DOM](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
-4. Practice your DevTool skills with [this interactive](https://developers.google.com/web/tools/chrome-devtools/css/)  DevTools CSS overview.
-5. Finally, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the Javascript Console.
+3. Finally, watch [this video](https://www.youtube.com/watch?v=JzZFccCEgGA) by The Net Ninja for more detail on using the Javascript Console.
 
 These resoures should give you a pretty good starting point for understading how to use DevTools.  The more you use and understand the abilities of Dev Tools the easier your life as a developer becomes.
 
 ## Additional Resources
 1. Learn 14 tips and tricks in this [JavaScript 30 Video](https://www.youtube.com/watch?v=xkzDaKwinA8) by Wes Bos
+2. Learn to inspect HTML page elements by reading through [this article](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/) by Google, then continue on to [Edit the DOM](https://developers.google.com/web/tools/chrome-devtools/inspect-styles/edit-dom)
+3. Practice your DevTool skills with [this interactive](https://developers.google.com/web/tools/chrome-devtools/css/)  DevTools CSS overview.
