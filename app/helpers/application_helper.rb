@@ -104,6 +104,11 @@ module ApplicationHelper
           '<p>Yes! The Odin Project is an open-source project created and maintained by hard working volunteers. To find out how you can help us, please visit our how to <a href="/contributing">contribute page</a>.</p>'
       },
       {
+        question: 'Will I get a certificate on completion of the course?',
+        answer:
+          '<p>No. A certificate for completing The Odin Project won\'t get you a job. Without a relevant qualification you\'ll need an awesome personal portfolio and cool personality. The Odin Project has plenty of great projects that will build your portfolio.</p>'
+      },
+      {
         question: 'Can I use this curriculum to teach?',
         answer: <<~FAQ_ANSWER
           <p>The Odin Project is licensed under two pieces: the curriculum and the main website.  The main website is a fully open-source project <a href="https://github.com/TheOdinProject/theodinproject/blob/master/license.txt">under an MIT license</a>, so you can use the code for whatever you want.  The curriculum is currently licensed under a <a href="https://github.com/TheOdinProject/curriculum/blob/master/license.md">Creative Commons license</a> which restricts it to noncommercial use without prior authorization.</p>
@@ -193,7 +198,7 @@ module ApplicationHelper
     { 'notice' => 'alert-success', 'alert' => 'alert-danger' }
   end
 
-   def medium_blog_path
+  def medium_blog_path
     'https://medium.com/the-odin-project'
   end
 end
