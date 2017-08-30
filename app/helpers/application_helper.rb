@@ -106,7 +106,7 @@ module ApplicationHelper
       {
         question: 'Will I get a certificate on completion of the course?',
         answer:
-          '<p>No. A certificate for completing The Odin Project won\'t get you a job. Without a relevant qualification you\'ll need an awesome personal portfolio and cool personality. The Odin Project has plenty of great projects that will build your portfolio.</p>'
+          '<p>We don\'t provide a certificate for course completion. Employers will be much more impressed with your amazing personal portfolio of projects, many of which you\'ll hopefully have built with inspiration from The Odin Project.</p>'
       },
       {
         question: 'Can I use this curriculum to teach?',
