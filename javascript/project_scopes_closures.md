@@ -32,6 +32,7 @@ Build a tic-tac-toe game in the browser where two human players can play against
 * [Austin's solution](https://github.com/CouchofTomato/js-tictactoe) | [View in browser](https://couchoftomato.github.io/js-tictactoe/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/tictactoe/index.html "Tic-tac-toe")
+* [John Brock's Three Board Misère Rules Tic Tac Toe](https://github.com/Khanthulhu/tic-tac-toe) | [Play in Browser](https://khanthulhu.github.io/tic-tac-toe/)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_5_TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_5_TicTacToe/index.html)
 * [Steve's solution](https://github.com/beesmart/JS_tictactoe) | [View in browser](http://beesmart.github.io/JS_tictactoe)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/TicTacToe/index.html)
