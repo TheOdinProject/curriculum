@@ -1199,6 +1199,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [ainevethe's solution (Easy)](https://github.com/ainevethe/google-homepage/) | [View in browser](https://ainevethe.github.io/google-homepage/)
 * [Miguel Tavares' solution (Easy)](http://migueltavar.es/google-homepage/) | [View in browser](http://migueltavar.es/google-homepage/)
 * [Muhammad's solution (Easy)](https://github.com/Tekkie7/google-homepage) | [View in browser](https://tekkie7.github.io/google-homepage/)
+* [heimdall01's solution (Easy) https://cdn.rawgit.com/bitsurfer21/google-homepage/98df5fa9/index.html 
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
