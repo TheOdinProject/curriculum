@@ -9,7 +9,7 @@
       background-color:#fff;
       border-radius:50%;
       overflow: hidden;
-      
+
       @include media-breakpoint-down(sm) {
         margin: 0 auto;
       }
@@ -61,6 +61,15 @@
   .skills-progress {
     .skills-progress-heading {
       margin-bottom: 100px;
+
+      &__sub-heading {
+        width: 60%;
+        margin: 0 auto;
+
+        @include media-breakpoint-down(md) {
+          width: 90%;
+        }
+      }
     }
 
     .skill-progress {
