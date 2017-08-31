@@ -157,7 +157,7 @@ You should now be able to open the html file in your browser, and while you won'
 
 Now we have a JavaScript object.. and if you inspect it closely enough you'll find that the data we need (an image url) is nested rather deeply inside the object:
 
-IMAGE HERE
+![response](./images/apiresponse.png)
 
 To get to the data we just need to drill down through the layers of the object until we find what we want!
 
