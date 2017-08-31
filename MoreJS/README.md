@@ -5,7 +5,7 @@ The rest of the curriculum (after JS101) digs deeper and deeper into what all it
 
 ## Intermediate JS
 1. Promises
-1. AJAX stuff
+1. API stuff
 1. Testing (writing tests and TDD in general)
 1. ES6 features (classes, arrows, destructuring, babel)
 1. Webpack
