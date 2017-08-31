@@ -343,14 +343,9 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Oliver Curting's Solution](https://github.com/Curting/learn_ruby)
 * [Sheldon K's Solution](https://github.com/Leviax7/learn_ruby)
 * [coryparham24's Solution](https://github.com/coryparham24/learn_ruby)
-<<<<<<< HEAD
-* [Tshepo Mohlamonyane's Solution](https://https://github.com/blavkboy/learn_ruby)
-=======
 * [darrenusc's Solution](https://github.com/darrenusc/learn_ruby)
 * [Alex's solutions](https://github.com/alexcorremans/learn_ruby)
-
->>>>>>> a2ce31b43310b5cdc427b00ca4010f1cd3bb7f41
-
+* [Tshepo Mohlamonyane's Solution](https://https://github.com/blavkboy/learn_ruby)
 
 ### Additional Resources
 
