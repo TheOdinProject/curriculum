@@ -28,6 +28,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [danhofer's interactive solutions](https://github.com/danhofer/project-euler) | [View in browser](https://danhofer.github.io/project-euler)
+* [dgwn's Solutions](https://github.com/dgwn/project-euler)
+* [Ed Magalhaes's Solutions for problems 1 and 2](https://github.com/EdMagal/OdinProject_JSBasic001)
 * [Jon Motyka's Solutions for problems 1 and 2](https://github.com/microjrm/project-euler)
 * [Thanan's Solutions for problems 1 & 2](https://github.com/uhohjungo/project-euler-problems)
 * [Franklyn Afeso's Solutions for Problem 1 & 2](https://github.com/afeso/projectEuler/tree/master/scripts) | [View in Browser](https://afeso.github.io/projectEuler)
@@ -516,6 +519,13 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Mayank Patel's Solution](https://github.com/maknahar/maknahar.github.io/tree/master/op/euler) | [View in Browser](https://maknahar.github.io/op/euler/)
 * [Daniel T's Solution](https://github.com/dnyy/Project-Euler) | [View in Browser] (https://dnyy.github.io/Project-Euler/)
 * [Brandon B's Solution to Problem 1](https://github.com/bmbost/projecteuler/tree/master/prob1) / [View in Browser](https://bmbost.github.io/projecteuler/prob1/)
+* [Alex's solutions to problems 1 & 2](https://github.com/alexcorremans/euler-JS)
+* [Joey Robertson's Solution to 1 & 2](https://github.com/JoeyRobertson/js_euler/)
+* [Nevin Herring's Solution](https://github.com/nevinherring/) | [View in Browser](https://github.com/nevinherring/projectEuler)
+* [Rwasa's Solution](https://github.com/rwasa/) | [View in Browser](https://github.com/rwasa/git_test)
+* [MPalhidai's Solution & Project Euler Repo](https://github.com/MPalhidai/Project-Euler)
+
+
 
 ### Additional Resources
 

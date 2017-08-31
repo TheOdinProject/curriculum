@@ -91,6 +91,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
+* [Dan Hofer's Solution (Easy)](https://github.com/danhofer/google-homepage) | [View in browser](https://danhofer.github.io/google-homepage/)
+* [Ed Magalhaes's Solution (Easy)](https://github.com/EdMagal/google_homepage) | [View in browser](https://EdMagal.github.io/google_homepage/)
 * [Jon Motyka's Solution (Easy)](https://github.com/microjrm/google-homepage) | [View in browser](https://microjrm.github.io/google-homepage/)
 * [Thanan's solution (Easy)](https://github.com/uhohjungo/google-homepage) | [View in browser](https://uhohjungo.github.io/google-homepage/)
 * [Adil Asif's solution (Easy)](https://github.com/adilasif/google-homepage) | [View in browser](https://adilasif.github.io/google-homepage/)
@@ -1165,7 +1167,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Lee Rogers's Solution(Easy)](https://github.com/eleerogers/google-homepage) | [View in browser](https://eleerogers.github.io/google-homepage/)
 * [Tshepo Mohlamonyane's Solution(Easy)](https://github.com/blavkboy/google-homepage.git) | [View in browser](https://blavkboy.github.io/google-homepage/)
 * [Jash Vaidya's Solution(Easy)](https://https://github.com/JashVaidya/Google) | [View in browser](https://JashVaidya.github.io/Google/)
-* [Lee Munro's Solution (Easy & Difficult)](https://github.com/LJMunro1987/google-homepage) | [View in browser (Easy)](https://ljmunro1987.github.io/google-homepage/) 
+* [Lee Munro's Solution (Easy & Difficult)](https://github.com/LJMunro1987/google-homepage) | [View in browser (Easy)](https://ljmunro1987.github.io/google-homepage/)
 * [James Kamana's Solution(Difficult)](https://github.com/JayKamana/google-homepage) | [View in browser](https://jaykamana.github.io/google-homepage/)
 * [Renan Silva's Solution(Easy)](https://github.com/renantsilva/google-homepage) | [View in browser](https://renantsilva.github.io/google-homepage/)
 * [Shane Butler's Solution(Easy)](https://shaneausley.github.io/google-hompage/) | [View in browser](https://shaneausley.github.io/google-hompage/)
@@ -1178,6 +1180,26 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [RedTiger0814's Solution (Difficult)](https://github.com/RedTiger0814/google-homepage) | [View in browswer](https://rawgit.com/RedTiger0814/google-homepage/master/difficult-version/index.html)
 * [toaster_with_wheels' Solution (Easy)](https://github.com/damianed/google-homepage) | [View in browser](https://damianed.github.io/google-homepage/)
 * [Rickey's Solution (Easy)](https://github.com/rickeyolsen/google-homepage) | [View in browser](https://rickeyolsen.github.io/google-homepage/)
+* [Justanity's Solution (Easy)](https://github.com/justanity/google-homepage) | [View in browser](https://justanity.github.io/google-homepage/)
+* [Alex's Solution (Easy)](https://github.com/alexcorremans/google-homepage) | [View in browser](https://alexcorremans.github.io/google-homepage/)
+* [ShimmerJ's Solution (Easy)](https://github.com/ShimmerJ/google-homepage.git)
+* [Onur's Solution (Easy)](https://github.com/deksudo/google_homepage) | [View in browser](https://deksudo.github.io/google_homepage/)
+* [Joey Robertson's Solution (Easy)](https://github.com/JoeyRobertson/google_homepage) | [View in browser](https://joeyrobertson.github.io/google_homepage/index.html)
+* [Jonathan Senior's Solution (Difficult)](https://github.com/Jonosenior/google-resultspage) | [View in browser](https://jonosenior.github.io/google-resultspage/)
+* [Anton Shelepov's Solution (Easy)](https://anton812s.github.io/google-homepage) | [View in browser](https://anton812s.github.io/google-homepage/index.html)
+* [Nevin Herring's Solution(Easy)](https://github.com/nevinherring) | [View in Browswer](https://nevinherring.github.io/google_homepage/)
+* [Rwasa's Solution(Easy)](https://github.com/rwasa) | [View in Browswer](https://rwasa.github.io/google-homepage/)
+* [WilPoly's Solution (Easy)](https://github.com/wilPoly/google-homepage) | [View in browser](https://wilpoly.github.io/google-homepage/)
+* [JVG Parkes's Solution (Easy)](https://github.com/jvgparkes/google-homepage) | [View in browser](https://jvgparkes.github.io/google-homepage/)
+* [DearLorditsNates's Solution (Easy)](https://github.com/DearLorditsNate/google-homepage) | [View in browser](https://dearlorditsnate.github.io/google-homepage/)
+* [wordjames'Solution (Easy)](https://github.com/wordjames/the-odin-project/tree/master/Ch_02-Web_Development_101/google_homepage) | [View in browser](https://wordjames.github.io/the-odin-project/Ch_02-Web_Development_101/google_homepage/)
+* [dgwn's Solution (Easy)](https://github.com/dgwn/google-homepage) | [View in browser](https://dgwn.github.io/google-homepage/)
+* [retrazil's solution (Easy)](https://github.com/retrazil/google-homepage) | [View in browser](https://retrazil.github.io/google-homepage/)
+* [retrazil's solution (Difficult)](https://github.com/retrazil/google-search) | [View in browser](https://retrazil.github.io/google-search/)
+* [ainevethe's solution (Easy)](https://github.com/ainevethe/google-homepage/) | [View in browser](https://ainevethe.github.io/google-homepage/)
+* [Miguel Tavares' solution (Easy)](http://migueltavar.es/google-homepage/) | [View in browser](http://migueltavar.es/google-homepage/)
+* [Muhammad's solution (Easy)](https://github.com/Tekkie7/google-homepage) | [View in browser](https://tekkie7.github.io/google-homepage/)
+* [heimdall01's solution (Easy)](https://cdn.rawgit.com/bitsurfer21/google-homepage/98df5fa9/index.html)
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

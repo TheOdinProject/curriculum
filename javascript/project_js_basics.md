@@ -31,7 +31,9 @@ It's time to build an on-screen calculator
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
-* [Leah Xia's solution](https://github.com/LeahXia/OnScreenCalculator.git) | [View in browser](http://leahxia.com/internal-links/OnScreenCalculator/index.html) 
+* [jfonz001's solutions](https://github.com/jfonz412/calculator) | [View in browser](https://jfonz412.github.io/calculator/)
+* [Jcan solution](https://github.com/justinemar/js-calculator) | [View in browser](https://htmlpreview.github.io/?https://github.com/justinemar/js-calculator/blob/master/index.html)
+* [Leah Xia's solution](https://github.com/LeahXia/OnScreenCalculator.git) | [View in browser](http://leahxia.com/internal-links/OnScreenCalculator/index.html)
 * [Austin's solution](https://github.com/CouchofTomato/js-calculator) | [View in browser](https://couchoftomato.github.io/js-calculator/) - Without jquery
 * [Rhys B's solution](https://github.com/105ron/calculator) | [View in browser](https://105ron.github.io/calculator/) - Without jquery
 * [Serboteiu Cosmin's solution](https://github.com/Annno/Calculator-VanillaJS) | [View in browser](https://annno.github.io/Calculator-VanillaJS/) - Without jquery
@@ -94,6 +96,7 @@ It's time to build an on-screen calculator
 * [John's Solution](https://github.com/Khanthulhu/onScreenCalculator) | [View in breowser](https://khanthulhu.github.io/onScreenCalculator/) - without JQuery
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Calculator) | [View in browser](https://ncud4bloc.github.io/Calculator/HTML/index.html)
 * [Daniel Aguilar's solution](https://github.com/danaguilar/js-calculator) | [View in browser](https://danaguilar.github.io/js-calculator/)
+* [jlo4's solution](https://github.com/jlo4/calculator) | [View in browser](https://rawgit.com/jlo4/calculator/master/index.html)
 
 ### Additional Resources
 

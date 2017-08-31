@@ -21,6 +21,8 @@ Enough talk! Lets build!
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!*
 
 Add your solution below this line!
+* [Qin's Solution](https://github.com/hyathynth/pomodoro-clock) | [View in Browser](https://hyathynth.github.io/pomodoro-clock/)
+* [Jonathan Yiv's Solution](https://github.com/JonathanYiv/pomodoro) | [View in Browser](https://jonathanyiv.github.io/pomodoro/)
 * [GuyInALabCoat's Solution](https://github.com/GuyInALabCoat/Pomodoro_clock) | [View in Browser](https://guyinalabcoat.github.io/Pomodoro_clock/)
 * [Justinckim3's Solution](https://github.com/justinckim3/pomodoro) | [View in Browser](https://justinckim3.github.io/pomodoro/)
 * [Kasey Z.'s Solution](https://github.com/kasey-z/Pomodoro-Clock/) | [View in Browser](https://kasey-z.github.io/Pomodoro-Clock/)
@@ -42,6 +44,8 @@ Add your solution below this line!
 * [Luinu's Solution](https://github.com/luinu/pomodoro) | [View in Browser](https://luinu.github.io/pomodoro/)
 * [Harrison's Solution](https://github.com/okeharlyon/Promodo-Clock)
 * [Anistor86 & Isashimitsui's Solution](https://github.com/anistor86/pomodoroclock) | [View in Browser](https://anistor86.github.io/pomodoroclock/)
+* [coryparham24's Solution](https://github.com/coryparham24/pomodoro-clock) | [View in Browser](https://cdn.rawgit.com/coryparham24/pomodoro-clock/7b1e6a88/index.html)
+* [Oliver Curting's Solution](https://github.com/Curting/pomodoro) | [View in Browser](https://curting.github.io/pomodoro/)
 
 ### Next Steps
 

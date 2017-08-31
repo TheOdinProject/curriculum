@@ -16,6 +16,7 @@ In this lesson we will cover common git commands used to manage your projects an
 1. [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
 Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
 2. Now complete the first interactive lesson in the [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
+3. Watch this [video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic git commands
 
 ### A Cheatsheet
 Here is a reference list of the most commonly used git commands (you might consider bookmarking this handy webpage). Try to familiarise yourself with the commands and then eventually remember them:
@@ -52,6 +53,6 @@ Don't worry if you don't know all the commands yet or that they don't stick at t
 
 * An introductory guide by [Michael Hartl](http://www.michaelhartl.com/) called [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
 * An easy-to-read, pragmatic guide to using Git available online from [RyPress](http://rypress.com/tutorials/git/index), also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC)
-* [Git Reference](http://gitref.org/) is another official Git resource, providing quick instructions for using common commands.
+* [Git Reference](https://git-scm.com/docs) is another official Git resource, providing quick instructions for using common commands.
 * This very thorough and well laid out tutorial from [Atlassian](https://www.atlassian.com/git/tutorials/)
 * For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2)

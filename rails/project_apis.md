@@ -86,6 +86,7 @@ This project may seem simple, but now you've got a website that is both a normal
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's solution](https://github.com/mindovermiles262/odin-kittens)
 * [holdercp's solution](https://github.com/holdercp/odin-kittens)
 * [Joshua Wootonn's solution](https://github.com/jose56wonton/kittens)
 * [jfonz412's solution](https://github.com/jfonz412/odin-kittens)
@@ -149,6 +150,8 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [mindovermiles262's solution](https://github.com/mindovermiles262/flickr-api) | [View in browser](https://flickr-api-ad.herokuapp.com/)
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_flickr) | [View in browser](https://still-spire-50621.herokuapp.com/)
 * [Joshua Wootonn's solution](https://github.com/jose56wonton/flickr_api_test)
 * [holdercp's solution](https://github.com/holdercp/flickr-feed) | [View in browser](https://stark-brook-63398.herokuapp.com/)
 * [Austin's solution](https://github.com/CouchofTomato/odin_flikr)

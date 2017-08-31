@@ -32,7 +32,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 6. The Users Index page lists all users and buttons for sending Friend Requests to those who are not already friends or who don't already have a pending request.
 7. Sign in should use [Omniauth](https://github.com/plataformatec/devise/wiki/OmniAuth:-Overview) to allow a user to sign in with their real Facebook account.  See the [RailsCast](http://railscasts.com/episodes/360-facebook-authentication?view=asciicast) on FB authentication with Devise for a step-by-step look at how it works.
 8. Set up a [mailer](http://guides.rubyonrails.org/action_mailer_basics.html) to send a welcome email when a new user signs up.  Use the `letter_opener` gem ([see docs here](https://github.com/ryanb/letter_opener)) to test it in development mode.
-8. Deploy your App to Heroku.  
+8. Deploy your App to Heroku.
 9. Set up the [SendGrid add-on](https://devcenter.heroku.com/articles/sendgrid) and start sending real emails.  It's free for low usage tiers.
 
 *Extra Credit:*
@@ -55,6 +55,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [holdercp's solution](https://github.com/holdercp/odin-facebook) | [Live site](https://friend-space.herokuapp.com/)
 * [jfonz412's Solution](https://github.com/jfonz412/facebook-clone) | [View in browser](https://mysterious-anchorage-62529.herokuapp.com/)
 * [Sic's Solution](https://github.com/sic-f/fb) | [View in browser](https://efbook.herokuapp.com)
 * [Rob's Solution](https://github.com/RobPando/odin-book) | [View in browser](https://robodinbook.herokuapp.com)

@@ -159,8 +159,13 @@ This is obviously a somewhat incomplete solution... We currently need to create 
 * [Sophia Wu's solution](https://github.com/SophiaLWu/members-only) | [View in browser](https://salty-mesa-44756.herokuapp.com/)
 * [at0micr3d's solution](https://github.com/at0micr3d/members-only) | [View in browser](https://floating-atoll-55409.herokuapp.com/)
 * [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/members_only) | [View in browser](https://langenfeld-members-only.herokuapp.com/)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/Members_only) | [View in browser](https://membersonly-170388.herokuapp.com/)
+* [Luján's Fernaud solution](https://github.com/lujanfernaud/menbaa) | [View in browser](https://menbaa.herokuapp.com/)
 
 
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+* [Railscasts #250 Authentication from Scratch](http://railscasts.com/episodes/250-authentication-from-scratch-revised)
+* [Railscasts #274 Remember Me & Reset Password](http://railscasts.com/episodes/274-remember-me-reset-password)

@@ -183,6 +183,8 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Joe Himes's solution](https://github.com/deedle42/micro-reddit)
 * [Niño Mollaneda's solution](https://github.com/ninoM/micro-reddit)
 * [Tom Westerhout's solution](https://github.com/TomWesterhout/micro-reddit)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-micro-reddit)
+* [Pat's solution](https://github.com/Pat878/micro-reddit)
 
 ### Additional Resources
 

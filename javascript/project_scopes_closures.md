@@ -1,4 +1,4 @@
-### Project: Tic Tac Toe in Javascript
+﻿### Project: Tic Tac Toe in Javascript
 
 If you went through the [Ruby course](/ruby-programming), you had a chance to build Tic Tac Toe to test your OOP skills.  If you did, you'll have a leg up because you'll be building those project now for the browser.
 
@@ -26,9 +26,13 @@ Build a tic-tac-toe game in the browser where two human players can play against
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Joshua W's solution](https://github.com/jose56wonton/js-tic-tac-toe) | [View in browser](http://joshuawootonn.com/js-tic-tac-toe/)
+* [jlo4's solution](https://github.com/jlo4/tic-tac-toe) | [View in browser](https://rawgit.com/jlo4/tic-tac-toe/master/index.html#)
+* [Rhys B's solution](https://github.com/105ron/noughts-and-crosses) | [View in browser](https://105ron.github.io/noughts-and-crosses/)
 * [Austin's solution](https://github.com/CouchofTomato/js-tictactoe) | [View in browser](https://couchoftomato.github.io/js-tictactoe/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/tictactoe/index.html)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/tictactoe) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/tictactoe/index.html "Tic-tac-toe")
+* [John Brock's Three Board Misère Rules Tic Tac Toe](https://github.com/Khanthulhu/tic-tac-toe) | [Play in Browser](https://khanthulhu.github.io/tic-tac-toe/)
 * [Marina Sergeyeva's solution](https://github.com/imousterian/OdinProject/tree/master/Project5_5_TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/imousterian/OdinProject/blob/master/Project5_5_TicTacToe/index.html)
 * [Steve's solution](https://github.com/beesmart/JS_tictactoe) | [View in browser](http://beesmart.github.io/JS_tictactoe)
 * [Ryan Jordan's solution](https://github.com/krjordan/odin-project/tree/master/TicTacToe) | [View in browser](http://htmlpreview.github.io/?https://github.com/krjordan/odin-project/tree/master/TicTacToe/index.html)
