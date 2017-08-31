@@ -13,14 +13,14 @@ checkbox).
   <% if current_user.completed_lesson?(lesson) %>
   
     <%= form_tag lesson_completion_path(:lesson_id => lesson.id), :method => "DELETE", :remote => true do %>
-      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed">
+      <a href="#" class="lc-checkbox lc-checked" title="Uncheck to mark lesson not completed"  data-lessonurl="<%= lesson.url %>">
       </a>
     <% end %> 
   
   <% else %>
   
     <%= form_for LessonCompletion.new, :method => "POST", :remote => true do |f| %>
-      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed">
+      <a href="#" class="lc-checkbox lc-unchecked"  title="Check to mark lesson completed"  data-lessonurl="<%= lesson.url %>">
         <%= hidden_field_tag(:lesson_id, lesson.id) %>
       </a>
     <% end %> 

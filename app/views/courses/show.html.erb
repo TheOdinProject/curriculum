@@ -52,7 +52,7 @@
 
                   <% if user_signed_in? %>
                       <div id="lc-id-<%= lesson.id %>" class="lc-checkbox-wrapper">
-                        <%= render :partial => "shared/lc_index", :locals => { :lesson => lesson } %>
+                        <%= render :partial => "shared/lc_index", :locals => { :lesson => lesson} %>
                       </div>
                   <% end %>
 
