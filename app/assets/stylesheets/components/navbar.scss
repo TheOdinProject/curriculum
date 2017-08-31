@@ -13,7 +13,7 @@
     border: none;
     padding: 0;
     right: 0;
-    
+
     .close {
       display: block;
       margin-top: 8px;
@@ -58,15 +58,14 @@
       flex-direction: column;
 
       .nav-link {
-        color: #676767;
+        color: $grey;
         text-decoration: none;
         letter-spacing: 0.2px;
         font-size: 1.1em;
-        border-bottom: 2px solid transparent;
+        font-weight: bold;
 
         &:hover {
           color: $black;
-          border-bottom: 2px solid $black;
         }
       }
     }
@@ -100,7 +99,7 @@
     }
 
     #dash-active {
-      border-bottom:2px solid $light-grey; 
+      border-bottom:2px solid $light-grey;
     }
 
     .menu-options li {
