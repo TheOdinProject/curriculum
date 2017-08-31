@@ -1,6 +1,3 @@
- - curated list of open APIs : [HERE](https://github.com/abhishekbanthia/Public-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning)
-E)
-
 One of the most powerful things a web developer can do is fetch some data from a server somewhere and then display it creatively on their site.  In many cases the server is one that exists only for that specific site, it could contain blog posts, user data, high scores for a game or anything else.  In other cases, the server is an open service that serves data to anyone that wants to use it, for example weather data or stock prices.  In either case, the methods of accessing and then using that data are essentially the same.
 
 ## APIs
