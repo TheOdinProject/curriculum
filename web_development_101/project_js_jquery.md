@@ -35,6 +35,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Jon Motyka's solution](https://github.com/microjrm/etch-a-sketch) | [View in browswer](https://microjrm.github.io/etch-a-sketch/)
+* [RaduMatees's solution](https://github.com/RaduMatees/Sketchpad) | [View in browser](https://radumatees.github.io/Sketchpad/)
 * [rublen's solution](https://github.com/rublen/sketchpad) | [View in browser](https://rublen.github.io/sketchpad/)
 * [flintmayers' solution](https://github.com/FlintMayers/etch-a-sketch) | [View in browser](https://flintmayers.github.io/etch-a-sketch/)
 * [gfintel24's solution](https://github.com/Gfintel24/sketchpad) | [View in browser](https://gfintel24.github.io/sketchpad/)
@@ -693,3 +695,6 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Alabi Emmanuels's solution](https://github.com/Bobslegend61/Etch-A-Sketch) | [View in browser](https://bobslegend61.github.io/Etch-A-Sketch/)
 * [James Kamana's solution](https://github.com/JayKamana/Etch-A-Sketch) | [View in browser](https://jaykamana.github.io/Etch-A-Sketch/)
 * [Lorrie Pearson's solution](https://github.com/Lorrie01/sketch_project)| [View in browser](https://lorrie01.github.io/sketch_project/)
+* [Ben Simpson's solution](https://github.com/BenBSimpson/etch-a-sketch)| [View in browser](https://benbsimpson.github.io/etch-a-sketch/)
+* [Huy Anh's solution](https://github.com/huyanh10tin/javascript_jquery)| [View in browser](https://rawgit.com/huyanh10tin/javascript_jquery/master/index.html)
+

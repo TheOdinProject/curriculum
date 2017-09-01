@@ -244,5 +244,8 @@ In this lesson we covered some of the more advanced associations material.  Asso
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
+* [Brush up Your Knowledge of Rails Associations](https://www.sitepoint.com/brush-up-your-knowledge-of-rails-associations/)
 * [An example of polymorphic associations](http://terenceponce.github.io/blog/2012/03/02/polymorphic-associations-in-rails-32/)
-* [RailsCast on Polymorphic Associations](http://railscasts.com/episodes/154-polymorphic-association-revised)
+* [RailsCasts #154 Polymorphic Association](http://railscasts.com/episodes/154-polymorphic-association-revised)
+* [Comments with Polymorphic Associations](https://gorails.com/episodes/comments-with-polymorphic-associations)
+* [RailsCasts Pro #394 STI and Polymorphic Associations](http://railscasts.com/episodes/394-sti-and-polymorphic-associations)
