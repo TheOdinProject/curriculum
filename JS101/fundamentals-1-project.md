@@ -61,7 +61,8 @@ Let's pretend that we have some code that not only calculates scores for us, but
 const scores = [44, 65, 98, 97, 78, 55, 98, 79]
 ```
 
-If we have that array, there are many useful things we can do... many of which you'll learn in greater depth later.  For now try this:  
+If we have that array, there are many useful things we can do... many of which you'll learn in greater depth later.  For now try this:
+
 1. Copy that scores array into the top of your code.  
 2. Calculate and log the sum of all the scores. \(you can do this more efficiently using loops, but don't worry about that yet, we'll learn that in the next lesson.  Just add them all together manually... there are 8 values in the array\)  For reference, the correct answer is `614`.  
 3. Calculate the average test score. \(it's `76.75`\)  
