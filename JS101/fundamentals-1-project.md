@@ -42,7 +42,7 @@ Once you've gotten that \(congratulations BTW\) let's change the code to make it
 
 ### Assignment 2
 
-In a browser the _simplest_ way to get user input is by using the `prompt()` function.\(we'll cover _better_ ways to do that in a later lesson\) It's used like this:
+In a browser the _simplest_ way to get user input is by using the `prompt()` function. \(we'll cover _better_ ways to do that in a later lesson\) `prompt()` is used like this:
 
 ```javascript
 let number = prompt('what is your favorite number?')
