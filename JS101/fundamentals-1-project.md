@@ -22,7 +22,7 @@ const lastName = "Stevenson"
 
 const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old."
 
-console.log(infoString)
+console.log(greeting)
 ```
 
 Can you tell what it does? Ok, it's pretty simple, so I doubt there's any mystery there, but just to check yourself, go ahead and paste the code and run it wherever you've decided to do your work today.
