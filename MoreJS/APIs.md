@@ -188,6 +188,8 @@ Running the file now should log the url of the image... so all that's left to do
 
 If all goes well, then you should be seeing a new image on the page every time you refresh!
 
+If you have gotten lost along the way check out [this jsbin project](http://jsbin.com/canofar/edit?html,output).  Besides the glorious styling, this is what your version should look like.
+
 ### Assignment
 1. Read the fetch documentation [here](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch).  It's not all that complicated to use, but we've only really scratched the surface at this point.
 1. Check out [this list](https://github.com/abhishekbanthia/Public-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning#natural-language-processing) of free, open APIs and let your imagination go wild.
