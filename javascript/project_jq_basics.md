@@ -16,6 +16,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 
 ### Student Solutions
 * Add your solution below this line!
+* [Flint Mayers' solution](https://github.com/FlintMayers/odin-jquery-dom-manipulation) | [View in browser](https://flintmayers.github.io/odin-jquery-dom-manipulation/)
 * [Rhys B's solution](https://github.com/105ron/js-restaurant) | [View in browser](https://105ron.github.io/js-restaurant/)
 * [Austin's solution](https://github.com/CouchofTomato/restaurant) | [View in browser](https://couchoftomato.github.io/restaurant/)
 * [Axel's solution](https://github.com/afuh/react-browsing) | [View in browser](https://afuh.github.io/react-browsing/)
