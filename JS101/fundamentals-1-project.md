@@ -1,13 +1,3 @@
-# REMOVE THIS SECTION
-
-this should be a simple-ish project that uses the things students should know at this point including:  
-1. variables  
-2. numbers/operators  
-3. strings  
-4. arrays \(and array functions like forEach and map\)
-
-# lesson starts here \(remove this heading\)
-
 At this point, you should have a pretty good feel for how to write and run Javascript code in a few different contexts.  If you don't then you should definitely go back and check out the "Running Javascript" lesson. In general it is best to write an run code in a text editor on your own machine rather than in online environments, but for simple projects like this one using an online repl is acceptable.  In any case, it's time for you to start writing your own code to practice what you've learned so far!
 
 ### Assignment 1
@@ -35,7 +25,8 @@ Now, delete the code and try to recreate it without looking at the original exam
 // print the greeting with console.log
 ```
 
-Once you've gotten that \(congratulations BTW\) let's change the code to make it a little easier to read:  
+Once you've gotten that \(congratulations BTW\) let's change the code to make it a little easier to read:
+
 1. add 2 more variables: `fullName` and `age`  
 2. change the greeting string to use `fullName` and `age` instead of doing the calculations in the string itself. \(the greeting should look _something_ like this: `"Hello, my name is " + fullName`\)  
 3. do NOT simply type the full name and age into the new variables, but set them using the calculations that were originally done in the greeting.
@@ -51,7 +42,8 @@ console.log(number)
 
 Pretty easy right? Good. Gonna need that for this assignment... if you're still confused check out [this article.](http://javascript.info/alert-prompt-confirm) Note: since we're using `prompt()` for this assignment, you'll need to run your code in a browser \(jsbin or codepen will work\) rather than on the command line. \(LINK TO 'Running Javascript' Lesson Here!!!\)
 
-Write a script that figures out a student's score on a test:  
+Write a script that figures out a student's score on a test:
+
 1. Prompt the user for the number of points possible on the test and store it in a variable.  
 2. Prompt the user for the number of points the student missed and store it in a variable.  
 3. Calculate and print out \(using `console.log`\) the student's percentage score.  Try to figure out the math yourself!  

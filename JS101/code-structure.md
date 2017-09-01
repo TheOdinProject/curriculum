@@ -44,7 +44,8 @@ A lot of this stuff you will pick up on as you go and see more and more code... 
 
 ## Your Assignment
 
-Read through these articles that discuss a few elements of writing good clean code.  
+Read through these articles that discuss a few elements of writing good clean code.
+
 1. [This article about self-documenting JavaScript](https://www.sitepoint.com/self-documenting-javascript/). \(It's not as crazy as it sounds\)  
 2. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).  
 3. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
