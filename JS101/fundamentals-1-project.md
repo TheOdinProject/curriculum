@@ -73,6 +73,6 @@ If we have that array, there are many useful things we can do... many of which y
 1. Copy that scores array into the top of your code.  
 2. Calculate and log the sum of all the scores. \(you can do this more efficiently using loops, but don't worry about that yet, we'll learn that in the next lesson.  Just add them all together manually... there are 8 values in the array\)  For reference, the correct answer is `614`.  
 3. Calculate the average test score. \(it's `76.75`\)  
-4. Print out the scores list sorted from lowest to highest! \(Gonna need to google that one and that's OK!\)  
+4. Print out the scores list sorted from lowest to highest! \(Perfectly fine if you need to google how to sort an array\)  
 5. Calculate and print the difference between the lowest and highest scores \(which would naturally be the first and last items in the array after it's been sorted\) Answer: `54`
 
