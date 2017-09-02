@@ -15,7 +15,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-
+* [Jason McKee's solution with 3, 2 and 1 line methods](https://github.com/jttmckee/odin-project-ruby/tree/master/fibonacci)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/fibonacci)
 * [Kasey Z's solution](https://github.com/kasey-z/TOP-solutions/blob/master/recursion/fibonacci.rb)
 * [Adsy430's solution](https://github.com/adampal/fib_recursive)
