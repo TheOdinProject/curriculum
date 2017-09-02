@@ -12,9 +12,7 @@ jQuery will let you take your javascript knowledge and start really diving into 
 * How can you modify the contents of an element?
 
 ### Assignment:
-1. Learn about jQuery by doing [Codecademy's jQuery Track sections 1-3](http://www.codecademy.com/tracks/jquery) ("Introducing jQuery", jQuery Functions", and "Dynamic HTML"). *NOTE* As of August 2017 this course was removed while they are working on a new course to be released in September 2017. You can read about it in a blog post [here](https://www.codecademy.com/blog/important-changes-to-codecademy-courses?utm_campaign=composer_course_replacement&utm_medium=int_butterbar_course_page&utm_source=codecademy_platform).
-2. If you can't get enough, also give [Code School's try jQuery](http://try.jquery.com/) a shot (let us know which is better!).
-3. The remaining Codecademy sections are, again, extra credit and will be covered later in the curriculum.
+1. Learn about jQuery by doing [Code School's try jQuery](http://try.jquery.com/).
 
 ### Additional Resources
 
