@@ -697,4 +697,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Lorrie Pearson's solution](https://github.com/Lorrie01/sketch_project)| [View in browser](https://lorrie01.github.io/sketch_project/)
 * [Ben Simpson's solution](https://github.com/BenBSimpson/etch-a-sketch)| [View in browser](https://benbsimpson.github.io/etch-a-sketch/)
 * [Huy Anh's solution](https://github.com/huyanh10tin/javascript_jquery)| [View in browser](https://rawgit.com/huyanh10tin/javascript_jquery/master/index.html)
+* [WilPoly's solution](https://github.com/wilPoly/etch-a-sketch) | [View in browser](https://wilpoly.github.io/etch-a-sketch/)
 
