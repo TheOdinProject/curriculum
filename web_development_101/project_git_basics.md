@@ -63,23 +63,25 @@ We used this command to commit the *README.md* file `git commit -m "Add README.m
 2. Now open the *README.md* in your text editor of choice and add "This is (YourUsername)'s first git project!" and then save the file.
   <a href="http://imgur.com/a/2B4Lw"><img class="tutorial-img" src="http://i.imgur.com/YvYwHXM.png" title="source: imgur.com" /></a>
 3. Back in your terminal enter `git status`, notice that *README.md* is now un-staged again.
-  <a href="http://imgur.com/a/ipLMC"><img class="tutorial-img" src="http://i.imgur.com/IIIoY7j.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/AlUO59b"><img class="tutorial-img" src="https://i.imgur.com/AlUO59b.png" title="source: imgur.com" /></a>
 4. Add *README.md* to the staging area with `git add README.md`
 5. Can you guess what `git status` will output now? *README.md* will be displayed in green text while *hello_world.txt* will still be in red. This means only *README.md* has been added to the staging area.
-  <a href="http://imgur.com/a/mZO4k"><img class="tutorial-img" src="http://i.imgur.com/CzUQRIL.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/b9tCLfT"><img class="tutorial-img" src="https://i.imgur.com/b9tCLfT.png" title="source: imgur.com" /></a>
 6. Now lets add *hello_world.txt* to staging area with a different variation of add `git add .` - the full stop means add all un-staged files. Then enter `git status` once more, everything should now been added to the staging area.
-  <a href="http://imgur.com/a/GyfIp"><img class="tutorial-img" src="http://i.imgur.com/VseW6AL.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/13jYJiV"><img class="tutorial-img" src="https://i.imgur.com/13jYJiV.png" title="source: imgur.com" /></a>
 9. Finally, lets commit all of our files in the staging area and give a descriptive commit message `git commit -m "Add hello_world.txt and edit README.md"`. Then enter `git status` once again, this will output `nothing to commit`.
-  <a href="http://imgur.com/a/DzGHA"><img class="tutorial-img" src="http://i.imgur.com/afCYtxg.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/9lda2lB"><img class="tutorial-img" src="https://i.imgur.com/9lda2lB.png" title="source: imgur.com" /></a>
 10. Have one last look at your history of commits with `git log`. You should now see two entries made!
 
 ### Pushing your finished work to github
 Finally lets upload what you have done to the Github repository you created at the start of this tutorial
 
 1. Simply enter `git push origin master`.
-  <a href="http://imgur.com/a/1P4KP"><img class="tutorial-img" src="http://i.imgur.com/dTIAMnV.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/9uP66mj"><img class="tutorial-img" src="https://i.imgur.com/9uP66mj.png" title="source: imgur.com" /></a>
 2. Now enter `git status` one final time, it should output "*nothing to commit, working tree clean*"
-  <a href="http://imgur.com/a/6KtLC"><img class="tutorial-img" src="http://i.imgur.com/caYllsb.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/3Y3VjwS"><img class="tutorial-img" src="https://i.imgur.com/3Y3VjwS.png" title="source: imgur.com" /></a>
+3. When you reload the repository on GitHub you should see `README.md` and `hello_world.txt` that you just pushed there from your local machine.
+ <a href="https://imgur.com/XLAEsFg"><img class="tutorial-img" src="https://i.imgur.com/XLAEsFg.png" title="source: imgur.com" /></a>
 
 ### What is origin master?
 As mentioned before, **origin** is a placeholder name, or branch, for the remote url of the git_test repository which you set up on Github at the beginning of this tutorial.It is set by default by git when cloning from a remote for the first time. You can use *origin* to access your remote without having to enter a full url each time. It also means you can have multiple different remotes by giving each a unique name.
