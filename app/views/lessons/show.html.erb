@@ -15,12 +15,14 @@
 
 <div class="lesson-functions">
   <div class="container">
-
-    <%= render 'courses/course/banner', course: @course, show_completion_percent: false %>
-
-    <%= render 'lesson_actions', lesson: @lesson %>
-
-    <%= render 'submissions' if @projects %>
+    <div class="card-main">
+      <h1><%= @course.title %></h1>
+      <h2 class="accent bold"><%= @lesson.title %></h2>
+      <div class="lesson-button-group">
+        <%= render 'lesson_buttons', lesson: @lesson %>
+      </div>
+      <%= render 'submissions' %>
+    </div>
 
     <%= render 'shared/bottom_cta',
       button: gitter_button,

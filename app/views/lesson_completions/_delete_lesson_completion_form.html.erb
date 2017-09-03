@@ -1,8 +1,0 @@
-<%= button_to lesson_completion_path(lesson, lesson_completion),
-    method: :delete,
-    remote: true,
-    data: { disable_with: 'Deleting...' },
-    class: 'button button--primary lc-uncomplete-link' do %>
-
-  Change <%= lesson.type.downcase %> to not completed
-<% end %>

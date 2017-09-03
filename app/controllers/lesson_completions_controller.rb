@@ -14,7 +14,10 @@ class LessonCompletionsController < ApplicationController
   private
 
   def lesson_completion
-    current_user.lesson_completions.find(params[:id])
+    LessonCompletion.where(
+      student_id: current_user.id,
+      lesson_id: @lesson.id
+    ).first
   end
 
   def new_lesson_completion

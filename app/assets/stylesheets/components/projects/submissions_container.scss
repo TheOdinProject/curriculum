@@ -1,0 +1,30 @@
+.submissions-container {
+  margin-top: 30px;
+  border-top: 1px solid $pale-grey;
+
+  &__header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+  }
+
+  .pagination {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+
+    .current, .next a, .last a {
+      color: $primary;
+      font-weight: bold;
+    }
+
+    .first a, .prev a, .page a {
+      color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}

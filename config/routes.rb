@@ -45,7 +45,8 @@ Rails.application.routes.draw do
       delete 'vote', to: 'votes#destroy'
     end
 
-    resources :lesson_completions, only: %i(create destroy), as: 'completions'
+    resources :lesson_completions, only: %i(create), as: 'completions'
+    delete 'lesson_completions/' => 'lesson_completions#destroy', :as => 'lesson_completions'
   end
 
   # Explicitly redirect deprecated routes (301)
