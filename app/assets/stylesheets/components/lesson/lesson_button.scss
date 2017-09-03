@@ -1,0 +1,12 @@
+.lesson-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__icon {
+    font-size: 1.7rem;
+    padding-right: 0.4rem;
+    align-self: center;
+
+  }
+}

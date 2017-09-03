@@ -1,32 +1,3 @@
-#submissions {
-  .solutions-title, .description {
-    margin-bottom: 20px;
-  }
-
-  .projects-link:hover {
-    color: darken($light-orange, 10%);
-  }
-
-  .pagination {
-    text-align: center;
-    display: block;
-    margin-top: 30px;
-
-    .current, .next a, .last a {
-      color: $primary;
-      font-weight: bold;
-    }
-
-    .first a, .prev a, .page a {
-      color: rgba(0, 0, 0, 0.3);
-    }
-
-    span {
-      padding-right: 1em;
-    }
-  }
-}
-
 .project {
   align-items: center;
   border-bottom: solid 1px rgba(0, 0, 0, 0.1);

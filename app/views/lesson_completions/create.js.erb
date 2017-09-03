@@ -1,4 +1,4 @@
-$('.lesson-completion-wrapper').html("<%= j render 'lessons/lesson_completion_actions', lesson: @lesson %>");
+$('.lesson-button-group').html("<%= j render 'lessons/lesson_buttons', lesson: @lesson %>");
 $('.banner__progress').html("<%= j render 'shared/completion_percent', course: @lesson.course %>");
 
 // If it's an individual lesson page, this will run

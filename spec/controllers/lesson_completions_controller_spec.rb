@@ -6,9 +6,6 @@ RSpec.describe LessonCompletionsController do
   let(:lesson_completion_attrs) {
     { lesson_id: lesson.id, student_id: student.id }
   }
-  let(:lesson_completion) {
-    double('LessonCompletion', lesson_completion_attrs.merge(id: '1'))
-  }
 
   context 'unauthenticated user' do
     describe 'POST #create' do
@@ -20,7 +17,7 @@ RSpec.describe LessonCompletionsController do
 
     describe 'DELETE #destroy' do
       it 'returns unauthorized status' do
-        delete :destroy, params: { id: lesson_completion.id, lesson_id: lesson.id }, xhr: true
+        delete :destroy, params: { lesson_id: lesson.id }, xhr: true
         expect(response).to have_http_status(:unauthorized)
       end
     end
@@ -34,38 +31,34 @@ RSpec.describe LessonCompletionsController do
     end
 
     describe 'POST #create' do
-      let(:post_request) { post :create, params: lesson_completion_attrs, xhr: true }
-
       it 'saves the lesson_completion record to the database' do
-        expect { post_request }.to change(LessonCompletion, :count).by(1)
+        expect { post :create, params: lesson_completion_attrs, xhr: true }.to change(LessonCompletion, :count).by(1)
       end
 
       it 'renders the :create template' do
-        post_request
+        post :create, params: lesson_completion_attrs, xhr: true
         expect(response).to render_template(:create)
       end
     end
 
     describe 'DELETE #destroy' do
-      let(:lesson_completions) { double('LessonCompletions') }
-      let(:delete_request) do
-        delete :destroy, params: { lesson_id: lesson.id, id: lesson_completion.id }, xhr: true
-      end
+      let(:lesson_completions) { [lesson_completion] }
+      let(:lesson_completion) { double('LessonCompletion') }
 
       before do
-        allow(student).to receive(:lesson_completions).and_return(lesson_completions)
-        allow(lesson_completions).to receive(:find)
-          .with(lesson_completion.id).and_return(lesson_completion)
+        allow(LessonCompletion).to receive(:where).
+          with(student_id: '1', lesson_id: '1').and_return(lesson_completions)
+
         allow(lesson_completion).to receive(:destroy)
       end
 
       it 'destroys the lesson_completion object' do
         expect(lesson_completion).to receive(:destroy)
-        delete_request
+        delete :destroy, params: { lesson_id: lesson.id }, xhr: true
       end
 
       it 'renders the create template' do
-        delete_request
+        delete :destroy, params: { lesson_id: lesson.id}, xhr: true
         expect(response).to render_template(:create)
       end
     end

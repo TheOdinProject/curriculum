@@ -1,0 +1,17 @@
+.lesson-button-group {
+  display: flex;
+  margin-top: 1.5rem;
+
+  @include media-breakpoint-down(md) {
+    display: block;
+  }
+
+  &__item {
+    margin: 0 20px;
+    flex-grow: 1;
+
+    @include media-breakpoint-down(md) {
+      margin: 20px 0;
+    }
+  }
+}
