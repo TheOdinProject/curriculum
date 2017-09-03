@@ -1204,6 +1204,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Jason's solution (Easy)](https://github.com/jn4248/google-homepage) | [View in browser](https://jn4248.github.io/google-homepage/)
 * [Jason's solution (Difficult)](https://github.com/jn4248/google-results-page) | [View in browser](https://jn4248.github.io/google-results-page/)
 ### Additional Resources
+* [Datagoil's Solution (Easy & Difficult)] | [View in Browser (Easy)](https://datagoil.github.io/google-homepage/) | [View in Browser (Difficult)](https://datagoil.github.io/google-homepage-difficult/)
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
