@@ -34,7 +34,7 @@ Here we will describe the basic git workflow that you will use with your project
 
 ### GIT workflow
 1. Create a new file in git_test called "README.md"
-  <a href="https://imgur.com/TpPto3r"><img class="tutorial-img" src="https://i.imgur.com/TpPto3r.png" title="source: imgur.com" /></a>
+  <a href="https://imgur.com/II35rpo"><img class="tutorial-img" src="https://i.imgur.com/II35rpo.png" title="source: imgur.com" /></a>
 2. Type `git status` in your terminal notice your *README.md* file is in red, this means it is un-staged.
   <a href="https://imgur.com/OPCGo4Q"><img class="tutorial-img" src="https://i.imgur.com/OPCGo4Q.png" title="source: imgur.com" /></a>
 3. Type `git add README.md` this adds your *README.md* file to staging area in git. Now type `git status` again, notice your file is now green.
