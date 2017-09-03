@@ -524,7 +524,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Nevin Herring's Solution](https://github.com/nevinherring/) | [View in Browser](https://github.com/nevinherring/projectEuler)
 * [Rwasa's Solution](https://github.com/rwasa/) | [View in Browser](https://github.com/rwasa/git_test)
 * [MPalhidai's Solution & Project Euler Repo](https://github.com/MPalhidai/Project-Euler)
-
+* [Santiago Rodríguez Solution & Project Euler Repo](https://github.com/santoxxcc/euler-project)
 
 
 ### Additional Resources
