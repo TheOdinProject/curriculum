@@ -1203,6 +1203,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [heimdall01's solution (Easy)](https://cdn.rawgit.com/bitsurfer21/google-homepage/98df5fa9/index.html)
 * [Jason's solution (Easy)](https://github.com/jn4248/google-homepage) | [View in browser](https://jn4248.github.io/google-homepage/)
 * [Jason's solution (Difficult)](https://github.com/jn4248/google-results-page) | [View in browser](https://jn4248.github.io/google-results-page/)
++* [Datagoil's Solution (Easy & Difficult)] | [View in Browser (Easy)](https://datagoil.github.io/google-homepage/) | [View in Browser (Difficult)](https://datagoil.github.io/google-homepage-difficult/)
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
