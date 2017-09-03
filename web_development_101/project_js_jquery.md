@@ -687,7 +687,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [coryparham24's solution](https://github.com/coryparham24/sketchpad) | [View in browser](https://cdn.rawgit.com/coryparham24/sketchpad/f7cb10ef/index.html)
 * [Frank Barros' solution](https://github.com/frankdb/javascript-project) | [View in browser](https://cdn.rawgit.com/frankdb/javascript-project/bc94a1c2/grid.html)
 * [toaster_with_wheels' solution](https://github.com/damianed/Simple-sketchpad) | [View in browser](https://damianed.github.io/Simple-sketchpad/)
-* [Tshepo Mohlamonyane's solution](https://github.com/blavkboy/JavaScript-jQuery-Sketchpad) | [View in browser](https://blavkboy.github.io/JavaScript-jQuery-Sketchpad/)
+* [Tshepo Mohlamonyane's solution](https://github.com/blavkboy/JavaScript-jQuery-Sketchpad) | [View in browser](https://blavkboy.github.io/JavaScript-jQuery-Sketchpad/)https://wilpoly.github.io/etch-a-sketch/
 * [matpintes' solution](https://github.com/matpintes/squarepad) | [View in browser](https://matpintes.github.io/squarepad/)
 * [Alex's solution](https://github.com/alexcorremans/sketch) | [View in browser](https://alexcorremans.github.io/sketch/)
 * [Afeso Franklyn's Solution](https://github.com/afeso/sketchpad) | [View in browser](https://afeso.github.io/sketchpad/)
@@ -697,4 +697,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Lorrie Pearson's solution](https://github.com/Lorrie01/sketch_project)| [View in browser](https://lorrie01.github.io/sketch_project/)
 * [Ben Simpson's solution](https://github.com/BenBSimpson/etch-a-sketch)| [View in browser](https://benbsimpson.github.io/etch-a-sketch/)
 * [Huy Anh's solution](https://github.com/huyanh10tin/javascript_jquery)| [View in browser](https://rawgit.com/huyanh10tin/javascript_jquery/master/index.html)
+* [WilPoly's solution](https://github.com/wilPoly/etch-a-sketch) | [View in browser](https://wilpoly.github.io/etch-a-sketch/)
 
