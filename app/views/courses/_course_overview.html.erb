@@ -1,9 +1,7 @@
 <div class="row course-badge-title-wrapper align-items-center">
   <%= link_to course, class: 'col-md-8 col-lg-8' do %>
     <div class="course-badge-title align-items-center">
-      <div class="course-badge">
-        <%= image_tag course.badge, alt: "#{course.title} badge", class: 'course-badge-img' %>
-      </div>
+      <%= render 'shared/course_badge', course: course %>
 
       <div class="course-title text-uppercase">
         <h2 class="font-weight-bold"><%= course.title %></h2>
