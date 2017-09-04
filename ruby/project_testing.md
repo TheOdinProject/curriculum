@@ -98,7 +98,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
-*[Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/testing_ruby/tree/master/connect_four)
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/testing_ruby/tree/master/connect_four)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/connect_four)
 * [Clayton's solution](https://github.com/cjsweeten101/OdinProjects/tree/master/connect_four)
 * [Kasey's solution](https://github.com/kasey-z/TOP-solutions/tree/master/connect_four)
