@@ -16,8 +16,8 @@
 <div class="lesson-functions">
   <div class="container">
     <div class="card-main">
-      <h1><%= @course.title %></h1>
-      <h2 class="accent bold"><%= @lesson.title %></h2>
+      <h1 class="lesson-functions__title"><%= @course.title %></h1>
+      <h3 class="lesson-functions__sub-title accent bold"><%= @lesson.title %></h3>
       <div class="lesson-button-group">
         <%= render 'lesson_buttons', lesson: @lesson %>
       </div>

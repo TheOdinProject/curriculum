@@ -7,6 +7,13 @@
     font-size: 1.7rem;
     padding-right: 0.4rem;
     align-self: center;
+  }
 
+  &--complete {
+    &:hover {
+      .lesson-button__icon:before {
+        content: '\f05c';
+      }
+    }
   }
 }
