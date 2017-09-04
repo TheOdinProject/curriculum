@@ -91,9 +91,11 @@ When you have reference to an element, you can use that reference to alter the e
 ```
 const div = document.createElement('div');                     
 // create a new div referenced in the variable 'div'
+```
 
-//----------------- Adding inline style ------------------//
+#### Adding inline style
 
+```
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
@@ -108,9 +110,9 @@ See DOM Enlightenment's [section on CSS Style rules](http://domenlightenment.com
 
 Generally style rules are the same as in CSS with the exception that hyphenated rules are changed to camelCase. I.E. "background-color" becomes "backgroundColor".
 
-```
-//----------------- Editing Attributes ------------------//
+#### Editing Attributes
 
+```
 div.setAttribute('id', 'theDiv');                              
 // if id exists update it to 'theDiv' else create an id 
 // with value "theDiv"
@@ -125,9 +127,9 @@ div.removeAttribute('id');
 
 See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more info on available attributes.
 
-```
-//--------------- Working with classes ------------------//
+#### Working with classes
 
+```
 div.classList.add('new');                                      
 // adds class "new" to your new div
 
@@ -141,15 +143,17 @@ div.classList.toggle('active');
 
 Often times it's more efficient and creates cleaner code to toggle a style rather than adding and removing inline CSS.
 
-```
-//--------------- Adding text content ------------------//
+#### Adding text content
 
+```
 div.textContent = 'Hello World!'                               
 // creates a text node containing "Hello World!" and 
 // inserts it in div
+```
 
-//--------------- Adding HTML content ------------------//
+#### Adding HTML content
 
+```
 div.innerHTML = '<span>Hello World!</span>';                   
 // renders the html inside div
 ```
@@ -195,7 +199,11 @@ Now, we maintain separation of concerns, and we also allow multiple event listen
 
 There's some important things taking place here. That `e` being passed into our eventListener callback, references the event itself. In the example, it's a click event. That event has a whole bundle of properties that we won't be discussing right now, but you're strongly encouraged to check out the links below for further study. The property we use in the example, is the "target" property. That's the element being clicked. Common practice is to call that event either "e" or "event" in your callback.
 
-These might seem like a lot of code if you're attaching lots of similar eventListeners to many elements. There's a few ways to go about doing that more efficiently.
+#### Attaching listeners to groups of nodes
+
+This might seem like a lot of code if you're attaching lots of similar eventListeners to many elements. There's a few ways to go about doing that more efficiently.
+
+We want to create an alert when the buttons are clicked. We'll try first by iterating over a group of elements.
 
 ```
 <div id="container">
@@ -204,8 +212,6 @@ These might seem like a lot of code if you're attaching lots of similar eventLis
     <button id="3">Click Me</button>
 </div>
 ```
-
-We want to create an alert when the buttons are clicked. We'll try first by iterating over a group of elements.
 
 ```
 var buttons = document.querySelectorAll('button');
@@ -216,7 +222,7 @@ buttons.forEach((button) => {
 });
 ```
 
-This works just fine, but any easier solution would be to utilize the "bubbling" mechanic of event propagation. Everytime a event fires, it potentially goes through 3 phases:
+This works just fine, but an easier solution would be to utilize the "bubbling" mechanic of event propagation. Everytime a event fires, it potentially goes through 3 phases:
 
 1. Capture Phase - the event checks all nodes along the branch from the window all the way down to the event.target checking for additional listeners. *This phase is turned off by default*.
 2. Target Phase - Checks event.target for an event listener.
@@ -232,7 +238,9 @@ container.addEventListener('click', (e) => {
 });
 ```
 
-With a simple type check, we can put 1 event listener on the parent (or any ancestor really), and allow the event to bubble up to that listener. This technique is called "event delegation". You can read more about it [here](https://javascript.info/event-delegation).
+With a simple equality check, we can put 1 event listener on the parent (or any ancestor really), and allow the event to bubble up to that listener. This technique is called "event delegation". You can read more about it [here](https://javascript.info/event-delegation).
+
+-----
 
 This is just the tip of the iceberg when it comes to DOM manipulation and event handling, but I think it's enough to get you started with some exercises.
 
