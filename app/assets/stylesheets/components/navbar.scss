@@ -68,6 +68,10 @@
           color: $black;
         }
       }
+
+      &.active .nav-link {
+        color: $black;
+      }
     }
 
     .divider {
@@ -91,7 +95,7 @@
 
     .drop-down-link{
       color: $primary;
-      &:hover {
+      &:hover, &.active {
         color: $black;
         -webkit-filter: saturate(50) grayscale(1);
         filter: saturate(50) grayscale(1)
@@ -159,6 +163,7 @@
     }
   }
 }
+
 
 @media (max-width: 991px) {
   .navbar {

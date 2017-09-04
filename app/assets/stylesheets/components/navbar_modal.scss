@@ -9,6 +9,7 @@
       height: 100%;
       align-items: center;
     }
+
     .modal-content {
       margin: auto;
       background-color: transparent;
@@ -37,7 +38,7 @@
           position: absolute;
           top: 0;
           right: 0;
-          font-size: 1.6em;
+          font-size: 3rem;
           font-weight: bold;
           color: $button-primary;
         }
@@ -48,18 +49,29 @@
     }
   }
   // Modal Links
-  .nav-link { 
-    font-size: 200%;
-    font-weight: normal;
-    letter-spacing: 0.05em;
-    border: none;
-    transition: all 0.25s ease;
-    background-color: transparent;
-    color: $primary;
-    padding: 7.5vh 0;
-    height: 5vh;
-    font-size: 5vh;
-    line-height: 0;
-    line-height: 0;
+
+  .nav-item {
+    .nav-link {
+      font-size: 200%;
+      font-weight: normal;
+      letter-spacing: 0.05em;
+      border: none;
+      transition: all 0.25s ease;
+      background-color: transparent;
+      color: $primary;
+      padding: 7.5vh 0;
+      height: 5vh;
+      font-size: 5vh;
+      line-height: 0;
+      line-height: 0;
+
+      &:hover {
+        color: $black;
+      }
+    }
+
+    &.active .nav-link {
+      color: $black;
+    }
   }
 }
