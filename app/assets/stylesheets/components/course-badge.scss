@@ -2,6 +2,7 @@
   @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
   @include border-radius(50%);
   padding: 10px;
+  display: inline-block;
 
   @include  media-breakpoint-down(sm) {
     margin-bottom: 1em;

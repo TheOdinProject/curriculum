@@ -1,5 +1,5 @@
 <div class="banner">
-  <%= image_tag course.badge, class: 'banner__badge', alt: "#{course.title.downcase} badge" %>
+  <%= render 'shared/course_badge', course: course %>
   <h1 class="banner__title"><%= course.title %></h1>
 
 
