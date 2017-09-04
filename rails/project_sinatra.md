@@ -69,6 +69,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 * Jonathan Marks's solution [github](https://github.com/johnjmarks4/sinatra) / [see it on the web](https://warm-springs-12433.herokuapp.com/)
 * Luján Fernaud's solution [github](https://github.com/lujanfernaud/sinatra-caesar-cipher) / [see it on the web](https://sinatra-caesar.herokuapp.com/)
 * Austin Norman's solution [github](https://github.com/austinnormancore/sinatra_caesar_cipher/blob/master/caesar_cipher.rb) / [see it on the web](https://obscure-ocean-55550.herokuapp.com/)
+* Anistor86's solution [github](https://github.com/anistor86/sinatra_caesar_cipher) / [see it on the web](https://pure-retreat-21723.herokuapp.com/)
 
 ### Project 2: Another Web-Game
 
@@ -124,3 +125,4 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Luján Fernaud's solution [github](https://github.com/lujanfernaud/sinatra-countries-hangman) / [see it on the web](https://sinatra-countries-hangman.herokuapp.com/)
 * Pat's solution - Mastermind: [github](https://github.com/Pat878/Sinatra_Mastermind) / [see it on the web](https://sleepy-island-52915.herokuapp.com/)
 * Austin Norman's solution - Hangman: [github](https://github.com/austinnormancore/hangmansinatra) / [see it on the web](https://secure-ridge-15084.herokuapp.com/)
+* Anistor86's solution - Hangman: [github](https://github.com/anistor86/sinatra_hangman) / [see it on the web](https://safe-escarpment-98953.herokuapp.com/)
