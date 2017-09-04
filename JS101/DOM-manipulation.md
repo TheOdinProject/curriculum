@@ -162,7 +162,7 @@ div.innerHTML = '<span>Hello World!</span>';
 
 ### Events
 
-Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keybaord, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on*event*" property on ythe DOM object in your javascript, or you can attach eventListeners to the nodes in your javascript.
+Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keybaord, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on*event*" property on ythe DOM object in your javascript, or you can attach event listeners to the nodes in your javascript.
 
 We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
 
@@ -197,11 +197,11 @@ btn.addEventListener('click', (e) => {
 
 Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise. Great!
 
-There's some important things taking place here. That `e` being passed into our eventListener callback, references the event itself. In the example, it's a click event. That event has a whole bundle of properties that we won't be discussing right now, but you're strongly encouraged to check out the links below for further study. The property we use in the example, is the "target" property. That's the element being clicked. Common practice is to call that event either "e" or "event" in your callback.
+There's some important things taking place here. That `e` being passed into our event listener callback, references the event itself. In the example, it's a click event. That event has a whole bundle of properties that we won't be discussing right now, but you're strongly encouraged to check out the links below for further study. The property we use in the example, is the "target" property. That's the element being clicked. Common practice is to call that event either "e" or "event" in your callback.
 
 #### Attaching listeners to groups of nodes
 
-This might seem like a lot of code if you're attaching lots of similar eventListeners to many elements. There's a few ways to go about doing that more efficiently.
+This might seem like a lot of code if you're attaching lots of similar event listeners to many elements. There's a few ways to go about doing that more efficiently.
 
 We want to create an alert when the buttons are clicked. We'll try first by iterating over a group of elements.
 
@@ -246,7 +246,8 @@ This is just the tip of the iceberg when it comes to DOM manipulation and event 
 
 ### Exercises
 
-1. Try Wes Bos's JavaScript Drum Kit:
+#### JavaScript Drum Kit:
+
 We'll be doing the first exercise in Wes Bos's JavaScript30 program. You'll need to clone the repo at https://github.com/wesbos/JavaScript30. Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project. When you've completed the Drum Kit exercise, you can move on to the next section.
 
 ### Additional Resources
