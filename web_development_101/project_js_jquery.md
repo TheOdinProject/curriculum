@@ -35,6 +35,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Flipflapslap's solution](https://github.com/flipflapslap/etch-a-sketch) | [View in browser](https://flipflapslap.github.io/etch-a-sketch/)
 * [Jon Motyka's solution](https://github.com/microjrm/etch-a-sketch) | [View in browswer](https://microjrm.github.io/etch-a-sketch/)
 * [RaduMatees's solution](https://github.com/RaduMatees/Sketchpad) | [View in browser](https://radumatees.github.io/Sketchpad/)
 * [rublen's solution](https://github.com/rublen/sketchpad) | [View in browser](https://rublen.github.io/sketchpad/)

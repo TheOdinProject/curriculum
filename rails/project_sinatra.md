@@ -126,3 +126,4 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 * Pat's solution - Mastermind: [github](https://github.com/Pat878/Sinatra_Mastermind) / [see it on the web](https://sleepy-island-52915.herokuapp.com/)
 * Austin Norman's solution - Hangman: [github](https://github.com/austinnormancore/hangmansinatra) / [see it on the web](https://secure-ridge-15084.herokuapp.com/)
 * Anistor86's solution - Hangman: [github](https://github.com/anistor86/sinatra_hangman) / [see it on the web](https://safe-escarpment-98953.herokuapp.com/)
+* Francisco's Carlos solution - [github](https://github.com/fcarlosdev/the_odin_project/tree/master/sinatra_project)

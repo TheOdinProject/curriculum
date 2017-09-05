@@ -234,3 +234,4 @@ This was a lot of material, but you should have a healthy appreciation for the b
 * [Introduction to the N+1 Problem](https://www.youtube.com/watch?v=Xr3hZdIwuSw)
 * [N+1 Problem: Eager Loading with Active Record](https://www.youtube.com/watch?v=wLMRzdOztUY)
 * [N+1 Problem: Optimized Counts with Joins and Custom Select](https://www.youtube.com/watch?v=rJg3I-leoo4)
+* [Speed up ActiveRecord with a little tweaking](https://blog.codeship.com/speed-up-activerecord/)
