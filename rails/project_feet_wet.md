@@ -106,7 +106,4 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 * [Niño Mollaneda's solution](https://github.com/ninoM/toy_app)
 * [Jonathan Marks's solution](https://github.com/johnjmarks4/toy_app)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-toy-app)
-
-### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+* [Anistor86's solution](https://github.com/anistor86/toy_app) | [Heroku](https://polar-tor-29313.herokuapp.com
