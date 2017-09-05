@@ -13,6 +13,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Andrew's solution](https://github.com/andrewr224/Event-Manager)
 * [jdrobertso's solution](https://github.com/jdrobertso/event_manager)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-project-ruby/tree/master/event_manager)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/eventmanager)
