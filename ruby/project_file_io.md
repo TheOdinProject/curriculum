@@ -14,6 +14,7 @@ In your Ruby days to come, you'll inevitably run into times when you'll be worki
 
 * Add your solution below this line!
 * [Andrew's solution](https://github.com/andrewr224/Event-Manager)
+* [jdrobertso's solution](https://github.com/jdrobertso/event_manager)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-project-ruby/tree/master/event_manager)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/eventmanager)
 * [justinckim3's solution](https://github.com/justinckim3/hangman)
