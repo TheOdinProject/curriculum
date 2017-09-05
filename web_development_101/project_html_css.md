@@ -91,7 +91,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
-* [Mayaru's Solution (Easy)](https://github.com/mayaru/google.com-the-remake) | <a href="https://mayaru.github.io/google.com-the-remake">View in browser</a>
+* [Mayaru's Solution (Easy)](https://github.com/mayaru/google.com-the-remake) | [View in browser](https://mayaru.github.io/google.com-the-remake)
 * [Dan Hofer's Solution (Easy)](https://github.com/danhofer/google-homepage) | [View in browser](https://danhofer.github.io/google-homepage/)
 * [Ed Magalhaes's Solution (Easy)](https://github.com/EdMagal/google_homepage) | [View in browser](https://EdMagal.github.io/google_homepage/)
 * [Jon Motyka's Solution (Easy)](https://github.com/microjrm/google-homepage) | [View in browser](https://microjrm.github.io/google-homepage/)
@@ -1203,6 +1203,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [heimdall01's solution (Easy)](https://cdn.rawgit.com/bitsurfer21/google-homepage/98df5fa9/index.html)
 * [Jason's solution (Easy)](https://github.com/jn4248/google-homepage) | [View in browser](https://jn4248.github.io/google-homepage/)
 * [Jason's solution (Difficult)](https://github.com/jn4248/google-results-page) | [View in browser](https://jn4248.github.io/google-results-page/)
+* [Santiago Rodríguez solution (Easy)](https://github.com/santoxxcc/google-homepage) | [View in browser](https://santoxxcc.github.io/google-homepage)
+* [Datagoil's Solution (Easy & Difficult)](https://github.com/datagoil/google-homepage-difficult) | [View in Browser (Easy)](https://datagoil.github.io/google-homepage/) | [View in Browser (Difficult)](https://datagoil.github.io/google-homepage-difficult/)
+* [Taras's Solution (Easy & Difficult)](https://github.com/Staryj812/google-homepage) | [View in Browser (Easy)](https://staryj812.github.io/google-homepage/) | [View in Browser (Difficult)](https://staryj812.github.io/google-homepage/search.html)
+* [Kusnierewicz's Solution (Easy)](https://github.com/Kusnierewicz/google_webpage_2017) | [View in Browser](https://kusnierewicz.github.io/google_webpage_2017/)
+
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
