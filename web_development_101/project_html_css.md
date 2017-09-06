@@ -1207,6 +1207,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Datagoil's Solution (Easy & Difficult)](https://github.com/datagoil/google-homepage-difficult) | [View in Browser (Easy)](https://datagoil.github.io/google-homepage/) | [View in Browser (Difficult)](https://datagoil.github.io/google-homepage-difficult/)
 * [Taras's Solution (Easy & Difficult)](https://github.com/Staryj812/google-homepage) | [View in Browser (Easy)](https://staryj812.github.io/google-homepage/) | [View in Browser (Difficult)](https://staryj812.github.io/google-homepage/search.html)
 * [Kusnierewicz's Solution (Easy)](https://github.com/Kusnierewicz/google_webpage_2017) | [View in Browser](https://kusnierewicz.github.io/google_webpage_2017/)
+* [Chris P's Solution (Easy)](https://github.com/chrisauinmotion/google_reconstruct) | [View in browser](https://chrisauinmotion.github.io/google_reconstruct/)
 
 ### Additional Resources
 
