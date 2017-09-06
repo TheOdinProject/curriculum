@@ -1,0 +1,82 @@
+//
+// Progress Circle
+//
+// ==================================================
+
+$theme-color: $primary;
+$back-color: #dddddd;
+
+.progress-circle {
+  background-color: $pale-grey;
+  height: 110px;
+  position: relative;
+  width: 110px;
+
+  @include media-breakpoint-down(md) {
+    height: 90px;
+    width: 90px;
+  }
+
+  &__inner {
+    color: $grey;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    top:  0.5rem;
+    bottom: 0.5rem;
+    transition: transform .2s ease;
+  }
+
+  &__content {
+    font-size: 0.8rem;
+    line-height: 1.3;
+    color: $pale-grey;
+  }
+
+  &:after {
+    background-color: $primary;
+    border-radius: 50%;
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+  }
+
+  &:hover {
+    &:before {
+      transform: scale(.8);
+    }
+  }
+}
+
+/**
+* $step is set to 5 by default, meaning you can only use percentage classes in increments of five (e.g. 25, 30, 45, 50, and so on). This helps to reduce the size of the final CSS file. If you need a number that doesn't end in 0 or 5, you can change the text percentage while rounding the class up/down to the nearest 5.
+*/
+
+$step: 1;
+$loops: round(100 / $step);
+$increment: 360 / $loops;
+$half: round($loops / 2);
+
+@for $i from 0 through $loops {
+  .progress-circle[data-progress=#{'"'+$i * $step+'"'}]:after {
+    @if $i < $half {
+      $next-deg: 90deg + $increment * $i;
+      background-image: linear-gradient(90deg, $back-color 50%, transparent 50%, transparent), linear-gradient($next-deg, $primary 50%, $back-color 50%, $back-color);
+    } @else {
+      $next-deg: -90deg + $increment * ($i - $half);
+      background-image: linear-gradient($next-deg, $primary 50%, transparent 50%, transparent), linear-gradient(270deg, $primary 50%, $back-color 50%, $back-color);
+    }
+  }
+}
+
+/**
+* attribution https://codepen.io/anon/pen/prYZOp
+*/

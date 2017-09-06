@@ -1,1 +1,2 @@
 $('.lesson-button-group').html("<%= j render 'lessons/lesson_buttons', lesson: @lesson %>");
+$('.banner__badge').html("<%= j render 'shared/course_badge', course: @lesson.course %>");

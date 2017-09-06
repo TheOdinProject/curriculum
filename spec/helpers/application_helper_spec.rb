@@ -90,4 +90,34 @@ RSpec.describe ApplicationHelper do
       helper.first_four_success_stories
     end
   end
+
+  describe '#percentage_completed_by_user' do
+
+    let(:course) { double('Course') }
+    let(:user) { double('User') }
+
+    before do
+      allow(CourseProgress).to receive(:percentage_completed_by_user).
+        with(course, user).and_return(50)
+    end
+
+    it 'returns 50' do
+      expect(helper.percentage_completed_by_user(course, user)).to eql(50)
+    end
+  end
+
+  describe '#course_started_by_user' do
+
+    let(:course) { double('Course') }
+    let(:user) { double('User') }
+
+    before do
+      allow(CourseProgress).to receive(:course_started?).
+        with(course, user).and_return(true)
+    end
+
+    it 'returns 50' do
+      expect(helper.course_started_by_user?(course, user)).to eql(true)
+    end
+  end
 end

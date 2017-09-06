@@ -192,6 +192,14 @@ module ApplicationHelper
     end
   end
 
+  def percentage_completed_by_user(course, user)
+    CourseProgress.percentage_completed_by_user(course, user)
+  end
+
+  def course_started_by_user?(course, user)
+    CourseProgress.course_started?(course, user)
+  end
+
   private
 
   def custom_flash(flash_type)

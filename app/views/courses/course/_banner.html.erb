@@ -1,11 +1,6 @@
 <div class="banner">
-  <%= render 'shared/course_badge', course: course %>
+  <div class='banner__badge'>
+    <%= render 'shared/course_badge', course: course %>
+  </div>
   <h1 class="banner__title"><%= course.title %></h1>
-
-
-  <% if user_signed_in? && show_completion_percent %>
-    <div class="banner__progress">
-      <%= render 'shared/completion_percent', course: course %>
-    </div>
-  <% end %>
 </div>
