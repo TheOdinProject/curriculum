@@ -6,10 +6,10 @@
         <%= numbered_lesson_title(lesson, lesson_index) %>
       <% end %>
 
-      <% if current_user %>
-          <i class="fa fa-check-circle-o section-lessons__item__icon <%= lesson_completed?(lesson) %>"></i>
+      <% if user_signed_in? %>
+          <i class="fa fa-check-circle-o section-lessons__item__icon <%= lesson_completed?(@user, lesson) %>"></i>
       <% end %>
-      
+
     </div>
   <% end %>
 </div>

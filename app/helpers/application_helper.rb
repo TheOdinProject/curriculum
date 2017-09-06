@@ -200,6 +200,10 @@ module ApplicationHelper
     CourseProgress.course_started?(course, user)
   end
 
+  def course_completed_by_user?(course, user)
+    CourseProgress.course_completed?(course, user)
+  end
+
   private
 
   def custom_flash(flash_type)

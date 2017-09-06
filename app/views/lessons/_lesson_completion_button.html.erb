@@ -1,5 +1,5 @@
 <% if user_signed_in? %>
-  <%= render 'lessons/lesson_completion_state', lesson: lesson %>
+  <%= render 'lessons/lesson_completion_state', lesson: lesson, user: user %>
 <% else %>
   <%= link_to 'Login to track progress',
       login_path,

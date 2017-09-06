@@ -1,7 +1,7 @@
 module CourseHelper
 
-  def lesson_completed?(lesson)
-    if current_user.has_completed?(lesson)
+  def lesson_completed?(user, lesson)
+    if user.completed_lessons.map(&:id).include?(lesson.id)
       "section-lessons__item__icon--completed"
     end
   end

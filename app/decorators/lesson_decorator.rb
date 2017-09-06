@@ -12,6 +12,10 @@ class LessonDecorator < ApplicationDecorator
     'https://github.com/TheOdinProject/curriculum/tree/master' + url
   end
 
+  def next_lesson
+    FindLesson.new(lesson, course).next_lesson
+  end
+
   def course
     CourseDecorator.new(lesson.course)
   end

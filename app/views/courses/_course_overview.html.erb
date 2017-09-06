@@ -2,13 +2,13 @@
 
   <%= link_to course, class: 'course-card-header__link' do %>
     <div class='course-card-header__image'>
-      <%= render 'shared/course_badge', course: course %>
+      <%= render 'shared/course_badge', course: course, user: user %>
     </div>
   <% end %>
 
   <div class="">
     <h2 class="course-card-header__title"><%= course.title %></h2>
-    <span class="course-card-header__sub-title"><%= course.lessons_count %> lessons</span>
+    <span class="course-card-header__sub-title"><%= course.lessons.size %> lessons</span>
   </div>
 
   <%= link_to 'Open Course', course, class: 'button button--secondary course-card-header__button' %>

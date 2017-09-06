@@ -12,16 +12,14 @@ RSpec.describe Lesson do
       slug: 'test-lesson'
     )
   }
-  let(:course) { double('Course', title: 'web_dev_101') }
 
-  let(:find_lesson) { double('FindLesson') }
+  let(:course) { double('Course', title: 'web_dev_101') }
   let(:section) { double('Section', lessons: lessons) }
   let(:lessons) { [] }
 
   before do
     allow(lesson).to receive(:section).and_return(section)
     allow(lesson).to receive(:course).and_return(course)
-    allow(FindLesson).to receive(:new).with(lesson).and_return(find_lesson)
   end
 
   it { is_expected.to belong_to(:section) }
@@ -30,20 +28,6 @@ RSpec.describe Lesson do
   it { is_expected.to have_many(:completing_users) }
   it { is_expected.to validate_uniqueness_of(:position).case_insensitive }
   it { is_expected.to validate_presence_of(:content).on(:update) }
-
-  describe '#next_lesson' do
-    it 'returns the next lesson' do
-      expect(find_lesson).to receive(:next_lesson)
-      lesson.next_lesson
-    end
-  end
-
-  describe '#prev_lesson' do
-    it 'find the previous lesson' do
-      expect(find_lesson).to receive(:prev_lesson)
-      lesson.prev_lesson
-    end
-  end
 
   describe '#position_in_section' do
     let(:lessons) { [lesson, lesson2, lesson3] }
