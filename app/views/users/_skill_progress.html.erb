@@ -3,7 +3,7 @@
     <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
       <div class="row align-items-center skill-progress-wrapper">
         <div class="col-12 col-md-2 text-center">
-          <%= render 'shared/course_badge', course: course %>
+          <%= render 'shared/course_badge', course: course, user: @user %>
         </div>
 
         <div class="col-12 col-md-4">
@@ -15,13 +15,13 @@
         <div class="col-12 col-md-3 lessons-count-wrapper">
           <p class="text-uppercase">
             <span class="grey small lessons-count">
-              <%= course.lessons_count %> lessons
+              <%= course.lessons.size %> lessons
             </span>
           </p>
         </div>
 
         <div class="col-12 col-md-3 course-progress-wrapper">
-          <% if course.completed_by?(current_user) %>
+          <% if course_completed_by_user?(course, @user) %>
             <span class="completed-text pale-grey bold text-uppercase">Completed</span>
           <% else %>
             <%= link_to 'Start', course_path(course), class: 'button button--primary' %>

@@ -4,7 +4,7 @@ class UsersController < ApplicationController
   authorize_resource only: [:edit, :update]
 
   def show
-    @courses = Course.order(:position)
+    @courses = decorated_courses
   end
 
   def update
@@ -13,6 +13,14 @@ class UsersController < ApplicationController
   end
 
   private
+
+  def decorated_courses
+    courses.map { |course| CourseDecorator.new(course) }
+  end
+
+  def courses
+    Course.order(:position).includes(:lessons, sections: [:lessons])
+  end
 
   def user_params
     params
@@ -29,6 +37,10 @@ class UsersController < ApplicationController
   end
 
   def find_user
-    @user = UserDecorator.new(current_user)
+    @user = UserDecorator.new(user)
+  end
+
+  def user
+    User.includes(:lesson_completions).find(current_user.id)
   end
 end

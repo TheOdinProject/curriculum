@@ -1,6 +1,7 @@
 class LessonCompletionsController < ApplicationController
   before_action :authenticate_request
   before_action :lookup_lesson
+  before_action :set_user
 
   def create
     new_lesson_completion.save
@@ -15,9 +16,13 @@ class LessonCompletionsController < ApplicationController
 
   def lesson_completion
     LessonCompletion.where(
-      student_id: current_user.id,
+      student_id: @user.id,
       lesson_id: @lesson.id
     ).first
+  end
+
+  def set_user
+      @user = User.includes(:lesson_completions).find(current_user.id)
   end
 
   def new_lesson_completion

@@ -34,7 +34,7 @@ class CourseProgress
   private
 
   def number_of_lessons
-    lessons.count
+    lessons.size
   end
 
   def lessons
@@ -46,6 +46,6 @@ class CourseProgress
   end
 
   def number_of_lessons_completed
-     (lessons & completed_lessons ).count
+     (lessons & completed_lessons ).size
    end
 end

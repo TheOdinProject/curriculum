@@ -24,14 +24,6 @@ class Lesson < ApplicationRecord
     is_project? ? 'Project' : 'Lesson'
   end
 
-  def next_lesson
-    find_lesson.next_lesson
-  end
-
-  def prev_lesson
-    find_lesson.prev_lesson
-  end
-
   def position_in_section
     section_lessons.where('position <= ?', position).count
   end
@@ -73,10 +65,6 @@ class Lesson < ApplicationRecord
 
   def section_lessons
     section.lessons
-  end
-
-  def find_lesson
-    FindLesson.new(self)
   end
 
   def slug_candidates

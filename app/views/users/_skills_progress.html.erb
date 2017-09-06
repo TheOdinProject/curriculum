@@ -6,7 +6,7 @@
     </div>
 
     <% courses.each do |course| %>
-      <%= render 'skill_progress', course: CourseDecorator.new(course) %>
+      <%= render 'skill_progress', course: course %>
     <% end %>
   </div>
 </div>

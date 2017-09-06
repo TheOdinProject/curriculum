@@ -11,10 +11,17 @@ RSpec.describe LessonsController do
   before do
     allow(controller).to receive(:current_user).and_return(user)
 
-    allow(Lesson).to receive(:friendly).and_return(lesson)
-    allow(lesson).to receive(:find).with(params[:id]).and_return(lesson)
-    allow(lesson).to receive(:course).and_return(course)
+    allow(User).to receive(:includes).with(:completed_lessons).
+      and_return(user)
 
+    allow(user).to receive(:find).with('1').and_return(user)
+
+    allow(Lesson).to receive(:includes).
+      with(:section, course: [:lessons, sections: [:lessons]]).
+        and_return(lesson)
+
+    allow(lesson).to receive(:friendly).and_return(lesson)
+    allow(lesson).to receive(:find).with(params[:id]).and_return(lesson)
     allow(ENV).to receive(:[]).with('SHOW_ADS').and_return(true)
     allow(Ad).to receive(:show_ads?).and_return(true)
   end

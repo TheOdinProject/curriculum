@@ -1,10 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe LessonCompletionsController do
-  let(:student) { double('User', id: '1') }
+  let(:user) { double('User', id: '1') }
   let(:lesson) { double('Lesson', id: '1') }
   let(:lesson_completion_attrs) {
-    { lesson_id: lesson.id, student_id: student.id }
+    { lesson_id: lesson.id, student_id: user.id }
   }
 
   context 'unauthenticated user' do
@@ -25,7 +25,11 @@ RSpec.describe LessonCompletionsController do
 
   context 'authenticated user' do
     before do
-      allow(controller).to receive(:current_user).and_return(student)
+      allow(User).to receive(:includes).with(:lesson_completions).
+        and_return(user)
+
+      allow(user).to receive(:find).with('1').and_return(user)
+      allow(controller).to receive(:current_user).and_return(user)
       allow(Lesson).to receive(:friendly).and_return(lesson)
       allow(lesson).to receive(:find).with(lesson.id).and_return(lesson)
     end

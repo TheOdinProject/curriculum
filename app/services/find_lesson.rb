@@ -1,42 +1,33 @@
 class FindLesson
-  attr_reader :lesson
-  private :lesson
+  attr_reader :lesson, :course
+  private :lesson, :course
 
-  def initialize(lesson)
+  def initialize(lesson, course)
     @lesson = lesson
+    @course = course
   end
 
   def next_lesson
-    find_lesson(next_lesson_position) unless last_lesson?
-  end
-
-  def prev_lesson
-    find_lesson(previous_lesson_position) unless first_lesson?
+    find_next_lesson unless last_lesson?
   end
 
   private
 
-  def first_lesson?
-    lesson.position <= 1
-  end
-
-  def lessons
-    lesson.course.lessons.order(position: :asc)
+  def course_lessons
+    course.lessons.sort_by(&:position)
   end
 
   def last_lesson?
-    lesson.position >= lessons.first.position + lessons.size - 1
+    lesson.position == course_lessons.last.position
   end
 
-  def find_lesson(lesson)
-    lessons.find_by_position(lesson)
+  def find_next_lesson
+    course_lessons.find do |lesson|
+      lesson.position == next_lesson_position
+    end
   end
 
   def next_lesson_position
     lesson.position + 1
-  end
-
-  def previous_lesson_position
-    lesson.position - 1
   end
 end
