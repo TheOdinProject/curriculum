@@ -3,7 +3,7 @@
     <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
       <div class="row align-items-center skill-progress-wrapper">
         <div class="col-12 col-md-2 text-center">
-          <%= image_tag course.badge, class: 'course-badge img-fluid', alt: "#{course.title} badge" %>
+          <%= render 'shared/course_badge', course: course %>
         </div>
 
         <div class="col-12 col-md-4">

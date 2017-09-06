@@ -34,58 +34,6 @@
         z-index: 1;
       }
 
-      .course-badge-title-wrapper {
-        padding-bottom: 20px;
-        @include media-breakpoint-down(sm) {
-          text-align: center;
-        }
-
-        .view-course-button-wrapper {
-          text-align: right;
-
-          @include media-breakpoint-down(md) {
-              text-align: center;
-          }
-
-          .button--secondary {
-            padding: 1rem 1.5rem;
-          }
-        }
-      }
-
-      .course-badge-title {
-        display: flex;
-        padding: 0;
-
-        .course-title {
-          margin-left: 2em;
-
-          h2 {
-            color: $text-primary;
-            font-size: 18px;
-            letter-spacing: 0.2px;
-            margin: 0;
-            max-width: 100%;
-          }
-
-          .lessons-count {
-            font-size: 13px;
-          }
-
-        }
-
-        @include media-breakpoint-down(md) {
-          margin: 20px 0;
-        }
-        @include media-breakpoint-down(sm) {
-          flex-direction: column;
-          text-align: center;
-          .course-title {
-            margin-left: 0;
-          }
-        }
-      }
-
       .course-description {
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         padding-top: 20px;
