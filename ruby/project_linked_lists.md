@@ -62,6 +62,7 @@ Build the following methods in your linked list class:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jason McKee's solution](https://github.com/jttmckee/odin-project-ruby/tree/master/LinkedList)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/linked_list)
 * [Roland Studer's solution](https://github.com/RolandStuder/odin_project_solutions/tree/master/linked_lists)
 * [justinckim3's solution](https://github.com/justinckim3/linked_list/blob/master/linked_list.rb)
