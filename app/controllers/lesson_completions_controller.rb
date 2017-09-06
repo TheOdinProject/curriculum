@@ -25,7 +25,11 @@ class LessonCompletionsController < ApplicationController
   end
 
   def lookup_lesson
-    @lesson = Lesson.friendly.find(params[:lesson_id])
+    @lesson = LessonDecorator.new(lesson)
+  end
+
+  def lesson
+    Lesson.friendly.find(params[:lesson_id])
   end
 
   def authenticate_request
