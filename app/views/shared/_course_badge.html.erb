@@ -6,6 +6,7 @@
 <% else %>
   <div class="course-badge progress-circle" data-progress="<%= percentage_completed_by_user(course, current_user) %>">
     <div class="progress-circle__inner">
+      <%= image_tag course.badge, alt: "#{course.title} badge", class: 'progress-circle__image' %>
       <p class="bold progress-circle__content"><%= "#{percentage_completed_by_user(course, current_user)}%" %></p>
       <p class="progress-circle__content">COMPLETE</p>
     </div>
