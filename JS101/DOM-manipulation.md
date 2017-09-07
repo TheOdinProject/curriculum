@@ -13,7 +13,7 @@ One of the most unique and useful abilities of javascript is it's ability to man
 
 When working with HTML and JS, you'll often here mention of "the DOM". What the DOM is, on a high level, is a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationsships depending on how they're arranged in the HTML document.
 
-```
+```javascript
 <div id="container">
   <div class="display"></div>
   <div class="controls"></div>
@@ -37,7 +37,7 @@ Those are just a few, but you probably notice the pattern. It's similar to CSS S
 
 You can also use relational selectors with special properties owned by the nodes. 
 
-```
+```javascript
 const container = document.querySelector('#container'); 
 // select the #container div (don't worry about the syntax, we'll get there)
 
@@ -69,7 +69,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 
 * document.createElement(tagName[, options]) => creates a new element of tag type *tagName*
 
-```
+```javascript
 const div = document.createElement('div');
 ```
 
@@ -88,14 +88,14 @@ const div = document.createElement('div');
 
 When you have reference to an element, you can use that reference to alter the elements own properties. This provides allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
-```
+```javascript
 const div = document.createElement('div');                     
 // create a new div referenced in the variable 'div'
 ```
 
 #### Adding inline style
 
-```
+```javascript
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
@@ -112,7 +112,7 @@ Generally style rules are the same as in CSS with the exception that hyphenated 
 
 #### Editing Attributes
 
-```
+```javascript
 div.setAttribute('id', 'theDiv');                              
 // if id exists update it to 'theDiv' else create an id 
 // with value "theDiv"
@@ -129,7 +129,7 @@ See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/W
 
 #### Working with classes
 
-```
+```javascript
 div.classList.add('new');                                      
 // adds class "new" to your new div
 
@@ -145,7 +145,7 @@ Often times it's more efficient and creates cleaner code to toggle a style rathe
 
 #### Adding text content
 
-```
+```javascript
 div.textContent = 'Hello World!'                               
 // creates a text node containing "Hello World!" and 
 // inserts it in div
@@ -153,7 +153,7 @@ div.textContent = 'Hello World!'
 
 #### Adding HTML content
 
-```
+```javascript
 div.innerHTML = '<span>Hello World!</span>';                   
 // renders the html inside div
 ```
@@ -166,17 +166,17 @@ Events are how you make the magic happen on your pages. There are a lot of event
 
 We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
 
-```
+```javascript
 <button onclick="alert(this.tagName)">Click Me</button>
 ```
 
 This solution is less than ideal. For one, we're cluttering out HTML with javascript. And two, we can only have 1 "onclick" event per element. Let's try another approach.
 
-```
+```javascript
 <button id="btn">Click Me</button>
 ```
 
-```
+```javascript
 var btn = document.querySelector('#btn');
 btn.onclick = (e) => alert(e.target.tagName);
 
@@ -184,11 +184,11 @@ btn.onclick = (e) => alert(e.target.tagName);
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property. Let's try the last method.
 
-```
+```javascript
 <button id="btn">Click Me Too</button>
 ```
 
-```
+```javascript
 var btn = document.querySelector('#btn');
 btn.addEventListener('click', (e) => {
   alert(e.target.tagName);
@@ -205,7 +205,7 @@ This might seem like a lot of code if you're attaching lots of similar event lis
 
 We want to create an alert when the buttons are clicked. We'll try first by iterating over a group of elements.
 
-```
+```javascript
 <div id="container">
     <button id="1">Click Me</button>
     <button id="2">Click Me</button>
@@ -213,7 +213,7 @@ We want to create an alert when the buttons are clicked. We'll try first by iter
 </div>
 ```
 
-```
+```javascript
 var buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
   button.addEventListener('click', (e) => {
@@ -230,7 +230,7 @@ This works just fine, but an easier solution would be to utilize the "bubbling" 
 
 So how can we utilize this in our example? 
 
-```
+```javascript
 var container = document.querySelector('#container');
 container.addEventListener('click', (e) => {
   if (e.target.tagName !== 'BUTTON') return;
@@ -256,3 +256,4 @@ We'll be doing the first exercise in Wes Bos's JavaScript30 program. You'll need
 * [Eloquent JS - Handling Events](http://eloquentjavascript.net/14_event.html)
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
+* If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
