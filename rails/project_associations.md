@@ -1,31 +1,28 @@
-# Projects: Active Record Associations
-<!-- *Estimated Time: 6-10 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
 In these projects, you'll finally really get to dive into ActiveRecord's associations, one of the best features it offers.  The tutorial chapter will have you creating microposts for your users and the other project will give you a chance to add some more interesting associations to your previous work.
 
-## Warmup: Thinking Data First
+### Warmup: Thinking Data First
 
 Lay out the data architecture you'd need to implement to build the following scenarios:
 
-1. A site for pet-sitting (watching someone's pet while they're gone). People can babysit for multiple pets and pets can have multiple petsitters. 
-4. You like hosting people for dinner so you want to build a dinner party invitation site.  A user can create parties, invite people to a party, and accept an invitation to someone else's party.  
+1. A site for pet-sitting (watching someone's pet while they're gone). People can babysit for multiple pets and pets can have multiple petsitters.
+4. You like hosting people for dinner so you want to build a dinner party invitation site.  A user can create parties, invite people to a party, and accept an invitation to someone else's party.
 5. Extra credit (tricky): You and your friends just love posting things and following each other.  How would you set up the models so a user can follow another user?
 
-## Project 1: Ruby on Rails Tutorial
+### Project 1: Ruby on Rails Tutorial
 
 This chapter of the tutorial begins the conceptual heavy lifting.  For beginners trying to plough through the tutorial, this is usually the beginning of the "I'm doing it but not understanding it" phase. Luckily, you've already learned everything that will be covered in the tutorial and this should be a great chance to see it in action as part of a real website.
 
-The basic gist of it is that, to have a microposting site like Twitter, you've got to actually have microposts.  Users create microposts, so you can surely expect that a User will `has_many` microposts.  With the association done, the rest is really just about setting up the correct views to display the microposts.  
+The basic gist of it is that, to have a microposting site like Twitter, you've got to actually have microposts.  Users create microposts, so you can surely expect that a User will `has_many` microposts.  With the association done, the rest is really just about setting up the correct views to display the microposts.
 
 As with the previous chapter, just make sure you're writing the test specs in the correct files and stick with it.  There's a lot of ground to cover but, again, the conceptual hurdles should be well within reach at this point.
 
 ### Your Task
 
-* Do the [Ruby on Rails Tutorial Chapter 11](https://www.railstutorial.org/book/user_microposts), "User microposts".
+* Do the [Ruby on Rails Tutorial Chapter 13](https://www.railstutorial.org/book/user_microposts), "User microposts".
 
-## Project 2: Private Events
+### Project 2: Private Events
 
 You want to build a site similar to a private [Eventbrite](http://www.eventbrite.com) which allows users to create events and then manage user signups.  Users can create events and send invitations and parties (sound familiar?).  Events take place at a specific date and at a location (which you can just store as a string, like "Andy's House").
 
@@ -60,7 +57,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 5. Now add the association between the event attendee (also a User) and the event.  Call this user the "attendee".  Call the event the "attended_event". You'll again need to juggle specially named foreign keys and classes and sources.
 6. Create and migrate all necessary tables and foreign keys.  This will require a "through" table since an Event can have many Attendees and a single User (Attendee) can attend many Events... many-to-many.
 4. Now make an Event's Show page display a list of attendees.
-5. Make a User's Show page display a list of events he is attending.
+5. Make a User's Show page display a list of events they are attending.
 6. Modify the User's Show page to separate those events which have occurred in the past ("Previously attended events") from those which are occuring in the future ("Upcoming events").  You could do this by putting logic in your view.  Don't.  Have your controller call separate model methods to retrieve each, e.g. `@upcoming_events = current_user.upcoming_events` and `@prev_events = current_user.previous_events`.  You'll get some practice with working with dates as well as building some queries.
 7. Modify the Event Index page to list all events, separated into Past and Upcoming categories.  Use a class method on Event (e.g. `Event.past`).
 8. Refactor the "upcoming" and "past" methods into simple scopes (remember scopes??).
@@ -72,6 +69,17 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [nmac's solution](https://github.com/nmacawile/Events)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/associations/private-events) | [View in browser](http://iventbrite.herokuapp.com/)
+* [mindovermiles262's solution](https://github.com/mindovermiles262/odin-events)
+* [holdercp's solution](https://github.com/holdercp/private-events) | [View in browser](https://aqueous-shore-53729.herokuapp.com/)
+* [jfonz412's solution](https://github.com/jfonz412/private-events)
+* [yilmazgunalp's solution](github.com/yilmazgunalp/private-events) | [Live version](https://my-private-events.herokuapp.com/)
+* [CloudTemplar_'s solution](https://github.com/cloudtemplar/private-events) | [Live version](https://shielded-falls-83468.herokuapp.com/)
+* [LPSV's solution](https://github.com/leosoaivan/TOP_ror_private_events)
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/private_events) | [Live version](https://sheltered-crag-16269.herokuapp.com/)
+* [Austin's solution](https://github.com/CouchofTomato/private_events)
 * [Jamie's solution](https://github.com/Jberczel/private_events) | [View in browser](http://privent.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/private-events)
 * [TomTom's solution](https://github.com/tim5046/projectOdin/tree/master/Rails/private-events/private-events)
@@ -80,7 +88,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Kate McFaul's solution](https://github.com/craftykate/odin-project/tree/master/Chapter_04-Advanced_Rails/private_events)
 * [Tommy Noe's solution](https://github.com/thomasjnoe/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events)
-* [Aleksandar's solution](https://github.com/Rodic/private-events)
+* [Aleksandar's solution](https://github.com/rodic/private-events)
 * [Vidul's solution](https://github.com/viparthasarathy/private-events) | [View in browser](https://fierce-headland-7201.herokuapp.com/)
 * [Jason Matthews' solution](https://github.com/fo0man/private-events)
 * [Dominik Stodolny's solution](https://github.com/dstodolny/private-events)
@@ -104,10 +112,21 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project9--private-events/private-events)
 * [Mateo Mejia's solution](https://github.com/mateomgj/private-events) | [View in browser](https://fierce-brushlands-63385.herokuapp.com/)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/private-events) | [View in browser](https://private-events-rails.herokuapp.com)
-* Add your solution above this line!
+* [Akshay Bharwani's solution](https://github.com/akshaybharwani/private-events)
+* [Martin Safer's solution](https://github.com/mtsafer/private-events) | [View in browser](https://aqueous-woodland-15720.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/private_events) | [View in browser](http://cryptic-mesa-97521.herokuapp.com/)
+* [John's solution](https://github.com/johnTheDudeMan/private_events)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/private-events)
+* [Till S.'s solution](https://github.com/gitseti/private-events) | [View in browser](https://protected-citadel-60271.herokuapp.com/)
+* [Frank V's solution](https://github.com/fv42wid/events)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/private_events) | [View in browser](https://fathomless-shore-10615.herokuapp.com/)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/private-events)
+* [Dylan's non RESTful solution](https://github.com/resputin/the_odin_project/tree/master/Rails/private-events)
+* [DV's solution](https://github.com/dvislearning/private-events) | [View in browser](https://sleepy-everglades-63021.herokuapp.com/)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/private-events) | [View in browser](https://quiet-forest-50554.herokuapp.com/)
+* [Eric Gonzalez solution](https://github.com/Twinpair/Eventor) | [View in browser](https://railseventor.herokuapp.com/)
 
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

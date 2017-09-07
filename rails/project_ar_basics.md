@@ -1,11 +1,8 @@
-# Projects: Active Record Basics
-<!-- *Estimated Time: 6-10 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
 In this project, you'll get to spend some quality time with models.  The tutorial will give you a chance to apply some of what you've learned in a structured environment and then the additional project will give you the chance to do it on your own.
 
-## Warmup: Thinking Data First
+### Warmup: Thinking Data First
 
 The first step to building a good data model is usually not on the computer.  You'll want to take a minute and think through what you're going to need.  You may not really know everything when you first start, but mapping out an approach path is crucial to avoiding costly mistakes later.
 
@@ -45,27 +42,27 @@ Use whatever format feels best to you.
 
 ### Your Task
 
-For each of the following scenarios, write down the models, columns, validations and associations you might use to implement it.  Some of these are more difficult than others and you'll have to use a bit of creativity to infer which columns might need to be present for the scenario to make sense in the real world.  
+For each of the following scenarios, write down the models, columns, validations and associations you might use to implement it.  Some of these are more difficult than others and you'll have to use a bit of creativity to infer which columns might need to be present for the scenario to make sense in the real world.
 
 The trick is identifying what should be a different model and how these models will relate to each other via simple associations (all the ones below are `has_many`, `has_one` and/or `belongs_to` relationship).  If you can't quite figure out how it might look, keep the scenario in mind as you go through the next few lessons.
 
-Remember, if you feel like you will be hard coding data multiple times, it's probably a sign that you should create a separate table.  A common example is address information -- you could write down the city and state explicitly for each user.  How about making separate City and State models and relating them to each other?  
+Remember, if you feel like you will be hard coding data multiple times, it's probably a sign that you should create a separate table.  A common example is address information -- you could write down the city and state explicitly for each user.  How about making separate City and State models and relating them to each other?
 
 1. You are building an online learning platform (much like this!).  You've got many different courses, each with a title and description, and each course has multiple lessons.  Lesson content consists of a title and body text.
 2. You are building the profile tab for a new user on your site.  You are already storing your user's username and email, but now you want to collect demographic information like city, state, country, age and gender.  Think -- how many profiles should a user have?  How would you relate this to the User model?
 3. You want to build a virtual pinboard, so you'll have users on your platform who can create "pins".  Each pin will contain the URL to an image on the web.  Users can comment on pins (but can't comment on comments).
 4. You want to build a message board like [Hacker News](http://news.ycombinator.com).  Users can post links.  Other users can comment on these submissions or comment on the comments.  How would you make sure a comment knows where in the heirarchy it lives?
 
-## Project 1: Ruby on Rails Tutorial
+### Project 1: Ruby on Rails Tutorial
 
 This chapter of the tutorial will give you a chance to start working with the database and models.  It will guide you through setting up your first database migrations, making sure your user inputs are properly validated, and how to add a secure password to your User model.
 
-## Your Task
+### Your Task
 
 1. Do the [Ruby on Rails Tutorial chapter 6](https://www.railstutorial.org/book/modeling_users), "Modeling Users".
 
 
-## Project 2: Micro-Reddit
+### Project 2: Micro-Reddit
 
 Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of it called `micro-reddit`.  In this project, you'll build the data structures necessary to support link submissions and commenting.  We won't build a front end for it because we don't need to... you can use the Rails console to play around with models without the overhead of making HTTP requests and involving controllers or views.
 
@@ -74,13 +71,13 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 #### Get Started
 
 1. Just like in the warmup, plan out what data models you would need to allow users to be on the site (don't worry about login/logout or securing the passwords right now), to submit links ("posts"), and to comment on links.  Users do NOT need to be able to comment on comments... each comment refers to a Post.
-2. Generate a new rails app from the command line (`$ rails new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
+2. Generate a new rails app from the command line (`$ rails _5.0.1_ new micro-reddit`) and open it up.  We'll use the default SQLite3 database so you shouldn't have to change anything on that front.
 2. Generate your User model and fill out the migration to get the columns you want.
-3. Run the migration with `$ rake db:migrate`.  You can use `$ rake db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
+3. Run the migration with `$ rails db:migrate`.  You can use `$ rails db:rollback` if you realize you forgot anything or just create a new migration for the correction (which might involve the `#add_column` `#remove_column` or `#change_column` commands).  See the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html) for details on syntax and available methods.
 
 #### Playing with Validations
 
-4. In a new tab, open up the `$ rails console`.  Try asking for all the users with `> User.all`.  You should get back an empty array (no users yet!).  Now create a blank new user and store it to a variable with `> u = User.new`.  This user has been created in the ether of Ruby's memory but hasn't been saved to the database yet.  Remember, if you'd used the `#create` method instead of the `#new` method, it would have just gone ahead and tried to save the new user right off the bat.  Instead, we now get to play with it.  
+4. In a new tab, open up the `$ rails console`.  Try asking for all the users with `> User.all`.  You should get back an empty array (no users yet!).  Now create a blank new user and store it to a variable with `> u = User.new`.  This user has been created in the ether of Ruby's memory but hasn't been saved to the database yet.  Remember, if you'd used the `#create` method instead of the `#new` method, it would have just gone ahead and tried to save the new user right off the bat.  Instead, we now get to play with it.
 5. Check whether your new user is actually valid (e.g. will it save if we tried?).  `> u.valid?` will run all the validations.  It comes up `true`... surprise! We haven't written any validations so that's to be expected.  It's also a problem because we don't want to have users running around with blank usernames.
 5. Implement the user validations you thought of in the first step in your `app/models/user.rb` file.  These might involve constraints on the size of the username and that it must be present (otherwise you'll potentially have users with no usernames!) and that it must be unique.
 6. Reload your console using `> reload!`.  You'll need to do this every time you make changes to your app so the console can reload the current version.  If it still seems broken, just `> quit` out of it and relaunch (sometimes `#reload!` doesn't seem to do the trick).  Build another new user but don't save it yet by using `> u2 = User.new`. Run `> u2.valid?` again to run the validations and it should come up false. Good.
@@ -94,7 +91,7 @@ Let's build [Reddit](http://reddit.com).  Well, maybe a very junior version of i
 11. Now set up your associations between User and Post models.  Did you remember to include the foreign key column (`user_id`) in your posts table?  If not, you can just add a new migration (`$ rails generate migration yourmigrationname`) and use the `#add_column` method mentioned above.
 12. If you've properly set up your associations, you should be able to use a few more methods in the console, including finding a User's Posts and finding the Post's User.  First test finding your lonely User's Posts -- `> User.first.posts`.  It should be an empty array since you haven't created posts, but it shouldn't throw an error at you.
 1. Build (but don't yet save) a new post from the console, called `p1`, something like `> p1 = Post.new(your_attributes_here)`.  Don't forget to include the ID of the user in your `user_id` field!
-2. Now build another post using the association to the user -- substitute `#new` with `#build` and run through the association instead -- `p2 = User.first.posts.build`.  Don't fill in any fields yet.  Examine the object that was created and you'll see that the ID field already got filled out for you, cool! This is a neat trick you'll learn about in the lesson on associations.  
+2. Now build another post using the association to the user -- substitute `#new` with `#build` and run through the association instead -- `p2 = User.first.posts.build`.  Don't fill in any fields yet.  Examine the object that was created and you'll see that the ID field already got filled out for you, cool! This is a neat trick you'll learn about in the lesson on associations.
 3. Save your original new post `p1` so your user has officially written something.  Test that you can use the other side of the association by trying `> Post.first.user`, which should return the original User object whose ID you pointed to when building the post.  All has come full circle!
 
 #### Add in Commenting
@@ -117,6 +114,18 @@ If any of those don't work, double check your associations.  Sometimes the error
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/micro_reddit)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/micro-reddit)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/micro-reddit)
+* [holdercp's solution](https://github.com/holdercp/micro-reddit)
+* [jfonz412's solution](https://github.com/jfonz412/micro-reddit)
+* [nmac's solution](https://github.com/nmacawile/micro-reddit)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/micro-reddit)
+* [Orlando's Solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Micro_reddit)
+* [RichJDSmith's Solution](https://github.com/richjdsmith/micro-reddit)
+* [Jib's Solution](https://github.com/NuclearMachine/odin_rails/tree/master/micro-reddit)
+* [Austin's solution](https://github.com/CouchofTomato/micro_reddit)
 * [Voizzzz' solution](https://github.com/voizzzz/microreddit)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * [Afshin's solution](https://github.com/afshinator/micro-reddit)
@@ -163,9 +172,22 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [Deepak's solution](https://github.com/Deepak5050/reddit_two/tree/master/app/models)
 * [Earth35's solution](https://github.com/Earth35/models-exercise)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/micro-reddit)
-* Add your solution above this line!
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/micro_reddit)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/micro-reddit)
+* [djhart's solution](https://github.com/djhart/micro-reddit)
+* [csrail's solution](https://github.com/csrail/micro-reddit/tree/master/app/models)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/micro-reddit)
+* [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/active_record/micro-reddit)
+* [Dckwong's solution](https://github.com/dckwong/micro-reddit)
+* [at0micr3d's solution](https://github.com/at0micr3d/micro-reddit)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/micro-reddit)
+* [Joe Himes's solution](https://github.com/deedle42/micro-reddit)
+* [Niño Mollaneda's solution](https://github.com/ninoM/micro-reddit)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/micro-reddit)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-micro-reddit)
+* [Pat's solution](https://github.com/Pat878/micro-reddit)
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

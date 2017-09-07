@@ -1,56 +1,58 @@
-# Git 101
-<!-- *Estimated Time: 2 hrs* -->
-<!-- purpose of this lesson should be to give the student a bit of a plain english overview of what git is and how to do the basics, eg make a repo, init, stage, commit and push. It would be nice to have a full blown git course -->
+In this lesson we will cover common git commands used to manage your projects and upload your work onto GitHub. We refer to these commands as the **basic git workflow**. These are commands that will frequent about 70-80% of the time whenever you use git; wrapping your head around these would be more than half the battle won!
 
-<!-- this course would be better after the installations project, that would allow students to have a bit of an idea of what they are doing when the submit their projects -->
 
-We mentioned Git briefly in the previous course [Introduction to Web Development](/introduction-to-web-development/tools-of-the-trade) and you've had a chance to use it during the [Rails project](/web-development-101/ruby-on-rails) but now it's time to actually dig in a bit more and understand what Git really is.
+### Learning Outcomes
+*By the end of this you should be able to:*
 
-To get a good high-level overview of Git plus a series of how-to commands and explanations, check out [Getting to Know Git](http://www.vikingcodeschool.com/web-development-basics/getting-to-know-git).
+* Run git commands from the command line
+* Name the git command used to get a full copy an existing git repository from Github
+* Name the git command used to check the status of your files
+* Name the git command used to track files
+* Name the git command used to commit files
+* Name the git command used to view your commit history
+* Name the git command used to upload projects onto GitHub
 
-## Points to Ponder
+### Assignment:
+1. [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
+Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
+2. Now complete the first interactive lesson in the [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
+3. Watch this [video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic git commands
 
-*Look through these now and then use them to test yourself after doing the assignment*
+### A Cheatsheet
+Here is a reference list of the most commonly used git commands (you might consider bookmarking this handy webpage). Try to familiarise yourself with the commands and then eventually remember them:
 
-* What is Git?
-* What is SCM?
-* What is a VCS?
-* Why is Git useful for a developer?
-* Why is Git useful for a team of developers?
-* How do you create a new Git repository for a project locally?
-* How do you create it on Github?
-* How do you commit changes?
-* What is the difference between staging and committing changes?
-* What is the difference between committing your changes and pushing them to Github?
-* How do you check the status of your current repo in git?
-* How do you see the history of your previous commits (from the command line)?
-* How can you look through your historical commits on the Github website?
-* What is a "Merge"?
-* What is a "Pull Request"?
-* What is "Forking" a repo?
-* What is "Cloning" a repo?
+* Commands related to remote repository:
+  * `git clone https://github.com/user-name/repository-name.git`
+  * `git push origin master`
+* Commands related to workflow:
+  * `git add .`
+  * `git commit -m "A message describing what you have done to make this snapshot different"`
+* Commands related to checking status or log history
+  * `git status`
+  * `git log`
 
-## Assignment:
+The git syntax works like this: `program | action | destination`.
 
-1. If you haven't already, watch the following videos (which were linked in the post above as well) from [Github's Youtube Channel](http://www.youtube.com/GitHubGuides):
-    
-    1. [Git Basics #1: What is VCS?](http://www.youtube.com/watch?v=8oRjP8yj2Wo) will introduce you to version control for developers.
-    2. [Git Basics #2: What is Git?](http://www.youtube.com/watch?v=uhtzxPU7Bz0) will start getting a bit more into a Git workflow.
-    3. [Git Basics #3: Get Going](https://www.youtube.com/watch?v=wmnSyrRBKTw) will show your how to configure your git initially.  You likely did some of these steps during the installation phase, so don't download it again.
-    2. [Webcast: The Basics of Git and GitHub](http://www.youtube.com/watch?v=U8GBXvdmHT4) will provide more of a linear and wholistic look at practical workflows when using Git.  Some of the early terminology is a bit developer-y and it is pretty wide-ranging, but just soak it in and save it for later.  You'll also see information about some helpful Help files and GUI tools to visualize Git.
+For example:
 
-1. Do the [Git Calisthenics](http://www.vikingcodeschool.com/web-development-basics/git-calisthenics) exercises for a follow-along walkthrough of pretty much everything you'll need with Git during the next few months.
-2. Do the quick [Try Git exercises](http://try.github.io/levels/1/challenges/1) as well.
+* `git add .` is read like `git | add | .`
+* `git commit -m "message"` is read like `git | commit -m | "message"`
+* `git status` is read like `git | status | (no destination)`
 
-## Additional Resources
+### Conclusion
+You may not feel completely comfortable with Git at this point, which is normal.
+Git is a skill that you will only get more comfortable with as you use it. This is why we have a project coming right after this lesson where we walk you through the entire process. It's the exact same process you would use in a real project.
+
+The main thing to take away from this lesson is the **basic workflow**; the commands you have been exposed to here are ones you will be using the most with Git.
+
+Don't worry if you don't know all the commands yet or that they don't stick at the moment - they will soon be seared into your brain as you use them multiple times in future Odin projects to come.
+
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [Tips to write better commit messages](http://chris.beams.io/posts/git-commit/)
-* ["Just a simple guide for getting started with Git, no deep shit." from Roger Dudler](http://rogerdudler.github.io/git-guide/).
-* [Git Basics #4: Quick Wins with Git](http://www.youtube.com/watch?v=7w5Z7LmyLgI) will get a bit more into some of the features of Git.  A bit abstract, but should give you some conceptual tips.
-* [Git Immersion: a practical guided tour through the fundamentals of git](http://gitimmersion.com/index.html)
-* [Git CheatSheet from Tiimgreen](https://github.com/tiimgreen/github-cheat-sheet)
-* [For the very technical, this site helps you learn Git by building Git (not in Ruby)](http://kushagragour.in/blog/2014/01/build-git-learn-git/)
-* [Visualization for basic git commands](http://www.wei-wang.com/ExplainGitWithD3/)
-* [Interactive search that explains the meaning of any shell command, including git commands](http://explainshell.com)
+* An introductory guide by [Michael Hartl](http://www.michaelhartl.com/) called [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
+* An easy-to-read, pragmatic guide to using Git available online from [RyPress](http://rypress.com/tutorials/git/index), also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC)
+* [Git Reference](https://git-scm.com/docs) is another official Git resource, providing quick instructions for using common commands.
+* This very thorough and well laid out tutorial from [Atlassian](https://www.atlassian.com/git/tutorials/)
+* For a more in-depth understanding of Git, read the free [ProGit eBook](https://git-scm.com/book/en/v2)

@@ -1,10 +1,8 @@
-# Conclusion
-
-**WOAH!** 
+**WOAH!**
 
 That was quite a journey.  Take a second and reflect on the fact that you've just learned the basics of at least four different languages and, if you had to, you could probably hack together a webpage on your own already.  
 
-You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a functioning page.  You should be able to create a basic web page and make it do some basic things with Javascript.  You should also be able to write a simple Ruby script, test it, and describe what Rails and Backbone actually are.  Finally, you should have a clear understanding of how all this fits together in your future as a builder of web applications.
+You should be fairly comfortable typing commands into your computer's command line and you should understand what happens when you enter a web address into your browser and it returns a functioning page.  You should be able to create a basic web page and make it do some basic things with Javascript.  You should also be able to write a simple Ruby script, test it, and describe what Rails actually is.  Finally, you should have a clear understanding of how all this fits together in your future as a builder of web applications.
 
 With what you know already, you could start putting together some basic websites or strike out to increase your knowledge on your own.  But we're here to help you get a lot further than that -- to the point where you can confidently build a full-featured and scalable web application, whether on your own or working as a developer in a top tier tech company.  
 
@@ -14,7 +12,7 @@ Buckle up, because next we're heading straight into Ruby Programming and we won'
 
 The journey has just begun!
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

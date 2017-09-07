@@ -1,42 +1,45 @@
-# The Odin Project Curriculum: [Learn Web Development for Free](http://theodinproject.com)
+# Welcome to The Odin Project Curriculum: 
 
-This repository houses the curriculum used by [The Odin Project](http://theodinproject.com).  It is available for free to anyone who would like to learn web development in a project-focused and collaborative environment.\*  
+The Odin Project (also known as TOP), is an open-source community for learning full-stack web development. Our mission is to provide a comprehensive curriculum to learn web development for free. We help our students to learn the skills and build the impressive portfolio of projects they need to get hired as a web developer.
 
-**See it live at [theodinproject.com/curriculum](http://theodinproject.com/curriculum).**
+The curriculum is divided into distinct courses each covering the subject language in-depth. Each course contains a listing of lessons interspersed with multiple projects. These projects give students the opportunity to practise what they are learning, thereby reinforcing and solidifying the theoretical knowledge learned in the lessons. Completed projects may then be included in the student's portfolio.
 
-Students, educators, and developers are encouraged to make contributions to the curriculum.  It has been greatly simplified so that it should be a rather straightforward process -- just fork this repository, make your changes (e.g. adding the link to your solution for one of the exercises), then submit a pull request.  The lessons presented at [theodinproject.com/curriculum](http://theodinproject.com/curriculum) are all stored in their appropriate course directories here.
+Lessons are structured through a combination of original written content and a compilation of carefully curated resources from the web. This is where the contributing happens!
 
-Please take a look at the [contributing page](http://www.theodinproject.com/contributing) to find out more about the contributing workflow
+This repository houses the curricular content used in [The Odin Project](http://theodinproject.com) website. (cf. [this repository](https://github.com/TheOdinProject/theodinproject) which houses the front-end and back-end code.)
 
-##What to contribute
+The TOP community can be found in our [gitter chat rooms](https://gitter.im/TheOdinProject/theodinproject).
 
-### 1. Student Solutions
+## Contributing
 
-If you've finished a project, submit the link to your solution's github repo where it says to do so in the project description.  See the section "Project Solutions" below.
+The Odin Project depends on open-source contributions to improve, grow and thrive. We welcome contributors of all experience levels and backgrounds to help maintain this awesome curriculum and community.
 
-### 2. Other Content
+### Courses in Development
+[These are the courses](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22course%20overview%22%20) we are developing at the moment. 
 
-We link out to all kinds of free pre-existing videos, blogs and tutorials.  If we're trying to teach something and you know there's a better resource out there, put it in the "Additional Resources" section of that lesson.  Same goes for alternate but useful explanations of the material.  If you've got high quality material on your own blog or website, feel free to do the same.  Content with an obvious commercial angle (like marketing videos) should only be used if there is no reasonable substitute.
+Please feel free to comment on any of them with:
+* your suggestions for topics we should cover,
+* any resources you think we should include,
+* any project ideas you think would be a good fit,
+* or any feedback in general. 
 
-### 3. Exercises and Projects
+Every little bit helps to make our curriculum better.
 
-This is a project-driven curriculum so having useful and interesting projects that break down to address specific content modules is crucial.  We're always on the lookout for good project ideas that can be broken down into a checklist of deliverables. If you can help on any of those levels, please contribute!
+### Lessons in Development
+On a more granular level, [these are the lessons](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) we are currently developing for the courses. Again, please feel free to comment on any of them with any suggestions and ideas you have.
 
-We will also be instituting quizzes at the beginning and end of most lessons.  If you know of or have created any interesting problems that address a particular area of content, please send them or the links to them this way!
+If you would like to help us develop any of these lessons please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide) to find out how you can contribute.
 
-### 4. Curriculum Strategy
+#### A non-exhaustive list of what you can contribute to help us:
+* Typo and grammar corrections.
+* Rewriting lesson sections to make them clearer and easier to understand.
+* Fixes for broken links.
+* New resource links you think would make a lesson better
+* Working on new lessons and projects, you can can choose to work on parts of a lesson which are outlined in the progress list on [lesson plans](https://github.com/TheOdinProject/curriculum/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22new%20lesson%22%20) or you can work on completing an entire lesson yourself.
 
-This curriculum is built to pave the way between new students and industry.  If you're a developer or hiring manager and have a strong opinion about something you believe junior devs are lacking these days and should be included in the curriculum, let us know by opening an issue  If you're a student and have gone through a unit and still don't feel like you understand something well enough, tell us so we can beef up that section!
+To find out more about how you can contribute please read our [contributing guide](https://github.com/TheOdinProject/curriculum/wiki/Contributing-Guide)
 
-## HOW to Contribute
-
-There are two main ways to contribute to the curriculum:
-
-1. **Edit on Github** For small changes like adding links to student solutions or fixing typos, it's easiest to just edit the file directly on Github, which [I show how to do in this YouTube video](https://www.youtube.com/watch?v=V74l_zS1x8E).
-
-1. **Pull Request:**  To contribute in ways that are larger than what can be done directly on Github or if you're expecting to make several contributions over time, it is best to submit a Pull Request.  I describe that workflow [in this YouTube video here](http://www.youtube.com/watch?v=mENDYhfxH-o) and Github has good documentation and video support as well.  Basically, you will [fork the curriculum repository](https://help.github.com/articles/fork-a-repo), make your changes or additions to the appropriate file, then [submit a pull request](https://help.github.com/articles/using-pull-requests) with your changes.  
-
-##Other helpful links
+## Other helpful links
 
 *For more information about The Odin Project, go to [theodinproject.com](http://theodinproject.com).*
 
@@ -46,5 +49,5 @@ There are two main ways to contribute to the curriculum:
 
 \* See [license.md](https://github.com/TheOdinProject/curriculum/blob/master/license.md) for usage details.
 
-<hr>
+___
 Created by [Erik Trautman](http://www.github.com/eriktrautman)

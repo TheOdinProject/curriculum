@@ -1,9 +1,6 @@
-# Project: Advanced Forms
-<!-- *Estimated Time: 6-12 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Project: Flight Booker
+### Project: Flight Booker
 
 In this project, you'll get a chance to tackle some more advanced forms.  This is the kind of thing you'll have to work with when handling user orders for anything more complicated than an e-book.  In this case, we'll build the first three steps of a typical checkout process for booking a one-way flight:
 
@@ -28,7 +25,7 @@ This project will require you to seed your database, so use your `db/seeds.rb` f
 2. Create a new Rails app, e.g. `odin-flight-booker`, and a new Git repo
 3. Modify the README to explain what you're doing and link back to the project here.
 
-#### Screen 1: Search
+#### Screen 1: Search**
 
 For the first screen, you'll need a dropdown that lists a possible "From" airport and a possible "To" airport. just assume all flights fly between SFO and NYC.  You'll need to set up a dropdown menu that contains all eligible flights.
 
@@ -47,7 +44,7 @@ This requires relatively vanilla forms that happen to be prepopulated with colle
 Once search results are returned, the user just needs to choose from among the eligible flights.
 
 1. Once the user has submitted the form, your controller should detect the additional query parameters (e.g. from `/flights?from_code=SFO&to_code=NYC&date=20131215&num_tickets=2`) and should pull the flights which match that criteria from your database through smart querying model methods.
-2. Send those flights back to your `app/views/flights/index.html.erb` view.  Make it so that the view will display the results below (if present).  
+2. Send those flights back to your `app/views/flights/index.html.erb` view.  Make it so that the view will display the results below (if present).
 3. Don't get rid of the search dropdowns -- keep the search form active at the top so the user can try running a new search.
 4. The search results will need to be in their own form -- this time for selecting which of the flights the user would like to choose.  Each returned flight should render with a radio button next to it.  The user will select which flight to submit and move onto the next step.  The form should submit to the `#new` action of the BookingsController you're about to create using another GET method.  You'll need to include a hidden field that contains the number of passengers.
 
@@ -59,7 +56,7 @@ Once the user has submitted their chosen flight, it's time to take their booking
 2. Create and migrate the Passenger model (just keep the information simple -- name and email only)
 3. Set up associations between Bookings, Passengers, and Flights.
 4. Create a BookingsController and appropriate routes.
-5. Set up your `#new` action, which should have received the flight ID and passenger number parameters, and use it to help render a form for a new booking which displays the currently chosen date, airports, flight ID and a set of fields to enter personal information for each passenger.  You'll want to create a new blank Passenger object in your controller for each passenger, and then use `#fields_for` in the view to set up the sub-forms.  
+5. Set up your `#new` action, which should have received the flight ID and passenger number parameters, and use it to help render a form for a new booking which displays the currently chosen date, airports, flight ID and a set of fields to enter personal information for each passenger.  You'll want to create a new blank Passenger object in your controller for each passenger, and then use `#fields_for` in the view to set up the sub-forms.
 6. Try submitting the form and check out the parameters in your server.
 7. You'll need your `#create` action to create a new Booking (linking it to the appropriate Flight) but it will also need to accept the nested attributes for each of the Passenger objects and create a new Passenger from them.  Be mindful of whitelisting the nested parameters as well.
 8. Go to the Booking model and implement the `#accepts_nested_attributes_for` method.  See the [Rails API](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html) for examples and [this SO post](http://stackoverflow.com/questions/18540679/rails-4-accepts-nested-attributes-for-and-mass-assignment) for another.
@@ -70,6 +67,18 @@ Once the user has submitted their chosen flight, it's time to take their booking
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [mindovermiles262's solution](https://github.com/mindovermiles262/flight-booker) | [View in Browser](https://flight-booker-ad.herokuapp.com/)
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_flight_tracker) | [View in Browser](https://immense-lowlands-59487.herokuapp.com/)
+* [yilmazgunalp`s solution](https://github.com/yilmazgunalp/flight_booker) | [View in Browser](https://sheltered-lowlands-87484.herokuapp.com/)
+* [Joshua Wootonn`s solution](https://github.com/jose56wonton/flight-booker) | [View in Browser](https://flight-booker-jw.herokuapp.com/)
+* [holdercp's solution](https://github.com/holdercp/odin-flight-booker) | [Live site](https://flight-booker-odin.herokuapp.com/)
+* [Jfonz412's solution](https://github.com/jfonz412/flight-booker)
+* [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Flight_booker)
+* [CloudTemplar_'s solution](https://github.com/cloudtemplar/flight-booker) | [Live on Heroku!](https://protected-escarpment-37952.herokuapp.com/)
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/odin-flight-booker) | [Live website](https://sleepy-oasis-66283.herokuapp.com)
+* [Sic's solution](https://github.com/sic-f/flight-booker) | [View in browser](http://flyt-booker.herokuapp.com)
+* [Austin's solution](https://github.com/CouchofTomato/flight-booker)
 * [spierer's solution](https://github.com/spierer/odin-advanced-forms)
 * [jamie's solution](https://github.com/Jberczel/Flight_Booker) | [View in browser](http://flight-booker.herokuapp.com)
 * [Donald's solution](https://github.com/donaldali/odin-flight-booker) | [View in browser](http://dna-flight-booker.herokuapp.com/)
@@ -99,9 +108,21 @@ Once the user has submitted their chosen flight, it's time to take their booking
 * [Sander Schepens's solution](https://github.com/schepens83/theodinproject.com/tree/master/rails/project10--odin-flight-booker/odin-flight-booker)
 * [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/odin-flight-booker) | [View in browser](https://flight-booker-stefan.herokuapp.com/)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/flight-booker) | [View in browser](https://flight-booker-rails.herokuapp.com)
-* Add your solution above this line!
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin_booker) | [View in browser](https://guarded-atoll-24378.herokuapp.com/)
+* [Frank V's solution](https://github.com/fv42wid/flight)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/odin-flight-booker) | [View in browser](http://top-flight-booker.herokuapp.com/)
+* [Oscar Y.'s solution](https://github.com/mysteryihs/odin-flight-booker)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_flight_booker) | [View in browser](https://shrouded-earth-72460.herokuapp.com/)
+* [Cody Loyd's Solution](https://github.com/codyloyd/flight_booker) | [View in Browser](https://intense-peak-10624.herokuapp.com/)
+* [Rhys B.'s Solution](https://github.com/105ron/flight_booker) | [View in Browser](https://secure-depths-25814.herokuapp.com)
+* [David Chapman's Solution](https://github.com/davidchappy/flight_booker)
+* [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-flight-booker)
+* [Marcus' solution](https://github.com/nestcx/odin-flight-booker)
+* [DV's Solution](https://github.com/dvislearning/odin-flight-booker) | [View in Browser](https://powerful-sierra-48857.herokuapp.com/)
+* [Peter Mester`s solution](https://github.com/peter665/FlightBooker) | [View in Browser](http://flight-booker-mester.herokuapp.com/)
 
-## Additional Resources
+
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

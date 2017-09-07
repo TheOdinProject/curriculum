@@ -1,14 +1,12 @@
-# The Best Free Resources for Learning HTML and CSS
-
 Though this course is currently under construction, there are tons of great resources out there for learning HTML and CSS and we've started laying them out for you below.  The first place to start is definitely in the [Web Development 101 lesson on HTML and CSS](/web-development-101/html-and-css-basics), which covers a lot of ground to get you up to speed on the basics.  In fact, most of what you need to know to build effective websites is covered there.  
 
 This course will be designed to follow that introductory material with more depth so you can start to flex your design muscles to produce more appealing and easy-to-use websites.  Luckily for you, there are an enormous amount of resources available on the web to learn front end development, so if you ever get stuck, Google is your friend.
 
-## The Path Forward
+### The Path Forward
 
 Here are a list of things you'll want to understand to get a good handle on HTML5 and CSS3 and the best places we've found to read up on them.
 
-## HTML5
+### HTML5
 
 ### Basics
 
@@ -17,10 +15,10 @@ Most of this should be review since you've already completed [the Web Developmen
 #### Points to Ponder
 
 * How is an HTML5 document structured?  
-* What are elements/tags? 
+* What are elements/tags?
 * What are element attributes?  
 * How do you link to external files?  
-* When should you use IDs vs Classes? 
+* When should you use IDs vs Classes?
 * What attributes are required by image and links for them to be effective and accessible?  
 * Where should your CSS live?
 
@@ -69,7 +67,7 @@ Images and other media are an essential part of providing a good user experience
 
 There is also a big difference between each of the image filetypes, so pay attention to the use cases for each.  Remember, the goals are usually image size vs quality (though sometimes you want animation or clear backgrounds too), so figure out the differences between `gif` and `jpg` and `bmp` and `png` and `svg`.
 
-#### Points to Ponder 
+#### Points to Ponder
 
 * What are common attributes of image tags?
 * How do you load a smaller version of an image?
@@ -166,7 +164,7 @@ HTML5 brought in a lot of nice new features, many geared specifically towards gi
 * [How HTML5 and CSS3 Will Change Web Design from Virtuosimedia.com](http://www.virtuosimedia.com/dev/html/how-html5-and-css3-will-change-web-design) is a nice 2011 article looking forward to the coming changes.
 * [Testing compliance of various tags in HTML5 with CanIUse?](http://caniuse.com)
 
-## CSS3 
+## CSS3
 
 ### Basics
 
@@ -516,7 +514,7 @@ Speaking of better and brighter things, you are probably chomping at the bit for
 
 * Build Facebook's profile page
 * Build your own basic grid framework
-* Rebuild Bootstrap or Foundation 
+* Rebuild Bootstrap or Foundation
 
 ## Additional Resources
 

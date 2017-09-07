@@ -1,8 +1,6 @@
-# Project: Backgrounds and Gradients (with Apple)
-
 In this project you'll clone the website of one of the most design-forward companies in the world.  It's not a very complex site but it uses background photos well and the navbar at the top contains a gradient that you should be able to mimic.
 
-## Steps to Victory
+### Steps to Victory
 
 1. Go to this old version of [apple.com](http://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
 2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
@@ -18,6 +16,14 @@ In this project you'll clone the website of one of the most design-forward compa
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
+* Add your solution below this line!
+* [yilmazgunalp's Solution](https://github.com/yilmazgunalp/apple) | [View in Browser](https://yilmazgunalp.github.io/apple)
+* [Justine's Solution](https://github.com/justinemar/justinemar.github.io/tree/master/apple) | [View in Browser](https://justinemar.github.io/apple/)
+* [Jeff's Solution](https://github.com/jmbothe/apple-landing-page) | [View in Browser](https://jmbothe.github.io/apple-landing-page/)
+* [Andrew’s solution](https://github.com/andrewr224/backgrounds_project) | [View in browser](https://andrewr224.github.io/backgrounds_project/)
+* [Axel’s solution](https://github.com/afuh/appel) | [View in browser](https://afuh.github.io/appel/)
+* [Rhys B's solution](https://github.com/105ron/apple) | [View in browser](https://105ron.github.io/apple/)
+* [Pawel R's solution](https://github.com/PawelRokosz/apple-homepage) | [View in browser](https://htmlpreview.github.io/?https://github.com/PawelRokosz/apple-homepage/blob/master/index.html)
 * [Jason Ellis's solution](https://github.com/jason-ellis/apple-homepage) | [View in browser](http://htmlpreview.github.io/?https://github.com/jason-ellis/apple-homepage/blob/master/index.html)
 * [Shouvik Roy's solution](https://github.com/royshouvik/applehome) | [View in browser](http://htmlpreview.github.io/?https://github.com/royshouvik/applehome/blob/master/index.html)
 * [Meher Chandan's solution](https://github.com/meherchandan/Apple_Project) | [View in browser](http://htmlpreview.github.io/?https://github.com/meherchandan/Apple_Project/blob/master/Index.html)
@@ -34,11 +40,22 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Luke Walker's Solution](https://github.com/ubershibs/odin-html-css/tree/master/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/ubershibs/odin-html-css/blob/master/apple/index.html)
 * [cdouglass's solution](https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html) cloning [http://touchstonejs.io/](http://touchstonejs.io/) | [View in browser](https://htmlpreview.github.io/?https://github.com/cdouglass/odin-project-exercises/blob/master/html-css/backgrounds-and-gradients/touchstone.html)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/apple) | [View in browser](https://htmlpreview.github.io/?https://github.com/migueloherrera/apple/blob/master/index.html)
-* [J-kaizen's solution](https://github.com/J-kaizen/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/gradients/blob/master/index.html)
-* Add your solution above this line!
+* [J-kaizen's solution](https://github.com/J-kaizen/TheOdinProject/tree/master/HTML_CSS/gradients) | [View in browser](https://htmlpreview.github.io/?https://github.com/J-kaizen/TheOdinProject/blob/master/HTML_CSS/gradients/index.html)
+* [csrail's solution](https://github.com/csrail/apple-mock) | [View in browser](https://rawgit.com/csrail/apple-mock/master/index.html)
+* [Paul Shonk's solution](https://github.com/pshonk/apple)
+* [cindygao93's solution](https://github.com/cindygao93/google-homepage) | [View in browser](https://cindygao93.github.io/google-homepage/)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/html-backgrounds-gradients
+) | [View in browser](https://davidchappy.github.io/html-backgrounds-gradients/)* [Flint Mayers' solution](https://github.com/FlintMayers/Backgrounds-and-Gradients-with-Apple-
+) | [View in browser](https://flintmayers.github.io/Backgrounds-and-Gradients-with-Apple-/)
+* [Daunenok's solution](https://github.com/daunenok/apple) | [View in browser](https://daunenok.github.io/apple/)
+* [Austin's solution](https://github.com/CouchofTomato/apple-clone)
+* [Beth Rathbone's solution](https://github.com/bethrath/apple-homepage) | [View in browser] (http://htmlpreview.github.io/?https://github.com/bethrath/apple-homepage/blob/master/index.html)
+* [Leah Xia's solution](https://github.com/LeahXia/apple.git) | [View in browser] (https://leahxia.github.io/apple/)
+* [husein's solution](https://github.com/hosghf/apple-page-rubuild) | [View in browser] (https://htmlpreview.github.io/?https://github.com/hosghf/apple-page-rubuild/blob/master/index.html)
+* [Adonias Dantas's solution](https://github.com/adoniasdantas/apple-homepage) | [View in browser] (https://adoniasdantas.github.io/apple-homepage/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Apple/) | [View in browser](https://ncud4bloc.github.io/Apple/HTML/index.html)
 
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

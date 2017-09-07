@@ -1,6 +1,4 @@
-# Controllers
-
-## Introduction
+### Introduction
 
 The controller's job is really to act as the ultimate middleman.  It knows which questions it wants to ask the Model, but lets the model do all the heavy lifting for actually solving those questions.  It knows which view it wants to render and send back to the browser, but lets the view itself take care of putting all that HTML together.  That's why it's a "controller"... smart enough to know what to do and then delegate all the hard work.  All it does is collect the proper batch of instance variables for sending over to the view.
 
@@ -22,7 +20,7 @@ The controller's `#index` action would actually look as simple as:
 
 In this simple action, we have the controller asking the model for something ("Hey, give me all the posts!"), packaging them up in an instance variable `@posts` so the view can use them, then will automatically render the view at `app/views/posts/index.html.erb` (we'll talk about that in a minute).
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -41,13 +39,13 @@ In this simple action, we have the controller asking the model for something ("H
 * What's the `#flash`?
 * What's the difference between `#flash` and `#flash.now`?
 
-## Naming Matters
+### Naming Matters
 
 One way that Rails makes your life a bit easier is that it assumes things are named a certain way and then executes them behind the scenes based on those names.  For instance, your controller and its action have to be named whatever you called them in your `routes.rb` file when you mapped a specific type of HTTP request to them.
 
 The other end of the process is what the controller does when it's done.  Once rails gets to the `end` of that controller action, it grabs all the instance variables from the controller and sends them over the view file *which is named the same thing as the controller action* and which lives in a folder named after the controller, e.g. `app/views/posts/index.html.erb`.  This isn't arbitrary, this is intentional to make your life a lot easier when looking for files later. If you save your files in a different folder or heirarchy, you'll have to explicitly specify which ones you want rendered.
 
-## Rendering and Redirecting
+### Rendering and Redirecting
 
 Although Rails will implicitly render a view file that is named the same thing as your controller action, there are plenty of situations when you might want to override it.  A main case for this is when you actually want to completely redirect the user to a new page instead of rendering the result of your controller action.  
 
@@ -117,7 +115,7 @@ With the `params` hash!  It acts just like a normal Ruby hash and contains the p
 
 Some forms will submit every field as a top level scalar entry in the params hash, e.g. `params[:post_title]` might be "test post" and `params[:post_body]` might be "body of post" etc and these you can access with no issues.  You have control over this, as you'll learn in the lessons on forms.
 
-### Strong Parameters
+#### Strong Parameters
 
 Often times, though, you want to send parameters from the browser that are all packaged nicely into a hash or nested into an array.  It can make your life a lot easier because you can just pass that hash straight into `Post.new(your_hash_of_attributes_here)` because that's what `Post.new` expects anyway!  We won't really get too deep into this stuff until the lessons on Models and Forms, but you should be aware that the structure of the data you're being sent from a form depends entirely on how you choose to set up that form (it's really based on how you choose to name your fields using the HTML `name=''` attribute).
 
@@ -169,7 +167,7 @@ So our `#create` action above can now be filled out a bit more:
     end
 ```
 
-## Flash
+### Flash
 
 The last piece of code we need to write there is how to set our special messages for the user.  Rails gives you a neat tool for sending success and error messages (like the little green message that briefly appears at the top of an application to congratulate you for signing up) called the "flash".  It acts just like a hash -- you can set its keys to a specific message and then that will be available for you to access if you want to display it in your views.
 
@@ -179,7 +177,7 @@ The reason you can use any key is because you will have to write a snippet of co
 
 One last distinction, though, goes back to the difference between a redirect and a render.  Remember, a redirect submits a completely new HTTP request, effectively leaving our application in the dust and starting over from the top.  We lose all our data... except for the flash.  The flash is specifically designed to travel with that HTTP request so you have access to it when you get redirected to the next page.
 
-Render doesn't go that far -- it just uses a view file that's part of your application's normal flow and you have access to all your instance variables in that file.  Because the flash is special, you actually have to use `flash.now` instead of `flash` when you are just rendering a view instead of submitting a whole new request.  That would look like `flash.now[:error] = "Rats! Fix your mistakes, please.`.  
+Render doesn't go that far -- it just uses a view file that's part of your application's normal flow and you have access to all your instance variables in that file.  Because the flash is special, you actually have to use `flash.now` instead of `flash` when you are just rendering a view instead of submitting a whole new request.  That would look like `flash.now[:error] = "Rats! Fix your mistakes, please."`.  
 
 The distinction between `flash` and `flash.now` just lets Rails know when it will need to make the flash available to you... if you used `flash` when you should have used `flash.now`, you'll just start seeing your messages showing up a "page too late" and it should be obvious what went wrong.  
 
@@ -202,25 +200,25 @@ Now the full controller code can be written out for our `#create` action:
           render :new
         end
       end
-    
+
         private
 
           def whitelisted_post_params
             params.require(:post).permit(:title,:body,:author_id)
-          end 
+          end
     end
 ```
 
 So that action did a fair bit of stuff -- grab the form data, make a new post, try to save the post, set up a success message and redirect you to the post if it works, and handle the case where it doesn't work by berating you for your foolishness and re-rendering the form.  A lot of work for only 10 lines of Ruby.  Now that's smart controlling.
 
-## Your Assignment
+### Your Assignment
 
 That's really just a taste of the Rails controller, but you should have a pretty good idea of what's going on and what tricks you can use.  
 
-1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.5.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now. 
+1. Read the [Rails Guides chapter on Controllers](http://guides.rubyonrails.org/action_controller_overview.html), sections 1 - 4.5.3 and 5.2.  We'll cover sessions (section 5.1) more in the future so don't worry about them now.
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

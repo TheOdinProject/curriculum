@@ -1,8 +1,6 @@
-# Project: Minesweeper in Javascript
-  
 As you continue to expand your knowledge of Javascript, the programs you build should keep feeling more and more natural.  In this project, you'll get a chance to build another classic browser game -- Minesweeper.  It'll take some thought to work out the different logic cases, but it's really rewarding to be able to play something like this.  
 
-## Your Task
+### Your Task
 
 Build [Minesweeper](http://en.wikipedia.org/wiki/Minesweeper_(video_game)) in the browser. Stick with a small board (9x9 with 10 mines) to start.  
 
@@ -20,24 +18,32 @@ The basic rules are that the player must flag every mine on the board without cl
 7. Play!
 8. Push your solution to Github and include it below.
 
-## Student Solutions
+### Student Solutions
 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
+* Add your solution below this line!
+* [Austin's solution](https://github.com/CouchofTomato/minesweeper-js) | [View in browser](https://couchoftomato.github.io/minesweeper-js/)
 * [Tom M's solution](https://github.com/tim5046/projectOdin/tree/master/Javascript/Minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/tim5046/projectOdin/blob/master/Javascript/Minesweeper/index.html)
 * [Mazin Power's solution](https://github.com/muzfuz/minesweeper_js)
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/minesweeper/index.html "Minesweeper")
 * [Steve's solution](https://github.com/beesmart/JS_BeeSweeper) | [View in browser](http://beesmart.github.io/JS_BeeSweeper)
-* [Rodić's solution](https://github.com/Rodic/TOP---js-assignments/tree/master/Project%20-%20Minesweeper%20in%20Javscript)
+* [Rodić's solution](https://github.com/rodic/TOP---js-assignments/tree/master/Project%20-%20Minesweeper%20in%20Javscript)
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project6) | [View in browser](https://rawgit.com/ArturJanik/TOPJS/master/Project6/index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_minesweeper/blob/master/index.html)
 * [Dan V's solution](https://github.com/vickerdj/minesweeper) | [View in browser](http://vickerdj.github.io/minesweeper/)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/ubershibs/odin-js-course/blob/master/minesweeper/index.html)
-* [Stecan (Cyprium)'s solution](https://github.com/dev-cyprium/Mine-Hunter) (In Rails, with time and scores)  | [View in browser](https://mine-hunter.herokuapp.com/)
-* Add your solution above this line!
+* [Stefan (Cyprium)'s solution](https://github.com/dev-cyprium/Mine-Hunter) (In Rails, with time and scores)  | [View in browser](https://mine-hunter.herokuapp.com/)
+* [Miguel Herrera's solution](https://github.com/migueloherrera/minesweeper) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/minesweeper/blob/master/index.html)
+* [David Chapman's solution](https://github.com/davidchappy/minesweeper) | [View in browser](http://minesweeper.dachapman.com)
+* [chrisnorwood's solution](https://github.com/chrisnorwood/vue-minesweeper) (built with Vue.js) |[View in browser](https://vue-minesweeper.herokuapp.com/)
+* [Lani Huang's solution](https://github.com/laniywh/the-odin-project/tree/master/js/minesweeper) | [View in browser](https://cdn.rawgit.com/laniywh/the-odin-project/master/js/minesweeper/index.html)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/minesweeper) | [View in browser](https://sophialwu.github.io/minesweeper/)
+* [Daunenok's solution](https://github.com/daunenok/minesweeper) | [View in browser](https://daunenok.github.io/minesweeper/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Minesweeper) | [View in browser](https://ncud4bloc.github.io/Minesweeper/HTML/index.html)
+* [Pat's solution](https://github.com/Pat878/minesweeper) | [View in browser](https://pat878.github.io/minesweeper/)
 
-
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

@@ -1,6 +1,4 @@
-# Databases and SQL
-
-## Introduction
+### Introduction
 
 Data is the core of any good web app and a good working knowledge of SQL will take you a long way.  That knowledge lets you not just understand what's going on behind the scenes with your ORM tool (e.g. Active Record) but also to feel comfortable asking more complicated questions of your data.  And that's really what SQL is all about -- asking questions of your database and occasionally also adding or changing things in it.  Querying can be incredibly useful for you.  
 
@@ -14,24 +12,24 @@ This lesson assumes you've already completed the [Databases intro in the Web Dev
 
 All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails.  This is why we're going over databases before learning Active Record.  We'll do the same thing with forms -- you'll learn how to build them in HTML and *then* how to use Rails to make them for you.  
 
-### A Note on Resources
+#### A Note on Resources
 
 SQL is one of those topics that's been stored away in dusty old technical manuals and 90's style websites.  Even the best books out there can make it seem oddly complicated because they tend to write for the database engineer who actually does need to know all the nitty gritty details.  
 
 Though the prevalence of web applications these days has grown the demand among new users to focus on understanding the *concepts* of SQL, the learning tools haven't really caught up. We'll do our best to impart those concepts using the tools available.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
 
-#### Important Concepts:
+##### Important Concepts:
 
 * What is the Primary Key?
 * What are Foreign Keys?
 * What is a Schema?
 
-#### Statements:
+##### Statements:
 
 * `SELECT`
 * `CREATE TABLE`
@@ -46,7 +44,7 @@ Though the prevalence of web applications these days has grown the demand among 
 * `COMMIT` (concept)
 * `ROLLBACK` (concept)
 
-#### Clauses:
+##### Clauses:
 
 * `DISTINCT`
 * `WHERE`
@@ -58,7 +56,7 @@ Though the prevalence of web applications these days has grown the demand among 
 * `ORDER BY`
 * `COUNT`
 
-#### Functions
+##### Functions
 
 * `GROUP BY`
 * `HAVING`
@@ -68,28 +66,28 @@ Though the prevalence of web applications these days has grown the demand among 
 * `MAX`
 * `SUM`
 
-#### Other Stuff
+##### Other Stuff
 
 * What are Indexes good for?
 * What's the difference between `WHERE` and `HAVING`?
 
-## The World's Fastest Semi-Complete Explanation of SQL
+### The World's Fastest Semi-Complete Explanation of SQL
 
 This is a very brief soup-to-nuts explanation of SQL.  It won't do a particularly good job teaching you specific new tactics but should present a general overview to have going into the reading assignment.  Here we go...
 
-SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g. "users" and "posts" tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g. a single user) and each column is one of that record's attributes (like name, email, etc).  The one column that all tables include is an "ID" column, which gives the unique row numbers, and is called the record's "primary key". 
+SQL is the language used to talk to many relational databases.  These databases use lots of tables to store different types of data (e.g. "users" and "posts" tables).  Tables are long lists like spreadsheets where each row is a different record (or object, e.g. a single user) and each column is one of that record's attributes (like name, email, etc).  The one column that all tables include is an "ID" column, which gives the unique row numbers, and is called the record's "primary key".
 
 You can "link" tables together by making one of the columns in one table point to the ID of another table, for instance a row in the "posts" table might include the author's ID under the column called "user_id".  Because the "posts" table has the ID of another table in it, that column is called a "foreign key".  
 
-### Setting Stuff Up
+#### Setting Stuff Up
 
-SQL lets you do everything.  The first category of commands are for setting up the database (`CREATE DATABASE`), setting up an individual table (`CREATE TABLE`), and similar commands for altering or destroying them.  The setup information for your database is stored in a special file called the "Schema", and this is updated whenever you make changes to the structure of your database.  Think of the schema as saying "here's our database and it's got a couple tables.  The first table is 'users' and it's got columns for 'ID' (which is an integer), 'name' (which is a bunch of characters), 'email' (which is a bunch of characters) ..." 
+SQL lets you do everything.  The first category of commands are for setting up the database (`CREATE DATABASE`), setting up an individual table (`CREATE TABLE`), and similar commands for altering or destroying them.  The setup information for your database is stored in a special file called the "Schema", and this is updated whenever you make changes to the structure of your database.  Think of the schema as saying "here's our database and it's got a couple tables.  The first table is 'users' and it's got columns for 'ID' (which is an integer), 'name' (which is a bunch of characters), 'email' (which is a bunch of characters) ..."
 
 In addition to setting up tables, you can tell your database to only allow unique values in a particular column (e.g. for usernames) or to index a column for faster searching later with `CREATE INDEX`.  Create indexes, which basically do all the hard work of sorting your table ahead of time, for columns that you'll likely be using to search on later (like username)... it will make your database much faster.
 
 SQL likes semicolons at the end of lines and using single quotes (') instead of double quotes(").
 
-### Mucking Around with Data
+#### Mucking Around with Data
 
 Once your database is set up and you've got empty tables to work with, you use SQL's statements to start populating it.  The main actions you want to do are CRUD (which we've seen before) -- Create, Read, Update, and Destroy.  Most of the commands you run will fall under the "Read" category, since you'll spend lots of time asking questions of your data and trying to display it.
 
@@ -99,11 +97,11 @@ For "Destroy" queries, the classic mistake is typing `DELETE * FROM users` witho
 
 "Create" queries use `INSERT INTO` and you'll need to specify which columns to insert stuff into and then which values to put in those columns, which looks something like `INSERT INTO Users (name, email) VALUES ('foobar','foo@bar.com');`.  This is one of the few queries that you don't need to be careful about which rows you've selected since you're actually just adding new ones into the table.
 
-"Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g. if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique): 
+"Update" queries use `UPDATE` and you'll need to tell it what data to `SET` (using key="value" pairs) and which rows to do those updates for.  Be careful because if your `WHERE` clause finds multiple rows (e.g. if you've searched based on a common first name), they'll all get updated. A standard query for updating a user's email may look something like the following (though in the real world you'd search on ID because it's always unique):
 
 ```language-sql
-    UPDATE Users 
-    SET name='barfoo', email='bar@foo.com' 
+    UPDATE Users
+    SET name='barfoo', email='bar@foo.com'
     WHERE email='foo@bar.com';`
 ```
 
@@ -111,7 +109,7 @@ For "Destroy" queries, the classic mistake is typing `DELETE * FROM users` witho
 
 A close cousin of `SELECT`, for if you only want unique values of a column, is `SELECT DISTINCT`.  Say you want a list of all the different names of your users without any duplicates... try `SELECT DISTINCT users.name FROM users`.
 
-### Mashing Tables Together
+#### Mashing Tables Together
 
 If you want to get all the posts created by a given user, you need to tell SQL which columns it should use to zip the tables together with the `ON` clause. Perform the "zipping" with the `JOIN` command.  But wait, if you mash two tables together where the data doesn't perfectly match up (e.g. there are multiple posts for one user), which rows do you actually keep?  There are four different possibilities:
 
@@ -128,7 +126,7 @@ Joins naturally let you specify conditions too, like if you only want the posts 
 
 Read through [W3 Schools' Joins lesson](http://www.w3schools.com/sql/sql_join.asp) for a better explanation.
 
-### Using Functions to Aggregate Your Data
+#### Using Functions to Aggregate Your Data
 
 When you run a vanilla SQL query, you often get back a bunch of rows.  Sometimes you want to just return a single relevant value that aggregates a column, like the `COUNT` of posts a user has written.  In this case, just use one of the helpful "aggregate" functions offered by SQL (most of which you'd expect to be there -- functions like `SUM` and `MIN` and `MAX` etc).  You include the function as a part of the `SELECT` statement, like `SELECT MAX(users.age) FROM users`.  The function will operate on just a single column unless you specify `*`, which only works for some functions like `COUNT` (because how would you `MAX` a column for "name"?).
 
@@ -159,20 +157,20 @@ Try going back to [the W3 example](http://www.w3schools.com/sql/trysql.asp?filen
 
 You probably got lost somewhere in the above explanation and that's just fine... it's covering way more stuff than anyone can pick up in 10 minutes.  The assigned reading will do a better job of explaining things but, more importantly, you'll get plenty of opportunities to solidify your understanding by applying it in the project.  If you've still got blind spots, check out the Additional Resources section below.  Fear not and stick with it!
 
-## SQL is faster than Ruby!
+### SQL is faster than Ruby!
 
 Learning this stuff is particularly relevant because it's MUCH faster for you to build queries that use SQL intelligently than to just grab a whole bunch of data out of your database and then use Ruby to process it.  For instance, if you want all the unique names of your users, you COULD just grab the whole list from your database using SQL like `SELECT users.name FROM users` (which Active Record will do for you with `User.select(:name)`) then remove duplicates using Ruby's `#uniq` method, e.g. `User.select(:name).uniq`... but that requires you to pull all that data out of your database and then put it into memory and then iterate through it using Ruby.  Use `SELECT DISTINCT users.name FROM users` instead to have SQL do it all in one step.
 
-SQL is built to be fast.  It has a special query optimizer which takes a look at the whole query you're about to run and it figures out exactly which tables it needs to join together and how it can most quickly execute the query.  The difference between using `SELECT` and `SELECT DISTINCT` is negligible compared to the time cost of doing it in Ruby.  Learning your SQL will help you write Active Record queries that can do more which will make you app much faster.  
+SQL is built to be fast.  It has a special query optimizer which takes a look at the whole query you're about to run and it figures out exactly which tables it needs to join together and how it can most quickly execute the query.  The difference between using `SELECT` and `SELECT DISTINCT` is negligible compared to the time cost of doing it in Ruby.  Learning your SQL will help you write Active Record queries that can do more which will make your app much faster.  
 
 
-## Your Assignment
+### Your Assignment
 
 1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](http://www.theodinproject.com/web-development-101/databases).  It is probably worth it to re-watch the videos from the Coursera Databases course -- they were probably too deep the first time, but you should have a better handle on them now.
 1. Read this [simple SQL tutorial](http://www.sqlcourse.com/index.html) for the basics.
 2. If you didn't follow the link in the previous tutorial, learn about the advanced SELECT stuff like aggregate functions and `GROUP BY` by reading the [second part of that tutorial here](http://www.sqlcourse2.com/index.html).
 
-## Conclusion
+### Conclusion
 
 SQL can be a tricky set of concepts to wrap your head around, particularly when it comes to conditionally displaying and grouping the results of multiple joins.  We've emphasized that this stuff is useful for understanding what's going on behind the scenes with Rails and you'll get a chance to apply it in the project.  Everything up to vanilla joins and vanilla aggregate functions is core knowledge that you should really make an effort to assimilate.
 
@@ -180,7 +178,7 @@ If you never quite get to the point where you're comfortable with the really adv
 
 The next step, once you've had a chance to practice this all in the project, is to apply it to Rails with Active Record.  You'll quickly find that Active Record makes your life much, much, much better.  Just don't forget about ol' SQL when you've moved onto those better and brighter things, okay?
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
@@ -191,3 +189,4 @@ The next step, once you've had a chance to practice this all in the project, is 
 * See ["A visual explanation of sql joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.
 * See [this table-based visualization of SQL queries created by A.Z. (an Odin student)](https://www.icloud.com/iw/#numbers/BAJb20dRq9fmGvZz0vqBMzmeQzcJWv2uzXGF/sql)
 * Another interactive sql tutorial from [SQL bolt](http://sqlbolt.com)
+* [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.

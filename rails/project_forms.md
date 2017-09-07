@@ -1,11 +1,8 @@
-# Projects: Forms
-<!-- *Estimated Time: 4-6 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
 These projects will give you a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.  The tutorial chapter will cover integrating a signup form with your Rails application and providing help if the user enters incorrect information.
 
-## Project 1: Bare Metal Forms and Helpers
+### Project 1: Bare Metal Forms and Helpers
 
 In this project, you'll build a form the old fashioned way and then the Rails way.
 
@@ -16,15 +13,15 @@ In this project, you'll build a form the old fashioned way and then the Rails wa
 You'll get good at setting up apps quickly in the coming lessons by using more or less this same series of steps (though we'll help you less and less each time):
 
 1. Build a new rails app (called "re-former").
-2. Go into the folder and create a new git repo there.  Check in and commit the initial stuff.  
+2. Go into the folder and create a new git repo there.  Check in and commit the initial stuff.
 3. Modify your README file to say something you'll remember later, like "This is part of the Forms Project in The Odin Project's Ruby on Rails Curriculum.  Find it at [http://www.theodinproject.com](http://www.theodinproject.com)"
 2. Create and migrate a User model with `:username`, `:email` and `:password`.
 3. Add validations for presence to each field in the model.
-5. Create the `:users` resource in your routes file so requests actually have somewhere to go.  Use the `:only` option to specify just the `:new` and `:create` actions.  
+5. Create the `:users` resource in your routes file so requests actually have somewhere to go.  Use the `:only` option to specify just the `:new` and `:create` actions.
 4. Build a new UsersController (either manually or via the `$ rails generate controller Users` generator).
 6. Write empty methods for `#new` and `#create` in your UsersController.
 7. Create your `#new` view in `app/views/users/new.html.erb`.
-8. Fire up a rails server in another tab.  
+8. Fire up a rails server in another tab.
 9. Make sure everything works by visiting `http://localhost:3000/users/new` in the browser.
 
 #### HTML Form
@@ -75,9 +72,9 @@ The first form you build will be mostly HTML (remember that stuff at all?).  Bui
         Parameters: {"authenticity_token"=>"WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "user" => {"username"=>"foobar", "email"=>"foo@bar.com", "password"=>"[FILTERED]"}}
     ```
 
-4. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.  
-5. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).  
-6. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](/ruby-on-rails/controllers) for a refresher).  
+4. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.
+5. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).
+6. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](/ruby-on-rails/controllers) for a refresher).
 7. Add a new `::new` User line which makes use of that new whitelisting params method.
 5. Submit your form now.  It should work marvelously (once you debug your typos)!
 
@@ -104,7 +101,7 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 #### Editing
 
 1. Update your routes and controller to handle editing an existing user.  You'll need your controller to find a user based on the submitted `params` ID.
-2. Create the Edit view at `app/views/users/edit.html.erb` and copy/paste your form from the New view.  Your HTML and `#form_tag` forms (which should still be commented out) will not work -- they will submit the form as a POST request when you need it to be a PATCH (PUT) request (remember your `$ rake routes`?).  It's an easy fix, which you should be able to see if you attempt to edit a user with the `#form_for` form (which is smart enough to know if you're trying to edit a user or creating a new one).  
+2. Create the Edit view at `app/views/users/edit.html.erb` and copy/paste your form from the New view.  Your HTML and `#form_tag` forms (which should still be commented out) will not work -- they will submit the form as a POST request when you need it to be a PATCH (PUT) request (remember your `$ rake routes`?).  It's an easy fix, which you should be able to see if you attempt to edit a user with the `#form_for` form (which is smart enough to know if you're trying to edit a user or creating a new one).
 3. Do a "view source" on the form generated by `#form_for` in your Edit view, paying particular attention to the hidden fields at the top nested inside the `<div>`.  See it?
 4. Try submitting an edit that you know will fail your validations. `#form_for` also automatically wraps your form in some formatting (e.g. a red border on the input field) if it detects errors with a given field.
 5. Save this project to Git and upload to Github.
@@ -117,6 +114,19 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [justinckim3's solution](https://github.com/justinckim3/re-former)
+* [Nikolay Dyulgerov's solution](https://github.com/NicolayD/re-former)
+* [mindovermiles262's Solution](https://github.com/mindovermiles262/re-former)
+* [holdercp's solution](https://github.com/holdercp/re-former)
+* [jfonz412's solution](https://github.com/jfonz412/re-former)
+* [nmac's solution](https://github.com/nmacawile/re-former)
+* [Adong520's solution](https://github.com/Adong520/reformer)
+* [ToTenMilan's solution](https://github.com/ToTenMilan/the_odin_project/tree/master/rails/forms/re-former)
+* [Orlando's solution](https://github.com/orlandodan14/Ruby-on-Rails/tree/master/Re-former)
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_reformer/tree/master)
+* [Austin's solution](https://github.com/CouchofTomato/reformer)
+* [Jib's solution](https://github.com/NuclearMachine/odin_rails/tree/master/re-former)
 * [spierer's solution](https://github.com/spierer/odin-forms)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/re-former) | [walkthrough](http://jberczel.github.io/forms-walkthrough/)
 * [Afshin M's solution](https://github.com/afshinator/re-former)
@@ -160,17 +170,30 @@ Now we'll start morphing our form into a full Rails form using the `#form_tag` a
 * [Fabricio Carrara's solution](https://github.com/fcarrara/re-former)
 * [Deepak's solution](https://github.com/Deepak5050/re-former-v2.git)
 * [Earth35's solution](https://github.com/Earth35/re-former)
-* Add your solution above this line!
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/project_forms)
+* [Jiazhi Guo's solution](https://github.com/jerrykuo7727/re-former)
+* [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/re-former)
+* [Dylan's solution](https://github.com/resputin/the_odin_project/tree/master/Rails/re-former)
+* [Jakub Peikert's solution](https://github.com/JPeikert/odin_project/tree/master/rails/forms/re-former)
+* [Joe Himes's solution](https://github.com/deedle42/re-former.git)
+* [DV's solution](https://github.com/dvislearning/re-former)
+* [Mateusz Staszczyk's solution](https://github.com/sleaz0id/re-former)
+* [Dckwong's solution](https://github.com/dckwong/re-former)
+* [at0micr3d's solution](https://github.com/at0micr3d/re-former)
+* [Niño Mollaneda's solution](https://github.com/ninoM/re-former)
+* [Samuel Langenfeld's solution](https://github.com/SamuelLangenfeld/re-former)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/reformer)
+* [Luján Fernaud's solution](https://github.com/lujanfernaud/rails-re-former)
+* [Pat's solution](https://github.com/Pat878/re-former)
 
+### Project 2: Ruby on Rails Tutorial
 
-## Project 2: Ruby on Rails Tutorial
-
-This chapter will take what you now know about forms and make it part of a real application instead of just a learning exercise.  You'll build out the user signup form for the Twitter-clone project and integrate it with the validations you created on the database in the previous chapter.  
+This chapter will take what you now know about forms and make it part of a real application instead of just a learning exercise.  You'll build out the user signup form for the Twitter-clone project and integrate it with the validations you created on the database in the previous chapter.
 
 ### Your Task
 
 1. Do the [Ruby on Rails Tutorial Chapter 7](https://www.railstutorial.org/book/sign_up), "Sign-Up".
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

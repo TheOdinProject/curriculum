@@ -1,12 +1,10 @@
-# Sessions, Cookies and Authentication
-
-## Introduction
+### Introduction
 
 "Sessions" are the idea that your user's state is somehow preserved when he/she clicks from one page to the next.  Remember, HTTP is stateless, so it's up to either the browser or your application to "remember" what needs to be remembered.  
 
 In this lesson you'll learn about sessions, browser cookies, and how authentication is built in Rails.  We'll cover both home-grown authentication and the most commonly used authentication gem, Devise.
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -23,9 +21,9 @@ In this lesson you'll learn about sessions, browser cookies, and how authenticat
 * What additional steps (on a high level) are needed to actually "remember" a user after they've closed the browser?
 * What is the Devise gem and why is it useful?
 
-## Cookies, Sessions, and Flashes
+### Cookies, Sessions, and Flashes
 
-Cookies, Sessions and Flashes are three special objects that Rails 4 gives you which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
+Cookies, Sessions and Flashes are three special objects that Rails gives you which each behave a lot like hashes. They are used to persist data between requests, whether until just the next request, until the browser is closed, or until a specified expiration has been reached.  In addition to different temporal concerns, they each solve slightly different use cases, covered below.
 
 ### Cookies
 
@@ -91,7 +89,7 @@ You still have to write view code to display the flash messages.  It's common to
     <% end %>
 ```
 
-## Controller Filters
+### Controller Filters
 
 Before we talk about authentication, we need to cover controller filters.  The idea of these filters is to run some code in your controller at very specific times, for instance before any other code has been run.  That's important because, if a user is requesting to run an action they haven't been authorized for, you need to nip that request in the bud and send back the appropriate error/redirect before they're able to do anything else.  You're basically "filtering out" unauthorized requests.
 
@@ -115,7 +113,7 @@ You'll want to hide your filter methods behind the `private` designation so they
 
 Finally, filters are inherited so if you'd like a filter to apply to absolutely every controller action, put it in your `app/controllers/application_controller.rb` file.
 
-## Authentication
+### Authentication
 
 The whole point of authentication is to make sure that the user is who they say they are.  The standard way of managing this is through logging in your user via a sign in form.  Once the user is logged in, you keep track of that user using the session until the user logs out.
 
@@ -163,7 +161,7 @@ A generic step-by-step overview:
 3. Profit.
 
 
-## Devise
+### Devise
 
 Devise is a gem which has been built to handle all this stuff for you.  It may be tempting to immediately dive into it, but that's not a good idea for beginners.  It's first of all quite important to understand the basic steps of authentication.  Devise can also get fairly complex if you start running into problems or nonstandard use cases.  It's more useful for intermediate+ users of Rails than beginners.
 
@@ -175,25 +173,26 @@ Configuration will be dependent on your use case.  Do you want to make the user 
 
 It's beyond the scope of this lesson to teach Devise but you'll certainly be using it by the end of the course.  The trick is to read the documentation.  They've got a fairly impressive set of docs available [on Github](https://github.com/plataformatec/devise).  The point of showing it here is for you to see it, read it, and keep it in the back of your head until you actually use it.
 
-## Your Assignment
+### Your Assignment
 
-1. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html) chapters 5-6.  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
-2. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) chapter 8 to understand controller filters.
-3. Read [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) chapter 11 to understand more about authentication.
-4. Glance over the [Devise Documentation](https://github.com/plataformatec/devise).  Read about how to install it in your Rails App and what the different modules do.  You don't need to use Devise just yet, so this is more of a reconnaissance mission for later.
+1. Read [this article about how Rails sessions work](https://www.justinweiss.com/articles/how-rails-sessions-work/).
+2. Watch [this video to dive deep into sessions](https://www.youtube.com/watch?v=mqUbnZIY3OQ).
+3. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#session) chapters 5-6.  Don't worry too much about the details of `session_store` configurations in 5.1 right now.
+4. Read [Rails Guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#filters) chapter 8 to understand controller filters.
+5. Read [Rails guides on Controllers](http://guides.rubyonrails.org/action_controller_overview.html#http-authentications) chapter 11 to understand more about authentication.
+6. Glance over the [Devise Documentation](https://github.com/plataformatec/devise).  Read about how to install it in your Rails App and what the different modules do.  You don't need to use Devise just yet, so this is more of a reconnaissance mission for later.
 
-## Conclusion
+### Conclusion
 
 Authentication can appear to be a fairly complicated topic -- there are a lot of moving parts.  At it's core, though, you're just checking whether the person making a request is actually a signed in user who has the permissions to do so, all by using browser cookies in some form or another.  
 
 This lesson should have given you some appreciation for how complicated login systems can potentially get but it should also have removed the veil from the websites you've visited countless times.  Auth isn't rocket science and you'll shortly be building it into your own applications.
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-
 * Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
-* [Cookies and Sessions in Rails 4 from pothibo.com](http://pothibo.com/2013/09/sessions-and-cookies-in-ruby-on-rails/)
+* [Cookies and Sessions in Rails 4 from pothibo.com](https://web.archive.org/web/20161223000750/http://pothibo.com/2013/09/sessions-and-cookies-in-ruby-on-rails/)
 * [All About Cookies (.org)](http://www.allaboutcookies.org/)

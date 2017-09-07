@@ -1,12 +1,10 @@
-# Javascript Basics
-  
 Javascript is here to stay and, if you want to be a full-stack developer, you're going to need to learn more than just simple looping and DOM manipulation with jQuery.  You will need to understand how Javascript actually works in the same way you did with Ruby in order to learn Rails.  
 
 It's actually quite easy to hack together simple browser interactions using a bit of Javascript and a healthy dose of jQuery.  Your mission, though, is to be able to do a lot more than just hack together simple pages -- you need to feel comfortable building out completely new functionality in Javascript and working within large and established frameworks and code bases.  That means digging deep into what makes the language tick and what patterns get used again and again in the real world.
 
 You should already have completed the [Web Development 101 Javascript lesson](/web-development-101/javascript-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby).
 
-## Points to Ponder
+### Points to Ponder
 
 This is a fairly long list of things to pay attention to but it should be mostly review.
 
@@ -45,10 +43,10 @@ This is a fairly long list of things to pay attention to but it should be mostly
 * How would you use a closure to "close" a value within a function?
 * How does `#bind` make your life simpler when thinking about closures and scopes?
 
-## Your Assignment
+### Your Assignment
 
 1. Read [Javascript is Super Sexy](http://javascriptissexy.com/javascript-is-super-sexy/), which is a good post for getting fired up to learn Javascript.
-2. Finish [the entire Codecademy Javascript track](http://www.codecademy.com/tracks/javascript) (you already did up to lesson 5).
+2. Finish [the entire Codecademy Javascript track](https://www.codecademy.com/learn/learn-javascript) (you already did up to lesson 5).
 3. Glance through [Javascript Basics from Mozilla](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics) to review from the Codecademy course.
 
 ## Additional Resources
@@ -66,4 +64,3 @@ This is a fairly long list of things to pay attention to but it should be mostly
 * [Javascript-to-Ruby Syntax Comparison Cheat Sheet from AgentCooper](http://agentcooper.github.io/js-ruby-comparison/)
 * ["How I Work: Yahoo!'s Doug Crockford On Javascript" by Jacob Cook via Smashing Magazine](http://coding.smashingmagazine.com/2012/04/27/yahoos-doug-crockford-on-javascript/) provides a soft high level look at some industry questions.
 * [CodeAvengers.com, interactive HTML, CSS, JS course similar to codecademy](http://codeavengers.com/)
-

@@ -1,5 +1,3 @@
-# How This Course Will Work
-
 Welcome to Rails! Maybe you've skipped right here because you just want to start building websites or maybe you made it through the Ruby course and have a great base to work from.  Either way, we're about to have some fun.
 
 You should already have a good idea of what Rails is all about after covering it in previous lessons (see Prerequisites below for links).  At this point, it's time to take that theoretical knowledge and start building websites.  This portion of the curriculum will be the most build-heavy so far.  You will still be asked to read docs, check out blog posts, and watch videos before building, of course, but projects will be the major focus.
@@ -8,9 +6,9 @@ After each lesson or two, you'll be asked to build one or more independent proje
 
 That tutorial is often too deep for fresh beginners to Rails but we'll be using it as way to build a single large project one chapter at a time while you progress through the lessons.  You should have a much better idea of what's going on in the tutorial than your average beginner since we'll be covering each of its component concepts prior to actually building it in the tutorial.
 
-## The Roadmap
+### The Roadmap
 
-We'll be starting with an overview of important topics like HTTP, MVC, REST, APIs, Cookies and Authentication for some context before moving into the really fun stuff. 
+We'll be starting with an overview of important topics like HTTP, MVC, REST, APIs, Cookies and Authentication for some context before moving into the really fun stuff.
 
 We'll move front-to-back, starting with the routing layer and moving into controllers and views so you can build a functional (if not yet pretty) interface for your data.  Next you'll learn about storing and finding data in databases with SQL then how to turn that SQL into Active Record queries.  We next cover web forms, an area that has a lot more going on behind the scenes than you might expect, and authentication, which is essential to securing your application.  We'll cover some other intermediate topics like state and the asset pipeline to round out your initial understanding of Rails.
 
@@ -18,13 +16,13 @@ But we can't stop there, so we'll get back into ActiveRecord to give you the too
 
 Finally, we'll cover additional useful topics like how to send emails from your application, building and interfacing with APIs, design patterns, metaprogramming and advanced routing before having you build your final project.
 
-## Our Tools and Texts
+### Our Tools and Texts
 
 The most important resources that we'll leverage are the [Rails Guides](http://guides.rubyonrails.org/) and the [Ruby on Rails Tutorial](https://www.railstutorial.org/book).  Together, they comprise a near-complete set of open-source resources for learning Rails.  
 
-The Guides are comprehensive, basically a completely open-source textbook and reference manual for Rails.  At times they'll get a bit more technical than you might like, and it may be okay to skim some of that.  When you Google for a solution later, if it's not showing up on Stack Overflow then it's probably going to give you a link to the Guides. 
+The Guides are comprehensive, basically a completely open-source textbook and reference manual for Rails.  At times they'll get a bit more technical than you might like, and it may be okay to skim some of that.  When you Google for a solution later, if it's not showing up on Stack Overflow then it's probably going to give you a link to the Guides.
 
-The Ruby on Rails Tutorial (aka the Hartl Tutorial, after its author) is another open source resource which builds (over several hundred pages) a full featured web application (Twitter clone), including introducing you to testing your code using RSpec along the way.
+The Ruby on Rails Tutorial (aka the Hartl Tutorial, after its author) is another free resource which builds (over several hundred pages) a full featured web application (Twitter clone), including introducing you to testing your code using RSpec along the way.
 
 My typical workflow for a long time went sort of like this:
 
@@ -34,7 +32,7 @@ My typical workflow for a long time went sort of like this:
 
 As you can see, I frequently relied on the main resources you'll be learning from and you'll find them to be helpful long after you've completed this course, so it makes sense to get familiar with them!
 
-## Prerequisites
+### Prerequisites
 
 **If you haven't completed these, be sure to do so before getting started:**
 
@@ -46,7 +44,7 @@ As you can see, I frequently relied on the main resources you'll be learning fro
     * Read the [Rails portion of the Web Development 101](/web-development-101/ruby-on-rails-basics) section for an overview of Rails.  
     * Build the [Rails project from the Web Dev 101 section](/web-development-101/ruby-on-rails) to get your hands dirty with Rails first.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

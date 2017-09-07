@@ -1,9 +1,6 @@
-# Projects: Building and Using APIs
-<!-- *Estimated Time: 4-8 hrs* -->
-
 *Don't forget to use Git to save your projects!*
 
-## Warmup: Exploring the Flickr API
+### Warmup: Exploring the Flickr API
 
 In this warmup, you'll get a chance to poke around with an existing API from Flickr.  You'll need to read the documentation to understand which calls to make but they have a nice API explorer tool which submits API calls on your behalf.
 
@@ -51,13 +48,13 @@ In this warmup, you'll get a chance to poke around with an existing API from Fli
 
 2. Tada! Every API is different and you've got to read through their documentation to understand the basic format of using it.  Sometimes it can be helpful to search for a [YouTube](http://www.youtube.com) or [NetTuts](http://code.tutsplus.com) video with a quick overview as well.
 
-## Project 1: Building a Simple Kittens API
+### Project 1: Building a Simple Kittens API
 
 This is a fast and straightforward project where you'll set up a Rails app to be a data-producing API... which is just a fancy way of saying that all your controller methods will render data instead of HTML.  Consider this a drill in quickly building a pure vanilla RESTful resource.  We won't be working with an external API until the second project.
 
 ### Your Task
 
-#### HTML
+### HTML
 
 We'll start by building our Kitten application to work normally in the browser with HTML.
 
@@ -71,11 +68,11 @@ We'll start by building our Kitten application to work normally in the browser w
 7. Implement a simple display of the `flash` hash (like you did in the tutorial) which congratulates you on adding or editing or deleting kittens and makes fun of you for errors in your form.
 7. Test out your Kitten creation machine to make sure all your controller actions are running properly.
 
-#### JSON API
+### JSON API
 
 Now it's time to make the Kittens resource available via API.
 
-1. Open a new command line tab and fire up IRB.  `> require 'rest_client'` (you may need to `$ gem install rest_client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
+1. Open a new command line tab and fire up IRB.  `> require 'rest-client'` (you may need to `$ gem install rest-client` if you haven't already).  Test it out by making a request to your application using `> response = RestClient.get("http://localhost:3000/kittens")`
 2. You should get a sloppy mess of HTML.  If you check out your server output, it's probably processing as XML, e.g. `Processing by KittensController#index as XML`
 3. Try asking specifically for a JSON response by adding the option `:accept => :json`, e.g. `RestClient.get("http://localhost:3000/kittens", :accept => :json)`.  It should throw an error.
 3. Now modify your KittenController's `#index` method to `#respond_to` JSON and render the proper variables.
@@ -88,6 +85,13 @@ This project may seem simple, but now you've got a website that is both a normal
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [mindovermiles262's solution](https://github.com/mindovermiles262/odin-kittens)
+* [holdercp's solution](https://github.com/holdercp/odin-kittens)
+* [Joshua Wootonn's solution](https://github.com/jose56wonton/kittens)
+* [jfonz412's solution](https://github.com/jfonz412/odin-kittens)
+* [Austin's Solution ](https://github.com/CouchofTomato/odin-kittens)
+* [Rhys B.'s Solution ](https://github.com/105ron/odin_kittens)
 * [sirramongabriel's solution](https://github.com/sirramongabriel/odin-kittens)
 * [jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/odin-kittens)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-kittens)
@@ -117,10 +121,16 @@ This project may seem simple, but now you've got a website that is both a normal
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/odin-kittens)
 * [Fabricio Carrara's solution](https://github.com/fcarrara/odin-kittens)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/odin-kittens-api)
-* Add your solution above this line!
+* [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/odin-kittens)
+* [Frank V's solution](https://github.com/fv42wid/kittens)
+* [Amrr Bakry's solution (with API versioning)](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_kittens) | [View in Browser](https://still-woodland-31813.herokuapp.com/)
+* [Dylan's Solution with comprehensive controller testing](https://github.com/resputin/the_odin_project/tree/master/Rails/odin-kittens)
+* [DV's solution](https://github.com/dvislearning/odin-kittens)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/kittens-api)
+* [Daniel Aguilar's solution](https://github.com/danaguilar/odin-kittens)
 
-
-## Project 2: Using a Third Party API
+### Project 2: Using a Third Party API
 
 Remember way back in the warm-up when you played with the Flickr API?  Now it's time for you to actually use it.  Huzzah!  You'll create a simple photo widget that allows you to display photos from your Flickr feed (or someone else's).  We'll rely on a tutorial for much of the heavy lifting but the principles of what you do here will be repeatable for use with other APIs.
 
@@ -140,6 +150,13 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
+* Add your solution below this line!
+* [mindovermiles262's solution](https://github.com/mindovermiles262/flickr-api) | [View in browser](https://flickr-api-ad.herokuapp.com/)
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_flickr) | [View in browser](https://still-spire-50621.herokuapp.com/)
+* [Joshua Wootonn's solution](https://github.com/jose56wonton/flickr_api_test)
+* [holdercp's solution](https://github.com/holdercp/flickr-feed) | [View in browser](https://stark-brook-63398.herokuapp.com/)
+* [Austin's solution](https://github.com/CouchofTomato/odin_flikr)
+* [Rhys B.'s Solution ](https://github.com/105ron/flickrphotos) | [View in browser](https://calm-coast-27204.herokuapp.com)
 * [Donald's solution](https://github.com/donaldali/odin-rails/tree/master/odin-flickr)
 * [Adrian Badarau's solution](https://github.com/adrianbadarau/rails-flickr-api-test-app)
 * [Jack's solution](https://github.com/jnguyen85/flickr_search)
@@ -158,10 +175,14 @@ Remember way back in the warm-up when you played with the Flickr API?  Now it's 
 * [Top's solution](https://github.com/TopOneOfTopOne/flickr-api) | [View in Browser](https://flickr-apii.herokuapp.com/)
 * [Matt Velez's solution](https://github.com/Timecrash/rails-projects/tree/master/flickr-sidebar)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/flickr-api)
-* Add your solution above this line!
+* [Mayowa Pitan's solution](https://github.com/andela-mpitan/odin-kittens) | [View in Browser](http://odin-kittens.herokuapp.com/)
+* [Shala Qweghen's solution](https://github.com/ShalaQweghen/flickr-photo-finder) | [View in Browser](https://shielded-retreat-38986.herokuapp.com)
+* [Dylan's Solution](https://github.com/resputin/the_odin_project/tree/master/Rails/flickr_api)
+* [DV's solution](https://github.com/dvislearning/odin-flickr) | [View in Browser](http://serene-spire-20652.herokuapp.com)
+* [Sophia Wu's solution](https://github.com/SophiaLWu/flickr-app-api) | [View in Browser](https://radiant-ravine-62439.herokuapp.com/)
+* [Daniel Aguilar's solution](https://github.com/danaguilar/Flicker-fotos)
 
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-* 

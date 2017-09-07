@@ -1,6 +1,3 @@
-# Recursion
-<!-- *Estimated Time: 1 hr* -->
-
 Recursion is the idea that a function calls itself.  Pretty simple, right?  It's used to take a big problem and start breaking it down into smaller and smaller pieces ("Divide and Conquer") and continuing to feed their solutions back into the original function until some sort of answer is achieved and the whole chain unwinds.  
 
 From the [Wikipedia entry on Divide and Conquer Algorithms](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm):
@@ -11,7 +8,7 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-## Points to Ponder
+### Points to Ponder
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -23,17 +20,17 @@ In this brief lesson, you'll get a chance to learn more about when and how to us
 * What is a "stack overflow" (the concept, not the website)?
 * Why is that relevent to a recursive problem?
 
-## Your Assignment
+### Your Assignment
 
 1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen
 2. Watch this [Video on Recursion](http://vimeo.com/24716767) by Joshua Cheek but only until minute 17:45!  (don't want to give away the project...)
 3. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
 
-## Test Yourself
+### Test Yourself
 
-1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/recursion) on Recursion.
+1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion.
 
-## Additional Resources
+### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
