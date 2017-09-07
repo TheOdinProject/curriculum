@@ -21,7 +21,10 @@
       <div class="lesson-button-group">
         <%= render 'lesson_buttons', lesson: @lesson, course: @lesson.course, user: @user %>
       </div>
-      <%= render 'submissions' if @projects %>
+
+      <% if @projects && ProjectSubmissionFeature.enabled? %>
+        <%= render 'submissions' %>
+      <% end %>
     </div>
 
     <%= render 'shared/bottom_cta',
