@@ -10,7 +10,9 @@ class LessonsController < ApplicationController
   private
 
   def set_user
-    @user = User.includes(:completed_lessons).find(current_user.id)
+    if user_signed_in?
+      @user = User.includes(:completed_lessons).find(current_user.id)
+    end
   end
 
   def set_ads
