@@ -9,6 +9,7 @@ class User < ApplicationRecord
   has_many :lesson_completions, foreign_key: :student_id
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :projects, dependent: :destroy
+  has_many :user_providers, dependent: :destroy
 
   def has_completed?(lesson)
     completed_lessons.exists?(lesson.id)
