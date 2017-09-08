@@ -8,7 +8,7 @@
   <%= render 'skills_progress', user: @user, courses: @courses %>
 
   <div class='gradient'>
-    <% if @user.has_projects? %>
+    <% if @user.has_projects? && ProjectSubmissionFeature.enabled? %>
       <%= render 'project_submissions', projects: @user.projects.includes(:lesson) %>
     <% end %>
 
