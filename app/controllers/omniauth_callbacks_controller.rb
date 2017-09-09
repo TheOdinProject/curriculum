@@ -32,15 +32,15 @@ class OmniauthCallbacksController < Devise::OmniauthCallbacksController
   end
 
   def update_users_avatar
-    @user.update_avatar(github_avatar)
+    @user.update_avatar(avatar_from_provider)
   end
 
   def avatar_needs_updated?
-    github_avatar != @user.avatar
+    avatar_from_provider != @user.avatar
   end
 
-  def github_avatar
-    @github_avatar ||= auth.info.image
+  def avatar_from_provider
+    @avatar_from_provider ||= auth.info.image
   end
 
   def auth
