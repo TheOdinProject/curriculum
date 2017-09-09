@@ -109,59 +109,6 @@ RSpec.describe User do
     end
   end
 
-  describe '.from_omniauth' do
-    let(:user) {
-      FactoryGirl.create(
-        :user,
-        username: 'kevin',
-        email: 'kevin@email.com',
-        provider: 'github',
-        uid: '123'
-      )
-    }
-
-    let(:user_details) {
-      {
-        provider: 'github',
-        uid: '123',
-        username: 'kevin',
-        email: 'kevin@example.com'
-      }
-    }
-
-    let(:auth) {
-      double(
-        'OmniAuth::AuthHash',
-        provider: 'github',
-        uid: '123',
-        info: info
-      )
-    }
-
-    let(:info) {
-      double(
-        'OmniAuth::AuthHash::InfoHash',
-        name: 'kevin',
-        email: 'kevin@example.com',
-        image: 'http://github.com/fake-avatar'
-      )
-    }
-
-    before do
-      allow(user).to receive(:where)
-        .with(provider: 'github', uid: '123')
-        .and_return(user)
-
-      allow(user).to receive(:first_or_create)
-        .with(user_details)
-        .and_return(user)
-    end
-
-    it 'returns the user' do
-      expect(User.from_omniauth(auth)).to eql(user)
-    end
-  end
-
   describe '#update_avatar' do
     let(:github_avatar) { 'http://github.com/fake-avatar' }
     let(:avatar) { nil }
@@ -169,20 +116,6 @@ RSpec.describe User do
     it 'updates the users avatar' do
       user.update_avatar(github_avatar)
       expect(user.avatar).to eql('http://github.com/fake-avatar')
-    end
-  end
-
-  describe '#add_omniauth' do
-    let(:user) { FactoryGirl.create(:user) }
-    let(:auth) { { 'provider' => 'github', 'uid' => '123' } }
-
-    it 'returns the user' do
-      expect(user.add_omniauth(auth)).to eql(user)
-    end
-
-    it 'saves the omniauth provider attributte' do
-      user.add_omniauth(auth)
-      expect(user.provider).to eql('github')
     end
   end
 

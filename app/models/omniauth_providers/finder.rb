@@ -35,19 +35,12 @@ module OmniauthProviders
     end
 
     def user
-      existing_user || new_user
-    end
-
-    def existing_user
-      @user ||= User.where(email: auth.info.email).first
-    end
-
-    def new_user
-      @new_user ||= User.create!(
-        username: auth.info.name,
-        email: auth.info.email,
-        password: Devise.friendly_token[0,20],
-      )
+      @user ||= User.where(email: auth.info.email).first_or_create! do |user|
+        user.username = auth.info.name
+        user.email = auth.info.email
+        user.password = Devise.friendly_token[0,20]
+        user.avatar = auth.info.image
+      end
     end
   end
 end
