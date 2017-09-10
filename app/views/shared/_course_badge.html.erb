@@ -1,6 +1,6 @@
 <% unless user_signed_in? && course_started_by_user?(course, @user) %>
   <div class="course-badge">
-      <%= image_tag course.badge, alt: "#{course.title} badge", class: 'course-badge__image' %>
+    <%= image_tag course.badge, alt: "#{course.title} badge", class: 'course-badge__image' %>
   </div>
 <% else %>
   <div class="course-badge progress-circle" data-progress="<%= percentage_completed_by_user(course, @user) %>">
