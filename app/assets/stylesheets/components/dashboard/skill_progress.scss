@@ -1,0 +1,31 @@
+.skill-progress {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+
+  .course-info {
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+    }
+  }
+
+  &__course-title {
+    font-size: 18px;
+
+    @include media-breakpoint-down(sm) {
+      text-align: center;
+      padding-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__course-title, &__lessons-count {
+    color: $grey;
+  }
+
+  @include media-breakpoint-down(sm) {
+    .course-badge {
+      width: 80px;
+    }
+  }
+}

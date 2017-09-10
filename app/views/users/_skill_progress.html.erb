@@ -1,23 +1,14 @@
-<div class="container skill-progress">
+<div class="container">
   <div class="row">
     <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-      <div class="row align-items-center skill-progress-wrapper">
-        <div class="col-12 col-md-2 text-center">
+      <div class="row align-items-center skill-progress">
+        <div class="col-12 col-md-3 text-center">
           <%= render 'shared/course_badge', course: course, user: @user %>
         </div>
 
-        <div class="col-12 col-md-4">
-          <p class="text-uppercase course-title">
-            <span class="bold"><%= course.title %></span>
-          </p>
-        </div>
-
-        <div class="col-12 col-md-3 lessons-count-wrapper">
-          <p class="text-uppercase">
-            <span class="grey small lessons-count">
-              <%= course.lessons.size %> lessons
-            </span>
-          </p>
+        <div class="col-12 col-md-5 course-info text-uppercase">
+          <h2 class="skill-progress__course-title bold"><%= course.title %></h2>
+          <span class="skill-progress__lessons-count small"><%= course.lessons.size %> lessons</span>
         </div>
 
         <%= render 'users/course_buttons', course: course, user: @user %>
