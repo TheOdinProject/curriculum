@@ -75,10 +75,6 @@
         width: 100%;
 
         @include media-breakpoint-only(md) {
-          transform: scale(1.5);
-        }
-
-        @include media-breakpoint-only(lg) {
           transform: scale(1.3);
         }
       }
