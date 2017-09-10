@@ -3,8 +3,8 @@
   align-items: center;
   height: 100%;
 
-  @include media-breakpoint-down(sm) {
-    height: auto;
+  @include media-breakpoint-down(md) {
+    height: auto
   }
 
   &__heading {

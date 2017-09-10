@@ -1,18 +1,14 @@
 <%= title('Courses') %>
 
-<div class="curriculum">
-  <div class="container CoursesController">
+<div class="curriculum-background">
+  <div class="container">
     <div class="row">
       <div class="col-lg-10 offset-lg-1">
-        <div class="heading">
-          <h1 class="text-center camel light curriculum-title">Curriculum</h1>
-        </div>
+        <h1 class="text-center camel light curriculum-title">Curriculum</h1>
 
-        <div class="courses-list">
-          <% @courses.each do |course| %>
-            <%= render 'course_card', course: course %>
-          <% end %>
-        </div>
+        <% @courses.each do |course| %>
+          <%= render 'course_card', course: course %>
+        <% end %>
       </div> <!-- /.col-lg-10 -->
     </div> <!-- /.row -->
   </div> <!-- /.container -->

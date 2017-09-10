@@ -3,7 +3,7 @@
     <h3 class="course-section__title"><%= section.title %></h3>
     <p class="course-section__description"><%= section.description %></p>
 
-    <%= render 'courses/course/lessons',
+    <%= render 'courses/course/section-lessons',
       lessons: section.lessons,
       course: course
     %>
