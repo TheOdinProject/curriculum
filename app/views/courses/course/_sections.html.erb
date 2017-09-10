@@ -1,6 +1,8 @@
 <% sections.each do |section| %>
   <div class="card-main course-section">
-    <h3 class="course-section__title"><%= section.title %></h3>
+    <h3 id=<%= section.title.parameterize %> class="course-section__title">
+      <%= section.title %>
+    </h3>
     <p class="course-section__description"><%= section.description %></p>
 
     <%= render 'courses/course/section-lessons',
