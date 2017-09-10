@@ -11,7 +11,7 @@ body {
 a {
   text-decoration: none;
 
-  &:hover {
+  &:hover, &:focus {
     color: $black;
     text-decoration: none;
   }
