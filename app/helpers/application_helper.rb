@@ -204,6 +204,10 @@ module ApplicationHelper
     CourseProgress.course_completed?(course, user)
   end
 
+  def next_lesson_to_complete(course, lesson_completions)
+    NextLessonToComplete.new(course, lesson_completions).lesson
+  end
+
   private
 
   def custom_flash(flash_type)

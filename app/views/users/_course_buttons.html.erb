@@ -1,0 +1,9 @@
+<div class="col-12 col-md-3 course-progress-wrapper">
+  <% if course_completed_by_user?(course, user) %>
+    <span class="completed-text pale-grey bold text-uppercase">Completed</span>
+  <% elsif course_started_by_user?(course, user) && !course_completed_by_user?(course, user) %>
+    <%= link_to 'Resume', lesson_path(next_lesson_to_complete(course, user.lesson_completions)), class: ' button button--primary' %>
+  <% else %>
+    <%= link_to 'Start', course_path(course), class: 'button button--primary' %>
+  <% end %>
+</div>

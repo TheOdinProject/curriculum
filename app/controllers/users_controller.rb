@@ -41,6 +41,6 @@ class UsersController < ApplicationController
   end
 
   def user
-    User.includes(:lesson_completions).find(current_user.id)
+    User.includes(lesson_completions: [lesson: [:course]]).find(current_user.id)
   end
 end
