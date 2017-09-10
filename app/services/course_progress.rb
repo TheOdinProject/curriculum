@@ -24,7 +24,7 @@ class CourseProgress
   end
 
   def percentage_completed_by_user
-    ((100 / number_of_lessons.to_f) * number_of_lessons_completed).to_i
+    ((100 / number_of_lessons_in_course.to_f) * number_of_lessons_completed).to_i
   end
 
   def course_completed?
@@ -33,11 +33,11 @@ class CourseProgress
 
   private
 
-  def number_of_lessons
-    lessons.size
+  def number_of_lessons_in_course
+    course_lessons.size
   end
 
-  def lessons
+  def course_lessons
     course.lessons
   end
 
@@ -46,6 +46,6 @@ class CourseProgress
   end
 
   def number_of_lessons_completed
-     (lessons & completed_lessons ).size
+     (course_lessons & completed_lessons).size
    end
 end

@@ -20,13 +20,7 @@
           </p>
         </div>
 
-        <div class="col-12 col-md-3 course-progress-wrapper">
-          <% if course_completed_by_user?(course, @user) %>
-            <span class="completed-text pale-grey bold text-uppercase">Completed</span>
-          <% else %>
-            <%= link_to 'Start', course_path(course), class: 'button button--primary' %>
-          <% end %>
-        </div>
+        <%= render 'users/course_buttons', course: course, user: @user %>
       </div>
     </div>
   </div>

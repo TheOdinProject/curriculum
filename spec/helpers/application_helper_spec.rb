@@ -120,4 +120,40 @@ RSpec.describe ApplicationHelper do
       expect(helper.course_started_by_user?(course, user)).to eql(true)
     end
   end
+
+  describe '#course_started_by_user' do
+
+    let(:course) { double('Course') }
+    let(:user) { double('User') }
+
+    before do
+      allow(CourseProgress).to receive(:course_completed?).
+        with(course, user).and_return(true)
+    end
+
+    it 'returns 50' do
+      expect(helper.course_completed_by_user?(course, user)).to eql(true)
+    end
+  end
+
+  describe '#next_lesson_to_complete' do
+
+    let(:course) { double('Course') }
+    let(:lesson_completions) { }
+    let(:lesson_completion) { double('LessonCompletion') }
+    let(:next_lesson) {
+      double('NextLesson', lesson_to_complete: lesson_to_complete )
+    }
+    let(:lesson_to_complete) { double('Lesson') }
+
+    before do
+      allow(NextLesson).to receive(:new).
+        with(course, lesson_completions).and_return(next_lesson)
+    end
+
+    it 'returns 50' do
+      expect(helper.next_lesson_to_complete(course, lesson_completions)).
+        to eql(lesson_to_complete)
+    end
+  end
 end
