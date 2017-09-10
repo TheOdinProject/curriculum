@@ -10,7 +10,9 @@
         <% end %>
 
         <%= link_to course, class: "course-card-header__link" do %>
-          <h2 class="course-card-header__title"><%= course.title %></h2>
+          <h2 id=<%= course.title.parameterize %> class="course-card-header__title">
+            <%= course.title %>
+          </h2>
           <span class="course-card-header__sub-title"><%= course.lessons.size %> lessons</span>
         <% end %>
 
