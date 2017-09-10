@@ -9,6 +9,7 @@ class User < ApplicationRecord
   has_many :lesson_completions, foreign_key: :student_id
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
   has_many :projects, dependent: :destroy
+  has_many :user_providers, dependent: :destroy
 
   def has_completed?(lesson)
     completed_lessons.exists?(lesson.id)
@@ -27,26 +28,8 @@ class User < ApplicationRecord
     ordered_lesson_completions.last
   end
 
-  def self.from_omniauth(auth)
-    where(provider: auth.provider, uid: auth.uid).first_or_create! do |user|
-      user.provider = auth.provider
-      user.uid = auth.uid
-      user.email = auth.info.email
-      user.username = auth.info.name
-      user.avatar = auth.info.image
-    end
-  end
-
-  def update_avatar(github_avatar)
-    self.update!(avatar: github_avatar)
-  end
-
-  def add_omniauth(auth)
-    self.tap do |user|
-      user.provider ||= auth['provider']
-      user.uid ||= auth['uid']
-      user.save
-    end
+  def update_avatar(avatar)
+    self.update!(avatar: avatar)
   end
 
   def password_required?

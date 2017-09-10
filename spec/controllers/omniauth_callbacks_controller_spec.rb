@@ -6,30 +6,12 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
   let(:auth) { OmniAuth.config.mock_auth[:github] }
   let(:persisted) { true }
 
-  let(:link_omniauth) {
-    double('
-      LinkOmniauth',
-      create: link_omniauth_attributes
-    )
-  }
-
-  let(:link_omniauth_attributes) {
-    {
-      user: user,
-      flash_type: :notice,
-      flash_message: 'Successfully linked Github to your account.'
-    }
-  }
-
   before do
     request.env['devise.mapping'] = Devise.mappings[:user]
     request.env['omniauth.auth'] = auth
 
-    allow(User).to receive(:from_omniauth).with(auth).and_return(user)
-    allow(controller).to receive(:user_signed_in?).and_return(user_signed_in?)
+    allow(UserProvider).to receive(:find_user).with(auth).and_return(user)
     allow(user).to receive(:persisted?).and_return(persisted)
-    allow(LinkOmniauth).to receive(:new).and_return(link_omniauth)
-    allow(controller).to receive(:current_user).and_return(user)
   end
 
   describe 'GET #github' do
@@ -40,36 +22,22 @@ RSpec.describe OmniauthCallbacksController, type: :controller do
 
     it 'displays the success flash' do
       get :github
-      expect(flash[:notice]).to eql('Successfully authenticated from GitHub account.')
+      expect(flash[:notice]).to eql('Successfully authenticated from Github account.')
     end
 
-    context 'when user already exists' do
-      let(:persisted) { false }
+    context 'when the user avatar needs updated' do
+      let(:user) {
+        FactoryGirl.create(
+          :user,
+          username: 'John',
+          email: 'john@example.com',
+          avatar: nil
+        )
+      }
 
-      it 'displays a succesful omniauth link flash' do
+      it 'sets the users avatar' do
+        expect(user).to receive(:update_avatar).with('http://github.com/fake-avatar')
         get :github
-        expect(flash[:notice]).to eql('Successfully linked Github to your account.')
-      end
-
-      it 'redirects to the courses path' do
-        get :github
-        expect(response).to redirect_to(dashboard_path)
-      end
-
-      context 'and its a legacy user' do
-        let(:user) {
-          FactoryGirl.create(
-            :user,
-            username: 'John',
-            email: 'john@example.com',
-            avatar: nil
-          )
-        }
-
-        it 'sets the users avatar' do
-          expect(user).to receive(:update_avatar).with('http://github.com/fake-avatar')
-          get :github
-        end
       end
     end
 
