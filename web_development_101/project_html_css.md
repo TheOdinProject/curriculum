@@ -91,8 +91,12 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
+<<<<<<< HEAD
 
 * [Typhoon's Solution (Easy)](https://github.com/typhoon93/google-homepage) | [View in browser](https://typhoon93.github.io/google-homepage/)
+=======
+* [Vishal's Solution (Easy)](https://github.com/vishaldeep15/google-homepage) | [View in browser](https://vishaldeep15.github.io/google-homepage)
+>>>>>>> d558af6e0b5d3b50c04d7788958ad0aac9f3f255
 * [Mayaru's Solution (Easy)](https://github.com/mayaru/google.com-the-remake) | [View in browser](https://mayaru.github.io/google.com-the-remake)
 * [Dan Hofer's Solution (Easy)](https://github.com/danhofer/google-homepage) | [View in browser](https://danhofer.github.io/google-homepage/)
 * [Ed Magalhaes's Solution (Easy)](https://github.com/EdMagal/google_homepage) | [View in browser](https://EdMagal.github.io/google_homepage/)
@@ -1211,6 +1215,9 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Kusnierewicz's Solution (Easy)](https://github.com/Kusnierewicz/google_webpage_2017) | [View in Browser](https://kusnierewicz.github.io/google_webpage_2017/)
 * [Chris P's Solution (Easy)](https://github.com/chrisauinmotion/google_reconstruct) | [View in browser](https://chrisauinmotion.github.io/google_reconstruct/)
 * [CedaLukic's Solution (Easy)](https://github.com/cedalukic/google-homepage) | [View in browser](https://cedalukic.github.io/google-homepage/)
+* [Nate W's Solution (Easy)](https://github.com/obsessivenerds/google_homepage) | [View in browser](https://obsessivenerds.github.io/google_homepage/)
+* [Maria Tikhonova's Solution (Easy)](https://github.com/MariaTikhonova/google_homepage) | [View in browser](https://MariaTikhonova.github.io/google_homepage/)
+* [Travis's Solution (Easy)](https://github.com/tlannoye11/google-homepage) | [View in browser](https://tlannoye11.github.io/google_homepage/)
 
 ### Additional Resources
 

@@ -701,3 +701,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Huy Anh's solution](https://github.com/huyanh10tin/javascript_jquery)| [View in browser](https://rawgit.com/huyanh10tin/javascript_jquery/master/index.html)
 * [WilPoly's solution](https://github.com/wilPoly/etch-a-sketch) | [View in browser](https://wilpoly.github.io/etch-a-sketch/)
 * [Joey Robertson's solution](https://github.com/JoeyRobertson/EtchASketch)| [View in browser](https://joeyrobertson.github.io/EtchASketch/)
+* [datagoil's solution](https://github.com/datagoil/sketchpad)| [View in browser](https://datagoil.github.io/sketchpad/)
