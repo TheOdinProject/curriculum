@@ -1212,6 +1212,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [CedaLukic's Solution (Easy)](https://github.com/cedalukic/google-homepage) | [View in browser](https://cedalukic.github.io/google-homepage/)
 * [Nate W's Solution (Easy)](https://github.com/obsessivenerds/google_homepage) | [View in browser](https://obsessivenerds.github.io/google_homepage/)
 * [Maria Tikhonova's Solution (Easy)](https://github.com/MariaTikhonova/google_homepage) | [View in browser](https://MariaTikhonova.github.io/google_homepage/)
+* [Travis's Solution (Easy)](https://github.com/tlannoye11/google-homepage) | [View in browser](https://tlannoye11.github.io/google_homepage/)
 
 ### Additional Resources
 
