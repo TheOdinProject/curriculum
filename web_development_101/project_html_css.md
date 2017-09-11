@@ -1209,6 +1209,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Kusnierewicz's Solution (Easy)](https://github.com/Kusnierewicz/google_webpage_2017) | [View in Browser](https://kusnierewicz.github.io/google_webpage_2017/)
 * [Chris P's Solution (Easy)](https://github.com/chrisauinmotion/google_reconstruct) | [View in browser](https://chrisauinmotion.github.io/google_reconstruct/)
 * [CedaLukic's Solution (Easy)](https://github.com/cedalukic/google-homepage) | [View in browser](https://cedalukic.github.io/google-homepage/)
+* [Nate W's Solution (Easy)] (https://github.com/obsessivenerds/google_homepage) | [View in browser](https://obsessivenerds.github.io/google_homepage/)
 
 ### Additional Resources
 
