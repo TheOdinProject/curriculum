@@ -1,4 +1,4 @@
-### <a id="course-contents"></a> Course Contents
+### <a id="course-contents"></a>Course Contents
 
 Now that you know [what web developers do](/introduction-to-web-development/), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.
 
@@ -10,7 +10,7 @@ By the end of this unit, you should not only understand how the web works, but b
 
 We will cover a very broad area of knowledge here and that's intentional. It's silly to go diving straight into server-side programming without having a context for what it is and why it's useful (and why you should learn it!).  
 
-### <a id="how-it-works"></a> How it Works
+### <a id="how-it-works"></a>How it Works
 
 This curriculum works by pulling together the best content we can find to learn a particular topic.  In each lesson, we'll introduce the topic and try to provide some useful context before pointing you to external resources made by others.
 
@@ -18,7 +18,7 @@ Most lessons will contain questions that you should be able to answer before mov
 
 While most of this material should be fine to tackle on your own, the projects in particular are good opportunities to find a partner and do some pair programming.  Give it a shot!
 
-### <a id="what-comes-afterwards"></a> What Comes Afterwards
+### <a id="what-comes-afterwards"></a>What Comes Afterwards
 
 Once you've completed this course, you should be pretty comfortable with the building blocks of web programming but itching to dig deeper.  Though we spend a fair bit of time digging into each of the major topics, it's really just a taste of what comes next (and all the cool stuff you can do with it).  
 
