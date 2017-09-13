@@ -2,7 +2,7 @@ We'll take a step away from games and back to the real world for a relatively si
 
 ### Your Task
 
-Build a browser form like Mint.com's which collects Email, Email Confirmation, Country, Zip Code, Password and Passowrd Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.  
+Build a browser form like Mint.com's which collects Email, Email Confirmation, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.  
 
 The form doesn't need to actually submit, but you should give an error message if the button is pushed with any active errors or unfilled required fields.  If all is well and the form is "submitted", give the user a high five.  
 
