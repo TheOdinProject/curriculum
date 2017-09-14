@@ -18,7 +18,7 @@ For most of your apps, one dyno is plenty enough.  You can support a lot of traf
 
 This means that, the first time someone visits your site in a while, it will take 30-40 seconds to "fire up" a dyno with your app on it.  There are a couple solutions to this -- you can pay for an additional dyno, in which case Heroku will never idle any of your dynos, or you can set up another service to periodically ping your application (e.g. NewRelic, see below).
 
-Heroku lets you do your application management either from the command line (using the "Heroku Toolbelt" set of commands) or by going to their website and clicking around.  Pretty much all the functions are available in both places, which is handy.
+Heroku lets you do your application management either from the command line (using the "Heroku CLI" set of commands) or by going to their website and clicking around.  Pretty much all the functions are available in both places, which is handy.
 
 #### Domains and Naming
 
@@ -53,7 +53,7 @@ If you haven't deployed to Heroku before and this is your first time, feel free 
 
 The details of deployment will be left to Michael Hartl in the project, but we'll do a quick overview of how it will work. It's not meant to be a step-by-step guide... for that, please check out [Heroku's "Getting Started with Rails 5.x" guide](https://devcenter.heroku.com/articles/getting-started-with-rails5).  A typical convention with Heroku commands is that they're prefixed with either `$ heroku run` or just `$heroku`, so running a database migration on Heroku is `$ heroku run rails db:migrate` and using the console is `$ heroku run console`.
 
-* Download and install the Heroku Toolbelt.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
+* Download and install the Heroku CLI.  You'll likely need to set up the proper SSL configuration so your computer is able to securely move files to and from Heroku.
 * Install Heroku's special gems -- in Rails 4, there were some changes that broke Heroku so they made a really simple gem that you'll need to add to your application
 * Install the correct database gem -- if you've been using SQLite3 as your development database, you'll need to set up PostgreSQL for production since it's the only database Heroku uses.  This will mean adding the `pg` gem to your gemfile and putting the correct fields into your `database.yml` file.
 * Create a new Heroku application from the command line using `$ heroku create`.  This will also add a new remote to your Git setup so that Git knows where to push your app (so you don't need to worry about that).
@@ -103,7 +103,7 @@ For fixing a precompilation issue, you may also be prompted to manually precompi
 
 ### 500's While Running the Application
 
-No one likes getting that bland "We're sorry but something went wrong" message form Heroku.  They serve up a 500 error regardless of which error your application threw, which makes it doubly frustrating to diagnose them.  You'll want to open up the Heroku logs (`$ heroku logs -t`) to check out the server output.
+No one likes getting that bland "We're sorry but something went wrong" message from Heroku.  They serve up a 500 error regardless of which error your application threw, which makes it doubly frustrating to diagnose them.  You'll want to open up the Heroku logs (`$ heroku logs -t`) to check out the server output.
 
 If this is your first deployment and your very first page served up a 500, did you remember to migrate your database?  That's a common one.
 
