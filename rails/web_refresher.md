@@ -91,7 +91,7 @@ But we get ahead of ourselves a bit here... the main point is that you'll see "A
 
 You've heard about cookies.  Cookies are basically a way for websites to remember who you are from one request to another.  Remember -- every HTTP request is totally independent of each other one.  Meaning that when you go to the Home page of a website and then click on a link to their About page, the web server treats you as a completely new user.  
 
-...Unless they've given you some cookies (which they almost certainly have).  Cookies are little bits of data that your browser sends to the website every time you make a request to it.  From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests.  It preseves the *state* of your session.
+...Unless they've given you some cookies (which they almost certainly have).  Cookies are little bits of data that your browser sends to the website every time you make a request to it.  From the perspective of the web server, it lets the server identify you as the same person who made any of a series of previous requests.  It preserves the *state* of your session.
 
 *Check out [allaboutcookies.org](http://www.allaboutcookies.org/) and read the first three sections for some more info about cookies.*
 
