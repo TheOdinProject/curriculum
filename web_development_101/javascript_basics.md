@@ -14,7 +14,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * What are events?
 
 ### Assignment:
-1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/learn-javascript) for a good overview of the basics of javascript.
+1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/introduction-to-javascript) for a good overview of the basics of javascript.
 2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
     1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/pen/).
     2. You can also try the Javascript section of [repl.it](https://repl.it/languages/javascript) -- it doesn't support HTML and CSS, but it does provide you with a helpful javascript console.
@@ -525,6 +525,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Rwasa's Solution](https://github.com/rwasa/) | [View in Browser](https://github.com/rwasa/git_test)
 * [MPalhidai's Solution & Project Euler Repo](https://github.com/MPalhidai/Project-Euler)
 * [Santiago Rodríguez Solution & Project Euler Repo](https://github.com/santoxxcc/euler-project)
+* [Taras's Solutions (updating)](https://github.com/Staryj812/projectEuler) | [View in Browser](https://staryj812.github.io/projectEuler/)
 
 
 ### Additional Resources

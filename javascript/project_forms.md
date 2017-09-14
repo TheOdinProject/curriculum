@@ -2,7 +2,7 @@ We'll take a step away from games and back to the real world for a relatively si
 
 ### Your Task
 
-Build a browser form like Mint.com's which collects Email, Email Confirmation, Country, Zip Code, Password and Passowrd Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.  
+Build a browser form like Mint.com's which collects Email, Email Confirmation, Country, Zip Code, Password and Password Confirmation fields.  It should use live inline validation to inform the user whether a field is properly filled in or not.  That means highlighting a field red and providing a helpful error message until it has been filled in properly.  
 
 The form doesn't need to actually submit, but you should give an error message if the button is pushed with any active errors or unfilled required fields.  If all is well and the form is "submitted", give the user a high five.  
 
@@ -34,6 +34,7 @@ Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but t
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-mint) | [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-mint/blob/master/index.html)
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/jq-form-validation)
 * [Daunenok's solution](https://github.com/daunenok/form-my-validation) | [View in browser](https://daunenok.github.io/form-my-validation/)
+* [Austin's solution](https://github.com/CouchofTomato/form_validation) | [View in browser](https://couchoftomato.github.io/form_validation/)
 
 ### Additional Resources
 

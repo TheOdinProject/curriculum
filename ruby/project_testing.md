@@ -22,6 +22,7 @@ You still may feel shaky on RSpec at this point (which is totally normal), so le
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Ovsjah Schweinefresser's Solutions: [Caesar Cipher](https://github.com/Ovsjah/testing_ruby/tree/master/caesar_cipher), [Enumerable Methods](https://github.com/Ovsjah/testing_ruby/tree/master/enumerable), [Tic-Tac-Toe](https://github.com/Ovsjah/testing_ruby/tree/master/tic_tac_toe)
 * Jonathan Yiv's Solutions: [Caesar Cipher](https://github.com/JonathanYiv/caesar_cipher), [Enumerable Methods](https://github.com/JonathanYiv/enumerable_methods), [Tic-Tac-Toe](https://github.com/JonathanYiv/tic-tac-toe/)
 * Clayton's solutions: [Caesar Cipher](https://github.com/cjsweeten101/OdinProjects/tree/master/ruby_building_blocks), [enumerable methods](https://github.com/cjsweeten101/OdinProjects/tree/master/enumerable_methods), [Tic Tac Toe](https://github.com/cjsweeten101/OdinProjects/tree/master/tic_tac_toe)
 * Kasey's solutions : [Caesar Cipher](https://github.com/kasey-z/TOP-solutions/tree/master/Ruby%20Building%20Blocks/Caesar%20Cipher/spec/lib), [enumerable methods](https://github.com/kasey-z/TOP-solutions/tree/master/advanced_building_blocks/spec/lib),[Tic Tac Toe](https://github.com/kasey-z/TOP-solutions/blob/master/OOP/spec/lib/tic_tac_toe_spec.rb)
@@ -97,6 +98,7 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/testing_ruby/tree/master/connect_four)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/connect_four)
 * [Clayton's solution](https://github.com/cjsweeten101/OdinProjects/tree/master/connect_four)
 * [Kasey's solution](https://github.com/kasey-z/TOP-solutions/tree/master/connect_four)

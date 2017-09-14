@@ -28,3 +28,4 @@ If that doesn't get you interested, remember that this curriculum is meant to pr
 
 * [Wikipedia on Computer Science](http://en.wikipedia.org/wiki/Computer_science)
 * [Wikipedia on Algorithms](http://en.wikipedia.org/wiki/Algorithm)
+* [Map of Computer Science](https://youtu.be/SzJ46YA_RaA)
