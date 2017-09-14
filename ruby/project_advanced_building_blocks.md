@@ -487,7 +487,7 @@ You learned about the Enumerable module that gets mixed in to the Array and Hash
 * [Andy DeNike's Solution](https://github.com/AndyDeNike/advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods.rb)
 * [Iceron's Solution](https://github.com/iceron/enumerable/blob/master/enumerable_methods.rb)
 * [coryparham24's solution](https://github.com/coryparham24/ruby-advanced-building-blocks/blob/master/project2.rb)
-* [Oliver Curting's Solution](https://github.com/Curting/bubble_sort/blob/master/bubble_sort.rb)
+* [Oliver Curting's Solution](https://github.com/Curting/Enumerable_Methods/blob/master/enumerable_methods.rb)
 * [Alex's Solution](https://github.com/alexcorremans/enumerable)
 
 ### Additional Resources
