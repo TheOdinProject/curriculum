@@ -346,6 +346,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [darrenusc's Solution](https://github.com/darrenusc/learn_ruby)
 * [Alex's solutions](https://github.com/alexcorremans/learn_ruby)
 * [Tshepo Mohlamonyane's Solution](https://https://github.com/blavkboy/learn_ruby)
+* [Joey Robertson's Solution](https://github.com/JoeyRobertson/learn_ruby.git)
 
 ### Additional Resources
 
