@@ -18,7 +18,7 @@ You've already had some familiarity with associations, especially the basic `has
 
 ### Basic Stuff
 
-If you're still shakey on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](/ruby-on-rails/active-record-basics) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
+If you're still shaky on basic associations, go back and check out the Associations section of the [Basic Active Record lesson](/courses/ruby-on-rails/lessons/active-record-basics) first.  This section is meant to just bring up some of the basic stuff you may not yet have been exposed to.
 
 #### Foreign Keys and Class Names
 

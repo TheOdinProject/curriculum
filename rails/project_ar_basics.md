@@ -51,7 +51,7 @@ Remember, if you feel like you will be hard coding data multiple times, it's pro
 1. You are building an online learning platform (much like this!).  You've got many different courses, each with a title and description, and each course has multiple lessons.  Lesson content consists of a title and body text.
 2. You are building the profile tab for a new user on your site.  You are already storing your user's username and email, but now you want to collect demographic information like city, state, country, age and gender.  Think -- how many profiles should a user have?  How would you relate this to the User model?
 3. You want to build a virtual pinboard, so you'll have users on your platform who can create "pins".  Each pin will contain the URL to an image on the web.  Users can comment on pins (but can't comment on comments).
-4. You want to build a message board like [Hacker News](http://news.ycombinator.com).  Users can post links.  Other users can comment on these submissions or comment on the comments.  How would you make sure a comment knows where in the heirarchy it lives?
+4. You want to build a message board like [Hacker News](http://news.ycombinator.com).  Users can post links.  Other users can comment on these submissions or comment on the comments.  How would you make sure a comment knows where in the hierarchy it lives?
 
 ### Project 1: Ruby on Rails Tutorial
 
@@ -126,6 +126,7 @@ If any of those don't work, double check your associations.  Sometimes the error
 * [RichJDSmith's Solution](https://github.com/richjdsmith/micro-reddit)
 * [Jib's Solution](https://github.com/NuclearMachine/odin_rails/tree/master/micro-reddit)
 * [Austin's solution](https://github.com/CouchofTomato/micro_reddit)
+* [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/micro-reddit)
 * [Voizzzz' solution](https://github.com/voizzzz/microreddit)
 * [Jamie's solution](https://github.com/Jberczel/odin-projects/tree/master/micro-reddit) | [walkthrough](http://jberczel.github.io/micro-reddit-walkthrough/)
 * [Afshin's solution](https://github.com/afshinator/micro-reddit)

@@ -112,7 +112,7 @@ This is good because we're now specifically targeting containers used by User pa
 
 The same principle applies to javascript, though I won't cover it here because that's material for a later course.  
 
-So any time you want to make only a portion of your stylesheets or javascript code available to a specific set of views, try namespacing it.
+So anytime you want to make only a portion of your stylesheets or javascript code available to a specific set of views, try namespacing it.
 
 #### Rails in Development
 
