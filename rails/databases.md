@@ -8,7 +8,7 @@ All of those examples involve you engaging with your database.  Luckily, many da
 
 You will start with the questions like the ones above and then have to figure out how to ask them properly of your database, which likely has a bunch of different tables in it.  Everyone probably visualizes it a bit differently, but finding a way to visualize what's going on when you do SQL queries is pretty important.  I actually think of Excel tables moving in my head and combining with each other and reshuffling as necessary. To each their own.
 
-This lesson assumes you've already completed the [Databases intro in the Web Development 101 course](http://www.theodinproject.com/web-development-101/databases).  We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries (this one is used whenever you ask Rails for the first user with `User.first`) and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
+This lesson assumes you've already completed the [Databases intro in the Web Development 101 course](/courses/web-development-101/lessons/databases).  We'll move beyond just the simple `SELECT "users".* FROM "users" LIMIT 1` queries (this one is used whenever you ask Rails for the first user with `User.first`) and into more dynamic topics like joining tables together, performing calculations on the results, and grouping results together in new ways.
 
 All this stuff is being used by Rails behind the scenes so understanding it will make you much better at writing queries in Rails.  This is why we're going over databases before learning Active Record.  We'll do the same thing with forms -- you'll learn how to build them in HTML and *then* how to use Rails to make them for you.  
 
@@ -166,7 +166,7 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 
 ### Your Assignment
 
-1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](http://www.theodinproject.com/web-development-101/databases).  It is probably worth it to re-watch the videos from the Coursera Databases course -- they were probably too deep the first time, but you should have a better handle on them now.
+1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](/courses/web-development-101/lessons/databases).  It is probably worth it to re-watch the videos from the Coursera Databases course -- they were probably too deep the first time, but you should have a better handle on them now.
 1. Read this [simple SQL tutorial](http://www.sqlcourse.com/index.html) for the basics.
 2. If you didn't follow the link in the previous tutorial, learn about the advanced SELECT stuff like aggregate functions and `GROUP BY` by reading the [second part of that tutorial here](http://www.sqlcourse2.com/index.html).
 

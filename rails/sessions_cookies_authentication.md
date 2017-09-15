@@ -137,7 +137,7 @@ First, we don't store passwords in plain text in the database.  That's just aski
 
 When a user submits their password via the login form, instead of comparing it directly with a plaintext version of that password, you actually convert the submitted password into digest form.  You'll then compare that new digest with the digest you'd previously stored from the user. If they match, you've got yourself a logged in user.
 
-This is much better because, if you remember from the previous [lesson on security in Web Development 101](/web-development-101/security-ssl-and-best-practices), digests are one-way encryption.  You can easily create a digest from a password string, but it's extremely difficult to decrypt the digest and retrieve the original password.  The most effective way to crack a bunch of digests is just to make a giant list of possible passwords, turn them into digests, and see if those digests match the one you're trying to crack (i.e. guess-and-check on a massive scale).  
+This is much better because, if you remember from the previous [lesson on security in Web Development 101](/courses/web-development-101/lessons/security-ssl-and-best-practices), digests are one-way encryption.  You can easily create a digest from a password string, but it's extremely difficult to decrypt the digest and retrieve the original password.  The most effective way to crack a bunch of digests is just to make a giant list of possible passwords, turn them into digests, and see if those digests match the one you're trying to crack (i.e. guess-and-check on a massive scale).  
 
 Rails doesn't make you do everything yourself.  It has a method called `#has_secure_password` which you just drop into your User model and it will add a lot of the functionality you're looking for.  To work with that handy method, you basically set up your User model to handle accepting `password` and `password_confirmation` attributes but you won't actually persist those to the database.  `has_secure_password` intercepts those values and converts them into the password digest for you.
 
@@ -194,5 +194,4 @@ This lesson should have given you some appreciation for how complicated login sy
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * Authentication in Rails 3.1 from [Railscasts](http://railscasts.com/episodes/270-authentication-in-rails-3-1)... better than I can explain it.
-* [Cookies and Sessions in Rails 4 from pothibo.com](https://web.archive.org/web/20161223000750/http://pothibo.com/2013/09/sessions-and-cookies-in-ruby-on-rails/)
 * [All About Cookies (.org)](http://www.allaboutcookies.org/)

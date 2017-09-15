@@ -192,7 +192,7 @@ It's the Rails way.  And recall that `users_path` generates a relative URL like 
 
 ### Asset Tags
 
-As you may have seen in the application layout file we talked about above, Rails gives you helper methods that output HTML tags to grab CSS or Javscript files.  You can also grab images.  These are called Asset Tags.  We'll get into the "Asset Pipeline" a bit later, but basically these tags locate those files for you based on their name and render the proper HTML tag.
+As you may have seen in the application layout file we talked about above, Rails gives you helper methods that output HTML tags to grab CSS or Javascript files.  You can also grab images.  These are called Asset Tags.  We'll get into the "Asset Pipeline" a bit later, but basically these tags locate those files for you based on their name and render the proper HTML tag.
 
 ```language-ruby
     <%= stylesheet_link_tag "your_stylesheet" %>
@@ -212,11 +212,11 @@ Will render something like:
 
 ### Forms
 
-Rails offers several different helpers that help you create forms, and we'll go over those in depth in upcoming lessons.
+Rails offers several different helpers that help you create forms, and we'll go over those in-depth in upcoming lessons.
 
 ### Your Assignment
 
-Now that you've got a taste of the high level stuff, read through the Rails Guides for a more detailed look at things.  The chapter below will actually start in the controller, where you need to let it know WHICH view file you want to render.  The second half of the chapter gets more into the view side of things.
+Now that you've got a taste of the high-level stuff, read through the Rails Guides for a more detailed look at things.  The chapter below will actually start in the controller, where you need to let it know WHICH view file you want to render.  The second half of the chapter gets more into the view side of things.
 
 1. Read the [Rails Guide chapter on Layouts and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html), sections 1 through 3.4.  You can certainly skim when they start going over all the many different options you can pass to a given function... it's good to know what they are and where you can find them, but you don't need to memorize all of them.  Usually you'll have something that you want to do, Google it, and find a Stack Overflow post that shows you the option you can use.
 

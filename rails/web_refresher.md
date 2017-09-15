@@ -54,7 +54,7 @@ Once you understand what these components are, you can easily use Ruby's librari
 
 You've heard about it again and again, but do you really know what MVC is?  Errrrmmmmm, ummm....
 
-MVC is all about organization and Rails is all about MVC.  When you build a new Rails project, you get that giant mass of folders and files created.  Though it seems like there are an overwhelming number of files inside your `app` directory, they are highly organized and specifically meant to separate the Model, View, and Controller.
+MVC is all about organization and Rails is all about MVC.  When you build a new Rails project, you get that giant mass of folders and files created.  Though it seems like there is an overwhelming number of files inside your `app` directory, they are highly organized and specifically meant to separate the Model, View, and Controller.
 
 The point of MVC is that the functions of a web application can be broken down into more or less distinct parts.  Each part gets its own Ruby class.  That's great for you the developer because, when you want to tweak a specific part of the code base or fix a bug, you know exactly which file to modify and where it is.
 
@@ -75,7 +75,7 @@ Just roll with it, you'll see it in action and learn to love it.
 
 ### APIs
 
-When your computer or a server (which you're programming) wants to make a request to another website, it doesn't bother clicking on things in the browser, it asks that other website for data directly by using that website's API.  An API is just an interface.  Our web browser goes in the front door to display a bunch of info from facebook, and our web server goes in the side door for the same data (much faster and more direct) via the API.  
+When your computer or a server (which you're programming) wants to make a request to another website, it doesn't bother clicking on things in the browser, it asks that other website for data directly by using that website's API.  An API is just an interface.  Our web browser goes in the front door to display a bunch of info from Facebook, and our web server goes in the side door for the same data (much faster and more direct) via the API.  
 
 So you want to get data from Google Maps to display on your webpage?  You hit its API using the rules specified in its API documentation.  Just about every big website makes some portion of its data available via an API and you can too quite easily using Rails.  
 

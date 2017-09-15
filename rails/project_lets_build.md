@@ -74,7 +74,7 @@ In this project, you'll dive right into the tutorial by building the site's stat
 
 ### Note: Testing
 
-One aspect of the Ruby on Rails tutorial which we haven't covered deeply is testing.  You got a brief look at it in the [Web Development 101 course](http://www.theodinproject.com/web-development-101/testing-basics) and a good taste of it in the [Ruby course](http://www.theodinproject.com/ruby-programming/#section-testing-ruby-with-rspec) but there are some more moving parts when it becomes applied to Rails.
+One aspect of the Ruby on Rails tutorial which we haven't covered deeply is testing.  You got a brief look at it in the [Web Development 101 course](/courses/web-development-101/lessons/testing-basics) and a good taste of it in the [Ruby course](/courses/ruby-programming/lessons/introduction-to-rspec) but there are some more moving parts when it becomes applied to Rails.
 
 Michael Hartl does a pretty good job of explaining what's going on during the Rails Tutorial and the syntax of RSpec is relatively straightforward.  If you've been following the curriculum up until now, you should find testing in Rails to be a natural transition from plain Ruby tests (and actually a bit more interesting because you get to play with webpages).
 
@@ -114,7 +114,7 @@ This is an example (listing 3.22) from the tutorial:
     end
 ```
 
-This syntax will be a bit different from the testing you have done before, thats because it uses the minitest testing framework instead of RSpec which you have been so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
+This syntax will be a bit different from the testing you have done before, that's because it uses the minitest testing framework instead of RSpec which you have been so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
 
 I'll do a brief walkthrough of what's going on in this example just to get your mind warmed up for testing.  Refer back to the previous lessons on testing and additional resources below for better explanations!
 
@@ -126,7 +126,7 @@ It's also important to note that **each test is completely independent of every 
 
 The first test (inside the block for the `#test` method) has just three lines.  The first, `get :home`, is just a necessary step to get you into position to run the test.  Because this is an extremely simple test file, that is inside the `#test` block.  If you ended up running multiple specs that relied on visiting that same page first, you'd see that line abstracted out into a `#before` block, which would be run before each test.
 
-The second line `assert_response :success`, makes sure that the home page returns a http status code of 200 or in other words success. The third line `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"` is where the action happens.  `assert_select "title"` selects an element on the page, in this case the title element and wait for some sort of definitive answer about whether the page passes or fails.  `"Home | Ruby on Rails Tutorial Sample App"` this is the expected value you are asserting the title will contain if the title matches this string the test will pass otherwise it will fail.  You don't actually need to know all the specifics of what's going on behind the scenes for a while, just how to apply them.
+The second line `assert_response :success`, makes sure that the home page returns an http status code of 200 or in other words success. The third line `assert_select "title", "Home | Ruby on Rails Tutorial Sample App"` is where the action happens.  `assert_select "title"` selects an element on the page—in this case the title element— and waits for some sort of definitive answer about whether the page passes or fails.  `"Home | Ruby on Rails Tutorial Sample App"` this is the expected value you are asserting the title will contain if the title matches this string the test will pass otherwise it will fail.  You don't actually need to know all the specifics of what's going on behind the scenes for a while, just how to apply them.
 
 If you're already scratching your head, don't worry (like I said, better explanations exist than mine).  The tutorial will cover testing along the way.  Hopefully your mind is warmed up right now and you won't be ambushed by suddenly being confronted with it.
 
@@ -135,7 +135,7 @@ If you're already scratching your head, don't worry (like I said, better explana
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
 2. Do [Chapter 3](https://www.railstutorial.org/book/static_pages) of the Ruby on Rails Tutorial to get started building the application.
 3. Do [Chapter 4](https://www.railstutorial.org/book/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
-4. Glance back at the [Deployment Lesson](http://www.theodinproject.com/ruby-on-rails/deployment) if you've got lingering questions or issues about the process of deployment.
+4. Glance back at the [Deployment Lesson](/courses/ruby-on-rails/lessons/deployment) if you've got lingering questions or issues about the process of deployment.
 
 ### Additional Resources
 
@@ -143,7 +143,6 @@ If you're already scratching your head, don't worry (like I said, better explana
 
 
 * [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
-* [Code School's RSpec Introduction Course](https://www.codeschool.com/courses/testing-with-rspec)
 * [Rails Conf 2013 BDD and Acceptance Testing with RSpec & Capybara](https://www.youtube.com/watch?v=BG_DDUD4M9E) This video gives you a nice angle on BDD & TDD in Rails that you won't get from the primary sources.
 * [RailsConf 2015 - Understanding Rails test types in RSpec](https://www.youtube.com/watch?v=SOi_1reKn8M) 30-minute RSpec presentation by Sam Phippen. Contains a few prewritten methods, but most of it is live coding with RSpec with explanations, which can be very helpful.
 * [Rails Pacific 2016 - Workshop / Taming Chaotic Specs: RSpec Design Patterns by Adam Cuppy](https://www.youtube.com/watch?v=KjENZNjRCWM) In this video you can see how to refactor your Rails specs to make them more descriptive and thorough. It also presents some very helpful ideas and "tricks". The best thing is the specs Adam Cuppy uses as examples are not really complicated and you can easily build up on the basics you already know.
