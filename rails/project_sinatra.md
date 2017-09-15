@@ -24,6 +24,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Jonathan Yiv's solution [GitHub](https://github.com/JonathanYiv/caesar_cipher) | [Live](https://lit-woodland-76112.herokuapp.com/)
 * jdrobertso's solution [source code](https://github.com/jdrobertso/cipher_site) | [Live](https://hidden-meadow-77860.herokuapp.com/)
 * Clayton Sweeten's solution [source code](https://github.com/cjsweeten101/OdinProjects/tree/master/sinatra/caesar_reloaded) | [Live](https://boiling-crag-42204.herokuapp.com/)
 * MGiagante's solution [source code](https://github.com/mgiagante/caesar_cipher_sinatra) | [Live](https://arcane-chamber-58799.herokuapp.com)
@@ -88,6 +89,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Jonathan Yiv's solution (Hangman) [Source Code](https://github.com/JonathanYiv/hangman) | [Live](https://infinite-river-55923.herokuapp.com/)
 * Clayton Sweeten's solution (Hangman)[source code](https://github.com/cjsweeten101/OdinProjects/tree/master/sinatra/hangman_reloaded) | [Live](https://serene-dusk-67079.herokuapp.com/)
 * justinckim3's solution [source code](https://github.com/justinckim3/sinatra-project) | [Live](https://sinatra-projects.herokuapp.com/hangman)
 * Adsy430's solution [Source code](https://github.com/adampal/hangman) | [Live](https://fierce-gorge-46516.herokuapp.com/?restart=true)

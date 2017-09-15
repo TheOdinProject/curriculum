@@ -33,6 +33,7 @@ If your game logic gets too complicated or the speed is too fast, you'll probabl
 * [David Chapman's solution](https://github.com/davidchappy/missile-command) | [View in browser](http://missile-command.dachapman.com/)
 * [Daunenok's solution](https://github.com/daunenok/missile) | [View in browser](https://daunenok.github.io/missile/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/missile-command) | [View in browser](https://sophialwu.github.io/missile-command/)
+* [Austin's solution](https://github.com/CouchofTomato/commie-command) | [View in browser](https://couchoftomato.github.io/commie-command/)
 
 ### Additional Resources
 
