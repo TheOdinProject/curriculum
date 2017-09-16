@@ -1,7 +1,16 @@
 require 'rails_helper'
 
 RSpec.describe CourseHelper do
-  let(:lesson) { double('Lesson', title: 'Ruby Basics', id: lesson_id) }
+  let(:lesson) {
+    double(
+      'Lesson',
+      title: 'Ruby Basics',
+      id: lesson_id,
+      is_project?: lesson_is_project
+    )
+  }
+
+  let(:lesson_is_project) { false }
   let(:lesson_id) { 1 }
   let(:user) { double('User', completed_lessons: completed_lessons) }
   let(:completed_lessons) { [completion_lesson] }
@@ -35,6 +44,14 @@ RSpec.describe CourseHelper do
 
     it 'returns the lesson title prepended with its number' do
       expect(subject).to eql('2. Ruby Basics')
+    end
+
+    context 'when lesson is a project' do
+      let(:lesson_is_project) { true }
+
+      it 'returns the lesson title enclosed in a strong tag' do
+        expect(subject).to eql('2. <strong>Ruby Basics</strong>')
+      end
     end
   end
 
