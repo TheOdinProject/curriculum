@@ -59,7 +59,7 @@ secondFunction(string, number) {
 }
 ```
 
-Some functions will pass multiple arguments to their callbacks, with multiple datatypes.  If this isn't crystal clear to you right now, don't worry.  With trial and error, and reading the documentation, you'll be able to figure it out.
+Some functions will pass multiple arguments to their callbacks, with multiple data types.  If this isn't crystal clear to you right now, don't worry.  With trial and error, and reading the documentation, you'll be able to figure it out.
 
 ### Ok so far so good.
 Let's take a look at some jQuery code.

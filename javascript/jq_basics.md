@@ -1,4 +1,4 @@
-You should already have completed the [Web Deveploment 101 jQuery lesson](/web-development-101/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby). 
+You should already have completed the [Web Development 101 jQuery lesson](/web-development-101/jquery-basics), and this will really be a deeper coverage of each of those issues (much like Ruby Basics was for Ruby). 
 
 jQuery, of course, provides a very easy-to-use model for manipulating the elements on your page.  It also contains lots of helper functions and special libraries for doing things like building widgets or even mobile apps.  You get to benefit from all the lazy programmers before you who build these tools to make their lives easier.  Enjoy!
 

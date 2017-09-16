@@ -19,5 +19,4 @@ Some of the more common templating languages include [Mustache](http://mustache.
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * Glance over [An overview of JS templates from Creative Bloq](http://www.creativebloq.com/web-design/templating-engines-9134396) for more examples.
-* [Introduction to Javascript Templating with Mustache](http://iviewsource.com/codingtutorials/introduction-to-javascript-templating-with-mustache-js/)
 * [Why LinkedIn chose Dust.js for Templating](http://engineering.linkedin.com/frontend/client-side-templating-throwdown-mustache-handlebars-dustjs-and-more) (includes a breakdown of the other popular choices)
