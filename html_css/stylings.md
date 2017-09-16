@@ -12,7 +12,7 @@ CSS3 offers a whole lot of interesting functionality that you didn't know about 
 
 1. Read about [CSS Transitions from A List Apart](http://alistapart.com/article/understanding-css3-transitions)
 2. Browse over the [CSS3 Animation Cheat Sheet](http://www.justinaguilar.com/animations/) for an idea of what you can do.
-3. Just glance at [canIuse](http://caniuse.com/), a compatability table for various elements in CSS and HTML5.
+3. Just glance at [canIuse](http://caniuse.com/), a compatibility table for various elements in CSS and HTML5.
 
 ### Additional Resources
 

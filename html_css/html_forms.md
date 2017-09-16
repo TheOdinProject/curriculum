@@ -11,7 +11,7 @@ Forms are important to get right not just because you want the correct data gett
 * How do you specify which path the form gets submitted to?
 * When would you want to submit using `GET` vs `POST` requests?
 * What are all the possible form element types?
-* When should you use check boxes instead of radio buttons?
+* When should you use checkboxes instead of radio buttons?
 * When should you use a combobox/dropdown instead of a text field?
 * How do you make a very large text field?
 * How do you link elements with their labels?
@@ -27,5 +27,4 @@ Forms are important to get right not just because you want the correct data gett
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [HTML Form Walkthrough](http://docs.webplatform.org/wiki/guides/html_forms_basics)
 * [HTML Forms Docs](http://www.w3schools.com/html/html_forms.asp)

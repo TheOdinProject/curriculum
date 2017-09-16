@@ -22,5 +22,5 @@ Backgrounds are usually ignored until they become a problem and then you're left
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* *http://www.w3schools.com/css/css_background.asp*
+* [CSS Backgrounds](http://www.w3schools.com/css/css_background.asp)
 * [Do you really understand CSS linear-gradients?](https://medium.com/@patrickbrosset/do-you-really-understand-css-linear-gradients-631d9a895caf#.tjka033kc)

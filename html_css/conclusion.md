@@ -8,8 +8,8 @@ Luckily, that's the next course!  Onwaaaaaaard!!!
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [HTML5 Rocks knowledge base](http://www.html5rocks.com/en/)... tons of links to articles specific to your goals.
-* [Codecademy's HTML/CSS track](http://www.codecademy.com/tracks/web)
+* [Web Fundamentals](https://developers.google.com/web/fundamentals/)... tons of links to articles specific to your goals.
+* [Codecademy's HTML/CSS track](https://www.codecademy.com/learn/learn-html)
 * [Codecademy's Learn Sass](http://www.codecademy.com/learn/learn-sass)
 * [Shay Howe's Beginner's Guide to HTML and CSS](http://learn.shayhowe.com/html-css/)
 * [HTML5 Tutorial](http://www.html-5-tutorial.com/start-html5-tutorial.htm)

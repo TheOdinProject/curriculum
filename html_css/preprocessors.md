@@ -1,4 +1,4 @@
-Preprocessors (aka precompilers) can make your life much easier by eliminating code repetition and providing all sorts of yummy time-saving and code-saving features.  If you've been using Rails, you'll be familiar with SASS already since it's baked in.  If you're not using Rails, you may need to add some additional steps to your work flow to get your preprocessor set up but it's worth it.
+Preprocessors (aka precompilers) can make your life much easier by eliminating code repetition and providing all sorts of yummy time-saving and code-saving features.  If you've been using Rails, you'll be familiar with SASS already since it's baked in.  If you're not using Rails, you may need to add some additional steps to your workflow to get your preprocessor set up but it's worth it.
 
 ### Points to Ponder
 
