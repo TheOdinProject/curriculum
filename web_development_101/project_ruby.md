@@ -323,7 +323,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Tim Lapinskas's Solution](https://github.com/tlapinsk/learn_ruby)
 * [Andrew DeNikes's Solution](https://github.com/AndyDeNike/project_test_ruby)
 * [Pat's solution](https://github.com/Pat878/learn_ruby)
-* [Ian Baker's Solution](https://github.com/ianbaker615/learn_ruby.git)
+* [Ian Baker's Solution](https://github.com/ianbaker615/learn_ruby)
 * [ryan_'s solution](https://github.com/ryanford-frontend/learn_ruby)
 * [Viet_'s solution](https://github.com/vietdh85/learn_ruby)
 * [Matheusfcunha's solution](https://github.com/matheusfcunha/learn_ruby)
@@ -347,7 +347,8 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [darrenusc's Solution](https://github.com/darrenusc/learn_ruby)
 * [Alex's solutions](https://github.com/alexcorremans/learn_ruby)
 * [Tshepo Mohlamonyane's Solution](https://https://github.com/blavkboy/learn_ruby)
-* [Joey Robertson's Solution](https://github.com/JoeyRobertson/learn_ruby.git)
+* [Joey Robertson's Solution](https://github.com/JoeyRobertson/learn_ruby)
+* [Santiago ROdríguez Solution](https://github.com/santoxxcc/learn_ruby)
 
 ### Additional Resources
 
