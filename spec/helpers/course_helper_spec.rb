@@ -28,13 +28,84 @@ RSpec.describe CourseHelper do
     end
   end
 
-  describe 'numbered_lesson_title' do
+  describe '#numbered_lesson_title' do
     subject { helper.numbered_lesson_title(lesson, lesson_index) }
 
     let(:lesson_index) { 1 }
 
     it 'returns the lesson title prepended with its number' do
       expect(subject).to eql('2. Ruby Basics')
+    end
+  end
+
+  describe '#course_completed_class?' do
+    subject { helper.course_completed_class?(course, user) }
+
+    let(:user) { double('User') }
+    let(:course) { double('Course') }
+    let(:user_signed_in) { true }
+    let(:course_completed_by_user) { true}
+
+    before do
+      allow(helper).to receive(:user_signed_in?).and_return(user_signed_in)
+      allow(helper).to receive(:course_completed_by_user?).with(course, user).
+        and_return(course_completed_by_user)
+    end
+
+    it 'returns course completed class' do
+      expect(subject).to eql('course-card-header--completed')
+    end
+
+    context 'when course is not completed' do
+      let(:course_completed_by_user) { false }
+
+      it 'returns nil' do
+        expect(subject).to be_nil
+      end
+    end
+
+    context 'when user is not signed in' do
+      let(:user_signed_in) { false }
+
+      it 'returns nil' do
+        expect(subject).to be_nil
+      end
+    end
+  end
+
+  describe '#open_course_button_style' do
+    subject { helper.open_course_button_style(course, user) }
+
+    let(:user) { double('User') }
+    let(:course) { double('Course') }
+    let(:user_signed_in) { true }
+    let(:course_completed_by_user) { true}
+
+    before do
+      allow(helper).to receive(:user_signed_in?).and_return(user_signed_in)
+
+      allow(helper).to receive(:course_completed_by_user?).with(course, user).
+        and_return(course_completed_by_user)
+    end
+
+    it 'returns button--transparent class' do
+      expect(subject).to eql('button--transparent')
+    end
+
+    context 'when course is not complete' do
+      let(:course_completed_by_user) { false }
+
+      it 'returns button--secondary class' do
+        expect(subject).to eql('button--secondary')
+      end
+    end
+
+    context 'when user is not signed in' do
+      let(:user_signed_in) { false }
+
+      it 'returns button--secondary class' do
+        expect(subject).to eql('button--secondary')
+      end
     end
   end
 end
