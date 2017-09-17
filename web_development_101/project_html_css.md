@@ -1220,6 +1220,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Alexa Kucera's Solution (Easy)](https://github.com/alexakucera/google-homepage) | [View in Browser](https://alexakucera.github.io/google-homepage/)
 * [Alin Simion's Solution (Easy)](https://github.com/alinsg/google-homepage) | [View in Browser](https://alinsg.github.io/google-homepage/)
 * [Maria Tikhonova's solution (Easy)](https://github.com/MariaTikhonova/google-homepage) | [View in Browser](https://MariaTikhonova.github.io/google-homepage/)
+* [Joe Himes's solution (Easy)](https://github.com/deedle42/google-homepage) 
 
 ### Additional Resources
 
