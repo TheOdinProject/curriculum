@@ -2,7 +2,7 @@ Hopefully you've gained a better idea of what a web developer actually does and 
 
 In the next course, "Web Development 101", you'll take a journey through the entire spectrum of topics that you will eventually need to know.  That will give you a great base from which to begin, though it's got a lot more meat to it than your typical "101", so watch out!
 
-After that, each course will be a deep dive into a particular topic, from the back end to the front.  You will build dozens of scripts, projects, and websites by the time this journey is complete and will have the skills necessary to step into fulltime development.  
+After that, each course will be a deep dive into a particular topic, from the back end to the front.  You will build dozens of scripts, projects, and websites by the time this journey is complete and will have the skills necessary to step into full-time development.  
 
 Getting all the way there is going to be challenging.  In fact, you should check out the post ["Why Learning to Code is So Damn Hard"](http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard) so you have a good idea of what the journey ahead is like.  But what worthwhile thing is truly easy?
 

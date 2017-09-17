@@ -10,7 +10,7 @@ Small tech startups value the ability to build and ship code above all else, so 
 
 ### A Day In the Life
 
-* [An interview with Zack Fisch of SpeakMe](http://1000hours.io/post/82536681454/interview-with-zack-fisch-of-speakme), a nontechnical founder looking to learn Rails to get in touch with his team.
+* [An interview with Zack Fisch of SpeakMe](https://web.archive.org/web/20170619051959/http://1000hours.io/post/82536681454/interview-with-zack-fisch-of-speakme), a nontechnical founder looking to learn Rails to get in touch with his team.
 * [A Dev Life interview with Leah Culver](http://blog.fogcreek.com/dev-life-interview-with-leah-culver/) from Fog Creek's Blog
 * [I'm Cory Doctorow and This is How I Work](http://lifehacker.com/5993401/im-cory-doctorow-and-this-is-how-i-work) from Lifehacker
 * [I'm Jeff Atwood, Founder of Stack Exchange, and This is How I Work](http://lifehacker.com/5950386/im-jeff-atwood-founder-of-stack-exchange-and-this-is-how-i-work)
@@ -31,7 +31,7 @@ Developers at web consultancies like Pivotal Labs, Thoughtbot, and ThoughtWorks 
 
 ### A Day In the Life
 
-* A blog post about being a [front-end dev at codecomputerlove](http://www.codecomputerlove.com/blog/2013/11/a-day-in-the-life-of-a-web-developer/).
+* A blog post about being a [front-end dev at codecomputerlove](https://www.codecomputerlove.com/blog/a-day-in-the-life-of-a-web-developer).
 * Learn [what a web developer does all day](http://www.kitsmedia.ca/what-does-a-web-developer-do-all-day/).
 * [A day in the life at a creative agency](http://www.torpedogroup.com/blog/a-day-in-the-life-of-a-web-developer/)
 

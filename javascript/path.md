@@ -160,7 +160,7 @@ This is an **OPTIONAL** section where you will learn about using Javascript to r
     Take a framework of your choice for a test drive with these established tutorials.
 6. Workflow Tools, Tech Stacks and Dependency Management
     /workflow_tools.md
-    A few tools that are meant to clean up your worfklows.
+    A few tools that are meant to clean up your workflows.
 
 ## Finishing Up with Javascript
 
