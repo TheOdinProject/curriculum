@@ -166,7 +166,7 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 
 ### Your Assignment
 
-1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](/courses/web-development-101/lessons/databases).  It is probably worth it to re-watch the videos from the Coursera Databases course -- they were probably too deep the first time, but you should have a better handle on them now.
+1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](/courses/web-development-101/lessons/databases).
 1. Read this [simple SQL tutorial](http://www.sqlcourse.com/index.html) for the basics.
 2. If you didn't follow the link in the previous tutorial, learn about the advanced SELECT stuff like aggregate functions and `GROUP BY` by reading the [second part of that tutorial here](http://www.sqlcourse2.com/index.html).
 
