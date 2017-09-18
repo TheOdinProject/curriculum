@@ -1,26 +1,5 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-      <div class="card-main profile-card">
-        <div class="row">
-          <div class="col-md-3 align-items-center text-center">
-            <div class="user-avatar">
-              <%= image_tag avatar_path(user.avatar), class: 'user-avatar-img' %>
-            </div>
-
-          </div>
-          <div class="col-md-4">
-            <p class="welcome-text"><%=  user.username %></p>
-          </div>
-          <div class="col-md-5 info">
-            <div class="learning-goal-wrapper">
-              <p class="learning-goal">
-                <%= display_dashboard_learning_goal(user) %>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="card-main profile-card">
+  <%= image_tag avatar_path(user.avatar), class: 'profile-card__image' %>
+  <h2 class="profile-card__username"><%=  user.username %></h2>
+  <p class="profile-card__learning-goal"><%= display_dashboard_learning_goal(user) %></p>
 </div>

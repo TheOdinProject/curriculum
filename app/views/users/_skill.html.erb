@@ -1,0 +1,14 @@
+<div class="skill">
+  <div class='skill__image'>
+    <%= render 'shared/course_badge', course: course, user: @user %>
+  </div>
+
+  <div class="skill__details">
+    <h3 class="skill__title"><%= course.title %></h3>
+    <span class="skill__sub-title"><%= course.lessons.size %> lessons</span>
+  </div>
+
+  <div class="skill__button-wrapper">
+    <%= render 'users/skill_state_buttons', course: course, user: @user %>
+  </div>
+</div>

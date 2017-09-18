@@ -2354,8 +2354,8 @@ Rails.logger.info "\n\n***** STARTING COURSE: Getting Hired *****"
 
 course_position += 1
 course = create_or_update_course(
-  title: "Getting Hired as a Web Developer",
-  title_url: "Getting Hired as a Web Developer".parameterize,
+  title: "Getting Hired",
+  title_url: "Getting Hired".parameterize,
   description: "Web development is a lifelong journey of learning and growth. Continue that journey on a professional development team! You'll learn where to find jobs, how to do great interviews, and the best strategies to launch your career.",
   position: course_position,
 )

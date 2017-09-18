@@ -17,7 +17,7 @@ class CourseDecorator < ApplicationDecorator
       'Ruby Programming' => 'badge-ruby.svg',
       'Javascript and jQuery' => 'badge-javascript.svg',
       'Ruby on Rails' => 'badge-ruby-on-rails.svg',
-      'Getting Hired as a Web Developer' => 'badge-getting-hired.svg'
+      'Getting Hired' => 'badge-getting-hired.svg'
     }
   end
 

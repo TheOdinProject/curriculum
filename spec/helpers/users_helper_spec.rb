@@ -28,7 +28,7 @@ RSpec.describe UsersHelper do
     context 'when the user does not have a learning goal' do
       let(:learning_goal) { '' }
       let(:settings_link) {
-        "Set a learning goal in your <a href=\"/users/edit\">settings</a>."
+        "Set a learning goal in your <a class=\"profile-card__link\" href=\"/users/edit\">settings</a>."
       }
 
       it 'returns a link to the users settings page' do
