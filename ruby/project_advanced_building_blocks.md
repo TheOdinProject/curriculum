@@ -292,6 +292,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 *[Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [isildonmez's solution](https://github.com/isildonmez/advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods.rb)
 * [jdrobertso's solution](https://github.com/jdrobertso/enumerables)
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/tree/master/Enumerable_Methods)
 * [endotnick's solution](https://github.com/endotnick/ruby_enumerable_methods/blob/master/enumerable_methods.rb)
