@@ -269,6 +269,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [coryparham24's Solution](https://github.com/coryparham24/blogger-ruby-on-rails-project) | [View in Browser](https://radiant-beach-97617.herokuapp.com/)
 * [Oliver Curting's Solution](https://github.com/Curting/blogger) | [View in Browser](https://olivers-blogger.herokuapp.com/) I0-I5
 * [Alex's Solution](https://github.com/alexcorremans/blogger) | [View in Browser](https://fast-taiga-39728.herokuapp.com/)
+* [Celestine's Solution](https://github.com/CEOehis/blogger) | [View in Browser](https://afternoon-coast-34844.herokuapp.com/)
 
 
 ### Additional Resources
