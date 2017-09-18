@@ -3,7 +3,7 @@
     <%= image_tag course.badge, alt: "#{course.title} badge", class: 'course-badge__image' %>
   </div>
 <% else %>
-  <div class="course-badge progress-circle" data-progress="<%= percentage_completed_by_user(course, @user) %>">
+  <div class="course-badge progress-circle <%= 'progress-circle--completed' if course_completed_by_user?(course, @user) %>" data-progress="<%= percentage_completed_by_user(course, @user) %>">
     <div class="progress-circle__inner">
       <%= image_tag course.badge, alt: "#{course.title} badge", class: 'progress-circle__image' %>
       <p class="bold progress-circle__content"><%= "#{percentage_completed_by_user(course, @user)}%" %></p>

@@ -55,6 +55,18 @@ $back-color: #dddddd;
     height: 100%;
     width: 100%;
   }
+
+  &--completed {
+    .progress-circle__image {
+      display: inline-block;
+    }
+
+    &:hover {
+      .progress-circle__image {
+        display: none;
+      }
+    }
+  }
 }
 
 $step: 1;
