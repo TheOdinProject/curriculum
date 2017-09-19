@@ -526,6 +526,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [MPalhidai's Solution & Project Euler Repo](https://github.com/MPalhidai/Project-Euler)
 * [Santiago Rodríguez Solution & Project Euler Repo](https://github.com/santoxxcc/euler-project)
 * [Taras's Solutions (updating)](https://github.com/Staryj812/projectEuler) | [View in Browser](https://staryj812.github.io/projectEuler/)
+* [cedalukic's Solution](https://github.com/cedalukic/euler-project) | [View in Browser](https://cedalukic.github.io/euler-project)
 
 
 ### Additional Resources
