@@ -92,6 +92,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 
 * Add your solution below this list
 
+* [Vista's Soulution (Easy)](https://github.com/vistapuri/google-homepage) | [View in browser](https://vistapuri.github.io/google-homepage/)
+
 * [Nate Dimock's Solution (Difficult)](https://github.com/Flakari/google-results-page) | [View in browser](https://flakari.github.io/google-results-page/)
 * [Nate Dimock's Solution (Easy)](https://github.com/Flakari/google-homepage) | [View in browser](https://flakari.github.io/google-homepage/)
 * [Typhoon's Solution (Easy)](https://github.com/typhoon93/google-homepage) | [View in browser](https://typhoon93.github.io/google-homepage/)
