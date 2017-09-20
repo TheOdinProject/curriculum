@@ -3,6 +3,7 @@
 ## Introduction
 
 * [Introduction](README.md)
+* [CONTRIBUTING](CONTRIBUTING.md)
 * [Are you Beta testing for us?](are-you-beta-testing-for-us.md)
 
 ## JS101
@@ -18,4 +19,6 @@
 * [Fundamentals 3](JS101/fundamentals-3.md)
 * [JavaScript Dev Tools](JS101/javascript-dev-tools.md)
 * [Final Project](JS101/final-project.md)
+
+
 
