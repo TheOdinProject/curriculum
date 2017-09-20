@@ -1223,7 +1223,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Alin Simion's Solution (Easy)](https://github.com/alinsg/google-homepage) | [View in Browser](https://alinsg.github.io/google-homepage/)
 * [Maria Tikhonova's solution (Easy)](https://github.com/MariaTikhonova/google-homepage) | [View in Browser](https://MariaTikhonova.github.io/google-homepage/)
 * [Joe Himes's solution (Easy)](https://github.com/deedle42/google-homepage) 
-* [Steve Yankson's solution (Easy)](https://github.com/samoaning/google_homepage_mimic) | [View in Browser] (https://samoaning.github.io/google_homepage_mimic/)
+* [Steve Yankson's solution (Easy)](https://github.com/samoaning/google_homepage_mimic) | [View in Browser](https://samoaning.github.io/google_homepage_mimic/)
 
 ### Additional Resources
 
