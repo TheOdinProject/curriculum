@@ -704,4 +704,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Joey Robertson's solution](https://github.com/JoeyRobertson/EtchASketch)| [View in browser](https://joeyrobertson.github.io/EtchASketch/)
 * [datagoil's solution](https://github.com/datagoil/sketchpad)| [View in browser](https://datagoil.github.io/sketchpad/)
 * [retrazil's solution](https://github.com/retrazil/sketch/)| [View in browser](https://retrazil.github.io/sketch/)
+* [cedalukic's solution](https://github.com/cedalukic/etch-a-sketch) | [View in browser](https://cedalukic.github.io/etch-a-sketch/)
 
