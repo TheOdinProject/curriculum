@@ -1,22 +1,22 @@
 # The Odin Project - Javascript Curriculum
 
-This is the repo for the development of the new Javascript course for The Odin Project.  We are convinced that we host one of the best free web development curriculums on the internet and that our teaching style is one of the most effective when it comes to online self-directed learning.
+This is the repo for the development of the new Javascript course for The Odin Project.  We are convinced that we host one of the best free web development curriculums on the internet and that our teaching style is one of the most effective when it comes to online self-directed learning.  This material will eventually be gradually merged into our existing site \([https://www.theodinproject.com/ \)](https://www.theodinproject.com/) and it is also available in a gitbook here: [https://the-odin-project.gitbooks.io/javascript-curriculum/](https://the-odin-project.gitbooks.io/javascript-curriculum/)
 
 ## Mission statement
 
-__Our main focus__ is the cultivation and sequencing of the best free resources around the internet. We believe wholeheartedly that everything one needs to become employed can be found for free online but for the average new learner, the vast amount (and widely varying quality) of resources makes it difficult to make meaningful progress.  We have settled on three basic steps to fix this.
+**Our main focus** is the cultivation and sequencing of the best free resources around the internet. We believe wholeheartedly that everything one needs to become employed can be found for free online but for the average new learner, the vast amount \(and widely varying quality\) of resources makes it difficult to make meaningful progress.  We have settled on three basic steps to fix this.
+
 1. We have created a curriculum that attempts to find the optimal sequencing of information. This curriculum is intended to be able to take someone from knowing literally nothing about Web Development to a point where they could be employed as a Junior Developer.
-2. For each topic in the curriculum we try to find the best free resources on the internet to teach that topic.  We will often link multiple resources, trying not to rely too much on a single source of information.
+2. For each topic in the curriculum we try to find the best free resources on the internet to teach that topic.  We will often link multiple resources, trying not to rely too much on a single source of information.  Were good resources can not be found we write our own, but we definitely prefer to primarily link to external sites.
 3. We invent and cultivate projects that give learners a chance to practice what they've learned and integrate skills along the way, which increases information retention, gives the learner a chance to experiment and allows the learner to build an impressive portfolio.
 
-Additionally, we have made our learning materials completely open-source.  This means that if anyone comes across a resource that is better than what we have included in our lessons, they are free (and encouraged!) to add them, which improves our curriculum over time, and helps it to stay up-to-date.
+Additionally, we have made our learning materials completely open-source.  This means that if anyone comes across a resource that is better than what we have included in our lessons, they are free \(and encouraged!\) to add them, which improves our curriculum over time, and helps it to stay up-to-date.
 
-Sadly, over time, our curriculum (specifically the Javascript sections) have become out-of date, and some of the later lessons were never actually finished at all, so we have decided to start fresh with a complete re-write of the JS curriculum, to fill it out and make it current.
+Sadly, our curriculum \(specifically the Javascript sections\) has become out-of date, and some of the later lessons were never actually finished at all, so we have decided to start fresh with a complete re-write of the JS curriculum, to fill it out and make it current.
 
 ## Contributing
 
-This is a gigantic undertaking so we're going to need to follow a bit of a process to make sure things run smoothly and that we don't duplicate our efforts.
+This is a gigantic undertaking so we're going to need to follow a bit of a process to make sure things run smoothly and that we don't duplicate our efforts. Please see [CONTRIBUTING](https://github.com/TheOdinProject/javascript_curriculum/blob/master/CONTRIBUTING.md) for more info.
 
-For the moment, we're keeping the general course outline in `ROADMAP.md` and the process of creating the lessons is going to be going through that outline and creating stubs and github issues for each of the lessons so that contributors can be assigned issues and then fill out the stubbed lessons, and/or create more lessons where appropriate.
+If you would like to contribute to this project [please contact us here.](https://gitter.im/TheOdinProject/New-JS-course).  For the moment, the project leader on this is Cody Loyd \(@codyloyd in the gitter room\) so feel free to ping him if you have any questions.
 
-If you would like to contribute to this project [please contact us here.](https://gitter.im/TheOdinProject/New-JS-course).  For the moment, the project leader on this is Cody Loyd (@codyloyd in the gitter room) so feel free to ping him if you have any questions.
