@@ -4,7 +4,6 @@
 
 ## JS101
 
-* [What the JavaScript?](JS101/what-the-javascript.md)
 * [Running JavaScript](JS101/running-javascript.md)
 * [Fundamentals 1](JS101/fundamentals-1.md)
 * [Fundamentals project 1](JS101/fundamentals-1-project.md)
@@ -16,4 +15,6 @@
 * [Fundamentals 3](JS101/fundamentals-3.md)
 * [JavaScript Dev Tools](JS101/javascript-dev-tools.md)
 * [Final Project](JS101/final-project.md)
+
+
 

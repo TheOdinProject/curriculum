@@ -1,4 +1,4 @@
-One of the most unique and useful abilities of javascript is it's ability to manipulate the DOM. But what *is* the DOM, and how do we go about changing it? Let's jump right in...
+One of the most unique and useful abilities of javascript is it's ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
 
 ### Points to Ponder
 
@@ -20,22 +20,23 @@ When working with HTML and JS, you'll often here mention of "the DOM". What the 
 </div>
 ```
 
-In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. To think of it like a DOM tree (which you can imagine like a family tree), `<div id="container"></div>` would be on the top level/hierarchy, and it's children would be on the next lower level, each with their own "branch".
+In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. To think of it like a DOM tree \(which you can imagine like a family tree\), `<div id="container"></div>` would be on the top level/hierarchy, and it's children would be on the next lower level, each with their own "branch".
 
-That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments". **All "elements" are "nodes", but not all "nodes" are "elements".** 
+That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments". **All "elements" are "nodes", but not all "nodes" are "elements".**
 
 ### Targetting Nodes with Selectors
 
 When working with the DOM, you use "selectors" to target the nodes you want to work with. You can use a combination of CSS-style selectors and relationship properties to target the nodes you want. Let's start with CSS-style selectors. In the above example, you could use the following selectors to refer to `<div class="display"></div>`:
+
 * div.display
 * .display
-* #container > .display
-* div#container > div.display
+* # container &gt; .display
+* div\#container &gt; div.display
 * more permutations etc
 
 Those are just a few, but you probably notice the pattern. It's similar to CSS Style Selectors, right?
 
-You can also use relational selectors with special properties owned by the nodes. 
+You can also use relational selectors with special properties owned by the nodes.
 
 ```javascript
 const container = document.querySelector('#container'); 
@@ -59,30 +60,30 @@ The DOM spec adds many properties and methods to the nodes in a webpage. Let's g
 
 #### Query Selectors
 
-* *element*.querySelector(*selector*) returns reference to the first match of *selector*
-* *element*.querySelectorAll(*selectors*) returns a "nodelist" containing references to all of the matches of the *selectors*
-\**There are several other, more specific queries, that offer potential (marginal) performance benefits, but we won't be going over them now.*
+* _element_.querySelector\(_selector_\) returns reference to the first match of _selector_
+* _element_.querySelectorAll\(_selectors_\) returns a "nodelist" containing references to all of the matches of the _selectors_
+  \*_There are several other, more specific queries, that offer potential \(marginal\) performance benefits, but we won't be going over them now._
 
-It's important to note that when using querySelectorAll, the return value is **not** an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. With ES6 you can do this with Array.from(). Although browser support is not yet complete, polyfills are available.
+It's important to note that when using querySelectorAll, the return value is **not** an array. It looks like an array, and it somewhat acts like an array, but it's really a "nodelist". The big distinction is that several array methods are missing from nodelists. One solution, if problems arise, is to convert the nodelist into an array. With ES6 you can do this with Array.from\(\). Although browser support is not yet complete, polyfills are available.
 
 #### Element Creation
 
-* document.createElement(tagName[, options]) => creates a new element of tag type *tagName*
+* document.createElement\(tagName\[, options\]\) =&gt; creates a new element of tag type _tagName_
 
 ```javascript
 const div = document.createElement('div');
 ```
 
-\**An important note is that, although you've create an element. It's not yet visible or attached to the DOM. It's just kind of floating around.*
+\*_An important note is that, although you've create an element. It's not yet visible or attached to the DOM. It's just kind of floating around._
 
 #### Append Elements
 
-* *parentNode*.appendChild(*childNode*) => appends *childNode* as the last child of *parentNode*
-* *parentNode*.insertBefore(*newNode*, *referenceNode*) => inserts *newNode* into *parentNode* before *referenceNode*
+* _parentNode_.appendChild\(_childNode_\) =&gt; appends _childNode_ as the last child of _parentNode_
+* _parentNode_.insertBefore\(_newNode_, _referenceNode_\) =&gt; inserts _newNode_ into _parentNode_ before _referenceNode_
 
 #### Remove Elements
 
-* *parentNode*.removeChild(*child*) => removes *child* from *parentNode* on the DOM and returns reference to *child*
+* _parentNode_.removeChild\(_child_\) =&gt; removes _child_ from _parentNode_ on the DOM and returns reference to _child_
 
 #### Altering Elements
 
@@ -158,11 +159,11 @@ div.innerHTML = '<span>Hello World!</span>';
 // renders the html inside div
 ```
 
- \**Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused.*
+\*_Note that textContent is preferable for adding text, and innerHTML should be used sparingly as it can create security risks if misused._
 
 ### Events
 
-Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keybaord, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on*event*" property on ythe DOM object in your javascript, or you can attach event listeners to the nodes in your javascript.
+Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keybaord, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on ythe DOM object in your javascript, or you can attach event listeners to the nodes in your javascript.
 
 We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
 
@@ -179,7 +180,6 @@ This solution is less than ideal. For one, we're cluttering out HTML with javasc
 ```javascript
 var btn = document.querySelector('#btn');
 btn.onclick = (e) => alert(e.target.tagName);
-
 ```
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property. Let's try the last method.
@@ -224,11 +224,11 @@ buttons.forEach((button) => {
 
 This works just fine, but an easier solution would be to utilize the "bubbling" mechanic of event propagation. Everytime a event fires, it potentially goes through 3 phases:
 
-1. Capture Phase - the event checks all nodes along the branch from the window all the way down to the event.target checking for additional listeners. *This phase is turned off by default*.
+1. Capture Phase - the event checks all nodes along the branch from the window all the way down to the event.target checking for additional listeners. _This phase is turned off by default_.
 2. Target Phase - Checks event.target for an event listener.
-3. Bubbling Phase - The event checks all the nodes along the branch from the event.target all the way up to the window or root. *It "bubbles" to the top*.
+3. Bubbling Phase - The event checks all the nodes along the branch from the event.target all the way up to the window or root. _It "bubbles" to the top_.
 
-So how can we utilize this in our example? 
+So how can we utilize this in our example?
 
 ```javascript
 var container = document.querySelector('#container');
@@ -238,9 +238,9 @@ container.addEventListener('click', (e) => {
 });
 ```
 
-With a simple equality check, we can put 1 event listener on the parent (or any ancestor really), and allow the event to bubble up to that listener. This technique is called "event delegation". You can read more about it [here](https://javascript.info/event-delegation).
+With a simple equality check, we can put 1 event listener on the parent \(or any ancestor really\), and allow the event to bubble up to that listener. This technique is called "event delegation". You can read more about it [here](https://javascript.info/event-delegation).
 
------
+---
 
 This is just the tip of the iceberg when it comes to DOM manipulation and event handling, but I think it's enough to get you started with some exercises.
 
@@ -248,7 +248,7 @@ This is just the tip of the iceberg when it comes to DOM manipulation and event 
 
 #### JavaScript Drum Kit:
 
-We'll be doing the first exercise in Wes Bos's JavaScript30 program. You'll need to clone the repo at https://github.com/wesbos/JavaScript30. Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project. When you've completed the Drum Kit exercise, you can move on to the next section.
+We'll be doing the first exercise in Wes Bos's JavaScript30 program. You'll need to clone the repo at [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30). Check out the [Video Tutorial](https://www.youtube.com/watch?v=VuN8qwZoego) for instructions on the project. When you've completed the Drum Kit exercise, you can move on to the next section.
 
 ### Additional Resources
 
@@ -257,3 +257,6 @@ We'll be doing the first exercise in Wes Bos's JavaScript30 program. You'll need
 * [DOM Enlightenment](http://domenlightenment.com/)
 * [JavaScript30](https://JavaScript30.com)
 * If you've already learned jQuery then [this website](https://plainjs.com/javascript/) will help you figure out how to do things without it.
+
+
+
