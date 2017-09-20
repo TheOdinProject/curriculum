@@ -8,6 +8,7 @@
 
 ## JS101
 
+* [Introduction 101](JS101/introduction-101.md)
 * [Running JavaScript](JS101/running-javascript.md)
 * [Fundamentals 1](JS101/fundamentals-1.md)
 * [Fundamentals project 1](JS101/fundamentals-1-project.md)
