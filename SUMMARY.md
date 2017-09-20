@@ -17,8 +17,7 @@
 * [DOM manipulation](JS101/DOM-manipulation.md)
 * [DOM manipulation project](JS101/DOM-manipulation-project.md)
 * [Fundamentals 3](JS101/fundamentals-3.md)
+* [Fundamentals 3 Project](JS101/fundamentals-3-project.md)
 * [JavaScript Dev Tools](JS101/javascript-dev-tools.md)
 * [Final Project](JS101/final-project.md)
-
-
 
