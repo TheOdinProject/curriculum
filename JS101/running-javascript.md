@@ -1,4 +1,4 @@
-There are several different ways to run javascript code and which one you pick depends greatly on what it is you're trying to accomplish.  This short lesson describes some of the most common... all of which you are likely to use as you learn to code.
+As you learn to write JavaScript you are going to have many opportunities to code-along with various tutorials, complete exercises and practice what you've learned by writing your own code.  Because JavaScript is such a dynamic language there are _many_ ways to run the code you write.  All of them have their advantages and disadvantages and which one you use will depend mostly on what you're trying to accomplish.  For example, if you're working on a project for your portfolio it is important that you create it from scratch on your own computer, however if you're just playing around with a new method you've learned then it might be wise to use the quicker and easier method of loading up a website that does the set-up work for you.  If you're completely new to coding then this lesson might not mean too much to you just yet, so read it and keep it in the back of your mind.  Feel free to come back when it's time to start writing code!
 
 ## On a website
 
@@ -53,6 +53,4 @@ And finally, you can run your JavaScript code from the command line.  If you've 
 For real projects, once you start creating them, it's best to work on your own computer and run the actual HTML and JS files in your browser.  JSBin and Codepen make creating such things really quick and easy, but in this case easy is not necessarily better.  Knowing how to set up and manage a project on your computer is an _essential_ skill that employers are going to require, and as you go you'll find that there are some things you just can't do on websites like those.
 
 Having said that, there's no reason to waste time setting up a whole project or littering your Hard Drive with files called `test1.html` or `tryingOutQuerySelector.js` for little tests and experiments.  By all means use whatever method is convenient for you in those cases.
-
-
 
