@@ -1,6 +1,6 @@
 # The Odin Project - Javascript Curriculum
 
-This is the repo for the development of the new Javascript course for The Odin Project.  We are convinced that we host one of the best free web development curriculums on the internet and that our teaching style is one of the most effective when it comes to online self-directed learning.
+This is the repo for the development of the new Javascript course for The Odin Project.  We are convinced that we host one of the best free web development curriculums on the internet and that our teaching style is one of the most effective when it comes to online self-directed learning.  This material will eventually be gradually merged into our existing site \([https://www.theodinproject.com/ \)](https://www.theodinproject.com/) and it is also available in a gitbook here: [https://the-odin-project.gitbooks.io/javascript-curriculum/](https://the-odin-project.gitbooks.io/javascript-curriculum/)
 
 ## Mission statement
 
