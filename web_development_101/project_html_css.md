@@ -91,9 +91,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
-
-* [Vista's Soulution (Easy)](https://github.com/vistapuri/google-homepage) | [View in browser](https://vistapuri.github.io/google-homepage/)
-
+*[Vista's Solution (Difficult)](https://github.com/vistapuri/google-search-result) | [View in browser](https://vistapuri.github.io/google-search-result/) 
+*[Vista's Solution (Easy)](https://github.com/vistapuri/google-homepage) | [View in browser](https://vistapuri.github.io/google-homepage/)
 * [Nate Dimock's Solution (Difficult)](https://github.com/Flakari/google-results-page) | [View in browser](https://flakari.github.io/google-results-page/)
 * [Nate Dimock's Solution (Easy)](https://github.com/Flakari/google-homepage) | [View in browser](https://flakari.github.io/google-homepage/)
 * [Typhoon's Solution (Easy)](https://github.com/typhoon93/google-homepage) | [View in browser](https://typhoon93.github.io/google-homepage/)
