@@ -15,9 +15,7 @@ Sadly, over time, our curriculum \(specifically the Javascript sections\) have b
 
 ## Contributing
 
-This is a gigantic undertaking so we're going to need to follow a bit of a process to make sure things run smoothly and that we don't duplicate our efforts.
-
-For the moment, we're keeping the general course outline in `ROADMAP.md` and the process of creating the lessons is going to be going through that outline and creating stubs and github issues for each of the lessons so that contributors can be assigned issues and then fill out the stubbed lessons, and/or create more lessons where appropriate.
+This is a gigantic undertaking so we're going to need to follow a bit of a process to make sure things run smoothly and that we don't duplicate our efforts. Please see [CONTRIBUTING](https://github.com/TheOdinProject/javascript_curriculum/blob/master/CONTRIBUTING.md) for more info.
 
 If you would like to contribute to this project [please contact us here.](https://gitter.im/TheOdinProject/New-JS-course).  For the moment, the project leader on this is Cody Loyd \(@codyloyd in the gitter room\) so feel free to ping him if you have any questions.
 
