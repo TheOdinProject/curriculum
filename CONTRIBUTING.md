@@ -22,6 +22,8 @@ One of the hardest parts of writing useful lessons is coming up with fun and rel
 
 If you think you have a good idea for a project for a topic please either leave a comment on that lesson's issue or write the project specifications and do a Pull Request to that Lesson's stub file.  Projects will eventually be separated into their own files \(they'll be on a separate page when they make it to the website!\) but for ease of organization and planning we're leaving them inside the Lesson file for now.
 
+We also are using this ever-growing repo of JavaScript exercises: https://github.com/TheOdinProject/javascript-exercises and could use help brainstorming more exercises that would be appropriate... Comment or create an issue on that repo if you have any bright ideas
+
 ## Lesson Authoring
 
 If you fancy yourself a good writer and want to write a lesson, please comment on an issue.  Take a little time to read through a few of our other lessons to get a feel for the format and tone we use.  Larger, longer lessons may eventually be split up into multiple parts \(i.e. multiple pages on our website\) but for now we are keeping everything consolidated into one file for ease of organization and planning.
