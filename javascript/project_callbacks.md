@@ -1,4 +1,4 @@
-### Warmup
+### Warm Up
 
 Ok, let's get some practice writing our own callback methods.
 
@@ -79,6 +79,6 @@ Refactor myMap to pass your modified array forward - into another callback!
 
 - JS Programming in the Node JS environment revolves around using callbacks.  Take a look at the [**nodeschool.io** tutorial](http://nodeschool.io/) for a nice introduction to Node, and as a side-effect : callbacks.
 
-- Bianca's [course](https://github.com/bgando/functionalJS) also contains excercises on scopes, closures and the underscore.js library. Feel free to explore them and dive into the world of Javascript!
+- Bianca's [course](https://github.com/bgando/functionalJS) also contains exercises on scopes, closures and the underscore.js library. Feel free to explore them and dive into the world of Javascript!
 
 - *Add some!*

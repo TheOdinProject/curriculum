@@ -6,7 +6,7 @@ Probably the most important way that logical thinking is required when building 
 
 If data is the most important piece of a web application, then how Rails handles data should be very interesting to you.  Luckily, this is one of the most significant reasons that Rails has performed so well compared with the options available just a few years ago.  Active Record is the interface that Rails gives you between the database and your application.  It lets you structure your data models for your users, blog posts, comments, followers, etc. in a logical and nearly plain-English way.  If it seems complicated (which it will at points), just imagine life before Active Record.
 
-Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building simple associations between them.  As usual, this explanation is meant to be a high level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
+Having a solid understanding of Active Record will make the rest of Rails seem simple by comparison.  Recall from several lessons ago that the Model in MVC is the part that does all the heavy lifting.  In this lesson, we'll cover all the basics of working with models, from setting them up to building simple associations between them.  As usual, this explanation is meant to be a high-level overview and the readings will provide real depth.  The more advanced topics will be covered in some of the coming lessons.
 
 ### Points to Ponder
 
@@ -104,7 +104,7 @@ A final note, you never want to rollback migrations unless you've screwed someth
 
 Migrations don't involve writing SQL, but you do need to understand enough about databases to know how you want yours structured!  Which columns do you want?  Which ones should be indexed (and why)? Should you set a default value?  What data type will be stored in your column... a string or text?
 
-These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [previous lesson](/web-development-101/databases).
+These are great questions, and you should feel comfortable asking them even if you aren't totally sure about the answers.  If you have no idea what I'm talking about, you'll need to go back and read up on basic databases in the [previous lesson](/courses/web-development-101/lessons/databases).
 
 #### Your Assignment
 

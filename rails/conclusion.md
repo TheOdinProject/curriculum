@@ -60,7 +60,6 @@ So there's a lot left to go but it gets better and better.  Stick with it!
 * A [listing of Rails tutorials](https://tutorials.railsapps.org/rails-tutorial) from Daniel Kehoe of RailsApps
 * A list of some slightly [longer Rails Tutorials by Jumpstart Lab](http://tutorials.jumpstartlab.com/)
 * The [University of Texas Rails Course Online](http://schneems.com/ut-rails) (incomplete/dated?)
-* [Free Online Webinars from buildingwebapps.com](http://www.buildingwebapps.com/)
 * [Rails Cheat Sheet](http://pragtob.github.io/rails-beginner-cheatsheet/index.html) by Tobias Pfeiffer
 * [Rails Best Practices list](http://rails-bestpractices.com/)
 * [Building a Simple CMS in Sinatra Tutorial](http://www.sitepoint.com/a-simple-content-management-system-in-sinatra/)

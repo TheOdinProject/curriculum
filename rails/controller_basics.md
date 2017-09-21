@@ -43,7 +43,7 @@ In this simple action, we have the controller asking the model for something ("H
 
 One way that Rails makes your life a bit easier is that it assumes things are named a certain way and then executes them behind the scenes based on those names.  For instance, your controller and its action have to be named whatever you called them in your `routes.rb` file when you mapped a specific type of HTTP request to them.
 
-The other end of the process is what the controller does when it's done.  Once rails gets to the `end` of that controller action, it grabs all the instance variables from the controller and sends them over the view file *which is named the same thing as the controller action* and which lives in a folder named after the controller, e.g. `app/views/posts/index.html.erb`.  This isn't arbitrary, this is intentional to make your life a lot easier when looking for files later. If you save your files in a different folder or heirarchy, you'll have to explicitly specify which ones you want rendered.
+The other end of the process is what the controller does when it's done.  Once rails gets to the `end` of that controller action, it grabs all the instance variables from the controller and sends them over the view file *which is named the same thing as the controller action* and which lives in a folder named after the controller, e.g. `app/views/posts/index.html.erb`.  This isn't arbitrary, this is intentional to make your life a lot easier when looking for files later. If you save your files in a different folder or hierarchy, you'll have to explicitly specify which ones you want rendered.
 
 ### Rendering and Redirecting
 

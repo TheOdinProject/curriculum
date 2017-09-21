@@ -10,7 +10,7 @@ In this lesson, we've laid out resources for learning several different framewor
 
 * What is a Javascript framework good for?
 * How do frameworks provide similar functionality to Rails' MVC architecture from the front end?
-* How do models stay up do date with your database?
+* How do models stay up to date with your database?
 * How does clicking a link to another "page" in a single-page web app actually render a different "page" without making an HTTP request to the server?
 
 ### Your Assignment

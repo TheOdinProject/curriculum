@@ -17,7 +17,7 @@ Try checking out these links for job boards.  The more technically-focused, the 
 
 * [Authentic Jobs](http://www.authenticjobs.com)
 * [StackOverflow Jobs](http://careers.stackoverflow.com)
-* [Hacker Jobs UK](http://hackerjobs.co.uk)
+* [Hacker Jobs](http://www.hackerjobs.co/)
 * [CWJobs](http://cwjobs.co.uk)
 * [Github Jobs](https://jobs.github.com/)
 * [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)

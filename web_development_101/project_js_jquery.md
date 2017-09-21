@@ -35,6 +35,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [danhofer's solution](https://github.com/danhofer/etch-a-sketchpad) | [View in browser](https://danhofer.github.io/etch-a-sketchpad/)
 * [Flipflapslap's solution](https://github.com/flipflapslap/etch-a-sketch) | [View in browser](https://flipflapslap.github.io/etch-a-sketch/)
 * [Jon Motyka's solution](https://github.com/microjrm/etch-a-sketch) | [View in browswer](https://microjrm.github.io/etch-a-sketch/)
 * [RaduMatees's solution](https://github.com/RaduMatees/Sketchpad) | [View in browser](https://radumatees.github.io/Sketchpad/)
@@ -698,5 +699,10 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Lorrie Pearson's solution](https://github.com/Lorrie01/sketch_project)| [View in browser](https://lorrie01.github.io/sketch_project/)
 * [Ben Simpson's solution](https://github.com/BenBSimpson/etch-a-sketch)| [View in browser](https://benbsimpson.github.io/etch-a-sketch/)
 * [Huy Anh's solution](https://github.com/huyanh10tin/javascript_jquery)| [View in browser](https://rawgit.com/huyanh10tin/javascript_jquery/master/index.html)
+* [Santiago ROdríguez solution](https://github.com/santoxxcc/sketchpad) | [View in browser](https://santoxxcc.github.io/sketchpad)
 * [WilPoly's solution](https://github.com/wilPoly/etch-a-sketch) | [View in browser](https://wilpoly.github.io/etch-a-sketch/)
+* [Joey Robertson's solution](https://github.com/JoeyRobertson/EtchASketch)| [View in browser](https://joeyrobertson.github.io/EtchASketch/)
+* [datagoil's solution](https://github.com/datagoil/sketchpad)| [View in browser](https://datagoil.github.io/sketchpad/)
+* [retrazil's solution](https://github.com/retrazil/sketch/)| [View in browser](https://retrazil.github.io/sketch/)
+* [cedalukic's solution](https://github.com/cedalukic/etch-a-sketch) | [View in browser](https://cedalukic.github.io/etch-a-sketch/)
 

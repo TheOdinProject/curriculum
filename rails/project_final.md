@@ -55,6 +55,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [adsy430's soluction](https://github.com/adampal/facebook-clone) | [Fakebook](https://peaceful-everglades-48148.herokuapp.com/)
 * [holdercp's solution](https://github.com/holdercp/odin-facebook) | [Live site](https://friend-space.herokuapp.com/)
 * [jfonz412's Solution](https://github.com/jfonz412/facebook-clone) | [View in browser](https://mysterious-anchorage-62529.herokuapp.com/)
 * [Sic's Solution](https://github.com/sic-f/fb) | [View in browser](https://efbook.herokuapp.com)
@@ -86,7 +87,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 * [Shala Qweghen's solution](https://github.com/ShalaQweghen/ror_book) | [View in browser](http://murmuring-escarpment-57044.herokuapp.com/)
 * [Frank V's solution](https://github.com/fv42wid/oden-facebook)
 * [Amrr Bakry's solution](https://github.com/Amrrbakry/rails_the_odin_project/tree/master/odin_facebook) | [View in browser](https://nameless-escarpment-82289.herokuapp.com/)
-* [David Chapman's solution (not styling yet)](https://github.com/davidchappy/facebook) | [View in browser](https://dac-friends-app.herokuapp.com/)
+* [David Chapman's solution (no styling)](https://github.com/davidchappy/facebook) | [View in browser](https://dac-friends-app.herokuapp.com/)
 * [Oscar Y's solution (No tests and unstyled)](https://github.com/mysteryihs/odin-facebook) | [View in browser](http://guarded-bastion-44854.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/book-of-faces) | [View in browser](https://frozen-sands-98166.herokuapp.com/)
 * [Jerry Gao's solution](https://github.com/blackwright/tracebook) | [View in browser](https://tracebook.herokuapp.com/)

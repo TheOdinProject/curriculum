@@ -2,7 +2,7 @@
 
 The router is the doorman of your application.  When an HTTP request arrives from the user's browser, it needs to know which controller action (method) should be run.  Should we display the "new user" webpage?  Should we edit an existing user with whatever data got sent along?
 
-The Router is basically just a matching service.  It looks at the HTTP verb (GET, POST, PUT, DELETE) and the URL that it being requested and matches it with the appropriate controller action to run.  It's a pretty simple function but an essential one.  If it can't find a route that matches the request, your application will throw an error.
+The Router is basically just a matching service.  It looks at the HTTP verb (GET, POST, PUT, DELETE) and the URL that is being requested and matches it with the appropriate controller action to run.  It's a pretty simple function but an essential one.  If it can't find a route that matches the request, your application will throw an error.
 
 The other handy thing that goes on when a request enters your application is that Rails grabs all the parameters that came with it and makes them available for you in a special hash called `params` that you can later use in your controller.  That's good for things like form submissions so that you later can use that form data to create or modify objects.
 

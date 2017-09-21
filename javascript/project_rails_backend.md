@@ -10,7 +10,7 @@ To start with, you'll need to choose a photo and identify where exactly each per
 
 When the user selects one of these characters, you should check with your Rails Backend to see if that character is actually within the targeting box.  Provide the user with appropriate feedback (e.g. if wrong, an error message).  If correct, place a marker on the photo in the character's location.  In either case, remove the targeting box until the user clicks again.
 
-Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score).  Once a round is complete, ask the user for his/her name and record that time.  This will get a bit tricky since you'll have annonymous users you need to keep track of!
+Keep track of how long it takes between when the photo is first loaded and when the user finally identifies all characters (do this on the server side otherwise the user could hack their score).  Once a round is complete, ask the user for his/her name and record that time.  This will get a bit tricky since you'll have anonymous users you need to keep track of!
 
 1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
 1. Think about what you'll need to do to get this all working together.  This is where it's really helpful to think it completely through on paper or whiteboard ahead of time!  A few minutes of thought can save you from wasting an hour of coding.

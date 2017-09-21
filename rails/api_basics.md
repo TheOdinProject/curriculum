@@ -1,6 +1,6 @@
 ### Introduction
 
-Working with APIs is awesome and frustrating at the same time.  On the one hand, interfacing with other applications out there can greatly improve the reach and "cool factor" of your own app.  On the other, it involves lots of reading through documentation, figuring out authentication strategies, and parsing bad (or nonexistant) error messages.
+Working with APIs is awesome and frustrating at the same time.  On the one hand, interfacing with other applications out there can greatly improve the reach and "cool factor" of your own app.  On the other, it involves lots of reading through documentation, figuring out authentication strategies, and parsing bad (or nonexistent) error messages.
 
 Backing up, if you're still unclear on what an API (Application Programming Interface) basically is, [read the Skillcrush explanation](http://skillcrush.com/2012/07/04/api-2/) and then [read the first bit of this article](http://money.howstuffworks.com/business-communications/how-to-leverage-an-api-for-conferencing1.htm) to catch up.
 
@@ -203,5 +203,5 @@ In the next lesson, we'll cover working with other people's APIs, which can add 
 * Watch [this free Railscast on making your App into an API](http://railscasts.com/episodes/348-the-rails-api-gem)
 * Watch [this free Railscast on securing your API](http://railscasts.com/episodes/352-securing-an-api)
 * Watch [this free Railscast on versioning your API](http://railscasts.com/episodes/350-rest-api-versioning)
-* [Building a public-facing API using view templates instead of `#to_json`](http://engineering.gomiso.com/2011/05/16/if-youre-using-to_json-youre-doing-it-wrong/)
+* [Building a public-facing API using view templates instead of `#to_json`](http://blog.codepath.com/2011/05/16/if-youre-using-to_json-youre-doing-it-wrong/)
 * [`to_json` or `as_json` by Jonathan Julian](http://jonathanjulian.com/2010/04/rails-to_json-or-as_json/) gives specific examples of digging into the `as_json` method.

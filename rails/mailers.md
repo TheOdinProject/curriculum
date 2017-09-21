@@ -1,6 +1,6 @@
 ### Introduction
 
-Email is underappreciated in its complexity on many levels.  I certainly didn't think about it much until I needed to actually bake it into my apps.  But what goes on behind the scenes, especially after hitting "send", is pretty impressive... lots of bouncing around the architecture of the internet, bypassing firewalls, and navigating SPAM filters.  Luckily all this can be handled by some specialty Heroku add-ons or other third parties.
+Email is under-appreciated in its complexity on many levels.  I certainly didn't think about it much until I needed to actually bake it into my apps.  But what goes on behind the scenes, especially after hitting "send", is pretty impressive... lots of bouncing around the architecture of the internet, bypassing firewalls, and navigating SPAM filters.  Luckily all this can be handled by some specialty Heroku add-ons or other third parties.
 
 The actual production of the email is what we'll cover here... i.e. how do you make that special "thanks for signing up, userX" email.  Creating and sending email is actually conceptually similar to rendering views and shipping them to the web browser, at least from your point of view as a Rails dev.  In this lesson we'll cover that process and you'll get a chance to send your own emails in the projects.
 
@@ -44,7 +44,7 @@ In the reading you'll see how to send mail using your Gmail account, but if you'
 
 [SendGrid](https://addons.heroku.com/sendgrid#1500000) is the add-on used with this website for delivering welcome emails and the like and it's pretty straightforward.  See the [documentation here](https://devcenter.heroku.com/articles/sendgrid), which includes instructions for how you should set up your `config/environment.rb` file to get ActionMailer to interface with them.  You will need to use environment variables (or the `figaro` gem) again to avoid hard coding your password and username.
 
-Pricing for this, as most things, is free up until a certain usage tier.  While you're building toy apps, it will do just fine.  Other options out there include [MailGun](https://addons.heroku.com/mailgun) and [PostMark](https://addons.heroku.com/postmark), all available in the email section of the [Heroku Addon Store](https://addons.heroku.com/#email-sms).
+Pricing for this, as most things, is free up until a certain usage tier.  While you're building toy apps, it will do just fine.  Other options are out there like [MailGun](https://addons.heroku.com/mailgun)—check out others in the email section of the [Heroku Addon Store](https://addons.heroku.com/#email-sms).
 
 You'll get a chance to play with mailers and addons in the projects.
 

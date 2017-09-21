@@ -1,6 +1,6 @@
 Coming soon...
 
-In the meantime, [fire up a Node server and try out some file I/O and a web server.](http://blog.modulus.io/absolute-beginners-guide-to-nodejs)
+In the meantime, [fire up a Node server and try out some file I/O and a web server.](https://blog.codeship.com/node-js-tutorial/)
 
 ### Additional Resources
 
