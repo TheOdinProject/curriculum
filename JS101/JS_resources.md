@@ -1,14 +1,6 @@
-JS FUNdamentals
-====
-
-Link to [JS basics lecture](https://docs.google.com/presentation/d/1MdOhzJc5S1269Y9FEwCXc4IKDKibFSW3mDMIiq_gyao/edit#slide=id.g1f487cf1ec_0_62)
-
 We assume that you know the basics of JavaScript by now, that you know what a string is, how to manipulate arrays and objects and write simple functions. As you're coding, if you feel like you're missing anything simply go back through the lessons for a refresher.  Don't fret if you find that you're forgetting things.. The more you practice the more you'll start to internalize the things that you really need the most.  Until that happens don't be afraid to look up anything you've forgotten!
 
 The following is a list of great resources that we've found for deepening your JavaScript knowledge or getting more practice where you need it.  Many of them we have referenced throughout the course, but have put here so it's easy to find them again.  If you find any more across the net please add them to the list!
-
-JS Resources
-----
 
 ### General JS
 
@@ -31,7 +23,6 @@ JS Resources
 2. [25 Free Resources for JS](https://medium.freecodecamp.com/25-free-resources-for-new-javascript-developers-11342cf1f4df#.8c29vx90p)
 3. [Must Watch JS Talks](https://github.com/AllThingsSmitty/must-watch-javascript)
 4. [Another must watch of talks](https://github.com/AllThingsSmitty/js-must-watch)
----
 
 ### Exercises  
   
