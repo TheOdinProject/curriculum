@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  after_create :send_welcome_email
+
   devise :database_authenticatable, :registerable, :recoverable,
          :rememberable, :trackable, :validatable,
          :omniauthable, :omniauth_providers => [:github, :google]

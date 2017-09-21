@@ -3,22 +3,17 @@ class UserMailer < ActionMailer::Base
 
   def send_welcome_email_to(user)
     @user = user
-    @starting_lesson = first_lesson
     attachments.inline['logo.svg'] = logo_path
 
     mail(
-          subject: 'Getting started with The Odin Project',
-          to: user.email,
-          bcc: 'erik@theodinproject.com',
-          template_name: 'welcome_email',
-        )
+      subject: 'Getting started with The Odin Project',
+      to: user.email,
+      bcc: 'erik@theodinproject.com',
+      template_name: 'welcome_email',
+    )
   end
 
   private
-
-  def first_lesson
-    Lesson.order(:position).first
-  end
 
   def logo_path
     File.read(Rails.root.join('app/assets/images/odin-logo.svg'))
