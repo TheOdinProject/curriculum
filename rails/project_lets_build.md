@@ -67,6 +67,7 @@ You may find yourself using Rest Client down the road if you need to communicate
 * [Sophia Wu's solution](https://github.com/SophiaLWu/RestClient)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-rest-client)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/rest_client)
+* [Anistor86's solution](https://github.com/anistor86/RESTClient)
 
 
 ### Project: Ruby on Rails Tutorial
