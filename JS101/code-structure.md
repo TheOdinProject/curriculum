@@ -1,9 +1,8 @@
-The way you structure, organize and lay out your code can make a big difference.  Code that is hard to read, or hard to follow is also hard to work on and maintain. If you're working with other people, the importance of clean readable code is even _more_ important.
+# Writing Readable Code
+Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain or develop your code, please learn to write readable code. 
 
 Consider the following 2 snippets of JavaScript:
-
-An ugly one:
-
+an ugly one:
 ```javascript
 const x = 
 function(z) {
@@ -17,7 +16,6 @@ x([2, 2, 2]);
 ```
 
 and a nicer one:
-
 ```javascript
 const sumArray = function(array) {
   let sum = 0;
@@ -34,19 +32,36 @@ Believe it or not, both of those functions do the exact same thing \(in the exac
 
 The second one, however, is much easier to follow.  Even if you don't know exactly what everything in the code is doing, things are named clearly enough that you could guess, and the indentation is consistent enough that it's easy to parse the different parts of the function.
 
-## Clean Code
-
 There are many different opinions on what constitutes great JavaScript code.  The most important thing is just that you're consistent.  The war between coders that use tabs and coders that use spaces to indent their code is so engrained that [it's essentially a joke by now](https://www.youtube.com/watch?v=SsoOG6ZeyUI), but it doesn't _really_ matter as long as you're consistent.
 
-One of the more important aspects of writing nice legible code is the way you name things.  Selecting names that accurately describe what the code is doing can go a long way to making your code readable.. in fact, one of the main differences between the two functions above is the presence of logical names over single character names for the various variables.
+ ### Rules of Thumb
+ Structural:
+ * Place all the 'workings' of your app in one place.  This means function calls, important variable assignments (or reassignment), and any other lines crucial to understanding your code.   With good naming, this can make your app read like a continuous story instead of a bunch of sentences split up through a phone book. (see example) 
+ * Functions should only do ONE thing! Functions should rarely get to more than 10 lines.. and most functions should easily fit in 5-6 lines.  If your functions are regularly stretching longer than that then you should consider trying to break them down a bit.
+ * Within a single file - organize variables, functions, objects, ... in a way that makes sense so you don't have to rescan the whole file all the time.
 
-A lot of this stuff you will pick up on as you go and see more and more code... but it's good to be aware of some of the bigger issues up front.
+ Naming:
+ * All names of things describe what they do, even if it means having really long names.
+  - `validateCreditCardNumber()` is _much_ easier to understand than `validateNumber()` or worse `validate()`
+  - this is infinitely easier if your functions actually only do one thing.
+ * Write helpful error messages
+ * Decide on and stick to a naming convention. ie. camelCase or under_scores, var forty_two = 42, ...
+ 
+ Syntax:
+ * Use [prettier.js](https://github.com/prettier/prettier) to make your coding style consistent. (white space, code blocks, functions, ... visually consistent). There are plugins for it in most major code editors.
+* Phrase things in the most clear way, not the most 'elegant' or short way.  No one will care how brilliant you are when they're 15 minutes in and just starting to understand your code.
 
-## Your Assignment
+# Your Assignment
 
 Read through these articles that discuss a few elements of writing good clean code.
 
 1. [This article about self-documenting JavaScript](https://www.sitepoint.com/self-documenting-javascript/). \(It's not as crazy as it sounds\)  
-2. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).  
+2. [This list of clean-code tips](https://onextrapixel.com/10-principles-for-keeping-your-programming-code-clean/).
+2. [Functions should do ONE thing.](https://sites.google.com/site/unclebobconsultingllc/one-thing-extract-till-you-drop)
 3. [This article](https://blog.codinghorror.com/coding-without-comments/), [and this one too](https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/) about the role of comments in your code.
 
+## Additional Resources
+* [a nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
+* THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
+* [Airbnb style guide](https://github.com/airbnb/javascript)  
+* [chaining methods to write sentences](http://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
