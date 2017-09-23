@@ -167,8 +167,9 @@ SQL is built to be fast.  It has a special query optimizer which takes a look at
 ### Your Assignment
 
 1. If you haven't already done so, be sure to do the [Databases lesson in the Web Development 101 course](/courses/web-development-101/lessons/databases).
-1. Read this [simple SQL tutorial](http://www.sqlcourse.com/index.html) for the basics.
-2. If you didn't follow the link in the previous tutorial, learn about the advanced SELECT stuff like aggregate functions and `GROUP BY` by reading the [second part of that tutorial here](http://www.sqlcourse2.com/index.html).
+2. Go through this interactive SQL tutorial from [SQL Teaching](https://www.sqlteaching.com/)
+3. Go through this more in-depth interactive SQL tutorial from [SQL Bolt](http://sqlbolt.com)
+4. Go through the basics at [Part 1](http://www.sqlcourse.com/index.html) and the advanced at [Part 2](http://www.sqlcourse2.com/index.html) of SQL Course
 
 ### Conclusion
 
@@ -186,7 +187,4 @@ The next step, once you've had a chance to practice this all in the project, is 
 * Odinite Hunter D made his excellent notes into a [Github Book on SQL](http://hgducharme.gitbooks.io/sql-basics/content/) which you should totally check out if you want a decent resource.
 * Read [Zed Shaw's Learning SQL The Hard Way](http://sql.learncodethehardway.org/book/).  It is imperfect and also incomplete but should help solidify things for you.  It'll have you doing a fair bit of work from the command line, so you'll get a chance to catch up on your Bash scripting as well.  Double whammy!
 * [SQL "tutorial" from tutorialspoint](http://www.tutorialspoint.com/sql/index.htm)... doesn't really give much guidance, but can be a useful reference for the language.
-* See ["A visual explanation of sql joins"](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins) by Jeff Atwood for good visuals.
-* See [this table-based visualization of SQL queries created by A.Z. (an Odin student)](https://www.icloud.com/iw/#numbers/BAJb20dRq9fmGvZz0vqBMzmeQzcJWv2uzXGF/sql)
-* Another interactive sql tutorial from [SQL bolt](http://sqlbolt.com)
 * [A beginners guide to SQL](http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/) by Soham Kamani.
