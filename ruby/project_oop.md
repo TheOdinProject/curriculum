@@ -17,6 +17,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [rublen's solution](https://github.com/rublen/Tic_Tac_Toe) | [repl.it version](https://repl.it/K8dH/12)
 * [Omar Moataz's solution](https://github.com/omarmoatazpracticehub/TicTacToe)
 * [endotnick's solution](https://github.com/endotnick/tic_tac_toe)
 * [Jason McKee's Solution (with AI)](https://github.com/jttmckee/odin-project-ruby/tree/master/tic_tac_toe)
@@ -215,6 +216,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [rublen's solution (battle Human-Computer)](https://github.com/rublen/Master_Mind) | [repl.it version](https://repl.it/Krac/23)
 * [Ben Deltenre's solution](https://github.com/benjdelt/mastermind) | [Live Version](https://repl.it/JowG/29)
 * [Andrew Rozhenko's solution (with R2D2 for an opponent)](https://github.com/andrewr224/Mastermind)
 * [Jonathan Yiv's Solution (with 20% Win-Rate AI)](https://github.com/JonathanYiv/mastermind)
