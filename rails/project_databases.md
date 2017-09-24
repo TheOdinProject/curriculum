@@ -13,6 +13,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 *If you've been keeping track of the SQL Zoo solutions, put them here! Some that we found online are provided in the "Additional Resources" section below but are incomplete.  Submit a link to your solutions below by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.*
 
 * Add your solution below this line!
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/sqlzoo)
 * [Clayton Sweeten's solution](https://github.com/cjsweeten101/sql_zoo)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/sql-zoo)
 * [mindovermiles262's Solutions](https://github.com/mindovermiles262/SQLZoo)
@@ -48,6 +49,7 @@ SQL Zoo is one of the few resources online that actually lets you build and run 
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
-* [SQL Zoo solutions](https://djamler.wordpress.com/category/databases/sqlzoo/) for 4-9: "Select within select", "Joins", "More Joins", "Null", "Sum and Count", and "Self Join"
 * [Explanation of SELF JOIN by Caleb Curry](https://www.youtube.com/watch?v=W0p8KP0o8g4). He covers many other topics on his [Database Design](https://www.youtube.com/watch?v=e7Pr1VgPK4w&list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID) series.
-* A [reddit thread](http://www.reddit.com/r/learnprogramming/comments/1a58sb/looking_for_good_resources_to_learn_sql/) with a variety of references to tutorials and resources begging to be explored!
+* [Khan Academy's SQL Course](https://www.khanacademy.org/computing/computer-programming/sql)
+* [OverAPI's SQL Cheat Sheet](http://overapi.com/mysql)
+* [GalaxQL](http://sol.gfxile.net/galaxql.html), an interactive space-themed SQL tutorial.
