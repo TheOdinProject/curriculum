@@ -46,6 +46,7 @@ Add your solution below this line!
 * [Anistor86 & Isashimitsui's Solution](https://github.com/anistor86/pomodoroclock) | [View in Browser](https://anistor86.github.io/pomodoroclock/)
 * [coryparham24's Solution](https://github.com/coryparham24/pomodoro-clock) | [View in Browser](https://cdn.rawgit.com/coryparham24/pomodoro-clock/7b1e6a88/index.html)
 * [Oliver Curting's Solution](https://github.com/Curting/pomodoro) | [View in Browser](https://curting.github.io/pomodoro/)
+* [Santiago Rodríguez Solution](https://github.com/santoxxcc/psychic-pancake) | [View in Browser](https://santoxxcc.github.io/psychic-pancake)
 
 ### Next Steps
 
