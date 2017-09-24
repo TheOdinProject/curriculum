@@ -24,6 +24,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Raiko's solution [Github](https://github.com/Cypher0/caesar) | [Live](https://rocky-waters-74257.herokuapp.com/)
 * theghall's solution [Github](https://github.com/theghall/sinatra-caesar) | [Live](https://arcane-temple-35414.herokuapp.com/)
 * Kasey Z's solution [GitHub](https://github.com/kasey-z/caesar_cipher_reloaded) | [Live](https://hidden-wildwood-20236.herokuapp.com/)
 * Jonathan Yiv's solution [GitHub](https://github.com/JonathanYiv/caesar_cipher) | [Live](https://lit-woodland-76112.herokuapp.com/)
@@ -91,6 +92,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Raiko's solution (Mastermind) [Github](https://github.com/Cypher0/mastermind) | [Live](https://damp-brook-36728.herokuapp.com/)
 * theghall's solution (Mastermind) [Github](https://github.com/theghall/sinatra-mastermind) | [Live](https://safe-eyrie-38662.herokuapp.com/)
 * Kasey Z's solution (Mastermind) [Source Code](https://github.com/kasey-z/mastermind_reloaded) | [Live](https://frozen-falls-49194.herokuapp.com//)
 * Jonathan Yiv's solution (Hangman) [Source Code](https://github.com/JonathanYiv/hangman) | [Live](https://infinite-river-55923.herokuapp.com/)
