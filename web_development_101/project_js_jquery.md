@@ -35,6 +35,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [dgwn's solution](https://github.com/dgwn/etch-sketch) | [View in browser](https://dgwn.github.io/etch-sketch/)
 * [danhofer's solution](https://github.com/danhofer/etch-a-sketchpad) | [View in browser](https://danhofer.github.io/etch-a-sketchpad/)
 * [Flipflapslap's solution](https://github.com/flipflapslap/etch-a-sketch) | [View in browser](https://flipflapslap.github.io/etch-a-sketch/)
 * [Jon Motyka's solution](https://github.com/microjrm/etch-a-sketch) | [View in browswer](https://microjrm.github.io/etch-a-sketch/)
@@ -706,4 +707,3 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [retrazil's solution](https://github.com/retrazil/sketch/)| [View in browser](https://retrazil.github.io/sketch/)
 * [cedalukic's solution](https://github.com/cedalukic/etch-a-sketch) | [View in browser](https://cedalukic.github.io/etch-a-sketch/)
 * [Jordan's solution](https://github.com/jl-code1721/etch-a-sketch) | [View in browser](https://rawgit.com/jl-code1721/etch-a-sketch/master/index.html)
-
