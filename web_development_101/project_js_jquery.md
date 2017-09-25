@@ -707,3 +707,4 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [retrazil's solution](https://github.com/retrazil/sketch/)| [View in browser](https://retrazil.github.io/sketch/)
 * [cedalukic's solution](https://github.com/cedalukic/etch-a-sketch) | [View in browser](https://cedalukic.github.io/etch-a-sketch/)
 * [Jordan's solution](https://github.com/jl-code1721/etch-a-sketch) | [View in browser](https://rawgit.com/jl-code1721/etch-a-sketch/master/index.html)
+* [Letícia's solution](https://github.com/letnrodrigues/etch-a-sketch) | [View in browser](https://letnrodrigues.github.io/etch-a-sketch/)
