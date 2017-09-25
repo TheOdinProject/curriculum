@@ -529,7 +529,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * [Taras's Solutions (updating)](https://github.com/Staryj812/projectEuler) | [View in Browser](https://staryj812.github.io/projectEuler/)
 * [cedalukic's Solution](https://github.com/cedalukic/euler-project) | [View in Browser](https://cedalukic.github.io/euler-project)
 * [Nate W's Solution](https://github.com/obsessivenerds/Javascript_Project_Euler)
-
+* [Steve Yankson's Solution](https://github.com/samoaning/proj_euler_01)
 
 ### Additional Resources
 
