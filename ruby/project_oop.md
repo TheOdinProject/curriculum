@@ -190,7 +190,7 @@ Build a tic-tac-toe game on the command line where two human players can play ag
 * [Roland Studer's solution (with slow learning AI)](https://github.com/RolandStuder/odin_project_solutions/tree/master/oop/tic-tac-toe)
 * [Iceron's solution](https://github.com/iceron/TOP/blob/master/Ruby/oop/tic_tac_toe/tic_tac_toe.rb)
 * [Anistor86's solution](https://github.com/anistor86/tic_tac_toe)
-
+* [HuyAnh's solution](https://github.com/huyanh10tin/tictactoe)
 ### Project 2: Mastermind
 
 If you've never played Mastermind, a game where you have to guess your opponent's secret code within a certain number of turns (like hangman with colored pegs), check it out on <a href="http://en.wikipedia.org/wiki/Mastermind_(board_game)">Wikipedia</a>.  Each turn you get some feedback about how good your guess was -- whether it was exactly correct or just the correct color but in the wrong space.
@@ -355,6 +355,8 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Roland Studer's solution (with AI)](https://github.com/RolandStuder/odin_project_solutions/tree/master/oop/mastermind)
 * [Iceron's solution (with AI)](https://github.com/iceron/TOP/blob/master/Ruby/oop/mastermind/mastermind.rb)
 * [HuyAnh's solution (no AI)](https://github.com/huyanh10tin/mastermind)
+
+
 
 ### Additional Resources
 
