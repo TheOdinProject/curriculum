@@ -20,6 +20,13 @@ RSpec.describe CourseDecorator do
     end
   end
 
+  describe '#borderless_badge' do
+    it 'returns the correct borderless badge for the course' do
+      expect(course_decorator.borderless_badge).
+        to eql('badges/badge-webdev-101-borderless.svg')
+    end
+  end
+
   describe '#sections' do
     let(:decorated_section) { double('SectionDecorator') }
     let(:decorated_sections) { [decorated_section] }
