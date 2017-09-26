@@ -161,6 +161,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Jmooree30's solution](https://github.com/jmooree30/Knights_Travels.git)
 * [Andrew's solution](https://github.com/andrewr224/Knight-s-Travails)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/knights_travails)
 * [justinckim3's solution](https://github.com/justinckim3/knights_travails/blob/master/knights_travails.rb)
