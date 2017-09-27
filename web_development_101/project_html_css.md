@@ -1225,6 +1225,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Joe Himes's solution (Easy)](https://github.com/deedle42/google-homepage) 
 * [Steve Yankson's solution (Easy)](https://github.com/samoaning/google_homepage_mimic) | [View in Browser](https://samoaning.github.io/google_homepage_mimic/)
 * [Maxim Borodin's Solution (Easy & Difficult)](https://github.com/ToSPP/google-homepage) | [View in Browser (Easy)](https://ToSPP.github.io/google-homepage/) | [View in Browser (Difficult)](https://ToSPP.github.io/google-homepage/search-result.html)
+* [Matthew Booth's Solution (Easy)](https://github.com/MJBooth1989/google-homepage) | [View in Browser (Easy)](https://MJBooth1989.github.io/google-homepage/) 
 
 ### Additional Resources
 
