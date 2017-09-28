@@ -20,11 +20,11 @@ These skills will be helpful for you when you start building.  Either try them y
 
 As mentioned in the [introduction to git](/web-development-101/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to setup a respository, follow the instructions found in [Project: Git Basics](/web-development-101/practicing-git-basics) to learn how.
+If you do not know how to setup a repository, follow the instructions found in [Project: Git Basics](/web-development-101/practicing-git-basics) to learn how.
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
-3. Then move that repository on to your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
+3. Then move that repository onto your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to revise what you have learned.)
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)`
 
@@ -47,7 +47,7 @@ Okay, that's enough Git for the moment -- time to actually build stuff!
 Inside your project folder, create your index.html file
 
   1. Tips:
-      * DONT BE A PERFECTIONIST!  You're just trying to make it *look* like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel.  Any dropdown menus or form submissions or hover-highlighting should be ignored.
+      * DON'T BE A PERFECTIONIST!  You're just trying to make it *look* like google.com, not actually function like it and it doesn't have to be spaced exactly the same way to the pixel.  Any dropdown menus or form submissions or hover-highlighting should be ignored.
       * USE GOOGLE! You'll probably run into roadblocks where you can't figure out how to do something so do what all good devs do... Google it!
       * If you're frustrated with trying to get buttons or inputs to style the way you want (for instance, they seem to just not respond to any styles), look into the css property `-webkit-appearance: none;` or `-moz-appearance` if you're using Firefox.
   2. Start with just putting the main elements on the page (the logo image and search form), then get them placed horizontally.  You can either download the Google logo or link directly to its URL on the web in your `<img>` tag.

@@ -36,19 +36,19 @@ The programmers who created Rails had a preference for unix based operating syst
 We at Odin don't have anything against Windows, we simply want you to succeed at your goal of learning to program. We don't want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using linux or a Mac for this curriculum.
 
 ### <a id="intalling-linux"></a>Installing Linux
-The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use linux on your machine along side Windows, so you can choose the one that suits your situation best.
+The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use linux on your machine alongside Windows, so you can choose the one that suits your situation best.
 
-There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We wont go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
+There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We won't go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
 ##### Option 1 - Use a Virtual Machine
 This is the safest and simplest option for a complete beginner, or a person that _needs_ to use Windows on a regular basis for other reasons (work, school etc.)
 
-A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to set up this option.
+A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to setup this option.
 
 **Pros**
 
 * You can easily access Windows and Linux, with the extra benefit of being able to switch between the two instantly.
-* There is no risk of harming your current windows set-up.
+* There is no risk of harming your current windows setup.
 * You are actually using a real linux setup within the virtual machine.
 
 **Cons**
@@ -56,7 +56,7 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 * Performance with Ubuntu won't be as sharp as a dual booting.
 
 #### Option 2 - Dual Booting
-You can install Ubuntu along side Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
+You can install Ubuntu alongside Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
 
