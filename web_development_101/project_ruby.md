@@ -350,6 +350,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Tshepo Mohlamonyane's Solution](https://https://github.com/blavkboy/learn_ruby)
 * [Joey Robertson's Solution](https://github.com/JoeyRobertson/learn_ruby)
 * [Santiago ROdríguez Solution](https://github.com/santoxxcc/learn_ruby)
+* [WilPoly's solution](https://github.com/wilPoly/learn_ruby)
 
 ### Additional Resources
 
