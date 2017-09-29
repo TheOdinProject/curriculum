@@ -1,5 +1,5 @@
 .card-main {
-  @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
+  @include box-shadow(0 5px 16px 0 $very-pale-grey);
   background-color: $white;
   margin-bottom: 40px;
   padding: 40px 60px;

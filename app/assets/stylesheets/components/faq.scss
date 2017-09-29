@@ -7,7 +7,7 @@
 
   .faq-card {
     margin-bottom: 1em;
-    @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.1));
+    @include box-shadow(0 2px 4px 0 $very-pale-grey);
     border: 0;
 
     .faq-card-header {

@@ -3,7 +3,7 @@
   align-items: center;
   padding-bottom: 1.875rem;
   margin-bottom: 1.875rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid $very-pale-grey;
   color: $grey;
 
   @include media-breakpoint-down(md) {

@@ -1,5 +1,5 @@
 .course-badge {
-  @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
+  @include box-shadow(0 5px 16px 0 $very-pale-grey);
   @include border-radius(50%);
   display: inline-block;
 

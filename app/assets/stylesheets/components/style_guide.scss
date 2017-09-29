@@ -8,7 +8,7 @@
 }
 
 .color-box {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 $very-pale-grey, 0 6px 20px 0 $very-pale-grey;
   border-radius: 10px;
   overflow: hidden;
 }

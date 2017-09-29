@@ -116,7 +116,7 @@
     .menu-options {
       border:0;
       padding: 8px;
-      @include box-shadow(0 5px 16px 0 rgba(0, 0, 0, 0.1));
+      @include box-shadow(0 5px 16px 0 $very-pale-grey);
       margin: -30px 0 0 -65px;
     }
     //box triangle css
