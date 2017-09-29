@@ -29,7 +29,7 @@ $back-color: #dddddd;
 
     &:hover {
       .progress-circle__image {
-        display: inline-block;
+        display: none;
       }
     }
   }
@@ -38,7 +38,6 @@ $back-color: #dddddd;
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
-    display: none;
   }
 
   &__content {
@@ -54,18 +53,6 @@ $back-color: #dddddd;
     display: inline-block;
     height: 100%;
     width: 100%;
-  }
-
-  &--completed {
-    .progress-circle__image {
-      display: inline-block;
-    }
-
-    &:hover {
-      .progress-circle__image {
-        display: none;
-      }
-    }
   }
 }
 
