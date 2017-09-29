@@ -4,7 +4,6 @@ class LessonsController < ApplicationController
   def show
     @lesson = decorated_lesson
     set_project_and_submissions if @lesson.has_submission?
-    set_ads
   end
 
   private
@@ -13,16 +12,6 @@ class LessonsController < ApplicationController
     if user_signed_in?
       @user = User.includes(:completed_lessons).find(current_user.id)
     end
-  end
-
-  def set_ads
-    return unless show_ads?
-    @lower_banner_ad = true
-    @right_box_ad = true
-  end
-
-  def show_ads?
-    ENV['SHOW_ADS'] && Ad.show_ads?
   end
 
   def set_project_and_submissions

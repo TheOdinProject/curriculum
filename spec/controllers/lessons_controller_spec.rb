@@ -22,8 +22,6 @@ RSpec.describe LessonsController do
 
     allow(lesson).to receive(:friendly).and_return(lesson)
     allow(lesson).to receive(:find).with(params[:id]).and_return(lesson)
-    allow(ENV).to receive(:[]).with('SHOW_ADS').and_return(true)
-    allow(Ad).to receive(:show_ads?).and_return(true)
   end
 
   describe 'GET show' do
@@ -35,16 +33,6 @@ RSpec.describe LessonsController do
     it 'assigns @lesson' do
       get :show, params: params
       expect(assigns(:lesson)).to eql(lesson)
-    end
-
-    it 'assigns @lower_banner_ad' do
-      get :show, params: params
-      expect(assigns(:lower_banner_ad)).to eql(true)
-    end
-
-    it 'assigns @right_box_ad' do
-      get :show, params: params
-      expect(assigns(:right_box_ad)).to eql(true)
     end
 
     context 'when lesson cannot be found' do
@@ -64,60 +52,6 @@ RSpec.describe LessonsController do
 
       it 'renders the 404 page' do
         expect(response).to render_template(file: "#{Rails.root}/public/404.html")
-      end
-    end
-
-    context 'when show_ads? is false' do
-      let(:env_show_ads) { false }
-      let(:show_ad) { false }
-
-      before do
-        allow(ENV).to receive(:[]).with('SHOW_ADS').and_return(env_show_ads)
-        allow(Ad).to receive(:show_ads?).and_return(show_ad)
-      end
-
-      context 'when show ads environment variable is false' do
-        context 'and show ads to current user is true' do
-          let(:show_ad) { true }
-
-          it 'does not assign @lower_banner_ad' do
-            get :show, params: params
-            expect(assigns(:lower_banner_ad)).to be_nil
-          end
-
-          it 'does not assign @right_box_ad' do
-            get :show, params: params
-            expect(assigns(:right_box_ad)).to be_nil
-          end
-        end
-
-        context 'and show ads to current user is false' do
-          it 'does not assign @lower_banner_ad' do
-            get :show, params: params
-            expect(assigns(:lower_banner_ad)).to be_nil
-          end
-
-          it 'does not assign @right_box_ad' do
-            get :show, params: params
-            expect(assigns(:right_box_ad)).to be_nil
-          end
-        end
-      end
-
-      context 'when show ads environment variable is true' do
-        let(:env_show_ads) { true }
-
-        context 'and show ads to current user is false' do
-          it 'does not assign @lower_banner_ad' do
-            get :show, params: params
-            expect(assigns(:lower_banner_ad)).to be_nil
-          end
-
-          it 'does not assign @right_box_ad' do
-            get :show, params: params
-            expect(assigns(:right_box_ad)).to be_nil
-          end
-        end
       end
     end
   end
