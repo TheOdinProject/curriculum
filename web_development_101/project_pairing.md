@@ -1,4 +1,4 @@
-Now you know what pair programming is and how to set up your computer for it. Hopefully you've found yourself somone to pair with because we are about to build something that will be much easier with two heads.
+Now you know what pair programming is and how to set up your computer for it. Hopefully you've found yourself someone to pair with because we are about to build something that will be much easier with two heads.
 
 *If you are unable to find someone to pair with, or don't wish to pair program, don't worry. Just make sure you are comfortable with the concepts in the last two lessons, mark this complete, and go on to the next section.*
 
@@ -14,7 +14,7 @@ Some things to keep in mind for when you start building:
 2. Remember those documentation pages we had you bookmark in the [Introduction to the Front End](http://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-the-front-end) lesson? Feel free to reference them for reminders as well as ideas.
 3. Take advantage of the fact that you are pairing: pick each other's brains! Maybe the Navigator can look something up while the Driver is typing? Work together to solve the problem!
 
-Enough talk! Lets build!
+Enough talk! Let's build!
 
 ### Student Solutions
 
