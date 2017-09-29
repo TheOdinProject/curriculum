@@ -6,7 +6,7 @@
     border-bottom: 2px solid $very-pale-grey;
     align-items: center;
     line-height: 1.5;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-align: left;
 
     @include media-breakpoint-down(md) {
@@ -45,7 +45,7 @@
     align-items: center;
 
     @include media-breakpoint-down(md) {
-      padding-bottom: 30px;
+      padding-bottom: 20px;
     }
 
     @include media-breakpoint-down(sm) {
