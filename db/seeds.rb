@@ -168,17 +168,6 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
-  title: "Terms to Know",
-  title_url: "Terms to Know".parameterize,
-  description: "A brief look at the terms you'll need to understand going forward",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/terms_to_know.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
   title: "Installations",
   title_url: "Installations".parameterize,
   description: "There are some things you'll need to install before you start getting your hands dirty",
@@ -273,7 +262,7 @@ lesson_counter += 1
 create_or_update_lesson(
   title: "Developer Tools",
   title_url: "Developer Tools".parameterize,
-  description: "Learn all about your browsers developer tools.",
+  description: "Learn all about your browser's developer tools.",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
@@ -476,57 +465,11 @@ lesson_counter += 1
 create_or_update_lesson(
   title: "Pairing Project",
   title_url: "Pairing Project".parameterize,
-  description: "Now that you know how to pair and have found someone to work with, lets do a project together.",
+  description: "Now that you know how to pair and have found someone to work with, let's do a project together.",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
   url: "/web_development_101/project_pairing.md"
-)
-
-# +++++++++++
-# SECTION
-# +++++++++++
-
-section_position += 1
-section = create_or_update_section(
-  title: "Additional Important Topics",
-  title_url: "Additional Important Topics".parameterize,
-  course_id: course.id,
-  position: section_position,
-  description: "This section has a bunch of short lessons that will introduce you to a variety of essential supporting technologies for your journey into web development."
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "The Cloud, Hosting, and Software as a Service (SAAS)",
-  title_url: "The Cloud, Hosting, and Software as a Service (SAAS)".parameterize,
-  description: "It's time to bust through some of the buzzwords you've heard and see how they actually apply to you.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/the_cloud_hosting_and_saas.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Security, SSL, and Best Practices",
-  title_url: "Security, SSL, and Best Practices".parameterize,
-  description: "A brief introduction to security concepts and best practices.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/security_ssl_and_best_practices.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "FTP Basics",
-  title_url: "FTP Basics".parameterize,
-  description: "A very brief look at the File Transfer Protocol which is often used to upload files to your webserver.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/ftp_basics.md"
 )
 
 # +++++++++++
@@ -540,28 +483,6 @@ section = create_or_update_section(
   course_id: course.id,
   position: section_position,
   description: "Now that you've had a healthy taste of all the major components in a web application, we'll take a step back and remember where they all fit into the bigger picture."
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "How are Websites Built in the Real World?",
-  title_url: "How are Websites Built in the Real World?".parameterize,
-  description: "A look at the macro level workflow from the client to the developer and then a closer look at what exactly the developer does.",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/how_are_websites_built.md"
-)
-
-lesson_counter += 1
-create_or_update_lesson(
-  title: "Principles of Good Programming",
-  title_url: "Principles of Good Programming".parameterize,
-  description: "A look at some of the guiding principles of being a good programmer.  Basically: Be lazy",
-  position: lesson_counter,
-  section_id: section.id,
-  is_project: false,
-  url: "/web_development_101/principles_of_good_programming.md"
 )
 
 lesson_counter += 1
