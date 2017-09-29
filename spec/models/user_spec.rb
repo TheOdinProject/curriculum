@@ -50,8 +50,8 @@ RSpec.describe User do
   end
 
   it { is_expected.to validate_uniqueness_of(:username) }
-
   it { is_expected.to validate_length_of(:username) }
+  it { is_expected.to validate_length_of(:learning_goal) }
   it { is_expected.to have_many(:lesson_completions) }
   it { is_expected.to have_many(:completed_lessons) }
 
