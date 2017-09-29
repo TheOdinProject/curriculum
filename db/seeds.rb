@@ -374,7 +374,7 @@ lesson_counter += 1
 create_or_update_lesson(
   title: "Developer Tools",
   title_url: "Developer Tools".parameterize,
-  description: "Learn all about your browsers developer tools.",
+  description: "Learn all about your browser's developer tools.",
   position: lesson_counter,
   section_id: section.id,
   is_project: false,
@@ -577,7 +577,7 @@ lesson_counter += 1
 create_or_update_lesson(
   title: "Pairing Project",
   title_url: "Pairing Project".parameterize,
-  description: "Now that you know how to pair and have found someone to work with, lets do a project together.",
+  description: "Now that you know how to pair and have found someone to work with, let's do a project together.",
   position: lesson_counter,
   section_id: section.id,
   is_project: true,
