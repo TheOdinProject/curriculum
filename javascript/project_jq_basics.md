@@ -52,6 +52,7 @@ Now that you've gotten your hands dirty and learned some real jQuery, it's time 
 * [Pat's solution](https://github.com/Pat878/Restaurant) | [View in Browser](https://pat878.github.io/Restaurant/)
 * [smilesr's solution](https://github.com/smilesr/op-jj-bb-35-restaurant-jquery) | [View in Browser](https://htmlpreview.github.io/?https://github.com/smilesr/op-jj-bb-35-restaurant-jquery/blob/master/index.html)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Diner/) | [View in Browser](https://ncud4bloc.github.io/Diner/HTML/index.html)
+* [Alan Cruse's solution](https://github.com/ADECruse/restaurant_homepage)
 
 
 ### Additional Resources
