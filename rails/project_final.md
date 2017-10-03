@@ -55,6 +55,7 @@ Keep the following requirements in mind.  We'll cover specific steps to get star
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [leosoaivan's solution](https://github.com/leosoaivan/TOP_ror_odinfb) | [View in browser](https://git.heroku.com/obscure-springs-25850.git)
 * [adsy430's soluction](https://github.com/adampal/facebook-clone) | [Fakebook](https://peaceful-everglades-48148.herokuapp.com/)
 * [holdercp's solution](https://github.com/holdercp/odin-facebook) | [Live site](https://friend-space.herokuapp.com/)
 * [jfonz412's Solution](https://github.com/jfonz412/facebook-clone) | [View in browser](https://mysterious-anchorage-62529.herokuapp.com/)
