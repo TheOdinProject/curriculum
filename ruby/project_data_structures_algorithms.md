@@ -253,6 +253,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Basic-Data-Structures-and-Algorithms/blob/master/knight.rb)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-knights-travails)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
+* [Jonathan Marks' solution](https://github.com/johnjmarks4/knights_travails)
 
 
 ### Additional Resources
