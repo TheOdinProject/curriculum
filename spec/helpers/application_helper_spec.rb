@@ -121,8 +121,7 @@ RSpec.describe ApplicationHelper do
     end
   end
 
-  describe '#course_started_by_user' do
-
+  describe '#course_completed_by_user?' do
     let(:course) { double('Course') }
     let(:user) { double('User') }
 
@@ -131,7 +130,7 @@ RSpec.describe ApplicationHelper do
         with(course, user).and_return(true)
     end
 
-    it 'returns 50' do
+    it 'returns true' do
       expect(helper.course_completed_by_user?(course, user)).to eql(true)
     end
   end
@@ -151,9 +150,34 @@ RSpec.describe ApplicationHelper do
         with(course, lesson_completions).and_return(next_lesson)
     end
 
-    it 'returns 50' do
+    it 'returns the next lesson the user has to complete' do
       expect(helper.next_lesson_to_complete(course, lesson_completions)).
         to eql(lesson_to_complete)
+    end
+  end
+
+  describe '#modifier_for_badge' do
+    subject(:modifier_for_badge) { helper.modifier_for_badge(course, user) }
+
+    let(:course) { double('Course') }
+    let(:user) { double('User') }
+    let(:course_completed) { true }
+
+    before do
+      allow(CourseProgress).to receive(:course_completed?).
+        with(course, user).and_return(course_completed)
+    end
+
+    it 'returns the course completed modifier for the course badge' do
+      expect(modifier_for_badge).to eql('progress-circle--completed')
+    end
+
+    context 'when the user has not completed the course' do
+      let(:course_completed) { false }
+
+      it 'returns the course show progress modifier for the course badge' do
+        expect(modifier_for_badge).to eql('progress-circle--show-progress')
+      end
     end
   end
 end

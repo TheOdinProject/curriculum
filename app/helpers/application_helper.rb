@@ -200,6 +200,14 @@ module ApplicationHelper
     NextLesson.new(course, lesson_completions).lesson_to_complete
   end
 
+  def modifier_for_badge(course, user)
+    if course_completed_by_user?(course, user)
+      'progress-circle--completed'
+    else
+      'progress-circle--show-progress'
+    end
+  end
+
   private
 
   def custom_flash(flash_type)

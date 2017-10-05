@@ -11,7 +11,7 @@
 
         <%= link_to course, class: 'course-card-header__link' do %>
           <div class='course-card-header__image'>
-            <%= render 'shared/course_badge', course: course, user: @user %>
+            <%= render 'shared/course_badge', course: course, user: @user, modifier: '' %>
           </div>
         <% end %>
 

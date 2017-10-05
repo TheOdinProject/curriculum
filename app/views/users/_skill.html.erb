@@ -1,6 +1,6 @@
 <div class="skill">
   <div class='skill__image'>
-    <%= render 'shared/course_badge', course: course, user: @user %>
+    <%= render 'shared/course_badge', course: course, user: @user, modifier: modifier_for_badge(course, @user) %>
   </div>
 
   <div class="skill__details">

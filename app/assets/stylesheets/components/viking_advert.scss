@@ -58,6 +58,7 @@
     margin-right: 20px;
 
     @include media-breakpoint-down(sm) {
+      margin-right: 0;
       margin-bottom: 10px;
     }
   }
