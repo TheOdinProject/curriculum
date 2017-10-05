@@ -13,6 +13,9 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * What is a string? An array? A boolean?
 * What are events?
 
+### Announcement:
+We are in the process of completely revamping and rewriting our JavaScript content... and the material that would replace the lessons found here in the WebDev101 course is pretty much completed.  Right now we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
+
 ### Assignment:
 1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/introduction-to-javascript) for a good overview of the basics of javascript.
 2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
