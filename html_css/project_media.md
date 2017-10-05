@@ -76,6 +76,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 * [Neil Cudden's solution](https://github.com/ncud4bloc/YouTube) | [View in browser](https://ncud4bloc.github.io/YouTube/HTML/index.html)
 * [Beth Rathbone's solution](https://github.com/bethrath/youtube-page)
 * [Paul McGarry's solution](https://github.com/thiswillhavetodo/youtube-video-player) | [View in browser](https://thiswillhavetodo.github.io/youtube-video-player/index.html)
+* [tholymap's solution](https://github.com/tholymap/youtube) | [View in browser](http://htmlpreview.github.io/?https://github.com/tholymap/youtube/blob/master/youtube.html)
 
 ### Additional Resources
 
