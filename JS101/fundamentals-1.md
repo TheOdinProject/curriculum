@@ -20,24 +20,103 @@ The very first steps of learning any programming language are destined to be a l
   <summary>What is a variable, and how do you declare one in Javascript?</summary>
 
   * A variable is a "storage container" for data.  
-  * You can declare a variable in Javascript by using the `=` sign:
-  > `let message = "Hello"`
+  * You can declare a variable in Javascript by using the `=` (single equals) sign:
+    * `let message = "Hello"`
 </details>
 
 <details>
-  <summary></summary>
+  <summary>
+    Name all 3 ways to declare a variable in Javascript and when would you want to use each one?
+  </summary>
+
+  * `let` - Used to declare most variables.
+  * `const` - Used to declare an unchaning (constant) variable.
+  * `var` - Has genereally been replaced by the other two.  Common to see in older code.
 </details>
-* Can you name all 3 ways to declare a variable in Javascript and when would you want to use each one?
-* What types of things can you store in a variable?
-* What are the rules and guidelines for naming variables?
-* What is 'Loose typing' and what does it mean for your code?
-* How can you do math in Javascript?
-* What's the difference between `=`, `==` and `===`?
-* What is a string?
-* How do you concatenate a string?
-* What is an array?
-* What types of things can you put into an array?
-* How do you get items out of an array? (i.e. how do you use the information you've stored)
+
+<details>
+  <summary>What types of things can you store in a variable?</summary>
+
+  * You can store any of the 7 basic types in a variable
+</details>
+
+<details>
+  <summary>What are the rules and guidelines for naming variables?</summary>
+
+  * Variable names must contain only letters, digits, `$` and `_`
+  * Stay away from generic variable names like `a`, `b`, or `x`
+  * Use `camelCase` to name variables with multiple words
+    * `let myVeryLongVariableName = 2`
+  * Use `ALL_CAPS` and underscores to name constants
+    * `const MY_BIRTH_YEAR = 1994`
+</details>
+
+<details>
+  <summary>What is 'Loose typing' and what does it mean for your code?</summary>
+
+  * Loose typing allows you to declare variables as you need them.
+  * You may assign multiple types to the same variable
+    * `let foo = 13;  // foo is a Number`
+    * `foo = 'bar';   // foo is now a String`
+    * `foo = true;    // foo is now a Boolean`
+</details>
+
+<details>
+  <summary>How can you do math in Javascript?</summary>
+
+  * Math can be done in Javascript by using operators, the basics being:
+    * Addition: `6 + 9` equals `15`
+    * Subtraction: `20 - 5` equals `15`
+    * Multiplication: `3 * 4` equals `12`
+    * Division: `24 / 5` equals `4.8`
+    * Modulo: `24 % 5` equals `4`
+</details>
+
+<details>
+  <summary>What's the difference between `=`, `==` and `===`?</summary>
+
+  * Single Equality `=` is an Assignment Operator. It assigns values to variables
+  * Double Equality `==` loosly checks for equality
+    * `3 == '3' // true`
+  * Triple Equality `===` strictly checks for equality
+    * `3 === '3' // false`
+</details>
+
+<details>
+  <summary>What is a string?</summary>
+
+  * A string is a sequence of characters used to represent text
+</details>
+
+<details>
+  <summary>How do you concatenate a string?</summary>
+
+  * To concatenate a string, you "add" the strings together
+    * `"The Od" + "in Project"  // "The Odin Project"`
+</details>
+
+<details>
+  <summary>What is an array?</summary>
+
+  * An array is an indexed collection of objects
+</details>
+
+<details>
+  <summary>What types of things can you put into an array?</summary>
+
+  * Any variable or basic type (Boolean, String, Number, etc.) can be stored in an array 
+</details>
+
+<details>
+  <summary>
+    How do you get items out of an array? (i.e. how do you use the information you've stored)
+  </summary>
+
+  * You may access arrays through their elements:
+    * `let arr = [1, "b", true, null]`
+    * `arr[0]  // 1`
+    * `arr[2]  // true`
+</details>
 
 ### Step One
 
