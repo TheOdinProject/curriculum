@@ -4,8 +4,23 @@ The very first steps of learning any programming language are destined to be a l
 
 > Use this section to quiz yourself.  If you know all these answers then you can comfortably skip, or at least skim through this lesson.  After the lesson, come on back here and read these again to make sure you haven't missed anything crucial.
 
-* What are the 7 basic types in Javascript?
-* What is a variable, and how do you declare one in Javascript?
+<details>
+<summary>What are the 7 basic types in Javascript?</summary>
+
+* Boolean
+* Null
+* Undefined
+* Number
+* String
+* Symbol
+* Object
+</details>
+
+<details>
+<summary>What is a variable, and how do you declare one in Javascript?</summary>
+
+* A variable is a "storage container" for data.  You declare a variable in Javascript by using the `var`, `let`, or `const` keywords
+</details>
 * Can you name all 3 ways to declare a variable in Javascript and when would you want to use each one?
 * What types of things can you store in a variable?
 * What are the rules and guidelines for naming variables?
