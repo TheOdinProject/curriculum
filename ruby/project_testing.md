@@ -174,3 +174,5 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
+* [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
+* [Tutorials Point RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm)
