@@ -1,0 +1,20 @@
+.error-page {
+  background-color: rgba(60, 175, 240, 0.9);
+
+  &__image {
+    background: asset_url("404-isometric.svg") no-repeat ;
+    background-position: center center;
+    background-size: 120%;
+    height: 75vh;
+    width: 768px;
+    margin: 0 auto;
+
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+
+    @include media-breakpoint-down(sm) {
+      height: 65vh;
+    }
+  }
+}
