@@ -22,7 +22,7 @@ class ApplicationController < ActionController::Base
   end
 
   def not_found_error
-    render file: 'public/404.html', status: :not_found, layout: false
+    render 'errors/not_found', status: :not_found
   end
 
   private

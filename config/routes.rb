@@ -49,6 +49,8 @@ Rails.application.routes.draw do
     delete 'lesson_completions/' => 'lesson_completions#destroy', :as => 'lesson_completions'
   end
 
+   match "/404" => "errors#not_found", via: [ :get, :post, :patch, :delete ]
+
   # Explicitly redirect deprecated routes (301)
 
   get '/courses/curriculum' => redirect('/courses')

@@ -51,7 +51,7 @@ RSpec.describe LessonsController do
       end
 
       it 'renders the 404 page' do
-        expect(response).to render_template(file: "#{Rails.root}/public/404.html")
+        expect(response).to render_template(:not_found)
       end
     end
   end
