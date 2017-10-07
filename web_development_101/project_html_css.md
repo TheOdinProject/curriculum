@@ -91,6 +91,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
+* [Ezra's Solution (Easy)](https://github.com/Azhorabai/google-homepage-easy) | [View in browser](be https://azhorabai.github.io/google-homepage-easy)
 * [Ozra's Solution (Difficult)](https://github.com/0zra/search-results) | [View in browser](https://0zra.github.io/search-results/)
 * [Argenm's Solution (Easy)](https://cdn.rawgit.com/Argenm/google-homepage/8af904c7/index.html) | [View in browser](https://argenm.github.io/google-homepage/)
 * [Vista's Solution (Difficult)](https://github.com/vistapuri/google-search-result) | [View in browser](https://vistapuri.github.io/google-search-result/)
