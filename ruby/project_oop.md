@@ -364,6 +364,8 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Iceron's solution (with AI)](https://github.com/iceron/TOP/blob/master/Ruby/oop/mastermind/mastermind.rb)
 * [Huy Anh](https://github.com/huyanh10tin/tictactoe)
 * [Oliver Curting's solution (with five-guess AI)](https://github.com/Curting/mastermind) | [Live Version](https://repl.it/MEd9/0)
+* [Bruno Parga's solution (with fairly smart AI)](https://github.com/brunoparga/mastermind/)
+
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*

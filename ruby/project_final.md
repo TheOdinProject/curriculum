@@ -79,6 +79,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Jonathan Marks's solution](https://github.com/johnjmarks4/Chess)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-chess)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/chess_game)
+* [Bruno Parga's solution](https://github.com/brunoparga/chess)
 
 ### Additional Resources
 
