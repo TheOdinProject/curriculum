@@ -46,3 +46,4 @@ We'll begin by reading some things that are probably review from [Web Developmen
 
 
 * Watch [Get Going from Pro Git](http://git-scm.com/video/get-going) if you'd like a refresher of things.
+* Read [Git Cheat Sheet] (https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) if you need a reference sheet.
