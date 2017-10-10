@@ -46,7 +46,7 @@ This is a fairly long list of things to pay attention to but it should be mostly
 ### Your Assignment
 
 1. Read [Javascript is Super Sexy](http://javascriptissexy.com/javascript-is-super-sexy/), which is a good post for getting fired up to learn Javascript.
-2. Finish [the entire Codecademy Javascript track](https://www.codecademy.com/learn/learn-javascript) (you already did up to lesson 5).
+2. Finish [the entire Codecademy Javascript track](https://www.codecademy.com/learn/introduction-to-javascript) (you already did up to lesson 5).
 3. Glance through [Javascript Basics from Mozilla](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics) to review from the Codecademy course.
 
 ## Additional Resources
