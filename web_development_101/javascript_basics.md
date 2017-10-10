@@ -537,6 +537,7 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 * [cedalukic's Solution](https://github.com/cedalukic/euler-project) | [View in Browser](https://cedalukic.github.io/euler-project)
 * [Nate W's Solution](https://github.com/obsessivenerds/Javascript_Project_Euler)
 * [Steve Yankson's Solution](https://github.com/samoaning/proj_euler_01)
+* [Jason's solution to Project Euler Problem 1](https://github.com/jn4248/project_euler_no_1) | [View in browser](https://jn4248.github.io/project_euler_no_1/)
 
 ### Additional Resources
 
