@@ -1,4 +1,4 @@
-### <a id="course-contents"></a>Course Contents
+### <a id="introduction"></a>Introduction
 
 Now that you know [what web developers do](/introduction-to-web-development/), it's time to start thinking about how they actually do it.  In this unit, we'll learn about how the Web works and start thinking about the basics of computer and web programming.
 
