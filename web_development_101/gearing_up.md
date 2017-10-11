@@ -14,7 +14,7 @@ We will look at getting clear about what your motivation for learning
 programming is and getting yourself into the growth mindset so that you
 have the right mentality when approaching challenges throughout the curriculum.
 
-#### Your Motivation For Learning Programming
+**Your Motivation For Learning Programming**
 Your motivation to learn to code could be to have a fulfilling career that pays
 well; it could be the creative outlet programming provides; it may be to have the
 skills and abilities to build any sort of app you can think of; it might be to start
@@ -31,7 +31,7 @@ To give your motivation a bit of a boost you can read about the success of other
 * [This 32 year old who taught himself programming using the odin project over the period of a year and landed a job](https://www.reddit.com/r/learnprogramming/comments/34r807/im_32_years_old_and_just_started_my_first/?)
 * [Another guy who used the odin project to get a job](https://www.reddit.com/r/learnprogramming/comments/4goiwx/i_got_hiredagain/?)
 
-#### The Growth Mindset
+**The Growth Mindset**
 There is a wide body of research that supports that intelligence is not fixed, that
 it can be developed. People usually fall into one of the following two mindsets:
 
@@ -81,7 +81,7 @@ Projects: Most of these lessons are followed by projects that allow you to pract
 Through Odin you will learn to be independent learners, it's the only way you can
 truly learn programming.
 
-#### The Process Of Learning
+**The Process Of Learning**
 Learning involves context. It is by learning concepts and then practicing them
 which will help you to solidify how things work and fit together. Projects are
 the ultimate way of indicating whether your theory matches up with how the
@@ -120,7 +120,7 @@ You can practice this method of learning by helping others in our community.
 
 * The Ruby Rogues have a [podcast on How to Learn](http://rubyrogues.com/131-rr-how-to-learn/) which should be motivational and useful to you, so check it out for some useful thoughts on learning.
 
-#### What To Do When You Are Stuck
+**What To Do When You Are Stuck**
 You will inevitably be stuck at some point in the curriculum, it may be due to
 a concept that you are having difficulty understanding or it may be due to
 something not working when you are doing a project. Whatever it is, use the
@@ -133,18 +133,17 @@ you at some point, a quick Google can often lead to a solution.
 with your research done, people will be more willing to help you when they can see
 you have already put effort into trying to figure out the solution.
 
-#### Managing Your Study Time
+**Managing Your Study Time**
 You will have more success with Odin by putting **consistent** time into it rather
 than working on it every other day. Building a habit of studying everyday at
 a specific time and for a specific amount of time will ensure you make consistent
 progress.
 
-#### How To Avoid Procrastination
+**How To Avoid Procrastination**
 Procrastination will be your biggest enemy when trying to make progress, this is how
 to avoid it:
 
 **Use The Pomodoro Technique:**
-
 The Pomodoro Technique is a way of managing your time in order to stay focused.
 You basically set a timer for 25 minutes and work on a task until the timer goes
 off. You then take a 5 minute break and go again for 25 minutes once your break
@@ -161,7 +160,6 @@ To learn more about the Pomodoro Technique read this [great article](https://med
 And here's an easy to use Pomodoro timer: [TomatoTimer](http://tomato-timer.com/#)
 
 **Avoid Digital Distractions:**
-
 Digital distractions are email and Facebook notifications, time-wasting websites
 like social networks. These kinds of distractions break your focus and make it
 tempting to procrastinate; they should be avoided during study time.
@@ -170,7 +168,6 @@ Solution: turn off notifications and add a blocker to your internet to limit tim
 on time-wasting sites like Facebook.
 
 **Avoid Physical Distractions In Your Environment:**
-
 Physical distractions are distractions from your environment, things like a TV in
 the background, other people speaking etc. These are just as much a nuisance to
 breaking your focus as digital distractions.
@@ -183,7 +180,7 @@ distractions from your environment.
 The following are some of the pitfalls that beginners often make when learning how
 to program; try your best to avoid these.
 
-#### Don't get pulled into rabbit holes
+**Don't get pulled into rabbit holes**
 Because we cover so much material on Odin and link to so many high quality, outside
 courses and tools, it is easy for students to get pulled into rabbit holes by
 spending time trying to learn all there is to know about a subject that they aren't
@@ -194,7 +191,7 @@ To get the best results from this curriculum try to **stick to the path laid out
 as much as possible and try to limit time spent going down rabbit holes as these
 sidetracks can really ruin your momentum.
 
-#### Don't compare yourself to others
+**Don't compare yourself to others**
 Measure progress against yourself and don't compare yourself to others. Students
 often compare themselves against others who are further along in their coding
 journey or have more experience. This is a recipe for depression and frustration.
@@ -207,7 +204,7 @@ overcome. We hope that the principles here will help you as you go forward and
 put you in a much better position to succeed and get the most out of Odin.
 Without further ado, lets jump in to learning Web development.
 
-###<a id="extra-resources"></a>Extra resources:
+###<a id="additional-resources"></a>Additional Resources
 * [Managing Inspiration and Motivation](https://markmanson.net/do-something)
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
