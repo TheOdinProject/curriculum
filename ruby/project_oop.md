@@ -368,6 +368,7 @@ Build a Mastermind game from the command line where you have 12 turns to guess t
 * [Oliver Curting's solution (with five-guess AI)](https://github.com/Curting/mastermind) | [Live Version](https://repl.it/MEd9/0)
 * [Bruno Parga's solution (with fairly smart AI)](https://github.com/brunoparga/mastermind/)
 * [Alex's solution](https://github.com/alexcorremans/mastermind)
+* [Kusnierewicz solution](https://github.com/Kusnierewicz/Mastermind-game)
 
 ### Additional Resources
 
