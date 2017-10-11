@@ -12,7 +12,7 @@ Before you can understand how to *program* the web, you need to understand the w
 * Explain what *DNS servers* are
 * Explain, in your own words, what happens when you **click search** on google.com to a friend!
 
-### <a id="assignment"></a> Assignment:
+### <a id="assignment"></a> Assignment
 1. Watch this [BBC short](https://vimeo.com/128575085)  for an overview of how the Internet works.
 2. Supplement this with a [reading](https://developer.mozilla.org/en-US/Learn/Common_questions/How_does_the_Internet_work#Summary) and a [video](https://youtu.be/7_LPdttKXPc?t=46s).
 3. Read up on the [differences](https://developer.mozilla.org/en-US/Learn/Common_questions/Pages_sites_servers_and_search_engines#Summary) between a webpage, web server and a search engine.
@@ -21,7 +21,6 @@ Before you can understand how to *program* the web, you need to understand the w
 
 
 ### <a id="additional-resources"></a> Additional Resources
-
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [(Video) A packet's journey](https://www.youtube.com/watch?v=ewrBalT_eBM&feature).

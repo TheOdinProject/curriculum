@@ -1,11 +1,11 @@
+### <a id="introduction"></a> Introduction
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
 
 This is also the first time you'll get to do some actual programming (HTML/CSS doesn't count because it just kind of sits there).  It should be fun!  You'll learn concepts (like, say, conditional statements) that are used in every programming language you'll ever learn, including Ruby.  Javascript just happens to let you implement them to do fun things in the browser.
 
 This lesson will tend to focus on understanding the programming side of Javascript and the next lesson on jQuery will build on your knowledge here to actually allow you to interact with the elements on your webpage.
 
-### Points to Ponder
-
+### <a id="learning-outcomes"></a> Learning Outcomes
 *Look through these now and then use them to test yourself after doing the assignment*
 
 * What is a scripting language?
@@ -13,10 +13,10 @@ This lesson will tend to focus on understanding the programming side of Javascri
 * What is a string? An array? A boolean?
 * What are events?
 
-### Announcement:
+### Announcement
 We are in the process of completely revamping and rewriting our JavaScript content... and the material that would replace the lessons found here in the WebDev101 course is pretty much completed.  Right now we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
 
-### Assignment:
+### <a id="assignment"></a> Assignment
 1. Do [Codecademy's Javascript course](https://www.codecademy.com/learn/introduction-to-javascript) for a good overview of the basics of javascript.
 2. Go to [jsfiddle.net](http://jsfiddle.net/) and play around with their tool -- it lets you type out some HTML, CSS, and Javascript and see it displayed for you right there.  It's great for just testing things out or solving simple problems, though it will feel a bit clunky if you're trying to do a whole project in it.  Use the "Run" button at the top to run your Javascript.
     1. Another in-browser IDE to explore for HTML/CSS/JS is [codepen.io](http://codepen.io/pen/).
@@ -26,13 +26,13 @@ We are in the process of completely revamping and rewriting our JavaScript conte
     2. If you feel like it, go and solve a few more problems! No one said you could turn off your brain!
 4. There's a lot of power in your browser's devtools for debugging and working with Javascript code.  The [official dev-tools docs](https://developers.google.com/web/tools/chrome-devtools/javascript/) are a pretty good resource for getting started and digging in.  [This video from Wes Bos](https://www.youtube.com/watch?v=xkzDaKwinA8) also has some pretty great little tips for working with JS in the browser.
 
-### Student Solutions
-
+### <a id="student solutions"></a> Student Solutions
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
-* [Ozra's solution to problems 1-7] (https://github.com/0zra/euler)
-* [Freya's solution to problem 1] (https://github.com/fbl11/TOPAssignmentEulerProblems)
+
+* [Ozra's solution to problems 1-7](https://github.com/0zra/euler)
+* [Freya's solution to problem 1](https://github.com/fbl11/TOPAssignmentEulerProblems)
 * [Maria Tikhonova's solution to problem 1](https://github.com/MariaTikhonova/project-euler-problems)
 * [Chris's interactive challenge 1 solution](https://github.com/chrisauinmotion/projectEuler_challenge1) | [View in browser](https://chrisauinmotion.github.io/projectEuler_challenge1/)
 * [Alin Simion's solution to problem 1](https://github.com/alinsg/project-euler-problems)
@@ -539,8 +539,7 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 * [Steve Yankson's Solution](https://github.com/samoaning/proj_euler_01)
 * [Jason's solution to Project Euler Problem 1](https://github.com/jn4248/project_euler_no_1) | [View in browser](https://jn4248.github.io/project_euler_no_1/)
 
-### Additional Resources
-
+### <a id="additional-resources"></a>Additional Resources
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * A straight-to-the-point [primer on Javascript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)
