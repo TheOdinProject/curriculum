@@ -40,7 +40,7 @@ The good news is installing linux is not as hard as you might have imagined, fir
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We won't go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
-**Option 1 - Use a Virtual Machine**
+##### Option 1 - Use a Virtual Machine
 This is the safest and simplest option for a complete beginner, or a person that _needs_ to use Windows on a regular basis for other reasons (work, school etc.)
 
 A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to setup this option.
@@ -55,7 +55,7 @@ A Virtual Machine is essentially a program that runs on your computer that emula
 
 * Performance with Ubuntu won't be as sharp as a dual booting.
 
-**Option 2 - Dual Booting**
+#### Option 2 - Dual Booting
 You can install Ubuntu alongside Windows on your machine by dual booting. This essentially means when you boot up your computer you will be brought to a screen that will allow you to choose which operating system you want to use, either your Windows operating system or your new linux operating system. [Here](https://www.youtube.com/watch?v=hOz66FC0pWU) is a guide of how to set this up.
 
 **Pros**
@@ -71,7 +71,7 @@ You can install Ubuntu alongside Windows on your machine by dual booting. This e
 
 
 
-**Option 3 - Windows Subsystem for Linux**
+#### Option 3 - Windows Subsystem for Linux
 If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, chose Linux for your operating system.
 
 **Pros**
@@ -90,7 +90,7 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 * IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
 * Due to some differences in how Linux and windows save files, [unless you edit your files from within Bash for Windows, if you save them in the linux home directory they stop being visible from the Bash Terminal.](https://github.com/Microsoft/BashOnWindows/issues/942) The easiest workaround is to save all your work in /mnt/c/*.
 
-**Option 4 - Using an Online IDE**
+#### Option 4 - Using an Online IDE
 If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's (Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
 **Pros**
@@ -108,41 +108,48 @@ If you absolutely can not install Linux to your machine, or if the Virtual Machi
 
 Luckily, it's all free.  You'll be installing each of these using the tutorial below, but first here's a brief word about each item:
 
-**Ruby**
+#### Ruby
+
 Ruby is the back end language we'll be using to write our server code.  The Ruby interpreter is a program like any other and so you'll need to make sure it's installed on your computer and you've got the right version (there are some big differences between, say, version 1.8.7 and 1.9.3 or 2.x).
 
 
-**Git**
+#### Git
+
 Git, the version control system you've read about, is another tool that requires a brief install.  You'll also be asked to create your Github account, which is very important because it'll host your portfolio.  When people visit your repo on Github (if it's public), they see all the source code files you've uploaded.
 
-**Heroku**
+#### Heroku
+
 Heroku is the cloud hosting service which we'll be using to take our web applications "live".  In some ways it acts sort of like Github because you will be pushing your code to Heroku in an almost identical way, but it's performing a very different function.  Where Github keeps repositories of your source code, Heroku actually runs that code on a server for you so your application can be visited by users.  Heroku requires a couple of helpful tools to be installed to make your life easier during the deployment process.
 
-**HTML, CSS and Javascript**
+#### HTML, CSS and Javascript
+
 Actually, we won't need to install any of these -- they come with your web browser already!  In later courses, you may actually start using Javascript on your computer as a server-programming language (Node.js), but for now you've got nothing to worry about with these three.
 
-**Text Editor**
+#### Text Editor
+
 We recommend using an advanced text editor like [Sublime Text](http://www.sublimetext.com/).  Technically all of the projects would be possible to build using only the simplest editor such as Notepad, or whatever is built into the system that you are using, but Sublime has many of handy shortcuts, code highlighting and other nifty features that'll make your life much easier.  Sublime Text is free to use, but it _does_ have an occasional nagging pop-up that asks you to purchase it.  If you don't want to purchase it, and if the pop-up bothers you, another great alternative is [Atom](https://atom.io/).  Atom is _completely_ free and open source and most of the features (and a few more!) that Sublime has.  The trade-off is that Atom is considerably slower.  If you are working on a decent computer you might not notice the difference, but those of you who decide to use an older computer or a Virtual Machine will probably be happier with Sublime.
 
 Check out [this installable tutorial](https://sublimetutor.com/) which is an interactive guide to the many shortcuts that can help your Sublime Text 3 workflow. Most of the tips there apply quite directly to Atom as well, although you can reference [Atom's Flight Manual](https://flight-manual.atom.io/) for specifics.
 
-**Ruby Gems**
+#### Ruby Gems
+
 There will be some Ruby gems (which are just prepackaged little libraries of code) to install to give you the tools necessary to talk to your database and install other gems easily in the future.
 
-**RVM**
+#### RVM
 
 RVM is a way of making sure that each Ruby or Rails project on your computer is treated independently of each other.  It allows you to install multiple versions of Ruby and multiple versions of Rails or any other gem on your computer and then you can choose which set to use for a given project.  
 
 This is very useful because you'll sometimes work on a project using an older version of Ruby (say 1.9.3) but simultaneously working on other projects using the newer version (2.0.0).  Since you obviously don't want to uninstall and reinstall Ruby each time, RVM just lets you say which gemset you want to use for a given project and PRESTO! your problems are solved.
 
-**Rails**
+#### Rails
+
 What about Rails?  Rails is actually a Ruby gem of its own since it's really just a bunch of Ruby code prepackaged for you.  You "install" it by downloading the `rails` gem.
 
-**Mac: XCode**
+#### Mac: XCode
 
 XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  Even though we won't be using it for that purpose, it's also got some command line tools that you'll be using so you're probably going to have to install it all (it's a giant package).
 
-### <a id="assignment"></a>Assignment
+### <a id="assignment-installfest"></a>Assignment: Installfest
 
 These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
@@ -160,19 +167,20 @@ These installfests will take you through the steps to install everything on your
 
 ### <a id="checklist"></a>Checklist
 
-**Before moving on, you should have:**
+##### Before moving on, you should have:
 * Set up your [github](http://github.com/) account
 * Set up your [heroku](http://www.heroku.com/) account
 * Created and deployed a sample rails application
 * Patted yourself on the back for accomplishing a task that has turned back many brave warriors.
 
-**Oh no! Total Failure!!!**
+#### Oh no! Total Failure!!!
 
 If all else fails, one of the best web-based development environments to use for coding the back end is [cloud9](https://c9.io/).  It is free to use and gives you a brand spanking new Ruby and Rails setup to start coding with.  
 
 It relies on having an internet connection, but gives you a command line, a text editor, and the ability to run a local server right out of the box.
 
 ### <a id="additional-resources"></a>Additional Resources
+
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 If you've run into issues with your installation and are desperately looking for something else to try, take a deep breath first and go back over the instructions step-by-step to make sure you've followed them properly.  You can run into some odd issues if you start trying to mix together different installation recommendations, because some of them use auto-installers and have you install things in slightly different places so you may end up with a couple copies of key components.  It may work fine on the surface, but some day it'll probably come back and frustrate you again.  But, if you must, here are some other people's installation recommendations:

@@ -27,7 +27,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 * How can you rename a directory or file?
 
 
-### <a id="assignment"></a>Assignment
+### <a id="assignment"></a>Assignment:
 
 *Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/), which has a terminal window you can practice with.*
 
@@ -36,7 +36,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 3. (Optional) If you'd still like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/en/courses/learn-the-command-line) to get practice navigating and manipulating directories and files.
 
 
-### <a id="exercise"></a> Exercise
+### <a id="exercise"></a> Exercise:
 In this exercise you will practice creating files and directories and deleting them.
 
 1. Create a new directory in your home directory with the name `test`
