@@ -78,13 +78,6 @@ GEM
     coderay (1.1.1)
     coercible (1.0.0)
       descendants_tracker (~> 0.0.1)
-    coffee-rails (4.2.2)
-      coffee-script (>= 2.2.0)
-      railties (>= 4.0.0)
-    coffee-script (2.4.1)
-      coffee-script-source
-      execjs
-    coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
     crack (0.4.3)
       safe_yaml (~> 1.0.0)
@@ -366,9 +359,6 @@ GEM
       faraday (~> 0.9)
       jwt (~> 1.5)
       multi_json (~> 1.10)
-    simple_form (3.3.1)
-      actionpack (> 4, < 5.1)
-      activemodel (> 4, < 5.1)
     simplecov (0.14.1)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -430,7 +420,6 @@ DEPENDENCIES
   cancancan (~> 1.15)
   capybara (~> 2.10)
   capybara-email (~> 2.5)
-  coffee-rails (~> 4.2)
   cucumber-rails
   database_cleaner (~> 1.5)
   derailed
@@ -466,7 +455,6 @@ DEPENDENCIES
   rubocop
   sass-rails (~> 5.0)
   shoulda-matchers (~> 3.1)
-  simple_form (= 3.3.1)
   simplecov
   tether-rails
   turbolinks
