@@ -21,6 +21,11 @@ postgres=# \password yourusername
 # Type \q to quit
 ```
 
+If you encounter an error, `could not connect to server` or `PG::ConnectionBad`, you will need to start the PG server:
+```
+sudo service postgresql start
+```
+
 ## Installing Gems and Migrating the Database
 Now we need to pull down TOP's repository. To do this, go ahead and `fork` [TOP](https://github.com/TheOdinProject/theodinproject.git) repository. In your terminal run:
 ```
@@ -49,7 +54,7 @@ You will need a Github API token to get all the tests to pass and for getting al
 
 First create a application.yml with figaro, this is where you will store your Github API token.
 ```
-$ rails generate figaro:install
+$ bundle exec figaro install
 ```
 
 Next go to [personal access tokens](https://github.com/settings/tokens) in your Github user account settings and click the "generate new token" button. This will bring you to a new page. Give your token a description in the box provided, Something like "Odin " will do. Once that is done click the "generate token" button at the bottom of the page. The token highlighted in green is your new Github API token.
@@ -80,7 +85,7 @@ $ rails db:seed
 
 We pull in the lesson content from the Odin [curriculum repository](https://github.com/TheOdinProject/curriculum) on Github. We have created a rake task to do this easily.
 ```
-$ rake rake curriculum:update_content
+$ rake curriculum:update_content
 ```
 
 ## Running the app locally
