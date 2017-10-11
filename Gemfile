@@ -5,25 +5,22 @@ gem 'rails',                        '~> 5.0.0'
 gem 'puma',                         '~> 3.6.0'
 gem 'turbolinks'
 gem 'jquery-rails',                 '~> 4.2.1'
-gem 'google-api-client',            '~> 0.9'
-gem 'devise',                       '~> 4.2.0'
-gem 'figaro',                       '1.1'      # Managing environment variables
+gem 'devise',                       '~> 4.2.0' # Managing environment variables
 gem 'rack-timeout',                 '~> 0.4'
-gem 'redcarpet',                    '~> 3.3'   # to render the curriculum's .md files as html
+gem 'redcarpet',                    '~> 3.3'  # to render the curriculum's .md files as html
 gem 'kaminari',                     '~> 1.0', '>= 1.0.1'
 gem 'pg',                           '~> 0.19'
-gem 'nokogiri',                     '~> 1.6'
 gem 'premailer-rails',              '~> 1.9'
-gem 'github_api',                   '~> 0.14'  # to pull in the curriculum files
+gem 'github_api',                   '~> 0.14' # to pull in the curriculum files
 gem 'octokit',                      '~> 4.6'
 gem 'omniauth-github',              '~> 1.1.2' #for Github Authentication
 gem 'omniauth-google-oauth2',       '~> 0.5.1' #for Google Authentication
 gem 'font-awesome-rails',           '~> 4.7'
-gem 'sass-rails',                   '~> 5.0'
 gem 'bootstrap',                    '~> 4.0.0.alpha6'
-gem 'uglifier',                     '~> 3.0'
+gem 'uglifier',                    '~> 3.0'
 gem 'friendly_id',                  '~> 5.1'
 gem 'cancancan',                    '~> 1.15'
+gem 'sass-rails',                   '~> 5.0'
 gem 'rack-attack'
 gem 'tether-rails' # dependency for bootstrap tooltips
 gem 'acts_as_votable'
@@ -35,7 +32,7 @@ end
 
 group :development, :test do
   gem 'rspec-rails',                       '~> 3.5'
-  gem 'cucumber-rails', require: false
+  gem 'cucumber-rails',require: false
   gem 'simplecov', :require => false
   gem 'factory_girl_rails',                '~> 4.7'
   gem 'capybara',                          '~> 2.10'
@@ -48,6 +45,7 @@ group :development, :test do
   gem 'shoulda-matchers',                  '~> 3.1'
   gem 'rake',                              '~> 11.3'
   gem 'rails-controller-testing',          '~> 1.0'
+  gem 'figaro',                            '1.1'
 end
 
 group :development do
