@@ -17,6 +17,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [danhofer's solution](https://github.com/danhofer/jumpstart-blogger)
 * [RaduMatees's solution](https://github.com/RaduMatees/Blog)
 * [rublen's solution](https://github.com/rublen/first_rails_app) | [View in browser](https://safe-badlands-32628.herokuapp.com/)
 * [Jonathan Yiv's Solution](https://github.com/JonathanYiv/blogger) | [View in browser](https://protected-dawn-48083.herokuapp.com/)
@@ -272,6 +273,8 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Alex's Solution](https://github.com/alexcorremans/blogger) | [View in Browser](https://fast-taiga-39728.herokuapp.com/)
 * [Celestine's Solution](https://github.com/CEOehis/blogger) | [View in Browser](https://afternoon-coast-34844.herokuapp.com/)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/blogger) | [View in Browser](https://agile-mountain-84751.herokuapp.com/)
+* [WilPoly's Solution](https://github.com/wilPoly/blogger) | [View in Browser](https://guarded-journey-13824.herokuapp.com/) Upto I5
+* [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/blogger) | to I5
 
 
 ### Additional Resources

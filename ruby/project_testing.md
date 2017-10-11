@@ -168,9 +168,12 @@ Only write exactly enough code to make your test pass.  Oftentimes, you'll end u
 * [John Connor's solution](https://github.com/jacgitcz/tconnect4)
 * [Zach Beaird's solution](https://github.com/zbbeaird89/Connect-Four)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-connect-four)
+* [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Connect_Four)
 
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * [RSpec Mock example SO question](http://stackoverflow.com/questions/3622604/rspec-mock-object-example)
+* [Helpful video from Sandi Metz](https://www.youtube.com/watch?v=URSWYvyc42M)
+* [Tutorials Point RSpec Writing Specs](https://www.tutorialspoint.com/rspec/rspec_writing_specs.htm)

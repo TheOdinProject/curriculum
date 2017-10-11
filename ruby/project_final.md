@@ -25,6 +25,8 @@ This is a great project to have as a part of your portfolio going forward becaus
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Andrew's solution](https://github.com/andrewr224/chess)
+* [Jmooree30's Solution](https://github.com/jmooree30/Chess.git)
 * [Phil's Solution(javascript)](https://github.com/pip36/j_chess) | [View in Browser](https://pip36.github.io/j_chess)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/chess)
 * [Kasey Z's solution](https://github.com/kasey-z/chess_game/tree/master/chess_game)
@@ -79,6 +81,7 @@ This is a great project to have as a part of your portfolio going forward becaus
 * [Jonathan Marks's solution](https://github.com/johnjmarks4/Chess)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-chess)
 * [Francisco Carlos's solution](https://github.com/fcarlosdev/the_odin_project/tree/master/chess_game)
+* [Bruno Parga's solution](https://github.com/brunoparga/chess)
 * [Kusnierewicz solution](https://github.com/Kusnierewicz/Chess-game)
 
 ### Additional Resources

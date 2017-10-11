@@ -29,7 +29,7 @@ Caching makes your application faster by reducing database calls.  Check out the
 Here are a few books that will take you a bit deeper as well:
 
 * [The Rails 4 Way](https://leanpub.com/tr4w) by Obie Fernandez is a comprehensive guide to the framework.
-* [Agile Web Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4) is sort of an in-depth guide combined with a tutorial that follows Agile practices along the way.
+* [Agile Web Development with Rails 5](https://pragprog.com/book/rails5/agile-web-development-with-rails-5) is sort of an in-depth guide combined with a tutorial that follows Agile practices along the way.
 * [Rails Antipatterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814) is a good best-practices guide.
 
 ### Other Resources

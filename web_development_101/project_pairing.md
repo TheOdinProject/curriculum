@@ -21,6 +21,8 @@ Enough talk! Let's build!
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!*
 
 * Add your solution below this line!
+* [danhofer & nsantiagoblair's solution](https://github.com/danhofer/pomodoro-pair) | [View in Browser](https://danhofer.github.io/pomodoro-pair/pomodoro.html)
+* [Alex and Kasper's Solution](https://github.com/alx4567/pomodoro) | [View in Browser](https://alx4567.github.io/pomodoro/)
 * [Qin's Solution](https://github.com/hyathynth/pomodoro-clock) | [View in Browser](https://hyathynth.github.io/pomodoro-clock/)
 * [Jonathan Yiv's Solution](https://github.com/JonathanYiv/pomodoro) | [View in Browser](https://jonathanyiv.github.io/pomodoro/)
 * [GuyInALabCoat's Solution](https://github.com/GuyInALabCoat/Pomodoro_clock) | [View in Browser](https://guyinalabcoat.github.io/Pomodoro_clock/)
@@ -47,6 +49,8 @@ Enough talk! Let's build!
 * [coryparham24's Solution](https://github.com/coryparham24/pomodoro-clock) | [View in Browser](https://cdn.rawgit.com/coryparham24/pomodoro-clock/7b1e6a88/index.html)
 * [Oliver Curting's Solution](https://github.com/Curting/pomodoro) | [View in Browser](https://curting.github.io/pomodoro/)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/psychic-pancake) | [View in Browser](https://santoxxcc.github.io/psychic-pancake)
+* [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/pomodoro)
+
 
 ### Next Steps
 

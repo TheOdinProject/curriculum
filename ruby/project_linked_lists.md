@@ -132,3 +132,4 @@ Build the following methods in your linked list class:
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-linked-list)
 * [Jason Dancocks' solution](https://github.com/JasonDancocks/Ruby/tree/master/linkedlists)
 * [Anistor86's solution](https://github.com/anistor86/linked_list)
+* [James Redux's solution](https://github.com/Jamesredux/linked_list)

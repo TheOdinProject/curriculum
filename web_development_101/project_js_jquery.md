@@ -35,6 +35,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 *Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this line!
+* [Kyle Lemon's solution](https://github.com/jklemon17/jquery-sketch) | [View in browser](https://jklemon17.github.io/jquery-sketch/)
+* [Rafal Fajkowski's solution](https://github.com/Feyran/Sketchpad) | [View in browser](https://feyran.github.io/Sketchpad/)
 * [Alin Simion's solution](https://github.com/alinsg/sketchpad-project) | [View in browser](https://alinsg.github.io/sketchpad-project/)
 * [dgwn's solution](https://github.com/dgwn/etch-sketch) | [View in browser](https://dgwn.github.io/etch-sketch/)
 * [danhofer's solution](https://github.com/danhofer/etch-a-sketchpad) | [View in browser](https://danhofer.github.io/etch-a-sketchpad/)
@@ -711,3 +713,5 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 * [Letícia's solution](https://github.com/letnrodrigues/etch-a-sketch) | [View in browser](https://letnrodrigues.github.io/etch-a-sketch/)
 * [ToSPP's solution](https://github.com/ToSPP/Etch-A-Sketch) | [View in browser](https://tospp.github.io/Etch-A-Sketch/)
 * [Kusnierewicz solution](https://github.com/Kusnierewicz/Basic-Sketch-Board) | [View in browser](http://kusnierewicz.github.io/Basic-Sketch-Board/)
+* [Brandon B.'s solution](https://github.com/bmbost/etchasketch) | [View in browser](https://bmbost.github.io/etchasketch/)
+* [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/etch-a-sketch) | [View in browser](https://brunoparga.github.io/etch-a-sketch/)
