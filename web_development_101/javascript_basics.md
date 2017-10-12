@@ -443,7 +443,6 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 * [Chris Chambers' Solution](https://github.com/chrisgchambers/euler_1_2_3/) | [View in browser](http://htmlpreview.github.io/?https://github.com/chrisgchambers/euler_1_2_3/blob/master/index.html)
 * [Mike Coon's Solution](https://github.com/mac718/js101)
 * [Justin Lam's Solution](https://github.com/just-n/project-euler)
-* [m-chrzan's solution](https://github.com/m-chrzan/odin-euler) | [View on jsfiddle](https://jsfiddle.net/mchrzan/yxv87v69/)
 * [Rebekah Samorano's Solution](https://github.com/rmsamorano/euler-problems)
 * [grzegorzzajac1989's Solution](https://github.com/grzegorzzajac1989/projectEuler/tree/master/javaScript)
 * [Yorick's Solution](https://github.com/ysmith4/project-euler.git) | [View in browser](http://htmlpreview.github.io/?https://github.com/ysmith4/project-euler/blob/master/prob1.html)
