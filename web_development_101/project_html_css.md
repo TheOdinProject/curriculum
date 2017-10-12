@@ -1233,8 +1233,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [llisaheres' Solution (Easy)](https://github.com/llisahere/google-homepage) | [View in Browser (Easy)](https://llisahere.github.io/google-homepage/)
 * [Feyyaz Açıkalın's Solution (Easy)](https://github.com/feyyazacikalin/google-homepage) | [View in Browser (Easy)](https://feyyazacikalin.github.io/google-homepage/)
 * [Bruno Parga's Solution (Easy)](https://github.com/brunoparga/odinproject/tree/master/WebDev101/odinmock) | [View in Browser](https://brunoparga.github.io/google-homepage/)
-* [Sumanthvrao's Solution(Easy)](https://github.com/sumanthvrao/google-homepage) | [View in Browser (Easy)] 
-(https://sumanthvrao.github.io/google-homepage/)
+* [Sumanthvrao's Solution](https://github.com/sumanthvrao/google-homepage) | [View in browser](https://sumanthvrao.github.io/google-homepage/)
 
 ### Additional Resources
 
