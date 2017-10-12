@@ -1234,6 +1234,8 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Feyyaz Açıkalın's Solution (Easy)](https://github.com/feyyazacikalin/google-homepage) | [View in Browser (Easy)](https://feyyazacikalin.github.io/google-homepage/)
 * [Bruno Parga's Solution (Easy)](https://github.com/brunoparga/odinproject/tree/master/WebDev101/odinmock) | [View in Browser](https://brunoparga.github.io/google-homepage/)
 * [Sumanthvrao's Solution](https://github.com/sumanthvrao/google-homepage) | [View in browser](https://sumanthvrao.github.io/google-homepage/)
+* [Tanmaya Udupa's Solution (Easy)](https://github.com/tanmayaudupa/google-homepage) | [View in Browser] https://tanmayaudupa.github.io/google-homepage/)
+
 
 ### Additional Resources
 
