@@ -24,6 +24,7 @@ Revisit the caesar cipher ruby script that you created during [Ruby Building Blo
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Andrew's solution](https://cryptic-stream-18377.herokuapp.com/) | [Source](https://github.com/andrewr224/cipher)
 * Raiko's solution [Github](https://github.com/Cypher0/caesar) | [Live](https://rocky-waters-74257.herokuapp.com/)
 * theghall's solution [Github](https://github.com/theghall/sinatra-caesar) | [Live](https://arcane-temple-35414.herokuapp.com/)
 * Kasey Z's solution [GitHub](https://github.com/kasey-z/caesar_cipher_reloaded) | [Live](https://hidden-wildwood-20236.herokuapp.com/)
