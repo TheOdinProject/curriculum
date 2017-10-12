@@ -307,6 +307,7 @@ You will be building a simple command line Hangman game where one player plays a
 * [Barjits solution](https://github.com/barjit/hangman)
 * [Riley's solution](https://github.com/keymaster777/Hangman)
 * [Anistor86's solution](https://github.com/anistor86/hangman)
+* [Kusnierewicz solution](https://github.com/Kusnierewicz/Hangman-game)
 
 ### Additional Resources
 
