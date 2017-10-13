@@ -149,7 +149,7 @@ What about Rails?  Rails is actually a Ruby gem of its own since it's really jus
 
 XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  Even though we won't be using it for that purpose, it's also got some command line tools that you'll be using so you're probably going to have to install it all (it's a giant package).
 
-### <a id="assignment-installfest"></a>Assignment: Installfest
+### <a id="assignment"></a>Assignment
 
 These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
