@@ -1,4 +1,5 @@
 ### <a id="introduction"></a>Introduction
+
 Learning how to program takes work. Like any skill worth knowing it takes time to acquire and it can't
 be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So before we get into the meat of the curriculum, it would be beneficial to go over the following so you  can get the most out of Odin:
 
@@ -207,7 +208,7 @@ overcome. We hope that the principles here will help you as you go forward and
 put you in a much better position to succeed and get the most out of Odin.
 Without further ado, lets jump in to learning Web development.
 
-###<a id="extra-resources"></a>Extra resources:
+###<a id="additional-resources"></a>Additional Resources
 * [Managing Inspiration and Motivation](https://markmanson.net/do-something)
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)
