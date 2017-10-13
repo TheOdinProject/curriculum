@@ -221,7 +221,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 * [Dom Goj's solution](https://github.com/booyakuhhsha/rubyAdvancedBuildingBlocks/blob/master/bubblesort.rb)
 * [grzegorzzajac1989's solution](https://github.com/grzegorzzajac1989/theOdinProject/blob/master/ruby/advenced_building_block/bubble_sort.rb)
 * [Jason Keeney's solution](https://github.com/jkeeney/Advanced-Building-Blocks/blob/master/bubble_sort.rb)
-* [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/blob/master/The%20odin%20project%20(Ruby%20projects/Basic%20Ruby/bubble_sort.rb))
+* [Hassan's solution](https://github.com/HassanTC/Ruby_TheOdinProject/blob/master/The%20odin%20project%20(Ruby%20projects/Basic%20Ruby/bubble_sort.rb)
 * [Bishal's solution](https://github.com/biiishal/advanced_building_blocks/tree/master/bubble_sort)
 * [Kaaviya's solution](https://github.com/Kavi6/curriculum/blob/9a535b506f437c306422d9d37874215e15636985/Kaaviya's%20Solution%20(bubble_sort))
 * [Jerry Gao's solution](https://github.com/blackwright/odin/tree/master/ruby_bubble_sort)
@@ -497,7 +497,6 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Alex's Solution](https://github.com/alexcorremans/enumerable)
 * [HuyAnh's Solution](https://github.com/huyanh10tin/caesar_cipher/blob/master/enumerable.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/furry-octo-fiesta)
-
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
