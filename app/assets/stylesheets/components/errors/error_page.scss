@@ -12,8 +12,9 @@
     }
 
     @include media-breakpoint-down(sm) {
-      height: 65vh;
-      background-position: 75% 75%;
+      background-position: 65% 70%;
+      background-size: 140%;
+      height: 79vh;
     }
   }
 }
