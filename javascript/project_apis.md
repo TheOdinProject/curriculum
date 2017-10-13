@@ -30,7 +30,7 @@ Play around with the other options the Maps API gives you -- you can customize a
 * [David Chapman's solution](https://github.com/davidchappy/odin_training_projects/tree/master/js-google-maps)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/google-maps-project) | [View in browser](https://sophialwu.github.io/google-maps-project/)
 * [Daunenok's solution](https://github.com/daunenok/google-map) | [View in browser](https://daunenok.github.io/google-map/)
-* [Axel's solution](https://github.com/afuh/iss) | [View in browser](http://subsequent-distance.surge.sh/)
+* [Axel's solution](https://github.com/afuh/iss) | [View in browser](http://iss.surge.sh/)
 * [Austin's solution](https://github.com/CouchofTomato/google-map-api-test) | [View in browser](https://couchoftomato.github.io/google-map-api-test/)
 
 ### Additional Resources
