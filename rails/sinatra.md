@@ -41,4 +41,5 @@ There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as yo
 
 * [Jump Start Sinatra](https://www.sitepoint.com/store/jump-start-sinatra/) is a really great and pretty thorough look at Sinatra, but it's not free.  A good resource if you're really interested.
 * [Sinatra Walkthrough from General Assembly](https://github.com/ga-wdi-lessons/sinatra-walkthrough) A tutorial for building an online database of fish called "Finatra". Includes three screencasts and is a bit easier to digest than the Sinatra README.  
+* [Gentle intro to Sinatra from rubymonstas](http://webapps-for-beginners.rubymonstas.org/sinatra.html) if you find Sinatra README too overwhelming, and their section on [sessions](http://webapps-for-beginners.rubymonstas.org/sessions.html), which will be helpful in the upcoming project.
 * *Add some of your own!*
