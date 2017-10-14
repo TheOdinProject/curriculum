@@ -1241,6 +1241,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Sumanthvrao's Solution](https://github.com/sumanthvrao/google-homepage) | [View in browser](https://sumanthvrao.github.io/google-homepage/)
 * [AlfredaKava's Solution](https://github.com/alfredakava/google-homepage) | [View in browser (Easy)](https://cdn.rawgit.com/alfredakava/google-homepage/053498c9/index.html)
 * [Sinchana Gowda's Solution](https://github.com/sinchanagowda98/The_Odin_Project) | [View in browser](https://sinchanagowda98.github.io/The_Odin_Project/)
+* [Tanmayaudupa's Solution](https://github.com/tanmayaudupa/google-homepage) | [View in browser](https://tanmayaudupa.github.io/google-homepage/)
 
 ### <a id="additional-resources"></a>Additional Resources
 
