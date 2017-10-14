@@ -33,9 +33,9 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
-* [Dmitriy's solution to problems 1-2] (https://github.com/DmitriyNar/euler)
-* [Ozra's solution to problems 1-7] (https://github.com/0zra/euler)
-* [Freya's solution to problem 1] (https://github.com/fbl11/TOPAssignmentEulerProblems)
+* [Dmitriy's solution to problems 1-2](https://github.com/DmitriyNar/euler)
+* [Ozra's solution to problems 1-7](https://github.com/0zra/euler)
+* [Freya's solution to problem 1](https://github.com/fbl11/TOPAssignmentEulerProblems)
 * [Maria Tikhonova's solution to problem 1](https://github.com/MariaTikhonova/project-euler-problems)
 * [Chris's interactive challenge 1 solution](https://github.com/chrisauinmotion/projectEuler_challenge1) | [View in browser](https://chrisauinmotion.github.io/projectEuler_challenge1/)
 * [Alin Simion's solution to problem 1](https://github.com/alinsg/project-euler-problems)
