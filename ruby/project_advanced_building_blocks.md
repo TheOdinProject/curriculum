@@ -497,6 +497,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 * [Alex's Solution](https://github.com/alexcorremans/enumerable)
 * [HuyAnh's Solution](https://github.com/huyanh10tin/caesar_cipher/blob/master/enumerable.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/furry-octo-fiesta)
+
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
