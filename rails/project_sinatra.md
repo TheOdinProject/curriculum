@@ -94,6 +94,7 @@ Pick either Mastermind or Hangman and build a front end for it.  This one might 
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* Jmooree30's solution (Hangman) [Github](https://github.com/jmooree30/Sinatra_hangman.git) | [Live](https://gentle-waters-29359.herokuapp.com/)
 * [Andrew's solution (Mastermind)](https://rocky-wildwood-37033.herokuapp.com/) | [Source](https://github.com/andrewr224/mastermind_reload)
 * Raiko's solution (Mastermind) [Github](https://github.com/Cypher0/mastermind) | [Live](https://damp-brook-36728.herokuapp.com/)
 * theghall's solution (Mastermind) [Github](https://github.com/theghall/sinatra-mastermind) | [Live](https://safe-eyrie-38662.herokuapp.com/)
