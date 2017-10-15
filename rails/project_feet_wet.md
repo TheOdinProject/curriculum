@@ -34,6 +34,7 @@ In this chapter, you'll build a simple scaffolded app on Rails.  It won't be as 
 *If you will be submitting a solution for the RoR tutorial chapter 2, make sure it's in a repo that you won't overwrite when we move onto chapter 3 (which starts a new app)*
 
 * Add your solution below this line!
+* [Jmooree30's solution](https://github.com/jmooree30/Rails-toy-app.git) | [Live](https://mysterious-wave-57564.herokuapp.com/)
 * [Kasey Z's solution](https://github.com/kasey-z/toy_app) | [Live](https://tranquil-brook-79304.herokuapp.com/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/toy_app)
 * [jdrobertso's solution](https://github.com/jdrobertso/toy_app) | [Live](https://dry-ravine-83827.herokuapp.com/)
