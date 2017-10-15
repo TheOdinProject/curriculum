@@ -142,16 +142,15 @@ If you don't want to rely on Rails' native behavior and would like to make absol
     CGI::escapeHTML('usage: foo "bar" <baz>')
     # => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
 ```
-
-<div class="assignment">
             
 ### Assignment
-Some necessary and straightforward reading on the Asset Pipeline:
-
-1. Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
-
+<div class="assignment">
+  <p>Some necessary and straightforward reading on the Asset Pipeline:</p>
+  <ol>
+      <li>Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.<li>
+  </ol>
 </div>
-
+      
 ### Conclusion
 
 The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.  
