@@ -156,8 +156,11 @@ If you don't want to rely on Rails' native behavior and would like to make absol
 The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.  
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+<div class="lesson-content--additional-resources-intructions">
+   <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+   <p>This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to       dive deeper into something.
+   </p>
+ </div>
 
 * [Ryan Bates' asset pipeline Railscast](http://railscasts.com/episodes/279-understanding-the-asset-pipeline?view=asciicast)
 * [Schneems on the Asset Pipeline](https://www.youtube.com/watch?v=FYdBpNUVxuI)
