@@ -359,6 +359,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [Santiago ROdríguez Solution](https://github.com/santoxxcc/learn_ruby)
 * [WilPoly's solution](https://github.com/wilPoly/learn_ruby)
 * [abraxaswisz's solution](https://github.com/abraxaswisz/learn_ruby)
+* [NJW's Solution](https://github.com/obsessivenerds/learn_ruby)
 
 ### <a id="additional-resources"></a>Additional Resources
 
