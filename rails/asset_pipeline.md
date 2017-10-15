@@ -149,6 +149,7 @@ If you don't want to rely on Rails' native behavior and would like to make absol
 Some necessary and straightforward reading on the Asset Pipeline:
 
 1. Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
+
 </div>
 
 ### Conclusion
