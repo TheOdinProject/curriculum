@@ -26,7 +26,7 @@ Javascript files are the same -- all of them get smooshed together and then ugli
 
 Rails needs to know which files to include in that giant blob, so it uses so-called "manifest" files to determine this.  Your javascript manifest file will be `app/assets/javascripts/application.js`.  It looks commented out, but the lines starting with `//=` tell Rails which files to go find and include.  The comments in the file are pretty useful -- they say:
 
-```language-ruby
+```language-javascript
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -49,7 +49,7 @@ The `require_tree` helper method just grabs everything in the current directory.
 
 Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css.scss`:
 
-```language-ruby
+```language-scss
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -143,7 +143,7 @@ If you don't want to rely on Rails' native behavior and would like to make absol
     # => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
 ```
 
-<div class="assignment>
+<div class="assignment">
             
 ### Assignment
 Some necessary and straightforward reading on the Asset Pipeline:
