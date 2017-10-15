@@ -147,7 +147,7 @@ If you don't want to rely on Rails' native behavior and would like to make absol
 <div class="assignment">
   <p>Some necessary and straightforward reading on the Asset Pipeline:</p>
   <ol>
-      <li>Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.</li>
+      <li>Read <a href="http://guides.rubyonrails.org/asset_pipeline.html"Rails"> Guides on the Asset Pipeline</a> sections 1 to 3.</li>
   </ol>
 </div>
       
