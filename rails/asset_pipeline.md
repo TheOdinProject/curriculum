@@ -3,9 +3,7 @@
 You've learned about Models, Views, and Controllers.  That's the nuts and bolts, but we've got plenty of neat stuff to cover which makes Rails much more useful to you.  In this lesson, we'll talk about the Asset Pipeline and a few other topics that don't necessarily fit well in other lessons but are important to cover nonetheless.
 
 ### Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+Look through these now and then use them to test yourself after doing the assignment
 
 * What is the "Asset Pipeline"?
 * What are "Manifest Files"?
@@ -28,7 +26,7 @@ Javascript files are the same -- all of them get smooshed together and then ugli
 
 Rails needs to know which files to include in that giant blob, so it uses so-called "manifest" files to determine this.  Your javascript manifest file will be `app/assets/javascripts/application.js`.  It looks commented out, but the lines starting with `//=` tell Rails which files to go find and include.  The comments in the file are pretty useful -- they say:
 
-```language-javascript
+```language-ruby
 // This is a manifest file that'll be compiled into application.js, which will include all the files
 // listed below.
 //
@@ -51,7 +49,7 @@ The `require_tree` helper method just grabs everything in the current directory.
 
 Your stylesheet manifest file operates on the same principle -- it's available at `app/assets/stylesheets/application.css.scss`:
 
-```language-css
+```language-ruby
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -134,7 +132,9 @@ To get your views to actually render HTML as HTML, you need to let Rails know th
 
 To tell Rails a string is safe, just use the method `raw` in your view template, for example:
 
-    <%= raw "<p>hello world!</p>" %>   <!-- this will create real <p> tags -->
+```language-ruby
+  <%= raw "<p>hello world!</p>" %>   <!-- this will create real <p> tags -->
+```
 
 If you don't want to rely on Rails' native behavior and would like to make absolutely sure the HTML does not get run, use the `CGI` class's `escapeHTML` method, e.g.
 
@@ -143,12 +143,13 @@ If you don't want to rely on Rails' native behavior and would like to make absol
     # => "Usage: foo &quot;bar&quot; &lt;baz&gt;"
 ```
 
-### Your Assignment
-
+<div class="assignment>
+            
+### Assignment
 Some necessary and straightforward reading on the Asset Pipeline:
 
 1. Read [Rails Guides on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html) sections 1 to 3.
-
+</div>
 
 ### Conclusion
 
