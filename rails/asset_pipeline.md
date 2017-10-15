@@ -144,7 +144,7 @@ If you don't want to rely on Rails' native behavior and would like to make absol
 ```
             
 ### Assignment
-<div class="assignment">
+<div class="lesson-content__assignment">
   <p>Some necessary and straightforward reading on the Asset Pipeline:</p>
   <ol>
       <li>Read <a href="http://guides.rubyonrails.org/asset_pipeline.html"Rails"> Guides on the Asset Pipeline</a> sections 1 to 3.</li>
@@ -156,7 +156,7 @@ If you don't want to rely on Rails' native behavior and would like to make absol
 The Asset Pipeline isn't something that you often think about, especially when just building little toy apps, but it becomes important to understand as soon as you want to deploy your application (because you'll need to take it into account, which we'll talk about in that lesson later) or work with anything but the vanilla asset structure.  
 
 ### Additional Resources
-<div class="lesson-content--additional-resources-intructions">
+<div class="lesson-content__intructions">
    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
    <p>This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to       dive deeper into something.
    </p>
