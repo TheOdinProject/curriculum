@@ -121,6 +121,7 @@ You'll build a simple binary tree data structure from some arbitrary input and a
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-binary-search-tree)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Data_Structures)
 * [Jason Dancocks's solution](https://github.com/JasonDancocks/Ruby/blob/master/binarysearchtree/binarysearchtree.rb)
+* [Jamesredux's solution](https://github.com/Jamesredux/binary_tree)
 
 ### Project 2: Knight's Travails
 
