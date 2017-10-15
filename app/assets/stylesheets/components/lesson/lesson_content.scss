@@ -2,25 +2,31 @@
   margin-top: 50px;
   padding-bottom: 60px;
 
-  h2 {
-    font-size: 18px;
+  h3 {
+    margin-bottom: 20px;
+    margin-top: 50px;
     font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    color: $primary;
-    margin: 50px 0;
+    color: $text-primary;
+    font-size: 1.5em;
   }
 
-  h3 {
-    margin: 50px 0 25px;
+  h4 {
+    margin-bottom: 10px;
     font-weight: bold;
-    color: $grey;
+    color: $text-primary;
     font-size: 18px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.3px;
   }
 
   p {
     margin-bottom: 30px;
+    line-height: 1.9;
+    color: $text-primary;
+  }
+
+  pre {
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
   }
 
   li {
@@ -34,6 +40,9 @@
 
   ul {
     padding-left: 1em;
+    color: $grey;
+    line-height: 1.9;
+    margin-bottom: 50px;
   }
 
   ol {
@@ -44,5 +53,27 @@
     width: 100%;
     height: 100%;
     padding: 1em 0;
+  }
+
+  &__assignment {
+    background-color: $white-smoke;
+    padding: 2em 1.5em;
+    margin: 20px 0 50px 0;
+  }
+
+  &__instructions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    i {
+      margin-right: 20px;
+      color: $button-primary;
+      font-size: 2.25em;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
   }
 }
