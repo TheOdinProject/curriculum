@@ -32,10 +32,10 @@
   li {
     color: $grey;
     font-size: 1.125rem;
-    }
+  }
 
   ul, ol {
-    line-height: 1.88;
+    line-height: 1.9;
   }
 
   ul {
@@ -43,6 +43,11 @@
     color: $grey;
     line-height: 1.9;
     margin-bottom: 50px;
+
+    li {
+      border: none;
+      list-style-type: disc;
+    }
   }
 
   ol {
