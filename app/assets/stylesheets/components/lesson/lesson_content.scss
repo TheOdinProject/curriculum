@@ -55,6 +55,10 @@
     padding: 1em 0;
   }
 
+  code {
+    word-wrap: break-word;
+  }
+
   &__assignment {
     background-color: $white-smoke;
     padding: 2em 1.5em;
