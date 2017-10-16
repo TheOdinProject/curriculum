@@ -125,7 +125,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [Dylan's non RESTful solution](https://github.com/resputin/the_odin_project/tree/master/Rails/private-events)
 * [DV's solution](https://github.com/dvislearning/private-events) | [View in browser](https://sleepy-everglades-63021.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/private-events) | [View in browser](https://quiet-forest-50554.herokuapp.com/)
-* [Eric Gonzalez solution](https://github.com/Twinpair/Eventor) | [View in browser](https://railseventor.herokuapp.com/)
+* [Eric Gonzalez solution](https://github.com/Twinpair/Eventor) | [View in browser](https://rails-eventor.herokuapp.com/)
 
 ### Additional Resources
 
