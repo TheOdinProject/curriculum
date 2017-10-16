@@ -360,6 +360,7 @@ This exercise will involve a lot of figuring things out.  There aren't very deta
 * [WilPoly's solution](https://github.com/wilPoly/learn_ruby)
 * [abraxaswisz's solution](https://github.com/abraxaswisz/learn_ruby)
 * [NJW's Solution](https://github.com/obsessivenerds/learn_ruby)
+* [Samitha's Solution](https://github.com/samomatik/learn_ruby)
 
 ### <a id="additional-resources"></a>Additional Resources
 
