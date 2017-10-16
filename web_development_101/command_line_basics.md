@@ -31,7 +31,7 @@ You will be making heavy use of the command line throughout this curriculum, the
 
 *Note: Many of these assume you're using a Mac or a Linux environment. You can skip ahead to the installations section and follow the instructions to install Linux or use an online IDE like [cloud 9](https://c9.io/), which has a terminal window you can practice with.*
 
-<p class="lesson-content__assignment">
+<p class="lesson-content__assignment" markdown=1>
   
 1. To get an initial high-level overview of the command line, check out [A Command Line Crash Course](http://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) from the Viking Code School Prep Work.
 2. To layer on a bit more depth, read through [chapter 1 of conquering the command line](http://conqueringthecommandline.com/book/basics).
