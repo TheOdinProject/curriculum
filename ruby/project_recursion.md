@@ -15,6 +15,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Ben Deltenre's solution](https://github.com/benjdelt/recursion)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/fibs.rb)
 * [Andrew's solution](https://github.com/andrewr224/Recursion)
 * [Jason McKee's solution with 3, 2 and 1 line methods](https://github.com/jttmckee/odin-project-ruby/tree/master/fibonacci)
@@ -163,6 +164,7 @@ The first step is to actually understand what the merge sort algorithm is doing:
 *Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
 
 * Add your solution below this line!
+* [Ben Deltenre's solution](https://github.com/benjdelt/recursion)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/merge_sort.rb)
 * [Andrew's solution](https://github.com/andrewr224/Recursion)
 * [Jason McKee's solution](https://github.com/jttmckee/odin-project-ruby/tree/master/merge_sort)
