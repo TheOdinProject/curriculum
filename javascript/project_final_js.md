@@ -27,6 +27,7 @@ Of course, you can't copy every single feature and a lot of the user interface w
 * [Axel's solution](https://github.com/afuh/pinstagram) | [View in browser](https://pinstagram-app.herokuapp.com/)
 * [Donald's solution](https://github.com/donaldali/odinbook "Odinbook on GitHub") | [View in browser](https://dna-odinbook.herokuapp.com/ "Odinbook on Heroku")
 * [David Chapman's solution](https://github.com/davidchappy/lesson-scheduler) | [View in browser](http://lesson-scheduler.herokuapp.com/)
+* [Eric Gonzalez solution](https://github.com/Twinpair/Acquaintion) | [View in browser (Twitter Clone)](https://acquaintion.herokuapp.com/)
 
 
 ### Additional Resources
