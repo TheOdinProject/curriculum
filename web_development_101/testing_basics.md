@@ -37,5 +37,6 @@ Regardless of how exactly it's done, testing is highly important and you'll be r
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 * A [very detailed treatise on test driven development](http://www.agiledata.org/essays/tdd.html) from AgileData.org.
+* [Testing For Beginners](http://testing-for-beginners.rubymonstas.org/index.html) free online book by Ruby Monstas.
 * Sarah Allen's [video on TDD as a teaching tool](http://www.youtube.com/watch?v=KgfdlZuVz7I&list=PLUsjeAGxOpOq9VVgjs7FgvIHMULMrJI_w&index=2)
 * A more generic (and shorter) [presentation on TDD](http://www.youtube.com/watch?v=y6yJuPJK67w&list=PLUsjeAGxOpOq9VVgjs7FgvIHMULMrJI_w&index=4)
