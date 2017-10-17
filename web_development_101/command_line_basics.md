@@ -35,8 +35,6 @@ You will be making heavy use of the command line throughout this curriculum, the
 2. To layer on a bit more depth, read through [chapter 1 of conquering the command line](http://conqueringthecommandline.com/book/basics).
 3. (Optional) If you'd still like some more practice, complete the first 2 sections of [this interactive Codecademy course](https://www.codecademy.com/en/courses/learn-the-command-line) to get practice navigating and manipulating directories and files.
 
-
-
 ### <a id="exercise"></a>Exercise
 In this exercise you will practice creating files and directories and deleting them.
 
