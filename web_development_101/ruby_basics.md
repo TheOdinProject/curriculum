@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 Our back end focus will be on Ruby, the language designed for programmer happiness.  What takes dozens of lines of code in Java or a hundred in C could take just a couple in Ruby because it prepackages lots of sneaky functions into easy-to-use convenience methods.  
 
@@ -12,7 +12,7 @@ In this lesson we'll do a healthy introduction to Ruby and then, later on in the
 
 A final note -- you'll be learning a bunch of new terminology and concepts here but don't think they're only applicable to Ruby.  Most of it (like methods, classes, objects etc.) will pop up again in pretty much any other language you ever pick up.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment.
 
 * What is an "interpreted" language?
@@ -27,7 +27,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a library?
 * What is a gem?
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -36,7 +36,7 @@ Look through these now and then use them to test yourself after doing the assign
   3. Dive in a little deeper by reading chapters 1-10 of Chris Pine's [Learn to Program](http://pine.fm/LearnToProgram/?Chapter=00).  Try to do the exercises at the end of each chapter.  Take a crack at chapter 10, but don't feel disheartened if it still doesn't click for you.  Answers to the exercises are available at [learntoprogramanswers.blogspot.com](http://learntoprogramanswers.blogspot.com/)
 </div>
 
-### <a id="bonus-assignment"></a>Bonus Assignment:
+### Bonus Assignment:
 
 <div class="lesson-content__panel" markdown="1">
   Redo the same Project Euler problem that you previously did in Javascript but using Ruby instead (try using IRB or a .rb file that you run from the command line by using `$ ruby ./yourfilename.rb`):
@@ -50,7 +50,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Read [Smashing Magazine's Intro to Ruby article](https://hackhands.com/beginners-guide-ruby/) for another good beginner-level treatment of the language as a whole.

@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 If you are new to the coding world, you may have an image of the programmer as a solitary person coding by herself in a darkened room, eating Doritos and chugging Mountain Dew. While the Mountain Dew part may be true, a lot of modern companies use a concept known as Pair Programming. Pair Programming is one of the core concepts of [Extreme Programming](http://www.extremeprogramming.org/) which was a philosophy of software development that came out of the '90s. I guess that should come as no surprise with a name like "Extreme!"
 
@@ -11,21 +11,21 @@ There are many benefits to pair programming, two of the main ones both stem from
 Once you finish these lessons, you should have the tools to be able to collaborate with people from anywhere on the globe, and we want to encourage you to find someone else who is working through The Odin Project to team up with. Two heads are better than one.
 
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 
 * What is Pair Programming?
 * What are the benefits of Pair Programming?
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
   1. Read [this article](https://www.agilealliance.org/glossary/pairing/) from [Agile Alliance](https://www.agilealliance.org/) for a good overview and history of Pair Programming.
   2. Along with the obligatory car metaphor, [this article](http://techcrunch.com/2012/03/17/pair-programming-considered-extremely-beneficial/) talks about some of the benefits of Pair Programming.
-  
+
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * An older [writeup on pairing](http://collaboration.csc.ncsu.edu/laurie/pair.html) from Dr. Laurie Williams of NC State University has a rich bibliography of research on pairing.

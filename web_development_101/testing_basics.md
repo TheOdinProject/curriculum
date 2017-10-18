@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 Testing is one of those things that people often don't think about when they decide to learn about web development but it's critically important to the production of professional quality applications and it will save you tons of time and headache in the end.
 
@@ -10,13 +10,13 @@ On the back end, you will learn RSpec, a language that is written in Ruby and on
 
 Although we're covering this topic in the "Back End" section, testing isn't just for the server-side.  On the front end, we'll later learn a language called Jasmine to do a similar sort of thing for Javascript.  That should make sense to you -- the reasons to properly test your code apply whether it's run on a server or in the browser.
 
-### <a id="approaches-to-testing"></a>Approaches to Testing
+### Approaches to Testing
 
 Everyone does testing a little differently.  Some teams still rely heavily on a Quality Assurance (QA) department with people manually executing checklists like we described in the example above.  Some people use an approach called Test Driven Development (TDD) in which they write the (failing) test first and only then do they actually write the code necessary to make it pass, and thus very deliberately build the application out with 100% test coverage.  Others prefer to keep their test suites fairly light and will only write tests for the major interactions on their pages and any bugs that they have to fix along the way (to make sure they don't come back).  
 
 Regardless of how exactly it's done, testing is highly important and you'll be required to do it whatever your job is.  Beginning developers are often tasked to write tests and fix bugs to become familiar with a given code base.  Luckily, we'll cover testing more in the Ruby and Rails and Javascript courses later in the curriculum.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment
 
 * What exactly does "testing" mean for web applications?
@@ -27,7 +27,7 @@ Look through these now and then use them to test yourself after doing the assign
 * How do you run a RSpec test suite?
 * How do you write a basic RSpec test?
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -35,7 +35,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * A [very detailed treatise on test driven development](http://www.agiledata.org/essays/tdd.html) from AgileData.org.

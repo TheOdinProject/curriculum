@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 In this project, you'll get the opportunity to actually build a real rails application.  It's not a trivially simple one either -- it's got a lot of wrinkles and things that you're not going to understand.
 
@@ -6,7 +6,7 @@ To be honest, you're kind of going into the deep end so don't worry if you don't
 
 Because you'll be doing so much stuff that we haven't taught you yet, this is a good project to find a partner to work with on even though it's just following a tutorial.
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -19,7 +19,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
   7. Don't forget to deploy your app to Heroku!  [Review Heroku deployment here.](http://installfest.railsbridge.org/installfest/deploy_a_rails_app)
 </div>
 
-### <a id="student-solutions"></a>Student Solutions
+### Student Solutions
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
@@ -283,7 +283,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Eric Gonzalez solution](https://github.com/Twinpair/Blogger) | [View in Browser](https://rails-blogger-app.herokuapp.com/)
 
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * The [official Ruby on Rails guides](http://guides.rubyonrails.org/) are an excellent resource if you want to build on your knowledge.

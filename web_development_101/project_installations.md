@@ -1,11 +1,11 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 One step which can be unnecessarily frustrating is making sure everything is installed on your computer so you can begin developing. It can be even more frustrating if you're not already comfortable using a Mac or Linux system before you start, so because of that, this step is often one of the primary reasons that people give up on coding before they even start.
 
 Even so, if you're interested in being at least a half-serious web developer you *will* need to get this stuff up and running on your machine at some point and it's best to get it done early.  
 
 While some of our early lessons _do_ use online tutorials, we believe that the best way to get usable real-world skills is to develop on your own machine rather than simply following tutorials in a closed online environment. This lesson is devoted solely to helping you install what you need to install so we can get it over with and move on to the good stuff.  
 
-### <a id="backend-vs-frontend-installations"></a>Back End vs Front End Installations
+### Back End vs Front End Installations
 
 We've already covered what the overall difference is between back end (server-side) and front end (client-side) programming, but you'll see it manifested again in how you install the necessary software.  Because the client-side code runs in the browser, all you really need to write some HTML, CSS and Javascript is a web browser like Chrome, Firefox or (shudder) Internet Explorer.  
 
@@ -15,7 +15,7 @@ Another reason things get a bit more complicated on the back end is because prog
 
 Because of this, there are many little pieces and parts that you are going to need to get up and running.  Don't be afraid at this point if you don't know or understand what everything is, as you progress it will all become quite clear.
 
-### <a id="why-cant-i-use-windows"></a>Why can't I use Windows?
+### Why can't I use Windows?
 
 Ok, we get it.. you're very comfortable with the system you've already got running, and chances are, you're one of those "Computer People" that actually knows how the system works to some degree or another.  You're probably even telling yourself that if anyone can make this stuff work on Windows, it's you.
 
@@ -35,7 +35,7 @@ The programmers who created Rails had a preference for unix based operating syst
 
 We at Odin don't have anything against Windows, we simply want you to succeed at your goal of learning to program. We don't want to see you get majorly frustrated and giving up on this first hurdle of getting everything installed. Therefore we unequivocally recommend using linux or a Mac for this curriculum.
 
-### <a id="intalling-linux"></a>Installing Linux
+### Installing Linux
 The good news is installing linux is not as hard as you might have imagined, first of all Linux is free so you don't have to pay for anything, Yay! Secondly there are three different options that you can choose from to use linux on your machine alongside Windows, so you can choose the one that suits your situation best.
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We won't go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
@@ -97,7 +97,7 @@ If you absolutely can not install Linux to your machine, or if the Virtual Machi
 * You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
-### <a id="what-you-will-be-installing"></a>What You'll Be Installing
+### What You'll Be Installing
 
 Luckily, it's all free.  You'll be installing each of these using the tutorial below, but first here's a brief word about each item:
 
@@ -142,7 +142,7 @@ What about Rails?  Rails is actually a Ruby gem of its own since it's really jus
 
 XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  Even though we won't be using it for that purpose, it's also got some command line tools that you'll be using so you're probably going to have to install it all (it's a giant package).
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -154,7 +154,7 @@ XCode is Apple's integrated development environment for creating Mac, iPhone and
 </div>
 
 
-### <a id="checklist"></a>Checklist
+### Checklist
 
 ##### Before moving on, you should have:
 * Set up your [github](http://github.com/) account
@@ -168,7 +168,7 @@ If all else fails, one of the best web-based development environments to use for
 
 It relies on having an internet connection, but gives you a command line, a text editor, and the ability to run a local server right out of the box.
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 If you've run into issues with your installation and are desperately looking for something else to try, take a deep breath first and go back over the instructions step-by-step to make sure you've followed them properly.  You can run into some odd issues if you start trying to mix together different installation recommendations, because some of them use auto-installers and have you install things in slightly different places so you may end up with a couple copies of key components.  It may work fine on the surface, but some day it'll probably come back and frustrate you again.  But, if you must, here are some other people's installation recommendations:

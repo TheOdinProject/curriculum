@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 In this project, you'll get a chance to actually build a pretty nifty tool to flex your Javascript and jQuery muscles.  Up until now, you've had your hand held quite a bit by Codecademy.  Now it's time to do it on your own.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
@@ -9,7 +9,7 @@ The key is to break it down into little manageable steps and then figure out how
 If you get totally stuck, solutions from other students are listed below.  I'd encourage you to struggle for a bit on your own before checking them out.
 
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -39,7 +39,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 </div>
 
-### <a id="student-solutions"></a>Student Solutions
+### Student Solutions
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!

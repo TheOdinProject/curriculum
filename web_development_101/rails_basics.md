@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 You're probably here because you want to learn the [Ruby on Rails](http://rubyonrails.org/) framework but you may not be entirely sure what it is.  Well, Rails is just a bunch of ruby code written to handle the parts of a web application that you don't often want to think about.  
 
@@ -17,7 +17,7 @@ Rails also firmly organizes your code using an MVC pattern which you will come t
 
 The best way to understand Rails is to use it, so we'll spend a bit of time on some videos and reading but you'll mostly be building your own Rails sample app.  You may have no idea what you're doing, and that's okay, but at least you should begin to understand what you DON'T know and what you'll want to pay attention to going forward.  A good tactic is to write down all the things that confuse you and either go looking for them on your own or keep them in mind for later when we do our deep dive into Rails.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment.
 
 * What is Rails?
@@ -32,7 +32,7 @@ Look through these now and then use them to test yourself after doing the assign
 * What is a controller?
 * What is a model?
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -43,7 +43,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [MVC for Noobs](http://net.tutsplus.com/tutorials/other/mvc-for-noobs/) uses PHP as an example later in the article, but you should get the gist of it.

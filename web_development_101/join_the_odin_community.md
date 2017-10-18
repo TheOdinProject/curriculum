@@ -1,7 +1,7 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 Working and collaborating with other people on a project, whether it be big or small, is an important part of becoming a web developer. Therefore at Odin we encourage you to participate in our online community chat where we can all grow together towards becoming web developers.  While you're at it, why not check out our [Facebook page](https://www.facebook.com/theodinproject/) and follow us on twitter [@TheOdinProject](https://twitter.com/TheOdinProject).
 
-### <a id="assignment"></a> Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -9,13 +9,13 @@ Working and collaborating with other people on a project, whether it be big or s
 
   2. Finally sign in to the chat with your newly minted Github account [here](https://gitter.im/TheOdinProject/theodinproject). Jump in and introduce yourself; tell us your story! Where are you from? What made you aspire to become a web developer? What are your hopes and dreams? We encourage you to keep on sharing your thoughts AND your code.
 
-  We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
-
-  Read on to find out how to make use of our community.
-
 </div>
 
-### <a id="why-the-chat-is-awesome-for-you"></a> Why chat is awesome for you
+We have chat rooms for every development topic covered by Odin and beyond. You can view all the rooms we currently have [here](https://gitter.im/orgs/TheOdinProject/rooms).
+
+Read on to find out how to make use of our community.
+
+### Why chat is awesome for you
 
 Web development will be a long and arduous journey - you can make the marathon a lot more fun by pairing up with somebody who is running it at the same pace as you. It is a great way to bounce ideas off each other and motivate one another to the finish line.
 
@@ -25,18 +25,17 @@ When you run into the desert of despair - where your code doesn't work or make s
 
 Remember that project you struggled with tirelessly and that you're so proud of finishing? You will get to share your work and progress with those that really appreciate how much hard work went into it.
 
-### <a id="why-the-chat-is-awesome-for-odin"></a> Why chat is awesome for Odin
+### Why chat is awesome for Odin
 
 We are working hard to update existing lessons and produce new content so we would love to hear your feedback on how you are coping with the lessons and projects. We really want you to find the lessons fun, engaging, and informative; while we would like you to find projects to be doable and challenging. So please tell us!
 
-### <a id="oh-foo-bar"></a> Oh foo bar!
+### Oh foo bar!
 
 As most of the projects are designed to push you to your limit, please remember there is always a community to turn to! You do not need to know how to solve every problem straight away - BUT you do need to have a general idea of where you are going. This becomes really important when asking your questions because sometimes the problem can be a matter of your **approach** and not your coding ability.
 
 If your approach is right and the problem is a tough one, it's a good time to pause and take a breather. Break the problem down into little pieces and then decide what is really holding you back - we call this technique [rubber duck debugging](https://en.wikipedia.org/wiki/Rubber_duck_debugging). Who knows, you might have realised the solution already. If a solution still cannot be found, it's question time.
 
-### <a id="asking-your-questions"></a> Asking your questions
-
+### Asking your questions
 A good way to phrase your question is to tell us the context:
 
 * What do you think the problem is?
@@ -45,7 +44,7 @@ A good way to phrase your question is to tell us the context:
 * How did you get there?
 * What have you tried so far?
 
-### <a id="formatting-your-questions"></a> Formatting your questions
+### Formatting your questions
 
 Making your questions in a readable format helps everyone debug them better; here are some ways to go about that:
 
@@ -72,7 +71,7 @@ Show us a **screenshot** if you can't pinpoint the problem - you should use this
 
 **Push your code to GitHub!** If the puzzle still can't be solved, push your project to GitHub so that others can comb through and debug the code. (You'll get to know about GitHub really soon.)
 
-### <a id="some-fun-in-chat"></a> Some Fun in Chat
+### Some Fun in Chat
 
 * Have fun with giphys: type `/giphy hi` to say Hi to everyone.
 * Navigate the chatroom better by typing `/help` for more info.

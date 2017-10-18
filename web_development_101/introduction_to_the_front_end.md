@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 The "front end languages" live in the browser.  After you type in an address in the address bar at the top and hit Enter, your browser will receive at least an HTML file from the web server.  That file will likely tell the browser to go and also ask for a CSS file and a Javascript file as well (probably many more than one, but we'll keep it simple).  
 
@@ -10,14 +10,14 @@ On the front end, you will need to be highly conscious of who your user is and h
 
 In the following lessons, you'll get a healthy understanding of each of the three frontend languages (and jQuery, the most popular Javascript library).  To get warmed up, we'll just start at the high level.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
 * What is the role of HTML in a web page?
 * What is the role of CSS in a web page?
 * What is the role of Javascript in a web page?
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -27,7 +27,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Skills of a Successful Front-end Web developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).

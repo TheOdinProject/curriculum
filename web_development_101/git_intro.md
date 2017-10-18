@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 Git is like a really **epic save button** for your files and directories - officially Git is called a version control system.
 
@@ -18,7 +18,7 @@ And finally, you will set up a project with Git and this will serve as a templat
 
 But for now, in this lesson, try to understand what Git is and why it is so powerful!
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 By the end of this lesson you should be able to:
 
 * Define what kind of program Git is
@@ -26,7 +26,7 @@ By the end of this lesson you should be able to:
 * Describe whether Git and GitHub work at a local or remote level
 * Describe why Git is useful for an individual developer and a team of developers
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -38,8 +38,7 @@ By the end of this lesson you should be able to:
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Git and Github in plain English](https://blog.red-badger.com/blog/2016/11/29/gitgithub-in-plain-english)

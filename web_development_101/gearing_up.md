@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 Learning how to program takes work. Like any skill worth knowing it takes time to acquire and it can't
 be learned in a weekend or month for that matter. With that said, we believe anyone can learn how to program as long as they are willing to put in the time and effort. So before we get into the meat of the curriculum, it would be beneficial to go over the following so you  can get the most out of Odin:
@@ -6,7 +6,7 @@ be learned in a weekend or month for that matter. With that said, we believe any
 * the things that will help you succeed in your goal of learning to code.
 * the pitfalls that you should try to avoid.
 
-### <a id="mindset"></a>Mindset
+### Mindset
 Your mindset is very important when teaching yourself *any* new skills - not just
 programming. Your mindset will have more of an impact on your chances of success than just about
 anything else.
@@ -70,7 +70,7 @@ To learn more about the growth mindset use these resources:
 * [You can learn anything](https://www.khanacademy.org/talks-and-interviews/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart)
 * [Start Here - The Motivation Episode and Becoming a Programming Super Learner](http://starthere.fm/webdev/23-the-motivation-episode-and-becoming-a-programming-super-learner)
 
-### <a id="the-best-ways-to-learn"></a>The Best Ways To Learn
+### The Best Ways To Learn
 Odin's curriculum has two fundamental aspects: lessons and projects.
 
 Lessons: You will be assigned resources to read, watch, and do in a lesson. These are comprised of various resources we have gathered from all over the internet. The reason why we do this, over rolling our own material for everything, is because this allows us to utilise the very best resources to teach you. These are resources created by experts in their fields and are the authorities in what they are teaching.
@@ -88,13 +88,12 @@ programming concepts and techniques actually operate.
 
 When learning, your mind will consistently switch between the following two states:
 
-**Focus mode:**
 
+#### Focus mode
 This state occurs when you are consciously focusing on learning, reading,
 watching videos, or working on a project.
 
-**Diffuse mode:**
-
+#### Diffuse mode
 This state occurs subconsciously, at times when you are not actively learning,
 such as doing the dishes, exercising, sleeping, etc. When in this state your mind
 goes about the business of connecting what you have been learning to the other
@@ -175,7 +174,7 @@ Solution: find a quiet study place in your home you can go to to focus. If that'
 not an option you can use noise cancelling head phones to block out any noise
 distractions from your environment.
 
-### <a id="pitfalls-to-avoid"></a>Pitfalls To Avoid
+### Pitfalls To Avoid
 The following are some of the pitfalls that beginners often make when learning how
 to program; try your best to avoid these.
 
@@ -197,13 +196,13 @@ journey or have more experience. This is a recipe for depression and frustration
 Only compare yourself to your past self: has your ability and knowledge grown from where it was
 last week, month, or year? Then you are making progress.
 
-### <a id="conclusion"></a>Conclusion
+### Conclusion
 Learning any new skill is a journey full of speed bumps and obstacles to be
 overcome. We hope that the principles here will help you as you go forward and
 put you in a much better position to succeed and get the most out of Odin.
 Without further ado, lets jump in to learning Web development.
 
-###<a id="additional-resources"></a>Additional Resources
+###Additional Resources
 * [Managing Inspiration and Motivation](https://markmanson.net/do-something)
 * [Learning to code when it gets dark](https://medium.freecodecamp.com/learning-to-code-when-it-gets-dark-e485edfb58fd#.yjh0fehje)
 * [Why learning to code is so damn hard](https://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard)

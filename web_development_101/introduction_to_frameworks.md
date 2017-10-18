@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 If you're programming with Ruby or any other language, you pretty much start with a blank text file and go from there.  Programmers, the best of whom are pretty lazy folk (in a good way), got tired of having to write the same code over and over and over again just to cover the basic tasks that they wanted their applications to perform.  So they batched that recycled code together and called it a framework.
 
@@ -8,14 +8,14 @@ There are often several different popular frameworks for a given language.  They
 
 A final thing to note is about licensing -- frameworks are typically (though not always) open-source and their license allows you to use them, modify them, make money off them, sell products with them, etc., all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) in later units.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment:
 
 * What is a framework?
 * What's the difference between a programming language and a framework?
 * What languages have frameworks?
 
-### <a id="assignment">Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -24,7 +24,7 @@ Look through these now and then use them to test yourself after doing the assign
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [StackOverflow: What is a Web Framework? How does it compare with LAMP?](http://stackoverflow.com/questions/4507506/what-is-a-web-framework-how-does-it-compare-with-lamp)

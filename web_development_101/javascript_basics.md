@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 As we [saw before](http://skillcrush.com/2012/04/05/javascript/), Javascript is the in-browser code that gets run to make things on your webpage moveable and clickable, including the dropdown menus and hover effects you use every day.  It's time to dive in a bit more and start getting your hands dirty with some code.
 
@@ -6,7 +6,7 @@ This is also the first time you'll get to do some actual programming (HTML/CSS d
 
 This lesson will tend to focus on understanding the programming side of Javascript and the next lesson on jQuery will build on your knowledge here to actually allow you to interact with the elements on your webpage.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 Look through these now and then use them to test yourself after doing the assignment
 
 * What is a scripting language?
@@ -17,7 +17,7 @@ Look through these now and then use them to test yourself after doing the assign
 ### Announcement
 We are in the process of completely revamping and rewriting our JavaScript content... and the material that would replace the lessons found here in the WebDev101 course is pretty much completed.  Right now we are looking for students to test it out for us!  Your feedback is crucial to making it as good as possible.  If you're interested [you can find the new content here.](https://the-odin-project.gitbooks.io/javascript-curriculum/content/are-you-beta-testing-for-us.html)
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -32,7 +32,7 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 
 </div>
 
-### <a id="student-solutions"></a>Student Solutions
+### Student Solutions
 Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
@@ -544,7 +544,7 @@ Submit a link to the github repo with your files in it here with a pull request.
 * [Steve Yankson's Solution](https://github.com/samoaning/proj_euler_01)
 * [Jason's solution to Project Euler Problem 1](https://github.com/jn4248/project_euler_no_1) | [View in browser](https://jn4248.github.io/project_euler_no_1/)
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:
 
 * A straight-to-the-point [primer on Javascript from discovermeteor.com](https://www.discovermeteor.com/blog/javascript-for-meteor/)

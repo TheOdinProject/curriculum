@@ -1,9 +1,9 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 In this lesson we will cover common git commands used to manage your projects and upload your work onto GitHub. We refer to these commands as the **basic git workflow**. These are commands that will frequent about 70-80% of the time whenever you use git; wrapping your head around these would be more than half the battle won!
 
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 By the end of this you should be able to:
 
 * Run git commands from the command line
@@ -14,7 +14,7 @@ By the end of this you should be able to:
 * Name the git command used to view your commit history
 * Name the git command used to upload projects onto GitHub
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -22,10 +22,10 @@ By the end of this you should be able to:
 Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
   2. Now complete the first interactive lesson in the [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
   3. Watch this [video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic git commands
-  
+
 </div>
 
-### <a id="cheatsheet"></a>Cheatsheet
+### Cheatsheet
 Here is a reference list of the most commonly used git commands (you might consider bookmarking this handy webpage). Try to familiarise yourself with the commands and then eventually remember them:
 
 * Commands related to remote repository:
@@ -46,7 +46,7 @@ For example:
 * `git commit -m "message"` is read like `git | commit -m | "message"`
 * `git status` is read like `git | status | (no destination)`
 
-### <a id="conclusion"></a>Conclusion
+### Conclusion
 You may not feel completely comfortable with Git at this point, which is normal.
 Git is a skill that you will only get more comfortable with as you use it. This is why we have a project coming right after this lesson where we walk you through the entire process. It's the exact same process you would use in a real project.
 
@@ -54,7 +54,7 @@ The main thing to take away from this lesson is the **basic workflow**; the comm
 
 Don't worry if you don't know all the commands yet or that they don't stick at the moment - they will soon be seared into your brain as you use them multiple times in future Odin projects to come.
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * An introductory guide by [Michael Hartl](http://www.michaelhartl.com/) called [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)

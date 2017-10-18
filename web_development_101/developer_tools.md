@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 All of the most popular modern web browsers include a suite of tools designed to help
 with the development of websites; they are also sometimes referred to as the web
@@ -6,7 +6,7 @@ inspector. These tools allow you to inspect the html, css, javascript and much
 more on websites you visit and build.
 
 
-### <a id="why-do-you-need-them"></a>Why do you need to know how to use developer tools?
+### Why do you need to know how to use developer tools?
 
 Knowing how to use your browser's developer tools is an indispensable skill for a web
 developer. They allow you to easily and quickly track down the cause of issues and
@@ -24,14 +24,14 @@ developer tools isn't that difficult. It can feel clunky the first few times you
 use them. But with a little practice, you will soon find yourself comfortably
 using them to experiment and fix bugs with ease on your web pages.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 Make sure you can answer yes to each of the following once you have finished the assignments:
 
 * You can open the developer tools in your browser.
 * You can select a specific html element in your page with dev tools.
 * You can you use developer tools to experiment with the css on specific elements on a web page.
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -41,5 +41,5 @@ Make sure you can answer yes to each of the following once you have finished the
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

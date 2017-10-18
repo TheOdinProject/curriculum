@@ -1,4 +1,4 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 The three languages of the front end are fairly standardized -- HTML for Markup, CSS for Presentation, and Javascript for Scripting.  The back end is a different story... you can run pretty much anything you want to on your server since it doesn't rely on your user's browser understanding what's going on.  All the browser cares about is whether you've sent it properly formatted HTML, CSS and Javascript files (and other assets like images).  That's led to a whole lot of different choices for back-end languages.  As long as it can take in an HTTP request and spit out some HTML, you can probably put it on a server somehow.
 
@@ -8,12 +8,12 @@ Some of the most popular server-side languages are PHP, ASP.NET, Ruby, Python an
 
 As we covered back in the [Installations Project](/web-development-101/installations), the front end languages live in the browser so there's no extra installations required.  For the reasons listed above, the back end languages do require you to install them on your computer in order to get them running.  This should have already been done in that project, so we'll just make sure that you have them properly installed.
 
-### <a id="learning-outcomes"></a>Learning Outcomes
+### Learning Outcomes
 
 * What the difference between front- and back-end development is
 * Why you need to install Ruby but not Javascript
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 <div class="lesson-content__panel" markdown="1">
 
@@ -24,5 +24,5 @@ As we covered back in the [Installations Project](/web-development-101/installat
 
 </div>
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

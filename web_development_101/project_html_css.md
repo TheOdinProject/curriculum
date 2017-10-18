@@ -1,11 +1,11 @@
-### <a id="introduction"></a>Introduction
+### Introduction
 
 For this mini-project, you'll deconstruct an existing web page and rebuild it.  Don't worry if the links don't go anywhere and the search box doesn't do anything when you submit it. The goal is to start thinking about how elements get placed on the page and roughly how they get styled and aligned. For some of you, this may be the first time you've actually tried to "build" something in HTML (very exciting!).
 
 Using the browser's developer tools (right clicking something on the page and clicking "inspect element" will get you there) will be your best friend.  Build the page in a .html text file and open it in your browser to check it out (or try using [CodePen](http://codepen.io/pen/) or [jsfiddle.net](http://www.jsfiddle.net)).
 
 
-### <a id="try-these-before-starting"></a>Try These Before Starting
+### Try These Before Starting
 
 These skills will be helpful for you when you start building.  Either try them yourself or at least make sure you know how to do it:
 
@@ -18,7 +18,7 @@ These skills will be helpful for you when you start building.  Either try them y
 1. Understand how to use classes and ids to target CSS at specific elements on the page
 1. Build a very basic form (even if it doesn't "go" anywhere)
 
-### <a id="set-up-github"></a>Setting Up Your Project's Github Repository (optional)
+### Setting Up Your Project's Github Repository (optional)
 
 As mentioned in the [introduction to git](/web-development-101/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
@@ -42,7 +42,7 @@ If you have entered `git push origin master` and typed out your username and pas
 
 Okay, that's enough Git for the moment -- time to actually build stuff!
 
-### <a id="assignment"></a>Assignment
+### Assignment
 
 #### Easy Version: Build the [Google.com](http://www.google.com) homepage
 (the simple one with just a search box).
@@ -66,7 +66,7 @@ You should be able to reuse much of your code from before if you started with th
 
 Note: All the classes and id's and names of elements that you inspect on Google's home page are nonsensical strings (like `<div class='srg'>`).  This is because the code was **Minified** ([see the Wikipedia entry here](http://en.wikipedia.org/wiki/Minification_(programming))), which removes or shortens unnecessary characters and names to help the page load faster.  The HTML (or Javascript or CSS) file will be smaller but the browser can still read it just fine.
 
-### <a id="viewing-your-project-on-the-web"></a>Viewing your project on the web
+### Viewing your project on the web
 
 If you want to show your work (the project) to others, or submit a solution below, you will need to publish your site so that others can access it from the web, rather than just on your local machine.  The good news is that if you have your project on github (as described above) doing this is incredibly simple.  There are a couple of options here, both with their own pros and cons.
 
@@ -90,7 +90,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - paste in the url to the main html file from your github repo (probably `index.html`)
 - copy and use one of the supplied links to share your project.
 
-### <a id="student-solutions"></a>Student Solutions
+### Student Solutions
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
@@ -1243,7 +1243,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Tanmayaudupa's Solution](https://github.com/tanmayaudupa/google-homepage) | [View in browser](https://tanmayaudupa.github.io/google-homepage/)
 * [Meghana's Solution](https://github.com/meghana-vyakaranam/google-homepage) | [View in browser](https://meghana-vyakaranam.github.io/google-homepage/)
 
-### <a id="additional-resources"></a>Additional Resources
+### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
