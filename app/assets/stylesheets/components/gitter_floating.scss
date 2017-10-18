@@ -2,7 +2,7 @@
   background: $button-primary;
   border-radius: 50%;
   bottom: 20px;
-  box-shadow: 0 0 15px 2px rgba(0,0,0,0.09);
+  box-shadow: 0 0 15px 2px rgba(0,0,0,0.2);
   cursor: pointer;
   padding: 1em;
   position: fixed;
@@ -10,13 +10,23 @@
   z-index: 1000;
 
   &:hover {
-    box-shadow: 0 0 15px 6px rgba(0,0,0,0.09);
+    box-shadow: 0 0 15px 6px rgba(0,0,0,0.2);
   }
 
   .fa.fa-comments {
     font-size: 2em;
     color: $white;
   }
+}
+
+.gitter-chat-embed {
+  border-left: 0;
+  border-left-style: none;
+  box-shadow: -12px 0 18px 0 rgba(50,50,50,0.1);
+}
+
+.gitter-chat-embed-action-bar-item:active {
+  filter: none;
 }
 
 @media(max-width: 480px) {
