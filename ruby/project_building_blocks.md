@@ -595,6 +595,7 @@ Implement a method `#stock_picker` that takes in an array of stock prices, one f
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/symmetrical-rotary-phone)
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/stock.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/stocks.rb)
+* [datagoil's solution](https://github.com/datagoil/stock-picker)
 
 ### Project 3: Substrings
 
