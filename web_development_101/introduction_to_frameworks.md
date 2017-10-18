@@ -9,17 +9,22 @@ There are often several different popular frameworks for a given language.  They
 A final thing to note is about licensing -- frameworks are typically (though not always) open-source and their license allows you to use them, modify them, make money off them, sell products with them, etc., all without owing any fees to their original creators.  You may not think too much about that as you blithely code away using other people's frameworks, but it's a very important distinction between open-source frameworks and commercially produced/sold software.  We'll get more into [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Open-source_software) in later units.
 
 ### <a id="learning-outcomes"></a>Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment:
+
 * What is a framework?
 * What's the difference between a programming language and a framework?
 * What languages have frameworks?
 
 ### <a id="assignment">Assignment
 
-1. Get introduced to frameworks by reading [this brief article from Wired (originally from WebMonkey)](https://www.wired.com/2010/02/get_started_with_web_frameworks/).
-2. Glance over [Choosing a Web Development Framework (2010)](http://www.crossbrowser.net/449/choosing-a-web-development-framework/) for some of the thought process that goes into picking a framework.
+<div class="lesson-content__panel" markdown="1">
+
+  1. Get introduced to frameworks by reading [this brief article from Wired (originally from WebMonkey)](https://www.wired.com/2010/02/get_started_with_web_frameworks/).
+  2. Glance over [Choosing a Web Development Framework (2010)](http://www.crossbrowser.net/449/choosing-a-web-development-framework/) for some of the thought process that goes into picking a framework.
+
+</div>
 
 ### <a id="additional-resources"></a>Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [StackOverflow: What is a Web Framework? How does it compare with LAMP?](http://stackoverflow.com/questions/4507506/what-is-a-web-framework-how-does-it-compare-with-lamp)

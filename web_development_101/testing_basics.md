@@ -17,9 +17,7 @@ Everyone does testing a little differently.  Some teams still rely heavily on a 
 Regardless of how exactly it's done, testing is highly important and you'll be required to do it whatever your job is.  Beginning developers are often tasked to write tests and fix bugs to become familiar with a given code base.  Luckily, we'll cover testing more in the Ruby and Rails and Javascript courses later in the curriculum.
 
 ### <a id="learning-outcomes"></a>Learning Outcomes
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+Look through these now and then use them to test yourself after doing the assignment
 
 * What exactly does "testing" mean for web applications?
 * Why is testing important?
@@ -30,11 +28,15 @@ Regardless of how exactly it's done, testing is highly important and you'll be r
 * How do you write a basic RSpec test?
 
 ### <a id="assignment"></a>Assignment
-1. Get a real-life perspective on why tests are so important by watching [this video](http://www.youtube.com/watch?v=nBtO1UOK9Hs) by Nell Shamrell.  Some of the vocabulary may be stuff you haven't heard before (like "stubs" and "mocks"), but just absorb the message.
+
+<div class="lesson-content__panel" markdown="1">
+
+  1. Get a real-life perspective on why tests are so important by watching [this video](http://www.youtube.com/watch?v=nBtO1UOK9Hs) by Nell Shamrell.  Some of the vocabulary may be stuff you haven't heard before (like "stubs" and "mocks"), but just absorb the message.
+
+</div>
 
 ### <a id="additional-resources"></a>Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * A [very detailed treatise on test driven development](http://www.agiledata.org/essays/tdd.html) from AgileData.org.
 * [Testing For Beginners](http://testing-for-beginners.rubymonstas.org/index.html) free online book by Ruby Monstas.

@@ -36,13 +36,11 @@ To give your motivation a bit of a boost you can read about the success of other
 There is a wide body of research that supports that intelligence is not fixed, that
 it can be developed. People usually fall into one of the following two mindsets:
 
-**Fixed Mindset:**
-
+#### Fixed Mindset:
 Someone who believes if they don't get something on their first attempt they never
 will and that they aren't smart enough to be able to do or understand some things.
 
-**Growth Mindset:**
-
+#### Growth Mindset:
 Someone that believes they can get better at anything with effort and persistence.
 
 What does this mean for you? it means you can learn new skills and develop new
@@ -144,8 +142,7 @@ progress.
 Procrastination will be your biggest enemy when trying to make progress, this is how
 to avoid it:
 
-**Use The Pomodoro Technique:**
-
+#### Use The Pomodoro Technique:
 The Pomodoro Technique is a way of managing your time in order to stay focused.
 You basically set a timer for 25 minutes and work on a task until the timer goes
 off. You then take a 5 minute break and go again for 25 minutes once your break
@@ -161,8 +158,7 @@ To learn more about the Pomodoro Technique read this [great article](https://med
 
 And here's an easy to use Pomodoro timer: [TomatoTimer](http://tomato-timer.com/#)
 
-**Avoid Digital Distractions:**
-
+#### Avoid Digital Distractions:
 Digital distractions are email and Facebook notifications, time-wasting websites
 like social networks. These kinds of distractions break your focus and make it
 tempting to procrastinate; they should be avoided during study time.
@@ -170,8 +166,7 @@ tempting to procrastinate; they should be avoided during study time.
 Solution: turn off notifications and add a blocker to your internet to limit time
 on time-wasting sites like Facebook.
 
-**Avoid Physical Distractions In Your Environment:**
-
+#### Avoid Physical Distractions In Your Environment:
 Physical distractions are distractions from your environment, things like a TV in
 the background, other people speaking etc. These are just as much a nuisance to
 breaking your focus as digital distractions.

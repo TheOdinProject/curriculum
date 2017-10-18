@@ -36,7 +36,6 @@ Of course all this preparation is pointless without someone to pair with. Perhap
 
 
 ### <a id="additional-resources"></a>Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * A talk given at LA Ruby Conference 2014 by Joe Moore where he [answers a lot of questions](https://www.youtube.com/watch?v=rIcUXcyC6BA) about pair programming.

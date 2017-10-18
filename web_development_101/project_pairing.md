@@ -2,7 +2,7 @@
 
 Now you know what pair programming is and how to set up your computer for it. Hopefully you've found yourself someone to pair with because we are about to build something that will be much easier with two heads.
 
-*If you are unable to find someone to pair with, or don't wish to pair program, don't worry. Just make sure you are comfortable with the concepts in the last two lessons, mark this complete, and go on to the next section.*
+**Note:** If you are unable to find someone to pair with, or don't wish to pair program, don't worry. Just make sure you are comfortable with the concepts in the last two lessons, mark this complete, and go on to the next section.
 
 ### <a id="before-starting"></a>Before Starting
 
@@ -15,14 +15,18 @@ Some things to keep in mind for when you start building:
 Enough talk! Let's build!
 
 ###  <a id="assignment"></a>Assignment
-[The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. You learned about it in the [Gearing Up](http://www.theodinproject.com/courses/web-development-101/lessons/gearing-up) lesson. This is also a useful system for switching between Driver and Navigator roles when pairing.
 
-We are going to make a Pomodoro clock similar to [this](http://romantic-trouble.surge.sh/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
+<div class="lesson-content__panel" markdown="1">
+
+  [The Pomodoro Technique](https://en.wikipedia.org/wiki/Pomodoro_Technique) is a time management system where you work for a period of time then take a short break, then work for a period of time then take a short break, and so on. You learned about it in the [Gearing Up](http://www.theodinproject.com/courses/web-development-101/lessons/gearing-up) lesson. This is also a useful system for switching between Driver and Navigator roles when pairing.
+
+  We are going to make a Pomodoro clock similar to [this](http://romantic-trouble.surge.sh/) which will count down twenty-five minutes of work, indicate it is break time, count down five minutes, then start over again. If you've been following along the curriculum, you should have most of the tools you will need to make it. But if you do have problems, there are two of you! Put your minds together and figure it out.
+
+</div>
 
 
 ###  <a id="student-solutions"></a>Student Solutions
-
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!*
+Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Don't forget to include your pair's github handle as well!
 
 * Add your solution below this line!
 * [danhofer & nsantiagoblair's solution](https://github.com/danhofer/pomodoro-pair) | [View in Browser](https://danhofer.github.io/pomodoro-pair/pomodoro.html)

@@ -11,14 +11,16 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 
 ### <a id="assignment"></a>Assignment
 
+<div class="lesson-content__panel" markdown="1">
+
 1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 1. Create a web page (or use [JSFiddle](http://jsfiddle.net/)) with a 16x16 grid of square divs.
     1. Create your divs using Javascript/jQuery... don't try making them by hand with copy-pasting!
     2. Best to put your grid squares inside another "container" div.
-    2. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_get_started.asp), you can grab it directly in your HTML by adding `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>` inside your `<head>` tag above any other JS files.
-    1. There are several different ways to make the divs appear as a grid (versus just one on each line) -- `float`/`clear`, using a `table`, and `inline-block` displays.  Play with each of them.
-    2. Careful with your border or margins... they'll add size to the squares!
-    3. "OMFG, Why isn't my grid being created???"
+    3. If you need to [add jQuery to your file](http://www.w3schools.com/jquery/jquery_get_started.asp), you can grab it directly in your HTML by adding `<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>` inside your `<head>` tag above any other JS files.
+    4. There are several different ways to make the divs appear as a grid (versus just one on each line) -- `float`/`clear`, using a `table`, and `inline-block` displays.  Play with each of them.
+    5. Careful with your border or margins... they'll add size to the squares!
+    6. "OMFG, Why isn't my grid being created???"
         1. Open your browser's developer tools
         2. Check if there are any errors in the Javascript console
         3. Check your "elements" pane to see if the elements have actually shown up but are somehow hidden.
@@ -35,9 +37,10 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 4. (Optional): Instead of just changing the color of your grid from black to white (for example), have each pass through it with the mouse change to a completely random RGB value.  Then try having each pass just add another 10% of black to it, so only after 10 passes is the square completely black.
 5. Push your project to Github
 
-### <a id="student-solutions"></a>Student Solutions
+</div>
 
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+### <a id="student-solutions"></a>Student Solutions
+Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
 * [Mateus' solution](https://github.com/mateus-reno/sketchpad) | [View in browser](https://mateus-reno.github.io/sketchpad/)

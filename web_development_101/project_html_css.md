@@ -91,8 +91,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 - copy and use one of the supplied links to share your project.
 
 ### <a id="student-solutions"></a>Student Solutions
-
-*Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
+Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.*
 
 * Add your solution below this list
 * [Mateus' Solution (Easy)](https://github.com/mateus-reno/google-homepage) | [View in browser](https://mateus-reno.github.io/google-homepage/)
@@ -1245,8 +1244,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Meghana's Solution](https://github.com/meghana-vyakaranam/google-homepage) | [View in browser](https://meghana-vyakaranam.github.io/google-homepage/)
 
 ### <a id="additional-resources"></a>Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 If you still feel shaky on your understanding of HTML and CSS, that's okay! You don't need to be an expert by any means yet. These resources should help if you want to shore up your understanding of things:
 

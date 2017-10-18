@@ -19,7 +19,7 @@ And finally, you will set up a project with Git and this will serve as a templat
 But for now, in this lesson, try to understand what Git is and why it is so powerful!
 
 ### <a id="learning-outcomes"></a>Learning Outcomes
-*By the end of this lesson you should be able to:*
+By the end of this lesson you should be able to:
 
 * Define what kind of program Git is
 * Describe the differences between Git and a text editor in terms of what they save and their record keeping
@@ -27,12 +27,16 @@ But for now, in this lesson, try to understand what Git is and why it is so powe
 * Describe why Git is useful for an individual developer and a team of developers
 
 ### <a id="assignment"></a>Assignment
-1. Read chapter 1 in this book about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems.
-2. Now watch this [video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how git can improve the workflow of an individual or a team of developers.
-3. Get some [context](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) of how git and GitHub came about. Make sure you know the difference between the two: note how Git is referred to as a technology used in the *command line* while GitHub is a *website* you can [visit](https://github.com/)
-4. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored!
-5. Finally, gain an appreciation of [how git records all collaborative efforts](https://github.com/TheOdinProject/curriculum/graphs/contributors) and how GitHub visually represents this.
 
+<div class="lesson-content__panel" markdown="1">
+
+  1. Read chapter 1 in this book about [version control](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control) and appreciate the differences between local, centralised and distributed version control systems.
+  2. Now watch this [video](https://www.youtube.com/watch?v=8oRjP8yj2Wo) about how git can improve the workflow of an individual or a team of developers.
+  3. Get some [context](https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s) of how git and GitHub came about. Make sure you know the difference between the two: note how Git is referred to as a technology used in the *command line* while GitHub is a *website* you can [visit](https://github.com/)
+  4. Have a look at The Odin Project's very [own repository on GitHub](https://github.com/TheOdinProject/curriculum) - this is where all the lessons are stored!
+  5. Finally, gain an appreciation of [how git records all collaborative efforts](https://github.com/TheOdinProject/curriculum/graphs/contributors) and how GitHub visually represents this.
+
+</div>
 
 ### <a id="additional-resources"></a>Additional Resources
 

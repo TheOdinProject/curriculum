@@ -4,8 +4,7 @@ In this lesson we will cover common git commands used to manage your projects an
 
 
 ### <a id="learning-outcomes"></a>Learning Outcomes
-
-*By the end of this you should be able to:*
+By the end of this you should be able to:
 
 * Run git commands from the command line
 * Name the git command used to get a full copy an existing git repository from Github
@@ -16,10 +15,15 @@ In this lesson we will cover common git commands used to manage your projects an
 * Name the git command used to upload projects onto GitHub
 
 ### <a id="assignment"></a>Assignment
-1. [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
+
+<div class="lesson-content__panel" markdown="1">
+
+  1. [Try Git from codeschool](https://try.github.io/levels/1/challenges/1).
 Follow the exercises up to and including "1.11 Pushing Remotely" then jump back here.
-2. Now complete the first interactive lesson in the [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
-3. Watch this [video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic git commands
+  2. Now complete the first interactive lesson in the [Basic Git Workflow](https://www.codecademy.com/learn/learn-git). Try to look for an emerging pattern with the commands you are running.
+  3. Watch this [video](https://www.youtube.com/watch?v=HVsySz-h9r4) by Corey Schafer for a great overview of some basic git commands
+  
+</div>
 
 ### <a id="cheatsheet"></a>Cheatsheet
 Here is a reference list of the most commonly used git commands (you might consider bookmarking this handy webpage). Try to familiarise yourself with the commands and then eventually remember them:
@@ -51,8 +55,7 @@ The main thing to take away from this lesson is the **basic workflow**; the comm
 Don't worry if you don't know all the commands yet or that they don't stick at the moment - they will soon be seared into your brain as you use them multiple times in future Odin projects to come.
 
 ### <a id="additional-resources"></a>Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * An introductory guide by [Michael Hartl](http://www.michaelhartl.com/) called [Learn Enough Git to Be Dangerous](https://www.learnenough.com/git-tutorial)
 * An easy-to-read, pragmatic guide to using Git available online from [RyPress](http://rypress.com/tutorials/git/index), also available for free on [Kindle](https://www.amazon.com/Rys-Git-Tutorial-Ryan-Hodson-ebook/dp/B00QFIA5OC)

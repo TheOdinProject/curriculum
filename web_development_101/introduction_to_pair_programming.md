@@ -12,16 +12,20 @@ Once you finish these lessons, you should have the tools to be able to collabora
 
 
 ### <a id="learning-outcomes"></a>Learning Outcomes
+
 * What is Pair Programming?
 * What are the benefits of Pair Programming?
 
 ### <a id="assignment"></a>Assignment
 
-1. Read [this article](https://www.agilealliance.org/glossary/pairing/) from [Agile Alliance](https://www.agilealliance.org/) for a good overview and history of Pair Programming.
-2. Along with the obligatory car metaphor, [this article](http://techcrunch.com/2012/03/17/pair-programming-considered-extremely-beneficial/) talks about some of the benefits of Pair Programming.
+<div class="lesson-content__panel" markdown="1">
+
+  1. Read [this article](https://www.agilealliance.org/glossary/pairing/) from [Agile Alliance](https://www.agilealliance.org/) for a good overview and history of Pair Programming.
+  2. Along with the obligatory car metaphor, [this article](http://techcrunch.com/2012/03/17/pair-programming-considered-extremely-beneficial/) talks about some of the benefits of Pair Programming.
+  
+</div>
 
 ### <a id="additional-resources"></a>Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * An older [writeup on pairing](http://collaboration.csc.ncsu.edu/laurie/pair.html) from Dr. Laurie Williams of NC State University has a rich bibliography of research on pairing.

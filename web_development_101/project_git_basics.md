@@ -8,7 +8,7 @@ This short project will demonstrate how to use git to manage and archive your pr
 
 
 ### <a id="learning-outcomes"></a>Learning Outcomes
-*By the end of this you should be able to:*
+By the end of this you should be able to:
 
 * Create a Git repository on GitHub and move it onto your local machine
 * Describe the difference between staging and committing changes
@@ -98,6 +98,6 @@ In later git lessons we will cover some of the more advanced git features such a
 For now concentrate on using the basics of Git which you have learnt here with all the projects ahead of you until the point where you know each of the basic Git commands from memory.  
 
 ### <a id="additional-resources"></a>Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * A guideline for writing neat and concise commit messages by [Chris Beams](https://github.com/cbeams) called [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/).
