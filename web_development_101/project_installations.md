@@ -40,7 +40,7 @@ The good news is installing linux is not as hard as you might have imagined, fir
 
 There are many different versions of Linux out there and many people who have used Linux for any length of time will have different opinions on which one is best. We won't go into any of that here and will simply recommend you use Ubuntu which is generally known as one of the most beginner friendly versions as well as having a very similar graphical user interface to Windows.
 
-##### Option 1 - Use a Virtual Machine
+#### Option 1 - Use a Virtual Machine
 This is the safest and simplest option for a complete beginner, or a person that _needs_ to use Windows on a regular basis for other reasons (work, school etc.)
 
 A Virtual Machine is essentially a program that runs on your computer that emulates another computer system. If you have any experience of using emulators to play games that were released for old games consoles, this will be familiar. If not [here](http://www.makeuseof.com/tag/virtual-machine-makeuseof-explains/) is a very good explanation of what a virtual machine is. You can [download VirtualBox](https://www.virtualbox.org/wiki/Downloads) and use [this](https://www.youtube.com/watch?v=9_DpFhT_euI) guide to setup this option.
@@ -62,7 +62,7 @@ You can install Ubuntu alongside Windows on your machine by dual booting. This e
 * This option will yield the best performance from Ubuntu as it will be installed directly on your hard drive.
 * You can customise as you like with different text editors etc
 
-####Cons
+#### Cons
 * Messing up your Windows installation is a possibility when setting your computer up to dual boot, and while it's easily avoided complete beginners should take care.
 * To switch between your two operating systems you will have to reboot your computer.
 
@@ -71,7 +71,7 @@ You can install Ubuntu alongside Windows on your machine by dual booting. This e
 #### Option 3 - Windows Subsystem for Linux
 If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or later, another option is to [install the Windows Subsystem for Linux](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide). Follow those directions, then when you come to the installfest assignment below, open up Bash on Windows and when it offers you the option, chose Linux for your operating system.
 
-####Pros
+#### Pros
 * This is a fully operational Linux Bash Shell running natively on Windows.
 * Since you are running Ubuntu natively from Windows you don't have a performance hit like with the virtual machine option.
 * You have full access to both your Linux and Windows file-systems from both Bash on Windows and File Explorer.
@@ -79,7 +79,7 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 * This is an official Microsoft product, so there is little risk of messing up your Windows installation.
 * You can use just about(see the Cons) any Text Editor you like: Atom, Sublime, Notepadd++, etc.
 
-####Cons
+#### Cons
 * As the Instructions linked above clearly state, this is in Beta, not everything works yet (pay attention to the note by the Installfest assignment directions).
 * Since this is not intended to be a full Linux operating system, the X windows system is not supported, so non-command line Linux apps will not work.
 * IDEs that are tightly bound to Windows e.g. Visual Studio and RubyMine, will balk at Ruby and/or git not being installed on Windows, although you can still use them.
@@ -88,12 +88,12 @@ If you have a 64-bit version of Windows 10 Anniversary Update build 14393 or lat
 #### Option 4 - Using an Online IDE
 If you absolutely can not install Linux to your machine, or if the Virtual Machine is not an option for whatever reason, or you do not have Windows 10, there have been some great online IDE's (Integrated Development Environment) released in the past few years. These are similar to Virtual machines, except that they run directly in your browser. Of course this means you can log in from any computer and start coding from your browser when you have access to the internet. [Cloud9](https://c9.io/) is one of the most popular online IDE's.  
 
-####Pros
+#### Pros
 * You don't have to install anything on your local machine (this can be a con depending on the way you look at it, experience installing and setting stuff up on your local machine can be invaluable)
 * Your coding environment will be available from any machine with internet access.
 * These systems typically run a more-or-less full featured linux distro, so you can do all of the things you see in the tutorials and lessons here.
 
-####Cons
+#### Cons
 * You have to use the text editor that their services provide, which generally are not as good as the text editors you can install locally. Atom, sublime text etc.
 * The free tier's of these services have a memory limit, normally 1GB. This can be a major limitation after a while.
 
