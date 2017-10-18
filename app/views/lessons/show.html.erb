@@ -8,7 +8,7 @@
       </div>
 
       <div class="lesson-content">
-        <%= convert_markdown_to_html(@lesson.content) %>
+        <%= Kramdown::Document.new(@lesson.content).to_html.html_safe %>
       </div>
     </div>
 </div>

@@ -7,20 +7,12 @@ class MarkdownConverter
   end
 
   def as_html
-    markdown_converter.render(markdown).html_safe
+    converted_markdown.html_safe
   end
 
   private
 
-  def markdown_converter
-    Redcarpet::Markdown.new(renderer, extensions = markdown_extensions)
-  end
-
-  def renderer
-    Redcarpet::Render::HTML
-  end
-
-  def markdown_extensions
-    { :fenced_code_blocks => true }
+  def converted_markdown
+    Kramdown::Document.new(markdown).to_html
   end
 end

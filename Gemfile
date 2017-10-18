@@ -7,7 +7,6 @@ gem 'turbolinks'
 gem 'jquery-rails',                 '~> 4.2.1'
 gem 'devise',                       '~> 4.2.0' # Managing environment variables
 gem 'rack-timeout',                 '~> 0.4'
-gem 'redcarpet',                    '~> 3.3'  # to render the curriculum's .md files as html
 gem 'kaminari',                     '~> 1.0', '>= 1.0.1'
 gem 'pg',                           '~> 0.19'
 gem 'premailer-rails',              '~> 1.9'
@@ -24,6 +23,7 @@ gem 'sass-rails',                   '~> 5.0'
 gem 'rack-attack'
 gem 'tether-rails' # dependency for bootstrap tooltips
 gem 'acts_as_votable'
+gem 'kramdown'
 
 group :production do
   gem 'rails_12factor',             '~> 0.0.3'

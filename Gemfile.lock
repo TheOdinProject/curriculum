@@ -173,6 +173,7 @@ GEM
       activerecord
       kaminari-core (= 1.0.1)
     kaminari-core (1.0.1)
+    kramdown (1.15.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     letter_opener (1.4.1)
@@ -276,7 +277,6 @@ GEM
     rainbow (2.2.2)
       rake
     rake (11.3.0)
-    redcarpet (3.4.0)
     reek (4.7.1)
       codeclimate-engine-rb (~> 0.4.0)
       parser (>= 2.4.0.0, < 2.5)
@@ -393,6 +393,7 @@ DEPENDENCIES
   github_api (~> 0.14)
   jquery-rails (~> 4.2.1)
   kaminari (~> 1.0, >= 1.0.1)
+  kramdown
   letter_opener (~> 1.4)
   newrelic_rpm (~> 3.17)
   octokit (~> 4.6)
@@ -409,7 +410,6 @@ DEPENDENCIES
   rails-controller-testing (~> 1.0)
   rails_12factor (~> 0.0.3)
   rake (~> 11.3)
-  redcarpet (~> 3.3)
   reek
   rspec-rails (~> 3.5)
   rubocop
