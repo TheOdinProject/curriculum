@@ -143,10 +143,9 @@ What about Rails?  Rails is actually a Ruby gem of its own since it's really jus
 XCode is Apple's integrated development environment for creating Mac, iPhone and iPad applications.  Even though we won't be using it for that purpose, it's also got some command line tools that you'll be using so you're probably going to have to install it all (it's a giant package).
 
 ### Assignment
+These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
 <div class="lesson-content__panel" markdown="1">
-
-  These installfests will take you through the steps to install everything on your computer.  It will probably feel like you're doing a whole bunch of things that don't really make sense and moving way too quickly.  Hopefully you've got a basic understanding of what you're about to install, but it's also not super important that you know exactly what's going on or what all the commands mean.  You'll get more familiar with things over time.  
 
   1. Complete the entire [Railsbridge Installfest](http://installfest.railsbridge.org/installfest/) for your system.
   2. Typing `$ ruby -v` on your command line (ignore the $, it stands for the prompt) should output something that includes `2.2` or a above.  `$ rails -v` should give you something like `5.0.0` or above.
