@@ -34,6 +34,7 @@ If your game logic gets too complicated or the speed is too fast, you'll probabl
 * [Daunenok's solution](https://github.com/daunenok/missile) | [View in browser](https://daunenok.github.io/missile/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/missile-command) | [View in browser](https://sophialwu.github.io/missile-command/)
 * [Austin's solution](https://github.com/CouchofTomato/commie-command) | [View in browser](https://couchoftomato.github.io/commie-command/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/MissileCommand/) | [View in browser](https://ncud4bloc.github.io/MissileCommand/HTML/indexMC.html)
 
 ### Additional Resources
 
