@@ -884,3 +884,5 @@ Next, make sure your method can handle multiple words:
 * [Santiago ROdríguez Solution](https://github.com/santoxxcc/animated-octo-telegram)
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/substring.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/substring.rb)
+* [datagoil's solution](https://github.com/datagoil/substrings-for-Odin)
+
