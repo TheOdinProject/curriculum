@@ -1,18 +1,16 @@
-*Don't forget to use Git to save your projects!*
-
 ### Warmup: Fibonacci
 
 The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which sums each number with the one before it, is a great example of a problem that can be solved recursively.
 
-### Your Task
+### Assignment
 
-1. Write a method `#fibs` which takes a number and returns that many members of the fibonacci sequence.  Use iteration for this solution.
-2. Now write another method `#fibs_rec` which solves the same problem recursively.  This can be done in just 3 lines (or 1 if you're crazy, but don't consider either of these lengths a requirement... just get it done).
-
+<div class="lesson-content__panel" markdown="1">
+  1. Write a method `#fibs` which takes a number and returns that many members of the fibonacci sequence.  Use iteration for this solution.
+  2. Now write another method `#fibs_rec` which solves the same problem recursively.  This can be done in just 3 lines (or 1 if you're crazy, but don't consider either of these lengths a requirement... just get it done).
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/fibs.rb)
@@ -25,7 +23,7 @@ The [Fibonacci Sequence](http://en.wikipedia.org/wiki/Fibonacci_number), which s
 * [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/blob/master/recursion/fibonacci/fibonacci.rb)
 * [holdercp's solution](https://github.com/holdercp/fibonacci)
 * [jfonz412's solution](https://github.com/jfonz412/recursion/blob/master/fibonacci.rb)
-* [Webdev-burd's fibs solution](https://github.com/webdev-burd/recursive_problems/blob/master/fibs.rb)| [Webdev-burd's fibs_rec solution](https://github.com/webdev-burd/recursive_problems/blob/master/fibs_rec.rb)
+* [Webdev-burd's fibs solution](https://github.com/webdev-burd/recursive_problems/blob/master/fibs.rb)- [Webdev-burd's fibs_rec solution](https://github.com/webdev-burd/recursive_problems/blob/master/fibs_rec.rb)
 * [xavier solution](https://github.com/nxdf2015/odin-recursion/blob/master/fibonacci/fibonacci.rb)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/recursion/blob/master/fibs.rb)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/fibonacci)
@@ -150,17 +148,16 @@ The first step is to actually understand what the merge sort algorithm is doing:
 2. Check out [this more detailed explanation](https://www.youtube.com/watch?v=uEbdK2CG_B8&feature=youtu.be&t=1h2m) by David J. Malan (watch only until 1:14:00).
 3. [Merge Sort -- How it Works part 1](https://www.youtube.com/watch?v=OAsokGNa18k) and [Merge Sort -- How it Works part II](http://www.youtube.com/watch?v=nNhpFO9CmPs) on YouTube give you a more formal look at this problem if you're still unclear.
 
-### Your Task
-
-1. Build a method `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
-2. Tips:
-
-    1. Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).
-    2. It may be helpful to check out the background videos again if you don't quite understand what should be going on.
+### Assignment
+<div class="lesson-content__panel" markdown="1">
+  1. Build a method `#merge_sort` that takes in an array and returns a sorted array, using a recursive merge sort methodology.
+  2. Tips:
+      1. Think about what the base case is and what behavior is happening again and again and can actually be delegated to someone else (e.g. that same method!).
+      2. It may be helpful to check out the background videos again if you don't quite understand what should be going on.
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/merge_sort.rb)
@@ -287,10 +284,8 @@ The first step is to actually understand what the merge sort algorithm is doing:
 * [Austin Norman's solution](https://github.com/austinnormancore/merge_sort/blob/master/merge_sort.rb)
 * [Anistor86's solution](https://github.com/anistor86/recursive_methods/blob/master/merge_sort.rb)
 
-
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * Another look at [merge sort](http://www.sorting-algorithms.com/merge-sort)
 * For more attempts at recursion try the first 5 problems in [Project Euler](https://projecteuler.net/problems)
