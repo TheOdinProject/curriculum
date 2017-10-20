@@ -80,4 +80,10 @@
       margin-bottom: 15px
     }
   }
+
+  &__small-image {
+    img {
+      width: auto;
+    }
+  }
 }
