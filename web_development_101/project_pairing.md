@@ -54,6 +54,7 @@ We are going to make a Pomodoro clock similar to [this](http://romantic-trouble.
 * [Oliver Curting's Solution](https://github.com/Curting/pomodoro) | [View in Browser](https://curting.github.io/pomodoro/)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/psychic-pancake) | [View in Browser](https://santoxxcc.github.io/psychic-pancake)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/pomodoro)
+* [datagoil's solution](https://github.com/datagoil/pomodoro-clocko)
 
 
 ### <a id="next-steps"></a>Next Steps
