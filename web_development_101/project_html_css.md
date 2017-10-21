@@ -1242,9 +1242,11 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [AlfredaKava's Solution](https://github.com/alfredakava/google-homepage) | [View in browser (Easy)](https://cdn.rawgit.com/alfredakava/google-homepage/053498c9/index.html)
 * [Sinchana Gowda's Solution](https://github.com/sinchanagowda98/The_Odin_Project) | [View in browser](https://sinchanagowda98.github.io/The_Odin_Project/)
 * [Tanmayaudupa's Solution](https://github.com/tanmayaudupa/google-homepage) | [View in browser](https://tanmayaudupa.github.io/google-homepage/)
-* [Emmanuel Zidafamor's Solution](https://github.com/e-zidaf/sp-google-homepage) | [View in browser](https://e-zidaf.github.io/sp-google-homepage/) 
+* [Emmanuel Zidafamor's Solution](https://github.com/e-zidaf/sp-google-homepage) | [View in browser](https://e-zidaf.github.io/sp-google-homepage/)
 * [Meghana's Solution](https://github.com/meghana-vyakaranam/google-homepage) | [View in browser](https://meghana-vyakaranam.github.io/google-homepage/)
 * [OtakuShowboat's Solution (Easy)](https://github.com/OtakuShowboat/google-homepage) | [View in browser](https://otakushowboat.github.io/google-homepage/)
+* [nboaldin's Solution
+(Easy)](https://github.com/nboaldin/google-homepage) | [View in browser](https://nboaldin.github.io/google-homepage/)
 
 
 ### <a id="additional-resources"></a>Additional Resources
