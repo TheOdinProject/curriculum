@@ -1244,6 +1244,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [Tanmayaudupa's Solution](https://github.com/tanmayaudupa/google-homepage) | [View in browser](https://tanmayaudupa.github.io/google-homepage/)
 * [Emmanuel Zidafamor's Solution](https://github.com/e-zidaf/sp-google-homepage) | [View in browser](https://e-zidaf.github.io/sp-google-homepage/) 
 * [Meghana's Solution](https://github.com/meghana-vyakaranam/google-homepage) | [View in browser](https://meghana-vyakaranam.github.io/google-homepage/)
+* [OtakuShowboat's Solution (Easy)](https://github.com/OtakuShowboat/google-homepage) | [View in browser](https://otakushowboat.github.io/google-homepage/)
 
 
 ### <a id="additional-resources"></a>Additional Resources
