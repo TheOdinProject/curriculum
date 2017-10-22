@@ -76,6 +76,14 @@
     padding: 1.5em;
     margin: 20px 0 50px 0;
 
+    ul:first-child {
+      margin-bottom: 0;
+    }
+
+    li, p {
+      color: $text-primary;
+    }
+
     h4:not(:first-child) {
       margin-top: 50px;
     }
