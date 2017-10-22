@@ -126,6 +126,7 @@ We've gotten quite far here, so these tasks will only lay out the high level ove
 * [DV's solution](https://github.com/dvislearning/private-events) | [View in browser](https://sleepy-everglades-63021.herokuapp.com/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/private-events) | [View in browser](https://quiet-forest-50554.herokuapp.com/)
 * [Eric Gonzalez solution](https://github.com/Twinpair/Eventor) | [View in browser](https://rails-eventor.herokuapp.com/)
+* [Tom Westerhout's solution](https://github.com/TomWesterhout/private_events) | [View in browser](https://private-events-170388.herokuapp.com/)
 
 ### Additional Resources
 
