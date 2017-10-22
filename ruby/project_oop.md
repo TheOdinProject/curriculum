@@ -186,7 +186,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Zach Beaird's solution](https://github.com/zbbeaird89/TicTacToe)
 * [Husein ghafari's solution](https://github.com/hosghf/tic_tac_toy_ruby)
 * [Pat's solution](https://github.com/Pat878/Ruby_Tic_Tac_Toe)
-* [Parker Brown's solution (with AI)](https://github.com/parkerjbrown/ruby-games/blob/master/tic-tac-toe.rb) | [Live Version](https://repl.it/GvPk/1)
+* [Parker Brown's solution (with AI)](https://github.com/parkerjbrown/ruby-games/blob/master/tic-tac-toe.rb) - [Live Version](https://repl.it/GvPk/1)
 * [Luján Fernaud's solution (with AI)](https://github.com/lujanfernaud/ruby-tic-tac-toe)
 * [EMuchynski's solution (with AI)](https://github.com/EMuchynski/tic_tac_toe)
 * [Paritosh's solution](https://github.com/Paritosh97/tic_tac_toe_ruby)

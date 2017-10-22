@@ -33,12 +33,12 @@ Look through these now and then use them to test yourself after doing the assign
   1. Glance over the [Wikipedia entry on Data Structures](http://en.wikipedia.org/wiki/Data_structure) for a high level overview of things.
   2. Learn about Queues and Stacks by watching [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI)
   3. Learn about binary search trees by watching [this video](http://cs50.tv/2012/fall/shorts/binary_search/binary_search-720p.mp4) from Harvard's CS50x on edX.
-  4. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).  
+  4. Learn about basic algorithms from Coursera's Algorithms course in [this video](http://www.youtube.com/watch?v=u2TwK3fED8A).  The first 10 minutes are really the meat of the introduction to algorithms, the rest gets more mathematical (if you're so inclined).
   5. Read the [Gentle Introduction to Algorithms for Web Developers](http://www.giocc.com/a-gentle-introduction-to-algorithms-for-web-developers.html) for another basic look at what algorithms are.
   5. Finally, learn about Depth First Search and Breadth First Search from this series of videos on YouTube:
-    * [Binary Tree Traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
-    * [Level Order Traversal](https://www.youtube.com/watch?v=86g8jAQug04) (aka Breadth First)
-    * [Pre, In, and Post Order Traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4) (aka Depth First)
+      * [Binary Tree Traversal](https://www.youtube.com/watch?v=9RHO6jU--GU)
+      * [Level Order Traversal](https://www.youtube.com/watch?v=86g8jAQug04) (aka Breadth First)
+      * [Pre, In, and Post Order Traversal](https://www.youtube.com/watch?v=gm8DUJJhmY4) (aka Depth First)
 </div>
 
 ### Additional Resources

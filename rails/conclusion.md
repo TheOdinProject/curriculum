@@ -52,9 +52,7 @@ I want to emphasize again that the learning never really stops but also that you
 So there's a lot left to go but it gets better and better.  Stick with it!
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [How I Learned Ruby on Rails](https://medium.com/how-i-learned-ruby-rails/e08c94e2a51e) by Richardson Dackam
 * A [listing of Rails tutorials](https://tutorials.railsapps.org/rails-tutorial) from Daniel Kehoe of RailsApps

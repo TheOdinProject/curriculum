@@ -33,24 +33,22 @@ You often get three choices for callbacks.  Not all object lifecycle steps suppo
 
 To use a callback, you need to "register" it at the top of your Model by using the appropriate method (e.g. `before_create`).  You pass that method either a symbol which corresponds to a method name or you could just write the callback as a block then and there.  Rails will hang onto that method and call it at the appropriate time.  For example:
 
-~~~ ruby
+~~~ruby
+  # app/models/user.rb
+  class User < ActiveRecord::Base
 
-    # app/models/user.rb
-    class User < ActiveRecord::Base
-
-      before_create do |user|
-        puts "about to create #{user.name}"
-      end
-
-      after_create :just_created
-
-      private
-
-      def just_created
-        puts "just created a user"
-      end
+    before_create do |user|
+      puts "about to create #{user.name}"
     end
 
+    after_create :just_created
+
+    private
+
+    def just_created
+      puts "just created a user"
+    end
+  end
 ~~~
 
 ### Specifying Callback Characteristics
@@ -59,15 +57,15 @@ Callbacks give you several options for narrowing down or selecting specifically 
 
 You can also use conditional logic options `:if` and `:unless` to try a method before running callbacks, for instance:
 
-```language-ruby
-    before_create :run_code, :unless => :method_is_true
+~~~ruby
+  before_create :run_code, :unless => :method_is_true
 
-    protected
+  private
 
-    def method_is_true
-      true
-    end
-```
+  def method_is_true
+    true
+  end
+~~~
 
 ### Transaction Callbacks
 
@@ -78,8 +76,8 @@ The `commit`ting of a transaction and its potential `rollback` if it fails are b
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Read through the [Rails Guide on Callbacks](http://guides.rubyonrails.org/active_record_callbacks.html)
-2. Read [this post from Samuel Mullen](http://samuelmullen.com/2012/01/guidelines-for-using-activerecord-callbacks/) on guidelines for using callbacks.
+  1. Read through the [Rails Guide on Callbacks](http://guides.rubyonrails.org/active_record_callbacks.html)
+  2. Read [this post from Samuel Mullen](http://samuelmullen.com/2012/01/guidelines-for-using-activerecord-callbacks/) on guidelines for using callbacks.
 </div>
 
 ### Conclusion
