@@ -24,6 +24,10 @@
     margin-bottom: 1em;
   }
 
+  h2 {
+    text-align: center;
+  }
+
   h2, h3, h4, h5{
     margin-top: 1.5em;
   }
@@ -577,7 +581,7 @@
   }
 }
 
-#lower-banner{
+#lower-adbox{
   height: 60px;
   width: 467px;
   border: 10px solid #eee;
@@ -586,6 +590,8 @@
   img{
     position: relative;
   }
+  background-image: url(http://s3.amazonaws.com/viking_education/mktg/viking_altad_wide.png);
+
   &:before{
     content: "From the creators of The Odin Project...";
     position: absolute;
@@ -631,11 +637,14 @@
     line-height:1.25em;
   }
   .lower-alt-txt{
-    margin-left: 80px!important;
+    margin-left: 0;
+    width: 468px;
+    height: 60px;
+    text-align: center;
   }
 }
 @media(max-width: 500px){
-  #lower-banner{
+  #lower-adbox{
     display: none;
   }
   #right-box{
@@ -681,8 +690,7 @@
 
 @media (max-width: 979px) {
   #lesson-nav{
-    position: absolute;
-    z-index: -1;
+    position: relative;
     margin-top:10px;
   }
 }
