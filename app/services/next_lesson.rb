@@ -7,38 +7,33 @@ class NextLesson
     @lesson_completions = lesson_completions
   end
 
-  def lesson_to_complete
-    puts "*" * 100
-    p last_lesson_completed
-    p next_lesson_to_complete_position
-    course.lessons.find do |lesson|
-      lesson.position == next_lesson_to_complete_position
-    end
+  def to_complete
+    next_lesson_to_complete || remaining_lesson_to_complete
   end
 
   private
 
-  def completed_lessons_in_course
-    lesson_completions.select do |lesson_completion|
-      lesson_completion.lesson.course.id == course.id
-    end
+  def lessons_left_to_complete
+    course.lessons - lessons_already_completed
   end
 
-  def completed_lessons_by_date
-    completed_lessons_in_course.sort_by(&:created_at)
+  def lessons_already_completed
+    lesson_completions.map(&:lesson)
   end
 
-  def last_lesson_completed
-    completed_lessons_by_date.last
+  def last_lesson_completion
+    lesson_completions.sort_by(&:created_at).last
   end
 
-  def next_lesson_to_complete_position
-    last_lesson_completed.lesson.position + 1
+  def latest_completed_lesson
+    last_lesson_completion.lesson
+  end
+
+  def next_lesson_to_complete
+    FindLesson.new(latest_completed_lesson, course).next_lesson
+  end
+
+  def remaining_lesson_to_complete
+    lessons_left_to_complete.sort_by(&:position).first
   end
 end
-
-
-
-# pass in the course and the completed lessons
-# extract all completed lessons from the course
-# I could go for the section id

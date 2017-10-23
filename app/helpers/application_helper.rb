@@ -195,8 +195,8 @@ module ApplicationHelper
     CourseProgress.course_completed?(course, user)
   end
 
-  def next_lesson_to_complete(course, lesson_completions)
-    NextLesson.new(course, lesson_completions).lesson_to_complete
+  def next_lesson_to_complete(course, completed_lessons)
+    NextLesson.new(course, completed_lessons).to_complete
   end
 
   def modifier_for_badge(course, user)
