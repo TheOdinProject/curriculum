@@ -259,7 +259,6 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Jamesredux's solution](https://github.com/Jamesredux/knight_moves)
 
 
-
 ### Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
