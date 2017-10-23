@@ -8,8 +8,12 @@ class NextLesson
   end
 
   def lesson_to_complete
-    course.lessons.find do |lesson|
-      lesson.position == next_lesson_to_complete_position
+    if lesson_completions.any?
+      course.lessons.find do |lesson|
+        lesson.position == next_lesson_to_complete_position
+      end
+    else
+      course.lessons.first
     end
   end
 
