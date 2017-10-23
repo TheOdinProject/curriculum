@@ -1242,6 +1242,8 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Sinchana Gowda's Solution](https://github.com/sinchanagowda98/The_Odin_Project) - [View in browser](https://sinchanagowda98.github.io/The_Odin_Project/)
 * [Tanmayaudupa's Solution](https://github.com/tanmayaudupa/google-homepage) - [View in browser](https://tanmayaudupa.github.io/google-homepage/)
 * [Meghana's Solution](https://github.com/meghana-vyakaranam/google-homepage) - [View in browser](https://meghana-vyakaranam.github.io/google-homepage/)
+* [OtakuShowboat's Solution (Easy)](https://github.com/OtakuShowboat/google-homepage) - [View in browser](https://otakushowboat.github.io/google-homepage/)
+* [nboaldin's Solution (Easy)](https://github.com/nboaldin/google-homepage) - [View in browser](https://nboaldin.github.io/google-homepage/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

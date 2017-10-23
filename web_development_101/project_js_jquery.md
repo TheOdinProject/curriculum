@@ -43,6 +43,8 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+<<<<<<< HEAD
+* [Ozra's solution](https://github.com/0zra/Odin-sketchpad) - [View in browser](https://0zra.github.io/Odin-sketchpad/)
 * [Mateus' solution](https://github.com/mateus-reno/sketchpad) - [View in browser](https://mateus-reno.github.io/sketchpad/)
 * [Kyle Lemon's solution](https://github.com/jklemon17/jquery-sketch) - [View in browser](https://jklemon17.github.io/jquery-sketch/)
 * [Rafal Fajkowski's solution](https://github.com/Feyran/Sketchpad) - [View in browser](https://feyran.github.io/Sketchpad/)
@@ -697,6 +699,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Mayank Patel's solution (With Random Colors)](https://github.com/maknahar/maknahar.github.io/tree/master/op/etch-a-sketch) - [View in browser](https://maknahar.github.io/op/etch-a-sketch/)
 * [Shane Butler's solution](https://github.com/shaneausley/etch-a-sketch) - [View in browser](https://shaneausley.github.io/etch-a-sketch/)
 * [jm18457's solution](https://github.com/jm18457/drawing-game.git)
+<<<<<<< HEAD
 * [Anik Pramanik's solution](https://github.com/radioactive001/sketch-book) - [View in browser](https://radioactive001.github.io/sketch-book/)
 * [Oliver Curting's solution](https://github.com/Curting/sketchpad) - [View in browser](https://curting.github.io/sketchpad/)
 * [coryparham24's solution](https://github.com/coryparham24/sketchpad) - [View in browser](https://cdn.rawgit.com/coryparham24/sketchpad/f7cb10ef/index.html)
@@ -724,3 +727,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Kusnierewicz solution](https://github.com/Kusnierewicz/Basic-Sketch-Board) - [View in browser](http://kusnierewicz.github.io/Basic-Sketch-Board/)
 * [Brandon B.'s solution](https://github.com/bmbost/etchasketch) - [View in browser](https://bmbost.github.io/etchasketch/)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/etch-a-sketch) - [View in browser](https://brunoparga.github.io/etch-a-sketch/)
+* [llisahere's Solution](https://github.com/llisahere/Etchasketch) - [View in browser](https://llisahere.github.io/Etchasketch/)

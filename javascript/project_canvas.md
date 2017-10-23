@@ -26,6 +26,7 @@ If your game logic gets too complicated or the speed is too fast, you'll probabl
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+<<<<<<< HEAD
 * [Donald's solution](https://github.com/donaldali/odin-js-jquery/tree/master/missile_command) - [View in browser](http://htmlpreview.github.io/?https://github.com/donaldali/odin-js-jquery/blob/master/missile_command/index.html "Missile Command")
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_missile_command) - [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_missile_command/blob/master/index.html)
 * [LLCampos's solution](https://github.com/LLCampos/missile_command) - [View in browser](http://htmlpreview.github.io/?https://github.com/LLCampos/missile_command/blob/master/index.html)
@@ -35,6 +36,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Daunenok's solution](https://github.com/daunenok/missile) - [View in browser](https://daunenok.github.io/missile/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/missile-command) - [View in browser](https://sophialwu.github.io/missile-command/)
 * [Austin's solution](https://github.com/CouchofTomato/commie-command) - [View in browser](https://couchoftomato.github.io/commie-command/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/MissileCommand/) - [View in browser](https://ncud4bloc.github.io/MissileCommand/HTML/indexMC.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

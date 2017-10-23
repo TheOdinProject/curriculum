@@ -596,6 +596,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/symmetrical-rotary-phone)
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/stock.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/stocks.rb)
+* [datagoil's solution](https://github.com/datagoil/stock-picker)
 
 ### Project 3: Substrings
 
@@ -883,3 +884,5 @@ Next, make sure your method can handle multiple words:
 * [Santiago ROdríguez Solution](https://github.com/santoxxcc/animated-octo-telegram)
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/substring.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/substring.rb)
+* [datagoil's solution](https://github.com/datagoil/substrings-for-Odin)
+

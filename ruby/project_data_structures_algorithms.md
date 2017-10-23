@@ -255,6 +255,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-knights-travails)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
 * [Jonathan Marks' solution](https://github.com/johnjmarks4/knights_travails)
+* [Jamesredux's solution](https://github.com/Jamesredux/knight_moves)
 
 
 ### Additional Resources
