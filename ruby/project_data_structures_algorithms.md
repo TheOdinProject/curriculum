@@ -256,6 +256,7 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-knights-travails)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
 * [Jonathan Marks' solution](https://github.com/johnjmarks4/knights_travails)
+* [Jamesredux's solution](https://github.com/Jamesredux/knight_moves)
 
 
 ### Additional Resources
