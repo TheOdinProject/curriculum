@@ -8,6 +8,9 @@ class NextLesson
   end
 
   def lesson_to_complete
+    puts "*" * 100
+    p last_lesson_completed
+    p next_lesson_to_complete_position
     course.lessons.find do |lesson|
       lesson.position == next_lesson_to_complete_position
     end
