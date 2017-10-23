@@ -37,7 +37,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [yilmazgunalp's solution](https://github.com/yilmazgunalp/youtube_page) - [View in Browser](https://yilmazgunalp.github.io/youtube_page/)
 * [Bottlecap's solution](https://github.com/Bottlecaps4/YouTube-video-page) - [View in Browser](https://bottlecaps4.github.io/YouTube-video-page/)
 * [Jeff's Solution](https://github.com/jmbothe/youtube-homepage) - [View in Browser](https://jmbothe.github.io/youtube-homepage/)
-* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) - [View in browse](https://andrewr224.github.io/embedding-video-project/)
+* [Andrew's solution](https://github.com/andrewr224/embedding-video-project) - [View in browser](https://andrewr224.github.io/embedding-video-project/)
 * [Austin's solution](https://github.com/CouchofTomato/youtube-clone)
 * [Flint Mayers' solution](https://github.com/FlintMayers/youtube_player) - [View in browser](https://flintmayers.github.io/youtube_player/)
 * [Javal's solution](https://github.com/javalnanda/youtube_player_page) - [View in browser](https://javalnanda.github.io/youtube_player_page/)
