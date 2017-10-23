@@ -1,3 +1,5 @@
+### Introduction
+
 You should have the criteria that you use to evaluate a job already figured out and it should already be in your spreadsheet.  Look through each lead on your spreadsheet and cross off the ones that fail your "must-have" criteria, then rank them based on your "nice-to-have" criteria.  You should be able to easily come up with a weighting system that lets you sort the jobs in order of preference.  Simpler is better, so no need to go overboard.
 
 Next, make a column for the percentage likelihood of getting the job with a reasonable effort.  Multiply this with the value of the job based on the previous step, sort by this new "expected value", and you should have an indication of which jobs are most worth your time.
