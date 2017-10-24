@@ -1247,6 +1247,7 @@ There are a couple of ways to go about doing this, but the simplest is this:
 * [OtakuShowboat's Solution (Easy)](https://github.com/OtakuShowboat/google-homepage) | [View in browser](https://otakushowboat.github.io/google-homepage/)
 * [nboaldin's Solution
 (Easy)](https://github.com/nboaldin/google-homepage) | [View in browser](https://nboaldin.github.io/google-homepage/)
+* [KaczmarekWill's Solution (Easy)](https://github.com/KaczmarekWill/google-homepage) | [View in browser](https://KaczmarekWill.github.io/google-homepage/)
 
 
 ### <a id="additional-resources"></a>Additional Resources
