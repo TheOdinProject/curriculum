@@ -16,14 +16,15 @@ You'll notice that it's quite structured.  Some things are more optional than ot
 
 We'll also cover some alternate paths you can take like finishing up your education at a coding bootcamp and how you can contribute to open source projects (like this one) to boost your "real world" experience.
 
-### Your Assignment
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. A fantastic place to start your "getting hired" journey is this **[very thorough article from Happy Bear Software on How to Get A Programmer Job](http://happybearsoftware.com/how-to-get-a-programmer-job.html)** (which was also a part of the Intro to Web Dev course).
 
 Now get your head out of the clouds, stop dreaming about how you'll get hired, and actually do it!
+</div>
 
 ### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
-* *Add some!*
+* Add some!

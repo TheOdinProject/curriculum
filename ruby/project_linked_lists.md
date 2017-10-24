@@ -1,3 +1,5 @@
+### Introduction
+
 In Computer Science one of the most basic and fundamental data structures is the
 linked list, which functions similarly to an array. The principal benefit of a linked
 list over a conventional array is that the list elements can easily be inserted or
@@ -31,35 +33,37 @@ A head node is the first node in the list, a tail node is the last node in the l
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 
-### Your Task
-You will need two classes:
+### Assignment
 
-1. `LinkedList` class, which will represent the full list.
-2. `Node` class, containing a `#value` method and a link to the `#next_node`, set both as `nil` by default.
+<div class="lesson-content__panel" markdown="1">
+  You will need two classes:
+
+  1. `LinkedList` class, which will represent the full list.
+  2. `Node` class, containing a `#value` method and a link to the `#next_node`, set both as `nil` by default.
 
 
-Build the following methods in your linked list class:
+  Build the following methods in your linked list class:
 
-1. `#append` adds a new node to the end of the list
-2. `#prepend` adds a new node to the start of the list
-3. `#size` returns the total number of nodes in the list
-4. `#head` returns the first node in the list
-5. `#tail` returns the last node in the list
-6. `#at(index)` returns the node at the given index
-7. `#pop` removes the last element from the list
-8. `#contains?` returns true if the passed in value is in the list and otherwise returns false.
-9. `#find(data)` returns the index of the node containing data, or nil if not found.
-10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
-  The format should be: `( data ) -> ( data ) -> ( data ) -> nil`
+  1. `#append` adds a new node to the end of the list
+  2. `#prepend` adds a new node to the start of the list
+  3. `#size` returns the total number of nodes in the list
+  4. `#head` returns the first node in the list
+  5. `#tail` returns the last node in the list
+  6. `#at(index)` returns the node at the given index
+  7. `#pop` removes the last element from the list
+  8. `#contains?` returns true if the passed in value is in the list and otherwise returns false.
+  9. `#find(data)` returns the index of the node containing data, or nil if not found.
+  10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
+    The format should be: `( data ) -> ( data ) -> ( data ) -> nil`
 
-### Extra Credit
+  ### Extra Credit
 
-1. `#insert_at(index)` that inserts the node at the given index
-2. `#remove_at(index)` that removes the node at the given index. (You will need to update the links of your nodes in the list when you remove a node.)
+  1. `#insert_at(index)` that inserts the node at the given index
+  2. `#remove_at(index)` that removes the node at the given index. (You will need to update the links of your nodes in the list when you remove a node.)
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/linkedlist.rb)

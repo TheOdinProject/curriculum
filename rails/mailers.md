@@ -4,10 +4,8 @@ Email is under-appreciated in its complexity on many levels.  I certainly didn't
 
 The actual production of the email is what we'll cover here... i.e. how do you make that special "thanks for signing up, userX" email.  Creating and sending email is actually conceptually similar to rendering views and shipping them to the web browser, at least from your point of view as a Rails dev.  In this lesson we'll cover that process and you'll get a chance to send your own emails in the projects.
 
-### Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment.
 
 * What is a mailer?
 * How do you set up a new mailer from the command line?
@@ -62,20 +60,21 @@ The [Letter Opener gem (see docs)](https://github.com/ryanb/letter_opener), put 
 * When styling your email HTML, you won't have access to any stylesheets so you'll need to do all the styling either inline or using `<style>` tags.
 * Attaching images to emails (like using logos in the HTML version) can be a bit of a pain.  See the reading.
 
-### Your Assignment
+### Assignment
 
-1. Read the [Rails Guide on ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html) chapters 1 and 2.  
-2. Skim the brief chapter 3 on receiving emails.  You'll be able to refer back to it if you need to.
-3. Read chapter 4 and 5 to learn about callbacks and helpers.
-4. Read chapter 6, which covers sending mail with your Gmail.  
-5. Skim chapters 7-8 on testing and intercepting emails.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Rails Guide on ActionMailer](http://guides.rubyonrails.org/action_mailer_basics.html) chapters 1 and 2.  
+  2. Skim the brief chapter 3 on receiving emails.  You'll be able to refer back to it if you need to.
+  3. Read chapter 4 and 5 to learn about callbacks and helpers.
+  4. Read chapter 6, which covers sending mail with your Gmail.  
+  5. Skim chapters 7-8 on testing and intercepting emails.
+</div>
 
 ### Conclusion
 
 Sending email is just a slightly different way of using the same patterns you've already been using for controllers and views, so it should be pretty straightforward to pick up.  You'll have to navigate the usual batch of errors when trying out new things (often related to the configuration or naming your files properly), but it'll come to you quickly.
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [How to Create, Preview, and Send Email From Your Rails App](https://www.youtube.com/watch?v=9eFXEzOPRNs)

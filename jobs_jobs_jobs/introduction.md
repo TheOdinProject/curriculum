@@ -1,8 +1,8 @@
-You've been figuring out this web development stuff and building apps for a long time now and it's finally time to get paid to keep learning by working for someone else.  
+You've been figuring out this web development stuff and building apps for a long time now and it's finally time to get paid to keep learning by working for someone else.
 
-You're absolutely capable of getting a job but it's rarely easy to find one.  You'll have to be honest with yourself about what you want and what you can offer and tackle the challenge of getting hired with the same rigor and structure that has gotten you this far.  
+You're absolutely capable of getting a job but it's rarely easy to find one.  You'll have to be honest with yourself about what you want and what you can offer and tackle the challenge of getting hired with the same rigor and structure that has gotten you this far.
 
-This is as much an odds game as anything is, especially for first-time employees who haven't been "proven" by past experience.  That means you'll get your fair share of rejection along the way but everyone does.  You just need to keep building your skills and portfolio to make yourself a stronger candidate while continuing to send applications and get yourself out there every day.  
+This is as much an odds game as anything is, especially for first-time employees who haven't been "proven" by past experience.  That means you'll get your fair share of rejection along the way but everyone does.  You just need to keep building your skills and portfolio to make yourself a stronger candidate while continuing to send applications and get yourself out there every day.
 
 This course will lay out a structured path to follow which should help you avoid some of the pitfalls of just diving into the process without a plan.  **Read through this course completely once then use it step-by-step along the way as you go through the process**.  Good luck and get after it!
 
