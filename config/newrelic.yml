@@ -109,7 +109,7 @@ common: &default_settings
   # Java: create a config setting called "ignored_params" and set it to
   #     a comma separated list of HTTP parameter names.
   #     ex: ignored_params: credit_card, ssn, password
-  capture_params: false
+  capture_params: true
 
   # Transaction tracer captures deep information about slow
   # transactions and sends this to the New Relic service once a
@@ -192,7 +192,7 @@ development:
   # 'enabled').
   # NOTE: for initial evaluation purposes, you may want to temporarily
   # turn the agent on in development mode.
-  monitor_mode: false
+  monitor_mode: true
 
   # Rails Only - when running in Developer Mode, the New Relic Agent will
   # present performance information on the last 100 transactions you have
