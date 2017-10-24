@@ -197,6 +197,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Oliver Curting's solution](https://github.com/Curting/tic_tac_toe/blob/master/tic_tac_toe.rb)
 * [Alex's solution](https://github.com/alexcorremans/tictactoe/blob/master/tictactoe.rb)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/bookish-tribble)
+* [Kusnierewicz Solution](https://github.com/Kusnierewicz/Tic-Tac-Toe-Game)
 
 
 ### Project 2: Mastermind
@@ -369,7 +370,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Oliver Curting's solution (with five-guess AI)](https://github.com/Curting/mastermind) - [Live Version](https://repl.it/MEd9/0)
 * [Bruno Parga's solution (with fairly smart AI)](https://github.com/brunoparga/mastermind/)
 * [Alex's solution](https://github.com/alexcorremans/mastermind)
-* [Kusnierewicz solution](https://github.com/Kusnierewicz/Mastermind-game)
+* [Kusnierewicz solution (with fairly smart AI)](https://github.com/Kusnierewicz/Mastermind-game)
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/improved-octo-doodle)
 
 ### Additional Resources
