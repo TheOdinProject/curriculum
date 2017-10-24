@@ -6,8 +6,7 @@ class User < ApplicationRecord
          :omniauthable, :omniauth_providers => [:github, :google]
 
   validates_uniqueness_of :username, :email
-  validates :username, length: { in: 4..20 }
-  validates :learning_goal, length: { maximum: 100 }
+  validates :username, length: { in: 2..30 }
 
   has_many :lesson_completions, foreign_key: :student_id
   has_many :completed_lessons, through: :lesson_completions, source: :lesson
