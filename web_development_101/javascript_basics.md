@@ -36,6 +36,7 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Mohammed Mahdi's solution to problems 1-2](https://github.com/Mada-Craiz/project-euler)
 * [Dmitriy's solution to problems 1-2](https://github.com/DmitriyNar/euler)
 * [Ozra's solution to problems 1-7](https://github.com/0zra/euler)
 * [Freya's solution to problem 1](https://github.com/fbl11/TOPAssignmentEulerProblems)
