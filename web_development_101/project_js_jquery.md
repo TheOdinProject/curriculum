@@ -59,7 +59,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [gfintel24's solution](https://github.com/Gfintel24/sketchpad) - [View in browser](https://gfintel24.github.io/sketchpad/)
 * [aualby's solution](https://github.com/aualby/the-odin-project/tree/master/javascript-jquery) - [View in browser](https://aualby.github.io/the-odin-project/javascript-jquery/index.html)
 * [jlo4's solution](https://github.com/jlo4/colorpad) - [View in browser](https://rawgit.com/jlo4/colorpad/master/index.html)
-* [Mtheam's solution] (https://github.com/mtheam1/etch-a-sketch)
+* [Mtheam's solution](https://github.com/mtheam1/etch-a-sketch)
 * [oheydrew's solution](https://github.com/oheydrew/etch/) - [View in browser](https://oheydrew.github.io/etch/)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/sketchpad) - [View in browser](https://jonathanyiv.github.io/sketchpad/)
 * [Jason McKee's solution](https://github.com/jttmckee/sketch-pad) - [View in browser](https://jttmckee.github.io/sketch-pad/)

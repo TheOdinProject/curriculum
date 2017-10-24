@@ -23,7 +23,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Artur Janik's solution](https://github.com/ArturJanik/TOPJS/tree/master/Project8) - [View in browser](http://rawgit.com/ArturJanik/TOPJS/master/Project8/index.html)
 * [dchen71's solution](https://github.com/dchen71/odin-ajax_submission) - [View in browser](http://rawgit.com/dchen71/odin-ajax_submission/master/Index.html)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin_ajax_scroll) - [View in browser](http://htmlpreview.github.io/?https://github.com/AtActionPark/odin_ajax_scroll/blob/master/index.html)
-* [Wayne's solution](https://github.com/wayneho/Ajax-Infinite-Scroll) - [View in browser] (https://rawgit.com/wayneho/Ajax-Infinite-Scroll/master/index.html)
+* [Wayne's solution](https://github.com/wayneho/Ajax-Infinite-Scroll) - [View in browser](https://rawgit.com/wayneho/Ajax-Infinite-Scroll/master/index.html)
 * [Luke Walker's solution](https://github.com/ubershibs/odin-js-course/tree/master/omdb) - [View in browser](http://lukewalker.org/odin/js-course/omdb/)
 * [Miguel Herrera's solution](https://github.com/migueloherrera/js-infinite-scroll) - [View in browser](http://htmlpreview.github.io/?https://github.com/migueloherrera/js-infinite-scroll/blob/master/index.html)
 * [Cody Loyd's solution](https://github.com/codyloyd/js-infinite-scrolling-test) - [View in browser](http://codyloyd.com/js-infinite-scrolling-test/)

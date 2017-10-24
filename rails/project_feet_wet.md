@@ -72,7 +72,7 @@ If you will be submitting a solution for the RoR tutorial chapter 2, make sure i
 * [dchen71's solution](https://github.com/dchen71/the_odin_project/tree/master/Rails/toy_app)
 * [Dan Hoying's solution](https://github.com/danhoying/toy_app)
 * [Joseph McConnell's solution](https://github.com/JJMcConnell/TheOdinProject/tree/master/RailsTutorialCh2/toy_app)
-* [andrewdbass' solution] (https://github.com/andrewdbass/toy_app)
+* [andrewdbass' solution](https://github.com/andrewdbass/toy_app)
 * [Noah Prescott's solution](https://github.com/npresco/top/tree/master/rails_tutorial/toy_app)
 * [Giorgos's solution](https://github.com/vinPopulaire/toy_app)
 * [Alex Tsiras' solution](https://github.com/arialblack14/toy_app)
