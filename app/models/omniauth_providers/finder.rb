@@ -35,9 +35,9 @@ module OmniauthProviders
     end
 
     def user
-        User.where(email: auth.info.email).first_or_create! do |user|
+        User.where(email: auth.info.email.downcase).first_or_create! do |user|
           user.username = auth.info.name
-          user.email = auth.info.email
+          user.email = auth.info.email.downcase
           user.password = Devise.friendly_token[0,20]
           user.avatar = auth.info.image
         end
