@@ -122,12 +122,14 @@ Dialing things back to the local environment, here are a few useful things to kn
 
 * Use `$ rails server -p 3001` to create a Rails server on a different port (in the example, port 3001).  This way you can run multiple Rails apps at the same time.  Just go to http://localhost:3001 now to access the new app.
 
-## Your Assignment
+## Assignment
 
 We won't have too much reading here because many of the links are interspersed with the sections above and, **if you're a complete beginner, you can safely skip this until later**.  The important thing is to understand conceptually how the deployment process works and have the confidence to locate the documents you need to diagnose issues.  The project will have you actually do it.
 
-1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails5) for a step-by-step guide to deploying.
-2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Heroku Deployment Guide](https://devcenter.heroku.com/articles/getting-started-with-rails5) for a step-by-step guide to deploying.
+  2. Read [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works) for a better understanding of the tool you're using.
+</div>
 
 ### Conclusion
 
@@ -136,8 +138,7 @@ Deployment is one of the most satisfying parts of building an application... onc
 Best of all, once you can deploy an app to the interwebs, you're officially free to go into the world and build applications of your own.
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 
 * [Heroku Custom Domains](https://devcenter.heroku.com/articles/custom-domains) help file

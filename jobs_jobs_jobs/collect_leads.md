@@ -1,3 +1,5 @@
+### Introduction
+
 You've moved beyond the preparation and knowledge gathering phase.  Now it's time to hit the pavement and approach the actual jobs.  
 
 Organization is key here and a spreadsheet is highly recommended.  Keep track of not just the jobs themselves, but also their websites, any connections you have to the company, and a log of your activity.  Have a separate column for each "Must Have" criteria you identified in the earlier section (use a binary `true`/`false`) and each of the top 5 "Nice To Have" criteria (use a 3- or 5-point system) so you can quickly check off where the jobs rank.
