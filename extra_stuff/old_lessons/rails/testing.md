@@ -47,7 +47,6 @@ TODO: Happy path and sad path
 
 TDD forces you to write test coverage for each method and feature BEFORE you actually write the application code to make the test pass.  This forces you to build your test coverage while you build the application.  It also helps you think in a more disciplined way about the code you're producing -- if it isn't directly relevant to
 
-
 ### Style
 
 TODO: When to use `#context` vs `#describe`
