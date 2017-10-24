@@ -68,11 +68,11 @@ That looks a whole lot like what you normally see when Rails does it, right?
    Parameters: {"authenticity_token" => "WUaJBOpLhFo3Mt2vlEmPQ93zMv53sDk6WFzZ2YJJQ0M=", "user" =>{ "username" => "foobar", "email" => "foo@bar.com", "password" => "[FILTERED]" } }
    ~~~
 
-10. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.
-11. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).
-12. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](/ruby-on-rails/controllers) for a refresher).
-13. Add a new `::new` User line which makes use of that new whitelisting params method.
-14. Submit your form now.  It should work marvelously (once you debug your typos)!
+4. You'll get some errors because now your controller will need to change.  But recall that we're no longer allowed to just directly call `params[:user]` because that would return a hash and Rails' security features prevent us from doing that without first validating it.
+5. Go into your controller and comment out the line in your `#create` action where you instantiated a `::new` User (we'll use it later).
+6. Implement a private method at the bottom called `user_params` which will `permit` and `require` the proper fields (see the [Controllers Lesson](/courses/ruby-on-rails/lessons/controllers) for a refresher).
+7. Add a new `::new` User line which makes use of that new whitelisting params method.
+5. Submit your form now.  It should work marvelously (once you debug your typos)!
 
 #### Railsy Forms with `#form_tag`
 
