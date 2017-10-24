@@ -58,6 +58,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/ny-article) - [View in browser](https://adoniasdantas.github.io/ny-article/)
 * [Beth Rathbone's solution](https://github.com/bethrath/ny-times-article) - [View in browser](http://htmlpreview.github.io/?https://github.com/bethrath/ny-times-article/blob/master/index.html)
 * [Husein's solution](https://github.com/hosghf/new-york-times-articl-html-css) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/new-york-times-articl-html-css/blob/master/index.html)
+* [Paul McGarry's solution](https://github.com/thiswillhavetodo/nyt-article) - [View in browser](https://thiswillhavetodo.github.io/nyt-article/)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
