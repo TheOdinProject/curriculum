@@ -30,9 +30,9 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 
 * div.display
 * .display
-* # container &gt; .display
+* container &gt; .display
+
 * div\#container &gt; div.display
-* more permutations etc
 
 Those are just a few, but you probably notice the pattern. It's similar to CSS Style Selectors, right?
 
