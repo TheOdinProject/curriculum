@@ -3,6 +3,7 @@ Let's dive deeper into the fundamentals of JavaScript.
 ### Points to Ponder
 
 1. Can you define the terms "operand", "unary" and "binary" in a Javascript context?
+2. \(expand me please!\)
 
 ### Operators and Comparisons
 
@@ -10,7 +11,7 @@ This basic information is another crucial building block in the foundation of yo
 
 1. Read through \(and code along with!\) [this article](http://javascript.info/operators) about operators in Javascript.  Don't forget to do the "Tasks" at the bottom of the page!  
 2. [More operators](http://javascript.info/logical-operators).  
-2. Some of the most common operators in programming are those used to compare values.  Read about those [here](http://javascript.info/comparison).
+3. Some of the most common operators in programming are those used to compare values.  Read about those [here](http://javascript.info/comparison).
 
 ### Conditionals
 
@@ -32,10 +33,12 @@ Computers don't get tired, and they're really _really_ fast!  For that reason th
 
 ### Functions
 
-Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code...  that's the power of functions and they're used _constantly_ in Javascript.  
+Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code...  that's the power of functions and they're used _constantly_ in Javascript.
 
 1. [Another lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start.  Pay special attention to the sections on 'Function Scope'.  Scope is one item that commonly trips up both beginner and intermediate coders so it pays to spend some time with it up front.  
 2. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).  
 3. Next, read [this one](http://javascript.info/function-basics) from Javascript.info.  We've mentioned this before, but Javascript has changed a bit over the years and functions have recently gotten some innovation.  This article covers one of the more useful newer abilities: 'default parameters'. \(and don't forget the 'tasks' at the end!!\)  
 4. Finally read [one more article](http://javascript.info/function-expressions-arrows) about functions in Javascript that will give you just a little more context.  Another relatively new feature in modern Javascript is the `arrow function`. Which is introduced in this article.  Arrow functions are useful, but not incredibly crucial so don't worry about them too much just yet.  We include them here because you are likely to encounter them as you move forward, and it's better that you have at least _some_ idea of what you're looking at whenever they crop up.
+
+
 
