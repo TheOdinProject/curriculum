@@ -231,8 +231,13 @@ This works just fine, but an easier solution would be to utilize the "bubbling" 
 So how can we utilize this in our example?
 
 ```javascript
+// this line selects the #container div
 var container = document.querySelector('#container');
+// this line adds an eventListener to the CONTAINER (not the button)
 container.addEventListener('click', (e) => {
+  // here we check the tagname of the event target..
+  // technically the listener will fire everytime someone clicks on the container
+  // but this line filters out any clicks that aren't on the button itself.
   if (e.target.tagName !== 'BUTTON') return;
   alert(e.target.id);
 });
