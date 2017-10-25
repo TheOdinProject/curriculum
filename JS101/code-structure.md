@@ -47,14 +47,17 @@ Structural:
   Naming:
 
 * All names of things describe what they do, even if it means having really long names.
+
   * `validateCreditCardNumber()` is _much_ easier to understand than `validateNumber()` or worse `validate()`
   * this is infinitely easier if your functions actually only do one thing.
+
 * Write helpful error messages
 * Decide on and stick to a naming convention. ie. camelCase or under\_scores, var forty\_two = 42, ...
 
   Syntax:
 
 * Use [prettier.js](https://github.com/prettier/prettier) to make your coding style consistent. \(white space, code blocks, functions, ... visually consistent\). There are plugins for it in most major code editors.
+
   * Phrase things in the most clear way, not the most 'elegant' or short way.  No one will care how brilliant you are when they're 15 minutes in and just starting to understand your code.
 
 # Your Assignment
@@ -68,10 +71,10 @@ Read through these articles that discuss a few elements of writing good clean co
 
 ## Additional Resources
 
-* [a nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
+* [A nice op-ed](https://www.martinfowler.com/bliki/CodeAsDocumentation.html)
 * THE complete guide to [self-documenting code](http://wiki.c2.com/?SelfDocumentingCode)
 * [Airbnb style guide](https://github.com/airbnb/javascript)  
-* [chaining methods to write sentences](http://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
+* [Chaining methods to write sentences](http://javascriptissexy.com/beautiful-javascript-easily-create-chainable-cascading-methods-for-expressiveness/)   
 
 
 
