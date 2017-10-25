@@ -31,6 +31,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Daunenok's solution](https://github.com/daunenok/movie-database) - [View in browser](https://daunenok.github.io/movie-database/)
 * [Sophia Wu's solution](https://github.com/SophiaLWu/ajax-infinite-scrolling-project) - [View in browser](https://sophialwu.github.io/ajax-infinite-scrolling-project/)
 * [Austin's solution](https://github.com/CouchofTomato/infinite_scroll) - [View in browser](https://couchoftomato.github.io/infinite_scroll/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/Ajax_Movies) - [View in browser](https://ncud4bloc.github.io/Ajax_Movies/HTML/indexOMDB.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
