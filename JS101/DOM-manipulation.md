@@ -36,7 +36,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 
 Those are just a few, but you probably notice the pattern. It's similar to CSS Style Selectors, right?
 
-You can also use relational selectors with special properties owned by the nodes.
+You can also use relational selectors\(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
 
 ```javascript
 const container = document.querySelector('#container'); 
