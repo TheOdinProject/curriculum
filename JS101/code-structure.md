@@ -44,7 +44,25 @@ Structural:
 * Functions should only do ONE thing! Functions should rarely get to more than 10 lines.. and most functions should easily fit in 5-6 lines.  If your functions are regularly stretching longer than that then you should consider trying to break them down a bit.
 * Within a single file - organize variables, functions, objects, ... in a way that makes sense so you don't have to rescan the whole file all the time.
 
-  Naming:
+* Keep your indentation consistent!  In general begin and end opening/closing tags, parentheses or brackets at the same indentation level:
+
+```js
+// BAD
+function() {
+array.forEach(item => {
+console.log(item)
+})
+}
+
+//GOOD
+function() {
+  array.forEach(item => {
+    console.log(item)
+  })
+}
+```
+
+Naming:
 
 * All names of things describe what they do, even if it means having really long names.
 
@@ -52,9 +70,10 @@ Structural:
   * this is infinitely easier if your functions actually only do one thing.
 
 * Write helpful error messages
+
 * Decide on and stick to a naming convention. ie. camelCase or under\_scores, var forty\_two = 42, ...
 
-  Syntax:
+Syntax:
 
 * Use [prettier.js](https://github.com/prettier/prettier) to make your coding style consistent. \(white space, code blocks, functions, ... visually consistent\). There are plugins for it in most major code editors.
 
