@@ -6,15 +6,7 @@ We have completely removed much of our original content and base most of our fun
 
 Each lesson will begin with a **points to ponder** section which will give you a good idea of the content and will allow you to quiz yourself after finishing the lessons.
 
-The lessons will include readings, tutorials, videos and small projects.  Every few lessons there'll be a larger project to tackle that will try to combine the things you've learned up to that point.  Ideally by the end you will have learned quite a lot, and had _many_ chances to put it all to practice.
+The lessons will include readings, tutorials, videos and small projects.  Every few lessons there'll be a larger project to tackle that will try to combine the things you've learned up to that point.  Ideally by the end you will have learned quite a lot, and had _many_ chances to put it all to practice.  Be sure that as you go through the lessons you are actually typing any code into an editor yourself!  You won't learn much by copy and pasting!
 
 **HERE WE GO**
-
-
-
-
-
-
-
-
 
