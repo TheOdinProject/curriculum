@@ -66,7 +66,7 @@ RSpec.describe Lesson do
 
       before do
         allow(Octokit).to receive(:contents)
-          .with('theodinproject/curriculum', path: '/README.md', ref: 'feature/redesign-structure' )
+          .with('theodinproject/curriculum', path: '/README.md' )
           .and_raise(Octokit::Error)
 
         allow(lesson).to receive(:errors).and_return('there was a problem')
