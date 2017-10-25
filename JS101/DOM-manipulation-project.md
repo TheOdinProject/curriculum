@@ -1,6 +1,6 @@
-In this project you'll actually be creating a pretty neat toy for your portfolio to flex your DOM manipulation tools.  You're going to build a browser version of a type of something between a sketchpad and a Etch-A-Sketch.
+In this project you'll actually be creating a pretty neat toy for your portfolio to flex your DOM manipulation tools.  You're going to build a browser version of something between a sketchpad and an Etch-A-Sketch.
 
-This project should NOT be trivially easy for you!  You'll probably have to Google frequently to get the right JavaScript methods and CSS to use.  In fact, that's the point!  You CAN build this using the tools that you have already learned and there are plenty of more resources on the net for learning stuff that we haven't covered yet if you decide you need it.  We'll walk you through the basic steps, but it will be up to YOU to actually implement them.
+This project should NOT be easy for you!  You'll probably have to Google frequently to get the right JavaScript methods and CSS to use.  In fact, that's the point!  You CAN build this using the tools that you have already learned and there are plenty of more resources on the net for learning stuff that we haven't covered yet if you decide you need it.  We'll walk you through the basic steps, but it will be up to YOU to actually implement them.
 
 The key with anything like this is to break it down into little manageable steps and then figure out how to solve each in turn.
 
@@ -15,16 +15,16 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
       2. inline-block
       3. flexbox
    4. Be careful with borders and margins, they can adjust the size of the squares!
-   5. "OMFG, Why isn't my grid being created???"
+   5. "OMG, Why isn't my grid being created???"
       1. Open your browser's developer tools
       2. Check if there are any errors in the Javascript console
       3. Check your "elements" pane to see if the elements have actually shown up but are somehow hidden.
       4. Go willy-nilly and add  `console.log` statements in your javascript to see if it's actually being loaded.
 3. Set up a "hover" effect so that the grid divs change color when your mouse passes over them, leaving a \(pixelated\) trail through your grid like a pen would.
-   1. Hint: "hovering" is what happens when your mouse enters a div and ends when your mouse leaves it.. you can set up event listeners for either or both of those events as a starting point.
+   1. Hint: "hovering" is what happens when your mouse enters a div and ends when your mouse leaves it.. you can set up event listeners for either of those events as a starting point.
    2. There are multiple ways to change the color of the divs, including:
       1. adding a new class to the div
-      2. changing the div's background color programmatically.
+      2. changing the div's background color using JavaScript.
 4. Add a button to the top of the screen which will clear the current grid and send the user a popup asking for how many squares per side to make the new grid.  Once entered the new grid should be generated _in the same total space as before_ \(e.g. 960px wide\) and now you've got a new sketch pad.
    1. Research `button` tags in HTML and how you can make a JavaScript function run when one is clicked.
    2. Also check out `prompt`s
