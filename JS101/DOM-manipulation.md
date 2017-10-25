@@ -2,12 +2,12 @@ One of the most unique and useful abilities of javascript is it's ability to man
 
 ### Points to Ponder
 
-1. Do you understand what the DOM is in relation to a webpage?
-2. Do you understand the difference between a "node" and an "element"?
-3. Do you understand how to target nodes with "selectors"?
-4. Do you know the basic methods for finding/adding/removing and altering DOM nodes?
-5. Likewise, do you know the difference between a "nodelist" and an "array of nodes"?
-6. Do you understand how "events" and "listeners" work?
+1. What is DOM in relation to a webpage?
+2. What's the difference between a "node" and an "element"?
+3. How do you target nodes with "selectors"?
+4. What are the basic methods for finding/adding/removing and altering DOM nodes?
+5. What is the difference between a "nodelist" and an "array of nodes"?
+6. How do "events" and "listeners" work?
 
 ### DOM - Document Object Model
 
@@ -22,7 +22,7 @@ When working with HTML and JS, you'll often here mention of "the DOM". What the 
 
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. To think of it like a DOM tree \(which you can imagine like a family tree\), `<div id="container"></div>` would be on the top level/hierarchy, and it's children would be on the next lower level, each with their own "branch".
 
-That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments". 
+That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
 
 When your HTML and CSS code are rendered into a webpage the browser converts what you've written into a tree of these "Nodes" that contain everything they need \(html identifiers, styles, information about their parent and children nodes etc.\) and then paints them to the webpage.  Basically the main takeaway is that while you will mainly want to target the various `div`s `p`s and `h1`s that you've actually written into your html, you _do_ have access to some more information once the code has been rendered in a browser.
 
