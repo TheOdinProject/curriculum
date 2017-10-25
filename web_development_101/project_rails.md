@@ -278,7 +278,7 @@ Because you'll be doing so much stuff that we haven't taught you yet, this is a 
 * [Santiago Rodríguez Solution](https://github.com/santoxxcc/blogger) | [View in Browser](https://agile-mountain-84751.herokuapp.com/)
 * [WilPoly's Solution](https://github.com/wilPoly/blogger) | [View in Browser](https://guarded-journey-13824.herokuapp.com/) Upto I5
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/blogger) | to I5
-
+* [Samitha's Solution](https://github.com/samomatik/blogger) | [View in Browser](https://ancient-hamlet-11554.herokuapp.com/) I0-I5
 
 ### <a id="additional-resources"></a>Additional Resources
 
