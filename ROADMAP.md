@@ -1,8 +1,8 @@
 This is the overview of our re-vamp of the existing Javascript(JS) course. At the moment it is in it's infancy so please feel free to leave suggestions in the comments such as:
-- quality resources for a given topic.
-- lessons or topics you think should be included in the course.
-- ideas pertaining to the sequence of lessons
-- projects for each lesson/topic
+- Quality resources for a given topic.
+- Lessons or topics you think should be included in the course.
+- Ideas pertaining to the sequence of lessons
+- Projects for each lesson/topic
 - Any general feedback (the more the better!)
 
 ## Why this course is _important_.
@@ -39,29 +39,29 @@ I suspect that at some point we will want an entire course based on JS framework
 The following is a compilation of links, ideas and potential projects to complete for each section.  I'll try to keep it updated as you all comment and share ideas.
 
 #### JS Basics
-- for the most part, I think the existing WD101 JS section is adequate.. might need a little updating, but it's OK overall.
-- should include lesson on running JS code (https://www.youtube.com/watch?v=t7t_5QT4mxg&)
+- For the most part, I think the existing WD101 JS section is adequate.. might need a little updating, but it's OK overall.
+- Should include lesson on running JS code (https://www.youtube.com/watch?v=t7t_5QT4mxg&)
 - Resources:
-  - primarily codecademy.  
+  - Primarily codecademy.  
   - Eloquent JS is a highly recommended resource.. should at least mention it.
   - You Don't Know JS, "Up and Running" (the first book in the series) would be a good fit here as well.
 - Projects:
   - Algorithm Scripting
     - we'll roll our own test suite as a git repo for students to clone and then complete.  should mirror at least some of the ruby exercises.
 #### DOM Manipulation
-- focusing on plainJS at first...
+- Focusing on plainJS at first...
   - https://github.com/oneuijs/You-Dont-Need-jQuery
 - Resources:
   - http://domenlightenment.com/
   - JS30?
 - Projects:
-   - need ideas ;)
+   - Need ideas ;)
 #### ajax/APIs
  - We can cover and use `fetch` or some other 3rd party module (axios is popular) 
  - These don't show up in the current curriculum until _way_ later.. but I propose that most modern WebDev relies quite heavily on the concept of APIs, and for some reason, they're considered to be a somewhat scary topic.
 - We should also talk a bit about async here because AJAX methods are by definition going to be asyncronous.
-- there are lots of good APIs we could tap into to use for this assignment, but we should probably pick a relatively simple one.. examples:
-  - curated list of open APIs : [HERE](https://github.com/abhishekbanthia/Public-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning)
+- There are lots of good APIs we could tap into to use for this assignment, but we should probably pick a relatively simple one.. examples:
+  - Curated list of open APIs : [HERE](https://github.com/abhishekbanthia/Public-APIs?utm_source=SitePoint&utm_medium=email&utm_campaign=Versioning)
 E)
   - Open Movie DB
   - Weather api: Darkskynet has a great api and their plans are free for small scale applications.
@@ -103,7 +103,7 @@ _JS DOES NOT HAVE CLASSES_.  This section is important.. crucial even.
 - ??
 
 #### Other stuff..
-- this is a great article for express: https://zellwk.com/blog/crud-express-mongodb/
+- This is a great article for express: https://zellwk.com/blog/crud-express-mongodb/
 
 ###  ...remainder is in progress 
   
