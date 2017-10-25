@@ -7,14 +7,10 @@ module ApplicationHelper
     "https://github.com/TheOdinProject/#{extension}"
   end
 
-  def title(input = nil)
+  def title(input=nil)
     if input
       content_for(:title) { input + ' | The Odin Project' }
     end
-  end
-
-  def convert_markdown_to_html(markdown)
-    MarkdownConverter.new(markdown).as_html
   end
 
   def bootstrap_class_for(flash_type)

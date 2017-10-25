@@ -20,22 +20,6 @@ RSpec.describe ApplicationHelper do
     end
   end
 
-  describe 'convert_markdown_to_html' do
-    let(:markdown_converter) { double('MarkdownConverter') }
-
-    before do
-      allow(MarkdownConverter).to receive(:new).with('Some Markdown')
-        .and_return(markdown_converter)
-
-      allow(markdown_converter).to receive(:as_html)
-    end
-
-    it 'returns converted html' do
-      expect(markdown_converter).to receive(:as_html)
-      convert_markdown_to_html('Some Markdown')
-    end
-  end
-
   describe '#bootstrap_class_for' do
     let(:flash_type) { 'alert' }
 
@@ -141,7 +125,7 @@ RSpec.describe ApplicationHelper do
     let(:lesson_completions) { }
     let(:lesson_completion) { double('LessonCompletion') }
     let(:next_lesson) {
-      double('NextLesson', lesson_to_complete: lesson_to_complete )
+      double('NextLesson', to_complete: lesson_to_complete )
     }
     let(:lesson_to_complete) { double('Lesson') }
 

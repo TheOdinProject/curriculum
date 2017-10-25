@@ -23,7 +23,7 @@ RSpec.describe NextLesson, :type => :service do
 
   describe '#lesson' do
     it 'returns the next lesson to complete' do
-      expect(subject.lesson_to_complete).to eql(next_lesson)
+      expect(subject.to_complete).to eql(next_lesson)
     end
   end
 end
