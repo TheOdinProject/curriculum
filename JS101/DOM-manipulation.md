@@ -184,6 +184,8 @@ var btn = document.querySelector('#btn');
 btn.onclick = (e) => alert(e.target.tagName);
 ```
 
+###### \(need to review arrow functions? [LINK\)](http://javascript.info/function-expressions-arrows#arrow-functions)
+
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property. Let's try the last method.
 
 ```javascript
