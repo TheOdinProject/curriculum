@@ -1,4 +1,6 @@
-Interviewing is right up there with public speaking in the hierarchy of fears for most people.  Not only are you performing for someone else but they're actively judging you the whole time... yikes!  
+### Introduction
+
+Interviewing is right up there with public speaking in the hierarchy of fears for most people.  Not only are you performing for someone else but they're actively judging you the whole time... yikes!
 
 Far be it from us to try and get you over that psychological hurdle but it's definitely best if you can actually treat the interviews as a chance to show off the cool stuff you've built and the interesting new skills you've learned.  The best interviews are enthusiastic conversations with technical depth.
 
@@ -18,9 +20,9 @@ Just a quick overview of the process a typical tech company will go through when
 
 ### The Phone Screen
 
-Congratulations! Your resume wasn't a total train-wreck and they've invited you for a phone screen (note -- sometimes you actually do the tech challenge first).  The real purpose of this screen, which is often roughly a half hour with someone from Human Resources (not the actual hiring manager), is to make sure you've got a good chance of passing their technical interview and fit interviews.  So consider it a light version of each of these.  
+Congratulations! Your resume wasn't a total train-wreck and they've invited you for a phone screen (note -- sometimes you actually do the tech challenge first).  The real purpose of this screen, which is often roughly a half hour with someone from Human Resources (not the actual hiring manager), is to make sure you've got a good chance of passing their technical interview and fit interviews.  So consider it a light version of each of these.
 
-You'll probably be asked about some of the technical things you've listed on your resume but not actually dive into the depths (though some places do a brain teaser too) and you'll probably be asked some more "softer" questions about why you chose the job and what you've done before.  Companies vary widely in how they use the phone screen.  The basic tactic here isn't a tactic -- be honest and enthusiastic and open.  And don't be afraid to practice talking about yourself in front of the mirror.  
+You'll probably be asked about some of the technical things you've listed on your resume but not actually dive into the depths (though some places do a brain teaser too) and you'll probably be asked some more "softer" questions about why you chose the job and what you've done before.  Companies vary widely in how they use the phone screen.  The basic tactic here isn't a tactic -- be honest and enthusiastic and open.  And don't be afraid to practice talking about yourself in front of the mirror.
 
 FINAL NOTE -- this is not one-size-fits-all and many companies skip the light stuff and dive right into a technical screen so you've got to be prepared just in case!  The Coding Horror link below is more descriptive about that case.
 
@@ -30,15 +32,15 @@ FINAL NOTE -- this is not one-size-fits-all and many companies skip the light st
 
 ### The Tech Interview
 
-The technical interview is usually the most terrifying part of the interview process. It's where they will assess whether you've got the technical chops to make it.  That means you'll not only be asked very specifically about the work you've done, but also to solve logic problems or code live or whiteboard some new features.  
+The technical interview is usually the most terrifying part of the interview process. It's where they will assess whether you've got the technical chops to make it.  That means you'll not only be asked very specifically about the work you've done, but also to solve logic problems or code live or whiteboard some new features.
 
-In fact, one point of the interview is often to push you to your limit just to see how you react to not knowing something.  If you do an exercise too easily, they'll go to a much harder one.  Especially as a beginner, you will hit a lot of stumbling points.  The biggest asset you have is honesty and intellectual curiosity.  
+In fact, one point of the interview is often to push you to your limit just to see how you react to not knowing something.  If you do an exercise too easily, they'll go to a much harder one.  Especially as a beginner, you will hit a lot of stumbling points.  The biggest asset you have is honesty and intellectual curiosity.
 
-When solving a problem, make sure to do so in a clear and logical way, explaining out loud why you're doing each step.  Talk through your roadblocks and give examples of how you'd find the solution in the "real world".  Often, that answer would be to Google for some particular function.  Say so!  They know you're not a Ruby expert, but they need to know that you'll be able to seek out solutions to the problems you'll inevitably encounter on the job.  
+When solving a problem, make sure to do so in a clear and logical way, explaining out loud why you're doing each step.  Talk through your roadblocks and give examples of how you'd find the solution in the "real world".  Often, that answer would be to Google for some particular function.  Say so!  They know you're not a Ruby expert, but they need to know that you'll be able to seek out solutions to the problems you'll inevitably encounter on the job.
 
-It's also totally okay to use a brute force (inefficient) solution to a coding problem. That's often the best place to start, just so you can be sure you've got the right feel for the problem.  You'll usually be asked how you can make the solution better, but that's much better than trying for a brilliant solution and running out of time with no work to show for it.  Again, your job isn't to be brilliant as much as to be adaptable and thoughtful in the face of challenges.  
+It's also totally okay to use a brute force (inefficient) solution to a coding problem. That's often the best place to start, just so you can be sure you've got the right feel for the problem.  You'll usually be asked how you can make the solution better, but that's much better than trying for a brilliant solution and running out of time with no work to show for it.  Again, your job isn't to be brilliant as much as to be adaptable and thoughtful in the face of challenges.
 
-And if you don't know something, it's better to say so and work with your interviewer to figure it out.  Trust me, they want you to succeed as much as you do because there's nothing tougher as an interviewer than seeing someone silently crashing on a problem and getting more and more frustrated but not asking for help or providing any window into their thoughts.  
+And if you don't know something, it's better to say so and work with your interviewer to figure it out.  Trust me, they want you to succeed as much as you do because there's nothing tougher as an interviewer than seeing someone silently crashing on a problem and getting more and more frustrated but not asking for help or providing any window into their thoughts.
 
 You'll need to read up on a variety of things that weren't focused on in the previous few courses, including data structures and algorithms, just because they're favorite targets of interviewers.  They may not be great indicators of coding skill, but the world is stuck in its ways and you'll be asked those more "Computer Science-y" questions.
 
@@ -70,9 +72,9 @@ You'll need to read up on a variety of things that weren't focused on in the pre
 
 * [Teaching Software Architecture with Github](http://avandeursen.com/2013/12/30/teaching-software-architecture-with-github/)
 
-## The tech challenge
+### The tech challenge
 
-The take-home tech challenge may occur before or after the in-person screen, depending on the company.  They will give you an application or problem which will take up to a full day to complete on your own time.  Examples of take-home tech challenges include building out a sample web app with tests or solving a challenging algorithmic problem using code.  
+The take-home tech challenge may occur before or after the in-person screen, depending on the company.  They will give you an application or problem which will take up to a full day to complete on your own time.  Examples of take-home tech challenges include building out a sample web app with tests or solving a challenging algorithmic problem using code.
 
 They'll evaluate you on the completeness of your solution and the quality of your code.  If it occurred before the technical interview, it's a good mechanism for them to test your commitment (up to half of people never even turn in a solution).
 
@@ -86,6 +88,6 @@ It's also a chance for you to test them out.  If you've gotten this far in the p
 
 Do. Not. Provide. Compensation. Expectations.
 
-Companies will always ask you "how much do you expect to get paid".  Your answer?  "I expect to get paid a fair market rate" (unless you're a bit cocky and decide you should get paid above market.  See how that goes.).  There's nothing you can possibly gain from providing an expectation for comp.  If it's lower than what they would have offered you, you just capped what they'll offer you.  If it's higher, they may just scuttle the process because you're too expensive.  
+Companies will always ask you "how much do you expect to get paid".  Your answer?  "I expect to get paid a fair market rate" (unless you're a bit cocky and decide you should get paid above market.  See how that goes.).  There's nothing you can possibly gain from providing an expectation for comp.  If it's lower than what they would have offered you, you just capped what they'll offer you.  If it's higher, they may just scuttle the process because you're too expensive.
 
 Once you have an offer, you can check it against fair market rate by asking other people (hopefully you've got some people by now who you might ask) or going to [Glassdoor](http://glassdoor.com) (just remember you're junior so won't get "average").  But the real point is to not shoot yourself in the foot when they ask.
