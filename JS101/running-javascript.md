@@ -46,7 +46,7 @@ Opening this file in a browser will run the JavaScript code and log those statem
 
 ## The Command Line
 
-And finally, you can run your JavaScript code from the command line.  If you've installed nodeJS you can usually run a JavaScript file in a terminal by running `node filename.js`  though this could change depending on your setup.
+And finally, you can run your JavaScript code from the command line.  If you've installed nodeJS you can usually run a JavaScript file in a terminal by running `node filename.js`  though this could change depending on your setup.  You can read more about setting up node [here](https://nodejs.org/en/download/package-manager/#nvm).  \(Be sure to install node using NVM\)
 
 ## So which one do I use?
 
