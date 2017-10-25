@@ -29,7 +29,7 @@ class Lesson < ApplicationRecord
   end
 
   def import_content_from_github
-    update(content: decoded_content) if content_needs_updated
+    update(content: content_converted_to_html) if content_needs_updated
   rescue Octokit::Error => errors
     failed_to_import_message
   end
@@ -47,11 +47,16 @@ class Lesson < ApplicationRecord
   private
 
   def content_needs_updated
-    content != decoded_content
+    content != content_converted_to_html
+  end
+
+  def content_converted_to_html
+    @content_converted_to_html ||= MarkdownConverter.new(decoded_content).as_html
   end
 
   def decoded_content
-    @decoded_content ||= Base64.decode64(github_response[:content])
+    @decoded_content ||=
+      Base64.decode64(github_response[:content]).force_encoding("UTF-8")
   end
 
   def github_response
