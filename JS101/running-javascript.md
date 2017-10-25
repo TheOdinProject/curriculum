@@ -18,7 +18,7 @@ There will be a more in depth lesson on this later, but it is possible to write 
 
 Once the console is open writing code is as easy as typing it in.  To get multiple lines for functions press Shift+Enter as Enter alone will try to run the code.
 
-**Try this now:** Open the console \(you can do it right on this page\) and type var a = 10 then press Enter.  Now type a and press Enter again, the console _should_ display 10.  Next type a + 5 and press Enter.... the console should now display 15.
+**Try this now:** Open the console \(you can do it right on this page\) and type `var a = 10` then press Enter.  Now type `a` and press Enter again, the console _should_ display `10`.  Next type `a + 5` and press Enter.... the console should now display `15`.
 
 In many cases, if you just want to quickly try something out, using the browser console is incredibly quick and easy.
 
