@@ -26,9 +26,9 @@ If you get totally stuck drop by the chatroom.. someone will be there to point y
       1. adding a new class to the div
       2. changing the div's background color programmatically.
 4. Add a button to the top of the screen which will clear the current grid and send the user a popup asking for how many squares per side to make the new grid.  Once entered the new grid should be generated _in the same total space as before_ \(e.g. 960px wide\) and now you've got a new sketch pad.
-   1. research `button` tags in HTML and how you can make a JavaScript function run when one is clicked.
-   2. also check out `prompt`s
-   3. you should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used
+   1. Research `button` tags in HTML and how you can make a JavaScript function run when one is clicked.
+   2. Also check out `prompt`s
+   3. You should be able to enter `64` and have a brand new 64x64 grid pop up without changing the total amount of pixels used
 5. \(Optional\): Instead of just changing the color of your grid from black to white \(for example\) have each pass through it with the mouse change to a completely random RGB value.   Then try having each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
 6. Push your project to GitHub!
 
