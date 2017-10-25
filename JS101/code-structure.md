@@ -73,6 +73,8 @@ Naming:
 
 * Decide on and stick to a naming convention. ie. camelCase or under\_scores, var forty\_two = 42, ...
 
+* In general functions DO things so use verbs to name them.  Variables ARE things so use nouns.  This rule can be flexible, but can make your code much easier to read if used consistently.
+
 Syntax:
 
 * Use [prettier.js](https://github.com/prettier/prettier) to make your coding style consistent. \(white space, code blocks, functions, ... visually consistent\). There are plugins for it in most major code editors.
