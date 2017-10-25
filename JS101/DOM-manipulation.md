@@ -56,7 +56,7 @@ So you're using the node's relationships to the surrounding nodes to define it.
 
 ### DOM methods
 
-The DOM spec adds many properties and methods to the nodes in a webpage. Let's get started with a couple that will be essential in your DOM learnings. We'll start with the query selectors - those that help you target nodes. These are avaiable on bject and element objects.
+The DOM spec adds many properties and methods to the nodes in a webpage. Let's get started with a couple that will be essential in your DOM learnings. We'll start with the query selectors - those that help you target nodes.
 
 #### Query Selectors
 
