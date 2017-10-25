@@ -34,6 +34,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [funwithcthulhu's Solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/caesar_cipher.rb)
 * [gregthepeg4's Solution](https://github.com/gregthepeg4/building_blocks)
 * [Dor Bar's solution](https://github.com/dor4231/Ruby_Projects/blob/master/ceaser_cipher.rb)
 * [isildonmez's solution](https://github.com/isildonmez/Caesar-Cipher/blob/master/Caesar-Cipher.rb)
@@ -336,6 +337,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/stock_picker.rb)
 * [Omar Moataz's solution](https://github.com/omarmoatazpracticehub/stock-pricing.git)
 * [rublen's solution](https://github.com/rublen/The_Odin_Ruby/blob/master/stock.rb)
 * [Akshat's solution](https://github.com/akshatdb/RubyMain/blob/master/stock_picker.rb)
