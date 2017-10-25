@@ -20,9 +20,9 @@ For the moment we are not going to teach you how to write these tests, because i
      * reverseString
      * removeFromArray
      * sumAll
-     * tempConversion
-
      * leapYears
+
+     * tempConversion
 
 
 
