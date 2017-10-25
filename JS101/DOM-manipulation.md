@@ -174,10 +174,12 @@ We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use 
 This solution is less than ideal. For one, we're cluttering out HTML with javascript. And two, we can only have 1 "onclick" event per element. Let's try another approach.
 
 ```javascript
+// the html file
 <button id="btn">Click Me</button>
 ```
 
 ```javascript
+// the JavaScript file
 var btn = document.querySelector('#btn');
 btn.onclick = (e) => alert(e.target.tagName);
 ```
@@ -185,10 +187,12 @@ btn.onclick = (e) => alert(e.target.tagName);
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property. Let's try the last method.
 
 ```javascript
+// the html file
 <button id="btn">Click Me Too</button>
 ```
 
 ```javascript
+// the JavaScript file
 var btn = document.querySelector('#btn');
 btn.addEventListener('click', (e) => {
   alert(e.target.tagName);
