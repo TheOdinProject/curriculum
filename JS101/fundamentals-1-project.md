@@ -6,5 +6,5 @@ Now it's time to slow down a little bit with the information overload and practi
 
 To give you a good bit of practice we have created an online classroom on repl.it.  In general we believe that it's best to work on programming on your _own_ computer rather than in an online environment.. but we'll get to that soon enough.
 
-The classroom and lessons can be found [here.](https://repl.it/teacher/classrooms/34425) Do the lessons in order.  You do not have to sign up or login to repl.it to do the course, but doing so makes the user experience a little nicer.. you can submit your answers to check them and see 'model solutions' on a couple of the lessons.
+The classroom and lessons can be found [here](https://repl.it/community/classrooms/34425). Do the lessons in order.  You do not have to sign up or login to repl.it to do the course, but doing so makes the user experience a little nicer.. you can submit your answers to check them and see 'model solutions' on a couple of the lessons.
 
