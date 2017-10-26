@@ -1,4 +1,4 @@
-One of the most unique and useful abilities of javascript is it's ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
+One of the most unique and useful abilities of JavaScript is it's ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
 
 ### Points to Ponder
 
@@ -11,16 +11,16 @@ One of the most unique and useful abilities of javascript is it's ability to man
 
 ### DOM - Document Object Model
 
-When working with HTML and JS, you'll often here mention of "the DOM". What the DOM is, on a high level, is a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationsships depending on how they're arranged in the HTML document.
+When working with HTML and JS, you'll often here mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
-```javascript
+```JavaScript
 <div id="container">
   <div class="display"></div>
   <div class="controls"></div>
 </div>
 ```
 
-In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. To think of it like a DOM tree \(which you can imagine like a family tree\), `<div id="container"></div>` would be on the top level/hierarchy, and it's children would be on the next lower level, each with their own "branch".
+In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a DOM tree \(which you can imagine like a family tree\), `<div id="container"></div>` would be on the top level/hierarchy, and it's children would be on the next lower level, each with their own "branch".
 
 That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
 
@@ -40,7 +40,7 @@ Those are just a few, but you probably notice the pattern. It's similar to CSS S
 
 You can also use relational selectors\(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
 
-```javascript
+```JavaScript
 const container = document.querySelector('#container'); 
 // select the #container div (don't worry about the syntax, we'll get there)
 
@@ -54,7 +54,7 @@ console.dir(controls.previousSibling);
 // selects the prior sibling => .display
 ```
 
-So you're using the node's relationships to the surrounding nodes to define it.
+So you're identifing a certain node based on its relationships to the nodes around it. 
 
 ### DOM methods
 
@@ -72,7 +72,7 @@ It's important to note that when using querySelectorAll, the return value is **n
 
 * document.createElement\(tagName\[, options\]\) =&gt; creates a new element of tag type tagName.  `[options]` in this case means you can add some optional parameters to the function.  Don't worry about these at this point.
 
-```javascript
+```JavaScript
 const div = document.createElement('div');
 ```
 
@@ -91,14 +91,14 @@ const div = document.createElement('div');
 
 When you have reference to an element, you can use that reference to alter the elements own properties. This provides allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
-```javascript
+```JavaScript
 const div = document.createElement('div');                     
 // create a new div referenced in the variable 'div'
 ```
 
 #### Adding inline style
 
-```javascript
+```JavaScript
 div.style.color = 'blue';                                      
 // adds the indicated style rule
 
@@ -115,7 +115,7 @@ Generally style rules are the same as in CSS with the exception that hyphenated 
 
 #### Editing Attributes
 
-```javascript
+```JavaScript
 div.setAttribute('id', 'theDiv');                              
 // if id exists update it to 'theDiv' else create an id 
 // with value "theDiv"
@@ -132,7 +132,7 @@ See MDNs section on [HTML Attributes](https://developer.mozilla.org/en-US/docs/W
 
 #### Working with classes
 
-```javascript
+```JavaScript
 div.classList.add('new');                                      
 // adds class "new" to your new div
 
@@ -144,11 +144,11 @@ div.classList.toggle('active');
 // it does, then remove it
 ```
 
-Often times it's more efficient and creates cleaner code to toggle a style rather than adding and removing inline CSS.
+It is often standard \(and more clean\) to toggle a CSS style rather than adding and removing inline CSS.
 
 #### Adding text content
 
-```javascript
+```JavaScript
 div.textContent = 'Hello World!'                               
 // creates a text node containing "Hello World!" and 
 // inserts it in div
@@ -156,7 +156,7 @@ div.textContent = 'Hello World!'
 
 #### Adding HTML content
 
-```javascript
+```JavaScript
 div.innerHTML = '<span>Hello World!</span>';                   
 // renders the html inside div
 ```
@@ -165,22 +165,22 @@ div.innerHTML = '<span>Hello World!</span>';
 
 ### Events
 
-Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on ythe DOM object in your javascript, or you can attach event listeners to the nodes in your javascript.
+Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.
 
 We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
 
-```javascript
+```JavaScript
 <button onclick="alert(this.tagName)">Click Me</button>
 ```
 
-This solution is less than ideal. For one, we're cluttering out HTML with javascript. And two, we can only have 1 "onclick" event per element. Let's try another approach.
+This solution is less than ideal. For one, we're cluttering out HTML with JavaScript. And two, we can only have 1 "onclick" event per element. Let's try another approach.
 
-```javascript
+```JavaScript
 // the html file
 <button id="btn">Click Me</button>
 ```
 
-```javascript
+```JavaScript
 // the JavaScript file
 var btn = document.querySelector('#btn');
 btn.onclick = (e) => alert(e.target.tagName);
@@ -190,12 +190,12 @@ btn.onclick = (e) => alert(e.target.tagName);
 
 This is a little better. We've moved the JS out of the HTML and into a JS file, but we still have the problem that a DOM element can only have 1 "onclick" property. Let's try the last method.
 
-```javascript
+```JavaScript
 // the html file
 <button id="btn">Click Me Too</button>
 ```
 
-```javascript
+```JavaScript
 // the JavaScript file
 var btn = document.querySelector('#btn');
 btn.addEventListener('click', (e) => {
@@ -213,7 +213,7 @@ This might seem like a lot of code if you're attaching lots of similar event lis
 
 We want to create an alert when the buttons are clicked. We'll try first by iterating over a group of elements.
 
-```javascript
+```JavaScript
 <div id="container">
     <button id="1">Click Me</button>
     <button id="2">Click Me</button>
@@ -221,7 +221,7 @@ We want to create an alert when the buttons are clicked. We'll try first by iter
 </div>
 ```
 
-```javascript
+```JavaScript
 var buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
   button.addEventListener('click', (e) => {
@@ -238,7 +238,7 @@ This works just fine, but an easier solution would be to utilize the "bubbling" 
 
 So how can we utilize this in our example?
 
-```javascript
+```JavaScript
 // this line selects the #container div
 var container = document.querySelector('#container');
 // this line adds an eventListener to the CONTAINER (not the button)
