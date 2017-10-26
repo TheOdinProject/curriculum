@@ -1,5 +1,6 @@
 One of the most unique and useful abilities of JavaScript is it's ability to manipulate the DOM. But what _is_ the DOM, and how do we go about changing it? Let's jump right in...
 
+
 ### Points to Ponder
 
 1. What is DOM in relation to a webpage?
@@ -13,6 +14,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 
 When working with HTML and JS, you'll often here mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
+
 ```javascript
 <div id="container">
   <div class="display"></div>
@@ -20,7 +22,9 @@ When working with HTML and JS, you'll often here mention of "the DOM". The DOM \
 </div>
 ```
 
+
 In the above example, the `<div class="display"></div>` is a "child" of `<div id="container"></div>` and a sibling to `<div class="controls"></div>`. Think of it like a DOM tree \(which you can imagine like a family tree\), `<div id="container"></div>` would be on the top level/hierarchy, and it's children would be on the next lower level, each with their own "branch".
+
 
 That's a basic DOM example. But the truth is, that's only accounting for HTML elements. When you're working with the DOM, you're dealing with all of the "nodes" of the webpage. What's the difference? "Nodes" can include elements, text content inside an element, code comment blocks not visible to the user, the document itself and even abstract types like "fragments".
 
@@ -36,7 +40,7 @@ When working with the DOM, you use "selectors" to target the nodes you want to w
 
 * div\#container &gt; div.display
 
-Those are just a few, but you probably notice the pattern. It's similar to CSS Style Selectors, right?
+Those are just a few, but you have probably noticed the pattern. It's similar to CSS Style Selectors, right?
 
 You can also use relational selectors\(i.e. `firstChild` or `lastSibling` etc.\) with special properties owned by the nodes.
 
@@ -89,7 +93,7 @@ const div = document.createElement('div');
 
 #### Altering Elements
 
-When you have reference to an element, you can use that reference to alter the elements own properties. This provides allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
+When you have a reference to an element, you can use that reference to alter the elements own properties. This provides allows you to do many useful alterations, like adding/removing and altering attributes, changing classes, adding inline style information and more.
 
 ```JavaScript
 const div = document.createElement('div');                     
@@ -165,6 +169,7 @@ div.innerHTML = '<span>Hello World!</span>';
 
 ### Events
 
+
 Events are how you make the magic happen on your pages. There are a lot of events for most all situations you will encounter. Events fire when the page loads, when you click your mouse, when you push keys on your keyboard, when you leave the page, when you shift focus to or away from input forms, and many, many more. You can utilize these events as a trigger to run your code. There are three primary ways to go about this: you can attach scripts to event attributes on elements in the HTML document, you can set the "on_event_" property on the DOM object in your JavaScript, or you can attach event listeners to the nodes in your JavaScript.
 
 We're going to create 3 buttons that all alert "BUTTON" when clicked. We'll use all 3 methods to achieve it and discuss.
@@ -205,7 +210,7 @@ btn.addEventListener('click', (e) => {
 
 Now, we maintain separation of concerns, and we also allow multiple event listeners if need arise. Great!
 
-There's some important things taking place here. That `e` being passed into our event listener callback, references the event itself. In the example, it's a click event. That event has a whole bundle of properties that we won't be discussing right now, but you're strongly encouraged to check out the links below for further study. The property we use in the example, is the "target" property. That's the element being clicked. Common practice is to call that event either "e" or "event" in your callback.
+There are some important things taking place here. That `e` being passed into our event listener callback, references the event itself. In the example, it's a click event. That event has a whole bundle of properties that we won't be discussing right now, but you're strongly encouraged to check out the links below for further study. The property we use in the example, is the "target" property. That's the element being clicked. Common practice is to call that event either "e" or "event" in your callback.
 
 #### Attaching listeners to groups of nodes
 
