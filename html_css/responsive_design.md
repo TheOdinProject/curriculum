@@ -23,3 +23,4 @@ This section contains helpful links to other content. It isn't required, so cons
 * [Responsive Navigation Patterns from Brad Frost](http://bradfrostweb.com/blog/web/responsive-nav-patterns/)
 * [Techniques for Gracefully Degrading Media Queries](http://coding.smashingmagazine.com/2011/08/10/techniques-for-gracefully-degrading-media-queries/)
 * Watch [Wes Bos'](https://twitter.com/wesbos) tutorial [What the Flexbox?!](https://flexbox.io/). You will need to provide your email to access the 20 video introduction to flex elements. Once you have completed the course you can read through [CSS-Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) should you want more in depth information.
+Best Practices of Responsive Web Design(https://medium.com/level-up-web/best-practices-of-responsive-web-design-6da8578f65c4)
