@@ -171,7 +171,7 @@ To get to the data we just need to drill down through the layers of the object u
 </script>
 ```
 
-Running the file now should log the url of the image... so all that's left to do is to set the source of the image that's on the page to the URL we've just accessed:
+Running the file now should log the url of the image, so all that's left to do is to set the source of the image that's on the page to the URL we've just accessed:
 
 ```html
 <script>
@@ -198,6 +198,6 @@ If you have gotten lost along the way check out [this jsbin project](http://jsbi
 3. 
 
 ### Project
-Create a weather forecast site using the weather API from above... you should be able to search for a specific location and toggle displaying the data in F or C.
+Create a weather forecast site using the weather API from above.  You should be able to search for a specific location and toggle displaying the data in F or C.
 
 Should change the look of the page based on the data, maybe by changing the color of the background or adding images that describe the weather. (you could even use the giphy API to find appropriate weather related gifs and display them).
