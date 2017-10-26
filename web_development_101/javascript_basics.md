@@ -545,6 +545,7 @@ Submit a link to the github repo with your files in it here with a pull request.
 * [Steve Yankson's Solution](https://github.com/samoaning/proj_euler_01)
 * [Jason's solution to Project Euler Problem 1](https://github.com/jn4248/project_euler_no_1) - [View in browser](https://jn4248.github.io/project_euler_no_1/)
 * [nboaldin's solution to Project Euler Problem 1](https://github.com/nboaldin/project-euler) - [View in browser](https://nboaldin.github.io/project-euler/)
+* [KaczmarekWill's solution to Project Euler Problems 1-4](https://github.com/KaczmarekWill/project-euler)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:
