@@ -1,30 +1,29 @@
-*Don't forget to use Git to save your projects!*
-
 ### Project 1: Searching Binary Trees
 
 You learned about [binary search trees](http://en.wikipedia.org/wiki/Binary_search_tree) -- where you take a group of data items and turn them into a tree full of nodes where each left node is "lower" than each right node.  The tree starts with the "root node" and any node with no children is called a "leaf node".
 
 You also learned about tree search algorithms like breadth-first-search and depth-first-search.  You learned that BFS is best used to find the optimum solution but can take a very long time (impractically long for broad and deep data sets) while DFS is often much faster but will give you the FIRST solution, not necessarily the best.  Here you'll get a chance to implement both.
 
-### Your Task
-
+### Assignment
 You'll build a simple binary tree data structure from some arbitrary input and also the "crawler" function that will locate data inside of it.
 
-1. Build a class `Node`.  It should have a `value` that it stores and also links to its parent and children (if they exist).  Build getters and setters for it (e.g. parent node, child node(s)).
-2. Write a method `build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a binary tree full of `Node` objects appropriately placed.  Start by assuming the array you get is sorted.
-3. Now refactor your `build_tree` to handle data that isn't presorted and cannot be easily sorted prior to building the tree.  You'll need to figure out how to add a node for each of the possible cases (e.g. if it's a leaf versus in the middle somewhere).
-3. Write a simple script that runs `build_tree` so you can test it out.
-5. Build a method `breadth_first_search` which takes a target value and returns the node at which it is located using the breadth first search technique.  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to search and to add new ones to the list (as you saw in the [video](https://youtu.be/9RHO6jU--GU)).  If the target node value is not located, return `nil`.
-4. Build a method `depth_first_search` which returns the node at which the target value is located using the depth first search technique.  Use an array acting as a *stack* to do this.
-5. Next, build a new method `dfs_rec` which runs a depth first search as before but this time, instead of using a stack, make this method recursive.
-6. Tips:
+<div class="lesson-content__panel" markdown="1">
+  1. Build a class `Node`.  It should have a `value` that it stores and also links to its parent and children (if they exist).  Build getters and setters for it (e.g. parent node, child node(s)).
+  2. Write a method `build_tree` which takes an array of data (e.g. [1, 7, 4, 23, 8, 9, 4, 3, 5, 7, 9, 67, 6345, 324]) and turns it into a binary tree full of `Node` objects appropriately placed.  Start by assuming the array you get is sorted.
+  3. Now refactor your `build_tree` to handle data that isn't presorted and cannot be easily sorted prior to building the tree.  You'll need to figure out how to add a node for each of the possible cases (e.g. if it's a leaf versus in the middle somewhere).
+  3. Write a simple script that runs `build_tree` so you can test it out.
+  5. Build a method `breadth_first_search` which takes a target value and returns the node at which it is located using the breadth first search technique.  **Tip:** You will want to use an array acting as a queue to keep track of all the child nodes that you have yet to search and to add new ones to the list (as you saw in the [video](https://youtu.be/9RHO6jU--GU)).  If the target node value is not located, return `nil`.
+  4. Build a method `depth_first_search` which returns the node at which the target value is located using the depth first search technique.  Use an array acting as a *stack* to do this.
+  5. Next, build a new method `dfs_rec` which runs a depth first search as before but this time, instead of using a stack, make this method recursive.
+  6. Tips:
 
     1. You can think of the `dfs_rec` method as a little robot that crawls down the tree, checking if a node is the correct node and spawning other little robots to keep searching the tree.  No robot is allowed to turn on, though, until all the robots to its left have finished their task.
     2. The method will need to take in both the target value and the current node to compare against.
 
-### Student Solutions
+</div>
 
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+### Student Solutions
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/bst.rb)
@@ -135,8 +134,7 @@ All the possible places you can end up after one move look like this:
 
 <img src="https://i.imgur.com/mHQqH08.gif">
 
-### Your Task
-
+### Assignment
 Your task is to build a function `knight_moves` that shows the simplest possible way to get from one square to another by outputting all squares the knight will stop on along the way.
 
 You can think of the board as having 2-dimensional coordinates.  Your function would therefore look like:
@@ -145,23 +143,24 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
   * `knight_moves([0,0],[3,3]) == [[0,0],[1,2],[3,3]]`
   * `knight_moves([3,3],[0,0]) == [[3,3],[1,2],[0,0]]`
 
+<div class="lesson-content__panel" markdown="1">
 1. Put together a script that creates a game board and a knight.
 2. Treat all possible moves the knight could make as children in a tree.  Don't allow any moves to go off the board.
 2. Decide which search algorithm is best to use for this case.  Hint: one of them could be a potentially infinite series.
 3. Use the chosen search algorithm to find the shortest path between the starting square (or node) and the ending square.  Output what that full path looks like, e.g.:
 
-    ```language-bash
-        > knight_moves([3,3],[4,3])
-        You made it in 3 moves!  Here's your path:
-        [3,3]
-        [4,5]
-        [2,4]
-        [4,3]
-    ```
+~~~bash
+  > knight_moves([3,3],[4,3])
+  => You made it in 3 moves!  Heres your path:
+    [3,3]
+    [4,5]
+    [2,4]
+    [4,3]
+~~~
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/knight_joint.rb)
@@ -256,10 +255,10 @@ You can think of the board as having 2-dimensional coordinates.  Your function w
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-knights-travails)
 * [Cody Buffaloe's solution](https://github.com/CodyLBuffaloe/Knights_Travails)
 * [Jonathan Marks' solution](https://github.com/johnjmarks4/knights_travails)
+* [Jamesredux's solution](https://github.com/Jamesredux/knight_moves)
 
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * More on [Binary Search Trees from Coursera](https://www.youtube.com/watch?v=pJ6aeg8x1Ig)... it gets a bit technical.

@@ -1,13 +1,12 @@
-*Don't forget to use Git to save your projects!*
-
 ### Warmup: RestClient
 
 This is really a warmup -- you'll get a chance to poke around HTTP requests from the command line (IRB actually) and also to play around with a new gem called `rest-client`.  This is a useful (and powerful) gem which helps you make HTTP requests.  You can use it to do the basic stuff we're doing here or much more complicated authentication requests.
 
 You may find yourself using Rest Client down the road if you need to communicate with another web service that doesn't have an API library already written out for you (which is pretty rare these days).  Or if you get the inclination to test your own API from the command line later.
 
-### Your Task
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. Make sure that you've got Rest Client installed, do a `$ gem install rest-client`
 2. Head into IRB (`$ irb`)
 3. `require 'rest-client'`
@@ -15,12 +14,13 @@ You may find yourself using Rest Client down the road if you need to communicate
 5. Use RestClient to do a Bing search (yes, Bing) and examine the results (you can find the parameters that Bing wants in the URL by simply making a search in a normal browser.  Pay attention to the `q=` parameter).
 
 ...that's it.  The point is to get familiar with making HTTP requests using your command line, which should prepare you for making them from within a Rails app later.
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Andrew's solution](https://github.com/andrewr224/bing-search)
 * [Jmooree30's solution](https://github.com/jmooree30/rest-client.git)
 * [Kasey Z's solution](https://github.com/kasey-z/bing_search)
 * [Jonathan Yiv's solution](https://github.com/JonathanYiv/rest_client)
@@ -91,7 +91,7 @@ The tutorial covers more specifically the practice of "Test Driven Development",
 
 This is an example (listing 3.22) from the tutorial:
 
-```language-ruby
+~~~ruby
     # test/controllers/static_pages_controller_test.rb
     require 'test_helper'
 
@@ -115,7 +115,7 @@ This is an example (listing 3.22) from the tutorial:
         assert_select "title", "About | Ruby on Rails Tutorial Sample App"
       end
     end
-```
+~~~
 
 This syntax will be a bit different from the testing you have done before, that's because it uses the minitest testing framework instead of RSpec which you have been so far. The syntax is a little different but the concepts are all the same so you shouldn't have much trouble understanding minitest tests. This is an "integration" or "feature" test, which means it deals with making sure your higher level user flows (as the user moves from one page to the next) behave as expected.  You'll also get to do "unit tests", which are meant to specifically test narrow pieces of functionality like model methods.  Both are important.
 
@@ -133,16 +133,17 @@ The second line `assert_response :success`, makes sure that the home page return
 
 If you're already scratching your head, don't worry (like I said, better explanations exist than mine).  The tutorial will cover testing along the way.  Hopefully your mind is warmed up right now and you won't be ambushed by suddenly being confronted with it.
 
-### Your Task
+### Assignment
 
+<div class="lesson-content__panel" markdown="1">
 1. If you'd still like a refresher on testing basics, check out [An Introduction to RSpec](http://blog.teamtreehouse.com/an-introduction-to-rspec) from Treehouse.
 2. Do [Chapter 3](https://www.railstutorial.org/book/static_pages) of the Ruby on Rails Tutorial to get started building the application.
 3. Do [Chapter 4](https://www.railstutorial.org/book/rails_flavored_ruby) of the tutorial to see how Ruby will be used in Rails.
 4. Glance back at the [Deployment Lesson](/courses/ruby-on-rails/lessons/deployment) if you've got lingering questions or issues about the process of deployment.
+</div>
 
 ### Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 
 
 * [Intro to RSpec](http://www.youtube.com/watch?v=aYXAWgSA5Kw) Video from RailsConf2012 on YouTube.
