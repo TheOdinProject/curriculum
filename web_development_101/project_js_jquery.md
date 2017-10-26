@@ -44,6 +44,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this line!
 <<<<<<< HEAD
+* [Kasper's solution] (https://github.com/KasperMin/sketchpad) - [View in browser] (https://kaspermin.github.io/sketchpad/)
 * [Ozra's solution](https://github.com/0zra/Odin-sketchpad) - [View in browser](https://0zra.github.io/Odin-sketchpad/)
 * [Mateus' solution](https://github.com/mateus-reno/sketchpad) - [View in browser](https://mateus-reno.github.io/sketchpad/)
 * [Kyle Lemon's solution](https://github.com/jklemon17/jquery-sketch) - [View in browser](https://jklemon17.github.io/jquery-sketch/)
