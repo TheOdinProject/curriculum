@@ -543,17 +543,10 @@ Submit a link to the github repo with your files in it here with a pull request.
 * [cedalukic's Solution](https://github.com/cedalukic/euler-project) - [View in Browser](https://cedalukic.github.io/euler-project)
 * [Nate W's Solution](https://github.com/obsessivenerds/Javascript_Project_Euler)
 * [Steve Yankson's Solution](https://github.com/samoaning/proj_euler_01)
-<<<<<<< HEAD
-* [Jason's solution to Project Euler Problem 1](https://github.com/jn4248/project_euler_no_1) | [View in browser](https://jn4248.github.io/project_euler_no_1/)
-* [nboaldin's solution to Project Euler Problem 1](https://github.com/nboaldin/project-euler) | [View in browser](https://nboaldin.github.io/project-euler/)
-* [KaczmarekWill's solution to Project Euler Problems
-* 1-4](https://github.com/KaczmarekWill/project-euler)
-
-### <a id="additional-resources"></a>Additional Resources
-=======
 * [Jason's solution to Project Euler Problem 1](https://github.com/jn4248/project_euler_no_1) - [View in browser](https://jn4248.github.io/project_euler_no_1/)
 * [nboaldin's solution to Project Euler Problem 1](https://github.com/nboaldin/project-euler) - [View in browser](https://nboaldin.github.io/project-euler/)
->>>>>>> 160fb175ea94aa0d5f584a37b5c7e8f6090a9bbb
+* [KaczmarekWill's solution to Project Euler Problems
+* 1-4](https://github.com/KaczmarekWill/project-euler)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something:
