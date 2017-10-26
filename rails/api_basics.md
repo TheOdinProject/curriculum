@@ -128,14 +128,14 @@ See the [as_json documentation](http://apidock.com/rails/ActiveModel/Serializers
 
 Sometimes you just want to send out an HTTP error code without any response body.  The web is conflicted about the best practices for doing so (see [This older blog](http://www.intridea.com/blog/2008/7/23/using-http-status-codes-for-rails-ajax-error-handling) for one approach or [this SO answer](http://stackoverflow.com/questions/9130191/how-to-return-correct-http-error-codes-from-ruby-on-rails-application) for another set of answers) .  Here's a simple example (again we are just rendering the error in all cases):
 
-```ruby
+~~~ruby
   # app/controllers/users_controller.rb
   class UsersController < ApplicationController
     def index
       render :nothing => true, :status => 404
     end
   end
-```
+~~~
 
 
 #### Creating Dynamic Error Pages

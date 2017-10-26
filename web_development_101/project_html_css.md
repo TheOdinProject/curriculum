@@ -28,7 +28,7 @@ If you do not know how to setup a repository, follow the instructions found in [
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
 3. Then move that repository onto your local machine. The command should look like: `git clone https://github.com/YourUserName/google-homepage`
 4. Now `cd` into the `google-homepage` project directory that is now on your local machine; setup your `README.md` file and write a brief introduction for what the current project is and what skills you have demonstrated once you have completed it. (You can do this as a self-reflection at the end of the project which is a good way to revise what you have learned.)
-5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)`
+5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
 If you are having trouble, refer to:
 * The [cheat sheet](/web-development-101/git-basics) in the Git Basics Lesson or
@@ -826,7 +826,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Shala's Solution](https://github.com/ShalaQweghen/google-homepage) - [View in Browser (Easy)](https://rawgit.com/ShalaQweghen/google-homepage/master/index.html) - [View in Browser (Difficult)](https://rawgit.com/ShalaQweghen/google-homepage/master/results.html)
 * [Mason Embry's Solution](https://github.com/masone81/google-homepage) - [View in browser](https://rawgit.com/masone81/google-homepage/master/index.html)
 * [David Amador's Solution (easy)](https://github.com/damadormoreno/google-homepage) - [View in Browser](https://rawgit.com/damadormoreno/google-homepage/master/index.html)
-* [Carlos E. Palha's Solution](https://github.com/carlosep/the-odin-project/tree/master/web-development-101/html-css-google-homepage) - [View in Browser](https://rawgit.com/carlosep/the-odin-project/master/web-development-101/html-css-google-homepage/index.html)
+* [Carlos E. Palha's Solution](https://github.com/carlosep/the-odin-project/tree/master/courses/web-development-101/lessons/html-css-google-homepage) - [View in Browser](https://rawgit.com/carlosep/the-odin-project/master/courses/web-development-101/lessons/html-css-google-homepage/index.html)
 * [Brandon Martinez's easy solution](https://github.com/bmo84/google-homepage) - [View in browser](https://rawgit.com/bmo84/google-homepage/master/home.html)
 * [Sergey Badulin's solution](https://github.com/sbadulin/google-homepage) - [View in browser](https://rawgit.com/sbadulin/google-homepage/master/index.html)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/google-homepage) - [View in browser](https://rawgit.com/lujanfernaud/google-homepage/master/index.html)
