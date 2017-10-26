@@ -18,5 +18,5 @@ Sadly, our curriculum \(specifically the Javascript sections\) has become out-of
 
 This is a gigantic undertaking so we're going to need to follow a bit of a process to make sure things run smoothly and that we don't duplicate our efforts. Please see [CONTRIBUTING](https://github.com/TheOdinProject/javascript_curriculum/blob/master/CONTRIBUTING.md) for more info.
 
-If you would like to contribute to this project [please contact us here.](https://gitter.im/TheOdinProject/New-JS-course).  For the moment, the project leader on this is Cody Loyd \(@codyloyd in the gitter room\) so feel free to ping him if you have any questions.
+If you would like to contribute to this project [please contact us here](https://gitter.im/TheOdinProject/New-JS-course).  For the moment, the project leader on this is Cody Loyd \(@codyloyd in the gitter room\) so feel free to ping him if you have any questions.
 

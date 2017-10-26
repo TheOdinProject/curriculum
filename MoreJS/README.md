@@ -1,7 +1,7 @@
-# MORE Javascript.
+# MORE JavaScript.
 _become a pro_
 
-The rest of the curriculum (after JS101) digs deeper and deeper into what all it takes to really become a Javascript master.  Not all the topics here are strictly sequential, so the ordering can stand to be a bit flexible... a tentative order of lessons is:
+The rest of the curriculum (after JS101) digs deeper and deeper into what all it takes to really become a JavaScript master.  Not all the topics here are strictly sequential, so the ordering can stand to be a bit flexible... a tentative order of lessons is:
 
 ## Intermediate JS
 1. Promises
