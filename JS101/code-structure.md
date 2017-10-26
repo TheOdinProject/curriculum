@@ -1,9 +1,9 @@
 # Writing Readable Code
 
-Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain or develop your code, please learn to write readable code.
+Developers spend SO MUCH more time reading code than writing it.  This is true even with your own code.  As a favor to yourself and whoever will need to use, maintain, or further develop your code, please learn to write readable code.
 
 Consider the following 2 snippets of JavaScript:  
-an ugly one:
+ugly, hard to read code:
 
 ```javascript
 const x = 
@@ -17,7 +17,7 @@ function(q){
 x([2, 2, 2]);
 ```
 
-and a nicer one:
+clean and easy to read code:
 
 ```javascript
 const sumArray = function(array) {
@@ -41,8 +41,8 @@ There are many different opinions on what constitutes great JavaScript code.  Th
 
 Structural:
 
-* Functions should only do ONE thing! Functions should rarely get to more than 10 lines.. and most functions should easily fit in 5-6 lines.  If your functions are regularly stretching longer than that then you should consider trying to break them down a bit.
-* Within a single file - organize variables, functions, objects, ... in a way that makes sense so you don't have to rescan the whole file all the time.
+* Functions should only do ONE thing! Functions should rarely get to more than 10 lines.. and most functions should easily fit in 5-6 lines.  If your functions are regularly stretching longer than that then you should consider trying to break them down into smaller functions.
+* Within a single file - organize variables, functions, objects, etc ... in a way that makes sense so you don't have to rescan the whole file all the time.
 
 * Keep your indentation consistent!  In general begin and end opening/closing tags, parentheses or brackets at the same indentation level:
 
