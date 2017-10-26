@@ -13,7 +13,7 @@ One of the most unique and useful abilities of JavaScript is it's ability to man
 
 When working with HTML and JS, you'll often here mention of "the DOM". The DOM \(or Document Object Model\) is, on a high level, a tree-like representation of the contents of a webpage or "document". A tree of "nodes" with different relationships depending on how they're arranged in the HTML document.
 
-```JavaScript
+```javascript
 <div id="container">
   <div class="display"></div>
   <div class="controls"></div>
