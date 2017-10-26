@@ -35,6 +35,8 @@ Rails.application.routes.draw do
   resources :users, only: [:show, :update]
   get 'dashboard' => 'users#show', as: :dashboard
 
+  # Deprecated Route to Introduction to Web Development from external links
+  get '/courses/introduction-to-web-development' => redirect('/courses/web-development-101')
   resources :courses, only: %i(index show) do
     resources :lessons, only: :show
   end
