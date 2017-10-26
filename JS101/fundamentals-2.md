@@ -29,11 +29,11 @@ Now it's time for the fun stuff...  So far we haven't done much with our program
 Computers don't get tired, and they're really _really_ fast!  For that reason they are well suited to solving problems that involve doing calculations multiple times.  In some cases a computer will be able to repeat a task _thousands_ or even _millions_ of times in just a few short seconds where it might take a human many hours. \(obviously speed here depends on the complexity of the calculation and the speed of the computer itself\).  One way to make a computer do a repetitive task is using a **loop**
 
 1. Read this [MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code).  It's a longer one, but make sure you tackle the 'Active Learning' sections at the bottom of the page.  
-2. Once again, same info, slightly different context from [Javascript.info](http://javascript.info/while-for) \(Skim the info if you think you know it all, but **don't forget the tasks at the end of the page**.  You learn best by _doing_\)
+2. Once again, same info, slightly different context from [JavaScript.info](http://javascript.info/while-for) \(Skim the info if you think you know it all, but **don't forget the tasks at the end of the page**.  You learn best by _doing_\)
 
 ### Functions
 
-Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code...  that's the power of functions and they're used _constantly_ in Javascript.
+Things are about to get _really_ exciting.  So far you have been writing an impressive amount of code to solve various problems but that code has not been as useful as it could be.  Imagine taking one of your scripts and bundling it into a little package that you could use over and over again without having to rewrite or change the code.  That's the power of functions and they're used _constantly_ in JavaScript.
 
 1. [Another lengthy MDN article](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) is a good place to start.  Pay special attention to the sections on 'Function Scope'.  Scope is one item that commonly trips up both beginner and intermediate coders so it pays to spend some time with it up front.  
 2. Read this article about [return values](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Return_values).  
