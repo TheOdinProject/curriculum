@@ -34,6 +34,7 @@ There's also [an entry on Bubble Sort on Wikipedia](http://en.wikipedia.org/wiki
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/bubblesort.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/bubble.rb)
 * [isildonmez's solution](https://github.com/isildonmez/advanced_building_blocks/blob/master/bubble_sort/bubble_sort.rb)
 * [Omar Moataz's solution (includes interesting find on what takes precedence when using puts)](https://github.com/omarmoatazpracticehub/sorting)
@@ -296,6 +297,7 @@ You learned about the Enumerable module that gets mixed into the Array and Hash 
 [Submit a link](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [funwithcthulhu's solution](https://github.com/funwithcthulhu/sandbox_ruby/blob/master/enumerable_methods.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/Ruby/my_enums)
 * [Btreim's solution](https://github.com/btreim/ruby/blob/master/enumerables.rb)
 * [isildonmez's solution](https://github.com/isildonmez/advanced_building_blocks/blob/master/enumerable_methods/enumerable_methods.rb)
