@@ -1,3 +1,5 @@
+### Introduction
+
 If you kicked butt, you'll get an offer.  That means there's a pretty good chance you'll get to work there, but just remember that not all "offers" (especially verbal-only ones) are actually real.  It's a good time to be happy because you did well but don't expect that it's a done deal.  I've seen companies pull offers for internal reasons or external reasons -- the point is that it happens, so don't go buying a house until you've signed the documents.  If it's just a verbal offer, ask them to email you the details.
 
 DO NOT ACCEPT RIGHT AWAY! This is doubly true if you don't think it's a good offer.  This is an important point for you -- they've been totally in control of the process until now and they've probably dragged their feet because they can (who knows, an even better developer might show up, right?).  Now it's your turn.  They've put in a lot of effort so far and any reasonable company isn't going to let you walk away over a few days or a few thousand dollars.  They should give you at least a week to decide.
