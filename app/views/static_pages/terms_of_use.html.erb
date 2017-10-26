@@ -4,7 +4,7 @@
   <div class="container terms_of_use">
     <div class="card-main">
       <% f = File.open('legal_terms_of_use.md', 'r:UTF-8') %>
-      <%= convert_markdown_to_html(f.read) %>
+      <%= MarkdownConverter.new(f.read).as_html %>
       <% f.close %>
     </div>
   </div>
