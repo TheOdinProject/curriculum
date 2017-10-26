@@ -541,6 +541,8 @@ We are in the process of completely revamping and rewriting our JavaScript conte
 * [Steve Yankson's Solution](https://github.com/samoaning/proj_euler_01)
 * [Jason's solution to Project Euler Problem 1](https://github.com/jn4248/project_euler_no_1) | [View in browser](https://jn4248.github.io/project_euler_no_1/)
 * [nboaldin's solution to Project Euler Problem 1](https://github.com/nboaldin/project-euler) | [View in browser](https://nboaldin.github.io/project-euler/)
+* [KaczmarekWill's solution to Project Euler Problems
+* 1-4](https://github.com/KaczmarekWill/project-euler)
 
 ### <a id="additional-resources"></a>Additional Resources
 
