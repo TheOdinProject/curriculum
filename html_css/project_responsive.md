@@ -8,7 +8,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 
 <div class="lesson-content__panel" markdown="1">
 1. Visit [The Next Web](http://thenextweb.com) and poke around their home page.  Play with changing the window width and see how the site changes (for instance when the sidebar gets hidden).
-2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+2. Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Try to discover which browser widths are "breakpoints" where element properties change (e.g. the sidebar disappearing).  Make a plan for which elements need to be modified at which widths.
@@ -20,7 +20,7 @@ As usual, don't worry about the small stuff like sharing buttons or comments or 
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
 * [Axel's solution](https://github.com/afuh/next-web) - [View in browser](http://next-web.surge.sh/)

@@ -8,7 +8,7 @@ Once you're done setting up your framework, you will use it to clone any website
 You'll be creating your own grid-based framework.
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 2. Create a new CSS document.
 3. Think about the major elements that are required of a framework.  This includes a CSS reset, a fixed number of grids separated by "gutters", a way to make new rows, and default values for the font properties of elements.
 4. Write the CSS necessary to create a basic 12-column grid framework.  Check out the [960 Grid System documentation](http://960.gs) for a look at how they do it.  The complexity is up to you -- there's no need to go too crazy with details (you're not trying to rebuild Bootstrap).
@@ -26,7 +26,7 @@ You'll be creating your own grid-based framework.
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
 * [Axel's solution - Sass Framework](https://github.com/afuh/sasso) - [Test website](https://afuh.github.io/sass-framework/)

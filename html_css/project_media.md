@@ -15,7 +15,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-1. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
+1. Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 2. Create a blank HTML document.
 3. Come up with a plan -- which sections of the page should be grouped together (e.g. the navigation bar vs the video vs the sidebar etc)?
 4. Create empty `<div>` tags to enclose those sections.
@@ -29,7 +29,7 @@ Also, don't worry about making the comment form work properly... your goal is to
 </div>
 
 ### Student Solutions
-Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples.
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/lessons/html-css) for examples.
 
 * Add your solution below this line!
 * [holdercp's solution](https://github.com/holdercp/bluetube) - [Live](https://holdercp.github.io/bluetube/)

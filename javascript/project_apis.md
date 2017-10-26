@@ -8,7 +8,7 @@ Create a simple site that has just a Google map on it and a form where the user 
 Play around with the other options the Maps API gives you -- you can customize almost everything on a map, from the way the thumbtacks drop down to the colors of each element.
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Read through the [maps API documentation](https://developers.google.com/maps/documentation/javascript/tutorial) to see how this all works.
 4. Think about what you'll need to do to get the form to create a new map thumbtack/marker and what methods the API gives you. A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.

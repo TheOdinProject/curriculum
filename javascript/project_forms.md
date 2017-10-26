@@ -11,7 +11,7 @@ The form doesn't need to actually submit, but you should give an error message i
 Do all this using [jQuery's Validate plugin](http://jqueryvalidation.org/) but then try it without any plugins to challenge yourself.  See some of the readings for examples of setting up your own validators.
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Think about how you would set up the different form elements and their accompanying validators.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
 4. Write the simple form elements.  Don't worry about styling them.
