@@ -12,7 +12,7 @@ You'll need to think about how to render each shape (e.g. missile, explosion) as
 If your game logic gets too complicated or the speed is too fast, you'll probably find that the browser starts getting choppy and unreliable.
 
 <div class="lesson-content__panel" markdown="1">
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Think about how you would set up the different elements within the game.  What objects and functions will you need? A few minutes of thought can save you from wasting an hour of coding.  The best thing you can do is whiteboard the entire solution before even touching the computer.
 4. Set up the Canvas and place a few test missile objects in your base to get some experience with rendering and placement.

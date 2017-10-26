@@ -7,7 +7,7 @@ If you think about what's required to make a game like this work, it's all well 
 
 <div class="lesson-content__panel" markdown="1">
 #### Setup
-1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/web-development-101/lessons/html-css) if you need help.
+1. Set up a Github Repo for this project.  Follow the instructions atop the [Google Homepage project](/courses/web-development-101/lessons/html-css) if you need help.
 2. Set up a blank HTML document
 3. Think about what kinds of objects and functions you'll probably need in order to make this snake work.
 4. Create a javascript object that represents a grid of 40x40 squares that all start out containing just a space `" "`.
