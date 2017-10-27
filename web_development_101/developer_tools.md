@@ -1,14 +1,14 @@
-#Developer Tools
+### Introduction
 
-##What are developer tools?
 All of the most popular modern web browsers include a suite of tools designed to help
 with the development of websites; they are also sometimes referred to as the web
 inspector. These tools allow you to inspect the html, css, javascript and much
 more on websites you visit and build.
 
 
-##Why do you need to know how to use them?
-Knowing how to use your browsers developer tools is an indispensable skill for a web
+### Why do you need to know how to use developer tools?
+
+Knowing how to use your browser's developer tools is an indispensable skill for a web
 developer. They allow you to easily and quickly track down the cause of issues and
 bugs like problems with layout or other css hiccups. What might have taken an hour
 or even a few hours to track down and fix without the use of these tools often takes
@@ -24,20 +24,22 @@ developer tools isn't that difficult. It can feel clunky the first few times you
 use them. But with a little practice, you will soon find yourself comfortably
 using them to experiment and fix bugs with ease on your web pages.
 
-##Learning Outcomes
-*Make sure you can answer yes to each of the following once you have finished the assignments*
+### Learning Outcomes
+Make sure you can answer yes to each of the following once you have finished the assignments:
 
 * You can open the developer tools in your browser.
 * You can select a specific html element in your page with dev tools.
 * You can you use developer tools to experiment with the css on specific elements on a web page.
 
-##Assignment
-1. Complete the first two chapters of this [short course](http://discover-devtools.codeschool.com/) from Codeschool,
-it covers all the main capabilities developer tools provides. 
-2. Read through this short text based tutorial that [introduces your web inspector](http://ruby.bastardsbook.com/chapters/web-inspecting-html/).
-3. Watch this [awesome tutorial](https://www.youtube.com/watch?v=Z3HGJsNLQ1E) from LearnCode.academy 
-on how to use developer tools effectively when working with your css.
-4. (Optional) If you want to learn a bit more about the amazingly useful developer tools for your browser, check out [this 10-minute video](https://www.youtube.com/watch?v=wcFnnxfA70g) that goes over them in some detail.  A bit of knowledge here can save you a lot of time debugging later!
+### Assignment
 
-##Additional Resources
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+<div class="lesson-content__panel" markdown="1">
+
+  1. Watch [this 10-minute video](https://www.youtube.com/watch?v=wcFnnxfA70g) that goes over the most useful features of the Chrome Dev Tools in some detail.
+  2. Watch this [awesome tutorial](https://www.youtube.com/watch?v=Z3HGJsNLQ1E) from LearnCode.academy on how to use developer tools effectively when working with your css.  It talks a bit about bootstrap, which you may not know about yet.  Don't worry about it at this point, just check out the stuff he's doing to CSS in the devtools.  In particular, editing CSS _in the browser_ in real time is a serious productivity booster compared to using your text editor and refreshing all the time to see the changes.
+  3. Skim through the [official devtools docs.](https://developers.google.com/web/tools/chrome-devtools/) Chrome and Firefox are constantly enhancing and updating their devtools.  The basic functionality is going to be the same of course, but it's not unusual for things to move around or change appearance as the tools evolve.  These docs should be your up-to-date resource.  If your version of devtools doesn't look like the videos above, reference these docs to find where everything went.
+
+</div>
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.

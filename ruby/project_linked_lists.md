@@ -1,4 +1,4 @@
-# Project: Linked Lists
+### Introduction
 
 In Computer Science one of the most basic and fundamental data structures is the
 linked list, which functions similarly to an array. The principal benefit of a linked
@@ -33,37 +33,54 @@ A head node is the first node in the list, a tail node is the last node in the l
  3. [A more verbose explanation with plenty of diagrams](http://www.cs.cmu.edu/~adamchik/15-121/lectures/Linked%20Lists/linked%20lists.html)
 
 
-## Your Task
-You will need two classes:
+### Assignment
 
-1. `LinkedList` class, which will represent the full list.
-2. `Node` class, containing a `#value` method and a link to the `#next_node`, set both as `nil` by default.
+<div class="lesson-content__panel" markdown="1">
+  You will need two classes:
+
+  1. `LinkedList` class, which will represent the full list.
+  2. `Node` class, containing a `#value` method and a link to the `#next_node`, set both as `nil` by default.
 
 
-Build the following methods in your linked list class:
+  Build the following methods in your linked list class:
 
-1. `#append` adds a new node to the end of the list
-2. `#prepend` adds a new node to the start of the list
-3. `#size` returns the total number of nodes in the list
-4. `#head` returns the first node in the list
-5. `#tail` returns the last node in the list
-6. `#at(index)` returns the node at the given index
-7. `#pop` removes the last element from the list
-8. `#contains?` returns true if the passed in value is in the list and otherwise returns false.
-9. `#find(data)` returns the index of the node containing data, or nil if not found.
-10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
-  The format should be: `( data ) -> ( data ) -> ( data ) -> nil`
+  1. `#append` adds a new node to the end of the list
+  2. `#prepend` adds a new node to the start of the list
+  3. `#size` returns the total number of nodes in the list
+  4. `#head` returns the first node in the list
+  5. `#tail` returns the last node in the list
+  6. `#at(index)` returns the node at the given index
+  7. `#pop` removes the last element from the list
+  8. `#contains?` returns true if the passed in value is in the list and otherwise returns false.
+  9. `#find(data)` returns the index of the node containing data, or nil if not found.
+  10. `#to_s` represent your LinkedList objects as strings, so you can print them out and preview them in the console.
+    The format should be: `( data ) -> ( data ) -> ( data ) -> nil`
 
-#### Extra Credit
+  ### Extra Credit
 
-1. `#insert_at(index)` that inserts the data at the given index
-2. `#remove_at(index)` that removes the node at the given index. (You will need to update the links of your nodes in the list when you remove a node.)
+  1. `#insert_at(index)` that inserts the node at the given index
+  2. `#remove_at(index)` that removes the node at the given index. (You will need to update the links of your nodes in the list when you remove a node.)
+</div>
 
 ### Student Solutions
-
-*Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.*
+Send us your solution so we can show others! Submit a link to the Github repo with your files in it here using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  Please include your partner's github handle somewhere in the description if they would like attribution.
 
 * Add your solution below this line!
+* [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby/linkedlist.rb)
+* [Jmooree30's solution](https://github.com/jmooree30/Linked-list.git)
+* [Andrew's solution](https://github.com/andrewr224/Linked-Lists)
+* [Jason McKee's solution](https://github.com/jttmckee/odin-project-ruby/tree/master/LinkedList)
+* [Jonathan Yiv's solution](https://github.com/JonathanYiv/linked_list)
+* [Roland Studer's solution](https://github.com/RolandStuder/odin_project_solutions/tree/master/linked_lists)
+* [justinckim3's solution](https://github.com/justinckim3/linked_list/blob/master/linked_list.rb)
+* [Kasey Z's Solution (with extra credit)](https://github.com/kasey-z/TOP-solutions/blob/master/linked_lists/linked_lists.rb)
+* [thisisned's solution](https://github.com/thisisned/linked_list/blob/master/linked_list.rb)
+* [SadieD's solution](https://github.com/SadieD/linked_lists)
+* [Clayton Sweeten's Solution](https://github.com/cjsweeten101/OdinProjects/tree/master/linked_list)
+* [holdercp's solution](https://github.com/holdercp/linked_lists)
+* [Webdev-burd's solution](https://github.com/webdev-burd/linked_list)
+* [Jfonz412's solution](https://github.com/jfonz412/computer_science/blob/master/linked_lists.rb)
+* [xavier solution (+ extra)](https://github.com/nxdf2015/odin-linked-lists/blob/master/linked_list.rb)
 * [Ovsjah Schweinefresser's Solution](https://github.com/Ovsjah/linked_lists)
 * [Oleh Sliusar's solution](https://github.com/OlehSliusar/linked_lists)
 * [Nikolay Dyulgerov's solution](https://github.com/NicolayD/ruby-data-structures/blob/master/linked_list.rb)
@@ -118,3 +135,6 @@ Build the following methods in your linked list class:
 * [Zach Beaird's solution (with extra credit)](https://github.com/zbbeaird89/Linked-List)
 * [EMuchynski's solution](https://github.com/EMuchynski/linked_lists)
 * [Luján Fernaud's solution](https://github.com/lujanfernaud/ruby-linked-list)
+* [Jason Dancocks' solution](https://github.com/JasonDancocks/Ruby/tree/master/linkedlists)
+* [Anistor86's solution](https://github.com/anistor86/linked_list)
+* [James Redux's solution](https://github.com/Jamesredux/linked_list)

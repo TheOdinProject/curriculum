@@ -1,9 +1,7 @@
-# Terms to Know
-<!-- *Estimated Time: 1-2 hrs* -->
-
+### <a id="introduction"></a>Introduction
 Web technology land is full of strange terms and an alphabet soup of acronyms and it can be a bit overwhelming.  You won't need to know them all out of the gate, but there are some that you will need to be familiar with before getting started.
 
-## Points to Ponder
+### <a id="learning-outcomes"></a>Learning Outcomes
 
 *Look through these now and then use them to test yourself after doing the assignment*
 
@@ -11,12 +9,12 @@ Web technology land is full of strange terms and an alphabet soup of acronyms an
 * How to define each of the terms in the Viking Code School list below.
 * The basics of each term on the list from Smashing Magazine below.
 
-## Assignment:
+### <a id="assignment"></a>Assignment:
 
 1. Take a look at this [list of term definitions](http://www.vikingcodeschool.com/web-development-basics/terms-to-know) and make sure you have at least a competent understanding of each one (click on it to bring up the full definition).
 2. Browse through this [great (though design-focused) list of terms from Smashing Magazine](http://www.smashingmagazine.com/2009/05/21/web-design-industry-jargon-glossary-and-resources/).  It's not essential that you know all the unfamiliar ones down cold, but you'll keep seeing this stuff again and again so it's good to have a working knowledge of what they are.  The article also contains lots of great links to dig deeper into anything you don't understand.
 
-## Additional Resources
+### <a id="additional-resources"></a>Additional Resources
 
 *This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
 

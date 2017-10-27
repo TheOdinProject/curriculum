@@ -1,18 +1,18 @@
-# What You Can Do To Prepare (Way Beforehand)
+### Introduction
 
 Taking a structured approach to getting hired means starting early and getting some important things out of the way first.
 
-## Get Good!
+### Get Good!
 
 Navigating this process can be a beast but don't let it distract you from building your skills, which ultimately will determine if you get the job or not.  This course assumes you've already made it through the other courses and have accomplished enough in their completion to elevate you to competence.  If not, you've got to ruthlessly address your weak points (even if it's the tricky stuff like algorithms and data structures) in order to be qualified for the kinds of positions you're applying to.
 
-## Craft a Narrative
+### Craft a Narrative
 
 You may be uncomfortable "selling yourself" but that's exactly what you'll have to do.  Luckily, that doesn't mean acting like a used car salesman; it's more subtle than you think.  It really means crafting a story about who you are, how you got to where you are, and why you'll keep growing.  Everyone can tell a story.  So put some effort into crafting a compelling narrative that stitches together your background (especially if you come from a non-traditional background) into a compelling an unavoidable wave of capability and drive.
 
 * [How to Explain Your Career Transition by Dorie Clark](http://dorieclark.com/how-to-explain-your-career-transition/)
 
-## Build a Portfolio
+### Build a Portfolio
 
 All along the way, you should keep building things.  The work you've done will be crucial to demonstrating your technical skill and getting hired.  Employers want to see that you can build and ship code and that you make good decisions when confronted with engineering trade-offs.  All of this stems from conversations about your portfolio of work.
 
@@ -24,7 +24,7 @@ Your portfolio as a developer is Github.  You may have a personal website but Gi
 * [The Power of a Programming Portfolio by GrokCode](http://grokcode.com/58/the-power-of-a-programming-portfolio/)
 * [Your Github Portfolio by Forbes](http://www.forbes.com/sites/anthonykosner/2012/10/20/software-engineers-are-in-demand-and-github-is-how-you-find-them/)
 
-## Clean up your Web Presence (and Have One)
+### Clean up your Web Presence (and Have One)
 
 Google yourself in an incognito window (to avoid Google's smart algorithm).  What comes up? Do the links fit into your personal narrative?  Whoever is looking to hire you will certainly Google you.  Make sure that what they find matches what you want them to find.  If you've got a ridiculously common name, you may have a harder time building your web presence but it's also harder to have the *wrong* web presence.
 
@@ -40,7 +40,7 @@ Other sites, like Brand Yourself below, will describe a bit better how to take o
 * [Control Your Online Reputation from Monster](http://career-advice.monster.com/job-search/getting-started/control-your-online-reputation/article.aspx)
 * [How Important Is It for a Programmer to Have an Online Presence? on Stack Exchange](http://programmers.stackexchange.com/questions/143673/how-important-is-it-for-a-programmer-to-have-an-online-presence)
 
-## Get Out in the Community and Collect Information
+### Get Out in the Community and Collect Information
 
 Find and meet other developers.  That doesn't mean "power networking" but it does mean genuine human connection.  Your network of people DOES matter in a BIG way.  For now, it's probably just for answering questions and harvesting advice but your next job will probably be found through the people you know and some who you meet while you're gathering this advice.  People like giving advice and like investing themselves emotionally in other people with growth curves.
 

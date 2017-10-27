@@ -1,7 +1,4 @@
-# Sinatra
-
-<!-- *Estimated Time: no-one knows! -->
-
+### Introduction
 One of the biggest frustrations beginners have with learning Rails is getting their head around all the 'magic' that Rails seems to do.
 
 The power of Rails is how quickly you can develop complex apps, this speed comes from all the things Rails does for you in the background. Rails does a lot of complex things in the background that are hidden with abstractions. This is where the perceived 'magic' happens.
@@ -12,37 +9,39 @@ Sinatra does a few of the same things that Rails does, but it doesn't create the
 
 There isn't a whole lot to Sinatra so you can learn it pretty quickly, but as you will see you can build very impressive apps with it.
 
-## Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment:
 
 * What are routes?
 * What are views?
 * what are _sessions_ in Sinatra, and how do you use them?
 
-## Your Assignment
+### Assignment
 
-1. Go to the [Sinatra website](http://www.sinatrarb.com/) and follow the (somewhat cryptic) instructions right on their front page:
-	1. create a file called `hi.rb` with the following code:
+<div class="lesson-content__panel" markdown="1">
+* Go to the [Sinatra website](http://www.sinatrarb.com/) and follow the (somewhat cryptic) instructions right on their front page:
 
-    ```ruby
-        require 'sinatra'
+create a file called `hi.rb` with the following code:
 
-        get '/hi' do
-            "Hello World!"
-        end
-    ```
-    2. from the command line install the Sinatra gem by typing `gem install sinatra` then run the file you created: `ruby hi.rb`
-    3. visit the page in your browser at `http://localhost:4567/hi`
-    4. (easy wasn't it?)
-2. Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Labs. Be sure to try out some of the Extensions at the end of the tutorial, that's the fun stuff!
-3. Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers").Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
+~~~ruby
+  require 'sinatra'
 
+  get '/hi' do
+    'Hello World!'
+  end
+~~~
 
-## Additional Resources
+From the command line install the Sinatra gem by typing `gem install sinatra` then run the file you created: `ruby hi.rb`. Then visit the page in your browser at `http://localhost:4567/hi`.
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+* Work through this [tutorial](http://tutorials.jumpstartlab.com/projects/web_guesser.html) from Jumpstart Labs. Be sure to try out some of the Extensions at the end of the tutorial, that's the fun stuff!
+* Take a look at the [Sinatra README](http://www.sinatrarb.com/intro.html) and read through the first eight sections of it ( until section 8, "Helpers").Almost everything you will need to know about Sinatra is right here on this page so use it as a reference when you are working through the project.
+
+</div>
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [Jump Start Sinatra](https://www.sitepoint.com/store/jump-start-sinatra/) is a really great and pretty thorough look at Sinatra, but it's not free.  A good resource if you're really interested.
-* [Sinatra Walkthrough from General Assemby](https://github.com/ga-wdi-lessons/sinatra-walkthrough) A tutorial for building an online database of fish called "Finatra". Includes three screencasts and is a bit easier to digest than the Sinatra README.  
+* [Sinatra Walkthrough from General Assembly](https://github.com/ga-wdi-lessons/sinatra-walkthrough) A tutorial for building an online database of fish called "Finatra". Includes three screencasts and is a bit easier to digest than the Sinatra README.  
+* [Gentle intro to Sinatra from rubymonstas](http://webapps-for-beginners.rubymonstas.org/sinatra.html) if you find Sinatra README too overwhelming, and their section on [sessions](http://webapps-for-beginners.rubymonstas.org/sessions.html), which will be helpful in the upcoming project.
 * *Add some of your own!*
