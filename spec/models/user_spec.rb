@@ -49,7 +49,6 @@ RSpec.describe User do
       .and_return(lesson_completions)
   end
 
-  it { is_expected.to validate_uniqueness_of(:username) }
   it { is_expected.to validate_length_of(:username) }
   it { is_expected.to validate_length_of(:learning_goal) }
   it { is_expected.to have_many(:lesson_completions) }
