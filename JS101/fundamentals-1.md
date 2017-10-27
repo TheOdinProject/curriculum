@@ -120,7 +120,7 @@ The very first steps of learning any programming language are destined to be a l
 
 ### Step One
 
-1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥. The point of it is to give you a good feel for what you're going to be able do to with your Javascript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however really learn a lot here because most of it will be over your head at this point.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
+1. [This tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash) throws you into the deep end 🔥. The point of it is to give you a good feel for what you're going to be able to do with your Javascript skills, and how to think about breaking down a problem.  You'll also get a good idea for what your code is going to end up looking like. You will not, however really learn a lot here because most of it will be over your head at this point.  Don't sweat it.  It's _just fine_ if you don't really understand what you're doing just yet.  You'll get there.
 
 ### Variables
 You can think of variables simply as "storage containers" for data in your code.  Until recently there was only one way to declare and use a variable in Javascript (the `var` keyword) but the latest versions of Javascript include 2 more keywords that can be used depending on the situation. The following resources will tell you what you need to know!
