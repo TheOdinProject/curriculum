@@ -41,7 +41,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * Add your solution below this line!
 * [Tamerlan1993's solution](https://github.com/Tamerlan1993/03.03.2017-JS-practise/tree/master/snake) - [View in browser](https://rawgit.com/Tamerlan1993/03.03.2017-JS-practise/master/snake/index.html)
-
 * [jlo4's solution](https://github.com/jlo4/snake-game) - [View in browser](https://rawgit.com/jlo4/snake-game/master/index.html)
 * [John Brock's solution](https://github.com/Khanthulhu/snakeGame) - [View in browser](https://khanthulhu.github.io/snakeGame/)
 * [Rhys B's solution](https://github.com/105ron/snake) - [View in browser](https://105ron.github.io/snake/)
