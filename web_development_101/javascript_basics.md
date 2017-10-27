@@ -32,6 +32,7 @@ This lesson will tend to focus on understanding the programming side of Javascri
 *Submit a link to the github repo with your files in it here with a pull request.  Please include your partner's github handle somewhere in the description if they would like attribution*
 
 * Add your solution below this line!
+* [Alfredo's Solution for problem 1](https://github.com/alfasf/Javascript-Basics-the-Odin-Project)
 * [Gokul Krishnan's solution for problems 1-5](https://github.com/gk7huki/project-euler)
 * [Chris Kessell solution for problems 1 & 2](https://github.com/ChrisKessell/project_euler)
 * [Katherine Hanson's solutions for problems 1 & 2](https://github.com/KatherineHanson/project-euler)
