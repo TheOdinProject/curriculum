@@ -191,5 +191,4 @@ Make sure to follow the tutorial!
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
-* [CodeSchool's Rails 4 Zombie Outlaws](http://rails4.codeschool.com/) - Level 1 is free and goes into routes.
 * [CodeSchool's Surviving APIs with Rails](http://railsapis.codeschool.com/) - Level 1 is free and gets into REST, Routes, Constraints, and Namespaces.

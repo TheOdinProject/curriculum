@@ -25,10 +25,9 @@ Look through these now and then use them to test yourself after doing the assign
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-  1. Go back to the Web Development 101 course and do the [RSpec section](/web-development-101/testing-basics) if you haven't already.
-  2. Get started writing your own tests by reading [this 3-part series](https://semaphoreci.com/community/series/learn-rspec) and following the tutorial in part 1.
-  3. Take a glance at the [Relish RSpec official documentation](https://www.relishapp.com/rspec/rspec-core/v/3-5/docs/).  It will be a good resource for when you're scratching your head later.
-  4. Glance through [Better Specs](http://www.betterspecs.org/), which shows tons of examples of what you should and shouldn't do with RSpec.
+  1. Get started writing your own tests by reading [this 3-part series](https://semaphoreci.com/community/series/learn-rspec) and following the tutorial in part 1.
+  2. Take a glance at the [Relish RSpec official documentation](https://www.relishapp.com/rspec/rspec-core/v/3-5/docs/).  It will be a good resource for when you're scratching your head later.
+  3. Glance through [Better Specs](http://www.betterspecs.org/), which shows tons of examples of what you should and shouldn't do with RSpec.
 </div>
 
 ### Additional Resources
