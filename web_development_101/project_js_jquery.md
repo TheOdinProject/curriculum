@@ -42,7 +42,7 @@ If you get totally stuck, solutions from other students are listed below.  I'd e
 ### Student Solutions
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
-* Add your solution below this line! 
+* Add your solution below this line!
 * [Kasper's solution](https://github.com/KasperMin/sketchpad) - [View in browser](https://kaspermin.github.io/sketchpad/)
 * [Ozra's solution](https://github.com/0zra/Odin-sketchpad) - [View in browser](https://0zra.github.io/Odin-sketchpad/)
 * [Mateus' solution](https://github.com/mateus-reno/sketchpad) - [View in browser](https://mateus-reno.github.io/sketchpad/)
@@ -728,3 +728,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Brandon B.'s solution](https://github.com/bmbost/etchasketch) - [View in browser](https://bmbost.github.io/etchasketch/)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/etch-a-sketch) - [View in browser](https://brunoparga.github.io/etch-a-sketch/)
 * [llisahere's Solution](https://github.com/llisahere/Etchasketch) - [View in browser](https://llisahere.github.io/Etchasketch/)
+* [ppjk1's Solution](https://github.com/ppjk1/etch-a-sketch) - [View in browser](https://ppjk1.github.io/etch-a-sketch)
