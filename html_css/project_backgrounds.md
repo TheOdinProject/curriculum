@@ -56,7 +56,7 @@ Send us your solution so we can show others! Submit a link to the Github repo wi
 * [husein's solution](https://github.com/hosghf/apple-page-rubuild) - [View in browser](https://htmlpreview.github.io/?https://github.com/hosghf/apple-page-rubuild/blob/master/index.html)
 * [Adonias Dantas's solution](https://github.com/adoniasdantas/apple-homepage) - [View in browser](https://adoniasdantas.github.io/apple-homepage/)
 * [Neil Cudden's solution](https://github.com/ncud4bloc/Apple/) - [View in browser](https://ncud4bloc.github.io/Apple/HTML/index.html)
-* [Paul McGarry's solution](https://github.com/thiswillhavetodo/apple-background-images) - [View in browser](https://thiswillhavetodo.github.io/apple-background-images/)
+* [Paul McGarry's solution](https://github.com/thiswillhavetodo/apple-background-images) - [View in browser](https://thiswillhavetodo.github.io/apple-background-images/index.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
