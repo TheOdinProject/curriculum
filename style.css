@@ -1,0 +1,88 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color:#fff;
+}
+ul{
+  list-style:none;
+}
+li{
+  font:20px sans-serif;
+}
+li:nth-child(1),li:nth-child(2){
+  float:left;
+  margin-left:12px;
+}
+li:nth-child(3),li:nth-child(4){
+  float:right;
+  margin-right:12px;
+}
+a{
+color:#707070;
+  text-decoration:none;
+}
+a:hover{
+ border-bottom:3px solid #707070;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.google-name{
+  text-align:center;
+  padding-top:150px;
+  font-size:125px;
+}
+span:nth-child(1){
+  color:#4885ed;
+}
+span:nth-child(2){
+  color:#db3236;
+}
+span:nth-child(3){
+  color:#f4c20d;
+}
+span:nth-child(4){
+  color:#4885ed;
+}
+span:nth-child(5){
+  color:#3cba54;
+}
+span:nth-child(6){
+  color:#db3236;
+}
+input[type=text] {
+    margin-left:250px;
+    margin-right:250px;
+    width: 1050px;
+    height:40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('http://www.cityofmontevallo.com/ImageRepository/Document?documentID=34');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 1050px;
+    box-shadow:5px 5px #c0c0c0;
+}
+input[type=text]:active{
+  box-shadow:5px 5px #c0c0c0;
+}
+.control{
+  width:1050px;
+/*   border:3px solid red; */
+  margin:20px auto;
+}
+.margin-left{
+   margin-left:350px;
+}
