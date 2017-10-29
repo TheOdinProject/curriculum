@@ -20,9 +20,9 @@ These skills will be helpful for you when you start building.  Either try them y
 
 ### Setting Up Your Project's Github Repository (optional)
 
-As mentioned in the [introduction to git](/web-development-101/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
+As mentioned in the [introduction to git](/courses/web-development-101/lessons/introduction-to-git), you'll want to organize all your projects like a portfolio and link them to GitHub so it can be seen by others.
 
-If you do not know how to setup a repository, follow the instructions found in [Project: Git Basics](/web-development-101/practicing-git-basics) to learn how.
+If you do not know how to setup a repository, follow the instructions found in [Project: Git Basics](/courses/web-development-101/lessons/practicing-git-basics) to learn how.
 
 1. If you haven't already, create a folder on your computer called `the_odin_project` and `cd` into it. This folder will house all the projects you do at Odin.
 2. Create a new repo for this project on GitHub.com and call it `google-homepage` (instead of `git-test`).
@@ -31,8 +31,8 @@ If you do not know how to setup a repository, follow the instructions found in [
 5. If you want to share this project, include a link in the `README.md` file - it can look something like this: `From The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css)`
 
 If you are having trouble, refer to:
-* The [cheat sheet](/web-development-101/git-basics) in the Git Basics Lesson or
-* Revise the [workflow](/web-development-101/practicing-git-basics) in the  Git Basics Project.
+* The [cheat sheet](/courses/web-development-101/lessons/git-basics) in the Git Basics Lesson or
+* Revise the [workflow](/courses/web-development-101/lessons/practicing-git-basics) in the  Git Basics Project.
 
 Note: All Git commands need to be run from inside your project's folder (did you forget to `cd` into the `google-homepage` folder?)
 
