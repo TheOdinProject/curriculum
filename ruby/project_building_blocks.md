@@ -144,6 +144,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Pedro Amaral's solution](https://github.com/lockemind/caeser_cipher/blob/master/caeser_cipher.rb)
 * [Tom Wu's Solution](https://github.com/canadatom/LearningRuby/blob/master/caesarcipher.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/caesar-cipher/blob/master/caesar_cipher.rb)
+* [Jitterboggle's solution](https://github.com/jitterboggle/caesar_cipher/blob/master/caesar_cipher.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/caesar_cipher.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/caesar_cipher.rb)
 * [AtActionParks's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/caesar-cipher/lib/caesar_cipher.rb)
@@ -432,6 +433,7 @@ There's a brief video about it [from Harvard's CS50 class](http://cs50.tv/2012/f
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/Ruby_Programming/blob/master/stock_picker.rb)
 * [Pedro Amaral's solution](https://github.com/lockemind/stock_picker/blob/master/stock_picker.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/stock_picker/blob/master/stock_picker.rb)
+* [Jitterboggle's solution](https://github.com/jitterboggle/stock_picker/blob/master/stock_picker.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/stock_picker.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/stock_picker.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/stock-picker.rb)
@@ -727,6 +729,7 @@ Next, make sure your method can handle multiple words:
 * [Josh Klein's solution](https://github.com/kleinjoshuaa/Ruby_Programming/blob/master/substrings.rb)
 * [Pedro Amaral's solution](https://github.com/lockemind/substrings/blob/master/substrings.rb)
 * [Diarmuid Murphy's solution](https://github.com/diarmuid-murphy/substrings/blob/master/substrings.rb)
+* [Jitterboggle's solution](https://github.com/jitterboggle/substrings/blob/master/substrings.rb)
 * [Dan Hoying's solution](https://github.com/danhoying/ruby_building_blocks/blob/master/substrings.rb)
 * [ll14m4n's solution](https://github.com/ll14m4n/the-odin-project/blob/master/3_Ruby_building-blocks/lib/substrings.rb)
 * [AtActionPark's solution](https://github.com/AtActionPark/odin-ruby-building-blocks/blob/master/substring.rb)
@@ -888,4 +891,3 @@ Next, make sure your method can handle multiple words:
 * [Derek's Solution](https://github.com/dershao/BuildingBlocks/blob/master/substring.rb)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/blob/master/Ruby_Programming/substring.rb)
 * [datagoil's solution](https://github.com/datagoil/substrings-for-Odin)
-
