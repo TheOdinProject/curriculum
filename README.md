@@ -7,7 +7,7 @@ This is the repo for the development of a new Javascript course for The Odin Pro
 **Our main focus** is the cultivation and sequencing of best free resources around the internet. We believe wholeheartedly that everything one needs to know to become employed can be found for free online, but for the average new learner, the vast amount \(and widely varying quality\) of resources makes it difficult to make a meaningful progress.  We have devised a three basic steps to fix this.
 
 1. We have created a curriculum that attempts to find the optimal sequencing of information. This curriculum is intended to take someone from knowing literally nothing about Web Development to a point where they could be employed as a Junior Developer.
-2. For each topic in the curriculum we try to find the best free resources on the internet to teach that topic.  We will often link multiple resources,thereby not to relying too much on a single source of information.  If good resources can not be found we write our own, but we definitely prefer primary link to external sites.
+2. For each topic in the curriculum we try to find the best free resources on the internet to teach that topic.  We will often link multiple resources, thereby not relying too much on a single source of information.  If good resources can not be found, we write our own, but we definitely prefer primary link to external sites.
 3. We invent and cultivate projects that give learners a chance to practice what they have learned and integrate skills along the way, which increases information retention, giving the learner a chance to experiment and allows the learner to build an impressive portfolio.
 
 
