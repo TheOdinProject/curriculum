@@ -27,6 +27,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 
 * ["Official" Test-First Ruby solutions](https://github.com/ultrasaurus/test-first-teaching/tree/master/learn_ruby) (look for the "solutions" folder inside each exercise)
 * Add your solution below this line!
+* [iamfranco's solution](https://github.com/iamfranco/learn_ruby)
 * [0zra's solution](https://github.com/0zra/learn_ruby)
 * [Alin Simion's solutions](https://github.com/alinsg/learn_ruby)
 * [Kyle Lemon's solutions](https://github.com/jklemon17/learn_ruby)
