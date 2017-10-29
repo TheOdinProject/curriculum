@@ -22,7 +22,7 @@ The most important resources that we'll leverage are the [Rails Guides](http://g
 
 The Guides are comprehensive, basically a completely open-source textbook and reference manual for Rails.  At times they'll get a bit more technical than you might like, and it may be okay to skim some of that.  When you Google for a solution later, if it's not showing up on Stack Overflow then it's probably going to give you a link to the Guides.
 
-The Ruby on Rails Tutorial (aka the Hartl Tutorial, after its author) is another free resource which builds (over several hundred pages) a full featured web application (Twitter clone), including introducing you to testing your code using RSpec along the way.
+The Ruby on Rails Tutorial (aka the Hartl Tutorial, after its author) is another free resource which builds (over several hundred pages) a full featured web application (Twitter clone), including introducing you to testing your code using MiniTest (another well-known testing suite) along the way.
 
 My typical workflow for a long time went sort of like this:
 
