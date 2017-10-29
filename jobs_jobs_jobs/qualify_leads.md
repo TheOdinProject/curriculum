@@ -1,4 +1,4 @@
-# Qualifying Job Leads
+### Introduction
 
 You should have the criteria that you use to evaluate a job already figured out and it should already be in your spreadsheet.  Look through each lead on your spreadsheet and cross off the ones that fail your "must-have" criteria, then rank them based on your "nice-to-have" criteria.  You should be able to easily come up with a weighting system that lets you sort the jobs in order of preference.  Simpler is better, so no need to go overboard.
 
@@ -16,4 +16,3 @@ Some other criteria to think about in the "nice-to-have" column:
 * Does it pay well enough to support me?
 * Does its location fit the needs of me and my family?
 * How long do I want this (first) job for?
-

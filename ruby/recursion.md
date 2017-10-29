@@ -1,5 +1,4 @@
-# Recursion
-<!-- *Estimated Time: 1 hr* -->
+### Introduction
 
 Recursion is the idea that a function calls itself.  Pretty simple, right?  It's used to take a big problem and start breaking it down into smaller and smaller pieces ("Divide and Conquer") and continuing to feed their solutions back into the original function until some sort of answer is achieved and the whole chain unwinds.  
 
@@ -11,34 +10,35 @@ There's also a right and wrong way to use recursion.  The fact is, any problem y
 
 In this brief lesson, you'll get a chance to learn more about when and how to use recursion and then in the next project you will get the chance to apply some of that (since it probably won't really stick until you've had a chance to try it).
 
-## Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment
 
 * Why is recursion a useful technique for solving a big problem?
 * What are the limitations of using recursive solutions?
 * What types of problems are more suited for simple loops than recursion?
 * What is meant by "recursive depth?"
 * What is a "stack overflow" (the concept, not the website)?
-* Why is that relevent to a recursive problem?
+* Why is that relevant to a recursive problem?
 
-## Your Assignment
+### Assignment
 
-1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen
-2. Watch this [Video on Recursion](http://vimeo.com/24716767) by Joshua Cheek but only until minute 17:45!  (don't want to give away the project...)
-3. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+<div class="lesson-content__panel" markdown="1">
+  1. Read the [Chapter on Recursion](http://ruby.bastardsbook.com/chapters/recursion/) in the Bastards Book of Ruby by Dan Nguyen
+  2. Watch this [Video on Recursion](http://vimeo.com/24716767) by Joshua Cheek but only until minute 17:45!  (don't want to give away the project...)
+  3. Read the ["Implementation Issues" section of the wiki article](http://en.wikipedia.org/wiki/Divide_and_conquer_algorithm#Implementation_issues) to get an overview of some of the limitations of recursion.
+</div>
 
-## Test Yourself
+### Test Yourself
 
-1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/recursion) on Recursion.
+<div class="lesson-content__panel" markdown="1">
+  1. Complete the [Code Quiz](http://www.codequizzes.com/computer-science/beginner/recursion) on Recursion.
+</div>
 
-## Additional Resources
-
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 
 * ["What is Ruby Recursion and How Does It Work?"](http://stackoverflow.com/questions/6418017/what-is-ruby-recursion-and-how-does-it-work) on Stack Overflow
 * [Efficient Recursion from U of Alberta](http://webdocs.cs.ualberta.ca/~holte/T26/efficient-rec.html)
-* [Natashatherobot's blog post on Recusion in Ruby](http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
+* [Natashatherobot's blog post on Recursion in Ruby](http://natashatherobot.com/recursion-factorials-fibonacci-ruby/)
 * [Functional Programming Techniquest with Ruby post](http://www.sitepoint.com/functional-programming-techniques-with-ruby-part-iii/), which covers recursion at the top

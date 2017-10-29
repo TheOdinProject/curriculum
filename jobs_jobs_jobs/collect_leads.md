@@ -1,4 +1,4 @@
-# Collecting Job Leads 
+### Introduction
 
 You've moved beyond the preparation and knowledge gathering phase.  Now it's time to hit the pavement and approach the actual jobs.  
 
@@ -6,7 +6,7 @@ Organization is key here and a spreadsheet is highly recommended.  Keep track of
 
 Put any job opening you find into your spreadsheet.
 
-## The Best Places to Look
+### The Best Places to Look
 
 Start with your network, even if it's small.  Reach out to your Facebook friends and friends-of-friends to see if anyone's hiring.  You should start your search with the highest probability / highest quality sources first:
 
@@ -18,17 +18,15 @@ Start with your network, even if it's small.  Reach out to your Facebook friends
 Try checking out these links for job boards.  The more technically-focused, the better:
 
 * [Authentic Jobs](http://www.authenticjobs.com)
-* [StackOverflow Jobs](http://careers.stackoverflow.com)
-* [Hacker Jobs UK](http://hackerjobs.co.uk)
+* [StackOverflow Jobs](https://stackoverflow.com/jobs)
 * [CWJobs](http://cwjobs.co.uk)
 * [Github Jobs](https://jobs.github.com/)
-* [Mighty Spring] (http://www.mightyspring.com) - get matched to startup jobs
 * [White Truffle -- Weighted towards startups right now](http://www.whitetruffle.com)
 * [Dice.com](http://www.dice.com)
 * [Coderwall.com](http://coderwall.com) lets you display your engineering prowess and they can come to you.
 * [Join-Startups](http://join-startups.com) - open startup jobs in a dozen cities
 
-## On Recruiters
+### On Recruiters
 
 There are a lot of recruiters out there whose job it is to get you hired, but you'll need to be careful about how you work with them.  For starters, they get paid based on a percentage of the salary you take, so their incentive is to get you paid as much as possible (which is good).  Unfortunately as a junior developer your salary is much lower than a senior engineer so you will not be their priority and they won't spend much time on you (which is bad).  
 

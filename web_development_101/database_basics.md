@@ -1,6 +1,4 @@
-# Databases
-<!-- *Estimated Time: 4-6 hrs* -->
-
+### Introduction
 
 We've talked about the client-side and the server-side but how do we keep ahold of all our user's data?  Who remembers that your login password is `CatLover1985` so you can sign into the website?  The bottom layer of any web application is the database and it handles all the remembering for you (we'll cover caching much later).  It can be relatively simple, like an excel spreadsheet, or incredibly complex and split into many giant pieces like Facebook's.
 
@@ -8,9 +6,8 @@ Databases are kind of hidden in the back of the web application so people treat 
 
 Compared to a normal programming language like you've already learned, SQL (Structured Query Language), which is used to query databases, is a very simple syntax... there are only a small handful of verbs to learn.  What trips people up is that you need to be able to visualize in your head what it's going to be doing.  We'll spend a fair bit of time on SQL and databases because they're so fundamental, but for now we'll just cover enough to get you familiar with what's going on in there.
 
-## Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment
 
 * What is a database?
 * What are relational databases?
@@ -24,25 +21,20 @@ Compared to a normal programming language like you've already learned, SQL (Stru
 * What is a primary key?
 * What is a foreign key?
 
-## Assignment:
-1. Check out a pretty good plain-english explanation of SQL, written by Zed Shaw, at [Learn SQL The Hard Way](http://sql.learncodethehardway.org/book/introduction.html).  Only read the introduction (unless you're feeling ambitious).
-2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
-2. Next, you'll be watching some of Stanford's [Intro to Databases course lectures](https://class.stanford.edu/courses/DB/2014/SelfPaced/about).  They've been broken down into a couple of "mini-courses". Do the [first mini-course called "Introduction and Relational Databases"](https://class.stanford.edu/courses/DB/RDB/SelfPaced/about) ([the first video can be found here](https://class.stanford.edu/courses/DB/RDB/SelfPaced/courseware/ch-introduction/seq-vid-introduction/)), and the [mini-course on SQL](https://class.stanford.edu/courses/DB/SQL/SelfPaced/about) ([The first video can be found here](https://class.stanford.edu/courses/DB/SQL/SelfPaced/courseware/ch-sql/seq-vid-introduction_to_sql/)).
+### Assignment
 
-    If those links aren't working, see the Additional Resources section below for more help.  
+<div class="lesson-content__panel" markdown="1">
 
-    Make sure to do the automated assignments as well for the SQL section!  It's easier if you have a pen-and-paper handy to try and visualize what's going on.
+  1. Check out this [introduction](https://launchschool.com/books/sql/read/introduction) of how SQL can be used to organise and manage an overwhelming amount of data. (You do not need to go any further than the first page on introductions.)
+  2. Watch this [short video introduction to relational databases](http://www.youtube.com/watch?v=z2kbsG8zsLM) to get a feel for why this stuff is useful and some more exposure to the terminology we'll use.
+  3. Go through this [Khan Academy tutorial](https://www.khanacademy.org/computing/hour-of-code/hour-of-sql/v/welcome-to-sql), to get a feel for actually creating and manipulating databases
 
-## Additional Resources
+</div>
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
-
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
 
 * [What is a Relational Database?](http://computer.howstuffworks.com/question599.htm) from HowStuffWorks.com
 * A brief [Simple Wiki article describing relational databases](http://simple.wikipedia.org/wiki/Relational_database)
-* If the Stanford databases course above isn't working, check out their [playlist on YouTube](https://www.youtube.com/playlist?list=PL6hGtHedy2Z4EkgY76QOcueU8lAC4o6c3).  Watch lectures 1-3 (introductory material) and 11-13 (SQL).  Note -- this refers to the *lecture number* not the video's position in the playlist (they're all out of order).  
 * Hunter Ducharme created [an e-book](http://hgducharme.gitbooks.io/sql-basics/) which is a great documentation on how to do all the basics in SQL.
-
-    Also, skip the stuff on relational algebra, XML, and JSON unless you're feeling ambitious.  All of these database videos can be a bit technical, so don't worry if you don't absorb it all at first -- we'll cover it again in the Rails course.  The original Coursera course can be found [here](https://class.coursera.org/db/lecture/index).
-
 * For more repetitions with the material, check out [SQL Teaching](http://www.sqlteaching.com), the "Codecademy for SQL" (and let us know what you think).

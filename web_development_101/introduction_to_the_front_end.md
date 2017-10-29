@@ -1,5 +1,4 @@
-# Introduction to the Front End
-<!-- *Estimated Time: 1 hr* -->
+### Introduction
 
 The "front end languages" live in the browser.  After you type in an address in the address bar at the top and hit Enter, your browser will receive at least an HTML file from the web server.  That file will likely tell the browser to go and also ask for a CSS file and a Javascript file as well (probably many more than one, but we'll keep it simple).  
 
@@ -11,23 +10,24 @@ On the front end, you will need to be highly conscious of who your user is and h
 
 In the following lessons, you'll get a healthy understanding of each of the three frontend languages (and jQuery, the most popular Javascript library).  To get warmed up, we'll just start at the high level.
 
-## Points to Ponder
-
-*Look through these now and then use them to test yourself after doing the assignment*
-
+### Learning Outcomes
+Look through these now and then use them to test yourself after doing the assignment:
 
 * What is the role of HTML in a web page?
 * What is the role of CSS in a web page?
 * What is the role of Javascript in a web page?
 
-## Assignment:
-1. Read a brief intro to front end development from this [Interview with Nick Schaden](http://blog.generalassemb.ly/what-is-front-end-web-development/)
-1. Get a high level overview of how all three languages (and jQuery) work together in a web page in this brief learn.jquery.com post on the [Anatomy of a Web Page](http://learn.jquery.com/javascript-101/getting-started/).
-2. If you didn't the first time, check out [this 10-minute video on your browser's developer tools](http://www.youtube.com/watch?v=z1TkfcC53G0), which should make a bit more sense to you anyway now.
+### Assignment
 
-## Additional Resources
+<div class="lesson-content__panel" markdown="1">
 
-*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+  1. Read a brief intro to front end development from this [Interview with Nick Schaden](https://generalassemb.ly/blog/what-is-front-end-web-development/)
+  2. Get a high level overview of how all three languages work together in MDN's [Getting started with the Web](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web). Readers should only go through: Dealing with files, HTML basics, CSS basics and Javascript basics.
+  3. Familiarize yourself with these documentation pages: [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element), [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference#Keyword_index), [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference), and [jQuery](http://api.jquery.com/). You will not understand most of what is there just yet, but bookmark the pages for later reference.
 
-* [A longer course digging deeply into your browser's developer tools from Code School](http://discover-devtools.codeschool.com/)
-* [Skills of a Successful Front-end Web developer](https://drupal.org/node/1245650) from Drupal (a CMS based on PHP).
+</div>
+
+### Additional Resources
+This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
+
+* [Skills of a Successful Front-end Web developer](https://web.archive.org/web/20151110193658/https://www.drupal.org/node/1245650) from Drupal (a CMS based on PHP).
