@@ -171,7 +171,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Serch solution(easy)](https://github.com/sbadillo/google-homepage/) - [View in browser](https://sbadillo.github.io/google-homepage/)
 * [Marko Dinka's Solution (Difficult) ](https://github.com/Relyful/google-homepage)- [View in browser](https://relyful.github.io/google-homepage/)
 * [Andreynho2006 solution](https://github.com/andreynho2006/google-homepage) - [View in browser](https://andreynho2006.github.io/google-homepage/)
- [Bartosz solution(difficult)](https://github.com/ispmor/google-searchpage) - [View in browser](https://ispmor.github.io/google-searchpage/)
+* [Bartosz solution(difficult)](https://github.com/ispmor/google-searchpage) - [View in browser](https://ispmor.github.io/google-searchpage/)
 * [Xavier solution(easy)](https://github.com/nxdf2015/odin-google-easy) - [View in browser](https://nxdf2015.github.io/odin-google-easy/)
 * [Abdelrahman AlShakhshir's solution(Easy)](https://github.com/aalshakhshirOdin/Googles-Home-Page) - [View in Browser](https://aalshakhshirodin.github.io/Googles-Home-Page/)
 * [Webdev-burd's solution(Easy)](https://github.com/webdev-burd/google-homepage) - [View in Browser](https://webdev-burd.github.io/google-homepage)
