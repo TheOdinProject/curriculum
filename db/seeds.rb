@@ -124,6 +124,17 @@ create_or_update_lesson(
 
 lesson_counter += 1
 create_or_update_lesson(
+  title: "Introduction to Web Development",
+  title_url: "Introduction to Web Development".parameterize,
+  description: "Learn a little about web development as a career.",
+  position: lesson_counter,
+  section_id: section.id,
+  is_project: false,
+  url: "/web_development_101/introduction_to_web_development.md"
+)
+
+lesson_counter += 1
+create_or_update_lesson(
   title: "Gearing Up",
   title_url: "Gearing Up".parameterize,
   description: "Some advice about how to approach learning to program.",
