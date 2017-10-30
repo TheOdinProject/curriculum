@@ -35,6 +35,7 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Daunenok's solution](https://github.com/daunenok/google-map) - [View in browser](https://daunenok.github.io/google-map/)
 * [Axel's solution](https://github.com/afuh/iss) - [View in browser](http://iss.surge.sh/)
 * [Austin's solution](https://github.com/CouchofTomato/google-map-api-test) - [View in browser](https://couchoftomato.github.io/google-map-api-test/)
+* [Neil Cudden's solution](https://github.com/ncud4bloc/GoogleMaps) - [View in browser](https://ncud4bloc.github.io/GoogleMaps/HTML/indexGM.html)
 
 ### Additional Resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something.
