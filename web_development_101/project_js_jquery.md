@@ -700,7 +700,6 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Mayank Patel's solution (With Random Colors)](https://github.com/maknahar/maknahar.github.io/tree/master/op/etch-a-sketch) - [View in browser](https://maknahar.github.io/op/etch-a-sketch/)
 * [Shane Butler's solution](https://github.com/shaneausley/etch-a-sketch) - [View in browser](https://shaneausley.github.io/etch-a-sketch/)
 * [jm18457's solution](https://github.com/jm18457/drawing-game.git)
-<<<<<<< HEAD
 * [Anik Pramanik's solution](https://github.com/radioactive001/sketch-book) - [View in browser](https://radioactive001.github.io/sketch-book/)
 * [Oliver Curting's solution](https://github.com/Curting/sketchpad) - [View in browser](https://curting.github.io/sketchpad/)
 * [coryparham24's solution](https://github.com/coryparham24/sketchpad) - [View in browser](https://cdn.rawgit.com/coryparham24/sketchpad/f7cb10ef/index.html)
@@ -729,4 +728,5 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Brandon B.'s solution](https://github.com/bmbost/etchasketch) - [View in browser](https://bmbost.github.io/etchasketch/)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/etch-a-sketch) - [View in browser](https://brunoparga.github.io/etch-a-sketch/)
 * [llisahere's Solution](https://github.com/llisahere/Etchasketch) - [View in browser](https://llisahere.github.io/Etchasketch/)
+* [KaczmarekWill's Solution](https://github.com/KaczmarekWill/etch-a-sketch) - [View in browser](https://KaczmarekWill.github.io/etch-a-sketch/)
 * [ppjk1's Solution](https://github.com/ppjk1/etch-a-sketch) - [View in browser](https://ppjk1.github.io/etch-a-sketch)
