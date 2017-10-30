@@ -728,3 +728,4 @@ Submit a link below to the github repo with your files in it by using a pull req
 * [Brandon B.'s solution](https://github.com/bmbost/etchasketch) - [View in browser](https://bmbost.github.io/etchasketch/)
 * [Bruno Parga's solution](https://github.com/brunoparga/odinproject/tree/master/WebDev101/etch-a-sketch) - [View in browser](https://brunoparga.github.io/etch-a-sketch/)
 * [llisahere's Solution](https://github.com/llisahere/Etchasketch) - [View in browser](https://llisahere.github.io/Etchasketch/)
+* [KaczmarekWill's Solution](https://github.com/KaczmarekWill/etch-a-sketch) - [View in browser](https://KaczmarekWill.github.io/etch-a-sketch/)
