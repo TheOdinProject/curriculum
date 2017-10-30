@@ -34,6 +34,7 @@ It's time to build an on-screen calculator
 Submit a link below to the github repo with your files in it by using a pull request.  See the section on [Contributing](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md) for how.  Please include your partner's github handle somewhere in the description if you had one and they would like attribution.
 
 * Add your solution below this line!
+* [Tamerlan1993's solution](https://github.com/Tamerlan1993/03.03.2017-JS-practise/tree/master/calc) [View in browser](https://rawgit.com/Tamerlan1993/03.03.2017-JS-practise/master/calc/index.html)
 * [ghall's solution -- with display](https://github.com/theghall/javascript-calculator) [View in browser](https://theghall.github.io/javascript-calculator/)
 * [jfonz001's solutions](https://github.com/jfonz412/calculator) - [View in browser](https://jfonz412.github.io/calculator/)
 * [Jcan solution](https://github.com/justinemar/js-calculator) - [View in browser](https://htmlpreview.github.io/?https://github.com/justinemar/js-calculator/blob/master/index.html)
