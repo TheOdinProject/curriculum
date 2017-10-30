@@ -22,11 +22,11 @@ lesson_counter = 0
 incrementer = 1000
 
 # Public: Only run this update attributes if all have one or more records in the database
-if Course.all.any? && Section.all.any? && Lesson.all.any?
-  Course.all.each { |c| c.update_attribute(:position, c.position + incrementer)}
-  Section.all.each { |s| s.update_attribute(:position, s.position + incrementer)}
-  Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
-end
+# if Course.all.any? && Section.all.any? && Lesson.all.any?
+#   Course.all.each { |c| c.update_attribute(:position, c.position + incrementer)}
+#   Section.all.each { |s| s.update_attribute(:position, s.position + incrementer)}
+#   Lesson.all.each { |l| l.update_attribute(:position, l.position + incrementer)}
+# end
 
 def create_or_update_course(course_attrs)
   course = Course.where(title: course_attrs[:title]).first
